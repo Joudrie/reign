@@ -10,7 +10,8 @@ import { z } from "zod";
  *   - co-monarchs (William III & Mary II)          -> one reign, two rulers
  *   - civil wars (Stephen vs Matilda)              -> two overlapping reigns
  *                                                     linked by `contestedWith`
- *   - no monarch at all (1649–1660)                -> kind: "interregnum"
+ *   - no monarch at all (1649–1660)                -> kind: "interregnum"; `rulers`
+ *                                                     lists who held power instead
  *
  * `reigns` is stored in story order: swiping right walks the array.
  * The timeline derives its lanes (parallel lines, splits) from overlaps.
@@ -95,11 +96,12 @@ export const Review = z.object({
 export const Reign = z.object({
   id: slug,
   kind: z.enum(["monarch", "claimant", "interregnum"]),
-  /** One for a normal reign, two for co-monarchs, zero for an interregnum. */
+  /** One for a normal reign, two for co-monarchs; for an interregnum, whoever ran things (may be empty). */
   rulers: z.array(slug),
   /** Card title; defaults to the ruler's name. Needed for interregnums / co-reigns. */
   title: z.string().optional(),
-  tagline: z.string().min(1),
+  /** One short line under the name. */
+  tagline: z.string().min(1).max(60),
   start: HistoricDate,
   end: HistoricDate.optional(), // absent for the current monarch
   /** Other reign ids that overlap this one as rival claims (timeline splits). */
@@ -111,13 +113,14 @@ export const Reign = z.object({
   cameToPower: z.string().min(1).max(40),
   reignEnded: z.string().min(1).max(40),
   /** One-line recap of the previous card. */
-  previously: z.string().min(1).max(100),
-  paragraphs: z.array(z.string().min(1)).min(3).max(4),
-  claims: z.array(Claim).default([]),
+  previously: z.string().min(1).max(70),
+  /** The story: a couple of short paragraphs, not an encyclopedia entry. */
+  paragraphs: z.array(z.string().min(1).max(480)).min(2).max(3),
+  claims: z.array(Claim).max(3).default([]),
   /** Cliffhanger into the next card. Omit only on the final card. */
-  hook: z.string().optional(),
-  /** First image is the portrait; second (optional) sits mid-card. */
-  images: z.array(Image).min(1).max(2),
+  hook: z.string().max(220).optional(),
+  /** The portrait. One image per card for now. */
+  images: z.array(Image).length(1),
   sources: z.array(Source).min(2),
   review: Review,
 });

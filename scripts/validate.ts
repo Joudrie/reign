@@ -75,9 +75,9 @@ for (const name of readdirSync(dataDir).filter((f) => f.endsWith(".json"))) {
 
   c.reigns.forEach((g: Reign, i) => {
     const where = g.id;
-    if (g.kind === "interregnum" ? g.rulers.length !== 0 : g.rulers.length === 0)
-      err(where, `kind "${g.kind}" with ${g.rulers.length} rulers`);
-    if (g.rulers.length !== 1 && !g.title) err(where, "co-reigns and interregnums need a title");
+    if (g.kind !== "interregnum" && g.rulers.length === 0) err(where, `kind "${g.kind}" with no rulers`);
+    if ((g.rulers.length !== 1 || g.kind === "interregnum") && !g.title)
+      err(where, "co-reigns and interregnums need a title");
 
     for (const d of [g.start, g.end]) if (d && !plausible(d)) err(where, `impossible date ${d.date}`);
     if (g.end && key(g.end) < key(g.start)) err(where, "ends before it starts");
@@ -90,7 +90,9 @@ for (const name of readdirSync(dataDir).filter((f) => f.endsWith(".json"))) {
         continue;
       }
       if (key(g.start) < key(r.born)) err(where, `${r.name} reigns before being born`);
-      if (r.died && g.end && key(g.end) > key(r.died)) err(where, `${r.name} reigns after dying`);
+      // An interregnum outlives its leaders (Oliver Cromwell died in 1658; the Commonwealth ran to 1660).
+      if (g.kind !== "interregnum" && r.died && g.end && key(g.end) > key(r.died))
+        err(where, `${r.name} reigns after dying`);
     }
 
     for (const id of g.contestedWith) {
