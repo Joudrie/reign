@@ -1,0 +1,16 @@
+{
+  "name": "reign",
+  "private": true,
+  "version": "0.0.1",
+  "type": "module",
+  "scripts": {
+    "validate": "tsx scripts/validate.ts",
+    "typecheck": "tsc --noEmit"
+  },
+  "devDependencies": {
+    "@types/node": "^26.6.4",
+    "tsx": "^4.23.15",
+    "typescript": "^7.0.2",
+    "zod": "^3.25.76"
+  }
+}

@@ -1,0 +1,131 @@
+/**
+ * Validates every country file in /data.
+ *
+ *   npm run validate
+ *
+ * Fails (exit 1) on schema errors and on facts that can't be right:
+ * dangling ids, reigns ending before they start, overlapping reigns that
+ * aren't marked as contested, a ruler reigning before birth or after death.
+ * Warns on things a human should look at: unchecked drafts, long gaps.
+ */
+import { readdirSync, readFileSync } from "node:fs";
+import { join } from "node:path";
+import { Country, type HistoricDate, type Reign } from "../src/data/schema.ts";
+
+const dataDir = join(import.meta.dirname, "..", "data");
+let errors = 0;
+let warnings = 0;
+
+const err = (file: string, msg: string) => {
+  errors++;
+  console.error(`  ✗ ${file}: ${msg}`);
+};
+const warn = (file: string, msg: string) => {
+  warnings++;
+  console.warn(`  ! ${file}: ${msg}`);
+};
+
+/** Sortable key; truncated dates sort to the start of their year/month. */
+const key = (d: HistoricDate) => {
+  const [y, m = "01", day = "01"] = d.date.split("-");
+  return `${y}-${m}-${day}`;
+};
+
+/** Range check only — Feb 29 is allowed every year because Julian leap rules differ. */
+const plausible = (d: HistoricDate) => {
+  const [, m, day] = d.date.split("-").map(Number);
+  if (m !== undefined && (m < 1 || m > 12)) return false;
+  if (day !== undefined) {
+    const max = [31, 29, 31, 30, 31, 30, 31, 31, 30, 31, 30, 31][m - 1];
+    if (day < 1 || day > max) return false;
+  }
+  return true;
+};
+
+const years = (a: HistoricDate, b: HistoricDate) =>
+  (Date.parse(key(b)) - Date.parse(key(a))) / (365.2425 * 864e5);
+
+for (const name of readdirSync(dataDir).filter((f) => f.endsWith(".json"))) {
+  console.log(`\n${name}`);
+  const parsed = Country.safeParse(JSON.parse(readFileSync(join(dataDir, name), "utf8")));
+  if (!parsed.success) {
+    for (const i of parsed.error.issues) err(name, `${i.path.join(".")}: ${i.message}`);
+    continue;
+  }
+  const c = parsed.data;
+
+  // Ids are unique per collection; a reign usually shares its ruler's id (it's the URL slug).
+  for (const [kind, list] of [["house", c.houses], ["ruler", c.rulers], ["reign", c.reigns]] as const) {
+    const seen = new Set<string>();
+    for (const { id } of list) {
+      if (seen.has(id)) err(name, `duplicate ${kind} id "${id}"`);
+      seen.add(id);
+    }
+  }
+  const houses = new Set(c.houses.map((h) => h.id));
+  const rulers = new Map(c.rulers.map((r) => [r.id, r]));
+  const reigns = new Map(c.reigns.map((r) => [r.id, r]));
+
+  for (const r of c.rulers) {
+    if (!houses.has(r.house)) err(r.id, `unknown house "${r.house}"`);
+    if (!c.reigns.some((g) => g.rulers.includes(r.id))) warn(r.id, "ruler has no reign");
+    for (const d of [r.born, r.died]) if (d && !plausible(d)) err(r.id, `impossible date ${d.date}`);
+    if (r.died && key(r.died) < key(r.born)) err(r.id, "died before born");
+  }
+
+  c.reigns.forEach((g: Reign, i) => {
+    const where = g.id;
+    if (g.kind === "interregnum" ? g.rulers.length !== 0 : g.rulers.length === 0)
+      err(where, `kind "${g.kind}" with ${g.rulers.length} rulers`);
+    if (g.rulers.length !== 1 && !g.title) err(where, "co-reigns and interregnums need a title");
+
+    for (const d of [g.start, g.end]) if (d && !plausible(d)) err(where, `impossible date ${d.date}`);
+    if (g.end && key(g.end) < key(g.start)) err(where, "ends before it starts");
+    if (!g.end && i !== c.reigns.length - 1) err(where, "only the last reign may be open-ended");
+
+    for (const id of g.rulers) {
+      const r = rulers.get(id);
+      if (!r) {
+        err(where, `unknown ruler "${id}"`);
+        continue;
+      }
+      if (key(g.start) < key(r.born)) err(where, `${r.name} reigns before being born`);
+      if (r.died && g.end && key(g.end) > key(r.died)) err(where, `${r.name} reigns after dying`);
+    }
+
+    for (const id of g.contestedWith) {
+      const other = reigns.get(id);
+      if (!other) err(where, `contestedWith unknown reign "${id}"`);
+      else if (!other.contestedWith.includes(g.id)) err(where, `contestedWith "${id}" is not mutual`);
+    }
+
+    const prev = c.reigns[i - 1];
+    if (prev) {
+      if (key(g.start) < key(prev.start)) err(where, `out of order: starts before "${prev.id}"`);
+      if (prev.end && key(g.start) < key(prev.end) && !g.contestedWith.includes(prev.id))
+        err(where, `overlaps "${prev.id}" — mark contestedWith or fix dates`);
+      if (prev.end && years(prev.end, g.start) > 1)
+        warn(where, `${years(prev.end, g.start).toFixed(1)}-year gap after "${prev.id}"`);
+    }
+
+    const last = i === c.reigns.length - 1;
+    if (!g.hook && !last) err(where, "missing hook");
+
+    for (const img of g.images)
+      if (!/public domain|^cc[ -]/i.test(img.license)) warn(where, `check license "${img.license}" on ${img.file}`);
+
+    if (g.review.status === "draft") warn(where, "not yet fact-checked (review.status: draft)");
+  });
+
+  console.log(
+    `  ${c.reigns.length} reigns · ${c.rulers.length} rulers · ` +
+      `${c.reigns.filter((g) => g.review.status === "checked").length} checked`,
+  );
+  for (const g of c.reigns) {
+    const len = g.end ? `${years(g.start, g.end).toFixed(1)} yrs` : "ongoing";
+    console.log(`    ${g.start.date.padEnd(10)} → ${(g.end?.date ?? "").padEnd(10)}  ${len.padStart(9)}  ${g.title ?? rulers.get(g.rulers[0])?.name}`);
+  }
+}
+
+console.log(`\n${errors} error(s), ${warnings} warning(s)`);
+process.exit(errors ? 1 : 0);

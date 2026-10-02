@@ -1,0 +1,249 @@
+{
+  "id": "england",
+  "name": "England & the UK",
+  "blurb": "From the Norman Conquest to Charles III",
+  "dateConvention": "Reigns before 1272 are counted from coronation; from Edward I onward, from the day the previous monarch died. Dates are given as the sources record them: Julian calendar until 1752, Gregorian after.",
+  "houses": [
+    { "id": "normandy", "name": "Normandy", "color": "#9b2c2c" }
+  ],
+  "rulers": [
+    {
+      "id": "william-i",
+      "name": "William I",
+      "epithet": "the Conqueror",
+      "house": "normandy",
+      "born": { "date": "1028", "circa": true, "note": "Falaise, Normandy" },
+      "died": { "date": "1087-09-09", "note": "Rouen, Normandy" },
+      "causeOfDeath": "An injury or illness picked up while campaigning at Mantes"
+    },
+    {
+      "id": "william-ii",
+      "name": "William II",
+      "epithet": "Rufus",
+      "house": "normandy",
+      "born": { "date": "1056", "circa": true, "note": "Somewhere between about 1056 and 1060; sources differ" },
+      "died": { "date": "1100-08-02", "note": "New Forest, Hampshire" },
+      "causeOfDeath": "Shot by an arrow while hunting"
+    },
+    {
+      "id": "henry-i",
+      "name": "Henry I",
+      "epithet": "Beauclerc",
+      "house": "normandy",
+      "born": { "date": "1068", "circa": true, "note": "Probably in England" },
+      "died": { "date": "1135-12-01", "note": "Lyons-la-Forêt, Normandy" },
+      "causeOfDeath": "A sudden illness, traditionally blamed on lampreys"
+    }
+  ],
+  "reigns": [
+    {
+      "id": "william-i",
+      "kind": "monarch",
+      "rulers": ["william-i"],
+      "tagline": "The Norman duke who won England in a single day",
+      "start": { "date": "1066-12-25" },
+      "end": { "date": "1087-09-09" },
+      "relationToPredecessor": "No relation. He defeated Harold II at Hastings.",
+      "ageAtAccession": "About 38",
+      "cameToPower": "Conquest. He won the Battle of Hastings and was crowned on Christmas Day 1066.",
+      "reignEnded": "Died in Rouen after an injury or illness on campaign",
+      "previously": "January 1066: Edward the Confessor dies childless, and three men think his crown is theirs. Harold Godwinson grabs it first. He beats a Norwegian invasion in the north, then hears that a Norman duke has just landed on the south coast.",
+      "paragraphs": [
+        "William was born around 1028, the illegitimate son of the Duke of Normandy and a woman from Falaise named Herleva. His enemies called him William the Bastard. He became duke at about seven or eight, and his childhood was mostly about staying alive: several of the men appointed to protect him were murdered. He grew up into a hard, effective soldier who did not forgive.",
+        "He said England had been promised to him. His cousin Edward the Confessor had spent years in exile in Normandy, and William claimed Edward had named him heir. He also said Harold Godwinson had sworn on holy relics to back him during a visit to Normandy. When Harold took the crown anyway, William gathered a fleet and landed at Pevensey on 28 September 1066. On 14 October the armies met near Hastings. By nightfall Harold was dead, and England no longer had an army.",
+        "He was crowned in Westminster Abbey on Christmas Day, and even that went wrong. When the congregation shouted their approval, the Norman guards outside thought it was a riot and set fire to nearby houses. That set the tone. When the north rose against him in 1069, his answer was the Harrying of the North: villages burned, crops and livestock destroyed, and a famine that killed a huge number of people. He covered the country in castles and replaced almost the whole English nobility with Normans.",
+        "In 1085 he ordered a survey of who owned what across England, down to the last ox. The result, Domesday Book, still survives. Two years later, campaigning in France, he was hurt or fell ill at Mantes, and he died in Rouen on 9 September 1087. He had three surviving sons and two kingdoms to hand out. Robert, the eldest, who had once fought against him, got Normandy. William got England. Henry got money."
+      ],
+      "claims": [
+        {
+          "text": "Edward the Confessor promised William the throne.",
+          "status": "disputed",
+          "note": "Only Norman sources say so. English sources say Edward named Harold on his deathbed."
+        },
+        {
+          "text": "Harold was killed by an arrow in the eye.",
+          "status": "disputed",
+          "note": "The Bayeux Tapestry scene is ambiguous and was restored in the 1800s. The earliest written accounts disagree on how he died."
+        },
+        {
+          "text": "William's swollen corpse burst during his funeral.",
+          "status": "disputed",
+          "note": "Told by the monk Orderic Vitalis about 50 years later. No other early source mentions it."
+        }
+      ],
+      "hook": "Before the old king has even died, his second son is riding for the coast with a sealed letter for the Archbishop of Canterbury. If he gets to England first, he'll be king. His older brother Robert isn't going to like it.",
+      "images": [
+        {
+          "file": "File:William I of England.jpg",
+          "url": "https://upload.wikimedia.org/wikipedia/commons/9/9e/William_I_of_England.jpg",
+          "page": "https://commons.wikimedia.org/wiki/File:William_I_of_England.jpg",
+          "credit": "Attributed to George Vertue",
+          "license": "Public domain",
+          "made": "18th century",
+          "caption": "An 18th-century imagining, made about 650 years after his death. Nobody knows what he really looked like.",
+          "alt": "Engraved portrait of a bearded king wearing a crown"
+        },
+        {
+          "file": "File:Bayeux Tapestry scene55 William lifting his helmet.jpg",
+          "url": "https://upload.wikimedia.org/wikipedia/commons/3/3c/Bayeux_Tapestry_scene55_William_lifting_his_helmet.jpg",
+          "page": "https://commons.wikimedia.org/wiki/File:Bayeux_Tapestry_scene55_William_lifting_his_helmet.jpg",
+          "credit": "Bayeux Tapestry; photograph by Myrabella",
+          "license": "Public domain",
+          "made": "1070s",
+          "caption": "Mid-battle at Hastings, William lifts his helmet to show his troops he's still alive. From the Bayeux Tapestry, embroidered within about ten years of the battle.",
+          "alt": "Embroidered scene of a mounted knight lifting his helmet"
+        }
+      ],
+      "sources": [
+        { "title": "The Anglo-Saxon Chronicle" },
+        { "title": "The Ecclesiastical History", "author": "Orderic Vitalis" },
+        { "title": "William the Conqueror (Yale English Monarchs)", "author": "David Bates", "note": "Yale University Press, 2016" },
+        { "title": "The Norman Conquest", "author": "Marc Morris", "note": "Hutchinson, 2012" }
+      ],
+      "review": { "status": "draft", "notes": "Drafted from the listed sources; needs a human fact-check." }
+    },
+    {
+      "id": "william-ii",
+      "kind": "monarch",
+      "rulers": ["william-ii"],
+      "tagline": "The red king who never came back from the hunt",
+      "start": { "date": "1087-09-26" },
+      "end": { "date": "1100-08-02" },
+      "relationToPredecessor": "Third son of William I",
+      "ageAtAccession": "Somewhere between 27 and 31",
+      "cameToPower": "Named by his dying father, and crowned before his brother Robert could react",
+      "reignEnded": "Shot with an arrow while hunting in the New Forest",
+      "previously": "William the Conqueror has died in France and split his lands in two: Normandy to his eldest son, Robert, and England to his next surviving son, William.",
+      "paragraphs": [
+        "Nobody called him William II. They called him Rufus, “the Red”, probably because of his ruddy face. He was blunt and loud and loved a fight. Medieval kings were mostly written up by monks, and the monks hated him. They said he swore constantly, mocked the Church, and filled his court with long-haired young men in ridiculous pointed shoes. Some of that is fair, and some of it is churchmen with a grudge.",
+        "Less than a year into his reign, a large group of Norman barons in England rebelled to put his brother Robert on the throne instead. Their leader was Rufus's own uncle, Odo, Bishop of Bayeux, the same Odo who appears on the Bayeux Tapestry. Rufus did something clever and appealed directly to the English, promising them good laws and lighter taxes. They fought for him, and the rebellion fell apart. He mostly forgot the promises afterwards.",
+        "In 1096 Robert wanted to go on crusade and needed cash, so he pawned Normandy to his brother for 10,000 marks. Suddenly Rufus held nearly everything their father had. He also spent years in a bitter feud with Anselm, the saintly Archbishop of Canterbury, who in the end left the country rather than give in. And he built Westminster Hall, which still stands beside Parliament. When people admired its size, he reportedly said it was barely big enough to be a bedroom.",
+        "On 2 August 1100 he went hunting in the New Forest with a small party that included his younger brother Henry and a nobleman called Walter Tirel. Late in the day an arrow hit Rufus in the chest and killed him. Tirel was blamed, rode for the coast, and escaped to France. For the rest of his life he swore he hadn't fired the shot. The king's body was carried to Winchester on a cart by local men. He was in his forties, unmarried, and had no children."
+      ],
+      "claims": [
+        {
+          "text": "Rufus was murdered, and his brother Henry was behind it.",
+          "status": "disputed",
+          "note": "No writer at the time accused Henry. The theory rests on how quickly he moved afterwards. Most historians lean towards an accident."
+        },
+        {
+          "text": "Walter Tirel always denied firing the arrow.",
+          "status": "confirmed",
+          "note": "Abbot Suger of Saint-Denis, who knew Tirel, wrote that he swore to it even when he had nothing to gain."
+        },
+        {
+          "text": "A charcoal burner named Purkis carried the body to Winchester.",
+          "status": "legend",
+          "note": "This version only shows up centuries later. The early accounts just say local men used a cart."
+        },
+        {
+          "text": "Rufus was gay.",
+          "status": "disputed",
+          "note": "Hostile chroniclers hint at it heavily by attacking the morals of his court, but they give no direct evidence."
+        }
+      ],
+      "hook": "The king lies dead in the forest. His younger brother Henry doesn't stay to mourn. He's already on his horse, riding hard for Winchester, where the royal treasury is kept.",
+      "images": [
+        {
+          "file": "File:William II of England.jpg",
+          "url": "https://upload.wikimedia.org/wikipedia/commons/9/92/William_II_of_England.jpg",
+          "page": "https://commons.wikimedia.org/wiki/File:William_II_of_England.jpg",
+          "credit": "Matthew Paris",
+          "license": "Public domain",
+          "made": "c. 1255",
+          "caption": "Drawn by the monk Matthew Paris around 1255, about 155 years after Rufus died.",
+          "alt": "Medieval manuscript drawing of a seated king holding a sword and a church"
+        },
+        {
+          "file": "File:Death of William Rufus.jpg",
+          "url": "https://upload.wikimedia.org/wikipedia/commons/e/e5/Death_of_William_Rufus.jpg",
+          "page": "https://commons.wikimedia.org/wiki/File:Death_of_William_Rufus.jpg",
+          "credit": "From Ridpath's Universal History (1895)",
+          "license": "Public domain",
+          "made": "1895",
+          "caption": "A Victorian take on the death in the New Forest, from Ridpath's Universal History (1895).",
+          "alt": "Engraving of a king lying fallen in a forest with an arrow in his chest"
+        }
+      ],
+      "sources": [
+        { "title": "William Rufus (Yale English Monarchs)", "author": "Frank Barlow", "note": "Yale University Press, 1983; new ed. 2000" },
+        { "title": "Gesta Regum Anglorum", "author": "William of Malmesbury" },
+        { "title": "The Ecclesiastical History", "author": "Orderic Vitalis" },
+        { "title": "Historia Anglorum", "author": "Henry of Huntingdon", "note": "Westminster Hall remark" },
+        { "title": "The Deeds of Louis the Fat", "author": "Suger of Saint-Denis", "note": "Tirel's denial" }
+      ],
+      "review": { "status": "draft", "notes": "Drafted from the listed sources; needs a human fact-check." }
+    },
+    {
+      "id": "henry-i",
+      "kind": "monarch",
+      "rulers": ["henry-i"],
+      "tagline": "The youngest son who got everything, then lost his heir to the sea",
+      "start": { "date": "1100-08-05" },
+      "end": { "date": "1135-12-01" },
+      "relationToPredecessor": "Younger brother of William II",
+      "ageAtAccession": "About 32",
+      "cameToPower": "Seized the treasury when his brother died and was crowned three days later",
+      "reignEnded": "Died in Normandy after a sudden illness",
+      "previously": "William Rufus is dead in the New Forest, killed by an arrow nobody will admit to firing. His older brother Robert, who many think is the rightful heir, is still on his way home from crusade.",
+      "paragraphs": [
+        "Henry was the youngest son, the one who got money instead of land, and he'd spent years being pushed around by his two older brothers. On 2 August 1100 his luck turned, or he made it turn. He rode straight from the forest to Winchester and took control of the treasury. Three days later he was crowned at Westminster. One of his first acts was a Charter of Liberties promising to end his brother's abuses, a distant ancestor of Magna Carta.",
+        "He married Edith of Scotland, who took the Norman name Matilda. She was descended from the old English kings, which made a Norman king look a little less foreign. Then he dealt with Robert. Robert invaded in 1101 and was bought off. In 1106 Henry crossed to Normandy and beat him at the Battle of Tinchebray. Robert spent the last 28 years of his life as Henry's prisoner and died in Cardiff Castle in 1134.",
+        "Henry ran England like a machine. Royal government grew under him (the Exchequer first shows up in his reign), and he punished enemies without mercy. He had more than twenty illegitimate children, more than any other English king, but only one legitimate son, William Adelin. In November 1120 William boarded the White Ship to cross from Normandy to England. The crew had been drinking. Just outside Barfleur harbour, in the dark, the ship hit a rock, and William drowned along with nearly everyone on board.",
+        "Henry's wife had died two years earlier. He remarried quickly, but there were no more children. So he did something new: he made his barons swear to accept his daughter, also called Matilda, as their next ruler. England had never had a woman rule in her own right. In December 1135, while staying at a hunting lodge in Normandy, he died after a short illness. The story goes that it started with a meal of lampreys his doctor had told him not to eat."
+      ],
+      "claims": [
+        {
+          "text": "Henry's only legitimate son drowned when the White Ship sank in 1120.",
+          "status": "confirmed",
+          "note": "Reported by several writers of the time, including Orderic Vitalis and William of Malmesbury."
+        },
+        {
+          "text": "The White Ship's crew was drunk.",
+          "status": "disputed",
+          "note": "Orderic Vitalis says the crew and passengers had been drinking heavily. He wasn't there, but the story was widely told at the time."
+        },
+        {
+          "text": "Henry died from a “surfeit of lampreys”.",
+          "status": "disputed",
+          "note": "From Henry of Huntingdon, writing soon afterwards. Food poisoning is plausible, but it's one source and a suspiciously neat story."
+        },
+        {
+          "text": "Henry was a scholar king, “Beauclerc”.",
+          "status": "legend",
+          "note": "The nickname comes much later. He was literate and well educated for a prince, but the scholar-king image is overdone."
+        }
+      ],
+      "hook": "Henry's barons have sworn more than once to accept Matilda as queen. Now he's dead, she's far away in Anjou, and his nephew Stephen is already crossing the Channel. Those oaths are about to stop meaning anything.",
+      "images": [
+        {
+          "file": "File:Henry I of England.jpg",
+          "url": "https://upload.wikimedia.org/wikipedia/commons/9/98/Henry_I_of_England.jpg",
+          "page": "https://commons.wikimedia.org/wiki/File:Henry_I_of_England.jpg",
+          "credit": "Unknown artist, 13th-century manuscript (British Library)",
+          "license": "Public domain",
+          "made": "13th century",
+          "caption": "From a 13th-century manuscript, drawn over a century after his death.",
+          "alt": "Medieval manuscript drawing of a crowned king on a throne"
+        },
+        {
+          "file": "File:BL Royal 20 A. ii, f. 6v. Henry I & White Ship.jpg",
+          "url": "https://upload.wikimedia.org/wikipedia/commons/a/aa/BL_Royal_20_A._ii%2C_f._6v._Henry_I_%26_White_Ship.jpg",
+          "page": "https://commons.wikimedia.org/wiki/File:BL_Royal_20_A._ii,_f._6v._Henry_I_%26_White_Ship.jpg",
+          "credit": "Unknown artist, British Library Royal MS 20 A II",
+          "license": "Public domain",
+          "made": "1307–1327",
+          "caption": "Henry on his throne above the sinking White Ship, from a manuscript made about 200 years later.",
+          "alt": "Medieval illustration of an enthroned king above a sinking ship"
+        }
+      ],
+      "sources": [
+        { "title": "Henry I (Yale English Monarchs)", "author": "C. Warren Hollister", "note": "Yale University Press, 2001" },
+        { "title": "Henry I: King of England and Duke of Normandy", "author": "Judith A. Green", "note": "Cambridge University Press, 2006" },
+        { "title": "The Ecclesiastical History", "author": "Orderic Vitalis", "note": "White Ship" },
+        { "title": "Historia Anglorum", "author": "Henry of Huntingdon", "note": "Lampreys" }
+      ],
+      "review": { "status": "draft", "notes": "Drafted from the listed sources; needs a human fact-check." }
+    }
+  ]
+}
