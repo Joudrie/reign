@@ -104,12 +104,14 @@ export const Reign = z.object({
   end: HistoricDate.optional(), // absent for the current monarch
   /** Other reign ids that overlap this one as rival claims (timeline splits). */
   contestedWith: z.array(slug).default([]),
-  /** "Son of William I", "Nephew — and he stole it". */
-  relationToPredecessor: z.string().min(1),
-  ageAtAccession: z.string().min(1),
-  cameToPower: z.string().min(1),
-  reignEnded: z.string().min(1),
-  previously: z.string().min(1),
+  // Quick stats are trivia-length: they sit in a compact row, so keep them short.
+  /** "Son of William I", "Nephew, and he stole it". */
+  relationToPredecessor: z.string().min(1).max(40),
+  ageAtAccession: z.string().min(1).max(20),
+  cameToPower: z.string().min(1).max(40),
+  reignEnded: z.string().min(1).max(40),
+  /** One-line recap of the previous card. */
+  previously: z.string().min(1).max(100),
   paragraphs: z.array(z.string().min(1)).min(3).max(4),
   claims: z.array(Claim).default([]),
   /** Cliffhanger into the next card. Omit only on the final card. */

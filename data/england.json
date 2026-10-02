@@ -4,7 +4,11 @@
   "blurb": "From the Norman Conquest to Charles III",
   "dateConvention": "Reigns before 1272 are counted from coronation; from Edward I onward, from the day the previous monarch died. Dates are given as the sources record them: Julian calendar until 1752, Gregorian after.",
   "houses": [
-    { "id": "normandy", "name": "Normandy", "color": "#9b2c2c" }
+    {
+      "id": "normandy",
+      "name": "Normandy",
+      "color": "#9b2c2c"
+    }
   ],
   "rulers": [
     {
@@ -12,8 +16,15 @@
       "name": "William I",
       "epithet": "the Conqueror",
       "house": "normandy",
-      "born": { "date": "1028", "circa": true, "note": "Falaise, Normandy" },
-      "died": { "date": "1087-09-09", "note": "Rouen, Normandy" },
+      "born": {
+        "date": "1028",
+        "circa": true,
+        "note": "Falaise, Normandy"
+      },
+      "died": {
+        "date": "1087-09-09",
+        "note": "Rouen, Normandy"
+      },
       "causeOfDeath": "An injury or illness picked up while campaigning at Mantes"
     },
     {
@@ -21,8 +32,15 @@
       "name": "William II",
       "epithet": "Rufus",
       "house": "normandy",
-      "born": { "date": "1056", "circa": true, "note": "Somewhere between about 1056 and 1060; sources differ" },
-      "died": { "date": "1100-08-02", "note": "New Forest, Hampshire" },
+      "born": {
+        "date": "1056",
+        "circa": true,
+        "note": "Somewhere between about 1056 and 1060; sources differ"
+      },
+      "died": {
+        "date": "1100-08-02",
+        "note": "New Forest, Hampshire"
+      },
       "causeOfDeath": "Shot by an arrow while hunting"
     },
     {
@@ -30,8 +48,15 @@
       "name": "Henry I",
       "epithet": "Beauclerc",
       "house": "normandy",
-      "born": { "date": "1068", "circa": true, "note": "Probably in England" },
-      "died": { "date": "1135-12-01", "note": "Lyons-la-Forêt, Normandy" },
+      "born": {
+        "date": "1068",
+        "circa": true,
+        "note": "Probably in England"
+      },
+      "died": {
+        "date": "1135-12-01",
+        "note": "Lyons-la-Forêt, Normandy"
+      },
       "causeOfDeath": "A sudden illness, traditionally blamed on lampreys"
     }
   ],
@@ -39,15 +64,21 @@
     {
       "id": "william-i",
       "kind": "monarch",
-      "rulers": ["william-i"],
+      "rulers": [
+        "william-i"
+      ],
       "tagline": "The Norman duke who won England in a single day",
-      "start": { "date": "1066-12-25" },
-      "end": { "date": "1087-09-09" },
-      "relationToPredecessor": "No relation. He defeated Harold II at Hastings.",
+      "start": {
+        "date": "1066-12-25"
+      },
+      "end": {
+        "date": "1087-09-09"
+      },
+      "relationToPredecessor": "None. He conquered Harold II",
       "ageAtAccession": "About 38",
-      "cameToPower": "Conquest. He won the Battle of Hastings and was crowned on Christmas Day 1066.",
-      "reignEnded": "Died in Rouen after an injury or illness on campaign",
-      "previously": "January 1066: Edward the Confessor dies childless, and three men think his crown is theirs. Harold Godwinson grabs it first. He beats a Norwegian invasion in the north, then hears that a Norman duke has just landed on the south coast.",
+      "cameToPower": "Conquest at Hastings",
+      "reignEnded": "Died on campaign in France",
+      "previously": "1066: the old king dies childless, and three men want his crown.",
       "paragraphs": [
         "William was born around 1028, the illegitimate son of the Duke of Normandy and a woman from Falaise named Herleva. His enemies called him William the Bastard. He became duke at about seven or eight, and his childhood was mostly about staying alive: several of the men appointed to protect him were murdered. He grew up into a hard, effective soldier who did not forgive.",
         "He said England had been promised to him. His cousin Edward the Confessor had spent years in exile in Normandy, and William claimed Edward had named him heir. He also said Harold Godwinson had sworn on holy relics to back him during a visit to Normandy. When Harold took the crown anyway, William gathered a fleet and landed at Pevensey on 28 September 1066. On 14 October the armies met near Hastings. By nightfall Harold was dead, and England no longer had an army.",
@@ -95,25 +126,47 @@
         }
       ],
       "sources": [
-        { "title": "The Anglo-Saxon Chronicle" },
-        { "title": "The Ecclesiastical History", "author": "Orderic Vitalis" },
-        { "title": "William the Conqueror (Yale English Monarchs)", "author": "David Bates", "note": "Yale University Press, 2016" },
-        { "title": "The Norman Conquest", "author": "Marc Morris", "note": "Hutchinson, 2012" }
+        {
+          "title": "The Anglo-Saxon Chronicle"
+        },
+        {
+          "title": "The Ecclesiastical History",
+          "author": "Orderic Vitalis"
+        },
+        {
+          "title": "William the Conqueror (Yale English Monarchs)",
+          "author": "David Bates",
+          "note": "Yale University Press, 2016"
+        },
+        {
+          "title": "The Norman Conquest",
+          "author": "Marc Morris",
+          "note": "Hutchinson, 2012"
+        }
       ],
-      "review": { "status": "draft", "notes": "Drafted from the listed sources; needs a human fact-check." }
+      "review": {
+        "status": "draft",
+        "notes": "Drafted from the listed sources; needs a human fact-check."
+      }
     },
     {
       "id": "william-ii",
       "kind": "monarch",
-      "rulers": ["william-ii"],
+      "rulers": [
+        "william-ii"
+      ],
       "tagline": "The red king who never came back from the hunt",
-      "start": { "date": "1087-09-26" },
-      "end": { "date": "1100-08-02" },
+      "start": {
+        "date": "1087-09-26"
+      },
+      "end": {
+        "date": "1100-08-02"
+      },
       "relationToPredecessor": "Third son of William I",
-      "ageAtAccession": "Somewhere between 27 and 31",
-      "cameToPower": "Named by his dying father, and crowned before his brother Robert could react",
-      "reignEnded": "Shot with an arrow while hunting in the New Forest",
-      "previously": "William the Conqueror has died in France and split his lands in two: Normandy to his eldest son, Robert, and England to his next surviving son, William.",
+      "ageAtAccession": "About 27–31",
+      "cameToPower": "Named by his dying father",
+      "reignEnded": "Arrow in the New Forest",
+      "previously": "The Conqueror is dead. Normandy goes to Robert, England to William.",
       "paragraphs": [
         "Nobody called him William II. They called him Rufus, “the Red”, probably because of his ruddy face. He was blunt and loud and loved a fight. Medieval kings were mostly written up by monks, and the monks hated him. They said he swore constantly, mocked the Church, and filled his court with long-haired young men in ridiculous pointed shoes. Some of that is fair, and some of it is churchmen with a grudge.",
         "Less than a year into his reign, a large group of Norman barons in England rebelled to put his brother Robert on the throne instead. Their leader was Rufus's own uncle, Odo, Bishop of Bayeux, the same Odo who appears on the Bayeux Tapestry. Rufus did something clever and appealed directly to the English, promising them good laws and lighter taxes. They fought for him, and the rebellion fell apart. He mostly forgot the promises afterwards.",
@@ -166,26 +219,53 @@
         }
       ],
       "sources": [
-        { "title": "William Rufus (Yale English Monarchs)", "author": "Frank Barlow", "note": "Yale University Press, 1983; new ed. 2000" },
-        { "title": "Gesta Regum Anglorum", "author": "William of Malmesbury" },
-        { "title": "The Ecclesiastical History", "author": "Orderic Vitalis" },
-        { "title": "Historia Anglorum", "author": "Henry of Huntingdon", "note": "Westminster Hall remark" },
-        { "title": "The Deeds of Louis the Fat", "author": "Suger of Saint-Denis", "note": "Tirel's denial" }
+        {
+          "title": "William Rufus (Yale English Monarchs)",
+          "author": "Frank Barlow",
+          "note": "Yale University Press, 1983; new ed. 2000"
+        },
+        {
+          "title": "Gesta Regum Anglorum",
+          "author": "William of Malmesbury"
+        },
+        {
+          "title": "The Ecclesiastical History",
+          "author": "Orderic Vitalis"
+        },
+        {
+          "title": "Historia Anglorum",
+          "author": "Henry of Huntingdon",
+          "note": "Westminster Hall remark"
+        },
+        {
+          "title": "The Deeds of Louis the Fat",
+          "author": "Suger of Saint-Denis",
+          "note": "Tirel's denial"
+        }
       ],
-      "review": { "status": "draft", "notes": "Drafted from the listed sources; needs a human fact-check." }
+      "review": {
+        "status": "draft",
+        "notes": "Drafted from the listed sources; needs a human fact-check."
+      }
     },
     {
       "id": "henry-i",
       "kind": "monarch",
-      "rulers": ["henry-i"],
+      "rulers": [
+        "henry-i"
+      ],
       "tagline": "The youngest son who got everything, then lost his heir to the sea",
-      "start": { "date": "1100-08-05" },
-      "end": { "date": "1135-12-01" },
+      "start": {
+        "date": "1100-08-05"
+      },
+      "end": {
+        "date": "1135-12-01"
+      },
       "relationToPredecessor": "Younger brother of William II",
       "ageAtAccession": "About 32",
-      "cameToPower": "Seized the treasury when his brother died and was crowned three days later",
-      "reignEnded": "Died in Normandy after a sudden illness",
-      "previously": "William Rufus is dead in the New Forest, killed by an arrow nobody will admit to firing. His older brother Robert, who many think is the rightful heir, is still on his way home from crusade.",
+      "cameToPower": "Grabbed the treasury first",
+      "reignEnded": "Died suddenly in Normandy",
+      "previously": "Rufus is dead in the forest, and nobody admits firing the arrow.",
       "paragraphs": [
         "Henry was the youngest son, the one who got money instead of land, and he'd spent years being pushed around by his two older brothers. On 2 August 1100 his luck turned, or he made it turn. He rode straight from the forest to Winchester and took control of the treasury. Three days later he was crowned at Westminster. One of his first acts was a Charter of Liberties promising to end his brother's abuses, a distant ancestor of Magna Carta.",
         "He married Edith of Scotland, who took the Norman name Matilda. She was descended from the old English kings, which made a Norman king look a little less foreign. Then he dealt with Robert. Robert invaded in 1101 and was bought off. In 1106 Henry crossed to Normandy and beat him at the Battle of Tinchebray. Robert spent the last 28 years of his life as Henry's prisoner and died in Cardiff Castle in 1134.",
@@ -238,12 +318,31 @@
         }
       ],
       "sources": [
-        { "title": "Henry I (Yale English Monarchs)", "author": "C. Warren Hollister", "note": "Yale University Press, 2001" },
-        { "title": "Henry I: King of England and Duke of Normandy", "author": "Judith A. Green", "note": "Cambridge University Press, 2006" },
-        { "title": "The Ecclesiastical History", "author": "Orderic Vitalis", "note": "White Ship" },
-        { "title": "Historia Anglorum", "author": "Henry of Huntingdon", "note": "Lampreys" }
+        {
+          "title": "Henry I (Yale English Monarchs)",
+          "author": "C. Warren Hollister",
+          "note": "Yale University Press, 2001"
+        },
+        {
+          "title": "Henry I: King of England and Duke of Normandy",
+          "author": "Judith A. Green",
+          "note": "Cambridge University Press, 2006"
+        },
+        {
+          "title": "The Ecclesiastical History",
+          "author": "Orderic Vitalis",
+          "note": "White Ship"
+        },
+        {
+          "title": "Historia Anglorum",
+          "author": "Henry of Huntingdon",
+          "note": "Lampreys"
+        }
       ],
-      "review": { "status": "draft", "notes": "Drafted from the listed sources; needs a human fact-check." }
+      "review": {
+        "status": "draft",
+        "notes": "Drafted from the listed sources; needs a human fact-check."
+      }
     }
   ]
 }
