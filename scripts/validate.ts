@@ -123,9 +123,10 @@ for (const name of readdirSync(dataDir).filter((f) => f.endsWith(".json"))) {
     for (const img of g.images)
       if (!/public domain|^cc[ -]|^cc0$/i.test(img.license)) warn(where, `check license "${img.license}" on ${img.file}`);
 
-    if (g.review.status === "draft") warn(where, "not yet fact-checked (review.status: draft)");
   });
 
+  const drafts = c.reigns.filter((g) => g.review.status === "draft").length;
+  if (drafts) warn(name, `${drafts} reign(s) not yet fact-checked (review.status: draft)`);
   console.log(
     `  ${c.reigns.length} reigns · ${c.rulers.length} rulers · ` +
       `${c.reigns.filter((g) => g.review.status === "checked").length} checked`,
