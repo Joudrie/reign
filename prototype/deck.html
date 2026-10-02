@@ -37,6 +37,7 @@
   --tabs-h: 60px;
   color-scheme: light;
 }
+*, *::before, *::after { box-sizing: border-box; }
 html, body { height: 100%; }
 body {
   background: var(--table);
@@ -312,7 +313,7 @@ const length = (a, b) => {
   const y = Math.floor(months / 12), mo = months % 12;
   return [y && `${y} yr${y > 1 ? "s" : ""}`, mo && `${mo} mo`].filter(Boolean).join(" ");
 };
-const span = g => g.end ? `${year(g.start)}–${year(g.end)}` : `${year(g.start)}–now`;
+const span = g => !g.end ? `${year(g.start)}–now` : year(g.start) === year(g.end) ? `${year(g.start)}` : `${year(g.start)}–${year(g.end)}`;
 const reignName = g => g.title ?? rulers[g.rulers[0]].name;
 const reignHouses = g => [...new Set(g.rulers.map(id => rulers[id].house))].map(id => houses[id]);
 const img = g => `img/${g.id}.jpg`;
