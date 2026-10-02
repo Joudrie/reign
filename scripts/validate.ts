@@ -42,6 +42,12 @@ const plausible = (d: HistoricDate) => {
   return true;
 };
 
+/** Latest day a truncated date could mean ("1483" -> 1483-12-31): used for deaths known only to the year. */
+const keyEnd = (d: HistoricDate) => {
+  const [y, m = "12", day] = d.date.split("-");
+  return `${y}-${m}-${day ?? (m === "02" ? "28" : "30")}`;
+};
+
 const years = (a: HistoricDate, b: HistoricDate) =>
   (Date.parse(key(b)) - Date.parse(key(a))) / (365.2425 * 864e5);
 
@@ -91,7 +97,7 @@ for (const name of readdirSync(dataDir).filter((f) => f.endsWith(".json"))) {
       }
       if (key(g.start) < key(r.born)) err(where, `${r.name} reigns before being born`);
       // An interregnum outlives its leaders (Oliver Cromwell died in 1658; the Commonwealth ran to 1660).
-      if (g.kind !== "interregnum" && r.died && g.end && key(g.end) > key(r.died))
+      if (g.kind !== "interregnum" && r.died && g.end && key(g.end) > keyEnd(r.died))
         err(where, `${r.name} reigns after dying`);
     }
 
@@ -106,15 +112,16 @@ for (const name of readdirSync(dataDir).filter((f) => f.endsWith(".json"))) {
       if (key(g.start) < key(prev.start)) err(where, `out of order: starts before "${prev.id}"`);
       if (prev.end && key(g.start) < key(prev.end) && !g.contestedWith.includes(prev.id))
         err(where, `overlaps "${prev.id}" — mark contestedWith or fix dates`);
-      if (prev.end && years(prev.end, g.start) > 1)
-        warn(where, `${years(prev.end, g.start).toFixed(1)}-year gap after "${prev.id}"`);
+      // Gap since the latest end so far (after a contested stretch, that's the longer reign, not the claimant).
+      const latest = c.reigns.slice(0, i).reduce((m, r) => (r.end && (!m || key(r.end) > key(m)) ? r.end : m), undefined as HistoricDate | undefined);
+      if (latest && years(latest, g.start) > 1) warn(where, `${years(latest, g.start).toFixed(1)}-year gap before this reign`);
     }
 
     const last = i === c.reigns.length - 1;
     if (!g.hook && !last) err(where, "missing hook");
 
     for (const img of g.images)
-      if (!/public domain|^cc[ -]/i.test(img.license)) warn(where, `check license "${img.license}" on ${img.file}`);
+      if (!/public domain|^cc[ -]|^cc0$/i.test(img.license)) warn(where, `check license "${img.license}" on ${img.file}`);
 
     if (g.review.status === "draft") warn(where, "not yet fact-checked (review.status: draft)");
   });

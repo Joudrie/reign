@@ -343,7 +343,7 @@ function card(g, i) {
       <div><dt>Reign</dt><dd>${length(g.start, g.end ?? TODAY)}</dd></div>
       <div><dt>Age</dt><dd>${esc(g.ageAtAccession)}</dd></div>
       <div><dt>Got it</dt><dd>${esc(g.cameToPower)}</dd></div>
-      <div><dt>${g.end ? "Lost it" : "Still"}</dt><dd>${esc(g.reignEnded)}</dd></div>
+      <div><dt>${g.end ? "Lost it" : "Now"}</dt><dd>${esc(g.reignEnded)}</dd></div>
     </dl>
     <div class="story">${g.paragraphs.map(t => `<p>${esc(t)}</p>`).join("")}</div>
     ${g.claims.length ? `<section class="claims">

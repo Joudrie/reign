@@ -118,6 +118,608 @@
         "note": "Lyons-la-Forêt, Normandy"
       },
       "causeOfDeath": "A sudden illness, traditionally blamed on lampreys"
+    },
+    {
+      "id": "stephen",
+      "name": "Stephen",
+      "house": "blois",
+      "born": {
+        "date": "1092",
+        "circa": true,
+        "note": "Probably Blois, France; the year is given as 1092 or 1096"
+      },
+      "died": {
+        "date": "1154-10-25",
+        "note": "Dover Priory, Kent"
+      },
+      "causeOfDeath": "Illness"
+    },
+    {
+      "id": "matilda",
+      "name": "Empress Matilda",
+      "house": "normandy",
+      "born": {
+        "date": "1102",
+        "circa": true,
+        "note": "Probably early February 1102; birthplace uncertain"
+      },
+      "died": {
+        "date": "1167-09-10",
+        "note": "Rouen, Normandy"
+      },
+      "causeOfDeath": "Illness"
+    },
+    {
+      "id": "henry-ii",
+      "name": "Henry II",
+      "epithet": "Curtmantle",
+      "house": "plantagenet",
+      "born": {
+        "date": "1133-03-05",
+        "note": "Le Mans, Maine"
+      },
+      "died": {
+        "date": "1189-07-06",
+        "note": "Chinon Castle, Touraine"
+      },
+      "causeOfDeath": "Illness, probably fever"
+    },
+    {
+      "id": "richard-i",
+      "name": "Richard I",
+      "epithet": "the Lionheart",
+      "house": "plantagenet",
+      "born": {
+        "date": "1157-09-08",
+        "note": "Beaumont Palace, Oxford"
+      },
+      "died": {
+        "date": "1199-04-06",
+        "note": "Châlus, Limousin"
+      },
+      "causeOfDeath": "Infected crossbow wound"
+    },
+    {
+      "id": "john",
+      "name": "John",
+      "epithet": "Lackland",
+      "house": "plantagenet",
+      "born": {
+        "date": "1166-12-24",
+        "note": "Beaumont Palace, Oxford"
+      },
+      "died": {
+        "date": "1216-10-19",
+        "note": "Newark Castle, Nottinghamshire"
+      },
+      "causeOfDeath": "Dysentery"
+    },
+    {
+      "id": "henry-iii",
+      "name": "Henry III",
+      "house": "plantagenet",
+      "born": {
+        "date": "1207-10-01",
+        "note": "Winchester"
+      },
+      "died": {
+        "date": "1272-11-16",
+        "note": "Westminster"
+      },
+      "causeOfDeath": "Natural causes in old age"
+    },
+    {
+      "id": "edward-i",
+      "name": "Edward I",
+      "epithet": "Longshanks",
+      "house": "plantagenet",
+      "born": {
+        "date": "1239-06-17",
+        "note": "Palace of Westminster"
+      },
+      "died": {
+        "date": "1307-07-07",
+        "note": "Burgh by Sands, Cumberland"
+      },
+      "causeOfDeath": "Dysentery, on campaign"
+    },
+    {
+      "id": "edward-ii",
+      "name": "Edward II",
+      "house": "plantagenet",
+      "born": {
+        "date": "1284-04-25",
+        "note": "Caernarfon Castle, Wales"
+      },
+      "died": {
+        "date": "1327-09-21",
+        "note": "Berkeley Castle, Gloucestershire"
+      },
+      "causeOfDeath": "Died in captivity, probably murdered"
+    },
+    {
+      "id": "edward-iii",
+      "name": "Edward III",
+      "house": "plantagenet",
+      "born": {
+        "date": "1312-11-13",
+        "note": "Windsor Castle"
+      },
+      "died": {
+        "date": "1377-06-21",
+        "note": "Sheen Palace, Surrey"
+      },
+      "causeOfDeath": "Probably a stroke"
+    },
+    {
+      "id": "richard-ii",
+      "name": "Richard II",
+      "house": "plantagenet",
+      "born": {
+        "date": "1367-01-06",
+        "note": "Bordeaux, Gascony"
+      },
+      "died": {
+        "date": "1400-02-14",
+        "note": "Pontefract Castle; the exact day is uncertain, around 14 February"
+      },
+      "causeOfDeath": "Died in captivity, probably starved"
+    },
+    {
+      "id": "henry-iv",
+      "name": "Henry IV",
+      "house": "lancaster",
+      "born": {
+        "date": "1367",
+        "circa": true,
+        "note": "Bolingbroke Castle, Lincolnshire; probably April"
+      },
+      "died": {
+        "date": "1413-03-20",
+        "note": "Jerusalem Chamber, Westminster Abbey"
+      },
+      "causeOfDeath": "Long illness; cause unknown"
+    },
+    {
+      "id": "henry-v",
+      "name": "Henry V",
+      "house": "lancaster",
+      "born": {
+        "date": "1386",
+        "circa": true,
+        "note": "Monmouth Castle; 1386 or 1387, sources differ"
+      },
+      "died": {
+        "date": "1422-08-31",
+        "note": "Château de Vincennes, near Paris"
+      },
+      "causeOfDeath": "Dysentery"
+    },
+    {
+      "id": "henry-vi",
+      "name": "Henry VI",
+      "house": "lancaster",
+      "born": {
+        "date": "1421-12-06",
+        "note": "Windsor Castle"
+      },
+      "died": {
+        "date": "1471-05-21",
+        "note": "Tower of London"
+      },
+      "causeOfDeath": "Killed in the Tower, almost certainly"
+    },
+    {
+      "id": "edward-iv",
+      "name": "Edward IV",
+      "house": "york",
+      "born": {
+        "date": "1442-04-28",
+        "note": "Rouen, Normandy"
+      },
+      "died": {
+        "date": "1483-04-09",
+        "note": "Palace of Westminster"
+      },
+      "causeOfDeath": "Sudden illness; cause unknown"
+    },
+    {
+      "id": "edward-v",
+      "name": "Edward V",
+      "house": "york",
+      "born": {
+        "date": "1470-11-02",
+        "note": "Sanctuary at Westminster Abbey"
+      },
+      "died": {
+        "date": "1483",
+        "circa": true,
+        "note": "Probably the Tower of London; date and place unknown"
+      },
+      "causeOfDeath": "Unknown; vanished in the Tower"
+    },
+    {
+      "id": "richard-iii",
+      "name": "Richard III",
+      "house": "york",
+      "born": {
+        "date": "1452-10-02",
+        "note": "Fotheringhay Castle, Northamptonshire"
+      },
+      "died": {
+        "date": "1485-08-22",
+        "note": "Bosworth Field, Leicestershire"
+      },
+      "causeOfDeath": "Killed in battle"
+    },
+    {
+      "id": "henry-vii",
+      "name": "Henry VII",
+      "house": "tudor",
+      "born": {
+        "date": "1457-01-28",
+        "note": "Pembroke Castle, Wales"
+      },
+      "died": {
+        "date": "1509-04-21",
+        "note": "Richmond Palace, Surrey"
+      },
+      "causeOfDeath": "Illness, probably tuberculosis"
+    },
+    {
+      "id": "henry-viii",
+      "name": "Henry VIII",
+      "house": "tudor",
+      "born": {
+        "date": "1491-06-28",
+        "note": "Greenwich Palace"
+      },
+      "died": {
+        "date": "1547-01-28",
+        "note": "Palace of Whitehall, London"
+      },
+      "causeOfDeath": "Long illness; obese, with ulcerated legs"
+    },
+    {
+      "id": "edward-vi",
+      "name": "Edward VI",
+      "house": "tudor",
+      "born": {
+        "date": "1537-10-12",
+        "note": "Hampton Court Palace"
+      },
+      "died": {
+        "date": "1553-07-06",
+        "note": "Greenwich Palace"
+      },
+      "causeOfDeath": "Lung illness, probably tuberculosis"
+    },
+    {
+      "id": "jane-grey",
+      "name": "Lady Jane Grey",
+      "epithet": "the Nine Days' Queen",
+      "house": "grey",
+      "born": {
+        "date": "1537",
+        "circa": true,
+        "note": "Probably Bradgate Park, Leicestershire; some put her birth in 1536"
+      },
+      "died": {
+        "date": "1554-02-12",
+        "note": "Tower of London"
+      },
+      "causeOfDeath": "Beheaded for treason"
+    },
+    {
+      "id": "mary-i",
+      "name": "Mary I",
+      "epithet": "Bloody Mary",
+      "house": "tudor",
+      "born": {
+        "date": "1516-02-18",
+        "note": "Greenwich Palace"
+      },
+      "died": {
+        "date": "1558-11-17",
+        "note": "St James's Palace, London"
+      },
+      "causeOfDeath": "Illness, possibly influenza"
+    },
+    {
+      "id": "elizabeth-i",
+      "name": "Elizabeth I",
+      "epithet": "the Virgin Queen",
+      "house": "tudor",
+      "born": {
+        "date": "1533-09-07",
+        "note": "Greenwich Palace"
+      },
+      "died": {
+        "date": "1603-03-24",
+        "note": "Richmond Palace, Surrey"
+      },
+      "causeOfDeath": "Illness; cause unclear"
+    },
+    {
+      "id": "james-i",
+      "name": "James I",
+      "house": "stuart",
+      "born": {
+        "date": "1566-06-19",
+        "note": "Edinburgh Castle"
+      },
+      "died": {
+        "date": "1625-03-27",
+        "note": "Theobalds House, Hertfordshire"
+      },
+      "causeOfDeath": "Stroke and dysentery"
+    },
+    {
+      "id": "charles-i",
+      "name": "Charles I",
+      "house": "stuart",
+      "born": {
+        "date": "1600-11-19",
+        "note": "Dunfermline Palace, Fife"
+      },
+      "died": {
+        "date": "1649-01-30",
+        "note": "Whitehall, London"
+      },
+      "causeOfDeath": "Beheaded for treason"
+    },
+    {
+      "id": "oliver-cromwell",
+      "name": "Oliver Cromwell",
+      "epithet": "Lord Protector",
+      "house": "commonwealth",
+      "born": {
+        "date": "1599-04-25",
+        "note": "Huntingdon"
+      },
+      "died": {
+        "date": "1658-09-03",
+        "note": "Whitehall Palace, London"
+      },
+      "causeOfDeath": "Fever and infection after a long illness"
+    },
+    {
+      "id": "charles-ii",
+      "name": "Charles II",
+      "epithet": "the Merry Monarch",
+      "house": "stuart",
+      "born": {
+        "date": "1630-05-29",
+        "note": "St James's Palace, London"
+      },
+      "died": {
+        "date": "1685-02-06",
+        "note": "Whitehall Palace, London"
+      },
+      "causeOfDeath": "Sudden seizure, possibly kidney disease"
+    },
+    {
+      "id": "james-ii",
+      "name": "James II",
+      "house": "stuart",
+      "born": {
+        "date": "1633-10-14",
+        "note": "St James's Palace, London"
+      },
+      "died": {
+        "date": "1701-09-16",
+        "note": "Saint-Germain-en-Laye, France; date in the modern calendar"
+      },
+      "causeOfDeath": "Stroke"
+    },
+    {
+      "id": "william-iii",
+      "name": "William III",
+      "epithet": "William of Orange",
+      "house": "orange",
+      "born": {
+        "date": "1650-11-04",
+        "note": "The Hague; 14 November by the modern calendar"
+      },
+      "died": {
+        "date": "1702-03-08",
+        "note": "Kensington Palace, London"
+      },
+      "causeOfDeath": "Pneumonia after a fall from his horse"
+    },
+    {
+      "id": "mary-ii",
+      "name": "Mary II",
+      "house": "stuart",
+      "born": {
+        "date": "1662-04-30",
+        "note": "St James's Palace, London"
+      },
+      "died": {
+        "date": "1694-12-28",
+        "note": "Kensington Palace, London"
+      },
+      "causeOfDeath": "Smallpox"
+    },
+    {
+      "id": "anne",
+      "name": "Anne",
+      "house": "stuart",
+      "born": {
+        "date": "1665-02-06",
+        "note": "St James's Palace, London"
+      },
+      "died": {
+        "date": "1714-08-01",
+        "note": "Kensington Palace, London"
+      },
+      "causeOfDeath": "Stroke"
+    },
+    {
+      "id": "george-i",
+      "name": "George I",
+      "house": "hanover",
+      "born": {
+        "date": "1660-05-28",
+        "note": "Hanover; 7 June by the modern calendar"
+      },
+      "died": {
+        "date": "1727-06-11",
+        "note": "Osnabrück, on the way to Hanover"
+      },
+      "causeOfDeath": "Stroke"
+    },
+    {
+      "id": "george-ii",
+      "name": "George II",
+      "house": "hanover",
+      "born": {
+        "date": "1683-10-30",
+        "note": "Herrenhausen, Hanover; 9 November by the modern calendar"
+      },
+      "died": {
+        "date": "1760-10-25",
+        "note": "Kensington Palace, London"
+      },
+      "causeOfDeath": "Burst aorta"
+    },
+    {
+      "id": "george-iii",
+      "name": "George III",
+      "epithet": "Farmer George",
+      "house": "hanover",
+      "born": {
+        "date": "1738-06-04",
+        "note": "Norfolk House, London; 24 May by the old calendar"
+      },
+      "died": {
+        "date": "1820-01-29",
+        "note": "Windsor Castle"
+      },
+      "causeOfDeath": "Old age, after years of mental illness"
+    },
+    {
+      "id": "george-iv",
+      "name": "George IV",
+      "house": "hanover",
+      "born": {
+        "date": "1762-08-12",
+        "note": "St James's Palace, London"
+      },
+      "died": {
+        "date": "1830-06-26",
+        "note": "Windsor Castle"
+      },
+      "causeOfDeath": "Internal bleeding after years of ill health"
+    },
+    {
+      "id": "william-iv",
+      "name": "William IV",
+      "epithet": "the Sailor King",
+      "house": "hanover",
+      "born": {
+        "date": "1765-08-21",
+        "note": "Buckingham House, London"
+      },
+      "died": {
+        "date": "1837-06-20",
+        "note": "Windsor Castle"
+      },
+      "causeOfDeath": "Heart failure"
+    },
+    {
+      "id": "victoria",
+      "name": "Victoria",
+      "house": "hanover",
+      "born": {
+        "date": "1819-05-24",
+        "note": "Kensington Palace, London"
+      },
+      "died": {
+        "date": "1901-01-22",
+        "note": "Osborne House, Isle of Wight"
+      },
+      "causeOfDeath": "Old age, after a series of small strokes"
+    },
+    {
+      "id": "edward-vii",
+      "name": "Edward VII",
+      "epithet": "the Peacemaker",
+      "house": "saxe-coburg",
+      "born": {
+        "date": "1841-11-09",
+        "note": "Buckingham Palace, London"
+      },
+      "died": {
+        "date": "1910-05-06",
+        "note": "Buckingham Palace, London"
+      },
+      "causeOfDeath": "Bronchitis and a series of heart attacks"
+    },
+    {
+      "id": "george-v",
+      "name": "George V",
+      "house": "windsor",
+      "born": {
+        "date": "1865-06-03",
+        "note": "Marlborough House, London"
+      },
+      "died": {
+        "date": "1936-01-20",
+        "note": "Sandringham House, Norfolk"
+      },
+      "causeOfDeath": "Lung illness; death hastened by his doctor"
+    },
+    {
+      "id": "edward-viii",
+      "name": "Edward VIII",
+      "house": "windsor",
+      "born": {
+        "date": "1894-06-23",
+        "note": "White Lodge, Richmond Park"
+      },
+      "died": {
+        "date": "1972-05-28",
+        "note": "Paris, France"
+      },
+      "causeOfDeath": "Throat cancer"
+    },
+    {
+      "id": "george-vi",
+      "name": "George VI",
+      "house": "windsor",
+      "born": {
+        "date": "1895-12-14",
+        "note": "York Cottage, Sandringham, Norfolk"
+      },
+      "died": {
+        "date": "1952-02-06",
+        "note": "Sandringham House, Norfolk"
+      },
+      "causeOfDeath": "Coronary thrombosis in his sleep"
+    },
+    {
+      "id": "elizabeth-ii",
+      "name": "Elizabeth II",
+      "house": "windsor",
+      "born": {
+        "date": "1926-04-21",
+        "note": "17 Bruton Street, Mayfair, London"
+      },
+      "died": {
+        "date": "2022-09-08",
+        "note": "Balmoral Castle, Aberdeenshire"
+      },
+      "causeOfDeath": "Old age"
+    },
+    {
+      "id": "charles-iii",
+      "name": "Charles III",
+      "house": "windsor",
+      "born": {
+        "date": "1948-11-14",
+        "note": "Buckingham Palace, London"
+      }
     }
   ],
   "reigns": [
@@ -357,6 +959,3342 @@
         "status": "draft",
         "notes": "Drafted from the listed sources; needs a human fact-check."
       }
+    },
+    {
+      "id": "stephen",
+      "kind": "monarch",
+      "rulers": [
+        "stephen"
+      ],
+      "tagline": "The charming king who grabbed a crown and lost a kingdom",
+      "start": {
+        "date": "1135-12-22"
+      },
+      "end": {
+        "date": "1154-10-25"
+      },
+      "contestedWith": [
+        "matilda"
+      ],
+      "relationToPredecessor": "Nephew of Henry I",
+      "ageAtAccession": "About 39–43",
+      "cameToPower": "Raced to London and seized the crown",
+      "reignEnded": "Died at Dover, crown promised to Henry",
+      "previously": "Henry I is dead. His chosen heir is a woman: his daughter Matilda.",
+      "paragraphs": [
+        "Henry I had made his barons swear, more than once, to accept his daughter Matilda as their next ruler. When he died in December 1135, his nephew Stephen of Blois ignored all that. He crossed the Channel, won over London, and his brother Henry, Bishop of Winchester, helped him get the royal treasury. He was crowned within three weeks. Stephen was brave, friendly and generous. He looked like a safe pair of hands.",
+        "He wasn't. In 1139 Matilda landed in England and the country split in two. Barons built castles everywhere and played both sides. At the Battle of Lincoln in February 1141, Stephen fought on foot until his weapons broke and he was dragged off as a prisoner. He spent months locked up in Bristol, until he was swapped for Matilda's half-brother and best general, Robert of Gloucester.",
+        "The war dragged on for years with no knockout blow. Then in August 1153 Stephen's eldest son Eustace died suddenly, and the fight went out of him. At Winchester that November he agreed that Matilda's son Henry would be king after him. Stephen died at Dover less than a year later."
+      ],
+      "claims": [
+        {
+          "text": "A monk at Peterborough wrote that in Stephen's time people said openly that Christ and his saints were asleep.",
+          "status": "confirmed",
+          "note": "The line is in the Peterborough copy of the Anglo-Saxon Chronicle, written around 1155. It's a cry of pain, not a survey; historians still argue over how much of England really suffered."
+        },
+        {
+          "text": "On his deathbed, Henry I changed his mind and named Stephen.",
+          "status": "disputed",
+          "note": "Stephen's supporters said so, and Hugh Bigod reportedly swore to it. Matilda's side called it a lie, and nobody neutral backs it up."
+        },
+        {
+          "text": "Stephen refused to hang the boy hostage William Marshal, and played games with him in the royal tent.",
+          "status": "disputed",
+          "note": "Only told in the verse life of William Marshal, written for his family in the 1220s. Plausible, and very Stephen, but impossible to check."
+        }
+      ],
+      "hook": "Rewind to spring 1141. Stephen sits in chains at Bristol. For a few heady months England has a new ruler: Henry I's daughter, the woman he pushed aside.",
+      "images": [
+        {
+          "file": "File:King Stephen from NPG.jpg",
+          "url": "https://upload.wikimedia.org/wikipedia/commons/a/a3/King_Stephen_from_NPG.jpg",
+          "page": "https://commons.wikimedia.org/wiki/File:King_Stephen_from_NPG.jpg",
+          "credit": "Unknown artist",
+          "license": "Public domain",
+          "made": "c. 1620",
+          "caption": "Painted for a set of royal portraits about 470 years after his death; nobody knows what he really looked like.",
+          "alt": "Painted portrait of King Stephen, from the National Portrait Gallery, London"
+        }
+      ],
+      "sources": [
+        {
+          "title": "King Stephen (Yale English Monarchs)",
+          "author": "Edmund King",
+          "note": "Yale University Press, 2010"
+        },
+        {
+          "title": "The Reign of King Stephen, 1135–1154",
+          "author": "David Crouch",
+          "note": "Longman, 2000"
+        },
+        {
+          "title": "Gesta Stephani",
+          "author": "Anonymous"
+        },
+        {
+          "title": "Anglo-Saxon Chronicle (Peterborough version)",
+          "author": "Anonymous",
+          "note": "'Christ and his saints slept'"
+        }
+      ],
+      "review": {
+        "status": "draft",
+        "notes": "Drafted from the listed sources; needs a human fact-check."
+      }
+    },
+    {
+      "id": "matilda",
+      "kind": "claimant",
+      "rulers": [
+        "matilda"
+      ],
+      "tagline": "The empress who came within days of a crown",
+      "start": {
+        "date": "1141-04-07"
+      },
+      "end": {
+        "date": "1141-11-01"
+      },
+      "contestedWith": [
+        "stephen"
+      ],
+      "relationToPredecessor": "Daughter of Henry I; Stephen's cousin",
+      "ageAtAccession": "39",
+      "cameToPower": "Stephen captured at Lincoln",
+      "reignEnded": "Driven from London; Stephen freed",
+      "previously": "Stephen fights for 19 years, then makes Matilda's son Henry his heir.",
+      "paragraphs": [
+        "Matilda was sent to Germany at eight to marry the emperor Henry V, and she kept the grand title “Empress” for life. Widowed, she was married off again to Geoffrey of Anjou, a boy eleven years younger. Her father made the barons swear to back her as his heir. Then Stephen took the throne anyway, and in 1139 she came to fight for it.",
+        "Her moment came with Stephen's capture at Lincoln. In April 1141 a church council at Winchester, run by Stephen's own brother, declared her “Lady of the English”. That June she reached Westminster, ready to be crowned. But she demanded money from the Londoners and brushed off their pleas. They rang the city bells and swarmed out, and she had to flee.",
+        "Worse followed. At the rout of Winchester in September her half-brother Robert of Gloucester was captured covering her escape. To get him back she had to free Stephen, and that ended her real chance. She kept fighting, slipping out of besieged Oxford Castle across the snow in 1142, but in 1148 she went home to Normandy. Her hopes now rested on her son Henry."
+      ],
+      "claims": [
+        {
+          "text": "She was named “Lady of the English” at Winchester in April 1141.",
+          "status": "confirmed",
+          "note": "William of Malmesbury was at the council and describes it, and her charters use the Latin title domina Anglorum."
+        },
+        {
+          "text": "She fled Westminster so fast that her dinner was left on the table.",
+          "status": "disputed",
+          "note": "Told in the Gesta Stephani, written by a supporter of Stephen who liked to paint her as proud and foolish."
+        },
+        {
+          "text": "She escaped Oxford at night across the snow, dressed in white so the guards couldn't see her.",
+          "status": "disputed",
+          "note": "Chroniclers of the time agree she got out over snow and ice. The white camouflage is a detail historians treat with care."
+        }
+      ],
+      "hook": "Matilda never wears the crown. But her son Henry is growing up fast, already raiding England as a teenager, and he has all of her stubbornness.",
+      "images": [
+        {
+          "file": "File:Empress Matilda.png",
+          "url": "https://upload.wikimedia.org/wikipedia/commons/b/b4/Empress_Matilda.png",
+          "page": "https://commons.wikimedia.org/wiki/File:Empress_Matilda.png",
+          "credit": "Unknown artist, Gospels of Henry the Lion",
+          "license": "Public domain",
+          "made": "c. 1188",
+          "caption": "From a German gospel book made about 20 years after her death, showing her at her granddaughter's crowning.",
+          "alt": "Medieval manuscript painting of a crowned woman, from the Gospels of Henry the Lion"
+        }
+      ],
+      "sources": [
+        {
+          "title": "The Empress Matilda: Queen Consort, Queen Mother and Lady of the English",
+          "author": "Marjorie Chibnall",
+          "note": "Blackwell, 1991"
+        },
+        {
+          "title": "Matilda: Empress, Queen, Warrior",
+          "author": "Catherine Hanley",
+          "note": "Yale University Press, 2019"
+        },
+        {
+          "title": "Historia Novella",
+          "author": "William of Malmesbury"
+        },
+        {
+          "title": "Gesta Stephani",
+          "author": "Anonymous"
+        }
+      ],
+      "review": {
+        "status": "draft",
+        "notes": "Drafted from the listed sources; needs a human fact-check."
+      }
+    },
+    {
+      "id": "henry-ii",
+      "kind": "monarch",
+      "rulers": [
+        "henry-ii"
+      ],
+      "tagline": "The restless king with an empire and four rebel sons",
+      "start": {
+        "date": "1154-12-19"
+      },
+      "end": {
+        "date": "1189-07-06"
+      },
+      "contestedWith": [],
+      "relationToPredecessor": "Son of Matilda; Stephen's heir",
+      "ageAtAccession": "21",
+      "cameToPower": "Named heir by Treaty of Winchester",
+      "reignEnded": "Died at Chinon, beaten by his sons",
+      "previously": "A treaty makes Henry Stephen's heir. In October 1154, Stephen dies.",
+      "paragraphs": [
+        "Henry was 21, red-haired and never sat still. He already held Normandy and Anjou, and his marriage to Eleanor of Aquitaine had added a huge slice of south-west France. Now he added England. He pulled down the castles of the civil war, fixed the coinage and sent royal judges round the shires. A lot of English common law starts with him.",
+        "His biggest mistake was a friend. In 1162 he made his chancellor Thomas Becket Archbishop of Canterbury, expecting an ally. Becket turned on him over the rights of the Church. In December 1170, after one of the king's furious outbursts, four knights rode to Canterbury and killed Becket in his own cathedral. In 1174 Henry did penance at the tomb and let the monks whip him.",
+        "His family did the rest. In 1173 his sons rebelled, backed by their mother, and Henry kept Eleanor locked up for the rest of his reign. In 1189 his son Richard joined Philip II of France against him. Sick and beaten, Henry died at Chinon, having just learned that his favourite son John had joined the rebels too."
+      ],
+      "claims": [
+        {
+          "text": "Henry said: “Will no one rid me of this turbulent priest?”",
+          "status": "legend",
+          "note": "That tidy line comes from much later retellings. Edward Grim, who was wounded trying to protect Becket, reports a longer rant about the “wretched drones and traitors” in Henry's household."
+        },
+        {
+          "text": "Eleanor poisoned Henry's mistress Fair Rosamund, hidden in a maze at Woodstock.",
+          "status": "legend",
+          "note": "Rosamund Clifford was real and died around 1176 at Godstow nunnery. The maze and the poison come from ballads and stories written long afterwards."
+        },
+        {
+          "text": "Henry's last words were “Shame, shame on a conquered king.”",
+          "status": "disputed",
+          "note": "Reported by Gerald of Wales, who didn't like Henry and loved a good story."
+        }
+      ],
+      "hook": "The old king is dead, and the son who hounded him to the grave gets the crown. Richard is a famous soldier. What he wants from England, mainly, is money for a crusade.",
+      "images": [
+        {
+          "file": "File:Henry II of England in the Brief Abridgement of the Chronicles of England.jpg",
+          "url": "https://upload.wikimedia.org/wikipedia/commons/4/43/Henry_II_of_England_in_the_Brief_Abridgement_of_the_Chronicles_of_England.jpg",
+          "page": "https://commons.wikimedia.org/wiki/File:Henry_II_of_England_in_the_Brief_Abridgement_of_the_Chronicles_of_England.jpg",
+          "credit": "Matthew Paris",
+          "license": "Public domain",
+          "made": "c. 1255–1259",
+          "caption": "Drawn by the monk Matthew Paris in the 1250s, about 70 years after Henry died.",
+          "alt": "Medieval manuscript drawing of Henry II as a crowned king"
+        }
+      ],
+      "sources": [
+        {
+          "title": "Henry II (Yale English Monarchs)",
+          "author": "W. L. Warren",
+          "note": "Eyre Methuen, 1973; Yale University Press, 2000"
+        },
+        {
+          "title": "Life of St Thomas (Vita S. Thomae)",
+          "author": "Edward Grim"
+        },
+        {
+          "title": "De principis instructione (Instruction for a Ruler)",
+          "author": "Gerald of Wales"
+        }
+      ],
+      "review": {
+        "status": "draft",
+        "notes": "Drafted from the listed sources; needs a human fact-check."
+      }
+    },
+    {
+      "id": "richard-i",
+      "kind": "monarch",
+      "rulers": [
+        "richard-i"
+      ],
+      "tagline": "The lionhearted king who spent six months in England",
+      "start": {
+        "date": "1189-09-03"
+      },
+      "end": {
+        "date": "1199-04-06"
+      },
+      "contestedWith": [],
+      "relationToPredecessor": "Third son of Henry II",
+      "ageAtAccession": "31",
+      "cameToPower": "Eldest surviving son",
+      "reignEnded": "Crossbow bolt at Châlus",
+      "previously": "Henry II dies at Chinon, beaten by Richard and betrayed by John.",
+      "paragraphs": [
+        "Richard was a superb soldier who wrote songs in French, and he spent only about six months of his ten-year reign in England. He sold offices, lands and favours to pay for the Third Crusade and set off in 1190. In 1191 he took Acre and beat Saladin at Arsuf. He got within sight of Jerusalem but never took it, and made a truce with Saladin in 1192.",
+        "Sailing home, he was shipwrecked and caught near Vienna by Duke Leopold of Austria, whom he'd insulted at Acre. The Emperor Henry VI held him for over a year. England had to find a ransom of 150,000 marks, an enormous sum, by taxing almost everyone. Meanwhile his brother John was plotting with the French king to keep him locked up.",
+        "Freed in 1194, Richard forgave John and spent his last years fighting Philip II in France. In March 1199, besieging the small castle of Châlus-Chabrol, he was hit in the shoulder by a crossbow bolt. The wound turned gangrenous and he died on 6 April. He left no children."
+      ],
+      "claims": [
+        {
+          "text": "The minstrel Blondel found the captive Richard by singing a song outside castle after castle.",
+          "status": "legend",
+          "note": "First told in a French minstrel's tale of around 1260. No writer of Richard's own time mentions Blondel."
+        },
+        {
+          "text": "Richard joked that he would sell London if he could find a buyer.",
+          "status": "disputed",
+          "note": "Reported by the chronicler Richard of Devizes in the 1190s. It fits his fundraising, but it may be a quip the writer polished."
+        },
+        {
+          "text": "On his deathbed Richard pardoned the man who shot him.",
+          "status": "disputed",
+          "note": "Several chroniclers say so. Roger of Howden adds that after Richard died, the mercenary captain Mercadier had the man flayed alive anyway."
+        }
+      ],
+      "hook": "Richard leaves no son. His nephew Arthur of Brittany has a claim, but he's only 12. Richard's brother John, the one who plotted against him, moves fast.",
+      "images": [
+        {
+          "file": "File:Richard I of England in the Brief Abridgement of the Chronicles of England.jpg",
+          "url": "https://upload.wikimedia.org/wikipedia/commons/4/4f/Richard_I_of_England_in_the_Brief_Abridgement_of_the_Chronicles_of_England.jpg",
+          "page": "https://commons.wikimedia.org/wiki/File:Richard_I_of_England_in_the_Brief_Abridgement_of_the_Chronicles_of_England.jpg",
+          "credit": "Matthew Paris",
+          "license": "Public domain",
+          "made": "c. 1255–1259",
+          "caption": "Drawn by the monk Matthew Paris in the 1250s, about 55 years after Richard died.",
+          "alt": "Medieval manuscript drawing of Richard I as a crowned king"
+        }
+      ],
+      "sources": [
+        {
+          "title": "Richard I (Yale English Monarchs)",
+          "author": "John Gillingham",
+          "note": "Yale University Press, 1999"
+        },
+        {
+          "title": "Chronica",
+          "author": "Roger of Howden"
+        },
+        {
+          "title": "Chronicle",
+          "author": "Richard of Devizes"
+        }
+      ],
+      "review": {
+        "status": "draft",
+        "notes": "Drafted from the listed sources; needs a human fact-check."
+      }
+    },
+    {
+      "id": "john",
+      "kind": "monarch",
+      "rulers": [
+        "john"
+      ],
+      "tagline": "The bad king who gave us Magna Carta by accident",
+      "start": {
+        "date": "1199-05-27"
+      },
+      "end": {
+        "date": "1216-10-19"
+      },
+      "contestedWith": [],
+      "relationToPredecessor": "Youngest brother of Richard I",
+      "ageAtAccession": "32",
+      "cameToPower": "Beat nephew Arthur to the throne",
+      "reignEnded": "Dysentery, mid-civil war",
+      "previously": "Richard the Lionheart dies of a crossbow wound and leaves no son.",
+      "paragraphs": [
+        "John was nicknamed Lackland because, as the youngest son, he wasn't expected to inherit much. He took the crown ahead of his nephew Arthur of Brittany, then captured him in 1202. Arthur vanished in 1203, almost certainly killed on John's orders. By 1204 Philip II had taken Normandy, and many of John's French lords had gone over to the other side.",
+        "Trying to win it back cost a fortune, and John squeezed his barons hard. He fell out with the Pope too, and from 1208 England lay under an interdict, with most church services stopped for years. When his allies lost at Bouvines in 1214, the barons rebelled. In June 1215 at Runnymede John agreed to Magna Carta, a list of promises that put even the king under the law.",
+        "He had no intention of keeping it, and the Pope annulled it that summer. The barons invited Prince Louis of France to be their king, and Louis took London. In October 1216 John lost part of his baggage train crossing the Wash. A few days later he died of dysentery at Newark, with much of the kingdom in rebel hands."
+      ],
+      "claims": [
+        {
+          "text": "John lost the crown jewels in the quicksands of the Wash.",
+          "status": "disputed",
+          "note": "Roger of Wendover and others say part of his baggage was swallowed by the tide. Whether the regalia were in it, or how much was lost, is unknown, and nothing has ever been found."
+        },
+        {
+          "text": "John killed Arthur with his own hands and threw the body into the Seine.",
+          "status": "disputed",
+          "note": "This comes from the annals of Margam Abbey, a single source, though one with links to William de Briouze, who had custody of Arthur."
+        },
+        {
+          "text": "A monk of Swineshead Abbey poisoned him.",
+          "status": "legend",
+          "note": "This appears in later chronicles. Writers closer to the time blame dysentery, with Roger of Wendover adding a greedy meal of peaches and new cider."
+        }
+      ],
+      "hook": "John dies with a French prince in London and the barons up in arms. His heir, Henry, is nine years old. Can a child hold on to the crown?",
+      "images": [
+        {
+          "file": "File:British - King John - Google Art Project.jpg",
+          "url": "https://upload.wikimedia.org/wikipedia/commons/2/2f/British_-_King_John_-_Google_Art_Project.jpg",
+          "page": "https://commons.wikimedia.org/wiki/File:British_-_King_John_-_Google_Art_Project.jpg",
+          "credit": "Unknown British artist",
+          "license": "Public domain",
+          "made": "Before 1626",
+          "caption": "Painted roughly 400 years after his death, so it's an imagined likeness.",
+          "alt": "Early modern painted portrait of King John"
+        }
+      ],
+      "sources": [
+        {
+          "title": "King John",
+          "author": "W. L. Warren",
+          "note": "Eyre & Spottiswoode, 1961; Yale English Monarchs edition, 1997"
+        },
+        {
+          "title": "King John: Treachery, Tyranny and the Road to Magna Carta",
+          "author": "Marc Morris",
+          "note": "Hutchinson, 2015"
+        },
+        {
+          "title": "Flores Historiarum",
+          "author": "Roger of Wendover"
+        }
+      ],
+      "review": {
+        "status": "draft",
+        "notes": "Drafted from the listed sources; needs a human fact-check."
+      }
+    },
+    {
+      "id": "henry-iii",
+      "kind": "monarch",
+      "rulers": [
+        "henry-iii"
+      ],
+      "tagline": "The pious king who outlasted everyone for 56 years",
+      "start": {
+        "date": "1216-10-28"
+      },
+      "end": {
+        "date": "1272-11-16"
+      },
+      "contestedWith": [],
+      "relationToPredecessor": "Eldest son of John",
+      "ageAtAccession": "9",
+      "cameToPower": "Crowned at nine, mid-civil war",
+      "reignEnded": "Died at Westminster, aged 65",
+      "previously": "King John dies of dysentery with a French prince holding London.",
+      "paragraphs": [
+        "Henry was crowned at Gloucester with a simple gold circlet, because London was in French hands. The old knight William Marshal ran the government, beat the rebels at Lincoln in 1217, and paid Prince Louis to go home. Magna Carta was reissued in the boy's name, which helped it stick.",
+        "Grown up, Henry was devout, artistic and bad at politics. He rebuilt Westminster Abbey to honour his hero, Edward the Confessor, and showered favours on his foreign relatives. A wild scheme to win the crown of Sicily for his son Edmund left him buried in debt. In 1258 the barons forced him to accept a programme of reform, the Provisions of Oxford.",
+        "His brother-in-law Simon de Montfort led the barons to war, captured Henry at Lewes in 1264, and called a parliament that included townsmen. But Henry's son Edward escaped and killed Simon at Evesham in 1265. Henry lived on until 1272, still king after 56 years."
+      ],
+      "claims": [
+        {
+          "text": "Simon de Montfort's parliament of 1265 was the birth of the House of Commons.",
+          "status": "disputed",
+          "note": "It summoned knights and townsmen together, which is why it gets the credit. Historians note that knights had been called before, and Montfort was mainly shoring up his own support."
+        },
+        {
+          "text": "Henry kept an elephant at the Tower of London.",
+          "status": "confirmed",
+          "note": "Louis IX of France gave it to him in 1255. Matthew Paris drew it from life, and royal records show the cost of its keep."
+        },
+        {
+          "text": "Henry's heart was buried separately at Fontevraud Abbey in France.",
+          "status": "confirmed",
+          "note": "He had promised it to the abbey where his Angevin family lay. It was handed over in 1291; his body stayed at Westminster."
+        }
+      ],
+      "hook": "Henry dies, but his heir isn't at the bedside. Edward is on his way home from crusade, and he takes nearly two years to come and claim his throne.",
+      "images": [
+        {
+          "file": "File:Henry III of England Illumination.png",
+          "url": "https://upload.wikimedia.org/wikipedia/commons/e/ec/Henry_III_of_England_Illumination.png",
+          "page": "https://commons.wikimedia.org/wiki/File:Henry_III_of_England_Illumination.png",
+          "credit": "Unknown artist",
+          "license": "Public domain",
+          "made": "13th century",
+          "caption": "From a medieval illustrated family tree of the English kings.",
+          "alt": "Medieval manuscript painting of Henry III, from the Genealogical Chronicle of the English Kings"
+        }
+      ],
+      "sources": [
+        {
+          "title": "Henry III: The Rise to Power and Personal Rule, 1207–1258 (Yale English Monarchs)",
+          "author": "David Carpenter",
+          "note": "Yale University Press, 2020"
+        },
+        {
+          "title": "Simon de Montfort",
+          "author": "J. R. Maddicott",
+          "note": "Cambridge University Press, 1994"
+        },
+        {
+          "title": "Chronica Majora",
+          "author": "Matthew Paris"
+        }
+      ],
+      "review": {
+        "status": "draft",
+        "notes": "Drafted from the listed sources; needs a human fact-check."
+      }
+    },
+    {
+      "id": "edward-i",
+      "kind": "monarch",
+      "rulers": [
+        "edward-i"
+      ],
+      "tagline": "Longshanks: lawmaker, castle builder, Hammer of the Scots",
+      "start": {
+        "date": "1272-11-20"
+      },
+      "end": {
+        "date": "1307-07-07"
+      },
+      "contestedWith": [],
+      "relationToPredecessor": "Eldest son of Henry III",
+      "ageAtAccession": "33",
+      "cameToPower": "Proclaimed while away on crusade",
+      "reignEnded": "Died on the march to Scotland",
+      "previously": "Henry III dies after 56 years, with his son far away on crusade.",
+      "paragraphs": [
+        "Edward stood about six foot two, which earned him the nickname Longshanks. He'd already crushed Simon de Montfort at Evesham, and he came home from crusade ready to rule hard. He passed a stream of new laws and called parliaments often, mostly to raise money for his wars.",
+        "He conquered Wales in 1282 and 1283 and ringed the north with mighty castles like Caernarfon, Conwy and Harlech. In 1290 he expelled England's Jews. When the Scottish throne fell vacant, he was asked to judge between the claimants, then treated Scotland as his own. William Wallace and then Robert the Bruce made him pay for that.",
+        "In 1307, old and ill, he set out once more against Bruce. He died at Burgh by Sands, just short of the Scottish border. Centuries later, the words “Hammer of the Scots” were painted on his tomb in Westminster Abbey. His heir was a very different sort of man."
+      ],
+      "claims": [
+        {
+          "text": "Edward put up stone crosses wherever his wife Eleanor's body rested on its way to London.",
+          "status": "confirmed",
+          "note": "Royal accounts record twelve Eleanor crosses after her death in 1290. Three of the originals survive, at Geddington, Hardingstone and Waltham Cross."
+        },
+        {
+          "text": "He showed the Welsh their new prince, a baby “who spoke no English”.",
+          "status": "legend",
+          "note": "First told in the 16th century. His son was born at Caernarfon in 1284 but was only made Prince of Wales in 1301."
+        },
+        {
+          "text": "He ordered that his bones be carried with the army until Scotland was beaten.",
+          "status": "disputed",
+          "note": "Froissart tells it decades later. When his tomb was opened in 1774, his body was found whole."
+        }
+      ],
+      "hook": "Edward of Caernarfon becomes king at 23. He loves rowing, digging and his friend Piers Gaveston, whom his father banished. Gaveston is called back almost at once.",
+      "images": [
+        {
+          "file": "File:Edward I - Westminster Abbey Sedilia.jpg",
+          "url": "https://upload.wikimedia.org/wikipedia/commons/c/cb/Edward_I_-_Westminster_Abbey_Sedilia.jpg",
+          "page": "https://commons.wikimedia.org/wiki/File:Edward_I_-_Westminster_Abbey_Sedilia.jpg",
+          "credit": "Unknown artist",
+          "license": "Public domain",
+          "made": "1272–1307",
+          "caption": "Painted in Westminster Abbey during his reign, and thought to show the king himself.",
+          "alt": "Painted figure of a king on the sedilia, the carved priests' seats, in Westminster Abbey"
+        }
+      ],
+      "sources": [
+        {
+          "title": "Edward I (Yale English Monarchs)",
+          "author": "Michael Prestwich",
+          "note": "Methuen, 1988; Yale University Press, 1997"
+        },
+        {
+          "title": "A Great and Terrible King: Edward I and the Forging of Britain",
+          "author": "Marc Morris",
+          "note": "Hutchinson, 2008"
+        },
+        {
+          "title": "Chronicles",
+          "author": "Jean Froissart"
+        }
+      ],
+      "review": {
+        "status": "draft",
+        "notes": "Drafted from the listed sources; needs a human fact-check."
+      }
+    },
+    {
+      "id": "edward-ii",
+      "kind": "monarch",
+      "rulers": [
+        "edward-ii"
+      ],
+      "tagline": "The king whose favourites, and wife, brought him down",
+      "start": {
+        "date": "1307-07-08"
+      },
+      "end": {
+        "date": "1327-01-20"
+      },
+      "contestedWith": [],
+      "relationToPredecessor": "Fourth son of Edward I",
+      "ageAtAccession": "23",
+      "cameToPower": "Succeeded his father",
+      "reignEnded": "Deposed by his wife and Mortimer",
+      "previously": "Edward I dies on his way to fight Robert the Bruce one last time.",
+      "paragraphs": [
+        "Edward II liked swimming, rowing, digging ditches and thatching, which his barons thought deeply unkingly. What they really hated was Piers Gaveston, his favourite, whom he showered with lands and an earldom. Gaveston mocked the great earls with rude nicknames. In 1312 a group of them seized him and had him killed on Blacklow Hill near Warwick.",
+        "In 1314 Edward led a huge army to relieve Stirling Castle and was routed by Robert the Bruce at Bannockburn. Famine and feuding followed. Then he found new favourites, Hugh Despenser and his father, who grew rich and widely hated. In the end even his queen, Isabella of France, turned against him.",
+        "Sent to France in 1325 to make peace, Isabella stayed there with Roger Mortimer, who became her lover, and invaded in 1326. Edward's support melted away. The Despensers were executed, and in January 1327 Edward was forced to give up the crown to his 14-year-old son. He was held at Berkeley Castle, where he was announced dead that September."
+      ],
+      "claims": [
+        {
+          "text": "Edward was murdered with a red-hot poker.",
+          "status": "legend",
+          "note": "The story turns up years later, in versions of the Brut chronicle and in Geoffrey le Baker. Earlier writers just say he died, with some hinting at smothering."
+        },
+        {
+          "text": "Edward escaped from Berkeley and ended his days as a hermit in Italy.",
+          "status": "disputed",
+          "note": "A letter by the papal notary Manuel Fieschi says so. A few historians take it seriously; most think he died at Berkeley."
+        }
+      ],
+      "hook": "The new king, Edward III, is a boy of 14. The real power belongs to his mother Isabella and Roger Mortimer. He won't stay their puppet for long.",
+      "images": [
+        {
+          "file": "File:Edward II - British Library Royal 20 A ii f10 (detail).jpg",
+          "url": "https://upload.wikimedia.org/wikipedia/commons/d/d1/Edward_II_-_British_Library_Royal_20_A_ii_f10_%28detail%29.jpg",
+          "page": "https://commons.wikimedia.org/wiki/File:Edward_II_-_British_Library_Royal_20_A_ii_f10_(detail).jpg",
+          "credit": "Unknown artist",
+          "license": "Public domain",
+          "made": "Early 14th century",
+          "caption": "From an illustrated chronicle of England made in the early 1300s.",
+          "alt": "Medieval manuscript painting of Edward II receiving his crown"
+        }
+      ],
+      "sources": [
+        {
+          "title": "Edward II (Yale English Monarchs)",
+          "author": "Seymour Phillips",
+          "note": "Yale University Press, 2010"
+        },
+        {
+          "title": "Vita Edwardi Secundi",
+          "author": "Anonymous"
+        },
+        {
+          "title": "Chronicon",
+          "author": "Geoffrey le Baker"
+        }
+      ],
+      "review": {
+        "status": "draft",
+        "notes": "Drafted from the listed sources; needs a human fact-check."
+      }
+    },
+    {
+      "id": "edward-iii",
+      "kind": "monarch",
+      "rulers": [
+        "edward-iii"
+      ],
+      "tagline": "The teenage king who took his throne back by night",
+      "start": {
+        "date": "1327-01-25"
+      },
+      "end": {
+        "date": "1377-06-21"
+      },
+      "contestedWith": [],
+      "relationToPredecessor": "Eldest son of Edward II",
+      "ageAtAccession": "14",
+      "cameToPower": "His father was forced to abdicate",
+      "reignEnded": "Died, probably of a stroke",
+      "previously": "Edward II is forced off the throne by his wife and her lover.",
+      "paragraphs": [
+        "He was 14 when his mother, Isabella, and her lover, Roger Mortimer, pushed his father off the throne. For three years they ran England in the boy's name. Then in October 1330, aged 17, Edward and a band of friends slipped into Nottingham Castle by a secret passage and seized Mortimer. A few weeks later Mortimer was hanged at Tyburn. Now Edward was king for real.",
+        "In 1337 war broke out with France, and Edward soon claimed the French crown through his mother. That was the start of the Hundred Years' War. His fleet smashed the French at Sluys, his archers won at Crécy in 1346, and his son the Black Prince captured the French king at Poitiers in 1356. At home he founded the Order of the Garter. Then the Black Death arrived in 1348 and killed a huge share of his people.",
+        "His last years were grim. The French won back most of his gains. His wife, Philippa, died in 1369, and the ageing king fell under the sway of his mistress, Alice Perrers. The Black Prince died in 1376, a year before his father. So when Edward died in 1377, the crown skipped a generation and went to the Black Prince's son, Richard, aged ten."
+      ],
+      "claims": [
+        {
+          "text": "Edward founded the Order of the Garter after picking up a lady's fallen garter at a dance.",
+          "status": "legend",
+          "note": "The story first appears in writers of the early 1500s, such as Polydore Vergil, nearly two centuries after the Order began."
+        },
+        {
+          "text": "Alice Perrers pulled the rings off the dying king's fingers.",
+          "status": "disputed",
+          "note": "It comes from the St Albans monk Thomas Walsingham, who loathed her and had every reason to make her look greedy."
+        },
+        {
+          "text": "Mortimer was captured after Edward's men got into Nottingham Castle through a secret passage.",
+          "status": "confirmed",
+          "note": "Chroniclers of the time describe the hidden way in. A cave passage under the castle is still called Mortimer's Hole, though whether it is the actual route is less certain."
+        }
+      ],
+      "hook": "A ten-year-old inherits a kingdom worn out by war and plague, plus a pack of powerful uncles. Within four years, angry peasants will be marching on London.",
+      "images": [
+        {
+          "file": "File:Edward III of England (Order of the Garter).jpg",
+          "url": "https://upload.wikimedia.org/wikipedia/commons/d/de/Edward_III_of_England_%28Order_of_the_Garter%29.jpg",
+          "page": "https://commons.wikimedia.org/wiki/File:Edward_III_of_England_(Order_of_the_Garter).jpg",
+          "credit": "William Bruges",
+          "license": "Public domain",
+          "made": "c. 1430–1440",
+          "caption": "From the Bruges Garter Book, made around 1430 to 1440, more than 50 years after Edward died.",
+          "alt": "Illuminated manuscript miniature of a king in plate armour wearing a blue mantle decorated with the Order of the Garter"
+        }
+      ],
+      "sources": [
+        {
+          "title": "Edward III (Yale English Monarchs)",
+          "author": "W. Mark Ormrod",
+          "note": "Yale University Press, 2011"
+        },
+        {
+          "title": "The Perfect King: The Life of Edward III",
+          "author": "Ian Mortimer",
+          "note": "Jonathan Cape, 2006"
+        },
+        {
+          "title": "Chronicles",
+          "author": "Jean Froissart"
+        },
+        {
+          "title": "Chronica Maiora",
+          "author": "Thomas Walsingham",
+          "note": "Alice Perrers story"
+        }
+      ],
+      "review": {
+        "status": "draft",
+        "notes": "Drafted from the listed sources; needs a human fact-check."
+      }
+    },
+    {
+      "id": "richard-ii",
+      "kind": "monarch",
+      "rulers": [
+        "richard-ii"
+      ],
+      "tagline": "The boy who faced down a revolt, then lost it all",
+      "start": {
+        "date": "1377-06-22"
+      },
+      "end": {
+        "date": "1399-09-29"
+      },
+      "contestedWith": [],
+      "relationToPredecessor": "Grandson of Edward III",
+      "ageAtAccession": "10",
+      "cameToPower": "Inherited from his grandfather",
+      "reignEnded": "Forced to give up the crown",
+      "previously": "The old warrior Edward III dies. His heir is a boy of ten.",
+      "paragraphs": [
+        "Richard was the son of the famous Black Prince, and he was crowned at ten. At 14 he faced the Peasants' Revolt of 1381. Rebels had burned the Savoy Palace in London and beheaded the Archbishop of Canterbury. Richard rode out to meet them at Smithfield. When their leader, Wat Tyler, was struck down by the Lord Mayor, the teenage king rode forward and told the crowd he would be their captain. They went home.",
+        "The promises he made them were soon broken. As he grew up, Richard leaned on favourites, and in 1387 and 1388 a group of nobles called the Lords Appellant took charge and had several of his friends executed. Richard waited ten years. In 1397 he struck back, killing or exiling his old enemies. In 1398 he banished his cousin Henry Bolingbroke, and when Henry's father, John of Gaunt, died, Richard seized the family's lands.",
+        "That was a fatal mistake. In 1399, while Richard was off campaigning in Ireland, Henry landed in Yorkshire to claim his inheritance. Nobles flocked to him. Richard came back to find his support had vanished. He was taken prisoner, made to give up the crown, and shut away in Pontefract Castle. By February 1400 he was dead."
+      ],
+      "claims": [
+        {
+          "text": "Richard was starved to death at Pontefract.",
+          "status": "disputed",
+          "note": "Lancastrian writers said he refused to eat; others said his keepers starved him. His body was put on show in London to prove he was dead, but nobody settled how he died."
+        },
+        {
+          "text": "Sir Piers Exton hacked him down in his cell.",
+          "status": "legend",
+          "note": "This version comes from a French source and was made famous by Holinshed and Shakespeare. When his tomb was examined in 1871, no sign of such blows was reported."
+        },
+        {
+          "text": "His Westminster portrait is the oldest known painted likeness of an English king.",
+          "status": "confirmed",
+          "note": "The panel in Westminster Abbey dates from the 1390s and is generally accepted as the earliest surviving contemporary painted portrait of an English monarch."
+        }
+      ],
+      "hook": "Henry Bolingbroke has the crown. But he took it by force from an anointed king, and everyone noticed. Plots and rebellions are already brewing.",
+      "images": [
+        {
+          "file": "File:The Westminster Portrait of Richard II of England (1390s).jpg",
+          "url": "https://upload.wikimedia.org/wikipedia/commons/c/c5/The_Westminster_Portrait_of_Richard_II_of_England_%281390s%29.jpg",
+          "page": "https://commons.wikimedia.org/wiki/File:The_Westminster_Portrait_of_Richard_II_of_England_(1390s).jpg",
+          "credit": "Unknown artist, possibly André Beauneveu",
+          "license": "Public domain",
+          "made": "1390s",
+          "caption": "Painted during Richard's own reign and still hanging in Westminster Abbey.",
+          "alt": "Full-length panel painting of a young crowned king seated on a throne, holding an orb and a sceptre against a gold background"
+        }
+      ],
+      "sources": [
+        {
+          "title": "Richard II (Yale English Monarchs)",
+          "author": "Nigel Saul",
+          "note": "Yale University Press, 1997"
+        },
+        {
+          "title": "Chronicles",
+          "author": "Jean Froissart"
+        },
+        {
+          "title": "Chronica Maiora",
+          "author": "Thomas Walsingham"
+        }
+      ],
+      "review": {
+        "status": "draft",
+        "notes": "Drafted from the listed sources; needs a human fact-check."
+      }
+    },
+    {
+      "id": "henry-iv",
+      "kind": "monarch",
+      "rulers": [
+        "henry-iv"
+      ],
+      "tagline": "He grabbed the crown, then spent years fighting to keep it",
+      "start": {
+        "date": "1399-09-30"
+      },
+      "end": {
+        "date": "1413-03-20"
+      },
+      "contestedWith": [],
+      "relationToPredecessor": "First cousin of Richard II",
+      "ageAtAccession": "32",
+      "cameToPower": "Seized the throne from Richard II",
+      "reignEnded": "Died after a long illness",
+      "previously": "Richard II gives up the crown as a prisoner of his cousin Henry.",
+      "paragraphs": [
+        "Henry had the crown, but he'd taken it from a living king, and that made every year a fight. Within months, nobles loyal to Richard plotted to kill him over Christmas at Windsor. The plot leaked, and soon afterwards Richard was dead. Then in 1400 the Welsh rose up under Owain Glyndŵr, who called himself Prince of Wales. That rebellion dragged on for years.",
+        "Next, his old allies the Percys turned on him. Harry Percy, nicknamed Hotspur, raised an army, and in 1403 Henry met him at Shrewsbury. Hotspur was killed. Henry's teenage son, Prince Henry, kept fighting with an arrow wound in his face. In 1405 Richard Scrope, Archbishop of York, backed another rising. Henry had him beheaded. Executing an archbishop shocked the Church.",
+        "Soon after, Henry's health broke. He had a disfiguring skin disease and attacks that left him helpless, and he clashed with his impatient eldest son. In March 1413 he collapsed while praying at Westminster Abbey and was carried to a room called the Jerusalem Chamber, where he died."
+      ],
+      "claims": [
+        {
+          "text": "Henry had been told he would die in Jerusalem, and he did: in the Jerusalem Chamber.",
+          "status": "legend",
+          "note": "That he died in the Jerusalem Chamber is well recorded. The prophecy story turns up in later chronicles and in Shakespeare's Henry IV Part 2."
+        },
+        {
+          "text": "His illness was God's punishment for killing Archbishop Scrope.",
+          "status": "disputed",
+          "note": "Hostile chroniclers linked the two and some called it leprosy. Modern historians don't accept the leprosy label, and no firm diagnosis is possible."
+        },
+        {
+          "text": "Prince Henry tried on the crown while his father lay dying.",
+          "status": "legend",
+          "note": "The story is told by the French chronicler Monstrelet and was dramatised by Shakespeare. No English eyewitness backs it up."
+        }
+      ],
+      "hook": "The wild prince of legend is now king at 26. He has one big plan: finish his great-grandfather's war and win the crown of France.",
+      "images": [
+        {
+          "file": "File:British - Henry IV - Google Art Project.jpg",
+          "url": "https://upload.wikimedia.org/wikipedia/commons/6/67/British_-_Henry_IV_-_Google_Art_Project.jpg",
+          "page": "https://commons.wikimedia.org/wiki/File:British_-_Henry_IV_-_Google_Art_Project.jpg",
+          "credit": "Unknown English artist",
+          "license": "Public domain",
+          "made": "Before 1626",
+          "caption": "Painted some two centuries after Henry's death; no likeness made in his lifetime survives.",
+          "alt": "Panel portrait of King Henry IV of England, head and shoulders, by an unknown English painter"
+        }
+      ],
+      "sources": [
+        {
+          "title": "Henry IV (Yale English Monarchs)",
+          "author": "Chris Given-Wilson",
+          "note": "Yale University Press, 2016"
+        },
+        {
+          "title": "The Fears of Henry IV",
+          "author": "Ian Mortimer",
+          "note": "Jonathan Cape, 2007"
+        },
+        {
+          "title": "The Chronicle of Adam Usk",
+          "author": "Adam Usk"
+        }
+      ],
+      "review": {
+        "status": "draft",
+        "notes": "Drafted from the listed sources; needs a human fact-check."
+      }
+    },
+    {
+      "id": "henry-v",
+      "kind": "monarch",
+      "rulers": [
+        "henry-v"
+      ],
+      "tagline": "Agincourt, a French bride and nearly the French crown",
+      "start": {
+        "date": "1413-03-21"
+      },
+      "end": {
+        "date": "1422-08-31"
+      },
+      "contestedWith": [],
+      "relationToPredecessor": "Eldest son of Henry IV",
+      "ageAtAccession": "26",
+      "cameToPower": "Inherited from his father",
+      "reignEnded": "Dysentery on campaign in France",
+      "previously": "Henry IV dies, worn out, in the Jerusalem Chamber at Westminster.",
+      "paragraphs": [
+        "Henry learned war young. He fought the Welsh rebels and survived an arrow in the face at Shrewsbury. As king he moved fast. In 1415 he crushed a plot against him just before sailing, then crossed to France and besieged Harfleur. The siege took weeks and disease tore through his army. Marching for Calais with tired, sick men, he found a much bigger French army in his way.",
+        "On 25 October 1415, at Agincourt, French knights struggled forward across a muddy, freshly ploughed field. English archers shot them down and the armoured men piled up in the crush. It was a stunning win. Henry came back in 1417 and conquered Normandy town by town. Under the Treaty of Troyes in 1420 he married the French king's daughter, Catherine, and was named heir to the French throne.",
+        "He never got that crown. In 1422, campaigning near Paris, he caught dysentery and died at Vincennes, aged about 35. The French king, Charles VI, outlived him by less than two months. Henry left a son just nine months old to inherit both kingdoms."
+      ],
+      "claims": [
+        {
+          "text": "The French Dauphin mocked Henry by sending him a gift of tennis balls.",
+          "status": "disputed",
+          "note": "A few English chroniclers tell it and Shakespeare loved it. It may be true, or it may be patriotic spin added after the war started."
+        },
+        {
+          "text": "Prince Hal was a wild, drinking youth who reformed overnight when he became king.",
+          "status": "legend",
+          "note": "The tales grew in the 1400s and 1500s and peaked with Shakespeare. Records from the time show a busy soldier and politician."
+        },
+        {
+          "text": "The English were heavily outnumbered at Agincourt.",
+          "status": "disputed",
+          "note": "Everyone agrees the French had more men. Anne Curry's work on the muster rolls suggests the gap was far smaller than the old 4 or 5 to 1."
+        }
+      ],
+      "hook": "A baby is now king of England and, on paper, of France. His uncles will run things for him. But the French have a king of their own, and a peasant girl is about to change the war.",
+      "images": [
+        {
+          "file": "File:King Henry V from NPG.jpg",
+          "url": "https://upload.wikimedia.org/wikipedia/commons/1/18/King_Henry_V_from_NPG.jpg",
+          "page": "https://commons.wikimedia.org/wiki/File:King_Henry_V_from_NPG.jpg",
+          "credit": "Unknown artist",
+          "license": "Public domain",
+          "made": "16th century",
+          "caption": "Painted in the 1500s, roughly a century or more after Henry died.",
+          "alt": "Panel portrait of King Henry V of England, from the National Portrait Gallery, London"
+        }
+      ],
+      "sources": [
+        {
+          "title": "Henry V (Yale English Monarchs)",
+          "author": "Christopher Allmand",
+          "note": "First published 1992"
+        },
+        {
+          "title": "Agincourt: A New History",
+          "author": "Anne Curry",
+          "note": "Tempus, 2005"
+        },
+        {
+          "title": "Gesta Henrici Quinti",
+          "author": "Anonymous royal chaplain",
+          "note": "Eyewitness account of the 1415 campaign"
+        }
+      ],
+      "review": {
+        "status": "draft",
+        "notes": "Drafted from the listed sources; needs a human fact-check."
+      }
+    },
+    {
+      "id": "henry-vi",
+      "kind": "monarch",
+      "rulers": [
+        "henry-vi"
+      ],
+      "tagline": "The baby king who lost France and then his mind",
+      "start": {
+        "date": "1422-09-01"
+      },
+      "end": {
+        "date": "1461-03-04"
+      },
+      "contestedWith": [],
+      "relationToPredecessor": "Only son of Henry V",
+      "ageAtAccession": "9 months",
+      "cameToPower": "Inherited as a baby",
+      "reignEnded": "Deposed by Edward of York",
+      "previously": "Henry V dies of dysentery in France, leaving a baby heir.",
+      "paragraphs": [
+        "Henry was nine months old when he became king, the youngest ever. His uncles ran England and fought to hold on to his father's French lands. For a while it worked. Then in 1429 Joan of Arc broke the siege of Orléans and the Dauphin was crowned at Reims as Charles VII. Henry was crowned in Paris in 1431, aged ten, but the tide had turned. By 1453 nearly everything in France was gone except Calais.",
+        "Grown up, Henry was gentle, pious and hopeless at ruling. He founded Eton and King's College, Cambridge, but he let favourites run riot and the Crown sank into debt. In 1453 he suffered a complete breakdown. For more than a year he barely responded to anyone, not even his newborn son, Edward. Richard, Duke of York, was made Protector.",
+        "Henry recovered, but York and the queen, Margaret of Anjou, were now bitter enemies. In 1455 they came to blows at St Albans, the first battle of what we call the Wars of the Roses. The fighting swung back and forth. York was killed at Wakefield in 1460, but his 18-year-old son, Edward, took London and was proclaimed king in March 1461."
+      ],
+      "claims": [
+        {
+          "text": "Henry's breakdown was inherited from his French grandfather, Charles VI.",
+          "status": "disputed",
+          "note": "Charles VI had long bouts of mental illness, so the link is tempting. But it's a modern guess, and no one can diagnose either king now."
+        },
+        {
+          "text": "The two sides fought under red and white roses.",
+          "status": "legend",
+          "note": "The white rose was a real York badge, but the red rose of Lancaster was mostly a Tudor invention. The name Wars of the Roses caught on centuries later."
+        },
+        {
+          "text": "Henry was the youngest monarch ever to take the English throne.",
+          "status": "confirmed",
+          "note": "He succeeded at nine months old. No English king or queen before or since has been younger."
+        }
+      ],
+      "hook": "The new king is 18, very tall and brilliant in battle. Within weeks he has to prove it, in a snowstorm at a place called Towton.",
+      "images": [
+        {
+          "file": "File:King Henry VI from NPG (2).jpg",
+          "url": "https://upload.wikimedia.org/wikipedia/commons/9/91/King_Henry_VI_from_NPG_%282%29.jpg",
+          "page": "https://commons.wikimedia.org/wiki/File:King_Henry_VI_from_NPG_(2).jpg",
+          "credit": "Unknown artist",
+          "license": "Public domain",
+          "made": "c. 1540",
+          "caption": "Painted around 1540, about 70 years after Henry's death.",
+          "alt": "Tudor-era panel portrait of King Henry VI, head and shoulders, from the National Portrait Gallery"
+        }
+      ],
+      "sources": [
+        {
+          "title": "Henry VI (Yale English Monarchs)",
+          "author": "Bertram Wolffe",
+          "note": "First published 1981"
+        },
+        {
+          "title": "The Reign of King Henry VI",
+          "author": "Ralph A. Griffiths",
+          "note": "1981"
+        },
+        {
+          "title": "The Paston Letters",
+          "author": "The Paston family",
+          "note": "Letters from the period"
+        }
+      ],
+      "review": {
+        "status": "draft",
+        "notes": "Drafted from the listed sources; needs a human fact-check."
+      }
+    },
+    {
+      "id": "edward-iv",
+      "kind": "monarch",
+      "rulers": [
+        "edward-iv"
+      ],
+      "tagline": "The giant Yorkist who won a crown and then a secret bride",
+      "start": {
+        "date": "1461-03-04"
+      },
+      "end": {
+        "date": "1470-10-03"
+      },
+      "contestedWith": [],
+      "relationToPredecessor": "Third cousin; son of Richard of York",
+      "ageAtAccession": "18",
+      "cameToPower": "Proclaimed king in London",
+      "reignEnded": "Fled abroad after Warwick's revolt",
+      "previously": "Henry VI is pushed aside. York's son Edward takes the crown.",
+      "paragraphs": [
+        "Edward was tall, handsome and a natural soldier. Weeks after taking the crown, he beat the Lancastrians at Towton on Palm Sunday 1461, in driving snow. It is often called the bloodiest battle ever fought on English soil. Henry VI and Margaret fled to Scotland. In 1465 Henry was caught in the north of England and locked in the Tower of London.",
+        "Edward owed a lot to his cousin Richard Neville, Earl of Warwick, the richest noble in England. Warwick was busy arranging a grand French marriage for the king. Then in 1464 Edward announced that he had already married, in secret, a widow called Elizabeth Woodville. Her many relatives scooped up rich marriages and jobs. Warwick was humiliated.",
+        "Warwick turned. He teamed up with Edward's restless brother George, Duke of Clarence, and in 1469 even held the king captive for a while. When that failed, he fled to France and made a deal with his old enemy, Margaret of Anjou. In September 1470 Warwick landed in England. Edward's support melted away, and he escaped by sea to the Low Countries."
+      ],
+      "claims": [
+        {
+          "text": "Edward stood about six foot four.",
+          "status": "confirmed",
+          "note": "When his tomb at Windsor was opened in 1789, his skeleton was measured at roughly 6 ft 3 in to 6 ft 4 in, huge for the time."
+        },
+        {
+          "text": "Towton was the bloodiest battle ever fought on English soil.",
+          "status": "disputed",
+          "note": "Heralds' figures of around 28,000 dead are probably inflated. Mass graves found near the battlefield do show how savage it was."
+        },
+        {
+          "text": "Elizabeth Woodville first caught Edward's eye waiting under an oak tree to plead for her sons' lands.",
+          "status": "legend",
+          "note": "A local story told much later. No source from the time says how or where they first met."
+        }
+      ],
+      "hook": "Edward is a king in exile. Warwick hauls a bewildered Henry VI out of the Tower and puts the crown back on his head. The Kingmaker has done it again.",
+      "images": [
+        {
+          "file": "File:King Edward IV.jpg",
+          "url": "https://upload.wikimedia.org/wikipedia/commons/4/48/King_Edward_IV.jpg",
+          "page": "https://commons.wikimedia.org/wiki/File:King_Edward_IV.jpg",
+          "credit": "Unknown English artist",
+          "license": "Public domain",
+          "made": "c. 1540",
+          "caption": "Painted around 1540, more than 50 years after Edward died.",
+          "alt": "Tudor-era panel portrait of King Edward IV, head and shoulders, listed by the National Portrait Gallery"
+        }
+      ],
+      "sources": [
+        {
+          "title": "Edward IV (Yale English Monarchs)",
+          "author": "Charles Ross",
+          "note": "First published 1974"
+        },
+        {
+          "title": "The Crowland Chronicle Continuations",
+          "author": "Anonymous continuator"
+        },
+        {
+          "title": "Memoirs",
+          "author": "Philippe de Commynes"
+        }
+      ],
+      "review": {
+        "status": "draft",
+        "notes": "Drafted from the listed sources; needs a human fact-check."
+      }
+    },
+    {
+      "id": "henry-vi-restored",
+      "kind": "monarch",
+      "rulers": [
+        "henry-vi"
+      ],
+      "title": "Henry VI, again",
+      "tagline": "Out of the Tower and back on the throne, for six months",
+      "start": {
+        "date": "1470-10-03"
+      },
+      "end": {
+        "date": "1471-04-11"
+      },
+      "contestedWith": [],
+      "relationToPredecessor": "The king Edward IV deposed",
+      "ageAtAccession": "48",
+      "cameToPower": "Restored by Warwick the Kingmaker",
+      "reignEnded": "Recaptured as Edward retook London",
+      "previously": "Warwick turns on Edward IV, who flees to the Low Countries.",
+      "paragraphs": [
+        "In October 1470 Henry was led out of the Tower of London and paraded through the streets as king again. He'd been a prisoner for five years and looked it. Everyone knew who was really in charge: Warwick. Historians call this short spell the Readeption, an old word for getting something back.",
+        "The deal had a weak spot. Queen Margaret and her son, Edward, Prince of Wales, stayed in France and took months to cross. Meanwhile Edward IV got ships and money from his brother-in-law, the Duke of Burgundy. In March 1471 he landed in Yorkshire with a small force, claiming he only wanted his old dukedom back. Then Clarence switched sides again and rejoined his brother.",
+        "Edward marched into London in April and took Henry prisoner once more. On 14 April he killed Warwick at the Battle of Barnet. That same day, Margaret finally landed. Three weeks later her army was crushed at Tewkesbury and her son was killed. On the night Edward rode back into London in triumph, Henry died in the Tower."
+      ],
+      "claims": [
+        {
+          "text": "Henry VI was murdered on Edward IV's orders.",
+          "status": "disputed",
+          "note": "The official Yorkist story said he died of grief. Most historians think he was killed, and the timing points at Edward, but there's no surviving order."
+        },
+        {
+          "text": "Richard, Duke of Gloucester, killed Henry with his own hands.",
+          "status": "legend",
+          "note": "Tudor writers and Shakespeare pinned it on him. Richard may have been at the Tower that night, but nothing proves he struck the blow."
+        },
+        {
+          "text": "After his death, people prayed to Henry as a saint.",
+          "status": "confirmed",
+          "note": "Pilgrims reported miracles at his tomb, and Henry VII later pushed the Pope to make him a saint. It never happened."
+        }
+      ],
+      "hook": "Edward is back on the throne, and this time no rival is left standing. Henry is dead, his son is dead, Warwick is dead. Can the House of York finally relax?",
+      "images": [
+        {
+          "file": "File:King Henry VI from NPG (2).jpg",
+          "url": "https://upload.wikimedia.org/wikipedia/commons/9/91/King_Henry_VI_from_NPG_%282%29.jpg",
+          "page": "https://commons.wikimedia.org/wiki/File:King_Henry_VI_from_NPG_(2).jpg",
+          "credit": "Unknown artist",
+          "license": "Public domain",
+          "made": "c. 1540",
+          "caption": "Painted around 1540, about 70 years after Henry's death.",
+          "alt": "Tudor-era panel portrait of King Henry VI, head and shoulders, from the National Portrait Gallery"
+        }
+      ],
+      "sources": [
+        {
+          "title": "Henry VI (Yale English Monarchs)",
+          "author": "Bertram Wolffe",
+          "note": "First published 1981"
+        },
+        {
+          "title": "Historie of the Arrivall of Edward IV",
+          "author": "Anonymous Yorkist writer",
+          "note": "Official account of Edward's return"
+        },
+        {
+          "title": "Chronicle",
+          "author": "John Warkworth"
+        }
+      ],
+      "review": {
+        "status": "draft",
+        "notes": "Drafted from the listed sources; needs a human fact-check."
+      }
+    },
+    {
+      "id": "edward-iv-restored",
+      "kind": "monarch",
+      "rulers": [
+        "edward-iv"
+      ],
+      "title": "Edward IV, again",
+      "tagline": "Back from exile, rich, fat and fatally unprepared",
+      "start": {
+        "date": "1471-04-11"
+      },
+      "end": {
+        "date": "1483-04-09"
+      },
+      "contestedWith": [],
+      "relationToPredecessor": "Third cousin, reclaiming his throne",
+      "ageAtAccession": "28",
+      "cameToPower": "Fought his way back from exile",
+      "reignEnded": "Sudden illness at 40",
+      "previously": "Henry VI's brief comeback crumbles as Edward retakes London.",
+      "paragraphs": [
+        "With every rival dead, Edward ruled for twelve more years, and he ruled well. He sorted out the royal finances and encouraged trade. In 1475 he invaded France, then let King Louis XI pay him to go home. The deal came with a yearly pension. Edward was delighted.",
+        "Family trouble never went away. His brother George, Duke of Clarence, kept scheming, and in 1478 Edward had him condemned for treason and put to death in the Tower. Edward also grew fat. He loved food, drink and women, and one mistress, Jane Shore, became famous in her own right.",
+        "In April 1483 he fell suddenly ill and died, just short of his 41st birthday. His heir, also called Edward, was 12. As he was dying, the king named his loyal brother Richard, Duke of Gloucester, to protect the boy. The queen's family, the Woodvilles, had other ideas."
+      ],
+      "claims": [
+        {
+          "text": "Clarence was drowned in a barrel of Malmsey wine.",
+          "status": "disputed",
+          "note": "The story was going round within a few years, reported by Mancini and others. It's odd enough that it may be true, but no one saw it."
+        },
+        {
+          "text": "Edward's sudden death came from a chill caught on a fishing trip, or from overeating.",
+          "status": "disputed",
+          "note": "Writers at the time gave different causes. Modern guesses include pneumonia, a stroke or typhoid. Nobody knows."
+        },
+        {
+          "text": "Edward had secretly promised to marry Lady Eleanor Butler before he wed Elizabeth Woodville.",
+          "status": "disputed",
+          "note": "The claim surfaced only in 1483, from people backing Richard, and it served his purpose perfectly. No hard evidence survives."
+        }
+      ],
+      "hook": "A 12-year-old king rides towards London. His uncle Richard rides out to meet him. Within weeks the boy will be in the Tower, and his crown will be gone.",
+      "images": [
+        {
+          "file": "File:King Edward IV.jpg",
+          "url": "https://upload.wikimedia.org/wikipedia/commons/4/48/King_Edward_IV.jpg",
+          "page": "https://commons.wikimedia.org/wiki/File:King_Edward_IV.jpg",
+          "credit": "Unknown English artist",
+          "license": "Public domain",
+          "made": "c. 1540",
+          "caption": "Painted around 1540, more than 50 years after Edward died.",
+          "alt": "Tudor-era panel portrait of King Edward IV, head and shoulders, listed by the National Portrait Gallery"
+        }
+      ],
+      "sources": [
+        {
+          "title": "Edward IV (Yale English Monarchs)",
+          "author": "Charles Ross",
+          "note": "First published 1974"
+        },
+        {
+          "title": "The Usurpation of Richard III",
+          "author": "Dominic Mancini",
+          "note": "Written in 1483"
+        },
+        {
+          "title": "The Crowland Chronicle Continuations",
+          "author": "Anonymous continuator"
+        }
+      ],
+      "review": {
+        "status": "draft",
+        "notes": "Drafted from the listed sources; needs a human fact-check."
+      }
+    },
+    {
+      "id": "edward-v",
+      "kind": "monarch",
+      "rulers": [
+        "edward-v"
+      ],
+      "tagline": "The boy king who walked into the Tower and vanished",
+      "start": {
+        "date": "1483-04-09"
+      },
+      "end": {
+        "date": "1483-06-25"
+      },
+      "contestedWith": [],
+      "relationToPredecessor": "Eldest son of Edward IV",
+      "ageAtAccession": "12",
+      "cameToPower": "Inherited from his father",
+      "reignEnded": "Deposed; vanished in the Tower",
+      "previously": "Edward IV dies suddenly, leaving a 12-year-old heir.",
+      "paragraphs": [
+        "Edward was 12 and living at Ludlow when his father died. His mother's brother, Earl Rivers, set off with him for London. On the road, the boy's other uncle, Richard of Gloucester, caught up with them, along with the Duke of Buckingham. Richard arrested Rivers and the king's half-brother Richard Grey, and took charge of Edward himself. Queen Elizabeth fled into sanctuary at Westminster with her other children.",
+        "Edward was lodged in the Tower of London, the usual place for a king to wait for his coronation. In June Richard had Lord Hastings executed without trial, and the queen was pressed into handing over Edward's brother, also called Richard, aged nine. Then a preacher announced that Edward IV's marriage had never been valid. That made the boys illegitimate, and on 26 June their uncle took the throne.",
+        "The princes were seen playing in the Tower grounds that summer, then less and less, then not at all. Nobody ever reported seeing them alive again. Rumours that they had been killed spread fast, at home and abroad. The mystery has never been solved."
+      ],
+      "claims": [
+        {
+          "text": "Richard III had the Princes in the Tower murdered.",
+          "status": "disputed",
+          "note": "He had the motive and the keys, and many believed it at the time. But there's no body that can be tested, no surviving order, and other suspects have been put forward."
+        },
+        {
+          "text": "Bones found under a Tower staircase in 1674 are the two princes.",
+          "status": "disputed",
+          "note": "Charles II had them buried in Westminster Abbey. A 1933 study said they fit two boys of about the right ages, but no modern testing has been allowed."
+        },
+        {
+          "text": "Sir James Tyrrell confessed to the murders before he was executed in 1502.",
+          "status": "disputed",
+          "note": "Only Thomas More reports the confession, writing years later. No record of it has ever been found."
+        }
+      ],
+      "hook": "Richard of Gloucester is now Richard III. He has the crown, but he can't stop the whispers about his nephews, and a young exile in Brittany named Henry Tudor is listening.",
+      "images": [
+        {
+          "file": "File:The Princes in the Tower by John Everett Millais (1878).png",
+          "url": "https://upload.wikimedia.org/wikipedia/commons/d/d3/The_Princes_in_the_Tower_by_John_Everett_Millais_%281878%29.png",
+          "page": "https://commons.wikimedia.org/wiki/File:The_Princes_in_the_Tower_by_John_Everett_Millais_(1878).png",
+          "credit": "John Everett Millais",
+          "license": "Public domain",
+          "made": "1878",
+          "caption": "Millais imagined the two princes almost 400 years after they disappeared.",
+          "alt": "Painting of two boys in dark clothes standing close together at the foot of a dim staircase, with a shadow falling on the stairs"
+        }
+      ],
+      "sources": [
+        {
+          "title": "The Usurpation of Richard III",
+          "author": "Dominic Mancini",
+          "note": "Written in 1483 by a visiting Italian"
+        },
+        {
+          "title": "The History of King Richard III",
+          "author": "Thomas More",
+          "note": "Written c. 1513; source of the Tyrrell confession"
+        },
+        {
+          "title": "Richard III and the Princes in the Tower",
+          "author": "A. J. Pollard",
+          "note": "1991"
+        }
+      ],
+      "review": {
+        "status": "draft",
+        "notes": "Drafted from the listed sources; needs a human fact-check."
+      }
+    },
+    {
+      "id": "richard-iii",
+      "kind": "monarch",
+      "rulers": [
+        "richard-iii"
+      ],
+      "tagline": "The last English king to die fighting in battle",
+      "start": {
+        "date": "1483-06-26"
+      },
+      "end": {
+        "date": "1485-08-22"
+      },
+      "contestedWith": [],
+      "relationToPredecessor": "Uncle of Edward V",
+      "ageAtAccession": "30",
+      "cameToPower": "Declared his nephews illegitimate",
+      "reignEnded": "Killed at Bosworth",
+      "previously": "Young Edward V is declared illegitimate and pushed aside.",
+      "paragraphs": [
+        "For years Richard had been the loyal brother. He ran the north of England for Edward IV and was popular there. As king, he was crowned in July 1483 alongside his wife, Anne Neville, Warwick's daughter. Within months his old ally, the Duke of Buckingham, rebelled. The rising fizzled and Buckingham was beheaded at Salisbury, but it showed how shaky Richard's hold was.",
+        "Then came a run of grief. His only son, Edward, died in 1484, and Queen Anne died in March 1485. Rumours even said Richard meant to marry his niece, Elizabeth of York, and he had to deny it in public. Meanwhile Henry Tudor gathered exiles abroad and swore to marry that same Elizabeth, joining York and Lancaster.",
+        "Henry landed in Wales in August 1485 and marched into England. On 22 August the armies met near Market Bosworth. Richard led a charge straight at Henry and got close. Then Sir William Stanley's men piled in against him. Richard was cut down, the last English king to die in battle."
+      ],
+      "claims": [
+        {
+          "text": "Richard had a twisted spine.",
+          "status": "confirmed",
+          "note": "His skeleton, found in 2012, shows severe scoliosis, so one shoulder sat higher than the other. There's no sign of a withered arm or a limp."
+        },
+        {
+          "text": "His body lay for centuries under what became a Leicester car park.",
+          "status": "confirmed",
+          "note": "Archaeologists dug it up in 2012. DNA matched descendants of his sister, and he was reburied in Leicester Cathedral in 2015."
+        },
+        {
+          "text": "Richard cried \"My kingdom for a horse!\"",
+          "status": "legend",
+          "note": "That's Shakespeare's line. Earlier accounts say he was offered a horse to flee and refused."
+        }
+      ],
+      "hook": "Henry Tudor is king. Legend says Richard's crown was found in a hawthorn bush. Henry's claim is thin, so now he has to marry a York princess and hold on.",
+      "images": [
+        {
+          "file": "File:King Richard III from NPG.jpg",
+          "url": "https://upload.wikimedia.org/wikipedia/commons/a/a1/King_Richard_III_from_NPG.jpg",
+          "page": "https://commons.wikimedia.org/wiki/File:King_Richard_III_from_NPG.jpg",
+          "credit": "Unknown artist",
+          "license": "Public domain",
+          "made": "Late 16th century",
+          "caption": "Painted about a century after Richard died, probably copying an earlier portrait.",
+          "alt": "Panel portrait of King Richard III of England, from the National Portrait Gallery, London"
+        }
+      ],
+      "sources": [
+        {
+          "title": "Richard III (Yale English Monarchs)",
+          "author": "Charles Ross",
+          "note": "First published 1981"
+        },
+        {
+          "title": "Richard III: A Study of Service",
+          "author": "Rosemary Horrox",
+          "note": "Cambridge University Press, 1989"
+        },
+        {
+          "title": "The Usurpation of Richard III",
+          "author": "Dominic Mancini"
+        },
+        {
+          "title": "The Crowland Chronicle Continuations",
+          "author": "Anonymous continuator"
+        }
+      ],
+      "review": {
+        "status": "draft",
+        "notes": "Drafted from the listed sources; needs a human fact-check."
+      }
+    },
+    {
+      "id": "henry-vii",
+      "kind": "monarch",
+      "rulers": [
+        "henry-vii"
+      ],
+      "tagline": "The careful Welshman who ended the Wars of the Roses",
+      "start": {
+        "date": "1485-08-22"
+      },
+      "end": {
+        "date": "1509-04-21"
+      },
+      "contestedWith": [],
+      "relationToPredecessor": "Lancastrian rival; beat him at Bosworth",
+      "ageAtAccession": "28",
+      "cameToPower": "Won the Battle of Bosworth",
+      "reignEnded": "Died of illness at Richmond",
+      "previously": "Richard III dies at Bosworth, the last English king killed in battle.",
+      "paragraphs": [
+        "Henry Tudor spent half his life in exile in Brittany and France. His claim was thin. It came through his mother, Margaret Beaufort, from a once-illegitimate branch of Edward III's family. But by 1485 he was the best Lancastrian left. He landed in Wales, gathered an army, and at Bosworth Sir William Stanley's men charged in on his side at the key moment. Richard III was cut down, and Henry was king.",
+        "He married Elizabeth of York, Edward IV's daughter, joining the two feuding houses. The red and white Tudor rose was his badge for the merger. Pretenders kept popping up. Lambert Simnel, posing as a Yorkist prince, was pardoned and put to work in the royal kitchens. Perkin Warbeck, who claimed to be the younger of the Princes in the Tower, was eventually hanged.",
+        "Henry trusted hardly anyone. He checked the royal accounts himself and initialled the pages. His tax enforcers, Empson and Dudley, were loathed. He lost his eldest son, Arthur, and then his wife within a year of each other. When he died in 1509 he left a settled crown and a full treasury to his second son, Henry."
+      ],
+      "claims": [
+        {
+          "text": "Henry VII had the Princes in the Tower killed.",
+          "status": "disputed",
+          "note": "Some writers point out he had a motive too. There's no evidence against him, and most historians still blame Richard III."
+        },
+        {
+          "text": "Henry dated his reign from the day before Bosworth, so Richard's soldiers counted as traitors.",
+          "status": "confirmed",
+          "note": "His first Parliament's act of attainder backdated the reign to 21 August 1485."
+        },
+        {
+          "text": "Richard's crown was found in a hawthorn bush and put on Henry's head on the battlefield.",
+          "status": "legend",
+          "note": "Early writers like Polydore Vergil say Lord Stanley crowned him on the field. The hawthorn bush only turns up in much later tellings."
+        }
+      ],
+      "hook": "The old miser is gone. His heir is 17, tall, sporty and charming, and he's about to marry his dead brother's widow. England is expecting a golden age.",
+      "images": [
+        {
+          "file": "File:King Henry VII from NPG.jpg",
+          "url": "https://upload.wikimedia.org/wikipedia/commons/d/d6/King_Henry_VII_from_NPG.jpg",
+          "page": "https://commons.wikimedia.org/wiki/File:King_Henry_VII_from_NPG.jpg",
+          "credit": "Unknown artist",
+          "license": "Public domain",
+          "made": "1505",
+          "caption": "Painted in Henry's lifetime, a few years before his death.",
+          "alt": "Painted portrait of Henry VII, a thin-faced man in a dark cap, holding a red rose"
+        }
+      ],
+      "sources": [
+        {
+          "title": "Henry VII (Yale English Monarchs)",
+          "author": "S. B. Chrimes",
+          "note": "Yale University Press, 1972; new ed. 1999"
+        },
+        {
+          "title": "Winter King: The Dawn of Tudor England",
+          "author": "Thomas Penn",
+          "note": "Allen Lane, 2011"
+        },
+        {
+          "title": "Anglica Historia",
+          "author": "Polydore Vergil",
+          "note": "Bosworth and the crowning on the field"
+        }
+      ],
+      "review": {
+        "status": "draft",
+        "notes": "Drafted from the listed sources; needs a human fact-check."
+      }
+    },
+    {
+      "id": "henry-viii",
+      "kind": "monarch",
+      "rulers": [
+        "henry-viii"
+      ],
+      "tagline": "Six wives, a break with Rome and a lot of beheadings",
+      "start": {
+        "date": "1509-04-22"
+      },
+      "end": {
+        "date": "1547-01-28"
+      },
+      "contestedWith": [],
+      "relationToPredecessor": "Second son of Henry VII",
+      "ageAtAccession": "17",
+      "cameToPower": "Inherited from his father",
+      "reignEnded": "Died at Whitehall, aged 55",
+      "previously": "Henry VII dies in his bed, leaving a full treasury and a young heir.",
+      "paragraphs": [
+        "Young Henry was everything his father wasn't: tall, sporty, musical and keen to spend. He married Catherine of Aragon, his late brother Arthur's widow, and went off to fight the French. By the late 1520s he had only one surviving child, a daughter, Mary. He wanted a son, and he wanted Anne Boleyn. The Pope wouldn't annul his marriage, so Henry broke with Rome and made himself head of the Church of England.",
+        "The wives, in order. Catherine of Aragon: divorced. Anne Boleyn, mother of Elizabeth: beheaded in 1536. Jane Seymour: gave him his son Edward and died days later. Anne of Cleves: divorced after six months. Catherine Howard: beheaded in 1542. Catherine Parr: outlived him. The old rhyme sums it up: divorced, beheaded, died, divorced, beheaded, survived.",
+        "He also shut down the monasteries and took their land, and sent former favourites like Thomas More and Thomas Cromwell to the block. In old age he grew huge and sick, his legs covered in ulcers. He died in January 1547. His will set the order of succession: his son Edward first, then Mary, then Elizabeth."
+      ],
+      "claims": [
+        {
+          "text": "Anne Boleyn had six fingers on one hand.",
+          "status": "legend",
+          "note": "It comes from Nicholas Sander, a Catholic writer hostile to Anne, decades after her death. No one who met her mentions it."
+        },
+        {
+          "text": "Henry called Anne of Cleves a “Flanders mare”.",
+          "status": "legend",
+          "note": "The phrase first appears more than a century later. At the time Henry did complain he didn't like her, but not in those words."
+        },
+        {
+          "text": "A bad jousting fall in 1536 changed Henry's personality for the worse.",
+          "status": "disputed",
+          "note": "The fall is well recorded. The idea that it turned him into a tyrant is modern guesswork."
+        }
+      ],
+      "hook": "Henry's death is kept quiet for days while his advisers make their moves. The new king is just nine, and his uncle Edward Seymour is about to take control.",
+      "images": [
+        {
+          "file": "File:Hans Holbein, the Younger, Around 1497-1543 - Portrait of Henry VIII of England - Google Art Project.jpg",
+          "url": "https://upload.wikimedia.org/wikipedia/commons/c/c7/Hans_Holbein%2C_the_Younger%2C_Around_1497-1543_-_Portrait_of_Henry_VIII_of_England_-_Google_Art_Project.jpg",
+          "page": "https://commons.wikimedia.org/wiki/File:Hans_Holbein,_the_Younger,_Around_1497-1543_-_Portrait_of_Henry_VIII_of_England_-_Google_Art_Project.jpg",
+          "credit": "Hans Holbein the Younger",
+          "license": "Public domain",
+          "made": "c. 1537",
+          "caption": "Painted by his court artist Hans Holbein around 1537, when Henry was in his mid-forties.",
+          "alt": "Half-length painted portrait of Henry VIII in a black cap and richly jewelled clothes"
+        }
+      ],
+      "sources": [
+        {
+          "title": "Henry VIII (Yale English Monarchs)",
+          "author": "J. J. Scarisbrick",
+          "note": "Eyre & Spottiswoode, 1968; Yale ed. 1997"
+        },
+        {
+          "title": "Six Wives: The Queens of Henry VIII",
+          "author": "David Starkey",
+          "note": "Chatto & Windus, 2003"
+        },
+        {
+          "title": "The Union of the Two Noble and Illustre Families of Lancaster and York",
+          "author": "Edward Hall",
+          "note": "Hall's Chronicle, 1548"
+        }
+      ],
+      "review": {
+        "status": "draft",
+        "notes": "Drafted from the listed sources; needs a human fact-check."
+      }
+    },
+    {
+      "id": "edward-vi",
+      "kind": "monarch",
+      "rulers": [
+        "edward-vi"
+      ],
+      "tagline": "The boy king who tried to rewrite the succession",
+      "start": {
+        "date": "1547-01-28"
+      },
+      "end": {
+        "date": "1553-07-06"
+      },
+      "contestedWith": [],
+      "relationToPredecessor": "Only son of Henry VIII",
+      "ageAtAccession": "9",
+      "cameToPower": "Inherited from his father",
+      "reignEnded": "Died of illness, aged 15",
+      "previously": "Henry VIII is dead after six wives and a break with Rome.",
+      "paragraphs": [
+        "Edward was the son Henry had turned the country upside down to get. He was clever, serious and a keen Protestant, but he was nine, so others ruled for him. First his uncle Edward Seymour, Duke of Somerset, ran things as Lord Protector. He pushed the Reformation hard, and in 1549 came the first English Book of Common Prayer. Rebellions broke out that summer, and Somerset fell from power. He was executed in 1552.",
+        "John Dudley, Duke of Northumberland, took charge next and pushed reform further still. Edward kept a journal, which survives. Then in 1553 he fell ill with a cough that wouldn't go away. Dying, he did something drastic. He wrote his own plan for the succession, cutting out both his half-sisters and naming his Protestant cousin Lady Jane Grey. Jane had just married Northumberland's son."
+      ],
+      "claims": [
+        {
+          "text": "Edward wrote the plan cutting out his sisters himself.",
+          "status": "confirmed",
+          "note": "His “devise for the succession” survives in his own handwriting. How much Northumberland steered him is still argued over."
+        },
+        {
+          "text": "Edward was poisoned.",
+          "status": "disputed",
+          "note": "Rumours spread at the time, as they did for any young royal death. The symptoms described fit tuberculosis much better."
+        },
+        {
+          "text": "Edward once swapped places with a poor boy who looked just like him.",
+          "status": "legend",
+          "note": "That's Mark Twain's novel The Prince and the Pauper, from 1881. Pure fiction."
+        }
+      ],
+      "hook": "Edward is dead, and the news is held back for days. Northumberland has a plan: his teenage daughter-in-law, Lady Jane Grey, is about to be told she is queen.",
+      "images": [
+        {
+          "file": "File:Edward VI of England c. 1546.jpg",
+          "url": "https://upload.wikimedia.org/wikipedia/commons/4/4f/Edward_VI_of_England_c._1546.jpg",
+          "page": "https://commons.wikimedia.org/wiki/File:Edward_VI_of_England_c._1546.jpg",
+          "credit": "Attributed to William Scrots",
+          "license": "Public domain",
+          "made": "c. 1546",
+          "caption": "Painted around 1546, shortly before Edward became king.",
+          "alt": "Painted portrait of the boy Edward VI in rich, layered clothes with slashed sleeves"
+        }
+      ],
+      "sources": [
+        {
+          "title": "Edward VI (Yale English Monarchs)",
+          "author": "Jennifer Loach",
+          "note": "Yale University Press, 1999"
+        },
+        {
+          "title": "Edward VI: The Lost King of England",
+          "author": "Chris Skidmore",
+          "note": "Weidenfeld & Nicolson, 2007"
+        },
+        {
+          "title": "The Chronicle and Political Papers of King Edward VI",
+          "author": "Edward VI",
+          "note": "ed. W. K. Jordan, 1966"
+        }
+      ],
+      "review": {
+        "status": "draft",
+        "notes": "Drafted from the listed sources; needs a human fact-check."
+      }
+    },
+    {
+      "id": "jane",
+      "kind": "claimant",
+      "rulers": [
+        "jane-grey"
+      ],
+      "tagline": "Queen for nine days, then a prisoner in the Tower",
+      "start": {
+        "date": "1553-07-10"
+      },
+      "end": {
+        "date": "1553-07-19"
+      },
+      "contestedWith": [],
+      "relationToPredecessor": "Edward VI's cousin, once removed",
+      "ageAtAccession": "15 or 16",
+      "cameToPower": "Named heir by the dying Edward VI",
+      "reignEnded": "Deposed as the council backed Mary",
+      "previously": "Edward VI dies at 15, having signed the crown away from his sisters.",
+      "paragraphs": [
+        "Jane was bookish and brilliant, at home in Latin and Greek, and a committed Protestant. She was also Henry VII's great-granddaughter, which made her useful. In May 1553 she was married to Guildford Dudley, son of the Duke of Northumberland. Weeks later Edward died, and on 10 July she was proclaimed queen in London.",
+        "It fell apart almost at once. Mary, Henry VIII's eldest daughter, refused to back down. She rallied supporters in East Anglia and people flocked to her. Northumberland marched out to fight and his support melted away behind him. On 19 July the council switched sides and proclaimed Mary. Jane went from queen to prisoner without ever leaving the Tower.",
+        "Mary was inclined to spare her. Then in early 1554 Jane's father joined Wyatt's Rebellion against Mary's Spanish marriage. That sealed it. Jane and Guildford were beheaded on 12 February 1554. She was still a teenager."
+      ],
+      "claims": [
+        {
+          "text": "Jane reigned for just nine days.",
+          "status": "confirmed",
+          "note": "Counted from her proclamation on 10 July to Mary's on 19 July. Count from Edward's death and it's thirteen."
+        },
+        {
+          "text": "Jane never wanted the crown.",
+          "status": "disputed",
+          "note": "The main evidence is her own letter to Mary, written as a prisoner, when she had every reason to stress it."
+        },
+        {
+          "text": "Jane told a visiting scholar her parents treated her harshly.",
+          "status": "confirmed",
+          "note": "Roger Ascham recorded the conversation in The Scholemaster. It's his account, written years later."
+        }
+      ],
+      "hook": "Mary rides into London as queen, the first woman crowned to rule England in her own right. She's 37, Catholic and unmarried, and she wants to turn the clock back.",
+      "images": [
+        {
+          "file": "File:Streathamladyjayne.jpg",
+          "url": "https://upload.wikimedia.org/wikipedia/commons/8/87/Streathamladyjayne.jpg",
+          "page": "https://commons.wikimedia.org/wiki/File:Streathamladyjayne.jpg",
+          "credit": "Unidentified painter",
+          "license": "Public domain",
+          "made": "1590s",
+          "caption": "Painted in the 1590s, about forty years after her death; it may not show Jane at all.",
+          "alt": "Painted portrait of a young woman in Tudor dress, known as the Streatham portrait of Lady Jane Grey"
+        }
+      ],
+      "sources": [
+        {
+          "title": "Lady Jane Grey: A Tudor Mystery",
+          "author": "Eric Ives",
+          "note": "Wiley-Blackwell, 2009"
+        },
+        {
+          "title": "The Sisters Who Would Be Queen",
+          "author": "Leanda de Lisle",
+          "note": "HarperPress, 2008"
+        },
+        {
+          "title": "The Scholemaster",
+          "author": "Roger Ascham",
+          "note": "1570"
+        }
+      ],
+      "review": {
+        "status": "draft",
+        "notes": "Drafted from the listed sources; needs a human fact-check."
+      }
+    },
+    {
+      "id": "mary-i",
+      "kind": "monarch",
+      "rulers": [
+        "mary-i"
+      ],
+      "tagline": "The first queen to rule, and the fires that named her",
+      "start": {
+        "date": "1553-07-19"
+      },
+      "end": {
+        "date": "1558-11-17"
+      },
+      "contestedWith": [],
+      "relationToPredecessor": "Half-sister of Edward VI",
+      "ageAtAccession": "37",
+      "cameToPower": "Ousted Jane with popular backing",
+      "reignEnded": "Died of illness, childless",
+      "previously": "Jane's nine days are over. London cheers for Mary.",
+      "paragraphs": [
+        "Mary had a rough start. Her father cast off her mother, declared Mary illegitimate and bullied her into accepting it. She stayed Catholic through her brother's Protestant reign. In 1553 she won the crown by sheer nerve, and she meant to bring England back to Rome. She married Philip of Spain, which made a lot of English people furious. Wyatt's Rebellion in 1554 got as far as the gates of the City of London.",
+        "Her half-sister Elizabeth was sent to the Tower after the rising, suspected of being in on it. Mary restored the Pope's authority and revived the old heresy laws. From 1555 Protestants were burned at the stake, around 280 of them, including Archbishop Thomas Cranmer. That is where the name Bloody Mary comes from.",
+        "She longed for a child. In 1554 and 1555 she believed she was pregnant for months, but no baby came. Philip spent most of his time abroad. A war fought alongside Spain cost England Calais, its last foothold in France, in January 1558. That November Mary died, and with no child of her own, the crown passed to Elizabeth."
+      ],
+      "claims": [
+        {
+          "text": "Around 280 people were burned for heresy in Mary's reign.",
+          "status": "confirmed",
+          "note": "John Foxe listed the victims in his Book of Martyrs, and historians checking the records reach similar totals."
+        },
+        {
+          "text": "Mary said that when she died, “Calais” would be found lying in her heart.",
+          "status": "disputed",
+          "note": "The line is reported in Holinshed's Chronicles after her death. It's second-hand, though it fits her mood."
+        },
+        {
+          "text": "Mary had a phantom pregnancy.",
+          "status": "confirmed",
+          "note": "Ambassadors' letters track the months of waiting in 1554 and 1555, and the baby that never came."
+        }
+      ],
+      "hook": "At Hatfield, Mary's half-sister gets the news. Elizabeth once sat in the Tower expecting to die. Now she's 25, and the crown is hers.",
+      "images": [
+        {
+          "file": "File:Anthonis Mor 001.jpg",
+          "url": "https://upload.wikimedia.org/wikipedia/commons/f/fe/Anthonis_Mor_001.jpg",
+          "page": "https://commons.wikimedia.org/wiki/File:Anthonis_Mor_001.jpg",
+          "credit": "Antonis Mor",
+          "license": "Public domain",
+          "made": "1554",
+          "caption": "Painted in 1554, the year she married Philip of Spain.",
+          "alt": "Seated portrait of Mary I in a dark, richly trimmed gown, holding a red rose"
+        }
+      ],
+      "sources": [
+        {
+          "title": "Mary Tudor: England's First Queen",
+          "author": "Anna Whitelock",
+          "note": "Bloomsbury, 2009"
+        },
+        {
+          "title": "Mary Tudor: The First Queen",
+          "author": "Linda Porter",
+          "note": "Portrait, 2007"
+        },
+        {
+          "title": "Acts and Monuments (Book of Martyrs)",
+          "author": "John Foxe",
+          "note": "1563"
+        },
+        {
+          "title": "Chronicles of England, Scotland and Ireland",
+          "author": "Raphael Holinshed",
+          "note": "1577; the Calais remark"
+        }
+      ],
+      "review": {
+        "status": "draft",
+        "notes": "Drafted from the listed sources; needs a human fact-check."
+      }
+    },
+    {
+      "id": "elizabeth-i",
+      "kind": "monarch",
+      "rulers": [
+        "elizabeth-i"
+      ],
+      "tagline": "The Virgin Queen who outfoxed Spain and her suitors",
+      "start": {
+        "date": "1558-11-17"
+      },
+      "end": {
+        "date": "1603-03-24"
+      },
+      "contestedWith": [],
+      "relationToPredecessor": "Half-sister of Mary I",
+      "ageAtAccession": "25",
+      "cameToPower": "Inherited from her half-sister",
+      "reignEnded": "Died at Richmond, aged 69",
+      "previously": "Mary dies childless, her Catholic restoration in doubt.",
+      "paragraphs": [
+        "Elizabeth's mother was Anne Boleyn, beheaded when Elizabeth was two. Under Mary she was locked in the Tower and came close to losing her head. As queen she set up a Protestant church that didn't push too hard, and she picked sharp ministers, above all William Cecil. Parliament kept begging her to marry. She flirted with foreign princes and with her favourite, Robert Dudley, and never said yes.",
+        "Her Catholic cousin Mary, Queen of Scots fled to England in 1568 and became a magnet for plots. Elizabeth kept her locked up for nearly nineteen years, then signed her death warrant in 1587. A year later Philip II of Spain sent the Armada. English fireships and storms wrecked it, and Elizabeth's speech to her troops at Tilbury became the stuff of legend.",
+        "This was also the age of Shakespeare and of Drake's voyage round the world. The last years were harder, with war in Ireland and the failed rising and execution of her later favourite, the Earl of Essex. She died in March 1603, aged 69, without ever having officially named an heir."
+      ],
+      "claims": [
+        {
+          "text": "At Tilbury she said she had “the heart and stomach of a king”.",
+          "status": "disputed",
+          "note": "The text we know comes from a letter by Leonel Sharp, printed in 1654. He may have rebuilt the speech from memory."
+        },
+        {
+          "text": "Elizabeth was reading under an oak tree at Hatfield when told she was queen.",
+          "status": "legend",
+          "note": "A charming story, but it shows up long after the event, and no contemporary account mentions the tree."
+        },
+        {
+          "text": "The real Elizabeth died as a girl and was secretly replaced by a boy from Bisley.",
+          "status": "legend",
+          "note": "A Cotswold folk tale, made famous by Bram Stoker in 1910. There's no evidence for it at all."
+        }
+      ],
+      "hook": "A rider gallops north to Edinburgh with the news. The new king is the son of the queen Elizabeth beheaded: James VI of Scotland.",
+      "images": [
+        {
+          "file": "File:Elizabeth I (Armada Portrait).jpg",
+          "url": "https://upload.wikimedia.org/wikipedia/commons/7/7b/Elizabeth_I_%28Armada_Portrait%29.jpg",
+          "page": "https://commons.wikimedia.org/wiki/File:Elizabeth_I_(Armada_Portrait).jpg",
+          "credit": "Unknown artist, formerly attributed to George Gower",
+          "license": "Public domain",
+          "made": "c. 1588",
+          "caption": "Painted to celebrate the defeat of the Spanish Armada in 1588.",
+          "alt": "Elizabeth I in a pearl-covered gown with her hand on a globe, with Armada sea battle scenes behind her"
+        }
+      ],
+      "sources": [
+        {
+          "title": "Elizabeth I",
+          "author": "Wallace MacCaffrey",
+          "note": "Edward Arnold, 1993"
+        },
+        {
+          "title": "Elizabeth I",
+          "author": "Anne Somerset",
+          "note": "Weidenfeld & Nicolson, 1991"
+        },
+        {
+          "title": "Annales",
+          "author": "William Camden",
+          "note": "1615"
+        }
+      ],
+      "review": {
+        "status": "draft",
+        "notes": "Drafted from the listed sources; needs a human fact-check."
+      }
+    },
+    {
+      "id": "james-i",
+      "kind": "monarch",
+      "rulers": [
+        "james-i"
+      ],
+      "tagline": "Scotland's king takes England and nearly gets blown up",
+      "start": {
+        "date": "1603-03-24"
+      },
+      "end": {
+        "date": "1625-03-27"
+      },
+      "contestedWith": [],
+      "relationToPredecessor": "Great-great-grandson of Henry VII",
+      "ageAtAccession": "36",
+      "cameToPower": "Inherited as Elizabeth's nearest heir",
+      "reignEnded": "Died at Theobalds, aged 58",
+      "previously": "Elizabeth dies unmarried. The Tudor line ends with her.",
+      "paragraphs": [
+        "James had been king of Scotland since he was a baby, after his mother, Mary, Queen of Scots, was forced to give up her throne. In 1603 he became James I of England too, so one man ruled both kingdoms for the first time. The English found him odd: clever, chatty and bookish, mad about hunting, and devoted to handsome young men like George Villiers, whom he made Duke of Buckingham.",
+        "In 1605 a group of Catholic plotters packed barrels of gunpowder under the House of Lords, planning to blow up the king at the opening of Parliament. Guy Fawkes was caught guarding it on the night of 4 November. James also wrote books on kingship, witchcraft and the evils of tobacco, and backed the new translation of the Bible published in 1611.",
+        "He was always short of money and forever quarrelling with Parliament over it. He believed kings were appointed by God and answered to Him alone. His popular eldest son, Henry, died in 1612, so the heir became his shy younger son, Charles. James died in March 1625."
+      ],
+      "claims": [
+        {
+          "text": "The Gunpowder Plot aimed to kill James and blow up Parliament.",
+          "status": "confirmed",
+          "note": "The plotters' confessions and the gunpowder found in the cellar are well documented."
+        },
+        {
+          "text": "James personally questioned accused witches and wrote a book about them.",
+          "status": "confirmed",
+          "note": "He took part in the North Berwick witch trials of 1590 and published Daemonologie in 1597."
+        },
+        {
+          "text": "A French king called James “the wisest fool in Christendom”.",
+          "status": "disputed",
+          "note": "It's usually pinned on Henri IV of France, but the source is late and no one can prove he said it."
+        }
+      ],
+      "hook": "The new king is shy, stammering and completely sure that God made him king. He's about to marry a French Catholic princess. Parliament is already uneasy.",
+      "images": [
+        {
+          "file": "File:James I of England by Daniel Mytens.jpg",
+          "url": "https://upload.wikimedia.org/wikipedia/commons/7/72/James_I_of_England_by_Daniel_Mytens.jpg",
+          "page": "https://commons.wikimedia.org/wiki/File:James_I_of_England_by_Daniel_Mytens.jpg",
+          "credit": "Daniel Mytens",
+          "license": "Public domain",
+          "made": "1621",
+          "caption": "Painted in 1621, four years before his death.",
+          "alt": "Painted portrait of James I in rich robes and a tall hat"
+        }
+      ],
+      "sources": [
+        {
+          "title": "King James",
+          "author": "Pauline Croft",
+          "note": "Palgrave Macmillan, 2003"
+        },
+        {
+          "title": "The Cradle King: A Life of James VI and I",
+          "author": "Alan Stewart",
+          "note": "Chatto & Windus, 2003"
+        },
+        {
+          "title": "Daemonologie",
+          "author": "James VI and I",
+          "note": "1597"
+        }
+      ],
+      "review": {
+        "status": "draft",
+        "notes": "Drafted from the listed sources; needs a human fact-check."
+      }
+    },
+    {
+      "id": "charles-i",
+      "kind": "monarch",
+      "rulers": [
+        "charles-i"
+      ],
+      "tagline": "The king who lost a war, his crown and his head",
+      "start": {
+        "date": "1625-03-27"
+      },
+      "end": {
+        "date": "1649-01-30"
+      },
+      "contestedWith": [],
+      "relationToPredecessor": "Second son of James I",
+      "ageAtAccession": "24",
+      "cameToPower": "Inherited from his father",
+      "reignEnded": "Beheaded at Whitehall",
+      "previously": "James I dies, leaving his son a big debt and a wary Parliament.",
+      "paragraphs": [
+        "Charles was small, stammering and stiff, and totally sure God had put him on the throne. He married a French Catholic princess, Henrietta Maria, which worried Protestants. He fought Parliament over money and religion until, in 1629, he decided to rule without it. For eleven years he raised cash through old and hated levies like Ship Money.",
+        "Then he tried to force a new prayer book on Scotland, and the Scots rebelled. Needing money for war, he had to recall Parliament, which turned on him. In January 1642 he marched into the Commons to arrest five MPs, but they had already slipped away. That August he raised his standard at Nottingham, and civil war began.",
+        "Parliament's New Model Army, with Oliver Cromwell among its leaders, smashed the king at Naseby in 1645. Charles surrendered, then struck a deal with the Scots and started a second war. The army ran out of patience. He was put on trial for treason against his own people, refused to recognise the court, and was beheaded outside the Banqueting House in Whitehall on 30 January 1649."
+      ],
+      "claims": [
+        {
+          "text": "Charles tried to arrest five MPs inside the Commons in person.",
+          "status": "confirmed",
+          "note": "Well recorded. Speaker Lenthall famously told him he had no eyes to see or tongue to speak but as the House directed."
+        },
+        {
+          "text": "He wore two shirts to his execution so the cold wouldn't make him shiver and look afraid.",
+          "status": "disputed",
+          "note": "A much-told story from accounts of his last day. It's plausible for a freezing January morning, but hard to pin down."
+        },
+        {
+          "text": "The masked executioner was Richard Brandon, London's hangman.",
+          "status": "disputed",
+          "note": "The headsman was disguised. Brandon was named in pamphlets soon after, but nobody has ever proved who swung the axe."
+        }
+      ],
+      "hook": "The axe falls and the crowd groans. For the first time, England has no king. Parliament scraps the monarchy, and a Huntingdon country gentleman turned general is the most powerful man in the land.",
+      "images": [
+        {
+          "file": "File:Sir Anthony Van Dyck - Charles I (1600-49) - Google Art Project.jpg",
+          "url": "https://upload.wikimedia.org/wikipedia/commons/b/b0/Sir_Anthony_Van_Dyck_-_Charles_I_%281600-49%29_-_Google_Art_Project.jpg",
+          "page": "https://commons.wikimedia.org/wiki/File:Sir_Anthony_Van_Dyck_-_Charles_I_(1600-49)_-_Google_Art_Project.jpg",
+          "credit": "Anthony van Dyck",
+          "license": "Public domain",
+          "made": "c. 1635–36",
+          "caption": "Painted by his court artist Van Dyck around 1635, in the years he ruled without Parliament.",
+          "alt": "Painting of Charles I's head shown three times, in profile, full face and three-quarter view"
+        }
+      ],
+      "sources": [
+        {
+          "title": "Charles I: The Personal Monarch",
+          "author": "Charles Carlton",
+          "note": "Routledge, 1983; 2nd ed. 1995"
+        },
+        {
+          "title": "Charles I: A Political Life",
+          "author": "Richard Cust",
+          "note": "Pearson Longman, 2005"
+        },
+        {
+          "title": "A Coffin for King Charles",
+          "author": "C. V. Wedgwood",
+          "note": "1964; also published as The Trial of Charles I"
+        }
+      ],
+      "review": {
+        "status": "draft",
+        "notes": "Drafted from the listed sources; needs a human fact-check."
+      }
+    },
+    {
+      "id": "commonwealth",
+      "kind": "interregnum",
+      "title": "The Commonwealth",
+      "rulers": [
+        "oliver-cromwell"
+      ],
+      "tagline": "Eleven years with no king, and one very stern farmer",
+      "start": {
+        "date": "1649-01-30"
+      },
+      "end": {
+        "date": "1660-05-29"
+      },
+      "contestedWith": [],
+      "relationToPredecessor": "General who beat and tried Charles I",
+      "ageAtAccession": "49 (54 as Protector)",
+      "cameToPower": "Won the civil war; king executed",
+      "reignEnded": "Monarchy restored in 1660",
+      "previously": "Charles I is beheaded outside the Banqueting House in Whitehall.",
+      "paragraphs": [
+        "With the king dead, Parliament scrapped the monarchy and the House of Lords and declared England a Commonwealth. Oliver Cromwell, a Huntingdon gentleman farmer turned brilliant cavalry general, was its sword. He crushed Ireland with massacres at Drogheda and Wexford, then beat the Scots at Dunbar in 1650 and young Charles Stuart at Worcester in 1651. Charles escaped to France after hiding up an oak tree.",
+        "In 1653 Cromwell marched soldiers into the Commons and threw the MPs out. By December he was Lord Protector, a king in all but name. In 1657 Parliament offered him the actual crown and he said no. Puritan rule meant shut theatres, banned horse races, and fasting instead of feasting. He died on 3 September 1658, the anniversary of Dunbar and Worcester.",
+        "His son Richard took over and lasted about eight months. People called him Tumbledown Dick. The army and Parliament squabbled until General George Monck marched down from Scotland and called for a free Parliament. It invited Charles Stuart home. In 1661 Cromwell's body was dug up, hanged at Tyburn and beheaded."
+      ],
+      "claims": [
+        {
+          "text": "Cromwell banned Christmas.",
+          "status": "disputed",
+          "note": "Parliament outlawed Christmas festivities in the 1640s, before Cromwell ran the country. He backed Puritan rule but didn't personally write the ban."
+        },
+        {
+          "text": "Cromwell told his painter to show him “warts and all”.",
+          "status": "legend",
+          "note": "The line first appears decades later, via Horace Walpole's anecdote about Peter Lely. Nobody at the time recorded it."
+        },
+        {
+          "text": "Cromwell's severed head was stuck on a pole above Westminster Hall for years.",
+          "status": "confirmed",
+          "note": "Contemporaries saw it there. After centuries in private hands, the head was buried at Sidney Sussex College, Cambridge, in 1960."
+        }
+      ],
+      "hook": "London is ringing its bells and the maypoles are going back up. On his thirtieth birthday, a tall, dark, exiled king rides into the capital with a lot of lost time to make up.",
+      "images": [
+        {
+          "file": "File:Oliver Cromwell by Robert Walker.jpg",
+          "url": "https://upload.wikimedia.org/wikipedia/commons/e/e9/Oliver_Cromwell_by_Robert_Walker.jpg",
+          "page": "https://commons.wikimedia.org/wiki/File:Oliver_Cromwell_by_Robert_Walker.jpg",
+          "credit": "Robert Walker",
+          "license": "Public domain",
+          "made": "c. 1649",
+          "caption": "Painted by Robert Walker around the year England's king was executed.",
+          "alt": "Painted portrait of Oliver Cromwell"
+        }
+      ],
+      "sources": [
+        {
+          "title": "God's Englishman: Oliver Cromwell and the English Revolution",
+          "author": "Christopher Hill",
+          "note": "1970"
+        },
+        {
+          "title": "Cromwell: Our Chief of Men",
+          "author": "Antonia Fraser",
+          "note": "1973"
+        },
+        {
+          "title": "Cromwell, Oliver (1599–1658)",
+          "author": "John Morrill",
+          "note": "Oxford Dictionary of National Biography"
+        }
+      ],
+      "review": {
+        "status": "draft",
+        "notes": "Drafted from the listed sources; needs a human fact-check."
+      }
+    },
+    {
+      "id": "charles-ii",
+      "kind": "monarch",
+      "rulers": [
+        "charles-ii"
+      ],
+      "tagline": "The party king who brought back theatres, fun and scandal",
+      "start": {
+        "date": "1660-05-29"
+      },
+      "end": {
+        "date": "1685-02-06"
+      },
+      "contestedWith": [],
+      "relationToPredecessor": "Eldest surviving son of Charles I",
+      "ageAtAccession": "30",
+      "cameToPower": "Invited home by Parliament",
+      "reignEnded": "Died after a sudden seizure",
+      "previously": "Cromwell's regime falls apart and Parliament invites the king home.",
+      "paragraphs": [
+        "Charles rode into London on 29 May 1660, his thirtieth birthday, to wild cheering. The theatres reopened, and for the first time women played women on the English stage. One of them, Nell Gwyn, became his mistress. He had plenty of those, and at least a dozen children he owned up to. His Portuguese queen, Catherine of Braganza, gave him none.",
+        "His reign brought the Royal Society, the Great Plague of 1665 and the Great Fire of London in 1666. The Dutch sailed up the Medway in 1667 and towed off the navy's flagship. In secret, Charles took French money and promised Louis XIV he'd turn Catholic. Then in 1678 Titus Oates invented a Popish Plot to kill the king, and the country went into an anti-Catholic panic.",
+        "The real problem was his brother James, an open Catholic and next in line. Parliament tried to cut James out, and the two sides of that fight got nicknamed Whigs and Tories. Charles outplayed them and ruled without Parliament in his last years. In February 1685 he had a seizure. On his deathbed a priest received him into the Catholic Church."
+      ],
+      "claims": [
+        {
+          "text": "After losing at Worcester in 1651, Charles hid in an oak tree while soldiers searched below.",
+          "status": "confirmed",
+          "note": "Charles told the story himself, dictating it to Samuel Pepys in 1680. Others who helped him escape confirmed the details."
+        },
+        {
+          "text": "His dying words included “Let not poor Nelly starve.”",
+          "status": "disputed",
+          "note": "It comes from Bishop Gilbert Burnet, who wasn't in the room. Other versions differ."
+        },
+        {
+          "text": "Charles became a Catholic on his deathbed.",
+          "status": "confirmed",
+          "note": "Father John Huddleston, the priest who had helped him escape after Worcester, was smuggled in and later published an account."
+        }
+      ],
+      "hook": "No legitimate children, so the crown goes to brother James, a proud Catholic in a nervous Protestant country. And Charles's eldest illegitimate son, the Duke of Monmouth, thinks it should be his.",
+      "images": [
+        {
+          "file": "File:King Charles II by John Michael Wright or studio.jpg",
+          "url": "https://upload.wikimedia.org/wikipedia/commons/5/51/King_Charles_II_by_John_Michael_Wright_or_studio.jpg",
+          "page": "https://commons.wikimedia.org/wiki/File:King_Charles_II_by_John_Michael_Wright_or_studio.jpg",
+          "credit": "John Michael Wright",
+          "license": "Public domain",
+          "made": "c. 1660–1665",
+          "caption": "Painted by John Michael Wright or his studio in the first years after the Restoration.",
+          "alt": "Portrait of Charles II in Garter robes"
+        }
+      ],
+      "sources": [
+        {
+          "title": "Charles II: King of England, Scotland, and Ireland",
+          "author": "Ronald Hutton",
+          "note": "Clarendon Press, 1989"
+        },
+        {
+          "title": "King Charles II",
+          "author": "Antonia Fraser",
+          "note": "1979"
+        },
+        {
+          "title": "The Diary of Samuel Pepys",
+          "author": "Samuel Pepys"
+        },
+        {
+          "title": "Charles II (1630–1685)",
+          "author": "Ronald Hutton",
+          "note": "Oxford Dictionary of National Biography"
+        }
+      ],
+      "review": {
+        "status": "draft",
+        "notes": "Drafted from the listed sources; needs a human fact-check."
+      }
+    },
+    {
+      "id": "james-ii",
+      "kind": "monarch",
+      "rulers": [
+        "james-ii"
+      ],
+      "tagline": "The Catholic king who lost his throne in three years",
+      "start": {
+        "date": "1685-02-06"
+      },
+      "end": {
+        "date": "1688-12-11"
+      },
+      "contestedWith": [],
+      "relationToPredecessor": "Younger brother of Charles II",
+      "ageAtAccession": "51",
+      "cameToPower": "Succeeded his brother",
+      "reignEnded": "Fled; Great Seal thrown in the Thames",
+      "previously": "Charles II dies a Catholic at the last, leaving no legitimate heir.",
+      "paragraphs": [
+        "James started strong. When Charles's son the Duke of Monmouth landed in the West Country to grab the crown, the royal army smashed his rebels at Sedgemoor in July 1685. Monmouth was beheaded, horribly slowly. Judge Jeffreys then toured the West in the Bloody Assizes, hanging hundreds of rebels and shipping hundreds more to the colonies.",
+        "Then James overplayed his hand. He put Catholics in charge of army regiments, colleges and offices, and suspended the laws against them. When seven bishops refused to have his order read in church, he put them on trial. They were acquitted and London partied in the streets. That same June of 1688, his queen gave birth to a son. Now a Catholic dynasty looked permanent.",
+        "Seven leading men invited James's Protestant son-in-law, William of Orange, to step in. William landed at Torbay on 5 November 1688. James's army melted away, his commander John Churchill defected, and even his daughter Anne switched sides. James fled in December, tossing the Great Seal into the Thames. He was caught, then allowed to escape to France."
+      ],
+      "claims": [
+        {
+          "text": "The baby prince was smuggled into the queen's bed in a warming pan.",
+          "status": "legend",
+          "note": "Protestant propaganda pushed this hard in 1688. Dozens of people witnessed the birth and historians agree the baby was genuine."
+        },
+        {
+          "text": "Monmouth's executioner, Jack Ketch, needed at least five blows of the axe.",
+          "status": "confirmed",
+          "note": "Several eyewitness accounts describe the botched execution. Ketch was already notorious for a messy job on Lord Russell."
+        },
+        {
+          "text": "Sedgemoor was the last pitched battle fought on English soil.",
+          "status": "disputed",
+          "note": "Often repeated, but it depends on what counts as a battle. Clashes at Clifton Moor and Preston in 1715 and 1745 complicate the claim."
+        }
+      ],
+      "hook": "James is gone, and Parliament has a throne to fill. William of Orange has made clear he won't settle for being his wife's sidekick.",
+      "images": [
+        {
+          "file": "File:King James II by Sir Godfrey Kneller, Bt.jpg",
+          "url": "https://upload.wikimedia.org/wikipedia/commons/d/dd/King_James_II_by_Sir_Godfrey_Kneller%2C_Bt.jpg",
+          "page": "https://commons.wikimedia.org/wiki/File:King_James_II_by_Sir_Godfrey_Kneller,_Bt.jpg",
+          "credit": "Godfrey Kneller",
+          "license": "Public domain",
+          "made": "1684",
+          "caption": "Painted by Godfrey Kneller in 1684, a year before James became king.",
+          "alt": "Painted portrait of King James II"
+        }
+      ],
+      "sources": [
+        {
+          "title": "James II (Yale English Monarchs)",
+          "author": "John Miller",
+          "note": "Yale University Press, 2000"
+        },
+        {
+          "title": "Revolution: The Great Crisis of the British Monarchy, 1685–1720",
+          "author": "Tim Harris",
+          "note": "2006"
+        },
+        {
+          "title": "James II and VII (1633–1701)",
+          "author": "W. A. Speck",
+          "note": "Oxford Dictionary of National Biography"
+        }
+      ],
+      "review": {
+        "status": "draft",
+        "notes": "Drafted from the listed sources; needs a human fact-check."
+      }
+    },
+    {
+      "id": "william-and-mary",
+      "kind": "monarch",
+      "title": "William III & Mary II",
+      "rulers": [
+        "william-iii",
+        "mary-ii"
+      ],
+      "tagline": "Two monarchs, one throne, and a revolution with paperwork",
+      "start": {
+        "date": "1689-02-13"
+      },
+      "end": {
+        "date": "1694-12-28"
+      },
+      "contestedWith": [],
+      "relationToPredecessor": "James II's daughter and her husband",
+      "ageAtAccession": "William 38, Mary 26",
+      "cameToPower": "Offered the crown by Parliament",
+      "reignEnded": "Mary died of smallpox",
+      "previously": "James II flees to France, and Parliament declares the throne empty.",
+      "paragraphs": [
+        "Parliament wanted Mary, James's Protestant daughter, as queen. William refused to be his wife's gentleman usher, and Mary had no wish to rule over her husband. So both were crowned, the only joint monarchs in English history, with William holding the real power. The price was the Bill of Rights of 1689, which limited the crown and barred any Catholic from the throne.",
+        "James didn't give up. He landed in Ireland with French help, and William beat him at the Battle of the Boyne in 1690. William then spent his summers fighting Louis XIV in Flanders, and while he was away, Mary ran the country, and did it well. In Scotland, government troops massacred the MacDonalds of Glencoe in 1692. In 1694 the Bank of England was founded to pay for the war.",
+        "Mary caught smallpox in December 1694 and died at Kensington Palace, aged 32. William, a cold man in public, was wrecked with grief. Henry Purcell wrote music for her funeral. They had no children, so under the 1689 deal William carried on alone, with Mary's sister Anne next in line."
+      ],
+      "claims": [
+        {
+          "text": "William said he wouldn't be “his wife's gentleman usher”.",
+          "status": "confirmed",
+          "note": "Reported by Bishop Gilbert Burnet, who was close to both of them. The exact wording varies between accounts."
+        },
+        {
+          "text": "William knew his Glencoe order would lead to a massacre.",
+          "status": "disputed",
+          "note": "He signed orders to deal harshly with the clan, but a Scottish inquiry in 1695 put most of the blame on his Secretary of State, Sir John Dalrymple."
+        },
+        {
+          "text": "Purcell's music for Mary's funeral was played at his own funeral a year later.",
+          "status": "confirmed",
+          "note": "Purcell died in November 1695 and was buried in Westminster Abbey. Contemporary accounts link the music to both funerals."
+        }
+      ],
+      "hook": "Mary is dead at 32 and William now rules alone. He's childless, often ill, and much of England still sees him as a foreigner.",
+      "images": [
+        {
+          "file": "File:Charger with double portrait of William III and Mary II MET DP-1687-007.jpg",
+          "url": "https://upload.wikimedia.org/wikipedia/commons/c/cd/Charger_with_double_portrait_of_William_III_and_Mary_II_MET_DP-1687-007.jpg",
+          "page": "https://commons.wikimedia.org/wiki/File:Charger_with_double_portrait_of_William_III_and_Mary_II_MET_DP-1687-007.jpg",
+          "credit": "Unknown Delft potter",
+          "license": "CC0",
+          "made": "c. 1690",
+          "caption": "A Dutch Delftware dish made around the time of the joint reign, now in the Metropolitan Museum of Art.",
+          "alt": "Delft pottery charger decorated with a double portrait of William III and Mary II"
+        }
+      ],
+      "sources": [
+        {
+          "title": "William III and II (1650–1702)",
+          "author": "Tony Claydon",
+          "note": "Oxford Dictionary of National Biography"
+        },
+        {
+          "title": "Mary II (1662–1694)",
+          "author": "W. A. Speck",
+          "note": "Oxford Dictionary of National Biography"
+        },
+        {
+          "title": "History of His Own Time",
+          "author": "Gilbert Burnet"
+        }
+      ],
+      "review": {
+        "status": "draft",
+        "notes": "Drafted from the listed sources; needs a human fact-check."
+      }
+    },
+    {
+      "id": "william-iii",
+      "kind": "monarch",
+      "title": "William III, alone",
+      "rulers": [
+        "william-iii"
+      ],
+      "tagline": "The lonely Dutch king brought down by a molehill",
+      "start": {
+        "date": "1694-12-28"
+      },
+      "end": {
+        "date": "1702-03-08"
+      },
+      "contestedWith": [],
+      "relationToPredecessor": "Widower of Mary II",
+      "ageAtAccession": "44",
+      "cameToPower": "Kept the crown when Mary died",
+      "reignEnded": "Horse tripped on a molehill",
+      "previously": "Queen Mary dies of smallpox, and William carries on as sole monarch.",
+      "paragraphs": [
+        "Alone on the throne, William kept fighting France. He retook the fortress of Namur in 1695, and in 1697 the Peace of Ryswick forced Louis XIV to recognise him as king. At home, Jacobites plotted to ambush and kill him in 1696, and the plot was blown. Many English people resented his Dutch friends, who got big titles and bigger land grants.",
+        "Then the succession fell apart. In 1700 Princess Anne's last surviving child, eleven-year-old William, Duke of Gloucester, died. Parliament passed the Act of Settlement in 1701: after Anne, the crown would go to Sophia of Hanover and her Protestant heirs. When James II died in France that year, Louis XIV hailed his son as King James III. Another war was coming.",
+        "In February 1702 William was riding at Hampton Court when his horse stumbled on a molehill. He broke his collarbone. Already weak, he caught pneumonia and died at Kensington Palace on 8 March 1702."
+      ],
+      "claims": [
+        {
+          "text": "William's horse stumbled on a molehill, causing the fatal fall.",
+          "status": "confirmed",
+          "note": "Contemporary accounts blame a molehill. The fall broke his collarbone, but his poor health did the real damage."
+        },
+        {
+          "text": "Jacobites toasted the mole as “the little gentleman in the black velvet waistcoat”.",
+          "status": "confirmed",
+          "note": "The toast is well recorded in Jacobite tradition. How widely it was drunk is harder to say."
+        },
+        {
+          "text": "William had male lovers among his favourites.",
+          "status": "disputed",
+          "note": "His enemies spread the gossip about Hans Willem Bentinck and Arnold van Keppel. There's no solid evidence either way."
+        }
+      ],
+      "hook": "The crown passes to Mary's sister Anne: devout, often ill, and about to be plunged into a giant war with France.",
+      "images": [
+        {
+          "file": "File:King William III of England (1650-1702) by Kneller.jpg",
+          "url": "https://upload.wikimedia.org/wikipedia/commons/0/00/King_William_III_of_England_%281650-1702%29_by_Kneller.jpg",
+          "page": "https://commons.wikimedia.org/wiki/File:King_William_III_of_England_(1650-1702)_by_Kneller.jpg",
+          "credit": "Godfrey Kneller",
+          "license": "Public domain",
+          "made": "c. 1690",
+          "caption": "Painted by Godfrey Kneller around 1690, early in William's time as king.",
+          "alt": "Painted portrait of William III of Orange"
+        }
+      ],
+      "sources": [
+        {
+          "title": "William III",
+          "author": "Tony Claydon",
+          "note": "Longman, Profiles in Power, 2002"
+        },
+        {
+          "title": "William III",
+          "author": "Stephen B. Baxter",
+          "note": "Longmans, 1966"
+        },
+        {
+          "title": "William III and II (1650–1702)",
+          "author": "Tony Claydon",
+          "note": "Oxford Dictionary of National Biography"
+        }
+      ],
+      "review": {
+        "status": "draft",
+        "notes": "Drafted from the listed sources; needs a human fact-check."
+      }
+    },
+    {
+      "id": "anne",
+      "kind": "monarch",
+      "rulers": [
+        "anne"
+      ],
+      "tagline": "The last Stuart, who made Great Britain and won big",
+      "start": {
+        "date": "1702-03-08"
+      },
+      "end": {
+        "date": "1714-08-01"
+      },
+      "contestedWith": [],
+      "relationToPredecessor": "Younger daughter of James II",
+      "ageAtAccession": "37",
+      "cameToPower": "Next in line under the Bill of Rights",
+      "reignEnded": "Died after a stroke",
+      "previously": "William's horse trips on a molehill, and the fall finishes him off.",
+      "paragraphs": [
+        "Anne was pregnant at least 17 times. Not one child outlived her. Her gout was so bad she was carried to her own coronation in a chair. But her reign was a winner. John Churchill, Duke of Marlborough, beat the French at Blenheim in 1704, then Ramillies, Oudenarde and Malplaquet. A grateful nation built him Blenheim Palace.",
+        "In 1707 the Act of Union joined England and Scotland into Great Britain, and Anne became its first monarch. Behind the scenes ran a soap opera. Her best friend Sarah Churchill, Marlborough's wife, bullied her, and Anne replaced her with Sarah's cousin Abigail Masham. Sarah never forgave either of them. The Tories ended the war with the Treaty of Utrecht in 1713.",
+        "Anne was the last monarch to veto a bill passed by Parliament, in 1708. She had a stroke in late July 1714 and died on 1 August. Sophia of Hanover had died just weeks earlier, so the crown passed to Sophia's son George."
+      ],
+      "claims": [
+        {
+          "text": "Anne touched the infant Samuel Johnson to cure him of scrofula.",
+          "status": "confirmed",
+          "note": "Johnson remembered being taken to her in 1712. It didn't work. She was the last monarch to perform the royal touch."
+        },
+        {
+          "text": "Anne and Sarah Churchill were lovers.",
+          "status": "disputed",
+          "note": "Sarah hinted at an unnatural attachment between Anne and Abigail, mainly to wound them. Historians disagree on how to read their intense letters."
+        },
+        {
+          "text": "Anne was the last monarch to refuse royal assent to a bill.",
+          "status": "confirmed",
+          "note": "She vetoed the Scottish Militia Bill in 1708. No monarch has done it since."
+        }
+      ],
+      "hook": "Anne's death skips more than 50 Catholic relatives with stronger blood claims. The crown goes to a 54-year-old German elector who speaks little English.",
+      "images": [
+        {
+          "file": "File:Dahl, Michael - Queen Anne - NPG 6187.jpg",
+          "url": "https://upload.wikimedia.org/wikipedia/commons/e/e9/Dahl%2C_Michael_-_Queen_Anne_-_NPG_6187.jpg",
+          "page": "https://commons.wikimedia.org/wiki/File:Dahl,_Michael_-_Queen_Anne_-_NPG_6187.jpg",
+          "credit": "Michael Dahl",
+          "license": "Public domain",
+          "made": "1705",
+          "caption": "Painted by Michael Dahl in 1705, three years into her reign.",
+          "alt": "Painted portrait of Queen Anne"
+        }
+      ],
+      "sources": [
+        {
+          "title": "Queen Anne (Yale English Monarchs)",
+          "author": "Edward Gregg",
+          "note": "Routledge, 1980; Yale University Press, 2001"
+        },
+        {
+          "title": "Queen Anne: The Politics of Passion",
+          "author": "Anne Somerset",
+          "note": "2012"
+        },
+        {
+          "title": "Anne (1665–1714)",
+          "author": "Edward Gregg",
+          "note": "Oxford Dictionary of National Biography"
+        }
+      ],
+      "review": {
+        "status": "draft",
+        "notes": "Drafted from the listed sources; needs a human fact-check."
+      }
+    },
+    {
+      "id": "george-i",
+      "kind": "monarch",
+      "rulers": [
+        "george-i"
+      ],
+      "tagline": "The German king who locked his wife in a castle",
+      "start": {
+        "date": "1714-08-01"
+      },
+      "end": {
+        "date": "1727-06-11"
+      },
+      "contestedWith": [],
+      "relationToPredecessor": "Second cousin of Anne",
+      "ageAtAccession": "54",
+      "cameToPower": "Act of Settlement 1701",
+      "reignEnded": "Stroke on the road to Hanover",
+      "previously": "Queen Anne, last of the Stuart monarchs, dies with no surviving child.",
+      "paragraphs": [
+        "George arrived at Greenwich in September 1714 with a pack of German courtiers and no queen. Back in 1694 he had divorced his wife Sophia Dorothea over her affair with Count Philipp von Königsmarck. The count vanished. She spent the next 30 years locked up in the castle of Ahlden. George's mistress, the very tall Melusine von der Schulenburg, got the nickname the Maypole.",
+        "In 1715 the Jacobites rose in Scotland for James's son, the Old Pretender, but the rising fizzled out. George's family life was a mess: he loathed his son and threw him out of St James's Palace in 1717. Then in 1720 the South Sea Bubble burst, ruining investors and dragging in the court. Robert Walpole cleaned up the mess and stayed in power for 21 years, effectively the first prime minister.",
+        "George went home to Hanover whenever he could. On one of those trips in June 1727 he had a stroke on the road and died at Osnabrück. He was buried in Hanover."
+      ],
+      "claims": [
+        {
+          "text": "George I couldn't speak English.",
+          "status": "disputed",
+          "note": "Long repeated, but he could manage some English, and he talked to ministers in French. Historians now see the old story as exaggerated."
+        },
+        {
+          "text": "Count Königsmarck was murdered at the Hanover palace in 1694.",
+          "status": "disputed",
+          "note": "He disappeared after visiting Sophia Dorothea and his body was never found. Murder is very likely, but nobody knows for sure who did it."
+        },
+        {
+          "text": "Handel wrote the Water Music to win back George's favour.",
+          "status": "legend",
+          "note": "The story appears long after. The music was played for a royal barge trip on the Thames in 1717, but the make-up tale doesn't hold up."
+        }
+      ],
+      "hook": "His son George hated him, and the feeling was mutual. Now that son is king, and he's about to find out his own heir is just as much trouble.",
+      "images": [
+        {
+          "file": "File:King George I by Sir Godfrey Kneller, Bt (3).jpg",
+          "url": "https://upload.wikimedia.org/wikipedia/commons/0/02/King_George_I_by_Sir_Godfrey_Kneller%2C_Bt_%283%29.jpg",
+          "page": "https://commons.wikimedia.org/wiki/File:King_George_I_by_Sir_Godfrey_Kneller,_Bt_(3).jpg",
+          "credit": "Workshop of Godfrey Kneller",
+          "license": "Public domain",
+          "made": "1714–1725",
+          "caption": "A studio copy of Godfrey Kneller's portrait from George's first year as king.",
+          "alt": "Painted portrait of King George I"
+        }
+      ],
+      "sources": [
+        {
+          "title": "George I: Elector and King",
+          "author": "Ragnhild Hatton",
+          "note": "Thames and Hudson, 1978; Yale English Monarchs ed. 2001"
+        },
+        {
+          "title": "George I (1660–1727)",
+          "author": "Oxford Dictionary of National Biography"
+        }
+      ],
+      "review": {
+        "status": "draft",
+        "notes": "Drafted from the listed sources; needs a human fact-check."
+      }
+    },
+    {
+      "id": "george-ii",
+      "kind": "monarch",
+      "rulers": [
+        "george-ii"
+      ],
+      "tagline": "The last British king to lead his troops into battle",
+      "start": {
+        "date": "1727-06-11"
+      },
+      "end": {
+        "date": "1760-10-25"
+      },
+      "contestedWith": [],
+      "relationToPredecessor": "Only son of George I",
+      "ageAtAccession": "43",
+      "cameToPower": "Succeeded his estranged father",
+      "reignEnded": "Collapsed in his privy",
+      "previously": "George I dies of a stroke in Germany, on his way home to Hanover.",
+      "paragraphs": [
+        "George II had spent years at war with his father. As king he fell out with his own son Frederick just as badly. His clever wife, Queen Caroline, steered him towards keeping Robert Walpole in charge. In 1743, aged 59, he led his army at the Battle of Dettingen in Germany. No British monarch has led troops in battle since.",
+        "In 1745 Bonnie Prince Charlie, grandson of James II, raised the Highlands and marched as far as Derby before turning back. George's son the Duke of Cumberland crushed the Jacobites at Culloden in 1746. Then came the Seven Years' War. In 1759 British forces won at Minden, Quebec and Quiberon Bay, and Canada fell to Britain.",
+        "Prince Frederick died in 1751, so the heir became his son, the young Prince George. In 1752 Britain switched calendars and skipped eleven days in September. George II died at Kensington Palace on 25 October 1760, collapsing in his privy shortly after rising."
+      ],
+      "claims": [
+        {
+          "text": "George II stood for the Hallelujah Chorus, so audiences have stood ever since.",
+          "status": "legend",
+          "note": "There's no evidence he was there. The story only appears decades after the 1743 London premiere of Messiah."
+        },
+        {
+          "text": "Crowds rioted shouting “Give us our eleven days!” over the calendar change.",
+          "status": "legend",
+          "note": "No solid report of riots exists. The slogan comes mainly from a Hogarth election painting made a few years later."
+        },
+        {
+          "text": "George II was the last British monarch to lead an army in battle.",
+          "status": "confirmed",
+          "note": "He commanded at Dettingen in June 1743. Every account of the battle confirms it."
+        }
+      ],
+      "hook": "The crown skips a generation to his 22-year-old grandson. Born and raised in England, he wants to be a proper British king, and his reign will go on for almost 60 years.",
+      "images": [
+        {
+          "file": "File:George II by Thomas Hudson.jpg",
+          "url": "https://upload.wikimedia.org/wikipedia/commons/c/cf/George_II_by_Thomas_Hudson.jpg",
+          "page": "https://commons.wikimedia.org/wiki/File:George_II_by_Thomas_Hudson.jpg",
+          "credit": "Thomas Hudson",
+          "license": "Public domain",
+          "made": "1744",
+          "caption": "Painted by Thomas Hudson in 1744, the year after Dettingen.",
+          "alt": "Painted portrait of King George II"
+        }
+      ],
+      "sources": [
+        {
+          "title": "George II: King and Elector (Yale English Monarchs)",
+          "author": "Andrew C. Thompson",
+          "note": "Yale University Press, 2011"
+        },
+        {
+          "title": "Memoirs of the Reign of King George the Second",
+          "author": "John, Lord Hervey"
+        },
+        {
+          "title": "George II (1683–1760)",
+          "author": "Oxford Dictionary of National Biography"
+        }
+      ],
+      "review": {
+        "status": "draft",
+        "notes": "Drafted from the listed sources; needs a human fact-check."
+      }
+    },
+    {
+      "id": "george-iii",
+      "kind": "monarch",
+      "rulers": [
+        "george-iii"
+      ],
+      "tagline": "The king who lost America and then his mind",
+      "start": {
+        "date": "1760-10-25"
+      },
+      "end": {
+        "date": "1820-01-29"
+      },
+      "contestedWith": [],
+      "relationToPredecessor": "Grandson of George II",
+      "ageAtAccession": "22",
+      "cameToPower": "Grandfather died; father already dead",
+      "reignEnded": "Died at Windsor after years of illness",
+      "previously": "George II dies suddenly at Kensington; his son Frederick died in 1751.",
+      "paragraphs": [
+        "George III was the first Hanoverian king born in England, and he said he gloried in the name of Britain. He married Charlotte of Mecklenburg-Strelitz in 1761 and they had 15 children. He loved farming so much that people called him Farmer George. Then the American colonies revolted in 1775 and won independence by 1783. His ministers made the policy, but he backed the war to the end.",
+        "In 1788 he fell seriously ill: he talked for hours without stopping and seemed to have lost his reason. He recovered, and the country rejoiced. In 1801 Ireland joined Great Britain to form the United Kingdom. Britain fought Revolutionary and Napoleonic France for over 20 years, winning at Trafalgar in 1805 and finally at Waterloo in 1815.",
+        "After his favourite daughter Amelia died in 1810, George slipped into illness for good. From 1811 his son ruled as Prince Regent. The old king lived on at Windsor, blind and lost, until he died in January 1820. His reign of 59 years was the longest of any British king."
+      ],
+      "claims": [
+        {
+          "text": "George III's madness was caused by porphyria.",
+          "status": "disputed",
+          "note": "A theory from the 1960s by Ida Macalpine and Richard Hunter. Many experts now think a mental illness such as bipolar disorder fits better."
+        },
+        {
+          "text": "He once shook hands with an oak tree, thinking it was the King of Prussia.",
+          "status": "legend",
+          "note": "A popular story with no reliable contemporary source. It may come from gossip about his illness."
+        },
+        {
+          "text": "He wrote about farming under the pen name Ralph Robinson.",
+          "status": "confirmed",
+          "note": "His letters to Arthur Young's Annals of Agriculture used that name."
+        }
+      ],
+      "hook": "The old king is gone. The Prince Regent, fat, fashionable and buried in debt, finally gets his crown, and his estranged wife is coming back to claim hers.",
+      "images": [
+        {
+          "file": "File:Allan Ramsay - King George III in coronation robes - Google Art Project.jpg",
+          "url": "https://upload.wikimedia.org/wikipedia/commons/8/8f/Allan_Ramsay_-_King_George_III_in_coronation_robes_-_Google_Art_Project.jpg",
+          "page": "https://commons.wikimedia.org/wiki/File:Allan_Ramsay_-_King_George_III_in_coronation_robes_-_Google_Art_Project.jpg",
+          "credit": "Allan Ramsay",
+          "license": "Public domain",
+          "made": "c. 1765",
+          "caption": "Allan Ramsay painted many versions of this coronation portrait for the king.",
+          "alt": "Portrait of King George III in coronation robes"
+        }
+      ],
+      "sources": [
+        {
+          "title": "King George III",
+          "author": "John Brooke",
+          "note": "1972"
+        },
+        {
+          "title": "The Last King of America: The Misunderstood Reign of George III",
+          "author": "Andrew Roberts",
+          "note": "2021"
+        },
+        {
+          "title": "George III and the Mad-Business",
+          "author": "Ida Macalpine and Richard Hunter",
+          "note": "1969"
+        }
+      ],
+      "review": {
+        "status": "draft",
+        "notes": "Drafted from the listed sources; needs a human fact-check."
+      }
+    },
+    {
+      "id": "george-iv",
+      "kind": "monarch",
+      "rulers": [
+        "george-iv"
+      ],
+      "tagline": "The party prince who finally got the crown",
+      "start": {
+        "date": "1820-01-29"
+      },
+      "end": {
+        "date": "1830-06-26"
+      },
+      "contestedWith": [],
+      "relationToPredecessor": "Eldest son of George III",
+      "ageAtAccession": "57",
+      "cameToPower": "Father died; Regent since 1811",
+      "reignEnded": "Died at Windsor Castle",
+      "previously": "Blind and lost to illness, old George III dies at Windsor.",
+      "paragraphs": [
+        "George had been running the country as Prince Regent since 1811, while his father was locked away at Windsor. Everyone knew him as Prinny. He loved clothes, food, drink, gambling and building. The Brighton Pavilion, with its onion domes and dragons, is pure George. So are Regent Street and Regent's Park. He spent money like water and Parliament kept paying off his debts.",
+        "His love life was a mess. In 1785 he secretly married Maria Fitzherbert, a Catholic widow, which the law said didn't count. Then he married his cousin Caroline of Brunswick for cash, and they loathed each other on sight. When he became king he tried to divorce her. At his 1821 coronation she was turned away at the door of Westminster Abbey. She died a few weeks later.",
+        "Their one child, Princess Charlotte, had died in childbirth in 1817. By the end George was fat, ill and hiding at Windsor, living on laudanum and cherry brandy. He died in 1830 with no legitimate heir. The crown passed to his younger brother."
+      ],
+      "claims": [
+        {
+          "text": "George secretly married Maria Fitzherbert in 1785.",
+          "status": "confirmed",
+          "note": "The marriage certificate survives in the Royal Archives. It was void under the Royal Marriages Act, since the king never gave consent."
+        },
+        {
+          "text": "He was so drunk on his wedding night with Caroline that he spent it passed out in the fireplace.",
+          "status": "disputed",
+          "note": "The story comes from Caroline herself, retold by people in her circle. She had every reason to make him look bad."
+        },
+        {
+          "text": "Told 'your greatest enemy is dead', meaning Napoleon, George replied: 'Is she, by God?'",
+          "status": "legend",
+          "note": "A famous joke about how much he hated his wife. It turns up in later anecdote collections with no reliable witness."
+        }
+      ],
+      "hook": "George IV is dead and nobody much mourns. Next up is his brother William, a 64-year-old retired sailor with ten children by an actress and not one legitimate heir.",
+      "images": [
+        {
+          "file": "File:George IV 1821 color.jpg",
+          "url": "https://upload.wikimedia.org/wikipedia/commons/e/ef/George_IV_1821_color.jpg",
+          "page": "https://commons.wikimedia.org/wiki/File:George_IV_1821_color.jpg",
+          "credit": "Thomas Lawrence",
+          "license": "Public domain",
+          "made": "1821",
+          "caption": "Painted by Sir Thomas Lawrence in the year of George's coronation.",
+          "alt": "Painted portrait of King George IV in coronation robes, wearing the collars of four orders of knighthood"
+        }
+      ],
+      "sources": [
+        {
+          "title": "George IV (Yale English Monarchs)",
+          "author": "E. A. Smith",
+          "note": "Yale University Press, 1999"
+        },
+        {
+          "title": "George IV",
+          "author": "Christopher Hibbert",
+          "note": "Longman, 2 vols, 1972–73"
+        },
+        {
+          "title": "The Greville Memoirs",
+          "author": "Charles Greville",
+          "note": "Diary of a court official under George IV and William IV"
+        }
+      ],
+      "review": {
+        "status": "draft",
+        "notes": "Drafted from the listed sources; needs a human fact-check."
+      }
+    },
+    {
+      "id": "william-iv",
+      "kind": "monarch",
+      "rulers": [
+        "william-iv"
+      ],
+      "tagline": "The salty old sailor who hung on just long enough",
+      "start": {
+        "date": "1830-06-26"
+      },
+      "end": {
+        "date": "1837-06-20"
+      },
+      "contestedWith": [],
+      "relationToPredecessor": "Younger brother of George IV",
+      "ageAtAccession": "64",
+      "cameToPower": "Brother died with no heir",
+      "reignEnded": "Died at Windsor Castle",
+      "previously": "George IV dies at Windsor. His only child died years before.",
+      "paragraphs": [
+        "William went to sea at 13 and never really lost the habits. He was blunt, loud and chatty. He served in the West Indies and gave away the bride at Nelson's wedding in 1787. For about twenty years he lived with the actress Dorothea Jordan, and they had ten children, all called FitzClarence. In 1818 he dumped her for a proper princess, Adelaide, but their daughters died as babies.",
+        "As king he was cheerful and cheap, and wanted to skip the coronation altogether. His reign was busy, though. The Reform Act of 1832 shook up who could vote, after William agreed he would create new peers to push it through the Lords. In 1833 Parliament voted to abolish slavery across most of the empire. When Parliament burned down in 1834, he offered them Buckingham Palace. They said no.",
+        "His heir was his niece Victoria, and he couldn't stand her mother, the Duchess of Kent. He prayed he'd live until Victoria turned 18, so her mother would never get to rule as regent. Victoria's birthday was 24 May 1837. William died less than a month later."
+      ],
+      "claims": [
+        {
+          "text": "At a public dinner in 1836 he insulted the Duchess of Kent to her face and said he hoped to live until Victoria came of age.",
+          "status": "confirmed",
+          "note": "Charles Greville, who was there, wrote it up in his diary. Victoria burst into tears."
+        },
+        {
+          "text": "He offered Buckingham Palace to Parliament after the 1834 fire.",
+          "status": "confirmed",
+          "note": "Recorded at the time. Parliament turned it down and built the new Palace of Westminster instead."
+        }
+      ],
+      "hook": "Before dawn on 20 June 1837, two men ride to Kensington Palace and ask to see the princess. She comes down in her dressing gown, aged 18, and they kneel.",
+      "images": [
+        {
+          "file": "File:William IV crop.jpg",
+          "url": "https://upload.wikimedia.org/wikipedia/commons/4/47/William_IV_crop.jpg",
+          "page": "https://commons.wikimedia.org/wiki/File:William_IV_crop.jpg",
+          "credit": "Martin Archer Shee",
+          "license": "Public domain",
+          "made": "c. 1833",
+          "caption": "Painted by Martin Archer Shee early in William's reign.",
+          "alt": "Painted portrait of King William IV in Garter robes, his hand on his sword, with a crown and sceptre on a cushion beside him"
+        }
+      ],
+      "sources": [
+        {
+          "title": "King William IV",
+          "author": "Philip Ziegler",
+          "note": "Collins, 1971"
+        },
+        {
+          "title": "The Greville Memoirs",
+          "author": "Charles Greville"
+        },
+        {
+          "title": "William IV (1765–1837)",
+          "author": "Oxford Dictionary of National Biography",
+          "note": "Oxford University Press"
+        }
+      ],
+      "review": {
+        "status": "draft",
+        "notes": "Drafted from the listed sources; needs a human fact-check."
+      }
+    },
+    {
+      "id": "victoria",
+      "kind": "monarch",
+      "rulers": [
+        "victoria"
+      ],
+      "tagline": "The teenage queen who gave her name to an age",
+      "start": {
+        "date": "1837-06-20"
+      },
+      "end": {
+        "date": "1901-01-22"
+      },
+      "contestedWith": [],
+      "relationToPredecessor": "Niece of William IV",
+      "ageAtAccession": "18",
+      "cameToPower": "Uncle died a month after she turned 18",
+      "reignEnded": "Died at Osborne House",
+      "previously": "William IV dies at Windsor, having lived just long enough.",
+      "paragraphs": [
+        "Victoria grew up under her mother's thumb at Kensington, never allowed to sleep alone or walk downstairs without holding someone's hand. Becoming queen set her free. Her first act was to move her bed out of her mother's room. In 1840 she married her German cousin Albert. She adored him. They had nine children and married them off across Europe, which is why she's called the grandmother of Europe.",
+        "Albert died in December 1861, aged 42, and Victoria fell apart. She wore black for the rest of her life and hid from the public for years. People grumbled. Then Disraeli coaxed her back, and in 1876 Parliament made her Empress of India. By her jubilees in 1887 and 1897 she was a national icon at the head of a vast empire.",
+        "She reigned for 63 years and 7 months, a record until Elizabeth II broke it. Victoria died at Osborne on the Isle of Wight in January 1901, aged 81. Her son was 59 and had been waiting his whole life."
+      ],
+      "claims": [
+        {
+          "text": "Victoria once said 'We are not amused.'",
+          "status": "disputed",
+          "note": "It first appears in a 1919 book of gossip, long after her death. Her granddaughter Princess Alice said she never said it, and her letters show plenty of laughing."
+        },
+        {
+          "text": "She used chloroform when giving birth to Prince Leopold in 1853.",
+          "status": "confirmed",
+          "note": "Her doctor John Snow gave it to her, and she praised the 'blessed chloroform' in her journal. It helped make pain relief respectable."
+        },
+        {
+          "text": "Lesbianism was never made illegal because Victoria refused to believe women did such things.",
+          "status": "legend",
+          "note": "No evidence at all. The 1885 law only ever dealt with men, and the story surfaces many decades later."
+        }
+      ],
+      "hook": "The old queen is dead. Her son Bertie, the playboy prince she never trusted, is finally king at 59, and the royal house now takes his father's German name.",
+      "images": [
+        {
+          "file": "File:Queen Victoria by Bassano.jpg",
+          "url": "https://upload.wikimedia.org/wikipedia/commons/e/e3/Queen_Victoria_by_Bassano.jpg",
+          "page": "https://commons.wikimedia.org/wiki/File:Queen_Victoria_by_Bassano.jpg",
+          "credit": "Alexander Bassano",
+          "license": "Public domain",
+          "made": "1882",
+          "caption": "Photographed by Alexander Bassano in 1882, when Victoria was 63.",
+          "alt": "Black-and-white photograph of Queen Victoria"
+        }
+      ],
+      "sources": [
+        {
+          "title": "Victoria R.I.",
+          "author": "Elizabeth Longford",
+          "note": "Weidenfeld & Nicolson, 1964"
+        },
+        {
+          "title": "Victoria: A Life",
+          "author": "A. N. Wilson",
+          "note": "Atlantic Books, 2014"
+        },
+        {
+          "title": "Queen Victoria's Journals",
+          "author": "Queen Victoria",
+          "note": "Royal Archives; published online"
+        }
+      ],
+      "review": {
+        "status": "draft",
+        "notes": "Drafted from the listed sources; needs a human fact-check."
+      }
+    },
+    {
+      "id": "edward-vii",
+      "kind": "monarch",
+      "rulers": [
+        "edward-vii"
+      ],
+      "tagline": "The playboy prince who waited 59 years",
+      "start": {
+        "date": "1901-01-22"
+      },
+      "end": {
+        "date": "1910-05-06"
+      },
+      "contestedWith": [],
+      "relationToPredecessor": "Eldest son of Victoria",
+      "ageAtAccession": "59",
+      "cameToPower": "Mother died after 63 years",
+      "reignEnded": "Died at Buckingham Palace",
+      "previously": "Victoria dies at Osborne after 63 years on the throne.",
+      "paragraphs": [
+        "Bertie was a disappointment to his parents from the start. In 1861 news got out that an actress had been smuggled into his army camp in Ireland. Albert went to tell him off and died a few weeks later. Victoria blamed her son and kept him away from real work for forty years. So he ate, smoked, raced horses, shot birds and had a long line of mistresses, including Lillie Langtry and Alice Keppel.",
+        "His coronation in June 1902 had to be postponed two days before, when he needed emergency surgery on his appendix. It was a close thing. Once crowned, he turned out to be good at the job. He charmed Paris in 1903 and helped bring about the Entente Cordiale with France in 1904. He brought colour back to court after his mother's long gloom.",
+        "He also smoked a dozen cigars a day. In May 1910 he caught bronchitis and had a run of heart attacks. He died at Buckingham Palace after nine years as king. His son George took over."
+      ],
+      "claims": [
+        {
+          "text": "Victoria blamed Bertie for his father's death.",
+          "status": "confirmed",
+          "note": "Her letters say so. Albert had travelled to see Bertie about the actress scandal just before he fell ill."
+        },
+        {
+          "text": "Alice Keppel, his mistress, was let in to say goodbye at his deathbed.",
+          "status": "confirmed",
+          "note": "Queen Alexandra allowed it. Alice Keppel is also the great-grandmother of Queen Camilla."
+        },
+        {
+          "text": "His last words were that he was very glad his horse had won at Kempton that afternoon.",
+          "status": "disputed",
+          "note": "The horse, Witch of the Air, did win and he was told. The neat last line comes from the court's own account."
+        }
+      ],
+      "hook": "Edward VII is dead. His son George V takes the throne in 1910. Within four years Europe is at war, and the enemy is led by George's own cousin, the Kaiser.",
+      "images": [
+        {
+          "file": "File:Edward VII in coronation robes.jpg",
+          "url": "https://upload.wikimedia.org/wikipedia/commons/4/44/Edward_VII_in_coronation_robes.jpg",
+          "page": "https://commons.wikimedia.org/wiki/File:Edward_VII_in_coronation_robes.jpg",
+          "credit": "Luke Fildes",
+          "license": "Public domain",
+          "made": "c. 1902",
+          "caption": "Painted by Sir Luke Fildes, around the time of Edward's 1902 coronation.",
+          "alt": "Painted portrait of King Edward VII in coronation robes"
+        }
+      ],
+      "sources": [
+        {
+          "title": "Bertie: A Life of Edward VII",
+          "author": "Jane Ridley",
+          "note": "Chatto & Windus, 2012"
+        },
+        {
+          "title": "King Edward the Seventh",
+          "author": "Philip Magnus",
+          "note": "John Murray, 1964"
+        },
+        {
+          "title": "King Edward VII: A Biography",
+          "author": "Sidney Lee",
+          "note": "Macmillan, 2 vols, 1925–27"
+        }
+      ],
+      "review": {
+        "status": "draft",
+        "notes": "Drafted from the listed sources; needs a human fact-check."
+      }
+    },
+    {
+      "id": "george-v",
+      "kind": "monarch",
+      "rulers": [
+        "george-v"
+      ],
+      "tagline": "The stamp-collecting king who invented the Windsors",
+      "start": {
+        "date": "1910-05-06"
+      },
+      "end": {
+        "date": "1936-01-20"
+      },
+      "contestedWith": [],
+      "relationToPredecessor": "Second son of Edward VII",
+      "ageAtAccession": "44",
+      "cameToPower": "Father died; elder brother died in 1892",
+      "reignEnded": "Died at Sandringham",
+      "previously": "Edward VII dies at Buckingham Palace after nine years as king.",
+      "paragraphs": [
+        "George was a navy man who never expected to rule. Then his elder brother Eddy died of flu in 1892. George took his place as heir and, a year later, married Eddy's fiancée, Princess Mary of Teck. He was gruff, punctual and obsessed with his stamp collection. He liked shooting at Sandringham far more than palaces.",
+        "His reign was a storm. The First World War set him against his cousins, the Kaiser and the Tsar. In 1917, with anti-German feeling running high, he swapped the family name Saxe-Coburg and Gotha for Windsor. That same year he backed out of giving the Tsar's family a refuge in Britain, and they were later shot by the Bolsheviks. In 1932 he made the first royal Christmas broadcast on the radio.",
+        "In January 1936 he lay dying at Sandringham. His doctor, Lord Dawson, gave him lethal injections of morphine and cocaine so he would die in time for the morning papers. His eldest son, a glamorous bachelor, became king."
+      ],
+      "claims": [
+        {
+          "text": "His doctor deliberately ended his life with injections.",
+          "status": "confirmed",
+          "note": "Lord Dawson's own notes, made public in 1986, describe giving morphine and cocaine so the death could be announced in The Times."
+        },
+        {
+          "text": "He pushed for the British offer of asylum to Tsar Nicholas II to be withdrawn.",
+          "status": "confirmed",
+          "note": "Letters from his private secretary in 1917 show the king worried about the backlash at home."
+        },
+        {
+          "text": "His last words were 'Bugger Bognor.'",
+          "status": "legend",
+          "note": "A much-loved story about his seaside recovery in 1929, but nobody can show he said it on his deathbed."
+        }
+      ],
+      "hook": "George V is dead. His son Edward is 41, handsome, hugely popular and still unmarried. He is in love with an American, and she is married to someone else.",
+      "images": [
+        {
+          "file": "File:King George V 1911.jpg",
+          "url": "https://upload.wikimedia.org/wikipedia/commons/c/cf/King_George_V_1911.jpg",
+          "page": "https://commons.wikimedia.org/wiki/File:King_George_V_1911.jpg",
+          "credit": "Luke Fildes",
+          "license": "Public domain",
+          "made": "1911–12",
+          "caption": "Painted by Sir Luke Fildes soon after George's coronation in 1911.",
+          "alt": "Painted state portrait of King George V"
+        }
+      ],
+      "sources": [
+        {
+          "title": "King George V",
+          "author": "Kenneth Rose",
+          "note": "Weidenfeld & Nicolson, 1983"
+        },
+        {
+          "title": "King George the Fifth: His Life and Reign",
+          "author": "Harold Nicolson",
+          "note": "Constable, 1952"
+        },
+        {
+          "title": "The Death of George V",
+          "author": "Francis Watson",
+          "note": "History Today, 1986; on Dawson's notes"
+        }
+      ],
+      "review": {
+        "status": "draft",
+        "notes": "Drafted from the listed sources; needs a human fact-check."
+      }
+    },
+    {
+      "id": "edward-viii",
+      "kind": "monarch",
+      "rulers": [
+        "edward-viii"
+      ],
+      "tagline": "The king who gave up the throne for love",
+      "start": {
+        "date": "1936-01-20"
+      },
+      "end": {
+        "date": "1936-12-11"
+      },
+      "contestedWith": [],
+      "relationToPredecessor": "Eldest son of George V",
+      "ageAtAccession": "41",
+      "cameToPower": "Father died at Sandringham",
+      "reignEnded": "Abdicated to marry Wallis Simpson",
+      "previously": "George V dies at Sandringham, hurried along by his own doctor.",
+      "paragraphs": [
+        "As Prince of Wales, Edward was a celebrity. He toured the empire, wore sharp suits and danced in nightclubs. His father despaired of him. By the time he became king he was in love with Wallis Simpson, an American who had divorced once and was in the middle of divorcing her second husband.",
+        "The government, the Church of England and the dominions all said a king could not marry her. Prime Minister Stanley Baldwin made it clear: Wallis or the throne. Edward chose Wallis. He signed his abdication on 10 December 1936 and the next night told the country on the radio that he couldn't go on 'without the help and support of the woman I love'. He was never crowned.",
+        "He became Duke of Windsor and married Wallis in France in 1937. That autumn the couple visited Nazi Germany and met Hitler. In the war he was packed off to govern the Bahamas, then spent the rest of his life in exile in France. He died in Paris in 1972."
+      ],
+      "claims": [
+        {
+          "text": "He told the nation he couldn't be king 'without the help and support of the woman I love'.",
+          "status": "confirmed",
+          "note": "It was a live radio broadcast on 11 December 1936, recorded and printed at the time."
+        },
+        {
+          "text": "He and Wallis met Hitler in 1937.",
+          "status": "confirmed",
+          "note": "Photographs and newsreels show the visit to Germany in October 1937."
+        },
+        {
+          "text": "In 1940 the Nazis plotted to keep him in Europe as a puppet king, and he went along with it.",
+          "status": "disputed",
+          "note": "Captured German files show the plot was real. How much Edward knew or encouraged it is still argued over."
+        }
+      ],
+      "hook": "Edward is gone. His shy younger brother Bertie, who has a stammer and never wanted the job, is suddenly king, with a wife and two small daughters.",
+      "images": [
+        {
+          "file": "File:King Edward VIII.png",
+          "url": "https://upload.wikimedia.org/wikipedia/commons/e/ee/King_Edward_VIII.png",
+          "page": "https://commons.wikimedia.org/wiki/File:King_Edward_VIII.png",
+          "credit": "Vandyk",
+          "license": "Public domain",
+          "made": "1936",
+          "caption": "Taken by the Vandyk studio in 1936, the year of his short reign.",
+          "alt": "Portrait photograph of King Edward VIII"
+        }
+      ],
+      "sources": [
+        {
+          "title": "King Edward VIII: The Official Biography",
+          "author": "Philip Ziegler",
+          "note": "Collins, 1990"
+        },
+        {
+          "title": "Edward VIII",
+          "author": "Frances Donaldson",
+          "note": "Weidenfeld & Nicolson, 1974"
+        },
+        {
+          "title": "A King's Story",
+          "author": "Duke of Windsor",
+          "note": "His own memoir, 1951"
+        }
+      ],
+      "review": {
+        "status": "draft",
+        "notes": "Drafted from the listed sources; needs a human fact-check."
+      }
+    },
+    {
+      "id": "george-vi",
+      "kind": "monarch",
+      "rulers": [
+        "george-vi"
+      ],
+      "tagline": "The reluctant king with a stammer and a war to win",
+      "start": {
+        "date": "1936-12-11"
+      },
+      "end": {
+        "date": "1952-02-06"
+      },
+      "contestedWith": [],
+      "relationToPredecessor": "Younger brother of Edward VIII",
+      "ageAtAccession": "40",
+      "cameToPower": "Brother abdicated",
+      "reignEnded": "Died in his sleep at Sandringham",
+      "previously": "Edward VIII abdicates to marry Wallis Simpson.",
+      "paragraphs": [
+        "Albert, known as Bertie, was shy, sickly and had a bad stammer. He served at sea and fought at the Battle of Jutland in 1916. From 1926 an Australian speech therapist, Lionel Logue, helped him get his words out. He married Lady Elizabeth Bowes-Lyon in 1923, and they had two daughters, Elizabeth and Margaret. He took the name George to show the country nothing had changed.",
+        "Less than three years after his crowning, Britain was at war with Germany. The king and queen stayed in London through the Blitz. Buckingham Palace was bombed in 1940, and the queen said she was glad, because now she could look the East End in the face. He created the George Cross for civilian bravery and gave it to the whole island of Malta in 1942.",
+        "After the war India became independent and he stopped being Emperor. A heavy smoker, he had lung cancer and had a lung removed in 1951. On 6 February 1952 he died in his sleep at Sandringham, aged 56. His daughter was on the other side of the world."
+      ],
+      "claims": [
+        {
+          "text": "Lionel Logue helped him manage his stammer, including before major broadcasts.",
+          "status": "confirmed",
+          "note": "Logue's own diaries and letters, published by his grandson in 2010, back this up."
+        },
+        {
+          "text": "The queen said the princesses would not leave without her, she would not leave the king, and the king would never leave.",
+          "status": "confirmed",
+          "note": "Her famous answer when it was suggested the family move to Canada for safety, widely reported in 1940."
+        },
+        {
+          "text": "Elizabeth climbed up a tree a princess and came down a queen.",
+          "status": "disputed",
+          "note": "The line was written by hunter Jim Corbett at the Treetops lodge in Kenya. Nobody knows the exact hour the king died, so she may already have left."
+        }
+      ],
+      "hook": "In Kenya, a 25-year-old princess hears that her father is dead. She flies home as Queen Elizabeth II, and she will reign for seventy years.",
+      "images": [
+        {
+          "file": "File:King George VI of England, formal photo portrait, circa 1940-1946 - edit.jpg",
+          "url": "https://upload.wikimedia.org/wikipedia/commons/5/50/King_George_VI_of_England%2C_formal_photo_portrait%2C_circa_1940-1946_-_edit.jpg",
+          "page": "https://commons.wikimedia.org/wiki/File:King_George_VI_of_England,_formal_photo_portrait,_circa_1940-1946_-_edit.jpg",
+          "credit": "Matson Photo Service",
+          "license": "Public domain",
+          "made": "c. 1940–46",
+          "caption": "A formal photograph from the war years, now held by the US Library of Congress.",
+          "alt": "Formal photograph portrait of King George VI"
+        }
+      ],
+      "sources": [
+        {
+          "title": "King George VI",
+          "author": "Sarah Bradford",
+          "note": "Weidenfeld & Nicolson, 1989"
+        },
+        {
+          "title": "King George VI: His Life and Reign",
+          "author": "John W. Wheeler-Bennett",
+          "note": "Macmillan, 1958"
+        },
+        {
+          "title": "The King's Speech",
+          "author": "Mark Logue and Peter Conradi",
+          "note": "Quercus, 2010"
+        }
+      ],
+      "review": {
+        "status": "draft",
+        "notes": "Drafted from the listed sources; needs a human fact-check."
+      }
+    },
+    {
+      "id": "elizabeth-ii",
+      "kind": "monarch",
+      "rulers": [
+        "elizabeth-ii"
+      ],
+      "tagline": "Seventy years, fifteen prime ministers, one queen",
+      "start": {
+        "date": "1952-02-06"
+      },
+      "end": {
+        "date": "2022-09-08"
+      },
+      "contestedWith": [],
+      "relationToPredecessor": "Elder daughter of George VI",
+      "ageAtAccession": "25",
+      "cameToPower": "Father died while she was in Kenya",
+      "reignEnded": "Died at Balmoral, aged 96",
+      "previously": "George VI dies in his sleep at Sandringham, aged 56.",
+      "paragraphs": [
+        "Elizabeth was born third in line and was never meant to be queen until her uncle abdicated. In the war she joined the ATS and trained as a driver and mechanic. On her 21st birthday she promised on the radio that her whole life would be devoted to service. Later that year she married Philip Mountbatten. They had four children: Charles, Anne, Andrew and Edward.",
+        "Her coronation in June 1953 was shown on television, and millions crowded round borrowed sets to watch. She saw the empire turn into the Commonwealth and worked with fifteen British prime ministers, from Churchill to Truss. She had hard years too. In 1992, which she called her annus horribilis, three of her children's marriages broke down and Windsor Castle caught fire.",
+        "She celebrated her Platinum Jubilee in June 2022, the first British monarch to reach seventy years on the throne. On 6 September she appointed Liz Truss at Balmoral. Two days later she died there, aged 96. Her eldest son, heir for seventy years, was finally king."
+      ],
+      "claims": [
+        {
+          "text": "She worked with fifteen British prime ministers.",
+          "status": "confirmed",
+          "note": "From Winston Churchill in 1952 to Liz Truss in 2022, all on the public record."
+        },
+        {
+          "text": "She sent her first email in 1976.",
+          "status": "confirmed",
+          "note": "She sent it over ARPANET, an early forerunner of the internet, during a visit to a defence research centre in Malvern."
+        },
+        {
+          "text": "She trained as a mechanic during the Second World War.",
+          "status": "confirmed",
+          "note": "She joined the Auxiliary Territorial Service in 1945 and learned to drive and repair army lorries."
+        }
+      ],
+      "hook": "Elizabeth II is dead after seventy years. Her son Charles, at 73, becomes the oldest person ever to take the British throne.",
+      "images": [
+        {
+          "file": "File:Queen Elizabeth II official portrait for 1959 tour (retouched) (cropped) (3-to-4 aspect ratio).jpg",
+          "url": "https://upload.wikimedia.org/wikipedia/commons/1/11/Queen_Elizabeth_II_official_portrait_for_1959_tour_%28retouched%29_%28cropped%29_%283-to-4_aspect_ratio%29.jpg",
+          "page": "https://commons.wikimedia.org/wiki/File:Queen_Elizabeth_II_official_portrait_for_1959_tour_(retouched)_(cropped)_(3-to-4_aspect_ratio).jpg",
+          "credit": "Donald McKague",
+          "license": "Public domain",
+          "made": "1958",
+          "caption": "Official portrait taken in December 1958, ahead of her 1959 tour of Canada.",
+          "alt": "Photograph of Queen Elizabeth II wearing a tiara, a necklace and the blue sash of the Order of the Garter"
+        }
+      ],
+      "sources": [
+        {
+          "title": "The Queen: A Biography of Elizabeth II",
+          "author": "Ben Pimlott",
+          "note": "HarperCollins, 1996; updated 2012"
+        },
+        {
+          "title": "Queen of Our Times",
+          "author": "Robert Hardman",
+          "note": "Macmillan, 2022"
+        },
+        {
+          "title": "Her Majesty The Queen",
+          "author": "The Royal Household",
+          "note": "Official biography at royal.uk"
+        }
+      ],
+      "review": {
+        "status": "draft",
+        "notes": "Drafted from the listed sources; needs a human fact-check."
+      }
+    },
+    {
+      "id": "charles-iii",
+      "kind": "monarch",
+      "rulers": [
+        "charles-iii"
+      ],
+      "tagline": "The longest apprenticeship in royal history",
+      "start": {
+        "date": "2022-09-08"
+      },
+      "contestedWith": [],
+      "relationToPredecessor": "Eldest son of Elizabeth II",
+      "ageAtAccession": "73",
+      "cameToPower": "Mother died at Balmoral",
+      "previously": "Elizabeth II dies at Balmoral after seventy years on the throne.",
+      "paragraphs": [
+        "Charles became heir at the age of three and waited longer than anyone in British history. He was made Prince of Wales in a ceremony at Caernarfon Castle in 1969 and took a degree at Cambridge. In 1976 he set up the Prince's Trust to help young people, and he spent decades speaking up for the environment, organic farming and traditional architecture.",
+        "He married Lady Diana Spencer in 1981 and they had two sons, William and Harry. The marriage broke down and they divorced in 1996. Diana was killed in a car crash in Paris the next year. In 2005 Charles married Camilla Parker Bowles, who is now Queen Camilla.",
+        "He was crowned at Westminster Abbey on 6 May 2023. In February 2024 the palace announced that he was being treated for cancer, and he carried on with state business. His heir is his elder son, William, Prince of Wales. This story is still being written."
+      ],
+      "claims": [
+        {
+          "text": "At 73, he was the oldest person to become British monarch.",
+          "status": "confirmed",
+          "note": "The previous record holder was William IV, who was 64 when he took the throne in 1830."
+        },
+        {
+          "text": "He is the longest-serving heir apparent in British history.",
+          "status": "confirmed",
+          "note": "He was heir for over seventy years, from 1952 to 2022, passing Edward VII's record in 2011."
+        },
+        {
+          "text": "He was the first heir to the British throne to earn a university degree.",
+          "status": "confirmed",
+          "note": "He graduated from Trinity College, Cambridge, in 1970."
+        }
+      ],
+      "images": [
+        {
+          "file": "File:King Charles III (July 2023).jpg",
+          "url": "https://upload.wikimedia.org/wikipedia/commons/a/ac/King_Charles_III_%28July_2023%29.jpg",
+          "page": "https://commons.wikimedia.org/wiki/File:King_Charles_III_(July_2023).jpg",
+          "credit": "White House",
+          "license": "Public domain",
+          "made": "2023",
+          "caption": "Photographed by the White House on 10 July 2023, the year of his coronation.",
+          "alt": "Photograph of King Charles III"
+        }
+      ],
+      "sources": [
+        {
+          "title": "The Prince of Wales: A Biography",
+          "author": "Jonathan Dimbleby",
+          "note": "Little, Brown, 1994"
+        },
+        {
+          "title": "Prince Charles: The Passions and Paradoxes of an Improbable Life",
+          "author": "Sally Bedell Smith",
+          "note": "Random House, 2017"
+        },
+        {
+          "title": "His Majesty The King",
+          "author": "The Royal Household",
+          "note": "Official biography at royal.uk"
+        }
+      ],
+      "review": {
+        "status": "draft",
+        "notes": "Drafted from the listed sources; needs a human fact-check."
+      },
+      "reignEnded": "On the throne"
     }
   ]
 }
