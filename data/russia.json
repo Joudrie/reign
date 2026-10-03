@@ -1,0 +1,3440 @@
+{
+  "id": "russia",
+  "name": "Russia",
+  "blurb": "From Ivan the Terrible to Vladimir Putin",
+  "dateConvention": "Dates until February 1918 are Old Style (the Julian calendar Russia used), Gregorian after. Soviet and post-Soviet leaders held power without a crown; their cards are counted from when they took the top job.",
+  "houses": [
+    {
+      "id": "rurik",
+      "name": "Rurik",
+      "color": "#9b4a2c"
+    },
+    {
+      "id": "godunov",
+      "name": "Godunov",
+      "color": "#b8932e"
+    },
+    {
+      "id": "pretender",
+      "name": "Pretender",
+      "color": "#8a96a3",
+      "plain": true
+    },
+    {
+      "id": "shuisky",
+      "name": "Shuisky",
+      "color": "#6b4c9a"
+    },
+    {
+      "id": "troubles",
+      "name": "No tsar",
+      "color": "#55524a",
+      "plain": true
+    },
+    {
+      "id": "romanov",
+      "name": "Romanov",
+      "color": "#2f5a9e"
+    },
+    {
+      "id": "provisional",
+      "name": "Provisional Government",
+      "color": "#8c5a7a",
+      "plain": true
+    },
+    {
+      "id": "soviet",
+      "name": "Communist Party",
+      "color": "#b8322a",
+      "plain": true
+    },
+    {
+      "id": "federation",
+      "name": "Russian Federation",
+      "color": "#2e6b4f",
+      "plain": true
+    }
+  ],
+  "rulers": [
+    {
+      "id": "ivan-iv",
+      "name": "Ivan IV",
+      "epithet": "the Terrible",
+      "house": "rurik",
+      "born": {
+        "date": "1530-08-25",
+        "note": "Kolomenskoye, near Moscow (O.S.)"
+      },
+      "died": {
+        "date": "1584-03-18",
+        "note": "Moscow (O.S.)"
+      },
+      "causeOfDeath": "Collapsed while setting up a game of chess"
+    },
+    {
+      "id": "feodor-i",
+      "name": "Feodor I",
+      "epithet": "the Blessed",
+      "house": "rurik",
+      "born": {
+        "date": "1557-05-31",
+        "note": "Moscow (O.S.)"
+      },
+      "died": {
+        "date": "1598-01-07",
+        "note": "Moscow (O.S.)"
+      },
+      "causeOfDeath": "Illness"
+    },
+    {
+      "id": "boris-godunov",
+      "name": "Boris Godunov",
+      "house": "godunov",
+      "born": {
+        "date": "1552",
+        "circa": true,
+        "note": "Probably 1551 or 1552"
+      },
+      "died": {
+        "date": "1605-04-13",
+        "note": "Moscow (O.S.)"
+      },
+      "causeOfDeath": "Sudden collapse, possibly a stroke"
+    },
+    {
+      "id": "feodor-ii",
+      "name": "Feodor II",
+      "house": "godunov",
+      "born": {
+        "date": "1589",
+        "circa": true,
+        "note": "Moscow"
+      },
+      "died": {
+        "date": "1605-06-10",
+        "note": "Moscow (O.S.)"
+      },
+      "causeOfDeath": "Murdered, probably strangled"
+    },
+    {
+      "id": "false-dmitry-i",
+      "name": "False Dmitry I",
+      "house": "pretender",
+      "born": {
+        "date": "1582",
+        "circa": true,
+        "note": "Unknown; if he was Grigory Otrepyev, the early 1580s"
+      },
+      "died": {
+        "date": "1606-05-17",
+        "note": "The Kremlin, Moscow (O.S.)"
+      },
+      "causeOfDeath": "Killed by conspirators"
+    },
+    {
+      "id": "vasily-iv",
+      "name": "Vasily IV",
+      "house": "shuisky",
+      "born": {
+        "date": "1552-09-22",
+        "note": "Moscow (O.S.)"
+      },
+      "died": {
+        "date": "1612-09-12",
+        "note": "Gostynin, Poland"
+      },
+      "causeOfDeath": "Died a prisoner of the Poles"
+    },
+    {
+      "id": "false-dmitry-ii",
+      "name": "False Dmitry II",
+      "house": "pretender",
+      "born": {
+        "date": "1580",
+        "circa": true,
+        "note": "Unknown; nobody knows who he really was"
+      },
+      "died": {
+        "date": "1610-12-11",
+        "note": "Kaluga (O.S.)"
+      },
+      "causeOfDeath": "Shot and beheaded by his own guard"
+    },
+    {
+      "id": "michael",
+      "name": "Michael I",
+      "house": "romanov",
+      "born": {
+        "date": "1596-07-12",
+        "note": "Moscow (O.S.)"
+      },
+      "died": {
+        "date": "1645-07-13",
+        "note": "Moscow (O.S.); some sources give 12 July"
+      },
+      "causeOfDeath": "Illness after years of poor health"
+    },
+    {
+      "id": "alexis",
+      "name": "Alexis",
+      "epithet": "the Quietest",
+      "house": "romanov",
+      "born": {
+        "date": "1629-03-19",
+        "note": "Moscow (O.S.)"
+      },
+      "died": {
+        "date": "1676-01-29",
+        "note": "Moscow (O.S.)"
+      },
+      "causeOfDeath": "Sudden illness, aged 46"
+    },
+    {
+      "id": "feodor-iii",
+      "name": "Feodor III",
+      "house": "romanov",
+      "born": {
+        "date": "1661-05-30",
+        "note": "Moscow (O.S.)"
+      },
+      "died": {
+        "date": "1682-04-27",
+        "note": "Moscow (O.S.)"
+      },
+      "causeOfDeath": "Chronic illness, aged 20"
+    },
+    {
+      "id": "ivan-v",
+      "name": "Ivan V",
+      "house": "romanov",
+      "born": {
+        "date": "1666-08-27",
+        "note": "Moscow (O.S.)"
+      },
+      "died": {
+        "date": "1696-01-29",
+        "note": "Moscow (O.S.)"
+      },
+      "causeOfDeath": "Illness, aged 29"
+    },
+    {
+      "id": "peter-i",
+      "name": "Peter I",
+      "epithet": "the Great",
+      "house": "romanov",
+      "born": {
+        "date": "1672-05-30",
+        "note": "Moscow (O.S.)"
+      },
+      "died": {
+        "date": "1725-01-28",
+        "note": "St Petersburg (O.S.)"
+      },
+      "causeOfDeath": "Bladder and kidney infection"
+    },
+    {
+      "id": "catherine-i",
+      "name": "Catherine I",
+      "house": "romanov",
+      "born": {
+        "date": "1684-04-05",
+        "note": "Livonia (O.S.); birthplace and family are uncertain"
+      },
+      "died": {
+        "date": "1727-05-06",
+        "note": "St Petersburg (O.S.)"
+      },
+      "causeOfDeath": "Illness, probably a lung disease"
+    },
+    {
+      "id": "peter-ii",
+      "name": "Peter II",
+      "house": "romanov",
+      "born": {
+        "date": "1715-10-12",
+        "note": "St Petersburg (O.S.)"
+      },
+      "died": {
+        "date": "1730-01-19",
+        "note": "Moscow (O.S.)"
+      },
+      "causeOfDeath": "Smallpox, aged 14"
+    },
+    {
+      "id": "anna",
+      "name": "Anna",
+      "house": "romanov",
+      "born": {
+        "date": "1693-01-28",
+        "note": "Moscow (O.S.)"
+      },
+      "died": {
+        "date": "1740-10-17",
+        "note": "St Petersburg (O.S.)"
+      },
+      "causeOfDeath": "Illness, probably kidney disease"
+    },
+    {
+      "id": "ivan-vi",
+      "name": "Ivan VI",
+      "house": "romanov",
+      "born": {
+        "date": "1740-08-12",
+        "note": "St Petersburg (O.S.)"
+      },
+      "died": {
+        "date": "1764-07-05",
+        "note": "Shlisselburg Fortress (O.S.)"
+      },
+      "causeOfDeath": "Killed by his guards during a rescue attempt"
+    },
+    {
+      "id": "elizabeth",
+      "name": "Elizabeth",
+      "house": "romanov",
+      "born": {
+        "date": "1709-12-18",
+        "note": "Kolomenskoye, near Moscow (O.S.)"
+      },
+      "died": {
+        "date": "1761-12-25",
+        "note": "St Petersburg (O.S.)"
+      },
+      "causeOfDeath": "Illness, after a series of strokes and haemorrhages"
+    },
+    {
+      "id": "peter-iii",
+      "name": "Peter III",
+      "house": "romanov",
+      "born": {
+        "date": "1728-02-10",
+        "note": "Kiel, Holstein (O.S.)"
+      },
+      "died": {
+        "date": "1762-07-06",
+        "note": "Ropsha, near St Petersburg (O.S.)"
+      },
+      "causeOfDeath": "Died in custody; almost certainly killed"
+    },
+    {
+      "id": "catherine-ii",
+      "name": "Catherine II",
+      "epithet": "the Great",
+      "house": "romanov",
+      "born": {
+        "date": "1729-04-21",
+        "note": "Stettin, Pomerania, now Szczecin in Poland (O.S.)"
+      },
+      "died": {
+        "date": "1796-11-06",
+        "note": "Winter Palace, St Petersburg (O.S.)"
+      },
+      "causeOfDeath": "Stroke"
+    },
+    {
+      "id": "paul-i",
+      "name": "Paul I",
+      "house": "romanov",
+      "born": {
+        "date": "1754-09-20",
+        "note": "St Petersburg (O.S.)"
+      },
+      "died": {
+        "date": "1801-03-11",
+        "note": "St Michael's Castle, St Petersburg (O.S.)"
+      },
+      "causeOfDeath": "Murdered by conspiring officers"
+    },
+    {
+      "id": "alexander-i",
+      "name": "Alexander I",
+      "house": "romanov",
+      "born": {
+        "date": "1777-12-12",
+        "note": "St Petersburg (O.S.)"
+      },
+      "died": {
+        "date": "1825-11-19",
+        "note": "Taganrog, on the Sea of Azov (O.S.)"
+      },
+      "causeOfDeath": "Fever, probably typhus"
+    },
+    {
+      "id": "nicholas-i",
+      "name": "Nicholas I",
+      "house": "romanov",
+      "born": {
+        "date": "1796-06-25",
+        "note": "Tsarskoye Selo, near St Petersburg (O.S.)"
+      },
+      "died": {
+        "date": "1855-02-18",
+        "note": "Winter Palace, St Petersburg (O.S.)"
+      },
+      "causeOfDeath": "Pneumonia after a chill"
+    },
+    {
+      "id": "alexander-ii",
+      "name": "Alexander II",
+      "epithet": "the Liberator",
+      "house": "romanov",
+      "born": {
+        "date": "1818-04-17",
+        "note": "Moscow Kremlin (O.S.)"
+      },
+      "died": {
+        "date": "1881-03-01",
+        "note": "Winter Palace, St Petersburg (O.S.)"
+      },
+      "causeOfDeath": "Assassinated with a bomb"
+    },
+    {
+      "id": "alexander-iii",
+      "name": "Alexander III",
+      "house": "romanov",
+      "born": {
+        "date": "1845-02-26",
+        "note": "St Petersburg (O.S.)"
+      },
+      "died": {
+        "date": "1894-10-20",
+        "note": "Livadia Palace, Crimea (O.S.)"
+      },
+      "causeOfDeath": "Kidney disease (nephritis)"
+    },
+    {
+      "id": "nicholas-ii",
+      "name": "Nicholas II",
+      "house": "romanov",
+      "born": {
+        "date": "1868-05-06",
+        "note": "Tsarskoye Selo; O.S. (18 May New Style)"
+      },
+      "died": {
+        "date": "1918-07-17",
+        "note": "Ipatiev House, Yekaterinburg"
+      },
+      "causeOfDeath": "Shot by a Bolshevik firing squad"
+    },
+    {
+      "id": "lenin",
+      "name": "Vladimir Lenin",
+      "house": "soviet",
+      "born": {
+        "date": "1870-04-10",
+        "note": "Simbirsk; O.S. (22 April New Style)"
+      },
+      "died": {
+        "date": "1924-01-21",
+        "note": "Gorki, near Moscow"
+      },
+      "causeOfDeath": "A series of strokes"
+    },
+    {
+      "id": "stalin",
+      "name": "Joseph Stalin",
+      "house": "soviet",
+      "born": {
+        "date": "1878-12-06",
+        "note": "Gori, Georgia; O.S. (18 December New Style). He later gave 1879 as his birth year"
+      },
+      "died": {
+        "date": "1953-03-05",
+        "note": "Kuntsevo dacha, near Moscow"
+      },
+      "causeOfDeath": "Stroke"
+    },
+    {
+      "id": "khrushchev",
+      "name": "Nikita Khrushchev",
+      "house": "soviet",
+      "born": {
+        "date": "1894-04-03",
+        "note": "Kalinovka, Kursk province; O.S. (15 April New Style)"
+      },
+      "died": {
+        "date": "1971-09-11",
+        "note": "Moscow"
+      },
+      "causeOfDeath": "Heart attack"
+    },
+    {
+      "id": "brezhnev",
+      "name": "Leonid Brezhnev",
+      "house": "soviet",
+      "born": {
+        "date": "1906-12-06",
+        "note": "Kamenskoye, Ukraine; O.S. (19 December New Style)"
+      },
+      "died": {
+        "date": "1982-11-10",
+        "note": "Moscow"
+      },
+      "causeOfDeath": "Heart attack"
+    },
+    {
+      "id": "andropov",
+      "name": "Yuri Andropov",
+      "house": "soviet",
+      "born": {
+        "date": "1914-06-15",
+        "note": "Nagutskaya, Stavropol region"
+      },
+      "died": {
+        "date": "1984-02-09",
+        "note": "Moscow"
+      },
+      "causeOfDeath": "Kidney failure"
+    },
+    {
+      "id": "chernenko",
+      "name": "Konstantin Chernenko",
+      "house": "soviet",
+      "born": {
+        "date": "1911-09-24",
+        "note": "Bolshaya Tes, Siberia"
+      },
+      "died": {
+        "date": "1985-03-10",
+        "note": "Moscow"
+      },
+      "causeOfDeath": "Heart failure after long lung disease"
+    },
+    {
+      "id": "gorbachev",
+      "name": "Mikhail Gorbachev",
+      "house": "soviet",
+      "born": {
+        "date": "1931-03-02",
+        "note": "Privolnoye, Stavropol region"
+      },
+      "died": {
+        "date": "2022-08-30",
+        "note": "Moscow"
+      },
+      "causeOfDeath": "Long illness"
+    },
+    {
+      "id": "yeltsin",
+      "name": "Boris Yeltsin",
+      "house": "federation",
+      "born": {
+        "date": "1931-02-01",
+        "note": "Butka, Sverdlovsk region"
+      },
+      "died": {
+        "date": "2007-04-23",
+        "note": "Moscow"
+      },
+      "causeOfDeath": "Heart failure"
+    },
+    {
+      "id": "putin",
+      "name": "Vladimir Putin",
+      "house": "federation",
+      "born": {
+        "date": "1952-10-07",
+        "note": "Leningrad (now St Petersburg)"
+      }
+    },
+    {
+      "id": "medvedev",
+      "name": "Dmitry Medvedev",
+      "house": "federation",
+      "born": {
+        "date": "1965-09-14",
+        "note": "Leningrad (now St Petersburg)"
+      }
+    }
+  ],
+  "reigns": [
+    {
+      "id": "ivan-iv",
+      "kind": "monarch",
+      "rulers": [
+        "ivan-iv"
+      ],
+      "tagline": "The first tsar, who conquered Kazan and killed his heir",
+      "start": {
+        "date": "1547-01-16"
+      },
+      "end": {
+        "date": "1584-03-18"
+      },
+      "contestedWith": [],
+      "relationToPredecessor": "Son of Grand Prince Vasily III",
+      "ageAtAccession": "16",
+      "cameToPower": "Crowned Moscow's first tsar",
+      "reignEnded": "Collapsed over a chessboard",
+      "previously": "The Mongols are gone. Moscow's 16-year-old prince wants to be tsar.",
+      "paragraphs": [
+        "Ivan became Grand Prince of Moscow at three, when his father died. His mother ran things until she died suddenly in 1538. After that, rival boyar clans fought over the boy, looted the palace and ignored him. He never forgot it. In January 1547, aged 16, he was crowned with a title no Moscow ruler had formally taken before: tsar, from Caesar. Weeks later he married Anastasia Romanovna, and for a while things looked bright.",
+        "The early years went well. He overhauled the law, and in 1552 his army stormed Kazan, the Tatar stronghold on the Volga. Astrakhan followed in 1556, and St Basil's Cathedral went up on Red Square to celebrate. Then Anastasia died in 1560, and Ivan was sure she'd been poisoned. In 1565 he carved out a private realm, the oprichnina, run by black-clad horsemen who tortured and killed on his orders. In 1570 they massacred thousands in Novgorod.",
+        "In 1571 the Crimean Tatars burned Moscow, and the long war for Livonia slid towards defeat. Ivan married again and again, perhaps seven times in all. In November 1581 he quarrelled with his eldest son, also called Ivan, and struck him on the head with his iron-tipped staff. The heir died days later. His father outlived him by barely two years. In March 1584 he sat down to a game of chess, collapsed and died."
+      ],
+      "claims": [
+        {
+          "text": "Ivan killed his own son and heir with a blow from his staff.",
+          "status": "confirmed",
+          "note": "Near-contemporaries, including the papal envoy Antonio Possevino, report the blow. What the quarrel was about varies from one account to the next."
+        },
+        {
+          "text": "Ivan had the architects of St Basil's blinded so they could never build anything as beautiful.",
+          "status": "legend",
+          "note": "The tale turns up long after Ivan's time. No record from his reign mentions any blinding."
+        },
+        {
+          "text": "Ivan was poisoned.",
+          "status": "disputed",
+          "note": "Scientists who opened his tomb in 1963 found high levels of mercury. But mercury was a standard medicine of the day for the illnesses he suffered from."
+        }
+      ],
+      "hook": "Ivan's heir is dead by his father's hand. The crown goes to his gentle second son Feodor, who would rather ring church bells than rule. Standing right behind him is his wife's ambitious brother, Boris Godunov.",
+      "images": [
+        {
+          "file": "File:Kremlinpic4.jpg",
+          "url": "https://upload.wikimedia.org/wikipedia/commons/6/62/Kremlinpic4.jpg",
+          "page": "https://commons.wikimedia.org/wiki/File:Kremlinpic4.jpg",
+          "credit": "Unknown artist",
+          "license": "Public domain",
+          "made": "c. 1600",
+          "caption": "Painted around 1600, after his death; it now belongs to the National Museum of Denmark in Copenhagen.",
+          "alt": "Early painted portrait of Tsar Ivan IV"
+        }
+      ],
+      "sources": [
+        {
+          "title": "Ivan the Terrible: First Tsar of Russia",
+          "author": "Isabel de Madariaga",
+          "note": "Yale University Press, 2005"
+        },
+        {
+          "title": "Ivan the Terrible",
+          "author": "Ruslan G. Skrynnikov",
+          "note": "Trans. Hugh F. Graham, Academic International Press, 1981"
+        },
+        {
+          "title": "The Correspondence between Prince A. M. Kurbsky and Tsar Ivan IV of Russia, 1564–1579",
+          "author": "J. L. I. Fennell (ed. and trans.)",
+          "note": "Cambridge University Press, 1955"
+        },
+        {
+          "title": "The Land and Government of Muscovy",
+          "author": "Heinrich von Staden",
+          "note": "A former oprichnik's memoir; trans. Thomas Esper, 1967"
+        }
+      ],
+      "review": {
+        "status": "draft",
+        "notes": "Drafted from the listed sources; needs a human fact-check."
+      }
+    },
+    {
+      "id": "feodor-i",
+      "kind": "monarch",
+      "rulers": [
+        "feodor-i"
+      ],
+      "tagline": "The gentle bell-ringing tsar who let Boris run Russia",
+      "start": {
+        "date": "1584-03-18"
+      },
+      "end": {
+        "date": "1598-01-07"
+      },
+      "contestedWith": [],
+      "relationToPredecessor": "Second son of Ivan IV",
+      "ageAtAccession": "26",
+      "cameToPower": "Heir after his brother's death",
+      "reignEnded": "Died with no heir",
+      "previously": "Ivan the Terrible dies over a chessboard, his heir already dead.",
+      "paragraphs": [
+        "Feodor was pious, kind and, by most accounts, not up to the job. Foreign visitors called him simple. He spent hours at prayer and loved to climb bell towers and ring the bells himself. The real power belonged to Boris Godunov, the brother of his wife Irina. Boris saw off the rival boyar clans one by one and ran the government in Feodor's name.",
+        "Boris ran it well. In 1589 Moscow got its own patriarch, putting the Russian Church on a level with Constantinople. A war with Sweden won back towns on the Gulf of Finland. Then, in May 1591, Ivan the Terrible's youngest son Dmitry, aged eight, was found dying in the courtyard at Uglich with his throat cut. The town rioted and lynched the officials it blamed. An inquiry led by Prince Vasily Shuisky called it an accident: a fit while playing with a knife.",
+        "Feodor and Irina had one child, a daughter named Feodosia, born in 1592. She died before her second birthday. When Feodor himself died in January 1598, aged 40, the house of Rurik, which had ruled the Rus' lands for some seven centuries, died with him."
+      ],
+      "claims": [
+        {
+          "text": "Boris Godunov had the boy Dmitry murdered.",
+          "status": "disputed",
+          "note": "The inquiry said accident. The murder charge only became official in 1606, when it suited Vasily Shuisky, the very man who had run the inquiry."
+        },
+        {
+          "text": "Feodor was mentally disabled.",
+          "status": "disputed",
+          "note": "Foreign visitors such as Giles Fletcher described him as simple. Russian writers mostly paint him as holy and unworldly instead."
+        },
+        {
+          "text": "The Uglich bell that rang the alarm was flogged, had its tongue torn out and was exiled to Siberia.",
+          "status": "legend",
+          "note": "A bell said to be the culprit was brought back to Uglich from Tobolsk in 1892, but the punishment story comes from much later tradition."
+        }
+      ],
+      "hook": "The Rurikids are gone. Feodor's widow Irina refuses the throne and enters a convent. All eyes turn to her brother Boris, who keeps insisting he doesn't want the crown.",
+      "images": [
+        {
+          "file": "File:Feodor I of Russia (parsuna, 1630s, Moscow History museum).jpg",
+          "url": "https://upload.wikimedia.org/wikipedia/commons/4/44/Feodor_I_of_Russia_%28parsuna%2C_1630s%2C_Moscow_History_museum%29.jpg",
+          "page": "https://commons.wikimedia.org/wiki/File:Feodor_I_of_Russia_(parsuna,_1630s,_Moscow_History_museum).jpg",
+          "credit": "Unknown painter",
+          "license": "Public domain",
+          "made": "1630s",
+          "caption": "Painted in the 1630s, about 35 years after his death, to hang by the royal tombs in the Kremlin's Archangel Cathedral.",
+          "alt": "Icon-style portrait (parsuna) of Tsar Feodor I, painted in tempera on wood"
+        }
+      ],
+      "sources": [
+        {
+          "title": "Boris Godunov",
+          "author": "Ruslan G. Skrynnikov",
+          "note": "Trans. Hugh F. Graham, Academic International Press, 1982"
+        },
+        {
+          "title": "Of the Russe Commonwealth",
+          "author": "Giles Fletcher",
+          "note": "1591; English envoy's account of Feodor's Russia"
+        },
+        {
+          "title": "Russia at the Close of the Sixteenth Century",
+          "author": "Edward A. Bond (ed.)",
+          "note": "Hakluyt Society, 1856; includes Fletcher and the travels of Jerome Horsey"
+        },
+        {
+          "title": "Medieval Russia, 980–1584",
+          "author": "Janet Martin",
+          "note": "Cambridge University Press, 1995; 2nd ed. 2007"
+        }
+      ],
+      "review": {
+        "status": "draft",
+        "notes": "Drafted from the listed sources; needs a human fact-check."
+      }
+    },
+    {
+      "id": "boris-godunov",
+      "kind": "monarch",
+      "rulers": [
+        "boris-godunov"
+      ],
+      "tagline": "The power behind the throne who finally took the seat",
+      "start": {
+        "date": "1598-02-21"
+      },
+      "end": {
+        "date": "1605-04-13"
+      },
+      "contestedWith": [],
+      "relationToPredecessor": "Brother-in-law of Feodor I",
+      "ageAtAccession": "About 46",
+      "cameToPower": "Elected by an assembly of the land",
+      "reignEnded": "Collapsed and died suddenly",
+      "previously": "Feodor I dies childless. After seven centuries, the Rurikids are gone.",
+      "paragraphs": [
+        "Boris came from minor gentry and rose as one of Ivan the Terrible's favourites. He married a daughter of Malyuta Skuratov, Ivan's most feared henchman. After years running the country for Feodor, he played hard to get when the throne fell empty. He let crowds come and beg him at the convent where his sister was living, then gave in. An assembly of the land made him tsar in February 1598.",
+        "He was clever and curious about the West. He hired foreign doctors, welcomed foreign merchants and sent young nobles to study abroad. Then the weather turned. From 1601 the harvests failed three years running, and hundreds of thousands starved. People said God was punishing a usurper. Boris was jumpy too. He broke the powerful Romanov family, exiling them on charges of sorcery and forcing their leader Feodor Nikitich to become a monk under the name Filaret.",
+        "In 1603 a young man in Poland-Lithuania announced he was Dmitry, son of Ivan the Terrible, saved from the killers at Uglich. In October 1604 he crossed into Russia with a small army. Boris's troops beat him in January 1605, but town after town in the south welcomed the 'true tsar'. In April Boris rose from dinner, bled from the nose and ears, and died within hours."
+      ],
+      "claims": [
+        {
+          "text": "Boris had the boy Dmitry murdered so he could take the throne.",
+          "status": "disputed",
+          "note": "Pushkin's play and Mussorgsky's opera made the charge famous. No solid evidence ties Boris to what happened at Uglich."
+        },
+        {
+          "text": "Boris was poisoned.",
+          "status": "disputed",
+          "note": "Rumours flew around Moscow at once. His sudden symptoms fit a stroke or haemorrhage just as well."
+        },
+        {
+          "text": "A volcano in Peru helped cause the great famine.",
+          "status": "disputed",
+          "note": "Huaynaputina erupted in 1600, and tree rings point to freezing summers after it. How much of the death toll came from the weather and how much from hoarding and bad government is still argued over."
+        }
+      ],
+      "hook": "Boris is dead, and his son Feodor, just 16, is tsar. But the army is wavering, Moscow is restless, and the man who says he's Dmitry is still coming.",
+      "images": [
+        {
+          "file": "File:Boris Godunov by anonim (17th c., GIM).jpg",
+          "url": "https://upload.wikimedia.org/wikipedia/commons/5/54/Boris_Godunov_by_anonim_%2817th_c.%2C_GIM%29.jpg",
+          "page": "https://commons.wikimedia.org/wiki/File:Boris_Godunov_by_anonim_(17th_c.,_GIM).jpg",
+          "credit": "Unknown artist",
+          "license": "Public domain",
+          "made": "17th century",
+          "caption": "A 17th-century portrait, now in the State Historical Museum in Moscow.",
+          "alt": "Painted portrait of Tsar Boris Godunov"
+        }
+      ],
+      "sources": [
+        {
+          "title": "Boris Godunov",
+          "author": "Ruslan G. Skrynnikov",
+          "note": "Trans. Hugh F. Graham, Academic International Press, 1982"
+        },
+        {
+          "title": "Boris Godunov, Tsar of Russia",
+          "author": "S. F. Platonov",
+          "note": "Trans. L. Rex Pyles, Academic International Press, 1973"
+        },
+        {
+          "title": "Russia's First Civil War: The Time of Troubles and the Founding of the Romanov Dynasty",
+          "author": "Chester S. L. Dunning",
+          "note": "Pennsylvania State University Press, 2001"
+        },
+        {
+          "title": "A Short History of the Beginnings and Origins of These Present Wars in Moscow",
+          "author": "Isaac Massa",
+          "note": "Eyewitness account; trans. G. Edward Orchard, 1982"
+        }
+      ],
+      "review": {
+        "status": "draft",
+        "notes": "Drafted from the listed sources; needs a human fact-check."
+      }
+    },
+    {
+      "id": "feodor-ii",
+      "kind": "monarch",
+      "rulers": [
+        "feodor-ii"
+      ],
+      "tagline": "The clever teenage tsar who lasted seven weeks",
+      "start": {
+        "date": "1605-04-13"
+      },
+      "end": {
+        "date": "1605-06-10"
+      },
+      "contestedWith": [],
+      "relationToPredecessor": "Son of Boris Godunov",
+      "ageAtAccession": "15 or 16",
+      "cameToPower": "Succeeded his father",
+      "reignEnded": "Strangled by the pretender's men",
+      "previously": "Boris Godunov dies suddenly as the pretender Dmitry closes in.",
+      "paragraphs": [
+        "Feodor was the best-educated prince Moscow had yet seen. His father made sure of it, with tutors in languages and geography. A map of Russia printed in Amsterdam in 1613 was based on a drawing credited to him. He looked like a fine heir. In reality he was a teenager on a throne with the ground falling away beneath it.",
+        "In May 1605 the army besieging the pretender's men at Kromy went over to Dmitry. Pyotr Basmanov, the general Feodor's government had just sent to lead it, switched sides too. On 1 June two of Dmitry's envoys read his letter to a crowd on Red Square. The mob stormed the Kremlin and seized the Godunovs. On 10 June men sent ahead by Dmitry killed Feodor and his mother in the family house. Moscow was told they had poisoned themselves."
+      ],
+      "claims": [
+        {
+          "text": "Feodor drew one of the first detailed maps of Russia.",
+          "status": "disputed",
+          "note": "Hessel Gerritsz's 1613 map credits a drawing by Feodor, son of Boris. How much of it he really made himself is unclear."
+        },
+        {
+          "text": "Feodor and his mother were strangled, not poisoned.",
+          "status": "confirmed",
+          "note": "Foreigners living in Moscow at the time reported marks of strangling on the bodies, whatever the official story said."
+        },
+        {
+          "text": "Feodor's sister Xenia was spared and kept by the new tsar as his mistress.",
+          "status": "disputed",
+          "note": "Several writers at the time say so, though the details are hard to pin down. She ended her days as a nun."
+        }
+      ],
+      "hook": "On 20 June 1605 the man who calls himself Dmitry rides into Moscow to ringing bells and cheering crowds. Now he has to win over the one person who really knew the boy: his mother.",
+      "images": [
+        {
+          "file": "File:Feodor II of Russia, 17th century.png",
+          "url": "https://upload.wikimedia.org/wikipedia/commons/0/07/Feodor_II_of_Russia%2C_17th_century.png",
+          "page": "https://commons.wikimedia.org/wiki/File:Feodor_II_of_Russia,_17th_century.png",
+          "credit": "Unknown artist",
+          "license": "Public domain",
+          "made": "18th century",
+          "caption": "Painted in the 18th century, more than a hundred years after his death.",
+          "alt": "Painted portrait of Tsar Feodor II"
+        }
+      ],
+      "sources": [
+        {
+          "title": "Russia's First Civil War: The Time of Troubles and the Founding of the Romanov Dynasty",
+          "author": "Chester S. L. Dunning",
+          "note": "Pennsylvania State University Press, 2001"
+        },
+        {
+          "title": "The Time of Troubles: Russia in Crisis, 1604–1618",
+          "author": "Ruslan G. Skrynnikov",
+          "note": "Trans. Hugh F. Graham, Academic International Press, 1988"
+        },
+        {
+          "title": "A Short History of the Beginnings and Origins of These Present Wars in Moscow",
+          "author": "Isaac Massa",
+          "note": "Eyewitness account; trans. G. Edward Orchard, 1982"
+        },
+        {
+          "title": "The Disturbed State of the Russian Realm",
+          "author": "Conrad Bussow",
+          "note": "Eyewitness account; trans. G. Edward Orchard, 1994"
+        }
+      ],
+      "review": {
+        "status": "draft",
+        "notes": "Drafted from the listed sources; needs a human fact-check."
+      }
+    },
+    {
+      "id": "false-dmitry-i",
+      "kind": "monarch",
+      "rulers": [
+        "false-dmitry-i"
+      ],
+      "tagline": "The dead prince who came back and took the crown",
+      "start": {
+        "date": "1605-06-20"
+      },
+      "end": {
+        "date": "1606-05-17"
+      },
+      "contestedWith": [],
+      "relationToPredecessor": "Claimed to be Ivan IV's son",
+      "ageAtAccession": "About 23",
+      "cameToPower": "Invaded with Polish backing",
+      "reignEnded": "Killed in a Kremlin coup",
+      "previously": "Boris's widow and son are murdered. Moscow throws open its gates.",
+      "paragraphs": [
+        "Nobody knows who he really was. Boris's government said he was Grigory Otrepyev, a runaway monk who had once lived in the Kremlin's Chudov Monastery. Whoever he was, he had charm. He won over Polish nobles, including Jerzy Mniszech, whose daughter Marina he promised to marry, and quietly turned Catholic. In July 1605 Ivan the Terrible's widow, now a nun, publicly embraced him as her son. Days later he was crowned.",
+        "As tsar he was lively and unconventional. He strolled about without guards, skipped the traditional afternoon nap and laughed at stuffy boyar manners. He even pardoned Vasily Shuisky, caught plotting against him, at the execution block. In May 1606 Marina arrived for the wedding with a crowd of Polish guests and soldiers. Moscow had had enough of foreigners.",
+        "Early on 17 May, as alarm bells rang across the city, Shuisky's men burst into the Kremlin. Dmitry jumped from a window, broke his leg and was cut down where he lay. His body was dumped on Red Square for the crowd to jeer at, then burned."
+      ],
+      "claims": [
+        {
+          "text": "He was really Grigory Otrepyev, a runaway monk.",
+          "status": "disputed",
+          "note": "This was the official line under Boris and again under Shuisky. Many historians accept it. Others think the proof is thin and the label was simply convenient."
+        },
+        {
+          "text": "He truly believed he was Dmitry.",
+          "status": "disputed",
+          "note": "His confidence struck almost everyone who met him. Some historians think he was groomed for the part from childhood."
+        },
+        {
+          "text": "His ashes were loaded into a cannon and fired back towards Poland.",
+          "status": "legend",
+          "note": "Writers at the time tell the story and it fits Moscow's mood, but it can't be checked."
+        }
+      ],
+      "hook": "Two days after the killing, Vasily Shuisky has himself named tsar by a crowd of his supporters. No assembly, no election. And people are already whispering that Dmitry got away again.",
+      "images": [
+        {
+          "file": "File:False Dmitry I portrait.png",
+          "url": "https://upload.wikimedia.org/wikipedia/commons/1/11/False_Dmitry_I_portrait.png",
+          "page": "https://commons.wikimedia.org/wiki/File:False_Dmitry_I_portrait.png",
+          "credit": "Unknown artist",
+          "license": "Public domain",
+          "made": "Early 17th century",
+          "caption": "Painted in Poland-Lithuania in the early 17th century.",
+          "alt": "Portrait of the tsar known as False Dmitry I, made in Poland-Lithuania"
+        }
+      ],
+      "sources": [
+        {
+          "title": "Pretenders and Popular Monarchism in Early Modern Russia: The False Tsars of the Time of Troubles",
+          "author": "Maureen Perrie",
+          "note": "Cambridge University Press, 1995"
+        },
+        {
+          "title": "Russia's First Civil War: The Time of Troubles and the Founding of the Romanov Dynasty",
+          "author": "Chester S. L. Dunning",
+          "note": "Pennsylvania State University Press, 2001"
+        },
+        {
+          "title": "The Russian Empire and Grand Duchy of Muscovy",
+          "author": "Jacques Margeret",
+          "note": "Memoir by the captain of Dmitry's guard; trans. Chester S. L. Dunning, 1983"
+        },
+        {
+          "title": "A Short History of the Beginnings and Origins of These Present Wars in Moscow",
+          "author": "Isaac Massa",
+          "note": "Eyewitness account; trans. G. Edward Orchard, 1982"
+        }
+      ],
+      "review": {
+        "status": "draft",
+        "notes": "Drafted from the listed sources; needs a human fact-check."
+      }
+    },
+    {
+      "id": "vasily-iv",
+      "kind": "monarch",
+      "rulers": [
+        "vasily-iv"
+      ],
+      "tagline": "The boyars' tsar who lost Moscow to the Poles",
+      "start": {
+        "date": "1606-05-19"
+      },
+      "end": {
+        "date": "1610-07-17"
+      },
+      "contestedWith": [
+        "false-dmitry-ii"
+      ],
+      "relationToPredecessor": "Led the plot that killed him",
+      "ageAtAccession": "53",
+      "cameToPower": "Proclaimed after a palace coup",
+      "reignEnded": "Deposed and made a monk",
+      "previously": "Moscow rises and False Dmitry I is cut down in the Kremlin.",
+      "paragraphs": [
+        "Vasily Shuisky came from Russia's grandest boyar family, descended from the old princes of Suzdal. He was also the great turncoat of his age. In 1591 he ran the inquiry that called Dmitry's death an accident. Now, as tsar, he had the boy's body brought from Uglich to Moscow and proclaimed him a murdered martyr and a saint. That, he hoped, would stop anyone else using the name.",
+        "It didn't. In the south a former slave, Ivan Bolotnikov, raised a huge rebel army in Dmitry's name and reached the walls of Moscow in late 1606. Vasily crushed him the next year, but by then a second 'Dmitry' had appeared. Soon the new pretender was camped just outside Moscow, running a rival government.",
+        "Vasily hired Swedish troops, and his brilliant young nephew Mikhail Skopin-Shuisky drove the rebels back. Then Skopin fell ill after a christening feast and died in April 1610. In June a Polish army smashed Vasily's forces at Klushino. On 17 July the boyars deposed him and had him forcibly made a monk. The Poles later carried him off as a prisoner."
+      ],
+      "claims": [
+        {
+          "text": "Skopin-Shuisky was poisoned on the orders of the tsar's family.",
+          "status": "disputed",
+          "note": "Muscovites believed it at once, because Skopin was far more popular than Vasily. Nothing was ever proved."
+        },
+        {
+          "text": "Vasily swore an oath on the cross not to punish anyone without a proper trial.",
+          "status": "confirmed",
+          "note": "His oath of 1606 was published in official documents. It was an unusual promise for a Russian ruler, and he didn't always keep it."
+        },
+        {
+          "text": "Vasily was paraded as a captive before King Sigismund III in Warsaw.",
+          "status": "confirmed",
+          "note": "In 1611 Hetman Żółkiewski presented the Shuisky brothers to the king, and the scene was later painted for the royal palace."
+        }
+      ],
+      "hook": "While Vasily ruled in Moscow, half of Russia was taking orders from someone else. Rewind to 1607: a stranger in the town of Starodub says he's Tsar Dmitry, back from the dead a second time.",
+      "images": [
+        {
+          "file": "File:Vasili IV of Russia.PNG",
+          "url": "https://upload.wikimedia.org/wikipedia/commons/e/e6/Vasili_IV_of_Russia.PNG",
+          "page": "https://commons.wikimedia.org/wiki/File:Vasili_IV_of_Russia.PNG",
+          "credit": "Unknown artist",
+          "license": "Public domain",
+          "made": "18th century",
+          "caption": "Painted in the 18th century, more than a hundred years after his reign; now in the State Historical Museum, Moscow.",
+          "alt": "Painted portrait of Tsar Vasily IV Shuisky"
+        }
+      ],
+      "sources": [
+        {
+          "title": "Russia's First Civil War: The Time of Troubles and the Founding of the Romanov Dynasty",
+          "author": "Chester S. L. Dunning",
+          "note": "Pennsylvania State University Press, 2001"
+        },
+        {
+          "title": "The Time of Troubles: Russia in Crisis, 1604–1618",
+          "author": "Ruslan G. Skrynnikov",
+          "note": "Trans. Hugh F. Graham, Academic International Press, 1988"
+        },
+        {
+          "title": "The Time of Troubles",
+          "author": "S. F. Platonov",
+          "note": "Trans. John T. Alexander, 1970"
+        },
+        {
+          "title": "The New Chronicle (Novyi letopisets)",
+          "author": "Anonymous",
+          "note": "Moscow chronicle compiled around 1630"
+        }
+      ],
+      "review": {
+        "status": "draft",
+        "notes": "Drafted from the listed sources; needs a human fact-check."
+      }
+    },
+    {
+      "id": "false-dmitry-ii",
+      "kind": "claimant",
+      "rulers": [
+        "false-dmitry-ii"
+      ],
+      "title": "False Dmitry II",
+      "tagline": "The Thief of Tushino, a fake of a fake",
+      "start": {
+        "date": "1607-08"
+      },
+      "end": {
+        "date": "1610-07-17"
+      },
+      "contestedWith": [
+        "vasily-iv"
+      ],
+      "relationToPredecessor": "Posed as the same dead Dmitry",
+      "ageAtAccession": "Unknown",
+      "cameToPower": "Surfaced at Starodub in 1607",
+      "reignEnded": "Murdered at Kaluga, December 1610",
+      "previously": "Vasily IV is deposed. Rewind to 1607 and his great rival.",
+      "paragraphs": [
+        "Nobody even pretended to know where this one came from. Rumours made him a schoolteacher, a priest's son or a Jew from Shklov. He surfaced at Starodub in 1607 claiming to be Dmitry, who had now apparently escaped death twice. He looked nothing like the first one. It hardly mattered. Polish adventurers, Cossacks and Russians who hated Shuisky flocked to him.",
+        "In 1608 he set up camp at Tushino, a village just outside Moscow, and ran a whole rival state from there, with its own boyars and even its own patriarch, Filaret Romanov. Marina Mniszech, the first Dmitry's widow, recognised him as her husband. Nobles drifted between the two courts so often they were nicknamed 'flitters'. Muscovites just called him the Thief.",
+        "When King Sigismund III of Poland invaded in 1609, the Poles at Tushino drifted off to join him. In December the Thief fled to Kaluga. Vasily's fall gave him one last chance, but Moscow's boyars preferred a Polish prince. On 11 December 1610 Pyotr Urusov, a Tatar prince in his own guard, shot him and cut off his head."
+      ],
+      "claims": [
+        {
+          "text": "He escaped from Tushino hidden in a dung cart.",
+          "status": "legend",
+          "note": "He did slip away in disguise. The dung cart comes from hostile accounts and may be embroidery."
+        },
+        {
+          "text": "Marina Mniszech recognised him as her husband, though she knew he wasn't.",
+          "status": "disputed",
+          "note": "She had lived with the first Dmitry, so she can't have been fooled. Contemporaries say ambition and her father's deal made her go along with it."
+        },
+        {
+          "text": "He was a Jewish schoolteacher from Shklov.",
+          "status": "disputed",
+          "note": "Some writers at the time say so; others give different origins. No source is solid enough to settle it."
+        }
+      ],
+      "hook": "With Vasily gone and the Thief on the run, seven boyars take charge in Moscow. Their plan: offer the throne to the Polish king's teenage son, Władysław, and let a Polish garrison into the Kremlin.",
+      "images": [
+        {
+          "file": "File:False Dmitriy II (engraving) 02.jpg",
+          "url": "https://upload.wikimedia.org/wikipedia/commons/f/ff/False_Dmitriy_II_%28engraving%29_02.jpg",
+          "page": "https://commons.wikimedia.org/wiki/File:False_Dmitriy_II_(engraving)_02.jpg",
+          "credit": "Unknown engraver",
+          "license": "Public domain",
+          "made": "17th–18th century",
+          "caption": "An engraving made in the 17th or 18th century; nobody knows what he really looked like.",
+          "alt": "Engraved portrait of the pretender known as False Dmitry II"
+        }
+      ],
+      "sources": [
+        {
+          "title": "Pretenders and Popular Monarchism in Early Modern Russia: The False Tsars of the Time of Troubles",
+          "author": "Maureen Perrie",
+          "note": "Cambridge University Press, 1995"
+        },
+        {
+          "title": "Russia's First Civil War: The Time of Troubles and the Founding of the Romanov Dynasty",
+          "author": "Chester S. L. Dunning",
+          "note": "Pennsylvania State University Press, 2001"
+        },
+        {
+          "title": "The Disturbed State of the Russian Realm",
+          "author": "Conrad Bussow",
+          "note": "Eyewitness account; trans. G. Edward Orchard, 1994"
+        },
+        {
+          "title": "The Time of Troubles",
+          "author": "S. F. Platonov",
+          "note": "Trans. John T. Alexander, 1970"
+        }
+      ],
+      "review": {
+        "status": "draft",
+        "notes": "Drafted from the listed sources; needs a human fact-check."
+      }
+    },
+    {
+      "id": "time-of-troubles",
+      "kind": "interregnum",
+      "rulers": [],
+      "house": "troubles",
+      "title": "The Seven Boyars",
+      "tagline": "Poles in the Kremlin, and Russia with no tsar at all",
+      "start": {
+        "date": "1610-07-17"
+      },
+      "end": {
+        "date": "1613-02-21"
+      },
+      "contestedWith": [],
+      "relationToPredecessor": "Boyars who deposed Vasily IV",
+      "ageAtAccession": "No monarch",
+      "cameToPower": "Boyar council seized Moscow",
+      "reignEnded": "Assembly elected Michael Romanov",
+      "previously": "Vasily is deposed and the Thief is on the run. Moscow has no tsar.",
+      "paragraphs": [
+        "A council of seven boyars, led by Prince Fyodor Mstislavsky, took over Moscow. In August 1610 they agreed to make Władysław, son of King Sigismund III of Poland, their tsar, on condition he became Orthodox. In September they let a Polish garrison into the Kremlin. But Sigismund wanted Russia for himself and kept his son at home. Smolensk fell to him in 1611, and the Swedes grabbed Novgorod.",
+        "Russia was close to falling apart. Patriarch Hermogenes sent out letters urging resistance, so the Poles locked him up; he died in captivity in 1612. In March 1611 Moscow rose against the garrison, and much of the city burned. A first national army besieged the Kremlin, then fell apart when its leader, Prokopy Lyapunov, was murdered by Cossacks.",
+        "Then a meat trader from Nizhny Novgorod, Kuzma Minin, talked his town into paying for a new army. Prince Dmitry Pozharsky agreed to lead it. In autumn 1612 they beat off a Polish relief force and starved out the Kremlin garrison until it surrendered. Early in 1613 an assembly of the land gathered in Moscow to choose a new tsar."
+      ],
+      "claims": [
+        {
+          "text": "The starving Polish garrison in the Kremlin turned to cannibalism.",
+          "status": "confirmed",
+          "note": "Józef Budziło, a Polish officer trapped inside, describes it in his diary, and Russian accounts say the same."
+        },
+        {
+          "text": "The peasant Ivan Susanin saved young Michael Romanov by leading Polish troops astray into the forest.",
+          "status": "legend",
+          "note": "Susanin was real, and a 1619 royal charter rewarded his family for his death. The heroic forest march grew later, helped along by Glinka's opera."
+        },
+        {
+          "text": "Russia's Unity Day on 4 November celebrates the Kremlin's liberation in 1612.",
+          "status": "confirmed",
+          "note": "The holiday was brought in in 2005. Its date is the 1612 events converted to the modern calendar."
+        }
+      ],
+      "hook": "On 21 February 1613 the assembly makes its choice: Michael Romanov, aged 16, son of Filaret, who is still a prisoner in Poland. Nobody is sure the shy boy even wants the job.",
+      "images": [
+        {
+          "file": "File:Makovsky, Konstantin - Appeal of Minin.jpg",
+          "url": "https://upload.wikimedia.org/wikipedia/commons/9/9c/Makovsky%2C_Konstantin_-_Appeal_of_Minin.jpg",
+          "page": "https://commons.wikimedia.org/wiki/File:Makovsky,_Konstantin_-_Appeal_of_Minin.jpg",
+          "credit": "Konstantin Makovsky",
+          "license": "Public domain",
+          "made": "1896",
+          "caption": "Konstantin Makovsky's 1896 painting of Minin's appeal, made almost three centuries later.",
+          "alt": "Painting of Kuzma Minin calling on the people of Nizhny Novgorod to raise an army"
+        }
+      ],
+      "sources": [
+        {
+          "title": "Russia's First Civil War: The Time of Troubles and the Founding of the Romanov Dynasty",
+          "author": "Chester S. L. Dunning",
+          "note": "Pennsylvania State University Press, 2001"
+        },
+        {
+          "title": "The Time of Troubles",
+          "author": "S. F. Platonov",
+          "note": "Trans. John T. Alexander, 1970"
+        },
+        {
+          "title": "The Time of Troubles: Russia in Crisis, 1604–1618",
+          "author": "Ruslan G. Skrynnikov",
+          "note": "Trans. Hugh F. Graham, Academic International Press, 1988"
+        },
+        {
+          "title": "The Tale (Skazanie)",
+          "author": "Avraamy Palitsyn",
+          "note": "Account by the cellarer of the Trinity-Sergius Monastery, 1620s"
+        }
+      ],
+      "review": {
+        "status": "draft",
+        "notes": "Drafted from the listed sources; needs a human fact-check."
+      }
+    },
+    {
+      "id": "michael",
+      "kind": "monarch",
+      "rulers": [
+        "michael"
+      ],
+      "tagline": "The shy teenager who started a 300-year dynasty",
+      "start": {
+        "date": "1613-02-21"
+      },
+      "end": {
+        "date": "1645-07-12"
+      },
+      "contestedWith": [],
+      "relationToPredecessor": "Great-nephew of Ivan IV's first wife",
+      "ageAtAccession": "16",
+      "cameToPower": "Elected by the Assembly of the Land",
+      "reignEnded": "Died in Moscow",
+      "previously": "The Poles are out of Moscow. An assembly meets to choose a new tsar.",
+      "paragraphs": [
+        "Nobody picked Michael Romanov for his talents. He was 16, quiet and sickly, hiding with his mother, a nun, in a monastery near Kostroma. What he had was the right family. His great-aunt Anastasia had been Ivan the Terrible's beloved first wife, and the Romanovs had no enemies anyone could name. The boyars reckoned a boy would be easy to steer. The envoys who came to offer him the crown found his mother in tears, begging them to go away.",
+        "Russia was wrecked, so Michael bought peace. The Swedes got the Baltic coast in 1617 and the Poles kept Smolensk in 1618. In 1619 his father Filaret came home from Polish captivity and was made Patriarch. Until he died in 1633, Filaret ran the country as co-sovereign, and Michael was happy to let him. A try at winning back Smolensk in the 1630s flopped.",
+        "Michael's legs gave him so much pain that by the end he could barely walk. He died in July 1645. Of his ten children, only one son had lived to grow up."
+      ],
+      "claims": [
+        {
+          "text": "A peasant named Ivan Susanin saved Michael by leading a Polish search party deep into a frozen forest, where they killed him.",
+          "status": "legend",
+          "note": "A 1619 charter rewards Susanin's family for his death, but the forest story grew later and was made famous by Glinka's 1836 opera A Life for the Tsar."
+        },
+        {
+          "text": "Michael's first chosen bride was sent to Siberia after rivals at court made her ill.",
+          "status": "confirmed",
+          "note": "Maria Khlopova was exiled in 1616. An inquiry in 1623 found that the Saltykovs, relatives of Michael's mother, had blown up a minor stomach upset to get rid of her."
+        }
+      ],
+      "hook": "Michael's only surviving son is Alexis, just 16. He's gentle, pious and loves falconry. Within three years Moscow's mobs will be burning down the houses of his advisers.",
+      "images": [
+        {
+          "file": "File:Michael of Russia by anonymous (Rostov museum).jpg",
+          "url": "https://upload.wikimedia.org/wikipedia/commons/2/27/Michael_of_Russia_by_anonymous_%28Rostov_museum%29.jpg",
+          "page": "https://commons.wikimedia.org/wiki/File:Michael_of_Russia_by_anonymous_(Rostov_museum).jpg",
+          "credit": "Unknown artist",
+          "license": "Public domain",
+          "made": "Possibly 17th century",
+          "caption": "An anonymous Russian portrait now in the Rostov regional art museum; its date is uncertain.",
+          "alt": "Oval head-and-shoulders portrait of a man with a straight nose, dark blond hair, a moustache and a short beard"
+        }
+      ],
+      "sources": [
+        {
+          "title": "The Romanovs: Ruling Russia, 1613–1917",
+          "author": "Lindsey Hughes",
+          "note": "Hambledon Continuum, 2008"
+        },
+        {
+          "title": "The Romanovs: 1613–1918",
+          "author": "Simon Sebag Montefiore",
+          "note": "Weidenfeld & Nicolson, 2016"
+        },
+        {
+          "title": "Russia's First Civil War: The Time of Troubles and the Founding of the Romanov Dynasty",
+          "author": "Chester S. A. Dunning",
+          "note": "Penn State University Press, 2001"
+        }
+      ],
+      "review": {
+        "status": "draft",
+        "notes": "Drafted from the listed sources; needs a human fact-check."
+      }
+    },
+    {
+      "id": "alexis",
+      "kind": "monarch",
+      "rulers": [
+        "alexis"
+      ],
+      "tagline": "The gentle tsar whose reign was anything but quiet",
+      "start": {
+        "date": "1645-07-13"
+      },
+      "end": {
+        "date": "1676-01-29"
+      },
+      "contestedWith": [],
+      "relationToPredecessor": "Son of Michael I",
+      "ageAtAccession": "16",
+      "cameToPower": "Succeeded his father",
+      "reignEnded": "Died suddenly, aged 46",
+      "previously": "Michael I, the first Romanov, dies after 32 years on the throne.",
+      "paragraphs": [
+        "Alexis earned the nickname “the Quietest” for his calm, devout manner. He prayed for hours, adored falconry and wrote a rulebook for it. His reign was a riot. In 1648 Moscow's crowds lynched officials over a hated salt tax. The next year a huge new law code tied peasants to the land for good. Serfdom was now set in stone.",
+        "In 1654 he took the Ukrainian Cossacks under his protection, which meant a long war with Poland. Russia came out of it with Kiev and Smolensk. Then Alexis's friend, Patriarch Nikon, changed the church's rituals to match Greek practice, down to how many fingers you crossed yourself with. Millions refused. These Old Believers were hunted down, and their hero, Archpriest Avvakum, was later burned at the stake.",
+        "In 1670 the Cossack Stenka Razin led a huge rebellion up the Volga. He was captured and quartered in Moscow in 1671. Alexis's first wife bore him 13 children. His second, Natalya Naryshkina, gave him a sturdy son named Peter in 1672."
+      ],
+      "claims": [
+        {
+          "text": "Stenka Razin threw a captured Persian princess into the Volga as a gift to the river.",
+          "status": "legend",
+          "note": "It comes from the Dutch sailor Jan Struys, who was in Astrakhan at the time, and from later folk songs. No other source backs it up."
+        },
+        {
+          "text": "The first bride Alexis chose fainted at her presentation because her hair had been tied too tight on purpose.",
+          "status": "disputed",
+          "note": "Euphemia Vsevolozhskaya was rejected as epileptic and exiled in 1647. The sabotage story is old, but it was told by people with every reason to spread court gossip."
+        }
+      ],
+      "hook": "Alexis dies suddenly at 46. The throne goes to his eldest surviving son, Feodor, 14, clever and well read but so sickly he often can't walk.",
+      "images": [
+        {
+          "file": "File:Alexis I of Russia (1670s, Ptuj Ormož Regional Museum).jpg",
+          "url": "https://upload.wikimedia.org/wikipedia/commons/2/2e/Alexis_I_of_Russia_%281670s%2C_Ptuj_Ormo%C5%BE_Regional_Museum%29.jpg",
+          "page": "https://commons.wikimedia.org/wiki/File:Alexis_I_of_Russia_(1670s,_Ptuj_Ormo%C5%BE_Regional_Museum).jpg",
+          "credit": "Unknown artist",
+          "license": "Public domain",
+          "made": "1670s",
+          "caption": "Painted in the 1670s, in the last years of his reign; it is now in a museum in Ptuj, Slovenia.",
+          "alt": "Painted portrait of Tsar Alexis in royal dress"
+        }
+      ],
+      "sources": [
+        {
+          "title": "Alexis, Tsar of All the Russias",
+          "author": "Philip Longworth",
+          "note": "Secker & Warburg, 1984"
+        },
+        {
+          "title": "The Life of the Archpriest Avvakum, by Himself",
+          "author": "Avvakum Petrov",
+          "note": "Written in the 1670s; primary source on the schism"
+        },
+        {
+          "title": "The Romanovs: Ruling Russia, 1613–1917",
+          "author": "Lindsey Hughes",
+          "note": "Hambledon Continuum, 2008"
+        },
+        {
+          "title": "The Romanovs: 1613–1918",
+          "author": "Simon Sebag Montefiore",
+          "note": "Weidenfeld & Nicolson, 2016"
+        }
+      ],
+      "review": {
+        "status": "draft",
+        "notes": "Drafted from the listed sources; needs a human fact-check."
+      }
+    },
+    {
+      "id": "feodor-iii",
+      "kind": "monarch",
+      "rulers": [
+        "feodor-iii"
+      ],
+      "tagline": "The bookish invalid who set fire to the nobles' pedigrees",
+      "start": {
+        "date": "1676-01-29"
+      },
+      "end": {
+        "date": "1682-04-27"
+      },
+      "contestedWith": [],
+      "relationToPredecessor": "Son of Alexis",
+      "ageAtAccession": "14",
+      "cameToPower": "Succeeded his father",
+      "reignEnded": "Died childless, aged 20",
+      "previously": "Tsar Alexis dies suddenly, leaving sons by two rival wives.",
+      "paragraphs": [
+        "Feodor was the best-educated tsar Russia had yet seen. The scholar Simeon Polotsky taught him Latin and Polish, and he liked Western clothes and books. His body was another story. Illness had crippled his legs, and he often ruled from his bed. His mother's family, the Miloslavskys, pushed aside his stepmother Natalya and sent her ally Artamon Matveyev into exile.",
+        "He fought the Ottomans over Ukraine and signed a truce with them and the Crimean Tatars in 1681. His boldest move came in 1682. For centuries, nobles had refused to serve under anyone from a lower-ranking family, which made the army a mess. Feodor abolished the system and had the old rank books burned. His first wife died in childbirth in 1681, and the baby soon after. He married again in February 1682 and was dead by April."
+      ],
+      "claims": [
+        {
+          "text": "Feodor was poisoned by his doctors.",
+          "status": "disputed",
+          "note": "The rumour went round in May 1682 and the rioting Streltsy killed the court physician Daniel von Gaden over it. No evidence supports it; Feodor had been ill for years."
+        },
+        {
+          "text": "Feodor had the noble rank books thrown on a bonfire.",
+          "status": "confirmed",
+          "note": "The decree abolishing the precedence system in January 1682 and the burning of the books in the Kremlin are well recorded."
+        }
+      ],
+      "hook": "Feodor leaves no child. Next in line is his brother Ivan, 15, nearly blind and slow of speech. The patriarch and a crowd at the Kremlin shout for Peter instead. He's nine.",
+      "images": [
+        {
+          "file": "File:Feodor III of Russia by Dutch anonymous (1676, Hermitage).jpg",
+          "url": "https://upload.wikimedia.org/wikipedia/commons/e/e4/Feodor_III_of_Russia_by_Dutch_anonymous_%281676%2C_Hermitage%29.jpg",
+          "page": "https://commons.wikimedia.org/wiki/File:Feodor_III_of_Russia_by_Dutch_anonymous_(1676,_Hermitage).jpg",
+          "credit": "Unknown Dutch artist",
+          "license": "Public domain",
+          "made": "1676",
+          "caption": "Painted by an unknown Dutch artist in 1676, the year Feodor became tsar.",
+          "alt": "Head-and-shoulders portrait of Tsar Feodor holding an orb and a sceptre"
+        }
+      ],
+      "sources": [
+        {
+          "title": "The Romanovs: Ruling Russia, 1613–1917",
+          "author": "Lindsey Hughes",
+          "note": "Hambledon Continuum, 2008"
+        },
+        {
+          "title": "The Romanovs: 1613–1918",
+          "author": "Simon Sebag Montefiore",
+          "note": "Weidenfeld & Nicolson, 2016"
+        },
+        {
+          "title": "Sophia, Regent of Russia, 1657–1704",
+          "author": "Lindsey Hughes",
+          "note": "Yale University Press, 1990"
+        }
+      ],
+      "review": {
+        "status": "draft",
+        "notes": "Drafted from the listed sources; needs a human fact-check."
+      }
+    },
+    {
+      "id": "ivan-v-and-peter-i",
+      "kind": "monarch",
+      "rulers": [
+        "ivan-v",
+        "peter-i"
+      ],
+      "tagline": "Two boys, one double throne, and a sister in charge",
+      "start": {
+        "date": "1682-04-27"
+      },
+      "end": {
+        "date": "1696-01-29"
+      },
+      "contestedWith": [],
+      "relationToPredecessor": "Brother and half-brother of Feodor III",
+      "ageAtAccession": "15 and 9",
+      "cameToPower": "Crowd, then Streltsy uprising",
+      "reignEnded": "Ivan V died; Peter rules alone",
+      "previously": "Feodor III dies childless. Nine-year-old Peter is proclaimed tsar.",
+      "paragraphs": [
+        "Peter's mother's family, the Naryshkins, won the first round. Then the Miloslavskys struck back. In May 1682 they spread a rumour that the Naryshkins had strangled Ivan. The Streltsy, Moscow's musketeers, stormed the Kremlin. They threw the old statesman Artamon Matveyev onto their pikes and hacked Peter's uncles to death. Peter, not yet ten, saw it all. Ivan was made senior tsar, Peter junior, and their sister Sophia became regent.",
+        "Sophia was the real ruler for seven years, helped by her favourite, Prince Vasily Golitsyn. She made peace with Poland and signed Russia's first treaty with China. Golitsyn's two marches on Crimea ended in failure. Peter grew up outside Moscow, playing war with real cannons and boys' regiments that turned into crack troops.",
+        "In August 1689, warned of a plot, Peter fled by night to the Trinity Monastery. The army and the nobles drifted to his side. Sophia was shut up in the Novodevichy Convent. Ivan stayed on as tsar in name, mild and loyal, while Peter took over."
+      ],
+      "claims": [
+        {
+          "text": "Sophia hid behind the double throne and whispered answers to the boys through a hidden opening.",
+          "status": "legend",
+          "note": "The silver double throne, made for the brothers, is in the Kremlin Armoury and does have an opening at the back. The whispering story is a later tradition with no witness behind it."
+        },
+        {
+          "text": "The Streltsy threw Artamon Matveyev from the Red Staircase onto their pikes in front of Peter.",
+          "status": "confirmed",
+          "note": "Several eyewitnesses and Russian records describe the killing. That Peter was at Matveyev's side comes from the same accounts."
+        }
+      ],
+      "hook": "In January 1696 gentle Ivan dies, aged 29. Peter is now sole tsar, 23 years old, 2 metres tall and bursting with plans. His first: take the Turkish fortress of Azov, which beat him last year.",
+      "images": [
+        {
+          "file": "File:Ivan V and Peter I the Great - The Book of the Crowning of the Kingdom.png",
+          "url": "https://upload.wikimedia.org/wikipedia/commons/8/8b/Ivan_V_and_Peter_I_the_Great_-_The_Book_of_the_Crowning_of_the_Kingdom.png",
+          "page": "https://commons.wikimedia.org/wiki/File:Ivan_V_and_Peter_I_the_Great_-_The_Book_of_the_Crowning_of_the_Kingdom.png",
+          "credit": "Unknown artist",
+          "license": "CC BY-SA 4.0",
+          "made": "1682",
+          "caption": "From the illustrated book made to record the brothers' joint coronation in 1682.",
+          "alt": "Illustration from a coronation book showing the two young co-tsars, Ivan V and Peter I"
+        }
+      ],
+      "sources": [
+        {
+          "title": "Sophia, Regent of Russia, 1657–1704",
+          "author": "Lindsey Hughes",
+          "note": "Yale University Press, 1990"
+        },
+        {
+          "title": "Peter the Great: The Struggle for Power, 1671–1725",
+          "author": "Paul Bushkovitch",
+          "note": "Cambridge University Press, 2001"
+        },
+        {
+          "title": "Peter the Great: His Life and World",
+          "author": "Robert K. Massie",
+          "note": "Knopf, 1980"
+        }
+      ],
+      "review": {
+        "status": "draft",
+        "notes": "Drafted from the listed sources; needs a human fact-check."
+      },
+      "title": "Ivan V & Peter I"
+    },
+    {
+      "id": "peter-i",
+      "kind": "monarch",
+      "rulers": [
+        "peter-i"
+      ],
+      "tagline": "The giant who dragged Russia into Europe by the beard",
+      "start": {
+        "date": "1696-01-29"
+      },
+      "end": {
+        "date": "1725-01-28"
+      },
+      "contestedWith": [],
+      "relationToPredecessor": "Half-brother and co-tsar of Ivan V",
+      "ageAtAccession": "23",
+      "cameToPower": "Sole rule after Ivan V died",
+      "reignEnded": "Died without naming an heir",
+      "previously": "Co-tsar Ivan V dies. Peter, 23, now rules alone.",
+      "paragraphs": [
+        "Peter took Azov in 1696, then did something no tsar had done. He toured Western Europe in 1697 as “Peter Mikhailov”, working in shipyards in Holland and England. A Streltsy revolt called him home. He had over a thousand rebels executed and cut off his nobles' beards with his own hands. Then he started a 21-year war with Sweden.",
+        "Charles XII crushed him at Narva in 1700. Peter rebuilt the army, and in 1703 he founded St Petersburg in a Baltic swamp, at a cost of thousands of conscripted lives. At Poltava in 1709 he smashed Charles. When peace came in 1721, Russia held the Baltic coast and Peter took the title Emperor. He gave Russia a navy, a Senate, new ministries and a ladder of ranks open to talent.",
+        "His son Alexei hated all of it. He fled to Vienna, was coaxed home, tortured and condemned. He died in a cell in 1718. Peter then decreed that each ruler would choose his own heir. In January 1725, dying in agony, he never named one."
+      ],
+      "claims": [
+        {
+          "text": "Peter personally pulled the teeth of courtiers and servants, and kept them.",
+          "status": "confirmed",
+          "note": "He trained as an amateur dentist; a collection of teeth he pulled survives in the Kunstkamera museum in St Petersburg."
+        },
+        {
+          "text": "Peter's son Alexei was beaten to death on his father's orders.",
+          "status": "disputed",
+          "note": "Alexei died two days after being sentenced, following repeated floggings. Official reports blamed a stroke; whether he was killed outright is still argued."
+        },
+        {
+          "text": "On his deathbed Peter wrote “Give everything to…” and died before finishing.",
+          "status": "legend",
+          "note": "The story comes from the Holstein minister Bassewitz, writing years later. No such note survives."
+        }
+      ],
+      "hook": "Peter lies dead and nobody knows who's next. His grandson is nine. But the Guards officers in the palace have already picked a side: Peter's widow, a former servant girl named Catherine.",
+      "images": [
+        {
+          "file": "File:Jean-Marc Nattier, Pierre Ier (1717).jpg",
+          "url": "https://upload.wikimedia.org/wikipedia/commons/0/0d/Jean-Marc_Nattier%2C_Pierre_Ier_%281717%29.jpg",
+          "page": "https://commons.wikimedia.org/wiki/File:Jean-Marc_Nattier,_Pierre_Ier_(1717).jpg",
+          "credit": "Jean-Marc Nattier",
+          "license": "Public domain",
+          "made": "1717",
+          "caption": "Painted by the French artist Jean-Marc Nattier in 1717, when Peter was 45.",
+          "alt": "Portrait of Peter the Great by Jean-Marc Nattier"
+        }
+      ],
+      "sources": [
+        {
+          "title": "Peter the Great: His Life and World",
+          "author": "Robert K. Massie",
+          "note": "Knopf, 1980"
+        },
+        {
+          "title": "Russia in the Age of Peter the Great",
+          "author": "Lindsey Hughes",
+          "note": "Yale University Press, 1998"
+        },
+        {
+          "title": "Peter the Great: The Struggle for Power, 1671–1725",
+          "author": "Paul Bushkovitch",
+          "note": "Cambridge University Press, 2001"
+        }
+      ],
+      "review": {
+        "status": "draft",
+        "notes": "Drafted from the listed sources; needs a human fact-check."
+      },
+      "title": "Peter the Great"
+    },
+    {
+      "id": "catherine-i",
+      "kind": "monarch",
+      "rulers": [
+        "catherine-i"
+      ],
+      "tagline": "From Livonian servant girl to Empress of Russia",
+      "start": {
+        "date": "1725-01-28"
+      },
+      "end": {
+        "date": "1727-05-06"
+      },
+      "contestedWith": [],
+      "relationToPredecessor": "Widow of Peter I",
+      "ageAtAccession": "About 40",
+      "cameToPower": "Backed by Menshikov and the Guards",
+      "reignEnded": "Died of illness",
+      "previously": "Peter the Great dies without naming an heir.",
+      "paragraphs": [
+        "She was born Marta Skowrońska, a peasant girl from Livonia, and grew up as a servant in a Lutheran pastor's house. When Russian troops took the town of Marienburg in 1702, she was captured. She passed from Field Marshal Sheremetev to Peter's best friend Alexander Menshikov, and then to Peter himself. She was warm, tough and could calm his rages. He married her in 1712 and crowned her empress in 1724.",
+        "When Peter died, Menshikov marched the Guards into the palace and the nobles got the message: Catherine was the first woman to rule Russia in her own right. She was generous with the soldiers and liked parties, and left the work to Menshikov and a new Supreme Privy Council. Her health gave way in 1727. Menshikov made sure her will named Peter's grandson as heir, then got the boy engaged to his own daughter."
+      ],
+      "claims": [
+        {
+          "text": "Catherine saved Peter's army in 1711 by handing over her jewels to bribe the Ottoman grand vizier.",
+          "status": "disputed",
+          "note": "Russia did buy its way out of encirclement at the Pruth, but the jewel story comes from later court flattery. Treasury money did most of the work."
+        },
+        {
+          "text": "After executing her chamberlain Willem Mons, Peter put his head in a jar in her bedroom.",
+          "status": "legend",
+          "note": "Mons was beheaded in November 1724, and Peter reportedly made Catherine ride past the head. The jar story is a later embellishment."
+        }
+      ],
+      "hook": "Catherine is dead after two years. The new emperor is Peter's grandson, Peter, aged 11. Menshikov holds him tight and plans to make his own daughter empress. The boy has other ideas.",
+      "images": [
+        {
+          "file": "File:Catherine I of Russia by Nattier.jpg",
+          "url": "https://upload.wikimedia.org/wikipedia/commons/3/34/Catherine_I_of_Russia_by_Nattier.jpg",
+          "page": "https://commons.wikimedia.org/wiki/File:Catherine_I_of_Russia_by_Nattier.jpg",
+          "credit": "Jean-Marc Nattier",
+          "license": "Public domain",
+          "made": "1717",
+          "caption": "Painted by Jean-Marc Nattier in 1717, while she was Peter's wife and eight years before she took the throne.",
+          "alt": "Portrait of Catherine I by Jean-Marc Nattier"
+        }
+      ],
+      "sources": [
+        {
+          "title": "Five Empresses: Court Life in Eighteenth-Century Russia",
+          "author": "Evgenii V. Anisimov",
+          "note": "Praeger, 2004"
+        },
+        {
+          "title": "Russia in the Age of Peter the Great",
+          "author": "Lindsey Hughes",
+          "note": "Yale University Press, 1998"
+        },
+        {
+          "title": "The Romanovs: 1613–1918",
+          "author": "Simon Sebag Montefiore",
+          "note": "Weidenfeld & Nicolson, 2016"
+        }
+      ],
+      "review": {
+        "status": "draft",
+        "notes": "Drafted from the listed sources; needs a human fact-check."
+      }
+    },
+    {
+      "id": "peter-ii",
+      "kind": "monarch",
+      "rulers": [
+        "peter-ii"
+      ],
+      "tagline": "The boy emperor who died on his wedding day",
+      "start": {
+        "date": "1727-05-07"
+      },
+      "end": {
+        "date": "1730-01-19"
+      },
+      "contestedWith": [],
+      "relationToPredecessor": "Grandson of Peter I",
+      "ageAtAccession": "11",
+      "cameToPower": "Named in Catherine I's will",
+      "reignEnded": "Smallpox, aged 14",
+      "previously": "Catherine I dies. Her will names Peter the Great's grandson as heir.",
+      "paragraphs": [
+        "Peter was the son of the doomed Alexei, whom Peter the Great had hounded to death. His mother died soon after he was born. Menshikov moved the boy into his own house and engaged him to his daughter Maria. Four months later Peter had had enough. In September 1727 he had Menshikov arrested and sent to Siberia, where he died two years later.",
+        "Peter fell under the sway of the old Dolgoruky clan. His best friend, Prince Ivan Dolgoruky, took him hunting for weeks at a time, and the court moved back to Moscow. Government drifted. In 1729 the Dolgorukys engaged him to Ivan's sister Ekaterina. The wedding was set for 19 January 1730. Peter caught smallpox and died that very day, aged 14. With him the male line of the Romanovs ran out."
+      ],
+      "claims": [
+        {
+          "text": "The Dolgorukys forged a will naming Peter's fiancée as empress.",
+          "status": "confirmed",
+          "note": "Family members admitted it under interrogation in 1739, and Prince Ivan Dolgoruky was executed. The forged will was never used."
+        },
+        {
+          "text": "Peter's last words were an order to harness the sleigh so he could visit his sister.",
+          "status": "legend",
+          "note": "The line appears in later accounts of his death. His sister Natalya had in fact died in 1728."
+        }
+      ],
+      "hook": "The Supreme Privy Council needs a ruler they can control. They pick Peter the Great's niece Anna, a widow stuck in Courland, and offer her the throne on a list of strict conditions.",
+      "images": [
+        {
+          "file": "File:Peter II of Russia by Vedekind (1730s, Samara).jpg",
+          "url": "https://upload.wikimedia.org/wikipedia/commons/7/73/Peter_II_of_Russia_by_Vedekind_%281730s%2C_Samara%29.jpg",
+          "page": "https://commons.wikimedia.org/wiki/File:Peter_II_of_Russia_by_Vedekind_(1730s,_Samara).jpg",
+          "credit": "Johann Heinrich Wedekind",
+          "license": "Public domain",
+          "made": "c. 1730",
+          "caption": "By the German-born court painter Johann Heinrich Wedekind, around the time of Peter's death.",
+          "alt": "Oil portrait of the young Emperor Peter II"
+        }
+      ],
+      "sources": [
+        {
+          "title": "Five Empresses: Court Life in Eighteenth-Century Russia",
+          "author": "Evgenii V. Anisimov",
+          "note": "Praeger, 2004"
+        },
+        {
+          "title": "The Romanovs: 1613–1918",
+          "author": "Simon Sebag Montefiore",
+          "note": "Weidenfeld & Nicolson, 2016"
+        },
+        {
+          "title": "The Romanovs: Ruling Russia, 1613–1917",
+          "author": "Lindsey Hughes",
+          "note": "Hambledon Continuum, 2008"
+        }
+      ],
+      "review": {
+        "status": "draft",
+        "notes": "Drafted from the listed sources; needs a human fact-check."
+      }
+    },
+    {
+      "id": "anna",
+      "kind": "monarch",
+      "rulers": [
+        "anna"
+      ],
+      "tagline": "The empress who tore up her contract and built an ice palace",
+      "start": {
+        "date": "1730-01-19"
+      },
+      "end": {
+        "date": "1740-10-17"
+      },
+      "contestedWith": [],
+      "relationToPredecessor": "Cousin of Peter II's father",
+      "ageAtAccession": "36",
+      "cameToPower": "Invited by the Supreme Privy Council",
+      "reignEnded": "Died of illness",
+      "previously": "Peter II dies of smallpox on his wedding day. No male Romanovs remain.",
+      "paragraphs": [
+        "Anna was the daughter of Ivan V. Peter the Great married her off to the Duke of Courland in 1710, and the duke died a couple of months later. She spent nearly 20 lonely, cash-strapped years in his little Baltic duchy. The Supreme Privy Council offered her the throne if she signed away her power over war, taxes and appointments. She signed. Then, in Moscow, the Guards and gentry begged her to rule as a true autocrat. She ripped the conditions up in front of them.",
+        "She leaned on Germans, above all her lover Ernst Johann Biron, whom she made Duke of Courland. The Secret Chancellery spied on everyone. She fought the Ottomans and took Azov. She loved shooting and kept loaded guns to fire at birds from palace windows. In 1740 she built a palace of ice on the Neva and forced a disgraced prince, kept as a jester, to spend his wedding night there with a Kalmyk servant."
+      ],
+      "claims": [
+        {
+          "text": "Anna kept loaded guns by the palace windows and shot at passing birds.",
+          "status": "confirmed",
+          "note": "Court records and foreign envoys describe her shooting habit; game was even released for her to shoot in the palace grounds."
+        },
+        {
+          "text": "The jester couple in the Ice Palace almost froze to death on their wedding night.",
+          "status": "disputed",
+          "note": "Writers at the time describe a freezing night under guard. How close they came to dying grew in the retelling; both survived it."
+        }
+      ],
+      "hook": "Dying, Anna names her heir: her great-nephew Ivan, just two months old. Biron is to be regent until he grows up. Peter the Great's daughter Elizabeth, passed over again, is watching.",
+      "images": [
+        {
+          "file": "File:Louis Caravaque, Portrait of Empress Anna Ioannovna (1730).jpg",
+          "url": "https://upload.wikimedia.org/wikipedia/commons/4/49/Louis_Caravaque%2C_Portrait_of_Empress_Anna_Ioannovna_%281730%29.jpg",
+          "page": "https://commons.wikimedia.org/wiki/File:Louis_Caravaque,_Portrait_of_Empress_Anna_Ioannovna_(1730).jpg",
+          "credit": "Louis Caravaque",
+          "license": "Public domain",
+          "made": "1730",
+          "caption": "Painted by the French court painter Louis Caravaque in 1730, the year she took the throne.",
+          "alt": "Portrait of Empress Anna by Louis Caravaque"
+        }
+      ],
+      "sources": [
+        {
+          "title": "Five Empresses: Court Life in Eighteenth-Century Russia",
+          "author": "Evgenii V. Anisimov",
+          "note": "Praeger, 2004"
+        },
+        {
+          "title": "The Romanovs: 1613–1918",
+          "author": "Simon Sebag Montefiore",
+          "note": "Weidenfeld & Nicolson, 2016"
+        },
+        {
+          "title": "The Romanovs: Ruling Russia, 1613–1917",
+          "author": "Lindsey Hughes",
+          "note": "Hambledon Continuum, 2008"
+        }
+      ],
+      "review": {
+        "status": "draft",
+        "notes": "Drafted from the listed sources; needs a human fact-check."
+      }
+    },
+    {
+      "id": "ivan-vi",
+      "kind": "monarch",
+      "rulers": [
+        "ivan-vi"
+      ],
+      "tagline": "The baby emperor who spent his whole life in prison",
+      "start": {
+        "date": "1740-10-17"
+      },
+      "end": {
+        "date": "1741-11-25"
+      },
+      "contestedWith": [],
+      "relationToPredecessor": "Great-nephew of Anna",
+      "ageAtAccession": "2 months",
+      "cameToPower": "Named in Anna's will",
+      "reignEnded": "Overthrown by Elizabeth",
+      "previously": "Empress Anna dies, leaving the throne to a baby and power to Biron.",
+      "paragraphs": [
+        "Ivan was the great-grandson of Ivan V through his mother, Anna Leopoldovna. Biron's regency lasted three weeks before Field Marshal Münnich arrested him one night in November 1740. Ivan's mother became regent. She was dreamy and indecisive, and the Guards had little love for her German husband and advisers.",
+        "On the night of 25 November 1741, Elizabeth led Guards grenadiers into the Winter Palace. Ivan, 15 months old, was taken from his cot. His family was sent north to Kholmogory. Ivan was kept apart, then locked alone in Shlisselburg Fortress as a “nameless prisoner”. His coins were melted and his name erased. In 1764 an officer, Vasily Mirovich, tried to free him. The guards followed standing orders and stabbed Ivan to death. He was 23."
+      ],
+      "claims": [
+        {
+          "text": "Ivan's guards had orders to kill him rather than let anyone rescue him.",
+          "status": "confirmed",
+          "note": "Written instructions to his keepers, issued under Elizabeth and renewed under Catherine II, survive."
+        },
+        {
+          "text": "Elizabeth lifted the baby from his cot and said he was not to blame.",
+          "status": "legend",
+          "note": "A touching scene told in later accounts of the coup. Nobody who was there wrote it down at the time."
+        }
+      ],
+      "hook": "Rewind to that November night in 1741. Peter the Great's daughter Elizabeth, 31, has seized the throne with a few hundred grenadiers. The Guards adore her. She has vowed that nobody will be executed while she reigns.",
+      "images": [
+        {
+          "file": "File:Ivan VI of Russia with Y.Mengden by anonymous (18th c., Tretyakov gallery).jpg",
+          "url": "https://upload.wikimedia.org/wikipedia/commons/4/43/Ivan_VI_of_Russia_with_Y.Mengden_by_anonymous_%2818th_c.%2C_Tretyakov_gallery%29.jpg",
+          "page": "https://commons.wikimedia.org/wiki/File:Ivan_VI_of_Russia_with_Y.Mengden_by_anonymous_(18th_c.,_Tretyakov_gallery).jpg",
+          "credit": "Unknown artist",
+          "license": "Public domain",
+          "made": "18th century",
+          "caption": "An anonymous 18th-century portrait in the Tretyakov Gallery, Moscow.",
+          "alt": "Portrait of the infant Emperor Ivan VI with the lady-in-waiting Julia von Mengden"
+        }
+      ],
+      "sources": [
+        {
+          "title": "Five Empresses: Court Life in Eighteenth-Century Russia",
+          "author": "Evgenii V. Anisimov",
+          "note": "Praeger, 2004"
+        },
+        {
+          "title": "The Romanovs: 1613–1918",
+          "author": "Simon Sebag Montefiore",
+          "note": "Weidenfeld & Nicolson, 2016"
+        },
+        {
+          "title": "The Romanovs: Ruling Russia, 1613–1917",
+          "author": "Lindsey Hughes",
+          "note": "Hambledon Continuum, 2008"
+        }
+      ],
+      "review": {
+        "status": "draft",
+        "notes": "Drafted from the listed sources; needs a human fact-check."
+      }
+    },
+    {
+      "id": "elizabeth",
+      "kind": "monarch",
+      "rulers": [
+        "elizabeth"
+      ],
+      "tagline": "Peter's daughter seizes the throne in a midnight coup",
+      "start": {
+        "date": "1741-11-25"
+      },
+      "end": {
+        "date": "1761-12-25"
+      },
+      "contestedWith": [],
+      "relationToPredecessor": "Daughter of Peter the Great",
+      "ageAtAccession": "31",
+      "cameToPower": "Guards coup against Ivan VI",
+      "reignEnded": "Died in office",
+      "previously": "A baby emperor and his German regents are swept away overnight.",
+      "paragraphs": [
+        "Elizabeth was Peter the Great's daughter, a famous beauty who loved dancing and had been pushed aside for years. On a winter night in 1741 she put on a breastplate, went to the barracks of the Preobrazhensky Guards and asked them to follow her. They did. By morning the baby Ivan VI and his parents were under arrest, and Peter's daughter was empress.",
+        "She vowed nobody would be executed while she reigned, and she kept her word, though floggings and exile carried on. She founded Moscow University and had Rastrelli build the dazzling baroque Winter Palace. Her armies fought Frederick the Great of Prussia in the Seven Years' War, beat him at Kunersdorf in 1759 and even raided Berlin in 1760. Prussia was on its knees when, on Christmas Day 1761, Elizabeth died."
+      ],
+      "claims": [
+        {
+          "text": "Elizabeth secretly married her favourite, the Ukrainian singer Alexei Razumovsky.",
+          "status": "disputed",
+          "note": "Widely believed at court and later, but no marriage record has ever been found."
+        },
+        {
+          "text": "She left a wardrobe of around 15,000 dresses.",
+          "status": "disputed",
+          "note": "The figure comes from accounts written after her death. She clearly loved clothes, but the number may be inflated."
+        },
+        {
+          "text": "No one was executed in Russia during her reign.",
+          "status": "confirmed",
+          "note": "Death sentences were passed but commuted, usually to flogging and exile. Historians accept she kept the vow."
+        }
+      ],
+      "hook": "Frederick the Great is ready to give up. Then he hears Elizabeth is dead, and her heir is a nephew who worships him.",
+      "images": [
+        {
+          "file": "File:Elizabeth of Russia by V.Eriksen.jpg",
+          "url": "https://upload.wikimedia.org/wikipedia/commons/0/0e/Elizabeth_of_Russia_by_V.Eriksen.jpg",
+          "page": "https://commons.wikimedia.org/wiki/File:Elizabeth_of_Russia_by_V.Eriksen.jpg",
+          "credit": "Vigilius Eriksen",
+          "license": "Public domain",
+          "made": "1757",
+          "caption": "Painted by the Danish artist Vigilius Eriksen in 1757, four years before her death.",
+          "alt": "Painted portrait of Empress Elizabeth of Russia"
+        }
+      ],
+      "sources": [
+        {
+          "title": "Empress Elizabeth: Her Reign and Her Russia, 1741–1761",
+          "author": "Evgenii V. Anisimov",
+          "note": "Academic International Press, 1995"
+        },
+        {
+          "title": "Elizabeth, Empress of Russia",
+          "author": "Tamara Talbot Rice",
+          "note": "1970"
+        },
+        {
+          "title": "The Daughter of Peter the Great",
+          "author": "R. Nisbet Bain",
+          "note": "1899"
+        }
+      ],
+      "review": {
+        "status": "draft",
+        "notes": "Drafted from the listed sources; needs a human fact-check."
+      }
+    },
+    {
+      "id": "peter-iii",
+      "kind": "monarch",
+      "rulers": [
+        "peter-iii"
+      ],
+      "tagline": "Six months on the throne, undone by his own wife",
+      "start": {
+        "date": "1761-12-25"
+      },
+      "end": {
+        "date": "1762-06-28"
+      },
+      "contestedWith": [],
+      "relationToPredecessor": "Nephew of Elizabeth",
+      "ageAtAccession": "33",
+      "cameToPower": "Named heir by his aunt",
+      "reignEnded": "Overthrown by his wife",
+      "previously": "Empress Elizabeth dies just as Russia is about to crush Prussia.",
+      "paragraphs": [
+        "Peter was born in Kiel, a German duke's son and Peter the Great's grandson. He never stopped feeling German. He adored Frederick the Great and loved drilling toy soldiers. Elizabeth brought him to Russia as her heir and married him to a clever German princess called Sophie, renamed Catherine. The marriage was miserable from the start.",
+        "As tsar he moved fast. He pulled Russia out of the war and handed Frederick back everything Russia had won. He freed the nobles from compulsory state service, a reform they loved, then planned a war against Denmark for his Holstein lands and dressed the army in Prussian-style uniforms. The Guards fumed. In June 1762 Catherine and her lover Grigory Orlov led them in a coup. Peter gave up without a fight and was dead about a week later."
+      ],
+      "claims": [
+        {
+          "text": "Peter held a court martial for a rat that had chewed his toy soldiers, and had it hanged.",
+          "status": "legend",
+          "note": "The story comes from Catherine's memoirs, written by the woman who overthrew him. She had every reason to make him look ridiculous."
+        },
+        {
+          "text": "Alexei Orlov, Grigory's brother, killed Peter at Ropsha.",
+          "status": "disputed",
+          "note": "The official cause was colic. A letter from Orlov hinting at a drunken brawl survives only as a later copy, and its authenticity is argued over."
+        },
+        {
+          "text": "Years later a Cossack named Pugachev led a huge revolt claiming to be Peter III.",
+          "status": "confirmed",
+          "note": "Pugachev's rising of 1773–75 is well documented, as is his claim to be the dead tsar."
+        }
+      ],
+      "hook": "Peter is gone and nobody much misses him. On the throne now sits his widow, a German princess with no Russian blood and no real claim at all.",
+      "images": [
+        {
+          "file": "File:Coronation portrait of Peter III of Russia -1761.JPG",
+          "url": "https://upload.wikimedia.org/wikipedia/commons/0/08/Coronation_portrait_of_Peter_III_of_Russia_-1761.JPG",
+          "page": "https://commons.wikimedia.org/wiki/File:Coronation_portrait_of_Peter_III_of_Russia_-1761.JPG",
+          "credit": "Lucas Conrad Pfandzelt",
+          "license": "Public domain",
+          "made": "c. 1761–62",
+          "caption": "A coronation-style portrait by Lucas Conrad Pfandzelt, painted around the time Peter became emperor.",
+          "alt": "Formal painted portrait of Emperor Peter III"
+        }
+      ],
+      "sources": [
+        {
+          "title": "Reform and Regicide: The Reign of Peter III of Russia",
+          "author": "Carol S. Leonard",
+          "note": "Indiana University Press, 1993"
+        },
+        {
+          "title": "The Memoirs of Catherine the Great",
+          "author": "Catherine II",
+          "note": "Trans. Mark Cruse and Hilde Hoogenboom, 2005"
+        },
+        {
+          "title": "Russia in the Age of Catherine the Great",
+          "author": "Isabel de Madariaga",
+          "note": "Yale University Press, 1981"
+        }
+      ],
+      "review": {
+        "status": "draft",
+        "notes": "Drafted from the listed sources; needs a human fact-check."
+      }
+    },
+    {
+      "id": "catherine-ii",
+      "kind": "monarch",
+      "rulers": [
+        "catherine-ii"
+      ],
+      "tagline": "A German princess who became Russia's greatest empress",
+      "start": {
+        "date": "1762-06-28"
+      },
+      "end": {
+        "date": "1796-11-06"
+      },
+      "contestedWith": [],
+      "relationToPredecessor": "Wife of Peter III",
+      "ageAtAccession": "33",
+      "cameToPower": "Guards coup against her husband",
+      "reignEnded": "Died after a stroke",
+      "previously": "Peter III has spent six months making enemies, his wife included.",
+      "paragraphs": [
+        "She was born Sophie, a minor German princess, and she ran Russia for 34 years. Catherine wrote to Voltaire and Diderot, bought paintings by the wagonload for what became the Hermitage, and had herself inoculated against smallpox in 1768 to show it was safe. She drafted a famous set of instructions for a new law code. The code never came.",
+        "Her armies beat the Ottomans, and in 1783 she annexed Crimea. With Prussia and Austria she carved up Poland until it vanished from the map in 1795. At home, though, serfdom got harsher, and Pugachev's peasant revolt of 1773–75 shook her badly. Her great partner was Grigory Potemkin: lover, general and builder of new cities in the south. Through it all she kept her son Paul well away from power."
+      ],
+      "claims": [
+        {
+          "text": "Potemkin built fake village fronts to fool Catherine on her 1787 tour of Crimea.",
+          "status": "disputed",
+          "note": "The story was spread by Georg von Helbig, a Saxon diplomat hostile to Potemkin. Historians think he dressed up real towns for the visit but didn't invent them."
+        },
+        {
+          "text": "Catherine died having sex with a horse.",
+          "status": "legend",
+          "note": "A slander that circulated after her death. She actually collapsed from a stroke at the Winter Palace and died the next day in her bed."
+        },
+        {
+          "text": "She secretly married Potemkin in 1774.",
+          "status": "disputed",
+          "note": "Their letters call each other husband and wife, and many historians believe it. No marriage record has ever surfaced."
+        }
+      ],
+      "hook": "Catherine is dead. Paul, the son she never trusted, is 42 and has waited half his life. Now he means to undo everything his mother did.",
+      "images": [
+        {
+          "file": "File:Catherine II after Roslin, Rokotov (1780s, Kunsthistorisches Museum).jpg",
+          "url": "https://upload.wikimedia.org/wikipedia/commons/7/72/Catherine_II_after_Roslin%2C_Rokotov_%281780s%2C_Kunsthistorisches_Museum%29.jpg",
+          "page": "https://commons.wikimedia.org/wiki/File:Catherine_II_after_Roslin,_Rokotov_(1780s,_Kunsthistorisches_Museum).jpg",
+          "credit": "After Alexander Roslin",
+          "license": "Public domain",
+          "made": "1780s",
+          "caption": "A copy, made in the 1780s, of a portrait type by Alexander Roslin; it hangs in Vienna's Kunsthistorisches Museum.",
+          "alt": "Painted portrait of Empress Catherine II"
+        }
+      ],
+      "sources": [
+        {
+          "title": "Russia in the Age of Catherine the Great",
+          "author": "Isabel de Madariaga",
+          "note": "Yale University Press, 1981"
+        },
+        {
+          "title": "Catherine the Great",
+          "author": "Simon Dixon",
+          "note": "Profile Books, 2009"
+        },
+        {
+          "title": "Catherine the Great: Portrait of a Woman",
+          "author": "Robert K. Massie",
+          "note": "2011"
+        },
+        {
+          "title": "Prince of Princes: The Life of Potemkin",
+          "author": "Simon Sebag Montefiore",
+          "note": "2000"
+        }
+      ],
+      "review": {
+        "status": "draft",
+        "notes": "Drafted from the listed sources; needs a human fact-check."
+      },
+      "title": "Catherine the Great"
+    },
+    {
+      "id": "paul-i",
+      "kind": "monarch",
+      "rulers": [
+        "paul-i"
+      ],
+      "tagline": "The prickly tsar who rewrote the rules, then was murdered",
+      "start": {
+        "date": "1796-11-06"
+      },
+      "end": {
+        "date": "1801-03-11"
+      },
+      "contestedWith": [],
+      "relationToPredecessor": "Son of Catherine II",
+      "ageAtAccession": "42",
+      "cameToPower": "Succeeded his mother",
+      "reignEnded": "Murdered in his bedroom",
+      "previously": "Catherine the Great collapses at 67; her son Paul has waited 34 years.",
+      "paragraphs": [
+        "Paul grew up suspecting his mother had killed his father, and he hated her favourites. Once on the throne he reburied Peter III next to Catherine. He passed a law fixing the succession on the eldest son, to stop women seizing the crown ever again, and limited the labour a serf owed his lord to three days a week.",
+        "He was also touchy, unpredictable and obsessed with Prussian drill. Officers could be sent to Siberia for a sloppy parade. He made himself Grand Master of the Knights of Malta, fought Napoleon's France, then fell out with his allies and swung towards Napoleon, and sent Cossacks off towards British India. The nobles and the Guards decided he had to go. On the night of 11 March 1801 officers burst into his bedroom in his new fortress-palace and killed him."
+      ],
+      "claims": [
+        {
+          "text": "Paul's real father was Sergei Saltykov, not Peter III.",
+          "status": "disputed",
+          "note": "Catherine's memoirs hint at it, but Paul looked very like Peter. Most historians think Peter was the father."
+        },
+        {
+          "text": "His son Alexander knew about the plot.",
+          "status": "confirmed",
+          "note": "Alexander agreed to his father being deposed. Whether he expected him to be killed is still argued over."
+        },
+        {
+          "text": "Paul was struck with a snuffbox and strangled with an officer's scarf.",
+          "status": "disputed",
+          "note": "This comes from conspirators' accounts, which differ in the details. The official story was apoplexy."
+        }
+      ],
+      "hook": "Downstairs, Paul's 23-year-old son Alexander is told his father is dead. He weeps. Then he is led out to the Guards as their new tsar.",
+      "images": [
+        {
+          "file": "File:Paul I of Russia by Stepan Shchukin (1797, Tretyakov gallery).jpg",
+          "url": "https://upload.wikimedia.org/wikipedia/commons/0/02/Paul_I_of_Russia_by_Stepan_Shchukin_%281797%2C_Tretyakov_gallery%29.jpg",
+          "page": "https://commons.wikimedia.org/wiki/File:Paul_I_of_Russia_by_Stepan_Shchukin_(1797,_Tretyakov_gallery).jpg",
+          "credit": "Stepan Shchukin",
+          "license": "Public domain",
+          "made": "1797",
+          "caption": "Painted by Stepan Shchukin in 1797, the year after Paul came to the throne.",
+          "alt": "Painted portrait of Paul I without crown, sceptre or ermine robes"
+        }
+      ],
+      "sources": [
+        {
+          "title": "Paul I of Russia, 1754–1801",
+          "author": "Roderick E. McGrew",
+          "note": "Oxford University Press, 1992"
+        },
+        {
+          "title": "Tsar Paul and the Question of Madness",
+          "author": "Hugh Ragsdale",
+          "note": "Greenwood Press, 1988"
+        }
+      ],
+      "review": {
+        "status": "draft",
+        "notes": "Drafted from the listed sources; needs a human fact-check."
+      }
+    },
+    {
+      "id": "alexander-i",
+      "kind": "monarch",
+      "rulers": [
+        "alexander-i"
+      ],
+      "tagline": "The tsar who chased Napoleon all the way to Paris",
+      "start": {
+        "date": "1801-03-11"
+      },
+      "end": {
+        "date": "1825-11-19"
+      },
+      "contestedWith": [],
+      "relationToPredecessor": "Eldest son of Paul I",
+      "ageAtAccession": "23",
+      "cameToPower": "Father murdered in a coup",
+      "reignEnded": "Fever in Taganrog",
+      "previously": "Paul I is murdered in his bedroom by his own officers.",
+      "paragraphs": [
+        "Alexander was handsome, charming and hard to read. Catherine had raised him on Enlightenment ideas, and he talked about reform. Then Napoleon took over his reign. Russia lost at Austerlitz in 1805, and in 1807 the two emperors met on a raft in the river Neman at Tilsit and made peace. It didn't last.",
+        "In 1812 Napoleon invaded with the biggest army Europe had ever seen. The Russians fought him to a bloody draw at Borodino, then let him take Moscow, which burned. Alexander refused to talk. The French retreat through the winter destroyed the Grande Armée, and in 1814 Alexander rode into Paris as a conqueror. Afterwards he turned mystical and gloomy. In 1825 he died in Taganrog, a long way from home, with no son to follow him."
+      ],
+      "claims": [
+        {
+          "text": "Alexander faked his death and lived on as the Siberian hermit Fyodor Kuzmich.",
+          "status": "legend",
+          "note": "A holy man of that name did live in Siberia and died in 1864. Witnesses to the tsar's death and embalming make the story very unlikely."
+        },
+        {
+          "text": "He agreed to the coup against his father.",
+          "status": "confirmed",
+          "note": "Alexander knew of the plan to depose Paul. Whether he expected him to be killed is still argued over."
+        },
+        {
+          "text": "His brother Constantine had secretly given up the throne in advance.",
+          "status": "confirmed",
+          "note": "Constantine renounced his rights, and Alexander signed a secret manifesto in 1823, but almost nobody was told."
+        }
+      ],
+      "hook": "The army swears loyalty to Constantine, who is in Warsaw and doesn't want the job. His younger brother Nicholas does. Meanwhile some officers plan a revolution.",
+      "images": [
+        {
+          "file": "File:Alexander I of Russia by G.Dawe (1826, Peterhof).jpg",
+          "url": "https://upload.wikimedia.org/wikipedia/commons/f/f6/Alexander_I_of_Russia_by_G.Dawe_%281826%2C_Peterhof%29.jpg",
+          "page": "https://commons.wikimedia.org/wiki/File:Alexander_I_of_Russia_by_G.Dawe_(1826,_Peterhof).jpg",
+          "credit": "George Dawe",
+          "license": "Public domain",
+          "made": "1826",
+          "caption": "Painted by the British artist George Dawe in 1826, the year after Alexander died.",
+          "alt": "Painted portrait of Emperor Alexander I"
+        }
+      ],
+      "sources": [
+        {
+          "title": "Alexander I",
+          "author": "Janet M. Hartley",
+          "note": "Longman, 1994"
+        },
+        {
+          "title": "Alexander I: Tsar of War and Peace",
+          "author": "Alan Palmer",
+          "note": "1974"
+        },
+        {
+          "title": "Russia Against Napoleon",
+          "author": "Dominic Lieven",
+          "note": "2009"
+        }
+      ],
+      "review": {
+        "status": "draft",
+        "notes": "Drafted from the listed sources; needs a human fact-check."
+      }
+    },
+    {
+      "id": "nicholas-i",
+      "kind": "monarch",
+      "rulers": [
+        "nicholas-i"
+      ],
+      "tagline": "Cannon on Senate Square, then thirty years of iron rule",
+      "start": {
+        "date": "1825-11-19"
+      },
+      "end": {
+        "date": "1855-02-18"
+      },
+      "contestedWith": [],
+      "relationToPredecessor": "Younger brother of Alexander I",
+      "ageAtAccession": "29",
+      "cameToPower": "Brother Constantine stood aside",
+      "reignEnded": "Died during the Crimean War",
+      "previously": "Alexander I dies far from home, leaving the succession in a muddle.",
+      "paragraphs": [
+        "Nicholas began with a revolt. On 14 December 1825, officers known later as the Decembrists marched troops onto Senate Square in St Petersburg, hoping for a constitution. Nicholas waited, then fired grapeshot. Five leaders were hanged and over a hundred sent to Siberia. He never forgot it.",
+        "He ran Russia like a parade ground. He set up a secret police called the Third Section, tightened censorship and adopted the motto Orthodoxy, Autocracy, Nationality. He crushed the Polish uprising of 1830–31 and helped Austria smash the Hungarians in 1849, earning the nickname gendarme of Europe. Then in 1853 a quarrel with the Ottomans dragged in Britain and France. Allied armies landed in Crimea and besieged Sevastopol, and Nicholas's empire looked backward and weak."
+      ],
+      "claims": [
+        {
+          "text": "Dostoevsky was put before a firing squad in 1849, then reprieved at the last moment.",
+          "status": "confirmed",
+          "note": "The mock execution was planned in advance on the tsar's orders. Dostoevsky wrote about it for the rest of his life."
+        },
+        {
+          "text": "Nicholas poisoned himself out of despair over the Crimean War.",
+          "status": "disputed",
+          "note": "Rumours spread at once. His doctors recorded pneumonia, and most historians accept that."
+        },
+        {
+          "text": "Nicholas personally censored Pushkin's work.",
+          "status": "confirmed",
+          "note": "After 1826 the tsar told Pushkin he would be his censor himself. In practice that meant close watch by the Third Section too."
+        }
+      ],
+      "hook": "Nicholas dies with Sevastopol still under siege. His son Alexander inherits a lost war and an empire that clearly can't go on as it is.",
+      "images": [
+        {
+          "file": "File:Franz Krüger - Portrait of Emperor Nicholas I - WGA12289.jpg",
+          "url": "https://upload.wikimedia.org/wikipedia/commons/c/cc/Franz_Kr%C3%BCger_-_Portrait_of_Emperor_Nicholas_I_-_WGA12289.jpg",
+          "page": "https://commons.wikimedia.org/wiki/File:Franz_Kr%C3%BCger_-_Portrait_of_Emperor_Nicholas_I_-_WGA12289.jpg",
+          "credit": "Franz Krüger",
+          "license": "Public domain",
+          "made": "1852",
+          "caption": "Painted by the German artist Franz Krüger in 1852, three years before the emperor's death.",
+          "alt": "Painted portrait of Emperor Nicholas I"
+        }
+      ],
+      "sources": [
+        {
+          "title": "Nicholas I: Emperor and Autocrat of All the Russias",
+          "author": "W. Bruce Lincoln",
+          "note": "1978"
+        },
+        {
+          "title": "Nicholas I and Official Nationality in Russia, 1825–1855",
+          "author": "Nicholas V. Riasanovsky",
+          "note": "University of California Press, 1959"
+        },
+        {
+          "title": "Crimea: The Last Crusade",
+          "author": "Orlando Figes",
+          "note": "2010"
+        }
+      ],
+      "review": {
+        "status": "draft",
+        "notes": "Drafted from the listed sources; needs a human fact-check."
+      }
+    },
+    {
+      "id": "alexander-ii",
+      "kind": "monarch",
+      "rulers": [
+        "alexander-ii"
+      ],
+      "tagline": "He freed the serfs, and revolutionaries killed him for it",
+      "start": {
+        "date": "1855-02-18"
+      },
+      "end": {
+        "date": "1881-03-01"
+      },
+      "contestedWith": [],
+      "relationToPredecessor": "Eldest son of Nicholas I",
+      "ageAtAccession": "36",
+      "cameToPower": "Succeeded his father",
+      "reignEnded": "Assassinated by bombers",
+      "previously": "Nicholas I dies with Sevastopol under siege and the war going badly.",
+      "paragraphs": [
+        "Alexander made peace and started changing Russia. In 1861 he freed the serfs, millions of people who had been owned like property. They got land, but had to pay for it over 49 years, so many felt cheated. He brought in elected local councils called zemstvos, open trials with juries and a modern army. In 1867 he sold Alaska to the United States.",
+        "For the radicals it was never enough. A student shot at him in 1866 and missed. Others kept trying, and in 1880 a bomb wrecked a Winter Palace dining room. On 1 March 1881 members of a group called the People's Will threw a bomb at his carriage on a canal bank in St Petersburg. Alexander stepped out unhurt to look at the wounded. A second bomber walked up and threw another. The tsar died that afternoon."
+      ],
+      "claims": [
+        {
+          "text": "That morning he had approved a plan to bring elected representatives into lawmaking.",
+          "status": "confirmed",
+          "note": "The scheme drafted by his minister Loris-Melikov was modest, but he signed off on it hours before his death. His son shelved it."
+        },
+        {
+          "text": "He had married his long-time mistress, Catherine Dolgorukova, months before he died.",
+          "status": "confirmed",
+          "note": "They wed privately in 1880, soon after the empress died. The marriage caused a scandal in the family."
+        },
+        {
+          "text": "Alaska was sold for $7.2 million.",
+          "status": "confirmed",
+          "note": "The 1867 treaty price is on record. Critics in America called it Seward's Folly."
+        }
+      ],
+      "hook": "His son Alexander watches him die on a sofa in the Winter Palace, legs shattered. The lesson he takes: reform gets tsars killed.",
+      "images": [
+        {
+          "file": "File:Alexander II of Russia photo.jpg",
+          "url": "https://upload.wikimedia.org/wikipedia/commons/d/d6/Alexander_II_of_Russia_photo.jpg",
+          "page": "https://commons.wikimedia.org/wiki/File:Alexander_II_of_Russia_photo.jpg",
+          "credit": "Attributed to W. & D. Downey",
+          "license": "Public domain",
+          "made": "c. 1874",
+          "caption": "A studio photograph attributed to W. & D. Downey of London, taken around 1874.",
+          "alt": "Black-and-white photograph of Tsar Alexander II"
+        }
+      ],
+      "sources": [
+        {
+          "title": "Alexander II and the Modernization of Russia",
+          "author": "W. E. Mosse",
+          "note": "1958"
+        },
+        {
+          "title": "The Great Reforms: Autocracy, Bureaucracy, and the Politics of Change in Imperial Russia",
+          "author": "W. Bruce Lincoln",
+          "note": "1990"
+        },
+        {
+          "title": "Alexander II: The Last Great Tsar",
+          "author": "Edvard Radzinsky",
+          "note": "2005"
+        }
+      ],
+      "review": {
+        "status": "draft",
+        "notes": "Drafted from the listed sources; needs a human fact-check."
+      }
+    },
+    {
+      "id": "alexander-iii",
+      "kind": "monarch",
+      "rulers": [
+        "alexander-iii"
+      ],
+      "tagline": "The bear of a tsar who turned the clock back",
+      "start": {
+        "date": "1881-03-01"
+      },
+      "end": {
+        "date": "1894-10-20"
+      },
+      "contestedWith": [],
+      "relationToPredecessor": "Second son of Alexander II",
+      "ageAtAccession": "36",
+      "cameToPower": "Father assassinated",
+      "reignEnded": "Kidney disease at 49",
+      "previously": "Alexander II is blown up by revolutionaries in St Petersburg.",
+      "paragraphs": [
+        "Alexander was never meant to rule. His elder brother Nicholas died in 1865, and Alexander inherited both the crown and his brother's fiancée, the Danish princess Dagmar. He was huge, blunt and suspicious of clever ideas. His old tutor Konstantin Pobedonostsev became his chief adviser, and together they rolled back his father's reforms.",
+        "Censorship tightened. Police got sweeping powers. Jews faced savage pogroms in 1881 and harsh new laws in 1882, and Poles and others were pushed to be more Russian. Work began on the Trans-Siberian Railway in 1891, and Russia fought no major war in his reign. In 1887 a plot to kill him was foiled, and one of the plotters, Alexander Ulyanov, was hanged. His younger brother Vladimir would later call himself Lenin."
+      ],
+      "claims": [
+        {
+          "text": "In the 1888 Borki train crash he held up the collapsed carriage roof so his family could escape.",
+          "status": "legend",
+          "note": "The crash is real and the family survived. The roof story was told by courtiers and is hard to prove. Some think the strain hurt his kidneys."
+        },
+        {
+          "text": "He could bend horseshoes and coins with his bare hands.",
+          "status": "legend",
+          "note": "Family members told these stories. No one can test them now, but he was famously strong."
+        },
+        {
+          "text": "Lenin's elder brother was hanged for plotting to kill him.",
+          "status": "confirmed",
+          "note": "Alexander Ulyanov was executed in 1887 after the plot was uncovered. Court records survive."
+        }
+      ],
+      "hook": "Alexander dies at 49. His son Nicholas is 26, shy and badly prepared, and about to marry a German princess. He will be the last tsar.",
+      "images": [
+        {
+          "file": "File:Tsar Alexander III c. 1885.jpg",
+          "url": "https://upload.wikimedia.org/wikipedia/commons/5/51/Tsar_Alexander_III_c._1885.jpg",
+          "page": "https://commons.wikimedia.org/wiki/File:Tsar_Alexander_III_c._1885.jpg",
+          "credit": "Sergey Lvovich Levitsky",
+          "license": "Public domain",
+          "made": "c. 1880",
+          "caption": "Photographed by Sergei Levitsky around the start of his reign.",
+          "alt": "Black-and-white photograph of Tsar Alexander III"
+        }
+      ],
+      "sources": [
+        {
+          "title": "A People's Tragedy: The Russian Revolution 1891–1924",
+          "author": "Orlando Figes",
+          "note": "1996"
+        },
+        {
+          "title": "Russia in the Age of Modernisation and Revolution, 1881–1917",
+          "author": "Hans Rogger",
+          "note": "Longman, 1983"
+        },
+        {
+          "title": "Alexander III of Russia",
+          "author": "Charles Lowe",
+          "note": "1895"
+        }
+      ],
+      "review": {
+        "status": "draft",
+        "notes": "Drafted from the listed sources; needs a human fact-check."
+      }
+    },
+    {
+      "id": "nicholas-ii",
+      "kind": "monarch",
+      "rulers": [
+        "nicholas-ii"
+      ],
+      "tagline": "The last tsar, and the cellar in Yekaterinburg",
+      "start": {
+        "date": "1894-10-20"
+      },
+      "end": {
+        "date": "1917-03-02"
+      },
+      "contestedWith": [],
+      "relationToPredecessor": "Eldest son of Alexander III",
+      "ageAtAccession": "26",
+      "cameToPower": "Father died at Livadia",
+      "reignEnded": "Abdicated on his train at Pskov",
+      "previously": "Alexander III dies young, and his unready son inherits everything.",
+      "paragraphs": [
+        "Nicholas told friends he wasn't ready to be tsar, and he was right. At his coronation festivities in 1896, a stampede on Khodynka Field killed well over a thousand people. He went to a French embassy ball that evening anyway. He believed God had given him absolute power, and he meant to hand it on intact. His shy German wife Alexandra agreed with him completely.",
+        "Then came disaster after disaster. Japan sank his fleet at Tsushima in 1905. Troops shot marchers on Bloody Sunday, and revolution forced him to grant a parliament, the Duma. His only son Alexei had haemophilia, and the healer Rasputin seemed able to calm the boy's bleeding. That gave a Siberian peasant huge sway at court. In 1915 Nicholas took personal command at the front, leaving Alexandra and Rasputin to run things at home.",
+        "Nobles murdered Rasputin in December 1916. Weeks later, bread riots in Petrograd turned into revolution and the troops joined in. On 2 March 1917 Nicholas gave up the throne for himself and Alexei. The family went into captivity, finally at Yekaterinburg. On the night of 16 to 17 July 1918, Bolsheviks shot Nicholas, Alexandra, their five children and four servants in a basement there."
+      ],
+      "claims": [
+        {
+          "text": "Grand Duchess Anastasia survived the shooting and escaped.",
+          "status": "legend",
+          "note": "Several women claimed to be her, most famously Anna Anderson. DNA tests in the 1990s showed Anderson was not a Romanov, and remains found in 2007 accounted for all five children."
+        },
+        {
+          "text": "Lenin personally ordered the family's execution.",
+          "status": "disputed",
+          "note": "The Ural Soviet carried it out and Moscow approved it afterwards. No written order from Lenin has been found, though many historians think he must have agreed in advance."
+        },
+        {
+          "text": "Rasputin survived poison and bullets, and died only when he was dumped in the river.",
+          "status": "legend",
+          "note": "The story comes from Prince Felix Yusupov's own colourful memoir. The autopsy pointed to gunshot wounds, including one to the head."
+        }
+      ],
+      "hook": "The tsar is gone and his brother Michael turns down the crown. A government of liberals takes over in Petrograd, promising elections. But a rival council of workers and soldiers sits in the same building.",
+      "images": [
+        {
+          "file": "File:Tsar Nicholas II -1898.jpg",
+          "url": "https://upload.wikimedia.org/wikipedia/commons/4/41/Tsar_Nicholas_II_-1898.jpg",
+          "page": "https://commons.wikimedia.org/wiki/File:Tsar_Nicholas_II_-1898.jpg",
+          "credit": "A. A. Pasetti",
+          "license": "Public domain",
+          "made": "1898",
+          "caption": "Photographed by A. A. Pasetti in 1898, four years into the reign.",
+          "alt": "Studio photograph of Tsar Nicholas II"
+        }
+      ],
+      "sources": [
+        {
+          "title": "Nicholas II: Emperor of All the Russias",
+          "author": "Dominic Lieven",
+          "note": "John Murray, 1993"
+        },
+        {
+          "title": "A People's Tragedy: The Russian Revolution 1891–1924",
+          "author": "Orlando Figes",
+          "note": "Jonathan Cape, 1996"
+        },
+        {
+          "title": "Ekaterinburg: The Last Days of the Romanovs",
+          "author": "Helen Rappaport",
+          "note": "Hutchinson, 2008"
+        },
+        {
+          "title": "Nicholas and Alexandra",
+          "author": "Robert K. Massie",
+          "note": "1967"
+        }
+      ],
+      "review": {
+        "status": "draft",
+        "notes": "Drafted from the listed sources; needs a human fact-check."
+      }
+    },
+    {
+      "id": "provisional-government",
+      "kind": "interregnum",
+      "rulers": [],
+      "house": "provisional",
+      "title": "The Provisional Government",
+      "tagline": "Eight months of freedom, chaos and a war it wouldn't quit",
+      "start": {
+        "date": "1917-03-02"
+      },
+      "end": {
+        "date": "1917-10-25"
+      },
+      "contestedWith": [],
+      "relationToPredecessor": "Replaced the monarchy",
+      "ageAtAccession": "No monarch",
+      "cameToPower": "The February Revolution",
+      "reignEnded": "Overthrown by the Bolsheviks",
+      "previously": "Nicholas II abdicates. His brother Michael won't take the crown.",
+      "paragraphs": [
+        "Overnight Russia became one of the freest countries on earth. Censorship ended and political prisoners walked out of jail. But power was split. The government of Prince Georgy Lvov sat alongside the Petrograd Soviet, and the soldiers listened to the Soviet. The new ministers stayed in the war against Germany and put off land reform until a Constituent Assembly could meet. Peasants and soldiers did not want to wait.",
+        "In April Lenin came home from Switzerland, with German help, demanding all power to the Soviets. A summer offensive collapsed, and in July Alexander Kerensky, a fiery young lawyer, took over as head of government. In August the army chief, General Kornilov, moved troops towards Petrograd. Kerensky armed the workers to stop him, and the Bolsheviks came out of it stronger than ever.",
+        "On the night of 25 October, Bolshevik Red Guards and soldiers took the bridges, the telegraph and finally the Winter Palace. The cruiser Aurora fired a blank shot as a signal. The ministers were arrested around the dining table. Kerensky had already left by car to look for loyal troops. He found none, and lived out his life in exile."
+      ],
+      "claims": [
+        {
+          "text": "Kerensky escaped from Petrograd disguised as a nurse.",
+          "status": "legend",
+          "note": "Soviet storytellers spread this one. Kerensky always denied it, saying he left openly in his own car, escorted by a car from the US embassy."
+        },
+        {
+          "text": "Germany helped Lenin get home in a sealed train.",
+          "status": "confirmed",
+          "note": "German officials arranged the trip across Germany in April 1917, hoping Lenin would knock Russia out of the war. The carriage was declared sealed off rather than literally locked."
+        },
+        {
+          "text": "The storming of the Winter Palace was a huge battle.",
+          "status": "legend",
+          "note": "That image comes from Eisenstein's 1928 film and later paintings. Eyewitnesses describe a confused takeover with very few deaths."
+        }
+      ],
+      "hook": "The Bolsheviks announce a new government of People's Commissars. At its head is a balding 47-year-old who has spent most of his adult life in exile: Vladimir Lenin.",
+      "images": [
+        {
+          "file": "File:Alexander Kerensky 1917.jpg",
+          "url": "https://upload.wikimedia.org/wikipedia/commons/9/94/Alexander_Kerensky_1917.jpg",
+          "page": "https://commons.wikimedia.org/wiki/File:Alexander_Kerensky_1917.jpg",
+          "credit": "Karl Bulla",
+          "license": "Public domain",
+          "made": "1917",
+          "caption": "Alexander Kerensky, head of the Provisional Government, photographed in 1917.",
+          "alt": "Photograph of Alexander Kerensky, head of the Russian Provisional Government"
+        }
+      ],
+      "sources": [
+        {
+          "title": "A People's Tragedy: The Russian Revolution 1891–1924",
+          "author": "Orlando Figes",
+          "note": "Jonathan Cape, 1996"
+        },
+        {
+          "title": "The Russian Revolution",
+          "author": "Richard Pipes",
+          "note": "Knopf, 1990"
+        },
+        {
+          "title": "The Russian Revolution, 1917",
+          "author": "Rex A. Wade",
+          "note": "Cambridge University Press, 2000"
+        },
+        {
+          "title": "The Kerensky Memoirs: Russia and History's Turning Point",
+          "author": "Alexander Kerensky",
+          "note": "1965"
+        }
+      ],
+      "review": {
+        "status": "draft",
+        "notes": "Drafted from the listed sources; needs a human fact-check."
+      }
+    },
+    {
+      "id": "lenin",
+      "kind": "leader",
+      "rulers": [
+        "lenin"
+      ],
+      "tagline": "He promised peace, land and bread, and built a police state",
+      "start": {
+        "date": "1917-10-25"
+      },
+      "end": {
+        "date": "1924-01-21"
+      },
+      "contestedWith": [],
+      "relationToPredecessor": "Overthrew Kerensky's government",
+      "ageAtAccession": "47",
+      "cameToPower": "The October Revolution",
+      "reignEnded": "Died after a series of strokes",
+      "previously": "Red Guards take the Winter Palace. Kerensky has fled the city.",
+      "paragraphs": [
+        "Lenin's older brother was hanged in 1887 for plotting to kill Alexander III. Lenin became a professional revolutionary, and now he had the power he wanted. He set up the Cheka secret police within weeks. When elections to the Constituent Assembly went against the Bolsheviks, he shut it down after one day. In March 1918 he signed away huge western lands to Germany at Brest-Litovsk to get out of the war.",
+        "Civil war followed, Reds against Whites, and it was savage. After Fanny Kaplan shot and wounded Lenin in August 1918, the regime declared the Red Terror: hostages, camps and mass shootings. Estimates of Cheka killings run from tens of thousands to well over 100,000. Grain was seized at gunpoint, and the famine of 1921 to 1922 killed millions. When sailors at Kronstadt rebelled in 1921, the Red Army crushed them.",
+        "Then he changed course, allowing small private trade under the New Economic Policy. In 1922 the Soviet Union was formally created. But strokes left Lenin weaker and weaker. In his last notes, later called his Testament, he warned that Stalin was too rude and should be removed as General Secretary. Nobody acted on it. He died in January 1924, and his body was embalmed and put on display in Red Square."
+      ],
+      "claims": [
+        {
+          "text": "Lenin's Testament urged the party to remove Stalin.",
+          "status": "confirmed",
+          "note": "The notes from late 1922 and early 1923 survive and were read to party leaders in 1924. Khrushchev published them openly in 1956."
+        },
+        {
+          "text": "Fanny Kaplan was the one who shot Lenin.",
+          "status": "disputed",
+          "note": "She confessed and was shot within days, with no trial. Some historians question whether a half-blind woman could have done it, but no other gunman has been proved."
+        },
+        {
+          "text": "Lenin was a paid German agent.",
+          "status": "disputed",
+          "note": "German money did reach revolutionaries in 1917, and Germany helped him travel home. Whether he took orders from Berlin is a different claim, and the evidence for it is thin."
+        }
+      ],
+      "hook": "Lenin is dead, and his warning about Stalin is quietly shelved. Trotsky, hero of the civil war, looks like the heir. But Stalin controls the party's appointments, and he is very patient.",
+      "images": [
+        {
+          "file": "File:Vladimir Lenin in July 1920 by Pavel Zhukov.jpg",
+          "url": "https://upload.wikimedia.org/wikipedia/commons/1/1f/Vladimir_Lenin_in_July_1920_by_Pavel_Zhukov.jpg",
+          "page": "https://commons.wikimedia.org/wiki/File:Vladimir_Lenin_in_July_1920_by_Pavel_Zhukov.jpg",
+          "credit": "Pavel Zhukov",
+          "license": "Public domain",
+          "made": "1920",
+          "caption": "Photographed by Pavel Zhukov in July 1920, during the civil war.",
+          "alt": "Photograph of Vladimir Lenin"
+        }
+      ],
+      "sources": [
+        {
+          "title": "Lenin: A Biography",
+          "author": "Robert Service",
+          "note": "Macmillan, 2000"
+        },
+        {
+          "title": "The Russian Revolution",
+          "author": "Richard Pipes",
+          "note": "Knopf, 1990"
+        },
+        {
+          "title": "Lenin the Dictator",
+          "author": "Victor Sebestyen",
+          "note": "Weidenfeld & Nicolson, 2017"
+        },
+        {
+          "title": "A People's Tragedy: The Russian Revolution 1891–1924",
+          "author": "Orlando Figes",
+          "note": "Jonathan Cape, 1996"
+        }
+      ],
+      "review": {
+        "status": "draft",
+        "notes": "Drafted from the listed sources; needs a human fact-check."
+      }
+    },
+    {
+      "id": "stalin",
+      "kind": "leader",
+      "rulers": [
+        "stalin"
+      ],
+      "tagline": "Man of steel, millions of graves",
+      "start": {
+        "date": "1924-01-21"
+      },
+      "end": {
+        "date": "1953-03-05"
+      },
+      "contestedWith": [],
+      "relationToPredecessor": "Lenin's party General Secretary",
+      "ageAtAccession": "45",
+      "cameToPower": "Outmanoeuvred his party rivals",
+      "reignEnded": "Stroke at his dacha",
+      "previously": "Lenin is dead. His Testament warning against Stalin is buried.",
+      "paragraphs": [
+        "A cobbler's son from Georgia, Stalin made the dull job of General Secretary into a power base. One by one he beat Trotsky, Zinoviev, Kamenev and Bukharin. Then he forced peasants onto collective farms and drove the country into crash industrialisation. Millions of so-called kulaks were deported. The famine of 1932 to 1933 killed somewhere between about 5.5 and 8.7 million people, with Ukraine, where it is called the Holodomor, and Kazakhstan hit hardest.",
+        "In the Great Terror of 1937 and 1938, the secret police shot about 680,000 people by their own records, including most of the army's top commanders. Millions passed through the Gulag camps. In 1939 Stalin made a pact with Hitler and split Poland with him. Germany invaded anyway in June 1941. The Soviet Union lost around 27 million people, but won at Stalingrad and ended the war in Berlin.",
+        "Stalin came out of the war controlling half of Europe, and by 1949 he had the atomic bomb. Whole peoples, such as the Chechens and Crimean Tatars, had been deported. In his last months he was preparing a new purge against Jewish doctors. On 1 March 1953 he collapsed at his dacha. His guards were too frightened to go in for hours. He died four days later."
+      ],
+      "claims": [
+        {
+          "text": "Beria poisoned Stalin.",
+          "status": "disputed",
+          "note": "Molotov later said Beria boasted of it. Stalin's delayed treatment fits the theory, but no proof has been found, and his symptoms match a stroke."
+        },
+        {
+          "text": "The Holodomor was a genocide aimed at Ukrainians.",
+          "status": "disputed",
+          "note": "Ukraine and many other countries recognise it as genocide. Historians agree on the mass deaths and Stalin's policies; they still debate whether ethnic destruction was the aim."
+        },
+        {
+          "text": "Stalin said one death is a tragedy, a million is a statistic.",
+          "status": "legend",
+          "note": "The line is quoted everywhere, but nobody has found a reliable record of him saying it."
+        }
+      ],
+      "hook": "Stalin is dead, and his heirs agree to share power. Malenkov runs the government. Beria runs the secret police and terrifies the rest. And a stocky peasant's son called Khrushchev is making plans.",
+      "images": [
+        {
+          "file": "File:JStalin Secretary general CCCP 1942.jpg",
+          "url": "https://upload.wikimedia.org/wikipedia/commons/f/f1/JStalin_Secretary_general_CCCP_1942.jpg",
+          "page": "https://commons.wikimedia.org/wiki/File:JStalin_Secretary_general_CCCP_1942.jpg",
+          "credit": "Unknown author",
+          "license": "Public domain",
+          "made": "c. 1942",
+          "caption": "Official photograph of Stalin from around 1942, during the war with Germany.",
+          "alt": "Photograph of Joseph Stalin, General Secretary of the Communist Party of the Soviet Union"
+        }
+      ],
+      "sources": [
+        {
+          "title": "Stalin: Paradoxes of Power, 1878–1928",
+          "author": "Stephen Kotkin",
+          "note": "Penguin Press, 2014"
+        },
+        {
+          "title": "Stalin: Waiting for Hitler, 1929–1941",
+          "author": "Stephen Kotkin",
+          "note": "Penguin Press, 2017"
+        },
+        {
+          "title": "Stalin: New Biography of a Dictator",
+          "author": "Oleg Khlevniuk",
+          "note": "Yale University Press, 2015"
+        },
+        {
+          "title": "Stalin: The Court of the Red Tsar",
+          "author": "Simon Sebag Montefiore",
+          "note": "Weidenfeld & Nicolson, 2003"
+        }
+      ],
+      "review": {
+        "status": "draft",
+        "notes": "Drafted from the listed sources; needs a human fact-check."
+      }
+    },
+    {
+      "id": "khrushchev",
+      "kind": "leader",
+      "rulers": [
+        "khrushchev"
+      ],
+      "tagline": "He denounced Stalin and took the world to the brink",
+      "start": {
+        "date": "1953-09-14"
+      },
+      "end": {
+        "date": "1964-10-14"
+      },
+      "contestedWith": [],
+      "relationToPredecessor": "Stalin's Moscow party boss",
+      "ageAtAccession": "59",
+      "cameToPower": "Named party First Secretary",
+      "reignEnded": "Ousted by colleagues",
+      "previously": "Stalin dies after lying for hours untreated on his dacha floor.",
+      "paragraphs": [
+        "After Stalin died, his lieutenants ruled as a group. Georgy Malenkov became head of government. Lavrenty Beria, the secret police chief, made the others nervous, so in June 1953 Khrushchev organised his arrest. Beria was shot that December. Khrushchev took the party's top job in September and squeezed Malenkov out as premier in 1955. In 1957 he beat off a coup attempt by Molotov, Malenkov and Kaganovich.",
+        "In February 1956 he stunned a closed party congress with his Secret Speech, listing Stalin's crimes against party members. Millions of prisoners came home from the Gulag. But that November his tanks crushed the Hungarian uprising. In 1957 Sputnik went into orbit, and in 1961 Yuri Gagarin became the first man in space. Troops fired on striking workers at Novocherkassk in 1962, killing at least 26.",
+        "He was blunt, funny and reckless. In 1962 he secretly put nuclear missiles on Cuba, and the world came close to war before he took them out. His farm schemes kept failing. In October 1964 his colleagues called him back from holiday and voted him out. He was pensioned off instead of being shot, a sign of how much he had changed things. He dictated his memoirs, which were smuggled out to the West."
+      ],
+      "claims": [
+        {
+          "text": "Khrushchev banged his shoe on the desk at the United Nations.",
+          "status": "disputed",
+          "note": "Witnesses agree he took off a shoe and waved it in October 1960. Whether he actually banged it is argued over, and no genuine photo of the moment exists."
+        },
+        {
+          "text": "He told Western diplomats, 'We will bury you.'",
+          "status": "confirmed",
+          "note": "He said it in 1956. He later explained he meant communism would outlast capitalism, not that the USSR would attack."
+        },
+        {
+          "text": "Crimea was moved from Russia to Ukraine in 1954, under Khrushchev.",
+          "status": "confirmed",
+          "note": "The transfer is fully documented. How much it was his personal idea is still discussed by historians."
+        }
+      ],
+      "hook": "The plot against Khrushchev was led by a man he had promoted himself. Leonid Brezhnev is a genial, careful party boss, and his colleagues think he will be easy to control.",
+      "images": [
+        {
+          "file": "File:Bundesarchiv Bild 183-B0628-0015-035, Nikita S. Chruschtschow.jpg",
+          "url": "https://upload.wikimedia.org/wikipedia/commons/c/c5/Bundesarchiv_Bild_183-B0628-0015-035%2C_Nikita_S._Chruschtschow.jpg",
+          "page": "https://commons.wikimedia.org/wiki/File:Bundesarchiv_Bild_183-B0628-0015-035,_Nikita_S._Chruschtschow.jpg",
+          "credit": "Heinz Junge",
+          "license": "CC BY-SA 3.0 de",
+          "made": "1963",
+          "caption": "Photographed for the East German news agency in June 1963.",
+          "alt": "Black-and-white photograph of Nikita Khrushchev"
+        }
+      ],
+      "sources": [
+        {
+          "title": "Khrushchev: The Man and His Era",
+          "author": "William Taubman",
+          "note": "W. W. Norton, 2003"
+        },
+        {
+          "title": "Khrushchev Remembers",
+          "author": "Nikita Khrushchev",
+          "note": "Memoirs, published in the West in 1970"
+        },
+        {
+          "title": "Stalin's Successors",
+          "author": "Seweryn Bialer",
+          "note": "Cambridge University Press, 1980"
+        }
+      ],
+      "review": {
+        "status": "draft",
+        "notes": "Drafted from the listed sources; needs a human fact-check."
+      }
+    },
+    {
+      "id": "brezhnev",
+      "kind": "leader",
+      "rulers": [
+        "brezhnev"
+      ],
+      "tagline": "Eighteen years of medals, détente and slow decay",
+      "start": {
+        "date": "1964-10-14"
+      },
+      "end": {
+        "date": "1982-11-10"
+      },
+      "contestedWith": [],
+      "relationToPredecessor": "Khrushchev's protégé",
+      "ageAtAccession": "57",
+      "cameToPower": "Plotted Khrushchev's removal",
+      "reignEnded": "Died in office",
+      "previously": "Khrushchev is voted out by colleagues and sent into retirement.",
+      "paragraphs": [
+        "Brezhnev promised the party bosses calm after Khrushchev's wild swings, and he delivered. Officials kept their jobs for decades. At first he shared power with the premier, Alexei Kosygin, but he steadily became the top man. In 1968, when Czechoslovakia tried reform in the Prague Spring, Warsaw Pact tanks rolled in. He declared that Moscow could step in wherever socialism was under threat.",
+        "In the 1970s he was the face of détente. He signed arms control deals with Richard Nixon and the Helsinki Accords in 1975. At home, dissidents were tried, exiled or locked in psychiatric hospitals, and the physicist Andrei Sakharov was banished to Gorky. The Soviet Union matched America in nuclear weapons, but the economy slowed and shops were often empty. Later Soviet leaders called it the era of stagnation.",
+        "He loved hunting, fast cars and decorations, awarding himself medal after medal. In December 1979 Soviet troops went into Afghanistan, starting a war that would drag on for nearly ten years. By then Brezhnev was visibly ill, slurring his speeches. He died in November 1982, and the men around him were nearly as old."
+      ],
+      "claims": [
+        {
+          "text": "Brezhnev didn't write the memoirs that won him the Lenin Prize for Literature.",
+          "status": "confirmed",
+          "note": "His war memoir 'Little Land' and its sequels were ghostwritten by journalists, some of whom said so after his death."
+        },
+        {
+          "text": "Nixon gave Brezhnev a Lincoln Continental, and he took it for a fast spin.",
+          "status": "confirmed",
+          "note": "The gift was made at Camp David in 1973. Nixon's memoirs describe a hair-raising ride with Brezhnev at the wheel."
+        },
+        {
+          "text": "Brezhnev himself drove the decision to invade Afghanistan.",
+          "status": "disputed",
+          "note": "Papers released later show a small group, chiefly Andropov, Ustinov and Gromyko, pushing it through. The ailing Brezhnev agreed."
+        }
+      ],
+      "hook": "The new General Secretary is no doddering party boss. Yuri Andropov ran the KGB for fifteen years, and he knows exactly how rotten things have become.",
+      "images": [
+        {
+          "file": "File:Leonid Brezjnev, leider van de Sovjet-Unie, Bestanddeelnr 925-6564.jpg",
+          "url": "https://upload.wikimedia.org/wikipedia/commons/b/b9/Leonid_Brezjnev%2C_leider_van_de_Sovjet-Unie%2C_Bestanddeelnr_925-6564.jpg",
+          "page": "https://commons.wikimedia.org/wiki/File:Leonid_Brezjnev,_leider_van_de_Sovjet-Unie,_Bestanddeelnr_925-6564.jpg",
+          "credit": "Vladimir Musaelyan",
+          "license": "CC0",
+          "made": "1972",
+          "caption": "Portrait taken by Vladimir Musaelyan in June 1972, at the height of détente.",
+          "alt": "Black-and-white portrait photograph of Leonid Brezhnev"
+        }
+      ],
+      "sources": [
+        {
+          "title": "Brezhnev: The Making of a Statesman",
+          "author": "Susanne Schattenberg",
+          "note": "I. B. Tauris, 2021 (English translation)"
+        },
+        {
+          "title": "Brezhnev Reconsidered",
+          "author": "Edwin Bacon and Mark Sandle (eds)",
+          "note": "Palgrave Macmillan, 2002"
+        },
+        {
+          "title": "The Rise and Fall of Communism",
+          "author": "Archie Brown",
+          "note": "Bodley Head, 2009"
+        },
+        {
+          "title": "RN: The Memoirs of Richard Nixon",
+          "author": "Richard Nixon",
+          "note": "1978; the car ride"
+        }
+      ],
+      "review": {
+        "status": "draft",
+        "notes": "Drafted from the listed sources; needs a human fact-check."
+      }
+    },
+    {
+      "id": "andropov",
+      "kind": "leader",
+      "rulers": [
+        "andropov"
+      ],
+      "tagline": "The spy chief who ran the USSR from a hospital bed",
+      "start": {
+        "date": "1982-11-12"
+      },
+      "end": {
+        "date": "1984-02-09"
+      },
+      "contestedWith": [],
+      "relationToPredecessor": "Brezhnev's KGB chief",
+      "ageAtAccession": "68",
+      "cameToPower": "Chosen by the Politburo",
+      "reignEnded": "Died of kidney failure",
+      "previously": "Brezhnev dies after 18 years in charge. The Kremlin needs a new boss.",
+      "paragraphs": [
+        "Yuri Andropov knew everyone's secrets. As ambassador in Budapest in 1956 he watched Soviet tanks crush the Hungarian uprising. Then he ran the KGB for 15 years, locking dissidents in psychiatric hospitals and sending them into exile. When Brezhnev died, nobody in the Politburo was going to argue with him.",
+        "He knew the economy was rotting and went after it like a policeman. Officials were sacked for corruption, and patrols checked shops, cinemas and bathhouses for people skiving off work. Abroad, things got scary. In September 1983 a Soviet fighter shot down Korean Air Lines Flight 007, killing all 269 people on board. By then his kidneys had failed. He spent his last months on dialysis, out of public sight, and died in February 1984."
+      ],
+      "claims": [
+        {
+          "text": "Andropov was a closet liberal who loved jazz, whisky and Western novels.",
+          "status": "legend",
+          "note": "These stories filled Western papers when he took over. Biographers found little behind them, and some suspect the KGB was happy to spread them."
+        },
+        {
+          "text": "A NATO exercise in November 1983 convinced parts of the Soviet leadership that a nuclear attack might be coming.",
+          "status": "disputed",
+          "note": "KGB defector Oleg Gordievsky described the alarm over Able Archer 83. How close anyone really came to war is still argued over."
+        },
+        {
+          "text": "Soviet air defences shot down a South Korean airliner in September 1983.",
+          "status": "confirmed",
+          "note": "Moscow admitted it days later. An ICAO investigation and Soviet records released in 1992 confirmed the details."
+        }
+      ],
+      "hook": "Andropov's reforms die with him. The Politburo's old men pick one of their own: Konstantin Chernenko, 72, who can barely get through a speech without gasping for air.",
+      "images": [
+        {
+          "file": "File:Yuri Andropov.jpg",
+          "url": "https://upload.wikimedia.org/wikipedia/commons/c/cb/Yuri_Andropov.jpg",
+          "page": "https://commons.wikimedia.org/wiki/File:Yuri_Andropov.jpg",
+          "credit": "TASS",
+          "license": "Public domain",
+          "made": "1982",
+          "caption": "An official photograph of Andropov from 1982, the year he took power.",
+          "alt": "Black-and-white photograph of Soviet leader Yuri Andropov"
+        }
+      ],
+      "sources": [
+        {
+          "title": "Andropov",
+          "author": "Zhores Medvedev",
+          "note": "W. W. Norton, 1983"
+        },
+        {
+          "title": "KGB: The Inside Story",
+          "author": "Christopher Andrew and Oleg Gordievsky",
+          "note": "Hodder & Stoughton, 1990"
+        },
+        {
+          "title": "The Rise and Fall of Communism",
+          "author": "Archie Brown",
+          "note": "Bodley Head, 2009"
+        }
+      ],
+      "review": {
+        "status": "draft",
+        "notes": "Drafted from the listed sources; needs a human fact-check."
+      }
+    },
+    {
+      "id": "chernenko",
+      "kind": "leader",
+      "rulers": [
+        "chernenko"
+      ],
+      "tagline": "Thirteen months of wheezing at the top",
+      "start": {
+        "date": "1984-02-13"
+      },
+      "end": {
+        "date": "1985-03-10"
+      },
+      "contestedWith": [],
+      "relationToPredecessor": "Brezhnev's long-time right hand",
+      "ageAtAccession": "72",
+      "cameToPower": "Chosen by the Politburo",
+      "reignEnded": "Died in office",
+      "previously": "Andropov dies of kidney failure after just 15 months in power.",
+      "paragraphs": [
+        "Konstantin Chernenko had spent decades as Brezhnev's paper-pusher, the man who ran his office and carried his files. He was the oldest man ever to become party boss, and he was already very ill with emphysema. At Andropov's funeral he struggled to get through his speech. Viewers at home could hear him gasping through his speeches.",
+        "Not much happened, which suited the old guard fine. The anti-corruption drive went quiet. The USSR and most of its allies boycotted the 1984 Los Angeles Olympics, payback for the US boycott of Moscow four years earlier. In February 1985 state TV showed him voting in an election, in a hospital room dressed up as a polling station. Two weeks later he was dead. Behind the scenes, the younger Mikhail Gorbachev had been chairing meetings for months."
+      ],
+      "claims": [
+        {
+          "text": "Chernenko's televised vote in 1985 took place in a hospital room made to look like a polling station.",
+          "status": "confirmed",
+          "note": "The footage aired on Soviet TV in February 1985. Kremlin insiders, including his doctor Yevgeny Chazov, later described the set-up."
+        },
+        {
+          "text": "Brezhnev wanted Chernenko, not Andropov, to succeed him.",
+          "status": "disputed",
+          "note": "Chernenko was Brezhnev's closest ally, but there's no firm evidence of a formal choice. Accounts from Kremlin insiders contradict each other."
+        }
+      ],
+      "hook": "Three leaders buried in under three years. The Politburo finally turns to its youngest member, a 54-year-old from Stavropol who wants to shake everything up.",
+      "images": [
+        {
+          "file": "File:Konstantin Ustinovič Černěnko, 1973.jpg",
+          "url": "https://upload.wikimedia.org/wikipedia/commons/e/e1/Konstantin_Ustinovi%C4%8D_%C4%8Cern%C4%9Bnko%2C_1973.jpg",
+          "page": "https://commons.wikimedia.org/wiki/File:Konstantin_Ustinovič_Černěnko,_1973.jpg",
+          "credit": "Communist Party of the Soviet Union",
+          "license": "Public domain",
+          "made": "1973",
+          "caption": "An ID-card photo from 1973, eleven years before he took power.",
+          "alt": "Black-and-white photograph of Konstantin Chernenko, cropped from an identity document"
+        }
+      ],
+      "sources": [
+        {
+          "title": "Autopsy for an Empire: The Seven Leaders Who Built the Soviet Regime",
+          "author": "Dmitri Volkogonov",
+          "note": "Free Press, 1998"
+        },
+        {
+          "title": "The Gorbachev Factor",
+          "author": "Archie Brown",
+          "note": "Oxford University Press, 1996"
+        },
+        {
+          "title": "The Rise and Fall of Communism",
+          "author": "Archie Brown",
+          "note": "Bodley Head, 2009"
+        }
+      ],
+      "review": {
+        "status": "draft",
+        "notes": "Drafted from the listed sources; needs a human fact-check."
+      }
+    },
+    {
+      "id": "gorbachev",
+      "kind": "leader",
+      "rulers": [
+        "gorbachev"
+      ],
+      "tagline": "He tried to fix the USSR and it fell apart in his hands",
+      "start": {
+        "date": "1985-03-11"
+      },
+      "end": {
+        "date": "1991-12-25"
+      },
+      "contestedWith": [],
+      "relationToPredecessor": "Youngest man in the Politburo",
+      "ageAtAccession": "54",
+      "cameToPower": "Chosen by the Central Committee",
+      "reignEnded": "Resigned as the USSR dissolved",
+      "previously": "Chernenko dies after 13 months. Three funerals in under three years.",
+      "paragraphs": [
+        "Mikhail Gorbachev was a farm boy from the south who smiled, took questions and walked into crowds. He gave the world two Russian words: perestroika, rebuilding, and glasnost, openness. The Chernobyl disaster in April 1986, and the clumsy cover-up that followed, convinced him the system had to stop lying. Censorship loosened, political prisoners came home, and newspapers started printing the truth about Stalin.",
+        "Abroad he changed everything. He signed missile cuts with Reagan, pulled troops out of Afghanistan and refused to send tanks when Eastern Europe threw off communism in 1989. He won the Nobel Peace Prize in 1990. At home, shops emptied and the republics wanted out. In August 1991 hardliners held him under house arrest in Crimea and tried a coup. It collapsed in three days, but so did his authority.",
+        "Boris Yeltsin, Russia's elected president, had faced down the coup from on top of a tank. In December the leaders of Russia, Ukraine and Belarus agreed the Soviet Union was finished. On 25 December 1991 Gorbachev went on TV and resigned. That evening the red flag came down over the Kremlin."
+      ],
+      "claims": [
+        {
+          "text": "Gromyko backed him for the top job by saying he had a nice smile but iron teeth.",
+          "status": "disputed",
+          "note": "The line is quoted everywhere, but versions differ and it's hard to pin down exactly when, or in what words, Gromyko said it."
+        },
+        {
+          "text": "Gorbachev starred in a Pizza Hut advert.",
+          "status": "confirmed",
+          "note": "The commercial was filmed in Moscow and shown in 1997. He said the fee went to his foundation."
+        }
+      ],
+      "hook": "The Soviet Union is gone. Russia is on its own, broke and chaotic, and the man in charge is the one who stood on the tank: Boris Yeltsin.",
+      "images": [
+        {
+          "file": "File:RIAN archive 359290 Mikhail Gorbachev.jpg",
+          "url": "https://upload.wikimedia.org/wikipedia/commons/d/d0/RIAN_archive_359290_Mikhail_Gorbachev.jpg",
+          "page": "https://commons.wikimedia.org/wiki/File:RIAN_archive_359290_Mikhail_Gorbachev.jpg",
+          "credit": "Yuriy Abramochkin (RIA Novosti)",
+          "license": "CC BY-SA 3.0",
+          "made": "1986",
+          "caption": "Gorbachev at a press conference after his Reykjavik summit with Reagan, October 1986.",
+          "alt": "Photograph of Mikhail Gorbachev speaking at a news conference in Reykjavik"
+        }
+      ],
+      "sources": [
+        {
+          "title": "Gorbachev: His Life and Times",
+          "author": "William Taubman",
+          "note": "Simon & Schuster, 2017"
+        },
+        {
+          "title": "The Gorbachev Factor",
+          "author": "Archie Brown",
+          "note": "Oxford University Press, 1996"
+        },
+        {
+          "title": "The Last Empire: The Final Days of the Soviet Union",
+          "author": "Serhii Plokhy",
+          "note": "Basic Books, 2014"
+        }
+      ],
+      "review": {
+        "status": "draft",
+        "notes": "Drafted from the listed sources; needs a human fact-check."
+      }
+    },
+    {
+      "id": "yeltsin",
+      "kind": "leader",
+      "rulers": [
+        "yeltsin"
+      ],
+      "tagline": "He climbed on a tank and then bombarded parliament",
+      "start": {
+        "date": "1991-12-25"
+      },
+      "end": {
+        "date": "1999-12-31"
+      },
+      "contestedWith": [],
+      "relationToPredecessor": "Gorbachev's great rival",
+      "ageAtAccession": "60",
+      "cameToPower": "Elected Russian president in 1991",
+      "reignEnded": "Resigned on New Year's Eve",
+      "previously": "Gorbachev resigns. The Soviet Union is gone, split into 15 countries.",
+      "paragraphs": [
+        "Boris Yeltsin was a big, rowdy construction engineer from the Urals turned party boss who had quit the Communist Party in 1990. In 1991 he became Russia's first elected president. Once the USSR was gone, he went for shock therapy: prices freed overnight, state firms sold off. Savings were wiped out by inflation, and a handful of well-connected men grabbed oil, metals and banks for a song. People called them the oligarchs.",
+        "In October 1993, in a stand-off with parliament, he sent tanks to shell the White House, the very building he had defended two years earlier. In 1994 he launched a war in Chechnya that killed tens of thousands and ended in a humiliating truce. Ill and deeply unpopular, he won re-election in 1996 with the oligarchs' money and TV channels behind him. In 1998 Russia defaulted on its debts.",
+        "His drinking became a running joke abroad. On New Year's Eve 1999 he went on TV, asked Russians to forgive him, and quit. His last prime minister, Vladimir Putin, took over as acting president."
+      ],
+      "claims": [
+        {
+          "text": "Yeltsin grabbed the baton and conducted a German military band in Berlin in 1994.",
+          "status": "confirmed",
+          "note": "It happened on camera at the ceremony for the departure of Russian troops from Germany."
+        },
+        {
+          "text": "On a 1995 visit to Washington, the Secret Service found him on Pennsylvania Avenue in his underwear, trying to hail a cab for pizza.",
+          "status": "disputed",
+          "note": "Bill Clinton told the story to historian Taylor Branch, who published it in 2009. It's second-hand and no other record has surfaced."
+        },
+        {
+          "text": "He stayed on his plane at Shannon Airport in 1994 while the Irish prime minister waited on the tarmac.",
+          "status": "confirmed",
+          "note": "Widely reported at the time. Explanations have varied, from oversleeping to illness to drink."
+        }
+      ],
+      "hook": "Yeltsin hands the nuclear briefcase to a quiet former KGB officer who has been prime minister for less than five months. Vladimir Putin is 47, and almost nobody knows who he is.",
+      "images": [
+        {
+          "file": "File:Boris Yeltsin 1993.jpg",
+          "url": "https://upload.wikimedia.org/wikipedia/commons/3/3a/Boris_Yeltsin_1993.jpg",
+          "page": "https://commons.wikimedia.org/wiki/File:Boris_Yeltsin_1993.jpg",
+          "credit": "Susan Biddle",
+          "license": "Public domain",
+          "made": "1993",
+          "caption": "Yeltsin at the signing of the START II arms treaty in Moscow, January 1993.",
+          "alt": "Photograph of Boris Yeltsin at the START II signing ceremony in Moscow"
+        }
+      ],
+      "sources": [
+        {
+          "title": "Yeltsin: A Life",
+          "author": "Timothy J. Colton",
+          "note": "Basic Books, 2008"
+        },
+        {
+          "title": "Midnight Diaries",
+          "author": "Boris Yeltsin",
+          "note": "His own memoir, 2000"
+        },
+        {
+          "title": "The Clinton Tapes",
+          "author": "Taylor Branch",
+          "note": "Simon & Schuster, 2009; the Pennsylvania Avenue story"
+        }
+      ],
+      "review": {
+        "status": "draft",
+        "notes": "Drafted from the listed sources; needs a human fact-check."
+      }
+    },
+    {
+      "id": "putin",
+      "kind": "leader",
+      "rulers": [
+        "putin"
+      ],
+      "tagline": "The unknown spy who became Russia's strongman",
+      "start": {
+        "date": "1999-12-31"
+      },
+      "end": {
+        "date": "2008-05-07"
+      },
+      "contestedWith": [],
+      "relationToPredecessor": "Yeltsin's chosen successor",
+      "ageAtAccession": "47",
+      "cameToPower": "Made acting president by Yeltsin",
+      "reignEnded": "Term limit; became prime minister",
+      "previously": "Yeltsin quits on New Year's Eve and hands power to his prime minister.",
+      "paragraphs": [
+        "Vladimir Putin grew up in a communal flat in Leningrad and joined the KGB, serving in Dresden in East Germany in the 1980s. In the 1990s he worked for St Petersburg's mayor, then moved to Moscow, where Yeltsin made him head of the FSB and, in August 1999, prime minister. That autumn, after a series of deadly apartment bombings blamed on Chechen militants, he launched a second war in Chechnya. His ratings soared.",
+        "He won the presidential election in March 2000. Months later the submarine Kursk sank with all 118 crew, and he was criticised for staying on holiday. He brought the TV channels and the regions to heel. The oil tycoon Mikhail Khodorkovsky was arrested in 2003 and jailed. High oil prices lifted incomes, and he was re-elected easily in 2004. Hostage crises at a Moscow theatre in 2002 and a school in Beslan in 2004 ended with hundreds dead.",
+        "The constitution allowed only two terms in a row. In 2008 he stepped aside and backed Dmitry Medvedev for president."
+      ],
+      "claims": [
+        {
+          "text": "Putin served as a KGB officer in Dresden, East Germany.",
+          "status": "confirmed",
+          "note": "He describes his years there in First Person, his 2000 book of interviews."
+        },
+        {
+          "text": "Asked on US television what happened to the Kursk, he answered: “It sank.”",
+          "status": "confirmed",
+          "note": "He said it to Larry King on CNN in September 2000. The recording is public."
+        }
+      ],
+      "hook": "Two terms in a row is the limit, and Putin sticks to the letter of it. A loyal lawyer from St Petersburg gets the presidency. Putin takes the prime minister's job.",
+      "images": [
+        {
+          "file": "File:Vladimir Putin 17-11-2021 (cropped).jpg",
+          "url": "https://upload.wikimedia.org/wikipedia/commons/4/47/Vladimir_Putin_17-11-2021_%28cropped%29.jpg",
+          "page": "https://commons.wikimedia.org/wiki/File:Vladimir_Putin_17-11-2021_(cropped).jpg",
+          "credit": "Presidential Press and Information Office (kremlin.ru)",
+          "license": "CC BY 4.0",
+          "made": "2021",
+          "caption": "Putin in November 2021, more than a decade after his first two terms.",
+          "alt": "Photograph of Vladimir Putin in a dark suit, speaking at a forum in Moscow"
+        }
+      ],
+      "sources": [
+        {
+          "title": "First Person",
+          "author": "Vladimir Putin, with Nataliya Gevorkyan, Natalya Timakova and Andrei Kolesnikov",
+          "note": "PublicAffairs, 2000"
+        },
+        {
+          "title": "Mr. Putin: Operative in the Kremlin",
+          "author": "Fiona Hill and Clifford G. Gaddy",
+          "note": "Brookings Institution Press, 2013; new ed. 2015"
+        },
+        {
+          "title": "The New Tsar: The Rise and Reign of Vladimir Putin",
+          "author": "Steven Lee Myers",
+          "note": "Knopf, 2015"
+        }
+      ],
+      "review": {
+        "status": "draft",
+        "notes": "Drafted from the listed sources; needs a human fact-check."
+      }
+    },
+    {
+      "id": "medvedev",
+      "kind": "leader",
+      "rulers": [
+        "medvedev"
+      ],
+      "tagline": "The president who kept the seat warm",
+      "start": {
+        "date": "2008-05-07"
+      },
+      "end": {
+        "date": "2012-05-07"
+      },
+      "contestedWith": [],
+      "relationToPredecessor": "Putin's protégé",
+      "ageAtAccession": "42",
+      "cameToPower": "Elected with Putin's backing",
+      "reignEnded": "Stepped aside for Putin",
+      "previously": "Putin hits the two-term limit and picks Medvedev to succeed him.",
+      "paragraphs": [
+        "Dmitry Medvedev was a law lecturer who had worked with Putin in St Petersburg's city hall. He followed him to Moscow, ran his staff and chaired Gazprom. Elected in March 2008, he was only 42. Putin moved across to be prime minister, and most people assumed he was still the one in charge.",
+        "Three months in, Russia fought a short war with Georgia and then recognised Abkhazia and South Ossetia as independent. Medvedev talked about modernisation and fighting corruption, visited Silicon Valley and opened a Twitter account. He signed the New START nuclear treaty with Barack Obama in 2010. He also signed a change stretching the presidential term from four years to six.",
+        "In September 2011 he announced that Putin would run for president again and that he would become prime minister. That December, after disputed parliamentary elections, tens of thousands protested in Moscow."
+      ],
+      "claims": [
+        {
+          "text": "Medvedev and Putin said they had agreed the swap long before it was announced.",
+          "status": "confirmed",
+          "note": "Both said so at the September 2011 party congress, where the swap was announced."
+        },
+        {
+          "text": "Under Medvedev the presidential term was extended from four to six years.",
+          "status": "confirmed",
+          "note": "The constitutional amendment passed in 2008 and applied from the next election, in 2012."
+        }
+      ],
+      "hook": "The swap is done. Putin is heading back to the Kremlin, this time for a six-year term, while crowds on Moscow's streets chant against him.",
+      "images": [
+        {
+          "file": "File:Dmitry Medvedev official large photo -1.jpg",
+          "url": "https://upload.wikimedia.org/wikipedia/commons/b/b8/Dmitry_Medvedev_official_large_photo_-1.jpg",
+          "page": "https://commons.wikimedia.org/wiki/File:Dmitry_Medvedev_official_large_photo_-1.jpg",
+          "credit": "Presidential Press and Information Office (kremlin.ru)",
+          "license": "CC BY 4.0",
+          "made": "2007",
+          "caption": "An official portrait of Medvedev taken in December 2007, months before he became president.",
+          "alt": "Official portrait photograph of Dmitry Medvedev"
+        }
+      ],
+      "sources": [
+        {
+          "title": "The Crisis of Russian Democracy: The Dual State, Factionalism and the Medvedev Succession",
+          "author": "Richard Sakwa",
+          "note": "Cambridge University Press, 2011"
+        },
+        {
+          "title": "The New Tsar: The Rise and Reign of Vladimir Putin",
+          "author": "Steven Lee Myers",
+          "note": "Knopf, 2015"
+        },
+        {
+          "title": "Mr. Putin: Operative in the Kremlin",
+          "author": "Fiona Hill and Clifford G. Gaddy",
+          "note": "Brookings Institution Press, 2013; new ed. 2015"
+        }
+      ],
+      "review": {
+        "status": "draft",
+        "notes": "Drafted from the listed sources; needs a human fact-check."
+      }
+    },
+    {
+      "id": "putin-again",
+      "kind": "leader",
+      "rulers": [
+        "putin"
+      ],
+      "title": "Vladimir Putin, again",
+      "tagline": "Back in the Kremlin, and the story isn't over",
+      "start": {
+        "date": "2012-05-07"
+      },
+      "contestedWith": [],
+      "relationToPredecessor": "Returned after four years as PM",
+      "ageAtAccession": "59",
+      "cameToPower": "Elected to a third term",
+      "reignEnded": "Still in power",
+      "previously": "Medvedev steps aside after one term so Putin can return.",
+      "paragraphs": [
+        "Putin came back in May 2012 and the mood hardened. In February 2014 Russia hosted the Winter Olympics in Sochi. Weeks later, after Ukraine's pro-Russian president fled Kyiv, Russian forces seized Crimea and Moscow annexed it. War broke out in eastern Ukraine. In 2015 Russia sent its air force to Syria to prop up Bashar al-Assad. Western sanctions piled up.",
+        "In 2020 a new set of constitutional amendments reset his term count, letting him run twice more. That year the opposition leader Alexei Navalny was poisoned with a Novichok nerve agent. He survived, came home and was jailed, and died in an Arctic prison colony in February 2024.",
+        "On 24 February 2022 Russia launched a full-scale invasion of Ukraine, the biggest war in Europe since 1945. In 2023 the International Criminal Court issued a warrant for Putin's arrest, and the Wagner mercenary boss Yevgeny Prigozhin staged a brief mutiny, then died in a plane crash. Putin won a fifth term in 2024. How this chapter ends is still being written."
+      ],
+      "claims": [
+        {
+          "text": "The 2020 amendments mean Putin could stay president until 2036.",
+          "status": "confirmed",
+          "note": "The changes were approved in a national vote in July 2020 and reset his previous terms to zero."
+        },
+        {
+          "text": "The International Criminal Court has issued a warrant for Putin's arrest.",
+          "status": "confirmed",
+          "note": "Issued in March 2023 over the alleged unlawful deportation of Ukrainian children. Russia does not recognise the court."
+        },
+        {
+          "text": "Wagner fighters marched towards Moscow in June 2023 before turning back.",
+          "status": "confirmed",
+          "note": "The mutiny lasted about a day and was widely filmed. Prigozhin died in a plane crash two months later."
+        }
+      ],
+      "images": [
+        {
+          "file": "File:Vladimir Putin 17-11-2021 (cropped).jpg",
+          "url": "https://upload.wikimedia.org/wikipedia/commons/4/47/Vladimir_Putin_17-11-2021_%28cropped%29.jpg",
+          "page": "https://commons.wikimedia.org/wiki/File:Vladimir_Putin_17-11-2021_(cropped).jpg",
+          "credit": "Presidential Press and Information Office (kremlin.ru)",
+          "license": "CC BY 4.0",
+          "made": "2021",
+          "caption": "Putin speaking at a forum in Moscow in November 2021.",
+          "alt": "Photograph of Vladimir Putin in a dark suit, speaking at a forum in Moscow"
+        }
+      ],
+      "sources": [
+        {
+          "title": "The New Tsar: The Rise and Reign of Vladimir Putin",
+          "author": "Steven Lee Myers",
+          "note": "Knopf, 2015"
+        },
+        {
+          "title": "Mr. Putin: Operative in the Kremlin",
+          "author": "Fiona Hill and Clifford G. Gaddy",
+          "note": "Brookings Institution Press, 2013; new ed. 2015"
+        },
+        {
+          "title": "Putin: His Life and Times",
+          "author": "Philip Short",
+          "note": "Bodley Head, 2022"
+        }
+      ],
+      "review": {
+        "status": "draft",
+        "notes": "Drafted from the listed sources; needs a human fact-check."
+      }
+    }
+  ]
+}
