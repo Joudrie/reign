@@ -1,0 +1,3748 @@
+{
+  "id": "ottoman",
+  "name": "Ottoman Empire",
+  "blurb": "From Osman I to the last sultan in 1922",
+  "dateConvention": "Dates are the standard Western equivalents of Ottoman (Islamic calendar) dates; the earliest reigns are known only to the year.",
+  "epilogue": "In 1922 the sultanate was abolished, and in 1923 the Republic of Turkey was born. Swipe back through more than six centuries of the House of Osman.",
+  "houses": [
+    {
+      "id": "osman",
+      "name": "Osman",
+      "color": "#9b2c2c"
+    },
+    {
+      "id": "interregnum",
+      "name": "Civil war",
+      "color": "#55524a",
+      "plain": true
+    }
+  ],
+  "rulers": [
+    {
+      "id": "osman-i",
+      "name": "Osman I",
+      "house": "osman",
+      "born": {
+        "date": "1258",
+        "circa": true,
+        "note": "Probably Söğüt; the year is a later tradition"
+      },
+      "died": {
+        "date": "1324",
+        "circa": true,
+        "note": "Söğüt; sources give 1323 or 1324"
+      },
+      "causeOfDeath": "Natural causes"
+    },
+    {
+      "id": "orhan",
+      "name": "Orhan",
+      "house": "osman",
+      "born": {
+        "date": "1281",
+        "circa": true
+      },
+      "died": {
+        "date": "1362",
+        "note": "Bursa"
+      },
+      "causeOfDeath": "Natural causes"
+    },
+    {
+      "id": "murad-i",
+      "name": "Murad I",
+      "house": "osman",
+      "born": {
+        "date": "1326",
+        "circa": true,
+        "note": "Sources differ on the year"
+      },
+      "died": {
+        "date": "1389-06-15",
+        "note": "Battlefield of Kosovo"
+      },
+      "causeOfDeath": "Stabbed at the Battle of Kosovo"
+    },
+    {
+      "id": "bayezid-i",
+      "name": "Bayezid I",
+      "epithet": "the Thunderbolt",
+      "house": "osman",
+      "born": {
+        "date": "1360",
+        "circa": true
+      },
+      "died": {
+        "date": "1403-03-08",
+        "note": "Akşehir, a prisoner of Timur"
+      },
+      "causeOfDeath": "Died in Timur's captivity"
+    },
+    {
+      "id": "mehmed-i",
+      "name": "Mehmed I",
+      "epithet": "the Restorer",
+      "house": "osman",
+      "born": {
+        "date": "1389",
+        "circa": true,
+        "note": "Some sources say 1386"
+      },
+      "died": {
+        "date": "1421-05-26",
+        "note": "Edirne"
+      },
+      "causeOfDeath": "Natural causes"
+    },
+    {
+      "id": "murad-ii",
+      "name": "Murad II",
+      "house": "osman",
+      "born": {
+        "date": "1404",
+        "note": "Probably Amasya"
+      },
+      "died": {
+        "date": "1451-02-03",
+        "note": "Edirne"
+      },
+      "causeOfDeath": "Natural causes"
+    },
+    {
+      "id": "mehmed-ii",
+      "name": "Mehmed II",
+      "epithet": "the Conqueror",
+      "house": "osman",
+      "born": {
+        "date": "1432-03-30",
+        "note": "Edirne"
+      },
+      "died": {
+        "date": "1481-05-03",
+        "note": "Near Gebze, on campaign"
+      },
+      "causeOfDeath": "Illness; poison was suspected"
+    },
+    {
+      "id": "bayezid-ii",
+      "name": "Bayezid II",
+      "house": "osman",
+      "born": {
+        "date": "1447-12-03",
+        "note": "Didymoteicho (Demotika), Thrace"
+      },
+      "died": {
+        "date": "1512-05-26",
+        "note": "In Thrace, on the road to Demotika"
+      },
+      "causeOfDeath": "Illness soon after abdicating; poison rumoured"
+    },
+    {
+      "id": "cem",
+      "name": "Cem Sultan",
+      "house": "osman",
+      "born": {
+        "date": "1459-12-22",
+        "note": "Edirne"
+      },
+      "died": {
+        "date": "1495-02-25",
+        "note": "Naples"
+      },
+      "causeOfDeath": "Sudden illness; poison rumoured"
+    },
+    {
+      "id": "selim-i",
+      "name": "Selim I",
+      "epithet": "the Grim",
+      "house": "osman",
+      "born": {
+        "date": "1470-10-10",
+        "note": "Amasya; some sources give an earlier year"
+      },
+      "died": {
+        "date": "1520-09-22",
+        "note": "Near Çorlu, Thrace"
+      },
+      "causeOfDeath": "Illness, possibly an infected sore or cancer"
+    },
+    {
+      "id": "suleiman-i",
+      "name": "Suleiman I",
+      "epithet": "the Magnificent",
+      "house": "osman",
+      "born": {
+        "date": "1494-11-06",
+        "note": "Trabzon; some sources give April 1495"
+      },
+      "died": {
+        "date": "1566-09-06",
+        "note": "In camp at the siege of Szigetvár, Hungary"
+      },
+      "causeOfDeath": "Natural causes, aged about 71"
+    },
+    {
+      "id": "selim-ii",
+      "name": "Selim II",
+      "epithet": "the Sot",
+      "house": "osman",
+      "born": {
+        "date": "1524-05-28",
+        "note": "Istanbul"
+      },
+      "died": {
+        "date": "1574-12-15",
+        "note": "Topkapı Palace, Istanbul"
+      },
+      "causeOfDeath": "Fever after a fall in the palace baths"
+    },
+    {
+      "id": "murad-iii",
+      "name": "Murad III",
+      "house": "osman",
+      "born": {
+        "date": "1546-07-04",
+        "note": "Manisa province, Anatolia"
+      },
+      "died": {
+        "date": "1595-01-16",
+        "note": "Topkapı Palace, Constantinople"
+      },
+      "causeOfDeath": "Illness"
+    },
+    {
+      "id": "mehmed-iii",
+      "name": "Mehmed III",
+      "house": "osman",
+      "born": {
+        "date": "1566-05-26",
+        "note": "Manisa, Anatolia"
+      },
+      "died": {
+        "date": "1603-12-22",
+        "note": "Topkapı Palace, Constantinople"
+      },
+      "causeOfDeath": "Sudden illness; cause uncertain"
+    },
+    {
+      "id": "ahmed-i",
+      "name": "Ahmed I",
+      "house": "osman",
+      "born": {
+        "date": "1590-04-18",
+        "note": "Manisa, Anatolia"
+      },
+      "died": {
+        "date": "1617-11-22",
+        "note": "Topkapı Palace, Constantinople"
+      },
+      "causeOfDeath": "Typhus"
+    },
+    {
+      "id": "mustafa-i",
+      "name": "Mustafa I",
+      "house": "osman",
+      "born": {
+        "date": "1591",
+        "circa": true,
+        "note": "Manisa, Anatolia; the year is uncertain and sources differ"
+      },
+      "died": {
+        "date": "1639-01-20",
+        "note": "Constantinople"
+      },
+      "causeOfDeath": "Natural causes, in confinement"
+    },
+    {
+      "id": "osman-ii",
+      "name": "Osman II",
+      "epithet": "the Young",
+      "house": "osman",
+      "born": {
+        "date": "1604-11-03",
+        "note": "Topkapı Palace, Constantinople"
+      },
+      "died": {
+        "date": "1622-05-20",
+        "note": "Yedikule fortress, Constantinople"
+      },
+      "causeOfDeath": "Strangled by rebels"
+    },
+    {
+      "id": "murad-iv",
+      "name": "Murad IV",
+      "house": "osman",
+      "born": {
+        "date": "1612-07-27",
+        "note": "Constantinople"
+      },
+      "died": {
+        "date": "1640-02-08",
+        "note": "Constantinople"
+      },
+      "causeOfDeath": "Cirrhosis of the liver"
+    },
+    {
+      "id": "ibrahim",
+      "name": "Ibrahim",
+      "epithet": "the Mad",
+      "house": "osman",
+      "born": {
+        "date": "1615-11-05",
+        "note": "Topkapı Palace, Constantinople"
+      },
+      "died": {
+        "date": "1648-08-18",
+        "note": "Topkapı Palace, Constantinople"
+      },
+      "causeOfDeath": "Strangled after his deposition"
+    },
+    {
+      "id": "mehmed-iv",
+      "name": "Mehmed IV",
+      "epithet": "the Hunter",
+      "house": "osman",
+      "born": {
+        "date": "1642-01-02",
+        "note": "Topkapı Palace, Constantinople"
+      },
+      "died": {
+        "date": "1693-01-06",
+        "note": "Edirne"
+      },
+      "causeOfDeath": "Natural causes, in confinement"
+    },
+    {
+      "id": "suleiman-ii",
+      "name": "Suleiman II",
+      "house": "osman",
+      "born": {
+        "date": "1642-04-15",
+        "note": "Topkapı Palace, Constantinople"
+      },
+      "died": {
+        "date": "1691-06-22",
+        "note": "Edirne"
+      },
+      "causeOfDeath": "Illness"
+    },
+    {
+      "id": "ahmed-ii",
+      "name": "Ahmed II",
+      "house": "osman",
+      "born": {
+        "date": "1643-02-25",
+        "note": "Topkapı Palace, Constantinople"
+      },
+      "died": {
+        "date": "1695-02-06",
+        "note": "Edirne"
+      },
+      "causeOfDeath": "Illness"
+    },
+    {
+      "id": "mustafa-ii",
+      "name": "Mustafa II",
+      "house": "osman",
+      "born": {
+        "date": "1664-02-06",
+        "note": "Edirne"
+      },
+      "died": {
+        "date": "1703-12-29",
+        "note": "Topkapı Palace, Constantinople"
+      },
+      "causeOfDeath": "Illness, months after his deposition"
+    },
+    {
+      "id": "ahmed-iii",
+      "name": "Ahmed III",
+      "house": "osman",
+      "born": {
+        "date": "1673-12-30",
+        "note": "Hacıoğlu Pazarcık (now Dobrich, Bulgaria)"
+      },
+      "died": {
+        "date": "1736-07-01",
+        "note": "Topkapı Palace, Constantinople"
+      },
+      "causeOfDeath": "Natural causes, in confinement"
+    },
+    {
+      "id": "mahmud-i",
+      "name": "Mahmud I",
+      "house": "osman",
+      "born": {
+        "date": "1696-08-02",
+        "note": "Edirne"
+      },
+      "died": {
+        "date": "1754-12-13",
+        "note": "Constantinople"
+      },
+      "causeOfDeath": "Sudden illness"
+    },
+    {
+      "id": "osman-iii",
+      "name": "Osman III",
+      "house": "osman",
+      "born": {
+        "date": "1699-01-02",
+        "note": "Edirne"
+      },
+      "died": {
+        "date": "1757-10-30",
+        "note": "Topkapı Palace, Constantinople"
+      },
+      "causeOfDeath": "Illness"
+    },
+    {
+      "id": "mustafa-iii",
+      "name": "Mustafa III",
+      "house": "osman",
+      "born": {
+        "date": "1717-01-28",
+        "note": "Edirne"
+      },
+      "died": {
+        "date": "1774-01-21",
+        "note": "Topkapı Palace, Constantinople"
+      },
+      "causeOfDeath": "Illness"
+    },
+    {
+      "id": "abdul-hamid-i",
+      "name": "Abdul Hamid I",
+      "house": "osman",
+      "born": {
+        "date": "1725-03-20",
+        "note": "Constantinople"
+      },
+      "died": {
+        "date": "1789-04-07",
+        "note": "Constantinople"
+      },
+      "causeOfDeath": "Stroke"
+    },
+    {
+      "id": "selim-iii",
+      "name": "Selim III",
+      "house": "osman",
+      "born": {
+        "date": "1761-12-24",
+        "note": "Topkapı Palace, Constantinople"
+      },
+      "died": {
+        "date": "1808-07-28",
+        "note": "Topkapı Palace, Constantinople"
+      },
+      "causeOfDeath": "Murdered on his cousin's orders"
+    },
+    {
+      "id": "mustafa-iv",
+      "name": "Mustafa IV",
+      "house": "osman",
+      "born": {
+        "date": "1779-09-08",
+        "note": "Constantinople"
+      },
+      "died": {
+        "date": "1808-11-16",
+        "note": "Topkapı Palace, Constantinople"
+      },
+      "causeOfDeath": "Strangled on his brother's orders"
+    },
+    {
+      "id": "mahmud-ii",
+      "name": "Mahmud II",
+      "house": "osman",
+      "born": {
+        "date": "1785-07-20",
+        "note": "Topkapı Palace, Constantinople"
+      },
+      "died": {
+        "date": "1839-07-01",
+        "note": "Constantinople"
+      },
+      "causeOfDeath": "Tuberculosis"
+    },
+    {
+      "id": "abdulmejid-i",
+      "name": "Abdulmejid I",
+      "house": "osman",
+      "born": {
+        "date": "1823-04-25",
+        "note": "Constantinople"
+      },
+      "died": {
+        "date": "1861-06-25",
+        "note": "Constantinople"
+      },
+      "causeOfDeath": "Tuberculosis"
+    },
+    {
+      "id": "abdulaziz",
+      "name": "Abdulaziz",
+      "house": "osman",
+      "born": {
+        "date": "1830-02-08",
+        "note": "Constantinople"
+      },
+      "died": {
+        "date": "1876-06-04",
+        "note": "Feriye Palace, Constantinople"
+      },
+      "causeOfDeath": "Cut wrists; ruled suicide"
+    },
+    {
+      "id": "murad-v",
+      "name": "Murad V",
+      "house": "osman",
+      "born": {
+        "date": "1840-09-21",
+        "note": "Constantinople"
+      },
+      "died": {
+        "date": "1904-08-29",
+        "note": "Çırağan Palace, Constantinople"
+      },
+      "causeOfDeath": "Illness, still in confinement"
+    },
+    {
+      "id": "abdul-hamid-ii",
+      "name": "Abdul Hamid II",
+      "house": "osman",
+      "born": {
+        "date": "1842-09-21",
+        "note": "Constantinople"
+      },
+      "died": {
+        "date": "1918-02-10",
+        "note": "Beylerbeyi Palace, Constantinople"
+      },
+      "causeOfDeath": "Natural causes"
+    },
+    {
+      "id": "mehmed-v",
+      "name": "Mehmed V",
+      "house": "osman",
+      "born": {
+        "date": "1844-11-02",
+        "note": "Constantinople"
+      },
+      "died": {
+        "date": "1918-07-03",
+        "note": "Yıldız Palace, Constantinople"
+      },
+      "causeOfDeath": "Heart failure"
+    },
+    {
+      "id": "mehmed-vi",
+      "name": "Mehmed VI",
+      "house": "osman",
+      "born": {
+        "date": "1861-01-14",
+        "note": "Constantinople"
+      },
+      "died": {
+        "date": "1926-05-16",
+        "note": "Sanremo, Italy"
+      },
+      "causeOfDeath": "Heart attack"
+    }
+  ],
+  "reigns": [
+    {
+      "id": "osman-i",
+      "kind": "monarch",
+      "rulers": [
+        "osman-i"
+      ],
+      "tagline": "The frontier warlord who dreamed up an empire",
+      "start": {
+        "date": "1299"
+      },
+      "end": {
+        "date": "1324"
+      },
+      "contestedWith": [],
+      "relationToPredecessor": "Son of Ertuğrul, a frontier chief",
+      "ageAtAccession": "About 40",
+      "cameToPower": "Took over his father's lands",
+      "reignEnded": "Died with Bursa unconquered",
+      "previously": "The Seljuks of Rum have crumbled. Turkish warlords carve up Anatolia.",
+      "paragraphs": [
+        "Around 1300, Anatolia was a patchwork. The Seljuk sultans of Rum had been flattened by the Mongols, and dozens of Turkish chiefs ran little states of their own. Osman's was one of the smallest, a strip of hill country around Söğüt in the north-west, right on the edge of what was left of Byzantium. His father Ertuğrul had held it before him. Nobody would have bet on this family outlasting the rest.",
+        "Osman was a raider with a gift for pulling in followers. Turkish warriors, wandering dervishes and even local Greeks joined him because he kept winning. In 1302 he beat a Byzantine army at Bapheus, near Nicomedia, and suddenly his name was known in Constantinople. In his last years he squeezed the rich city of Bursa by ringing it with forts. He died around 1324 with Bursa still holding out. His son Orhan took over the siege."
+      ],
+      "claims": [
+        {
+          "text": "Osman dreamed that a moon rose from a holy man's chest and sank into his own, and a great tree grew from his navel to shade the world.",
+          "status": "legend",
+          "note": "First written down in 15th-century Ottoman chronicles such as Aşıkpaşazade's, long after Osman, when the dynasty wanted a story of divine favour."
+        },
+        {
+          "text": "Osman married the daughter of Sheikh Edebali, the holy man from the dream.",
+          "status": "disputed",
+          "note": "The chronicles say so but disagree about the bride, and historians doubt how much of the Edebali story is real."
+        },
+        {
+          "text": "A Byzantine writer of the time mentions Osman by name.",
+          "status": "confirmed",
+          "note": "George Pachymeres, writing in Constantinople, describes 'Atman' and the fighting around Nicomedia. It's the earliest outside record of him."
+        }
+      ],
+      "hook": "Osman is gone and Bursa is still behind its walls. His son Orhan has the forts, the men and the patience. Inside the city, the food is running out.",
+      "images": [
+        {
+          "file": "File:I. Osman Han.jpg",
+          "url": "https://upload.wikimedia.org/wikipedia/commons/7/77/I._Osman_Han.jpg",
+          "page": "https://commons.wikimedia.org/wiki/File:I._Osman_Han.jpg",
+          "credit": "Unknown Ottoman miniaturist",
+          "license": "Public domain",
+          "made": "Late 16th century",
+          "caption": "An Ottoman court miniature painted more than 250 years after his death. Nobody knows what he really looked like.",
+          "alt": "Ottoman miniature portrait of Osman I, founder of the dynasty"
+        }
+      ],
+      "sources": [
+        {
+          "title": "Osman's Dream: The Story of the Ottoman Empire 1300–1923",
+          "author": "Caroline Finkel",
+          "note": "John Murray, 2005"
+        },
+        {
+          "title": "Between Two Worlds: The Construction of the Ottoman State",
+          "author": "Cemal Kafadar",
+          "note": "University of California Press, 1995"
+        },
+        {
+          "title": "Tevarih-i Al-i Osman",
+          "author": "Aşıkpaşazade",
+          "note": "15th-century chronicle; the dream story"
+        },
+        {
+          "title": "History",
+          "author": "George Pachymeres",
+          "note": "Byzantine history; the Battle of Bapheus"
+        }
+      ],
+      "review": {
+        "status": "draft",
+        "notes": "Drafted from the listed sources; needs a human fact-check."
+      }
+    },
+    {
+      "id": "orhan",
+      "kind": "monarch",
+      "rulers": [
+        "orhan"
+      ],
+      "tagline": "Osman's son, who took Bursa and crossed into Europe",
+      "start": {
+        "date": "1324"
+      },
+      "end": {
+        "date": "1362"
+      },
+      "contestedWith": [],
+      "relationToPredecessor": "Son of Osman I",
+      "ageAtAccession": "About 43",
+      "cameToPower": "Succeeded his father",
+      "reignEnded": "Died in old age at Bursa",
+      "previously": "Osman dies with Bursa under siege. His son Orhan takes over.",
+      "paragraphs": [
+        "Orhan finished his father's job fast. Bursa surrendered in 1326 and became the first real Ottoman capital. Nicaea fell in 1331 and Nicomedia a few years later. The Moroccan traveller Ibn Battuta came through around then and was impressed: he called Orhan the greatest and richest of the Turkmen kings, forever riding the circuit of his forts.",
+        "Then Byzantium invited him in. Fighting a civil war, John Kantakouzenos needed soldiers, so in 1346 he gave Orhan his daughter Theodora as a bride. Orhan's men fought in Thrace and liked what they saw. In 1354 an earthquake wrecked the walls of Gallipoli, and Orhan's son Süleyman Pasha moved in and stayed. The Ottomans now had a foothold in Europe. Süleyman died after a fall from his horse, so the heir became his brother Murad."
+      ],
+      "claims": [
+        {
+          "text": "Orhan's wife Nilüfer, Murad's mother, was a Greek bride snatched by Osman's men from her own wedding.",
+          "status": "legend",
+          "note": "The tale comes from later Ottoman chronicles. Her real background is unclear."
+        },
+        {
+          "text": "Ibn Battuta said Orhan owned nearly a hundred fortresses.",
+          "status": "confirmed",
+          "note": "It's in Ibn Battuta's travel book, dictated in the 1350s about journeys he made in the early 1330s."
+        },
+        {
+          "text": "The theologian Gregory Palamas was captured by Ottoman raiders in 1354 and wrote about his time as a prisoner.",
+          "status": "confirmed",
+          "note": "His own letter describing the captivity and his debates with Muslim scholars survives."
+        }
+      ],
+      "hook": "Orhan dies an old man with a bridgehead in Europe. His son Murad inherits it, and he has no intention of staying near the beach.",
+      "images": [
+        {
+          "file": "File:Portret van Orhan, RP-P-OB-43.237.jpg",
+          "url": "https://upload.wikimedia.org/wikipedia/commons/0/03/Portret_van_Orhan%2C_RP-P-OB-43.237.jpg",
+          "page": "https://commons.wikimedia.org/wiki/File:Portret_van_Orhan,_RP-P-OB-43.237.jpg",
+          "credit": "Claude Du Bosc",
+          "license": "CC0",
+          "made": "Early 18th century",
+          "caption": "A European engraving made almost 400 years after his death.",
+          "alt": "Engraved portrait print of Orhan, titled 'Orchan, Son of Othman'"
+        }
+      ],
+      "sources": [
+        {
+          "title": "Osman's Dream: The Story of the Ottoman Empire 1300–1923",
+          "author": "Caroline Finkel",
+          "note": "John Murray, 2005"
+        },
+        {
+          "title": "The Ottoman Empire: The Classical Age 1300–1600",
+          "author": "Halil İnalcık",
+          "note": "Weidenfeld & Nicolson, 1973"
+        },
+        {
+          "title": "The Travels of Ibn Battuta",
+          "author": "Ibn Battuta",
+          "note": "trans. H. A. R. Gibb, Hakluyt Society"
+        },
+        {
+          "title": "The Ottoman Empire, 1300–1481",
+          "author": "Colin Imber",
+          "note": "Isis Press, 1990"
+        }
+      ],
+      "review": {
+        "status": "draft",
+        "notes": "Drafted from the listed sources; needs a human fact-check."
+      }
+    },
+    {
+      "id": "murad-i",
+      "kind": "monarch",
+      "rulers": [
+        "murad-i"
+      ],
+      "tagline": "The sultan who built the Janissaries and died at Kosovo",
+      "start": {
+        "date": "1362"
+      },
+      "end": {
+        "date": "1389-06-15"
+      },
+      "contestedWith": [],
+      "relationToPredecessor": "Son of Orhan",
+      "ageAtAccession": "About 36",
+      "cameToPower": "Succeeded his father",
+      "reignEnded": "Stabbed at the Battle of Kosovo",
+      "previously": "Orhan dies with a toehold in Europe at Gallipoli.",
+      "paragraphs": [
+        "Murad turned a toehold into an empire. He took Adrianople, renamed it Edirne and made it his base, a clear sign he meant to stay in Europe. In 1371 his commanders wiped out a Serbian army on the Maritsa river. One by one, Bulgarian tsars, Serbian lords and even the Byzantine emperor became his vassals, sending him tribute and troops.",
+        "He also built a new kind of army. Prisoners of war, and later Christian boys taken from Balkan villages, were trained as the sultan's own slave infantry: the Janissaries, the 'new troops'. They owed everything to him. In June 1389 he faced Prince Lazar's Serbs at Kosovo. The Ottomans won, Lazar was captured and executed, but Murad himself was stabbed to death."
+      ],
+      "claims": [
+        {
+          "text": "A Serbian knight, Miloš Obilić, pretended to defect and stabbed Murad in his tent.",
+          "status": "disputed",
+          "note": "Early reports agree a Serb killed him, but the name and the fake-defection story come from later accounts and Serbian epic songs."
+        },
+        {
+          "text": "The Janissary corps was founded under Murad I.",
+          "status": "disputed",
+          "note": "Ottoman tradition credits him, but the early evidence is thin and the corps grew in stages."
+        },
+        {
+          "text": "Murad's internal organs are buried on the battlefield at Kosovo.",
+          "status": "legend",
+          "note": "Local tradition. His tomb there is real and his body went to Bursa, but what lies at Kosovo has never been proved."
+        }
+      ],
+      "hook": "The battle is won and the sultan is dead. Two of his sons are in the camp. Only one of them will leave Kosovo alive.",
+      "images": [
+        {
+          "file": "File:Murad I miniature.jpg",
+          "url": "https://upload.wikimedia.org/wikipedia/commons/e/e8/Murad_I_miniature.jpg",
+          "page": "https://commons.wikimedia.org/wiki/File:Murad_I_miniature.jpg",
+          "credit": "Unknown Ottoman artist",
+          "license": "Public domain",
+          "made": "19th century",
+          "caption": "An Ottoman miniature painted roughly 450 years after his death.",
+          "alt": "Ottoman miniature portrait of Sultan Murad I"
+        }
+      ],
+      "sources": [
+        {
+          "title": "The Ottoman Empire, 1300–1481",
+          "author": "Colin Imber",
+          "note": "Isis Press, 1990"
+        },
+        {
+          "title": "The Ottoman Empire: The Classical Age 1300–1600",
+          "author": "Halil İnalcık",
+          "note": "Weidenfeld & Nicolson, 1973"
+        },
+        {
+          "title": "Serbian Golgotha: Kosovo, 1389",
+          "author": "Thomas A. Emmert",
+          "note": "East European Monographs, 1990"
+        },
+        {
+          "title": "Osman's Dream: The Story of the Ottoman Empire 1300–1923",
+          "author": "Caroline Finkel",
+          "note": "John Murray, 2005"
+        }
+      ],
+      "review": {
+        "status": "draft",
+        "notes": "Drafted from the listed sources; needs a human fact-check."
+      }
+    },
+    {
+      "id": "bayezid-i",
+      "kind": "monarch",
+      "rulers": [
+        "bayezid-i"
+      ],
+      "tagline": "The Thunderbolt who struck everywhere until Timur came",
+      "start": {
+        "date": "1389-06-15"
+      },
+      "end": {
+        "date": "1402-07-20"
+      },
+      "contestedWith": [],
+      "relationToPredecessor": "Son of Murad I",
+      "ageAtAccession": "About 29",
+      "cameToPower": "Proclaimed at Kosovo",
+      "reignEnded": "Captured by Timur at Ankara",
+      "previously": "Murad I wins at Kosovo but is stabbed to death on the field.",
+      "paragraphs": [
+        "Bayezid began by having his brother Yakub killed, right there at Kosovo. Then he moved so fast that people called him Yıldırım, the Thunderbolt. He swallowed most of the Turkish emirates of Anatolia, married the Serbian princess Olivera, and from 1394 blockaded Constantinople for years. In 1396 a huge crusade of French, Hungarians and others came to stop him. At Nicopolis on the Danube he smashed it.",
+        "Then he picked a fight with the wrong man. Timur, the Central Asian conqueror, took in the Anatolian princes Bayezid had thrown out. On 20 July 1402 the two armies met near Ankara. Bayezid's Anatolian troops went over to their old lords, his army fell apart and he was taken prisoner. He died in captivity the next March, and his sons were left to fight over the wreckage."
+      ],
+      "claims": [
+        {
+          "text": "Bayezid had his brother Yakub strangled the moment Murad died.",
+          "status": "confirmed",
+          "note": "Ottoman and Byzantine writers both report Yakub's killing at Kosovo. Later sultans turned it into a habit."
+        },
+        {
+          "text": "Timur kept Bayezid in an iron cage.",
+          "status": "disputed",
+          "note": "Some 15th-century writers say so and Marlowe's Tamburlaine made it famous. It may grow from a barred litter used to move him."
+        },
+        {
+          "text": "Bayezid vowed 20 mosques for Nicopolis, then built one mosque with 20 domes.",
+          "status": "legend",
+          "note": "A Bursa tradition that explains the Great Mosque's 20 domes. No early source records the vow."
+        }
+      ],
+      "hook": "The sultan is a prisoner and his sons have scattered across Anatolia and the Balkans. Each of them thinks he should be next.",
+      "images": [
+        {
+          "file": "File:Chlebowski-Bajazyt w niewoli.jpg",
+          "url": "https://upload.wikimedia.org/wikipedia/commons/8/8f/Chlebowski-Bajazyt_w_niewoli.jpg",
+          "page": "https://commons.wikimedia.org/wiki/File:Chlebowski-Bajazyt_w_niewoli.jpg",
+          "credit": "Stanisław Chlebowski",
+          "license": "Public domain",
+          "made": "1878",
+          "caption": "Painted in 1878, almost 500 years after Ankara.",
+          "alt": "Painting of the defeated Bayezid I held as a captive by Timur"
+        }
+      ],
+      "sources": [
+        {
+          "title": "The Crusade of Nicopolis",
+          "author": "Aziz S. Atiya",
+          "note": "Methuen, 1934"
+        },
+        {
+          "title": "Tamerlane: Sword of Islam, Conqueror of the World",
+          "author": "Justin Marozzi",
+          "note": "HarperCollins, 2004"
+        },
+        {
+          "title": "The Bondage and Travels of Johann Schiltberger",
+          "author": "Johann Schiltberger",
+          "note": "Eyewitness captured at Nicopolis; Hakluyt Society translation, 1879"
+        },
+        {
+          "title": "The Ottoman Empire, 1300–1481",
+          "author": "Colin Imber",
+          "note": "Isis Press, 1990"
+        }
+      ],
+      "review": {
+        "status": "draft",
+        "notes": "Drafted from the listed sources; needs a human fact-check."
+      }
+    },
+    {
+      "id": "interregnum",
+      "kind": "interregnum",
+      "rulers": [],
+      "house": "interregnum",
+      "title": "The Ottoman Interregnum",
+      "tagline": "Four brothers, one throne, eleven years of war",
+      "start": {
+        "date": "1402-07-20"
+      },
+      "end": {
+        "date": "1413-07-05"
+      },
+      "contestedWith": [],
+      "relationToPredecessor": "Bayezid I's sons, after Ankara",
+      "ageAtAccession": "No sultan",
+      "cameToPower": "Bayezid captured at Ankara",
+      "reignEnded": "Mehmed beat Musa at Çamurlu",
+      "previously": "Timur crushes Bayezid at Ankara and takes the Thunderbolt prisoner.",
+      "paragraphs": [
+        "After Ankara, Timur carved up Ottoman Anatolia and handed lands back to the old emirs. Bayezid's surviving sons grabbed what they could. Süleyman, the eldest, held the European half from Edirne and did deals with Byzantium. Mehmed dug in at Amasya. İsa seized Bursa. Musa had been captured with his father and was let go after Bayezid died.",
+        "Then they turned on each other. Mehmed beat İsa, who vanished, almost certainly killed. Mehmed then sent Musa into Europe to take on Süleyman. In 1411 Musa captured Edirne and Süleyman was killed as he fled. Musa ruled the Balkans so harshly that he scared his own supporters. Mehmed teamed up with the Byzantines, and in July 1413 Musa was beaten at Çamurlu and killed."
+      ],
+      "claims": [
+        {
+          "text": "A fifth brother, Mustafa, vanished at Ankara and turned up again years later.",
+          "status": "disputed",
+          "note": "Mehmed I and Murad II called him an impostor, 'False Mustafa'. Byzantine writers like Doukas treated him as the real son."
+        },
+        {
+          "text": "The scholar Sheikh Bedreddin served as Musa's chief judge.",
+          "status": "confirmed",
+          "note": "Ottoman chronicles agree on it. The link explains why Bedreddin later led a revolt against Mehmed."
+        }
+      ],
+      "hook": "Mehmed is the last brother standing. He has an empire in pieces, rebels in the hills and a brother everyone thought was dead.",
+      "images": [
+        {
+          "file": "File:Ottoman Princes Musa and Suleiman Celebi.jpg",
+          "url": "https://upload.wikimedia.org/wikipedia/commons/0/0f/Ottoman_Princes_Musa_and_Suleiman_Celebi.jpg",
+          "page": "https://commons.wikimedia.org/wiki/File:Ottoman_Princes_Musa_and_Suleiman_Celebi.jpg",
+          "credit": "Johann Theodor de Bry",
+          "license": "CC BY-SA 3.0",
+          "made": "1590s",
+          "caption": "Two of the warring brothers, Musa and Süleyman, imagined by a German engraver nearly 200 years later.",
+          "alt": "Engraved portraits of two Ottoman princes side by side, Musa Çelebi on the left and Süleyman Çelebi on the right"
+        }
+      ],
+      "sources": [
+        {
+          "title": "The Sons of Bayezid: Empire Building and Representation in the Ottoman Civil War of 1402–1413",
+          "author": "Dimitris J. Kastritsis",
+          "note": "Brill, 2007"
+        },
+        {
+          "title": "Decline and Fall of Byzantium to the Ottoman Turks",
+          "author": "Doukas",
+          "note": "15th-century chronicle; trans. Harry J. Magoulias, Wayne State University Press, 1975"
+        },
+        {
+          "title": "The Ottoman Empire, 1300–1481",
+          "author": "Colin Imber",
+          "note": "Isis Press, 1990"
+        },
+        {
+          "title": "Osman's Dream: The Story of the Ottoman Empire 1300–1923",
+          "author": "Caroline Finkel",
+          "note": "John Murray, 2005"
+        }
+      ],
+      "review": {
+        "status": "draft",
+        "notes": "Drafted from the listed sources; needs a human fact-check."
+      }
+    },
+    {
+      "id": "mehmed-i",
+      "kind": "monarch",
+      "rulers": [
+        "mehmed-i"
+      ],
+      "tagline": "The last brother standing, who glued the empire back",
+      "start": {
+        "date": "1413-07-05"
+      },
+      "end": {
+        "date": "1421-05-26"
+      },
+      "contestedWith": [],
+      "relationToPredecessor": "Son of Bayezid I",
+      "ageAtAccession": "About 24",
+      "cameToPower": "Beat and killed his brother Musa",
+      "reignEnded": "Died at Edirne",
+      "previously": "Bayezid's sons tear the empire apart for eleven years. Mehmed wins.",
+      "paragraphs": [
+        "Mehmed spent his reign putting the pieces back. He clawed back lands Timur had handed to the Anatolian emirs, kept the peace with Byzantium and held the Balkan vassals in line. Venice smashed his fleet off Gallipoli in 1416, a reminder of how shaky things still were. In Bursa he built the Green Mosque, lined with green and blue tiles, which still stands.",
+        "Then two threats came at once. Sheikh Bedreddin, a famous scholar, inspired a rebellion whose preachers said property should be shared. Mehmed crushed it and had Bedreddin hanged. Next Mustafa, the brother lost at Ankara, reappeared with Byzantine and Wallachian backing. Mehmed beat him, and Byzantium kept Mustafa locked up on Lemnos in return for a yearly payment. When Mehmed died in 1421, his son Murad was about 17."
+      ],
+      "claims": [
+        {
+          "text": "Mehmed's death was kept secret for about 40 days so Murad could reach the throne safely.",
+          "status": "disputed",
+          "note": "Ottoman chronicles tell it, some giving 41 days. It fits the danger of the moment, but the exact count is shaky."
+        },
+        {
+          "text": "Bedreddin's followers preached that Muslims and Christians should share property.",
+          "status": "disputed",
+          "note": "This comes mostly from hostile sources such as Doukas. Historians still argue over how radical he really was."
+        },
+        {
+          "text": "The Green Mosque's tiles were made by craftsmen from Tabriz.",
+          "status": "confirmed",
+          "note": "An inscription in the building credits the tile work to masters of Tabriz."
+        }
+      ],
+      "hook": "Mehmed is dead and his son Murad is 17. In Byzantium, someone is about to unlock Uncle Mustafa's door.",
+      "images": [
+        {
+          "file": "File:Cristofano dell’Altissimo, portrait of Mehmet I Celebi. Second half of the 16th century. Firenze, Gallerie degli Uffizi.jpg",
+          "url": "https://upload.wikimedia.org/wikipedia/commons/2/21/Cristofano_dell%E2%80%99Altissimo%2C_portrait_of_Mehmet_I_Celebi._Second_half_of_the_16th_century._Firenze%2C_Gallerie_degli_Uffizi.jpg",
+          "page": "https://commons.wikimedia.org/wiki/File:Cristofano_dell%E2%80%99Altissimo,_portrait_of_Mehmet_I_Celebi._Second_half_of_the_16th_century._Firenze,_Gallerie_degli_Uffizi.jpg",
+          "credit": "Cristofano dell'Altissimo",
+          "license": "Public domain",
+          "made": "Late 16th century",
+          "caption": "Painted in Florence about 150 years after his death, as part of a series of famous people.",
+          "alt": "Italian painted portrait of Mehmed I, now in the Uffizi, Florence"
+        }
+      ],
+      "sources": [
+        {
+          "title": "The Sons of Bayezid: Empire Building and Representation in the Ottoman Civil War of 1402–1413",
+          "author": "Dimitris J. Kastritsis",
+          "note": "Brill, 2007"
+        },
+        {
+          "title": "Decline and Fall of Byzantium to the Ottoman Turks",
+          "author": "Doukas",
+          "note": "15th-century chronicle; trans. Harry J. Magoulias, Wayne State University Press, 1975"
+        },
+        {
+          "title": "The Ottoman Empire, 1300–1481",
+          "author": "Colin Imber",
+          "note": "Isis Press, 1990"
+        },
+        {
+          "title": "Osman's Dream: The Story of the Ottoman Empire 1300–1923",
+          "author": "Caroline Finkel",
+          "note": "John Murray, 2005"
+        }
+      ],
+      "review": {
+        "status": "draft",
+        "notes": "Drafted from the listed sources; needs a human fact-check."
+      }
+    },
+    {
+      "id": "murad-ii",
+      "kind": "monarch",
+      "rulers": [
+        "murad-ii"
+      ],
+      "tagline": "The warrior sultan who wanted to retire",
+      "start": {
+        "date": "1421-05-26"
+      },
+      "end": {
+        "date": "1444-08"
+      },
+      "contestedWith": [],
+      "relationToPredecessor": "Son of Mehmed I",
+      "ageAtAccession": "About 17",
+      "cameToPower": "Succeeded his father",
+      "reignEnded": "Abdicated for his son",
+      "previously": "Mehmed I dies. His son Murad, about 17, inherits a fragile empire.",
+      "paragraphs": [
+        "Murad's first years were a fight to survive. The Byzantines freed his uncle Mustafa to make trouble, and Mustafa grabbed the Balkans. Murad beat him and had him hanged. He paid Byzantium back with a siege of Constantinople in 1422, then crushed a revolt by his own younger brother, also called Mustafa. In 1430 he took Thessalonica from Venice.",
+        "By the 1440s Murad was worn out. His favourite son Alaeddin had died, and the Hungarian general John Hunyadi was beating his armies. In 1444 he made peace with Hungary and then did something startling. He stepped down, handed the throne to his 12-year-old son Mehmed, and went off to Manisa to rest."
+      ],
+      "claims": [
+        {
+          "text": "Murad abdicated out of grief for his son Alaeddin.",
+          "status": "disputed",
+          "note": "Chroniclers link the two. Historians also point to war-weariness and a wish to lock in Mehmed's succession while he was alive."
+        },
+        {
+          "text": "The Byzantines released Mustafa on purpose to destabilise Murad.",
+          "status": "confirmed",
+          "note": "Byzantine writers, Doukas among them, describe the decision and the quarrel it caused at court."
+        }
+      ],
+      "hook": "Murad is in retirement at Manisa. A 12-year-old sits on the throne in Edirne, and the Christian powers decide the truce they just swore isn't worth keeping.",
+      "images": [
+        {
+          "file": "File:Paolo Veronese (Nachfolger) - Sultan Murad II. - 2237 - Bavarian State Painting Collections.jpg",
+          "url": "https://upload.wikimedia.org/wikipedia/commons/d/d8/Paolo_Veronese_%28Nachfolger%29_-_Sultan_Murad_II._-_2237_-_Bavarian_State_Painting_Collections.jpg",
+          "page": "https://commons.wikimedia.org/wiki/File:Paolo_Veronese_(Nachfolger)_-_Sultan_Murad_II._-_2237_-_Bavarian_State_Painting_Collections.jpg",
+          "credit": "Follower of Paolo Veronese",
+          "license": "Public domain",
+          "made": "16th century",
+          "caption": "A Venetian-style portrait painted about a century after his death.",
+          "alt": "Oil portrait of Sultan Murad II from the Bavarian State Painting Collections"
+        }
+      ],
+      "sources": [
+        {
+          "title": "The Ottoman Empire: The Classical Age 1300–1600",
+          "author": "Halil İnalcık",
+          "note": "Weidenfeld & Nicolson, 1973"
+        },
+        {
+          "title": "The Crusade of Varna, 1443–45",
+          "author": "Colin Imber",
+          "note": "Ashgate, 2006"
+        },
+        {
+          "title": "Decline and Fall of Byzantium to the Ottoman Turks",
+          "author": "Doukas",
+          "note": "15th-century chronicle; trans. Harry J. Magoulias, Wayne State University Press, 1975"
+        },
+        {
+          "title": "Osman's Dream: The Story of the Ottoman Empire 1300–1923",
+          "author": "Caroline Finkel",
+          "note": "John Murray, 2005"
+        }
+      ],
+      "review": {
+        "status": "draft",
+        "notes": "Drafted from the listed sources; needs a human fact-check."
+      }
+    },
+    {
+      "id": "mehmed-ii",
+      "kind": "monarch",
+      "rulers": [
+        "mehmed-ii"
+      ],
+      "tagline": "Twelve years old, and the crusaders are coming",
+      "start": {
+        "date": "1444-08"
+      },
+      "end": {
+        "date": "1446-09"
+      },
+      "contestedWith": [],
+      "relationToPredecessor": "Son of Murad II",
+      "ageAtAccession": "12",
+      "cameToPower": "His father abdicated",
+      "reignEnded": "Pushed aside for his father",
+      "previously": "Murad II makes peace with Hungary and abdicates for his young son.",
+      "paragraphs": [
+        "Mehmed was 12, clever and stubborn, and the real power lay with the grand vizier, Çandarlı Halil Pasha. Within weeks the Christian side broke the peace. A crusading army under King Władysław of Poland and Hungary and John Hunyadi marched across Bulgaria towards the Black Sea. Edirne panicked. Halil and the other ministers begged Murad to come back and lead the army.",
+        "Murad did, and on 10 November 1444 he won a crushing victory at Varna. Władysław was killed and his head was carried off as a trophy. Murad went back to Manisa, and Mehmed stayed sultan in name. It didn't last. In 1446 the Janissaries rioted in Edirne over their pay. Halil decided the boy couldn't hold things together and brought Murad back to the throne."
+      ],
+      "claims": [
+        {
+          "text": "Young Mehmed wrote to his father: 'If you are the sultan, come and lead your army. If I am the sultan, I order you to come.'",
+          "status": "legend",
+          "note": "A much-loved line in modern retellings. No 15th-century source quotes the letter."
+        },
+        {
+          "text": "Murad rode into battle at Varna with the broken peace treaty held up on a lance.",
+          "status": "legend",
+          "note": "Told by later writers to show the Christians as oath-breakers. There's no eyewitness for it."
+        },
+        {
+          "text": "Mehmed never forgave Halil Pasha for bringing his father back.",
+          "status": "disputed",
+          "note": "Historians often link it to Halil's execution in 1453, but that's read backwards from what happened later."
+        }
+      ],
+      "hook": "Murad takes the throne back. Mehmed, now 14, is packed off to Manisa to wait his turn. He won't forget who sent him there.",
+      "images": [
+        {
+          "file": "File:Bust Portrait of Sultan Mehmed II, polychrome painting, ca. 1478–81. Bifolio fols. 144r–145v (TSMK, H. 2153).jpg",
+          "url": "https://upload.wikimedia.org/wikipedia/commons/0/02/Bust_Portrait_of_Sultan_Mehmed_II%2C_polychrome_painting%2C_ca._1478%E2%80%9381._Bifolio_fols._144r%E2%80%93145v_%28TSMK%2C_H._2153%29.jpg",
+          "page": "https://commons.wikimedia.org/wiki/File:Bust_Portrait_of_Sultan_Mehmed_II,_polychrome_painting,_ca._1478%E2%80%9381._Bifolio_fols._144r%E2%80%93145v_(TSMK,_H._2153).jpg",
+          "credit": "Attributed to Sinan Beg",
+          "license": "Public domain",
+          "made": "c. 1478–81",
+          "caption": "Painted at his own court near the end of his life, more than 30 years after this boyhood reign.",
+          "alt": "Bust portrait of Sultan Mehmed II, a coloured painting from an album in the Topkapı Palace Library"
+        }
+      ],
+      "sources": [
+        {
+          "title": "Mehmed the Conqueror and His Time",
+          "author": "Franz Babinger",
+          "note": "Princeton University Press, 1978 (English translation)"
+        },
+        {
+          "title": "The Crusade of Varna, 1443–45",
+          "author": "Colin Imber",
+          "note": "Ashgate, 2006"
+        },
+        {
+          "title": "Decline and Fall of Byzantium to the Ottoman Turks",
+          "author": "Doukas",
+          "note": "15th-century chronicle; trans. Harry J. Magoulias, Wayne State University Press, 1975"
+        },
+        {
+          "title": "Osman's Dream: The Story of the Ottoman Empire 1300–1923",
+          "author": "Caroline Finkel",
+          "note": "John Murray, 2005"
+        }
+      ],
+      "review": {
+        "status": "draft",
+        "notes": "Drafted from the listed sources; needs a human fact-check."
+      }
+    },
+    {
+      "id": "murad-ii-restored",
+      "kind": "monarch",
+      "rulers": [
+        "murad-ii"
+      ],
+      "title": "Murad II, again",
+      "tagline": "The sultan dragged back from retirement",
+      "start": {
+        "date": "1446-09"
+      },
+      "end": {
+        "date": "1451-02-03"
+      },
+      "contestedWith": [],
+      "relationToPredecessor": "Father of Mehmed II",
+      "ageAtAccession": "About 42",
+      "cameToPower": "Recalled after a Janissary riot",
+      "reignEnded": "Died at Edirne",
+      "previously": "Janissaries riot in Edirne and the boy sultan Mehmed is pushed aside.",
+      "paragraphs": [
+        "Murad came back and went straight to work. In 1448 John Hunyadi tried again, and Murad beat him in a three-day battle at Kosovo, close to where his great-grandfather had died. Albania went worse. Skanderbeg, a former hostage raised at the Ottoman court who had turned rebel, held out in the fortress of Krujë, and Murad's siege of 1450 failed.",
+        "He kept Mehmed busy, too. The teenager was sent to govern Manisa and married to a princess of the Dulkadir dynasty. By then he already had a son, the future Bayezid II. Murad died at Edirne in February 1451, aged about 46. This time nobody had to beg anyone. The throne went straight to Mehmed, and he was in a hurry."
+      ],
+      "claims": [
+        {
+          "text": "Skanderbeg had served the sultan as an officer before he rebelled.",
+          "status": "confirmed",
+          "note": "Ottoman and Albanian sources agree George Kastrioti was handed over as a hostage, raised as a Muslim and given posts before defecting in 1443."
+        },
+        {
+          "text": "Murad asked to be buried under an open sky, and his tomb in Bursa has a hole in the roof so rain falls on the grave.",
+          "status": "confirmed",
+          "note": "His will survives and the opening is still there. The usual reading is that he wanted a humble grave."
+        }
+      ],
+      "hook": "Murad is dead. In Manisa, Mehmed hears the news, jumps on his horse and is said to cry: 'Let those who love me follow me!' He's 18, and he already has his eye on Constantinople.",
+      "images": [
+        {
+          "file": "File:Portrait of Sultan Murad II, c. 1600.jpg",
+          "url": "https://upload.wikimedia.org/wikipedia/commons/f/f8/Portrait_of_Sultan_Murad_II%2C_c._1600.jpg",
+          "page": "https://commons.wikimedia.org/wiki/File:Portrait_of_Sultan_Murad_II,_c._1600.jpg",
+          "credit": "Unknown artist",
+          "license": "CC0",
+          "made": "c. 1600",
+          "caption": "From an album made around 1600, about 150 years after his death.",
+          "alt": "Album page with a portrait of Sultan Murad II"
+        }
+      ],
+      "sources": [
+        {
+          "title": "The Ottoman Empire: The Classical Age 1300–1600",
+          "author": "Halil İnalcık",
+          "note": "Weidenfeld & Nicolson, 1973"
+        },
+        {
+          "title": "The Crusade of Varna, 1443–45",
+          "author": "Colin Imber",
+          "note": "Ashgate, 2006"
+        },
+        {
+          "title": "Mehmed the Conqueror and His Time",
+          "author": "Franz Babinger",
+          "note": "Princeton University Press, 1978 (English translation)"
+        },
+        {
+          "title": "Osman's Dream: The Story of the Ottoman Empire 1300–1923",
+          "author": "Caroline Finkel",
+          "note": "John Murray, 2005"
+        }
+      ],
+      "review": {
+        "status": "draft",
+        "notes": "Drafted from the listed sources; needs a human fact-check."
+      }
+    },
+    {
+      "id": "mehmed-ii-restored",
+      "kind": "monarch",
+      "rulers": [
+        "mehmed-ii"
+      ],
+      "title": "Mehmed the Conqueror",
+      "tagline": "He took Constantinople at 21 and called himself Caesar",
+      "start": {
+        "date": "1451-02-03"
+      },
+      "end": {
+        "date": "1481-05-03"
+      },
+      "contestedWith": [],
+      "relationToPredecessor": "Son of Murad II",
+      "ageAtAccession": "18",
+      "cameToPower": "Succeeded on his father's death",
+      "reignEnded": "Died on campaign near Gebze",
+      "previously": "Murad II dies at Edirne. This time his son is ready.",
+      "paragraphs": [
+        "The boy who had been sent back to the schoolroom came back as a man in a hurry. One of his first acts was to have his baby half-brother killed. Then he built a fortress on the European shore of the Bosphorus, Rumeli Hisarı, to choke Constantinople's sea traffic. Everyone in the city knew what it meant.",
+        "The siege opened in April 1453. Huge bronze cannon pounded the old land walls, and when a chain blocked the Golden Horn, Mehmed had his ships hauled over the hills behind Galata and slid into the water. On 29 May the city fell. The last emperor, Constantine XI, died fighting. Mehmed rode to Hagia Sophia and turned it into a mosque. He was 21, and he started calling himself Caesar of Rome.",
+        "He never stopped. Serbia, the Morea, Trebizond and Bosnia fell; a long war with Venice ended in his favour; his troops even landed at Otranto in Italy. He invited the Venetian painter Gentile Bellini to his court. In May 1481, marching out on a campaign nobody had been told the target of, he fell ill and died. He left two grown sons and no clear heir."
+      ],
+      "claims": [
+        {
+          "text": "Mehmed's ships were dragged overland on greased logs to get round the chain across the Golden Horn.",
+          "status": "confirmed",
+          "note": "Eyewitnesses on both sides describe it, including the Venetian Nicolò Barbaro and the Greek historian Kritovoulos; only the exact route is argued over."
+        },
+        {
+          "text": "Mehmed was poisoned by his own Persian doctor.",
+          "status": "disputed",
+          "note": "Rumours of poison spread fast, and Venice was said to have tried it before. His symptoms fit natural illness too, and there's no proof."
+        },
+        {
+          "text": "Constantine XI never died: an angel turned him to marble and he sleeps under the Golden Gate, waiting to retake his city.",
+          "status": "legend",
+          "note": "A Greek folk tale that grew because his body was never surely identified. Pure legend."
+        }
+      ],
+      "hook": "The Conqueror is dead and he never named an heir. Bayezid is in Amasya, Cem in Konya. Under the Ottoman way of doing things, only one of them is going to live.",
+      "images": [
+        {
+          "file": "File:Bellini, Gentile - Portrait of Mehmed II - National Gallery, London.jpg",
+          "url": "https://upload.wikimedia.org/wikipedia/commons/8/8d/Bellini%2C_Gentile_-_Portrait_of_Mehmed_II_-_National_Gallery%2C_London.jpg",
+          "page": "https://commons.wikimedia.org/wiki/File:Bellini,_Gentile_-_Portrait_of_Mehmed_II_-_National_Gallery,_London.jpg",
+          "credit": "Gentile Bellini",
+          "license": "Public domain",
+          "made": "1480",
+          "caption": "Painted from life by the Venetian Gentile Bellini at Mehmed's court in 1480, the year before he died.",
+          "alt": "Painted portrait of the sultan in profile under an arch, wearing a large white turban and a fur-trimmed robe"
+        }
+      ],
+      "sources": [
+        {
+          "title": "Mehmed the Conqueror and His Time",
+          "author": "Franz Babinger",
+          "note": "Princeton University Press, English ed. 1978"
+        },
+        {
+          "title": "The Fall of Constantinople 1453",
+          "author": "Steven Runciman",
+          "note": "Cambridge University Press, 1965"
+        },
+        {
+          "title": "History of Mehmed the Conqueror",
+          "author": "Kritovoulos",
+          "note": "Trans. Charles T. Riggs, 1954"
+        },
+        {
+          "title": "Diary of the Siege of Constantinople 1453",
+          "author": "Nicolò Barbaro",
+          "note": "Trans. J. R. Jones, 1969"
+        }
+      ],
+      "review": {
+        "status": "draft",
+        "notes": "Drafted from the listed sources; needs a human fact-check."
+      }
+    },
+    {
+      "id": "bayezid-ii",
+      "kind": "monarch",
+      "rulers": [
+        "bayezid-ii"
+      ],
+      "tagline": "The quiet sultan who opened his door to Spain's Jews",
+      "start": {
+        "date": "1481-05-19"
+      },
+      "end": {
+        "date": "1512-04-25"
+      },
+      "contestedWith": [
+        "cem"
+      ],
+      "relationToPredecessor": "Eldest son of Mehmed II",
+      "ageAtAccession": "33",
+      "cameToPower": "Won the race to Istanbul",
+      "reignEnded": "Forced to abdicate by his son Selim",
+      "previously": "The Conqueror dies on campaign, leaving two sons and no named heir.",
+      "paragraphs": [
+        "When Mehmed died, the grand vizier tried to keep it quiet and tip off Cem. The Janissaries found out, killed him and rioted. Bayezid got to Istanbul first, paid the troops a fat bonus and took the throne. His younger brother Cem had other ideas, but Bayezid beat him in battle within weeks and spent years paying Christians to keep him locked up.",
+        "Bayezid was pious and careful, a builder more than a conqueror. He handed back lands his father had seized from religious foundations and put up great mosques in Istanbul and Edirne. In 1492 Spain threw out its Jews, and Bayezid welcomed them in. Thousands settled in Istanbul and Salonica. His navy grew teeth too, and in a war with Venice from 1499 it took key ports in Greece.",
+        "Old age brought trouble. His sons Ahmed, Korkud and Selim circled each other. Bayezid favoured Ahmed. Selim rebelled, lost a battle to his father, and came back anyway with the Janissaries behind him. In April 1512 Bayezid gave up the throne. A month later he was dead on the road to his birthplace."
+      ],
+      "claims": [
+        {
+          "text": "Bayezid sneered that Ferdinand of Spain was making his own country poor and Bayezid's rich by expelling the Jews.",
+          "status": "legend",
+          "note": "Endlessly quoted, but no contemporary source has it. It turns up much later in retellings."
+        },
+        {
+          "text": "Leonardo da Vinci offered to build Bayezid a bridge over the Golden Horn.",
+          "status": "confirmed",
+          "note": "A Turkish copy of Leonardo's letter survives in the Topkapı archives, and his notebooks have a sketch of the bridge, dated around 1502."
+        },
+        {
+          "text": "Selim had his father poisoned.",
+          "status": "disputed",
+          "note": "The death came very conveniently, and rumour said so at once. Bayezid was old and ill, and there is no hard evidence."
+        }
+      ],
+      "hook": "Bayezid kept his throne for 31 years. But that first summer it nearly went to someone else. Rewind to 1481: his brother Cem is riding for Bursa to make himself sultan.",
+      "images": [
+        {
+          "file": "File:Bāyezid II in conversation with his viziers (Malekzāda Āhi, Shāh-nāma, fol. 30b).jpg",
+          "url": "https://upload.wikimedia.org/wikipedia/commons/0/04/B%C4%81yezid_II_in_conversation_with_his_viziers_%28Malekz%C4%81da_%C4%80hi%2C_Sh%C4%81h-n%C4%81ma%2C_fol._30b%29.jpg",
+          "page": "https://commons.wikimedia.org/wiki/File:B%C4%81yezid_II_in_conversation_with_his_viziers_(Malekz%C4%81da_%C4%80hi,_Sh%C4%81h-n%C4%81ma,_fol._30b).jpg",
+          "credit": "Unknown Ottoman artist",
+          "license": "Public domain",
+          "made": "c. 1495",
+          "caption": "An Ottoman miniature painted during his reign, around 1495.",
+          "alt": "Ottoman manuscript miniature of Sultan Bayezid II seated, in conversation with his viziers"
+        }
+      ],
+      "sources": [
+        {
+          "title": "The Ottoman Empire: The Classical Age 1300–1600",
+          "author": "Halil İnalcık",
+          "note": "Weidenfeld & Nicolson, 1973"
+        },
+        {
+          "title": "The Ottoman Empire, 1300–1650: The Structure of Power",
+          "author": "Colin Imber",
+          "note": "Palgrave, 2002"
+        },
+        {
+          "title": "Osman's Dream: The Story of the Ottoman Empire 1300–1923",
+          "author": "Caroline Finkel",
+          "note": "John Murray, 2005"
+        },
+        {
+          "title": "The Sephardim in the Ottoman Empire",
+          "author": "Avigdor Levy",
+          "note": "Darwin Press, 1992"
+        }
+      ],
+      "review": {
+        "status": "draft",
+        "notes": "Drafted from the listed sources; needs a human fact-check."
+      }
+    },
+    {
+      "id": "cem",
+      "kind": "claimant",
+      "rulers": [
+        "cem"
+      ],
+      "title": "Cem Sultan",
+      "tagline": "The prince who became Europe's priciest prisoner",
+      "start": {
+        "date": "1481-05-28",
+        "note": "Proclaimed sultan at Bursa"
+      },
+      "end": {
+        "date": "1495-02-25"
+      },
+      "contestedWith": [
+        "bayezid-ii"
+      ],
+      "relationToPredecessor": "Younger son of Mehmed II",
+      "ageAtAccession": "21",
+      "cameToPower": "Seized Bursa, declared himself sultan",
+      "reignEnded": "Died a hostage at Naples",
+      "previously": "Bayezid won the throne. Now rewind to 1481 and the brother who lost.",
+      "paragraphs": [
+        "Cem was the charmer: a poet, an athlete, his father's favourite, some said. When Mehmed died he marched on Bursa, the old capital, and had himself proclaimed sultan. He offered his brother a deal: you take Europe, I take Anatolia. Bayezid's answer, as the story goes, was that kings have no kin. In June 1481 his army crushed Cem's, and Cem fled to Mamluk Egypt and went on to Mecca.",
+        "A second try in 1482 failed too. So Cem took a gamble and asked the Knights of St John on Rhodes for safe passage. They took him in and then made a deal with Bayezid, who paid them a huge yearly fee to keep his brother out of the way. Cem was shipped to France and shut up in a string of castles for years.",
+        "In 1489 he was handed to Pope Innocent VIII, who dreamed of using him to lead a crusade. Then came Pope Alexander VI, the Borgia. In 1495 the French king Charles VIII invaded Italy and took Cem with him as a bargaining chip. Cem fell ill and died at Naples in February. Bayezid got his body back in 1499 and buried him at Bursa."
+      ],
+      "claims": [
+        {
+          "text": "Bayezid paid the Knights of Rhodes 45,000 ducats a year to keep Cem locked up.",
+          "status": "confirmed",
+          "note": "The deal of 1482 is well documented. The Pope later got a similar fee, plus a famous relic, the Holy Lance."
+        },
+        {
+          "text": "Pope Alexander VI had Cem poisoned before handing him over.",
+          "status": "disputed",
+          "note": "Poison was the first thing people said, especially about a Borgia. He died weeks after leaving Rome, and most historians think it was illness."
+        },
+        {
+          "text": "Bayezid offered the Pope 300,000 ducats to have Cem killed.",
+          "status": "disputed",
+          "note": "It rests on a letter seized from an Ottoman envoy in 1494, whose genuineness has long been doubted."
+        }
+      ],
+      "hook": "Cem comes home in a coffin. Bayezid rules on, old and tired, and his sons are already measuring the throne. The hungriest of them is Selim, and he isn't going to wait.",
+      "images": [
+        {
+          "file": "File:Cem Sultan, Pinturicchio, liberia piccolomini, 1502-07 circa, Pio II giunge ad Ancona per dare inizio alla crociata 07.jpg",
+          "url": "https://upload.wikimedia.org/wikipedia/commons/d/de/Cem_Sultan%2C_Pinturicchio%2C_liberia_piccolomini%2C_1502-07_circa%2C_Pio_II_giunge_ad_Ancona_per_dare_inizio_alla_crociata_07.jpg",
+          "page": "https://commons.wikimedia.org/wiki/File:Cem_Sultan,_Pinturicchio,_liberia_piccolomini,_1502-07_circa,_Pio_II_giunge_ad_Ancona_per_dare_inizio_alla_crociata_07.jpg",
+          "credit": "Pinturicchio",
+          "license": "CC BY-SA 3.0",
+          "made": "c. 1502–07",
+          "caption": "A figure traditionally identified as Cem, from a fresco Pinturicchio painted in Siena about ten years after Cem's death.",
+          "alt": "Detail of a Renaissance fresco in the Piccolomini Library, Siena, showing a figure identified as Cem Sultan"
+        }
+      ],
+      "sources": [
+        {
+          "title": "Jem Sultan: The Adventures of a Captive Turkish Prince in Renaissance Europe",
+          "author": "John Freely",
+          "note": "HarperCollins, 2004"
+        },
+        {
+          "title": "Sultan Djem: un prince ottoman dans l'Europe du XVe siècle",
+          "author": "Nicolas Vatin",
+          "note": "Ankara, 1997; edits the Vâkı'ât-ı Sultân Cem and Guillaume Caoursin"
+        },
+        {
+          "title": "Vâkı'ât-ı Sultân Cem",
+          "note": "Account of Cem's exile by a member of his household"
+        },
+        {
+          "title": "Osman's Dream: The Story of the Ottoman Empire 1300–1923",
+          "author": "Caroline Finkel",
+          "note": "John Murray, 2005"
+        }
+      ],
+      "review": {
+        "status": "draft",
+        "notes": "Drafted from the listed sources; needs a human fact-check."
+      }
+    },
+    {
+      "id": "selim-i",
+      "kind": "monarch",
+      "rulers": [
+        "selim-i"
+      ],
+      "tagline": "Eight short years, and the Middle East changed hands",
+      "start": {
+        "date": "1512-04-25"
+      },
+      "end": {
+        "date": "1520-09-22"
+      },
+      "contestedWith": [],
+      "relationToPredecessor": "Son of Bayezid II",
+      "ageAtAccession": "About 41",
+      "cameToPower": "Forced his father to abdicate",
+      "reignEnded": "Died of illness near Çorlu",
+      "previously": "Cem dies at Naples, a pawn to the end. Bayezid's sons start to fight.",
+      "paragraphs": [
+        "Selim earned the name \"the Grim\". Once his father had stepped down, he hunted his brothers. Korkud was caught and strangled, then Ahmed was beaten in battle and killed, and their sons went the same way. In the east, Shah Ismail of Persia was winning Turkish tribesmen over to his Shia cause. Selim had his followers in Anatolia rounded up and killed in large numbers.",
+        "In August 1514 he met Ismail at Chaldiran. Ottoman guns and Janissaries tore the Persian cavalry apart. Then Selim turned south on the Mamluks, who had ruled Egypt and Syria for over 250 years. Their sultan died in battle near Aleppo in 1516; Selim took Cairo in 1517 and hanged the last Mamluk sultan at one of its gates. Mecca and Medina came with the deal.",
+        "That made Selim the guardian of Islam's holiest places, and he brought the last Abbasid caliph back to Istanbul. He wrote Persian poetry and was famously hard on his own ministers. In 1520, preparing another campaign, he fell ill on the road and died. He left just one son, and no one to fight him."
+      ],
+      "claims": [
+        {
+          "text": "The last Abbasid caliph handed the title of caliph to Selim in a ceremony in Istanbul.",
+          "status": "legend",
+          "note": "No source from the time mentions any handover. The story was written up in the 18th century, when the claim was politically useful."
+        },
+        {
+          "text": "\"May you be Selim's vizier!\" became a curse.",
+          "status": "legend",
+          "note": "The saying is famous in Turkish tradition but hard to trace to his day. That he had several top officials executed is solid."
+        },
+        {
+          "text": "Selim had his father poisoned after he abdicated.",
+          "status": "disputed",
+          "note": "Rumour from the start, since Bayezid died a month after stepping down. Nothing proves it."
+        }
+      ],
+      "hook": "Selim leaves an empire far bigger than the one he took, and one son. Suleiman is 25, polished, ready, and for once there are no brothers to kill.",
+      "images": [
+        {
+          "file": "File:Portraits of Selim I, in 1524 (contemporary) and 1579.jpg",
+          "url": "https://upload.wikimedia.org/wikipedia/commons/4/47/Portraits_of_Selim_I%2C_in_1524_%28contemporary%29_and_1579.jpg",
+          "page": "https://commons.wikimedia.org/wiki/File:Portraits_of_Selim_I,_in_1524_(contemporary)_and_1579.jpg",
+          "credit": "Ottoman artists, 16th century",
+          "license": "Public domain",
+          "made": "1524 and 1579",
+          "caption": "Two Ottoman portraits of Selim, painted a few years and about 60 years after his death.",
+          "alt": "Two Ottoman miniature portraits of Selim I side by side"
+        }
+      ],
+      "sources": [
+        {
+          "title": "God's Shadow: Sultan Selim, His Ottoman Empire, and the Making of the Modern World",
+          "author": "Alan Mikhail",
+          "note": "Liveright, 2020"
+        },
+        {
+          "title": "The Ottoman Empire: The Classical Age 1300–1600",
+          "author": "Halil İnalcık",
+          "note": "Weidenfeld & Nicolson, 1973"
+        },
+        {
+          "title": "Badā'i' al-zuhūr",
+          "author": "Ibn Iyas",
+          "note": "Egyptian eyewitness chronicle of the conquest of Cairo"
+        }
+      ],
+      "review": {
+        "status": "draft",
+        "notes": "Drafted from the listed sources; needs a human fact-check."
+      }
+    },
+    {
+      "id": "suleiman-i",
+      "kind": "monarch",
+      "rulers": [
+        "suleiman-i"
+      ],
+      "title": "Suleiman the Magnificent",
+      "tagline": "Lawgiver, conqueror, and a husband who broke every rule",
+      "start": {
+        "date": "1520-09-30"
+      },
+      "end": {
+        "date": "1566-09-06"
+      },
+      "contestedWith": [],
+      "relationToPredecessor": "Only surviving son of Selim I",
+      "ageAtAccession": "25",
+      "cameToPower": "Sole heir; no brothers to fight",
+      "reignEnded": "Died in his tent at Szigetvár",
+      "previously": "Selim the Grim dies of illness, leaving one son and no rivals.",
+      "paragraphs": [
+        "Europe called him Magnificent; his own people called him the Lawgiver. He took Belgrade in 1521 and threw the Knights out of Rhodes in 1522. At Mohács in 1526 he smashed the Hungarian army, and its young king drowned in the retreat. In 1529 he besieged Vienna and failed. His admiral Barbarossa ruled the Mediterranean, and his architect Sinan built the Süleymaniye mosque.",
+        "His palace was a drama of its own. His boyhood friend Ibrahim rose from slave to grand vizier, then was strangled in 1536. A Ruthenian captive called Hürrem, known in Europe as Roxelana, won his heart. He freed her and married her, which sultans simply didn't do, and she stayed by him in Istanbul.",
+        "His eldest son Mustafa, by another woman, was popular with the army. In 1553 Suleiman had him strangled in the royal tent. Later, Hürrem's son Bayezid rebelled against his brother Selim, fled to Persia, and the Shah let Ottoman executioners kill him there. In 1566, aged 71, Suleiman died in camp at the siege of Szigetvár. His vizier kept it secret so the army would not panic."
+      ],
+      "claims": [
+        {
+          "text": "Hürrem plotted Mustafa's death to clear the way for her own sons.",
+          "status": "disputed",
+          "note": "Foreign envoys like Busbecq believed it, and so did many Ottomans. Hard evidence of her role is lacking, and she may have been made a scapegoat."
+        },
+        {
+          "text": "Grand vizier Sokollu hid the sultan's death from the army for weeks.",
+          "status": "confirmed",
+          "note": "Ottoman and European accounts agree he kept it quiet until the heir Selim could be told and reach the army."
+        },
+        {
+          "text": "Hürrem was the daughter of an Orthodox priest in Ruthenia.",
+          "status": "legend",
+          "note": "The tradition comes from 16th-century European writers. Nothing from her own side confirms her family."
+        }
+      ],
+      "hook": "The old lion lies dead in his tent, and only a few men know. One son is left standing to inherit it all: Selim, a man who would rather drink than ride to war.",
+      "images": [
+        {
+          "file": "File:EmperorSuleiman.jpg",
+          "url": "https://upload.wikimedia.org/wikipedia/commons/e/e9/EmperorSuleiman.jpg",
+          "page": "https://commons.wikimedia.org/wiki/File:EmperorSuleiman.jpg",
+          "credit": "Circle of Titian",
+          "license": "Public domain",
+          "made": "1530s",
+          "caption": "Painted in Titian's circle in Venice during his reign, probably without the sultan ever sitting for it.",
+          "alt": "Half-length painted portrait of Sultan Suleiman in profile, wearing a large turban"
+        }
+      ],
+      "sources": [
+        {
+          "title": "Suleiman the Magnificent",
+          "author": "André Clot",
+          "note": "Saqi Books, 1992"
+        },
+        {
+          "title": "Empress of the East: How a European Slave Girl Became Queen of the Ottoman Empire",
+          "author": "Leslie Peirce",
+          "note": "Basic Books, 2017"
+        },
+        {
+          "title": "The Imperial Harem: Women and Sovereignty in the Ottoman Empire",
+          "author": "Leslie Peirce",
+          "note": "Oxford University Press, 1993"
+        },
+        {
+          "title": "The Turkish Letters",
+          "author": "Ogier Ghiselin de Busbecq",
+          "note": "Habsburg envoy's eyewitness account; Mustafa's death"
+        }
+      ],
+      "review": {
+        "status": "draft",
+        "notes": "Drafted from the listed sources; needs a human fact-check."
+      }
+    },
+    {
+      "id": "selim-ii",
+      "kind": "monarch",
+      "rulers": [
+        "selim-ii"
+      ],
+      "tagline": "The first sultan who let others fight his wars",
+      "start": {
+        "date": "1566-09-29"
+      },
+      "end": {
+        "date": "1574-12-15"
+      },
+      "contestedWith": [],
+      "relationToPredecessor": "Son of Suleiman and Hürrem",
+      "ageAtAccession": "42",
+      "cameToPower": "Last surviving son of Suleiman",
+      "reignEnded": "Slipped in the bath, died of fever",
+      "previously": "Suleiman dies in his tent at Szigetvár, and his vizier hides it.",
+      "paragraphs": [
+        "Selim had won the throne by outliving his brothers, and he showed little wish to lead an army. He left the hard work to the grand vizier Sokollu Mehmed Pasha, who was married to his daughter. The Janissaries refused to cheer him until he paid them off. Europe called him the Sot for his love of wine.",
+        "In 1570 his armies invaded Cyprus, then ruled by Venice. Nicosia fell fast; Famagusta held out for almost a year, and its commander Bragadin was skinned alive after he surrendered. Christian Europe struck back. On 7 October 1571 the fleet of the Holy League destroyed the Ottoman navy at Lepanto. One of the wounded on the Christian side was the young Miguel de Cervantes.",
+        "Within a year the Ottomans had built a new fleet, and in 1573 Venice signed Cyprus away anyway. Sinan built Selim his masterpiece, the Selimiye mosque at Edirne. In December 1574 Selim slipped on the wet floor of a palace bath and died of the fever that followed. He was 50."
+      ],
+      "claims": [
+        {
+          "text": "Selim invaded Cyprus for its wine.",
+          "status": "legend",
+          "note": "A favourite tale of European writers. Cyprus was a Venetian base sitting on Ottoman sea lanes, which is reason enough."
+        },
+        {
+          "text": "Sokollu told Venice: you cut off our beard at Lepanto, but we cut off your arm when we took Cyprus, and a beard grows back.",
+          "status": "disputed",
+          "note": "It comes from Venetian reports of a talk with the vizier. The wording got polished with every retelling."
+        },
+        {
+          "text": "Selim was drunk when he fell in the bath.",
+          "status": "disputed",
+          "note": "It fits his reputation, and later writers said so. Sources from the time just record the fall and the fever."
+        }
+      ],
+      "hook": "Selim's eldest son Murad races from Manisa to Istanbul. Before he can sit on the throne, a grim custom has to be carried out on his five little brothers.",
+      "images": [
+        {
+          "file": "File:Portrait of Selim II by Nakkaş Osman, Şemâ'ilnâme, 1579, Istanbul, Topkapı Sarayı Müzesi, Н. 1563.jpg",
+          "url": "https://upload.wikimedia.org/wikipedia/commons/9/99/Portrait_of_Selim_II_by_Nakka%C5%9F_Osman%2C_%C5%9Eem%C3%A2%27iln%C3%A2me%2C_1579%2C_Istanbul%2C_Topkap%C4%B1_Saray%C4%B1_M%C3%BCzesi%2C_%D0%9D._1563.jpg",
+          "page": "https://commons.wikimedia.org/wiki/File:Portrait_of_Selim_II_by_Nakka%C5%9F_Osman,_%C5%9Eem%C3%A2%27iln%C3%A2me,_1579,_Istanbul,_Topkap%C4%B1_Saray%C4%B1_M%C3%BCzesi,_%D0%9D._1563.jpg",
+          "credit": "Nakkaş Osman",
+          "license": "Public domain",
+          "made": "1579",
+          "caption": "From the Şemâ'ilnâme, the official book of sultans' portraits, painted five years after his death.",
+          "alt": "Ottoman miniature portrait of Sultan Selim II from the Şemâ'ilnâme"
+        }
+      ],
+      "sources": [
+        {
+          "title": "Osman's Dream: The Story of the Ottoman Empire 1300–1923",
+          "author": "Caroline Finkel",
+          "note": "John Murray, 2005"
+        },
+        {
+          "title": "The Ottoman Empire, 1300–1650: The Structure of Power",
+          "author": "Colin Imber",
+          "note": "Palgrave, 2002"
+        },
+        {
+          "title": "Empires of the Sea: The Final Battle for the Mediterranean, 1521–1580",
+          "author": "Roger Crowley",
+          "note": "Faber, 2008"
+        },
+        {
+          "title": "The Age of Sinan: Architectural Culture in the Ottoman Empire",
+          "author": "Gülru Necipoğlu",
+          "note": "Reaktion, 2005"
+        }
+      ],
+      "review": {
+        "status": "draft",
+        "notes": "Drafted from the listed sources; needs a human fact-check."
+      }
+    },
+    {
+      "id": "murad-iii",
+      "kind": "monarch",
+      "rulers": [
+        "murad-iii"
+      ],
+      "tagline": "The stay-at-home sultan with a palace full of children",
+      "start": {
+        "date": "1574-12-22"
+      },
+      "end": {
+        "date": "1595-01-16"
+      },
+      "contestedWith": [],
+      "relationToPredecessor": "Eldest son of Selim II",
+      "ageAtAccession": "28",
+      "cameToPower": "Raced in from Manisa to claim it",
+      "reignEnded": "Died in the palace",
+      "previously": "Selim II is dead. Nurbanu keeps it quiet until their son can get home.",
+      "paragraphs": [
+        "Murad's mother Nurbanu hid her husband's death until her son could ride in from his post at Manisa. On his first day as sultan, Murad had his five younger brothers strangled, as the dynasty's law of fratricide allowed. Then he settled in, and barely left. He never led an army. He loved Sufi mysticism and lavish illustrated books, and threw a circumcision festival for his son in 1582 that ran for nearly two months.",
+        "Power drifted into the harem, where Nurbanu, then his favourite Safiye, decided who got jobs. The old grand vizier Sokollu Mehmed Pasha was stabbed to death in 1579. A long war with Persia won Georgia, Azerbaijan and Tabriz, and Murad swapped friendly letters with Elizabeth I, who wanted trade and help against Spain. But he debased the silver coinage, and in 1589 unpaid Janissaries rioted until he gave them the heads of the officials they blamed.",
+        "In 1593 a new war broke out with the Habsburgs in Hungary. Murad did not live to see it end. He died in January 1595, leaving a very large family behind him."
+      ],
+      "claims": [
+        {
+          "text": "Murad fathered more than 100 children.",
+          "status": "disputed",
+          "note": "Counts from Venetian envoys and Ottoman sources vary; around 20 sons and dozens of daughters were alive at his death. The 100-plus total includes children who died young and may be inflated."
+        },
+        {
+          "text": "For years Murad was impotent with every woman but Safiye, and Safiye's servants were accused of witchcraft.",
+          "status": "disputed",
+          "note": "Reported by Venetian ambassadors, who relied on palace gossip. Leslie Peirce discusses it as a power struggle between Nurbanu and Safiye."
+        },
+        {
+          "text": "Nurbanu was a kidnapped Venetian noblewoman, Cecilia Venier-Baffo.",
+          "status": "disputed",
+          "note": "A popular Venetian story. Some historians think she came from Corfu or elsewhere, and the evidence for her noble birth is thin."
+        }
+      ],
+      "hook": "Murad leaves 19 living sons and one throne. The eldest, Mehmed, is riding in from Manisa. The palace executioners are already waiting with their silk cords.",
+      "images": [
+        {
+          "file": "File:Sultan Murad III (1546-1595) portrait. Miniature from “Zubdat al Tawarikh” (Ms. 1973, fol. 59b) by Seyyd Lokman Ashuri 1583 Istanbul, Turkish-Islamic Art Museum.jpg",
+          "url": "https://upload.wikimedia.org/wikipedia/commons/a/a2/Sultan_Murad_III_%281546-1595%29_portrait._Miniature_from_%E2%80%9CZubdat_al_Tawarikh%E2%80%9D_%28Ms._1973%2C_fol._59b%29_by_Seyyd_Lokman_Ashuri_1583_Istanbul%2C_Turkish-Islamic_Art_Museum.jpg",
+          "page": "https://commons.wikimedia.org/wiki/File:Sultan_Murad_III_%281546-1595%29_portrait._Miniature_from_%E2%80%9CZubdat_al_Tawarikh%E2%80%9D_%28Ms._1973%2C_fol._59b%29_by_Seyyd_Lokman_Ashuri_1583_Istanbul%2C_Turkish-Islamic_Art_Museum.jpg",
+          "credit": "Ottoman court painters, for Seyyid Lokman's Zübdetü't-Tevarih",
+          "license": "Public domain",
+          "made": "1583",
+          "caption": "Painted in 1583 for a history of the dynasty, while Murad was on the throne.",
+          "alt": "Ottoman manuscript miniature portrait of Sultan Murad III"
+        }
+      ],
+      "sources": [
+        {
+          "title": "The Imperial Harem: Women and Sovereignty in the Ottoman Empire",
+          "author": "Leslie P. Peirce",
+          "note": "Oxford University Press, 1993"
+        },
+        {
+          "title": "Osman's Dream: The Story of the Ottoman Empire 1300–1923",
+          "author": "Caroline Finkel",
+          "note": "John Murray, 2005"
+        },
+        {
+          "title": "Tarih-i Selaniki",
+          "author": "Selaniki Mustafa Efendi",
+          "note": "Eyewitness chronicle of Murad III's and Mehmed III's reigns"
+        }
+      ],
+      "review": {
+        "status": "draft",
+        "notes": "Drafted from the listed sources; needs a human fact-check."
+      }
+    },
+    {
+      "id": "mehmed-iii",
+      "kind": "monarch",
+      "rulers": [
+        "mehmed-iii"
+      ],
+      "tagline": "Nineteen brothers, nineteen coffins, one sultan",
+      "start": {
+        "date": "1595-01-27"
+      },
+      "end": {
+        "date": "1603-12-22"
+      },
+      "contestedWith": [],
+      "relationToPredecessor": "Eldest son of Murad III",
+      "ageAtAccession": "28",
+      "cameToPower": "Succeeded his father",
+      "reignEnded": "Sudden death at 37",
+      "previously": "Murad III is dead, leaving 19 sons and only one throne.",
+      "paragraphs": [
+        "Mehmed reached the capital in late January 1595 and did not wait. His 19 brothers were strangled, some of them small boys, and laid to rest beside their father. The city watched the little coffins go by. It was the bloodiest use of the law of fratricide the dynasty ever saw, and it left people deeply uneasy.",
+        "His mother Safiye ran much of the government. Mehmed did one thing his father never had: he went to war in person. In 1596 he took the fortress of Eger in Hungary, then beat a Habsburg army at Mezőkeresztes. Elizabeth I sent him a clockwork organ, and its builder came along to play it. At home, though, the Celali rebels were tearing Anatolia apart.",
+        "In 1603 Mehmed had his own eldest son, Mahmud, strangled on suspicion of plotting. A few months later Mehmed himself fell ill and died, aged 37."
+      ],
+      "claims": [
+        {
+          "text": "At Mezőkeresztes, Mehmed wanted to flee and his tutor talked him into staying.",
+          "status": "disputed",
+          "note": "The story comes from Ottoman chroniclers, and was later used to make his tutor Sadeddin the hero. How close Mehmed came to leaving is unclear."
+        },
+        {
+          "text": "Elizabeth I's gift of a mechanical organ was played for the sultan by its builder, Thomas Dallam.",
+          "status": "confirmed",
+          "note": "Dallam kept a diary of the trip, including playing before Mehmed in 1599."
+        },
+        {
+          "text": "Mahmud was killed because a holy man predicted he would soon be sultan.",
+          "status": "disputed",
+          "note": "Reported by contemporaries, including foreign envoys. Palace intrigue around Safiye was probably the bigger factor."
+        }
+      ],
+      "hook": "Mehmed leaves two young sons: Ahmed, aged 13, and his younger half-brother Mustafa. Under the old rules, a new sultan's first job is to kill his brothers.",
+      "images": [
+        {
+          "file": "File:Portrait of Mehmed III.jpg",
+          "url": "https://upload.wikimedia.org/wikipedia/commons/d/df/Portrait_of_Mehmed_III.jpg",
+          "page": "https://commons.wikimedia.org/wiki/File:Portrait_of_Mehmed_III.jpg",
+          "credit": "Crispijn de Passe the Elder",
+          "license": "Public domain",
+          "made": "1595",
+          "caption": "Engraved by the Dutch artist Crispijn de Passe in 1595, the year Mehmed took the throne.",
+          "alt": "Engraved portrait of Sultan Mehmed III"
+        }
+      ],
+      "sources": [
+        {
+          "title": "The Imperial Harem: Women and Sovereignty in the Ottoman Empire",
+          "author": "Leslie P. Peirce",
+          "note": "Oxford University Press, 1993"
+        },
+        {
+          "title": "Osman's Dream: The Story of the Ottoman Empire 1300–1923",
+          "author": "Caroline Finkel",
+          "note": "John Murray, 2005"
+        },
+        {
+          "title": "Tarih-i Selaniki",
+          "author": "Selaniki Mustafa Efendi",
+          "note": "Eyewitness chronicle of Murad III's and Mehmed III's reigns"
+        },
+        {
+          "title": "The Diary of Master Thomas Dallam, 1599–1600",
+          "author": "Thomas Dallam",
+          "note": "Printed in Early Voyages and Travels in the Levant, Hakluyt Society, 1893"
+        }
+      ],
+      "review": {
+        "status": "draft",
+        "notes": "Drafted from the listed sources; needs a human fact-check."
+      }
+    },
+    {
+      "id": "ahmed-i",
+      "kind": "monarch",
+      "rulers": [
+        "ahmed-i"
+      ],
+      "tagline": "The boy sultan who let his brother live",
+      "start": {
+        "date": "1603-12-22"
+      },
+      "end": {
+        "date": "1617-11-22"
+      },
+      "contestedWith": [],
+      "relationToPredecessor": "Eldest surviving son of Mehmed III",
+      "ageAtAccession": "13",
+      "cameToPower": "Succeeded his father",
+      "reignEnded": "Died of typhus at 27",
+      "previously": "Mehmed III dies suddenly at 37. His heir is a boy of 13.",
+      "paragraphs": [
+        "Ahmed was 13 and had never run anything. He broke with the rule that had killed 19 of his uncles: his nervous younger half-brother Mustafa was allowed to live. Partly that was caution, since Ahmed had no son yet. Mustafa was shut away in palace rooms instead, with servants and no future. It was the start of what came to be called the kafes, the cage.",
+        "Ahmed ended the long Habsburg war with the Peace of Zsitvatorok in 1606, which treated the emperor in Vienna as an equal. His grand vizier Kuyucu Murad Pasha crushed the Celali rebels with mass killings; his nickname means 'the Well-Digger', for the pits he filled. Ahmed's lasting monument is the Sultan Ahmed Mosque, the Blue Mosque, finished in 1616 opposite Hagia Sophia.",
+        "His favourite, Kösem, gave him several sons. She would stay at the centre of power for four decades."
+      ],
+      "claims": [
+        {
+          "text": "The mosque got six minarets because the architect misheard 'altın' (gold) as 'altı' (six).",
+          "status": "legend",
+          "note": "A guide's favourite with no early source. Six minarets did cause a stir, since only Mecca had as many."
+        },
+        {
+          "text": "Kösem was a Greek girl, the daughter of a priest on the island of Tinos.",
+          "status": "disputed",
+          "note": "Venetian and later accounts say so. It is widely repeated but hard to prove."
+        },
+        {
+          "text": "Ahmed wrote poetry under the pen name Bahti.",
+          "status": "confirmed",
+          "note": "His verses survive and are cited by Ottoman literary biographers."
+        }
+      ],
+      "hook": "Ahmed dies at 27. His eldest son Osman is only 13. For the first time, the throne passes to a brother: Mustafa is led out of his rooms, blinking.",
+      "images": [
+        {
+          "file": "File:Portrait of Sultan Ahmed I.png",
+          "url": "https://upload.wikimedia.org/wikipedia/commons/1/1d/Portrait_of_Sultan_Ahmed_I.png",
+          "page": "https://commons.wikimedia.org/wiki/File:Portrait_of_Sultan_Ahmed_I.png",
+          "credit": "Unknown Ottoman painter",
+          "license": "CC0",
+          "made": "Early 17th century",
+          "caption": "An Ottoman miniature portrait from the early 17th century.",
+          "alt": "Ottoman miniature portrait of Sultan Ahmed I"
+        }
+      ],
+      "sources": [
+        {
+          "title": "The Imperial Harem: Women and Sovereignty in the Ottoman Empire",
+          "author": "Leslie P. Peirce",
+          "note": "Oxford University Press, 1993"
+        },
+        {
+          "title": "Osman's Dream: The Story of the Ottoman Empire 1300–1923",
+          "author": "Caroline Finkel",
+          "note": "John Murray, 2005"
+        },
+        {
+          "title": "The Ottoman Empire, 1300–1650: The Structure of Power",
+          "author": "Colin Imber",
+          "note": "Palgrave Macmillan, 2002"
+        }
+      ],
+      "review": {
+        "status": "draft",
+        "notes": "Drafted from the listed sources; needs a human fact-check."
+      }
+    },
+    {
+      "id": "mustafa-i",
+      "kind": "monarch",
+      "rulers": [
+        "mustafa-i"
+      ],
+      "tagline": "Fourteen years locked away, 96 days on the throne",
+      "start": {
+        "date": "1617-11-22"
+      },
+      "end": {
+        "date": "1618-02-26"
+      },
+      "contestedWith": [],
+      "relationToPredecessor": "Younger half-brother of Ahmed I",
+      "ageAtAccession": "About 26",
+      "cameToPower": "Succeeded his brother",
+      "reignEnded": "Deposed as unfit",
+      "previously": "Ahmed I dies at 27. For once, his brother is still alive to succeed.",
+      "paragraphs": [
+        "Mustafa spent 14 years shut in the palace, never sure each day wasn't his last. When Ahmed died in November 1617, the court passed over Ahmed's young sons and gave Mustafa the throne. It was the first time an Ottoman brother had followed a brother, and it set the rule for the centuries ahead: the oldest male of the dynasty inherits.",
+        "It went wrong almost at once. Courtiers said he behaved oddly in public, rambled, and could not handle business. Stories went round that he threw gold coins to the fish. After 96 days the chief black eunuch and the senior officials had him deposed and sent back to his rooms. His 13-year-old nephew Osman took over."
+      ],
+      "claims": [
+        {
+          "text": "Mustafa fed gold coins to the fish in the Bosphorus.",
+          "status": "legend",
+          "note": "A colourful anecdote repeated by later writers. No reliable eyewitness backs it up."
+        },
+        {
+          "text": "Mustafa was mentally ill.",
+          "status": "disputed",
+          "note": "His contemporaries thought so. Some modern historians, such as Baki Tezcan, argue the label also suited officials who wanted him gone."
+        },
+        {
+          "text": "Mustafa was the first Ottoman sultan to succeed a brother.",
+          "status": "confirmed",
+          "note": "Every sultan before him had followed his father."
+        }
+      ],
+      "hook": "Osman is 13, clever and impatient. He thinks the Janissaries are the empire's real problem. The Janissaries will soon have their own opinion of him.",
+      "images": [
+        {
+          "file": "File:Portrait of Sultan Mustafa I (r. 1617–18; 1622–23) MET DP273297.jpg",
+          "url": "https://upload.wikimedia.org/wikipedia/commons/0/08/Portrait_of_Sultan_Mustafa_I_%28r._1617%E2%80%9318%3B_1622%E2%80%9323%29_MET_DP273297.jpg",
+          "page": "https://commons.wikimedia.org/wiki/File:Portrait_of_Sultan_Mustafa_I_%28r._1617%E2%80%9318%3B_1622%E2%80%9323%29_MET_DP273297.jpg",
+          "credit": "Unknown Ottoman painter",
+          "license": "CC0",
+          "made": "Late 17th–early 18th century",
+          "caption": "An album portrait painted roughly a century after his reigns, now in the Metropolitan Museum of Art.",
+          "alt": "Ottoman album painting of Sultan Mustafa I"
+        }
+      ],
+      "sources": [
+        {
+          "title": "The Imperial Harem: Women and Sovereignty in the Ottoman Empire",
+          "author": "Leslie P. Peirce",
+          "note": "Oxford University Press, 1993"
+        },
+        {
+          "title": "The Second Ottoman Empire: Political and Social Transformation in the Early Modern World",
+          "author": "Baki Tezcan",
+          "note": "Cambridge University Press, 2010"
+        },
+        {
+          "title": "Osman's Dream: The Story of the Ottoman Empire 1300–1923",
+          "author": "Caroline Finkel",
+          "note": "John Murray, 2005"
+        }
+      ],
+      "review": {
+        "status": "draft",
+        "notes": "Drafted from the listed sources; needs a human fact-check."
+      }
+    },
+    {
+      "id": "osman-ii",
+      "kind": "monarch",
+      "rulers": [
+        "osman-ii"
+      ],
+      "tagline": "The teenage sultan his own soldiers killed",
+      "start": {
+        "date": "1618-02-26"
+      },
+      "end": {
+        "date": "1622-05-19"
+      },
+      "contestedWith": [],
+      "relationToPredecessor": "Nephew; eldest son of Ahmed I",
+      "ageAtAccession": "13",
+      "cameToPower": "Replaced his deposed uncle",
+      "reignEnded": "Toppled by mutinous troops",
+      "previously": "After 96 days, the palace decides Mustafa I is unfit to rule.",
+      "paragraphs": [
+        "Osman was bright, sporty and very sure of himself. Before marching north in 1621 he had his brother Mehmed strangled, just in case. Then he led a vast army against Poland-Lithuania at Khotyn on the Dniester. The siege dragged on, the troops grumbled, and he settled for a peace that won little. He blamed the Janissaries.",
+        "His answer was drastic. Osman planned to cross into Anatolia, officially on pilgrimage to Mecca, and raise a new army there. Word got out. In May 1622 the Janissaries and palace cavalry rose, broke into the palace and pulled the bewildered Mustafa out of his rooms to be sultan again. Osman was dragged across the city to the Yedikule fortress, the Seven Towers, and strangled on 20 May. He was 17.",
+        "No Ottoman sultan had ever been killed by his own men. Something sacred about the dynasty had broken."
+      ],
+      "claims": [
+        {
+          "text": "Osman fought so hard that his killers had to crush his testicles to finish him.",
+          "status": "disputed",
+          "note": "Told by the contemporary Ottoman chronicler Hüseyin Tugi. The grim detail can't be checked, but the story was widely believed."
+        },
+        {
+          "text": "One of Osman's ears was cut off and taken to Mustafa's mother as proof.",
+          "status": "disputed",
+          "note": "Reported in Ottoman accounts of the murder. It may be an embellishment."
+        },
+        {
+          "text": "Osman meant to abolish the Janissaries and replace them.",
+          "status": "disputed",
+          "note": "His enemies said so. Historians argue over how far his plans actually went."
+        }
+      ],
+      "hook": "Mustafa is back on the throne, though he barely seems to know it. The men who killed Osman are in charge, and half the empire wants revenge.",
+      "images": [
+        {
+          "file": "File:Portrait of Osman II, 1618. Hazine 2169.jpg",
+          "url": "https://upload.wikimedia.org/wikipedia/commons/8/88/Portrait_of_Osman_II%2C_1618._Hazine_2169.jpg",
+          "page": "https://commons.wikimedia.org/wiki/File:Portrait_of_Osman_II%2C_1618._Hazine_2169.jpg",
+          "credit": "Unknown Ottoman painter",
+          "license": "Public domain",
+          "made": "1618",
+          "caption": "A court portrait painted in 1618, the year he became sultan.",
+          "alt": "Ottoman manuscript miniature portrait of Sultan Osman II, from the Topkapı Palace Library"
+        }
+      ],
+      "sources": [
+        {
+          "title": "An Ottoman Tragedy: History and Historiography at Play",
+          "author": "Gabriel Piterberg",
+          "note": "University of California Press, 2003; on Osman II's murder"
+        },
+        {
+          "title": "The Second Ottoman Empire: Political and Social Transformation in the Early Modern World",
+          "author": "Baki Tezcan",
+          "note": "Cambridge University Press, 2010"
+        },
+        {
+          "title": "The Imperial Harem: Women and Sovereignty in the Ottoman Empire",
+          "author": "Leslie P. Peirce",
+          "note": "Oxford University Press, 1993"
+        },
+        {
+          "title": "Tarih-i Naima",
+          "author": "Mustafa Naima",
+          "note": "Ottoman chronicle of the 17th century"
+        }
+      ],
+      "review": {
+        "status": "draft",
+        "notes": "Drafted from the listed sources; needs a human fact-check."
+      }
+    },
+    {
+      "id": "mustafa-i-restored",
+      "kind": "monarch",
+      "rulers": [
+        "mustafa-i"
+      ],
+      "title": "Mustafa I, again",
+      "tagline": "Back on the throne, and still not really there",
+      "start": {
+        "date": "1622-05-20"
+      },
+      "end": {
+        "date": "1623-09-10"
+      },
+      "contestedWith": [],
+      "relationToPredecessor": "Uncle of Osman II",
+      "ageAtAccession": "About 31",
+      "cameToPower": "Restored by the Janissaries",
+      "reignEnded": "Deposed again, quietly",
+      "previously": "Mutinous troops have toppled Osman II and want Mustafa back.",
+      "paragraphs": [
+        "Mustafa's second reign belonged to everyone except Mustafa. His mother Halime Sultan and a revolving door of grand viziers ran things. One of them, Davud Pasha, had overseen Osman's murder. Within months the mood turned and he was executed himself.",
+        "In the east, Abaza Mehmed Pasha, governor of Erzurum, rebelled to avenge Osman and started killing Janissaries in his province. The treasury was empty and the troops unpaid. By the summer of 1623 even Mustafa's backers had had enough. His mother agreed he would step down, as long as his life was spared. Ahmed I's son Murad, aged 11, was made sultan instead. Mustafa went back to his rooms and lived there until 1639."
+      ],
+      "claims": [
+        {
+          "text": "When the rebels found Mustafa in 1622, he had been left for days without food or water.",
+          "status": "disputed",
+          "note": "Told in Ottoman accounts of the uprising. The details vary between versions."
+        },
+        {
+          "text": "Mustafa wandered the palace knocking on doors, asking for Osman to come and take the throne back.",
+          "status": "legend",
+          "note": "A sad anecdote passed down by chroniclers. It fits his reputation, which makes it easy to invent."
+        },
+        {
+          "text": "Abaza Mehmed Pasha rebelled in Osman's name.",
+          "status": "confirmed",
+          "note": "His revolt and his campaign against the Janissaries are well recorded in Ottoman chronicles."
+        }
+      ],
+      "hook": "An 11-year-old is now sultan, and his mother Kösem will rule for him. When he grows up, he'll rule with an executioner at his side.",
+      "images": [
+        {
+          "file": "File:Mustafa I by John Young.jpg",
+          "url": "https://upload.wikimedia.org/wikipedia/commons/5/53/Mustafa_I_by_John_Young.jpg",
+          "page": "https://commons.wikimedia.org/wiki/File:Mustafa_I_by_John_Young.jpg",
+          "credit": "John Young",
+          "license": "Public domain",
+          "made": "1815",
+          "caption": "From John Young's 1815 series of sultans' portraits, nearly two centuries after his reign.",
+          "alt": "Printed portrait of Sultan Mustafa I"
+        }
+      ],
+      "sources": [
+        {
+          "title": "The Imperial Harem: Women and Sovereignty in the Ottoman Empire",
+          "author": "Leslie P. Peirce",
+          "note": "Oxford University Press, 1993"
+        },
+        {
+          "title": "The Second Ottoman Empire: Political and Social Transformation in the Early Modern World",
+          "author": "Baki Tezcan",
+          "note": "Cambridge University Press, 2010"
+        },
+        {
+          "title": "Osman's Dream: The Story of the Ottoman Empire 1300–1923",
+          "author": "Caroline Finkel",
+          "note": "John Murray, 2005"
+        }
+      ],
+      "review": {
+        "status": "draft",
+        "notes": "Drafted from the listed sources; needs a human fact-check."
+      }
+    },
+    {
+      "id": "murad-iv",
+      "kind": "monarch",
+      "rulers": [
+        "murad-iv"
+      ],
+      "tagline": "The sultan who put smokers to death",
+      "start": {
+        "date": "1623-09-10"
+      },
+      "end": {
+        "date": "1640-02-08"
+      },
+      "contestedWith": [],
+      "relationToPredecessor": "Nephew; son of Ahmed I and Kösem",
+      "ageAtAccession": "11",
+      "cameToPower": "Chosen to replace his uncle",
+      "reignEnded": "Died of drink at 27",
+      "previously": "Mustafa is deposed again. Kösem's 11-year-old son gets the throne.",
+      "paragraphs": [
+        "For about nine years Murad reigned in name while his mother Kösem ran the government. The soldiers ran wild, Baghdad fell to Persia in 1624, and in 1632 rioting troops cut down his grand vizier in front of him. Murad watched, waited, then struck. He hunted down the ringleaders and took power for himself.",
+        "He ruled by fear. After a great fire in 1633 he shut the coffee houses and banned tobacco and wine, and he was said to patrol the city at night in disguise, executing offenders on the spot. He was big, strong and a superb archer. He also had three of his brothers killed.",
+        "On campaign he was formidable. He took Yerevan in 1635 and won back Baghdad in 1638, and the peace of 1639 set a border with Persia that roughly survives today. Then the drinking caught up with him. He died in February 1640, aged 27."
+      ],
+      "claims": [
+        {
+          "text": "Murad personally executed people caught smoking.",
+          "status": "disputed",
+          "note": "Ottoman writers such as Kâtib Çelebi report thousands of executions under the ban. The numbers and the night patrols may be exaggerated."
+        },
+        {
+          "text": "Hezarfen Ahmed Çelebi flew on artificial wings from Galata Tower across the Bosphorus, and Murad rewarded him, then exiled him.",
+          "status": "legend",
+          "note": "Only Evliya Çelebi tells it, and he loved a tall tale."
+        },
+        {
+          "text": "On his deathbed Murad ordered his last brother Ibrahim killed, and Kösem stopped it.",
+          "status": "disputed",
+          "note": "Reported by chroniclers after the fact. It may be gossip, but it fits Murad's record."
+        }
+      ],
+      "hook": "Murad's sons have all died young and his brothers are dead too, except one. The whole dynasty now rests on Ibrahim, who has spent his life in the cage, terrified.",
+      "images": [
+        {
+          "file": "File:Murad IV portrait. Topkapi Palace Museum Library, H. 2148, 11b.jpg",
+          "url": "https://upload.wikimedia.org/wikipedia/commons/6/68/Murad_IV_portrait._Topkapi_Palace_Museum_Library%2C_H._2148%2C_11b.jpg",
+          "page": "https://commons.wikimedia.org/wiki/File:Murad_IV_portrait._Topkapi_Palace_Museum_Library%2C_H._2148%2C_11b.jpg",
+          "credit": "Unknown Ottoman painter",
+          "license": "Public domain",
+          "made": "Mid-17th century",
+          "caption": "An Ottoman miniature painted in the mid-17th century, around the time of his reign or soon after.",
+          "alt": "Ottoman manuscript miniature portrait of Sultan Murad IV, from the Topkapı Palace Library"
+        }
+      ],
+      "sources": [
+        {
+          "title": "Osman's Dream: The Story of the Ottoman Empire 1300–1923",
+          "author": "Caroline Finkel",
+          "note": "John Murray, 2005"
+        },
+        {
+          "title": "The Imperial Harem: Women and Sovereignty in the Ottoman Empire",
+          "author": "Leslie P. Peirce",
+          "note": "Oxford University Press, 1993"
+        },
+        {
+          "title": "The Balance of Truth",
+          "author": "Kâtib Çelebi",
+          "note": "Trans. G. L. Lewis, 1957; on Murad IV's tobacco ban"
+        },
+        {
+          "title": "Seyahatname (Book of Travels)",
+          "author": "Evliya Çelebi"
+        }
+      ],
+      "review": {
+        "status": "draft",
+        "notes": "Drafted from the listed sources; needs a human fact-check."
+      }
+    },
+    {
+      "id": "ibrahim",
+      "kind": "monarch",
+      "rulers": [
+        "ibrahim"
+      ],
+      "tagline": "Furs, perfume and an empire running out of money",
+      "start": {
+        "date": "1640-02-09"
+      },
+      "end": {
+        "date": "1648-08-08"
+      },
+      "contestedWith": [],
+      "relationToPredecessor": "Younger brother of Murad IV",
+      "ageAtAccession": "24",
+      "cameToPower": "Last male of the dynasty",
+      "reignEnded": "Deposed, then strangled",
+      "previously": "Murad IV dies at 27. Only one male of the dynasty is left: Ibrahim.",
+      "paragraphs": [
+        "When officials came to tell Ibrahim he was sultan, he barricaded his door, sure it was a trick to kill him. He only came out when they showed him Murad's body. He had spent most of his 24 years waiting for the bowstring. He was also the last male Ottoman, so the court's top priority was sons. He obliged: Mehmed was born in 1642, Suleiman and Ahmed soon after.",
+        "For four years his able grand vizier, Kara Mustafa Pasha, kept the books balanced. In 1644 Ibrahim had him executed, and things came loose. Ibrahim spent wildly on sable furs, perfume and favourites. In 1645 he started a war with Venice over Crete that would last 24 years.",
+        "Taxes rose, a Venetian fleet blockaded the Dardanelles, and the clergy and Janissaries lost patience. In August 1648 they deposed him, and his mother Kösem agreed. Ten days later, with a religious ruling in hand, executioners strangled him in the palace."
+      ],
+      "claims": [
+        {
+          "text": "Ibrahim had the empire searched for the fattest woman he could find, and made her a favourite.",
+          "status": "legend",
+          "note": "Told in later histories. Contemporary evidence for the search is thin."
+        },
+        {
+          "text": "He had hundreds of concubines tied in sacks and drowned in the Bosphorus.",
+          "status": "legend",
+          "note": "It turns up in later European accounts with no Ottoman source behind it."
+        },
+        {
+          "text": "Ibrahim was mad.",
+          "status": "disputed",
+          "note": "He suffered headaches and fits of weakness. Some historians think the label suited the people who removed him."
+        }
+      ],
+      "hook": "Ibrahim's son Mehmed is six years old. Two women now fight over him: his grandmother Kösem, the most powerful woman in the empire, and his young mother Turhan.",
+      "images": [
+        {
+          "file": "File:Sultan İbrahim, 17. yüzyıl gravürü.jpg",
+          "url": "https://upload.wikimedia.org/wikipedia/commons/2/21/Sultan_%C4%B0brahim%2C_17._y%C3%BCzy%C4%B1l_grav%C3%BCr%C3%BC.jpg",
+          "page": "https://commons.wikimedia.org/wiki/File:Sultan_%C4%B0brahim%2C_17._y%C3%BCzy%C4%B1l_grav%C3%BCr%C3%BC.jpg",
+          "credit": "Anonymous; published by Pieter de Jode II",
+          "license": "CC0",
+          "made": "Between 1628 and 1670",
+          "caption": "A Flemish etching made in the 17th century, around his lifetime, for European buyers.",
+          "alt": "Etched portrait of Sultan Ibrahim with a Latin inscription below"
+        }
+      ],
+      "sources": [
+        {
+          "title": "The Imperial Harem: Women and Sovereignty in the Ottoman Empire",
+          "author": "Leslie P. Peirce",
+          "note": "Oxford University Press, 1993"
+        },
+        {
+          "title": "Osman's Dream: The Story of the Ottoman Empire 1300–1923",
+          "author": "Caroline Finkel",
+          "note": "John Murray, 2005"
+        },
+        {
+          "title": "Tarih-i Naima",
+          "author": "Mustafa Naima",
+          "note": "Ottoman chronicle of the 17th century"
+        },
+        {
+          "title": "The Present State of the Ottoman Empire",
+          "author": "Paul Rycaut",
+          "note": "1667"
+        }
+      ],
+      "review": {
+        "status": "draft",
+        "notes": "Drafted from the listed sources; needs a human fact-check."
+      }
+    },
+    {
+      "id": "mehmed-iv",
+      "kind": "monarch",
+      "rulers": [
+        "mehmed-iv"
+      ],
+      "tagline": "The boy sultan who hunted while his viziers ruled",
+      "start": {
+        "date": "1648-08-08"
+      },
+      "end": {
+        "date": "1687-11-08"
+      },
+      "contestedWith": [],
+      "relationToPredecessor": "Eldest son of Ibrahim",
+      "ageAtAccession": "6",
+      "cameToPower": "Crowned when his father was deposed",
+      "reignEnded": "Deposed by the army after Mohács",
+      "previously": "Mad Ibrahim is deposed and strangled. His six-year-old son is sultan.",
+      "paragraphs": [
+        "Mehmed was six when he took the throne, so the women ran things. His grandmother Kösem, the most powerful woman in the empire for decades, clashed with his young mother Turhan. In September 1651 Turhan's men cornered Kösem in the harem and strangled her. The boy grew up with the treasury empty, soldiers rioting and a Venetian fleet blockading the Dardanelles.",
+        "In 1656 Turhan handed power to Köprülü Mehmed Pasha, an old Albanian who demanded a free hand and used it ruthlessly. He and his son Fazıl Ahmed steadied the empire. They took Crete from Venice in 1669 and pushed into Poland. Mehmed, meanwhile, lived for the hunt, chasing game around Edirne for weeks at a time. That earned him his nickname, the Hunter.",
+        "Then came overreach. In 1683 the grand vizier Kara Mustafa besieged Vienna for two months. On 12 September a relief army under the Polish king Jan Sobieski smashed his camp. Mehmed had Kara Mustafa strangled, but a new Christian league kept winning. After a heavy defeat at Mohács in 1687 the army marched home and deposed him."
+      ],
+      "claims": [
+        {
+          "text": "Kösem fought her killers and was strangled with a curtain cord.",
+          "status": "disputed",
+          "note": "Chroniclers agree she was strangled in the harem by men loyal to Turhan. The details of the struggle vary from account to account."
+        },
+        {
+          "text": "The Jewish messiah claimant Sabbatai Zevi converted to Islam in front of Mehmed's court.",
+          "status": "confirmed",
+          "note": "In 1666 at Edirne, given a choice between conversion and death, he took a Muslim name. Jewish and Ottoman sources both record it."
+        },
+        {
+          "text": "Kara Mustafa's skull ended up in a Vienna museum.",
+          "status": "disputed",
+          "note": "A skull said to be his was displayed in Vienna for many years. Nobody has proved it is really his."
+        }
+      ],
+      "hook": "The army wants a new sultan. In the palace cage sits Mehmed's half-brother Suleiman, who has been locked away almost his whole life. When the soldiers come for him, he assumes they've come to kill him.",
+      "images": [
+        {
+          "file": "File:Mehmed IV by John Young.jpg",
+          "url": "https://upload.wikimedia.org/wikipedia/commons/e/ed/Mehmed_IV_by_John_Young.jpg",
+          "page": "https://commons.wikimedia.org/wiki/File:Mehmed_IV_by_John_Young.jpg",
+          "credit": "John Young",
+          "license": "Public domain",
+          "made": "1815",
+          "caption": "From a set of sultan portraits published in London in 1815, more than 125 years after his reign.",
+          "alt": "Portrait print of Mehmed IV, Ottoman sultan from 1648 to 1687, in a turban and robes"
+        }
+      ],
+      "sources": [
+        {
+          "title": "Honored by the Glory of Islam: Conversion and Conquest in Ottoman Europe",
+          "author": "Marc David Baer",
+          "note": "Oxford University Press, 2008"
+        },
+        {
+          "title": "The Imperial Harem: Women and Sovereignty in the Ottoman Empire",
+          "author": "Leslie P. Peirce",
+          "note": "Oxford University Press, 1993; Kösem and Turhan"
+        },
+        {
+          "title": "The Siege of Vienna",
+          "author": "John Stoye",
+          "note": "1964; new ed. Birlinn, 2000"
+        },
+        {
+          "title": "Osman's Dream: The Story of the Ottoman Empire, 1300–1923",
+          "author": "Caroline Finkel",
+          "note": "John Murray, 2005"
+        }
+      ],
+      "review": {
+        "status": "draft",
+        "notes": "Drafted from the listed sources; needs a human fact-check."
+      }
+    },
+    {
+      "id": "suleiman-ii",
+      "kind": "monarch",
+      "rulers": [
+        "suleiman-ii"
+      ],
+      "tagline": "Pulled from the cage after 39 years to save the empire",
+      "start": {
+        "date": "1687-11-08"
+      },
+      "end": {
+        "date": "1691-06-22"
+      },
+      "contestedWith": [],
+      "relationToPredecessor": "Half-brother of Mehmed IV",
+      "ageAtAccession": "45",
+      "cameToPower": "Raised up by mutinous soldiers",
+      "reignEnded": "Died of illness at Edirne",
+      "previously": "Beaten at Mohács, the army mutinies and deposes Mehmed the Hunter.",
+      "paragraphs": [
+        "Suleiman had spent 39 years in the kafes, the gilded prison where spare princes waited to inherit or be killed. He had prayed and copied out the Quran. He had no experience of anything. Now, at 45, he had an empire falling apart. The soldiers who crowned him rioted for their accession bonus and looted Constantinople, and the grand vizier who had backed them was murdered.",
+        "The news from the front got worse. Belgrade fell to the Habsburgs in 1688 and their armies pushed deep into the Balkans. In 1689 Suleiman made one smart move. He appointed another Köprülü, Fazıl Mustafa Pasha, as grand vizier. Fazıl Mustafa raised fresh troops and taxes, won back Niš and in 1690 retook Belgrade. For a moment the tide seemed to turn. Then Suleiman fell ill, and died at Edirne in June 1691."
+      ],
+      "claims": [
+        {
+          "text": "When the officials came to make him sultan, Suleiman thought they had come to execute him.",
+          "status": "disputed",
+          "note": "The story is told in the chronicles and repeated by later historians. Given how princes in the cage usually left it, the fear makes sense."
+        },
+        {
+          "text": "He spent his years of confinement copying the Quran.",
+          "status": "disputed",
+          "note": "Chroniclers praise his piety and calligraphy. How much of the copying story is pious flattery is hard to say."
+        },
+        {
+          "text": "Fazıl Mustafa Pasha retook Belgrade in 1690.",
+          "status": "confirmed",
+          "note": "Ottoman and Habsburg records agree. The city stayed Ottoman until 1717."
+        }
+      ],
+      "hook": "Suleiman leaves no son. The throne passes to another brother from the cage, the sickly Ahmed. His great vizier is about to march out to meet the Habsburgs one more time.",
+      "images": [
+        {
+          "file": "File:Suleiman II by John Young.jpg",
+          "url": "https://upload.wikimedia.org/wikipedia/commons/e/e0/Suleiman_II_by_John_Young.jpg",
+          "page": "https://commons.wikimedia.org/wiki/File:Suleiman_II_by_John_Young.jpg",
+          "credit": "John Young",
+          "license": "Public domain",
+          "made": "1815",
+          "caption": "From a set of sultan portraits published in London in 1815, more than 120 years after his reign.",
+          "alt": "Portrait print of Suleiman II, Ottoman sultan from 1687 to 1691, in a turban and robes"
+        }
+      ],
+      "sources": [
+        {
+          "title": "Osman's Dream: The Story of the Ottoman Empire, 1300–1923",
+          "author": "Caroline Finkel",
+          "note": "John Murray, 2005"
+        },
+        {
+          "title": "Venice, Austria, and the Turks in the Seventeenth Century",
+          "author": "Kenneth M. Setton",
+          "note": "American Philosophical Society, 1991"
+        },
+        {
+          "title": "Silahdar Tarihi (chronicle)",
+          "author": "Silahdar Fındıklılı Mehmed Ağa",
+          "note": "Court chronicler; eyewitness to the 1680s and 1690s"
+        }
+      ],
+      "review": {
+        "status": "draft",
+        "notes": "Drafted from the listed sources; needs a human fact-check."
+      }
+    },
+    {
+      "id": "ahmed-ii",
+      "kind": "monarch",
+      "rulers": [
+        "ahmed-ii"
+      ],
+      "tagline": "Another prince from the cage, another lost battle",
+      "start": {
+        "date": "1691-06-22"
+      },
+      "end": {
+        "date": "1695-02-06"
+      },
+      "contestedWith": [],
+      "relationToPredecessor": "Half-brother of Suleiman II",
+      "ageAtAccession": "48",
+      "cameToPower": "Next eldest of the dynasty",
+      "reignEnded": "Died of illness at Edirne",
+      "previously": "Suleiman II dies at Edirne after retaking Belgrade.",
+      "paragraphs": [
+        "Ahmed was 48 and, like his brothers, had spent decades shut away in the palace. He was gentle and pious, and he left the war to Fazıl Mustafa Pasha. Within two months it went badly wrong. On 19 August 1691, at Slankamen on the Danube, the grand vizier attacked a Habsburg army under Louis of Baden. Fazıl Mustafa was killed in the fighting and the Ottoman army broke.",
+        "That was the last of the great Köprülü recoveries. The rest of the reign was holding on. Grand viziers came and went. The Habsburgs besieged Ottoman forts in Hungary, and in 1694 a Venetian fleet seized the rich island of Chios. Ahmed's health failed and he died at Edirne in February 1695. His nephew, a son of Mehmed IV with ideas about leading armies in person, came next."
+      ],
+      "claims": [
+        {
+          "text": "Fazıl Mustafa Pasha died leading the charge at Slankamen.",
+          "status": "confirmed",
+          "note": "Both sides record his death in the battle. Accounts say he was shot while pressing the attack."
+        },
+        {
+          "text": "Ahmed was a gentle, pious ruler with little grip on government.",
+          "status": "disputed",
+          "note": "That is the verdict of the chroniclers and most later historians. His reign was short and he was ill for much of it, so there is little to judge by."
+        }
+      ],
+      "hook": "The new sultan, Mustafa II, is young and impatient. He announces he will lead the army himself, the first sultan to do so in years. The Habsburgs have a brilliant new general waiting.",
+      "images": [
+        {
+          "file": "File:Ahmed II by John Young.jpg",
+          "url": "https://upload.wikimedia.org/wikipedia/commons/5/50/Ahmed_II_by_John_Young.jpg",
+          "page": "https://commons.wikimedia.org/wiki/File:Ahmed_II_by_John_Young.jpg",
+          "credit": "John Young",
+          "license": "Public domain",
+          "made": "1815",
+          "caption": "From a set of sultan portraits published in London in 1815, about 120 years after his reign.",
+          "alt": "Portrait print of Ahmed II, Ottoman sultan from 1691 to 1695, in a turban and robes"
+        }
+      ],
+      "sources": [
+        {
+          "title": "Osman's Dream: The Story of the Ottoman Empire, 1300–1923",
+          "author": "Caroline Finkel",
+          "note": "John Murray, 2005"
+        },
+        {
+          "title": "Venice, Austria, and the Turks in the Seventeenth Century",
+          "author": "Kenneth M. Setton",
+          "note": "American Philosophical Society, 1991"
+        },
+        {
+          "title": "Silahdar Tarihi (chronicle)",
+          "author": "Silahdar Fındıklılı Mehmed Ağa",
+          "note": "Court chronicler; eyewitness to the 1680s and 1690s"
+        }
+      ],
+      "review": {
+        "status": "draft",
+        "notes": "Drafted from the listed sources; needs a human fact-check."
+      }
+    },
+    {
+      "id": "mustafa-ii",
+      "kind": "monarch",
+      "rulers": [
+        "mustafa-ii"
+      ],
+      "tagline": "He rode to war in person and lost half of Europe",
+      "start": {
+        "date": "1695-02-06"
+      },
+      "end": {
+        "date": "1703-08-22"
+      },
+      "contestedWith": [],
+      "relationToPredecessor": "Son of Mehmed IV; nephew of Ahmed II",
+      "ageAtAccession": "31",
+      "cameToPower": "Eldest prince of the dynasty",
+      "reignEnded": "Deposed in the Edirne Incident",
+      "previously": "Ahmed II dies at Edirne, the war in Hungary still dragging on.",
+      "paragraphs": [
+        "Mustafa wanted to be a warrior sultan like his ancestors, and at first it worked. He led the army into Hungary himself and won a few fights. Then, on 11 September 1697 at Zenta on the river Tisza, Prince Eugene of Savoy caught the army halfway across a bridge. Mustafa watched from the far bank as thousands were cut down. Peter the Great had already taken Azov from the Ottomans the year before.",
+        "In January 1699 the empire signed the Treaty of Karlowitz. Hungary and Transylvania went to the Habsburgs, Podolia to Poland, the Morea to Venice. For the first time the Ottomans had formally signed away huge lands. Mustafa retreated to Edirne to hunt, leaving his old tutor Feyzullah Efendi, the chief mufti, to run things. Feyzullah stuffed every office with his own sons and relatives.",
+        "In 1703 unpaid soldiers in Constantinople rose up and marched on Edirne. Feyzullah was caught and lynched. Mustafa was forced to step down in favour of his brother Ahmed, and died a few months later."
+      ],
+      "claims": [
+        {
+          "text": "Karlowitz was the first time the Ottomans formally surrendered big territories to Christian powers.",
+          "status": "confirmed",
+          "note": "Historians treat 1699 as the turning point. Earlier losses had been few and rarely set down in a treaty."
+        },
+        {
+          "text": "Feyzullah Efendi's body was dragged through the streets of Edirne.",
+          "status": "confirmed",
+          "note": "The chroniclers describe the mob's treatment of his corpse in grim detail. He had become the most hated man in the empire."
+        },
+        {
+          "text": "Mustafa watched the slaughter at Zenta from across the river and could do nothing.",
+          "status": "confirmed",
+          "note": "Ottoman and Habsburg accounts agree the sultan had crossed first and saw the rest of his army trapped on the far bank."
+        }
+      ],
+      "hook": "The rebels put Mustafa's brother Ahmed on the throne. He will rule for 27 years: a reign of tulips, garden parties and the first Ottoman printing press. It will end with another mob.",
+      "images": [
+        {
+          "file": "File:Mustafa II by John Young.jpg",
+          "url": "https://upload.wikimedia.org/wikipedia/commons/2/28/Mustafa_II_by_John_Young.jpg",
+          "page": "https://commons.wikimedia.org/wiki/File:Mustafa_II_by_John_Young.jpg",
+          "credit": "John Young",
+          "license": "Public domain",
+          "made": "1815",
+          "caption": "From a set of sultan portraits published in London in 1815, more than 110 years after his reign.",
+          "alt": "Portrait print of Mustafa II, Ottoman sultan from 1695 to 1703, in a turban and robes"
+        }
+      ],
+      "sources": [
+        {
+          "title": "The 1703 Rebellion and the Structure of Ottoman Politics",
+          "author": "Rifa'at Ali Abou-El-Haj",
+          "note": "Nederlands Historisch-Archaeologisch Instituut te Istanbul, 1984"
+        },
+        {
+          "title": "Osman's Dream: The Story of the Ottoman Empire, 1300–1923",
+          "author": "Caroline Finkel",
+          "note": "John Murray, 2005"
+        },
+        {
+          "title": "Ottoman Wars, 1700–1870: An Empire Besieged",
+          "author": "Virginia H. Aksan",
+          "note": "Longman/Pearson, 2007"
+        }
+      ],
+      "review": {
+        "status": "draft",
+        "notes": "Drafted from the listed sources; needs a human fact-check."
+      }
+    },
+    {
+      "id": "ahmed-iii",
+      "kind": "monarch",
+      "rulers": [
+        "ahmed-iii"
+      ],
+      "tagline": "Tulips, picnics and printing, until the mob came",
+      "start": {
+        "date": "1703-08-22"
+      },
+      "end": {
+        "date": "1730-10-01"
+      },
+      "contestedWith": [],
+      "relationToPredecessor": "Brother of Mustafa II",
+      "ageAtAccession": "29",
+      "cameToPower": "Raised up by the Edirne rebels",
+      "reignEnded": "Abdicated after the Patrona revolt",
+      "previously": "The Edirne Incident: rebels depose Mustafa II and lynch his mufti.",
+      "paragraphs": [
+        "Ahmed began with wars. In 1711 his army trapped Peter the Great on the river Prut and let him go in exchange for Azov. He gave shelter for years to Charles XII of Sweden, beaten by Peter at Poltava. He won back the Morea from Venice in 1715, but lost Belgrade to the Habsburgs and signed it away at Passarowitz in 1718.",
+        "Then came peace and pleasure. His son-in-law Nevşehirli İbrahim Pasha became grand vizier in 1718 and stayed for 12 years. The elite built palaces and gardens along the Bosphorus and threw tulip-lit parties. An envoy went to Paris and came back full of ideas. In 1727 İbrahim Müteferrika, a Hungarian convert, got permission for the first Ottoman Turkish printing press. Ahmed loved books and built a library inside Topkapı.",
+        "Ordinary people saw the spending and the losses in a new war with Persia. In September 1730 an Albanian ex-soldier named Patrona Halil led a revolt. The rebels demanded İbrahim Pasha's death, and Ahmed handed over his body. It did not save him. He gave up the throne to his nephew Mahmud and lived out six quiet years."
+      ],
+      "claims": [
+        {
+          "text": "Peter the Great's wife Catherine bribed the grand vizier with her jewels to let the trapped Russian army go at the Prut.",
+          "status": "legend",
+          "note": "The story was spread later and loved by Russian writers. Historians say the vizier had good reasons to settle anyway, and payments are hard to prove."
+        },
+        {
+          "text": "Nobody at the time called it the Tulip Era.",
+          "status": "confirmed",
+          "note": "The name Lale Devri comes from a 1913 book by the historian Ahmed Refik. Tulips were a real craze, but the label is modern."
+        },
+        {
+          "text": "Before 1727 the Ottomans banned printing in Turkish.",
+          "status": "disputed",
+          "note": "No such ban has been found in writing. Non-Muslim communities printed freely; scribes and cost may explain the delay as much as any law."
+        }
+      ],
+      "hook": "The new sultan, Mahmud I, owes his throne to Patrona Halil, who now struts round the palace giving orders. Mahmud smiles, says yes and waits for his moment.",
+      "images": [
+        {
+          "file": "File:Ahmed III by John Young.jpg",
+          "url": "https://upload.wikimedia.org/wikipedia/commons/b/b5/Ahmed_III_by_John_Young.jpg",
+          "page": "https://commons.wikimedia.org/wiki/File:Ahmed_III_by_John_Young.jpg",
+          "credit": "John Young",
+          "license": "Public domain",
+          "made": "1815",
+          "caption": "From a set of sultan portraits published in London in 1815, about 85 years after his reign ended.",
+          "alt": "Portrait print of Ahmed III, Ottoman sultan from 1703 to 1730, in a turban and robes"
+        }
+      ],
+      "sources": [
+        {
+          "title": "Ottomans Looking West? The Origins of the Tulip Age and its Development in Modern Turkey",
+          "author": "Can Erimtan",
+          "note": "I.B. Tauris, 2008"
+        },
+        {
+          "title": "Osman's Dream: The Story of the Ottoman Empire, 1300–1923",
+          "author": "Caroline Finkel",
+          "note": "John Murray, 2005"
+        },
+        {
+          "title": "Ottoman Wars, 1700–1870: An Empire Besieged",
+          "author": "Virginia H. Aksan",
+          "note": "Longman/Pearson, 2007"
+        }
+      ],
+      "review": {
+        "status": "draft",
+        "notes": "Drafted from the listed sources; needs a human fact-check."
+      }
+    },
+    {
+      "id": "mahmud-i",
+      "kind": "monarch",
+      "rulers": [
+        "mahmud-i"
+      ],
+      "tagline": "He got rid of the rebel who crowned him, then won a war",
+      "start": {
+        "date": "1730-10-02"
+      },
+      "end": {
+        "date": "1754-12-13"
+      },
+      "contestedWith": [],
+      "relationToPredecessor": "Son of Mustafa II; nephew of Ahmed III",
+      "ageAtAccession": "34",
+      "cameToPower": "Placed on the throne by the rebels",
+      "reignEnded": "Died suddenly in Constantinople",
+      "previously": "Patrona Halil's revolt topples Ahmed III and his grand vizier.",
+      "paragraphs": [
+        "Mahmud's first problem was the man who made him sultan. Patrona Halil swaggered round the capital in his old clothes, choosing officials and demanding favours. Mahmud played along for a few weeks. Then, in November 1730, Patrona and his chief allies were invited to a meeting at the palace and cut down. More executions followed, and the revolt was over.",
+        "Mahmud was a quiet, cultured man who left most of the governing to his viziers, but his reign went better than most. There were long, costly wars with Nader Shah of Persia. Then Russia and Austria attacked together. The Ottomans held off the Austrians, and the Treaty of Belgrade in 1739 won back Belgrade itself. A French convert called Bonneval, now Ahmed Pasha, was hired to modernise the army's bombardiers.",
+        "He built libraries and fountains and began the great Nuruosmaniye Mosque. He died suddenly in December 1754, leaving no sons."
+      ],
+      "claims": [
+        {
+          "text": "Mahmud died in the saddle, riding back from Friday prayers.",
+          "status": "disputed",
+          "note": "Standard accounts say he collapsed on the way back from the mosque. The details differ between versions."
+        },
+        {
+          "text": "Patrona Halil was killed in an ambush at the palace.",
+          "status": "confirmed",
+          "note": "Ottoman chroniclers and foreign diplomats in the city both describe the trap set for him in 1730."
+        },
+        {
+          "text": "The 1739 Treaty of Belgrade was a rare Ottoman diplomatic win.",
+          "status": "confirmed",
+          "note": "Austria handed back Belgrade and northern Serbia. French mediation helped the Ottomans get good terms."
+        }
+      ],
+      "hook": "The throne passes to Mahmud's younger brother Osman, who has spent more than 50 years in the cage. He comes out a grumpy old man with a famous hatred of music.",
+      "images": [
+        {
+          "file": "File:Mahmud I by John Young.jpg",
+          "url": "https://upload.wikimedia.org/wikipedia/commons/e/ee/Mahmud_I_by_John_Young.jpg",
+          "page": "https://commons.wikimedia.org/wiki/File:Mahmud_I_by_John_Young.jpg",
+          "credit": "John Young",
+          "license": "Public domain",
+          "made": "1815",
+          "caption": "From a set of sultan portraits published in London in 1815, about 60 years after his reign.",
+          "alt": "Portrait print of Mahmud I, Ottoman sultan from 1730 to 1754, in a turban and robes"
+        }
+      ],
+      "sources": [
+        {
+          "title": "Osman's Dream: The Story of the Ottoman Empire, 1300–1923",
+          "author": "Caroline Finkel",
+          "note": "John Murray, 2005"
+        },
+        {
+          "title": "Ottoman Wars, 1700–1870: An Empire Besieged",
+          "author": "Virginia H. Aksan",
+          "note": "Longman/Pearson, 2007"
+        },
+        {
+          "title": "The Siege of Mosul and Ottoman-Persian Relations, 1718–1743",
+          "author": "Robert W. Olson",
+          "note": "Indiana University Press, 1975"
+        }
+      ],
+      "review": {
+        "status": "draft",
+        "notes": "Drafted from the listed sources; needs a human fact-check."
+      }
+    },
+    {
+      "id": "osman-iii",
+      "kind": "monarch",
+      "rulers": [
+        "osman-iii"
+      ],
+      "tagline": "The sultan who couldn't stand music or women",
+      "start": {
+        "date": "1754-12-13"
+      },
+      "end": {
+        "date": "1757-10-30"
+      },
+      "contestedWith": [],
+      "relationToPredecessor": "Brother of Mahmud I",
+      "ageAtAccession": "55",
+      "cameToPower": "Eldest prince when Mahmud died",
+      "reignEnded": "Died of illness after three years",
+      "previously": "Mahmud I dies suddenly with no son to follow him.",
+      "paragraphs": [
+        "Osman had been shut in the cage since he was four. When he finally came out, at 55, he had no patience for court life. He hated music and sent the palace musicians away. He was said to dislike women so much that he wore iron-studded shoes, so the harem could hear him coming and get out of his way.",
+        "He was restless and suspicious. He walked the city in disguise to check on prices and behaviour, and he changed grand viziers again and again. He finished the Nuruosmaniye Mosque his brother had begun, the first great mosque in Constantinople built in the new European-influenced baroque style. His reign lasted less than three years. He died in October 1757, and like his brother he had no son."
+      ],
+      "claims": [
+        {
+          "text": "Osman wore iron-studded shoes so women would hear him and hide.",
+          "status": "legend",
+          "note": "It is one of the best-known stories about him, but it comes from later retellings. No eyewitness describes the shoes."
+        },
+        {
+          "text": "The Nuruosmaniye Mosque, the 'Light of Osman', is named after him.",
+          "status": "disputed",
+          "note": "The name is usually linked to Osman III, who finished it. It can also be read as referring to the Ottoman dynasty as a whole."
+        },
+        {
+          "text": "He banished musicians from the palace.",
+          "status": "confirmed",
+          "note": "Contemporary chroniclers note his dislike of music and the silence of his court."
+        }
+      ],
+      "hook": "The crown jumps a generation to Osman's cousin Mustafa, son of Ahmed III. He is clever and keen on reform. He will pick a fight with Russia, and Russia now has Catherine the Great.",
+      "images": [
+        {
+          "file": "File:Osman III by John Young.jpg",
+          "url": "https://upload.wikimedia.org/wikipedia/commons/b/ba/Osman_III_by_John_Young.jpg",
+          "page": "https://commons.wikimedia.org/wiki/File:Osman_III_by_John_Young.jpg",
+          "credit": "John Young",
+          "license": "Public domain",
+          "made": "1815",
+          "caption": "From a set of sultan portraits published in London in 1815, nearly 60 years after his reign.",
+          "alt": "Portrait print of Osman III, Ottoman sultan from 1754 to 1757, in a turban and robes"
+        }
+      ],
+      "sources": [
+        {
+          "title": "Osman's Dream: The Story of the Ottoman Empire, 1300–1923",
+          "author": "Caroline Finkel",
+          "note": "John Murray, 2005"
+        },
+        {
+          "title": "Mür'i't-Tevârih (chronicle)",
+          "author": "Şem'dânî-zâde Fındıklılı Süleyman Efendi",
+          "note": "Contemporary chronicle of the mid-18th century"
+        }
+      ],
+      "review": {
+        "status": "draft",
+        "notes": "Drafted from the listed sources; needs a human fact-check."
+      }
+    },
+    {
+      "id": "mustafa-iii",
+      "kind": "monarch",
+      "rulers": [
+        "mustafa-iii"
+      ],
+      "tagline": "He went to war with Catherine the Great and lost his fleet",
+      "start": {
+        "date": "1757-10-30"
+      },
+      "end": {
+        "date": "1774-01-21"
+      },
+      "contestedWith": [],
+      "relationToPredecessor": "Son of Ahmed III; cousin of Osman III",
+      "ageAtAccession": "40",
+      "cameToPower": "Eldest prince when Osman died",
+      "reignEnded": "Died with the Russian war still raging",
+      "previously": "Grumpy Osman III dies after less than three years on the throne.",
+      "paragraphs": [
+        "Mustafa was clever, curious and worried. He knew the empire had fallen behind Europe. For his first six years his grand vizier Koca Ragıp Pasha kept the peace and the books balanced. Mustafa built the Laleli Mosque and dabbled in astrology. He wrote poetry too, and much of it was gloomy about the state of things.",
+        "In 1768 Russian troops chasing Polish rebels burned an Ottoman border town, and Mustafa declared war on Catherine the Great. It was a catastrophe. In July 1770 a Russian fleet that had sailed all the way round Europe trapped the Ottoman navy at Çeşme and burned it. That summer Rumyantsev routed a much larger army at Kagul. In 1771 the Russians overran the Crimea.",
+        "Mustafa hired a French officer of Hungarian descent, Baron de Tott, to build modern artillery and in 1773 opened a naval engineering school. It was too late. He died in January 1774 with Russian armies on the Danube."
+      ],
+      "claims": [
+        {
+          "text": "Mustafa wrote a couplet lamenting that the world was falling apart and could not be fixed by men like him.",
+          "status": "disputed",
+          "note": "The verse is widely quoted and attributed to him. Its wording varies between versions."
+        },
+        {
+          "text": "At Çeşme almost the entire Ottoman fleet was burned in one night.",
+          "status": "confirmed",
+          "note": "Russian and Ottoman records agree on the scale of the loss on 6–7 July 1770."
+        },
+        {
+          "text": "Baron de Tott single-handedly modernised the Ottoman artillery.",
+          "status": "disputed",
+          "note": "That is how de Tott tells it in his own memoirs. Historians think he exaggerated his role."
+        }
+      ],
+      "hook": "Mustafa's brother Abdul Hamid comes out of the cage after more than 40 years. He inherits a lost war, an army on the run and a peace treaty that will cost the Crimea.",
+      "images": [
+        {
+          "file": "File:Mustafa III by John Young.jpg",
+          "url": "https://upload.wikimedia.org/wikipedia/commons/a/ad/Mustafa_III_by_John_Young.jpg",
+          "page": "https://commons.wikimedia.org/wiki/File:Mustafa_III_by_John_Young.jpg",
+          "credit": "John Young",
+          "license": "Public domain",
+          "made": "1815",
+          "caption": "From a set of sultan portraits published in London in 1815, about 40 years after his reign.",
+          "alt": "Portrait print of Mustafa III, Ottoman sultan from 1757 to 1774, in a turban and robes"
+        }
+      ],
+      "sources": [
+        {
+          "title": "An Ottoman Statesman in War and Peace: Ahmed Resmi Efendi, 1700–1783",
+          "author": "Virginia H. Aksan",
+          "note": "Brill, 1995"
+        },
+        {
+          "title": "Ottoman Wars, 1700–1870: An Empire Besieged",
+          "author": "Virginia H. Aksan",
+          "note": "Longman/Pearson, 2007"
+        },
+        {
+          "title": "Memoirs of Baron de Tott",
+          "author": "François de Tott",
+          "note": "First published in French, 1784; de Tott's own account"
+        },
+        {
+          "title": "Osman's Dream: The Story of the Ottoman Empire, 1300–1923",
+          "author": "Caroline Finkel",
+          "note": "John Murray, 2005"
+        }
+      ],
+      "review": {
+        "status": "draft",
+        "notes": "Drafted from the listed sources; needs a human fact-check."
+      }
+    },
+    {
+      "id": "abdul-hamid-i",
+      "kind": "monarch",
+      "rulers": [
+        "abdul-hamid-i"
+      ],
+      "tagline": "Forty years locked away, then handed a losing war",
+      "start": {
+        "date": "1774-01-21"
+      },
+      "end": {
+        "date": "1789-04-07"
+      },
+      "contestedWith": [],
+      "relationToPredecessor": "Younger brother of Mustafa III",
+      "ageAtAccession": "48",
+      "cameToPower": "Succeeded his brother mid-war",
+      "reignEnded": "Died of a stroke",
+      "previously": "Mustafa III dies with the army collapsing against Russia.",
+      "paragraphs": [
+        "Abdul Hamid had spent most of his life shut up in the palace cage, so he knew nothing of war or government. He got the throne in January 1774 and a disaster with it. Within months the Russians had crushed his army at Kozludzha, and in July he signed the Treaty of Küçük Kaynarca. The Crimea, a Muslim khanate loyal to Istanbul for three centuries, was declared independent. Russian ships could now sail the Black Sea.",
+        "One clever line in the treaty called the sultan caliph of the Crimean Muslims, a religious tie Istanbul would lean on for the next 150 years. It was no use. In 1783 Catherine the Great simply annexed the Crimea. Abdul Hamid went to war again in 1787 and soon faced Austria too. In December 1788 the fortress of Ochakov fell to the Russians and its people were massacred. He died the following April."
+      ],
+      "claims": [
+        {
+          "text": "The treaty of 1774 made Russia the protector of all Orthodox Christians in the empire.",
+          "status": "disputed",
+          "note": "Russia later read it that way. The actual text only mentions a church in Istanbul and vague promises, and historians argue over how much it really gave away."
+        },
+        {
+          "text": "Abdul Hamid died of a stroke brought on by the news from Ochakov.",
+          "status": "disputed",
+          "note": "Ottoman chroniclers linked his collapse to the fall of the fortress, but it came about four months later and he was in his sixties."
+        },
+        {
+          "text": "Küçük Kaynarca was the first treaty to call the sultan caliph of Muslims outside his empire.",
+          "status": "confirmed",
+          "note": "The clause on the Crimean Tatars is in the treaty text, and historians treat it as the start of the sultans' modern caliphate claims."
+        }
+      ],
+      "hook": "His nephew Selim takes over at 27. He has been writing letters to the King of France and has big ideas about a modern army. The Janissaries are watching.",
+      "images": [
+        {
+          "file": "File:Portrait of Abdülhamid I of the Ottoman Empire.jpg",
+          "url": "https://upload.wikimedia.org/wikipedia/commons/b/b2/Portrait_of_Abd%C3%BClhamid_I_of_the_Ottoman_Empire.jpg",
+          "page": "https://commons.wikimedia.org/wiki/File:Portrait_of_Abd%C3%BClhamid_I_of_the_Ottoman_Empire.jpg",
+          "credit": "Attributed to Ferdinando Tonioli",
+          "license": "Public domain",
+          "made": "1788",
+          "caption": "Painted in 1788, the year before he died, as the new war with Russia went badly.",
+          "alt": "Painted portrait of Sultan Abdul Hamid I"
+        }
+      ],
+      "sources": [
+        {
+          "title": "Osman's Dream: The Story of the Ottoman Empire 1300–1923",
+          "author": "Caroline Finkel",
+          "note": "John Murray, 2005"
+        },
+        {
+          "title": "Ottoman Wars 1700–1870: An Empire Besieged",
+          "author": "Virginia H. Aksan",
+          "note": "Pearson Longman, 2007"
+        },
+        {
+          "title": "History of the Ottoman Empire and Modern Turkey, vol. 1",
+          "author": "Stanford J. Shaw",
+          "note": "Cambridge University Press, 1976"
+        }
+      ],
+      "review": {
+        "status": "draft",
+        "notes": "Drafted from the listed sources; needs a human fact-check."
+      }
+    },
+    {
+      "id": "selim-iii",
+      "kind": "monarch",
+      "rulers": [
+        "selim-iii"
+      ],
+      "tagline": "The reforming sultan the old army wouldn't forgive",
+      "start": {
+        "date": "1789-04-07"
+      },
+      "end": {
+        "date": "1807-05-29"
+      },
+      "contestedWith": [],
+      "relationToPredecessor": "Nephew of Abdul Hamid I",
+      "ageAtAccession": "27",
+      "cameToPower": "Succeeded his uncle",
+      "reignEnded": "Deposed by a mutiny",
+      "previously": "Abdul Hamid I dies of a stroke with the empire at war with Russia.",
+      "paragraphs": [
+        "Selim was young, cultured and impatient. He wrote music that is still played today, and as crown prince he had secretly written to Louis XVI of France. He inherited a war that cost him more ground: the 1792 Treaty of Jassy confirmed Russia's hold on the Crimea. Selim decided the empire needed a European-style army. From 1793 he built the Nizam-ı Cedid, the New Order, with drilled troops, new uniforms and modern guns.",
+        "He also opened the first permanent Ottoman embassies in Europe, starting in London. In 1798 Napoleon invaded Egypt, and Selim joined Britain and Russia to push him out. At home the Janissaries and the religious class hated the New Order. In May 1807 auxiliary troops on the Bosphorus mutinied, led by a man called Kabakçı Mustafa. Selim gave in, disbanded his army and was deposed, then locked in the palace."
+      ],
+      "claims": [
+        {
+          "text": "Selim composed music, and some of his pieces are still performed.",
+          "status": "confirmed",
+          "note": "He is credited with new makams (melodic modes) and dozens of works, and Turkish classical musicians still play them."
+        },
+        {
+          "text": "As crown prince he wrote to Louis XVI asking for French help with reform.",
+          "status": "confirmed",
+          "note": "The letters went through his confidant Ishak Bey in the 1780s, and the French replies survive."
+        },
+        {
+          "text": "Selim's reforms failed because the Janissaries simply refused to be replaced.",
+          "status": "disputed",
+          "note": "That was the old view. Recent historians add money troubles, provincial strongmen and court rivalries to the mix."
+        }
+      ],
+      "hook": "The mutineers want a sultan who'll do as he's told. They pick Selim's cousin Mustafa. But Selim is still alive, down the corridor, and he has friends.",
+      "images": [
+        {
+          "file": "File:Konstantin Kapidagli 002.jpg",
+          "url": "https://upload.wikimedia.org/wikipedia/commons/0/0a/Konstantin_Kapidagli_002.jpg",
+          "page": "https://commons.wikimedia.org/wiki/File:Konstantin_Kapidagli_002.jpg",
+          "credit": "Konstantin Kapıdağlı",
+          "license": "Public domain",
+          "made": "1803",
+          "caption": "Painted by the Istanbul court artist Konstantin Kapıdağlı in 1803, during Selim's reign.",
+          "alt": "Painted portrait of Sultan Selim III by Konstantin Kapıdağlı"
+        }
+      ],
+      "sources": [
+        {
+          "title": "Between Old and New: The Ottoman Empire under Sultan Selim III, 1789–1807",
+          "author": "Stanford J. Shaw",
+          "note": "Harvard University Press, 1971"
+        },
+        {
+          "title": "Osman's Dream: The Story of the Ottoman Empire 1300–1923",
+          "author": "Caroline Finkel",
+          "note": "John Murray, 2005"
+        },
+        {
+          "title": "Ottoman Wars 1700–1870: An Empire Besieged",
+          "author": "Virginia H. Aksan",
+          "note": "Pearson Longman, 2007"
+        }
+      ],
+      "review": {
+        "status": "draft",
+        "notes": "Drafted from the listed sources; needs a human fact-check."
+      }
+    },
+    {
+      "id": "mustafa-iv",
+      "kind": "monarch",
+      "rulers": [
+        "mustafa-iv"
+      ],
+      "tagline": "He ordered his cousin killed and lost the throne anyway",
+      "start": {
+        "date": "1807-05-29"
+      },
+      "end": {
+        "date": "1808-07-28"
+      },
+      "contestedWith": [],
+      "relationToPredecessor": "Cousin of Selim III",
+      "ageAtAccession": "27",
+      "cameToPower": "Put in by mutinous troops",
+      "reignEnded": "Deposed by Alemdar's army",
+      "previously": "Selim III is deposed by mutineers and locked away in the palace.",
+      "paragraphs": [
+        "Mustafa was a son of Abdul Hamid I, and he owed his throne to the men who had wrecked Selim's reforms. He let them run things. The New Order was gone. But Selim's supporters regrouped around Alemdar Mustafa Pasha, a tough provincial commander on the Danube. In July 1808 Alemdar marched on Istanbul with his army to put Selim back on the throne.",
+        "Mustafa panicked. If Selim and Mustafa's own half-brother Mahmud were dead, he would be the last male of the dynasty, and nobody could replace him. He ordered both killed. Selim was cut down in the harem, and his body was thrown out to the troops at the gate. Mahmud escaped. Alemdar's men found him, made him sultan the same day, and locked Mustafa up. A few months later, when a new revolt broke out, Mahmud had Mustafa strangled."
+      ],
+      "claims": [
+        {
+          "text": "Selim died fighting his killers inside the palace.",
+          "status": "disputed",
+          "note": "Accounts of the struggle come from later chroniclers and differ on the details. All agree he was killed on Mustafa's orders."
+        },
+        {
+          "text": "Mustafa's plan was to be the only male Ottoman left alive.",
+          "status": "confirmed",
+          "note": "Chroniclers and modern historians agree this was the logic. Killing Mahmud too would have made him impossible to depose."
+        },
+        {
+          "text": "Mahmud hid from the assassins in a bath furnace.",
+          "status": "legend",
+          "note": "The furnace story is the famous version, but sources disagree on whether he hid there, on a roof, or was smuggled out by servants."
+        }
+      ],
+      "hook": "Mahmud is 23, the last male of his family, and the man who saved him is a provincial warlord. The Janissaries already hate them both.",
+      "images": [
+        {
+          "file": "File:IV. Mustafa (cropped).jpg",
+          "url": "https://upload.wikimedia.org/wikipedia/commons/c/c8/IV._Mustafa_%28cropped%29.jpg",
+          "page": "https://commons.wikimedia.org/wiki/File:IV._Mustafa_(cropped).jpg",
+          "credit": "Konstantin Kapıdağlı",
+          "license": "Public domain",
+          "made": "1807–1808",
+          "caption": "Painted by Konstantin Kapıdağlı during Mustafa's short reign.",
+          "alt": "Painted portrait of Sultan Mustafa IV"
+        }
+      ],
+      "sources": [
+        {
+          "title": "Osman's Dream: The Story of the Ottoman Empire 1300–1923",
+          "author": "Caroline Finkel",
+          "note": "John Murray, 2005"
+        },
+        {
+          "title": "Between Old and New: The Ottoman Empire under Sultan Selim III, 1789–1807",
+          "author": "Stanford J. Shaw",
+          "note": "Harvard University Press, 1971"
+        },
+        {
+          "title": "History of the Ottoman Empire and Modern Turkey, vol. 2",
+          "author": "Stanford J. Shaw and Ezel Kural Shaw",
+          "note": "Cambridge University Press, 1977"
+        }
+      ],
+      "review": {
+        "status": "draft",
+        "notes": "Drafted from the listed sources; needs a human fact-check."
+      }
+    },
+    {
+      "id": "mahmud-ii",
+      "kind": "monarch",
+      "rulers": [
+        "mahmud-ii"
+      ],
+      "tagline": "The survivor who wiped out the Janissaries",
+      "start": {
+        "date": "1808-07-28"
+      },
+      "end": {
+        "date": "1839-07-01"
+      },
+      "contestedWith": [],
+      "relationToPredecessor": "Half-brother of Mustafa IV",
+      "ageAtAccession": "23",
+      "cameToPower": "Saved from assassins, then crowned",
+      "reignEnded": "Died of tuberculosis",
+      "previously": "Mustafa IV orders Selim and Mahmud killed. Selim dies. Mahmud hides.",
+      "paragraphs": [
+        "Mahmud was the last Ottoman male standing, and for years he played it safe. In November 1808 the Janissaries rose, killed his saviour Alemdar, and Mahmud had his brother Mustafa killed to save himself. Then he waited. He lost Bessarabia to Russia in 1812. Serbia rebelled. In 1821 the Greeks rose too, and in revenge the Patriarch of Constantinople was hanged at his own gate on Easter Sunday.",
+        "In June 1826 the Janissaries mutinied over a new drilled corps. This time Mahmud was ready. His cannon shelled their barracks and thousands died. Turks call it the Auspicious Incident. The centuries-old corps was abolished. Then the losses kept coming: the fleet sunk at Navarino in 1827, Greece independent, and his own governor in Egypt, Muhammad Ali, routing his army in 1832. He swapped turbans for the fez and dressed his officials like Europeans.",
+        "His army met Muhammad Ali's son at Nezib in June 1839 and was routed. Mahmud died a week later, probably before the news reached him."
+      ],
+      "claims": [
+        {
+          "text": "Mahmud's mother was Aimée du Buc de Rivery, a French cousin of Empress Joséphine captured by pirates.",
+          "status": "legend",
+          "note": "A romantic tale that grew in the 19th century. Mahmud's mother Nakşidil was most likely Georgian or Circassian, and du Buc vanished at sea."
+        },
+        {
+          "text": "The Janissaries were destroyed in one day in June 1826.",
+          "status": "confirmed",
+          "note": "Ottoman and European accounts describe the barracks being shelled and burned on 15 June. Purges of survivors went on for weeks."
+        },
+        {
+          "text": "He died without hearing his army had been wiped out at Nezib.",
+          "status": "disputed",
+          "note": "Often told, and the timing fits, but nobody can say for sure what the dying sultan was told."
+        }
+      ],
+      "hook": "The new sultan is 16. His army is gone, his navy is about to sail off to Egypt, and Muhammad Ali has his eye on the whole empire.",
+      "images": [
+        {
+          "file": "File:Mahmud II.jpg",
+          "url": "https://upload.wikimedia.org/wikipedia/commons/d/d8/Mahmud_II.jpg",
+          "page": "https://commons.wikimedia.org/wiki/File:Mahmud_II.jpg",
+          "credit": "Henry Guillaume Schlesinger",
+          "license": "Public domain",
+          "made": "1839",
+          "caption": "Painted in 1839 and given to King Louis-Philippe of France; it now hangs at Versailles.",
+          "alt": "Portrait of Sultan Mahmud II after his dress reforms"
+        }
+      ],
+      "sources": [
+        {
+          "title": "Osman's Dream: The Story of the Ottoman Empire 1300–1923",
+          "author": "Caroline Finkel",
+          "note": "John Murray, 2005"
+        },
+        {
+          "title": "Ottoman Wars 1700–1870: An Empire Besieged",
+          "author": "Virginia H. Aksan",
+          "note": "Pearson Longman, 2007"
+        },
+        {
+          "title": "Constantinople: City of the World's Desire, 1453–1924",
+          "author": "Philip Mansel",
+          "note": "John Murray, 1995"
+        }
+      ],
+      "review": {
+        "status": "draft",
+        "notes": "Drafted from the listed sources; needs a human fact-check."
+      }
+    },
+    {
+      "id": "abdulmejid-i",
+      "kind": "monarch",
+      "rulers": [
+        "abdulmejid-i"
+      ],
+      "tagline": "A gentle teenager who tried to rebuild the empire",
+      "start": {
+        "date": "1839-07-01"
+      },
+      "end": {
+        "date": "1861-06-25"
+      },
+      "contestedWith": [],
+      "relationToPredecessor": "Eldest son of Mahmud II",
+      "ageAtAccession": "16",
+      "cameToPower": "Succeeded his father",
+      "reignEnded": "Died of tuberculosis",
+      "previously": "Mahmud II dies just as his army is crushed at Nezib.",
+      "paragraphs": [
+        "Abdulmejid came to the throne at 16 in a crisis. Within weeks the Ottoman fleet had sailed to Egypt and handed itself to Muhammad Ali. The great powers stepped in, and in 1840 British ships forced Muhammad Ali back. Abdulmejid's ministers, led by Mustafa Reşid Pasha, launched the Tanzimat, or reorganisation. A decree in 1839 promised all subjects safety of life, property and fair trials, whatever their religion.",
+        "In 1849 he refused to hand over Hungarian rebels to Austria and Russia, and Europe cheered. In 1853 Russia marched into his Danube provinces. War followed, and Britain and France joined in on his side. Victory came at a price: the first foreign loans, in 1854. A second decree in 1856 promised Christians equal rights. He built the vast Dolmabahçe Palace on the Bosphorus and moved in that year. The debts kept growing. He died of tuberculosis at 38."
+      ],
+      "claims": [
+        {
+          "text": "During the Irish famine he offered £10,000, was asked to cut it to £1,000 so as not to outdo Queen Victoria, and secretly sent ships of food to Drogheda.",
+          "status": "disputed",
+          "note": "His £1,000 gift is well recorded. The cut-down offer and the secret ships rest on later Irish and Turkish retellings and haven't been confirmed in shipping records."
+        },
+        {
+          "text": "The 1839 Gülhane decree promised equal treatment to Muslims and non-Muslims.",
+          "status": "confirmed",
+          "note": "The text was read aloud in the palace gardens before diplomats and published. How well it was applied is another matter."
+        },
+        {
+          "text": "Dolmabahçe Palace helped push the empire towards bankruptcy.",
+          "status": "disputed",
+          "note": "It cost a fortune, but war costs and loans on bad terms did far more damage. Historians use it as a symbol more than a cause."
+        }
+      ],
+      "hook": "The throne passes to his younger brother Abdulaziz. He's 31, burly and fascinated by warships, and he's about to see Europe for himself.",
+      "images": [
+        {
+          "file": "File:Sir David Wilkie (1785-1841) - Abd-ul-Mejid (1823-1861), Sultan of Turkey - RCIN 407268 - Royal Collection.jpg",
+          "url": "https://upload.wikimedia.org/wikipedia/commons/4/44/Sir_David_Wilkie_%281785-1841%29_-_Abd-ul-Mejid_%281823-1861%29%2C_Sultan_of_Turkey_-_RCIN_407268_-_Royal_Collection.jpg",
+          "page": "https://commons.wikimedia.org/wiki/File:Sir_David_Wilkie_(1785-1841)_-_Abd-ul-Mejid_(1823-1861),_Sultan_of_Turkey_-_RCIN_407268_-_Royal_Collection.jpg",
+          "credit": "David Wilkie",
+          "license": "Public domain",
+          "made": "1840",
+          "caption": "Painted from life by the Scottish artist David Wilkie in 1840, a year into the reign.",
+          "alt": "Painted portrait of the young Sultan Abdulmejid I"
+        }
+      ],
+      "sources": [
+        {
+          "title": "Osman's Dream: The Story of the Ottoman Empire 1300–1923",
+          "author": "Caroline Finkel",
+          "note": "John Murray, 2005"
+        },
+        {
+          "title": "Reform in the Ottoman Empire, 1856–1876",
+          "author": "Roderic H. Davison",
+          "note": "Princeton University Press, 1963"
+        },
+        {
+          "title": "Constantinople: City of the World's Desire, 1453–1924",
+          "author": "Philip Mansel",
+          "note": "John Murray, 1995"
+        }
+      ],
+      "review": {
+        "status": "draft",
+        "notes": "Drafted from the listed sources; needs a human fact-check."
+      }
+    },
+    {
+      "id": "abdulaziz",
+      "kind": "monarch",
+      "rulers": [
+        "abdulaziz"
+      ],
+      "tagline": "The sultan who toured Europe and died with cut wrists",
+      "start": {
+        "date": "1861-06-25"
+      },
+      "end": {
+        "date": "1876-05-30"
+      },
+      "contestedWith": [],
+      "relationToPredecessor": "Younger brother of Abdulmejid I",
+      "ageAtAccession": "31",
+      "cameToPower": "Succeeded his brother",
+      "reignEnded": "Deposed by his ministers",
+      "previously": "Abdulmejid I dies of tuberculosis at 38, deep in debt.",
+      "paragraphs": [
+        "Abdulaziz was a big, strong man who loved ships. He spent heavily on ironclads and built one of the largest navies in the world. In 1867 he became the first sultan to travel to Western Europe for peace and pleasure. He saw the Paris Exposition, met Napoleon III, and in Britain Queen Victoria made him a Knight of the Garter. Back home his reforming ministers kept the Tanzimat going.",
+        "The money ran out. In 1875 the government stopped paying half the interest on its foreign debt, and Europe's bankers were furious. Christians rose in Bosnia, then in Bulgaria in 1876, and the revolts were put down savagely. On 30 May 1876 his ministers, led by Midhat Pasha, deposed him with a religious ruling. Five days later he was found dead in the Feriye Palace, his wrists cut with a pair of scissors."
+      ],
+      "claims": [
+        {
+          "text": "Abdulaziz killed himself.",
+          "status": "disputed",
+          "note": "Nineteen doctors signed a report saying suicide. In 1881 his nephew Abdul Hamid II put Midhat Pasha and others on trial for murder. Many think that trial was rigged."
+        },
+        {
+          "text": "He was the first sultan to visit Western Europe on a peaceful visit.",
+          "status": "confirmed",
+          "note": "His 1867 tour of France, Britain, Prussia and Austria was widely reported and documented by his hosts."
+        },
+        {
+          "text": "A brother of one of his wives shot down ministers in revenge.",
+          "status": "confirmed",
+          "note": "In June 1876 an officer called Çerkes Hasan burst into a cabinet meeting and killed the war minister Hüseyin Avni Pasha and the foreign minister."
+        }
+      ],
+      "hook": "The ministers' new sultan is Murad, Abdulaziz's nephew. He's liberal, popular and smart. He's also falling apart.",
+      "images": [
+        {
+          "file": "File:Sultan Abdulaziz of the Ottoman Empire.jpg",
+          "url": "https://upload.wikimedia.org/wikipedia/commons/4/4b/Sultan_Abdulaziz_of_the_Ottoman_Empire.jpg",
+          "page": "https://commons.wikimedia.org/wiki/File:Sultan_Abdulaziz_of_the_Ottoman_Empire.jpg",
+          "credit": "W. & D. Downey",
+          "license": "Public domain",
+          "made": "1867",
+          "caption": "Photographed by the British studio W. & D. Downey in 1867, the year of his European tour.",
+          "alt": "Photograph of Sultan Abdulaziz"
+        }
+      ],
+      "sources": [
+        {
+          "title": "Reform in the Ottoman Empire, 1856–1876",
+          "author": "Roderic H. Davison",
+          "note": "Princeton University Press, 1963"
+        },
+        {
+          "title": "Osman's Dream: The Story of the Ottoman Empire 1300–1923",
+          "author": "Caroline Finkel",
+          "note": "John Murray, 2005"
+        },
+        {
+          "title": "Constantinople: City of the World's Desire, 1453–1924",
+          "author": "Philip Mansel",
+          "note": "John Murray, 1995"
+        }
+      ],
+      "review": {
+        "status": "draft",
+        "notes": "Drafted from the listed sources; needs a human fact-check."
+      }
+    },
+    {
+      "id": "murad-v",
+      "kind": "monarch",
+      "rulers": [
+        "murad-v"
+      ],
+      "tagline": "93 days on the throne, 28 years behind palace walls",
+      "start": {
+        "date": "1876-05-30"
+      },
+      "end": {
+        "date": "1876-08-31"
+      },
+      "contestedWith": [],
+      "relationToPredecessor": "Nephew of Abdulaziz",
+      "ageAtAccession": "35",
+      "cameToPower": "Put in by reforming ministers",
+      "reignEnded": "Deposed as insane",
+      "previously": "Abdulaziz is deposed by his ministers. Days later he is found dead.",
+      "paragraphs": [
+        "Murad, eldest son of Abdulmejid, was the reformers' dream: educated, friendly to Europe and keen on a constitution. He played the piano and wrote music. But the strain of his uncle's overthrow broke him. Abdulaziz's bloody death, then the shooting of two ministers soon after, sent him into a nervous collapse. He fainted, wept and couldn't appear in public.",
+        "A Viennese specialist, Dr Max Leidesdorf, came to examine him and thought he might recover with time. The ministers had no time. Serbia had declared war, and Europe was screaming about the Bulgarian massacres. On 31 August 1876 they deposed Murad and gave the throne to his brother. Murad was shut away in Çırağan Palace. In 1878 a radical, Ali Suavi, stormed the palace to free him and was killed. Murad stayed locked up until he died in 1904."
+      ],
+      "claims": [
+        {
+          "text": "Murad could have recovered if he'd been given time.",
+          "status": "disputed",
+          "note": "Dr Leidesdorf thought so, and Murad later seemed calmer in confinement. Abdul Hamid's camp naturally said he was unfit."
+        },
+        {
+          "text": "Ali Suavi's raid on Çırağan in 1878 aimed to put Murad back on the throne.",
+          "status": "confirmed",
+          "note": "The attack is well documented. Suavi and many followers were killed by guards in the palace grounds."
+        },
+        {
+          "text": "Murad was a Freemason.",
+          "status": "disputed",
+          "note": "Several historians say he joined a lodge as crown prince, citing Masonic sources, but palace documents are silent."
+        }
+      ],
+      "hook": "His brother Abdul Hamid takes the crown. He's promised the reformers a constitution. Keep an eye on what he does with it.",
+      "images": [
+        {
+          "file": "File:Photograph of Sultan Murad V by Abdullah Frères.png",
+          "url": "https://upload.wikimedia.org/wikipedia/commons/3/3d/Photograph_of_Sultan_Murad_V_by_Abdullah_Fr%C3%A8res.png",
+          "page": "https://commons.wikimedia.org/wiki/File:Photograph_of_Sultan_Murad_V_by_Abdullah_Fr%C3%A8res.png",
+          "credit": "Abdullah Frères",
+          "license": "Public domain",
+          "made": "c. 1869",
+          "caption": "Photographed by the Istanbul studio Abdullah Frères around 1869, while he was still crown prince.",
+          "alt": "Detail of a photograph of Murad V as a young man"
+        }
+      ],
+      "sources": [
+        {
+          "title": "Reform in the Ottoman Empire, 1856–1876",
+          "author": "Roderic H. Davison",
+          "note": "Princeton University Press, 1963"
+        },
+        {
+          "title": "Osman's Dream: The Story of the Ottoman Empire 1300–1923",
+          "author": "Caroline Finkel",
+          "note": "John Murray, 2005"
+        },
+        {
+          "title": "Constantinople: City of the World's Desire, 1453–1924",
+          "author": "Philip Mansel",
+          "note": "John Murray, 1995"
+        }
+      ],
+      "review": {
+        "status": "draft",
+        "notes": "Drafted from the listed sources; needs a human fact-check."
+      }
+    },
+    {
+      "id": "abdul-hamid-ii",
+      "kind": "monarch",
+      "rulers": [
+        "abdul-hamid-ii"
+      ],
+      "tagline": "The paranoid sultan who ruled for 33 years from his palace",
+      "start": {
+        "date": "1876-08-31"
+      },
+      "end": {
+        "date": "1909-04-27"
+      },
+      "contestedWith": [],
+      "relationToPredecessor": "Younger brother of Murad V",
+      "ageAtAccession": "33",
+      "cameToPower": "Replaced his brother",
+      "reignEnded": "Deposed after a failed coup",
+      "previously": "Murad V breaks down after 93 days and is declared unfit.",
+      "paragraphs": [
+        "Abdul Hamid gave the empire its first constitution in December 1876 and its first parliament in 1877. Then Russia invaded and got almost to Istanbul. In February 1878 he sent parliament home and didn't call it back for 30 years. Britain took Cyprus that year, France took Tunisia in 1881, Britain occupied Egypt in 1882. Abdul Hamid shut himself up in Yıldız Palace, ran a huge network of spies and censored everything.",
+        "He built railways and schools and played up his role as caliph of all Muslims. When Armenians pushed for reform in 1894–96, massacres killed somewhere around 100,000 to 300,000, and Europe called him the Red Sultan. In 1905 Armenian revolutionaries set off a bomb outside his mosque. He was chatting and late, and survived. In 1908 army officers, the Young Turks, forced him to bring back the constitution. After a failed counter-coup in 1909 he was deposed."
+      ],
+      "claims": [
+        {
+          "text": "He survived the 1905 bomb because he stopped to chat.",
+          "status": "confirmed",
+          "note": "The timed bomb went off as he lingered talking to the Sheikh ul-Islam after Friday prayers. Over twenty people died."
+        },
+        {
+          "text": "Abdul Hamid ordered the Hamidian massacres himself.",
+          "status": "disputed",
+          "note": "No written order has been found. Historians agree his government and the Hamidiye cavalry he created carried them out, and that he did nothing to stop them."
+        },
+        {
+          "text": "He loved detective novels and had Sherlock Holmes stories read to him.",
+          "status": "legend",
+          "note": "He did have European crime fiction translated for him. The Holmes detail is a favourite story with thin sourcing."
+        }
+      ],
+      "hook": "The Young Turks want a sultan who won't give orders. They find one in Abdul Hamid's brother Reşad, who's spent most of his 64 years locked up.",
+      "images": [
+        {
+          "file": "File:Sultan Abdul Hamid II of the Ottoman Empire.jpg",
+          "url": "https://upload.wikimedia.org/wikipedia/commons/0/08/Sultan_Abdul_Hamid_II_of_the_Ottoman_Empire.jpg",
+          "page": "https://commons.wikimedia.org/wiki/File:Sultan_Abdul_Hamid_II_of_the_Ottoman_Empire.jpg",
+          "credit": "Abdullah Frères",
+          "license": "Public domain",
+          "made": "1868",
+          "caption": "Photographed by Abdullah Frères in 1868, eight years before he became sultan.",
+          "alt": "Studio photograph of Abdul Hamid II as a young prince"
+        }
+      ],
+      "sources": [
+        {
+          "title": "Abdulhamid II: le sultan calife",
+          "author": "François Georgeon",
+          "note": "Fayard, 2003"
+        },
+        {
+          "title": "The Well-Protected Domains: Ideology and the Legitimation of Power in the Ottoman Empire, 1876–1909",
+          "author": "Selim Deringil",
+          "note": "I.B. Tauris, 1998"
+        },
+        {
+          "title": "A Brief History of the Late Ottoman Empire",
+          "author": "M. Şükrü Hanioğlu",
+          "note": "Princeton University Press, 2008"
+        },
+        {
+          "title": "Osman's Dream: The Story of the Ottoman Empire 1300–1923",
+          "author": "Caroline Finkel",
+          "note": "John Murray, 2005"
+        }
+      ],
+      "review": {
+        "status": "draft",
+        "notes": "Drafted from the listed sources; needs a human fact-check."
+      }
+    },
+    {
+      "id": "mehmed-v",
+      "kind": "monarch",
+      "rulers": [
+        "mehmed-v"
+      ],
+      "tagline": "A gentle figurehead in the empire's darkest years",
+      "start": {
+        "date": "1909-04-27"
+      },
+      "end": {
+        "date": "1918-07-03"
+      },
+      "contestedWith": [],
+      "relationToPredecessor": "Younger brother of Abdul Hamid II",
+      "ageAtAccession": "64",
+      "cameToPower": "Put in by the Young Turks",
+      "reignEnded": "Died in office",
+      "previously": "Abdul Hamid II is deposed after the failed counter-coup of 1909.",
+      "paragraphs": [
+        "Mehmed Reşad was kind, mild and had lived in the shadows for decades. The real power belonged to the Committee of Union and Progress, the CUP. The wars came fast. Italy took Libya in 1911. The Balkan states took almost all of Ottoman Europe in 1912. In 1913 CUP officers stormed the government offices, and three men took control: Enver, Talat and Cemal Pasha. In November 1914 they took the empire into the First World War on Germany's side.",
+        "In 1915 the Allies landed at Gallipoli and were thrown back after months of slaughter. A colonel named Mustafa Kemal became a hero there. That same year the CUP government launched the Armenian genocide. Armenian leaders in Istanbul were rounded up in April 1915, and Armenians across Anatolia were massacred or marched into the Syrian desert. Between about 600,000 and 1.5 million died.",
+        "Assyrian and Greek communities also suffered. By 1918 the Arabs had risen, Baghdad and Jerusalem had fallen, and the army was in tatters. Mehmed V died in July, months before the end."
+      ],
+      "claims": [
+        {
+          "text": "The deportations and massacres of 1915–16 were the Armenian genocide.",
+          "status": "confirmed",
+          "note": "This is the consensus of genocide scholars and historians, based on Ottoman, German, American and Armenian records. The Turkish state officially denies it was genocide."
+        },
+        {
+          "text": "Mehmed V had almost no say in what the CUP did.",
+          "status": "confirmed",
+          "note": "Contemporaries and historians agree the triumvirate ran policy. The sultan signed what he was given."
+        },
+        {
+          "text": "Mehmed V called a holy war against Britain, France and Russia in 1914.",
+          "status": "confirmed",
+          "note": "The jihad was proclaimed in his name as caliph in November 1914. It did little to stir Muslims in Allied empires."
+        }
+      ],
+      "hook": "His brother Vahideddin takes the throne at 57. In four months the war will be lost, and Allied warships will anchor off the palace.",
+      "images": [
+        {
+          "file": "File:Sultan Mehmed V of the Ottoman Empire cropped.jpg",
+          "url": "https://upload.wikimedia.org/wikipedia/commons/3/30/Sultan_Mehmed_V_of_the_Ottoman_Empire_cropped.jpg",
+          "page": "https://commons.wikimedia.org/wiki/File:Sultan_Mehmed_V_of_the_Ottoman_Empire_cropped.jpg",
+          "credit": "Bain News Service",
+          "license": "Public domain",
+          "made": "1913",
+          "caption": "A Bain News Service photograph dated 1913, four years into his reign.",
+          "alt": "Photograph of Sultan Mehmed V"
+        }
+      ],
+      "sources": [
+        {
+          "title": "The Fall of the Ottomans: The Great War in the Middle East",
+          "author": "Eugene Rogan",
+          "note": "Allen Lane / Basic Books, 2015"
+        },
+        {
+          "title": "\"They Can Live in the Desert but Nowhere Else\": A History of the Armenian Genocide",
+          "author": "Ronald Grigor Suny",
+          "note": "Princeton University Press, 2015"
+        },
+        {
+          "title": "A Brief History of the Late Ottoman Empire",
+          "author": "M. Şükrü Hanioğlu",
+          "note": "Princeton University Press, 2008"
+        },
+        {
+          "title": "Osman's Dream: The Story of the Ottoman Empire 1300–1923",
+          "author": "Caroline Finkel",
+          "note": "John Murray, 2005"
+        }
+      ],
+      "review": {
+        "status": "draft",
+        "notes": "Drafted from the listed sources; needs a human fact-check."
+      }
+    },
+    {
+      "id": "mehmed-vi",
+      "kind": "monarch",
+      "rulers": [
+        "mehmed-vi"
+      ],
+      "tagline": "The last sultan, who slipped away on a British warship",
+      "start": {
+        "date": "1918-07-04"
+      },
+      "end": {
+        "date": "1922-11-01"
+      },
+      "contestedWith": [],
+      "relationToPredecessor": "Younger brother of Mehmed V",
+      "ageAtAccession": "57",
+      "cameToPower": "Succeeded his brother",
+      "reignEnded": "Sultanate abolished",
+      "previously": "Mehmed V dies in July 1918 with the war all but lost.",
+      "paragraphs": [
+        "Mehmed VI, known as Vahideddin, got the throne just in time to lose the war. The armistice came in October 1918, the CUP leaders fled abroad, and Allied troops moved into Istanbul. In May 1919 Greek troops landed at Smyrna. That same month the sultan's government sent Mustafa Kemal to Anatolia as an inspector. Kemal used the job to raise a national resistance and set up a rival assembly in Ankara in 1920.",
+        "Mehmed sided with the Allies to save his throne. His government signed the Treaty of Sèvres in August 1920, carving up Anatolia, and a court in Istanbul sentenced Kemal to death. Kemal won anyway. His army beat the Greeks and took back Smyrna in 1922. On 1 November the Ankara assembly abolished the sultanate. On 17 November Mehmed left on the British battleship HMS Malaya. He died in Sanremo in 1926.",
+        "His cousin Abdulmejid II stayed on as caliph with no political power. On 29 October 1923 Kemal proclaimed the Republic of Turkey. On 3 March 1924 the caliphate was abolished and the House of Osman sent into exile, after more than six centuries."
+      ],
+      "claims": [
+        {
+          "text": "Mehmed VI handed Mustafa Kemal the job that let him start the resistance.",
+          "status": "confirmed",
+          "note": "Kemal was appointed army inspector by the sultan's government and landed at Samsun on 19 May 1919."
+        },
+        {
+          "text": "His creditors in Sanremo seized his coffin until the debts were paid.",
+          "status": "disputed",
+          "note": "A famous story repeated in many histories. Details about who paid and how long it took vary between accounts."
+        },
+        {
+          "text": "He planned his escape with the British and asked for their protection in writing.",
+          "status": "confirmed",
+          "note": "His letter to General Harington asking for British protection was published and is held in British records."
+        }
+      ],
+      "images": [
+        {
+          "file": "File:Sébah & Joaillier - Sultan Mehmed VI.jpg",
+          "url": "https://upload.wikimedia.org/wikipedia/commons/3/35/S%C3%A9bah_%26_Joaillier_-_Sultan_Mehmed_VI.jpg",
+          "page": "https://commons.wikimedia.org/wiki/File:S%C3%A9bah_%26_Joaillier_-_Sultan_Mehmed_VI.jpg",
+          "credit": "Sébah & Joaillier; restoration by Adam Cuerden",
+          "license": "Public domain",
+          "made": "c. 1920",
+          "caption": "Photographed by the Istanbul studio Sébah & Joaillier during his short reign.",
+          "alt": "Photograph of Sultan Mehmed VI, the last Ottoman sultan"
+        }
+      ],
+      "sources": [
+        {
+          "title": "Atatürk",
+          "author": "Andrew Mango",
+          "note": "John Murray, 1999"
+        },
+        {
+          "title": "Turkey: A Modern History",
+          "author": "Erik J. Zürcher",
+          "note": "I.B. Tauris, 1993; later editions"
+        },
+        {
+          "title": "The Fall of the Ottomans: The Great War in the Middle East",
+          "author": "Eugene Rogan",
+          "note": "Allen Lane / Basic Books, 2015"
+        },
+        {
+          "title": "Osman's Dream: The Story of the Ottoman Empire 1300–1923",
+          "author": "Caroline Finkel",
+          "note": "John Murray, 2005"
+        }
+      ],
+      "review": {
+        "status": "draft",
+        "notes": "Drafted from the listed sources; needs a human fact-check."
+      }
+    }
+  ]
+}
