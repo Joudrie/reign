@@ -1,0 +1,3907 @@
+{
+  "id": "france",
+  "name": "France",
+  "blurb": "From Hugh Capet to Napoleon III",
+  "dateConvention": "Reigns are counted from accession; early Capetian reigns from coronation. England's Henry VI is shown as a rival claimant while English kings claimed the French crown.",
+  "epilogue": "In 1870 France became a republic for good, and it has had no king or emperor since. Swipe back through nine centuries of the men who wore the crown.",
+  "houses": [
+    {
+      "id": "capet",
+      "name": "Capet",
+      "color": "#3a5a8c"
+    },
+    {
+      "id": "valois",
+      "name": "Valois",
+      "color": "#9b4a2c"
+    },
+    {
+      "id": "lancaster",
+      "name": "Lancaster",
+      "color": "#c8553d"
+    },
+    {
+      "id": "bourbon",
+      "name": "Bourbon",
+      "color": "#b8932e"
+    },
+    {
+      "id": "republic",
+      "name": "Republic",
+      "color": "#8c5a7a"
+    },
+    {
+      "id": "bonaparte",
+      "name": "Bonaparte",
+      "color": "#4f7a4a"
+    },
+    {
+      "id": "orleans",
+      "name": "Orléans",
+      "color": "#6b4c9a"
+    }
+  ],
+  "rulers": [
+    {
+      "id": "hugh-capet",
+      "name": "Hugh Capet",
+      "house": "capet",
+      "born": {
+        "date": "0940",
+        "circa": true,
+        "note": "Around 939 to 941; sources differ"
+      },
+      "died": {
+        "date": "0996-10-24"
+      },
+      "causeOfDeath": "Illness"
+    },
+    {
+      "id": "robert-ii",
+      "name": "Robert II",
+      "epithet": "the Pious",
+      "house": "capet",
+      "born": {
+        "date": "0972",
+        "circa": true,
+        "note": "Orléans"
+      },
+      "died": {
+        "date": "1031-07-20",
+        "note": "Melun"
+      },
+      "causeOfDeath": "Illness"
+    },
+    {
+      "id": "henry-i",
+      "name": "Henry I",
+      "house": "capet",
+      "born": {
+        "date": "1008",
+        "circa": true,
+        "note": "Usually given as 1008"
+      },
+      "died": {
+        "date": "1060-08-04",
+        "note": "Vitry-aux-Loges, near Orléans"
+      },
+      "causeOfDeath": "Illness"
+    },
+    {
+      "id": "philip-i",
+      "name": "Philip I",
+      "house": "capet",
+      "born": {
+        "date": "1052-05-23"
+      },
+      "died": {
+        "date": "1108-07-29",
+        "note": "Melun"
+      },
+      "causeOfDeath": "Illness"
+    },
+    {
+      "id": "louis-vi",
+      "name": "Louis VI",
+      "epithet": "the Fat",
+      "house": "capet",
+      "born": {
+        "date": "1081",
+        "circa": true,
+        "note": "Traditionally 1 December 1081"
+      },
+      "died": {
+        "date": "1137-08-01",
+        "note": "Béthisy-Saint-Pierre"
+      },
+      "causeOfDeath": "Dysentery"
+    },
+    {
+      "id": "louis-vii",
+      "name": "Louis VII",
+      "epithet": "the Young",
+      "house": "capet",
+      "born": {
+        "date": "1120",
+        "circa": true,
+        "note": "Probably 1120"
+      },
+      "died": {
+        "date": "1180-09-18"
+      },
+      "causeOfDeath": "Paralysis after a stroke"
+    },
+    {
+      "id": "philip-ii",
+      "name": "Philip II",
+      "epithet": "Augustus",
+      "house": "capet",
+      "born": {
+        "date": "1165-08-21",
+        "note": "Gonesse, near Paris"
+      },
+      "died": {
+        "date": "1223-07-14",
+        "note": "Mantes"
+      },
+      "causeOfDeath": "Fever"
+    },
+    {
+      "id": "louis-viii",
+      "name": "Louis VIII",
+      "epithet": "the Lion",
+      "house": "capet",
+      "born": {
+        "date": "1187-09-05",
+        "note": "Paris"
+      },
+      "died": {
+        "date": "1226-11-08",
+        "note": "Montpensier, Auvergne"
+      },
+      "causeOfDeath": "Dysentery"
+    },
+    {
+      "id": "louis-ix",
+      "name": "Louis IX",
+      "epithet": "Saint Louis",
+      "house": "capet",
+      "born": {
+        "date": "1214-04-25",
+        "note": "Poissy"
+      },
+      "died": {
+        "date": "1270-08-25",
+        "note": "Outside Tunis"
+      },
+      "causeOfDeath": "Camp disease, probably dysentery"
+    },
+    {
+      "id": "philip-iii",
+      "name": "Philip III",
+      "epithet": "the Bold",
+      "house": "capet",
+      "born": {
+        "date": "1245-05-01",
+        "note": "Poissy"
+      },
+      "died": {
+        "date": "1285-10-05",
+        "note": "Perpignan"
+      },
+      "causeOfDeath": "Fever caught on campaign in Aragon"
+    },
+    {
+      "id": "philip-iv",
+      "name": "Philip IV",
+      "epithet": "the Fair",
+      "house": "capet",
+      "born": {
+        "date": "1268",
+        "circa": true,
+        "note": "Fontainebleau"
+      },
+      "died": {
+        "date": "1314-11-29",
+        "note": "Fontainebleau"
+      },
+      "causeOfDeath": "Stroke, suffered while out hunting"
+    },
+    {
+      "id": "louis-x",
+      "name": "Louis X",
+      "epithet": "the Quarreller",
+      "house": "capet",
+      "born": {
+        "date": "1289-10-04",
+        "note": "Paris"
+      },
+      "died": {
+        "date": "1316-06-05",
+        "note": "Vincennes"
+      },
+      "causeOfDeath": "Sudden illness after a ball game"
+    },
+    {
+      "id": "john-i",
+      "name": "John I",
+      "epithet": "the Posthumous",
+      "house": "capet",
+      "born": {
+        "date": "1316-11-15",
+        "note": "Paris"
+      },
+      "died": {
+        "date": "1316-11-20",
+        "note": "Paris"
+      },
+      "causeOfDeath": "Died as a newborn; cause unknown"
+    },
+    {
+      "id": "philip-v",
+      "name": "Philip V",
+      "epithet": "the Tall",
+      "house": "capet",
+      "born": {
+        "date": "1292",
+        "circa": true,
+        "note": "Somewhere between about 1291 and 1293; sources differ"
+      },
+      "died": {
+        "date": "1322-01-03",
+        "note": "Longchamp Abbey, near Paris"
+      },
+      "causeOfDeath": "Months-long illness, probably dysentery"
+    },
+    {
+      "id": "charles-iv",
+      "name": "Charles IV",
+      "epithet": "the Fair",
+      "house": "capet",
+      "born": {
+        "date": "1294-06-18"
+      },
+      "died": {
+        "date": "1328-02-01",
+        "note": "Vincennes"
+      },
+      "causeOfDeath": "Illness"
+    },
+    {
+      "id": "philip-vi",
+      "name": "Philip VI",
+      "house": "valois",
+      "born": {
+        "date": "1293",
+        "circa": true
+      },
+      "died": {
+        "date": "1350-08-22",
+        "note": "Near Nogent-le-Roi"
+      },
+      "causeOfDeath": "Illness"
+    },
+    {
+      "id": "john-ii",
+      "name": "John II",
+      "epithet": "the Good",
+      "house": "valois",
+      "born": {
+        "date": "1319-04-26",
+        "note": "Near Le Mans"
+      },
+      "died": {
+        "date": "1364-04-08",
+        "note": "The Savoy Palace, London"
+      },
+      "causeOfDeath": "Illness, while a hostage in England"
+    },
+    {
+      "id": "charles-v",
+      "name": "Charles V",
+      "epithet": "the Wise",
+      "house": "valois",
+      "born": {
+        "date": "1338-01-21",
+        "note": "Vincennes"
+      },
+      "died": {
+        "date": "1380-09-16",
+        "note": "Château de Beauté, near Vincennes"
+      },
+      "causeOfDeath": "Illness"
+    },
+    {
+      "id": "charles-vi",
+      "name": "Charles VI",
+      "epithet": "the Mad",
+      "house": "valois",
+      "born": {
+        "date": "1368-12-03",
+        "note": "Paris"
+      },
+      "died": {
+        "date": "1422-10-21",
+        "note": "Hôtel Saint-Pol, Paris"
+      },
+      "causeOfDeath": "Illness, after decades of mental illness"
+    },
+    {
+      "id": "charles-vii",
+      "name": "Charles VII",
+      "epithet": "the Victorious",
+      "house": "valois",
+      "born": {
+        "date": "1403-02-22",
+        "note": "Paris"
+      },
+      "died": {
+        "date": "1461-07-22",
+        "note": "Mehun-sur-Yèvre, Berry"
+      },
+      "causeOfDeath": "Illness, possibly an infection of the mouth"
+    },
+    {
+      "id": "henry-vi-england",
+      "name": "Henry VI of England",
+      "house": "lancaster",
+      "born": {
+        "date": "1421-12-06",
+        "note": "Windsor Castle"
+      },
+      "died": {
+        "date": "1471-05-21",
+        "note": "Tower of London"
+      },
+      "causeOfDeath": "Died in the Tower, almost certainly murdered"
+    },
+    {
+      "id": "louis-xi",
+      "name": "Louis XI",
+      "epithet": "the Spider",
+      "house": "valois",
+      "born": {
+        "date": "1423-07-03",
+        "note": "Bourges"
+      },
+      "died": {
+        "date": "1483-08-30",
+        "note": "Château de Plessis-lès-Tours"
+      },
+      "causeOfDeath": "A series of strokes"
+    },
+    {
+      "id": "charles-viii",
+      "name": "Charles VIII",
+      "house": "valois",
+      "born": {
+        "date": "1470-06-30",
+        "note": "Château d'Amboise"
+      },
+      "died": {
+        "date": "1498-04-07",
+        "note": "Château d'Amboise"
+      },
+      "causeOfDeath": "Struck his head on a low doorway"
+    },
+    {
+      "id": "louis-xii",
+      "name": "Louis XII",
+      "epithet": "Father of the People",
+      "house": "valois",
+      "born": {
+        "date": "1462-06-27",
+        "note": "Château de Blois"
+      },
+      "died": {
+        "date": "1515-01-01",
+        "note": "Hôtel des Tournelles, Paris"
+      },
+      "causeOfDeath": "Illness, worn out by gout"
+    },
+    {
+      "id": "francis-i",
+      "name": "Francis I",
+      "house": "valois",
+      "born": {
+        "date": "1494-09-12",
+        "note": "Cognac"
+      },
+      "died": {
+        "date": "1547-03-31",
+        "note": "Château de Rambouillet"
+      },
+      "causeOfDeath": "Illness, aged 52"
+    },
+    {
+      "id": "henry-ii",
+      "name": "Henry II",
+      "house": "valois",
+      "born": {
+        "date": "1519-03-31",
+        "note": "Saint-Germain-en-Laye"
+      },
+      "died": {
+        "date": "1559-07-10",
+        "note": "Hôtel des Tournelles, Paris"
+      },
+      "causeOfDeath": "Lance splinter to the eye in a joust"
+    },
+    {
+      "id": "francis-ii",
+      "name": "Francis II",
+      "house": "valois",
+      "born": {
+        "date": "1544-01-19",
+        "note": "Fontainebleau"
+      },
+      "died": {
+        "date": "1560-12-05",
+        "note": "Orléans"
+      },
+      "causeOfDeath": "Ear infection, aged 16"
+    },
+    {
+      "id": "charles-ix",
+      "name": "Charles IX",
+      "house": "valois",
+      "born": {
+        "date": "1550-06-27",
+        "note": "Saint-Germain-en-Laye"
+      },
+      "died": {
+        "date": "1574-05-30",
+        "note": "Château de Vincennes"
+      },
+      "causeOfDeath": "Tuberculosis, aged 23"
+    },
+    {
+      "id": "henry-iii",
+      "name": "Henry III",
+      "house": "valois",
+      "born": {
+        "date": "1551-09-19",
+        "note": "Fontainebleau"
+      },
+      "died": {
+        "date": "1589-08-02",
+        "note": "Saint-Cloud, near Paris"
+      },
+      "causeOfDeath": "Stabbed by a friar"
+    },
+    {
+      "id": "henry-iv",
+      "name": "Henry IV",
+      "epithet": "Good King Henry",
+      "house": "bourbon",
+      "born": {
+        "date": "1553-12-13",
+        "note": "Pau, Navarre"
+      },
+      "died": {
+        "date": "1610-05-14",
+        "note": "Rue de la Ferronnerie, Paris"
+      },
+      "causeOfDeath": "Stabbed by François Ravaillac"
+    },
+    {
+      "id": "louis-xiii",
+      "name": "Louis XIII",
+      "epithet": "the Just",
+      "house": "bourbon",
+      "born": {
+        "date": "1601-09-27",
+        "note": "Fontainebleau"
+      },
+      "died": {
+        "date": "1643-05-14",
+        "note": "Saint-Germain-en-Laye"
+      },
+      "causeOfDeath": "Long illness, probably intestinal tuberculosis"
+    },
+    {
+      "id": "louis-xiv",
+      "name": "Louis XIV",
+      "epithet": "the Sun King",
+      "house": "bourbon",
+      "born": {
+        "date": "1638-09-05",
+        "note": "Saint-Germain-en-Laye"
+      },
+      "died": {
+        "date": "1715-09-01",
+        "note": "Versailles"
+      },
+      "causeOfDeath": "Gangrene of the leg"
+    },
+    {
+      "id": "louis-xv",
+      "name": "Louis XV",
+      "epithet": "the Beloved",
+      "house": "bourbon",
+      "born": {
+        "date": "1710-02-15",
+        "note": "Versailles"
+      },
+      "died": {
+        "date": "1774-05-10",
+        "note": "Versailles"
+      },
+      "causeOfDeath": "Smallpox"
+    },
+    {
+      "id": "louis-xvi",
+      "name": "Louis XVI",
+      "house": "bourbon",
+      "born": {
+        "date": "1754-08-23",
+        "note": "Versailles"
+      },
+      "died": {
+        "date": "1793-01-21",
+        "note": "Place de la Révolution (now Place de la Concorde), Paris"
+      },
+      "causeOfDeath": "Guillotined"
+    },
+    {
+      "id": "napoleon-i",
+      "name": "Napoleon I",
+      "house": "bonaparte",
+      "born": {
+        "date": "1769-08-15",
+        "note": "Ajaccio, Corsica"
+      },
+      "died": {
+        "date": "1821-05-05",
+        "note": "Longwood House, Saint Helena"
+      },
+      "causeOfDeath": "Probably stomach cancer"
+    },
+    {
+      "id": "louis-xviii",
+      "name": "Louis XVIII",
+      "epithet": "the Desired",
+      "house": "bourbon",
+      "born": {
+        "date": "1755-11-17",
+        "note": "Palace of Versailles"
+      },
+      "died": {
+        "date": "1824-09-16",
+        "note": "Tuileries Palace, Paris"
+      },
+      "causeOfDeath": "Gangrene, after years of gout"
+    },
+    {
+      "id": "charles-x",
+      "name": "Charles X",
+      "house": "bourbon",
+      "born": {
+        "date": "1757-10-09",
+        "note": "Palace of Versailles"
+      },
+      "died": {
+        "date": "1836-11-06",
+        "note": "Gorizia, then in the Austrian Empire"
+      },
+      "causeOfDeath": "Cholera"
+    },
+    {
+      "id": "louis-philippe",
+      "name": "Louis-Philippe I",
+      "epithet": "the Citizen King",
+      "house": "orleans",
+      "born": {
+        "date": "1773-10-06",
+        "note": "Palais-Royal, Paris"
+      },
+      "died": {
+        "date": "1850-08-26",
+        "note": "Claremont House, Surrey, England"
+      },
+      "causeOfDeath": "Natural causes, in exile"
+    },
+    {
+      "id": "napoleon-iii",
+      "name": "Napoleon III",
+      "house": "bonaparte",
+      "born": {
+        "date": "1808-04-20",
+        "note": "Paris"
+      },
+      "died": {
+        "date": "1873-01-09",
+        "note": "Camden Place, Chislehurst, Kent, England"
+      },
+      "causeOfDeath": "Complications after bladder-stone surgery"
+    }
+  ],
+  "reigns": [
+    {
+      "id": "hugh-capet",
+      "kind": "monarch",
+      "rulers": [
+        "hugh-capet"
+      ],
+      "tagline": "Elected king of a realm he barely controlled",
+      "start": {
+        "date": "0987-07-03"
+      },
+      "end": {
+        "date": "0996-10-24"
+      },
+      "contestedWith": [],
+      "relationToPredecessor": "Not a Carolingian; Duke of the Franks",
+      "ageAtAccession": "About 47",
+      "cameToPower": "Elected by the great lords",
+      "reignEnded": "Died of illness",
+      "previously": "987: Louis V, the last Carolingian king, dies in a hunting accident.",
+      "paragraphs": [
+        "In May 987 the young king Louis V fell while hunting and died. He had no son. The obvious heir was his uncle, Charles of Lorraine, but the great lords didn't want him. Meeting at Senlis, they chose Hugh, Duke of the Franks, the most powerful man in northern France. Archbishop Adalbero of Reims argued that a crown should go to the best man, not just the next in blood. Hugh was crowned on 3 July.",
+        "Being king turned out to be a smaller job than it sounded. Hugh's real power hardly reached beyond Paris and Orléans, and the dukes and counts treated him as one of themselves. Charles of Lorraine fought for his inheritance and seized Laon, until a bishop betrayed him in 991. He died a prisoner.",
+        "Hugh's smartest move came in his first year. At the end of 987 he had his son Robert crowned as co-king, so the next king was settled before anyone could call another election. His family copied the trick for two centuries, and his male-line descendants would sit on the French throne, on and off, until 1848."
+      ],
+      "claims": [
+        {
+          "text": "Hugh's nickname Capet comes from the cape, or cappa, he wore as lay abbot of Saint-Martin of Tours.",
+          "status": "disputed",
+          "note": "The name only turns up in writing long after his death, and nobody at the time explains it. The cape story is a later guess."
+        },
+        {
+          "text": "Hugh asked a rebel count \"Who made you a count?\" and got the reply \"Who made you king?\"",
+          "status": "legend",
+          "note": "Told by Adémar of Chabannes, writing decades later. It sums up Hugh's weak position too neatly to be trusted."
+        },
+        {
+          "text": "Charles of Lorraine was handed over by the Bishop of Laon, who had pretended to be his ally.",
+          "status": "confirmed",
+          "note": "The monk Richer of Reims, a contemporary, describes the betrayal at Laon in 991 in detail."
+        }
+      ],
+      "hook": "Hugh dies in October 996. His son Robert is already a crowned king, so nobody gets a vote this time. Robert is pious and bookish, and he's about to marry a cousin the Pope has forbidden him.",
+      "images": [
+        {
+          "file": "File:Hugues capet.jpg",
+          "url": "https://upload.wikimedia.org/wikipedia/commons/f/f0/Hugues_capet.jpg",
+          "page": "https://commons.wikimedia.org/wiki/File:Hugues_capet.jpg",
+          "credit": "Charles de Steuben",
+          "license": "Public domain",
+          "made": "1837",
+          "caption": "Painted by Charles de Steuben in 1837 for Versailles, more than 800 years after Hugh's death. Nobody knows what he really looked like.",
+          "alt": "Oil portrait of Hugh Capet, imagined by a 19th-century painter for the series of French kings at Versailles"
+        }
+      ],
+      "sources": [
+        {
+          "title": "Histories",
+          "author": "Richer of Saint-Rémi"
+        },
+        {
+          "title": "Hugues Capet",
+          "author": "Yves Sassier",
+          "note": "Fayard, 1987"
+        },
+        {
+          "title": "France in the Making, 843–1180",
+          "author": "Jean Dunbabin",
+          "note": "Oxford University Press, 1985; 2nd ed. 2000"
+        },
+        {
+          "title": "Chronicon",
+          "author": "Adémar of Chabannes",
+          "note": "\"Who made you king?\" story"
+        }
+      ],
+      "review": {
+        "status": "draft",
+        "notes": "Drafted from the listed sources; needs a human fact-check."
+      }
+    },
+    {
+      "id": "robert-ii",
+      "kind": "monarch",
+      "rulers": [
+        "robert-ii"
+      ],
+      "tagline": "The hymn-writing king with a messy love life",
+      "start": {
+        "date": "0996-10-24"
+      },
+      "end": {
+        "date": "1031-07-20"
+      },
+      "contestedWith": [],
+      "relationToPredecessor": "Son of Hugh Capet",
+      "ageAtAccession": "About 24",
+      "cameToPower": "Already crowned co-king in 987",
+      "reignEnded": "Died at Melun",
+      "previously": "Hugh Capet founds a new dynasty and has his son Robert crowned too.",
+      "paragraphs": [
+        "Robert had been taught at Reims by Gerbert of Aurillac, the cleverest scholar of the age and later Pope Sylvester II. He sang in church, wrote hymns and fed crowds of poor people. His love life was another matter. His father had married him to Rozala, a much older widow, and he soon sent her away. Then he married his cousin Bertha of Burgundy. The Pope ordered them apart, and after years of pressure Robert gave in.",
+        "His third wife, Constance of Arles, was sharp-tongued and much feared at court. Robert spent years at war to win the Duchy of Burgundy and in the end he got it. In 1022 he had a group of clergy at Orléans burned as heretics, one of the first heresy burnings in medieval Europe.",
+        "In 1017 he crowned his eldest son Hugh as co-king, but Hugh died young in 1025. Robert then crowned his next son, Henry, against the wishes of Constance, who wanted her younger boy Robert. The sons even rebelled against their father. When the king died at Melun in 1031, his family was already at war with itself."
+      ],
+      "claims": [
+        {
+          "text": "Robert was believed to heal the sick by touching them, the first French king said to have the gift.",
+          "status": "confirmed",
+          "note": "His monk-biographer Helgaud of Fleury says he touched lepers and cured them. That's what Helgaud wrote; whether anyone was cured is another matter. It's the first hint of the French royal touch."
+        },
+        {
+          "text": "Bertha of Burgundy gave birth to a monster, as punishment for the forbidden marriage.",
+          "status": "legend",
+          "note": "The story appears decades later, in the writings of Peter Damian. No earlier source mentions it."
+        },
+        {
+          "text": "At the Orléans trial, Queen Constance struck her old confessor with her staff and put out his eye.",
+          "status": "disputed",
+          "note": "It comes from one account by a monk of Chartres. Vivid, but there's no second witness."
+        }
+      ],
+      "hook": "Robert is dead and Henry is king. But his own mother, Constance, is raising support for his younger brother, and Henry is about to run for his life.",
+      "images": [
+        {
+          "file": "File:Blondel - Robert II of France.jpg",
+          "url": "https://upload.wikimedia.org/wikipedia/commons/a/a4/Blondel_-_Robert_II_of_France.jpg",
+          "page": "https://commons.wikimedia.org/wiki/File:Blondel_-_Robert_II_of_France.jpg",
+          "credit": "Merry-Joseph Blondel",
+          "license": "Public domain",
+          "made": "1837",
+          "caption": "Painted by Merry-Joseph Blondel in 1837 for Versailles, about 800 years after Robert's death. Nobody knows what he really looked like.",
+          "alt": "Oil portrait of Robert II, imagined by a 19th-century painter for the series of French kings at Versailles"
+        }
+      ],
+      "sources": [
+        {
+          "title": "Epitoma vitae regis Rotberti pii (Life of King Robert the Pious)",
+          "author": "Helgaud of Fleury"
+        },
+        {
+          "title": "The Five Books of the Histories",
+          "author": "Rodulfus Glaber"
+        },
+        {
+          "title": "Études sur le règne de Robert le Pieux",
+          "author": "Christian Pfister",
+          "note": "1885"
+        },
+        {
+          "title": "France in the Making, 843–1180",
+          "author": "Jean Dunbabin",
+          "note": "Oxford University Press, 1985; 2nd ed. 2000"
+        }
+      ],
+      "review": {
+        "status": "draft",
+        "notes": "Drafted from the listed sources; needs a human fact-check."
+      }
+    },
+    {
+      "id": "henry-i",
+      "kind": "monarch",
+      "rulers": [
+        "henry-i"
+      ],
+      "tagline": "The king who sent all the way to Kyiv for a bride",
+      "start": {
+        "date": "1031-07-20"
+      },
+      "end": {
+        "date": "1060-08-04"
+      },
+      "contestedWith": [],
+      "relationToPredecessor": "Son of Robert II",
+      "ageAtAccession": "About 23",
+      "cameToPower": "Crowned co-king in 1027",
+      "reignEnded": "Died at Vitry-aux-Loges",
+      "previously": "Robert the Pious dies in 1031, with his wife and sons at war.",
+      "paragraphs": [
+        "Henry's reign opened with a family war. His mother Constance backed his younger brother Robert, and Henry had to flee to Normandy. Duke Robert of Normandy helped him win his kingdom back. Henry settled the quarrel by handing his brother the Duchy of Burgundy, which kept the peace at home.",
+        "Normandy then became the problem. Henry helped the young Duke William crush his rebels at Val-ès-Dunes in 1047, then grew afraid of him. He invaded Normandy twice, and William beat his armies at Mortemer in 1054 and at Varaville in 1057. The man who would conquer England learned his trade fighting the King of France.",
+        "Finding a wife was oddly hard. The Church banned marriage between cousins, and Henry was related to most of the princely houses nearby. So in 1051 he married Anne, daughter of Yaroslav the Wise, Grand Prince of Kyiv. Their eldest son got a Greek name, Philip. In 1059 Henry had the seven-year-old crowned at Reims. A year later Henry was dead."
+      ],
+      "claims": [
+        {
+          "text": "Henry looked as far as Kyiv for a wife because the Church's rules on cousins ruled out almost everyone closer.",
+          "status": "disputed",
+          "note": "It's the usual explanation and it fits the facts, but no writer at the time says it was the reason. A marriage alliance with a rich eastern power had its own appeal."
+        },
+        {
+          "text": "Queen Anne signed a French charter in Cyrillic letters.",
+          "status": "confirmed",
+          "note": "A charter of 1063, issued after Henry's death, carries her name written in Slavonic script. It survives in French archives."
+        }
+      ],
+      "hook": "Henry dies in August 1060. The new king is eight, with a mother from Kyiv and a guardian from Flanders. He'll reign for 48 years, and one day he'll steal another man's wife.",
+      "images": [
+        {
+          "file": "File:Blondel - Henry I of France.jpg",
+          "url": "https://upload.wikimedia.org/wikipedia/commons/f/fc/Blondel_-_Henry_I_of_France.jpg",
+          "page": "https://commons.wikimedia.org/wiki/File:Blondel_-_Henry_I_of_France.jpg",
+          "credit": "Merry-Joseph Blondel",
+          "license": "Public domain",
+          "made": "1837",
+          "caption": "Painted by Merry-Joseph Blondel in 1837 for Versailles, nearly 800 years after Henry's death. Nobody knows what he really looked like.",
+          "alt": "Oil portrait of Henry I, imagined by a 19th-century painter for the series of French kings at Versailles"
+        }
+      ],
+      "sources": [
+        {
+          "title": "France in the Making, 843–1180",
+          "author": "Jean Dunbabin",
+          "note": "Oxford University Press, 1985; 2nd ed. 2000"
+        },
+        {
+          "title": "Capetian France, 987–1328",
+          "author": "Elizabeth M. Hallam and Judith Everard",
+          "note": "Longman, 2nd ed. 2001"
+        },
+        {
+          "title": "Gesta Normannorum Ducum",
+          "author": "William of Jumièges",
+          "note": "Henry's wars with Normandy"
+        }
+      ],
+      "review": {
+        "status": "draft",
+        "notes": "Drafted from the listed sources; needs a human fact-check."
+      }
+    },
+    {
+      "id": "philip-i",
+      "kind": "monarch",
+      "rulers": [
+        "philip-i"
+      ],
+      "tagline": "The king who stole the Count of Anjou's wife",
+      "start": {
+        "date": "1060-08-04"
+      },
+      "end": {
+        "date": "1108-07-29"
+      },
+      "contestedWith": [],
+      "relationToPredecessor": "Son of Henry I",
+      "ageAtAccession": "8",
+      "cameToPower": "Crowned at seven, in 1059",
+      "reignEnded": "Died at Melun",
+      "previously": "Henry I dies; his eight-year-old son Philip is already crowned.",
+      "paragraphs": [
+        "Philip was eight when his father died, so his uncle by marriage, Count Baldwin V of Flanders, ran the kingdom for him. Grown up, Philip turned out to be a crafty survivor. He didn't win many battles, but he picked up land: the French Vexin, and the town of Bourges, which he bought from a lord who needed cash to go on crusade.",
+        "He kept Normandy busy by backing William the Conqueror's rebellious son Robert. Then, in 1092, he threw over his wife Bertha and took Bertrade de Montfort, who was already married to the Count of Anjou. The Church excommunicated him more than once. In 1095 Pope Urban II preached the First Crusade at Clermont, in Philip's own kingdom, and the king was left out of it.",
+        "In his last years Philip was fat and idle, and his son Louis did most of the fighting. Philip died at Melun in 1108. He chose to be buried at the abbey of Fleury on the Loire, away from the other kings at Saint-Denis."
+      ],
+      "claims": [
+        {
+          "text": "Philip mocked William the Conqueror's belly, asking when the fat man would give birth. William swore he'd light a hundred thousand candles for his churching, then burned Mantes.",
+          "status": "legend",
+          "note": "Told by William of Malmesbury and other English writers. The raid on Mantes in 1087 is real; the joke may be a good story attached to it."
+        },
+        {
+          "text": "Bertrade tried to have her stepson Louis poisoned.",
+          "status": "disputed",
+          "note": "Orderic Vitalis tells it, and he loved a scandal. No French source of the time backs him up."
+        },
+        {
+          "text": "Philip was excommunicated over his marriage to Bertrade.",
+          "status": "confirmed",
+          "note": "Papal sentences and the letters of Bishop Ivo of Chartres, who was jailed for opposing the match, record it."
+        }
+      ],
+      "hook": "Philip leaves a son who has spent years chasing robber barons around Paris. Now Louis can do it as king, and his friend Suger, a monk, will write it all down.",
+      "images": [
+        {
+          "file": "File:Saint-Èvre - Philip I of France.jpg",
+          "url": "https://upload.wikimedia.org/wikipedia/commons/7/7e/Saint-%C3%88vre_-_Philip_I_of_France.jpg",
+          "page": "https://commons.wikimedia.org/wiki/File:Saint-%C3%88vre_-_Philip_I_of_France.jpg",
+          "credit": "Gillot Saint-Evre",
+          "license": "Public domain",
+          "made": "1837",
+          "caption": "Painted by Gillot Saint-Evre in 1837 for Versailles, more than 700 years after Philip's death. Nobody knows what he really looked like.",
+          "alt": "Oil portrait of Philip I, imagined by a 19th-century painter for the series of French kings at Versailles"
+        }
+      ],
+      "sources": [
+        {
+          "title": "Le règne de Philippe Ier, roi de France",
+          "author": "Augustin Fliche",
+          "note": "1912"
+        },
+        {
+          "title": "Gesta Regum Anglorum",
+          "author": "William of Malmesbury",
+          "note": "The belly joke"
+        },
+        {
+          "title": "The Ecclesiastical History",
+          "author": "Orderic Vitalis"
+        },
+        {
+          "title": "Capetian France, 987–1328",
+          "author": "Elizabeth M. Hallam and Judith Everard",
+          "note": "Longman, 2nd ed. 2001"
+        }
+      ],
+      "review": {
+        "status": "draft",
+        "notes": "Drafted from the listed sources; needs a human fact-check."
+      }
+    },
+    {
+      "id": "louis-vi",
+      "kind": "monarch",
+      "rulers": [
+        "louis-vi"
+      ],
+      "tagline": "The heavyweight who tamed the bandits of Paris",
+      "start": {
+        "date": "1108-07-29"
+      },
+      "end": {
+        "date": "1137-08-01"
+      },
+      "contestedWith": [],
+      "relationToPredecessor": "Son of Philip I",
+      "ageAtAccession": "26",
+      "cameToPower": "Crowned in a hurry at Orléans",
+      "reignEnded": "Dysentery, aged 55",
+      "previously": "Philip I dies at Melun after 48 years, leaving his son Louis.",
+      "paragraphs": [
+        "Louis spent most of his reign in the saddle, within a few days' ride of Paris. Lords like Hugh of Le Puiset and Thomas of Marle robbed travellers, raided churches and ignored the king. Louis besieged their castles one by one. He was big, brave and loud, and he grew so fat that by his late forties he struggled to get on a horse.",
+        "His closest friend was Suger, a monk of humble birth who became abbot of Saint-Denis and wrote the king's life. Louis lost to Henry I of England at Brémule in 1119. But in 1124, when the German emperor threatened to invade, he took up the banner of Saint-Denis and raised such a big army that the emperor turned back.",
+        "In 1131 his eldest son Philip was riding through Paris when a pig ran under his horse. The boy was thrown and died. Louis had his next son, another Louis, crowned less than two weeks later. In 1137 he married that son to Eleanor, heiress of Aquitaine. He died of dysentery before the couple got home."
+      ],
+      "claims": [
+        {
+          "text": "Prince Philip was killed by a runaway pig in a Paris street.",
+          "status": "confirmed",
+          "note": "Suger and several other writers of the time report it. It shocked people because a pig seemed such an undignified way for a prince to die."
+        },
+        {
+          "text": "Louis grew too fat to ride.",
+          "status": "confirmed",
+          "note": "Suger, who loved him, admits that by about 46 the king's weight made it hard for him to mount a horse."
+        },
+        {
+          "text": "In 1124 Louis carried the Oriflamme, the famous sacred war banner of France.",
+          "status": "disputed",
+          "note": "Suger says he took the banner of Saint-Denis. Calling it the Oriflamme, and the legends around it, came later."
+        }
+      ],
+      "hook": "The new king is 17. He was meant for a quiet life of prayer, and now he's married to the richest, boldest heiress in Europe. What could go wrong?",
+      "images": [
+        {
+          "file": "File:Blondel - Louis VI of France.jpg",
+          "url": "https://upload.wikimedia.org/wikipedia/commons/8/8e/Blondel_-_Louis_VI_of_France.jpg",
+          "page": "https://commons.wikimedia.org/wiki/File:Blondel_-_Louis_VI_of_France.jpg",
+          "credit": "Merry-Joseph Blondel",
+          "license": "Public domain",
+          "made": "1837",
+          "caption": "Painted by Merry-Joseph Blondel in 1837 for Versailles, 700 years after Louis's death. Nobody knows what he really looked like.",
+          "alt": "Oil portrait of Louis VI, imagined by a 19th-century painter for the series of French kings at Versailles"
+        }
+      ],
+      "sources": [
+        {
+          "title": "The Deeds of Louis the Fat",
+          "author": "Suger of Saint-Denis",
+          "note": "Trans. Richard Cusimano and John Moorhead, 1992"
+        },
+        {
+          "title": "Louis VI le Gros: annales de sa vie et de son règne",
+          "author": "Achille Luchaire",
+          "note": "1890"
+        },
+        {
+          "title": "The Ecclesiastical History",
+          "author": "Orderic Vitalis"
+        },
+        {
+          "title": "Capetian France, 987–1328",
+          "author": "Elizabeth M. Hallam and Judith Everard",
+          "note": "Longman, 2nd ed. 2001"
+        }
+      ],
+      "review": {
+        "status": "draft",
+        "notes": "Drafted from the listed sources; needs a human fact-check."
+      }
+    },
+    {
+      "id": "louis-vii",
+      "kind": "monarch",
+      "rulers": [
+        "louis-vii"
+      ],
+      "tagline": "The pious king who lost Eleanor of Aquitaine",
+      "start": {
+        "date": "1137-08-01"
+      },
+      "end": {
+        "date": "1180-09-18"
+      },
+      "contestedWith": [],
+      "relationToPredecessor": "Second son of Louis VI",
+      "ageAtAccession": "About 17",
+      "cameToPower": "Crowned co-king in 1131",
+      "reignEnded": "Died after a stroke",
+      "previously": "Louis the Fat dies just as his son marries Eleanor of Aquitaine.",
+      "paragraphs": [
+        "Louis was a second son, brought up among the monks of Saint-Denis, and he stayed devout all his life. His wife Eleanor of Aquitaine was lively and clever, and she brought him a huge stretch of south-west France. In 1143, in a quarrel with the Count of Champagne, his troops burned the town of Vitry. Hundreds of people sheltering in the church died in the flames. Louis was haunted by it.",
+        "In 1147 he and Eleanor set off on the Second Crusade. It went badly. The army was mauled crossing Asia Minor, and the siege of Damascus fell apart within days. At Antioch the royal couple fell out. In 1152 the marriage was annulled on grounds of kinship. Eight weeks later Eleanor married Henry of Anjou, who soon became Henry II of England and took her lands with him.",
+        "Louis spent the rest of his reign fighting Henry, and he still had no son. His second wife died giving birth to a daughter. With his third, Adela of Champagne, he finally got a boy in 1165, nicknamed Dieudonné, God-given. In 1179 the boy fell gravely ill, and Louis crossed to England to pray at Becket's tomb in Canterbury. Philip lived. Louis had a stroke soon after and never recovered."
+      ],
+      "claims": [
+        {
+          "text": "Eleanor had an affair with her uncle, Raymond of Antioch, during the crusade.",
+          "status": "disputed",
+          "note": "John of Salisbury and William of Tyre hint at something improper, but neither claims proof. Later writers turned the hints into a romance."
+        },
+        {
+          "text": "Eleanor complained she had married a monk, not a king.",
+          "status": "disputed",
+          "note": "The line is reported by the English chronicler William of Newburgh, who wasn't there. It sounds like her, which is why it stuck."
+        },
+        {
+          "text": "Guilt over Vitry drove Louis to go on crusade.",
+          "status": "disputed",
+          "note": "Later writers made the link. Louis was devout anyway, and the Pope was calling for a crusade after Edessa fell in 1144."
+        }
+      ],
+      "hook": "Louis dies in September 1180. His son Philip is 15, already crowned, and set on tearing apart the vast empire Henry II has built out of Eleanor's lands.",
+      "images": [
+        {
+          "file": "File:Decaisne - Louis VII of France.jpg",
+          "url": "https://upload.wikimedia.org/wikipedia/commons/3/37/Decaisne_-_Louis_VII_of_France.jpg",
+          "page": "https://commons.wikimedia.org/wiki/File:Decaisne_-_Louis_VII_of_France.jpg",
+          "credit": "Henri Decaisne",
+          "license": "Public domain",
+          "made": "1837",
+          "caption": "Painted by Henri Decaisne in 1837 for Versailles, more than 650 years after Louis's death. Nobody knows what he really looked like.",
+          "alt": "Oil portrait of Louis VII, imagined by a 19th-century painter for the series of French kings at Versailles"
+        }
+      ],
+      "sources": [
+        {
+          "title": "Louis VII",
+          "author": "Yves Sassier",
+          "note": "Fayard, 1991"
+        },
+        {
+          "title": "De profectione Ludovici VII in Orientem",
+          "author": "Odo of Deuil",
+          "note": "Eyewitness account of the Second Crusade"
+        },
+        {
+          "title": "Historia Pontificalis",
+          "author": "John of Salisbury",
+          "note": "The Antioch rumours"
+        },
+        {
+          "title": "Eleanor of Aquitaine: Queen of France, Queen of England",
+          "author": "Ralph V. Turner",
+          "note": "Yale University Press, 2009"
+        }
+      ],
+      "review": {
+        "status": "draft",
+        "notes": "Drafted from the listed sources; needs a human fact-check."
+      }
+    },
+    {
+      "id": "philip-ii",
+      "kind": "monarch",
+      "rulers": [
+        "philip-ii"
+      ],
+      "tagline": "The king who took Normandy and made France a power",
+      "start": {
+        "date": "1180-09-18"
+      },
+      "end": {
+        "date": "1223-07-14"
+      },
+      "contestedWith": [],
+      "relationToPredecessor": "Son of Louis VII",
+      "ageAtAccession": "15",
+      "cameToPower": "Already crowned, in 1179",
+      "reignEnded": "Fever at Mantes",
+      "previously": "Louis VII dies in 1180, worn out by his long fight with Henry II.",
+      "paragraphs": [
+        "Philip was 15 and already crowned when his father died. His great rivals were the Angevins: Henry II, then his sons Richard the Lionheart and John, who held more of France than Philip did. He set the sons against their father. In 1190 he and Richard left on the Third Crusade together and helped take Acre in 1191. Then Philip went home early and plotted against Richard while he was away.",
+        "His private life was a scandal. In 1193 he married Ingeborg of Denmark and turned against her the day after the wedding. He locked her away and took another wife, Agnes of Merania. In 1200 Pope Innocent III put France under an interdict, shutting the churches, until Philip backed down, at least on paper.",
+        "Against King John he struck gold. In 1204 he took Château Gaillard and then all of Normandy. In 1214 he smashed John's allies, the German emperor Otto IV and the Count of Flanders, at Bouvines. He walled Paris and built the first Louvre. He died in 1223 the strongest king in Europe, and the first Capetian who didn't bother having his heir crowned in advance."
+      ],
+      "claims": [
+        {
+          "text": "Philip rejected Ingeborg the morning after their wedding, and nobody knows why.",
+          "status": "confirmed",
+          "note": "Chroniclers of the time all report the sudden turn. Theories run from witchcraft to a bad wedding night; Philip never explained."
+        },
+        {
+          "text": "Richard the Lionheart captured Philip's royal archives in an ambush at Fréteval in 1194.",
+          "status": "confirmed",
+          "note": "Chroniclers on both sides record the loss of the king's baggage and records. The idea that it led France to keep its archives in Paris is a later explanation."
+        },
+        {
+          "text": "Philip was the first to call himself King of France instead of King of the Franks.",
+          "status": "disputed",
+          "note": "The new title starts to appear in his reign, but both forms were used side by side for years."
+        }
+      ],
+      "hook": "Philip's son Louis is the first heir in two centuries to inherit without an early crowning. He's already had a throne before: in 1216, London proclaimed him King of England.",
+      "images": [
+        {
+          "file": "File:Louis-Félix Amiel-Philippe II dit Philippe-Auguste Roi de France (1165-1223).jpg",
+          "url": "https://upload.wikimedia.org/wikipedia/commons/9/9d/Louis-F%C3%A9lix_Amiel-Philippe_II_dit_Philippe-Auguste_Roi_de_France_%281165-1223%29.jpg",
+          "page": "https://commons.wikimedia.org/wiki/File:Louis-F%C3%A9lix_Amiel-Philippe_II_dit_Philippe-Auguste_Roi_de_France_(1165-1223).jpg",
+          "credit": "Louis-Félix Amiel",
+          "license": "Public domain",
+          "made": "1837",
+          "caption": "Painted by Louis-Félix Amiel in 1837 for Versailles, more than 600 years after Philip's death. Nobody knows what he really looked like.",
+          "alt": "Oil portrait of Philip II, imagined by a 19th-century painter for the series of French kings at Versailles"
+        }
+      ],
+      "sources": [
+        {
+          "title": "The Government of Philip Augustus",
+          "author": "John W. Baldwin",
+          "note": "University of California Press, 1986"
+        },
+        {
+          "title": "Philip Augustus: King of France 1180–1223",
+          "author": "Jim Bradbury",
+          "note": "Longman, 1998"
+        },
+        {
+          "title": "Gesta Philippi Augusti",
+          "author": "Rigord"
+        },
+        {
+          "title": "Philippide",
+          "author": "William the Breton"
+        }
+      ],
+      "review": {
+        "status": "draft",
+        "notes": "Drafted from the listed sources; needs a human fact-check."
+      }
+    },
+    {
+      "id": "louis-viii",
+      "kind": "monarch",
+      "rulers": [
+        "louis-viii"
+      ],
+      "tagline": "The French prince who was proclaimed King of England",
+      "start": {
+        "date": "1223-07-14"
+      },
+      "end": {
+        "date": "1226-11-08"
+      },
+      "contestedWith": [],
+      "relationToPredecessor": "Son of Philip II",
+      "ageAtAccession": "35",
+      "cameToPower": "Inherited without early crowning",
+      "reignEnded": "Dysentery, after a crusade",
+      "previously": "Philip Augustus dies in 1223, the strongest king in Europe.",
+      "paragraphs": [
+        "Louis was a fighter long before he was king. In 1216 English barons, fed up with King John, invited him to take the crown. He landed in Kent, marched into London and was proclaimed king at St Paul's. Then John died, and the barons switched to John's nine-year-old son, Henry III. Louis's army was beaten at Lincoln in 1217. He took a payment and went home.",
+        "As King of France he moved fast. In 1224 he took Poitou and the port of La Rochelle from the English. In 1226 he led a crusade south against the Cathar heretics and the Count of Toulouse who protected them, and spent three months besieging Avignon. On the march home dysentery swept through the army and the king caught it. He died in Auvergne, aged 39.",
+        "His widow, Blanche of Castile, was a granddaughter of Henry II and Eleanor of Aquitaine. She was left with a houseful of children and a 12-year-old king."
+      ],
+      "claims": [
+        {
+          "text": "Louis was proclaimed King of England in London in 1216.",
+          "status": "confirmed",
+          "note": "English chroniclers such as Roger of Wendover record the barons' welcome. He was never crowned, so English lists leave him out."
+        },
+        {
+          "text": "On his deathbed Louis refused to sleep with a girl his attendants believed would cure him.",
+          "status": "legend",
+          "note": "Chroniclers told it to show his chastity. It fits a pattern of pious deathbed stories and can't be checked."
+        }
+      ],
+      "hook": "The new king is 12. His mother Blanche must hold France together while the great lords sense their chance. The boy she's raising will grow up to be a saint.",
+      "images": [
+        {
+          "file": "File:Lehmann - Louis VIII of France.jpg",
+          "url": "https://upload.wikimedia.org/wikipedia/commons/e/ef/Lehmann_-_Louis_VIII_of_France.jpg",
+          "page": "https://commons.wikimedia.org/wiki/File:Lehmann_-_Louis_VIII_of_France.jpg",
+          "credit": "Henri Lehmann",
+          "license": "Public domain",
+          "made": "1837",
+          "caption": "Painted by Henri Lehmann in 1837 for Versailles, more than 600 years after Louis's death. Nobody knows what he really looked like.",
+          "alt": "Oil portrait of Louis VIII, imagined by a 19th-century painter for the series of French kings at Versailles"
+        }
+      ],
+      "sources": [
+        {
+          "title": "Louis VIII le Lion",
+          "author": "Gérard Sivéry",
+          "note": "Fayard, 1995"
+        },
+        {
+          "title": "Étude sur la vie et le règne de Louis VIII",
+          "author": "Charles Petit-Dutaillis",
+          "note": "1894"
+        },
+        {
+          "title": "Blood Cries Afar: The Forgotten Invasion of England, 1216",
+          "author": "Sean McGlynn",
+          "note": "2011"
+        },
+        {
+          "title": "Flores Historiarum",
+          "author": "Roger of Wendover"
+        }
+      ],
+      "review": {
+        "status": "draft",
+        "notes": "Drafted from the listed sources; needs a human fact-check."
+      }
+    },
+    {
+      "id": "louis-ix",
+      "kind": "monarch",
+      "rulers": [
+        "louis-ix"
+      ],
+      "tagline": "The king who became a saint, and died on crusade",
+      "start": {
+        "date": "1226-11-08"
+      },
+      "end": {
+        "date": "1270-08-25"
+      },
+      "contestedWith": [],
+      "relationToPredecessor": "Son of Louis VIII",
+      "ageAtAccession": "12",
+      "cameToPower": "Crowned at 12; mother as regent",
+      "reignEnded": "Died of disease outside Tunis",
+      "previously": "Louis VIII dies of dysentery, leaving a 12-year-old son.",
+      "paragraphs": [
+        "Louis was 12 when he became king, and his mother Blanche of Castile ruled for him, putting down rebel lords with a firm hand. She raised him to be devout. He grew into a king who washed the feet of beggars, fed the poor at his own table and wore a hair shirt. In 1239 he bought what was said to be Christ's Crown of Thorns, and built the Sainte-Chapelle in Paris to hold it.",
+        "In 1248 he set out on crusade to Egypt. He took Damietta, but in 1250, after the battle of Mansurah, his army was trapped and the king himself was captured. A huge ransom freed him. Louis stayed four more years in the Holy Land before coming home. His friend Jean de Joinville, who was there, later wrote it all down.",
+        "At home he was famous for fair justice and for making peace, including a treaty with Henry III of England in 1259. But the crusade still pulled at him. In 1270, worn and sickly, he sailed for Tunis. Disease swept the camp, and on 25 August Louis died. Within 27 years the Church made him a saint."
+      ],
+      "claims": [
+        {
+          "text": "Louis sat under an oak tree at Vincennes and judged people's complaints in person.",
+          "status": "confirmed",
+          "note": "Joinville says he saw it himself. It's the most famous image of Louis as a just king."
+        },
+        {
+          "text": "His last word was \"Jerusalem\".",
+          "status": "disputed",
+          "note": "Some accounts of his death say so. Others give him different last words. It may be pious shaping of the story."
+        },
+        {
+          "text": "His body was boiled so his bones could be carried home.",
+          "status": "confirmed",
+          "note": "Writers of the time describe it. His flesh and organs were left in Sicily, and the bones went on to Saint-Denis."
+        }
+      ],
+      "hook": "Louis lies dead in the African heat. His son Philip, sick himself, is now king far from home. He must lead a broken army back to France, carrying his father's bones. The journey will cost him dearly.",
+      "images": [
+        {
+          "file": "File:Decreuse - Louis IX of France.jpg",
+          "url": "https://upload.wikimedia.org/wikipedia/commons/e/e8/Decreuse_-_Louis_IX_of_France.jpg",
+          "page": "https://commons.wikimedia.org/wiki/File:Decreuse_-_Louis_IX_of_France.jpg",
+          "credit": "Auguste de Creuse",
+          "license": "Public domain",
+          "made": "1837",
+          "caption": "Painted by Auguste de Creuse in 1837 for Versailles, more than 550 years after Louis's death. Nobody knows what he really looked like.",
+          "alt": "Oil portrait of Louis IX, imagined by a 19th-century painter for the series of French kings at Versailles"
+        }
+      ],
+      "sources": [
+        {
+          "title": "Saint Louis",
+          "author": "Jacques Le Goff",
+          "note": "Gallimard, 1996; English trans. 2009"
+        },
+        {
+          "title": "The Life of Saint Louis",
+          "author": "Jean de Joinville"
+        },
+        {
+          "title": "Louis IX and the Challenge of the Crusade",
+          "author": "William Chester Jordan",
+          "note": "Princeton University Press, 1979"
+        }
+      ],
+      "review": {
+        "status": "draft",
+        "notes": "Drafted from the listed sources; needs a human fact-check."
+      }
+    },
+    {
+      "id": "philip-iii",
+      "kind": "monarch",
+      "rulers": [
+        "philip-iii"
+      ],
+      "tagline": "The king who came home from crusade with a cart of coffins",
+      "start": {
+        "date": "1270-08-25"
+      },
+      "end": {
+        "date": "1285-10-05"
+      },
+      "contestedWith": [],
+      "relationToPredecessor": "Son of Louis IX",
+      "ageAtAccession": "25",
+      "cameToPower": "Father died on crusade at Tunis",
+      "reignEnded": "Died of fever at Perpignan",
+      "previously": "Saint Louis dies of disease in his crusader camp outside Tunis.",
+      "paragraphs": [
+        "Philip became king in a sick camp in North Africa. His father, Saint Louis, had died of disease outside Tunis, and the army was dropping around him. The journey home turned into a funeral procession. His young wife Isabella fell from her horse in Calabria and died, and Philip reached Paris carrying the remains of his father, his wife and his brother.",
+        "He was pious, loyal and no great thinker, and he leaned hard on favourites. The biggest was his chamberlain, Pierre de La Brosse, a former barber-surgeon who was hanged in 1278 after a vicious court feud. Meanwhile the crown quietly grew. When his uncle Alphonse died childless in 1271, Toulouse and Poitou fell into royal hands.",
+        "Then the Pope handed him a war. After the Sicilian Vespers of 1282, Rome declared Peter III of Aragon deposed and offered his kingdom to Philip's younger son, Charles of Valois. Philip crossed the Pyrenees in 1285 and took Girona after a long siege, but Aragon's admiral smashed his fleet and disease swept the camp. Philip died at Perpignan on the way home, aged 40."
+      ],
+      "claims": [
+        {
+          "text": "Pierre de La Brosse accused Queen Marie of poisoning Philip's eldest son, Louis.",
+          "status": "disputed",
+          "note": "Chroniclers report the poison rumour after the boy died in 1276 and link it to La Brosse. Why he really fell, possibly over letters said to be treasonous, is still murky."
+        },
+        {
+          "text": "Philip's body was split three ways: flesh at Narbonne, bones at Saint-Denis, heart in Paris.",
+          "status": "confirmed",
+          "note": "Dividing royal corpses was normal practice then. His tomb at Narbonne cathedral survives, and the fight over who got his heart is recorded."
+        },
+        {
+          "text": "He won the name 'the Bold' for his daring.",
+          "status": "disputed",
+          "note": "No one at the time explains the nickname. It appears after his death and may reflect his courage on campaign, or simply flattery."
+        }
+      ],
+      "hook": "Philip is dead on the frontier. His son, also Philip, is 17, strikingly handsome and strangely silent. He is about to become the most ruthless king the Capetians ever produced.",
+      "images": [
+        {
+          "file": "File:Philip III of France in the Les grandes Chroniques de France.jpg",
+          "url": "https://upload.wikimedia.org/wikipedia/commons/b/b2/Philip_III_of_France_in_the_Les_grandes_Chroniques_de_France.jpg",
+          "page": "https://commons.wikimedia.org/wiki/File:Philip_III_of_France_in_the_Les_grandes_Chroniques_de_France.jpg",
+          "credit": "Unknown illuminator",
+          "license": "Public domain",
+          "made": "14th century",
+          "caption": "From a 14th-century copy of the Grandes Chroniques de France, made decades after his death.",
+          "alt": "Medieval manuscript illumination of King Philip III of France"
+        }
+      ],
+      "sources": [
+        {
+          "title": "Le Règne de Philippe III le Hardi",
+          "author": "Charles-Victor Langlois",
+          "note": "Hachette, 1887"
+        },
+        {
+          "title": "Gesta Philippi Tertii",
+          "author": "Guillaume de Nangis"
+        },
+        {
+          "title": "Grandes Chroniques de France",
+          "author": "Monks of Saint-Denis",
+          "note": "The official royal chronicle"
+        },
+        {
+          "title": "Capetian France 987–1328",
+          "author": "Elizabeth M. Hallam and Judith Everard",
+          "note": "Longman, 2nd ed. 2001"
+        }
+      ],
+      "review": {
+        "status": "draft",
+        "notes": "Drafted from the listed sources; needs a human fact-check."
+      }
+    },
+    {
+      "id": "philip-iv",
+      "kind": "monarch",
+      "rulers": [
+        "philip-iv"
+      ],
+      "tagline": "The silent king who took on the Pope and the Templars",
+      "start": {
+        "date": "1285-10-05"
+      },
+      "end": {
+        "date": "1314-11-29"
+      },
+      "contestedWith": [],
+      "relationToPredecessor": "Son of Philip III",
+      "ageAtAccession": "17",
+      "cameToPower": "Succeeded his father",
+      "reignEnded": "Stroke while out hunting",
+      "previously": "Philip III dies of fever at Perpignan after a failed war on Aragon.",
+      "paragraphs": [
+        "They called him the Fair for his looks, but what unnerved people was his silence. One bishop compared him to an owl: the handsomest of birds, staring at you without a word. Around him stood hard-edged lawyers like Guillaume de Nogaret. Philip needed cash for wars in Flanders and Gascony and got it every way he could: taxing the clergy, debasing the coinage, and expelling the Jews in 1306 to seize their goods.",
+        "When Pope Boniface VIII objected, Philip's men branded him a heretic. In 1303 Nogaret and the Colonna family stormed the Pope's palace at Anagni and held him for days; Boniface died about a month later. Then, on Friday 13 October 1307, royal agents across France arrested every Templar they could find. Under torture, knights confessed to spitting on the cross and worse. In March 1314 Grand Master Jacques de Molay took it all back and was burned on an island in the Seine.",
+        "That same spring, scandal hit the royal family. Two of his daughters-in-law were convicted of affairs with a pair of knights, the Aunay brothers, who were tortured and put to death in public. Philip had months to live. He died at Fontainebleau in November, aged 46, leaving three grown sons. The dynasty looked safe."
+      ],
+      "claims": [
+        {
+          "text": "On the pyre, Jacques de Molay summoned the Pope and the king to face God within a year.",
+          "status": "legend",
+          "note": "Both did die that year, Clement in April and Philip in November. But the summons appears in later retellings; Geoffroi de Paris, who was there, has Molay say only that God would avenge them."
+        },
+        {
+          "text": "His daughter Isabella, Queen of England, exposed the princesses' affairs.",
+          "status": "disputed",
+          "note": "A chronicle tradition says she spotted purses she had given her sisters-in-law hanging from the knights' belts. A great story, but the sources are thin."
+        },
+        {
+          "text": "The Templars' confessions were dragged out by torture.",
+          "status": "confirmed",
+          "note": "Many knights later withdrew their confessions, and the trial records show torture was used. Historians still argue whether greed or real belief in the charges drove Philip."
+        }
+      ],
+      "hook": "Philip the Fair is dead, within a year of the curse. His son Louis is king, with a wife locked in a freezing cell at Château-Gaillard and no easy way to marry again while she lives.",
+      "images": [
+        {
+          "file": "File:Philip iv and family. 2 (detail crop).jpg",
+          "url": "https://upload.wikimedia.org/wikipedia/commons/9/98/Philip_iv_and_family._2_%28detail_crop%29.jpg",
+          "page": "https://commons.wikimedia.org/wiki/File:Philip_iv_and_family._2_(detail_crop).jpg",
+          "credit": "Unknown illuminator",
+          "license": "Public domain",
+          "made": "c. 1313",
+          "caption": "Detail of a family scene painted around 1313, in Philip's own lifetime.",
+          "alt": "Detail of a medieval manuscript miniature showing King Philip IV, cropped from a scene of him with his family"
+        }
+      ],
+      "sources": [
+        {
+          "title": "The Reign of Philip the Fair",
+          "author": "Joseph R. Strayer",
+          "note": "Princeton University Press, 1980"
+        },
+        {
+          "title": "Philippe le Bel",
+          "author": "Jean Favier",
+          "note": "Fayard, 1978"
+        },
+        {
+          "title": "The Trial of the Templars",
+          "author": "Malcolm Barber",
+          "note": "Cambridge University Press, 1978"
+        },
+        {
+          "title": "Chronique métrique",
+          "author": "Geoffroi de Paris",
+          "note": "Eyewitness to Molay's burning"
+        }
+      ],
+      "review": {
+        "status": "draft",
+        "notes": "Drafted from the listed sources; needs a human fact-check."
+      }
+    },
+    {
+      "id": "louis-x",
+      "kind": "monarch",
+      "rulers": [
+        "louis-x"
+      ],
+      "tagline": "A dead wife, a muddy war and one cold drink too many",
+      "start": {
+        "date": "1314-11-29"
+      },
+      "end": {
+        "date": "1316-06-05"
+      },
+      "contestedWith": [],
+      "relationToPredecessor": "Eldest son of Philip IV",
+      "ageAtAccession": "25",
+      "cameToPower": "Succeeded his father",
+      "reignEnded": "Fell ill after a ball game",
+      "previously": "Philip the Fair dies, months after the Templar Grand Master burns.",
+      "paragraphs": [
+        "Louis was 25, already King of Navarre through his mother, and known as le Hutin, the Quarreller. His first problem was his wife. Margaret of Burgundy, convicted in the Tour de Nesle affair, was locked up in Château-Gaillard, and there was no Pope in office to grant an annulment. In April 1315 she was found dead in her cell. By August Louis had married Clementia of Hungary.",
+        "His father's ministers paid the price for the old reign. Enguerrand de Marigny, Philip IV's money man, was hanged at the great gallows of Montfaucon after a campaign led by Louis's uncle, Charles of Valois. Louis marched on Flanders in 1315, but endless rain turned the roads to swamp and the army bogged down and went home. The same rain wrecked harvests and brought the Great Famine. Short of cash, Louis let royal serfs buy their freedom.",
+        "In June 1316, overheated after a game of jeu de paume at Vincennes, he drank a lot of chilled wine, took to his bed and died. He was 26. He left a little daughter, Joan, whose mother was the disgraced Margaret, and a new queen who was pregnant."
+      ],
+      "claims": [
+        {
+          "text": "The princesses met their lovers in the Tour de Nesle, and the men were thrown into the Seine.",
+          "status": "legend",
+          "note": "The tower and the drowned lovers come from later legend, made famous by Alexandre Dumas's 1832 play La Tour de Nesle. The real knights were executed at Pontoise."
+        },
+        {
+          "text": "Margaret of Burgundy was murdered in her cell.",
+          "status": "disputed",
+          "note": "Some chroniclers hint she was strangled; others say cold and neglect killed her. Her death came very conveniently for Louis."
+        },
+        {
+          "text": "Louis was poisoned.",
+          "status": "disputed",
+          "note": "Poison rumours followed almost every sudden royal death. The chronicle story of cold wine after hard exercise fits a fever or lung infection."
+        }
+      ],
+      "hook": "Louis is dead and France has no king, only a pregnant queen. His brother Philip grabs the regency. If the baby is a boy, he's king. If it's a girl, everything is up for grabs.",
+      "images": [
+        {
+          "file": "File:Couronnement de Louis X le Hutin.jpg",
+          "url": "https://upload.wikimedia.org/wikipedia/commons/1/13/Couronnement_de_Louis_X_le_Hutin.jpg",
+          "page": "https://commons.wikimedia.org/wiki/File:Couronnement_de_Louis_X_le_Hutin.jpg",
+          "credit": "Jean Fouquet",
+          "license": "Public domain",
+          "made": "c. 1455–1460",
+          "caption": "Painted by Jean Fouquet for the Grandes Chroniques about 140 years after Louis's reign.",
+          "alt": "Illumination by Jean Fouquet showing the coronation of Louis X at Reims, with his campaign in Flanders"
+        }
+      ],
+      "sources": [
+        {
+          "title": "Grandes Chroniques de France",
+          "author": "Monks of Saint-Denis",
+          "note": "The official royal chronicle"
+        },
+        {
+          "title": "Continuation of the Chronicle of Guillaume de Nangis",
+          "author": "Anonymous monks of Saint-Denis"
+        },
+        {
+          "title": "The Great Famine: Northern Europe in the Early Fourteenth Century",
+          "author": "William Chester Jordan",
+          "note": "Princeton University Press, 1996"
+        },
+        {
+          "title": "Chronique métrique",
+          "author": "Geoffroi de Paris"
+        }
+      ],
+      "review": {
+        "status": "draft",
+        "notes": "Drafted from the listed sources; needs a human fact-check."
+      }
+    },
+    {
+      "id": "john-i",
+      "kind": "monarch",
+      "rulers": [
+        "john-i"
+      ],
+      "tagline": "Born a king, dead five days later",
+      "start": {
+        "date": "1316-11-15"
+      },
+      "end": {
+        "date": "1316-11-20"
+      },
+      "contestedWith": [],
+      "relationToPredecessor": "Posthumous son of Louis X",
+      "ageAtAccession": "Newborn",
+      "cameToPower": "Born king, after his father died",
+      "reignEnded": "Died five days old",
+      "previously": "Louis X dies suddenly, leaving a little daughter and a pregnant queen.",
+      "paragraphs": [
+        "For five months France waited on a pregnancy. Louis X's brother Philip ran the kingdom as regent, under a deal with the great lords: if Queen Clementia had a boy, Philip would govern for him; if she had a girl, the question of the crown would wait. On 15 November 1316 she gave birth to a son, John. He was king the moment he arrived. No French king's reign has matched his whole life so exactly.",
+        "Clementia was gravely ill with fever after the birth, and the baby weakened too. On 20 November little John died, and he was buried at Saint-Denis among his ancestors. His uncle didn't waste a moment. Philip moved to take the throne for himself, pushing aside Louis's young daughter Joan."
+      ],
+      "claims": [
+        {
+          "text": "The baby was poisoned by Mahaut of Artois, Philip's mother-in-law.",
+          "status": "legend",
+          "note": "Whispers about Mahaut grew over time and were made famous by Maurice Druon's novels The Accursed Kings. No solid evidence backs them, and newborn deaths were common."
+        },
+        {
+          "text": "John survived, swapped for another baby, and grew up in Italy as Giannino Baglioni.",
+          "status": "legend",
+          "note": "A Sienese merchant made this claim in the 1350s and won some backing from Cola di Rienzo. Hardly anyone else believed him, and he died in prison."
+        },
+        {
+          "text": "John really counts as a king of France.",
+          "status": "confirmed",
+          "note": "Royal numbering treats him as king, which is why the next John, crowned in 1350, became John II."
+        }
+      ],
+      "hook": "The baby is dead and Philip has the crown in reach. But Louis X left a living daughter. Can a girl inherit France? Philip is about to make very sure the answer is no.",
+      "images": [
+        {
+          "file": "File:Jean I of France in the Les grandes Chroniques de France.jpg",
+          "url": "https://upload.wikimedia.org/wikipedia/commons/d/d2/Jean_I_of_France_in_the_Les_grandes_Chroniques_de_France.jpg",
+          "page": "https://commons.wikimedia.org/wiki/File:Jean_I_of_France_in_the_Les_grandes_Chroniques_de_France.jpg",
+          "credit": "Unknown illuminator",
+          "license": "Public domain",
+          "made": "14th century",
+          "caption": "No real portrait of the five-day king exists; this is an imagined figure from a 14th-century copy of the Grandes Chroniques.",
+          "alt": "Medieval manuscript illumination representing King John I of France"
+        }
+      ],
+      "sources": [
+        {
+          "title": "Continuation of the Chronicle of Guillaume de Nangis",
+          "author": "Anonymous monks of Saint-Denis"
+        },
+        {
+          "title": "Grandes Chroniques de France",
+          "author": "Monks of Saint-Denis",
+          "note": "The official royal chronicle"
+        },
+        {
+          "title": "Histoire de Philippe le Long, roi de France (1316–1322)",
+          "author": "Paul Lehugeur",
+          "note": "Hachette, 1897"
+        }
+      ],
+      "review": {
+        "status": "draft",
+        "notes": "Drafted from the listed sources; needs a human fact-check."
+      }
+    },
+    {
+      "id": "philip-v",
+      "kind": "monarch",
+      "rulers": [
+        "philip-v"
+      ],
+      "tagline": "The tall brother who wrote women out of the crown",
+      "start": {
+        "date": "1316-11-20"
+      },
+      "end": {
+        "date": "1322-01-03"
+      },
+      "contestedWith": [],
+      "relationToPredecessor": "Uncle of John I; brother of Louis X",
+      "ageAtAccession": "About 23–25",
+      "cameToPower": "Took the crown when his nephew died",
+      "reignEnded": "Died after months of illness",
+      "previously": "Baby King John I dies at five days old. His uncle Philip pounces.",
+      "paragraphs": [
+        "Philip was tall, sharp and in a hurry. He had himself crowned at Reims in January 1317, although plenty of great nobles backed his niece Joan. A few weeks later an assembly of lords, churchmen and Paris university men declared that a woman could not succeed to the throne of France. It was exactly the ruling Philip needed.",
+        "He was one of the better Capetian administrators, tidying the royal finances and the running of the household. He also stood by his wife, Joan of Burgundy, who had been locked up during the Tour de Nesle scandal and later cleared. The country around him was ugly. In 1320 bands of young shepherds marched south on a so-called crusade, massacring Jews as they went, and in 1321 lepers were accused of poisoning wells and burned.",
+        "Then Philip fell ill and lingered for months. He died in January 1322, aged about 30. His only son had died as a baby, leaving four daughters. The rule he had used to shut out his niece now shut out his own girls."
+      ],
+      "claims": [
+        {
+          "text": "Joan was barred under the ancient Salic law of the Franks.",
+          "status": "legend",
+          "note": "The 1317 assembly cited no such law. The old Frankish code was dug up to justify excluding women decades later, under the Valois kings."
+        },
+        {
+          "text": "The lepers really were plotting to poison France's wells.",
+          "status": "legend",
+          "note": "The confessions came under torture, and historians see the 'plot' as a panic that turned into a massacre."
+        }
+      ],
+      "hook": "Philip leaves only daughters, so his own rule kicks in again. The crown passes to the last of Philip the Fair's sons, Charles, who has a wife in prison and no heir.",
+      "images": [
+        {
+          "file": "File:Sacre Philippe V de France 1.jpg",
+          "url": "https://upload.wikimedia.org/wikipedia/commons/e/e7/Sacre_Philippe_V_de_France_1.jpg",
+          "page": "https://commons.wikimedia.org/wiki/File:Sacre_Philippe_V_de_France_1.jpg",
+          "credit": "Master of Fauvel",
+          "license": "Public domain",
+          "made": "14th century",
+          "caption": "Philip's coronation as painted in a 14th-century copy of the Grandes Chroniques, made within a generation of his reign.",
+          "alt": "Medieval manuscript miniature of the coronation of Philip V of France"
+        }
+      ],
+      "sources": [
+        {
+          "title": "Histoire de Philippe le Long, roi de France (1316–1322)",
+          "author": "Paul Lehugeur",
+          "note": "Hachette, 1897"
+        },
+        {
+          "title": "Continuation of the Chronicle of Guillaume de Nangis",
+          "author": "Anonymous monks of Saint-Denis"
+        },
+        {
+          "title": "Lepers, Jews and Moslems: The Plot to Overthrow Christendom in 1321",
+          "author": "Malcolm Barber",
+          "note": "History, vol. 66, 1981 (journal article)"
+        }
+      ],
+      "review": {
+        "status": "draft",
+        "notes": "Drafted from the listed sources; needs a human fact-check."
+      }
+    },
+    {
+      "id": "charles-iv",
+      "kind": "monarch",
+      "rulers": [
+        "charles-iv"
+      ],
+      "tagline": "The last of the Fair's sons, and the end of the line",
+      "start": {
+        "date": "1322-01-03"
+      },
+      "end": {
+        "date": "1328-02-01"
+      },
+      "contestedWith": [],
+      "relationToPredecessor": "Brother of Philip V",
+      "ageAtAccession": "27",
+      "cameToPower": "Brother died with no sons",
+      "reignEnded": "Died leaving a pregnant queen",
+      "previously": "Philip V dies with four daughters and no son. His own rule bars them.",
+      "paragraphs": [
+        "Charles, the youngest of Philip the Fair's sons, had the family looks. His first job was to get rid of his wife. Blanche of Burgundy had been in prison since the Tour de Nesle affair, and in 1322 the Pope annulled the marriage. Charles married Marie of Luxembourg, who died in 1324 after a carriage accident while pregnant. Next came his cousin Jeanne d'Évreux.",
+        "Abroad he picked a fight with England. A row over a new fortified town at Saint-Sardos in Gascony became a short war in 1324, and French troops overran much of the duchy. Edward II sent his queen, Charles's sister Isabella, to Paris to make peace. She stayed, took up with the exiled baron Roger Mortimer, and in 1326 the pair invaded England and toppled her husband.",
+        "On 1 February 1328 Charles died at Vincennes with his queen pregnant. France waited again. On 1 April she gave birth to a girl. After 341 years, the senior line of Hugh Capet had run out of sons."
+      ],
+      "claims": [
+        {
+          "text": "Jacques de Molay cursed Philip the Fair's family to the thirteenth generation.",
+          "status": "legend",
+          "note": "Four kings dead in 14 years made a perfect story, but the curse on the family is a modern telling, popularised by Maurice Druon's novels The Accursed Kings from 1955."
+        },
+        {
+          "text": "Isabella's son, Edward III of England, had the strongest claim by blood.",
+          "status": "disputed",
+          "note": "Edward was Philip the Fair's grandson through his mother. The whole argument was whether a woman could pass on a right she couldn't hold herself."
+        }
+      ],
+      "hook": "The baby is a girl, and France wants a man. The nearest male by blood is Edward III of England, a teenager and the wrong nationality. The barons turn instead to a cousin: Philip of Valois.",
+      "images": [
+        {
+          "file": "File:Charles IV le Bel.jpg",
+          "url": "https://upload.wikimedia.org/wikipedia/commons/0/04/Charles_IV_le_Bel.jpg",
+          "page": "https://commons.wikimedia.org/wiki/File:Charles_IV_le_Bel.jpg",
+          "credit": "Jean du Tillet (Recueil des rois de France)",
+          "license": "Public domain",
+          "made": "16th century",
+          "caption": "From Jean du Tillet's illustrated album of French kings, made more than 200 years after Charles died.",
+          "alt": "Sixteenth-century painted portrait of King Charles IV from an album of the kings of France"
+        }
+      ],
+      "sources": [
+        {
+          "title": "Grandes Chroniques de France",
+          "author": "Monks of Saint-Denis",
+          "note": "The official royal chronicle"
+        },
+        {
+          "title": "Continuation of the Chronicle of Guillaume de Nangis",
+          "author": "Anonymous monks of Saint-Denis"
+        },
+        {
+          "title": "Capetian France 987–1328",
+          "author": "Elizabeth M. Hallam and Judith Everard",
+          "note": "Longman, 2nd ed. 2001"
+        },
+        {
+          "title": "The Hundred Years War I: Trial by Battle",
+          "author": "Jonathan Sumption",
+          "note": "Faber, 1990"
+        }
+      ],
+      "review": {
+        "status": "draft",
+        "notes": "Drafted from the listed sources; needs a human fact-check."
+      }
+    },
+    {
+      "id": "philip-vi",
+      "kind": "monarch",
+      "rulers": [
+        "philip-vi"
+      ],
+      "tagline": "The lucky cousin whose crown started a 116-year war",
+      "start": {
+        "date": "1328-04-01"
+      },
+      "end": {
+        "date": "1350-08-22"
+      },
+      "contestedWith": [],
+      "relationToPredecessor": "First cousin of Charles IV",
+      "ageAtAccession": "About 34",
+      "cameToPower": "Chosen over Edward III of England",
+      "reignEnded": "Died of illness",
+      "previously": "Charles IV dies; his posthumous child is a girl. The direct line ends.",
+      "paragraphs": [
+        "Philip of Valois was Philip the Fair's nephew, the son of his brother Charles of Valois, and a grown man with sons of his own. The French lords made him regent when Charles IV died, then king when the widow had a girl. The rival was Edward III of England, aged 15, Philip the Fair's grandson through his mother. The lords were never going to crown an English teenager.",
+        "He began well, crushing Flemish rebels at Cassel in 1328, and Edward did homage to him for Gascony. But Philip backed Edward's Scottish enemies, Edward sheltered Philip's exiled cousin Robert of Artois, and in 1337 Philip declared Gascony confiscated. Edward answered by claiming the French crown for himself. The Hundred Years' War had begun.",
+        "Then it all went wrong. The French fleet was destroyed at Sluys in 1340. In 1346 English longbowmen cut down Philip's knights at Crécy, and Calais fell the next year after a long siege. In 1348 the Black Death arrived and killed perhaps a third of his people. Philip did buy the Dauphiné, the future title of every heir, before he died in 1350."
+      ],
+      "claims": [
+        {
+          "text": "Fleeing Crécy at night, Philip pounded on a castle gate crying 'Open up, it's the unlucky King of France!'",
+          "status": "legend",
+          "note": "Froissart tells it, writing decades later and not an eyewitness. It's a great line and may be his own polish."
+        },
+        {
+          "text": "No one dared tell Philip about Sluys, so his jester broke the news.",
+          "status": "legend",
+          "note": "The fool supposedly joked that the French were braver than the English, who hadn't dared jump into the sea. It's chronicle gossip, impossible to check."
+        },
+        {
+          "text": "Robert of Artois goaded Edward into war by serving him a heron, the bird of cowards.",
+          "status": "legend",
+          "note": "The scene comes from The Vow of the Heron, a satirical poem written soon after. It mocks the English court rather than recording a real dinner."
+        }
+      ],
+      "hook": "Philip dies with the war going badly. His son John, 31, is brave, touchy and obsessed with chivalry. In six years he will face Edward's eldest son, the Black Prince, near Poitiers.",
+      "images": [
+        {
+          "file": "File:Philippe VI de Valois.jpg",
+          "url": "https://upload.wikimedia.org/wikipedia/commons/9/9d/Philippe_VI_de_Valois.jpg",
+          "page": "https://commons.wikimedia.org/wiki/File:Philippe_VI_de_Valois.jpg",
+          "credit": "Unknown artist (Recueil des rois de France of Jean du Tillet)",
+          "license": "Public domain",
+          "made": "16th century",
+          "caption": "From Jean du Tillet's album of French kings, based on Philip's royal seal and painted some 200 years after his death.",
+          "alt": "Painted portrait of King Philip VI from an album of French kings, modelled on the image on his royal seal"
+        }
+      ],
+      "sources": [
+        {
+          "title": "The Hundred Years War I: Trial by Battle",
+          "author": "Jonathan Sumption",
+          "note": "Faber, 1990"
+        },
+        {
+          "title": "Chronicles",
+          "author": "Jean Froissart"
+        },
+        {
+          "title": "Chronique",
+          "author": "Jean le Bel"
+        },
+        {
+          "title": "La Société politique et la crise de la royauté sous Philippe de Valois",
+          "author": "Raymond Cazelles",
+          "note": "Librairie d'Argences, 1958"
+        }
+      ],
+      "review": {
+        "status": "draft",
+        "notes": "Drafted from the listed sources; needs a human fact-check."
+      }
+    },
+    {
+      "id": "john-ii",
+      "kind": "monarch",
+      "rulers": [
+        "john-ii"
+      ],
+      "tagline": "The chivalrous king who lost a battle and himself",
+      "start": {
+        "date": "1350-08-22"
+      },
+      "end": {
+        "date": "1364-04-08"
+      },
+      "contestedWith": [],
+      "relationToPredecessor": "Son of Philip VI",
+      "ageAtAccession": "31",
+      "cameToPower": "Succeeded his father",
+      "reignEnded": "Died a hostage in London",
+      "previously": "Philip VI dies after Crécy, the loss of Calais and the Black Death.",
+      "paragraphs": [
+        "John loved knights, tournaments and the idea of honour, and in 1351 he founded his own chivalric club, the Order of the Star. He also had a dangerous temper. Months into his reign he had the Constable of France, the Count of Eu, beheaded without trial. His son-in-law, Charles the Bad, King of Navarre, had John's next constable murdered in 1354, and the two spent years plotting against each other.",
+        "In September 1356 John caught the Black Prince's raiding army near Poitiers. He had far more men and still lost. Fighting on foot with his 14-year-old son Philip beside him, he was surrounded and captured. With the king gone, Paris rose under the merchant leader Étienne Marcel, and the peasants of the north rose in the bloody revolt called the Jacquerie.",
+        "John lived comfortably in England while France paid. The Treaty of Brétigny in 1360 set his ransom at three million gold crowns and gave Edward III a vast slice of France. John came home, leaving his son Louis as a hostage. When Louis broke his word and escaped, John went back to London himself. He died there in April 1364."
+      ],
+      "claims": [
+        {
+          "text": "At Poitiers young Philip cried, 'Father, guard your right! Father, guard your left!'",
+          "status": "legend",
+          "note": "A much-loved tradition that is said to have earned him the name 'the Bold'. His courage that day is well attested, but the famous words are hard to trace to an eyewitness."
+        },
+        {
+          "text": "John returned to captivity purely out of honour.",
+          "status": "disputed",
+          "note": "That's how the chroniclers told it. Some historians think diplomacy, and perhaps the comforts of London, played a part too."
+        },
+        {
+          "text": "The franc was created to help pay John's ransom.",
+          "status": "confirmed",
+          "note": "The first gold franc was struck in December 1360, showing John on horseback, as the ransom payments began."
+        }
+      ],
+      "hook": "John is dead in London. His son Charles, 26, pale, sickly and bookish, has already survived a revolution in Paris as regent. Now he has to win back half a kingdom.",
+      "images": [
+        {
+          "file": "File:Jean II Le Bon - BnF - Musée du Louvre Peinures RF 2490.jpg",
+          "url": "https://upload.wikimedia.org/wikipedia/commons/5/55/Jean_II_Le_Bon_-_BnF_-_Mus%C3%A9e_du_Louvre_Peinures_RF_2490.jpg",
+          "page": "https://commons.wikimedia.org/wiki/File:Jean_II_Le_Bon_-_BnF_-_Mus%C3%A9e_du_Louvre_Peinures_RF_2490.jpg",
+          "credit": "Unknown artist",
+          "license": "Public domain",
+          "made": "c. 1350–1360",
+          "caption": "Painted in John's lifetime, it's one of the oldest surviving independent portraits in European painting.",
+          "alt": "Panel painting of King John II in profile against a gold background, now in the Louvre"
+        }
+      ],
+      "sources": [
+        {
+          "title": "The Hundred Years War II: Trial by Fire",
+          "author": "Jonathan Sumption",
+          "note": "Faber, 1999"
+        },
+        {
+          "title": "Chronicles",
+          "author": "Jean Froissart"
+        },
+        {
+          "title": "Société politique, noblesse et couronne sous Jean le Bon et Charles V",
+          "author": "Raymond Cazelles",
+          "note": "Droz, 1982"
+        }
+      ],
+      "review": {
+        "status": "draft",
+        "notes": "Drafted from the listed sources; needs a human fact-check."
+      }
+    },
+    {
+      "id": "charles-v",
+      "kind": "monarch",
+      "rulers": [
+        "charles-v"
+      ],
+      "tagline": "The bookish king who won the war from his desk",
+      "start": {
+        "date": "1364-04-08"
+      },
+      "end": {
+        "date": "1380-09-16"
+      },
+      "contestedWith": [],
+      "relationToPredecessor": "Son of John II",
+      "ageAtAccession": "26",
+      "cameToPower": "Father died a hostage in London",
+      "reignEnded": "Died of illness at 42",
+      "previously": "John II dies a hostage in London, with his ransom still unpaid.",
+      "paragraphs": [
+        "Charles was the first heir to the throne to be called the Dauphin, after the province his grandfather bought. His youth was terrifying. While his father was a captive, Étienne Marcel's men burst into his rooms in 1358 and killed two of his marshals in front of him. He never forgot it. He was never strong either: thin, pale, with a swollen hand and long bouts of illness.",
+        "He couldn't lead armies, so he chose men who could. Bertrand du Guesclin, a tough Breton knight, became Constable and fought a patient war: avoid big battles, take castles, wear the English down. By 1380 most of what France lost at Brétigny was back, and England held little more than Calais, the coast around Bordeaux and Bayonne, and a couple of ports.",
+        "At home he gathered around 900 books in a tower of the Louvre and began building the Bastille. On his deathbed in September 1380 he scrapped the hearth tax that had paid for his war. He was 42. His heir, also Charles, was 11 years old."
+      ],
+      "claims": [
+        {
+          "text": "Charles the Bad poisoned the young Charles, causing his lifelong illness.",
+          "status": "disputed",
+          "note": "Charles and his circle believed it and blamed the swollen arm on poison. Modern guesses from the descriptions point to other illnesses."
+        },
+        {
+          "text": "His Louvre library was the start of France's national library.",
+          "status": "disputed",
+          "note": "It's the traditional founding story, but most of his books were sold to the English Duke of Bedford in the 1420s and scattered."
+        }
+      ],
+      "hook": "Charles the Wise is dead and his son is a boy of 11. Four royal uncles circle the throne, the treasury has just lost its biggest tax, and the new king's mind will not hold.",
+      "images": [
+        {
+          "file": "File:Charles V le Sage.jpg",
+          "url": "https://upload.wikimedia.org/wikipedia/commons/d/db/Charles_V_le_Sage.jpg",
+          "page": "https://commons.wikimedia.org/wiki/File:Charles_V_le_Sage.jpg",
+          "credit": "Jean du Tillet (Recueil des rois de France)",
+          "license": "Public domain",
+          "made": "16th century",
+          "caption": "From Jean du Tillet's album of French kings, painted nearly two centuries after Charles's death.",
+          "alt": "Sixteenth-century painted portrait of Charles V from Jean du Tillet's Recueil des rois de France"
+        }
+      ],
+      "sources": [
+        {
+          "title": "Charles V le Sage",
+          "author": "Françoise Autrand",
+          "note": "Fayard, 1994"
+        },
+        {
+          "title": "Le Livre des fais et bonnes meurs du sage roy Charles V",
+          "author": "Christine de Pizan",
+          "note": "Written 1404"
+        },
+        {
+          "title": "The Hundred Years War II: Trial by Fire",
+          "author": "Jonathan Sumption",
+          "note": "Faber, 1999"
+        },
+        {
+          "title": "The Hundred Years War III: Divided Houses",
+          "author": "Jonathan Sumption",
+          "note": "Faber, 2009"
+        }
+      ],
+      "review": {
+        "status": "draft",
+        "notes": "Drafted from the listed sources; needs a human fact-check."
+      }
+    },
+    {
+      "id": "charles-vi",
+      "kind": "monarch",
+      "rulers": [
+        "charles-vi"
+      ],
+      "tagline": "The king who thought he was made of glass",
+      "start": {
+        "date": "1380-09-16"
+      },
+      "end": {
+        "date": "1422-10-21"
+      },
+      "contestedWith": [],
+      "relationToPredecessor": "Eldest son of Charles V",
+      "ageAtAccession": "11",
+      "cameToPower": "Inherited as a boy; uncles ruled",
+      "reignEnded": "Died in Paris, his kingdom signed away",
+      "previously": "Charles the Wise is dead. His heir is an 11-year-old boy.",
+      "paragraphs": [
+        "Charles started out well. People called him “the Beloved”. Then, in August 1392, riding through a forest near Le Mans in the summer heat, he snapped. A page dropped a lance with a clang, and the king drew his sword and cut down several of his own men. For the next 30 years he drifted in and out of madness. In bad spells he forgot his name, didn't know his wife, and begged courtiers not to touch him in case he shattered.",
+        "Months after the first attack came the Ball of the Burning Men. Charles and five friends dressed as hairy wild men, sewn into costumes of linen and tar. A torch got too close. Four dancers burned to death. The king lived only because his aunt, the young Duchess of Berry, threw her skirts over him. With no one really in charge, his brother Louis of Orléans and his cousin John, Duke of Burgundy, fought for control. In 1407 Burgundy's men hacked Louis to death in a Paris street.",
+        "That feud became a civil war, and Henry V of England walked straight into it. He crushed the French at Agincourt in 1415. Then the Dauphin's men murdered Duke John in 1419, so Burgundy sided with England. In 1420, at Troyes, Charles signed his own son out of the succession. Henry would marry Charles's daughter Catherine and be the next King of France. Henry died first, in August 1422. Seven weeks later Charles followed him."
+      ],
+      "claims": [
+        {
+          "text": "Charles believed he was made of glass and had iron rods sewn into his clothes so he wouldn't break.",
+          "status": "disputed",
+          "note": "Pope Pius II mentions the glass delusion in his memoirs, decades later. The iron rods come from even later retellings."
+        },
+        {
+          "text": "The Duchess of Berry saved the king at the Ball of the Burning Men by smothering the flames with her skirts.",
+          "status": "confirmed",
+          "note": "Froissart and the monk of Saint-Denis both tell it, writing soon after the fire."
+        },
+        {
+          "text": "Queen Isabeau admitted the Dauphin Charles wasn't the king's son.",
+          "status": "legend",
+          "note": "The Treaty of Troyes called him the “so-called Dauphin”, and English propaganda hinted he was a bastard, but no confession exists."
+        }
+      ],
+      "hook": "The mad king is dead, and by treaty France belongs to a baby in England. But his disinherited son, the Dauphin Charles, is 19, alive, and south of the Loire. He calls himself king anyway.",
+      "images": [
+        {
+          "file": "File:Charles VI de France - Dialogues de Pierre Salmon - Bib de Genève MsFr165f4.jpg",
+          "url": "https://upload.wikimedia.org/wikipedia/commons/0/0a/Charles_VI_de_France_-_Dialogues_de_Pierre_Salmon_-_Bib_de_Gen%C3%A8ve_MsFr165f4.jpg",
+          "page": "https://commons.wikimedia.org/wiki/File:Charles_VI_de_France_-_Dialogues_de_Pierre_Salmon_-_Bib_de_Gen%C3%A8ve_MsFr165f4.jpg",
+          "credit": "Attributed to the Mazarine Master",
+          "license": "Public domain",
+          "made": "c. 1411–1413",
+          "caption": "Painted in Charles's own lifetime, for a book of dialogues between the king and his secretary Pierre Salmon.",
+          "alt": "Medieval manuscript miniature of King Charles VI of France"
+        }
+      ],
+      "sources": [
+        {
+          "title": "Chronicles",
+          "author": "Jean Froissart",
+          "note": "The Ball of the Burning Men"
+        },
+        {
+          "title": "Chronique du Religieux de Saint-Denys",
+          "author": "Michel Pintoin",
+          "note": "Court chronicler of the reign"
+        },
+        {
+          "title": "Charles VI: la folie du roi",
+          "author": "Françoise Autrand",
+          "note": "Fayard, 1986"
+        },
+        {
+          "title": "Royal Intrigue: Crisis at the Court of Charles VI, 1392–1420",
+          "author": "R. C. Famiglietti",
+          "note": "AMS Press, 1986"
+        }
+      ],
+      "review": {
+        "status": "draft",
+        "notes": "Drafted from the listed sources; needs a human fact-check."
+      }
+    },
+    {
+      "id": "charles-vii",
+      "kind": "monarch",
+      "rulers": [
+        "charles-vii"
+      ],
+      "tagline": "The king a teenage peasant girl put on his throne",
+      "start": {
+        "date": "1422-10-21"
+      },
+      "end": {
+        "date": "1461-07-22"
+      },
+      "contestedWith": [
+        "henry-vi-england"
+      ],
+      "relationToPredecessor": "Son of Charles VI, disinherited",
+      "ageAtAccession": "19",
+      "cameToPower": "Claimed the throne despite Troyes",
+      "reignEnded": "Died at Mehun-sur-Yèvre",
+      "previously": "Charles VI is dead. By treaty, his crown goes to the English.",
+      "paragraphs": [
+        "The English held Paris and the north. Charles held the lands south of the Loire, and his enemies mocked him as “the King of Bourges”. He was nervous, suspicious and short of cash. By 1428 the English were besieging Orléans, the gateway to the south. Then, in early 1429, a farm girl of about 17 from Domrémy turned up at his castle at Chinon. Her name was Joan. Voices from heaven, she said, had told her to drive out the English and crown him at Reims.",
+        "Amazingly, he let her try. Joan rode to Orléans in armour and the siege broke on 8 May 1429. A string of victories followed, and on 17 July Charles was crowned in Reims Cathedral with Joan beside him. A year later the Burgundians captured her and sold her to the English. She was tried for heresy and burned at Rouen in May 1431, aged about 19. Charles made no attempt to save her. Twenty-five years later he had the verdict overturned.",
+        "Then the slow comeback. In 1435 Burgundy made peace with Charles, and in 1436 Paris opened its gates. He built France's first standing army and the best artillery in Europe. Normandy fell back to him in 1450, and Bordeaux in October 1453. The Hundred Years' War was over, and the English were left with Calais. His last years were soured by his son Louis, who plotted against him and ran off to Burgundy. Charles died in 1461, said to be terrified of poison."
+      ],
+      "claims": [
+        {
+          "text": "Joan picked out Charles at Chinon even though he had hidden among his courtiers.",
+          "status": "legend",
+          "note": "The story appears in later testimony and chronicles. Witnesses at her trials don't agree on what happened that day."
+        },
+        {
+          "text": "His mistress Agnès Sorel was poisoned.",
+          "status": "disputed",
+          "note": "A 2005 study of her remains found huge levels of mercury. Mercury was also a common medicine, so it may have been treatment."
+        },
+        {
+          "text": "Joan's conviction was later declared void.",
+          "status": "confirmed",
+          "note": "A retrial ordered with the Pope's backing quashed the verdict in July 1456. The records of both trials survive."
+        }
+      ],
+      "hook": "Meanwhile, rewind to 1422. Across the Channel, England has a king too, and under the Treaty of Troyes he's King of France as well. He's ten months old.",
+      "images": [
+        {
+          "file": "File:Jean Fouquet - Portrait of Charles VII of France - WGA8037.jpg",
+          "url": "https://upload.wikimedia.org/wikipedia/commons/7/78/Jean_Fouquet_-_Portrait_of_Charles_VII_of_France_-_WGA8037.jpg",
+          "page": "https://commons.wikimedia.org/wiki/File:Jean_Fouquet_-_Portrait_of_Charles_VII_of_France_-_WGA8037.jpg",
+          "credit": "Jean Fouquet",
+          "license": "Public domain",
+          "made": "c. 1445–1450",
+          "caption": "Painted from life by Jean Fouquet, one of the great French artists of the century.",
+          "alt": "Painted portrait of King Charles VII of France, framed by drawn-back curtains"
+        }
+      ],
+      "sources": [
+        {
+          "title": "Charles VII",
+          "author": "M. G. A. Vale",
+          "note": "Eyre Methuen, 1974"
+        },
+        {
+          "title": "Charles VII: une vie, une politique",
+          "author": "Philippe Contamine",
+          "note": "Perrin, 2017"
+        },
+        {
+          "title": "Joan of Arc: Her Story",
+          "author": "Régine Pernoud and Marie-Véronique Clin",
+          "note": "English edition 1998"
+        },
+        {
+          "title": "Trial of condemnation (1431) and nullification trial (1455–56)",
+          "author": "Records of the trials of Joan of Arc"
+        }
+      ],
+      "review": {
+        "status": "draft",
+        "notes": "Drafted from the listed sources; needs a human fact-check."
+      }
+    },
+    {
+      "id": "henry-vi-england",
+      "kind": "claimant",
+      "rulers": [
+        "henry-vi-england"
+      ],
+      "tagline": "The English boy crowned King of France in Notre-Dame",
+      "start": {
+        "date": "1422-10-21"
+      },
+      "end": {
+        "date": "1453-10-19"
+      },
+      "contestedWith": [
+        "charles-vii"
+      ],
+      "relationToPredecessor": "Grandson of Charles VI",
+      "ageAtAccession": "10 months",
+      "cameToPower": "Treaty of Troyes, via his father",
+      "reignEnded": "Bordeaux fell; the claim collapsed",
+      "previously": "Rewind to 1422. France has two kings, and one of them is a baby.",
+      "paragraphs": [
+        "The Treaty of Troyes said Henry V would inherit France when Charles VI died. Henry V died seven weeks too soon, so it all passed to his baby son, born to Charles VI's daughter Catherine. His uncle John, Duke of Bedford, ran English France from Paris and Rouen. On 16 December 1431, aged ten, Henry was crowned King of France in Notre-Dame. The English cardinal Henry Beaufort did the job, which annoyed the bishop of Paris, and Parisians grumbled that the feast was badly cooked.",
+        "It went downhill from there. Charles VII had been crowned at Reims two years earlier, in the proper place. In 1435 Bedford died and Burgundy changed sides. Paris was lost in 1436. Normandy went in 1450 and Bordeaux surrendered in October 1453. Henry, gentle and unworldly, had no grip on any of it, and that August he suffered a total mental collapse. Of all the French lands, England kept only Calais."
+      ],
+      "claims": [
+        {
+          "text": "Henry inherited his madness from his French grandfather, Charles VI.",
+          "status": "disputed",
+          "note": "A popular idea since the 15th century, but his illness looked quite different. Nobody can diagnose either man now."
+        },
+        {
+          "text": "English kings kept calling themselves Kings of France until 1801.",
+          "status": "confirmed",
+          "note": "The title was only dropped in the royal style when Great Britain and Ireland united in 1801."
+        }
+      ],
+      "hook": "Back in France, Charles VII dies in 1461. His son Louis has spent years plotting against him from exile in Burgundy. Now he's king, and every noble who mocked him is about to find out.",
+      "images": [
+        {
+          "file": "File:King Henry VI from NPG (2).jpg",
+          "url": "https://upload.wikimedia.org/wikipedia/commons/9/91/King_Henry_VI_from_NPG_%282%29.jpg",
+          "page": "https://commons.wikimedia.org/wiki/File:King_Henry_VI_from_NPG_(2).jpg",
+          "credit": "Unknown artist",
+          "license": "Public domain",
+          "made": "c. 1540",
+          "caption": "Painted about 70 years after his death, probably from an earlier likeness.",
+          "alt": "Painted portrait of King Henry VI of England"
+        }
+      ],
+      "sources": [
+        {
+          "title": "Henry VI (Yale English Monarchs)",
+          "author": "Bertram Wolffe",
+          "note": "Eyre Methuen, 1981; Yale ed. 2001"
+        },
+        {
+          "title": "The Reign of King Henry VI",
+          "author": "Ralph A. Griffiths",
+          "note": "1981"
+        },
+        {
+          "title": "Conquest: The English Kingdom of France 1417–1450",
+          "author": "Juliet Barker",
+          "note": "Little, Brown, 2009"
+        },
+        {
+          "title": "Journal d'un bourgeois de Paris",
+          "author": "Anonymous Parisian diarist",
+          "note": "The 1431 coronation feast"
+        }
+      ],
+      "review": {
+        "status": "draft",
+        "notes": "Drafted from the listed sources; needs a human fact-check."
+      }
+    },
+    {
+      "id": "louis-xi",
+      "kind": "monarch",
+      "rulers": [
+        "louis-xi"
+      ],
+      "tagline": "The spider king who caught his enemies in his web",
+      "start": {
+        "date": "1461-07-22"
+      },
+      "end": {
+        "date": "1483-08-30"
+      },
+      "contestedWith": [],
+      "relationToPredecessor": "Son of Charles VII",
+      "ageAtAccession": "38",
+      "cameToPower": "Inherited from the father he fought",
+      "reignEnded": "Strokes at Plessis-lès-Tours",
+      "previously": "Charles VII is dead. The English hold nothing in France but Calais.",
+      "paragraphs": [
+        "Louis was shabby, sharp and endlessly scheming. He dressed like a merchant, wore a battered hat stuck with little lead saints, and preferred spies to knights. As Dauphin he rebelled against his father, then fled to the court of Burgundy. As king he tore up his father's appointments. In 1465 the great nobles rose against him in the League of the Public Weal. He bought them off, then picked them apart one by one.",
+        "His big rival was Charles the Bold, Duke of Burgundy. In 1468 Louis rode to meet him at Péronne, just as news arrived that Louis's agents had stirred up a revolt in Liège. Charles held him prisoner until he agreed to humiliating terms. Louis waited. In 1475 he paid Edward IV of England to take his army home. In January 1477 Charles the Bold was killed in battle at Nancy, and Louis grabbed the duchy of Burgundy.",
+        "By the end he'd added Burgundy, Picardy, Anjou and Provence to the crown. But he grew sick and frightened. He shut himself up at Plessis-lès-Tours behind iron spikes and crossbowmen, and he sent for a holy hermit from Italy to keep him alive. It didn't work. He died in August 1483."
+      ],
+      "claims": [
+        {
+          "text": "Louis kept enemies in iron cages, and the bishop who designed them was the first locked inside.",
+          "status": "disputed",
+          "note": "Commynes, who served Louis, describes the cages and says so. Cardinal Balue was jailed for 11 years, but the cage details grew in the retelling."
+        },
+        {
+          "text": "The nickname “the universal spider” was coined in his own time.",
+          "status": "confirmed",
+          "note": "The Burgundian chronicler Georges Chastellain called him that. Historians later made it his label."
+        }
+      ],
+      "hook": "The Spider is dead. His heir is a sickly boy of 13. The real power goes to the boy's older sister Anne, who has all her father's cunning.",
+      "images": [
+        {
+          "file": "File:Louis XI (1423-1483).jpg",
+          "url": "https://upload.wikimedia.org/wikipedia/commons/1/1b/Louis_XI_%281423-1483%29.jpg",
+          "page": "https://commons.wikimedia.org/wiki/File:Louis_XI_(1423-1483).jpg",
+          "credit": "Jacob de Litemont",
+          "license": "Public domain",
+          "made": "c. 1469",
+          "caption": "Painted in Louis's own lifetime, around 1469.",
+          "alt": "Painted portrait of King Louis XI of France"
+        }
+      ],
+      "sources": [
+        {
+          "title": "Memoirs",
+          "author": "Philippe de Commynes",
+          "note": "Written by Louis's own adviser"
+        },
+        {
+          "title": "Louis XI: The Universal Spider",
+          "author": "Paul Murray Kendall",
+          "note": "1971"
+        },
+        {
+          "title": "Louis XI",
+          "author": "Jean Favier",
+          "note": "Fayard, 2001"
+        }
+      ],
+      "review": {
+        "status": "draft",
+        "notes": "Drafted from the listed sources; needs a human fact-check."
+      }
+    },
+    {
+      "id": "charles-viii",
+      "kind": "monarch",
+      "rulers": [
+        "charles-viii"
+      ],
+      "tagline": "He conquered Naples, then lost a fight with a door",
+      "start": {
+        "date": "1483-08-30"
+      },
+      "end": {
+        "date": "1498-04-07"
+      },
+      "contestedWith": [],
+      "relationToPredecessor": "Only surviving son of Louis XI",
+      "ageAtAccession": "13",
+      "cameToPower": "Inherited; his sister ruled at first",
+      "reignEnded": "Hit his head on a doorway",
+      "previously": "The Spider dies in 1483, his kingdom bigger than ever.",
+      "paragraphs": [
+        "For his first years his sister Anne of Beaujeu and her husband Pierre ran France. The nobles tried another revolt, the “Mad War”, and lost. Their leader, the King's cousin Louis of Orléans, was captured in 1488 and locked up for three years. Then in 1491 Charles married Anne, Duchess of Brittany, even though she was already married by proxy to Maximilian of Austria. Brittany was on its way to becoming French.",
+        "Charles dreamed of glory and an old family claim to Naples. In 1494 he marched into Italy with a big army and modern cannon. Cities opened their gates and he entered Naples in February 1495. Then the Pope, Venice, Milan and Spain formed a league against him. He had to fight his way home at Fornovo, and Naples was soon lost. His soldiers brought back something else: a new disease Italians called the French pox.",
+        "On 7 April 1498, at Amboise, Charles walked through a low doorway to watch a game of tennis and smacked his head on the stone. He chatted for a while, then collapsed and died that night. He was 27. All his children had died young, so the crown went to his cousin, the same Louis of Orléans he'd once kept in prison."
+      ],
+      "claims": [
+        {
+          "text": "Charles's invasion spread syphilis across Europe.",
+          "status": "disputed",
+          "note": "The first big outbreak was recorded among troops at Naples in 1495. Where the disease came from before that is still argued over."
+        },
+        {
+          "text": "He died after hitting his head on a doorway.",
+          "status": "confirmed",
+          "note": "Commynes describes it in his memoirs. Some historians think a stroke may have been the real cause."
+        }
+      ],
+      "hook": "The crown passes to Louis of Orléans, 35, the rebel Charles once jailed. He has his eye on Milan, and on Charles's widow.",
+      "images": [
+        {
+          "file": "File:Charles VIII Ecole Francaise 16th century Musee de Conde Chantilly.jpg",
+          "url": "https://upload.wikimedia.org/wikipedia/commons/b/b4/Charles_VIII_Ecole_Francaise_16th_century_Musee_de_Conde_Chantilly.jpg",
+          "page": "https://commons.wikimedia.org/wiki/File:Charles_VIII_Ecole_Francaise_16th_century_Musee_de_Conde_Chantilly.jpg",
+          "credit": "After Jean Perréal",
+          "license": "Public domain",
+          "made": "16th century",
+          "caption": "A 16th-century copy of a portrait by Jean Perréal, who worked for the king.",
+          "alt": "Painted portrait of King Charles VIII of France"
+        }
+      ],
+      "sources": [
+        {
+          "title": "Memoirs",
+          "author": "Philippe de Commynes"
+        },
+        {
+          "title": "Charles VIII et son milieu (1470–1498)",
+          "author": "Yvonne Labande-Mailfert",
+          "note": "Klincksieck, 1975"
+        },
+        {
+          "title": "A History of France, 1460–1560",
+          "author": "David Potter",
+          "note": "Macmillan, 1995"
+        }
+      ],
+      "review": {
+        "status": "draft",
+        "notes": "Drafted from the listed sources; needs a human fact-check."
+      }
+    },
+    {
+      "id": "louis-xii",
+      "kind": "monarch",
+      "rulers": [
+        "louis-xii"
+      ],
+      "tagline": "The kindly king who married his predecessor's widow",
+      "start": {
+        "date": "1498-04-07"
+      },
+      "end": {
+        "date": "1515-01-01"
+      },
+      "contestedWith": [],
+      "relationToPredecessor": "Grandson of Charles VI's brother",
+      "ageAtAccession": "35",
+      "cameToPower": "Nearest male heir",
+      "reignEnded": "Died weeks after a new marriage",
+      "previously": "Charles VIII hits his head on a doorway and dies without a son.",
+      "paragraphs": [
+        "As a boy, Louis had been forced by Louis XI to marry his daughter Jeanne, who was disabled and, the old king hoped, unable to have children. As king, Louis had the marriage annulled so he could marry Charles VIII's widow, Anne of Brittany, and keep Brittany French. Jeanne retired to found a convent and was later made a saint.",
+        "Then he turned to Italy. Through his grandmother he claimed Milan, and in 1499 he took it. He split Naples with Ferdinand of Aragon, then lost it to him. He smashed Venice at Agnadello in 1509, but a new alliance drove the French out of Milan by 1513. At home he was well liked. He kept taxes down and gave fairer courts, and in 1506 the Estates hailed him “Father of the People”.",
+        "Anne died in January 1514, leaving two daughters and no son. That October Louis, 52 and gouty, married Mary Tudor, Henry VIII's 18-year-old sister. Eleven weeks later, on New Year's Day 1515, he was dead. The crown went to his cousin and son-in-law, Francis of Angoulême."
+      ],
+      "claims": [
+        {
+          "text": "Louis said that the King of France does not avenge the insults done to the Duke of Orléans.",
+          "status": "disputed",
+          "note": "The line is quoted in later accounts as his pardon for old enemies. No contemporary record captures him saying it."
+        },
+        {
+          "text": "His young bride wore him out.",
+          "status": "legend",
+          "note": "Court gossip said so at the time. He was already ill, and gout and old age are the likelier killers."
+        }
+      ],
+      "hook": "Louis is dead on New Year's Day. The new king is Francis, 20, tall, brash and dazzling. He has one plan: march into Italy and win it all back.",
+      "images": [
+        {
+          "file": "File:Workshop of Jean Perréal (c. 1455-c. 1530) - Louis XII, King of France (1462-1515) - RCIN 403431 - Royal Collection.jpg",
+          "url": "https://upload.wikimedia.org/wikipedia/commons/5/5a/Workshop_of_Jean_Perr%C3%A9al_%28c._1455-c._1530%29_-_Louis_XII%2C_King_of_France_%281462-1515%29_-_RCIN_403431_-_Royal_Collection.jpg",
+          "page": "https://commons.wikimedia.org/wiki/File:Workshop_of_Jean_Perr%C3%A9al_(c._1455-c._1530)_-_Louis_XII,_King_of_France_(1462-1515)_-_RCIN_403431_-_Royal_Collection.jpg",
+          "credit": "Workshop of Jean Perréal",
+          "license": "Public domain",
+          "made": "c. 1510–1514",
+          "caption": "Painted in the last years of his reign, now in the British Royal Collection.",
+          "alt": "Painted portrait of King Louis XII of France"
+        }
+      ],
+      "sources": [
+        {
+          "title": "Louis XII",
+          "author": "Frederic J. Baumgartner",
+          "note": "St Martin's Press, 1994"
+        },
+        {
+          "title": "Louis XII",
+          "author": "Bernard Quilliet",
+          "note": "Fayard, 1986"
+        },
+        {
+          "title": "A History of France, 1460–1560",
+          "author": "David Potter",
+          "note": "Macmillan, 1995"
+        }
+      ],
+      "review": {
+        "status": "draft",
+        "notes": "Drafted from the listed sources; needs a human fact-check."
+      }
+    },
+    {
+      "id": "francis-i",
+      "kind": "monarch",
+      "rulers": [
+        "francis-i"
+      ],
+      "tagline": "The Renaissance showman who brought home the Mona Lisa",
+      "start": {
+        "date": "1515-01-01"
+      },
+      "end": {
+        "date": "1547-03-31"
+      },
+      "contestedWith": [],
+      "relationToPredecessor": "Cousin and son-in-law of Louis XII",
+      "ageAtAccession": "20",
+      "cameToPower": "Nearest male heir",
+      "reignEnded": "Died at Rambouillet",
+      "previously": "Louis XII dies on New Year's Day 1515, leaving no son.",
+      "paragraphs": [
+        "Francis was huge, handsome and loved a show. Nine months into his reign he beat the Swiss at Marignano and took Milan. In 1519 he ran to be Holy Roman Emperor and lost to Charles V, who now ruled Spain, Austria and the Netherlands. That rivalry ran his life. In 1520 he met Henry VIII at the Field of the Cloth of Gold, a fortnight of tents, feasts and jousting so lavish it nearly bankrupted both kings.",
+        "In 1525 it all went wrong. At Pavia his army was wrecked and Francis himself was captured. He spent a year as Charles's prisoner in Spain and only got out by handing over his two eldest sons as hostages. They stayed in Spain for four years. Francis broke the treaty as soon as he was home, and even teamed up with the Ottoman sultan against Charles.",
+        "He spent like a Medici. He built Chambord, rebuilt Fontainebleau, and lured the old Leonardo da Vinci to Amboise, along with paintings including the Mona Lisa. In 1539 he made French the language of the law courts. His eldest son died suddenly in 1536, after a cold drink following a game of tennis. So when Francis died in 1547, the crown went to his second son, Henry."
+      ],
+      "claims": [
+        {
+          "text": "Leonardo da Vinci died in Francis's arms.",
+          "status": "legend",
+          "note": "Vasari tells it, and painters loved it. But a royal document puts Francis at Saint-Germain-en-Laye the day after Leonardo died."
+        },
+        {
+          "text": "After Pavia he wrote: “All is lost save honour.”",
+          "status": "disputed",
+          "note": "His real letter to his mother said only honour and his life were left. The snappy version came later."
+        },
+        {
+          "text": "He threw Henry VIII in a wrestling match at the Field of the Cloth of Gold.",
+          "status": "disputed",
+          "note": "One French memoir, by Fleuranges, reports it. No English source mentions it."
+        }
+      ],
+      "hook": "Francis dies on his son Henry's 28th birthday. The new king was a hostage in Spain as a boy, and he's devoted to a widow 20 years older than him.",
+      "images": [
+        {
+          "file": "File:Jean Clouet - Portrait of François I, King of France - WGA5081.jpg",
+          "url": "https://upload.wikimedia.org/wikipedia/commons/8/8d/Jean_Clouet_-_Portrait_of_Fran%C3%A7ois_I%2C_King_of_France_-_WGA5081.jpg",
+          "page": "https://commons.wikimedia.org/wiki/File:Jean_Clouet_-_Portrait_of_Fran%C3%A7ois_I,_King_of_France_-_WGA5081.jpg",
+          "credit": "Jean Clouet",
+          "license": "Public domain",
+          "made": "c. 1527–1530",
+          "caption": "Jean Clouet's famous portrait, painted a few years after Francis came home from captivity in Spain.",
+          "alt": "Painted portrait of King Francis I of France"
+        }
+      ],
+      "sources": [
+        {
+          "title": "Renaissance Warrior and Patron: The Reign of Francis I",
+          "author": "R. J. Knecht",
+          "note": "Cambridge University Press, 1994"
+        },
+        {
+          "title": "Lives of the Artists",
+          "author": "Giorgio Vasari",
+          "note": "Leonardo's death"
+        },
+        {
+          "title": "A History of France, 1460–1560",
+          "author": "David Potter",
+          "note": "Macmillan, 1995"
+        }
+      ],
+      "review": {
+        "status": "draft",
+        "notes": "Drafted from the listed sources; needs a human fact-check."
+      }
+    },
+    {
+      "id": "henry-ii",
+      "kind": "monarch",
+      "rulers": [
+        "henry-ii"
+      ],
+      "tagline": "The jousting king killed by a splinter",
+      "start": {
+        "date": "1547-03-31"
+      },
+      "end": {
+        "date": "1559-07-10"
+      },
+      "contestedWith": [],
+      "relationToPredecessor": "Second son of Francis I",
+      "ageAtAccession": "28",
+      "cameToPower": "Elder brother died in 1536",
+      "reignEnded": "Wounded in a joust",
+      "previously": "Francis I dies on the 28th birthday of his son and heir, Henry.",
+      "paragraphs": [
+        "Henry was a serious, sporty man who never quite got over his years as a hostage in Spain. His wife was Catherine de' Medici, married at 14. His heart belonged to Diane de Poitiers, a widow almost 20 years older. Diane got the jewels, the castle of Chenonceau, and a say in politics. Catherine waited ten years for a baby, then had ten children.",
+        "Henry kept fighting the Habsburgs. He seized Metz, Toul and Verdun in 1552, and in January 1558 the Duke of Guise took Calais, England's last foothold in France. At home he hunted Protestants with a special court nicknamed the “burning chamber”. In 1559 the Peace of Cateau-Cambrésis finally ended the long wars in Italy, sealed by two royal weddings.",
+        "To celebrate, there was a tournament in Paris. On 30 June 1559 Henry rode against the captain of his Scottish guard, Gabriel de Montgomery. Montgomery's lance shattered, and a splinter went through the king's visor into his eye. The best surgeons in Europe, Ambroise Paré and Andreas Vesalius, could do nothing. Henry died ten days later."
+      ],
+      "claims": [
+        {
+          "text": "Nostradamus predicted Henry's death in one of his verses.",
+          "status": "legend",
+          "note": "The quatrain about a young lion and a golden cage was linked to the joust only after the fact. Its wording is vague enough to fit many things."
+        },
+        {
+          "text": "Henry's royal monogram secretly joined his initial with Diane's.",
+          "status": "disputed",
+          "note": "The interlaced letters can be read as H and D or as H and C, for Catherine. Both readings have been argued for centuries."
+        }
+      ],
+      "hook": "Henry's eldest son is 15, frail, and married to the most famous teenager in Europe: Mary, Queen of Scots. Her powerful Guise uncles are already moving into the palace.",
+      "images": [
+        {
+          "file": "File:Henry II King of France - Francois Clouet.jpg",
+          "url": "https://upload.wikimedia.org/wikipedia/commons/1/1e/Henry_II_King_of_France_-_Francois_Clouet.jpg",
+          "page": "https://commons.wikimedia.org/wiki/File:Henry_II_King_of_France_-_Francois_Clouet.jpg",
+          "credit": "François Clouet",
+          "license": "Public domain",
+          "made": "c. 1547",
+          "caption": "Painted around the year Henry became king.",
+          "alt": "Full-length painted portrait of King Henry II of France"
+        }
+      ],
+      "sources": [
+        {
+          "title": "Henry II, King of France 1547–1559",
+          "author": "Frederic J. Baumgartner",
+          "note": "Duke University Press, 1988"
+        },
+        {
+          "title": "Henri II",
+          "author": "Ivan Cloulas",
+          "note": "Fayard, 1985"
+        },
+        {
+          "title": "Catherine de' Medici",
+          "author": "R. J. Knecht",
+          "note": "Longman, 1998"
+        }
+      ],
+      "review": {
+        "status": "draft",
+        "notes": "Drafted from the listed sources; needs a human fact-check."
+      }
+    },
+    {
+      "id": "francis-ii",
+      "kind": "monarch",
+      "rulers": [
+        "francis-ii"
+      ],
+      "tagline": "The boy king married to Mary, Queen of Scots",
+      "start": {
+        "date": "1559-07-10"
+      },
+      "end": {
+        "date": "1560-12-05"
+      },
+      "contestedWith": [],
+      "relationToPredecessor": "Eldest son of Henry II",
+      "ageAtAccession": "15",
+      "cameToPower": "Father killed in a joust",
+      "reignEnded": "Ear infection at Orléans",
+      "previously": "Henry II dies of a jousting wound. His heir is just 15.",
+      "paragraphs": [
+        "Francis had grown up alongside Mary Stuart, the little Queen of Scots, and in April 1558 they were married at Notre-Dame. A year later he was king and she was Queen of France too. He was small and often ill. The real government fell to Mary's uncles, Francis, Duke of Guise, and his brother Charles, Cardinal of Lorraine. They were fiercely Catholic, and Protestants hated them.",
+        "In March 1560 a group of Protestant nobles plotted to seize the king at Amboise and free him from the Guises. The plot leaked. Dozens of conspirators were executed, and some were hanged from the castle walls for the court to see. The Prince of Condé, suspected of being behind it, was arrested and sentenced to death. Then in November the king fell ill with a pain in his ear.",
+        "He died at Orléans on 5 December 1560, aged 16, after 17 months on the throne. Condé was saved, and Mary sailed home to Scotland the next summer. Francis had no children, so the crown went to his ten-year-old brother Charles."
+      ],
+      "claims": [
+        {
+          "text": "Francis was poisoned.",
+          "status": "legend",
+          "note": "Rumours spread, as they did after most royal deaths. His symptoms fit an ear infection spreading to the brain."
+        },
+        {
+          "text": "Francis and Mary's marriage was never consummated.",
+          "status": "disputed",
+          "note": "It was said at the time, and his poor health makes it plausible. Nobody could prove it either way."
+        }
+      ],
+      "hook": "Francis is dead. The new king is ten. His mother, Catherine de' Medici, has spent 25 years in the shadows. Now she takes charge, just as France slides into religious war.",
+      "images": [
+        {
+          "file": "File:François II par Clouet.jpg",
+          "url": "https://upload.wikimedia.org/wikipedia/commons/b/b8/Fran%C3%A7ois_II_par_Clouet.jpg",
+          "page": "https://commons.wikimedia.org/wiki/File:Fran%C3%A7ois_II_par_Clouet.jpg",
+          "credit": "François Clouet",
+          "license": "Public domain",
+          "made": "c. 1559",
+          "caption": "Painted by François Clouet around the time Francis became king.",
+          "alt": "Small oil portrait of King Francis II of France on an oak panel"
+        }
+      ],
+      "sources": [
+        {
+          "title": "Catherine de' Medici",
+          "author": "R. J. Knecht",
+          "note": "Longman, 1998"
+        },
+        {
+          "title": "The French Wars of Religion, 1562–1629",
+          "author": "Mack P. Holt",
+          "note": "Cambridge University Press, 1995"
+        },
+        {
+          "title": "My Heart is My Own: The Life of Mary Queen of Scots",
+          "author": "John Guy",
+          "note": "Fourth Estate, 2004"
+        }
+      ],
+      "review": {
+        "status": "draft",
+        "notes": "Drafted from the listed sources; needs a human fact-check."
+      }
+    },
+    {
+      "id": "charles-ix",
+      "kind": "monarch",
+      "rulers": [
+        "charles-ix"
+      ],
+      "tagline": "The king behind the St Bartholomew's Day massacre",
+      "start": {
+        "date": "1560-12-05"
+      },
+      "end": {
+        "date": "1574-05-30"
+      },
+      "contestedWith": [],
+      "relationToPredecessor": "Brother of Francis II",
+      "ageAtAccession": "10",
+      "cameToPower": "Brother died; mother took charge",
+      "reignEnded": "Tuberculosis at Vincennes",
+      "previously": "Francis II dies at 16. His brother Charles is only ten.",
+      "paragraphs": [
+        "Catherine de' Medici ruled for her son and tried to keep peace between Catholics and Protestants, called Huguenots. It didn't work. In March 1562 the Duke of Guise's men attacked Protestants at worship in Vassy and killed dozens. That started the Wars of Religion, which ran on and off for over 30 years. Charles grew up nervous, moody and mad about hunting.",
+        "In 1570 came a peace, and the Protestant leader Admiral Coligny won a place close to the young king. To seal it, Charles's sister Marguerite married the Protestant Henry of Navarre in Paris on 18 August 1572. Four days later someone shot and wounded Coligny. Fearing revenge, the royal council decided to strike first.",
+        "Early on 24 August, St Bartholomew's Day, Guise's men murdered Coligny. Then Paris went berserk. Mobs killed around 3,000 Protestants in the city, and thousands more died in other towns over the following weeks. Henry of Navarre saved himself by turning Catholic. Charles took responsibility, but it haunted him. He died of tuberculosis in 1574, aged 23, without a legitimate son."
+      ],
+      "claims": [
+        {
+          "text": "Charles fired on fleeing Protestants from a window of the Louvre.",
+          "status": "legend",
+          "note": "The story was told by Brantôme and others years later. No eyewitness from that night reports it."
+        },
+        {
+          "text": "The Pope celebrated the massacre with a special medal.",
+          "status": "confirmed",
+          "note": "Gregory XIII had a medal struck and a Te Deum sung in Rome. Examples of the medal survive."
+        },
+        {
+          "text": "Catherine de' Medici planned the massacre long in advance.",
+          "status": "disputed",
+          "note": "Protestant writers said so. Most historians now think the killings began as a panicked decision after Coligny was shot."
+        }
+      ],
+      "hook": "Charles is dead. His heir is his brother Henry, who's just been elected King of Poland. When the news reaches Kraków, Henry slips out of the palace at night and gallops for France.",
+      "images": [
+        {
+          "file": "File:François Clouet - Portrait of Charles IX - WGA05068.jpg",
+          "url": "https://upload.wikimedia.org/wikipedia/commons/f/f4/Fran%C3%A7ois_Clouet_-_Portrait_of_Charles_IX_-_WGA05068.jpg",
+          "page": "https://commons.wikimedia.org/wiki/File:Fran%C3%A7ois_Clouet_-_Portrait_of_Charles_IX_-_WGA05068.jpg",
+          "credit": "François Clouet",
+          "license": "Public domain",
+          "made": "1566",
+          "caption": "Painted by François Clouet when the king was about 16.",
+          "alt": "Painted portrait of the young King Charles IX of France"
+        }
+      ],
+      "sources": [
+        {
+          "title": "Catherine de' Medici",
+          "author": "R. J. Knecht",
+          "note": "Longman, 1998"
+        },
+        {
+          "title": "The French Wars of Religion, 1562–1629",
+          "author": "Mack P. Holt",
+          "note": "Cambridge University Press, 1995"
+        },
+        {
+          "title": "Beneath the Cross: Catholics and Huguenots in Sixteenth-Century Paris",
+          "author": "Barbara B. Diefendorf",
+          "note": "Oxford University Press, 1991"
+        }
+      ],
+      "review": {
+        "status": "draft",
+        "notes": "Drafted from the listed sources; needs a human fact-check."
+      }
+    },
+    {
+      "id": "henry-iii",
+      "kind": "monarch",
+      "rulers": [
+        "henry-iii"
+      ],
+      "tagline": "The last Valois, killed by a friar with a knife",
+      "start": {
+        "date": "1574-05-30"
+      },
+      "end": {
+        "date": "1589-08-02"
+      },
+      "contestedWith": [],
+      "relationToPredecessor": "Brother of Charles IX",
+      "ageAtAccession": "22",
+      "cameToPower": "Fled Poland to claim the throne",
+      "reignEnded": "Stabbed by a friar",
+      "previously": "Charles IX dies at 23. His brother Henry is King of Poland.",
+      "paragraphs": [
+        "Henry was clever, devout and stylish, Catherine's favourite son. He wore earrings, loved little dogs, and kept a band of flashy young favourites his enemies called the mignons. He married Louise of Lorraine but had no children. Then in 1584 his last brother died. Under French law the next heir was a distant cousin, Henry of Navarre, a Protestant. For many Catholics that was unthinkable.",
+        "The Catholic League rose up, led by the hugely popular Henry, Duke of Guise. On 12 May 1588, the Day of the Barricades, Paris rose for Guise and the king fled his own capital. That December, at the château of Blois, Henry invited Guise to his chamber, and his guards stabbed the duke to death. Guise's brother the cardinal was killed the next day.",
+        "Catholic France turned on the king. Henry teamed up with Navarre and their armies closed in on Paris. On 1 August 1589, at Saint-Cloud, a young Dominican friar named Jacques Clément asked to see him with secret letters, and stabbed him in the stomach. Henry died the next morning. Before he went, he told his nobles to accept Navarre as king."
+      ],
+      "claims": [
+        {
+          "text": "Looking at Guise's corpse, Henry said he was taller dead than alive.",
+          "status": "legend",
+          "note": "The line is repeated in many histories but appears only in later accounts, not from anyone in the room."
+        },
+        {
+          "text": "Henry turned up at court parties dressed as a woman.",
+          "status": "disputed",
+          "note": "The diarist Pierre de L'Estoile reports it, but much of the gossip about Henry came from League propaganda."
+        },
+        {
+          "text": "On his deathbed Henry named Navarre as his heir.",
+          "status": "confirmed",
+          "note": "Several witnesses describe him making his nobles swear loyalty to Navarre."
+        }
+      ],
+      "hook": "The Valois are finished. The new king is Henry of Navarre, a Protestant who's switched faith before. Catholic Paris swears it will never open its gates to a heretic.",
+      "images": [
+        {
+          "file": "File:Henri III Versailles.jpg",
+          "url": "https://upload.wikimedia.org/wikipedia/commons/f/f1/Henri_III_Versailles.jpg",
+          "page": "https://commons.wikimedia.org/wiki/File:Henri_III_Versailles.jpg",
+          "credit": "Unknown artist, after Étienne Dumonstier",
+          "license": "Public domain",
+          "made": "c. 1571–1581",
+          "caption": "A copy of a portrait by Étienne Dumonstier, made during Henry's lifetime.",
+          "alt": "Painted portrait of King Henry III of France"
+        }
+      ],
+      "sources": [
+        {
+          "title": "Hero or Tyrant? Henry III, King of France, 1574–89",
+          "author": "Robert J. Knecht",
+          "note": "Ashgate, 2014"
+        },
+        {
+          "title": "Henri III, roi shakespearien",
+          "author": "Pierre Chevallier",
+          "note": "Fayard, 1985"
+        },
+        {
+          "title": "Registre-journal du règne de Henri III",
+          "author": "Pierre de L'Estoile"
+        }
+      ],
+      "review": {
+        "status": "draft",
+        "notes": "Drafted from the listed sources; needs a human fact-check."
+      }
+    },
+    {
+      "id": "henry-iv",
+      "kind": "monarch",
+      "rulers": [
+        "henry-iv"
+      ],
+      "tagline": "The Protestant who swapped faiths to win Paris",
+      "start": {
+        "date": "1589-08-02"
+      },
+      "end": {
+        "date": "1610-05-14"
+      },
+      "contestedWith": [],
+      "relationToPredecessor": "Distant cousin and brother-in-law",
+      "ageAtAccession": "35",
+      "cameToPower": "Named heir by the dying Henry III",
+      "reignEnded": "Stabbed in his coach",
+      "previously": "A monk stabs Henry III. The dying last Valois names Navarre his heir.",
+      "paragraphs": [
+        "Henry grew up a Protestant in the mountains of Navarre. In 1572 he married the king's sister Margaret in Paris, and days later the St Bartholomew's Day massacre began. He saved his skin by turning Catholic, spent nearly four years as a captive guest at court, then escaped and went back to his old faith. So when Henry III died, the heir was a Protestant in a fiercely Catholic country, and half of France refused to have him.",
+        "He fought for his crown. He won at Arques and Ivry, but Paris kept its gates shut. In 1593 he gave in and converted for good. Within a year he'd been crowned and was riding into the capital. In 1598 his Edict of Nantes gave Protestants legal rights and their own fortified towns, and the wars of religion finally stopped. With his minister Sully he mended roads, refilled the treasury and became hugely popular.",
+        "He was also a famous womaniser with a long line of mistresses. His childless marriage to Margaret was annulled, and in 1600 he wed Marie de' Medici, who gave him a son, Louis. On 14 May 1610 his coach got stuck in traffic in the rue de la Ferronnerie. A Catholic fanatic called François Ravaillac climbed up on the wheel and stabbed him. He died almost at once."
+      ],
+      "claims": [
+        {
+          "text": "Henry said “Paris is well worth a Mass” when he converted.",
+          "status": "legend",
+          "note": "No record from 1593 has him saying it. The quip turns up decades later in collections of anecdotes, and some early versions give it to someone else."
+        },
+        {
+          "text": "He wanted every peasant to have a chicken in the pot on Sundays.",
+          "status": "legend",
+          "note": "The line comes from Hardouin de Péréfixe's admiring life of Henry, published in 1661, half a century after his death."
+        },
+        {
+          "text": "Ravaillac was part of a wider plot.",
+          "status": "disputed",
+          "note": "Ravaillac swore under torture that he acted alone. Rumours blamed Spain and people at court, but nothing was ever proved."
+        }
+      ],
+      "hook": "Henry lies dead in his coach. His son Louis is eight, and his widow Marie de' Medici seizes the regency. She trusts an Italian favourite, and the boy king is learning to hate him.",
+      "images": [
+        {
+          "file": "File:Frans Pourbus (II) - Henry IV, King of France in Black Dress - WGA18234.jpg",
+          "url": "https://upload.wikimedia.org/wikipedia/commons/5/58/Frans_Pourbus_%28II%29_-_Henry_IV%2C_King_of_France_in_Black_Dress_-_WGA18234.jpg",
+          "page": "https://commons.wikimedia.org/wiki/File:Frans_Pourbus_(II)_-_Henry_IV,_King_of_France_in_Black_Dress_-_WGA18234.jpg",
+          "credit": "Frans Pourbus the Younger",
+          "license": "Public domain",
+          "made": "1610",
+          "caption": "Painted by Frans Pourbus the Younger in 1610, the year Henry was killed.",
+          "alt": "Painted portrait of Henry IV dressed in black, with a short grey beard"
+        }
+      ],
+      "sources": [
+        {
+          "title": "Henri IV",
+          "author": "Jean-Pierre Babelon",
+          "note": "Fayard, 1982"
+        },
+        {
+          "title": "Henri IV of France: His Reign and Age",
+          "author": "Vincent J. Pitts",
+          "note": "Johns Hopkins University Press, 2009"
+        },
+        {
+          "title": "France in the Age of Henri IV",
+          "author": "Mark Greengrass",
+          "note": "Longman, 1984; 2nd ed. 1995"
+        },
+        {
+          "title": "Histoire du roy Henry le Grand",
+          "author": "Hardouin de Péréfixe",
+          "note": "1661; the chicken-in-the-pot story"
+        }
+      ],
+      "review": {
+        "status": "draft",
+        "notes": "Drafted from the listed sources; needs a human fact-check."
+      }
+    },
+    {
+      "id": "louis-xiii",
+      "kind": "monarch",
+      "rulers": [
+        "louis-xiii"
+      ],
+      "tagline": "The silent king and his iron cardinal",
+      "start": {
+        "date": "1610-05-14"
+      },
+      "end": {
+        "date": "1643-05-14"
+      },
+      "contestedWith": [],
+      "relationToPredecessor": "Son of Henry IV",
+      "ageAtAccession": "8",
+      "cameToPower": "Father assassinated",
+      "reignEnded": "Died of illness after Richelieu",
+      "previously": "A fanatic stabs Henry IV in a Paris street. His heir is eight.",
+      "paragraphs": [
+        "Louis was eight when his father was murdered, and his mother Marie de' Medici ran France for him. She leaned on an Italian favourite, Concino Concini, and kept treating her son like a child long after he'd stopped being one. In 1617, aged 15, Louis struck back. His guards shot Concini dead at the Louvre, and the queen mother was packed off to the château of Blois.",
+        "The man who really shaped the reign was Cardinal Richelieu, chief minister from 1624. They were an odd pair, but the partnership worked. They starved the Protestant stronghold of La Rochelle into surrender, crushed noble plots, and in 1635 took France openly into the Thirty Years' War against Spain. In 1630 Marie tried to get Richelieu sacked. For a day it looked like she'd won. Then Louis backed his minister, and her allies were ruined.",
+        "His marriage to Anne of Austria was cold, and for 23 years there was no son. Then, in September 1638, a boy arrived. He was named Louis-Dieudonné, “God-given”. A second son, Philippe, followed in 1640. Richelieu died in December 1642. Louis, worn out by years of illness, followed him five months later, aged 41."
+      ],
+      "claims": [
+        {
+          "text": "Louis XIV was conceived when a storm stranded the king at the Louvre and he had to spend the night with the queen.",
+          "status": "legend",
+          "note": "The story of a stormy December night in 1637 comes from later accounts. The timing fits a September birth, but the details can't be checked."
+        },
+        {
+          "text": "D'Artagnan from The Three Musketeers was a real musketeer.",
+          "status": "confirmed",
+          "note": "Charles de Batz de Castelmore, sieur d'Artagnan, really served, though mostly under Louis XIV. Dumas found him in a fake memoir published in 1700."
+        }
+      ],
+      "hook": "King and cardinal are both gone. The new king is four years old. His mother Anne rules with another Italian cardinal at her side, and Paris is about to rise against them.",
+      "images": [
+        {
+          "file": "File:Louis XIII, King of France (by Philippe de Champaigne) - Museo del Prado.jpg",
+          "url": "https://upload.wikimedia.org/wikipedia/commons/2/23/Louis_XIII%2C_King_of_France_%28by_Philippe_de_Champaigne%29_-_Museo_del_Prado.jpg",
+          "page": "https://commons.wikimedia.org/wiki/File:Louis_XIII,_King_of_France_(by_Philippe_de_Champaigne)_-_Museo_del_Prado.jpg",
+          "credit": "Philippe de Champaigne",
+          "license": "Public domain",
+          "made": "1635",
+          "caption": "Painted by Philippe de Champaigne in 1635, the year France joined the Thirty Years' War.",
+          "alt": "Painted portrait of Louis XIII with long dark hair and a thin moustache"
+        }
+      ],
+      "sources": [
+        {
+          "title": "Louis XIII, the Just",
+          "author": "A. Lloyd Moote",
+          "note": "University of California Press, 1989"
+        },
+        {
+          "title": "The Rise of Richelieu",
+          "author": "Joseph Bergin",
+          "note": "Yale University Press, 1991"
+        },
+        {
+          "title": "Testament politique",
+          "author": "Cardinal Richelieu"
+        }
+      ],
+      "review": {
+        "status": "draft",
+        "notes": "Drafted from the listed sources; needs a human fact-check."
+      }
+    },
+    {
+      "id": "louis-xiv",
+      "kind": "monarch",
+      "rulers": [
+        "louis-xiv"
+      ],
+      "tagline": "Seventy-two years of sun, glory and war",
+      "start": {
+        "date": "1643-05-14"
+      },
+      "end": {
+        "date": "1715-09-01"
+      },
+      "contestedWith": [],
+      "relationToPredecessor": "Son of Louis XIII",
+      "ageAtAccession": "4",
+      "cameToPower": "Father died; mother became regent",
+      "reignEnded": "Gangrene, after 72 years",
+      "previously": "Louis XIII dies months after Richelieu. His heir is just four.",
+      "paragraphs": [
+        "Louis was four when he became king, and his mother Anne of Austria ruled with Cardinal Mazarin. Then came the Fronde, years of revolt by judges and nobles. One night in 1651 a Paris crowd pushed into the palace to make sure the boy hadn't fled, and he had to lie in bed pretending to sleep. He never forgot it, and he never really forgave Paris.",
+        "When Mazarin died in 1661, Louis announced he would be his own chief minister. He kept that up for 54 years. He took the sun as his emblem, turned his father's hunting lodge at Versailles into the grandest palace in Europe, and moved the court there in 1682. Nobles who had once rebelled now competed for the honour of handing him his shirt.",
+        "He loved war, and France paid. He fought the Dutch, then half of Europe, then a long war to put his grandson Philip on the Spanish throne. In 1685 he revoked his grandfather's Edict of Nantes, and perhaps 200,000 Protestants fled. The end was bleak. His son, a grandson and a great-grandson all died in 1711 and 1712. After 72 years on the throne, the longest reign in European history, he died of gangrene."
+      ],
+      "claims": [
+        {
+          "text": "Louis said “L'État, c'est moi” (“I am the State”).",
+          "status": "legend",
+          "note": "No source from his lifetime records it. On his deathbed he is reported to have said the opposite: that he was going, but the State would remain."
+        },
+        {
+          "text": "The Man in the Iron Mask was the king's secret twin.",
+          "status": "legend",
+          "note": "A masked prisoner was real and died in the Bastille in 1703. His mask was black velvet. The royal-brother idea grew from Voltaire's hints and Dumas made it famous."
+        },
+        {
+          "text": "He secretly married his children's former governess, Madame de Maintenon.",
+          "status": "confirmed",
+          "note": "No marriage record survives, but letters and courtiers' memoirs make it near certain. Historians usually date it to late 1683."
+        }
+      ],
+      "hook": "The Sun King is dead. His heir is his five-year-old great-grandson, the last survivor of a run of royal deaths. A regent takes charge of a country drowning in war debt.",
+      "images": [
+        {
+          "file": "File:Louis XIV of France.jpg",
+          "url": "https://upload.wikimedia.org/wikipedia/commons/5/5f/Louis_XIV_of_France.jpg",
+          "page": "https://commons.wikimedia.org/wiki/File:Louis_XIV_of_France.jpg",
+          "credit": "Hyacinthe Rigaud",
+          "license": "Public domain",
+          "made": "1701",
+          "caption": "Hyacinthe Rigaud's famous state portrait, painted in 1701 when Louis was 63.",
+          "alt": "Full-length portrait of Louis XIV in a long wig and an ermine-lined coronation robe covered in gold fleurs-de-lis"
+        }
+      ],
+      "sources": [
+        {
+          "title": "Louis XIV",
+          "author": "John B. Wolf",
+          "note": "W. W. Norton, 1968"
+        },
+        {
+          "title": "The Fabrication of Louis XIV",
+          "author": "Peter Burke",
+          "note": "Yale University Press, 1992"
+        },
+        {
+          "title": "Mémoires",
+          "author": "Louis de Rouvroy, duc de Saint-Simon"
+        }
+      ],
+      "review": {
+        "status": "draft",
+        "notes": "Drafted from the listed sources; needs a human fact-check."
+      }
+    },
+    {
+      "id": "louis-xv",
+      "kind": "monarch",
+      "rulers": [
+        "louis-xv"
+      ],
+      "tagline": "Beloved at the start, loathed by the end",
+      "start": {
+        "date": "1715-09-01"
+      },
+      "end": {
+        "date": "1774-05-10"
+      },
+      "contestedWith": [],
+      "relationToPredecessor": "Great-grandson of Louis XIV",
+      "ageAtAccession": "5",
+      "cameToPower": "Last heir left standing",
+      "reignEnded": "Smallpox at Versailles",
+      "previously": "The Sun King dies after 72 years. His heir is a boy of five.",
+      "paragraphs": [
+        "In 1712 measles killed Louis's mother, his father and his older brother within a few weeks. Louis, aged two, survived. At five he was king. His cousin Philippe d'Orléans ran France as regent, then the elderly Cardinal Fleury took charge and kept the peace for years. The country grew richer, and the young king went hunting.",
+        "In 1744 he fell dangerously ill at Metz and France prayed for him. When he pulled through, people called him the Beloved. It didn't last. He had ten children with his Polish wife, Marie Leszczyńska, but the court talked more about his mistresses. Madame de Pompadour was his companion and adviser for nearly 20 years. Later came Madame du Barry, a former shop assistant the nobles despised.",
+        "The Seven Years' War went badly. By 1763 France had lost Canada and most of its foothold in India to Britain. In 1757 a man named Damiens stabbed him with a penknife and was torn apart in public for it. Taxes rose, debts piled up and the king's popularity sank. In 1774 he caught smallpox and died. His son had died before him, so the crown went to his grandson, aged 19."
+      ],
+      "claims": [
+        {
+          "text": "Louis said “Après moi, le déluge” (“After me, the flood”).",
+          "status": "disputed",
+          "note": "The line is pinned on both Louis and Madame de Pompadour, in accounts written after the fact. Nobody can say for sure who said it, or whether anyone did."
+        },
+        {
+          "text": "His governess saved his life by hiding him from the royal doctors.",
+          "status": "disputed",
+          "note": "Madame de Ventadour is said to have stopped them bleeding him. Bleeding probably did harm his family, but the story comes from later retellings."
+        },
+        {
+          "text": "Damiens was executed by being pulled apart by horses.",
+          "status": "confirmed",
+          "note": "The official record of the 1757 execution survives; Michel Foucault famously quoted it at the start of Discipline and Punish."
+        }
+      ],
+      "hook": "Smallpox has killed the king. His grandson Louis is 19, shy and awkward, and married to an Austrian archduchess named Marie Antoinette. The treasury is empty, and they have no idea what's coming.",
+      "images": [
+        {
+          "file": "File:Louis XV France by Louis-Michel van Loo 002.jpg",
+          "url": "https://upload.wikimedia.org/wikipedia/commons/7/78/Louis_XV_France_by_Louis-Michel_van_Loo_002.jpg",
+          "page": "https://commons.wikimedia.org/wiki/File:Louis_XV_France_by_Louis-Michel_van_Loo_002.jpg",
+          "credit": "Jean-Martial Frédou, after Louis-Michel van Loo",
+          "license": "Public domain",
+          "made": "1761",
+          "caption": "A 1761 copy by Jean-Martial Frédou of Louis-Michel van Loo's portrait of the king in his fifties.",
+          "alt": "Painted portrait of an older Louis XV in a white powdered wig"
+        }
+      ],
+      "sources": [
+        {
+          "title": "Louis XV",
+          "author": "Michel Antoine",
+          "note": "Fayard, 1989"
+        },
+        {
+          "title": "The Great Nation: France from Louis XV to Napoleon",
+          "author": "Colin Jones",
+          "note": "Allen Lane, 2002"
+        },
+        {
+          "title": "Discipline and Punish",
+          "author": "Michel Foucault",
+          "note": "1975; Damiens' execution"
+        }
+      ],
+      "review": {
+        "status": "draft",
+        "notes": "Drafted from the listed sources; needs a human fact-check."
+      }
+    },
+    {
+      "id": "louis-xvi",
+      "kind": "monarch",
+      "rulers": [
+        "louis-xvi"
+      ],
+      "tagline": "The locksmith king who lost his crown and his head",
+      "start": {
+        "date": "1774-05-10"
+      },
+      "end": {
+        "date": "1792-09-21"
+      },
+      "contestedWith": [],
+      "relationToPredecessor": "Grandson of Louis XV",
+      "ageAtAccession": "19",
+      "cameToPower": "Grandfather died of smallpox",
+      "reignEnded": "Monarchy abolished; later guillotined",
+      "previously": "Louis XV dies of smallpox, leaving debts and a 19-year-old heir.",
+      "paragraphs": [
+        "Louis was shy, loved maps and tinkering with locks, and was mad about hunting. At 15 he married Marie Antoinette, daughter of the Austrian empress. It took eight years for them to have a child, and the gossip was merciless. As king he backed the Americans against Britain. It was a win abroad and a disaster at home, because it piled up debts France couldn't pay.",
+        "Desperate for money, he called the Estates-General in 1789, the first since 1614. It slipped out of his hands. The commoners declared themselves a National Assembly, and on 14 July Parisians stormed the Bastille. In October a crowd marched on Versailles and dragged the royal family back to Paris. In June 1791 they fled in disguise, but were recognised and stopped at Varennes. After that, hardly anyone trusted him.",
+        "France went to war with Austria in 1792. On 10 August a crowd stormed the Tuileries palace and the king was locked up. On 21 September the new National Convention abolished the monarchy. Citizen Louis Capet was tried for treason, found guilty and sentenced to death. On 21 January 1793 he was guillotined in what is now the Place de la Concorde. He tried to tell the crowd he died innocent, but drums drowned him out."
+      ],
+      "claims": [
+        {
+          "text": "Marie Antoinette said “Let them eat cake”.",
+          "status": "legend",
+          "note": "Rousseau told a version about “a great princess” in his Confessions, written when Marie Antoinette was a child in Vienna. Nothing links her to it."
+        },
+        {
+          "text": "On 14 July 1789 Louis wrote “Rien” (“Nothing”) in his diary.",
+          "status": "confirmed",
+          "note": "The diary survives. It was mainly a hunting log, so “nothing” meant he'd killed no game that day."
+        },
+        {
+          "text": "At Varennes he was recognised from his face on a banknote.",
+          "status": "disputed",
+          "note": "The postmaster Jean-Baptiste Drouet did spot the king at Sainte-Menehould. The banknote detail is a popular version that can't be confirmed."
+        }
+      ],
+      "hook": "The king is dead, and France is at war with half of Europe. Rebels are rising at home and bread is scarce. The men now running the Republic decide the answer is terror.",
+      "images": [
+        {
+          "file": "File:Antoine-François Callet - Louis XVI, roi de France et de Navarre (1754-1793), revêtu du grand costume royal en 1779 - Google Art Project.jpg",
+          "url": "https://upload.wikimedia.org/wikipedia/commons/c/ce/Antoine-Fran%C3%A7ois_Callet_-_Louis_XVI%2C_roi_de_France_et_de_Navarre_%281754-1793%29%2C_rev%C3%AAtu_du_grand_costume_royal_en_1779_-_Google_Art_Project.jpg",
+          "page": "https://commons.wikimedia.org/wiki/File:Antoine-François_Callet_-_Louis_XVI,_roi_de_France_et_de_Navarre_(1754-1793),_revêtu_du_grand_costume_royal_en_1779_-_Google_Art_Project.jpg",
+          "credit": "Antoine-François Callet",
+          "license": "Public domain",
+          "made": "1778–79",
+          "caption": "Antoine-François Callet's official portrait, painted in 1778–79 when Louis was about 25.",
+          "alt": "Full-length portrait of Louis XVI in his ermine-lined royal robes, standing beside a throne"
+        }
+      ],
+      "sources": [
+        {
+          "title": "The Life of Louis XVI",
+          "author": "John Hardman",
+          "note": "Yale University Press, 2016"
+        },
+        {
+          "title": "When the King Took Flight",
+          "author": "Timothy Tackett",
+          "note": "Harvard University Press, 2003"
+        },
+        {
+          "title": "Marie Antoinette: The Journey",
+          "author": "Antonia Fraser",
+          "note": "Weidenfeld & Nicolson, 2001"
+        },
+        {
+          "title": "Confessions",
+          "author": "Jean-Jacques Rousseau",
+          "note": "The “brioche” anecdote"
+        }
+      ],
+      "review": {
+        "status": "draft",
+        "notes": "Drafted from the listed sources; needs a human fact-check."
+      }
+    },
+    {
+      "id": "first-republic",
+      "kind": "interregnum",
+      "rulers": [],
+      "house": "republic",
+      "title": "The First Republic",
+      "tagline": "Liberty, terror and a general waiting in the wings",
+      "start": {
+        "date": "1792-09-21"
+      },
+      "end": {
+        "date": "1804-05-18"
+      },
+      "contestedWith": [],
+      "relationToPredecessor": "Replaced the monarchy",
+      "ageAtAccession": "No monarch",
+      "cameToPower": "Convention abolished the crown",
+      "reignEnded": "Bonaparte proclaimed emperor",
+      "previously": "Louis XVI is guillotined. France is a republic at war with Europe.",
+      "paragraphs": [
+        "The Republic was born at war and in a panic. Foreign armies were on the borders and rebels rose in the Vendée. The Convention handed power to a Committee of Public Safety, and from late 1793 it ruled by fear. Suspects were tried in minutes. Marie Antoinette went to the guillotine in October 1793. Across France about 17,000 people were officially sentenced to death, and many more died in prisons and massacres.",
+        "The face of the Terror was Maximilien Robespierre, nicknamed “the Incorruptible”. He sent rivals such as Danton to the blade, and his colleagues began to fear they were next. On 27 July 1794, 9 Thermidor in the new calendar, they turned on him. He was guillotined the next day. In 1795 a five-man Directory took over. It was corrupt, shaky and always short of money.",
+        "Then came Napoleon Bonaparte, a young Corsican general. He won dazzling victories in Italy, sailed off to conquer Egypt, then slipped home. In November 1799 he seized power in a coup and became First Consul. He brought back order, made peace with the Church and gave France a new legal code. In 1802 he made himself consul for life. In May 1804 the Senate proclaimed him Emperor of the French."
+      ],
+      "claims": [
+        {
+          "text": "Louis XVII, the boy king, died in the Temple prison in 1795.",
+          "status": "confirmed",
+          "note": "Dozens of men later claimed to be him. In 2000, DNA from the boy's preserved heart matched Marie Antoinette's family."
+        },
+        {
+          "text": "The judge who condemned the chemist Lavoisier said “The Republic has no need of scientists”.",
+          "status": "legend",
+          "note": "Lavoisier was guillotined in 1794, but the famous line only appears in later accounts with no reliable witness."
+        },
+        {
+          "text": "Robespierre shattered his own jaw trying to shoot himself.",
+          "status": "disputed",
+          "note": "His jaw was smashed by a pistol shot on the night of his arrest. A gendarme named Merda claimed he fired it, and historians still argue."
+        }
+      ],
+      "hook": "December 1804, Notre-Dame. The Pope has come from Rome to crown the new emperor. Napoleon takes the crown from the altar and puts it on his own head.",
+      "images": [
+        {
+          "file": "File:Death of Marat by David.jpg",
+          "url": "https://upload.wikimedia.org/wikipedia/commons/a/aa/Death_of_Marat_by_David.jpg",
+          "page": "https://commons.wikimedia.org/wiki/File:Death_of_Marat_by_David.jpg",
+          "credit": "Jacques-Louis David",
+          "license": "Public domain",
+          "made": "1793",
+          "caption": "Jacques-Louis David painted his murdered friend Marat in 1793, during the Terror.",
+          "alt": "Painting of the dead Jean-Paul Marat slumped in his bathtub, holding a letter and a quill"
+        }
+      ],
+      "sources": [
+        {
+          "title": "The Oxford History of the French Revolution",
+          "author": "William Doyle",
+          "note": "Oxford University Press, 1989; 2nd ed. 2002"
+        },
+        {
+          "title": "Fatal Purity: Robespierre and the French Revolution",
+          "author": "Ruth Scurr",
+          "note": "Chatto & Windus, 2006"
+        },
+        {
+          "title": "Napoleon: The Path to Power, 1769–1799",
+          "author": "Philip Dwyer",
+          "note": "Bloomsbury, 2007"
+        },
+        {
+          "title": "The Lost King of France",
+          "author": "Deborah Cadbury",
+          "note": "2002; Louis XVII and the DNA tests"
+        }
+      ],
+      "review": {
+        "status": "draft",
+        "notes": "Drafted from the listed sources; needs a human fact-check."
+      }
+    },
+    {
+      "id": "napoleon-i",
+      "kind": "monarch",
+      "rulers": [
+        "napoleon-i"
+      ],
+      "tagline": "The Corsican gunner who put a crown on his own head",
+      "start": {
+        "date": "1804-05-18"
+      },
+      "end": {
+        "date": "1814-04-06"
+      },
+      "contestedWith": [],
+      "relationToPredecessor": "First Consul of the Republic",
+      "ageAtAccession": "34",
+      "cameToPower": "Proclaimed Emperor by the Senate",
+      "reignEnded": "Abdicated at Fontainebleau",
+      "previously": "The Republic's top general asks for one more title: Emperor.",
+      "paragraphs": [
+        "Eleven years after Louis XVI lost his head, France had a monarch again, and a self-made one. At Notre-Dame on 2 December 1804, with the Pope looking on, Napoleon lifted the crown and placed it on his own head. Then he crowned Joséphine. His Civil Code, issued that same year, still shapes French law today.",
+        "Exactly a year later he smashed the Austrians and Russians at Austerlitz. Prussia fell at Jena, and by 1810 he ruled or bossed most of Europe. Joséphine had given him no son, so he divorced her and married Marie-Louise of Austria. She bore him an heir, the King of Rome, in 1811.",
+        "Then it went wrong. He marched into Russia in 1812 with a vast army and came back with a fraction of it. In 1813 the allies beat him at Leipzig, and in March 1814 they rode into Paris. His own marshals told him it was over. On 6 April, at Fontainebleau, he signed away his throne."
+      ],
+      "claims": [
+        {
+          "text": "Napoleon was unusually short.",
+          "status": "legend",
+          "note": "He was about 1.69 m, average for his day. Old French inches were longer than English ones, and British cartoonists like Gillray happily ran with 'Little Boney'."
+        },
+        {
+          "text": "He snatched the crown from the Pope's hands.",
+          "status": "legend",
+          "note": "He did crown himself, but it was agreed in advance. David's huge painting of the day shows him crowning Joséphine instead."
+        },
+        {
+          "text": "He tried to poison himself at Fontainebleau after abdicating.",
+          "status": "disputed",
+          "note": "Caulaincourt, who sat with him that night in April 1814, said he took poison he had carried since Russia. It was old and only made him sick. Some historians doubt how serious it was."
+        }
+      ],
+      "hook": "Napoleon is packed off to rule the tiny island of Elba. In Paris, a fat, gouty Bourbon is coming home after 23 years in exile.",
+      "images": [
+        {
+          "file": "File:Jacques-Louis David - The Emperor Napoleon in His Study at the Tuileries - Google Art Project.jpg",
+          "url": "https://upload.wikimedia.org/wikipedia/commons/5/50/Jacques-Louis_David_-_The_Emperor_Napoleon_in_His_Study_at_the_Tuileries_-_Google_Art_Project.jpg",
+          "page": "https://commons.wikimedia.org/wiki/File:Jacques-Louis_David_-_The_Emperor_Napoleon_in_His_Study_at_the_Tuileries_-_Google_Art_Project.jpg",
+          "credit": "Jacques-Louis David",
+          "license": "Public domain",
+          "made": "1812",
+          "caption": "Painted by Jacques-Louis David in 1812, at the height of Napoleon's power.",
+          "alt": "Full-length painting of Napoleon in uniform standing in his study at the Tuileries, hand tucked into his waistcoat"
+        }
+      ],
+      "sources": [
+        {
+          "title": "Napoleon the Great",
+          "author": "Andrew Roberts",
+          "note": "Allen Lane, 2014"
+        },
+        {
+          "title": "Citizen Emperor: Napoleon in Power 1799–1815",
+          "author": "Philip Dwyer",
+          "note": "Bloomsbury, 2013"
+        },
+        {
+          "title": "Napoleon: A Political Life",
+          "author": "Steven Englund",
+          "note": "Scribner, 2004"
+        },
+        {
+          "title": "Memoirs of General de Caulaincourt",
+          "author": "Armand de Caulaincourt",
+          "note": "The night of the poison"
+        }
+      ],
+      "review": {
+        "status": "draft",
+        "notes": "Drafted from the listed sources; needs a human fact-check."
+      }
+    },
+    {
+      "id": "louis-xviii",
+      "kind": "monarch",
+      "rulers": [
+        "louis-xviii"
+      ],
+      "tagline": "The exile who waited 23 years, then lasted 11 months",
+      "start": {
+        "date": "1814-04-06"
+      },
+      "end": {
+        "date": "1815-03-20"
+      },
+      "contestedWith": [],
+      "relationToPredecessor": "Brother of Louis XVI",
+      "ageAtAccession": "58",
+      "cameToPower": "Recalled after Napoleon's fall",
+      "reignEnded": "Fled as Napoleon marched north",
+      "previously": "Beaten and abandoned by his marshals, Napoleon abdicates.",
+      "paragraphs": [
+        "Louis was the younger brother of the guillotined Louis XVI. He'd escaped France in 1791, the same night his brother's family was caught at Varennes, and spent the next 23 years drifting round Europe. When his young nephew died in prison in 1795, he simply called himself Louis XVIII and waited.",
+        "In 1814 the waiting paid off. The allies wanted a Bourbon, and the Senate invited him back. He was 58, hugely fat and crippled by gout, but sharp. He kept Napoleon's laws and granted a Charter with a parliament. He also brought back the white flag, and thousands of half-pay soldiers grumbled.",
+        "On 1 March 1815 Napoleon landed in the south of France with about a thousand men. Regiment after regiment sent to stop him joined him instead. Marshal Ney set off promising to bring him back in a cage and went over too. On the night of 19 March, Louis slipped out of Paris and ran for Ghent."
+      ],
+      "claims": [
+        {
+          "text": "Ney promised the king he would bring Napoleon back in an iron cage.",
+          "status": "disputed",
+          "note": "Widely reported at the time, and Ney never really denied it, but the exact wording comes from later memoirs."
+        },
+        {
+          "text": "Louis dated his reign from 1795, not 1814.",
+          "status": "confirmed",
+          "note": "His Charter of 1814 is signed in 'the nineteenth year of our reign', counting from the death of Louis XVII."
+        }
+      ],
+      "hook": "The king has fled. Napoleon walks back into the Tuileries to cheering crowds. Europe declares him an outlaw, and its armies start to move.",
+      "images": [
+        {
+          "file": "File:Gérard - Louis XVIII of France in Coronation Robes.jpg",
+          "url": "https://upload.wikimedia.org/wikipedia/commons/7/77/G%C3%A9rard_-_Louis_XVIII_of_France_in_Coronation_Robes.jpg",
+          "page": "https://commons.wikimedia.org/wiki/File:G%C3%A9rard_-_Louis_XVIII_of_France_in_Coronation_Robes.jpg",
+          "credit": "François Gérard",
+          "license": "Public domain",
+          "made": "c. 1814",
+          "caption": "François Gérard's state portrait, painted around the time of the Restoration.",
+          "alt": "Painting of Louis XVIII seated in royal robes"
+        }
+      ],
+      "sources": [
+        {
+          "title": "Louis XVIII",
+          "author": "Philip Mansel",
+          "note": "Blond & Briggs, 1981"
+        },
+        {
+          "title": "The Perilous Crown: France Between Revolutions, 1814–1848",
+          "author": "Munro Price",
+          "note": "Macmillan, 2007"
+        },
+        {
+          "title": "Memoirs from Beyond the Tomb",
+          "author": "François-René de Chateaubriand"
+        }
+      ],
+      "review": {
+        "status": "draft",
+        "notes": "Drafted from the listed sources; needs a human fact-check."
+      }
+    },
+    {
+      "id": "napoleon-i-restored",
+      "kind": "monarch",
+      "rulers": [
+        "napoleon-i"
+      ],
+      "title": "Napoleon I, again",
+      "tagline": "One last throw of the dice, and it comes up Waterloo",
+      "start": {
+        "date": "1815-03-20"
+      },
+      "end": {
+        "date": "1815-06-22"
+      },
+      "contestedWith": [],
+      "relationToPredecessor": "Back from exile on Elba",
+      "ageAtAccession": "45",
+      "cameToPower": "Marched from the coast to Paris",
+      "reignEnded": "Abdicated after Waterloo",
+      "previously": "Napoleon is back from Elba. Louis XVIII flees Paris by night.",
+      "paragraphs": [
+        "Napoleon got from the Mediterranean coast to Paris in under three weeks without a real fight. Near Grenoble a regiment blocked his road. He walked up to them, opened his coat and told them to shoot their Emperor if they wanted. They cheered instead. On 20 March he was back in the Tuileries.",
+        "The allies refused to deal with him, so he struck first. He marched into Belgium to split the British under Wellington from the Prussians under Blücher. On 18 June, at Waterloo, he threw everything at Wellington's line, but it held. When the Prussians arrived on his flank, the French army broke and ran.",
+        "Back in Paris, the politicians turned on him. On 22 June he abdicated for the second time, naming his four-year-old son as heir. Nobody listened. He tried to escape to America, then gave himself up to the Royal Navy. The British shipped him to Saint Helena, far out in the Atlantic, where he died in 1821."
+      ],
+      "claims": [
+        {
+          "text": "Napoleon was poisoned with arsenic on Saint Helena.",
+          "status": "disputed",
+          "note": "Tests on his hair found arsenic, but it was common in everyday things then, including wallpaper. His autopsy found a large stomach ulcer or cancer, which most historians accept."
+        },
+        {
+          "text": "His son reigned as Napoleon II for about two weeks.",
+          "status": "disputed",
+          "note": "The Chamber did recognise the boy in vague terms, but he was in Vienna and never ruled. Bonapartists counted him anyway, which is why there's a Napoleon III."
+        },
+        {
+          "text": "Wellington called Waterloo 'the nearest-run thing you ever saw'.",
+          "status": "confirmed",
+          "note": "Thomas Creevey recorded the remark in his diary after meeting the duke in Brussels the day after the battle."
+        }
+      ],
+      "hook": "Napoleon is on a ship to the end of the world. Louis XVIII rolls back into Paris behind the allied armies, ready for a second try.",
+      "images": [
+        {
+          "file": "File:Jacques-Louis David - The Emperor Napoleon in His Study at the Tuileries - Google Art Project.jpg",
+          "url": "https://upload.wikimedia.org/wikipedia/commons/5/50/Jacques-Louis_David_-_The_Emperor_Napoleon_in_His_Study_at_the_Tuileries_-_Google_Art_Project.jpg",
+          "page": "https://commons.wikimedia.org/wiki/File:Jacques-Louis_David_-_The_Emperor_Napoleon_in_His_Study_at_the_Tuileries_-_Google_Art_Project.jpg",
+          "credit": "Jacques-Louis David",
+          "license": "Public domain",
+          "made": "1812",
+          "caption": "Painted by Jacques-Louis David in 1812, at the height of Napoleon's power.",
+          "alt": "Full-length painting of Napoleon in uniform standing in his study at the Tuileries, hand tucked into his waistcoat"
+        }
+      ],
+      "sources": [
+        {
+          "title": "Napoleon the Great",
+          "author": "Andrew Roberts",
+          "note": "Allen Lane, 2014"
+        },
+        {
+          "title": "Napoleon: Passion, Death and Resurrection 1815–1840",
+          "author": "Philip Dwyer",
+          "note": "Bloomsbury, 2018"
+        },
+        {
+          "title": "The Creevey Papers",
+          "author": "Thomas Creevey",
+          "note": "ed. Herbert Maxwell, 1903"
+        }
+      ],
+      "review": {
+        "status": "draft",
+        "notes": "Drafted from the listed sources; needs a human fact-check."
+      }
+    },
+    {
+      "id": "louis-xviii-restored",
+      "kind": "monarch",
+      "rulers": [
+        "louis-xviii"
+      ],
+      "title": "Louis XVIII, again",
+      "tagline": "The second chance that stuck, until the king died in it",
+      "start": {
+        "date": "1815-07-08"
+      },
+      "end": {
+        "date": "1824-09-16"
+      },
+      "contestedWith": [],
+      "relationToPredecessor": "Same king, back from Ghent",
+      "ageAtAccession": "59",
+      "cameToPower": "Returned behind the allied armies",
+      "reignEnded": "Died at the Tuileries",
+      "previously": "Waterloo is lost. Napoleon abdicates a second time.",
+      "paragraphs": [
+        "Louis came back in July 1815, and this time France paid. The allies imposed a heavier peace, a huge indemnity and an army of occupation until 1818. In the south, royalist gangs murdered Bonapartists in what was called the White Terror. Marshal Ney, who had switched sides, was shot by firing squad in Paris.",
+        "The king tried to steer down the middle. He dissolved a parliament of fanatical royalists that was more royalist than he was, and leaned on moderate ministers. Then in February 1820 a saddler named Louvel stabbed the king's nephew, the Duke of Berry, outside the Paris Opéra. The ultras blamed the liberals and swung the government hard right.",
+        "Berry's widow gave birth seven months later to a son, hailed as the miracle child who saved the Bourbon line. Louis, by now barely able to walk, lived on to 1824 and died in his bed at the Tuileries. He was the last French monarch to die while still on the throne."
+      ],
+      "claims": [
+        {
+          "text": "Louis XVIII was the last French monarch to die while still reigning.",
+          "status": "confirmed",
+          "note": "Every ruler after him, from Charles X to Napoleon III, was overthrown and died in exile."
+        },
+        {
+          "text": "Chateaubriand saw Talleyrand and Fouché arrive together as 'vice leaning on the arm of crime'.",
+          "status": "confirmed",
+          "note": "It's in his Memoirs from Beyond the Tomb, describing the two ministers going in to swear loyalty to the king in July 1815."
+        },
+        {
+          "text": "The miracle child wasn't really the Duchess of Berry's baby.",
+          "status": "legend",
+          "note": "Liberal and Orléanist gossip claimed the birth was faked. The duchess made sure witnesses were present, and nobody serious believes it."
+        }
+      ],
+      "hook": "Louis XVIII dies without children. The crown goes to his younger brother, the Count of Artois, a hardliner who never forgave the Revolution.",
+      "images": [
+        {
+          "file": "File:Gérard - Louis XVIII of France in Coronation Robes.jpg",
+          "url": "https://upload.wikimedia.org/wikipedia/commons/7/77/G%C3%A9rard_-_Louis_XVIII_of_France_in_Coronation_Robes.jpg",
+          "page": "https://commons.wikimedia.org/wiki/File:G%C3%A9rard_-_Louis_XVIII_of_France_in_Coronation_Robes.jpg",
+          "credit": "François Gérard",
+          "license": "Public domain",
+          "made": "c. 1814",
+          "caption": "François Gérard's state portrait, painted around the time of the Restoration.",
+          "alt": "Painting of Louis XVIII seated in royal robes"
+        }
+      ],
+      "sources": [
+        {
+          "title": "Louis XVIII",
+          "author": "Philip Mansel",
+          "note": "Blond & Briggs, 1981"
+        },
+        {
+          "title": "The Perilous Crown: France Between Revolutions, 1814–1848",
+          "author": "Munro Price",
+          "note": "Macmillan, 2007"
+        },
+        {
+          "title": "Memoirs from Beyond the Tomb",
+          "author": "François-René de Chateaubriand",
+          "note": "The 'vice and crime' scene"
+        }
+      ],
+      "review": {
+        "status": "draft",
+        "notes": "Drafted from the listed sources; needs a human fact-check."
+      }
+    },
+    {
+      "id": "charles-x",
+      "kind": "monarch",
+      "rulers": [
+        "charles-x"
+      ],
+      "tagline": "The last king crowned at Reims, toppled in three days",
+      "start": {
+        "date": "1824-09-16"
+      },
+      "end": {
+        "date": "1830-08-02"
+      },
+      "contestedWith": [],
+      "relationToPredecessor": "Younger brother of Louis XVIII",
+      "ageAtAccession": "66",
+      "cameToPower": "Brother died childless",
+      "reignEnded": "Toppled in the July Revolution",
+      "previously": "Louis XVIII dies in his bed, the last French king to do so.",
+      "paragraphs": [
+        "As Count of Artois, Charles had been the dashing, spendy young brother at Versailles. He fled in July 1789, days after the Bastille fell, and spent the Revolution leading the émigré hardliners. Crowned at Reims in 1825 with the full medieval ritual, he even touched the sick to cure them, as kings once did.",
+        "His government paid compensation to nobles whose lands the Revolution had seized, and made some sacrilege in churches a capital crime. Voters kept sending back liberals. In 1829 he appointed Prince Jules de Polignac, an ultra-royalist, to run the government. In July 1830 news arrived that French troops had taken Algiers.",
+        "Feeling strong, Charles issued the July Ordinances: the press muzzled, the new parliament dissolved, fewer voters. Paris threw up barricades. In three days of fighting, from 27 to 29 July, the army lost the city. Charles abdicated on 2 August in favour of his nine-year-old grandson, then sailed for exile in Britain."
+      ],
+      "claims": [
+        {
+          "text": "Charles's son reigned as Louis XIX for about twenty minutes.",
+          "status": "disputed",
+          "note": "The Duke of Angoulême held off before signing his own renunciation after his father abdicated. Legitimists sometimes count him as king; nobody in France did at the time."
+        },
+        {
+          "text": "The Bourbons 'learned nothing and forgot nothing'.",
+          "status": "disputed",
+          "note": "Usually credited to Talleyrand. Similar lines were going round among émigré-watchers long before, so who said it first is unclear."
+        },
+        {
+          "text": "Charles touched sufferers of scrofula after his coronation.",
+          "status": "confirmed",
+          "note": "He did it on 31 May 1825 at Reims. Reports at the time give the number touched as over a hundred."
+        }
+      ],
+      "hook": "Paris has thrown out the Bourbons again. Instead of a republic, the deputies turn to a cousin, the Duke of Orléans, whose father voted to kill Louis XVI.",
+      "images": [
+        {
+          "file": "File:Portrait de Charles X, roi de France, en costume de sacre, par François Gérard (Château de Versailles).jpg",
+          "url": "https://upload.wikimedia.org/wikipedia/commons/c/c8/Portrait_de_Charles_X%2C_roi_de_France%2C_en_costume_de_sacre%2C_par_Fran%C3%A7ois_G%C3%A9rard_%28Ch%C3%A2teau_de_Versailles%29.jpg",
+          "page": "https://commons.wikimedia.org/wiki/File:Portrait_de_Charles_X,_roi_de_France,_en_costume_de_sacre,_par_Fran%C3%A7ois_G%C3%A9rard_(Ch%C3%A2teau_de_Versailles).jpg",
+          "credit": "François Gérard",
+          "license": "Public domain",
+          "made": "c. 1824–1825",
+          "caption": "Painted by François Gérard around the time of the 1825 coronation.",
+          "alt": "Portrait of Charles X in his coronation robes"
+        }
+      ],
+      "sources": [
+        {
+          "title": "The Perilous Crown: France Between Revolutions, 1814–1848",
+          "author": "Munro Price",
+          "note": "Macmillan, 2007"
+        },
+        {
+          "title": "Charles X of France: His Life and Times",
+          "author": "Vincent W. Beach",
+          "note": "Pruett, 1971"
+        },
+        {
+          "title": "Paris Between Empires, 1814–1852",
+          "author": "Philip Mansel",
+          "note": "John Murray, 2001"
+        }
+      ],
+      "review": {
+        "status": "draft",
+        "notes": "Drafted from the listed sources; needs a human fact-check."
+      }
+    },
+    {
+      "id": "louis-philippe",
+      "kind": "monarch",
+      "rulers": [
+        "louis-philippe"
+      ],
+      "tagline": "The king with the umbrella who ended up as 'Mr Smith'",
+      "start": {
+        "date": "1830-08-09"
+      },
+      "end": {
+        "date": "1848-02-24"
+      },
+      "contestedWith": [],
+      "relationToPredecessor": "Cousin from the Orléans branch",
+      "ageAtAccession": "56",
+      "cameToPower": "Chosen by the deputies",
+      "reignEnded": "Abdicated in the 1848 revolution",
+      "previously": "Three days of barricades. Charles X abdicates and sails for Britain.",
+      "paragraphs": [
+        "Louis-Philippe had a strange past for a king. His father, Philippe Égalité, voted for Louis XVI's death and was guillotined anyway. The son fought for the Revolution at Valmy, deserted in 1793, and spent years in exile, including a spell teaching in Switzerland and a trip round the young United States.",
+        "In 1830 he became King of the French, not of France, and played the bourgeois monarch. He strolled Paris with an umbrella and sent his sons to ordinary schools. Cartoonists drew his head as a pear and were fined for it. Republicans kept trying to kill him; in 1835 a bomb of 25 gun barrels missed him and killed 18 others.",
+        "Only rich men could vote, and the king refused to widen it. In February 1848 the government banned a reform banquet in Paris. Crowds rose, troops fired, barricades went up. On 24 February he abdicated for his grandson and slipped away. He crossed to England disguised, travelling as 'Mr Smith', and died there two years later."
+      ],
+      "claims": [
+        {
+          "text": "He fled to England under the name 'Mr Smith'.",
+          "status": "confirmed",
+          "note": "The British consul at Le Havre arranged his escape on a steamer, and the consul's reports to London describe the disguise."
+        },
+        {
+          "text": "A cartoonist proved in court that the king's face 'was' a pear.",
+          "status": "confirmed",
+          "note": "Charles Philipon sketched the king's head turning into a pear step by step at his 1831 trial. He was fined anyway, and the pear spread everywhere."
+        },
+        {
+          "text": "The government's motto was 'Enrich yourselves'.",
+          "status": "disputed",
+          "note": "François Guizot did say it, but as advice on how to get the vote: enrich yourselves by work and saving. Critics quoted only the first part."
+        }
+      ],
+      "hook": "The king is gone. In Paris, crowds invade the Chamber, and a romantic poet named Lamartine steps forward to proclaim a republic.",
+      "images": [
+        {
+          "file": "File:1841 portrait painting of Louis Philippe I (King of the French) by Winterhalter.jpg",
+          "url": "https://upload.wikimedia.org/wikipedia/commons/0/06/1841_portrait_painting_of_Louis_Philippe_I_%28King_of_the_French%29_by_Winterhalter.jpg",
+          "page": "https://commons.wikimedia.org/wiki/File:1841_portrait_painting_of_Louis_Philippe_I_(King_of_the_French)_by_Winterhalter.jpg",
+          "credit": "Franz Xaver Winterhalter",
+          "license": "Public domain",
+          "made": "1841",
+          "caption": "Franz Xaver Winterhalter's portrait of the king, painted in 1841.",
+          "alt": "Full-length portrait of Louis-Philippe, King of the French"
+        }
+      ],
+      "sources": [
+        {
+          "title": "The Perilous Crown: France Between Revolutions, 1814–1848",
+          "author": "Munro Price",
+          "note": "Macmillan, 2007"
+        },
+        {
+          "title": "Citizen-King: The Life of Louis-Philippe, King of the French",
+          "author": "T. E. B. Howarth",
+          "note": "Eyre & Spottiswoode, 1961"
+        },
+        {
+          "title": "Louis-Philippe",
+          "author": "Guy Antonetti",
+          "note": "Fayard, 1994"
+        }
+      ],
+      "review": {
+        "status": "draft",
+        "notes": "Drafted from the listed sources; needs a human fact-check."
+      }
+    },
+    {
+      "id": "second-republic",
+      "kind": "interregnum",
+      "rulers": [],
+      "title": "The Second Republic",
+      "house": "republic",
+      "tagline": "Every man gets a vote, and they vote for a Bonaparte",
+      "start": {
+        "date": "1848-02-24"
+      },
+      "end": {
+        "date": "1852-12-02"
+      },
+      "contestedWith": [],
+      "relationToPredecessor": "Replaced the July Monarchy",
+      "ageAtAccession": "No monarch",
+      "cameToPower": "The February Revolution",
+      "reignEnded": "Killed by its own president's coup",
+      "previously": "Louis-Philippe abdicates and slips away to England as 'Mr Smith'.",
+      "paragraphs": [
+        "The new republic moved fast. It gave the vote to every adult man, ended slavery in the colonies and set up National Workshops for the unemployed. When the workshops were shut that June, eastern Paris rose. General Cavaignac crushed the June Days in four days of street fighting. Thousands died and thousands more were deported.",
+        "In December 1848 France elected its first president by popular vote. The winner, with about three votes in four, was Louis-Napoleon Bonaparte, the late Emperor's nephew. He'd tried two comic-opera coups, been jailed in the fortress of Ham, and escaped in 1846 dressed as a workman. Peasants voted for the name.",
+        "The constitution allowed one four-year term, and parliament refused to change it. So on 2 December 1851, the anniversary of Austerlitz, he struck. Troops seized Paris, deputies were arrested and resistance was shot down. Victor Hugo fled into exile. A year later, a vote approved an empire."
+      ],
+      "claims": [
+        {
+          "text": "Lamartine talked the crowd out of adopting the red flag.",
+          "status": "confirmed",
+          "note": "His speech at the Hôtel de Ville in February 1848 saved the tricolour, and Lamartine retold it proudly himself."
+        },
+        {
+          "text": "Karl Marx said of this coup that history repeats itself, first as tragedy, then as farce.",
+          "status": "confirmed",
+          "note": "Karl Marx opened The Eighteenth Brumaire of Louis Bonaparte (1852) with this jab, comparing the nephew's coup to the uncle's."
+        },
+        {
+          "text": "Louis-Napoleon's nickname 'Badinguet' came from the workman whose clothes he borrowed to escape Ham.",
+          "status": "legend",
+          "note": "Enemies used the name constantly, but there's no solid evidence of a real Badinguet behind it."
+        }
+      ],
+      "hook": "Exactly a year after the coup, the republic is gone. The Prince-President takes his uncle's old title and a new number: Napoleon III.",
+      "images": [
+        {
+          "file": "File:Henri Félix Philippoteaux - Lamartine repoussant le drapeau rouge à l'Hôtel de Ville, le 25 février 1848 - P258 - Musée Carnavalet.jpg",
+          "url": "https://upload.wikimedia.org/wikipedia/commons/0/07/Henri_F%C3%A9lix_Philippoteaux_-_Lamartine_repoussant_le_drapeau_rouge_%C3%A0_l%27H%C3%B4tel_de_Ville%2C_le_25_f%C3%A9vrier_1848_-_P258_-_Mus%C3%A9e_Carnavalet.jpg",
+          "page": "https://commons.wikimedia.org/wiki/File:Henri_F%C3%A9lix_Philippoteaux_-_Lamartine_repoussant_le_drapeau_rouge_%C3%A0_l%27H%C3%B4tel_de_Ville,_le_25_f%C3%A9vrier_1848_-_P258_-_Mus%C3%A9e_Carnavalet.jpg",
+          "credit": "Henri Félix Emmanuel Philippoteaux",
+          "license": "Public domain",
+          "made": "1848",
+          "caption": "Lamartine turns away the red flag at the Hôtel de Ville on 25 February 1848, painted the same year.",
+          "alt": "Painting of Lamartine addressing a crowd in front of the Hôtel de Ville in Paris, rejecting the red flag"
+        }
+      ],
+      "sources": [
+        {
+          "title": "The Republican Experiment, 1848–1852",
+          "author": "Maurice Agulhon",
+          "note": "Cambridge University Press, 1983"
+        },
+        {
+          "title": "Recollections",
+          "author": "Alexis de Tocqueville"
+        },
+        {
+          "title": "The Eighteenth Brumaire of Louis Bonaparte",
+          "author": "Karl Marx",
+          "note": "1852"
+        }
+      ],
+      "review": {
+        "status": "draft",
+        "notes": "Drafted from the listed sources; needs a human fact-check."
+      }
+    },
+    {
+      "id": "napoleon-iii",
+      "kind": "monarch",
+      "rulers": [
+        "napoleon-iii"
+      ],
+      "tagline": "The last emperor rebuilt Paris and lost it all at Sedan",
+      "start": {
+        "date": "1852-12-02"
+      },
+      "end": {
+        "date": "1870-09-04"
+      },
+      "contestedWith": [],
+      "relationToPredecessor": "Nephew of Napoleon I",
+      "ageAtAccession": "44",
+      "cameToPower": "Coup, then a plebiscite",
+      "reignEnded": "Captured at Sedan",
+      "previously": "The Prince-President's coup wins its vote. The republic is dead.",
+      "paragraphs": [
+        "Napoleon III married the Spanish beauty Eugénie de Montijo in 1853 and set out to make France modern. Baron Haussmann tore down old Paris and built the boulevards, parks and sewers you still see. Railways and banks boomed. Abroad he won in Crimea and in Italy, picking up Nice and Savoy for France.",
+        "The luck ran out. His plan to put an Austrian archduke on a throne in Mexico ended with Maximilian in front of a firing squad in 1867. Bismarck's Prussia was rising next door. In July 1870, after a doctored telegram from Ems, France declared war. The emperor took command himself, though he was in agony from a bladder stone.",
+        "On 2 September 1870, trapped at Sedan, he surrendered with his whole army. Two days later Paris proclaimed a republic, and Eugénie escaped with help from her American dentist. Napoleon died in exile in Kent in 1873. The Third Republic lasted to 1940, and France has never had a monarch since."
+      ],
+      "claims": [
+        {
+          "text": "Bismarck edited the Ems telegram to goad France into war.",
+          "status": "confirmed",
+          "note": "Bismarck boasted about it in his memoirs. How much it really mattered, given the war fever in Paris, is still argued."
+        },
+        {
+          "text": "Empress Eugénie fled Paris with the help of her American dentist.",
+          "status": "confirmed",
+          "note": "Dr Thomas Evans wrote his own account of driving her to the coast, and she crossed to England on a British yacht."
+        },
+        {
+          "text": "At Sedan the emperor wore rouge to hide how ill he looked.",
+          "status": "disputed",
+          "note": "Some witnesses said so, and he was certainly very sick. It's a detail that suited his enemies, so treat it with care."
+        }
+      ],
+      "images": [
+        {
+          "file": "File:Jean-Hippolyte Flandrin - Portrait of Napoleon III, wearing the uniform of Brigadier General in his Grand Cabinet at the Tuileries.jpg",
+          "url": "https://upload.wikimedia.org/wikipedia/commons/8/80/Jean-Hippolyte_Flandrin_-_Portrait_of_Napoleon_III%2C_wearing_the_uniform_of_Brigadier_General_in_his_Grand_Cabinet_at_the_Tuileries.jpg",
+          "page": "https://commons.wikimedia.org/wiki/File:Jean-Hippolyte_Flandrin_-_Portrait_of_Napoleon_III,_wearing_the_uniform_of_Brigadier_General_in_his_Grand_Cabinet_at_the_Tuileries.jpg",
+          "credit": "Jean-Hippolyte Flandrin",
+          "license": "Public domain",
+          "made": "1862",
+          "caption": "Painted by Hippolyte Flandrin in 1862, in the emperor's study at the Tuileries.",
+          "alt": "Full-length portrait of Napoleon III in a general's uniform, standing in his study at the Tuileries"
+        }
+      ],
+      "sources": [
+        {
+          "title": "Napoleon III: A Life",
+          "author": "Fenton Bresler",
+          "note": "HarperCollins, 1999"
+        },
+        {
+          "title": "The French Second Empire: An Anatomy of Political Power",
+          "author": "Roger Price",
+          "note": "Cambridge University Press, 2001"
+        },
+        {
+          "title": "The Franco-Prussian War",
+          "author": "Michael Howard",
+          "note": "1961"
+        },
+        {
+          "title": "The Memoirs of Dr. Thomas W. Evans: Recollections of the Second French Empire",
+          "author": "Thomas W. Evans",
+          "note": "1905; Eugénie's escape"
+        }
+      ],
+      "review": {
+        "status": "draft",
+        "notes": "Drafted from the listed sources; needs a human fact-check."
+      }
+    }
+  ]
+}

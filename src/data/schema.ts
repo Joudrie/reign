@@ -95,7 +95,13 @@ export const Review = z.object({
 
 export const Reign = z.object({
   id: slug,
-  kind: z.enum(["monarch", "claimant", "interregnum"]),
+  /**
+   * monarch     — wore the crown
+   * claimant    — claimed it, never securely held it
+   * leader      — held real power without being the monarch (shoguns, dictators)
+   * interregnum — no monarch at all
+   */
+  kind: z.enum(["monarch", "claimant", "leader", "interregnum"]),
   /** One for a normal reign, two for co-monarchs; for an interregnum, whoever ran things (may be empty). */
   rulers: z.array(slug),
   /** Colour group for a reign with no rulers (a republic): a house id from this file. */
