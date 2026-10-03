@@ -1,0 +1,4022 @@
+{
+  "id": "scotland",
+  "name": "Scotland",
+  "blurb": "From Kenneth MacAlpin to the Union of the Crowns",
+  "dateConvention": "Dates are Julian, as the sources give them. Kings before about 1000 are known mostly from later king-lists, so many of their dates are approximate or known only to the year.",
+  "epilogue": "In 1603 James VI also became James I of England. The two kingdoms shared a monarch for a century, and in 1707 they became one: Great Britain. The story carries on in the England deck.",
+  "houses": [
+    {
+      "id": "alpin",
+      "name": "Alpin",
+      "color": "#5b6e3a"
+    },
+    {
+      "id": "unknown-line",
+      "name": "Uncertain line",
+      "color": "#7a7064",
+      "plain": true
+    },
+    {
+      "id": "dunkeld",
+      "name": "Dunkeld",
+      "color": "#2f5d8a"
+    },
+    {
+      "id": "moray",
+      "name": "Moray",
+      "color": "#7a4a2e"
+    },
+    {
+      "id": "balliol",
+      "name": "Balliol",
+      "color": "#8b6f47"
+    },
+    {
+      "id": "bruce",
+      "name": "Bruce",
+      "color": "#9b2c2c"
+    },
+    {
+      "id": "stewart",
+      "name": "Stewart",
+      "color": "#c79a2b"
+    },
+    {
+      "id": "guardians",
+      "name": "Guardians of Scotland",
+      "color": "#55524a",
+      "plain": true
+    }
+  ],
+  "rulers": [
+    {
+      "id": "kenneth-i",
+      "name": "Kenneth I",
+      "epithet": "MacAlpin",
+      "house": "alpin",
+      "died": {
+        "date": "0858-02-13",
+        "note": "Palace of Forteviot, Perthshire"
+      },
+      "causeOfDeath": "Illness (a tumour, says the chronicle)"
+    },
+    {
+      "id": "donald-i",
+      "name": "Donald I",
+      "house": "alpin",
+      "died": {
+        "date": "0862-04-13",
+        "note": "Palace of Cinnbelachoir, site unknown"
+      },
+      "causeOfDeath": "Uncertain; most sources imply natural"
+    },
+    {
+      "id": "constantine-i",
+      "name": "Constantine I",
+      "house": "alpin",
+      "died": {
+        "date": "0877",
+        "note": "Probably Inverdovat, Fife"
+      },
+      "causeOfDeath": "Killed in battle against Vikings"
+    },
+    {
+      "id": "aed",
+      "name": "Áed",
+      "epithet": "Whitefoot",
+      "house": "alpin",
+      "died": {
+        "date": "0878",
+        "note": "Probably Strathallan"
+      },
+      "causeOfDeath": "Killed by rivals, probably Giric's men"
+    },
+    {
+      "id": "giric",
+      "name": "Giric",
+      "house": "unknown-line",
+      "died": {
+        "date": "0889",
+        "circa": true,
+        "note": "Dundurn, Perthshire, according to later king-lists"
+      },
+      "causeOfDeath": "Unknown; possibly killed after being driven out"
+    },
+    {
+      "id": "donald-ii",
+      "name": "Donald II",
+      "house": "alpin",
+      "died": {
+        "date": "0900",
+        "note": "Dunnottar, or Forres in later lists"
+      },
+      "causeOfDeath": "Killed; exactly how is unclear"
+    },
+    {
+      "id": "constantine-ii",
+      "name": "Constantine II",
+      "house": "alpin",
+      "born": {
+        "date": "0878",
+        "circa": true,
+        "note": "Born before his father Áed died in 878"
+      },
+      "died": {
+        "date": "0952",
+        "note": "St Andrews, Fife, as a monk"
+      },
+      "causeOfDeath": "Old age"
+    },
+    {
+      "id": "malcolm-i",
+      "name": "Malcolm I",
+      "house": "alpin",
+      "died": {
+        "date": "0954",
+        "note": "Probably in Moray; sources differ"
+      },
+      "causeOfDeath": "Killed by rivals"
+    },
+    {
+      "id": "indulf",
+      "name": "Indulf",
+      "house": "alpin",
+      "died": {
+        "date": "0962"
+      },
+      "causeOfDeath": "Uncertain: killed by Vikings or died a monk"
+    },
+    {
+      "id": "dub",
+      "name": "Dub",
+      "house": "alpin",
+      "died": {
+        "date": "0967",
+        "note": "Probably Forres, Moray"
+      },
+      "causeOfDeath": "Killed by his own people"
+    },
+    {
+      "id": "cuilen",
+      "name": "Cuilén",
+      "house": "alpin",
+      "died": {
+        "date": "0971",
+        "note": "Ybandonia, perhaps Abington in Lanarkshire"
+      },
+      "causeOfDeath": "Killed by the Britons of Strathclyde"
+    },
+    {
+      "id": "kenneth-ii",
+      "name": "Kenneth II",
+      "house": "alpin",
+      "died": {
+        "date": "0995",
+        "note": "Fettercairn, Kincardineshire"
+      },
+      "causeOfDeath": "Murdered"
+    },
+    {
+      "id": "constantine-iii",
+      "name": "Constantine III",
+      "house": "alpin",
+      "died": {
+        "date": "0997",
+        "note": "Rathinveramon, near Perth"
+      },
+      "causeOfDeath": "Killed fighting a rival royal kinsman"
+    },
+    {
+      "id": "kenneth-iii",
+      "name": "Kenneth III",
+      "house": "alpin",
+      "died": {
+        "date": "1005-03-25",
+        "note": "Monzievaird, Strathearn"
+      },
+      "causeOfDeath": "Killed in battle by Malcolm II"
+    },
+    {
+      "id": "malcolm-ii",
+      "name": "Malcolm II",
+      "house": "alpin",
+      "born": {
+        "date": "0954",
+        "circa": true,
+        "note": "Year estimated; no record of his birth"
+      },
+      "died": {
+        "date": "1034-11-25",
+        "note": "Glamis, Angus"
+      },
+      "causeOfDeath": "Uncertain; later said to be murdered"
+    },
+    {
+      "id": "duncan-i",
+      "name": "Duncan I",
+      "house": "dunkeld",
+      "born": {
+        "date": "1001",
+        "circa": true,
+        "note": "Year estimated"
+      },
+      "died": {
+        "date": "1040-08-14",
+        "note": "Bothnagowan (Pitgaveny), near Elgin"
+      },
+      "causeOfDeath": "Killed fighting Macbeth's forces"
+    },
+    {
+      "id": "macbeth",
+      "name": "Macbeth",
+      "house": "moray",
+      "born": {
+        "date": "1005",
+        "circa": true,
+        "note": "Year estimated"
+      },
+      "died": {
+        "date": "1057-08-15",
+        "note": "Lumphanan, Aberdeenshire"
+      },
+      "causeOfDeath": "Killed in battle by Malcolm's army"
+    },
+    {
+      "id": "lulach",
+      "name": "Lulach",
+      "epithet": "the Simple",
+      "house": "moray",
+      "born": {
+        "date": "1032",
+        "circa": true,
+        "note": "Year unknown; his father died in 1032"
+      },
+      "died": {
+        "date": "1058-03-17",
+        "note": "Essie, Strathbogie, Aberdeenshire"
+      },
+      "causeOfDeath": "Killed by Malcolm III's men"
+    },
+    {
+      "id": "malcolm-iii",
+      "name": "Malcolm III",
+      "epithet": "Canmore",
+      "house": "dunkeld",
+      "born": {
+        "date": "1031",
+        "circa": true,
+        "note": "Year estimated"
+      },
+      "died": {
+        "date": "1093-11-13",
+        "note": "Near Alnwick, Northumberland"
+      },
+      "causeOfDeath": "Killed in an ambush while raiding England"
+    },
+    {
+      "id": "donald-iii",
+      "name": "Donald III",
+      "epithet": "Bán",
+      "house": "dunkeld",
+      "born": {
+        "date": "1033",
+        "circa": true,
+        "note": "Year estimated"
+      },
+      "died": {
+        "date": "1099",
+        "note": "Rescobie, Angus, as a prisoner"
+      },
+      "causeOfDeath": "Died in captivity after being blinded"
+    },
+    {
+      "id": "duncan-ii",
+      "name": "Duncan II",
+      "house": "dunkeld",
+      "born": {
+        "date": "1060",
+        "circa": true,
+        "note": "Year estimated"
+      },
+      "died": {
+        "date": "1094-11-12",
+        "note": "Mondynes, Kincardineshire"
+      },
+      "causeOfDeath": "Killed by the mormaer of the Mearns"
+    },
+    {
+      "id": "edgar",
+      "name": "Edgar",
+      "epithet": "the Peaceable",
+      "house": "dunkeld",
+      "born": {
+        "date": "1074",
+        "circa": true,
+        "note": "Year estimated"
+      },
+      "died": {
+        "date": "1107-01-08",
+        "note": "Edinburgh"
+      },
+      "causeOfDeath": "Natural causes"
+    },
+    {
+      "id": "alexander-i",
+      "name": "Alexander I",
+      "epithet": "the Fierce",
+      "house": "dunkeld",
+      "born": {
+        "date": "1078",
+        "circa": true,
+        "note": "Year estimated"
+      },
+      "died": {
+        "date": "1124-04-23",
+        "note": "Stirling"
+      },
+      "causeOfDeath": "Natural causes"
+    },
+    {
+      "id": "david-i",
+      "name": "David I",
+      "epithet": "the Saint",
+      "house": "dunkeld",
+      "born": {
+        "date": "1084",
+        "circa": true,
+        "note": "Probably born about 1084 or 1085; place unknown"
+      },
+      "died": {
+        "date": "1153-05-24",
+        "note": "Carlisle"
+      },
+      "causeOfDeath": "Illness, in old age"
+    },
+    {
+      "id": "malcolm-iv",
+      "name": "Malcolm IV",
+      "epithet": "the Maiden",
+      "house": "dunkeld",
+      "born": {
+        "date": "1141",
+        "note": "Between late April and late May 1141"
+      },
+      "died": {
+        "date": "1165-12-09",
+        "note": "Jedburgh"
+      },
+      "causeOfDeath": "Long illness, aged 24"
+    },
+    {
+      "id": "william-i",
+      "name": "William I",
+      "epithet": "the Lion",
+      "house": "dunkeld",
+      "born": {
+        "date": "1142",
+        "circa": true,
+        "note": "About 1142 or 1143"
+      },
+      "died": {
+        "date": "1214-12-04",
+        "note": "Stirling"
+      },
+      "causeOfDeath": "Old age"
+    },
+    {
+      "id": "alexander-ii",
+      "name": "Alexander II",
+      "house": "dunkeld",
+      "born": {
+        "date": "1198-08-24",
+        "note": "Haddington, East Lothian"
+      },
+      "died": {
+        "date": "1249-07-08",
+        "note": "Isle of Kerrera, near Oban"
+      },
+      "causeOfDeath": "Fever, on campaign"
+    },
+    {
+      "id": "alexander-iii",
+      "name": "Alexander III",
+      "house": "dunkeld",
+      "born": {
+        "date": "1241-09-04",
+        "note": "Roxburgh"
+      },
+      "died": {
+        "date": "1286-03-19",
+        "note": "Near Kinghorn, Fife"
+      },
+      "causeOfDeath": "Fell from his horse in a storm"
+    },
+    {
+      "id": "margaret",
+      "name": "Margaret",
+      "epithet": "the Maid of Norway",
+      "house": "dunkeld",
+      "born": {
+        "date": "1283-04",
+        "circa": true,
+        "note": "Norway; her mother died giving birth to her"
+      },
+      "died": {
+        "date": "1290-09-26",
+        "note": "Orkney, on the voyage to Scotland"
+      },
+      "causeOfDeath": "Illness at sea"
+    },
+    {
+      "id": "john-balliol",
+      "name": "John Balliol",
+      "epithet": "Toom Tabard",
+      "house": "balliol",
+      "born": {
+        "date": "1249",
+        "circa": true
+      },
+      "died": {
+        "date": "1314",
+        "note": "Hélicourt, Picardy, in exile"
+      },
+      "causeOfDeath": "Natural causes, in exile"
+    },
+    {
+      "id": "robert-i",
+      "name": "Robert I",
+      "epithet": "the Bruce",
+      "house": "bruce",
+      "born": {
+        "date": "1274-07-11",
+        "note": "Probably Turnberry Castle, Ayrshire"
+      },
+      "died": {
+        "date": "1329-06-07",
+        "note": "Cardross, near Dumbarton"
+      },
+      "causeOfDeath": "Long, wasting illness"
+    },
+    {
+      "id": "david-ii",
+      "name": "David II",
+      "house": "bruce",
+      "born": {
+        "date": "1324-03-05",
+        "note": "Dunfermline"
+      },
+      "died": {
+        "date": "1371-02-22",
+        "note": "Edinburgh Castle"
+      },
+      "causeOfDeath": "Sudden illness"
+    },
+    {
+      "id": "edward-balliol",
+      "name": "Edward Balliol",
+      "house": "balliol",
+      "born": {
+        "date": "1283",
+        "circa": true
+      },
+      "died": {
+        "date": "1364",
+        "note": "Probably Wheatley, near Doncaster, Yorkshire"
+      },
+      "causeOfDeath": "Natural causes, in old age"
+    },
+    {
+      "id": "robert-ii",
+      "name": "Robert II",
+      "house": "stewart",
+      "born": {
+        "date": "1316-03-02"
+      },
+      "died": {
+        "date": "1390-04-19",
+        "note": "Dundonald Castle, Ayrshire"
+      },
+      "causeOfDeath": "Natural causes, aged 74"
+    },
+    {
+      "id": "robert-iii",
+      "name": "Robert III",
+      "house": "stewart",
+      "born": {
+        "date": "1337",
+        "circa": true,
+        "note": "Christened John"
+      },
+      "died": {
+        "date": "1406-04-04",
+        "note": "Rothesay Castle, Bute"
+      },
+      "causeOfDeath": "Natural causes, said to be grief"
+    },
+    {
+      "id": "james-i",
+      "name": "James I",
+      "house": "stewart",
+      "born": {
+        "date": "1394-07",
+        "note": "Dunfermline"
+      },
+      "died": {
+        "date": "1437-02-21",
+        "note": "Blackfriars, Perth"
+      },
+      "causeOfDeath": "Stabbed to death by conspirators"
+    },
+    {
+      "id": "james-ii",
+      "name": "James II",
+      "epithet": "Fiery Face",
+      "house": "stewart",
+      "born": {
+        "date": "1430-10-16",
+        "note": "Holyrood Abbey, Edinburgh"
+      },
+      "died": {
+        "date": "1460-08-03",
+        "note": "Siege of Roxburgh Castle"
+      },
+      "causeOfDeath": "Killed when his own cannon burst"
+    },
+    {
+      "id": "james-iii",
+      "name": "James III",
+      "house": "stewart",
+      "born": {
+        "date": "1452",
+        "circa": true,
+        "note": "Probably 1452; some historians argue for July 1451"
+      },
+      "died": {
+        "date": "1488-06-11",
+        "note": "Near Stirling, after the Battle of Sauchieburn"
+      },
+      "causeOfDeath": "Killed after losing a battle"
+    },
+    {
+      "id": "james-iv",
+      "name": "James IV",
+      "house": "stewart",
+      "born": {
+        "date": "1473-03-17",
+        "note": "Probably Holyrood or Stirling"
+      },
+      "died": {
+        "date": "1513-09-09",
+        "note": "Flodden Field, Northumberland"
+      },
+      "causeOfDeath": "Killed in battle"
+    },
+    {
+      "id": "james-v",
+      "name": "James V",
+      "house": "stewart",
+      "born": {
+        "date": "1512-04-10",
+        "note": "Linlithgow Palace"
+      },
+      "died": {
+        "date": "1542-12-14",
+        "note": "Falkland Palace, Fife"
+      },
+      "causeOfDeath": "Sudden illness after a defeat"
+    },
+    {
+      "id": "mary",
+      "name": "Mary",
+      "epithet": "Queen of Scots",
+      "house": "stewart",
+      "born": {
+        "date": "1542-12-08",
+        "note": "Linlithgow Palace"
+      },
+      "died": {
+        "date": "1587-02-08",
+        "note": "Fotheringhay Castle, Northamptonshire"
+      },
+      "causeOfDeath": "Beheaded for treason against Elizabeth I"
+    },
+    {
+      "id": "james-vi",
+      "name": "James VI",
+      "house": "stewart",
+      "born": {
+        "date": "1566-06-19",
+        "note": "Edinburgh Castle"
+      },
+      "died": {
+        "date": "1625-03-27",
+        "note": "Theobalds House, Hertfordshire"
+      },
+      "causeOfDeath": "Illness after a stroke"
+    }
+  ],
+  "reigns": [
+    {
+      "id": "kenneth-i",
+      "kind": "monarch",
+      "rulers": [
+        "kenneth-i"
+      ],
+      "tagline": "The Gael who ended up king of the Picts",
+      "start": {
+        "date": "0843"
+      },
+      "end": {
+        "date": "0858-02-13"
+      },
+      "contestedWith": [],
+      "relationToPredecessor": "Son of Alpín",
+      "ageAtAccession": "Unknown",
+      "cameToPower": "Took the Pictish kingship",
+      "reignEnded": "Died at Forteviot",
+      "previously": "Picts in the east, Gaels in the west, Viking ships everywhere.",
+      "paragraphs": [
+        "Picture the 840s. The Picts rule most of the land north of the Forth. In the west sit the Gaels of Dál Riata, Irish by language and culture. Then come the Vikings. In 839 a Viking army butchered the Pictish king and a crowd of his nobles in a single battle. The old order was shattered, and a man named Cináed, son of Alpín, stepped into the gap. We call him Kenneth MacAlpin.",
+        "By about 843 he was king of the Picts. The chronicles give us only flashes of his reign. He raided the English of Lothian six times and burned Dunbar and attacked Melrose. He moved relics of St Columba to a new church, probably at Dunkeld, away from Viking-haunted Iona. He died at his palace of Forteviot in February 858. Nearly every king of Scots for the next two centuries would be his descendant.",
+        "He didn't pass the crown to his sons. Under the custom of the time, the throne went to the most able grown man of the royal kin. That meant his brother Donald."
+      ],
+      "claims": [
+        {
+          "text": "Kenneth won the Pictish throne by inviting their nobles to a feast and slaughtering them.",
+          "status": "legend",
+          "note": "This is 'MacAlpin's treason'. It first appears around 1200 in Gerald of Wales, over 300 years later, complete with trick benches over pits."
+        },
+        {
+          "text": "Kenneth was a Gael from Dál Riata who conquered the Picts.",
+          "status": "disputed",
+          "note": "Irish annals call him and his heirs kings of the Picts. His Dál Riata family tree comes from later genealogies, and some historians doubt it."
+        },
+        {
+          "text": "He moved relics of St Columba to a church he built.",
+          "status": "confirmed",
+          "note": "The Chronicle of the Kings of Alba records it in his seventh year; Dunkeld is the usual identification."
+        }
+      ],
+      "hook": "Kenneth is dead, but his sons are not next in line. His brother Donald takes the crown, and he has the old laws on his mind.",
+      "images": [
+        {
+          "file": "File:Jacob Jacobsz de Wet II (Haarlem 1641-2 - Amsterdam 1697) - Kenneth MacAlpin, King of Scotland (843-63) - RCIN 403356 - Royal Collection.jpg",
+          "url": "https://upload.wikimedia.org/wikipedia/commons/5/5e/Jacob_Jacobsz_de_Wet_II_%28Haarlem_1641-2_-_Amsterdam_1697%29_-_Kenneth_MacAlpin%2C_King_of_Scotland_%28843-63%29_-_RCIN_403356_-_Royal_Collection.jpg",
+          "page": "https://commons.wikimedia.org/wiki/File:Jacob_Jacobsz_de_Wet_II_(Haarlem_1641-2_-_Amsterdam_1697)_-_Kenneth_MacAlpin,_King_of_Scotland_(843-63)_-_RCIN_403356_-_Royal_Collection.jpg",
+          "credit": "Jacob de Wet II",
+          "license": "Public domain",
+          "made": "1684–86",
+          "caption": "Painted in 1684–86 for Holyrood Palace, over 800 years after his death, from imagination; one of the Holyrood series of Scottish kings.",
+          "alt": "Full-length imagined portrait of a bearded king in a long cloak, from the Holyrood series"
+        }
+      ],
+      "sources": [
+        {
+          "title": "From Pictland to Alba, 789–1070 (New Edinburgh History of Scotland 2)",
+          "author": "Alex Woolf",
+          "note": "Edinburgh University Press, 2007"
+        },
+        {
+          "title": "The Kingship of the Scots, 842–1292: Succession and Independence",
+          "author": "A. A. M. Duncan",
+          "note": "Edinburgh University Press, 2002"
+        },
+        {
+          "title": "Chronicle of the Kings of Alba",
+          "author": "Anonymous",
+          "note": "10th-century king-list chronicle, surviving in a 14th-century copy"
+        },
+        {
+          "title": "De Principis Instructione",
+          "author": "Gerald of Wales",
+          "note": "The feast story"
+        }
+      ],
+      "review": {
+        "status": "draft",
+        "notes": "Drafted from the listed sources; needs a human fact-check."
+      }
+    },
+    {
+      "id": "donald-i",
+      "kind": "monarch",
+      "rulers": [
+        "donald-i"
+      ],
+      "tagline": "The brother who kept the seat warm and wrote the rules",
+      "start": {
+        "date": "0858-02-13"
+      },
+      "end": {
+        "date": "0862-04-13"
+      },
+      "contestedWith": [],
+      "relationToPredecessor": "Brother of Kenneth I",
+      "ageAtAccession": "Unknown",
+      "cameToPower": "Succeeded his brother",
+      "reignEnded": "Died in his palace",
+      "previously": "Kenneth MacAlpin dies at Forteviot. His brother Donald steps up.",
+      "paragraphs": [
+        "Donald, son of Alpín, got about four years on the throne, and we know almost nothing about them. One line in the Chronicle of the Kings of Alba stands out. In his time, it says, the Gaels and their king made the rights and laws of the kingdom of Áed son of Eochaid at Forteviot.",
+        "Nobody is quite sure who that Áed was, probably an old king of Dál Riata. The point is that Donald's people were stamping Gaelic law on what had been Pictish ground. Donald died in his palace in April 862. Brother had followed brother, and now the crown swung back to the next generation."
+      ],
+      "claims": [
+        {
+          "text": "Donald made the laws of Áed son of Eochaid binding at Forteviot.",
+          "status": "confirmed",
+          "note": "Recorded in the Chronicle of the Kings of Alba. What those laws actually said is lost."
+        },
+        {
+          "text": "Donald was a feeble, pleasure-loving king.",
+          "status": "legend",
+          "note": "This picture comes from Renaissance writers like Hector Boece, who had no real evidence and liked a moral tale."
+        }
+      ],
+      "hook": "Donald is gone. Kenneth's son Constantine takes over, just as the most feared Viking warlords in the Irish Sea turn their eyes on his kingdom.",
+      "images": [
+        {
+          "file": "File:Jacob Jacobsz de Wet II (Haarlem 1641-2 - Amsterdam 1697) - Donald V, King of Scotland (863-8) - RCIN 403290 - Royal Collection.jpg",
+          "url": "https://upload.wikimedia.org/wikipedia/commons/0/07/Jacob_Jacobsz_de_Wet_II_%28Haarlem_1641-2_-_Amsterdam_1697%29_-_Donald_V%2C_King_of_Scotland_%28863-8%29_-_RCIN_403290_-_Royal_Collection.jpg",
+          "page": "https://commons.wikimedia.org/wiki/File:Jacob_Jacobsz_de_Wet_II_(Haarlem_1641-2_-_Amsterdam_1697)_-_Donald_V,_King_of_Scotland_(863-8)_-_RCIN_403290_-_Royal_Collection.jpg",
+          "credit": "Jacob de Wet II",
+          "license": "Public domain",
+          "made": "1684–86",
+          "caption": "Painted in 1684–86 for Holyrood Palace, over 800 years after his death, from imagination; labelled Donald V in the old numbering used at Holyrood.",
+          "alt": "Imagined painted bust portrait of Donald I, from the Holyrood series"
+        }
+      ],
+      "sources": [
+        {
+          "title": "From Pictland to Alba, 789–1070 (New Edinburgh History of Scotland 2)",
+          "author": "Alex Woolf",
+          "note": "Edinburgh University Press, 2007"
+        },
+        {
+          "title": "Chronicle of the Kings of Alba",
+          "author": "Anonymous",
+          "note": "10th-century king-list chronicle, surviving in a 14th-century copy"
+        },
+        {
+          "title": "Annals of Ulster",
+          "author": "Anonymous (Irish monastic annals)"
+        },
+        {
+          "title": "Scotorum Historia",
+          "author": "Hector Boece",
+          "note": "1527"
+        }
+      ],
+      "review": {
+        "status": "draft",
+        "notes": "Drafted from the listed sources; needs a human fact-check."
+      }
+    },
+    {
+      "id": "constantine-i",
+      "kind": "monarch",
+      "rulers": [
+        "constantine-i"
+      ],
+      "tagline": "A king who fought the Vikings until they killed him",
+      "start": {
+        "date": "0862-04-13",
+        "note": "Succeeded on Donald I's death"
+      },
+      "end": {
+        "date": "0877"
+      },
+      "contestedWith": [],
+      "relationToPredecessor": "Son of Kenneth I; Donald's nephew",
+      "ageAtAccession": "Unknown",
+      "cameToPower": "Succeeded his uncle",
+      "reignEnded": "Killed fighting Vikings",
+      "previously": "Donald I dies in his palace. The crown passes to Kenneth's son.",
+      "paragraphs": [
+        "Constantine ruled in the age of the great Viking kings of Dublin, Olaf and Ivar. In 866 they swept through Pictland, plundering and taking hostages. In 870 they besieged Dumbarton Rock, fortress of the Britons of Strathclyde, starved it out after four months and shipped off a mass of captives. Two years later the king of Strathclyde was killed, and the Irish annals say Constantine set it up.",
+        "Then came the Danes. In 875 a Danish army beat the Picts at Dollar and ravaged the land. In 877 Constantine met the Northmen again and was killed in battle, probably near Inverdovat in Fife. The crown passed to his brother Áed."
+      ],
+      "claims": [
+        {
+          "text": "Constantine arranged the killing of Arthgal, king of Strathclyde.",
+          "status": "confirmed",
+          "note": "The Annals of Ulster for 872 say Arthgal was killed 'at the instigation of' Constantine son of Kenneth."
+        },
+        {
+          "text": "Constantine killed the Viking king Olaf while Olaf was collecting tribute.",
+          "status": "disputed",
+          "note": "Only the Chronicle of the Kings of Alba says so, and Olaf's fate is murky in other sources."
+        },
+        {
+          "text": "He died fighting the Danes at a cave near Crail called the Black Cave.",
+          "status": "legend",
+          "note": "The cave story comes from much later Scottish writers. The early chronicle only names a place called Werdo."
+        }
+      ],
+      "hook": "Constantine is dead on the battlefield. His brother Áed takes the throne, and has only months before a rival comes for him.",
+      "images": [
+        {
+          "file": "File:Jacob Jacobsz de Wet II (Haarlem 1641-2 - Amsterdam 1697) - Constantine II, King of Scotland (808-24) - RCIN 403257 - Royal Collection.jpg",
+          "url": "https://upload.wikimedia.org/wikipedia/commons/1/14/Jacob_Jacobsz_de_Wet_II_%28Haarlem_1641-2_-_Amsterdam_1697%29_-_Constantine_II%2C_King_of_Scotland_%28808-24%29_-_RCIN_403257_-_Royal_Collection.jpg",
+          "page": "https://commons.wikimedia.org/wiki/File:Jacob_Jacobsz_de_Wet_II_(Haarlem_1641-2_-_Amsterdam_1697)_-_Constantine_II,_King_of_Scotland_(808-24)_-_RCIN_403257_-_Royal_Collection.jpg",
+          "credit": "Jacob de Wet II",
+          "license": "Public domain",
+          "made": "1684–86",
+          "caption": "Painted in 1684–86 for Holyrood Palace, about 800 years after his death, from imagination; labelled Constantine II in the old numbering used at Holyrood, with muddled dates.",
+          "alt": "Imagined painted bust portrait of Constantine I, from the Holyrood series"
+        }
+      ],
+      "sources": [
+        {
+          "title": "From Pictland to Alba, 789–1070 (New Edinburgh History of Scotland 2)",
+          "author": "Alex Woolf",
+          "note": "Edinburgh University Press, 2007"
+        },
+        {
+          "title": "Annals of Ulster",
+          "author": "Anonymous (Irish monastic annals)"
+        },
+        {
+          "title": "Chronicle of the Kings of Alba",
+          "author": "Anonymous",
+          "note": "10th-century king-list chronicle, surviving in a 14th-century copy"
+        },
+        {
+          "title": "Warlords and Holy Men: Scotland AD 80–1000",
+          "author": "Alfred P. Smyth",
+          "note": "1984"
+        }
+      ],
+      "review": {
+        "status": "draft",
+        "notes": "Drafted from the listed sources; needs a human fact-check."
+      }
+    },
+    {
+      "id": "aed",
+      "kind": "monarch",
+      "rulers": [
+        "aed"
+      ],
+      "tagline": "One year, one rival, one knife in the dark",
+      "start": {
+        "date": "0877"
+      },
+      "end": {
+        "date": "0878"
+      },
+      "contestedWith": [],
+      "relationToPredecessor": "Brother of Constantine I",
+      "ageAtAccession": "Unknown",
+      "cameToPower": "Succeeded his brother",
+      "reignEnded": "Killed by his own associates",
+      "previously": "Constantine I falls fighting the Vikings. His brother Áed steps in.",
+      "paragraphs": [
+        "Áed, son of Kenneth, is one of the shortest-lived kings on the list. Later king-lists call him 'Whitefoot', though nobody knows why. He reigned for about a year. The Irish annals say he was killed in 878 by his own associates.",
+        "Later Scottish king-lists add a name. They say Giric, son of Dúngal, killed him in Strathallan. He left a young son called Constantine, who would one day rule for over forty years. For now, though, the family of Kenneth MacAlpin was pushed off the throne."
+      ],
+      "claims": [
+        {
+          "text": "Áed was killed by his own companions.",
+          "status": "confirmed",
+          "note": "The Annals of Ulster for 878 say so plainly, without naming the killers."
+        },
+        {
+          "text": "Giric was the man who killed him.",
+          "status": "disputed",
+          "note": "Only later king-lists name Giric. It fits, but they were written long after."
+        },
+        {
+          "text": "He was nicknamed 'Whitefoot'.",
+          "status": "disputed",
+          "note": "The nickname turns up in later king-lists, not in anything written in his lifetime."
+        }
+      ],
+      "hook": "Áed is dead. The man who takes power isn't one of Kenneth's sons or grandsons, and nobody is quite sure where he came from.",
+      "images": [
+        {
+          "file": "File:Jacob Jacobsz de Wet II (Haarlem 1641-2 - Amsterdam 1697) - Ethus 'Alipes', King of Scotland (884-6) - RCIN 403294 - Royal Collection.jpg",
+          "url": "https://upload.wikimedia.org/wikipedia/commons/6/66/Jacob_Jacobsz_de_Wet_II_%28Haarlem_1641-2_-_Amsterdam_1697%29_-_Ethus_%27Alipes%27%2C_King_of_Scotland_%28884-6%29_-_RCIN_403294_-_Royal_Collection.jpg",
+          "page": "https://commons.wikimedia.org/wiki/File:Jacob_Jacobsz_de_Wet_II_(Haarlem_1641-2_-_Amsterdam_1697)_-_Ethus_%27Alipes%27,_King_of_Scotland_(884-6)_-_RCIN_403294_-_Royal_Collection.jpg",
+          "credit": "Jacob de Wet II",
+          "license": "Public domain",
+          "made": "1684–86",
+          "caption": "Painted in 1684–86 for Holyrood Palace, about 800 years after his death, from imagination; labelled Ethus 'Alipes' (wing-footed) in the old Holyrood numbering.",
+          "alt": "Imagined painted bust portrait of Áed, from the Holyrood series"
+        }
+      ],
+      "sources": [
+        {
+          "title": "From Pictland to Alba, 789–1070 (New Edinburgh History of Scotland 2)",
+          "author": "Alex Woolf",
+          "note": "Edinburgh University Press, 2007"
+        },
+        {
+          "title": "Annals of Ulster",
+          "author": "Anonymous (Irish monastic annals)"
+        },
+        {
+          "title": "Early Sources of Scottish History, A.D. 500 to 1286",
+          "author": "Alan Orr Anderson",
+          "note": "1922; translations of the chronicles and king-lists"
+        }
+      ],
+      "review": {
+        "status": "draft",
+        "notes": "Drafted from the listed sources; needs a human fact-check."
+      }
+    },
+    {
+      "id": "giric",
+      "kind": "monarch",
+      "rulers": [
+        "giric"
+      ],
+      "tagline": "The mystery king later sold as Gregory the Great",
+      "start": {
+        "date": "0878"
+      },
+      "end": {
+        "date": "0889"
+      },
+      "contestedWith": [],
+      "relationToPredecessor": "No known kin; son of Dúngal",
+      "ageAtAccession": "Unknown",
+      "cameToPower": "Seized the throne after Áed's death",
+      "reignEnded": "Driven out of the kingdom",
+      "previously": "Áed is killed by his own companions after a year on the throne.",
+      "paragraphs": [
+        "Giric is the great puzzle of early Scotland. He was the son of a Dúngal, not of Kenneth's line, and we don't know who his people were. The Chronicle of the Kings of Alba says Eochaid, a grandson of Kenneth through a daughter who married into the Strathclyde royal house, reigned in these years, and adds that some say Giric reigned too, as Eochaid's guardian.",
+        "The chronicle notes an eclipse in his ninth year, on St Cyricus's day. It says he was the first to give freedom to the Scottish church, which had been in servitude under Pictish custom. Then it says both he and Eochaid were driven out of the kingdom. By 889 the crown was back with Kenneth's grandsons."
+      ],
+      "claims": [
+        {
+          "text": "Giric freed the Scottish church from Pictish servitude.",
+          "status": "disputed",
+          "note": "The chronicle says so, but nobody agrees on what it meant. Some see a later church writer flattering him."
+        },
+        {
+          "text": "As 'Gregory the Great', he conquered Ireland and most of northern England.",
+          "status": "legend",
+          "note": "This grew up in later medieval chronicles, maybe from a mix-up of Giric with St Cyricus. No early source supports it."
+        },
+        {
+          "text": "He ruled jointly with Eochaid of Strathclyde.",
+          "status": "disputed",
+          "note": "The chronicle hedges, saying only 'some say'. Historians still argue about who really held power."
+        }
+      ],
+      "hook": "Giric is gone, driven out. Kenneth's grandson Donald takes the throne, and the chroniclers start calling his kingdom by a new name.",
+      "images": [
+        {
+          "file": "File:Jacob Jacobsz de Wet II (Haarlem 1641-2 - Amsterdam 1697) - Gregory 'the Great', King of Scotland (886-904) - RCIN 403291 - Royal Collection.jpg",
+          "url": "https://upload.wikimedia.org/wikipedia/commons/e/eb/Jacob_Jacobsz_de_Wet_II_%28Haarlem_1641-2_-_Amsterdam_1697%29_-_Gregory_%27the_Great%27%2C_King_of_Scotland_%28886-904%29_-_RCIN_403291_-_Royal_Collection.jpg",
+          "page": "https://commons.wikimedia.org/wiki/File:Jacob_Jacobsz_de_Wet_II_(Haarlem_1641-2_-_Amsterdam_1697)_-_Gregory_%27the_Great%27,_King_of_Scotland_(886-904)_-_RCIN_403291_-_Royal_Collection.jpg",
+          "credit": "Jacob de Wet II",
+          "license": "Public domain",
+          "made": "1684–86",
+          "caption": "Painted in 1684–86 for Holyrood Palace, about 800 years after his death, from imagination; labelled Gregory 'the Great', the legendary version of Giric.",
+          "alt": "Imagined painted bust portrait of Giric, from the Holyrood series"
+        }
+      ],
+      "sources": [
+        {
+          "title": "From Pictland to Alba, 789–1070 (New Edinburgh History of Scotland 2)",
+          "author": "Alex Woolf",
+          "note": "Edinburgh University Press, 2007"
+        },
+        {
+          "title": "Chronicle of the Kings of Alba",
+          "author": "Anonymous",
+          "note": "10th-century king-list chronicle, surviving in a 14th-century copy"
+        },
+        {
+          "title": "The Kingship of the Scots, 842–1292: Succession and Independence",
+          "author": "A. A. M. Duncan",
+          "note": "Edinburgh University Press, 2002"
+        },
+        {
+          "title": "Chronica Gentis Scotorum",
+          "author": "John of Fordun",
+          "note": "Late 14th century"
+        }
+      ],
+      "review": {
+        "status": "draft",
+        "notes": "Drafted from the listed sources; needs a human fact-check."
+      }
+    },
+    {
+      "id": "donald-ii",
+      "kind": "monarch",
+      "rulers": [
+        "donald-ii"
+      ],
+      "tagline": "The first king the Irish called king of Alba",
+      "start": {
+        "date": "0889"
+      },
+      "end": {
+        "date": "0900"
+      },
+      "contestedWith": [],
+      "relationToPredecessor": "Son of Constantine I",
+      "ageAtAccession": "Unknown",
+      "cameToPower": "Took over after Giric was driven out",
+      "reignEnded": "Killed, probably at Dunnottar",
+      "previously": "Giric and Eochaid are driven out. Kenneth's line is back.",
+      "paragraphs": [
+        "Donald, son of Constantine, brought the crown back to Kenneth's family. His reign was rough. Norse warlords were building power in Orkney, and the Chronicle of the Kings of Alba records heathens attacking Dunnottar, on the coast south of Aberdeen.",
+        "When he died in 900, the Annals of Ulster called him 'rí Alban', king of Alba. That's the first time anyone uses the title. The Picts disappear from the record about now. Alba is the Gaelic name that grows into Scotland. Donald was killed, probably at Dunnottar. His cousin Constantine, Áed's son, took the throne."
+      ],
+      "claims": [
+        {
+          "text": "Donald was the first ruler called 'king of Alba'.",
+          "status": "confirmed",
+          "note": "The Annals of Ulster use the title in his death notice for 900. Earlier kings were called kings of the Picts."
+        },
+        {
+          "text": "He was killed fighting Vikings at Dunnottar.",
+          "status": "disputed",
+          "note": "The chronicle places his death at Dunnottar but doesn't say who killed him. Some later king-lists put it at Forres instead."
+        },
+        {
+          "text": "His nickname was 'the Madman'.",
+          "status": "disputed",
+          "note": "It comes from the Prophecy of Berchán, a much later poem written in riddles."
+        }
+      ],
+      "hook": "Donald is killed. His cousin Constantine, son of murdered Áed, takes the crown. He'll hold it for 43 years and face the mightiest king in England.",
+      "images": [
+        {
+          "file": "File:Jacob Jacobsz de Wet II (Haarlem 1641-2 - Amsterdam 1697) - Donald VI, King of Scotland (904-15) - RCIN 403304 - Royal Collection.jpg",
+          "url": "https://upload.wikimedia.org/wikipedia/commons/7/72/Jacob_Jacobsz_de_Wet_II_%28Haarlem_1641-2_-_Amsterdam_1697%29_-_Donald_VI%2C_King_of_Scotland_%28904-15%29_-_RCIN_403304_-_Royal_Collection.jpg",
+          "page": "https://commons.wikimedia.org/wiki/File:Jacob_Jacobsz_de_Wet_II_(Haarlem_1641-2_-_Amsterdam_1697)_-_Donald_VI,_King_of_Scotland_(904-15)_-_RCIN_403304_-_Royal_Collection.jpg",
+          "credit": "Jacob de Wet II",
+          "license": "Public domain",
+          "made": "1684–86",
+          "caption": "Painted in 1684–86 for Holyrood Palace, nearly 800 years after his death, from imagination; labelled Donald VI in the old Holyrood numbering, with muddled dates.",
+          "alt": "Imagined painted bust portrait of Donald II, from the Holyrood series"
+        }
+      ],
+      "sources": [
+        {
+          "title": "From Pictland to Alba, 789–1070 (New Edinburgh History of Scotland 2)",
+          "author": "Alex Woolf",
+          "note": "Edinburgh University Press, 2007"
+        },
+        {
+          "title": "Annals of Ulster",
+          "author": "Anonymous (Irish monastic annals)"
+        },
+        {
+          "title": "Chronicle of the Kings of Alba",
+          "author": "Anonymous",
+          "note": "10th-century king-list chronicle, surviving in a 14th-century copy"
+        },
+        {
+          "title": "The Prophecy of Berchán: Irish and Scottish High-Kings of the Early Middle Ages",
+          "author": "Benjamin T. Hudson",
+          "note": "1996"
+        }
+      ],
+      "review": {
+        "status": "draft",
+        "notes": "Drafted from the listed sources; needs a human fact-check."
+      }
+    },
+    {
+      "id": "constantine-ii",
+      "kind": "monarch",
+      "rulers": [
+        "constantine-ii"
+      ],
+      "tagline": "Forty-three years, Brunanburh, then the cloister",
+      "start": {
+        "date": "0900"
+      },
+      "end": {
+        "date": "0943"
+      },
+      "contestedWith": [],
+      "relationToPredecessor": "Cousin of Donald II",
+      "ageAtAccession": "21 or older",
+      "cameToPower": "Succeeded his cousin",
+      "reignEnded": "Abdicated to become a monk",
+      "previously": "Donald II is killed. His cousin Constantine, son of Áed, takes over.",
+      "paragraphs": [
+        "Constantine's long reign made the kingdom of Alba real. Early on, Vikings sacked Dunkeld, but in 904 his men beat them in Strathearn. In 906 he and Bishop Cellach swore at Scone to uphold the laws of the Church. The English, under Alfred's heirs, were pushing north, and Constantine dealt with them as an equal, then as a reluctant junior.",
+        "In 934 King Æthelstan invaded by land and sea. In 937 Constantine joined Olaf of Dublin and the Strathclyde Britons to strike back. At Brunanburh they were crushed. An English poem gloats that the grey-haired Constantine went home without his son, who lay dead on the field.",
+        "In 943 he gave up the throne and became a monk at St Andrews. He lived another nine years. The crown went to Malcolm, son of Donald II."
+      ],
+      "claims": [
+        {
+          "text": "An English victory poem mocked him as an old man who lost his son at Brunanburh.",
+          "status": "confirmed",
+          "note": "The poem on Brunanburh in the Anglo-Saxon Chronicle says exactly this. Where Brunanburh was is still argued over."
+        },
+        {
+          "text": "In 920 he accepted Edward the Elder as 'father and lord'.",
+          "status": "disputed",
+          "note": "The Anglo-Saxon Chronicle says so, but it's English spin. A Scottish king may have seen it as a peace deal."
+        },
+        {
+          "text": "He came out of retirement to push Malcolm into raiding England.",
+          "status": "disputed",
+          "note": "The Chronicle of the Kings of Alba hints at it in a garbled line. Historians read it differently."
+        }
+      ],
+      "hook": "Constantine swaps the crown for a monk's habit. Malcolm, son of Donald II, takes over, and England's new king has a deal to offer.",
+      "images": [
+        {
+          "file": "File:Jacob Jacobsz de Wet II (Haarlem 1641-2 - Amsterdam 1697) - Constantine III, King of Scotland (915-55) - RCIN 403293 - Royal Collection.jpg",
+          "url": "https://upload.wikimedia.org/wikipedia/commons/2/22/Jacob_Jacobsz_de_Wet_II_%28Haarlem_1641-2_-_Amsterdam_1697%29_-_Constantine_III%2C_King_of_Scotland_%28915-55%29_-_RCIN_403293_-_Royal_Collection.jpg",
+          "page": "https://commons.wikimedia.org/wiki/File:Jacob_Jacobsz_de_Wet_II_(Haarlem_1641-2_-_Amsterdam_1697)_-_Constantine_III,_King_of_Scotland_(915-55)_-_RCIN_403293_-_Royal_Collection.jpg",
+          "credit": "Jacob de Wet II",
+          "license": "Public domain",
+          "made": "1684–86",
+          "caption": "Painted in 1684–86 for Holyrood Palace, over 700 years after his death, from imagination; labelled Constantine III in the old Holyrood numbering.",
+          "alt": "Imagined painted bust portrait of Constantine II, from the Holyrood series"
+        }
+      ],
+      "sources": [
+        {
+          "title": "From Pictland to Alba, 789–1070 (New Edinburgh History of Scotland 2)",
+          "author": "Alex Woolf",
+          "note": "Edinburgh University Press, 2007"
+        },
+        {
+          "title": "Anglo-Saxon Chronicle",
+          "author": "Anonymous"
+        },
+        {
+          "title": "Chronicle of the Kings of Alba",
+          "author": "Anonymous",
+          "note": "10th-century king-list chronicle, surviving in a 14th-century copy"
+        },
+        {
+          "title": "Kings of Celtic Scotland",
+          "author": "Benjamin T. Hudson",
+          "note": "Greenwood Press, 1994"
+        }
+      ],
+      "review": {
+        "status": "draft",
+        "notes": "Drafted from the listed sources; needs a human fact-check."
+      }
+    },
+    {
+      "id": "malcolm-i",
+      "kind": "monarch",
+      "rulers": [
+        "malcolm-i"
+      ],
+      "tagline": "He made a deal with England, then went to war with Moray",
+      "start": {
+        "date": "0943"
+      },
+      "end": {
+        "date": "0954"
+      },
+      "contestedWith": [],
+      "relationToPredecessor": "Son of Donald II",
+      "ageAtAccession": "Unknown",
+      "cameToPower": "Old Constantine stepped aside for him",
+      "reignEnded": "Killed by rivals",
+      "previously": "Constantine II gives up the crown and retires to St Andrews.",
+      "paragraphs": [
+        "Malcolm, son of Donald II, came to the throne with old Constantine still alive in his monastery. In 945 King Edmund of England harried Strathclyde, the British kingdom in the south-west, and handed it to Malcolm on condition he'd be Edmund's ally by land and sea.",
+        "Malcolm also pushed north. He marched into Moray and killed its leader, Cellach. He raided England as far as the Tees, rounding up people and herds. The far north never forgot. In 954 Malcolm was killed, and later sources say the men of Moray did it. The crown passed to Indulf, son of Constantine II, as the two branches of the family took turns."
+      ],
+      "claims": [
+        {
+          "text": "King Edmund gave Strathclyde to Malcolm in exchange for an alliance.",
+          "status": "confirmed",
+          "note": "The Anglo-Saxon Chronicle records Edmund ravaging 'Cumberland' in 945 and letting it to Malcolm on those terms."
+        },
+        {
+          "text": "Malcolm was killed by the men of Moray in revenge.",
+          "status": "disputed",
+          "note": "Sources disagree on where he died. Some later lists name Fetteresso in the Mearns, others Moray."
+        }
+      ],
+      "hook": "Malcolm is dead. Indulf, son of old Constantine, takes the throne. Under him, the Scots will grab a fortress on a rock called Eden.",
+      "images": [
+        {
+          "file": "File:Jacob Jacobsz de Wet II (Haarlem 1641-2 - Amsterdam 1697) - Malcolm I, King of Scotland (955-64) - RCIN 403297 - Royal Collection.jpg",
+          "url": "https://upload.wikimedia.org/wikipedia/commons/3/3f/Jacob_Jacobsz_de_Wet_II_%28Haarlem_1641-2_-_Amsterdam_1697%29_-_Malcolm_I%2C_King_of_Scotland_%28955-64%29_-_RCIN_403297_-_Royal_Collection.jpg",
+          "page": "https://commons.wikimedia.org/wiki/File:Jacob_Jacobsz_de_Wet_II_(Haarlem_1641-2_-_Amsterdam_1697)_-_Malcolm_I,_King_of_Scotland_(955-64)_-_RCIN_403297_-_Royal_Collection.jpg",
+          "credit": "Jacob de Wet II",
+          "license": "Public domain",
+          "made": "1684–86",
+          "caption": "Painted in 1684–86 for Holyrood Palace, over 700 years after his death, from imagination; one of the Holyrood series, with muddled dates.",
+          "alt": "Imagined painted bust portrait of Malcolm I, from the Holyrood series"
+        }
+      ],
+      "sources": [
+        {
+          "title": "From Pictland to Alba, 789–1070 (New Edinburgh History of Scotland 2)",
+          "author": "Alex Woolf",
+          "note": "Edinburgh University Press, 2007"
+        },
+        {
+          "title": "Anglo-Saxon Chronicle",
+          "author": "Anonymous"
+        },
+        {
+          "title": "Chronicle of the Kings of Alba",
+          "author": "Anonymous",
+          "note": "10th-century king-list chronicle, surviving in a 14th-century copy"
+        },
+        {
+          "title": "The Kingship of the Scots, 842–1292: Succession and Independence",
+          "author": "A. A. M. Duncan",
+          "note": "Edinburgh University Press, 2002"
+        }
+      ],
+      "review": {
+        "status": "draft",
+        "notes": "Drafted from the listed sources; needs a human fact-check."
+      }
+    },
+    {
+      "id": "indulf",
+      "kind": "monarch",
+      "rulers": [
+        "indulf"
+      ],
+      "tagline": "The king with a Viking name who took Edinburgh",
+      "start": {
+        "date": "0954"
+      },
+      "end": {
+        "date": "0962"
+      },
+      "contestedWith": [],
+      "relationToPredecessor": "Second cousin; son of Constantine II",
+      "ageAtAccession": "Unknown",
+      "cameToPower": "Succeeded his cousin Malcolm",
+      "reignEnded": "Died; how is disputed",
+      "previously": "Malcolm I is killed. The crown swings to Constantine II's son.",
+      "paragraphs": [
+        "Indulf's name is a Gaelic form of the Norse Hildulf. That may hint at Viking friends or family, a reminder of how tangled the north was. The big news of his reign fits in one line of the chronicle: the fortress of Eden was abandoned and left to the Scots. That's Edinburgh, taken from the English of Northumbria and never given back.",
+        "Viking fleets raided his coasts. What happened to him in 962 is a mess. Later sources say he was killed fighting Norsemen near Cullen. Another says he died in the same house as his father, the monastery at St Andrews. Either way, the crown now passed to Dub, son of Malcolm I."
+      ],
+      "claims": [
+        {
+          "text": "Edinburgh fell to the Scots during Indulf's reign.",
+          "status": "confirmed",
+          "note": "The Chronicle of the Kings of Alba says 'oppidum Eden' was evacuated and left to the Scots in his time."
+        },
+        {
+          "text": "He died fighting Vikings at the Bauds of Cullen.",
+          "status": "legend",
+          "note": "The battle shows up in late medieval writers. Earlier sources give no such battle."
+        },
+        {
+          "text": "He retired to St Andrews as a monk, like his father.",
+          "status": "disputed",
+          "note": "This comes from the Prophecy of Berchán, a cryptic later poem."
+        }
+      ],
+      "hook": "Indulf is gone. Dub, son of Malcolm I, is king. But Indulf's son Cuilén thinks the crown should be his, and he's ready to fight for it.",
+      "images": [
+        {
+          "file": "File:Indulf, King of Scotland.jpg",
+          "url": "https://upload.wikimedia.org/wikipedia/commons/d/dc/Indulf%2C_King_of_Scotland.jpg",
+          "page": "https://commons.wikimedia.org/wiki/File:Indulf,_King_of_Scotland.jpg",
+          "credit": "Alexander Bannerman",
+          "license": "Public domain",
+          "made": "After 1686",
+          "caption": "An engraving based on the imagined Holyrood portraits, made centuries after Indulf's death.",
+          "alt": "Engraved bust portrait of a king"
+        }
+      ],
+      "sources": [
+        {
+          "title": "From Pictland to Alba, 789–1070 (New Edinburgh History of Scotland 2)",
+          "author": "Alex Woolf",
+          "note": "Edinburgh University Press, 2007"
+        },
+        {
+          "title": "Chronicle of the Kings of Alba",
+          "author": "Anonymous",
+          "note": "10th-century king-list chronicle, surviving in a 14th-century copy"
+        },
+        {
+          "title": "Kings of Celtic Scotland",
+          "author": "Benjamin T. Hudson",
+          "note": "Greenwood Press, 1994"
+        }
+      ],
+      "review": {
+        "status": "draft",
+        "notes": "Drafted from the listed sources; needs a human fact-check."
+      }
+    },
+    {
+      "id": "dub",
+      "kind": "monarch",
+      "rulers": [
+        "dub"
+      ],
+      "tagline": "Murdered king whose story ended up in Macbeth",
+      "start": {
+        "date": "0962"
+      },
+      "end": {
+        "date": "0967"
+      },
+      "contestedWith": [],
+      "relationToPredecessor": "Son of Malcolm I",
+      "ageAtAccession": "Unknown",
+      "cameToPower": "Succeeded his cousin Indulf",
+      "reignEnded": "Killed by his own people",
+      "previously": "Indulf dies. Malcolm I's son Dub is king.",
+      "paragraphs": [
+        "Dub's reign was one long feud with his cousin Cuilén, Indulf's son. The two branches of the royal family no longer wanted to take turns. They met in battle at Duncrub in Strathearn. Dub won. The abbot of Dunkeld and the mormaer of Atholl were among the dead.",
+        "It didn't save him. In 967, say the Irish annals, Dub was killed by the Scots themselves, and Cuilén took the crown. Later writers set the killing at Forres and dressed it up with wonders, including the sun refusing to shine until his hidden body was found. That tale had a long afterlife on the London stage."
+      ],
+      "claims": [
+        {
+          "text": "Shakespeare borrowed details of Duncan's murder in Macbeth from the killing of King Duff.",
+          "status": "confirmed",
+          "note": "Holinshed's Chronicles tells how Donwald and his wife murder King Duff in their castle. Shakespeare used it for Macbeth and his lady."
+        },
+        {
+          "text": "The sun did not shine until his body was found under a bridge at Kinloss.",
+          "status": "legend",
+          "note": "Later chroniclers like Fordun and Boece tell this. There was a solar eclipse around then, which may have fed the story."
+        },
+        {
+          "text": "The clan MacDuff descends from him.",
+          "status": "disputed",
+          "note": "Later genealogies claim it, and the Earls of Fife may have been his kin, but the link isn't proven."
+        }
+      ],
+      "hook": "Dub is dead and Cuilén has the crown he fought for. He'll find that grabbing a throne is easier than keeping your neighbours sweet.",
+      "images": [
+        {
+          "file": "File:Dub, King of Scotland d. 967, r. 962-967.jpg",
+          "url": "https://upload.wikimedia.org/wikipedia/commons/e/e3/Dub%2C_King_of_Scotland_d._967%2C_r._962-967.jpg",
+          "page": "https://commons.wikimedia.org/wiki/File:Dub,_King_of_Scotland_d._967,_r._962-967.jpg",
+          "credit": "J. Taylor",
+          "license": "Public domain",
+          "made": "Date unknown",
+          "caption": "A print in the National Galleries of Scotland, made many centuries after Dub's death from imagination.",
+          "alt": "Portrait of a king imagined long after his lifetime"
+        }
+      ],
+      "sources": [
+        {
+          "title": "From Pictland to Alba, 789–1070 (New Edinburgh History of Scotland 2)",
+          "author": "Alex Woolf",
+          "note": "Edinburgh University Press, 2007"
+        },
+        {
+          "title": "Annals of Ulster",
+          "author": "Anonymous (Irish monastic annals)"
+        },
+        {
+          "title": "Chronicle of the Kings of Alba",
+          "author": "Anonymous",
+          "note": "10th-century king-list chronicle, surviving in a 14th-century copy"
+        },
+        {
+          "title": "Chronicles of England, Scotland and Ireland",
+          "author": "Raphael Holinshed",
+          "note": "1577; the King Duff story"
+        }
+      ],
+      "review": {
+        "status": "draft",
+        "notes": "Drafted from the listed sources; needs a human fact-check."
+      }
+    },
+    {
+      "id": "cuilen",
+      "kind": "monarch",
+      "rulers": [
+        "cuilen"
+      ],
+      "tagline": "He took the crown, then made an enemy of Strathclyde",
+      "start": {
+        "date": "0967"
+      },
+      "end": {
+        "date": "0971"
+      },
+      "contestedWith": [],
+      "relationToPredecessor": "Son of Indulf; Dub's rival",
+      "ageAtAccession": "Unknown",
+      "cameToPower": "Overthrew Dub",
+      "reignEnded": "Burned to death by Britons",
+      "previously": "Dub is killed by his own people. His rival Cuilén takes the crown.",
+      "paragraphs": [
+        "Cuilén got the throne he'd fought for, and four years on it. We know very little about them. The trouble came from the south-west, where the Britons of Strathclyde still had their own king.",
+        "In 971 Cuilén and his brother Eochaid were killed by the Britons, burned in a house at a place the chronicle calls Ybandonia, perhaps Abington in Clydesdale. The killer was Rhydderch, son of the Strathclyde king. Later writers explain why: Cuilén had carried off Rhydderch's daughter. The crown jumped back across the family, to Dub's brother Kenneth."
+      ],
+      "claims": [
+        {
+          "text": "Cuilén was killed by the Britons in a burning house.",
+          "status": "confirmed",
+          "note": "Recorded in the Chronicle of the Kings of Alba and the Irish annals."
+        },
+        {
+          "text": "It was revenge for the rape or abduction of a Strathclyde princess.",
+          "status": "disputed",
+          "note": "The detail comes from later sources and may be a story added to explain the killing."
+        }
+      ],
+      "hook": "Cuilén is dead. Kenneth, Dub's brother, is king. He has scores to settle and a bigger plan: keep the crown in his own line.",
+      "images": [
+        {
+          "file": "File:Jacob Jacobsz de Wet II (Haarlem 1641-2 - Amsterdam 1697) - Culenus, King of Scotland (978-82) - RCIN 403295 - Royal Collection.jpg",
+          "url": "https://upload.wikimedia.org/wikipedia/commons/f/f7/Jacob_Jacobsz_de_Wet_II_%28Haarlem_1641-2_-_Amsterdam_1697%29_-_Culenus%2C_King_of_Scotland_%28978-82%29_-_RCIN_403295_-_Royal_Collection.jpg",
+          "page": "https://commons.wikimedia.org/wiki/File:Jacob_Jacobsz_de_Wet_II_(Haarlem_1641-2_-_Amsterdam_1697)_-_Culenus,_King_of_Scotland_(978-82)_-_RCIN_403295_-_Royal_Collection.jpg",
+          "credit": "Jacob de Wet II",
+          "license": "Public domain",
+          "made": "1684–86",
+          "caption": "Painted in 1684–86 for Holyrood Palace, about 700 years after his death, from imagination; labelled Culenus, with muddled dates.",
+          "alt": "Imagined painted bust portrait of Cuilén, from the Holyrood series"
+        }
+      ],
+      "sources": [
+        {
+          "title": "From Pictland to Alba, 789–1070 (New Edinburgh History of Scotland 2)",
+          "author": "Alex Woolf",
+          "note": "Edinburgh University Press, 2007"
+        },
+        {
+          "title": "Chronicle of the Kings of Alba",
+          "author": "Anonymous",
+          "note": "10th-century king-list chronicle, surviving in a 14th-century copy"
+        },
+        {
+          "title": "Annals of Ulster",
+          "author": "Anonymous (Irish monastic annals)"
+        }
+      ],
+      "review": {
+        "status": "draft",
+        "notes": "Drafted from the listed sources; needs a human fact-check."
+      }
+    },
+    {
+      "id": "kenneth-ii",
+      "kind": "monarch",
+      "rulers": [
+        "kenneth-ii"
+      ],
+      "tagline": "Twenty-four years of raids, ending in a deadly trap",
+      "start": {
+        "date": "0971"
+      },
+      "end": {
+        "date": "0995"
+      },
+      "contestedWith": [],
+      "relationToPredecessor": "Brother of Dub",
+      "ageAtAccession": "Unknown",
+      "cameToPower": "Took over after Cuilén's death",
+      "reignEnded": "Murdered at Fettercairn",
+      "previously": "Cuilén is burned to death by the Britons of Strathclyde.",
+      "paragraphs": [
+        "Kenneth, son of Malcolm I, started his reign by raiding Strathclyde, then turned south and raided England. He fortified the fords of the Forth. In 973 he went to Chester to meet the English king Edgar, along with other northern kings. In 977 he killed Olaf, son of Indulf, wiping out a rival from the other branch of the family.",
+        "He gave the town of Brechin to the Church. He seems to have wanted his own son to succeed him, cutting out his cousins. In 995 he was killed by treachery at Fettercairn. The crown went to Cuilén's son Constantine."
+      ],
+      "claims": [
+        {
+          "text": "Fenella killed him with a crossbow hidden in a statue.",
+          "status": "legend",
+          "note": "Fordun and later writers tell of Fenella avenging her son with a booby-trapped statue. The annals only say he was killed by deceit."
+        },
+        {
+          "text": "Kenneth rowed King Edgar on the River Dee at Chester.",
+          "status": "legend",
+          "note": "The rowing scene is in later English chroniclers. The Anglo-Saxon Chronicle only says six kings met Edgar."
+        },
+        {
+          "text": "Edgar gave Lothian to Kenneth.",
+          "status": "disputed",
+          "note": "Roger of Wendover says so, writing in the 13th century. Many historians doubt it."
+        }
+      ],
+      "hook": "Kenneth is dead, killed by treachery. Cuilén's son Constantine takes the crown. Old feuds are coming back to bite.",
+      "images": [
+        {
+          "file": "File:Jacob Jacobsz de Wet II (Haarlem 1641-2 - Amsterdam 1697) - Kenneth III, King of Scotland (982-1005) - RCIN 403298 - Royal Collection.jpg",
+          "url": "https://upload.wikimedia.org/wikipedia/commons/0/08/Jacob_Jacobsz_de_Wet_II_%28Haarlem_1641-2_-_Amsterdam_1697%29_-_Kenneth_III%2C_King_of_Scotland_%28982-1005%29_-_RCIN_403298_-_Royal_Collection.jpg",
+          "page": "https://commons.wikimedia.org/wiki/File:Jacob_Jacobsz_de_Wet_II_(Haarlem_1641-2_-_Amsterdam_1697)_-_Kenneth_III,_King_of_Scotland_(982-1005)_-_RCIN_403298_-_Royal_Collection.jpg",
+          "credit": "Jacob de Wet II",
+          "license": "Public domain",
+          "made": "1684–86",
+          "caption": "Painted in 1684–86 for Holyrood Palace, nearly 700 years after his death, from imagination; labelled Kenneth III in the old Holyrood numbering, which counts a legendary extra Kenneth.",
+          "alt": "Imagined painted bust portrait of Kenneth II, from the Holyrood series"
+        }
+      ],
+      "sources": [
+        {
+          "title": "From Pictland to Alba, 789–1070 (New Edinburgh History of Scotland 2)",
+          "author": "Alex Woolf",
+          "note": "Edinburgh University Press, 2007"
+        },
+        {
+          "title": "Annals of Ulster",
+          "author": "Anonymous (Irish monastic annals)"
+        },
+        {
+          "title": "Chronica Gentis Scotorum",
+          "author": "John of Fordun",
+          "note": "Late 14th century"
+        },
+        {
+          "title": "The Kingship of the Scots, 842–1292: Succession and Independence",
+          "author": "A. A. M. Duncan",
+          "note": "Edinburgh University Press, 2002"
+        }
+      ],
+      "review": {
+        "status": "draft",
+        "notes": "Drafted from the listed sources; needs a human fact-check."
+      }
+    },
+    {
+      "id": "constantine-iii",
+      "kind": "monarch",
+      "rulers": [
+        "constantine-iii"
+      ],
+      "tagline": "A two-year king in a family at war with itself",
+      "start": {
+        "date": "0995"
+      },
+      "end": {
+        "date": "0997"
+      },
+      "contestedWith": [],
+      "relationToPredecessor": "Son of King Cuilén; distant cousin",
+      "ageAtAccession": "Unknown",
+      "cameToPower": "Took his turn after Kenneth II's murder",
+      "reignEnded": "Killed at Rathinveramon, 997",
+      "previously": "Kenneth II is dead, murdered at Fettercairn by his own subjects.",
+      "paragraphs": [
+        "Scotland had an odd way of choosing kings. The crown didn't go from father to son. It bounced between rival branches of Kenneth MacAlpin's family, and each branch waited for its turn, usually over somebody's body. Constantine was the son of King Cuilén, who had been killed by the Britons of Strathclyde in 971. When Kenneth II was murdered in 995, Cuilén's branch stepped up and Constantine was king.",
+        "What he did with the job, nobody wrote down. The chroniclers give him a line or two and move on. What they do record is the ending. In 997 he was killed at Rathinveramon, where the River Almond runs into the Tay near Perth, in a clash with a rival from another branch of the royal kin. Cuilén's line never held the throne again. That left two branches to slug it out: Dub's family and Kenneth II's."
+      ],
+      "claims": [
+        {
+          "text": "A royal kinsman called Kenneth killed him in battle.",
+          "status": "disputed",
+          "note": "The king-lists, written later, name his killer as a Kenneth, but the versions disagree about which one; many historians suspect Kenneth III or his son."
+        }
+      ],
+      "hook": "Constantine is dead. The crown passes to Kenneth, son of the long-dead King Dub. But Kenneth II's son Malcolm is a grown man now, and he wants his family's turn.",
+      "images": [
+        {
+          "file": "File:Constantine IV (Alba).jpg",
+          "url": "https://upload.wikimedia.org/wikipedia/commons/2/2d/Constantine_IV_%28Alba%29.jpg",
+          "page": "https://commons.wikimedia.org/wiki/File:Constantine_IV_(Alba).jpg",
+          "credit": "Jacob de Wet II",
+          "license": "Public domain",
+          "made": "c. 1684–86",
+          "caption": "An engraving after the imagined Holyrood portrait, labelled Constantine IV in the old numbering; made centuries after his death.",
+          "alt": "Engraved oval bust portrait of a bearded king, with a Latin inscription below"
+        }
+      ],
+      "sources": [
+        {
+          "title": "From Pictland to Alba, 789–1070 (New Edinburgh History of Scotland)",
+          "author": "Alex Woolf",
+          "note": "Edinburgh University Press, 2007"
+        },
+        {
+          "title": "The Kingship of the Scots, 842–1292: Succession and Independence",
+          "author": "A. A. M. Duncan",
+          "note": "Edinburgh University Press, 2002"
+        },
+        {
+          "title": "Early Sources of Scottish History, A.D. 500 to 1286",
+          "author": "Alan Orr Anderson (ed. and trans.)",
+          "note": "1922; translations of the annals, king-lists and sagas"
+        },
+        {
+          "title": "Annals of Ulster",
+          "author": "Irish monastic annalists"
+        }
+      ],
+      "review": {
+        "status": "draft",
+        "notes": "Drafted from the listed sources; needs a human fact-check."
+      }
+    },
+    {
+      "id": "kenneth-iii",
+      "kind": "monarch",
+      "rulers": [
+        "kenneth-iii"
+      ],
+      "tagline": "Dub's son finally gets his turn, and loses it",
+      "start": {
+        "date": "0997"
+      },
+      "end": {
+        "date": "1005-03-25"
+      },
+      "contestedWith": [],
+      "relationToPredecessor": "Son of King Dub; distant cousin",
+      "ageAtAccession": "Unknown",
+      "cameToPower": "Took the crown after Constantine fell",
+      "reignEnded": "Killed in battle at Monzievaird",
+      "previously": "Constantine III is dead, killed in a clash at Rathinveramon.",
+      "paragraphs": [
+        "Kenneth's father was King Dub, who lost the throne and then his life in the feud with Cuilén's family back in the 960s. Three decades later, with Cuilén's son dead near Perth, Dub's boy finally got the prize. He held it for eight years. The chroniclers recorded almost nothing about his reign, which in this era usually means nobody important managed to kill him for a while.",
+        "The threat was family, as always. Malcolm, son of Kenneth II, had been waiting for his branch's turn, and he was done waiting. On 25 March 1005 the two sides met at Monzievaird in Strathearn. The Irish annals called it a battle between the men of Alba themselves. Kenneth was killed and Malcolm took the throne. This time the winner had no intention of ever handing it back to the cousins."
+      ],
+      "claims": [
+        {
+          "text": "His son Giric ruled alongside him and died with him at Monzievaird.",
+          "status": "disputed",
+          "note": "Some king-lists and the verse Prophecy of Berchán point this way, but the main Irish annal only mentions Kenneth."
+        },
+        {
+          "text": "Macbeth's wife Gruoch, the real Lady Macbeth, was his granddaughter.",
+          "status": "disputed",
+          "note": "Gruoch's father Boite was a son of a King Kenneth. Most historians think Kenneth III, but Kenneth II can't be ruled out."
+        },
+        {
+          "text": "Monzievaird was a civil war battle among the Scots.",
+          "status": "confirmed",
+          "note": "The Annals of Ulster for 1005 describe it as a battle between the men of Alba themselves, in which their king fell."
+        }
+      ],
+      "hook": "Malcolm II has the crown he killed for, and he'll keep it for nearly thirty years. The problem is what comes after. He has daughters, but no sons.",
+      "images": [
+        {
+          "file": "File:Jacob Jacobsz de Wet II (Haarlem 1641-2 - Amsterdam 1697) - Grimus, King of Scotland (996-1004) - RCIN 403305 - Royal Collection.jpg",
+          "url": "https://upload.wikimedia.org/wikipedia/commons/e/e0/Jacob_Jacobsz_de_Wet_II_%28Haarlem_1641-2_-_Amsterdam_1697%29_-_Grimus%2C_King_of_Scotland_%28996-1004%29_-_RCIN_403305_-_Royal_Collection.jpg",
+          "page": "https://commons.wikimedia.org/wiki/File:Jacob_Jacobsz_de_Wet_II_(Haarlem_1641-2_-_Amsterdam_1697)_-_Grimus,_King_of_Scotland_(996-1004)_-_RCIN_403305_-_Royal_Collection.jpg",
+          "credit": "Jacob de Wet II",
+          "license": "Public domain",
+          "made": "c. 1684–86",
+          "caption": "Kenneth III appears in the Holyrood series under his old chronicle name, Grimus. Painted in the 1680s for Holyroodhouse, centuries after his death, purely from imagination.",
+          "alt": "Bust-length painted portrait of a king from the Holyrood series of Scottish monarchs"
+        }
+      ],
+      "sources": [
+        {
+          "title": "From Pictland to Alba, 789–1070 (New Edinburgh History of Scotland)",
+          "author": "Alex Woolf",
+          "note": "Edinburgh University Press, 2007"
+        },
+        {
+          "title": "The Kingship of the Scots, 842–1292: Succession and Independence",
+          "author": "A. A. M. Duncan",
+          "note": "Edinburgh University Press, 2002"
+        },
+        {
+          "title": "Kings of Celtic Scotland",
+          "author": "Benjamin T. Hudson",
+          "note": "Greenwood Press, 1994"
+        },
+        {
+          "title": "Annals of Ulster",
+          "author": "Irish monastic annalists"
+        }
+      ],
+      "review": {
+        "status": "draft",
+        "notes": "Drafted from the listed sources; needs a human fact-check."
+      }
+    },
+    {
+      "id": "malcolm-ii",
+      "kind": "monarch",
+      "rulers": [
+        "malcolm-ii"
+      ],
+      "tagline": "The king who rewrote the rules for his grandson",
+      "start": {
+        "date": "1005-03-25"
+      },
+      "end": {
+        "date": "1034-11-25"
+      },
+      "contestedWith": [],
+      "relationToPredecessor": "Son of Kenneth II; a rival cousin",
+      "ageAtAccession": "About 50",
+      "cameToPower": "Killed Kenneth III at Monzievaird",
+      "reignEnded": "Died at Glamis",
+      "previously": "Kenneth III is dead, killed by Malcolm at Monzievaird.",
+      "paragraphs": [
+        "Malcolm got off to a rough start. In 1006 he marched south and besieged Durham, and the Northumbrians gave his army a bloody beating. He came back in 1018 and got it right. At Carham on the Tweed, with Owen the Bald, king of Strathclyde, fighting beside him, he crushed the Northumbrians. The rich lowland country of Lothian was now firmly in Scottish hands.",
+        "Around 1031 Cnut, the Danish king of England, came north. Malcolm met him and submitted, along with a northern lord named Macbeth. It cost him little. His real worry was at home. He had no sons, and the old custom said the crown should now swing to another branch of the family. Malcolm wasn't having it. In 1033 the annals note that he killed a male heir of the rival line descended from a King Kenneth.",
+        "He died at Glamis on 25 November 1034. An Irish chronicler mourned him as the honour of the whole west of Europe. His plan worked. The crown went to his daughter Bethóc's son, Duncan, and a new dynasty began. The cousins who had been elbowed aside were not going to forget it."
+      ],
+      "claims": [
+        {
+          "text": "After the 1006 defeat, the heads of dead Scots were put on stakes around Durham.",
+          "status": "disputed",
+          "note": "Told in a short Durham tract written decades later; no contemporary account mentions it."
+        },
+        {
+          "text": "Carham won Lothian for Scotland.",
+          "status": "disputed",
+          "note": "The battle is real, but some historians think Lothian was already mostly Scottish and Carham just sealed it."
+        },
+        {
+          "text": "Malcolm was murdered at Glamis.",
+          "status": "disputed",
+          "note": "The Irish annals simply say he died. The murder story turns up in Scottish chronicles written centuries later."
+        }
+      ],
+      "hook": "Duncan is king: son of a powerful churchman and a princess. Up in Moray, a cousin with a royal claim of his own is watching closely. His name is Macbeth.",
+      "images": [
+        {
+          "file": "File:Malcolm II of Scotland (Holyrood).jpg",
+          "url": "https://upload.wikimedia.org/wikipedia/commons/a/aa/Malcolm_II_of_Scotland_%28Holyrood%29.jpg",
+          "page": "https://commons.wikimedia.org/wiki/File:Malcolm_II_of_Scotland_(Holyrood).jpg",
+          "credit": "Jacob de Wet II",
+          "license": "Public domain",
+          "made": "c. 1684–86",
+          "caption": "Jacob de Wet's imagined Malcolm II. Painted in the 1680s for Holyroodhouse, centuries after his death, purely from imagination.",
+          "alt": "Painted oval portrait of a king in profile facing right, wearing a beige jacket over red and a jewelled neck piece"
+        }
+      ],
+      "sources": [
+        {
+          "title": "From Pictland to Alba, 789–1070 (New Edinburgh History of Scotland)",
+          "author": "Alex Woolf",
+          "note": "Edinburgh University Press, 2007"
+        },
+        {
+          "title": "The Kingship of the Scots, 842–1292: Succession and Independence",
+          "author": "A. A. M. Duncan",
+          "note": "Edinburgh University Press, 2002"
+        },
+        {
+          "title": "Annals of Tigernach",
+          "author": "Irish monastic annalists"
+        },
+        {
+          "title": "Malcolm II (d. 1034)",
+          "note": "Oxford Dictionary of National Biography"
+        }
+      ],
+      "review": {
+        "status": "draft",
+        "notes": "Drafted from the listed sources; needs a human fact-check."
+      }
+    },
+    {
+      "id": "duncan-i",
+      "kind": "monarch",
+      "rulers": [
+        "duncan-i"
+      ],
+      "tagline": "The young king who picked the wrong fights",
+      "start": {
+        "date": "1034-11-25"
+      },
+      "end": {
+        "date": "1040-08-14"
+      },
+      "contestedWith": [],
+      "relationToPredecessor": "Grandson of Malcolm II",
+      "ageAtAccession": "About 33",
+      "cameToPower": "Set up as heir by his grandfather",
+      "reignEnded": "Killed by Macbeth near Elgin",
+      "previously": "Malcolm II is dead at Glamis. His grandson Duncan inherits.",
+      "paragraphs": [
+        "Forget the gentle old man in Shakespeare's play. The real Duncan was only about 33 when he became king. His father Crínán was the lay abbot of Dunkeld, a wealthy churchman with a wife and family. His mother Bethóc was Malcolm II's daughter. That was his whole claim, and plenty of people in the old royal lines thought it was thin.",
+        "Duncan needed to prove himself, and he went about it badly. In 1039 he led an army south to besiege Durham. It was a disaster: his cavalry fled and many of his foot soldiers were killed. Then he marched north into Moray, the homeland of Macbeth. On 14 August 1040 Duncan was killed at Bothnagowan, near Elgin, fighting Macbeth's men. His two young sons, Malcolm and Donald, were hurried away to safety."
+      ],
+      "claims": [
+        {
+          "text": "Macbeth murdered Duncan in his sleep while he was a guest.",
+          "status": "legend",
+          "note": "That's Shakespeare, working from Holinshed. Early sources say Duncan was killed in a fight in Moray."
+        },
+        {
+          "text": "An Irish chronicle says he was killed by his own people 'at an immature age'.",
+          "status": "confirmed",
+          "note": "The Annals of Tigernach say so; it probably means he died young, a long way from Shakespeare's grey-bearded king."
+        },
+        {
+          "text": "His siege of Durham ended in a rout.",
+          "status": "confirmed",
+          "note": "Durham writer Symeon describes the failed siege and heavy Scottish losses."
+        }
+      ],
+      "hook": "Macbeth is king now. Duncan's boys are refugees, and the elder, Malcolm, has seventeen years to grow up, find friends in England and plan his revenge.",
+      "images": [
+        {
+          "file": "File:Jacob Jacobsz de Wet II (Haarlem 1641-2 - Amsterdam 1697) - Duncan I, King of Scotland (1034-40) - RCIN 403308 - Royal Collection.jpg",
+          "url": "https://upload.wikimedia.org/wikipedia/commons/f/f5/Jacob_Jacobsz_de_Wet_II_%28Haarlem_1641-2_-_Amsterdam_1697%29_-_Duncan_I%2C_King_of_Scotland_%281034-40%29_-_RCIN_403308_-_Royal_Collection.jpg",
+          "page": "https://commons.wikimedia.org/wiki/File:Jacob_Jacobsz_de_Wet_II_(Haarlem_1641-2_-_Amsterdam_1697)_-_Duncan_I,_King_of_Scotland_(1034-40)_-_RCIN_403308_-_Royal_Collection.jpg",
+          "credit": "Jacob de Wet II",
+          "license": "Public domain",
+          "made": "c. 1684–86",
+          "caption": "Jacob de Wet's imagined Duncan I. Painted in the 1680s for Holyroodhouse, centuries after his death, purely from imagination.",
+          "alt": "Bust-length painted portrait of a king from the Holyrood series of Scottish monarchs"
+        }
+      ],
+      "sources": [
+        {
+          "title": "From Pictland to Alba, 789–1070 (New Edinburgh History of Scotland)",
+          "author": "Alex Woolf",
+          "note": "Edinburgh University Press, 2007"
+        },
+        {
+          "title": "The Kingship of the Scots, 842–1292: Succession and Independence",
+          "author": "A. A. M. Duncan",
+          "note": "Edinburgh University Press, 2002"
+        },
+        {
+          "title": "Annals of Tigernach",
+          "author": "Irish monastic annalists"
+        },
+        {
+          "title": "Duncan I (d. 1040)",
+          "note": "Oxford Dictionary of National Biography"
+        }
+      ],
+      "review": {
+        "status": "draft",
+        "notes": "Drafted from the listed sources; needs a human fact-check."
+      }
+    },
+    {
+      "id": "macbeth",
+      "kind": "monarch",
+      "rulers": [
+        "macbeth"
+      ],
+      "tagline": "Shakespeare's villain was a pretty decent king",
+      "start": {
+        "date": "1040-08-14"
+      },
+      "end": {
+        "date": "1057-08-15"
+      },
+      "contestedWith": [],
+      "relationToPredecessor": "Mormaer of Moray; killed Duncan",
+      "ageAtAccession": "About 35",
+      "cameToPower": "Killed Duncan in battle",
+      "reignEnded": "Killed at Lumphanan",
+      "previously": "Duncan I is dead, killed by Macbeth's men near Elgin.",
+      "paragraphs": [
+        "Macbeth was the son of Findláech, ruler of Moray, a big and half-independent lordship in the north. He married Gruoch, a woman with royal blood of her own, who brought a young son, Lulach, from her first marriage. After he beat Duncan in 1040 he ruled for seventeen years. That was a long, steady run for an eleventh-century Scottish king, and the early sources speak well of him.",
+        "In 1050 he went to Rome on pilgrimage. Marianus Scotus, an Irish monk living in Germany at the time, wrote that Macbeth scattered money to the poor there like seed. A king doesn't leave his country for months unless he is sure it will still be his when he gets back. It was. He even took in Norman knights who had been thrown out of England.",
+        "The danger came from the south. In 1054 Earl Siward of Northumbria invaded and won a bloody battle, but Macbeth survived it and kept his throne. Three years later Duncan's son Malcolm came for him. On 15 August 1057 Macbeth was killed at Lumphanan in Aberdeenshire."
+      ],
+      "claims": [
+        {
+          "text": "Three witches foretold that Macbeth would be king.",
+          "status": "legend",
+          "note": "First appears as a dream in Andrew of Wyntoun's chronicle around 1420, then grew in Holinshed and Shakespeare."
+        },
+        {
+          "text": "Lady Macbeth drove her husband to murder.",
+          "status": "legend",
+          "note": "Gruoch was real, but nothing is known of her character. Shakespeare's scheming wife is fiction."
+        },
+        {
+          "text": "In Rome he scattered money to the poor like seed.",
+          "status": "confirmed",
+          "note": "Recorded by Marianus Scotus, who was alive at the time and had no reason to flatter him."
+        }
+      ],
+      "hook": "Macbeth is dead, but Moray isn't beaten. His followers carry his stepson Lulach to Scone and crown him king. Malcolm will have to do it all over again.",
+      "images": [
+        {
+          "file": "File:Macbeth of Scotland (Holyrood).jpg",
+          "url": "https://upload.wikimedia.org/wikipedia/commons/e/e2/Macbeth_of_Scotland_%28Holyrood%29.jpg",
+          "page": "https://commons.wikimedia.org/wiki/File:Macbeth_of_Scotland_(Holyrood).jpg",
+          "credit": "Jacob de Wet II",
+          "license": "Public domain",
+          "made": "c. 1684–86",
+          "caption": "Jacob de Wet's imagined Macbeth. Painted in the 1680s for Holyroodhouse, centuries after his death, purely from imagination.",
+          "alt": "Painted oval portrait of a bearded king with a long moustache, facing the viewer and wearing armour"
+        }
+      ],
+      "sources": [
+        {
+          "title": "From Pictland to Alba, 789–1070 (New Edinburgh History of Scotland)",
+          "author": "Alex Woolf",
+          "note": "Edinburgh University Press, 2007"
+        },
+        {
+          "title": "Macbeth: Man and Myth",
+          "author": "Nick Aitchison",
+          "note": "Sutton, 1999"
+        },
+        {
+          "title": "Chronicon",
+          "author": "Marianus Scotus",
+          "note": "The Rome pilgrimage"
+        },
+        {
+          "title": "Macbeth (d. 1057)",
+          "note": "Oxford Dictionary of National Biography"
+        }
+      ],
+      "review": {
+        "status": "draft",
+        "notes": "Drafted from the listed sources; needs a human fact-check."
+      }
+    },
+    {
+      "id": "lulach",
+      "kind": "monarch",
+      "rulers": [
+        "lulach"
+      ],
+      "tagline": "Seven months on the throne and a cruel nickname",
+      "start": {
+        "date": "1057-08-15"
+      },
+      "end": {
+        "date": "1058-03-17"
+      },
+      "contestedWith": [],
+      "relationToPredecessor": "Stepson of Macbeth",
+      "ageAtAccession": "About 25",
+      "cameToPower": "Crowned at Scone by Macbeth's men",
+      "reignEnded": "Killed by Malcolm's men at Essie",
+      "previously": "Macbeth is dead, cut down by Malcolm's army at Lumphanan.",
+      "paragraphs": [
+        "Lulach was Gruoch's son by her first husband, Gilla Comgáin, a mormaer of Moray who was burned to death along with fifty of his men in 1032. Macbeth married the widow and raised the boy. When Macbeth fell at Lumphanan, his supporters refused to give up. They took Lulach to Scone, the old crowning place of the kings, and made him king.",
+        "It lasted a little over seven months. Malcolm kept up the pressure, and on 17 March 1058 his men caught Lulach at Essie in Strathbogie and killed him. Lulach's family didn't vanish, though. His son Máel Snechtai went on ruling Moray, and his descendants would cause trouble for Malcolm's line for generations."
+      ],
+      "claims": [
+        {
+          "text": "He was called 'the Simple' or 'the Fool' because he was weak-minded.",
+          "status": "disputed",
+          "note": "The nickname comes from later king-lists. Nobody knows what earned it, and it may be the winners' spin."
+        },
+        {
+          "text": "Malcolm got him by trickery, not in open battle.",
+          "status": "confirmed",
+          "note": "The Scottish king-lists say he was killed by treachery, though they give no details."
+        }
+      ],
+      "hook": "Lulach is dead, and Malcolm sits on his father's throne at last. He'll rule for thirty-five years, marry a future saint and invade England five times.",
+      "images": [
+        {
+          "file": "File:King Lulach of Scotland.png",
+          "url": "https://upload.wikimedia.org/wikipedia/commons/b/b4/King_Lulach_of_Scotland.png",
+          "page": "https://commons.wikimedia.org/wiki/File:King_Lulach_of_Scotland.png",
+          "credit": "Brobra694 (photograph)",
+          "license": "CC0",
+          "made": "19th century",
+          "caption": "Lulach as shown on a 19th-century frieze photographed at Edinburgh Castle, made some 800 years after his death.",
+          "alt": "Detail of a 19th-century frieze showing the figure of King Lulach"
+        }
+      ],
+      "sources": [
+        {
+          "title": "From Pictland to Alba, 789–1070 (New Edinburgh History of Scotland)",
+          "author": "Alex Woolf",
+          "note": "Edinburgh University Press, 2007"
+        },
+        {
+          "title": "The Kingship of the Scots, 842–1292: Succession and Independence",
+          "author": "A. A. M. Duncan",
+          "note": "Edinburgh University Press, 2002"
+        },
+        {
+          "title": "Annals of Ulster",
+          "author": "Irish monastic annalists"
+        },
+        {
+          "title": "Early Sources of Scottish History, A.D. 500 to 1286",
+          "author": "Alan Orr Anderson (ed. and trans.)",
+          "note": "1922; translations of the annals, king-lists and sagas"
+        }
+      ],
+      "review": {
+        "status": "draft",
+        "notes": "Drafted from the listed sources; needs a human fact-check."
+      }
+    },
+    {
+      "id": "malcolm-iii",
+      "kind": "monarch",
+      "rulers": [
+        "malcolm-iii"
+      ],
+      "tagline": "Big Chief, a saint for a wife, and five invasions",
+      "start": {
+        "date": "1058-03-17"
+      },
+      "end": {
+        "date": "1093-11-13"
+      },
+      "contestedWith": [],
+      "relationToPredecessor": "Son of Duncan I",
+      "ageAtAccession": "About 27",
+      "cameToPower": "Killed Macbeth, then Lulach",
+      "reignEnded": "Ambushed near Alnwick",
+      "previously": "Lulach is dead, caught by Malcolm's men at Essie.",
+      "paragraphs": [
+        "His nickname, Canmore, comes from the Gaelic Ceann Mór, 'big head', which most likely meant 'great chief'. He had spent his youth in exile while Macbeth ruled, so he knew the English world well. His first wife, Ingibiorg, came from the powerful Orkney family, and their sons included Duncan.",
+        "Around 1070 he married again. Margaret was an English princess, sister of Edgar Ætheling, the heir pushed aside by the Normans in 1066. She was devout, clever and determined, and she reshaped the court and the church. Malcolm couldn't read, but her biographer says he would kiss her prayer books and have them bound in gold and jewels. They had six sons and two daughters.",
+        "Malcolm raided England again and again. In 1072 William the Conqueror marched north, and at Abernethy Malcolm submitted and handed over his son Duncan as a hostage. In November 1093 he invaded once more and was ambushed and killed near Alnwick. His eldest son by Margaret, Edward, was mortally wounded. Three days later Margaret, already ill, died at Edinburgh Castle."
+      ],
+      "claims": [
+        {
+          "text": "Malcolm kissed the books he couldn't read and had them covered in gold.",
+          "status": "confirmed",
+          "note": "Told by Turgot, Margaret's chaplain and biographer, who knew the couple personally."
+        },
+        {
+          "text": "He was killed by Morel of Bamburgh, a man linked to him by spiritual kinship.",
+          "status": "confirmed",
+          "note": "The Anglo-Saxon Chronicle names Morel as the killer and calls him Malcolm's 'gossip'."
+        },
+        {
+          "text": "Malcolm created Scotland's first earls on the day he was crowned.",
+          "status": "legend",
+          "note": "It's how Shakespeare ends Macbeth, borrowing from Holinshed. Earls appear in Scotland much later."
+        }
+      ],
+      "hook": "Malcolm and Margaret are dead within a week of each other. Their sons are young, Duncan is in England, and Malcolm's brother Donald Bán has had enough of English ways.",
+      "images": [
+        {
+          "file": "File:Malcolm III of Scotland (Holyrood).jpg",
+          "url": "https://upload.wikimedia.org/wikipedia/commons/d/dc/Malcolm_III_of_Scotland_%28Holyrood%29.jpg",
+          "page": "https://commons.wikimedia.org/wiki/File:Malcolm_III_of_Scotland_(Holyrood).jpg",
+          "credit": "Jacob de Wet II",
+          "license": "Public domain",
+          "made": "c. 1684–86",
+          "caption": "Jacob de Wet's imagined Malcolm Canmore. Painted in the 1680s for Holyroodhouse, centuries after his death, purely from imagination.",
+          "alt": "Painted oval portrait of a king in profile facing left, in a beige ermine-edged coat, jewelled maroon cap and gold neck piece"
+        }
+      ],
+      "sources": [
+        {
+          "title": "Domination and Lordship: Scotland, 1070–1230 (New Edinburgh History of Scotland)",
+          "author": "Richard Oram",
+          "note": "Edinburgh University Press, 2011"
+        },
+        {
+          "title": "The Kingship of the Scots, 842–1292: Succession and Independence",
+          "author": "A. A. M. Duncan",
+          "note": "Edinburgh University Press, 2002"
+        },
+        {
+          "title": "Life of St Margaret, Queen of Scotland",
+          "author": "Turgot"
+        },
+        {
+          "title": "The Anglo-Saxon Chronicle"
+        }
+      ],
+      "review": {
+        "status": "draft",
+        "notes": "Drafted from the listed sources; needs a human fact-check."
+      }
+    },
+    {
+      "id": "donald-iii",
+      "kind": "monarch",
+      "rulers": [
+        "donald-iii"
+      ],
+      "tagline": "The old king who seized the throne twice",
+      "start": {
+        "date": "1093-11-13"
+      },
+      "end": {
+        "date": "1097"
+      },
+      "contestedWith": [
+        "duncan-ii"
+      ],
+      "relationToPredecessor": "Brother of Malcolm III",
+      "ageAtAccession": "About 60",
+      "cameToPower": "Seized the throne after Malcolm died",
+      "reignEnded": "Overthrown by Edgar, then blinded",
+      "previously": "Malcolm III falls at Alnwick. Margaret dies days later.",
+      "paragraphs": [
+        "Donald Bán, 'the Fair', was Duncan I's younger son. He was a boy when his father was killed in 1040 and spent years in exile. Now he was about sixty, and he became the champion of everyone who resented the English courtiers Margaret had brought in. The Anglo-Saxon Chronicle says that when the Scots made him king, he drove out all the English who had been with Malcolm.",
+        "The first time didn't last. In May 1094 his nephew Duncan, Malcolm's son by his first wife, arrived with an army lent by William Rufus and pushed him out. Donald waited. That November his allies killed Duncan, and Donald was back, this time with Malcolm and Margaret's son Edmund on his side.",
+        "In 1097 another of Margaret's sons, Edgar, came north with English backing and won. Donald was captured and blinded, a brutal way of making sure a man could never rule again. He died a prisoner at Rescobie in Angus in 1099."
+      ],
+      "claims": [
+        {
+          "text": "He expelled the English from Scotland.",
+          "status": "confirmed",
+          "note": "The Anglo-Saxon Chronicle for 1093 says he drove out all the English who had been with King Malcolm."
+        },
+        {
+          "text": "Edmund helped kill Duncan II in return for half the kingdom.",
+          "status": "disputed",
+          "note": "William of Malmesbury says so, writing about thirty years later; no Scottish source confirms the deal."
+        },
+        {
+          "text": "He was the last king of Scots buried on Iona.",
+          "status": "disputed",
+          "note": "A tradition from later medieval writers says his body was moved there from Dunkeld. It can't be checked."
+        }
+      ],
+      "hook": "But in 1094 Donald faces a rival. Malcolm's eldest son Duncan has spent twenty years in England as a hostage, and he's coming home with Norman knights.",
+      "images": [
+        {
+          "file": "File:唐纳德三世.jpg",
+          "url": "https://upload.wikimedia.org/wikipedia/commons/b/b3/%E5%94%90%E7%BA%B3%E5%BE%B7%E4%B8%89%E4%B8%96.jpg",
+          "page": "https://commons.wikimedia.org/wiki/File:%E5%94%90%E7%BA%B3%E5%BE%B7%E4%B8%89%E4%B8%96.jpg",
+          "credit": "After Jacob de Wet II",
+          "license": "CC BY-SA 3.0",
+          "made": "1767",
+          "caption": "An engraving published in 1767, copied from de Wet's Holyrood portrait, itself painted from imagination centuries after Donald's death.",
+          "alt": "Engraved bust portrait of Donald Bán from William Guthrie's General History of Scotland, after the Holyrood painting"
+        }
+      ],
+      "sources": [
+        {
+          "title": "Domination and Lordship: Scotland, 1070–1230 (New Edinburgh History of Scotland)",
+          "author": "Richard Oram",
+          "note": "Edinburgh University Press, 2011"
+        },
+        {
+          "title": "The Kingship of the Scots, 842–1292: Succession and Independence",
+          "author": "A. A. M. Duncan",
+          "note": "Edinburgh University Press, 2002"
+        },
+        {
+          "title": "The Anglo-Saxon Chronicle"
+        },
+        {
+          "title": "Gesta Regum Anglorum",
+          "author": "William of Malmesbury"
+        }
+      ],
+      "review": {
+        "status": "draft",
+        "notes": "Drafted from the listed sources; needs a human fact-check."
+      }
+    },
+    {
+      "id": "duncan-ii",
+      "kind": "monarch",
+      "rulers": [
+        "duncan-ii"
+      ],
+      "tagline": "Twenty years a hostage, six months a king",
+      "start": {
+        "date": "1094-05"
+      },
+      "end": {
+        "date": "1094-11-12"
+      },
+      "contestedWith": [
+        "donald-iii"
+      ],
+      "relationToPredecessor": "Nephew; son of Malcolm III",
+      "ageAtAccession": "About 34",
+      "cameToPower": "Invaded with William II's backing",
+      "reignEnded": "Killed at Mondynes",
+      "previously": "Donald Bán is king and has thrown the English out.",
+      "paragraphs": [
+        "Duncan was Malcolm III's son by his first wife, Ingibiorg. In 1072, as a boy, he was handed to William the Conqueror at Abernethy as a guarantee of his father's good behaviour. He grew up among Normans, and after the Conqueror died in 1087 he was set free and knighted. By the 1090s he looked, talked and fought like a Norman lord.",
+        "When his father died, Duncan asked William Rufus for help and got an army of English and French knights. He drove out his uncle Donald in May 1094 and became king. But the Scots loathed his foreign troops, rose against them, and forced him to send most of them home. That left him exposed.",
+        "On 12 November 1094 he was killed at Mondynes by Máel Petair, mormaer of the Mearns, on behalf of Donald and Edmund. His son, William fitz Duncan, grew into a great lord, and William's descendants, the MacWilliams, would fight for the throne for more than a century."
+      ],
+      "claims": [
+        {
+          "text": "His grant to Durham is the oldest surviving original Scottish royal charter.",
+          "status": "confirmed",
+          "note": "The document survives at Durham, still with its seal, and historians treat it as the earliest of its kind."
+        },
+        {
+          "text": "His own brothers had him killed.",
+          "status": "disputed",
+          "note": "The Annals of Ulster say his brothers Donald and Edmund killed him, but Donald was his uncle, so the annalist slipped up somewhere."
+        }
+      ],
+      "hook": "Duncan is dead. Donald Bán is king again, with young Edmund beside him. But Edmund's brother Edgar is in England, and William Rufus is ready to back another attempt.",
+      "images": [
+        {
+          "file": "File:Duncan II of Scotland (Holyrood).jpg",
+          "url": "https://upload.wikimedia.org/wikipedia/commons/e/e9/Duncan_II_of_Scotland_%28Holyrood%29.jpg",
+          "page": "https://commons.wikimedia.org/wiki/File:Duncan_II_of_Scotland_(Holyrood).jpg",
+          "credit": "Jacob de Wet II",
+          "license": "Public domain",
+          "made": "c. 1684–86",
+          "caption": "Jacob de Wet's imagined Duncan II. Painted in the 1680s for Holyroodhouse, centuries after his death, purely from imagination.",
+          "alt": "Painted oval portrait of a long-nosed king with wavy hair, in a dark jacket with grey sleeves and gold clasps"
+        }
+      ],
+      "sources": [
+        {
+          "title": "Domination and Lordship: Scotland, 1070–1230 (New Edinburgh History of Scotland)",
+          "author": "Richard Oram",
+          "note": "Edinburgh University Press, 2011"
+        },
+        {
+          "title": "The Kingship of the Scots, 842–1292: Succession and Independence",
+          "author": "A. A. M. Duncan",
+          "note": "Edinburgh University Press, 2002"
+        },
+        {
+          "title": "Annals of Ulster",
+          "author": "Irish monastic annalists"
+        },
+        {
+          "title": "Duncan II (d. 1094)",
+          "note": "Oxford Dictionary of National Biography"
+        }
+      ],
+      "review": {
+        "status": "draft",
+        "notes": "Drafted from the listed sources; needs a human fact-check."
+      }
+    },
+    {
+      "id": "edgar",
+      "kind": "monarch",
+      "rulers": [
+        "edgar"
+      ],
+      "tagline": "The quiet king who gave the islands away",
+      "start": {
+        "date": "1097"
+      },
+      "end": {
+        "date": "1107-01-08"
+      },
+      "contestedWith": [],
+      "relationToPredecessor": "Nephew; son of Malcolm III",
+      "ageAtAccession": "About 23",
+      "cameToPower": "Won the crown with an English army",
+      "reignEnded": "Died at Edinburgh, unmarried",
+      "previously": "Donald Bán and Edmund hold Scotland after killing Duncan II.",
+      "paragraphs": [
+        "Edgar was the fourth son of Malcolm and Margaret, and the first of them to wear the crown. In 1097 his uncle Edgar Ætheling led an English army north for him with William Rufus's blessing. Donald Bán was beaten, captured and blinded. Edmund ended his days as a monk in England. Edgar owed his throne to England, and he never forgot it.",
+        "He ruled quietly, which is how he earned his nickname. When Magnus Barefoot, king of Norway, came raiding down the west coast in 1098, Edgar didn't fight. He made a deal that handed Magnus the Western Isles. In 1105 he sent a camel to the king of Munster in Ireland, which the Irish annalists thought worth recording.",
+        "Edgar never married and had no children. When he died at Edinburgh on 8 January 1107, his brother Alexander became king, while the youngest brother, David, was left a large slice of southern Scotland."
+      ],
+      "claims": [
+        {
+          "text": "Magnus had himself dragged across the neck of Kintyre in a boat so it would count as an island.",
+          "status": "legend",
+          "note": "Told in Norse sagas written over a century later. It's a great story with no early support."
+        },
+        {
+          "text": "Edgar sent the king of Munster a camel.",
+          "status": "confirmed",
+          "note": "The Annals of Inisfallen for 1105 record the gift, describing it as an animal of remarkable size."
+        }
+      ],
+      "hook": "Edgar is gone without an heir. Alexander takes the crown, but their youngest brother David has been promised southern Scotland, and Alexander doesn't like it one bit.",
+      "images": [
+        {
+          "file": "File:Edgar of Scotland (Holyrood).jpg",
+          "url": "https://upload.wikimedia.org/wikipedia/commons/5/54/Edgar_of_Scotland_%28Holyrood%29.jpg",
+          "page": "https://commons.wikimedia.org/wiki/File:Edgar_of_Scotland_(Holyrood).jpg",
+          "credit": "Jacob de Wet II",
+          "license": "Public domain",
+          "made": "c. 1684–86",
+          "caption": "Jacob de Wet's imagined King Edgar. Painted in the 1680s for Holyroodhouse, centuries after his death, purely from imagination.",
+          "alt": "Painted oval portrait of a moustached king in profile facing right, wearing a brown jacket with a jewelled shirt"
+        }
+      ],
+      "sources": [
+        {
+          "title": "Domination and Lordship: Scotland, 1070–1230 (New Edinburgh History of Scotland)",
+          "author": "Richard Oram",
+          "note": "Edinburgh University Press, 2011"
+        },
+        {
+          "title": "The Kingship of the Scots, 842–1292: Succession and Independence",
+          "author": "A. A. M. Duncan",
+          "note": "Edinburgh University Press, 2002"
+        },
+        {
+          "title": "The Anglo-Saxon Chronicle"
+        },
+        {
+          "title": "Edgar (d. 1107)",
+          "note": "Oxford Dictionary of National Biography"
+        }
+      ],
+      "review": {
+        "status": "draft",
+        "notes": "Drafted from the listed sources; needs a human fact-check."
+      }
+    },
+    {
+      "id": "alexander-i",
+      "kind": "monarch",
+      "rulers": [
+        "alexander-i"
+      ],
+      "tagline": "The Fierce: a king who fought for his bishops",
+      "start": {
+        "date": "1107-01-08"
+      },
+      "end": {
+        "date": "1124-04-23"
+      },
+      "contestedWith": [],
+      "relationToPredecessor": "Brother of Edgar",
+      "ageAtAccession": "About 29",
+      "cameToPower": "Succeeded his childless brother",
+      "reignEnded": "Died at Stirling",
+      "previously": "Edgar dies at Edinburgh, unmarried and childless.",
+      "paragraphs": [
+        "Alexander was the fifth son of Malcolm and Margaret. He married Sybilla, an illegitimate daughter of Henry I of England, and in 1114 he marched with Henry against the Welsh. Being the English king's son-in-law kept the border quiet. It also meant swallowing his brother David's takeover of a big part of the south, because Henry backed David too.",
+        "Like his mother, he cared deeply about the church. He brought Augustinian canons to Scone and fought hard to keep the Scottish church free of the archbishops of York and Canterbury. He went through bishops of St Andrews fast: first Turgot, his mother's biographer, then Eadmer, a monk of Canterbury who quarrelled with him and went home.",
+        "Sybilla died in 1122 without children. When Alexander died at Stirling on 23 April 1124 he left an illegitimate son, Malcolm, but no lawful heir. The crown went to David, the youngest brother, who had been running the south all along."
+      ],
+      "claims": [
+        {
+          "text": "Stranded by a storm on Inchcolm, he vowed to found a monastery for the hermit who fed him.",
+          "status": "legend",
+          "note": "Told by Walter Bower, abbot of Inchcolm, in the 1440s, three centuries later. Good for his abbey's reputation."
+        },
+        {
+          "text": "His nickname 'the Fierce' was given in his lifetime.",
+          "status": "disputed",
+          "note": "It's first found in Andrew of Wyntoun's verse chronicle around 1420, about 300 years after his death."
+        }
+      ],
+      "hook": "Alexander is dead, and David finally has the whole kingdom. Raised at the Norman court of England, he's about to change Scotland for ever.",
+      "images": [
+        {
+          "file": "File:Alexander I of Scotland (Holyrood).jpg",
+          "url": "https://upload.wikimedia.org/wikipedia/commons/8/8d/Alexander_I_of_Scotland_%28Holyrood%29.jpg",
+          "page": "https://commons.wikimedia.org/wiki/File:Alexander_I_of_Scotland_(Holyrood).jpg",
+          "credit": "Jacob de Wet II",
+          "license": "Public domain",
+          "made": "c. 1684–86",
+          "caption": "Jacob de Wet's imagined Alexander I. Painted in the 1680s for Holyroodhouse, centuries after his death, purely from imagination.",
+          "alt": "Painted oval portrait of a king in profile facing right, in armour with a red collar and a maroon cap with a pearl jewel"
+        }
+      ],
+      "sources": [
+        {
+          "title": "Domination and Lordship: Scotland, 1070–1230 (New Edinburgh History of Scotland)",
+          "author": "Richard Oram",
+          "note": "Edinburgh University Press, 2011"
+        },
+        {
+          "title": "The Kingship of the Scots, 842–1292: Succession and Independence",
+          "author": "A. A. M. Duncan",
+          "note": "Edinburgh University Press, 2002"
+        },
+        {
+          "title": "Historia Novorum in Anglia",
+          "author": "Eadmer",
+          "note": "His time as bishop-elect of St Andrews"
+        },
+        {
+          "title": "Alexander I (d. 1124)",
+          "note": "Oxford Dictionary of National Biography"
+        }
+      ],
+      "review": {
+        "status": "draft",
+        "notes": "Drafted from the listed sources; needs a human fact-check."
+      }
+    },
+    {
+      "id": "david-i",
+      "kind": "monarch",
+      "rulers": [
+        "david-i"
+      ],
+      "tagline": "The youngest son who built a kingdom of towns and coins",
+      "start": {
+        "date": "1124-04-23"
+      },
+      "end": {
+        "date": "1153-05-24"
+      },
+      "contestedWith": [],
+      "relationToPredecessor": "Younger brother of Alexander I",
+      "ageAtAccession": "About 40",
+      "cameToPower": "Brother died with no lawful son",
+      "reignEnded": "Died at Carlisle",
+      "previously": "Alexander the Fierce dies at Stirling with no lawful son.",
+      "paragraphs": [
+        "David was the youngest son of Malcolm III and St Margaret, and he grew up a long way from home. After his father's death he was raised at the English court, where his sister was queen. He married a rich English widow and became Earl of Huntingdon. When he took the Scottish throne at about 40, he brought Norman friends with him: Bruces, Stewarts and others whose families would matter for centuries.",
+        "He changed Scotland fast. He struck the first Scottish coins, chartered towns like Berwick, Perth and Stirling, and handed land to monks who built Kelso, Melrose and Holyrood. In 1138 he invaded England during its civil war and lost the Battle of the Standard near Northallerton. Still, he ended up holding Cumbria and Northumberland anyway, through deals rather than battles.",
+        "His only son Henry died in 1152. David was old and knew time was short, so he sent Henry's eldest boy Malcolm, aged 11, on a tour of the kingdom so the nobles could see their next king. A year later David died at Carlisle, in the slice of northern England he had made his own."
+      ],
+      "claims": [
+        {
+          "text": "David founded Holyrood after a stag charged him and a glowing cross appeared between its antlers.",
+          "status": "legend",
+          "note": "The abbey is real and David founded it in 1128. The stag story is only written down centuries later."
+        },
+        {
+          "text": "A later king called David “a sore saint for the crown” for giving so much royal land to the Church.",
+          "status": "legend",
+          "note": "Sixteenth-century writers pinned the quip on King James I. No one recorded it at the time he supposedly said it."
+        },
+        {
+          "text": "At the Battle of the Standard the English fought around a ship's mast hung with the banners of saints.",
+          "status": "confirmed",
+          "note": "Described by Ailred of Rievaulx and Richard of Hexham, both writing within a few years of the battle."
+        }
+      ],
+      "hook": "The old king is dead and his heir is a boy of 12. In the west, the sea lord Somerled is restless. In England, a tough young king called Henry II wants the north back.",
+      "images": [
+        {
+          "file": "File:King David I from the Kelso Abbey charter.jpg",
+          "url": "https://upload.wikimedia.org/wikipedia/commons/7/78/King_David_I_from_the_Kelso_Abbey_charter.jpg",
+          "page": "https://commons.wikimedia.org/wiki/File:King_David_I_from_the_Kelso_Abbey_charter.jpg",
+          "credit": "Unknown artist, Kelso Abbey charter",
+          "license": "Public domain",
+          "made": "1159",
+          "caption": "From the decorated initial of a royal charter to Kelso Abbey, made six years after David's death.",
+          "alt": "Detail of a medieval illuminated initial letter showing King David I"
+        }
+      ],
+      "sources": [
+        {
+          "title": "David I: The King Who Made Scotland",
+          "author": "Richard Oram",
+          "note": "Tempus, 2004"
+        },
+        {
+          "title": "Kingship and Unity: Scotland 1000–1306",
+          "author": "G. W. S. Barrow",
+          "note": "1981"
+        },
+        {
+          "title": "Relatio de Standardo",
+          "author": "Ailred of Rievaulx",
+          "note": "Battle of the Standard"
+        },
+        {
+          "title": "David I (c. 1085–1153)",
+          "note": "Oxford Dictionary of National Biography"
+        }
+      ],
+      "review": {
+        "status": "draft",
+        "notes": "Drafted from the listed sources; needs a human fact-check."
+      }
+    },
+    {
+      "id": "malcolm-iv",
+      "kind": "monarch",
+      "rulers": [
+        "malcolm-iv"
+      ],
+      "tagline": "A boy king who swore off women and gave away the north",
+      "start": {
+        "date": "1153-05-24"
+      },
+      "end": {
+        "date": "1165-12-09"
+      },
+      "contestedWith": [],
+      "relationToPredecessor": "Grandson of David I",
+      "ageAtAccession": "12",
+      "cameToPower": "Named heir by his grandfather",
+      "reignEnded": "Died young at Jedburgh",
+      "previously": "David I dies at Carlisle. His heir is a grandson aged 12.",
+      "paragraphs": [
+        "Malcolm was 12 when his grandfather died, and trouble came straight away. Somerled, the powerful lord of Argyll and the Isles, backed a rival family against the boy. Then in 1157 Henry II of England told Malcolm to hand back Cumbria and Northumberland. Malcolm met him at Chester and gave them up. Henry was simply too strong.",
+        "Malcolm badly wanted to be a knight, and in 1159 he went to fight for Henry in France to earn it. His own earls were furious that their king was serving an English one, and in 1160 some of them besieged him at Perth. He made peace, then marched on Galloway and crushed it. In 1164 Somerled sailed up the Clyde with a big fleet and was killed near Renfrew.",
+        "Malcolm never married. Chroniclers said he had sworn to stay chaste, which is how he earned his nickname, the Maiden. He was often ill, and he died at Jedburgh at 24. His brother William took the crown."
+      ],
+      "claims": [
+        {
+          "text": "Malcolm took a vow to stay a virgin for life.",
+          "status": "disputed",
+          "note": "Chroniclers like William of Newburgh praised his chastity. Whether it was a real vow or just a pious way of explaining a sickly young man is unclear."
+        },
+        {
+          "text": "Somerled was murdered in his own camp, not killed in battle.",
+          "status": "disputed",
+          "note": "Some sources say he fell fighting near Renfrew, others that he was stabbed by a traitor. The accounts can't be squared."
+        },
+        {
+          "text": "Malcolm suffered from Paget's disease, a bone disorder.",
+          "status": "disputed",
+          "note": "A modern guess based on chroniclers' mentions of pains in his head and feet. No remains have been tested."
+        }
+      ],
+      "hook": "Malcolm leaves no son. The crown goes to his younger brother William, who wants one thing more than anything: Northumberland back from the English.",
+      "images": [
+        {
+          "file": "File:Malcolm IV, King of Scotland, charter to Kelso Abbey, 1159, initial (crop).jpg",
+          "url": "https://upload.wikimedia.org/wikipedia/commons/f/f4/Malcolm_IV%2C_King_of_Scotland%2C_charter_to_Kelso_Abbey%2C_1159%2C_initial_%28crop%29.jpg",
+          "page": "https://commons.wikimedia.org/wiki/File:Malcolm_IV,_King_of_Scotland,_charter_to_Kelso_Abbey,_1159,_initial_(crop).jpg",
+          "credit": "Unknown artist",
+          "license": "Public domain",
+          "made": "1159",
+          "caption": "Drawn in Malcolm's own reign, on the charter he gave to Kelso Abbey in 1159.",
+          "alt": "Detail of the decorated initial letter on Malcolm IV's charter to Kelso Abbey"
+        }
+      ],
+      "sources": [
+        {
+          "title": "Regesta Regum Scottorum, vol. 1: The Acts of Malcolm IV",
+          "author": "G. W. S. Barrow (ed.)",
+          "note": "Edinburgh University Press, 1960"
+        },
+        {
+          "title": "Historia Rerum Anglicarum",
+          "author": "William of Newburgh"
+        },
+        {
+          "title": "Malcolm IV (1141–1165)",
+          "note": "Oxford Dictionary of National Biography"
+        }
+      ],
+      "review": {
+        "status": "draft",
+        "notes": "Drafted from the listed sources; needs a human fact-check."
+      }
+    },
+    {
+      "id": "william-i",
+      "kind": "monarch",
+      "rulers": [
+        "william-i"
+      ],
+      "tagline": "He charged into the fog and came out a prisoner",
+      "start": {
+        "date": "1165-12-09"
+      },
+      "end": {
+        "date": "1214-12-04"
+      },
+      "contestedWith": [],
+      "relationToPredecessor": "Younger brother of Malcolm IV",
+      "ageAtAccession": "About 22",
+      "cameToPower": "Brother died childless",
+      "reignEnded": "Died of old age at Stirling",
+      "previously": "Malcolm the Maiden dies at 24, unmarried and childless.",
+      "paragraphs": [
+        "William had lost Northumberland once, when his brother gave it up, and he never got over it. In 1173 Henry II's own sons rebelled against their father, and William joined in to win back the north. On 13 July 1174, near Alnwick, he and a small band of knights blundered into English riders in the mist. His horse went down on top of him and he was taken.",
+        "He was carted off to Henry with his feet tied under his horse, then shipped to Falaise in Normandy. To get out, he signed the Treaty of Falaise: Scotland became an English fief, with English soldiers in its main castles. It took fifteen years and a lucky break to undo. In 1189 Richard the Lionheart needed cash for his crusade and sold Scotland its freedom back for 10,000 merks.",
+        "William spent the rest of his long reign fighting rebels in the north and founded Arbroath Abbey in honour of Thomas Becket. He married late and only had his son Alexander when he was in his mid-fifties. He reigned nearly 49 years, a record no medieval Scottish king beat."
+      ],
+      "claims": [
+        {
+          "text": "William was captured on the very day Henry II did penance at Becket's tomb.",
+          "status": "confirmed",
+          "note": "English chroniclers made a lot of it. Henry did penance at Canterbury on 12 July 1174, and William was taken the next day, which they saw as a miracle."
+        },
+        {
+          "text": "He was called “the Lion” in his own lifetime.",
+          "status": "disputed",
+          "note": "The nickname is first found in later chronicles. It may come from the lion on the royal arms, which isn't securely seen until his son's seal."
+        },
+        {
+          "text": "He founded Arbroath for Becket because the two had known each other at Henry's court.",
+          "status": "disputed",
+          "note": "They may well have met, but no early source says that was his reason. Becket was the most popular saint in Europe at the time."
+        }
+      ],
+      "hook": "The Lion is dead and his son Alexander is 16. Over the border, England is sliding into civil war against King John, and the new king of Scots smells a chance.",
+      "images": [
+        {
+          "file": "File:William I of Scotland (Holyrood).jpg",
+          "url": "https://upload.wikimedia.org/wikipedia/commons/2/21/William_I_of_Scotland_%28Holyrood%29.jpg",
+          "page": "https://commons.wikimedia.org/wiki/File:William_I_of_Scotland_(Holyrood).jpg",
+          "credit": "Jacob de Wet II",
+          "license": "Public domain",
+          "made": "1684–86",
+          "caption": "Imagined by Jacob de Wet for Holyrood Palace about 470 years after William died. Nobody knows what he looked like.",
+          "alt": "Painted bust of a king in profile inside an oval, wearing armour with a yellow cloak over one shoulder"
+        }
+      ],
+      "sources": [
+        {
+          "title": "William the Lion, 1143–1214: Kingship and Culture",
+          "author": "D. D. R. Owen",
+          "note": "Tuckwell Press, 1997"
+        },
+        {
+          "title": "Chronicle of the War between the English and the Scots",
+          "author": "Jordan Fantosme",
+          "note": "Capture at Alnwick"
+        },
+        {
+          "title": "Scotland: The Making of the Kingdom",
+          "author": "A. A. M. Duncan",
+          "note": "Edinburgh History of Scotland, 1975"
+        },
+        {
+          "title": "William I (c. 1142–1214)",
+          "note": "Oxford Dictionary of National Biography"
+        }
+      ],
+      "review": {
+        "status": "draft",
+        "notes": "Drafted from the listed sources; needs a human fact-check."
+      }
+    },
+    {
+      "id": "alexander-ii",
+      "kind": "monarch",
+      "rulers": [
+        "alexander-ii"
+      ],
+      "tagline": "The king who drew the border we still use today",
+      "start": {
+        "date": "1214-12-04"
+      },
+      "end": {
+        "date": "1249-07-08"
+      },
+      "contestedWith": [],
+      "relationToPredecessor": "Son of William I",
+      "ageAtAccession": "16",
+      "cameToPower": "Succeeded his father",
+      "reignEnded": "Fever on the island of Kerrera",
+      "previously": "William the Lion dies at Stirling after nearly 49 years as king.",
+      "paragraphs": [
+        "Alexander was barely king when he jumped into England's civil war. He sided with the barons against King John, and in 1216 he marched all the way to Dover to meet the French prince the rebels wanted as their king. John took revenge by burning Berwick and raiding the Lowlands. When John died, the war fizzled out and Alexander came home with nothing.",
+        "He did better with peace. In 1221 he married Joan, the young English king's sister. In 1237 he signed the Treaty of York and finally gave up Scotland's claim to Northumberland, Cumberland and Westmorland. The line it set, from the Tweed to the Solway, is pretty much the border today. At home he was ruthless, crushing revolts in Argyll, Galloway and Moray.",
+        "Joan died childless, so he married a French noblewoman, Marie de Coucy, and their son Alexander was born in 1241. In 1249 he sailed to take the Western Isles from Norway. He fell ill with fever and died on the little island of Kerrera, near Oban. His son was seven."
+      ],
+      "claims": [
+        {
+          "text": "King John swore he would “hunt the red fox-cub from his lair”, mocking Alexander's red hair.",
+          "status": "disputed",
+          "note": "The jibe comes from the English chronicler Matthew Paris, who loved a good line. Nobody else reports it."
+        },
+        {
+          "text": "Before he died, Alexander dreamed that three saints, Olaf, Magnus and Columba, told him to turn back.",
+          "status": "legend",
+          "note": "Told in the Norse saga of King Haakon, written in Norway, where the story suited Norwegian pride."
+        },
+        {
+          "text": "When a mob burned Bishop Adam of Caithness to death in 1222, Alexander had the hands and feet of many of those involved cut off.",
+          "status": "confirmed",
+          "note": "Recorded by chroniclers on both sides of the border. The numbers vary, but the punishment was notorious even then."
+        }
+      ],
+      "hook": "Alexander dies on a small island off Oban, his fleet still at anchor. His only son is seven years old. The boy's coronation at Scone can't wait.",
+      "images": [
+        {
+          "file": "File:Alexander II, King of Scotland (seal 1).png",
+          "url": "https://upload.wikimedia.org/wikipedia/commons/4/4b/Alexander_II%2C_King_of_Scotland_%28seal_1%29.png",
+          "page": "https://commons.wikimedia.org/wiki/File:Alexander_II,_King_of_Scotland_(seal_1).png",
+          "credit": "Unknown artist",
+          "license": "Public domain",
+          "made": "13th century (seal)",
+          "caption": "A drawing of one of Alexander's royal seals, published in 1905.",
+          "alt": "Drawing of the round medieval wax seal of Alexander II"
+        }
+      ],
+      "sources": [
+        {
+          "title": "The Reign of Alexander II, 1214–49",
+          "author": "Richard D. Oram (ed.)",
+          "note": "Brill, 2005"
+        },
+        {
+          "title": "Chronica Majora",
+          "author": "Matthew Paris"
+        },
+        {
+          "title": "Scotland: The Making of the Kingdom",
+          "author": "A. A. M. Duncan",
+          "note": "Edinburgh History of Scotland, 1975"
+        },
+        {
+          "title": "Hákonar saga Hákonarsonar",
+          "author": "Sturla Þórðarson"
+        }
+      ],
+      "review": {
+        "status": "draft",
+        "notes": "Drafted from the listed sources; needs a human fact-check."
+      }
+    },
+    {
+      "id": "alexander-iii",
+      "kind": "monarch",
+      "rulers": [
+        "alexander-iii"
+      ],
+      "tagline": "A golden age that ended at the bottom of a cliff",
+      "start": {
+        "date": "1249-07-08"
+      },
+      "end": {
+        "date": "1286-03-19"
+      },
+      "contestedWith": [],
+      "relationToPredecessor": "Son of Alexander II",
+      "ageAtAccession": "7",
+      "cameToPower": "Crowned at Scone days later",
+      "reignEnded": "Rode off a cliff at Kinghorn",
+      "previously": "Alexander II dies of fever on Kerrera, invading the Isles.",
+      "paragraphs": [
+        "Alexander was seven when he was made king at Scone, with a Highland poet reciting his ancestors back through the generations. At ten he was married at York to Margaret, the daughter of Henry III. For years the great families, above all the Comyns, fought over who got to run things in his name.",
+        "Grown up, he took on Norway. In 1263 King Haakon brought a great fleet to the Clyde. After a stormy skirmish at Largs, the Norwegians sailed home and Haakon died in Orkney. Three years later, in the Treaty of Perth, Norway sold the Western Isles and Man to Scotland. Trade boomed, and later Scots looked back on his reign as a golden age.",
+        "Then it all fell apart. His wife, both his sons and his daughter died within nine years. He remarried in 1285 to get a new heir. On a wild night in March 1286 he ignored warnings and rode from Edinburgh to see his young queen at Kinghorn. In the dark he lost his guides. Next morning he was found dead on the shore with a broken neck."
+      ],
+      "claims": [
+        {
+          "text": "At Queensferry the ferryman begged him not to cross, and Alexander asked if he was scared to die with his king.",
+          "status": "disputed",
+          "note": "Told by the Lanercost Chronicle, written by an English friar soon after. It's vivid but nobody else confirms it."
+        },
+        {
+          "text": "Thomas the Rhymer foretold the storm and the king's death the day before.",
+          "status": "legend",
+          "note": "The prophecy story is written down by Walter Bower about 150 years later, after the event."
+        },
+        {
+          "text": "His widow Yolande said she was pregnant, but no heir was ever born.",
+          "status": "confirmed",
+          "note": "The Guardians waited on her pregnancy in 1286. Chroniclers disagree on whether the child was stillborn or it was a trick."
+        }
+      ],
+      "hook": "Every one of Alexander's children is dead. The heir to Scotland is his granddaughter, a little girl in Norway, not yet three.",
+      "images": [
+        {
+          "file": "File:Alexander III and Ollamh Rígh.JPG",
+          "url": "https://upload.wikimedia.org/wikipedia/commons/6/6d/Alexander_III_and_Ollamh_R%C3%ADgh.JPG",
+          "page": "https://commons.wikimedia.org/wiki/File:Alexander_III_and_Ollamh_R%C3%ADgh.JPG",
+          "credit": "Unknown artist",
+          "license": "Public domain",
+          "made": "Late medieval",
+          "caption": "Alexander's king-making on Moot Hill at Scone, drawn in a manuscript long after the event.",
+          "alt": "Medieval manuscript drawing of the boy king Alexander enthroned at Scone, greeted by the royal poet of Scotland"
+        }
+      ],
+      "sources": [
+        {
+          "title": "Alexander III, 1249–1286: First Among Equals",
+          "author": "Norman H. Reid",
+          "note": "John Donald, 2019"
+        },
+        {
+          "title": "Scotland in the Reign of Alexander III, 1249–1286",
+          "author": "Norman H. Reid (ed.)",
+          "note": "John Donald, 1990"
+        },
+        {
+          "title": "Chronicle of Lanercost"
+        },
+        {
+          "title": "Scotichronicon",
+          "author": "Walter Bower"
+        }
+      ],
+      "review": {
+        "status": "draft",
+        "notes": "Drafted from the listed sources; needs a human fact-check."
+      }
+    },
+    {
+      "id": "margaret",
+      "kind": "monarch",
+      "rulers": [
+        "margaret"
+      ],
+      "tagline": "The little queen who never reached her kingdom",
+      "start": {
+        "date": "1286-03-19"
+      },
+      "end": {
+        "date": "1290-09-26"
+      },
+      "contestedWith": [],
+      "relationToPredecessor": "Granddaughter of Alexander III",
+      "ageAtAccession": "2",
+      "cameToPower": "Named heir by the Scots in 1284",
+      "reignEnded": "Died in Orkney, aged 7",
+      "previously": "Alexander III rides off a cliff in a storm. All his children are dead.",
+      "paragraphs": [
+        "Margaret was the daughter of King Eric II of Norway and Alexander III's daughter, who died giving birth to her. In 1284 the Scottish nobles swore to accept her as heir if the king had no more children. When Alexander died, she was a toddler in Bergen. Six Guardians, two bishops, two earls and two barons, ran Scotland in her name. Robert Bruce, Lord of Annandale, was already flexing his muscles in the south-west.",
+        "Edward I of England saw a golden chance. In 1290, under the Treaty of Birgham, the Scots agreed that Margaret would marry Edward's son. Scotland was supposed to stay a separate kingdom with its own laws. That autumn she finally sailed for Scotland. She fell ill on the voyage and died in Orkney, aged seven. She never set foot on the Scottish mainland and was never crowned. Her body went home to Bergen."
+      ],
+      "claims": [
+        {
+          "text": "She died of seasickness, or from eating something bad on board.",
+          "status": "disputed",
+          "note": "No source at the time says exactly what killed her. These are guesses from the fact she fell ill at sea."
+        },
+        {
+          "text": "In 1300 a woman turned up in Bergen claiming to be Margaret, alive. She was burned at the stake.",
+          "status": "confirmed",
+          "note": "The “False Margaret” is recorded in Norwegian sources. She was far too old to be the real girl."
+        },
+        {
+          "text": "Margaret died at the bay now called St Margaret's Hope in Orkney.",
+          "status": "legend",
+          "note": "Local tradition. No early source names the exact place."
+        }
+      ],
+      "hook": "The Maid is dead, and nobody has a clear right to the throne. A Scottish bishop writes to the most dangerous man in Britain asking him to help. Edward I is happy to oblige.",
+      "images": [
+        {
+          "file": "File:Margaret, Maid of Norway.jpg",
+          "url": "https://upload.wikimedia.org/wikipedia/commons/b/bd/Margaret%2C_Maid_of_Norway.jpg",
+          "page": "https://commons.wikimedia.org/wiki/File:Margaret,_Maid_of_Norway.jpg",
+          "credit": "Colin Smith",
+          "license": "CC BY-SA 2.0",
+          "made": "Photographed 2010",
+          "caption": "A stained-glass window in Lerwick, Shetland, made centuries after her death. No real likeness of her exists.",
+          "alt": "Stained-glass window showing Margaret, Maid of Norway"
+        }
+      ],
+      "sources": [
+        {
+          "title": "The Kingship of the Scots, 842–1292: Succession and Independence",
+          "author": "A. A. M. Duncan",
+          "note": "Edinburgh University Press, 2002"
+        },
+        {
+          "title": "Under the Hammer: Edward I and Scotland, 1286–1307",
+          "author": "Fiona Watson",
+          "note": "Tuckwell Press, 1998"
+        },
+        {
+          "title": "Margaret, the Maid of Norway (1282/3–1290)",
+          "note": "Oxford Dictionary of National Biography"
+        }
+      ],
+      "review": {
+        "status": "draft",
+        "notes": "Drafted from the listed sources; needs a human fact-check."
+      }
+    },
+    {
+      "id": "first-interregnum",
+      "kind": "interregnum",
+      "title": "The Great Cause",
+      "house": "guardians",
+      "rulers": [],
+      "tagline": "Thirteen men want the crown, and England gets to choose",
+      "start": {
+        "date": "1290-09-26"
+      },
+      "end": {
+        "date": "1292-11-17"
+      },
+      "contestedWith": [],
+      "relationToPredecessor": "Followed the Maid's death",
+      "ageAtAccession": "No monarch",
+      "cameToPower": "The royal line ran out",
+      "reignEnded": "Edward I picked John Balliol",
+      "previously": "The Maid of Norway dies in Orkney. The royal line has run out.",
+      "paragraphs": [
+        "With the Maid dead, the Guardians feared civil war, and they asked Edward I of England to help sort it out. In May 1291 he met the Scots at Norham on the Tweed and laid down his price: first, they must accept him as overlord. The claimants all agreed, and Edward took over Scotland's castles while he judged.",
+        "Thirteen men put in claims, including the King of Norway and the Count of Holland. Only two really counted, and both were descended from a younger brother of William the Lion. John Balliol came from the elder line. Robert Bruce, Lord of Annandale, was a generation closer to the old king and said Alexander II had once named him heir.",
+        "A court of 104 judges heard the case at Berwick for more than a year. On 17 November 1292 Edward gave his verdict for Balliol. The Bruces never accepted it."
+      ],
+      "claims": [
+        {
+          "text": "Alexander II had once named old Robert Bruce as his heir.",
+          "status": "disputed",
+          "note": "Bruce said so in 1291, claiming it happened before Alexander had a son. No written record of it survives."
+        },
+        {
+          "text": "The Guardians invited Edward I in to settle things.",
+          "status": "confirmed",
+          "note": "Bishop William Fraser of St Andrews wrote to Edward in October 1290 asking him to come north to keep the peace. The letter survives."
+        },
+        {
+          "text": "Edward only ever meant to use the case to take Scotland for himself.",
+          "status": "disputed",
+          "note": "Scottish chroniclers later said so. Many historians think he followed the legal process fairly but squeezed every advantage out of it."
+        }
+      ],
+      "hook": "Balliol is crowned at Scone on St Andrew's Day. A month later he kneels to Edward I at Newcastle. Edward means to collect on that promise.",
+      "images": [
+        {
+          "file": "File:Guardian of Scotland Great Seal after the death of King Alexander III.jpg",
+          "url": "https://upload.wikimedia.org/wikipedia/commons/a/a5/Guardian_of_Scotland_Great_Seal_after_the_death_of_King_Alexander_III.jpg",
+          "page": "https://commons.wikimedia.org/wiki/File:Guardian_of_Scotland_Great_Seal_after_the_death_of_King_Alexander_III.jpg",
+          "credit": "Walter de Gray Birch",
+          "license": "Public domain",
+          "made": "1905 (drawing)",
+          "caption": "The seal the Guardians used to govern Scotland after Alexander III died, as drawn for a 1905 book on Scottish seals.",
+          "alt": "Drawing of the round Great Seal used by the government of Scotland after the death of Alexander III"
+        }
+      ],
+      "sources": [
+        {
+          "title": "Edward I and the Throne of Scotland, 1290–1296",
+          "author": "E. L. G. Stones and G. G. Simpson (eds)",
+          "note": "Oxford University Press, 1978"
+        },
+        {
+          "title": "The Kingship of the Scots, 842–1292: Succession and Independence",
+          "author": "A. A. M. Duncan",
+          "note": "Edinburgh University Press, 2002"
+        },
+        {
+          "title": "Robert Bruce and the Community of the Realm of Scotland",
+          "author": "G. W. S. Barrow",
+          "note": "1965; 4th ed. 2005"
+        }
+      ],
+      "review": {
+        "status": "draft",
+        "notes": "Drafted from the listed sources; needs a human fact-check."
+      }
+    },
+    {
+      "id": "john-balliol",
+      "kind": "monarch",
+      "rulers": [
+        "john-balliol"
+      ],
+      "tagline": "The puppet king who cut his strings and lost his coat",
+      "start": {
+        "date": "1292-11-17"
+      },
+      "end": {
+        "date": "1296-07-10"
+      },
+      "contestedWith": [],
+      "relationToPredecessor": "Great-great-great-grandson of David I",
+      "ageAtAccession": "About 43",
+      "cameToPower": "Chosen by Edward I in the Great Cause",
+      "reignEnded": "Abdicated to Edward I",
+      "previously": "Edward I picks John Balliol from thirteen claimants.",
+      "paragraphs": [
+        "John was a wealthy lord with lands in England and France. His mother Dervorguilla, a Galloway princess, founded Sweetheart Abbey, and his father founded Balliol College in Oxford. As king he was humiliated from the start. Edward I let Scots appeal over John's head to English courts, and summoned John himself to Westminster to answer for his judgements.",
+        "In 1295 the Scots had had enough. A council of twelve took power, and Scotland signed an alliance with France. Edward struck hard. In March 1296 his army stormed Berwick and slaughtered its people. A month later the Scots were beaten at Dunbar. That summer John surrendered. In a public ceremony the royal arms were ripped off his coat, earning him the nickname Toom Tabard, empty coat.",
+        "Edward carried off the Stone of Scone and the Scottish records, and made the nobles swear loyalty to him. John spent three years in the Tower of London. He was then handed over to the Pope and ended his days on his family's lands in France."
+      ],
+      "claims": [
+        {
+          "text": "The Stone of Scone that Edward took was a fake, and the monks hid the real one.",
+          "status": "legend",
+          "note": "A popular story with no early evidence behind it. Most historians think Edward got the real stone."
+        },
+        {
+          "text": "The alliance John's council made with France in 1295 was the start of the “Auld Alliance”.",
+          "status": "confirmed",
+          "note": "The treaty survives. Scotland and France would keep renewing their alliance against England for centuries."
+        },
+        {
+          "text": "Thousands of townspeople were killed when Edward sacked Berwick.",
+          "status": "disputed",
+          "note": "Chroniclers give figures running into the thousands. The scale can't be checked, but the massacre was real."
+        }
+      ],
+      "hook": "Scotland has no king and an English garrison in every castle. In Lanarkshire, a tall young man from a minor family is about to kill a sheriff.",
+      "images": [
+        {
+          "file": "File:John Balliol.jpg",
+          "url": "https://upload.wikimedia.org/wikipedia/commons/b/b9/John_Balliol.jpg",
+          "page": "https://commons.wikimedia.org/wiki/File:John_Balliol.jpg",
+          "credit": "Forman Armorial",
+          "license": "Public domain",
+          "made": "1562",
+          "caption": "From an armorial made for Mary, Queen of Scots, about 250 years after John's death.",
+          "alt": "Sixteenth-century painted picture of King John of Scotland from a book of heraldry"
+        }
+      ],
+      "sources": [
+        {
+          "title": "The Balliol Dynasty, 1210–1364",
+          "author": "Amanda Beam",
+          "note": "John Donald, 2008"
+        },
+        {
+          "title": "Under the Hammer: Edward I and Scotland, 1286–1307",
+          "author": "Fiona Watson",
+          "note": "Tuckwell Press, 1998"
+        },
+        {
+          "title": "Orygynale Cronykil of Scotland",
+          "author": "Andrew of Wyntoun",
+          "note": "Source of “Toom Tabard”"
+        },
+        {
+          "title": "John (c. 1248x50–1314)",
+          "note": "Oxford Dictionary of National Biography"
+        }
+      ],
+      "review": {
+        "status": "draft",
+        "notes": "Drafted from the listed sources; needs a human fact-check."
+      }
+    },
+    {
+      "id": "second-interregnum",
+      "kind": "interregnum",
+      "title": "Wallace and the Guardians",
+      "house": "guardians",
+      "rulers": [],
+      "tagline": "A rebel with no title beats an English army at a bridge",
+      "start": {
+        "date": "1296-07-10"
+      },
+      "end": {
+        "date": "1306-03-25"
+      },
+      "contestedWith": [],
+      "relationToPredecessor": "Followed John's abdication",
+      "ageAtAccession": "No monarch",
+      "cameToPower": "Edward I conquered Scotland",
+      "reignEnded": "Bruce crowned at Scone",
+      "previously": "Balliol is stripped of his royal arms. Edward I takes over Scotland.",
+      "paragraphs": [
+        "In May 1297 William Wallace, a young man from a minor landowning family, killed the English sheriff of Lanark. Up north, Andrew Murray rose too. On 11 September 1297 they caught an English army crossing the narrow bridge at Stirling and cut it to pieces. The hated treasurer Hugh Cressingham was killed. Murray soon died of his wounds, and Wallace was named Guardian, ruling in the name of the absent King John.",
+        "Edward I came north himself. At Falkirk in July 1298 his archers shredded the Scottish spearmen, and Wallace resigned. Others took up the fight as Guardians, including Robert Bruce, Earl of Carrick, and his bitter rival John Comyn. By 1304 most nobles had made peace with Edward, and Stirling Castle fell after he pounded it with a giant siege engine called the Warwolf.",
+        "Wallace never gave in. In August 1305 he was captured near Glasgow and taken to London. He was tried in Westminster Hall and hanged, drawn and quartered at Smithfield. Six months later, Bruce made his move."
+      ],
+      "claims": [
+        {
+          "text": "After Stirling Bridge, Cressingham's skin was flayed and Wallace made a sword-belt from it.",
+          "status": "disputed",
+          "note": "English chroniclers, including the Lanercost Chronicle, say his skin was cut up and shared out. The detail about Wallace's belt may be propaganda."
+        },
+        {
+          "text": "Wallace took revenge on the sheriff of Lanark because the sheriff had killed his wife.",
+          "status": "legend",
+          "note": "Comes from Blind Harry's poem The Wallace, written about 170 years later. No record from Wallace's own time says why he killed the sheriff."
+        },
+        {
+          "text": "Wallace had an affair with Isabella of France, Edward II's queen.",
+          "status": "legend",
+          "note": "Made famous by the film Braveheart. She was a young child living in France when Wallace was fighting."
+        }
+      ],
+      "hook": "February 1306. Two rivals meet in a church in Dumfries: Robert Bruce and John Comyn. Only one of them walks out alive.",
+      "images": [
+        {
+          "file": "File:William Wallace Statue, Aberdeen.jpg",
+          "url": "https://upload.wikimedia.org/wikipedia/commons/f/f8/William_Wallace_Statue%2C_Aberdeen.jpg",
+          "page": "https://commons.wikimedia.org/wiki/File:William_Wallace_Statue,_Aberdeen.jpg",
+          "credit": "Lucas Kendall",
+          "license": "CC BY-SA 2.0",
+          "made": "Statue 1888; photo 2025",
+          "caption": "William Grant Stevenson's statue of Wallace in Aberdeen, put up in 1888. No real portrait of Wallace survives.",
+          "alt": "Large bronze statue of William Wallace standing on a stone plinth in Aberdeen"
+        }
+      ],
+      "sources": [
+        {
+          "title": "William Wallace",
+          "author": "Andrew Fisher",
+          "note": "John Donald, 1986; 2nd ed. 2002"
+        },
+        {
+          "title": "Robert Bruce and the Community of the Realm of Scotland",
+          "author": "G. W. S. Barrow",
+          "note": "1965; 4th ed. 2005"
+        },
+        {
+          "title": "Chronicle of Lanercost"
+        },
+        {
+          "title": "The Wallace",
+          "author": "Blind Harry"
+        }
+      ],
+      "review": {
+        "status": "draft",
+        "notes": "Drafted from the listed sources; needs a human fact-check."
+      }
+    },
+    {
+      "id": "robert-i",
+      "kind": "monarch",
+      "rulers": [
+        "robert-i"
+      ],
+      "tagline": "He killed a rival in church and won a kingdom",
+      "start": {
+        "date": "1306-03-25"
+      },
+      "end": {
+        "date": "1329-06-07"
+      },
+      "contestedWith": [],
+      "relationToPredecessor": "Grandson of Balliol's rival claimant",
+      "ageAtAccession": "31",
+      "cameToPower": "Seized the throne after killing Comyn",
+      "reignEnded": "Died of illness at Cardross",
+      "previously": "Wallace dies in London, and Bruce stabs his rival in a church.",
+      "paragraphs": [
+        "On 10 February 1306 Robert Bruce met John Comyn in Greyfriars church, Dumfries. They quarrelled and Bruce stabbed him by the altar, and his men finished the job. It was murder and sacrilege. Six weeks later Bruce was crowned at Scone. By summer he'd been routed at Methven and was a hunted outlaw. His wife and daughter were taken prisoner, and within a year three of his brothers had been executed.",
+        "Then his luck turned. Edward I died in July 1307, and his son Edward II was no soldier. Bruce crushed the Comyns and took back castle after castle, often by night raids and ladders. On 23 and 24 June 1314, at Bannockburn near Stirling, he smashed Edward II's far bigger army. On the first day he killed the English knight Henry de Bohun in single combat with an axe.",
+        "In 1320 his nobles sent the Pope the Declaration of Arbroath, which declared that they were fighting for freedom alone. In 1328 England finally recognised Scotland as independent. A year later Bruce died at 54. His heart went on crusade with his friend James Douglas."
+      ],
+      "claims": [
+        {
+          "text": "Hiding in a cave, Bruce watched a spider try again and again to spin its web, and took heart.",
+          "status": "legend",
+          "note": "No medieval source has it. The story became famous through Walter Scott in the 1820s."
+        },
+        {
+          "text": "Bruce's heart is buried at Melrose Abbey.",
+          "status": "confirmed",
+          "note": "Douglas carried it to Spain and was killed fighting there in 1330. The heart came home to Melrose, where a lead casket dug up in 1996 was reburied in 1998."
+        },
+        {
+          "text": "Bruce died of leprosy.",
+          "status": "disputed",
+          "note": "Some English writers said so. Studies of his skull cast haven't settled it, and other illnesses fit too."
+        }
+      ],
+      "hook": "Bruce dies with his kingdom free and his son just five years old. The boy is already married to the English king's sister. Scotland's hero has left a child to hold what he won.",
+      "images": [
+        {
+          "file": "File:Robert the Bruce statue, Bannockburn - geograph.org.uk - 1538090.jpg",
+          "url": "https://upload.wikimedia.org/wikipedia/commons/8/8d/Robert_the_Bruce_statue%2C_Bannockburn_-_geograph.org.uk_-_1538090.jpg",
+          "page": "https://commons.wikimedia.org/wiki/File:Robert_the_Bruce_statue,_Bannockburn_-_geograph.org.uk_-_1538090.jpg",
+          "credit": "Kim Traynor",
+          "license": "CC BY-SA 2.0",
+          "made": "Photo 2008",
+          "caption": "Pilkington Jackson's statue at Bannockburn shows Bruce holding the axe he used on Henry de Bohun.",
+          "alt": "Bronze statue of Robert the Bruce in armour on horseback, holding a battle-axe"
+        }
+      ],
+      "sources": [
+        {
+          "title": "Robert Bruce and the Community of the Realm of Scotland",
+          "author": "G. W. S. Barrow",
+          "note": "1965; 4th ed. 2005"
+        },
+        {
+          "title": "Robert the Bruce: King of the Scots",
+          "author": "Michael Penman",
+          "note": "Yale University Press, 2014"
+        },
+        {
+          "title": "The Bruce",
+          "author": "John Barbour",
+          "note": "Written about 1375"
+        },
+        {
+          "title": "The Declaration of Arbroath",
+          "note": "1320; National Records of Scotland"
+        }
+      ],
+      "review": {
+        "status": "draft",
+        "notes": "Drafted from the listed sources; needs a human fact-check."
+      }
+    },
+    {
+      "id": "david-ii",
+      "kind": "monarch",
+      "rulers": [
+        "david-ii"
+      ],
+      "tagline": "The boy king who spent eleven years as a prisoner",
+      "start": {
+        "date": "1329-06-07"
+      },
+      "end": {
+        "date": "1371-02-22"
+      },
+      "contestedWith": [
+        "edward-balliol"
+      ],
+      "relationToPredecessor": "Son of Robert I",
+      "ageAtAccession": "5",
+      "cameToPower": "Succeeded his father",
+      "reignEnded": "Died suddenly, with no children",
+      "previously": "Robert the Bruce dies, his kingdom free. His heir is five.",
+      "paragraphs": [
+        "David was married at four to Joan, sister of Edward III of England, and crowned at Scone at seven, the first Scottish king to be anointed with holy oil. Almost at once Edward Balliol, King John's son, invaded and grabbed the throne. With much of Scotland lost, the boy was sent to safety in France in 1334. He lived there for seven years before coming home.",
+        "In 1346, to help the French after their disaster at Crécy, David invaded England. At Neville's Cross near Durham his army was smashed. He was hit by two arrows in the face and taken prisoner. He spent eleven years in English captivity while his nephew Robert the Steward ran Scotland. In 1357 he was freed for a ransom of 100,000 merks, a sum the country struggled to pay.",
+        "Back home, David even offered to make an English prince his heir to get the debt cancelled. Parliament flatly refused. He married twice but had no children, and died suddenly in Edinburgh Castle at 46. The crown passed to the Steward."
+      ],
+      "claims": [
+        {
+          "text": "An arrowhead stayed stuck in David's face for years, until it fell out at the shrine of St Monan.",
+          "status": "legend",
+          "note": "Told by later Scottish chroniclers. David did pay for a church at St Monans, which helped the story along."
+        },
+        {
+          "text": "The man who captured him, John Copeland, lost two teeth when David punched him.",
+          "status": "disputed",
+          "note": "Told in later chronicles. A good story, but impossible to check."
+        },
+        {
+          "text": "David offered the succession to Edward III or one of his sons in return for scrapping the ransom.",
+          "status": "confirmed",
+          "note": "The proposal was put to the Scottish parliament in 1364, which rejected it."
+        }
+      ],
+      "hook": "Now rewind to August 1332. David is eight and Bruce has been dead three years. A small fleet lands in Fife, carrying King John's son Edward Balliol and a band of exiles who want their Scottish lands back.",
+      "images": [
+        {
+          "file": "File:David II, King of Scotland and Edward III, King of England (British Library MS Cotton Nero D VI, folio 66v).jpg",
+          "url": "https://upload.wikimedia.org/wikipedia/commons/9/99/David_II%2C_King_of_Scotland_and_Edward_III%2C_King_of_England_%28British_Library_MS_Cotton_Nero_D_VI%2C_folio_66v%29.jpg",
+          "page": "https://commons.wikimedia.org/wiki/File:David_II,_King_of_Scotland_and_Edward_III,_King_of_England_(British_Library_MS_Cotton_Nero_D_VI,_folio_66v).jpg",
+          "credit": "Unknown artist",
+          "license": "Public domain",
+          "made": "14th century",
+          "caption": "David II (left) with his captor Edward III of England, from an English manuscript of David's own century.",
+          "alt": "Medieval manuscript picture of two crowned kings, David II of Scotland on the left and Edward III of England on the right"
+        }
+      ],
+      "sources": [
+        {
+          "title": "David II, 1329–71",
+          "author": "Michael Penman",
+          "note": "Tuckwell Press, 2004"
+        },
+        {
+          "title": "Orygynale Cronykil of Scotland",
+          "author": "Andrew of Wyntoun"
+        },
+        {
+          "title": "Chronica Gentis Scotorum",
+          "author": "John of Fordun"
+        },
+        {
+          "title": "David II (1324–1371)",
+          "note": "Oxford Dictionary of National Biography"
+        }
+      ],
+      "review": {
+        "status": "draft",
+        "notes": "Drafted from the listed sources; needs a human fact-check."
+      }
+    },
+    {
+      "id": "edward-balliol",
+      "kind": "claimant",
+      "rulers": [
+        "edward-balliol"
+      ],
+      "tagline": "The rival king who sold his crown to England",
+      "start": {
+        "date": "1332-09-24"
+      },
+      "end": {
+        "date": "1356-01-20"
+      },
+      "contestedWith": [
+        "david-ii"
+      ],
+      "relationToPredecessor": "Son of John Balliol",
+      "ageAtAccession": "About 49",
+      "cameToPower": "Invaded and won at Dupplin Moor",
+      "reignEnded": "Sold his claim to Edward III",
+      "previously": "David II dies childless in 1371. But first, rewind to 1332.",
+      "paragraphs": [
+        "Edward was the son of Toom Tabard, the king Edward I had stripped and deposed. He grew up in exile with a grudge and a claim. In 1332, while David II was still a boy, a band of nobles who'd lost their Scottish lands to Bruce sailed north with him. At Dupplin Moor they cut the far bigger Scottish army to pieces. On 24 September Edward was crowned at Scone.",
+        "It fell apart fast. Within three months Bruce loyalists surprised him at Annan, and he fled to England on a horse with no saddle. Edward III then marched in, won at Halidon Hill in 1333, and put Balliol back. The price was a huge chunk of southern Scotland handed to England. The Scots never accepted a puppet king. By the 1340s David II was home and Balliol's support had melted away.",
+        "In January 1356 at Roxburgh he gave up his crown and claim to Edward III in exchange for a pension. He spent his last years quietly in England and died around 1364 with no children. The Balliol line was finished."
+      ],
+      "claims": [
+        {
+          "text": "Balliol escaped from Annan half-dressed on an unsaddled horse.",
+          "status": "confirmed",
+          "note": "Scottish chroniclers enjoyed telling it. The bare-horse detail comes from them, so it may be polished for laughs."
+        },
+        {
+          "text": "He handed Edward III a crown and a clod of Scottish earth to seal the deal.",
+          "status": "disputed",
+          "note": "Later accounts describe a symbolic handover of earth at Roxburgh. The formal documents survive, the theatrical details are harder to pin down."
+        },
+        {
+          "text": "Dupplin Moor was won by a few thousand men against an army several times larger.",
+          "status": "confirmed",
+          "note": "Chroniclers on both sides agree it was a lopsided win, though their troop numbers are guesses."
+        }
+      ],
+      "hook": "Back to 1371. David II is dead with no son. The crown goes to his nephew Robert the Steward, Bruce's grandson. Robert is 54, older than the king he follows, and a whole new dynasty is about to begin.",
+      "images": [
+        {
+          "file": "File:Edward Balliol.jpg",
+          "url": "https://upload.wikimedia.org/wikipedia/commons/c/c7/Edward_Balliol.jpg",
+          "page": "https://commons.wikimedia.org/wiki/File:Edward_Balliol.jpg",
+          "credit": "Unknown engraver",
+          "license": "Public domain",
+          "made": "mid 18th century",
+          "caption": "An engraving made about 400 years after his death, so the face is imagined.",
+          "alt": "Engraved portrait of Edward Balliol"
+        }
+      ],
+      "sources": [
+        {
+          "title": "The Balliol Dynasty, 1210-1364",
+          "author": "Amanda Beam",
+          "note": "John Donald, 2008"
+        },
+        {
+          "title": "Edward III and the Scots",
+          "author": "Ranald Nicholson",
+          "note": "Oxford University Press, 1965"
+        },
+        {
+          "title": "Scotichronicon",
+          "author": "Walter Bower"
+        },
+        {
+          "title": "Balliol, Edward",
+          "author": "Oxford Dictionary of National Biography"
+        }
+      ],
+      "review": {
+        "status": "draft",
+        "notes": "Drafted from the listed sources; needs a human fact-check."
+      }
+    },
+    {
+      "id": "robert-ii",
+      "kind": "monarch",
+      "rulers": [
+        "robert-ii"
+      ],
+      "tagline": "Bruce's grandson, the first Stewart king",
+      "start": {
+        "date": "1371-02-22"
+      },
+      "end": {
+        "date": "1390-04-19"
+      },
+      "contestedWith": [],
+      "relationToPredecessor": "Nephew of David II; Bruce's grandson",
+      "ageAtAccession": "54",
+      "cameToPower": "Inherited under the Bruce settlement",
+      "reignEnded": "Died at Dundonald Castle",
+      "previously": "Balliol sells out in 1356. In 1371 David II dies with no heir.",
+      "paragraphs": [
+        "Robert's father was Walter, the High Steward of Scotland. His mother was Marjorie, Robert the Bruce's daughter. That is where the name Stewart comes from: a job title turned royal house. He'd been heir to the throne on and off for decades and had run the country while David II sat in an English prison. The two men never liked each other. When David finally died, Robert was crowned at Scone in March 1371.",
+        "He was 54 and had a huge family to look after, with sons placed in earldoms all over Scotland. The border war with England simmered, and in 1388 the Scots won at Otterburn, though their leader the Earl of Douglas was killed. By then Robert had largely handed power to his sons. First his eldest, John, ran things, then John's brother Robert, Earl of Fife. The old king died at Dundonald in 1390."
+      ],
+      "claims": [
+        {
+          "text": "Robert's eldest sons were born before his first marriage was legal.",
+          "status": "confirmed",
+          "note": "The papal dispensation for his marriage to Elizabeth Mure came in 1347, after several children were born. Rival branches later used it to question their right to rule."
+        },
+        {
+          "text": "Robert abandoned David II at Neville's Cross in 1346.",
+          "status": "disputed",
+          "note": "His division left the field while the king was captured. Critics called it desertion, others see a sensible retreat from a lost battle."
+        },
+        {
+          "text": "He was a feeble old man who preferred home to war.",
+          "status": "disputed",
+          "note": "Froissart, writing for a French audience, painted him as a stay-at-home with red eyes. Modern historians see a shrewd political survivor."
+        }
+      ],
+      "hook": "Old Robert is dead. His eldest son John takes the crown, but not the name. John Balliol was a byword for failure, so the new king will call himself Robert III. It won't help.",
+      "images": [
+        {
+          "file": "File:Jacob Jacobsz de Wet II (Haarlem 1641-2 - Amsterdam 1697) - Robert II 'the Stewart', King of Scotland (1360-90) - RCIN 403362 - Royal Collection.jpg",
+          "url": "https://upload.wikimedia.org/wikipedia/commons/f/f4/Jacob_Jacobsz_de_Wet_II_%28Haarlem_1641-2_-_Amsterdam_1697%29_-_Robert_II_%27the_Stewart%27%2C_King_of_Scotland_%281360-90%29_-_RCIN_403362_-_Royal_Collection.jpg",
+          "page": "https://commons.wikimedia.org/wiki/File:Jacob_Jacobsz_de_Wet_II_(Haarlem_1641-2_-_Amsterdam_1697)_-_Robert_II_%27the_Stewart%27,_King_of_Scotland_(1360-90)_-_RCIN_403362_-_Royal_Collection.jpg",
+          "credit": "Jacob de Wet II",
+          "license": "Public domain",
+          "made": "1684–86",
+          "caption": "Painted for Holyrood Palace about 300 years after his death, from imagination.",
+          "alt": "Painted imaginary portrait of King Robert II from the Holyrood series"
+        }
+      ],
+      "sources": [
+        {
+          "title": "The Early Stewart Kings: Robert II and Robert III, 1371-1406",
+          "author": "Stephen Boardman",
+          "note": "Tuckwell Press, 1996"
+        },
+        {
+          "title": "Orygynale Cronykil of Scotland",
+          "author": "Andrew of Wyntoun"
+        },
+        {
+          "title": "Chronicles",
+          "author": "Jean Froissart",
+          "note": "His description of the king"
+        },
+        {
+          "title": "Robert II",
+          "author": "Oxford Dictionary of National Biography"
+        }
+      ],
+      "review": {
+        "status": "draft",
+        "notes": "Drafted from the listed sources; needs a human fact-check."
+      }
+    },
+    {
+      "id": "robert-iii",
+      "kind": "monarch",
+      "rulers": [
+        "robert-iii"
+      ],
+      "tagline": "The king who called himself the worst of kings",
+      "start": {
+        "date": "1390-04-19"
+      },
+      "end": {
+        "date": "1406-04-04"
+      },
+      "contestedWith": [],
+      "relationToPredecessor": "Eldest son of Robert II",
+      "ageAtAccession": "About 53",
+      "cameToPower": "Inherited from his father",
+      "reignEnded": "Died soon after his heir was captured",
+      "previously": "Old Robert II dies at Dundonald, his sons already running the show.",
+      "paragraphs": [
+        "He was born John, but John was an unlucky name for a Scottish king, so he took Robert instead. Before his reign he'd been badly hurt by a kick from a horse, and he was never strong after. Real power sat with his ambitious brother Robert, Duke of Albany. Another brother, the Wolf of Badenoch, burned Elgin Cathedral in 1390. In 1396 two clans fought a staged battle to the death on the North Inch of Perth while the king watched.",
+        "The king's heir, David, Duke of Rothesay, was a wild young man. In 1402 Albany had him locked up in Falkland Palace, where he died. Desperate to keep his last son James safe, Robert sent him off to France in 1406. English sailors captured the ship off Flamborough Head and James ended up in the Tower. The old king died at Rothesay days after hearing the news."
+      ],
+      "claims": [
+        {
+          "text": "Rothesay was starved to death at Falkland on Albany's orders.",
+          "status": "disputed",
+          "note": "Bower and later writers said so. Parliament officially cleared Albany, saying David died of natural causes."
+        },
+        {
+          "text": "Robert asked to be buried in a midden as the worst of kings.",
+          "status": "legend",
+          "note": "Walter Bower reports the speech, but he wrote decades later and liked a moral."
+        },
+        {
+          "text": "He was lamed by a kick from a horse.",
+          "status": "confirmed",
+          "note": "Contemporary sources describe the injury, from a horse belonging to Sir James Douglas of Dalkeith, around 1388."
+        }
+      ],
+      "hook": "The new king is 11 years old and a prisoner in England. Back in Scotland his uncle Albany runs everything, and he's in no hurry to pay a ransom.",
+      "images": [
+        {
+          "file": "File:Jacob Jacobsz de Wet II (Haarlem 1641-2 - Amsterdam 1697) - Robert III, King of Scotland (1337-1406) - RCIN 403278 - Royal Collection.jpg",
+          "url": "https://upload.wikimedia.org/wikipedia/commons/b/b9/Jacob_Jacobsz_de_Wet_II_%28Haarlem_1641-2_-_Amsterdam_1697%29_-_Robert_III%2C_King_of_Scotland_%281337-1406%29_-_RCIN_403278_-_Royal_Collection.jpg",
+          "page": "https://commons.wikimedia.org/wiki/File:Jacob_Jacobsz_de_Wet_II_(Haarlem_1641-2_-_Amsterdam_1697)_-_Robert_III,_King_of_Scotland_(1337-1406)_-_RCIN_403278_-_Royal_Collection.jpg",
+          "credit": "Jacob de Wet II",
+          "license": "Public domain",
+          "made": "1684–86",
+          "caption": "Painted for Holyrood Palace almost 300 years after his death, from imagination.",
+          "alt": "Painted imaginary portrait of King Robert III from the Holyrood series"
+        }
+      ],
+      "sources": [
+        {
+          "title": "The Early Stewart Kings: Robert II and Robert III, 1371-1406",
+          "author": "Stephen Boardman",
+          "note": "Tuckwell Press, 1996"
+        },
+        {
+          "title": "Scotichronicon",
+          "author": "Walter Bower"
+        },
+        {
+          "title": "Orygynale Cronykil of Scotland",
+          "author": "Andrew of Wyntoun"
+        },
+        {
+          "title": "Robert III",
+          "author": "Oxford Dictionary of National Biography"
+        }
+      ],
+      "review": {
+        "status": "draft",
+        "notes": "Drafted from the listed sources; needs a human fact-check."
+      }
+    },
+    {
+      "id": "james-i",
+      "kind": "monarch",
+      "rulers": [
+        "james-i"
+      ],
+      "tagline": "Eighteen years a prisoner, then a king in a hurry",
+      "start": {
+        "date": "1406-04-04"
+      },
+      "end": {
+        "date": "1437-02-21"
+      },
+      "contestedWith": [],
+      "relationToPredecessor": "Son of Robert III",
+      "ageAtAccession": "11",
+      "cameToPower": "Inherited as an English captive",
+      "reignEnded": "Murdered at Perth",
+      "previously": "Prince James is seized at sea, and Robert III dies of the shock.",
+      "paragraphs": [
+        "James spent 18 years as an English prisoner. He was treated well, educated, and even took part in Henry V's French wars. He wrote poetry and fell for Joan Beaufort, a cousin of the English king. Meanwhile Albany and then Albany's son Murdoch ran Scotland. A ransom deal finally freed James in 1424. He married Joan, came home and was crowned at Scone that May.",
+        "He came back angry and in a hurry. In 1425 he had Murdoch, two of his sons and his father-in-law, the Earl of Lennox, beheaded at Stirling. He grabbed land, taxed hard and locked up Highland chiefs. Plenty of nobles hated him. In February 1437 conspirators broke into his lodgings at the Blackfriars in Perth. James hid in a drain under the floor, but its outlet had been blocked. They found him and stabbed him to death. Queen Joan was wounded but survived."
+      ],
+      "claims": [
+        {
+          "text": "James wrote The Kingis Quair, a love poem about seeing Joan from his prison window.",
+          "status": "disputed",
+          "note": "The only manuscript credits him, written decades later. Most scholars accept it, some still doubt."
+        },
+        {
+          "text": "He'd had the drain's outlet blocked days earlier because he kept losing tennis balls down it.",
+          "status": "disputed",
+          "note": "It comes from an English account of the murder written within a generation. It's vivid, and impossible to check."
+        },
+        {
+          "text": "Catherine Douglas barred the door with her own arm to keep the killers out.",
+          "status": "legend",
+          "note": "The story grew in later centuries and earned her the nickname Kate Barlass. Early accounts don't name her."
+        }
+      ],
+      "hook": "The king's killers are hunted down and executed. His son and heir is six years old, and Scotland's greedy nobles start circling the boy.",
+      "images": [
+        {
+          "file": "File:James I of Scotland.jpg",
+          "url": "https://upload.wikimedia.org/wikipedia/commons/5/5e/James_I_of_Scotland.jpg",
+          "page": "https://commons.wikimedia.org/wiki/File:James_I_of_Scotland.jpg",
+          "credit": "Unknown artist",
+          "license": "Public domain",
+          "made": "16th century",
+          "caption": "Painted about a century after his death, so no true likeness.",
+          "alt": "Painted portrait of King James I of Scotland, Scottish National Portrait Gallery"
+        }
+      ],
+      "sources": [
+        {
+          "title": "James I",
+          "author": "Michael Brown",
+          "note": "Canongate, 1994; Tuckwell Press, 2000"
+        },
+        {
+          "title": "James I, King of Scots, 1406-1437",
+          "author": "E. W. M. Balfour-Melville",
+          "note": "Methuen, 1936"
+        },
+        {
+          "title": "Scotichronicon",
+          "author": "Walter Bower"
+        },
+        {
+          "title": "The Dethe of the Kynge of Scotis",
+          "author": "John Shirley (translator)",
+          "note": "Fifteenth-century English account of the murder"
+        }
+      ],
+      "review": {
+        "status": "draft",
+        "notes": "Drafted from the listed sources; needs a human fact-check."
+      }
+    },
+    {
+      "id": "james-ii",
+      "kind": "monarch",
+      "rulers": [
+        "james-ii"
+      ],
+      "tagline": "The fiery-faced king blown up by his own gun",
+      "start": {
+        "date": "1437-02-21"
+      },
+      "end": {
+        "date": "1460-08-03"
+      },
+      "contestedWith": [],
+      "relationToPredecessor": "Son of James I",
+      "ageAtAccession": "6",
+      "cameToPower": "Crowned after his father's murder",
+      "reignEnded": "Killed by his own cannon",
+      "previously": "James I is cut down in a Perth drain. His son is six.",
+      "paragraphs": [
+        "A big red birthmark on his face gave James his nickname. His childhood was a tug of war between rival nobles, Crichton and Livingston, for control of the boy. In November 1440 they invited the teenage Earl of Douglas and his little brother to dinner at Edinburgh Castle. After the meal the boys were dragged out and beheaded. The ten-year-old king was there.",
+        "Grown up, James wanted the mighty Douglases cut down to size. In 1452 he invited the 8th Earl of Douglas to Stirling Castle under safe conduct, argued with him, and stabbed him himself. His courtiers finished the job. By 1455 the Douglases were beaten and their lands seized. James loved artillery. In 1460, besieging English-held Roxburgh, he stood beside one of his cannons as it fired. It burst and killed him. He was 29."
+      ],
+      "claims": [
+        {
+          "text": "A black bull's head was served at the Black Dinner as a sign of death.",
+          "status": "legend",
+          "note": "The bull's head shows up in much later histories. Contemporary sources just record the executions."
+        },
+        {
+          "text": "James stabbed the Earl of Douglas with his own hand.",
+          "status": "confirmed",
+          "note": "The Auchinleck Chronicle, written close to the time, says the king struck first."
+        },
+        {
+          "text": "A wedge from the exploding cannon broke his thigh and killed him.",
+          "status": "confirmed",
+          "note": "Pitscottie gives this detail. The death itself is reported by several sources."
+        }
+      ],
+      "hook": "Roxburgh falls anyway. His widow, Mary of Guelders, makes sure their young son is crowned within days. The boy will grow up to be one of Scotland's least-loved kings.",
+      "images": [
+        {
+          "file": "File:James II of Scotland 17th century.jpg",
+          "url": "https://upload.wikimedia.org/wikipedia/commons/2/26/James_II_of_Scotland_17th_century.jpg",
+          "page": "https://commons.wikimedia.org/wiki/File:James_II_of_Scotland_17th_century.jpg",
+          "credit": "Unknown artist",
+          "license": "Public domain",
+          "made": "17th century",
+          "caption": "Painted in the 17th century, about 200 years after his death.",
+          "alt": "Posthumous oil-on-panel portrait of King James II of Scotland"
+        }
+      ],
+      "sources": [
+        {
+          "title": "James II",
+          "author": "Christine McGladdery",
+          "note": "John Donald, 1990; 2nd ed. 2015"
+        },
+        {
+          "title": "The Black Douglases",
+          "author": "Michael Brown",
+          "note": "Tuckwell Press, 1998"
+        },
+        {
+          "title": "The Auchinleck Chronicle",
+          "author": "Anonymous"
+        },
+        {
+          "title": "The Historie and Cronicles of Scotland",
+          "author": "Robert Lindsay of Pitscottie"
+        }
+      ],
+      "review": {
+        "status": "draft",
+        "notes": "Drafted from the listed sources; needs a human fact-check."
+      }
+    },
+    {
+      "id": "james-iii",
+      "kind": "monarch",
+      "rulers": [
+        "james-iii"
+      ],
+      "tagline": "He won Orkney, lost his nobles and lost his life",
+      "start": {
+        "date": "1460-08-03"
+      },
+      "end": {
+        "date": "1488-06-11"
+      },
+      "contestedWith": [],
+      "relationToPredecessor": "Son of James II",
+      "ageAtAccession": "8 or 9",
+      "cameToPower": "Crowned days after Roxburgh",
+      "reignEnded": "Killed after Sauchieburn",
+      "previously": "A cannon bursts at Roxburgh, killing James II. His son is a boy.",
+      "paragraphs": [
+        "James was crowned at Kelso a week after his father died. As a teenager he was grabbed by the Boyd family, who ran the country for a few years. Then came his best move. In 1469 he married Margaret of Denmark, and Orkney and Shetland were handed over as security for her dowry. The dowry was never paid, and in 1472 the islands became part of Scotland for good.",
+        "After that it went downhill. James preferred art, music and clever favourites to war and hunting, and hated travelling to dispense justice. His nobles fumed. In 1482, at Lauder Bridge, they hanged several of his favourites and locked the king in Edinburgh Castle. In 1488 rebels rallied around his 15-year-old son. The armies met at Sauchieburn near Stirling. James fled the field and was killed."
+      ],
+      "claims": [
+        {
+          "text": "At Lauder the nobles hanged his architect favourite, Thomas Cochrane, from the bridge.",
+          "status": "disputed",
+          "note": "Pitscottie tells it with relish. Modern historians doubt Cochrane was the low-born upstart of the story."
+        },
+        {
+          "text": "The fleeing king fell from his horse and was stabbed by a man posing as a priest.",
+          "status": "legend",
+          "note": "This is Pitscottie, writing about 90 years later. No one knows who actually killed him."
+        },
+        {
+          "text": "Orkney and Shetland came to Scotland as a pledge for an unpaid royal dowry.",
+          "status": "confirmed",
+          "note": "The 1468-69 marriage treaty with Denmark survives."
+        }
+      ],
+      "hook": "His teenage son is now king. He rode with the rebels against his father, and the guilt will stay with him for the rest of his life.",
+      "images": [
+        {
+          "file": "File:James III of Scotland.jpg",
+          "url": "https://upload.wikimedia.org/wikipedia/commons/a/a3/James_III_of_Scotland.jpg",
+          "page": "https://commons.wikimedia.org/wiki/File:James_III_of_Scotland.jpg",
+          "credit": "Unknown artist",
+          "license": "Public domain",
+          "made": "17th century",
+          "caption": "Painted well over a century after his death.",
+          "alt": "Posthumous painted portrait of King James III of Scotland"
+        }
+      ],
+      "sources": [
+        {
+          "title": "James III",
+          "author": "Norman Macdougall",
+          "note": "John Donald, 1982; 2nd ed. 2009"
+        },
+        {
+          "title": "The Historie and Cronicles of Scotland",
+          "author": "Robert Lindsay of Pitscottie"
+        },
+        {
+          "title": "James III",
+          "author": "Oxford Dictionary of National Biography"
+        }
+      ],
+      "review": {
+        "status": "draft",
+        "notes": "Drafted from the listed sources; needs a human fact-check."
+      }
+    },
+    {
+      "id": "james-iv",
+      "kind": "monarch",
+      "rulers": [
+        "james-iv"
+      ],
+      "tagline": "Scotland's Renaissance king, cut down at Flodden",
+      "start": {
+        "date": "1488-06-11"
+      },
+      "end": {
+        "date": "1513-09-09"
+      },
+      "contestedWith": [],
+      "relationToPredecessor": "Son of James III",
+      "ageAtAccession": "15",
+      "cameToPower": "Led the rebels against his father",
+      "reignEnded": "Killed at Flodden",
+      "previously": "James III dies after Sauchieburn, beaten by rebels led by his own son.",
+      "paragraphs": [
+        "James is said to have worn an iron belt for life as penance for his father's death. He was the star of the Stewarts: energetic, curious, and a real ruler. He toured the whole country, broke the power of the Lord of the Isles, backed Scotland's first printing press and dabbled in surgery and alchemy. He built a navy too. His warship the Great Michael, launched in 1511, was one of the biggest in Europe.",
+        "In 1503 he married Margaret Tudor, Henry VII's daughter, under a Treaty of Perpetual Peace. It didn't last. When her brother Henry VIII invaded France in 1513, James stood by the Auld Alliance and crossed the border. On 9 September the armies met at Flodden. English bills shredded the Scottish pikemen. James died in the fighting, along with a huge slice of the nobility. He was the last king in Britain killed in battle."
+      ],
+      "claims": [
+        {
+          "text": "James sent two babies to grow up with a mute woman on Inchkeith to learn humanity's first language.",
+          "status": "legend",
+          "note": "Pitscottie tells it, and adds that some said they spoke good Hebrew. He doubted it himself."
+        },
+        {
+          "text": "He spoke many languages, including Gaelic.",
+          "status": "confirmed",
+          "note": "The Spanish envoy Pedro de Ayala described his languages in a letter home in 1498."
+        },
+        {
+          "text": "His embalmed body ended up unburied in England and the head was eventually lost.",
+          "status": "disputed",
+          "note": "Sixteenth-century writers such as John Stow describe it. Whether the body was really his was disputed even then."
+        }
+      ],
+      "hook": "Scotland has lost its king and much of its nobility in a single afternoon. The new king is 17 months old, and his mother is the sister of the man whose army just won.",
+      "images": [
+        {
+          "file": "File:James IV of Scotland.jpg",
+          "url": "https://upload.wikimedia.org/wikipedia/commons/6/69/James_IV_of_Scotland.jpg",
+          "page": "https://commons.wikimedia.org/wiki/File:James_IV_of_Scotland.jpg",
+          "credit": "Unknown artist",
+          "license": "Public domain",
+          "made": "17th century",
+          "caption": "Painted in the 17th century, about a century after Flodden.",
+          "alt": "Oil-on-panel portrait of King James IV of Scotland"
+        }
+      ],
+      "sources": [
+        {
+          "title": "James IV",
+          "author": "Norman Macdougall",
+          "note": "John Donald, 1989; Tuckwell Press, 1997"
+        },
+        {
+          "title": "The Historie and Cronicles of Scotland",
+          "author": "Robert Lindsay of Pitscottie"
+        },
+        {
+          "title": "Calendar of State Papers, Spain, vol. 1",
+          "author": "G. A. Bergenroth (ed.)",
+          "note": "Ayala's 1498 letter"
+        },
+        {
+          "title": "James IV",
+          "author": "Oxford Dictionary of National Biography"
+        }
+      ],
+      "review": {
+        "status": "draft",
+        "notes": "Drafted from the listed sources; needs a human fact-check."
+      }
+    },
+    {
+      "id": "james-v",
+      "kind": "monarch",
+      "rulers": [
+        "james-v"
+      ],
+      "tagline": "The king who died a week after his daughter was born",
+      "start": {
+        "date": "1513-09-09"
+      },
+      "end": {
+        "date": "1542-12-14"
+      },
+      "contestedWith": [],
+      "relationToPredecessor": "Son of James IV",
+      "ageAtAccession": "1",
+      "cameToPower": "Inherited after Flodden",
+      "reignEnded": "Died at Falkland after Solway Moss",
+      "previously": "Flodden: James IV and thousands of Scots lie dead. His son is a baby.",
+      "paragraphs": [
+        "James grew up as a prize. His mother Margaret Tudor remarried the Earl of Angus, and in 1526 Angus took control of the teenage king and kept him under guard. In 1528 James escaped and drove Angus into exile. He never forgot it. He ruled hard and squeezed money out of everyone, especially the Church, and he married two French brides for their dowries: Madeleine of Valois, who died months later, then Mary of Guise.",
+        "In 1541 both his baby sons died. Then his uncle Henry VIII wanted him to break with Rome. James stood him up for a meeting at York, and war followed. In November 1542 a Scottish army was routed at Solway Moss. James fell ill at Falkland. On 8 December Mary of Guise gave birth to a daughter. Six days later the king was dead at 30."
+      ],
+      "claims": [
+        {
+          "text": "On hearing of his daughter's birth he said, 'It came with a lass and it will go with a lass.'",
+          "status": "legend",
+          "note": "It comes from Pitscottie, writing decades later. He meant the Stewart crown, which came through Marjorie Bruce."
+        },
+        {
+          "text": "James roamed his kingdom in disguise as the Gudeman of Ballengeich.",
+          "status": "legend",
+          "note": "Folk tales and ballads tell of the king in disguise. No contemporary record does."
+        },
+        {
+          "text": "He made money by setting his illegitimate sons up as heads of rich abbeys.",
+          "status": "confirmed",
+          "note": "Papal records show several of his young sons made commendators of major abbeys."
+        }
+      ],
+      "hook": "The new queen of Scots is six days old. Henry VIII wants her as a bride for his son. Scotland would rather she went to France.",
+      "images": [
+        {
+          "file": "File:Portrait of James V of Scotland (1512 - 1542).jpg",
+          "url": "https://upload.wikimedia.org/wikipedia/commons/c/c8/Portrait_of_James_V_of_Scotland_%281512_-_1542%29.jpg",
+          "page": "https://commons.wikimedia.org/wiki/File:Portrait_of_James_V_of_Scotland_(1512_-_1542).jpg",
+          "credit": "Corneille de Lyon",
+          "license": "Public domain",
+          "made": "c. 1536",
+          "caption": "Painted in his lifetime, around the time he sailed to France for a bride.",
+          "alt": "Painted portrait of King James V of Scotland"
+        }
+      ],
+      "sources": [
+        {
+          "title": "James V: The Personal Rule, 1528-1542",
+          "author": "Jamie Cameron",
+          "note": "Tuckwell Press, 1998"
+        },
+        {
+          "title": "The Historie and Cronicles of Scotland",
+          "author": "Robert Lindsay of Pitscottie"
+        },
+        {
+          "title": "James V",
+          "author": "Oxford Dictionary of National Biography"
+        }
+      ],
+      "review": {
+        "status": "draft",
+        "notes": "Drafted from the listed sources; needs a human fact-check."
+      }
+    },
+    {
+      "id": "mary",
+      "kind": "monarch",
+      "rulers": [
+        "mary"
+      ],
+      "tagline": "Queen at six days old, prisoner, then the block",
+      "start": {
+        "date": "1542-12-14"
+      },
+      "end": {
+        "date": "1567-07-24"
+      },
+      "contestedWith": [],
+      "relationToPredecessor": "Daughter of James V",
+      "ageAtAccession": "6 days",
+      "cameToPower": "Inherited as a newborn",
+      "reignEnded": "Forced to abdicate at Lochleven",
+      "previously": "After Solway Moss, James V dies at Falkland. His heir is a baby girl.",
+      "paragraphs": [
+        "Henry VIII wanted Mary for his son and sent armies to make the point. Scotland sent her to France instead, aged five. She grew up at the French court, tall and charming, and in 1558 married the Dauphin, who became Francis II. He died in 1560. Mary came home in 1561, a Catholic queen in a country that had just turned Protestant, and ruled cautiously at first.",
+        "In 1565 she married her cousin Lord Darnley. It was a disaster. In 1566 Darnley and his friends stabbed her secretary David Rizzio to death in front of her. Their son James was born that June. In February 1567 the house at Kirk o' Field where Darnley was staying blew up, and he was found dead in the garden, apparently strangled. Three months later Mary married the Earl of Bothwell, the main suspect. The nobles rose against her.",
+        "At Carberry Hill she surrendered and was locked up on an island in Loch Leven, where she was forced to abdicate. She escaped in 1568, lost at Langside and fled to England, hoping Elizabeth I would help. Instead she spent 19 years as a prisoner. Caught in a plot to kill Elizabeth, she was beheaded at Fotheringhay in 1587."
+      ],
+      "claims": [
+        {
+          "text": "Mary helped plan Darnley's murder.",
+          "status": "disputed",
+          "note": "The case rests on the Casket Letters produced by her enemies. Only copies survive, and many historians think they were doctored."
+        },
+        {
+          "text": "The executioner needed more than one blow to cut off her head.",
+          "status": "confirmed",
+          "note": "Eyewitness accounts agree the first blow missed her neck and struck the back of her head."
+        },
+        {
+          "text": "Her little dog was found hiding under her skirts after she died.",
+          "status": "confirmed",
+          "note": "It appears in an eyewitness report of the execution. Later retellings embroider it."
+        }
+      ],
+      "hook": "Mary is gone. Her son James is just 13 months old, and in five days he'll be crowned at Stirling with the Protestant lords who overthrew his mother in charge.",
+      "images": [
+        {
+          "file": "File:François Clouet - Mary, Queen of Scots (1542-87) - Google Art Project.jpg",
+          "url": "https://upload.wikimedia.org/wikipedia/commons/e/e9/Fran%C3%A7ois_Clouet_-_Mary%2C_Queen_of_Scots_%281542-87%29_-_Google_Art_Project.jpg",
+          "page": "https://commons.wikimedia.org/wiki/File:Fran%C3%A7ois_Clouet_-_Mary,_Queen_of_Scots_(1542-87)_-_Google_Art_Project.jpg",
+          "credit": "François Clouet",
+          "license": "Public domain",
+          "made": "c. 1558–60",
+          "caption": "Painted from life in France, around the time she became queen of France.",
+          "alt": "Painted portrait of Mary, Queen of Scots, as a young woman"
+        }
+      ],
+      "sources": [
+        {
+          "title": "Mary Queen of Scots",
+          "author": "Antonia Fraser",
+          "note": "Weidenfeld & Nicolson, 1969"
+        },
+        {
+          "title": "My Heart Is My Own: The Life of Mary Queen of Scots",
+          "author": "John Guy",
+          "note": "Fourth Estate, 2004"
+        },
+        {
+          "title": "Mary Queen of Scots: A Study in Failure",
+          "author": "Jenny Wormald",
+          "note": "George Philip, 1988"
+        },
+        {
+          "title": "Ane Detectioun of the Duinges of Marie Quene of Scottes",
+          "author": "George Buchanan",
+          "note": "Hostile account, 1571"
+        }
+      ],
+      "review": {
+        "status": "draft",
+        "notes": "Drafted from the listed sources; needs a human fact-check."
+      }
+    },
+    {
+      "id": "james-vi",
+      "kind": "monarch",
+      "rulers": [
+        "james-vi"
+      ],
+      "tagline": "The baby king who ended up ruling Britain",
+      "start": {
+        "date": "1567-07-24"
+      },
+      "end": {
+        "date": "1625-03-27"
+      },
+      "contestedWith": [],
+      "relationToPredecessor": "Son of Mary and Lord Darnley",
+      "ageAtAccession": "13 months",
+      "cameToPower": "Crowned after his mother's abdication",
+      "reignEnded": "Died at Theobalds, Hertfordshire",
+      "previously": "Mary is forced to abdicate at Lochleven. Her son is 13 months old.",
+      "paragraphs": [
+        "James grew up without parents and surrounded by violence. Four regents ran Scotland in his name. Only one of them died in his bed. His tutor, the scholar George Buchanan, beat Latin and Greek into him and taught him to think the worst of his mother. He became one of the most bookish kings ever, writing on everything from kingship to witches to the evils of tobacco.",
+        "In 1589 he sailed to Norway to fetch his bride, Anne of Denmark. Storms on the way home convinced him witches were after him, and the North Berwick witch trials followed, with James questioning suspects himself. In 1600 he survived, or staged, the Gowrie conspiracy in Perth, where the Earl of Gowrie and his brother were killed.",
+        "Then the big prize. In March 1603 Elizabeth I died, and James, great-great-grandson of Henry VII, became James I of England. He rode south and came back to Scotland only once. He survived the Gunpowder Plot and gave his name to the King James Bible. He died in 1625, the first king to rule all of Britain."
+      ],
+      "claims": [
+        {
+          "text": "The Gowrie conspiracy was a setup by James to destroy the Ruthvens.",
+          "status": "disputed",
+          "note": "James's own account was the only official version, and it had gaps. Historians still argue, and some think it was a muddle on both sides."
+        },
+        {
+          "text": "Accused witches confessed to raising storms against the king's ship.",
+          "status": "confirmed",
+          "note": "Trial records and the pamphlet Newes from Scotland report the confessions, extracted under torture."
+        },
+        {
+          "text": "A French king called him the wisest fool in Christendom.",
+          "status": "legend",
+          "note": "The jibe is usually pinned on Henry IV or his minister Sully, but no solid source for it has been found."
+        }
+      ],
+      "images": [
+        {
+          "file": "File:James VI and I.jpg",
+          "url": "https://upload.wikimedia.org/wikipedia/commons/c/c4/James_VI_and_I.jpg",
+          "page": "https://commons.wikimedia.org/wiki/File:James_VI_and_I.jpg",
+          "credit": "John de Critz",
+          "license": "Public domain",
+          "made": "1604",
+          "caption": "Painted from life the year after he became king of England too.",
+          "alt": "Painted portrait of King James VI and I"
+        }
+      ],
+      "sources": [
+        {
+          "title": "The Cradle King: A Life of James VI and I",
+          "author": "Alan Stewart",
+          "note": "Chatto & Windus, 2003"
+        },
+        {
+          "title": "King James",
+          "author": "Pauline Croft",
+          "note": "Palgrave Macmillan, 2003"
+        },
+        {
+          "title": "James VI and I",
+          "author": "Jenny Wormald",
+          "note": "Oxford Dictionary of National Biography"
+        },
+        {
+          "title": "Daemonologie",
+          "author": "James VI",
+          "note": "1597"
+        }
+      ],
+      "review": {
+        "status": "draft",
+        "notes": "Drafted from the listed sources; needs a human fact-check."
+      }
+    }
+  ]
+}
