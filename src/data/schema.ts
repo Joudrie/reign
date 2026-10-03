@@ -98,6 +98,8 @@ export const Reign = z.object({
   kind: z.enum(["monarch", "claimant", "interregnum"]),
   /** One for a normal reign, two for co-monarchs; for an interregnum, whoever ran things (may be empty). */
   rulers: z.array(slug),
+  /** Colour group for a reign with no rulers (a republic): a house id from this file. */
+  house: slug.optional(),
   /** Card title; defaults to the ruler's name. Needed for interregnums / co-reigns. */
   title: z.string().optional(),
   /** One short line under the name. */

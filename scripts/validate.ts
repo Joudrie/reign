@@ -82,6 +82,8 @@ for (const name of readdirSync(dataDir).filter((f) => f.endsWith(".json"))) {
   c.reigns.forEach((g: Reign, i) => {
     const where = g.id;
     if (g.kind !== "interregnum" && g.rulers.length === 0) err(where, `kind "${g.kind}" with no rulers`);
+    if (g.rulers.length === 0 && !g.house) err(where, "a reign with no rulers needs a house (for its colour)");
+    if (g.house && !houses.has(g.house)) err(where, `unknown house "${g.house}"`);
     if ((g.rulers.length !== 1 || g.kind === "interregnum") && !g.title)
       err(where, "co-reigns and interregnums need a title");
 

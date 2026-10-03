@@ -63,6 +63,18 @@ button, input { font: inherit; color: inherit; }
 .top strong { color: var(--ink); font-weight: 600; font-size: var(--t-sm); }
 .top span { font-size: var(--t-xs); font-variant-numeric: tabular-nums; }
 
+.country-btn {
+  display: inline-flex; align-items: center; gap: var(--s-1);
+  background: none; border: 0; padding: 0; cursor: pointer;
+  color: var(--ink); font-weight: 600; font-size: var(--t-sm);
+}
+.country-btn svg { width: 16px; height: 16px; color: var(--muted); }
+
+/* flags: simple drawn shapes, never emoji */
+.flag { display: block; width: 100%; height: 100%; }
+.tab-flag { display: block; width: 30px; height: 20px; border-radius: 4px; overflow: hidden; box-shadow: 0 0 0 1px var(--edge); }
+.tabs button[aria-current="page"] .tab-flag { box-shadow: 0 0 0 2px var(--card), 0 0 0 4px var(--ink); }
+
 /* ---------- deck ---------- */
 .deck { flex: 1; min-height: 0; position: relative; overflow: hidden; touch-action: pan-y; }
 .rail {
@@ -211,7 +223,22 @@ details a { color: inherit; }
 .label:hover strong { text-decoration: underline; text-decoration-color: var(--edge); text-underline-offset: 3px; }
 .zoom-level { font-size: var(--t-xs); color: var(--muted); min-width: 64px; text-align: center; font-variant-numeric: tabular-nums; }
 
-/* search */
+/* countries + search */
+.search-body { padding-top: calc(var(--s2) + env(safe-area-inset-top, 0px)); display: grid; align-content: start; gap: var(--s1); }
+.search-body .section-label { margin-top: var(--s0); }
+.countries { list-style: none; margin: 0; padding: 0; display: grid; grid-template-columns: repeat(auto-fill, minmax(150px, 1fr)); gap: var(--s0); }
+.countries button {
+  width: 100%; display: grid; grid-template-columns: 36px 1fr; gap: var(--s0) var(--s1); align-items: center;
+  background: var(--card); border: 1px solid var(--edge); border-radius: var(--r); padding: var(--s1);
+  text-align: left; cursor: pointer;
+}
+.countries button:hover:not(:disabled) { border-color: var(--muted); }
+.countries button[aria-pressed="true"] { border-color: var(--ink); box-shadow: inset 0 0 0 1px var(--ink); }
+.countries button:disabled { cursor: default; opacity: 0.55; }
+.countries .mini-flag { width: 36px; height: 24px; border-radius: 4px; overflow: hidden; box-shadow: 0 0 0 1px var(--edge); }
+.countries .meta { display: grid; line-height: 1.3; min-width: 0; }
+.countries strong { font-size: var(--t-sm); font-weight: 600; }
+.countries span.sub { font-size: var(--t-xs); color: var(--muted); }
 .search-box { position: relative; flex: 1; }
 .search-box svg { position: absolute; left: 12px; top: 50%; width: 18px; height: 18px; transform: translateY(-50%); color: var(--muted); }
 .search-box input {
@@ -232,15 +259,15 @@ details a { color: inherit; }
 .results .meta { display: grid; min-width: 0; line-height: 1.3; }
 .results strong { font-size: var(--t-md); font-weight: 600; }
 .results .meta > span { font-size: var(--t-xs); color: var(--muted); white-space: nowrap; overflow: hidden; text-overflow: ellipsis; }
-.result-count { font-size: var(--t-xs); color: var(--muted); margin: 0 0 var(--s1); }
+.result-count { font-size: var(--t-xs); color: var(--muted); margin: 0; }
 .empty { color: var(--muted); font-size: var(--t-sm); }
 
 @media (prefers-reduced-motion: reduce) { * { transition: none !important; } }
 </style>
 
-<div class="top"><strong>England</strong><span id="count" aria-live="polite"></span></div>
+<div class="top"><button class="country-btn" id="countryBtn" aria-label="Change country"><span id="countryName"></span><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M6 9l6 6 6-6"/></svg></button><span id="count" aria-live="polite"></span></div>
 
-<main class="deck" id="deck" aria-roledescription="carousel" aria-label="Rulers of England">
+<main class="deck" id="deck" aria-roledescription="carousel" aria-label="Rulers">
   <div class="rail" id="rail"></div>
   <button class="side prev-side" id="prevBtn" aria-label="Previous ruler"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M15 6l-6 6 6 6"/></svg></button>
   <button class="side next-side" id="nextBtn" aria-label="Next ruler"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M9 6l6 6-6 6"/></svg></button>
@@ -248,7 +275,7 @@ details a { color: inherit; }
 
 <section class="view" id="view-timeline" aria-label="Timeline">
   <div class="view-head">
-    <h2>Timeline</h2>
+    <h2 id="timelineTitle">Timeline</h2>
     <button class="icon-btn" id="zoomOut" aria-label="Zoom out">−</button>
     <span class="zoom-level" id="zoomLevel"></span>
     <button class="icon-btn" id="zoomIn" aria-label="Zoom in">+</button>
@@ -256,25 +283,22 @@ details a { color: inherit; }
   <div class="view-body" id="timelineBody"></div>
 </section>
 
-<section class="view" id="view-search" aria-label="Search">
-  <div class="view-head">
+<section class="view" id="view-search" aria-label="Countries and search">
+  <div class="view-body search-body">
+    <h2 class="section-label caps">Country</h2>
+    <ul class="countries" id="countries"></ul>
+    <h2 class="section-label caps" id="searchLabel"></h2>
     <label class="search-box">
       <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" aria-hidden="true"><circle cx="11" cy="11" r="7"/><path d="M20 20l-4-4"/></svg>
       <input id="q" type="text" enterkeyhint="search" placeholder="Name, house or year" autocomplete="off" aria-label="Search rulers">
     </label>
-  </div>
-  <div class="view-body">
     <p class="result-count" id="resultCount"></p>
     <ul class="results" id="results"></ul>
   </div>
 </section>
 
 <nav class="tabs" aria-label="Main">
-  <button data-tab="timeline" aria-label="Timeline">
-    <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true">
-      <path d="M5 3v18"/><rect class="fill" x="8" y="4" width="12" height="4" rx="1"/><rect class="fill" x="8" y="10" width="7" height="4" rx="1"/><rect class="fill" x="8" y="16" width="10" height="4" rx="1"/>
-    </svg>
-  </button>
+  <button data-tab="timeline" aria-label="Timeline"><span class="tab-flag" id="tabFlag"></span></button>
   <button class="read" data-tab="read" aria-label="Read">
     <svg viewBox="0 0 30 30" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linejoin="round" aria-hidden="true">
       <rect class="fill" x="2.5" y="2.5" width="25" height="25" rx="6"/>
@@ -287,15 +311,30 @@ details a { color: inherit; }
 </nav>
 
 <script>
-const DATA = /*DATA*/null;
+const ALL = /*DATA*/null;      // { countryId: country file }
 const { animate } = window.Motion ?? {};
 const reduced = matchMedia("(prefers-reduced-motion: reduce)").matches;
 
-const houses = Object.fromEntries(DATA.houses.map(h => [h.id, h]));
-const rulers = Object.fromEntries(DATA.rulers.map(r => [r.id, r]));
-// Optional arrays may be omitted in the JSON (the schema defaults them); normalise once here.
-const reigns = DATA.reigns.map(g => ({ contestedWith: [], claims: [], ...g }));
-const N = reigns.length;
+
+/* Countries: the ones with a data file are live; the rest show as "coming soon". Flags are drawn, not emoji. */
+const CATALOG = [
+  { id: "england", name: "England & the UK", short: "England" },
+  { id: "spain", name: "Spain", short: "Spain" },
+  { id: "france", name: "France" },
+  { id: "russia", name: "Russia" },
+  { id: "portugal", name: "Portugal" },
+  { id: "japan", name: "Japan" },
+];
+const FLAGS = {
+  england: `<svg class="flag" viewBox="0 0 30 20" preserveAspectRatio="none"><rect width="30" height="20" fill="#fff"/><rect x="12.5" width="5" height="20" fill="#c8102e"/><rect y="7.5" width="30" height="5" fill="#c8102e"/></svg>`,
+  spain: `<svg class="flag" viewBox="0 0 30 20" preserveAspectRatio="none"><rect width="30" height="20" fill="#aa151b"/><rect y="5" width="30" height="10" fill="#f1bf00"/></svg>`,
+  france: `<svg class="flag" viewBox="0 0 30 20" preserveAspectRatio="none"><rect width="10" height="20" fill="#002654"/><rect x="10" width="10" height="20" fill="#fff"/><rect x="20" width="10" height="20" fill="#ce1126"/></svg>`,
+  russia: `<svg class="flag" viewBox="0 0 30 20" preserveAspectRatio="none"><rect width="30" height="20" fill="#fff"/><rect y="6.67" width="30" height="6.67" fill="#0039a6"/><rect y="13.33" width="30" height="6.67" fill="#d52b1e"/></svg>`,
+  portugal: `<svg class="flag" viewBox="0 0 30 20" preserveAspectRatio="none"><rect width="30" height="20" fill="#da291c"/><rect width="12" height="20" fill="#046a38"/></svg>`,
+  japan: `<svg class="flag" viewBox="0 0 30 20" preserveAspectRatio="none"><rect width="30" height="20" fill="#fff"/><circle cx="15" cy="10" r="6" fill="#bc002d"/></svg>`,
+};
+
+let country, DATA, houses, rulers, reigns, N;
 const MONTHS = ["Jan","Feb","Mar","Apr","May","Jun","Jul","Aug","Sep","Oct","Nov","Dec"];
 const TODAY = (() => { const d = new Date(); return { date: d.toISOString().slice(0, 10) }; })();
 
@@ -315,8 +354,16 @@ const length = (a, b) => {
 };
 const span = g => !g.end ? `${year(g.start)}–now` : year(g.start) === year(g.end) ? `${year(g.start)}` : `${year(g.start)}–${year(g.end)}`;
 const reignName = g => g.title ?? rulers[g.rulers[0]].name;
-const reignHouses = g => [...new Set(g.rulers.map(id => rulers[id].house))].map(id => houses[id]);
-const img = g => `img/${g.id}.jpg`;
+const reignHouses = g => {
+  const ids = g.rulers.length ? g.rulers.map(id => rulers[id].house) : [g.house];
+  return [...new Set(ids)].map(id => houses[id]).filter(Boolean);
+};
+// Republics and regimes aren't houses: label them by name only.
+const houseLabel = g => {
+  const names = reignHouses(g).map(h => esc(h.name)).join(" & ");
+  return g.kind === "interregnum" ? names : `House of ${names}`;
+};
+const img = g => `img/${country}/${g.id}.jpg`;
 
 /** Spring when Motion is available and motion is allowed; otherwise jump. */
 function tween(from, to, onUpdate, opts = {}) {
@@ -335,7 +382,7 @@ function card(g, i) {
     <div class="prev"><b>Previously</b>${esc(g.previously)}</div>
     <figure class="portrait"><img data-src="${img(g)}" alt="${esc(p.alt)}" draggable="false"></figure>
     <div class="title">
-      <div class="house caps">${hs.map(h => `<span class="swatch" style="background:${h.color}"></span>`).join("")}House of ${hs.map(h => esc(h.name)).join(" & ")} · ${span(g)}</div>
+      <div class="house caps">${hs.map(h => `<span class="swatch" style="background:${h.color}"></span>`).join("")}${houseLabel(g)} · ${span(g)}</div>
       <h1>${esc(reignName(g))}</h1>
       ${solo?.epithet ? `<div class="epithet">${esc(solo.epithet)}</div>` : ""}
       <p class="tagline">${esc(g.tagline)}</p>
@@ -370,8 +417,7 @@ function card(g, i) {
 
 const deck = document.getElementById("deck");
 const rail = document.getElementById("rail");
-rail.innerHTML = reigns.map(card).join("");
-const cards = [...rail.children];
+let cards = [];
 const count = document.getElementById("count");
 const prevBtn = document.getElementById("prevBtn"), nextBtn = document.getElementById("nextBtn");
 
@@ -411,7 +457,7 @@ function setIndex(i) {
   nextBtn.disabled = i === N - 1;
   cards.forEach((c, k) => { c.inert = k !== i; });
   loadNear(i);
-  try { history.replaceState(null, "", "#" + cards[i].id); } catch {}
+  try { history.replaceState(null, "", `#${country}.${cards[i].id}`); } catch {}
 }
 function go(i, velocity = 0, instant = false) {
   i = Math.max(0, Math.min(N - 1, i));
@@ -508,7 +554,6 @@ function show(name) {
   if (views[name]) reveal(views[name], true);
   if (views[prev]) reveal(views[prev], false);
   deck.inert = name !== "read";
-  if (name === "search") setTimeout(() => document.getElementById("q").focus({ preventScroll: true }), 50);
   if (name === "timeline") {
     const cur = document.querySelector('#timelineBody .label[aria-current="true"]');
     const body = document.getElementById("timelineBody");
@@ -542,7 +587,7 @@ function drawTimeline() {
     if (hs.length > 1) {
       hs.forEach((hh, k) => (bars += `<button class="bar half" data-jump="${i}" aria-label="${esc(reignName(g))}" style="top:${a}px;height:${h}px;left:${left + k * 7}px;background:${hh.color}"></button>`));
     } else {
-      const color = (hs[0] ?? houses.commonwealth).color;
+      const color = hs[0]?.color ?? "var(--muted)";
       bars += `<button class="bar" data-jump="${i}" aria-label="${esc(reignName(g))}" style="top:${a}px;height:${h}px;left:${left}px;background:${color}"></button>`;
     }
     const top = Math.max(a, labelBottom);
@@ -580,7 +625,7 @@ document.getElementById("zoomOut").addEventListener("click", () => rezoom(-1));
 
 /* ---------------- search ---------------- */
 const q = document.getElementById("q");
-const haystack = reigns.map(g => [reignName(g), ...g.rulers.map(id => `${rulers[id].name} ${rulers[id].epithet ?? ""}`), ...reignHouses(g).map(h => h.name), g.tagline].join(" ").toLowerCase());
+let haystack = [];
 function renderResults() {
   const term = q.value.trim().toLowerCase();
   const yr = /^\d{3,4}$/.test(term) ? Number(term) : null;
@@ -595,7 +640,7 @@ function renderResults() {
   document.getElementById("results").innerHTML = hits.length
     ? hits.map(i => { const g = reigns[i]; return `<li><button data-jump="${i}">
         <img src="${img(g)}" alt="" loading="lazy">
-        <span class="meta"><strong>${esc(reignName(g))}</strong><span>${span(g)} · House of ${reignHouses(g).map(h => esc(h.name)).join(" & ")}</span></span>
+        <span class="meta"><strong>${esc(reignName(g))}</strong><span>${span(g)} · ${houseLabel(g)}</span></span>
       </button></li>`; }).join("")
     : `<li class="empty">No rulers match “${esc(q.value.trim())}”. Try a name like Henry, a house like Tudor, or a year like 1483.</li>`;
 }
@@ -604,10 +649,63 @@ document.getElementById("results").addEventListener("click", e => {
   const t = e.target.closest("[data-jump]"); if (t) jumpTo(Number(t.dataset.jump));
 });
 
+/* ---------------- countries ---------------- */
+const meta = id => CATALOG.find(c => c.id === id);
+function renderCountries() {
+  document.getElementById("countries").innerHTML = CATALOG.map(c => {
+    const live = !!ALL[c.id];
+    const sub = live ? `${ALL[c.id].reigns.length} reigns` : "Coming soon";
+    return `<li><button data-country="${c.id}" aria-pressed="${c.id === country}" ${live ? "" : "disabled"}>
+      <span class="mini-flag">${FLAGS[c.id] ?? ""}</span>
+      <span class="meta"><strong>${esc(c.name)}</strong><span class="sub">${sub}</span></span>
+    </button></li>`;
+  }).join("");
+}
+function loadCountry(id, reignId) {
+  country = id;
+  DATA = ALL[id];
+  houses = Object.fromEntries(DATA.houses.map(h => [h.id, h]));
+  rulers = Object.fromEntries(DATA.rulers.map(r => [r.id, r]));
+  // Optional arrays may be omitted in the JSON (the schema defaults them); normalise once here.
+  reigns = DATA.reigns.map(g => ({ contestedWith: [], claims: [], ...g }));
+  N = reigns.length;
+  haystack = reigns.map(g => [reignName(g), ...g.rulers.map(r => `${rulers[r].name} ${rulers[r].epithet ?? ""}`), ...reignHouses(g).map(h => h.name), g.tagline].join(" ").toLowerCase());
+
+  anim?.stop();
+  rail.innerHTML = reigns.map(card).join("");
+  cards = [...rail.children];
+  const name = meta(id)?.short ?? DATA.name;
+  document.getElementById("countryName").textContent = name;
+  document.getElementById("searchLabel").textContent = `Rulers of ${name}`;
+  document.getElementById("timelineTitle").textContent = `${name} timeline`;
+  document.getElementById("tabFlag").innerHTML = FLAGS[id] ?? "";
+  deck.setAttribute("aria-label", `Rulers of ${name}`);
+  q.value = "";
+  renderCountries();
+  try { localStorage.setItem("reign.country", id); } catch {}
+
+  index = Math.max(0, reigns.findIndex(g => g.id === reignId));
+  setIndex(index);
+  measure();
+}
+document.getElementById("countries").addEventListener("click", e => {
+  const b = e.target.closest("[data-country]");
+  if (!b || b.disabled) return;
+  if (b.dataset.country !== country) loadCountry(b.dataset.country);
+  show("read");
+});
+document.getElementById("countryBtn").addEventListener("click", () => show("search"));
+
 /* ---------------- boot ---------------- */
-const startAt = Math.max(0, cards.findIndex(c => "#" + c.id === location.hash));
-index = startAt;
+// Deep links look like #spain.philip-ii; a bare #reign-id is an England link from before countries existed.
+const [hashCountry, hashReign] = (() => {
+  const h = location.hash.slice(1);
+  if (h.includes(".")) return h.split(".");
+  return h ? ["england", h] : [];
+})();
+let saved = null;
+try { saved = localStorage.getItem("reign.country"); } catch {}
+const startCountry = [hashCountry, saved, "england"].find(c => c && ALL[c]);
 tabs.forEach(t => t.setAttribute("aria-current", t.dataset.tab === "read" ? "page" : "false"));
-setIndex(startAt);
-measure();
+loadCountry(startCountry, startCountry === hashCountry ? hashReign : undefined);
 </script>
