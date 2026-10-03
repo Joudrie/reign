@@ -1,0 +1,2202 @@
+{
+  "id": "spain",
+  "name": "Spain",
+  "blurb": "From Ferdinand and Isabella to Felipe VI",
+  "dateConvention": "Reigns are counted from accession. Joanna stayed nominal queen of Castile until 1555, alongside her son Charles I; her card ends when he took power in 1516.",
+  "houses": [
+    {
+      "id": "trastamara",
+      "name": "Trastámara",
+      "color": "#a8432f"
+    },
+    {
+      "id": "habsburg",
+      "name": "Habsburg",
+      "color": "#b8932e"
+    },
+    {
+      "id": "bourbon",
+      "name": "Bourbon",
+      "color": "#2f5a9e"
+    },
+    {
+      "id": "bonaparte",
+      "name": "Bonaparte",
+      "color": "#4f7a4a"
+    },
+    {
+      "id": "savoy",
+      "name": "Savoy",
+      "color": "#6b4c9a"
+    },
+    {
+      "id": "provisional",
+      "name": "Provisional government",
+      "color": "#8a96a3"
+    },
+    {
+      "id": "republic",
+      "name": "Republic",
+      "color": "#8c5a7a"
+    },
+    {
+      "id": "franco",
+      "name": "Franco regime",
+      "color": "#55524a"
+    }
+  ],
+  "rulers": [
+    {
+      "id": "ferdinand-ii",
+      "name": "Ferdinand II",
+      "epithet": "the Catholic",
+      "house": "trastamara",
+      "born": {
+        "date": "1452-03-10",
+        "note": "Sos, Aragon"
+      },
+      "died": {
+        "date": "1516-01-23",
+        "note": "Madrigalejo, Extremadura"
+      },
+      "causeOfDeath": "Illness after years of poor health"
+    },
+    {
+      "id": "isabella-i",
+      "name": "Isabella I",
+      "epithet": "the Catholic",
+      "house": "trastamara",
+      "born": {
+        "date": "1451-04-22",
+        "note": "Madrigal de las Altas Torres, Castile"
+      },
+      "died": {
+        "date": "1504-11-26",
+        "note": "Medina del Campo, Castile"
+      },
+      "causeOfDeath": "Long illness, possibly cancer"
+    },
+    {
+      "id": "joanna",
+      "name": "Joanna",
+      "epithet": "the Mad",
+      "house": "trastamara",
+      "born": {
+        "date": "1479-11-06",
+        "note": "Toledo"
+      },
+      "died": {
+        "date": "1555-04-12",
+        "note": "Tordesillas"
+      },
+      "causeOfDeath": "Illness in old age, still confined"
+    },
+    {
+      "id": "charles-i",
+      "name": "Charles I",
+      "epithet": "Emperor Charles V",
+      "house": "habsburg",
+      "born": {
+        "date": "1500-02-24",
+        "note": "Ghent, Flanders"
+      },
+      "died": {
+        "date": "1558-09-21",
+        "note": "Monastery of Yuste, Extremadura"
+      },
+      "causeOfDeath": "Malaria"
+    },
+    {
+      "id": "philip-ii",
+      "name": "Philip II",
+      "epithet": "the Prudent",
+      "house": "habsburg",
+      "born": {
+        "date": "1527-05-21",
+        "note": "Valladolid"
+      },
+      "died": {
+        "date": "1598-09-13",
+        "note": "El Escorial"
+      },
+      "causeOfDeath": "Long illness with gout and fever"
+    },
+    {
+      "id": "philip-iii",
+      "name": "Philip III",
+      "epithet": "the Pious",
+      "house": "habsburg",
+      "born": {
+        "date": "1578-04-14",
+        "note": "Madrid"
+      },
+      "died": {
+        "date": "1621-03-31",
+        "note": "Madrid"
+      },
+      "causeOfDeath": "Fever"
+    },
+    {
+      "id": "philip-iv",
+      "name": "Philip IV",
+      "epithet": "the Planet King",
+      "house": "habsburg",
+      "born": {
+        "date": "1605-04-08",
+        "note": "Valladolid"
+      },
+      "died": {
+        "date": "1665-09-17",
+        "note": "Madrid"
+      },
+      "causeOfDeath": "Illness after a long decline"
+    },
+    {
+      "id": "charles-ii",
+      "name": "Charles II",
+      "epithet": "the Bewitched",
+      "house": "habsburg",
+      "born": {
+        "date": "1661-11-06",
+        "note": "Madrid"
+      },
+      "died": {
+        "date": "1700-11-01",
+        "note": "Madrid"
+      },
+      "causeOfDeath": "Lifelong ill health; exact cause unclear"
+    },
+    {
+      "id": "philip-v",
+      "name": "Philip V",
+      "house": "bourbon",
+      "born": {
+        "date": "1683-12-19",
+        "note": "Palace of Versailles, France"
+      },
+      "died": {
+        "date": "1746-07-09",
+        "note": "Madrid"
+      },
+      "causeOfDeath": "Stroke"
+    },
+    {
+      "id": "louis-i",
+      "name": "Louis I",
+      "house": "bourbon",
+      "born": {
+        "date": "1707-08-25",
+        "note": "Madrid"
+      },
+      "died": {
+        "date": "1724-08-31",
+        "note": "Madrid"
+      },
+      "causeOfDeath": "Smallpox"
+    },
+    {
+      "id": "ferdinand-vi",
+      "name": "Ferdinand VI",
+      "house": "bourbon",
+      "born": {
+        "date": "1713-09-23",
+        "note": "Madrid"
+      },
+      "died": {
+        "date": "1759-08-10",
+        "note": "Villaviciosa de Odón, near Madrid"
+      },
+      "causeOfDeath": "Illness after a mental collapse"
+    },
+    {
+      "id": "charles-iii",
+      "name": "Charles III",
+      "house": "bourbon",
+      "born": {
+        "date": "1716-01-20",
+        "note": "Madrid"
+      },
+      "died": {
+        "date": "1788-12-14",
+        "note": "Madrid"
+      },
+      "causeOfDeath": "Illness, aged 72"
+    },
+    {
+      "id": "charles-iv",
+      "name": "Charles IV",
+      "house": "bourbon",
+      "born": {
+        "date": "1748-11-11",
+        "note": "Portici, Kingdom of Naples"
+      },
+      "died": {
+        "date": "1819-01-20",
+        "note": "Rome, in exile"
+      },
+      "causeOfDeath": "Illness, in exile"
+    },
+    {
+      "id": "ferdinand-vii",
+      "name": "Ferdinand VII",
+      "epithet": "the Desired",
+      "house": "bourbon",
+      "born": {
+        "date": "1784-10-14",
+        "note": "El Escorial, near Madrid"
+      },
+      "died": {
+        "date": "1833-09-29",
+        "note": "Madrid"
+      },
+      "causeOfDeath": "Stroke"
+    },
+    {
+      "id": "joseph-i",
+      "name": "Joseph I",
+      "house": "bonaparte",
+      "born": {
+        "date": "1768-01-07",
+        "note": "Corte, Corsica"
+      },
+      "died": {
+        "date": "1844-07-28",
+        "note": "Florence, Italy"
+      },
+      "causeOfDeath": "Illness, in exile"
+    },
+    {
+      "id": "isabella-ii",
+      "name": "Isabella II",
+      "house": "bourbon",
+      "born": {
+        "date": "1830-10-10",
+        "note": "Madrid"
+      },
+      "died": {
+        "date": "1904-04-09",
+        "note": "Paris, in exile"
+      },
+      "causeOfDeath": "Natural causes, aged 73"
+    },
+    {
+      "id": "amadeo-i",
+      "name": "Amadeo I",
+      "house": "savoy",
+      "born": {
+        "date": "1845-05-30",
+        "note": "Turin"
+      },
+      "died": {
+        "date": "1890-01-18",
+        "note": "Turin"
+      },
+      "causeOfDeath": "Illness, aged 44"
+    },
+    {
+      "id": "alfonso-xii",
+      "name": "Alfonso XII",
+      "house": "bourbon",
+      "born": {
+        "date": "1857-11-28",
+        "note": "Madrid"
+      },
+      "died": {
+        "date": "1885-11-25",
+        "note": "El Pardo palace, near Madrid"
+      },
+      "causeOfDeath": "Tuberculosis"
+    },
+    {
+      "id": "alfonso-xiii",
+      "name": "Alfonso XIII",
+      "house": "bourbon",
+      "born": {
+        "date": "1886-05-17",
+        "note": "Royal Palace, Madrid"
+      },
+      "died": {
+        "date": "1941-02-28",
+        "note": "Rome, in exile"
+      },
+      "causeOfDeath": "Heart failure"
+    },
+    {
+      "id": "francisco-franco",
+      "name": "Francisco Franco",
+      "epithet": "El Caudillo",
+      "house": "franco",
+      "born": {
+        "date": "1892-12-04",
+        "note": "Ferrol, Galicia"
+      },
+      "died": {
+        "date": "1975-11-20",
+        "note": "Madrid"
+      },
+      "causeOfDeath": "Heart failure after a long illness"
+    },
+    {
+      "id": "juan-carlos-i",
+      "name": "Juan Carlos I",
+      "house": "bourbon",
+      "born": {
+        "date": "1938-01-05",
+        "note": "Rome"
+      }
+    },
+    {
+      "id": "felipe-vi",
+      "name": "Felipe VI",
+      "house": "bourbon",
+      "born": {
+        "date": "1968-01-30",
+        "note": "Madrid"
+      }
+    }
+  ],
+  "reigns": [
+    {
+      "id": "ferdinand-and-isabella",
+      "title": "Ferdinand & Isabella",
+      "kind": "monarch",
+      "rulers": [
+        "ferdinand-ii",
+        "isabella-i"
+      ],
+      "tagline": "The power couple who made Spain and remade the world",
+      "start": {
+        "date": "1479-01-20"
+      },
+      "end": {
+        "date": "1504-11-26"
+      },
+      "contestedWith": [],
+      "relationToPredecessor": "Heirs of Castile and Aragon, married",
+      "ageAtAccession": "26 and 27",
+      "cameToPower": "Won a war; Ferdinand inherited Aragon",
+      "reignEnded": "Isabella died at Medina del Campo",
+      "previously": "1469: Isabella weds Ferdinand in secret. In 1474 she grabs Castile.",
+      "paragraphs": [
+        "Isabella was meant to marry whoever her half-brother Henry IV picked. Instead, in 1469, she married her cousin Ferdinand, heir to Aragon, in a hush-hush wedding at Valladolid. When Henry died in 1474 she had herself proclaimed queen at Segovia, then fought a five-year war against his daughter Joanna. In January 1479 Ferdinand's father died and he became King of Aragon. Two crowns, one couple. Spain had arrived, more or less.",
+        "Then came 1492, the busiest year in Spanish history. In January Granada, the last Muslim kingdom in Iberia, surrendered. In March the monarchs ordered every Jew to convert or leave. In October Columbus, sailing on Isabella's money, reached the Caribbean. Their new Inquisition was already burning people judged false converts. In 1496 the Pope gave them the title they're still known by: the Catholic Monarchs.",
+        "Their children were meant to tie Spain to all of Europe. Catherine went to England, Joanna to the Habsburgs. But death kept rewriting the plan. Their only son John died in 1497, aged 19. Their eldest daughter died in childbirth a year later, and her baby son followed in 1500. When Isabella died in 1504, Castile passed to the next in line: Joanna, now living in Flanders with a husband Ferdinand didn't trust."
+      ],
+      "claims": [
+        {
+          "text": "Isabella pawned her crown jewels to pay for Columbus's voyage.",
+          "status": "legend",
+          "note": "The money was raised mostly through loans arranged by royal treasury officials. The jewel story grew up later and has no solid evidence behind it."
+        },
+        {
+          "text": "The papal permission the cousins needed to marry was a fake.",
+          "status": "confirmed",
+          "note": "Historians agree the dispensation shown at the 1469 wedding was irregular or forged. A genuine one came from Pope Sixtus IV in 1471."
+        },
+        {
+          "text": "Isabella swore not to change her underclothes until Granada fell.",
+          "status": "legend",
+          "note": "A much later folk tale, also told about her great-granddaughter Isabella Clara Eugenia at the siege of Ostend. No contemporary source mentions it."
+        }
+      ],
+      "hook": "Isabella is dead and her crown goes to her daughter Joanna, living in Flanders with her handsome Habsburg husband. Ferdinand is no longer King of Castile, and he knows Philip wants the job.",
+      "images": [
+        {
+          "file": "File:FerdinandIsabellaSpain.jpg",
+          "url": "https://upload.wikimedia.org/wikipedia/commons/0/0b/FerdinandIsabellaSpain.jpg",
+          "page": "https://commons.wikimedia.org/wiki/File:FerdinandIsabellaSpain.jpg",
+          "credit": "Unknown artist",
+          "license": "Public domain",
+          "made": "Late 15th century",
+          "caption": "Anonymous double portrait kept at the Augustinian convent in Madrigal de las Altas Torres, Isabella's birthplace.",
+          "alt": "Painted double portrait of Ferdinand and Isabella side by side, facing each other"
+        }
+      ],
+      "sources": [
+        {
+          "title": "Isabel the Queen: Life and Times",
+          "author": "Peggy K. Liss",
+          "note": "Oxford University Press, 1992"
+        },
+        {
+          "title": "Ferdinand and Isabella",
+          "author": "Felipe Fernández-Armesto",
+          "note": "1975"
+        },
+        {
+          "title": "Crónica de los Reyes Católicos",
+          "author": "Hernando del Pulgar"
+        },
+        {
+          "title": "The Spanish Inquisition: A Historical Revision",
+          "author": "Henry Kamen",
+          "note": "Yale University Press, 1997"
+        }
+      ],
+      "review": {
+        "status": "draft",
+        "notes": "Drafted from the listed sources; needs a human fact-check."
+      }
+    },
+    {
+      "id": "joanna",
+      "kind": "monarch",
+      "rulers": [
+        "joanna"
+      ],
+      "tagline": "The queen who spent 46 years locked in a castle",
+      "start": {
+        "date": "1504-11-26"
+      },
+      "end": {
+        "date": "1516-03-14"
+      },
+      "contestedWith": [],
+      "relationToPredecessor": "Daughter of Ferdinand and Isabella",
+      "ageAtAccession": "25",
+      "cameToPower": "Inherited Castile from her mother",
+      "reignEnded": "Son Charles proclaimed co-king",
+      "previously": "Isabella is dead. Castile goes to her daughter Joanna, in Flanders.",
+      "paragraphs": [
+        "Joanna had married Philip the Handsome, son of the Emperor Maximilian, in 1496. It was passionate and stormy, and Philip strayed. When Isabella died, Ferdinand and Philip both wanted to rule Castile in Joanna's name. Philip won: in 1506 the Castilian nobles backed him and he became King Philip I. Three months later he was dead at Burgos, after a sudden fever. He was 28.",
+        "What happened next made Joanna famous. Pregnant and grieving, she travelled slowly across Castile with Philip's coffin. Ferdinand came back to rule as regent, and in 1509 he shut his daughter away in a palace at Tordesillas. Ferdinand died in January 1516, and that March her eldest son Charles was proclaimed king in Brussels. She was never deposed. Joanna stayed queen in name, alongside Charles, until her death in 1555."
+      ],
+      "claims": [
+        {
+          "text": "Joanna was mad.",
+          "status": "disputed",
+          "note": "She was clearly troubled, maybe deeply depressed. But her father, husband and son all gained by calling her unfit, and some historians think they exaggerated it to keep her powerless."
+        },
+        {
+          "text": "Joanna had Philip's coffin opened so she could see his body.",
+          "status": "disputed",
+          "note": "Reports from her court say it was opened at least once, but the image of her endlessly gazing at the corpse comes from later storytellers and 19th-century painters."
+        },
+        {
+          "text": "Philip the Handsome was poisoned.",
+          "status": "disputed",
+          "note": "Rumours spread at once, and some pointed at Ferdinand. The usual account is a fever after a game of pelota and a cold drink; there's no proof of murder."
+        }
+      ],
+      "hook": "Charles is 16, raised in Flanders, and barely speaks Spanish. He has just been handed two kingdoms, and the Castilians are about to find out what a foreign king is like.",
+      "images": [
+        {
+          "file": "File:Juan de Flandes - Portrait of Joan the Mad - WGA12045.jpg",
+          "url": "https://upload.wikimedia.org/wikipedia/commons/3/3f/Juan_de_Flandes_-_Portrait_of_Joan_the_Mad_-_WGA12045.jpg",
+          "page": "https://commons.wikimedia.org/wiki/File:Juan_de_Flandes_-_Portrait_of_Joan_the_Mad_-_WGA12045.jpg",
+          "credit": "Juan de Flandes",
+          "license": "Public domain",
+          "made": "c. 1500",
+          "caption": "Painted around 1500 and long said to show Joanna, though some experts think the sitter is another princess.",
+          "alt": "Small panel portrait of a young noblewoman, head and shoulders"
+        }
+      ],
+      "sources": [
+        {
+          "title": "Juana the Mad: Sovereignty and Dynasty in Renaissance Europe",
+          "author": "Bethany Aram",
+          "note": "Johns Hopkins University Press, 2005"
+        },
+        {
+          "title": "Opus Epistolarum",
+          "author": "Peter Martyr d'Anghiera",
+          "note": "Letters from the Castilian court"
+        },
+        {
+          "title": "Imperial Spain 1469–1716",
+          "author": "J. H. Elliott",
+          "note": "1963"
+        }
+      ],
+      "review": {
+        "status": "draft",
+        "notes": "Drafted from the listed sources; needs a human fact-check."
+      }
+    },
+    {
+      "id": "charles-i",
+      "kind": "monarch",
+      "rulers": [
+        "charles-i"
+      ],
+      "tagline": "One man, half of Europe, and a whole new world",
+      "start": {
+        "date": "1516-03-14"
+      },
+      "end": {
+        "date": "1556-01-16"
+      },
+      "contestedWith": [],
+      "relationToPredecessor": "Son of Joanna",
+      "ageAtAccession": "16",
+      "cameToPower": "Proclaimed king in Brussels",
+      "reignEnded": "Abdicated, worn out",
+      "previously": "Ferdinand is dead. Joanna's teenage son Charles is proclaimed king.",
+      "paragraphs": [
+        "Charles arrived in Spain in 1517 with a pack of Flemish advisers and very little Spanish. In 1519 he was elected Holy Roman Emperor as Charles V, and left again to collect his new title. Castile's towns rose in the Comuneros revolt. Charles's forces crushed them at Villalar in 1521. After that he made a real effort to become Spanish, and in 1526 married his cousin Isabella of Portugal.",
+        "Nobody since Charlemagne had ruled so much. Spain, the Low Countries, much of Italy, Austria and Germany. Across the Atlantic, Cortés took the Aztec empire and Pizarro the Inca, and American silver began pouring in. He spent decades at war: with France, whose king he captured at Pavia in 1525, with the Ottomans, and with the Protestant princes of Germany after Luther.",
+        "By the 1550s he was exhausted and crippled by gout. In a tearful ceremony at Brussels in 1555 he began giving it all away. Austria and the imperial title went to his brother Ferdinand. Spain, Italy, the Low Countries and the Americas went to his son Philip. Charles retired to a monastery at Yuste and died there in 1558."
+      ],
+      "claims": [
+        {
+          "text": "Charles said he spoke Spanish to God, Italian to women, French to men and German to his horse.",
+          "status": "legend",
+          "note": "The quip is told in many versions, with the languages shuffled. It turns up long after his death with no contemporary source."
+        },
+        {
+          "text": "At Yuste he held his own funeral and watched it from the pews.",
+          "status": "disputed",
+          "note": "A monk's account says he did, shortly before he fell ill. Many historians think it was a memorial service for his parents and wife that later tellers embellished."
+        },
+        {
+          "text": "His jaw jutted so far that he couldn't close his mouth properly.",
+          "status": "confirmed",
+          "note": "Ambassadors described his underbite and how it made eating and speaking hard. His portraits show it, even when painters tried to soften it."
+        }
+      ],
+      "hook": "Philip is 28, serious and hard-working. He inherits the richest empire on earth, plus his father's wars and debts. Within a year and a half Spain can't pay its bankers.",
+      "images": [
+        {
+          "file": "File:Carlos V en la Batalla de Mühlberg, por Tiziano.jpg",
+          "url": "https://upload.wikimedia.org/wikipedia/commons/2/2d/Carlos_V_en_la_Batalla_de_M%C3%BChlberg%2C_por_Tiziano.jpg",
+          "page": "https://commons.wikimedia.org/wiki/File:Carlos_V_en_la_Batalla_de_M%C3%BChlberg,_por_Tiziano.jpg",
+          "credit": "Titian",
+          "license": "Public domain",
+          "made": "1548",
+          "caption": "Titian painted Charles on horseback in 1548, celebrating his victory at Mühlberg the year before.",
+          "alt": "Equestrian portrait of Charles V in full armour, holding a lance, riding a dark horse"
+        }
+      ],
+      "sources": [
+        {
+          "title": "Emperor: A New Life of Charles V",
+          "author": "Geoffrey Parker",
+          "note": "Yale University Press, 2019"
+        },
+        {
+          "title": "The Reign of Charles V",
+          "author": "William Maltby",
+          "note": "Palgrave, 2002"
+        },
+        {
+          "title": "Imperial Spain 1469–1716",
+          "author": "J. H. Elliott",
+          "note": "1963"
+        }
+      ],
+      "review": {
+        "status": "draft",
+        "notes": "Drafted from the listed sources; needs a human fact-check."
+      }
+    },
+    {
+      "id": "philip-ii",
+      "kind": "monarch",
+      "rulers": [
+        "philip-ii"
+      ],
+      "tagline": "The paperwork king whose empire the sun never set on",
+      "start": {
+        "date": "1556-01-16"
+      },
+      "end": {
+        "date": "1598-09-13"
+      },
+      "contestedWith": [],
+      "relationToPredecessor": "Son of Charles I",
+      "ageAtAccession": "28",
+      "cameToPower": "Father abdicated in his favour",
+      "reignEnded": "Died slowly at El Escorial",
+      "previously": "Charles V abdicates and retires to a monastery. Philip gets Spain.",
+      "paragraphs": [
+        "Philip ran his empire from a desk. He read and scribbled on mountains of reports, made Madrid his capital in 1561 and built the vast palace-monastery of El Escorial. He married four times, once to Mary I of England. He went bankrupt four times too. In 1580 he added Portugal and its empire, and now it really was true: the sun never set on Spain's lands.",
+        "He was also at war almost nonstop. His fleet helped smash the Ottomans at Lepanto in 1571. But the Dutch rebelled in 1568, and the fight dragged on past his death. In 1588 he sent the Armada against Elizabeth I. Storms and English ships wrecked it. His troubled eldest son Don Carlos died locked up in 1568. Philip ended his days at El Escorial, covered in sores and in agony, still signing papers."
+      ],
+      "claims": [
+        {
+          "text": "Philip had his son Don Carlos murdered.",
+          "status": "disputed",
+          "note": "His enemy William of Orange said so in 1581, and the story fed the 'Black Legend'. Most historians think Carlos died of illness and self-starvation in confinement."
+        },
+        {
+          "text": "On hearing of the Armada, he said he'd sent his ships to fight men, not the elements.",
+          "status": "disputed",
+          "note": "The line appears in later accounts and fits his calm style, but no reliable contemporary witness records him saying it."
+        },
+        {
+          "text": "He complained God had given him many kingdoms but no son fit to rule them.",
+          "status": "legend",
+          "note": "A famous remark attributed to him by later writers. It sums up his worries about Philip III, but there's no trustworthy record of it."
+        }
+      ],
+      "hook": "Philip II is gone. His heir is 20, pious and amiable, and much keener on hunting and theatre than on reading reports. Someone else is going to have to do the work.",
+      "images": [
+        {
+          "file": "File:Felipe II por Sofonisba Anguissola, 1573.jpg",
+          "url": "https://upload.wikimedia.org/wikipedia/commons/3/3e/Felipe_II_por_Sofonisba_Anguissola%2C_1573.jpg",
+          "page": "https://commons.wikimedia.org/wiki/File:Felipe_II_por_Sofonisba_Anguissola,_1573.jpg",
+          "credit": "Sofonisba Anguissola",
+          "license": "Public domain",
+          "made": "1573",
+          "caption": "Painted by Sofonisba Anguissola, an Italian artist who spent years at Philip's court.",
+          "alt": "Portrait of Philip II dressed in black, holding a rosary"
+        }
+      ],
+      "sources": [
+        {
+          "title": "Imprudent King: A New Life of Philip II",
+          "author": "Geoffrey Parker",
+          "note": "Yale University Press, 2014"
+        },
+        {
+          "title": "Philip of Spain",
+          "author": "Henry Kamen",
+          "note": "Yale University Press, 1997"
+        },
+        {
+          "title": "Imperial Spain 1469–1716",
+          "author": "J. H. Elliott",
+          "note": "1963"
+        }
+      ],
+      "review": {
+        "status": "draft",
+        "notes": "Drafted from the listed sources; needs a human fact-check."
+      }
+    },
+    {
+      "id": "philip-iii",
+      "kind": "monarch",
+      "rulers": [
+        "philip-iii"
+      ],
+      "tagline": "The king who handed the keys to his best friend",
+      "start": {
+        "date": "1598-09-13"
+      },
+      "end": {
+        "date": "1621-03-31"
+      },
+      "contestedWith": [],
+      "relationToPredecessor": "Son of Philip II",
+      "ageAtAccession": "20",
+      "cameToPower": "Inherited from his father",
+      "reignEnded": "Died of fever in Madrid",
+      "previously": "Philip II dies at El Escorial after 42 years. His son takes over.",
+      "paragraphs": [
+        "Philip III let his favourite, the Duke of Lerma, run the country. Lerma got rich fast. He even moved the court to Valladolid in 1601, then back to Madrid in 1606. Spain made peace with England in 1604 and agreed a twelve-year truce with the Dutch in 1609. It was a breather after decades of war, and the years of Cervantes, whose Don Quixote came out in 1605.",
+        "The same year as the Dutch truce, Philip ordered the expulsion of the Moriscos, Muslims who had been forced to convert. Around 300,000 people were driven out, and farming in Valencia and Aragon was badly hit. Lerma's enemies brought him down in 1618, just as the Thirty Years' War broke out in Bohemia. Philip died in 1621, aged 42, of a fever."
+      ],
+      "claims": [
+        {
+          "text": "Philip died because nobody with the right job was there to move a hot brazier away from him.",
+          "status": "legend",
+          "note": "The tale of the king roasting by the fire while courtiers hunted for the official in charge came from a French memoir much later. He did die of a fever."
+        },
+        {
+          "text": "Lerma got himself made a cardinal to stay out of trouble when he fell.",
+          "status": "confirmed",
+          "note": "The Pope made him a cardinal in 1618. A popular rhyme mocked him for dressing in scarlet to escape the gallows."
+        }
+      ],
+      "hook": "The new king is just 15 and keen to look like a real ruler. Standing beside him is a tough, ambitious nobleman who plans to make Spain great again: Olivares.",
+      "images": [
+        {
+          "file": "File:Felipe III, Juan Pantoja de la Cruz.jpg",
+          "url": "https://upload.wikimedia.org/wikipedia/commons/9/9f/Felipe_III%2C_Juan_Pantoja_de_la_Cruz.jpg",
+          "page": "https://commons.wikimedia.org/wiki/File:Felipe_III,_Juan_Pantoja_de_la_Cruz.jpg",
+          "credit": "Juan Pantoja de la Cruz (photo: Jl FilpoC)",
+          "license": "CC BY-SA 4.0",
+          "made": "1603",
+          "caption": "Painted by Juan Pantoja de la Cruz in 1603, when the king was 25 and the court sat at Valladolid.",
+          "alt": "Portrait of Philip III in ornate armour with a large ruff collar"
+        }
+      ],
+      "sources": [
+        {
+          "title": "Kingship and Favoritism in the Spain of Philip III, 1598–1621",
+          "author": "Antonio Feros",
+          "note": "Cambridge University Press, 2000"
+        },
+        {
+          "title": "The Great Favourite: The Duke of Lerma and the Court and Government of Philip III of Spain, 1598–1621",
+          "author": "Patrick Williams",
+          "note": "Manchester University Press, 2006"
+        },
+        {
+          "title": "Imperial Spain 1469–1716",
+          "author": "J. H. Elliott",
+          "note": "1963"
+        }
+      ],
+      "review": {
+        "status": "draft",
+        "notes": "Drafted from the listed sources; needs a human fact-check."
+      }
+    },
+    {
+      "id": "philip-iv",
+      "kind": "monarch",
+      "rulers": [
+        "philip-iv"
+      ],
+      "tagline": "Velázquez painted him. The empire started to crack.",
+      "start": {
+        "date": "1621-03-31"
+      },
+      "end": {
+        "date": "1665-09-17"
+      },
+      "contestedWith": [],
+      "relationToPredecessor": "Son of Philip III",
+      "ageAtAccession": "15",
+      "cameToPower": "Inherited from his father",
+      "reignEnded": "Died in Madrid, heir aged 3",
+      "previously": "Philip III dies of a fever. His teenage son inherits the throne.",
+      "paragraphs": [
+        "For 22 years the real boss was the Count-Duke of Olivares. He threw Spain into the Thirty Years' War and wanted every kingdom to share the cost. Philip loved plays, hunting and painting. In 1623 he hired the young Diego Velázquez, who painted him for over 30 years. Las Meninas, painted in 1656, shows the king and queen as a reflection in a mirror at the back.",
+        "In 1640 Catalonia and Portugal both rebelled. The Catalans were brought back in 1652, but the Portuguese never were. Olivares fell in 1643, the year the French beat Spain's army at Rocroi. In 1648 Spain recognised Dutch independence. The 1659 Peace of the Pyrenees married Philip's daughter Maria Theresa to Louis XIV of France. His heir Baltasar Carlos had died in 1646, so everything rested on a sickly boy born in 1661."
+      ],
+      "claims": [
+        {
+          "text": "Philip wrote more than 600 letters to a nun, Sor María de Ágreda, seeking her advice.",
+          "status": "confirmed",
+          "note": "Their correspondence from 1643 to 1665 survives and has been published. He wrote on one half of the page so she could answer on the other."
+        },
+        {
+          "text": "He fathered dozens of illegitimate children.",
+          "status": "disputed",
+          "note": "Gossip put the number in the thirties. Only one, Don Juan José of Austria, was officially acknowledged, though a few others are reasonably well documented."
+        }
+      ],
+      "hook": "The king is dead. His heir is a frail three-year-old, the last male of Spain's Habsburgs. Everyone in Europe is already wondering how long he'll last.",
+      "images": [
+        {
+          "file": "File:Felipe IV de España - Diego Velázquez.jpg",
+          "url": "https://upload.wikimedia.org/wikipedia/commons/5/53/Felipe_IV_de_Espa%C3%B1a_-_Diego_Vel%C3%A1zquez.jpg",
+          "page": "https://commons.wikimedia.org/wiki/File:Felipe_IV_de_Espa%C3%B1a_-_Diego_Vel%C3%A1zquez.jpg",
+          "credit": "Diego Velázquez",
+          "license": "CC BY-SA 4.0",
+          "made": "c. 1656",
+          "caption": "Velázquez painted this late portrait of the king around 1656, the year of Las Meninas.",
+          "alt": "Head-and-shoulders portrait of Philip IV, an older man with a long face and moustache, in dark clothes"
+        }
+      ],
+      "sources": [
+        {
+          "title": "The Count-Duke of Olivares: The Statesman in an Age of Decline",
+          "author": "J. H. Elliott",
+          "note": "Yale University Press, 1986"
+        },
+        {
+          "title": "Philip IV and the Government of Spain, 1621–1665",
+          "author": "R. A. Stradling",
+          "note": "Cambridge University Press, 1988"
+        },
+        {
+          "title": "Imperial Spain 1469–1716",
+          "author": "J. H. Elliott",
+          "note": "1963"
+        }
+      ],
+      "review": {
+        "status": "draft",
+        "notes": "Drafted from the listed sources; needs a human fact-check."
+      }
+    },
+    {
+      "id": "charles-ii",
+      "kind": "monarch",
+      "rulers": [
+        "charles-ii"
+      ],
+      "tagline": "The last Habsburg king, and Europe's waiting game",
+      "start": {
+        "date": "1665-09-17"
+      },
+      "end": {
+        "date": "1700-11-01"
+      },
+      "contestedWith": [],
+      "relationToPredecessor": "Son of Philip IV",
+      "ageAtAccession": "3",
+      "cameToPower": "Inherited as a toddler",
+      "reignEnded": "Died childless in Madrid",
+      "previously": "Philip IV is dead. His only surviving son is a sickly three-year-old.",
+      "paragraphs": [
+        "Charles was the product of generations of cousins marrying cousins. His father was also his great-uncle. He was slow to walk and talk, and had the Habsburg jaw so badly that chewing was hard. His mother Mariana of Austria ruled as regent while ministers and his half-brother Don Juan José fought for control. He married twice, in 1679 and 1690. Neither marriage produced a child.",
+        "With no heir, Spain's empire became the big prize in Europe. France and Austria both had claims and plotted to carve it up. In Madrid, people whispered the king was under a spell, and priests performed exorcisms on him. Near death in October 1700, Charles signed a will leaving everything, undivided, to Philip of Anjou, grandson of Louis XIV. He died on 1 November, aged 38."
+      ],
+      "claims": [
+        {
+          "text": "Charles was exorcised because people believed he was bewitched.",
+          "status": "confirmed",
+          "note": "Court records and letters describe exorcisms in the late 1690s, arranged amid rival factions. That's where his nickname comes from."
+        },
+        {
+          "text": "Inbreeding made Charles the most inbred of all Spain's Habsburgs.",
+          "status": "confirmed",
+          "note": "A 2009 genetic study of the family tree by Álvarez and colleagues gave him the highest inbreeding score of the dynasty, close to that of a child of siblings."
+        },
+        {
+          "text": "His autopsy found a heart the size of a peppercorn.",
+          "status": "legend",
+          "note": "A colourful line repeated in popular books. Reliable versions of the autopsy are hard to pin down, and the details have grown in the telling."
+        }
+      ],
+      "hook": "A 17-year-old French prince is the new King of Spain. His grandfather Louis XIV is delighted. Austria, England and the Dutch are not. Europe is heading for war.",
+      "images": [
+        {
+          "file": "File:Carlos II de España, de Juan Carreño de Miranda (Museo del Prado).jpg",
+          "url": "https://upload.wikimedia.org/wikipedia/commons/2/2e/Carlos_II_de_Espa%C3%B1a%2C_de_Juan_Carre%C3%B1o_de_Miranda_%28Museo_del_Prado%29.jpg",
+          "page": "https://commons.wikimedia.org/wiki/File:Carlos_II_de_Espa%C3%B1a,_de_Juan_Carre%C3%B1o_de_Miranda_(Museo_del_Prado).jpg",
+          "credit": "Juan Carreño de Miranda",
+          "license": "Public domain",
+          "made": "1673",
+          "caption": "Painted by court artist Juan Carreño de Miranda in 1673, when Charles was about 11.",
+          "alt": "Portrait of the boy king Charles II of Spain"
+        }
+      ],
+      "sources": [
+        {
+          "title": "Spain in the Later Seventeenth Century, 1665–1700",
+          "author": "Henry Kamen",
+          "note": "Longman, 1980"
+        },
+        {
+          "title": "The Resilience of the Spanish Monarchy, 1665–1700",
+          "author": "Christopher Storrs",
+          "note": "Oxford University Press, 2006"
+        },
+        {
+          "title": "The Role of Inbreeding in the Extinction of a European Royal Dynasty",
+          "author": "Gonzalo Álvarez, Francisco C. Ceballos and Celsa Quinteiro",
+          "note": "PLoS ONE, 2009"
+        }
+      ],
+      "review": {
+        "status": "draft",
+        "notes": "Drafted from the listed sources; needs a human fact-check."
+      }
+    },
+    {
+      "id": "philip-v",
+      "kind": "monarch",
+      "rulers": [
+        "philip-v"
+      ],
+      "tagline": "A French teenager inherits Spain, and a world war",
+      "start": {
+        "date": "1700-11-16"
+      },
+      "end": {
+        "date": "1724-01-14"
+      },
+      "relationToPredecessor": "Great-nephew of Charles II",
+      "ageAtAccession": "16",
+      "cameToPower": "Named in Charles II's will",
+      "reignEnded": "Abdicated to his son",
+      "previously": "Charles II dies childless. His will leaves everything to a Frenchman.",
+      "paragraphs": [
+        "Philip was Duke of Anjou, a shy grandson of Louis XIV who never expected a throne. Charles II's will changed that. Louis accepted it for him at Versailles, and Europe panicked. One family running both France and Spain was too much power for Britain, the Dutch and Austria, who backed a rival king: Archduke Charles of Austria. The War of the Spanish Succession had begun.",
+        "It dragged on for over a decade. Philip lost Madrid twice and won it back, and the big victory at Almansa in 1707 kept him in the game. The peace at Utrecht in 1713 let him keep Spain and its empire, but he lost Spain's lands in Italy and the Netherlands, and Britain kept Gibraltar and Minorca. Barcelona, which had backed his rival, fell in 1714, and Philip scrapped the old self-rule of Aragon and Catalonia.",
+        "Then the king's mind began to crack. He sank into black depressions and became obsessed with his own soul. In January 1724, to everyone's astonishment, he gave up the crown and retired to his new palace at La Granja to pray."
+      ],
+      "claims": [
+        {
+          "text": "Louis XIV declared “There are no more Pyrenees” when his grandson became King of Spain.",
+          "status": "disputed",
+          "note": "The line is usually pinned on Louis, but some accounts give it to the Spanish ambassador at Versailles. Either way it was reported second-hand."
+        },
+        {
+          "text": "Philip's abdication in 1724 was a surprise to almost everyone at court.",
+          "status": "confirmed",
+          "note": "Kamen shows he had been planning it secretly for years, sharing the idea only with his wife and his confessor."
+        }
+      ],
+      "hook": "Spain has a new king who is just 16 years old. But his father is only a few miles away in the mountains, and he hasn't really let go.",
+      "images": [
+        {
+          "file": "File:Hyacinthe Rigaud - Philippe V, roi d'Espagne (1683-1746) - Google Art Project.jpg",
+          "url": "https://upload.wikimedia.org/wikipedia/commons/5/5f/Hyacinthe_Rigaud_-_Philippe_V%2C_roi_d%27Espagne_%281683-1746%29_-_Google_Art_Project.jpg",
+          "page": "https://commons.wikimedia.org/wiki/File:Hyacinthe_Rigaud_-_Philippe_V,_roi_d%27Espagne_(1683-1746)_-_Google_Art_Project.jpg",
+          "credit": "Hyacinthe Rigaud",
+          "license": "Public domain",
+          "made": "c. 1701",
+          "caption": "Painted by Louis XIV's favourite portraitist just as the teenage Philip left France to become King of Spain.",
+          "alt": "Full-length painted portrait of the young Philip V standing in black Spanish court dress"
+        }
+      ],
+      "sources": [
+        {
+          "title": "Philip V of Spain: The King Who Reigned Twice",
+          "author": "Henry Kamen",
+          "note": "Yale University Press, 2001"
+        },
+        {
+          "title": "Bourbon Spain, 1700–1808",
+          "author": "John Lynch",
+          "note": "Blackwell, 1989"
+        },
+        {
+          "title": "The War of Succession in Spain, 1700–15",
+          "author": "Henry Kamen",
+          "note": "Weidenfeld & Nicolson, 1969"
+        },
+        {
+          "title": "Mémoires",
+          "author": "Louis de Rouvroy, duc de Saint-Simon",
+          "note": "Eyewitness of the French court and of Madrid in 1721–22"
+        }
+      ],
+      "review": {
+        "status": "draft",
+        "notes": "Drafted from the listed sources; needs a human fact-check."
+      }
+    },
+    {
+      "id": "louis-i",
+      "kind": "monarch",
+      "rulers": [
+        "louis-i"
+      ],
+      "tagline": "The boy king who lasted seven months",
+      "start": {
+        "date": "1724-01-15"
+      },
+      "end": {
+        "date": "1724-08-31"
+      },
+      "relationToPredecessor": "Eldest son of Philip V",
+      "ageAtAccession": "16",
+      "cameToPower": "His father abdicated",
+      "reignEnded": "Died of smallpox",
+      "previously": "A gloomy Philip V gives up his crown and heads off to pray.",
+      "paragraphs": [
+        "Louis was the first Bourbon born in Spain, and the people loved him for it. He was cheerful, liked parties and seemed a welcome change. But his father had kept the real power. Ministers still sent the big decisions up to La Granja, where Philip and his strong-willed second wife, Elisabeth Farnese, were watching closely.",
+        "Louis's marriage was a mess. His French wife, Louise Élisabeth of Orléans, was a teenager who ignored court etiquette and behaved wildly in public, and Louis had her locked up for a few days to calm her down. Then in August 1724 he caught smallpox. He died on 31 August, just 17 years old, after about seven months as king. His will handed the crown straight back to his father."
+      ],
+      "claims": [
+        {
+          "text": "Louis I had the shortest reign of any King of Spain.",
+          "status": "confirmed",
+          "note": "His reign of about seven and a half months is regularly called the shortest in Spanish royal history."
+        },
+        {
+          "text": "Queen Louise Élisabeth wandered the palace half-dressed and climbed trees in the gardens.",
+          "status": "disputed",
+          "note": "The stories come from ambassadors' letters and court gossip. Her odd behaviour is well attested, but the details may have grown in the telling."
+        }
+      ],
+      "hook": "The young king is dead. Philip V swore before God that he was done with ruling. Now Spain's theologians must decide whether he can break that oath.",
+      "images": [
+        {
+          "file": "File:Luis I y un perro negro.jpg",
+          "url": "https://upload.wikimedia.org/wikipedia/commons/0/01/Luis_I_y_un_perro_negro.jpg",
+          "page": "https://commons.wikimedia.org/wiki/File:Luis_I_y_un_perro_negro.jpg",
+          "credit": "Attributed to Jean Ranc",
+          "license": "Public domain",
+          "made": "Early 18th century",
+          "caption": "Louis painted as Prince of Asturias, before his short reign.",
+          "alt": "Painted portrait of the young Prince Louis with a black dog"
+        }
+      ],
+      "sources": [
+        {
+          "title": "Philip V of Spain: The King Who Reigned Twice",
+          "author": "Henry Kamen",
+          "note": "Yale University Press, 2001"
+        },
+        {
+          "title": "Bourbon Spain, 1700–1808",
+          "author": "John Lynch",
+          "note": "Blackwell, 1989"
+        },
+        {
+          "title": "Mémoires",
+          "author": "Louis de Rouvroy, duc de Saint-Simon",
+          "note": "Met Louis and his bride in Madrid in 1721–22"
+        }
+      ],
+      "review": {
+        "status": "draft",
+        "notes": "Drafted from the listed sources; needs a human fact-check."
+      }
+    },
+    {
+      "id": "philip-v-restored",
+      "kind": "monarch",
+      "rulers": [
+        "philip-v"
+      ],
+      "title": "Philip V, again",
+      "tagline": "The king who came back, and slowly lost his mind",
+      "start": {
+        "date": "1724-09-06"
+      },
+      "end": {
+        "date": "1746-07-09"
+      },
+      "relationToPredecessor": "Father of Louis I",
+      "ageAtAccession": "40",
+      "cameToPower": "Took back the throne he gave up",
+      "reignEnded": "Died of a stroke",
+      "previously": "Young King Louis dies of smallpox after just seven months.",
+      "paragraphs": [
+        "Philip had sworn never to rule again, but a council of churchmen let him off the hook, and his wife made sure he took it. Elisabeth Farnese now drove Spanish policy. She had sons of her own who would never inherit Spain, so she set out to win them thrones in Italy. Her eldest, Charles, got Naples and Sicily in 1734.",
+        "At home the king was falling apart. He stayed in bed for weeks, refused to change his clothes, slept by day and held meetings at night. In 1737 the queen brought in the famous castrato singer Farinelli, whose voice calmed the king night after night. Philip died of a stroke in July 1746. Counting both stints, he reigned about 45 years, the longest of any Spanish king."
+      ],
+      "claims": [
+        {
+          "text": "Farinelli sang the same few songs to the king every night for years.",
+          "status": "disputed",
+          "note": "Farinelli's private singing for Philip is well documented. The exact routine, often given as four songs nightly for ten years, comes from later retellings."
+        },
+        {
+          "text": "Philip believed at times that he was a frog.",
+          "status": "legend",
+          "note": "A popular story with no solid contemporary source. Ambassadors did record real delusions, rages and refusals to wash or dress."
+        },
+        {
+          "text": "A council of theologians cleared Philip to break his vow and return.",
+          "status": "confirmed",
+          "note": "Kamen and other historians describe the consultation in detail; the advice was split, but the king took the throne back."
+        }
+      ],
+      "hook": "The crown passes to Philip's surviving son by his first marriage. Ferdinand has spent years in his stepmother's shadow. Now she is the one being pushed aside.",
+      "images": [
+        {
+          "file": "File:Hyacinthe Rigaud - Philippe V, roi d'Espagne (1683-1746) - Google Art Project.jpg",
+          "url": "https://upload.wikimedia.org/wikipedia/commons/5/5f/Hyacinthe_Rigaud_-_Philippe_V%2C_roi_d%27Espagne_%281683-1746%29_-_Google_Art_Project.jpg",
+          "page": "https://commons.wikimedia.org/wiki/File:Hyacinthe_Rigaud_-_Philippe_V,_roi_d%27Espagne_(1683-1746)_-_Google_Art_Project.jpg",
+          "credit": "Hyacinthe Rigaud",
+          "license": "Public domain",
+          "made": "c. 1701",
+          "caption": "Painted by Louis XIV's favourite portraitist just as the teenage Philip left France to become King of Spain.",
+          "alt": "Full-length painted portrait of the young Philip V standing in black Spanish court dress"
+        }
+      ],
+      "sources": [
+        {
+          "title": "Philip V of Spain: The King Who Reigned Twice",
+          "author": "Henry Kamen",
+          "note": "Yale University Press, 2001"
+        },
+        {
+          "title": "Bourbon Spain, 1700–1808",
+          "author": "John Lynch",
+          "note": "Blackwell, 1989"
+        }
+      ],
+      "review": {
+        "status": "draft",
+        "notes": "Drafted from the listed sources; needs a human fact-check."
+      }
+    },
+    {
+      "id": "ferdinand-vi",
+      "kind": "monarch",
+      "rulers": [
+        "ferdinand-vi"
+      ],
+      "tagline": "A peaceful king who died of a broken heart",
+      "start": {
+        "date": "1746-07-09"
+      },
+      "end": {
+        "date": "1759-08-10"
+      },
+      "relationToPredecessor": "Son of Philip V",
+      "ageAtAccession": "32",
+      "cameToPower": "Inherited from his father",
+      "reignEnded": "Died a year after his wife",
+      "previously": "Philip V dies of a stroke after about 45 years on and off the throne.",
+      "paragraphs": [
+        "Ferdinand was gentle, anxious and devoted to music and to his wife, Barbara of Braganza, a Portuguese princess. His first move was to send his stepmother Elisabeth Farnese away from court. Then he did something rare for a Spanish king: he kept the country out of war. When Britain and France went at each other again in 1756, Spain stayed neutral.",
+        "His ministers used the calm well. The Marquis of Ensenada rebuilt the navy and ran a huge survey of land and wealth in Castile. Farinelli stayed on and staged operas for the royal couple. But when Barbara died in August 1758, Ferdinand fell apart. He shut himself away at Villaviciosa de Odón, stopped eating properly and sank into madness. He died a year later with no children."
+      ],
+      "claims": [
+        {
+          "text": "Ferdinand lost his mind from grief after Queen Barbara died.",
+          "status": "confirmed",
+          "note": "Courtiers and doctors recorded his collapse at Villaviciosa in detail. Historians agree that he had a family history of depression too."
+        },
+        {
+          "text": "Ensenada's survey of Castile is still one of the richest records of 18th-century life.",
+          "status": "confirmed",
+          "note": "The Catastro de Ensenada survives in Spanish archives and is used by historians to this day."
+        }
+      ],
+      "hook": "No son, so the crown goes to Ferdinand's half-brother. Charles has spent 25 years as King of Naples. He has to give that up, and sail to Spain.",
+      "images": [
+        {
+          "file": "File:Fernando VI de España (Museo del Prado).jpg",
+          "url": "https://upload.wikimedia.org/wikipedia/commons/b/bf/Fernando_VI_de_Espa%C3%B1a_%28Museo_del_Prado%29.jpg",
+          "page": "https://commons.wikimedia.org/wiki/File:Fernando_VI_de_Espa%C3%B1a_(Museo_del_Prado).jpg",
+          "credit": "Louis-Michel van Loo",
+          "license": "Public domain",
+          "made": "18th century",
+          "caption": "By the French court painter Louis-Michel van Loo, now in the Prado.",
+          "alt": "Painted portrait of King Ferdinand VI in a powdered wig"
+        }
+      ],
+      "sources": [
+        {
+          "title": "Bourbon Spain, 1700–1808",
+          "author": "John Lynch",
+          "note": "Blackwell, 1989"
+        },
+        {
+          "title": "Fernando VI",
+          "author": "José Luis Gómez Urdáñez",
+          "note": "Arlanza, 2001"
+        }
+      ],
+      "review": {
+        "status": "draft",
+        "notes": "Drafted from the listed sources; needs a human fact-check."
+      }
+    },
+    {
+      "id": "charles-iii",
+      "kind": "monarch",
+      "rulers": [
+        "charles-iii"
+      ],
+      "tagline": "The king who rebuilt Madrid",
+      "start": {
+        "date": "1759-08-10"
+      },
+      "end": {
+        "date": "1788-12-14"
+      },
+      "relationToPredecessor": "Half-brother of Ferdinand VI",
+      "ageAtAccession": "43",
+      "cameToPower": "Left Naples to inherit Spain",
+      "reignEnded": "Died in Madrid",
+      "previously": "Ferdinand VI dies childless, a year after losing his beloved queen.",
+      "paragraphs": [
+        "Charles arrived as an experienced king: he had ruled Naples for 25 years. He was a plain man who loved hunting and kept a strict routine. He also wanted Spain modern. Madrid got paved and lit streets, drains, the Puerta de Alcalá and the building that later became the Prado. People still call him the best mayor Madrid ever had.",
+        "Not all his reforms went down well. In 1766 a ban on long capes and wide hats, meant to stop criminals hiding their faces, sparked riots that forced him out of Madrid for a while. Charles blamed the Jesuits and expelled them from Spain and its empire in 1767. Later he backed the American rebels against Britain and won back Minorca and Florida. He died in December 1788, aged 72."
+      ],
+      "claims": [
+        {
+          "text": "A row over hats and cloaks nearly toppled the government.",
+          "status": "confirmed",
+          "note": "The Esquilache riots of March 1766 are well documented. Food prices and anger at foreign ministers mattered as much as the clothes."
+        },
+        {
+          "text": "The Jesuits secretly stirred up the 1766 riots.",
+          "status": "disputed",
+          "note": "The government's own inquiry said so, and used it to justify the expulsion. Historians have found little hard evidence."
+        }
+      ],
+      "hook": "The crown goes to Charles's son, a kindly man who loves hunting and clocks more than politics. Within months, France erupts in revolution.",
+      "images": [
+        {
+          "file": "File:Carlos III de España, de Anton Raphael Mengs (Museo del Prado).jpg",
+          "url": "https://upload.wikimedia.org/wikipedia/commons/b/bb/Carlos_III_de_Espa%C3%B1a%2C_de_Anton_Raphael_Mengs_%28Museo_del_Prado%29.jpg",
+          "page": "https://commons.wikimedia.org/wiki/File:Carlos_III_de_Espa%C3%B1a,_de_Anton_Raphael_Mengs_(Museo_del_Prado).jpg",
+          "credit": "Anton Raphael Mengs",
+          "license": "Public domain",
+          "made": "c. 1774",
+          "caption": "Painted by Anton Raphael Mengs, Charles's court painter, about midway through the reign.",
+          "alt": "Painted portrait of King Charles III in armour"
+        }
+      ],
+      "sources": [
+        {
+          "title": "Bourbon Spain, 1700–1808",
+          "author": "John Lynch",
+          "note": "Blackwell, 1989"
+        },
+        {
+          "title": "Charles III and the Revival of Spain",
+          "author": "Anthony H. Hull",
+          "note": "University Press of America, 1980"
+        }
+      ],
+      "review": {
+        "status": "draft",
+        "notes": "Drafted from the listed sources; needs a human fact-check."
+      }
+    },
+    {
+      "id": "charles-iv",
+      "kind": "monarch",
+      "rulers": [
+        "charles-iv"
+      ],
+      "tagline": "A weak king, a scheming favourite and a bitter son",
+      "start": {
+        "date": "1788-12-14"
+      },
+      "end": {
+        "date": "1808-03-19"
+      },
+      "relationToPredecessor": "Son of Charles III",
+      "ageAtAccession": "40",
+      "cameToPower": "Inherited from his father",
+      "reignEnded": "Forced out by a palace mob",
+      "previously": "Charles III dies after nearly 30 years of building and reform.",
+      "paragraphs": [
+        "Charles IV was big, strong and good-natured, and happy to leave the ruling to others. In 1792 he made Manuel Godoy, a young guardsman and a favourite of Queen Maria Luisa, chief minister. Godoy was only 25. Spain fought revolutionary France, made peace, then became its ally. That alliance cost Spain its fleet at Trafalgar in 1805.",
+        "Godoy was hated, and so was the queen. Crown Prince Ferdinand became the hero of everyone who loathed them. In 1807 Godoy let French troops cross Spain to attack Portugal, and they stayed. In March 1808 a mob stormed Godoy's house at Aranjuez. Terrified, Charles gave up the crown to Ferdinand on 19 March. Goya's huge painting of the royal family, finished in 1801, still shows them as they were."
+      ],
+      "claims": [
+        {
+          "text": "Godoy was the queen's lover.",
+          "status": "disputed",
+          "note": "Courtiers, foreign diplomats and Ferdinand's party all said so. Their hostility makes them weak witnesses, and no firm proof exists."
+        },
+        {
+          "text": "Goya painted the royal family to look foolish on purpose.",
+          "status": "disputed",
+          "note": "A popular reading since the 19th century. The family seems to have been happy with the picture, and many art historians reject the idea."
+        }
+      ],
+      "hook": "Ferdinand is king, and Madrid goes wild with joy. But French troops are already in the capital, and Napoleon has not recognised him.",
+      "images": [
+        {
+          "file": "File:Carlos IV (Goya) 1790.jpg",
+          "url": "https://upload.wikimedia.org/wikipedia/commons/f/f0/Carlos_IV_%28Goya%29_1790.jpg",
+          "page": "https://commons.wikimedia.org/wiki/File:Carlos_IV_(Goya)_1790.jpg",
+          "credit": "Francisco Goya",
+          "license": "Public domain",
+          "made": "1789",
+          "caption": "Painted by Goya in 1789, the first year of the reign.",
+          "alt": "Painted portrait of King Charles IV"
+        }
+      ],
+      "sources": [
+        {
+          "title": "Bourbon Spain, 1700–1808",
+          "author": "John Lynch",
+          "note": "Blackwell, 1989"
+        },
+        {
+          "title": "Spain 1808–1975",
+          "author": "Raymond Carr",
+          "note": "Oxford University Press, 1966; 2nd ed. 1982"
+        },
+        {
+          "title": "Manuel Godoy: la aventura del poder",
+          "author": "Emilio La Parra López",
+          "note": "Tusquets, 2002"
+        },
+        {
+          "title": "Memorias",
+          "author": "Manuel Godoy",
+          "note": "His own self-serving account, written in exile"
+        }
+      ],
+      "review": {
+        "status": "draft",
+        "notes": "Drafted from the listed sources; needs a human fact-check."
+      }
+    },
+    {
+      "id": "ferdinand-vii",
+      "kind": "monarch",
+      "rulers": [
+        "ferdinand-vii"
+      ],
+      "tagline": "King for seven weeks, then Napoleon's prisoner",
+      "start": {
+        "date": "1808-03-19"
+      },
+      "end": {
+        "date": "1808-05-06"
+      },
+      "relationToPredecessor": "Son of Charles IV",
+      "ageAtAccession": "23",
+      "cameToPower": "Father abdicated after a riot",
+      "reignEnded": "Gave up the crown at Bayonne",
+      "previously": "A mob at Aranjuez topples Godoy. Charles IV hands his son the crown.",
+      "paragraphs": [
+        "Spaniards called Ferdinand “the Desired”. He had plotted against Godoy, and for many he was the clean break they wanted. But French troops under Marshal Murat had marched into Madrid days after he took over. Napoleon asked to meet him, and Ferdinand set off north hoping for his blessing. He ended up at Bayonne, across the French border.",
+        "There Napoleon had both kings in his hands, because Charles IV now claimed his abdication had been forced. On 2 May the people of Madrid rose against the French and were shot down in the streets. At Bayonne, Charles handed his rights to Napoleon, and on 6 May Ferdinand gave his crown back to his father. Napoleon sent Ferdinand to a château at Valençay and kept the Spanish throne for his own family."
+      ],
+      "claims": [
+        {
+          "text": "While a prisoner, Ferdinand wrote to Napoleon to congratulate him on French victories in Spain.",
+          "status": "confirmed",
+          "note": "His letters survive. Historians quote them often as proof of how little he cared about the war fought in his name."
+        },
+        {
+          "text": "Goya painted the Madrid uprising of 2 May and the shootings that followed.",
+          "status": "confirmed",
+          "note": "The Second of May 1808 and The Third of May 1808 were painted in 1814 and hang in the Prado."
+        }
+      ],
+      "hook": "Spain has no king of its own. Napoleon has a candidate ready: his older brother Joseph, already King of Naples. He just has to get him to Madrid.",
+      "images": [
+        {
+          "file": "File:Francisco Goya - Portrait of Ferdinand VII of Spain in his robes of state (1815) - Prado.jpg",
+          "url": "https://upload.wikimedia.org/wikipedia/commons/8/8c/Francisco_Goya_-_Portrait_of_Ferdinand_VII_of_Spain_in_his_robes_of_state_%281815%29_-_Prado.jpg",
+          "page": "https://commons.wikimedia.org/wiki/File:Francisco_Goya_-_Portrait_of_Ferdinand_VII_of_Spain_in_his_robes_of_state_(1815)_-_Prado.jpg",
+          "credit": "Francisco Goya",
+          "license": "Public domain",
+          "made": "1814–1815",
+          "caption": "Goya painted the restored king in his robes of state in 1814–15.",
+          "alt": "Full-length painted portrait of King Ferdinand VII in royal robes of state"
+        }
+      ],
+      "sources": [
+        {
+          "title": "Fernando VII: un rey deseado y detestado",
+          "author": "Emilio La Parra López",
+          "note": "Tusquets, 2018"
+        },
+        {
+          "title": "Spain 1808–1975",
+          "author": "Raymond Carr",
+          "note": "Oxford University Press, 1966; 2nd ed. 1982"
+        },
+        {
+          "title": "The Peninsular War: A New History",
+          "author": "Charles Esdaile",
+          "note": "Allen Lane, 2002"
+        }
+      ],
+      "review": {
+        "status": "draft",
+        "notes": "Drafted from the listed sources; needs a human fact-check."
+      }
+    },
+    {
+      "id": "joseph-i",
+      "kind": "monarch",
+      "rulers": [
+        "joseph-i"
+      ],
+      "tagline": "Napoleon's brother on a throne nobody wanted him on",
+      "start": {
+        "date": "1808-06-06"
+      },
+      "end": {
+        "date": "1813-12-11"
+      },
+      "relationToPredecessor": "Imposed by his brother Napoleon",
+      "ageAtAccession": "40",
+      "cameToPower": "Named king by Napoleon",
+      "reignEnded": "Napoleon handed Spain back",
+      "previously": "At Bayonne, Napoleon takes the crown from both Spanish kings.",
+      "paragraphs": [
+        "Joseph was the eldest Bonaparte brother, a lawyer by training and a fairly decent man. He wanted to be a reforming king. Spain did not want him at all. He reached Madrid in July 1808, but within days a French army surrendered at Bailén and he had to flee the city. Napoleon came in person with a huge army to put him back.",
+        "What followed was the Peninsular War. Spanish guerrillas, British troops under Wellington and the Portuguese fought the French for five years, with terrible cruelty on all sides. Meanwhile a Spanish parliament at Cádiz wrote a liberal constitution in 1812. In June 1813 Wellington smashed Joseph's army at Vitoria, and Joseph fled to France. In December Napoleon agreed to give Spain back to Ferdinand."
+      ],
+      "claims": [
+        {
+          "text": "Spaniards nicknamed him “Pepe Botella”, Joe Bottle, for his drinking.",
+          "status": "confirmed",
+          "note": "The nickname is real and was everywhere. The drinking is another matter: people who knew Joseph said he drank very little."
+        },
+        {
+          "text": "Wellington captured paintings from Spain's royal collection in Joseph's baggage at Vitoria.",
+          "status": "confirmed",
+          "note": "Ferdinand VII later let Wellington keep them. Many still hang at Apsley House in London."
+        }
+      ],
+      "hook": "Ferdinand is coming home after six years in France. Spain has fought and bled in his name, and written a new constitution. What will the Desired make of it?",
+      "images": [
+        {
+          "file": "File:Joseph Bonaparte, King of Spain, by Robert Lefevre.jpg",
+          "url": "https://upload.wikimedia.org/wikipedia/commons/d/df/Joseph_Bonaparte%2C_King_of_Spain%2C_by_Robert_Lefevre.jpg",
+          "page": "https://commons.wikimedia.org/wiki/File:Joseph_Bonaparte,_King_of_Spain,_by_Robert_Lefevre.jpg",
+          "credit": "Robert Lefèvre",
+          "license": "Public domain",
+          "made": "Early 19th century",
+          "caption": "Joseph as King of Spain, painted by the French portraitist Robert Lefèvre.",
+          "alt": "Painted portrait of Joseph Bonaparte as King of Spain"
+        }
+      ],
+      "sources": [
+        {
+          "title": "The Peninsular War: A New History",
+          "author": "Charles Esdaile",
+          "note": "Allen Lane, 2002"
+        },
+        {
+          "title": "The Gentle Bonaparte: A Biography of Joseph, Napoleon's Elder Brother",
+          "author": "Owen Connelly",
+          "note": "Macmillan, 1968"
+        },
+        {
+          "title": "Spain 1808–1975",
+          "author": "Raymond Carr",
+          "note": "Oxford University Press, 1966; 2nd ed. 1982"
+        }
+      ],
+      "review": {
+        "status": "draft",
+        "notes": "Drafted from the listed sources; needs a human fact-check."
+      }
+    },
+    {
+      "id": "ferdinand-vii-restored",
+      "kind": "monarch",
+      "rulers": [
+        "ferdinand-vii"
+      ],
+      "title": "Ferdinand VII, again",
+      "tagline": "The Desired comes home, and turns into a tyrant",
+      "start": {
+        "date": "1813-12-11"
+      },
+      "end": {
+        "date": "1833-09-29"
+      },
+      "relationToPredecessor": "Restored Bourbon king",
+      "ageAtAccession": "29",
+      "cameToPower": "Freed by Napoleon",
+      "reignEnded": "Died of a stroke",
+      "previously": "Beaten at Vitoria, Joseph flees. Napoleon agrees to free Ferdinand.",
+      "paragraphs": [
+        "Ferdinand came back in 1814 to a hero's welcome, and in May he tore up the 1812 constitution and jailed the liberals who had kept Spain fighting. In 1820 an army officer, Rafael del Riego, led a revolt and forced him to accept it again. Ferdinand played along for three years until a French army, the “Hundred Thousand Sons of Saint Louis”, restored his full power in 1823. Riego was hanged.",
+        "Meanwhile Spain lost almost all its American mainland empire. Ferdinand married four times, and only his last wife, Maria Christina of the Two Sicilies, gave him children: two girls. In 1830 he changed the law so his daughter Isabella could inherit. That cut out his brother Carlos, who thought the crown was his.",
+        "Ferdinand died on 29 September 1833. His daughter became Queen Isabella II, aged just two, with her mother as regent. Within days, Carlos's supporters rose in revolt."
+      ],
+      "claims": [
+        {
+          "text": "Ferdinand told Spain “Let us march frankly, and I the first, along the constitutional path.”",
+          "status": "confirmed",
+          "note": "The line is from his manifesto of March 1820. He worked against the constitution in secret from the start."
+        },
+        {
+          "text": "Ferdinand founded the Prado Museum.",
+          "status": "confirmed",
+          "note": "The royal museum opened in 1819 under Ferdinand, with his second wife Maria Isabel of Braganza usually credited as the driving force."
+        }
+      ],
+      "hook": "A toddler is queen, her uncle Carlos says the throne is his, and northern Spain takes up arms for him. The first of the Carlist Wars has begun.",
+      "images": [
+        {
+          "file": "File:Francisco Goya - Portrait of Ferdinand VII of Spain in his robes of state (1815) - Prado.jpg",
+          "url": "https://upload.wikimedia.org/wikipedia/commons/8/8c/Francisco_Goya_-_Portrait_of_Ferdinand_VII_of_Spain_in_his_robes_of_state_%281815%29_-_Prado.jpg",
+          "page": "https://commons.wikimedia.org/wiki/File:Francisco_Goya_-_Portrait_of_Ferdinand_VII_of_Spain_in_his_robes_of_state_(1815)_-_Prado.jpg",
+          "credit": "Francisco Goya",
+          "license": "Public domain",
+          "made": "1814–1815",
+          "caption": "Goya painted the restored king in his robes of state in 1814–15.",
+          "alt": "Full-length painted portrait of King Ferdinand VII in royal robes of state"
+        }
+      ],
+      "sources": [
+        {
+          "title": "Fernando VII: un rey deseado y detestado",
+          "author": "Emilio La Parra López",
+          "note": "Tusquets, 2018"
+        },
+        {
+          "title": "Spain 1808–1975",
+          "author": "Raymond Carr",
+          "note": "Oxford University Press, 1966; 2nd ed. 1982"
+        },
+        {
+          "title": "The Spanish Bourbons: The History of a Tenacious Dynasty",
+          "author": "John D. Bergamini",
+          "note": "Putnam, 1974"
+        }
+      ],
+      "review": {
+        "status": "draft",
+        "notes": "Drafted from the listed sources; needs a human fact-check."
+      }
+    },
+    {
+      "id": "isabella-ii",
+      "kind": "monarch",
+      "rulers": [
+        "isabella-ii"
+      ],
+      "tagline": "A toddler queen, a jealous uncle and decades of war",
+      "start": {
+        "date": "1833-09-29"
+      },
+      "end": {
+        "date": "1868-09-30"
+      },
+      "contestedWith": [],
+      "relationToPredecessor": "Daughter of Ferdinand VII",
+      "ageAtAccession": "2",
+      "cameToPower": "Father scrapped the ban on queens",
+      "reignEnded": "Overthrown, fled to France",
+      "previously": "Ferdinand VII dies, leaving a two-year-old girl and a furious brother.",
+      "paragraphs": [
+        "Isabella was two when she became queen, and half of Spain refused to accept her. Her uncle Carlos said a woman couldn't inherit, and his supporters, the Carlists, went to war. Her mother Maria Christina ran things, then the general Espartero. At 13 Isabella was declared an adult so the politicians could stop fighting over who got to be regent.",
+        "At 16 she was married off to her cousin Francis, a match nearly everyone agreed was a disaster. Her reign became a merry-go-round of generals, coups and favourites, with the queen's private life the talk of Madrid. In September 1868 the army and navy rose against her. After her troops lost at Alcolea, she crossed into France and never ruled again."
+      ],
+      "claims": [
+        {
+          "text": "Her husband was not the father of her son, the future Alfonso XII.",
+          "status": "disputed",
+          "note": "Court gossip at the time named an army officer, Enrique Puigmoltó. It was never proven, and Alfonso was legally the king's son."
+        },
+        {
+          "text": "Her wedding was rigged to sideline a rival power.",
+          "status": "confirmed",
+          "note": "The 1846 double wedding, with her sister marrying a French prince, sparked the 'Affair of the Spanish Marriages' and infuriated Britain."
+        }
+      ],
+      "hook": "The queen is gone and the generals have won. Now they have to decide what Spain actually is. A republic? A new dynasty? Nobody can agree.",
+      "sources": [
+        {
+          "title": "Isabel II: Una biografía (1830-1904)",
+          "author": "Isabel Burdiel",
+          "note": "Taurus, 2010"
+        },
+        {
+          "title": "Spain 1808-1975",
+          "author": "Raymond Carr",
+          "note": "Oxford University Press, 2nd ed. 1982"
+        },
+        {
+          "title": "Isabel II (Diccionario Biográfico Español)",
+          "author": "Real Academia de la Historia"
+        }
+      ],
+      "images": [
+        {
+          "file": "File:Federico de Madrazo y Kuntz - Retrato de Isabel II - Google Art Project.jpg",
+          "url": "https://upload.wikimedia.org/wikipedia/commons/0/05/Federico_de_Madrazo_y_Kuntz_-_Retrato_de_Isabel_II_-_Google_Art_Project.jpg",
+          "page": "https://commons.wikimedia.org/wiki/File:Federico_de_Madrazo_y_Kuntz_-_Retrato_de_Isabel_II_-_Google_Art_Project.jpg",
+          "credit": "Federico de Madrazo y Kuntz",
+          "license": "Public domain",
+          "made": "1844",
+          "caption": "Painted by Federico de Madrazo in 1844, the year after the teenage queen was declared of age.",
+          "alt": "Painted portrait of the young Queen Isabella II of Spain"
+        }
+      ],
+      "review": {
+        "status": "draft",
+        "notes": "Drafted from the listed sources; needs a human fact-check."
+      }
+    },
+    {
+      "id": "revolution",
+      "kind": "interregnum",
+      "rulers": [],
+      "house": "provisional",
+      "title": "The Glorious Revolution",
+      "tagline": "Spain sacks its queen and goes shopping for a king",
+      "start": {
+        "date": "1868-09-30"
+      },
+      "end": {
+        "date": "1870-11-16"
+      },
+      "contestedWith": [],
+      "relationToPredecessor": "Overthrew Isabella II",
+      "ageAtAccession": "No monarch",
+      "cameToPower": "Military revolt, won at Alcolea",
+      "reignEnded": "Parliament elected Amadeo king",
+      "previously": "The army and navy rise up, and Isabella II flees to France.",
+      "paragraphs": [
+        "The revolution was called La Gloriosa, the Glorious one. Admiral Topete started it at Cádiz, General Prim brought the liberals, and General Serrano won the only real battle, at the bridge of Alcolea. A provisional government took over, promised freedoms of press and religion, and held elections with a vote for all adult men.",
+        "The new constitution of 1869 kept Spain a monarchy, which left one small problem: there was no monarch. Serrano became regent while Prim hunted across Europe for a king. One candidate, the German prince Leopold of Hohenzollern, set off a crisis that helped start the Franco-Prussian War. In November 1870 the Cortes finally voted for an Italian prince, Amadeo of Savoy."
+      ],
+      "claims": [
+        {
+          "text": "Spain's search for a king helped spark the Franco-Prussian War.",
+          "status": "confirmed",
+          "note": "French fury over Leopold's candidacy led to the Ems telegram, which Bismarck used to push France into war in July 1870."
+        },
+        {
+          "text": "Prim joked that finding a democratic king in Europe was like finding an atheist in heaven.",
+          "status": "disputed",
+          "note": "The line is quoted everywhere, but it is hard to pin it to a reliable record of him saying it."
+        }
+      ],
+      "hook": "Amadeo accepts the crown. But the man who chose him, General Prim, is ambushed in a Madrid street. Prim dies just as the new king lands in Spain.",
+      "sources": [
+        {
+          "title": "Spain 1808-1975",
+          "author": "Raymond Carr",
+          "note": "Oxford University Press, 2nd ed. 1982"
+        },
+        {
+          "title": "Juan Prim; Francisco Serrano (Diccionario Biográfico Español)",
+          "author": "Real Academia de la Historia"
+        },
+        {
+          "title": "Constitución de 1869",
+          "author": "Cortes Constituyentes",
+          "note": "Primary source"
+        }
+      ],
+      "images": [
+        {
+          "file": "File:Batalla del puente de Alcolea (1868).jpg",
+          "url": "https://upload.wikimedia.org/wikipedia/commons/4/46/Batalla_del_puente_de_Alcolea_%281868%29.jpg",
+          "page": "https://commons.wikimedia.org/wiki/File:Batalla_del_puente_de_Alcolea_(1868).jpg",
+          "credit": "José María Rodríguez de Losada",
+          "license": "Public domain",
+          "made": "c. 1869",
+          "caption": "A painting of the battle at the bridge of Alcolea, 28 September 1868, made about a year later.",
+          "alt": "Painting of the battle of Alcolea bridge in 1868, with rebel and royal troops fighting"
+        }
+      ],
+      "review": {
+        "status": "draft",
+        "notes": "Drafted from the listed sources; needs a human fact-check."
+      }
+    },
+    {
+      "id": "amadeo-i",
+      "kind": "monarch",
+      "rulers": [
+        "amadeo-i"
+      ],
+      "tagline": "The Italian king who quit after two years",
+      "start": {
+        "date": "1870-11-16"
+      },
+      "end": {
+        "date": "1873-02-11"
+      },
+      "contestedWith": [],
+      "relationToPredecessor": "Elected by the Cortes",
+      "ageAtAccession": "25",
+      "cameToPower": "Voted in by parliament",
+      "reignEnded": "Abdicated in disgust",
+      "previously": "Spain has a new constitution, no king and a job advert out.",
+      "paragraphs": [
+        "Amadeo was a younger son of King Victor Emmanuel II of Italy. He arrived in Spain at the end of 1870 to find his main backer, Prim, dead. Madrid's grandees snubbed him, the Church distrusted him, and the press mocked his accent. In 1872 gunmen ambushed his carriage in a Madrid street. He and the queen came through unhurt.",
+        "He tried to be a proper constitutional king, but the politicians kept splitting, a new Carlist war broke out in the north and Cuba was in revolt. When a row with the army's artillery officers left him stuck, he gave up. In February 1873 he abdicated, sent a frosty farewell to the Cortes and went home to Italy."
+      ],
+      "claims": [
+        {
+          "text": "He said Spain was impossible to govern because its enemies were Spaniards themselves.",
+          "status": "confirmed",
+          "note": "His abdication message says that if the enemies were foreign he would fight them, but they were Spaniards, and he could see no remedy."
+        },
+        {
+          "text": "Madrid wits nicknamed him 'Macarronini I'.",
+          "status": "confirmed",
+          "note": "The jibe at his Italian origins turns up in the satirical press and songs of the time."
+        }
+      ],
+      "hook": "The king has walked out. That same day, the Cortes vote for something Spain has never tried before: a republic.",
+      "sources": [
+        {
+          "title": "Spain 1808-1975",
+          "author": "Raymond Carr",
+          "note": "Oxford University Press, 2nd ed. 1982"
+        },
+        {
+          "title": "Amadeo I de Saboya (Diccionario Biográfico Español)",
+          "author": "Real Academia de la Historia"
+        },
+        {
+          "title": "Abdication message to the Cortes, 11 February 1873",
+          "author": "Amadeo I",
+          "note": "Primary source"
+        }
+      ],
+      "images": [
+        {
+          "file": "File:Retrato de Amadeo I de España (Banco de España).jpg",
+          "url": "https://upload.wikimedia.org/wikipedia/commons/b/b5/Retrato_de_Amadeo_I_de_Espa%C3%B1a_%28Banco_de_Espa%C3%B1a%29.jpg",
+          "page": "https://commons.wikimedia.org/wiki/File:Retrato_de_Amadeo_I_de_Espa%C3%B1a_(Banco_de_Espa%C3%B1a).jpg",
+          "credit": "Carlos Luis de Ribera y Fieve",
+          "license": "Public domain",
+          "made": "19th century",
+          "caption": "Amadeo in the uniform of a Spanish captain general, from the Bank of Spain's collection.",
+          "alt": "Painted portrait of King Amadeo I in a captain general's uniform, wearing the collar of the Order of the Golden Fleece"
+        }
+      ],
+      "review": {
+        "status": "draft",
+        "notes": "Drafted from the listed sources; needs a human fact-check."
+      }
+    },
+    {
+      "id": "first-republic",
+      "kind": "interregnum",
+      "rulers": [],
+      "house": "republic",
+      "title": "The First Republic",
+      "tagline": "Four presidents in eleven months, then the army walks in",
+      "start": {
+        "date": "1873-02-11"
+      },
+      "end": {
+        "date": "1874-12-29"
+      },
+      "contestedWith": [],
+      "relationToPredecessor": "Replaced Amadeo's monarchy",
+      "ageAtAccession": "No monarch",
+      "cameToPower": "Voted in by the Cortes",
+      "reignEnded": "General proclaimed Alfonso XII",
+      "previously": "Fed up, Amadeo abdicates and sails home to Italy.",
+      "paragraphs": [
+        "The republic got four presidents in its first eleven months: Figueras, Pi i Margall, Salmerón and Castelar. The Carlists were still fighting in the north and Cuba was still in revolt. Then, in summer 1873, cities in the south declared themselves independent cantons. Cartagena held out for months with the navy's ships in its harbour.",
+        "In January 1874 General Pavía sent troops into the Cortes and broke it up. General Serrano ran a republic in name only for most of the year. Meanwhile the Bourbon supporters, led by the politician Cánovas, got ready. On 29 December 1874 General Martínez Campos proclaimed Isabella's son king at Sagunto, and the republic quietly folded."
+      ],
+      "claims": [
+        {
+          "text": "General Pavía rode his horse into the Cortes chamber.",
+          "status": "legend",
+          "note": "A popular picture of the coup, but accounts say he stayed outside and his soldiers did the clearing."
+        },
+        {
+          "text": "President Figueras told his cabinet he couldn't take it any more, then slipped off to France.",
+          "status": "disputed",
+          "note": "He did leave suddenly for Paris in June 1873. His famously rude farewell line comes from later retellings."
+        },
+        {
+          "text": "Salmerón resigned rather than sign death sentences.",
+          "status": "confirmed",
+          "note": "He stepped down in September 1873 over the army's demand to approve executions."
+        }
+      ],
+      "hook": "Isabella's son is a teenage cadet at Sandhurst. His supporters have just made him king. He's coming home.",
+      "sources": [
+        {
+          "title": "Spain 1808-1975",
+          "author": "Raymond Carr",
+          "note": "Oxford University Press, 2nd ed. 1982"
+        },
+        {
+          "title": "Diccionario Biográfico Español",
+          "author": "Real Academia de la Historia",
+          "note": "Entries on Figueras, Pi i Margall, Salmerón, Castelar"
+        }
+      ],
+      "images": [
+        {
+          "file": "File:Alegoría de la Primera República Española, por Tomás Padró.jpg",
+          "url": "https://upload.wikimedia.org/wikipedia/commons/c/ce/Alegor%C3%ADa_de_la_Primera_Rep%C3%BAblica_Espa%C3%B1ola%2C_por_Tom%C3%A1s_Padr%C3%B3.jpg",
+          "page": "https://commons.wikimedia.org/wiki/File:Alegor%C3%ADa_de_la_Primera_Rep%C3%BAblica_Espa%C3%B1ola,_por_Tom%C3%A1s_Padr%C3%B3.jpg",
+          "credit": "Tomás Padró; lithograph by Juan Vazquez",
+          "license": "Public domain",
+          "made": "1873",
+          "caption": "An allegory of the new republic from the satirical magazine La Flaca, published in March 1873.",
+          "alt": "Lithograph allegory celebrating the proclamation of the First Spanish Republic, from the magazine La Flaca"
+        }
+      ],
+      "review": {
+        "status": "draft",
+        "notes": "Drafted from the listed sources; needs a human fact-check."
+      }
+    },
+    {
+      "id": "alfonso-xii",
+      "kind": "monarch",
+      "rulers": [
+        "alfonso-xii"
+      ],
+      "tagline": "The comeback king who ran out of time at 27",
+      "start": {
+        "date": "1874-12-29"
+      },
+      "end": {
+        "date": "1885-11-25"
+      },
+      "contestedWith": [],
+      "relationToPredecessor": "Son of Isabella II",
+      "ageAtAccession": "17",
+      "cameToPower": "Proclaimed by a general at Sagunto",
+      "reignEnded": "Died of tuberculosis",
+      "previously": "A general proclaims Isabella's son king, and the republic folds.",
+      "paragraphs": [
+        "Alfonso grew up in exile and finished his schooling as a cadet at Sandhurst. From there he signed a manifesto promising Spaniards a modern, liberal Catholic monarchy. The real brains was Cánovas, who built a system where two parties, his Conservatives and Sagasta's Liberals, took turns in power. Elections were fixed to match. It was stable, if not exactly democratic.",
+        "The new king helped end the last Carlist war in 1876. He married for love: his cousin Mercedes, who died of typhoid five months after the wedding, aged 18. Spain still sings about her. He remarried, to Maria Christina of Austria, and had two daughters. Then tuberculosis caught up with him. He died in 1885, three days short of his 28th birthday."
+      ],
+      "claims": [
+        {
+          "text": "Spaniards still sing a children's song about his grief for Mercedes.",
+          "status": "confirmed",
+          "note": "'¿Dónde vas, Alfonso XII?' is a well-known traditional song about the young widowed king."
+        },
+        {
+          "text": "He was still a cadet at Sandhurst when he was proclaimed king.",
+          "status": "confirmed",
+          "note": "He had joined the Royal Military College in 1874 and issued his manifesto from there on 1 December 1874."
+        }
+      ],
+      "hook": "The king is dead, with no son. But his widow is pregnant. If the baby is a boy, Spain will have a king from the moment he's born.",
+      "sources": [
+        {
+          "title": "Spain 1808-1975",
+          "author": "Raymond Carr",
+          "note": "Oxford University Press, 2nd ed. 1982"
+        },
+        {
+          "title": "Alfonso XII (Diccionario Biográfico Español)",
+          "author": "Real Academia de la Historia"
+        },
+        {
+          "title": "Manifiesto de Sandhurst, 1 December 1874",
+          "author": "Alfonso de Borbón",
+          "note": "Primary source"
+        }
+      ],
+      "images": [
+        {
+          "file": "File:Alfonso XII de España (Museo del Prado).jpg",
+          "url": "https://upload.wikimedia.org/wikipedia/commons/9/90/Alfonso_XII_de_Espa%C3%B1a_%28Museo_del_Prado%29.jpg",
+          "page": "https://commons.wikimedia.org/wiki/File:Alfonso_XII_de_Espa%C3%B1a_(Museo_del_Prado).jpg",
+          "credit": "Ramón García Espínola",
+          "license": "Public domain",
+          "made": "c. 1875",
+          "caption": "Painted around 1875, the year the young king came home to Madrid.",
+          "alt": "Painted portrait of King Alfonso XII in a captain general's uniform, wearing the Golden Fleece and the sash of the Order of Charles III"
+        }
+      ],
+      "review": {
+        "status": "draft",
+        "notes": "Drafted from the listed sources; needs a human fact-check."
+      }
+    },
+    {
+      "id": "alfonso-xiii",
+      "kind": "monarch",
+      "rulers": [
+        "alfonso-xiii"
+      ],
+      "tagline": "Born a king, survived the bombs, lost the vote",
+      "start": {
+        "date": "1886-05-17"
+      },
+      "end": {
+        "date": "1931-04-14"
+      },
+      "contestedWith": [],
+      "relationToPredecessor": "Posthumous son of Alfonso XII",
+      "ageAtAccession": "Newborn",
+      "cameToPower": "King from the moment of birth",
+      "reignEnded": "Left Spain after the 1931 elections",
+      "previously": "Alfonso XII dies at 27. His widow is pregnant.",
+      "paragraphs": [
+        "He was king the second he was born. His mother Maria Christina ran Spain until he came of age at 16, and it was on her watch that Spain lost Cuba, Puerto Rico and the Philippines to the United States in 1898. On his wedding day in 1906, an anarchist threw a bomb hidden in a bouquet at the royal coach. Alfonso and his British bride were unhurt. More than twenty bystanders were killed.",
+        "He kept Spain out of the First World War but couldn't keep it calm. Strikes, riots and a disaster in Morocco in 1921, when thousands of Spanish soldiers died at Annual, shook his throne. In 1923 he accepted General Primo de Rivera's dictatorship. When that collapsed, the monarchy went with it. After republicans swept the cities in April 1931, he left the country."
+      ],
+      "claims": [
+        {
+          "text": "His sons inherited haemophilia from Queen Victoria's line.",
+          "status": "confirmed",
+          "note": "His wife, Victoria Eugenie, was Victoria's granddaughter. Two of their sons had the disease."
+        },
+        {
+          "text": "He backed Primo de Rivera's coup before it happened.",
+          "status": "disputed",
+          "note": "He certainly accepted it at once. Historians still argue over whether he knew in advance."
+        }
+      ],
+      "hook": "The king has gone, without formally abdicating. In the streets, crowds wave the purple, yellow and red flag of a new republic.",
+      "sources": [
+        {
+          "title": "Spain 1808-1975",
+          "author": "Raymond Carr",
+          "note": "Oxford University Press, 2nd ed. 1982"
+        },
+        {
+          "title": "Alfonso XIII (Diccionario Biográfico Español)",
+          "author": "Real Academia de la Historia"
+        }
+      ],
+      "images": [
+        {
+          "file": "File:Alfonso XIII by Joaquín Sorolla.jpg",
+          "url": "https://upload.wikimedia.org/wikipedia/commons/4/49/Alfonso_XIII_by_Joaqu%C3%ADn_Sorolla.jpg",
+          "page": "https://commons.wikimedia.org/wiki/File:Alfonso_XIII_by_Joaqu%C3%ADn_Sorolla.jpg",
+          "credit": "Joaquín Sorolla",
+          "license": "Public domain",
+          "made": "Early 20th century",
+          "caption": "Painted by Joaquín Sorolla, one of Spain's best-known painters of the time.",
+          "alt": "Painted portrait of King Alfonso XIII by Joaquín Sorolla"
+        }
+      ],
+      "review": {
+        "status": "draft",
+        "notes": "Drafted from the listed sources; needs a human fact-check."
+      }
+    },
+    {
+      "id": "second-republic",
+      "kind": "interregnum",
+      "rulers": [],
+      "house": "republic",
+      "title": "The Second Republic",
+      "tagline": "A democracy born in joy and torn apart by war",
+      "start": {
+        "date": "1931-04-14"
+      },
+      "end": {
+        "date": "1939-04-01"
+      },
+      "contestedWith": [
+        "franco"
+      ],
+      "relationToPredecessor": "Replaced Alfonso XIII",
+      "ageAtAccession": "No monarch",
+      "cameToPower": "Proclaimed after local elections",
+      "reignEnded": "Defeated in the Civil War",
+      "previously": "Republicans sweep the cities and Alfonso XIII leaves Spain.",
+      "paragraphs": [
+        "The republic arrived with street parties and big plans. A new constitution in 1931 separated Church and state and gave women the vote. Governments led by Manuel Azaña pushed land reform and home rule for Catalonia. The right fought back and won the 1933 election. In 1934 a miners' revolt in Asturias was crushed by the army. Spain was splitting in two.",
+        "The left's Popular Front won in February 1936. In July, army officers launched a coup. It failed in half the country, and that turned it into a civil war. The Republic held Madrid, Barcelona and Valencia, with help from the Soviet Union and the International Brigades. Its enemies had Germany and Italy. Barcelona fell in January 1939, Madrid in March, and on 1 April the war was declared over."
+      ],
+      "claims": [
+        {
+          "text": "Most of Spain's gold reserves were shipped to Moscow.",
+          "status": "confirmed",
+          "note": "In late 1936 the government sent the bulk of the Bank of Spain's gold to the USSR to pay for arms. It never came back."
+        },
+        {
+          "text": "The bombing of Guernica in 1937 killed more than 1,600 people.",
+          "status": "disputed",
+          "note": "That was the Basque government's figure at the time. Modern research puts the toll in the low hundreds."
+        }
+      ],
+      "hook": "The Republic's leaders and hundreds of thousands of refugees cross into France. The general who beat them has been running his own state since 1936.",
+      "sources": [
+        {
+          "title": "The Spanish Civil War: Reaction, Revolution and Revenge",
+          "author": "Paul Preston",
+          "note": "HarperCollins, 3rd ed. 2006"
+        },
+        {
+          "title": "The Battle for Spain",
+          "author": "Antony Beevor",
+          "note": "Weidenfeld & Nicolson, 2006"
+        },
+        {
+          "title": "The Spanish Civil War",
+          "author": "Hugh Thomas",
+          "note": "First published 1961; revised editions since"
+        }
+      ],
+      "images": [
+        {
+          "file": "File:Bundesarchiv Bild 102-11543, Madrid, Ausrufung der Zweiten Spanischen Republik.jpg",
+          "url": "https://upload.wikimedia.org/wikipedia/commons/1/10/Bundesarchiv_Bild_102-11543%2C_Madrid%2C_Ausrufung_der_Zweiten_Spanischen_Republik.jpg",
+          "page": "https://commons.wikimedia.org/wiki/File:Bundesarchiv_Bild_102-11543,_Madrid,_Ausrufung_der_Zweiten_Spanischen_Republik.jpg",
+          "credit": "Unknown photographer (Bundesarchiv, Bild 102-11543)",
+          "license": "CC BY-SA 3.0 de",
+          "made": "14 April 1931",
+          "caption": "Students and workers celebrate the new republic on a flag-draped tram in Barcelona, 14 April 1931.",
+          "alt": "Black-and-white photograph of a tram decorated with flags, crowded with celebrating students and workers"
+        }
+      ],
+      "review": {
+        "status": "draft",
+        "notes": "Drafted from the listed sources; needs a human fact-check."
+      }
+    },
+    {
+      "id": "franco",
+      "kind": "interregnum",
+      "rulers": [
+        "francisco-franco"
+      ],
+      "title": "Franco's Spain",
+      "tagline": "The general who won a civil war and ruled until he died",
+      "start": {
+        "date": "1936-10-01"
+      },
+      "end": {
+        "date": "1975-11-20"
+      },
+      "contestedWith": [
+        "second-republic"
+      ],
+      "relationToPredecessor": "Rebel general against the Republic",
+      "ageAtAccession": "43",
+      "cameToPower": "Chosen as leader by rebel generals",
+      "reignEnded": "Died in office",
+      "previously": "The Republic loses the war. Rewind to 1936 and the other side.",
+      "paragraphs": [
+        "Franco was a career soldier from Galicia who made his name in Morocco and became Spain's youngest general at 33. When the coup came in July 1936, he flew from the Canaries to lead the army in Africa. By October his fellow rebels had made him head of state and commander-in-chief. He won the war slowly and thoroughly. Afterwards came a harsh repression, with tens of thousands executed and many more jailed.",
+        "He met Hitler at Hendaye in 1940 but kept Spain out of the Second World War, though he sent volunteers to fight the Soviets. After years of isolation, the Cold War made him useful: US bases arrived in 1953, then tourists and an economic boom. He built the Valley of the Fallen, partly with prisoners' labour. In 1947 he declared Spain a kingdom again, with himself in charge for life."
+      ],
+      "claims": [
+        {
+          "text": "Hitler said he'd rather have teeth pulled than meet Franco again.",
+          "status": "confirmed",
+          "note": "Hitler is reported saying so to Mussolini after Hendaye. It comes from Italian and German accounts, not Hitler's own writing."
+        },
+        {
+          "text": "Franco cleverly tricked Hitler into leaving Spain out of the war.",
+          "status": "disputed",
+          "note": "Franco's admirers say so. Many historians argue his price was too high for Hitler and Spain was too weak to fight."
+        },
+        {
+          "text": "His body was removed from the Valley of the Fallen in 2019.",
+          "status": "confirmed",
+          "note": "The government exhumed him in October 2019 and reburied him in a family tomb near Madrid."
+        }
+      ],
+      "hook": "In 1969 Franco named his heir: Juan Carlos, grandson of Alfonso XIII, raised in Spain under his eye. Everyone expects the young prince to keep the regime going.",
+      "sources": [
+        {
+          "title": "Franco: A Biography",
+          "author": "Paul Preston",
+          "note": "HarperCollins, 1993"
+        },
+        {
+          "title": "The Spanish Holocaust",
+          "author": "Paul Preston",
+          "note": "HarperPress, 2012"
+        },
+        {
+          "title": "The Franco Regime, 1936-1975",
+          "author": "Stanley G. Payne",
+          "note": "University of Wisconsin Press, 1987"
+        }
+      ],
+      "images": [
+        {
+          "file": "File:Francisco Franco 1930.jpg",
+          "url": "https://upload.wikimedia.org/wikipedia/commons/9/92/Francisco_Franco_1930.jpg",
+          "page": "https://commons.wikimedia.org/wiki/File:Francisco_Franco_1930.jpg",
+          "credit": "Jalón Ángel",
+          "license": "CC0",
+          "made": "c. 1939",
+          "caption": "A studio portrait by the photographer Jalón Ángel, around the end of the Civil War.",
+          "alt": "Black-and-white photograph of General Franco wearing a winter cloak"
+        }
+      ],
+      "review": {
+        "status": "draft",
+        "notes": "Drafted from the listed sources; needs a human fact-check."
+      }
+    },
+    {
+      "id": "juan-carlos-i",
+      "kind": "monarch",
+      "rulers": [
+        "juan-carlos-i"
+      ],
+      "tagline": "Franco's heir who handed Spain back to the voters",
+      "start": {
+        "date": "1975-11-22"
+      },
+      "end": {
+        "date": "2014-06-19"
+      },
+      "contestedWith": [],
+      "relationToPredecessor": "Grandson of Alfonso XIII",
+      "ageAtAccession": "37",
+      "cameToPower": "Named heir by Franco",
+      "reignEnded": "Abdicated",
+      "previously": "Franco dies in his bed, having picked a prince to follow him.",
+      "paragraphs": [
+        "Juan Carlos was born in exile in Rome and sent to Spain as a boy to be schooled under Franco's eye. People expected a puppet. Instead, once king, he appointed Adolfo Suárez, who steered through free elections in 1977. Voters approved a democratic constitution in 1978. On 23 February 1981, when officers took parliament hostage, the king went on television in uniform and backed democracy. The coup collapsed.",
+        "For decades that made him hugely popular. Then came the slide. In 2012, during an economic crisis, he broke his hip on an elephant hunt in Botswana and had to apologise in public. In June 2014 he abdicated in favour of his son. In 2020, with his finances under investigation, he moved to the United Arab Emirates. Spanish prosecutors closed their investigations in 2022."
+      ],
+      "claims": [
+        {
+          "text": "His TV address helped defeat the 1981 coup.",
+          "status": "confirmed",
+          "note": "He spoke after midnight on 24 February ordering the army to uphold the constitution. The plotters surrendered later that day."
+        },
+        {
+          "text": "He apologised publicly for the Botswana hunt.",
+          "status": "confirmed",
+          "note": "In April 2012 he told reporters he was very sorry, had made a mistake and it would not happen again."
+        },
+        {
+          "text": "He left Spain to live in the UAE in 2020.",
+          "status": "confirmed",
+          "note": "The royal household announced his departure in August 2020; he was later confirmed to be in Abu Dhabi."
+        }
+      ],
+      "hook": "The crown passes to his son Felipe, a careful, serious-minded heir. His job: win back trust in a monarchy that has lost a lot of it.",
+      "sources": [
+        {
+          "title": "Juan Carlos: Steering Spain from Dictatorship to Democracy",
+          "author": "Paul Preston",
+          "note": "HarperCollins, 2004"
+        },
+        {
+          "title": "Constitución Española, 1978",
+          "author": "Cortes Generales",
+          "note": "Primary source"
+        },
+        {
+          "title": "Casa de S.M. el Rey (official site, historical records)",
+          "url": "https://www.casareal.es"
+        }
+      ],
+      "images": [
+        {
+          "file": "File:Rey Juan Carlos 2013.jpg",
+          "url": "https://upload.wikimedia.org/wikipedia/commons/9/9e/Rey_Juan_Carlos_2013.jpg",
+          "page": "https://commons.wikimedia.org/wiki/File:Rey_Juan_Carlos_2013.jpg",
+          "credit": "Irekia",
+          "license": "CC BY 2.0",
+          "made": "2013",
+          "caption": "Juan Carlos in January 2013, the year before he abdicated.",
+          "alt": "Photograph of King Juan Carlos I"
+        }
+      ],
+      "review": {
+        "status": "draft",
+        "notes": "Drafted from the listed sources; needs a human fact-check."
+      }
+    },
+    {
+      "id": "felipe-vi",
+      "kind": "monarch",
+      "rulers": [
+        "felipe-vi"
+      ],
+      "tagline": "The Olympic sailor rebuilding a battered crown",
+      "start": {
+        "date": "2014-06-19"
+      },
+      "contestedWith": [],
+      "relationToPredecessor": "Son of Juan Carlos I",
+      "ageAtAccession": "46",
+      "cameToPower": "Father abdicated",
+      "reignEnded": "On the throne",
+      "previously": "Under fire, Juan Carlos abdicates in favour of his son.",
+      "paragraphs": [
+        "Felipe was trained for the job from childhood: army, navy and air force academies, then a master's at Georgetown in Washington. He sailed for Spain at the 1992 Barcelona Olympics and carried the flag at the opening ceremony. In 2004 he married Letizia Ortiz, a former television news presenter.",
+        "As king he has kept a low profile and cut back the family's perks. He took away his sister Cristina's ducal title in 2015 and renounced his father's inheritance in 2020. In October 2017, during the Catalan independence crisis, he went on TV to defend the constitution. In 2023 his elder daughter Leonor swore loyalty to the constitution as heir. The next chapter is still being written."
+      ],
+      "claims": [
+        {
+          "text": "He carried Spain's flag at the 1992 Olympic opening ceremony.",
+          "status": "confirmed",
+          "note": "He was flag-bearer in Barcelona and then raced in the sailing events."
+        },
+        {
+          "text": "Princess Leonor swore allegiance to the constitution on her 18th birthday.",
+          "status": "confirmed",
+          "note": "She took the oath before the Cortes on 31 October 2023."
+        }
+      ],
+      "sources": [
+        {
+          "title": "Casa de S.M. el Rey (official site)",
+          "url": "https://www.casareal.es"
+        },
+        {
+          "title": "Constitución Española, 1978",
+          "author": "Cortes Generales",
+          "note": "Title II, on the Crown"
+        }
+      ],
+      "images": [
+        {
+          "file": "File:Felipe VI 2023.jpg",
+          "url": "https://upload.wikimedia.org/wikipedia/commons/6/64/Felipe_VI_2023.jpg",
+          "page": "https://commons.wikimedia.org/wiki/File:Felipe_VI_2023.jpg",
+          "credit": "Ricardo Stuckert / Palácio do Planalto",
+          "license": "CC BY 2.0",
+          "made": "2023",
+          "caption": "Felipe VI in Brasília on 1 January 2023, at the inauguration of Brazil's president.",
+          "alt": "Photograph of King Felipe VI at the Palácio do Planalto in Brasília"
+        }
+      ],
+      "review": {
+        "status": "draft",
+        "notes": "Drafted from the listed sources; needs a human fact-check."
+      }
+    }
+  ]
+}
