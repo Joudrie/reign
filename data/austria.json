@@ -1,0 +1,2590 @@
+{
+  "id": "austria",
+  "name": "Habsburg Austria",
+  "blurb": "Six centuries of Habsburgs, from Rudolf I to 1918",
+  "dateConvention": "Dates follow the standard sources: Julian before Austria adopted the Gregorian calendar in 1583, Gregorian after. Each card counts from when the ruler took charge of the Austrian lands.",
+  "epilogue": "In November 1918 Austria became a republic and the Habsburgs went into exile, after more than six hundred years. Swipe back to the Swiss count who started it all.",
+  "houses": [
+    {
+      "id": "habsburg",
+      "name": "Habsburg",
+      "color": "#b8860b"
+    },
+    {
+      "id": "habsburg-lorraine",
+      "name": "Habsburg-Lorraine",
+      "color": "#8f1d21"
+    }
+  ],
+  "rulers": [
+    {
+      "id": "rudolf-i",
+      "name": "Rudolf I",
+      "house": "habsburg",
+      "born": {
+        "date": "1218-05-01",
+        "note": "Limburg Castle, near Sasbach in the Breisgau"
+      },
+      "died": {
+        "date": "1291-07-15",
+        "note": "Speyer"
+      },
+      "causeOfDeath": "Old age and illness"
+    },
+    {
+      "id": "albert-i",
+      "name": "Albert I",
+      "house": "habsburg",
+      "born": {
+        "date": "1255-07",
+        "circa": true,
+        "note": "Probably Rheinfelden"
+      },
+      "died": {
+        "date": "1308-05-01",
+        "note": "On the River Reuss near Windisch, Switzerland"
+      },
+      "causeOfDeath": "Murdered by his nephew John"
+    },
+    {
+      "id": "frederick-the-fair",
+      "name": "Frederick the Fair",
+      "house": "habsburg",
+      "born": {
+        "date": "1289",
+        "circa": true,
+        "note": "Vienna"
+      },
+      "died": {
+        "date": "1330-01-13",
+        "note": "Gutenstein Castle, Lower Austria"
+      },
+      "causeOfDeath": "Illness"
+    },
+    {
+      "id": "albert-ii",
+      "name": "Albert II",
+      "epithet": "the Lame",
+      "house": "habsburg",
+      "born": {
+        "date": "1298-12-12",
+        "note": "Vienna"
+      },
+      "died": {
+        "date": "1358-07-20",
+        "note": "Vienna"
+      },
+      "causeOfDeath": "Natural causes, after years of paralysis"
+    },
+    {
+      "id": "rudolf-iv",
+      "name": "Rudolf IV",
+      "epithet": "the Founder",
+      "house": "habsburg",
+      "born": {
+        "date": "1339-11-01",
+        "note": "Vienna"
+      },
+      "died": {
+        "date": "1365-07-27",
+        "note": "Milan"
+      },
+      "causeOfDeath": "Sudden fever"
+    },
+    {
+      "id": "albert-iii",
+      "name": "Albert III",
+      "epithet": "with the Pigtail",
+      "house": "habsburg",
+      "born": {
+        "date": "1349-09-09",
+        "note": "Vienna; some sources give 1348"
+      },
+      "died": {
+        "date": "1395-08-29",
+        "note": "Laxenburg, near Vienna"
+      },
+      "causeOfDeath": "Illness"
+    },
+    {
+      "id": "leopold-iii",
+      "name": "Leopold III",
+      "epithet": "the Just",
+      "house": "habsburg",
+      "born": {
+        "date": "1351-11-01",
+        "note": "Vienna"
+      },
+      "died": {
+        "date": "1386-07-09",
+        "note": "Sempach, Switzerland"
+      },
+      "causeOfDeath": "Killed in battle at Sempach"
+    },
+    {
+      "id": "albert-iv",
+      "name": "Albert IV",
+      "epithet": "the Patient",
+      "house": "habsburg",
+      "born": {
+        "date": "1377-09-19",
+        "note": "Vienna"
+      },
+      "died": {
+        "date": "1404-09-14",
+        "note": "Klosterneuburg"
+      },
+      "causeOfDeath": "Sickness caught on campaign"
+    },
+    {
+      "id": "albert-v",
+      "name": "Albert V",
+      "house": "habsburg",
+      "born": {
+        "date": "1397-08-16",
+        "note": "Vienna"
+      },
+      "died": {
+        "date": "1439-10-27",
+        "note": "Neszmély, Hungary"
+      },
+      "causeOfDeath": "Dysentery on campaign"
+    },
+    {
+      "id": "ladislaus",
+      "name": "Ladislaus",
+      "epithet": "the Posthumous",
+      "house": "habsburg",
+      "born": {
+        "date": "1440-02-22",
+        "note": "Komárom, Hungary"
+      },
+      "died": {
+        "date": "1457-11-23",
+        "note": "Prague"
+      },
+      "causeOfDeath": "Sudden illness, probably leukaemia"
+    },
+    {
+      "id": "frederick-iii",
+      "name": "Frederick III",
+      "house": "habsburg",
+      "born": {
+        "date": "1415-09-21",
+        "note": "Innsbruck"
+      },
+      "died": {
+        "date": "1493-08-19",
+        "note": "Linz"
+      },
+      "causeOfDeath": "Illness weeks after a leg amputation"
+    },
+    {
+      "id": "maximilian-i",
+      "name": "Maximilian I",
+      "house": "habsburg",
+      "born": {
+        "date": "1459-03-22",
+        "note": "Wiener Neustadt"
+      },
+      "died": {
+        "date": "1519-01-12",
+        "note": "Wels, Upper Austria"
+      },
+      "causeOfDeath": "Illness after a long decline"
+    },
+    {
+      "id": "charles-v",
+      "name": "Charles V",
+      "house": "habsburg",
+      "born": {
+        "date": "1500-02-24",
+        "note": "Ghent"
+      },
+      "died": {
+        "date": "1558-09-21",
+        "note": "Monastery of Yuste, Spain"
+      },
+      "causeOfDeath": "Malaria"
+    },
+    {
+      "id": "ferdinand-i",
+      "name": "Ferdinand I",
+      "house": "habsburg",
+      "born": {
+        "date": "1503-03-10",
+        "note": "Alcalá de Henares, Spain"
+      },
+      "died": {
+        "date": "1564-07-25",
+        "note": "Vienna"
+      },
+      "causeOfDeath": "Illness"
+    },
+    {
+      "id": "maximilian-ii",
+      "name": "Maximilian II",
+      "house": "habsburg",
+      "born": {
+        "date": "1527-07-31",
+        "note": "Vienna"
+      },
+      "died": {
+        "date": "1576-10-12",
+        "note": "Regensburg"
+      },
+      "causeOfDeath": "Illness during the Diet of Regensburg"
+    },
+    {
+      "id": "rudolf-ii",
+      "name": "Rudolf II",
+      "house": "habsburg",
+      "born": {
+        "date": "1552-07-18",
+        "note": "Vienna"
+      },
+      "died": {
+        "date": "1612-01-20",
+        "note": "Prague"
+      },
+      "causeOfDeath": "Illness"
+    },
+    {
+      "id": "matthias",
+      "name": "Matthias",
+      "house": "habsburg",
+      "born": {
+        "date": "1557-02-24",
+        "note": "Vienna"
+      },
+      "died": {
+        "date": "1619-03-20",
+        "note": "Vienna"
+      },
+      "causeOfDeath": "Illness"
+    },
+    {
+      "id": "ferdinand-ii",
+      "name": "Ferdinand II",
+      "house": "habsburg",
+      "born": {
+        "date": "1578-07-09",
+        "note": "Graz"
+      },
+      "died": {
+        "date": "1637-02-15",
+        "note": "Vienna"
+      },
+      "causeOfDeath": "Illness"
+    },
+    {
+      "id": "ferdinand-iii",
+      "name": "Ferdinand III",
+      "house": "habsburg",
+      "born": {
+        "date": "1608-07-13",
+        "note": "Graz, Styria"
+      },
+      "died": {
+        "date": "1657-04-02",
+        "note": "Vienna"
+      },
+      "causeOfDeath": "Illness"
+    },
+    {
+      "id": "leopold-i",
+      "name": "Leopold I",
+      "house": "habsburg",
+      "born": {
+        "date": "1640-06-09",
+        "note": "Vienna"
+      },
+      "died": {
+        "date": "1705-05-05",
+        "note": "Vienna"
+      },
+      "causeOfDeath": "Illness"
+    },
+    {
+      "id": "joseph-i",
+      "name": "Joseph I",
+      "house": "habsburg",
+      "born": {
+        "date": "1678-07-26",
+        "note": "Vienna"
+      },
+      "died": {
+        "date": "1711-04-17",
+        "note": "Vienna"
+      },
+      "causeOfDeath": "Smallpox"
+    },
+    {
+      "id": "charles-vi",
+      "name": "Charles VI",
+      "house": "habsburg",
+      "born": {
+        "date": "1685-10-01",
+        "note": "Vienna"
+      },
+      "died": {
+        "date": "1740-10-20",
+        "note": "Vienna"
+      },
+      "causeOfDeath": "Sudden illness"
+    },
+    {
+      "id": "maria-theresa",
+      "name": "Maria Theresa",
+      "house": "habsburg",
+      "born": {
+        "date": "1717-05-13",
+        "note": "Vienna"
+      },
+      "died": {
+        "date": "1780-11-29",
+        "note": "Vienna"
+      },
+      "causeOfDeath": "Illness"
+    },
+    {
+      "id": "joseph-ii",
+      "name": "Joseph II",
+      "house": "habsburg-lorraine",
+      "born": {
+        "date": "1741-03-13",
+        "note": "Vienna"
+      },
+      "died": {
+        "date": "1790-02-20",
+        "note": "Vienna"
+      },
+      "causeOfDeath": "Tuberculosis"
+    },
+    {
+      "id": "leopold-ii",
+      "name": "Leopold II",
+      "house": "habsburg-lorraine",
+      "born": {
+        "date": "1747-05-05",
+        "note": "Vienna"
+      },
+      "died": {
+        "date": "1792-03-01",
+        "note": "Vienna"
+      },
+      "causeOfDeath": "Sudden illness"
+    },
+    {
+      "id": "francis",
+      "name": "Francis II & I",
+      "house": "habsburg-lorraine",
+      "born": {
+        "date": "1768-02-12",
+        "note": "Florence, Tuscany"
+      },
+      "died": {
+        "date": "1835-03-02",
+        "note": "Vienna"
+      },
+      "causeOfDeath": "Illness"
+    },
+    {
+      "id": "ferdinand-the-good",
+      "name": "Ferdinand I",
+      "epithet": "the Good",
+      "house": "habsburg-lorraine",
+      "born": {
+        "date": "1793-04-19",
+        "note": "Vienna"
+      },
+      "died": {
+        "date": "1875-06-29",
+        "note": "Prague"
+      },
+      "causeOfDeath": "Natural causes"
+    },
+    {
+      "id": "franz-joseph",
+      "name": "Franz Joseph",
+      "house": "habsburg-lorraine",
+      "born": {
+        "date": "1830-08-18",
+        "note": "Schönbrunn Palace, Vienna"
+      },
+      "died": {
+        "date": "1916-11-21",
+        "note": "Schönbrunn Palace, Vienna"
+      },
+      "causeOfDeath": "Pneumonia"
+    },
+    {
+      "id": "charles-i",
+      "name": "Charles I",
+      "house": "habsburg-lorraine",
+      "born": {
+        "date": "1887-08-17",
+        "note": "Persenbeug Castle, Lower Austria"
+      },
+      "died": {
+        "date": "1922-04-01",
+        "note": "Funchal, Madeira"
+      },
+      "causeOfDeath": "Pneumonia"
+    }
+  ],
+  "reigns": [
+    {
+      "id": "rudolf-i",
+      "kind": "monarch",
+      "rulers": [
+        "rudolf-i"
+      ],
+      "tagline": "The small-time count who became king and grabbed Austria",
+      "start": {
+        "date": "1273-10-01"
+      },
+      "end": {
+        "date": "1291-07-15"
+      },
+      "contestedWith": [],
+      "relationToPredecessor": "First Habsburg king",
+      "ageAtAccession": "55",
+      "cameToPower": "Elected King of the Romans",
+      "reignEnded": "Died at Speyer",
+      "previously": "No king for 20 years. The princes pick a modest Swiss count.",
+      "paragraphs": [
+        "For about twenty years the Holy Roman Empire had no king anyone really obeyed. In 1273 the princes who elected kings wanted a safe pair of hands, and they picked Rudolf, Count of Habsburg. He owned castles and land in Alsace and in what is now Switzerland. He was 55, tough and shrewd. The title was King of the Romans, the step before emperor. The richest prince in the empire, Ottokar II of Bohemia, refused to accept him.",
+        "Ottokar had taken Austria, Styria and more after the old Babenberg dukes died out. Rudolf outlawed him and marched on Vienna, and in 1276 Ottokar gave the lands up. Two years later he tried to take them back. On 26 August 1278 the armies met on the Marchfeld, east of Vienna. Ottokar was beaten and killed. In 1282 Rudolf handed Austria and Styria to his sons Albert and Rudolf. His family would hold Austria until 1918.",
+        "Rudolf never got to Rome to be crowned emperor. Old and ill in 1291, he rode to Speyer, where earlier kings lay buried, and died there. He had wanted Albert to follow him as king. The princes had other ideas. They didn't want another strong Habsburg."
+      ],
+      "claims": [
+        {
+          "text": "Out hunting, Rudolf gave his horse to a priest carrying the sacrament to a dying man.",
+          "status": "legend",
+          "note": "A pious story told by chroniclers and made famous by Schiller's ballad 'Der Graf von Habsburg'. There's no hard evidence it happened."
+        },
+        {
+          "text": "At his coronation there was no sceptre, so Rudolf used a crucifix instead.",
+          "status": "legend",
+          "note": "Told by later chroniclers to show his piety. Nobody at the coronation recorded it."
+        },
+        {
+          "text": "Knowing he was dying, he set off for Speyer to be buried among the kings.",
+          "status": "confirmed",
+          "note": "Contemporary accounts describe the final journey, and his tomb slab is still in Speyer Cathedral."
+        }
+      ],
+      "hook": "Rudolf is dead and the princes have snubbed his son. Albert keeps Austria, but he wants the crown too, and he's willing to fight a king to get it.",
+      "images": [
+        {
+          "file": "File:Grabplatte Rudolf I von Habsburg.jpg",
+          "url": "https://upload.wikimedia.org/wikipedia/commons/d/d7/Grabplatte_Rudolf_I_von_Habsburg.jpg",
+          "page": "https://commons.wikimedia.org/wiki/File:Grabplatte_Rudolf_I_von_Habsburg.jpg",
+          "credit": "Linsengericht (photo)",
+          "license": "CC BY-SA 3.0",
+          "made": "c. 1291",
+          "caption": "His tomb slab in the crypt of Speyer Cathedral, carved around the time of his death.",
+          "alt": "Carved stone tomb slab showing the full-length figure of King Rudolf I, in the crypt of Speyer Cathedral"
+        }
+      ],
+      "sources": [
+        {
+          "title": "Rudolf von Habsburg",
+          "author": "Oswald Redlich",
+          "note": "Wagner, Innsbruck, 1903"
+        },
+        {
+          "title": "Rudolf von Habsburg",
+          "author": "Karl-Friedrich Krieger",
+          "note": "Wissenschaftliche Buchgesellschaft, Darmstadt, 2003"
+        },
+        {
+          "title": "Steirische Reimchronik (Styrian Rhyming Chronicle)",
+          "author": "Ottokar aus der Gaal",
+          "note": "Early 14th century; the Marchfeld and Rudolf's last journey"
+        },
+        {
+          "title": "Die Herrschaft Österreich: Fürst und Land im Spätmittelalter 1278–1411 (Österreichische Geschichte)",
+          "author": "Alois Niederstätter",
+          "note": "Ueberreuter, Vienna, 2001"
+        }
+      ],
+      "review": {
+        "status": "draft",
+        "notes": "Drafted from the listed sources; needs a human fact-check."
+      }
+    },
+    {
+      "id": "albert-i",
+      "kind": "monarch",
+      "rulers": [
+        "albert-i"
+      ],
+      "tagline": "The one-eyed king killed by his own nephew",
+      "start": {
+        "date": "1291-07-15"
+      },
+      "end": {
+        "date": "1308-05-01"
+      },
+      "contestedWith": [],
+      "relationToPredecessor": "Eldest son of Rudolf I",
+      "ageAtAccession": "About 36",
+      "cameToPower": "Inherited Austria from his father",
+      "reignEnded": "Murdered on the River Reuss",
+      "previously": "Rudolf I is dead at Speyer. The princes won't make his son king.",
+      "paragraphs": [
+        "Albert was hard, greedy for land and not much liked. In 1292 the electors chose Adolf of Nassau as king instead of him. Albert bided his time. In 1295 he fell badly ill and lost an eye, and the rumour was poison. When the princes turned against Adolf in 1298, Albert pounced. He beat and killed Adolf at Göllheim on 2 July, and that summer he was elected King of the Romans himself.",
+        "As king he fought the Rhineland archbishops and tried to grab Bohemia for his son. He also short-changed his nephew John, whose father had died young. John wanted his share of the family lands and kept being told to wait. On 1 May 1308 Albert crossed the River Reuss near Windisch, in today's Switzerland. John and a few friends rode up and cut him down. He died beside the road.",
+        "John went into hiding and was branded \"Parricida\", the kinsman-killer. Albert's widow built the abbey of Königsfelden on the spot. The crown left the family, and Albert's son Frederick took charge in Austria."
+      ],
+      "claims": [
+        {
+          "text": "Doctors hung Albert upside down to drain out poison, and that's how he lost the eye.",
+          "status": "legend",
+          "note": "Chroniclers tell this story, and the eye loss is real. The poison and the upside-down cure can't be checked."
+        },
+        {
+          "text": "John 'Parricida' murdered his uncle over his inheritance.",
+          "status": "confirmed",
+          "note": "Chroniclers of the time agree on the killer and the motive. John was caught and died in Pisa a few years later."
+        },
+        {
+          "text": "The murder was the trigger for William Tell's revolt.",
+          "status": "legend",
+          "note": "Tell belongs to Swiss legend. There's no record of him, and his story was written down long after."
+        }
+      ],
+      "hook": "The king is dead in a Swiss field. His son Frederick is young, handsome and wants the crown. So does a Bavarian duke he grew up with.",
+      "images": [
+        {
+          "file": "File:Albrecht I, PA03709.jpg",
+          "url": "https://upload.wikimedia.org/wikipedia/commons/9/9a/Albrecht_I%2C_PA03709.jpg",
+          "page": "https://commons.wikimedia.org/wiki/File:Albrecht_I,_PA03709.jpg",
+          "credit": "János Blaschke",
+          "license": "Public domain",
+          "made": "Early 19th century",
+          "caption": "Engraved about 500 years after his death, so the face is imagined.",
+          "alt": "Engraved portrait of Albert I, Duke of Austria and King of Germany"
+        }
+      ],
+      "sources": [
+        {
+          "title": "Die Herrschaft Österreich: Fürst und Land im Spätmittelalter 1278–1411 (Österreichische Geschichte)",
+          "author": "Alois Niederstätter",
+          "note": "Ueberreuter, Vienna, 2001"
+        },
+        {
+          "title": "Liber certarum historiarum",
+          "author": "John of Viktring",
+          "note": "Abbot's chronicle, written in the 1340s"
+        },
+        {
+          "title": "Steirische Reimchronik (Styrian Rhyming Chronicle)",
+          "author": "Ottokar aus der Gaal",
+          "note": "Albert's illness and wars"
+        },
+        {
+          "title": "Die Habsburger: Ein biographisches Lexikon",
+          "author": "Brigitte Hamann (ed.)",
+          "note": "Piper, Munich, 1988"
+        }
+      ],
+      "review": {
+        "status": "draft",
+        "notes": "Drafted from the listed sources; needs a human fact-check."
+      }
+    },
+    {
+      "id": "frederick-the-fair",
+      "kind": "monarch",
+      "rulers": [
+        "frederick-the-fair"
+      ],
+      "tagline": "Two kings, one crown, and a friendship that survived a war",
+      "start": {
+        "date": "1308-05-01"
+      },
+      "end": {
+        "date": "1330-01-13"
+      },
+      "contestedWith": [],
+      "relationToPredecessor": "Son of Albert I",
+      "ageAtAccession": "About 19",
+      "cameToPower": "Took over after his father's murder",
+      "reignEnded": "Died at Gutenstein Castle",
+      "previously": "Albert I is murdered by his nephew. His son Frederick takes Austria.",
+      "paragraphs": [
+        "Frederick was handsome and well liked, which is how he got his nickname. In 1314 the electors split. Some chose him as King of the Romans. Others chose his cousin and old friend, Louis of Bavaria. Both were crowned on the same day, in different cities, and the empire went to war with itself. Frederick's brother Leopold did most of the fighting, and he was crushed by Swiss peasants at Morgarten in 1315.",
+        "The showdown came at Mühldorf on 28 September 1322. Louis won, and Frederick was locked up in Trausnitz Castle. In 1325 Louis let him go on terms. Frederick couldn't get his brothers to accept them, so he went back into captivity of his own accord. Louis was so moved that he made Frederick co-king. On paper, the empire now had two kings who were friends.",
+        "It didn't amount to much. Leopold died in 1326 and Frederick lost heart. He retired to Gutenstein Castle, ill and worn out, and died in January 1330, aged about 40. His brothers Albert and Otto took over Austria."
+      ],
+      "claims": [
+        {
+          "text": "Frederick went back to prison because he'd given his word.",
+          "status": "confirmed",
+          "note": "Chroniclers of the time report it, and the treaties of 1325 survive. It's the famous example of knightly honour."
+        },
+        {
+          "text": "Louis and Frederick shared a table and even a bed after making peace.",
+          "status": "disputed",
+          "note": "Told by chroniclers to show how close they were. Sharing a bed was a common sign of trust, so it may be true."
+        },
+        {
+          "text": "Frederick wept so much in prison that he went blind.",
+          "status": "legend",
+          "note": "Later storytellers added this. No reliable source says he lost his sight."
+        }
+      ],
+      "hook": "Frederick is dead and the crown is gone for good. Austria passes to his younger brother Albert, a clever man who will soon lose the use of his legs.",
+      "images": [
+        {
+          "file": "File:Friedrich der Schöne, PA03745.jpg",
+          "url": "https://upload.wikimedia.org/wikipedia/commons/3/39/Friedrich_der_Sch%C3%B6ne%2C_PA03745.jpg",
+          "page": "https://commons.wikimedia.org/wiki/File:Friedrich_der_Sch%C3%B6ne,_PA03745.jpg",
+          "credit": "János Blaschke",
+          "license": "Public domain",
+          "made": "Early 19th century",
+          "caption": "Engraved nearly 500 years after his death, so the looks are imagined.",
+          "alt": "Engraved portrait of Frederick the Fair, Duke of Austria"
+        }
+      ],
+      "sources": [
+        {
+          "title": "Die Herrschaft Österreich: Fürst und Land im Spätmittelalter 1278–1411 (Österreichische Geschichte)",
+          "author": "Alois Niederstätter",
+          "note": "Ueberreuter, Vienna, 2001"
+        },
+        {
+          "title": "Liber certarum historiarum",
+          "author": "John of Viktring",
+          "note": "Abbot's chronicle, written in the 1340s"
+        },
+        {
+          "title": "Ludwig der Bayer (1282–1347): Kaiser und Ketzer",
+          "author": "Heinz Thomas",
+          "note": "Styria, Regensburg, 1993"
+        },
+        {
+          "title": "Deutsche Treue (poem)",
+          "author": "Friedrich Schiller",
+          "note": "The 1795 poem that made the friendship famous"
+        }
+      ],
+      "review": {
+        "status": "draft",
+        "notes": "Drafted from the listed sources; needs a human fact-check."
+      }
+    },
+    {
+      "id": "albert-ii",
+      "kind": "monarch",
+      "rulers": [
+        "albert-ii"
+      ],
+      "tagline": "The paralysed duke who steered Austria through the plague",
+      "start": {
+        "date": "1330-01-13"
+      },
+      "end": {
+        "date": "1358-07-20"
+      },
+      "contestedWith": [],
+      "relationToPredecessor": "Younger brother of Frederick",
+      "ageAtAccession": "31",
+      "cameToPower": "Succeeded his brother",
+      "reignEnded": "Died in Vienna",
+      "previously": "Frederick the Fair dies at Gutenstein. His brother Albert takes over.",
+      "paragraphs": [
+        "Albert was meant to be a churchman, but his brothers kept dying, so he ended up as Duke of Austria. He ruled at first alongside his younger brother Otto. Around 1330 Albert was struck by a paralysis that crippled his hands and feet. People whispered about poison. He had to be carried about, yet he was the sharpest Habsburg of his time, a patient deal-maker who preferred talks to battles.",
+        "In 1335 his patience paid off. The Duke of Carinthia died without a son, and the emperor let the Habsburgs have Carinthia and Carniola. Then came the Black Death. In 1349 the plague tore through Vienna, killing thousands. Across Europe, Jews were blamed and murdered. Albert ordered them protected, and his enemies sneered at him for it.",
+        "He also had a family rule written down: his sons should hold the lands together, so the inheritance wouldn't be carved up. He died in Vienna in July 1358. His eldest son Rudolf was 18 and full of big ideas."
+      ],
+      "claims": [
+        {
+          "text": "Albert's paralysis came from poison.",
+          "status": "disputed",
+          "note": "The rumour went round at the time. The illness was sudden and lasting, but there's no way to prove poison."
+        },
+        {
+          "text": "Albert shielded Austria's Jews from the plague massacres.",
+          "status": "confirmed",
+          "note": "Chroniclers, some of them hostile, record that he tried to protect them, though not every town obeyed."
+        },
+        {
+          "text": "His nickname was 'the Wise' as well as 'the Lame'.",
+          "status": "confirmed",
+          "note": "Both names are found in later Habsburg histories. 'The Lame' is the one that stuck."
+        }
+      ],
+      "hook": "The patient old duke is gone. His son Rudolf thinks Austria deserves a grander title, and he's ready to forge documents to get one.",
+      "images": [
+        {
+          "file": "File:Albrecht der Lahme, PA04117.jpg",
+          "url": "https://upload.wikimedia.org/wikipedia/commons/8/83/Albrecht_der_Lahme%2C_PA04117.jpg",
+          "page": "https://commons.wikimedia.org/wiki/File:Albrecht_der_Lahme,_PA04117.jpg",
+          "credit": "János Blaschke",
+          "license": "Public domain",
+          "made": "Early 19th century",
+          "caption": "Engraved more than 400 years after his death.",
+          "alt": "Engraved portrait of Albert II, Duke of Austria, known as the Lame"
+        }
+      ],
+      "sources": [
+        {
+          "title": "Die Herrschaft Österreich: Fürst und Land im Spätmittelalter 1278–1411 (Österreichische Geschichte)",
+          "author": "Alois Niederstätter",
+          "note": "Ueberreuter, Vienna, 2001"
+        },
+        {
+          "title": "Liber certarum historiarum",
+          "author": "John of Viktring",
+          "note": "Abbot's chronicle, written in the 1340s"
+        },
+        {
+          "title": "Chronica",
+          "author": "Matthias of Neuenburg",
+          "note": "14th-century chronicle; the plague years"
+        },
+        {
+          "title": "Die Habsburger: Ein biographisches Lexikon",
+          "author": "Brigitte Hamann (ed.)",
+          "note": "Piper, Munich, 1988"
+        }
+      ],
+      "review": {
+        "status": "draft",
+        "notes": "Drafted from the listed sources; needs a human fact-check."
+      }
+    },
+    {
+      "id": "rudolf-iv",
+      "kind": "monarch",
+      "rulers": [
+        "rudolf-iv"
+      ],
+      "tagline": "The teenage duke who forged his way to a new title",
+      "start": {
+        "date": "1358-07-20"
+      },
+      "end": {
+        "date": "1365-07-27"
+      },
+      "contestedWith": [],
+      "relationToPredecessor": "Eldest son of Albert II",
+      "ageAtAccession": "18",
+      "cameToPower": "Succeeded his father",
+      "reignEnded": "Fever in Milan at 25",
+      "previously": "Albert the Lame dies in Vienna. His son Rudolf is 18.",
+      "paragraphs": [
+        "Rudolf was clever, vain and in a hurry. His father-in-law, Emperor Charles IV, had just left the Habsburgs out of the list of electors. Rudolf's answer was a forgery. In 1358 and 1359 his clerks produced a bundle of fake charters, the Privilegium Maius, said to date back to Julius Caesar and Nero. They gave Austria special rights and Rudolf a brand-new title: archduke. Charles refused to accept them.",
+        "Rudolf also built. He laid the foundation stone for the great Gothic rebuilding of St Stephen's in Vienna. In 1365 he founded the University of Vienna, which is why he's called the Founder. In 1363 he talked the Countess of Tyrol, Margaret, into handing him her lands. Then, in July 1365, on a trip to Milan, he caught a fever and died. He was 25.",
+        "His portrait hangs in Vienna's Cathedral Museum. It's one of the oldest true portraits of a real person in Europe. Rudolf left no children. Austria passed to his two younger brothers, who had never got along."
+      ],
+      "claims": [
+        {
+          "text": "The Privilegium Maius was a forgery.",
+          "status": "confirmed",
+          "note": "Petrarch was asked to check it in 1361 and mocked it. Later scholars proved it was made at Rudolf's court."
+        },
+        {
+          "text": "The archduke title was later made official.",
+          "status": "confirmed",
+          "note": "In 1453 Emperor Frederick III, himself a Habsburg, confirmed the forged charters, and archduke became the family's title."
+        },
+        {
+          "text": "Rudolf's portrait is the oldest independent portrait north of the Alps.",
+          "status": "disputed",
+          "note": "Often said, and it's certainly among the earliest. A few French portraits may be older."
+        }
+      ],
+      "hook": "Rudolf is dead at 25 with no son. His younger brothers Albert and Leopold must share Austria. Neither of them wants to.",
+      "images": [
+        {
+          "file": "File:Rudolf IV.jpg",
+          "url": "https://upload.wikimedia.org/wikipedia/commons/e/e9/Rudolf_IV.jpg",
+          "page": "https://commons.wikimedia.org/wiki/File:Rudolf_IV.jpg",
+          "credit": "Unknown master, Prague or Vienna",
+          "license": "Public domain",
+          "made": "c. 1360–1365",
+          "caption": "Painted in his lifetime; it hangs in Vienna's Cathedral Museum.",
+          "alt": "Medieval painted portrait of Duke Rudolf IV of Austria"
+        }
+      ],
+      "sources": [
+        {
+          "title": "Rudolf IV. der Stifter: Seine Welt und seine Zeit",
+          "author": "Wilhelm Baum",
+          "note": "Styria, Graz, 1996"
+        },
+        {
+          "title": "Privilegium maius: Die Geschichte einer Urkunde",
+          "author": "Alphons Lhotsky",
+          "note": "Verlag für Geschichte und Politik, Vienna, 1957"
+        },
+        {
+          "title": "Die Herrschaft Österreich: Fürst und Land im Spätmittelalter 1278–1411 (Österreichische Geschichte)",
+          "author": "Alois Niederstätter",
+          "note": "Ueberreuter, Vienna, 2001"
+        }
+      ],
+      "review": {
+        "status": "draft",
+        "notes": "Drafted from the listed sources; needs a human fact-check."
+      }
+    },
+    {
+      "id": "albert-iii-and-leopold-iii",
+      "kind": "monarch",
+      "rulers": [
+        "albert-iii",
+        "leopold-iii"
+      ],
+      "tagline": "Two brothers, one inheritance, and a Swiss bloodbath",
+      "start": {
+        "date": "1365-07-27"
+      },
+      "end": {
+        "date": "1395-08-29"
+      },
+      "contestedWith": [],
+      "relationToPredecessor": "Younger brothers of Rudolf IV",
+      "ageAtAccession": "15 and 13",
+      "cameToPower": "Inherited from their brother",
+      "reignEnded": "Albert died at Laxenburg",
+      "previously": "Rudolf IV dies in Milan at 25, childless. His brothers inherit.",
+      "paragraphs": [
+        "Albert was quiet and bookish. He wore a braid as a member of a knightly society, which is how he got the nickname 'with the Pigtail'. Leopold was the ambitious one. The two teenagers were meant to rule together, but they quarrelled for years. In 1379, at Neuberg, they split the lands. Albert kept Austria itself. Leopold took Styria, Carinthia, Tyrol and the family lands in the west.",
+        "Leopold kept expanding. He bought Freiburg, won Trieste and pushed against the Swiss towns. On 9 July 1386 his army of knights met the Swiss at Sempach. The Swiss won and Leopold was killed, with many of his nobles. Albert became guardian of Leopold's sons. At home he built up the University of Vienna, adding a faculty of theology in 1384.",
+        "Albert died in August 1395 at Laxenburg, his favourite castle. The split of 1379 left two branches of the family, Albert's and Leopold's. For the next century they would squabble over who ran what."
+      ],
+      "claims": [
+        {
+          "text": "Arnold von Winkelried won Sempach by throwing himself on the Austrian spears.",
+          "status": "legend",
+          "note": "The hero first appears in Swiss sources over a century after the battle. Most historians doubt he existed."
+        },
+        {
+          "text": "Leopold was killed in the battle at Sempach.",
+          "status": "confirmed",
+          "note": "Chroniclers on both sides record his death in the battle. He was buried at Königsfelden."
+        },
+        {
+          "text": "The braid came from Albert's own order of knights.",
+          "status": "disputed",
+          "note": "He did found a 'pigtail' society, but why he wore the braid is told in different ways."
+        }
+      ],
+      "hook": "Albert III is dead. His son Albert IV gets Austria, but Leopold's ambitious sons want their cut. Cousins are about to turn on cousins.",
+      "images": [
+        {
+          "file": "File:Albert III and Leopold III.jpg",
+          "url": "https://upload.wikimedia.org/wikipedia/commons/a/aa/Albert_III_and_Leopold_III.jpg",
+          "page": "https://commons.wikimedia.org/wiki/File:Albert_III_and_Leopold_III.jpg",
+          "credit": "Unknown artist (manuscript in Freiburg University Library)",
+          "license": "Public domain",
+          "made": "1798",
+          "caption": "Drawn in 1798, more than 400 years after the brothers ruled.",
+          "alt": "Illustration of the brothers Albert III and Leopold III, Dukes of Austria"
+        }
+      ],
+      "sources": [
+        {
+          "title": "Die Herrschaft Österreich: Fürst und Land im Spätmittelalter 1278–1411 (Österreichische Geschichte)",
+          "author": "Alois Niederstätter",
+          "note": "Ueberreuter, Vienna, 2001"
+        },
+        {
+          "title": "Chronica Austriae",
+          "author": "Thomas Ebendorfer",
+          "note": "15th-century Viennese chronicle"
+        },
+        {
+          "title": "Die Habsburger: Ein biographisches Lexikon",
+          "author": "Brigitte Hamann (ed.)",
+          "note": "Piper, Munich, 1988"
+        }
+      ],
+      "review": {
+        "status": "draft",
+        "notes": "Drafted from the listed sources; needs a human fact-check."
+      },
+      "title": "Albert III & Leopold III"
+    },
+    {
+      "id": "albert-iv",
+      "kind": "monarch",
+      "rulers": [
+        "albert-iv"
+      ],
+      "tagline": "The pious duke who went to Jerusalem and died young",
+      "start": {
+        "date": "1395-08-29"
+      },
+      "end": {
+        "date": "1404-09-14"
+      },
+      "contestedWith": [],
+      "relationToPredecessor": "Only son of Albert III",
+      "ageAtAccession": "17",
+      "cameToPower": "Succeeded his father",
+      "reignEnded": "Fell ill on campaign, aged 26",
+      "previously": "Albert III dies at Laxenburg. His teenage son takes Austria.",
+      "paragraphs": [
+        "Albert IV was 17, devout and mild-mannered, and his cousins smelled weakness. William, Leopold III's eldest son, claimed he had a right to help run Austria. The two sides fought until a deal in 1395 left the cousins sharing power. Albert seems to have found it all exhausting. He spent much of his time on prayer.",
+        "In 1398 he set off on pilgrimage to the Holy Land, and made it to Jerusalem. Back home he joined the King of Hungary, Sigismund, in a war against a Moravian lord. In 1404 the army was besieging Znojmo when sickness swept the camp. Albert caught it and was carried home to Klosterneuburg, where he died in September. He was 26.",
+        "He left a son, Albert, who was just seven. That meant guardians. And the guardians were the Leopold cousins, who wanted power and hated each other."
+      ],
+      "claims": [
+        {
+          "text": "Albert IV was poisoned at the siege of Znojmo.",
+          "status": "disputed",
+          "note": "Rumours of poison went round at the time. Camp disease, probably dysentery, is the likelier killer."
+        },
+        {
+          "text": "He made it all the way to Jerusalem.",
+          "status": "confirmed",
+          "note": "Austrian chronicles record the 1398 pilgrimage, and it added to his reputation for piety."
+        },
+        {
+          "text": "He was nicknamed 'the Wonder of the World' for his journey.",
+          "status": "disputed",
+          "note": "The name appears in later writings. Whether anyone called him that in his lifetime is unclear."
+        }
+      ],
+      "hook": "The duke is dead and his heir is seven years old. The boy's cousins are fighting over who gets to look after him, and who gets to rule.",
+      "images": [
+        {
+          "file": "File:Albrecht IV.jpg",
+          "url": "https://upload.wikimedia.org/wikipedia/commons/0/0d/Albrecht_IV.jpg",
+          "page": "https://commons.wikimedia.org/wiki/File:Albrecht_IV.jpg",
+          "credit": "Anton Boys",
+          "license": "Public domain",
+          "made": "Late 16th century",
+          "caption": "Painted for a Habsburg portrait series nearly 200 years after his death.",
+          "alt": "Painted portrait of Albert IV, Duke of Austria"
+        }
+      ],
+      "sources": [
+        {
+          "title": "Die Herrschaft Österreich: Fürst und Land im Spätmittelalter 1278–1411 (Österreichische Geschichte)",
+          "author": "Alois Niederstätter",
+          "note": "Ueberreuter, Vienna, 2001"
+        },
+        {
+          "title": "Chronica Austriae",
+          "author": "Thomas Ebendorfer",
+          "note": "15th-century Viennese chronicle"
+        },
+        {
+          "title": "Die Habsburger: Ein biographisches Lexikon",
+          "author": "Brigitte Hamann (ed.)",
+          "note": "Piper, Munich, 1988"
+        }
+      ],
+      "review": {
+        "status": "draft",
+        "notes": "Drafted from the listed sources; needs a human fact-check."
+      }
+    },
+    {
+      "id": "albert-v",
+      "kind": "monarch",
+      "rulers": [
+        "albert-v"
+      ],
+      "tagline": "The duke who won three crowns, then died a year later",
+      "start": {
+        "date": "1404-09-14"
+      },
+      "end": {
+        "date": "1439-10-27"
+      },
+      "contestedWith": [],
+      "relationToPredecessor": "Only son of Albert IV",
+      "ageAtAccession": "7",
+      "cameToPower": "Inherited as a boy",
+      "reignEnded": "Dysentery on campaign in Hungary",
+      "previously": "Albert IV dies on campaign. His son is seven.",
+      "paragraphs": [
+        "Young Albert grew up in the middle of a family brawl. His Leopold cousins fought over his guardianship until he was declared of age in 1411, aged 14. He married well: his bride Elisabeth was the only child of Sigismund, King of Hungary and Bohemia, and later emperor. Albert fought hard for him in the long wars against the Hussites of Bohemia.",
+        "The worst chapter came in 1420 and 1421. Albert had Austria's Jews arrested and their goods seized, accusing them of helping the Hussites. Many were expelled. On 12 March 1421 about 200 were burned alive outside Vienna. The episode is known as the Vienna Gesera.",
+        "Sigismund died in December 1437, and his crowns came to Albert. He was crowned King of Hungary, elected King of the Romans and crowned King of Bohemia, all in 1438. As king he's counted as Albert II, which confuses everyone. In 1439, marching against the Ottomans, he caught dysentery and died in Hungary. His wife was pregnant."
+      ],
+      "claims": [
+        {
+          "text": "About 200 Jews were burned at Erdberg outside Vienna in 1421.",
+          "status": "confirmed",
+          "note": "A Viennese chronicle and Jewish sources describe the burnings. About 200 is the usual estimate."
+        },
+        {
+          "text": "The Jews were punished for helping the Hussites.",
+          "status": "disputed",
+          "note": "This was the official excuse. Historians think greed and a host-desecration charge mattered more."
+        },
+        {
+          "text": "Albert was the first Habsburg to hold the crowns of Germany, Hungary and Bohemia at once.",
+          "status": "confirmed",
+          "note": "He held all three from 1438. The combination returned under Ferdinand I."
+        }
+      ],
+      "hook": "The king is dead and his widow is expecting. If it's a boy, he'll be heir to three kingdoms. Everyone is waiting to see.",
+      "images": [
+        {
+          "file": "File:AlbrechtII.jpg",
+          "url": "https://upload.wikimedia.org/wikipedia/commons/7/70/AlbrechtII.jpg",
+          "page": "https://commons.wikimedia.org/wiki/File:AlbrechtII.jpg",
+          "credit": "Jacob van der Heyden",
+          "license": "Public domain",
+          "made": "1625",
+          "caption": "Engraved in 1625, almost 200 years after his death.",
+          "alt": "Engraved portrait of King Albert II, who was Albert V as Duke of Austria"
+        }
+      ],
+      "sources": [
+        {
+          "title": "Das Jahrhundert der Mitte: An der Wende vom Mittelalter zur Neuzeit 1400–1522 (Österreichische Geschichte)",
+          "author": "Alois Niederstätter",
+          "note": "Ueberreuter, Vienna, 1996"
+        },
+        {
+          "title": "Die Wiener Geserah vom Jahre 1421",
+          "author": "Samuel Krauss",
+          "note": "Braumüller, Vienna, 1920"
+        },
+        {
+          "title": "Chronica Austriae",
+          "author": "Thomas Ebendorfer",
+          "note": "15th-century Viennese chronicle"
+        },
+        {
+          "title": "Die Habsburger: Ein biographisches Lexikon",
+          "author": "Brigitte Hamann (ed.)",
+          "note": "Piper, Munich, 1988"
+        }
+      ],
+      "review": {
+        "status": "draft",
+        "notes": "Drafted from the listed sources; needs a human fact-check."
+      }
+    },
+    {
+      "id": "ladislaus",
+      "kind": "monarch",
+      "rulers": [
+        "ladislaus"
+      ],
+      "tagline": "Born a king after his father died, dead at 17",
+      "start": {
+        "date": "1440-02-22"
+      },
+      "end": {
+        "date": "1457-11-23"
+      },
+      "contestedWith": [],
+      "relationToPredecessor": "Son of Albert V, born after his death",
+      "ageAtAccession": "Newborn",
+      "cameToPower": "Born heir to three crowns",
+      "reignEnded": "Died suddenly in Prague, aged 17",
+      "previously": "Albert V dies in Hungary. His widow Elisabeth is pregnant.",
+      "paragraphs": [
+        "Ladislaus was born in February 1440, four months after his father died. His mother wanted him crowned King of Hungary fast. Her lady-in-waiting, Helene Kottanner, sneaked the Holy Crown out of a castle at night, and the baby was crowned in May at Székesfehérvár. But Hungary chose another king anyway, and Ladislaus spent his childhood in the hands of his guardian, the Habsburg Frederick, soon to be emperor.",
+        "Frederick kept the boy close at Wiener Neustadt and ran his lands for him. The Austrian nobles hated it. In 1452 they besieged Frederick and forced him to hand Ladislaus over. Now 12, the king fell under the control of Count Ulrich of Celje, his mother's cousin. In 1456 Ulrich was murdered by the Hunyadi family in Hungary. Ladislaus had László Hunyadi beheaded the next spring.",
+        "In late 1457 he was in Prague, about to marry a French princess, when he fell ill. Within days he was dead, aged 17. People said poison. He had no children, so his crowns scattered. Hungary and Bohemia picked their own kings."
+      ],
+      "claims": [
+        {
+          "text": "Helene Kottanner stole the Holy Crown of Hungary for the baby.",
+          "status": "confirmed",
+          "note": "She wrote her own memoir of the theft, one of the earliest by a woman in German."
+        },
+        {
+          "text": "Ladislaus was poisoned.",
+          "status": "disputed",
+          "note": "The rumour spread at once. A study of his remains in the 1980s pointed to leukaemia."
+        },
+        {
+          "text": "He died days before marrying Magdalena of France.",
+          "status": "confirmed",
+          "note": "Envoys were arranging the wedding to Charles VII's daughter when he died."
+        }
+      ],
+      "hook": "The boy king is dead. Austria falls to his old guardian, Frederick, already Holy Roman Emperor. Frederick's own brother wants it too.",
+      "images": [
+        {
+          "file": "File:Ladislaus, PA03743.jpg",
+          "url": "https://upload.wikimedia.org/wikipedia/commons/1/15/Ladislaus%2C_PA03743.jpg",
+          "page": "https://commons.wikimedia.org/wiki/File:Ladislaus,_PA03743.jpg",
+          "credit": "János Blaschke",
+          "license": "Public domain",
+          "made": "Early 19th century",
+          "caption": "Engraved more than 350 years after his death.",
+          "alt": "Engraved portrait of Ladislaus the Posthumous, Duke of Austria and King of Hungary and Bohemia"
+        }
+      ],
+      "sources": [
+        {
+          "title": "Das Jahrhundert der Mitte: An der Wende vom Mittelalter zur Neuzeit 1400–1522 (Österreichische Geschichte)",
+          "author": "Alois Niederstätter",
+          "note": "Ueberreuter, Vienna, 1996"
+        },
+        {
+          "title": "The Memoirs of Helene Kottanner (1439–1440)",
+          "author": "Helene Kottanner, trans. Maya Bijvoet Williamson",
+          "note": "D. S. Brewer, 1998"
+        },
+        {
+          "title": "Historia Austrialis",
+          "author": "Aeneas Silvius Piccolomini",
+          "note": "The future Pope Pius II, who knew the court"
+        },
+        {
+          "title": "Chronica Austriae",
+          "author": "Thomas Ebendorfer",
+          "note": "15th-century Viennese chronicle"
+        }
+      ],
+      "review": {
+        "status": "draft",
+        "notes": "Drafted from the listed sources; needs a human fact-check."
+      }
+    },
+    {
+      "id": "frederick-iii",
+      "kind": "monarch",
+      "rulers": [
+        "frederick-iii"
+      ],
+      "tagline": "The slowest emperor, who simply outlived everyone",
+      "start": {
+        "date": "1457-11-23"
+      },
+      "end": {
+        "date": "1493-08-19"
+      },
+      "contestedWith": [],
+      "relationToPredecessor": "Cousin and former guardian",
+      "ageAtAccession": "42",
+      "cameToPower": "Last adult Habsburg left standing",
+      "reignEnded": "Died at Linz after an amputation",
+      "previously": "Ladislaus dies at 17, unmarried. His line ends with him.",
+      "paragraphs": [
+        "Frederick had been King of the Romans since 1440, and in 1452 he went to Rome, married a Portuguese princess and was crowned emperor by the Pope. No emperor would be crowned in Rome again. He scribbled the letters A.E.I.O.U. on his books, buildings and silverware, and never told anyone what they meant. He was cautious, stingy and maddeningly slow. Critics called him the Arch-Sleepyhead of the Empire.",
+        "Trouble came from everywhere. In 1462 his own brother Albert VI joined the angry Viennese and besieged Frederick and his family inside the Hofburg. In 1485 Matthias Corvinus, King of Hungary, captured Vienna outright, and the emperor drifted from town to town with his court. Frederick's answer was to wait. Albert died in 1463. Corvinus died in Vienna in 1490. Frederick, now in his seventies, got Austria back without lifting a sword.",
+        "In 1493 doctors cut off his gangrenous leg. He died a few weeks later. His long patience had paid off in one big way. His son Maximilian had married the heiress of Burgundy, one of the richest lands in Europe, and was already elected King of the Romans."
+      ],
+      "claims": [
+        {
+          "text": "A.E.I.O.U. stood for “Austria is destined to rule the whole world”.",
+          "status": "disputed",
+          "note": "Frederick never explained the letters. The Latin and German world-rule readings were offered later, and dozens of other versions exist."
+        },
+        {
+          "text": "He died from eating too many melons.",
+          "status": "legend",
+          "note": "An old story told by later writers. He was elderly and had just lost a leg to surgery, which is explanation enough."
+        },
+        {
+          "text": "His amputated leg was buried with him.",
+          "status": "disputed",
+          "note": "Often repeated about his tomb in St Stephen's Cathedral, Vienna; the details rest on later reports rather than a clear eyewitness account."
+        }
+      ],
+      "hook": "Frederick is dead, and his son finally has a free hand. Maximilian is a jouster, a hunter and a born show-off, and he has a plan to win Europe without winning battles.",
+      "images": [
+        {
+          "file": "File:Hans Burgkmair d. Ä. (zugeschr.) - Bildnis Kaiser Friedrich III.jpg",
+          "url": "https://upload.wikimedia.org/wikipedia/commons/7/79/Hans_Burgkmair_d._%C3%84._%28zugeschr.%29_-_Bildnis_Kaiser_Friedrich_III.jpg",
+          "page": "https://commons.wikimedia.org/wiki/File:Hans_Burgkmair_d._%C3%84._(zugeschr.)_-_Bildnis_Kaiser_Friedrich_III.jpg",
+          "credit": "Attributed to Hans Burgkmair the Elder",
+          "license": "Public domain",
+          "made": "Late 15th or early 16th century",
+          "caption": "Copied from a lost portrait of 1468, painted during his reign or soon after his death.",
+          "alt": "Painted portrait of the elderly Emperor Frederick III"
+        }
+      ],
+      "sources": [
+        {
+          "title": "Kaiser Friedrich III.",
+          "author": "Heinrich Koller",
+          "note": "Wissenschaftliche Buchgesellschaft, 2005"
+        },
+        {
+          "title": "Kaiser Friedrich III. (1440–1493): Hof, Regierung und Politik",
+          "author": "Paul-Joachim Heinig",
+          "note": "Böhlau, 1997, 3 vols"
+        },
+        {
+          "title": "The Habsburgs: The Rise and Fall of a World Power",
+          "author": "Martyn Rady",
+          "note": "Allen Lane, 2020"
+        }
+      ],
+      "review": {
+        "status": "draft",
+        "notes": "Drafted from the listed sources; needs a human fact-check."
+      }
+    },
+    {
+      "id": "maximilian-i",
+      "kind": "monarch",
+      "rulers": [
+        "maximilian-i"
+      ],
+      "tagline": "The last knight, who won an empire at the altar",
+      "start": {
+        "date": "1493-08-19"
+      },
+      "end": {
+        "date": "1519-01-12"
+      },
+      "contestedWith": [],
+      "relationToPredecessor": "Son of Frederick III",
+      "ageAtAccession": "34",
+      "cameToPower": "Inherited; already King of the Romans",
+      "reignEnded": "Died at Wels",
+      "previously": "Old Frederick dies at Linz, having outlasted his brother and Corvinus.",
+      "paragraphs": [
+        "Maximilian was everything his father wasn't: dashing, restless, always broke. At 18 he married Mary of Burgundy and won the rich Low Countries along with her. She died after a fall from her horse in 1482. Six years later the people of Bruges locked him up for months. He loved tournaments, armour and hunting, and he wrote or commissioned books about himself as a heroic knight.",
+        "His real triumphs came through weddings. His son Philip married Joanna, heiress of Castile and Aragon. In 1515 a double betrothal in Vienna tied his grandchildren to the royal family of Hungary and Bohemia. In 1508, unable to reach Rome for a crowning, he simply declared himself Elected Roman Emperor. Wars against France and Venice drained him and he never stopped borrowing.",
+        "In his last years he is said to have carried his coffin with him on his travels. He died at Wels in January 1519 and was buried at Wiener Neustadt. The grand bronze tomb he planned in Innsbruck stands empty. Philip was long dead, so everything went to his grandson."
+      ],
+      "claims": [
+        {
+          "text": "“Let others wage war; you, happy Austria, marry.”",
+          "status": "disputed",
+          "note": "The Latin couplet fits his policy perfectly, but no one can trace it to Maximilian. It turns up later and its author is unknown."
+        },
+        {
+          "text": "He travelled with his own coffin for years before he died.",
+          "status": "disputed",
+          "note": "Told by later chroniclers and widely repeated. It fits his love of staging his own legend, but solid contemporary proof is thin."
+        },
+        {
+          "text": "He was “the last knight”.",
+          "status": "confirmed",
+          "note": "The nickname is real but not from his lifetime. It was made popular by Anastasius Grün's 1830 poem cycle Der letzte Ritter."
+        }
+      ],
+      "hook": "The heir is a shy, jut-jawed 18-year-old in Brussels who already rules Spain. Now he wants to be emperor too, and he'll need a mountain of borrowed money to buy the votes.",
+      "images": [
+        {
+          "file": "File:Albrecht Dürer - Portrait of Maximilian I - Google Art Project.jpg",
+          "url": "https://upload.wikimedia.org/wikipedia/commons/3/35/Albrecht_D%C3%BCrer_-_Portrait_of_Maximilian_I_-_Google_Art_Project.jpg",
+          "page": "https://commons.wikimedia.org/wiki/File:Albrecht_D%C3%BCrer_-_Portrait_of_Maximilian_I_-_Google_Art_Project.jpg",
+          "credit": "Albrecht Dürer",
+          "license": "Public domain",
+          "made": "1519",
+          "caption": "Painted by Albrecht Dürer in 1519, the year Maximilian died.",
+          "alt": "Oil portrait of Emperor Maximilian I by Albrecht Dürer"
+        }
+      ],
+      "sources": [
+        {
+          "title": "Kaiser Maximilian I.: Das Reich, Österreich und Europa an der Wende zur Neuzeit",
+          "author": "Hermann Wiesflecker",
+          "note": "Oldenbourg, 1971–1986, 5 vols"
+        },
+        {
+          "title": "Maximilian I (1459–1519): An Analytical Biography",
+          "author": "Gerhard Benecke",
+          "note": "Routledge & Kegan Paul, 1982"
+        },
+        {
+          "title": "The Habsburgs: The Rise and Fall of a World Power",
+          "author": "Martyn Rady",
+          "note": "Allen Lane, 2020"
+        }
+      ],
+      "review": {
+        "status": "draft",
+        "notes": "Drafted from the listed sources; needs a human fact-check."
+      }
+    },
+    {
+      "id": "charles-v",
+      "kind": "monarch",
+      "rulers": [
+        "charles-v"
+      ],
+      "tagline": "He owned half the world and handed Austria to his brother",
+      "start": {
+        "date": "1519-01-12"
+      },
+      "end": {
+        "date": "1521-04-28"
+      },
+      "contestedWith": [],
+      "relationToPredecessor": "Grandson of Maximilian I",
+      "ageAtAccession": "18",
+      "cameToPower": "Inherited from his grandfather",
+      "reignEnded": "Gave Austria to Ferdinand at Worms",
+      "previously": "Maximilian dies at Wels. His grandson Charles inherits the lot.",
+      "paragraphs": [
+        "Charles was born in Ghent and raised in the Low Countries, with French as his first language. By 18 he ruled Burgundy, Spain, Naples and Spain's new empire in the Americas. Then Maximilian died and the imperial crown was up for grabs. The King of France wanted it too. Charles won the election in June 1519 with lavish bribes, most of them paid with loans from the Fugger bank of Augsburg.",
+        "Austria was just one more parcel on a very crowded desk. At the Diet of Worms in 1521 Charles faced down Martin Luther, and in the same months he settled the family business. On 28 April 1521 he signed the Austrian duchies over to his younger brother Ferdinand. Charles kept the rest and spent decades fighting France, the Ottomans and the Protestants. Worn out, he abdicated in 1556 and died in a Spanish monastery two years later."
+      ],
+      "claims": [
+        {
+          "text": "His election was bought with Fugger money.",
+          "status": "confirmed",
+          "note": "Jakob Fugger later reminded Charles in a letter that he could not have been elected without him. The loan records survive."
+        },
+        {
+          "text": "“I speak Spanish to God, Italian to women, French to men and German to my horse.”",
+          "status": "legend",
+          "note": "Quoted everywhere, but first recorded long after his death. Versions swap the languages around."
+        },
+        {
+          "text": "The sun never set on his empire.",
+          "status": "confirmed",
+          "note": "With Spain's American lands and his European realms it was literally true, and writers of the time said so."
+        }
+      ],
+      "hook": "Ferdinand grew up in Spain and barely knows German. He has just married a princess of Hungary, and her brother's kingdom sits right in the path of the Ottoman Sultan.",
+      "images": [
+        {
+          "file": "File:Titian - Portrait of Charles V Seated - WGA22964.jpg",
+          "url": "https://upload.wikimedia.org/wikipedia/commons/8/89/Titian_-_Portrait_of_Charles_V_Seated_-_WGA22964.jpg",
+          "page": "https://commons.wikimedia.org/wiki/File:Titian_-_Portrait_of_Charles_V_Seated_-_WGA22964.jpg",
+          "credit": "Attributed to Titian",
+          "license": "Public domain",
+          "made": "1548",
+          "caption": "Painted in 1548, almost 30 years after he handed Austria to his brother.",
+          "alt": "Full-length portrait of Emperor Charles V seated in a chair"
+        }
+      ],
+      "sources": [
+        {
+          "title": "Emperor: A New Life of Charles V",
+          "author": "Geoffrey Parker",
+          "note": "Yale University Press, 2019"
+        },
+        {
+          "title": "Kaiser Karl V.",
+          "author": "Karl Brandi",
+          "note": "Bruckmann, 1937"
+        },
+        {
+          "title": "The Habsburgs: The Rise and Fall of a World Power",
+          "author": "Martyn Rady",
+          "note": "Allen Lane, 2020"
+        }
+      ],
+      "review": {
+        "status": "draft",
+        "notes": "Drafted from the listed sources; needs a human fact-check."
+      }
+    },
+    {
+      "id": "ferdinand-i",
+      "kind": "monarch",
+      "rulers": [
+        "ferdinand-i"
+      ],
+      "tagline": "One battle he never fought gave him two kingdoms",
+      "start": {
+        "date": "1521-04-28"
+      },
+      "end": {
+        "date": "1564-07-25"
+      },
+      "contestedWith": [],
+      "relationToPredecessor": "Younger brother of Charles V",
+      "ageAtAccession": "18",
+      "cameToPower": "Handed Austria by his brother",
+      "reignEnded": "Died in Vienna",
+      "previously": "At Worms, Charles signs Austria over to his little brother Ferdinand.",
+      "paragraphs": [
+        "Ferdinand arrived from Spain as a foreigner and won over Austria the hard way. He crushed the Viennese councillors who resisted him and learned German fast. Then came luck of the grimmest kind. In 1526 the Ottomans smashed the Hungarian army at Mohács, and young King Louis II drowned fleeing the field. Louis was Ferdinand's brother-in-law. Ferdinand claimed both his crowns, Bohemia and Hungary.",
+        "Bohemia accepted him. Hungary split, with a rival king, John Zápolya, backed by the Sultan. In 1529 Suleiman the Magnificent marched to the walls of Vienna. Autumn rain, short supplies and stubborn defenders sent him home. Most of Hungary stayed Ottoman for over 150 years. Ferdinand settled the religious wars in Germany at Augsburg in 1555, and when Charles abdicated he became emperor himself.",
+        "His Austrian, Bohemian and Hungarian lands became the core of the Habsburg state for the next four centuries. But he split his lands among three sons, and the eldest worried him most."
+      ],
+      "claims": [
+        {
+          "text": "Rain saved Vienna in 1529.",
+          "status": "confirmed",
+          "note": "Heavy rain forced the Ottomans to leave their big siege guns behind on the march, and the late season ended the siege. Defence and supply problems mattered too."
+        },
+        {
+          "text": "He barely spoke German when he arrived in Austria.",
+          "status": "confirmed",
+          "note": "He was raised in Spain and the Low Countries. His early letters and the complaints of Austrian nobles show it."
+        },
+        {
+          "text": "Mohács “made” the Habsburg monarchy.",
+          "status": "disputed",
+          "note": "A historians' shorthand. Ferdinand's claims rested on treaties and marriages, and he still had to fight for Hungary for years."
+        }
+      ],
+      "hook": "Ferdinand's heir Maximilian keeps a Lutheran preacher at his court. Will a Habsburg emperor break with Rome?",
+      "images": [
+        {
+          "file": "File:Ferdinand I, Holy Roman Emperor.jpg",
+          "url": "https://upload.wikimedia.org/wikipedia/commons/f/f7/Ferdinand_I%2C_Holy_Roman_Emperor.jpg",
+          "page": "https://commons.wikimedia.org/wiki/File:Ferdinand_I,_Holy_Roman_Emperor.jpg",
+          "credit": "Hans Bocksberger the Elder",
+          "license": "Public domain",
+          "made": "Mid-16th century",
+          "caption": "Painted in the middle of his reign; a detail from a full-length portrait.",
+          "alt": "Detail of a full-length painted portrait of Ferdinand I"
+        }
+      ],
+      "sources": [
+        {
+          "title": "Ferdinand I of Austria: The Politics of Dynasticism in the Age of the Reformation",
+          "author": "Paula Sutter Fichtner",
+          "note": "East European Monographs, 1982"
+        },
+        {
+          "title": "Emperor: A New Life of Charles V",
+          "author": "Geoffrey Parker",
+          "note": "Yale University Press, 2019"
+        },
+        {
+          "title": "The Habsburgs: The Rise and Fall of a World Power",
+          "author": "Martyn Rady",
+          "note": "Allen Lane, 2020"
+        }
+      ],
+      "review": {
+        "status": "draft",
+        "notes": "Drafted from the listed sources; needs a human fact-check."
+      }
+    },
+    {
+      "id": "maximilian-ii",
+      "kind": "monarch",
+      "rulers": [
+        "maximilian-ii"
+      ],
+      "tagline": "The emperor who might have been a Protestant",
+      "start": {
+        "date": "1564-07-25"
+      },
+      "end": {
+        "date": "1576-10-12"
+      },
+      "contestedWith": [],
+      "relationToPredecessor": "Eldest son of Ferdinand I",
+      "ageAtAccession": "37",
+      "cameToPower": "Inherited from his father",
+      "reignEnded": "Died at Regensburg",
+      "previously": "Ferdinand I dies in Vienna with three crowns safely in the family.",
+      "paragraphs": [
+        "Maximilian was charming, curious and dangerously open-minded. As a young man he kept a Protestant court preacher and talked theology with Lutheran princes. His father and his Spanish cousins were horrified. In the end he stayed Catholic, partly because he needed his family's votes to become emperor. In 1552 he brought an elephant back from Spain to Vienna, and the crowds went wild.",
+        "As ruler he tried to keep the peace between faiths. He let the Lower Austrian nobles worship as Lutherans on their own estates. He fought the Ottomans in 1566, the year the old Sultan Suleiman died besieging Szigetvár, and then paid for peace. On his deathbed at Regensburg in 1576 he would not take the Catholic last rites, which scandalised his family and has puzzled historians ever since."
+      ],
+      "claims": [
+        {
+          "text": "He refused the Catholic last rites as he died.",
+          "status": "confirmed",
+          "note": "Reported by people at his deathbed and accepted by his biographers. What he actually believed remains a matter of debate."
+        },
+        {
+          "text": "“I am neither papist nor evangelical, but a Christian.”",
+          "status": "disputed",
+          "note": "A line widely attributed to him. It sums up his views neatly, which is exactly why it should be treated with care."
+        },
+        {
+          "text": "His elephant Suleiman caused a sensation on the way to Vienna.",
+          "status": "confirmed",
+          "note": "The animal's arrival in 1552 was recorded at the time, and a house in Vienna was named after it. It died within two years."
+        }
+      ],
+      "hook": "The new emperor was raised at Philip II's strict Spanish court. Rudolf is clever, gloomy and fascinated by the stars, and he is about to move his court far from Vienna.",
+      "images": [
+        {
+          "file": "File:William Scrots - Portrait of Maximilian II - WGA21097.jpg",
+          "url": "https://upload.wikimedia.org/wikipedia/commons/c/c0/William_Scrots_-_Portrait_of_Maximilian_II_-_WGA21097.jpg",
+          "page": "https://commons.wikimedia.org/wiki/File:William_Scrots_-_Portrait_of_Maximilian_II_-_WGA21097.jpg",
+          "credit": "William Scrots",
+          "license": "Public domain",
+          "made": "1544",
+          "caption": "Painted in 1544, when he was a teenager, twenty years before he took power.",
+          "alt": "Oil portrait of the young Archduke Maximilian, later Maximilian II"
+        }
+      ],
+      "sources": [
+        {
+          "title": "Emperor Maximilian II",
+          "author": "Paula Sutter Fichtner",
+          "note": "Yale University Press, 2001"
+        },
+        {
+          "title": "The Habsburgs: The Rise and Fall of a World Power",
+          "author": "Martyn Rady",
+          "note": "Allen Lane, 2020"
+        }
+      ],
+      "review": {
+        "status": "draft",
+        "notes": "Drafted from the listed sources; needs a human fact-check."
+      }
+    },
+    {
+      "id": "rudolf-ii",
+      "kind": "monarch",
+      "rulers": [
+        "rudolf-ii"
+      ],
+      "tagline": "Stargazers, alchemists and a vegetable portrait in Prague",
+      "start": {
+        "date": "1576-10-12"
+      },
+      "end": {
+        "date": "1608-06-25"
+      },
+      "contestedWith": [],
+      "relationToPredecessor": "Eldest son of Maximilian II",
+      "ageAtAccession": "24",
+      "cameToPower": "Inherited from his father",
+      "reignEnded": "Forced to hand Austria to his brother",
+      "previously": "Maximilian II dies at Regensburg, refusing the last rites to the end.",
+      "paragraphs": [
+        "Rudolf moved the imperial court to Prague and turned it into the strangest, most brilliant place in Europe. The astronomers Tycho Brahe and Johannes Kepler worked for him. So did painters, clockmakers, gem cutters and a crowd of alchemists. His Kunstkammer bulged with paintings, automatons, fossils and supposed unicorn horns. Arcimboldo painted him as Vertumnus, a god made of fruit and vegetables.",
+        "He never married, though he had several children by a mistress. He suffered long bouts of black melancholy and hid from visitors for weeks. Meanwhile a long war with the Ottomans dragged on and Hungary rose in revolt. In 1606 the archdukes of the family met in secret and named his brother Matthias their leader. Two years later Matthias marched an army towards Prague. Rudolf gave up Austria, Hungary and Moravia, and kept Bohemia only for now."
+      ],
+      "claims": [
+        {
+          "text": "Rudolf bought the mysterious Voynich manuscript for 600 ducats.",
+          "status": "disputed",
+          "note": "The only evidence is a 1665 letter repeating what someone had heard. No record from Rudolf's court mentions it."
+        },
+        {
+          "text": "Tycho Brahe died because he was too polite to leave the emperor's table to relieve himself.",
+          "status": "disputed",
+          "note": "Kepler's account says Tycho held on at a Prague banquet and fell ill. Tests on his remains have ruled out poisoning but not a bladder or kidney problem."
+        },
+        {
+          "text": "Kepler named his great star tables after Rudolf.",
+          "status": "confirmed",
+          "note": "The Rudolphine Tables appeared in 1627, long after the emperor's death."
+        }
+      ],
+      "hook": "Matthias has his brother's crowns but no children. And behind him waits a cousin in Graz who has sworn to wipe out Protestantism.",
+      "images": [
+        {
+          "file": "File:Hans von Aachen - Portrait of Emperor Rudolf II.jpg",
+          "url": "https://upload.wikimedia.org/wikipedia/commons/f/f9/Hans_von_Aachen_-_Portrait_of_Emperor_Rudolf_II.jpg",
+          "page": "https://commons.wikimedia.org/wiki/File:Hans_von_Aachen_-_Portrait_of_Emperor_Rudolf_II.jpg",
+          "credit": "Hans von Aachen",
+          "license": "Public domain",
+          "made": "1606–1608",
+          "caption": "Painted by his court artist in the last years of his rule over Austria.",
+          "alt": "Oil portrait of Emperor Rudolf II by Hans von Aachen"
+        }
+      ],
+      "sources": [
+        {
+          "title": "Rudolf II and His World: A Study in Intellectual History, 1576–1612",
+          "author": "R. J. W. Evans",
+          "note": "Clarendon Press, 1973"
+        },
+        {
+          "title": "The Theatre of the World: Alchemy, Astrology and Magic in Renaissance Prague",
+          "author": "Peter Marshall",
+          "note": "Harvill Secker, 2006"
+        },
+        {
+          "title": "The Habsburgs: The Rise and Fall of a World Power",
+          "author": "Martyn Rady",
+          "note": "Allen Lane, 2020"
+        }
+      ],
+      "review": {
+        "status": "draft",
+        "notes": "Drafted from the listed sources; needs a human fact-check."
+      }
+    },
+    {
+      "id": "matthias",
+      "kind": "monarch",
+      "rulers": [
+        "matthias"
+      ],
+      "tagline": "He took his brother's crowns and lost Bohemia",
+      "start": {
+        "date": "1608-06-25"
+      },
+      "end": {
+        "date": "1619-03-20"
+      },
+      "contestedWith": [],
+      "relationToPredecessor": "Younger brother of Rudolf II",
+      "ageAtAccession": "51",
+      "cameToPower": "Forced his brother out",
+      "reignEnded": "Died in Vienna",
+      "previously": "Rudolf, cornered by his brother's army, gives up Austria and Hungary.",
+      "paragraphs": [
+        "Matthias had always been the restless younger brother. At 20 he slipped out of Vienna to try his luck as governor of the rebel Netherlands, and it went nowhere. The Brothers' Quarrel with Rudolf was his chance. To win it he made big promises to Protestant nobles. By 1611 he had taken Bohemia too, and in 1612 Rudolf died and Matthias became emperor. His chief minister, Bishop Melchior Khlesl, tried to calm the religious feud.",
+        "Matthias married late and had no children. The family chose his cousin Ferdinand of Styria as heir, and in 1617 the Bohemian estates crowned him king. Then on 23 May 1618 Protestant nobles stormed into Prague Castle and threw two Catholic regents and a secretary out of a high window. All three survived the fall. Bohemia was in revolt. Ferdinand had Khlesl arrested, and the ailing Matthias died the next spring."
+      ],
+      "claims": [
+        {
+          "text": "The defenestrated men landed on a dung heap.",
+          "status": "disputed",
+          "note": "Protestant pamphlets said so to mock the victims. Catholics claimed angels or the Virgin Mary had saved them. The drop and their survival are well recorded."
+        },
+        {
+          "text": "The Defenestration of Prague started the Thirty Years' War.",
+          "status": "confirmed",
+          "note": "Historians date the war from the Bohemian revolt it triggered in 1618."
+        }
+      ],
+      "hook": "The new ruler is a devout Jesuit pupil, and Bohemia's rebels have an army on the move. Within weeks they will be at the gates of Vienna.",
+      "images": [
+        {
+          "file": "File:Matthias, Holy Roman Emperor.jpg",
+          "url": "https://upload.wikimedia.org/wikipedia/commons/a/a3/Matthias%2C_Holy_Roman_Emperor.jpg",
+          "page": "https://commons.wikimedia.org/wiki/File:Matthias,_Holy_Roman_Emperor.jpg",
+          "credit": "Lucas van Valckenborch",
+          "license": "Public domain",
+          "made": "1583",
+          "caption": "Painted in 1583, when he was still an archduke, 25 years before he took power.",
+          "alt": "Painted portrait of the young Archduke Matthias, later Emperor Matthias"
+        }
+      ],
+      "sources": [
+        {
+          "title": "Europe's Tragedy: A New History of the Thirty Years War",
+          "author": "Peter H. Wilson",
+          "note": "Allen Lane, 2009"
+        },
+        {
+          "title": "The Habsburgs: The Rise and Fall of a World Power",
+          "author": "Martyn Rady",
+          "note": "Allen Lane, 2020"
+        },
+        {
+          "title": "Ferdinand II, Counter-Reformation Emperor, 1578–1637",
+          "author": "Robert Bireley",
+          "note": "Cambridge University Press, 2014"
+        }
+      ],
+      "review": {
+        "status": "draft",
+        "notes": "Drafted from the listed sources; needs a human fact-check."
+      }
+    },
+    {
+      "id": "ferdinand-ii",
+      "kind": "monarch",
+      "rulers": [
+        "ferdinand-ii"
+      ],
+      "tagline": "The Jesuits' pupil who fought the Thirty Years' War",
+      "start": {
+        "date": "1619-03-20"
+      },
+      "end": {
+        "date": "1637-02-15"
+      },
+      "contestedWith": [],
+      "relationToPredecessor": "Cousin and chosen heir of Matthias",
+      "ageAtAccession": "40",
+      "cameToPower": "Named heir by the family",
+      "reignEnded": "Died in Vienna",
+      "previously": "Matthias dies in Vienna with Bohemia in open revolt.",
+      "paragraphs": [
+        "Ferdinand was schooled by the Jesuits and had already driven Protestant preachers out of Styria. In June 1619 rebel troops neared Vienna and angry Protestant nobles pushed into the Hofburg to make demands. He held firm, and cavalry arrived in time. That August he was elected emperor, just as the Bohemians declared him deposed and chose Frederick of the Palatinate as their king.",
+        "On 8 November 1620 his army crushed the rebels at the White Mountain outside Prague. Frederick fled after one winter on the throne. Twenty-seven rebel leaders were executed in Prague's Old Town Square, and Protestants were forced to convert or leave. The war spread across Germany. Ferdinand's great general Albrecht von Wallenstein won battle after battle, then grew too powerful to trust.",
+        "In February 1634 officers acting on the emperor's orders murdered Wallenstein at Eger. Ferdinand made peace with many German Protestants at Prague in 1635, but the war went on. Before he died he had his son elected King of the Romans."
+      ],
+      "claims": [
+        {
+          "text": "“Better a desert than a land full of heretics.”",
+          "status": "disputed",
+          "note": "Often put in his mouth, and it matches his policy in Bohemia. There is no reliable record of him saying it."
+        },
+        {
+          "text": "A crucifix spoke to him while rebels besieged the Hofburg in 1619.",
+          "status": "legend",
+          "note": "A pious Habsburg story that grew after the event. The crucifix is still shown in Vienna."
+        },
+        {
+          "text": "He ordered Wallenstein to be removed, dead or alive.",
+          "status": "confirmed",
+          "note": "Ferdinand's secret orders against Wallenstein are documented. Whether he meant murder from the start is still argued."
+        }
+      ],
+      "hook": "His son Ferdinand III inherits an empire exhausted by war, and Sweden and France are in it now. Someone has to find a way to make peace.",
+      "images": [
+        {
+          "file": "File:Kaiser Ferdinand II. 1614.jpg",
+          "url": "https://upload.wikimedia.org/wikipedia/commons/e/ee/Kaiser_Ferdinand_II._1614.jpg",
+          "page": "https://commons.wikimedia.org/wiki/File:Kaiser_Ferdinand_II._1614.jpg",
+          "credit": "Unidentified painter",
+          "license": "Public domain",
+          "made": "1614",
+          "caption": "Painted in 1614, five years before he took power, when he was Archduke of Styria.",
+          "alt": "Painted portrait of Ferdinand II as Archduke of Styria"
+        }
+      ],
+      "sources": [
+        {
+          "title": "Ferdinand II, Counter-Reformation Emperor, 1578–1637",
+          "author": "Robert Bireley",
+          "note": "Cambridge University Press, 2014"
+        },
+        {
+          "title": "Europe's Tragedy: A New History of the Thirty Years War",
+          "author": "Peter H. Wilson",
+          "note": "Allen Lane, 2009"
+        },
+        {
+          "title": "Wallenstein",
+          "author": "Golo Mann",
+          "note": "S. Fischer, 1971"
+        },
+        {
+          "title": "The Habsburgs: The Rise and Fall of a World Power",
+          "author": "Martyn Rady",
+          "note": "Allen Lane, 2020"
+        }
+      ],
+      "review": {
+        "status": "draft",
+        "notes": "Drafted from the listed sources; needs a human fact-check."
+      }
+    },
+    {
+      "id": "ferdinand-iii",
+      "kind": "monarch",
+      "rulers": [
+        "ferdinand-iii"
+      ],
+      "tagline": "The composer-emperor who signed the peace",
+      "start": {
+        "date": "1637-02-15"
+      },
+      "end": {
+        "date": "1657-04-02"
+      },
+      "contestedWith": [],
+      "relationToPredecessor": "Son of Ferdinand II",
+      "ageAtAccession": "28",
+      "cameToPower": "Inherited; already King of the Romans",
+      "reignEnded": "Died in Vienna",
+      "previously": "Ferdinand II is dead, and the Thirty Years' War grinds on without him.",
+      "paragraphs": [
+        "Ferdinand III arrived with a war already 19 years old. He knew it well. After Wallenstein's murder he had taken over the imperial army, and in 1634 he shared a crushing win over the Swedes at Nördlingen. His father had also got him elected King of the Romans, the title that marked the next emperor. So when the old man died, the son simply stepped up.",
+        "But the luck ran out. Swedish and French armies ground across Germany, and the emperor's lands bled. In 1648 the Peace of Westphalia, agreed at Münster and Osnabrück, finally ended it. The German princes won the right to run their own affairs and make their own alliances. The emperor's grip on Germany was badly loosened, but at home the Habsburgs kept Austria, Bohemia and their Catholic faith.",
+        "Away from the war, Ferdinand wrote music, and some of it survives. He planned carefully for the future too. His eldest son, another Ferdinand, was elected King of the Romans in 1653, then died of smallpox the next year. When the emperor died in 1657, the heir was his second son Leopold, aged 16 and raised for the Church."
+      ],
+      "claims": [
+        {
+          "text": "The Peace of Westphalia invented the modern system of sovereign states.",
+          "status": "disputed",
+          "note": "A favourite textbook line. Many historians now call it a myth: the treaties barely mention sovereignty and the empire carried on for another 158 years."
+        },
+        {
+          "text": "Ferdinand's first wife was the Spanish infanta that Prince Charles of England once rode to Madrid to woo.",
+          "status": "confirmed",
+          "note": "Maria Anna of Spain was the bride in the failed 'Spanish Match' of 1623. She married Ferdinand in 1631."
+        },
+        {
+          "text": "The emperor composed music good enough to be performed today.",
+          "status": "confirmed",
+          "note": "Several of his sacred pieces and songs survive in manuscript and have been recorded. Court praise of royal talent should still be taken with a pinch of salt."
+        }
+      ],
+      "hook": "The emperor is dead and his heir is a pious 16-year-old who expected to become a priest. The imperial crown isn't automatic. Leopold will have to wait, and win over the electors first.",
+      "images": [
+        {
+          "file": "File:Frans Luycx 002 - Emperor Ferdinand III.jpg",
+          "url": "https://upload.wikimedia.org/wikipedia/commons/7/77/Frans_Luycx_002_-_Emperor_Ferdinand_III.jpg",
+          "page": "https://commons.wikimedia.org/wiki/File:Frans_Luycx_002_-_Emperor_Ferdinand_III.jpg",
+          "credit": "Frans Luycx",
+          "license": "Public domain",
+          "made": "c. 1637–38",
+          "caption": "Painted around 1637–38, at the very start of his reign.",
+          "alt": "Painted portrait of Emperor Ferdinand III by the Flemish court painter Frans Luycx"
+        }
+      ],
+      "sources": [
+        {
+          "title": "Kaiser Ferdinand III. (1608–1657): Eine Biographie",
+          "author": "Mark Hengerer",
+          "note": "Böhlau, 2012"
+        },
+        {
+          "title": "Europe's Tragedy: A History of the Thirty Years War",
+          "author": "Peter H. Wilson",
+          "note": "Allen Lane, 2009"
+        },
+        {
+          "title": "The Making of the Habsburg Monarchy, 1550–1700",
+          "author": "R. J. W. Evans",
+          "note": "Oxford University Press, 1979"
+        },
+        {
+          "title": "The Habsburg Monarchy, 1618–1815",
+          "author": "Charles W. Ingrao",
+          "note": "Cambridge University Press, 1994; 3rd ed. 2019"
+        }
+      ],
+      "review": {
+        "status": "draft",
+        "notes": "Drafted from the listed sources; needs a human fact-check."
+      }
+    },
+    {
+      "id": "leopold-i",
+      "kind": "monarch",
+      "rulers": [
+        "leopold-i"
+      ],
+      "tagline": "The shy would-be priest who saw off the Ottomans",
+      "start": {
+        "date": "1657-04-02"
+      },
+      "end": {
+        "date": "1705-05-05"
+      },
+      "contestedWith": [],
+      "relationToPredecessor": "Son of Ferdinand III",
+      "ageAtAccession": "16",
+      "cameToPower": "Heir after his elder brother died",
+      "reignEnded": "Died in Vienna, mid-war",
+      "previously": "Ferdinand III dies. His eldest son is already dead of smallpox.",
+      "paragraphs": [
+        "Leopold was trained for the Church, not a throne. He stayed devout, bookish and musical all his life, and he composed too. He also had the most famous Habsburg face of all: a huge jutting jaw and heavy lower lip. In 1658 the electors chose him as emperor. In 1666 he married his Spanish niece Margarita Teresa, the little girl at the centre of Velázquez's Las Meninas.",
+        "Disaster after disaster hit Vienna. In 1679 plague killed thousands, and Leopold vowed a monument; the twisting Plague Column still stands on the Graben. Then in 1683 a huge Ottoman army under Kara Mustafa besieged the city. Leopold fled to Passau. Vienna held out for two months until a relief army led by the Polish king Jan Sobieski smashed the besiegers on 12 September.",
+        "Then the Habsburgs struck back. They took Buda in 1686, and a young prince Louis XIV had turned away, Eugene of Savoy, crushed the Ottomans at Zenta in 1697. Most of Hungary became Habsburg. In 1700 the last Spanish Habsburg died and left Spain to a French prince. Leopold claimed it for his younger son Charles, and Europe went to war. He died in 1705 with the fight still raging."
+      ],
+      "claims": [
+        {
+          "text": "Viennese bakers invented the croissant to celebrate beating the Ottomans in 1683.",
+          "status": "legend",
+          "note": "The story turns up long after the siege, and the croissant itself only appears in French baking in the 19th century."
+        },
+        {
+          "text": "Vienna's first coffee house was opened with sacks of beans the Ottoman army left behind.",
+          "status": "legend",
+          "note": "The hero, a spy named Kolschitzky, is real, but the coffee story was polished later. Records show others licensed to serve coffee in Vienna at about the same time."
+        },
+        {
+          "text": "The Habsburg jaw was caused by generations of inbreeding.",
+          "status": "disputed",
+          "note": "A 2019 study by Román Vilas and colleagues linked jaw shape to inbreeding, but it judged faces from painted portraits, which flatter or exaggerate."
+        }
+      ],
+      "hook": "Leopold is dead and the war for Spain is far from won. His eldest son Joseph, brisk, clever and nothing like his gentle father, takes the reins in a hurry.",
+      "images": [
+        {
+          "file": "File:Benjamin von Blockm - Leopold I, Holy Roman Emperor.jpg",
+          "url": "https://upload.wikimedia.org/wikipedia/commons/1/1f/Benjamin_von_Blockm_-_Leopold_I%2C_Holy_Roman_Emperor.jpg",
+          "page": "https://commons.wikimedia.org/wiki/File:Benjamin_von_Blockm_-_Leopold_I,_Holy_Roman_Emperor.jpg",
+          "credit": "Benjamin Block",
+          "license": "Public domain",
+          "made": "1672",
+          "caption": "Painted in 1672, about 15 years into his reign.",
+          "alt": "Painted portrait of Emperor Leopold I by Benjamin Block"
+        }
+      ],
+      "sources": [
+        {
+          "title": "Leopold I of Austria",
+          "author": "John P. Spielman",
+          "note": "Thames and Hudson, 1977"
+        },
+        {
+          "title": "The Enemy at the Gate: Habsburgs, Ottomans and the Battle for Europe",
+          "author": "Andrew Wheatcroft",
+          "note": "Bodley Head, 2008"
+        },
+        {
+          "title": "Prince Eugene of Savoy",
+          "author": "Derek McKay",
+          "note": "Thames and Hudson, 1977"
+        },
+        {
+          "title": "The Habsburg Monarchy, 1618–1815",
+          "author": "Charles W. Ingrao",
+          "note": "Cambridge University Press, 1994; 3rd ed. 2019"
+        }
+      ],
+      "review": {
+        "status": "draft",
+        "notes": "Drafted from the listed sources; needs a human fact-check."
+      }
+    },
+    {
+      "id": "joseph-i",
+      "kind": "monarch",
+      "rulers": [
+        "joseph-i"
+      ],
+      "tagline": "The emperor in a hurry, cut down at 32",
+      "start": {
+        "date": "1705-05-05"
+      },
+      "end": {
+        "date": "1711-04-17"
+      },
+      "contestedWith": [],
+      "relationToPredecessor": "Eldest son of Leopold I",
+      "ageAtAccession": "26",
+      "cameToPower": "Inherited; already King of the Romans",
+      "reignEnded": "Smallpox at 32",
+      "previously": "Leopold I dies with the War of the Spanish Succession in full swing.",
+      "paragraphs": [
+        "Joseph was everything his father wasn't: quick, energetic, fond of hunting, and fond of women. He had been King of the Romans since he was 11, so the takeover was smooth. He backed sharp young ministers and let Prince Eugene run the war. It went well. Eugene drove the French out of northern Italy at Turin in 1706, and with the Duke of Marlborough he won at Oudenarde in 1708 and at the bloody slaughter of Malplaquet in 1709.",
+        "Closer to home, Hungary was in revolt under Prince Francis Rákóczi, and Joseph worked to end it on fairly gentle terms. Then, in April 1711, he caught smallpox and died at 32. He left two daughters but no son. His only boy had died as a baby. Days later the Hungarian rebels made peace at Szatmár. The emperor who could have enjoyed it was already gone."
+      ],
+      "claims": [
+        {
+          "text": "Joseph gave his wife a venereal disease that left her unable to have more children.",
+          "status": "disputed",
+          "note": "Repeated by several historians, based on court reports of Empress Wilhelmine Amalie's illness. There's no medical proof."
+        },
+        {
+          "text": "Joseph's death changed the course of the war.",
+          "status": "confirmed",
+          "note": "His brother Charles now stood to inherit both Austria and Spain. Britain had no wish to see that, and soon made its own peace with France."
+        }
+      ],
+      "hook": "Joseph has no son. His younger brother Charles is in Barcelona, fighting to be King of Spain. Now he's heir to Austria as well, and his allies are horrified.",
+      "images": [
+        {
+          "file": "File:Joseph I Holy Roman Emperor.png",
+          "url": "https://upload.wikimedia.org/wikipedia/commons/4/48/Joseph_I_Holy_Roman_Emperor.png",
+          "page": "https://commons.wikimedia.org/wiki/File:Joseph_I_Holy_Roman_Emperor.png",
+          "credit": "Unidentified painter",
+          "license": "Public domain",
+          "made": "c. 1700",
+          "caption": "Painted around 1700, while he was still heir to his father.",
+          "alt": "Painted portrait of Joseph I by an unidentified artist"
+        }
+      ],
+      "sources": [
+        {
+          "title": "In Quest and Crisis: Emperor Joseph I and the Habsburg Monarchy",
+          "author": "Charles W. Ingrao",
+          "note": "Purdue University Press, 1979"
+        },
+        {
+          "title": "Prince Eugene of Savoy",
+          "author": "Derek McKay",
+          "note": "Thames and Hudson, 1977"
+        },
+        {
+          "title": "The Habsburg Monarchy, 1618–1815",
+          "author": "Charles W. Ingrao",
+          "note": "Cambridge University Press, 1994; 3rd ed. 2019"
+        }
+      ],
+      "review": {
+        "status": "draft",
+        "notes": "Drafted from the listed sources; needs a human fact-check."
+      }
+    },
+    {
+      "id": "charles-vi",
+      "kind": "monarch",
+      "rulers": [
+        "charles-vi"
+      ],
+      "tagline": "The emperor who spent his life chasing a promise",
+      "start": {
+        "date": "1711-04-17"
+      },
+      "end": {
+        "date": "1740-10-20"
+      },
+      "contestedWith": [],
+      "relationToPredecessor": "Younger brother of Joseph I",
+      "ageAtAccession": "25",
+      "cameToPower": "Brother died without a son",
+      "reignEnded": "Sudden illness in Vienna",
+      "previously": "Joseph I dies of smallpox, leaving only daughters.",
+      "paragraphs": [
+        "For years Charles had called himself King of Spain and fought for it from Barcelona. Then his brother's death made him emperor, and his allies quietly dropped him. At the peace treaties of 1713 and 1714, the French prince kept Spain. Charles got consolation prizes: the Spanish Netherlands, Milan and Naples. He never got over it. He kept a Spanish-style court in Vienna and stiff Spanish etiquette until the end.",
+        "His real obsession was the succession. In 1713 he issued the Pragmatic Sanction: all Habsburg lands would pass together, and to a daughter if there was no son. His only son died in 1716 as a baby, so the paper became everything. He spent decades getting Europe to sign it, even shutting down his own trading company to please Britain and the Dutch. Prince Eugene grumbled that a strong army would be worth more.",
+        "Eugene had a point. Charles lost Naples and Sicily in the 1730s, and in 1739 he lost Belgrade, which Eugene had won in 1717. He did leave Vienna the Karlskirche and the grand court library. In October 1740 he fell ill after a hunting trip and died within days. His heir was his eldest daughter, Maria Theresa."
+      ],
+      "claims": [
+        {
+          "text": "A dish of mushrooms killed Charles VI and changed the history of Europe.",
+          "status": "disputed",
+          "note": "Voltaire's famous quip. Charles did fall ill after a meal of mushrooms on a hunting trip, but the real cause of death is unknown; some suggest liver failure."
+        },
+        {
+          "text": "Prince Eugene said 200,000 soldiers would protect the Pragmatic Sanction better than any treaty.",
+          "status": "disputed",
+          "note": "Widely quoted, but it comes from later writers rather than a firm record of Eugene's own words."
+        }
+      ],
+      "hook": "Charles is dead with no son. His 23-year-old daughter inherits everything, armed with a piece of paper. In Berlin, Prussia's brand-new king is already mobilising his army.",
+      "images": [
+        {
+          "file": "File:Auerbach - Charles VI, Holy Roman Emperor in black.jpg",
+          "url": "https://upload.wikimedia.org/wikipedia/commons/e/ea/Auerbach_-_Charles_VI%2C_Holy_Roman_Emperor_in_black.jpg",
+          "page": "https://commons.wikimedia.org/wiki/File:Auerbach_-_Charles_VI,_Holy_Roman_Emperor_in_black.jpg",
+          "credit": "Johann Gottfried Auerbach",
+          "license": "Public domain",
+          "made": "1730",
+          "caption": "Painted in 1730 by his court painter, ten years before his death.",
+          "alt": "Painted portrait of Emperor Charles VI dressed in black"
+        }
+      ],
+      "sources": [
+        {
+          "title": "The Habsburg Monarchy, 1618–1815",
+          "author": "Charles W. Ingrao",
+          "note": "Cambridge University Press, 1994; 3rd ed. 2019"
+        },
+        {
+          "title": "Prince Eugene of Savoy",
+          "author": "Derek McKay",
+          "note": "Thames and Hudson, 1977"
+        },
+        {
+          "title": "The Habsburgs: The Rise and Fall of a World Power",
+          "author": "Martyn Rady",
+          "note": "Allen Lane, 2020"
+        }
+      ],
+      "review": {
+        "status": "draft",
+        "notes": "Drafted from the listed sources; needs a human fact-check."
+      }
+    },
+    {
+      "id": "maria-theresa",
+      "kind": "monarch",
+      "rulers": [
+        "maria-theresa"
+      ],
+      "tagline": "The queen Europe tried to carve up, and couldn't",
+      "start": {
+        "date": "1740-10-20"
+      },
+      "end": {
+        "date": "1780-11-29"
+      },
+      "contestedWith": [],
+      "relationToPredecessor": "Eldest daughter of Charles VI",
+      "ageAtAccession": "23",
+      "cameToPower": "Inherited by the Pragmatic Sanction",
+      "reignEnded": "Died in Vienna",
+      "previously": "Charles VI dies. His daughter inherits, if Europe keeps its word.",
+      "paragraphs": [
+        "Europe didn't keep its word. In December 1740 Frederick II of Prussia marched into rich Silesia, and Bavaria, France and Saxony piled in. The Elector of Bavaria was even elected emperor, the first non-Habsburg in 300 years. Maria Theresa had no experience, little money and a battered army. She went to the Hungarian nobles at Pressburg in 1741 and won their backing. By 1748 she had saved almost everything, but Silesia was gone.",
+        "Her husband, Francis Stephen of Lorraine, was elected emperor in 1745, but everyone knew who was in charge. She overhauled taxes and the army, and in 1774 brought in schooling for all children. She also had 16 children, and married her daughters across Europe; the youngest, Marie Antoinette, went to the future Louis XVI of France. The Seven Years' War of 1756–63 failed to win back Silesia.",
+        "When Francis died in 1765 she wore black for the rest of her life. Their son Joseph became emperor and her co-ruler, and they fought constantly. In 1772 she joined Prussia and Russia in carving up Poland, and took Galicia while protesting it was wrong. She died in November 1780. Joseph was finally free."
+      ],
+      "claims": [
+        {
+          "text": "At Pressburg she held up baby Joseph and the Hungarian nobles roared 'our life and blood for the queen!'",
+          "status": "disputed",
+          "note": "The nobles did pledge 'life and blood'. The weeping queen holding up her baby at that moment was polished up afterwards; the baby was shown at a later session."
+        },
+        {
+          "text": "Frederick the Great sneered of the Polish partition: 'She weeps, but she takes.'",
+          "status": "disputed",
+          "note": "A cutting line that fits him perfectly. It is passed on second-hand, and the exact wording varies."
+        },
+        {
+          "text": "She wore mourning for the 15 years after her husband died.",
+          "status": "confirmed",
+          "note": "Her letters and court records agree. She also cut her hair and gave her jewels and fine clothes away."
+        }
+      ],
+      "hook": "Maria Theresa is dead. Her son Joseph, impatient after 15 years as her junior partner, is finally free. He has a list of reforms as long as the Danube.",
+      "images": [
+        {
+          "file": "File:Meytens - Empress Maria Theresa - Hofburg, Maria-Theresien-Zimmer.png",
+          "url": "https://upload.wikimedia.org/wikipedia/commons/a/a0/Meytens_-_Empress_Maria_Theresa_-_Hofburg%2C_Maria-Theresien-Zimmer.png",
+          "page": "https://commons.wikimedia.org/wiki/File:Meytens_-_Empress_Maria_Theresa_-_Hofburg,_Maria-Theresien-Zimmer.png",
+          "credit": "Martin van Meytens",
+          "license": "Public domain",
+          "made": "18th century",
+          "caption": "By her court painter Martin van Meytens; it hangs in the Hofburg in Vienna.",
+          "alt": "Painted portrait of Empress Maria Theresa by Martin van Meytens"
+        }
+      ],
+      "sources": [
+        {
+          "title": "Maria Theresa: The Habsburg Empress in Her Time",
+          "author": "Barbara Stollberg-Rilinger",
+          "note": "Princeton University Press, 2021 (German ed. 2017)"
+        },
+        {
+          "title": "Maria Theresa",
+          "author": "Edward Crankshaw",
+          "note": "Longmans, 1969"
+        },
+        {
+          "title": "The Habsburg Monarchy, 1618–1815",
+          "author": "Charles W. Ingrao",
+          "note": "Cambridge University Press, 1994; 3rd ed. 2019"
+        }
+      ],
+      "review": {
+        "status": "draft",
+        "notes": "Drafted from the listed sources; needs a human fact-check."
+      }
+    },
+    {
+      "id": "joseph-ii",
+      "kind": "monarch",
+      "rulers": [
+        "joseph-ii"
+      ],
+      "tagline": "The emperor who tried to fix everything at once",
+      "start": {
+        "date": "1780-11-29"
+      },
+      "end": {
+        "date": "1790-02-20"
+      },
+      "contestedWith": [],
+      "relationToPredecessor": "Eldest son of Maria Theresa",
+      "ageAtAccession": "39",
+      "cameToPower": "Inherited from his mother",
+      "reignEnded": "Died of tuberculosis",
+      "previously": "Maria Theresa dies after 40 years. Her son finally has a free hand.",
+      "paragraphs": [
+        "Joseph had been Holy Roman Emperor since 1765, but his mother held the real power. Once she was gone he went at it like a man with a deadline. He gave Protestants and Orthodox Christians the right to worship in 1781, then eased the laws on Jews. He freed peasants from personal serfdom, shut hundreds of monasteries, and made German the language of government. He even travelled in disguise as 'Count Falkenstein' to see things for himself.",
+        "He loved music, and his German opera company staged Mozart's The Abduction from the Seraglio in 1782. But his reforms came too fast and too many. When he ordered the dead buried in sacks to save wood, the outcry forced him to back down. By 1789 the Austrian Netherlands were in revolt and Hungary was close behind. His war against the Ottomans went badly, and he came home from camp a sick man.",
+        "On his deathbed he cancelled most of his Hungarian reforms. He died in February 1790, aged 48. His only child, a daughter, had died years before. The crown passed to his younger brother Leopold, ruler of Tuscany."
+      ],
+      "claims": [
+        {
+          "text": "Joseph told Mozart his opera had 'too many notes'.",
+          "status": "disputed",
+          "note": "It first appears in Niemetschek's biography of Mozart from 1798, after both men were dead. A good story, thinly sourced."
+        },
+        {
+          "text": "He suggested his own epitaph: 'Here lies Joseph II, who failed in all he undertook.'",
+          "status": "legend",
+          "note": "Often quoted, but there's no solid record he said it. It sums up how he felt at the end, which is why it stuck."
+        },
+        {
+          "text": "Joseph ordered a reusable coffin with a trapdoor in the bottom.",
+          "status": "confirmed",
+          "note": "His 1784 burial rules called for bodies in linen sacks, and a hinged 'economy coffin' was designed. The law was dropped within months."
+        }
+      ],
+      "hook": "Joseph dies with Hungary seething and Belgium in revolt. His younger brother Leopold, the model ruler of Tuscany, must hurry north to calm everyone down.",
+      "images": [
+        {
+          "file": "File:Anton von Maron - Kaiser Joseph II. (1741-1790) mit der Statue des Mars - GG 6200 - Kunsthistorisches Museum.jpg",
+          "url": "https://upload.wikimedia.org/wikipedia/commons/9/90/Anton_von_Maron_-_Kaiser_Joseph_II._%281741-1790%29_mit_der_Statue_des_Mars_-_GG_6200_-_Kunsthistorisches_Museum.jpg",
+          "page": "https://commons.wikimedia.org/wiki/File:Anton_von_Maron_-_Kaiser_Joseph_II._(1741-1790)_mit_der_Statue_des_Mars_-_GG_6200_-_Kunsthistorisches_Museum.jpg",
+          "credit": "Anton von Maron",
+          "license": "Public domain",
+          "made": "1775",
+          "caption": "Painted in 1775, while he was still sharing power with his mother.",
+          "alt": "Painted portrait of Emperor Joseph II beside a statue of Mars, god of war"
+        }
+      ],
+      "sources": [
+        {
+          "title": "Joseph II (2 vols)",
+          "author": "Derek Beales",
+          "note": "Cambridge University Press, 1987 and 2009"
+        },
+        {
+          "title": "Joseph II",
+          "author": "T. C. W. Blanning",
+          "note": "Longman, 1994"
+        },
+        {
+          "title": "Life of Mozart",
+          "author": "Franz Xaver Niemetschek",
+          "note": "Prague, 1798"
+        }
+      ],
+      "review": {
+        "status": "draft",
+        "notes": "Drafted from the listed sources; needs a human fact-check."
+      }
+    },
+    {
+      "id": "leopold-ii",
+      "kind": "monarch",
+      "rulers": [
+        "leopold-ii"
+      ],
+      "tagline": "The quiet fixer who ran out of time",
+      "start": {
+        "date": "1790-02-20"
+      },
+      "end": {
+        "date": "1792-03-01"
+      },
+      "contestedWith": [],
+      "relationToPredecessor": "Younger brother of Joseph II",
+      "ageAtAccession": "42",
+      "cameToPower": "Brother died childless",
+      "reignEnded": "Sudden illness after two years",
+      "previously": "Joseph II dies, his reforms unravelling in Hungary and Belgium.",
+      "paragraphs": [
+        "Leopold had spent 25 years running Tuscany, and running it well. He freed trade, drained marshes and in 1786 made Tuscany the first state in Europe to abolish the death penalty. In Vienna he got straight to work cleaning up his brother's mess. He gave the Hungarians back their old rights and was crowned their king. Troops retook the Austrian Netherlands, and he made peace with the Ottomans.",
+        "Then France got in the way. His sister Marie Antoinette was now a prisoner of the Revolution. After the royal family's failed escape in 1791, Leopold and the King of Prussia issued the Declaration of Pillnitz, warning that they might act to protect Louis XVI. They meant it as a threat with strings attached. In Paris it sounded like war. Leopold died suddenly on 1 March 1792. Seven weeks later France declared war on his son."
+      ],
+      "claims": [
+        {
+          "text": "Leopold was poisoned.",
+          "status": "legend",
+          "note": "Rumours spread at once because his death was so sudden. Doctors at the time described an acute illness, and no evidence of poison has ever been found."
+        },
+        {
+          "text": "Tuscany under Leopold was the first state to abolish the death penalty.",
+          "status": "confirmed",
+          "note": "His penal code of 30 November 1786 scrapped both execution and torture. Tuscany still marks the date."
+        },
+        {
+          "text": "Pillnitz was a bluff: Leopold never meant to fight.",
+          "status": "disputed",
+          "note": "The declaration said Austria would act only if all the powers did, which Britain never would. Some historians think he was keener on war than that suggests."
+        }
+      ],
+      "hook": "Leopold is dead after two years. His son Francis, just 24, inherits a monarchy about to fight revolutionary France. A Corsican artillery officer will soon be his nightmare.",
+      "images": [
+        {
+          "file": "File:Leopold II, Holy Roman Emperor.jpg",
+          "url": "https://upload.wikimedia.org/wikipedia/commons/1/1a/Leopold_II%2C_Holy_Roman_Emperor.jpg",
+          "page": "https://commons.wikimedia.org/wiki/File:Leopold_II,_Holy_Roman_Emperor.jpg",
+          "credit": "Anonymous",
+          "license": "Public domain",
+          "made": "c. 1790",
+          "caption": "Painted around 1790, the year he became emperor.",
+          "alt": "Painted portrait of Emperor Leopold II"
+        }
+      ],
+      "sources": [
+        {
+          "title": "Leopold II. (2 vols)",
+          "author": "Adam Wandruszka",
+          "note": "Herold, 1963–65"
+        },
+        {
+          "title": "The Origins of the French Revolutionary Wars",
+          "author": "T. C. W. Blanning",
+          "note": "Longman, 1986"
+        },
+        {
+          "title": "The Habsburg Monarchy, 1618–1815",
+          "author": "Charles W. Ingrao",
+          "note": "Cambridge University Press, 1994; 3rd ed. 2019"
+        }
+      ],
+      "review": {
+        "status": "draft",
+        "notes": "Drafted from the listed sources; needs a human fact-check."
+      }
+    },
+    {
+      "id": "francis",
+      "kind": "monarch",
+      "rulers": [
+        "francis"
+      ],
+      "tagline": "Two crowns, one emperor, and Napoleon in between",
+      "start": {
+        "date": "1792-03-01"
+      },
+      "end": {
+        "date": "1835-03-02"
+      },
+      "contestedWith": [],
+      "relationToPredecessor": "Eldest son of Leopold II",
+      "ageAtAccession": "24",
+      "cameToPower": "Inherited from his father",
+      "reignEnded": "Died in Vienna after 43 years",
+      "previously": "Leopold II dies suddenly. Revolutionary France wants a fight.",
+      "paragraphs": [
+        "Francis was elected Holy Roman Emperor in 1792 as Francis II, and spent the next 20 years losing to Napoleon. Italy, Austerlitz, Wagram: the defeats piled up. In 1804 Napoleon crowned himself Emperor of the French, so Francis made himself hereditary Emperor of Austria, as Francis I. In 1806 Napoleon set up his own league of German states, and Francis dissolved the Holy Roman Empire after about a thousand years. Hence the double number.",
+        "In 1809 his new foreign minister, Prince Metternich, tried another way. In 1810 Francis's daughter Marie Louise married Napoleon and gave him a son. Then, in 1813, Austria switched sides at the right moment, and Napoleon was beaten at Leipzig. In 1814–15 Vienna hosted the Congress that redrew the map of Europe, with Metternich as ringmaster and a dazzling round of balls.",
+        "After that Francis wanted calm. His government relied on censors, secret police and a horror of change. He married four times. His heir, Ferdinand, had epilepsy and was plainly unfit to rule, but Francis believed in birthright above all. He died in March 1835 and Ferdinand inherited."
+      ],
+      "claims": [
+        {
+          "text": "Francis's advice to his heir was: 'Govern, and change nothing.'",
+          "status": "disputed",
+          "note": "Widely quoted as the spirit of his political testament to Ferdinand. The punchy wording is a later summary."
+        },
+        {
+          "text": "'The Congress dances, but it doesn't move forward.'",
+          "status": "disputed",
+          "note": "Attributed to the elderly Prince de Ligne, who died in Vienna during the Congress. Passed on by others, and probably tidied up."
+        },
+        {
+          "text": "Francis married four times.",
+          "status": "confirmed",
+          "note": "Elisabeth of Württemberg, Maria Theresa of Naples, Maria Ludovika of Austria-Este and Caroline Augusta of Bavaria. Twelve children came from the second marriage."
+        }
+      ],
+      "hook": "Francis is dead. His heir is kind, gentle and suffers frequent seizures. Everyone in Vienna knows the real decisions will be made by Metternich and a committee.",
+      "images": [
+        {
+          "file": "File:Friedrich von Amerling - Kaiser Franz I. von Österreich (1832).jpg",
+          "url": "https://upload.wikimedia.org/wikipedia/commons/1/15/Friedrich_von_Amerling_-_Kaiser_Franz_I._von_%C3%96sterreich_%281832%29.jpg",
+          "page": "https://commons.wikimedia.org/wiki/File:Friedrich_von_Amerling_-_Kaiser_Franz_I._von_%C3%96sterreich_(1832).jpg",
+          "credit": "Friedrich von Amerling",
+          "license": "Public domain",
+          "made": "1832",
+          "caption": "Painted by Friedrich von Amerling in 1832, three years before Francis died.",
+          "alt": "Painted portrait of Emperor Francis I of Austria"
+        }
+      ],
+      "sources": [
+        {
+          "title": "Francis the Good: The Education of an Emperor, 1768–1792",
+          "author": "Walter Consuelo Langsam",
+          "note": "Macmillan, 1949"
+        },
+        {
+          "title": "Metternich",
+          "author": "Alan Palmer",
+          "note": "Weidenfeld & Nicolson, 1972"
+        },
+        {
+          "title": "Rites of Peace: The Fall of Napoleon and the Congress of Vienna",
+          "author": "Adam Zamoyski",
+          "note": "HarperPress, 2007"
+        },
+        {
+          "title": "The Habsburgs: The Rise and Fall of a World Power",
+          "author": "Martyn Rady",
+          "note": "Allen Lane, 2020"
+        }
+      ],
+      "review": {
+        "status": "draft",
+        "notes": "Drafted from the listed sources; needs a human fact-check."
+      }
+    },
+    {
+      "id": "ferdinand-the-good",
+      "kind": "monarch",
+      "rulers": [
+        "ferdinand-the-good"
+      ],
+      "tagline": "The kindly emperor swept aside by revolution",
+      "start": {
+        "date": "1835-03-02"
+      },
+      "end": {
+        "date": "1848-12-02"
+      },
+      "contestedWith": [],
+      "relationToPredecessor": "Eldest son of Francis II & I",
+      "ageAtAccession": "41",
+      "cameToPower": "Inherited from his father",
+      "reignEnded": "Abdicated in the 1848 revolution",
+      "previously": "Francis dies after 43 years. His heir is clearly not up to the job.",
+      "paragraphs": [
+        "Ferdinand had epilepsy and other health problems from childhood, and suffered frequent seizures. He was also gentle, generous and genuinely liked, which is how he got the name 'the Good'. Everyone knew he couldn't govern. So a council did it for him, led by Metternich, the emperor's uncle Archduke Louis, and Count Kolowrat. They mostly argued with each other and changed as little as possible.",
+        "Then came 1848. In March, revolution broke out in Vienna and Metternich fled to England. Ferdinand promised a constitution. In May the court ran to Innsbruck, and in October, after another rising, to Olmütz in Moravia. The army shelled Vienna back into line, but Hungary was in open revolt. The family decided a fresh face was needed. On 2 December Ferdinand abdicated, his brother stood aside, and his 18-year-old nephew took over. He lived 26 more years in Prague."
+      ],
+      "claims": [
+        {
+          "text": "Ferdinand once demanded: 'I'm the emperor and I want dumplings!'",
+          "status": "legend",
+          "note": "A beloved Viennese tale with no source from his lifetime. It fits his reputation, which is why it survives."
+        },
+        {
+          "text": "Watching the crowds in 1848, he asked: 'But are they allowed to do that?'",
+          "status": "legend",
+          "note": "Another popular story told about him in Vienna. No reliable witness recorded it."
+        }
+      ],
+      "hook": "An 18-year-old archduke is suddenly Emperor of Austria, with Vienna smouldering and Hungary in revolt. He will rule for 68 years.",
+      "images": [
+        {
+          "file": "File:Leopold Kupelwieser - Kaiser Ferdinand I.jpg",
+          "url": "https://upload.wikimedia.org/wikipedia/commons/0/09/Leopold_Kupelwieser_-_Kaiser_Ferdinand_I.jpg",
+          "page": "https://commons.wikimedia.org/wiki/File:Leopold_Kupelwieser_-_Kaiser_Ferdinand_I.jpg",
+          "credit": "Leopold Kupelwieser",
+          "license": "Public domain",
+          "made": "1847",
+          "caption": "Painted in 1847, a year before revolution swept him off the throne.",
+          "alt": "Portrait of Emperor Ferdinand I in the ceremonial robe of the Order of the Golden Fleece"
+        }
+      ],
+      "sources": [
+        {
+          "title": "The Decline and Fall of the Habsburg Empire, 1815–1918",
+          "author": "Alan Sked",
+          "note": "Longman, 1989"
+        },
+        {
+          "title": "1848: Year of Revolution",
+          "author": "Mike Rapport",
+          "note": "Little, Brown, 2008"
+        },
+        {
+          "title": "The Habsburgs: The Rise and Fall of a World Power",
+          "author": "Martyn Rady",
+          "note": "Allen Lane, 2020"
+        }
+      ],
+      "review": {
+        "status": "draft",
+        "notes": "Drafted from the listed sources; needs a human fact-check."
+      }
+    },
+    {
+      "id": "franz-joseph",
+      "kind": "monarch",
+      "rulers": [
+        "franz-joseph"
+      ],
+      "tagline": "Sixty-eight years at the desk, then the world ended",
+      "start": {
+        "date": "1848-12-02"
+      },
+      "end": {
+        "date": "1916-11-21"
+      },
+      "contestedWith": [],
+      "relationToPredecessor": "Nephew of Ferdinand I",
+      "ageAtAccession": "18",
+      "cameToPower": "Uncle abdicated in his favour",
+      "reignEnded": "Died of pneumonia at 86",
+      "previously": "1848: Ferdinand abdicates, and the crown passes to his teenage nephew.",
+      "paragraphs": [
+        "Franz Joseph crushed the Hungarian revolution in 1849 with Russian help, then ruled as an absolute monarch. In 1853 a Hungarian tailor stabbed him in the neck; he survived. In 1854 he married his cousin Elisabeth of Bavaria, 'Sisi'. Then the losses began: Lombardy to France and Piedmont in 1859, and the leadership of Germany to Prussia in 1866. In 1867 he made a deal with Hungary, and the empire became Austria-Hungary.",
+        "His private life was a run of tragedies. His brother Maximilian was shot in Mexico in 1867. His only son Rudolf died with his young lover Mary Vetsera at Mayerling in 1889. Sisi, always restless and travelling, was stabbed by an anarchist in Geneva in 1898. Through it all he rose before dawn, did his paperwork and slept on a plain iron bed.",
+        "His heir was now his nephew Franz Ferdinand. On 28 June 1914 a Bosnian Serb shot Franz Ferdinand and his wife in Sarajevo. Franz Joseph signed the declaration of war on Serbia, and Europe fell into the First World War. He died at Schönbrunn in November 1916, aged 86, with the war still raging."
+      ],
+      "claims": [
+        {
+          "text": "Rudolf was murdered at Mayerling, and the suicide was a cover-up.",
+          "status": "legend",
+          "note": "The court first claimed heart failure, which fed endless rumours. The evidence points to Rudolf shooting Mary Vetsera and then himself."
+        },
+        {
+          "text": "After Sisi's murder he said: 'Nothing has been spared me in this world.'",
+          "status": "disputed",
+          "note": "Reported by people around him at the time. The exact words vary between accounts."
+        },
+        {
+          "text": "He worked at his desk from about 5 in the morning, every day.",
+          "status": "confirmed",
+          "note": "His valet, Eugen Ketterl, and many visitors described his early starts and spartan habits."
+        }
+      ],
+      "hook": "The old emperor dies in the middle of a world war. His great-nephew Charles, 29, inherits a hungry, exhausted empire and one goal: get out of the war before it destroys everything.",
+      "images": [
+        {
+          "file": "File:Portrait of Franz Joseph I by Franz Xaver Winterhalter.jpg",
+          "url": "https://upload.wikimedia.org/wikipedia/commons/a/ac/Portrait_of_Franz_Joseph_I_by_Franz_Xaver_Winterhalter.jpg",
+          "page": "https://commons.wikimedia.org/wiki/File:Portrait_of_Franz_Joseph_I_by_Franz_Xaver_Winterhalter.jpg",
+          "credit": "Franz Xaver Winterhalter",
+          "license": "Public domain",
+          "made": "1865",
+          "caption": "Painted by Winterhalter in 1865, when Franz Joseph was in his mid-thirties.",
+          "alt": "Painted portrait of Emperor Franz Joseph by Franz Xaver Winterhalter"
+        }
+      ],
+      "sources": [
+        {
+          "title": "Twilight of the Habsburgs: The Life and Times of Emperor Francis Joseph",
+          "author": "Alan Palmer",
+          "note": "Weidenfeld & Nicolson, 1994"
+        },
+        {
+          "title": "Francis Joseph",
+          "author": "Steven Beller",
+          "note": "Longman, 1996"
+        },
+        {
+          "title": "The Reluctant Empress: A Biography of Empress Elisabeth of Austria",
+          "author": "Brigitte Hamann",
+          "note": "Knopf, 1986"
+        },
+        {
+          "title": "The Decline and Fall of the Habsburg Empire, 1815–1918",
+          "author": "Alan Sked",
+          "note": "Longman, 1989"
+        }
+      ],
+      "review": {
+        "status": "draft",
+        "notes": "Drafted from the listed sources; needs a human fact-check."
+      }
+    },
+    {
+      "id": "charles-i",
+      "kind": "monarch",
+      "rulers": [
+        "charles-i"
+      ],
+      "tagline": "The last emperor, who wanted peace and got exile",
+      "start": {
+        "date": "1916-11-21"
+      },
+      "end": {
+        "date": "1918-11-11"
+      },
+      "contestedWith": [],
+      "relationToPredecessor": "Great-nephew of Franz Joseph",
+      "ageAtAccession": "29",
+      "cameToPower": "Heir after Sarajevo",
+      "reignEnded": "Withdrew from power; empire collapsed",
+      "previously": "Franz Joseph dies after 68 years, with the war still raging.",
+      "paragraphs": [
+        "Charles was never meant to rule. Then his uncle Franz Ferdinand was shot at Sarajevo, and two years later he was emperor, and crowned King of Hungary too. He and his wife Zita saw the war was ruining the empire. In 1917 he tried for a secret peace through Zita's brothers, Princes Sixtus and Xavier of Bourbon-Parma. He even sent a letter backing France's 'just claims' to Alsace-Lorraine.",
+        "In April 1918 the French prime minister Clemenceau published the letter. Charles denied it, looked foolish, and was tied even tighter to Germany. In October he offered to turn the empire into a federation. It was far too late. Czechs, South Slavs, Poles and Hungarians simply walked away. On 11 November 1918 Charles gave up 'all part in affairs of state', and the next day Austria declared itself a republic.",
+        "He never formally abdicated. In 1921 he twice tried to win back Hungary, and failed. The Allies shipped him off to Madeira, where he caught pneumonia and died in April 1922, aged 34. In 2004 the Catholic Church beatified him. More than 600 years of Habsburg Austria had ended with a quiet, sincere man who wanted peace too late."
+      ],
+      "claims": [
+        {
+          "text": "Charles never abdicated.",
+          "status": "confirmed",
+          "note": "His statement of 11 November 1918 withdrew him from government but didn't give up the throne. That's why he felt free to try again in Hungary."
+        },
+        {
+          "text": "Charles wrote the Sixtus letter he later denied.",
+          "status": "confirmed",
+          "note": "The letter was in his own hand. Historians agree his denial was a desperate attempt to calm Berlin."
+        },
+        {
+          "text": "The Catholic Church credits Charles with a miracle.",
+          "status": "confirmed",
+          "note": "His beatification in 2004 rested on the Church's acceptance of a nun's cure in Brazil. Believers and sceptics read that differently."
+        }
+      ],
+      "images": [
+        {
+          "file": "File:John Quincy Adams - Kaiser Karl I. von Österreich - 3718 - Kunsthistorisches Museum.jpg",
+          "url": "https://upload.wikimedia.org/wikipedia/commons/b/b1/John_Quincy_Adams_-_Kaiser_Karl_I._von_%C3%96sterreich_-_3718_-_Kunsthistorisches_Museum.jpg",
+          "page": "https://commons.wikimedia.org/wiki/File:John_Quincy_Adams_-_Kaiser_Karl_I._von_%C3%96sterreich_-_3718_-_Kunsthistorisches_Museum.jpg",
+          "credit": "John Quincy Adams",
+          "license": "Public domain",
+          "made": "1917",
+          "caption": "Painted in 1917 by the Viennese artist John Quincy Adams, during the war.",
+          "alt": "Painted portrait of Emperor Charles I of Austria"
+        }
+      ],
+      "sources": [
+        {
+          "title": "The Last Habsburg",
+          "author": "Gordon Brook-Shepherd",
+          "note": "Weidenfeld & Nicolson, 1968"
+        },
+        {
+          "title": "The Last Empress: The Life and Times of Zita of Austria-Hungary",
+          "author": "Gordon Brook-Shepherd",
+          "note": "HarperCollins, 1991"
+        },
+        {
+          "title": "The Decline and Fall of the Habsburg Empire, 1815–1918",
+          "author": "Alan Sked",
+          "note": "Longman, 1989"
+        }
+      ],
+      "review": {
+        "status": "draft",
+        "notes": "Drafted from the listed sources; needs a human fact-check."
+      }
+    }
+  ]
+}
