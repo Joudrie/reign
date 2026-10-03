@@ -324,9 +324,9 @@ const CATALOG = [
   { id: "england", name: "England & the UK", short: "England" },
   { id: "spain", name: "Spain", short: "Spain" },
   { id: "france", name: "France" },
-  { id: "russia", name: "Russia" },
+  { id: "russia", name: "Russia", short: "Russia" },
   { id: "portugal", name: "Portugal" },
-  { id: "japan", name: "Japan" },
+  { id: "japan", name: "Japan", short: "Japan" },
 ];
 const FLAGS = {
   england: `<svg class="flag" viewBox="0 0 30 20" preserveAspectRatio="none"><rect width="30" height="20" fill="#fff"/><rect x="12.5" width="5" height="20" fill="#c8102e"/><rect y="7.5" width="30" height="5" fill="#c8102e"/></svg>`,
@@ -363,8 +363,9 @@ const reignHouses = g => {
 };
 // Republics and regimes aren't houses: label them by name only.
 const houseLabel = g => {
-  const names = reignHouses(g).map(h => esc(h.name)).join(" & ");
-  return g.kind === "interregnum" ? names : `House of ${names}`;
+  const hs = reignHouses(g);
+  const names = hs.map(h => esc(h.name)).join(" & ");
+  return g.kind === "interregnum" || hs.every(h => h.plain) ? names : `House of ${names}`;
 };
 const img = g => `img/${country}/${g.id}.jpg`;
 

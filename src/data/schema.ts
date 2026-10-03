@@ -68,6 +68,8 @@ export const House = z.object({
   name: z.string().min(1),
   /** Timeline bar color. */
   color: z.string().regex(/^#[0-9a-f]{6}$/i),
+  /** Show the name alone, not "House of …": parties, regimes, pretenders. */
+  plain: z.boolean().optional(),
 });
 
 export const Ruler = z.object({
