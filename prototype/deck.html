@@ -39,6 +39,8 @@
 }
 *, *::before, *::after { box-sizing: border-box; }
 html, body { height: 100%; }
+/* iOS Safari enlarges text it judges too small after re-renders; keep our type scale exactly as set. */
+html { -webkit-text-size-adjust: 100%; text-size-adjust: 100%; }
 body {
   background: var(--table);
   color: var(--ink);
@@ -399,8 +401,8 @@ function card(g, i) {
       <ul>${g.claims.map(c => `<li><span class="status ${c.status}">${c.status}</span><span class="claim-text">${esc(c.text)}</span><span class="claim-note">${esc(c.note)}</span></li>`).join("")}</ul>
     </section>` : ""}
     <div class="hook">
-      <h2 class="section-label caps">${g.hook ? "Next time" : "To be continued"}</h2>
-      <p>${esc(g.hook ?? "This story is still being written. Swipe back through nearly a thousand years of how we got here.")}</p>
+      <h2 class="section-label caps">${g.hook ? "Next time" : DATA.epilogue ? "The end of the line" : "To be continued"}</h2>
+      <p>${esc(g.hook ?? DATA.epilogue ?? "This story is still being written. Swipe back through the centuries of how we got here.")}</p>
       <button class="btn" data-go="${next ? i + 1 : 0}">${next ? `${esc(reignName(next))} →` : `← Back to ${esc(reignName(reigns[0]))}`}</button>
     </div>
     <details>

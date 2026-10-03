@@ -134,6 +134,8 @@ export const Country = z.object({
   blurb: z.string().min(1),
   /** What the reign-date convention is, shown in an "about these dates" note. */
   dateConvention: z.string().min(1),
+  /** Closing line on the last card when the story has ended (France after 1870). Omit while it continues. */
+  epilogue: z.string().max(220).optional(),
   houses: z.array(House).min(1),
   rulers: z.array(Ruler).min(1),
   reigns: z.array(Reign).min(1),
