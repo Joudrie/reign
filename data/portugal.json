@@ -1,0 +1,3435 @@
+{
+  "id": "portugal",
+  "name": "Portugal",
+  "blurb": "From Afonso I to the Republic of 1910",
+  "dateConvention": "Reigns are counted from accession. From 1581 to 1640 Spain's kings also ruled Portugal; their Portuguese numbering differs from their Spanish one.",
+  "epilogue": "On 5 October 1910 Portugal became a republic, and it has had no king since. Swipe back through nearly eight centuries of the kings and queens who made it.",
+  "houses": [
+    {
+      "id": "burgundy",
+      "name": "Burgundy",
+      "color": "#3a5a8c"
+    },
+    {
+      "id": "crisis",
+      "name": "No king",
+      "color": "#55524a",
+      "plain": true
+    },
+    {
+      "id": "aviz",
+      "name": "Aviz",
+      "color": "#9b4a2c"
+    },
+    {
+      "id": "habsburg",
+      "name": "Habsburg",
+      "color": "#b8932e"
+    },
+    {
+      "id": "braganza",
+      "name": "Braganza",
+      "color": "#2e6b4f"
+    }
+  ],
+  "rulers": [
+    {
+      "id": "afonso-i",
+      "name": "Afonso I",
+      "epithet": "the Conqueror",
+      "house": "burgundy",
+      "born": {
+        "date": "1109",
+        "circa": true,
+        "note": "Traditionally Guimarães; both the year and the place are debated"
+      },
+      "died": {
+        "date": "1185-12-06",
+        "note": "Coimbra"
+      },
+      "causeOfDeath": "Natural causes, in old age"
+    },
+    {
+      "id": "sancho-i",
+      "name": "Sancho I",
+      "epithet": "the Populator",
+      "house": "burgundy",
+      "born": {
+        "date": "1154-11-11",
+        "note": "Coimbra"
+      },
+      "died": {
+        "date": "1211-03-26",
+        "note": "Coimbra"
+      },
+      "causeOfDeath": "Illness"
+    },
+    {
+      "id": "afonso-ii",
+      "name": "Afonso II",
+      "epithet": "the Fat",
+      "house": "burgundy",
+      "born": {
+        "date": "1185-04-23",
+        "note": "Coimbra"
+      },
+      "died": {
+        "date": "1223-03-25",
+        "note": "Coimbra"
+      },
+      "causeOfDeath": "Illness, while excommunicated"
+    },
+    {
+      "id": "sancho-ii",
+      "name": "Sancho II",
+      "house": "burgundy",
+      "born": {
+        "date": "1209-09-08",
+        "note": "Coimbra"
+      },
+      "died": {
+        "date": "1248-01-04",
+        "note": "Toledo, Castile"
+      },
+      "causeOfDeath": "Died in exile"
+    },
+    {
+      "id": "afonso-iii",
+      "name": "Afonso III",
+      "house": "burgundy",
+      "born": {
+        "date": "1210-05-05",
+        "note": "Coimbra"
+      },
+      "died": {
+        "date": "1279-02-16",
+        "note": "Lisbon"
+      },
+      "causeOfDeath": "Illness"
+    },
+    {
+      "id": "denis",
+      "name": "Denis",
+      "epithet": "the Poet King",
+      "house": "burgundy",
+      "born": {
+        "date": "1261-10-09",
+        "note": "Lisbon"
+      },
+      "died": {
+        "date": "1325-01-07",
+        "note": "Santarém"
+      },
+      "causeOfDeath": "Illness"
+    },
+    {
+      "id": "afonso-iv",
+      "name": "Afonso IV",
+      "epithet": "the Brave",
+      "house": "burgundy",
+      "born": {
+        "date": "1291-02-08",
+        "note": "Lisbon"
+      },
+      "died": {
+        "date": "1357-05-28",
+        "note": "Lisbon"
+      },
+      "causeOfDeath": "Natural causes"
+    },
+    {
+      "id": "peter-i",
+      "name": "Peter I",
+      "epithet": "the Just",
+      "house": "burgundy",
+      "born": {
+        "date": "1320-04-08",
+        "note": "Coimbra"
+      },
+      "died": {
+        "date": "1367-01-18",
+        "note": "Estremoz"
+      },
+      "causeOfDeath": "Illness"
+    },
+    {
+      "id": "ferdinand-i",
+      "name": "Ferdinand I",
+      "epithet": "the Handsome",
+      "house": "burgundy",
+      "born": {
+        "date": "1345-10-31",
+        "note": "Coimbra"
+      },
+      "died": {
+        "date": "1383-10-22",
+        "note": "Lisbon"
+      },
+      "causeOfDeath": "Illness"
+    },
+    {
+      "id": "john-i",
+      "name": "John I",
+      "epithet": "of Good Memory",
+      "house": "aviz",
+      "born": {
+        "date": "1357-04-11",
+        "note": "Lisbon"
+      },
+      "died": {
+        "date": "1433-08-14",
+        "note": "Lisbon"
+      },
+      "causeOfDeath": "Natural causes, aged 76"
+    },
+    {
+      "id": "edward",
+      "name": "Edward",
+      "epithet": "the Philosopher",
+      "house": "aviz",
+      "born": {
+        "date": "1391-10-31",
+        "note": "Viseu"
+      },
+      "died": {
+        "date": "1438-09-09",
+        "note": "Tomar"
+      },
+      "causeOfDeath": "Plague"
+    },
+    {
+      "id": "afonso-v",
+      "name": "Afonso V",
+      "epithet": "the African",
+      "house": "aviz",
+      "born": {
+        "date": "1432-01-15",
+        "note": "Sintra"
+      },
+      "died": {
+        "date": "1481-08-28",
+        "note": "Sintra"
+      },
+      "causeOfDeath": "Illness"
+    },
+    {
+      "id": "john-ii",
+      "name": "John II",
+      "epithet": "the Perfect Prince",
+      "house": "aviz",
+      "born": {
+        "date": "1455-05-03",
+        "note": "Lisbon"
+      },
+      "died": {
+        "date": "1495-10-25",
+        "note": "Alvor, Algarve"
+      },
+      "causeOfDeath": "Illness; poison was rumoured"
+    },
+    {
+      "id": "manuel-i",
+      "name": "Manuel I",
+      "epithet": "the Fortunate",
+      "house": "aviz",
+      "born": {
+        "date": "1469-05-31",
+        "note": "Alcochete"
+      },
+      "died": {
+        "date": "1521-12-13",
+        "note": "Lisbon"
+      },
+      "causeOfDeath": "Illness"
+    },
+    {
+      "id": "john-iii",
+      "name": "John III",
+      "epithet": "the Pious",
+      "house": "aviz",
+      "born": {
+        "date": "1502-06-07",
+        "note": "Lisbon"
+      },
+      "died": {
+        "date": "1557-06-11",
+        "note": "Lisbon"
+      },
+      "causeOfDeath": "Stroke"
+    },
+    {
+      "id": "sebastian",
+      "name": "Sebastian",
+      "epithet": "the Desired",
+      "house": "aviz",
+      "born": {
+        "date": "1554-01-20",
+        "note": "Lisbon"
+      },
+      "died": {
+        "date": "1578-08-04",
+        "note": "Battle of Alcácer Quibir, Morocco"
+      },
+      "causeOfDeath": "Killed in battle"
+    },
+    {
+      "id": "henry",
+      "name": "Henry",
+      "epithet": "the Cardinal-King",
+      "house": "aviz",
+      "born": {
+        "date": "1512-01-31",
+        "note": "Lisbon"
+      },
+      "died": {
+        "date": "1580-01-31",
+        "note": "Almeirim, on his 68th birthday"
+      },
+      "causeOfDeath": "Illness in old age"
+    },
+    {
+      "id": "anthony",
+      "name": "Anthony, Prior of Crato",
+      "house": "aviz",
+      "born": {
+        "date": "1531",
+        "circa": true,
+        "note": "Lisbon"
+      },
+      "died": {
+        "date": "1595-08-26",
+        "note": "Paris"
+      },
+      "causeOfDeath": "Illness, in exile and poverty"
+    },
+    {
+      "id": "philip-i",
+      "name": "Philip I",
+      "epithet": "the Prudent",
+      "house": "habsburg",
+      "born": {
+        "date": "1527-05-21",
+        "note": "Valladolid, Castile"
+      },
+      "died": {
+        "date": "1598-09-13",
+        "note": "El Escorial, near Madrid"
+      },
+      "causeOfDeath": "Long, painful illness"
+    },
+    {
+      "id": "philip-ii",
+      "name": "Philip II",
+      "house": "habsburg",
+      "born": {
+        "date": "1578-04-14",
+        "note": "Madrid"
+      },
+      "died": {
+        "date": "1621-03-31",
+        "note": "Madrid"
+      },
+      "causeOfDeath": "Fever"
+    },
+    {
+      "id": "philip-iii",
+      "name": "Philip III",
+      "house": "habsburg",
+      "born": {
+        "date": "1605-04-08",
+        "note": "Valladolid, Castile"
+      },
+      "died": {
+        "date": "1665-09-17",
+        "note": "Madrid"
+      },
+      "causeOfDeath": "Illness"
+    },
+    {
+      "id": "john-iv",
+      "name": "John IV",
+      "epithet": "the Restorer",
+      "house": "braganza",
+      "born": {
+        "date": "1604-03-19",
+        "note": "Vila Viçosa, Alentejo"
+      },
+      "died": {
+        "date": "1656-11-06",
+        "note": "Lisbon"
+      },
+      "causeOfDeath": "Illness"
+    },
+    {
+      "id": "afonso-vi",
+      "name": "Afonso VI",
+      "epithet": "the Victorious",
+      "house": "braganza",
+      "born": {
+        "date": "1643-08-21",
+        "note": "Lisbon"
+      },
+      "died": {
+        "date": "1683-09-12",
+        "note": "Sintra Palace"
+      },
+      "causeOfDeath": "Apoplexy, still a prisoner"
+    },
+    {
+      "id": "peter-ii",
+      "name": "Peter II",
+      "epithet": "the Pacific",
+      "house": "braganza",
+      "born": {
+        "date": "1648-04-26",
+        "note": "Lisbon"
+      },
+      "died": {
+        "date": "1706-12-09",
+        "note": "Lisbon"
+      },
+      "causeOfDeath": "Illness"
+    },
+    {
+      "id": "john-v",
+      "name": "John V",
+      "epithet": "the Magnanimous",
+      "house": "braganza",
+      "born": {
+        "date": "1689-10-22",
+        "note": "Lisbon"
+      },
+      "died": {
+        "date": "1750-07-31",
+        "note": "Lisbon"
+      },
+      "causeOfDeath": "Illness after a series of strokes"
+    },
+    {
+      "id": "joseph-i",
+      "name": "Joseph I",
+      "epithet": "the Reformer",
+      "house": "braganza",
+      "born": {
+        "date": "1714-06-06",
+        "note": "Lisbon"
+      },
+      "died": {
+        "date": "1777-02-24",
+        "note": "Lisbon"
+      },
+      "causeOfDeath": "Illness after a stroke"
+    },
+    {
+      "id": "maria-i",
+      "name": "Maria I",
+      "epithet": "the Pious",
+      "house": "braganza",
+      "born": {
+        "date": "1734-12-17",
+        "note": "Lisbon"
+      },
+      "died": {
+        "date": "1816-03-20",
+        "note": "Rio de Janeiro, Brazil"
+      },
+      "causeOfDeath": "Old age and illness"
+    },
+    {
+      "id": "peter-iii",
+      "name": "Peter III",
+      "house": "braganza",
+      "born": {
+        "date": "1717-07-05",
+        "note": "Lisbon"
+      },
+      "died": {
+        "date": "1786-05-25",
+        "note": "Lisbon"
+      },
+      "causeOfDeath": "Illness"
+    },
+    {
+      "id": "john-vi",
+      "name": "John VI",
+      "epithet": "the Clement",
+      "house": "braganza",
+      "born": {
+        "date": "1767-05-13",
+        "note": "Lisbon"
+      },
+      "died": {
+        "date": "1826-03-10",
+        "note": "Lisbon"
+      },
+      "causeOfDeath": "Sudden illness, possibly arsenic"
+    },
+    {
+      "id": "peter-iv",
+      "name": "Peter IV",
+      "epithet": "the Liberator",
+      "house": "braganza",
+      "born": {
+        "date": "1798-10-12",
+        "note": "Queluz Palace, near Lisbon"
+      },
+      "died": {
+        "date": "1834-09-24",
+        "note": "Queluz Palace, near Lisbon"
+      },
+      "causeOfDeath": "Tuberculosis"
+    },
+    {
+      "id": "maria-ii",
+      "name": "Maria II",
+      "epithet": "the Good Mother",
+      "house": "braganza",
+      "born": {
+        "date": "1819-04-04",
+        "note": "Rio de Janeiro, Brazil"
+      },
+      "died": {
+        "date": "1853-11-15",
+        "note": "Necessidades Palace, Lisbon"
+      },
+      "causeOfDeath": "Died in childbirth"
+    },
+    {
+      "id": "miguel",
+      "name": "Miguel I",
+      "house": "braganza",
+      "born": {
+        "date": "1802-10-26",
+        "note": "Queluz Palace, near Lisbon"
+      },
+      "died": {
+        "date": "1866-11-14",
+        "note": "In exile in Germany"
+      },
+      "causeOfDeath": "Natural causes"
+    },
+    {
+      "id": "peter-v",
+      "name": "Peter V",
+      "epithet": "the Hopeful",
+      "house": "braganza",
+      "born": {
+        "date": "1837-09-16",
+        "note": "Necessidades Palace, Lisbon"
+      },
+      "died": {
+        "date": "1861-11-11",
+        "note": "Necessidades Palace, Lisbon"
+      },
+      "causeOfDeath": "Typhoid fever"
+    },
+    {
+      "id": "luis-i",
+      "name": "Luís I",
+      "house": "braganza",
+      "born": {
+        "date": "1838-10-31",
+        "note": "Necessidades Palace, Lisbon"
+      },
+      "died": {
+        "date": "1889-10-19",
+        "note": "Cascais"
+      },
+      "causeOfDeath": "Illness"
+    },
+    {
+      "id": "carlos-i",
+      "name": "Carlos I",
+      "house": "braganza",
+      "born": {
+        "date": "1863-09-28",
+        "note": "Lisbon"
+      },
+      "died": {
+        "date": "1908-02-01",
+        "note": "Terreiro do Paço, Lisbon"
+      },
+      "causeOfDeath": "Shot by republican assassins"
+    },
+    {
+      "id": "manuel-ii",
+      "name": "Manuel II",
+      "epithet": "the Unfortunate",
+      "house": "braganza",
+      "born": {
+        "date": "1889-11-15",
+        "note": "Belém Palace, Lisbon"
+      },
+      "died": {
+        "date": "1932-07-02",
+        "note": "Fulwell Park, Twickenham, England"
+      },
+      "causeOfDeath": "Sudden swelling of the throat"
+    }
+  ],
+  "reigns": [
+    {
+      "id": "afonso-i",
+      "kind": "monarch",
+      "rulers": [
+        "afonso-i"
+      ],
+      "tagline": "The rebel count who made himself a king",
+      "start": {
+        "date": "1139-07-26"
+      },
+      "end": {
+        "date": "1185-12-06"
+      },
+      "contestedWith": [],
+      "relationToPredecessor": "Son of Count Henry of Portugal",
+      "ageAtAccession": "About 30",
+      "cameToPower": "Hailed king after Ourique",
+      "reignEnded": "Died at Coimbra, aged about 76",
+      "previously": "A county of León. Its young count has just beaten his own mother.",
+      "paragraphs": [
+        "Afonso Henriques grew up as count of Portucale, a border county owing loyalty to León. His mother Teresa ran it, with her Galician favourite at her side. In 1128 the teenage Afonso raised his own army and beat her at São Mamede, near Guimarães. Teresa was pushed out, and her son took charge.",
+        "After a win over the Moors at Ourique in 1139 he started calling himself king. His cousin Alfonso VII of León accepted the title in 1143. In 1147 he took Lisbon with help from English, Flemish and German crusaders who had stopped on their way east. In 1169 he broke his leg at Badajoz and was captured by León's king. The Pope finally recognised him as king in 1179. He reigned 46 years and left a kingdom twice the size of his old county."
+      ],
+      "claims": [
+        {
+          "text": "Christ appeared to Afonso before the Battle of Ourique and promised him victory.",
+          "status": "legend",
+          "note": "The vision only shows up in writing in the 1400s, nearly three centuries later. It became Portugal's founding myth."
+        },
+        {
+          "text": "Afonso threw his mother into chains after beating her.",
+          "status": "disputed",
+          "note": "Later chronicles say so. Earlier sources only say she lost power and left for Galicia, where she died soon after."
+        },
+        {
+          "text": "Northern European crusaders helped him capture Lisbon in 1147.",
+          "status": "confirmed",
+          "note": "An eyewitness letter by a crusader, De expugnatione Lyxbonensi, describes the siege in detail."
+        }
+      ],
+      "hook": "The first king of Portugal is dead. His son Sancho is 31, already a seasoned soldier, and he inherits a frontier kingdom with plenty of empty land and the Almohads to the south.",
+      "images": [
+        {
+          "file": "File:D. Afonso Henriques - The Portuguese Genealogy (Genealogia dos Reis de Portugal).png",
+          "url": "https://upload.wikimedia.org/wikipedia/commons/e/ee/D._Afonso_Henriques_-_The_Portuguese_Genealogy_%28Genealogia_dos_Reis_de_Portugal%29.png",
+          "page": "https://commons.wikimedia.org/wiki/File:D._Afonso_Henriques_-_The_Portuguese_Genealogy_(Genealogia_dos_Reis_de_Portugal).png",
+          "credit": "António de Holanda",
+          "license": "Public domain",
+          "made": "c. 1530–1534",
+          "caption": "Painted by António de Holanda about 350 years after Afonso's death, for a royal family tree.",
+          "alt": "Sixteenth-century illuminated miniature of Afonso Henriques, first king of Portugal"
+        }
+      ],
+      "sources": [
+        {
+          "title": "D. Afonso Henriques",
+          "author": "José Mattoso",
+          "note": "Reis de Portugal series, Círculo de Leitores, 2005–2006"
+        },
+        {
+          "title": "De expugnatione Lyxbonensi",
+          "author": "Anonymous crusader (often attributed to Raol)",
+          "note": "Eyewitness account of the 1147 siege of Lisbon"
+        },
+        {
+          "title": "History of Portugal, vol. 1: From Lusitania to Empire",
+          "author": "A. H. de Oliveira Marques",
+          "note": "Columbia University Press, 1972"
+        }
+      ],
+      "review": {
+        "status": "draft",
+        "notes": "Drafted from the listed sources; needs a human fact-check."
+      }
+    },
+    {
+      "id": "sancho-i",
+      "kind": "monarch",
+      "rulers": [
+        "sancho-i"
+      ],
+      "tagline": "The king who filled the empty land with people",
+      "start": {
+        "date": "1185-12-06"
+      },
+      "end": {
+        "date": "1211-03-26"
+      },
+      "contestedWith": [],
+      "relationToPredecessor": "Son of Afonso I",
+      "ageAtAccession": "31",
+      "cameToPower": "Inherited from his father",
+      "reignEnded": "Died after a long illness",
+      "previously": "Afonso I dies after 46 years, the first king of a brand-new country.",
+      "paragraphs": [
+        "Sancho's nickname says it all. Portugal had plenty of land and too few people. He handed out town charters, built new settlements and invited settlers, including foreigners, to come and farm. The town of Guarda got its charter from him in 1199.",
+        "In 1189 a fleet of northern crusaders sailed into the Tagus on their way to the Holy Land. Sancho talked them into helping him take Silves, the rich Moorish city in the Algarve. It was a short-lived triumph. The Almohad caliph struck back in 1191 and took Silves and much else south of the Tagus. Sancho also quarrelled with his bishops and left large legacies to his daughters, which stored up trouble for his son."
+      ],
+      "claims": [
+        {
+          "text": "Northern crusaders helped Sancho capture Silves in 1189.",
+          "status": "confirmed",
+          "note": "An anonymous crusader who was there wrote a detailed account of the voyage and the siege."
+        },
+        {
+          "text": "Sancho wrote one of the earliest love songs in Galician-Portuguese.",
+          "status": "disputed",
+          "note": "A cantiga is attributed to him in later songbooks, but scholars argue over whether the king really wrote it."
+        },
+        {
+          "text": "He had a famous mistress, Maria Pais Ribeira, nicknamed 'a Ribeirinha'.",
+          "status": "confirmed",
+          "note": "She and her children by the king appear in royal documents and the noble genealogies."
+        }
+      ],
+      "hook": "Sancho's heir Afonso is 25 and in poor health. His will has left castles and money to Afonso's sisters, and the new king has no plans to let them keep it.",
+      "images": [
+        {
+          "file": "File:D. Sancho I de Portugal - The Portuguese Genealogy (Genealogia dos Reis de Portugal).png",
+          "url": "https://upload.wikimedia.org/wikipedia/commons/2/29/D._Sancho_I_de_Portugal_-_The_Portuguese_Genealogy_%28Genealogia_dos_Reis_de_Portugal%29.png",
+          "page": "https://commons.wikimedia.org/wiki/File:D._Sancho_I_de_Portugal_-_The_Portuguese_Genealogy_(Genealogia_dos_Reis_de_Portugal).png",
+          "credit": "António de Holanda",
+          "license": "Public domain",
+          "made": "c. 1530–1534",
+          "caption": "Painted by António de Holanda more than 300 years after Sancho's death.",
+          "alt": "Sixteenth-century illuminated miniature of King Sancho I of Portugal"
+        }
+      ],
+      "sources": [
+        {
+          "title": "D. Sancho I",
+          "author": "Maria João Violante Branco",
+          "note": "Reis de Portugal series, Círculo de Leitores, 2005–2006"
+        },
+        {
+          "title": "Narratio de itinere navali peregrinorum Hierosolymam tendentium et Silviam capientium",
+          "author": "Anonymous crusader",
+          "note": "Eyewitness account of the 1189 siege of Silves"
+        },
+        {
+          "title": "History of Portugal, vol. 1: From Lusitania to Empire",
+          "author": "A. H. de Oliveira Marques",
+          "note": "Columbia University Press, 1972"
+        }
+      ],
+      "review": {
+        "status": "draft",
+        "notes": "Drafted from the listed sources; needs a human fact-check."
+      }
+    },
+    {
+      "id": "afonso-ii",
+      "kind": "monarch",
+      "rulers": [
+        "afonso-ii"
+      ],
+      "tagline": "The sickly king who took on his sisters and the Pope",
+      "start": {
+        "date": "1211-03-26"
+      },
+      "end": {
+        "date": "1223-03-25"
+      },
+      "contestedWith": [],
+      "relationToPredecessor": "Eldest son of Sancho I",
+      "ageAtAccession": "25",
+      "cameToPower": "Inherited from his father",
+      "reignEnded": "Died excommunicated",
+      "previously": "Sancho I dies, leaving rich legacies to his daughters.",
+      "paragraphs": [
+        "Afonso II was no warrior. He was heavy, often ill, and hardly ever rode out to fight. His battles were with paperwork. In his first year he held a Cortes at Coimbra and issued the kingdom's first general laws. Then he went after his sisters, who refused to hand over the castles their father had left them. The quarrel dragged in León and the Pope.",
+        "In 1217 crusaders and Portuguese lords took Alcácer do Sal from the Moors, while the king stayed home. Afonso sent royal inspectors round the country to check who owned what. The Church saw this as an attack on its lands. The Archbishop of Braga fought back, and the Pope excommunicated the king. Afonso died in 1223 still under the ban, leaving the crown to a 13-year-old boy."
+      ],
+      "claims": [
+        {
+          "text": "Afonso II's will of 1214 is one of the oldest surviving documents written in Portuguese.",
+          "status": "confirmed",
+          "note": "Copies of it survive in Portuguese archives, and it is a standard landmark in histories of the language."
+        },
+        {
+          "text": "'The Fat' was really suffering from leprosy.",
+          "status": "disputed",
+          "note": "Some later writers said so to explain his bulk and ill health. No source from his lifetime names the disease."
+        },
+        {
+          "text": "He died excommunicated after his fight with the Archbishop of Braga.",
+          "status": "confirmed",
+          "note": "Papal letters record the sentence, and his son had to make peace with the Church."
+        }
+      ],
+      "hook": "The new king Sancho II is 13. The bishops want their lands back, the nobles smell weakness, and a boy king is about to discover how hard Portugal is to rule.",
+      "images": [
+        {
+          "file": "File:D. Afonso II de Portugal - The Portuguese Genealogy (Genealogia dos Reis de Portugal).png",
+          "url": "https://upload.wikimedia.org/wikipedia/commons/f/f6/D._Afonso_II_de_Portugal_-_The_Portuguese_Genealogy_%28Genealogia_dos_Reis_de_Portugal%29.png",
+          "page": "https://commons.wikimedia.org/wiki/File:D._Afonso_II_de_Portugal_-_The_Portuguese_Genealogy_(Genealogia_dos_Reis_de_Portugal).png",
+          "credit": "António de Holanda",
+          "license": "Public domain",
+          "made": "c. 1530–1534",
+          "caption": "Painted by António de Holanda about 300 years after Afonso's death.",
+          "alt": "Sixteenth-century illuminated miniature of King Afonso II of Portugal"
+        }
+      ],
+      "sources": [
+        {
+          "title": "D. Afonso II",
+          "author": "Hermínia Vasconcelos Vilar",
+          "note": "Reis de Portugal series, Círculo de Leitores, 2005–2006"
+        },
+        {
+          "title": "History of Portugal, vol. 1: From Lusitania to Empire",
+          "author": "A. H. de Oliveira Marques",
+          "note": "Columbia University Press, 1972"
+        },
+        {
+          "title": "A New History of Portugal",
+          "author": "H. V. Livermore",
+          "note": "Cambridge University Press, 1966"
+        }
+      ],
+      "review": {
+        "status": "draft",
+        "notes": "Drafted from the listed sources; needs a human fact-check."
+      }
+    },
+    {
+      "id": "sancho-ii",
+      "kind": "monarch",
+      "rulers": [
+        "sancho-ii"
+      ],
+      "tagline": "The soldier king the Pope declared useless",
+      "start": {
+        "date": "1223-03-25"
+      },
+      "end": {
+        "date": "1248-01-04"
+      },
+      "contestedWith": [],
+      "relationToPredecessor": "Son of Afonso II",
+      "ageAtAccession": "13",
+      "cameToPower": "Inherited as a boy",
+      "reignEnded": "Deposed; died in exile in Toledo",
+      "previously": "Afonso II dies excommunicated, leaving the crown to a 13-year-old.",
+      "paragraphs": [
+        "Sancho II was a good soldier. He pushed the frontier south along the Guadiana, taking Elvas, Serpa and Mértola and reaching into the Algarve. At home, things fell apart. Nobles fought private wars, bishops complained he ignored them, and the king seemed unable or unwilling to stop any of it.",
+        "His marriage to the Castilian noblewoman Mécia Lopes de Haro made things worse. His enemies said she had him under her spell, and a band of nobles kidnapped her. The bishops went to Rome. In 1245 Pope Innocent IV declared Sancho unfit to rule and handed the government to his younger brother Afonso, Count of Boulogne. Afonso landed with backing from the Church and nobles. After two years of civil war Sancho fled to Toledo, where he died in January 1248."
+      ],
+      "claims": [
+        {
+          "text": "The Pope labelled Sancho a 'rex inutilis', a useless king.",
+          "status": "confirmed",
+          "note": "The papal bull of 1245 survives. Technically it made Afonso curator of the realm rather than removing Sancho's crown."
+        },
+        {
+          "text": "Nobles snatched Queen Mécia from the royal palace at Coimbra.",
+          "status": "confirmed",
+          "note": "Several chroniclers report the kidnapping. She never returned to Sancho."
+        },
+        {
+          "text": "The governor of Coimbra, Martim de Freitas, would not hand over the castle until he had seen Sancho's corpse in Toledo with his own eyes.",
+          "status": "legend",
+          "note": "A much-loved story of loyalty told in later chronicles. It has no contemporary witness."
+        }
+      ],
+      "hook": "Sancho is dead in exile and his brother is king at last. Afonso III has a French wife, a kingdom to win over, and the last Moorish corner of Portugal still to take.",
+      "images": [
+        {
+          "file": "File:D. Sancho II de Portugal - The Portuguese Genealogy (Genealogia dos Reis de Portugal).png",
+          "url": "https://upload.wikimedia.org/wikipedia/commons/5/5e/D._Sancho_II_de_Portugal_-_The_Portuguese_Genealogy_%28Genealogia_dos_Reis_de_Portugal%29.png",
+          "page": "https://commons.wikimedia.org/wiki/File:D._Sancho_II_de_Portugal_-_The_Portuguese_Genealogy_(Genealogia_dos_Reis_de_Portugal).png",
+          "credit": "António de Holanda",
+          "license": "Public domain",
+          "made": "c. 1530–1534",
+          "caption": "Painted by António de Holanda nearly 300 years after Sancho's death.",
+          "alt": "Sixteenth-century illuminated miniature of King Sancho II of Portugal"
+        }
+      ],
+      "sources": [
+        {
+          "title": "D. Sancho II",
+          "author": "Hermenegildo Fernandes",
+          "note": "Reis de Portugal series, Círculo de Leitores, 2005–2006"
+        },
+        {
+          "title": "History of Portugal, vol. 1: From Lusitania to Empire",
+          "author": "A. H. de Oliveira Marques",
+          "note": "Columbia University Press, 1972"
+        },
+        {
+          "title": "A New History of Portugal",
+          "author": "H. V. Livermore",
+          "note": "Cambridge University Press, 1966"
+        }
+      ],
+      "review": {
+        "status": "draft",
+        "notes": "Drafted from the listed sources; needs a human fact-check."
+      }
+    },
+    {
+      "id": "afonso-iii",
+      "kind": "monarch",
+      "rulers": [
+        "afonso-iii"
+      ],
+      "tagline": "The brother who took the crown and the Algarve",
+      "start": {
+        "date": "1248-01-04"
+      },
+      "end": {
+        "date": "1279-02-16"
+      },
+      "contestedWith": [],
+      "relationToPredecessor": "Younger brother of Sancho II",
+      "ageAtAccession": "37",
+      "cameToPower": "Pope's backing and civil war",
+      "reignEnded": "Died at Lisbon",
+      "previously": "Sancho II, declared unfit by the Pope, dies in exile in Toledo.",
+      "paragraphs": [
+        "Afonso had spent years in France as Count of Boulogne, thanks to his wife Matilda. He came home a seasoned politician. In 1249 he took Faro, and with it the last Moorish towns in the Algarve. Portugal's mainland borders were now very close to where they are today. Castile still claimed the Algarve, and the row was only settled by treaty in 1267.",
+        "To make peace with Castile, Afonso married Beatrice, a daughter of Alfonso X, in 1253. His first wife was still alive, so the Pope was furious. Afonso ignored him. He called the first Cortes where townsmen sat beside nobles and clergy, at Leiria in 1254, and made Lisbon the main seat of his court. Later he too clashed with the bishops and was excommunicated, before making peace on his deathbed."
+      ],
+      "claims": [
+        {
+          "text": "Afonso married Beatrice of Castile while his first wife Matilda was still alive.",
+          "status": "confirmed",
+          "note": "The Pope's protests survive, and the marriage was only made valid after Matilda died."
+        },
+        {
+          "text": "Matilda sailed to Portugal to win her husband back and was sent away.",
+          "status": "legend",
+          "note": "A romantic story told by later writers. No record from the time backs it up."
+        },
+        {
+          "text": "Townsmen sat in the Cortes for the first time at Leiria in 1254.",
+          "status": "confirmed",
+          "note": "The records of the assembly list representatives of the towns alongside nobles and clergy."
+        }
+      ],
+      "hook": "Afonso's son Denis is 17. He's clever, bookish and loves poetry, and he's about to marry a princess from Aragon who will one day be made a saint.",
+      "images": [
+        {
+          "file": "File:D. Afonso III de Portugal - The Portuguese Genealogy (Genealogia dos Reis de Portugal).png",
+          "url": "https://upload.wikimedia.org/wikipedia/commons/a/a0/D._Afonso_III_de_Portugal_-_The_Portuguese_Genealogy_%28Genealogia_dos_Reis_de_Portugal%29.png",
+          "page": "https://commons.wikimedia.org/wiki/File:D._Afonso_III_de_Portugal_-_The_Portuguese_Genealogy_(Genealogia_dos_Reis_de_Portugal).png",
+          "credit": "António de Holanda",
+          "license": "Public domain",
+          "made": "c. 1530–1534",
+          "caption": "Painted by António de Holanda about 250 years after Afonso's death.",
+          "alt": "Sixteenth-century illuminated miniature of King Afonso III of Portugal"
+        }
+      ],
+      "sources": [
+        {
+          "title": "D. Afonso III",
+          "author": "Leontina Ventura",
+          "note": "Reis de Portugal series, Círculo de Leitores, 2005–2006"
+        },
+        {
+          "title": "History of Portugal, vol. 1: From Lusitania to Empire",
+          "author": "A. H. de Oliveira Marques",
+          "note": "Columbia University Press, 1972"
+        },
+        {
+          "title": "A New History of Portugal",
+          "author": "H. V. Livermore",
+          "note": "Cambridge University Press, 1966"
+        }
+      ],
+      "review": {
+        "status": "draft",
+        "notes": "Drafted from the listed sources; needs a human fact-check."
+      }
+    },
+    {
+      "id": "denis",
+      "kind": "monarch",
+      "rulers": [
+        "denis"
+      ],
+      "tagline": "The poet king, his saintly queen and a rebel son",
+      "start": {
+        "date": "1279-02-16"
+      },
+      "end": {
+        "date": "1325-01-07"
+      },
+      "contestedWith": [],
+      "relationToPredecessor": "Eldest son of Afonso III",
+      "ageAtAccession": "17",
+      "cameToPower": "Inherited from his father",
+      "reignEnded": "Died at Santarém",
+      "previously": "Afonso III dies, the Algarve won and Lisbon his capital.",
+      "paragraphs": [
+        "Denis wrote love songs, and well over a hundred of them survive. He also ran his kingdom with a sharp eye. He founded a university in Lisbon in 1290, later moved to Coimbra. He made Portuguese the language of royal documents. When the Templars were dissolved, he got their lands moved to a new Order of Christ instead of losing them. In 1297 the Treaty of Alcañices fixed the border with Castile.",
+        "His queen, Isabel of Aragon, was famous for her charity and later made a saint. Their son Afonso grew jealous of Denis's favourite illegitimate son, Afonso Sanches, and rose in revolt. Father and son fought on and off for years. Isabel rode out between their armies to make them stop. The peace held, just. Denis died in 1325 and was buried at Odivelas."
+      ],
+      "claims": [
+        {
+          "text": "Queen Isabel was caught carrying bread to the poor, and when the king made her open her skirts, it had turned into roses.",
+          "status": "legend",
+          "note": "The miracle of the roses is told of several saintly queens. It appears in later saints' lives, not in records from her lifetime."
+        },
+        {
+          "text": "Isabel rode between the armies of her husband and her son to stop a battle.",
+          "status": "confirmed",
+          "note": "Her early biography and later chronicles describe her peacemaking during the civil war of the 1320s."
+        },
+        {
+          "text": "Denis planted the great pine forest at Leiria to hold back the sand dunes.",
+          "status": "disputed",
+          "note": "He certainly cared for and expanded it, but the forest was already there before his reign."
+        }
+      ],
+      "hook": "The rebel son is now Afonso IV. He's tough and stubborn, and one day his own heir will fall for a lady-in-waiting from Galicia called Inês de Castro.",
+      "images": [
+        {
+          "file": "File:D. Dinis I de Portugal - The Portuguese Genealogy (Genealogia dos Reis de Portugal).png",
+          "url": "https://upload.wikimedia.org/wikipedia/commons/c/cc/D._Dinis_I_de_Portugal_-_The_Portuguese_Genealogy_%28Genealogia_dos_Reis_de_Portugal%29.png",
+          "page": "https://commons.wikimedia.org/wiki/File:D._Dinis_I_de_Portugal_-_The_Portuguese_Genealogy_(Genealogia_dos_Reis_de_Portugal).png",
+          "credit": "António de Holanda",
+          "license": "Public domain",
+          "made": "c. 1530–1534",
+          "caption": "Painted by António de Holanda about 200 years after Denis's death.",
+          "alt": "Sixteenth-century illuminated miniature of King Denis of Portugal"
+        }
+      ],
+      "sources": [
+        {
+          "title": "D. Dinis",
+          "author": "José Augusto de Sotto Mayor Pizarro",
+          "note": "Reis de Portugal series, Círculo de Leitores, 2005–2006"
+        },
+        {
+          "title": "Crónica de D. Dinis",
+          "author": "Rui de Pina"
+        },
+        {
+          "title": "History of Portugal, vol. 1: From Lusitania to Empire",
+          "author": "A. H. de Oliveira Marques",
+          "note": "Columbia University Press, 1972"
+        }
+      ],
+      "review": {
+        "status": "draft",
+        "notes": "Drafted from the listed sources; needs a human fact-check."
+      }
+    },
+    {
+      "id": "afonso-iv",
+      "kind": "monarch",
+      "rulers": [
+        "afonso-iv"
+      ],
+      "tagline": "The tough king who ordered a love story's end",
+      "start": {
+        "date": "1325-01-07"
+      },
+      "end": {
+        "date": "1357-05-28"
+      },
+      "contestedWith": [],
+      "relationToPredecessor": "Son of Denis",
+      "ageAtAccession": "33",
+      "cameToPower": "Inherited from his father",
+      "reignEnded": "Died at Lisbon",
+      "previously": "Denis dies after a civil war against his own son, now the new king.",
+      "paragraphs": [
+        "Afonso IV started by settling scores. He exiled his half-brother Afonso Sanches and fought Castile in the 1330s. In 1340 he rode with Alfonso XI of Castile to crush a Marinid army at the Battle of Salado. Eight years later the Black Death swept through Portugal and killed a huge share of its people.",
+        "Then came the scandal. His son Peter had fallen for Inês de Castro, a lady-in-waiting to Peter's wife. When the wife died in 1345, Peter lived openly with Inês and had children with her. Her brothers were deep in Castilian politics, and Afonso's advisers warned that her children threatened the true heir. In January 1355 three of the king's men killed Inês at Coimbra. Peter went to war against his father, and only made peace months later."
+      ],
+      "claims": [
+        {
+          "text": "Afonso went to Inês in person, was moved by her pleading and walked away, leaving his men to kill her.",
+          "status": "disputed",
+          "note": "The scene comes from chronicles and poems written long after the event. It was later made famous by Camões."
+        },
+        {
+          "text": "The red streaks in the Fountain of Tears at Coimbra are Inês's blood.",
+          "status": "legend",
+          "note": "A local tradition. The colour actually comes from algae on the stones."
+        },
+        {
+          "text": "Afonso fought alongside Castile at the Battle of Salado in 1340.",
+          "status": "confirmed",
+          "note": "Castilian and Portuguese chronicles both record the joint victory."
+        }
+      ],
+      "hook": "Afonso IV is dead and Peter is king at last. He has never forgiven the men who killed Inês, and two of them are hiding in Castile.",
+      "images": [
+        {
+          "file": "File:D. Afonso IV de Portugal - The Portuguese Genealogy (Genealogia dos Reis de Portugal).png",
+          "url": "https://upload.wikimedia.org/wikipedia/commons/c/c9/D._Afonso_IV_de_Portugal_-_The_Portuguese_Genealogy_%28Genealogia_dos_Reis_de_Portugal%29.png",
+          "page": "https://commons.wikimedia.org/wiki/File:D._Afonso_IV_de_Portugal_-_The_Portuguese_Genealogy_(Genealogia_dos_Reis_de_Portugal).png",
+          "credit": "António de Holanda",
+          "license": "Public domain",
+          "made": "c. 1530–1534",
+          "caption": "Painted by António de Holanda nearly 200 years after Afonso's death.",
+          "alt": "Sixteenth-century illuminated miniature of King Afonso IV of Portugal"
+        }
+      ],
+      "sources": [
+        {
+          "title": "D. Afonso IV",
+          "author": "Bernardo Vasconcelos e Sousa",
+          "note": "Reis de Portugal series, Círculo de Leitores, 2005–2006"
+        },
+        {
+          "title": "Crónica de D. Afonso IV",
+          "author": "Rui de Pina"
+        },
+        {
+          "title": "History of Portugal, vol. 1: From Lusitania to Empire",
+          "author": "A. H. de Oliveira Marques",
+          "note": "Columbia University Press, 1972"
+        }
+      ],
+      "review": {
+        "status": "draft",
+        "notes": "Drafted from the listed sources; needs a human fact-check."
+      }
+    },
+    {
+      "id": "peter-i",
+      "kind": "monarch",
+      "rulers": [
+        "peter-i"
+      ],
+      "tagline": "The king who took bloody revenge for his murdered love",
+      "start": {
+        "date": "1357-05-28"
+      },
+      "end": {
+        "date": "1367-01-18"
+      },
+      "contestedWith": [],
+      "relationToPredecessor": "Son of Afonso IV",
+      "ageAtAccession": "37",
+      "cameToPower": "Inherited from his father",
+      "reignEnded": "Died at Estremoz",
+      "previously": "Afonso IV's men murder Inês de Castro. His son Peter never forgets.",
+      "paragraphs": [
+        "Peter was a strange, restless man. He loved dancing and would wander the streets at night with his musicians. He punished crime with savage zeal, which is why people called him 'the Just'. Above all he was set on revenge. In a swap with the King of Castile he got two of Inês's killers handed over, and had them executed in front of him at Santarém. The third escaped.",
+        "In 1360 Peter swore before witnesses that he had married Inês in secret. He had her body moved to Alcobaça Abbey and laid in a magnificent tomb. His own tomb faces hers. Yet the crown passed to Ferdinand, his son by his late wife. Inês's sons were left out, and so was John, his young son by another woman, whom he had made Master of the Order of Aviz."
+      ],
+      "claims": [
+        {
+          "text": "Peter had the dead Inês crowned queen and made the court kiss her hand.",
+          "status": "legend",
+          "note": "This macabre scene appears only in writers centuries later. Fernão Lopes, writing in the 1400s, doesn't mention it."
+        },
+        {
+          "text": "Peter secretly married Inês before she died.",
+          "status": "disputed",
+          "note": "He swore to it in 1360, with witnesses who said they were there, but no record of the wedding has ever been found."
+        },
+        {
+          "text": "Peter had the hearts torn out of her killers, one from the chest and one from the back.",
+          "status": "disputed",
+          "note": "Fernão Lopes tells it, writing about 80 years later. The execution is certain; the details may be embroidered."
+        }
+      ],
+      "hook": "Peter's heir Ferdinand is 21, handsome and rich. He wants the crown of Castile, and soon he'll want a woman who already has a husband.",
+      "images": [
+        {
+          "file": "File:D. Pedro I (Colecção de Reis e Rainhas de Portugal, séc. XIX).png",
+          "url": "https://upload.wikimedia.org/wikipedia/commons/b/b1/D._Pedro_I_%28Colec%C3%A7%C3%A3o_de_Reis_e_Rainhas_de_Portugal%2C_s%C3%A9c._XIX%29.png",
+          "page": "https://commons.wikimedia.org/wiki/File:D._Pedro_I_(Colec%C3%A7%C3%A3o_de_Reis_e_Rainhas_de_Portugal,_s%C3%A9c._XIX).png",
+          "credit": "Unknown artist",
+          "license": "Public domain",
+          "made": "19th century",
+          "caption": "A coloured lithograph made about 500 years after his death.",
+          "alt": "Nineteenth-century coloured lithograph portrait of King Peter I of Portugal"
+        }
+      ],
+      "sources": [
+        {
+          "title": "D. Pedro I",
+          "author": "Cristina Pimenta",
+          "note": "Reis de Portugal series, Círculo de Leitores, 2005–2006"
+        },
+        {
+          "title": "Crónica de D. Pedro",
+          "author": "Fernão Lopes"
+        },
+        {
+          "title": "History of Portugal, vol. 1: From Lusitania to Empire",
+          "author": "A. H. de Oliveira Marques",
+          "note": "Columbia University Press, 1972"
+        }
+      ],
+      "review": {
+        "status": "draft",
+        "notes": "Drafted from the listed sources; needs a human fact-check."
+      }
+    },
+    {
+      "id": "ferdinand-i",
+      "kind": "monarch",
+      "rulers": [
+        "ferdinand-i"
+      ],
+      "tagline": "Three lost wars, a scandalous wife and no son",
+      "start": {
+        "date": "1367-01-18"
+      },
+      "end": {
+        "date": "1383-10-22"
+      },
+      "contestedWith": [],
+      "relationToPredecessor": "Son of Peter I",
+      "ageAtAccession": "21",
+      "cameToPower": "Inherited from his father",
+      "reignEnded": "Illness; left only a daughter",
+      "previously": "Peter I dies, still mourning Inês. His son Ferdinand takes over.",
+      "paragraphs": [
+        "Ferdinand started rich and lost a lot of it. When Peter the Cruel of Castile was murdered in 1369, Ferdinand claimed Castile's throne and went to war. He fought Castile three times and came off worse every time, despite an English alliance and English troops. At home he built new walls around Lisbon and passed laws to get empty farmland back under the plough.",
+        "Then he fell for Leonor Teles, who was already married. He had her marriage annulled and wed her in 1372. Lisbon was outraged, and a tailor named Fernão Vasques led a crowd to the palace to protest. Ferdinand had no surviving son, only a daughter, Beatrice. In 1383 he married her to John I of Castile. If Ferdinand died, Leonor would rule as regent. Within months he was dead."
+      ],
+      "claims": [
+        {
+          "text": "Lisbon's people, led by a tailor, marched on the palace to stop the marriage to Leonor Teles.",
+          "status": "confirmed",
+          "note": "Fernão Lopes describes the protest in detail in his chronicle of the reign."
+        },
+        {
+          "text": "Leonor's jilted first husband fled to Castile wearing a hat with golden horns.",
+          "status": "legend",
+          "note": "Fernão Lopes reports the story, but it reads like popular mockery more than fact."
+        },
+        {
+          "text": "Princess Beatrice was really the daughter of Leonor's lover, Count Andeiro.",
+          "status": "disputed",
+          "note": "The rumour was spread by her enemies during the crisis that followed. There is no proof."
+        }
+      ],
+      "hook": "Ferdinand is dead. Leonor Teles rules as regent for her daughter, the Queen of Castile. Her favourite, Count Andeiro, is never far away, and Lisbon is seething.",
+      "images": [
+        {
+          "file": "File:D. Fernando I (Colecção de Reis e Rainhas de Portugal, séc. XIX).png",
+          "url": "https://upload.wikimedia.org/wikipedia/commons/9/94/D._Fernando_I_%28Colec%C3%A7%C3%A3o_de_Reis_e_Rainhas_de_Portugal%2C_s%C3%A9c._XIX%29.png",
+          "page": "https://commons.wikimedia.org/wiki/File:D._Fernando_I_(Colec%C3%A7%C3%A3o_de_Reis_e_Rainhas_de_Portugal,_s%C3%A9c._XIX).png",
+          "credit": "Unknown artist",
+          "license": "Public domain",
+          "made": "19th century",
+          "caption": "A coloured lithograph made nearly 500 years after his death.",
+          "alt": "Nineteenth-century coloured lithograph portrait of King Ferdinand I of Portugal"
+        }
+      ],
+      "sources": [
+        {
+          "title": "D. Fernando",
+          "author": "Rita Costa Gomes",
+          "note": "Reis de Portugal series, Círculo de Leitores, 2005–2006"
+        },
+        {
+          "title": "Crónica de D. Fernando",
+          "author": "Fernão Lopes"
+        },
+        {
+          "title": "The English Intervention in Spain and Portugal in the Time of Edward III and Richard II",
+          "author": "P. E. Russell",
+          "note": "Oxford, 1955"
+        }
+      ],
+      "review": {
+        "status": "draft",
+        "notes": "Drafted from the listed sources; needs a human fact-check."
+      }
+    },
+    {
+      "id": "crisis-1383",
+      "kind": "interregnum",
+      "rulers": [],
+      "house": "crisis",
+      "title": "The 1383–85 Crisis",
+      "tagline": "Two years with no king and Castile at the gates",
+      "start": {
+        "date": "1383-10-22"
+      },
+      "end": {
+        "date": "1385-04-06"
+      },
+      "contestedWith": [],
+      "relationToPredecessor": "Followed Ferdinand I's death",
+      "ageAtAccession": "No monarch",
+      "cameToPower": "Leonor Teles became regent",
+      "reignEnded": "Cortes acclaimed the Master of Aviz",
+      "previously": "Ferdinand I dies. His widow rules for their daughter, Castile's queen.",
+      "paragraphs": [
+        "Leonor Teles ruled for her daughter Beatrice, whose husband was the King of Castile. To many Portuguese that meant handing the country to Castile. On 6 December 1383 John, Master of Aviz, Ferdinand's illegitimate half-brother, walked into the palace and killed Leonor's favourite, Count Andeiro. A Lisbon crowd hailed John as Defender of the Realm, and threw the Castilian-born bishop from the cathedral tower.",
+        "Leonor fled and called in her son-in-law. John I of Castile marched in, then fell out with her and shut her in a convent. In 1384 his army besieged Lisbon for months until plague drove it away. A young commander, Nuno Álvares Pereira, beat the Castilians at Atoleiros. In March 1385 the Cortes met at Coimbra, and the lawyer João das Regras argued that no claimant had a clean right. So they chose their own."
+      ],
+      "claims": [
+        {
+          "text": "A Lisbon mob threw Bishop Martinho from the tower of the cathedral.",
+          "status": "confirmed",
+          "note": "Fernão Lopes describes the killing, and the bishop's death in December 1383 is well recorded."
+        },
+        {
+          "text": "Leonor plotted to have her son-in-law, the King of Castile, murdered.",
+          "status": "disputed",
+          "note": "This is the reason Castilian sources give for locking her away. She denied it, and the evidence is thin."
+        },
+        {
+          "text": "João das Regras's brilliant speech won over the Cortes of Coimbra.",
+          "status": "disputed",
+          "note": "The speech we have is Fernão Lopes's version, written decades later. The arguments are probably real; the words are his."
+        }
+      ],
+      "hook": "On 6 April 1385 the Cortes acclaims the Master of Aviz as King John I. Portugal has its own king again, but the King of Castile is already gathering an army to take what he thinks is his wife's.",
+      "images": [
+        {
+          "file": "File:Siege of Lisbon 1384.JPG",
+          "url": "https://upload.wikimedia.org/wikipedia/commons/1/1b/Siege_of_Lisbon_1384.JPG",
+          "page": "https://commons.wikimedia.org/wiki/File:Siege_of_Lisbon_1384.JPG",
+          "credit": "Jean Froissart (chronicle); illuminator unknown",
+          "license": "Public domain",
+          "made": "Medieval",
+          "caption": "A miniature from a copy of Jean Froissart's Chronicles, which covered these wars.",
+          "alt": "Medieval manuscript miniature of the siege of Lisbon from Froissart's Chronicles"
+        }
+      ],
+      "sources": [
+        {
+          "title": "Crónica de D. João I, part 1",
+          "author": "Fernão Lopes"
+        },
+        {
+          "title": "D. João I",
+          "author": "Maria Helena da Cruz Coelho",
+          "note": "Reis de Portugal series, Círculo de Leitores, 2005–2006"
+        },
+        {
+          "title": "History of Portugal, vol. 1: From Lusitania to Empire",
+          "author": "A. H. de Oliveira Marques",
+          "note": "Columbia University Press, 1972"
+        }
+      ],
+      "review": {
+        "status": "draft",
+        "notes": "Drafted from the listed sources; needs a human fact-check."
+      }
+    },
+    {
+      "id": "john-i",
+      "kind": "monarch",
+      "rulers": [
+        "john-i"
+      ],
+      "tagline": "The bastard monk-knight who saved Portugal",
+      "start": {
+        "date": "1385-04-06"
+      },
+      "end": {
+        "date": "1433-08-14"
+      },
+      "contestedWith": [],
+      "relationToPredecessor": "Illegitimate son of Peter I",
+      "ageAtAccession": "27",
+      "cameToPower": "Elected by the Cortes of Coimbra",
+      "reignEnded": "Died in Lisbon, aged 76",
+      "previously": "Two years with no king. The Master of Aviz has held off Castile.",
+      "paragraphs": [
+        "John was Peter I's son by a mistress, and as a boy he was made Master of the knightly Order of Aviz. Nobody expected him to rule. Then the 1383 crisis made him the people's champion. In April 1385 the Cortes at Coimbra chose him as king, mostly thanks to a fierce lawyer, João das Regras, who argued every other candidate out of the running.",
+        "Castile invaded at once. On 14 August 1385, at Aljubarrota, John and his young general Nuno Álvares Pereira smashed a far bigger Castilian army, helped by English archers. To lock in the friendship he married Philippa of Lancaster, John of Gaunt's daughter, in 1387. The Treaty of Windsor the year before had already tied the two kingdoms together. That alliance is still going.",
+        "Philippa gave him a brood of clever sons, later hailed as the 'illustrious generation'. One was Henry, later called the Navigator. In 1415 John and his sons sailed across the strait and took Ceuta in North Africa, Portugal's first foothold overseas. When the old king died in 1433, his eldest surviving son Edward took over a stable, confident kingdom."
+      ],
+      "claims": [
+        {
+          "text": "The dying Philippa gave each of her sons a sword before they sailed for Ceuta.",
+          "status": "disputed",
+          "note": "The scene comes from Zurara's chronicle of Ceuta, written decades later to glorify the family. It may be dressed up."
+        },
+        {
+          "text": "A baker woman of Aljubarrota killed seven Castilian soldiers with her bread shovel.",
+          "status": "legend",
+          "note": "The tale of Brites de Almeida appears long after the battle. No early chronicle mentions her."
+        },
+        {
+          "text": "John built the Batalha monastery to keep a vow made before Aljubarrota.",
+          "status": "confirmed",
+          "note": "The abbey of Santa Maria da Vitória was founded to give thanks for the victory, and John and Philippa are buried there."
+        }
+      ],
+      "hook": "The founder is dead. His heir Edward is a thinker who writes books about good counsel. But his restless brothers want more of Africa, and they have their eyes on Tangier.",
+      "images": [
+        {
+          "file": "File:João I (Dialogos de varia historia... Mariz, 1594).png",
+          "url": "https://upload.wikimedia.org/wikipedia/commons/2/29/Jo%C3%A3o_I_%28Dialogos_de_varia_historia..._Mariz%2C_1594%29.png",
+          "page": "https://commons.wikimedia.org/wiki/File:Jo%C3%A3o_I_(Dialogos_de_varia_historia..._Mariz,_1594).png",
+          "credit": "Unknown engraver, in Pedro de Mariz, Diálogos de Vária História",
+          "license": "Public domain",
+          "made": "1594",
+          "caption": "A printed portrait from Pedro de Mariz's history of Portugal, printed in 1594, more than 160 years after John died.",
+          "alt": "Printed portrait of King John I of Portugal from a 1594 book"
+        }
+      ],
+      "sources": [
+        {
+          "title": "Crónica de D. João I",
+          "author": "Fernão Lopes"
+        },
+        {
+          "title": "Crónica da Tomada de Ceuta",
+          "author": "Gomes Eanes de Zurara"
+        },
+        {
+          "title": "D. João I (Reis de Portugal)",
+          "author": "Maria Helena da Cruz Coelho",
+          "note": "Círculo de Leitores, 2005"
+        },
+        {
+          "title": "Prince Henry 'the Navigator': A Life",
+          "author": "Peter Russell",
+          "note": "Yale University Press, 2000"
+        }
+      ],
+      "review": {
+        "status": "draft",
+        "notes": "Drafted from the listed sources; needs a human fact-check."
+      }
+    },
+    {
+      "id": "edward",
+      "kind": "monarch",
+      "rulers": [
+        "edward"
+      ],
+      "tagline": "The bookworm king and the disaster at Tangier",
+      "start": {
+        "date": "1433-08-14"
+      },
+      "end": {
+        "date": "1438-09-09"
+      },
+      "contestedWith": [],
+      "relationToPredecessor": "Son of John I",
+      "ageAtAccession": "41",
+      "cameToPower": "Succeeded his father",
+      "reignEnded": "Plague, after five years",
+      "previously": "John I dies after 48 years on the throne, his dynasty secure.",
+      "paragraphs": [
+        "Edward, Duarte in Portuguese, was the most bookish king Portugal ever had. He wrote a guide to living well called the Loyal Counsellor and a manual on how to ride a horse. In it he was frank about a long bout of depression he had suffered as a young man. As king he tidied up the law, including a rule that crown lands handed to nobles went back to the crown when the male line ran out.",
+        "His brothers Henry and Ferdinand pushed him into a new African war. In 1437 they attacked Tangier, and it went badly wrong. The army was trapped and had to buy its way out. The price was Ceuta, and Prince Ferdinand stayed behind as a hostage. Back home, the Cortes refused to give Ceuta up. Ferdinand was left to rot in a Moroccan prison and died there in 1443.",
+        "Edward never saw how it ended. In September 1438 he died of plague at Tomar, aged 46. His heir, Afonso, was six years old."
+      ],
+      "claims": [
+        {
+          "text": "Edward wrote openly about his own depression.",
+          "status": "confirmed",
+          "note": "His book Leal Conselheiro describes the illness and how he recovered."
+        },
+        {
+          "text": "A court astrologer begged him to delay his crowning because the stars were bad, and he refused.",
+          "status": "legend",
+          "note": "Rui de Pina's chronicle tells this story, written about 70 years later. It looks like hindsight explaining a short, unlucky reign."
+        },
+        {
+          "text": "Guilt over his captive brother hastened Edward's death.",
+          "status": "disputed",
+          "note": "The chroniclers liked the idea, but plague is the cause they give, and it needs no help."
+        }
+      ],
+      "hook": "A six-year-old is king. Edward's will puts the boy's mother in charge, but Queen Eleanor is from Aragon, and the people don't trust her. Edward's brother Peter is waiting in the wings.",
+      "images": [
+        {
+          "file": "File:D. Duarte, Rei de Portugal (1391-1438) - Genealogia de D. Manuel Pereira, 3.º conde da Feira (1534) - cropped.png",
+          "url": "https://upload.wikimedia.org/wikipedia/commons/8/80/D._Duarte%2C_Rei_de_Portugal_%281391-1438%29_-_Genealogia_de_D._Manuel_Pereira%2C_3.%C2%BA_conde_da_Feira_%281534%29_-_cropped.png",
+          "page": "https://commons.wikimedia.org/wiki/File:D._Duarte,_Rei_de_Portugal_(1391-1438)_-_Genealogia_de_D._Manuel_Pereira,_3.%C2%BA_conde_da_Feira_(1534)_-_cropped.png",
+          "credit": "António de Holanda and João Menelau",
+          "license": "Public domain",
+          "made": "1534",
+          "caption": "A miniature from a family genealogy painted in 1534, almost a century after Edward died.",
+          "alt": "Illuminated manuscript miniature of King Edward (Duarte) of Portugal"
+        }
+      ],
+      "sources": [
+        {
+          "title": "Leal Conselheiro",
+          "author": "King Duarte (Edward)"
+        },
+        {
+          "title": "Crónica de D. Duarte",
+          "author": "Rui de Pina"
+        },
+        {
+          "title": "D. Duarte (Reis de Portugal)",
+          "author": "Luís Miguel Duarte",
+          "note": "Círculo de Leitores, 2005"
+        },
+        {
+          "title": "Prince Henry 'the Navigator': A Life",
+          "author": "Peter Russell",
+          "note": "Yale University Press, 2000; covers the Tangier campaign"
+        }
+      ],
+      "review": {
+        "status": "draft",
+        "notes": "Drafted from the listed sources; needs a human fact-check."
+      }
+    },
+    {
+      "id": "afonso-v",
+      "kind": "monarch",
+      "rulers": [
+        "afonso-v"
+      ],
+      "tagline": "The boy-king who dreamed of crusade and two crowns",
+      "start": {
+        "date": "1438-09-09"
+      },
+      "end": {
+        "date": "1481-08-28"
+      },
+      "contestedWith": [],
+      "relationToPredecessor": "Son of Edward",
+      "ageAtAccession": "6",
+      "cameToPower": "Inherited as a child",
+      "reignEnded": "Died at Sintra",
+      "previously": "Tangier is a fiasco, a prince is a hostage, and Edward is dead.",
+      "paragraphs": [
+        "Afonso's mother was pushed aside within a year, and his uncle Peter, Duke of Coimbra, ran the kingdom. Peter governed well and married his daughter to the young king. But once Afonso came of age, Peter's enemies got the king's ear. In May 1449 Peter's small army met the royal one at Alfarrobeira, and he was killed. Afonso had let his uncle and father-in-law be destroyed.",
+        "Then he went crusading. He took Alcácer Ceguer in 1458 and Arzila in 1471, and Tangier fell soon after. That earned him his nickname. Meanwhile, in Africa further south, his captains were pushing down the coast, chasing gold and slaves, with his uncle Henry the Navigator as patron until Henry's death in 1460.",
+        "His last gamble was Castile. In 1475 he married his own niece Joanna, claimant to the Castilian throne, and invaded. After a muddled battle at Toro in 1476 he sailed to France for help and got none. At one low point he gave up the crown and his son was proclaimed king, but Afonso came back and took it again. He made peace in 1479 and died at Sintra in 1481."
+      ],
+      "claims": [
+        {
+          "text": "Huge tapestries woven to celebrate the capture of Arzila still survive.",
+          "status": "confirmed",
+          "note": "The Pastrana Tapestries, made in Flanders in the late 1400s, are now in Spain and have toured museums worldwide."
+        },
+        {
+          "text": "Both sides claimed victory at the Battle of Toro.",
+          "status": "confirmed",
+          "note": "Afonso's wing was beaten while his son John's held its ground. Each kingdom's chroniclers spun it their own way."
+        },
+        {
+          "text": "Peter of Coimbra's body was left lying on the battlefield for days.",
+          "status": "disputed",
+          "note": "Rui de Pina reports it as a sign of the king's harshness, but he wrote much later and with sympathy for Peter."
+        }
+      ],
+      "hook": "Afonso dreamed. His son John doesn't. He has watched the great nobles grow rich and cocky, and he plans to cut them down to size, with an axe if he has to.",
+      "images": [
+        {
+          "file": "File:Afonso V (Dialogos de varia historia... Mariz, 1594).png",
+          "url": "https://upload.wikimedia.org/wikipedia/commons/a/a2/Afonso_V_%28Dialogos_de_varia_historia..._Mariz%2C_1594%29.png",
+          "page": "https://commons.wikimedia.org/wiki/File:Afonso_V_(Dialogos_de_varia_historia..._Mariz,_1594).png",
+          "credit": "Unknown engraver, in Pedro de Mariz, Diálogos de Vária História",
+          "license": "Public domain",
+          "made": "1594",
+          "caption": "From Pedro de Mariz's history of Portugal, printed in 1594, over a century after Afonso died.",
+          "alt": "Printed portrait of King Afonso V of Portugal from a 1594 book"
+        }
+      ],
+      "sources": [
+        {
+          "title": "Crónica de D. Afonso V",
+          "author": "Rui de Pina"
+        },
+        {
+          "title": "D. Afonso V (Reis de Portugal)",
+          "author": "Saul António Gomes",
+          "note": "Círculo de Leitores, 2006"
+        },
+        {
+          "title": "History of Portugal",
+          "author": "A. H. de Oliveira Marques",
+          "note": "Columbia University Press, 1972"
+        }
+      ],
+      "review": {
+        "status": "draft",
+        "notes": "Drafted from the listed sources; needs a human fact-check."
+      }
+    },
+    {
+      "id": "john-ii",
+      "kind": "monarch",
+      "rulers": [
+        "john-ii"
+      ],
+      "tagline": "The king who stabbed a duke and split the world",
+      "start": {
+        "date": "1481-08-28"
+      },
+      "end": {
+        "date": "1495-10-25"
+      },
+      "contestedWith": [],
+      "relationToPredecessor": "Son of Afonso V",
+      "ageAtAccession": "26",
+      "cameToPower": "Succeeded his father",
+      "reignEnded": "Died at Alvor, aged 40",
+      "previously": "Afonso V's war for Castile fails. He dies at Sintra in 1481.",
+      "paragraphs": [
+        "John took the crown and went straight for the nobles. The Duke of Braganza, the richest man in Portugal, was caught writing to Castile and beheaded at Évora in 1483. A year later John's cousin, the Duke of Viseu, was found plotting. John stabbed him to death with his own hand. Nobody plotted much after that.",
+        "Then he turned to the sea. His captains crept down Africa's coast, and in 1488 Bartolomeu Dias rounded the southern tip and came home with proof that a sea route to India was possible. John had turned Columbus down. When Columbus came back in 1493 claiming he'd found the Indies, John sent envoys to Spain. The Treaty of Tordesillas in 1494 split the new lands between the two kingdoms along a line in the Atlantic.",
+        "But his luck at home ran out. His only legitimate son, Afonso, died in 1491 after a fall from his horse by the Tagus. John tried to make his illegitimate son Jorge his heir and failed. When he died at Alvor in 1495, the crown went to his wife's brother Manuel, whose own brother John had killed."
+      ],
+      "claims": [
+        {
+          "text": "Isabella of Castile called him simply 'the Man'.",
+          "status": "legend",
+          "note": "A well-worn anecdote about the rival queen's grudging respect. It turns up in later writers, not in anything she wrote."
+        },
+        {
+          "text": "John was poisoned.",
+          "status": "disputed",
+          "note": "Rumours flew at the time, given how many enemies he had. His long illness fits kidney disease just as well."
+        },
+        {
+          "text": "Dias named the tip of Africa the Cape of Storms, and John renamed it Good Hope.",
+          "status": "disputed",
+          "note": "The story comes from the 16th-century historian João de Barros. Other early writers don't back it up."
+        }
+      ],
+      "hook": "The Perfect Prince is dead and his cousin Manuel inherits a kingdom on the edge of something huge. A fleet is being got ready for India, and a captain named Vasco da Gama will command it.",
+      "images": [
+        {
+          "file": "File:João II (Dialogos de varia historia... Mariz, 1594).png",
+          "url": "https://upload.wikimedia.org/wikipedia/commons/3/31/Jo%C3%A3o_II_%28Dialogos_de_varia_historia..._Mariz%2C_1594%29.png",
+          "page": "https://commons.wikimedia.org/wiki/File:Jo%C3%A3o_II_(Dialogos_de_varia_historia..._Mariz,_1594).png",
+          "credit": "Unknown engraver, in Pedro de Mariz, Diálogos de Vária História",
+          "license": "Public domain",
+          "made": "1594",
+          "caption": "From Pedro de Mariz's history of Portugal, printed in 1594, about a century after John died.",
+          "alt": "Printed portrait of King John II of Portugal from a 1594 book"
+        }
+      ],
+      "sources": [
+        {
+          "title": "Crónica de D. João II",
+          "author": "Rui de Pina"
+        },
+        {
+          "title": "Crónica de D. João II",
+          "author": "Garcia de Resende"
+        },
+        {
+          "title": "D. João II (Reis de Portugal)",
+          "author": "Luís Adão da Fonseca",
+          "note": "Círculo de Leitores, 2005"
+        },
+        {
+          "title": "Da Ásia",
+          "author": "João de Barros",
+          "note": "The Cape of Storms story"
+        }
+      ],
+      "review": {
+        "status": "draft",
+        "notes": "Drafted from the listed sources; needs a human fact-check."
+      }
+    },
+    {
+      "id": "manuel-i",
+      "kind": "monarch",
+      "rulers": [
+        "manuel-i"
+      ],
+      "tagline": "The lucky king who got India, Brazil and a rhino",
+      "start": {
+        "date": "1495-10-25"
+      },
+      "end": {
+        "date": "1521-12-13"
+      },
+      "contestedWith": [],
+      "relationToPredecessor": "Cousin and brother-in-law of John II",
+      "ageAtAccession": "26",
+      "cameToPower": "Named heir after John II's son died",
+      "reignEnded": "Died in Lisbon, aged 52",
+      "previously": "John II's only son is dead. The crown passes to his cousin Manuel.",
+      "paragraphs": [
+        "They called him the Fortunate because the throne fell into his lap after a string of deaths. The luck kept coming. In 1497 Vasco da Gama sailed for India and reached Calicut in May 1498. In 1500 Pedro Álvares Cabral, heading for India by a wide western loop, bumped into Brazil. Spices poured into Lisbon, and Manuel became one of the richest kings in Europe.",
+        "He spent like it. Lisbon got the Jerónimos monastery and the Belém Tower, covered in ropes, shells and armillary spheres in what is now called the Manueline style. He sent Pope Leo X an elephant, and later a rhinoceros, which drowned in a shipwreck on the way.",
+        "There was a darker side. To marry a daughter of Ferdinand and Isabella, Manuel agreed to purge Portugal of Jews. In 1496 he ordered them out, then forced most to convert instead, even taking children from their parents. In 1506 a Lisbon mob spent three days hunting and killing these New Christians. Manuel married three times and died in 1521, leaving the crown to his son John."
+      ],
+      "claims": [
+        {
+          "text": "Dürer's famous rhinoceros woodcut shows Manuel's rhino, though Dürer never saw it.",
+          "status": "confirmed",
+          "note": "Dürer worked from a sketch and letter sent from Lisbon in 1515. That's why his rhino looks like it's wearing armour."
+        },
+        {
+          "text": "Cabral found Brazil by accident.",
+          "status": "disputed",
+          "note": "The official line was a lucky landfall. Some historians think the Portuguese already suspected land was there."
+        },
+        {
+          "text": "Manuel's final wife had been meant for his son.",
+          "status": "confirmed",
+          "note": "Eleanor of Austria, sister of Charles V, was discussed as a bride for Prince John. Manuel married her himself in 1518."
+        }
+      ],
+      "hook": "Manuel's son John inherits an empire on three oceans. He's devout, and the Church in Spain has a tool he'd like for Portugal: an Inquisition of its own.",
+      "images": [
+        {
+          "file": "File:Manuel I (Dialogos de varia historia... Mariz, 1594).png",
+          "url": "https://upload.wikimedia.org/wikipedia/commons/2/26/Manuel_I_%28Dialogos_de_varia_historia..._Mariz%2C_1594%29.png",
+          "page": "https://commons.wikimedia.org/wiki/File:Manuel_I_(Dialogos_de_varia_historia..._Mariz,_1594).png",
+          "credit": "Unknown engraver, in Pedro de Mariz, Diálogos de Vária História",
+          "license": "Public domain",
+          "made": "1594",
+          "caption": "From Pedro de Mariz's history of Portugal, printed in 1594, about 70 years after Manuel died.",
+          "alt": "Printed portrait of King Manuel I of Portugal from a 1594 book"
+        }
+      ],
+      "sources": [
+        {
+          "title": "Crónica do Felicíssimo Rei D. Manuel",
+          "author": "Damião de Góis"
+        },
+        {
+          "title": "D. Manuel I (Reis de Portugal)",
+          "author": "João Paulo Oliveira e Costa",
+          "note": "Círculo de Leitores, 2005"
+        },
+        {
+          "title": "The Career and Legend of Vasco da Gama",
+          "author": "Sanjay Subrahmanyam",
+          "note": "Cambridge University Press, 1997"
+        },
+        {
+          "title": "The Persecution of the Jews and Muslims of Portugal: King Manuel I and the End of Religious Tolerance (1496–7)",
+          "author": "François Soyer",
+          "note": "Brill, 2007"
+        }
+      ],
+      "review": {
+        "status": "draft",
+        "notes": "Drafted from the listed sources; needs a human fact-check."
+      }
+    },
+    {
+      "id": "john-iii",
+      "kind": "monarch",
+      "rulers": [
+        "john-iii"
+      ],
+      "tagline": "The pious king who outlived all his children",
+      "start": {
+        "date": "1521-12-13"
+      },
+      "end": {
+        "date": "1557-06-11"
+      },
+      "contestedWith": [],
+      "relationToPredecessor": "Son of Manuel I",
+      "ageAtAccession": "19",
+      "cameToPower": "Succeeded his father",
+      "reignEnded": "Stroke, aged 55",
+      "previously": "Manuel the Fortunate dies rich in 1521. His son John takes over.",
+      "paragraphs": [
+        "John married Catherine of Austria, sister of the Emperor Charles V, and ran his empire from Lisbon to Japan. Portuguese traders reached Japan in 1543. In Brazil he carved the coast into huge private grants, then in 1549 sent a governor who founded Salvador. He moved the university to Coimbra and invited a new order, the Jesuits, who sent Francis Xavier east in 1541.",
+        "He badly wanted an Inquisition and pestered Rome for years. He got it in 1536, and the first big public burning in Lisbon came in 1540. Its main target was the New Christians, the converted Jews and their families. Many fled abroad, taking their money and skills with them. Meanwhile the empire was costing more than it made, and John quietly gave up several forts in Morocco.",
+        "His family life was a long tragedy. None of his children outlived him. His last surviving son, John Manuel, died in January 1554, aged 16. Eighteen days later the prince's widow gave birth to a boy. The whole country had prayed for him. When the king died of a stroke in 1557, the crown went to that grandson."
+      ],
+      "claims": [
+        {
+          "text": "The Portuguese brought the first European guns to Japan.",
+          "status": "confirmed",
+          "note": "Japanese and Portuguese sources agree that traders landed on Tanegashima around 1543 with matchlocks, which the Japanese soon copied."
+        },
+        {
+          "text": "The adventurer Fernão Mendes Pinto was among the first Europeans in Japan.",
+          "status": "disputed",
+          "note": "He says so in his memoir, the Peregrinação, but it mixes real travel with tall tales."
+        }
+      ],
+      "hook": "The new king is three years old. He's called the Desired because a nation prayed for his birth. He'll grow up with one burning dream: a crusade in Morocco.",
+      "images": [
+        {
+          "file": "File:João III (Dialogos de varia historia... Mariz, 1594).png",
+          "url": "https://upload.wikimedia.org/wikipedia/commons/a/af/Jo%C3%A3o_III_%28Dialogos_de_varia_historia..._Mariz%2C_1594%29.png",
+          "page": "https://commons.wikimedia.org/wiki/File:Jo%C3%A3o_III_(Dialogos_de_varia_historia..._Mariz,_1594).png",
+          "credit": "Unknown engraver, in Pedro de Mariz, Diálogos de Vária História",
+          "license": "Public domain",
+          "made": "1594",
+          "caption": "From Pedro de Mariz's history of Portugal, printed in 1594, 37 years after John died.",
+          "alt": "Printed portrait of King John III of Portugal from a 1594 book"
+        }
+      ],
+      "sources": [
+        {
+          "title": "D. João III (Reis de Portugal)",
+          "author": "Ana Isabel Buescu",
+          "note": "Círculo de Leitores, 2005"
+        },
+        {
+          "title": "Crónica de D. João III",
+          "author": "Francisco de Andrada"
+        },
+        {
+          "title": "A History of Portuguese Overseas Expansion, 1400–1668",
+          "author": "Malyn Newitt",
+          "note": "Routledge, 2005"
+        }
+      ],
+      "review": {
+        "status": "draft",
+        "notes": "Drafted from the listed sources; needs a human fact-check."
+      }
+    },
+    {
+      "id": "sebastian",
+      "kind": "monarch",
+      "rulers": [
+        "sebastian"
+      ],
+      "tagline": "The king who rode into the desert and never came back",
+      "start": {
+        "date": "1557-06-11"
+      },
+      "end": {
+        "date": "1578-08-04"
+      },
+      "contestedWith": [],
+      "relationToPredecessor": "Grandson of John III",
+      "ageAtAccession": "3",
+      "cameToPower": "Inherited as a toddler",
+      "reignEnded": "Lost at Alcácer Quibir",
+      "previously": "John III outlives every child. Only a baby grandson is left.",
+      "paragraphs": [
+        "Sebastian's grandmother Catherine ran the kingdom first, then his great-uncle, Cardinal Henry. At 14 the boy took charge himself. He was brave, stubborn and fixated on fighting the infidel. He would not marry, which terrified everyone. He was the last of his line.",
+        "His chance came in 1578. A deposed Moroccan sultan asked for help, and Sebastian decided to lead an army into Morocco himself. His advisers begged him not to go. He went anyway, with most of the Portuguese nobility. On 4 August 1578, near Alcácer Quibir, his army was routed. Three kings died that day, including both rival sultans, and Sebastian. Thousands of Portuguese were captured.",
+        "Or did he die? Nobody clearly saw him fall. A body was handed over and later buried at Belém, but rumours spread that the king had survived. Pretenders popped up for years. Back in Lisbon, the crown passed to his elderly great-uncle Henry, a cardinal with no children."
+      ],
+      "claims": [
+        {
+          "text": "Sebastian will return on a foggy morning to save Portugal.",
+          "status": "legend",
+          "note": "Sebastianism lasted for centuries, feeding off prophecy and despair. It even turned up in Brazilian religious movements in the 1800s."
+        },
+        {
+          "text": "A pastry cook claimed to be the lost king.",
+          "status": "confirmed",
+          "note": "Gabriel de Espinosa, the 'pastry cook of Madrigal', was hanged in Spain in 1595 for posing as Sebastian. He was one of several."
+        },
+        {
+          "text": "The body in Sebastian's tomb at the Jerónimos is really his.",
+          "status": "disputed",
+          "note": "Philip II sent remains from Morocco in 1582. Nobody can be sure whose they were, and the tomb has not been tested."
+        }
+      ],
+      "hook": "The new king, Henry, is 66, a cardinal sworn to celibacy and in poor health. Everyone knows his reign is a stopgap. The question is who comes next.",
+      "images": [
+        {
+          "file": "File:Sebastião de Portugal, c. 1571-1574 - Cristóvão de Morais.png",
+          "url": "https://upload.wikimedia.org/wikipedia/commons/6/6c/Sebasti%C3%A3o_de_Portugal%2C_c._1571-1574_-_Crist%C3%B3v%C3%A3o_de_Morais.png",
+          "page": "https://commons.wikimedia.org/wiki/File:Sebasti%C3%A3o_de_Portugal,_c._1571-1574_-_Crist%C3%B3v%C3%A3o_de_Morais.png",
+          "credit": "Cristóvão de Morais",
+          "license": "Public domain",
+          "made": "c. 1571–1574",
+          "caption": "Painted by Cristóvão de Morais in the early 1570s, a few years before Sebastian sailed for Morocco.",
+          "alt": "Painted portrait of the young King Sebastian of Portugal"
+        }
+      ],
+      "sources": [
+        {
+          "title": "D. Sebastião (Reis de Portugal)",
+          "author": "Maria Augusta Lima Cruz",
+          "note": "Círculo de Leitores, 2006"
+        },
+        {
+          "title": "History of Portugal",
+          "author": "A. H. de Oliveira Marques",
+          "note": "Columbia University Press, 1972"
+        },
+        {
+          "title": "A History of Portuguese Overseas Expansion, 1400–1668",
+          "author": "Malyn Newitt",
+          "note": "Routledge, 2005"
+        }
+      ],
+      "review": {
+        "status": "draft",
+        "notes": "Drafted from the listed sources; needs a human fact-check."
+      }
+    },
+    {
+      "id": "henry",
+      "kind": "monarch",
+      "rulers": [
+        "henry"
+      ],
+      "tagline": "A cardinal on the throne, and no heir in sight",
+      "start": {
+        "date": "1578-08-04"
+      },
+      "end": {
+        "date": "1580-01-31"
+      },
+      "contestedWith": [],
+      "relationToPredecessor": "Great-uncle of Sebastian",
+      "ageAtAccession": "66",
+      "cameToPower": "Next in line after Sebastian died",
+      "reignEnded": "Died on his 68th birthday",
+      "previously": "Sebastian vanishes at Alcácer Quibir, leaving no heir.",
+      "paragraphs": [
+        "Henry was Manuel I's son, a churchman all his life: archbishop, cardinal and head of the Inquisition. He had already ruled once, as regent for the boy Sebastian. Now he was king, old and frail, of a country in shock. The best of its nobility were in Moroccan prisons, and their ransoms drained the treasury.",
+        "The real question was who came next. Henry asked the Pope for permission to marry and try for an heir. The Pope said no. The claimants lined up. His nephew Philip II of Spain had the best legal claim, a huge army and a lot of money. His niece Catherine, Duchess of Braganza, had a strong case too. Then there was Anthony, Prior of Crato, a popular nephew whose parents may never have married.",
+        "Henry disliked Anthony and declared him illegitimate. He called the Cortes in 1580 to settle the matter, but he could not bring himself to name anyone. On 31 January 1580, his 68th birthday, he died. A council of five governors took over a kingdom with no king."
+      ],
+      "claims": [
+        {
+          "text": "Henry, a cardinal in his late 60s, asked to be released from his vows so he could marry.",
+          "status": "confirmed",
+          "note": "The request to Pope Gregory XIII is well documented. Philip II's agents in Rome worked hard against it."
+        },
+        {
+          "text": "Philip II bribed Portuguese nobles to back his claim.",
+          "status": "confirmed",
+          "note": "Philip's envoy Cristóvão de Moura handed out money and promises. Philip reportedly said he had inherited, bought and conquered Portugal."
+        }
+      ],
+      "hook": "No king, no will, two men who want the crown. Philip II of Spain has the law and the army. Anthony of Crato has the crowds. Neither will wait for the other.",
+      "images": [
+        {
+          "file": "File:Henrique I (Dialogos de varia historia... Mariz, 1594).png",
+          "url": "https://upload.wikimedia.org/wikipedia/commons/7/78/Henrique_I_%28Dialogos_de_varia_historia..._Mariz%2C_1594%29.png",
+          "page": "https://commons.wikimedia.org/wiki/File:Henrique_I_(Dialogos_de_varia_historia..._Mariz,_1594).png",
+          "credit": "Unknown engraver, in Pedro de Mariz, Diálogos de Vária História",
+          "license": "Public domain",
+          "made": "1594",
+          "caption": "From Pedro de Mariz's history of Portugal, printed in 1594, 14 years after Henry died.",
+          "alt": "Printed portrait of King Henry of Portugal from a 1594 book"
+        }
+      ],
+      "sources": [
+        {
+          "title": "D. Henrique (Reis de Portugal)",
+          "author": "Amélia Polónia",
+          "note": "Círculo de Leitores, 2005"
+        },
+        {
+          "title": "Imprudent King: A New Life of Philip II",
+          "author": "Geoffrey Parker",
+          "note": "Yale University Press, 2014"
+        },
+        {
+          "title": "History of Portugal",
+          "author": "A. H. de Oliveira Marques",
+          "note": "Columbia University Press, 1972"
+        }
+      ],
+      "review": {
+        "status": "draft",
+        "notes": "Drafted from the listed sources; needs a human fact-check."
+      },
+      "title": "Henry, the Cardinal-King"
+    },
+    {
+      "id": "anthony",
+      "kind": "claimant",
+      "rulers": [
+        "anthony"
+      ],
+      "tagline": "The people's king with a price on his head",
+      "start": {
+        "date": "1580-06-24"
+      },
+      "end": {
+        "date": "1583"
+      },
+      "contestedWith": [
+        "philip-i"
+      ],
+      "relationToPredecessor": "Nephew of Henry; grandson of Manuel I",
+      "ageAtAccession": "48 or 49",
+      "cameToPower": "Proclaimed by crowds at Santarém",
+      "reignEnded": "Azores fell to Spain",
+      "previously": "Cardinal-King Henry dies without naming an heir.",
+      "paragraphs": [
+        "Anthony was the son of Manuel I's son Louis and a woman of humble birth. His father never openly married her and steered the boy into the Church, where he became Prior of Crato. Anthony fought at Alcácer Quibir, was captured and got himself freed. To ordinary Portuguese he was the home-grown candidate. On 24 June 1580, at Santarém, they proclaimed him king.",
+        "Philip II answered with an army under the Duke of Alba. On 25 August 1580 it crushed Anthony's makeshift force at Alcântara, outside Lisbon. Anthony fled north and hid for months with a price on his head before slipping away to France.",
+        "The Azores held out for him. In 1582 a French fleet sailed to help and was smashed off São Miguel. In 1583 Spain took Terceira, his last stronghold. Anthony spent his last years begging help from France and England. He sailed with an English fleet against Lisbon in 1589, but the city didn't rise for him. He died poor in Paris in 1595."
+      ],
+      "claims": [
+        {
+          "text": "Anthony's parents were secretly married, which would make him the rightful king.",
+          "status": "disputed",
+          "note": "Anthony produced witnesses. Henry's inquiry and the Pope ruled him illegitimate, but both had reasons to."
+        },
+        {
+          "text": "Anthony's mother came from a family of New Christians.",
+          "status": "disputed",
+          "note": "His enemies said so to discredit him. The evidence for her background is thin."
+        },
+        {
+          "text": "No one betrayed him while he hid, despite a large reward.",
+          "status": "legend",
+          "note": "Told by his supporters as proof of the people's love. He did evade capture for months, but the details are partisan."
+        }
+      ],
+      "hook": "Anthony is on the run and Lisbon is in Spanish hands. At Tomar the Cortes gather to swear loyalty to a new king: Philip II of Spain, who will rule Portugal as Philip I.",
+      "images": [
+        {
+          "file": "File:Nicolaas de Clerck – António I de Portugal (1615).jpg",
+          "url": "https://upload.wikimedia.org/wikipedia/commons/0/0c/Nicolaas_de_Clerck_%E2%80%93_Ant%C3%B3nio_I_de_Portugal_%281615%29.jpg",
+          "page": "https://commons.wikimedia.org/wiki/File:Nicolaas_de_Clerck_%E2%80%93_Ant%C3%B3nio_I_de_Portugal_(1615).jpg",
+          "credit": "Nicolaas de Clerck",
+          "license": "Public domain",
+          "made": "1615",
+          "caption": "A Dutch print from 1615, 20 years after Anthony died, still calling him king.",
+          "alt": "Engraved portrait of Anthony, inscribed in Latin as Anthony I, by the grace of God King of Portugal and the Algarves"
+        }
+      ],
+      "sources": [
+        {
+          "title": "O Reinado de D. António, Prior do Crato",
+          "author": "Joaquim Veríssimo Serrão",
+          "note": "Coimbra, 1956"
+        },
+        {
+          "title": "Imprudent King: A New Life of Philip II",
+          "author": "Geoffrey Parker",
+          "note": "Yale University Press, 2014"
+        },
+        {
+          "title": "History of Portugal",
+          "author": "A. H. de Oliveira Marques",
+          "note": "Columbia University Press, 1972"
+        }
+      ],
+      "review": {
+        "status": "draft",
+        "notes": "Drafted from the listed sources; needs a human fact-check."
+      },
+      "title": "Anthony of Crato"
+    },
+    {
+      "id": "philip-i",
+      "kind": "monarch",
+      "rulers": [
+        "philip-i"
+      ],
+      "tagline": "Spain's king takes Portugal: inherited, bought, conquered",
+      "start": {
+        "date": "1581-03-25"
+      },
+      "end": {
+        "date": "1598-09-13"
+      },
+      "contestedWith": [
+        "anthony"
+      ],
+      "relationToPredecessor": "Nephew of Henry, grandson of Manuel I",
+      "ageAtAccession": "53",
+      "cameToPower": "Invaded, then sworn in at Tomar",
+      "reignEnded": "Died in agony at El Escorial",
+      "previously": "Anthony of Crato is routed at Alcântara and flees to the Azores.",
+      "paragraphs": [
+        "This is Philip II of Spain, the most powerful man in Europe, now Philip I of Portugal too. His mother was a Portuguese princess, so his claim was strong. He backed it with an army under the Duke of Alba and a lot of cash for Portuguese nobles. At the Cortes of Tomar in 1581 he swore to keep Portugal separate: its own laws, its own coins, its own officials, its own empire. Two crowns, one king.",
+        "He stayed in Lisbon for two years and liked it. His fleet crushed Anthony's French allies off the Azores in 1582, and Terceira fell in 1583. In 1588 his Armada sailed from Lisbon and came to grief. A year later the English tried to land Anthony at Lisbon. Nobody rose for him. Meanwhile fake Sebastians kept popping up, each claiming to be the lost king, and each ending badly."
+      ],
+      "claims": [
+        {
+          "text": "Philip summed up his claim to Portugal as \"I inherited it, I bought it, I conquered it.\"",
+          "status": "legend",
+          "note": "The line is quoted everywhere and fits the facts neatly, but no reliable contemporary source records him saying it."
+        },
+        {
+          "text": "At least three men claimed to be King Sebastian back from Africa during his reign.",
+          "status": "confirmed",
+          "note": "The 'king of Penamacor', the 'king of Ericeira' and the pastry cook of Madrigal are all on record. The last was hanged in 1595."
+        },
+        {
+          "text": "Portuguese nobles were paid to back Philip.",
+          "status": "confirmed",
+          "note": "His agent Cristóvão de Moura handed out money and promises. Historians agree bribery smoothed the takeover."
+        }
+      ],
+      "hook": "Philip dies after weeks of agony. His heir is 20, pious and far more interested in hunting than in Portugal. Lisbon waits to see if the promises of Tomar will survive him.",
+      "images": [
+        {
+          "file": "File:Portrait of Philip II of Spain (Alonso Sánchez Coello).jpg",
+          "url": "https://upload.wikimedia.org/wikipedia/commons/e/e0/Portrait_of_Philip_II_of_Spain_%28Alonso_S%C3%A1nchez_Coello%29.jpg",
+          "page": "https://commons.wikimedia.org/wiki/File:Portrait_of_Philip_II_of_Spain_(Alonso_Sánchez_Coello).jpg",
+          "credit": "Alonso Sánchez Coello",
+          "license": "Public domain",
+          "made": "c. 1568",
+          "caption": "Painted by his court artist Sánchez Coello about 13 years before Philip took Portugal.",
+          "alt": "Head-and-shoulders portrait of Philip in Spanish court dress, wearing the Order of the Golden Fleece"
+        }
+      ],
+      "sources": [
+        {
+          "title": "Imprudent King: A New Life of Philip II",
+          "author": "Geoffrey Parker",
+          "note": "Yale University Press, 2014"
+        },
+        {
+          "title": "Philip of Spain",
+          "author": "Henry Kamen",
+          "note": "Yale University Press, 1997"
+        },
+        {
+          "title": "A History of Portugal and the Portuguese Empire",
+          "author": "A. R. Disney",
+          "note": "Cambridge University Press, 2009, 2 vols"
+        }
+      ],
+      "review": {
+        "status": "draft",
+        "notes": "Drafted from the listed sources; needs a human fact-check."
+      }
+    },
+    {
+      "id": "philip-ii",
+      "kind": "monarch",
+      "rulers": [
+        "philip-ii"
+      ],
+      "tagline": "The absentee king who left the work to a favourite",
+      "start": {
+        "date": "1598-09-13"
+      },
+      "end": {
+        "date": "1621-03-31"
+      },
+      "contestedWith": [],
+      "relationToPredecessor": "Son of Philip I",
+      "ageAtAccession": "20",
+      "cameToPower": "Inherited from his father",
+      "reignEnded": "Died of a fever in Madrid",
+      "previously": "Philip I dies at El Escorial after a long, agonising illness.",
+      "paragraphs": [
+        "In Spain he is Philip III. In Portugal he is Philip II, and mostly a name on documents. He handed power to his favourite, the Duke of Lerma, who got very rich doing it. Portugal was ruled by viceroys and councils. The deal from Tomar mostly held, and Portuguese nobles did fine. The trouble was abroad.",
+        "Spain's enemies were now Portugal's enemies. Dutch and English ships went after Portuguese trade in Asia, Africa and Brazil, and the Dutch East India Company was set up in 1602 to do exactly that. Philip finally visited Lisbon in 1619, with huge celebrations, to have his son sworn in as heir. Two years later he was dead at 42."
+      ],
+      "claims": [
+        {
+          "text": "Philip died because nobody with the right job was there to move a hot brazier away from him.",
+          "status": "legend",
+          "note": "A famous tale about stiff Spanish court etiquette, told by later writers. He actually died of a fever."
+        },
+        {
+          "text": "His 1619 trip was his only visit to Portugal as king.",
+          "status": "confirmed",
+          "note": "The royal entry into Lisbon was recorded in lavish detail at the time."
+        },
+        {
+          "text": "Lerma used his power to make himself enormously rich.",
+          "status": "confirmed",
+          "note": "Patrick Williams and other historians trace the lands, offices and gifts Lerma piled up."
+        }
+      ],
+      "hook": "The new king is 16. His real ruler will be the Count-Duke of Olivares, a man with big plans for making Portugal pay its share of Spain's wars.",
+      "images": [
+        {
+          "file": "File:Juan Pantoja de la Cruz (c. 1553-1608) - Philip III, King of Spain (1578-1621) - RCIN 404969 - Royal Collection.jpg",
+          "url": "https://upload.wikimedia.org/wikipedia/commons/d/d6/Juan_Pantoja_de_la_Cruz_%28c._1553-1608%29_-_Philip_III%2C_King_of_Spain_%281578-1621%29_-_RCIN_404969_-_Royal_Collection.jpg",
+          "page": "https://commons.wikimedia.org/wiki/File:Juan_Pantoja_de_la_Cruz_(c._1553-1608)_-_Philip_III,_King_of_Spain_(1578-1621)_-_RCIN_404969_-_Royal_Collection.jpg",
+          "credit": "Juan Pantoja de la Cruz",
+          "license": "Public domain",
+          "made": "1605",
+          "caption": "Painted in 1605 by his court painter Pantoja de la Cruz; it now hangs in Britain's Royal Collection.",
+          "alt": "Painted portrait of Philip, King of Spain and Portugal, by Juan Pantoja de la Cruz"
+        }
+      ],
+      "sources": [
+        {
+          "title": "The Great Favourite: The Duke of Lerma and the Court and Government of Philip III of Spain, 1598–1621",
+          "author": "Patrick Williams",
+          "note": "Manchester University Press, 2006"
+        },
+        {
+          "title": "A History of Portugal and the Portuguese Empire",
+          "author": "A. R. Disney",
+          "note": "Cambridge University Press, 2009, 2 vols"
+        },
+        {
+          "title": "A New History of Portugal",
+          "author": "H. V. Livermore",
+          "note": "Cambridge University Press, 1966"
+        }
+      ],
+      "review": {
+        "status": "draft",
+        "notes": "Drafted from the listed sources; needs a human fact-check."
+      }
+    },
+    {
+      "id": "philip-iii",
+      "kind": "monarch",
+      "rulers": [
+        "philip-iii"
+      ],
+      "tagline": "The king who lost Portugal on a December morning",
+      "start": {
+        "date": "1621-03-31"
+      },
+      "end": {
+        "date": "1640-12-01"
+      },
+      "contestedWith": [],
+      "relationToPredecessor": "Son of Philip II",
+      "ageAtAccession": "15",
+      "cameToPower": "Inherited from his father",
+      "reignEnded": "Overthrown by the Restoration",
+      "previously": "Philip II dies in Madrid at 42. His teenage son inherits.",
+      "paragraphs": [
+        "He is Philip IV of Spain, the king Velázquez painted again and again. The real power was his minister Olivares, who wanted every kingdom to pay for Spain's wars. Portugal felt it hard. The Dutch grabbed Bahia in 1624, and from 1630 they held Pernambuco in Brazil. New taxes followed, and in 1637 Évora rioted. The Tomar promises looked thinner every year.",
+        "Then in 1640 Catalonia revolted, and Olivares ordered Portuguese nobles to go and help crush it. That was the last straw. On 1 December a group of plotters burst into the palace in Lisbon, killed the hated secretary Miguel de Vasconcelos and threw his body from a window. The vicereine was escorted out. Within days the Duke of Braganza was king. Philip never got Portugal back."
+      ],
+      "claims": [
+        {
+          "text": "Miguel de Vasconcelos was killed and thrown from a palace window.",
+          "status": "confirmed",
+          "note": "Portuguese accounts of 1 December 1640 all describe it. The crowd then abused the body in the square below."
+        },
+        {
+          "text": "Olivares broke the news by telling Philip he had just gained a duchy, since the rebel Braganza's lands were now forfeit.",
+          "status": "legend",
+          "note": "A neat anecdote repeated by later writers. There's no solid contemporary source for it."
+        },
+        {
+          "text": "The coup was the work of exactly forty conspirators.",
+          "status": "disputed",
+          "note": "'The Forty' is the patriotic tradition. Lists of names vary, and the number is more symbol than headcount."
+        }
+      ],
+      "hook": "Portugal has a king of its own again. But John of Braganza is a cautious duke who loves music, and Spain will not let him keep his crown without a fight.",
+      "images": [
+        {
+          "file": "File:Philip IV of Spain - Velázquez 1644.jpg",
+          "url": "https://upload.wikimedia.org/wikipedia/commons/a/a4/Philip_IV_of_Spain_-_Vel%C3%A1zquez_1644.jpg",
+          "page": "https://commons.wikimedia.org/wiki/File:Philip_IV_of_Spain_-_Velázquez_1644.jpg",
+          "credit": "Diego Velázquez",
+          "license": "Public domain",
+          "made": "1644",
+          "caption": "Painted by Velázquez at Fraga in 1644, four years after Portugal broke away.",
+          "alt": "Portrait of Philip by Diego Velázquez, painted at Fraga in Aragon"
+        }
+      ],
+      "sources": [
+        {
+          "title": "The Count-Duke of Olivares: The Statesman in an Age of Decline",
+          "author": "J. H. Elliott",
+          "note": "Yale University Press, 1986"
+        },
+        {
+          "title": "Philip IV and the Government of Spain, 1621–1665",
+          "author": "R. A. Stradling",
+          "note": "Cambridge University Press, 1988"
+        },
+        {
+          "title": "A History of Portugal and the Portuguese Empire",
+          "author": "A. R. Disney",
+          "note": "Cambridge University Press, 2009, 2 vols"
+        }
+      ],
+      "review": {
+        "status": "draft",
+        "notes": "Drafted from the listed sources; needs a human fact-check."
+      }
+    },
+    {
+      "id": "john-iv",
+      "kind": "monarch",
+      "rulers": [
+        "john-iv"
+      ],
+      "tagline": "The music-mad duke who took back Portugal",
+      "start": {
+        "date": "1640-12-01"
+      },
+      "end": {
+        "date": "1656-11-06"
+      },
+      "contestedWith": [],
+      "relationToPredecessor": "Great-great-grandson of Manuel I",
+      "ageAtAccession": "36",
+      "cameToPower": "Made king by the 1640 coup",
+      "reignEnded": "Died in Lisbon",
+      "previously": "Plotters storm Lisbon's palace and throw Spain's man out of a window.",
+      "paragraphs": [
+        "John was Duke of Braganza, the richest noble in Portugal, and descended from Manuel I. He was no firebrand. He liked hunting and music, composed, and built up one of the best music libraries in Europe. But he said yes, and on 15 December 1640 he was acclaimed king. His Spanish wife, Luisa de Guzmán, is often given credit for the backbone.",
+        "Holding on was the hard part. Spain refused to accept it, so war rumbled along the border for decades. A plot to bring back Philip was crushed in 1641 and its leaders executed. John found friends where he could: France, the Dutch, and later Cromwell's England. In 1646 he crowned the Virgin Mary as Portugal's queen. By 1654 the Dutch were out of Brazil. He died in 1656 with the kingdom still standing."
+      ],
+      "claims": [
+        {
+          "text": "Luisa urged him on by saying it was better to be queen for a day than duchess for life.",
+          "status": "legend",
+          "note": "The line comes from later tradition. It fits her reputation for nerve, but there's no contemporary record of her saying it."
+        },
+        {
+          "text": "After 1646 no Portuguese king wore the crown at his acclamation.",
+          "status": "confirmed",
+          "note": "From then on the crown was placed beside the king on a cushion. Tradition links this to John's dedication of Portugal to the Virgin."
+        },
+        {
+          "text": "His great music library was lost in the 1755 earthquake.",
+          "status": "confirmed",
+          "note": "Only the first part of its printed catalogue, published in 1649, survives to show what was there."
+        }
+      ],
+      "hook": "John's eldest son, the promising Teodósio, died before him. The new king is Afonso, 13, left partly paralysed by a childhood illness. And the war with Spain is far from over.",
+      "images": [
+        {
+          "file": "File:Portrait of King John IV (1643) - José de Avelar Rebelo.png",
+          "url": "https://upload.wikimedia.org/wikipedia/commons/5/51/Portrait_of_King_John_IV_%281643%29_-_Jos%C3%A9_de_Avelar_Rebelo.png",
+          "page": "https://commons.wikimedia.org/wiki/File:Portrait_of_King_John_IV_(1643)_-_José_de_Avelar_Rebelo.png",
+          "credit": "José de Avelar Rebelo",
+          "license": "Public domain",
+          "made": "1643",
+          "caption": "Painted in 1643, early in his reign; it hangs in the Braganza palace at Vila Viçosa.",
+          "alt": "Portrait of King John IV of Portugal by José de Avelar Rebelo"
+        }
+      ],
+      "sources": [
+        {
+          "title": "D. João IV",
+          "author": "Leonor Freitas Costa and Mafalda Soares da Cunha",
+          "note": "Círculo de Leitores, 2006 (Reis de Portugal series)"
+        },
+        {
+          "title": "A History of Portugal and the Portuguese Empire",
+          "author": "A. R. Disney",
+          "note": "Cambridge University Press, 2009, 2 vols"
+        },
+        {
+          "title": "A New History of Portugal",
+          "author": "H. V. Livermore",
+          "note": "Cambridge University Press, 1966"
+        }
+      ],
+      "review": {
+        "status": "draft",
+        "notes": "Drafted from the listed sources; needs a human fact-check."
+      }
+    },
+    {
+      "id": "afonso-vi",
+      "kind": "monarch",
+      "rulers": [
+        "afonso-vi"
+      ],
+      "tagline": "He won the war, then lost his crown, wife and freedom",
+      "start": {
+        "date": "1656-11-06"
+      },
+      "end": {
+        "date": "1683-09-12"
+      },
+      "contestedWith": [],
+      "relationToPredecessor": "Son of John IV",
+      "ageAtAccession": "13",
+      "cameToPower": "Inherited; mother ruled as regent",
+      "reignEnded": "Died a prisoner at Sintra",
+      "previously": "John IV dies. His heir is a sickly 13-year-old boy.",
+      "paragraphs": [
+        "A fever as a small child left Afonso weak down one side and, his enemies said, weak in the head. His mother ran things until 1662, when a palace coup put power in the hands of the Count of Castelo Melhor. Castelo Melhor was good at his job. Portuguese armies beat Spain at Ameixial in 1663 and Montes Claros in 1665, which is how Afonso got his nickname. His sister Catherine married Charles II of England, with Bombay as dowry.",
+        "Then it all fell apart. Afonso married a French princess, Marie-Françoise, in 1666. She soon sided with his brother Peter. In 1667 Castelo Melhor was forced out, and Afonso was pushed aside, with Peter ruling as regent. The marriage was annulled as never consummated, and in 1668 the queen married Peter. Spain recognised Portugal's independence that year. Afonso was shipped off to the Azores, then locked up in Sintra Palace until he died."
+      ],
+      "claims": [
+        {
+          "text": "The marriage was never consummated, so it could be annulled.",
+          "status": "disputed",
+          "note": "The annulment case relied on testimony gathered by Peter's side. Afonso's supporters called it a convenient lie."
+        },
+        {
+          "text": "Afonso paced his room at Sintra for years, wearing down the floor tiles.",
+          "status": "legend",
+          "note": "Guides at Sintra Palace still point to the worn floor. It's a lovely story, but the wear can't be proven to be his."
+        },
+        {
+          "text": "Spain recognised Portuguese independence in 1668.",
+          "status": "confirmed",
+          "note": "The Treaty of Lisbon, signed in February 1668, ended the 28-year war."
+        }
+      ],
+      "hook": "After 15 years running the country for his locked-up brother, Peter can finally call himself king. And deep in Brazil, prospectors are finding gold.",
+      "images": [
+        {
+          "file": "File:AfonsoVIpt.jpg",
+          "url": "https://upload.wikimedia.org/wikipedia/commons/0/0c/AfonsoVIpt.jpg",
+          "page": "https://commons.wikimedia.org/wiki/File:AfonsoVIpt.jpg",
+          "credit": "Unidentified painter",
+          "license": "Public domain",
+          "made": "Late 17th century",
+          "caption": "A portrait by an unknown painter from the second half of the 17th century.",
+          "alt": "Painted portrait of King Afonso VI of Portugal"
+        }
+      ],
+      "sources": [
+        {
+          "title": "D. Afonso VI",
+          "author": "Ângela Barreto Xavier and Pedro Cardim",
+          "note": "Círculo de Leitores, 2006 (Reis de Portugal series)"
+        },
+        {
+          "title": "A History of Portugal and the Portuguese Empire",
+          "author": "A. R. Disney",
+          "note": "Cambridge University Press, 2009, 2 vols"
+        },
+        {
+          "title": "A New History of Portugal",
+          "author": "H. V. Livermore",
+          "note": "Cambridge University Press, 1966"
+        }
+      ],
+      "review": {
+        "status": "draft",
+        "notes": "Drafted from the listed sources; needs a human fact-check."
+      }
+    },
+    {
+      "id": "peter-ii",
+      "kind": "monarch",
+      "rulers": [
+        "peter-ii"
+      ],
+      "tagline": "The brother who got the throne, the queen and the gold",
+      "start": {
+        "date": "1683-09-12"
+      },
+      "end": {
+        "date": "1706-12-09"
+      },
+      "contestedWith": [],
+      "relationToPredecessor": "Younger brother of Afonso VI",
+      "ageAtAccession": "35",
+      "cameToPower": "Brother died in captivity",
+      "reignEnded": "Died in Lisbon",
+      "previously": "Afonso VI dies a prisoner at Sintra. Peter can finally be king.",
+      "paragraphs": [
+        "Peter had been running Portugal since 1668, so becoming king changed little at first. Then his queen, the same Marie-Françoise he'd taken from his brother, died just months later. He remarried, to a German princess, Maria Sophia of Neuburg, and had plenty of sons. With Spain at peace, he got his nickname: the Pacific. Then, in the 1690s, came the news from Brazil. Gold.",
+        "Huge finds in what became Minas Gerais set off a gold rush, and soon ships full of it were sailing into Lisbon. Peter stopped calling the Cortes, since he no longer needed their taxes. In 1703 he joined England and its allies in the War of the Spanish Succession and signed the Methuen treaties. In 1706 a Portuguese-led army even marched into Madrid. Peter died that December."
+      ],
+      "claims": [
+        {
+          "text": "The Cortes he held in 1697–98 was the last for over a hundred years.",
+          "status": "confirmed",
+          "note": "Portugal's parliament didn't meet again until the liberal revolution of 1820. Gold made it unnecessary."
+        },
+        {
+          "text": "The Methuen Treaty turned the English into port drinkers.",
+          "status": "disputed",
+          "note": "It gave Portuguese wine lower duties than French wine, which helped. But war with France and merchants already in Porto mattered just as much."
+        },
+        {
+          "text": "Allied troops under the Marquis of Minas occupied Madrid in 1706.",
+          "status": "confirmed",
+          "note": "They held it for a few weeks that summer before having to pull out."
+        }
+      ],
+      "hook": "Peter's son John is 17. He inherits a treasury about to overflow with Brazilian gold, and he has big ideas about how to spend it.",
+      "images": [
+        {
+          "file": "File:Retrato de D. Pedro II.jpg",
+          "url": "https://upload.wikimedia.org/wikipedia/commons/b/bf/Retrato_de_D._Pedro_II.jpg",
+          "page": "https://commons.wikimedia.org/wiki/File:Retrato_de_D._Pedro_II.jpg",
+          "credit": "Unknown artist",
+          "license": "Public domain",
+          "made": "17th century",
+          "caption": "A 17th-century portrait by an unknown Portuguese painter.",
+          "alt": "Bust portrait of Peter II with long dark hair, in armour and a lace cravat, holding a sceptre, with angels holding the royal arms behind him"
+        }
+      ],
+      "sources": [
+        {
+          "title": "The Golden Age of Brazil, 1695–1750",
+          "author": "C. R. Boxer",
+          "note": "University of California Press, 1962"
+        },
+        {
+          "title": "A History of Portugal and the Portuguese Empire",
+          "author": "A. R. Disney",
+          "note": "Cambridge University Press, 2009, 2 vols"
+        },
+        {
+          "title": "A New History of Portugal",
+          "author": "H. V. Livermore",
+          "note": "Cambridge University Press, 1966"
+        }
+      ],
+      "review": {
+        "status": "draft",
+        "notes": "Drafted from the listed sources; needs a human fact-check."
+      }
+    },
+    {
+      "id": "john-v",
+      "kind": "monarch",
+      "rulers": [
+        "john-v"
+      ],
+      "tagline": "Gold, a giant palace and a nun for a mistress",
+      "start": {
+        "date": "1706-12-09"
+      },
+      "end": {
+        "date": "1750-07-31"
+      },
+      "contestedWith": [],
+      "relationToPredecessor": "Son of Peter II",
+      "ageAtAccession": "17",
+      "cameToPower": "Inherited from his father",
+      "reignEnded": "Died after years of strokes",
+      "previously": "Peter II dies with Brazil's gold starting to pour in.",
+      "paragraphs": [
+        "John had Brazil's gold and spent it like a sun king. He started the vast palace, convent and basilica at Mafra in 1717, after a vow for an heir. He built the Águas Livres aqueduct to bring water into Lisbon, and the gorgeous library at Coimbra University. He showered Rome with money, got Lisbon its own Patriarch, and in 1748 the Pope gave him the title \"Most Faithful Majesty\".",
+        "He was devout and also a busy lover. His best-known mistress was a nun, Madre Paula, at the convent of Odivelas. Their son José was one of three royal bastards raised at Palhavã. He ruled without the Cortes, and Portugal stayed out of the big European wars after 1715. From 1742 a string of strokes wore him down, and he died in 1750. The treasury was much emptier than you'd expect."
+      ],
+      "claims": [
+        {
+          "text": "Mafra was built because John vowed to build a convent if his queen gave him a child.",
+          "status": "confirmed",
+          "note": "Court records and the Franciscans tell of the vow. The project then grew far beyond what it promised."
+        },
+        {
+          "text": "John boasted: \"My grandfather feared and owed; my father owed; I neither fear nor owe.\"",
+          "status": "legend",
+          "note": "Widely attributed to him, but it turns up in later anecdotes rather than any reliable record."
+        },
+        {
+          "text": "He had a long affair with a nun.",
+          "status": "confirmed",
+          "note": "Madre Paula of Odivelas was notorious at the time. John later acknowledged their son José in writing."
+        }
+      ],
+      "hook": "The new king, Joseph, is fonder of opera and hunting than paperwork. He picks a forceful diplomat, Sebastião de Carvalho e Melo, to help run things. Five years later, Lisbon is destroyed.",
+      "images": [
+        {
+          "file": "File:D. João V de Portugal, 1729.jpg",
+          "url": "https://upload.wikimedia.org/wikipedia/commons/6/68/D._Jo%C3%A3o_V_de_Portugal%2C_1729.jpg",
+          "page": "https://commons.wikimedia.org/wiki/File:D._João_V_de_Portugal,_1729.jpg",
+          "credit": "Jean Ranc",
+          "license": "Public domain",
+          "made": "1729",
+          "caption": "Painted in 1729 by Jean Ranc, a French artist sent to paint the royal family before a double royal wedding with Spain.",
+          "alt": "Portrait of King John V of Portugal by Jean Ranc"
+        }
+      ],
+      "sources": [
+        {
+          "title": "D. João V",
+          "author": "Maria Beatriz Nizza da Silva",
+          "note": "Círculo de Leitores, 2006 (Reis de Portugal series)"
+        },
+        {
+          "title": "The Golden Age of Brazil, 1695–1750",
+          "author": "C. R. Boxer",
+          "note": "University of California Press, 1962"
+        },
+        {
+          "title": "A History of Portugal and the Portuguese Empire",
+          "author": "A. R. Disney",
+          "note": "Cambridge University Press, 2009, 2 vols"
+        }
+      ],
+      "review": {
+        "status": "draft",
+        "notes": "Drafted from the listed sources; needs a human fact-check."
+      }
+    },
+    {
+      "id": "joseph-i",
+      "kind": "monarch",
+      "rulers": [
+        "joseph-i"
+      ],
+      "tagline": "Earthquake, fire, tidal wave, and the iron Pombal",
+      "start": {
+        "date": "1750-07-31"
+      },
+      "end": {
+        "date": "1777-02-24"
+      },
+      "contestedWith": [],
+      "relationToPredecessor": "Son of John V",
+      "ageAtAccession": "36",
+      "cameToPower": "Inherited from his father",
+      "reignEnded": "Died after a long illness",
+      "previously": "John V dies after years of strokes, his gold mostly spent.",
+      "paragraphs": [
+        "On the morning of 1 November 1755, All Saints' Day, a massive earthquake hit Lisbon. Churches packed with worshippers collapsed. A tsunami swept the waterfront and fires burned for days. Tens of thousands died. The royal family was out at Belém and survived. Joseph never trusted stone walls again and lived in a huge wooden palace of tents and timber at Ajuda.",
+        "His minister Carvalho e Melo took charge, rebuilt the city in neat grid streets, and became the real ruler. In 1758 shots were fired at Joseph's carriage at night. The minister blamed the powerful Távora family and the Duke of Aveiro, and in 1759 they were brutally executed at Belém. The Jesuits were thrown out the same year. Carvalho became Marquis of Pombal in 1769. Joseph had only daughters."
+      ],
+      "claims": [
+        {
+          "text": "After the quake, Pombal said: \"Bury the dead and feed the living.\"",
+          "status": "legend",
+          "note": "The line is famous, but some early sources give it to another nobleman. It sums up his approach either way."
+        },
+        {
+          "text": "The Távoras really did try to kill the king.",
+          "status": "disputed",
+          "note": "Confessions came under torture and the trial was rushed. The shots were real, but who planned them is still argued over."
+        },
+        {
+          "text": "Joseph was coming back from his mistress when he was shot at.",
+          "status": "disputed",
+          "note": "Gossip at the time named the young Marchioness of Távora. It's widely repeated but hard to prove."
+        }
+      ],
+      "hook": "Joseph is dead. His daughter Maria takes the throne alongside her husband, who is also her uncle. Pombal's enemies are about to come out of the dungeons.",
+      "images": [
+        {
+          "file": "File:Francisco José Aparício - Retrato de D. José I - Google Art Project.jpg",
+          "url": "https://upload.wikimedia.org/wikipedia/commons/2/20/Francisco_Jos%C3%A9_Apar%C3%ADcio_-_Retrato_de_D._Jos%C3%A9_I_-_Google_Art_Project.jpg",
+          "page": "https://commons.wikimedia.org/wiki/File:Francisco_José_Aparício_-_Retrato_de_D._José_I_-_Google_Art_Project.jpg",
+          "credit": "André Gonçalves and Francisco José Aparício",
+          "license": "Public domain",
+          "made": "1750s",
+          "caption": "Painted in the 1750s, early in his reign; a Latin inscription at the bottom was cut off.",
+          "alt": "Painted portrait of King Joseph I of Portugal"
+        }
+      ],
+      "sources": [
+        {
+          "title": "Pombal: Paradox of the Enlightenment",
+          "author": "Kenneth Maxwell",
+          "note": "Cambridge University Press, 1995"
+        },
+        {
+          "title": "Wrath of God: The Great Lisbon Earthquake of 1755",
+          "author": "Edward Paice",
+          "note": "Quercus, 2008"
+        },
+        {
+          "title": "D. José",
+          "author": "Nuno Gonçalo Monteiro",
+          "note": "Círculo de Leitores, 2006 (Reis de Portugal series)"
+        }
+      ],
+      "review": {
+        "status": "draft",
+        "notes": "Drafted from the listed sources; needs a human fact-check."
+      }
+    },
+    {
+      "id": "maria-i-and-peter-iii",
+      "kind": "monarch",
+      "rulers": [
+        "maria-i",
+        "peter-iii"
+      ],
+      "tagline": "A queen, her uncle-husband, and Pombal's comeuppance",
+      "start": {
+        "date": "1777-02-24"
+      },
+      "end": {
+        "date": "1786-05-25"
+      },
+      "contestedWith": [],
+      "relationToPredecessor": "Daughter and brother of Joseph I",
+      "ageAtAccession": "42 and 59",
+      "cameToPower": "She inherited; he reigned with her",
+      "reignEnded": "Peter died in Lisbon",
+      "previously": "Joseph dies, leaving daughters and a city rebuilt by Pombal.",
+      "paragraphs": [
+        "Maria was Portugal's first undisputed queen regnant. In 1760 she had married her father's younger brother Peter, 17 years older, and when she took the throne he became king alongside her. Peter was gentle, pious and happy to let her lead. Their first big move was to sack Pombal. Hundreds of political prisoners walked free from his jails. People called it the Viradeira, the great turnaround.",
+        "Pombal was put on trial and found guilty, but Maria let him off because of his age, and he was sent away from court. She built the domed Estrela Basilica in Lisbon to keep a vow she had made for the birth of a son. A Royal Academy of Sciences was founded in 1779. Maria reopened the Távora case, which haunted her. In May 1786, Peter died."
+      ],
+      "claims": [
+        {
+          "text": "Peter III was a real king, not just the queen's consort.",
+          "status": "confirmed",
+          "note": "He was acclaimed alongside her in 1777 and is numbered among Portugal's kings as Peter III."
+        },
+        {
+          "text": "A review of the Távora trial cleared most of those executed.",
+          "status": "disputed",
+          "note": "A 1781 review found in favour of several, but the decision was never fully published or carried through."
+        },
+        {
+          "text": "Pombal escaped punishment only because Maria pitied an old man.",
+          "status": "confirmed",
+          "note": "He was found guilty in 1781 and pardoned in view of his age and health. He died the next year."
+        }
+      ],
+      "hook": "Peter is gone, and Maria rules alone. Within a few years she will lose her son, her confessor and her grip on her own mind.",
+      "images": [
+        {
+          "file": "File:Retrato duplo de D. Maria I e D. Pedro III - século XVIII (Museu Nacional dos Coches, Antigo Picadeiro Real).png",
+          "url": "https://upload.wikimedia.org/wikipedia/commons/9/93/Retrato_duplo_de_D._Maria_I_e_D._Pedro_III_-_s%C3%A9culo_XVIII_%28Museu_Nacional_dos_Coches%2C_Antigo_Picadeiro_Real%29.png",
+          "page": "https://commons.wikimedia.org/wiki/File:Retrato_duplo_de_D._Maria_I_e_D._Pedro_III_-_século_XVIII_(Museu_Nacional_dos_Coches,_Antigo_Picadeiro_Real).png",
+          "credit": "Miguel António do Amaral",
+          "license": "Public domain",
+          "made": "18th century",
+          "caption": "A double portrait of the royal couple, now in the National Coach Museum in Lisbon.",
+          "alt": "Double portrait of Queen Maria I and her husband King Peter III"
+        }
+      ],
+      "sources": [
+        {
+          "title": "The Madness of Queen Maria: The Remarkable Life of Maria I of Portugal",
+          "author": "Jenifer Roberts",
+          "note": "Templeton Press, 2009"
+        },
+        {
+          "title": "Pombal: Paradox of the Enlightenment",
+          "author": "Kenneth Maxwell",
+          "note": "Cambridge University Press, 1995"
+        },
+        {
+          "title": "A History of Portugal and the Portuguese Empire",
+          "author": "A. R. Disney",
+          "note": "Cambridge University Press, 2009, 2 vols"
+        }
+      ],
+      "review": {
+        "status": "draft",
+        "notes": "Drafted from the listed sources; needs a human fact-check."
+      },
+      "title": "Maria I & Peter III"
+    },
+    {
+      "id": "maria-i",
+      "kind": "monarch",
+      "rulers": [
+        "maria-i"
+      ],
+      "tagline": "The queen whose mind broke as Napoleon came",
+      "start": {
+        "date": "1786-05-25"
+      },
+      "end": {
+        "date": "1816-03-20"
+      },
+      "contestedWith": [],
+      "relationToPredecessor": "Widow of Peter III",
+      "ageAtAccession": "51",
+      "cameToPower": "Husband's death left her sole ruler",
+      "reignEnded": "Died in Rio de Janeiro",
+      "previously": "Peter III dies. Maria now rules alone, and grief is closing in.",
+      "paragraphs": [
+        "Losing Peter was only the start. In 1788 her eldest son José died of smallpox at 27, and her confessor died too. Maria sank into terror about her own soul and her father's. By 1792 she was screaming through the night at Queluz Palace. George III's doctor, Francis Willis, was brought from London and couldn't help. Her second son John took over the government, and in 1799 became prince regent.",
+        "In November 1807 a French army under Junot marched on Lisbon. With British ships as escort, the whole court sailed for Brazil, mad queen and all, just before the French arrived. They reached Rio de Janeiro in 1808, and Rio became the capital of the empire. In 1815 Brazil was raised to a kingdom equal with Portugal. Maria died in Rio in March 1816, aged 81."
+      ],
+      "claims": [
+        {
+          "text": "Maria wouldn't let her son José be inoculated against smallpox.",
+          "status": "disputed",
+          "note": "Often repeated as a religious scruple. Jenifer Roberts and others discuss it, but solid evidence is thin."
+        },
+        {
+          "text": "Heading for the ships, Maria told her driver to slow down so people wouldn't think they were running away.",
+          "status": "legend",
+          "note": "A much-loved anecdote of the 1807 flight. It appears in later retellings, not in eyewitness accounts."
+        },
+        {
+          "text": "A doctor who had treated George III tried to cure her.",
+          "status": "confirmed",
+          "note": "Francis Willis came to Lisbon in 1792. He left after a few months with a large fee and no cure."
+        }
+      ],
+      "hook": "The mad queen is dead, thousands of miles from Lisbon. Her son John is finally king, ruling a transatlantic monarchy from Rio while Portugal at home grows restless.",
+      "images": [
+        {
+          "file": "File:Maria I, Queen of Portugal - Giuseppe Troni, atribuído (Turim, 1739-Lisboa, 1810) - Google Cultural Institute.jpg",
+          "url": "https://upload.wikimedia.org/wikipedia/commons/d/d9/Maria_I%2C_Queen_of_Portugal_-_Giuseppe_Troni%2C_atribu%C3%ADdo_%28Turim%2C_1739-Lisboa%2C_1810%29_-_Google_Cultural_Institute.jpg",
+          "page": "https://commons.wikimedia.org/wiki/File:Maria_I,_Queen_of_Portugal_-_Giuseppe_Troni,_atribuído_(Turim,_1739-Lisboa,_1810)_-_Google_Cultural_Institute.jpg",
+          "credit": "Attributed to Giuseppe Troni",
+          "license": "Public domain",
+          "made": "1783",
+          "caption": "Painted in 1783, three years before she was left to rule alone; it hangs at Queluz Palace.",
+          "alt": "Oil portrait of Queen Maria I of Portugal"
+        }
+      ],
+      "sources": [
+        {
+          "title": "The Madness of Queen Maria: The Remarkable Life of Maria I of Portugal",
+          "author": "Jenifer Roberts",
+          "note": "Templeton Press, 2009"
+        },
+        {
+          "title": "Empire Adrift: The Portuguese Court in Rio de Janeiro, 1808–1821",
+          "author": "Patrick Wilcken",
+          "note": "Bloomsbury, 2004"
+        },
+        {
+          "title": "Tropical Versailles: Empire, Monarchy, and the Portuguese Royal Court in Rio de Janeiro, 1808–1821",
+          "author": "Kirsten Schultz",
+          "note": "Routledge, 2001"
+        }
+      ],
+      "review": {
+        "status": "draft",
+        "notes": "Drafted from the listed sources; needs a human fact-check."
+      },
+      "title": "Maria I, alone"
+    },
+    {
+      "id": "john-vi",
+      "kind": "monarch",
+      "rulers": [
+        "john-vi"
+      ],
+      "tagline": "The runaway king who ruled Portugal from Rio",
+      "start": {
+        "date": "1816-03-20"
+      },
+      "end": {
+        "date": "1826-03-10"
+      },
+      "contestedWith": [],
+      "relationToPredecessor": "Son of Maria I",
+      "ageAtAccession": "48",
+      "cameToPower": "Mother died in Rio de Janeiro",
+      "reignEnded": "Sudden death in Lisbon",
+      "previously": "Mad Queen Maria dies in Rio. Her son John, long her regent, is king.",
+      "paragraphs": [
+        "John was never meant to be king. His elder brother José died of smallpox in 1788, and when their mother lost her mind John ended up running the country. In 1807, with Napoleon's army closing on Lisbon, he packed the court onto ships and sailed for Brazil. He liked it there. When Maria died in Rio in March 1816 he was finally king, and he stayed put. His acclamation was held in Rio in 1818.",
+        "Back home, the Portuguese were sick of being run from a colony. In 1820 liberals in Porto rose up, demanding a constitution and the return of their king. John sailed for Lisbon in 1821 and left his son Peter in charge of Brazil. That didn't last. In September 1822 Peter declared Brazil independent and soon made himself its emperor. Portugal accepted the loss in 1825, with Britain brokering the deal.",
+        "John's worst enemies lived under his own roof. His Spanish wife, Carlota Joaquina, despised him and backed their younger son Miguel, a hard-line absolutist. In 1824 Miguel tried a coup, and John had to take refuge on a British warship in the Tagus. Miguel was packed off to exile in Vienna. In March 1826 John fell suddenly ill and died a few days later, aged 58."
+      ],
+      "claims": [
+        {
+          "text": "John VI was poisoned with arsenic.",
+          "status": "disputed",
+          "note": "Tests on his preserved remains, reported around 2000, found a lot of arsenic. Nobody can say who gave it, or whether it was medicine."
+        },
+        {
+          "text": "He carried roast chicken in his pockets to snack on.",
+          "status": "legend",
+          "note": "A favourite story in Brazil, spread by gossip and cartoons. No reliable witness backs it up."
+        },
+        {
+          "text": "Leaving Brazil, Carlota Joaquina shook its dust off her shoes.",
+          "status": "legend",
+          "note": "Told in many later histories, but it can't be traced to anyone who saw it."
+        }
+      ],
+      "hook": "John is dead. His heir is Peter, who is also Emperor of Brazil, now a foreign country an ocean away. Lisbon waits to see what he'll do with a second crown.",
+      "images": [
+        {
+          "file": "File:Jean-Baptiste Debret - Retrato de Dom João VI (MNBA) - cores compensadas.jpg",
+          "url": "https://upload.wikimedia.org/wikipedia/commons/9/90/Jean-Baptiste_Debret_-_Retrato_de_Dom_Jo%C3%A3o_VI_%28MNBA%29_-_cores_compensadas.jpg",
+          "page": "https://commons.wikimedia.org/wiki/File:Jean-Baptiste_Debret_-_Retrato_de_Dom_Jo%C3%A3o_VI_(MNBA)_-_cores_compensadas.jpg",
+          "credit": "Jean-Baptiste Debret",
+          "license": "Public domain",
+          "made": "1817",
+          "caption": "Painted in 1817 by the French artist Jean-Baptiste Debret, a year into John's reign.",
+          "alt": "Painted portrait of King John VI of Portugal"
+        }
+      ],
+      "sources": [
+        {
+          "title": "D. João VI (Reis de Portugal)",
+          "author": "Jorge Pedreira and Fernando Dores Costa",
+          "note": "Círculo de Leitores, 2006"
+        },
+        {
+          "title": "Empire Adrift: The Portuguese Court in Rio de Janeiro, 1808–1821",
+          "author": "Patrick Wilcken",
+          "note": "Bloomsbury, 2004"
+        },
+        {
+          "title": "A History of Portugal and the Portuguese Empire, vol. 1",
+          "author": "A. R. Disney",
+          "note": "Cambridge University Press, 2009"
+        }
+      ],
+      "review": {
+        "status": "draft",
+        "notes": "Drafted from the listed sources; needs a human fact-check."
+      }
+    },
+    {
+      "id": "peter-iv",
+      "kind": "monarch",
+      "rulers": [
+        "peter-iv"
+      ],
+      "tagline": "The emperor who was King of Portugal for seven weeks",
+      "start": {
+        "date": "1826-03-10"
+      },
+      "end": {
+        "date": "1826-05-02"
+      },
+      "contestedWith": [],
+      "relationToPredecessor": "Son of John VI",
+      "ageAtAccession": "27",
+      "cameToPower": "Inherited from his father",
+      "reignEnded": "Abdicated for his daughter",
+      "previously": "John VI dies in Lisbon. His heir is Peter, Emperor of Brazil.",
+      "paragraphs": [
+        "Peter grew up in Brazil, having arrived as a nine-year-old with the fleeing court. He was impulsive, athletic and a famous womaniser. Left behind as regent in 1821, he sided with the Brazilians against Lisbon and declared independence in 1822. By the time his father died he had been Emperor of Brazil for more than three years. Now he was King of Portugal too.",
+        "He never came over. Brazilians didn't want their emperor wearing the crown of their old colonial masters, and Peter knew it. So from Rio he moved fast. First he wrote Portugal a constitution, the Constitutional Charter of April 1826. Then, on 2 May, he gave up the Portuguese throne to his eldest daughter, Maria da Glória. She was seven.",
+        "There were strings attached. Maria was to marry Peter's younger brother Miguel, her uncle, and Miguel had to swear to uphold the Charter. Peter's sister Isabel Maria stayed on as regent in Lisbon until then. It all looked neat on paper. The problem was Miguel, the darling of every absolutist in Portugal."
+      ],
+      "claims": [
+        {
+          "text": "Peter shouted “Independence or death!” by the Ipiranga stream in 1822.",
+          "status": "disputed",
+          "note": "The cry comes from witnesses writing years later, and the scene was polished into a national myth."
+        },
+        {
+          "text": "He died in the same room at Queluz where he was born.",
+          "status": "confirmed",
+          "note": "Both events happened in the Dom Quixote room of Queluz Palace and are well recorded."
+        },
+        {
+          "text": "His heart is kept in a church in Porto.",
+          "status": "confirmed",
+          "note": "He left it to the city for holding out during the siege; it is kept in the Lapa church."
+        }
+      ],
+      "hook": "Portugal's queen is a seven-year-old in Rio. Her fiancé, and her future regent, is her uncle Miguel, sworn to a constitution he can't stand.",
+      "images": [
+        {
+          "file": "File:Portrait of D. Pedro I (1826) - Google Art Project.jpg",
+          "url": "https://upload.wikimedia.org/wikipedia/commons/9/93/Portrait_of_D._Pedro_I_%281826%29_-_Google_Art_Project.jpg",
+          "page": "https://commons.wikimedia.org/wiki/File:Portrait_of_D._Pedro_I_(1826)_-_Google_Art_Project.jpg",
+          "credit": "Simplício Rodrigues de Sá",
+          "license": "Public domain",
+          "made": "1826",
+          "caption": "Painted by Simplício Rodrigues de Sá in 1826, the year Peter was briefly King of Portugal.",
+          "alt": "Painted portrait of Peter, Emperor of Brazil and King of Portugal, from 1826"
+        }
+      ],
+      "sources": [
+        {
+          "title": "Dom Pedro: The Struggle for Liberty in Brazil and Portugal, 1798–1834",
+          "author": "Neill Macaulay",
+          "note": "Duke University Press, 1986"
+        },
+        {
+          "title": "A History of Portugal and the Portuguese Empire, vol. 1",
+          "author": "A. R. Disney",
+          "note": "Cambridge University Press, 2009"
+        },
+        {
+          "title": "A Concise History of Portugal",
+          "author": "David Birmingham",
+          "note": "Cambridge University Press, 1993; later editions"
+        }
+      ],
+      "review": {
+        "status": "draft",
+        "notes": "Drafted from the listed sources; needs a human fact-check."
+      }
+    },
+    {
+      "id": "maria-ii",
+      "kind": "monarch",
+      "rulers": [
+        "maria-ii"
+      ],
+      "tagline": "The child queen whose uncle stole her throne",
+      "start": {
+        "date": "1826-05-02"
+      },
+      "end": {
+        "date": "1828-06-23"
+      },
+      "contestedWith": [],
+      "relationToPredecessor": "Daughter of Peter IV",
+      "ageAtAccession": "7",
+      "cameToPower": "Father abdicated for her",
+      "reignEnded": "Uncle Miguel took the throne",
+      "previously": "Peter abdicates from Rio. Portugal gets a seven-year-old queen.",
+      "paragraphs": [
+        "Maria da Glória was born in Rio de Janeiro and had never seen Portugal. The plan was simple. When she was old enough she would marry her uncle Miguel, 16 years older, and until then he would run the country for her. In October 1826, in Vienna, Miguel was betrothed to his niece and promised to obey the Charter. Then he took his time coming home.",
+        "He landed in Lisbon in February 1828 and swore loyalty to the queen and the constitution as regent. Within weeks the mask slipped. Crowds cheered him as absolute king. He dissolved parliament and called the old Cortes of the three estates: clergy, nobles and towns. That summer they declared the crown his by right.",
+        "Maria had already sailed for Europe. When news of the coup reached her ship she was taken to England instead, where George IV welcomed her as a queen. A liberal rising in Porto collapsed. Only the island of Terceira, in the Azores, held out in her name."
+      ],
+      "claims": [
+        {
+          "text": "Miguel was engaged to his own seven-year-old niece.",
+          "status": "confirmed",
+          "note": "The betrothal in Vienna in 1826 is well documented. It was a political deal and the wedding never happened."
+        },
+        {
+          "text": "George IV threw a children's ball for her, and young Princess Victoria was a guest.",
+          "status": "confirmed",
+          "note": "The 1829 ball at St James's was reported in the London press; the two girls were born a month apart."
+        }
+      ],
+      "hook": "Miguel rules as an absolute king and fills the jails with liberals. In Brazil, his brother Peter is starting to think about Portugal again.",
+      "images": [
+        {
+          "file": "File:Maria II Portugal 1829.jpg",
+          "url": "https://upload.wikimedia.org/wikipedia/commons/9/99/Maria_II_Portugal_1829.jpg",
+          "page": "https://commons.wikimedia.org/wiki/File:Maria_II_Portugal_1829.jpg",
+          "credit": "Thomas Lawrence",
+          "license": "Public domain",
+          "made": "1829",
+          "caption": "Painted by Sir Thomas Lawrence in 1829, while she was in England and Miguel held her throne.",
+          "alt": "Portrait of Queen Maria II of Portugal at the age of ten"
+        }
+      ],
+      "sources": [
+        {
+          "title": "D. Maria II (Reis de Portugal)",
+          "author": "Maria de Fátima Bonifácio",
+          "note": "Círculo de Leitores, 2005"
+        },
+        {
+          "title": "Dom Pedro: The Struggle for Liberty in Brazil and Portugal, 1798–1834",
+          "author": "Neill Macaulay",
+          "note": "Duke University Press, 1986"
+        },
+        {
+          "title": "A History of Portugal and the Portuguese Empire, vol. 1",
+          "author": "A. R. Disney",
+          "note": "Cambridge University Press, 2009"
+        }
+      ],
+      "review": {
+        "status": "draft",
+        "notes": "Drafted from the listed sources; needs a human fact-check."
+      }
+    },
+    {
+      "id": "miguel",
+      "kind": "monarch",
+      "rulers": [
+        "miguel"
+      ],
+      "tagline": "The uncle who grabbed the crown and lost a civil war",
+      "start": {
+        "date": "1828-06-23"
+      },
+      "end": {
+        "date": "1834-05-26"
+      },
+      "contestedWith": [],
+      "relationToPredecessor": "Uncle and fiancé of Maria II",
+      "ageAtAccession": "25",
+      "cameToPower": "Proclaimed king by the old Cortes",
+      "reignEnded": "Surrendered at Evoramonte",
+      "previously": "Regent Miguel tears up the constitution and claims the crown.",
+      "paragraphs": [
+        "Miguel was his mother's boy. Carlota Joaquina raised him on throne and altar, and in 1824 he had tried to seize power from his own father. Back from exile in 1828, he became the hero of everyone who hated liberalism: priests, most nobles and plenty of country people. He ruled hard. Thousands of liberals were jailed, many fled abroad, and rebel leaders were hanged.",
+        "Most of Europe refused to recognise him. Then in 1831 Peter gave up the Brazilian throne to his little son and sailed east to fight for his daughter. In July 1832 he landed near Porto with about 7,500 men. Miguel's army besieged the city for a year. Porto went hungry and caught cholera, but it held.",
+        "The war turned at sea. In July 1833 a liberal fleet under the British admiral Charles Napier smashed Miguel's navy off Cape St Vincent, and within weeks Lisbon fell. After a final defeat at Asseiceira, Miguel signed the surrender at Evoramonte in May 1834. He agreed to leave Portugal for good. Once safely abroad, he took it all back."
+      ],
+      "claims": [
+        {
+          "text": "Miguel wasn't really John VI's son.",
+          "status": "legend",
+          "note": "Court gossip named lovers of Carlota Joaquina. There's no proof, and the story suited his enemies."
+        },
+        {
+          "text": "Peter landed with about 7,500 men, remembered as the “Bravos do Mindelo”.",
+          "status": "confirmed",
+          "note": "The figure comes from liberal sources and is the one Portuguese historians usually give."
+        },
+        {
+          "text": "His descendants are today's claimants to the Portuguese throne.",
+          "status": "confirmed",
+          "note": "When Manuel II died childless in 1932, most monarchists turned to Miguel's line."
+        }
+      ],
+      "hook": "Miguel is gone and Maria II, now 15, has her throne back. But the man who won it for her, her father Peter, is dying of tuberculosis.",
+      "images": [
+        {
+          "file": "File:Dom Miguel I circa 1830.jpg",
+          "url": "https://upload.wikimedia.org/wikipedia/commons/c/cf/Dom_Miguel_I_circa_1830.jpg",
+          "page": "https://commons.wikimedia.org/wiki/File:Dom_Miguel_I_circa_1830.jpg",
+          "credit": "António Onofre Schiappa Pietra",
+          "license": "Public domain",
+          "made": "c. 1830",
+          "caption": "Painted by António Onofre Schiappa Pietra around 1830, in the middle of Miguel's reign.",
+          "alt": "Portrait of King Miguel I of Portugal"
+        }
+      ],
+      "sources": [
+        {
+          "title": "D. Miguel (Reis de Portugal)",
+          "author": "Maria Alexandre Lousada and Maria de Fátima Sá e Melo Ferreira",
+          "note": "Círculo de Leitores, 2006"
+        },
+        {
+          "title": "Dom Pedro: The Struggle for Liberty in Brazil and Portugal, 1798–1834",
+          "author": "Neill Macaulay",
+          "note": "Duke University Press, 1986"
+        },
+        {
+          "title": "A History of Portugal and the Portuguese Empire, vol. 1",
+          "author": "A. R. Disney",
+          "note": "Cambridge University Press, 2009"
+        }
+      ],
+      "review": {
+        "status": "draft",
+        "notes": "Drafted from the listed sources; needs a human fact-check."
+      }
+    },
+    {
+      "id": "maria-ii-restored",
+      "kind": "monarch",
+      "rulers": [
+        "maria-ii"
+      ],
+      "title": "Maria II, again",
+      "tagline": "The queen who ruled through riots and eleven births",
+      "start": {
+        "date": "1834-05-26"
+      },
+      "end": {
+        "date": "1853-11-15"
+      },
+      "contestedWith": [],
+      "relationToPredecessor": "Niece of Miguel; restored",
+      "ageAtAccession": "15",
+      "cameToPower": "Father won the civil war",
+      "reignEnded": "Died in childbirth",
+      "previously": "Miguel surrenders at Evoramonte and leaves Portugal for good.",
+      "paragraphs": [
+        "Four months after the victory, Peter died, worn out by war and tuberculosis. Parliament declared Maria of age at 15. Her first husband, Auguste of Leuchtenberg, died about two months after arriving in Lisbon. In 1836 she married Ferdinand of Saxe-Coburg-Gotha, a cousin of Prince Albert. He became King Ferdinand II once their first son was born, and later built the fairytale Pena Palace at Sintra.",
+        "Winning the war didn't bring peace. The liberals split into rival camps and fought it out with coups, rigged elections and street revolts. In 1846 a peasant revolt in the Minho, named after a woman called Maria da Fonte, grew into a full civil war. Britain and Spain stepped in to end it in 1847. Things only settled after 1851, in a calmer period known as the Regeneration.",
+        "Maria was devout, stubborn and devoted to her children, which is why Portugal remembers her as the Good Mother. Pregnancy after pregnancy wore her down. In November 1853, giving birth to her eleventh child, she died at 34. Her eldest son, Peter, was 16."
+      ],
+      "claims": [
+        {
+          "text": "Warned that another birth could kill her, she replied: “If I die, I die at my post.”",
+          "status": "legend",
+          "note": "A famous line in Portuguese histories, but there's no reliable record of her saying it."
+        },
+        {
+          "text": "In 1834 her government shut down Portugal's male religious orders.",
+          "status": "confirmed",
+          "note": "The decree of minister Joaquim António de Aguiar, who was nicknamed “the Friar-Killer” for it."
+        },
+        {
+          "text": "Her husband Ferdinand built the Pena Palace at Sintra.",
+          "status": "confirmed",
+          "note": "He bought a ruined monastery on the hilltop in the 1830s and turned it into the palace."
+        }
+      ],
+      "hook": "The queen is dead. Her eldest son Peter is 16, serious and bookish. His father Ferdinand will hold the reins until the boy comes of age.",
+      "images": [
+        {
+          "file": "File:Maria II Portugal 1829.jpg",
+          "url": "https://upload.wikimedia.org/wikipedia/commons/9/99/Maria_II_Portugal_1829.jpg",
+          "page": "https://commons.wikimedia.org/wiki/File:Maria_II_Portugal_1829.jpg",
+          "credit": "Thomas Lawrence",
+          "license": "Public domain",
+          "made": "1829",
+          "caption": "Painted by Sir Thomas Lawrence in 1829, when she was ten, five years before she got her throne back.",
+          "alt": "Portrait of Queen Maria II of Portugal at the age of ten"
+        }
+      ],
+      "sources": [
+        {
+          "title": "D. Maria II (Reis de Portugal)",
+          "author": "Maria de Fátima Bonifácio",
+          "note": "Círculo de Leitores, 2005"
+        },
+        {
+          "title": "A History of Portugal and the Portuguese Empire, vol. 1",
+          "author": "A. R. Disney",
+          "note": "Cambridge University Press, 2009"
+        },
+        {
+          "title": "A Concise History of Portugal",
+          "author": "David Birmingham",
+          "note": "Cambridge University Press, 1993; later editions"
+        }
+      ],
+      "review": {
+        "status": "draft",
+        "notes": "Drafted from the listed sources; needs a human fact-check."
+      }
+    },
+    {
+      "id": "peter-v",
+      "kind": "monarch",
+      "rulers": [
+        "peter-v"
+      ],
+      "tagline": "The earnest young king killed by typhoid at 24",
+      "start": {
+        "date": "1853-11-15"
+      },
+      "end": {
+        "date": "1861-11-11"
+      },
+      "contestedWith": [],
+      "relationToPredecessor": "Eldest son of Maria II",
+      "ageAtAccession": "16",
+      "cameToPower": "Mother died in childbirth",
+      "reignEnded": "Typhoid fever at 24",
+      "previously": "Maria II dies in childbirth. Her son Peter, aged 16, is king.",
+      "paragraphs": [
+        "Peter may be the most earnest king Portugal ever had. His father, Ferdinand, ruled as regent until Peter turned 18 in 1855. Then the young king threw himself into the job. He read everything, kept a sharp-tongued diary and toured Europe to see how modern countries worked. He paid for a new college of letters in Lisbon out of his own pocket.",
+        "When cholera hit Lisbon, followed by yellow fever in 1857, he stayed in the city while many who could afford it fled. He went into the hospitals and sat with the sick. People loved him for it. Portugal's first railway opened in 1856, and the telegraph was spreading. For a moment the country felt like it was catching up.",
+        "Then came grief. In 1858 he married Stephanie of Hohenzollern-Sigmaringen. A year later she died of diphtheria, aged 22. In autumn 1861 typhoid tore through the royal family. Peter died on 11 November, and two of his brothers also died that season. Angry crowds in Lisbon were sure someone had poisoned them."
+      ],
+      "claims": [
+        {
+          "text": "Peter V and his brothers were poisoned.",
+          "status": "legend",
+          "note": "The rumour swept Lisbon in 1861. Doctors blamed typhoid, and no evidence of poison ever turned up."
+        },
+        {
+          "text": "He visited cholera and yellow fever victims in Lisbon's hospitals.",
+          "status": "confirmed",
+          "note": "Widely reported at the time, and the main reason for his huge popularity."
+        }
+      ],
+      "hook": "Peter is dead and has no children. The crown passes to his younger brother Luís, a naval officer who was trained for the sea, not the throne.",
+      "images": [
+        {
+          "file": "File:Don Pedro V.jpg",
+          "url": "https://upload.wikimedia.org/wikipedia/commons/6/63/Don_Pedro_V.jpg",
+          "page": "https://commons.wikimedia.org/wiki/File:Don_Pedro_V.jpg",
+          "credit": "Miguel Ângelo Lupi",
+          "license": "Public domain",
+          "made": "1860",
+          "caption": "Painted by Miguel Ângelo Lupi in 1860, a year before Peter's death.",
+          "alt": "Portrait of King Peter V of Portugal"
+        }
+      ],
+      "sources": [
+        {
+          "title": "D. Pedro V (Reis de Portugal)",
+          "author": "Maria Filomena Mónica",
+          "note": "Círculo de Leitores, 2005"
+        },
+        {
+          "title": "A Concise History of Portugal",
+          "author": "David Birmingham",
+          "note": "Cambridge University Press, 1993; later editions"
+        },
+        {
+          "title": "A History of Portugal and the Portuguese Empire, vol. 1",
+          "author": "A. R. Disney",
+          "note": "Cambridge University Press, 2009"
+        }
+      ],
+      "review": {
+        "status": "draft",
+        "notes": "Drafted from the listed sources; needs a human fact-check."
+      }
+    },
+    {
+      "id": "luis-i",
+      "kind": "monarch",
+      "rulers": [
+        "luis-i"
+      ],
+      "tagline": "The sailor king who translated Shakespeare",
+      "start": {
+        "date": "1861-11-11"
+      },
+      "end": {
+        "date": "1889-10-19"
+      },
+      "contestedWith": [],
+      "relationToPredecessor": "Younger brother of Peter V",
+      "ageAtAccession": "23",
+      "cameToPower": "Brother died childless",
+      "reignEnded": "Died at Cascais",
+      "previously": "Typhoid kills Peter V, who has no children. His brother Luís is king.",
+      "paragraphs": [
+        "Luís had trained for the navy, but he took to the crown with good grace and a light touch. In 1862 he married Maria Pia of Savoy, daughter of Italy's new king. She was 14, glamorous and famously extravagant. They had two sons, Carlos and Afonso.",
+        "Politics settled into a routine. Rival liberal parties took turns in power and the king mostly let them. Portugal abolished the death penalty for civil crimes in 1867, one of the first countries in Europe to do so, and passed laws ending slavery across its empire. In 1869 the Spanish, who had just thrown out their queen, offered Luís their crown. He said no.",
+        "Luís spent his spare hours on books, and translated several of Shakespeare's plays into Portuguese. Abroad, Portugal dreamed big. A plan known as the Pink Map claimed a belt of Africa linking Angola to Mozambique. Britain had other ideas. Luís died at Cascais in October 1889, and the bill for that dream landed on his son."
+      ],
+      "claims": [
+        {
+          "text": "Luís translated Hamlet and other Shakespeare plays into Portuguese.",
+          "status": "confirmed",
+          "note": "His versions of several plays, including Hamlet and Othello, were published under his name."
+        },
+        {
+          "text": "He turned down the crown of Spain.",
+          "status": "confirmed",
+          "note": "After Isabella II fell in 1868, Spain's new leaders sounded him out. He refused, saying he was born Portuguese and would die Portuguese."
+        },
+        {
+          "text": "Queen Maria Pia told ministers: “If you want queens, you have to pay for them.”",
+          "status": "legend",
+          "note": "A much-repeated retort about her spending; nobody can pin down when or to whom she said it."
+        }
+      ],
+      "hook": "Carlos, 26, inherits the throne and the Pink Map. Within three months Britain sends Lisbon an ultimatum: pull out of central Africa, or else.",
+      "images": [
+        {
+          "file": "File:D Luis.jpg",
+          "url": "https://upload.wikimedia.org/wikipedia/commons/b/bc/D_Luis.jpg",
+          "page": "https://commons.wikimedia.org/wiki/File:D_Luis.jpg",
+          "credit": "José Rodrigues",
+          "license": "Public domain",
+          "made": "1866",
+          "caption": "Painted by José Rodrigues in 1866, five years into the reign.",
+          "alt": "Portrait of King Luís I of Portugal"
+        }
+      ],
+      "sources": [
+        {
+          "title": "D. Luís (Reis de Portugal)",
+          "author": "Luís Espinha da Silveira and Paulo Jorge Fernandes",
+          "note": "Círculo de Leitores, 2006"
+        },
+        {
+          "title": "A Concise History of Portugal",
+          "author": "David Birmingham",
+          "note": "Cambridge University Press, 1993; later editions"
+        },
+        {
+          "title": "A History of Portugal and the Portuguese Empire, vol. 1",
+          "author": "A. R. Disney",
+          "note": "Cambridge University Press, 2009"
+        }
+      ],
+      "review": {
+        "status": "draft",
+        "notes": "Drafted from the listed sources; needs a human fact-check."
+      }
+    },
+    {
+      "id": "carlos-i",
+      "kind": "monarch",
+      "rulers": [
+        "carlos-i"
+      ],
+      "tagline": "The painter king gunned down in Lisbon's grandest square",
+      "start": {
+        "date": "1889-10-19"
+      },
+      "end": {
+        "date": "1908-02-01"
+      },
+      "contestedWith": [],
+      "relationToPredecessor": "Eldest son of Luís I",
+      "ageAtAccession": "26",
+      "cameToPower": "Father died",
+      "reignEnded": "Shot in the Terreiro do Paço",
+      "previously": "Luís dies at Cascais. Carlos inherits the throne and an African dream.",
+      "paragraphs": [
+        "Carlos had barely started when Britain struck. On 11 January 1890 London demanded that Portugal pull its forces out of the land between Angola and Mozambique. Portugal gave in. The country felt humiliated, and much of the anger landed on the crown. A protest song written that year, A Portuguesa, would one day become the national anthem of the republic.",
+        "Money was the next disaster. In 1892 the state defaulted on its debts. Carlos was big, cheerful and gifted. He painted seriously and led scientific cruises to study the ocean. Critics said he spent too much and governed too little. In 1907 he let his prime minister, João Franco, rule without parliament. Republicans were furious, and so were plenty of monarchists.",
+        "On 1 February 1908 the royal family rode in an open carriage across the Terreiro do Paço, Lisbon's great riverside square. Two gunmen opened fire. Carlos was killed, and so was his heir, Luís Filipe. The younger son, Manuel, was hit in the arm. The killers, Manuel Buíça and Alfredo Costa, were shot dead on the spot."
+      ],
+      "claims": [
+        {
+          "text": "Queen Amélia fought off an attacker with her bouquet of flowers.",
+          "status": "legend",
+          "note": "A famous image from the newspapers of the day. Witnesses disagree on what she actually did."
+        },
+        {
+          "text": "Carlos was a serious oceanographer.",
+          "status": "confirmed",
+          "note": "He ran research cruises on his yachts and published his findings on Portuguese sea life."
+        },
+        {
+          "text": "The 1890 Ultimatum gave Portugal its national anthem.",
+          "status": "confirmed",
+          "note": "Alfredo Keil and Henrique Lopes de Mendonça wrote A Portuguesa in protest; the republic adopted it in 1911."
+        }
+      ],
+      "hook": "Two kings are dead in a single afternoon. The crown passes to Manuel, 18, with a wounded arm and no training for the job.",
+      "images": [
+        {
+          "file": "File:Carlos I de Portugal.jpg",
+          "url": "https://upload.wikimedia.org/wikipedia/commons/e/e1/Carlos_I_de_Portugal.jpg",
+          "page": "https://commons.wikimedia.org/wiki/File:Carlos_I_de_Portugal.jpg",
+          "credit": "Nadar",
+          "license": "Public domain",
+          "made": "1886",
+          "caption": "Photographed by the Nadar studio in 1886, three years before he became king.",
+          "alt": "Half-length photograph of Carlos of Portugal, facing slightly left"
+        }
+      ],
+      "sources": [
+        {
+          "title": "D. Carlos (Reis de Portugal)",
+          "author": "Rui Ramos",
+          "note": "Círculo de Leitores, 2006"
+        },
+        {
+          "title": "A Concise History of Portugal",
+          "author": "David Birmingham",
+          "note": "Cambridge University Press, 1993; later editions"
+        },
+        {
+          "title": "A History of Portugal and the Portuguese Empire, vol. 1",
+          "author": "A. R. Disney",
+          "note": "Cambridge University Press, 2009"
+        }
+      ],
+      "review": {
+        "status": "draft",
+        "notes": "Drafted from the listed sources; needs a human fact-check."
+      }
+    },
+    {
+      "id": "manuel-ii",
+      "kind": "monarch",
+      "rulers": [
+        "manuel-ii"
+      ],
+      "tagline": "The last King of Portugal",
+      "start": {
+        "date": "1908-02-01"
+      },
+      "end": {
+        "date": "1910-10-05"
+      },
+      "contestedWith": [],
+      "relationToPredecessor": "Younger son of Carlos I",
+      "ageAtAccession": "18",
+      "cameToPower": "Father and brother assassinated",
+      "reignEnded": "Overthrown by the 1910 revolution",
+      "previously": "Assassins kill Carlos and his heir. Wounded Manuel, 18, is king.",
+      "paragraphs": [
+        "Manuel tried to calm things down. He sacked João Franco and promised to govern by the rules. It didn't help much. The monarchist parties squabbled and governments came and went at speed. Meanwhile the Republican Party was winning over Lisbon, and a secret society, the Carbonária, was quietly arming.",
+        "On the night of 3 October 1910 the revolt began. Rebel soldiers and armed civilians dug in at the Rotunda, at the top of Lisbon's grand avenue, and warships in the Tagus shelled the Necessidades Palace. Manuel escaped to Mafra. On 5 October the Republic was proclaimed from the balcony of Lisbon's city hall. That same day the king sailed from Ericeira into exile.",
+        "He settled at Twickenham, near London, married a German princess and collected rare old Portuguese books. He never saw Portugal again. When he died suddenly in 1932, aged 42, his body was brought home and buried with his ancestors in Lisbon. The Republic stayed. Portugal has not had a king since."
+      ],
+      "claims": [
+        {
+          "text": "Manuel had a romance with the French dancer Gaby Deslys.",
+          "status": "disputed",
+          "note": "The gossip press of 1910 made a meal of it. The affair is widely reported, but its details are hard to pin down."
+        },
+        {
+          "text": "He escaped on the royal yacht Amélia from the fishing town of Ericeira.",
+          "status": "confirmed",
+          "note": "Well documented. The yacht took the royal family to Gibraltar, and from there they went to Britain."
+        },
+        {
+          "text": "He died of a sudden swelling in his throat.",
+          "status": "confirmed",
+          "note": "That was the medical verdict. There were whispers of foul play, but no evidence."
+        }
+      ],
+      "images": [
+        {
+          "file": "File:Manoel II, King of Portugal (Nov 1909).png",
+          "url": "https://upload.wikimedia.org/wikipedia/commons/4/43/Manoel_II%2C_King_of_Portugal_%28Nov_1909%29.png",
+          "page": "https://commons.wikimedia.org/wiki/File:Manoel_II,_King_of_Portugal_(Nov_1909).png",
+          "credit": "Unidentified photographer",
+          "license": "Public domain",
+          "made": "1909",
+          "caption": "Photographed in November 1909, less than a year before the revolution.",
+          "alt": "Photograph of King Manuel II of Portugal"
+        }
+      ],
+      "sources": [
+        {
+          "title": "D. Manuel II (Reis de Portugal)",
+          "author": "Maria Cândida Proença",
+          "note": "Círculo de Leitores, 2006"
+        },
+        {
+          "title": "Republican Portugal: A Political History, 1910–1926",
+          "author": "Douglas L. Wheeler",
+          "note": "University of Wisconsin Press, 1978"
+        },
+        {
+          "title": "A Concise History of Portugal",
+          "author": "David Birmingham",
+          "note": "Cambridge University Press, 1993; later editions"
+        }
+      ],
+      "review": {
+        "status": "draft",
+        "notes": "Drafted from the listed sources; needs a human fact-check."
+      }
+    }
+  ]
+}
