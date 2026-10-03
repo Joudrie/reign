@@ -134,8 +134,8 @@ export const Reign = z.object({
   claims: z.array(Claim).max(3).default([]),
   /** Cliffhanger into the next card. Omit only on the final card. */
   hook: z.string().max(220).optional(),
-  /** The portrait. One image per card for now. */
-  images: z.array(Image).length(1),
+  /** The portrait: exactly one, except in fictional worlds, which have no free-licence art (the app draws a banner). */
+  images: z.array(Image).max(1),
   sources: z.array(Source).min(2),
   review: Review,
 });
@@ -147,6 +147,12 @@ export const Country = z.object({
   blurb: z.string().min(1),
   /** What the reign-date convention is, shown in an "about these dates" note. */
   dateConvention: z.string().min(1),
+  /** A made-up world (Westeros). Cards carry no portrait and the picker lists it under fiction. */
+  fictional: z.boolean().optional(),
+  /** Calendar label for positive years: "AC" shows 37 AC instead of AD 37; negative years show as BC either way. */
+  era: z.enum(["AC"]).optional(),
+  /** "Now" for an unfinished story (the books stop in 300 AC); defaults to today. */
+  present: HistoricDate.optional(),
   /** Closing line on the last card when the story has ended (France after 1870). Omit while it continues. */
   epilogue: z.string().max(220).optional(),
   houses: z.array(House).min(1),

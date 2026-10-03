@@ -106,7 +106,8 @@ for (const name of readdirSync(dataDir).filter((f) => f.endsWith(".json"))) {
 
     for (const d of [g.start, g.end]) if (d && !plausible(d)) err(where, `impossible date ${d.date}`);
     if (g.end && key(g.end) < key(g.start)) err(where, "ends before it starts");
-    if (!g.end && i !== c.reigns.length - 1) err(where, "only the last reign may be open-ended");
+    // Rival claims can still be live when the story stops (Stannis and Daenerys in 300 AC).
+    if (!g.end && i !== c.reigns.length - 1 && g.kind !== "claimant") err(where, "only the last reign may be open-ended");
 
     const dead: string[] = [];
     for (const id of g.rulers) {
@@ -144,6 +145,7 @@ for (const name of readdirSync(dataDir).filter((f) => f.endsWith(".json"))) {
     const last = i === c.reigns.length - 1;
     if (!g.hook && !last) err(where, "missing hook");
 
+    if (g.images.length === 0 && !c.fictional) err(where, "needs a portrait");
     for (const img of g.images)
       if (!/public domain|^cc[ -]|^cc0$/i.test(img.license)) warn(where, `check license "${img.license}" on ${img.file}`);
 
