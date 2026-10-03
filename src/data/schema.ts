@@ -83,7 +83,8 @@ export const Ruler = z.object({
   /** "the Conqueror", "Rufus" — what people actually call them. */
   epithet: z.string().optional(),
   house: slug,
-  born: HistoricDate,
+  /** Absent when no source records it (many late Roman emperors): never invent one. */
+  born: HistoricDate.optional(),
   died: HistoricDate.optional(), // absent for the living
   causeOfDeath: z.string().optional(),
 });

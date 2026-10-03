@@ -93,7 +93,7 @@ for (const name of readdirSync(dataDir).filter((f) => f.endsWith(".json"))) {
     if (!houses.has(r.house)) err(r.id, `unknown house "${r.house}"`);
     if (!c.reigns.some((g) => g.rulers.includes(r.id))) warn(r.id, "ruler has no reign");
     for (const d of [r.born, r.died]) if (d && !plausible(d)) err(r.id, `impossible date ${d.date}`);
-    if (r.died && key(r.died) < key(r.born)) err(r.id, "died before born");
+    if (r.died && r.born && key(r.died) < key(r.born)) err(r.id, "died before born");
   }
 
   c.reigns.forEach((g: Reign, i) => {
@@ -115,7 +115,7 @@ for (const name of readdirSync(dataDir).filter((f) => f.endsWith(".json"))) {
         err(where, `unknown ruler "${id}"`);
         continue;
       }
-      if (key(g.start) < key(r.born)) err(where, `${r.name} reigns before being born`);
+      if (r.born && key(g.start) < key(r.born)) err(where, `${r.name} reigns before being born`);
       // An interregnum outlives its leaders (Oliver Cromwell died in 1658; the Commonwealth ran to 1660).
       if (g.kind !== "interregnum" && r.died && g.end && key(g.end) > keyEnd(r.died)) dead.push(r.name);
     }

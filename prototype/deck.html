@@ -111,8 +111,9 @@ button, input { font: inherit; color: inherit; }
 .portrait img { max-height: 100%; max-width: 100%; object-fit: contain; display: block; -webkit-user-drag: none; user-select: none; }
 
 .title { display: grid; gap: var(--s0); text-align: center; justify-items: center; }
-.house { color: var(--muted); display: inline-flex; align-items: center; gap: var(--s0); }
-.swatch { width: 8px; height: 8px; border-radius: 2px; flex: none; }
+.house { color: var(--muted); text-wrap: balance; }
+.house .swatch { margin-right: var(--s0); vertical-align: 1px; }
+.swatch { display: inline-block; width: 8px; height: 8px; border-radius: 2px; flex: none; }
 h1 { margin: 0; font-family: var(--name); font-weight: 400; font-size: var(--t-xl); line-height: 1.05; text-wrap: balance; }
 .epithet { margin-top: calc(var(--s-1) * -1); font-family: var(--name); font-size: var(--t-lg); color: var(--accent); line-height: 1.2; }
 .tagline { margin: 0; font-size: var(--t-sm); color: var(--muted); line-height: 1.45; max-width: 36ch; text-wrap: balance; }
@@ -670,7 +671,7 @@ function renderResults() {
   const term = q.value.trim().toLowerCase();
   // "1483", "476", "44 bc", "ad 14"
   const ym = /^(?:ad\s*)?(\d{1,4})(\s*bc)?$/.exec(term);
-  const yr = ym && (ym[2] || ym[1].length >= 3 || /^ad/.test(term)) ? (ym[2] ? -Number(ym[1]) : Number(ym[1])) : null;
+  const yr = ym ? (ym[2] ? -Number(ym[1]) : Number(ym[1])) : null;
   const hits = reigns.map((g, i) => i).filter(i => {
     if (!term) return true;
     if (yr !== null) { const g = reigns[i]; return year(g.start) <= yr && yr <= (g.end ? year(g.end) : 9999); }
@@ -711,6 +712,10 @@ function loadCountry(id, reignId) {
   // Optional arrays may be omitted in the JSON (the schema defaults them); normalise once here.
   reigns = DATA.reigns.map(g => ({ contestedWith: [], claims: [], ...g }));
   N = reigns.length;
+  // Start the timeline zoomed in enough that labels sit near their bars (Rome's third century is crowded).
+  const yearsSpan = asYears(reigns[N - 1].end ?? TODAY) - asYears(reigns[0].start);
+  const fit = ZOOMS.findIndex(ppy => yearsSpan * ppy >= N * 56);
+  zoom = fit < 0 ? ZOOMS.length - 1 : Math.max(1, fit);
   haystack = reigns.map(g => [reignName(g), ...g.rulers.map(r => `${rulers[r].name} ${rulers[r].epithet ?? ""}`), ...reignHouses(g).map(h => h.name), g.tagline].join(" ").toLowerCase());
 
   anim?.stop();
