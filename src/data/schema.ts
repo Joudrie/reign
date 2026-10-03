@@ -19,9 +19,13 @@ import { z } from "zod";
 
 const slug = z.string().regex(/^[a-z0-9]+(-[a-z0-9]+)*$/, "must be a lowercase-kebab id");
 
-/** ISO date, possibly truncated to the known precision ("1068", "1100-08", "1100-08-05"). */
+/**
+ * ISO date, possibly truncated to the known precision ("1068", "1100-08", "1100-08-05").
+ * BC years are negative and counted as historians count them (no year zero):
+ * "-0044-03-15" is 15 March 44 BC.
+ */
 export const HistoricDate = z.object({
-  date: z.string().regex(/^\d{4}(-\d{2}(-\d{2})?)?$/, "YYYY, YYYY-MM or YYYY-MM-DD"),
+  date: z.string().regex(/^-?\d{4}(-\d{2}(-\d{2})?)?$/, "[-]YYYY, [-]YYYY-MM or [-]YYYY-MM-DD"),
   /** Set when the source itself is approximate ("c. 1028"). */
   circa: z.boolean().optional(),
   /**

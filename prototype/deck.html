@@ -208,15 +208,15 @@ details a { color: inherit; }
 /* timeline */
 .legend { display: flex; flex-wrap: wrap; gap: var(--s0) var(--s1); margin-bottom: var(--s2); font-size: var(--t-xs); color: var(--muted); }
 .legend span { display: inline-flex; align-items: center; gap: var(--s-1); }
-.axis { position: relative; margin-left: 44px; max-width: 560px; }
-.tick { position: absolute; left: -44px; width: 36px; text-align: right; font-size: var(--t-xs); color: var(--muted); transform: translateY(-50%); font-variant-numeric: tabular-nums; }
+.axis { position: relative; margin-left: 48px; max-width: 560px; }
+.tick { position: absolute; left: -48px; width: 42px; white-space: nowrap; text-align: right; font-size: var(--t-xs); color: var(--muted); transform: translateY(-50%); font-variant-numeric: tabular-nums; }
 .gridline { position: absolute; left: 0; right: 0; border-top: 1px solid var(--rule); }
 .bar { position: absolute; width: 12px; border-radius: 3px; cursor: pointer; border: 0; padding: 0; }
 .bar.half { width: 5px; }
 .leader { position: absolute; height: 0; border-top: 1px solid var(--edge); }
 .leader-v { position: absolute; width: 0; border-left: 1px solid var(--edge); }
 .label {
-  position: absolute; left: 40px; right: 0;
+  position: absolute; left: var(--label-x, 40px); right: 0;
   background: none; border: 0; padding: 0; text-align: left; cursor: pointer;
   display: grid; line-height: 1.25;
 }
@@ -328,6 +328,7 @@ const CATALOG = [
   { id: "portugal", name: "Portugal" },
   { id: "japan", name: "Japan", short: "Japan" },
   { id: "ottoman", name: "Ottoman Empire", short: "Ottoman Empire" },
+  { id: "rome", name: "Rome", short: "Rome" },
 ];
 const FLAGS = {
   england: `<svg class="flag" viewBox="0 0 30 20" preserveAspectRatio="none"><rect width="30" height="20" fill="#fff"/><rect x="12.5" width="5" height="20" fill="#c8102e"/><rect y="7.5" width="30" height="5" fill="#c8102e"/></svg>`,
@@ -336,6 +337,7 @@ const FLAGS = {
   russia: `<svg class="flag" viewBox="0 0 30 20" preserveAspectRatio="none"><rect width="30" height="20" fill="#fff"/><rect y="6.67" width="30" height="6.67" fill="#0039a6"/><rect y="13.33" width="30" height="6.67" fill="#d52b1e"/></svg>`,
   portugal: `<svg class="flag" viewBox="0 0 30 20" preserveAspectRatio="none"><rect width="30" height="20" fill="#da291c"/><rect width="12" height="20" fill="#046a38"/></svg>`,
   ottoman: `<svg class="flag" viewBox="0 0 30 20" preserveAspectRatio="none"><rect width="30" height="20" fill="#e30a17"/><circle cx="12" cy="10" r="5" fill="#fff"/><circle cx="13.3" cy="10" r="4" fill="#e30a17"/><path d="M17.6 10l3.7-1.2-2.3 3.1v-3.8l2.3 3.1z" fill="#fff"/></svg>`,
+  rome: `<svg class="flag" viewBox="0 0 30 20" preserveAspectRatio="none"><rect width="30" height="20" fill="#7b1c1c"/><rect x="1.5" y="1.5" width="27" height="17" fill="none" stroke="#d4a017" stroke-width="1"/><text x="15" y="13.4" text-anchor="middle" font-family="Georgia,serif" font-weight="700" font-size="7.6" letter-spacing=".3" fill="#d4a017">SPQR</text></svg>`,
   japan: `<svg class="flag" viewBox="0 0 30 20" preserveAspectRatio="none"><rect width="30" height="20" fill="#fff"/><circle cx="15" cy="10" r="6" fill="#bc002d"/></svg>`,
 };
 
@@ -344,20 +346,34 @@ const MONTHS = ["Jan","Feb","Mar","Apr","May","Jun","Jul","Aug","Sep","Oct","Nov
 const TODAY = (() => { const d = new Date(); return { date: d.toISOString().slice(0, 10) }; })();
 
 const esc = s => String(s).replace(/[&<>"']/g, c => ({ "&": "&amp;", "<": "&lt;", ">": "&gt;", '"': "&quot;", "'": "&#39;" })[c]);
-const parts = d => d.date.split("-").map(Number);
+/* Dates are "[-]YYYY[-MM[-DD]]"; BC years are negative with no year zero ("-0044-03-15" is 15 March 44 BC). */
+const parts = d => { const [, sign, y, m, day] = /^(-?)(\d+)(?:-(\d+))?(?:-(\d+))?$/.exec(d.date); return [(sign ? -1 : 1) * Number(y), m && Number(m), day && Number(day)]; };
 const year = d => parts(d)[0];
-const asYears = d => { const [y, m = 1, day = 1] = parts(d); return y + (m - 1) / 12 + (day - 1) / 365; };
+/** Astronomical year (1 BC = 0), so arithmetic across the BC/AD line works. */
+const astro = y => (y < 0 ? y + 1 : y);
+const fromAstro = t => (t <= 0 ? t - 1 : t);
+const showYear = y => (y < 0 ? `${-y} BC` : y <= 500 ? `AD ${y}` : `${y}`);
+const asYears = d => { const [y, m = 1, day = 1] = parts(d); return astro(y) + (m - 1) / 12 + (day - 1) / 365; };
+const utc = (y, m, d) => { const t = new Date(0); t.setUTCFullYear(astro(y), m - 1, d); return t.getTime(); }; // Date.UTC maps 0–99 to 1900s
 const length = (a, b) => {
   const [y1, m1 = 1, d1 = 1] = parts(a), [y2, m2 = 1, d2 = 1] = parts(b);
-  const months = (y2 - y1) * 12 + (m2 - m1) - (d2 < d1 ? 1 : 0);
+  const months = (astro(y2) - astro(y1)) * 12 + (m2 - m1) - (d2 < d1 ? 1 : 0);
   if (months < 1) {
-    const days = Math.round((Date.UTC(y2, m2 - 1, d2) - Date.UTC(y1, m1 - 1, d1)) / 864e5);
-    return `${days} days`;
+    const days = Math.round((utc(y2, m2, d2) - utc(y1, m1, d1)) / 864e5);
+    return `${days} day${days === 1 ? "" : "s"}`;
   }
   const y = Math.floor(months / 12), mo = months % 12;
   return [y && `${y} yr${y > 1 ? "s" : ""}`, mo && `${mo} mo`].filter(Boolean).join(" ");
 };
-const span = g => !g.end ? `${year(g.start)}–now` : year(g.start) === year(g.end) ? `${year(g.start)}` : `${year(g.start)}–${year(g.end)}`;
+const span = g => {
+  const a = year(g.start), b = g.end && year(g.end);
+  if (!g.end) return `${showYear(a)}–now`;
+  if (a === b) return showYear(a);
+  // "49–44 BC", "27 BC–AD 14", "AD 14–37"
+  if (a < 0 && b < 0) return `${-a}–${-b} BC`;
+  if (a > 0 && b <= 500) return `AD ${a}–${b}`;
+  return `${showYear(a)}–${showYear(b)}`;
+};
 const reignName = g => g.title ?? rulers[g.rulers[0]].name;
 const reignHouses = g => {
   const ids = g.rulers.length ? g.rulers.map(id => rulers[id].house) : [g.house];
@@ -576,18 +592,30 @@ function drawTimeline() {
   const ppy = ZOOMS[zoom];
   const end = g => g.end ?? TODAY;
   const t0 = Math.floor(asYears(reigns[0].start) / 50) * 50;
-  const t1 = Math.ceil(asYears(TODAY) / 10) * 10;
+  // A finished story (Rome, France) stops at its last reign, not today.
+  const t1 = Math.ceil(asYears(end(reigns[N - 1])) / 10) * 10;
   const y = t => (t - t0) * ppy;
   const LABEL_H = 40;
 
   const present = [...new Set(reigns.flatMap(g => reignHouses(g).map(h => h.id)))].map(id => houses[id]);
   let html = `<div class="legend">${present.map(h => `<span><i class="swatch" style="background:${h.color}"></i>${esc(h.name)}</span>`).join("")}</div>`;
 
+  // Lanes: each reign takes the leftmost lane that is free by its start, so a civil war
+  // splits into as many parallel lines as it has rivals (Rome in 69 has three at once).
+  const laneEnds = [], lanes = reigns.map(g => {
+    const s = asYears(g.start);
+    let k = laneEnds.findIndex(e => e <= s + 1 / 365);
+    if (k < 0) k = laneEnds.length;
+    laneEnds[k] = asYears(end(g));
+    return k;
+  });
+  const maxLane = Math.max(...lanes), labelX = 40 + maxLane * 18;
+
   let labelBottom = -Infinity, labels = "", bars = "", leaders = "";
   reigns.forEach((g, i) => {
     const a = y(asYears(g.start)), b = y(asYears(end(g)));
     const h = Math.max(b - a - 1, 2);
-    const lane = g.contestedWith.some(id => reigns.findIndex(r => r.id === id) < i) ? 1 : 0;
+    const lane = lanes[i];
     const left = lane * 18;
     const hs = g.rulers.map(id => houses[rulers[id].house]);
     if (hs.length > 1) {
@@ -600,17 +628,23 @@ function drawTimeline() {
     labelBottom = top + LABEL_H;
     if (top - a > 2) {
       // Label pushed down by a crowded stretch (e.g. 1483): an elbow line ties it back to its bar.
-      leaders += `<span class="leader" style="top:${a + 1}px;left:${left + 14}px;width:${20 - left}px"></span>`;
-      leaders += `<span class="leader-v" style="left:34px;top:${a + 1}px;height:${top - a + 8}px"></span>`;
+      leaders += `<span class="leader" style="top:${a + 1}px;left:${left + 14}px;width:${labelX - 20 - left}px"></span>`;
+      leaders += `<span class="leader-v" style="left:${labelX - 6}px;top:${a + 1}px;height:${top - a + 8}px"></span>`;
     }
     labels += `<button class="label" data-jump="${i}" aria-current="${i === index}" style="top:${top}px">
       <strong>${esc(reignName(g))}</strong><span>${span(g)} · ${length(g.start, end(g))}</span></button>`;
   });
   const height = Math.max(y(t1), labelBottom) + LABEL_H;
   const every = ppy >= 16 ? 5 : ppy >= 8 ? 10 : ppy >= 4 ? 25 : 50;
+  // Ticks fall on round historical years (50 BC, AD 1, AD 50): there is no year 0.
   let ticks = "";
-  for (let t = t0; t <= t1; t += every) ticks += `<div class="tick" style="top:${y(t)}px">${t}</div><div class="gridline" style="top:${y(t)}px"></div>`;
-  html += `<div class="axis" style="height:${height}px">${ticks}${leaders}${bars}${labels}</div>`;
+  const first = Math.ceil(fromAstro(t0) / every) * every;
+  for (let hy = first; astro(hy) <= t1; hy += every) {
+    const yr = hy === 0 ? 1 : hy, top = y(astro(yr));
+    if (top < 0) continue;
+    ticks += `<div class="tick" style="top:${top}px">${showYear(yr)}</div><div class="gridline" style="top:${top}px"></div>`;
+  }
+  html += `<div class="axis" style="--label-x:${labelX}px;height:${height}px">${ticks}${leaders}${bars}${labels}</div>`;
   document.getElementById("timelineBody").innerHTML = html;
   document.getElementById("zoomLevel").textContent = `${ppy}px / year`;
   document.getElementById("zoomOut").disabled = zoom === 0;
@@ -634,14 +668,16 @@ const q = document.getElementById("q");
 let haystack = [];
 function renderResults() {
   const term = q.value.trim().toLowerCase();
-  const yr = /^\d{3,4}$/.test(term) ? Number(term) : null;
+  // "1483", "476", "44 bc", "ad 14"
+  const ym = /^(?:ad\s*)?(\d{1,4})(\s*bc)?$/.exec(term);
+  const yr = ym && (ym[2] || ym[1].length >= 3 || /^ad/.test(term)) ? (ym[2] ? -Number(ym[1]) : Number(ym[1])) : null;
   const hits = reigns.map((g, i) => i).filter(i => {
     if (!term) return true;
     if (yr !== null) { const g = reigns[i]; return year(g.start) <= yr && yr <= (g.end ? year(g.end) : 9999); }
     return term.split(/\s+/).every(w => haystack[i].includes(w));
   });
   document.getElementById("resultCount").textContent = term
-    ? `${hits.length} ${hits.length === 1 ? "ruler" : "rulers"}${yr !== null ? ` on the throne in ${yr}` : ""}`
+    ? `${hits.length} ${hits.length === 1 ? "ruler" : "rulers"}${yr !== null ? ` on the throne in ${showYear(yr)}` : ""}`
     : `All ${N} reigns, in order`;
   document.getElementById("results").innerHTML = hits.length
     ? hits.map(i => { const g = reigns[i]; return `<li><button data-jump="${i}">

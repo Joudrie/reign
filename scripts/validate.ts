@@ -25,31 +25,48 @@ const warn = (file: string, msg: string) => {
   console.warn(`  ! ${file}: ${msg}`);
 };
 
-/** Sortable key; truncated dates sort to the start of their year/month. */
+/** Split "[-]YYYY[-MM[-DD]]"; BC years come back negative (44 BC -> -44). */
+const parts = (d: HistoricDate) => {
+  const [, sign, y, m, day] = /^(-?)(\d{4})(?:-(\d{2}))?(?:-(\d{2}))?$/.exec(d.date)!;
+  return { y: (sign ? -1 : 1) * Number(y), m: m ? Number(m) : undefined, day: day ? Number(day) : undefined };
+};
+
+/** Astronomical year: there is no year zero, so 1 BC is 0 and 44 BC is -43. */
+const astro = (y: number) => (y < 0 ? y + 1 : y);
+
+/** Sortable number; truncated dates sort to the start of their year/month. */
 const key = (d: HistoricDate) => {
-  const [y, m = "01", day = "01"] = d.date.split("-");
-  return `${y}-${m}-${day}`;
+  const { y, m = 1, day = 1 } = parts(d);
+  return astro(y) * 10000 + m * 100 + day;
 };
 
 /** Range check only — Feb 29 is allowed every year because Julian leap rules differ. */
 const plausible = (d: HistoricDate) => {
-  const [, m, day] = d.date.split("-").map(Number);
+  const { y, m, day } = parts(d);
+  if (y === 0) return false;
   if (m !== undefined && (m < 1 || m > 12)) return false;
-  if (day !== undefined) {
+  if (m !== undefined && day !== undefined) {
     const max = [31, 29, 31, 30, 31, 30, 31, 31, 30, 31, 30, 31][m - 1];
     if (day < 1 || day > max) return false;
   }
   return true;
 };
 
-/** Latest day a truncated date could mean ("1483" -> 1483-12-31): used for deaths known only to the year. */
+/** Latest day a truncated date could mean ("1483" -> 1483-12-30): used for deaths known only to the year. */
 const keyEnd = (d: HistoricDate) => {
-  const [y, m = "12", day] = d.date.split("-");
-  return `${y}-${m}-${day ?? (m === "02" ? "28" : "30")}`;
+  const { y, m = 12, day } = parts(d);
+  return astro(y) * 10000 + m * 100 + (day ?? (m === 2 ? 28 : 30));
 };
 
-const years = (a: HistoricDate, b: HistoricDate) =>
-  (Date.parse(key(b)) - Date.parse(key(a))) / (365.2425 * 864e5);
+/** Proleptic UTC ms (setUTCFullYear, because Date.UTC maps years 0–99 to 1900s). */
+const ms = (d: HistoricDate) => {
+  const { y, m = 1, day = 1 } = parts(d);
+  const t = new Date(0);
+  t.setUTCFullYear(astro(y), m - 1, day);
+  return t.getTime();
+};
+
+const years = (a: HistoricDate, b: HistoricDate) => (ms(b) - ms(a)) / (365.2425 * 864e5);
 
 for (const name of readdirSync(dataDir).filter((f) => f.endsWith(".json"))) {
   console.log(`\n${name}`);
@@ -91,6 +108,7 @@ for (const name of readdirSync(dataDir).filter((f) => f.endsWith(".json"))) {
     if (g.end && key(g.end) < key(g.start)) err(where, "ends before it starts");
     if (!g.end && i !== c.reigns.length - 1) err(where, "only the last reign may be open-ended");
 
+    const dead: string[] = [];
     for (const id of g.rulers) {
       const r = rulers.get(id);
       if (!r) {
@@ -99,9 +117,11 @@ for (const name of readdirSync(dataDir).filter((f) => f.endsWith(".json"))) {
       }
       if (key(g.start) < key(r.born)) err(where, `${r.name} reigns before being born`);
       // An interregnum outlives its leaders (Oliver Cromwell died in 1658; the Commonwealth ran to 1660).
-      if (g.kind !== "interregnum" && r.died && g.end && key(g.end) > keyEnd(r.died))
-        err(where, `${r.name} reigns after dying`);
+      if (g.kind !== "interregnum" && r.died && g.end && key(g.end) > keyEnd(r.died)) dead.push(r.name);
     }
+    // A co-reign runs until the last partner goes (Constantine's sons died one by one).
+    if (dead.length && (g.rulers.length === 1 || dead.length === g.rulers.length))
+      err(where, `${dead.join(" & ")} reign${dead.length > 1 ? "" : "s"} after dying`);
 
     for (const id of g.contestedWith) {
       const other = reigns.get(id);
@@ -112,7 +132,9 @@ for (const name of readdirSync(dataDir).filter((f) => f.endsWith(".json"))) {
     const prev = c.reigns[i - 1];
     if (prev) {
       if (key(g.start) < key(prev.start)) err(where, `out of order: starts before "${prev.id}"`);
-      if (prev.end && key(g.start) < key(prev.end) && !g.contestedWith.includes(prev.id))
+      // A claimant's card sits beside the reign it challenged; overlap is the point.
+      const claim = g.kind === "claimant" || prev.kind === "claimant";
+      if (prev.end && key(g.start) < key(prev.end) && !g.contestedWith.includes(prev.id) && !claim)
         err(where, `overlaps "${prev.id}" — mark contestedWith or fix dates`);
       // Gap since the latest end so far (after a contested stretch, that's the longer reign, not the claimant).
       const latest = c.reigns.slice(0, i).reduce((m, r) => (r.end && (!m || key(r.end) > key(m)) ? r.end : m), undefined as HistoricDate | undefined);
