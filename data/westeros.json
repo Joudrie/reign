@@ -1,0 +1,2089 @@
+{
+  "id": "westeros",
+  "name": "Westeros",
+  "fictional": true,
+  "era": "AC",
+  "present": {
+    "date": "0300"
+  },
+  "blurb": "The Iron Throne, from Aegon's Conquest to 300 AC",
+  "dateConvention": "Years are counted After Conquest (AC) from Aegon I's coronation, as the maesters reckon them; earlier years are Before Conquest (BC). Most are known only to the year. Follows George R. R. Martin's books, not the TV shows.",
+  "houses": [
+    {
+      "id": "targaryen",
+      "name": "Targaryen",
+      "color": "#8f1d21"
+    },
+    {
+      "id": "blackfyre",
+      "name": "Blackfyre",
+      "color": "#3a3633"
+    },
+    {
+      "id": "baratheon",
+      "name": "Baratheon",
+      "color": "#b8860b"
+    },
+    {
+      "id": "stark",
+      "name": "Stark",
+      "color": "#6b7a8a"
+    },
+    {
+      "id": "greyjoy",
+      "name": "Greyjoy",
+      "color": "#4a6a5e"
+    }
+  ],
+  "rulers": [
+    {
+      "id": "aegon-i",
+      "name": "Aegon I",
+      "epithet": "the Conqueror",
+      "house": "targaryen",
+      "died": {
+        "date": "0037",
+        "note": "Dragonstone"
+      },
+      "causeOfDeath": "Stroke"
+    },
+    {
+      "id": "aenys-i",
+      "name": "Aenys I",
+      "house": "targaryen",
+      "born": {
+        "date": "0007"
+      },
+      "died": {
+        "date": "0042",
+        "note": "Dragonstone"
+      },
+      "causeOfDeath": "Sudden illness amid the Faith revolt"
+    },
+    {
+      "id": "maegor-i",
+      "name": "Maegor I",
+      "epithet": "the Cruel",
+      "house": "targaryen",
+      "born": {
+        "date": "0012"
+      },
+      "died": {
+        "date": "0048",
+        "note": "On the Iron Throne, the Red Keep, King's Landing"
+      },
+      "causeOfDeath": "Found dead on the Iron Throne"
+    },
+    {
+      "id": "jaehaerys-i",
+      "name": "Jaehaerys I",
+      "epithet": "the Conciliator",
+      "house": "targaryen",
+      "born": {
+        "date": "0034"
+      },
+      "died": {
+        "date": "0103",
+        "note": "The Red Keep, King's Landing"
+      },
+      "causeOfDeath": "Old age"
+    },
+    {
+      "id": "viserys-i",
+      "name": "Viserys I",
+      "house": "targaryen",
+      "born": {
+        "date": "0077"
+      },
+      "died": {
+        "date": "0129",
+        "note": "The Red Keep, King's Landing"
+      },
+      "causeOfDeath": "Died in his sleep after long illness"
+    },
+    {
+      "id": "aegon-ii",
+      "name": "Aegon II",
+      "house": "targaryen",
+      "born": {
+        "date": "0107"
+      },
+      "died": {
+        "date": "0131",
+        "note": "King's Landing"
+      },
+      "causeOfDeath": "Poisoned wine"
+    },
+    {
+      "id": "rhaenyra",
+      "name": "Rhaenyra Targaryen",
+      "epithet": "the Realm's Delight",
+      "house": "targaryen",
+      "born": {
+        "date": "0097"
+      },
+      "died": {
+        "date": "0130",
+        "note": "Dragonstone"
+      },
+      "causeOfDeath": "Fed to the dragon Sunfyre"
+    },
+    {
+      "id": "aegon-iii",
+      "name": "Aegon III",
+      "epithet": "Dragonbane",
+      "house": "targaryen",
+      "born": {
+        "date": "0120"
+      },
+      "died": {
+        "date": "0157",
+        "note": "King's Landing"
+      },
+      "causeOfDeath": "Consumption"
+    },
+    {
+      "id": "daeron-i",
+      "name": "Daeron I",
+      "epithet": "the Young Dragon",
+      "house": "targaryen",
+      "born": {
+        "date": "0143"
+      },
+      "died": {
+        "date": "0161",
+        "note": "Dorne"
+      },
+      "causeOfDeath": "Killed by the Dornish at a peace parley"
+    },
+    {
+      "id": "baelor-i",
+      "name": "Baelor I",
+      "epithet": "the Blessed",
+      "house": "targaryen",
+      "born": {
+        "date": "0144"
+      },
+      "died": {
+        "date": "0171",
+        "note": "King's Landing"
+      },
+      "causeOfDeath": "Fasted himself to death"
+    },
+    {
+      "id": "viserys-ii",
+      "name": "Viserys II",
+      "house": "targaryen",
+      "born": {
+        "date": "0122"
+      },
+      "died": {
+        "date": "0172",
+        "note": "King's Landing"
+      },
+      "causeOfDeath": "Sudden illness"
+    },
+    {
+      "id": "aegon-iv",
+      "name": "Aegon IV",
+      "epithet": "the Unworthy",
+      "house": "targaryen",
+      "born": {
+        "date": "0135"
+      },
+      "died": {
+        "date": "0184",
+        "note": "King's Landing"
+      },
+      "causeOfDeath": "Died abed, hugely obese and rotting"
+    },
+    {
+      "id": "daeron-ii",
+      "name": "Daeron II",
+      "epithet": "the Good",
+      "house": "targaryen",
+      "born": {
+        "date": "0153"
+      },
+      "died": {
+        "date": "0209"
+      },
+      "causeOfDeath": "The Great Spring Sickness"
+    },
+    {
+      "id": "daemon-blackfyre",
+      "name": "Daemon Blackfyre",
+      "house": "blackfyre",
+      "born": {
+        "date": "0170"
+      },
+      "died": {
+        "date": "0196",
+        "note": "Redgrass Field"
+      },
+      "causeOfDeath": "Shot with arrows by Bloodraven's archers"
+    },
+    {
+      "id": "aerys-i",
+      "name": "Aerys I",
+      "house": "targaryen",
+      "died": {
+        "date": "0221"
+      }
+    },
+    {
+      "id": "maekar-i",
+      "name": "Maekar I",
+      "house": "targaryen",
+      "died": {
+        "date": "0233"
+      },
+      "causeOfDeath": "Killed besieging a rebel lord's castle"
+    },
+    {
+      "id": "aegon-v",
+      "name": "Aegon V",
+      "epithet": "the Unlikely",
+      "house": "targaryen",
+      "born": {
+        "date": "0200"
+      },
+      "died": {
+        "date": "0259",
+        "note": "Summerhall"
+      },
+      "causeOfDeath": "Died in the fire at Summerhall"
+    },
+    {
+      "id": "jaehaerys-ii",
+      "name": "Jaehaerys II",
+      "house": "targaryen",
+      "born": {
+        "date": "0225"
+      },
+      "died": {
+        "date": "0262"
+      },
+      "causeOfDeath": "Illness"
+    },
+    {
+      "id": "aerys-ii",
+      "name": "Aerys II",
+      "epithet": "the Mad King",
+      "house": "targaryen",
+      "born": {
+        "date": "0244"
+      },
+      "died": {
+        "date": "0283",
+        "note": "The throne room, Red Keep, King's Landing"
+      },
+      "causeOfDeath": "Killed by Ser Jaime Lannister of his own Kingsguard"
+    },
+    {
+      "id": "robert-i",
+      "name": "Robert I",
+      "house": "baratheon",
+      "born": {
+        "date": "0262",
+        "circa": true
+      },
+      "died": {
+        "date": "0298",
+        "note": "The Red Keep, King's Landing"
+      },
+      "causeOfDeath": "Gored by a boar while hunting"
+    },
+    {
+      "id": "joffrey-i",
+      "name": "Joffrey I",
+      "house": "baratheon",
+      "born": {
+        "date": "0286",
+        "circa": true
+      },
+      "died": {
+        "date": "0300",
+        "note": "His wedding feast, King's Landing"
+      },
+      "causeOfDeath": "Poisoned at his wedding feast"
+    },
+    {
+      "id": "robb-stark",
+      "name": "Robb Stark",
+      "epithet": "the Young Wolf",
+      "house": "stark",
+      "born": {
+        "date": "0283",
+        "circa": true
+      },
+      "died": {
+        "date": "0299",
+        "note": "The Twins"
+      },
+      "causeOfDeath": "Murdered at the Red Wedding"
+    },
+    {
+      "id": "daenerys",
+      "name": "Daenerys Targaryen",
+      "epithet": "Stormborn",
+      "house": "targaryen",
+      "born": {
+        "date": "0284",
+        "note": "Dragonstone, during a great storm"
+      }
+    },
+    {
+      "id": "renly",
+      "name": "Renly Baratheon",
+      "house": "baratheon",
+      "born": {
+        "date": "0277",
+        "circa": true
+      },
+      "died": {
+        "date": "0299",
+        "note": "His camp before Storm's End"
+      },
+      "causeOfDeath": "Throat cut by a shadow in his tent"
+    },
+    {
+      "id": "stannis",
+      "name": "Stannis Baratheon",
+      "house": "baratheon",
+      "born": {
+        "date": "0264",
+        "circa": true
+      }
+    },
+    {
+      "id": "balon",
+      "name": "Balon Greyjoy",
+      "house": "greyjoy",
+      "died": {
+        "date": "0299",
+        "note": "Pyke, Iron Islands"
+      },
+      "causeOfDeath": "Fell from a rope bridge in a storm"
+    },
+    {
+      "id": "tommen-i",
+      "name": "Tommen I",
+      "house": "baratheon",
+      "born": {
+        "date": "0291",
+        "circa": true
+      }
+    },
+    {
+      "id": "young-griff",
+      "name": "Aegon Targaryen",
+      "epithet": "Young Griff",
+      "house": "targaryen",
+      "born": {
+        "date": "0281",
+        "circa": true,
+        "note": "If he is Rhaegar's son Aegon, born in 281 AC"
+      }
+    }
+  ],
+  "reigns": [
+    {
+      "id": "aegon-i",
+      "kind": "monarch",
+      "rulers": [
+        "aegon-i"
+      ],
+      "tagline": "Three dragons, seven kingdoms, one chair of swords",
+      "start": {
+        "date": "0001"
+      },
+      "end": {
+        "date": "0037"
+      },
+      "contestedWith": [],
+      "relationToPredecessor": "Lord of Dragonstone; founded the line",
+      "ageAtAccession": "Unknown",
+      "cameToPower": "Conquest by dragonfire",
+      "reignEnded": "Stroke on Dragonstone",
+      "previously": "Valyria is ash. Seven kings squabble. Aegon has three dragons.",
+      "paragraphs": [
+        "A century after the Doom of Valyria, the Targaryens were the last dragonlords left, sitting on the rock of Dragonstone. Aegon looked west at seven quarrelling kingdoms and decided to take them all. He brought his two sisters, who were also his wives: Visenya the warrior and Rhaenys the charmer. Each rode a dragon. His own was Balerion, the Black Dread.",
+        "Harren the Black thought his giant castle of Harrenhal was safe. Balerion burned him alive inside it. At the Field of Fire two kings brought a huge host against three dragons, and four thousand men died in the flames. Torrhen Stark saw that and knelt. Aegon was anointed at Oldtown, and the realm has counted its years from his Conquest ever since. His throne was forged from the swords of his beaten foes.",
+        "Only Dorne held out. Its war cost Rhaenys her life when her dragon Meraxes was shot down at Hellholt. Aegon ruled for decades after, with Visenya at his side. He left two sons from two mothers: gentle Aenys, son of Rhaenys, and fierce Maegor, son of Visenya."
+      ],
+      "claims": [
+        {
+          "text": "Aegon's throne was made from a thousand swords of his foes, melted by Balerion.",
+          "status": "disputed",
+          "note": "Fire & Blood and The World of Ice & Fire both tell it this way, though both add that the number is a boast."
+        },
+        {
+          "text": "Aegon loved Rhaenys more than Visenya.",
+          "status": "disputed",
+          "note": "Gyldayn in Fire & Blood reports the court gossip but admits no one could say what passed between the three."
+        },
+        {
+          "text": "Rhaenys may not have died at Hellholt at all.",
+          "status": "legend",
+          "note": "Fire & Blood records Dornish tales that she survived for a time in captivity. The maesters give them no weight."
+        }
+      ],
+      "hook": "The Conqueror is dead and his heir is Aenys, a soft-spoken man who faints at the sight of trouble. Trouble arrives almost at once.",
+      "images": [],
+      "sources": [
+        {
+          "title": "Fire & Blood",
+          "author": "George R. R. Martin",
+          "note": "Aegon's Conquest; Reign of the Dragon; Three Heads Had the Dragon"
+        },
+        {
+          "title": "The World of Ice & Fire",
+          "author": "George R. R. Martin, Elio M. García Jr. and Linda Antonsson",
+          "note": "The Reign of the Dragons: The Conquest; Aegon I"
+        }
+      ],
+      "review": {
+        "status": "draft",
+        "notes": "Drafted from the listed sources; needs a human fact-check."
+      }
+    },
+    {
+      "id": "aenys-i",
+      "kind": "monarch",
+      "rulers": [
+        "aenys-i"
+      ],
+      "tagline": "The gentle king who married his children to each other",
+      "start": {
+        "date": "0037"
+      },
+      "end": {
+        "date": "0042"
+      },
+      "contestedWith": [],
+      "relationToPredecessor": "Elder son of Aegon I and Rhaenys",
+      "ageAtAccession": "About 30",
+      "cameToPower": "Heir of his father",
+      "reignEnded": "Died on Dragonstone",
+      "previously": "Aegon the Conqueror dies of a stroke on Dragonstone in 37 AC.",
+      "paragraphs": [
+        "Aenys was kind, handsome and sickly, and the lords smelled weakness at once. Rebels rose in the riverlands, the Vale and the Dornish Marches. Aenys dithered. His stepmother Visenya and half-brother Maegor did much of the fighting, and his Hand cleaned up after him.",
+        "Then he married his daughter Rhaena to his son and heir Aegon, brother to sister in the old Valyrian way. The Faith had swallowed that from the Conqueror. It would not swallow it again. The High Septon damned Aenys as an Abomination, and the Faith's armed orders, the Warrior's Sons and the Poor Fellows, rose across the realm.",
+        "Aenys fled to Dragonstone and fell ill. Visenya brewed him a potion, and within days he was dead. Visenya flew straight to Maegor, in exile across the sea, and handed him a crown."
+      ],
+      "claims": [
+        {
+          "text": "Visenya poisoned Aenys to make way for Maegor.",
+          "status": "disputed",
+          "note": "Fire & Blood notes she gave him a potion before he died, and some chroniclers suspect her, but nothing was ever proved."
+        },
+        {
+          "text": "The High Septon called Aenys the King Abomination.",
+          "status": "confirmed",
+          "note": "Fire & Blood's account of the Faith Militant uprising agrees on the denunciation."
+        }
+      ],
+      "hook": "Visenya sets the crown on Maegor's head herself. Aenys has sons, but Maegor has a dragon called Balerion and no patience at all.",
+      "images": [],
+      "sources": [
+        {
+          "title": "Fire & Blood",
+          "author": "George R. R. Martin",
+          "note": "The Sons of the Dragon"
+        },
+        {
+          "title": "The Sons of the Dragon",
+          "author": "George R. R. Martin",
+          "note": "Aenys's reign and the Faith uprising"
+        },
+        {
+          "title": "The World of Ice & Fire",
+          "author": "George R. R. Martin, Elio M. García Jr. and Linda Antonsson",
+          "note": "The Reign of the Dragons: Aenys I"
+        }
+      ],
+      "review": {
+        "status": "draft",
+        "notes": "Drafted from the listed sources; needs a human fact-check."
+      }
+    },
+    {
+      "id": "maegor-i",
+      "kind": "monarch",
+      "rulers": [
+        "maegor-i"
+      ],
+      "tagline": "Six wives, one Red Keep, and a throne that bit back",
+      "start": {
+        "date": "0042"
+      },
+      "end": {
+        "date": "0048"
+      },
+      "contestedWith": [],
+      "relationToPredecessor": "Half-brother of Aenys I",
+      "ageAtAccession": "About 30",
+      "cameToPower": "Seized it over his nephews",
+      "reignEnded": "Found dead on the Iron Throne",
+      "previously": "Aenys I dies on Dragonstone in 42 AC as the Faith rises against him.",
+      "paragraphs": [
+        "Maegor took the crown ahead of Aenys's sons. When his nephew Aegon came for it, Maegor and Balerion met him beside the Gods Eye and killed him and his dragon. He then crushed the Faith Militant. He won a trial by seven against the Warrior's Sons and hunted the Poor Fellows across the realm.",
+        "He finished the Red Keep, then had the builders killed so its secrets died with them. He collected wives: six in all, including three Black Brides wed on one day, one of them Aenys's widowed daughter Rhaena. None gave him a living heir.",
+        "By 48 AC the young prince Jaehaerys had escaped him and been proclaimed at Storm's End. Lords deserted Maegor one by one. One morning he was found dead on the Iron Throne, cut open by its blades."
+      ],
+      "claims": [
+        {
+          "text": "Maegor killed himself on the Iron Throne.",
+          "status": "disputed",
+          "note": "Fire & Blood gives suicide, murder and the throne's own judgement as rival explanations. No one was ever named."
+        },
+        {
+          "text": "The Iron Throne itself rejected and killed him.",
+          "status": "legend",
+          "note": "Popular tale reported in Fire & Blood. Gyldayn treats it as a story, not a cause of death."
+        },
+        {
+          "text": "He had the Red Keep's builders put to death.",
+          "status": "confirmed",
+          "note": "Fire & Blood and The World of Ice & Fire both record the killings."
+        }
+      ],
+      "hook": "The Cruel is dead. His nephew Jaehaerys is fourteen, the realm is soaked in blood, and somebody has to make it love the dragons again.",
+      "images": [],
+      "sources": [
+        {
+          "title": "Fire & Blood",
+          "author": "George R. R. Martin",
+          "note": "The Sons of the Dragon"
+        },
+        {
+          "title": "The Sons of the Dragon",
+          "author": "George R. R. Martin",
+          "note": "Maegor's reign"
+        },
+        {
+          "title": "The World of Ice & Fire",
+          "author": "George R. R. Martin, Elio M. García Jr. and Linda Antonsson",
+          "note": "The Reign of the Dragons: Maegor I"
+        }
+      ],
+      "review": {
+        "status": "draft",
+        "notes": "Drafted from the listed sources; needs a human fact-check."
+      }
+    },
+    {
+      "id": "jaehaerys-i",
+      "kind": "monarch",
+      "rulers": [
+        "jaehaerys-i"
+      ],
+      "tagline": "Fifty-five years of peace, roads and too many funerals",
+      "start": {
+        "date": "0048"
+      },
+      "end": {
+        "date": "0103"
+      },
+      "contestedWith": [],
+      "relationToPredecessor": "Nephew of Maegor I; son of Aenys I",
+      "ageAtAccession": "14",
+      "cameToPower": "Proclaimed as Maegor's lords deserted",
+      "reignEnded": "Died of old age",
+      "previously": "Maegor the Cruel is found dead on the Iron Throne in 48 AC.",
+      "paragraphs": [
+        "Jaehaerys was fourteen when he took the throne, and he spent the next fifty-five years healing what Maegor broke. He made peace with the Faith, which gave up its arms in exchange for royal protection. He married his sister Alysanne. The realm called her Good Queen Alysanne, and she earned it.",
+        "Together they toured the kingdoms, heard petitions and built roads, including the Kingsroad. With Septon Barth as Hand, Jaehaerys gave the realm one set of laws. Alysanne flew to the Wall, and the Night's Watch got the New Gift.",
+        "But his children kept dying. His heirs Aemon and Baelon both died before him. To stop a war, the old king called a Great Council at Harrenhal in 101 AC. The lords chose Baelon's son Viserys over Aemon's line, which ran through a woman."
+      ],
+      "claims": [
+        {
+          "text": "The Great Council of 101 AC set the precedent that the throne passes to men first.",
+          "status": "confirmed",
+          "note": "Fire & Blood and The World of Ice & Fire both treat it as the binding precedent later cited against Rhaenyra."
+        },
+        {
+          "text": "Alysanne turned the Night's Watch's thanks into a lasting gift of land.",
+          "status": "confirmed",
+          "note": "The New Gift is recorded in Fire & Blood and mentioned in A Game of Thrones."
+        }
+      ],
+      "hook": "Viserys is a cheerful king with no sons. He names his daughter Rhaenyra heir, ignoring the Great Council's ruling. Then he takes a young second wife.",
+      "images": [],
+      "sources": [
+        {
+          "title": "Fire & Blood",
+          "author": "George R. R. Martin",
+          "note": "Prince into King; The Long Reign; Heirs of the Dragon"
+        },
+        {
+          "title": "The World of Ice & Fire",
+          "author": "George R. R. Martin, Elio M. García Jr. and Linda Antonsson",
+          "note": "The Reign of the Dragons: Jaehaerys I"
+        },
+        {
+          "title": "A Game of Thrones",
+          "author": "George R. R. Martin",
+          "note": "Jon chapters on the Wall and the Gift"
+        }
+      ],
+      "review": {
+        "status": "draft",
+        "notes": "Drafted from the listed sources; needs a human fact-check."
+      }
+    },
+    {
+      "id": "viserys-i",
+      "kind": "monarch",
+      "rulers": [
+        "viserys-i"
+      ],
+      "tagline": "A happy king who planted a civil war in his own family",
+      "start": {
+        "date": "0103"
+      },
+      "end": {
+        "date": "0129"
+      },
+      "contestedWith": [],
+      "relationToPredecessor": "Grandson of Jaehaerys I",
+      "ageAtAccession": "About 26",
+      "cameToPower": "Chosen by the Great Council",
+      "reignEnded": "Died in his sleep",
+      "previously": "Old Jaehaerys dies in 103 AC after fifty-five years on the throne.",
+      "paragraphs": [
+        "Viserys loved feasts, tourneys and being liked. When his wife Aemma Arryn died in childbirth in 105 AC, he named their daughter Rhaenyra his heir and had the lords swear to her. Then he married Alicent Hightower, daughter of his Hand. She gave him sons, Aegon first.",
+        "The court split. At a tourney in 111 AC Alicent wore green and Rhaenyra wore Targaryen colours, so their factions became the greens and the blacks. Rhaenyra married Laenor Velaryon, and her three dark-haired sons looked nothing like him. People whispered about Ser Harwin Strong.",
+        "Viserys refused to choose. He kept Rhaenyra as heir and kept everyone at his table. He died in his sleep in 129 AC, and his greens moved before the blacks even knew."
+      ],
+      "claims": [
+        {
+          "text": "Rhaenyra's sons were fathered by Ser Harwin Strong, not Laenor.",
+          "status": "disputed",
+          "note": "Mushroom insists on it in Fire & Blood. Grand Maester Munkun is more cautious, and Viserys never accepted it."
+        },
+        {
+          "text": "On his deathbed Viserys named Aegon his heir.",
+          "status": "disputed",
+          "note": "Queen Alicent claimed so in Fire & Blood. Gyldayn notes no one else heard it, and it suited her perfectly."
+        }
+      ],
+      "hook": "The king is dead and the queen keeps it secret. Before Rhaenyra hears a word, her half-brother Aegon is being crowned in the Dragonpit.",
+      "images": [],
+      "sources": [
+        {
+          "title": "Fire & Blood",
+          "author": "George R. R. Martin",
+          "note": "Heirs of the Dragon; The Dying of the Dragons: The Blacks and the Greens"
+        },
+        {
+          "title": "The Rogue Prince",
+          "author": "George R. R. Martin",
+          "note": "Viserys's court and the rise of the factions"
+        },
+        {
+          "title": "The World of Ice & Fire",
+          "author": "George R. R. Martin, Elio M. García Jr. and Linda Antonsson",
+          "note": "The Reign of the Dragons: Viserys I"
+        }
+      ],
+      "review": {
+        "status": "draft",
+        "notes": "Drafted from the listed sources; needs a human fact-check."
+      }
+    },
+    {
+      "id": "aegon-ii",
+      "kind": "monarch",
+      "rulers": [
+        "aegon-ii"
+      ],
+      "tagline": "He won his sister's war and lost almost everything else",
+      "start": {
+        "date": "0129"
+      },
+      "end": {
+        "date": "0131"
+      },
+      "contestedWith": [
+        "rhaenyra"
+      ],
+      "relationToPredecessor": "Eldest son of Viserys I and Alicent",
+      "ageAtAccession": "About 22",
+      "cameToPower": "Crowned by the greens in secret haste",
+      "reignEnded": "Poisoned in his litter",
+      "previously": "Viserys I dies in his sleep in 129 AC with two heirs and no peace.",
+      "paragraphs": [
+        "Aegon was crowned in the Dragonpit, and his sister Rhaenyra was crowned on Dragonstone. The Dance of the Dragons had begun. His brother Aemond killed Rhaenyra's son Lucerys above Storm's End. In revenge, two hired killers murdered Aegon's own little son.",
+        "At Rook's Rest in 130 AC Aegon and his dragon Sunfyre were horribly burned. He hid broken while Rhaenyra took King's Landing. Then fortune turned. Her city rose against her, and Aegon slipped away to Dragonstone. When she arrived there, he had Sunfyre eat her as he watched.",
+        "It was a hollow win. Aegon was crippled, in pain and drinking milk of the poppy. His dragons were nearly all dead and the realm was in ruins. In 131 AC, with enemies closing on the city, he refused to yield. Someone put poison in his wine."
+      ],
+      "claims": [
+        {
+          "text": "Aegon II was poisoned by men around him who wanted the war over.",
+          "status": "confirmed",
+          "note": "Fire & Blood says poison was found and that his own court was behind it, though the chroniclers never pin it on one person."
+        },
+        {
+          "text": "Aemond killed Lucerys on purpose.",
+          "status": "disputed",
+          "note": "In Fire & Blood some say Aemond's dragon Vhagar acted in anger beyond his control. Others say Aemond meant every bit of it."
+        }
+      ],
+      "hook": "Rewind to 129 AC. On Dragonstone, a pregnant Rhaenyra hears she has been robbed. She puts on a crown of her own and calls for her dragons.",
+      "images": [],
+      "sources": [
+        {
+          "title": "Fire & Blood",
+          "author": "George R. R. Martin",
+          "note": "The Dying of the Dragons; The Short, Sad Reign of Aegon II"
+        },
+        {
+          "title": "The Princess and the Queen",
+          "author": "George R. R. Martin",
+          "note": "The whole war"
+        },
+        {
+          "title": "The World of Ice & Fire",
+          "author": "George R. R. Martin, Elio M. García Jr. and Linda Antonsson",
+          "note": "The Reign of the Dragons: Aegon II"
+        }
+      ],
+      "review": {
+        "status": "draft",
+        "notes": "Drafted from the listed sources; needs a human fact-check."
+      }
+    },
+    {
+      "id": "rhaenyra",
+      "kind": "claimant",
+      "rulers": [
+        "rhaenyra"
+      ],
+      "tagline": "The heir who won her city and lost it in a year",
+      "start": {
+        "date": "0129"
+      },
+      "end": {
+        "date": "0130"
+      },
+      "contestedWith": [
+        "aegon-ii"
+      ],
+      "relationToPredecessor": "Daughter and named heir of Viserys I",
+      "ageAtAccession": "About 32",
+      "cameToPower": "Crowned herself on Dragonstone",
+      "reignEnded": "Fed to Sunfyre on Dragonstone",
+      "previously": "Aegon II wins the Dance, then dies of poisoned wine in 131 AC.",
+      "paragraphs": [
+        "Rhaenyra had been heir since childhood, and she wasn't going to hand it over. Crowned on Dragonstone, she had her husband Prince Daemon, the Velaryon fleet and more dragons than her brother. She paid for it in sons. Lucerys was killed by Aemond, and Jacaerys died over the Gullet.",
+        "Even so, she took King's Landing. Then she threw it away. She taxed hard, punished harder and trusted no one, and the city came to hate her. A mob led by a one-handed preacher stormed the Dragonpit and killed the dragons inside.",
+        "Rhaenyra fled with almost nothing. She went home to Dragonstone, but her brother Aegon was waiting. He fed her to his dragon Sunfyre while her young son Aegon was made to watch."
+      ],
+      "claims": [
+        {
+          "text": "Rhaenyra was eaten by Sunfyre in front of her son.",
+          "status": "confirmed",
+          "note": "All the accounts gathered in Fire & Blood agree on how she died and who saw it."
+        },
+        {
+          "text": "The commons nicknamed her 'Maegor with teats'.",
+          "status": "confirmed",
+          "note": "Fire & Blood records the insult from her time ruling King's Landing."
+        },
+        {
+          "text": "She and Daemon were lovers long before they married.",
+          "status": "disputed",
+          "note": "Mushroom says so in Fire & Blood. Septon Eustace tells a different tale and Munkun doubts both."
+        }
+      ],
+      "hook": "Rhaenyra is gone and so is Aegon II. Her surviving son, a silent boy who saw his mother eaten, is about to be crowned.",
+      "images": [],
+      "sources": [
+        {
+          "title": "Fire & Blood",
+          "author": "George R. R. Martin",
+          "note": "Rhaenyra Triumphant; Rhaenyra Overthrown"
+        },
+        {
+          "title": "The Princess and the Queen",
+          "author": "George R. R. Martin",
+          "note": "Rhaenyra's fall"
+        },
+        {
+          "title": "The World of Ice & Fire",
+          "author": "George R. R. Martin, Elio M. García Jr. and Linda Antonsson",
+          "note": "The Reign of the Dragons: Aegon II"
+        }
+      ],
+      "review": {
+        "status": "draft",
+        "notes": "Drafted from the listed sources; needs a human fact-check."
+      }
+    },
+    {
+      "id": "aegon-iii",
+      "kind": "monarch",
+      "rulers": [
+        "aegon-iii"
+      ],
+      "tagline": "The boy who saw a dragon eat his mother",
+      "start": {
+        "date": "0131"
+      },
+      "end": {
+        "date": "0157"
+      },
+      "contestedWith": [],
+      "relationToPredecessor": "Rhaenyra's son; Aegon II's nephew",
+      "ageAtAccession": "10 or 11",
+      "cameToPower": "Peace deal after Aegon II's death",
+      "reignEnded": "Died of consumption",
+      "previously": "Rhaenyra is fed to Sunfyre on Dragonstone while her son watches.",
+      "paragraphs": [
+        "To end the war, the boy was married to Aegon II's daughter Jaehaera and crowned. The realm was run by regents and Hands, some honest and many greedy. Lord Cregan Stark came south with his army, punished the poisoners and went home. Little Jaehaera fell to her death in 133 AC, and the king later married Daenaera Velaryon.",
+        "Aegon grew up gloomy and silent. He hated dragons and rarely smiled. When he came of age he ruled quietly. The last Targaryen dragon, a small sickly thing, died in his reign, and the realm called him Dragonbane.",
+        "He died of consumption in 157 AC. His heir was his son Daeron, fourteen, who wanted the one prize the Conqueror never won: Dorne."
+      ],
+      "claims": [
+        {
+          "text": "Queen Jaehaera's fall was murder, not suicide.",
+          "status": "disputed",
+          "note": "Fire & Blood says she jumped or was pushed, and Gyldayn weighs the rival accounts without a verdict."
+        },
+        {
+          "text": "The maesters of the Citadel helped kill off the dragons.",
+          "status": "legend",
+          "note": "Archmaester Marwyn hints at it in A Feast for Crows. It is one man's suspicion, never proved."
+        }
+      ],
+      "hook": "The new king is a boy of fourteen who dreams of glory. Dorne beat Aegon the Conqueror. Daeron means to take it anyway, without a single dragon.",
+      "images": [],
+      "sources": [
+        {
+          "title": "Fire & Blood",
+          "author": "George R. R. Martin",
+          "note": "Aftermath: The Hour of the Wolf; Under the Regents"
+        },
+        {
+          "title": "The World of Ice & Fire",
+          "author": "George R. R. Martin, Elio M. García Jr. and Linda Antonsson",
+          "note": "The Reign of the Dragons: Aegon III"
+        },
+        {
+          "title": "A Feast for Crows",
+          "author": "George R. R. Martin",
+          "note": "Samwell V, Marwyn at the Citadel"
+        }
+      ],
+      "review": {
+        "status": "draft",
+        "notes": "Drafted from the listed sources; needs a human fact-check."
+      }
+    },
+    {
+      "id": "daeron-i",
+      "kind": "monarch",
+      "rulers": [
+        "daeron-i"
+      ],
+      "tagline": "A teenage king who did what Aegon the Conqueror couldn't",
+      "start": {
+        "date": "0157"
+      },
+      "end": {
+        "date": "0161"
+      },
+      "contestedWith": [],
+      "relationToPredecessor": "Eldest son of Aegon III",
+      "ageAtAccession": "14",
+      "cameToPower": "Succeeded his father",
+      "reignEnded": "Murdered under a peace banner",
+      "previously": "Gloomy Aegon III is dead, and the last dragon died in his reign.",
+      "paragraphs": [
+        "Daeron was fourteen when he took the throne, and he wanted one thing: Dorne. Three Targaryen dragons had failed to tame it. Daeron went in with no dragons at all. He split his army, forced the mountain passes and pushed down to Sunspear, where the Prince of Dorne knelt and handed over hostages. The boy king was a hero. He even wrote a book about it, The Conquest of Dorne.",
+        "Holding Dorne was another matter. The Dornish melted into the hills and the sands and kept fighting. The lord left in charge, a Tyrell, was found dead with scorpions in his bed. Revolt spread everywhere. Daeron marched south again to sort it out, and in 161 AC he agreed to talk peace with the rebels. They broke the truce and cut him down. He was eighteen, unmarried and childless, so the crown went to his brother."
+      ],
+      "claims": [
+        {
+          "text": "Daeron conquered Dorne, the one kingdom that had beaten Aegon I and his dragons.",
+          "status": "confirmed",
+          "note": "Every account in The World of Ice & Fire agrees; the boy king's own book tells the story too."
+        },
+        {
+          "text": "The Dornish betrayed Daeron by attacking under a banner of peace.",
+          "status": "confirmed",
+          "note": "The World of Ice & Fire records the broken parley; the Dornish themselves never deny the killing."
+        },
+        {
+          "text": "Daeron's own account of the war is a fair history.",
+          "status": "disputed",
+          "note": "The maesters of The World of Ice & Fire lean on The Conquest of Dorne but note it was written by the winner, and young."
+        }
+      ],
+      "hook": "The Young Dragon is dead in the sand. His brother Baelor, who would rather pray than fight, now has to make peace with the people who killed him.",
+      "images": [],
+      "sources": [
+        {
+          "title": "The World of Ice & Fire",
+          "author": "George R. R. Martin, Elio M. García Jr. and Linda Antonsson",
+          "note": "The Targaryen Kings: Daeron I"
+        },
+        {
+          "title": "The World of Ice & Fire",
+          "author": "George R. R. Martin, Elio M. García Jr. and Linda Antonsson",
+          "note": "Dorne: the Young Dragon's war"
+        }
+      ],
+      "review": {
+        "status": "draft",
+        "notes": "Drafted from the listed sources; needs a human fact-check."
+      }
+    },
+    {
+      "id": "baelor-i",
+      "kind": "monarch",
+      "rulers": [
+        "baelor-i"
+      ],
+      "tagline": "The holy king who prayed, fasted and starved to death",
+      "start": {
+        "date": "0161"
+      },
+      "end": {
+        "date": "0171"
+      },
+      "contestedWith": [],
+      "relationToPredecessor": "Younger brother of Daeron I",
+      "ageAtAccession": "17",
+      "cameToPower": "Succeeded his childless brother",
+      "reignEnded": "Starved himself while fasting",
+      "previously": "The Young Dragon is murdered at a peace parley in Dorne.",
+      "paragraphs": [
+        "Baelor wanted no revenge. He walked barefoot all the way to Dorne to make peace. On the way he pulled his cousin, Ser Aemon the Dragonknight, out of a pit full of vipers and was bitten for his trouble. He survived, sealed the peace and betrothed his young cousin Daeron to a Dornish princess. Back home, he built the Great Sept that still bears his name.",
+        "He was married to his sister Daena, but he had the marriage set aside and locked Daena and his other two sisters in a tower, the Maidenvault, so they wouldn't tempt him. He banned whores from the city and left the real ruling to his uncle Viserys, his Hand. In 171 AC he began one of his fasts and never stopped. He died with no children, and Viserys was next in line."
+      ],
+      "claims": [
+        {
+          "text": "Baelor survived the vipers because the gods protected him.",
+          "status": "legend",
+          "note": "The septons told it that way; The World of Ice & Fire treats it as pious tale-telling."
+        },
+        {
+          "text": "Viserys poisoned Baelor to speed his own path to the throne.",
+          "status": "disputed",
+          "note": "Whispered at the time and repeated in The World of Ice & Fire, with no proof offered."
+        },
+        {
+          "text": "Locked away, Daena got out and bore a son whose father she would not name.",
+          "status": "confirmed",
+          "note": "The World of Ice & Fire; the boy was Daemon, later known as Blackfyre."
+        }
+      ],
+      "hook": "The septon king is dead from hunger. His uncle Viserys, the man who has quietly run the realm for decades, finally sits on the throne himself. He's nearly fifty.",
+      "images": [],
+      "sources": [
+        {
+          "title": "The World of Ice & Fire",
+          "author": "George R. R. Martin, Elio M. García Jr. and Linda Antonsson",
+          "note": "The Targaryen Kings: Baelor I"
+        },
+        {
+          "title": "A Feast for Crows (2005)",
+          "author": "George R. R. Martin",
+          "note": "Cersei chapters at the Great Sept of Baelor"
+        }
+      ],
+      "review": {
+        "status": "draft",
+        "notes": "Drafted from the listed sources; needs a human fact-check."
+      }
+    },
+    {
+      "id": "viserys-ii",
+      "kind": "monarch",
+      "rulers": [
+        "viserys-ii"
+      ],
+      "tagline": "The power behind three kings finally gets a year of his own",
+      "start": {
+        "date": "0171"
+      },
+      "end": {
+        "date": "0172"
+      },
+      "contestedWith": [],
+      "relationToPredecessor": "Uncle of Baelor I",
+      "ageAtAccession": "48 or 49",
+      "cameToPower": "Next in line after Baelor",
+      "reignEnded": "Died after a year on the throne",
+      "previously": "Baelor the Blessed fasts himself to death, leaving no children.",
+      "paragraphs": [
+        "Viserys was Rhaenyra's youngest son, and as a boy he got lost in the Dance of the Dragons. Taken prisoner at sea, he ended up in Lys, where he grew up and married a Lysene noblewoman, Larra Rogare. He came home clever, careful and good with money. For years he served as Hand to his brother Aegon III and then his nephews, and many said he was the one really ruling.",
+        "When Baelor starved himself, the crown came to Viserys at last. He had barely a year with it. He fell sick and died in 172 AC. The throne passed to his eldest son, Aegon, a handsome charmer whose tastes ran to wine, food and other men's wives."
+      ],
+      "claims": [
+        {
+          "text": "Viserys was the real ruler of the realm under Baelor.",
+          "status": "confirmed",
+          "note": "The World of Ice & Fire says Baelor left the government to his Hand while he prayed."
+        },
+        {
+          "text": "As a boy, Viserys was carried off to Lys after the Battle of the Gullet.",
+          "status": "confirmed",
+          "note": "Fire & Blood tells the story, with Gyldayn noting how long his family thought him dead."
+        }
+      ],
+      "hook": "The old Hand is dead. His son Aegon takes the throne, and he has big appetites. Over the next twelve years he'll father bastards who nearly tear the realm apart.",
+      "images": [],
+      "sources": [
+        {
+          "title": "The World of Ice & Fire",
+          "author": "George R. R. Martin, Elio M. García Jr. and Linda Antonsson",
+          "note": "The Targaryen Kings: Viserys II"
+        },
+        {
+          "title": "Fire & Blood (2018)",
+          "author": "George R. R. Martin",
+          "note": "The Dance of the Dragons and the regency of Aegon III"
+        }
+      ],
+      "review": {
+        "status": "draft",
+        "notes": "Drafted from the listed sources; needs a human fact-check."
+      }
+    },
+    {
+      "id": "aegon-iv",
+      "kind": "monarch",
+      "rulers": [
+        "aegon-iv"
+      ],
+      "tagline": "The king who left a bastard army and a poisoned will",
+      "start": {
+        "date": "0172"
+      },
+      "end": {
+        "date": "0184"
+      },
+      "contestedWith": [],
+      "relationToPredecessor": "Eldest son of Viserys II",
+      "ageAtAccession": "About 37",
+      "cameToPower": "Succeeded his father",
+      "reignEnded": "Died in bed, grotesquely fat",
+      "previously": "Viserys II dies after barely a year on the Iron Throne.",
+      "paragraphs": [
+        "Aegon was married to his pious sister Naerys and ignored her for a long run of mistresses, each one discarded when he got bored. He grew vast with food and drink. His big idea for retaking Dorne was a fleet of dragons built from wood and iron. They caught fire before they got anywhere near it. He even hinted that his heir, Daeron, was really the son of his brother, Ser Aemon the Dragonknight.",
+        "His favourite was a bastard, Daemon, son of the locked-up Princess Daena. When Daemon was twelve, Aegon gave him the Targaryen sword Blackfyre, a gift that looked to many like a promise. Then, dying in 184 AC, Aegon legitimised every bastard he had ever fathered. Daeron became king. Daemon, Bittersteel and Bloodraven were now true Targaryens with royal blood and grudges."
+      ],
+      "claims": [
+        {
+          "text": "Daeron II was really the son of Aemon the Dragonknight.",
+          "status": "disputed",
+          "note": "Aegon IV said it to wound; The World of Ice & Fire calls it slander, but Blackfyre supporters later used it."
+        },
+        {
+          "text": "Aegon IV fathered bastards all over the realm.",
+          "status": "confirmed",
+          "note": "The World of Ice & Fire lists his mistresses and the 'Great Bastards'; Dunk & Egg stories mention them too."
+        },
+        {
+          "text": "Giving Blackfyre to Daemon showed Aegon wanted him as king.",
+          "status": "disputed",
+          "note": "Daemon's followers read it that way; the law and the maesters in The World of Ice & Fire say otherwise."
+        }
+      ],
+      "hook": "Aegon the Unworthy is dead. Daeron II is king, but half the court thinks he's a bastard, and the man holding the Conqueror's sword is his half-brother.",
+      "images": [],
+      "sources": [
+        {
+          "title": "The World of Ice & Fire",
+          "author": "George R. R. Martin, Elio M. García Jr. and Linda Antonsson",
+          "note": "The Targaryen Kings: Aegon IV"
+        },
+        {
+          "title": "A Knight of the Seven Kingdoms",
+          "author": "George R. R. Martin",
+          "note": "The Hedge Knight and The Sworn Sword, on the Great Bastards"
+        }
+      ],
+      "review": {
+        "status": "draft",
+        "notes": "Drafted from the listed sources; needs a human fact-check."
+      }
+    },
+    {
+      "id": "daeron-ii",
+      "kind": "monarch",
+      "rulers": [
+        "daeron-ii"
+      ],
+      "tagline": "He won Dorne with a wedding and still had to fight a war",
+      "start": {
+        "date": "0184"
+      },
+      "end": {
+        "date": "0209"
+      },
+      "contestedWith": [],
+      "relationToPredecessor": "Son of Aegon IV",
+      "ageAtAccession": "About 31",
+      "cameToPower": "Succeeded his father",
+      "reignEnded": "Died in the Great Spring Sickness",
+      "previously": "Aegon the Unworthy dies after legitimising every bastard he had.",
+      "paragraphs": [
+        "Daeron was everything his father wasn't: quiet, bookish and sensible. He was married to a Dornish princess, Myriah Martell, and in 187 AC his sister Daenerys married Prince Maron Martell. With that, Dorne joined the realm in peace. Daeron loved Dornish ways and filled his court with Dornishmen and maesters. Old-fashioned knights hated it and grumbled about the bastard rumours.",
+        "In 196 AC that grumbling became war. Daeron survived it and ruled for 25 years. Then in 209 AC his eldest son, Baelor Breakspear, died after a tourney at Ashford, struck down by his own brother Maekar's mace. The same year the Great Spring Sickness swept King's Landing. It killed Daeron and Baelor's two sons. The crown passed to his second son, Aerys."
+      ],
+      "claims": [
+        {
+          "text": "Dorne joined the Seven Kingdoms by marriage, not conquest.",
+          "status": "confirmed",
+          "note": "The World of Ice & Fire; Dornish characters in the novels still talk about it."
+        },
+        {
+          "text": "Baelor Breakspear died from a blow by his brother Maekar in a trial by seven.",
+          "status": "confirmed",
+          "note": "Shown in The Hedge Knight; the blow was an accident in the melee."
+        },
+        {
+          "text": "Daeron's Dornish friends were stealing the realm from true knights.",
+          "status": "disputed",
+          "note": "Old rebels like Ser Eustace Osgrey say so in The Sworn Sword; the maesters call it prejudice."
+        }
+      ],
+      "hook": "Daeron the Good is dead of plague. But to understand what nearly broke his reign, rewind thirteen years, to a field where his half-brother raised a black dragon banner.",
+      "images": [],
+      "sources": [
+        {
+          "title": "The World of Ice & Fire",
+          "author": "George R. R. Martin, Elio M. García Jr. and Linda Antonsson",
+          "note": "The Targaryen Kings: Daeron II"
+        },
+        {
+          "title": "A Knight of the Seven Kingdoms",
+          "author": "George R. R. Martin",
+          "note": "The Hedge Knight (Ashford, 209 AC); The Sworn Sword"
+        }
+      ],
+      "review": {
+        "status": "draft",
+        "notes": "Drafted from the listed sources; needs a human fact-check."
+      }
+    },
+    {
+      "id": "daemon-blackfyre",
+      "kind": "claimant",
+      "rulers": [
+        "daemon-blackfyre"
+      ],
+      "tagline": "The king's bastard with the king's sword and an army",
+      "start": {
+        "date": "0196"
+      },
+      "end": {
+        "date": "0196"
+      },
+      "contestedWith": [],
+      "relationToPredecessor": "Bastard half-brother of Daeron II",
+      "ageAtAccession": "About 26",
+      "cameToPower": "Rose in rebellion against Daeron",
+      "reignEnded": "Killed at Redgrass Field",
+      "previously": "Daeron II dies in the spring sickness of 209. Now, back to 196.",
+      "paragraphs": [
+        "Daemon was the son of Aegon IV and Princess Daena. He grew up tall, bold and brilliant with a sword, and his father gave him Blackfyre itself. He took the sword's name for his house. Plenty of lords thought he'd make a better king than his cautious half-brother Daeron, and the rumour that Daeron was a bastard helped them. In 196 AC Daemon claimed the crown.",
+        "Half the realm took sides. The armies met at Redgrass Field. Daemon was winning until Bloodraven, another of Aegon's bastards, brought his archers to a hill. Their arrows killed Daemon and his twin sons. The rebellion collapsed. His half-brother Bittersteel fled overseas with the sword and Daemon's surviving sons, and the Blackfyre claim lived on in exile."
+      ],
+      "claims": [
+        {
+          "text": "Bloodraven's archers killed Daemon and his two sons on the field.",
+          "status": "confirmed",
+          "note": "The World of Ice & Fire, and survivors recall it in The Sworn Sword."
+        },
+        {
+          "text": "Daemon, not Daeron, was the rightful king.",
+          "status": "disputed",
+          "note": "Blackfyre loyalists like Ser Eustace Osgrey argue it in The Sworn Sword; the maesters back Daeron's legitimate birth."
+        }
+      ],
+      "hook": "The black dragon is dead, but his sons and Bittersteel are alive across the sea. Back in 209, a scholarly king takes the throne with Bloodraven at his side.",
+      "images": [],
+      "sources": [
+        {
+          "title": "The World of Ice & Fire",
+          "author": "George R. R. Martin, Elio M. García Jr. and Linda Antonsson",
+          "note": "The Targaryen Kings: Daeron II"
+        },
+        {
+          "title": "A Knight of the Seven Kingdoms",
+          "author": "George R. R. Martin",
+          "note": "The Sworn Sword (Ser Eustace's memories of Redgrass Field)"
+        }
+      ],
+      "review": {
+        "status": "draft",
+        "notes": "Drafted from the listed sources; needs a human fact-check."
+      }
+    },
+    {
+      "id": "aerys-i",
+      "kind": "monarch",
+      "rulers": [
+        "aerys-i"
+      ],
+      "tagline": "A king lost in his books while Bloodraven ran everything",
+      "start": {
+        "date": "0209"
+      },
+      "end": {
+        "date": "0221"
+      },
+      "contestedWith": [],
+      "relationToPredecessor": "Second son of Daeron II",
+      "ageAtAccession": "Unknown",
+      "cameToPower": "Succeeded his father",
+      "reignEnded": "Died without children",
+      "previously": "Daemon Blackfyre falls on the Redgrass Field; Bittersteel flees east.",
+      "paragraphs": [
+        "Aerys never expected to be king, and he never really wanted to be. He liked old scrolls, prophecies and arcane lore. His marriage produced no children. The actual governing fell to his Hand, his half-uncle Brynden Rivers, the pale, one-eyed bastard called Bloodraven. People said Bloodraven had 'a thousand eyes, and one', spies everywhere.",
+        "The reign had drought and more Blackfyre plots. One plot came to a head at Whitewalls in 212 AC, where Bloodraven struck first and arrested the latest pretender. Through it all Aerys kept to his books. He died in 221 AC with no son of his own. His brother Rhaegel was already dead, so the crown went to the youngest brother, the hard soldier Maekar."
+      ],
+      "claims": [
+        {
+          "text": "Bloodraven was a sorcerer who could spy through ravens and crows.",
+          "status": "legend",
+          "note": "Smallfolk in The Sworn Sword whisper it; the maesters dismiss it."
+        },
+        {
+          "text": "Bloodraven was the real ruler, not Aerys.",
+          "status": "confirmed",
+          "note": "The World of Ice & Fire and the Dunk & Egg stories both show Aerys leaving the realm to his Hand."
+        },
+        {
+          "text": "A Blackfyre plot was broken up at a wedding at Whitewalls.",
+          "status": "confirmed",
+          "note": "Shown in The Mystery Knight."
+        }
+      ],
+      "hook": "Aerys the bookworm is dead. His brother Maekar, the man who killed Baelor Breakspear by accident, now has the crown and a family full of troubled sons.",
+      "images": [],
+      "sources": [
+        {
+          "title": "The World of Ice & Fire",
+          "author": "George R. R. Martin, Elio M. García Jr. and Linda Antonsson",
+          "note": "The Targaryen Kings: Aerys I"
+        },
+        {
+          "title": "A Knight of the Seven Kingdoms",
+          "author": "George R. R. Martin",
+          "note": "The Sworn Sword and The Mystery Knight"
+        }
+      ],
+      "review": {
+        "status": "draft",
+        "notes": "Drafted from the listed sources; needs a human fact-check."
+      }
+    },
+    {
+      "id": "maekar-i",
+      "kind": "monarch",
+      "rulers": [
+        "maekar-i"
+      ],
+      "tagline": "The hard soldier king and his very difficult sons",
+      "start": {
+        "date": "0221"
+      },
+      "end": {
+        "date": "0233"
+      },
+      "contestedWith": [],
+      "relationToPredecessor": "Younger brother of Aerys I",
+      "ageAtAccession": "Unknown",
+      "cameToPower": "Succeeded his childless brother",
+      "reignEnded": "Killed at a siege",
+      "previously": "Aerys I dies without children after twelve years among his books.",
+      "paragraphs": [
+        "Maekar was a tough, prickly prince who never stopped feeling guilty for killing his brother Baelor at Ashford. As king he was stern but fair. His sons were a mixed lot. Daeron drank. Aerion called himself Brightflame and was cruel. Aemon became a maester. The youngest, Aegon, had spent his boyhood as squire to a hedge knight called Ser Duncan the Tall, and everyone called him Egg.",
+        "In 233 AC Maekar led an army against a lord who defied the crown and was killed during the siege. His two eldest sons were already dead. Aerion had drunk wildfire, convinced it would turn him into a dragon. Nobody was sure who should inherit, so the lords called a Great Council. They offered the crown to Aemon, who refused. Then they picked Egg."
+      ],
+      "claims": [
+        {
+          "text": "Maekar's mace blow at Ashford killed his brother Baelor.",
+          "status": "confirmed",
+          "note": "Shown in The Hedge Knight; Baelor collapsed after the trial by seven."
+        },
+        {
+          "text": "Aerion Brightflame died drinking wildfire to become a dragon.",
+          "status": "confirmed",
+          "note": "Maester Aemon remembers it in A Feast for Crows; The World of Ice & Fire agrees."
+        },
+        {
+          "text": "Aemon was offered the crown first and turned it down.",
+          "status": "confirmed",
+          "note": "Aemon tells Samwell Tarly so in A Feast for Crows."
+        }
+      ],
+      "hook": "The Great Council has made its choice. Egg, the boy who once shaved his head and polished a hedge knight's boots, will be king. Nobody expected it.",
+      "images": [],
+      "sources": [
+        {
+          "title": "The World of Ice & Fire",
+          "author": "George R. R. Martin, Elio M. García Jr. and Linda Antonsson",
+          "note": "The Targaryen Kings: Maekar I"
+        },
+        {
+          "title": "A Knight of the Seven Kingdoms",
+          "author": "George R. R. Martin",
+          "note": "The Hedge Knight"
+        },
+        {
+          "title": "A Feast for Crows (2005)",
+          "author": "George R. R. Martin",
+          "note": "Samwell chapters (Maester Aemon's memories)"
+        }
+      ],
+      "review": {
+        "status": "draft",
+        "notes": "Drafted from the listed sources; needs a human fact-check."
+      }
+    },
+    {
+      "id": "aegon-v",
+      "kind": "monarch",
+      "rulers": [
+        "aegon-v"
+      ],
+      "tagline": "Dunk's squire Egg becomes king, and it ends in fire",
+      "start": {
+        "date": "0233"
+      },
+      "end": {
+        "date": "0259"
+      },
+      "contestedWith": [],
+      "relationToPredecessor": "Fourth son of Maekar I",
+      "ageAtAccession": "33",
+      "cameToPower": "Chosen by the Great Council of 233",
+      "reignEnded": "Died in the fire at Summerhall",
+      "previously": "Maekar falls at a siege, and the lords must pick a new king.",
+      "paragraphs": [
+        "As a boy Egg had travelled the roads with Ser Duncan the Tall, sleeping in ditches and seeing how the smallfolk lived. As king he tried to help them, and the great lords fought him at every turn. He made Dunk Lord Commander of his Kingsguard. His children all married for love, wrecking his plans. His heir, Duncan, gave up the throne for a girl called Jenny of Oldstones.",
+        "Egg had one more dream: dragons. In 259 AC he gathered family and friends at Summerhall, the royal summer castle. Something went terribly wrong. Fire swept the place. Aegon died, and so did his son Duncan and Ser Duncan the Tall. On the same day, in the ruins, his great-grandson Rhaegar was born. The crown passed to Aegon's second son, Jaehaerys."
+      ],
+      "claims": [
+        {
+          "text": "Aegon was trying to hatch dragon eggs when Summerhall burned.",
+          "status": "disputed",
+          "note": "Ser Barristan hints at it in A Dance with Dragons; the histories in The World of Ice & Fire stay vague."
+        },
+        {
+          "text": "Ser Duncan the Tall died at Summerhall as Lord Commander.",
+          "status": "confirmed",
+          "note": "His entry in the White Book, read by Jaime in A Storm of Swords."
+        },
+        {
+          "text": "Prince Duncan gave up the throne to marry Jenny of Oldstones.",
+          "status": "confirmed",
+          "note": "The World of Ice & Fire; the song about Jenny is still sung in A Storm of Swords."
+        }
+      ],
+      "hook": "Summerhall is ash. Jaehaerys II, a sickly man, takes the throne, and a last Blackfyre pretender is already gathering sellswords across the sea.",
+      "images": [],
+      "sources": [
+        {
+          "title": "A Knight of the Seven Kingdoms",
+          "author": "George R. R. Martin",
+          "note": "The Hedge Knight, The Sworn Sword, The Mystery Knight"
+        },
+        {
+          "title": "The World of Ice & Fire",
+          "author": "George R. R. Martin, Elio M. García Jr. and Linda Antonsson",
+          "note": "The Targaryen Kings: Aegon V"
+        },
+        {
+          "title": "A Storm of Swords (2000)",
+          "author": "George R. R. Martin",
+          "note": "Jaime chapter reading the White Book"
+        }
+      ],
+      "review": {
+        "status": "draft",
+        "notes": "Drafted from the listed sources; needs a human fact-check."
+      }
+    },
+    {
+      "id": "jaehaerys-ii",
+      "kind": "monarch",
+      "rulers": [
+        "jaehaerys-ii"
+      ],
+      "tagline": "A frail king who won a war and arranged a fateful match",
+      "start": {
+        "date": "0259"
+      },
+      "end": {
+        "date": "0262"
+      },
+      "contestedWith": [],
+      "relationToPredecessor": "Second son of Aegon V",
+      "ageAtAccession": "About 34",
+      "cameToPower": "Succeeded his father",
+      "reignEnded": "Died of illness",
+      "previously": "Fire at Summerhall kills Aegon V and his eldest son.",
+      "paragraphs": [
+        "Jaehaerys was never strong, but he proved steady. Soon after he took the throne, a band of adventurers called the Band of Nine seized the Stepstones. With them was Maelys the Monstrous, the last Blackfyre pretender. The War of the Ninepenny Kings followed, and young knights made their names in it. Ser Barristan Selmy killed Maelys in single combat. The Blackfyre line was finished.",
+        "Jaehaerys made his son Aerys marry his daughter Rhaella, though neither wanted it. He had been told a great prince would come from their line. His health gave out in 262 AC, after only three years as king. Aerys took the crown at eighteen, with his friend Tywin Lannister about to be his Hand."
+      ],
+      "claims": [
+        {
+          "text": "Ser Barristan Selmy killed Maelys the Monstrous in the war.",
+          "status": "confirmed",
+          "note": "Barristan's own record and memories in A Dance with Dragons; The World of Ice & Fire agrees."
+        },
+        {
+          "text": "A woods witch told Jaehaerys the prince that was promised would come from Aerys and Rhaella.",
+          "status": "legend",
+          "note": "Ser Barristan recalls the tale in A Dance with Dragons; it's prophecy, and the maesters scorn such things."
+        },
+        {
+          "text": "Aerys and Rhaella's marriage was unhappy from the start.",
+          "status": "confirmed",
+          "note": "Ser Barristan says so in A Dance with Dragons."
+        }
+      ],
+      "hook": "Jaehaerys is dead. Aerys II is young, charming and full of grand plans, and he has made Tywin Lannister his Hand. It starts well.",
+      "images": [],
+      "sources": [
+        {
+          "title": "The World of Ice & Fire",
+          "author": "George R. R. Martin, Elio M. García Jr. and Linda Antonsson",
+          "note": "The Targaryen Kings: Jaehaerys II"
+        },
+        {
+          "title": "A Dance with Dragons (2011)",
+          "author": "George R. R. Martin",
+          "note": "Ser Barristan Selmy's chapters"
+        }
+      ],
+      "review": {
+        "status": "draft",
+        "notes": "Drafted from the listed sources; needs a human fact-check."
+      }
+    },
+    {
+      "id": "aerys-ii",
+      "kind": "monarch",
+      "rulers": [
+        "aerys-ii"
+      ],
+      "tagline": "Wildfire, paranoia and a knife in the back",
+      "start": {
+        "date": "0262"
+      },
+      "end": {
+        "date": "0283"
+      },
+      "contestedWith": [],
+      "relationToPredecessor": "Son of Jaehaerys II",
+      "ageAtAccession": "18",
+      "cameToPower": "Inherited from his father",
+      "reignEnded": "Stabbed by his own Kingsguard",
+      "previously": "Jaehaerys II dies after three short years. His son Aerys is king.",
+      "paragraphs": [
+        "Aerys started out charming and full of big plans, with his boyhood friend Tywin Lannister as Hand. Tywin did the real work, and Aerys grew to hate him for it. In 277 AC the king went to Duskendale to scold a rebellious lord and was taken prisoner for half a year. Ser Barristan Selmy got him out. The man who came back trusted nobody, let his hair and nails grow wild and loved watching people burn.",
+        "He split with Tywin, fell out with his heir Rhaegar, and filled the city with pots of wildfire. When Rhaegar ran off with Lyanna Stark in 282 AC, her brother Brandon came to King's Landing to demand her back. Aerys had him strangled and burned their father Rickard alive. The great lords rose under Robert Baratheon.",
+        "Rhaegar died at the Trident. Tywin turned up at the gates claiming to help, and his men sacked the city. Aerys ordered the wildfire lit. Ser Jaime Lannister, his own Kingsguard, killed him on the steps of the Iron Throne instead."
+      ],
+      "claims": [
+        {
+          "text": "Aerys told his pyromancers to burn the whole city as the rebels came in.",
+          "status": "confirmed",
+          "note": "Jaime tells Brienne the full story in the baths at Harrenhal (A Storm of Swords). He had kept it secret for fifteen years."
+        },
+        {
+          "text": "The quarrel with Tywin began with a cruel joke about Tywin's wife, Joanna.",
+          "status": "disputed",
+          "note": "The World of Ice & Fire repeats court gossip that Aerys took liberties with her. The maester writing it admits it is rumour."
+        },
+        {
+          "text": "Rhaegar planned to call a council to depose his father.",
+          "status": "disputed",
+          "note": "Talk of the Harrenhal tourney as a secret plot appears in The World of Ice & Fire, presented as speculation."
+        }
+      ],
+      "hook": "Jaime sits on the Iron Throne with a bloody sword. Robert Baratheon rides in, the hero of the Trident, and the Seven Kingdoms have a new king who never wanted to rule.",
+      "images": [],
+      "sources": [
+        {
+          "title": "The World of Ice & Fire (2014)",
+          "author": "George R. R. Martin, Elio M. García Jr. and Linda Antonsson",
+          "note": "The Targaryen Kings: Aerys II"
+        },
+        {
+          "title": "A Storm of Swords (2000)",
+          "author": "George R. R. Martin",
+          "note": "Jaime chapters; his confession at Harrenhal"
+        },
+        {
+          "title": "A Game of Thrones (1996)",
+          "author": "George R. R. Martin",
+          "note": "Eddard chapters; the deaths of Brandon and Rickard Stark"
+        }
+      ],
+      "review": {
+        "status": "draft",
+        "notes": "Drafted from the listed sources; needs a human fact-check."
+      }
+    },
+    {
+      "id": "robert-i",
+      "kind": "monarch",
+      "rulers": [
+        "robert-i"
+      ],
+      "tagline": "Won the throne with a hammer, lost interest in it",
+      "start": {
+        "date": "0283"
+      },
+      "end": {
+        "date": "0298"
+      },
+      "contestedWith": [],
+      "relationToPredecessor": "Rebel lord; Targaryen grandson",
+      "ageAtAccession": "About 21",
+      "cameToPower": "Won Robert's Rebellion",
+      "reignEnded": "Gored by a boar",
+      "previously": "Jaime kills the Mad King. The Targaryen dynasty falls.",
+      "paragraphs": [
+        "Robert was Lord of Storm's End, huge and fearless and very good at war. He rebelled because Rhaegar had taken Lyanna Stark, the girl he was meant to marry. At the Trident he smashed Rhaegar's chest with his warhammer. Lyanna died soon after, far to the south, and Robert never got over it. He took the crown partly through his grandmother, a Targaryen princess.",
+        "He married Cersei Lannister to keep her father Tywin happy. It was a cold match. Robert crushed Balon Greyjoy's rising in 289 AC, then spent his reign drinking, whoring, hunting and running up debts. His old friend Jon Arryn ran the realm as Hand.",
+        "In 298 AC Jon Arryn died suddenly. Robert rode north and made Ned Stark his new Hand. Weeks later, drunk on wine his squire Lancel kept pouring, he was gored by a boar in the kingswood. On his deathbed he named Ned regent for his son Joffrey."
+      ],
+      "claims": [
+        {
+          "text": "Jon Arryn was poisoned, and he had found out Cersei's children were not Robert's.",
+          "status": "confirmed",
+          "note": "Ned works out the incest secret (A Game of Thrones). Lysa Arryn later admits she poisoned Jon at Littlefinger's urging (A Storm of Swords)."
+        },
+        {
+          "text": "Cersei had Lancel keep the king's cup full so the boar would do the rest.",
+          "status": "confirmed",
+          "note": "Lancel confesses it to Tyrion in A Clash of Kings, and Cersei admits it to herself in A Feast for Crows."
+        },
+        {
+          "text": "Robert slew Rhaegar at the ford, and rubies flew from his armour.",
+          "status": "confirmed",
+          "note": "Every account agrees; the spot is still called the ruby ford (A Game of Thrones, The World of Ice & Fire)."
+        }
+      ],
+      "hook": "Robert is dead. Ned Stark holds a letter naming him regent and knows a secret that could wreck the dynasty. Cersei's son Joffrey is about to be crowned.",
+      "images": [],
+      "sources": [
+        {
+          "title": "A Game of Thrones (1996)",
+          "author": "George R. R. Martin",
+          "note": "Eddard and Catelyn chapters; Robert's hunt and death"
+        },
+        {
+          "title": "The World of Ice & Fire (2014)",
+          "author": "George R. R. Martin, Elio M. García Jr. and Linda Antonsson",
+          "note": "The Targaryen Kings: Aerys II; The Reign of Robert I"
+        },
+        {
+          "title": "A Clash of Kings (1998)",
+          "author": "George R. R. Martin",
+          "note": "Tyrion chapters; Lancel's confession"
+        }
+      ],
+      "review": {
+        "status": "draft",
+        "notes": "Drafted from the listed sources; needs a human fact-check."
+      }
+    },
+    {
+      "id": "joffrey-i",
+      "kind": "monarch",
+      "rulers": [
+        "joffrey-i"
+      ],
+      "tagline": "The boy tyrant who choked on his own wedding",
+      "start": {
+        "date": "0298"
+      },
+      "end": {
+        "date": "0300"
+      },
+      "contestedWith": [],
+      "relationToPredecessor": "Officially Robert's eldest son",
+      "ageAtAccession": "About 12",
+      "cameToPower": "Inherited; Ned Stark arrested",
+      "reignEnded": "Poisoned at his wedding",
+      "previously": "A boar kills Robert. Ned Stark knows his heir is a fraud.",
+      "paragraphs": [
+        "Joffrey was Robert and Cersei's son on paper. In truth his father was Cersei's twin brother, Ser Jaime. Ned Stark found out and tried to stop the coronation, but Littlefinger betrayed him and the gold cloaks turned on his men. Ned confessed to treason to save his daughters. Joffrey was supposed to send him to the Wall. He had him beheaded on the steps of the Great Sept instead.",
+        "That one act set the realm on fire. The North and the riverlands crowned Robb Stark, and both of Robert's brothers claimed the throne. Joffrey was cruel and spoiled, and he tormented his betrothed Sansa Stark for fun. His uncle Tyrion ran things as acting Hand. At the Blackwater, Tyrion's wildfire and the Tyrells' army saved the city from Stannis.",
+        "Joffrey dropped Sansa for Margaery Tyrell and married her in 300 AC. At the feast he choked, turned purple and died. Cersei blamed Tyrion."
+      ],
+      "claims": [
+        {
+          "text": "Joffrey and his siblings were fathered by Jaime Lannister.",
+          "status": "confirmed",
+          "note": "Ned confirms it and Cersei admits it to his face in the godswood (A Game of Thrones). Jaime's chapters say the same."
+        },
+        {
+          "text": "Olenna Tyrell and Littlefinger poisoned him using a stone from Sansa's hairnet.",
+          "status": "confirmed",
+          "note": "Littlefinger tells Sansa so himself on the way to the Eyrie (A Storm of Swords)."
+        },
+        {
+          "text": "Tyrion murdered his nephew.",
+          "status": "disputed",
+          "note": "Cersei swore it and Tyrion was tried for it. The reader knows he didn't, but most of King's Landing still believes it."
+        }
+      ],
+      "hook": "Rewind two years. While Joffrey's men cut off Ned's head, Ned's son Robb is in the riverlands with an army, and his lords are about to give him a crown.",
+      "images": [],
+      "sources": [
+        {
+          "title": "A Game of Thrones (1996)",
+          "author": "George R. R. Martin",
+          "note": "Eddard, Sansa and Arya chapters; Ned's execution"
+        },
+        {
+          "title": "A Clash of Kings (1998)",
+          "author": "George R. R. Martin",
+          "note": "Tyrion and Sansa chapters; the Battle of the Blackwater"
+        },
+        {
+          "title": "A Storm of Swords (2000)",
+          "author": "George R. R. Martin",
+          "note": "Tyrion and Sansa chapters; the Purple Wedding"
+        }
+      ],
+      "review": {
+        "status": "draft",
+        "notes": "Drafted from the listed sources; needs a human fact-check."
+      }
+    },
+    {
+      "id": "robb-stark",
+      "kind": "claimant",
+      "rulers": [
+        "robb-stark"
+      ],
+      "tagline": "Never lost a battle. Lost everything at a wedding.",
+      "start": {
+        "date": "0298"
+      },
+      "end": {
+        "date": "0299"
+      },
+      "contestedWith": [],
+      "relationToPredecessor": "Son of Eddard Stark",
+      "ageAtAccession": "About 15",
+      "cameToPower": "Hailed by his lords at Riverrun",
+      "reignEnded": "Murdered at the Red Wedding",
+      "previously": "Joffrey dies purple-faced at his own wedding feast.",
+      "paragraphs": [
+        "When Ned was seized, Robb called the banners and marched south. To cross at the Twins he promised to marry one of Lord Frey's daughters. Then he sprang a trap in the Whispering Wood that captured Jaime Lannister. Then he broke the siege of Riverrun. After Ned's head came off, Greatjon Umber stood up and declared Robb King in the North, and the lords all knelt.",
+        "He kept winning battles in the west. But his friend Theon Greyjoy took Winterfell behind him, and word came that his little brothers were dead. Wounded at the Crag, Robb slept with Jeyne Westerling and married her for honour. That broke his promise to wed a Frey daughter.",
+        "To win the Freys back he went to the Twins in 299 AC for his uncle Edmure's wedding. Walder Frey and Roose Bolton had made a deal with Tywin. When the band played, they killed Robb, his mother Catelyn and his men. Roose Bolton struck the last blow."
+      ],
+      "claims": [
+        {
+          "text": "Roose Bolton stabbed Robb and said Jaime Lannister sent his regards.",
+          "status": "confirmed",
+          "note": "Catelyn sees and hears it in her last chapter (A Storm of Swords)."
+        },
+        {
+          "text": "Robb wrote a will naming an heir other than Sansa, who was wed to a Lannister.",
+          "status": "disputed",
+          "note": "Catelyn's chapter shows him planning it (A Storm of Swords). The will's text and where it went are never shown."
+        },
+        {
+          "text": "Grey Wind sensed the trap at the Twins.",
+          "status": "legend",
+          "note": "Catelyn notes the direwolf's unease (A Storm of Swords). The northmen's tales make more of it."
+        }
+      ],
+      "hook": "Far across the narrow sea, the last of the Targaryens stands in the ashes of her husband's pyre. Something in the fire is moving.",
+      "images": [],
+      "sources": [
+        {
+          "title": "A Game of Thrones (1996)",
+          "author": "George R. R. Martin",
+          "note": "Catelyn chapters; the Whispering Wood and the King in the North"
+        },
+        {
+          "title": "A Clash of Kings (1998)",
+          "author": "George R. R. Martin",
+          "note": "Catelyn chapters"
+        },
+        {
+          "title": "A Storm of Swords (2000)",
+          "author": "George R. R. Martin",
+          "note": "Catelyn chapters; the Red Wedding"
+        }
+      ],
+      "review": {
+        "status": "draft",
+        "notes": "Drafted from the listed sources; needs a human fact-check."
+      }
+    },
+    {
+      "id": "daenerys",
+      "kind": "claimant",
+      "rulers": [
+        "daenerys"
+      ],
+      "tagline": "Walked into the fire, came out with dragons",
+      "start": {
+        "date": "0298"
+      },
+      "contestedWith": [],
+      "relationToPredecessor": "Daughter of Aerys II",
+      "ageAtAccession": "About 14",
+      "cameToPower": "Heir after her brother Viserys died",
+      "reignEnded": "Still claiming the throne",
+      "previously": "Robb Stark is murdered at the Red Wedding.",
+      "paragraphs": [
+        "Daenerys was born on Dragonstone in a storm, months after her father died, and grew up in exile with her brother Viserys. He sold her to Khal Drogo for an army. She grew strong among the Dothraki. Viserys got a crown of molten gold instead. When Drogo died in 298 AC, she put three stone eggs on his pyre and walked in. She came out unburnt with three baby dragons.",
+        "She bought the Unsullied at Astapor, then turned them on their masters. She freed the slaves of Yunkai and took Meereen. There she stayed to rule, married a local noble, Hizdahr zo Loraq, to buy peace, and struggled with poisoned plots and her own dragons eating a child.",
+        "At the reopened fighting pits, Drogon swooped in. She climbed on his back and flew away. When the books stop she is out on the Dothraki sea, sick and alone, as a khalasar rides towards her."
+      ],
+      "claims": [
+        {
+          "text": "Dany hatched three dragons in Drogo's funeral pyre and walked out unharmed.",
+          "status": "confirmed",
+          "note": "Shown in her last chapter of A Game of Thrones. Ser Jorah and the Dothraki witness it."
+        },
+        {
+          "text": "The prophecy of the prince that was promised points to her.",
+          "status": "disputed",
+          "note": "Hinted in the House of the Undying (A Clash of Kings) and debated by Maester Aemon (A Feast for Crows). Others name Stannis or Rhaegar's son."
+        },
+        {
+          "text": "She will be betrayed three times: for blood, for gold and for love.",
+          "status": "legend",
+          "note": "A warning from the Undying in Qarth (A Clash of Kings). Nobody in-world can say how much of it is true."
+        }
+      ],
+      "hook": "Back in Westeros, Robert's youngest brother has decided he doesn't need to wait his turn. Renly has the Tyrells, a hundred thousand swords and a new crown.",
+      "images": [],
+      "sources": [
+        {
+          "title": "A Game of Thrones (1996)",
+          "author": "George R. R. Martin",
+          "note": "Daenerys chapters; the pyre"
+        },
+        {
+          "title": "A Storm of Swords (2000)",
+          "author": "George R. R. Martin",
+          "note": "Daenerys chapters; Astapor, Yunkai and Meereen"
+        },
+        {
+          "title": "A Dance with Dragons (2011)",
+          "author": "George R. R. Martin",
+          "note": "Daenerys chapters; the pit of Daznak"
+        }
+      ],
+      "review": {
+        "status": "draft",
+        "notes": "Drafted from the listed sources; needs a human fact-check."
+      }
+    },
+    {
+      "id": "renly",
+      "kind": "claimant",
+      "rulers": [
+        "renly"
+      ],
+      "tagline": "The charming king killed by a shadow",
+      "start": {
+        "date": "0299"
+      },
+      "end": {
+        "date": "0299"
+      },
+      "contestedWith": [],
+      "relationToPredecessor": "Youngest brother of Robert I",
+      "ageAtAccession": "About 21",
+      "cameToPower": "Crowned himself at Highgarden",
+      "reignEnded": "Killed by a shadow",
+      "previously": "Daenerys walks out of Drogo's pyre with three dragons.",
+      "paragraphs": [
+        "Renly was the baby of the Baratheon brothers: handsome, witty and loved by everyone. Stannis was older and had the better claim, but nobody liked Stannis. When Robert died, Renly fled King's Landing and went to Highgarden. He married Margaery Tyrell and had himself crowned, with the Reach and the Stormlands behind him.",
+        "He took his time marching on the capital, holding tourneys on the way. Then Stannis besieged Storm's End, and the brothers met under a peace banner. Neither gave an inch. Renly planned to crush his brother at dawn.",
+        "The night before, in his tent, a shadow with Stannis's face cut his throat through his armour. Brienne of Tarth was there and got the blame. Most of his lords went over to Stannis by morning. The Tyrells took their army to the Lannisters instead."
+      ],
+      "claims": [
+        {
+          "text": "Melisandre gave birth to the shadow that killed Renly.",
+          "status": "disputed",
+          "note": "Davos watches her birth a shadow under Storm's End (A Clash of Kings). Renly's own camp saw only a shadow and blamed Brienne."
+        },
+        {
+          "text": "Ser Loras Tyrell was Renly's lover.",
+          "status": "disputed",
+          "note": "Hinted by Littlefinger and others and taken as fact by Cersei (A Feast for Crows). Never stated outright."
+        }
+      ],
+      "hook": "Renly's army now kneels to his brother. Stannis has the biggest host in the realm and a red priestess at his side, and King's Landing is right across the bay.",
+      "images": [],
+      "sources": [
+        {
+          "title": "A Clash of Kings (1998)",
+          "author": "George R. R. Martin",
+          "note": "Catelyn and Davos chapters; Renly's death"
+        },
+        {
+          "title": "A Game of Thrones (1996)",
+          "author": "George R. R. Martin",
+          "note": "Eddard chapters; Renly's flight"
+        }
+      ],
+      "review": {
+        "status": "draft",
+        "notes": "Drafted from the listed sources; needs a human fact-check."
+      }
+    },
+    {
+      "id": "stannis",
+      "kind": "claimant",
+      "rulers": [
+        "stannis"
+      ],
+      "tagline": "The hard man who won't bend, even in the snow",
+      "start": {
+        "date": "0299"
+      },
+      "contestedWith": [],
+      "relationToPredecessor": "Younger brother of Robert I",
+      "ageAtAccession": "About 35",
+      "cameToPower": "Claimed the throne as Robert's heir",
+      "reignEnded": "Still claiming the throne",
+      "previously": "A shadow kills Renly. His lords go over to Stannis.",
+      "paragraphs": [
+        "Stannis was the stern middle brother who held Storm's End through a starving siege in the rebellion. He knew the incest secret and told the realm Joffrey was a bastard. With the red priestess Melisandre at his side, he burned the statues of the Seven on Dragonstone and claimed to be Azor Ahai reborn.",
+        "In 299 AC he sailed for King's Landing. At the Blackwater, Tyrion's wildfire wrecked his fleet and the Tyrells hit his flank. He fled back to Dragonstone, beaten. His Hand Davos, the onion knight, talked him into answering a plea from the Night's Watch instead.",
+        "He rode north and smashed Mance Rayder's wildlings at the Wall. Then he took Deepwood Motte and marched on Winterfell, held by the Boltons. When the books stop he is snowed in at a crofters' village with his army starving."
+      ],
+      "claims": [
+        {
+          "text": "Stannis is Azor Ahai reborn and drew the hero's sword Lightbringer.",
+          "status": "disputed",
+          "note": "Melisandre preaches it (A Clash of Kings). Maester Aemon notes the sword gives off no heat (A Feast for Crows)."
+        },
+        {
+          "text": "Stannis is dead and his army destroyed outside Winterfell.",
+          "status": "disputed",
+          "note": "Ramsay Bolton boasts of it in his letter to Jon Snow (A Dance with Dragons). Nobody can tell if it's true."
+        }
+      ],
+      "hook": "While Stannis fights for the south, the North is wide open. On a rock in the western sea, an old enemy of the Starks puts on a crown of driftwood.",
+      "images": [],
+      "sources": [
+        {
+          "title": "A Clash of Kings (1998)",
+          "author": "George R. R. Martin",
+          "note": "Prologue and Davos chapters; the Blackwater"
+        },
+        {
+          "title": "A Storm of Swords (2000)",
+          "author": "George R. R. Martin",
+          "note": "Davos and Jon chapters; the battle at the Wall"
+        },
+        {
+          "title": "A Dance with Dragons (2011)",
+          "author": "George R. R. Martin",
+          "note": "Jon and Asha chapters; the march on Winterfell"
+        }
+      ],
+      "review": {
+        "status": "draft",
+        "notes": "Drafted from the listed sources; needs a human fact-check."
+      }
+    },
+    {
+      "id": "balon",
+      "kind": "claimant",
+      "rulers": [
+        "balon"
+      ],
+      "title": "Balon Greyjoy",
+      "tagline": "The ironborn king who tried it twice",
+      "start": {
+        "date": "0299"
+      },
+      "end": {
+        "date": "0299"
+      },
+      "contestedWith": [],
+      "relationToPredecessor": "Lord Reaper of Pyke",
+      "ageAtAccession": "Unknown",
+      "cameToPower": "Crowned himself at Pyke",
+      "reignEnded": "Fell from a bridge at Pyke",
+      "previously": "Stannis loses at the Blackwater and turns north.",
+      "paragraphs": [
+        "Balon was Lord of the Iron Islands and dreamed of the Old Way, when the ironborn lived by raiding. In 289 AC he crowned himself and rebelled. Robert crushed him, burned his fleet and took his last son, Theon, as a hostage to Winterfell. Two of Balon's older sons died in that war.",
+        "With the realm at war in 299 AC, he tried again. He named himself King of the Isles and the North and sent his fleet at the empty North. His daughter Asha took Deepwood Motte, his brother Victarion Moat Cailin. Theon, desperate to impress him, seized Winterfell itself.",
+        "It fell apart quickly. Theon lost Winterfell. Then, on a stormy day at Pyke, Balon was crossing a rope bridge between the castle's towers when it bucked under him and he fell to his death on the rocks."
+      ],
+      "claims": [
+        {
+          "text": "Balon's death was arranged by his brother Euron.",
+          "status": "disputed",
+          "note": "Euron's ship came back to the isles the day after Balon died, and Aeron suspects him (A Feast for Crows). Nothing is proven."
+        },
+        {
+          "text": "Balon's ironborn took Moat Cailin and Deepwood Motte.",
+          "status": "confirmed",
+          "note": "Reported throughout A Clash of Kings and confirmed by Asha's own chapters in A Feast for Crows."
+        }
+      ],
+      "hook": "Joffrey is dead and the crown passes to his gentle little brother. Cersei means to rule through him, whatever the Tyrells or the gods think.",
+      "images": [],
+      "sources": [
+        {
+          "title": "A Clash of Kings (1998)",
+          "author": "George R. R. Martin",
+          "note": "Theon chapters; Balon's crowning"
+        },
+        {
+          "title": "A Feast for Crows (2005)",
+          "author": "George R. R. Martin",
+          "note": "The Prophet and Asha chapters; Balon's death and the kingsmoot"
+        },
+        {
+          "title": "The World of Ice & Fire (2014)",
+          "author": "George R. R. Martin, Elio M. García Jr. and Linda Antonsson",
+          "note": "The Iron Islands; the Greyjoy Rebellion"
+        }
+      ],
+      "review": {
+        "status": "draft",
+        "notes": "Drafted from the listed sources; needs a human fact-check."
+      }
+    },
+    {
+      "id": "tommen-i",
+      "kind": "monarch",
+      "rulers": [
+        "tommen-i"
+      ],
+      "tagline": "A sweet boy king in a city of knives",
+      "start": {
+        "date": "0300"
+      },
+      "contestedWith": [],
+      "relationToPredecessor": "Brother of Joffrey I",
+      "ageAtAccession": "About 9",
+      "cameToPower": "Inherited after Joffrey's death",
+      "reignEnded": "Still on the throne",
+      "previously": "Balon Greyjoy falls from a bridge in a storm at Pyke.",
+      "paragraphs": [
+        "Tommen was kind and loved his kittens. Like his brother, his real father was Jaime. Crowned in 300 AC, he married Joffrey's widow Margaery. Tyrion was convicted, escaped and killed their grandfather Tywin on the privy. So Cersei ran the realm as regent and filled the council with yes-men.",
+        "To fight the Tyrells she made a deal with the new High Septon, a barefoot sparrow. She let the Faith arm itself again as the Warrior's Sons. It backfired. The Faith arrested Margaery for adultery, then Cersei too. Cersei won her release by walking naked through the city, with crowds jeering all the way to the Red Keep.",
+        "Ser Kevan Lannister took over as regent and began fixing things. Then Varys shot him with a crossbow and told him he was in the way of Rhaegar's son."
+      ],
+      "claims": [
+        {
+          "text": "Varys killed Kevan Lannister and Grand Maester Pycelle.",
+          "status": "confirmed",
+          "note": "Shown in the epilogue of A Dance with Dragons, seen through Kevan's eyes."
+        },
+        {
+          "text": "Cersei will be brought down by a younger queen and killed by the valonqar.",
+          "status": "legend",
+          "note": "The witch Maggy's prophecy, which Cersei remembers in A Feast for Crows. Cersei believes it. Nobody else knows."
+        },
+        {
+          "text": "Ser Robert Strong is the dead Gregor Clegane, brought back by Qyburn.",
+          "status": "disputed",
+          "note": "Strongly hinted in A Feast for Crows and A Dance with Dragons. Qyburn never says so, and the knight never speaks."
+        }
+      ],
+      "hook": "Kevan dies in the dark. In the Stormlands, a young man with blue-dyed hair and the Golden Company behind him says he is Rhaegar's lost son, and the true king.",
+      "images": [],
+      "sources": [
+        {
+          "title": "A Storm of Swords (2000)",
+          "author": "George R. R. Martin",
+          "note": "Tyrion and Jaime chapters; Tommen's accession"
+        },
+        {
+          "title": "A Feast for Crows (2005)",
+          "author": "George R. R. Martin",
+          "note": "Cersei chapters; the Faith Militant"
+        },
+        {
+          "title": "A Dance with Dragons (2011)",
+          "author": "George R. R. Martin",
+          "note": "Cersei chapter and epilogue"
+        }
+      ],
+      "review": {
+        "status": "draft",
+        "notes": "Drafted from the listed sources; needs a human fact-check."
+      }
+    },
+    {
+      "id": "young-griff",
+      "kind": "claimant",
+      "rulers": [
+        "young-griff"
+      ],
+      "tagline": "The dead prince who came back. Or did he?",
+      "start": {
+        "date": "0300"
+      },
+      "contestedWith": [],
+      "relationToPredecessor": "Claims to be Rhaegar's son",
+      "ageAtAccession": "About 18",
+      "cameToPower": "Landed with the Golden Company",
+      "reignEnded": "Still claiming the throne",
+      "previously": "Varys murders Regent Kevan Lannister in the Red Keep.",
+      "paragraphs": [
+        "Everybody knew Rhaegar's baby son Aegon died in the Sack of King's Landing, his head smashed against a wall. Varys says otherwise. His story is that another baby was swapped in, and the real prince was smuggled across the sea. There he grew up in hiding as Young Griff, trained by his father's old friend Jon Connington.",
+        "The plan was to join Daenerys. On the boat, a captured dwarf named Tyrion told the boy he should go west alone and make her come to him. So in 300 AC he sailed with the Golden Company, landed in the Stormlands and took Griffin's Roost.",
+        "Then he took Storm's End itself. When the books stop, Lannisters, Tyrells and Stannis all have someone new to worry about. A Targaryen with an army is back in Westeros, and nobody knows for sure if he's real."
+      ],
+      "claims": [
+        {
+          "text": "He is Aegon, son of Rhaegar and Elia, swapped as a baby for another child.",
+          "status": "disputed",
+          "note": "Varys tells Kevan so (A Dance with Dragons, epilogue). Only Varys and Illyrio vouch for it, and both are plotters."
+        },
+        {
+          "text": "His army took Storm's End.",
+          "status": "confirmed",
+          "note": "Reported to Kevan Lannister in the epilogue of A Dance with Dragons."
+        },
+        {
+          "text": "Jon Connington is dying of greyscale he caught saving Tyrion.",
+          "status": "confirmed",
+          "note": "Shown in Connington's own chapters of A Dance with Dragons. He hides it from everyone."
+        }
+      ],
+      "images": [],
+      "sources": [
+        {
+          "title": "A Dance with Dragons (2011)",
+          "author": "George R. R. Martin",
+          "note": "Tyrion chapters on the Shy Maid; The Griffin Reborn; epilogue"
+        },
+        {
+          "title": "A Game of Thrones (1996)",
+          "author": "George R. R. Martin",
+          "note": "Eddard chapters; Prince Aegon's death at the sack"
+        }
+      ],
+      "review": {
+        "status": "draft",
+        "notes": "Drafted from the listed sources; needs a human fact-check."
+      }
+    }
+  ]
+}

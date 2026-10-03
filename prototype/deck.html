@@ -108,7 +108,8 @@ button, input { font: inherit; color: inherit; }
   background: var(--tile); border-radius: var(--r-sm);
   display: flex; align-items: center; justify-content: center; overflow: hidden;
 }
-.portrait .banner { height: 86%; width: auto; display: block; }
+.portrait:has(.banner) { height: clamp(180px, 28vh, 240px); }
+.portrait .banner { height: 84%; width: auto; display: block; }
 .portrait img { max-height: 100%; max-width: 100%; object-fit: contain; display: block; -webkit-user-drag: none; user-select: none; }
 
 .title { display: grid; gap: var(--s0); text-align: center; justify-items: center; }
@@ -398,11 +399,13 @@ const img = g => `img/${country}/${g.id}.jpg`;
 const initial = g => reignName(g).replace(/^(The|King|Queen)\s+/, "")[0];
 const banner = g => {
   const c = reignHouses(g)[0]?.color ?? "#6f665a";
+  const num = (reignName(g).match(/\s([IVX]+)$/) ?? [])[1] ?? "";
   return `<svg class="banner" viewBox="0 0 120 190" role="img" aria-label="Banner of ${esc(houseLabel(g))}">
     <rect x="4" y="6" width="112" height="6" rx="3" fill="#8d8780"/>
     <path d="M14 12H106V176L60 150L14 176Z" fill="${c}"/>
     <path d="M22 20H98V160L60 139L22 160Z" fill="none" stroke="#fbf9f4" stroke-opacity=".45" stroke-width="1.5"/>
-    <text x="60" y="98" text-anchor="middle" font-family="IM Fell English, serif" font-size="64" fill="#fbf9f4">${esc(initial(g))}</text>
+    <text x="60" y="${num ? 88 : 98}" text-anchor="middle" font-family="IM Fell English, serif" font-size="64" fill="#fbf9f4">${esc(initial(g))}</text>
+    ${num ? `<text x="60" y="122" text-anchor="middle" font-family="IM Fell English, serif" font-size="22" letter-spacing="2" fill="#fbf9f4" fill-opacity=".85">${num}</text>` : ""}
   </svg>`;
 };
 
@@ -430,7 +433,7 @@ function card(g, i) {
       <p class="tagline">${esc(g.tagline)}</p>
     </div>
     <dl class="facts">
-      <div><dt>Reign</dt><dd>${length(g.start, g.end ?? NOW)}</dd></div>
+      <div><dt>Reign</dt><dd>${!g.end && DATA.present ? "Ongoing" : length(g.start, g.end ?? NOW)}</dd></div>
       <div><dt>Age</dt><dd>${esc(g.ageAtAccession)}</dd></div>
       <div><dt>Got it</dt><dd>${esc(g.cameToPower)}</dd></div>
       <div><dt>${g.end ? "Lost it" : "Now"}</dt><dd>${esc(g.reignEnded)}</dd></div>

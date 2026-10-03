@@ -106,8 +106,8 @@ for (const name of readdirSync(dataDir).filter((f) => f.endsWith(".json"))) {
 
     for (const d of [g.start, g.end]) if (d && !plausible(d)) err(where, `impossible date ${d.date}`);
     if (g.end && key(g.end) < key(g.start)) err(where, "ends before it starts");
-    // Rival claims can still be live when the story stops (Stannis and Daenerys in 300 AC).
-    if (!g.end && i !== c.reigns.length - 1 && g.kind !== "claimant") err(where, "only the last reign may be open-ended");
+    // A story frozen at a fixed "present" (Westeros in 300 AC) can leave several reigns and claims running.
+    if (!g.end && i !== c.reigns.length - 1 && g.kind !== "claimant" && !c.present) err(where, "only the last reign may be open-ended");
 
     const dead: string[] = [];
     for (const id of g.rulers) {
