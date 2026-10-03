@@ -1,0 +1,2013 @@
+{
+  "id": "japan",
+  "name": "Japan",
+  "blurb": "From the unifiers and the shoguns to the emperors since 1868",
+  "dateConvention": "This deck follows whoever actually ran Japan: the three unifiers, the Tokugawa shoguns, then the emperors from the Meiji Restoration. Dates before 1873 are converted from the Japanese lunar calendar; shogun terms are given by year.",
+  "houses": [
+    {
+      "id": "oda",
+      "name": "Oda",
+      "color": "#9b4a2c"
+    },
+    {
+      "id": "toyotomi",
+      "name": "Toyotomi",
+      "color": "#b8932e"
+    },
+    {
+      "id": "tokugawa",
+      "name": "Tokugawa",
+      "color": "#2e6b4f"
+    },
+    {
+      "id": "yamato",
+      "name": "Yamato",
+      "color": "#9b2c2c"
+    }
+  ],
+  "rulers": [
+    {
+      "id": "oda-nobunaga",
+      "name": "Oda Nobunaga",
+      "house": "oda",
+      "born": {
+        "date": "1534-06-23",
+        "note": "Owari Province"
+      },
+      "died": {
+        "date": "1582-06-21",
+        "note": "Honnō-ji, Kyoto"
+      },
+      "causeOfDeath": "Suicide as Honnō-ji burned around him"
+    },
+    {
+      "id": "toyotomi-hideyoshi",
+      "name": "Toyotomi Hideyoshi",
+      "house": "toyotomi",
+      "born": {
+        "date": "1537",
+        "circa": true,
+        "note": "Nakamura, Owari Province; 1536 is also given"
+      },
+      "died": {
+        "date": "1598-09-18",
+        "note": "Fushimi Castle, near Kyoto"
+      },
+      "causeOfDeath": "Illness"
+    },
+    {
+      "id": "tokugawa-ieyasu",
+      "name": "Tokugawa Ieyasu",
+      "house": "tokugawa",
+      "born": {
+        "date": "1543-01-31",
+        "note": "Okazaki Castle, Mikawa Province"
+      },
+      "died": {
+        "date": "1616-06-01",
+        "note": "Sunpu Castle, Suruga Province"
+      },
+      "causeOfDeath": "Illness"
+    },
+    {
+      "id": "tokugawa-hidetada",
+      "name": "Tokugawa Hidetada",
+      "house": "tokugawa",
+      "born": {
+        "date": "1579-05-02",
+        "note": "Hamamatsu, Tōtōmi Province"
+      },
+      "died": {
+        "date": "1632-03-14",
+        "note": "Edo"
+      },
+      "causeOfDeath": "Illness"
+    },
+    {
+      "id": "tokugawa-iemitsu",
+      "name": "Tokugawa Iemitsu",
+      "house": "tokugawa",
+      "born": {
+        "date": "1604-08-12",
+        "note": "Edo Castle"
+      },
+      "died": {
+        "date": "1651-06-08",
+        "note": "Edo Castle"
+      },
+      "causeOfDeath": "Illness"
+    },
+    {
+      "id": "tokugawa-ietsuna",
+      "name": "Tokugawa Ietsuna",
+      "house": "tokugawa",
+      "born": {
+        "date": "1641-09-07",
+        "note": "Edo Castle"
+      },
+      "died": {
+        "date": "1680-06-04",
+        "note": "Edo Castle"
+      },
+      "causeOfDeath": "Illness"
+    },
+    {
+      "id": "tokugawa-tsunayoshi",
+      "name": "Tokugawa Tsunayoshi",
+      "epithet": "the Dog Shogun",
+      "house": "tokugawa",
+      "born": {
+        "date": "1646-02-23",
+        "note": "Edo Castle"
+      },
+      "died": {
+        "date": "1709-02-19",
+        "note": "Edo Castle"
+      },
+      "causeOfDeath": "Measles"
+    },
+    {
+      "id": "tokugawa-ienobu",
+      "name": "Tokugawa Ienobu",
+      "house": "tokugawa",
+      "born": {
+        "date": "1662-06-11",
+        "note": "Edo"
+      },
+      "died": {
+        "date": "1712-11-12",
+        "note": "Edo Castle"
+      },
+      "causeOfDeath": "Illness"
+    },
+    {
+      "id": "tokugawa-ietsugu",
+      "name": "Tokugawa Ietsugu",
+      "house": "tokugawa",
+      "born": {
+        "date": "1709-08-08",
+        "note": "Edo"
+      },
+      "died": {
+        "date": "1716-06-19",
+        "note": "Edo Castle"
+      },
+      "causeOfDeath": "Illness, aged six"
+    },
+    {
+      "id": "tokugawa-yoshimune",
+      "name": "Tokugawa Yoshimune",
+      "epithet": "the Rice Shogun",
+      "house": "tokugawa",
+      "born": {
+        "date": "1684-11-27",
+        "note": "Wakayama, Kii province"
+      },
+      "died": {
+        "date": "1751-07-12",
+        "note": "Edo Castle"
+      },
+      "causeOfDeath": "Illness, after a stroke"
+    },
+    {
+      "id": "tokugawa-ieshige",
+      "name": "Tokugawa Ieshige",
+      "house": "tokugawa",
+      "born": {
+        "date": "1712-01-28",
+        "note": "Edo"
+      },
+      "died": {
+        "date": "1761-07-13",
+        "note": "Edo Castle"
+      },
+      "causeOfDeath": "Illness"
+    },
+    {
+      "id": "tokugawa-ieharu",
+      "name": "Tokugawa Ieharu",
+      "house": "tokugawa",
+      "born": {
+        "date": "1737-06-20",
+        "note": "Edo Castle"
+      },
+      "died": {
+        "date": "1786-09-17",
+        "note": "Edo Castle; announced some days later"
+      },
+      "causeOfDeath": "Illness"
+    },
+    {
+      "id": "tokugawa-ienari",
+      "name": "Tokugawa Ienari",
+      "house": "tokugawa",
+      "born": {
+        "date": "1773-11-18",
+        "note": "Hitotsubashi mansion, Edo"
+      },
+      "died": {
+        "date": "1841-03-22",
+        "note": "Edo Castle"
+      },
+      "causeOfDeath": "Illness"
+    },
+    {
+      "id": "tokugawa-ieyoshi",
+      "name": "Tokugawa Ieyoshi",
+      "house": "tokugawa",
+      "born": {
+        "date": "1793-06-22",
+        "note": "Edo Castle"
+      },
+      "died": {
+        "date": "1853-07-27",
+        "note": "Edo Castle"
+      },
+      "causeOfDeath": "Illness, often said to be heatstroke"
+    },
+    {
+      "id": "tokugawa-iesada",
+      "name": "Tokugawa Iesada",
+      "house": "tokugawa",
+      "born": {
+        "date": "1824-05-06",
+        "note": "Edo Castle"
+      },
+      "died": {
+        "date": "1858-08-14",
+        "note": "Edo Castle"
+      },
+      "causeOfDeath": "Illness, possibly cholera or beriberi"
+    },
+    {
+      "id": "tokugawa-iemochi",
+      "name": "Tokugawa Iemochi",
+      "house": "tokugawa",
+      "born": {
+        "date": "1846-07-17",
+        "note": "Kii domain mansion, Edo"
+      },
+      "died": {
+        "date": "1866-08-29",
+        "note": "Osaka Castle"
+      },
+      "causeOfDeath": "Beriberi"
+    },
+    {
+      "id": "tokugawa-yoshinobu",
+      "name": "Tokugawa Yoshinobu",
+      "house": "tokugawa",
+      "born": {
+        "date": "1837-10-28",
+        "note": "Mito domain residence, Edo"
+      },
+      "died": {
+        "date": "1913-11-22",
+        "note": "Tokyo"
+      },
+      "causeOfDeath": "Pneumonia"
+    },
+    {
+      "id": "meiji",
+      "name": "Emperor Meiji",
+      "house": "yamato",
+      "born": {
+        "date": "1852-11-03",
+        "note": "Kyoto"
+      },
+      "died": {
+        "date": "1912-07-30",
+        "note": "Tokyo"
+      },
+      "causeOfDeath": "Kidney failure (uraemia), with diabetes"
+    },
+    {
+      "id": "taisho",
+      "name": "Emperor Taishō",
+      "house": "yamato",
+      "born": {
+        "date": "1879-08-31",
+        "note": "Tokyo"
+      },
+      "died": {
+        "date": "1926-12-25",
+        "note": "Hayama, Kanagawa"
+      },
+      "causeOfDeath": "Pneumonia, after years of illness"
+    },
+    {
+      "id": "showa",
+      "name": "Emperor Hirohito",
+      "house": "yamato",
+      "born": {
+        "date": "1901-04-29",
+        "note": "Aoyama Palace, Tokyo"
+      },
+      "died": {
+        "date": "1989-01-07",
+        "note": "Imperial Palace, Tokyo"
+      },
+      "causeOfDeath": "Duodenal cancer"
+    },
+    {
+      "id": "akihito",
+      "name": "Emperor Akihito",
+      "house": "yamato",
+      "born": {
+        "date": "1933-12-23",
+        "note": "Tokyo"
+      }
+    },
+    {
+      "id": "naruhito",
+      "name": "Emperor Naruhito",
+      "house": "yamato",
+      "born": {
+        "date": "1960-02-23",
+        "note": "Tokyo"
+      }
+    }
+  ],
+  "reigns": [
+    {
+      "id": "oda-nobunaga",
+      "kind": "leader",
+      "rulers": [
+        "oda-nobunaga"
+      ],
+      "tagline": "The ruthless warlord who started putting Japan back together",
+      "start": {
+        "date": "1568-11-09"
+      },
+      "end": {
+        "date": "1582-06-21"
+      },
+      "contestedWith": [],
+      "relationToPredecessor": "None; a provincial warlord",
+      "ageAtAccession": "34",
+      "cameToPower": "Marched into Kyoto with his army",
+      "reignEnded": "Betrayed at Honnō-ji",
+      "previously": "A century of civil war. Emperor and shogun are powerless figureheads.",
+      "paragraphs": [
+        "Japan in the 1560s has two rulers and no government. The emperor sits in Kyoto, powerless and broke. The Ashikaga shogun is a puppet. Real power belongs to dozens of warlords fighting over every province. Oda Nobunaga starts as a minor lord in Owari, mocked as “the fool of Owari”. In 1560 he ambushes a far bigger army at Okehazama and kills its commander, Imagawa Yoshimoto.",
+        "In 1568 he marches into Kyoto and installs Ashikaga Yoshiaki as shogun. Five years later he throws Yoshiaki out, and the Ashikaga shogunate is finished. He burns the warrior monks’ temples on Mount Hiei, killing thousands. At Nagashino in 1575 his gunmen, firing from behind wooden fences, cut the Takeda army to pieces. He builds a dazzling castle at Azuchi and welcomes Jesuits and foreign traders.",
+        "By 1582 he controls much of central Japan. Then his general Akechi Mitsuhide, sent west to reinforce Hideyoshi, turns his army around. At dawn on 21 June he surrounds the Kyoto temple of Honnō-ji, where Nobunaga is staying with a small guard. Nobunaga fights, then kills himself as the building burns. His eldest son and heir dies the same day."
+      ],
+      "claims": [
+        {
+          "text": "An African man the Jesuits called Yasuke became Nobunaga’s retainer and fought on the night of Honnō-ji.",
+          "status": "confirmed",
+          "note": "He appears in a manuscript of Ōta Gyūichi’s chronicle and in Jesuit letters, which say he fought at the heir’s residence before surrendering."
+        },
+        {
+          "text": "At Nagashino, Nobunaga’s gunners fired in three rotating ranks to keep up a nonstop volley.",
+          "status": "disputed",
+          "note": "The three-rank system comes from later Edo-period accounts. Ōta Gyūichi, who was close to events, doesn’t describe it, and many historians now doubt it."
+        },
+        {
+          "text": "Nobunaga’s body was never found.",
+          "status": "confirmed",
+          "note": "Japanese chronicles and Jesuit reports agree no remains were recovered from the ashes, which fed rumours for years."
+        }
+      ],
+      "hook": "Akechi holds Kyoto, but not for long. Far to the west, Hideyoshi hears the news while besieging a Mōri castle. He keeps it quiet, makes peace in a hurry and races his army back towards the capital.",
+      "images": [
+        {
+          "file": "File:Odanobunaga.jpg",
+          "url": "https://upload.wikimedia.org/wikipedia/commons/3/36/Odanobunaga.jpg",
+          "page": "https://commons.wikimedia.org/wiki/File:Odanobunaga.jpg",
+          "credit": "Kanō Sōshū",
+          "license": "Public domain",
+          "made": "1583",
+          "caption": "Painted by Kanō Sōshū in 1583, a year after Nobunaga’s death.",
+          "alt": "Painted portrait of Oda Nobunaga seated in formal dress"
+        }
+      ],
+      "sources": [
+        {
+          "title": "The Chronicle of Lord Nobunaga (Shinchō kōki)",
+          "author": "Ōta Gyūichi",
+          "note": "Trans. J. S. A. Elisonas and J. P. Lamers, Brill, 2011"
+        },
+        {
+          "title": "Japonius Tyrannus: The Japanese Warlord Oda Nobunaga Reconsidered",
+          "author": "Jeroen P. Lamers",
+          "note": "Hotei Publishing, 2000"
+        },
+        {
+          "title": "Warlords, Artists, and Commoners: Japan in the Sixteenth Century",
+          "author": "George Elison and Bardwell L. Smith (eds)",
+          "note": "University of Hawai‘i Press, 1981"
+        },
+        {
+          "title": "Historia de Japam",
+          "author": "Luís Fróis",
+          "note": "Jesuit eyewitness history"
+        }
+      ],
+      "review": {
+        "status": "draft",
+        "notes": "Drafted from the listed sources; needs a human fact-check."
+      }
+    },
+    {
+      "id": "toyotomi-hideyoshi",
+      "kind": "leader",
+      "rulers": [
+        "toyotomi-hideyoshi"
+      ],
+      "tagline": "The peasant’s son who rose to rule all Japan",
+      "start": {
+        "date": "1582-07-02"
+      },
+      "end": {
+        "date": "1598-09-18"
+      },
+      "contestedWith": [],
+      "relationToPredecessor": "Nobunaga’s top general",
+      "ageAtAccession": "About 45",
+      "cameToPower": "Avenged Nobunaga at Yamazaki",
+      "reignEnded": "Died of illness at Fushimi",
+      "previously": "Nobunaga dies at Honnō-ji, betrayed by his general Akechi Mitsuhide.",
+      "paragraphs": [
+        "Hideyoshi was born a peasant’s son in Owari and started out as a foot soldier. He had no family name, no looks and, people joked, the face of a monkey. He also had a genius for people and logistics, and he climbed to become Nobunaga’s best general. Eleven days after Honnō-ji he crushed Akechi Mitsuhide at Yamazaki. Avenging his master made him the obvious man to take over.",
+        "Within a year he had beaten Nobunaga’s senior general Shibata Katsuie and started building Osaka Castle. The emperor in Kyoto was still powerless, but happy to hand out titles. Too lowborn to be shogun, Hideyoshi became imperial regent instead. By 1590, after conquering Kyushu and taking Odawara from the Hōjō, all Japan answered to him. His great “sword hunt” disarmed the peasants, and new rules froze everyone in their class.",
+        "Then he wanted China. In 1592 his armies stormed through Korea, but Admiral Yi Sun-sin wrecked his supply fleets and Ming China sent armies. A second invasion in 1597 bogged down too. At home he forced his nephew and heir Hidetsugu to kill himself, clearing the way for his baby son Hideyori. Dying in 1598, he begged five great lords to guard the boy. The troops came home from Korea."
+      ],
+      "claims": [
+        {
+          "text": "As a lowly servant, he won Nobunaga’s favour by warming his master’s sandals inside his shirt.",
+          "status": "legend",
+          "note": "The story comes from Edo-period popular biographies written long after his death. There’s no contemporary evidence."
+        },
+        {
+          "text": "Nobunaga nicknamed him “Monkey”.",
+          "status": "disputed",
+          "note": "It’s a strong tradition, but the surviving evidence is a letter from Nobunaga to Hideyoshi’s wife that calls him a “bald rat” instead."
+        },
+        {
+          "text": "Kyoto’s Mimizuka mound holds noses cut from Korean dead and shipped home as war trophies.",
+          "status": "confirmed",
+          "note": "Japanese and Korean records describe noses collected as proof of kills. The mound dates from 1597 and still stands near the Toyotomi shrine."
+        }
+      ],
+      "hook": "The regents swear to protect five-year-old Hideyori. Within two years Tokugawa Ieyasu is bending every rule, and Ishida Mitsunari raises an army to stop him. In 1600 the two sides meet at Sekigahara.",
+      "images": [
+        {
+          "file": "File:Toyotomi hideyoshi.jpg",
+          "url": "https://upload.wikimedia.org/wikipedia/commons/7/7f/Toyotomi_hideyoshi.jpg",
+          "page": "https://commons.wikimedia.org/wiki/File:Toyotomi_hideyoshi.jpg",
+          "credit": "Kanō Mitsunobu",
+          "license": "Public domain",
+          "made": "c. 1601",
+          "caption": "Painted by Kanō Mitsunobu around 1601, a few years after his death; held at the temple of Kōdai-ji.",
+          "alt": "Painted portrait of Toyotomi Hideyoshi seated in formal court dress"
+        }
+      ],
+      "sources": [
+        {
+          "title": "Hideyoshi",
+          "author": "Mary Elizabeth Berry",
+          "note": "Harvard University Press, 1982"
+        },
+        {
+          "title": "A Dragon’s Head and a Serpent’s Tail: Ming China and the First Great East Asian War, 1592–1598",
+          "author": "Kenneth M. Swope",
+          "note": "University of Oklahoma Press, 2009"
+        },
+        {
+          "title": "Historia de Japam",
+          "author": "Luís Fróis",
+          "note": "Jesuit eyewitness history"
+        }
+      ],
+      "review": {
+        "status": "draft",
+        "notes": "Drafted from the listed sources; needs a human fact-check."
+      }
+    },
+    {
+      "id": "tokugawa-ieyasu",
+      "kind": "leader",
+      "rulers": [
+        "tokugawa-ieyasu"
+      ],
+      "tagline": "The patient man who outlasted everyone",
+      "start": {
+        "date": "1600-10-21"
+      },
+      "end": {
+        "date": "1605"
+      },
+      "contestedWith": [],
+      "relationToPredecessor": "One of Hideyoshi’s five regents",
+      "ageAtAccession": "57",
+      "cameToPower": "Won the Battle of Sekigahara",
+      "reignEnded": "Retired, but kept pulling the strings",
+      "previously": "Hideyoshi is dead, his heir is five, and the regents are at war.",
+      "paragraphs": [
+        "Ieyasu spent his childhood as a hostage, passed between rival clans. He learned to wait. As Nobunaga’s ally and then Hideyoshi’s biggest vassal, he swallowed humiliations and kept growing richer. Hideyoshi moved him east to the Kantō, hoping to sideline him. Ieyasu made a small castle town called Edo his base.",
+        "On 21 October 1600 he met Ishida Mitsunari’s western army at Sekigahara. Mid-battle, Kobayakawa Hideaki switched sides and the western army collapsed. In 1603 the powerless emperor in Kyoto named Ieyasu shogun. Two years later he handed the title to his son Hidetada, to show everyone it would stay in the family.",
+        "Retirement was for show. From his castle at Sunpu, Ieyasu still made the big decisions. Hideyoshi’s son Hideyori, now a grown man, sat in Osaka Castle with a fortune and plenty of masterless samurai. Ieyasu picked a fight and besieged Osaka in 1614. In 1615 the castle fell, and Hideyori and his mother died as it burned. A year later Ieyasu was dead too, and soon worshipped as a god at Nikkō."
+      ],
+      "claims": [
+        {
+          "text": "Ieyasu was killed by a meal of fried sea bream.",
+          "status": "disputed",
+          "note": "Tokugawa records say he fell ill after eating fried tai in early 1616, but he lived about three more months. A disease such as stomach cancer is a likelier killer."
+        },
+        {
+          "text": "He started the war on Osaka over the wording on a temple bell.",
+          "status": "confirmed",
+          "note": "Hideyori’s new bell at Hōkō-ji carried a phrase his men read as splitting Ieyasu’s name. It’s well documented, and clearly a pretext."
+        },
+        {
+          "text": "Kobayakawa only changed sides after Ieyasu’s guns fired on his camp.",
+          "status": "disputed",
+          "note": "The famous story comes from later Edo-period accounts. Some historians now argue he turned on the western army right at the start."
+        }
+      ],
+      "hook": "Hidetada wears the title, but while his father lives the real orders come from Sunpu. When the old man dies in 1616, the second shogun finally has to rule on his own.",
+      "images": [
+        {
+          "file": "File:Tokugawa Ieyasu2.JPG",
+          "url": "https://upload.wikimedia.org/wikipedia/commons/1/11/Tokugawa_Ieyasu2.JPG",
+          "page": "https://commons.wikimedia.org/wiki/File:Tokugawa_Ieyasu2.JPG",
+          "credit": "Kanō Tan'yū",
+          "license": "Public domain",
+          "made": "17th century",
+          "caption": "By Kanō Tan’yū, painter to the shoguns, in the early Edo period.",
+          "alt": "Painted portrait of Tokugawa Ieyasu"
+        }
+      ],
+      "sources": [
+        {
+          "title": "Tokugawa Ieyasu: Shogun",
+          "author": "Conrad Totman",
+          "note": "Heian International, 1983"
+        },
+        {
+          "title": "The Maker of Modern Japan: The Life of Tokugawa Ieyasu",
+          "author": "A. L. Sadler",
+          "note": "1937"
+        },
+        {
+          "title": "Tokugawa jikki",
+          "author": "Tokugawa shogunate",
+          "note": "Official chronicle of the shoguns, compiled in the 19th century"
+        }
+      ],
+      "review": {
+        "status": "draft",
+        "notes": "Drafted from the listed sources; needs a human fact-check."
+      }
+    },
+    {
+      "id": "tokugawa-hidetada",
+      "kind": "leader",
+      "rulers": [
+        "tokugawa-hidetada"
+      ],
+      "tagline": "The son who missed the big battle, then built the system",
+      "start": {
+        "date": "1605"
+      },
+      "end": {
+        "date": "1623"
+      },
+      "contestedWith": [],
+      "relationToPredecessor": "Third son of Tokugawa Ieyasu",
+      "ageAtAccession": "25",
+      "cameToPower": "Handed the title by his father",
+      "reignEnded": "Retired in favour of his son",
+      "previously": "Ieyasu hands the shogun’s title to his son but keeps the real power.",
+      "paragraphs": [
+        "Hidetada’s big moment went wrong. Marching to Sekigahara with a large army, he stopped to besiege the Sanada family at Ueda Castle, got stuck, and arrived after the battle was over. His father was furious. Still, Ieyasu made Hidetada his heir. He wanted a steady administrator, and that is what he got.",
+        "After 1616 Hidetada ruled alone and ruled hard. He took land from lords who broke the rules, even relatives, and tightened his grip on the imperial court. He married his daughter Kazuko to Emperor Go-Mizunoo; their daughter would later sit on the throne as a powerless empress. He hunted Christians, and in 1622 had dozens burned or beheaded at Nagasaki.",
+        "In 1623 he copied his father’s trick. He retired, handed the title to his son Iemitsu, and kept control from the background until his death in 1632."
+      ],
+      "claims": [
+        {
+          "text": "Hidetada missed Sekigahara because he was stuck besieging Ueda Castle.",
+          "status": "confirmed",
+          "note": "Contemporary records show his army arrived days after the battle. How angry Ieyasu was comes mostly from later anecdotes."
+        },
+        {
+          "text": "Hidetada and his wife wanted their younger son Tadanaga as heir, until Iemitsu’s nurse went over their heads to Ieyasu.",
+          "status": "disputed",
+          "note": "The tale of the nurse Kasuga no Tsubone is famous but told in later Edo-period sources, and the details are uncertain."
+        },
+        {
+          "text": "In September 1622, 55 Christians were executed together at Nagasaki.",
+          "status": "confirmed",
+          "note": "Missionary reports list the victims by name. The Church later beatified them."
+        }
+      ],
+      "hook": "Iemitsu is shogun at nineteen, but his father is still watching. When Hidetada dies in 1632, the new shogun is free at last, and his brother Tadanaga is the first to find out what that means.",
+      "images": [
+        {
+          "file": "File:Hidetada.jpg",
+          "url": "https://upload.wikimedia.org/wikipedia/commons/4/44/Hidetada.jpg",
+          "page": "https://commons.wikimedia.org/wiki/File:Hidetada.jpg",
+          "credit": "Unknown painter of the Kanō school",
+          "license": "Public domain",
+          "made": "17th century",
+          "caption": "Painted by an unknown artist of the Kanō school in the 17th century.",
+          "alt": "Painted portrait of Tokugawa Hidetada"
+        }
+      ],
+      "sources": [
+        {
+          "title": "Politics in the Tokugawa Bakufu, 1600–1843",
+          "author": "Conrad Totman",
+          "note": "Harvard University Press, 1967"
+        },
+        {
+          "title": "The Cambridge History of Japan, Volume 4: Early Modern Japan",
+          "author": "John Whitney Hall (ed.)",
+          "note": "Cambridge University Press, 1991"
+        },
+        {
+          "title": "Tokugawa jikki",
+          "author": "Tokugawa shogunate",
+          "note": "Official chronicle of the shoguns, compiled in the 19th century"
+        }
+      ],
+      "review": {
+        "status": "draft",
+        "notes": "Drafted from the listed sources; needs a human fact-check."
+      }
+    },
+    {
+      "id": "tokugawa-iemitsu",
+      "kind": "leader",
+      "rulers": [
+        "tokugawa-iemitsu"
+      ],
+      "tagline": "The shogun who locked Japan’s doors",
+      "start": {
+        "date": "1623"
+      },
+      "end": {
+        "date": "1651"
+      },
+      "contestedWith": [],
+      "relationToPredecessor": "Son of Tokugawa Hidetada",
+      "ageAtAccession": "19",
+      "cameToPower": "Named shogun as his father retired",
+      "reignEnded": "Died of illness at 46",
+      "previously": "Hidetada retires as shogun but stays in charge behind the scenes.",
+      "paragraphs": [
+        "Iemitsu was the first shogun born to the job, and he made sure everyone knew it. Once his father died he moved fast. His brother Tadanaga, once the family favourite, was ordered to kill himself. Lords who displeased him lost their lands. The emperor in Kyoto, as ever, had no say at all.",
+        "In 1635 he made alternate attendance the law. Every lord had to spend every other year in Edo, and leave his wife and heir there as hostages when he went home. The cost of all that travel kept the lords too poor to rebel. In 1637 starving, overtaxed peasants and Christians rose at Shimabara behind a teenage leader, Amakusa Shirō. It took months and a huge army to crush them.",
+        "After Shimabara, Iemitsu shut the door. Portuguese ships were banned in 1639. Japanese who left the country faced death if they came back. Only the Dutch and Chinese could trade, at Nagasaki, with the Dutch penned on the tiny artificial island of Dejima. The system lasted more than two centuries."
+      ],
+      "claims": [
+        {
+          "text": "Iemitsu told the assembled lords he was “born a shogun” and would treat them as vassals.",
+          "status": "legend",
+          "note": "The speech is told in later Edo-period accounts. There’s no record of it from the time."
+        },
+        {
+          "text": "Nobody at the time called the policy “sakoku”, or “closed country”.",
+          "status": "confirmed",
+          "note": "The word was coined in 1801 by the Nagasaki translator Shizuki Tadao, rendering a chapter of Engelbert Kaempfer’s book on Japan."
+        },
+        {
+          "text": "Around 37,000 rebels died when Hara Castle fell at Shimabara.",
+          "status": "disputed",
+          "note": "The figure is widely repeated, but it comes from shogunate and Dutch reports, and estimates vary."
+        }
+      ],
+      "hook": "Iemitsu dies at forty-six. His heir Ietsuna is nine, and that same summer a band of masterless samurai is plotting to set Edo ablaze and seize the shogun’s castle.",
+      "images": [
+        {
+          "file": "File:Iemitsu Tokugawa.jpg",
+          "url": "https://upload.wikimedia.org/wikipedia/commons/8/8a/Iemitsu_Tokugawa.jpg",
+          "page": "https://commons.wikimedia.org/wiki/File:Iemitsu_Tokugawa.jpg",
+          "credit": "Tokyo Imperial University (editors)",
+          "license": "Public domain",
+          "made": "1911 (reproduction)",
+          "caption": "A reproduction of an Edo-period portrait, published by Tokyo Imperial University in 1911.",
+          "alt": "Reproduction of a painted portrait of Tokugawa Iemitsu"
+        }
+      ],
+      "sources": [
+        {
+          "title": "The Cambridge History of Japan, Volume 4: Early Modern Japan",
+          "author": "John Whitney Hall (ed.)",
+          "note": "Cambridge University Press, 1991"
+        },
+        {
+          "title": "State and Diplomacy in Early Modern Japan",
+          "author": "Ronald P. Toby",
+          "note": "Princeton University Press, 1984"
+        },
+        {
+          "title": "Politics in the Tokugawa Bakufu, 1600–1843",
+          "author": "Conrad Totman",
+          "note": "Harvard University Press, 1967"
+        }
+      ],
+      "review": {
+        "status": "draft",
+        "notes": "Drafted from the listed sources; needs a human fact-check."
+      }
+    },
+    {
+      "id": "tokugawa-ietsuna",
+      "kind": "leader",
+      "rulers": [
+        "tokugawa-ietsuna"
+      ],
+      "tagline": "The quiet boy shogun who watched Edo burn",
+      "start": {
+        "date": "1651"
+      },
+      "end": {
+        "date": "1680"
+      },
+      "contestedWith": [],
+      "relationToPredecessor": "Eldest son of Tokugawa Iemitsu",
+      "ageAtAccession": "9",
+      "cameToPower": "Inherited as a boy",
+      "reignEnded": "Died at 38 with no son",
+      "previously": "Iemitsu dies, leaving the shogunate to his nine-year-old son.",
+      "paragraphs": [
+        "Ietsuna was nine when he became shogun, so his uncle Hoshina Masayuki and his father’s councillors ran things. Their first test came at once: a plot by the scholar Yui Shōsetsu and masterless samurai to torch Edo and overthrow the regime. It was betrayed and crushed. The lesson stuck. The shogunate eased the rules that had turned so many samurai into jobless rōnin.",
+        "In March 1657 the Great Fire of Meireki raged through Edo for three days. Well over half the city burned, including much of Edo Castle and its great keep, which was never rebuilt. Perhaps 100,000 people died. The government rebuilt with firebreaks and wider streets, and moved temples and lords’ mansions away from the centre.",
+        "Ietsuna was mild and sickly, and happy to let his ministers decide. In later years the powerful Sakai Tadakiyo dominated the government. The regime grew gentler, banning the custom of retainers killing themselves when their lord died. Ietsuna died at 38 without a son, and his ministers had to choose an heir."
+      ],
+      "claims": [
+        {
+          "text": "He was nicknamed “Lord So-be-it” because he approved whatever his ministers proposed.",
+          "status": "legend",
+          "note": "The nickname turns up in later anecdote collections and may be unfair to him."
+        },
+        {
+          "text": "The Meireki fire started when a cursed kimono was burned at a temple.",
+          "status": "legend",
+          "note": "The “long-sleeves fire” story appears in later popular accounts. The real cause is unknown."
+        },
+        {
+          "text": "About 100,000 people died in the fire.",
+          "status": "disputed",
+          "note": "It’s the figure most often quoted, but contemporary counts differ and modern estimates vary widely."
+        }
+      ],
+      "hook": "With no son, Ietsuna’s ministers argue over who comes next. The councillor Hotta Masatoshi backs the dead shogun’s younger brother Tsunayoshi, a bookish lord who loves Confucius. He gets the job.",
+      "images": [
+        {
+          "file": "File:Tokugawa Ietsuna.jpg",
+          "url": "https://upload.wikimedia.org/wikipedia/commons/f/f5/Tokugawa_Ietsuna.jpg",
+          "page": "https://commons.wikimedia.org/wiki/File:Tokugawa_Ietsuna.jpg",
+          "credit": "Attributed to Kanō Yasunobu",
+          "license": "Public domain",
+          "made": "Late 17th century",
+          "caption": "Attributed to the Kanō painter Kanō Yasunobu, late 17th century.",
+          "alt": "Painted portrait of Tokugawa Ietsuna"
+        }
+      ],
+      "sources": [
+        {
+          "title": "The Cambridge History of Japan, Volume 4: Early Modern Japan",
+          "author": "John Whitney Hall (ed.)",
+          "note": "Cambridge University Press, 1991"
+        },
+        {
+          "title": "Politics in the Tokugawa Bakufu, 1600–1843",
+          "author": "Conrad Totman",
+          "note": "Harvard University Press, 1967"
+        },
+        {
+          "title": "Tokugawa jikki",
+          "author": "Tokugawa shogunate",
+          "note": "Official chronicle of the shoguns, compiled in the 19th century"
+        }
+      ],
+      "review": {
+        "status": "draft",
+        "notes": "Drafted from the listed sources; needs a human fact-check."
+      }
+    },
+    {
+      "id": "tokugawa-tsunayoshi",
+      "kind": "leader",
+      "rulers": [
+        "tokugawa-tsunayoshi"
+      ],
+      "tagline": "The shogun who made it a crime to hurt a dog",
+      "start": {
+        "date": "1680"
+      },
+      "end": {
+        "date": "1709"
+      },
+      "contestedWith": [],
+      "relationToPredecessor": "Younger brother of Tokugawa Ietsuna",
+      "ageAtAccession": "34",
+      "cameToPower": "Adopted by his dying brother",
+      "reignEnded": "Died of measles",
+      "previously": "Ietsuna dies without a son. His younger brother is next in line.",
+      "paragraphs": [
+        "Tsunayoshi was a bookworm who lectured his lords on Confucius in person. He wanted a kinder, more civilised Japan, and he went about it with an iron hand. From 1687 his Laws of Compassion protected living things: abandoned children, the sick, birds, even fish. Dogs got the most attention. People were punished for harming one, and the shogunate built huge kennels outside Edo for tens of thousands of strays.",
+        "His reign was also the Genroku era, a golden age for city culture. Bashō wrote haiku, Chikamatsu wrote plays, Saikaku wrote about merchants and pleasure quarters. In 1701 a lord named Asano attacked the official Kira inside Edo Castle and was ordered to kill himself that day. His retainers, now rōnin, waited nearly two years, then killed Kira. Tsunayoshi had them commit seppuku too.",
+        "Money ran short, so he debased the coinage. In 1707 Mount Fuji erupted. When he died of measles in 1709, his only son long dead, Edo was glad to see the end of the dog laws. His nephew Ienobu took over."
+      ],
+      "claims": [
+        {
+          "text": "A monk told him he had no heir because of killing in a past life, and since he was born in the Year of the Dog, he should protect dogs.",
+          "status": "disputed",
+          "note": "The story comes from later, hostile accounts. His biographer Beatrice Bodart-Bailey argues it was a smear."
+        },
+        {
+          "text": "Forty-seven rōnin took part in the raid, but only forty-six were ordered to die.",
+          "status": "confirmed",
+          "note": "Terasaka Kichiemon left the group after the attack, for reasons still argued over, and lived to old age."
+        },
+        {
+          "text": "His wife stabbed him to stop the dog laws.",
+          "status": "legend",
+          "note": "A rumour told in later popular accounts. The official record says measles."
+        }
+      ],
+      "hook": "Ienobu is forty-six and has waited years for his turn. He scraps the dog laws almost at once. With him into power comes a brilliant, prickly scholar named Arai Hakuseki.",
+      "images": [
+        {
+          "file": "File:Tsunyaoshi.jpg",
+          "url": "https://upload.wikimedia.org/wikipedia/commons/d/d9/Tsunyaoshi.jpg",
+          "page": "https://commons.wikimedia.org/wiki/File:Tsunyaoshi.jpg",
+          "credit": "Tosa Mitsuoki",
+          "license": "Public domain",
+          "made": "17th century",
+          "caption": "By the court painter Tosa Mitsuoki, painted in Tsunayoshi’s lifetime; now in the Tokugawa Art Museum.",
+          "alt": "Painted portrait of Tokugawa Tsunayoshi"
+        }
+      ],
+      "sources": [
+        {
+          "title": "The Dog Shogun: The Personality and Policies of Tokugawa Tsunayoshi",
+          "author": "Beatrice M. Bodart-Bailey",
+          "note": "University of Hawai‘i Press, 2006"
+        },
+        {
+          "title": "Kaempfer’s Japan: Tokugawa Culture Observed",
+          "author": "Engelbert Kaempfer",
+          "note": "Ed. and trans. Beatrice M. Bodart-Bailey, University of Hawai‘i Press, 1999; Kaempfer met Tsunayoshi in 1691–92"
+        },
+        {
+          "title": "The Trouble with Terasaka: The Forty-Seventh Rōnin and the Chūshingura Imagination",
+          "author": "Henry D. Smith II",
+          "note": "Japan Review, 2004"
+        }
+      ],
+      "review": {
+        "status": "draft",
+        "notes": "Drafted from the listed sources; needs a human fact-check."
+      }
+    },
+    {
+      "id": "tokugawa-ienobu",
+      "kind": "leader",
+      "rulers": [
+        "tokugawa-ienobu"
+      ],
+      "tagline": "The patient heir who scrapped the dog laws",
+      "start": {
+        "date": "1709"
+      },
+      "end": {
+        "date": "1712"
+      },
+      "contestedWith": [],
+      "relationToPredecessor": "Nephew and adopted son of Tsunayoshi",
+      "ageAtAccession": "46",
+      "cameToPower": "Adopted heir of his uncle",
+      "reignEnded": "Died after three years",
+      "previously": "The Dog Shogun dies of measles, with no son to follow him.",
+      "paragraphs": [
+        "Ienobu was the son of Tsunayoshi’s older brother Tsunashige, and he had waited a long time. As lord of Kōfu he had studied under the Confucian scholar Arai Hakuseki. As shogun he got rid of the hated dog laws almost at once, pardoned many people punished under them, and set out to clean up government. The emperor in Kyoto remained a ceremonial figure.",
+        "Hakuseki, with the chamberlain Manabe Akifusa, drove the reforms. He attacked the debased coinage and pushed to restore good gold and silver. He changed the shogun’s title in letters to Korea, styling him “King of Japan”. He also questioned Giovanni Sidotti, an Italian priest who had smuggled himself ashore in 1708, and turned what he learned into a book about the West.",
+        "None of it had time to settle. Ienobu fell ill and died in 1712, after just three years in office. His only surviving son was three."
+      ],
+      "claims": [
+        {
+          "text": "Our best inside view of Ienobu’s government is Arai Hakuseki’s own memoir.",
+          "status": "confirmed",
+          "note": "Told Round a Brushwood Fire was written by Hakuseki himself, so it naturally flatters him."
+        },
+        {
+          "text": "Sidotti was kept prisoner in Edo until he died.",
+          "status": "confirmed",
+          "note": "Hakuseki’s Seiyō kibun records the interrogation; Sidotti died in confinement in 1714."
+        },
+        {
+          "text": "Hakuseki’s “King of Japan” title was quietly dropped after his fall.",
+          "status": "confirmed",
+          "note": "Under Yoshimune the shogunate went back to the older title “Taikun” for the 1719 Korean embassy."
+        }
+      ],
+      "hook": "A three-year-old is about to become shogun. Hakuseki and Manabe will rule in his name, but their enemies at court are waiting.",
+      "images": [
+        {
+          "file": "File:Tokugawa Ienobu.jpg",
+          "url": "https://upload.wikimedia.org/wikipedia/commons/d/d2/Tokugawa_Ienobu.jpg",
+          "page": "https://commons.wikimedia.org/wiki/File:Tokugawa_Ienobu.jpg",
+          "credit": "Unknown painter of the Kanō school",
+          "license": "Public domain",
+          "made": "18th century",
+          "caption": "Painted by an unknown artist of the Kanō school in the 18th century.",
+          "alt": "Painted portrait of Tokugawa Ienobu"
+        }
+      ],
+      "sources": [
+        {
+          "title": "Told Round a Brushwood Fire: The Autobiography of Arai Hakuseki",
+          "author": "Arai Hakuseki",
+          "note": "Trans. Joyce Ackroyd, University of Tokyo Press, 1979"
+        },
+        {
+          "title": "Shogunal Politics: Arai Hakuseki and the Premises of Tokugawa Rule",
+          "author": "Kate Wildman Nakai",
+          "note": "Harvard University Press, 1988"
+        },
+        {
+          "title": "State and Diplomacy in Early Modern Japan",
+          "author": "Ronald P. Toby",
+          "note": "Princeton University Press, 1984"
+        }
+      ],
+      "review": {
+        "status": "draft",
+        "notes": "Drafted from the listed sources; needs a human fact-check."
+      }
+    },
+    {
+      "id": "tokugawa-ietsugu",
+      "kind": "leader",
+      "rulers": [
+        "tokugawa-ietsugu"
+      ],
+      "tagline": "A three-year-old shogun and a scholar at his side",
+      "start": {
+        "date": "1713"
+      },
+      "end": {
+        "date": "1716"
+      },
+      "contestedWith": [],
+      "relationToPredecessor": "Son of Ienobu",
+      "ageAtAccession": "3",
+      "cameToPower": "Inherited as a toddler",
+      "reignEnded": "Died of illness aged six",
+      "previously": "Ienobu dies after barely three years, leaving a sickly little son.",
+      "paragraphs": [
+        "Ietsugu was three when he became shogun. The emperor still sat in Kyoto with no power at all, and a toddler couldn't run anything either, so his late father's men carried on. The chamberlain Manabe Akifusa controlled access to the boy. The Confucian scholar Arai Hakuseki supplied the policy. He put the silver back into Japan's debased coins and tried to stop gold and silver draining out through the Dutch and Chinese trade at Nagasaki.",
+        "The big scandal came from the women's quarters of Edo Castle. In 1714 Ejima, a senior lady of the inner palace, was sent to pray at a temple and went on to a kabuki theatre, where she partied with the star actor Ikushima Shingorō. She got back after the gates had shut. She was exiled to the mountains of Shinano, the actor was banished to an island and the theatre was closed for good.",
+        "Two years later the little shogun caught a chill and died, aged six. With him the direct line from Ieyasu's son Hidetada ran out."
+      ],
+      "claims": [
+        {
+          "text": "The Ejima affair was really a fight for power between Ietsugu's mother and Ienobu's widow.",
+          "status": "disputed",
+          "note": "A popular reading among later historians; the official record treats it as a plain breach of palace rules."
+        },
+        {
+          "text": "Ietsugu's mother, Gekkōin, was having an affair with Manabe Akifusa.",
+          "status": "legend",
+          "note": "Gossip in Edo at the time and in later popular tales; there is no solid evidence."
+        },
+        {
+          "text": "Arai Hakuseki left his own account of these years.",
+          "status": "confirmed",
+          "note": "His memoir Oritaku Shiba no Ki survives and has been translated into English."
+        }
+      ],
+      "hook": "The boy is dead and Hidetada's line has run out. The council turns to the three branch houses Ieyasu set up for exactly this moment. The lord of Kii, a thrifty man of 31, is about to move into Edo Castle.",
+      "images": [
+        {
+          "file": "File:Tokugawa Ietsugu.jpg",
+          "url": "https://upload.wikimedia.org/wikipedia/commons/5/56/Tokugawa_Ietsugu.jpg",
+          "page": "https://commons.wikimedia.org/wiki/File:Tokugawa_Ietsugu.jpg",
+          "credit": "Unknown painter of the Kanō school",
+          "license": "Public domain",
+          "made": "18th century",
+          "caption": "A Kanō-school portrait from the 18th century, probably painted after his early death.",
+          "alt": "Painted portrait of the shogun Tokugawa Ietsugu"
+        }
+      ],
+      "sources": [
+        {
+          "title": "Shogunal Politics: Arai Hakuseki and the Premises of Tokugawa Rule",
+          "author": "Kate Wildman Nakai",
+          "note": "Harvard University Press, 1988"
+        },
+        {
+          "title": "Told Round a Brushwood Fire: The Autobiography of Arai Hakuseki",
+          "author": "Arai Hakuseki, trans. Joyce Ackroyd",
+          "note": "University of Tokyo Press, 1979"
+        },
+        {
+          "title": "Early Modern Japan",
+          "author": "Conrad Totman",
+          "note": "University of California Press, 1993"
+        }
+      ],
+      "review": {
+        "status": "draft",
+        "notes": "Drafted from the listed sources; needs a human fact-check."
+      }
+    },
+    {
+      "id": "tokugawa-yoshimune",
+      "kind": "leader",
+      "rulers": [
+        "tokugawa-yoshimune"
+      ],
+      "tagline": "The rice shogun who balanced the books",
+      "start": {
+        "date": "1716"
+      },
+      "end": {
+        "date": "1745"
+      },
+      "contestedWith": [],
+      "relationToPredecessor": "Distant cousin, from the Kii branch",
+      "ageAtAccession": "31",
+      "cameToPower": "Chosen from a branch house",
+      "reignEnded": "Retired in favour of his son",
+      "previously": "The boy shogun Ietsugu dies at six. Hidetada's line has run out.",
+      "paragraphs": [
+        "Yoshimune was a great-grandson of Ieyasu from the Kii branch, and he found a shogunate spending far more than it earned. The emperor in Kyoto still reigned without ruling. Yoshimune sacked Hakuseki, wore cotton, ate simply and expected everyone else to tighten their belts. He raised the rice tax, paid for new rice fields and, for a few years, let daimyo spend less time in Edo if they handed over extra rice.",
+        "Rice was money, and he spent decades trying to steady its price, which earned him the nickname “the rice shogun”. He set up a petition box so ordinary people could complain, organised Edo's townsmen into fire brigades and had the shogunate's laws gathered into one code. In 1720 he relaxed the ban on Western books, as long as they didn't preach Christianity. Scholars began reading Dutch works on medicine, astronomy and farming.",
+        "In 1729 an elephant brought from Vietnam walked from Nagasaki to Edo, stopping in Kyoto to be shown to the emperor. Crowds lined the road. In 1745 Yoshimune passed the title to his eldest son, but he kept running things from retirement until he died in 1751."
+      ],
+      "claims": [
+        {
+          "text": "The elephant was given a court rank so it could appear before the emperor.",
+          "status": "disputed",
+          "note": "Retold in many accounts, since commoners couldn't meet the emperor, but the details vary and early records are thin."
+        },
+        {
+          "text": "Yoshimune read the petitions himself.",
+          "status": "confirmed",
+          "note": "Shogunate records describe the box being brought to him locked and opened in his presence."
+        },
+        {
+          "text": "He only became lord of Kii because his father and two older brothers all died in 1705.",
+          "status": "confirmed",
+          "note": "Kii domain records; later whispers of poison have no evidence behind them."
+        }
+      ],
+      "hook": "Yoshimune's heir is his eldest son, Ieshige. Ieshige is sickly and can barely speak clearly. Many think his younger brother would make a better shogun. Yoshimune sticks to the rule: the eldest son inherits.",
+      "images": [
+        {
+          "file": "File:Tokugawa Yoshimune.jpg",
+          "url": "https://upload.wikimedia.org/wikipedia/commons/5/50/Tokugawa_Yoshimune.jpg",
+          "page": "https://commons.wikimedia.org/wiki/File:Tokugawa_Yoshimune.jpg",
+          "credit": "Kanō Tadanobu",
+          "license": "Public domain",
+          "made": "1929",
+          "caption": "Painted by Kanō Tadanobu, dated on Commons to 1929, nearly two centuries after Yoshimune's death.",
+          "alt": "Painted portrait of the shogun Tokugawa Yoshimune"
+        }
+      ],
+      "sources": [
+        {
+          "title": "Early Modern Japan",
+          "author": "Conrad Totman",
+          "note": "University of California Press, 1993"
+        },
+        {
+          "title": "The Cambridge History of Japan, Vol. 4: Early Modern Japan",
+          "author": "John Whitney Hall (ed.)",
+          "note": "Cambridge University Press, 1991"
+        },
+        {
+          "title": "The Making of Modern Japan",
+          "author": "Marius B. Jansen",
+          "note": "Harvard University Press, 2000"
+        }
+      ],
+      "review": {
+        "status": "draft",
+        "notes": "Drafted from the listed sources; needs a human fact-check."
+      }
+    },
+    {
+      "id": "tokugawa-ieshige",
+      "kind": "leader",
+      "rulers": [
+        "tokugawa-ieshige"
+      ],
+      "tagline": "The shogun almost nobody could understand",
+      "start": {
+        "date": "1745"
+      },
+      "end": {
+        "date": "1760"
+      },
+      "contestedWith": [],
+      "relationToPredecessor": "Eldest son of Yoshimune",
+      "ageAtAccession": "33",
+      "cameToPower": "Father stepped down for him",
+      "reignEnded": "Retired, in poor health",
+      "previously": "Yoshimune steps down after 29 years, but keeps hold of the reins.",
+      "paragraphs": [
+        "Ieshige was 33 when he became shogun, and for his first six years his father still made the big decisions. The emperor reigned in Kyoto with no power at all. Ieshige was often ill and his speech was so slurred that almost nobody could follow it. One man could: his attendant Ōoka Tadamitsu, who became his voice and rose to high office. Ieshige preferred drink and the women's quarters to government.",
+        "The 1750s were rough. Peasants in Gujō, in the mountains of Mino, rose against heavy taxes, and the case got so tangled that the shogunate punished some of its own senior officials. In Kyoto a scholar named Takenouchi Shikibu was banished for teaching young court nobles that the emperor ought to rule, a small early warning. A rising official, Tanuma Okitsugu, was making his name. In 1760 Ieshige stepped down for his son, and he died the next year."
+      ],
+      "claims": [
+        {
+          "text": "Ieshige had cerebral palsy.",
+          "status": "disputed",
+          "note": "Suggested from accounts of his speech and a study of his remains when the Tokugawa graves at Zōjō-ji were dug up in the 1950s; a diagnosis this late can't be certain."
+        },
+        {
+          "text": "Edo wits nicknamed him the “pissing shogun” because he needed the toilet so often.",
+          "status": "legend",
+          "note": "The nickname turns up in later anecdotes and may say more about Edo humour than his health."
+        },
+        {
+          "text": "Yoshimune picked him over his abler brother Munetake to protect the rule of the eldest son.",
+          "status": "confirmed",
+          "note": "Munetake's talents and supporters are well recorded; historians agree Yoshimune chose on principle."
+        }
+      ],
+      "hook": "Ieshige's son Ieharu is clever, well taught and his grandfather's favourite. He will hand the real work to a man who started as a page boy and rose to the top: Tanuma Okitsugu.",
+      "images": [
+        {
+          "file": "File:Tokugawa Ieshige.jpg",
+          "url": "https://upload.wikimedia.org/wikipedia/commons/8/8d/Tokugawa_Ieshige.jpg",
+          "page": "https://commons.wikimedia.org/wiki/File:Tokugawa_Ieshige.jpg",
+          "credit": "Attributed to Kanō Terunobu",
+          "license": "Public domain",
+          "made": "18th century",
+          "caption": "An 18th-century Kanō-school portrait, attributed to Kanō Terunobu.",
+          "alt": "Painted portrait of the shogun Tokugawa Ieshige"
+        }
+      ],
+      "sources": [
+        {
+          "title": "Early Modern Japan",
+          "author": "Conrad Totman",
+          "note": "University of California Press, 1993"
+        },
+        {
+          "title": "The Cambridge History of Japan, Vol. 4: Early Modern Japan",
+          "author": "John Whitney Hall (ed.)",
+          "note": "Cambridge University Press, 1991"
+        },
+        {
+          "title": "The Making of Modern Japan",
+          "author": "Marius B. Jansen",
+          "note": "Harvard University Press, 2000"
+        }
+      ],
+      "review": {
+        "status": "draft",
+        "notes": "Drafted from the listed sources; needs a human fact-check."
+      }
+    },
+    {
+      "id": "tokugawa-ieharu",
+      "kind": "leader",
+      "rulers": [
+        "tokugawa-ieharu"
+      ],
+      "tagline": "Money, bribes, colour prints and a famine",
+      "start": {
+        "date": "1760"
+      },
+      "end": {
+        "date": "1786"
+      },
+      "contestedWith": [],
+      "relationToPredecessor": "Eldest son of Ieshige",
+      "ageAtAccession": "23",
+      "cameToPower": "Father stepped down for him",
+      "reignEnded": "Died; his minister fell with him",
+      "previously": "Ieshige, ill and hard to understand, hands over to his son.",
+      "paragraphs": [
+        "Ieharu was 23, bright and happy to let others govern, while the emperor in Kyoto reigned without power. The man in charge became Tanuma Okitsugu, of modest samurai stock, made senior councillor in 1772. Tanuma wanted cash. He licensed merchant guilds and taxed them, issued new coins and drew up plans to develop Ezo, today's Hokkaido. Business boomed. So did bribery, and Tanuma's name became a byword for it.",
+        "Edo was buzzing. In 1765 Suzuki Harunobu made the first full-colour woodblock prints, and pictures of kabuki stars and famous beauties sold by the stack. In 1774 Sugita Genpaku and his friends published a Japanese version of a Dutch anatomy book, after checking it against a real dissection. Then things went wrong. Mount Asama erupted in 1783, harvests failed year after year and the Tenmei famine killed huge numbers, worst of all in the north.",
+        "In 1784 Tanuma's son was stabbed inside Edo Castle, and crowds cheered the killer. Ieharu's own heir had died suddenly in 1779, so he adopted a boy from the Hitotsubashi branch. As Ieharu lay dying in 1786, Tanuma was forced out."
+      ],
+      "claims": [
+        {
+          "text": "Tanuma had Ieharu poisoned.",
+          "status": "legend",
+          "note": "Rumour spread because doctors linked to Tanuma treated the shogun just before he died; nothing supports it."
+        },
+        {
+          "text": "Tanuma was hopelessly corrupt.",
+          "status": "disputed",
+          "note": "His enemies wrote most of the record. John Whitney Hall's 1955 biography recast him as a forward-looking reformer."
+        },
+        {
+          "text": "Edo crowds hailed Sano Masakoto, who stabbed Tanuma's son, as a god of world renewal.",
+          "status": "confirmed",
+          "note": "Diaries of the time describe crowds visiting Sano's grave and the nickname Yonaoshi Daimyōjin."
+        }
+      ],
+      "hook": "The new shogun is a boy of 13 from the Hitotsubashi branch. He'll hold the title for 50 years and father more than 50 children. First, a stern grandson of Yoshimune arrives to clean house.",
+      "images": [
+        {
+          "file": "File:Tokugawa Ieharu.jpg",
+          "url": "https://upload.wikimedia.org/wikipedia/commons/4/42/Tokugawa_Ieharu.jpg",
+          "page": "https://commons.wikimedia.org/wiki/File:Tokugawa_Ieharu.jpg",
+          "credit": "Unknown painter of the Kanō school",
+          "license": "Public domain",
+          "made": "18th century",
+          "caption": "An 18th-century portrait by a painter of the Kanō school.",
+          "alt": "Painted portrait of the shogun Tokugawa Ieharu"
+        }
+      ],
+      "sources": [
+        {
+          "title": "Tanuma Okitsugu, 1719–1788: Forerunner of Modern Japan",
+          "author": "John Whitney Hall",
+          "note": "Harvard University Press, 1955"
+        },
+        {
+          "title": "Rangaku Kotohajime",
+          "author": "Sugita Genpaku",
+          "note": "His own account of the anatomy translation"
+        },
+        {
+          "title": "Early Modern Japan",
+          "author": "Conrad Totman",
+          "note": "University of California Press, 1993"
+        }
+      ],
+      "review": {
+        "status": "draft",
+        "notes": "Drafted from the listed sources; needs a human fact-check."
+      }
+    },
+    {
+      "id": "tokugawa-ienari",
+      "kind": "leader",
+      "rulers": [
+        "tokugawa-ienari"
+      ],
+      "tagline": "Fifty years, fifty-odd children, and foreign sails",
+      "start": {
+        "date": "1787"
+      },
+      "end": {
+        "date": "1837"
+      },
+      "contestedWith": [],
+      "relationToPredecessor": "Adopted heir, a Hitotsubashi cousin",
+      "ageAtAccession": "13",
+      "cameToPower": "Adopted by the childless Ieharu",
+      "reignEnded": "Retired, still pulling strings",
+      "previously": "Ieharu dies, and his powerful minister Tanuma falls with him.",
+      "paragraphs": [
+        "Ienari was 13 when he became shogun, and he kept the title for 50 years, longer than anyone else. An emperor still sat powerless in Kyoto. First came the Kansei reforms of Matsudaira Sadanobu, a grandson of Yoshimune: thrift, rice stored against famine, relief for indebted samurai and a crackdown on racy books and prints. Once Sadanobu was pushed out in 1793, Ienari relaxed and spent. His women's quarters swelled and he fathered more than 50 children.",
+        "Edo culture boomed anyway. Utamaro's beauties, Hokusai's Great Wave and Hiroshige's views of the Tōkaidō road all came out in his time, and the kabuki ghost play Yotsuya Kaidan terrified audiences in 1825. Foreign ships kept turning up. Russians came to Ezo and Nagasaki asking to trade, and in 1808 a British warship, HMS Phaeton, barged into Nagasaki harbour. In 1825 the shogunate ordered foreign ships to be driven off by force.",
+        "Then the Tenpō famine hit in the 1830s. In Osaka in 1837 a former police officer, Ōshio Heihachirō, led a rising to feed the poor, and fire swept through a large part of the city. That year Ienari handed the title to his son Ieyoshi, but held on to power until he died in 1841."
+      ],
+      "claims": [
+        {
+          "text": "Ienari fathered 53 children.",
+          "status": "confirmed",
+          "note": "Shogunal genealogies give a figure of about 53 to 55, by many consorts; a large share died young."
+        },
+        {
+          "text": "Sadanobu was eased out over a quarrel about honorary titles for the fathers of the shogun and the emperor.",
+          "status": "disputed",
+          "note": "That row was real, but historians argue over how much it, versus Ienari's dislike of being lectured, explains his fall."
+        },
+        {
+          "text": "The Nagasaki magistrate killed himself after the Phaeton incident.",
+          "status": "confirmed",
+          "note": "Matsudaira Yasuhide took responsibility for failing to stop the ship; both Japanese and Dutch accounts record it."
+        }
+      ],
+      "hook": "Ieyoshi is 44 and shogun at last, but his father still runs the show. When the old man dies, a minister named Mizuno Tadakuni will try to wind the clock back. And news is coming from China.",
+      "images": [
+        {
+          "file": "File:Tokugawa Ienari.jpg",
+          "url": "https://upload.wikimedia.org/wikipedia/commons/e/ee/Tokugawa_Ienari.jpg",
+          "page": "https://commons.wikimedia.org/wiki/File:Tokugawa_Ienari.jpg",
+          "credit": "Attributed to Kanō Osanobu",
+          "license": "Public domain",
+          "made": "19th century",
+          "caption": "A 19th-century portrait attributed to Kanō Osanobu, painter to the shoguns.",
+          "alt": "Painted portrait of the shogun Tokugawa Ienari"
+        }
+      ],
+      "sources": [
+        {
+          "title": "Charismatic Bureaucrat: A Political Biography of Matsudaira Sadanobu, 1758–1829",
+          "author": "Herman Ooms",
+          "note": "University of Chicago Press, 1975"
+        },
+        {
+          "title": "The Cambridge History of Japan, Vol. 5: The Nineteenth Century",
+          "author": "Marius B. Jansen (ed.)",
+          "note": "Cambridge University Press, 1989"
+        },
+        {
+          "title": "The Making of Modern Japan",
+          "author": "Marius B. Jansen",
+          "note": "Harvard University Press, 2000"
+        }
+      ],
+      "review": {
+        "status": "draft",
+        "notes": "Drafted from the listed sources; needs a human fact-check."
+      }
+    },
+    {
+      "id": "tokugawa-ieyoshi",
+      "kind": "leader",
+      "rulers": [
+        "tokugawa-ieyoshi"
+      ],
+      "tagline": "The shogun who saw the black ships arrive",
+      "start": {
+        "date": "1837"
+      },
+      "end": {
+        "date": "1853"
+      },
+      "contestedWith": [],
+      "relationToPredecessor": "Second son of Ienari",
+      "ageAtAccession": "44",
+      "cameToPower": "Father retired in his favour",
+      "reignEnded": "Died weeks after Perry came",
+      "previously": "Ienari retires after 50 years, though he won't let go just yet.",
+      "paragraphs": [
+        "Ieyoshi was 44 before he became shogun, and even then his father kept control for four more years. The emperor reigned in Kyoto, powerless as ever. In 1837 an American ship, the Morrison, came to return shipwrecked Japanese sailors and was driven away by cannon fire. When Ienari died in 1841, the senior councillor Mizuno Tadakuni launched the Tenpō reforms, a fierce drive for thrift and old-fashioned morals.",
+        "Mizuno banned luxuries from silk to fancy hairpins. He packed the kabuki theatres off to the edge of the city, limited prints of actors and courtesans and punished popular writers. Edo hated it. In 1843 he tried to take land around Edo and Osaka under direct shogunate control, the daimyo fought back and he fell. Britain's defeat of China in the Opium War rattled Edo, and in 1842 the order to fire on foreign ships was softened to giving them fuel and water.",
+        "On 8 July 1853 four American warships, two of them smoking steamers, anchored off Uraga at the mouth of Edo Bay. Commodore Matthew Perry refused to go to Nagasaki and handed over a letter from President Fillmore asking for a treaty. He said he'd be back for the answer. Ieyoshi was already ill. He died on 27 July."
+      ],
+      "claims": [
+        {
+          "text": "“Black ships” was a name invented for Perry's squadron.",
+          "status": "legend",
+          "note": "Japanese had called Western ships kurofune since the Portuguese arrived in the 1500s; Perry's smoking steamers just made the name famous."
+        },
+        {
+          "text": "Ieyoshi died of heatstroke.",
+          "status": "disputed",
+          "note": "The usual explanation, but he was unwell before Perry arrived and the records of his illness are vague."
+        },
+        {
+          "text": "A joke verse said four cups of strong tea (four steamships) kept the whole country awake.",
+          "status": "legend",
+          "note": "Long quoted as a 1853 lampoon, but no copy is known from that year and it may have been written later."
+        }
+      ],
+      "hook": "Perry will be back within months, with more ships. The new shogun, Ieyoshi's son Iesada, is frail. To find an answer, the senior councillor Abe Masahiro does something new: he asks the daimyo what they think.",
+      "images": [
+        {
+          "file": "File:Tokugawa Ieyoshi.JPG",
+          "url": "https://upload.wikimedia.org/wikipedia/commons/e/eb/Tokugawa_Ieyoshi.JPG",
+          "page": "https://commons.wikimedia.org/wiki/File:Tokugawa_Ieyoshi.JPG",
+          "credit": "Unknown painter of the Kanō school",
+          "license": "Public domain",
+          "made": "19th century",
+          "caption": "A 19th-century portrait by a painter of the Kanō school.",
+          "alt": "Painted portrait of the shogun Tokugawa Ieyoshi"
+        }
+      ],
+      "sources": [
+        {
+          "title": "The Cambridge History of Japan, Vol. 5: The Nineteenth Century",
+          "author": "Marius B. Jansen (ed.)",
+          "note": "Cambridge University Press, 1989"
+        },
+        {
+          "title": "The Making of Modern Japan",
+          "author": "Marius B. Jansen",
+          "note": "Harvard University Press, 2000"
+        },
+        {
+          "title": "Narrative of the Expedition of an American Squadron to the China Seas and Japan",
+          "author": "Francis L. Hawks (compiler), from Matthew C. Perry's papers",
+          "note": "1856"
+        }
+      ],
+      "review": {
+        "status": "draft",
+        "notes": "Drafted from the listed sources; needs a human fact-check."
+      }
+    },
+    {
+      "id": "tokugawa-iesada",
+      "kind": "leader",
+      "rulers": [
+        "tokugawa-iesada"
+      ],
+      "tagline": "A frail shogun as Japan's doors swing open",
+      "start": {
+        "date": "1853"
+      },
+      "end": {
+        "date": "1858"
+      },
+      "contestedWith": [],
+      "relationToPredecessor": "Son of Ieyoshi",
+      "ageAtAccession": "29",
+      "cameToPower": "Succeeded his father",
+      "reignEnded": "Died weeks after the US treaty",
+      "previously": "Perry's black ships have come and gone. Ieyoshi is dead.",
+      "paragraphs": [
+        "Iesada was 29, sickly and in no state to govern, and the emperor in Kyoto still had no power. The work fell to the senior councillor Abe Masahiro. Perry came back in February 1854 with a bigger squadron, and Japan had no navy to match it. On 31 March the two sides signed the Treaty of Kanagawa. It opened the ports of Shimoda and Hakodate to American ships and allowed an American consul. Two centuries of closed country were cracking.",
+        "In 1855 a huge earthquake flattened much of Edo. In 1856 the consul, Townsend Harris, landed at Shimoda and began pushing for a full trade treaty. That same year Iesada married Atsuhime, an adopted daughter of the Satsuma lord Shimazu Nariakira. Harris finally met the shogun inside Edo Castle in December 1857.",
+        "Two questions split the elite: the treaty, and who would follow the childless Iesada. One camp wanted the able Hitotsubashi Yoshinobu, the other the boy lord of Kii. In 1858 the hard-liner Ii Naosuke became great elder, picked the boy and signed the Harris treaty without the emperor's consent. Emperor Kōmei was furious. A few weeks later Iesada was dead."
+      ],
+      "claims": [
+        {
+          "text": "Atsuhime was married off to push Iesada into naming Yoshinobu as his heir.",
+          "status": "disputed",
+          "note": "A popular idea, boosted by a 2008 TV drama. Her adoptive father backed Yoshinobu, but how far she was meant to lobby is unclear."
+        },
+        {
+          "text": "When he met Harris, Iesada jerked his head back and stamped his foot before speaking.",
+          "status": "confirmed",
+          "note": "Harris described it in his journal; it is often linked to Iesada's poor health."
+        },
+        {
+          "text": "Iesada was poisoned.",
+          "status": "legend",
+          "note": "Rumours spread because he died in the middle of the treaty fight; cholera was raging in Edo that summer and illness is the usual verdict."
+        }
+      ],
+      "hook": "The new shogun is 12. Ii Naosuke is the man in charge, and he's about to crush everyone who crossed him, from great lords to schoolteachers. His enemies are sharpening their swords.",
+      "images": [
+        {
+          "file": "File:Tokugawa Iesada.jpg",
+          "url": "https://upload.wikimedia.org/wikipedia/commons/5/53/Tokugawa_Iesada.jpg",
+          "page": "https://commons.wikimedia.org/wiki/File:Tokugawa_Iesada.jpg",
+          "credit": "Unknown painter of the Kanō school",
+          "license": "Public domain",
+          "made": "19th century",
+          "caption": "A 19th-century portrait by a painter of the Kanō school.",
+          "alt": "Painted portrait of the shogun Tokugawa Iesada"
+        }
+      ],
+      "sources": [
+        {
+          "title": "The Complete Journal of Townsend Harris, First American Consul General and Minister to Japan",
+          "author": "Townsend Harris, ed. Mario Emilio Cosenza",
+          "note": "1930"
+        },
+        {
+          "title": "The Meiji Restoration",
+          "author": "W. G. Beasley",
+          "note": "Stanford University Press, 1972"
+        },
+        {
+          "title": "The Making of Modern Japan",
+          "author": "Marius B. Jansen",
+          "note": "Harvard University Press, 2000"
+        }
+      ],
+      "review": {
+        "status": "draft",
+        "notes": "Drafted from the listed sources; needs a human fact-check."
+      }
+    },
+    {
+      "id": "tokugawa-iemochi",
+      "kind": "leader",
+      "rulers": [
+        "tokugawa-iemochi"
+      ],
+      "tagline": "The boy shogun caught between emperor and West",
+      "start": {
+        "date": "1858"
+      },
+      "end": {
+        "date": "1866"
+      },
+      "contestedWith": [],
+      "relationToPredecessor": "Cousin, chosen as heir",
+      "ageAtAccession": "12",
+      "cameToPower": "Picked by Ii Naosuke",
+      "reignEnded": "Died of beriberi at Osaka",
+      "previously": "Ii Naosuke signs the treaty with America; weeks later Iesada dies.",
+      "paragraphs": [
+        "Iemochi was 12 when he became shogun, and Ii Naosuke ran the government. Ii purged his critics: great lords were confined to their homes and the teacher Yoshida Shōin was executed. On 24 March 1860, in the snow outside Edo Castle's Sakurada Gate, samurai mostly from Mito cut him down. The shogunate never got its nerve back. An emperor still sat in Kyoto without power, but now every side wanted his name behind it.",
+        "To mend things, Iemochi married Princess Kazu, Emperor Kōmei's half-sister, in 1862. In 1863 he went to Kyoto, the first shogun to visit in over 200 years, and was pushed into promising to drive out the foreigners. Chōshū fired on Western ships in the Shimonoseki strait. Britain shelled Kagoshima after Satsuma men killed an English merchant. Kyoto filled with assassins, and the Shinsengumi patrolled the streets hunting them.",
+        "In 1864 the shogunate forced Chōshū to back down. In 1866 it attacked again, but Chōshū now had modern rifles and a secret alliance with Satsuma, and the shogun's armies lost. Iemochi didn't see the end. He died at Osaka Castle on 29 August 1866, aged 20."
+      ],
+      "claims": [
+        {
+          "text": "Iemochi had promised to bring Princess Kazu silk from Kyoto, and it came home with his body.",
+          "status": "legend",
+          "note": "A touching story told in later accounts of the princess; it's hard to trace to a record from the time."
+        },
+        {
+          "text": "Iemochi and Princess Kazu grew truly fond of each other.",
+          "status": "disputed",
+          "note": "She fought the match at first. Later accounts describe a warm marriage, but the evidence is thin."
+        },
+        {
+          "text": "He was the first shogun to visit Kyoto since Iemitsu in 1634.",
+          "status": "confirmed",
+          "note": "Shogunate and court records of the 1863 journey; no shogun had gone in between."
+        }
+      ],
+      "hook": "The shogunate needs a leader, fast. The obvious man is Hitotsubashi Yoshinobu, who lost out in 1858 and has spent years in Kyoto. He takes over the family but holds off on the title. He will be the last shogun.",
+      "images": [
+        {
+          "file": "File:Tokugawa Iemochi.jpg",
+          "url": "https://upload.wikimedia.org/wikipedia/commons/e/e5/Tokugawa_Iemochi.jpg",
+          "page": "https://commons.wikimedia.org/wiki/File:Tokugawa_Iemochi.jpg",
+          "credit": "Unknown painter of the Kanō school",
+          "license": "Public domain",
+          "made": "19th century",
+          "caption": "A 19th-century portrait by a painter of the Kanō school.",
+          "alt": "Painted portrait of the shogun Tokugawa Iemochi"
+        }
+      ],
+      "sources": [
+        {
+          "title": "The Collapse of the Tokugawa Bakufu, 1862–1868",
+          "author": "Conrad Totman",
+          "note": "University Press of Hawaii, 1980"
+        },
+        {
+          "title": "The Meiji Restoration",
+          "author": "W. G. Beasley",
+          "note": "Stanford University Press, 1972"
+        },
+        {
+          "title": "The Making of Modern Japan",
+          "author": "Marius B. Jansen",
+          "note": "Harvard University Press, 2000"
+        }
+      ],
+      "review": {
+        "status": "draft",
+        "notes": "Drafted from the listed sources; needs a human fact-check."
+      }
+    },
+    {
+      "id": "tokugawa-yoshinobu",
+      "kind": "leader",
+      "rulers": [
+        "tokugawa-yoshinobu"
+      ],
+      "tagline": "The last shogun, who handed back 260 years of power",
+      "start": {
+        "date": "1867"
+      },
+      "end": {
+        "date": "1868-01-03"
+      },
+      "contestedWith": [],
+      "relationToPredecessor": "Iemochi's guardian and old rival",
+      "ageAtAccession": "29",
+      "cameToPower": "Picked after Iemochi died",
+      "reignEnded": "Gave power back to the emperor",
+      "previously": "Iemochi dies at 20 in Osaka, mid-war with the rebel Chōshū domain.",
+      "paragraphs": [
+        "Yoshinobu was the clever son of the lord of Mito, adopted into a Tokugawa branch house. In 1858 he lost the race for shogun to young Iemochi, and spent the next years as his guardian. When he finally got the job, the shogunate was cracking. Rebel domains Satsuma and Chōshū were arming with Western guns. In Kyoto sat a teenage emperor, Mutsuhito, with no army of his own, and the rebels wanted to rule in his name.",
+        "Yoshinobu tried to modernise fast, with French advisers and a new army. Then, in November 1867, he did something no shogun had done: he offered to hand his powers back to the emperor. On 3 January 1868 Satsuma troops seized the palace gates and the court declared the shogunate abolished. Weeks later his army was beaten at Toba-Fushimi and he slipped away to Edo by ship. Edo Castle was surrendered without a fight in May.",
+        "Then the last shogun simply retired. He lived quietly in Shizuoka for decades, taking up photography, cycling, hunting and oil painting. The new government later made him a prince. He outlived the emperor he had given way to, dying in 1913 aged 76."
+      ],
+      "claims": [
+        {
+          "text": "Handing back power was a trick: Yoshinobu expected to keep running Japan as head of a council of lords.",
+          "status": "disputed",
+          "note": "His own camp drafted plans for such a council, so he clearly hoped to stay on top. How sincere the gesture was is still argued over."
+        },
+        {
+          "text": "The secret imperial order telling Satsuma and Chōshū to destroy the shogunate was irregular, possibly forged.",
+          "status": "disputed",
+          "note": "The document lacked the usual signatures and seals, and court nobles close to the rebels drafted it. Historians disagree over how genuine it was."
+        },
+        {
+          "text": "In retirement the last shogun became a keen amateur photographer.",
+          "status": "confirmed",
+          "note": "Many of his own photographs survive and have been published in Japan."
+        }
+      ],
+      "hook": "The shogun is gone. A 15-year-old emperor is suddenly the face of a revolution, and the samurai of Satsuma and Chōshū have huge plans for him and for Japan.",
+      "images": [
+        {
+          "file": "File:Tokugawa Yoshinobu.jpg",
+          "url": "https://upload.wikimedia.org/wikipedia/commons/b/ba/Tokugawa_Yoshinobu.jpg",
+          "page": "https://commons.wikimedia.org/wiki/File:Tokugawa_Yoshinobu.jpg",
+          "credit": "Unknown photographer",
+          "license": "Public domain",
+          "made": "c. 1864–66",
+          "caption": "Photographed in the mid-1860s, shortly before he became shogun.",
+          "alt": "Black-and-white 1860s photograph of Tokugawa Yoshinobu"
+        }
+      ],
+      "sources": [
+        {
+          "title": "The Collapse of the Tokugawa Bakufu, 1862–1868",
+          "author": "Conrad Totman",
+          "note": "University of Hawaii Press, 1980"
+        },
+        {
+          "title": "The Making of Modern Japan",
+          "author": "Marius B. Jansen",
+          "note": "Harvard University Press, 2000"
+        },
+        {
+          "title": "The Cambridge History of Japan, Vol. 5: The Nineteenth Century",
+          "author": "Marius B. Jansen (ed.)",
+          "note": "Cambridge University Press, 1989"
+        }
+      ],
+      "review": {
+        "status": "draft",
+        "notes": "Drafted from the listed sources; needs a human fact-check."
+      }
+    },
+    {
+      "id": "meiji",
+      "kind": "monarch",
+      "rulers": [
+        "meiji"
+      ],
+      "tagline": "The boy emperor who turned samurai Japan into a world power",
+      "start": {
+        "date": "1868-01-03"
+      },
+      "end": {
+        "date": "1912-07-30"
+      },
+      "contestedWith": [],
+      "relationToPredecessor": "Son of Emperor Kōmei",
+      "ageAtAccession": "15",
+      "cameToPower": "Restored by a palace coup",
+      "reignEnded": "Died of illness in Tokyo",
+      "previously": "The last shogun gives up power. Rebel samurai seize the palace gates.",
+      "paragraphs": [
+        "Mutsuhito had been emperor for a year when the Restoration made him the centre of everything. He took the era name Meiji, meaning \"enlightened rule\". In 1868 he left Kyoto for the shogun's old city of Edo, renamed Tokyo. A small group of ex-samurai from Satsuma, Chōshū and their allies ran the government in his name. Their message was simple: learn from the West, fast, or be swallowed by it.",
+        "What followed was one of the quickest makeovers in history. The domains were abolished in 1871. Samurai lost their stipends and the right to wear swords, and a conscript army replaced them. Saigō Takamori, a hero of 1868, led a samurai revolt in 1877 and died when it failed. Railways, factories, schools and a new navy appeared. In 1889 the emperor gave Japan a constitution, and the first parliament met the next year.",
+        "Then came the wars. Japan beat China in 1894–95 and took Taiwan. In 1905 it shocked the world by defeating Russia, sinking its fleet at Tsushima. Korea was annexed in 1910. By the time the emperor died in July 1912, aged 59, Japan was a great power. His only surviving son, Yoshihito, inherited the throne."
+      ],
+      "claims": [
+        {
+          "text": "Emperor Meiji made the big decisions himself.",
+          "status": "disputed",
+          "note": "Officially he ruled, and he did weigh in at key moments. Many historians think the oligarchs around him held the real power."
+        },
+        {
+          "text": "His famous official portrait is a drawing, photographed to look like a photo.",
+          "status": "confirmed",
+          "note": "He disliked cameras, so in 1888 the Italian engraver Edoardo Chiossone sketched him and the drawing was photographed."
+        },
+        {
+          "text": "Of his fifteen children, only five lived to adulthood.",
+          "status": "confirmed",
+          "note": "Court records list fifteen children by his consorts; ten died young, including every son but Yoshihito."
+        }
+      ],
+      "hook": "Meiji is dead after 45 years. His son Yoshihito, sickly since childhood, takes the throne. On the day of the funeral, General Nogi and his wife take their own lives in loyalty.",
+      "images": [
+        {
+          "file": "File:Meiji tenno1.jpg",
+          "url": "https://upload.wikimedia.org/wikipedia/commons/2/2d/Meiji_tenno1.jpg",
+          "page": "https://commons.wikimedia.org/wiki/File:Meiji_tenno1.jpg",
+          "credit": "Edoardo Chiossone (drawing); Maruki Riyō (photograph)",
+          "license": "Public domain",
+          "made": "1888",
+          "caption": "Drawn in secret by Edoardo Chiossone in 1888, then photographed for official use.",
+          "alt": "Photograph of a conté portrait drawing of Emperor Meiji"
+        }
+      ],
+      "sources": [
+        {
+          "title": "Emperor of Japan: Meiji and His World, 1852–1912",
+          "author": "Donald Keene",
+          "note": "Columbia University Press, 2002"
+        },
+        {
+          "title": "The Making of Modern Japan",
+          "author": "Marius B. Jansen",
+          "note": "Harvard University Press, 2000"
+        },
+        {
+          "title": "Japan's Modern Myths: Ideology in the Late Meiji Period",
+          "author": "Carol Gluck",
+          "note": "Princeton University Press, 1985"
+        }
+      ],
+      "review": {
+        "status": "draft",
+        "notes": "Drafted from the listed sources; needs a human fact-check."
+      }
+    },
+    {
+      "id": "taisho",
+      "kind": "monarch",
+      "rulers": [
+        "taisho"
+      ],
+      "tagline": "The fragile emperor of Japan's brief democratic spring",
+      "start": {
+        "date": "1912-07-30"
+      },
+      "end": {
+        "date": "1926-12-25"
+      },
+      "contestedWith": [],
+      "relationToPredecessor": "Son of Emperor Meiji",
+      "ageAtAccession": "32",
+      "cameToPower": "Succeeded his father",
+      "reignEnded": "Died at Hayama",
+      "previously": "Meiji dies after 45 years. Japan is now a great power.",
+      "paragraphs": [
+        "Yoshihito was Meiji's son by a court lady, and the only boy to survive. He was ill soon after birth and never really strong. He liked poetry, horses and travelling, and was far more relaxed than his stern father. His era name, Taishō, means \"great righteousness\". Behind him, real power slid towards party politicians and the elder statesmen around the throne.",
+        "Japan joined the Allies in 1914 and grabbed Germany's base at Tsingtao in China and its Pacific islands. Rice riots swept the country in 1918, and Hara Takashi became the first commoner prime minister. People call this time \"Taishō democracy\". On 1 September 1923 the Great Kantō earthquake and the fires after it killed over 100,000 people. In 1925 all adult men got the vote, alongside a tough new law against \"dangerous thoughts\".",
+        "By 1921 the emperor's health had failed so badly that his eldest son, Hirohito, was made regent. Taishō spent his last years out of sight and died at the seaside palace of Hayama on Christmas Day 1926, aged 47."
+      ],
+      "claims": [
+        {
+          "text": "He once rolled up his speech in parliament and peered through it like a telescope.",
+          "status": "legend",
+          "note": "A famous story with no reliable eyewitness account. It may have grown out of rumours about his illness."
+        },
+        {
+          "text": "His childhood illness caused his later breakdown.",
+          "status": "disputed",
+          "note": "He was seriously ill as a baby, but the court kept his condition secret, so what really caused his decline is unclear."
+        },
+        {
+          "text": "He was the first emperor to take no concubines.",
+          "status": "disputed",
+          "note": "Often said, and no concubines of his are known. The concubine system itself was only abolished later, under his son."
+        }
+      ],
+      "hook": "Taishō is dead. Hirohito, 25, already runs the palace as regent. He takes the era name Shōwa, \"enlightened peace\", as the army starts to want a bigger say.",
+      "images": [
+        {
+          "file": "File:Emperor Taishō.jpg",
+          "url": "https://upload.wikimedia.org/wikipedia/commons/3/33/Emperor_Taish%C5%8D.jpg",
+          "page": "https://commons.wikimedia.org/wiki/File:Emperor_Taishō.jpg",
+          "credit": "Ministry of the Imperial Household",
+          "license": "Public domain",
+          "made": "1912",
+          "caption": "Official portrait from 1912, the year he became emperor.",
+          "alt": "Formal photographic portrait of Emperor Taishō"
+        }
+      ],
+      "sources": [
+        {
+          "title": "Taishō Tennō",
+          "author": "Hara Takeshi",
+          "note": "Asahi Shimbunsha, 2000 (in Japanese)"
+        },
+        {
+          "title": "The Cambridge History of Japan, Vol. 6: The Twentieth Century",
+          "author": "Peter Duus (ed.)",
+          "note": "Cambridge University Press, 1988"
+        },
+        {
+          "title": "The Making of Modern Japan",
+          "author": "Marius B. Jansen",
+          "note": "Harvard University Press, 2000"
+        }
+      ],
+      "review": {
+        "status": "draft",
+        "notes": "Drafted from the listed sources; needs a human fact-check."
+      }
+    },
+    {
+      "id": "showa",
+      "kind": "monarch",
+      "rulers": [
+        "showa"
+      ],
+      "tagline": "War, defeat and rebirth: one emperor, 62 years",
+      "start": {
+        "date": "1926-12-25"
+      },
+      "end": {
+        "date": "1989-01-07"
+      },
+      "contestedWith": [],
+      "relationToPredecessor": "Eldest son of Emperor Taishō",
+      "ageAtAccession": "25",
+      "cameToPower": "Succeeded his father",
+      "reignEnded": "Died of cancer, aged 87",
+      "previously": "Taishō dies at Hayama. Regent Hirohito, 25, becomes emperor.",
+      "paragraphs": [
+        "Hirohito was a shy, serious young man who loved marine biology. In 1921 he became the first crown prince to tour Europe. As emperor he was hailed as a living god, while the army grew bolder. Officers staged the Mukden incident in 1931 and seized Manchuria. Rebel young officers tried a coup in Tokyo in 1936, and Hirohito insisted it be crushed. Full war with China began in 1937, and Japanese troops massacred civilians and prisoners at Nanjing.",
+        "On 7 December 1941 Japan attacked Pearl Harbor and swept across Southeast Asia. By 1945 the tide had turned and American bombers were burning Japan's cities. Atomic bombs hit Hiroshima on 6 August and Nagasaki on 9 August, and the Soviets declared war. At a midnight meeting Hirohito backed surrender. On 15 August his recorded voice told the nation by radio to \"endure the unendurable\". For most listeners it was the first time they had heard him.",
+        "The Americans occupied Japan and kept him on the throne. In January 1946 he publicly denied being divine, and the 1947 constitution made him a mere symbol of the state. He opened the 1964 Tokyo Olympics as Japan boomed into the world's second-biggest economy. He died in January 1989, the longest-reigning emperor in Japan's recorded history."
+      ],
+      "claims": [
+        {
+          "text": "Hirohito was a powerless figurehead, pushed into war by the military.",
+          "status": "disputed",
+          "note": "The postwar view, backed by US and Japanese officials. Herbert Bix argues he was an active war leader; others see a cautious monarch boxed in by the army."
+        },
+        {
+          "text": "MacArthur made sure the emperor was never put on trial for war crimes.",
+          "status": "confirmed",
+          "note": "Occupation records show MacArthur judged him vital to keeping Japan calm. Whether he deserved to be tried is still debated."
+        },
+        {
+          "text": "Army officers tried to seize the surrender recording before it could be broadcast.",
+          "status": "confirmed",
+          "note": "On the night of 14 August 1945 rebel officers raided the palace. They failed to find the record and the coup collapsed."
+        }
+      ],
+      "hook": "Hirohito is dead and the Shōwa era is over. His son Akihito, tutored by an American Quaker and married to a commoner, must now show what a peacetime emperor is for.",
+      "images": [
+        {
+          "file": "File:Emperor Showa.jpg",
+          "url": "https://upload.wikimedia.org/wikipedia/commons/8/8e/Emperor_Showa.jpg",
+          "page": "https://commons.wikimedia.org/wiki/File:Emperor_Showa.jpg",
+          "credit": "Imperial Household Ministry",
+          "license": "Public domain",
+          "made": "1928",
+          "caption": "Taken at the time of his enthronement in 1928.",
+          "alt": "Black-and-white formal portrait photograph of Emperor Hirohito at his enthronement"
+        }
+      ],
+      "sources": [
+        {
+          "title": "Hirohito and the Making of Modern Japan",
+          "author": "Herbert P. Bix",
+          "note": "HarperCollins, 2000"
+        },
+        {
+          "title": "Emperor Hirohito and Shōwa Japan: A Political Biography",
+          "author": "Stephen S. Large",
+          "note": "Routledge, 1992"
+        },
+        {
+          "title": "Embracing Defeat: Japan in the Wake of World War II",
+          "author": "John W. Dower",
+          "note": "W. W. Norton, 1999"
+        },
+        {
+          "title": "Imperial Rescript on the Termination of the War",
+          "author": "Emperor Hirohito",
+          "note": "Broadcast 15 August 1945"
+        }
+      ],
+      "review": {
+        "status": "draft",
+        "notes": "Drafted from the listed sources; needs a human fact-check."
+      }
+    },
+    {
+      "id": "akihito",
+      "kind": "monarch",
+      "rulers": [
+        "akihito"
+      ],
+      "tagline": "The emperor who knelt beside his people",
+      "start": {
+        "date": "1989-01-07"
+      },
+      "end": {
+        "date": "2019-04-30"
+      },
+      "contestedWith": [],
+      "relationToPredecessor": "Eldest son of Hirohito",
+      "ageAtAccession": "55",
+      "cameToPower": "Succeeded his father",
+      "reignEnded": "Abdicated, the first since 1817",
+      "previously": "Hirohito dies after 62 years. The Shōwa era is over.",
+      "paragraphs": [
+        "Akihito was eleven when the war ended. After it, an American Quaker, Elizabeth Gray Vining, tutored him in English. In 1959 he married Michiko Shōda, a businessman's daughter he met on a tennis court, the first commoner to marry an heir to the throne. His era was called Heisei, \"achieving peace\". He was the first emperor to start his reign as a symbol under the postwar constitution.",
+        "He made that role his own. After the Kobe earthquake in 1995 and the 2011 tsunami, he and Michiko knelt on gym floors to talk with survivors. In 1992 he became the first Japanese emperor to visit China. He travelled to old Pacific battlefields such as Saipan and Palau and spoke of \"deep remorse\" over the war. He is also a serious scientist who has published research on goby fish.",
+        "In August 2016, at 82, he said in a video message that age was making his duties hard. The Diet passed a special law, and on 30 April 2019 he stepped down. He became emperor emeritus."
+      ],
+      "claims": [
+        {
+          "text": "Akihito was the first emperor to abdicate in about two centuries.",
+          "status": "confirmed",
+          "note": "The last abdication was Emperor Kōkaku's in 1817. A one-off 2017 law allowed Akihito's."
+        },
+        {
+          "text": "He is a published ichthyologist.",
+          "status": "confirmed",
+          "note": "He has written dozens of scientific papers on gobies, many in Japanese zoological journals."
+        },
+        {
+          "text": "After the 2011 tsunami he spoke to the nation in a televised video message.",
+          "status": "confirmed",
+          "note": "Broadcast on 16 March 2011, five days after the disaster. Japanese media called it an unprecedented step for an emperor."
+        }
+      ],
+      "hook": "At midnight the Heisei era ends. Akihito's son Naruhito, a viola player who studied the Thames at Oxford, becomes the 126th emperor in Japan's traditional count.",
+      "images": [
+        {
+          "file": "File:Emperor Akihito (cropped).jpg",
+          "url": "https://upload.wikimedia.org/wikipedia/commons/d/d9/Emperor_Akihito_%28cropped%29.jpg",
+          "page": "https://commons.wikimedia.org/wiki/File:Emperor_Akihito_(cropped).jpg",
+          "credit": "Embassy of Japan in the Czech Republic",
+          "license": "CC BY 4.0",
+          "made": "c. 2001",
+          "caption": "Photographed around 2001, midway through his reign.",
+          "alt": "Portrait photograph of Emperor Akihito"
+        }
+      ],
+      "sources": [
+        {
+          "title": "The People's Emperor: Democracy and the Japanese Monarchy, 1945–1995",
+          "author": "Kenneth J. Ruoff",
+          "note": "Harvard University Asia Center, 2001"
+        },
+        {
+          "title": "Japan's Imperial House in the Postwar Era, 1945–2019",
+          "author": "Kenneth J. Ruoff",
+          "note": "Harvard University Asia Center, 2020"
+        },
+        {
+          "title": "Windows for the Crown Prince",
+          "author": "Elizabeth Gray Vining",
+          "note": "1952; her memoir of tutoring Akihito"
+        },
+        {
+          "title": "Message from His Majesty The Emperor, 8 August 2016",
+          "author": "Imperial Household Agency"
+        }
+      ],
+      "review": {
+        "status": "draft",
+        "notes": "Drafted from the listed sources; needs a human fact-check."
+      }
+    },
+    {
+      "id": "naruhito",
+      "kind": "monarch",
+      "rulers": [
+        "naruhito"
+      ],
+      "tagline": "The Oxford-educated emperor of a new era",
+      "start": {
+        "date": "2019-05-01"
+      },
+      "contestedWith": [],
+      "relationToPredecessor": "Eldest son of Akihito",
+      "ageAtAccession": "59",
+      "cameToPower": "His father's abdication",
+      "reignEnded": "On the throne",
+      "previously": "Akihito steps down, the first emperor to abdicate in two centuries.",
+      "paragraphs": [
+        "Naruhito grew up closer to his parents than any heir before him. He spent two years at Merton College, Oxford, in the 1980s, researching transport on the Thames, and later wrote a cheerful memoir of it. In 1993 he married Masako Owada, a diplomat who had studied at Harvard and Oxford. Their only child, Princess Aiko, was born in 2001.",
+        "His era is Reiwa, usually translated \"beautiful harmony\". It was the first era name taken from a Japanese book, the ancient poetry collection Man'yōshū, instead of the Chinese classics. He was formally enthroned in October 2019. Months later COVID-19 struck, and in 2021 he opened the delayed Tokyo Olympics in an almost empty stadium.",
+        "One big question hangs over the throne. Under current law only men can inherit, so Aiko can't. Next in line are Naruhito's brother Fumihito and then Fumihito's son Hisahito, the youngest male of the family. How that question gets answered, and what kind of emperor Naruhito turns out to be, is a story still being written."
+      ],
+      "claims": [
+        {
+          "text": "Reiwa is the first era name drawn from Japanese rather than Chinese literature.",
+          "status": "confirmed",
+          "note": "The government said so when it announced the name on 1 April 2019, citing a poem in the Man'yōshū."
+        },
+        {
+          "text": "He wrote a book about his student days at Oxford.",
+          "status": "confirmed",
+          "note": "Published in Japanese in 1993; an English translation, The Thames and I, came out in 2006."
+        },
+        {
+          "text": "His daughter Aiko cannot inherit the throne under current law.",
+          "status": "confirmed",
+          "note": "The 1947 Imperial House Law limits succession to men in the male line."
+        }
+      ],
+      "images": [
+        {
+          "file": "File:Emperor Naruhito (cropped).jpg",
+          "url": "https://upload.wikimedia.org/wikipedia/commons/c/c0/Emperor_Naruhito_%28cropped%29.jpg",
+          "page": "https://commons.wikimedia.org/wiki/File:Emperor_Naruhito_(cropped).jpg",
+          "credit": "Cabinet Office, Government of Japan",
+          "license": "CC BY 4.0",
+          "made": "2019",
+          "caption": "Taken at his enthronement ceremony in 2019.",
+          "alt": "Emperor Naruhito in the ochre ceremonial robe worn at his 2019 enthronement"
+        }
+      ],
+      "sources": [
+        {
+          "title": "The Thames and I: A Memoir of Two Years at Oxford",
+          "author": "Naruhito",
+          "note": "Translated by Sir Hugh Cortazzi; Global Oriental, 2006"
+        },
+        {
+          "title": "Japan's Imperial House in the Postwar Era, 1945–2019",
+          "author": "Kenneth J. Ruoff",
+          "note": "Harvard University Asia Center, 2020"
+        },
+        {
+          "title": "Imperial Household Agency official website",
+          "author": "Imperial Household Agency"
+        }
+      ],
+      "review": {
+        "status": "draft",
+        "notes": "Drafted from the listed sources; needs a human fact-check."
+      }
+    }
+  ]
+}
