@@ -698,11 +698,19 @@ document.getElementById("countryBtn").addEventListener("click", () => show("sear
 
 /* ---------------- boot ---------------- */
 // Deep links look like #spain.philip-ii; a bare #reign-id is an England link from before countries existed.
-const [hashCountry, hashReign] = (() => {
+const parseHash = () => {
   const h = location.hash.slice(1);
   if (h.includes(".")) return h.split(".");
   return h ? ["england", h] : [];
-})();
+};
+const [hashCountry, hashReign] = parseHash();
+// A pasted or edited link on an open page: jump there.
+addEventListener("hashchange", () => {
+  const [c, r] = parseHash();
+  if (!ALL[c]) return;
+  if (c !== country) loadCountry(c, r);
+  else { const i = reigns.findIndex(g => g.id === r); if (i >= 0 && i !== index) jumpTo(i); }
+});
 let saved = null;
 try { saved = localStorage.getItem("reign.country"); } catch {}
 const startCountry = [hashCountry, saved, "england"].find(c => c && ALL[c]);
