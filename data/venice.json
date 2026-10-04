@@ -1,0 +1,2782 @@
+{
+  "id": "venice",
+  "name": "Republic of Venice",
+  "blurb": "Eleven centuries of elected doges, from the lagoon to Napoleon",
+  "dateConvention": "Venice began its year on 1 March (more veneto); the deck converts every date to a year starting 1 January, Julian before 1582 and Gregorian after. Doges were elected for life, so cards follow the doges, with runs of lesser doges grouped on one card; the earliest dates are traditional.",
+  "epilogue": "After 1797 Venice passed between Austria and Napoleon, rose again as a republic in 1848–49 under Daniele Manin (no relation of the last doge), and joined the Kingdom of Italy in 1866.",
+  "houses": [
+    {
+      "id": "early-doges",
+      "name": "Early doges",
+      "color": "#2f5d8a",
+      "plain": true
+    },
+    {
+      "id": "medieval-republic",
+      "name": "Medieval commune",
+      "color": "#8f1d21",
+      "plain": true
+    },
+    {
+      "id": "renaissance-republic",
+      "name": "Renaissance republic",
+      "color": "#9a6a12",
+      "plain": true
+    },
+    {
+      "id": "late-republic",
+      "name": "Late republic",
+      "color": "#3d6f6f",
+      "plain": true
+    }
+  ],
+  "rulers": [
+    {
+      "id": "anafesto",
+      "name": "Paolo Lucio Anafesto",
+      "house": "early-doges"
+    },
+    {
+      "id": "pietro-i-orseolo",
+      "name": "Pietro I Orseolo",
+      "house": "early-doges",
+      "born": {
+        "date": "0928",
+        "circa": true
+      },
+      "died": {
+        "date": "0987",
+        "circa": true,
+        "note": "Abbey of Saint-Michel-de-Cuxa, Pyrenees; usually given as 987, some say 988"
+      },
+      "causeOfDeath": "Natural causes, as a monk"
+    },
+    {
+      "id": "pietro-ii-orseolo",
+      "name": "Pietro II Orseolo",
+      "house": "early-doges",
+      "born": {
+        "date": "0961",
+        "circa": true
+      },
+      "died": {
+        "date": "1009",
+        "note": "Venice"
+      },
+      "causeOfDeath": "Natural causes"
+    },
+    {
+      "id": "vitale-ii-michiel",
+      "name": "Vitale II Michiel",
+      "house": "early-doges",
+      "died": {
+        "date": "1172-05",
+        "note": "Venice, near San Zaccaria"
+      },
+      "causeOfDeath": "Stabbed by an assassin"
+    },
+    {
+      "id": "sebastiano-ziani",
+      "name": "Sebastiano Ziani",
+      "house": "medieval-republic",
+      "born": {
+        "date": "1102",
+        "circa": true
+      },
+      "died": {
+        "date": "1178-04",
+        "note": "Venice, after abdicating"
+      },
+      "causeOfDeath": "Natural causes, in old age"
+    },
+    {
+      "id": "enrico-dandolo",
+      "name": "Enrico Dandolo",
+      "house": "medieval-republic",
+      "born": {
+        "date": "1107",
+        "circa": true,
+        "note": "Venice"
+      },
+      "died": {
+        "date": "1205",
+        "note": "Constantinople; May or June, sources differ"
+      },
+      "causeOfDeath": "Illness, in extreme old age"
+    },
+    {
+      "id": "pietro-gradenigo",
+      "name": "Pietro Gradenigo",
+      "house": "medieval-republic",
+      "born": {
+        "date": "1251"
+      },
+      "died": {
+        "date": "1311-08-13",
+        "note": "Venice"
+      },
+      "causeOfDeath": "Died in office"
+    },
+    {
+      "id": "andrea-dandolo",
+      "name": "Andrea Dandolo",
+      "house": "medieval-republic",
+      "born": {
+        "date": "1306",
+        "circa": true
+      },
+      "died": {
+        "date": "1354-09-07",
+        "note": "Venice"
+      },
+      "causeOfDeath": "Died in office, not yet 50"
+    },
+    {
+      "id": "marino-faliero",
+      "name": "Marino Faliero",
+      "house": "medieval-republic",
+      "born": {
+        "date": "1285",
+        "circa": true
+      },
+      "died": {
+        "date": "1355-04-17",
+        "note": "Doge's Palace, Venice"
+      },
+      "causeOfDeath": "Beheaded for treason"
+    },
+    {
+      "id": "andrea-contarini",
+      "name": "Andrea Contarini",
+      "house": "medieval-republic",
+      "born": {
+        "date": "1300",
+        "circa": true
+      },
+      "died": {
+        "date": "1382-06-05",
+        "note": "Venice"
+      },
+      "causeOfDeath": "Died in office, in old age"
+    },
+    {
+      "id": "tommaso-mocenigo",
+      "name": "Tommaso Mocenigo",
+      "house": "renaissance-republic",
+      "born": {
+        "date": "1343",
+        "circa": true
+      },
+      "died": {
+        "date": "1423-04-04",
+        "note": "Venice"
+      },
+      "causeOfDeath": "Died in office, in old age"
+    },
+    {
+      "id": "francesco-foscari",
+      "name": "Francesco Foscari",
+      "house": "renaissance-republic",
+      "born": {
+        "date": "1373",
+        "circa": true
+      },
+      "died": {
+        "date": "1457-11-01",
+        "note": "Venice"
+      },
+      "causeOfDeath": "Died days after being forced out"
+    },
+    {
+      "id": "leonardo-loredan",
+      "name": "Leonardo Loredan",
+      "house": "renaissance-republic",
+      "born": {
+        "date": "1436-11-16",
+        "note": "Venice"
+      },
+      "died": {
+        "date": "1521-06-22",
+        "note": "Venice"
+      },
+      "causeOfDeath": "Old age, in office"
+    },
+    {
+      "id": "andrea-gritti",
+      "name": "Andrea Gritti",
+      "house": "renaissance-republic",
+      "born": {
+        "date": "1455-04-17",
+        "note": "Bardolino, on Lake Garda"
+      },
+      "died": {
+        "date": "1538-12-28",
+        "note": "Venice"
+      },
+      "causeOfDeath": "Illness, in office"
+    },
+    {
+      "id": "alvise-i-mocenigo",
+      "name": "Alvise I Mocenigo",
+      "house": "renaissance-republic",
+      "born": {
+        "date": "1507-10-26",
+        "note": "Venice"
+      },
+      "died": {
+        "date": "1577-06-04",
+        "note": "Venice"
+      },
+      "causeOfDeath": "Natural causes, in office"
+    },
+    {
+      "id": "sebastiano-venier",
+      "name": "Sebastiano Venier",
+      "house": "renaissance-republic",
+      "born": {
+        "date": "1496",
+        "circa": true,
+        "note": "Venice"
+      },
+      "died": {
+        "date": "1578-03-03",
+        "note": "Venice"
+      },
+      "causeOfDeath": "Natural causes, in office"
+    },
+    {
+      "id": "leonardo-dona",
+      "name": "Leonardo Donà",
+      "house": "late-republic",
+      "born": {
+        "date": "1536-02-12",
+        "note": "Venice"
+      },
+      "died": {
+        "date": "1612-07-16",
+        "note": "Venice"
+      },
+      "causeOfDeath": "Natural causes, in office"
+    },
+    {
+      "id": "francesco-morosini",
+      "name": "Francesco Morosini",
+      "epithet": "the Peloponnesian",
+      "house": "late-republic",
+      "born": {
+        "date": "1619-02-26",
+        "note": "Venice"
+      },
+      "died": {
+        "date": "1694-01-06",
+        "note": "Nauplia, in the Peloponnese"
+      },
+      "causeOfDeath": "Illness on campaign"
+    },
+    {
+      "id": "ludovico-manin",
+      "name": "Ludovico Manin",
+      "house": "late-republic",
+      "born": {
+        "date": "1725-05-14",
+        "note": "Venice"
+      },
+      "died": {
+        "date": "1802-10-24",
+        "note": "Venice"
+      },
+      "causeOfDeath": "Natural causes"
+    }
+  ],
+  "reigns": [
+    {
+      "id": "anafesto",
+      "kind": "leader",
+      "rulers": [
+        "anafesto"
+      ],
+      "tagline": "The first doge, if he ever existed",
+      "start": {
+        "date": "0697",
+        "circa": true
+      },
+      "end": {
+        "date": "0717",
+        "circa": true
+      },
+      "contestedWith": [],
+      "relationToPredecessor": "None; the first doge",
+      "ageAtAccession": "Unknown",
+      "cameToPower": "Elected at Heraclea, says tradition",
+      "reignEnded": "Fades out around 717",
+      "previously": "From 568, mainlanders flee the Lombards into the lagoon islands.",
+      "paragraphs": [
+        "Venice started as a hiding place. From 568 the Lombards poured into northern Italy, and people from the mainland towns fled to the muddy islands of the lagoon, where horsemen couldn't follow. They fished, made salt and traded by boat. On paper they still belonged to the Byzantine Empire, ruled from distant Constantinople through its governor at Ravenna.",
+        "Venetian tradition says that in 697 the lagoon communities met at Heraclea and chose one leader for all of them: Paolo Lucio Anafesto. His title was dux, Latin for leader, which in Venetian speech became doge. The doge was elected, and he held the job for life. Nobody was ever born a doge.",
+        "Everything we know about him comes from chronicles written centuries later, by John the Deacon around 1000 and Doge Andrea Dandolo in the 1300s. He may have been a real lagoon chief, or a blurred memory of a Byzantine official. Either way Venice had its founding father, and the men who came after him were about to learn how dangerous the job could be."
+      ],
+      "claims": [
+        {
+          "text": "In 697 the lagoon communities gathered at Heraclea and elected Anafesto as their first doge.",
+          "status": "legend",
+          "note": "First told by John the Deacon around 1000, three centuries later. No document from the 690s mentions him."
+        },
+        {
+          "text": "Anafesto is a garbled memory of the Byzantine exarch Paul of Ravenna.",
+          "status": "disputed",
+          "note": "Some historians think the chroniclers turned the exarch Paul, in office in the 720s, into a local doge. Others accept a real lagoon leader behind the name."
+        },
+        {
+          "text": "The title doge comes from the Latin dux.",
+          "status": "confirmed",
+          "note": "Dux was the title of Byzantine military commanders in Italy; doge is the Venetian form of the same word."
+        }
+      ],
+      "hook": "Anafesto fades into legend. The doges who follow will be blinded, deposed, exiled and murdered, as the lagoon's leading families fight over the new job.",
+      "images": [
+        {
+          "file": "File:Paulutius Anafestus by Jost Amman.jpg",
+          "url": "https://upload.wikimedia.org/wikipedia/commons/7/7c/Paulutius_Anafestus_by_Jost_Amman.jpg",
+          "page": "https://commons.wikimedia.org/wiki/File:Paulutius_Anafestus_by_Jost_Amman.jpg",
+          "credit": "Jost Amman",
+          "license": "Public domain",
+          "made": "1574",
+          "caption": "A woodcut from a 1574 book of doge lives, made almost 900 years after his time and wholly imagined.",
+          "alt": "Woodcut of a bearded man in a doge's cap and robes, labelled Paulucius Anafestus"
+        }
+      ],
+      "sources": [
+        {
+          "title": "Istoria Veneticorum",
+          "author": "John the Deacon",
+          "note": "Venetian chronicle written around 1000"
+        },
+        {
+          "title": "Chronica per extensum descripta",
+          "author": "Andrea Dandolo",
+          "note": "14th-century chronicle by the doge-historian"
+        },
+        {
+          "title": "Venice: A Maritime Republic",
+          "author": "Frederic C. Lane",
+          "note": "Johns Hopkins University Press, 1973"
+        },
+        {
+          "title": "A History of Venice",
+          "author": "John Julius Norwich",
+          "note": "Allen Lane, 1982"
+        }
+      ],
+      "review": {
+        "status": "draft",
+        "notes": "Drafted from the listed sources; needs a human fact-check."
+      }
+    },
+    {
+      "id": "blinded-doges",
+      "kind": "interregnum",
+      "rulers": [],
+      "title": "Blinded, Deposed, Exiled",
+      "house": "early-doges",
+      "tagline": "A century when losing the job meant losing your eyes",
+      "start": {
+        "date": "0717",
+        "circa": true
+      },
+      "end": {
+        "date": "0811"
+      },
+      "contestedWith": [],
+      "relationToPredecessor": "Rival families take turns",
+      "ageAtAccession": "Various",
+      "cameToPower": "Elected, or seized, one by one",
+      "reignEnded": "Obelerio driven out after 810",
+      "previously": "Anafesto, the first doge, fades into legend around 717.",
+      "paragraphs": [
+        "After Anafesto came Marcello Tegalliano, then Orso Ipato, the first doge historians are sure was real. Orso fought for the Byzantines against the Lombards, then was killed in a feud between lagoon factions in 737. For a few years Venice tried yearly military governors instead of doges. Then the doges came back, and so did the violence.",
+        "Orso's son Teodato Ipato, then Galla Gaulo, then Domenico Monegario: each was deposed and blinded, the Byzantine way of making sure a man could never rule again. The Galbaio doges tried to found a dynasty by making their sons co-doges. In 802 the Patriarch of Grado, who stood up to them, was reportedly hurled to his death from a tower.",
+        "Then the Franks arrived. Doge Obelerio leaned towards Charlemagne's empire, and in 810 Charlemagne's son Pepin attacked the lagoon. The Venetians fell back on the islands of Rialto, where his big ships couldn't follow. Pepin left, and Obelerio, the man who had courted the Franks, was driven out."
+      ],
+      "claims": [
+        {
+          "text": "In 802 the Patriarch of Grado was thrown to his death from a tower.",
+          "status": "disputed",
+          "note": "Told by John the Deacon two centuries later. The patriarch's violent death is accepted; the tower can't be checked."
+        },
+        {
+          "text": "The Venetians lured Pepin's fleet onto the shallows and beat him.",
+          "status": "legend",
+          "note": "Venetian chronicles tell a heroic victory. The Frankish royal annals say Pepin forced Venice to submit before he fell ill and died that year."
+        },
+        {
+          "text": "Orso Ipato is the first doge whose existence is beyond doubt.",
+          "status": "confirmed",
+          "note": "Historians accept him as a real figure, though the stories about him come from later chronicles."
+        }
+      ],
+      "hook": "The Franks are gone. Venice moves its government to the Rialto islands, and a new city starts to rise. It needs a patron saint worth stealing.",
+      "images": [
+        {
+          "file": "File:3 Orso Ipato.jpg",
+          "url": "https://upload.wikimedia.org/wikipedia/commons/a/ae/3_Orso_Ipato.jpg",
+          "page": "https://commons.wikimedia.org/wiki/File:3_Orso_Ipato.jpg",
+          "credit": "Antonio Nani",
+          "license": "CC BY-SA 4.0",
+          "made": "1840",
+          "caption": "Engraved by Antonio Nani for his series of doge portraits (Venice, 1840), over a thousand years after Orso Ipato lived; the face is imagined.",
+          "alt": "Copperplate engraving of Doge Orso Ipato in a ducal cap"
+        }
+      ],
+      "sources": [
+        {
+          "title": "Istoria Veneticorum",
+          "author": "John the Deacon",
+          "note": "Venetian chronicle written around 1000"
+        },
+        {
+          "title": "Royal Frankish Annals (Annales regni Francorum)",
+          "author": "Anonymous (Carolingian court annals)",
+          "note": "Pepin's attack of 810"
+        },
+        {
+          "title": "Byzantium and Venice: A Study in Diplomatic and Cultural Relations",
+          "author": "Donald M. Nicol",
+          "note": "Cambridge University Press, 1988"
+        },
+        {
+          "title": "A History of Venice",
+          "author": "John Julius Norwich",
+          "note": "Allen Lane, 1982"
+        }
+      ],
+      "review": {
+        "status": "draft",
+        "notes": "Drafted from the listed sources; needs a human fact-check."
+      }
+    },
+    {
+      "id": "st-mark",
+      "kind": "interregnum",
+      "rulers": [],
+      "title": "Rialto and St Mark",
+      "house": "early-doges",
+      "tagline": "The city moves to Rialto and steals itself a saint",
+      "start": {
+        "date": "0811"
+      },
+      "end": {
+        "date": "0887"
+      },
+      "contestedWith": [],
+      "relationToPredecessor": "The Partecipazio family and rivals",
+      "ageAtAccession": "Various",
+      "cameToPower": "Elected, one after another",
+      "reignEnded": "The Candiani take over, 887",
+      "previously": "Pepin's attack fails and Doge Obelerio is driven out.",
+      "paragraphs": [
+        "The new doge, Agnello Partecipazio, moved the seat of government to the cluster of islands called Rialto, safe in the middle of the lagoon. This is where the city of Venice proper begins. Houses, churches and a ducal palace went up, and the Partecipazio family set about keeping the top job for themselves, with sons and brothers lined up as co-doges.",
+        "In 828 two merchants, Buono of Malamocco and Rustico of Torcello, smuggled the body of St Mark the Evangelist out of Alexandria. The story goes that they hid it under pork, so the Muslim customs men wouldn't search the cargo. Doge Giustiniano Partecipazio built a chapel for it beside his palace, the first St Mark's, and the winged lion of St Mark became Venice's badge.",
+        "Owning an apostle made Venice feel important. Being doge was still risky, though. Pietro Tradonico held the job for almost 30 years, then was cut down by conspirators in 864. The Partecipazio family kept coming back to power, but they never quite made the office hereditary."
+      ],
+      "claims": [
+        {
+          "text": "The merchants hid St Mark's body under pork to get it past Muslim customs.",
+          "status": "legend",
+          "note": "It comes from the Venetian account of the theft, written to glorify the city, and was later shown in the mosaics of St Mark's."
+        },
+        {
+          "text": "The body brought to Venice really was St Mark's.",
+          "status": "disputed",
+          "note": "Nobody can prove it either way. One modern theory claims the bones are Alexander the Great's, which most historians dismiss."
+        },
+        {
+          "text": "Pietro Tradonico was murdered by conspirators in 864.",
+          "status": "confirmed",
+          "note": "Recorded by John the Deacon, the nearest chronicle to the event."
+        }
+      ],
+      "hook": "The Partecipazio era runs out in 887. The next family to grab the office, the Candiani, will hold it on and off for most of a century, and it will end in fire.",
+      "images": [
+        {
+          "file": "File:Jacopo Tintoretto - St Mark's Body Brought to Venice.jpg",
+          "url": "https://upload.wikimedia.org/wikipedia/commons/4/49/Jacopo_Tintoretto_-_St_Mark%27s_Body_Brought_to_Venice.jpg",
+          "page": "https://commons.wikimedia.org/wiki/File:Jacopo_Tintoretto_-_St_Mark's_Body_Brought_to_Venice.jpg",
+          "credit": "Jacopo Tintoretto",
+          "license": "Public domain",
+          "made": "1562–66",
+          "caption": "Tintoretto's painting of St Mark's body being carried off, made over 700 years after the theft.",
+          "alt": "Painting of men carrying St Mark's body across a square under a stormy sky"
+        }
+      ],
+      "sources": [
+        {
+          "title": "Istoria Veneticorum",
+          "author": "John the Deacon",
+          "note": "Venetian chronicle written around 1000"
+        },
+        {
+          "title": "Furta Sacra: Thefts of Relics in the Central Middle Ages",
+          "author": "Patrick J. Geary",
+          "note": "Princeton University Press, 1978"
+        },
+        {
+          "title": "Venice: A New History",
+          "author": "Thomas F. Madden",
+          "note": "Viking, 2012"
+        },
+        {
+          "title": "A History of Venice",
+          "author": "John Julius Norwich",
+          "note": "Allen Lane, 1982"
+        }
+      ],
+      "review": {
+        "status": "draft",
+        "notes": "Drafted from the listed sources; needs a human fact-check."
+      }
+    },
+    {
+      "id": "candiano-doges",
+      "kind": "interregnum",
+      "rulers": [],
+      "title": "The Candiani and the Burning Palace",
+      "house": "early-doges",
+      "tagline": "Pirates, Magyars, stolen brides and a palace on fire",
+      "start": {
+        "date": "0887"
+      },
+      "end": {
+        "date": "0976-08"
+      },
+      "contestedWith": [],
+      "relationToPredecessor": "The Candiano family and others",
+      "ageAtAccession": "Various",
+      "cameToPower": "Elected, one after another",
+      "reignEnded": "A mob burns the palace, 976",
+      "previously": "St Mark rests at Rialto, and the Partecipazio era ends in 887.",
+      "paragraphs": [
+        "Pietro I Candiano lasted only months. In 887 he sailed against the Slav pirates of the Dalmatian coast and was killed in the fighting. His successors faced worse. In 900 the Magyars, horsemen from the Hungarian plain, swept into the lagoon. Doge Pietro Tribuno had already walled the city, and his fleet beat them off.",
+        "Venice loved a rescue story. Venetians later told how pirates once snatched a group of brides from a church on their wedding day, and how the city's men chased them down and brought them all home. The city celebrated it every year as the Feast of the Marys.",
+        "Pietro IV Candiano got above himself. He married a rich Tuscan noblewoman, hired foreign guards and acted like a prince. In August 976 a mob set fire to the ducal palace. Trying to escape, he was cut down along with his baby son. The flames spread to the church of St Mark next door."
+      ],
+      "claims": [
+        {
+          "text": "Pirates kidnapped Venetian brides and the city's men rescued them, the origin of the Feast of the Marys.",
+          "status": "legend",
+          "note": "The tale comes from later chronicles. The festival itself was real and was dropped in the late 1300s."
+        },
+        {
+          "text": "Pietro IV Candiano was killed together with his infant son.",
+          "status": "confirmed",
+          "note": "John the Deacon, writing within a generation, records both killings."
+        }
+      ],
+      "hook": "The palace is ash and St Mark's has burned. Venice needs a doge who can calm the city and pay for the rebuilding. It picks a rich, pious noble named Pietro Orseolo.",
+      "images": [
+        {
+          "file": "File:Portrait of Doge Pietro IV Candiano.png",
+          "url": "https://upload.wikimedia.org/wikipedia/commons/4/44/Portrait_of_Doge_Pietro_IV_Candiano.png",
+          "page": "https://commons.wikimedia.org/wiki/File:Portrait_of_Doge_Pietro_IV_Candiano.png",
+          "credit": "Domenico Tintoretto",
+          "license": "Public domain",
+          "made": "Late 16th century",
+          "caption": "Pietro IV Candiano in the frieze of doge portraits in the Doge's Palace, painted some 600 years after his death.",
+          "alt": "Painted portrait of Doge Pietro IV Candiano in a ducal cap, from the frieze in the Doge's Palace"
+        }
+      ],
+      "sources": [
+        {
+          "title": "Istoria Veneticorum",
+          "author": "John the Deacon",
+          "note": "Venetian chronicle written around 1000"
+        },
+        {
+          "title": "Chronica per extensum descripta",
+          "author": "Andrea Dandolo",
+          "note": "14th-century chronicle by the doge-historian"
+        },
+        {
+          "title": "A History of Venice",
+          "author": "John Julius Norwich",
+          "note": "Allen Lane, 1982"
+        },
+        {
+          "title": "Venice: A Maritime Republic",
+          "author": "Frederic C. Lane",
+          "note": "Johns Hopkins University Press, 1973"
+        }
+      ],
+      "review": {
+        "status": "draft",
+        "notes": "Drafted from the listed sources; needs a human fact-check."
+      }
+    },
+    {
+      "id": "pietro-i-orseolo",
+      "kind": "leader",
+      "rulers": [
+        "pietro-i-orseolo"
+      ],
+      "tagline": "The doge who slipped out one night and became a monk",
+      "start": {
+        "date": "0976-08"
+      },
+      "end": {
+        "date": "0978-09"
+      },
+      "contestedWith": [],
+      "relationToPredecessor": "No relation; elected",
+      "ageAtAccession": "About 48",
+      "cameToPower": "Elected after the palace fire",
+      "reignEnded": "Fled at night to a monastery",
+      "previously": "A mob burns the palace and kills Doge Pietro IV Candiano.",
+      "paragraphs": [
+        "Pietro Orseolo took over a smoking city. He was rich and deeply religious, and the chronicles say he dug into his own fortune to rebuild the ducal palace and the church of St Mark. For two years he worked to calm a city that had just murdered its last doge.",
+        "Then, one night in September 978, he vanished. Without a word to his wife or son, he slipped out of Venice with a few companions, among them the abbot of Cuxa and the hermit Romuald, and made for the abbey of Saint-Michel-de-Cuxa in the Pyrenees. He spent the rest of his life there as a monk, and the Church later made him a saint.",
+        "Venice was left without a doge, and his family without a husband and father. But the Orseoli weren't finished. His son, also called Pietro, would become the greatest doge Venice had yet seen."
+      ],
+      "claims": [
+        {
+          "text": "He paid for rebuilding the palace and St Mark's out of his own pocket.",
+          "status": "disputed",
+          "note": "John the Deacon and later Andrea Dandolo praise his generosity; how much came from his own fortune can't be checked."
+        },
+        {
+          "text": "He left Venice secretly at night, without telling his family.",
+          "status": "confirmed",
+          "note": "John the Deacon, writing within living memory, and Peter Damian's life of St Romuald both describe the secret flight."
+        },
+        {
+          "text": "Pietro Orseolo is a saint.",
+          "status": "confirmed",
+          "note": "Venerated soon after his death; his cult was formally approved by the papacy in 1731."
+        }
+      ],
+      "hook": "With Pietro gone, Venice gets through two more doges in thirteen years. Then, in 991, it turns to his son, a young man with big plans for the Adriatic.",
+      "images": [
+        {
+          "file": "File:Portrait of Doge Pietro I Orseolo.png",
+          "url": "https://upload.wikimedia.org/wikipedia/commons/9/9b/Portrait_of_Doge_Pietro_I_Orseolo.png",
+          "page": "https://commons.wikimedia.org/wiki/File:Portrait_of_Doge_Pietro_I_Orseolo.png",
+          "credit": "Domenico Tintoretto",
+          "license": "Public domain",
+          "made": "Late 16th century",
+          "caption": "His imagined portrait in the frieze of doges in the Doge's Palace, painted some 600 years after his death.",
+          "alt": "Painted portrait of Doge Pietro I Orseolo in a ducal cap, from the frieze in the Doge's Palace"
+        }
+      ],
+      "sources": [
+        {
+          "title": "Istoria Veneticorum",
+          "author": "John the Deacon",
+          "note": "Venetian chronicle written around 1000"
+        },
+        {
+          "title": "Life of Blessed Romuald (Vita beati Romualdi)",
+          "author": "Peter Damian"
+        },
+        {
+          "title": "A History of Venice",
+          "author": "John Julius Norwich",
+          "note": "Allen Lane, 1982"
+        }
+      ],
+      "review": {
+        "status": "draft",
+        "notes": "Drafted from the listed sources; needs a human fact-check."
+      }
+    },
+    {
+      "id": "pietro-ii-orseolo",
+      "kind": "leader",
+      "rulers": [
+        "pietro-ii-orseolo"
+      ],
+      "tagline": "The doge who sailed out and made the Adriatic Venetian",
+      "start": {
+        "date": "0991"
+      },
+      "end": {
+        "date": "1009"
+      },
+      "contestedWith": [],
+      "relationToPredecessor": "Son of Pietro I Orseolo",
+      "ageAtAccession": "About 30",
+      "cameToPower": "Elected",
+      "reignEnded": "Died in office",
+      "previously": "Pietro I Orseolo became a monk. Two doges later, it's his son's turn.",
+      "paragraphs": [
+        "Pietro II Orseolo thought big. In 992 he won a golden bull from the Byzantine emperor Basil II that cut the duties Venetian ships paid at Constantinople, and he made friends with the German emperors too. Venice was learning to play the two great empires off against each other.",
+        "On Ascension Day in the year 1000 he set sail with a war fleet to deal with the Narentine pirates who preyed on Adriatic shipping. Town after town on the Dalmatian coast submitted, and he took the title Duke of the Dalmatians. Venice marked the day with a blessing of the sea, the seed of its later Marriage of the Sea.",
+        "In 1001 the young emperor Otto III slipped into Venice in secret to visit him. The doge's son Giovanni married a Byzantine princess, Maria, but plague killed them both a few years later. Pietro died in 1009, and his younger son Otto stepped into his place."
+      ],
+      "claims": [
+        {
+          "text": "Maria, the Byzantine bride, shocked Venice by eating with a little golden fork.",
+          "status": "legend",
+          "note": "The story is told by the churchman Peter Damian as a warning against luxury. He was preaching, not reporting."
+        },
+        {
+          "text": "The Ascension Day ceremony of the sea began with the expedition of 1000.",
+          "status": "disputed",
+          "note": "Venetian tradition links the two. The ring dropped into the water belongs to a later story, set in 1177."
+        },
+        {
+          "text": "Emperor Otto III visited Venice in secret in 1001.",
+          "status": "confirmed",
+          "note": "John the Deacon, the doge's own chaplain and envoy, describes the visit."
+        }
+      ],
+      "hook": "Pietro II's son Otto Orseolo takes over at about 16. The Orseoli look a lot like royalty now, and plenty of Venetians don't like it.",
+      "images": [
+        {
+          "file": "File:Domenico tintoretto, ritratto dei dogi pietro orseolo II e ottone orseolo (cropped).JPG",
+          "url": "https://upload.wikimedia.org/wikipedia/commons/1/12/Domenico_tintoretto%2C_ritratto_dei_dogi_pietro_orseolo_II_e_ottone_orseolo_%28cropped%29.JPG",
+          "page": "https://commons.wikimedia.org/wiki/File:Domenico_tintoretto,_ritratto_dei_dogi_pietro_orseolo_II_e_ottone_orseolo_(cropped).JPG",
+          "credit": "Domenico Tintoretto",
+          "license": "Public domain",
+          "made": "Late 16th century",
+          "caption": "His imagined portrait in the frieze of doges in the Doge's Palace, painted nearly 600 years after his death.",
+          "alt": "Painted portrait of Doge Pietro II Orseolo in a ducal cap, from the frieze in the Doge's Palace"
+        }
+      ],
+      "sources": [
+        {
+          "title": "Istoria Veneticorum",
+          "author": "John the Deacon",
+          "note": "Venetian chronicle written around 1000"
+        },
+        {
+          "title": "Byzantium and Venice: A Study in Diplomatic and Cultural Relations",
+          "author": "Donald M. Nicol",
+          "note": "Cambridge University Press, 1988"
+        },
+        {
+          "title": "A History of Venice",
+          "author": "John Julius Norwich",
+          "note": "Allen Lane, 1982"
+        },
+        {
+          "title": "Venice: A New History",
+          "author": "Thomas F. Madden",
+          "note": "Viking, 2012"
+        }
+      ],
+      "review": {
+        "status": "draft",
+        "notes": "Drafted from the listed sources; needs a human fact-check."
+      }
+    },
+    {
+      "id": "golden-bull-years",
+      "kind": "interregnum",
+      "rulers": [],
+      "title": "Golden Bulls and Crusades",
+      "house": "early-doges",
+      "tagline": "Tax-free in Constantinople, and a basilica to show it",
+      "start": {
+        "date": "1009"
+      },
+      "end": {
+        "date": "1156"
+      },
+      "contestedWith": [],
+      "relationToPredecessor": "Many doges, few related",
+      "ageAtAccession": "Various",
+      "cameToPower": "Elected, one after another",
+      "reignEnded": "Vitale II Michiel elected, 1156",
+      "previously": "Pietro II Orseolo dies, and his teenage son Otto takes over.",
+      "paragraphs": [
+        "The Orseoli overreached. Otto Orseolo was deposed and the family sent into exile in 1026, and in 1032 Venice passed a law banning doges from naming their sons as co-doges. No more dynasties. In 1063 Doge Domenico Contarini began the new church of St Mark, the domed basilica that still stands.",
+        "Venice's big break came from Byzantium. The emperor Alexios I Komnenos needed a navy against the Normans of southern Italy, and Venice supplied one. In return his golden bull of 1082 let Venetian merchants trade across the empire tax-free and gave them their own quarter in Constantinople. Domenico Selvo, the doge who fought the Normans and lost, was thrown out.",
+        "Tradition says the state shipyard, the Arsenal, was founded in 1104. Then came the crusades. Under Ordelafo Falier and Domenico Michiel, Venetian fleets sailed east, and in 1124 they helped take the port of Tyre. Every victory came with trading rights. Venice was getting rich, and the Greeks were noticing."
+      ],
+      "claims": [
+        {
+          "text": "Alexios I's golden bull for Venice dates from 1082.",
+          "status": "disputed",
+          "note": "Most historians accept 1082, but some argue for 1092. The document survives only in later copies."
+        },
+        {
+          "text": "The Arsenal was founded in 1104.",
+          "status": "legend",
+          "note": "The date is tradition. The shipyard's early history is poorly documented."
+        },
+        {
+          "text": "In 1032 doges were banned from naming their sons co-doges.",
+          "status": "confirmed",
+          "note": "The rule followed the fall of the Orseoli and is recorded by Andrea Dandolo and other chroniclers."
+        }
+      ],
+      "hook": "By 1156 Venetians in Constantinople are rich, cocky and resented. The new doge, Vitale II Michiel, is about to find out how fast an emperor's favour can turn.",
+      "images": [
+        {
+          "file": "File:30 Domenico Contarini.jpg",
+          "url": "https://upload.wikimedia.org/wikipedia/commons/b/be/30_Domenico_Contarini.jpg",
+          "page": "https://commons.wikimedia.org/wiki/File:30_Domenico_Contarini.jpg",
+          "credit": "Antonio Nani",
+          "license": "CC BY-SA 4.0",
+          "made": "1840",
+          "caption": "Engraved by Antonio Nani for his series of doge portraits (Venice, 1840), about 800 years after Domenico Contarini began the new St Mark's.",
+          "alt": "Copperplate engraving of Doge Domenico Contarini in a ducal cap"
+        }
+      ],
+      "sources": [
+        {
+          "title": "Byzantium and Venice: A Study in Diplomatic and Cultural Relations",
+          "author": "Donald M. Nicol",
+          "note": "Cambridge University Press, 1988"
+        },
+        {
+          "title": "The Alexiad",
+          "author": "Anna Komnene"
+        },
+        {
+          "title": "Venice: A Maritime Republic",
+          "author": "Frederic C. Lane",
+          "note": "Johns Hopkins University Press, 1973"
+        },
+        {
+          "title": "Venice: A New History",
+          "author": "Thomas F. Madden",
+          "note": "Viking, 2012"
+        }
+      ],
+      "review": {
+        "status": "draft",
+        "notes": "Drafted from the listed sources; needs a human fact-check."
+      }
+    },
+    {
+      "id": "vitale-ii-michiel",
+      "kind": "leader",
+      "rulers": [
+        "vitale-ii-michiel"
+      ],
+      "tagline": "He sailed to war and came home to a knife",
+      "start": {
+        "date": "1156"
+      },
+      "end": {
+        "date": "1172-05"
+      },
+      "contestedWith": [],
+      "relationToPredecessor": "No relation; elected",
+      "ageAtAccession": "Unknown",
+      "cameToPower": "Elected",
+      "reignEnded": "Stabbed in the street, 1172",
+      "previously": "Venice grows rich on Byzantine trade, and the Greeks resent it.",
+      "paragraphs": [
+        "Vitale II Michiel ran Venice for 15 busy years, backing the Italian cities against the emperor Frederick Barbarossa and keeping the trade flowing. Then, on 12 March 1171, the Byzantine emperor Manuel I Komnenos struck. Every Venetian in his empire was arrested on the same day, and their ships, goods and money were seized.",
+        "Venice wanted revenge. The doge led a huge fleet east, but instead of fighting he spent the winter negotiating while Manuel's envoys strung him along. Then plague broke out on the crowded ships. In spring 1172 Michiel sailed home with a sick, beaten fleet, and the disease came with him.",
+        "The assembly was furious. Michiel left the meeting and headed for the convent of San Zaccaria, but a man caught him in the street nearby and stabbed him to death. It was May 1172. Venice decided that no single man should ever again be able to drag it into such a disaster."
+      ],
+      "claims": [
+        {
+          "text": "Some 10,000 Venetians were arrested in Constantinople alone.",
+          "status": "disputed",
+          "note": "The figure comes from Venetian sources keen to stress the outrage. Nobody counted reliably."
+        },
+        {
+          "text": "Plague wrecked the Venetian fleet while the doge negotiated.",
+          "status": "confirmed",
+          "note": "Both Venetian chronicles and the Byzantine historian Niketas Choniates describe the disease."
+        },
+        {
+          "text": "The assassin's house was pulled down and a ban put on ever rebuilding it in stone.",
+          "status": "legend",
+          "note": "A Venetian tradition attached to a street near San Zaccaria; it isn't recorded at the time."
+        }
+      ],
+      "hook": "Never again will one man lead Venice to ruin. The Venetians rewrite the rules: a small committee will pick the next doge, and it chooses the richest man in the city.",
+      "images": [
+        {
+          "file": "File:Sigillo di vitale II michiel, doge di venezia, in piombo, 1156-1172.jpg",
+          "url": "https://upload.wikimedia.org/wikipedia/commons/e/e8/Sigillo_di_vitale_II_michiel%2C_doge_di_venezia%2C_in_piombo%2C_1156-1172.jpg",
+          "page": "https://commons.wikimedia.org/wiki/File:Sigillo_di_vitale_II_michiel,_doge_di_venezia,_in_piombo,_1156-1172.jpg",
+          "credit": "Francesco Bini",
+          "license": "CC BY-SA 4.0",
+          "made": "1156–72",
+          "caption": "A lead seal made for Vitale II Michiel during his reign, now in the Numismatic Museum of Athens.",
+          "alt": "Photo of a round lead seal of Doge Vitale II Michiel"
+        }
+      ],
+      "sources": [
+        {
+          "title": "Enrico Dandolo and the Rise of Venice",
+          "author": "Thomas F. Madden",
+          "note": "Johns Hopkins University Press, 2003"
+        },
+        {
+          "title": "Byzantium and Venice: A Study in Diplomatic and Cultural Relations",
+          "author": "Donald M. Nicol",
+          "note": "Cambridge University Press, 1988"
+        },
+        {
+          "title": "O City of Byzantium: Annals of Niketas Choniates",
+          "author": "Niketas Choniates (trans. Harry J. Magoulias)",
+          "note": "Wayne State University Press, 1984"
+        },
+        {
+          "title": "A History of Venice",
+          "author": "John Julius Norwich",
+          "note": "Allen Lane, 1982"
+        }
+      ],
+      "review": {
+        "status": "draft",
+        "notes": "Drafted from the listed sources; needs a human fact-check."
+      }
+    },
+    {
+      "id": "sebastiano-ziani",
+      "kind": "leader",
+      "rulers": [
+        "sebastiano-ziani"
+      ],
+      "tagline": "The richest man in Venice makes the pope and emperor meet",
+      "start": {
+        "date": "1172-09",
+        "circa": true
+      },
+      "end": {
+        "date": "1178-04",
+        "circa": true
+      },
+      "contestedWith": [],
+      "relationToPredecessor": "No relation; elected",
+      "ageAtAccession": "About 70",
+      "cameToPower": "Chosen by eleven electors",
+      "reignEnded": "Abdicated, 1178",
+      "previously": "Doge Vitale II Michiel is stabbed to death in the street.",
+      "paragraphs": [
+        "After the murder, Venice changed the rules. Instead of the popular assembly acclaiming a doge, a committee of eleven electors chose him, and the people were simply shown the result. Their pick was Sebastiano Ziani, the richest man in Venice. Around this time the Great Council of leading citizens took shape as the real centre of power.",
+        "Ziani spent freely. He bought up land and enlarged the Piazza San Marco into something like the square we know. In July 1177 he pulled off a diplomatic triumph. The emperor Frederick Barbarossa, after years of war with the papacy, came to Venice and knelt before Pope Alexander III at the doors of St Mark's. Venice had hosted the peace, and the whole of Europe knew it.",
+        "Venetian legend says the grateful pope gave the doge a ring and told him to wed the sea with it every Ascension Day, the start of the Marriage of the Sea. In 1178 the old doge stepped down and retired to a monastery, where he died soon after."
+      ],
+      "claims": [
+        {
+          "text": "Pope Alexander III gave the doge a ring to marry the sea every year.",
+          "status": "legend",
+          "note": "Venetian tradition, celebrated in later paintings in the Doge's Palace. No record from 1177 mentions the gift."
+        },
+        {
+          "text": "Barbarossa knelt and kissed the pope's feet at St Mark's.",
+          "status": "confirmed",
+          "note": "Archbishop Romuald of Salerno, who was there, describes the scene. The later tale that the pope put his foot on the emperor's neck is legend."
+        },
+        {
+          "text": "Ziani raised the two great columns on the Piazzetta.",
+          "status": "disputed",
+          "note": "Tradition puts them in his time; the exact date and who set them up aren't documented."
+        }
+      ],
+      "hook": "Venice has a new way of choosing doges. In 1192 it picks a blind man in his eighties. He will end up leading a crusade and conquering Constantinople.",
+      "images": [
+        {
+          "file": "File:The Emperor Frederick Barbarossa Submitting to Pope Alexander III in the Presence of Doge Sebastiano Ziani MET DP801422.jpg",
+          "url": "https://upload.wikimedia.org/wikipedia/commons/b/b5/The_Emperor_Frederick_Barbarossa_Submitting_to_Pope_Alexander_III_in_the_Presence_of_Doge_Sebastiano_Ziani_MET_DP801422.jpg",
+          "page": "https://commons.wikimedia.org/wiki/File:The_Emperor_Frederick_Barbarossa_Submitting_to_Pope_Alexander_III_in_the_Presence_of_Doge_Sebastiano_Ziani_MET_DP801422.jpg",
+          "credit": "Pietro Malombra",
+          "license": "CC0",
+          "made": "c. 1600",
+          "caption": "A drawing of the 1177 peace made over 400 years later, now in the Metropolitan Museum of Art.",
+          "alt": "Chalk drawing of the emperor Frederick Barbarossa submitting to Pope Alexander III, with Doge Sebastiano Ziani beside them"
+        }
+      ],
+      "sources": [
+        {
+          "title": "Venice: A New History",
+          "author": "Thomas F. Madden",
+          "note": "Viking, 2012"
+        },
+        {
+          "title": "Chronicon",
+          "author": "Romuald of Salerno",
+          "note": "Eyewitness to the Peace of Venice, 1177"
+        },
+        {
+          "title": "Venice: A Maritime Republic",
+          "author": "Frederic C. Lane",
+          "note": "Johns Hopkins University Press, 1973"
+        },
+        {
+          "title": "A History of Venice",
+          "author": "John Julius Norwich",
+          "note": "Allen Lane, 1982"
+        }
+      ],
+      "review": {
+        "status": "draft",
+        "notes": "Drafted from the listed sources; needs a human fact-check."
+      }
+    },
+    {
+      "id": "enrico-dandolo",
+      "kind": "leader",
+      "rulers": [
+        "enrico-dandolo"
+      ],
+      "tagline": "Blind, in his eighties, and first onto the walls",
+      "start": {
+        "date": "1192"
+      },
+      "end": {
+        "date": "1205"
+      },
+      "contestedWith": [],
+      "relationToPredecessor": "No relation; elected",
+      "ageAtAccession": "About 85",
+      "cameToPower": "Elected in old age",
+      "reignEnded": "Died in Constantinople",
+      "previously": "Old Sebastiano Ziani steps down after making Venice the peacemaker.",
+      "paragraphs": [
+        "Enrico Dandolo was in his eighties and blind when he was elected in 1192, and still one of the sharpest minds in Venice. In 1201 envoys of the Fourth Crusade asked Venice to build and crew a fleet to carry their army east. The agreed price was 85,000 marks of silver. Venice set aside nearly all its other business to get the ships ready.",
+        "Far fewer crusaders turned up than promised, and they couldn't pay. Dandolo offered a deal: help Venice take the rebel city of Zara on the Dalmatian coast, and the debt could wait. Zara fell in 1202. Then a Byzantine prince, Alexios, promised a fortune if they restored his deposed father, Isaac II. The fleet sailed for Constantinople.",
+        "In 1203 the old doge stood armed in the prow as his ships ran at the sea walls. When the deal fell apart, the crusaders stormed the city in April 1204, looting it for days and killing many. Venice took a quarter and half a quarter of the empire, plus Crete and the bronze horses now at St Mark's. Dandolo died in Constantinople in 1205 and was buried in Hagia Sophia."
+      ],
+      "claims": [
+        {
+          "text": "The Byzantines blinded Dandolo on an embassy to Constantinople.",
+          "status": "disputed",
+          "note": "The story appears in later Venetian chronicles. Villehardouin says he lost his sight from a head wound, and most historians doubt the blinding tale."
+        },
+        {
+          "text": "Dandolo led the assault on the sea walls himself.",
+          "status": "confirmed",
+          "note": "Geoffrey of Villehardouin, an eyewitness, describes the blind doge in the prow under the banner of St Mark, ordering his men to put him ashore."
+        },
+        {
+          "text": "Dandolo planned all along to steer the crusade to Constantinople.",
+          "status": "disputed",
+          "note": "Niketas Choniates blamed Venetian greed and spite. Most modern historians see a chain of debts and accidents instead."
+        }
+      ],
+      "hook": "Dandolo dies in the city he helped conquer. Back home, Venice suddenly has an empire of islands and ports to run, and its nobles mean to keep the doges on a very short leash.",
+      "images": [
+        {
+          "file": "File:Enrico Dandolo.jpg",
+          "url": "https://upload.wikimedia.org/wikipedia/commons/c/ca/Enrico_Dandolo.jpg",
+          "page": "https://commons.wikimedia.org/wiki/File:Enrico_Dandolo.jpg",
+          "credit": "Domenico Tintoretto",
+          "license": "Public domain",
+          "made": "c. 1600",
+          "caption": "Painted by Domenico Tintoretto around 1600, almost 400 years after Dandolo died; the face is imagined.",
+          "alt": "Painted portrait of Doge Enrico Dandolo in a ducal cap"
+        }
+      ],
+      "sources": [
+        {
+          "title": "Enrico Dandolo and the Rise of Venice",
+          "author": "Thomas F. Madden",
+          "note": "Johns Hopkins University Press, 2003"
+        },
+        {
+          "title": "The Conquest of Constantinople",
+          "author": "Geoffrey of Villehardouin"
+        },
+        {
+          "title": "O City of Byzantium: Annals of Niketas Choniates",
+          "author": "Niketas Choniates (trans. Harry J. Magoulias)",
+          "note": "Wayne State University Press, 1984"
+        },
+        {
+          "title": "The Fourth Crusade: The Conquest of Constantinople",
+          "author": "Donald E. Queller and Thomas F. Madden",
+          "note": "University of Pennsylvania Press, 2nd ed. 1997"
+        }
+      ],
+      "review": {
+        "status": "draft",
+        "notes": "Drafted from the listed sources; needs a human fact-check."
+      }
+    },
+    {
+      "id": "ducat-and-ballot",
+      "kind": "interregnum",
+      "rulers": [],
+      "house": "medieval-republic",
+      "title": "The Ducat and the Ballot",
+      "tagline": "Gold coins, Marco Polo and a vote nobody could rig",
+      "start": {
+        "date": "1205"
+      },
+      "end": {
+        "date": "1289"
+      },
+      "contestedWith": [],
+      "relationToPredecessor": "Seven doges, mostly unrelated",
+      "ageAtAccession": "Various",
+      "cameToPower": "Elected one after another",
+      "reignEnded": "Giovanni Dandolo dies, 1289",
+      "previously": "Blind old Dandolo dies in Constantinople, buried in Hagia Sophia.",
+      "paragraphs": [
+        "Dandolo left Venice an empire nobody had planned for. Pietro Ziani and the doges after him had to run it. Crete was settled with shiploads of Venetian colonists and held down by force. At home the nobles kept their doges on a short lead. Each new doge swore an oath, the promissione, listing what he could and couldn't do, and every election the list got longer. The doge was turning into a chairman, not a prince.",
+        "The big rival was Genoa. In 1256 a squabble over a monastery in Acre, St Sabas, became open war in the streets of the crusader port. Genoa got its revenge in 1261, when its Byzantine allies retook Constantinople and Venice lost its favoured spot there. Meanwhile Venetian merchants kept pushing east. In 1271 a teenager called Marco Polo set off with his father and uncle for the court of Kublai Khan.",
+        "In 1268 Venice built the oddest election machine in history, first used for Lorenzo Tiepolo. Thirty councillors drawn by lot were cut by lot to 9, who named 40, cut to 12, who named 25, cut to 9, who named 45, cut to 11, who named 41 electors. The doge needed 25 of their votes. A boy picked in the street drew the balls. Then in 1284, under Giovanni Dandolo, came the gold ducat, a coin Venice kept striking for 500 years."
+      ],
+      "claims": [
+        {
+          "text": "Marco Polo really made it to China.",
+          "status": "disputed",
+          "note": "Frances Wood argued in 1995 that he may never have got there. Most historians disagree, pointing to accurate details on salt, paper money and Mongol officials."
+        },
+        {
+          "text": "The doge's election ballots were drawn by a boy picked at random in the street, the ballottino.",
+          "status": "confirmed",
+          "note": "The ballottino is part of the procedure written down in 1268 and lasted until the Republic ended."
+        },
+        {
+          "text": "The ducat kept the same weight and purity of gold for about five centuries.",
+          "status": "confirmed",
+          "note": "Coin studies show about 3.5 grams of almost pure gold from 1284 to the end of the Republic, which is why traders everywhere trusted it."
+        }
+      ],
+      "hook": "Giovanni Dandolo is dead. The next doge will quietly shut the doors of the Great Council, and turn a few hundred families into a ruling caste for the next 500 years.",
+      "images": [
+        {
+          "file": "File:Ducato d'oro di giovanni dandolo, doge di venezia, 1279-89.jpg",
+          "url": "https://upload.wikimedia.org/wikipedia/commons/a/a2/Ducato_d%27oro_di_giovanni_dandolo%2C_doge_di_venezia%2C_1279-89.jpg",
+          "page": "https://commons.wikimedia.org/wiki/File:Ducato_d%27oro_di_giovanni_dandolo,_doge_di_venezia,_1279-89.jpg",
+          "credit": "Sailko",
+          "license": "CC BY-SA 3.0",
+          "made": "1280s",
+          "caption": "A gold ducat struck under Giovanni Dandolo, one of the very first of a coin Venice made for 500 years.",
+          "alt": "Photo of a small gold Venetian ducat struck under Doge Giovanni Dandolo"
+        }
+      ],
+      "sources": [
+        {
+          "title": "Venice: A Maritime Republic",
+          "author": "Frederic C. Lane",
+          "note": "Johns Hopkins University Press, 1973"
+        },
+        {
+          "title": "Venice: A New History",
+          "author": "Thomas F. Madden",
+          "note": "Viking, 2012"
+        },
+        {
+          "title": "Money and Banking in Medieval and Renaissance Venice, vol. 1",
+          "author": "Frederic C. Lane and Reinhold C. Mueller",
+          "note": "Johns Hopkins University Press, 1985; the ducat"
+        },
+        {
+          "title": "Did Marco Polo Go to China?",
+          "author": "Frances Wood",
+          "note": "Secker & Warburg, 1995"
+        }
+      ],
+      "review": {
+        "status": "draft",
+        "notes": "Drafted from the listed sources; needs a human fact-check."
+      }
+    },
+    {
+      "id": "pietro-gradenigo",
+      "kind": "leader",
+      "rulers": [
+        "pietro-gradenigo"
+      ],
+      "tagline": "The doge who locked the doors of the Great Council",
+      "start": {
+        "date": "1289-11"
+      },
+      "end": {
+        "date": "1311-08"
+      },
+      "contestedWith": [],
+      "relationToPredecessor": "No relation; elected",
+      "ageAtAccession": "About 38",
+      "cameToPower": "Elected, though the crowd wanted another",
+      "reignEnded": "Died in office",
+      "previously": "Giovanni Dandolo dies, leaving Venice the gold ducat.",
+      "paragraphs": [
+        "The crowd in the piazza wanted Giacomo Tiepolo, son and grandson of doges. The electors chose Pietro Gradenigo, about 38, from an old family, and the people never warmed to him. In 1291 Acre fell to the Mamluks, the last crusader port in the Holy Land. In 1298 Genoa smashed a Venetian fleet at Curzola, off the Dalmatian coast. Marco Polo ended up in a Genoese jail around then, and dictated his travels to a cellmate.",
+        "In February 1297 (still 1296 in Venice, whose year began on 1 March) came the Serrata, the \"closing\". Seats on the Great Council went to men whose families had sat there lately, and over the next years it hardened into a rule: if your father was in, you were in. If not, you were out for good. This was the birth of the Venetian nobility, and it lasted until 1797.",
+        "Shut-out families and old rivals seethed. A war over Ferrara got Venice hit with a papal interdict in 1309. On 15 June 1310 Bajamonte Tiepolo and the Querini family marched on the piazza to topple the doge. A storm, bad timing and loyal militia broke the revolt. To hunt down the plotters, the government set up a special court of ten men. It was meant to last a few months."
+      ],
+      "claims": [
+        {
+          "text": "An old woman dropped a stone mortar from her window, killing the rebels' standard-bearer and starting the rout.",
+          "status": "legend",
+          "note": "A carved relief near the Merceria still marks the spot, but the details, including her name, come from later chronicles."
+        },
+        {
+          "text": "Marco Polo was captured at the battle of Curzola.",
+          "status": "disputed",
+          "note": "Giovanni Battista Ramusio said so in the 16th century. Some historians place his capture in a smaller clash a couple of years earlier."
+        },
+        {
+          "text": "The Serrata was passed in February 1297.",
+          "status": "confirmed",
+          "note": "The law survives in the Great Council's records, dated 1296 by the Venetian calendar."
+        }
+      ],
+      "hook": "Gradenigo dies in 1311. The Council of Ten was a stopgap for one crisis, but Venice likes it far too much to let it go.",
+      "images": [
+        {
+          "file": "File:49 Pietro Gradenigo.jpg",
+          "url": "https://upload.wikimedia.org/wikipedia/commons/4/45/49_Pietro_Gradenigo.jpg",
+          "page": "https://commons.wikimedia.org/wiki/File:49_Pietro_Gradenigo.jpg",
+          "credit": "Antonio Nani",
+          "license": "CC BY-SA 4.0",
+          "made": "19th century",
+          "caption": "Pietro Gradenigo in Antonio Nani's 19th-century engraved series of the doges, made centuries after his time.",
+          "alt": "Engraved portrait of Doge Pietro Gradenigo"
+        }
+      ],
+      "sources": [
+        {
+          "title": "Venice: A Maritime Republic",
+          "author": "Frederic C. Lane",
+          "note": "Johns Hopkins University Press, 1973"
+        },
+        {
+          "title": "A History of Venice",
+          "author": "John Julius Norwich",
+          "note": "Allen Lane, 1982"
+        },
+        {
+          "title": "Dizionario Biografico degli Italiani, entry \"Gradenigo, Pietro\"",
+          "author": "Istituto della Enciclopedia Italiana (Treccani)"
+        },
+        {
+          "title": "The Travels (Il Milione)",
+          "author": "Marco Polo and Rustichello da Pisa",
+          "note": "Dictated in a Genoese prison, about 1298"
+        }
+      ],
+      "review": {
+        "status": "draft",
+        "notes": "Drafted from the listed sources; needs a human fact-check."
+      }
+    },
+    {
+      "id": "council-of-ten",
+      "kind": "interregnum",
+      "rulers": [],
+      "house": "medieval-republic",
+      "title": "The Council of Ten",
+      "tagline": "A temporary secret court that never went away",
+      "start": {
+        "date": "1311-08"
+      },
+      "end": {
+        "date": "1343-01"
+      },
+      "contestedWith": [],
+      "relationToPredecessor": "Four doges, no dynasty",
+      "ageAtAccession": "Various",
+      "cameToPower": "Elected one after another",
+      "reignEnded": "Bartolomeo Gradenigo dies",
+      "previously": "Gradenigo dies. The Ten, set up as a stopgap, are still sitting.",
+      "paragraphs": [
+        "Marino Zorzi lasted less than a year. Giovanni Soranzo, a tough old sea commander, ruled for sixteen. All the while the Council of Ten kept getting its term renewed. It met in secret, moved fast and answered to nobody. In 1335 Venice stopped pretending and made it permanent. From then on plots, spies and anything touching the safety of the state went to the Ten.",
+        "Francesco Dandolo, doge from 1329, had made his name cleaning up the Ferrara mess. Years earlier he had gone to the pope at Avignon to get the crippling interdict lifted, a trip that left him with an unkind nickname. As doge he joined Florence against the della Scala lords of Verona, and in 1339 Venice took Treviso, its first lasting city on the mainland. Old Bartolomeo Gradenigo followed him, and died at the end of 1342."
+      ],
+      "claims": [
+        {
+          "text": "Francesco Dandolo crawled under the pope's table in a dog's collar to win pardon for Venice, and was nicknamed \"the Dog\".",
+          "status": "legend",
+          "note": "The scene appears in later Venetian chronicles. The nickname Cane may have been a family name, with the story invented to explain it."
+        },
+        {
+          "text": "The Council of Ten was made permanent in 1335.",
+          "status": "confirmed",
+          "note": "The decision is in the council records in the Venetian State Archives."
+        }
+      ],
+      "hook": "With Gradenigo gone, the electors reach for a man half his age: a bookish young scholar who will write Venice's history as well as run it.",
+      "images": [
+        {
+          "file": "File:52 Francesco Dandolo.jpg",
+          "url": "https://upload.wikimedia.org/wikipedia/commons/4/42/52_Francesco_Dandolo.jpg",
+          "page": "https://commons.wikimedia.org/wiki/File:52_Francesco_Dandolo.jpg",
+          "credit": "Antonio Nani",
+          "license": "CC BY-SA 4.0",
+          "made": "19th century",
+          "caption": "Francesco Dandolo in Antonio Nani's 19th-century engraved series of the doges, made centuries after his time.",
+          "alt": "Engraved portrait of Doge Francesco Dandolo"
+        }
+      ],
+      "sources": [
+        {
+          "title": "Venice: A Maritime Republic",
+          "author": "Frederic C. Lane",
+          "note": "Johns Hopkins University Press, 1973"
+        },
+        {
+          "title": "A History of Venice",
+          "author": "John Julius Norwich",
+          "note": "Allen Lane, 1982"
+        },
+        {
+          "title": "Venice: A New History",
+          "author": "Thomas F. Madden",
+          "note": "Viking, 2012"
+        }
+      ],
+      "review": {
+        "status": "draft",
+        "notes": "Drafted from the listed sources; needs a human fact-check."
+      }
+    },
+    {
+      "id": "andrea-dandolo",
+      "kind": "leader",
+      "rulers": [
+        "andrea-dandolo"
+      ],
+      "tagline": "The scholar doge who wrote Venice's history",
+      "start": {
+        "date": "1343-01"
+      },
+      "end": {
+        "date": "1354-09"
+      },
+      "contestedWith": [],
+      "relationToPredecessor": "No relation; elected",
+      "ageAtAccession": "About 36",
+      "cameToPower": "Elected unusually young",
+      "reignEnded": "Died in office",
+      "previously": "Old Bartolomeo Gradenigo dies. Treviso is now Venetian.",
+      "paragraphs": [
+        "Andrea Dandolo came from the blind crusader doge's family. At about 36 he was a baby by Venetian standards, and a real intellectual. He collected the city's laws into a new book of statutes and wrote chronicles of Venice from its first doges to his own day. He had the golden altarpiece of St Mark's, the Pala d'Oro, reset in a grand new frame. The poet Petrarch was a friend and wrote him letters.",
+        "Then came 1348. The Black Death arrived on merchant ships and tore through the crowded city. Boats carried the dead out to burial pits on lagoon islands. Venice appointed health officials to fight it, the start of public health rules the world would later copy. Barely recovered, Venice went to war with Genoa again in 1350. Petrarch wrote to Dandolo begging for peace. Nobody listened.",
+        "Dandolo died in September 1354, not yet 50, with the war going badly. He was buried in the baptistery of St Mark's, which he had covered in mosaics. This time the electors wanted an old, steady hand. They picked a man in his seventies who wasn't even in Venice."
+      ],
+      "claims": [
+        {
+          "text": "The Black Death killed up to three-fifths of Venice's people.",
+          "status": "disputed",
+          "note": "That figure comes from chroniclers. Modern estimates vary widely, though everyone agrees the city lost a huge share of its population."
+        },
+        {
+          "text": "Petrarch wrote to Dandolo pleading for peace with Genoa.",
+          "status": "confirmed",
+          "note": "The letters survive in Petrarch's collected correspondence."
+        }
+      ],
+      "hook": "The new doge is Marino Faliero, a war hero and diplomat in his seventies. He sails home to take up the job. Within months he'll try to make himself master of Venice.",
+      "images": [
+        {
+          "file": "File:54 Andrea Dandolo.jpg",
+          "url": "https://upload.wikimedia.org/wikipedia/commons/b/b4/54_Andrea_Dandolo.jpg",
+          "page": "https://commons.wikimedia.org/wiki/File:54_Andrea_Dandolo.jpg",
+          "credit": "Antonio Nani",
+          "license": "CC BY-SA 4.0",
+          "made": "19th century",
+          "caption": "Andrea Dandolo in Antonio Nani's 19th-century engraved series of the doges, made centuries after his time.",
+          "alt": "Engraved portrait of Doge Andrea Dandolo"
+        }
+      ],
+      "sources": [
+        {
+          "title": "Venice: A Maritime Republic",
+          "author": "Frederic C. Lane",
+          "note": "Johns Hopkins University Press, 1973"
+        },
+        {
+          "title": "A History of Venice",
+          "author": "John Julius Norwich",
+          "note": "Allen Lane, 1982"
+        },
+        {
+          "title": "Dizionario Biografico degli Italiani, entry \"Dandolo, Andrea\"",
+          "author": "Istituto della Enciclopedia Italiana (Treccani)"
+        },
+        {
+          "title": "Letters on Familiar Matters (Rerum familiarium libri)",
+          "author": "Francesco Petrarca"
+        }
+      ],
+      "review": {
+        "status": "draft",
+        "notes": "Drafted from the listed sources; needs a human fact-check."
+      }
+    },
+    {
+      "id": "marino-faliero",
+      "kind": "leader",
+      "rulers": [
+        "marino-faliero"
+      ],
+      "tagline": "The doge they beheaded and painted out of history",
+      "start": {
+        "date": "1354-09"
+      },
+      "end": {
+        "date": "1355-04-17"
+      },
+      "contestedWith": [],
+      "relationToPredecessor": "No relation; elected",
+      "ageAtAccession": "About 70",
+      "cameToPower": "Elected while away as an envoy",
+      "reignEnded": "Beheaded for treason",
+      "previously": "Andrea Dandolo dies with the war against Genoa going badly.",
+      "paragraphs": [
+        "Marino Faliero had done it all: commander, governor, ambassador. He was away on a mission to the papal court when he heard he'd been elected. He reached Venice in October 1354, and within weeks the Genoese wiped out a Venetian fleet at Porto Longo in Greece. Then a young noble, Michele Steno, scribbled an insult about the doge and his wife, and the judges let him off lightly. The old man was furious.",
+        "In April 1355 he plotted with commoners, seamen and shipyard men who had their own grudges against the nobles. The plan was to stir up panic, kill the leading nobles in the piazza and make Faliero lord of Venice. Someone talked. The Council of Ten rounded up the plotters, hanged several from the palace windows, and then put the doge himself on trial.",
+        "On 17 April 1355 Faliero was beheaded at the top of the palace stairs where he had sworn his oath. His memory was wiped. In the Great Council hall, where every doge has a portrait, his place shows a painted black cloth and Latin words: this is the place of Marino Faliero, beheaded for his crimes. Byron wrote a play about him in 1821, and Donizetti an opera."
+      ],
+      "claims": [
+        {
+          "text": "The plot began with Steno's insult and the doge's rage at his light sentence.",
+          "status": "disputed",
+          "note": "The story comes from later chronicles. The trial records give no clear motive, and the wording of the insult changes with every telling."
+        },
+        {
+          "text": "Faliero was beheaded on the Giants' Staircase.",
+          "status": "legend",
+          "note": "A popular telling, but that staircase was built in the late 15th century, over a hundred years later."
+        },
+        {
+          "text": "His place in the frieze of doges is a painted black cloth.",
+          "status": "confirmed",
+          "note": "It is still there. The present frieze was painted after the fire of 1577, but it repeats the old blank."
+        }
+      ],
+      "hook": "Four doges come and go after Faliero. Then the electors choose a man who flatly refuses the job. He'll end up leading Venice through its darkest hour.",
+      "images": [
+        {
+          "file": "File:55 Marino Faliero.jpg",
+          "url": "https://upload.wikimedia.org/wikipedia/commons/2/21/55_Marino_Faliero.jpg",
+          "page": "https://commons.wikimedia.org/wiki/File:55_Marino_Faliero.jpg",
+          "credit": "Antonio Nani",
+          "license": "CC BY-SA 4.0",
+          "made": "19th century",
+          "caption": "Antonio Nani's 19th-century series of the doges shows Faliero's portrait draped over, like the black cloth in the Great Council hall.",
+          "alt": "Engraving in a series of doge portraits in which Faliero's portrait is covered by a drape"
+        }
+      ],
+      "sources": [
+        {
+          "title": "Venice: A Maritime Republic",
+          "author": "Frederic C. Lane",
+          "note": "Johns Hopkins University Press, 1973"
+        },
+        {
+          "title": "A History of Venice",
+          "author": "John Julius Norwich",
+          "note": "Allen Lane, 1982"
+        },
+        {
+          "title": "Dizionario Biografico degli Italiani, entry \"Falier, Marino\"",
+          "author": "Istituto della Enciclopedia Italiana (Treccani)"
+        },
+        {
+          "title": "Marino Faliero, Doge of Venice",
+          "author": "Lord Byron",
+          "note": "Verse play, 1821"
+        }
+      ],
+      "review": {
+        "status": "draft",
+        "notes": "Drafted from the listed sources; needs a human fact-check."
+      }
+    },
+    {
+      "id": "andrea-contarini",
+      "kind": "leader",
+      "rulers": [
+        "andrea-contarini"
+      ],
+      "tagline": "The reluctant doge who saved Venice at Chioggia",
+      "start": {
+        "date": "1368-01"
+      },
+      "end": {
+        "date": "1382-06"
+      },
+      "contestedWith": [],
+      "relationToPredecessor": "No relation; elected",
+      "ageAtAccession": "About 68",
+      "cameToPower": "Elected, and made to accept",
+      "reignEnded": "Died in office",
+      "previously": "Faliero loses his head. Four quieter doges follow him.",
+      "paragraphs": [
+        "Andrea Contarini was elderly and wanted nothing to do with the job. He said no, and was told to accept or face exile and lose his property. He took it. Ten years later Venice and Genoa went to war again over Tenedos, an island at the mouth of the Dardanelles. It became the War of Chioggia, the nearest Venice came to being conquered before Napoleon.",
+        "In 1379 the Genoese, with the lord of Padua and the king of Hungary on their side, smashed a Venetian fleet at Pola. In August they seized Chioggia at the lagoon's southern tip. Venice was blockaded and hungry. The people demanded Vettor Pisani, the admiral jailed for losing at Pola. He was let out and put in charge, and the old doge went aboard the fleet himself.",
+        "Venice sank blockships in the channels and trapped the Genoese inside Chioggia. On 1 January 1380 Carlo Zeno sailed in from the east with a fresh fleet, and in June the starving Genoese surrendered. The Peace of Turin in 1381 ended the war. Thirty families who had helped pay for it were rewarded with seats on the Great Council. Contarini died in June 1382."
+      ],
+      "claims": [
+        {
+          "text": "Contarini was threatened with exile and confiscation to make him take the job.",
+          "status": "disputed",
+          "note": "Told by Venetian chroniclers. Refusing office was punishable under Venetian law, but the details of his case are thin."
+        },
+        {
+          "text": "Crowds forced the release of Vettor Pisani.",
+          "status": "confirmed",
+          "note": "Chronicles of the war describe the people refusing to row without him."
+        },
+        {
+          "text": "Thirty new families joined the Great Council in 1381.",
+          "status": "confirmed",
+          "note": "Recorded in the council's own acts. It was the last big intake until places were sold in the 17th century."
+        }
+      ],
+      "hook": "Genoa never really recovers. Venice, safe at sea at last, starts eyeing a new prize: the rich cities of the Italian mainland on its doorstep.",
+      "images": [
+        {
+          "file": "File:60 Andrea Contarini.jpg",
+          "url": "https://upload.wikimedia.org/wikipedia/commons/c/ce/60_Andrea_Contarini.jpg",
+          "page": "https://commons.wikimedia.org/wiki/File:60_Andrea_Contarini.jpg",
+          "credit": "Antonio Nani",
+          "license": "CC BY-SA 4.0",
+          "made": "19th century",
+          "caption": "Andrea Contarini in Antonio Nani's 19th-century engraved series of the doges, made centuries after his time.",
+          "alt": "Engraved portrait of Doge Andrea Contarini"
+        }
+      ],
+      "sources": [
+        {
+          "title": "Venice: A Maritime Republic",
+          "author": "Frederic C. Lane",
+          "note": "Johns Hopkins University Press, 1973"
+        },
+        {
+          "title": "A History of Venice",
+          "author": "John Julius Norwich",
+          "note": "Allen Lane, 1982"
+        },
+        {
+          "title": "Dizionario Biografico degli Italiani, entry \"Contarini, Andrea\"",
+          "author": "Istituto della Enciclopedia Italiana (Treccani)"
+        },
+        {
+          "title": "Cronica de la guerra da Veniciani a Zenovesi",
+          "author": "Daniele di Chinazzo",
+          "note": "Contemporary chronicle of the War of Chioggia"
+        }
+      ],
+      "review": {
+        "status": "draft",
+        "notes": "Drafted from the listed sources; needs a human fact-check."
+      }
+    },
+    {
+      "id": "mainland",
+      "kind": "interregnum",
+      "rulers": [],
+      "house": "renaissance-republic",
+      "title": "Lions on the Mainland",
+      "tagline": "A sea power grabs the cities of northern Italy",
+      "start": {
+        "date": "1382-06"
+      },
+      "end": {
+        "date": "1413-12"
+      },
+      "contestedWith": [],
+      "relationToPredecessor": "Three doges, no relation",
+      "ageAtAccession": "Various",
+      "cameToPower": "Elected one after another",
+      "reignEnded": "Michele Steno dies",
+      "previously": "Chioggia is saved, Genoa is beaten, and old Contarini dies.",
+      "paragraphs": [
+        "Michele Morosini lasted a few months before plague killed him. Antonio Venier ruled for eighteen years and became famous for hard justice. When his own son was jailed for an offence against a noble family, the doge refused to pardon him, even when the young man fell ill. He died in his cell.",
+        "Next came Michele Steno, the same man who as a cocky youth had scrawled the insult that set off Marino Faliero. Under him Venice turned to the land, the terraferma. After the duke of Milan died in 1402 his empire fell apart, and Venice grabbed pieces: Vicenza in 1404, Verona and Padua in 1405. The Carrara lords of Padua, old enemies from Chioggia, were taken to Venice and strangled in prison in 1406."
+      ],
+      "claims": [
+        {
+          "text": "Antonio Venier let his son die in prison rather than pardon him.",
+          "status": "disputed",
+          "note": "Told in later chronicles as proof of his justice. The details of the offence and the death vary between versions."
+        },
+        {
+          "text": "Doge Michele Steno was the young man who insulted Faliero.",
+          "status": "disputed",
+          "note": "Chroniclers made the link, but the graffiti story is shaky itself, so the identification is too."
+        },
+        {
+          "text": "The Council of Ten had Francesco Novello da Carrara and his sons killed in prison.",
+          "status": "confirmed",
+          "note": "Well documented in Venetian records, though the official line at the time was that they died naturally."
+        }
+      ],
+      "hook": "Steno dies at the end of 1413. His successor is a merchant who thinks war is bad for business, and who will spend his last breath warning Venice about the man who wants his job.",
+      "images": [
+        {
+          "file": "File:63 Michele Steno.jpg",
+          "url": "https://upload.wikimedia.org/wikipedia/commons/a/a7/63_Michele_Steno.jpg",
+          "page": "https://commons.wikimedia.org/wiki/File:63_Michele_Steno.jpg",
+          "credit": "Antonio Nani",
+          "license": "CC BY-SA 4.0",
+          "made": "19th century",
+          "caption": "Michele Steno in Antonio Nani's 19th-century engraved series of the doges, made centuries after his time.",
+          "alt": "Engraved portrait of Doge Michele Steno"
+        }
+      ],
+      "sources": [
+        {
+          "title": "Venice: A Maritime Republic",
+          "author": "Frederic C. Lane",
+          "note": "Johns Hopkins University Press, 1973"
+        },
+        {
+          "title": "A History of Venice",
+          "author": "John Julius Norwich",
+          "note": "Allen Lane, 1982"
+        },
+        {
+          "title": "Venice: A New History",
+          "author": "Thomas F. Madden",
+          "note": "Viking, 2012"
+        }
+      ],
+      "review": {
+        "status": "draft",
+        "notes": "Drafted from the listed sources; needs a human fact-check."
+      }
+    },
+    {
+      "id": "tommaso-mocenigo",
+      "kind": "leader",
+      "rulers": [
+        "tommaso-mocenigo"
+      ],
+      "tagline": "The merchant doge who warned Venice from his deathbed",
+      "start": {
+        "date": "1414-01"
+      },
+      "end": {
+        "date": "1423-04"
+      },
+      "contestedWith": [],
+      "relationToPredecessor": "No relation; elected",
+      "ageAtAccession": "About 70",
+      "cameToPower": "Elected by the forty-one",
+      "reignEnded": "Died in office",
+      "previously": "Steno dies. Venice now rules Padua, Verona and Vicenza.",
+      "paragraphs": [
+        "Tommaso Mocenigo was about 70, a veteran sea commander and diplomat. He believed in trade, peace and balanced books. Still, his reign added land. In 1420 Venice took Friuli from the patriarch of Aquileia, and the towns of the Dalmatian coast came under the lion too. Venetian galleys ran regular convoys to Flanders, Egypt and the Black Sea, and money poured in.",
+        "As he lay dying in April 1423, Mocenigo is said to have called in the leading nobles for a last speech. He reeled off figures: ships, sailors, ducats, rents. Peace, he told them, had made Venice rich. Then he named the man they must not elect, Francesco Foscari, an ambitious procurator who loved war and spent freely. Days after the funeral, they elected Foscari."
+      ],
+      "claims": [
+        {
+          "text": "Mocenigo gave a deathbed speech warning against Foscari, packed with figures on Venice's trade.",
+          "status": "disputed",
+          "note": "The text survives in Marino Sanudo's lives of the doges and other copies. Some historians think it was polished or written up later by Foscari's enemies."
+        }
+      ],
+      "hook": "Venice ignores the dying doge. Francesco Foscari takes the ducal cap and keeps it for 34 years, the longest reign of any doge, with the cruellest ending.",
+      "images": [
+        {
+          "file": "File:64 Tommaso Mocenigo.jpg",
+          "url": "https://upload.wikimedia.org/wikipedia/commons/0/02/64_Tommaso_Mocenigo.jpg",
+          "page": "https://commons.wikimedia.org/wiki/File:64_Tommaso_Mocenigo.jpg",
+          "credit": "Antonio Nani",
+          "license": "CC BY-SA 4.0",
+          "made": "19th century",
+          "caption": "Tommaso Mocenigo in Antonio Nani's 19th-century engraved series of the doges, made centuries after his time.",
+          "alt": "Engraved portrait of Doge Tommaso Mocenigo"
+        }
+      ],
+      "sources": [
+        {
+          "title": "Venice: A Maritime Republic",
+          "author": "Frederic C. Lane",
+          "note": "Johns Hopkins University Press, 1973"
+        },
+        {
+          "title": "A History of Venice",
+          "author": "John Julius Norwich",
+          "note": "Allen Lane, 1982"
+        },
+        {
+          "title": "Le vite dei dogi",
+          "author": "Marino Sanudo the Younger",
+          "note": "Early 16th-century lives of the doges"
+        },
+        {
+          "title": "Dizionario Biografico degli Italiani, entry \"Mocenigo, Tommaso\"",
+          "author": "Istituto della Enciclopedia Italiana (Treccani)"
+        }
+      ],
+      "review": {
+        "status": "draft",
+        "notes": "Drafted from the listed sources; needs a human fact-check."
+      }
+    },
+    {
+      "id": "francesco-foscari",
+      "kind": "leader",
+      "rulers": [
+        "francesco-foscari"
+      ],
+      "tagline": "The longest-reigning doge, forced out at the end",
+      "start": {
+        "date": "1423-04-15"
+      },
+      "end": {
+        "date": "1457-10-23"
+      },
+      "contestedWith": [],
+      "relationToPredecessor": "No relation; elected",
+      "ageAtAccession": "About 50",
+      "cameToPower": "Elected against Mocenigo's advice",
+      "reignEnded": "Forced to abdicate",
+      "previously": "Mocenigo dies warning Venice never to elect Francesco Foscari.",
+      "paragraphs": [
+        "Foscari did just what Mocenigo feared. For thirty years Venice fought the Visconti dukes of Milan, and the border crept west to Brescia and Bergamo. The fighting was done by hired generals, the condottieri. One of them, Carmagnola, was suspected of double-dealing. In 1432 the Ten lured him to Venice, tried him in secret and beheaded him between the columns of the Piazzetta.",
+        "In 1453 the Ottoman sultan Mehmed II took Constantinople, where Venetians had traded for centuries. The Peace of Lodi in 1454 brought a rough balance to Italy. But Foscari's family was falling apart. His son Jacopo was accused of taking bribes, then of murder, then of treason. The Council of Ten had him tortured and exiled three times. He died on Crete in 1457.",
+        "The doge, past 80 and crushed by grief, stopped turning up to councils. In October 1457 the Ten told him to step down. He refused, then gave in, and on 23 October left the palace for his family home on the Grand Canal. He died on 1 November. Byron turned the story into a play, The Two Foscari, and Verdi into an opera."
+      ],
+      "claims": [
+        {
+          "text": "Foscari died after hearing the bells ring for his successor.",
+          "status": "legend",
+          "note": "Pasquale Malipiero was elected days before Foscari died, so the timing roughly fits, but the scene comes from later retellings."
+        },
+        {
+          "text": "Carmagnola really was betraying Venice.",
+          "status": "disputed",
+          "note": "The Ten convicted him in secret. Historians still argue whether he was a traitor or just a cautious general."
+        },
+        {
+          "text": "Jacopo Foscari was tortured and exiled three times on the Ten's orders.",
+          "status": "confirmed",
+          "note": "The trials are in the Ten's records and well covered by historians, including Dennis Romano."
+        }
+      ],
+      "hook": "Foscari's wars won land, but the real danger lies east. Constantinople is Ottoman now, and the sultan's fleets are coming for Venice's islands.",
+      "images": [
+        {
+          "file": "File:(Venice) Portrait of the Venecian doge Francesco Foscari by Lazzaro Bastiani - Correr Museum.jpg",
+          "url": "https://upload.wikimedia.org/wikipedia/commons/4/42/%28Venice%29_Portrait_of_the_Venecian_doge_Francesco_Foscari_by_Lazzaro_Bastiani_-_Correr_Museum.jpg",
+          "page": "https://commons.wikimedia.org/wiki/File:(Venice)_Portrait_of_the_Venecian_doge_Francesco_Foscari_by_Lazzaro_Bastiani_-_Correr_Museum.jpg",
+          "credit": "Lazzaro Bastiani (painting); photo by Didier Descouens",
+          "license": "CC BY-SA 4.0",
+          "made": "c. 1460",
+          "caption": "Lazzaro Bastiani's portrait of Foscari, painted around the end of his reign, now in the Museo Correr, Venice.",
+          "alt": "Painted portrait of Doge Francesco Foscari in profile, wearing the ducal cap"
+        }
+      ],
+      "sources": [
+        {
+          "title": "The Likeness of Venice: A Life of Doge Francesco Foscari, 1373-1457",
+          "author": "Dennis Romano",
+          "note": "Yale University Press, 2007"
+        },
+        {
+          "title": "Venice: A Maritime Republic",
+          "author": "Frederic C. Lane",
+          "note": "Johns Hopkins University Press, 1973"
+        },
+        {
+          "title": "A History of Venice",
+          "author": "John Julius Norwich",
+          "note": "Allen Lane, 1982"
+        },
+        {
+          "title": "The Two Foscari",
+          "author": "Lord Byron",
+          "note": "Verse play, 1821"
+        }
+      ],
+      "review": {
+        "status": "draft",
+        "notes": "Drafted from the listed sources; needs a human fact-check."
+      }
+    },
+    {
+      "id": "ottoman-shadow",
+      "kind": "interregnum",
+      "rulers": [],
+      "house": "renaissance-republic",
+      "title": "The Turk at the Gates",
+      "tagline": "Sixteen years of war with the sultan, then a painter",
+      "start": {
+        "date": "1457-10-30"
+      },
+      "end": {
+        "date": "1501-10"
+      },
+      "contestedWith": [],
+      "relationToPredecessor": "Nine doges, a few brothers",
+      "ageAtAccession": "Various",
+      "cameToPower": "Elected one after another",
+      "reignEnded": "Agostino Barbarigo dies",
+      "previously": "Foscari, forced out after 34 years, dies a week later.",
+      "paragraphs": [
+        "Nine doges came and went, from Pasquale Malipiero to Agostino Barbarigo, and most of them lost sleep over the sultan. War with the Ottomans broke out in 1463 and dragged on for sixteen years. In 1470 Mehmed II took Negroponte, Venice's big base on the Greek island of Euboea. Ottoman horsemen raided deep into Friuli, burning villages as they went.",
+        "Peace came in 1479 at a high price. As a goodwill gesture Venice sent one of its best painters, Gentile Bellini, to Constantinople, where he painted Mehmed's portrait. In 1489 Venice took over Cyprus from its queen, Caterina Cornaro, a Venetian noblewoman who had married the island's king. She was given a little court at Asolo instead.",
+        "At home Venice became Europe's printing capital. From the 1490s Aldus Manutius turned out Greek classics and neat pocket-sized books. Then the sultan came back. In 1499 the Venetian fleet was beaten at Zonchio, off southern Greece, and its commander Antonio Grimani was put in chains and exiled. Agostino Barbarigo died in 1501 with the war still on."
+      ],
+      "claims": [
+        {
+          "text": "Venetians could see the fires of villages burned by Ottoman raiders from their bell towers.",
+          "status": "disputed",
+          "note": "Writers of the time said so of the raids of the 1470s. It makes a vivid point, but may be exaggerated."
+        },
+        {
+          "text": "Gentile Bellini's portrait of Mehmed II survives.",
+          "status": "confirmed",
+          "note": "A portrait dated 1480 and credited to Bellini is in the National Gallery, London, though much of the paint is later retouching."
+        },
+        {
+          "text": "Antonio Grimani, disgraced after Zonchio, later became doge himself.",
+          "status": "confirmed",
+          "note": "He returned from exile and was elected doge in 1521."
+        }
+      ],
+      "hook": "Barbarigo is dead and the Turkish war is still running. The next doge will face something worse: half the great powers of Europe signing up to carve Venice apart.",
+      "images": [
+        {
+          "file": "File:Accademia - Procession in piazza San Marco by Gentile Bellini.jpg",
+          "url": "https://upload.wikimedia.org/wikipedia/commons/4/44/Accademia_-_Procession_in_piazza_San_Marco_by_Gentile_Bellini.jpg",
+          "page": "https://commons.wikimedia.org/wiki/File:Accademia_-_Procession_in_piazza_San_Marco_by_Gentile_Bellini.jpg",
+          "credit": "Gentile Bellini",
+          "license": "Public domain",
+          "made": "1496",
+          "caption": "Gentile Bellini's Procession in Piazza San Marco, painted in 1496 by the same artist Venice sent to the sultan.",
+          "alt": "Wide painting of a religious procession crossing a crowded Piazza San Marco in front of the basilica"
+        }
+      ],
+      "sources": [
+        {
+          "title": "Venice: A Maritime Republic",
+          "author": "Frederic C. Lane",
+          "note": "Johns Hopkins University Press, 1973"
+        },
+        {
+          "title": "A History of Venice",
+          "author": "John Julius Norwich",
+          "note": "Allen Lane, 1982"
+        },
+        {
+          "title": "Gentile Bellini and the East",
+          "author": "Caroline Campbell and Alan Chong",
+          "note": "Exhibition catalogue, Isabella Stewart Gardner Museum and National Gallery, 2005"
+        },
+        {
+          "title": "Venice: A New History",
+          "author": "Thomas F. Madden",
+          "note": "Viking, 2012"
+        }
+      ],
+      "review": {
+        "status": "draft",
+        "notes": "Drafted from the listed sources; needs a human fact-check."
+      }
+    },
+    {
+      "id": "leonardo-loredan",
+      "kind": "leader",
+      "rulers": [
+        "leonardo-loredan"
+      ],
+      "tagline": "The calm face in the portrait, the whole world at his throat",
+      "start": {
+        "date": "1501-10"
+      },
+      "end": {
+        "date": "1521-06"
+      },
+      "contestedWith": [],
+      "relationToPredecessor": "No relation; elected",
+      "ageAtAccession": "64",
+      "cameToPower": "Elected after Agostino Barbarigo",
+      "reignEnded": "Died in office",
+      "previously": "The Turks have beaten Venice at sea, and Agostino Barbarigo is dead.",
+      "paragraphs": [
+        "You've probably seen Leonardo Loredan without knowing it. Giovanni Bellini painted him soon after his election: the corno, the horned ducal cap, a white-and-gold damask robe and a face so calm it looks carved. It hangs in the National Gallery in London and it's the doge portrait everyone knows. He was going to need that calm.",
+        "Venice had grabbed too much of Italy, and everyone noticed. In December 1508 the pope, the emperor Maximilian, Louis XII of France and Ferdinand of Spain joined the League of Cambrai to carve the Republic up. On 14 May 1509 the French smashed the Venetian army at Agnadello. Within weeks almost the whole mainland was gone. Venice clawed Padua back that July, held on, and waited for its enemies to fall out.",
+        "They did. The pope switched sides, the alliances spun round, and by 1517 most of the mainland was Venetian again. In 1516 the Senate ordered the city's Jews to live on a walled island in Cannaregio, by an old foundry. The foundry was the ghetto, and the word stuck. Loredan died in office in June 1521, aged 84, after nearly 20 years."
+      ],
+      "claims": [
+        {
+          "text": "After Agnadello, Venice lost in one day what it had taken 800 years to win.",
+          "status": "confirmed",
+          "note": "Machiavelli says almost exactly this in The Prince (chapter 12), using the defeat as a warning against hired armies. It's his verdict, not a measurement."
+        },
+        {
+          "text": "Venice's ghetto of 1516 gave the world the word.",
+          "status": "confirmed",
+          "note": "The area was named after a foundry (getto) that had stood there. The Senate decree of March 1516 is the first ghetto so called."
+        },
+        {
+          "text": "Bellini painted Loredan as a perfect, almost timeless image of the office.",
+          "status": "confirmed",
+          "note": "The National Gallery dates the portrait to about 1501–02, right after his election. It's a statement about the job as much as the man."
+        }
+      ],
+      "hook": "Loredan's successor, Antonio Grimani, once stood trial after a sea defeat. He lasts two years. Then the electors pick a man who knows Constantinople from the inside: Andrea Gritti.",
+      "images": [
+        {
+          "file": "File:Giovanni Bellini, portrait of Doge Leonardo Loredan.jpg",
+          "url": "https://upload.wikimedia.org/wikipedia/commons/6/6b/Giovanni_Bellini%2C_portrait_of_Doge_Leonardo_Loredan.jpg",
+          "page": "https://commons.wikimedia.org/wiki/File:Giovanni_Bellini,_portrait_of_Doge_Leonardo_Loredan.jpg",
+          "credit": "Giovanni Bellini",
+          "license": "Public domain",
+          "made": "c. 1501–02",
+          "caption": "Painted by Giovanni Bellini soon after Loredan's election; now in the National Gallery, London.",
+          "alt": "Painted bust portrait of an elderly doge in a white and gold damask robe and the horned ducal cap, against a blue background"
+        }
+      ],
+      "sources": [
+        {
+          "title": "The Prince",
+          "author": "Niccolò Machiavelli",
+          "note": "Written 1513; chapter 12 on Agnadello"
+        },
+        {
+          "title": "The Papacy and the Levant (1204–1571), vol. 3",
+          "author": "Kenneth M. Setton",
+          "note": "American Philosophical Society, 1984"
+        },
+        {
+          "title": "A History of Venice",
+          "author": "John Julius Norwich",
+          "note": "Allen Lane, 1982 (first published in two volumes, 1977 and 1981)"
+        },
+        {
+          "title": "Venice: A Maritime Republic",
+          "author": "Frederic C. Lane",
+          "note": "Johns Hopkins University Press, 1973"
+        }
+      ],
+      "review": {
+        "status": "draft",
+        "notes": "Drafted from the listed sources; needs a human fact-check."
+      }
+    },
+    {
+      "id": "andrea-gritti",
+      "kind": "leader",
+      "rulers": [
+        "andrea-gritti"
+      ],
+      "tagline": "The grain merchant who'd been jailed by the Sultan",
+      "start": {
+        "date": "1523-05"
+      },
+      "end": {
+        "date": "1538-12"
+      },
+      "contestedWith": [],
+      "relationToPredecessor": "No relation; elected",
+      "ageAtAccession": "68",
+      "cameToPower": "Elected after Antonio Grimani",
+      "reignEnded": "Died in office",
+      "previously": "Loredan saved the mainland. Old Antonio Grimani's short reign is over.",
+      "paragraphs": [
+        "Andrea Gritti had lived for years in Constantinople, trading grain and quietly sending news home. When war with the Ottomans broke out in 1499 he was thrown in prison as a spy. He came out alive, and later helped make the peace. Back home he turned soldier. In July 1509, right after Agnadello, he led the force that recaptured Padua.",
+        "Constantinople left more than memories. His illegitimate son Alvise Gritti, born there, grew up to be a trusted adviser of the grand vizier Ibrahim Pasha. So the doge of Venice had a son in the Sultan's inner circle. As doge, Gritti steered through the wars of Italy, including the year imperial troops sacked Rome in 1527, and kept Venice standing.",
+        "He also gave the city a new face. The architect Jacopo Sansovino rebuilt the Piazza with the Library and the little Loggetta below the bell tower. Then came another Ottoman war. In 1538 the allied Christian fleet of the Holy League backed away from a fight at Preveza and lost the day. Gritti died that December, with the war still on."
+      ],
+      "claims": [
+        {
+          "text": "Gritti was jailed in Constantinople as a spy.",
+          "status": "disputed",
+          "note": "That he was arrested in 1499 is well attested. How close he came to death and how much spying he really did varies by telling."
+        },
+        {
+          "text": "His son Alvise Gritti became an adviser to Ibrahim Pasha.",
+          "status": "confirmed",
+          "note": "Alvise's career at the Ottoman court, and his violent death in Transylvania in 1534, are well documented by Venetian ambassadors."
+        },
+        {
+          "text": "Titian's famous portrait shows Gritti from life.",
+          "status": "disputed",
+          "note": "The Washington painting is dated after Gritti's death. Titian knew him, but this version was painted from memory or earlier studies."
+        }
+      ],
+      "hook": "The peace of 1540 costs Venice its last towns in mainland Greece. A long, nervy calm follows. Then a new sultan, Selim II, decides he wants Cyprus.",
+      "images": [
+        {
+          "file": "File:Titian, Doge Andrea Gritti, c. 1546-1550, NGA 46144.jpg",
+          "url": "https://upload.wikimedia.org/wikipedia/commons/6/68/Titian%2C_Doge_Andrea_Gritti%2C_c._1546-1550%2C_NGA_46144.jpg",
+          "page": "https://commons.wikimedia.org/wiki/File:Titian,_Doge_Andrea_Gritti,_c._1546-1550,_NGA_46144.jpg",
+          "credit": "Titian",
+          "license": "CC0",
+          "made": "c. 1546–50",
+          "caption": "Painted by Titian about ten years after Gritti's death; National Gallery of Art, Washington.",
+          "alt": "Painted portrait of a stern, heavy-set old doge in the ducal cap and a richly patterned robe"
+        }
+      ],
+      "sources": [
+        {
+          "title": "The Papacy and the Levant (1204–1571), vol. 3",
+          "author": "Kenneth M. Setton",
+          "note": "American Philosophical Society, 1984"
+        },
+        {
+          "title": "Venice and the Renaissance",
+          "author": "Manfredo Tafuri",
+          "note": "MIT Press, 1989; Gritti and Sansovino's Piazza"
+        },
+        {
+          "title": "A History of Venice",
+          "author": "John Julius Norwich",
+          "note": "Allen Lane, 1982 (first published in two volumes, 1977 and 1981)"
+        },
+        {
+          "title": "Venice: A New History",
+          "author": "Thomas F. Madden",
+          "note": "Viking, 2012"
+        }
+      ],
+      "review": {
+        "status": "draft",
+        "notes": "Drafted from the listed sources; needs a human fact-check."
+      }
+    },
+    {
+      "id": "alvise-i-mocenigo",
+      "kind": "leader",
+      "rulers": [
+        "alvise-i-mocenigo"
+      ],
+      "tagline": "He won the battle of the century and lost Cyprus anyway",
+      "start": {
+        "date": "1570-05"
+      },
+      "end": {
+        "date": "1577-06"
+      },
+      "contestedWith": [],
+      "relationToPredecessor": "No relation; elected",
+      "ageAtAccession": "62",
+      "cameToPower": "Elected after Pietro Loredan",
+      "reignEnded": "Died in office",
+      "previously": "Thirty years of uneasy peace. Now Sultan Selim II wants Cyprus.",
+      "paragraphs": [
+        "Mocenigo was barely in the job when an Ottoman army landed on Cyprus in 1570. Nicosia fell in weeks. Famagusta held out for almost a year and surrendered on terms in August 1571. The terms were broken. Its commander, Marcantonio Bragadin, had his ears cut off, was tormented for days and was then flayed alive, and his skin was stuffed and carried off as a trophy.",
+        "Two months later came revenge. On 7 October 1571 the Holy League fleet met the Ottomans at Lepanto, off western Greece. The Venetian ships were led by Sebastiano Venier, a fiery man in his seventies. It was a crushing Christian victory and church bells rang across Europe. But Venice couldn't fight on alone, and in 1573 it made a separate peace and handed Cyprus over anyway.",
+        "There was glamour too. In 1574 the young Henry III of France passed through, and Venice threw him a show of floating parties and banquets he never forgot. Then plague struck in 1575. Thousands died, and the Senate vowed a new church, Palladio's Redentore, if it ended. Mocenigo died in June 1577, before it was built."
+      ],
+      "claims": [
+        {
+          "text": "Bragadin was flayed alive after Famagusta surrendered.",
+          "status": "confirmed",
+          "note": "Survivors' accounts agree. Pieces of skin said to be his are in an urn in the church of Santi Giovanni e Paolo, stolen back from Constantinople."
+        },
+        {
+          "text": "Lepanto changed the balance of power in the Mediterranean.",
+          "status": "disputed",
+          "note": "The Ottomans rebuilt their fleet within a year and kept Cyprus. Historians see it as a huge morale boost more than a turning point."
+        },
+        {
+          "text": "The plague of 1575–77 killed a quarter to a third of the city.",
+          "status": "disputed",
+          "note": "Figures around 50,000 dead are often given, but counts from the time are patchy."
+        }
+      ],
+      "hook": "Lepanto's hero is still alive, still furious, and in his eighties. In June 1577 the electors give the old admiral the corno.",
+      "images": [
+        {
+          "file": "File:Jacopo Tintoretto - Doge Alvise Mocenigo - WGA22694.jpg",
+          "url": "https://upload.wikimedia.org/wikipedia/commons/3/39/Jacopo_Tintoretto_-_Doge_Alvise_Mocenigo_-_WGA22694.jpg",
+          "page": "https://commons.wikimedia.org/wiki/File:Jacopo_Tintoretto_-_Doge_Alvise_Mocenigo_-_WGA22694.jpg",
+          "credit": "Jacopo Tintoretto",
+          "license": "Public domain",
+          "made": "c. 1570",
+          "caption": "Painted by Tintoretto around the time of Mocenigo's election.",
+          "alt": "Painted portrait of an elderly bearded doge in the ducal cap and robes"
+        }
+      ],
+      "sources": [
+        {
+          "title": "The Papacy and the Levant (1204–1571), vol. 4",
+          "author": "Kenneth M. Setton",
+          "note": "American Philosophical Society, 1984; Cyprus and Lepanto"
+        },
+        {
+          "title": "Lepanto 1571",
+          "author": "Angus Konstam",
+          "note": "Osprey Campaign series, 2003"
+        },
+        {
+          "title": "A History of Venice",
+          "author": "John Julius Norwich",
+          "note": "Allen Lane, 1982 (first published in two volumes, 1977 and 1981)"
+        },
+        {
+          "title": "Venice: A Maritime Republic",
+          "author": "Frederic C. Lane",
+          "note": "Johns Hopkins University Press, 1973"
+        }
+      ],
+      "review": {
+        "status": "draft",
+        "notes": "Drafted from the listed sources; needs a human fact-check."
+      }
+    },
+    {
+      "id": "sebastiano-venier",
+      "kind": "leader",
+      "rulers": [
+        "sebastiano-venier"
+      ],
+      "tagline": "The old sea dog of Lepanto gets a year on the throne",
+      "start": {
+        "date": "1577-06"
+      },
+      "end": {
+        "date": "1578-03"
+      },
+      "contestedWith": [],
+      "relationToPredecessor": "No relation; elected",
+      "ageAtAccession": "About 81",
+      "cameToPower": "Elected as the hero of Lepanto",
+      "reignEnded": "Died within a year",
+      "previously": "Cyprus is lost, plague rages, and Alvise Mocenigo is dead.",
+      "paragraphs": [
+        "Sebastiano Venier was famously short-tempered. At Lepanto he'd fought on his own deck, crossbow in hand, in his seventies. Venice loved him for it. In June 1577, with the plague burning out, the city made him doge as a thank-you. He was about 80.",
+        "Then, on 20 December 1577, fire broke out in the Doge's Palace. It gutted the Great Council hall, the biggest room in Venice. The paintings by Bellini, Titian and others went up in smoke, and so did the frieze of doge portraits running under the ceiling. The faces you see there today, Faliero's black cloth included, were all painted after this fire.",
+        "The old admiral never saw the hall rebuilt. He died in March 1578, after just nine months as doge, He lies today in Santi Giovanni e Paolo, the great church of the doges."
+      ],
+      "claims": [
+        {
+          "text": "Venier fought at Lepanto wearing slippers, for a better grip on the deck.",
+          "status": "legend",
+          "note": "A much-loved story told about him later. Contemporary accounts stress his courage, not his footwear."
+        },
+        {
+          "text": "The fire of 1577 broke his heart and hastened his death.",
+          "status": "legend",
+          "note": "A neat story, but a man in his early eighties hardly needed a broken heart to die."
+        }
+      ],
+      "hook": "The palace is a blackened shell. The next doges have to rebuild it, and the city's crumbling wooden bridge over the Grand Canal is next on the list.",
+      "images": [
+        {
+          "file": "File:Kunsthistorisches Museum Wien, Tintoretto, Sebastiano Venier.JPG",
+          "url": "https://upload.wikimedia.org/wikipedia/commons/f/fc/Kunsthistorisches_Museum_Wien%2C_Tintoretto%2C_Sebastiano_Venier.JPG",
+          "page": "https://commons.wikimedia.org/wiki/File:Kunsthistorisches_Museum_Wien,_Tintoretto,_Sebastiano_Venier.JPG",
+          "credit": "Painting by Jacopo Tintoretto; photo by Dguendel",
+          "license": "CC BY 4.0",
+          "made": "After 1571",
+          "caption": "Tintoretto's portrait of Venier in armour, with the Battle of Lepanto behind him; Kunsthistorisches Museum, Vienna.",
+          "alt": "Photo of a painted portrait of a white-bearded commander in armour, with a sea battle in the background"
+        }
+      ],
+      "sources": [
+        {
+          "title": "Lepanto 1571",
+          "author": "Angus Konstam",
+          "note": "Osprey Campaign series, 2003"
+        },
+        {
+          "title": "Venice: The Hinge of Europe, 1081–1797",
+          "author": "William H. McNeill",
+          "note": "University of Chicago Press, 1974"
+        },
+        {
+          "title": "A History of Venice",
+          "author": "John Julius Norwich",
+          "note": "Allen Lane, 1982 (first published in two volumes, 1977 and 1981)"
+        }
+      ],
+      "review": {
+        "status": "draft",
+        "notes": "Drafted from the listed sources; needs a human fact-check."
+      }
+    },
+    {
+      "id": "rialto-years",
+      "kind": "interregnum",
+      "rulers": [],
+      "house": "late-republic",
+      "title": "The Stone Bridge",
+      "tagline": "Venice rebuilds, repaints, and keeps its head down",
+      "start": {
+        "date": "1578-03"
+      },
+      "end": {
+        "date": "1605-12"
+      },
+      "contestedWith": [],
+      "relationToPredecessor": "Several doges",
+      "ageAtAccession": "Mostly old men",
+      "cameToPower": "Elected one after another",
+      "reignEnded": "Marino Grimani dies",
+      "previously": "Fire has gutted the Doge's Palace, and old Venier is dead.",
+      "paragraphs": [
+        "Three doges, Nicolò da Ponte, Pasquale Cicogna and Marino Grimani, ran a Venice that was done with big wars. The great powers were Spain, France and the Ottomans now, and Venice stayed neutral, traded with everyone and spent its money at home. The burnt palace came back grander than ever, with Tintoretto's gigantic Paradise and Veronese's ceilings in the Great Council hall.",
+        "The Rialto Bridge had been wooden for centuries and kept collapsing or rotting. Big names sent designs, Palladio among them. The job went to Antonio da Ponte, who built the single stone arch, lined with shops, between 1588 and 1591. It still carries crowds today. From 1592 a young professor named Galileo was teaching mathematics at Padua, on Venetian land.",
+        "The trouble spot was the Adriatic. The Uskoks, refugee raiders sheltering in Habsburg ports, kept plundering Venetian ships, and Venice blamed Austria for protecting them. It was a long, nasty little feud, but no great war came. Marino Grimani died in December 1605."
+      ],
+      "claims": [
+        {
+          "text": "Michelangelo sent a design for the Rialto Bridge.",
+          "status": "legend",
+          "note": "Often repeated, but there's no firm evidence. Palladio's design, never built, is well documented."
+        },
+        {
+          "text": "Antonio da Ponte's single arch was considered a risky design.",
+          "status": "confirmed",
+          "note": "Critics, Vincenzo Scamozzi among them, doubted it would stand. It has stood for over 400 years."
+        }
+      ],
+      "hook": "The new doge, Leonardo Donà, is a lawyer's dream and a pope's nightmare. Within months Rome and Venice are heading for their biggest clash in centuries.",
+      "images": [
+        {
+          "file": "File:Canaletto - Rialto Bridge from the North RCIN 400668.jpg",
+          "url": "https://upload.wikimedia.org/wikipedia/commons/b/b6/Canaletto_-_Rialto_Bridge_from_the_North_RCIN_400668.jpg",
+          "page": "https://commons.wikimedia.org/wiki/File:Canaletto_-_Rialto_Bridge_from_the_North_RCIN_400668.jpg",
+          "credit": "Canaletto",
+          "license": "Public domain",
+          "made": "c. 1726–27",
+          "caption": "Canaletto painted Antonio da Ponte's bridge about 135 years after it was finished; Royal Collection.",
+          "alt": "Painting of the stone Rialto Bridge spanning the Grand Canal, with boats and buildings along the banks"
+        }
+      ],
+      "sources": [
+        {
+          "title": "Rialto: le fabbriche e il ponte, 1514–1591",
+          "author": "Donatella Calabi and Paolo Morachiello",
+          "note": "Einaudi, 1987"
+        },
+        {
+          "title": "A History of Venice",
+          "author": "John Julius Norwich",
+          "note": "Allen Lane, 1982 (first published in two volumes, 1977 and 1981)"
+        },
+        {
+          "title": "Venice: A Maritime Republic",
+          "author": "Frederic C. Lane",
+          "note": "Johns Hopkins University Press, 1973"
+        }
+      ],
+      "review": {
+        "status": "draft",
+        "notes": "Drafted from the listed sources; needs a human fact-check."
+      }
+    },
+    {
+      "id": "leonardo-dona",
+      "kind": "leader",
+      "rulers": [
+        "leonardo-dona"
+      ],
+      "tagline": "Excommunicated, and he simply carried on",
+      "start": {
+        "date": "1606-01"
+      },
+      "end": {
+        "date": "1612-07"
+      },
+      "contestedWith": [],
+      "relationToPredecessor": "No relation; elected",
+      "ageAtAccession": "69",
+      "cameToPower": "Elected after Marino Grimani",
+      "reignEnded": "Died in office",
+      "previously": "The palace is rebuilt, the stone Rialto Bridge is up, Grimani is dead.",
+      "paragraphs": [
+        "Venice insisted that its own courts could try priests and that the Church couldn't keep piling up property. Pope Paul V said no. In April 1606 he excommunicated the Senate and put the whole city under interdict, which meant no Masses, no sacraments. Donà's government answered that the interdict was invalid, ordered the clergy to carry on as normal, and threw out the Jesuits, who sided with Rome.",
+        "Venice's champion was a Servite friar, Paolo Sarpi, who fought the pope in pamphlets read all over Europe. France brokered a face-saving deal in April 1607 and the interdict was lifted. That October, Sarpi was stabbed by assassins near his convent. He survived, and Rome's hand was widely suspected.",
+        "In August 1609 Galileo climbed the bell tower of St Mark's with a group of senators and let them look through his new telescope. They could see ships far out at sea, hours before anyone else. Venice gave him a pay rise. Donà died in office in July 1612."
+      ],
+      "claims": [
+        {
+          "text": "Sarpi joked: 'I recognise the style of the Roman Curia.'",
+          "status": "legend",
+          "note": "A pun on stylus, a pen and a dagger. It is reported by his early biographer Fulgenzio Micanzio, but may be polished in the retelling."
+        },
+        {
+          "text": "Galileo showed the senators his telescope from the Campanile.",
+          "status": "confirmed",
+          "note": "Galileo describes the demonstration in a letter of August 1609, and Venetian records show the raise that followed."
+        },
+        {
+          "text": "Most of Venice's clergy ignored the interdict.",
+          "status": "confirmed",
+          "note": "Apart from the Jesuits, Capuchins and Theatines, who left, churches stayed open. The government made sure of it."
+        }
+      ],
+      "hook": "Donà beat the pope. But the next decades bring plotters, poison and the deadliest plague in the city's history.",
+      "images": [
+        {
+          "file": "File:Jan van Haelbeck - Il Serenissimo Principe di Venetia Leonardo Donado creato alli 10 Gennaro 1606.jpg",
+          "url": "https://upload.wikimedia.org/wikipedia/commons/7/7d/Jan_van_Haelbeck_-_Il_Serenissimo_Principe_di_Venetia_Leonardo_Donado_creato_alli_10_Gennaro_1606.jpg",
+          "page": "https://commons.wikimedia.org/wiki/File:Jan_van_Haelbeck_-_Il_Serenissimo_Principe_di_Venetia_Leonardo_Donado_creato_alli_10_Gennaro_1606.jpg",
+          "credit": "Jan van Haelbeck",
+          "license": "Public domain",
+          "made": "c. 1606–20",
+          "caption": "An engraving made in his own time, its title noting his election on 10 January 1606.",
+          "alt": "Engraved portrait of a doge in the ducal cap, titled as Leonardo Donà, prince of Venice"
+        }
+      ],
+      "sources": [
+        {
+          "title": "Venice and the Defense of Republican Liberty",
+          "author": "William J. Bouwsma",
+          "note": "University of California Press, 1968"
+        },
+        {
+          "title": "Paolo Sarpi: Between Renaissance and Enlightenment",
+          "author": "David Wootton",
+          "note": "Cambridge University Press, 1983"
+        },
+        {
+          "title": "Sidereus Nuncius",
+          "author": "Galileo Galilei",
+          "note": "Venice, 1610"
+        },
+        {
+          "title": "A History of Venice",
+          "author": "John Julius Norwich",
+          "note": "Allen Lane, 1982 (first published in two volumes, 1977 and 1981)"
+        }
+      ],
+      "review": {
+        "status": "draft",
+        "notes": "Drafted from the listed sources; needs a human fact-check."
+      }
+    },
+    {
+      "id": "plague-and-salute",
+      "kind": "interregnum",
+      "rulers": [],
+      "house": "late-republic",
+      "title": "Plague and the Salute",
+      "tagline": "A great church, a new art form and a city half-emptied",
+      "start": {
+        "date": "1612-07"
+      },
+      "end": {
+        "date": "1646-01"
+      },
+      "contestedWith": [],
+      "relationToPredecessor": "Several doges",
+      "ageAtAccession": "Mostly old men",
+      "cameToPower": "Elected one after another",
+      "reignEnded": "Francesco Erizzo dies",
+      "previously": "Venice has faced down the pope, and Leonardo Donà is dead.",
+      "paragraphs": [
+        "In 1613 Claudio Monteverdi took charge of the music at St Mark's and stayed for thirty years. Then came the scare of 1618: the Council of Ten announced a Spanish plot to seize the city, and bodies of the supposed plotters were hung up in the Piazza. The Ten were not always right. A few years later they executed a senator, Antonio Foscarini, as a traitor, then admitted he'd been innocent.",
+        "In 1630 plague arrived and stayed into 1631. Something like a third of the city died. The Senate vowed a church to the Virgin if it stopped, and the young architect Baldassare Longhena designed Santa Maria della Salute, the great domed church at the mouth of the Grand Canal. Every November Venetians still cross a bridge of boats to give thanks.",
+        "Venice also invented something we still love. In 1637 the Teatro San Cassiano opened as the first opera house where anyone with a ticket could get in. Opera went from a court treat to a night out. In June 1645, though, an Ottoman army landed on Crete, Venice's biggest colony."
+      ],
+      "claims": [
+        {
+          "text": "The Spanish conspiracy of 1618 was real.",
+          "status": "disputed",
+          "note": "Historians still argue whether the Spanish ambassador Bedmar really planned a coup or the Ten blew up a few rumours."
+        },
+        {
+          "text": "The plague of 1630–31 killed about 46,000 people.",
+          "status": "disputed",
+          "note": "The figure comes from official counts that are likely incomplete; it's roughly a third of the city."
+        },
+        {
+          "text": "The Ten publicly admitted Foscarini was innocent.",
+          "status": "confirmed",
+          "note": "The Council of Ten issued a formal declaration clearing him, an almost unheard-of climbdown."
+        }
+      ],
+      "hook": "The Ottomans are on Crete, and they mean to stay. The siege of its capital, Candia, is about to become one of the longest in history.",
+      "images": [
+        {
+          "file": "File:Bernardo Strozzi - Claudio Monteverdi (c.1630).jpg",
+          "url": "https://upload.wikimedia.org/wikipedia/commons/0/02/Bernardo_Strozzi_-_Claudio_Monteverdi_%28c.1630%29.jpg",
+          "page": "https://commons.wikimedia.org/wiki/File:Bernardo_Strozzi_-_Claudio_Monteverdi_(c.1630).jpg",
+          "credit": "Bernardo Strozzi",
+          "license": "Public domain",
+          "made": "c. 1630",
+          "caption": "Claudio Monteverdi, music master at St Mark's, painted by Bernardo Strozzi around the time of the great plague.",
+          "alt": "Painted portrait of Claudio Monteverdi, a grey-bearded man in dark clothes"
+        }
+      ],
+      "sources": [
+        {
+          "title": "Venice, Austria, and the Turks in the Seventeenth Century",
+          "author": "Kenneth M. Setton",
+          "note": "American Philosophical Society, 1991"
+        },
+        {
+          "title": "Opera in Seventeenth-Century Venice: The Creation of a Genre",
+          "author": "Ellen Rosand",
+          "note": "University of California Press, 1991"
+        },
+        {
+          "title": "A History of Venice",
+          "author": "John Julius Norwich",
+          "note": "Allen Lane, 1982 (first published in two volumes, 1977 and 1981)"
+        },
+        {
+          "title": "Venice: A Maritime Republic",
+          "author": "Frederic C. Lane",
+          "note": "Johns Hopkins University Press, 1973"
+        }
+      ],
+      "review": {
+        "status": "draft",
+        "notes": "Drafted from the listed sources; needs a human fact-check."
+      }
+    },
+    {
+      "id": "siege-of-candia",
+      "kind": "interregnum",
+      "rulers": [],
+      "house": "late-republic",
+      "title": "The Siege of Candia",
+      "tagline": "Twenty years behind the walls of Crete",
+      "start": {
+        "date": "1646-01"
+      },
+      "end": {
+        "date": "1688-03"
+      },
+      "contestedWith": [],
+      "relationToPredecessor": "Several doges",
+      "ageAtAccession": "Mostly old men",
+      "cameToPower": "Elected one after another",
+      "reignEnded": "Marcantonio Giustinian dies",
+      "previously": "The Ottomans have landed on Crete, Venice's biggest colony.",
+      "paragraphs": [
+        "The Cretan War started in 1645 and didn't finish until 1669. Its heart was Candia, today's Heraklion. The Ottomans dug in around its walls and the siege dragged on for over twenty years, one of the longest in history. Venice paid for it any way it could. Families who could pay 100,000 ducats were sold a seat in the Great Council, the club that had been closed for centuries.",
+        "There were good days. In 1656 a Venetian fleet smashed the Ottomans at the Dardanelles. But Candia was starving slowly. In September 1669 its commander, Francesco Morosini, surrendered the ruins on honourable terms and sailed home. Some in Venice wanted him tried for giving up without orders.",
+        "His moment came again. When the Ottomans failed outside Vienna in 1683, Venice joined the Holy League against them, with Morosini in charge at sea. Between 1684 and 1687 he conquered the Peloponnese, which Venetians called the Morea, town by town. Then his army marched on Athens."
+      ],
+      "claims": [
+        {
+          "text": "The siege of Candia lasted 21 years.",
+          "status": "confirmed",
+          "note": "The Ottomans settled round the city from 1648 to 1669. It's usually ranked among the longest sieges ever."
+        },
+        {
+          "text": "Seats in the Great Council were sold for 100,000 ducats each.",
+          "status": "confirmed",
+          "note": "Dozens of families bought their way in during the war. The Manin family, of the last doge, joined this way in 1651."
+        }
+      ],
+      "hook": "In Athens, one of Morosini's mortar shells is about to hit the Parthenon. Back home the old doge dies, and Venice elects the hero while he's still at the front.",
+      "images": [
+        {
+          "file": "File:Candie assiégée.png",
+          "url": "https://upload.wikimedia.org/wikipedia/commons/c/cb/Candie_assi%C3%A9g%C3%A9e.png",
+          "page": "https://commons.wikimedia.org/wiki/File:Candie_assi%C3%A9g%C3%A9e.png",
+          "credit": "Antoine de Fer",
+          "license": "Public domain",
+          "made": "1669",
+          "caption": "A French engraving of 1669, the last year of the siege.",
+          "alt": "Engraved bird's-eye view of the walled city of Candia under attack by the Ottoman army"
+        }
+      ],
+      "sources": [
+        {
+          "title": "Venice, Austria, and the Turks in the Seventeenth Century",
+          "author": "Kenneth M. Setton",
+          "note": "American Philosophical Society, 1991"
+        },
+        {
+          "title": "A History of Venice",
+          "author": "John Julius Norwich",
+          "note": "Allen Lane, 1982 (first published in two volumes, 1977 and 1981)"
+        },
+        {
+          "title": "Venice: A Maritime Republic",
+          "author": "Frederic C. Lane",
+          "note": "Johns Hopkins University Press, 1973"
+        }
+      ],
+      "review": {
+        "status": "draft",
+        "notes": "Drafted from the listed sources; needs a human fact-check."
+      }
+    },
+    {
+      "id": "francesco-morosini",
+      "kind": "leader",
+      "rulers": [
+        "francesco-morosini"
+      ],
+      "tagline": "The admiral who blew up the Parthenon",
+      "start": {
+        "date": "1688-04"
+      },
+      "end": {
+        "date": "1694-01"
+      },
+      "contestedWith": [],
+      "relationToPredecessor": "No relation; elected",
+      "ageAtAccession": "69",
+      "cameToPower": "Elected while still at the front",
+      "reignEnded": "Died on campaign in Greece",
+      "previously": "26 September 1687: a Venetian shell hits the Parthenon.",
+      "paragraphs": [
+        "Morosini's army was besieging the Ottoman garrison on the Acropolis. The defenders had stored gunpowder inside the Parthenon. On 26 September 1687 a Venetian mortar shell crashed through the roof and set it off. The blast tore out the middle of the 2,100-year-old temple and killed hundreds of the people sheltering there. The Parthenon has been a ruin ever since.",
+        "Then he went shopping. He tried to lower the great horses of Athena's chariot from the west end of the temple, and the ropes gave way and smashed them. He did take the marble lion from Piraeus, which still guards the gate of the Arsenal in Venice. The Senate gave him the title Peloponnesiacus, and in April 1688 elected him doge while he was still in Greece.",
+        "Being doge didn't keep him home. His siege of Negroponte in 1688 failed, and he came back to Venice. In 1693, at 74, he sailed out once more as commander, and died at Nauplia in January 1694. He was the last doge to lead the fleet."
+      ],
+      "claims": [
+        {
+          "text": "About 300 people died in the Parthenon explosion.",
+          "status": "disputed",
+          "note": "The figure comes from Venetian and German officers on the spot. Many of the dead were women and children sheltering inside."
+        },
+        {
+          "text": "Morosini's embalmed cat is in the Museo Correr.",
+          "status": "disputed",
+          "note": "A mummified cat linked to him is shown there, but the story of the cat sailing with him rests on family tradition."
+        },
+        {
+          "text": "The Senate named him Peloponnesiacus in 1687.",
+          "status": "confirmed",
+          "note": "A Senate honour modelled on Roman victory titles; Venice had never given one to a living citizen before."
+        }
+      ],
+      "hook": "Venice holds the Morea at last. But the Ottomans are rebuilding, and in Europe Venice now looks less like a great power and more like a museum.",
+      "images": [
+        {
+          "file": "File:Portrait of Doge Francesco Morosini (1619–1694), half-length, in armour .jpg",
+          "url": "https://upload.wikimedia.org/wikipedia/commons/6/69/Portrait_of_Doge_Francesco_Morosini_%281619%E2%80%931694%29%2C_half-length%2C_in_armour_.jpg",
+          "page": "https://commons.wikimedia.org/wiki/File:Portrait_of_Doge_Francesco_Morosini_(1619%E2%80%931694),_half-length,_in_armour_.jpg",
+          "credit": "Giovanni Carboncino",
+          "license": "Public domain",
+          "made": "Late 17th century",
+          "caption": "Morosini painted as a warrior doge by Giovanni Carboncino, in his own lifetime or soon after.",
+          "alt": "Painted half-length portrait of Doge Francesco Morosini wearing armour"
+        }
+      ],
+      "sources": [
+        {
+          "title": "Venice, Austria, and the Turks in the Seventeenth Century",
+          "author": "Kenneth M. Setton",
+          "note": "American Philosophical Society, 1991"
+        },
+        {
+          "title": "The Parthenon",
+          "author": "Mary Beard",
+          "note": "Profile Books, 2002"
+        },
+        {
+          "title": "A History of Venice",
+          "author": "John Julius Norwich",
+          "note": "Allen Lane, 1982 (first published in two volumes, 1977 and 1981)"
+        }
+      ],
+      "review": {
+        "status": "draft",
+        "notes": "Drafted from the listed sources; needs a human fact-check."
+      }
+    },
+    {
+      "id": "losing-the-morea",
+      "kind": "interregnum",
+      "rulers": [],
+      "house": "late-republic",
+      "title": "Losing the Morea",
+      "tagline": "One last war with the Sultan, then the guns fall silent",
+      "start": {
+        "date": "1694-01"
+      },
+      "end": {
+        "date": "1732"
+      },
+      "contestedWith": [],
+      "relationToPredecessor": "Several doges",
+      "ageAtAccession": "Mostly old men",
+      "cameToPower": "Elected one after another",
+      "reignEnded": "Venice settles into neutrality",
+      "previously": "Morosini, the last fighting doge, has died at Nauplia.",
+      "paragraphs": [
+        "At the Treaty of Karlowitz in 1699 the Ottomans signed the Morea over to Venice. It didn't last. In 1715 they came back with a huge army and took the whole peninsula in a matter of months. Venice's forts fell one after another.",
+        "Next they went for Corfu, the key to the Adriatic. In 1716 a German soldier in Venetian pay, Marshal Matthias von der Schulenburg, held the island against a full siege until the Ottomans gave up. A grateful Venice put up a statue of him on Corfu while he was still alive.",
+        "The Treaty of Passarowitz in 1718 ended Venice's last war with the Ottomans. The Morea was gone for good, but Corfu and the Dalmatian coast stayed Venetian. From now on, Venice stayed out of wars. It had other things to sell. Vivaldi, priest and violinist, was writing hundreds of concertos for the girls' orchestra of the Pietà, and tourists were pouring in."
+      ],
+      "claims": [
+        {
+          "text": "Schulenburg's statue was put up on Corfu in his lifetime.",
+          "status": "confirmed",
+          "note": "The marble statue by Antonio Corradini still stands in Corfu town. The Republic almost never honoured a living man this way."
+        },
+        {
+          "text": "A storm helped save Corfu in 1716.",
+          "status": "disputed",
+          "note": "Contemporary accounts say a violent storm hit the Ottoman camp just before they lifted the siege. Corfiots credit their patron saint, Spyridon."
+        }
+      ],
+      "hook": "No more wars. For the next half-century Venice becomes Europe's playground: masks, gambling, opera, and a carnival that seems to never end.",
+      "images": [
+        {
+          "file": "File:144. La difesa di Corfu, anno 1716.jpg",
+          "url": "https://upload.wikimedia.org/wikipedia/commons/a/a6/144._La_difesa_di_Corfu%2C_anno_1716.jpg",
+          "page": "https://commons.wikimedia.org/wiki/File:144._La_difesa_di_Corfu,_anno_1716.jpg",
+          "credit": "Giuseppe Lorenzo Gatteri and Francesco Zanotto",
+          "license": "Public domain",
+          "made": "1863",
+          "caption": "A 19th-century print of the defence of Corfu, made nearly 150 years after the siege.",
+          "alt": "Engraved scene of the siege of Corfu in 1716, with soldiers fighting at the fortifications"
+        }
+      ],
+      "sources": [
+        {
+          "title": "Venice, Austria, and the Turks in the Seventeenth Century",
+          "author": "Kenneth M. Setton",
+          "note": "American Philosophical Society, 1991"
+        },
+        {
+          "title": "A History of Venice",
+          "author": "John Julius Norwich",
+          "note": "Allen Lane, 1982 (first published in two volumes, 1977 and 1981)"
+        },
+        {
+          "title": "Venice: A Maritime Republic",
+          "author": "Frederic C. Lane",
+          "note": "Johns Hopkins University Press, 1973"
+        }
+      ],
+      "review": {
+        "status": "draft",
+        "notes": "Drafted from the listed sources; needs a human fact-check."
+      }
+    },
+    {
+      "id": "carnival-republic",
+      "kind": "interregnum",
+      "rulers": [],
+      "house": "late-republic",
+      "title": "The Carnival Republic",
+      "tagline": "Masks on, cards out, ships rotting in the Arsenal",
+      "start": {
+        "date": "1732"
+      },
+      "end": {
+        "date": "1789-02"
+      },
+      "contestedWith": [],
+      "relationToPredecessor": "Several doges",
+      "ageAtAccession": "Mostly old men",
+      "cameToPower": "Elected one after another",
+      "reignEnded": "Paolo Renier dies",
+      "previously": "Venice has lost the Morea and given up fighting for good.",
+      "paragraphs": [
+        "Seven doges, from Carlo Ruzzini to Paolo Renier, ruled a city having the time of its life. Carnival ran for months. People of every rank wore the mask, so a noble and a gondolier could be anyone. Canaletto painted views for English tourists, Tiepolo painted ceilings all over Europe, and Goldoni filled the theatres with comedies about ordinary Venetians.",
+        "Giacomo Casanova was locked up in the Piombi, the cells under the lead roof of the Doge's Palace. On the night of 31 October 1756 he and a monk broke through the roof, climbed down into the palace and walked out of the front door. In 1774 the state closed its own gambling house, the Ridotto, because too many nobles were losing their fortunes there.",
+        "Underneath, the money was draining away. Trade had shrunk, the fleet was rotting and the nobility was getting poorer and fewer. Venice stayed neutral in every war. In February 1789 Doge Paolo Renier died, in the middle of carnival."
+      ],
+      "claims": [
+        {
+          "text": "Casanova escaped from the Piombi on 31 October 1756.",
+          "status": "confirmed",
+          "note": "Casanova told the story himself and liked to embroider, but the escape is confirmed by the Venetian records."
+        },
+        {
+          "text": "Renier's death was kept quiet until carnival was over.",
+          "status": "legend",
+          "note": "A popular story that fits the image of a city that put the party first. Firm evidence is thin."
+        }
+      ],
+      "hook": "Renier is gone. The electors pick the richest man they can find, Ludovico Manin. In Paris that summer, the Bastille is about to fall.",
+      "images": [
+        {
+          "file": "File:The Ridotto Pubblico at Palazzo Dandolo MET DP162310.jpg",
+          "url": "https://upload.wikimedia.org/wikipedia/commons/0/07/The_Ridotto_Pubblico_at_Palazzo_Dandolo_MET_DP162310.jpg",
+          "page": "https://commons.wikimedia.org/wiki/File:The_Ridotto_Pubblico_at_Palazzo_Dandolo_MET_DP162310.jpg",
+          "credit": "Francesco Guardi",
+          "license": "CC0",
+          "made": "c. 1765–68",
+          "caption": "Francesco Guardi's view of the Ridotto, the state gambling house, a few years before it was closed; Metropolitan Museum of Art.",
+          "alt": "Painting of a large hall in the Ridotto gaming house at Palazzo Dandolo, crowded with visitors in carnival masks and cloaks"
+        }
+      ],
+      "sources": [
+        {
+          "title": "History of My Life (Histoire de ma vie)",
+          "author": "Giacomo Casanova",
+          "note": "Written 1789–98"
+        },
+        {
+          "title": "Venice in the Eighteenth Century",
+          "author": "Philippe Monnier",
+          "note": "English translation, 1910"
+        },
+        {
+          "title": "A History of Venice",
+          "author": "John Julius Norwich",
+          "note": "Allen Lane, 1982 (first published in two volumes, 1977 and 1981)"
+        }
+      ],
+      "review": {
+        "status": "draft",
+        "notes": "Drafted from the listed sources; needs a human fact-check."
+      }
+    },
+    {
+      "id": "ludovico-manin",
+      "kind": "leader",
+      "rulers": [
+        "ludovico-manin"
+      ],
+      "tagline": "The last doge hands over his hat",
+      "start": {
+        "date": "1789-03-09"
+      },
+      "end": {
+        "date": "1797-05-12"
+      },
+      "contestedWith": [],
+      "relationToPredecessor": "No relation; elected",
+      "ageAtAccession": "63",
+      "cameToPower": "Elected after Paolo Renier",
+      "reignEnded": "Republic voted out of existence",
+      "previously": "Carnival is over and Doge Paolo Renier is dead.",
+      "paragraphs": [
+        "Ludovico Manin was the 120th doge, by the usual count, and the last. His family came from Friuli and had bought its way into the nobility in 1651. Snobs never forgot it. His reign had one bright spot: in 1792 the opera house La Fenice opened. Then the young general Napoleon Bonaparte marched into Italy in 1796, chasing the Austrians straight across neutral Venetian land.",
+        "In April 1797 the people of Verona rose against the French. Days later the guns of the Lido fort fired on a French ship that tried to force its way into the lagoon, and its captain was killed. Napoleon had his excuse and declared war on 1 May. Venice had no real army or fleet left to fight with.",
+        "On 12 May 1797 the Great Council voted to end the Republic after over a thousand years. French troops marched in. In October, at Campo Formio, Napoleon handed Venice to Austria's Francis II, and the bronze horses of St Mark's went off to Paris. Manin lived quietly in Venice and died in 1802."
+      ],
+      "claims": [
+        {
+          "text": "An old noble grumbled that a Friulian doge meant the Republic was dead.",
+          "status": "legend",
+          "note": "Pinned on Pietro Gradenigo, it's quoted in later histories. Whether he said it, and at the time, is unknown."
+        },
+        {
+          "text": "Manin handed his ducal cap to his servant, saying he wouldn't need it any more.",
+          "status": "legend",
+          "note": "The most famous line of the fall, from later accounts. It sums up the day too neatly to be fully trusted."
+        },
+        {
+          "text": "The Great Council voted 512 to 20 to dissolve itself, without a legal quorum.",
+          "status": "disputed",
+          "note": "The figures are the commonly given ones. Some sources give slightly different counts, and the quorum point is often debated."
+        }
+      ],
+      "images": [
+        {
+          "file": "File:Lodovico Manin.jpg",
+          "url": "https://upload.wikimedia.org/wikipedia/commons/3/3b/Lodovico_Manin.jpg",
+          "page": "https://commons.wikimedia.org/wiki/File:Lodovico_Manin.jpg",
+          "credit": "Bernardino Castelli",
+          "license": "Public domain",
+          "made": "Late 18th century",
+          "caption": "Painted by Bernardino Castelli in the last years of the Republic.",
+          "alt": "Painted portrait of Doge Ludovico Manin in the ducal cap and robes"
+        }
+      ],
+      "sources": [
+        {
+          "title": "La Repubblica del Leone: Storia di Venezia",
+          "author": "Alvise Zorzi",
+          "note": "Rusconi, 1979"
+        },
+        {
+          "title": "A History of Venice",
+          "author": "John Julius Norwich",
+          "note": "Allen Lane, 1982 (first published in two volumes, 1977 and 1981)"
+        },
+        {
+          "title": "Venice: A New History",
+          "author": "Thomas F. Madden",
+          "note": "Viking, 2012"
+        },
+        {
+          "title": "Venice: A Maritime Republic",
+          "author": "Frederic C. Lane",
+          "note": "Johns Hopkins University Press, 1973"
+        }
+      ],
+      "review": {
+        "status": "draft",
+        "notes": "Drafted from the listed sources; needs a human fact-check."
+      }
+    }
+  ]
+}
