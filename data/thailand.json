@@ -416,6 +416,139 @@
         "date": "1952-07-28",
         "note": "Dusit Palace, Bangkok"
       }
+    },
+    {
+      "id": "ramesuan",
+      "name": "Ramesuan",
+      "house": "uthong",
+      "born": {
+        "date": "1339"
+      },
+      "died": {
+        "date": "1395",
+        "note": "Ayutthaya"
+      }
+    },
+    {
+      "id": "borommarachathirat-i",
+      "name": "Borommarachathirat I",
+      "house": "suphannaphum",
+      "died": {
+        "date": "1388"
+      }
+    },
+    {
+      "id": "thong-lan",
+      "name": "Thong Lan",
+      "house": "suphannaphum",
+      "born": {
+        "date": "1373",
+        "circa": true
+      },
+      "died": {
+        "date": "1388",
+        "note": "Ayutthaya"
+      },
+      "causeOfDeath": "Executed on Ramesuan's orders"
+    },
+    {
+      "id": "ramaratcha",
+      "name": "Ramaratcha",
+      "house": "uthong"
+    },
+    {
+      "id": "yotfa",
+      "name": "Yotfa",
+      "house": "suphannaphum",
+      "born": {
+        "date": "1535",
+        "circa": true
+      },
+      "died": {
+        "date": "1548",
+        "note": "Ayutthaya"
+      },
+      "causeOfDeath": "Killed; the chronicles blame his mother's party"
+    },
+    {
+      "id": "si-sudachan",
+      "name": "Si Sudachan",
+      "house": "suphannaphum",
+      "died": {
+        "date": "1548",
+        "note": "Near Ayutthaya"
+      },
+      "causeOfDeath": "Killed in an ambush by nobles"
+    },
+    {
+      "id": "worawongsathirat",
+      "name": "Worawongsathirat",
+      "house": "suphannaphum",
+      "died": {
+        "date": "1548",
+        "note": "Near Ayutthaya"
+      },
+      "causeOfDeath": "Killed in an ambush by nobles"
+    },
+    {
+      "id": "si-saowaphak",
+      "name": "Si Saowaphak",
+      "house": "sukhothai",
+      "died": {
+        "date": "1611",
+        "circa": true,
+        "note": "Ayutthaya"
+      },
+      "causeOfDeath": "Killed in a palace coup"
+    },
+    {
+      "id": "songtham",
+      "name": "Songtham",
+      "house": "sukhothai",
+      "died": {
+        "date": "1628-12",
+        "note": "Ayutthaya; some references give 12 or 13 December"
+      }
+    },
+    {
+      "id": "chetthathirat",
+      "name": "Chetthathirat",
+      "house": "sukhothai",
+      "died": {
+        "date": "1629",
+        "circa": true,
+        "note": "Ayutthaya"
+      },
+      "causeOfDeath": "Executed after being deposed"
+    },
+    {
+      "id": "athittayawong",
+      "name": "Athittayawong",
+      "house": "sukhothai"
+    },
+    {
+      "id": "suriyenthrathibodi",
+      "name": "Suriyenthrathibodi",
+      "epithet": "the Tiger King",
+      "house": "ban-phlu-luang",
+      "born": {
+        "date": "1661",
+        "circa": true
+      },
+      "died": {
+        "date": "1709",
+        "circa": true,
+        "note": "Ayutthaya"
+      }
+    },
+    {
+      "id": "thai-sa",
+      "name": "Thai Sa",
+      "house": "ban-phlu-luang",
+      "died": {
+        "date": "1733-01",
+        "note": "Ayutthaya"
+      }
     }
   ],
   "reigns": [
@@ -461,7 +594,7 @@
           "note": "Found by the future King Mongkut in 1833. A few scholars argued in the 1980s it was a later work; most still accept it."
         }
       ],
-      "hook": "Uthong is dead and his son Ramesuan takes the throne. But his uncle in Suphanburi has an army and big plans. This family is about to fight over the new city for forty years.",
+      "hook": "Uthong is dead and his son Ramesuan takes the throne. But Ramesuan's uncle in Suphanburi has an army and big plans, and the two families will fight over the new city for forty years.",
       "images": [
         {
           "file": "File:Phrajaouthong06.jpg",
@@ -497,54 +630,55 @@
       }
     },
     {
-      "id": "rival-lines",
-      "kind": "interregnum",
-      "rulers": [],
-      "house": "rivals",
-      "title": "Uncle, Nephew and a Seven-Day King",
-      "tagline": "Two families, one city, and a very short reign",
+      "id": "ramesuan-first",
+      "kind": "monarch",
+      "rulers": [
+        "ramesuan"
+      ],
+      "title": "Ramesuan (first reign)",
+      "tagline": "The heir who held the new city for about a year",
       "start": {
         "date": "1369",
         "circa": true
       },
       "end": {
-        "date": "1409",
+        "date": "1370",
         "circa": true
       },
       "contestedWith": [],
-      "relationToPredecessor": "Uthong's son, then his in-laws",
-      "ageAtAccession": "Various",
-      "cameToPower": "Inheritance, then muscle",
-      "reignEnded": "Ramaratcha deposed, 1409",
-      "previously": "Uthong is dead. His son and his in-laws both want Ayutthaya.",
+      "relationToPredecessor": "Son of Uthong",
+      "ageAtAccession": "About 30",
+      "cameToPower": "Succeeded his father",
+      "reignEnded": "Gave way to his uncle Pha Ngua",
+      "previously": "Uthong dies. His son Ramesuan inherits a brand-new kingdom.",
       "paragraphs": [
-        "Uthong's son Ramesuan took over in 1369, but within a year he handed the throne to his uncle Pha Ngua, the tough lord of Suphanburi, who reigned as Borommarachathirat I. Did Ramesuan step aside or get shoved? The chronicles are polite about it. Pha Ngua spent his reign marching north and forced proud old Sukhothai to accept Ayutthaya as its overlord.",
-        "When Pha Ngua died in 1388, his young son Thong Lan got the crown. He kept it for about seven days. Ramesuan came back from Lopburi, seized the palace and had the boy killed. He then reigned again until 1395, fighting Lan Na in the north and the Khmers in the east.",
-        "His son Ramaratcha followed and lasted until 1409. Then he fell out with a senior minister, who invited Pha Ngua's family back from Suphanburi. Its new head, Intharacha, took Ayutthaya, and Ramaratcha was packed off into exile."
+        "Ramesuan was Uthong's son, and he had been running the old city of Lopburi, also called Lavo, since the early days of the kingdom. Lopburi was his base, full of people loyal to him. When his father died around 1369, he came down the river and took the throne in Ayutthaya.",
+        "The trouble was family. His mother's brother, Khun Luang Pha Ngua, ruled Suphanburi to the west, and he had soldiers, experience and ambitions of his own. The chronicles say Uthong had once sent Pha Ngua to rescue Ramesuan's army when a campaign against Cambodia went badly. Uncle and nephew both knew who was stronger.",
+        "Within about a year Ramesuan handed Ayutthaya over and went back to Lopburi. He was still young, he still had his city, and he was patient. He would wait nearly twenty years for another chance."
       ],
       "claims": [
         {
-          "text": "Thong Lan was put to death at Wat Khok Phraya, where royals were executed.",
-          "status": "legend",
-          "note": "So say the Ayutthaya chronicles, written centuries later; their versions differ on the details of his short reign."
+          "text": "Ramesuan gave up the throne to his uncle of his own free will.",
+          "status": "disputed",
+          "note": "The chronicles describe a polite handover; most modern historians think Pha Ngua's power left him little choice."
         },
         {
-          "text": "Pha Ngua made Sukhothai a vassal of Ayutthaya.",
-          "status": "confirmed",
-          "note": "Recorded in the Ayutthaya chronicles and broadly matched by Sukhothai inscriptions of the period."
+          "text": "Pha Ngua once rescued Ramesuan's army in a war against Cambodia.",
+          "status": "legend",
+          "note": "Told in the Ayutthaya chronicles, written centuries later, and the versions disagree on the details."
         }
       ],
-      "hook": "The Suphanburi family has Ayutthaya at last, and this time it means to keep it. Its new king, Intharacha, has friends as far away as the Ming court in China.",
+      "hook": "Ramesuan goes home to Lopburi. In Ayutthaya his uncle Pha Ngua takes the crown as Borommarachathirat I, and he has his eye on proud old Sukhothai.",
       "images": [
         {
-          "file": "File:Wat Phra Ram, Ayutthaya, Thailand.jpg",
-          "url": "https://upload.wikimedia.org/wikipedia/commons/7/7f/Wat_Phra_Ram%2C_Ayutthaya%2C_Thailand.jpg",
-          "page": "https://commons.wikimedia.org/wiki/File:Wat_Phra_Ram,_Ayutthaya,_Thailand.jpg",
-          "credit": "Vyacheslav Argenberg",
-          "license": "CC BY 4.0",
-          "made": "2007 (photo)",
-          "caption": "The ruins of Wat Phra Ram, a temple the chronicles say Ramesuan raised where his father Uthong was cremated.",
-          "alt": "Ruins of Wat Phra Ram in Ayutthaya, with its central prang tower"
+          "file": "File:ปราสาทปรางค์สามยอด2.jpg",
+          "url": "https://upload.wikimedia.org/wikipedia/commons/6/60/%E0%B8%9B%E0%B8%A3%E0%B8%B2%E0%B8%AA%E0%B8%B2%E0%B8%97%E0%B8%9B%E0%B8%A3%E0%B8%B2%E0%B8%87%E0%B8%84%E0%B9%8C%E0%B8%AA%E0%B8%B2%E0%B8%A1%E0%B8%A2%E0%B8%AD%E0%B8%942.jpg",
+          "page": "https://commons.wikimedia.org/wiki/File:%E0%B8%9B%E0%B8%A3%E0%B8%B2%E0%B8%AA%E0%B8%B2%E0%B8%97%E0%B8%9B%E0%B8%A3%E0%B8%B2%E0%B8%87%E0%B8%84%E0%B9%8C%E0%B8%AA%E0%B8%B2%E0%B8%A1%E0%B8%A2%E0%B8%AD%E0%B8%942.jpg",
+          "credit": "Mastertongapollo",
+          "license": "CC BY-SA 4.0",
+          "made": "2024 (photo)",
+          "caption": "Prang Sam Yot in Lopburi, a Khmer-style temple already old when Ramesuan governed the city; no portrait of him exists.",
+          "alt": "The three laterite towers of Prang Sam Yot in Lopburi"
         }
       ],
       "sources": [
@@ -554,9 +688,295 @@
           "note": "Oxford University Press, 1976"
         },
         {
-          "title": "The Royal Chronicles of Ayutthaya",
+          "title": "The Royal Chronicles of Ayutthaya: A Synoptic Translation",
           "author": "Richard D. Cushman (trans.), David K. Wyatt (ed.)",
-          "note": "Siam Society, 2000; parallel translation of the main chronicle versions"
+          "note": "Siam Society, 2000"
+        },
+        {
+          "title": "Thailand: A Short History",
+          "author": "David K. Wyatt",
+          "note": "Yale University Press, 1984; 2nd ed. 2003"
+        }
+      ],
+      "review": {
+        "status": "draft",
+        "notes": "Drafted from the listed sources; needs a human fact-check."
+      }
+    },
+    {
+      "id": "borommarachathirat-i",
+      "kind": "monarch",
+      "rulers": [
+        "borommarachathirat-i"
+      ],
+      "tagline": "The tough uncle who brought Sukhothai to heel",
+      "start": {
+        "date": "1370",
+        "circa": true
+      },
+      "end": {
+        "date": "1388"
+      },
+      "contestedWith": [],
+      "relationToPredecessor": "Ramesuan's maternal uncle",
+      "ageAtAccession": "Unknown",
+      "cameToPower": "Took over from his nephew",
+      "reignEnded": "Died in 1388",
+      "previously": "Ramesuan hands Ayutthaya to his uncle and goes back to Lopburi.",
+      "paragraphs": [
+        "Khun Luang Pha Ngua was lord of Suphanburi and brother of Uthong's queen. As king he took the name Borommarachathirat I. He was a soldier first, and he spent much of his reign on the march, pushing Ayutthaya's reach north up the river valleys.",
+        "His big target was Sukhothai, the older Thai kingdom that still saw itself as senior. He hammered at its frontier towns until, in 1378, its king came out and submitted. From then on Sukhothai was a vassal of Ayutthaya. He fought Lan Na, the northern kingdom based at Chiang Mai, as well.",
+        "He died in 1388 and left the throne to his son Thong Lan, a teenager. Up in Lopburi, his nephew Ramesuan had been waiting for exactly this moment."
+      ],
+      "claims": [
+        {
+          "text": "Pha Ngua made Sukhothai a vassal of Ayutthaya in 1378.",
+          "status": "confirmed",
+          "note": "Recorded in the Ayutthaya chronicles and broadly matched by Sukhothai inscriptions of the period."
+        },
+        {
+          "text": "He died while away on campaign in the north.",
+          "status": "disputed",
+          "note": "Some chronicle versions say so; they were written long afterwards and disagree on where and how."
+        }
+      ],
+      "hook": "The old warrior is dead and his boy Thong Lan is king. Ramesuan has been sitting in Lopburi for eighteen years. Now he gathers his men.",
+      "images": [
+        {
+          "file": "File:Borommarachathirat I.jpg",
+          "url": "https://upload.wikimedia.org/wikipedia/commons/b/bc/Borommarachathirat_I.jpg",
+          "page": "https://commons.wikimedia.org/wiki/File:Borommarachathirat_I.jpg",
+          "credit": "FrameHotep",
+          "license": "CC BY 4.0",
+          "made": "2024 (photo)",
+          "caption": "A modern statue of Khun Luang Pha Ngua in Suphanburi, made more than 600 years after his death; no likeness from his lifetime exists.",
+          "alt": "Statue of King Borommarachathirat I at the Khun Luang Pha Ngua sculpture and history building in Suphan Buri"
+        }
+      ],
+      "sources": [
+        {
+          "title": "The Rise of Ayudhya: A History of Siam in the Fourteenth and Fifteenth Centuries",
+          "author": "Charnvit Kasetsiri",
+          "note": "Oxford University Press, 1976"
+        },
+        {
+          "title": "The Royal Chronicles of Ayutthaya: A Synoptic Translation",
+          "author": "Richard D. Cushman (trans.), David K. Wyatt (ed.)",
+          "note": "Siam Society, 2000"
+        },
+        {
+          "title": "Thailand: A Short History",
+          "author": "David K. Wyatt",
+          "note": "Yale University Press, 1984; 2nd ed. 2003"
+        }
+      ],
+      "review": {
+        "status": "draft",
+        "notes": "Drafted from the listed sources; needs a human fact-check."
+      }
+    },
+    {
+      "id": "thong-lan",
+      "kind": "monarch",
+      "rulers": [
+        "thong-lan"
+      ],
+      "tagline": "Seven days on the throne, then the club",
+      "start": {
+        "date": "1388"
+      },
+      "end": {
+        "date": "1388"
+      },
+      "contestedWith": [],
+      "relationToPredecessor": "Son of Borommarachathirat I",
+      "ageAtAccession": "About 15",
+      "cameToPower": "Succeeded his father",
+      "reignEnded": "Overthrown and executed",
+      "previously": "Borommarachathirat I dies. His teenage son Thong Lan is crowned.",
+      "paragraphs": [
+        "Thong Lan was about 15 when his father died in 1388. He had a crown, a palace and a famous name. What he didn't have was time to build any support of his own.",
+        "His cousin Ramesuan moved fast. He came down from Lopburi with his followers, got into Ayutthaya and took the palace. The boy had reigned for about seven days. Ramesuan had him put to death, and by tradition royal blood was never spilled, so Thong Lan was beaten with a sandalwood club. It is the shortest reign in the Ayutthaya king lists."
+      ],
+      "claims": [
+        {
+          "text": "Thong Lan was put to death at Wat Khok Phraya, where royals were executed.",
+          "status": "legend",
+          "note": "So say the Ayutthaya chronicles, written centuries later; their versions differ on the details of his short reign."
+        },
+        {
+          "text": "He was killed with a sandalwood club so that no royal blood touched the ground.",
+          "status": "legend",
+          "note": "This was the traditional Siamese method for executing royals, but no witness describes Thong Lan's death."
+        }
+      ],
+      "hook": "The boy king is dead and Ramesuan sits on his father's throne again, twenty years late. He means to make up for lost time.",
+      "images": [
+        {
+          "file": "File:Suphanburiwatpalelai0609c.jpg",
+          "url": "https://upload.wikimedia.org/wikipedia/commons/1/1d/Suphanburiwatpalelai0609c.jpg",
+          "page": "https://commons.wikimedia.org/wiki/File:Suphanburiwatpalelai0609c.jpg",
+          "credit": "Heinrich Damm",
+          "license": "CC BY 3.0",
+          "made": "2005 (photo)",
+          "caption": "Wat Pa Lelai in Suphanburi, the home city of Thong Lan's family; no image of the boy king exists.",
+          "alt": "Wat Pa Lelai temple in Suphan Buri"
+        }
+      ],
+      "sources": [
+        {
+          "title": "The Rise of Ayudhya: A History of Siam in the Fourteenth and Fifteenth Centuries",
+          "author": "Charnvit Kasetsiri",
+          "note": "Oxford University Press, 1976"
+        },
+        {
+          "title": "The Royal Chronicles of Ayutthaya: A Synoptic Translation",
+          "author": "Richard D. Cushman (trans.), David K. Wyatt (ed.)",
+          "note": "Siam Society, 2000"
+        },
+        {
+          "title": "Thailand: A Short History",
+          "author": "David K. Wyatt",
+          "note": "Yale University Press, 1984; 2nd ed. 2003"
+        }
+      ],
+      "review": {
+        "status": "draft",
+        "notes": "Drafted from the listed sources; needs a human fact-check."
+      }
+    },
+    {
+      "id": "ramesuan-second",
+      "kind": "monarch",
+      "rulers": [
+        "ramesuan"
+      ],
+      "title": "Ramesuan (second reign)",
+      "tagline": "Back on the throne, and he wasn't sharing",
+      "start": {
+        "date": "1388"
+      },
+      "end": {
+        "date": "1395"
+      },
+      "contestedWith": [],
+      "relationToPredecessor": "Cousin of Thong Lan, his victim",
+      "ageAtAccession": "About 49",
+      "cameToPower": "Seized the palace",
+      "reignEnded": "Died in Ayutthaya",
+      "previously": "Ramesuan storms the palace and has the boy Thong Lan killed.",
+      "paragraphs": [
+        "Ramesuan was nearly 50 when he got his throne back, and he didn't sit still. He sent armies north against Lan Na and its capital Chiang Mai, and east into Cambodia. The chronicles give him a string of victories. Some are probably bigger in the retelling than they were on the ground.",
+        "He was a builder too. The ruined Wat Phra Ram stands where his father was cremated, and one chronicle says he raised Wat Mahathat, the great relic temple at the heart of the city, after seeing a light shine from the ground there. Today it's famous for a stone Buddha head caught in the roots of a fig tree.",
+        "He died in 1395. His son Ramaratcha took over, and for the moment the Uthong family held the city."
+      ],
+      "claims": [
+        {
+          "text": "Ramesuan's armies captured Angkor in the 1390s.",
+          "status": "disputed",
+          "note": "The Ayutthaya chronicles say so, but Cambodian sources and modern historians are doubtful about the date and scale."
+        },
+        {
+          "text": "Ramesuan founded Wat Mahathat.",
+          "status": "disputed",
+          "note": "One chronicle version credits him; another gives it to his uncle Pha Ngua in the 1370s."
+        }
+      ],
+      "hook": "Ramesuan is gone. His son Ramaratcha inherits a quieter kingdom, but he's about to fall out with the one minister he can't afford to lose.",
+      "images": [
+        {
+          "file": "File:Templo Mahathat, Ayutthaya, Tailandia, 2013-08-23, DD 06.jpg",
+          "url": "https://upload.wikimedia.org/wikipedia/commons/0/03/Templo_Mahathat%2C_Ayutthaya%2C_Tailandia%2C_2013-08-23%2C_DD_06.jpg",
+          "page": "https://commons.wikimedia.org/wiki/File:Templo_Mahathat,_Ayutthaya,_Tailandia,_2013-08-23,_DD_06.jpg",
+          "credit": "Diego Delso",
+          "license": "CC BY-SA 3.0",
+          "made": "2013 (photo)",
+          "caption": "The ruins of Wat Mahathat in Ayutthaya, which one chronicle credits to Ramesuan; no portrait of him exists.",
+          "alt": "Ruins of Wat Mahathat in Ayutthaya historical park"
+        }
+      ],
+      "sources": [
+        {
+          "title": "The Rise of Ayudhya: A History of Siam in the Fourteenth and Fifteenth Centuries",
+          "author": "Charnvit Kasetsiri",
+          "note": "Oxford University Press, 1976"
+        },
+        {
+          "title": "The Royal Chronicles of Ayutthaya: A Synoptic Translation",
+          "author": "Richard D. Cushman (trans.), David K. Wyatt (ed.)",
+          "note": "Siam Society, 2000"
+        },
+        {
+          "title": "Thailand: A Short History",
+          "author": "David K. Wyatt",
+          "note": "Yale University Press, 1984; 2nd ed. 2003"
+        }
+      ],
+      "review": {
+        "status": "draft",
+        "notes": "Drafted from the listed sources; needs a human fact-check."
+      }
+    },
+    {
+      "id": "ramaratcha",
+      "kind": "monarch",
+      "rulers": [
+        "ramaratcha"
+      ],
+      "tagline": "The last Uthong king, undone by his own minister",
+      "start": {
+        "date": "1395"
+      },
+      "end": {
+        "date": "1409",
+        "circa": true
+      },
+      "contestedWith": [],
+      "relationToPredecessor": "Son of Ramesuan",
+      "ageAtAccession": "Unknown",
+      "cameToPower": "Succeeded his father",
+      "reignEnded": "Deposed by Intharacha",
+      "previously": "Ramesuan dies, and his son Ramaratcha inherits the city.",
+      "paragraphs": [
+        "Ramaratcha's reign was a quiet one by Ayutthaya's standards. Embassies went back and forth to Ming China, carrying tribute north and coming home with gifts, trade and the emperor's recognition. The wars of his father's day died down.",
+        "Then he quarrelled with his chief minister. The chronicles say the king lost his temper and ordered the man's arrest, and the minister fled across the river. From there he sent word to Suphanburi, where Pha Ngua's nephew Intharacha was waiting. Intharacha came with his troops, the minister opened the way, and Ayutthaya changed hands around 1409.",
+        "Ramaratcha wasn't killed. He was sent off to live at Pa Mok, upriver. With him went the Uthong line's last hold on the throne."
+      ],
+      "claims": [
+        {
+          "text": "Ayutthaya sent regular tribute missions to the Ming court in this period.",
+          "status": "confirmed",
+          "note": "The Ming dynastic records log envoys from Siam (Xianluo) through these years."
+        },
+        {
+          "text": "A furious king and a fleeing minister brought Intharacha in.",
+          "status": "legend",
+          "note": "The chronicles' story, written long afterwards; the real politics between the two families were surely more complicated."
+        }
+      ],
+      "hook": "The Suphanburi family has Ayutthaya at last, and this time it means to keep it. Its new king, Intharacha, has friends as far away as the Ming court in China.",
+      "images": [
+        {
+          "file": "File:Watpamokvpn06.jpg",
+          "url": "https://upload.wikimedia.org/wikipedia/commons/d/da/Watpamokvpn06.jpg",
+          "page": "https://commons.wikimedia.org/wiki/File:Watpamokvpn06.jpg",
+          "credit": "Heinrich Damm",
+          "license": "CC BY 2.0",
+          "made": "2006 (photo)",
+          "caption": "Wat Pa Mok, in the riverside district where the deposed Ramaratcha was sent to live; the present buildings are much later than his time.",
+          "alt": "Viharn of the Reclining Buddha at Wat Pa Mok, Ang Thong province"
+        }
+      ],
+      "sources": [
+        {
+          "title": "The Rise of Ayudhya: A History of Siam in the Fourteenth and Fifteenth Centuries",
+          "author": "Charnvit Kasetsiri",
+          "note": "Oxford University Press, 1976"
+        },
+        {
+          "title": "The Royal Chronicles of Ayutthaya: A Synoptic Translation",
+          "author": "Richard D. Cushman (trans.), David K. Wyatt (ed.)",
+          "note": "Siam Society, 2000"
         },
         {
           "title": "Thailand: A Short History",
@@ -907,7 +1327,7 @@
           "note": "Portuguese accounts describe about 120 of them serving in a campaign of 1538, and a Portuguese settlement grew up at Ayutthaya."
         }
       ],
-      "hook": "A boy king sits on the throne, and his mother runs the country. She has taken a lover. The nobles are starting to whisper.",
+      "hook": "Chairacha is dead. His son Yotfa, about 11, is king, but his mother Si Sudachan holds the real power. She has taken a lover, and the nobles are starting to whisper.",
       "images": [
         {
           "file": "File:Portuguese settlement, Ayutthaya (1).jpg",
@@ -943,12 +1363,14 @@
       }
     },
     {
-      "id": "si-sudachan",
-      "kind": "interregnum",
-      "rulers": [],
-      "house": "suphannaphum",
-      "title": "The Regent and Her Lover",
-      "tagline": "A queen, a boy king, a lover and an ambush",
+      "id": "yotfa",
+      "kind": "monarch",
+      "rulers": [
+        "yotfa",
+        "si-sudachan"
+      ],
+      "title": "Yotfa & Si Sudachan",
+      "tagline": "A boy king, his mother and her new favourite",
       "start": {
         "date": "1546"
       },
@@ -956,15 +1378,15 @@
         "date": "1548"
       },
       "contestedWith": [],
-      "relationToPredecessor": "Chairacha's son and widow",
+      "relationToPredecessor": "Son and widow of Chairacha",
       "ageAtAccession": "Yotfa about 11",
-      "cameToPower": "Yotfa inherited; mother ruled",
-      "reignEnded": "Ambushed by nobles, 1548",
+      "cameToPower": "Son succeeded; mother as regent",
+      "reignEnded": "Boy king killed, 1548",
       "previously": "Chairacha dies on the road home from Chiang Mai.",
       "paragraphs": [
-        "Chairacha's son Yotfa was only about 11, so his mother, Si Sudachan, ran things as regent. According to the chronicles she fell for a minor palace official and promoted him fast. Soon he was handling the kingdom's business, and people who objected found themselves out of a job, or worse.",
-        "Then the boy king was killed and the lover was crowned as Worawongsathirat. For the nobles this was too much. A group of them, led by an official named Khun Phiren Thorathep, laid an ambush. When the royal couple went out by boat in 1548, they were cut down, about six weeks into the new reign.",
-        "The plotters needed a proper royal. They found one in a monastery: Prince Thianracha, a younger half-brother of Chairacha, who had been keeping his head down in monk's robes."
+        "Chairacha's son Yotfa was about 11 when his father died in 1546. A boy that age couldn't rule, so his mother, Si Sudachan, ran the kingdom as regent. She was clever and had no intention of being pushed aside by the old ministers.",
+        "The chronicles say she fell for Phan Butr Si Thep, a minor official who looked after one of the palace halls. She promoted him again and again, until he controlled the business of government. Nobles who complained were removed or killed. By the chronicles' account she was soon carrying his child.",
+        "In 1548 the boy king was killed. The chronicles say the couple ordered it so the lover could take the crown. Yotfa was about 13."
       ],
       "claims": [
         {
@@ -973,39 +1395,115 @@
           "note": "The chronicles tell it this way, but they were written by and for the winners, and a scheming queen makes a tidy villain."
         },
         {
-          "text": "She poisoned her husband Chairacha first.",
+          "text": "She had poisoned her husband Chairacha first.",
           "status": "disputed",
-          "note": "The poisoning comes from the Portuguese Fernão Mendes Pinto, not from the Thai chronicles."
+          "note": "The poisoning comes from the Portuguese writer Fernão Mendes Pinto, not from the Thai chronicles."
+        }
+      ],
+      "hook": "The boy is dead. His mother's lover is crowned as Worawongsathirat, and the nobles who have watched it all are done whispering. They start to plan.",
+      "images": [
+        {
+          "file": "File:King Kaeofa.jpg",
+          "url": "https://upload.wikimedia.org/wikipedia/commons/d/d3/King_Kaeofa.jpg",
+          "page": "https://commons.wikimedia.org/wiki/File:King_Kaeofa.jpg",
+          "credit": "FrameHotep",
+          "license": "CC BY-SA 4.0",
+          "made": "2023 (photo)",
+          "caption": "A modern replica of an imagined royal portrait of Yotfa at Wat Kaew Fa, Nonthaburi; no likeness from his lifetime survives.",
+          "alt": "Replica royal portrait of King Yotfa displayed at Wat Kaew Fa, Bang Kruai, Nonthaburi"
+        }
+      ],
+      "sources": [
+        {
+          "title": "The Royal Chronicles of Ayutthaya: A Synoptic Translation",
+          "author": "Richard D. Cushman (trans.), David K. Wyatt (ed.)",
+          "note": "Siam Society, 2000"
+        },
+        {
+          "title": "Peregrinação (The Travels)",
+          "author": "Fernão Mendes Pinto",
+          "note": "Published 1614; Portuguese account of the 1540s"
+        },
+        {
+          "title": "A History of Ayutthaya: Siam in the Early Modern World",
+          "author": "Chris Baker and Pasuk Phongpaichit",
+          "note": "Cambridge University Press, 2017"
+        }
+      ],
+      "review": {
+        "status": "draft",
+        "notes": "Drafted from the listed sources; needs a human fact-check."
+      }
+    },
+    {
+      "id": "worawongsathirat",
+      "kind": "monarch",
+      "rulers": [
+        "worawongsathirat"
+      ],
+      "tagline": "Forty-two days a king, then the ambush",
+      "start": {
+        "date": "1548"
+      },
+      "end": {
+        "date": "1548"
+      },
+      "contestedWith": [],
+      "relationToPredecessor": "Regent's lover; no royal blood",
+      "ageAtAccession": "Unknown",
+      "cameToPower": "Crowned after Yotfa's death",
+      "reignEnded": "Ambushed on the river, 1548",
+      "previously": "The boy king Yotfa is killed. His mother's lover takes the crown.",
+      "paragraphs": [
+        "Phan Butr Si Thep had gone from palace caretaker to king in about two years. As Worawongsathirat he moved his own people into the top jobs. To the old nobility he was a nobody who had climbed into the throne through the regent's bed.",
+        "A group of them, led by Khun Phiren Thorathep, set a trap. They sent word that a fine elephant had been caught, and the new king and Si Sudachan went out by boat to see it. The plotters were waiting in ambush. Both were cut down, with their little daughter. He had reigned about 42 days.",
+        "The chronicles don't count him in the official list of Ayutthaya kings. The nobles fetched Prince Thianracha, Chairacha's half-brother, out of the monkhood to be king."
+      ],
+      "claims": [
+        {
+          "text": "The nobles lured the couple out with news of a captured elephant.",
+          "status": "legend",
+          "note": "The chronicles' story; it is detailed and vivid, and there is no outside witness to check it against."
+        },
+        {
+          "text": "Worawongsathirat and Si Sudachan stood for the old Uthong family against the Suphanburi line.",
+          "status": "disputed",
+          "note": "A theory some modern historians have put forward to explain the coup; the chronicles present it as a love affair."
+        },
+        {
+          "text": "He is left off the official list of Ayutthaya kings.",
+          "status": "confirmed",
+          "note": "Standard Thai king lists skip him as a usurper, though they keep other kings who seized power."
         }
       ],
       "hook": "The usurper and the queen are dead. A prince steps out of a monastery to be crowned. He has no idea that the greatest army in Burma is already heading his way.",
       "images": [
         {
-          "file": "File:ศาลนางพระยาแม่อยู่หัวศรีสุดาจันทร์ วัดแร้ง(ร้าง).jpg",
-          "url": "https://upload.wikimedia.org/wikipedia/commons/f/f4/%E0%B8%A8%E0%B8%B2%E0%B8%A5%E0%B8%99%E0%B8%B2%E0%B8%87%E0%B8%9E%E0%B8%A3%E0%B8%B0%E0%B8%A2%E0%B8%B2%E0%B9%81%E0%B8%A1%E0%B9%88%E0%B8%AD%E0%B8%A2%E0%B8%B9%E0%B9%88%E0%B8%AB%E0%B8%B1%E0%B8%A7%E0%B8%A8%E0%B8%A3%E0%B8%B5%E0%B8%AA%E0%B8%B8%E0%B8%94%E0%B8%B2%E0%B8%88%E0%B8%B1%E0%B8%99%E0%B8%97%E0%B8%A3%E0%B9%8C_%E0%B8%A7%E0%B8%B1%E0%B8%94%E0%B9%81%E0%B8%A3%E0%B9%89%E0%B8%87%28%E0%B8%A3%E0%B9%89%E0%B8%B2%E0%B8%87%29.jpg",
-          "page": "https://commons.wikimedia.org/wiki/File:%E0%B8%A8%E0%B8%B2%E0%B8%A5%E0%B8%99%E0%B8%B2%E0%B8%87%E0%B8%9E%E0%B8%A3%E0%B8%B0%E0%B8%A2%E0%B8%B2%E0%B9%81%E0%B8%A1%E0%B9%88%E0%B8%AD%E0%B8%A2%E0%B8%B9%E0%B9%88%E0%B8%AB%E0%B8%B1%E0%B8%A7%E0%B8%A8%E0%B8%A3%E0%B8%B5%E0%B8%AA%E0%B8%B8%E0%B8%94%E0%B8%B2%E0%B8%88%E0%B8%B1%E0%B8%99%E0%B8%97%E0%B8%A3%E0%B9%8C_%E0%B8%A7%E0%B8%B1%E0%B8%94%E0%B9%81%E0%B8%A3%E0%B9%89%E0%B8%87(%E0%B8%A3%E0%B9%89%E0%B8%B2%E0%B8%87).jpg",
-          "credit": "FrameHotep",
-          "license": "CC BY 4.0",
-          "made": "2024 (photo)",
-          "caption": "A modern image of Si Sudachan in a shrine at the ruined Wat Raeng in Ayutthaya; no portrait from her lifetime exists.",
-          "alt": "Figure of a queen inside a small shrine at the ruins of Wat Raeng, Ayutthaya"
+          "file": "File:เพนียดคล้องช้าง 2012-1.jpg",
+          "url": "https://upload.wikimedia.org/wikipedia/commons/5/58/%E0%B9%80%E0%B8%9E%E0%B8%99%E0%B8%B5%E0%B8%A2%E0%B8%94%E0%B8%84%E0%B8%A5%E0%B9%89%E0%B8%AD%E0%B8%87%E0%B8%8A%E0%B9%89%E0%B8%B2%E0%B8%87_2012-1.jpg",
+          "page": "https://commons.wikimedia.org/wiki/File:%E0%B9%80%E0%B8%9E%E0%B8%99%E0%B8%B5%E0%B8%A2%E0%B8%94%E0%B8%84%E0%B8%A5%E0%B9%89%E0%B8%AD%E0%B8%87%E0%B8%8A%E0%B9%89%E0%B8%B2%E0%B8%87_2012-1.jpg",
+          "credit": "E20QS",
+          "license": "CC BY-SA 4.0",
+          "made": "2010 (photo)",
+          "caption": "The royal elephant kraal at Ayutthaya, where wild elephants were rounded up; the stockade seen today was rebuilt long after 1548.",
+          "alt": "The wooden stockade of the elephant kraal (Phaniat) at Ayutthaya"
         }
       ],
       "sources": [
         {
-          "title": "The Royal Chronicles of Ayutthaya",
+          "title": "The Royal Chronicles of Ayutthaya: A Synoptic Translation",
           "author": "Richard D. Cushman (trans.), David K. Wyatt (ed.)",
-          "note": "Siam Society, 2000; parallel translation of the main chronicle versions"
+          "note": "Siam Society, 2000"
         },
         {
-          "title": "Peregrinação (The Travels)",
-          "author": "Fernão Mendes Pinto",
-          "note": "Published 1614; Portuguese eyewitness-style account of the 1540s"
+          "title": "Van Vliet's Siam",
+          "author": "Jeremias van Vliet; ed. Chris Baker, Dhiravat na Pombejra, Alfons van der Kraan and David K. Wyatt",
+          "note": "Silkworm Books, 2005; Dutch accounts of the 1630s"
         },
         {
-          "title": "The Short History of the Kings of Siam",
-          "author": "Jeremias van Vliet",
-          "note": "Written 1640; trans. Leonard Andaya, ed. David K. Wyatt, Siam Society, 1975"
+          "title": "A History of Ayutthaya: Siam in the Early Modern World",
+          "author": "Chris Baker and Pasuk Phongpaichit",
+          "note": "Cambridge University Press, 2017"
         }
       ],
       "review": {
@@ -1365,7 +1863,7 @@
           "note": "The story is in the Thai chronicles only, and the versions disagree on what he did wrong."
         }
       ],
-      "hook": "The throne is up for grabs. Over the next twenty years kings come and go fast, and a band of Japanese swordsmen in the palace becomes a power in its own right.",
+      "hook": "Ekathotsarot is dead and his chosen heir is gone. His son Si Saowaphak grabs the throne, but kings will come and go fast now, and a band of Japanese swordsmen in the palace is a power of its own.",
       "images": [
         {
           "file": "File:Ekatotsarotwpamok06.jpg",
@@ -1401,53 +1899,53 @@
       }
     },
     {
-      "id": "japanese-guard",
-      "kind": "interregnum",
-      "rulers": [],
-      "house": "sukhothai",
-      "title": "Samurai at Court",
-      "tagline": "Four kings, a holy footprint and a samurai captain",
+      "id": "si-saowaphak",
+      "kind": "monarch",
+      "rulers": [
+        "si-saowaphak"
+      ],
+      "tagline": "A king nobody chose, gone within the year",
       "start": {
         "date": "1610",
         "circa": true
       },
       "end": {
-        "date": "1629"
+        "date": "1611",
+        "circa": true
       },
       "contestedWith": [],
-      "relationToPredecessor": "Ekathotsarot's sons and grandsons",
-      "ageAtAccession": "No single king",
-      "cameToPower": "Brief reigns, then a long one",
-      "reignEnded": "Last boy king pushed aside",
+      "relationToPredecessor": "Son of Ekathotsarot",
+      "ageAtAccession": "Unknown",
+      "cameToPower": "Took the throne on father's death",
+      "reignEnded": "Killed in a palace coup",
       "previously": "Ekathotsarot dies with his heir already dead. Who's next?",
       "paragraphs": [
-        "First came Si Saowaphak, Ekathotsarot's son, who lasted barely a year before he was killed in 1611. The winner was Songtham, \"the Righteous\", a royal son who had spent years as a monk. He reigned from 1611 to 1628, and his reign was mostly calm. Hunters found a giant footprint in the rock near Saraburi, and Songtham hailed it as the Buddha's own. It's still one of Thailand's holiest shrines.",
-        "Trade boomed with the Dutch and with Japan. A Japanese captain named Yamada Nagamasa rose to command the king's Japanese guard and won a Siamese noble title. Foreign fighters with their own leader, right inside the palace, made everyone nervous.",
-        "When Songtham died in 1628, his teenage son Chetthathirat took the throne. Within months the powerful minister Phraya Kalahom had him killed. Then he put the boy Athittayawong, about ten, on the throne, and soon pushed him off too. In 1629 the minister crowned himself."
+        "Ekathotsarot's chosen heir, Prince Suthat, was dead before his father. That left the king's second son, Si Saowaphak, who had never been groomed for the job. When Ekathotsarot died around 1610, Si Saowaphak took the throne anyway. The chronicles count him as Sanphet IV.",
+        "He had little time and few friends. Within about a year a palace coup brought him down. Its leader was a royal half-brother who had spent years as a monk and scholar of the Buddhist scriptures. Si Saowaphak was killed, and the former monk became King Songtham."
       ],
       "claims": [
         {
-          "text": "The footprint at Saraburi was found by a hunter chasing a wounded deer.",
-          "status": "legend",
-          "note": "A popular story told about the find. The chronicles record the discovery and Songtham's shrine, but the hunting tale varies."
+          "text": "Si Saowaphak was overthrown and killed by his half-brother, the future Songtham.",
+          "status": "disputed",
+          "note": "The Dutch writer Van Vliet and the Thai chronicles tell the coup differently, and they disagree on who did what."
         },
         {
-          "text": "Yamada Nagamasa commanded Siam's Japanese volunteers and held a high Siamese rank.",
+          "text": "Ekathotsarot's heir Suthat died before his father.",
           "status": "confirmed",
-          "note": "Dutch records, including Jeremias van Vliet, and Japanese sources both mention him."
+          "note": "All the chronicle versions agree he died first; how he died is the disputed part."
         }
       ],
-      "hook": "The minister who cleared the way is now king. He takes the name Prasat Thong, and the samurai captain who once helped him is suddenly a problem.",
+      "hook": "A monk who knew the scriptures by heart now wears the crown. King Songtham will rule for seventeen years, with a samurai captain at his side.",
       "images": [
         {
-          "file": "File:Yamada-Nagamasa-Portrait-Shizuoka-Sengen-Shrine.png",
-          "url": "https://upload.wikimedia.org/wikipedia/commons/f/f0/Yamada-Nagamasa-Portrait-Shizuoka-Sengen-Shrine.png",
-          "page": "https://commons.wikimedia.org/wiki/File:Yamada-Nagamasa-Portrait-Shizuoka-Sengen-Shrine.png",
-          "credit": "Unknown artist",
-          "license": "Public domain",
-          "made": "19th century",
-          "caption": "Yamada Nagamasa, painted in Japan around two centuries after his death, possibly copying an older image.",
-          "alt": "Japanese painted portrait of Yamada Nagamasa, from the Shizuoka Sengen Shrine collection"
+          "file": "File:View of Iudea (Ayutthaya), Capital of Siam ca. 1662 (SK-A-4477).jpg",
+          "url": "https://upload.wikimedia.org/wikipedia/commons/5/5f/View_of_Iudea_%28Ayutthaya%29%2C_Capital_of_Siam_ca._1662_%28SK-A-4477%29.jpg",
+          "page": "https://commons.wikimedia.org/wiki/File:View_of_Iudea_(Ayutthaya),_Capital_of_Siam_ca._1662_(SK-A-4477).jpg",
+          "credit": "Johannes Vingboons",
+          "license": "CC0",
+          "made": "c. 1662",
+          "caption": "Ayutthaya as a Dutch artist painted it around 1662, about fifty years after Si Saowaphak; no portrait of him exists.",
+          "alt": "Dutch bird's-eye painting of the walled city of Ayutthaya with its river, temples and towers"
         }
       ],
       "sources": [
@@ -1460,6 +1958,225 @@
           "title": "Van Vliet's Siam",
           "author": "Jeremias van Vliet; ed. Chris Baker, Dhiravat na Pombejra, Alfons van der Kraan and David K. Wyatt",
           "note": "Silkworm Books, 2005; Dutch accounts of the 1630s"
+        },
+        {
+          "title": "A History of Ayutthaya: Siam in the Early Modern World",
+          "author": "Chris Baker and Pasuk Phongpaichit",
+          "note": "Cambridge University Press, 2017"
+        }
+      ],
+      "review": {
+        "status": "draft",
+        "notes": "Drafted from the listed sources; needs a human fact-check."
+      }
+    },
+    {
+      "id": "songtham",
+      "kind": "monarch",
+      "rulers": [
+        "songtham"
+      ],
+      "tagline": "The scholar monk who found the Buddha's footprint",
+      "start": {
+        "date": "1611",
+        "circa": true
+      },
+      "end": {
+        "date": "1628-12"
+      },
+      "contestedWith": [],
+      "relationToPredecessor": "Half-brother of Si Saowaphak",
+      "ageAtAccession": "Unknown",
+      "cameToPower": "Palace coup",
+      "reignEnded": "Died in Ayutthaya",
+      "previously": "Si Saowaphak is killed. A former monk takes the throne.",
+      "paragraphs": [
+        "Songtham means \"the Righteous\", and he earned the name. He had been a monk and a serious student of the scriptures, and he was also known as Intharacha. As king he kept up his religious interests. Early in his reign, word came that hunters had found a giant footprint in the rock near Saraburi. Songtham hailed it as the Buddha's own and built a shrine over it. It's still one of Thailand's holiest places.",
+        "The money came from trade. The Dutch East India Company had a trading post in Ayutthaya, and Japanese ships came every year. Japanese fighters served as royal guards, and one captain, Yamada Nagamasa, rose to high Siamese rank. Japanese soldiers also rioted at the start of the reign, a reminder of how much muscle they had.",
+        "Songtham died in December 1628. His minister Phraya Si Worawong made sure the crown went to the king's son and not to his brother."
+      ],
+      "claims": [
+        {
+          "text": "The footprint at Saraburi was found by a hunter chasing a wounded deer.",
+          "status": "legend",
+          "note": "A popular story told about the find. The chronicles record the discovery and Songtham's shrine, but the hunting tale varies."
+        },
+        {
+          "text": "Yamada Nagamasa commanded Siam's Japanese volunteers and held a high Siamese rank.",
+          "status": "confirmed",
+          "note": "Dutch records, including Jeremias van Vliet, and Japanese sources both mention him."
+        },
+        {
+          "text": "Japanese soldiers rioted and threatened the palace when Songtham took power.",
+          "status": "disputed",
+          "note": "Van Vliet and later chronicles mention trouble with the Japanese, but their details differ."
+        }
+      ],
+      "hook": "Songtham is dead. His teenage son Chetthathirat is king, thanks to one ambitious minister. That minister is about to send in the bill.",
+      "images": [
+        {
+          "file": "File:King Songtham.jpg",
+          "url": "https://upload.wikimedia.org/wikipedia/commons/3/3f/King_Songtham.jpg",
+          "page": "https://commons.wikimedia.org/wiki/File:King_Songtham.jpg",
+          "credit": "FrameHotep",
+          "license": "CC BY-SA 4.0",
+          "made": "2022 (photo)",
+          "caption": "A modern royal image of Songtham at his shrine in Phra Phutthabat, Saraburi, near the footprint he made famous; no portrait from his lifetime exists.",
+          "alt": "Royal image of King Songtham at the King Songtham shrine, Phra Phutthabat, Saraburi"
+        }
+      ],
+      "sources": [
+        {
+          "title": "The Royal Chronicles of Ayutthaya: A Synoptic Translation",
+          "author": "Richard D. Cushman (trans.), David K. Wyatt (ed.)",
+          "note": "Siam Society, 2000"
+        },
+        {
+          "title": "Van Vliet's Siam",
+          "author": "Jeremias van Vliet; ed. Chris Baker, Dhiravat na Pombejra, Alfons van der Kraan and David K. Wyatt",
+          "note": "Silkworm Books, 2005; Dutch accounts of the 1630s"
+        },
+        {
+          "title": "A History of Ayutthaya: Siam in the Early Modern World",
+          "author": "Chris Baker and Pasuk Phongpaichit",
+          "note": "Cambridge University Press, 2017"
+        }
+      ],
+      "review": {
+        "status": "draft",
+        "notes": "Drafted from the listed sources; needs a human fact-check."
+      }
+    },
+    {
+      "id": "chetthathirat",
+      "kind": "monarch",
+      "rulers": [
+        "chetthathirat"
+      ],
+      "tagline": "The teenager his kingmaker turned on",
+      "start": {
+        "date": "1628-12"
+      },
+      "end": {
+        "date": "1629",
+        "circa": true
+      },
+      "contestedWith": [],
+      "relationToPredecessor": "Son of Songtham",
+      "ageAtAccession": "About 15",
+      "cameToPower": "Backed by Phraya Si Worawong",
+      "reignEnded": "Deposed and executed",
+      "previously": "Songtham dies. A minister puts his teenage son on the throne.",
+      "paragraphs": [
+        "Chetthathirat was about 15 and owed everything to Phraya Si Worawong. The minister first dealt with the rival claimant, Songtham's brother Phra Si Sin, who was caught and killed. Yamada Nagamasa's Japanese backed the minister. As a reward Si Worawong became Phraya Kalahom, the minister for war.",
+        "The young king soon worried about the man who had made him. Van Vliet says crowds of nobles went to the Kalahom's house for a family funeral and left the palace nearly empty. Whatever the spark, the Kalahom struck first. After about eight months on the throne Chetthathirat was deposed and put to death."
+      ],
+      "claims": [
+        {
+          "text": "A funeral at the Kalahom's house, crowded with nobles, turned the king against him.",
+          "status": "disputed",
+          "note": "This comes from the Dutch merchant Jeremias van Vliet, writing a few years later; the Thai chronicles tell it differently."
+        },
+        {
+          "text": "Yamada Nagamasa's Japanese backed Si Worawong in his rise.",
+          "status": "confirmed",
+          "note": "Van Vliet and other Dutch records describe Yamada's support at this time."
+        }
+      ],
+      "hook": "One boy king down. The Kalahom isn't ready to sit on the throne himself, so he picks another: Chetthathirat's little brother, Athittayawong, about ten years old.",
+      "images": [
+        {
+          "file": "File:โคลงภาพพระราชพงศาวดาร ภาพที่ 41 ภาพเจ้าพระยากระลาโหมเป็นขบถ.png",
+          "url": "https://upload.wikimedia.org/wikipedia/commons/5/5c/%E0%B9%82%E0%B8%84%E0%B8%A5%E0%B8%87%E0%B8%A0%E0%B8%B2%E0%B8%9E%E0%B8%9E%E0%B8%A3%E0%B8%B0%E0%B8%A3%E0%B8%B2%E0%B8%8A%E0%B8%9E%E0%B8%87%E0%B8%A8%E0%B8%B2%E0%B8%A7%E0%B8%94%E0%B8%B2%E0%B8%A3_%E0%B8%A0%E0%B8%B2%E0%B8%9E%E0%B8%97%E0%B8%B5%E0%B9%88_41_%E0%B8%A0%E0%B8%B2%E0%B8%9E%E0%B9%80%E0%B8%88%E0%B9%89%E0%B8%B2%E0%B8%9E%E0%B8%A3%E0%B8%B0%E0%B8%A2%E0%B8%B2%E0%B8%81%E0%B8%A3%E0%B8%B0%E0%B8%A5%E0%B8%B2%E0%B9%82%E0%B8%AB%E0%B8%A1%E0%B9%80%E0%B8%9B%E0%B9%87%E0%B8%99%E0%B8%82%E0%B8%9A%E0%B8%96.png",
+          "page": "https://commons.wikimedia.org/wiki/File:%E0%B9%82%E0%B8%84%E0%B8%A5%E0%B8%87%E0%B8%A0%E0%B8%B2%E0%B8%9E%E0%B8%9E%E0%B8%A3%E0%B8%B0%E0%B8%A3%E0%B8%B2%E0%B8%8A%E0%B8%9E%E0%B8%87%E0%B8%A8%E0%B8%B2%E0%B8%A7%E0%B8%94%E0%B8%B2%E0%B8%A3_%E0%B8%A0%E0%B8%B2%E0%B8%9E%E0%B8%97%E0%B8%B5%E0%B9%88_41_%E0%B8%A0%E0%B8%B2%E0%B8%9E%E0%B9%80%E0%B8%88%E0%B9%89%E0%B8%B2%E0%B8%9E%E0%B8%A3%E0%B8%B0%E0%B8%A2%E0%B8%B2%E0%B8%81%E0%B8%A3%E0%B8%B0%E0%B8%A5%E0%B8%B2%E0%B9%82%E0%B8%AB%E0%B8%A1%E0%B9%80%E0%B8%9B%E0%B9%87%E0%B8%99%E0%B8%82%E0%B8%9A%E0%B8%96.png",
+          "credit": "Unknown Thai artist",
+          "license": "Public domain",
+          "made": "1887",
+          "caption": "\"The Kalahom rebels\", one of a series of chronicle paintings made in 1887, more than 250 years after Chetthathirat's fall.",
+          "alt": "Thai painting from the 1887 illustrated royal chronicle series showing the rebellion of Chao Phraya Kalahom in the reign of Chetthathirat"
+        }
+      ],
+      "sources": [
+        {
+          "title": "Van Vliet's Siam",
+          "author": "Jeremias van Vliet; ed. Chris Baker, Dhiravat na Pombejra, Alfons van der Kraan and David K. Wyatt",
+          "note": "Silkworm Books, 2005; Dutch accounts of the 1630s"
+        },
+        {
+          "title": "The Royal Chronicles of Ayutthaya: A Synoptic Translation",
+          "author": "Richard D. Cushman (trans.), David K. Wyatt (ed.)",
+          "note": "Siam Society, 2000"
+        },
+        {
+          "title": "A History of Ayutthaya: Siam in the Early Modern World",
+          "author": "Chris Baker and Pasuk Phongpaichit",
+          "note": "Cambridge University Press, 2017"
+        }
+      ],
+      "review": {
+        "status": "draft",
+        "notes": "Drafted from the listed sources; needs a human fact-check."
+      }
+    },
+    {
+      "id": "athittayawong",
+      "kind": "monarch",
+      "rulers": [
+        "athittayawong"
+      ],
+      "tagline": "A ten-year-old king for about five weeks",
+      "start": {
+        "date": "1629"
+      },
+      "end": {
+        "date": "1629"
+      },
+      "contestedWith": [],
+      "relationToPredecessor": "Younger brother of Chetthathirat",
+      "ageAtAccession": "About 10",
+      "cameToPower": "Put on the throne by the Kalahom",
+      "reignEnded": "Set aside after about 36 days",
+      "previously": "The Kalahom deposes and kills the teenage King Chetthathirat.",
+      "paragraphs": [
+        "Athittayawong was Songtham's younger son, about ten years old, and he was king because the Kalahom said so. He was a placeholder while the minister decided how to take the crown for himself.",
+        "It didn't take long. After about 36 days the court agreed that a child this young couldn't rule, and asked the Kalahom to take the throne. He accepted and was crowned as Prasat Thong. It is one of the shortest reigns in Ayutthaya's history, and with it the line of Naresuan's family came to an end.",
+        "The boy was spared for the time being and lived quietly. Years later he was caught up in a plot and executed."
+      ],
+      "claims": [
+        {
+          "text": "The court deposed Athittayawong because he was too young and too fond of play.",
+          "status": "disputed",
+          "note": "The chronicles and Van Vliet give this reason; the real one was clearly the Kalahom's ambition."
+        },
+        {
+          "text": "He was executed in 1637 after being linked to a plot.",
+          "status": "disputed",
+          "note": "The date and details vary between the chronicle versions and the Dutch accounts."
+        }
+      ],
+      "hook": "The minister who cleared the way is now king. He takes the name Prasat Thong, and the samurai captain who once helped him is suddenly a problem.",
+      "images": [
+        {
+          "file": "File:Army-of-Yamada-Nagamasa-in-Ayutthaya-Kingdom.png",
+          "url": "https://upload.wikimedia.org/wikipedia/commons/d/d2/Army-of-Yamada-Nagamasa-in-Ayutthaya-Kingdom.png",
+          "page": "https://commons.wikimedia.org/wiki/File:Army-of-Yamada-Nagamasa-in-Ayutthaya-Kingdom.png",
+          "credit": "Unknown artist",
+          "license": "Public domain",
+          "made": "18th-century copy of a c. 1627 original",
+          "caption": "Yamada Nagamasa's Japanese troops in Siam, the force that helped the Kalahom to power; a later copy of a painting from about 1627. No image of the boy king exists.",
+          "alt": "Painting of the Japanese volunteer army of Yamada Nagamasa in the Ayutthaya Kingdom"
+        }
+      ],
+      "sources": [
+        {
+          "title": "Van Vliet's Siam",
+          "author": "Jeremias van Vliet; ed. Chris Baker, Dhiravat na Pombejra, Alfons van der Kraan and David K. Wyatt",
+          "note": "Silkworm Books, 2005; Dutch accounts of the 1630s"
+        },
+        {
+          "title": "The Royal Chronicles of Ayutthaya: A Synoptic Translation",
+          "author": "Richard D. Cushman (trans.), David K. Wyatt (ed.)",
+          "note": "Siam Society, 2000"
         },
         {
           "title": "A History of Ayutthaya: Siam in the Early Modern World",
@@ -1665,7 +2382,7 @@
           "note": "An old idea. Historians now point out that trade with the Dutch and others went on; it was the French alliance that ended."
         }
       ],
-      "hook": "Phetracha is gone. His fearsome son Sorasak takes the throne, and Ayutthaya is about to meet a king so fierce they called him the Tiger.",
+      "hook": "Phetracha is gone. His fearsome son Luang Sorasak takes the throne as Suriyenthrathibodi, and Ayutthaya is about to meet a king so fierce they called him the Tiger.",
       "images": [
         {
           "file": "File:PITERA TJAY Rex Siam by Gaspar Bouttat 1690.jpg",
@@ -1705,28 +2422,29 @@
       }
     },
     {
-      "id": "tiger-king",
-      "kind": "interregnum",
-      "rulers": [],
-      "house": "ban-phlu-luang",
-      "title": "The Tiger King and His Son",
-      "tagline": "A fierce father, a quiet son and a war over the crown",
+      "id": "suriyenthrathibodi",
+      "kind": "monarch",
+      "rulers": [
+        "suriyenthrathibodi"
+      ],
+      "tagline": "So fierce they called him the Tiger",
       "start": {
         "date": "1703-02-05"
       },
       "end": {
-        "date": "1733"
+        "date": "1709",
+        "circa": true
       },
       "contestedWith": [],
-      "relationToPredecessor": "Phetracha's son and grandson",
-      "ageAtAccession": "No single king",
-      "cameToPower": "Father then son",
-      "reignEnded": "Succession war in 1733",
+      "relationToPredecessor": "Son of Phetracha (or of Narai)",
+      "ageAtAccession": "About 42",
+      "cameToPower": "Succeeded his father",
+      "reignEnded": "Died in Ayutthaya",
       "previously": "Phetracha dies. Luang Sorasak, the power behind him, steps forward.",
       "paragraphs": [
-        "Sorasak took the throne in 1703 as Suriyenthrathibodi, but everyone called him Sua, \"the Tiger\". The chronicles say he had a terrible temper and a huge appetite for fishing, drinking and fun. One famous tale has him slipping out in disguise to box at village fairs.",
-        "Another tells of his steersman, Phanthai Norasing, who broke the prow of the royal barge on a twisting canal. The law said death. The king offered a pardon, and Phanthai insisted on being executed anyway. A canal was later dug to cut out that bend. Sua died in 1709.",
-        "His son Thai Sa reigned from 1709 to 1733. It was a peaceful time, with Siamese rice shipped to China in large amounts. But when Thai Sa died in 1733, his brother, the deputy king, fought Thai Sa's own sons for the throne. The palace ran with blood, and the brother won."
+        "Luang Sorasak had been the muscle behind his father's revolution in 1688, and nobody in Ayutthaya doubted who would follow Phetracha. He was crowned in 1703 as Suriyenthrathibodi. Everyone called him Phra Chao Suea, \"the Tiger King\", for his ferocious temper.",
+        "The chronicles make him a wild man who loved fishing, drinking and fighting. One story has him slipping out in disguise to box at village fairs. Another tells of his steersman, Phanthai Norasing, who broke the prow of the royal barge on a twisting canal. The law said death. The king offered a pardon, and Phanthai insisted on being executed anyway. A canal was later dug to cut out the bend.",
+        "The Tiger died around 1709, and his elder son Prince Phet took the throne."
       ],
       "claims": [
         {
@@ -1740,22 +2458,94 @@
           "note": "Told in the chronicles and still honoured at a shrine in Samut Sakhon; there's no contemporary record."
         },
         {
-          "text": "Sua was Narai's son by a secret liaison.",
+          "text": "Sorasak was really Narai's son by a secret liaison.",
           "status": "disputed",
           "note": "Some chronicle versions claim it; others make him Phetracha's son. It can't be checked."
         }
       ],
-      "hook": "The war of 1733 is over. The victor, Thai Sa's brother, takes the name Borommakot. Ayutthaya's last golden age is about to begin.",
+      "hook": "The Tiger is dead. His son Prince Phet, remembered as Thai Sa, inherits a calmer kingdom and a brother with his own ideas about the future.",
       "images": [
         {
-          "file": "File:รูปหล่อ พันท้ายนรสิงห์ Statue of Phanthai Norasing.JPG",
-          "url": "https://upload.wikimedia.org/wikipedia/commons/6/6c/%E0%B8%A3%E0%B8%B9%E0%B8%9B%E0%B8%AB%E0%B8%A5%E0%B9%88%E0%B8%AD_%E0%B8%9E%E0%B8%B1%E0%B8%99%E0%B8%97%E0%B9%89%E0%B8%B2%E0%B8%A2%E0%B8%99%E0%B8%A3%E0%B8%AA%E0%B8%B4%E0%B8%87%E0%B8%AB%E0%B9%8C_Statue_of_Phanthai_Norasing.JPG",
-          "page": "https://commons.wikimedia.org/wiki/File:%E0%B8%A3%E0%B8%B9%E0%B8%9B%E0%B8%AB%E0%B8%A5%E0%B9%88%E0%B8%AD_%E0%B8%9E%E0%B8%B1%E0%B8%99%E0%B8%97%E0%B9%89%E0%B8%B2%E0%B8%A2%E0%B8%99%E0%B8%A3%E0%B8%AA%E0%B8%B4%E0%B8%87%E0%B8%AB%E0%B9%8C_Statue_of_Phanthai_Norasing.JPG",
-          "credit": "กสิณธร ราชโอรส",
-          "license": "CC BY-SA 3.0",
-          "made": "2014 (photo)",
-          "caption": "A modern statue of the steersman Phanthai Norasing at his shrine; no images of King Sua or Thai Sa survive.",
-          "alt": "Statue of Phanthai Norasing at his shrine"
+          "file": "File:จิตรกรรมประกอบโคลงภาพพระราชพงศาวดาร ตอน พันท้ายนรสิงห์ถวายชีวิต.png",
+          "url": "https://upload.wikimedia.org/wikipedia/commons/e/e3/%E0%B8%88%E0%B8%B4%E0%B8%95%E0%B8%A3%E0%B8%81%E0%B8%A3%E0%B8%A3%E0%B8%A1%E0%B8%9B%E0%B8%A3%E0%B8%B0%E0%B8%81%E0%B8%AD%E0%B8%9A%E0%B9%82%E0%B8%84%E0%B8%A5%E0%B8%87%E0%B8%A0%E0%B8%B2%E0%B8%9E%E0%B8%9E%E0%B8%A3%E0%B8%B0%E0%B8%A3%E0%B8%B2%E0%B8%8A%E0%B8%9E%E0%B8%87%E0%B8%A8%E0%B8%B2%E0%B8%A7%E0%B8%94%E0%B8%B2%E0%B8%A3_%E0%B8%95%E0%B8%AD%E0%B8%99_%E0%B8%9E%E0%B8%B1%E0%B8%99%E0%B8%97%E0%B9%89%E0%B8%B2%E0%B8%A2%E0%B8%99%E0%B8%A3%E0%B8%AA%E0%B8%B4%E0%B8%87%E0%B8%AB%E0%B9%8C%E0%B8%96%E0%B8%A7%E0%B8%B2%E0%B8%A2%E0%B8%8A%E0%B8%B5%E0%B8%A7%E0%B8%B4%E0%B8%95.png",
+          "page": "https://commons.wikimedia.org/wiki/File:%E0%B8%88%E0%B8%B4%E0%B8%95%E0%B8%A3%E0%B8%81%E0%B8%A3%E0%B8%A3%E0%B8%A1%E0%B8%9B%E0%B8%A3%E0%B8%B0%E0%B8%81%E0%B8%AD%E0%B8%9A%E0%B9%82%E0%B8%84%E0%B8%A5%E0%B8%87%E0%B8%A0%E0%B8%B2%E0%B8%9E%E0%B8%9E%E0%B8%A3%E0%B8%B0%E0%B8%A3%E0%B8%B2%E0%B8%8A%E0%B8%9E%E0%B8%87%E0%B8%A8%E0%B8%B2%E0%B8%A7%E0%B8%94%E0%B8%B2%E0%B8%A3_%E0%B8%95%E0%B8%AD%E0%B8%99_%E0%B8%9E%E0%B8%B1%E0%B8%99%E0%B8%97%E0%B9%89%E0%B8%B2%E0%B8%A2%E0%B8%99%E0%B8%A3%E0%B8%AA%E0%B8%B4%E0%B8%87%E0%B8%AB%E0%B9%8C%E0%B8%96%E0%B8%A7%E0%B8%B2%E0%B8%A2%E0%B8%8A%E0%B8%B5%E0%B8%A7%E0%B8%B4%E0%B8%95.png",
+          "credit": "Phra Wanwatwichit (Thong Charuwichit)",
+          "license": "Public domain",
+          "made": "1887",
+          "caption": "The steersman Phanthai Norasing offering his life to the Tiger King, painted in 1887 for an illustrated royal chronicle, nearly 180 years later.",
+          "alt": "Thai painting of a royal barge scene in which the steersman Phanthai Norasing kneels before King Suea"
+        }
+      ],
+      "sources": [
+        {
+          "title": "The Royal Chronicles of Ayutthaya: A Synoptic Translation",
+          "author": "Richard D. Cushman (trans.), David K. Wyatt (ed.)",
+          "note": "Siam Society, 2000"
+        },
+        {
+          "title": "A History of Ayutthaya: Siam in the Early Modern World",
+          "author": "Chris Baker and Pasuk Phongpaichit",
+          "note": "Cambridge University Press, 2017"
+        },
+        {
+          "title": "Thailand: A Short History",
+          "author": "David K. Wyatt",
+          "note": "Yale University Press, 1984; 2nd ed. 2003"
+        }
+      ],
+      "review": {
+        "status": "draft",
+        "notes": "Drafted from the listed sources; needs a human fact-check."
+      }
+    },
+    {
+      "id": "thai-sa",
+      "kind": "monarch",
+      "rulers": [
+        "thai-sa"
+      ],
+      "tagline": "A quiet king, a full rice trade and a bloody exit",
+      "start": {
+        "date": "1709",
+        "circa": true
+      },
+      "end": {
+        "date": "1733"
+      },
+      "contestedWith": [],
+      "relationToPredecessor": "Elder son of Suriyenthrathibodi",
+      "ageAtAccession": "Unknown",
+      "cameToPower": "Succeeded his father",
+      "reignEnded": "Died; succession war followed",
+      "previously": "The Tiger King dies, and his son Prince Phet takes the throne.",
+      "paragraphs": [
+        "Prince Phet is remembered as Thai Sa, \"end of the pond\", after the palace by a pool where he liked to stay. Like his father he loved fishing. Unlike his father, he ran a mostly calm court.",
+        "It was a good time for trade. Siamese junks carried rice to southern China, where the Qing emperor welcomed it during shortages. Thai Sa also sent armies into Cambodia to back his own candidate for its throne against one supported by the Vietnamese.",
+        "His mistake was the succession. He wanted his son Prince Aphai to follow him, but his brother Prince Phon held the Front Palace, the post of deputy king. When Thai Sa died in January 1733, the two sides fought it out in the streets of Ayutthaya, and the brother won."
+      ],
+      "claims": [
+        {
+          "text": "The Qing emperor encouraged Siamese rice shipments to China in the 1720s.",
+          "status": "confirmed",
+          "note": "Qing court records note the Kangxi emperor's welcome for Siamese rice in 1722, and the trade grew after."
+        },
+        {
+          "text": "Thai Sa was named after the pond-side palace where he liked to fish.",
+          "status": "confirmed",
+          "note": "The name comes from the chronicles and is the standard explanation; it was not his official royal title."
+        }
+      ],
+      "hook": "Thai Sa is dead and his son and his brother are at war over the throne. When the smoke clears, the brother is king as Borommakot, and Ayutthaya's last golden age begins.",
+      "images": [
+        {
+          "file": "File:Ang Thong - Pa Mok (2024) - King Si Sanphet IX (King Thai Sa) statue Wat Pa Mok พระเจ้าอยู่หัวท้ายสระ วัดป่าโมก - img 04.jpg",
+          "url": "https://upload.wikimedia.org/wikipedia/commons/d/df/Ang_Thong_-_Pa_Mok_%282024%29_-_King_Si_Sanphet_IX_%28King_Thai_Sa%29_statue_Wat_Pa_Mok_%E0%B8%9E%E0%B8%A3%E0%B8%B0%E0%B9%80%E0%B8%88%E0%B9%89%E0%B8%B2%E0%B8%AD%E0%B8%A2%E0%B8%B9%E0%B9%88%E0%B8%AB%E0%B8%B1%E0%B8%A7%E0%B8%97%E0%B9%89%E0%B8%B2%E0%B8%A2%E0%B8%AA%E0%B8%A3%E0%B8%B0_%E0%B8%A7%E0%B8%B1%E0%B8%94%E0%B8%9B%E0%B9%88%E0%B8%B2%E0%B9%82%E0%B8%A1%E0%B8%81_-_img_04.jpg",
+          "page": "https://commons.wikimedia.org/wiki/File:Ang_Thong_-_Pa_Mok_(2024)_-_King_Si_Sanphet_IX_(King_Thai_Sa)_statue_Wat_Pa_Mok_%E0%B8%9E%E0%B8%A3%E0%B8%B0%E0%B9%80%E0%B8%88%E0%B9%89%E0%B8%B2%E0%B8%AD%E0%B8%A2%E0%B8%B9%E0%B9%88%E0%B8%AB%E0%B8%B1%E0%B8%A7%E0%B8%97%E0%B9%89%E0%B8%B2%E0%B8%A2%E0%B8%AA%E0%B8%A3%E0%B8%B0_%E0%B8%A7%E0%B8%B1%E0%B8%94%E0%B8%9B%E0%B9%88%E0%B8%B2%E0%B9%82%E0%B8%A1%E0%B8%81_-_img_04.jpg",
+          "credit": "Chainwit.",
+          "license": "CC BY 4.0",
+          "made": "2024 (photo)",
+          "caption": "A modern statue of Thai Sa at Wat Pa Mok, made almost 300 years after his death; no portrait from his lifetime exists.",
+          "alt": "Statue of King Thai Sa (Si Sanphet IX) at Wat Pa Mok, Ang Thong"
         }
       ],
       "sources": [
