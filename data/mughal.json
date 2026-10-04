@@ -1,0 +1,1441 @@
+{
+  "id": "mughal",
+  "name": "Mughal Empire",
+  "blurb": "From Babur's victory at Panipat to the last emperor's exile",
+  "dateConvention": "Mughal chroniclers used the Islamic (Hijri) calendar; the deck gives standard Western equivalents, Julian before 1582 and Gregorian after. Sher Shah Suri's card covers the years Humayun spent in exile.",
+  "epilogue": "After 1857 the East India Company was abolished and in 1858 the British Crown took direct rule of India: the British Raj. Bahadur Shah II died in exile in Rangoon in 1862.",
+  "houses": [
+    {
+      "id": "timurid",
+      "name": "Mughal (Timurid)",
+      "color": "#2e6b4f"
+    },
+    {
+      "id": "sur",
+      "name": "Sur",
+      "color": "#8a5a1c"
+    }
+  ],
+  "rulers": [
+    {
+      "id": "babur",
+      "name": "Babur",
+      "house": "timurid",
+      "born": {
+        "date": "1483-02-14",
+        "note": "Andijan, Ferghana Valley"
+      },
+      "died": {
+        "date": "1530-12-26",
+        "note": "Agra"
+      },
+      "causeOfDeath": "Illness"
+    },
+    {
+      "id": "humayun",
+      "name": "Humayun",
+      "house": "timurid",
+      "born": {
+        "date": "1508-03-06",
+        "note": "Kabul"
+      },
+      "died": {
+        "date": "1556-01-27",
+        "note": "Delhi"
+      },
+      "causeOfDeath": "Fall down his library stairs"
+    },
+    {
+      "id": "sher-shah",
+      "name": "Sher Shah Suri",
+      "house": "sur",
+      "born": {
+        "date": "1486",
+        "circa": true,
+        "note": "Sasaram, Bihar; some sources say 1472"
+      },
+      "died": {
+        "date": "1545-05-22",
+        "note": "Kalinjar Fort"
+      },
+      "causeOfDeath": "Gunpowder blast at a siege"
+    },
+    {
+      "id": "akbar",
+      "name": "Akbar",
+      "epithet": "the Great",
+      "house": "timurid",
+      "born": {
+        "date": "1542-10-15",
+        "note": "Amarkot, Sindh"
+      },
+      "died": {
+        "date": "1605-10-27",
+        "note": "Agra or Fatehpur Sikri; sources differ"
+      },
+      "causeOfDeath": "Illness, probably dysentery"
+    },
+    {
+      "id": "jahangir",
+      "name": "Jahangir",
+      "house": "timurid",
+      "born": {
+        "date": "1569-08-31",
+        "note": "Fatehpur Sikri"
+      },
+      "died": {
+        "date": "1627-10-28",
+        "note": "Near Bhimber, on the road from Kashmir"
+      },
+      "causeOfDeath": "Illness"
+    },
+    {
+      "id": "shah-jahan",
+      "name": "Shah Jahan",
+      "house": "timurid",
+      "born": {
+        "date": "1592-01-05",
+        "note": "Lahore"
+      },
+      "died": {
+        "date": "1666-01-22",
+        "note": "Agra Fort, as a prisoner"
+      },
+      "causeOfDeath": "Illness in old age"
+    },
+    {
+      "id": "aurangzeb",
+      "name": "Aurangzeb",
+      "epithet": "Alamgir",
+      "house": "timurid",
+      "born": {
+        "date": "1618-11-03",
+        "note": "Dahod, Gujarat"
+      },
+      "died": {
+        "date": "1707-03-03",
+        "note": "Bhingar, near Ahmednagar"
+      },
+      "causeOfDeath": "Old age"
+    },
+    {
+      "id": "bahadur-shah-i",
+      "name": "Bahadur Shah I",
+      "house": "timurid",
+      "born": {
+        "date": "1643-10-14",
+        "note": "Burhanpur"
+      },
+      "died": {
+        "date": "1712-02-27",
+        "note": "Lahore"
+      },
+      "causeOfDeath": "Illness"
+    },
+    {
+      "id": "muhammad-shah",
+      "name": "Muhammad Shah",
+      "epithet": "Rangila",
+      "house": "timurid",
+      "born": {
+        "date": "1702-08-07"
+      },
+      "died": {
+        "date": "1748-04-26",
+        "note": "Delhi"
+      },
+      "causeOfDeath": "Illness"
+    },
+    {
+      "id": "ahmad-shah-bahadur",
+      "name": "Ahmad Shah Bahadur",
+      "house": "timurid",
+      "born": {
+        "date": "1725-12-23",
+        "note": "Delhi"
+      },
+      "died": {
+        "date": "1775-01-01",
+        "note": "Delhi, still a prisoner"
+      },
+      "causeOfDeath": "Died in captivity"
+    },
+    {
+      "id": "alamgir-ii",
+      "name": "Alamgir II",
+      "house": "timurid",
+      "born": {
+        "date": "1699-06-06",
+        "note": "Burhanpur"
+      },
+      "died": {
+        "date": "1759-11-29",
+        "note": "Kotla Fateh Shah, Delhi"
+      },
+      "causeOfDeath": "Murdered on his vizier's orders"
+    },
+    {
+      "id": "shah-alam-ii",
+      "name": "Shah Alam II",
+      "house": "timurid",
+      "born": {
+        "date": "1728-06-25",
+        "note": "Delhi"
+      },
+      "died": {
+        "date": "1806-11-19",
+        "note": "Delhi"
+      },
+      "causeOfDeath": "Natural causes"
+    },
+    {
+      "id": "akbar-ii",
+      "name": "Akbar II",
+      "house": "timurid",
+      "born": {
+        "date": "1760-04-22",
+        "note": "Mukundpur, Rewa"
+      },
+      "died": {
+        "date": "1837-09-28",
+        "note": "Delhi"
+      },
+      "causeOfDeath": "Natural causes"
+    },
+    {
+      "id": "bahadur-shah-ii",
+      "name": "Bahadur Shah II",
+      "epithet": "Zafar",
+      "house": "timurid",
+      "born": {
+        "date": "1775-10-24",
+        "note": "Delhi"
+      },
+      "died": {
+        "date": "1862-11-07",
+        "note": "Rangoon, Burma, in exile"
+      },
+      "causeOfDeath": "Old age, in exile"
+    }
+  ],
+  "reigns": [
+    {
+      "id": "babur",
+      "kind": "monarch",
+      "rulers": [
+        "babur"
+      ],
+      "tagline": "The poet-prince who lost a kingdom and won an empire",
+      "start": {
+        "date": "1526-04-21"
+      },
+      "end": {
+        "date": "1530-12-26"
+      },
+      "contestedWith": [],
+      "relationToPredecessor": "Founder; descendant of Timur",
+      "ageAtAccession": "43",
+      "cameToPower": "Won the Battle of Panipat",
+      "reignEnded": "Died of illness at Agra",
+      "previously": "Timur's great empire lies in pieces, squabbled over by his heirs.",
+      "paragraphs": [
+        "Zahir ud-Din Muhammad, known as Babur, “the Tiger”, had the best pedigree in Central Asia: Timur on his father's side, Genghis Khan on his mother's. At 11 he inherited the little valley kingdom of Ferghana when his father fell to his death from a collapsing dovecote. He spent his youth winning Samarkand, losing it, and winning it again. In 1504 he grabbed Kabul instead, and from there he started looking at India.",
+        "On 21 April 1526 he met Ibrahim Lodi, Sultan of Delhi, at Panipat. Babur was badly outnumbered, but he had cannon, matchlocks and a wall of carts lashed together with ropes. The sultan died on the field and Delhi and Agra fell. A year later at Khanwa he smashed Rana Sanga of Mewar and his Rajput allies. The Mughal Empire had begun.",
+        "He wrote it all down in the Baburnama, in Chagatai Turkic: battles, drinking parties, friends, regrets. He moaned that India had no good melons, grapes, bread, ice or baths. He died at Agra in December 1530, only four years into his empire, and was later buried in a garden in Kabul, as he had asked. His eldest son Humayun took the throne."
+      ],
+      "claims": [
+        {
+          "text": "Babur walked around his dying son Humayun's bed, offering his own life for his son's. Humayun recovered and Babur sickened and died.",
+          "status": "legend",
+          "note": "Told by his daughter Gulbadan Begum and Abul Fazl, writing decades later. Babur's own memoir breaks off before then, and his illness had other likely causes."
+        },
+        {
+          "text": "Ibrahim Lodi's mother tried to poison Babur after Panipat.",
+          "status": "disputed",
+          "note": "We have it only from Babur himself, in a letter copied into the Baburnama. He survived after a night of vomiting and had the cooks executed."
+        },
+        {
+          "text": "Babur grumbled that Hindustan had no good horses, melons, grapes, bread, ice or bathhouses.",
+          "status": "confirmed",
+          "note": "It's in his own memoir. He also admitted he liked the country's vast wealth and its endless supply of craftsmen."
+        }
+      ],
+      "hook": "Babur leaves his son an empire only four years old. Humayun must hold it while his three brothers each eye a piece, and an Afghan named Sher Khan is gathering strength in Bihar.",
+      "images": [
+        {
+          "file": "File:Babur at Qunduz in January 1511 (portrait noted for its likeness to Babur). Baburnama of 1598.jpg",
+          "url": "https://upload.wikimedia.org/wikipedia/commons/2/29/Babur_at_Qunduz_in_January_1511_%28portrait_noted_for_its_likeness_to_Babur%29._Baburnama_of_1598.jpg",
+          "page": "https://commons.wikimedia.org/wiki/File:Babur_at_Qunduz_in_January_1511_(portrait_noted_for_its_likeness_to_Babur)._Baburnama_of_1598.jpg",
+          "credit": "Mansur (attributed)",
+          "license": "Public domain",
+          "made": "1598",
+          "caption": "From a Baburnama manuscript of 1598, about 70 years after his death, ascribed to the court painter Mansur and copied from an older likeness.",
+          "alt": "Mughal miniature showing Babur in three-quarter view"
+        }
+      ],
+      "sources": [
+        {
+          "title": "The Baburnama: Memoirs of Babur, Prince and Emperor",
+          "author": "Babur, trans. Wheeler M. Thackston",
+          "note": "Oxford University Press / Freer Gallery, 1996"
+        },
+        {
+          "title": "Humayun-nama (The History of Humayun)",
+          "author": "Gulbadan Begum, trans. Annette S. Beveridge",
+          "note": "1902"
+        },
+        {
+          "title": "The Mughal Empire (New Cambridge History of India I.5)",
+          "author": "John F. Richards",
+          "note": "Cambridge University Press, 1993"
+        },
+        {
+          "title": "Emperors of the Peacock Throne: The Saga of the Great Mughals",
+          "author": "Abraham Eraly",
+          "note": "Penguin, 2000 (first published as The Last Spring, 1997)"
+        }
+      ],
+      "review": {
+        "status": "draft",
+        "notes": "Drafted from the listed sources; needs a human fact-check."
+      }
+    },
+    {
+      "id": "humayun",
+      "kind": "monarch",
+      "rulers": [
+        "humayun"
+      ],
+      "tagline": "The dreamy emperor who lost everything in ten years",
+      "start": {
+        "date": "1530-12-26"
+      },
+      "end": {
+        "date": "1540-05-17"
+      },
+      "contestedWith": [],
+      "relationToPredecessor": "Eldest son of Babur",
+      "ageAtAccession": "22",
+      "cameToPower": "Named heir by his father",
+      "reignEnded": "Routed at Kannauj; fled",
+      "previously": "Babur is dead after just four years in India.",
+      "paragraphs": [
+        "Humayun was clever, charming and easily distracted. He loved books, astronomy and astrology, and he liked his opium. Following his father's wishes, he gave his brothers Kamran, Askari and Hindal provinces of their own. They spent the next decade undermining him, and Kamran held on to Kabul and the Punjab, the empire's back door.",
+        "Meanwhile an Afghan soldier named Sher Khan was building a power base in Bihar and Bengal. Humayun marched east, wasted months, and was caught at Chausa in June 1539. His army was routed and he nearly drowned escaping across the Ganges. Sher Khan now crowned himself Sher Shah.",
+        "Humayun raised a new army, but on 17 May 1540 at Kannauj it fell apart almost without a fight. He fled through Agra, Delhi and Lahore with Sher Shah's men close behind. In ten years he had lost his father's whole empire."
+      ],
+      "claims": [
+        {
+          "text": "A water carrier saved Humayun from drowning at Chausa, and was rewarded by being allowed to sit on the throne for half a day.",
+          "status": "legend",
+          "note": "The tale is told by Mughal writers, and the man is usually named Nizam. How long he 'ruled', and what he did, grows with each telling."
+        },
+        {
+          "text": "Humayun was a heavy opium user.",
+          "status": "disputed",
+          "note": "Court writers mention his fondness for it, and his enemies blamed it for his slowness. How much it really shaped his failures is guesswork."
+        },
+        {
+          "text": "His brothers repeatedly refused to help him against Sher Shah.",
+          "status": "confirmed",
+          "note": "Gulbadan Begum, their own sister, describes the feuding. Kamran kept his army back and later tried to capture Humayun himself."
+        }
+      ],
+      "hook": "The emperor is a fugitive. His brothers won't help him. And the man who drove him out is about to show India what a really good ruler looks like.",
+      "images": [
+        {
+          "file": "File:Хумаюн. Деталь миниатюры из Бабурнаме. 1590е гг. Москва, ГМВ.jpg",
+          "url": "https://upload.wikimedia.org/wikipedia/commons/d/d6/%D0%A5%D1%83%D0%BC%D0%B0%D1%8E%D0%BD._%D0%94%D0%B5%D1%82%D0%B0%D0%BB%D1%8C_%D0%BC%D0%B8%D0%BD%D0%B8%D0%B0%D1%82%D1%8E%D1%80%D1%8B_%D0%B8%D0%B7_%D0%91%D0%B0%D0%B1%D1%83%D1%80%D0%BD%D0%B0%D0%BC%D0%B5._1590%D0%B5_%D0%B3%D0%B3._%D0%9C%D0%BE%D1%81%D0%BA%D0%B2%D0%B0%2C_%D0%93%D0%9C%D0%92.jpg",
+          "page": "https://commons.wikimedia.org/wiki/File:%D0%A5%D1%83%D0%BC%D0%B0%D1%8E%D0%BD._%D0%94%D0%B5%D1%82%D0%B0%D0%BB%D1%8C_%D0%BC%D0%B8%D0%BD%D0%B8%D0%B0%D1%82%D1%8E%D1%80%D1%8B_%D0%B8%D0%B7_%D0%91%D0%B0%D0%B1%D1%83%D1%80%D0%BD%D0%B0%D0%BC%D0%B5._1590%D0%B5_%D0%B3%D0%B3._%D0%9C%D0%BE%D1%81%D0%BA%D0%B2%D0%B0,_%D0%93%D0%9C%D0%92.jpg",
+          "credit": "Unknown Mughal artist",
+          "license": "Public domain",
+          "made": "1590s",
+          "caption": "Detail of a Baburnama miniature painted in the 1590s, about 40 years after his death; now in the State Museum of Oriental Art, Moscow.",
+          "alt": "Detail of a Mughal miniature showing the emperor Humayun"
+        }
+      ],
+      "sources": [
+        {
+          "title": "Humayun-nama (The History of Humayun)",
+          "author": "Gulbadan Begum, trans. Annette S. Beveridge",
+          "note": "1902"
+        },
+        {
+          "title": "Akbarnama",
+          "author": "Abul Fazl, trans. Henry Beveridge"
+        },
+        {
+          "title": "The Mughal Empire (New Cambridge History of India I.5)",
+          "author": "John F. Richards",
+          "note": "Cambridge University Press, 1993"
+        },
+        {
+          "title": "Emperors of the Peacock Throne: The Saga of the Great Mughals",
+          "author": "Abraham Eraly",
+          "note": "Penguin, 2000 (first published as The Last Spring, 1997)"
+        }
+      ],
+      "review": {
+        "status": "draft",
+        "notes": "Drafted from the listed sources; needs a human fact-check."
+      }
+    },
+    {
+      "id": "sher-shah",
+      "kind": "monarch",
+      "rulers": [
+        "sher-shah"
+      ],
+      "tagline": "Five years, one road, and the first rupee",
+      "start": {
+        "date": "1540-05-17"
+      },
+      "end": {
+        "date": "1545-05-22"
+      },
+      "contestedWith": [],
+      "relationToPredecessor": "Afghan rival; no relation",
+      "ageAtAccession": "About 54 (or 68)",
+      "cameToPower": "Drove out Humayun",
+      "reignEnded": "Killed by a gunpowder blast",
+      "previously": "Humayun is beaten at Kannauj and on the run.",
+      "paragraphs": [
+        "He was born Farid Khan, son of a minor Pashtun landholder of the Sur clan in Bihar. He learned how to run an estate, then how to run an army, and by 1540 he had beaten Humayun twice and taken the empire. He ruled as Sher Shah, “the Lion King”.",
+        "He had only five years, and he used them brilliantly. He issued a standard silver coin, the rupiya, the ancestor of today's rupee. He rebuilt and extended the great highway across north India, later called the Grand Trunk Road, with rest houses, wells and trees along it, and a horse post carrying news. He had farmland measured so tax could be set fairly, a system Akbar would later build on.",
+        "In May 1545 he was besieging the fortress of Kalinjar when gunpowder exploded near him. He was terribly burned and died a few days later as the fort fell. His tomb at Sasaram rises from the middle of an artificial lake."
+      ],
+      "claims": [
+        {
+          "text": "He earned the name Sher Khan by killing a tiger with his bare hands, or a single blow.",
+          "status": "legend",
+          "note": "The story comes from his biographer Abbas Khan Sarwani, writing decades later for Akbar. The details vary and can't be checked."
+        },
+        {
+          "text": "He was killed when a cannon burst or a pile of gunpowder exploded near him at Kalinjar.",
+          "status": "disputed",
+          "note": "That he died of burns from an explosion during the siege is agreed. Whether it was a bursting gun or a rebounding firebomb, accounts differ."
+        },
+        {
+          "text": "Akbar's famous land-revenue system grew out of Sher Shah's survey.",
+          "status": "confirmed",
+          "note": "Historians agree that Akbar's minister Todar Mal had served under the Sur and built on their methods."
+        }
+      ],
+      "hook": "His son Islam Shah holds the empire together until 1554. After him the Sur family tears itself apart. And far away in Kabul, Humayun is watching.",
+      "images": [
+        {
+          "file": "File:Painting of Sher Shah Suri from a manuscript of Tarikh-i-Khandan-i-Timuriya, prepared by the court painters of Mughal emperor Akbar, circa 16th century (colour scan).jpg",
+          "url": "https://upload.wikimedia.org/wikipedia/commons/d/de/Painting_of_Sher_Shah_Suri_from_a_manuscript_of_Tarikh-i-Khandan-i-Timuriya%2C_prepared_by_the_court_painters_of_Mughal_emperor_Akbar%2C_circa_16th_century_%28colour_scan%29.jpg",
+          "page": "https://commons.wikimedia.org/wiki/File:Painting_of_Sher_Shah_Suri_from_a_manuscript_of_Tarikh-i-Khandan-i-Timuriya,_prepared_by_the_court_painters_of_Mughal_emperor_Akbar,_circa_16th_century_(colour_scan).jpg",
+          "credit": "Court painters of Akbar",
+          "license": "Public domain",
+          "made": "c. 1570–1590",
+          "caption": "No portrait from his lifetime survives. This one was painted for Akbar a few decades after his death; it is in the Khuda Bakhsh Library, Patna.",
+          "alt": "Mughal manuscript painting of Sher Shah Suri"
+        }
+      ],
+      "sources": [
+        {
+          "title": "Tarikh-i Sher Shahi",
+          "author": "Abbas Khan Sarwani",
+          "note": "Biography written for Akbar"
+        },
+        {
+          "title": "The Mughal Empire (New Cambridge History of India I.5)",
+          "author": "John F. Richards",
+          "note": "Cambridge University Press, 1993"
+        },
+        {
+          "title": "Emperors of the Peacock Throne: The Saga of the Great Mughals",
+          "author": "Abraham Eraly",
+          "note": "Penguin, 2000 (first published as The Last Spring, 1997)"
+        }
+      ],
+      "review": {
+        "status": "draft",
+        "notes": "Drafted from the listed sources; needs a human fact-check."
+      }
+    },
+    {
+      "id": "humayun-restored",
+      "kind": "monarch",
+      "rulers": [
+        "humayun"
+      ],
+      "tagline": "Fifteen years in exile, six months back on top",
+      "start": {
+        "date": "1555-06-22"
+      },
+      "end": {
+        "date": "1556-01-27"
+      },
+      "contestedWith": [],
+      "relationToPredecessor": "Returned from exile",
+      "ageAtAccession": "47",
+      "cameToPower": "Beat the Sur army at Sirhind",
+      "reignEnded": "Fell down his library stairs",
+      "previously": "Islam Shah is dead and the Sur cousins are at each other's throats.",
+      "paragraphs": [
+        "Humayun's exile was long and hard. During the flight through the Sindh desert, his young wife Hamida Banu gave birth to a son, Akbar, at Amarkot on 15 October 1542. Humayun ended up in Persia as the guest of Shah Tahmasp I, who lent him troops. With them he took Kandahar and then Kabul. His brother Kamran rebelled again and again, until Humayun finally had him blinded.",
+        "With the Sur kingdom split between rival cousins, Humayun struck. On 22 June 1555 he beat the Sur army at Sirhind, and that summer he was back in Delhi. Fifteen years after losing it all, he was emperor again.",
+        "It lasted six months. On 24 January 1556, coming down the steep stairs of his library with his arms full of books, he heard the call to prayer and tried to kneel. He slipped, fell, and died three days later. His widow later built his great tomb in Delhi, a garden tomb that pointed the way to the Taj Mahal."
+      ],
+      "claims": [
+        {
+          "text": "“He tumbled through life and tumbled out of it.”",
+          "status": "confirmed",
+          "note": "A famous quip by the Victorian historian Stanley Lane-Poole. Fair or not, it has stuck to Humayun ever since."
+        },
+        {
+          "text": "Humayun's Tomb was the model for the Taj Mahal.",
+          "status": "disputed",
+          "note": "Its garden layout and double dome look forward to the Taj, and many historians call it a forerunner. 'Model' claims too much."
+        },
+        {
+          "text": "Shah Tahmasp made Humayun's help conditional on him becoming a Shia.",
+          "status": "disputed",
+          "note": "Some sources say the Shah pressed him hard, even threatened him. Mughal writers play this down, and how far Humayun gave way is unclear."
+        }
+      ],
+      "hook": "Humayun is dead and the empire is barely rebuilt. His son Akbar is only 13 and far away in the Punjab. And the Hindu general Hemu is marching on Delhi.",
+      "images": [
+        {
+          "file": "File:Humayun and Babur (Late Shah Jahan Album) Humayun detail.jpg",
+          "url": "https://upload.wikimedia.org/wikipedia/commons/9/91/Humayun_and_Babur_%28Late_Shah_Jahan_Album%29_Humayun_detail.jpg",
+          "page": "https://commons.wikimedia.org/wiki/File:Humayun_and_Babur_(Late_Shah_Jahan_Album)_Humayun_detail.jpg",
+          "credit": "Unknown Mughal artist",
+          "license": "Public domain",
+          "made": "c. 1650",
+          "caption": "Detail from the Late Shah Jahan Album, painted almost a century after his death; Smithsonian, Washington.",
+          "alt": "Detail of a Mughal album painting showing the emperor Humayun"
+        }
+      ],
+      "sources": [
+        {
+          "title": "Humayun-nama (The History of Humayun)",
+          "author": "Gulbadan Begum, trans. Annette S. Beveridge",
+          "note": "1902"
+        },
+        {
+          "title": "Akbarnama",
+          "author": "Abul Fazl, trans. Henry Beveridge"
+        },
+        {
+          "title": "The Mughal Empire (New Cambridge History of India I.5)",
+          "author": "John F. Richards",
+          "note": "Cambridge University Press, 1993"
+        },
+        {
+          "title": "Emperors of the Peacock Throne: The Saga of the Great Mughals",
+          "author": "Abraham Eraly",
+          "note": "Penguin, 2000 (first published as The Last Spring, 1997)"
+        }
+      ],
+      "review": {
+        "status": "draft",
+        "notes": "Drafted from the listed sources; needs a human fact-check."
+      }
+    },
+    {
+      "id": "akbar",
+      "kind": "monarch",
+      "rulers": [
+        "akbar"
+      ],
+      "tagline": "The boy king who built an empire and a new faith",
+      "start": {
+        "date": "1556-02-11"
+      },
+      "end": {
+        "date": "1605-10-27"
+      },
+      "contestedWith": [],
+      "relationToPredecessor": "Son of Humayun",
+      "ageAtAccession": "13",
+      "cameToPower": "Crowned on a brick platform",
+      "reignEnded": "Died of illness",
+      "previously": "Humayun has tumbled down his library stairs; Hemu is coming.",
+      "paragraphs": [
+        "Akbar was crowned at 13 on a brick platform at Kalanaur in the Punjab, with the tough general Bairam Khan as his regent. Hemu took Delhi, but at the Second Battle of Panipat in November 1556 an arrow struck him in the eye. He was captured and beheaded. By 1560 Akbar had shed his regent and was ruling for himself, and he kept conquering for forty years: Gujarat, Bengal, Kashmir and much more.",
+        "He could be ruthless. When Chittor fell in 1568, thousands of its people were killed. But he also wooed the Rajput kings, marrying their daughters and making them generals. In 1564 he scrapped the jizya, the tax on non-Muslims. He built a red sandstone city at Fatehpur Sikri, then left it. In his House of Worship he had Muslims, Hindus, Jains, Zoroastrians and Jesuits argue in front of him.",
+        "He never learned to read, yet he had a huge library read aloud to him. His friend Abul Fazl wrote the Akbarnama, and his minister Todar Mal reformed the land tax. His last years were bitter. His son Salim rebelled and in 1602 had Abul Fazl murdered. The two were reconciled before Akbar died in October 1605, and he was buried at Sikandra."
+      ],
+      "claims": [
+        {
+          "text": "Akbar founded a new religion, the Din-i Ilahi.",
+          "status": "disputed",
+          "note": "He did create a circle of devoted followers around 1582. Whether it was a real religion or an order of loyalty to the emperor is argued over."
+        },
+        {
+          "text": "Fatehpur Sikri was abandoned because it ran out of water.",
+          "status": "disputed",
+          "note": "That's the usual story. Akbar also moved north to Lahore in 1585 for his wars in the northwest, which may matter more."
+        },
+        {
+          "text": "His witty minister Birbal outsmarted everyone at court.",
+          "status": "legend",
+          "note": "Birbal was real, a Hindu courtier who died in battle in 1586. The famous Akbar and Birbal tales are later folklore."
+        }
+      ],
+      "hook": "Akbar is dead. His rebel son Salim takes the throne as Jahangir, but some nobles had wanted Salim's own son Khusrau instead, and Khusrau has not forgotten it.",
+      "images": [
+        {
+          "file": "File:Portrait of Akbar by Manohar.jpg",
+          "url": "https://upload.wikimedia.org/wikipedia/commons/0/0d/Portrait_of_Akbar_by_Manohar.jpg",
+          "page": "https://commons.wikimedia.org/wiki/File:Portrait_of_Akbar_by_Manohar.jpg",
+          "credit": "Manohar",
+          "license": "Public domain",
+          "made": "Late 16th century",
+          "caption": "By the Mughal court painter Manohar, who worked for Akbar; now in the Hermitage Museum, St Petersburg.",
+          "alt": "Mughal painted portrait of the emperor Akbar"
+        }
+      ],
+      "sources": [
+        {
+          "title": "Akbarnama",
+          "author": "Abul Fazl, trans. Henry Beveridge"
+        },
+        {
+          "title": "Akbar: The Great Mughal",
+          "author": "Ira Mukhoty",
+          "note": "Aleph, 2020"
+        },
+        {
+          "title": "The Mughal Empire (New Cambridge History of India I.5)",
+          "author": "John F. Richards",
+          "note": "Cambridge University Press, 1993"
+        },
+        {
+          "title": "Emperors of the Peacock Throne: The Saga of the Great Mughals",
+          "author": "Abraham Eraly",
+          "note": "Penguin, 2000 (first published as The Last Spring, 1997)"
+        }
+      ],
+      "review": {
+        "status": "draft",
+        "notes": "Drafted from the listed sources; needs a human fact-check."
+      }
+    },
+    {
+      "id": "jahangir",
+      "kind": "monarch",
+      "rulers": [
+        "jahangir"
+      ],
+      "tagline": "The World-Seizer whose wife ran the world",
+      "start": {
+        "date": "1605-11-03"
+      },
+      "end": {
+        "date": "1627-10-28"
+      },
+      "contestedWith": [],
+      "relationToPredecessor": "Eldest son of Akbar",
+      "ageAtAccession": "36",
+      "cameToPower": "Rebel son, forgiven, then crowned",
+      "reignEnded": "Died on the road from Kashmir",
+      "previously": "Akbar is dead, reconciled at last with his rebel son.",
+      "paragraphs": [
+        "Salim was named after the Sufi saint Salim Chishti, whose blessing Akbar had sought for a son. As emperor he called himself Jahangir, “World-Seizer”. Within months his own son Khusrau rebelled. Khusrau was beaten and later partly blinded. The Sikh Guru Arjan, accused of backing the prince, was executed on Jahangir's orders in 1606.",
+        "In 1611 he married a widow, Mehr-un-Nissa, and named her Nur Jahan, “Light of the World”. She became the real power at court, issuing orders and coins in her own name. Jahangir drank heavily and took opium, and admitted it in his memoir. He also loved painting and nature, and his artists, like Mansur, painted his birds and animals in exquisite detail. The English ambassador Sir Thomas Roe spent 1615 to 1619 at his court.",
+        "His last years were messy. His son Khurram rebelled in 1622. In 1626 the general Mahabat Khan seized the emperor himself, and Nur Jahan schemed to free him. In October 1627, on the way back from Kashmir, Jahangir died near Bhimber. He was buried at Lahore."
+      ],
+      "claims": [
+        {
+          "text": "Nur Jahan shot four tigers with six bullets.",
+          "status": "legend",
+          "note": "Jahangir himself praises her shooting in his memoir. The exact tally comes down through retellings and poems."
+        },
+        {
+          "text": "Prince Salim loved a slave girl called Anarkali, and Akbar had her walled up alive.",
+          "status": "legend",
+          "note": "No writer of the time mentions it. It first appears much later and became famous through plays and the film Mughal-e-Azam."
+        },
+        {
+          "text": "Jahangir hung a 'chain of justice' with bells so anyone could call him for help.",
+          "status": "disputed",
+          "note": "He describes it in his memoir. Whether anyone actually rang it is another matter."
+        }
+      ],
+      "hook": "Jahangir is dead and two camps form at once. Nur Jahan backs one prince. Her brother Asaf Khan backs another: his son-in-law Khurram.",
+      "images": [
+        {
+          "file": "File:18 Abu'l Hasan. Portrait of Jahangir, 1615-20, Metropolitan Museum of Art, New-York.jpg",
+          "url": "https://upload.wikimedia.org/wikipedia/commons/9/95/18_Abu%27l_Hasan._Portrait_of_Jahangir%2C_1615-20%2C_Metropolitan_Museum_of_Art%2C_New-York.jpg",
+          "page": "https://commons.wikimedia.org/wiki/File:18_Abu'l_Hasan._Portrait_of_Jahangir,_1615-20,_Metropolitan_Museum_of_Art,_New-York.jpg",
+          "credit": "Abu'l Hasan",
+          "license": "Public domain",
+          "made": "c. 1615–1620",
+          "caption": "Painted in his lifetime by his favourite artist Abu'l Hasan; Metropolitan Museum of Art, New York.",
+          "alt": "Mughal miniature portrait of the emperor Jahangir"
+        }
+      ],
+      "sources": [
+        {
+          "title": "The Jahangirnama: Memoirs of Jahangir, Emperor of India",
+          "author": "Jahangir, trans. Wheeler M. Thackston",
+          "note": "Oxford University Press / Freer Gallery, 1999"
+        },
+        {
+          "title": "Empress: The Astonishing Reign of Nur Jahan",
+          "author": "Ruby Lal",
+          "note": "W. W. Norton, 2018"
+        },
+        {
+          "title": "The Embassy of Sir Thomas Roe to the Court of the Great Mogul, 1615-1619",
+          "author": "Thomas Roe, ed. William Foster",
+          "note": "Hakluyt Society, 1899"
+        },
+        {
+          "title": "The Mughal Empire (New Cambridge History of India I.5)",
+          "author": "John F. Richards",
+          "note": "Cambridge University Press, 1993"
+        }
+      ],
+      "review": {
+        "status": "draft",
+        "notes": "Drafted from the listed sources; needs a human fact-check."
+      }
+    },
+    {
+      "id": "shah-jahan",
+      "kind": "monarch",
+      "rulers": [
+        "shah-jahan"
+      ],
+      "tagline": "He built the Taj Mahal, then watched it from a cell",
+      "start": {
+        "date": "1628-01-19"
+      },
+      "end": {
+        "date": "1658-07-31"
+      },
+      "contestedWith": [],
+      "relationToPredecessor": "Son of Jahangir",
+      "ageAtAccession": "36",
+      "cameToPower": "Rivals cleared by his father-in-law",
+      "reignEnded": "Deposed by his son",
+      "previously": "Jahangir is dead; Nur Jahan and Asaf Khan back rival princes.",
+      "paragraphs": [
+        "Asaf Khan moved fast. He had Khurram's brother Shahryar and other princes of the blood put to death, and Nur Jahan retired to Lahore. Khurram was crowned as Shah Jahan, “King of the World”. His beloved wife Mumtaz Mahal, Nur Jahan's niece, went with him everywhere. In 1631, at Burhanpur, she died giving birth to their 14th child.",
+        "In 1632 work began on her tomb at Agra: the Taj Mahal. Shah Jahan's court was the most splendid the Mughals ever had. He sat on the jewelled Peacock Throne, and he built a whole new capital at Delhi, Shahjahanabad, with the Red Fort at its heart. The court moved there in 1648.",
+        "In 1657 he fell ill, and his four sons, Dara Shikoh, Shah Shuja, Aurangzeb and Murad, went to war. Aurangzeb and Murad beat Dara at Samugarh in May 1658. Aurangzeb then besieged his father in Agra Fort, and the old emperor surrendered. He spent his last eight years a prisoner there, cared for by his daughter Jahanara, and died in January 1666."
+      ],
+      "claims": [
+        {
+          "text": "From his prison, Shah Jahan gazed at the Taj Mahal across the river until he died.",
+          "status": "legend",
+          "note": "Agra Fort does look out on the Taj, and the image is irresistible. No reliable source describes his last days in that way."
+        },
+        {
+          "text": "Shah Jahan planned a black marble Taj for himself across the river.",
+          "status": "legend",
+          "note": "The idea goes back to the French traveller Tavernier. Excavations at the garden opposite found no sign of it."
+        },
+        {
+          "text": "The builders of the Taj had their hands cut off so they could never make anything as beautiful.",
+          "status": "legend",
+          "note": "A pure myth. There is no evidence at all, and the same craftsmen went on to work on Shahjahanabad."
+        }
+      ],
+      "hook": "Aurangzeb has his father under lock and key and crowns himself. But Dara Shikoh is still free, and Shah Shuja and Murad have their own plans.",
+      "images": [
+        {
+          "file": "File:Shah Jahan on a Terrace Holding a Pendant Set with His Portrait.jpg",
+          "url": "https://upload.wikimedia.org/wikipedia/commons/f/f9/Shah_Jahan_on_a_Terrace_Holding_a_Pendant_Set_with_His_Portrait.jpg",
+          "page": "https://commons.wikimedia.org/wiki/File:Shah_Jahan_on_a_Terrace_Holding_a_Pendant_Set_with_His_Portrait.jpg",
+          "credit": "Chitarman",
+          "license": "Public domain",
+          "made": "1627–1628",
+          "caption": "Painted by Chitarman around the time he took the throne; Metropolitan Museum of Art, New York.",
+          "alt": "Shah Jahan on a terrace, holding a jewelled pendant set with his own portrait"
+        }
+      ],
+      "sources": [
+        {
+          "title": "The Complete Taj Mahal and the Riverfront Gardens of Agra",
+          "author": "Ebba Koch",
+          "note": "Thames & Hudson, 2006"
+        },
+        {
+          "title": "The Mughal Empire (New Cambridge History of India I.5)",
+          "author": "John F. Richards",
+          "note": "Cambridge University Press, 1993"
+        },
+        {
+          "title": "Emperors of the Peacock Throne: The Saga of the Great Mughals",
+          "author": "Abraham Eraly",
+          "note": "Penguin, 2000 (first published as The Last Spring, 1997)"
+        }
+      ],
+      "review": {
+        "status": "draft",
+        "notes": "Drafted from the listed sources; needs a human fact-check."
+      }
+    },
+    {
+      "id": "aurangzeb",
+      "kind": "monarch",
+      "rulers": [
+        "aurangzeb"
+      ],
+      "tagline": "The last great Mughal fought on until he was 88",
+      "start": {
+        "date": "1658-07-31"
+      },
+      "end": {
+        "date": "1707-03-03"
+      },
+      "contestedWith": [],
+      "relationToPredecessor": "Third son of Shah Jahan",
+      "ageAtAccession": "39",
+      "cameToPower": "Beat his brothers, jailed his father",
+      "reignEnded": "Died in camp, aged 88",
+      "previously": "Shah Jahan is a prisoner in Agra Fort, and his sons are at war.",
+      "paragraphs": [
+        "He took the title Alamgir, “World-Conqueror”, and dealt with his brothers one by one. Dara Shikoh, a mystic and scholar, was captured, paraded through Delhi on a filthy elephant and executed for heresy in 1659. Murad was executed in 1661. Shah Shuja fled to Arakan in Burma and vanished.",
+        "Aurangzeb was a strict Sunni Muslim, hard-working and austere. He brought back the jizya on non-Muslims in 1679. In 1675 the Sikh Guru Tegh Bahadur was executed in Delhi. Some temples were destroyed on his orders; how many, and why, historians still argue. The Maratha leader Shivaji came to his court at Agra in 1666, was held there, and escaped.",
+        "From 1681 he moved south and never came back. He took Bijapur in 1686 and Golconda in 1687, and the empire reached its greatest size. Shivaji's son Sambhaji was captured and executed in 1689, but the Marathas fought on. He spent his last 26 years at war, and died in camp at Bhingar near Ahmednagar on 3 March 1707. He lies in a plain open-air grave at Khuldabad."
+      ],
+      "claims": [
+        {
+          "text": "Shivaji escaped from Agra hidden in a basket of sweets.",
+          "status": "legend",
+          "note": "His escape is certain. The baskets come from Maratha chronicles and later retellings, and can't be confirmed."
+        },
+        {
+          "text": "Aurangzeb paid for his own needs by sewing caps and copying the Quran.",
+          "status": "disputed",
+          "note": "His own final instructions mention money from cap-sewing for his funeral. It was a pious gesture, hardly a living."
+        },
+        {
+          "text": "He banned music at court.",
+          "status": "disputed",
+          "note": "He stopped the court musicians early in his reign. Music went on in the empire, and Persian treatises on it were even written for his nobles."
+        }
+      ],
+      "hook": "The old emperor is dead in the Deccan, and his three surviving sons are already reaching for their swords.",
+      "images": [
+        {
+          "file": "File:Portrait of 'Alamgir in old age.jpg",
+          "url": "https://upload.wikimedia.org/wikipedia/commons/f/f0/Portrait_of_%27Alamgir_in_old_age.jpg",
+          "page": "https://commons.wikimedia.org/wiki/File:Portrait_of_'Alamgir_in_old_age.jpg",
+          "credit": "Ghulaman",
+          "license": "Public domain",
+          "made": "1698–1699",
+          "caption": "Painted by Ghulaman when the emperor was about 80; Victoria and Albert Museum, London.",
+          "alt": "Mughal miniature portrait of Aurangzeb as an old man"
+        }
+      ],
+      "sources": [
+        {
+          "title": "Aurangzeb: The Life and Legacy of India's Most Controversial King",
+          "author": "Audrey Truschke",
+          "note": "Stanford University Press, 2017"
+        },
+        {
+          "title": "The Mughal Empire (New Cambridge History of India I.5)",
+          "author": "John F. Richards",
+          "note": "Cambridge University Press, 1993"
+        },
+        {
+          "title": "Emperors of the Peacock Throne: The Saga of the Great Mughals",
+          "author": "Abraham Eraly",
+          "note": "Penguin, 2000 (first published as The Last Spring, 1997)"
+        }
+      ],
+      "review": {
+        "status": "draft",
+        "notes": "Drafted from the listed sources; needs a human fact-check."
+      }
+    },
+    {
+      "id": "bahadur-shah-i",
+      "kind": "monarch",
+      "rulers": [
+        "bahadur-shah-i"
+      ],
+      "tagline": "The 63-year-old who fought his brothers for the throne",
+      "start": {
+        "date": "1707-06-19"
+      },
+      "end": {
+        "date": "1712-02-27"
+      },
+      "contestedWith": [],
+      "relationToPredecessor": "Son of Aurangzeb",
+      "ageAtAccession": "63",
+      "cameToPower": "Beat his brother Azam at Jajau",
+      "reignEnded": "Died at Lahore",
+      "previously": "Aurangzeb dies in the Deccan. His three sons reach for their swords.",
+      "paragraphs": [
+        "Prince Muazzam had waited a very long time. His father had once kept him under arrest for years, and when Aurangzeb finally died, Muazzam was far away in the north-west. His brother Azam Shah crowned himself at once. Muazzam marched south anyway, and in June 1707 the two armies met at Jajau near Agra. Azam was killed in the fighting, and Muazzam became emperor as Bahadur Shah, also called Shah Alam.",
+        "Then came the next brother. Kam Bakhsh held out in the Deccan until 1709, when he was beaten near Hyderabad and died of his wounds. A Rajput revolt was patched up with deals. In the Punjab the Sikh leader Banda Singh Bahadur rose up and took Sirhind in 1710, and the old emperor spent his last years chasing him. He was easy-going and generous, handing out titles and lands to keep the nobles sweet. In February 1712 he died at Lahore."
+      ],
+      "claims": [
+        {
+          "text": "Bahadur Shah gave away so many titles and estates that he weakened the empire's finances.",
+          "status": "disputed",
+          "note": "A charge made by chroniclers of the time and repeated by later historians. Others argue he was buying peace after a ruinous succession war."
+        },
+        {
+          "text": "Azam Shah was killed at the Battle of Jajau.",
+          "status": "confirmed",
+          "note": "Reported by the Mughal chroniclers and accepted by all modern accounts, such as Irvine's Later Mughals."
+        },
+        {
+          "text": "Banda Singh Bahadur captured Sirhind in 1710.",
+          "status": "confirmed",
+          "note": "Recorded in Persian and Sikh sources alike. Sirhind's governor had put Guru Gobind Singh's young sons to death, which made it a prime target."
+        }
+      ],
+      "hook": "Bahadur Shah dies at Lahore. His four sons go straight to war for the throne, and his body lies waiting for burial until one of them wins.",
+      "images": [
+        {
+          "file": "File:Bahadur Shah I elderly.jpg",
+          "url": "https://upload.wikimedia.org/wikipedia/commons/a/ac/Bahadur_Shah_I_elderly.jpg",
+          "page": "https://commons.wikimedia.org/wiki/File:Bahadur_Shah_I_elderly.jpg",
+          "credit": "Unknown Mughal artist",
+          "license": "Public domain",
+          "made": "c. 1710",
+          "caption": "A Mughal portrait of the emperor in old age, painted around 1710, during his reign; Victoria and Albert Museum.",
+          "alt": "Mughal miniature portrait of the elderly Bahadur Shah I"
+        }
+      ],
+      "sources": [
+        {
+          "title": "Later Mughals",
+          "author": "William Irvine",
+          "note": "Edited by Jadunath Sarkar, 2 vols, 1921–22"
+        },
+        {
+          "title": "Parties and Politics at the Mughal Court, 1707–1740",
+          "author": "Satish Chandra",
+          "note": "First published 1959"
+        },
+        {
+          "title": "The Mughal Empire (The New Cambridge History of India I.5)",
+          "author": "John F. Richards",
+          "note": "Cambridge University Press, 1993"
+        }
+      ],
+      "review": {
+        "status": "draft",
+        "notes": "Drafted from the listed sources; needs a human fact-check."
+      }
+    },
+    {
+      "id": "puppet-emperors",
+      "kind": "interregnum",
+      "rulers": [],
+      "house": "timurid",
+      "title": "The Puppet Emperors",
+      "tagline": "Four emperors in seven years, and two kingmakers",
+      "start": {
+        "date": "1712-03-29"
+      },
+      "end": {
+        "date": "1719-09-17"
+      },
+      "contestedWith": [],
+      "relationToPredecessor": "Bahadur Shah I's sons and grandsons",
+      "ageAtAccession": "Various",
+      "cameToPower": "A war among Bahadur Shah's sons",
+      "reignEnded": "Shah Jahan II dies within months",
+      "previously": "Bahadur Shah dies at Lahore, and his four sons go to war.",
+      "paragraphs": [
+        "Jahandar Shah won the fight among the brothers with the help of the noble Zulfiqar Khan, and the losers died. His court was soon a scandal: his favourite, the dancer Lal Kunwar, saw her relatives raised to high rank. His nephew Farrukhsiyar came for him, won near Agra in January 1713, and had him strangled in prison the next month.",
+        "Farrukhsiyar owed his crown to two brothers, the Sayyids Abdullah Khan and Husain Ali Khan, the kingmakers. In 1717 he gave the East India Company a farman letting it trade in Bengal free of customs duty for a small yearly fee. That bit of paper would matter enormously. He kept plotting against the Sayyids, and in February 1719 they dragged him from the palace and blinded him. In April he was strangled in prison.",
+        "Next the Sayyids chose Rafi ud-Darajat, a young prince already sick with tuberculosis. He lasted from February to June 1719. His brother took over as Shah Jahan II, and he was dead by September. By the end of the year Delhi had seen four emperors, and the real power sat with the two brothers."
+      ],
+      "claims": [
+        {
+          "text": "Farrukhsiyar granted the 1717 farman because a Company surgeon, William Hamilton, had cured him.",
+          "status": "disputed",
+          "note": "Hamilton did treat the emperor and was rewarded, but historians see the farman as the result of a long, expensive Company embassy. The cure story was a neat British tale."
+        },
+        {
+          "text": "Lal Kunwar's family were showered with posts and honours, to the fury of the old nobles.",
+          "status": "disputed",
+          "note": "The stories come from hostile chroniclers who blamed her for Jahandar Shah's failings, so they are likely exaggerated."
+        },
+        {
+          "text": "The Sayyid brothers blinded Farrukhsiyar and had him killed in prison.",
+          "status": "confirmed",
+          "note": "Described by contemporary Persian chroniclers and told in detail in Irvine's Later Mughals."
+        }
+      ],
+      "hook": "Two young emperors dead in a single year. The Sayyids reach for another prince, a teenage grandson of Bahadur Shah. They think they have found the perfect puppet. They are wrong.",
+      "images": [
+        {
+          "file": "File:The Emperor Farrukhsiyar on his balcony 1715-1719, Bibliothèque nationale de France, Paris.jpg",
+          "url": "https://upload.wikimedia.org/wikipedia/commons/b/b4/The_Emperor_Farrukhsiyar_on_his_balcony_1715-1719%2C_Biblioth%C3%A8que_nationale_de_France%2C_Paris.jpg",
+          "page": "https://commons.wikimedia.org/wiki/File:The_Emperor_Farrukhsiyar_on_his_balcony_1715-1719,_Bibliothèque_nationale_de_France,_Paris.jpg",
+          "credit": "Unknown Mughal artist",
+          "license": "Public domain",
+          "made": "1715–1719",
+          "caption": "Farrukhsiyar, the best known of the puppet emperors, painted in his own reign; Bibliothèque nationale de France, Paris.",
+          "alt": "Mughal miniature of the emperor Farrukhsiyar at his palace balcony"
+        }
+      ],
+      "sources": [
+        {
+          "title": "Later Mughals",
+          "author": "William Irvine",
+          "note": "Edited by Jadunath Sarkar, 2 vols, 1921–22"
+        },
+        {
+          "title": "Parties and Politics at the Mughal Court, 1707–1740",
+          "author": "Satish Chandra",
+          "note": "First published 1959"
+        },
+        {
+          "title": "The Anarchy: The Relentless Rise of the East India Company",
+          "author": "William Dalrymple",
+          "note": "Bloomsbury, 2019"
+        }
+      ],
+      "review": {
+        "status": "draft",
+        "notes": "Drafted from the listed sources; needs a human fact-check."
+      }
+    },
+    {
+      "id": "muhammad-shah",
+      "kind": "monarch",
+      "rulers": [
+        "muhammad-shah"
+      ],
+      "tagline": "The pleasure-loving emperor who lost the Peacock Throne",
+      "start": {
+        "date": "1719-09-27"
+      },
+      "end": {
+        "date": "1748-04-26"
+      },
+      "contestedWith": [],
+      "relationToPredecessor": "Grandson of Bahadur Shah I",
+      "ageAtAccession": "17",
+      "cameToPower": "Picked by the Sayyid brothers",
+      "reignEnded": "Died in Delhi",
+      "previously": "Four emperors in 1719. The Sayyid kingmakers pick another teenager.",
+      "paragraphs": [
+        "The Sayyids thought young Roshan Akhtar would be easy to handle. Within a year Husain Ali was assassinated and Abdullah was beaten and locked up. But the empire was coming apart anyway. Nizam-ul-Mulk set up his own state in Hyderabad, Awadh and Bengal ran themselves, and in 1737 the Maratha general Baji Rao raided right up to the edge of Delhi.",
+        "Then Nader Shah of Iran invaded. At Karnal in February 1739 he crushed the Mughal army, and he marched into Delhi. When a riot broke out against his troops, he ordered a massacre on 22 March. Most estimates put the dead at 20,000 to 30,000 in a single day. Nader left with the Peacock Throne and the Koh-i-Noor diamond, and put Muhammad Shah back on an empty throne.",
+        "He was nicknamed Rangila, the Colourful. His court painters showed him at play, and his musicians, led by Niamat Khan, called Sadarang, shaped the khayal style of singing still heard today. In March 1748 his son Ahmad beat the Afghan invader Ahmad Shah Durrani at Manupur. The emperor died weeks later."
+      ],
+      "claims": [
+        {
+          "text": "Muhammad Shah hid the Koh-i-Noor in his turban, and Nader Shah got it by proposing a friendly turban swap.",
+          "status": "legend",
+          "note": "The story first appears in later European accounts. Contemporary sources say nothing of a turban trick."
+        },
+        {
+          "text": "Around 20,000 to 30,000 people were killed in Delhi on 22 March 1739.",
+          "status": "disputed",
+          "note": "Most historians give a figure in this range, but contemporary estimates vary widely, from far fewer to far more."
+        },
+        {
+          "text": "Niamat Khan, known as Sadarang, helped create the khayal style of classical singing at Muhammad Shah's court.",
+          "status": "confirmed",
+          "note": "Accepted by historians of Hindustani music. Many khayal compositions still carry the name Sadarang."
+        }
+      ],
+      "hook": "Muhammad Shah is dead, and the hero of Manupur comes home to take the throne. Ahmad Shah is young and popular. He will soon find out who really runs the palace.",
+      "images": [
+        {
+          "file": "File:Nidha Mal Jharokha portrait of Muhammad Shah holding an emerald and the mouthpiece of a huqqa ca. 1730 The San Diego Museum of Art.jpg",
+          "url": "https://upload.wikimedia.org/wikipedia/commons/c/c6/Nidha_Mal_Jharokha_portrait_of_Muhammad_Shah_holding_an_emerald_and_the_mouthpiece_of_a_huqqa_ca._1730_The_San_Diego_Museum_of_Art.jpg",
+          "page": "https://commons.wikimedia.org/wiki/File:Nidha_Mal_Jharokha_portrait_of_Muhammad_Shah_holding_an_emerald_and_the_mouthpiece_of_a_huqqa_ca._1730_The_San_Diego_Museum_of_Art.jpg",
+          "credit": "Nidha Mal",
+          "license": "Public domain",
+          "made": "c. 1730",
+          "caption": "Painted by the court artist Nidha Mal around 1730, in the emperor's lifetime; San Diego Museum of Art.",
+          "alt": "Mughal miniature of Muhammad Shah at a palace window, holding an emerald and the mouthpiece of a huqqa"
+        }
+      ],
+      "sources": [
+        {
+          "title": "Later Mughals",
+          "author": "William Irvine",
+          "note": "Edited by Jadunath Sarkar, 2 vols, 1921–22"
+        },
+        {
+          "title": "The Sword of Persia: Nader Shah, from Tribal Warrior to Conquering Tyrant",
+          "author": "Michael Axworthy",
+          "note": "I.B. Tauris, 2006"
+        },
+        {
+          "title": "Koh-i-Noor: The History of the World's Most Infamous Diamond",
+          "author": "William Dalrymple and Anita Anand",
+          "note": "Bloomsbury, 2017; the turban story"
+        },
+        {
+          "title": "The Anarchy: The Relentless Rise of the East India Company",
+          "author": "William Dalrymple",
+          "note": "Bloomsbury, 2019"
+        }
+      ],
+      "review": {
+        "status": "draft",
+        "notes": "Drafted from the listed sources; needs a human fact-check."
+      }
+    },
+    {
+      "id": "ahmad-shah-bahadur",
+      "kind": "monarch",
+      "rulers": [
+        "ahmad-shah-bahadur"
+      ],
+      "tagline": "A war hero on the throne, his mother in charge",
+      "start": {
+        "date": "1748-04-29"
+      },
+      "end": {
+        "date": "1754-06-02"
+      },
+      "contestedWith": [],
+      "relationToPredecessor": "Son of Muhammad Shah",
+      "ageAtAccession": "22",
+      "cameToPower": "Succeeded his father",
+      "reignEnded": "Deposed and blinded",
+      "previously": "Muhammad Shah dies weeks after his son beats the Afghans at Manupur.",
+      "paragraphs": [
+        "Ahmad Shah came to the throne as the victor of Manupur, then left the government to others. The real power sat with his mother, Qudsia Begum, and her ally the eunuch Javed Khan. The vizier Safdarjung, Nawab of Awadh, had Javed Khan murdered in 1752. The next year Safdarjung fought the court in a civil war through the streets of Delhi, then pulled back to Awadh.",
+        "Meanwhile Ahmad Shah Durrani took the Punjab. The new strongman in Delhi was a teenage noble, Imad-ul-Mulk, grandson of Nizam-ul-Mulk. In June 1754, with Maratha help, he deposed the emperor and had him and his mother blinded. Ahmad Shah lived on as a prisoner for another twenty years, until 1775."
+      ],
+      "claims": [
+        {
+          "text": "Qudsia Begum had been a dancer before she rose in the imperial harem.",
+          "status": "disputed",
+          "note": "Repeated in later accounts, often by writers keen to mock the court. Firm evidence is thin."
+        },
+        {
+          "text": "Imad-ul-Mulk had the deposed emperor and his mother blinded.",
+          "status": "confirmed",
+          "note": "Recorded by the Delhi chroniclers and told in Jadunath Sarkar's Fall of the Mughal Empire."
+        }
+      ],
+      "hook": "Imad-ul-Mulk needs a new emperor, someone who will do as he's told. He finds one in a prince of 54 who has spent most of his life locked away.",
+      "images": [
+        {
+          "file": "File:The Emperor Ahmad Shah, equestrian, in the hunting field 1750 San Diego Museum of Art.jpg",
+          "url": "https://upload.wikimedia.org/wikipedia/commons/6/6f/The_Emperor_Ahmad_Shah%2C_equestrian%2C_in_the_hunting_field_1750_San_Diego_Museum_of_Art.jpg",
+          "page": "https://commons.wikimedia.org/wiki/File:The_Emperor_Ahmad_Shah,_equestrian,_in_the_hunting_field_1750_San_Diego_Museum_of_Art.jpg",
+          "credit": "Unknown Mughal artist",
+          "license": "Public domain",
+          "made": "c. 1750",
+          "caption": "Painted around 1750, during his reign; San Diego Museum of Art.",
+          "alt": "Mughal miniature of the emperor Ahmad Shah on horseback in the hunting field"
+        }
+      ],
+      "sources": [
+        {
+          "title": "Fall of the Mughal Empire",
+          "author": "Jadunath Sarkar",
+          "note": "4 vols, 1932–50"
+        },
+        {
+          "title": "The Anarchy: The Relentless Rise of the East India Company",
+          "author": "William Dalrymple",
+          "note": "Bloomsbury, 2019"
+        }
+      ],
+      "review": {
+        "status": "draft",
+        "notes": "Drafted from the listed sources; needs a human fact-check."
+      }
+    },
+    {
+      "id": "alamgir-ii",
+      "kind": "monarch",
+      "rulers": [
+        "alamgir-ii"
+      ],
+      "tagline": "A prisoner made emperor, then murdered by his maker",
+      "start": {
+        "date": "1754-06-03"
+      },
+      "end": {
+        "date": "1759-11-29"
+      },
+      "contestedWith": [],
+      "relationToPredecessor": "Son of Jahandar Shah",
+      "ageAtAccession": "54",
+      "cameToPower": "Chosen by Imad-ul-Mulk",
+      "reignEnded": "Murdered on his vizier's orders",
+      "previously": "Ahmad Shah is deposed and blinded. Imad-ul-Mulk wants a new puppet.",
+      "paragraphs": [
+        "Aziz-ud-Din was a son of Jahandar Shah, one of the short-lived puppets of 1712. He had spent decades shut away as a prince, and Imad-ul-Mulk thought he would be grateful and quiet. He took the name Alamgir, after his great-grandfather Aurangzeb, but the power stayed with his vizier.",
+        "In 1757 Ahmad Shah Durrani came back. His army plundered Delhi, then fell on the holy city of Mathura, killing many pilgrims and townspeople. In June, far away in Bengal, the East India Company won at Plassey. The emperor's son Ali Gauhar escaped from Delhi and went east. In November 1759 Imad, sure the emperor wanted to be rid of him, struck first. Alamgir II was lured out and stabbed to death."
+      ],
+      "claims": [
+        {
+          "text": "Alamgir II was lured to meet a holy man at Kotla Fateh Shah, stabbed, and his body thrown out on the riverbank.",
+          "status": "disputed",
+          "note": "The details come from chroniclers of the time and vary between accounts. That Imad ordered the killing is not in doubt."
+        },
+        {
+          "text": "Alamgir had spent most of his life confined as a prince before he was made emperor.",
+          "status": "disputed",
+          "note": "Later princes were routinely kept in palace confinement, but how strict his was is not well recorded."
+        }
+      ],
+      "hook": "Imad sets another puppet, Shah Jahan III, on the throne. But in the east, Ali Gauhar hears of his father's murder and declares himself emperor.",
+      "images": [
+        {
+          "file": "File:Alamgir II (VAM, 1755).jpg",
+          "url": "https://upload.wikimedia.org/wikipedia/commons/a/a9/Alamgir_II_%28VAM%2C_1755%29.jpg",
+          "page": "https://commons.wikimedia.org/wiki/File:Alamgir_II_(VAM,_1755).jpg",
+          "credit": "Unknown Mughal artist",
+          "license": "Public domain",
+          "made": "c. 1755",
+          "caption": "Painted around 1755, during his reign; Victoria and Albert Museum.",
+          "alt": "Mughal painting of Alamgir II smoking a huqqa"
+        }
+      ],
+      "sources": [
+        {
+          "title": "Fall of the Mughal Empire",
+          "author": "Jadunath Sarkar",
+          "note": "4 vols, 1932–50"
+        },
+        {
+          "title": "The Anarchy: The Relentless Rise of the East India Company",
+          "author": "William Dalrymple",
+          "note": "Bloomsbury, 2019"
+        }
+      ],
+      "review": {
+        "status": "draft",
+        "notes": "Drafted from the listed sources; needs a human fact-check."
+      }
+    },
+    {
+      "id": "shah-alam-ii",
+      "kind": "monarch",
+      "rulers": [
+        "shah-alam-ii"
+      ],
+      "tagline": "The blind emperor whose empire ran from Delhi to Palam",
+      "start": {
+        "date": "1760-10-10"
+      },
+      "end": {
+        "date": "1806-11-19"
+      },
+      "contestedWith": [],
+      "relationToPredecessor": "Son of Alamgir II",
+      "ageAtAccession": "32",
+      "cameToPower": "Proclaimed himself in exile",
+      "reignEnded": "Died in Delhi",
+      "previously": "Alamgir II is murdered, and in the east his son claims the throne.",
+      "paragraphs": [
+        "Ali Gauhar named himself emperor in late 1759, and by October 1760 Delhi recognised him as Shah Alam II. He could not get there. In January 1761 the Marathas and Ahmad Shah Durrani met at Panipat, and tens of thousands died. In 1764 Shah Alam joined the Nawab of Awadh and Mir Qasim of Bengal against the East India Company at Buxar, and they lost. In 1765 he gave the Company the diwani, the right to collect the revenue of Bengal, Bihar and Orissa.",
+        "He lived at Allahabad under British protection until 1772, when the Maratha general Mahadji Scindia brought him home to Delhi. In 1788 the Rohilla chief Ghulam Qadir seized the Red Fort, tormented the royal family looking for hidden treasure, and on 10 August blinded the emperor with a knife. Scindia's troops took the city back, and Ghulam Qadir was caught and killed.",
+        "Shah Alam wrote poetry as Aftab. People joked that his empire ran from Delhi to Palam, a nearby village. In 1803 General Lake's British army took Delhi, and the old blind emperor came under Company protection. He died in 1806."
+      ],
+      "claims": [
+        {
+          "text": "Ghulam Qadir's eyes were sent to the blinded emperor.",
+          "status": "disputed",
+          "note": "Told in several accounts of his execution, but the gruesome details vary and may have grown in the retelling."
+        },
+        {
+          "text": "Ghulam Qadir blinded Shah Alam II himself, in the Red Fort, in August 1788.",
+          "status": "confirmed",
+          "note": "Recorded in detail by Delhi chroniclers of the time and told in every modern account."
+        },
+        {
+          "text": "“The empire of Shah Alam runs from Delhi to Palam.”",
+          "status": "confirmed",
+          "note": "A Persian rhyme that went round in his lifetime, mocking how little land the emperor actually controlled."
+        }
+      ],
+      "hook": "The blind emperor is dead. His son Akbar inherits a grand title, a palace and a pension. Everything else now belongs to the British.",
+      "images": [
+        {
+          "file": "File:Shah Alam II, 1790s.jpg",
+          "url": "https://upload.wikimedia.org/wikipedia/commons/a/a2/Shah_Alam_II%2C_1790s.jpg",
+          "page": "https://commons.wikimedia.org/wiki/File:Shah_Alam_II,_1790s.jpg",
+          "credit": "Unknown artist",
+          "license": "Public domain",
+          "made": "1790s",
+          "caption": "A British engraving from the 1790s, made in his lifetime and titled “Shah Allum the Present Emperor of Hindostan”; the colouring was added later.",
+          "alt": "Hand-coloured engraving of Shah Alam II"
+        }
+      ],
+      "sources": [
+        {
+          "title": "The Anarchy: The Relentless Rise of the East India Company",
+          "author": "William Dalrymple",
+          "note": "Bloomsbury, 2019"
+        },
+        {
+          "title": "Fall of the Mughal Empire",
+          "author": "Jadunath Sarkar",
+          "note": "4 vols, 1932–50"
+        },
+        {
+          "title": "The History of the Reign of Shah-Aulum, the Present Emperor of Hindostaun",
+          "author": "William Francklin",
+          "note": "London, 1798"
+        }
+      ],
+      "review": {
+        "status": "draft",
+        "notes": "Drafted from the listed sources; needs a human fact-check."
+      }
+    },
+    {
+      "id": "akbar-ii",
+      "kind": "monarch",
+      "rulers": [
+        "akbar-ii"
+      ],
+      "tagline": "An emperor on a British pension, inside his own fort",
+      "start": {
+        "date": "1806-11-19"
+      },
+      "end": {
+        "date": "1837-09-28"
+      },
+      "contestedWith": [],
+      "relationToPredecessor": "Son of Shah Alam II",
+      "ageAtAccession": "46",
+      "cameToPower": "Succeeded his father",
+      "reignEnded": "Died in Delhi",
+      "previously": "The blind Shah Alam II dies under the East India Company's protection.",
+      "paragraphs": [
+        "Akbar II was born in 1760 at Mukundpur in Rewa, during his father's wandering years. Now he had the grandest title in India and almost nothing behind it. The Company paid him a pension, and his power hardly reached past the walls of the Red Fort. He was credited with starting the Phool Walon Ki Sair, a flower-sellers' festival in Mehrauli that Hindus and Muslims shared.",
+        "Short of money, he sent the Bengali reformer Ram Mohan Roy to Britain in 1830 to argue for a bigger pension, and gave him the title Raja. Roy died in Bristol in 1833. In 1835 the Company stopped putting the emperor's name on its coins. Akbar II quarrelled with the British over his heir, favouring a younger son over his eldest, Abu Zafar. He lost."
+      ],
+      "claims": [
+        {
+          "text": "Akbar II started the Phool Walon Ki Sair, around 1812.",
+          "status": "disputed",
+          "note": "The usual story ties it to a vow by his queen after the British exiled one of their sons. It rests on Delhi tradition more than on documents."
+        },
+        {
+          "text": "Akbar II gave Ram Mohan Roy the title Raja and sent him to Britain.",
+          "status": "confirmed",
+          "note": "Roy travelled as the emperor's envoy and was known in Britain as Raja Rammohun Roy."
+        },
+        {
+          "text": "In 1835 the East India Company's coins stopped carrying the Mughal emperor's name.",
+          "status": "confirmed",
+          "note": "The new uniform Company rupee of 1835 bore the British king William IV instead."
+        }
+      ],
+      "hook": "Akbar II is dead, and his eldest son takes the throne at 61. Abu Zafar is a poet and calligrapher. The British are already planning for the title to die with him.",
+      "images": [
+        {
+          "file": "File:The Mughal Emperor Akbar II, by Jivan Ram, Delhi, c.1834 - British Library Add.Or.3167.png",
+          "url": "https://upload.wikimedia.org/wikipedia/commons/4/40/The_Mughal_Emperor_Akbar_II%2C_by_Jivan_Ram%2C_Delhi%2C_c.1834_-_British_Library_Add.Or.3167.png",
+          "page": "https://commons.wikimedia.org/wiki/File:The_Mughal_Emperor_Akbar_II,_by_Jivan_Ram,_Delhi,_c.1834_-_British_Library_Add.Or.3167.png",
+          "credit": "Jivan Ram",
+          "license": "Public domain",
+          "made": "c. 1834",
+          "caption": "A portrait miniature by the Delhi artist Jivan Ram, about 1834, late in his reign; British Library.",
+          "alt": "Portrait miniature of Akbar II, a brush drawing with wash and some colour"
+        }
+      ],
+      "sources": [
+        {
+          "title": "Twilight of the Mughuls: Studies in Late Mughal Delhi",
+          "author": "Percival Spear",
+          "note": "Cambridge University Press, 1951"
+        },
+        {
+          "title": "The Last Mughal: The Fall of a Dynasty, Delhi 1857",
+          "author": "William Dalrymple",
+          "note": "Bloomsbury, 2006"
+        },
+        {
+          "title": "Rammohun Roy and the Making of Victorian Britain",
+          "author": "Lynn Zastoupil",
+          "note": "Palgrave Macmillan, 2010"
+        }
+      ],
+      "review": {
+        "status": "draft",
+        "notes": "Drafted from the listed sources; needs a human fact-check."
+      }
+    },
+    {
+      "id": "bahadur-shah-ii",
+      "kind": "monarch",
+      "rulers": [
+        "bahadur-shah-ii"
+      ],
+      "tagline": "The poet emperor who ended his days in Rangoon",
+      "start": {
+        "date": "1837-09-28"
+      },
+      "end": {
+        "date": "1857-09-21"
+      },
+      "contestedWith": [],
+      "relationToPredecessor": "Son of Akbar II",
+      "ageAtAccession": "61",
+      "cameToPower": "Succeeded his father",
+      "reignEnded": "Surrendered at Humayun's Tomb",
+      "previously": "Akbar II dies, and his eldest son, a poet of 61, takes the throne.",
+      "paragraphs": [
+        "Bahadur Shah II wrote Urdu verse under the pen name Zafar and was a fine calligrapher. His court was home to the great poets Ghalib and Zauq. Outside the Red Fort he had no real power. Then, on 11 May 1857, mutinous sepoys rode in from Meerut and proclaimed the 81-year-old emperor leader of their uprising.",
+        "Europeans and Indian Christians in Delhi were killed, including prisoners put to death in the palace grounds on 16 May. In September the British stormed the city, and their troops killed and looted in turn. Zafar took refuge at Humayun's Tomb and gave himself up to Major William Hodson on a promise that his life would be spared. The next day Hodson shot two of his sons and a grandson near a gate later called the Khooni Darwaza, the Bloody Gate.",
+        "In 1858 a British military commission tried him in his own Red Fort. He was exiled to Rangoon in Burma with his wife Zeenat Mahal. He died there on 7 November 1862 and was buried in an unmarked grave. The Mughal dynasty, which began with Babur at Panipat, ended with an old poet far from home."
+      ],
+      "claims": [
+        {
+          "text": "Zafar wrote the famous couplet lamenting that he could not find two yards of land for his grave in his beloved country.",
+          "status": "disputed",
+          "note": "The verse is popularly credited to him, but scholars of Urdu poetry doubt it is his and think a later poet may have written it."
+        },
+        {
+          "text": "Zafar could have stopped the killing of the European prisoners at the palace on 16 May 1857.",
+          "status": "disputed",
+          "note": "His British trial blamed him. Many historians think the old emperor had little control over the sepoys."
+        },
+        {
+          "text": "The Khooni Darwaza got its name from the shooting of the Mughal princes.",
+          "status": "legend",
+          "note": "The gate is far older, and stories of bloodshed there go back long before 1857."
+        }
+      ],
+      "images": [
+        {
+          "file": "File:Bahadur Shah Zafar.jpg",
+          "url": "https://upload.wikimedia.org/wikipedia/commons/f/f2/Bahadur_Shah_Zafar.jpg",
+          "page": "https://commons.wikimedia.org/wiki/File:Bahadur_Shah_Zafar.jpg",
+          "credit": "Robert Tytler and Charles Shepherd",
+          "license": "Public domain",
+          "made": "May 1858",
+          "caption": "Photographed by Robert Tytler and Charles Shepherd in May 1858, shortly before he was sent into exile; British Library.",
+          "alt": "Photograph of the aged, white-bearded last Mughal emperor"
+        }
+      ],
+      "sources": [
+        {
+          "title": "The Last Mughal: The Fall of a Dynasty, Delhi 1857",
+          "author": "William Dalrymple",
+          "note": "Bloomsbury, 2006"
+        },
+        {
+          "title": "Twilight of the Mughuls: Studies in Late Mughal Delhi",
+          "author": "Percival Spear",
+          "note": "Cambridge University Press, 1951"
+        },
+        {
+          "title": "Ghalib: The Man, the Times",
+          "author": "Pavan K. Varma",
+          "note": "Penguin, 1989"
+        }
+      ],
+      "review": {
+        "status": "draft",
+        "notes": "Drafted from the listed sources; needs a human fact-check."
+      }
+    }
+  ]
+}
