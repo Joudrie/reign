@@ -1,0 +1,1464 @@
+{
+  "id": "mongol",
+  "name": "Mongol Empire",
+  "blurb": "From Genghis Khan's steppe empire to the fall of the Yuan",
+  "dateConvention": "Mongol, Chinese and Persian sources each used their own calendars; the dates here are the Julian equivalents given in standard references. After 1260 the Great Khan ruled in China as Emperor of the Yuan, while the Golden Horde, the Ilkhanate and the Chagatai Khanate went their own way; the deck follows the Great Khans in China, and the regents who ruled between khans.",
+  "epilogue": "Toghon Temür died in 1370. His heirs ruled the steppe as the Northern Yuan until the 1630s, while the Ilkhanate, the Chagatai lands and the Golden Horde had long gone their own way.",
+  "houses": [
+    {
+      "id": "borjigin",
+      "name": "Borjigin",
+      "color": "#2f5d8a"
+    },
+    {
+      "id": "yuan",
+      "name": "Yuan (Borjigin)",
+      "color": "#5a4a8a"
+    }
+  ],
+  "rulers": [
+    {
+      "id": "genghis",
+      "name": "Genghis Khan",
+      "house": "borjigin",
+      "born": {
+        "date": "1162",
+        "circa": true,
+        "note": "By the Onon river; some sources give 1155 or 1167"
+      },
+      "died": {
+        "date": "1227-08",
+        "note": "On campaign against Xi Xia; the day is given as 18 or 25 August"
+      },
+      "causeOfDeath": "Unknown; a riding fall or illness"
+    },
+    {
+      "id": "tolui",
+      "name": "Tolui",
+      "house": "borjigin",
+      "born": {
+        "date": "1191",
+        "circa": true
+      },
+      "died": {
+        "date": "1232"
+      },
+      "causeOfDeath": "Unknown; illness or drink"
+    },
+    {
+      "id": "ogedei",
+      "name": "Ögedei Khan",
+      "house": "borjigin",
+      "born": {
+        "date": "1186",
+        "circa": true
+      },
+      "died": {
+        "date": "1241-12-11"
+      },
+      "causeOfDeath": "Died after a night of heavy drinking"
+    },
+    {
+      "id": "toregene",
+      "name": "Töregene",
+      "house": "borjigin",
+      "died": {
+        "date": "1246",
+        "circa": true
+      },
+      "causeOfDeath": "Unknown"
+    },
+    {
+      "id": "guyuk",
+      "name": "Güyük Khan",
+      "house": "borjigin",
+      "born": {
+        "date": "1206-03-19"
+      },
+      "died": {
+        "date": "1248-04-20",
+        "note": "On the march west"
+      },
+      "causeOfDeath": "Unknown; drink, illness or poison"
+    },
+    {
+      "id": "oghul-qaimish",
+      "name": "Oghul Qaimish",
+      "house": "borjigin",
+      "died": {
+        "date": "1251",
+        "circa": true,
+        "note": "Some sources say 1252"
+      },
+      "causeOfDeath": "Executed after a trial"
+    },
+    {
+      "id": "mongke",
+      "name": "Möngke Khan",
+      "house": "borjigin",
+      "born": {
+        "date": "1209-01-11"
+      },
+      "died": {
+        "date": "1259-08-11",
+        "note": "At the siege of Diaoyu fortress, Sichuan"
+      },
+      "causeOfDeath": "Disease or a wound; sources differ"
+    },
+    {
+      "id": "kublai",
+      "name": "Kublai Khan",
+      "house": "yuan",
+      "born": {
+        "date": "1215-09-23"
+      },
+      "died": {
+        "date": "1294-02-18",
+        "note": "Dadu (Beijing)"
+      },
+      "causeOfDeath": "Illness in old age",
+      "sameAs": [
+        "china:kublai"
+      ]
+    },
+    {
+      "id": "ariq-boke",
+      "name": "Ariq Böke",
+      "house": "borjigin",
+      "born": {
+        "date": "1219",
+        "circa": true
+      },
+      "died": {
+        "date": "1266"
+      },
+      "causeOfDeath": "Illness, probably (poison was suspected)"
+    },
+    {
+      "id": "temur",
+      "name": "Temür Khan",
+      "epithet": "Öljeitü",
+      "house": "yuan",
+      "born": {
+        "date": "1265-10-15"
+      },
+      "died": {
+        "date": "1307-02-10",
+        "note": "Dadu (Beijing)"
+      },
+      "causeOfDeath": "Illness"
+    },
+    {
+      "id": "khaishan",
+      "name": "Khaishan",
+      "epithet": "Külüg Khan",
+      "house": "yuan",
+      "born": {
+        "date": "1281-08-04"
+      },
+      "died": {
+        "date": "1311-01-27",
+        "note": "Dadu (Beijing)"
+      },
+      "causeOfDeath": "Illness, blamed on heavy drinking"
+    },
+    {
+      "id": "ayurbarwada",
+      "name": "Ayurbarwada",
+      "epithet": "Buyantu Khan",
+      "house": "yuan",
+      "born": {
+        "date": "1285-04-09"
+      },
+      "died": {
+        "date": "1320-03-01",
+        "note": "Dadu (Beijing)"
+      },
+      "causeOfDeath": "Illness"
+    },
+    {
+      "id": "toghon-temur",
+      "name": "Toghon Temür",
+      "epithet": "Ukhaantu Khan",
+      "house": "yuan",
+      "born": {
+        "date": "1320-05-25"
+      },
+      "died": {
+        "date": "1370-05-23",
+        "note": "Yingchang, in exile on the steppe"
+      },
+      "causeOfDeath": "Illness"
+    }
+  ],
+  "reigns": [
+    {
+      "id": "genghis",
+      "kind": "monarch",
+      "rulers": [
+        "genghis"
+      ],
+      "tagline": "The outcast boy who rode out to conquer the world",
+      "start": {
+        "date": "1206"
+      },
+      "end": {
+        "date": "1227-08"
+      },
+      "contestedWith": [],
+      "relationToPredecessor": "Son of the chief Yesügei",
+      "ageAtAccession": "About 44",
+      "cameToPower": "Proclaimed khan by the Onon river",
+      "reignEnded": "Died on campaign against Xi Xia",
+      "previously": "Feuding tribes on the steppe, and a boy named Temüjin with nothing.",
+      "paragraphs": [
+        "North of China, Mongols, Tatars, Kereits, Naimans and Merkits fought endlessly. Tatars poisoned the chief Yesügei, and his son Temüjin grew up an outcast with his mother Hoelun. He killed his half-brother Begter in a quarrel over a fish, was taken by the Tayichiud clan and escaped. When the Merkits kidnapped his wife Börte, he won her back. He beat his old blood brother Jamukha and, tribe by tribe, made himself master of the steppe.",
+        "In 1206 a great assembly by the Onon river proclaimed him Chinggis Khan: Genghis. He promoted men for loyalty and talent over birth and split his armies into tens, hundreds and thousands. Scribes wrote Mongolian in a script borrowed from the Uyghurs. Then he turned south, raiding the Tangut kingdom of Xi Xia and the Jurchen Jin. In 1215 he took the Jin capital, Zhongdu, today's Beijing.",
+        "In 1218 the governor of Otrar, a town of the Khwarazmian empire, massacred a Mongol caravan. From 1219 Genghis invaded Central Asia and Iran. Bukhara, Samarkand, Merv and Nishapur fell, and their people were slaughtered. His generals Jebe and Subutai rode round the Caspian and beat the Rus princes at the Kalka in 1223. In August 1227, fighting Xi Xia again, Genghis died. His grave has never been found."
+      ],
+      "claims": [
+        {
+          "text": "Millions died in the sack of the Khwarazmian cities: over a million at Merv alone.",
+          "status": "disputed",
+          "note": "These are the chroniclers' figures, from Juvaini and others. Modern historians think they are hugely inflated, though the killing was real and terrible."
+        },
+        {
+          "text": "Genghis died from injuries after falling from his horse while hunting.",
+          "status": "disputed",
+          "note": "The Secret History says he was hurt in a fall the winter before. Other sources blame illness; later legends add arrows, lightning or a captive queen."
+        },
+        {
+          "text": "His funeral escort killed everyone they met on the road to his grave.",
+          "status": "legend",
+          "note": "Marco Polo tells it, decades later and at second hand. No Mongol source mentions it."
+        }
+      ],
+      "hook": "Genghis is dead and the family must gather to choose a khan. Until they do, his youngest son Tolui holds the homeland and most of the army.",
+      "images": [
+        {
+          "file": "File:YuanEmperorAlbumGenghisPortrait.jpg",
+          "url": "https://upload.wikimedia.org/wikipedia/commons/3/35/YuanEmperorAlbumGenghisPortrait.jpg",
+          "page": "https://commons.wikimedia.org/wiki/File:YuanEmperorAlbumGenghisPortrait.jpg",
+          "credit": "Unknown Yuan court artist",
+          "license": "Public domain",
+          "made": "Late 13th or 14th century",
+          "caption": "From the Yuan emperors' portrait album in Taipei, painted on silk decades after his death; nobody knows how close a likeness it is.",
+          "alt": "Painted bust portrait of an elderly man with a white beard and a white fur-trimmed cap"
+        }
+      ],
+      "sources": [
+        {
+          "title": "Genghis Khan: His Life and Legacy",
+          "author": "Paul Ratchnevsky",
+          "note": "Blackwell, 1991"
+        },
+        {
+          "title": "The Secret History of the Mongols",
+          "author": "Anonymous; translated by Igor de Rachewiltz",
+          "note": "13th-century Mongol epic; Brill, 2004"
+        },
+        {
+          "title": "The History of the World-Conqueror",
+          "author": "Ata-Malik Juvaini; translated by J. A. Boyle",
+          "note": "Written in the 1250s for the Mongol khans of Iran"
+        },
+        {
+          "title": "The Mongols",
+          "author": "David Morgan",
+          "note": "2nd edition, Blackwell, 2007"
+        }
+      ],
+      "review": {
+        "status": "draft",
+        "notes": "Drafted from the listed sources; needs a human fact-check."
+      }
+    },
+    {
+      "id": "tolui-regency",
+      "kind": "leader",
+      "title": "Tolui the Regent",
+      "rulers": [
+        "tolui"
+      ],
+      "tagline": "The youngest son who held the empire, then let it go",
+      "start": {
+        "date": "1227-08"
+      },
+      "end": {
+        "date": "1229-09-13"
+      },
+      "contestedWith": [],
+      "relationToPredecessor": "Youngest son of Genghis Khan",
+      "ageAtAccession": "About 36",
+      "cameToPower": "Regent as keeper of the hearth",
+      "reignEnded": "Handed power to Ögedei",
+      "previously": "Genghis Khan dies on campaign and is buried in a secret grave.",
+      "paragraphs": [
+        "Tolui was the youngest son of Genghis and his first wife Börte. Mongol custom made the youngest son the otchigin, the keeper of the hearth, who inherited his father's home pastures. So when Genghis died, Tolui took charge of the homeland and the bulk of the army. He ran the empire as regent, without the title of khan, while princes and generals rode in from its far corners.",
+        "Genghis had already named his heir: his third son, Ögedei. In 1229 the great assembly, the kurultai, met and confirmed it, and Tolui stepped aside. He went back to war against the Jin in north China and died in 1232. His widow Sorghaghtani Beki, a Christian princess of the Kereit, raised their four sons. Every one of them would rule: Möngke, Kublai, Hulagu and Ariq Böke."
+      ],
+      "claims": [
+        {
+          "text": "Genghis chose Ögedei as his heir in his own lifetime.",
+          "status": "confirmed",
+          "note": "The Secret History describes the family debate where Ögedei was picked, and Persian historians agree."
+        },
+        {
+          "text": "Tolui inherited the great majority of his father's army.",
+          "status": "disputed",
+          "note": "The figures come from Rashid al-Din, writing about 80 years later for Tolui's descendants. Historians question the numbers."
+        },
+        {
+          "text": "Tolui died after drinking a shaman's cup to take on an illness that had struck Ögedei.",
+          "status": "legend",
+          "note": "This is the Secret History's version. Persian sources say he drank himself to death."
+        }
+      ],
+      "hook": "The kurultai has spoken. Ögedei is Great Khan: easy-going, generous, fond of a drink, and handed an empire that is only half conquered.",
+      "images": [
+        {
+          "file": "File:TuluiWithQueenSorgaqtani.jpg",
+          "url": "https://upload.wikimedia.org/wikipedia/commons/4/48/TuluiWithQueenSorgaqtani.jpg",
+          "page": "https://commons.wikimedia.org/wiki/File:TuluiWithQueenSorgaqtani.jpg",
+          "credit": "Illustrator of Rashid al-Din's Jami' al-tawarikh",
+          "license": "Public domain",
+          "made": "Early 14th century",
+          "caption": "From a manuscript of Rashid al-Din's history, painted in Ilkhanid Iran about 80 years after his death; not a likeness.",
+          "alt": "Persian manuscript painting of Tolui with his queen, Sorghaghtani Beki"
+        }
+      ],
+      "sources": [
+        {
+          "title": "The Secret History of the Mongols",
+          "author": "Anonymous; translated by Igor de Rachewiltz",
+          "note": "13th-century Mongol epic; Brill, 2004"
+        },
+        {
+          "title": "Jami' al-tawarikh (Compendium of Chronicles)",
+          "author": "Rashid al-Din; translated by Wheeler Thackston",
+          "note": "Early 14th century, written for the Ilkhans of Iran"
+        },
+        {
+          "title": "The Mongols",
+          "author": "David Morgan",
+          "note": "2nd edition, Blackwell, 2007"
+        }
+      ],
+      "review": {
+        "status": "draft",
+        "notes": "Drafted from the listed sources; needs a human fact-check."
+      }
+    },
+    {
+      "id": "ogedei",
+      "kind": "monarch",
+      "rulers": [
+        "ogedei"
+      ],
+      "tagline": "The genial drinker who sent the Mongols into Europe",
+      "start": {
+        "date": "1229-09-13"
+      },
+      "end": {
+        "date": "1241-12-11"
+      },
+      "contestedWith": [],
+      "relationToPredecessor": "Third son of Genghis Khan",
+      "ageAtAccession": "About 43",
+      "cameToPower": "Confirmed by the 1229 kurultai",
+      "reignEnded": "Died after a night's drinking",
+      "previously": "Tolui hands over. The kurultai confirms Genghis's choice: Ögedei.",
+      "paragraphs": [
+        "Genghis picked Ögedei for his temper. He was relaxed and open-handed, the brother who could keep the others from each other's throats. He gave the empire a capital, Karakorum, walled from 1235. He set up the yam, a relay post with stations of horses and riders across the steppe. His Khitan adviser Yelü Chucai taught him that north China's farmers were worth more taxed than gone.",
+        "In 1234, with help from the Song, his armies wiped out the Jin dynasty. Then he sent a huge force west under his nephew Batu and the veteran general Subutai. Ryazan and Vladimir burned, and Kiev fell in 1240. In April 1241 the Mongols smashed a Polish army at Legnica and the Hungarians at Mohi. Central Europe lay open.",
+        "Ögedei drank hard, and in December 1241 he died after a night of it. The next year the Mongol armies in Europe turned back east. Back home, his widow Töregene took over the government."
+      ],
+      "claims": [
+        {
+          "text": "Yelü Chucai talked Ögedei out of turning north China into pasture for horses.",
+          "status": "disputed",
+          "note": "The story comes from Yelü's own biography and tombstone text, which make him the hero. Historians think he did steer policy towards taxing farmers."
+        },
+        {
+          "text": "His brother Chagatai put a man in charge of counting Ögedei's cups.",
+          "status": "legend",
+          "note": "Rashid al-Din tells it, adding that Ögedei cheated by using bigger cups."
+        },
+        {
+          "text": "The Mongols left Europe in 1242 because of Ögedei's death.",
+          "status": "disputed",
+          "note": "It's the classic explanation, but no source says the news reached Batu in time. Some historians point to supplies, pasture or Batu's own plans."
+        }
+      ],
+      "hook": "Ögedei is dead, and his widow Töregene holds the reins. She has a son, Güyük, and she means to make him khan, whatever her husband wanted.",
+      "images": [
+        {
+          "file": "File:YuanEmperorAlbumOgedeiPortrait.jpg",
+          "url": "https://upload.wikimedia.org/wikipedia/commons/9/9e/YuanEmperorAlbumOgedeiPortrait.jpg",
+          "page": "https://commons.wikimedia.org/wiki/File:YuanEmperorAlbumOgedeiPortrait.jpg",
+          "credit": "Unknown Yuan court artist",
+          "license": "Public domain",
+          "made": "14th century",
+          "caption": "From the Yuan emperors' portrait album in Taipei, painted in ink and colour on silk long after his death.",
+          "alt": "Painted bust portrait of Ögedei Khan, cropped from an album page of Yuan emperors"
+        }
+      ],
+      "sources": [
+        {
+          "title": "The History of the World-Conqueror",
+          "author": "Ata-Malik Juvaini; translated by J. A. Boyle",
+          "note": "Written in the 1250s for the Mongol khans of Iran"
+        },
+        {
+          "title": "Jami' al-tawarikh (Compendium of Chronicles)",
+          "author": "Rashid al-Din; translated by Wheeler Thackston",
+          "note": "Early 14th century, written for the Ilkhans of Iran"
+        },
+        {
+          "title": "The Mongols",
+          "author": "David Morgan",
+          "note": "2nd edition, Blackwell, 2007"
+        },
+        {
+          "title": "The Mongol Conquests in World History",
+          "author": "Timothy May",
+          "note": "Reaktion Books, 2012"
+        }
+      ],
+      "review": {
+        "status": "draft",
+        "notes": "Drafted from the listed sources; needs a human fact-check."
+      }
+    },
+    {
+      "id": "toregene-regency",
+      "kind": "leader",
+      "title": "Töregene's Regency",
+      "rulers": [
+        "toregene"
+      ],
+      "tagline": "The widow who ran the empire and picked her own son",
+      "start": {
+        "date": "1242"
+      },
+      "end": {
+        "date": "1246-08-24"
+      },
+      "contestedWith": [],
+      "relationToPredecessor": "Widow of Ögedei Khan",
+      "ageAtAccession": "Unknown",
+      "cameToPower": "Took over as Ögedei's widow",
+      "reignEnded": "Her son Güyük was elected",
+      "previously": "Ögedei dies after a night of drinking. Europe gets a reprieve.",
+      "paragraphs": [
+        "Töregene was Ögedei's senior widow, born into one of the steppe peoples Genghis had conquered. When her husband died she took over the government. She never held the title of khan, but for four years she ran the largest empire on earth. She sacked Ögedei's ministers and leaned on a confidante named Fatima, a captive brought from Iran.",
+        "Töregene wanted her son Güyük on the throne, and she spent years winning the princes round with gifts and favours. Batu, Genghis's grandson and master of the western steppe, stayed away. In 1246 the kurultai finally met and elected Güyük. A friar sent by the Pope, John of Plano Carpini, was there to see it. Töregene died soon afterwards, and Fatima went on trial for witchcraft."
+      ],
+      "claims": [
+        {
+          "text": "Ögedei had wanted his grandson Shiremün to succeed him, not Güyük.",
+          "status": "disputed",
+          "note": "Persian historians say so. They wrote for Tolui's family, who later pushed Ögedei's line aside, so they had reason to make Güyük look like a usurper."
+        },
+        {
+          "text": "Fatima was sewn up and thrown into a river after a witchcraft trial.",
+          "status": "disputed",
+          "note": "Juvaini tells it. He was hostile to both Töregene and Fatima, but a trial and execution are widely accepted."
+        },
+        {
+          "text": "Töregene was a Naiman.",
+          "status": "disputed",
+          "note": "Some sources make her a Naiman, others a Merkit, first married to a Merkit chief before the Mongols took her."
+        }
+      ],
+      "hook": "Güyük is khan at last. He has an old grudge against his cousin Batu, and a reply to write to the Pope.",
+      "images": [
+        {
+          "file": "File:Silver Dirham of Turakina, Tiflis, 642 H (1244-1245).jpg",
+          "url": "https://upload.wikimedia.org/wikipedia/commons/b/b0/Silver_Dirham_of_Turakina%2C_Tiflis%2C_642_H_%281244-1245%29.jpg",
+          "page": "https://commons.wikimedia.org/wiki/File:Silver_Dirham_of_Turakina,_Tiflis,_642_H_(1244-1245).jpg",
+          "credit": "American Numismatic Society",
+          "license": "CC0",
+          "made": "1244–45",
+          "caption": "A silver coin struck at Tiflis (Tbilisi) in her name during her regency; no portrait of her survives.",
+          "alt": "Both sides of a silver dirham of Turakina (Töregene), minted at Tiflis"
+        }
+      ],
+      "sources": [
+        {
+          "title": "The History of the World-Conqueror",
+          "author": "Ata-Malik Juvaini; translated by J. A. Boyle",
+          "note": "Written in the 1250s for the Mongol khans of Iran"
+        },
+        {
+          "title": "History of the Mongols",
+          "author": "John of Plano Carpini",
+          "note": "Eyewitness account of the 1246 enthronement"
+        },
+        {
+          "title": "Jami' al-tawarikh (Compendium of Chronicles)",
+          "author": "Rashid al-Din; translated by Wheeler Thackston",
+          "note": "Early 14th century, written for the Ilkhans of Iran"
+        },
+        {
+          "title": "The Mongols and the Islamic World",
+          "author": "Peter Jackson",
+          "note": "Yale University Press, 2017"
+        }
+      ],
+      "review": {
+        "status": "draft",
+        "notes": "Drafted from the listed sources; needs a human fact-check."
+      }
+    },
+    {
+      "id": "guyuk",
+      "kind": "monarch",
+      "rulers": [
+        "guyuk"
+      ],
+      "tagline": "The khan who told the Pope to come and kneel",
+      "start": {
+        "date": "1246-08-24"
+      },
+      "end": {
+        "date": "1248-04-20"
+      },
+      "contestedWith": [],
+      "relationToPredecessor": "Son of Töregene and Ögedei",
+      "ageAtAccession": "40",
+      "cameToPower": "Elected by the 1246 kurultai",
+      "reignEnded": "Died on the march west",
+      "previously": "Töregene's lobbying pays off. The princes elect her son Güyük.",
+      "paragraphs": [
+        "Güyük was enthroned on 24 August 1246. Watching was John of Plano Carpini, a Franciscan sent by Pope Innocent IV. He saw a vast tent, a carved throne, and envoys from across Asia and Russia queuing with gifts. Carpini carried a papal letter telling the Mongols to stop attacking Christians. Güyük's reply still sits in the Vatican archives, stamped with his seal. It told the Pope to come in person, with his kings, and submit.",
+        "At home Güyük turned on his mother's favourites. He also loathed his cousin Batu, Genghis's grandson and lord of the western steppe. In 1248 he set off west with an army, saying he needed the climate for his health. In April, still on the road, he died. He had ruled for under two years."
+      ],
+      "claims": [
+        {
+          "text": "Güyük and Batu fell out at a drinking party during the campaign in Russia.",
+          "status": "disputed",
+          "note": "The Secret History tells the story of insults traded over who should drink first. It fits the feud, but only this source has it."
+        },
+        {
+          "text": "Güyük's march west was really an attack on Batu.",
+          "status": "disputed",
+          "note": "Rashid al-Din says Tolui's widow Sorghaghtani warned Batu. Writing for her descendants, he had reason to make her look loyal."
+        },
+        {
+          "text": "Güyük was poisoned.",
+          "status": "disputed",
+          "note": "Nobody knows how he died. Drink and long illness are as likely as poison, and the sources don't agree."
+        }
+      ],
+      "hook": "Güyük is dead on the road west. His widow Oghul Qaimish becomes regent, but Batu and Tolui's widow Sorghaghtani have plans of their own.",
+      "images": [
+        {
+          "file": "File:LetterGuyugToInnocence.jpg",
+          "url": "https://upload.wikimedia.org/wikipedia/commons/b/b9/LetterGuyugToInnocence.jpg",
+          "page": "https://commons.wikimedia.org/wiki/File:LetterGuyugToInnocence.jpg",
+          "credit": "Güyük Khan's chancery",
+          "license": "Public domain",
+          "made": "1246",
+          "caption": "Güyük's letter to Pope Innocent IV, dated November 1246 and kept in the Vatican archives; no portrait of him survives.",
+          "alt": "Güyük Khan's handwritten letter to Pope Innocent IV"
+        }
+      ],
+      "sources": [
+        {
+          "title": "History of the Mongols",
+          "author": "John of Plano Carpini",
+          "note": "Eyewitness account of the 1246 enthronement"
+        },
+        {
+          "title": "The History of the World-Conqueror",
+          "author": "Ata-Malik Juvaini; translated by J. A. Boyle",
+          "note": "Written in the 1250s for the Mongol khans of Iran"
+        },
+        {
+          "title": "Jami' al-tawarikh (Compendium of Chronicles)",
+          "author": "Rashid al-Din; translated by Wheeler Thackston",
+          "note": "Early 14th century, written for the Ilkhans of Iran"
+        },
+        {
+          "title": "The Mongols and the Islamic World",
+          "author": "Peter Jackson",
+          "note": "Yale University Press, 2017"
+        }
+      ],
+      "review": {
+        "status": "draft",
+        "notes": "Drafted from the listed sources; needs a human fact-check."
+      }
+    },
+    {
+      "id": "oghul-qaimish-regency",
+      "kind": "leader",
+      "title": "Oghul Qaimish's Regency",
+      "rulers": [
+        "oghul-qaimish"
+      ],
+      "tagline": "The regent who took the French king's gifts as tribute",
+      "start": {
+        "date": "1248-04-20"
+      },
+      "end": {
+        "date": "1251-07-01"
+      },
+      "contestedWith": [],
+      "relationToPredecessor": "Widow of Güyük Khan",
+      "ageAtAccession": "Unknown",
+      "cameToPower": "Regent after Güyük's death",
+      "reignEnded": "Möngke elected in her place",
+      "previously": "Güyük dies on the march west, perhaps on his way to fight Batu.",
+      "paragraphs": [
+        "Oghul Qaimish was Güyük's widow, and she became regent. Like Töregene she held power without the title of khan, but her grip was far weaker. Her young sons set up courts of their own and gave out rival orders. Nobody was quite sure who was in charge, and the empire drifted.",
+        "Envoys from King Louis IX of France turned up, led by the friar André de Longjumeau, hoping for an alliance against Islam. She treated their gifts as tribute from a new vassal and asked for more. Meanwhile Batu and Sorghaghtani were organising. In 1251 they held a kurultai that elected Sorghaghtani's son Möngke. Ögedei's family refused to come. It cost them everything."
+      ],
+      "claims": [
+        {
+          "text": "She took Louis IX's gifts as a sign of submission and demanded yearly tribute.",
+          "status": "confirmed",
+          "note": "Joinville and William of Rubruck both report it, and say Louis regretted ever sending the envoys."
+        },
+        {
+          "text": "She spent her days shut away with shamans.",
+          "status": "disputed",
+          "note": "Juvaini says so, writing for the Toluid side that overthrew her. A useful picture for the winners."
+        },
+        {
+          "text": "After Möngke took over she was tried and drowned.",
+          "status": "disputed",
+          "note": "Rashid al-Din says she was sewn in felt and thrown in a river. That she was tried and executed is widely accepted; the manner rests on him."
+        }
+      ],
+      "hook": "Möngke is Great Khan, and power has passed from Ögedei's family to Tolui's. Some of Ögedei's grandsons are on their way to the celebrations, and they are not bringing presents.",
+      "images": [
+        {
+          "file": "File:Guyuk khan's Stamp 1246.jpg",
+          "url": "https://upload.wikimedia.org/wikipedia/commons/0/0e/Guyuk_khan%27s_Stamp_1246.jpg",
+          "page": "https://commons.wikimedia.org/wiki/File:Guyuk_khan's_Stamp_1246.jpg",
+          "credit": "Güyük Khan's chancery",
+          "license": "Public domain",
+          "made": "1246",
+          "caption": "The seal of her husband Güyük, from his 1246 letter to the Pope; no portrait of Oghul Qaimish is known.",
+          "alt": "Square seal impression in the classical Mongolian script"
+        }
+      ],
+      "sources": [
+        {
+          "title": "The History of the World-Conqueror",
+          "author": "Ata-Malik Juvaini; translated by J. A. Boyle",
+          "note": "Written in the 1250s for the Mongol khans of Iran"
+        },
+        {
+          "title": "Jami' al-tawarikh (Compendium of Chronicles)",
+          "author": "Rashid al-Din; translated by Wheeler Thackston",
+          "note": "Early 14th century, written for the Ilkhans of Iran"
+        },
+        {
+          "title": "The Mission of Friar William of Rubruck",
+          "author": "William of Rubruck; translated by Peter Jackson",
+          "note": "Hakluyt Society, 1990"
+        },
+        {
+          "title": "The Mongols and the Islamic World",
+          "author": "Peter Jackson",
+          "note": "Yale University Press, 2017"
+        }
+      ],
+      "review": {
+        "status": "draft",
+        "notes": "Drafted from the listed sources; needs a human fact-check."
+      }
+    },
+    {
+      "id": "mongke",
+      "kind": "monarch",
+      "rulers": [
+        "mongke"
+      ],
+      "tagline": "The stern organiser who sent his brothers to conquer",
+      "start": {
+        "date": "1251-07-01"
+      },
+      "end": {
+        "date": "1259-08-11"
+      },
+      "contestedWith": [],
+      "relationToPredecessor": "Son of Tolui; cousin of Güyük",
+      "ageAtAccession": "42",
+      "cameToPower": "Elected by Batu's kurultai",
+      "reignEnded": "Died at the siege of Diaoyu",
+      "previously": "Batu and Sorghaghtani get their way: Möngke is elected Great Khan.",
+      "paragraphs": [
+        "Möngke was Tolui's eldest son, and his election moved power from Ögedei's line to Tolui's. Ögedeid princes plotted against him at his enthronement. He answered with trials and executions, and the former regent Oghul Qaimish was among the dead. Then he got to work. He ordered a census, fixed the taxes and reined in the princes' spending. Sober and hard-working, he was unlike most of his family.",
+        "The friar William of Rubruck spent months at his court in 1253 and 1254. At Karakorum he saw a silver tree that poured drinks from its branches, made by a captured Parisian goldsmith, Guillaume Boucher. Möngke sent his brothers out. Hulagu went west, taking the Assassins' castles in 1256 and sacking Baghdad in 1258. Kublai marched against the kingdom of Dali in the south-west in 1253.",
+        "The empire was still one, but it had grown huge regional lords: the Golden Horde of Batu's family on the Russian steppe, the Chagatai princes in Central Asia, and Hulagu's new realm in Iran. Möngke led the war on the Song himself. In August 1259 he died at the siege of the Diaoyu fortress in Sichuan."
+      ],
+      "claims": [
+        {
+          "text": "The plot was found out when a falconer stumbled on carts full of hidden weapons.",
+          "status": "disputed",
+          "note": "That there was a plot is accepted. The falconer story comes from Juvaini and Rashid al-Din, both writing for Möngke's family."
+        },
+        {
+          "text": "Möngke staged a debate between Christians, Muslims and Buddhists, and the Christians won.",
+          "status": "disputed",
+          "note": "Rubruck took part and describes it. The debate happened; the verdict is his, and it ended with everyone drinking."
+        },
+        {
+          "text": "Möngke died of disease in the camp.",
+          "status": "disputed",
+          "note": "Persian sources say dysentery or cholera. Some Chinese accounts say he was hit by a stone or an arrow from the fortress walls."
+        }
+      ],
+      "hook": "Möngke is dead and the khanship is open again. Kublai is fighting the Song in China. Their youngest brother Ariq Böke holds Karakorum. Both want the throne.",
+      "images": [
+        {
+          "file": "File:Möngke enthroned. Tarikh-i Jahangushay-i Juvaini, 1438, Shiraz.jpg",
+          "url": "https://upload.wikimedia.org/wikipedia/commons/4/42/M%C3%B6ngke_enthroned._Tarikh-i_Jahangushay-i_Juvaini%2C_1438%2C_Shiraz.jpg",
+          "page": "https://commons.wikimedia.org/wiki/File:Möngke_enthroned._Tarikh-i_Jahangushay-i_Juvaini,_1438,_Shiraz.jpg",
+          "credit": "Unknown artist, Shiraz",
+          "license": "Public domain",
+          "made": "1438",
+          "caption": "From a copy of Juvaini's history made in Shiraz in 1438, nearly 180 years after his death; not a likeness.",
+          "alt": "Persian manuscript painting of Möngke enthroned"
+        }
+      ],
+      "sources": [
+        {
+          "title": "Mongol Imperialism: The Policies of the Grand Qan Möngke in China, Russia, and the Islamic Lands, 1251–1259",
+          "author": "Thomas T. Allsen",
+          "note": "University of California Press, 1987"
+        },
+        {
+          "title": "The Mission of Friar William of Rubruck",
+          "author": "William of Rubruck; translated by Peter Jackson",
+          "note": "Hakluyt Society, 1990"
+        },
+        {
+          "title": "The History of the World-Conqueror",
+          "author": "Ata-Malik Juvaini; translated by J. A. Boyle",
+          "note": "Written in the 1250s for the Mongol khans of Iran"
+        },
+        {
+          "title": "Jami' al-tawarikh (Compendium of Chronicles)",
+          "author": "Rashid al-Din; translated by Wheeler Thackston",
+          "note": "Early 14th century, written for the Ilkhans of Iran"
+        }
+      ],
+      "review": {
+        "status": "draft",
+        "notes": "Drafted from the listed sources; needs a human fact-check."
+      }
+    },
+    {
+      "id": "kublai",
+      "kind": "monarch",
+      "rulers": [
+        "kublai"
+      ],
+      "tagline": "The khan who chose China and split the empire",
+      "start": {
+        "date": "1260-05-05"
+      },
+      "end": {
+        "date": "1271-12-18"
+      },
+      "contestedWith": [
+        "ariq-boke"
+      ],
+      "relationToPredecessor": "Brother of Möngke Khan",
+      "ageAtAccession": "44",
+      "cameToPower": "Proclaimed khan at Kaiping",
+      "reignEnded": "Proclaimed the Yuan dynasty",
+      "previously": "Möngke dies at the siege of Diaoyu. The race for the throne begins.",
+      "paragraphs": [
+        "Kublai was Tolui's son and Genghis's grandson. Under Möngke he governed north China, surrounded by Chinese advisers. He heard of his brother's death while fighting the Song, and he didn't wait for the whole family to gather. On 5 May 1260 a kurultai of his own supporters at Kaiping, later called Shangdu, proclaimed him Great Khan. Weeks later Karakorum proclaimed his younger brother Ariq Böke.",
+        "Karakorum lived on grain from China, and Kublai held China. He cut off the supply and won the civil war by 1264. A Chinese general, Li Tan, rebelled in Shandong in 1262 and was executed. The empire never came back together. Hulagu in Iran and Berke of the Golden Horde went to war from 1262, and Kaidu, Ögedei's grandson, built a rival power in Central Asia. The western khans accepted Kublai's title in name at most.",
+        "So Kublai looked to China. In 1267 work began on a new capital, Dadu, where Beijing stands today. In 1268 his armies laid siege to Xiangyang, the Song stronghold on the Han river. In 1269 he brought in a new script, designed by the Tibetan lama 'Phags-pa, to write all the empire's languages. Then he made his biggest move yet."
+      ],
+      "claims": [
+        {
+          "text": "Kaiping, later Shangdu, is the Xanadu of Coleridge's poem 'Kubla Khan'.",
+          "status": "confirmed",
+          "note": "Coleridge drew on Samuel Purchas's retelling of Marco Polo's description of Shangdu. Its ruins are in Inner Mongolia."
+        },
+        {
+          "text": "Kublai's election in 1260 was a proper kurultai.",
+          "status": "disputed",
+          "note": "Only his own supporters attended, and much of the family was far away. Ariq Böke's side said the same of theirs. Victory settled the question."
+        }
+      ],
+      "hook": "Kublai is khan in China. But in Karakorum his younger brother Ariq Böke has been crowned too, and the old Mongol families say he is the true heir of the steppe.",
+      "images": [
+        {
+          "file": "File:KhubilaiOnTheHunt.jpg",
+          "url": "https://upload.wikimedia.org/wikipedia/commons/c/cc/KhubilaiOnTheHunt.jpg",
+          "page": "https://commons.wikimedia.org/wiki/File:KhubilaiOnTheHunt.jpg",
+          "credit": "Liu Guandao",
+          "license": "Public domain",
+          "made": "1280",
+          "caption": "Liu Guandao's scroll 'Kublai Khan Hunting', painted on silk in 1280 by a court artist in the khan's lifetime.",
+          "alt": "Painting on silk of Kublai Khan on horseback, out hunting with his companions"
+        }
+      ],
+      "sources": [
+        {
+          "title": "Khubilai Khan: His Life and Times",
+          "author": "Morris Rossabi",
+          "note": "University of California Press, 1988"
+        },
+        {
+          "title": "Jami' al-tawarikh (Compendium of Chronicles)",
+          "author": "Rashid al-Din; translated by Wheeler Thackston",
+          "note": "Early 14th century, written for the Ilkhans of Iran"
+        },
+        {
+          "title": "The Cambridge History of China, vol. 6: Alien Regimes and Border States, 907–1368",
+          "author": "Herbert Franke and Denis Twitchett (eds.)",
+          "note": "Cambridge University Press, 1994"
+        },
+        {
+          "title": "The Mongols",
+          "author": "David Morgan",
+          "note": "2nd edition, Blackwell, 2007"
+        }
+      ],
+      "review": {
+        "status": "draft",
+        "notes": "Drafted from the listed sources; needs a human fact-check."
+      }
+    },
+    {
+      "id": "ariq-boke",
+      "kind": "claimant",
+      "rulers": [
+        "ariq-boke"
+      ],
+      "tagline": "The steppe's own khan, starved out by his brother",
+      "start": {
+        "date": "1260-06"
+      },
+      "end": {
+        "date": "1264-08-21"
+      },
+      "contestedWith": [
+        "kublai"
+      ],
+      "relationToPredecessor": "Younger brother of Kublai Khan",
+      "ageAtAccession": "About 41",
+      "cameToPower": "Elected by a kurultai at Karakorum",
+      "reignEnded": "Surrendered to Kublai",
+      "previously": "Kublai is proclaimed khan at Kaiping. In Karakorum, his brother balks.",
+      "paragraphs": [
+        "Ariq Böke was the baby of Tolui's four boys, and by Mongol custom that made him the otchigin, keeper of the hearth. When Möngke rode south to fight the Song, he left Ariq Böke in charge of Karakorum and the homeland. So when Möngke died, the youngest brother was sitting in the capital, with the old Mongol families and Möngke's own sons at his side. In June 1260 his own kurultai made him Great Khan.",
+        "Now there were two Great Khans, and they were brothers. Kublai held the farmland of north China, and Karakorum lived on grain carted up from there. He simply stopped the carts. Ariq Böke sent the Chagatai prince Alghu to seize Central Asia and feed him from there, but Alghu kept everything for himself and switched sides. Battles went Kublai's way, Karakorum went hungry, and Ariq Böke's allies drifted off.",
+        "In August 1264 he gave himself up. Kublai spared his brother but executed a number of his advisers. Two years later, in 1266, Ariq Böke was dead, probably of illness. The empire had one Great Khan again, at least in name. Out west, the cousins had stopped listening."
+      ],
+      "claims": [
+        {
+          "text": "Asked by Kublai who had been in the right, Ariq Böke said: \"We were then, and you are now.\"",
+          "status": "legend",
+          "note": "The exchange comes from Rashid al-Din, writing decades later for Kublai's relatives in Iran. A great line, but nobody else records it."
+        },
+        {
+          "text": "Ariq Böke's backers saw him as the champion of steppe ways against a brother who had gone Chinese.",
+          "status": "disputed",
+          "note": "A popular modern reading. Plenty of his supporters may simply have backed whoever held Karakorum and the homeland."
+        },
+        {
+          "text": "Ariq Böke was poisoned.",
+          "status": "disputed",
+          "note": "His sudden death so soon after surrender raised suspicion, but the sources give no proof, and illness is the usual explanation."
+        }
+      ],
+      "hook": "Kublai is the last brother standing. With Mongolia secured, he turns south to the richest prize of all: the Song empire. First, he wants a new name for his realm.",
+      "images": [
+        {
+          "file": "File:Ariq Böke.jpg",
+          "url": "https://upload.wikimedia.org/wikipedia/commons/4/43/Ariq_B%C3%B6ke.jpg",
+          "page": "https://commons.wikimedia.org/wiki/File:Ariq_B%C3%B6ke.jpg",
+          "credit": "Miskin",
+          "license": "Public domain",
+          "made": "16th century",
+          "caption": "Painted by the Mughal court artist Miskin in the 16th century, some 300 years after Ariq Böke's death; it is not a likeness.",
+          "alt": "Mughal miniature painting identified as Ariq Böke"
+        }
+      ],
+      "sources": [
+        {
+          "title": "Khubilai Khan: His Life and Times",
+          "author": "Morris Rossabi",
+          "note": "University of California Press, 1988"
+        },
+        {
+          "title": "Jami'u't-tawarikh: Compendium of Chronicles",
+          "author": "Rashid al-Din",
+          "note": "Translated by Wheeler M. Thackston, 1998–99"
+        },
+        {
+          "title": "The Mongols",
+          "author": "David Morgan",
+          "note": "2nd ed., Blackwell, 2007"
+        },
+        {
+          "title": "The Cambridge History of China, vol. 6: Alien Regimes and Border States, 907–1368",
+          "author": "Herbert Franke and Denis Twitchett (eds.)",
+          "note": "Cambridge University Press, 1994"
+        }
+      ],
+      "review": {
+        "status": "draft",
+        "notes": "Drafted from the listed sources; needs a human fact-check."
+      }
+    },
+    {
+      "id": "kublai-yuan",
+      "kind": "monarch",
+      "rulers": [
+        "kublai"
+      ],
+      "title": "Kublai, Emperor of the Yuan",
+      "tagline": "The khan who conquered China and lost to the sea",
+      "start": {
+        "date": "1271-12-18"
+      },
+      "end": {
+        "date": "1294-02-18"
+      },
+      "contestedWith": [],
+      "relationToPredecessor": "Brother of Ariq Böke; same khan",
+      "ageAtAccession": "56",
+      "cameToPower": "Proclaimed the Great Yuan dynasty",
+      "reignEnded": "Died at Dadu, aged 78",
+      "previously": "Ariq Böke surrenders and soon dies. Kublai is the only Great Khan.",
+      "paragraphs": [
+        "On 18 December 1271 Kublai gave his realm a Chinese dynastic name: Da Yuan, the Great Yuan. Then he finished the Song. The fortress city of Xiangyang held out for five years until Muslim engineers sent from Iran built counterweight trebuchets that smashed its walls in 1273. His general Bayan took the Song capital, Lin'an (Hangzhou), in 1276, and in 1279 the last Song loyalists drowned in the sea battle at Yamen. All China had a Mongol emperor.",
+        "The sea was another matter. Fleets sent against Japan in 1274 and 1281 both failed, the second wrecked by a typhoon the Japanese called the kamikaze, the divine wind. In Vietnam, Trần Hưng Đạo beat him twice, the second time in 1288 at the Bạch Đằng river, where hidden stakes caught the Mongol ships as the tide fell. Expeditions to Champa and Java in 1293 achieved little.",
+        "At home he ran the empire on paper money and dug the Grand Canal on to Dadu. The Venetian Marco Polo said he served him for 17 years. Then the losses came: his wife Chabi in 1281, his heir Zhenjin in 1285. In 1287 he crushed the rebel prince Nayan in person. Fat, gouty and drinking hard, he died in Dadu in February 1294."
+      ],
+      "claims": [
+        {
+          "text": "Marco Polo served Kublai for 17 years.",
+          "status": "disputed",
+          "note": "Polo's own claim. A few scholars doubt he reached China at all; most think he did but talked up his role at court."
+        },
+        {
+          "text": "Kublai's 1281 fleet against Japan was enormous, well over 100,000 men.",
+          "status": "disputed",
+          "note": "The typhoon is confirmed by both sides. The huge troop figures come from Chinese and Korean records and may be inflated."
+        },
+        {
+          "text": "Against Nayan, the old khan directed the battle from a tower carried by elephants.",
+          "status": "legend",
+          "note": "Marco Polo tells it vividly. It may be true, but he is the main witness and loved a spectacle."
+        }
+      ],
+      "hook": "Kublai is dead, and his chosen heir died before him. Two grandsons, Kammala and Temür, both have a claim. The princes gather at Shangdu to choose.",
+      "images": [
+        {
+          "file": "File:Liu-Kuan-Tao-Jagd.JPG",
+          "url": "https://upload.wikimedia.org/wikipedia/commons/b/bd/Liu-Kuan-Tao-Jagd.JPG",
+          "page": "https://commons.wikimedia.org/wiki/File:Liu-Kuan-Tao-Jagd.JPG",
+          "credit": "Liu Guandao",
+          "license": "Public domain",
+          "made": "1280",
+          "caption": "Detail of Liu Guandao's silk scroll Kublai Khan Hunting, painted in 1280 in Kublai's lifetime and now in the National Palace Museum, Taipei.",
+          "alt": "Detail of a silk handscroll painting showing Kublai Khan in Mongol dress on a hunting expedition"
+        }
+      ],
+      "sources": [
+        {
+          "title": "Khubilai Khan: His Life and Times",
+          "author": "Morris Rossabi",
+          "note": "University of California Press, 1988"
+        },
+        {
+          "title": "The Description of the World",
+          "author": "Marco Polo (with Rustichello of Pisa)"
+        },
+        {
+          "title": "Yuan Shi (History of the Yuan)",
+          "author": "Song Lian and others",
+          "note": "Official history compiled under the Ming, 1369–1370"
+        },
+        {
+          "title": "The Cambridge History of China, vol. 6: Alien Regimes and Border States, 907–1368",
+          "author": "Herbert Franke and Denis Twitchett (eds.)",
+          "note": "Cambridge University Press, 1994"
+        }
+      ],
+      "review": {
+        "status": "draft",
+        "notes": "Drafted from the listed sources; needs a human fact-check."
+      }
+    },
+    {
+      "id": "temur",
+      "kind": "monarch",
+      "rulers": [
+        "temur"
+      ],
+      "tagline": "The grandson who stopped the wars and kept the peace",
+      "start": {
+        "date": "1294-05-10"
+      },
+      "end": {
+        "date": "1307-02-10"
+      },
+      "contestedWith": [],
+      "relationToPredecessor": "Grandson of Kublai Khan",
+      "ageAtAccession": "28",
+      "cameToPower": "Chosen at a kurultai at Shangdu",
+      "reignEnded": "Died at Dadu, with no son",
+      "previously": "Kublai dies in Dadu. His chosen heir is already in his grave.",
+      "paragraphs": [
+        "Temür Khan, the Chengzong Emperor of the Yuan, was the son of Kublai's dead heir Zhenjin. His elder brother Kammala had a claim too, but Temür had two heavyweights on his side: Kublai's great general Bayan and his own mother, Kökejin. In May 1294 the kurultai at Shangdu chose him.",
+        "He was no conqueror, and he didn't try to be. He called off the plans for more wars against Japan and in the south. The real fighting was in Central Asia, against Ögedei's grandson Kaidu, who had defied the Great Khans for decades. After a big battle in 1301, Kaidu died. Around 1304 the khans of the west and the Great Khan made peace, and for a moment the Mongol world was one again, at least on paper.",
+        "Temür's reign was steady, if a little sleepy, and much of the work fell to his ministers and, as he grew ill, to his wife Bulughan. His only son died in 1306. When Temür died in February 1307, nobody had been lined up to follow him."
+      ],
+      "claims": [
+        {
+          "text": "Kökejin settled the contest by having the brothers recite Genghis Khan's sayings. Temür spoke beautifully; Kammala stumbled.",
+          "status": "legend",
+          "note": "The story is Rashid al-Din's. Chinese sources stress the backing of Bayan and the princes instead."
+        },
+        {
+          "text": "Kaidu died of wounds after the battle of 1301.",
+          "status": "disputed",
+          "note": "He died soon after the fighting, but the sources don't agree on exactly how."
+        },
+        {
+          "text": "The peace of about 1304 reunited the Mongol empire.",
+          "status": "disputed",
+          "note": "The khanates did recognise the Great Khan, but each went on ruling its own lands. How much it meant in practice is debated."
+        }
+      ],
+      "hook": "Temür is dead and Bulughan wants to crown a cousin of her choosing. Out on the Altai frontier, though, there is a nephew with an army, and his brother is riding for Dadu.",
+      "images": [
+        {
+          "file": "File:YuanEmperorAlbumTemurOljeituPortrait.jpg",
+          "url": "https://upload.wikimedia.org/wikipedia/commons/7/75/YuanEmperorAlbumTemurOljeituPortrait.jpg",
+          "page": "https://commons.wikimedia.org/wiki/File:YuanEmperorAlbumTemurOljeituPortrait.jpg",
+          "credit": "Anonymous Yuan court painter",
+          "license": "Public domain",
+          "made": "14th century",
+          "caption": "Temür Khan in the Yuan court album of emperors, painted on silk and now in the National Palace Museum, Taipei.",
+          "alt": "Painted bust portrait of the Yuan emperor Temür from a court album of imperial portraits"
+        }
+      ],
+      "sources": [
+        {
+          "title": "Jami'u't-tawarikh: Compendium of Chronicles",
+          "author": "Rashid al-Din",
+          "note": "Translated by Wheeler M. Thackston, 1998–99"
+        },
+        {
+          "title": "Yuan Shi (History of the Yuan)",
+          "author": "Song Lian and others",
+          "note": "Official history compiled under the Ming, 1369–1370"
+        },
+        {
+          "title": "The Cambridge History of China, vol. 6: Alien Regimes and Border States, 907–1368",
+          "author": "Herbert Franke and Denis Twitchett (eds.)",
+          "note": "Cambridge University Press, 1994"
+        },
+        {
+          "title": "The Mongols",
+          "author": "David Morgan",
+          "note": "2nd ed., Blackwell, 2007"
+        }
+      ],
+      "review": {
+        "status": "draft",
+        "notes": "Drafted from the listed sources; needs a human fact-check."
+      }
+    },
+    {
+      "id": "khaishan",
+      "kind": "monarch",
+      "rulers": [
+        "khaishan"
+      ],
+      "tagline": "The soldier khan who gave away the treasury",
+      "start": {
+        "date": "1307-06-21"
+      },
+      "end": {
+        "date": "1311-01-27"
+      },
+      "contestedWith": [],
+      "relationToPredecessor": "Nephew of Temür Khan",
+      "ageAtAccession": "25",
+      "cameToPower": "His brother seized Dadu for him",
+      "reignEnded": "Died at 29",
+      "previously": "Temür dies without a son. His widow Bulughan grabs the reins.",
+      "paragraphs": [
+        "Khaishan, the Wuzong Emperor of the Yuan, was a soldier first. He had spent years on the Altai frontier fighting Kaidu's heirs, and he had a battle-hardened army behind him. While he marched, his younger brother Ayurbarwada slipped into Dadu, arrested Bulughan and her candidate, the prince Ananda, and held the capital for him. Khaishan was enthroned at Shangdu in June 1307.",
+        "The brothers made a deal. Ayurbarwada would be heir, and after him the throne would come back to Khaishan's sons. Then Khaishan started spending. Princes and loyal officers got lavish gifts and grand titles, and the treasury drained fast. In 1309 he tried to fix it with a new paper money backed by silver and new copper coins.",
+        "None of it had time to work. In January 1311 Khaishan died in Dadu, aged just 29. Ayurbarwada stepped up, as agreed."
+      ],
+      "claims": [
+        {
+          "text": "The brothers agreed that Khaishan's sons would follow Ayurbarwada on the throne.",
+          "status": "confirmed",
+          "note": "The arrangement is recorded in the Yuan Shi. It was later broken, which set up decades of feuding."
+        },
+        {
+          "text": "Drink killed Khaishan.",
+          "status": "disputed",
+          "note": "Heavy drinking ran in the family and is often blamed, but no source gives a clear cause of death."
+        }
+      ],
+      "hook": "Ayurbarwada is emperor, a scholar who loves the Confucian classics. He has promised to hand the throne to Khaishan's son. Promises are easy to make.",
+      "images": [
+        {
+          "file": "File:YuanEmperorAlbumQaishanKulugPortrait.jpg",
+          "url": "https://upload.wikimedia.org/wikipedia/commons/9/9f/YuanEmperorAlbumQaishanKulugPortrait.jpg",
+          "page": "https://commons.wikimedia.org/wiki/File:YuanEmperorAlbumQaishanKulugPortrait.jpg",
+          "credit": "Anonymous Yuan court painter",
+          "license": "Public domain",
+          "made": "14th century",
+          "caption": "Khaishan in the Yuan court album of emperors, now in the National Palace Museum, Taipei.",
+          "alt": "Painted bust portrait of the Yuan emperor Khaishan from a court album of imperial portraits"
+        }
+      ],
+      "sources": [
+        {
+          "title": "Yuan Shi (History of the Yuan)",
+          "author": "Song Lian and others",
+          "note": "Official history compiled under the Ming, 1369–1370"
+        },
+        {
+          "title": "The Cambridge History of China, vol. 6: Alien Regimes and Border States, 907–1368",
+          "author": "Herbert Franke and Denis Twitchett (eds.)",
+          "note": "Cambridge University Press, 1994"
+        },
+        {
+          "title": "The Troubled Empire: China in the Yuan and Ming Dynasties",
+          "author": "Timothy Brook",
+          "note": "Harvard University Press, 2010"
+        }
+      ],
+      "review": {
+        "status": "draft",
+        "notes": "Drafted from the listed sources; needs a human fact-check."
+      }
+    },
+    {
+      "id": "ayurbarwada",
+      "kind": "monarch",
+      "rulers": [
+        "ayurbarwada"
+      ],
+      "tagline": "The bookish khan who brought back the exams",
+      "start": {
+        "date": "1311-04-07"
+      },
+      "end": {
+        "date": "1320-03-01"
+      },
+      "contestedWith": [],
+      "relationToPredecessor": "Younger brother of Khaishan",
+      "ageAtAccession": "25",
+      "cameToPower": "Heir under his brother's deal",
+      "reignEnded": "Died at Dadu, aged 34",
+      "previously": "Khaishan dies at 29 with the treasury empty. His brother is waiting.",
+      "paragraphs": [
+        "Ayurbarwada, the Renzong Emperor of the Yuan, had grown up reading the Confucian classics with Chinese tutors. His first move was to clear out his brother's free-spending ministers, and several were put to death. His big one came next. He brought back the civil service examinations, with Zhu Xi's commentaries on the classics as the syllabus. The first were held in 1315, and that Zhu Xi syllabus would shape China's exams until 1905.",
+        "Power didn't all sit with him, though. His mother Targi was a force at court, and her favourite, the minister Temüder, was grasping and hated by officials. In 1316 Ayurbarwada broke the family deal and named his own son, Shidebala, as heir. Khaishan's son Kusala was packed off to a posting in the south-west, rebelled on the way, and fled to the Chagatai khans in Central Asia. Ayurbarwada died in March 1320."
+      ],
+      "claims": [
+        {
+          "text": "The Yuan held its first civil service examinations in 1315.",
+          "status": "confirmed",
+          "note": "Recorded in the Yuan Shi. Quotas meant Mongols and Central Asians competed on easier terms than Chinese candidates."
+        },
+        {
+          "text": "Zhu Xi's commentaries stayed the core of the exams until 1905.",
+          "status": "confirmed",
+          "note": "The Ming and Qing kept the Yuan syllabus. The exam system was abolished by the Qing in 1905."
+        },
+        {
+          "text": "The dowager Targi and Temüder really ran the government.",
+          "status": "disputed",
+          "note": "The Yuan Shi paints them as all-powerful, but how far Ayurbarwada was sidelined is argued over."
+        }
+      ],
+      "hook": "Ayurbarwada is gone. His son Shidebala is 17, eager to reform, and surrounded by his grandmother's men. Khaishan's sons have not forgotten the broken promise.",
+      "images": [
+        {
+          "file": "File:YuanEmperorAlbumAyurbarvadaBuyantuPortrait.jpg",
+          "url": "https://upload.wikimedia.org/wikipedia/commons/6/61/YuanEmperorAlbumAyurbarvadaBuyantuPortrait.jpg",
+          "page": "https://commons.wikimedia.org/wiki/File:YuanEmperorAlbumAyurbarvadaBuyantuPortrait.jpg",
+          "credit": "Anonymous Yuan court painter",
+          "license": "Public domain",
+          "made": "14th century",
+          "caption": "Ayurbarwada in the Yuan court album of emperors, now in the National Palace Museum, Taipei.",
+          "alt": "Painted bust portrait of the Yuan emperor Ayurbarwada from a court album of imperial portraits"
+        }
+      ],
+      "sources": [
+        {
+          "title": "Yuan Shi (History of the Yuan)",
+          "author": "Song Lian and others",
+          "note": "Official history compiled under the Ming, 1369–1370"
+        },
+        {
+          "title": "The Cambridge History of China, vol. 6: Alien Regimes and Border States, 907–1368",
+          "author": "Herbert Franke and Denis Twitchett (eds.)",
+          "note": "Cambridge University Press, 1994"
+        },
+        {
+          "title": "The Troubled Empire: China in the Yuan and Ming Dynasties",
+          "author": "Timothy Brook",
+          "note": "Harvard University Press, 2010"
+        }
+      ],
+      "review": {
+        "status": "draft",
+        "notes": "Drafted from the listed sources; needs a human fact-check."
+      }
+    },
+    {
+      "id": "two-capitals",
+      "kind": "interregnum",
+      "rulers": [],
+      "house": "yuan",
+      "title": "The War of the Two Capitals",
+      "tagline": "Six khans, two capitals and a lot of poison",
+      "start": {
+        "date": "1320-03-01"
+      },
+      "end": {
+        "date": "1333-07-19"
+      },
+      "contestedWith": [],
+      "relationToPredecessor": "Starts with his son Shidebala",
+      "ageAtAccession": "17 (Shidebala)",
+      "cameToPower": "His father's chosen heir",
+      "reignEnded": "A boy fetched from exile",
+      "previously": "Ayurbarwada dies, and his son Shidebala takes the throne.",
+      "paragraphs": [
+        "Shidebala, Gegeen Khan, tried to cut back corruption once his grandmother and Temüder were dead. On 4 September 1323, camped at Nanpo near Shangdu, he was murdered in his tent by plotters led by Tegshi, Temüder's adopted son. Yesün Temür, a grandson of Zhenjin from the steppe, took the throne, punished the killers and ruled quietly until he died in 1328.",
+        "Then the dam broke. The general El Temür seized Dadu for Khaishan's son Tugh Temür, while the court at Shangdu crowned Yesün Temür's young son Ragibagh. Dadu won the War of the Two Capitals, and the boy vanished. Tugh Temür offered the throne to his elder brother Kusala, who was enthroned in Mongolia in 1329, came to meet him, and died a few days later.",
+        "Tugh Temür reigned again until 1332, with El Temür holding the real power. Next came Kusala's little son Rinchinbal, who lasted about two months before he died too. That left one more of Kusala's sons, a 13-year-old named Toghon Temür, living in exile in the far south."
+      ],
+      "claims": [
+        {
+          "text": "Kusala was poisoned at his brother's welcome feast.",
+          "status": "disputed",
+          "note": "Widely suspected then and now, given whose interests his death served. The official history just says he died suddenly."
+        },
+        {
+          "text": "Shidebala was killed in his tent by Tegshi's band.",
+          "status": "confirmed",
+          "note": "The assassination at Nanpo is recorded in the Yuan Shi and was a public scandal."
+        },
+        {
+          "text": "Nobody knows what happened to the boy khan Ragibagh.",
+          "status": "confirmed",
+          "note": "After Shangdu surrendered he simply disappears from the record. Most assume he was killed."
+        }
+      ],
+      "hook": "The boy is brought north and crowned. El Temür is dead now, but the court has a new strongman, the minister Bayan, and he has some alarming ideas about the Chinese.",
+      "images": [
+        {
+          "file": "File:YuanEmperorAlbumTughTemurPortrait.jpg",
+          "url": "https://upload.wikimedia.org/wikipedia/commons/2/2c/YuanEmperorAlbumTughTemurPortrait.jpg",
+          "page": "https://commons.wikimedia.org/wiki/File:YuanEmperorAlbumTughTemurPortrait.jpg",
+          "credit": "Anonymous Yuan court painter",
+          "license": "Public domain",
+          "made": "14th century",
+          "caption": "Tugh Temür, the winner of the War of the Two Capitals, in the Yuan court album of emperors, National Palace Museum, Taipei.",
+          "alt": "Painted bust portrait of the Yuan emperor Tugh Temür from a court album of imperial portraits"
+        }
+      ],
+      "sources": [
+        {
+          "title": "Yuan Shi (History of the Yuan)",
+          "author": "Song Lian and others",
+          "note": "Official history compiled under the Ming, 1369–1370"
+        },
+        {
+          "title": "The Cambridge History of China, vol. 6: Alien Regimes and Border States, 907–1368",
+          "author": "Herbert Franke and Denis Twitchett (eds.)",
+          "note": "Cambridge University Press, 1994"
+        },
+        {
+          "title": "Conquerors and Confucians: Aspects of Political Change in Late Yüan China",
+          "author": "John W. Dardess",
+          "note": "Columbia University Press, 1973"
+        }
+      ],
+      "review": {
+        "status": "draft",
+        "notes": "Drafted from the listed sources; needs a human fact-check."
+      }
+    },
+    {
+      "id": "toghon-temur",
+      "kind": "monarch",
+      "rulers": [
+        "toghon-temur"
+      ],
+      "tagline": "A boy emperor caught between strongmen",
+      "start": {
+        "date": "1333-07-19"
+      },
+      "end": {
+        "date": "1351"
+      },
+      "contestedWith": [],
+      "relationToPredecessor": "Eldest son of Kusala",
+      "ageAtAccession": "13",
+      "cameToPower": "Fetched from exile in the south",
+      "reignEnded": "The Red Turbans rise",
+      "previously": "Six khans in 13 years. Now a boy is fetched from exile in the south.",
+      "paragraphs": [
+        "Toghon Temür, Ukhaantu Khan, \"the wise\", was 13 when he was crowned. The Ming later called him Shundi. For his first years the minister Bayan ran everything, and Bayan distrusted the Chinese. In 1335 he cancelled the civil service exams. Then, the story goes, he suggested killing everyone with the five commonest Chinese surnames: Zhang, Wang, Liu, Li and Zhao.",
+        "Bayan's downfall came from inside his own family. In 1340 his nephew Toghto turned on him, and the young emperor backed the plot. With Bayan out of the city, the gates of Dadu were shut against him and he was sent into exile. Toghto brought back the exams and had scholars compile the official histories of the Liao, Jin and Song dynasties, finished between 1343 and 1345.",
+        "Nature had other plans. In 1344 the Yellow River burst its banks and changed course, drowning farmland and wrecking the canal that fed the capital. In 1351 Toghto took it on. He drafted a huge workforce, around 150,000 labourers guarded by 20,000 soldiers, to dig a new channel and rebuild the dykes."
+      ],
+      "claims": [
+        {
+          "text": "Bayan proposed killing everyone named Zhang, Wang, Liu, Li or Zhao.",
+          "status": "disputed",
+          "note": "It comes from the Yuan Shi, compiled by the Ming, who had every reason to make the Yuan look monstrous. It was never carried out."
+        },
+        {
+          "text": "Toghon Temür was secretly the son of the last Song emperor.",
+          "status": "legend",
+          "note": "A later tale told by Chinese and Mongol writers. It feeds on Tugh Temür's own claim that the boy wasn't really Kusala's son."
+        },
+        {
+          "text": "The histories of the Liao, Jin and Song were compiled under Toghto in 1343–1345.",
+          "status": "confirmed",
+          "note": "All three survive and remain standard sources, though they were famously rushed."
+        }
+      ],
+      "hook": "Thousands of hungry, angry labourers are camped along the Yellow River. Somebody is about to dig up something strange in the mud.",
+      "images": [
+        {
+          "file": "File:元順帝妥歡帖木兒 Emperor Shun of Yuan Toghon Temür.png",
+          "url": "https://upload.wikimedia.org/wikipedia/commons/2/26/%E5%85%83%E9%A0%86%E5%B8%9D%E5%A6%A5%E6%AD%A1%E5%B8%96%E6%9C%A8%E5%85%92_Emperor_Shun_of_Yuan_Toghon_Tem%C3%BCr.png",
+          "page": "https://commons.wikimedia.org/wiki/File:%E5%85%83%E9%A0%86%E5%B8%9D%E5%A6%A5%E6%AD%A1%E5%B8%96%E6%9C%A8%E5%85%92_Emperor_Shun_of_Yuan_Toghon_Tem%C3%BCr.png",
+          "credit": "Zhou Lang",
+          "license": "Public domain",
+          "made": "14th century",
+          "caption": "Toghon Temür as shown in Zhou Lang's Yuan-period handscroll of a horse presented to the emperor, now in the Palace Museum, Beijing.",
+          "alt": "Detail of a Chinese handscroll painting showing the emperor Toghon Temür"
+        }
+      ],
+      "sources": [
+        {
+          "title": "Yuan Shi (History of the Yuan)",
+          "author": "Song Lian and others",
+          "note": "Official history compiled under the Ming, 1369–1370"
+        },
+        {
+          "title": "Conquerors and Confucians: Aspects of Political Change in Late Yüan China",
+          "author": "John W. Dardess",
+          "note": "Columbia University Press, 1973"
+        },
+        {
+          "title": "The Cambridge History of China, vol. 6: Alien Regimes and Border States, 907–1368",
+          "author": "Herbert Franke and Denis Twitchett (eds.)",
+          "note": "Cambridge University Press, 1994"
+        },
+        {
+          "title": "The Troubled Empire: China in the Yuan and Ming Dynasties",
+          "author": "Timothy Brook",
+          "note": "Harvard University Press, 2010"
+        }
+      ],
+      "review": {
+        "status": "draft",
+        "notes": "Drafted from the listed sources; needs a human fact-check."
+      }
+    },
+    {
+      "id": "red-turbans",
+      "kind": "monarch",
+      "rulers": [
+        "toghon-temur"
+      ],
+      "title": "The Red Turbans",
+      "tagline": "A one-eyed stone man, and the end of the Yuan",
+      "start": {
+        "date": "1351"
+      },
+      "end": {
+        "date": "1368-09-10"
+      },
+      "contestedWith": [],
+      "relationToPredecessor": "Same emperor, now at war",
+      "ageAtAccession": "About 31",
+      "cameToPower": "Already on the throne",
+      "reignEnded": "Fled Dadu for the steppe",
+      "previously": "Toghto sends a vast army of labourers to fix the Yellow River.",
+      "paragraphs": [
+        "Somewhere on the dyke works, the story goes, diggers found a stone figure with one eye and a prophecy of revolt carved on its back. Revolt came anyway. In 1351 the White Lotus sect, led by Han Shantong and Liu Futong, rose in red headscarves. Han was caught early, but the Red Turbans spread across the south. Toghto fought back hard, and in 1354 had the rebel Zhang Shicheng trapped in Gaoyou. Then rivals at court got him sacked. He later died in exile.",
+        "Toghon Temür, said his enemies, retreated into Tibetan Buddhist rites and pleasures. His Korean wife, Empress Gi, and their son Ayushiridara schemed for power. Yuan generals spent more time fighting each other than the rebels.",
+        "In the south, an orphaned ex-monk named Zhu Yuanzhang rose through the Red Turbans. He beat Chen Youliang on Lake Poyang in 1363 and then crushed Zhang Shicheng. In January 1368 he proclaimed the Ming dynasty at Nanjing and sent his armies north. On 10 September 1368 Toghon Temür fled Dadu for Shangdu, and Ming troops took the city days later. He died at Yingchang in 1370. On the steppe, his heirs carried on as the Northern Yuan."
+      ],
+      "claims": [
+        {
+          "text": "A one-eyed stone man dug up on the dykes carried a prophecy that the empire would rise in revolt.",
+          "status": "legend",
+          "note": "Told in the Yuan Shi. If it existed, the rebels very likely buried it there themselves."
+        },
+        {
+          "text": "Toghto was poisoned in exile.",
+          "status": "disputed",
+          "note": "His dismissal and death in 1355 are certain. That he was poisoned on his enemies' orders rests on the Yuan Shi."
+        },
+        {
+          "text": "Toghon Temür lost his empire to Tibetan rituals and debauchery.",
+          "status": "disputed",
+          "note": "This picture comes from the Yuan Shi, written for the Ming, who needed the last Yuan emperor to look unfit to rule."
+        }
+      ],
+      "images": [
+        {
+          "file": "File:Zhizheng Zhibao (至正之寶) - 1 mace (壹錢權鈔).jpg",
+          "url": "https://upload.wikimedia.org/wikipedia/commons/4/48/Zhizheng_Zhibao_%28%E8%87%B3%E6%AD%A3%E4%B9%8B%E5%AF%B6%29_-_1_mace_%28%E5%A3%B9%E9%8C%A2%E6%AC%8A%E9%88%94%29.jpg",
+          "page": "https://commons.wikimedia.org/wiki/File:Zhizheng_Zhibao_(%E8%87%B3%E6%AD%A3%E4%B9%8B%E5%AF%B6)_-_1_mace_(%E5%A3%B9%E9%8C%A2%E6%AC%8A%E9%88%94).jpg",
+          "credit": "Gary Todd",
+          "license": "CC0",
+          "made": "1350s (photo 2012)",
+          "caption": "A Zhizheng Zhibao cash coin of Toghon Temür's reign, issued as the Yuan's paper money lost its value; National Museum of China.",
+          "alt": "Round bronze Chinese cash coin with a square hole, inscribed Zhizheng Zhibao"
+        }
+      ],
+      "sources": [
+        {
+          "title": "Yuan Shi (History of the Yuan)",
+          "author": "Song Lian and others",
+          "note": "Official history compiled under the Ming, 1369–1370"
+        },
+        {
+          "title": "Conquerors and Confucians: Aspects of Political Change in Late Yüan China",
+          "author": "John W. Dardess",
+          "note": "Columbia University Press, 1973"
+        },
+        {
+          "title": "The Troubled Empire: China in the Yuan and Ming Dynasties",
+          "author": "Timothy Brook",
+          "note": "Harvard University Press, 2010"
+        },
+        {
+          "title": "The Cambridge History of China, vol. 6: Alien Regimes and Border States, 907–1368",
+          "author": "Herbert Franke and Denis Twitchett (eds.)",
+          "note": "Cambridge University Press, 1994"
+        }
+      ],
+      "review": {
+        "status": "draft",
+        "notes": "Drafted from the listed sources; needs a human fact-check."
+      }
+    }
+  ]
+}
