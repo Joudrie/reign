@@ -1,0 +1,1085 @@
+{
+  "id": "monaco",
+  "name": "Monaco",
+  "blurb": "The Grimaldis, from a monk's disguise in 1297 to Albert II",
+  "dateConvention": "Dates are Julian before 1582, then Gregorian. The Grimaldis were lords of Monaco until Honoré II took the title of prince in 1612; from 1793 to 1814 Monaco was part of France.",
+  "houses": [
+    {
+      "id": "grimaldi",
+      "name": "Grimaldi",
+      "color": "#b0242c"
+    },
+    {
+      "id": "france",
+      "name": "Revolutionary France",
+      "color": "#55524a",
+      "plain": true
+    }
+  ],
+  "rulers": [
+    {
+      "id": "francois-grimaldi",
+      "name": "François Grimaldi",
+      "epithet": "Malizia",
+      "house": "grimaldi",
+      "died": {
+        "date": "1309"
+      }
+    },
+    {
+      "id": "honore-ii",
+      "name": "Honoré II",
+      "house": "grimaldi",
+      "born": {
+        "date": "1597-12-24"
+      },
+      "died": {
+        "date": "1662-01-10",
+        "note": "Monaco"
+      }
+    },
+    {
+      "id": "honore-iii",
+      "name": "Honoré III",
+      "house": "grimaldi",
+      "born": {
+        "date": "1720-11-10",
+        "note": "Paris"
+      },
+      "died": {
+        "date": "1795-03-21",
+        "note": "Paris"
+      }
+    },
+    {
+      "id": "charles-iii",
+      "name": "Charles III",
+      "house": "grimaldi",
+      "born": {
+        "date": "1818-12-08",
+        "note": "Paris"
+      },
+      "died": {
+        "date": "1889-09-10",
+        "note": "Château de Marchais, France"
+      }
+    },
+    {
+      "id": "albert-i",
+      "name": "Albert I",
+      "epithet": "the Navigator Prince",
+      "house": "grimaldi",
+      "born": {
+        "date": "1848-11-13",
+        "note": "Paris"
+      },
+      "died": {
+        "date": "1922-06-26",
+        "note": "Paris"
+      }
+    },
+    {
+      "id": "louis-ii",
+      "name": "Louis II",
+      "house": "grimaldi",
+      "born": {
+        "date": "1870-07-12",
+        "note": "Baden-Baden"
+      },
+      "died": {
+        "date": "1949-05-09",
+        "note": "Monaco"
+      }
+    },
+    {
+      "id": "rainier-iii",
+      "name": "Rainier III",
+      "epithet": "the Builder Prince",
+      "house": "grimaldi",
+      "born": {
+        "date": "1923-05-31",
+        "note": "Monaco"
+      },
+      "died": {
+        "date": "2005-04-06",
+        "note": "Monaco"
+      },
+      "causeOfDeath": "Lung, heart and kidney problems"
+    },
+    {
+      "id": "albert-ii",
+      "name": "Albert II",
+      "house": "grimaldi",
+      "born": {
+        "date": "1958-03-14",
+        "note": "Prince's Palace, Monaco"
+      }
+    }
+  ],
+  "reigns": [
+    {
+      "id": "francois-grimaldi",
+      "kind": "monarch",
+      "rulers": [
+        "francois-grimaldi"
+      ],
+      "tagline": "The fake friar who knocked on Monaco's door",
+      "start": {
+        "date": "1297-01-08"
+      },
+      "end": {
+        "date": "1301-04-10"
+      },
+      "contestedWith": [],
+      "relationToPredecessor": "First of the line",
+      "ageAtAccession": "Unknown",
+      "cameToPower": "Seized the Rock in disguise",
+      "reignEnded": "Genoa took the Rock back",
+      "previously": "Genoa's civil war has thrown the Guelph Grimaldis out of the city.",
+      "paragraphs": [
+        "Genoa in the 1290s was a city at war with itself. The Guelphs backed the pope, the Ghibellines backed the emperor, and the Ghibellines were on top. The Grimaldis, proud Guelphs, were driven out. West along the coast stood a Genoese fortress on the Rock of Monaco, with a sheltered harbour below. François Grimaldi, nicknamed Malizia, roughly “the Crafty”, had his eye on it.",
+        "On the night of 8 January 1297, so the story goes, a friar in a Franciscan habit knocked at the gate and asked for shelter. The guards let him in. Out came a sword from under the robe, and his men stormed in behind him. The fortress was theirs. His cousin Rainier was in on the plot. Two monks waving swords still hold up the Grimaldi coat of arms today.",
+        "Holding the Rock was harder than taking it. Genoa wanted its fortress back, and in 1301 it got it. Malizia never ruled Monaco again and died in 1309. Rainier did better, becoming an admiral for the King of France. But the family had tasted Monaco, and they would keep coming back."
+      ],
+      "claims": [
+        {
+          "text": "François got into the fortress disguised as a Franciscan friar.",
+          "status": "legend",
+          "note": "The seizure of 1297 is well recorded. The friar disguise is the family's founding story and comes from later retellings."
+        },
+        {
+          "text": "The Grimaldi coat of arms is held up by two monks with swords.",
+          "status": "confirmed",
+          "note": "You can see them on Monaco's state arms today. They are usually read as a nod to the 1297 raid."
+        },
+        {
+          "text": "Genoa took the Rock back in 1301.",
+          "status": "confirmed",
+          "note": "Standard in every history of Monaco; the Grimaldis only regained it 30 years later."
+        }
+      ],
+      "hook": "Monaco belongs to Genoa again. But Rainier has a son, Charles, and Charles wants the Rock back.",
+      "images": [
+        {
+          "file": "File:Malizia.jpg",
+          "url": "https://upload.wikimedia.org/wikipedia/commons/2/2f/Malizia.jpg",
+          "page": "https://commons.wikimedia.org/wiki/File:Malizia.jpg",
+          "credit": "Tangopaso (photograph)",
+          "license": "Public domain",
+          "made": "Modern; photographed 2012",
+          "caption": "A modern street fresco in Monaco, painted more than 700 years after Malizia's raid.",
+          "alt": "Fresco on a street wall in Monaco depicting François Grimaldi, known as Malizia"
+        }
+      ],
+      "sources": [
+        {
+          "title": "Annales Genuenses",
+          "author": "Giorgio Stella",
+          "note": "15th-century Genoese chronicle"
+        },
+        {
+          "title": "Monaco, ses origines et son histoire",
+          "author": "Gustave Saige",
+          "note": "1897"
+        },
+        {
+          "title": "The Grimaldis of Monaco",
+          "author": "Anne Edwards",
+          "note": "William Morrow, 1992"
+        },
+        {
+          "title": "Histoire de Monaco",
+          "author": "Thomas Fouilleron",
+          "note": "Monaco, 2010"
+        }
+      ],
+      "review": {
+        "status": "draft",
+        "notes": "Drafted from the listed sources; needs a human fact-check."
+      }
+    },
+    {
+      "id": "lords-of-the-rock",
+      "kind": "interregnum",
+      "rulers": [],
+      "house": "grimaldi",
+      "title": "Lords of the Rock",
+      "tagline": "Lose the Rock, buy it back, repeat",
+      "start": {
+        "date": "1331-09-12"
+      },
+      "end": {
+        "date": "1505-10-11"
+      },
+      "contestedWith": [],
+      "relationToPredecessor": "Rainier I's son and his heirs",
+      "ageAtAccession": "Various",
+      "cameToPower": "Charles I retook the Rock",
+      "reignEnded": "Jean II killed by his brother",
+      "previously": "Genoa has the Rock back. Malizia dies in 1309 without regaining it.",
+      "paragraphs": [
+        "In 1331 Rainier's son Charles got the Rock back. This time the Grimaldis set out to build something bigger than a fortress. Charles bought the nearby town of Menton in 1346 and Roquebrune in 1355. Now there was a little state to rule, strung along the coast.",
+        "Genoa kept coming. The Rock changed hands again and again, taken by force, bought and sold. Each time the Grimaldis found a way back in, with soldiers or with cash. In 1419 Jean I and his brothers recovered it, and this time it stuck. Jean held Monaco for decades and passed it to his son Catalan.",
+        "Catalan died in 1457 with no son. His daughter Claudine inherited, the only woman to rule in this era. Monaco went to her cousin Lamberto, and she married him. Lamberto held on to the lordship for over 30 years. Their son Jean II took over in 1494. He had a younger brother named Lucien."
+      ],
+      "claims": [
+        {
+          "text": "Charles I bought Menton in 1346 and Roquebrune in 1355.",
+          "status": "confirmed",
+          "note": "The purchases are documented and appear in all the standard histories of Monaco."
+        },
+        {
+          "text": "From 1419 the Grimaldis held Monaco for good.",
+          "status": "confirmed",
+          "note": "Monaco's own histories date the lasting recovery to 1419. Apart from the French Revolution, the family has held it ever since."
+        }
+      ],
+      "hook": "Jean II is lord of Monaco. In 1505 his brother Lucien decides he would make a better one.",
+      "images": [
+        {
+          "file": "File:Claudina di monaco.jpg",
+          "url": "https://upload.wikimedia.org/wikipedia/commons/7/7e/Claudina_di_monaco.jpg",
+          "page": "https://commons.wikimedia.org/wiki/File:Claudina_di_monaco.jpg",
+          "credit": "Unknown artist",
+          "license": "Public domain",
+          "made": "Unknown date",
+          "caption": "A portrait of Claudine, Lady of Monaco; its painter and date are unknown.",
+          "alt": "Painted portrait of Claudine, Lady of Monaco"
+        }
+      ],
+      "sources": [
+        {
+          "title": "Monaco, ses origines et son histoire",
+          "author": "Gustave Saige",
+          "note": "1897"
+        },
+        {
+          "title": "The Grimaldis of Monaco",
+          "author": "Anne Edwards",
+          "note": "William Morrow, 1992"
+        },
+        {
+          "title": "Histoire de la principauté de Monaco",
+          "author": "Léon-Honoré Labande",
+          "note": "1934"
+        }
+      ],
+      "review": {
+        "status": "draft",
+        "notes": "Drafted from the listed sources; needs a human fact-check."
+      }
+    },
+    {
+      "id": "a-century-of-murders",
+      "kind": "interregnum",
+      "rulers": [],
+      "house": "grimaldi",
+      "title": "A Century of Murders",
+      "tagline": "Brothers, nephews and knives: Monaco's bloodiest century",
+      "start": {
+        "date": "1505-10-11"
+      },
+      "end": {
+        "date": "1604-11-29"
+      },
+      "contestedWith": [],
+      "relationToPredecessor": "Lucien, Jean II's younger brother",
+      "ageAtAccession": "Various",
+      "cameToPower": "Lucien killed his brother",
+      "reignEnded": "Hercule murdered by his subjects",
+      "previously": "The Grimaldis hold the Rock at last, and Jean II is its lord.",
+      "paragraphs": [
+        "In October 1505 Lucien Grimaldi killed his brother Jean II and made himself lord. Within a year Genoa sent an army. Lucien held out through a long siege until the attackers gave up in 1507. Then he spent years feuding with his relatives, the Genoese Dorias. In August 1523 his nephew Bartolomeo Doria came to visit and murdered him in the palace.",
+        "Lucien's heir, Honoré I, was a baby. His uncle Agostino, Bishop of Grasse, ran things and went looking for a powerful friend. In 1524 a treaty with the Emperor Charles V put Monaco under Spanish protection. Spanish soldiers moved into the fortress, and they stayed for over a century. Honoré ruled for nearly 60 years, followed by his sons Charles II and Hercule.",
+        "Hercule was not loved. On 29 November 1604 a band of local men caught him at night, killed him and threw his body into the sea. His son Honoré was six years old."
+      ],
+      "claims": [
+        {
+          "text": "Andrea Doria was behind his nephew's murder of Lucien.",
+          "status": "disputed",
+          "note": "People suspected it at the time because of the feud between the families. It was never proven."
+        },
+        {
+          "text": "Hercule was killed by men whose wives and daughters he had abused, and his body thrown into the sea.",
+          "status": "legend",
+          "note": "The murder is certain. The revenge story and the drowned body come from later accounts and are hard to pin down."
+        },
+        {
+          "text": "The 1524 treaty brought a Spanish garrison to Monaco.",
+          "status": "confirmed",
+          "note": "The treaty survives, and the garrison stayed until 1641."
+        }
+      ],
+      "hook": "A six-year-old lord, a Spanish garrison and an uncle in charge. The boy will grow up and decide who Monaco really belongs to.",
+      "images": [
+        {
+          "file": "File:Ambrogio de Predis - Lucien I - Prince of Monaco.jpg",
+          "url": "https://upload.wikimedia.org/wikipedia/commons/6/60/Ambrogio_de_Predis_-_Lucien_I_-_Prince_of_Monaco.jpg",
+          "page": "https://commons.wikimedia.org/wiki/File:Ambrogio_de_Predis_-_Lucien_I_-_Prince_of_Monaco.jpg",
+          "credit": "Attributed to Ambrogio de Predis",
+          "license": "Public domain",
+          "made": "16th century",
+          "caption": "Lucien Grimaldi, in a portrait attributed to the Milanese painter Ambrogio de Predis, now in the Prince's Palace.",
+          "alt": "Painted portrait of Lucien Grimaldi, lord of Monaco"
+        }
+      ],
+      "sources": [
+        {
+          "title": "Monaco, ses origines et son histoire",
+          "author": "Gustave Saige",
+          "note": "1897"
+        },
+        {
+          "title": "The Grimaldis of Monaco",
+          "author": "Anne Edwards",
+          "note": "William Morrow, 1992"
+        },
+        {
+          "title": "The History of Monaco, Past and Present",
+          "author": "H. Pemberton",
+          "note": "1867"
+        }
+      ],
+      "review": {
+        "status": "draft",
+        "notes": "Drafted from the listed sources; needs a human fact-check."
+      }
+    },
+    {
+      "id": "honore-ii",
+      "kind": "monarch",
+      "rulers": [
+        "honore-ii"
+      ],
+      "tagline": "The boy lord who made himself a prince",
+      "start": {
+        "date": "1604-11-29"
+      },
+      "end": {
+        "date": "1662-01-10"
+      },
+      "contestedWith": [],
+      "relationToPredecessor": "Son of Hercule",
+      "ageAtAccession": "6",
+      "cameToPower": "Father murdered",
+      "reignEnded": "Died in his palace",
+      "previously": "Lord Hercule has been murdered by his own people. His son is six.",
+      "paragraphs": [
+        "Honoré was six when his father was killed. His mother's brother, Federico Landi, Prince of Val di Taro, ran Monaco as regent and kept it firmly on Spain's side. Honoré grew up with Spanish soldiers in his own fortress. From 1612 he called himself Prince of Monaco, and every ruler since has kept the title.",
+        "Spanish protection felt a lot like occupation, so Honoré quietly turned to France. In 1641 he signed the Treaty of Péronne with Louis XIII. That November his men turned on the Spanish garrison and threw it out. Spain seized his lands in Italy, so in 1642 Louis made him Duke of Valentinois, with French estates to make up the loss.",
+        "Honoré spent the rest of his life turning a grim fortress into a palace and filling it with hundreds of paintings. His only son, Hercule, died in a shooting accident in 1651. So when Honoré died in 1662, Monaco went to his grandson Louis."
+      ],
+      "claims": [
+        {
+          "text": "The Spanish soldiers were got drunk before Honoré's men threw them out.",
+          "status": "legend",
+          "note": "A favourite Monaco story. The expulsion of 1641 is well recorded; the party before it is not."
+        },
+        {
+          "text": "Honoré II was the first ruler of Monaco to call himself prince.",
+          "status": "confirmed",
+          "note": "He took the title in 1612, and his documents from then on use it."
+        },
+        {
+          "text": "Louis XIII made him Duke of Valentinois in 1642.",
+          "status": "confirmed",
+          "note": "The letters creating the duchy survive, and the title is still held by Monaco's rulers."
+        }
+      ],
+      "hook": "Monaco is France's friend now. Honoré's grandson Louis would much rather be at Louis XIV's court than on the Rock.",
+      "images": [
+        {
+          "file": "File:HonoriusIIMonaco-1-.jpg",
+          "url": "https://upload.wikimedia.org/wikipedia/commons/8/8f/HonoriusIIMonaco-1-.jpg",
+          "page": "https://commons.wikimedia.org/wiki/File:HonoriusIIMonaco-1-.jpg",
+          "credit": "Philippe de Champaigne",
+          "license": "Public domain",
+          "made": "1651",
+          "caption": "Painted by Philippe de Champaigne in 1651, eleven years before Honoré died.",
+          "alt": "Painted portrait of Honoré II, Prince of Monaco"
+        }
+      ],
+      "sources": [
+        {
+          "title": "Monaco, ses origines et son histoire",
+          "author": "Gustave Saige",
+          "note": "1897"
+        },
+        {
+          "title": "Histoire de la principauté de Monaco",
+          "author": "Léon-Honoré Labande",
+          "note": "1934"
+        },
+        {
+          "title": "The Grimaldis of Monaco",
+          "author": "Anne Edwards",
+          "note": "William Morrow, 1992"
+        }
+      ],
+      "review": {
+        "status": "draft",
+        "notes": "Drafted from the listed sources; needs a human fact-check."
+      }
+    },
+    {
+      "id": "princes-at-versailles",
+      "kind": "interregnum",
+      "rulers": [],
+      "house": "grimaldi",
+      "title": "Princes at Versailles",
+      "tagline": "Courtiers, a doomed princess and an unwanted husband",
+      "start": {
+        "date": "1662-01-10"
+      },
+      "end": {
+        "date": "1733-11-07"
+      },
+      "contestedWith": [],
+      "relationToPredecessor": "Honoré II's grandson and heirs",
+      "ageAtAccession": "Various",
+      "cameToPower": "Grandson Louis I inherited",
+      "reignEnded": "Jacques I abdicated for his son",
+      "previously": "Honoré II dies a French duke. His grandson Louis takes over.",
+      "paragraphs": [
+        "Louis I was a creature of Louis XIV's court. He fought in the Sun King's wars, and in 1699 the king sent him to Rome as ambassador to the pope. Louis spent so lavishly there that he ran through his money, and he died in Rome in 1701. His wife, Catherine-Charlotte de Gramont, was said to have caught the king's eye years before.",
+        "His son Antoine I cared more for music than for war. He had daughters but no son. When he died in February 1731, his daughter Louise-Hippolyte became Princess of Monaco in her own right, the only woman ever to do so. By the end of December she was dead of smallpox.",
+        "Her husband, the Frenchman Jacques de Goyon de Matignon, had taken the Grimaldi name and now became Jacques I. Monaco never warmed to him. His Paris house, the Hôtel Matignon, is now home to French prime ministers. He soon went back to Paris, and in 1733 he gave up the throne to their son, Honoré."
+      ],
+      "claims": [
+        {
+          "text": "Louis I's wife was the Sun King's lover.",
+          "status": "disputed",
+          "note": "Court gossip and memoirs of the 1660s say so. They hint strongly but prove nothing."
+        },
+        {
+          "text": "Louise-Hippolyte is the only woman to have reigned as Princess of Monaco.",
+          "status": "confirmed",
+          "note": "Every list of Monaco's rulers agrees. She reigned for less than a year."
+        },
+        {
+          "text": "The Hôtel Matignon takes its name from Jacques's family.",
+          "status": "confirmed",
+          "note": "He bought the house in the 1720s; it has been the French prime minister's residence since 1935."
+        }
+      ],
+      "hook": "Monaco's new prince is twelve years old, and he has no intention of living there.",
+      "images": [
+        {
+          "file": "File:1706 - Antoine I Grimaldi (Monaco).jpg",
+          "url": "https://upload.wikimedia.org/wikipedia/commons/1/15/1706_-_Antoine_I_Grimaldi_%28Monaco%29.jpg",
+          "page": "https://commons.wikimedia.org/wiki/File:1706_-_Antoine_I_Grimaldi_(Monaco).jpg",
+          "credit": "Hyacinthe Rigaud",
+          "license": "Public domain",
+          "made": "1706",
+          "caption": "Antoine I, painted in 1706 by Hyacinthe Rigaud, Louis XIV's favourite portrait painter.",
+          "alt": "Formal painted portrait of Antoine I of Monaco"
+        }
+      ],
+      "sources": [
+        {
+          "title": "Monaco, ses origines et son histoire",
+          "author": "Gustave Saige",
+          "note": "1897"
+        },
+        {
+          "title": "Histoire de la principauté de Monaco",
+          "author": "Léon-Honoré Labande",
+          "note": "1934"
+        },
+        {
+          "title": "The Grimaldis of Monaco",
+          "author": "Anne Edwards",
+          "note": "William Morrow, 1992"
+        }
+      ],
+      "review": {
+        "status": "draft",
+        "notes": "Drafted from the listed sources; needs a human fact-check."
+      }
+    },
+    {
+      "id": "honore-iii",
+      "kind": "monarch",
+      "rulers": [
+        "honore-iii"
+      ],
+      "tagline": "The absent prince the Revolution swept away",
+      "start": {
+        "date": "1733-11-07"
+      },
+      "end": {
+        "date": "1793-01-19"
+      },
+      "contestedWith": [],
+      "relationToPredecessor": "Son of Jacques I",
+      "ageAtAccession": "12",
+      "cameToPower": "Father abdicated",
+      "reignEnded": "Deposed by the Revolution",
+      "previously": "Jacques I gives up the throne and hands it to his young son Honoré.",
+      "paragraphs": [
+        "Honoré became prince at twelve and left the ruling to his uncle Antoine, known as the Chevalier de Grimaldi, who governed Monaco for decades. Honoré preferred France. He soldiered for Louis XV and fought at Fontenoy in 1745, then settled into the good life in Paris.",
+        "In 1757 he married Maria Caterina Brignole, a rich Genoese heiress. It went badly. She left him, and after Honoré's death she married the Prince of Condé, one of the grandest nobles in France. Their son, the future Honoré IV, married Louise d'Aumont, heiress to the Mazarin fortune, tying the family ever tighter to France.",
+        "Then came the Revolution. Its ideas reached the Rock, and in January 1793 Monaco's people deposed their absent prince. Honoré was arrested in Paris and locked up. He came out alive but ruined, and died in Paris in March 1795."
+      ],
+      "claims": [
+        {
+          "text": "Honoré III fought at the Battle of Fontenoy in 1745.",
+          "status": "confirmed",
+          "note": "His service in the French army is recorded in the standard histories of Monaco."
+        },
+        {
+          "text": "His estranged wife went on to marry the Prince of Condé.",
+          "status": "confirmed",
+          "note": "They married in exile after Honoré's death; the long affair before it was public knowledge."
+        }
+      ],
+      "hook": "The prince is gone. Monaco is about to vote itself out of existence and become part of France.",
+      "images": [
+        {
+          "file": "File:Honoré III, Prince of Monaco by Jean Baptiste van Loo.jpg",
+          "url": "https://upload.wikimedia.org/wikipedia/commons/5/55/Honor%C3%A9_III%2C_Prince_of_Monaco_by_Jean_Baptiste_van_Loo.jpg",
+          "page": "https://commons.wikimedia.org/wiki/File:Honor%C3%A9_III,_Prince_of_Monaco_by_Jean_Baptiste_van_Loo.jpg",
+          "credit": "Jean-Baptiste van Loo",
+          "license": "Public domain",
+          "made": "Before 1745",
+          "caption": "Honoré III painted by Jean-Baptiste van Loo, probably when he was in his twenties.",
+          "alt": "Painted portrait of Honoré III, Prince of Monaco"
+        }
+      ],
+      "sources": [
+        {
+          "title": "Monaco, ses origines et son histoire",
+          "author": "Gustave Saige",
+          "note": "1897"
+        },
+        {
+          "title": "Histoire de la principauté de Monaco",
+          "author": "Léon-Honoré Labande",
+          "note": "1934"
+        },
+        {
+          "title": "The Grimaldis of Monaco",
+          "author": "Anne Edwards",
+          "note": "William Morrow, 1992"
+        }
+      ],
+      "review": {
+        "status": "draft",
+        "notes": "Drafted from the listed sources; needs a human fact-check."
+      }
+    },
+    {
+      "id": "french-monaco",
+      "kind": "interregnum",
+      "rulers": [],
+      "house": "france",
+      "title": "Monaco Becomes French",
+      "tagline": "No prince, no palace, no Monaco",
+      "start": {
+        "date": "1793-01-19"
+      },
+      "end": {
+        "date": "1814-05-17"
+      },
+      "contestedWith": [],
+      "relationToPredecessor": "None: Monaco annexed by France",
+      "ageAtAccession": "No prince",
+      "cameToPower": "Prince deposed by the people",
+      "reignEnded": "1814 peace restored the prince",
+      "previously": "Revolution reaches the Rock. Monaco deposes Honoré III.",
+      "paragraphs": [
+        "With Honoré III gone, Monaco's revolutionaries set up their own National Convention. On 24 February 1793 France annexed the place outright. Monaco was renamed Fort d'Hercule, after the old legend that Hercules had passed this way. The Grimaldis had lost everything.",
+        "The palace was stripped. Its furniture and the princes' great art collection were sold off, and the building became a hospital and a poorhouse. The family suffered too. Françoise-Thérèse de Choiseul-Stainville, married to Honoré III's younger son Joseph, was guillotined in Paris on 27 July 1794. That same day Robespierre fell from power.",
+        "Monaco rode along through Napoleon's empire as a small French town. When Napoleon fell, the peace of 1814 gave Monaco back to the Grimaldis."
+      ],
+      "claims": [
+        {
+          "text": "Monaco was renamed Fort d'Hercule.",
+          "status": "confirmed",
+          "note": "The name appears in the French records of the annexation."
+        },
+        {
+          "text": "One more day would have saved Françoise-Thérèse.",
+          "status": "disputed",
+          "note": "She died on the day Robespierre fell, and the killing slowed soon after. Whether she would have been spared is guesswork."
+        }
+      ],
+      "hook": "Napoleon is on Elba and a Grimaldi is heading home. But Napoleon won't stay on Elba for long.",
+      "images": [
+        {
+          "file": "File:Marie Thérèse de Choiseul, Princess Joseph of Monaco.png",
+          "url": "https://upload.wikimedia.org/wikipedia/commons/f/fb/Marie_Th%C3%A9r%C3%A8se_de_Choiseul%2C_Princess_Joseph_of_Monaco.png",
+          "page": "https://commons.wikimedia.org/wiki/File:Marie_Th%C3%A9r%C3%A8se_de_Choiseul,_Princess_Joseph_of_Monaco.png",
+          "credit": "Unknown artist",
+          "license": "Public domain",
+          "made": "Unknown date",
+          "caption": "A portrait of Françoise-Thérèse de Choiseul-Stainville, the Grimaldi daughter-in-law guillotined in 1794.",
+          "alt": "Painted portrait of Thérèse de Choiseul-Stainville, Princess Joseph of Monaco"
+        }
+      ],
+      "sources": [
+        {
+          "title": "Monaco, ses origines et son histoire",
+          "author": "Gustave Saige",
+          "note": "1897"
+        },
+        {
+          "title": "Histoire de la principauté de Monaco",
+          "author": "Léon-Honoré Labande",
+          "note": "1934"
+        },
+        {
+          "title": "The Grimaldis of Monaco",
+          "author": "Anne Edwards",
+          "note": "William Morrow, 1992"
+        }
+      ],
+      "review": {
+        "status": "draft",
+        "notes": "Drafted from the listed sources; needs a human fact-check."
+      }
+    },
+    {
+      "id": "restored-princes",
+      "kind": "interregnum",
+      "rulers": [],
+      "house": "grimaldi",
+      "title": "The Prince Who Came Back",
+      "tagline": "A prince meets Napoleon on the road home",
+      "start": {
+        "date": "1814-05-30"
+      },
+      "end": {
+        "date": "1856-06-20"
+      },
+      "contestedWith": [],
+      "relationToPredecessor": "Honoré III's son and grandsons",
+      "ageAtAccession": "Various",
+      "cameToPower": "Restored by the 1814 peace",
+      "reignEnded": "Florestan died",
+      "previously": "Napoleon has fallen, and the peace of 1814 hands Monaco back.",
+      "paragraphs": [
+        "Honoré IV got his throne back in 1814, but he was sick and left the work to others, chiefly his son, the future Honoré V. In March 1815 the young Honoré was travelling to Monaco when he ran into Napoleon, just landed from Elba, near Cannes. Both men were heading home to take back a throne. Only one of them kept his.",
+        "The Congress of Vienna put Monaco under the protection of the Kingdom of Sardinia. Honoré V took over in 1819 and ran his tiny state like a business, with monopolies and taxes that infuriated his subjects. He died unmarried in 1841, and his brother Florestan took over.",
+        "Florestan had little taste for politics, and his sharp wife Caroline did much of the ruling. In 1848, the year of revolutions, Menton and Roquebrune rose up and declared themselves free towns. Monaco was left with the Rock and a strip of shore."
+      ],
+      "claims": [
+        {
+          "text": "Napoleon asked Honoré where he was going. Told “home to Monaco”, he replied that he was going home too, to the Tuileries.",
+          "status": "legend",
+          "note": "The meeting is told in many histories. The neat exchange has surely been polished in the retelling."
+        },
+        {
+          "text": "Florestan worked as an actor in Paris before he inherited.",
+          "status": "disputed",
+          "note": "It appears in most histories of the family, but how serious a stage career it was is unclear."
+        },
+        {
+          "text": "Menton and Roquebrune declared themselves free towns in 1848.",
+          "status": "confirmed",
+          "note": "They broke away during the 1848 revolutions and never came back to Monaco."
+        }
+      ],
+      "hook": "Monaco has lost most of its land and most of its income. Florestan's son Charles needs a new idea, fast.",
+      "images": [
+        {
+          "file": "File:Honore V Monaco.gif",
+          "url": "https://upload.wikimedia.org/wikipedia/commons/f/f6/Honore_V_Monaco.gif",
+          "page": "https://commons.wikimedia.org/wiki/File:Honore_V_Monaco.gif",
+          "credit": "Marie-Juliette Callaut",
+          "license": "Public domain",
+          "made": "1881",
+          "caption": "Honoré V, painted in 1881, forty years after his death.",
+          "alt": "Painted portrait of Prince Honoré V of Monaco"
+        }
+      ],
+      "sources": [
+        {
+          "title": "Monaco, ses origines et son histoire",
+          "author": "Gustave Saige",
+          "note": "1897"
+        },
+        {
+          "title": "Histoire de la principauté de Monaco",
+          "author": "Léon-Honoré Labande",
+          "note": "1934"
+        },
+        {
+          "title": "The Grimaldis of Monaco",
+          "author": "Anne Edwards",
+          "note": "William Morrow, 1992"
+        }
+      ],
+      "review": {
+        "status": "draft",
+        "notes": "Drafted from the listed sources; needs a human fact-check."
+      }
+    },
+    {
+      "id": "charles-iii",
+      "kind": "monarch",
+      "rulers": [
+        "charles-iii"
+      ],
+      "tagline": "The prince who bet his country on a casino",
+      "start": {
+        "date": "1856-06-20"
+      },
+      "end": {
+        "date": "1889-09-10"
+      },
+      "contestedWith": [],
+      "relationToPredecessor": "Son of Florestan",
+      "ageAtAccession": "37",
+      "cameToPower": "Inherited from his father",
+      "reignEnded": "Died, blind, in France",
+      "previously": "Florestan dies. Monaco has shrunk to the Rock and a strip of shore.",
+      "paragraphs": [
+        "Charles III inherited a country that had almost vanished. In 1861 he made the loss official. France paid 4 million francs, Monaco gave up its claim to Menton and Roquebrune, and France recognised Monaco as independent. What Charles had left was a rock, a harbour, a bare hillside and plenty of sunshine.",
+        "So he bet on gambling. The first casinos struggled until 1863, when the businessman François Blanc took over the casino company, the Société des Bains de Mer. Blanc built big and advertised hard. In 1866 the plateau of Les Spélugues was renamed Monte Carlo, Charles's Mount, in the prince's honour. When the railway arrived in 1868, the crowds followed.",
+        "The money poured in. In 1869 Charles scrapped direct taxes on Monaco's residents, which helped make the place what it still is. He went blind in later life. He died in 1889, and his son Albert became prince."
+      ],
+      "claims": [
+        {
+          "text": "France paid Monaco 4 million francs under the 1861 treaty.",
+          "status": "confirmed",
+          "note": "The sum is written into the treaty."
+        },
+        {
+          "text": "Monaco abolished direct taxes on its residents in 1869.",
+          "status": "confirmed",
+          "note": "A princely decree; casino money made it possible."
+        },
+        {
+          "text": "“Sometimes red wins, sometimes black, but Blanc always wins.”",
+          "status": "legend",
+          "note": "A gamblers' joke from the 19th century. Nobody knows who first said it."
+        }
+      ],
+      "hook": "Charles's son Albert has spent half his life at sea. Monaco's next prince is happier on a ship's deck than in a palace.",
+      "images": [
+        {
+          "file": "File:Karl III (Monaco).jpg",
+          "url": "https://upload.wikimedia.org/wikipedia/commons/7/7a/Karl_III_%28Monaco%29.jpg",
+          "page": "https://commons.wikimedia.org/wiki/File:Karl_III_(Monaco).jpg",
+          "credit": "Unknown artist",
+          "license": "Public domain",
+          "made": "Before 1889",
+          "caption": "Charles III of Monaco, in a portrait made during his lifetime.",
+          "alt": "Portrait of Charles III, Prince of Monaco"
+        }
+      ],
+      "sources": [
+        {
+          "title": "Making Monte Carlo: A History of Speculation and Spectacle",
+          "author": "Mark Braude",
+          "note": "Simon & Schuster, 2016"
+        },
+        {
+          "title": "The Grimaldis of Monaco",
+          "author": "Anne Edwards",
+          "note": "William Morrow, 1992"
+        },
+        {
+          "title": "Histoire de la principauté de Monaco",
+          "author": "Léon-Honoré Labande",
+          "note": "1934"
+        }
+      ],
+      "review": {
+        "status": "draft",
+        "notes": "Drafted from the listed sources; needs a human fact-check."
+      }
+    },
+    {
+      "id": "albert-i",
+      "kind": "monarch",
+      "rulers": [
+        "albert-i"
+      ],
+      "tagline": "The prince who'd rather be at sea",
+      "start": {
+        "date": "1889-09-10"
+      },
+      "end": {
+        "date": "1922-06-26"
+      },
+      "contestedWith": [],
+      "relationToPredecessor": "Son of Charles III",
+      "ageAtAccession": "40",
+      "cameToPower": "Inherited from his father",
+      "reignEnded": "Died in Paris",
+      "previously": "Charles III dies blind but rich, thanks to the casino.",
+      "paragraphs": [
+        "Albert served in the Spanish navy as a young man, and the sea never let him go. He spent years on scientific cruises aboard his yachts, the Hirondelle and the Princesse Alice, hauling up deep-sea creatures and studying currents. He founded the Oceanographic Museum in Monaco, opened in 1910, and the Oceanographic Institute in Paris. He also set up the Institute of Human Paleontology in Paris.",
+        "His private life was rockier. His first marriage, to the Scottish noblewoman Lady Mary Victoria Hamilton, gave him a son, Louis, and was then annulled. His second wife, the American-born Alice Heine, was a great patron of the arts, but they separated. Albert also stood up for Alfred Dreyfus when that was far from popular.",
+        "At home, people wanted a say. After protests, Albert granted Monaco its first constitution in 1911. The same year the first Monte Carlo Rally set off. He died in Paris in 1922, and his son Louis became prince."
+      ],
+      "claims": [
+        {
+          "text": "Albert I openly supported Alfred Dreyfus.",
+          "status": "confirmed",
+          "note": "His backing for a retrial is documented in his letters and in histories of the Dreyfus affair."
+        },
+        {
+          "text": "The Oceanographic Museum opened in 1910.",
+          "status": "confirmed",
+          "note": "The museum's opening is well documented; it still stands on the cliff of the Rock."
+        }
+      ],
+      "hook": "Louis II is a soldier with no wife and no legitimate child. If he dies without an heir, Monaco could pass to a German duke.",
+      "images": [
+        {
+          "file": "File:Prince Albert I of Monaco - circa 1910.jpg",
+          "url": "https://upload.wikimedia.org/wikipedia/commons/b/b6/Prince_Albert_I_of_Monaco_-_circa_1910.jpg",
+          "page": "https://commons.wikimedia.org/wiki/File:Prince_Albert_I_of_Monaco_-_circa_1910.jpg",
+          "credit": "J. B. E. Detaille",
+          "license": "Public domain",
+          "made": "c. 1910",
+          "caption": "Albert I photographed around 1910, the year his museum opened.",
+          "alt": "Photograph of Prince Albert I of Monaco"
+        }
+      ],
+      "sources": [
+        {
+          "title": "La Carrière d'un navigateur",
+          "author": "Albert I of Monaco",
+          "note": "1902; his own account of his voyages"
+        },
+        {
+          "title": "The Grimaldis of Monaco",
+          "author": "Anne Edwards",
+          "note": "William Morrow, 1992"
+        },
+        {
+          "title": "Histoire de la principauté de Monaco",
+          "author": "Léon-Honoré Labande",
+          "note": "1934"
+        }
+      ],
+      "review": {
+        "status": "draft",
+        "notes": "Drafted from the listed sources; needs a human fact-check."
+      }
+    },
+    {
+      "id": "louis-ii",
+      "kind": "monarch",
+      "rulers": [
+        "louis-ii"
+      ],
+      "tagline": "The old soldier who saved the throne by adoption",
+      "start": {
+        "date": "1922-06-26"
+      },
+      "end": {
+        "date": "1949-05-09"
+      },
+      "contestedWith": [],
+      "relationToPredecessor": "Son of Albert I",
+      "ageAtAccession": "51",
+      "cameToPower": "Inherited from his father",
+      "reignEnded": "Died in Monaco",
+      "previously": "Albert the Navigator dies in Paris. His son Louis is the new prince.",
+      "paragraphs": [
+        "Louis spent his life in the French army and was a general in the First World War. He never married, but he had a daughter, Charlotte, born in Algeria in 1898 to Marie Juliette Louvet, a cabaret singer. That turned out to matter a great deal.",
+        "A 1918 treaty with France said that if the Grimaldi line died out, Monaco would come under France. Next in line by blood stood a German cousin, the Duke of Urach, and France would never accept him. The fix: in 1919 Louis adopted Charlotte and made her his heir.",
+        "In the Second World War Monaco was occupied, first by Italy, then by Germany. In 1944 Charlotte gave up her rights in favour of her son Rainier. Louis finally married in 1946, to the actress Ghislaine Dommanget, and died in 1949. Monaco's football stadium, the Stade Louis II, carries his name."
+      ],
+      "claims": [
+        {
+          "text": "Louis adopted his daughter Charlotte in 1919 to keep the throne from a German cousin.",
+          "status": "confirmed",
+          "note": "The adoption and the succession worry behind it are fully documented."
+        },
+        {
+          "text": "The 1918 treaty tied Monaco's fate to France if the Grimaldis died out.",
+          "status": "confirmed",
+          "note": "The treaty text is public; a 2002 treaty later changed the rule."
+        }
+      ],
+      "hook": "Louis's grandson Rainier is 25 and in charge. He has big plans for Monaco, and soon a famous bride.",
+      "images": [
+        {
+          "file": "File:Prince Louis II of Monaco 05670r.jpg",
+          "url": "https://upload.wikimedia.org/wikipedia/commons/b/ba/Prince_Louis_II_of_Monaco_05670r.jpg",
+          "page": "https://commons.wikimedia.org/wiki/File:Prince_Louis_II_of_Monaco_05670r.jpg",
+          "credit": "Georges Detaille",
+          "license": "Public domain",
+          "made": "Before 1923",
+          "caption": "Louis II, photographed around the start of his reign.",
+          "alt": "Photograph of Prince Louis II of Monaco"
+        }
+      ],
+      "sources": [
+        {
+          "title": "The Grimaldis of Monaco",
+          "author": "Anne Edwards",
+          "note": "William Morrow, 1992"
+        },
+        {
+          "title": "Histoire de la principauté de Monaco",
+          "author": "Léon-Honoré Labande",
+          "note": "1934"
+        },
+        {
+          "title": "Histoire de Monaco",
+          "author": "Thomas Fouilleron",
+          "note": "Monaco, 2010"
+        }
+      ],
+      "review": {
+        "status": "draft",
+        "notes": "Drafted from the listed sources; needs a human fact-check."
+      }
+    },
+    {
+      "id": "rainier-iii",
+      "kind": "monarch",
+      "rulers": [
+        "rainier-iii"
+      ],
+      "tagline": "The prince who married a film star and built a city",
+      "start": {
+        "date": "1949-05-09"
+      },
+      "end": {
+        "date": "2005-04-06"
+      },
+      "contestedWith": [],
+      "relationToPredecessor": "Grandson of Louis II",
+      "ageAtAccession": "25",
+      "cameToPower": "Mother gave up her rights",
+      "reignEnded": "Died after nearly 56 years",
+      "previously": "Louis II dies at 78. His grandson Rainier takes the throne.",
+      "paragraphs": [
+        "Rainier became prince at 25. In April 1956 he married the Hollywood star Grace Kelly, and the wedding put Monaco in newspapers around the world. They had three children: Caroline in 1957, Albert in 1958 and Stéphanie in 1965. In 1966 Rainier pushed the shipping tycoon Aristotle Onassis out of the casino company after years of fighting over it.",
+        "In 1962 he gave Monaco a new constitution. The same year he picked a fight he couldn't win. Charles de Gaulle, angry that French people were dodging tax in Monaco, set up customs checks on the border. Under the deal that ended the row in 1963, French residents in Monaco pay French tax.",
+        "Rainier pushed the coastline out, building the Fontvieille district on land reclaimed from the sea, and let tower blocks rise. Hence the Builder Prince. On 14 September 1982 Grace died after a car crash. Rainier never remarried. He died on 6 April 2005, after a reign of almost 56 years."
+      ],
+      "claims": [
+        {
+          "text": "Grace Kelly died after a car crash on 14 September 1982.",
+          "status": "confirmed",
+          "note": "Her doctors said she had a stroke at the wheel the day before. Stéphanie was in the car and survived."
+        },
+        {
+          "text": "Rainier forced Onassis out of the casino company in 1966.",
+          "status": "confirmed",
+          "note": "The state created new shares to take control; Onassis sold up."
+        },
+        {
+          "text": "Since 1963, French people living in Monaco pay French tax.",
+          "status": "confirmed",
+          "note": "Set by the 1963 Franco-Monegasque tax convention."
+        }
+      ],
+      "hook": "Rainier is dead. His only son, Albert, a former Olympic bobsledder, takes the throne at 47.",
+      "images": [
+        {
+          "file": "File:Rainier III (JFKWHP-KN-C17888, cropped).jpg",
+          "url": "https://upload.wikimedia.org/wikipedia/commons/e/ec/Rainier_III_%28JFKWHP-KN-C17888%2C_cropped%29.jpg",
+          "page": "https://commons.wikimedia.org/wiki/File:Rainier_III_(JFKWHP-KN-C17888,_cropped).jpg",
+          "credit": "Robert LeRoy Knudsen",
+          "license": "Public domain",
+          "made": "1961",
+          "caption": "Rainier at the White House on 24 May 1961.",
+          "alt": "Photograph of Prince Rainier III of Monaco during a White House visit"
+        }
+      ],
+      "sources": [
+        {
+          "title": "Rainier and Grace: An Intimate Portrait",
+          "author": "Jeffrey Robinson",
+          "note": "1989"
+        },
+        {
+          "title": "High Society: The Life of Grace Kelly",
+          "author": "Donald Spoto",
+          "note": "2009"
+        },
+        {
+          "title": "The Grimaldis of Monaco",
+          "author": "Anne Edwards",
+          "note": "William Morrow, 1992"
+        }
+      ],
+      "review": {
+        "status": "draft",
+        "notes": "Drafted from the listed sources; needs a human fact-check."
+      }
+    },
+    {
+      "id": "albert-ii",
+      "kind": "monarch",
+      "rulers": [
+        "albert-ii"
+      ],
+      "tagline": "The Olympian prince with a green cause",
+      "start": {
+        "date": "2005-04-06"
+      },
+      "contestedWith": [],
+      "relationToPredecessor": "Only son of Rainier III",
+      "ageAtAccession": "47",
+      "cameToPower": "Inherited from his father",
+      "reignEnded": "Still reigning",
+      "previously": "Rainier dies after nearly 56 years. His son Albert takes over.",
+      "paragraphs": [
+        "Albert was born in the palace in 1958 and studied political science at Amherst College in the United States. He was a serious athlete. He competed in bobsleigh at five Winter Olympics, from Calgary in 1988 to Salt Lake City in 2002, and he has sat on the International Olympic Committee since 1985. He became regent in March 2005 as his father lay dying, and prince when Rainier died that April.",
+        "He has made the environment his cause, above all the oceans and the climate. In April 2006 he reached the North Pole, and that year he set up the Prince Albert II of Monaco Foundation to fund environmental work. In July 2011 he married Charlene Wittstock, a South African Olympic swimmer.",
+        "On 10 December 2014 Charlene gave birth to twins, Gabriella and Jacques. Jacques is heir to the throne. Before his marriage Albert had two other children, both of whom he has publicly acknowledged. More than seven centuries after a fake friar slipped through the gate, a Grimaldi still rules the Rock."
+      ],
+      "claims": [
+        {
+          "text": "Albert competed in bobsleigh at five Winter Olympics.",
+          "status": "confirmed",
+          "note": "Olympic records list him at every Winter Games from 1988 to 2002."
+        },
+        {
+          "text": "He reached the North Pole in April 2006.",
+          "status": "confirmed",
+          "note": "The expedition was announced by the palace and widely reported."
+        },
+        {
+          "text": "Jacques, born on 10 December 2014, is heir to the throne.",
+          "status": "confirmed",
+          "note": "Monaco's succession rules put sons before daughters, so he comes ahead of his twin sister."
+        }
+      ],
+      "images": [
+        {
+          "file": "File:Albert II - 08.06.2025 - Encontro com Sua Alteza o Príncipe de Mônaco, Alberto II (54574973880).jpg",
+          "url": "https://upload.wikimedia.org/wikipedia/commons/0/06/Albert_II_-_08.06.2025_-_Encontro_com_Sua_Alteza_o_Pr%C3%ADncipe_de_M%C3%B4naco%2C_Alberto_II_%2854574973880%29.jpg",
+          "page": "https://commons.wikimedia.org/wiki/File:Albert_II_-_08.06.2025_-_Encontro_com_Sua_Alteza_o_Pr%C3%ADncipe_de_M%C3%B4naco,_Alberto_II_(54574973880).jpg",
+          "credit": "Ricardo Stuckert / PR (Lula Oficial)",
+          "license": "CC BY-SA 2.0",
+          "made": "2025",
+          "caption": "Albert II in June 2025, at a meeting with Brazil's President Lula.",
+          "alt": "Photograph of Prince Albert II of Monaco"
+        }
+      ],
+      "sources": [
+        {
+          "title": "Albert II",
+          "author": "Encyclopaedia Britannica",
+          "note": "Online entry"
+        },
+        {
+          "title": "The Sovereign Prince",
+          "author": "Prince's Palace of Monaco",
+          "note": "Official website, palais.mc"
+        },
+        {
+          "title": "Prince Albert II of Monaco Foundation",
+          "author": "fpa2.org",
+          "note": "Official website"
+        }
+      ],
+      "review": {
+        "status": "draft",
+        "notes": "Drafted from the listed sources; needs a human fact-check."
+      }
+    }
+  ]
+}
