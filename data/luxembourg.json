@@ -1,0 +1,610 @@
+{
+  "id": "luxembourg",
+  "name": "Luxembourg",
+  "blurb": "The grand dukes of Luxembourg, from Adolphe to Guillaume V",
+  "dateConvention": "Dates are Gregorian. The deck starts in 1890, when Luxembourg stopped sharing a monarch with the Netherlands and got a grand duke of its own.",
+  "houses": [
+    {
+      "id": "nassau-weilburg",
+      "name": "Nassau-Weilburg",
+      "color": "#b85c00"
+    },
+    {
+      "id": "luxembourg-nassau",
+      "name": "Luxembourg-Nassau",
+      "color": "#2b6f93"
+    }
+  ],
+  "rulers": [
+    {
+      "id": "adolphe",
+      "name": "Adolphe",
+      "house": "nassau-weilburg",
+      "born": {
+        "date": "1817-07-24",
+        "note": "Biebrich, Duchy of Nassau"
+      },
+      "died": {
+        "date": "1905-11-17",
+        "note": "Schloss Hohenburg, Lenggries, Bavaria"
+      },
+      "causeOfDeath": "Old age, at 88"
+    },
+    {
+      "id": "guillaume-iv",
+      "name": "Guillaume IV",
+      "house": "nassau-weilburg",
+      "born": {
+        "date": "1852-04-22",
+        "note": "Biebrich, Duchy of Nassau"
+      },
+      "died": {
+        "date": "1912-02-25",
+        "note": "Berg Castle, Colmar-Berg"
+      },
+      "causeOfDeath": "Long illness"
+    },
+    {
+      "id": "marie-adelaide",
+      "name": "Marie-Adélaïde",
+      "house": "nassau-weilburg",
+      "born": {
+        "date": "1894-06-14",
+        "note": "Berg Castle, Colmar-Berg"
+      },
+      "died": {
+        "date": "1924-01-24",
+        "note": "Schloss Hohenburg, Lenggries, Bavaria"
+      },
+      "causeOfDeath": "Influenza"
+    },
+    {
+      "id": "charlotte",
+      "name": "Charlotte",
+      "house": "nassau-weilburg",
+      "born": {
+        "date": "1896-01-23",
+        "note": "Berg Castle, Colmar-Berg"
+      },
+      "died": {
+        "date": "1985-07-09",
+        "note": "Fischbach Castle"
+      },
+      "causeOfDeath": "Cancer"
+    },
+    {
+      "id": "jean",
+      "name": "Jean",
+      "house": "luxembourg-nassau",
+      "born": {
+        "date": "1921-01-05",
+        "note": "Berg Castle, Colmar-Berg"
+      },
+      "died": {
+        "date": "2019-04-23",
+        "note": "Luxembourg City"
+      },
+      "causeOfDeath": "Lung infection, at 98"
+    },
+    {
+      "id": "henri",
+      "name": "Henri",
+      "house": "luxembourg-nassau",
+      "born": {
+        "date": "1955-04-16",
+        "note": "Betzdorf Castle"
+      }
+    },
+    {
+      "id": "guillaume-v",
+      "name": "Guillaume V",
+      "house": "luxembourg-nassau",
+      "born": {
+        "date": "1981-11-11",
+        "note": "Luxembourg City"
+      }
+    }
+  ],
+  "reigns": [
+    {
+      "id": "adolphe",
+      "kind": "monarch",
+      "rulers": [
+        "adolphe"
+      ],
+      "tagline": "The duke who lost his country and got another at 73",
+      "start": {
+        "date": "1890-11-23"
+      },
+      "end": {
+        "date": "1905-11-17"
+      },
+      "contestedWith": [],
+      "relationToPredecessor": "Distant Nassau cousin of William III",
+      "ageAtAccession": "73",
+      "cameToPower": "Nassau family pact",
+      "reignEnded": "Died at his Bavarian castle",
+      "previously": "William III dies. His daughter can rule the Dutch but not Luxembourg.",
+      "paragraphs": [
+        "Since 1815 the Dutch king had doubled as Grand Duke of Luxembourg. Then William III died in November 1890 leaving only a daughter, Wilhelmina. The Dutch were happy with a queen. Luxembourg wasn't allowed one: an old Nassau family pact said only men could inherit. So the crown jumped across to the other branch of the House of Nassau, and to a 73-year-old German duke called Adolphe.",
+        "Adolphe had ruled Nassau, around Wiesbaden, until 1866. That year he backed Austria against Prussia, picked the losing side, and Prussia simply swallowed his duchy. He waited 24 years for another throne. He'd even filled in as regent while William III was ill in 1889 and 1890.",
+        "Once in charge, he sensibly stayed out of the way. Prime Minister Paul Eyschen ran the country, and a habit was born: the grand duke reigns, the ministers govern. Adolphe died in 1905 at Hohenburg, his summer castle in Bavaria."
+      ],
+      "claims": [
+        {
+          "text": "Adolphe lost the Duchy of Nassau because he sided with Austria in 1866.",
+          "status": "confirmed",
+          "note": "Prussia annexed Nassau after beating Austria in the Austro-Prussian War; standard histories agree."
+        },
+        {
+          "text": "Luxembourg went its own way in 1890 only because Wilhelmina was a girl.",
+          "status": "confirmed",
+          "note": "The Nassau family pact of 1783 barred women while any male Nassau heir lived; the Dutch had no such rule."
+        },
+        {
+          "text": "Adolphe started the custom of grand dukes keeping out of day-to-day politics.",
+          "status": "disputed",
+          "note": "The convention dates from his reign, though much of the credit belongs to his strong prime minister, Paul Eyschen."
+        }
+      ],
+      "hook": "Adolphe is dead. His son Guillaume takes over, but he has a problem the family pact never planned for: six children, every one of them a daughter.",
+      "images": [
+        {
+          "file": "File:Grand-duc Adolphe.jpg",
+          "url": "https://upload.wikimedia.org/wikipedia/commons/5/53/Grand-duc_Adolphe.jpg",
+          "page": "https://commons.wikimedia.org/wiki/File:Grand-duc_Adolphe.jpg",
+          "credit": "Ferdinand d'Huart",
+          "license": "Public domain",
+          "made": "Late 19th century",
+          "caption": "Painted by the Luxembourg artist Ferdinand d'Huart; held in the Grand Ducal Court's collection.",
+          "alt": "Painted full-length portrait of Grand Duke Adolphe of Luxembourg"
+        }
+      ],
+      "sources": [
+        {
+          "title": "The Grand Duchy of Luxembourg: The Evolution of Nationhood, 963 A.D. to 1983",
+          "author": "James Newcomer",
+          "note": "University Press of America, 1984"
+        },
+        {
+          "title": "Histoire du Luxembourg",
+          "author": "Gilbert Trausch",
+          "note": "Hatier, 1992"
+        },
+        {
+          "title": "Official website of the Grand Ducal Court (monarchie.lu)",
+          "author": "Cour grand-ducale de Luxembourg",
+          "note": "Biography of Grand Duke Adolphe"
+        }
+      ],
+      "review": {
+        "status": "draft",
+        "notes": "Drafted from the listed sources; needs a human fact-check."
+      }
+    },
+    {
+      "id": "guillaume-iv",
+      "kind": "monarch",
+      "rulers": [
+        "guillaume-iv"
+      ],
+      "tagline": "Six daughters, no son, and a law to fix it",
+      "start": {
+        "date": "1905-11-17"
+      },
+      "end": {
+        "date": "1912-02-25"
+      },
+      "contestedWith": [],
+      "relationToPredecessor": "Son of Adolphe",
+      "ageAtAccession": "53",
+      "cameToPower": "Succeeded his father",
+      "reignEnded": "Died after a long illness",
+      "previously": "Old Adolphe dies in Bavaria. His son Guillaume inherits.",
+      "paragraphs": [
+        "Guillaume IV (William IV to English readers) was a Protestant who married a Catholic, Marie Anne of Portugal, so that Catholic Luxembourg would get Catholic rulers. They had six children. All of them were girls. Under the family pact, that was a crisis waiting to happen.",
+        "The only other male of the line was a cousin, the Count of Merenberg, born of a marriage the family didn't count as royal. In 1907 Guillaume settled it: the Merenbergs were out, and his eldest daughter Marie-Adélaïde was heir. By 1908 he was too ill to rule, and his wife took over as regent. He died at Berg Castle in February 1912, the last Luxembourg monarch to die on the throne."
+      ],
+      "claims": [
+        {
+          "text": "The 1907 law cut the Counts of Merenberg out of the succession.",
+          "status": "confirmed",
+          "note": "Set out in a 1907 statute; Marie-Adélaïde and then Charlotte inherited under it."
+        },
+        {
+          "text": "Guillaume IV is the last Luxembourg monarch to die on the throne.",
+          "status": "confirmed",
+          "note": "Every grand duke or duchess since him has abdicated."
+        }
+      ],
+      "hook": "Guillaume is dead and his heir is a 17-year-old girl. She is devout, strong-willed and about to find out how small a country can feel when Germany is next door.",
+      "images": [
+        {
+          "file": "File:William IV, Grand Duke of Luxembourg.jpg",
+          "url": "https://upload.wikimedia.org/wikipedia/commons/8/82/William_IV%2C_Grand_Duke_of_Luxembourg.jpg",
+          "page": "https://commons.wikimedia.org/wiki/File:William_IV,_Grand_Duke_of_Luxembourg.jpg",
+          "credit": "Unknown photographer",
+          "license": "Public domain",
+          "made": "1896",
+          "caption": "Taken in 1896, nine years before he became grand duke; the print is in the Royal Collection.",
+          "alt": "Photograph of Guillaume standing beside a chair in ceremonial military uniform with sash, medals, fur cloak and spectacles, holding a plumed fur hat"
+        }
+      ],
+      "sources": [
+        {
+          "title": "The Grand Duchy of Luxembourg: The Evolution of Nationhood, 963 A.D. to 1983",
+          "author": "James Newcomer",
+          "note": "University Press of America, 1984"
+        },
+        {
+          "title": "Histoire du Luxembourg",
+          "author": "Gilbert Trausch",
+          "note": "Hatier, 1992"
+        },
+        {
+          "title": "Official website of the Grand Ducal Court (monarchie.lu)",
+          "author": "Cour grand-ducale de Luxembourg",
+          "note": "Biography of Grand Duke Guillaume IV"
+        }
+      ],
+      "review": {
+        "status": "draft",
+        "notes": "Drafted from the listed sources; needs a human fact-check."
+      }
+    },
+    {
+      "id": "marie-adelaide",
+      "kind": "monarch",
+      "rulers": [
+        "marie-adelaide"
+      ],
+      "tagline": "The teenage grand duchess who lost her throne to a war",
+      "start": {
+        "date": "1912-02-25"
+      },
+      "end": {
+        "date": "1919-01-14"
+      },
+      "contestedWith": [],
+      "relationToPredecessor": "Eldest daughter of Guillaume IV",
+      "ageAtAccession": "17",
+      "cameToPower": "Named heir by her father",
+      "reignEnded": "Forced to abdicate",
+      "previously": "Guillaume IV dies with no son. The 1907 law makes his daughter heir.",
+      "paragraphs": [
+        "Marie-Adélaïde was the first woman to reign over Luxembourg as grand duchess. She was 17, so her mother was regent until her birthday that June. She was devoutly Catholic, and unlike her father and grandfather she wanted a real say in politics. That put her on a collision course with the liberals and socialists in parliament from the start.",
+        "Then on 2 August 1914 German troops marched in. She protested, but she stayed, and kept up polite dealings with the occupiers. Her enemies said she was far too friendly, and the Kaiser's visit to her palace became the story everyone remembered.",
+        "When the war ended, France and Belgium eyed the country and parliament turned on her. In January 1919 she gave up the throne to her sister. She tried convent life in Italy, fell ill, and died of flu in 1924, aged 29."
+      ],
+      "claims": [
+        {
+          "text": "Marie-Adélaïde welcomed the Kaiser into her palace during the war.",
+          "status": "disputed",
+          "note": "He did visit, but her defenders say she learned of it only when he was already on his way."
+        },
+        {
+          "text": "France refused to deal with her government after the war.",
+          "status": "confirmed",
+          "note": "The French government said publicly it considered her gravely compromised."
+        },
+        {
+          "text": "She was pro-German at heart.",
+          "status": "disputed",
+          "note": "Her German family ties fed the charge, but she acted within the constitution and her ministers shared the key decisions."
+        }
+      ],
+      "hook": "Marie-Adélaïde is gone and republicans are in the streets. Her younger sister Charlotte inherits a throne that the voters may decide to abolish.",
+      "images": [
+        {
+          "file": "File:GD Marie Adélaïde (cropped).jpg",
+          "url": "https://upload.wikimedia.org/wikipedia/commons/2/24/GD_Marie_Ad%C3%A9la%C3%AFde_%28cropped%29.jpg",
+          "page": "https://commons.wikimedia.org/wiki/File:GD_Marie_Ad%C3%A9la%C3%AFde_(cropped).jpg",
+          "credit": "Bain News Service",
+          "license": "Public domain",
+          "made": "1910s",
+          "caption": "A news-agency photograph from the 1910s, around the time of her reign.",
+          "alt": "Black-and-white photograph of Grand Duchess Marie-Adélaïde of Luxembourg"
+        }
+      ],
+      "sources": [
+        {
+          "title": "The Grand Duchy of Luxembourg: The Evolution of Nationhood, 963 A.D. to 1983",
+          "author": "James Newcomer",
+          "note": "University Press of America, 1984"
+        },
+        {
+          "title": "Histoire du Luxembourg",
+          "author": "Gilbert Trausch",
+          "note": "Hatier, 1992"
+        },
+        {
+          "title": "Histoire du Luxembourg (Que sais-je?)",
+          "author": "Jean-Marie Kreins",
+          "note": "Presses Universitaires de France; several editions"
+        }
+      ],
+      "review": {
+        "status": "draft",
+        "notes": "Drafted from the listed sources; needs a human fact-check."
+      }
+    },
+    {
+      "id": "charlotte",
+      "kind": "monarch",
+      "rulers": [
+        "charlotte"
+      ],
+      "tagline": "The voice on the BBC who kept her country alive",
+      "start": {
+        "date": "1919-01-14"
+      },
+      "end": {
+        "date": "1964-11-12"
+      },
+      "contestedWith": [],
+      "relationToPredecessor": "Younger sister of Marie-Adélaïde",
+      "ageAtAccession": "22",
+      "cameToPower": "Sister's abdication",
+      "reignEnded": "Abdicated for her son",
+      "previously": "Marie-Adélaïde abdicates under fire. Her sister Charlotte steps in.",
+      "paragraphs": [
+        "Charlotte took over a monarchy on life support. On 28 September 1919 Luxembourgers voted on it, and about 78% chose to keep the grand duchy with her on the throne. That November she married Prince Felix of Bourbon-Parma. A new constitution trimmed her powers, and she settled into being a much-loved figurehead.",
+        "On 10 May 1940 Germany invaded again. This time the grand duchess left with her government, and from London she spoke to her people over the BBC. Germany annexed Luxembourg and tried to conscript its young men. A general strike in 1942 was crushed, and strikers were shot.",
+        "She came home in April 1945 to a hero's welcome. Luxembourg then helped found Benelux, NATO and the European communities. Her son Jean became regent in 1961, and in 1964 she stepped down."
+      ],
+      "claims": [
+        {
+          "text": "About 78% voted to keep the monarchy in 1919.",
+          "status": "confirmed",
+          "note": "Official referendum results give 77.8% for Charlotte as grand duchess."
+        },
+        {
+          "text": "Germany offered to put her back on the throne if she returned in 1940, and she refused.",
+          "status": "disputed",
+          "note": "Told in accounts of her exile; the terms of the offer are not well documented."
+        },
+        {
+          "text": "Her wartime broadcasts made her a symbol of the resistance.",
+          "status": "confirmed",
+          "note": "BBC broadcast records and post-war accounts agree; her 1945 homecoming drew huge crowds."
+        }
+      ],
+      "hook": "Charlotte steps aside after 45 years. Her son Jean, who once landed in Normandy with the Irish Guards, takes over a country about to get very rich.",
+      "images": [
+        {
+          "file": "File:Charlotte, Grand Duchess of Luxembourg.jpg",
+          "url": "https://upload.wikimedia.org/wikipedia/commons/f/f5/Charlotte%2C_Grand_Duchess_of_Luxembourg.jpg",
+          "page": "https://commons.wikimedia.org/wiki/File:Charlotte,_Grand_Duchess_of_Luxembourg.jpg",
+          "credit": "Arnott & Rogers, Montreal",
+          "license": "Public domain",
+          "made": "c. 1942",
+          "caption": "Photographed in Montreal around 1942, during her wartime exile; the print is in the US Library of Congress.",
+          "alt": "Black-and-white portrait photograph of Grand Duchess Charlotte of Luxembourg"
+        }
+      ],
+      "sources": [
+        {
+          "title": "The Grand Duchy of Luxembourg: The Evolution of Nationhood, 963 A.D. to 1983",
+          "author": "James Newcomer",
+          "note": "University Press of America, 1984"
+        },
+        {
+          "title": "Histoire du Luxembourg",
+          "author": "Gilbert Trausch",
+          "note": "Hatier, 1992"
+        },
+        {
+          "title": "Official website of the Grand Ducal Court (monarchie.lu)",
+          "author": "Cour grand-ducale de Luxembourg",
+          "note": "Biography of Grand Duchess Charlotte"
+        }
+      ],
+      "review": {
+        "status": "draft",
+        "notes": "Drafted from the listed sources; needs a human fact-check."
+      }
+    },
+    {
+      "id": "jean",
+      "kind": "monarch",
+      "rulers": [
+        "jean"
+      ],
+      "tagline": "The soldier prince who watched his country strike it rich",
+      "start": {
+        "date": "1964-11-12"
+      },
+      "end": {
+        "date": "2000-10-07"
+      },
+      "contestedWith": [],
+      "relationToPredecessor": "Son of Charlotte",
+      "ageAtAccession": "43",
+      "cameToPower": "Mother's abdication",
+      "reignEnded": "Abdicated for his son",
+      "previously": "Charlotte abdicates after 45 years. Her son Jean takes the throne.",
+      "paragraphs": [
+        "Jean had a war most princes only talk about. He joined Britain's Irish Guards, landed in Normandy in June 1944, and on 10 September 1944 he was there when Luxembourg was liberated. In 1953 he married Princess Joséphine-Charlotte of Belgium, King Baudouin's sister.",
+        "His reign was quiet in the best sense. Luxembourg grew rich on steel, then on banking, and became a home for European institutions. Officially the family was now Luxembourg-Nassau, though strictly, father to son, Jean was a Bourbon-Parma. Few people minded.",
+        "In 1998 he made his son Henri regent, and on 7 October 2000 he abdicated. He lived to 98, dying in April 2019."
+      ],
+      "claims": [
+        {
+          "text": "Jean took part in the liberation of Luxembourg in September 1944.",
+          "status": "confirmed",
+          "note": "British Army records and the grand ducal court both document his Irish Guards service."
+        },
+        {
+          "text": "His marriage was arranged to patch up relations with Belgium.",
+          "status": "disputed",
+          "note": "Some said so at the time; most accounts describe a match between longtime friends."
+        }
+      ],
+      "hook": "Jean hands over to his son Henri, a modern grand duke who will soon find out what happens when a monarch's conscience clashes with parliament.",
+      "images": [
+        {
+          "file": "File:GD Jean 1994 (cropped).jpg",
+          "url": "https://upload.wikimedia.org/wikipedia/commons/4/49/GD_Jean_1994_%28cropped%29.jpg",
+          "page": "https://commons.wikimedia.org/wiki/File:GD_Jean_1994_(cropped).jpg",
+          "credit": "European Parliament",
+          "license": "European Parliament",
+          "made": "1994",
+          "caption": "Taken in October 1994, when the President of the European Parliament visited Luxembourg.",
+          "alt": "Photograph of Grand Duke Jean of Luxembourg, cropped from a picture with European Parliament President Klaus Hänsch"
+        }
+      ],
+      "sources": [
+        {
+          "title": "The Grand Duchy of Luxembourg: The Evolution of Nationhood, 963 A.D. to 1983",
+          "author": "James Newcomer",
+          "note": "University Press of America, 1984"
+        },
+        {
+          "title": "Official website of the Grand Ducal Court (monarchie.lu)",
+          "author": "Cour grand-ducale de Luxembourg",
+          "note": "Biography of Grand Duke Jean"
+        },
+        {
+          "title": "Histoire du Luxembourg (Que sais-je?)",
+          "author": "Jean-Marie Kreins",
+          "note": "Presses Universitaires de France; several editions"
+        }
+      ],
+      "review": {
+        "status": "draft",
+        "notes": "Drafted from the listed sources; needs a human fact-check."
+      }
+    },
+    {
+      "id": "henri",
+      "kind": "monarch",
+      "rulers": [
+        "henri"
+      ],
+      "tagline": "The grand duke whose conscience rewrote the constitution",
+      "start": {
+        "date": "2000-10-07"
+      },
+      "end": {
+        "date": "2025-10-03"
+      },
+      "contestedWith": [],
+      "relationToPredecessor": "Son of Jean",
+      "ageAtAccession": "45",
+      "cameToPower": "Father's abdication",
+      "reignEnded": "Abdicated for his son",
+      "previously": "Jean abdicates in October 2000. His son Henri swears the oath.",
+      "paragraphs": [
+        "Henri met his wife, the Cuban-born Maria Teresa Mestre, while they were both students in Geneva. They married in 1981. He trained at Sandhurst, served on the Council of State, and spent two years as regent before taking over in 2000.",
+        "His big moment came in 2008. Parliament passed a law allowing euthanasia, and Henri said he could not in conscience sign it. Instead of a showdown, the politicians changed the constitution in 2009. Now the grand duke simply promulgates laws; he no longer has to approve them.",
+        "In 2024 he made his son Guillaume Lieutenant-Representative, handing him most of the work. On 3 October 2025, after 25 years, Henri signed his abdication."
+      ],
+      "claims": [
+        {
+          "text": "Henri refused to sign the 2008 euthanasia law.",
+          "status": "confirmed",
+          "note": "He said so publicly; Prime Minister Jean-Claude Juncker then announced the constitutional change."
+        },
+        {
+          "text": "Since 2009 the grand duke no longer has to approve laws.",
+          "status": "confirmed",
+          "note": "Article 34 of the constitution was amended to drop the word for royal sanction."
+        }
+      ],
+      "hook": "Henri signs, and minutes later his son walks next door to the Chamber of Deputies to swear the oath. Luxembourg has its fifth Guillaume.",
+      "images": [
+        {
+          "file": "File:Henri, Grand Duke of Luxembourg.jpg",
+          "url": "https://upload.wikimedia.org/wikipedia/commons/3/3f/Henri%2C_Grand_Duke_of_Luxembourg.jpg",
+          "page": "https://commons.wikimedia.org/wiki/File:Henri,_Grand_Duke_of_Luxembourg.jpg",
+          "credit": "Igor Zeiger",
+          "license": "CC BY-SA 2.0",
+          "made": "2013",
+          "caption": "Photographed in New York in October 2013.",
+          "alt": "Photograph of Grand Duke Henri of Luxembourg in New York"
+        }
+      ],
+      "sources": [
+        {
+          "title": "Official website of the Grand Ducal Court (monarchie.lu)",
+          "author": "Cour grand-ducale de Luxembourg",
+          "note": "Biography of Grand Duke Henri; abdication, 3 October 2025"
+        },
+        {
+          "title": "Constitution of the Grand Duchy of Luxembourg, Article 34",
+          "author": "Grand Duchy of Luxembourg",
+          "note": "As revised in 2009"
+        },
+        {
+          "title": "Histoire du Luxembourg (Que sais-je?)",
+          "author": "Jean-Marie Kreins",
+          "note": "Presses Universitaires de France; several editions"
+        }
+      ],
+      "review": {
+        "status": "draft",
+        "notes": "Drafted from the listed sources; needs a human fact-check."
+      }
+    },
+    {
+      "id": "guillaume-v",
+      "kind": "monarch",
+      "rulers": [
+        "guillaume-v"
+      ],
+      "tagline": "The fifth Guillaume takes the oath",
+      "start": {
+        "date": "2025-10-03"
+      },
+      "contestedWith": [],
+      "relationToPredecessor": "Eldest son of Henri",
+      "ageAtAccession": "43",
+      "cameToPower": "Father's abdication",
+      "reignEnded": "Still reigning",
+      "previously": "Henri abdicates after 25 years. His son is next in line.",
+      "paragraphs": [
+        "Guillaume was born on 11 November 1981 and has been heir since his father took over in 2000. He trained at Sandhurst and studied in Britain and France. In 2012 he married the Belgian Countess Stéphanie de Lannoy. Their sons are Charles, born in 2020, and François.",
+        "On 8 October 2024 he became Lieutenant-Representative, taking on most of his father's duties. On 3 October 2025 Henri abdicated, and the same morning Guillaume crossed to the Chamber of Deputies to swear the constitutional oath. He chose the name Guillaume V, a nod to the four grand dukes called Guillaume before him."
+      ],
+      "claims": [
+        {
+          "text": "Guillaume swore the oath before the Chamber of Deputies on the day his father abdicated.",
+          "status": "confirmed",
+          "note": "The ceremony on 3 October 2025 was public and widely reported."
+        },
+        {
+          "text": "He took the regnal number V to honour the four Guillaumes before him.",
+          "status": "confirmed",
+          "note": "Widely reported at his accession; Guillaumes I to III were Dutch kings who were also grand dukes."
+        }
+      ],
+      "images": [
+        {
+          "file": "File:Andrius Kubilius and Grand Duke Guillaume V (3x4 cropped).jpg",
+          "url": "https://upload.wikimedia.org/wikipedia/commons/c/ca/Andrius_Kubilius_and_Grand_Duke_Guillaume_V_%283x4_cropped%29.jpg",
+          "page": "https://commons.wikimedia.org/wiki/File:Andrius_Kubilius_and_Grand_Duke_Guillaume_V_(3x4_cropped).jpg",
+          "credit": "Mathieu Cugnot",
+          "license": "CC BY 4.0",
+          "made": "2026",
+          "caption": "Photographed in February 2026, during an audience with an EU commissioner in Luxembourg.",
+          "alt": "Photograph of Grand Duke Guillaume V, cropped from a picture of an audience with EU Commissioner Andrius Kubilius"
+        }
+      ],
+      "sources": [
+        {
+          "title": "Official website of the Grand Ducal Court (monarchie.lu)",
+          "author": "Cour grand-ducale de Luxembourg",
+          "note": "Biography of Grand Duke Guillaume; accession, 3 October 2025"
+        },
+        {
+          "title": "Records of the swearing-in session, 3 October 2025",
+          "author": "Chambre des Députés du Grand-Duché de Luxembourg"
+        }
+      ],
+      "review": {
+        "status": "draft",
+        "notes": "Drafted from the listed sources; needs a human fact-check."
+      }
+    }
+  ]
+}
