@@ -1,0 +1,2117 @@
+{
+  "id": "umayyad",
+  "name": "Umayyad Caliphate",
+  "blurb": "Caliphs of Damascus and Córdoba, from 661 to 1031",
+  "dateConvention": "Arabic chroniclers dated events by the Islamic (Hijri) lunar calendar; every date here is the standard Julian equivalent given in modern references (all before 1582). After the Abbasids overthrew the dynasty in 750, the deck follows the Umayyad prince who escaped to Spain and his descendants, emirs and then caliphs of Córdoba, until 1031.",
+  "epilogue": "In 1031 Córdoba abolished the caliphate. Al-Andalus split into rival taifa kingdoms, which called in the Almoravids after Toledo fell in 1085. The Great Mosque still stands, a cathedral since the 13th century.",
+  "houses": [
+    {
+      "id": "sufyanid",
+      "name": "Umayyad (Sufyanid)",
+      "color": "#7a5a2e"
+    },
+    {
+      "id": "zubayrid",
+      "name": "Zubayrid",
+      "color": "#3d7a7a"
+    },
+    {
+      "id": "marwanid",
+      "name": "Umayyad (Marwanid)",
+      "color": "#2e6b3f"
+    },
+    {
+      "id": "fitna",
+      "name": "Civil war",
+      "color": "#8d8780",
+      "plain": true
+    },
+    {
+      "id": "umayyad-cordoba",
+      "name": "Umayyads of Córdoba",
+      "color": "#2f4f8a"
+    },
+    {
+      "id": "amirid",
+      "name": "Amirid",
+      "color": "#a0522d"
+    }
+  ],
+  "rulers": [
+    {
+      "id": "muawiya-i",
+      "name": "Mu'awiya I",
+      "house": "sufyanid",
+      "born": {
+        "date": "0603",
+        "circa": true,
+        "note": "Mecca; sources give about 597, 603 or 605"
+      },
+      "died": {
+        "date": "0680-04",
+        "note": "Damascus"
+      },
+      "causeOfDeath": "Illness, in old age"
+    },
+    {
+      "id": "yazid-i",
+      "name": "Yazid I",
+      "house": "sufyanid",
+      "born": {
+        "date": "0646",
+        "circa": true
+      },
+      "died": {
+        "date": "0683-11-11",
+        "note": "Syria"
+      },
+      "causeOfDeath": "Uncertain; probably illness"
+    },
+    {
+      "id": "muawiya-ii",
+      "name": "Mu'awiya II",
+      "house": "sufyanid",
+      "born": {
+        "date": "0664",
+        "circa": true
+      },
+      "died": {
+        "date": "0684",
+        "circa": true,
+        "note": "Damascus"
+      },
+      "causeOfDeath": "Illness; some said poison"
+    },
+    {
+      "id": "ibn-al-zubayr",
+      "name": "Abd Allah ibn al-Zubayr",
+      "house": "zubayrid",
+      "born": {
+        "date": "0624-05",
+        "circa": true,
+        "note": "Medina"
+      },
+      "died": {
+        "date": "0692-10",
+        "circa": true,
+        "note": "Mecca; October or November 692"
+      },
+      "causeOfDeath": "Killed fighting during the siege of Mecca"
+    },
+    {
+      "id": "marwan-i",
+      "name": "Marwan I",
+      "house": "marwanid",
+      "born": {
+        "date": "0623",
+        "circa": true,
+        "note": "623 or 626; sources differ"
+      },
+      "died": {
+        "date": "0685-04",
+        "circa": true,
+        "note": "Damascus; April or May 685"
+      },
+      "causeOfDeath": "Illness, or smothered (a later story)"
+    },
+    {
+      "id": "abd-al-malik",
+      "name": "Abd al-Malik",
+      "house": "marwanid",
+      "born": {
+        "date": "0644",
+        "circa": true,
+        "note": "Medina; 644 or 647, sources differ"
+      },
+      "died": {
+        "date": "0705-10-09",
+        "note": "Damascus"
+      },
+      "causeOfDeath": "Illness"
+    },
+    {
+      "id": "al-walid-i",
+      "name": "al-Walid I",
+      "house": "marwanid",
+      "born": {
+        "date": "0674",
+        "circa": true
+      },
+      "died": {
+        "date": "0715-02-23",
+        "note": "Near Damascus"
+      },
+      "causeOfDeath": "Illness"
+    },
+    {
+      "id": "sulayman",
+      "name": "Sulayman",
+      "house": "marwanid",
+      "born": {
+        "date": "0675",
+        "circa": true
+      },
+      "died": {
+        "date": "0717-09",
+        "note": "Dabiq, northern Syria"
+      },
+      "causeOfDeath": "Illness"
+    },
+    {
+      "id": "umar-ii",
+      "name": "Umar II",
+      "house": "marwanid",
+      "born": {
+        "date": "0680",
+        "circa": true
+      },
+      "died": {
+        "date": "0720-02",
+        "note": "Dayr Sim'an, near Aleppo"
+      },
+      "causeOfDeath": "Illness; poison, says one tradition"
+    },
+    {
+      "id": "yazid-ii",
+      "name": "Yazid II",
+      "house": "marwanid",
+      "born": {
+        "date": "0690",
+        "circa": true
+      },
+      "died": {
+        "date": "0724-01-26"
+      },
+      "causeOfDeath": "Illness; grief, says legend"
+    },
+    {
+      "id": "hisham",
+      "name": "Hisham",
+      "house": "marwanid",
+      "born": {
+        "date": "0691"
+      },
+      "died": {
+        "date": "0743-02-06",
+        "note": "Rusafa, Syria"
+      },
+      "causeOfDeath": "Illness"
+    },
+    {
+      "id": "abd-al-rahman-i",
+      "name": "Abd al-Rahman I",
+      "epithet": "al-Dakhil",
+      "house": "umayyad-cordoba",
+      "born": {
+        "date": "0731-03-07"
+      },
+      "died": {
+        "date": "0788-09-30",
+        "note": "Córdoba"
+      },
+      "causeOfDeath": "Natural causes"
+    },
+    {
+      "id": "hisham-i",
+      "name": "Hisham I",
+      "house": "umayyad-cordoba",
+      "born": {
+        "date": "0757-04-26",
+        "note": "Córdoba"
+      },
+      "died": {
+        "date": "0796-04-16",
+        "note": "Córdoba"
+      },
+      "causeOfDeath": "Natural causes"
+    },
+    {
+      "id": "al-hakam-i",
+      "name": "al-Hakam I",
+      "house": "umayyad-cordoba",
+      "born": {
+        "date": "0771"
+      },
+      "died": {
+        "date": "0822-05-21",
+        "note": "Córdoba"
+      },
+      "causeOfDeath": "Natural causes"
+    },
+    {
+      "id": "abd-al-rahman-ii",
+      "name": "Abd al-Rahman II",
+      "house": "umayyad-cordoba",
+      "born": {
+        "date": "0792",
+        "note": "Toledo"
+      },
+      "died": {
+        "date": "0852",
+        "note": "Córdoba"
+      },
+      "causeOfDeath": "Natural causes"
+    },
+    {
+      "id": "muhammad-i",
+      "name": "Muhammad I",
+      "house": "umayyad-cordoba",
+      "born": {
+        "date": "0823"
+      },
+      "died": {
+        "date": "0886"
+      },
+      "causeOfDeath": "Natural causes"
+    },
+    {
+      "id": "abd-al-rahman-iii",
+      "name": "Abd al-Rahman III",
+      "epithet": "al-Nasir",
+      "house": "umayyad-cordoba",
+      "born": {
+        "date": "0890-12-18",
+        "note": "Córdoba"
+      },
+      "died": {
+        "date": "0961-10-15",
+        "note": "Córdoba"
+      },
+      "causeOfDeath": "Natural causes"
+    },
+    {
+      "id": "al-hakam-ii",
+      "name": "al-Hakam II",
+      "epithet": "al-Mustansir",
+      "house": "umayyad-cordoba",
+      "born": {
+        "date": "0915-01-13",
+        "note": "Córdoba"
+      },
+      "died": {
+        "date": "0976-10-01",
+        "note": "Córdoba"
+      },
+      "causeOfDeath": "Illness"
+    },
+    {
+      "id": "hisham-ii",
+      "name": "Hisham II",
+      "house": "umayyad-cordoba",
+      "born": {
+        "date": "0966"
+      },
+      "died": {
+        "date": "1013",
+        "circa": true,
+        "note": "Disappeared when the Berbers took Córdoba; probably killed"
+      },
+      "causeOfDeath": "Probably murdered"
+    },
+    {
+      "id": "al-mansur",
+      "name": "al-Mansur",
+      "house": "amirid",
+      "born": {
+        "date": "0938",
+        "circa": true
+      },
+      "died": {
+        "date": "1002-08-08",
+        "note": "Medinaceli"
+      },
+      "causeOfDeath": "Illness while on campaign"
+    }
+  ],
+  "reigns": [
+    {
+      "id": "muawiya-i",
+      "kind": "monarch",
+      "rulers": [
+        "muawiya-i"
+      ],
+      "tagline": "The patient politician who made the caliphate hereditary",
+      "start": {
+        "date": "0661"
+      },
+      "end": {
+        "date": "0680-04"
+      },
+      "contestedWith": [],
+      "relationToPredecessor": "Ali's rival; kinsman of Uthman",
+      "ageAtAccession": "About 56–64",
+      "cameToPower": "Ali murdered; Hasan stood aside",
+      "reignEnded": "Died of old age in Damascus",
+      "previously": "Ali is murdered at Kufa, and five years of civil war come to an end.",
+      "paragraphs": [
+        "When the Prophet Muhammad died in 632, four “rightly guided” caliphs led the Muslims in turn. The third, Uthman, of the Umayyad clan of Mecca, was murdered in Medina in 656. Civil war followed, the First Fitna, between the new caliph Ali and Uthman's kinsmen. Their champion was Mu'awiya, son of Abu Sufyan, once Muhammad's great enemy in Mecca. Mu'awiya had governed Syria for about twenty years, and its Arab tribes trusted him.",
+        "At Siffin in 657 the two armies fought to a standstill and agreed to arbitration. Then, in January 661, a Kharijite assassin struck Ali down in the mosque at Kufa. Ali's son Hasan stepped aside, and Mu'awiya was recognised as caliph everywhere: the “year of unity”. Some sources say he had already been proclaimed in Jerusalem in 660. He ruled from Damascus, through Syrian tribal chiefs and tough governors like Ziyad in Iraq.",
+        "As governor he had sent a fleet against Cyprus in 649, and as caliph his armies and ships raided the empire of Constans II and Constantine IV, right up to Constantinople. His real talent was patience: he flattered, paid and talked people round. Then he did something new. He made the leading men swear loyalty to his son Yazid. Sunni tradition honours him as a Companion of the Prophet; Shia tradition remembers him as Ali's enemy. He died in Damascus in April 680."
+      ],
+      "claims": [
+        {
+          "text": "At Siffin, Mu'awiya's soldiers raised pages of the Qur'an on their lances to call for arbitration.",
+          "status": "disputed",
+          "note": "Arbitration certainly happened, but the famous image comes from later accounts, collected by historians such as al-Tabari."
+        },
+        {
+          "text": "He said: “I don't use my sword where my whip is enough, nor my whip where my tongue is enough. If a single hair bound me to people, I would not let it break.”",
+          "status": "legend",
+          "note": "Attributed to him by later writers of history and anecdote. It captures his style, but nobody recorded it at the time."
+        },
+        {
+          "text": "Arab forces besieged Constantinople for five years, from 674 to 678.",
+          "status": "disputed",
+          "note": "The Byzantine chronicler Theophanes describes a long siege. Some modern historians think it was really a string of raids and blockades."
+        }
+      ],
+      "hook": "Mu'awiya is dead and Yazid takes his place. In Medina, the Prophet's grandson Husayn refuses to swear allegiance, and letters from Kufa are urging him to come.",
+      "images": [
+        {
+          "file": "File:Arab-Sasanian coin of Muawiyah I, struck at the Fasa mint in Darabjird (Fars).jpg",
+          "url": "https://upload.wikimedia.org/wikipedia/commons/3/3d/Arab-Sasanian_coin_of_Muawiyah_I%2C_struck_at_the_Fasa_mint_in_Darabjird_%28Fars%29.jpg",
+          "page": "https://commons.wikimedia.org/wiki/File:Arab-Sasanian_coin_of_Muawiyah_I,_struck_at_the_Fasa_mint_in_Darabjird_(Fars).jpg",
+          "credit": "Classical Numismatic Group (photo); uploaded by LouisAragon",
+          "license": "Public domain",
+          "made": "674–675",
+          "caption": "A silver drachm struck in Fars in 674–675, copying a Persian king's design but naming Mu'awiya as commander of the faithful in Pahlavi script.",
+          "alt": "Silver coin with a crowned bust in the old Persian style and Pahlavi lettering on one side, and a fire altar with two attendants on the other"
+        }
+      ],
+      "sources": [
+        {
+          "title": "The History of al-Tabari, vol. XVIII: Between Civil Wars: The Caliphate of Mu'awiyah",
+          "author": "al-Tabari",
+          "note": "trans. Michael G. Morony, SUNY Press, 1987"
+        },
+        {
+          "title": "The Succession to Muhammad: A Study of the Early Caliphate",
+          "author": "Wilferd Madelung",
+          "note": "Cambridge University Press, 1997"
+        },
+        {
+          "title": "The First Dynasty of Islam: The Umayyad Caliphate AD 661–750",
+          "author": "G. R. Hawting",
+          "note": "Routledge, 1986; 2nd ed. 2000"
+        },
+        {
+          "title": "The Prophet and the Age of the Caliphates",
+          "author": "Hugh Kennedy",
+          "note": "Longman, 1986; 3rd ed. Routledge, 2016"
+        }
+      ],
+      "review": {
+        "status": "draft",
+        "notes": "Drafted from the listed sources; needs a human fact-check."
+      }
+    },
+    {
+      "id": "yazid-i",
+      "kind": "monarch",
+      "rulers": [
+        "yazid-i"
+      ],
+      "tagline": "The first heir, and the tragedy of Karbala",
+      "start": {
+        "date": "0680-04"
+      },
+      "end": {
+        "date": "0683-11-11"
+      },
+      "contestedWith": [],
+      "relationToPredecessor": "Son of Mu'awiya I",
+      "ageAtAccession": "About 34",
+      "cameToPower": "Named heir by his father",
+      "reignEnded": "Died while his army besieged Mecca",
+      "previously": "Mu'awiya dies in Damascus, having made his son Yazid his heir.",
+      "paragraphs": [
+        "Yazid was the first man to inherit the caliphate, and many refused to accept him. The most important was Husayn, grandson of the Prophet and son of Ali. Invited by supporters in Kufa, he set out from Mecca with his family and a small band of followers. Yazid's governor in Iraq, Ubayd Allah ibn Ziyad, sent troops to stop him. They cut him off on the plain of Karbala, near the Euphrates.",
+        "On 10 October 680, the tenth day of the month of Muharram, Husayn and about seventy of his companions and kinsmen were killed there. The women and children were taken as captives to Damascus. For Shia Muslims this is the most sacred tragedy in their history, mourned every year on the day of Ashura. Sunni Muslims also honour Husayn and remember his death with sorrow.",
+        "Revolt followed. Medina rose, and in August 683 a Syrian army defeated it at al-Harra and sacked the city. The army moved on to Mecca, where Abd Allah ibn al-Zubayr held out, and during the siege the Ka'ba caught fire. Then news came that Yazid had died on 11 November 683, and the besiegers went home. Most Arabic histories were written under the Abbasids, enemies of his family, and his name has stayed dark."
+      ],
+      "claims": [
+        {
+          "text": "Yazid ordered Husayn's death, or regretted it afterwards.",
+          "status": "disputed",
+          "note": "The sources disagree. Some show him gloating; others have him blame Ibn Ziyad and treat the captives kindly. All were written long after."
+        },
+        {
+          "text": "The sack of Medina after al-Harra was a massacre, with terrible atrocities.",
+          "status": "disputed",
+          "note": "The battle and the sack are certain. The worst stories appear in later accounts that were deeply hostile to the Umayyads."
+        },
+        {
+          "text": "He was a drinker who loved hunting and kept a pet monkey.",
+          "status": "legend",
+          "note": "This picture comes from Muslim tradition hostile to him, much of it written down under the Abbasids."
+        }
+      ],
+      "hook": "Yazid is dead, and his heir is a young, sickly son. In Mecca, Ibn al-Zubayr is ready to claim the whole empire.",
+      "images": [
+        {
+          "file": "File:Arab-Sasanian coin issued by Yazid I ibn Mu'awiya in the year of the Battle of Karbala.jpg",
+          "url": "https://upload.wikimedia.org/wikipedia/commons/a/ac/Arab-Sasanian_coin_issued_by_Yazid_I_ibn_Mu%27awiya_in_the_year_of_the_Battle_of_Karbala.jpg",
+          "page": "https://commons.wikimedia.org/wiki/File:Arab-Sasanian_coin_issued_by_Yazid_I_ibn_Mu%27awiya_in_the_year_of_the_Battle_of_Karbala.jpg",
+          "credit": "Classical Numismatic Group (photo); uploaded by LouisAragon",
+          "license": "CC BY-SA 2.5",
+          "made": "680–681",
+          "caption": "A silver drachm struck at Basra in 680–681 in the name of Yazid's governor Ubayd Allah ibn Ziyad; the bust copies a Persian king and is not a portrait.",
+          "alt": "Silver coin with a crowned bust in the old Persian style and Pahlavi lettering on one side, and a fire altar with two attendants on the other"
+        }
+      ],
+      "sources": [
+        {
+          "title": "The History of al-Tabari, vol. XIX: The Caliphate of Yazid b. Mu'awiyah",
+          "author": "al-Tabari",
+          "note": "trans. I. K. A. Howard, SUNY Press, 1990"
+        },
+        {
+          "title": "The First Dynasty of Islam: The Umayyad Caliphate AD 661–750",
+          "author": "G. R. Hawting",
+          "note": "Routledge, 1986; 2nd ed. 2000"
+        },
+        {
+          "title": "The Prophet and the Age of the Caliphates",
+          "author": "Hugh Kennedy",
+          "note": "Longman, 1986; 3rd ed. Routledge, 2016"
+        }
+      ],
+      "review": {
+        "status": "draft",
+        "notes": "Drafted from the listed sources; needs a human fact-check."
+      }
+    },
+    {
+      "id": "muawiya-ii",
+      "kind": "monarch",
+      "rulers": [
+        "muawiya-ii"
+      ],
+      "tagline": "The young caliph who didn't want the job",
+      "start": {
+        "date": "0683-11-11"
+      },
+      "end": {
+        "date": "0684",
+        "circa": true
+      },
+      "contestedWith": [
+        "ibn-al-zubayr"
+      ],
+      "relationToPredecessor": "Son of Yazid I",
+      "ageAtAccession": "About 19",
+      "cameToPower": "Succeeded his father in Syria",
+      "reignEnded": "Died within weeks or months",
+      "previously": "Yazid dies, and his army abandons the siege of Mecca.",
+      "paragraphs": [
+        "Mu'awiya II was young and sickly when his father died, and only Syria accepted him. Everywhere else people were turning to Ibn al-Zubayr in Mecca. The Second Fitna, the second great Muslim civil war, had begun, and the caliph in Damascus had neither the health nor, it seems, the will to fight it.",
+        "He ruled for a few weeks or a few months, then died, perhaps aged about 20, without naming an heir. He was the last of the Sufyanids, the descendants of Abu Sufyan. His death left Syria's Umayyads leaderless at the worst possible moment, with most of the empire in their rival's hands."
+      ],
+      "claims": [
+        {
+          "text": "In a famous sermon he said he was unfit to rule and refused to name a successor.",
+          "status": "disputed",
+          "note": "Reported by al-Ya'qubi and other later historians. Some scholars think the speech was invented after the fact."
+        },
+        {
+          "text": "He was poisoned.",
+          "status": "disputed",
+          "note": "Some later writers say so; others mention only illness. There is no way to check."
+        }
+      ],
+      "hook": "Syria has no caliph. The Umayyad clan and their tribal allies gather at al-Jabiya to choose one, while Ibn al-Zubayr's supporters raise an army.",
+      "images": [
+        {
+          "file": "File:Drachm from Yazid I to Marwan I; Talha governor.jpg",
+          "url": "https://upload.wikimedia.org/wikipedia/commons/5/55/Drachm_from_Yazid_I_to_Marwan_I%3B_Talha_governor.jpg",
+          "page": "https://commons.wikimedia.org/wiki/File:Drachm_from_Yazid_I_to_Marwan_I;_Talha_governor.jpg",
+          "credit": "Unknown author",
+          "license": "CC BY-SA 2.5",
+          "made": "680s",
+          "caption": "A Persian-style silver drachm from the troubled years between Yazid I and Marwan I, carrying the name of a governor called Talha.",
+          "alt": "Silver coin in the Sasanian Persian style with a crowned bust and Pahlavi inscriptions"
+        }
+      ],
+      "sources": [
+        {
+          "title": "The History of al-Tabari, vol. XX: The Collapse of Sufyanid Authority and the Coming of the Marwanids",
+          "author": "al-Tabari",
+          "note": "trans. G. R. Hawting, SUNY Press, 1989"
+        },
+        {
+          "title": "The First Dynasty of Islam: The Umayyad Caliphate AD 661–750",
+          "author": "G. R. Hawting",
+          "note": "Routledge, 1986; 2nd ed. 2000"
+        },
+        {
+          "title": "The Prophet and the Age of the Caliphates",
+          "author": "Hugh Kennedy",
+          "note": "Longman, 1986; 3rd ed. Routledge, 2016"
+        }
+      ],
+      "review": {
+        "status": "draft",
+        "notes": "Drafted from the listed sources; needs a human fact-check."
+      }
+    },
+    {
+      "id": "ibn-al-zubayr",
+      "kind": "claimant",
+      "rulers": [
+        "ibn-al-zubayr"
+      ],
+      "title": "Ibn al-Zubayr",
+      "tagline": "The caliph in Mecca who almost ended the Umayyads",
+      "start": {
+        "date": "0683-11",
+        "circa": true
+      },
+      "end": {
+        "date": "0692-10",
+        "circa": true
+      },
+      "contestedWith": [
+        "muawiya-ii",
+        "marwan-i",
+        "abd-al-malik"
+      ],
+      "relationToPredecessor": "Rival of the Umayyads",
+      "ageAtAccession": "About 59",
+      "cameToPower": "Recognised after Yazid's death",
+      "reignEnded": "Killed fighting at Mecca",
+      "previously": "Yazid is dead, and the Syrian army lifts its siege of Mecca.",
+      "paragraphs": [
+        "Abd Allah ibn al-Zubayr had a superb pedigree. His father al-Zubayr was a Companion of the Prophet, and his mother Asma was a daughter of Abu Bakr, the first caliph. He had refused to swear to Yazid and held out in Mecca. When Yazid died, most of the empire recognised him as caliph: the Hejaz, Iraq, Egypt for a time, even much of Syria. Many Muslims of the day saw him as the rightful caliph.",
+        "He ruled from Mecca and rebuilt the burned Ka'ba. His brother Mus'ab governed Iraq for him, and in 687 killed al-Mukhtar, who had risen at Kufa to avenge Husayn. But the Umayyads regrouped in Syria. In 691 Abd al-Malik marched into Iraq, and Mus'ab was killed.",
+        "In 692 Abd al-Malik's general al-Hajjaj besieged Mecca and bombarded it with catapults. Many of Ibn al-Zubayr's men slipped away to the enemy. In October or November 692 he went out to fight and was killed, and his body was hung on a gibbet. The Second Fitna was over."
+      ],
+      "claims": [
+        {
+          "text": "His aged mother Asma told him to die fighting with honour rather than surrender.",
+          "status": "legend",
+          "note": "The scene is in al-Tabari and other histories, but the exact words belong to a later literary tradition."
+        },
+        {
+          "text": "He rebuilt the Ka'ba bigger, and al-Hajjaj later rebuilt part of it to the old plan.",
+          "status": "disputed",
+          "note": "Told by the early historians of Mecca. The outline is widely accepted; the details are hard to check."
+        }
+      ],
+      "hook": "Back in Syria in 684, there is still no caliph. At al-Jabiya the Umayyads choose an old man who once bled defending Uthman's door.",
+      "images": [
+        {
+          "file": "File:Silver dirham of Abd Allah ibn al-Zubayr 690-91.jpg",
+          "url": "https://upload.wikimedia.org/wikipedia/commons/c/c6/Silver_dirham_of_Abd_Allah_ibn_al-Zubayr_690-91.jpg",
+          "page": "https://commons.wikimedia.org/wiki/File:Silver_dirham_of_Abd_Allah_ibn_al-Zubayr_690-91.jpg",
+          "credit": "Not credited",
+          "license": "Public domain",
+          "made": "690–691",
+          "caption": "A silver coin minted in Fars in 690–691 in the name of Abd Allah ibn al-Zubayr.",
+          "alt": "Both sides of a silver coin minted in Fars in the name of Ibn al-Zubayr"
+        }
+      ],
+      "sources": [
+        {
+          "title": "The History of al-Tabari, vol. XX: The Collapse of Sufyanid Authority and the Coming of the Marwanids",
+          "author": "al-Tabari",
+          "note": "trans. G. R. Hawting, SUNY Press, 1989"
+        },
+        {
+          "title": "The History of al-Tabari, vol. XXI: The Victory of the Marwanids",
+          "author": "al-Tabari",
+          "note": "trans. Michael Fishbein, SUNY Press, 1990"
+        },
+        {
+          "title": "The First Dynasty of Islam: The Umayyad Caliphate AD 661–750",
+          "author": "G. R. Hawting",
+          "note": "Routledge, 1986; 2nd ed. 2000"
+        },
+        {
+          "title": "The Prophet and the Age of the Caliphates",
+          "author": "Hugh Kennedy",
+          "note": "Longman, 1986; 3rd ed. Routledge, 2016"
+        }
+      ],
+      "review": {
+        "status": "draft",
+        "notes": "Drafted from the listed sources; needs a human fact-check."
+      }
+    },
+    {
+      "id": "marwan-i",
+      "kind": "monarch",
+      "rulers": [
+        "marwan-i"
+      ],
+      "tagline": "The old survivor who founded a new line",
+      "start": {
+        "date": "0684-06"
+      },
+      "end": {
+        "date": "0685-04",
+        "circa": true
+      },
+      "contestedWith": [
+        "ibn-al-zubayr"
+      ],
+      "relationToPredecessor": "Umayyad elder; cousin of Uthman",
+      "ageAtAccession": "About 58–61",
+      "cameToPower": "Chosen at al-Jabiya",
+      "reignEnded": "Illness, or a pillow (legend)",
+      "previously": "Mu'awiya II dies young and without an heir. Syria has no caliph.",
+      "paragraphs": [
+        "Marwan ibn al-Hakam had been around a long time. He was a cousin of the caliph Uthman and had served as his secretary. In 656, when rebels stormed Uthman's house in Medina, Marwan was wounded defending it. By 684 he was an old man. With Syria leaderless, the Umayyad clan and their tribal allies, led by the Kalb, met at al-Jabiya in June 684 and chose him as caliph.",
+        "The rival Qays tribes backed Ibn al-Zubayr. The two sides met at Marj Rahit near Damascus later that year, and Marwan won. The victory saved the Umayyads, but it opened a feud between “Qays” and “Yaman” factions that would poison their politics for sixty years. Marwan then won Egypt back from the Zubayrids.",
+        "He had married Yazid's widow to keep that branch of the family on side. Then he named his own son Abd al-Malik as heir, pushing her son Khalid aside. He died in April or May 685, after less than a year in power. His branch, the Marwanids, would rule until 750."
+      ],
+      "claims": [
+        {
+          "text": "His wife, Yazid's widow, smothered him with a pillow after he insulted her son.",
+          "status": "legend",
+          "note": "Told by later historians such as al-Tabari. He may just as easily have died of illness."
+        },
+        {
+          "text": "Marj Rahit started a Qays–Yaman feud that lasted until the dynasty fell.",
+          "status": "confirmed",
+          "note": "The battle and the feud are well attested. Historians still argue how far the factions were tribal and how far political."
+        }
+      ],
+      "hook": "Marwan is dead. His son Abd al-Malik holds Syria and Egypt, but Ibn al-Zubayr still rules from Mecca and his brother Mus'ab holds Iraq.",
+      "images": [
+        {
+          "file": "File:Approximate map of areas under Ibn al-Zubayr's control after the death of Muawiya II.png",
+          "url": "https://upload.wikimedia.org/wikipedia/commons/b/bd/Approximate_map_of_areas_under_Ibn_al-Zubayr%27s_control_after_the_death_of_Muawiya_II.png",
+          "page": "https://commons.wikimedia.org/wiki/File:Approximate_map_of_areas_under_Ibn_al-Zubayr%27s_control_after_the_death_of_Muawiya_II.png",
+          "credit": "AhmadLX",
+          "license": "CC BY-SA 4.0",
+          "made": "2019",
+          "caption": "A modern map of the lands that backed Ibn al-Zubayr after Mu'awiya II died: the hand Marwan was dealt in 684.",
+          "alt": "Modern map of the Middle East showing the approximate areas under Ibn al-Zubayr's control in 684"
+        }
+      ],
+      "sources": [
+        {
+          "title": "The History of al-Tabari, vol. XX: The Collapse of Sufyanid Authority and the Coming of the Marwanids",
+          "author": "al-Tabari",
+          "note": "trans. G. R. Hawting, SUNY Press, 1989"
+        },
+        {
+          "title": "The First Dynasty of Islam: The Umayyad Caliphate AD 661–750",
+          "author": "G. R. Hawting",
+          "note": "Routledge, 1986; 2nd ed. 2000"
+        },
+        {
+          "title": "The Prophet and the Age of the Caliphates",
+          "author": "Hugh Kennedy",
+          "note": "Longman, 1986; 3rd ed. Routledge, 2016"
+        },
+        {
+          "title": "The Arab Kingdom and its Fall",
+          "author": "Julius Wellhausen",
+          "note": "1902; English trans. 1927"
+        }
+      ],
+      "review": {
+        "status": "draft",
+        "notes": "Drafted from the listed sources; needs a human fact-check."
+      }
+    },
+    {
+      "id": "abd-al-malik",
+      "kind": "monarch",
+      "rulers": [
+        "abd-al-malik"
+      ],
+      "tagline": "The caliph who built the Dome and rewrote the money",
+      "start": {
+        "date": "0685-04",
+        "circa": true
+      },
+      "end": {
+        "date": "0705-10-09"
+      },
+      "contestedWith": [
+        "ibn-al-zubayr"
+      ],
+      "relationToPredecessor": "Son of Marwan I",
+      "ageAtAccession": "About 38–41",
+      "cameToPower": "Named heir by his father",
+      "reignEnded": "Died in Damascus",
+      "previously": "Marwan I dies after less than a year in power.",
+      "paragraphs": [
+        "Abd al-Malik inherited half a caliphate. Ibn al-Zubayr still ruled from Mecca, and Iraq belonged to his brother Mus'ab. Abd al-Malik bided his time, then struck. In 691 he marched into Iraq and Mus'ab was killed. In 692 his general al-Hajjaj besieged Mecca, and Ibn al-Zubayr died fighting. The empire had one caliph again.",
+        "Al-Hajjaj, a former schoolteacher from Ta'if, became his iron-fisted viceroy in Iraq. In Jerusalem, Abd al-Malik built the Dome of the Rock, whose mosaic inscription is dated 72 AH, that is 691 to 692. It is the first great monument of Islamic architecture, and its golden dome still crowns the city.",
+        "He changed the money too. His first gold coins showed a standing figure, probably the caliph himself, just as the emperor Justinian II was putting Christ's face on Byzantine coins. Then, from 696 to 697, came dinars and dirhams with no pictures at all, only Arabic words of faith. Arabic replaced Greek and Persian in government. He died on 9 October 705, and four of his sons would be caliph."
+      ],
+      "claims": [
+        {
+          "text": "In his first sermon at Kufa, al-Hajjaj said: “I see heads ripe for plucking, and I am the one to pluck them.”",
+          "status": "legend",
+          "note": "A famous speech preserved by later historians and anthologists. Whether he used exactly these words is unknown."
+        },
+        {
+          "text": "He built the Dome of the Rock to draw pilgrims away from Mecca while Ibn al-Zubayr held it.",
+          "status": "disputed",
+          "note": "One later story, told by al-Ya'qubi, says so. Most historians see it as a statement of Islam's arrival in a city of churches."
+        },
+        {
+          "text": "The standing figure on his coins is the caliph himself.",
+          "status": "disputed",
+          "note": "This is the usual reading, but the coins don't say so, and some scholars see a more general image of authority."
+        }
+      ],
+      "hook": "Abd al-Malik is dead. His eldest son al-Walid inherits a united empire, a full treasury and armies ready to march to the ends of the known world.",
+      "images": [
+        {
+          "file": "File:First Umayyad gold dinar, Caliph Abd al-Malik, 695 CE.jpg",
+          "url": "https://upload.wikimedia.org/wikipedia/commons/b/bd/First_Umayyad_gold_dinar%2C_Caliph_Abd_al-Malik%2C_695_CE.jpg",
+          "page": "https://commons.wikimedia.org/wiki/File:First_Umayyad_gold_dinar,_Caliph_Abd_al-Malik,_695_CE.jpg",
+          "credit": "PHGCOM (photographed at the British Museum)",
+          "license": "Public domain",
+          "made": "c. 693–697",
+          "caption": "A “standing caliph” gold coin of Abd al-Malik; the robed figure with a sword probably represents the caliph himself.",
+          "alt": "Gold coin showing a standing bearded figure surrounded by Arabic lettering"
+        }
+      ],
+      "sources": [
+        {
+          "title": "'Abd al-Malik",
+          "author": "Chase F. Robinson",
+          "note": "Oneworld, 2005"
+        },
+        {
+          "title": "The History of al-Tabari, vol. XXI: The Victory of the Marwanids",
+          "author": "al-Tabari",
+          "note": "trans. Michael Fishbein, SUNY Press, 1990"
+        },
+        {
+          "title": "The First Dynasty of Islam: The Umayyad Caliphate AD 661–750",
+          "author": "G. R. Hawting",
+          "note": "Routledge, 1986; 2nd ed. 2000"
+        },
+        {
+          "title": "The Prophet and the Age of the Caliphates",
+          "author": "Hugh Kennedy",
+          "note": "Longman, 1986; 3rd ed. Routledge, 2016"
+        }
+      ],
+      "review": {
+        "status": "draft",
+        "notes": "Drafted from the listed sources; needs a human fact-check."
+      }
+    },
+    {
+      "id": "al-walid-i",
+      "kind": "monarch",
+      "rulers": [
+        "al-walid-i"
+      ],
+      "tagline": "The empire at full stretch, from Spain to the Indus",
+      "start": {
+        "date": "0705-10-09"
+      },
+      "end": {
+        "date": "0715-02-23"
+      },
+      "contestedWith": [],
+      "relationToPredecessor": "Eldest son of Abd al-Malik",
+      "ageAtAccession": "About 31",
+      "cameToPower": "Named heir by his father",
+      "reignEnded": "Died near Damascus",
+      "previously": "Abd al-Malik dies, leaving a united empire to his eldest son.",
+      "paragraphs": [
+        "Under al-Walid the caliphate reached its greatest size. In 711 Tariq ibn Ziyad crossed from Africa into Spain and beat the Visigothic king Roderic at Guadalete, and his commander Musa ibn Nusayr followed with a second army. In the east Muhammad ibn al-Qasim conquered Sind, in today's Pakistan, in 711 and 712, and Qutayba ibn Muslim took Bukhara and Samarkand.",
+        "At home, he built. In Damascus he pulled down the Church of St John the Baptist and, from around 705 to 706, raised the Great Mosque in its place. Its gold mosaics of trees, rivers and buildings still glitter today. He also rebuilt the Prophet's Mosque in Medina.",
+        "His father's viceroy al-Hajjaj died in 714, and the generals al-Hajjaj had backed were suddenly exposed. Al-Walid wanted his own son to succeed him, but his brother Sulayman stood next in line. Al-Walid died on 23 February 715, and Sulayman had scores to settle."
+      ],
+      "claims": [
+        {
+          "text": "The Byzantine emperor sent craftsmen and loads of mosaic cubes for the Great Mosque.",
+          "status": "disputed",
+          "note": "Arab historians tell the story. Art historians debate how much of the work was Byzantine and how much local."
+        },
+        {
+          "text": "Gibraltar is named after Tariq.",
+          "status": "confirmed",
+          "note": "The name comes from the Arabic Jabal Tariq, “Tariq's mountain”."
+        }
+      ],
+      "hook": "Al-Walid is dead. His brother Sulayman takes the throne, and the generals who served al-Hajjaj are about to find out what that means.",
+      "images": [
+        {
+          "file": "File:Gold dinar of al-Walid 707-708 CE.jpg",
+          "url": "https://upload.wikimedia.org/wikipedia/commons/9/93/Gold_dinar_of_al-Walid_707-708_CE.jpg",
+          "page": "https://commons.wikimedia.org/wiki/File:Gold_dinar_of_al-Walid_707-708_CE.jpg",
+          "credit": "Not credited",
+          "license": "Public domain",
+          "made": "707–708",
+          "caption": "A gold dinar minted in Damascus in al-Walid's reign, in 707–708: Arabic words only, no pictures.",
+          "alt": "Both sides of a gold coin covered in Arabic inscriptions, with no images"
+        }
+      ],
+      "sources": [
+        {
+          "title": "The History of al-Tabari, vol. XXIII: The Zenith of the Marwanid House",
+          "author": "al-Tabari",
+          "note": "trans. Martin Hinds, SUNY Press, 1990"
+        },
+        {
+          "title": "The Origins of the Islamic State (Futuh al-Buldan)",
+          "author": "al-Baladhuri",
+          "note": "trans. Philip K. Hitti and Francis C. Murgotten"
+        },
+        {
+          "title": "The Great Arab Conquests",
+          "author": "Hugh Kennedy",
+          "note": "Weidenfeld & Nicolson, 2007"
+        },
+        {
+          "title": "The First Dynasty of Islam: The Umayyad Caliphate AD 661–750",
+          "author": "G. R. Hawting",
+          "note": "Routledge, 1986; 2nd ed. 2000"
+        }
+      ],
+      "review": {
+        "status": "draft",
+        "notes": "Drafted from the listed sources; needs a human fact-check."
+      }
+    },
+    {
+      "id": "sulayman",
+      "kind": "monarch",
+      "rulers": [
+        "sulayman"
+      ],
+      "tagline": "Revenge, a giant siege and a famous appetite",
+      "start": {
+        "date": "0715-02-24"
+      },
+      "end": {
+        "date": "0717-09"
+      },
+      "contestedWith": [],
+      "relationToPredecessor": "Brother of al-Walid I",
+      "ageAtAccession": "About 40",
+      "cameToPower": "Next in line by his father's plan",
+      "reignEnded": "Died at Dabiq with his army",
+      "previously": "Al-Walid dies with the empire at its widest.",
+      "paragraphs": [
+        "As governor of Palestine, Sulayman had founded the city of Ramla. As caliph, he turned on al-Hajjaj's men. Muhammad ibn al-Qasim, conqueror of Sind, died in prison. Qutayba ibn Muslim, conqueror of Samarkand, rebelled and was killed by his own troops. Musa ibn Nusayr, conqueror of Spain, was disgraced and fined.",
+        "Then he went for the biggest prize of all. In August 717 his brother Maslama brought a huge army and fleet to Constantinople. The new emperor Leo III held the land walls, Greek fire burned Arab ships, and a terrible winter killed men and animals in their thousands. The Bulgars attacked the besiegers too. The siege failed in August 718.",
+        "Sulayman never saw the end of it. He was camped at Dabiq in northern Syria, waiting for news, when he died in September 717. To general surprise, his will named his pious cousin Umar as the next caliph."
+      ],
+      "claims": [
+        {
+          "text": "Muhammad ibn al-Qasim was tortured to death in prison.",
+          "status": "disputed",
+          "note": "Al-Baladhuri reports his death in prison in Iraq. The torture details vary and grew in later tellings."
+        },
+        {
+          "text": "Sulayman was a monstrous eater, and his greed killed him.",
+          "status": "legend",
+          "note": "Anecdotes of his huge meals come from later writers who disliked him. Nobody knows what he died of."
+        },
+        {
+          "text": "Musa ibn Nusayr was humiliated and made to pay a crushing fine.",
+          "status": "disputed",
+          "note": "The Arab histories agree he fell from favour; the size of the fine and his fate afterwards differ from one account to the next."
+        }
+      ],
+      "hook": "The siege of Constantinople is still raging, and the new caliph is a man few expected: Umar, a cousin famous for his piety.",
+      "images": [
+        {
+          "file": "File:Gold dinar of Sulayman ibn Abd al-Malik, 715-716.jpg",
+          "url": "https://upload.wikimedia.org/wikipedia/commons/8/85/Gold_dinar_of_Sulayman_ibn_Abd_al-Malik%2C_715-716.jpg",
+          "page": "https://commons.wikimedia.org/wiki/File:Gold_dinar_of_Sulayman_ibn_Abd_al-Malik,_715-716.jpg",
+          "credit": "Not credited",
+          "license": "CC0",
+          "made": "715–716",
+          "caption": "A gold dinar minted, possibly in Damascus, in Sulayman's reign, dated AH 97 (715 or 716).",
+          "alt": "Gold coin covered in Arabic inscriptions, with no images"
+        }
+      ],
+      "sources": [
+        {
+          "title": "The History of al-Tabari, vol. XXIV: The Empire in Transition",
+          "author": "al-Tabari",
+          "note": "trans. David Stephan Powers, SUNY Press, 1989"
+        },
+        {
+          "title": "The Origins of the Islamic State (Futuh al-Buldan)",
+          "author": "al-Baladhuri",
+          "note": "trans. Philip K. Hitti and Francis C. Murgotten"
+        },
+        {
+          "title": "The First Dynasty of Islam: The Umayyad Caliphate AD 661–750",
+          "author": "G. R. Hawting",
+          "note": "Routledge, 1986; 2nd ed. 2000"
+        },
+        {
+          "title": "The Prophet and the Age of the Caliphates",
+          "author": "Hugh Kennedy",
+          "note": "Longman, 1986; 3rd ed. Routledge, 2016"
+        }
+      ],
+      "review": {
+        "status": "draft",
+        "notes": "Drafted from the listed sources; needs a human fact-check."
+      }
+    },
+    {
+      "id": "umar-ii",
+      "kind": "monarch",
+      "rulers": [
+        "umar-ii"
+      ],
+      "tagline": "The pious Umayyad who tried to change everything",
+      "start": {
+        "date": "0717-09"
+      },
+      "end": {
+        "date": "0720-02"
+      },
+      "contestedWith": [],
+      "relationToPredecessor": "Cousin of Sulayman",
+      "ageAtAccession": "About 37",
+      "cameToPower": "Named in Sulayman's will",
+      "reignEnded": "Died at Dayr Sim'an",
+      "previously": "Sulayman dies at Dabiq, naming his cousin Umar as heir.",
+      "paragraphs": [
+        "Umar ibn Abd al-Aziz was a cousin of the caliphs, and his mother was a granddaughter of the caliph Umar I. He is remembered as the one pious Umayyad. Sunni tradition sometimes calls him the “fifth rightly guided caliph”, after the first four, and Shia writers also remember him kindly. One of his first decisions was to call off the siege of Constantinople in 718 and bring the army home.",
+        "Then he set about fairness. Non-Arab converts, the mawali, had been taxed like unbelievers. Umar ruled that new Muslims would no longer pay the poll tax. He wrote to rulers beyond the frontiers inviting them to Islam, lived simply, and handed back estates his family had taken. It pleased almost everyone except his own relatives.",
+        "He did not last. In February 720 he died at Dayr Sim'an near Aleppo, after about two and a half years in power. The throne passed to Yazid, a son of Abd al-Malik, who had very different ideas."
+      ],
+      "claims": [
+        {
+          "text": "He stopped the cursing of Ali from the pulpits.",
+          "status": "disputed",
+          "note": "A strong tradition, and the reason Shia writers praise him, but the evidence comes from histories written long afterwards."
+        },
+        {
+          "text": "He was poisoned by relatives angry at his reforms.",
+          "status": "disputed",
+          "note": "One tradition says a slave was bribed to poison him. Other accounts mention only illness."
+        },
+        {
+          "text": "He gave back all the land his family had seized.",
+          "status": "disputed",
+          "note": "How far he went is unclear. Stories of his self-denial grew along with his saintly reputation."
+        }
+      ],
+      "hook": "Umar is dead. Yazid II takes over, and one of the first things he does is undo the tax reforms that made Umar loved.",
+      "images": [
+        {
+          "file": "File:Gold dinar of Umar II.jpg",
+          "url": "https://upload.wikimedia.org/wikipedia/commons/4/4a/Gold_dinar_of_Umar_II.jpg",
+          "page": "https://commons.wikimedia.org/wiki/File:Gold_dinar_of_Umar_II.jpg",
+          "credit": "Not credited",
+          "license": "CC0",
+          "made": "719–720",
+          "caption": "A gold dinar minted in Damascus in 719 or 720, during Umar II's short reign.",
+          "alt": "Both sides of a gold coin covered in Arabic inscriptions, with no images"
+        }
+      ],
+      "sources": [
+        {
+          "title": "The History of al-Tabari, vol. XXIV: The Empire in Transition",
+          "author": "al-Tabari",
+          "note": "trans. David Stephan Powers, SUNY Press, 1989"
+        },
+        {
+          "title": "The First Dynasty of Islam: The Umayyad Caliphate AD 661–750",
+          "author": "G. R. Hawting",
+          "note": "Routledge, 1986; 2nd ed. 2000"
+        },
+        {
+          "title": "The Prophet and the Age of the Caliphates",
+          "author": "Hugh Kennedy",
+          "note": "Longman, 1986; 3rd ed. Routledge, 2016"
+        },
+        {
+          "title": "The Arab Kingdom and its Fall",
+          "author": "Julius Wellhausen",
+          "note": "1902; English trans. 1927"
+        }
+      ],
+      "review": {
+        "status": "draft",
+        "notes": "Drafted from the listed sources; needs a human fact-check."
+      }
+    },
+    {
+      "id": "yazid-ii",
+      "kind": "monarch",
+      "rulers": [
+        "yazid-ii"
+      ],
+      "tagline": "A caliph undone by love, or so the poets said",
+      "start": {
+        "date": "0720-02"
+      },
+      "end": {
+        "date": "0724-01-26"
+      },
+      "contestedWith": [],
+      "relationToPredecessor": "Son of Abd al-Malik; Umar's cousin",
+      "ageAtAccession": "About 30",
+      "cameToPower": "Next in line by Sulayman's will",
+      "reignEnded": "Died, legend says, of grief",
+      "previously": "Umar II dies at Dayr Sim'an after about two and a half years.",
+      "paragraphs": [
+        "Yazid II had a double pedigree. His father was Abd al-Malik, and his mother was a granddaughter of Yazid I, so he joined the two branches of the family. He quickly reversed Umar's tax reforms, which had cost the treasury dearly. In 720 he crushed a revolt in Iraq led by Yazid ibn al-Muhallab, a former governor who had escaped from prison.",
+        "Later storytellers remembered him for something else: his passion for two singing girls, Sallama and Habbaba. They turned it into a tragic romance. When Habbaba died, the story goes, Yazid could not bear it and soon followed her. He died on 26 January 724, and the throne went to his brother Hisham."
+      ],
+      "claims": [
+        {
+          "text": "Habbaba choked on a grape, or a pomegranate seed, and Yazid died of grief days later.",
+          "status": "legend",
+          "note": "From the Book of Songs (Kitab al-Aghani) of Abu al-Faraj al-Isfahani, written about two centuries later."
+        },
+        {
+          "text": "He ordered images removed from churches across the caliphate.",
+          "status": "disputed",
+          "note": "Reported by Christian sources such as the chronicler Theophanes. Historians debate whether a real edict was issued and enforced."
+        }
+      ],
+      "hook": "Yazid II is dead. His brother Hisham inherits an empire fighting on every frontier, and he will hold it together for nearly twenty years.",
+      "images": [
+        {
+          "file": "File:Yazid II. Dinar.jpg",
+          "url": "https://upload.wikimedia.org/wikipedia/commons/9/94/Yazid_II._Dinar.jpg",
+          "page": "https://commons.wikimedia.org/wiki/File:Yazid_II._Dinar.jpg",
+          "credit": "Otto Nickl",
+          "license": "CC BY-SA 4.0",
+          "made": "720–724",
+          "caption": "A gold dinar from the reign of Yazid II.",
+          "alt": "Gold coin with Arabic inscriptions"
+        }
+      ],
+      "sources": [
+        {
+          "title": "The History of al-Tabari, vol. XXIV: The Empire in Transition",
+          "author": "al-Tabari",
+          "note": "trans. David Stephan Powers, SUNY Press, 1989"
+        },
+        {
+          "title": "Kitab al-Aghani (The Book of Songs)",
+          "author": "Abu al-Faraj al-Isfahani"
+        },
+        {
+          "title": "The First Dynasty of Islam: The Umayyad Caliphate AD 661–750",
+          "author": "G. R. Hawting",
+          "note": "Routledge, 1986; 2nd ed. 2000"
+        },
+        {
+          "title": "The Prophet and the Age of the Caliphates",
+          "author": "Hugh Kennedy",
+          "note": "Longman, 1986; 3rd ed. Routledge, 2016"
+        }
+      ],
+      "review": {
+        "status": "draft",
+        "notes": "Drafted from the listed sources; needs a human fact-check."
+      }
+    },
+    {
+      "id": "hisham",
+      "kind": "monarch",
+      "rulers": [
+        "hisham"
+      ],
+      "tagline": "The last strong caliph of Damascus",
+      "start": {
+        "date": "0724-01-26"
+      },
+      "end": {
+        "date": "0743-02-06"
+      },
+      "contestedWith": [],
+      "relationToPredecessor": "Brother of Yazid II",
+      "ageAtAccession": "32 or 33",
+      "cameToPower": "Named heir by his brother",
+      "reignEnded": "Died at Rusafa",
+      "previously": "Yazid II dies, heartbroken, if the story is true.",
+      "paragraphs": [
+        "Hisham was careful, hard-working and famously tight with money. He ruled from Rusafa in the Syrian steppe, and for nineteen years he held a vast empire together while it fought on every front. Khazar armies came over the Caucasus. In Central Asia the Türgesh mauled a Muslim army on the “Day of Thirst” in 724. In 740 the Byzantines of Leo III beat an Arab army at Akroinon.",
+        "In the far west, Abd al-Rahman al-Ghafiqi, governor of al-Andalus, raided deep into Gaul. In October 732 he met the Franks of Charles Martel between Tours and Poitiers, and was killed. From 740 a great Berber revolt swept North Africa, destroying Arab armies at the Battle of the Nobles in 740 and at Bagdoura in 741.",
+        "Iraq stirred too. In 740 Zayd ibn Ali, a great-grandson of Ali, rose at Kufa and was killed. Hisham died at Rusafa on 6 February 743. Under the plan Yazid II had made, the throne went to Yazid's son al-Walid, a nephew Hisham could not stand."
+      ],
+      "claims": [
+        {
+          "text": "The battle near Tours and Poitiers on 10 October 732 saved Christian Europe.",
+          "status": "disputed",
+          "note": "Later European writers made it famous; Arab historians gave it little space. Many scholars see it as a defeated raid, and some date it to 733."
+        },
+        {
+          "text": "Hisham was a miser.",
+          "status": "disputed",
+          "note": "His careful finances are well attested. The stories of stinginess come from anecdote collections written under the Abbasids."
+        }
+      ],
+      "hook": "Hisham is dead. The new caliph, al-Walid II, is a poet who loves wine and hunting, and within a year the family will be killing each other.",
+      "images": [
+        {
+          "file": "File:Dirham de Hisham ibn Abd al-Málik (52340080547).jpg",
+          "url": "https://upload.wikimedia.org/wikipedia/commons/d/d3/Dirham_de_Hisham_ibn_Abd_al-M%C3%A1lik_%2852340080547%29.jpg",
+          "page": "https://commons.wikimedia.org/wiki/File:Dirham_de_Hisham_ibn_Abd_al-M%C3%A1lik_(52340080547).jpg",
+          "credit": "Ángel M. Felicísimo",
+          "license": "CC BY 2.0",
+          "made": "728–729",
+          "caption": "A silver dirham of Hisham's reign from Ifriqiya in North Africa, dated AH 110 (728–729), shown in a Spanish museum.",
+          "alt": "Silver coin with Arabic inscriptions, displayed in a museum"
+        }
+      ],
+      "sources": [
+        {
+          "title": "The End of the Jihad State: The Reign of Hisham ibn 'Abd al-Malik and the Collapse of the Umayyads",
+          "author": "Khalid Yahya Blankinship",
+          "note": "SUNY Press, 1994"
+        },
+        {
+          "title": "The History of al-Tabari, vol. XXV: The End of Expansion: The Caliphate of Hisham",
+          "author": "al-Tabari",
+          "note": "trans. Khalid Yahya Blankinship, SUNY Press, 1989"
+        },
+        {
+          "title": "The First Dynasty of Islam: The Umayyad Caliphate AD 661–750",
+          "author": "G. R. Hawting",
+          "note": "Routledge, 1986; 2nd ed. 2000"
+        },
+        {
+          "title": "The Prophet and the Age of the Caliphates",
+          "author": "Hugh Kennedy",
+          "note": "Longman, 1986; 3rd ed. Routledge, 2016"
+        }
+      ],
+      "review": {
+        "status": "draft",
+        "notes": "Drafted from the listed sources; needs a human fact-check."
+      }
+    },
+    {
+      "id": "third-fitna",
+      "kind": "interregnum",
+      "rulers": [],
+      "house": "fitna",
+      "title": "The Third Fitna",
+      "tagline": "Seven years of murder, then the black banners",
+      "start": {
+        "date": "0743-02-06"
+      },
+      "end": {
+        "date": "0750-01-25"
+      },
+      "contestedWith": [],
+      "relationToPredecessor": "Hisham's nephews and cousins",
+      "ageAtAccession": "Several caliphs",
+      "cameToPower": "Al-Walid II inherited from Hisham",
+      "reignEnded": "Routed by the Abbasids at the Zab",
+      "previously": "Hisham dies at Rusafa, the last strong caliph of Damascus.",
+      "paragraphs": [
+        "Al-Walid II (743–744) was a gifted poet who loved wine and hunting and showed little interest in governing. His enemies said he mocked religion. On 17 April 744 he was murdered by supporters of his cousin Yazid III, who took the throne and died on 4 October 744, after about six months. Yazid's brother Ibrahim followed, from October to December 744, before he was pushed aside.",
+        "The man who pushed him was Marwan II, a grandson of Marwan I and a tough general from the Caucasus frontier. He won the civil war and moved the capital to Harran, but the empire was exhausted. In 747 the Abbasid revolution broke out in Khurasan, in the far east, under Abu Muslim and his black banners.",
+        "The Abbasid armies swept west. On 25 January 750, at the Great Zab river in northern Iraq, they destroyed Marwan's army. Marwan fled to Egypt and was killed at Busir that August. The new caliph, al-Saffah, ruled from Iraq. At Abu Futrus in Palestine, Umayyad princes invited to a banquet by the victors were killed. The dynasty of Damascus was finished."
+      ],
+      "claims": [
+        {
+          "text": "The desert bathhouse of Qusayr Amra, with its painted walls, was built for al-Walid II.",
+          "status": "disputed",
+          "note": "Often linked to him while he was still a prince, but the attribution is not certain."
+        },
+        {
+          "text": "Al-Walid II hung up a Qur'an and shot arrows at it.",
+          "status": "legend",
+          "note": "Told by hostile historians writing under the Abbasids, who had every reason to blacken him."
+        },
+        {
+          "text": "The Abbasids invited the Umayyad princes to a peace banquet at Abu Futrus and killed them.",
+          "status": "disputed",
+          "note": "The massacre is widely reported, but the numbers and details vary from one later account to the next."
+        }
+      ],
+      "hook": "One young Umayyad prince, Hisham's grandson Abd al-Rahman, is not at the banquet. He is running for his life, with Abbasid riders behind him.",
+      "images": [
+        {
+          "file": "File:Dirham of Marwan II ibn Muhammad, AH 127-132.jpg",
+          "url": "https://upload.wikimedia.org/wikipedia/commons/1/10/Dirham_of_Marwan_II_ibn_Muhammad%2C_AH_127-132.jpg",
+          "page": "https://commons.wikimedia.org/wiki/File:Dirham_of_Marwan_II_ibn_Muhammad,_AH_127-132.jpg",
+          "credit": "Classical Numismatic Group (CNG)",
+          "license": "CC BY-SA 2.5",
+          "made": "746–747",
+          "caption": "A silver dirham of Marwan II, the last Umayyad caliph of Damascus, dated AH 129 (746–747).",
+          "alt": "Both sides of a silver coin covered in Arabic inscriptions, with no images"
+        }
+      ],
+      "sources": [
+        {
+          "title": "The History of al-Tabari, vol. XXVI: The Waning of the Umayyad Caliphate",
+          "author": "al-Tabari",
+          "note": "trans. Carole Hillenbrand, SUNY Press, 1989"
+        },
+        {
+          "title": "The History of al-Tabari, vol. XXVII: The 'Abbasid Revolution",
+          "author": "al-Tabari",
+          "note": "trans. John Alden Williams, SUNY Press, 1985"
+        },
+        {
+          "title": "The First Dynasty of Islam: The Umayyad Caliphate AD 661–750",
+          "author": "G. R. Hawting",
+          "note": "Routledge, 1986; 2nd ed. 2000"
+        },
+        {
+          "title": "The Prophet and the Age of the Caliphates",
+          "author": "Hugh Kennedy",
+          "note": "Longman, 1986; 3rd ed. Routledge, 2016"
+        }
+      ],
+      "review": {
+        "status": "draft",
+        "notes": "Drafted from the listed sources; needs a human fact-check."
+      }
+    },
+    {
+      "id": "abd-al-rahman-i",
+      "kind": "monarch",
+      "rulers": [
+        "abd-al-rahman-i"
+      ],
+      "tagline": "The prince who swam away from a massacre and won Spain",
+      "start": {
+        "date": "0756-05-14"
+      },
+      "end": {
+        "date": "0788-09-30"
+      },
+      "contestedWith": [],
+      "relationToPredecessor": "Grandson of the caliph Hisham",
+      "ageAtAccession": "25",
+      "cameToPower": "Won a battle outside Córdoba",
+      "reignEnded": "Died in Córdoba",
+      "previously": "Marwan II's army is smashed at the Zab. The Abbasids hunt the family.",
+      "paragraphs": [
+        "In 750 the Abbasids were killing every Umayyad prince they could catch. Abd al-Rahman, a grandson of the caliph Hisham, was about 19. He ran with his younger brother, and the riders caught them at the Euphrates. Abd al-Rahman swam for it. His brother turned back when the soldiers promised him safety, and was killed. For five years Abd al-Rahman stayed on the run, through Palestine and across North Africa, hiding among Berbers, his mother's people.",
+        "Spain was the one place far enough away. His freedman Badr went ahead to sound out the Syrian soldiers settled there. In 755 Abd al-Rahman landed at Almuñécar, and in May 756 he beat the governor, Yusuf al-Fihri, outside Córdoba. He made himself emir: an independent prince who never bowed to the Abbasids, yet never claimed to be caliph. People called him al-Dakhil, the Immigrant. The Umayyads of Damascus had a second branch, and it had roots now.",
+        "He spent thirty years crushing revolts, some of them stirred up by the Abbasids. In 778 Charlemagne marched on Zaragoza, got nowhere, and lost his rearguard to an ambush in the pass of Roncevaux on the way home. Around 785 Abd al-Rahman began the Great Mosque of Córdoba. He died on 30 September 788 and left the throne to his son Hisham, though not every son agreed."
+      ],
+      "claims": [
+        {
+          "text": "Abd al-Rahman swam the Euphrates to escape while his brother trusted the Abbasid riders and was beheaded.",
+          "status": "disputed",
+          "note": "Told in later Andalusian chronicles, which claim to quote the prince's own account. Nobody else was there to check it."
+        },
+        {
+          "text": "His enemy, the Abbasid caliph al-Mansur, called him 'the Falcon of Quraysh' out of grudging admiration.",
+          "status": "legend",
+          "note": "A favourite anecdote of later chroniclers: al-Mansur asks his courtiers who deserves the title and names the fugitive in Spain."
+        },
+        {
+          "text": "He had the salted heads of Abbasid-backed rebels, labelled with their names, left in the market of Kairouan.",
+          "status": "disputed",
+          "note": "Later chronicles tell it with relish, and disagree on whether the heads went to Kairouan or to al-Mansur himself at Mecca."
+        }
+      ],
+      "hook": "The Immigrant is dead and his son Hisham has Córdoba. His brothers, the elder Sulayman among them, think the throne should be theirs.",
+      "images": [
+        {
+          "file": "File:Dirham of Abd al-Rahman I, AH 155 (771-72 CE) (29362468715).jpg",
+          "url": "https://upload.wikimedia.org/wikipedia/commons/d/da/Dirham_of_Abd_al-Rahman_I%2C_AH_155_%28771-72_CE%29_%2829362468715%29.jpg",
+          "page": "https://commons.wikimedia.org/wiki/File:Dirham_of_Abd_al-Rahman_I,_AH_155_(771-72_CE)_(29362468715).jpg",
+          "credit": "Richard Mortel",
+          "license": "CC BY 2.0",
+          "made": "771–72",
+          "caption": "A silver dirham struck under Abd al-Rahman I in the Hijri year 155 (771–72), a coin of his own reign.",
+          "alt": "Silver dirham with lines of Arabic inscription, from the reign of Abd al-Rahman I"
+        }
+      ],
+      "sources": [
+        {
+          "title": "Muslim Spain and Portugal: A Political History of al-Andalus",
+          "author": "Hugh Kennedy",
+          "note": "Longman, 1996"
+        },
+        {
+          "title": "The Arab Conquest of Spain, 710–797",
+          "author": "Roger Collins",
+          "note": "Blackwell, 1989"
+        },
+        {
+          "title": "Akhbar majmu'a",
+          "author": "Anonymous",
+          "note": "Andalusian chronicle of the conquest and early emirate, compiled around the 11th century"
+        },
+        {
+          "title": "The History of the Mohammedan Dynasties in Spain (Nafh al-tib)",
+          "author": "al-Maqqari",
+          "note": "17th-century compilation; tr. Pascual de Gayangos, 1840–43"
+        }
+      ],
+      "review": {
+        "status": "draft",
+        "notes": "Drafted from the listed sources; needs a human fact-check."
+      }
+    },
+    {
+      "id": "hisham-i",
+      "kind": "monarch",
+      "rulers": [
+        "hisham-i"
+      ],
+      "tagline": "The gentle emir who kept his brothers at bay",
+      "start": {
+        "date": "0788-10-06"
+      },
+      "end": {
+        "date": "0796-04-16"
+      },
+      "contestedWith": [],
+      "relationToPredecessor": "Son of Abd al-Rahman I",
+      "ageAtAccession": "31",
+      "cameToPower": "Chosen heir by his father",
+      "reignEnded": "Died in Córdoba",
+      "previously": "Abd al-Rahman I dies in Córdoba. His son Hisham takes the throne.",
+      "paragraphs": [
+        "Hisham wasn't the eldest son, but his father chose him. His brothers Sulayman and Abd Allah went to war over it, and it took him about two years to beat them. In the end both were paid off and shipped across the sea to North Africa. After that his short reign was remembered fondly. The chroniclers made him a mild, pious emir who checked on his officials and put right the wrongs they did.",
+        "He also sent raiders north nearly every year. In 793 one army crossed the Pyrenees, burned the outskirts of Narbonne and beat a Frankish force on the river Orbieu, then came home loaded with loot and captives. Hisham finished the mosque his father had begun and favoured scholars of the Maliki school of law, from Medina. He died on 16 April 796, about 39, and his son al-Hakam took over."
+      ],
+      "claims": [
+        {
+          "text": "The spoils of the Narbonne raid paid for work on the Great Mosque of Córdoba.",
+          "status": "disputed",
+          "note": "Later chronicles say so. It sounds like the kind of pious story told about a well-liked emir, but it isn't impossible."
+        },
+        {
+          "text": "Hisham made the Maliki school the official law of al-Andalus.",
+          "status": "disputed",
+          "note": "Chronicles credit him. Many historians think the school took hold more slowly, mostly under his son and grandson."
+        },
+        {
+          "text": "He was a saintly ruler who went about in plain clothes and visited the sick.",
+          "status": "legend",
+          "note": "Later Andalusian writers, many of them Maliki scholars, had every reason to paint him as a model emir."
+        }
+      ],
+      "hook": "Hisham is dead. His son al-Hakam is proud and quick to punish, and his uncles are already sailing back from Africa to fight him.",
+      "images": [
+        {
+          "file": "File:Dirham hisham i 21829.jpg",
+          "url": "https://upload.wikimedia.org/wikipedia/commons/8/89/Dirham_hisham_i_21829.jpg",
+          "page": "https://commons.wikimedia.org/wiki/File:Dirham_hisham_i_21829.jpg",
+          "credit": "Numismática Pliego",
+          "license": "CC BY-SA 3.0",
+          "made": "791–92",
+          "caption": "A silver dirham of Hisham I, emir of Córdoba, dated to the Hijri year 175 (791–92).",
+          "alt": "Both faces of a silver dirham covered in Arabic inscriptions"
+        }
+      ],
+      "sources": [
+        {
+          "title": "Muslim Spain and Portugal: A Political History of al-Andalus",
+          "author": "Hugh Kennedy",
+          "note": "Longman, 1996"
+        },
+        {
+          "title": "The Arab Conquest of Spain, 710–797",
+          "author": "Roger Collins",
+          "note": "Blackwell, 1989"
+        },
+        {
+          "title": "The History of the Mohammedan Dynasties in Spain (Nafh al-tib)",
+          "author": "al-Maqqari",
+          "note": "17th-century compilation; tr. Pascual de Gayangos, 1840–43"
+        }
+      ],
+      "review": {
+        "status": "draft",
+        "notes": "Drafted from the listed sources; needs a human fact-check."
+      }
+    },
+    {
+      "id": "al-hakam-i",
+      "kind": "monarch",
+      "rulers": [
+        "al-hakam-i"
+      ],
+      "tagline": "The hard emir of the ditch and the razed suburb",
+      "start": {
+        "date": "0796-06-12"
+      },
+      "end": {
+        "date": "0822-05-21"
+      },
+      "contestedWith": [],
+      "relationToPredecessor": "Son of Hisham I",
+      "ageAtAccession": "About 25",
+      "cameToPower": "Succeeded his father",
+      "reignEnded": "Died in Córdoba",
+      "previously": "Hisham I dies in Córdoba. His son al-Hakam inherits.",
+      "paragraphs": [
+        "Al-Hakam spent his reign stamping out revolts, and he did it hard. His uncles came back to fight him; Sulayman was caught and killed in 800. Toledo, the old Visigothic capital, was restless. In 797 the governor there invited the town's leading men to a reception. As they came in, they were killed one by one and their bodies thrown into a ditch. Toledo remembered it as the Day of the Ditch.",
+        "In 801 the Franks under Louis, Charlemagne's son and then king of Aquitaine, took Barcelona after a long siege, and it was never won back. At home al-Hakam paid for a guard of foreign slaves and mercenaries. People hated the guard and the taxes that funded it. In 818 the crowded suburb across the river from Córdoba rose up and marched on the palace.",
+        "The rising was crushed. The suburb was levelled and thousands of its people were driven into exile. Some settled in Fez; others ended up in Alexandria and later seized Crete from the Byzantines. Al-Hakam died on 21 May 822, and his son Abd al-Rahman took the throne."
+      ],
+      "claims": [
+        {
+          "text": "Hundreds of Toledo's leading men were killed at a reception in 797 and thrown into a ditch.",
+          "status": "disputed",
+          "note": "Later chronicles tell it, with death tolls ranging from a few hundred to several thousand. The core event is widely accepted."
+        },
+        {
+          "text": "Exiles from Córdoba's suburb settled in Fez and later conquered Crete.",
+          "status": "confirmed",
+          "note": "Arabic and Byzantine sources agree on the Andalusian takeover of Crete in the 820s, and Fez gained a quarter named after the Andalusians."
+        },
+        {
+          "text": "Córdobans nicknamed his foreign guard 'the mutes' because they spoke no Arabic.",
+          "status": "disputed",
+          "note": "The nickname is in the chronicles; whether none of them spoke Arabic is another matter."
+        }
+      ],
+      "hook": "Al-Hakam dies feared and hated. His son Abd al-Rahman II wants a court to rival Baghdad, and a star singer is already on his way.",
+      "images": [
+        {
+          "file": "File:Dirham al hakam i 17521.jpg",
+          "url": "https://upload.wikimedia.org/wikipedia/commons/8/82/Dirham_al_hakam_i_17521.jpg",
+          "page": "https://commons.wikimedia.org/wiki/File:Dirham_al_hakam_i_17521.jpg",
+          "credit": "Numismática Pliego",
+          "license": "CC BY-SA 3.0",
+          "made": "805–06",
+          "caption": "A silver dirham of al-Hakam I, struck in the Hijri year 190 (805–06).",
+          "alt": "Both faces of a silver dirham covered in Arabic inscriptions"
+        }
+      ],
+      "sources": [
+        {
+          "title": "Muslim Spain and Portugal: A Political History of al-Andalus",
+          "author": "Hugh Kennedy",
+          "note": "Longman, 1996"
+        },
+        {
+          "title": "Caliphs and Kings: Spain, 796–1031",
+          "author": "Roger Collins",
+          "note": "Wiley-Blackwell, 2012"
+        },
+        {
+          "title": "The History of the Mohammedan Dynasties in Spain (Nafh al-tib)",
+          "author": "al-Maqqari",
+          "note": "17th-century compilation; tr. Pascual de Gayangos, 1840–43"
+        }
+      ],
+      "review": {
+        "status": "draft",
+        "notes": "Drafted from the listed sources; needs a human fact-check."
+      }
+    },
+    {
+      "id": "abd-al-rahman-ii",
+      "kind": "monarch",
+      "rulers": [
+        "abd-al-rahman-ii"
+      ],
+      "tagline": "Baghdad style, Viking raiders and the first martyrs",
+      "start": {
+        "date": "0822-05-21"
+      },
+      "end": {
+        "date": "0852"
+      },
+      "contestedWith": [],
+      "relationToPredecessor": "Son of al-Hakam I",
+      "ageAtAccession": "About 30",
+      "cameToPower": "Succeeded his father",
+      "reignEnded": "Died in Córdoba",
+      "previously": "Al-Hakam I dies, feared and hated. His son Abd al-Rahman takes over.",
+      "paragraphs": [
+        "Abd al-Rahman II wanted Córdoba to feel like Baghdad. He brought in Iraqi books, scholars and fashions, and ran his government more like the Abbasids did. His biggest catch was Ziryab, a singer from Baghdad who arrived in 822 and became the court's arbiter of taste. Ziryab was said to have taught Córdoba everything from new hairstyles to eating dinner in courses.",
+        "In 844 Viking ships rowed up the Guadalquivir and sacked Seville. The emir's army caught them outside the city, killed many and drove the rest off. Afterwards he built warships to guard the coast. He swapped embassies with Byzantium and added a big extension to the Great Mosque.",
+        "Then, in 851, trouble at home. A number of Córdoba's Christians began to insult Islam in public, knowing it meant death. The priest Eulogius cheered them on and wrote down their stories. Abd al-Rahman died in 852 with the executions still going on, and his son Muhammad inherited the crisis."
+      ],
+      "claims": [
+        {
+          "text": "Ziryab brought toothpaste, asparagus and the three-course meal to Spain.",
+          "status": "legend",
+          "note": "These stories come mostly from al-Maqqari, writing in the 17th century from older books. Ziryab was real; the list of inventions grew in the telling."
+        },
+        {
+          "text": "The poet al-Ghazal went as envoy to a Viking king and flirted with his queen.",
+          "status": "disputed",
+          "note": "Only a 13th-century writer tells it. Some historians think it is a reworking of al-Ghazal's real embassy to Byzantium."
+        },
+        {
+          "text": "About 48 Christians were executed as the 'Martyrs of Córdoba' between 851 and 859.",
+          "status": "disputed",
+          "note": "The count comes from Eulogius and his friend Paul Alvarus. Arabic chronicles barely mention the martyrs at all."
+        }
+      ],
+      "hook": "Abd al-Rahman II is dead. His son Muhammad must deal with the martyrs, and soon with something far worse: rebels in every corner of al-Andalus.",
+      "images": [
+        {
+          "file": "File:Dirham de ‘Abd ar-Rahmān II (52341485340).jpg",
+          "url": "https://upload.wikimedia.org/wikipedia/commons/3/36/Dirham_de_%E2%80%98Abd_ar-Rahm%C4%81n_II_%2852341485340%29.jpg",
+          "page": "https://commons.wikimedia.org/wiki/File:Dirham_de_%E2%80%98Abd_ar-Rahm%C4%81n_II_(52341485340).jpg",
+          "credit": "Ángel M. Felicísimo",
+          "license": "CC BY 2.0",
+          "made": "848–49",
+          "caption": "A silver dirham of Abd al-Rahman II, dated to the Hijri year 234 (848–49), shown at the National Archaeological Museum in Madrid.",
+          "alt": "A silver dirham with Arabic inscriptions"
+        }
+      ],
+      "sources": [
+        {
+          "title": "Muslim Spain and Portugal: A Political History of al-Andalus",
+          "author": "Hugh Kennedy",
+          "note": "Longman, 1996"
+        },
+        {
+          "title": "Caliphs and Kings: Spain, 796–1031",
+          "author": "Roger Collins",
+          "note": "Wiley-Blackwell, 2012"
+        },
+        {
+          "title": "Memoriale Sanctorum",
+          "author": "Eulogius of Córdoba",
+          "note": "His account of the martyrs, written in the 850s"
+        },
+        {
+          "title": "The History of the Mohammedan Dynasties in Spain (Nafh al-tib)",
+          "author": "al-Maqqari",
+          "note": "17th-century compilation; tr. Pascual de Gayangos, 1840–43"
+        }
+      ],
+      "review": {
+        "status": "draft",
+        "notes": "Drafted from the listed sources; needs a human fact-check."
+      }
+    },
+    {
+      "id": "muhammad-i",
+      "kind": "monarch",
+      "rulers": [
+        "muhammad-i"
+      ],
+      "tagline": "The emir who watched his country crack apart",
+      "start": {
+        "date": "0852"
+      },
+      "end": {
+        "date": "0886"
+      },
+      "contestedWith": [],
+      "relationToPredecessor": "Son of Abd al-Rahman II",
+      "ageAtAccession": "About 29",
+      "cameToPower": "Succeeded his father",
+      "reignEnded": "Died after 34 years on the throne",
+      "previously": "Abd al-Rahman II dies while Christian martyrs go to their deaths.",
+      "paragraphs": [
+        "Muhammad kept up the executions until the martyr movement burned itself out. In 859 Eulogius himself, just chosen as archbishop of Toledo, was beheaded. But a bigger problem was growing. Many people in al-Andalus were now Muslims of local stock, the muwalladun. They had converted, yet the old Arab families still looked down on them, and plenty of them had had enough.",
+        "Toledo defied Córdoba for years at a time, and the frontier lords in the north went their own way. In the hills near Málaga a muwallad outlaw called Umar ibn Hafsun took over the crag-top fortress of Bobastro around 880 and began to gather everyone with a grudge. Muhammad's armies went after him and couldn't dig him out. The emir died in 886, and his son al-Mundhir inherited a shrinking realm."
+      ],
+      "claims": [
+        {
+          "text": "Eulogius was beheaded in 859, after being chosen archbishop of Toledo.",
+          "status": "confirmed",
+          "note": "His friend Paul Alvarus wrote his Life soon afterwards."
+        },
+        {
+          "text": "Umar ibn Hafsun began as a hothead who killed a neighbour, fled to Africa and worked as a tailor until an old man foretold his greatness.",
+          "status": "legend",
+          "note": "Told by Ibn Hayyan and later chroniclers. It has the shape of a folk tale about a hero's humble start."
+        }
+      ],
+      "hook": "Muhammad is dead. His sons will spend the next 26 years trying to dig Umar ibn Hafsun out of his mountain.",
+      "images": [
+        {
+          "file": "File:Dirham muhammad i 20068.jpg",
+          "url": "https://upload.wikimedia.org/wikipedia/commons/2/2e/Dirham_muhammad_i_20068.jpg",
+          "page": "https://commons.wikimedia.org/wiki/File:Dirham_muhammad_i_20068.jpg",
+          "credit": "Numismática Pliego",
+          "license": "CC BY-SA 3.0",
+          "made": "863–64",
+          "caption": "A silver dirham of Muhammad I of Córdoba, struck in the Hijri year 249 (863–64).",
+          "alt": "Both faces of a silver dirham covered in Arabic inscriptions"
+        }
+      ],
+      "sources": [
+        {
+          "title": "Muslim Spain and Portugal: A Political History of al-Andalus",
+          "author": "Hugh Kennedy",
+          "note": "Longman, 1996"
+        },
+        {
+          "title": "Caliphs and Kings: Spain, 796–1031",
+          "author": "Roger Collins",
+          "note": "Wiley-Blackwell, 2012"
+        },
+        {
+          "title": "Vita Eulogii (Life of Eulogius)",
+          "author": "Paul Alvarus"
+        }
+      ],
+      "review": {
+        "status": "draft",
+        "notes": "Drafted from the listed sources; needs a human fact-check."
+      }
+    },
+    {
+      "id": "rebel-of-bobastro",
+      "kind": "interregnum",
+      "rulers": [],
+      "house": "umayyad-cordoba",
+      "title": "The Rebel of Bobastro",
+      "tagline": "The mountain rebel who nearly finished the emirate",
+      "start": {
+        "date": "0886"
+      },
+      "end": {
+        "date": "0912-10-16"
+      },
+      "contestedWith": [],
+      "relationToPredecessor": "Sons of Muhammad I",
+      "ageAtAccession": "Two emirs",
+      "cameToPower": "Al-Mundhir succeeded his father",
+      "reignEnded": "Abd Allah died in Córdoba",
+      "previously": "Muhammad I dies, and Umar ibn Hafsun still holds Bobastro.",
+      "paragraphs": [
+        "Al-Mundhir took the throne in 886 and went straight for Umar ibn Hafsun. In 888 he was besieging Bobastro when he suddenly died. His brother Abd Allah, who was in the camp, became emir and called the siege off. People soon whispered that Abd Allah had arranged it.",
+        "Abd Allah ruled for 24 years and held little more than Córdoba itself. Arab clans ran Seville, frontier lords ran the north, and Ibn Hafsun ran the southern mountains, making deals with anyone who would fight Córdoba. Around 899 he became a Christian, and a church was cut into the rock at Bobastro. Some of his Muslim followers left him over it.",
+        "Abd Allah trusted nobody, least of all his family. In 891 his son Muhammad was killed in prison by another son, al-Mutarrif. Abd Allah raised Muhammad's little boy, Abd al-Rahman, and chose him as heir over his own surviving sons. When the old emir died in October 912, that grandson took the throne."
+      ],
+      "claims": [
+        {
+          "text": "Abd Allah had his brother al-Mundhir poisoned during the siege of Bobastro.",
+          "status": "disputed",
+          "note": "Some chroniclers say a doctor was paid to do it; others record a natural death. Abd Allah was the obvious winner either way."
+        },
+        {
+          "text": "Umar ibn Hafsun was baptised and took the name Samuel.",
+          "status": "disputed",
+          "note": "The chronicles report the conversion and the name; the date is uncertain, with about 899 the usual guess."
+        },
+        {
+          "text": "Abd Allah ordered the killing of his own son Muhammad.",
+          "status": "disputed",
+          "note": "Al-Mutarrif did the deed. Chroniclers disagree on whether the emir ordered it or simply let it happen; he later had al-Mutarrif executed too."
+        }
+      ],
+      "hook": "A 21-year-old grandson inherits a broken emirate. He will win it back piece by piece, then claim a title no Umayyad had held since 750.",
+      "images": [
+        {
+          "file": "File:Bobastro ruinas.jpg",
+          "url": "https://upload.wikimedia.org/wikipedia/commons/2/28/Bobastro_ruinas.jpg",
+          "page": "https://commons.wikimedia.org/wiki/File:Bobastro_ruinas.jpg",
+          "credit": "JMSE",
+          "license": "Public domain",
+          "made": "2004 (photo)",
+          "caption": "Ruins at Bobastro near Málaga, the crag where Umar ibn Hafsun held out against Córdoba from about 880.",
+          "alt": "Ruined structures cut into the rock at Bobastro, with horseshoe arches still standing"
+        }
+      ],
+      "sources": [
+        {
+          "title": "Muslim Spain and Portugal: A Political History of al-Andalus",
+          "author": "Hugh Kennedy",
+          "note": "Longman, 1996"
+        },
+        {
+          "title": "Caliphs and Kings: Spain, 796–1031",
+          "author": "Roger Collins",
+          "note": "Wiley-Blackwell, 2012"
+        },
+        {
+          "title": "'Abd al-Rahman III: The First Cordoban Caliph",
+          "author": "Maribel Fierro",
+          "note": "Oneworld, 2005"
+        }
+      ],
+      "review": {
+        "status": "draft",
+        "notes": "Drafted from the listed sources; needs a human fact-check."
+      }
+    },
+    {
+      "id": "abd-al-rahman-iii",
+      "kind": "monarch",
+      "rulers": [
+        "abd-al-rahman-iii"
+      ],
+      "tagline": "The emir who took back Spain and made himself caliph",
+      "start": {
+        "date": "0912-10-16"
+      },
+      "end": {
+        "date": "0961-10-15"
+      },
+      "contestedWith": [],
+      "relationToPredecessor": "Grandson of the emir Abd Allah",
+      "ageAtAccession": "21",
+      "cameToPower": "Chosen heir by his grandfather",
+      "reignEnded": "Died in Córdoba",
+      "previously": "The old emir Abd Allah dies. His grandson inherits a shattered realm.",
+      "paragraphs": [
+        "Abd al-Rahman spent his first twenty years taking his country back. Town by town, rebel lords surrendered or were crushed. Umar ibn Hafsun died in 917, still unbeaten, but his sons couldn't hold on, and in 928 Bobastro finally fell. The emir had the old rebel's body dug up and put on show in Córdoba.",
+        "On 17 January 929 he went one better and declared himself caliph, Commander of the Faithful, with the title al-Nasir li-din Allah. The Fatimids in North Africa had already claimed the caliphate, and the Abbasids still held Baghdad. Now there were three caliphs at once. In 939 Ramiro II of León beat him badly at Simancas, and after that he left the fighting to his generals.",
+        "Instead he built. His palace city of Madinat al-Zahra rose west of Córdoba, and envoys from Constantinople and from Otto I of Germany came to wonder at it. He ruled for nearly fifty years and died on 15 October 961, leaving the caliphate to his son al-Hakam."
+      ],
+      "claims": [
+        {
+          "text": "After his death a note in his own hand was found counting just fourteen days of pure happiness in his whole reign.",
+          "status": "legend",
+          "note": "Al-Maqqari tells it, some 650 years later. It reads like a moral tale about the vanity of power."
+        },
+        {
+          "text": "He had blue eyes and reddish hair, which he dyed black to look more Arab.",
+          "status": "disputed",
+          "note": "Chroniclers describe him so. It fits his ancestry: his mother was a Christian captive from the north and his grandmother a princess of Pamplona."
+        },
+        {
+          "text": "King Sancho the Fat of León came to Córdoba to be slimmed down by the caliph's doctors.",
+          "status": "confirmed",
+          "note": "The visit around 958 and the alliance that won Sancho back his throne are well recorded. The diet details, credited to Hasdai ibn Shaprut, come from later writers."
+        }
+      ],
+      "hook": "The first caliph of Córdoba is dead. His heir al-Hakam is 46, a bookworm with a vast library and, for now, no son.",
+      "images": [
+        {
+          "file": "File:M36 Omeyyades Andalus AbdAlRahmanIII 347 1 (8192477921).jpg",
+          "url": "https://upload.wikimedia.org/wikipedia/commons/6/67/M36_Omeyyades_Andalus_AbdAlRahmanIII_347_1_%288192477921%29.jpg",
+          "page": "https://commons.wikimedia.org/wiki/File:M36_Omeyyades_Andalus_AbdAlRahmanIII_347_1_(8192477921).jpg",
+          "credit": "Jean-Michel Moullec",
+          "license": "CC BY 2.0",
+          "made": "958",
+          "caption": "A silver dirham of the caliph Abd al-Rahman III, struck at Madinat al-Zahra in the Hijri year 347 (958).",
+          "alt": "Both faces of a silver dirham covered in Arabic inscriptions"
+        }
+      ],
+      "sources": [
+        {
+          "title": "'Abd al-Rahman III: The First Cordoban Caliph",
+          "author": "Maribel Fierro",
+          "note": "Oneworld, 2005"
+        },
+        {
+          "title": "Muslim Spain and Portugal: A Political History of al-Andalus",
+          "author": "Hugh Kennedy",
+          "note": "Longman, 1996"
+        },
+        {
+          "title": "The Second Umayyad Caliphate: The Articulation of Caliphal Legitimacy in al-Andalus",
+          "author": "Janina M. Safran",
+          "note": "Harvard, 2000"
+        },
+        {
+          "title": "The History of the Mohammedan Dynasties in Spain (Nafh al-tib)",
+          "author": "al-Maqqari",
+          "note": "17th-century compilation; tr. Pascual de Gayangos, 1840–43"
+        }
+      ],
+      "review": {
+        "status": "draft",
+        "notes": "Drafted from the listed sources; needs a human fact-check."
+      }
+    },
+    {
+      "id": "al-hakam-ii",
+      "kind": "monarch",
+      "rulers": [
+        "al-hakam-ii"
+      ],
+      "tagline": "The scholar caliph and his legendary library",
+      "start": {
+        "date": "0961-10-15"
+      },
+      "end": {
+        "date": "0976-10-01"
+      },
+      "contestedWith": [],
+      "relationToPredecessor": "Son of Abd al-Rahman III",
+      "ageAtAccession": "46",
+      "cameToPower": "Succeeded his father",
+      "reignEnded": "Died in Córdoba",
+      "previously": "Abd al-Rahman III dies after nearly 50 years. Al-Hakam inherits.",
+      "paragraphs": [
+        "Al-Hakam had waited most of his life to rule, and he'd spent much of it reading. His agents bought books all over the Islamic world, and his library in Córdoba became famous. His reign was calm by the family's standards. His generals kept the Christian kings of the north in check, and his diplomats bought loyalty in North Africa.",
+        "He gave the Great Mosque its masterpiece: a new extension with a jewel-box mihrab and domes glittering with gold mosaics. The court workshops carved superb ivory boxes for the family, like the pyxis made in 968 for his younger brother al-Mughira.",
+        "For years he had no heir. Then his concubine Subh, a Basque, gave him sons, and Hisham, born in 966, was the one who lived. Subh's affairs were run by a sharp young official, Ibn Abi Amir, who rose fast. When al-Hakam died on 1 October 976, Hisham was about ten."
+      ],
+      "claims": [
+        {
+          "text": "His library held 400,000 volumes.",
+          "status": "disputed",
+          "note": "The number comes from later writers and is probably inflated. Even a fraction of it would have been one of the great libraries of the age."
+        },
+        {
+          "text": "The Byzantine emperor sent a mosaic master and sacks of gold cubes for the mihrab.",
+          "status": "disputed",
+          "note": "Arabic chronicles say so, and the mosaics do look Byzantine. Local craftsmen trained by the visitor probably did much of the work."
+        }
+      ],
+      "hook": "Al-Hakam is dead and his heir is a child. That same night, men loyal to the boy go to the house of the caliph's brother al-Mughira.",
+      "images": [
+        {
+          "file": "File:Pyxid Al Mughira OA 4068.jpg",
+          "url": "https://upload.wikimedia.org/wikipedia/commons/7/7f/Pyxid_Al_Mughira_OA_4068.jpg",
+          "page": "https://commons.wikimedia.org/wiki/File:Pyxid_Al_Mughira_OA_4068.jpg",
+          "credit": "Court workshop of Madinat al-Zahra",
+          "license": "Public domain",
+          "made": "968",
+          "caption": "The ivory pyxis carved in 968 for Prince al-Mughira, al-Hakam II's younger brother, now in the Louvre.",
+          "alt": "A carved ivory cylindrical box with a domed lid, covered in figures, animals and foliage"
+        }
+      ],
+      "sources": [
+        {
+          "title": "Muslim Spain and Portugal: A Political History of al-Andalus",
+          "author": "Hugh Kennedy",
+          "note": "Longman, 1996"
+        },
+        {
+          "title": "Caliphs and Kings: Spain, 796–1031",
+          "author": "Roger Collins",
+          "note": "Wiley-Blackwell, 2012"
+        },
+        {
+          "title": "The Second Umayyad Caliphate: The Articulation of Caliphal Legitimacy in al-Andalus",
+          "author": "Janina M. Safran",
+          "note": "Harvard, 2000"
+        },
+        {
+          "title": "The History of the Mohammedan Dynasties in Spain (Nafh al-tib)",
+          "author": "al-Maqqari",
+          "note": "17th-century compilation; tr. Pascual de Gayangos, 1840–43"
+        }
+      ],
+      "review": {
+        "status": "draft",
+        "notes": "Drafted from the listed sources; needs a human fact-check."
+      }
+    },
+    {
+      "id": "hisham-ii",
+      "kind": "monarch",
+      "rulers": [
+        "hisham-ii",
+        "al-mansur"
+      ],
+      "title": "Hisham II and al-Mansur",
+      "tagline": "A boy caliph in the palace, a warlord in charge",
+      "start": {
+        "date": "0976-10-01"
+      },
+      "end": {
+        "date": "1002-08-08"
+      },
+      "contestedWith": [],
+      "relationToPredecessor": "Hisham: son of al-Hakam II",
+      "ageAtAccession": "About 10",
+      "cameToPower": "Hisham named heir as a child",
+      "reignEnded": "Al-Mansur died on campaign",
+      "previously": "Al-Hakam II dies. His heir Hisham is about ten years old.",
+      "paragraphs": [
+        "On the night al-Hakam died, some palace officials planned to crown his brother al-Mughira instead of a child. Ibn Abi Amir was sent to deal with it, and al-Mughira was strangled in his own house. Hisham II became caliph at about ten. Within a few years Ibn Abi Amir had outplayed the old vizier and the top general and made himself hajib, chamberlain, the man who really ran the state.",
+        "In 981 he took the title al-Mansur, the Victorious; the Christians called him Almanzor. Hisham was kept shut away in the palace, a caliph in name only. Al-Mansur built his own palace city, Madinat al-Zahira, and moved the government there. To win over strict religious scholars who distrusted him, he had al-Hakam's library searched and the 'heretical' books burned.",
+        "Then he went to war, nearly every year, against the Christian north. He sacked Barcelona in 985 and Santiago de Compostela, the great pilgrim shrine, in 997. He died on campaign at Medinaceli on 8 August 1002. Hisham was still caliph and still powerless."
+      ],
+      "claims": [
+        {
+          "text": "Al-Mansur led some fifty campaigns and never lost one.",
+          "status": "disputed",
+          "note": "The figure of about fifty is traditional and may be rounded up. He did win almost all his battles."
+        },
+        {
+          "text": "He made Christian captives carry the bells of Santiago to Córdoba, to hang as lamps in the Great Mosque.",
+          "status": "disputed",
+          "note": "The sack of Santiago is certain. The bells story is in later chronicles, which add that Ferdinand III had Muslim captives carry them back in 1236."
+        },
+        {
+          "text": "Al-Mansur and Subh, the caliph's mother, were lovers.",
+          "status": "disputed",
+          "note": "Gossip and satirical verse in Córdoba hinted at it, with no proof. Their falling-out around 996, when she tried to fund a revolt against him, is better attested."
+        }
+      ],
+      "hook": "Al-Mansur is dead, but his system isn't. His son Abd al-Malik steps straight into his job, and the caliph stays locked away.",
+      "images": [
+        {
+          "file": "File:M40 Dirham AlAndalus HishamII 1 (8276883051).jpg",
+          "url": "https://upload.wikimedia.org/wikipedia/commons/2/29/M40_Dirham_AlAndalus_HishamII_1_%288276883051%29.jpg",
+          "page": "https://commons.wikimedia.org/wiki/File:M40_Dirham_AlAndalus_HishamII_1_(8276883051).jpg",
+          "credit": "Jean-Michel Moullec",
+          "license": "CC BY 2.0",
+          "made": "976",
+          "caption": "A silver dirham of Hisham II, struck at Córdoba in the Hijri year 366 (976), the year the boy became caliph.",
+          "alt": "Both faces of a silver dirham covered in Arabic inscriptions"
+        }
+      ],
+      "sources": [
+        {
+          "title": "Muslim Spain and Portugal: A Political History of al-Andalus",
+          "author": "Hugh Kennedy",
+          "note": "Longman, 1996"
+        },
+        {
+          "title": "Caliphs and Kings: Spain, 796–1031",
+          "author": "Roger Collins",
+          "note": "Wiley-Blackwell, 2012"
+        },
+        {
+          "title": "The History of the Mohammedan Dynasties in Spain (Nafh al-tib)",
+          "author": "al-Maqqari",
+          "note": "17th-century compilation; tr. Pascual de Gayangos, 1840–43"
+        }
+      ],
+      "review": {
+        "status": "draft",
+        "notes": "Drafted from the listed sources; needs a human fact-check."
+      }
+    },
+    {
+      "id": "amirid-sons",
+      "kind": "interregnum",
+      "rulers": [],
+      "house": "amirid",
+      "title": "The Amirid Sons",
+      "tagline": "Six golden years, then one ambition too many",
+      "start": {
+        "date": "1002-08-08"
+      },
+      "end": {
+        "date": "1009-02-15"
+      },
+      "contestedWith": [],
+      "relationToPredecessor": "Sons of al-Mansur",
+      "ageAtAccession": "Two chamberlains",
+      "cameToPower": "Inherited their father's power",
+      "reignEnded": "Coup in Córdoba",
+      "previously": "Al-Mansur dies at Medinaceli. Hisham II is still caliph in name only.",
+      "paragraphs": [
+        "Abd al-Malik, al-Mansur's son, took his father's place as hajib and kept the machine running. He campaigned against the Christian kingdoms year after year and took the victory title al-Muzaffar. Córdoba was rich and quiet, and later writers looked back on these six years as the last golden age of al-Andalus. He died on 20 October 1008, and rumour said his brother had poisoned him.",
+        "That brother, Abd al-Rahman, was nicknamed Sanchuelo, little Sancho, because his mother was a princess of Navarre. In November 1008 he had the powerless Hisham II name him heir to the caliphate itself. That was the step too far. A chamberlain from another family could be put up with; an Amirid caliph could not.",
+        "Sanchuelo then rode off to fight the Christians in midwinter. On 15 February 1009 Córdoba rose. The rebels plundered al-Zahira, forced Hisham II to step down and put an Umayyad, Muhammad II, on the throne. Sanchuelo's army melted away and he was killed on 4 March. Hisham II was still alive, a prisoner in Córdoba."
+      ],
+      "claims": [
+        {
+          "text": "Abd al-Malik's six years were the last golden age of al-Andalus.",
+          "status": "disputed",
+          "note": "Historians who lived through the collapse that followed, like Ibn Hayyan, remembered them fondly. Nostalgia did some of the work."
+        },
+        {
+          "text": "Sanchuelo poisoned his brother Abd al-Malik.",
+          "status": "disputed",
+          "note": "A rumour reported by the chroniclers. Nothing proves it."
+        },
+        {
+          "text": "Sanchuelo's mother was a daughter of King Sancho of Navarre.",
+          "status": "disputed",
+          "note": "Chroniclers say al-Mansur married a Navarrese princess; whether she was Sanchuelo's mother is debated."
+        }
+      ],
+      "hook": "The Amirids are finished. Now rival Umayyads, Berber soldiers and hired Christian armies will tear Córdoba apart, and the caliphate with it.",
+      "images": [
+        {
+          "file": "File:Arqueta de Leyre (39993630023).jpg",
+          "url": "https://upload.wikimedia.org/wikipedia/commons/5/54/Arqueta_de_Leyre_%2839993630023%29.jpg",
+          "page": "https://commons.wikimedia.org/wiki/File:Arqueta_de_Leyre_(39993630023).jpg",
+          "credit": "Ángel M. Felicísimo",
+          "license": "CC BY 2.0",
+          "made": "1004–05",
+          "caption": "The Leyre casket, an ivory box carved at a Córdoban court workshop in 1004–05, during Abd al-Malik's rule; it later served as a reliquary at the monastery of Leyre.",
+          "alt": "A rectangular carved ivory casket covered in figures and interlaced medallions, in the Museum of Navarre"
+        }
+      ],
+      "sources": [
+        {
+          "title": "Muslim Spain and Portugal: A Political History of al-Andalus",
+          "author": "Hugh Kennedy",
+          "note": "Longman, 1996"
+        },
+        {
+          "title": "Caliphs and Kings: Spain, 796–1031",
+          "author": "Roger Collins",
+          "note": "Wiley-Blackwell, 2012"
+        },
+        {
+          "title": "The History of the Mohammedan Dynasties in Spain (Nafh al-tib)",
+          "author": "al-Maqqari",
+          "note": "17th-century compilation; tr. Pascual de Gayangos, 1840–43"
+        }
+      ],
+      "review": {
+        "status": "draft",
+        "notes": "Drafted from the listed sources; needs a human fact-check."
+      }
+    },
+    {
+      "id": "fitna-of-al-andalus",
+      "kind": "interregnum",
+      "rulers": [],
+      "house": "fitna",
+      "title": "The Fitna of al-Andalus",
+      "tagline": "The civil war that broke the caliphate of Córdoba",
+      "start": {
+        "date": "1009-02-15"
+      },
+      "end": {
+        "date": "1031"
+      },
+      "contestedWith": [],
+      "relationToPredecessor": "Rival Umayyads and Hammudids",
+      "ageAtAccession": "No single ruler",
+      "cameToPower": "Coup against the Amirids",
+      "reignEnded": "Caliphate abolished in 1031",
+      "previously": "A coup in Córdoba topples the Amirids and Hisham II.",
+      "paragraphs": [
+        "Muhammad II al-Mahdi, the Umayyad who led the coup, soon fell out with the Berber troops al-Mansur had brought over. They found their own Umayyad, Sulayman, and both sides hired armies from the north: Castilians for Sulayman, Catalans for Muhammad. Córdoba changed hands again and again. In 1010 Muhammad was murdered by his own side, and Hisham II was brought out of captivity to be caliph again.",
+        "In 1013 the Berbers stormed Córdoba and sacked it. Madinat al-Zahra, already looted, was left to rot. Hisham II vanished, almost certainly killed. In 1016 the Hammudids, an Arab-Berber family who claimed descent from the Prophet, seized the caliphate. Umayyad puppets came and went in between: Abd al-Rahman IV, Abd al-Rahman V, Muhammad III.",
+        "The last was Hisham III, chosen in 1027. In 1031 Córdoba's leading men deposed him and simply abolished the caliphate. By then al-Andalus had split into a couple of dozen little kingdoms, the taifas, ruled by Berber chiefs, generals of slave origin and local families. The Umayyad story, begun in Damascus 370 years earlier, was over."
+      ],
+      "claims": [
+        {
+          "text": "Hisham II was murdered when the Berbers took Córdoba in 1013.",
+          "status": "disputed",
+          "note": "Most chroniclers think so. Years later a man claiming to be Hisham turned up, and the rulers of Seville used him as a figurehead."
+        },
+        {
+          "text": "Madinat al-Zahra was sacked and abandoned during the civil war.",
+          "status": "confirmed",
+          "note": "The chronicles describe it, and excavations show the palace city was burned and deserted in the early 11th century."
+        },
+        {
+          "text": "Al-Andalus broke into more than twenty taifa kingdoms.",
+          "status": "disputed",
+          "note": "Counts run from about twenty to over thirty, depending on which little lordships you call kingdoms."
+        }
+      ],
+      "images": [
+        {
+          "file": "File:Ruins - Madinat al-Zahra.JPG",
+          "url": "https://upload.wikimedia.org/wikipedia/commons/e/e0/Ruins_-_Madinat_al-Zahra.JPG",
+          "page": "https://commons.wikimedia.org/wiki/File:Ruins_-_Madinat_al-Zahra.JPG",
+          "credit": "José Luiz",
+          "license": "CC BY-SA 3.0",
+          "made": "2013 (photo)",
+          "caption": "The ruins of Madinat al-Zahra, the caliphs' palace city, sacked and abandoned during the civil war.",
+          "alt": "Excavated stone ruins of the palace city of Madinat al-Zahra"
+        }
+      ],
+      "sources": [
+        {
+          "title": "Muslim Spain and Portugal: A Political History of al-Andalus",
+          "author": "Hugh Kennedy",
+          "note": "Longman, 1996"
+        },
+        {
+          "title": "Caliphs and Kings: Spain, 796–1031",
+          "author": "Roger Collins",
+          "note": "Wiley-Blackwell, 2012"
+        },
+        {
+          "title": "The Rise and Fall of the Party-Kings: Politics and Society in Islamic Spain, 1002–1086",
+          "author": "David Wasserstein",
+          "note": "Princeton University Press, 1985"
+        }
+      ],
+      "review": {
+        "status": "draft",
+        "notes": "Drafted from the listed sources; needs a human fact-check."
+      }
+    }
+  ]
+}
