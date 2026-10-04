@@ -1,0 +1,486 @@
+{
+  "id": "italy",
+  "name": "Italy",
+  "blurb": "The House of Savoy, kings of a united Italy from 1861 to 1946",
+  "dateConvention": "Dates are Gregorian. The deck follows the kings of Italy from 1861 to 1946; from 1922 to 1943 the dictator Mussolini held real power, so his card runs alongside Victor Emmanuel III's.",
+  "epilogue": "Italy voted to become a republic on 2 June 1946, still celebrated as Republic Day. The Savoys went into exile, and the constitution barred the male line from Italy until 2002.",
+  "houses": [
+    {
+      "id": "savoy",
+      "name": "Savoy",
+      "color": "#1f4e8c"
+    },
+    {
+      "id": "fascist",
+      "name": "Fascist regime",
+      "color": "#3a3633",
+      "plain": true
+    }
+  ],
+  "rulers": [
+    {
+      "id": "victor-emmanuel-ii",
+      "name": "Victor Emmanuel II",
+      "epithet": "Father of the Fatherland",
+      "house": "savoy",
+      "born": {
+        "date": "1820-03-14",
+        "note": "Turin"
+      },
+      "died": {
+        "date": "1878-01-09",
+        "note": "Quirinal Palace, Rome"
+      },
+      "causeOfDeath": "Fever, after a short illness"
+    },
+    {
+      "id": "umberto-i",
+      "name": "Umberto I",
+      "epithet": "the Good",
+      "house": "savoy",
+      "born": {
+        "date": "1844-03-14",
+        "note": "Turin"
+      },
+      "died": {
+        "date": "1900-07-29",
+        "note": "Monza"
+      },
+      "causeOfDeath": "Shot by the anarchist Gaetano Bresci"
+    },
+    {
+      "id": "victor-emmanuel-iii",
+      "name": "Victor Emmanuel III",
+      "house": "savoy",
+      "born": {
+        "date": "1869-11-11",
+        "note": "Naples"
+      },
+      "died": {
+        "date": "1947-12-28",
+        "note": "Alexandria, Egypt"
+      },
+      "causeOfDeath": "Natural causes, in exile"
+    },
+    {
+      "id": "mussolini",
+      "name": "Benito Mussolini",
+      "house": "fascist",
+      "born": {
+        "date": "1883-07-29",
+        "note": "Predappio, Romagna"
+      },
+      "died": {
+        "date": "1945-04-28",
+        "note": "Giulino di Mezzegra, near Lake Como"
+      },
+      "causeOfDeath": "Shot by Italian partisans"
+    },
+    {
+      "id": "umberto-ii",
+      "name": "Umberto II",
+      "epithet": "the May King",
+      "house": "savoy",
+      "born": {
+        "date": "1904-09-15",
+        "note": "Racconigi, Piedmont"
+      },
+      "died": {
+        "date": "1983-03-18",
+        "note": "Geneva"
+      },
+      "causeOfDeath": "Cancer"
+    }
+  ],
+  "reigns": [
+    {
+      "id": "victor-emmanuel-ii",
+      "kind": "monarch",
+      "rulers": [
+        "victor-emmanuel-ii"
+      ],
+      "tagline": "The gruff hunter who became the first King of Italy",
+      "start": {
+        "date": "1861-03-17"
+      },
+      "end": {
+        "date": "1878-01-09"
+      },
+      "contestedWith": [],
+      "relationToPredecessor": "Son of Charles Albert of Sardinia",
+      "ageAtAccession": "41",
+      "cameToPower": "Proclaimed by parliament in Turin",
+      "reignEnded": "Died of a fever in Rome",
+      "previously": "Garibaldi's Thousand win the south and hand it to the king at Teano.",
+      "paragraphs": [
+        "Victor Emmanuel had been King of Sardinia since 1849, when his father Charles Albert lost to the Austrians at Novara and abdicated that night. He was short, stocky and blunt, with a vast moustache, and he much preferred hunting to paperwork. The clever work of uniting Italy was done by his prime minister, Count Cavour. The daring work was done by Garibaldi, whose Thousand took Sicily and Naples in 1860 and then simply handed them over.",
+        "On 17 March 1861 a parliament in Turin made him King of Italy. He kept his old number, II, as if Italy were just his old kingdom grown bigger. Cavour died that June. Venice joined in 1866 after a war with Austria. On 20 September 1870, with the French garrison gone home, Italian troops blew a hole in Rome's walls at Porta Pia. Rome became the capital in 1871, and Pope Pius IX shut himself in the Vatican, calling himself a prisoner.",
+        "The king kept a second family. His mistress Rosa Vercellana, “la bela Rosin”, had two of his children, and in 1869 he married her. It was a morganatic marriage, so she could never be queen. In January 1878 he fell ill with a fever and died at the Quirinal Palace, aged 57. He was buried in the Pantheon in Rome, and the crown passed to his son Umberto."
+      ],
+      "claims": [
+        {
+          "text": "At Teano, Garibaldi greeted him with the words “I salute the first King of Italy”.",
+          "status": "disputed",
+          "note": "The meeting on 26 October 1860 is certain. The exact words come in several versions, written down later by people who wanted a good scene."
+        },
+        {
+          "text": "He kept the number II on purpose, refusing to restart as “Victor Emmanuel I of Italy”.",
+          "status": "confirmed",
+          "note": "Well documented. Historians such as Denis Mack Smith read it as a sign that Piedmont saw unification as an expansion of its own kingdom."
+        },
+        {
+          "text": "He married his long-time mistress, Rosa Vercellana.",
+          "status": "confirmed",
+          "note": "A religious ceremony in 1869, with a civil one in 1877. He had already made her Countess of Mirafiori."
+        }
+      ],
+      "hook": "The maker of Italy is dead at 57. His son Umberto inherits a young, poor, restless kingdom, and a pope who still refuses to recognise it.",
+      "images": [
+        {
+          "file": "File:Giuseppe Ugolini - Vittorio Emanuele II - Museo del Tricolore.jpg",
+          "url": "https://upload.wikimedia.org/wikipedia/commons/0/02/Giuseppe_Ugolini_-_Vittorio_Emanuele_II_-_Museo_del_Tricolore.jpg",
+          "page": "https://commons.wikimedia.org/wiki/File:Giuseppe_Ugolini_-_Vittorio_Emanuele_II_-_Museo_del_Tricolore.jpg",
+          "credit": "Giuseppe Ugolini",
+          "license": "CC BY-SA 4.0",
+          "made": "19th century",
+          "caption": "Painted by Giuseppe Ugolini in the 19th century; now in the Museo del Tricolore, Reggio Emilia.",
+          "alt": "Painted portrait of King Victor Emmanuel II"
+        }
+      ],
+      "sources": [
+        {
+          "title": "Victor Emanuel, Cavour and the Risorgimento",
+          "author": "Denis Mack Smith",
+          "note": "Oxford University Press, 1971"
+        },
+        {
+          "title": "Italy and its Monarchy",
+          "author": "Denis Mack Smith",
+          "note": "Yale University Press, 1989"
+        },
+        {
+          "title": "Garibaldi: Invention of a Hero",
+          "author": "Lucy Riall",
+          "note": "Yale University Press, 2007"
+        },
+        {
+          "title": "The Force of Destiny: A History of Italy since 1796",
+          "author": "Christopher Duggan",
+          "note": "Allen Lane, 2007"
+        }
+      ],
+      "review": {
+        "status": "draft",
+        "notes": "Drafted from the listed sources; needs a human fact-check."
+      }
+    },
+    {
+      "id": "umberto-i",
+      "kind": "monarch",
+      "rulers": [
+        "umberto-i"
+      ],
+      "tagline": "Loved in Naples, shot dead at Monza",
+      "start": {
+        "date": "1878-01-09"
+      },
+      "end": {
+        "date": "1900-07-29"
+      },
+      "contestedWith": [],
+      "relationToPredecessor": "Son of Victor Emmanuel II",
+      "ageAtAccession": "33",
+      "cameToPower": "Father died",
+      "reignEnded": "Shot dead by an anarchist",
+      "previously": "Victor Emmanuel II, maker of Italy, dies of a fever in Rome.",
+      "paragraphs": [
+        "Umberto was a soldier at heart: stiff, dutiful and moustached like his father. The star of the court was his queen, his cousin Margherita, clever and stylish. Within a year he was nearly killed. In Naples in November 1878 a young cook named Giovanni Passannante rushed his carriage with a knife. The king got away with a scratch, and his prime minister, Benedetto Cairoli, was wounded fighting the attacker off.",
+        "In 1884 cholera swept through Naples and Umberto went to visit the sick in person. People called him “the Good”. Abroad, Italy joined Germany and Austria-Hungary in the Triple Alliance in 1882 and went looking for colonies in Africa. That ended in disaster at Adwa in 1896, when Emperor Menelik II's Ethiopian army crushed an Italian force. The prime minister, Francesco Crispi, fell from power.",
+        "In May 1898 hunger and strikes brought crowds onto the streets of Milan. General Bava Beccaris fired cannon on them, and about 80 people died. The king gave the general a medal. On 29 July 1900, leaving a gymnastics event at Monza, Umberto was shot dead by Gaetano Bresci, an anarchist who had come back from America to avenge Milan. His son became Victor Emmanuel III."
+      ],
+      "claims": [
+        {
+          "text": "Pizza Margherita was created for the queen in Naples in 1889, in the colours of the Italian flag.",
+          "status": "legend",
+          "note": "The story rests on a thank-you note to the pizza maker Raffaele Esposito whose authenticity has been questioned, and similar pizzas existed earlier."
+        },
+        {
+          "text": "Bresci said he killed the king to avenge the dead of Milan.",
+          "status": "confirmed",
+          "note": "He said so at his trial. He was sentenced to life and died in prison in 1901."
+        },
+        {
+          "text": "Invited to festivities elsewhere during the 1884 epidemic, Umberto replied that others were partying while Naples was dying, so he was going to Naples.",
+          "status": "disputed",
+          "note": "The visit is certain. The famous line is quoted in many different versions and is hard to trace to a reliable record."
+        }
+      ],
+      "hook": "Umberto lies dead at Monza. His only son is 30, small, shy and serious, and nobody expects much of him. He will reign for nearly half a century.",
+      "images": [
+        {
+          "file": "File:Umberto I of Italy.jpg",
+          "url": "https://upload.wikimedia.org/wikipedia/commons/9/97/Umberto_I_of_Italy.jpg",
+          "page": "https://commons.wikimedia.org/wiki/File:Umberto_I_of_Italy.jpg",
+          "credit": "Pietro Tremolada",
+          "license": "Public domain",
+          "made": "c. 1894",
+          "caption": "Painted by Pietro Tremolada around 1894, in the middle of Umberto's reign.",
+          "alt": "Painted portrait of King Umberto I"
+        }
+      ],
+      "sources": [
+        {
+          "title": "Italy and its Monarchy",
+          "author": "Denis Mack Smith",
+          "note": "Yale University Press, 1989"
+        },
+        {
+          "title": "The Force of Destiny: A History of Italy since 1796",
+          "author": "Christopher Duggan",
+          "note": "Allen Lane, 2007"
+        },
+        {
+          "title": "Italy in the Nineteenth Century, 1796–1900 (Short Oxford History of Italy)",
+          "author": "John A. Davis (ed.)",
+          "note": "Oxford University Press, 2000"
+        }
+      ],
+      "review": {
+        "status": "draft",
+        "notes": "Drafted from the listed sources; needs a human fact-check."
+      }
+    },
+    {
+      "id": "victor-emmanuel-iii",
+      "kind": "monarch",
+      "rulers": [
+        "victor-emmanuel-iii"
+      ],
+      "tagline": "The little king who let Mussolini in",
+      "start": {
+        "date": "1900-07-29"
+      },
+      "end": {
+        "date": "1946-05-09"
+      },
+      "contestedWith": [
+        "mussolini"
+      ],
+      "relationToPredecessor": "Son of Umberto I",
+      "ageAtAccession": "30",
+      "cameToPower": "Father assassinated",
+      "reignEnded": "Abdicated to try to save the crown",
+      "previously": "The anarchist Gaetano Bresci shoots Umberto I dead at Monza.",
+      "paragraphs": [
+        "Victor Emmanuel III was so short that Italians nicknamed him “Sciaboletta”, the little sabre, after the shortened sword made for him. He was shy, sharp and dry, and his great love was coins: he collected more than 100,000 and led a huge catalogue of Italian coinage. His reign began with a land grab. Italy took Libya from the Ottomans in 1911–12, and in 1915 it joined the First World War on the Allied side.",
+        "The war was brutal: the rout at Caporetto in 1917, then victory at Vittorio Veneto in 1918. Peace brought chaos. On 28 October 1922, with fascist squads marching on Rome, the king refused to sign the government's martial law decree and asked Mussolini to form a government. For the next 20 years he stayed on the throne and signed what was put before him, including the 1938 racial laws against Jews. He took the titles Emperor of Ethiopia and King of Albania.",
+        "On 25 July 1943, with the war lost, he dismissed Mussolini and had him arrested. When the armistice with the Allies was announced on 8 September, he fled Rome for Brindisi, leaving the army without orders as the Germans moved in. In June 1944 he handed his powers to his son Umberto. He abdicated on 9 May 1946 and died in exile in Alexandria, Egypt, in December 1947."
+      ],
+      "claims": [
+        {
+          "text": "In 1922 he refused martial law because he feared a civil war, or doubted the army would obey.",
+          "status": "disputed",
+          "note": "He never gave a full explanation. Historians still argue over his motives, and over whether the army could easily have stopped the march."
+        },
+        {
+          "text": "He left his coin collection to the Italian state.",
+          "status": "confirmed",
+          "note": "He gave it to the nation when he abdicated in 1946. It is now held by the Museo Nazionale Romano in Rome."
+        },
+        {
+          "text": "His daughter Mafalda died in Buchenwald concentration camp in 1944.",
+          "status": "confirmed",
+          "note": "The Germans arrested her after the 1943 armistice. She died of wounds after an Allied air raid hit the camp."
+        }
+      ],
+      "hook": "October 1922. Fascist squads are gathering outside Rome, and the prime minister begs the king to sign martial law. He refuses, and sends for the man the squads obey.",
+      "images": [
+        {
+          "file": "File:1914-Vittorio-Emanuele-III-Italia.jpg",
+          "url": "https://upload.wikimedia.org/wikipedia/commons/7/77/1914-Vittorio-Emanuele-III-Italia.jpg",
+          "page": "https://commons.wikimedia.org/wiki/File:1914-Vittorio-Emanuele-III-Italia.jpg",
+          "credit": "Central News",
+          "license": "Public domain",
+          "made": "1914",
+          "caption": "A news photograph printed in a Spanish magazine during the First World War.",
+          "alt": "Photograph of King Victor Emmanuel III printed in the Spanish magazine La Guerra ilustrada"
+        }
+      ],
+      "sources": [
+        {
+          "title": "Italy and its Monarchy",
+          "author": "Denis Mack Smith",
+          "note": "Yale University Press, 1989"
+        },
+        {
+          "title": "The Force of Destiny: A History of Italy since 1796",
+          "author": "Christopher Duggan",
+          "note": "Allen Lane, 2007"
+        },
+        {
+          "title": "Mussolini's Italy: Life under the Dictatorship, 1915–1945",
+          "author": "R. J. B. Bosworth",
+          "note": "Allen Lane, 2005"
+        }
+      ],
+      "review": {
+        "status": "draft",
+        "notes": "Drafted from the listed sources; needs a human fact-check."
+      }
+    },
+    {
+      "id": "mussolini",
+      "kind": "leader",
+      "rulers": [
+        "mussolini"
+      ],
+      "title": "Benito Mussolini",
+      "tagline": "Twenty years of dictatorship that ended in ruin",
+      "start": {
+        "date": "1922-10-31"
+      },
+      "end": {
+        "date": "1943-07-25"
+      },
+      "contestedWith": [
+        "victor-emmanuel-iii"
+      ],
+      "relationToPredecessor": "Prime minister under Victor Emmanuel III",
+      "ageAtAccession": "39",
+      "cameToPower": "Appointed after the March on Rome",
+      "reignEnded": "Voted down and arrested, July 1943",
+      "previously": "Fascist squads gather. The king refuses to sign martial law.",
+      "paragraphs": [
+        "Benito Mussolini began as a socialist journalist and editor of the party paper, Avanti!, until he backed war in 1914 and was thrown out. In 1919 he founded the fascist movement in Milan. Its Blackshirt squads beat, burned and killed their way through socialist towns and trade unions. In October 1922 they marched on Rome and the king made him prime minister. The king kept his throne, but real power now lay with Mussolini.",
+        "In 1924 the socialist deputy Giacomo Matteotti, who had denounced fascist violence in parliament, was kidnapped and murdered by fascists. In January 1925 Mussolini took responsibility and set up an open dictatorship: parties banned, the press censored, opponents jailed or exiled. In 1929 he made peace with the pope in the Lateran Treaty. In 1935–36 he invaded Ethiopia, and his forces used poison gas on soldiers and civilians.",
+        "Allied with Hitler, in 1938 he brought in racial laws against Jews. In June 1940 he took Italy into the Second World War, and defeat followed defeat. On the night of 24–25 July 1943 the Fascist Grand Council voted against him; the king had him arrested. Freed by German commandos in September, he led a German puppet state in the north while Jews in Italy were deported to the death camps. Partisans shot him on 28 April 1945; his body was hung up in Piazzale Loreto, Milan."
+      ],
+      "claims": [
+        {
+          "text": "Mussolini did not march on Rome. He came down from Milan by overnight train once the king had sent for him.",
+          "status": "confirmed",
+          "note": "Well documented. He arrived on 30 October 1922, and most Blackshirts reached the city only after he had been appointed."
+        },
+        {
+          "text": "Mussolini made the trains run on time.",
+          "status": "disputed",
+          "note": "A propaganda line. Much of the railway improvement came before 1922, and travellers in the 1930s still complained of delays."
+        },
+        {
+          "text": "The army could easily have stopped the March on Rome.",
+          "status": "disputed",
+          "note": "The squads were poorly armed and Rome's garrison was ready. Many historians think force would have worked, but it was never tried."
+        }
+      ],
+      "hook": "Fascism is finished, and the monarchy that let it in is on trial. In May 1946 the old king abdicates, hoping his son can save the crown.",
+      "images": [
+        {
+          "file": "File:Benito Mussolini, 1927 - photographer V. Laviosa, Rome (4559204291).jpg",
+          "url": "https://upload.wikimedia.org/wikipedia/commons/4/41/Benito_Mussolini%2C_1927_-_photographer_V._Laviosa%2C_Rome_%284559204291%29.jpg",
+          "page": "https://commons.wikimedia.org/wiki/File:Benito_Mussolini,_1927_-_photographer_V._Laviosa,_Rome_(4559204291).jpg",
+          "credit": "Vincenzo Laviosa",
+          "license": "Public domain",
+          "made": "1927",
+          "caption": "A signed studio portrait taken in Rome in 1927, now in the State Library of New South Wales.",
+          "alt": "Black-and-white studio portrait photograph of Benito Mussolini"
+        }
+      ],
+      "sources": [
+        {
+          "title": "Mussolini",
+          "author": "R. J. B. Bosworth",
+          "note": "Arnold, 2002"
+        },
+        {
+          "title": "Mussolini",
+          "author": "Denis Mack Smith",
+          "note": "Weidenfeld & Nicolson, 1981"
+        },
+        {
+          "title": "Fascist Voices: An Intimate History of Mussolini's Italy",
+          "author": "Christopher Duggan",
+          "note": "Bodley Head, 2012"
+        }
+      ],
+      "review": {
+        "status": "draft",
+        "notes": "Drafted from the listed sources; needs a human fact-check."
+      }
+    },
+    {
+      "id": "umberto-ii",
+      "kind": "monarch",
+      "rulers": [
+        "umberto-ii"
+      ],
+      "tagline": "The May King, who reigned for about a month",
+      "start": {
+        "date": "1946-05-09"
+      },
+      "end": {
+        "date": "1946-06-12"
+      },
+      "contestedWith": [],
+      "relationToPredecessor": "Son of Victor Emmanuel III",
+      "ageAtAccession": "41",
+      "cameToPower": "Father abdicated",
+      "reignEnded": "Italy voted for a republic",
+      "previously": "Mussolini is dead. In 1946 the old king abdicates to save the crown.",
+      "paragraphs": [
+        "Umberto spent the fascist years in his father's shadow. After the Allies liberated Rome in June 1944, the old king handed him his powers as Lieutenant General of the Realm. Umberto was tall, courteous and eager to please, but the crown was stained by twenty years of fascism. On 9 May 1946 his father abdicated, hoping a fresh face could win the vote that was coming.",
+        "On 2–3 June 1946 Italians chose between monarchy and republic, and women voted in a national election for the first time. The republic won with about 54%. The north voted strongly for it, while much of the south stayed loyal to the king. Monarchists cried fraud, and there was deadly rioting in Naples. On 13 June Umberto left for Portugal. He never abdicated, and he accused the government of acting illegally.",
+        "He had reigned for about a month, and Italians remembered him as the May King. He settled at Cascais, near Lisbon. The new republican constitution barred the male Savoys from Italy, so he never came home. He died in Geneva in 1983. His family was finally allowed back in 2002."
+      ],
+      "claims": [
+        {
+          "text": "The republic won the 1946 referendum by fraud.",
+          "status": "disputed",
+          "note": "Monarchists challenged the count and the rules for the result. The supreme court confirmed it, and historians accept the republican majority was real."
+        },
+        {
+          "text": "June 1946 was the first time Italian women voted in a national election.",
+          "status": "confirmed",
+          "note": "Women had voted in local elections a few months earlier, but the referendum and Constituent Assembly vote were their first national poll."
+        },
+        {
+          "text": "He left Italy without ever abdicating.",
+          "status": "confirmed",
+          "note": "His farewell proclamation called the government's move a revolutionary act. He never renounced his claim."
+        }
+      ],
+      "images": [
+        {
+          "file": "File:Umberto II, 1944.jpg",
+          "url": "https://upload.wikimedia.org/wikipedia/commons/9/92/Umberto_II%2C_1944.jpg",
+          "page": "https://commons.wikimedia.org/wiki/File:Umberto_II,_1944.jpg",
+          "credit": "Capt. Tanner, War Office official photographer",
+          "license": "Public domain",
+          "made": "1944",
+          "caption": "A British War Office photograph from May 1944, just before he became Lieutenant General of the Realm.",
+          "alt": "Photograph of Umberto II of Italy"
+        }
+      ],
+      "sources": [
+        {
+          "title": "Italy and its Monarchy",
+          "author": "Denis Mack Smith",
+          "note": "Yale University Press, 1989"
+        },
+        {
+          "title": "A History of Contemporary Italy: Society and Politics, 1943–1988",
+          "author": "Paul Ginsborg",
+          "note": "Penguin, 1990"
+        },
+        {
+          "title": "The Force of Destiny: A History of Italy since 1796",
+          "author": "Christopher Duggan",
+          "note": "Allen Lane, 2007"
+        }
+      ],
+      "review": {
+        "status": "draft",
+        "notes": "Drafted from the listed sources; needs a human fact-check."
+      }
+    }
+  ]
+}
