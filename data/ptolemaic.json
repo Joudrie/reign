@@ -1,0 +1,1542 @@
+{
+  "id": "ptolemaic",
+  "name": "Ptolemaic Egypt",
+  "blurb": "Alexander's general to Cleopatra: Egypt's Greek pharaohs",
+  "dateConvention": "All dates are BC, counting down with no year zero, and many are approximate: most Ptolemaic reigns are known only to the year. Ptolemy I's card starts in 323 BC, when he took Egypt as governor after Alexander's death; he called himself king only from 305/304 BC.",
+  "epilogue": "Egypt became a Roman province, ruled for Octavian (soon Augustus) by his own prefect. Caesarion, 17, was hunted down and killed. Cleopatra Selene, her daughter, lived on as queen of Mauretania.",
+  "houses": [
+    {
+      "id": "ptolemaic",
+      "name": "Ptolemaic (Lagid)",
+      "color": "#24557a"
+    }
+  ],
+  "rulers": [
+    {
+      "id": "ptolemy-i",
+      "name": "Ptolemy I",
+      "epithet": "Soter",
+      "house": "ptolemaic",
+      "born": {
+        "date": "-0367",
+        "circa": true,
+        "note": "Macedon"
+      },
+      "died": {
+        "date": "-0282",
+        "circa": true,
+        "note": "Alexandria; 283 or 282 BC"
+      },
+      "causeOfDeath": "Old age, in his 80s"
+    },
+    {
+      "id": "ptolemy-ii",
+      "name": "Ptolemy II",
+      "epithet": "Philadelphus",
+      "house": "ptolemaic",
+      "born": {
+        "date": "-0309",
+        "note": "Island of Kos"
+      },
+      "died": {
+        "date": "-0246",
+        "circa": true,
+        "note": "Early in 246 BC"
+      },
+      "causeOfDeath": "Natural causes"
+    },
+    {
+      "id": "ptolemy-iii",
+      "name": "Ptolemy III",
+      "epithet": "Euergetes",
+      "house": "ptolemaic",
+      "born": {
+        "date": "-0280",
+        "circa": true,
+        "note": "Probably between about 284 and 275 BC"
+      },
+      "died": {
+        "date": "-0222",
+        "circa": true,
+        "note": "Late in 222 BC"
+      },
+      "causeOfDeath": "Natural causes, as far as is known"
+    },
+    {
+      "id": "ptolemy-iv",
+      "name": "Ptolemy IV",
+      "epithet": "Philopator",
+      "house": "ptolemaic",
+      "born": {
+        "date": "-0244",
+        "circa": true
+      },
+      "died": {
+        "date": "-0204",
+        "circa": true,
+        "note": "Alexandria; his death was kept secret for a time"
+      },
+      "causeOfDeath": "Unknown"
+    },
+    {
+      "id": "ptolemy-v",
+      "name": "Ptolemy V",
+      "epithet": "Epiphanes",
+      "house": "ptolemaic",
+      "born": {
+        "date": "-0210-10-09",
+        "circa": true
+      },
+      "died": {
+        "date": "-0180",
+        "circa": true
+      },
+      "causeOfDeath": "Sudden death, said to be poison"
+    },
+    {
+      "id": "ptolemy-vi",
+      "name": "Ptolemy VI",
+      "epithet": "Philometor",
+      "house": "ptolemaic",
+      "born": {
+        "date": "-0186",
+        "circa": true
+      },
+      "died": {
+        "date": "-0145",
+        "note": "Syria, a few days after the battle at the Oinoparas"
+      },
+      "causeOfDeath": "Skull fractured in a fall from his horse"
+    },
+    {
+      "id": "cleopatra-ii",
+      "name": "Cleopatra II",
+      "house": "ptolemaic",
+      "born": {
+        "date": "-0185",
+        "circa": true
+      },
+      "died": {
+        "date": "-0116",
+        "circa": true,
+        "note": "116 or 115 BC"
+      },
+      "causeOfDeath": "Unknown"
+    },
+    {
+      "id": "ptolemy-viii",
+      "name": "Ptolemy VIII",
+      "epithet": "Physcon",
+      "house": "ptolemaic",
+      "born": {
+        "date": "-0184",
+        "circa": true
+      },
+      "died": {
+        "date": "-0116-06",
+        "circa": true
+      },
+      "causeOfDeath": "Natural causes"
+    },
+    {
+      "id": "cleopatra-iii",
+      "name": "Cleopatra III",
+      "house": "ptolemaic",
+      "born": {
+        "date": "-0160",
+        "circa": true,
+        "note": "Between about 160 and 155 BC"
+      },
+      "died": {
+        "date": "-0101",
+        "circa": true
+      },
+      "causeOfDeath": "Murdered, said to be by her son"
+    },
+    {
+      "id": "ptolemy-ix",
+      "name": "Ptolemy IX",
+      "epithet": "Lathyros",
+      "house": "ptolemaic",
+      "born": {
+        "date": "-0143",
+        "circa": true
+      },
+      "died": {
+        "date": "-0081",
+        "circa": true
+      },
+      "causeOfDeath": "Natural causes, as far as we know"
+    },
+    {
+      "id": "ptolemy-x",
+      "name": "Ptolemy X",
+      "epithet": "Alexander",
+      "house": "ptolemaic",
+      "born": {
+        "date": "-0140",
+        "circa": true
+      },
+      "died": {
+        "date": "-0088",
+        "circa": true,
+        "note": "At sea off Cyprus; some date it to 87 BC"
+      },
+      "causeOfDeath": "Killed in a sea battle"
+    },
+    {
+      "id": "berenice-iii",
+      "name": "Berenice III",
+      "house": "ptolemaic",
+      "born": {
+        "date": "-0120",
+        "circa": true
+      },
+      "died": {
+        "date": "-0080",
+        "circa": true,
+        "note": "Alexandria"
+      },
+      "causeOfDeath": "Murdered on her husband's orders"
+    },
+    {
+      "id": "ptolemy-xi",
+      "name": "Ptolemy XI",
+      "house": "ptolemaic",
+      "died": {
+        "date": "-0080",
+        "circa": true,
+        "note": "Alexandria"
+      },
+      "causeOfDeath": "Lynched by the Alexandrians"
+    },
+    {
+      "id": "ptolemy-xii",
+      "name": "Ptolemy XII",
+      "epithet": "Auletes",
+      "house": "ptolemaic",
+      "born": {
+        "date": "-0117",
+        "circa": true
+      },
+      "died": {
+        "date": "-0051",
+        "circa": true
+      },
+      "causeOfDeath": "Natural causes, as far as we know"
+    },
+    {
+      "id": "berenice-iv",
+      "name": "Berenice IV",
+      "house": "ptolemaic",
+      "born": {
+        "date": "-0077",
+        "circa": true
+      },
+      "died": {
+        "date": "-0055",
+        "circa": true
+      },
+      "causeOfDeath": "Executed on her father's orders"
+    },
+    {
+      "id": "cleopatra-vii",
+      "name": "Cleopatra VII",
+      "house": "ptolemaic",
+      "born": {
+        "date": "-0069",
+        "circa": true,
+        "note": "Probably Alexandria"
+      },
+      "died": {
+        "date": "-0030-08",
+        "circa": true,
+        "note": "Alexandria; 10 or 12 August, sources differ"
+      },
+      "causeOfDeath": "Suicide, traditionally by an asp"
+    }
+  ],
+  "reigns": [
+    {
+      "id": "ptolemy-i",
+      "kind": "monarch",
+      "rulers": [
+        "ptolemy-i"
+      ],
+      "tagline": "Alexander's general who stole the body and kept Egypt",
+      "start": {
+        "date": "-0323",
+        "circa": true
+      },
+      "end": {
+        "date": "-0284",
+        "circa": true
+      },
+      "contestedWith": [],
+      "relationToPredecessor": "General of Alexander the Great",
+      "ageAtAccession": "About 44",
+      "cameToPower": "Took Egypt in the share-out at Babylon",
+      "reignEnded": "Made his younger son co-king",
+      "previously": "Alexander takes Egypt, founds Alexandria, then dies in Babylon.",
+      "paragraphs": [
+        "Ptolemy, son of Lagus, grew up with Alexander the Great in Macedon and became one of his generals and bodyguards. When Alexander died in Babylon in June 323 BC, his officers carved up the empire. Ptolemy picked Egypt: rich, easy to defend and far from the others. He ruled it as satrap, a governor, for nearly 20 years before calling himself king in 305/304 BC, as the other successors were doing.",
+        "His boldest move came in 321 BC. Alexander's body was heading home to Macedon in a lavish funeral cart, and Ptolemy hijacked it and took it to Egypt. Owning the corpse meant owning a piece of the legend. The regent Perdiccas invaded to get it back, lost men in a botched crossing of the Nile, and was murdered by his own officers.",
+        "Ptolemy then built a Greek capital worthy of the body. He started the Museum and the Library of Alexandria, backed a new god, Serapis, and wrote his own history of Alexander's wars. In 285/284 BC he made his younger son Ptolemy co-king, passing over his elder son, Ptolemy Keraunos, the \"Thunderbolt\". Keraunos stormed off and later murdered Seleucus I."
+      ],
+      "claims": [
+        {
+          "text": "Ptolemy was secretly the son of Alexander's father, Philip II.",
+          "status": "legend",
+          "note": "Only later writers tell it. It looks like flattery, tying the new dynasty to Alexander's own family."
+        },
+        {
+          "text": "Perdiccas's soldiers drowned in the Nile or were eaten by crocodiles.",
+          "status": "disputed",
+          "note": "Diodorus tells it vividly, using earlier histories now lost. The disaster is real; the crocodile detail may be colour."
+        },
+        {
+          "text": "Serapis came to Ptolemy in a dream and asked to be brought to Alexandria.",
+          "status": "legend",
+          "note": "Tacitus and Plutarch tell the dream story centuries later. The god was more likely a clever blend of Egyptian and Greek cults."
+        }
+      ],
+      "hook": "The old general hands Egypt to his favourite son. Ptolemy II inherits a fortune, a city full of scholars, a lighthouse nearly built, and a family about to start marrying itself.",
+      "images": [
+        {
+          "file": "File:Egypt - king Ptolemaios I - 305-283 BC - silver tetradrachm - head of Ptolemaios I - eagle on thunderbolt - München SMS.jpg",
+          "url": "https://upload.wikimedia.org/wikipedia/commons/1/18/Egypt_-_king_Ptolemaios_I_-_305-283_BC_-_silver_tetradrachm_-_head_of_Ptolemaios_I_-_eagle_on_thunderbolt_-_M%C3%BCnchen_SMS.jpg",
+          "page": "https://commons.wikimedia.org/wiki/File:Egypt_-_king_Ptolemaios_I_-_305-283_BC_-_silver_tetradrachm_-_head_of_Ptolemaios_I_-_eagle_on_thunderbolt_-_M%C3%BCnchen_SMS.jpg",
+          "credit": "ArchaiOptix",
+          "license": "CC BY-SA 4.0",
+          "made": "c. 305–283 BC",
+          "caption": "A silver tetradrachm struck at Alexandria in Ptolemy's own reign as king, now in Munich.",
+          "alt": "Ancient silver coin showing the diademed head of Ptolemy I, with an eagle standing on a thunderbolt on the other side"
+        }
+      ],
+      "sources": [
+        {
+          "title": "A History of the Ptolemaic Empire",
+          "author": "Günther Hölbl",
+          "note": "Routledge, 2001"
+        },
+        {
+          "title": "Library of History (books 18 to 20)",
+          "author": "Diodorus Siculus"
+        },
+        {
+          "title": "Anabasis of Alexander",
+          "author": "Arrian",
+          "note": "Built partly on Ptolemy's own lost history"
+        },
+        {
+          "title": "Histories (book 4)",
+          "author": "Tacitus",
+          "note": "The Serapis dream"
+        }
+      ],
+      "review": {
+        "status": "draft",
+        "notes": "Drafted from the listed sources; needs a human fact-check."
+      }
+    },
+    {
+      "id": "ptolemy-ii",
+      "kind": "monarch",
+      "rulers": [
+        "ptolemy-ii"
+      ],
+      "tagline": "The king who married his sister and lit up the harbour",
+      "start": {
+        "date": "-0284",
+        "circa": true
+      },
+      "end": {
+        "date": "-0246",
+        "circa": true
+      },
+      "contestedWith": [],
+      "relationToPredecessor": "Younger son of Ptolemy I",
+      "ageAtAccession": "About 24",
+      "cameToPower": "Made co-king by his father",
+      "reignEnded": "Died aged about 63",
+      "previously": "Ptolemy I makes his younger son co-king and passes over the elder.",
+      "paragraphs": [
+        "Born on the island of Kos in 309 BC, Ptolemy II shared the throne with his father, then ruled alone after the old man died. Early in his reign the Pharos, the great lighthouse of Alexandria, was finished: a tower on the harbour island that people counted among the Seven Wonders of the World. The Library and the Museum grew into the greatest centre of learning in the Greek world.",
+        "Around 273 BC he sent his first wife, Arsinoe I, into exile and married his full sister, Arsinoe II. Egyptian gods married their sisters, and the Ptolemies made it a family habit. Arsinoe was called Philadelphus, \"sibling-loving\", and the name later stuck to him. When she died in 270 BC he made her a goddess with her own temples and priests.",
+        "He loved a spectacle. His Grand Procession wound through Alexandria with gold, wild animals and floats of the gods. Abroad he fought the Seleucid kings of Syria for the coastlands of the Levant. He died early in 246 BC, leaving a rich kingdom to his son."
+      ],
+      "claims": [
+        {
+          "text": "The lighthouse's architect, Sostratus, carved his own name in the stone and covered it with plaster bearing the king's.",
+          "status": "legend",
+          "note": "Lucian tells it 400 years later as a lesson for writers. When the plaster wore off, Sostratus's name would last."
+        },
+        {
+          "text": "72 Jewish scholars translated the Hebrew Bible into Greek for the Library in 72 days.",
+          "status": "legend",
+          "note": "The Letter of Aristeas tells it. The Torah really was put into Greek in Alexandria in the 3rd century BC; the rest came later."
+        },
+        {
+          "text": "The poet Sotades mocked the royal marriage and was sealed in a lead jar and dropped into the sea.",
+          "status": "legend",
+          "note": "Athenaeus reports it centuries later. Sotades's crude line about the marriage was famous, but his end is a tall tale."
+        }
+      ],
+      "hook": "Ptolemy II dies in 246 BC. His son takes over, and a crisis breaks at once: his sister, married off to the Seleucid king, is in mortal danger at Antioch.",
+      "images": [
+        {
+          "file": "File:Gold oktadrachm of Ptolemy II Philadelphos MET DP138746.jpg",
+          "url": "https://upload.wikimedia.org/wikipedia/commons/0/07/Gold_oktadrachm_of_Ptolemy_II_Philadelphos_MET_DP138746.jpg",
+          "page": "https://commons.wikimedia.org/wiki/File:Gold_oktadrachm_of_Ptolemy_II_Philadelphos_MET_DP138746.jpg",
+          "credit": "Metropolitan Museum of Art",
+          "license": "CC0",
+          "made": "c. 261–246 BC",
+          "caption": "A gold oktadrachm, a big eight-drachma coin, struck in Ptolemy II's reign; now in the Metropolitan Museum of Art.",
+          "alt": "Ancient gold oktadrachm coin from the reign of Ptolemy II"
+        }
+      ],
+      "sources": [
+        {
+          "title": "A History of the Ptolemaic Empire",
+          "author": "Günther Hölbl",
+          "note": "Routledge, 2001"
+        },
+        {
+          "title": "Deipnosophistae (The Learned Banqueters)",
+          "author": "Athenaeus",
+          "note": "The Grand Procession and Sotades"
+        },
+        {
+          "title": "Letter of Aristeas"
+        },
+        {
+          "title": "How to Write History",
+          "author": "Lucian",
+          "note": "Sostratus's inscription"
+        }
+      ],
+      "review": {
+        "status": "draft",
+        "notes": "Drafted from the listed sources; needs a human fact-check."
+      }
+    },
+    {
+      "id": "ptolemy-iii",
+      "kind": "monarch",
+      "rulers": [
+        "ptolemy-iii"
+      ],
+      "tagline": "The Benefactor whose queen's hair went to the stars",
+      "start": {
+        "date": "-0246",
+        "circa": true
+      },
+      "end": {
+        "date": "-0222",
+        "circa": true
+      },
+      "contestedWith": [],
+      "relationToPredecessor": "Son of Ptolemy II",
+      "ageAtAccession": "In his 30s",
+      "cameToPower": "Succeeded his father",
+      "reignEnded": "Died late in 222 BC",
+      "previously": "Ptolemy II dies in 246 BC, leaving a rich kingdom to his son.",
+      "paragraphs": [
+        "Ptolemy III had barely taken the throne when his sister Berenice, widow of the Seleucid king Antiochus II, was murdered at Antioch with her baby son. He went to war. In the Third Syrian War (246 to 241 BC) his army swept deep into Seleucid lands, and he boasted of reaching Babylon. Then trouble at home called him back to Egypt.",
+        "He had married Berenice II, princess of Cyrene, which brought that rich corner of Libya back under Egypt. In 238 BC Egypt's priests met at Canopus and passed a decree honouring the couple. It made their little daughter, who had just died, a goddess, and it added a leap day every four years to the Egyptian calendar. The idea was sound, but it didn't stick.",
+        "At home he was Euergetes, \"the Benefactor\", and in 237 BC work began on the vast temple of Horus at Edfu, which still stands. His Library was hungry for books and not fussy about how it got them. He died late in 222 BC with the Ptolemaic empire at its peak."
+      ],
+      "claims": [
+        {
+          "text": "Berenice II's lock of hair vanished from a temple and became the constellation Coma Berenices.",
+          "status": "legend",
+          "note": "She vowed it for the king's safe return from war. The court astronomer Conon announced it in the stars; Callimachus wrote the poem, Catullus adapted it."
+        },
+        {
+          "text": "He borrowed Athens's official copies of Aeschylus, Sophocles and Euripides for a deposit of 15 talents, then kept them.",
+          "status": "disputed",
+          "note": "Galen tells it some 400 years later, alongside a tale that books found on ships were copied and the copies given back."
+        },
+        {
+          "text": "His army marched as far as Babylon.",
+          "status": "disputed",
+          "note": "The evidence is fragmentary and partly royal boasting. He clearly won big, but how far east he went is unclear."
+        }
+      ],
+      "hook": "Ptolemy III dies with Egypt at the height of its power. His son is young, fond of a party, and surrounded by ministers with very sharp elbows.",
+      "images": [
+        {
+          "file": "File:Gold oktadrachm of Ptolemy III Euergetes MET DP138747.jpg",
+          "url": "https://upload.wikimedia.org/wikipedia/commons/9/9a/Gold_oktadrachm_of_Ptolemy_III_Euergetes_MET_DP138747.jpg",
+          "page": "https://commons.wikimedia.org/wiki/File:Gold_oktadrachm_of_Ptolemy_III_Euergetes_MET_DP138747.jpg",
+          "credit": "Metropolitan Museum of Art",
+          "license": "CC0",
+          "made": "c. 246–221 BC",
+          "caption": "A gold oktadrachm of Ptolemy III, now in the Metropolitan Museum of Art.",
+          "alt": "Ancient gold oktadrachm coin of Ptolemy III Euergetes"
+        }
+      ],
+      "sources": [
+        {
+          "title": "A History of the Ptolemaic Empire",
+          "author": "Günther Hölbl",
+          "note": "Routledge, 2001"
+        },
+        {
+          "title": "Alexander to Actium: The Historical Evolution of the Hellenistic Age",
+          "author": "Peter Green",
+          "note": "University of California Press, 1990"
+        },
+        {
+          "title": "Poem 66 (The Lock of Berenice)",
+          "author": "Catullus",
+          "note": "Adapted from Callimachus"
+        },
+        {
+          "title": "Commentary on Hippocrates' Epidemics III",
+          "author": "Galen",
+          "note": "The Athenian play texts"
+        }
+      ],
+      "review": {
+        "status": "draft",
+        "notes": "Drafted from the listed sources; needs a human fact-check."
+      }
+    },
+    {
+      "id": "ptolemy-iv",
+      "kind": "monarch",
+      "rulers": [
+        "ptolemy-iv"
+      ],
+      "tagline": "The party king who won the biggest battle of his age",
+      "start": {
+        "date": "-0222",
+        "circa": true
+      },
+      "end": {
+        "date": "-0204",
+        "circa": true
+      },
+      "contestedWith": [],
+      "relationToPredecessor": "Son of Ptolemy III",
+      "ageAtAccession": "About 22",
+      "cameToPower": "Succeeded his father",
+      "reignEnded": "Died; his death was hushed up",
+      "previously": "Ptolemy III dies in 222 BC, with Egypt at the height of its power.",
+      "paragraphs": [
+        "Philopator means \"father-loving\". The historian Polybius, no fan, paints him as a pleasure-lover run by his minister Sosibius and the courtier Agathocles, whose sister Agathoclea was the king's mistress. Early on, his mother Berenice II and his brother Magas were killed. In 219 BC the exiled Spartan king Cleomenes III tried to raise Alexandria against him, failed, and killed himself.",
+        "Then came Raphia, near Gaza, in 217 BC. The Seleucid Antiochus III was grabbing the Levant, and Ptolemy met him with a huge army that included Egyptians trained, for the first time, to fight as a Macedonian phalanx. His sister-wife Arsinoe III rode among the troops. Ptolemy won. But Egyptians who had won his war started asking questions, and around 206 BC the south rose, with native pharaohs ruling Thebes.",
+        "He died in 204 BC. Sosibius and Agathocles kept it quiet, had Arsinoe III murdered, and named themselves guardians of his little son. When the truth came out, the Alexandrian mob tore Agathocles, Agathoclea and their family to pieces."
+      ],
+      "claims": [
+        {
+          "text": "Ptolemy IV was a lazy drunk who let favourites run his kingdom.",
+          "status": "disputed",
+          "note": "This is Polybius's portrait, and he was hostile. The king also won Raphia and built a giant warship, the \"forty\", too big to be much use."
+        },
+        {
+          "text": "About 20,000 native Egyptians fought in the phalanx at Raphia.",
+          "status": "disputed",
+          "note": "Polybius gives the figure. Ancient army numbers are often shaky, but the use of Egyptian troops is not in doubt."
+        },
+        {
+          "text": "At Raphia Ptolemy's smaller African elephants panicked when they faced Antiochus's Indian ones.",
+          "status": "confirmed",
+          "note": "Polybius describes it closely, and it fits the smaller African forest elephants the Ptolemies used."
+        }
+      ],
+      "hook": "Alexandria has a six-year-old king, a murdered queen and blood in the streets. Egypt's enemies smell weakness, and Antiochus III is coming back.",
+      "images": [
+        {
+          "file": "File:Coin of Ptolemy IV.jpg",
+          "url": "https://upload.wikimedia.org/wikipedia/commons/3/3f/Coin_of_Ptolemy_IV.jpg",
+          "page": "https://commons.wikimedia.org/wiki/File:Coin_of_Ptolemy_IV.jpg",
+          "credit": "Classical Numismatic Group (cng)",
+          "license": "CC BY-SA 2.5",
+          "made": "204/203 BC",
+          "caption": "A gold oktadrachm struck in his memory just after his death, under his son Ptolemy V.",
+          "alt": "Both sides of a gold coin: the diademed, draped bust of Ptolemy IV, and an eagle standing on a thunderbolt with his name in Greek"
+        }
+      ],
+      "sources": [
+        {
+          "title": "A History of the Ptolemaic Empire",
+          "author": "Günther Hölbl",
+          "note": "Routledge, 2001"
+        },
+        {
+          "title": "Histories (books 5 and 15)",
+          "author": "Polybius"
+        },
+        {
+          "title": "Life of Cleomenes (Parallel Lives)",
+          "author": "Plutarch"
+        }
+      ],
+      "review": {
+        "status": "draft",
+        "notes": "Drafted from the listed sources; needs a human fact-check."
+      }
+    },
+    {
+      "id": "ptolemy-v",
+      "kind": "monarch",
+      "rulers": [
+        "ptolemy-v"
+      ],
+      "tagline": "The boy king whose decree cracked the hieroglyphs",
+      "start": {
+        "date": "-0204",
+        "circa": true
+      },
+      "end": {
+        "date": "-0180",
+        "circa": true
+      },
+      "contestedWith": [],
+      "relationToPredecessor": "Son of Ptolemy IV",
+      "ageAtAccession": "About 6",
+      "cameToPower": "Inherited as a small boy",
+      "reignEnded": "Died about 30, maybe poisoned",
+      "previously": "Ptolemy IV is dead, his queen murdered, his ministers lynched.",
+      "paragraphs": [
+        "Ptolemy V was about six when he became king, and his regents spent the next few years fighting each other. Egypt's enemies pounced. Antiochus III crushed the Egyptian army at Panium in 200 BC, and Coele-Syria and Judea were lost for good. In the south the native revolt dragged on.",
+        "To shore up his rule he was crowned pharaoh at Memphis, the old Egyptian capital. On 27 March 196 BC the priests there passed a decree honouring him, written out in hieroglyphs, demotic and Greek. One copy is the Rosetta Stone. French soldiers found it in 1799, the British took it in 1801, and in 1822 Champollion used it to crack hieroglyphs.",
+        "Peace with Antiochus came with a bride, his daughter Cleopatra I, who married Ptolemy in 194/193 BC: the first Cleopatra in Egypt. In 186 BC the long southern revolt was finally crushed. Ptolemy died in 180 BC, only about 30, leaving small children and his Seleucid queen in charge."
+      ],
+      "claims": [
+        {
+          "text": "Ptolemy V was poisoned by his own officers.",
+          "status": "disputed",
+          "note": "Later writers say so. He died young and suddenly, which is exactly when poison stories get told."
+        },
+        {
+          "text": "The Rosetta Stone is a copy of a priests' decree, carved in three scripts.",
+          "status": "confirmed",
+          "note": "The text itself says so, and other copies of the same decree have been found elsewhere in Egypt."
+        }
+      ],
+      "hook": "Ptolemy V is dead at 30. His son is another small boy, but this time his mother runs the show: Cleopatra I, the Seleucid princess who became Egypt's queen.",
+      "images": [
+        {
+          "file": "File:Rosetta Stone.JPG",
+          "url": "https://upload.wikimedia.org/wikipedia/commons/2/23/Rosetta_Stone.JPG",
+          "page": "https://commons.wikimedia.org/wiki/File:Rosetta_Stone.JPG",
+          "credit": "Hans Hillewaert",
+          "license": "CC BY-SA 4.0",
+          "made": "196 BC",
+          "caption": "Not a portrait: the Rosetta Stone, a copy of the priests' decree of 196 BC honouring Ptolemy V, in the British Museum.",
+          "alt": "The Rosetta Stone on display in the British Museum: a broken slab of dark stone carved with three blocks of writing"
+        }
+      ],
+      "sources": [
+        {
+          "title": "A History of the Ptolemaic Empire",
+          "author": "Günther Hölbl",
+          "note": "Routledge, 2001"
+        },
+        {
+          "title": "Histories (books 15 and 18)",
+          "author": "Polybius"
+        },
+        {
+          "title": "Cracking Codes: The Rosetta Stone and Decipherment",
+          "author": "Richard Parkinson",
+          "note": "British Museum Press, 1999"
+        }
+      ],
+      "review": {
+        "status": "draft",
+        "notes": "Drafted from the listed sources; needs a human fact-check."
+      }
+    },
+    {
+      "id": "ptolemy-vi",
+      "kind": "monarch",
+      "title": "Ptolemy VI and Cleopatra II",
+      "rulers": [
+        "ptolemy-vi",
+        "cleopatra-ii"
+      ],
+      "tagline": "Two brothers, one sister and a Roman circle in the sand",
+      "start": {
+        "date": "-0180",
+        "circa": true
+      },
+      "end": {
+        "date": "-0145"
+      },
+      "contestedWith": [],
+      "relationToPredecessor": "Son of Ptolemy V",
+      "ageAtAccession": "About 6",
+      "cameToPower": "Inherited; his mother ruled at first",
+      "reignEnded": "Thrown by his horse in battle",
+      "previously": "Ptolemy V dies at 30, leaving a small son and a Seleucid widow.",
+      "paragraphs": [
+        "Ptolemy VI was about six, so his mother Cleopatra I ran Egypt, her name on its coins, until she died in 176 BC. He then married his full sister, Cleopatra II, who ruled beside him. Two courtiers, Eulaios and Lenaios, took charge and in 170 BC picked a war with Syria. It went badly. Antiochus IV invaded and took the boy king into his \"protection\", so the Alexandrians crowned his younger brother instead.",
+        "For a while the three siblings ruled together. In 168 BC Antiochus was besieging Alexandria when a Roman envoy, Popilius Laenas, drew a circle in the sand round him and told him to answer Rome before he stepped out. Antiochus went home. In 164 BC the younger brother drove Ptolemy VI out, and he went to Rome to plead his case. Alexandria took him back in 163 BC, and his brother was packed off to rule Cyrene.",
+        "He was a mild, careful king who began the temple at Kom Ombo. In 145 BC he marched into Syria and was offered the Seleucid crown at Antioch. He beat the pretender Alexander Balas at the Oinoparas river, but his horse panicked at an elephant and threw him. He fractured his skull and died a few days later."
+      ],
+      "claims": [
+        {
+          "text": "Popilius Laenas drew a circle round Antiochus IV and made him answer before stepping out.",
+          "status": "confirmed",
+          "note": "Polybius and Livy both tell it, and Antiochus did leave Egypt. It became the classic picture of Rome's new power."
+        },
+        {
+          "text": "In exile in Rome, Ptolemy VI lodged with a painter in a shabby room.",
+          "status": "disputed",
+          "note": "Diodorus tells it to show a king brought low. It may be dressed up, but it fits a ruler begging the Senate for help."
+        },
+        {
+          "text": "Before he died he was shown the severed head of Alexander Balas.",
+          "status": "disputed",
+          "note": "Diodorus and 1 Maccabees both have the head brought to him. The details of his last days differ."
+        }
+      ],
+      "hook": "Ptolemy VI dies in Syria. In Alexandria his widow Cleopatra II waits with a young son, and her other brother, the one they call Potbelly, is already on his way from Cyrene.",
+      "images": [
+        {
+          "file": "File:Head of a statue of Ptolemy VI Philometor. Found at Aigina. Granit. 180-145 BC (4334587826).jpg",
+          "url": "https://upload.wikimedia.org/wikipedia/commons/d/df/Head_of_a_statue_of_Ptolemy_VI_Philometor._Found_at_Aigina._Granit._180-145_BC_%284334587826%29.jpg",
+          "page": "https://commons.wikimedia.org/wiki/File:Head_of_a_statue_of_Ptolemy_VI_Philometor._Found_at_Aigina._Granit._180-145_BC_(4334587826).jpg",
+          "credit": "Tilemahos Efthimiadis",
+          "license": "CC BY 2.0",
+          "made": "180–145 BC",
+          "caption": "Granite head from a statue of Ptolemy VI, found on the Greek island of Aegina; now in the National Archaeological Museum, Athens.",
+          "alt": "Granite head from a statue of a king, on display in a museum"
+        }
+      ],
+      "sources": [
+        {
+          "title": "A History of the Ptolemaic Empire",
+          "author": "Günther Hölbl",
+          "note": "Routledge, 2001"
+        },
+        {
+          "title": "Histories (book 29)",
+          "author": "Polybius",
+          "note": "The Day of Eleusis"
+        },
+        {
+          "title": "History of Rome (book 45)",
+          "author": "Livy"
+        },
+        {
+          "title": "1 Maccabees (chapter 11)",
+          "note": "The battle of 145 BC"
+        }
+      ],
+      "review": {
+        "status": "draft",
+        "notes": "Drafted from the listed sources; needs a human fact-check."
+      }
+    },
+    {
+      "id": "ptolemy-viii",
+      "kind": "monarch",
+      "title": "Ptolemy VIII and the Two Cleopatras",
+      "rulers": [
+        "ptolemy-viii",
+        "cleopatra-ii",
+        "cleopatra-iii"
+      ],
+      "tagline": "Potbelly, his sister, his niece and a very long feud",
+      "start": {
+        "date": "-0145"
+      },
+      "end": {
+        "date": "-0116",
+        "circa": true
+      },
+      "contestedWith": [
+        "cleopatra-ii"
+      ],
+      "relationToPredecessor": "Younger brother of Ptolemy VI",
+      "ageAtAccession": "About 39",
+      "cameToPower": "Came back and married the widow",
+      "reignEnded": "Died, leaving his wife to choose",
+      "previously": "Ptolemy VI dies in Syria, thrown by his horse in the hour of victory.",
+      "paragraphs": [
+        "The Alexandrians called him Physcon, \"Potbelly\"; officially he was Euergetes II. In 145 BC he came back from Cyrene and married his sister Cleopatra II, his brother's widow. Her young son, the boy modern books call Ptolemy VII, did not survive. Then Physcon turned on Alexandria's Greek elite, and scholars fled the city, among them the great Homer expert Aristarchus.",
+        "Around 141 BC he also married Cleopatra III, Cleopatra II's daughter by his brother. Now the king had his sister and his niece as wives and queens, and official documents name all three. Mother and daughter came to loathe each other. In 131 BC Alexandria rose for Cleopatra II and he fled to Cyprus. He fought his way back in 127 BC, and by 124 BC the three were ruling together again.",
+        "In 118 BC the trio issued a sweeping amnesty to heal the wounds of civil war. Physcon died in June 116 BC. He left Egypt to Cleopatra III and whichever of her sons she chose."
+      ],
+      "claims": [
+        {
+          "text": "Ptolemy VIII had his young nephew killed in his mother's arms on the day of the wedding.",
+          "status": "legend",
+          "note": "Justin tells it. Some scholars think the \"Ptolemy VII\" of modern numbering was a different son who died earlier."
+        },
+        {
+          "text": "The Roman Scipio Aemilianus made the fat king walk with him through Alexandria in a see-through robe.",
+          "status": "disputed",
+          "note": "Justin and Diodorus tell it with relish. The Roman visit around 140/139 BC is real; the robe is a good Roman joke."
+        },
+        {
+          "text": "In 155 BC he willed Cyrene to Rome if he died without children.",
+          "status": "confirmed",
+          "note": "The will survives on an inscription found at Cyrene. It was insurance against his brother."
+        }
+      ],
+      "hook": "Rewind to 131 BC. While Physcon rules, Alexandria rises for his sister. Cleopatra II seizes the city, and the king flees to Cyprus with her daughter and his children.",
+      "images": [
+        {
+          "file": "File:Cleopatra Kom Ombo.JPG",
+          "url": "https://upload.wikimedia.org/wikipedia/commons/5/54/Cleopatra_Kom_Ombo.JPG",
+          "page": "https://commons.wikimedia.org/wiki/File:Cleopatra_Kom_Ombo.JPG",
+          "credit": "Rémih",
+          "license": "CC BY-SA 3.0",
+          "made": "2nd century BC",
+          "caption": "Cleopatra II and Cleopatra III on a temple relief at Kom Ombo, carved in the traditional Egyptian style rather than as true likenesses.",
+          "alt": "Egyptian temple relief of two queens, Cleopatra II and Cleopatra III, standing one behind the other"
+        }
+      ],
+      "sources": [
+        {
+          "title": "A History of the Ptolemaic Empire",
+          "author": "Günther Hölbl",
+          "note": "Routledge, 2001"
+        },
+        {
+          "title": "Epitome of the Philippic History of Pompeius Trogus (book 38)",
+          "author": "Justin"
+        },
+        {
+          "title": "Library of History (books 33 and 34)",
+          "author": "Diodorus Siculus"
+        },
+        {
+          "title": "Deipnosophistae (The Learned Banqueters)",
+          "author": "Athenaeus",
+          "note": "The flight of the scholars"
+        }
+      ],
+      "review": {
+        "status": "draft",
+        "notes": "Drafted from the listed sources; needs a human fact-check."
+      }
+    },
+    {
+      "id": "cleopatra-ii",
+      "kind": "monarch",
+      "rulers": [
+        "cleopatra-ii"
+      ],
+      "tagline": "The queen who threw her brother out of Alexandria",
+      "start": {
+        "date": "-0131",
+        "circa": true
+      },
+      "end": {
+        "date": "-0127",
+        "circa": true
+      },
+      "contestedWith": [
+        "ptolemy-viii"
+      ],
+      "relationToPredecessor": "Sister and wife of Ptolemy VIII",
+      "ageAtAccession": "About 54",
+      "cameToPower": "Alexandria rose against her brother",
+      "reignEnded": "Fled to Syria with the treasure",
+      "previously": "Physcon dies in 116 BC. But first, rewind to his sister's revolt.",
+      "paragraphs": [
+        "By 131 BC Cleopatra II had had enough of sharing her husband and her throne with her own daughter. Alexandria rose for her, and Ptolemy VIII fled to Cyprus with Cleopatra III and the children. For the next few years Cleopatra II ruled from Alexandria as sole queen, while her brother's forces held much of the countryside.",
+        "The feud turned savage. Her brother had their son, Ptolemy Memphites, about 12, put to death. Desperate for an ally, she offered the throne of Egypt to her son-in-law, the Seleucid king Demetrius II. He marched as far as Pelusium and turned back. In 127 BC Ptolemy VIII retook Alexandria, and she fled to Syria with the royal treasure.",
+        "Yet by 124 BC she was home and on the throne again, ruling beside the brother and the daughter she had fought. The three of them issued decrees together for years. She outlived Ptolemy VIII, but only just, dying around 116 or 115 BC."
+      ],
+      "claims": [
+        {
+          "text": "Ptolemy VIII sent her their son's cut-up body in a box as a birthday present.",
+          "status": "legend",
+          "note": "Diodorus and Justin tell it. Both relied on hostile sources, and the story is shaped to make him a monster."
+        },
+        {
+          "text": "She offered Egypt's throne to Demetrius II.",
+          "status": "disputed",
+          "note": "Justin says so. Demetrius's march to Pelusium fits, but his motives may have been his own."
+        },
+        {
+          "text": "By 124 BC she was ruling again alongside Ptolemy VIII and Cleopatra III.",
+          "status": "confirmed",
+          "note": "Papyri and inscriptions from 124 BC onwards name all three rulers together."
+        }
+      ],
+      "hook": "116 BC. Ptolemy VIII is dead and Cleopatra III holds Egypt, free to pick which son shares her throne. She wants the younger one. Alexandria wants the elder.",
+      "images": [
+        {
+          "file": "File:Egyptian - Intaglio Portrait of Cleopatra II - Walters 421319.jpg",
+          "url": "https://upload.wikimedia.org/wikipedia/commons/8/86/Egyptian_-_Intaglio_Portrait_of_Cleopatra_II_-_Walters_421319.jpg",
+          "page": "https://commons.wikimedia.org/wiki/File:Egyptian_-_Intaglio_Portrait_of_Cleopatra_II_-_Walters_421319.jpg",
+          "credit": "Unknown Ptolemaic gem-cutter (Walters Art Museum)",
+          "license": "Public domain",
+          "made": "c. 175–115 BC",
+          "caption": "A carved gem identified by the Walters Art Museum as a portrait of Cleopatra II.",
+          "alt": "Small carved intaglio gem with a portrait of a Ptolemaic queen"
+        }
+      ],
+      "sources": [
+        {
+          "title": "A History of the Ptolemaic Empire",
+          "author": "Günther Hölbl",
+          "note": "Routledge, 2001"
+        },
+        {
+          "title": "Epitome of the Philippic History of Pompeius Trogus (books 38 and 39)",
+          "author": "Justin"
+        },
+        {
+          "title": "Library of History (book 34)",
+          "author": "Diodorus Siculus"
+        }
+      ],
+      "review": {
+        "status": "draft",
+        "notes": "Drafted from the listed sources; needs a human fact-check."
+      }
+    },
+    {
+      "id": "ptolemy-ix",
+      "kind": "monarch",
+      "rulers": [
+        "cleopatra-iii",
+        "ptolemy-ix"
+      ],
+      "title": "Cleopatra III and Ptolemy IX",
+      "tagline": "The king his mother never wanted",
+      "start": {
+        "date": "-0116",
+        "circa": true
+      },
+      "end": {
+        "date": "-0107",
+        "circa": true
+      },
+      "contestedWith": [],
+      "relationToPredecessor": "Son of Ptolemy VIII and Cleopatra III",
+      "ageAtAccession": "Mid-20s",
+      "cameToPower": "Forced on his mother by the crowd",
+      "reignEnded": "Driven out to Cyprus",
+      "previously": "Ptolemy VIII is dead. Cleopatra III must choose which son will reign.",
+      "paragraphs": [
+        "Ptolemy VIII left Egypt to his widow, Cleopatra III, and let her choose which son would share it. She wanted the younger one, Alexander. The people of Alexandria wanted the elder, and they got him. So in 116 BC Ptolemy IX took the throne beside a mother who didn't want him there. In the documents her name comes first. Alexandrians called him Lathyros, “Chickpea”. Nobody is quite sure why.",
+        "She kept him on a short leash. He was married to his sister Cleopatra IV, and his mother made him divorce her and marry another sister, Cleopatra Selene. Cleopatra IV didn't go quietly. She raised an army, sailed to Syria and married the Seleucid prince Antiochus IX. It ended in blood. Her own sister Cleopatra Tryphaena, wife of the rival Antiochus VIII, had her killed in a temple at Antioch.",
+        "Mother and son never trusted each other. In 107 BC Cleopatra III showed a crowd some wounded eunuchs and said Ptolemy IX had sent men to murder her. Alexandria turned on him and he fled to Cyprus, where he carried on as king. His mother sent for her favourite son."
+      ],
+      "claims": [
+        {
+          "text": "Cleopatra IV died clinging to a goddess's statue, and her hands were cut off to get her away.",
+          "status": "legend",
+          "note": "Only Justin's short summary of the lost history by Trogus tells it, and he loves a lurid moral tale."
+        },
+        {
+          "text": "Cleopatra III's name came before her son's in official documents.",
+          "status": "confirmed",
+          "note": "Papyri and inscriptions of the reign put the queen first, a plain sign of who held the power."
+        },
+        {
+          "text": "The murder plot of 107 BC was invented by Cleopatra III to get rid of her son.",
+          "status": "disputed",
+          "note": "Pausanias and Justin both tell the wounded-eunuch story. Whether there was any real plot can't be known."
+        }
+      ],
+      "hook": "Ptolemy IX is gone, but only across the water to Cyprus. In Alexandria, Cleopatra III finally has the son she always wanted on the throne beside her.",
+      "images": [
+        {
+          "file": "File:PtolemyIX-StatueHead MuseumOfFineArtsBoston.png",
+          "url": "https://upload.wikimedia.org/wikipedia/commons/8/8d/PtolemyIX-StatueHead_MuseumOfFineArtsBoston.png",
+          "page": "https://commons.wikimedia.org/wiki/File:PtolemyIX-StatueHead_MuseumOfFineArtsBoston.png",
+          "credit": "Keith Schengili-Roberts",
+          "license": "CC BY-SA 2.5",
+          "made": "Late 2nd or early 1st century BC",
+          "caption": "Marble head from Memphis, now in Boston, probably made for Ptolemy IX and later reworked for his brother Ptolemy X; the identification is likely, not certain.",
+          "alt": "Marble head of a man with traces of stucco, displayed in a museum"
+        }
+      ],
+      "sources": [
+        {
+          "title": "A History of the Ptolemaic Empire",
+          "author": "Günther Hölbl",
+          "note": "Routledge, 2001"
+        },
+        {
+          "title": "Epitome of the Philippic History of Pompeius Trogus",
+          "author": "Justin",
+          "note": "Book 39"
+        },
+        {
+          "title": "Description of Greece",
+          "author": "Pausanias",
+          "note": "Book 1"
+        }
+      ],
+      "review": {
+        "status": "draft",
+        "notes": "Drafted from the listed sources; needs a human fact-check."
+      }
+    },
+    {
+      "id": "ptolemy-x",
+      "kind": "monarch",
+      "rulers": [
+        "ptolemy-x"
+      ],
+      "tagline": "The fat king who melted down Alexander's coffin",
+      "start": {
+        "date": "-0107",
+        "circa": true
+      },
+      "end": {
+        "date": "-0088",
+        "circa": true
+      },
+      "contestedWith": [],
+      "relationToPredecessor": "Younger brother of Ptolemy IX",
+      "ageAtAccession": "About 33",
+      "cameToPower": "Called home by his mother",
+      "reignEnded": "Driven out, killed at sea",
+      "previously": "Cleopatra III has driven Ptolemy IX out of Alexandria to Cyprus.",
+      "paragraphs": [
+        "Ptolemy X, who went by the name Alexander, came back from Cyprus to rule beside his mother. Ptolemy IX wasn't finished, though. From Cyprus he landed an army in Judea and fought his mother's troops there, in what's called the War of the Sceptres (103 to 101 BC). Then, in 101 BC, Cleopatra III died. The story went round that her favourite son had her murdered.",
+        "He married his niece Berenice III, Ptolemy IX's daughter, and ruled with her. The philosopher Posidonius said he was so fat he could only walk leaning on two men, yet he'd leap about barefoot at drinking parties. Short of cash to pay his soldiers, a king Strabo calls “the Intruder” melted down Alexander the Great's gold coffin and put the body in a glass one. That king was most likely Ptolemy X.",
+        "In 88 BC the army and the people of Alexandria had had enough and threw him out. He tried to fight his way back and was killed in a sea battle off Cyprus. Word spread that he had left Egypt to Rome in his will, and Rome would wave that will over his family for decades."
+      ],
+      "claims": [
+        {
+          "text": "Ptolemy X melted down Alexander the Great's golden coffin.",
+          "status": "disputed",
+          "note": "Strabo tells it of a king he calls Pareisaktos, “the Intruder”. Most take him to be Ptolemy X; some say Ptolemy XI."
+        },
+        {
+          "text": "He murdered his own mother, Cleopatra III.",
+          "status": "disputed",
+          "note": "Justin and Pausanias say so, but both wrote long after and were happy to blacken the family. No document of the time confirms it."
+        },
+        {
+          "text": "He left Egypt to Rome in his will.",
+          "status": "disputed",
+          "note": "Cicero mentions such a will. Whether it was Ptolemy X's or Ptolemy XI's, or genuine at all, is still argued."
+        }
+      ],
+      "hook": "Ptolemy X is dead. The Alexandrians look across the sea to Cyprus, where the brother they threw out almost twenty years ago is still waiting.",
+      "images": [
+        {
+          "file": "File:Ptolemy X Alexander I Louvre Ma970.jpg",
+          "url": "https://upload.wikimedia.org/wikipedia/commons/d/d7/Ptolemy_X_Alexander_I_Louvre_Ma970.jpg",
+          "page": "https://commons.wikimedia.org/wiki/File:Ptolemy_X_Alexander_I_Louvre_Ma970.jpg",
+          "credit": "Unknown sculptor",
+          "license": "Public domain",
+          "made": "1st century BC",
+          "caption": "Diorite head found in Rome, now in the Louvre, identified as Ptolemy X; the identification is probable rather than certain.",
+          "alt": "Dark stone head of a king wearing a royal headdress with a rearing cobra on the brow"
+        }
+      ],
+      "sources": [
+        {
+          "title": "A History of the Ptolemaic Empire",
+          "author": "Günther Hölbl",
+          "note": "Routledge, 2001"
+        },
+        {
+          "title": "Geography",
+          "author": "Strabo",
+          "note": "Book 17, the coffin story"
+        },
+        {
+          "title": "Deipnosophistae (The Learned Banqueters)",
+          "author": "Athenaeus",
+          "note": "Quotes Posidonius"
+        },
+        {
+          "title": "Epitome of the Philippic History of Pompeius Trogus",
+          "author": "Justin",
+          "note": "Book 39"
+        }
+      ],
+      "review": {
+        "status": "draft",
+        "notes": "Drafted from the listed sources; needs a human fact-check."
+      }
+    },
+    {
+      "id": "ptolemy-ix-restored",
+      "kind": "monarch",
+      "rulers": [
+        "ptolemy-ix"
+      ],
+      "tagline": "Chickpea comes home and settles old scores",
+      "start": {
+        "date": "-0088",
+        "circa": true
+      },
+      "end": {
+        "date": "-0081",
+        "circa": true
+      },
+      "contestedWith": [],
+      "relationToPredecessor": "Elder brother of Ptolemy X",
+      "ageAtAccession": "About 55",
+      "cameToPower": "Recalled from Cyprus",
+      "reignEnded": "Died, leaving a daughter as queen",
+      "previously": "Ptolemy X is driven out of Alexandria and killed at sea.",
+      "paragraphs": [
+        "After nearly twenty years away, Ptolemy IX was back, and this time there was no mother to share the throne with. His first problem was the south. Thebes had risen in revolt, and it took his armies until 86 BC to crush it. By the time they were done, the old city of the pharaohs had been badly punished.",
+        "Rome was the other worry. In 86 BC the Roman commander Lucullus turned up asking for ships for Sulla's war against Mithridates of Pontus. Ptolemy laid on a lavish welcome, offered rich gifts and sent no ships. Meanwhile Mithridates had captured Ptolemy X's son on the island of Kos. The young man later got away and joined Sulla, which would matter very soon.",
+        "Ptolemy IX died late in 81 BC with no legitimate son. The throne passed to his daughter Berenice III, his brother Ptolemy X's widow."
+      ],
+      "claims": [
+        {
+          "text": "Thebes was left in ruins after the revolt.",
+          "status": "disputed",
+          "note": "Pausanias, writing over 200 years later, says the city was wrecked. How bad the damage really was is debated."
+        },
+        {
+          "text": "Ptolemy tried to win over Lucullus with gifts, including an emerald set in gold.",
+          "status": "disputed",
+          "note": "Only Plutarch's Life of Lucullus tells it, and he uses it to show off Lucullus's honesty."
+        },
+        {
+          "text": "Ptolemy X's son escaped from Mithridates and fled to Sulla.",
+          "status": "disputed",
+          "note": "Appian tells the story; the details of how and when he got away are unclear."
+        }
+      ],
+      "hook": "Berenice III rules alone, and Alexandria likes her. But Rome's dictator Sulla has a young Ptolemy in his camp, and he wants him on the throne.",
+      "images": [
+        {
+          "file": "File:Ptolemy IX cropped.JPG",
+          "url": "https://upload.wikimedia.org/wikipedia/commons/2/25/Ptolemy_IX_cropped.JPG",
+          "page": "https://commons.wikimedia.org/wiki/File:Ptolemy_IX_cropped.JPG",
+          "credit": "Rémih",
+          "license": "CC BY-SA 3.0",
+          "made": "Late 2nd or early 1st century BC",
+          "caption": "Ptolemy IX with the falcon god Horus on a wall of the temple at Edfu; Egyptian reliefs show kings in a fixed traditional style, not as true likenesses.",
+          "alt": "Carved wall relief of a pharaoh beside the falcon-headed god Horus"
+        }
+      ],
+      "sources": [
+        {
+          "title": "A History of the Ptolemaic Empire",
+          "author": "Günther Hölbl",
+          "note": "Routledge, 2001"
+        },
+        {
+          "title": "Life of Lucullus",
+          "author": "Plutarch"
+        },
+        {
+          "title": "Description of Greece",
+          "author": "Pausanias",
+          "note": "Book 1, the Theban revolt"
+        },
+        {
+          "title": "The Mithridatic Wars",
+          "author": "Appian"
+        }
+      ],
+      "review": {
+        "status": "draft",
+        "notes": "Drafted from the listed sources; needs a human fact-check."
+      }
+    },
+    {
+      "id": "berenice-iii-and-ptolemy-xi",
+      "kind": "monarch",
+      "rulers": [
+        "berenice-iii",
+        "ptolemy-xi"
+      ],
+      "title": "Berenice III and Ptolemy XI",
+      "tagline": "A wedding, a murder and a lynching in 19 days",
+      "start": {
+        "date": "-0081",
+        "circa": true
+      },
+      "end": {
+        "date": "-0080",
+        "circa": true
+      },
+      "contestedWith": [],
+      "relationToPredecessor": "Daughter of Ptolemy IX",
+      "ageAtAccession": "About 40",
+      "cameToPower": "Succeeded her father",
+      "reignEnded": "Murder, then a lynching",
+      "previously": "Ptolemy IX is dead, leaving his daughter Berenice III as queen.",
+      "paragraphs": [
+        "For about six months Berenice III ruled on her own, and by most accounts the Alexandrians liked her. Rome had other plans. The dictator Sulla had a Ptolemy to hand: Ptolemy XI, son of Ptolemy X, who had escaped to him from Mithridates. Sulla sent him to Egypt to marry Berenice and share the throne. She was his stepmother, and possibly his real mother.",
+        "The marriage lasted 19 days. Then Ptolemy XI had his new wife killed. He had badly misread the city. A furious crowd dragged him to the gymnasium and killed him there, in 80 BC. With him went the last legitimate male of the family. Alexandria needed a king, and the only Ptolemies left were illegitimate."
+      ],
+      "claims": [
+        {
+          "text": "Ptolemy XI was Berenice's stepson, not her son.",
+          "status": "disputed",
+          "note": "Most scholars think his mother was an earlier wife of Ptolemy X, but the ancient writers don't say clearly."
+        },
+        {
+          "text": "He had her killed just 19 days after the wedding.",
+          "status": "disputed",
+          "note": "Porphyry gives the 19 days; Appian tells of the murder and the lynching. Both wrote long afterwards."
+        },
+        {
+          "text": "Berenice was popular with the Alexandrians.",
+          "status": "disputed",
+          "note": "Porphyry says so. The furious reaction to her murder backs him up."
+        }
+      ],
+      "hook": "The royal line has run out. The Alexandrians find a son of Ptolemy IX whose mother nobody can name, and put him on the throne. Rome is watching.",
+      "images": [
+        {
+          "file": "File:Monnaie - Tétradrachme, Argent, Kition, Chypre, Ptolémée XI - btv1b85090537 (1 of 2).jpg",
+          "url": "https://upload.wikimedia.org/wikipedia/commons/b/b3/Monnaie_-_T%C3%A9tradrachme%2C_Argent%2C_Kition%2C_Chypre%2C_Ptol%C3%A9m%C3%A9e_XI_-_btv1b85090537_%281_of_2%29.jpg",
+          "page": "https://commons.wikimedia.org/wiki/File:Monnaie_-_T%C3%A9tradrachme,_Argent,_Kition,_Chypre,_Ptol%C3%A9m%C3%A9e_XI_-_btv1b85090537_(1_of_2).jpg",
+          "credit": "Bibliothèque nationale de France",
+          "license": "Public domain",
+          "made": "1st century BC",
+          "caption": "A silver coin from the Kition mint on Cyprus that the French national library assigns to Ptolemy XI. No portrait of him or of Berenice III is known, and this is not one.",
+          "alt": "One side of an ancient silver Ptolemaic four-drachma coin"
+        }
+      ],
+      "sources": [
+        {
+          "title": "A History of the Ptolemaic Empire",
+          "author": "Günther Hölbl",
+          "note": "Routledge, 2001"
+        },
+        {
+          "title": "The Civil Wars",
+          "author": "Appian",
+          "note": "Book 1"
+        },
+        {
+          "title": "Chronicle",
+          "author": "Eusebius of Caesarea",
+          "note": "Preserves Porphyry's account of the later Ptolemies"
+        }
+      ],
+      "review": {
+        "status": "draft",
+        "notes": "Drafted from the listed sources; needs a human fact-check."
+      }
+    },
+    {
+      "id": "ptolemy-xii",
+      "kind": "monarch",
+      "rulers": [
+        "ptolemy-xii"
+      ],
+      "tagline": "The flute-playing king who bought Rome's friendship",
+      "start": {
+        "date": "-0080",
+        "circa": true
+      },
+      "end": {
+        "date": "-0058",
+        "circa": true
+      },
+      "contestedWith": [],
+      "relationToPredecessor": "Illegitimate son of Ptolemy IX",
+      "ageAtAccession": "About 37",
+      "cameToPower": "Chosen by the Alexandrians",
+      "reignEnded": "Driven out by his own people",
+      "previously": "Ptolemy XI kills his bride and is lynched. The male line is gone.",
+      "paragraphs": [
+        "The new king was an illegitimate son of Ptolemy IX, and ancient writers called him “the bastard”. He styled himself the New Dionysus. Alexandrians called him Auletes, the flute-player, because he loved playing the pipes at festivals. His throne was shaky from day one. Rome kept talking about a will that left Egypt to the Roman people, and could take the country whenever it liked.",
+        "So Romans in Egypt were handled with great care. The historian Diodorus, visiting, watched a crowd lynch a Roman who had killed a cat by accident, while the king's men begged them to stop. In 59 BC Auletes bought Rome's recognition as a friend and ally from Julius Caesar and Pompey, for about 6,000 talents. He borrowed much of it from a Roman banker, Rabirius Postumus.",
+        "In 58 BC Rome annexed Cyprus, which his brother ruled as king, and the brother killed himself. Alexandria was furious with Auletes for doing nothing and threw him out. He set off for Rome to beg for help, calling on Cato on the way. Cato received him sitting on the toilet, having just taken a laxative."
+      ],
+      "claims": [
+        {
+          "text": "Cato received the King of Egypt while sitting on the toilet.",
+          "status": "legend",
+          "note": "Plutarch's Life of Cato tells it to show Cato's contempt for kings. A good story, and only one source."
+        },
+        {
+          "text": "Auletes paid about 6,000 talents for Rome's recognition.",
+          "status": "disputed",
+          "note": "Suetonius gives the figure, which may be rounded, but everyone agrees the bribes were enormous."
+        },
+        {
+          "text": "An Alexandrian mob lynched a Roman for killing a cat.",
+          "status": "confirmed",
+          "note": "Diodorus says he saw it himself while in Egypt. It's the only account, but there's no reason to doubt him."
+        }
+      ],
+      "hook": "Auletes is on his way to Rome. Back in Alexandria the people don't wait for him to return. They crown his eldest daughter, Berenice.",
+      "images": [
+        {
+          "file": "File:Ptolemy XII Auletes Louvre Ma3449.jpg",
+          "url": "https://upload.wikimedia.org/wikipedia/commons/d/da/Ptolemy_XII_Auletes_Louvre_Ma3449.jpg",
+          "page": "https://commons.wikimedia.org/wiki/File:Ptolemy_XII_Auletes_Louvre_Ma3449.jpg",
+          "credit": "Marie-Lan Nguyen",
+          "license": "Public domain",
+          "made": "1st century BC",
+          "caption": "Marble portrait in the Louvre identified as Ptolemy XII; the identification is widely accepted but not certain.",
+          "alt": "Marble sculpture of a man identified as Ptolemy XII, in the Louvre"
+        }
+      ],
+      "sources": [
+        {
+          "title": "A History of the Ptolemaic Empire",
+          "author": "Günther Hölbl",
+          "note": "Routledge, 2001"
+        },
+        {
+          "title": "Library of History",
+          "author": "Diodorus Siculus",
+          "note": "Book 1, the cat"
+        },
+        {
+          "title": "Life of Cato the Younger",
+          "author": "Plutarch"
+        },
+        {
+          "title": "Life of Julius Caesar",
+          "author": "Suetonius"
+        }
+      ],
+      "review": {
+        "status": "draft",
+        "notes": "Drafted from the listed sources; needs a human fact-check."
+      }
+    },
+    {
+      "id": "berenice-iv",
+      "kind": "monarch",
+      "rulers": [
+        "berenice-iv"
+      ],
+      "tagline": "The queen who strangled a husband and fought Rome",
+      "start": {
+        "date": "-0058",
+        "circa": true
+      },
+      "end": {
+        "date": "-0055",
+        "circa": true
+      },
+      "contestedWith": [],
+      "relationToPredecessor": "Eldest daughter of Ptolemy XII",
+      "ageAtAccession": "About 19",
+      "cameToPower": "Crowned by the Alexandrians",
+      "reignEnded": "Executed by her father",
+      "previously": "Alexandria throws out Auletes, who sails off to beg Rome for help.",
+      "paragraphs": [
+        "With the king gone, Alexandria made his eldest daughter queen. At first she shared the throne with a Cleopatra Tryphaena, who died about a year later. Nobody is sure whether Tryphaena was Auletes's wife or another daughter. In Italy, Auletes fought dirty. Alexandria sent a hundred envoys to argue against him, and they were attacked on the way. Their leader, Dio, was murdered in Rome.",
+        "A queen needed a husband. Berenice married a Seleucid prince the Alexandrians mocked as “the salt-fish dealer”, and had him strangled within days. Husband number two was Archelaus, who claimed to be a son of Mithridates the Great. He was at least a soldier, and he would need to be.",
+        "In 55 BC the Roman governor of Syria, Aulus Gabinius, marched on Egypt for a promised 10,000 talents. A young cavalry commander named Mark Antony took Pelusium. Archelaus died fighting, and Antony gave him a royal burial. Auletes was back in Alexandria, and he had his daughter put to death."
+      ],
+      "claims": [
+        {
+          "text": "Berenice had her first husband strangled within days of the wedding.",
+          "status": "disputed",
+          "note": "Strabo tells it, along with the Alexandrians' nickname for him. No other source adds detail."
+        },
+        {
+          "text": "Auletes was behind the attack on the embassy and Dio's murder.",
+          "status": "disputed",
+          "note": "Strabo and Cicero's speech Pro Caelio point the finger. Cicero was arguing a case, and nobody was convicted."
+        },
+        {
+          "text": "Gabinius was promised 10,000 talents to put Auletes back.",
+          "status": "disputed",
+          "note": "Cicero and Cassius Dio give the sum. Gabinius was later put on trial in Rome over the affair."
+        }
+      ],
+      "hook": "Auletes is home, with Roman soldiers at his back and a mountain of debt. One daughter is dead. The next, Cleopatra, is watching closely.",
+      "images": [
+        {
+          "file": "File:The Pylon of the Temple at Edfu (I).jpg",
+          "url": "https://upload.wikimedia.org/wikipedia/commons/1/16/The_Pylon_of_the_Temple_at_Edfu_(I).jpg",
+          "page": "https://commons.wikimedia.org/wiki/File:The_Pylon_of_the_Temple_at_Edfu_(I).jpg",
+          "credit": "isawnyu",
+          "license": "CC BY 2.0",
+          "made": "Completed c. 57 BC",
+          "caption": "The great gateway of the temple of Horus at Edfu, finished about 57 BC while Berenice ruled; its reliefs show her exiled father. No portrait of Berenice IV is known.",
+          "alt": "The huge stone gateway of the temple of Horus at Edfu, carved with reliefs"
+        }
+      ],
+      "sources": [
+        {
+          "title": "A History of the Ptolemaic Empire",
+          "author": "Günther Hölbl",
+          "note": "Routledge, 2001"
+        },
+        {
+          "title": "Geography",
+          "author": "Strabo",
+          "note": "Book 17"
+        },
+        {
+          "title": "Pro Caelio",
+          "author": "Cicero"
+        },
+        {
+          "title": "Life of Antony",
+          "author": "Plutarch"
+        }
+      ],
+      "review": {
+        "status": "draft",
+        "notes": "Drafted from the listed sources; needs a human fact-check."
+      }
+    },
+    {
+      "id": "ptolemy-xii-restored",
+      "kind": "monarch",
+      "rulers": [
+        "ptolemy-xii"
+      ],
+      "tagline": "Back on the throne, with Roman guards and Roman debts",
+      "start": {
+        "date": "-0055",
+        "circa": true
+      },
+      "end": {
+        "date": "-0051",
+        "circa": true
+      },
+      "contestedWith": [],
+      "relationToPredecessor": "Father of Berenice IV",
+      "ageAtAccession": "About 62",
+      "cameToPower": "Restored by a Roman army",
+      "reignEnded": "Died, naming Cleopatra his heir",
+      "previously": "Gabinius restores Auletes, who has his daughter Berenice executed.",
+      "paragraphs": [
+        "Auletes was king again, on Roman terms. Gabinius's soldiers stayed in Alexandria to guard him. These Gabiniani married local women, had families and soon behaved more like Alexandrians than Romans. Then there was the debt. His banker Rabirius Postumus became his finance minister to squeeze the money out of Egypt, until the Alexandrians hounded him out of the country.",
+        "Auletes also built like a proper pharaoh. Work began on the great temple of Hathor at Dendera, which still stands. He died early in 51 BC. His will named two heirs to rule together: his daughter Cleopatra, about 18, and his elder son Ptolemy, about 10. He asked the Roman people to see it carried out."
+      ],
+      "claims": [
+        {
+          "text": "The Roman troops left in Alexandria settled down and went native.",
+          "status": "confirmed",
+          "note": "Julius Caesar, who met them in battle in 48 BC, says they had married and had children there."
+        },
+        {
+          "text": "Rabirius Postumus was chased out of Egypt by the Alexandrians.",
+          "status": "disputed",
+          "note": "Our source is Cicero's speech defending Rabirius in court, which paints him as a victim."
+        },
+        {
+          "text": "Auletes put his heirs under the protection of the Roman people.",
+          "status": "confirmed",
+          "note": "Caesar describes the will in his Civil War and says a copy was sent to Rome, though he had his own reasons to stress it."
+        }
+      ],
+      "hook": "Auletes is dead. A brilliant 18-year-old and her 10-year-old brother must share a throne, and the boy's advisers have no intention of sharing anything.",
+      "images": [
+        {
+          "file": "File:The lower register of the western tower of the first pylon of the Temple of Isis showing Ptolemy XII beating a group of enemies of Egypt, Philae, Egypt (49828367438).jpg",
+          "url": "https://upload.wikimedia.org/wikipedia/commons/3/35/The_lower_register_of_the_western_tower_of_the_first_pylon_of_the_Temple_of_Isis_showing_Ptolemy_XII_beating_a_group_of_enemies_of_Egypt%2C_Philae%2C_Egypt_%2849828367438%29.jpg",
+          "page": "https://commons.wikimedia.org/wiki/File:The_lower_register_of_the_western_tower_of_the_first_pylon_of_the_Temple_of_Isis_showing_Ptolemy_XII_beating_a_group_of_enemies_of_Egypt,_Philae,_Egypt_(49828367438).jpg",
+          "credit": "Carole Raddato",
+          "license": "CC BY-SA 2.0",
+          "made": "1st century BC",
+          "caption": "Ptolemy XII striking Egypt's enemies on the gateway of the temple of Isis at Philae, in the traditional pharaoh's pose rather than a true likeness.",
+          "alt": "Giant stone relief of a pharaoh raising his arm to strike a group of kneeling enemies"
+        }
+      ],
+      "sources": [
+        {
+          "title": "A History of the Ptolemaic Empire",
+          "author": "Günther Hölbl",
+          "note": "Routledge, 2001"
+        },
+        {
+          "title": "The Civil War",
+          "author": "Julius Caesar",
+          "note": "Book 3"
+        },
+        {
+          "title": "Pro Rabirio Postumo",
+          "author": "Cicero"
+        }
+      ],
+      "review": {
+        "status": "draft",
+        "notes": "Drafted from the listed sources; needs a human fact-check."
+      }
+    },
+    {
+      "id": "cleopatra-vii",
+      "kind": "monarch",
+      "rulers": [
+        "cleopatra-vii"
+      ],
+      "tagline": "The last pharaoh, who gambled everything on Rome",
+      "start": {
+        "date": "-0051",
+        "circa": true
+      },
+      "end": {
+        "date": "-0030-08",
+        "circa": true
+      },
+      "contestedWith": [],
+      "relationToPredecessor": "Daughter of Ptolemy XII",
+      "ageAtAccession": "About 18",
+      "cameToPower": "Named in her father's will",
+      "reignEnded": "Suicide as Octavian took Alexandria",
+      "previously": "Auletes is dead, leaving Cleopatra and young Ptolemy XIII to share.",
+      "paragraphs": [
+        "Cleopatra was clever, ruthless and, unlike the rest of her family, spoke Egyptian. Her brother-husband Ptolemy XIII was a boy run by the eunuch Pothinus and the general Achillas, and they drove her out. In 48 BC Pompey fled to Egypt after losing to Caesar, and the boy-king's men stabbed him on the beach. Caesar arrived days later. Cleopatra had herself smuggled in to him, hidden in a bedding sack.",
+        "Caesar was besieged in the palace and ships burned in the harbour, but he won. Ptolemy XIII drowned in the Nile, and their sister Arsinoe IV, whom the army had made queen, was captured. Cleopatra now ruled with a younger brother, Ptolemy XIV, and had a son, Caesarion. She was living in Caesar's villa in Rome when he was murdered in 44 BC. Back home, Ptolemy XIV died, and Caesarion became her co-ruler.",
+        "In 41 BC Mark Antony summoned her to Tarsus, and she sailed up the river in a golden barge dressed as Aphrodite. They had three children, and in 34 BC Antony handed eastern lands to them. Rome declared war on her. At Actium in 31 BC she sailed away and Antony followed. In August 30 BC Octavian took Alexandria. Antony stabbed himself, and Cleopatra took her own life. She was the last of the pharaohs."
+      ],
+      "claims": [
+        {
+          "text": "She was smuggled to Caesar rolled up in a carpet.",
+          "status": "legend",
+          "note": "Plutarch says her friend Apollodorus carried her in a sack for bedding. The carpet is a modern retelling."
+        },
+        {
+          "text": "She died from the bite of an asp smuggled in a basket of figs.",
+          "status": "disputed",
+          "note": "Plutarch and Strabo both admit nobody really knew. Poison is the other explanation they give."
+        },
+        {
+          "text": "She dissolved a huge pearl in vinegar and drank it to win a bet with Antony.",
+          "status": "legend",
+          "note": "Pliny the Elder tells it. Vinegar weak enough to drink would take a very long time to dissolve a pearl."
+        }
+      ],
+      "images": [
+        {
+          "file": "File:Kleopatra-VII.-Altes-Museum-Berlin1.jpg",
+          "url": "https://upload.wikimedia.org/wikipedia/commons/3/3e/Kleopatra-VII.-Altes-Museum-Berlin1.jpg",
+          "page": "https://commons.wikimedia.org/wiki/File:Kleopatra-VII.-Altes-Museum-Berlin1.jpg",
+          "credit": "Louis le Grand",
+          "license": "Public domain",
+          "made": "c. 40 to 30 BC",
+          "caption": "The Berlin Cleopatra, a Roman marble portrait made in her lifetime and found in a villa on the Via Appia; now in the Altes Museum, Berlin.",
+          "alt": "Marble head of a woman with her hair in a bun, wearing a broad royal diadem band"
+        }
+      ],
+      "sources": [
+        {
+          "title": "Cleopatra: A Biography",
+          "author": "Duane W. Roller",
+          "note": "Oxford University Press, 2010"
+        },
+        {
+          "title": "Cleopatra: A Life",
+          "author": "Stacy Schiff",
+          "note": "2010"
+        },
+        {
+          "title": "Life of Antony",
+          "author": "Plutarch"
+        },
+        {
+          "title": "Roman History",
+          "author": "Cassius Dio",
+          "note": "Books 42 to 51"
+        }
+      ],
+      "review": {
+        "status": "draft",
+        "notes": "Drafted from the listed sources; needs a human fact-check."
+      }
+    }
+  ]
+}
