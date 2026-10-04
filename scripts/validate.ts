@@ -134,7 +134,8 @@ for (const name of readdirSync(dataDir).filter((f) => f.endsWith(".json"))) {
 
     const prev = c.reigns[i - 1];
     if (prev) {
-      if (key(g.start) < key(prev.start)) err(where, `out of order: starts before "${prev.id}"`);
+      // A rival's card may follow the winner's and rewind the clock; anything else must run forward.
+      if (key(g.start) < key(prev.start) && !g.contestedWith.includes(prev.id)) err(where, `out of order: starts before "${prev.id}"`);
       // A claimant's card sits beside the reign it challenged; overlap is the point.
       const claim = g.kind === "claimant" || prev.kind === "claimant";
       if (prev.end && key(g.start) < key(prev.end) && !g.contestedWith.includes(prev.id) && !claim)
@@ -149,7 +150,9 @@ for (const name of readdirSync(dataDir).filter((f) => f.endsWith(".json"))) {
 
     if (g.images.length === 0 && !c.fictional) err(where, "needs a portrait");
     for (const img of g.images)
-      if (!/public domain|^cc[ -]|^cc0$/i.test(img.license)) warn(where, `check license "${img.license}" on ${img.file}`);
+      // Free licences that only ask for credit or share-alike: Creative Commons, KOGL Type 1 (Korea),
+      // Free Art License, GFDL, and the European Parliament's reuse-with-credit terms.
+      if (!/public domain|^cc[ -]|^cc0$|^kogl type 1$|^fal$|^gfdl|^european parliament$/i.test(img.license)) warn(where, `check license "${img.license}" on ${img.file}`);
 
   });
 

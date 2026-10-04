@@ -475,10 +475,22 @@ const CATALOG = [
   { id: "sweden", name: "Sweden", short: "Sweden" },
   { id: "germany", name: "Prussia & Germany", short: "Germany" },
   { id: "hre", name: "Holy Roman Empire", short: "Holy Roman Empire" },
+  { id: "poland", name: "Poland", short: "Poland" },
+  { id: "hungary", name: "Hungary", short: "Hungary" },
+  { id: "byzantium", name: "Byzantine Empire", short: "Byzantium" },
+  { id: "ethiopia", name: "Ethiopia", short: "Ethiopia" },
+  { id: "korea", name: "Korea (Joseon)", short: "Korea" },
+  { id: "thailand", name: "Thailand", short: "Thailand" },
   { id: "rome", name: "Rome", short: "Rome" },
   { id: "westeros", name: "Westeros", short: "Westeros", fictional: true },
 ];
 const FLAGS = {
+  poland: `<svg class="flag" viewBox="0 0 30 20" preserveAspectRatio="none"><rect width="30" height="10" fill="#fff"/><rect y="10" width="30" height="10" fill="#dc143c"/></svg>`,
+  hungary: `<svg class="flag" viewBox="0 0 30 20" preserveAspectRatio="none"><rect width="30" height="6.67" fill="#ce2939"/><rect y="6.67" width="30" height="6.67" fill="#fff"/><rect y="13.33" width="30" height="6.67" fill="#477050"/></svg>`,
+  byzantium: `<svg class="flag" viewBox="0 0 30 20" preserveAspectRatio="none"><rect width="30" height="20" fill="#5b2a6e"/><rect x="13.5" y="3" width="3" height="14" fill="#e3b448"/><rect x="8" y="8.5" width="14" height="3" fill="#e3b448"/></svg>`,
+  ethiopia: `<svg class="flag" viewBox="0 0 30 20" preserveAspectRatio="none"><rect width="30" height="6.67" fill="#078930"/><rect y="6.67" width="30" height="6.67" fill="#fcdd09"/><rect y="13.33" width="30" height="6.67" fill="#da121a"/></svg>`,
+  korea: `<svg class="flag" viewBox="0 0 30 20" preserveAspectRatio="none"><rect width="30" height="20" fill="#fff"/><circle cx="15" cy="10" r="5" fill="#0047a0"/><path d="M10 10a5 5 0 0 1 10 0a2.5 2.5 0 0 1-5 0a2.5 2.5 0 0 0-5 0z" fill="#cd2e3a"/><g fill="#1a1a1a"><rect x="4" y="3" width="4" height="1"/><rect x="4" y="5" width="4" height="1"/><rect x="22" y="14" width="4" height="1"/><rect x="22" y="16" width="4" height="1"/><rect x="22" y="3" width="4" height="1"/><rect x="4" y="16" width="4" height="1"/></g></svg>`,
+  thailand: `<svg class="flag" viewBox="0 0 30 20" preserveAspectRatio="none"><rect width="30" height="20" fill="#a51931"/><rect y="3.33" width="30" height="13.33" fill="#f4f5f8"/><rect y="6.67" width="30" height="6.67" fill="#2d2a4a"/></svg>`,
   england: `<svg class="flag" viewBox="0 0 30 20" preserveAspectRatio="none"><rect width="30" height="20" fill="#fff"/><rect x="12.5" width="5" height="20" fill="#c8102e"/><rect y="7.5" width="30" height="5" fill="#c8102e"/></svg>`,
   spain: `<svg class="flag" viewBox="0 0 30 20" preserveAspectRatio="none"><rect width="30" height="20" fill="#aa151b"/><rect y="5" width="30" height="10" fill="#f1bf00"/></svg>`,
   france: `<svg class="flag" viewBox="0 0 30 20" preserveAspectRatio="none"><rect width="10" height="20" fill="#002654"/><rect x="10" width="10" height="20" fill="#fff"/><rect x="20" width="10" height="20" fill="#ce1126"/></svg>`,
@@ -794,7 +806,7 @@ function jumpTo(i) { show("read"); go(i, 0, true); }
 const ZOOMS = [2, 4, 8, 16, 32];          // px per year
 let zoom = 1;
 // Neighbours sit together: Rome, the British Isles, western Europe, Scandinavia, then east to Japan.
-const TL_ORDER = ["rome", "hre", "england", "scotland", "france", "netherlands", "spain", "portugal", "germany", "denmark", "norway", "sweden", "austria", "russia", "ottoman", "japan"];
+const TL_ORDER = ["rome", "byzantium", "hre", "england", "scotland", "france", "netherlands", "spain", "portugal", "germany", "denmark", "norway", "sweden", "poland", "austria", "hungary", "russia", "ottoman", "ethiopia", "thailand", "korea", "japan"];
 const TL_TOP = 44;                        // height of the sticky country headers
 let tlMarker = null;                      // astronomical year the reader tapped: a line across every column
 let tlFrame = null;                       // { t0, ppy, era } of the last drawing, for taps and zoom
@@ -819,10 +831,11 @@ function includeCurrent() {
   compare = [country, ...compare].slice(0, maxCompare());
 }
 function columnHTML(cid, t0, ppy, narrow) {
-  const W = WORLD[cid], y = t => (t - t0) * ppy;
+  // Story order can rewind (a rival's card follows the winner's), so lay out by start date.
+  const W = WORLD[cid], L = [...W.list].sort((a, b) => a.s - b.s), y = t => (t - t0) * ppy;
   const LABEL_H = narrow ? 34 : 40, LANE = narrow ? 14 : 18, BAR = narrow ? 10 : 12;
   // Lanes: each reign takes the leftmost lane free by its start, so a civil war splits into parallel lines.
-  const laneEnds = [], lanes = W.list.map(e => {
+  const laneEnds = [], lanes = L.map(e => {
     let k = laneEnds.findIndex(v => v <= e.s + 1 / 365);
     if (k < 0) k = laneEnds.length;
     laneEnds[k] = e.e;
@@ -830,7 +843,7 @@ function columnHTML(cid, t0, ppy, narrow) {
   });
   const labelX = BAR + (narrow ? 8 : 28) + Math.max(...lanes) * LANE;
   let labelBottom = -Infinity, labels = "", bars = "", leaders = "";
-  W.list.forEach((e, i) => {
+  L.forEach((e, i) => {
     const a = y(e.s), h = Math.max(y(e.e) - a - 1, 2), left = lanes[i] * LANE;
     const hs = e.g.rulers.length ? e.g.rulers.map(r => W.houses[W.rulers[r]?.house]) : [W.houses[e.g.house]];
     const xid = `${cid}.${e.g.id}`, nm = esc(e.name);
@@ -844,7 +857,7 @@ function columnHTML(cid, t0, ppy, narrow) {
       leaders += `<span class="leader" style="top:${a + 1}px;left:${x0}px;width:${Math.max(0, xv - x0)}px"></span>`;
       leaders += `<span class="leader-v" style="left:${xv}px;top:${a + 1}px;height:${top - a + 8}px"></span>`;
     }
-    const cur = cid === country && i === index;
+    const cur = cid === country && e.i === index;
     labels += `<button class="label" data-x="${xid}" aria-current="${cur}" style="top:${top}px"><strong>${nm}</strong><span>${span(e.g, W.data.era)}${narrow ? "" : ` · ${e.len}`}</span></button>`;
   });
   return { html: `<div class="tl-plot${narrow ? " narrow" : ""}" style="--label-x:${labelX}px">${leaders}${bars}${labels}</div>`, bottom: labelBottom };
