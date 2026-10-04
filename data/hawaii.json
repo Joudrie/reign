@@ -1,0 +1,761 @@
+{
+  "id": "hawaii",
+  "name": "Hawaiian Kingdom",
+  "blurb": "From Kamehameha the Great to the overthrow of Liliʻuokalani",
+  "dateConvention": "Dates are Gregorian; traditional Hawaiian dates are given as their standard Western equivalents. The kingdom is dated from 1795, when Kamehameha I won the Battle of Nuʻuanu; Kauaʻi accepted him in 1810.",
+  "epilogue": "A provisional government ruled, then the Republic of Hawaii (1894). The US annexed the islands in 1898 and made them a state in 1959. In 1993 Congress formally apologised for the American part in the overthrow.",
+  "houses": [
+    {
+      "id": "kamehameha",
+      "name": "Kamehameha",
+      "color": "#a8322d"
+    },
+    {
+      "id": "kalaimamahu",
+      "name": "Kalaimamahu",
+      "color": "#2f5d8a"
+    },
+    {
+      "id": "kalakaua",
+      "name": "Kalākaua",
+      "color": "#6b3d7a"
+    }
+  ],
+  "rulers": [
+    {
+      "id": "kamehameha-i",
+      "name": "Kamehameha I",
+      "epithet": "the Great",
+      "house": "kamehameha",
+      "born": {
+        "date": "1758",
+        "circa": true,
+        "note": "Kohala, Hawaiʻi island; year disputed, estimates run from 1736 to 1761"
+      },
+      "died": {
+        "date": "1819-05-08",
+        "note": "Kamakahonu, Kailua-Kona, Hawaiʻi island; sources give 8 or 14 May"
+      },
+      "causeOfDeath": "Illness in old age"
+    },
+    {
+      "id": "kamehameha-ii",
+      "name": "Kamehameha II",
+      "house": "kamehameha",
+      "born": {
+        "date": "1797-11",
+        "note": "Hilo, Hawaiʻi island"
+      },
+      "died": {
+        "date": "1824-07-14",
+        "note": "London"
+      },
+      "causeOfDeath": "Measles"
+    },
+    {
+      "id": "kamehameha-iii",
+      "name": "Kamehameha III",
+      "house": "kamehameha",
+      "born": {
+        "date": "1814-03-17",
+        "note": "Keauhou Bay, Kona, Hawaiʻi island"
+      },
+      "died": {
+        "date": "1854-12-15",
+        "note": "Honolulu"
+      },
+      "causeOfDeath": "Illness"
+    },
+    {
+      "id": "kamehameha-iv",
+      "name": "Kamehameha IV",
+      "house": "kamehameha",
+      "born": {
+        "date": "1834-02-09",
+        "note": "Honolulu"
+      },
+      "died": {
+        "date": "1863-11-30",
+        "note": "Honolulu"
+      },
+      "causeOfDeath": "Chronic asthma"
+    },
+    {
+      "id": "kamehameha-v",
+      "name": "Kamehameha V",
+      "house": "kamehameha",
+      "born": {
+        "date": "1830-12-11",
+        "note": "Honolulu"
+      },
+      "died": {
+        "date": "1872-12-11",
+        "note": "Honolulu"
+      },
+      "causeOfDeath": "Illness"
+    },
+    {
+      "id": "lunalilo",
+      "name": "Lunalilo",
+      "epithet": "the People's King",
+      "house": "kalaimamahu",
+      "born": {
+        "date": "1835-01-31",
+        "note": "Honolulu"
+      },
+      "died": {
+        "date": "1874-02-03",
+        "note": "Honolulu"
+      },
+      "causeOfDeath": "Tuberculosis"
+    },
+    {
+      "id": "kalakaua",
+      "name": "Kalākaua",
+      "epithet": "the Merrie Monarch",
+      "house": "kalakaua",
+      "born": {
+        "date": "1836-11-16",
+        "note": "Honolulu"
+      },
+      "died": {
+        "date": "1891-01-20",
+        "note": "Palace Hotel, San Francisco"
+      },
+      "causeOfDeath": "Bright's disease (kidney failure)"
+    },
+    {
+      "id": "liliuokalani",
+      "name": "Liliʻuokalani",
+      "house": "kalakaua",
+      "born": {
+        "date": "1838-09-02",
+        "note": "Honolulu"
+      },
+      "died": {
+        "date": "1917-11-11",
+        "note": "Washington Place, Honolulu"
+      },
+      "causeOfDeath": "Complications of a stroke"
+    }
+  ],
+  "reigns": [
+    {
+      "id": "kamehameha-i",
+      "kind": "monarch",
+      "rulers": [
+        "kamehameha-i"
+      ],
+      "tagline": "The warrior who forged the islands into one kingdom",
+      "start": {
+        "date": "1795-05"
+      },
+      "end": {
+        "date": "1819-05-08"
+      },
+      "contestedWith": [],
+      "relationToPredecessor": "Nephew of Kalaniʻōpuʻu",
+      "ageAtAccession": "About 37 (disputed)",
+      "cameToPower": "Conquest, sealed at Nuʻuanu",
+      "reignEnded": "Died at Kailua-Kona",
+      "previously": "Rival chiefs rule every island. Captain Cook comes, and dies there.",
+      "paragraphs": [
+        "Picture the islands in the 1770s. Hawaiʻi, Maui, Oʻahu and Kauaʻi each had their own ruling chiefs, and they were always at war. In January 1778 Captain Cook's ships turned up. In February 1779 Cook was killed in a fight at Kealakekua Bay on Hawaiʻi island. Watching the strangers was a tall young warrior named Paiʻea, raised at the court of his uncle Kalaniʻōpuʻu. We know him as Kamehameha.",
+        "When Kalaniʻōpuʻu died in 1782, the island passed to his son Kīwalaʻō. Kamehameha fought him at Mokuʻōhai, and Kīwalaʻō was killed. Then came years of war with a new edge: muskets, cannon, ships, and two British sailors, John Young and Isaac Davis, as advisers. In May 1795, at Nuʻuanu on Oʻahu, his army broke Kalanikūpule's warriors and drove them over the Pali cliffs. That victory made the kingdom.",
+        "Kauaʻi and Niʻihau held out. A 1796 invasion fleet was turned back by a storm, but in 1810 Kauaʻi's king Kaumualiʻi accepted him as overlord without a fight. Kamehameha ruled hard but fair, and his Law of the Splintered Paddle protected the old, women and children by the roadside. Beside him stood his favourite wife, the formidable Kaʻahumanu. He died at Kamakahonu, Kailua-Kona, in May 1819."
+      ],
+      "claims": [
+        {
+          "text": "As a young man he lifted the Naha Stone, which only the future unifier of the islands could move.",
+          "status": "legend",
+          "note": "A treasured story in Hawaiian tradition with no eyewitness record. The stone itself still sits in Hilo."
+        },
+        {
+          "text": "At Nuʻuanu over 700 of Kalanikūpule's warriors were driven over the Pali.",
+          "status": "disputed",
+          "note": "The rout over the cliffs is well attested, but nobody counted the dead; numbers vary widely between accounts."
+        },
+        {
+          "text": "His bones were hidden in a secret place and have never been found.",
+          "status": "confirmed",
+          "note": "Custom demanded it, to protect a high chief's mana. The few trusted men who hid them kept the secret."
+        }
+      ],
+      "hook": "The Great is dead and his son Liholiho is king. But Kaʻahumanu has an announcement: Kamehameha wanted her to share the power. And she has plans for the old gods.",
+      "images": [
+        {
+          "file": "File:Louis Choris (1795-1828) - Kamehameha, King of the Sandwich Islands by Louis Choris, (Russian), pen and watercolor.jpg",
+          "url": "https://upload.wikimedia.org/wikipedia/commons/5/5f/Louis_Choris_%281795-1828%29_-_Kamehameha%2C_King_of_the_Sandwich_Islands_by_Louis_Choris%2C_%28Russian%29%2C_pen_and_watercolor.jpg",
+          "page": "https://commons.wikimedia.org/wiki/File:Louis_Choris_(1795-1828)_-_Kamehameha,_King_of_the_Sandwich_Islands_by_Louis_Choris,_(Russian),_pen_and_watercolor.jpg",
+          "credit": "Louis Choris",
+          "license": "Public domain",
+          "made": "1816",
+          "caption": "Drawn from life in 1816 by Louis Choris, artist on a Russian expedition, three years before the king died.",
+          "alt": "Pen and watercolour portrait of an older Hawaiian man in a red vest and white shirt"
+        }
+      ],
+      "sources": [
+        {
+          "title": "Ruling Chiefs of Hawaii",
+          "author": "Samuel M. Kamakau",
+          "note": "Kamehameha Schools Press, 1961 (English translation of 1860s newspaper series)"
+        },
+        {
+          "title": "The Hawaiian Kingdom, Vol. 1: 1778–1854, Foundation and Transformation",
+          "author": "Ralph S. Kuykendall",
+          "note": "University of Hawaii Press, 1938"
+        },
+        {
+          "title": "Shoal of Time: A History of the Hawaiian Islands",
+          "author": "Gavan Daws",
+          "note": "Macmillan, 1968"
+        }
+      ],
+      "review": {
+        "status": "draft",
+        "notes": "Drafted from the listed sources; needs a human fact-check."
+      }
+    },
+    {
+      "id": "kamehameha-ii",
+      "kind": "monarch",
+      "rulers": [
+        "kamehameha-ii"
+      ],
+      "tagline": "The king who ate with women and toppled the gods",
+      "start": {
+        "date": "1819-05-20"
+      },
+      "end": {
+        "date": "1824-07-14"
+      },
+      "contestedWith": [],
+      "relationToPredecessor": "Son of Kamehameha I",
+      "ageAtAccession": "21",
+      "cameToPower": "Named heir by his father",
+      "reignEnded": "Measles in London",
+      "previously": "Kamehameha the Great dies in 1819. His bones vanish into hiding.",
+      "paragraphs": [
+        "Liholiho got the crown, but not the whole of the power. Kaʻahumanu declared that Kamehameha had wanted her to rule alongside his son, and she became kuhina nui, a kind of co-ruler. The young king's mother, Keōpūolani, was the highest-born chief in the islands. Both women had grown tired of the kapu, the web of sacred laws that governed daily life and kept men and women apart at meals.",
+        "About six months into the reign, Liholiho sat down and ate with Kaʻahumanu and Keōpūolani. Nothing struck him down, and the whole kapu system fell apart. Temples were torn down and images of the gods burned. His cousin Kekuaokalani took up arms for the old religion and died at the Battle of Kuamoʻo in December 1819. In 1820 the first American Protestant missionaries landed in a country with no official gods.",
+        "In 1823 he sailed for Britain with his favourite wife, Queen Kamāmalu, to meet George IV. In London the whole party caught measles before the meeting could happen. Kamāmalu died on 8 July 1824, and Liholiho six days later, aged 26. HMS Blonde, under Lord Byron, cousin of the poet, carried them home."
+      ],
+      "claims": [
+        {
+          "text": "He broke the eating kapu by sitting down to a meal with Kaʻahumanu and his mother Keōpūolani.",
+          "status": "confirmed",
+          "note": "Told by the Hawaiian historian Kamakau and recorded by foreigners in the islands at the time."
+        },
+        {
+          "text": "Kamehameha really wanted Kaʻahumanu to share power with his son.",
+          "status": "disputed",
+          "note": "We only have her word for it, announced after his death. It worked: nobody dared challenge her."
+        },
+        {
+          "text": "The king and queen both died of measles in London, six days apart.",
+          "status": "confirmed",
+          "note": "Their illness and deaths were widely reported in the London press at the time."
+        }
+      ],
+      "hook": "Back in the islands the new king is Liholiho's little brother Kauikeaouli. He is just ten years old, and the real power belongs to Kaʻahumanu.",
+      "images": [
+        {
+          "file": "File:Tamehameha 2d, His Majesty the King of the Sandwich Islands, drawn on stone from life by John Hayter.jpg",
+          "url": "https://upload.wikimedia.org/wikipedia/commons/6/67/Tamehameha_2d%2C_His_Majesty_the_King_of_the_Sandwich_Islands%2C_drawn_on_stone_from_life_by_John_Hayter.jpg",
+          "page": "https://commons.wikimedia.org/wiki/File:Tamehameha_2d,_His_Majesty_the_King_of_the_Sandwich_Islands,_drawn_on_stone_from_life_by_John_Hayter.jpg",
+          "credit": "John Hayter",
+          "license": "Public domain",
+          "made": "1824",
+          "caption": "Drawn from life by John Hayter in London in 1824, during the visit that killed him.",
+          "alt": "Hand-coloured lithograph of a young Hawaiian king, titled Tamehameha 2d, King of the Sandwich Islands"
+        }
+      ],
+      "sources": [
+        {
+          "title": "The Hawaiian Kingdom, Vol. 1: 1778–1854, Foundation and Transformation",
+          "author": "Ralph S. Kuykendall",
+          "note": "University of Hawaii Press, 1938"
+        },
+        {
+          "title": "Ruling Chiefs of Hawaii",
+          "author": "Samuel M. Kamakau",
+          "note": "Kamehameha Schools Press, 1961 (English translation of 1860s newspaper series)"
+        },
+        {
+          "title": "Shoal of Time: A History of the Hawaiian Islands",
+          "author": "Gavan Daws",
+          "note": "Macmillan, 1968"
+        }
+      ],
+      "review": {
+        "status": "draft",
+        "notes": "Drafted from the listed sources; needs a human fact-check."
+      }
+    },
+    {
+      "id": "kamehameha-iii",
+      "kind": "monarch",
+      "rulers": [
+        "kamehameha-iii"
+      ],
+      "tagline": "The boy king who lost his islands and got them back",
+      "start": {
+        "date": "1825-06-06"
+      },
+      "end": {
+        "date": "1854-12-15"
+      },
+      "contestedWith": [],
+      "relationToPredecessor": "Younger brother of Kamehameha II",
+      "ageAtAccession": "11",
+      "cameToPower": "Proclaimed after his brother died",
+      "reignEnded": "Died in Honolulu",
+      "previously": "Liholiho and his queen die of measles in London, six days apart.",
+      "paragraphs": [
+        "Kauikeaouli was proclaimed king on 6 June 1825, once news of his brother's death reached home. He was a child, so Kaʻahumanu ran the kingdom as kuhina nui until she died in 1832. She had become a Christian, and the missionaries' power grew with her. As a young man the king went through some wild, hard-drinking years, pulled between the chiefs who loved the old ways and the new church.",
+        "He grew into a reformer. A Declaration of Rights came in 1839 and Hawaiʻi's first constitution in 1840, making the kingdom a constitutional monarchy. In February 1843 a British captain, Lord George Paulet, seized the islands. On 31 July Admiral Richard Thomas gave them back. That day the king spoke the line that became Hawaiʻi's motto, and still is: “Ua mau ke ea o ka ʻāina i ka pono.”",
+        "In 1848 the Great Māhele divided the land between the king, the chiefs and the government, creating private ownership for the first time. From 1850 foreigners could buy land too, and over the following decades huge amounts passed into their hands. He moved the capital from Lahaina to Honolulu. After 29 years, the longest reign in the kingdom's history, he died on 15 December 1854, aged 40."
+      ],
+      "claims": [
+        {
+          "text": "“Ua mau ke ea o ka ʻāina i ka pono” (the sovereignty of the land is perpetuated in righteousness) were his words at the 1843 restoration.",
+          "status": "confirmed",
+          "note": "Recorded at the time; the line became the kingdom's motto and is still the motto of the state of Hawaiʻi."
+        },
+        {
+          "text": "Kaʻahumanu ruled the kingdom for the boy king and became a Christian.",
+          "status": "confirmed",
+          "note": "Her conversion and her rule as kuhina nui are well documented by missionaries and by Hawaiian historians."
+        },
+        {
+          "text": "The Māhele opened the door to foreign ownership of much of Hawaiʻi's land.",
+          "status": "confirmed",
+          "note": "Once foreigners could buy land in 1850, holdings shifted fast; historians from Kuykendall to Osorio trace the consequences."
+        }
+      ],
+      "hook": "He leaves no son. The crown goes to his nephew and adopted son Alexander Liholiho, just 20, who has already seen Europe and America and didn't like everything he saw.",
+      "images": [
+        {
+          "file": "File:Kamehameha III, daguerreotype, c. 1853.jpg",
+          "url": "https://upload.wikimedia.org/wikipedia/commons/6/65/Kamehameha_III%2C_daguerreotype%2C_c._1853.jpg",
+          "page": "https://commons.wikimedia.org/wiki/File:Kamehameha_III,_daguerreotype,_c._1853.jpg",
+          "credit": "Probably Hugo Stangenwald",
+          "license": "Public domain",
+          "made": "c. 1853",
+          "caption": "A daguerreotype taken around 1853, about a year before his death.",
+          "alt": "Small oval daguerreotype portrait of King Kamehameha III in a period case"
+        }
+      ],
+      "sources": [
+        {
+          "title": "The Hawaiian Kingdom, Vol. 1: 1778–1854, Foundation and Transformation",
+          "author": "Ralph S. Kuykendall",
+          "note": "University of Hawaii Press, 1938"
+        },
+        {
+          "title": "Dismembering Lāhui: A History of the Hawaiian Nation to 1887",
+          "author": "Jonathan Kay Kamakawiwoʻole Osorio",
+          "note": "University of Hawaiʻi Press, 2002"
+        },
+        {
+          "title": "Shoal of Time: A History of the Hawaiian Islands",
+          "author": "Gavan Daws",
+          "note": "Macmillan, 1968"
+        }
+      ],
+      "review": {
+        "status": "draft",
+        "notes": "Drafted from the listed sources; needs a human fact-check."
+      }
+    },
+    {
+      "id": "kamehameha-iv",
+      "kind": "monarch",
+      "rulers": [
+        "kamehameha-iv"
+      ],
+      "tagline": "The anglophile king undone by a gunshot and grief",
+      "start": {
+        "date": "1855-01-11"
+      },
+      "end": {
+        "date": "1863-11-30"
+      },
+      "contestedWith": [],
+      "relationToPredecessor": "Adopted son of Kamehameha III",
+      "ageAtAccession": "20",
+      "cameToPower": "Named heir by Kamehameha III",
+      "reignEnded": "Died at 29 of chronic asthma",
+      "previously": "Kamehameha III dies after 29 years, the kingdom's longest reign.",
+      "paragraphs": [
+        "Alexander Liholiho was a grandson of Kamehameha I through his mother Kīnaʻu, adopted as heir by his uncle the king. In 1849 and 1850, as a teenager, he toured America and Europe. In the US a train conductor tried to throw him out of his carriage because of the colour of his skin. He never forgot it. He came home wary of the Americans and fond of the British.",
+        "In 1856 he married Emma Rooke, a great-grandniece of Kamehameha I. Foreign diseases were killing Hawaiians in terrible numbers, and the couple founded the Queen's Hospital in Honolulu, today the Queen's Medical Center. He brought in the Anglican Church and translated the Book of Common Prayer into Hawaiian.",
+        "Then it went wrong. In September 1859 he shot his secretary and friend Henry Neilson. Neilson lingered for two years before he died, and the king was eaten up by guilt. In August 1862 his only child, four-year-old Prince Albert, fell ill and died. The king followed on 30 November 1863, aged just 29."
+      ],
+      "claims": [
+        {
+          "text": "He shot Neilson because he believed gossip about Neilson and Queen Emma.",
+          "status": "disputed",
+          "note": "The shooting is certain. The motive rests on talk at the time, and nothing suggests the rumours were true."
+        },
+        {
+          "text": "Prince Albert fell ill after his father put him under a cold shower in a temper.",
+          "status": "legend",
+          "note": "A later story. The boy's illness was never identified; at the time it was called brain fever, perhaps meningitis."
+        },
+        {
+          "text": "Grief for his son killed him.",
+          "status": "disputed",
+          "note": "The recorded cause is chronic asthma. Many accounts say grief broke him, which is impossible to prove."
+        }
+      ],
+      "hook": "No son and no named heir. The throne goes to the king's older brother Lot, a big, stubborn man who thinks the crown has given away far too much.",
+      "images": [
+        {
+          "file": "File:Kamehameha IV, photograph by Menzies Dickson (PP-97-8-004).jpg",
+          "url": "https://upload.wikimedia.org/wikipedia/commons/f/f9/Kamehameha_IV%2C_photograph_by_Menzies_Dickson_%28PP-97-8-004%29.jpg",
+          "page": "https://commons.wikimedia.org/wiki/File:Kamehameha_IV,_photograph_by_Menzies_Dickson_(PP-97-8-004).jpg",
+          "credit": "Menzies Dickson",
+          "license": "Public domain",
+          "made": "c. 1855–1863",
+          "caption": "A studio photograph by Menzies Dickson, taken during his reign.",
+          "alt": "Black-and-white photograph of King Kamehameha IV"
+        }
+      ],
+      "sources": [
+        {
+          "title": "The Hawaiian Kingdom, Vol. 2: 1854–1874, Twenty Critical Years",
+          "author": "Ralph S. Kuykendall",
+          "note": "University of Hawaii Press, 1953"
+        },
+        {
+          "title": "Shoal of Time: A History of the Hawaiian Islands",
+          "author": "Gavan Daws",
+          "note": "Macmillan, 1968"
+        },
+        {
+          "title": "The Journal of Prince Alexander Liholiho",
+          "author": "Alexander Liholiho, ed. Jacob Adler",
+          "note": "University of Hawaii Press, 1967; his diary of the 1849–1850 tour"
+        }
+      ],
+      "review": {
+        "status": "draft",
+        "notes": "Drafted from the listed sources; needs a human fact-check."
+      }
+    },
+    {
+      "id": "kamehameha-v",
+      "kind": "monarch",
+      "rulers": [
+        "kamehameha-v"
+      ],
+      "tagline": "Steadfast, stubborn, and the last Kamehameha king",
+      "start": {
+        "date": "1863-11-30"
+      },
+      "end": {
+        "date": "1872-12-11"
+      },
+      "contestedWith": [],
+      "relationToPredecessor": "Older brother of Kamehameha IV",
+      "ageAtAccession": "32",
+      "cameToPower": "Succeeded his brother",
+      "reignEnded": "Died on his 42nd birthday",
+      "previously": "Kamehameha IV dies at 29, a year after his little son.",
+      "paragraphs": [
+        "Lot Kapuāiwa was a big, proud man of the old style, often called the last great chief of the traditional kind. His motto was “Onipaʻa”: steadfast. He thought the 1852 constitution had stripped the crown of too much power, and he flatly refused to swear an oath to it.",
+        "So in 1864 he issued a new constitution of his own. It made the crown stronger and brought in property and literacy tests for voters. In private life he was once engaged to the high chief Bernice Pauahi, but she married the American Charles Reed Bishop instead. Lot never married at all.",
+        "He died on 11 December 1872, his 42nd birthday. On his deathbed he offered the throne to Pauahi. She turned it down, and he named nobody else. With him, the Kamehameha line on the throne came to an end."
+      ],
+      "claims": [
+        {
+          "text": "He refused to swear to the 1852 constitution and replaced it with his own in 1864.",
+          "status": "confirmed",
+          "note": "A matter of public record, told in detail by Kuykendall."
+        },
+        {
+          "text": "On his deathbed he offered the throne to Bernice Pauahi, and she refused.",
+          "status": "confirmed",
+          "note": "Reported by people present at his bedside."
+        },
+        {
+          "text": "He said, “It is hard to die on my birthday.”",
+          "status": "disputed",
+          "note": "Quoted by his biographers. Deathbed lines like this are rarely written down on the spot."
+        }
+      ],
+      "hook": "No king, no heir, and no Kamehameha left to take it. For the first time the kingdom has to elect its monarch, and two high chiefs want the job.",
+      "images": [
+        {
+          "file": "File:Kamehameha V in chair, photograph by Charles L. Weed (PP-97-9-008).jpg",
+          "url": "https://upload.wikimedia.org/wikipedia/commons/d/d2/Kamehameha_V_in_chair%2C_photograph_by_Charles_L._Weed_%28PP-97-9-008%29.jpg",
+          "page": "https://commons.wikimedia.org/wiki/File:Kamehameha_V_in_chair,_photograph_by_Charles_L._Weed_(PP-97-9-008).jpg",
+          "credit": "Charles Leander Weed",
+          "license": "Public domain",
+          "made": "1865",
+          "caption": "Photographed by Charles L. Weed in 1865, two years into his reign.",
+          "alt": "Black-and-white photograph of King Kamehameha V seated in a chair"
+        }
+      ],
+      "sources": [
+        {
+          "title": "The Hawaiian Kingdom, Vol. 2: 1854–1874, Twenty Critical Years",
+          "author": "Ralph S. Kuykendall",
+          "note": "University of Hawaii Press, 1953"
+        },
+        {
+          "title": "Shoal of Time: A History of the Hawaiian Islands",
+          "author": "Gavan Daws",
+          "note": "Macmillan, 1968"
+        },
+        {
+          "title": "Dismembering Lāhui: A History of the Hawaiian Nation to 1887",
+          "author": "Jonathan Kay Kamakawiwoʻole Osorio",
+          "note": "University of Hawaiʻi Press, 2002"
+        }
+      ],
+      "review": {
+        "status": "draft",
+        "notes": "Drafted from the listed sources; needs a human fact-check."
+      }
+    },
+    {
+      "id": "lunalilo",
+      "kind": "monarch",
+      "rulers": [
+        "lunalilo"
+      ],
+      "tagline": "The people's choice, gone in just over a year",
+      "start": {
+        "date": "1873-01-08"
+      },
+      "end": {
+        "date": "1874-02-03"
+      },
+      "contestedWith": [],
+      "relationToPredecessor": "Grandnephew of Kamehameha I",
+      "ageAtAccession": "37",
+      "cameToPower": "Elected by people and legislature",
+      "reignEnded": "Tuberculosis, aged 39",
+      "previously": "Kamehameha V dies on his birthday, naming no heir.",
+      "paragraphs": [
+        "William Charles Lunalilo was a grandnephew of Kamehameha I through his mother Kekāuluohi. His rival for the empty throne was the high chief David Kalākaua. A popular vote on 1 January 1873 went to Lunalilo by a landslide. On 8 January the legislature elected him unanimously. Hawaiʻi had its first elected king.",
+        "He was warm, witty and liberal, and wanted ordinary Hawaiians to have more say. But his reign was short and shaky. In 1873 the small royal army mutinied, and he got rid of it. He drank heavily. In August a cold turned into tuberculosis. He died on 3 February 1874, aged 39, after barely a year, naming no heir.",
+        "He refused a place in the Royal Mausoleum. He wanted to lie among his people, so he was buried in a tomb at Kawaiahaʻo Church. He left his lands to found the Lunalilo Home for poor and elderly Hawaiians, which still runs today."
+      ],
+      "claims": [
+        {
+          "text": "By birth Lunalilo outranked the Kamehameha kings themselves.",
+          "status": "disputed",
+          "note": "A common view based on his genealogy, but chiefly rank was reckoned in complex ways and not everyone agrees."
+        },
+        {
+          "text": "After the 1873 mutiny he disbanded the army for good.",
+          "status": "disputed",
+          "note": "He dissolved the Household Troops; accounts differ on how complete that was."
+        },
+        {
+          "text": "He chose burial among his people at Kawaiahaʻo Church over the Royal Mausoleum.",
+          "status": "confirmed",
+          "note": "His wishes are on record, and his tomb still stands in the churchyard."
+        }
+      ],
+      "hook": "Another empty throne, another election. Kalākaua is back for a second try, and this time his rival is Queen Emma, widow of Kamehameha IV.",
+      "images": [
+        {
+          "file": "File:Lunalilo, photograph by Menzies Dickson, Mission Houses Museum Archives.jpg",
+          "url": "https://upload.wikimedia.org/wikipedia/commons/6/67/Lunalilo%2C_photograph_by_Menzies_Dickson%2C_Mission_Houses_Museum_Archives.jpg",
+          "page": "https://commons.wikimedia.org/wiki/File:Lunalilo,_photograph_by_Menzies_Dickson,_Mission_Houses_Museum_Archives.jpg",
+          "credit": "Menzies Dickson",
+          "license": "Public domain",
+          "made": "1872–1874",
+          "caption": "A studio photograph by Menzies Dickson from around the time of his reign.",
+          "alt": "Black-and-white photograph of Lunalilo"
+        }
+      ],
+      "sources": [
+        {
+          "title": "The Hawaiian Kingdom, Vol. 2: 1854–1874, Twenty Critical Years",
+          "author": "Ralph S. Kuykendall",
+          "note": "University of Hawaii Press, 1953"
+        },
+        {
+          "title": "Shoal of Time: A History of the Hawaiian Islands",
+          "author": "Gavan Daws",
+          "note": "Macmillan, 1968"
+        },
+        {
+          "title": "Dismembering Lāhui: A History of the Hawaiian Nation to 1887",
+          "author": "Jonathan Kay Kamakawiwoʻole Osorio",
+          "note": "University of Hawaiʻi Press, 2002"
+        }
+      ],
+      "review": {
+        "status": "draft",
+        "notes": "Drafted from the listed sources; needs a human fact-check."
+      }
+    },
+    {
+      "id": "kalakaua",
+      "kind": "monarch",
+      "rulers": [
+        "kalakaua"
+      ],
+      "tagline": "The Merrie Monarch who brought back the hula",
+      "start": {
+        "date": "1874-02-12"
+      },
+      "end": {
+        "date": "1891-01-20"
+      },
+      "contestedWith": [],
+      "relationToPredecessor": "His old rival for the throne",
+      "ageAtAccession": "37",
+      "cameToPower": "Elected by the legislature over Emma",
+      "reignEnded": "Died in San Francisco",
+      "previously": "Lunalilo dies after barely a year, naming no heir.",
+      "paragraphs": [
+        "The legislature chose David Kalākaua over Queen Emma. Her supporters rioted at the courthouse, and US and British troops came ashore to restore order. In 1875 he signed the Reciprocity Treaty, letting Hawaiian sugar into the US duty-free. Sugar boomed, and the planters, many of them American, got rich and powerful.",
+        "Kalākaua loved a show. In 1881 he became the first reigning monarch to travel around the world. He built ʻIolani Palace, crowned himself there in 1883 and had it lit by electricity in 1886. He brought the hula back into public life after decades of missionary disapproval and published the Kumulipo creation chant. Hilo's Merrie Monarch Festival is named after him.",
+        "He also spent and borrowed heavily. In July 1887 the Hawaiian League, mostly American and European businessmen with an armed militia, forced on him the Bayonet Constitution. It stripped him of most of his power, used property tests to shut most Native Hawaiians out of voting for the upper house, and denied Asians the vote altogether. The US got Pearl Harbor. In 1891 he died in San Francisco of Bright's disease."
+      ],
+      "claims": [
+        {
+          "text": "His last words were “Tell my people I tried.”",
+          "status": "legend",
+          "note": "Invented by the novelist Eugene Burns in 1952. No account from 1891 records them."
+        },
+        {
+          "text": "ʻIolani Palace had electric light before the White House.",
+          "status": "confirmed",
+          "note": "The palace was lit in 1886; the White House got electric wiring in 1891."
+        },
+        {
+          "text": "Honolulu, decorated for his homecoming, learned of his death when the USS Charleston came in draped in black.",
+          "status": "disputed",
+          "note": "The news did arrive with the ship; details of the decorations and the black drapes vary between accounts."
+        }
+      ],
+      "hook": "The ship that was meant to bring the king home brings his body. His sister Liliʻuokalani is queen now, and she wants the crown's power back.",
+      "images": [
+        {
+          "file": "File:Kalakaua, photograph by J. J. Williams, Manu Antiques.jpg",
+          "url": "https://upload.wikimedia.org/wikipedia/commons/5/5e/Kalakaua%2C_photograph_by_J._J._Williams%2C_Manu_Antiques.jpg",
+          "page": "https://commons.wikimedia.org/wiki/File:Kalakaua,_photograph_by_J._J._Williams,_Manu_Antiques.jpg",
+          "credit": "James J. Williams",
+          "license": "Public domain",
+          "made": "1880s",
+          "caption": "A cabinet-card photograph by J. J. Williams of Honolulu, taken during his reign.",
+          "alt": "Black-and-white cabinet-card photograph of King Kalākaua"
+        }
+      ],
+      "sources": [
+        {
+          "title": "The Hawaiian Kingdom, Vol. 3: 1874–1893, The Kalakaua Dynasty",
+          "author": "Ralph S. Kuykendall",
+          "note": "University of Hawaii Press, 1967"
+        },
+        {
+          "title": "Shoal of Time: A History of the Hawaiian Islands",
+          "author": "Gavan Daws",
+          "note": "Macmillan, 1968"
+        },
+        {
+          "title": "Dismembering Lāhui: A History of the Hawaiian Nation to 1887",
+          "author": "Jonathan Kay Kamakawiwoʻole Osorio",
+          "note": "University of Hawaiʻi Press, 2002"
+        },
+        {
+          "title": "Aloha Betrayed: Native Hawaiian Resistance to American Colonialism",
+          "author": "Noenoe K. Silva",
+          "note": "Duke University Press, 2004"
+        }
+      ],
+      "review": {
+        "status": "draft",
+        "notes": "Drafted from the listed sources; needs a human fact-check."
+      }
+    },
+    {
+      "id": "liliuokalani",
+      "kind": "monarch",
+      "rulers": [
+        "liliuokalani"
+      ],
+      "tagline": "The last monarch, overthrown with US troops ashore",
+      "start": {
+        "date": "1891-01-29"
+      },
+      "end": {
+        "date": "1893-01-17"
+      },
+      "contestedWith": [],
+      "relationToPredecessor": "Sister of Kalākaua",
+      "ageAtAccession": "52",
+      "cameToPower": "Heir since 1877",
+      "reignEnded": "Overthrown with US troops' backing",
+      "previously": "Kalākaua dies in San Francisco; the ship brings home his body.",
+      "paragraphs": [
+        "Born Lydia Kamakaʻeha, Liliʻuokalani had been heir since 1877 and ruled as regent while her brother toured the world. In 1887 she went to London for Queen Victoria's Golden Jubilee. She was a gifted composer whose many songs include “Aloha ʻOe”. As Hawaiʻi's only reigning queen, she set out to undo the Bayonet Constitution and give Native Hawaiians back their vote.",
+        "In January 1893 she moved to proclaim a new constitution. A Committee of Safety, 13 men led by the lawyer Lorrin Thurston and mostly American or of American parentage, plotted to remove her. On 16 January the US minister John L. Stevens had Marines and sailors from USS Boston landed in Honolulu. The next day the committee proclaimed a provisional government under Sanford Dole.",
+        "The queen yielded “to the superior force of the United States of America” to avoid bloodshed, expecting the US to restore her. President Cleveland's investigator James Blount found US officials had abused their power, but the new rulers refused to give her back the throne. In 1895, after a failed royalist rising, she abdicated. The US annexed the islands in 1898, and in 1993 Congress formally apologised."
+      ],
+      "claims": [
+        {
+          "text": "She yielded “to the superior force of the United States of America”, expecting the US to put her back on the throne.",
+          "status": "confirmed",
+          "note": "Her own written protest of 17 January 1893 says so in those words."
+        },
+        {
+          "text": "She said the men who overthrew her should be beheaded.",
+          "status": "disputed",
+          "note": "Reported by the US minister Albert Willis after their 1893 meeting. She later disputed his account."
+        },
+        {
+          "text": "She signed her abdication in 1895 to save supporters who had been sentenced to death.",
+          "status": "confirmed",
+          "note": "She tells it in Hawaii's Story by Hawaii's Queen (1898); she was being held in an upstairs room of ʻIolani Palace at the time."
+        }
+      ],
+      "images": [
+        {
+          "file": "File:Liliuokalani, c. 1891.jpg",
+          "url": "https://upload.wikimedia.org/wikipedia/commons/6/64/Liliuokalani%2C_c._1891.jpg",
+          "page": "https://commons.wikimedia.org/wiki/File:Liliuokalani,_c._1891.jpg",
+          "credit": "James J. Williams",
+          "license": "Public domain",
+          "made": "c. 1891",
+          "caption": "A signed photograph from around the time she became queen.",
+          "alt": "Sepia photograph of Queen Liliʻuokalani, signed by her"
+        }
+      ],
+      "sources": [
+        {
+          "title": "Hawaii's Story by Hawaii's Queen",
+          "author": "Liliʻuokalani",
+          "note": "Lee and Shepard, Boston, 1898"
+        },
+        {
+          "title": "Report of the U.S. Special Commissioner to the Hawaiian Islands (the Blount Report)",
+          "author": "James H. Blount",
+          "note": "1893"
+        },
+        {
+          "title": "Aloha Betrayed: Native Hawaiian Resistance to American Colonialism",
+          "author": "Noenoe K. Silva",
+          "note": "Duke University Press, 2004"
+        },
+        {
+          "title": "Public Law 103-150 (the Apology Resolution)",
+          "author": "United States Congress",
+          "note": "1993"
+        }
+      ],
+      "review": {
+        "status": "draft",
+        "notes": "Drafted from the listed sources; needs a human fact-check."
+      }
+    }
+  ]
+}
