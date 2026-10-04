@@ -473,6 +473,8 @@ const CATALOG = [
   { id: "denmark", name: "Denmark", short: "Denmark" },
   { id: "norway", name: "Norway", short: "Norway" },
   { id: "sweden", name: "Sweden", short: "Sweden" },
+  { id: "germany", name: "Prussia & Germany", short: "Germany" },
+  { id: "hre", name: "Holy Roman Empire", short: "Holy Roman Empire" },
   { id: "rome", name: "Rome", short: "Rome" },
   { id: "westeros", name: "Westeros", short: "Westeros", fictional: true },
 ];
@@ -491,6 +493,8 @@ const FLAGS = {
   denmark: `<svg class="flag" viewBox="0 0 37 28" preserveAspectRatio="none"><rect width="37" height="28" fill="#c8102e"/><rect x="12" width="4" height="28" fill="#fff"/><rect y="12" width="37" height="4" fill="#fff"/></svg>`,
   norway: `<svg class="flag" viewBox="0 0 22 16" preserveAspectRatio="none"><rect width="22" height="16" fill="#ba0c2f"/><rect x="6" width="4" height="16" fill="#fff"/><rect y="6" width="22" height="4" fill="#fff"/><rect x="7" width="2" height="16" fill="#00205b"/><rect y="7" width="22" height="2" fill="#00205b"/></svg>`,
   netherlands: `<svg class="flag" viewBox="0 0 9 6" preserveAspectRatio="none"><rect width="9" height="6" fill="#fff"/><rect width="9" height="2" fill="#ae1c28"/><rect y="4" width="9" height="2" fill="#21468b"/></svg>`,
+  germany: `<svg class="flag" viewBox="0 0 5 3" preserveAspectRatio="none"><rect width="5" height="3" fill="#ffce00"/><rect width="5" height="2" fill="#dd0000"/><rect width="5" height="1" fill="#000"/></svg>`,
+  hre: `<svg class="flag" viewBox="0 0 30 20" preserveAspectRatio="none"><rect width="30" height="20" fill="#f1bf00"/><g fill="#1a1a1a"><circle cx="15" cy="7" r="2.2"/><path d="M15 9.2c-1.6 0-2.4 1.2-2.4 2.8v3.5h4.8V12c0-1.6-.8-2.8-2.4-2.8z"/><path d="M12.6 10.5L5 7.5l1.2 2.2L3.5 10l3.4 1.6-1.6 1.6 7.3-1.1zM17.4 10.5L25 7.5l-1.2 2.2 2.7.3-3.4 1.6 1.6 1.6-7.3-1.1z"/><path d="M13.6 15.5l-1.4 2.5h1.6l1.2-2.5zM16.4 15.5l1.4 2.5h-1.6l-1.2-2.5z"/></g></svg>`,
   japan: `<svg class="flag" viewBox="0 0 30 20" preserveAspectRatio="none"><rect width="30" height="20" fill="#fff"/><circle cx="15" cy="10" r="6" fill="#bc002d"/></svg>`,
 };
 
@@ -540,7 +544,36 @@ const houseLabel = g => {
   const names = hs.map(h => esc(h.name)).join(" & ");
   return g.kind === "interregnum" || hs.every(h => h.plain) ? names : `House of ${names}`;
 };
-const img = g => `img/${country}/${g.id}.jpg`;
+const img = g => `${country}/${g.id}`;
+/* Portraits ship packed in a few tall sheets per country (the host caps the file count).
+   PICS[cid][reignId] = [sheet, y, w, h]; an <img data-pic="cid/reignId"> is filled with its
+   cut-out once it nears the screen, and each sheet and cut-out is fetched only once. */
+const PICS = /*PICS*/null;
+const SHEETS = new Map(), CUTS = new Map();
+const loadSheet = url => {
+  if (!SHEETS.has(url)) SHEETS.set(url, new Promise((ok, no) => { const i = new Image(); i.onload = () => ok(i); i.onerror = no; i.src = url; }));
+  return SHEETS.get(url);
+};
+function cutOut(key) {
+  if (CUTS.has(key)) return CUTS.get(key);
+  const [cid, rid] = key.split("/"), at = PICS[cid]?.[rid];
+  if (!at) return Promise.reject(new Error(`no portrait ${key}`));
+  const [n, y, w, h] = at;
+  const job = loadSheet(`sheets/${cid}-${n}.jpg`).then(sheet => new Promise(ok => {
+    const cv = document.createElement("canvas");
+    cv.width = w; cv.height = h;
+    cv.getContext("2d").drawImage(sheet, 0, y, w, h, 0, 0, w, h);
+    cv.toBlob(b => ok(URL.createObjectURL(b)), "image/jpeg", 0.92);
+  }));
+  CUTS.set(key, job);
+  return job;
+}
+const fillPic = im => { const k = im.dataset.pic; im.removeAttribute("data-pic"); cutOut(k).then(u => (im.src = u), () => {}); };
+const picSeen = new IntersectionObserver(es => es.forEach(e => { if (e.isIntersecting) { picSeen.unobserve(e.target); fillPic(e.target); } }), { rootMargin: "400px" });
+new MutationObserver(ms => ms.forEach(m => m.addedNodes.forEach(n => {
+  if (n.nodeType !== 1) return;
+  (n.matches("img[data-pic]") ? [n] : n.querySelectorAll("img[data-pic]")).forEach(im => picSeen.observe(im));
+}))).observe(document.documentElement, { childList: true, subtree: true });
 /** Fictional worlds have no free-licence portraits: draw the ruler's house banner with their initial instead. */
 const initial = g => reignName(g).replace(/^(The|King|Queen)\s+/, "")[0];
 const banner = g => {
@@ -640,7 +673,7 @@ function render() {
 function loadNear(i) {
   for (let k = Math.max(0, i - 2); k <= Math.min(N - 1, i + 2); k++) {
     const im = cards[k].querySelector("img[data-src]");
-    if (im) { im.src = im.dataset.src; im.removeAttribute("data-src"); }
+    if (im) { im.dataset.pic = im.dataset.src; im.removeAttribute("data-src"); fillPic(im); }
   }
 }
 function setIndex(i) {
@@ -761,7 +794,7 @@ function jumpTo(i) { show("read"); go(i, 0, true); }
 const ZOOMS = [2, 4, 8, 16, 32];          // px per year
 let zoom = 1;
 // Neighbours sit together: Rome, the British Isles, western Europe, Scandinavia, then east to Japan.
-const TL_ORDER = ["rome", "england", "scotland", "france", "netherlands", "spain", "portugal", "denmark", "norway", "sweden", "austria", "russia", "ottoman", "japan"];
+const TL_ORDER = ["rome", "hre", "england", "scotland", "france", "netherlands", "spain", "portugal", "germany", "denmark", "norway", "sweden", "austria", "russia", "ottoman", "japan"];
 const TL_TOP = 44;                        // height of the sticky country headers
 let tlMarker = null;                      // astronomical year the reader tapped: a line across every column
 let tlFrame = null;                       // { t0, ppy, era } of the last drawing, for taps and zoom
@@ -930,7 +963,7 @@ function renderResults() {
     : `All ${N} reigns, in order`;
   document.getElementById("results").innerHTML = hits.length
     ? hits.map(i => { const g = reigns[i]; return `<li><button data-jump="${i}">
-        ${g.images.length ? `<img src="${img(g)}" alt="" loading="lazy">` : `<span class="mini-banner" style="background:${reignHouses(g)[0]?.color}">${esc(initial(g))}</span>`}
+        ${g.images.length ? `<img data-pic="${img(g)}" alt="">` : `<span class="mini-banner" style="background:${reignHouses(g)[0]?.color}">${esc(initial(g))}</span>`}
         <span class="meta"><strong>${esc(reignName(g))}</strong><span>${span(g)} · ${houseLabel(g)}</span></span>
       </button></li>`; }).join("")
     : `<li class="empty">No rulers match “${esc(q.value.trim())}”. Try a name like Henry, a house like Tudor, or a year like 1483.</li>`;
@@ -1020,7 +1053,7 @@ const WORLD = Object.fromEntries(Object.entries(ALL).map(([cid, d]) => {
 const cname = cid => meta(cid)?.short ?? meta(cid)?.name ?? ALL[cid].name;
 const reignOf = (cid, rid) => WORLD[cid].list.find(e => e.g.rulers.includes(rid));
 const thumb = (cid, e) => e.g.images?.length
-  ? `<img src="img/${cid}/${e.g.id}.jpg" alt="" loading="lazy">`
+  ? `<img data-pic="${cid}/${e.g.id}" alt="">`
   : `<span class="mini-banner" style="background:${WORLD[cid].houses[WORLD[cid].rulers[e.g.rulers[0]]?.house ?? e.g.house]?.color ?? "var(--muted)"}">${esc(e.name[0])}</span>`;
 const chip = (cid, e, text, small) =>
   `<button class="chip" data-x="${cid}.${e.g.id}"><span class="chip-flag">${FLAGS[cid] ?? ""}</span><span>${esc(text)}${small ? ` <small>${esc(small)}</small>` : ""}</span></button>`;
