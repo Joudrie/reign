@@ -1,0 +1,968 @@
+{
+  "id": "burma",
+  "name": "Burma (Konbaung)",
+  "blurb": "Burma's last dynasty, from Alaungpaya to Thibaw's exile",
+  "dateConvention": "Burma used its own lunisolar calendar; dates are the Gregorian equivalents standard references give.",
+  "epilogue": "On 1 January 1886 Britain annexed Thibaw's kingdom, and the whole of Burma became a province of British India. Thibaw died in exile at Ratnagiri in 1916; Burma regained its independence, as a republic, on 4 January 1948.",
+  "houses": [
+    {
+      "id": "konbaung",
+      "name": "Konbaung",
+      "color": "#9c2a1e"
+    }
+  ],
+  "rulers": [
+    {
+      "id": "alaungpaya",
+      "name": "Alaungpaya",
+      "house": "konbaung",
+      "born": {
+        "date": "1714-09-24",
+        "note": "Moksobo (later Shwebo)"
+      },
+      "died": {
+        "date": "1760-05-11",
+        "note": "Near Martaban, on the retreat from Siam"
+      },
+      "causeOfDeath": "Illness (or wounds) on campaign"
+    },
+    {
+      "id": "naungdawgyi",
+      "name": "Naungdawgyi",
+      "house": "konbaung",
+      "born": {
+        "date": "1734-08-10"
+      },
+      "died": {
+        "date": "1763-11-28",
+        "note": "Sagaing"
+      },
+      "causeOfDeath": "Illness"
+    },
+    {
+      "id": "hsinbyushin",
+      "name": "Hsinbyushin",
+      "house": "konbaung",
+      "born": {
+        "date": "1736-09-12"
+      },
+      "died": {
+        "date": "1776-06-10",
+        "note": "Ava"
+      },
+      "causeOfDeath": "Illness"
+    },
+    {
+      "id": "singu",
+      "name": "Singu",
+      "house": "konbaung",
+      "born": {
+        "date": "1756-05-10"
+      },
+      "died": {
+        "date": "1782-02",
+        "note": "Exact day uncertain"
+      },
+      "causeOfDeath": "Put to death after his overthrow"
+    },
+    {
+      "id": "phaungka",
+      "name": "Phaungka",
+      "house": "konbaung",
+      "died": {
+        "date": "1782-02"
+      },
+      "causeOfDeath": "Executed after his overthrow"
+    },
+    {
+      "id": "bodawpaya",
+      "name": "Bodawpaya",
+      "house": "konbaung",
+      "born": {
+        "date": "1745-03-11"
+      },
+      "died": {
+        "date": "1819-06-05",
+        "note": "Amarapura"
+      },
+      "causeOfDeath": "Old age"
+    },
+    {
+      "id": "bagyidaw",
+      "name": "Bagyidaw",
+      "house": "konbaung",
+      "born": {
+        "date": "1784"
+      },
+      "died": {
+        "date": "1846"
+      },
+      "causeOfDeath": "Died under guard after his deposition"
+    },
+    {
+      "id": "tharrawaddy",
+      "name": "Tharrawaddy",
+      "house": "konbaung",
+      "born": {
+        "date": "1787-03-14"
+      },
+      "died": {
+        "date": "1846-11-17",
+        "note": "Amarapura"
+      },
+      "causeOfDeath": "Illness, after years of mental decline"
+    },
+    {
+      "id": "pagan",
+      "name": "Pagan",
+      "house": "konbaung",
+      "born": {
+        "date": "1811-06-21"
+      },
+      "died": {
+        "date": "1880-03-14",
+        "note": "Mandalay"
+      },
+      "causeOfDeath": "Died in retirement"
+    },
+    {
+      "id": "mindon",
+      "name": "Mindon",
+      "house": "konbaung",
+      "born": {
+        "date": "1808-07-08"
+      },
+      "died": {
+        "date": "1878-10-01",
+        "note": "Mandalay"
+      },
+      "causeOfDeath": "Illness"
+    },
+    {
+      "id": "thibaw",
+      "name": "Thibaw",
+      "house": "konbaung",
+      "born": {
+        "date": "1859-01-01",
+        "note": "Mandalay"
+      },
+      "died": {
+        "date": "1916-12-16",
+        "note": "Ratnagiri, India; some sources say 19 December"
+      },
+      "causeOfDeath": "Died in exile"
+    }
+  ],
+  "reigns": [
+    {
+      "id": "alaungpaya",
+      "kind": "monarch",
+      "rulers": [
+        "alaungpaya"
+      ],
+      "tagline": "A village headman says no, and builds an empire",
+      "start": {
+        "date": "1752-02-29"
+      },
+      "end": {
+        "date": "1760-05-11"
+      },
+      "contestedWith": [],
+      "relationToPredecessor": "Founder of the Konbaung dynasty",
+      "ageAtAccession": "37",
+      "cameToPower": "Proclaimed himself king at Moksobo",
+      "reignEnded": "Died retreating from Siam",
+      "previously": "Ava's old kings are finished. The Mon of Pegu are marching north.",
+      "paragraphs": [
+        "By 1752 the Toungoo kings at Ava were a spent force. Down south, Mon rebels had revived the old kingdom of Hanthawaddy at Pegu, with French help, and their army was closing on Ava. Aung Zeya, headman of Moksobo in the upper Mu valley, refused to swear loyalty to Pegu. He stockaded his village and on 29 February 1752 proclaimed himself king as Alaungpaya, the embryo Buddha. In March Ava fell, and its last king was carried off to Pegu.",
+        "Moksobo was renamed Shwebo and became his capital, and the north rallied to him. He took Ava in 1754. In 1755 he founded a port on the site of Dagon and called it Rangoon, \"end of strife\": today's Yangon. In 1756 he stormed Syriam, the French-held port downriver, and in May 1757 he took and sacked Pegu itself. The restored Mon kingdom was gone. In 1759 his men destroyed the British trading post at Negrais.",
+        "Then he turned on Siam. His army marched in 1759 and early in 1760 laid siege to Ayutthaya, but the king fell ill and the army turned back. He died on the retreat near Martaban on 11 May 1760, aged 45. In eight years he had gone from village headman to master of nearly all Burma."
+      ],
+      "claims": [
+        {
+          "text": "A cannon burst beside Alaungpaya at Ayutthaya, and the wound killed him.",
+          "status": "disputed",
+          "note": "Siamese accounts tell the cannon story; the Burmese chronicles say he simply fell ill on campaign. Historians are split."
+        },
+        {
+          "text": "French ships sent to help Pegu arrived at Syriam after it fell and were seized by the Burmese.",
+          "status": "confirmed",
+          "note": "Both Burmese and European accounts record the capture; how many ships and what happened to their crews varies by account."
+        },
+        {
+          "text": "The name Rangoon means \"end of strife\".",
+          "status": "confirmed",
+          "note": "The usual reading of Yangon; Alaungpaya chose it to mark his victory in the south."
+        }
+      ],
+      "hook": "Alaungpaya wanted his sons to reign one after another. The first is Naungdawgyi, and before he has settled in, one of his father's own generals is marching on Ava.",
+      "images": [
+        {
+          "file": "File:Statue of Alaungpaya, Shwebo.jpg",
+          "url": "https://upload.wikimedia.org/wikipedia/commons/a/a2/Statue_of_Alaungpaya%2C_Shwebo.jpg",
+          "page": "https://commons.wikimedia.org/wiki/File:Statue_of_Alaungpaya,_Shwebo.jpg",
+          "credit": "Ninjastrikers",
+          "license": "CC BY-SA 4.0",
+          "made": "Photo 2016",
+          "caption": "A modern statue of Alaungpaya at the palace in Shwebo; no likeness from his lifetime is known.",
+          "alt": "Statue of King Alaungpaya inside the grounds of Shwebo Palace"
+        }
+      ],
+      "sources": [
+        {
+          "title": "History of Burma: From the Earliest Times to 10 March 1824",
+          "author": "G. E. Harvey",
+          "note": "Longmans, Green, 1925"
+        },
+        {
+          "title": "Strange Parallels: Southeast Asia in Global Context, c. 800–1830, vol. 1",
+          "author": "Victor Lieberman",
+          "note": "Cambridge University Press, 2003"
+        },
+        {
+          "title": "The River of Lost Footsteps: Histories of Burma",
+          "author": "Thant Myint-U",
+          "note": "Farrar, Straus and Giroux, 2006"
+        },
+        {
+          "title": "Konbaung Set Maha Yazawin (the Konbaung chronicle)",
+          "author": "Maung Maung Tin (compiler)"
+        }
+      ],
+      "review": {
+        "status": "draft",
+        "notes": "Drafted from the listed sources; needs a human fact-check."
+      }
+    },
+    {
+      "id": "naungdawgyi",
+      "kind": "monarch",
+      "rulers": [
+        "naungdawgyi"
+      ],
+      "tagline": "Three years of putting out fires",
+      "start": {
+        "date": "1760-05-11"
+      },
+      "end": {
+        "date": "1763-11-28"
+      },
+      "contestedWith": [],
+      "relationToPredecessor": "Eldest son of Alaungpaya",
+      "ageAtAccession": "25",
+      "cameToPower": "Succeeded his father",
+      "reignEnded": "Died young at Sagaing",
+      "previously": "Alaungpaya dies on the road home from Siam, aged 45.",
+      "paragraphs": [
+        "Naungdawgyi, \"royal elder brother\", was Alaungpaya's eldest son, and he took over an empire held together by his father's name. It cracked straight away. Minkhaung Nawrahta, one of the generals who had won Alaungpaya's wars, turned against the new king and seized Ava in 1760. Naungdawgyi had to besiege the city for months before it fell in 1761, and the general was killed.",
+        "In 1762 the king's own uncle, governor of Toungoo, rebelled as well, and was beaten. Naungdawgyi had time for little else. He died at Sagaing in November 1763, aged 29. He left an infant son, but a baby could not hold a new empire together, and his father had already set out who came next. The crown passed to his younger brother."
+      ],
+      "claims": [
+        {
+          "text": "Alaungpaya ordered that his sons should reign one after another, in order of age.",
+          "status": "disputed",
+          "note": "The chronicles report the wish. It was never fully followed, and the rivalries it created troubled the dynasty for decades."
+        },
+        {
+          "text": "Minkhaung Nawrahta, a hero of Alaungpaya's wars, held Ava against the king for months.",
+          "status": "confirmed",
+          "note": "Recorded in the Konbaung chronicle and accepted by Harvey and later historians."
+        }
+      ],
+      "hook": "The next brother is a soldier to the bone. He was at his father's side before Ayutthaya, and he wants to finish the job.",
+      "images": [
+        {
+          "file": "File:Alaungpaya's tomb, Shwebo.jpg",
+          "url": "https://upload.wikimedia.org/wikipedia/commons/9/92/Alaungpaya%27s_tomb%2C_Shwebo.jpg",
+          "page": "https://commons.wikimedia.org/wiki/File:Alaungpaya%27s_tomb,_Shwebo.jpg",
+          "credit": "Vincent Clarence Scott O'Connor",
+          "license": "Public domain",
+          "made": "1904",
+          "caption": "His father Alaungpaya's tomb at Shwebo, photographed in 1904; no portrait of Naungdawgyi is known.",
+          "alt": "Old black-and-white photograph of Alaungpaya's tomb at Shwebo"
+        }
+      ],
+      "sources": [
+        {
+          "title": "History of Burma: From the Earliest Times to 10 March 1824",
+          "author": "G. E. Harvey",
+          "note": "Longmans, Green, 1925"
+        },
+        {
+          "title": "Konbaung Set Maha Yazawin (the Konbaung chronicle)",
+          "author": "Maung Maung Tin (compiler)"
+        },
+        {
+          "title": "Strange Parallels: Southeast Asia in Global Context, c. 800–1830, vol. 1",
+          "author": "Victor Lieberman",
+          "note": "Cambridge University Press, 2003"
+        }
+      ],
+      "review": {
+        "status": "draft",
+        "notes": "Drafted from the listed sources; needs a human fact-check."
+      }
+    },
+    {
+      "id": "hsinbyushin",
+      "kind": "monarch",
+      "rulers": [
+        "hsinbyushin"
+      ],
+      "tagline": "He burned Ayutthaya, then beat back China four times",
+      "start": {
+        "date": "1763-11-28"
+      },
+      "end": {
+        "date": "1776-06-10"
+      },
+      "contestedWith": [],
+      "relationToPredecessor": "Younger brother of Naungdawgyi",
+      "ageAtAccession": "27",
+      "cameToPower": "Succeeded his brother",
+      "reignEnded": "Died of illness at Ava",
+      "previously": "Naungdawgyi dies at 29 after three years of revolts.",
+      "paragraphs": [
+        "His name means \"Lord of the White Elephant\", and he was the most warlike of Alaungpaya's sons. He moved the capital back to Ava in 1765 and sent two armies into Siam, one from the north and one from the west. They met before Ayutthaya and besieged it for more than a year. On 7 April 1767 the city fell and burned. Thousands of captives, the Siamese royal family among them, were marched off to Burma. A kingdom 400 years old was gone.",
+        "The danger now came from the north. Between 1765 and 1769 Qing China invaded four times, and four times the Burmese threw them back. In 1768 the army of the Qing commander Ming Rui was destroyed near Maymyo, and he took his own life. In December 1769 the Burmese generals agreed terms with the Chinese at Kaungton. Meanwhile in Siam a general called Taksin was driving the Burmese garrisons out.",
+        "Hsinbyushin built as well as fought. He raised the Shwedagon pagoda at Rangoon to about the height it has today and crowned it with a new golden spire. By then he was ill, and he died at Ava in June 1776. His son took the throne."
+      ],
+      "claims": [
+        {
+          "text": "Hsinbyushin was furious that his generals made peace with China without his approval.",
+          "status": "confirmed",
+          "note": "The Burmese chronicles describe his anger at the Kaungton terms; Harvey and later historians repeat it."
+        },
+        {
+          "text": "He raised the Shwedagon to roughly its present height and gave it a new golden spire in 1774–75.",
+          "status": "confirmed",
+          "note": "Pagoda histories put the work in the mid-1770s; the exact years differ between sources."
+        },
+        {
+          "text": "Captives from Ayutthaya reshaped Burmese court music and drama.",
+          "status": "confirmed",
+          "note": "Historians of Burmese theatre trace Siamese dance, music and Ramayana plays at the Konbaung court to the captives of 1767."
+        }
+      ],
+      "hook": "His son Singu is about 20 and has had enough of war. He sends the soldiers home and spends months away on pilgrimage. Someone back in the capital is counting the days.",
+      "images": [
+        {
+          "file": "File:Shwedagon pagoda.jpg",
+          "url": "https://upload.wikimedia.org/wikipedia/commons/1/16/Shwedagon_pagoda.jpg",
+          "page": "https://commons.wikimedia.org/wiki/File:Shwedagon_pagoda.jpg",
+          "credit": "Joseph Moore (engraved by T. Fielding, G. Hunt, H. Pyall)",
+          "license": "Public domain",
+          "made": "1825",
+          "caption": "The Shwedagon at Rangoon as a British artist saw it in 1824–25, about 50 years after Hsinbyushin raised it to this height.",
+          "alt": "Coloured print of the great gilded Shwedagon pagoda at Rangoon with the surrounding scenery and road"
+        }
+      ],
+      "sources": [
+        {
+          "title": "History of Burma: From the Earliest Times to 10 March 1824",
+          "author": "G. E. Harvey",
+          "note": "Longmans, Green, 1925"
+        },
+        {
+          "title": "Strange Parallels: Southeast Asia in Global Context, c. 800–1830, vol. 1",
+          "author": "Victor Lieberman",
+          "note": "Cambridge University Press, 2003"
+        },
+        {
+          "title": "The River of Lost Footsteps: Histories of Burma",
+          "author": "Thant Myint-U",
+          "note": "Farrar, Straus and Giroux, 2006"
+        },
+        {
+          "title": "Konbaung Set Maha Yazawin (the Konbaung chronicle)",
+          "author": "Maung Maung Tin (compiler)"
+        }
+      ],
+      "review": {
+        "status": "draft",
+        "notes": "Drafted from the listed sources; needs a human fact-check."
+      }
+    },
+    {
+      "id": "singu",
+      "kind": "monarch",
+      "rulers": [
+        "singu"
+      ],
+      "tagline": "The peace-loving king who went on one pilgrimage too many",
+      "start": {
+        "date": "1776-06-10"
+      },
+      "end": {
+        "date": "1782-02-06"
+      },
+      "contestedWith": [],
+      "relationToPredecessor": "Son of Hsinbyushin",
+      "ageAtAccession": "About 20",
+      "cameToPower": "Succeeded his father",
+      "reignEnded": "Overthrown while away from Ava",
+      "previously": "Hsinbyushin dies at Ava, conqueror of Siam and victor over China.",
+      "paragraphs": [
+        "Singu Min came to the throne at about 20 and wanted no more wars. He called home the army then fighting in Siam and let the great war machine run down. He was said to be pious and strict, and he banned drink across the kingdom. He was also ruthless with anyone who might threaten him, and royal relatives and some of his father's leading generals were removed or put to death.",
+        "He gave the Shwedagon a huge bronze bell, the Maha Gandha, and loved long pilgrimages to distant pagodas, so he was often away from the capital. In February 1782 he was gone again when his cousin Maung Maung, a son of Naungdawgyi, slipped into the palace at Ava and had himself proclaimed king. Singu's reign was over, and within days so was his life."
+      ],
+      "claims": [
+        {
+          "text": "Singu banned alcohol throughout his kingdom.",
+          "status": "disputed",
+          "note": "The ban is reported in the chronicles and repeated by Harvey; how far it was enforced is unknown."
+        },
+        {
+          "text": "Singu had relatives and his father's generals put to death to secure his throne.",
+          "status": "disputed",
+          "note": "The chronicles name victims, but the details vary, and the story was written down under the kings who replaced him."
+        }
+      ],
+      "hook": "Maung Maung has the palace, but not the army. Watching from the city is an older and much harder prince: Alaungpaya's fourth son, Badon.",
+      "images": [
+        {
+          "file": "File:Singu Min Bell.JPG",
+          "url": "https://upload.wikimedia.org/wikipedia/commons/f/f2/Singu_Min_Bell.JPG",
+          "page": "https://commons.wikimedia.org/wiki/File:Singu_Min_Bell.JPG",
+          "credit": "Wagaung (English Wikipedia)",
+          "license": "CC BY-SA 3.0",
+          "made": "Photo 2007",
+          "caption": "The Maha Gandha bell, Singu's gift to the Shwedagon pagoda, photographed in 2007; no portrait of Singu is known.",
+          "alt": "The large bronze Maha Gandha bell, known as the Singu Min Bell, hanging in a pavilion at the Shwedagon"
+        }
+      ],
+      "sources": [
+        {
+          "title": "History of Burma: From the Earliest Times to 10 March 1824",
+          "author": "G. E. Harvey",
+          "note": "Longmans, Green, 1925"
+        },
+        {
+          "title": "Konbaung Set Maha Yazawin (the Konbaung chronicle)",
+          "author": "Maung Maung Tin (compiler)"
+        },
+        {
+          "title": "Strange Parallels: Southeast Asia in Global Context, c. 800–1830, vol. 1",
+          "author": "Victor Lieberman",
+          "note": "Cambridge University Press, 2003"
+        }
+      ],
+      "review": {
+        "status": "draft",
+        "notes": "Drafted from the listed sources; needs a human fact-check."
+      }
+    },
+    {
+      "id": "phaungka",
+      "kind": "monarch",
+      "rulers": [
+        "phaungka"
+      ],
+      "tagline": "King for a week",
+      "start": {
+        "date": "1782-02-06"
+      },
+      "end": {
+        "date": "1782-02-11"
+      },
+      "contestedWith": [],
+      "relationToPredecessor": "First cousin of Singu",
+      "ageAtAccession": "Not recorded",
+      "cameToPower": "Seized the palace in a coup",
+      "reignEnded": "Overthrown and executed",
+      "previously": "Singu is off on pilgrimage. His cousin Maung Maung seizes the palace.",
+      "paragraphs": [
+        "Maung Maung, Prince of Phaungka, was a son of Naungdawgyi, the second Konbaung king. Alaungpaya's plan for the crown to pass from brother to brother had left his branch of the family on the sidelines. In early February 1782, with Singu away from Ava, he took the palace and was proclaimed king.",
+        "It lasted about a week. His uncle Badon, Alaungpaya's fourth son, had more men and more friends at court. He moved on the palace, and Maung Maung was seized and put to death. Singu, coming back to his capital, was killed too. Phaungka's reign is the shortest of the dynasty, and it handed the throne to a man who would keep it for 37 years."
+      ],
+      "claims": [
+        {
+          "text": "Maung Maung reigned for only about a week.",
+          "status": "confirmed",
+          "note": "The chronicles give a reign of about seven days; the exact Gregorian dates are reconstructed."
+        },
+        {
+          "text": "Singu was put to death as soon as he got back to the capital.",
+          "status": "disputed",
+          "note": "The chronicles agree he was killed in February 1782, but accounts differ on the day and the manner."
+        }
+      ],
+      "hook": "Badon is 36, ruthless and sure of his own greatness. He will rule for 37 years, build a new capital and come to believe he is a Buddha in the making.",
+      "images": [
+        {
+          "file": "File:Watch tower, Innwa Palace.jpg",
+          "url": "https://upload.wikimedia.org/wikipedia/commons/b/b9/Watch_tower%2C_Innwa_Palace.jpg",
+          "page": "https://commons.wikimedia.org/wiki/File:Watch_tower,_Innwa_Palace.jpg",
+          "credit": "Unknown photographer, Archaeological Survey of Burma",
+          "license": "Public domain",
+          "made": "1907–13",
+          "caption": "The palace watchtower at Ava, photographed in the early 1900s; the tower itself was built some 40 years after Phaungka's coup.",
+          "alt": "Black-and-white photograph of the tall masonry watchtower of the old palace at Ava"
+        }
+      ],
+      "sources": [
+        {
+          "title": "History of Burma: From the Earliest Times to 10 March 1824",
+          "author": "G. E. Harvey",
+          "note": "Longmans, Green, 1925"
+        },
+        {
+          "title": "Konbaung Set Maha Yazawin (the Konbaung chronicle)",
+          "author": "Maung Maung Tin (compiler)"
+        }
+      ],
+      "review": {
+        "status": "draft",
+        "notes": "Drafted from the listed sources; needs a human fact-check."
+      }
+    },
+    {
+      "id": "bodawpaya",
+      "kind": "monarch",
+      "rulers": [
+        "bodawpaya"
+      ],
+      "tagline": "Royal grandfather, giant builder, would-be Buddha",
+      "start": {
+        "date": "1782-02-11"
+      },
+      "end": {
+        "date": "1819-06-05"
+      },
+      "contestedWith": [],
+      "relationToPredecessor": "Fourth son of Alaungpaya",
+      "ageAtAccession": "36",
+      "cameToPower": "Overthrew his nephew",
+      "reignEnded": "Died of old age at Amarapura",
+      "previously": "Maung Maung lasts a week. His uncle Badon takes the throne.",
+      "paragraphs": [
+        "Badon Min is remembered as Bodawpaya, \"royal grandfather\", and he lived long enough to earn the name. In 1783 he built himself a fresh capital, Amarapura, close to Ava. In 1784–85 his armies conquered the coastal kingdom of Arakan and carried off its holiest treasure, the great Mahamuni Buddha image. It sits today in Mandalay, where worshippers still press gold leaf onto it.",
+        "Siam was another matter. In 1785 he sent huge armies across the border in what Thai history calls the Nine Armies War, and they were beaten. At home he thought big. At Mingun, across the Irrawaddy from where Mandalay now stands, he began a stupa meant to be the largest on earth and cast a giant bell for it. The stupa was never finished, and an earthquake in 1839 split its base.",
+        "He came to see himself as a future Buddha, an idea the senior monks refused to accept. Meanwhile Burmese armies pushed into Manipur and Assam, right up to the edge of British Bengal. His eldest son, the crown prince, died in 1808, so when the old king died in 1819 the crown went to a grandson."
+      ],
+      "claims": [
+        {
+          "text": "Bodawpaya claimed to be a future Buddha, and the monks turned him down.",
+          "status": "disputed",
+          "note": "Reported in the chronicles and by British visitors; how hard he pressed the claim is debated."
+        },
+        {
+          "text": "He had well over a hundred children by his many wives.",
+          "status": "disputed",
+          "note": "Figures from the chronicles and European visitors vary, and the totals usually quoted are hard to check."
+        },
+        {
+          "text": "The Mingun Bell, cast for his unfinished stupa, is one of the largest working bells in the world.",
+          "status": "confirmed",
+          "note": "The bell still hangs at Mingun and weighs roughly 90 tonnes; for long stretches it was the biggest ringing bell anywhere."
+        }
+      ],
+      "hook": "His grandson Bagyidaw inherits an empire whose western border now runs along British India. Burma's best general is sure he can beat the British.",
+      "images": [
+        {
+          "file": "File:King Bodawpaya in 1795.jpg",
+          "url": "https://upload.wikimedia.org/wikipedia/commons/8/89/King_Bodawpaya_in_1795.jpg",
+          "page": "https://commons.wikimedia.org/wiki/File:King_Bodawpaya_in_1795.jpg",
+          "credit": "After Michael Symes's embassy",
+          "license": "Public domain",
+          "made": "Published 1827",
+          "caption": "A British picture of Bodawpaya in his palace at Amarapura, based on Michael Symes's embassy of 1795.",
+          "alt": "Illustration of King Bodawpaya seated in state at the Amarapura palace"
+        }
+      ],
+      "sources": [
+        {
+          "title": "History of Burma: From the Earliest Times to 10 March 1824",
+          "author": "G. E. Harvey",
+          "note": "Longmans, Green, 1925"
+        },
+        {
+          "title": "An Account of an Embassy to the Kingdom of Ava",
+          "author": "Michael Symes",
+          "note": "1800"
+        },
+        {
+          "title": "The River of Lost Footsteps: Histories of Burma",
+          "author": "Thant Myint-U",
+          "note": "Farrar, Straus and Giroux, 2006"
+        },
+        {
+          "title": "Konbaung Set Maha Yazawin (the Konbaung chronicle)",
+          "author": "Maung Maung Tin (compiler)"
+        }
+      ],
+      "review": {
+        "status": "draft",
+        "notes": "Drafted from the listed sources; needs a human fact-check."
+      }
+    },
+    {
+      "id": "bagyidaw",
+      "kind": "monarch",
+      "rulers": [
+        "bagyidaw"
+      ],
+      "tagline": "The war with Britain that cost Burma its coasts",
+      "start": {
+        "date": "1819-06-05"
+      },
+      "end": {
+        "date": "1837-04-30"
+      },
+      "contestedWith": [],
+      "relationToPredecessor": "Grandson of Bodawpaya",
+      "ageAtAccession": "About 35",
+      "cameToPower": "Succeeded his grandfather",
+      "reignEnded": "Deposed by his brother",
+      "previously": "Bodawpaya dies at Amarapura after 37 years. A grandson succeeds.",
+      "paragraphs": [
+        "Bagyidaw, \"royal uncle\", also called Sagaing Min, began as a winner. His armies tightened Burma's hold on Manipur and Assam, and in 1823 he moved the court back to Ava. But those conquests ran right along the border of British Bengal, and quarrels over the frontier turned into war in 1824. His great general Maha Bandula marched west towards Bengal.",
+        "The British answered from the sea. In May 1824 they landed at Rangoon. Bandula hurried back and fought them for months, until a shell killed him at Danubyu on 1 April 1825. The Treaty of Yandabo, signed on 24 February 1826, was crushing. Burma gave up Assam, Manipur, Arakan and Tenasserim and agreed to pay one million pounds sterling.",
+        "In 1829 the king set his scholars to work on a new royal history, the Glass Palace Chronicle. But he sank into gloom, and real power passed to his queen, Me Nu, and her brother. In 1837 his younger brother rose against them and took the throne. Bagyidaw lived on under guard until 1846."
+      ],
+      "claims": [
+        {
+          "text": "After the war Bagyidaw fell into a deep depression and stopped ruling.",
+          "status": "disputed",
+          "note": "British envoys and the chronicles describe his withdrawal; what was really wrong with him is unclear."
+        },
+        {
+          "text": "Maha Bandula was killed by a shell at Danubyu on 1 April 1825.",
+          "status": "confirmed",
+          "note": "British and Burmese accounts agree on how and when he died."
+        },
+        {
+          "text": "Queen Me Nu and her brother ran the government in the king's last years.",
+          "status": "confirmed",
+          "note": "British envoys at Ava wrote about her power; Burmese sources blame her for the court's troubles, and both had reasons to."
+        }
+      ],
+      "hook": "The king's brother Tharrawaddy has watched the queen and her brother run Burma. Now he has gone to Shwebo, where the dynasty began, and he is raising an army.",
+      "images": [
+        {
+          "file": "File:Negotiations for peace meeting of the British and Burmese commissioners, 1825.jpg",
+          "url": "https://upload.wikimedia.org/wikipedia/commons/2/26/Negotiations_for_peace_meeting_of_the_British_and_Burmese_commissioners%2C_1825.jpg",
+          "page": "https://commons.wikimedia.org/wiki/File:Negotiations_for_peace_meeting_of_the_British_and_Burmese_commissioners,_1825.jpg",
+          "credit": "C. R.",
+          "license": "Public domain",
+          "made": "c. 1879",
+          "caption": "British and Burmese commissioners meet for peace talks in 1825, in a British picture made decades later.",
+          "alt": "Illustration of a meeting between British and Burmese commissioners negotiating peace in 1825"
+        }
+      ],
+      "sources": [
+        {
+          "title": "History of Burma: From the Earliest Times to 10 March 1824",
+          "author": "G. E. Harvey",
+          "note": "Longmans, Green, 1925"
+        },
+        {
+          "title": "The Making of Modern Burma",
+          "author": "Thant Myint-U",
+          "note": "Cambridge University Press, 2001"
+        },
+        {
+          "title": "Hmannan Yazawin (the Glass Palace Chronicle)",
+          "author": "Royal commission of historians, Ava",
+          "note": "Compiled from 1829"
+        }
+      ],
+      "review": {
+        "status": "draft",
+        "notes": "Drafted from the listed sources; needs a human fact-check."
+      }
+    },
+    {
+      "id": "tharrawaddy",
+      "kind": "monarch",
+      "rulers": [
+        "tharrawaddy"
+      ],
+      "tagline": "The rebel king who would not accept defeat",
+      "start": {
+        "date": "1837-04-30"
+      },
+      "end": {
+        "date": "1846-11-17"
+      },
+      "contestedWith": [],
+      "relationToPredecessor": "Younger brother of Bagyidaw",
+      "ageAtAccession": "50",
+      "cameToPower": "Rebelled from Shwebo",
+      "reignEnded": "Died after years under restraint",
+      "previously": "Bagyidaw sinks into gloom while his queen and her brother rule.",
+      "paragraphs": [
+        "Tharrawaddy Min had watched his brother's court go to pieces. In 1837 he slipped away to Shwebo, the dynasty's old home town, gathered an army and took the throne. Queen Me Nu and her brother, who had run Bagyidaw's government, were put to death. The court moved back to Amarapura.",
+        "He made it plain that he did not accept the Treaty of Yandabo. British residents found the new court cold and hostile, and in 1840 the residency was withdrawn altogether. He also gave the Shwedagon a giant bronze bell in 1841. Many expected another war, but it did not come in his time.",
+        "In his last years the king grew violent and unstable. His sons had him kept under restraint, and he died in November 1846. One of those sons, the Prince of Pagan, took the throne."
+      ],
+      "claims": [
+        {
+          "text": "Tharrawaddy went mad and had to be confined by his own sons.",
+          "status": "disputed",
+          "note": "British reports and the chronicles both describe his breakdown; the illness is unknown, and tales of his violence may be exaggerated."
+        },
+        {
+          "text": "He had Queen Me Nu and her brother put to death.",
+          "status": "disputed",
+          "note": "Their deaths are well recorded; accounts differ on the method and the timing."
+        }
+      ],
+      "hook": "Tharrawaddy's son Pagan starts his reign by getting rid of his rivals. Down in Rangoon, British merchants are complaining about Burmese officials, and the warships are never far away.",
+      "images": [
+        {
+          "file": "File:IMG TharrawaddyBell.JPG",
+          "url": "https://upload.wikimedia.org/wikipedia/commons/f/f4/IMG_TharrawaddyBell.JPG",
+          "page": "https://commons.wikimedia.org/wiki/File:IMG_TharrawaddyBell.JPG",
+          "credit": "Wagaung (English Wikipedia)",
+          "license": "CC BY-SA 3.0",
+          "made": "Photo 2007",
+          "caption": "The Maha Tissada Gandha bell that Tharrawaddy gave to the Shwedagon in 1841, photographed in 2007.",
+          "alt": "The huge bronze Maha Tissada Gandha bell hanging in its pavilion at the Shwedagon pagoda, Yangon"
+        }
+      ],
+      "sources": [
+        {
+          "title": "History of Burma: From the Earliest Times to 10 March 1824",
+          "author": "G. E. Harvey",
+          "note": "Longmans, Green, 1925"
+        },
+        {
+          "title": "The Making of Modern Burma",
+          "author": "Thant Myint-U",
+          "note": "Cambridge University Press, 2001"
+        },
+        {
+          "title": "Konbaung Set Maha Yazawin (the Konbaung chronicle)",
+          "author": "Maung Maung Tin (compiler)"
+        }
+      ],
+      "review": {
+        "status": "draft",
+        "notes": "Drafted from the listed sources; needs a human fact-check."
+      }
+    },
+    {
+      "id": "pagan",
+      "kind": "monarch",
+      "rulers": [
+        "pagan"
+      ],
+      "tagline": "Two sea captains, one fine, and Lower Burma gone",
+      "start": {
+        "date": "1846-11-17"
+      },
+      "end": {
+        "date": "1853-02-18"
+      },
+      "contestedWith": [],
+      "relationToPredecessor": "Son of Tharrawaddy",
+      "ageAtAccession": "35",
+      "cameToPower": "Succeeded his father",
+      "reignEnded": "Deposed by his half-brother",
+      "previously": "Tharrawaddy dies after years kept under restraint by his sons.",
+      "paragraphs": [
+        "Pagan Min opened his reign by clearing out rival princes, and his ministers squeezed the country for their own profit. Then trouble came by sea. In 1851 the governor of Rangoon fined two British sea captains, and the British government in India took it as an insult. Demands and counter-demands followed, and in 1852 the quarrel became the Second Anglo-Burmese War.",
+        "British troops took Rangoon in April 1852 and pushed upriver. On 20 December 1852 Britain annexed the province of Pegu, the whole of Lower Burma. With Arakan and Tenasserim already gone, Burma had lost its entire coast. At Amarapura the blame fell on the king. His half-brother Mindon fled the capital, raised the north against him and in February 1853 forced him off the throne.",
+        "Mindon spared him. Pagan lived on quietly for almost 30 years and died at Mandalay in 1880."
+      ],
+      "claims": [
+        {
+          "text": "Pagan Min's purges killed thousands of people.",
+          "status": "disputed",
+          "note": "The big numbers come from British writers and later accounts hostile to him; the true toll is unknown."
+        },
+        {
+          "text": "A dispute over fines on two sea captains started the war.",
+          "status": "confirmed",
+          "note": "The Rangoon fines of 1851 are well documented. Even at the time, critics such as Richard Cobden argued they were a pretext."
+        }
+      ],
+      "hook": "Mindon has the throne, but the British have the south. He refuses to sign it away, and he has a plan of his own: a brand-new royal city.",
+      "images": [
+        {
+          "file": "File:The Great Pagoda at Rangoon, Burma, by John McCosh, 1852 (one).jpg",
+          "url": "https://upload.wikimedia.org/wikipedia/commons/a/a7/The_Great_Pagoda_at_Rangoon%2C_Burma%2C_by_John_McCosh%2C_1852_%28one%29.jpg",
+          "page": "https://commons.wikimedia.org/wiki/File:The_Great_Pagoda_at_Rangoon,_Burma,_by_John_McCosh,_1852_(one).jpg",
+          "credit": "John McCosh",
+          "license": "Public domain",
+          "made": "1852",
+          "caption": "The Shwedagon at Rangoon, photographed by the British army surgeon John McCosh during the war of 1852.",
+          "alt": "Early photograph of the Shwedagon pagoda at Rangoon"
+        }
+      ],
+      "sources": [
+        {
+          "title": "History of Burma: From the Earliest Times to 10 March 1824",
+          "author": "G. E. Harvey",
+          "note": "Longmans, Green, 1925"
+        },
+        {
+          "title": "The Making of Modern Burma",
+          "author": "Thant Myint-U",
+          "note": "Cambridge University Press, 2001"
+        },
+        {
+          "title": "How Wars Are Got Up in India: The Origin of the Burmese War",
+          "author": "Richard Cobden",
+          "note": "1853 pamphlet"
+        }
+      ],
+      "review": {
+        "status": "draft",
+        "notes": "Drafted from the listed sources; needs a human fact-check."
+      }
+    },
+    {
+      "id": "mindon",
+      "kind": "monarch",
+      "rulers": [
+        "mindon"
+      ],
+      "tagline": "The builder king of Mandalay",
+      "start": {
+        "date": "1853-02-18"
+      },
+      "end": {
+        "date": "1878-10-01"
+      },
+      "contestedWith": [],
+      "relationToPredecessor": "Half-brother of Pagan",
+      "ageAtAccession": "44",
+      "cameToPower": "Rebelled and deposed Pagan",
+      "reignEnded": "Died with no heir named",
+      "previously": "Britain takes Lower Burma. Mindon rebels and deposes Pagan.",
+      "paragraphs": [
+        "Mindon Min ended the fighting but never signed a treaty giving up Lower Burma. He turned to rebuilding what was left. In 1857 he founded Mandalay, a new royal city laid out around a walled palace, and by 1859 the court had moved in. He brought in the telegraph and river steamers, minted coins and sent young men to study in Europe.",
+        "He was deeply devout. In 1871 he hosted the Fifth Buddhist Council at Mandalay, and he had the Buddhist scriptures carved on 729 marble slabs at the Kuthodaw Pagoda, often called the world's largest book. That year he also gave a new golden spire to the Shwedagon in Rangoon, by then a British city.",
+        "Then came disaster. In 1866 two of his own sons, the Myingun and Myingondaing princes, murdered his brother and heir, the Kanaung Prince. Mindon never named another heir. In 1875 British envoys refused to take off their shoes before him, and royal audiences stopped. He died in 1878 with the succession wide open."
+      ],
+      "claims": [
+        {
+          "text": "The 729 marble slabs at the Kuthodaw Pagoda make up the world's largest book.",
+          "status": "disputed",
+          "note": "A popular title, not an official record. That the slabs carry the whole of the Buddhist canon is not in doubt."
+        },
+        {
+          "text": "British envoys refused to take off their shoes before the king, and audiences ended.",
+          "status": "confirmed",
+          "note": "From 1875 British officials were told to keep their shoes on; British and Burmese records agree audiences stopped."
+        },
+        {
+          "text": "The rebel princes of 1866 meant to kill Mindon too.",
+          "status": "disputed",
+          "note": "They attacked the palace as well as the Kanaung Prince; whether the king himself was a target is debated."
+        }
+      ],
+      "hook": "With no heir named, the chief queen and the ministers will choose. They pick a quiet young prince they think they can steer. His wife will have other ideas.",
+      "images": [
+        {
+          "file": "File:Mindon Min sketch.PNG",
+          "url": "https://upload.wikimedia.org/wikipedia/commons/f/fa/Mindon_Min_sketch.PNG",
+          "page": "https://commons.wikimedia.org/wiki/File:Mindon_Min_sketch.PNG",
+          "credit": "Sir Henry Yule",
+          "license": "Public domain",
+          "made": "1855",
+          "caption": "Mindon, sketched for the British mission to his court in 1855 and published in Henry Yule's account.",
+          "alt": "Sketch portrait of King Mindon"
+        }
+      ],
+      "sources": [
+        {
+          "title": "A Narrative of the Mission Sent by the Governor-General of India to the Court of Ava in 1855",
+          "author": "Henry Yule",
+          "note": "1858"
+        },
+        {
+          "title": "The River of Lost Footsteps: Histories of Burma",
+          "author": "Thant Myint-U",
+          "note": "Farrar, Straus and Giroux, 2006"
+        },
+        {
+          "title": "History of Burma: From the Earliest Times to 10 March 1824",
+          "author": "G. E. Harvey",
+          "note": "Longmans, Green, 1925"
+        }
+      ],
+      "review": {
+        "status": "draft",
+        "notes": "Drafted from the listed sources; needs a human fact-check."
+      }
+    },
+    {
+      "id": "thibaw",
+      "kind": "monarch",
+      "rulers": [
+        "thibaw"
+      ],
+      "tagline": "Burma's last king, carried off by steamer",
+      "start": {
+        "date": "1878-10-01"
+      },
+      "end": {
+        "date": "1885-11-29"
+      },
+      "contestedWith": [],
+      "relationToPredecessor": "Son of Mindon",
+      "ageAtAccession": "19",
+      "cameToPower": "Chosen by the queen and ministers",
+      "reignEnded": "Deposed and exiled by Britain",
+      "previously": "Mindon dies at Mandalay without naming an heir.",
+      "paragraphs": [
+        "Thibaw was a minor son of Mindon. The chief queen, Hsinbyumashin, and the minister Kinwun Mingyi picked him because they thought he would be easy to manage. He married the queen's daughter Supayalat, who soon had a strong hold over him. In February 1879 dozens of royal relatives, often put at around 80, were killed in prison so that none could challenge him.",
+        "British newspapers made the killings a byword for cruelty at Mandalay. Meanwhile Thibaw's court talked with France, which alarmed the British in India. In 1885 the court fined the British Bombay Burmah Trading Corporation heavily in a dispute over teak. Britain sent an ultimatum in October, and when Mandalay would not give way, the Third Anglo-Burmese War began.",
+        "It took about two weeks. British steamers carried troops up the Irrawaddy, and Mandalay was taken. On 29 November 1885 Thibaw and Supayalat were led away and put on a river steamer. They were sent to Ratnagiri on India's west coast, where Thibaw died in 1916. Burma's last king never saw his country again."
+      ],
+      "claims": [
+        {
+          "text": "The victims of 1879 were tied in velvet sacks and beaten to death, so no royal blood touched the ground.",
+          "status": "disputed",
+          "note": "The custom is traditional, but the details and the death toll come mostly from British reports written when Britain wanted the kingdom gone."
+        },
+        {
+          "text": "Supayalat or the ministers, not Thibaw, were behind the killings.",
+          "status": "disputed",
+          "note": "Many writers blame the queen or the court; how far Thibaw himself gave the order is still argued over."
+        },
+        {
+          "text": "Thibaw spent his last 30 years in exile at Ratnagiri.",
+          "status": "confirmed",
+          "note": "His life there is well documented, notably in Sudha Shah's The King in Exile (2012)."
+        }
+      ],
+      "images": [
+        {
+          "file": "File:Thibaw Min 1885 crop.jpg",
+          "url": "https://upload.wikimedia.org/wikipedia/commons/8/86/Thibaw_Min_1885_crop.jpg",
+          "page": "https://commons.wikimedia.org/wiki/File:Thibaw_Min_1885_crop.jpg",
+          "credit": "Unknown photographer; Willoughby Wallace Hooper collection",
+          "license": "Public domain",
+          "made": "1885",
+          "caption": "Thibaw with Supayalat and her sister, printed from a negative found in the Mandalay palace in November 1885.",
+          "alt": "Photograph of King Thibaw seated with Queen Supayalat and her sister Princess Supayalay"
+        }
+      ],
+      "sources": [
+        {
+          "title": "The King in Exile: The Fall of the Royal Family of Burma",
+          "author": "Sudha Shah",
+          "note": "HarperCollins India, 2012"
+        },
+        {
+          "title": "The River of Lost Footsteps: Histories of Burma",
+          "author": "Thant Myint-U",
+          "note": "Farrar, Straus and Giroux, 2006"
+        },
+        {
+          "title": "The Making of Modern Burma",
+          "author": "Thant Myint-U",
+          "note": "Cambridge University Press, 2001"
+        }
+      ],
+      "review": {
+        "status": "draft",
+        "notes": "Drafted from the listed sources; needs a human fact-check."
+      }
+    }
+  ]
+}
