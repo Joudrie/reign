@@ -68,6 +68,7 @@ const ms = (d: HistoricDate) => {
 
 const years = (a: HistoricDate, b: HistoricDate) => (ms(b) - ms(a)) / (365.2425 * 864e5);
 
+const loaded = new Map<string, ReturnType<typeof Country.parse>>();
 for (const name of readdirSync(dataDir).filter((f) => f.endsWith(".json"))) {
   console.log(`\n${name}`);
   const parsed = Country.safeParse(JSON.parse(readFileSync(join(dataDir, name), "utf8")));
@@ -76,6 +77,7 @@ for (const name of readdirSync(dataDir).filter((f) => f.endsWith(".json"))) {
     continue;
   }
   const c = parsed.data;
+  loaded.set(c.id, c);
 
   // Ids are unique per collection; a reign usually shares its ruler's id (it's the URL slug).
   for (const [kind, list] of [["house", c.houses], ["ruler", c.rulers], ["reign", c.reigns]] as const) {
@@ -162,6 +164,18 @@ for (const name of readdirSync(dataDir).filter((f) => f.endsWith(".json"))) {
     console.log(`    ${g.start.date.padEnd(10)} → ${(g.end?.date ?? "").padEnd(10)}  ${len.padStart(9)}  ${g.title ?? rulers.get(g.rulers[0])?.name}`);
   }
 }
+
+// sameAs links must point at a real ruler (when that country's file exists) and should point back.
+for (const c of loaded.values())
+  for (const r of c.rulers)
+    for (const ref of r.sameAs ?? []) {
+      const [cid, rid] = ref.split(":");
+      const other = loaded.get(cid);
+      if (!other) continue;
+      const target = other.rulers.find((x) => x.id === rid);
+      if (!target) err(`${c.id}:${r.id}`, `sameAs points at unknown ruler "${ref}"`);
+      else if (!(target.sameAs ?? []).includes(`${c.id}:${r.id}`)) warn(`${c.id}:${r.id}`, `sameAs "${ref}" doesn't link back`);
+    }
 
 console.log(`\n${errors} error(s), ${warnings} warning(s)`);
 process.exit(errors ? 1 : 0);

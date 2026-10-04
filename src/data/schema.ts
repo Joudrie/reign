@@ -87,6 +87,8 @@ export const Ruler = z.object({
   born: HistoricDate.optional(),
   died: HistoricDate.optional(), // absent for the living
   causeOfDeath: z.string().optional(),
+  /** The same person in another deck ("denmark:cnut"), for "Also ruled" links when dates are recorded differently. */
+  sameAs: z.array(z.string().regex(/^[a-z0-9-]+:[a-z0-9]+(-[a-z0-9]+)*$/, "country:ruler-id")).optional(),
 });
 
 export const Review = z.object({

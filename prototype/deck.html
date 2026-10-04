@@ -290,22 +290,32 @@ details a { color: inherit; }
 .progress { height: 3px; border-radius: 2px; background: var(--rule); overflow: hidden; margin-top: 4px; }
 .progress i { display: block; height: 100%; background: var(--accent); }
 
-/* side-by-side timelines: one shared year axis, swipe between countries */
-.tl-scroll { padding: 0; overflow: auto; scroll-snap-type: x mandatory; scroll-padding-left: 48px; overscroll-behavior: contain; }
-.tl-grid { position: relative; display: flex; }
-.tl-axis { position: sticky; left: 0; z-index: 3; flex: none; width: 48px; background: var(--table); }
+/* compare: chosen countries split the width, one shared year axis, vertical scroll only */
+.cmp-row { display: flex; gap: var(--s0); overflow-x: auto; padding: 0 var(--s2) var(--s0); scrollbar-width: none; flex: none; }
+.cmp-row::-webkit-scrollbar { display: none; }
+.cmp-row button { flex: none; display: inline-flex; align-items: center; gap: 6px; min-height: 36px; padding: 0 12px 0 8px; border-radius: 999px; border: 1px solid var(--edge); background: var(--card); cursor: pointer; font-size: var(--t-sm); color: var(--muted); }
+.cmp-row button[aria-pressed="true"] { color: var(--ink); border-color: var(--ink); box-shadow: inset 0 0 0 1px var(--ink); }
+.tl-scroll { padding: 0; overflow-x: hidden; overflow-y: auto; overscroll-behavior: contain; -webkit-overflow-scrolling: touch; }
+.tl-grid { position: relative; display: grid; grid-template-columns: 48px repeat(var(--cols), minmax(0, 1fr)); }
+.tl-axis { position: relative; }
 .tl-axis .tick { left: 2px; width: 40px; }
-.tl-corner { position: sticky; top: 0; height: 44px; background: var(--table); }
-.tl-col { position: relative; flex: none; width: var(--col-w); scroll-snap-align: start; border-left: 1px solid var(--rule); }
+.tl-corner { position: sticky; top: 0; height: 44px; background: var(--table); z-index: 2; }
+.tl-col { position: relative; min-width: 0; border-left: 1px solid var(--rule); }
 .tl-head {
-  position: sticky; top: 0; z-index: 2; height: 44px; display: flex; align-items: center; gap: var(--s0);
-  padding: 0 var(--s1); background: var(--table); border-bottom: 1px solid var(--rule); font-weight: 600; font-size: var(--t-sm);
+  position: sticky; top: 0; z-index: 2; height: 44px; display: flex; align-items: center; gap: var(--s0); min-width: 0;
+  padding: 0 var(--s0); background: var(--table); border-bottom: 1px solid var(--rule); font-weight: 600; font-size: var(--t-sm);
 }
+.tl-head span:last-child { white-space: nowrap; overflow: hidden; text-overflow: ellipsis; }
 .tl-head .chip-flag { width: 24px; height: 16px; }
 .tl-head[aria-current="true"] { color: var(--accent); }
 .tl-plot { position: absolute; left: var(--s1); right: var(--s0); top: 44px; }
-.tl-lines { position: absolute; left: 48px; top: 44px; pointer-events: none; }
+.tl-plot.narrow { left: 6px; right: 4px; }
+.tl-plot.narrow .label strong { font-size: var(--t-xs); }
+.tl-plot.narrow .label span { font-size: 0.6875rem; }
+.tl-plot .label strong, .tl-plot .label span { white-space: nowrap; overflow: hidden; text-overflow: ellipsis; }
+.tl-plot .label { min-width: 0; }
 .tl-col .label strong { font-size: var(--t-sm); }
+.tl-lines { position: absolute; left: 48px; right: 0; top: 44px; pointer-events: none; }
 .tl-marker { position: absolute; left: 48px; right: 0; height: 0; border-top: 2px solid var(--accent); z-index: 1; pointer-events: none; }
 .tl-marker-year { position: absolute; left: 2px; transform: translateY(-50%); background: var(--accent); color: var(--card); font-size: var(--t-xs); font-weight: 600; border-radius: 4px; padding: 0 4px; font-variant-numeric: tabular-nums; z-index: 4; white-space: nowrap; }
 .tl-hint { font-size: var(--t-xs); color: var(--muted); padding: 0 var(--s2) var(--s0); margin: 0; }
@@ -393,6 +403,7 @@ details a { color: inherit; }
     <span class="zoom-level" id="zoomLevel"></span>
     <button class="icon-btn" id="zoomIn" aria-label="Zoom in">+</button>
   </div>
+  <div class="cmp-row" id="cmpRow" aria-label="Countries to compare"></div>
   <p class="tl-hint" id="tlHint"></p>
   <div class="view-body tl-scroll" id="timelineBody"></div>
 </section>
@@ -458,6 +469,10 @@ const CATALOG = [
   { id: "ottoman", name: "Ottoman Empire", short: "Ottoman Empire" },
   { id: "scotland", name: "Scotland", short: "Scotland" },
   { id: "austria", name: "Habsburg Austria", short: "Austria" },
+  { id: "netherlands", name: "The Netherlands", short: "Netherlands" },
+  { id: "denmark", name: "Denmark", short: "Denmark" },
+  { id: "norway", name: "Norway", short: "Norway" },
+  { id: "sweden", name: "Sweden", short: "Sweden" },
   { id: "rome", name: "Rome", short: "Rome" },
   { id: "westeros", name: "Westeros", short: "Westeros", fictional: true },
 ];
@@ -472,6 +487,10 @@ const FLAGS = {
   westeros: `<svg class="flag" viewBox="0 0 30 20" preserveAspectRatio="none"><rect width="30" height="20" fill="#1f1b1b"/><g stroke="#c8c3bb" stroke-width=".8" stroke-linecap="round"><path d="M15 15L15 2.5M15 15L11.2 3.4M15 15L18.8 3.4M15 15L8 5.4M15 15L22 5.4M15 15L5.8 8.4M15 15L24.2 8.4"/></g><rect x="10.5" y="13" width="9" height="4.2" rx=".6" fill="#8d8780"/><rect x="9" y="16.2" width="12" height="1.6" fill="#b3202a"/></svg>`,
   scotland: `<svg class="flag" viewBox="0 0 30 20" preserveAspectRatio="none"><rect width="30" height="20" fill="#005eb8"/><path d="M0 0L30 20M30 0L0 20" stroke="#fff" stroke-width="3.6"/></svg>`,
   austria: `<svg class="flag" viewBox="0 0 30 20" preserveAspectRatio="none"><rect width="30" height="20" fill="#f6c700"/><rect width="30" height="10" fill="#1a1a1a"/></svg>`,
+  sweden: `<svg class="flag" viewBox="0 0 16 10" preserveAspectRatio="none"><rect width="16" height="10" fill="#006aa7"/><rect x="5" width="2" height="10" fill="#fecc00"/><rect y="4" width="16" height="2" fill="#fecc00"/></svg>`,
+  denmark: `<svg class="flag" viewBox="0 0 37 28" preserveAspectRatio="none"><rect width="37" height="28" fill="#c8102e"/><rect x="12" width="4" height="28" fill="#fff"/><rect y="12" width="37" height="4" fill="#fff"/></svg>`,
+  norway: `<svg class="flag" viewBox="0 0 22 16" preserveAspectRatio="none"><rect width="22" height="16" fill="#ba0c2f"/><rect x="6" width="4" height="16" fill="#fff"/><rect y="6" width="22" height="4" fill="#fff"/><rect x="7" width="2" height="16" fill="#00205b"/><rect y="7" width="22" height="2" fill="#00205b"/></svg>`,
+  netherlands: `<svg class="flag" viewBox="0 0 9 6" preserveAspectRatio="none"><rect width="9" height="6" fill="#fff"/><rect width="9" height="2" fill="#ae1c28"/><rect y="4" width="9" height="2" fill="#21468b"/></svg>`,
   japan: `<svg class="flag" viewBox="0 0 30 20" preserveAspectRatio="none"><rect width="30" height="20" fill="#fff"/><circle cx="15" cy="10" r="6" fill="#bc002d"/></svg>`,
 };
 
@@ -724,7 +743,7 @@ function show(name) {
   const prev = view;
   view = name;
   tabs.forEach(t => t.setAttribute("aria-current", t.dataset.tab === name ? "page" : "false"));
-  if (name === "timeline") drawTimeline();
+  if (name === "timeline") { includeCurrent(); drawTimeline(); }
   if (name === "search") { renderCountries(); renderResults(); }
   if (name === "play") renderPlay();
   if (name === "stats") renderStats();
@@ -736,23 +755,39 @@ function show(name) {
 tabs.forEach(t => t.addEventListener("click", () => show(t.dataset.tab)));
 function jumpTo(i) { show("read"); go(i, 0, true); }
 
-/* ---------------- timeline: every country side by side on one year axis ---------------- */
-// Swipe sideways between countries; scroll down through the years and every column moves together,
-// so who-ruled-beside-whom is a straight line across. Westeros keeps its own calendar and column.
+/* ---------------- timeline: compare chosen countries side by side on one year axis ---------------- */
+// Pick a few countries and they split the screen; scrolling only goes up and down, and every column moves
+// together, so who-ruled-beside-whom is a straight line across. Westeros keeps its own calendar and column.
 const ZOOMS = [2, 4, 8, 16, 32];          // px per year
 let zoom = 1;
-// Neighbours sit together: Rome, the British Isles, western Europe, then east to Japan.
-const TL_ORDER = ["rome", "england", "scotland", "france", "spain", "portugal", "austria", "russia", "ottoman", "japan"];
+// Neighbours sit together: Rome, the British Isles, western Europe, Scandinavia, then east to Japan.
+const TL_ORDER = ["rome", "england", "scotland", "france", "netherlands", "spain", "portugal", "denmark", "norway", "sweden", "austria", "russia", "ottoman", "japan"];
 const TL_TOP = 44;                        // height of the sticky country headers
 let tlMarker = null;                      // astronomical year the reader tapped: a line across every column
 let tlFrame = null;                       // { t0, ppy, era } of the last drawing, for taps and zoom
+const maxCompare = () => (innerWidth < 600 ? 3 : 5);
+let compare = null;
+try { compare = JSON.parse(localStorage.getItem("reign.compare") ?? "null"); } catch {}
 
 function tlColumns() {
   if (DATA.fictional) return [country];
-  return [...TL_ORDER.filter(c => WORLD[c]), ...REAL.filter(c => !TL_ORDER.includes(c))];
+  if (!Array.isArray(compare)) compare = [];
+  compare = compare.filter(c => WORLD[c] && !WORLD[c].data.fictional).slice(0, maxCompare());
+  if (!compare.length) {
+    // First visit: the current country and its nearest neighbour in the order above.
+    const live = TL_ORDER.filter(c => WORLD[c] && !WORLD[c].data.fictional), k = live.indexOf(country);
+    compare = [country, live[k + 1] ?? live[k - 1]].filter(Boolean);
+  }
+  return [...compare].sort((a, b) => TL_ORDER.indexOf(a) - TL_ORDER.indexOf(b));
 }
-function columnHTML(cid, t0, ppy) {
-  const W = WORLD[cid], y = t => (t - t0) * ppy, LABEL_H = 40;
+/** Opening the timeline from a card always shows that card's country. */
+function includeCurrent() {
+  if (DATA.fictional || !Array.isArray(compare) || !compare.length || compare.includes(country)) return;
+  compare = [country, ...compare].slice(0, maxCompare());
+}
+function columnHTML(cid, t0, ppy, narrow) {
+  const W = WORLD[cid], y = t => (t - t0) * ppy;
+  const LABEL_H = narrow ? 34 : 40, LANE = narrow ? 14 : 18, BAR = narrow ? 10 : 12;
   // Lanes: each reign takes the leftmost lane free by its start, so a civil war splits into parallel lines.
   const laneEnds = [], lanes = W.list.map(e => {
     let k = laneEnds.findIndex(v => v <= e.s + 1 / 365);
@@ -760,42 +795,49 @@ function columnHTML(cid, t0, ppy) {
     laneEnds[k] = e.e;
     return k;
   });
-  const labelX = 40 + Math.max(...lanes) * 18;
+  const labelX = BAR + (narrow ? 8 : 28) + Math.max(...lanes) * LANE;
   let labelBottom = -Infinity, labels = "", bars = "", leaders = "";
   W.list.forEach((e, i) => {
-    const a = y(e.s), h = Math.max(y(e.e) - a - 1, 2), left = lanes[i] * 18;
+    const a = y(e.s), h = Math.max(y(e.e) - a - 1, 2), left = lanes[i] * LANE;
     const hs = e.g.rulers.length ? e.g.rulers.map(r => W.houses[W.rulers[r]?.house]) : [W.houses[e.g.house]];
     const xid = `${cid}.${e.g.id}`, nm = esc(e.name);
-    if (hs.length > 1) hs.forEach((hh, k) => (bars += `<button class="bar half" data-x="${xid}" aria-label="${nm}" style="top:${a}px;height:${h}px;left:${left + k * 7}px;background:${hh?.color ?? "var(--muted)"}"></button>`));
-    else bars += `<button class="bar" data-x="${xid}" aria-label="${nm}" style="top:${a}px;height:${h}px;left:${left}px;background:${hs[0]?.color ?? "var(--muted)"}"></button>`;
+    if (hs.length > 1) hs.forEach((hh, k) => (bars += `<button class="bar half" data-x="${xid}" aria-label="${nm}" style="top:${a}px;height:${h}px;left:${left + k * 6}px;background:${hh?.color ?? "var(--muted)"}"></button>`));
+    else bars += `<button class="bar" data-x="${xid}" aria-label="${nm}" style="top:${a}px;height:${h}px;left:${left}px;width:${BAR}px;background:${hs[0]?.color ?? "var(--muted)"}"></button>`;
     const top = Math.max(a, labelBottom);
     labelBottom = top + LABEL_H;
     if (top - a > 2) {
       // Label pushed down by a crowded stretch: an elbow line ties it back to its bar.
-      leaders += `<span class="leader" style="top:${a + 1}px;left:${left + 14}px;width:${labelX - 20 - left}px"></span>`;
-      leaders += `<span class="leader-v" style="left:${labelX - 6}px;top:${a + 1}px;height:${top - a + 8}px"></span>`;
+      const x0 = left + BAR + 1, xv = labelX - 4;
+      leaders += `<span class="leader" style="top:${a + 1}px;left:${x0}px;width:${Math.max(0, xv - x0)}px"></span>`;
+      leaders += `<span class="leader-v" style="left:${xv}px;top:${a + 1}px;height:${top - a + 8}px"></span>`;
     }
     const cur = cid === country && i === index;
-    labels += `<button class="label" data-x="${xid}" aria-current="${cur}" style="top:${top}px"><strong>${nm}</strong><span>${span(e.g, W.data.era)} · ${e.len}</span></button>`;
+    labels += `<button class="label" data-x="${xid}" aria-current="${cur}" style="top:${top}px"><strong>${nm}</strong><span>${span(e.g, W.data.era)}${narrow ? "" : ` · ${e.len}`}</span></button>`;
   });
-  return { html: `<div class="tl-plot" style="--label-x:${labelX}px">${leaders}${bars}${labels}</div>`, bottom: labelBottom };
+  return { html: `<div class="tl-plot${narrow ? " narrow" : ""}" style="--label-x:${labelX}px">${leaders}${bars}${labels}</div>`, bottom: labelBottom };
+}
+function drawCompareRow() {
+  const row = document.getElementById("cmpRow");
+  if (DATA.fictional) { row.hidden = true; return; }
+  row.hidden = false;
+  row.innerHTML = TL_ORDER.filter(c => WORLD[c] && !WORLD[c].data.fictional).map(c =>
+    `<button data-cmp="${c}" aria-pressed="${compare.includes(c)}"><span class="chip-flag">${FLAGS[c] ?? ""}</span>${esc(cname(c))}</button>`).join("");
 }
 function drawTimeline() {
   const body = document.getElementById("timelineBody");
   const ppy = ZOOMS[zoom], cols = tlColumns(), era = DATA.fictional ? DATA.era : undefined;
+  try { if (!DATA.fictional) localStorage.setItem("reign.compare", JSON.stringify(compare)); } catch {}
   const t0 = Math.floor(Math.min(...cols.map(c => WORLD[c].list[0].s)) / 50) * 50;
   const t1 = Math.ceil(Math.max(...cols.flatMap(c => WORLD[c].list.map(e => e.e))) / 10) * 10;
   const y = t => (t - t0) * ppy;
   tlFrame = { t0, ppy, era };
-  const vw = body.clientWidth || innerWidth;
-  // One country fills the screen; several leave a sliver of the next column showing, so it reads as swipeable.
-  const colW = cols.length === 1 ? Math.max(260, vw - 48) : Math.round(Math.min(380, Math.max(220, vw - 48 - 56)));
+  const narrow = cols.length > 1;
   let bottom = y(t1);
   const colsHTML = cols.map(cid => {
-    const c = columnHTML(cid, t0, ppy);
+    const c = columnHTML(cid, t0, ppy, narrow);
     bottom = Math.max(bottom, c.bottom);
     return `<div class="tl-col" data-cid="${cid}">
-      <div class="tl-head" aria-current="${cid === country}"><span class="chip-flag">${FLAGS[cid] ?? ""}</span>${esc(meta(cid)?.short ?? WORLD[cid].data.name)}</div>${c.html}</div>`;
+      <div class="tl-head" aria-current="${cid === country}"><span class="chip-flag">${FLAGS[cid] ?? ""}</span><span>${esc(cname(cid))}</span></div>${c.html}</div>`;
   }).join("");
   const height = TL_TOP + bottom + 48;
   const every = ppy >= 16 ? 5 : ppy >= 8 ? 10 : ppy >= 4 ? 25 : 50;
@@ -808,17 +850,18 @@ function drawTimeline() {
     ticks += `<div class="tick" style="top:${TL_TOP + top}px">${showYear(yr, era)}</div>`;
     grid += `<div class="gridline" style="top:${top}px"></div>`;
   }
-  body.innerHTML = `<div class="tl-grid" style="height:${height}px;width:${48 + cols.length * colW}px;--col-w:${colW}px">
+  body.innerHTML = `<div class="tl-grid" style="height:${height}px;--cols:${cols.length}">
     <div class="tl-axis"><div class="tl-corner"></div>${ticks}<span class="tl-marker-year" id="tlMarkerYear" hidden></span></div>
-    <div class="tl-lines" style="width:${cols.length * colW}px">${grid}</div>
+    <div class="tl-lines">${grid}</div>
     ${colsHTML}
     <div class="tl-marker" id="tlMarker" hidden></div>
   </div>`;
   placeMarker();
-  document.getElementById("timelineTitle").textContent = DATA.fictional ? `${meta(country)?.short ?? DATA.name} timeline` : "Timelines";
+  drawCompareRow();
+  document.getElementById("timelineTitle").textContent = DATA.fictional ? `${cname(country)} timeline` : "Compare";
   document.getElementById("tlHint").textContent = DATA.fictional
     ? "Tap any reign to read it."
-    : "Swipe sideways between countries. Tap a year to draw a line across them all.";
+    : `Pick up to ${maxCompare()} countries. Tap a year to draw a line across them.`;
   document.getElementById("zoomLevel").textContent = `${ppy}px / year`;
   document.getElementById("zoomOut").disabled = zoom === 0;
   document.getElementById("zoomIn").disabled = zoom === ZOOMS.length - 1;
@@ -833,9 +876,7 @@ function placeMarker() {
 }
 function scrollTimelineToCurrent() {
   const body = document.getElementById("timelineBody");
-  const col = body.querySelector(`.tl-col[data-cid="${country}"]`);
-  if (col) body.scrollLeft = col.offsetLeft - 48;
-  const cur = col?.querySelector('.label[aria-current="true"]');
+  const cur = body.querySelector(`.tl-col[data-cid="${country}"] .label[aria-current="true"]`);
   if (cur) body.scrollTop = Math.max(0, TL_TOP + cur.offsetTop - body.clientHeight / 3);
 }
 document.getElementById("timelineBody").addEventListener("click", e => {
@@ -848,14 +889,25 @@ document.getElementById("timelineBody").addEventListener("click", e => {
   tlMarker = tlFrame.t0 + py / tlFrame.ppy;
   placeMarker();
 });
+document.getElementById("cmpRow").addEventListener("click", e => {
+  const b = e.target.closest("[data-cmp]");
+  if (!b) return;
+  const c = b.dataset.cmp, body = document.getElementById("timelineBody"), keep = body.scrollTop;
+  if (compare.includes(c)) { if (compare.length > 1) compare = compare.filter(x => x !== c); }
+  else {
+    // Full: drop the oldest pick, keeping the country being read if possible.
+    if (compare.length >= maxCompare()) { const drop = compare.find(x => x !== country) ?? compare[0]; compare = compare.filter(x => x !== drop); }
+    compare = [...compare, c];
+  }
+  drawTimeline();
+  body.scrollTop = keep;
+});
 function rezoom(dz) {
   const body = document.getElementById("timelineBody");
   const centre = (body.scrollTop + body.clientHeight / 2 - TL_TOP) / ZOOMS[zoom];
-  const left = body.scrollLeft;
   zoom = Math.max(0, Math.min(ZOOMS.length - 1, zoom + dz));
   drawTimeline();
   body.scrollTop = TL_TOP + centre * ZOOMS[zoom] - body.clientHeight / 2;
-  body.scrollLeft = left;
 }
 document.getElementById("zoomIn").addEventListener("click", () => rezoom(1));
 document.getElementById("zoomOut").addEventListener("click", () => rezoom(-1));
@@ -985,12 +1037,21 @@ rail.addEventListener("click", e => { const t = e.target.closest("[data-x]"); if
 
 /* The same person in two decks (Charles V of Austria is Charles I of Spain): matched on exact birth and death dates. */
 const personKey = r => (r?.born?.date?.length >= 7 && r?.died?.date?.length >= 7 ? `${r.born.date}|${r.died.date}` : null);
-const PEOPLE = {};
-for (const cid of REAL) for (const r of ALL[cid].rulers) { const k = personKey(r); if (k) (PEOPLE[k] ??= []).push({ cid, rid: r.id }); }
+// Linked as one person if the dates match exactly or either record says sameAs ("netherlands:william-iii-stadtholder").
+const LINKS = {}, byDates = {};
+const link = (a, b) => { if (a === b) return; (LINKS[a] ??= new Set()).add(b); (LINKS[b] ??= new Set()).add(a); };
+for (const cid of REAL) for (const r of ALL[cid].rulers) {
+  const me = `${cid}:${r.id}`, k = personKey(r);
+  if (k) { (byDates[k] ??= []).forEach(o => link(o, me)); byDates[k].push(me); }
+  for (const ref of r.sameAs ?? []) { const [c2, r2] = ref.split(":"); if (WORLD[c2]?.rulers[r2] && !WORLD[c2].data.fictional) link(me, ref); }
+}
+/** One stable key per person across decks: the alphabetically first of their linked records. */
+const personId = (cid, rid) => [`${cid}:${rid}`, ...(LINKS[`${cid}:${rid}`] ?? [])].sort()[0];
 function alsoChips(g) {
   if (DATA.fictional) return "";
   const out = [];
-  for (const rid of g.rulers) for (const o of PEOPLE[personKey(rulers[rid])] ?? []) {
+  for (const rid of g.rulers) for (const ref of LINKS[`${country}:${rid}`] ?? []) {
+    const [ocid, orid] = ref.split(":"), o = { cid: ocid, rid: orid };
     if (o.cid === country) continue;
     const e = reignOf(o.cid, o.rid);
     if (e) out.push(chip(o.cid, e, `Also ${WORLD[o.cid].rulers[o.rid].name} of ${cname(o.cid)}`));
@@ -1081,7 +1142,7 @@ function ageYears(s) {
 function renderStats() {
   // One person, counted once: Henry VI sits in both the England and France decks.
   const seen = new Set();
-  const everyone = REAL.flatMap(peopleOf).filter(p => { const k = personKey(p.r) ?? `${p.cid}:${p.r.id}`; if (seen.has(k)) return false; seen.add(k); return true; });
+  const everyone = REAL.flatMap(peopleOf).filter(p => { const k = personId(p.cid, p.r.id); if (seen.has(k)) return false; seen.add(k); return true; });
   const rows = REAL.map(cid => {
     const ps = peopleOf(cid).filter(p => p.fate !== "alive");
     const n = Object.fromEntries(FATE_GROUPS.map(([k]) => [k, 0]));
