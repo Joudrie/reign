@@ -483,10 +483,30 @@ const CATALOG = [
   { id: "thailand", name: "Thailand", short: "Thailand" },
   { id: "china", name: "China", short: "China" },
   { id: "iran", name: "Persia & Iran", short: "Persia" },
+  { id: "italy", name: "Italy", short: "Italy" },
+  { id: "belgium", name: "Belgium", short: "Belgium" },
+  { id: "luxembourg", name: "Luxembourg", short: "Luxembourg" },
+  { id: "liechtenstein", name: "Liechtenstein", short: "Liechtenstein" },
+  { id: "monaco", name: "Monaco", short: "Monaco" },
+  { id: "jordan", name: "Jordan", short: "Jordan" },
+  { id: "saudi", name: "Saudi Arabia", short: "Saudi Arabia" },
+  { id: "morocco", name: "Morocco", short: "Morocco" },
+  { id: "mughal", name: "Mughal Empire", short: "Mughals" },
+  { id: "hawaii", name: "Hawaiian Kingdom", short: "Hawaii" },
   { id: "rome", name: "Rome", short: "Rome" },
   { id: "westeros", name: "Westeros", short: "Westeros", fictional: true },
 ];
 const FLAGS = {
+  italy: `<svg class="flag" viewBox="0 0 30 20" preserveAspectRatio="none"><rect width="10" height="20" fill="#009246"/><rect x="10" width="10" height="20" fill="#fff"/><rect x="20" width="10" height="20" fill="#ce2b37"/></svg>`,
+  belgium: `<svg class="flag" viewBox="0 0 30 20" preserveAspectRatio="none"><rect width="10" height="20" fill="#1a1a1a"/><rect x="10" width="10" height="20" fill="#fdda24"/><rect x="20" width="10" height="20" fill="#ef3340"/></svg>`,
+  luxembourg: `<svg class="flag" viewBox="0 0 30 20" preserveAspectRatio="none"><rect width="30" height="6.67" fill="#ed2939"/><rect y="6.67" width="30" height="6.67" fill="#fff"/><rect y="13.33" width="30" height="6.67" fill="#00a1de"/></svg>`,
+  liechtenstein: `<svg class="flag" viewBox="0 0 30 20" preserveAspectRatio="none"><rect width="30" height="10" fill="#002b7f"/><rect y="10" width="30" height="10" fill="#ce1126"/><path d="M5 3.5h4l-.5 2.5h-3z" fill="#ffd83d"/></svg>`,
+  monaco: `<svg class="flag" viewBox="0 0 30 20" preserveAspectRatio="none"><rect width="30" height="10" fill="#ce1126"/><rect y="10" width="30" height="10" fill="#fff"/></svg>`,
+  jordan: `<svg class="flag" viewBox="0 0 30 20" preserveAspectRatio="none"><rect width="30" height="6.67" fill="#1a1a1a"/><rect y="6.67" width="30" height="6.67" fill="#fff"/><rect y="13.33" width="30" height="6.67" fill="#007a3d"/><path d="M0 0L13 10L0 20z" fill="#ce1126"/><circle cx="4.5" cy="10" r="1.2" fill="#fff"/></svg>`,
+  saudi: `<svg class="flag" viewBox="0 0 30 20" preserveAspectRatio="none"><rect width="30" height="20" fill="#006c35"/><path d="M8 7h14M8 9h14" stroke="#fff" stroke-width=".9"/><path d="M8 13h13l1.5-.8" stroke="#fff" stroke-width=".8" fill="none"/></svg>`,
+  morocco: `<svg class="flag" viewBox="0 0 30 20" preserveAspectRatio="none"><rect width="30" height="20" fill="#c1272d"/><path d="M15 5.5l2.6 8-6.8-4.9h8.4l-6.8 4.9z" fill="none" stroke="#006233" stroke-width=".8"/></svg>`,
+  mughal: `<svg class="flag" viewBox="0 0 30 20" preserveAspectRatio="none"><rect width="30" height="20" fill="#1f5e3a"/><circle cx="15" cy="10" r="4" fill="#e3b448"/><circle cx="15" cy="10" r="2.6" fill="#1f5e3a"/></svg>`,
+  hawaii: `<svg class="flag" viewBox="0 0 30 20" preserveAspectRatio="none"><rect width="30" height="20" fill="#fff"/><g fill="#c8102e"><rect y="2.5" width="30" height="2.5"/><rect y="10" width="30" height="2.5"/><rect y="17.5" width="30" height="2.5"/></g><g fill="#012169"><rect y="5" width="30" height="2.5"/><rect y="12.5" width="30" height="2.5"/></g><rect width="13" height="10" fill="#012169"/><path d="M0 0l13 10M13 0L0 10" stroke="#fff" stroke-width="2"/><path d="M6.5 0v10M0 5h13" stroke="#fff" stroke-width="3"/><path d="M6.5 0v10M0 5h13" stroke="#c8102e" stroke-width="1.6"/></svg>`,
   china: `<svg class="flag" viewBox="0 0 30 20" preserveAspectRatio="none"><rect width="30" height="20" fill="#de2910"/><path fill="#ffde00" d="M5 3l.9 2.7h2.8l-2.3 1.7.9 2.7L5 8.4l-2.3 1.7.9-2.7L1.3 5.7h2.8z"/><circle cx="10" cy="2.5" r=".8" fill="#ffde00"/><circle cx="12" cy="4.5" r=".8" fill="#ffde00"/><circle cx="12" cy="7.5" r=".8" fill="#ffde00"/><circle cx="10" cy="9.5" r=".8" fill="#ffde00"/></svg>`,
   iran: `<svg class="flag" viewBox="0 0 30 20" preserveAspectRatio="none"><rect width="30" height="6.67" fill="#239f40"/><rect y="6.67" width="30" height="6.67" fill="#fff"/><rect y="13.33" width="30" height="6.67" fill="#da0000"/></svg>`,
   poland: `<svg class="flag" viewBox="0 0 30 20" preserveAspectRatio="none"><rect width="30" height="10" fill="#fff"/><rect y="10" width="30" height="10" fill="#dc143c"/></svg>`,
@@ -810,7 +830,7 @@ function jumpTo(i) { show("read"); go(i, 0, true); }
 const ZOOMS = [2, 4, 8, 16, 32];          // px per year
 let zoom = 1;
 // Neighbours sit together: Rome, the British Isles, western Europe, Scandinavia, then east to Japan.
-const TL_ORDER = ["rome", "byzantium", "hre", "england", "scotland", "france", "netherlands", "spain", "portugal", "germany", "denmark", "norway", "sweden", "poland", "austria", "hungary", "russia", "ottoman", "iran", "ethiopia", "thailand", "china", "korea", "japan"];
+const TL_ORDER = ["rome", "byzantium", "hre", "england", "scotland", "france", "belgium", "netherlands", "luxembourg", "spain", "portugal", "monaco", "italy", "germany", "liechtenstein", "denmark", "norway", "sweden", "poland", "austria", "hungary", "russia", "ottoman", "iran", "morocco", "jordan", "saudi", "ethiopia", "mughal", "thailand", "china", "korea", "japan", "hawaii"];
 const TL_TOP = 44;                        // height of the sticky country headers
 let tlMarker = null;                      // astronomical year the reader tapped: a line across every column
 let tlFrame = null;                       // { t0, ppy, era } of the last drawing, for taps and zoom
