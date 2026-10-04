@@ -1,0 +1,3562 @@
+{
+  "id": "bohemia",
+  "name": "Bohemia",
+  "blurb": "Dukes and kings of the Czech lands, from the Přemyslids to 1918",
+  "dateConvention": "Dates are Julian until Bohemia adopted the Gregorian calendar in January 1584, and Gregorian after. Early Přemyslid dates are often approximate, and several cards gather short or tangled reigns together.",
+  "epilogue": "On 28 October 1918 Prague proclaimed an independent Czechoslovakia, with Masaryk as president. Charles, never crowned in Bohemia, never formally gave up the crown; he died on Madeira in 1922.",
+  "houses": [
+    {
+      "id": "premyslid",
+      "name": "Přemyslid",
+      "color": "#7a5230"
+    },
+    {
+      "id": "rivals",
+      "name": "Rival claimants",
+      "color": "#8d8780",
+      "plain": true
+    },
+    {
+      "id": "luxembourg",
+      "name": "Luxembourg",
+      "color": "#3d7a7a"
+    },
+    {
+      "id": "hussite",
+      "name": "Hussite Revolution",
+      "color": "#9b2226",
+      "plain": true
+    },
+    {
+      "id": "habsburg",
+      "name": "Habsburg",
+      "color": "#b8860b"
+    },
+    {
+      "id": "podebrady",
+      "name": "Poděbrady",
+      "color": "#3f6b4f"
+    },
+    {
+      "id": "jagiellon",
+      "name": "Jagiellon",
+      "color": "#6b4a8a"
+    },
+    {
+      "id": "wittelsbach",
+      "name": "Wittelsbach",
+      "color": "#5f86a8"
+    },
+    {
+      "id": "habsburg-lorraine",
+      "name": "Habsburg-Lorraine",
+      "color": "#8a2e5a"
+    }
+  ],
+  "rulers": [
+    {
+      "id": "borivoj-i",
+      "name": "Bořivoj I",
+      "house": "premyslid",
+      "died": {
+        "date": "0889",
+        "circa": true,
+        "note": "Date uncertain"
+      },
+      "causeOfDeath": "Unknown"
+    },
+    {
+      "id": "saint-wenceslaus",
+      "name": "Wenceslaus I",
+      "epithet": "the Saint",
+      "house": "premyslid",
+      "born": {
+        "date": "0907",
+        "circa": true,
+        "note": "Probably near Prague; 907 or 908"
+      },
+      "died": {
+        "date": "0935-09-28",
+        "note": "Stará Boleslav; some sources say 929"
+      },
+      "causeOfDeath": "Murdered by his brother's men"
+    },
+    {
+      "id": "boleslaus-i",
+      "name": "Boleslaus I",
+      "epithet": "the Cruel",
+      "house": "premyslid",
+      "died": {
+        "date": "0972-07-15",
+        "note": "Year disputed: 967 or 972"
+      },
+      "causeOfDeath": "Unknown"
+    },
+    {
+      "id": "boleslaus-ii",
+      "name": "Boleslaus II",
+      "epithet": "the Pious",
+      "house": "premyslid",
+      "died": {
+        "date": "0999-02-07"
+      },
+      "causeOfDeath": "Illness after years of poor health"
+    },
+    {
+      "id": "bretislaus-i",
+      "name": "Bretislaus I",
+      "epithet": "the Bohemian Achilles",
+      "house": "premyslid",
+      "died": {
+        "date": "1055-01-10",
+        "note": "Chrudim"
+      },
+      "causeOfDeath": "Illness on campaign"
+    },
+    {
+      "id": "vratislaus-ii",
+      "name": "Vratislaus II",
+      "house": "premyslid",
+      "died": {
+        "date": "1092-01-14"
+      },
+      "causeOfDeath": "Fall from his horse while hunting"
+    },
+    {
+      "id": "vladislaus-ii-premyslid",
+      "name": "Vladislaus II",
+      "house": "premyslid",
+      "died": {
+        "date": "1174-01-18",
+        "note": "Meerane, Thuringia"
+      },
+      "causeOfDeath": "Died in exile"
+    },
+    {
+      "id": "ottokar-i",
+      "name": "Ottokar I",
+      "house": "premyslid",
+      "born": {
+        "date": "1155",
+        "circa": true
+      },
+      "died": {
+        "date": "1230-12-15"
+      },
+      "causeOfDeath": "Natural causes, in old age"
+    },
+    {
+      "id": "wenceslaus-i",
+      "name": "Wenceslaus I",
+      "epithet": "the One-Eyed",
+      "house": "premyslid",
+      "born": {
+        "date": "1205",
+        "circa": true
+      },
+      "died": {
+        "date": "1253-09-23",
+        "note": "Počaply, near Beroun"
+      },
+      "causeOfDeath": "Natural causes"
+    },
+    {
+      "id": "ottokar-ii",
+      "name": "Ottokar II",
+      "epithet": "the Iron and Golden King",
+      "house": "premyslid",
+      "born": {
+        "date": "1233",
+        "circa": true
+      },
+      "died": {
+        "date": "1278-08-26",
+        "note": "Battlefield of the Marchfeld, near Dürnkrut, Austria"
+      },
+      "causeOfDeath": "Killed after losing the battle"
+    },
+    {
+      "id": "wenceslaus-ii",
+      "name": "Wenceslaus II",
+      "house": "premyslid",
+      "born": {
+        "date": "1271-09-27",
+        "note": "Prague"
+      },
+      "died": {
+        "date": "1305-06-21",
+        "note": "Prague"
+      },
+      "causeOfDeath": "Long illness, probably tuberculosis",
+      "sameAs": [
+        "poland:wenceslaus-ii"
+      ]
+    },
+    {
+      "id": "wenceslaus-iii",
+      "name": "Wenceslaus III",
+      "house": "premyslid",
+      "born": {
+        "date": "1289-10-06",
+        "note": "Prague"
+      },
+      "died": {
+        "date": "1306-08-04",
+        "note": "Olomouc, Moravia"
+      },
+      "causeOfDeath": "Stabbed to death by an unknown assassin",
+      "sameAs": [
+        "poland:wenceslaus-iii"
+      ]
+    },
+    {
+      "id": "john",
+      "name": "John",
+      "epithet": "the Blind",
+      "house": "luxembourg",
+      "born": {
+        "date": "1296-08-10",
+        "note": "Luxembourg"
+      },
+      "died": {
+        "date": "1346-08-26",
+        "note": "Battle of Crécy, France"
+      },
+      "causeOfDeath": "Killed in battle"
+    },
+    {
+      "id": "charles-iv",
+      "name": "Charles IV",
+      "house": "luxembourg",
+      "born": {
+        "date": "1316-05-14",
+        "note": "Prague"
+      },
+      "died": {
+        "date": "1378-11-29",
+        "note": "Prague"
+      },
+      "causeOfDeath": "Illness after a bad fall",
+      "sameAs": [
+        "hre:charles-iv"
+      ]
+    },
+    {
+      "id": "wenceslaus",
+      "name": "Wenceslaus IV",
+      "epithet": "the Idle",
+      "house": "luxembourg",
+      "born": {
+        "date": "1361-02-26",
+        "note": "Nuremberg"
+      },
+      "died": {
+        "date": "1419-08-16",
+        "note": "New Castle at Kunratice, near Prague"
+      },
+      "causeOfDeath": "Stroke",
+      "sameAs": [
+        "hre:wenceslaus"
+      ]
+    },
+    {
+      "id": "sigismund",
+      "name": "Sigismund",
+      "house": "luxembourg",
+      "born": {
+        "date": "1368-02-15",
+        "note": "Nuremberg"
+      },
+      "died": {
+        "date": "1437-12-09",
+        "note": "Znojmo, Moravia"
+      },
+      "causeOfDeath": "Illness on the road to Hungary",
+      "sameAs": [
+        "hre:sigismund",
+        "hungary:sigismund"
+      ]
+    },
+    {
+      "id": "albert-ii",
+      "name": "Albert II",
+      "house": "habsburg",
+      "born": {
+        "date": "1397-08-16",
+        "note": "Vienna"
+      },
+      "died": {
+        "date": "1439-10-27",
+        "note": "Neszmély, Hungary"
+      },
+      "causeOfDeath": "Dysentery on campaign",
+      "sameAs": [
+        "austria:albert-v",
+        "hre:albert-ii",
+        "hungary:albert"
+      ]
+    },
+    {
+      "id": "ladislaus",
+      "name": "Ladislaus",
+      "epithet": "the Posthumous",
+      "house": "habsburg",
+      "born": {
+        "date": "1440-02-22",
+        "note": "Komárom, Hungary"
+      },
+      "died": {
+        "date": "1457-11-23",
+        "note": "Prague"
+      },
+      "causeOfDeath": "Sudden illness, probably leukaemia",
+      "sameAs": [
+        "austria:ladislaus",
+        "hungary:ladislaus-v"
+      ]
+    },
+    {
+      "id": "george",
+      "name": "George of Poděbrady",
+      "house": "podebrady",
+      "born": {
+        "date": "1420-04-23",
+        "note": "Poděbrady"
+      },
+      "died": {
+        "date": "1471-03-22",
+        "note": "Prague"
+      },
+      "causeOfDeath": "Illness"
+    },
+    {
+      "id": "vladislaus-ii",
+      "name": "Vladislaus II",
+      "house": "jagiellon",
+      "born": {
+        "date": "1456-03-01",
+        "note": "Kraków"
+      },
+      "died": {
+        "date": "1516-03-13",
+        "note": "Buda"
+      },
+      "causeOfDeath": "Illness",
+      "sameAs": [
+        "hungary:vladislaus-ii"
+      ]
+    },
+    {
+      "id": "louis-ii",
+      "name": "Louis II",
+      "house": "jagiellon",
+      "born": {
+        "date": "1506-07-01",
+        "note": "Buda"
+      },
+      "died": {
+        "date": "1526-08-29",
+        "note": "Csele stream, near Mohács"
+      },
+      "causeOfDeath": "Drowned fleeing the battle of Mohács",
+      "sameAs": [
+        "hungary:louis-ii"
+      ]
+    },
+    {
+      "id": "ferdinand-i",
+      "name": "Ferdinand I",
+      "house": "habsburg",
+      "born": {
+        "date": "1503-03-10",
+        "note": "Alcalá de Henares, Spain"
+      },
+      "died": {
+        "date": "1564-07-25",
+        "note": "Vienna"
+      },
+      "causeOfDeath": "Illness in old age",
+      "sameAs": [
+        "austria:ferdinand-i",
+        "hre:ferdinand-i",
+        "hungary:ferdinand-i"
+      ]
+    },
+    {
+      "id": "maximilian-ii",
+      "name": "Maximilian II",
+      "house": "habsburg",
+      "born": {
+        "date": "1527-07-31",
+        "note": "Vienna"
+      },
+      "died": {
+        "date": "1576-10-12",
+        "note": "Regensburg"
+      },
+      "causeOfDeath": "Illness during the imperial diet",
+      "sameAs": [
+        "austria:maximilian-ii",
+        "hre:maximilian-ii",
+        "hungary:maximilian"
+      ]
+    },
+    {
+      "id": "rudolf-ii",
+      "name": "Rudolf II",
+      "house": "habsburg",
+      "born": {
+        "date": "1552-07-18",
+        "note": "Vienna"
+      },
+      "died": {
+        "date": "1612-01-20",
+        "note": "Prague"
+      },
+      "causeOfDeath": "Illness after years of decline",
+      "sameAs": [
+        "austria:rudolf-ii",
+        "hre:rudolf-ii",
+        "hungary:rudolf"
+      ]
+    },
+    {
+      "id": "matthias",
+      "name": "Matthias",
+      "house": "habsburg",
+      "born": {
+        "date": "1557-02-24",
+        "note": "Vienna"
+      },
+      "died": {
+        "date": "1619-03-20",
+        "note": "Vienna"
+      },
+      "causeOfDeath": "Illness",
+      "sameAs": [
+        "austria:matthias",
+        "hre:matthias",
+        "hungary:matthias-ii"
+      ]
+    },
+    {
+      "id": "frederick-v",
+      "name": "Frederick V",
+      "epithet": "the Winter King",
+      "house": "wittelsbach",
+      "born": {
+        "date": "1596-08-26",
+        "note": "Deinschwang hunting lodge, near Amberg, Upper Palatinate"
+      },
+      "died": {
+        "date": "1632-11-29",
+        "note": "Mainz"
+      },
+      "causeOfDeath": "Fever, probably plague"
+    },
+    {
+      "id": "ferdinand-ii",
+      "name": "Ferdinand II",
+      "house": "habsburg",
+      "sameAs": [
+        "austria:ferdinand-ii",
+        "hre:ferdinand-ii",
+        "hungary:ferdinand-ii"
+      ],
+      "born": {
+        "date": "1578-07-09",
+        "note": "Graz"
+      },
+      "died": {
+        "date": "1637-02-15",
+        "note": "Vienna"
+      },
+      "causeOfDeath": "Illness"
+    },
+    {
+      "id": "maria-theresa",
+      "name": "Maria Theresa",
+      "house": "habsburg",
+      "sameAs": [
+        "austria:maria-theresa",
+        "hungary:maria-theresa"
+      ],
+      "born": {
+        "date": "1717-05-13",
+        "note": "Vienna"
+      },
+      "died": {
+        "date": "1780-11-29",
+        "note": "Vienna"
+      },
+      "causeOfDeath": "Illness"
+    },
+    {
+      "id": "joseph-ii",
+      "name": "Joseph II",
+      "house": "habsburg-lorraine",
+      "sameAs": [
+        "austria:joseph-ii",
+        "hre:joseph-ii",
+        "hungary:joseph-ii"
+      ],
+      "born": {
+        "date": "1741-03-13",
+        "note": "Vienna"
+      },
+      "died": {
+        "date": "1790-02-20",
+        "note": "Vienna"
+      },
+      "causeOfDeath": "Tuberculosis"
+    },
+    {
+      "id": "franz-joseph",
+      "name": "Franz Joseph",
+      "house": "habsburg-lorraine",
+      "sameAs": [
+        "austria:franz-joseph",
+        "hungary:franz-joseph"
+      ],
+      "born": {
+        "date": "1830-08-18",
+        "note": "Schönbrunn Palace, Vienna"
+      },
+      "died": {
+        "date": "1916-11-21",
+        "note": "Schönbrunn Palace, Vienna"
+      },
+      "causeOfDeath": "Pneumonia"
+    },
+    {
+      "id": "charles-i",
+      "name": "Charles I",
+      "house": "habsburg-lorraine",
+      "sameAs": [
+        "austria:charles-i",
+        "hungary:charles-iv"
+      ],
+      "born": {
+        "date": "1887-08-17",
+        "note": "Persenbeug Castle, Lower Austria"
+      },
+      "died": {
+        "date": "1922-04-01",
+        "note": "Funchal, Madeira"
+      },
+      "causeOfDeath": "Pneumonia"
+    }
+  ],
+  "reigns": [
+    {
+      "id": "borivoj-i",
+      "kind": "monarch",
+      "rulers": [
+        "borivoj-i"
+      ],
+      "tagline": "The first Czech duke who steps out of the legends",
+      "start": {
+        "date": "0870",
+        "circa": true
+      },
+      "end": {
+        "date": "0889",
+        "circa": true
+      },
+      "contestedWith": [],
+      "relationToPredecessor": "Son of Hostivít, says Cosmas",
+      "ageAtAccession": "Unknown",
+      "cameToPower": "Leading duke of the Czechs",
+      "reignEnded": "Died young, about 889",
+      "previously": "Legend: Libuše foresees Prague and weds Přemysl the Ploughman.",
+      "paragraphs": [
+        "Every Czech child knows the legend. The wise princess Libuše had a vision of a great city whose glory would touch the stars, and that became Prague. Her people wanted a man to rule them, so she sent riders to find a ploughman named Přemysl, who left his oxen in the field to marry her. It is a lovely story, first written down by the priest Cosmas around 1120. The real history starts with Bořivoj, the first Přemyslid we can actually pin down.",
+        "In his day Bohemia was a patchwork of tribes in the shadow of Great Moravia, a powerful Slav state to the east. Bořivoj was one of several Czech dukes, and he did well by staying close to the Moravian ruler Svatopluk. The later legends say he was baptised at Svatopluk's court by Methodius, the missionary who brought the Slavs their own church language. Back home he built little churches at Levý Hradec and on the hill that became Prague Castle.",
+        "His wife Ludmila became a Christian with him and outlived him by decades. Bořivoj died young, around 889, leaving two boys. They were too small to rule, and for a few years Svatopluk of Moravia called the shots in Bohemia."
+      ],
+      "claims": [
+        {
+          "text": "Bořivoj was the 'Goriwei' named among Czech dukes beaten by the Franks in 872.",
+          "status": "disputed",
+          "note": "The Annals of Fulda list a Goriwei that year. The names look alike, but nothing else ties the two together."
+        },
+        {
+          "text": "Methodius himself baptised Bořivoj at the Moravian court.",
+          "status": "disputed",
+          "note": "Told by the Legend of Christian (late 10th century) and by Cosmas. No source from Bořivoj's own time mentions it."
+        },
+        {
+          "text": "Libuše and Přemysl the Ploughman founded the dynasty.",
+          "status": "legend",
+          "note": "Known only from Cosmas, writing over two centuries after Bořivoj. Nobody can show they existed."
+        }
+      ],
+      "hook": "Bořivoj is gone and his sons are boys. When they grow up, Great Moravia is cracking, and they must decide which way Bohemia will bow.",
+      "images": [
+        {
+          "file": "File:Bořivoj I.jpg",
+          "url": "https://upload.wikimedia.org/wikipedia/commons/f/fb/Bo%C5%99ivoj_I.jpg",
+          "page": "https://commons.wikimedia.org/wiki/File:Bo%C5%99ivoj_I.jpg",
+          "credit": "Unknown illuminator (Velislav Bible)",
+          "license": "Public domain",
+          "made": "14th century",
+          "caption": "From the Velislav Bible, a picture book made in the 14th century, about 450 years after Bořivoj.",
+          "alt": "Medieval manuscript drawing of the baptism of Duke Bořivoj"
+        }
+      ],
+      "sources": [
+        {
+          "title": "Chronicle of the Czechs (Chronica Boemorum)",
+          "author": "Cosmas of Prague",
+          "note": "Finished about 1125; trans. Lisa Wolverton, Catholic University of America Press, 2009"
+        },
+        {
+          "title": "Počátky Přemyslovců",
+          "author": "Dušan Třeštík",
+          "note": "Nakladatelství Lidové noviny, 1997"
+        },
+        {
+          "title": "Annales Fuldenses (Annals of Fulda)",
+          "author": "Anonymous",
+          "note": "Entry for 872"
+        },
+        {
+          "title": "Legenda Christiani",
+          "author": "Christian (Kristián)",
+          "note": "Late 10th-century legend of Wenceslaus and Ludmila"
+        }
+      ],
+      "review": {
+        "status": "draft",
+        "notes": "Drafted from the listed sources; needs a human fact-check."
+      }
+    },
+    {
+      "id": "sons-of-borivoj",
+      "kind": "interregnum",
+      "title": "Bořivoj's Sons",
+      "house": "premyslid",
+      "rulers": [],
+      "tagline": "Two brothers turn Bohemia from Moravia to the West",
+      "start": {
+        "date": "0894",
+        "circa": true
+      },
+      "end": {
+        "date": "0921-02-13"
+      },
+      "contestedWith": [],
+      "relationToPredecessor": "Sons of Bořivoj I",
+      "ageAtAccession": "Young men",
+      "cameToPower": "Took over as Moravia faded",
+      "reignEnded": "Vratislaus dies young",
+      "previously": "Bořivoj dies young. Moravia's Svatopluk runs Bohemia for a while.",
+      "paragraphs": [
+        "Bořivoj's sons were Spytihněv and Vratislaus (Vratislav in Czech). Svatopluk of Moravia died in 894, and his heirs started fighting each other. The Czech dukes saw their chance. In 895 they rode to Regensburg and did homage to the East Frankish king Arnulf. From now on Bohemia looked west, to the German kingdom, not east to Moravia.",
+        "It was a smart bet. Within a few years Magyar horsemen poured out of the plains and Great Moravia collapsed, around 906 or 907. Bohemia survived. Spytihněv ruled first and built strongholds around Prague. After he died in 915, his brother Vratislaus took over. Vratislaus married Drahomíra, a woman from the Slav tribes far to the north, and the basilica of St George at Prague Castle went up in his time.",
+        "On 13 February 921 Vratislaus died, still a young man. His eldest son Wenceslaus was only a boy. Two women now wanted to raise him: his mother Drahomíra and his grandmother Ludmila."
+      ],
+      "claims": [
+        {
+          "text": "The Czech dukes did homage to King Arnulf at Regensburg in 895.",
+          "status": "confirmed",
+          "note": "The Annals of Fulda record Spytihněv and another Czech duke coming to Regensburg that year."
+        },
+        {
+          "text": "Drahomíra was a pagan princess from the Hevelli.",
+          "status": "disputed",
+          "note": "The legends make her a Hevellian and hostile to the Church. Her origin is likely, but her paganism may be later spin."
+        },
+        {
+          "text": "Vratislaus founded St George's Basilica at Prague Castle.",
+          "status": "disputed",
+          "note": "Tradition and Cosmas credit him. Archaeology shows an early church there, but who started it isn't certain."
+        }
+      ],
+      "hook": "Ludmila takes charge of the boy duke. Drahomíra is not the sort of mother who steps aside, and Bohemia's first saint is about to be made.",
+      "images": [
+        {
+          "file": "File:Spitygniew I.jpg",
+          "url": "https://upload.wikimedia.org/wikipedia/commons/6/69/Spitygniew_I.jpg",
+          "page": "https://commons.wikimedia.org/wiki/File:Spitygniew_I.jpg",
+          "credit": "Anonymous fresco painter, Rotunda of St Catherine, Znojmo",
+          "license": "Public domain",
+          "made": "c. 1134",
+          "caption": "Spytihněv I as painted on the walls of the Znojmo rotunda around 1134, over 200 years after his death.",
+          "alt": "Romanesque wall painting of Duke Spytihněv I from the rotunda at Znojmo"
+        }
+      ],
+      "sources": [
+        {
+          "title": "Chronicle of the Czechs (Chronica Boemorum)",
+          "author": "Cosmas of Prague",
+          "note": "Finished about 1125; trans. Lisa Wolverton, Catholic University of America Press, 2009"
+        },
+        {
+          "title": "Počátky Přemyslovců",
+          "author": "Dušan Třeštík",
+          "note": "Nakladatelství Lidové noviny, 1997"
+        },
+        {
+          "title": "Annales Fuldenses (Annals of Fulda)",
+          "author": "Anonymous",
+          "note": "Entry for 895"
+        },
+        {
+          "title": "The Czechs and the Lands of the Bohemian Crown",
+          "author": "Hugh LeCaine Agnew",
+          "note": "Hoover Institution Press, 2004"
+        }
+      ],
+      "review": {
+        "status": "draft",
+        "notes": "Drafted from the listed sources; needs a human fact-check."
+      }
+    },
+    {
+      "id": "saint-wenceslaus",
+      "kind": "monarch",
+      "rulers": [
+        "saint-wenceslaus"
+      ],
+      "tagline": "The good duke murdered by his own brother",
+      "start": {
+        "date": "0921-02-13"
+      },
+      "end": {
+        "date": "0935-09-28"
+      },
+      "contestedWith": [],
+      "relationToPredecessor": "Son of Vratislaus I",
+      "ageAtAccession": "About 13",
+      "cameToPower": "Inherited as a boy",
+      "reignEnded": "Murdered at Stará Boleslav",
+      "previously": "Vratislaus dies in 921. His son Wenceslaus is still a child.",
+      "paragraphs": [
+        "Wenceslaus (Václav) was a boy when his father died, and the women around him went to war. His grandmother Ludmila had raised him as a Christian. His mother Drahomíra wanted control. In September 921 men sent by Drahomíra killed Ludmila at her castle of Tetín. Ludmila became a saint. A few years later, around 924 or 925, Wenceslaus took power himself and sent his mother away.",
+        "He was pious, bookish and builder of a church of St Vitus at Prague Castle. He was also a realist. When the German king Henry the Fowler marched on Prague in 929, Wenceslaus submitted and paid tribute. Some nobles hated that. So did his younger brother Boleslaus. In September 935 Boleslaus invited him to a feast at Stará Boleslav. Next morning, on his way to church, Wenceslaus was cut down at the door.",
+        "Within decades he was a saint, and later the patron of the whole Czech land. He was a duke, never a king. The English carol 'Good King Wenceslas' was written by J. M. Neale in 1853 and is pure invention."
+      ],
+      "claims": [
+        {
+          "text": "Ludmila was strangled with her own veil.",
+          "status": "legend",
+          "note": "The detail comes from the saints' lives written decades later. They agree she was strangled; the veil may be pious decoration."
+        },
+        {
+          "text": "Wenceslaus was killed in 935.",
+          "status": "disputed",
+          "note": "Most historians accept 935. Some early legends point to 929, and the debate has never quite closed."
+        },
+        {
+          "text": "An army of knights sleeps inside Blaník hill, waiting for Wenceslaus to lead them when the Czechs are in direst need.",
+          "status": "legend",
+          "note": "A folk legend first recorded centuries later. Still a favourite."
+        }
+      ],
+      "hook": "Wenceslaus lies dead at the church door. His killer is now duke, and he is about to pick a fight with the most powerful man in Europe.",
+      "images": [
+        {
+          "file": "File:Votivni obraz Ocko - Vaclav.jpg",
+          "url": "https://upload.wikimedia.org/wikipedia/commons/7/7b/Votivni_obraz_Ocko_-_Vaclav.jpg",
+          "page": "https://commons.wikimedia.org/wiki/File:Votivni_obraz_Ocko_-_Vaclav.jpg",
+          "credit": "Unknown painter",
+          "license": "Public domain",
+          "made": "c. 1370",
+          "caption": "St Wenceslaus on the votive panel of Archbishop Jan Očko of Vlašim, painted about 435 years after his death.",
+          "alt": "Gothic panel painting detail of Saint Wenceslaus"
+        }
+      ],
+      "sources": [
+        {
+          "title": "Legenda Christiani",
+          "author": "Christian (Kristián)",
+          "note": "Late 10th-century legend of Wenceslaus and Ludmila"
+        },
+        {
+          "title": "Chronicle of the Czechs (Chronica Boemorum)",
+          "author": "Cosmas of Prague",
+          "note": "Finished about 1125; trans. Lisa Wolverton, Catholic University of America Press, 2009"
+        },
+        {
+          "title": "Počátky Přemyslovců",
+          "author": "Dušan Třeštík",
+          "note": "Nakladatelství Lidové noviny, 1997"
+        }
+      ],
+      "review": {
+        "status": "draft",
+        "notes": "Drafted from the listed sources; needs a human fact-check."
+      }
+    },
+    {
+      "id": "boleslaus-i",
+      "kind": "monarch",
+      "rulers": [
+        "boleslaus-i"
+      ],
+      "tagline": "The brother-killer who built a Czech state",
+      "start": {
+        "date": "0935-09-28"
+      },
+      "end": {
+        "date": "0972-07"
+      },
+      "contestedWith": [],
+      "relationToPredecessor": "Younger brother of Wenceslaus",
+      "ageAtAccession": "Unknown",
+      "cameToPower": "Had his brother killed",
+      "reignEnded": "Died after a long reign",
+      "previously": "Wenceslaus is cut down at the church door. His brother is now duke.",
+      "paragraphs": [
+        "Boleslaus (Boleslav) got the throne with blood on his hands, and he ruled hard. Within a year he was fighting Otto I, the new German king, and the war dragged on for fourteen years. In 950 Otto marched into Bohemia, and Boleslaus gave in. After that he played the loyal vassal, and Bohemian troops rode with Otto when he smashed the Magyars at the Lechfeld in 955.",
+        "At home he built a real state, with castles, tribute and his own silver coins. Around 965 a Jewish traveller from Spain, Ibrahim ibn Yaqub, called Prague a busy town of stone where merchants came from far and wide to trade, slaves included. The same year Boleslaus married his daughter Dobrawa to Mieszko I of Poland. Mieszko was baptised a year later, and Poland became Christian.",
+        "He died in July, in 967 or 972. His son, also Boleslaus, inherited a strong duchy and a family name that needed some polishing."
+      ],
+      "claims": [
+        {
+          "text": "Boleslaus died in 972.",
+          "status": "disputed",
+          "note": "Some annals put his death in 967. The later date fits better with what his son did, and most modern work prefers it."
+        },
+        {
+          "text": "He swore to give his newborn son to the Church as penance for killing Wenceslaus.",
+          "status": "legend",
+          "note": "The story is in the Legend of Christian and Cosmas. It may be a tale told to explain a later monk-son, Strachkvas."
+        },
+        {
+          "text": "Ibrahim ibn Yaqub described Prague as a rich trading town built of stone and lime.",
+          "status": "confirmed",
+          "note": "His account survives in the 11th-century geographer al-Bakri."
+        }
+      ],
+      "hook": "Boleslaus the Cruel is dead. His son wants to be remembered as a good Christian prince. A bishop of his own would be a fine start.",
+      "images": [
+        {
+          "file": "File:Boleslav-I-Bohemian.jpg",
+          "url": "https://upload.wikimedia.org/wikipedia/commons/3/3c/Boleslav-I-Bohemian.jpg",
+          "page": "https://commons.wikimedia.org/wiki/File:Boleslav-I-Bohemian.jpg",
+          "credit": "Känsterle",
+          "license": "CC BY-SA 3.0",
+          "made": "Unknown",
+          "caption": "An image identified on Commons as Boleslaus I; no portrait from his lifetime survives.",
+          "alt": "Image labelled on Wikimedia Commons as Duke Boleslaus I of Bohemia"
+        }
+      ],
+      "sources": [
+        {
+          "title": "Res gestae Saxonicae",
+          "author": "Widukind of Corvey"
+        },
+        {
+          "title": "Chronicle of the Czechs (Chronica Boemorum)",
+          "author": "Cosmas of Prague",
+          "note": "Finished about 1125; trans. Lisa Wolverton, Catholic University of America Press, 2009"
+        },
+        {
+          "title": "Počátky Přemyslovců",
+          "author": "Dušan Třeštík",
+          "note": "Nakladatelství Lidové noviny, 1997"
+        },
+        {
+          "title": "Book of Roads and Kingdoms (Kitab al-Masalik wa'l-Mamalik)",
+          "author": "al-Bakri",
+          "note": "Preserves Ibrahim ibn Yaqub's account"
+        }
+      ],
+      "review": {
+        "status": "draft",
+        "notes": "Drafted from the listed sources; needs a human fact-check."
+      }
+    },
+    {
+      "id": "boleslaus-ii",
+      "kind": "monarch",
+      "rulers": [
+        "boleslaus-ii"
+      ],
+      "tagline": "A bishop for Prague and a massacre at Libice",
+      "start": {
+        "date": "0972-07"
+      },
+      "end": {
+        "date": "0999-02-07"
+      },
+      "contestedWith": [],
+      "relationToPredecessor": "Son of Boleslaus I",
+      "ageAtAccession": "Unknown",
+      "cameToPower": "Succeeded his father",
+      "reignEnded": "Died after a long illness",
+      "previously": "Boleslaus the Cruel dies. His son of the same name takes over.",
+      "paragraphs": [
+        "Boleslaus II earned the name 'the Pious'. In 973 a bishopric was set up in Prague, and its first bishop arrived in 976. The Czechs had their own church at last. His mints at Prague turned out silver pennies, called denars, that traded across Europe. The second bishop was a Czech noble named Adalbert (Vojtěch), from the rich Slavník clan, which ran its own lands from the fortress of Libice.",
+        "Adalbert was a saint in the making and a nightmare to work with. He scolded the Czechs for their slave trade and their loose morals, and twice walked out on his see. In 995, while the Slavník brothers were away, the duke's men stormed Libice on 28 September and killed most of the family left inside. Adalbert never came home. He went off to preach to the pagan Prussians, who killed him in 997.",
+        "Boleslaus was ill for years and died in February 999, leaving three sons who hated each other."
+      ],
+      "claims": [
+        {
+          "text": "The Slavník family was massacred at Libice on 28 September 995.",
+          "status": "confirmed",
+          "note": "Told in the lives of Adalbert and by Thietmar and Cosmas. Who gave the order, and how far the duke was involved, is less clear."
+        },
+        {
+          "text": "Adalbert left Prague because the Czechs would not give up their sinful ways.",
+          "status": "disputed",
+          "note": "That's the version in his saints' lives. Politics, and his family's clash with the duke, mattered too."
+        },
+        {
+          "text": "Prague's denars were minted in his name.",
+          "status": "confirmed",
+          "note": "Many hoards of his coins have been found across northern and eastern Europe."
+        }
+      ],
+      "hook": "The pious duke is dead. His eldest son is a brute, his two younger sons are in danger, and the king of Poland is watching closely.",
+      "images": [
+        {
+          "file": "File:Bolesław II Pobożny.jpg",
+          "url": "https://upload.wikimedia.org/wikipedia/commons/d/d8/Boles%C5%82aw_II_Pobo%C5%BCny.jpg",
+          "page": "https://commons.wikimedia.org/wiki/File:Boles%C5%82aw_II_Pobo%C5%BCny.jpg",
+          "credit": "Anonymous fresco painter, Rotunda of St Catherine, Znojmo",
+          "license": "Public domain",
+          "made": "c. 1134",
+          "caption": "Boleslaus II on the walls of the Znojmo rotunda, painted around 1134, well over a century after his death.",
+          "alt": "Romanesque wall painting of Duke Boleslaus II from the rotunda at Znojmo"
+        }
+      ],
+      "sources": [
+        {
+          "title": "Chronicle of the Czechs (Chronica Boemorum)",
+          "author": "Cosmas of Prague",
+          "note": "Finished about 1125; trans. Lisa Wolverton, Catholic University of America Press, 2009"
+        },
+        {
+          "title": "Chronicon",
+          "author": "Thietmar of Merseburg"
+        },
+        {
+          "title": "Vita prior of St Adalbert",
+          "author": "Anonymous (attributed to John Canaparius)"
+        },
+        {
+          "title": "Počátky Přemyslovců",
+          "author": "Dušan Třeštík",
+          "note": "Nakladatelství Lidové noviny, 1997"
+        }
+      ],
+      "review": {
+        "status": "draft",
+        "notes": "Drafted from the listed sources; needs a human fact-check."
+      }
+    },
+    {
+      "id": "brothers-at-war",
+      "kind": "interregnum",
+      "title": "Brothers at War",
+      "house": "premyslid",
+      "rulers": [],
+      "tagline": "Castration, blinding and a Polish king in Prague",
+      "start": {
+        "date": "0999-02-07"
+      },
+      "end": {
+        "date": "1034-11-09"
+      },
+      "contestedWith": [],
+      "relationToPredecessor": "Sons of Boleslaus II and a cousin",
+      "ageAtAccession": "Various",
+      "cameToPower": "Rival brothers and invaders",
+      "reignEnded": "Oldřich dies suddenly",
+      "previously": "Boleslaus the Pious dies, leaving three quarrelling sons.",
+      "paragraphs": [
+        "Boleslaus III, 'the Red', was the eldest, and terrifying. Fearing his brothers Jaromír and Oldřich, he had Jaromír castrated and drove both into exile. In 1002 his own nobles threw him out and brought in a cousin, Vladivoj, who died the next year. Boleslaus came back and slaughtered the nobles who had crossed him. Then Bolesław the Brave of Poland invited him over, had him blinded, and took Prague for himself in 1003.",
+        "The German king Henry II wanted no Polish empire on his doorstep. In 1004 he marched in with Jaromír, and the Poles fled. Jaromír was duke, but in 1012 his brother Oldřich pushed him aside. Oldřich won Moravia back from the Poles. He also gave Bohemia a famous romance: out riding, he saw a girl named Božena washing linen at a well and made her his wife.",
+        "Oldřich and Jaromír kept trading power and blows. Oldřich died suddenly on 9 November 1034. The future belonged to Božena's son."
+      ],
+      "claims": [
+        {
+          "text": "Boleslaus III had his brother Jaromír castrated.",
+          "status": "disputed",
+          "note": "Thietmar of Merseburg, a near contemporary, says so. He had no love for Czech dukes, but nothing contradicts him."
+        },
+        {
+          "text": "Oldřich fell for the peasant girl Božena at a well.",
+          "status": "legend",
+          "note": "The scene comes from Cosmas, a century later. Božena was real, but her humble birth may be romance."
+        },
+        {
+          "text": "Moravia was recovered from Poland in 1019.",
+          "status": "disputed",
+          "note": "Some historians argue for 1019, others for about 1029. The sources are too thin to settle it."
+        }
+      ],
+      "hook": "Oldřich is dead. His son Bretislaus is young, bold and already famous for stealing a bride from a convent.",
+      "images": [
+        {
+          "file": "File:Oldrzych.jpg",
+          "url": "https://upload.wikimedia.org/wikipedia/commons/9/9c/Oldrzych.jpg",
+          "page": "https://commons.wikimedia.org/wiki/File:Oldrzych.jpg",
+          "credit": "Anonymous fresco painter, Rotunda of St Catherine, Znojmo",
+          "license": "Public domain",
+          "made": "c. 1134",
+          "caption": "Oldřich, the last of the warring brothers, as painted at Znojmo around 1134, a century after his death.",
+          "alt": "Romanesque wall painting of Duke Oldřich from the rotunda at Znojmo"
+        }
+      ],
+      "sources": [
+        {
+          "title": "Chronicon",
+          "author": "Thietmar of Merseburg"
+        },
+        {
+          "title": "Chronicle of the Czechs (Chronica Boemorum)",
+          "author": "Cosmas of Prague",
+          "note": "Finished about 1125; trans. Lisa Wolverton, Catholic University of America Press, 2009"
+        },
+        {
+          "title": "Čechy v době knížecí (1034–1198)",
+          "author": "Josef Žemlička",
+          "note": "Nakladatelství Lidové noviny, 1997"
+        }
+      ],
+      "review": {
+        "status": "draft",
+        "notes": "Drafted from the listed sources; needs a human fact-check."
+      }
+    },
+    {
+      "id": "bretislaus-i",
+      "kind": "monarch",
+      "rulers": [
+        "bretislaus-i"
+      ],
+      "tagline": "The bride thief who stole a saint from Poland",
+      "start": {
+        "date": "1035"
+      },
+      "end": {
+        "date": "1055-01-10"
+      },
+      "contestedWith": [],
+      "relationToPredecessor": "Son of Oldřich",
+      "ageAtAccession": "Unknown",
+      "cameToPower": "Succeeded his father and uncle",
+      "reignEnded": "Died at Chrudim",
+      "previously": "Oldřich dies suddenly in 1034. His son Bretislaus is next.",
+      "paragraphs": [
+        "Cosmas called Bretislaus (Břetislav) the Bohemian Achilles, and gave him a hero's love story. As a young man he wanted Judith, the daughter of a German count, who lived in a convent at Schweinfurt. So he rode in, snatched her and carried her off to Bohemia. Once duke, he went bigger. Around 1038 or 1039 he stormed into Poland, sacked Gniezno and carried off the bones of St Adalbert to Prague.",
+        "The German king Henry III would not tolerate that kind of power grab. In 1040 he invaded, and the Czechs ambushed and beat his army in the forests at Brůdek. Henry came back in 1041, reached Prague, and Bretislaus had to submit and give up most of what he'd taken. He stayed a loyal vassal from then on.",
+        "Before he died at Chrudim in January 1055 he set a rule: the eldest Přemyslid would always be duke. It was meant to stop civil war. It would cause a great deal of it."
+      ],
+      "claims": [
+        {
+          "text": "Bretislaus carried Judith off from her convent at Schweinfurt.",
+          "status": "legend",
+          "note": "Cosmas tells it with gusto, even saying he slashed through a chain on the gate. The marriage is real; the raid may be embroidered."
+        },
+        {
+          "text": "He took St Adalbert's relics from Gniezno to Prague.",
+          "status": "confirmed",
+          "note": "Polish and Czech sources agree, and the bones were a prize Gniezno never forgave."
+        },
+        {
+          "text": "He laid down that the eldest Přemyslid should always rule.",
+          "status": "disputed",
+          "note": "Cosmas reports the rule. How formal it was, and what exactly it said, historians still argue."
+        }
+      ],
+      "hook": "Bretislaus is dead. His eldest son Spytihněv rules for six years. Then the next brother, Vratislaus, gets his turn and dreams of a crown.",
+      "images": [
+        {
+          "file": "File:Břetislav I.-Chrudim2.jpg",
+          "url": "https://upload.wikimedia.org/wikipedia/commons/2/26/B%C5%99etislav_I.-Chrudim2.jpg",
+          "page": "https://commons.wikimedia.org/wiki/File:B%C5%99etislav_I.-Chrudim2.jpg",
+          "credit": "Ben Skála",
+          "license": "CC BY 2.5",
+          "made": "Modern statue; photo 2007",
+          "caption": "His statue in Chrudim, the town where he died; a modern work, not a likeness.",
+          "alt": "Statue of Duke Bretislaus I on Žižka Square in Chrudim"
+        }
+      ],
+      "sources": [
+        {
+          "title": "Chronicle of the Czechs (Chronica Boemorum)",
+          "author": "Cosmas of Prague",
+          "note": "Finished about 1125; trans. Lisa Wolverton, Catholic University of America Press, 2009"
+        },
+        {
+          "title": "Čechy v době knížecí (1034–1198)",
+          "author": "Josef Žemlička",
+          "note": "Nakladatelství Lidové noviny, 1997"
+        },
+        {
+          "title": "Hastening Toward Prague: Power and Society in the Medieval Czech Lands",
+          "author": "Lisa Wolverton",
+          "note": "University of Pennsylvania Press, 2001"
+        }
+      ],
+      "review": {
+        "status": "draft",
+        "notes": "Drafted from the listed sources; needs a human fact-check."
+      }
+    },
+    {
+      "id": "vratislaus-ii",
+      "kind": "monarch",
+      "rulers": [
+        "vratislaus-ii"
+      ],
+      "tagline": "Bohemia's first king, by the emperor's grace",
+      "start": {
+        "date": "1061-01-28"
+      },
+      "end": {
+        "date": "1092-01-14"
+      },
+      "contestedWith": [],
+      "relationToPredecessor": "Brother of Spytihněv II",
+      "ageAtAccession": "Late 20s",
+      "cameToPower": "Succeeded his brother",
+      "reignEnded": "Hunting fall",
+      "previously": "Bretislaus dies; his son Spytihněv II rules until 1061.",
+      "paragraphs": [
+        "Vratislaus (Vratislav) took over from his brother Spytihněv II, the next in line under their father's rule of seniority. He bet his reign on one man, the emperor Henry IV. When the pope and the emperor fought over who could appoint bishops, Vratislaus stuck with Henry through every defeat. Czech knights fought in his wars in Saxony and Italy.",
+        "Loyalty paid. In 1085 Henry made him King of Bohemia, and he was crowned in Prague the next year. The title was a reward for him alone, not for his sons. He moved his court to the rock of Vyšehrad and founded a church there. At home he fought his own brother Jaromír, who had become Bishop of Prague as Gebhard and was a proud, violent priest.",
+        "In January 1092 he fell from his horse while hunting and died. The crown died with him, and the seniority rule handed the duchy to his brother Conrad."
+      ],
+      "claims": [
+        {
+          "text": "He was made the first King of Bohemia in 1085.",
+          "status": "confirmed",
+          "note": "Henry IV granted the title at a synod at Mainz; the coronation followed in Prague in 1086. It was for life only."
+        },
+        {
+          "text": "The Vyšehrad Codex was made for his coronation.",
+          "status": "disputed",
+          "note": "A lovely gospel book from about 1085. Tradition ties it to the coronation, but there's no proof."
+        },
+        {
+          "text": "He died after falling from his horse while hunting.",
+          "status": "disputed",
+          "note": "Cosmas says so. No other early source gives details."
+        }
+      ],
+      "hook": "The king is dead and Bohemia is a duchy again. Under Bretislaus's rule, any grown Přemyslid with an army thinks his turn has come.",
+      "images": [
+        {
+          "file": "File:Vratislav II 140x190.jpg",
+          "url": "https://upload.wikimedia.org/wikipedia/commons/0/0e/Vratislav_II_140x190.jpg",
+          "page": "https://commons.wikimedia.org/wiki/File:Vratislav_II_140x190.jpg",
+          "credit": "Anonymous fresco painter, Rotunda of St Catherine, Znojmo",
+          "license": "Public domain",
+          "made": "c. 1134",
+          "caption": "Vratislaus II, Bohemia's first king, painted at Znojmo around 1134, about 40 years after his death.",
+          "alt": "Romanesque wall painting of King Vratislaus II from the rotunda at Znojmo"
+        }
+      ],
+      "sources": [
+        {
+          "title": "Chronicle of the Czechs (Chronica Boemorum)",
+          "author": "Cosmas of Prague",
+          "note": "Finished about 1125; trans. Lisa Wolverton, Catholic University of America Press, 2009"
+        },
+        {
+          "title": "Čechy v době knížecí (1034–1198)",
+          "author": "Josef Žemlička",
+          "note": "Nakladatelství Lidové noviny, 1997"
+        },
+        {
+          "title": "Hastening Toward Prague: Power and Society in the Medieval Czech Lands",
+          "author": "Lisa Wolverton",
+          "note": "University of Pennsylvania Press, 2001"
+        },
+        {
+          "title": "Codex Vyssegradensis",
+          "author": "Anonymous",
+          "note": "National Library of the Czech Republic"
+        }
+      ],
+      "review": {
+        "status": "draft",
+        "notes": "Drafted from the listed sources; needs a human fact-check."
+      }
+    },
+    {
+      "id": "seniority-wars",
+      "kind": "interregnum",
+      "title": "The Seniority Wars",
+      "house": "premyslid",
+      "rulers": [],
+      "tagline": "Six dukes, two murders and a chronicler taking notes",
+      "start": {
+        "date": "1092-01-14"
+      },
+      "end": {
+        "date": "1140-02-14"
+      },
+      "contestedWith": [],
+      "relationToPredecessor": "Brothers, sons and nephews",
+      "ageAtAccession": "Various",
+      "cameToPower": "By seniority, or by force",
+      "reignEnded": "Soběslav I dies",
+      "previously": "Vratislaus II, Bohemia's first king, dies after a hunting fall.",
+      "paragraphs": [
+        "The rule said the eldest Přemyslid should rule. With so many cousins, everyone thought he was the eldest. Conrad I lasted a few months. Bretislaus II ruled until he was murdered while out hunting on 22 December 1100. Bořivoj II was pushed aside by his cousin Svatopluk, who slaughtered the powerful Vršovci clan in 1108 and was murdered in his turn in 1109. Vladislaus I and Bořivoj II then traded the throne.",
+        "Then came Soběslav I, the toughest of the lot. In 1126 the emperor Lothair III invaded to back a rival. At Chlumec the Czechs trapped and crushed his army, and Lothair had to make peace. Meanwhile an old priest named Cosmas was finishing his Chronicle of the Czechs, around 1125. It gave the nation its founding stories, from Libuše to Přemysl the Ploughman.",
+        "Soběslav died on 14 February 1140. He wanted his son to follow him. The nobles picked his nephew instead."
+      ],
+      "claims": [
+        {
+          "text": "Svatopluk had the Vršovci clan massacred in 1108.",
+          "status": "confirmed",
+          "note": "Cosmas, who lived through it, describes the killings. The clan had long been rivals of the dukes."
+        },
+        {
+          "text": "Soběslav I beat Emperor Lothair III at Chlumec in 1126.",
+          "status": "confirmed",
+          "note": "Reported by Czech and German chroniclers. It's one of very few Czech wins over an emperor in person."
+        },
+        {
+          "text": "Libuše and the founding legends are history.",
+          "status": "legend",
+          "note": "Cosmas himself admitted they were old tales. We owe them to him."
+        }
+      ],
+      "hook": "Soběslav is dead and the nobles have chosen a new duke, Vladislaus. He will need to beat his cousins first. Then he will chase a crown.",
+      "images": [
+        {
+          "file": "File:Sobiesław I.jpg",
+          "url": "https://upload.wikimedia.org/wikipedia/commons/2/23/Sobies%C5%82aw_I.jpg",
+          "page": "https://commons.wikimedia.org/wiki/File:Sobies%C5%82aw_I.jpg",
+          "credit": "Anonymous fresco painter, Rotunda of St Catherine, Znojmo",
+          "license": "Public domain",
+          "made": "c. 1134",
+          "caption": "Soběslav I, painted at Znojmo around 1134, while he was still duke.",
+          "alt": "Romanesque wall painting of Duke Soběslav I from the rotunda at Znojmo"
+        }
+      ],
+      "sources": [
+        {
+          "title": "Chronicle of the Czechs (Chronica Boemorum)",
+          "author": "Cosmas of Prague",
+          "note": "Finished about 1125; trans. Lisa Wolverton, Catholic University of America Press, 2009"
+        },
+        {
+          "title": "Čechy v době knížecí (1034–1198)",
+          "author": "Josef Žemlička",
+          "note": "Nakladatelství Lidové noviny, 1997"
+        },
+        {
+          "title": "Hastening Toward Prague: Power and Society in the Medieval Czech Lands",
+          "author": "Lisa Wolverton",
+          "note": "University of Pennsylvania Press, 2001"
+        },
+        {
+          "title": "Continuations of Cosmas (Canon of Vyšehrad, Monk of Sázava)",
+          "author": "Anonymous"
+        }
+      ],
+      "review": {
+        "status": "draft",
+        "notes": "Drafted from the listed sources; needs a human fact-check."
+      }
+    },
+    {
+      "id": "vladislaus-ii-premyslid",
+      "kind": "monarch",
+      "rulers": [
+        "vladislaus-ii-premyslid"
+      ],
+      "tagline": "A crown from Barbarossa and a bridge for his queen",
+      "start": {
+        "date": "1140-02"
+      },
+      "end": {
+        "date": "1172"
+      },
+      "contestedWith": [],
+      "relationToPredecessor": "Son of Vladislaus I",
+      "ageAtAccession": "About 30",
+      "cameToPower": "Elected by the nobles",
+      "reignEnded": "Abdicated, died in exile",
+      "previously": "Soběslav I dies. The nobles pass over his son.",
+      "paragraphs": [
+        "This Vladislaus (Vladislav) is the first of two Vladislaus IIs in Czech history; the other is a Polish prince three centuries later. Elected by the nobles in 1140, he soon learned what they thought of him. In 1142 the princes of Moravia rose, beat his army and besieged Prague. He held on with help from the German king. In 1147 he went on the Second Crusade.",
+        "His big moment came with Frederick Barbarossa. The emperor needed troops to crush Milan, and in January 1158 at Regensburg he made Vladislaus a king in return. Czech knights fought hard in Italy. Back home, Prague got its first stone bridge across the Vltava, named the Judith Bridge after his queen. It stood until a flood wrecked it in 1342.",
+        "Old and tired, in 1172 he handed Bohemia to his son Frederick without asking the emperor. Barbarossa was furious. Vladislaus died in exile in Thuringia in 1174."
+      ],
+      "claims": [
+        {
+          "text": "Barbarossa crowned him king in exchange for help against Milan.",
+          "status": "confirmed",
+          "note": "Vincent of Prague, who went to Italy with Bishop Daniel of Prague, tells the story in detail."
+        },
+        {
+          "text": "He abdicated in 1172.",
+          "status": "disputed",
+          "note": "Some sources date the handover to 1173. Either way, the emperor was not consulted."
+        },
+        {
+          "text": "The bridge was named after Queen Judith because she paid for it.",
+          "status": "disputed",
+          "note": "The name is old; who funded it is not recorded for certain."
+        }
+      ],
+      "hook": "The king has left without the emperor's blessing. The crown slips away, and Barbarossa now picks Bohemia's dukes like chess pieces.",
+      "images": [
+        {
+          "file": "File:Vladislao II di Boemia, re di Boemia.jpg",
+          "url": "https://upload.wikimedia.org/wikipedia/commons/3/31/Vladislao_II_di_Boemia%2C_re_di_Boemia.jpg",
+          "page": "https://commons.wikimedia.org/wiki/File:Vladislao_II_di_Boemia,_re_di_Boemia.jpg",
+          "credit": "Unknown engraver",
+          "license": "CC0",
+          "made": "1820",
+          "caption": "A woodcut from Hormayr's 'Austrian Plutarch' of 1820, made over 600 years after his death from imagination.",
+          "alt": "Woodcut portrait of King Vladislaus II of Bohemia from a 19th-century book"
+        }
+      ],
+      "sources": [
+        {
+          "title": "Annales (Chronicle)",
+          "author": "Vincent of Prague"
+        },
+        {
+          "title": "Chronicle of the Czechs (Chronica Boemorum)",
+          "author": "Cosmas of Prague",
+          "note": "Finished about 1125; trans. Lisa Wolverton, Catholic University of America Press, 2009"
+        },
+        {
+          "title": "Čechy v době knížecí (1034–1198)",
+          "author": "Josef Žemlička",
+          "note": "Nakladatelství Lidové noviny, 1997"
+        },
+        {
+          "title": "Gesta Friderici",
+          "author": "Rahewin (continuing Otto of Freising)"
+        }
+      ],
+      "review": {
+        "status": "draft",
+        "notes": "Drafted from the listed sources; needs a human fact-check."
+      }
+    },
+    {
+      "id": "dukes-again",
+      "kind": "interregnum",
+      "title": "Dukes Again",
+      "house": "premyslid",
+      "rulers": [],
+      "tagline": "No crown, many dukes, and an emperor pulling strings",
+      "start": {
+        "date": "1172"
+      },
+      "end": {
+        "date": "1197-12-06"
+      },
+      "contestedWith": [],
+      "relationToPredecessor": "Sons and cousins of Vladislaus II",
+      "ageAtAccession": "Various",
+      "cameToPower": "By the emperor's choice",
+      "reignEnded": "A deal between two brothers",
+      "previously": "Vladislaus II abdicates and dies in exile. The crown lapses.",
+      "paragraphs": [
+        "Bohemia was a duchy again, and the emperor ran the show. He threw out Vladislaus's son Frederick and let in Soběslav II, a rough soldier the nobles mocked as 'Prince of the Peasants' because he protected ordinary folk. Then Frederick came back. In 1182 Barbarossa made Moravia a separate margraviate under the empire, splitting the Czech lands.",
+        "Next came Conrad Otto, whose Statutes of 1189 wrote down noble rights. He died on campaign in Italy. Vladislaus's son Ottokar had a short go in 1192 and was thrown out the next year. A Přemyslid bishop, Henry Bretislaus, then ruled as Bishop of Prague and duke at once, until 1197.",
+        "Bishop Henry's successor was Vladislaus Henry, Ottokar's younger brother. On 6 December 1197 he made a deal: Ottokar got Bohemia, and Vladislaus Henry took Moravia. No battle, no blinding. Just two brothers sharing."
+      ],
+      "claims": [
+        {
+          "text": "Soběslav II was called 'Prince of the Peasants'.",
+          "status": "confirmed",
+          "note": "Later Czech chroniclers use the nickname. The reasons behind it are told more by legend than record."
+        },
+        {
+          "text": "The Statutes of Conrad Otto (1189) were the first written law of Bohemia.",
+          "status": "disputed",
+          "note": "They're the earliest surviving grant of noble rights, but they may have been confirmed or reworded later."
+        },
+        {
+          "text": "Barbarossa made Moravia a margraviate in 1182.",
+          "status": "confirmed",
+          "note": "Recorded in German and Czech annals. It took Moravia out of Prague's direct control for a time."
+        }
+      ],
+      "hook": "Ottokar finally has Bohemia. Germany has two rival kings, both desperate for friends. A clever duke could sell himself for a crown.",
+      "images": [
+        {
+          "file": "File:PecetKonradaIIOty.jpg",
+          "url": "https://upload.wikimedia.org/wikipedia/commons/1/16/PecetKonradaIIOty.jpg",
+          "page": "https://commons.wikimedia.org/wiki/File:PecetKonradaIIOty.jpg",
+          "credit": "August Sedláček",
+          "license": "Public domain",
+          "made": "19th century",
+          "caption": "The seal of Duke Conrad Otto, maker of the 1189 Statutes, as drawn by the historian August Sedláček in the 19th century.",
+          "alt": "Drawing of the seal of Conrad Otto, Duke of Bohemia"
+        }
+      ],
+      "sources": [
+        {
+          "title": "Čechy v době knížecí (1034–1198)",
+          "author": "Josef Žemlička",
+          "note": "Nakladatelství Lidové noviny, 1997"
+        },
+        {
+          "title": "Hastening Toward Prague: Power and Society in the Medieval Czech Lands",
+          "author": "Lisa Wolverton",
+          "note": "University of Pennsylvania Press, 2001"
+        },
+        {
+          "title": "Annals of Gerlach of Mühlhausen",
+          "author": "Gerlach of Mühlhausen"
+        }
+      ],
+      "review": {
+        "status": "draft",
+        "notes": "Drafted from the listed sources; needs a human fact-check."
+      }
+    },
+    {
+      "id": "ottokar-i",
+      "kind": "monarch",
+      "rulers": [
+        "ottokar-i"
+      ],
+      "tagline": "The turncoat duke who made Bohemia a kingdom for good",
+      "start": {
+        "date": "1197-12-06"
+      },
+      "end": {
+        "date": "1230-12-15"
+      },
+      "contestedWith": [],
+      "relationToPredecessor": "Brother of Vladislaus Henry",
+      "ageAtAccession": "About 42",
+      "cameToPower": "Brother stepped aside for him",
+      "reignEnded": "Died in old age",
+      "previously": "Vladislaus Henry swaps Bohemia for Moravia. Ottokar is back in Prague.",
+      "paragraphs": [
+        "Ottokar, Přemysl Otakar in Czech, had been duke once before and lost the job within a year. Second time round he played it smarter. In 1198 Germany had two rival kings, Philip of Swabia and Otto of Brunswick, and both needed friends. Ottokar backed Philip, who crowned him king. When Otto looked like the better bet, Ottokar switched sides. Then he switched again. Each time the price was the same: recognise my crown.",
+        "Earlier kings of Bohemia got the title for life only. Ottokar wanted it nailed down. In 1212 the young Frederick II, desperate for allies, issued the Golden Bull of Sicily. It confirmed the royal title for Ottokar's heirs and let the Czechs choose their own king. At home he dumped his first wife, Adela of Meissen, to marry Constance of Hungary, and fought Adela's family and the Pope over it for years.",
+        "He also killed off the old seniority rule, where the eldest Přemyslid inherited and brothers and cousins fought over it. Instead he had his own son Wenceslaus crowned in 1228, while he was still alive. When Ottokar died two years later, nobody argued."
+      ],
+      "claims": [
+        {
+          "text": "The Golden Bull of Sicily made the Bohemian crown hereditary.",
+          "status": "confirmed",
+          "note": "The charter, issued at Basel in September 1212 and sealed with the gold seal of Frederick II as King of Sicily, survives in Prague."
+        },
+        {
+          "text": "Ottokar changed sides in the German civil war at least twice.",
+          "status": "confirmed",
+          "note": "Chronicles and charters show him with Philip, then Otto, then Philip's camp again. Historians see it as cold calculation."
+        },
+        {
+          "text": "Ottokar divorced Adela because they were too closely related.",
+          "status": "disputed",
+          "note": "That was the legal excuse offered to the Church. Most historians think he simply wanted the Hungarian alliance that came with Constance."
+        }
+      ],
+      "hook": "The old fox dies with his heir already crowned. But the new king, Wenceslaus, has only one good eye, and out east a storm is building on the steppe.",
+      "images": [
+        {
+          "file": "File:OttocarusPrimus.jpg",
+          "url": "https://upload.wikimedia.org/wikipedia/commons/3/39/OttocarusPrimus.jpg",
+          "page": "https://commons.wikimedia.org/wiki/File:OttocarusPrimus.jpg",
+          "credit": "Packare (photo)",
+          "license": "CC BY-SA 4.0",
+          "made": "1220s; photo 2015",
+          "caption": "A stone relief from St George's Convent at Prague Castle, carved within a few years of his reign.",
+          "alt": "Romanesque stone relief showing King Ottokar I of Bohemia, from St George's Convent, Prague Castle"
+        }
+      ],
+      "sources": [
+        {
+          "title": "Přemysl Otakar I.: Panovník, stát a česká společnost na prahu vrcholného feudalismu",
+          "author": "Josef Žemlička",
+          "note": "Mladá fronta, 1990"
+        },
+        {
+          "title": "The Czechs and the Lands of the Bohemian Crown",
+          "author": "Hugh LeCaine Agnew",
+          "note": "Hoover Institution Press, 2004"
+        },
+        {
+          "title": "Continuations of the Chronicle of Cosmas (Pokračovatelé Kosmovi)",
+          "author": "Anonymous Prague chroniclers"
+        }
+      ],
+      "review": {
+        "status": "draft",
+        "notes": "Drafted from the listed sources; needs a human fact-check."
+      }
+    },
+    {
+      "id": "wenceslaus-i",
+      "kind": "monarch",
+      "rulers": [
+        "wenceslaus-i"
+      ],
+      "tagline": "The one-eyed king who loved knights, songs and hunting",
+      "start": {
+        "date": "1230-12-15"
+      },
+      "end": {
+        "date": "1253-09-23"
+      },
+      "contestedWith": [],
+      "relationToPredecessor": "Son of Ottokar I",
+      "ageAtAccession": "About 25",
+      "cameToPower": "Crowned in his father's lifetime",
+      "reignEnded": "Died at Počaply",
+      "previously": "Ottokar I dies, with his son Wenceslaus already crowned king.",
+      "paragraphs": [
+        "Don't mix him up with the saint. This Wenceslaus, Václav in Czech, ruled three hundred years later and wore a real king's crown. He lost an eye as a young man, and he lived for the hunt and the tournament. German poets sang at his court, and German settlers poured in to clear forests, dig mines and found new walled towns with their own laws.",
+        "In 1241 the Mongols smashed the Poles and Germans at Legnica in Silesia. Wenceslaus was marching to help and arrived too late, then held the border. His eldest son died young in 1247, and the next one, Ottokar, did not wait his turn: he led a noble revolt in 1248 and called himself the younger king. Wenceslaus beat him, forgave him and sent him off to grab Austria.",
+        "His sister Agnes turned down royal suitors, maybe even an emperor, and founded a convent of Poor Clares and a hospital in Prague. Wenceslaus died in September 1253, and the rebel son walked in as king."
+      ],
+      "claims": [
+        {
+          "text": "Wenceslaus lost his eye in a hunting accident.",
+          "status": "disputed",
+          "note": "That's the usual story, but no contemporary explains how it happened. Chroniclers only note that he was one-eyed."
+        },
+        {
+          "text": "The Bohemian army was just a day's march short of Legnica.",
+          "status": "disputed",
+          "note": "Later chronicles say so, and it makes a dramatic near-miss. How close the army really was is uncertain."
+        },
+        {
+          "text": "Agnes's canonisation in November 1989 freed the nation.",
+          "status": "legend",
+          "note": "An old prophecy said good things would come to Bohemia when Agnes was made a saint. She was canonised on 12 November 1989; the Velvet Revolution began five days later."
+        }
+      ],
+      "hook": "The rebel son is now king, and he is already Duke of Austria. He has silver, an army and an appetite for much more.",
+      "images": [
+        {
+          "file": "File:Vaclav I.jpg",
+          "url": "https://upload.wikimedia.org/wikipedia/commons/7/71/Vaclav_I.jpg",
+          "page": "https://commons.wikimedia.org/wiki/File:Vaclav_I.jpg",
+          "credit": "Antonín Popp",
+          "license": "Public domain",
+          "made": "1890",
+          "caption": "Antonín Popp's design for a medallion in the National Museum in Prague, made over 600 years after his death.",
+          "alt": "Design for a portrait medallion of King Wenceslaus I of Bohemia"
+        }
+      ],
+      "sources": [
+        {
+          "title": "Století posledních Přemyslovců",
+          "author": "Josef Žemlička",
+          "note": "Panorama, 1986"
+        },
+        {
+          "title": "The Czechs and the Lands of the Bohemian Crown",
+          "author": "Hugh LeCaine Agnew",
+          "note": "Hoover Institution Press, 2004"
+        },
+        {
+          "title": "Continuations of the Chronicle of Cosmas (Pokračovatelé Kosmovi)",
+          "author": "Anonymous Prague chroniclers"
+        }
+      ],
+      "review": {
+        "status": "draft",
+        "notes": "Drafted from the listed sources; needs a human fact-check."
+      }
+    },
+    {
+      "id": "ottokar-ii",
+      "kind": "monarch",
+      "rulers": [
+        "ottokar-ii"
+      ],
+      "tagline": "Iron in battle, gold in the treasury, dead on the Marchfeld",
+      "start": {
+        "date": "1253-09-23"
+      },
+      "end": {
+        "date": "1278-08-26"
+      },
+      "contestedWith": [],
+      "relationToPredecessor": "Son of Wenceslaus I",
+      "ageAtAccession": "About 20",
+      "cameToPower": "Succeeded his father",
+      "reignEnded": "Killed at the Marchfeld",
+      "previously": "Wenceslaus I dies at Počaply. His rebel son Ottokar takes the crown.",
+      "paragraphs": [
+        "Ottokar II, Přemysl Otakar II, wanted it all. To get Austria he married Margaret of Babenberg, the last of its old ruling family and decades older than him. In 1260 he crushed Béla IV of Hungary at Kressenbrunn and took Styria, then swapped Margaret for Béla's young granddaughter. Later came Carinthia and Carniola. His lands now ran from the Giant Mountains to the Adriatic.",
+        "He was called the Iron and Golden King: iron for his armies, gold for the silver flowing out of mines like Jihlava. He went crusading with the Teutonic Knights against the pagan Prussians, and a fort there took his name. In 1273 the German electors passed him over for a modest Swabian count, Rudolf of Habsburg. Ottokar refused to bow.",
+        "Rudolf took Austria off him in 1276. Two years later Ottokar marched back, and on 26 August 1278 he lost the battle of the Marchfeld near Dürnkrut. He was killed on the field, stripped, and his body was put on show in Vienna. His heir was six years old."
+      ],
+      "claims": [
+        {
+          "text": "Königsberg, now Kaliningrad, was named in Ottokar's honour.",
+          "status": "disputed",
+          "note": "The Teutonic Knights founded it during his 1255 crusade and the name means King's Mountain. Most historians accept the link to Ottokar, though no founding charter spells it out."
+        },
+        {
+          "text": "Ottokar was murdered after the battle by Austrian knights with a grudge.",
+          "status": "disputed",
+          "note": "Austrian and Czech chroniclers say personal enemies cut him down once he was captured or unhorsed. Details differ from source to source."
+        },
+        {
+          "text": "Dante put Ottokar in Purgatory, comforting his old enemy Rudolf.",
+          "status": "confirmed",
+          "note": "In Purgatorio, canto VII, the two rivals sit side by side in the valley of negligent princes."
+        }
+      ],
+      "hook": "Ottokar's body is on display in Vienna. In Prague a six-year-old boy is king, and his guardian is about to lock him in a castle.",
+      "images": [
+        {
+          "file": "File:Ottokar II of Bohemia.jpg",
+          "url": "https://upload.wikimedia.org/wikipedia/commons/3/3b/Ottokar_II_of_Bohemia.jpg",
+          "page": "https://commons.wikimedia.org/wiki/File:Ottokar_II_of_Bohemia.jpg",
+          "credit": "Antoni Boys",
+          "license": "Public domain",
+          "made": "Late 16th century",
+          "caption": "An imagined portrait by the court painter Antoni Boys, made about 300 years after Ottokar died.",
+          "alt": "Painted portrait of King Ottokar II of Bohemia"
+        }
+      ],
+      "sources": [
+        {
+          "title": "Přemysl Otakar II. von Böhmen: Der goldene König",
+          "author": "Jörg K. Hoensch",
+          "note": "Styria, 1989"
+        },
+        {
+          "title": "Přemysl Otakar II.: Král na rozhraní věků",
+          "author": "Josef Žemlička",
+          "note": "Nakladatelství Lidové noviny, 2011"
+        },
+        {
+          "title": "Österreichische Reimchronik",
+          "author": "Ottokar aus der Gaal",
+          "note": "Rhymed Styrian chronicle, about 1300–1320"
+        },
+        {
+          "title": "The Divine Comedy: Purgatorio, canto VII",
+          "author": "Dante Alighieri"
+        }
+      ],
+      "review": {
+        "status": "draft",
+        "notes": "Drafted from the listed sources; needs a human fact-check."
+      }
+    },
+    {
+      "id": "wenceslaus-ii",
+      "kind": "monarch",
+      "rulers": [
+        "wenceslaus-ii"
+      ],
+      "tagline": "Kidnapped boy, silver king, ruler of two crowns",
+      "start": {
+        "date": "1278-08-26"
+      },
+      "end": {
+        "date": "1305-06-21"
+      },
+      "contestedWith": [],
+      "relationToPredecessor": "Son of Ottokar II",
+      "ageAtAccession": "6",
+      "cameToPower": "Father killed in battle",
+      "reignEnded": "Died of a long illness",
+      "previously": "Ottokar II dies on the Marchfeld. His heir is a boy of six.",
+      "paragraphs": [
+        "Young Wenceslaus spent his first years as king as a prisoner. His guardian, Otto of Brandenburg, shut him up in Bezděz castle and then carried him off to Brandenburg, while Otto's men plundered Bohemia. He came home in 1283. His mother's lover, the nobleman Záviš of Falkenstein, then ran the kingdom and married her. When Wenceslaus grew up he had Záviš arrested, and in 1290 beheaded in front of Hluboká castle to force its surrender.",
+        "Then came the silver. A huge strike at Kutná Hora made him one of the richest kings in Europe. In 1300 he launched the Prague groschen, a heavy silver coin that was used across central Europe, and issued a mining code to go with it. That same year he was crowned King of Poland at Gniezno, and in 1301 his young son was crowned King of Hungary.",
+        "The Habsburg king Albert I invaded in 1304 but gave up in front of Kutná Hora. Wenceslaus did not get to enjoy it. Long ill, he died in Prague in June 1305, aged only 33."
+      ],
+      "claims": [
+        {
+          "text": "Wenceslaus II wrote love songs in German.",
+          "status": "disputed",
+          "note": "The Codex Manesse includes three songs under the name King Wenceslas of Bohemia. Most scholars credit him, but some think they belong to his grandfather Wenceslaus I."
+        },
+        {
+          "text": "He was a pious, gentle king, a fan of monks and books.",
+          "status": "confirmed",
+          "note": "That's the picture in the Chronicle of Zbraslav. Its abbot-authors owed him their monastery, so they were hardly neutral."
+        },
+        {
+          "text": "Záviš was beheaded below Hluboká to make the garrison give up.",
+          "status": "confirmed",
+          "note": "The Chronicle of Zbraslav reports it. The castle was held by Záviš's kinsmen."
+        }
+      ],
+      "hook": "The silver king is dead at 33. His only son is fifteen, wild, and wearing two foreign crowns he cannot hold.",
+      "images": [
+        {
+          "file": "File:Codex Manesse Wenzel II. von Böhmen.jpg",
+          "url": "https://upload.wikimedia.org/wikipedia/commons/e/e7/Codex_Manesse_Wenzel_II._von_B%C3%B6hmen.jpg",
+          "page": "https://commons.wikimedia.org/wiki/File:Codex_Manesse_Wenzel_II._von_B%C3%B6hmen.jpg",
+          "credit": "Master of the Codex Manesse",
+          "license": "Public domain",
+          "made": "c. 1305–40",
+          "caption": "King Wenceslas of Bohemia in the Codex Manesse, a Zurich songbook made within a generation of his death.",
+          "alt": "Medieval miniature of an enthroned King Wenceslas of Bohemia, from the Codex Manesse songbook"
+        }
+      ],
+      "sources": [
+        {
+          "title": "Václav II.: Král český a polský",
+          "author": "Kateřina Charvátová",
+          "note": "Vyšehrad, 2007"
+        },
+        {
+          "title": "Století posledních Přemyslovců",
+          "author": "Josef Žemlička",
+          "note": "Panorama, 1986"
+        },
+        {
+          "title": "Chronicle of Zbraslav (Chronicon Aulae Regiae)",
+          "author": "Otto of Thuringia and Peter of Zittau",
+          "note": "Contemporary court chronicle, written about 1305–1338"
+        }
+      ],
+      "review": {
+        "status": "draft",
+        "notes": "Drafted from the listed sources; needs a human fact-check."
+      }
+    },
+    {
+      "id": "wenceslaus-iii",
+      "kind": "monarch",
+      "rulers": [
+        "wenceslaus-iii"
+      ],
+      "tagline": "Last of the Přemyslids, stabbed at sixteen",
+      "start": {
+        "date": "1305-06-21"
+      },
+      "end": {
+        "date": "1306-08-04"
+      },
+      "contestedWith": [],
+      "relationToPredecessor": "Son of Wenceslaus II",
+      "ageAtAccession": "15",
+      "cameToPower": "Succeeded his father",
+      "reignEnded": "Stabbed at Olomouc",
+      "previously": "Wenceslaus II dies in Prague. His only son is fifteen.",
+      "paragraphs": [
+        "At eleven Wenceslaus had been crowned King of Hungary under the name Ladislaus. It never took. His father brought him home in 1304, and once on the Bohemian throne the boy handed the Hungarian claim to Otto of Bavaria. He still called himself King of Poland, though, and Poland was slipping away to the Piast duke Władysław the Elbow-high.",
+        "The chroniclers paint him as a wild teenager who drank, partied and gave away royal property to his friends. Maybe. What we know is that in summer 1306 he raised an army to win Poland back. On 4 August, resting in Olomouc in Moravia, he was stabbed to death in his lodgings.",
+        "Nobody ever proved who did it, or who paid. With him died the last male Přemyslid, from a family that had ruled the Czechs for over four hundred years."
+      ],
+      "claims": [
+        {
+          "text": "A Thuringian knight called Konrad of Botenstein was the killer.",
+          "status": "disputed",
+          "note": "Some chroniclers name him and say he was cut down on the spot, so he could not be questioned. Others don't name anyone."
+        },
+        {
+          "text": "The murder was ordered by the Habsburgs, Władysław or rebel Czech nobles.",
+          "status": "disputed",
+          "note": "All three had motives and all three have been blamed. There is no evidence that settles it."
+        },
+        {
+          "text": "Wenceslaus spent his short reign drinking and giving away crown lands.",
+          "status": "legend",
+          "note": "The Chronicle of Zbraslav and Dalimil say so, but young kings who died early often got this treatment."
+        }
+      ],
+      "hook": "The Přemyslids are gone. Two princesses are left, and every ambitious house in Europe is eyeing the throne in Prague.",
+      "images": [
+        {
+          "file": "File:Wenceslaus III of Bohemia statue.jpg",
+          "url": "https://upload.wikimedia.org/wikipedia/commons/0/05/Wenceslaus_III_of_Bohemia_statue.jpg",
+          "page": "https://commons.wikimedia.org/wiki/File:Wenceslaus_III_of_Bohemia_statue.jpg",
+          "credit": "Bonio (photo), cropped by Michal Maňas; statue by Josef Hladík",
+          "license": "CC BY 2.5",
+          "made": "1934; photo 2007",
+          "caption": "Josef Hladík's statue of Wenceslaus III in Olomouc, the town where he was killed, made over 600 years later.",
+          "alt": "Detail of a statue of the young King Wenceslaus III of Bohemia in Olomouc"
+        }
+      ],
+      "sources": [
+        {
+          "title": "Století posledních Přemyslovců",
+          "author": "Josef Žemlička",
+          "note": "Panorama, 1986"
+        },
+        {
+          "title": "Chronicle of Zbraslav (Chronicon Aulae Regiae)",
+          "author": "Otto of Thuringia and Peter of Zittau",
+          "note": "Contemporary court chronicle, written about 1305–1338"
+        },
+        {
+          "title": "The Chronicle of Dalimil",
+          "author": "Anonymous",
+          "note": "Czech verse chronicle, about 1310s"
+        }
+      ],
+      "review": {
+        "status": "draft",
+        "notes": "Drafted from the listed sources; needs a human fact-check."
+      }
+    },
+    {
+      "id": "scramble-for-the-crown",
+      "kind": "interregnum",
+      "title": "The Scramble for the Crown",
+      "house": "rivals",
+      "rulers": [],
+      "tagline": "Three kings in four years, and a princess saves the day",
+      "start": {
+        "date": "1306-08-04"
+      },
+      "end": {
+        "date": "1310-12-03"
+      },
+      "contestedWith": [],
+      "relationToPredecessor": "Followed the last Přemyslid's murder",
+      "ageAtAccession": "No single ruler",
+      "cameToPower": "The Přemyslid line ran out",
+      "reignEnded": "John of Luxembourg takes Prague",
+      "previously": "Wenceslaus III is stabbed in Olomouc. The Přemyslids are gone.",
+      "paragraphs": [
+        "First up was Henry of Carinthia, husband of Wenceslaus III's sister Anne. Then the German king Albert I of Habsburg moved in and made his son Rudolf king instead. Rudolf married Wenceslaus II's widow, Elisabeth Richeza, and the Czechs mocked him as King Porridge. In July 1307 he died of dysentery besieging Horažďovice, and Henry came back.",
+        "Henry was weak and broke and could not control the barons. So a group of nobles and abbots looked for a better king. The new German king, Henry VII of Luxembourg, had a teenage son, John. The other Přemyslid princess, Elizabeth, was eighteen and unmarried. On 1 September 1310 they were married at Speyer.",
+        "John's army marched on Prague, and on 3 December 1310 the city opened its gates. Henry of Carinthia fled. Bohemia had a new dynasty, but it came from the far side of Germany."
+      ],
+      "claims": [
+        {
+          "text": "Rudolf of Habsburg was called King Porridge (král Kaše).",
+          "status": "legend",
+          "note": "The nickname appears in Czech chronicle tradition. Whether it mocked his thrift, his diet or his weakness is not clear."
+        },
+        {
+          "text": "Cistercian abbots helped broker the Luxembourg marriage.",
+          "status": "confirmed",
+          "note": "Abbot Conrad of Zbraslav was one of the go-betweens. His monk Peter of Zittau, later abbot himself, told the story in the Chronicle of Zbraslav."
+        },
+        {
+          "text": "Albert I, who started the Habsburg grab, was murdered by his own nephew in 1308.",
+          "status": "confirmed",
+          "note": "John, later called Parricida, killed him on 1 May 1308 over his withheld inheritance."
+        }
+      ],
+      "hook": "The new king is fourteen, French-speaking and married to the last Přemyslid princess. He will soon find Bohemia far less fun than a tournament.",
+      "images": [
+        {
+          "file": "File:Eliska.jpg",
+          "url": "https://upload.wikimedia.org/wikipedia/commons/e/e0/Eliska.jpg",
+          "page": "https://commons.wikimedia.org/wiki/File:Eliska.jpg",
+          "credit": "Unknown artist",
+          "license": "Public domain",
+          "made": "14th century",
+          "caption": "Elizabeth of Bohemia, the Přemyslid princess whose marriage ended the scramble, in a 14th-century image.",
+          "alt": "Fourteenth-century depiction of Elizabeth of Bohemia, daughter of Wenceslaus II"
+        }
+      ],
+      "sources": [
+        {
+          "title": "Chronicle of Zbraslav (Chronicon Aulae Regiae)",
+          "author": "Otto of Thuringia and Peter of Zittau",
+          "note": "Contemporary court chronicle, written about 1305–1338"
+        },
+        {
+          "title": "The Chronicle of Dalimil",
+          "author": "Anonymous",
+          "note": "Czech verse chronicle, about 1310s"
+        },
+        {
+          "title": "Století posledních Přemyslovců",
+          "author": "Josef Žemlička",
+          "note": "Panorama, 1986"
+        },
+        {
+          "title": "Jan Lucemburský a jeho doba 1296–1346",
+          "author": "Jiří Spěváček",
+          "note": "Svoboda, 1994"
+        }
+      ],
+      "review": {
+        "status": "draft",
+        "notes": "Drafted from the listed sources; needs a human fact-check."
+      }
+    },
+    {
+      "id": "john",
+      "kind": "monarch",
+      "rulers": [
+        "john"
+      ],
+      "tagline": "The absent knight-king who died charging blind",
+      "start": {
+        "date": "1310-12-03"
+      },
+      "end": {
+        "date": "1346-08-26"
+      },
+      "contestedWith": [],
+      "relationToPredecessor": "Husband of Wenceslaus III's sister",
+      "ageAtAccession": "14",
+      "cameToPower": "Married the heiress, took Prague",
+      "reignEnded": "Killed at Crécy",
+      "previously": "John of Luxembourg's army takes Prague. Henry of Carinthia flees.",
+      "paragraphs": [
+        "John was the son of Emperor Henry VII, and he loved jousting, Paris and Italian adventures much more than Prague. The Czechs called him the foreign king. To win over the nobles he gave them sweeping rights, and they ran the kingdom while he was away, which was most of the time. He fell out badly with Queen Elizabeth and took their small son Wenceslaus away from her.",
+        "Still, he was good at collecting land. He gained Cheb, Upper Lusatia and the homage of most of the Silesian dukes, and in 1335 Poland gave up its claim to Silesia. He paid with his health. From about 1340 an eye disease left him blind.",
+        "Blind or not, he went to war for his ally the King of France. At Crécy on 26 August 1346, with the battle lost, he asked his knights to lead him into the fight. He was killed, and so were they."
+      ],
+      "claims": [
+        {
+          "text": "John's knights tied their horses to his so they could lead him into battle.",
+          "status": "disputed",
+          "note": "The story comes from the chronicler Jean Froissart, writing decades later. The bodies were reportedly found together, but the rope detail may be his."
+        },
+        {
+          "text": "The Black Prince took John's ostrich feathers and motto Ich dien.",
+          "status": "legend",
+          "note": "The Prince of Wales's badge still uses three feathers and Ich dien. The idea that they came from John is a much later tradition with no solid proof."
+        },
+        {
+          "text": "The Czechs nicknamed John the foreign king.",
+          "status": "confirmed",
+          "note": "Czech chroniclers and historians of the time complained about his long absences and his foreign favourites."
+        }
+      ],
+      "hook": "John is dead at Crécy. His son was there too, wounded, and has already been elected King of the Romans. The boy John took from his mother is coming home to rule.",
+      "images": [
+        {
+          "file": "File:John I of Bohemia.jpg",
+          "url": "https://upload.wikimedia.org/wikipedia/commons/9/92/John_I_of_Bohemia.jpg",
+          "page": "https://commons.wikimedia.org/wiki/File:John_I_of_Bohemia.jpg",
+          "credit": "Antoni Boys",
+          "license": "Public domain",
+          "made": "Late 16th century",
+          "caption": "An imagined portrait by the court painter Antoni Boys, made over 200 years after John died.",
+          "alt": "Painted portrait of King John of Bohemia"
+        }
+      ],
+      "sources": [
+        {
+          "title": "Jan Lucemburský a jeho doba 1296–1346",
+          "author": "Jiří Spěváček",
+          "note": "Svoboda, 1994"
+        },
+        {
+          "title": "Die Luxemburger: Eine spätmittelalterliche Dynastie gesamteuropäischer Bedeutung 1308–1437",
+          "author": "Jörg K. Hoensch",
+          "note": "Kohlhammer, 2000"
+        },
+        {
+          "title": "Chronicles",
+          "author": "Jean Froissart",
+          "note": "Battle of Crécy"
+        },
+        {
+          "title": "Chronicle of Zbraslav (Chronicon Aulae Regiae)",
+          "author": "Otto of Thuringia and Peter of Zittau",
+          "note": "Contemporary court chronicle, written about 1305–1338"
+        }
+      ],
+      "review": {
+        "status": "draft",
+        "notes": "Drafted from the listed sources; needs a human fact-check."
+      }
+    },
+    {
+      "id": "charles-iv",
+      "kind": "monarch",
+      "rulers": [
+        "charles-iv"
+      ],
+      "tagline": "The emperor who turned Prague into the capital of Europe",
+      "start": {
+        "date": "1346-08-26"
+      },
+      "end": {
+        "date": "1378-11-29"
+      },
+      "contestedWith": [],
+      "relationToPredecessor": "Son of John",
+      "ageAtAccession": "30",
+      "cameToPower": "Father killed at Crécy",
+      "reignEnded": "Died in Prague",
+      "previously": "Blind King John dies at Crécy. His son Charles fought there too.",
+      "paragraphs": [
+        "He was baptised Wenceslaus, Václav, after his Přemyslid ancestors. Sent to the French court at seven, he took the name Charles there. Back home as a young man, he found the royal castles falling apart and had to relearn his Czech. When his father fell at Crécy, Charles had already been elected King of the Romans that July.",
+        "Then he built. Prague got an archbishop in 1344. In 1348 Charles founded the first university in central Europe and a whole New Town. He built Karlštejn castle to guard the crown jewels and relics, started a stone bridge over the Vltava in 1357, and hired Peter Parler to finish St Vitus Cathedral. He was crowned emperor in Rome in 1355.",
+        "His Golden Bull of 1356 fixed how emperors were chosen and made the King of Bohemia the first lay elector. He even wrote his own life story. Before he died in 1378, he made sure his son Wenceslaus was already crowned and elected."
+      ],
+      "claims": [
+        {
+          "text": "Charles Bridge was begun at 5:31 on 9 July 1357, making the palindrome 135797531.",
+          "status": "legend",
+          "note": "The date fits the records, but the minute-perfect palindrome only appears in later accounts. An astrologer's choice is a nice story with no proof."
+        },
+        {
+          "text": "The Hunger Wall was built to give the poor of Prague paid work.",
+          "status": "legend",
+          "note": "The wall on Petřín Hill was a real defence work of the 1360s. The job-creation story is later tradition."
+        },
+        {
+          "text": "Czechs voted Charles IV the greatest Czech of all time.",
+          "status": "confirmed",
+          "note": "He won Czech Television's poll in 2005. The fictional genius Jára Cimrman got more votes but was ruled out."
+        }
+      ],
+      "hook": "The great emperor is dead, and the crown goes to his son Wenceslaus. He is seventeen and was raised to rule, but he is about to find it very hard.",
+      "images": [
+        {
+          "file": "File:Charles IV-John Ocko votive picture-fragment.jpg",
+          "url": "https://upload.wikimedia.org/wikipedia/commons/1/16/Charles_IV-John_Ocko_votive_picture-fragment.jpg",
+          "page": "https://commons.wikimedia.org/wiki/File:Charles_IV-John_Ocko_votive_picture-fragment.jpg",
+          "credit": "Circle of Theodoric of Prague",
+          "license": "Public domain",
+          "made": "Before 1371",
+          "caption": "Charles IV kneeling on the votive panel of Archbishop Jan Očko of Vlašim, painted in Prague in his lifetime.",
+          "alt": "Detail of a Gothic panel painting showing Emperor Charles IV kneeling in prayer"
+        }
+      ],
+      "sources": [
+        {
+          "title": "Karel IV.: Život a dílo (1316–1378)",
+          "author": "Jiří Spěváček",
+          "note": "Svoboda, 1979"
+        },
+        {
+          "title": "Vita Caroli Quarti (autobiography)",
+          "author": "Charles IV"
+        },
+        {
+          "title": "Die Luxemburger: Eine spätmittelalterliche Dynastie gesamteuropäischer Bedeutung 1308–1437",
+          "author": "Jörg K. Hoensch",
+          "note": "Kohlhammer, 2000"
+        },
+        {
+          "title": "The Czechs and the Lands of the Bohemian Crown",
+          "author": "Hugh LeCaine Agnew",
+          "note": "Hoover Institution Press, 2004"
+        }
+      ],
+      "review": {
+        "status": "draft",
+        "notes": "Drafted from the listed sources; needs a human fact-check."
+      }
+    },
+    {
+      "id": "wenceslaus-iv",
+      "kind": "monarch",
+      "rulers": [
+        "wenceslaus"
+      ],
+      "tagline": "Jailed twice, deposed once, and Prague in revolt",
+      "start": {
+        "date": "1378-11-29"
+      },
+      "end": {
+        "date": "1419-08-16"
+      },
+      "contestedWith": [],
+      "relationToPredecessor": "Son of Charles IV",
+      "ageAtAccession": "17",
+      "cameToPower": "Succeeded his father",
+      "reignEnded": "Stroke after the defenestration",
+      "previously": "Charles IV dies in Prague. His son Wenceslaus is already king.",
+      "paragraphs": [
+        "Wenceslaus IV was crowned King of Bohemia at two and inherited everything at seventeen. Then it went wrong. He fought the Archbishop of Prague, and in 1393 his men tortured the archbishop's vicar, John of Nepomuk, and threw him off the bridge into the Vltava. His own nobles locked him up in 1394. In 1400 the German electors deposed him as King of the Romans, and in 1402 his brother Sigismund seized him and held him in Austria.",
+        "Meanwhile a preacher named Jan Hus was packing the Bethlehem Chapel in Prague, attacking corrupt clergy. In 1409 Wenceslaus gave the Czechs control of Prague University, and the German masters walked out. Hus went to the Council of Constance under Sigismund's safe conduct and was burned there on 6 July 1415.",
+        "Prague boiled. On 30 July 1419 a Hussite crowd stormed the New Town Hall and threw the councillors out of the windows. Two and a half weeks later Wenceslaus was dead."
+      ],
+      "claims": [
+        {
+          "text": "John of Nepomuk died for refusing to reveal the queen's confession.",
+          "status": "legend",
+          "note": "This story appears decades later. The real quarrel was over church appointments. The legend made him a saint and his statue stands on Charles Bridge."
+        },
+        {
+          "text": "Wenceslaus died of rage at the news of the defenestration.",
+          "status": "disputed",
+          "note": "Chroniclers say the news threw him into a fury and he suffered a stroke soon after. The link is likely but impossible to prove."
+        },
+        {
+          "text": "The electors deposed him for being useless and idle.",
+          "status": "confirmed",
+          "note": "Their decree of August 1400 at Oberlahnstein called him useless and negligent. The nickname the Idle grew out of that reputation."
+        }
+      ],
+      "hook": "The king is dead and Prague is in revolt. His heir is Sigismund, the brother the Hussites blame for Hus's death. They aren't going to let him in.",
+      "images": [
+        {
+          "file": "File:Wenzelsbibel 12 – Václav IV – cr.jpg",
+          "url": "https://upload.wikimedia.org/wikipedia/commons/d/da/Wenzelsbibel_12_%E2%80%93_V%C3%A1clav_IV_%E2%80%93_cr.jpg",
+          "page": "https://commons.wikimedia.org/wiki/File:Wenzelsbibel_12_%E2%80%93_V%C3%A1clav_IV_%E2%80%93_cr.jpg",
+          "credit": "Unknown artist (Wenceslas Bible)",
+          "license": "Public domain",
+          "made": "1389–1400",
+          "caption": "Wenceslaus as he appears in his own richly painted German Bible, made during his reign.",
+          "alt": "Detail of an illuminated initial from the Wenceslas Bible showing King Wenceslaus IV"
+        }
+      ],
+      "sources": [
+        {
+          "title": "Václav IV. 1361–1419: K předpokladům husitské revoluce",
+          "author": "Jiří Spěváček",
+          "note": "Svoboda, 1986"
+        },
+        {
+          "title": "Die Luxemburger: Eine spätmittelalterliche Dynastie gesamteuropäischer Bedeutung 1308–1437",
+          "author": "Jörg K. Hoensch",
+          "note": "Kohlhammer, 2000"
+        },
+        {
+          "title": "The Crusade against Heretics in Bohemia, 1418–1437",
+          "author": "Thomas A. Fudge",
+          "note": "Ashgate, 2002"
+        },
+        {
+          "title": "Old Czech Annals (Staré letopisy české)",
+          "author": "Anonymous"
+        }
+      ],
+      "review": {
+        "status": "draft",
+        "notes": "Drafted from the listed sources; needs a human fact-check."
+      }
+    },
+    {
+      "id": "hussite-revolution",
+      "kind": "interregnum",
+      "title": "The Hussite Revolution",
+      "house": "hussite",
+      "rulers": [],
+      "tagline": "Farmers, flails and war wagons against half of Europe",
+      "start": {
+        "date": "1419-08-16"
+      },
+      "end": {
+        "date": "1436-08-23"
+      },
+      "contestedWith": [
+        "sigismund"
+      ],
+      "relationToPredecessor": "Rose against Wenceslaus's heir",
+      "ageAtAccession": "No monarch",
+      "cameToPower": "Revolt after the defenestration",
+      "reignEnded": "Compacts agreed, Sigismund let in",
+      "previously": "Wenceslaus IV dies weeks after Prague's first defenestration.",
+      "paragraphs": [
+        "When Wenceslaus died in August 1419, Bohemia was already boiling. Followers of the burned preacher Jan Hus wanted a poorer, cleaner Church and the communion cup for ordinary people as well as priests. Their programme became the Four Articles of Prague. The heir, Sigismund, was the man they blamed for Hus's death. In 1420 the Pope proclaimed a crusade, and Sigismund marched on Prague with knights from all over Europe.",
+        "The Hussites had a secret weapon: Jan Žižka, a minor knight with one eye. He turned farm carts into rolling forts, chained in a ring and bristling with handguns and flails. On 14 July 1420 his small force held Vítkov Hill above Prague and the crusade fell apart. Radicals built a new town on a hill in the south and called it Tábor. Žižka lost his other eye in 1421 and kept winning anyway, until he fell ill and died in 1424.",
+        "Four more crusades came and went. At Domažlice in 1431 the crusaders ran before the fighting really started. Hussite armies under Prokop the Bald raided deep into Germany and even reached the Baltic. But war wore the country out. On 30 May 1434 an alliance of moderate and Catholic lords smashed the radical armies at Lipany, and Prokop died there. Peace terms called the Compacts let the Czechs keep the cup, and on 23 August 1436 Sigismund rode into Prague as king."
+      ],
+      "claims": [
+        {
+          "text": "The crusaders at Domažlice fled when they heard the Hussites singing their battle hymn, “Ye Who Are Warriors of God”.",
+          "status": "disputed",
+          "note": "The hymn was real and the rout was real. Chroniclers made the singing the cause; the rumble of the approaching wagons and poor leadership mattered at least as much."
+        },
+        {
+          "text": "The dying Žižka ordered his skin made into a drum, so he could keep scaring his enemies.",
+          "status": "legend",
+          "note": "The story is first told by Aeneas Sylvius Piccolomini, later Pope Pius II, in his history of Bohemia decades afterwards. No Czech source of the time mentions it."
+        },
+        {
+          "text": "The radical Hussite armies were finally beaten by other Hussites.",
+          "status": "confirmed",
+          "note": "At Lipany the winning side was a league of Utraquist (moderate Hussite) and Catholic nobles and the Old Town of Prague. The battle is well recorded."
+        }
+      ],
+      "hook": "Sigismund is king in Prague at last, aged 68. To see why the Czechs fought him so long, go back to the summer of 1419 and the dead king's younger brother.",
+      "images": [
+        {
+          "file": "File:Jensky kodex Zizka.jpg",
+          "url": "https://upload.wikimedia.org/wikipedia/commons/a/a7/Jensky_kodex_Zizka.jpg",
+          "page": "https://commons.wikimedia.org/wiki/File:Jensky_kodex_Zizka.jpg",
+          "credit": "Janíček Zmilelý of Písek (attributed)",
+          "license": "Public domain",
+          "made": "c. 1490–1510",
+          "caption": "From the Jena Codex, painted about 70 years after Žižka's death.",
+          "alt": "Manuscript painting of Jan Žižka leading a Hussite field army"
+        }
+      ],
+      "sources": [
+        {
+          "title": "A History of the Hussite Revolution",
+          "author": "Howard Kaminsky",
+          "note": "University of California Press, 1967"
+        },
+        {
+          "title": "The Crusade against Heretics in Bohemia, 1418–1437",
+          "author": "Thomas A. Fudge",
+          "note": "Ashgate, 2002; translated sources"
+        },
+        {
+          "title": "Die Hussitische Revolution",
+          "author": "František Šmahel",
+          "note": "Monumenta Germaniae Historica, 2002; 3 vols"
+        },
+        {
+          "title": "Historia Bohemica",
+          "author": "Aeneas Sylvius Piccolomini",
+          "note": "1458; the Žižka drum story"
+        }
+      ],
+      "review": {
+        "status": "draft",
+        "notes": "Drafted from the listed sources; needs a human fact-check."
+      }
+    },
+    {
+      "id": "sigismund",
+      "kind": "monarch",
+      "rulers": [
+        "sigismund"
+      ],
+      "tagline": "The heir Bohemia fought off for seventeen years",
+      "start": {
+        "date": "1419-08-16"
+      },
+      "end": {
+        "date": "1437-12-09"
+      },
+      "contestedWith": [
+        "hussite-revolution"
+      ],
+      "relationToPredecessor": "Younger brother of Wenceslaus IV",
+      "ageAtAccession": "51",
+      "cameToPower": "Heir by blood, rejected by Hussites",
+      "reignEnded": "Died at Znojmo, heading for Hungary",
+      "previously": "The Hussite wars are over. Now rewind to 1419 and the heir they hated.",
+      "paragraphs": [
+        "Sigismund was already King of Hungary and King of the Romans when his brother Wenceslaus died. He should have walked into Prague. Instead he was the most hated man in Bohemia. In 1414 he had given Jan Hus a safe conduct to the Council of Constance, then stood by while the council burned him. To most Czechs that was plain betrayal.",
+        "He came anyway, at the head of a crusade. On 28 July 1420, two weeks after his army was beaten at Vítkov, he had himself crowned in St Vitus Cathedral, inside the castle his men still held. On 1 November 1420 the Hussites routed him again below Vyšehrad. He left Bohemia and spent the next sixteen years trying to get back in, mostly with other people's armies.",
+        "In the end he got in by talking. He accepted the Compacts, which let the Czechs keep the communion cup, and entered Prague on 23 August 1436, by then a crowned emperor. He had just over a year. He began bringing Catholic priests back, and the old suspicion returned. In December 1437, sick and on his way to Hungary, he died at Znojmo in Moravia."
+      ],
+      "claims": [
+        {
+          "text": "Sigismund broke his word to Jan Hus.",
+          "status": "disputed",
+          "note": "His safe conduct promised Hus safe travel. The council argued no promise could protect a heretic, and Sigismund went along with it. Czechs saw betrayal; his defenders saw a king trapped by the Church."
+        },
+        {
+          "text": "Czechs nicknamed him “the red fox”.",
+          "status": "legend",
+          "note": "The name, for his reddish hair and slippery dealing, lives on in Czech tradition. It is hard to trace back to a source from his own lifetime."
+        },
+        {
+          "text": "He was crowned King of Bohemia in 1420, while the Hussites held the city below.",
+          "status": "confirmed",
+          "note": "The coronation in St Vitus on 28 July 1420 is recorded by the Hussite chronicler Lawrence of Březová, among others."
+        }
+      ],
+      "hook": "Sigismund dies with no son. He has picked his daughter's husband, Albert of Habsburg, to follow him. Half of Bohemia agrees. The other half sends for a Polish prince.",
+      "images": [
+        {
+          "file": "File:Anonymous - Kaiser Sigismund (1369-1437) - GG 2630 - Kunsthistorisches Museum.jpg",
+          "url": "https://upload.wikimedia.org/wikipedia/commons/f/f1/Anonymous_-_Kaiser_Sigismund_%281369-1437%29_-_GG_2630_-_Kunsthistorisches_Museum.jpg",
+          "page": "https://commons.wikimedia.org/wiki/File:Anonymous_-_Kaiser_Sigismund_(1369-1437)_-_GG_2630_-_Kunsthistorisches_Museum.jpg",
+          "credit": "Unknown artist, possibly Pisanello",
+          "license": "Public domain",
+          "made": "c. 1433",
+          "caption": "Painted in the 1430s, during his lifetime, around the time he was crowned emperor.",
+          "alt": "Painted portrait of Emperor Sigismund"
+        }
+      ],
+      "sources": [
+        {
+          "title": "Kaiser Sigismund: Herrscher an der Schwelle zur Neuzeit 1368–1437",
+          "author": "Jörg K. Hoensch",
+          "note": "C. H. Beck, 1996"
+        },
+        {
+          "title": "A History of the Hussite Revolution",
+          "author": "Howard Kaminsky",
+          "note": "University of California Press, 1967"
+        },
+        {
+          "title": "Hussite Chronicle",
+          "author": "Lawrence of Březová",
+          "note": "Contemporary Hussite account, to 1422"
+        }
+      ],
+      "review": {
+        "status": "draft",
+        "notes": "Drafted from the listed sources; needs a human fact-check."
+      }
+    },
+    {
+      "id": "albert-ii",
+      "kind": "monarch",
+      "rulers": [
+        "albert-ii"
+      ],
+      "tagline": "A Habsburg crown that lasted a year and a half",
+      "start": {
+        "date": "1438-05-06"
+      },
+      "end": {
+        "date": "1439-10-27"
+      },
+      "contestedWith": [],
+      "relationToPredecessor": "Son-in-law of Sigismund",
+      "ageAtAccession": "40",
+      "cameToPower": "Elected as Sigismund's chosen heir",
+      "reignEnded": "Dysentery on campaign in Hungary",
+      "previously": "Sigismund dies at Znojmo, leaving his crowns to his son-in-law.",
+      "paragraphs": [
+        "Albert was Duke of Austria, a serious, steady man married to Sigismund's only daughter, Elizabeth. Within a few months he collected Hungary, Germany and Bohemia. In Bohemia the Catholic lords and many moderate Hussites accepted him, and he was crowned in Prague on 29 June 1438. The radicals had other ideas. They offered the crown to Casimir, the young brother of the King of Poland, and a Polish army came to back him.",
+        "Fighting dragged on around Tábor, and Albert never really settled Bohemia. Hungary needed him more, because the Ottoman Turks were pressing on its southern border. In 1439 he led an army down the Danube, caught dysentery in the camp and died on the way home in October. He left no son. His wife was pregnant, and everything now hung on whether the baby was a boy."
+      ],
+      "claims": [
+        {
+          "text": "The Hussite party chose a Polish prince, Casimir, as king against Albert.",
+          "status": "confirmed",
+          "note": "Recorded in Czech and Polish sources. Casimir, the future Casimir IV of Poland, was only a boy and never reigned in Bohemia."
+        },
+        {
+          "text": "Albert made his dysentery worse by gorging on melons.",
+          "status": "legend",
+          "note": "A colourful detail repeated by chroniclers. There is no way to check it."
+        },
+        {
+          "text": "He was the first Habsburg King of Bohemia.",
+          "status": "disputed",
+          "note": "Not quite. Rudolf of Habsburg briefly held the crown in 1306–07. Albert was the first Habsburg in more than a century."
+        }
+      ],
+      "hook": "Albert is dead. Four months later his widow gives birth to a boy, who is king from his first breath. Bohemia will wait a long time to see him.",
+      "images": [
+        {
+          "file": "File:Albrecht II.jpg",
+          "url": "https://upload.wikimedia.org/wikipedia/commons/4/4e/Albrecht_II.jpg",
+          "page": "https://commons.wikimedia.org/wiki/File:Albrecht_II.jpg",
+          "credit": "User:My Friend (photo)",
+          "license": "CC BY-SA 3.0",
+          "made": "16th century (statue); photo 2013",
+          "caption": "A bronze figure from Maximilian I's tomb monument in Innsbruck, made about a century after Albert's death.",
+          "alt": "Bronze statue of King Albert II in the Hofkirche at Innsbruck"
+        }
+      ],
+      "sources": [
+        {
+          "title": "Albrecht II.: Königtum, Reichsregierung und Reichsreform 1438–1439",
+          "author": "Günther Hödl",
+          "note": "Böhlau, 1978"
+        },
+        {
+          "title": "Geschichte Böhmens",
+          "author": "Jörg K. Hoensch",
+          "note": "C. H. Beck, 1987"
+        },
+        {
+          "title": "The Czechs and the Lands of the Bohemian Crown",
+          "author": "Hugh LeCaine Agnew",
+          "note": "Hoover Institution Press, 2004"
+        }
+      ],
+      "review": {
+        "status": "draft",
+        "notes": "Drafted from the listed sources; needs a human fact-check."
+      }
+    },
+    {
+      "id": "ladislaus",
+      "kind": "monarch",
+      "rulers": [
+        "ladislaus"
+      ],
+      "tagline": "Born a king, dead at seventeen",
+      "start": {
+        "date": "1440-02-22"
+      },
+      "end": {
+        "date": "1457-11-23"
+      },
+      "contestedWith": [],
+      "relationToPredecessor": "Son of Albert II, born after his death",
+      "ageAtAccession": "Newborn",
+      "cameToPower": "Born four months after his father died",
+      "reignEnded": "Sudden death in Prague, aged 17",
+      "previously": "Albert dies of dysentery. His widow is pregnant.",
+      "paragraphs": [
+        "Ladislaus arrived on 22 February 1440, a king from the day he was born. His mother had the Hungarian crown smuggled out of Visegrád castle so she could crown him as a baby. Bohemia was more careful. The lords agreed he was king, but nobody handed him over. The boy grew up at the court of his guardian, the German king Frederick III, while Bohemia ran itself through regional leagues of nobles and towns.",
+        "The strongman who emerged was George of Poděbrady, a Utraquist lord. In September 1448 his men seized Prague in a night raid, and in 1452 the diet made him land administrator. When the Austrians finally prised Ladislaus away from Frederick, George brought him to Prague, and on 28 October 1453 the boy was crowned in St Vitus. George went on running the country day to day.",
+        "In November 1457 Ladislaus was in Prague, planning his wedding to Madeleine, a daughter of the King of France. A grand French embassy was on its way. Then he fell ill and died within days, aged 17. People whispered poison, and fingers pointed at George, the man with most to gain. The king had no son and no brother. Bohemia had to find a king of its own."
+      ],
+      "claims": [
+        {
+          "text": "Ladislaus was poisoned, perhaps on George of Poděbrady's orders.",
+          "status": "disputed",
+          "note": "Rumours spread at once. In the 1980s the anthropologist Emanuel Vlček examined his remains and concluded he most likely died of acute leukaemia."
+        },
+        {
+          "text": "His mother's lady-in-waiting stole the Holy Crown of Hungary so the baby could be crowned.",
+          "status": "confirmed",
+          "note": "Helene Kottanner took it from Visegrád in 1440 and wrote her own account of the theft."
+        }
+      ],
+      "hook": "The boy king is dead and there is no heir in sight. For the first time in centuries, the Czechs choose one of their own: George of Poděbrady, the man some say killed Ladislaus.",
+      "images": [
+        {
+          "file": "File:Ladislaus, PA03743.jpg",
+          "url": "https://upload.wikimedia.org/wikipedia/commons/1/15/Ladislaus%2C_PA03743.jpg",
+          "page": "https://commons.wikimedia.org/wiki/File:Ladislaus,_PA03743.jpg",
+          "credit": "János Blaschke",
+          "license": "Public domain",
+          "made": "Early 19th century",
+          "caption": "Engraved more than 350 years after his death.",
+          "alt": "Engraved portrait of Ladislaus the Posthumous, King of Hungary and Bohemia and Duke of Austria"
+        }
+      ],
+      "sources": [
+        {
+          "title": "The Hussite King: Bohemia in European Affairs, 1440–1471",
+          "author": "Otakar Odložilík",
+          "note": "Rutgers University Press, 1965"
+        },
+        {
+          "title": "George of Bohemia: King of Heretics",
+          "author": "Frederick G. Heymann",
+          "note": "Princeton University Press, 1965"
+        },
+        {
+          "title": "The Memoirs of Helene Kottanner (1439–1440)",
+          "author": "Helene Kottanner",
+          "note": "Trans. Maya Bijvoet Williamson, D. S. Brewer, 1998"
+        }
+      ],
+      "review": {
+        "status": "draft",
+        "notes": "Drafted from the listed sources; needs a human fact-check."
+      }
+    },
+    {
+      "id": "george",
+      "kind": "monarch",
+      "rulers": [
+        "george"
+      ],
+      "tagline": "The Hussite king who wanted peace for all Europe",
+      "start": {
+        "date": "1458-03-02"
+      },
+      "end": {
+        "date": "1471-03-22"
+      },
+      "contestedWith": [],
+      "relationToPredecessor": "Regent for Ladislaus; no relation",
+      "ageAtAccession": "37",
+      "cameToPower": "Elected by the diet in Prague",
+      "reignEnded": "Died of illness in Prague",
+      "previously": "Ladislaus dies suddenly at 17, just before his French wedding.",
+      "paragraphs": [
+        "George was a Czech lord with no royal blood, and a Utraquist, one of the moderate Hussites who took communion from the cup. On 2 March 1458 the diet met in Prague's Old Town Hall and elected him king. To get crowned, he quietly swore obedience to the Pope, and two Hungarian bishops crowned him that May. He was a capable ruler, and for a few years Bohemia had peace and a king who spoke its language.",
+        "He also had big ideas. In 1464 his envoys toured Europe pitching a league of Christian princes, with a shared assembly to settle their quarrels and a joint front against the Turks. Rome had no time for a heretic king's plans. Pope Paul II excommunicated George and in 1466 declared him deposed. Catholic lords rose against him, and Matthias Corvinus of Hungary, once his son-in-law, invaded.",
+        "In 1469 George trapped Matthias's army at Vilémov and let him go on a promise of peace talks. Matthias went to Olomouc instead, where Catholic lords elected him King of Bohemia. George knew his own sons could not hold the crown against the Pope and Hungary together. So he passed them over and offered it to a Polish prince, Vladislaus. He died in Prague in March 1471."
+      ],
+      "claims": [
+        {
+          "text": "George's peace league was a forerunner of the European Union.",
+          "status": "disputed",
+          "note": "The 1464 treaty draft is real and survives. Calling it the first plan for the EU is a modern framing, popular in Czech celebrations of him."
+        },
+        {
+          "text": "He secretly swore obedience to Rome before his coronation.",
+          "status": "confirmed",
+          "note": "The oath was taken privately before the crowning bishops. George later said it did not touch the Compacts, which is what turned Rome against him."
+        }
+      ],
+      "hook": "George is dead. The Polish prince he picked is fifteen, and Matthias Corvinus still claims to be King of Bohemia. Two kings, one crown.",
+      "images": [
+        {
+          "file": "File:Martin Kuthen-George of Podebrady.jpg",
+          "url": "https://upload.wikimedia.org/wikipedia/commons/8/83/Martin_Kuthen-George_of_Podebrady.jpg",
+          "page": "https://commons.wikimedia.org/wiki/File:Martin_Kuthen-George_of_Podebrady.jpg",
+          "credit": "Martin Kuthen of Šprinsberk",
+          "license": "Public domain",
+          "made": "1539",
+          "caption": "From Martin Kuthen's 1539 series of Czech rulers, made about 70 years after George died.",
+          "alt": "Woodcut portrait of George of Poděbrady, King of Bohemia"
+        }
+      ],
+      "sources": [
+        {
+          "title": "George of Bohemia: King of Heretics",
+          "author": "Frederick G. Heymann",
+          "note": "Princeton University Press, 1965"
+        },
+        {
+          "title": "The Hussite King: Bohemia in European Affairs, 1440–1471",
+          "author": "Otakar Odložilík",
+          "note": "Rutgers University Press, 1965"
+        },
+        {
+          "title": "The Czechs and the Lands of the Bohemian Crown",
+          "author": "Hugh LeCaine Agnew",
+          "note": "Hoover Institution Press, 2004"
+        }
+      ],
+      "review": {
+        "status": "draft",
+        "notes": "Drafted from the listed sources; needs a human fact-check."
+      }
+    },
+    {
+      "id": "vladislaus-ii",
+      "kind": "monarch",
+      "rulers": [
+        "vladislaus-ii"
+      ],
+      "tagline": "King Bene, who said yes to everything",
+      "start": {
+        "date": "1471-05-27"
+      },
+      "end": {
+        "date": "1516-03-13"
+      },
+      "contestedWith": [],
+      "relationToPredecessor": "Polish prince named heir by George",
+      "ageAtAccession": "15",
+      "cameToPower": "Elected at Kutná Hora",
+      "reignEnded": "Died at Buda",
+      "previously": "George dies, passing over his own sons for a Polish prince.",
+      "paragraphs": [
+        "Bohemia has had two kings called Vladislaus II. The first was a 12th-century Přemyslid. This one, Vladislav in Czech, was a Jagiellon, eldest son of King Casimir IV of Poland, elected at Kutná Hora on 27 May 1471 at fifteen. Matthias Corvinus did not give up. The war dragged on until the Peace of Olomouc in 1479 left Matthias holding Moravia, Silesia and Lusatia. They came back only when he died in 1490.",
+        "Vladislaus was a Catholic king in a land of Utraquists. In 1483 Prague's townsmen rose against councillors they thought were plotting against them, and threw some from town hall windows. Two years later the Peace of Kutná Hora let Catholics and Utraquists worship side by side, a rare deal in that age. Meanwhile his master builder Benedikt Ried raised the huge vaulted Vladislav Hall at Prague Castle.",
+        "In 1490 Hungary elected him too, and he moved to Buda. Back home the nobles took over. The Land Ordinance of 1500 put power firmly in the lords' hands, at the towns' expense. He was mild and agreeable, and people mocked him for it. In 1515 he signed a double marriage with the Habsburgs for his children Louis and Anne, then died at Buda in March 1516."
+      ],
+      "claims": [
+        {
+          "text": "He answered almost every request with “bene” (fine), so people called him King Bene.",
+          "status": "disputed",
+          "note": "The nickname is old and well known. It says more about his reputation for agreeing to whatever the nobles asked than about a literal habit."
+        },
+        {
+          "text": "In 1483 Prague councillors were thrown from town hall windows.",
+          "status": "disputed",
+          "note": "Chronicles agree councillors were killed during the rising and bodies went out of windows. Accounts differ on who died and how."
+        },
+        {
+          "text": "The Peace of Kutná Hora let Catholics and Utraquists share the kingdom.",
+          "status": "confirmed",
+          "note": "Agreed by the diet in 1485 for 31 years and made permanent in 1512."
+        }
+      ],
+      "hook": "Vladislaus dies, leaving two crowns to a nine-year-old. The boy's Habsburg marriage is already signed. Nobody can guess how soon it will matter.",
+      "images": [
+        {
+          "file": "File:Vladislaus II of Bohemia and Hungary.jpg",
+          "url": "https://upload.wikimedia.org/wikipedia/commons/6/6c/Vladislaus_II_of_Bohemia_and_Hungary.jpg",
+          "page": "https://commons.wikimedia.org/wiki/File:Vladislaus_II_of_Bohemia_and_Hungary.jpg",
+          "credit": "Master of the Litoměřice Altarpiece",
+          "license": "Public domain",
+          "made": "1509",
+          "caption": "Painted in 1509, during his reign.",
+          "alt": "Painted portrait of Vladislaus II Jagiellon, King of Bohemia and Hungary"
+        }
+      ],
+      "sources": [
+        {
+          "title": "Jagellonský věk v českých zemích (1471–1526)",
+          "author": "Josef Macek",
+          "note": "Academia, 1992–1999; 4 vols"
+        },
+        {
+          "title": "The Realm of St Stephen: A History of Medieval Hungary, 895–1526",
+          "author": "Pál Engel",
+          "note": "I. B. Tauris, 2001"
+        },
+        {
+          "title": "The Czechs and the Lands of the Bohemian Crown",
+          "author": "Hugh LeCaine Agnew",
+          "note": "Hoover Institution Press, 2004"
+        }
+      ],
+      "review": {
+        "status": "draft",
+        "notes": "Drafted from the listed sources; needs a human fact-check."
+      }
+    },
+    {
+      "id": "louis-ii",
+      "kind": "monarch",
+      "rulers": [
+        "louis-ii"
+      ],
+      "tagline": "The boy king who drowned at Mohács",
+      "start": {
+        "date": "1516-03-13"
+      },
+      "end": {
+        "date": "1526-08-29"
+      },
+      "contestedWith": [],
+      "relationToPredecessor": "Son of Vladislaus II",
+      "ageAtAccession": "9",
+      "cameToPower": "Inherited, crowned at three",
+      "reignEnded": "Drowned fleeing Mohács",
+      "previously": "Vladislaus dies at Buda, leaving his crowns to a boy of nine.",
+      "paragraphs": [
+        "Louis was born at Buda in July 1506, so early and so weak that people feared for his life, and his mother died weeks later. His father had him crowned King of Bohemia in Prague in 1509, aged three, so nobody could argue later. At nine he was king of both Bohemia and Hungary. Real power in Bohemia sat with the great lords, who fought among themselves for it.",
+        "In 1522 he married Mary of Habsburg, sister of Emperor Charles V, as the double-marriage deal of 1515 required. His own sister Anne married Mary's brother Ferdinand. Louis came to Prague that year and tried to rein in the nobles, with little success. New ideas were arriving too. Martin Luther's writings found keen readers among the Utraquists.",
+        "The real danger came from the south. Sultan Suleiman the Magnificent invaded Hungary in 1526, and Louis led a small, badly organised army to meet him. On 29 August at Mohács it was crushed in a couple of hours. Louis fled, and his horse fell in the swollen Csele stream. He drowned, aged 20, with no children. Both his crowns were suddenly up for grabs."
+      ],
+      "claims": [
+        {
+          "text": "Louis was born without skin and kept alive wrapped in the warm bodies of freshly killed animals.",
+          "status": "legend",
+          "note": "A tale told by later writers about his premature birth. He was certainly born early and frail; the details are folklore."
+        },
+        {
+          "text": "He drowned in a stream while fleeing the battle.",
+          "status": "confirmed",
+          "note": "His body was found weeks later. István Brodarics, a royal chancellor who survived the battle, wrote an account of it."
+        }
+      ],
+      "hook": "Louis is dead and the Jagiellons are gone from Prague. His sister's husband, Ferdinand of Habsburg, wants the crown. The Czech lords mean to make him ask for it.",
+      "images": [
+        {
+          "file": "File:Hans Krell - Portrait of King Louis II of Hungary (c.1526).jpg",
+          "url": "https://upload.wikimedia.org/wikipedia/commons/e/e5/Hans_Krell_-_Portrait_of_King_Louis_II_of_Hungary_%28c.1526%29.jpg",
+          "page": "https://commons.wikimedia.org/wiki/File:Hans_Krell_-_Portrait_of_King_Louis_II_of_Hungary_(c.1526).jpg",
+          "credit": "Hans Krell",
+          "license": "Public domain",
+          "made": "c. 1526",
+          "caption": "Painted around 1526, the year he died at Mohács.",
+          "alt": "Painted portrait of King Louis II of Hungary"
+        }
+      ],
+      "sources": [
+        {
+          "title": "The Realm of St Stephen: A History of Medieval Hungary, 895–1526",
+          "author": "Pál Engel",
+          "note": "I. B. Tauris, 2001"
+        },
+        {
+          "title": "Jagellonský věk v českých zemích (1471–1526)",
+          "author": "Josef Macek",
+          "note": "Academia, 1992–1999; 4 vols"
+        },
+        {
+          "title": "De conflictu Hungarorum cum Solymano",
+          "author": "István Brodarics",
+          "note": "1527; eyewitness account of Mohács"
+        }
+      ],
+      "review": {
+        "status": "draft",
+        "notes": "Drafted from the listed sources; needs a human fact-check."
+      }
+    },
+    {
+      "id": "ferdinand-i",
+      "kind": "monarch",
+      "rulers": [
+        "ferdinand-i"
+      ],
+      "tagline": "The Habsburg the Czechs elected, then regretted",
+      "start": {
+        "date": "1526-10-23"
+      },
+      "end": {
+        "date": "1564-07-25"
+      },
+      "contestedWith": [],
+      "relationToPredecessor": "Brother-in-law of Louis II",
+      "ageAtAccession": "23",
+      "cameToPower": "Elected by the Bohemian estates",
+      "reignEnded": "Died in Vienna",
+      "previously": "Louis drowns at Mohács, childless. Bohemia's throne is empty.",
+      "paragraphs": [
+        "Ferdinand, younger brother of Emperor Charles V, was married to Louis's sister Anne. On 23 October 1526 the Bohemian estates elected him king, and they made him accept that he owed his crown to their free vote. He was crowned in St Vitus on 24 February 1527. Then he set about chipping away at those promises, building a strong royal government run from Vienna.",
+        "The showdown came in 1547. When Ferdinand and his brother went to war with Germany's Protestant princes, many Czech lords and towns refused to fight fellow Protestants and raised their own army. After the emperor won at Mühlberg, Ferdinand struck back. At the Bloody Diet in Prague four leaders were beheaded, and the Prague towns lost lands and rights. Many of the Unity of Brethren were driven into exile.",
+        "Ferdinand had a gentler side in Prague too. He began an elegant Renaissance summer palace in the castle gardens, traditionally for his wife Anne. He invited the Jesuits, who opened their college at the Clementinum in 1556. His son Archduke Ferdinand governed Bohemia for him and secretly married a commoner, Philippine Welser. Ferdinand died in 1564, emperor by then, and Bohemia passed quietly to his eldest son."
+      ],
+      "claims": [
+        {
+          "text": "Four rebels were beheaded at Prague Castle after the revolt of 1547.",
+          "status": "confirmed",
+          "note": "Two knights and two burghers were executed in August 1547. The name “Bloody Diet” is the verdict of Czech tradition."
+        },
+        {
+          "text": "Archduke Ferdinand secretly married Philippine Welser, a merchant's daughter from Augsburg.",
+          "status": "confirmed",
+          "note": "The marriage, usually dated 1557, was hidden for years, and their sons were barred from the succession."
+        },
+        {
+          "text": "The Royal Summer Palace was built for Queen Anne.",
+          "status": "legend",
+          "note": "Work began in 1538 and it is often called Queen Anne's Summer Palace, but she died in 1547, long before it was finished."
+        }
+      ],
+      "hook": "Ferdinand is dead. His heir Maximilian is a Habsburg who has listened to Lutheran preachers. Bohemia's Protestants start to hope.",
+      "images": [
+        {
+          "file": "File:Ferdinand I, Holy Roman Emperor.jpg",
+          "url": "https://upload.wikimedia.org/wikipedia/commons/f/f7/Ferdinand_I%2C_Holy_Roman_Emperor.jpg",
+          "page": "https://commons.wikimedia.org/wiki/File:Ferdinand_I,_Holy_Roman_Emperor.jpg",
+          "credit": "Hans Bocksberger the Elder",
+          "license": "Public domain",
+          "made": "Mid-16th century",
+          "caption": "Painted in the middle of his reign; a detail from a full-length portrait.",
+          "alt": "Detail of a full-length painted portrait of Ferdinand I"
+        }
+      ],
+      "sources": [
+        {
+          "title": "Ferdinand I of Austria: The Politics of Dynasticism in the Age of the Reformation",
+          "author": "Paula Sutter Fichtner",
+          "note": "East European Monographs, 1982"
+        },
+        {
+          "title": "The Making of the Habsburg Monarchy, 1550–1700",
+          "author": "R. J. W. Evans",
+          "note": "Oxford University Press, 1979"
+        },
+        {
+          "title": "The Czechs and the Lands of the Bohemian Crown",
+          "author": "Hugh LeCaine Agnew",
+          "note": "Hoover Institution Press, 2004"
+        }
+      ],
+      "review": {
+        "status": "draft",
+        "notes": "Drafted from the listed sources; needs a human fact-check."
+      }
+    },
+    {
+      "id": "maximilian-ii",
+      "kind": "monarch",
+      "rulers": [
+        "maximilian-ii"
+      ],
+      "tagline": "The emperor who might have been a Protestant",
+      "start": {
+        "date": "1564-07-25"
+      },
+      "end": {
+        "date": "1576-10-12"
+      },
+      "contestedWith": [],
+      "relationToPredecessor": "Eldest son of Ferdinand I",
+      "ageAtAccession": "36",
+      "cameToPower": "Inherited; crowned back in 1562",
+      "reignEnded": "Died at Regensburg",
+      "previously": "Ferdinand I dies in Vienna. His son is already crowned in Prague.",
+      "paragraphs": [
+        "Maximilian had been crowned King of Bohemia in Prague in 1562, two years before his father died, so the handover was smooth. He was the family puzzle. As a young man he kept a Lutheran-leaning court preacher, and his father and Spanish cousins feared he would break with Rome altogether. He never did. He never quite convinced anyone he was a loyal Catholic either.",
+        "Bohemia's Protestants saw their chance. In 1575 the Utraquists, Lutherans and the Unity of Brethren wrote a shared statement of faith, the Bohemian Confession. Maximilian promised to tolerate it, but only by word of mouth, never in writing. In return the diet accepted his son Rudolf as heir, and Rudolf was crowned in Prague that September.",
+        "A year later, at the imperial diet in Regensburg, Maximilian fell ill. He died there on 12 October 1576, aged 49. The story goes that he waved away the Catholic last rites. Bohemia's Protestants were left holding a spoken promise from a dead king."
+      ],
+      "claims": [
+        {
+          "text": "Maximilian was a secret Protestant.",
+          "status": "disputed",
+          "note": "He kept the Lutheran-minded preacher Johann Sebastian Pfauser until his father forced him out. Historians still argue whether he was a hidden Protestant or a Catholic who wanted compromise."
+        },
+        {
+          "text": "He refused the Catholic last rites on his deathbed.",
+          "status": "disputed",
+          "note": "Reported at the time and much repeated. Catholic and Protestant writers told his last days differently."
+        },
+        {
+          "text": "His toleration of the Bohemian Confession was never written down.",
+          "status": "confirmed",
+          "note": "The promise was oral, which later let his successors argue it bound nobody."
+        }
+      ],
+      "hook": "Maximilian dies at Regensburg. His son Rudolf, moody and obsessed with stars, stones and secrets, is about to make Prague the capital of an empire.",
+      "images": [
+        {
+          "file": "File:William Scrots - Portrait of Maximilian II - WGA21097.jpg",
+          "url": "https://upload.wikimedia.org/wikipedia/commons/c/c0/William_Scrots_-_Portrait_of_Maximilian_II_-_WGA21097.jpg",
+          "page": "https://commons.wikimedia.org/wiki/File:William_Scrots_-_Portrait_of_Maximilian_II_-_WGA21097.jpg",
+          "credit": "William Scrots",
+          "license": "Public domain",
+          "made": "1544",
+          "caption": "Painted in 1544, when he was a teenager, twenty years before he took power.",
+          "alt": "Oil portrait of the young Archduke Maximilian, later Maximilian II"
+        }
+      ],
+      "sources": [
+        {
+          "title": "Emperor Maximilian II",
+          "author": "Paula Sutter Fichtner",
+          "note": "Yale University Press, 2001"
+        },
+        {
+          "title": "The Making of the Habsburg Monarchy, 1550–1700",
+          "author": "R. J. W. Evans",
+          "note": "Oxford University Press, 1979"
+        },
+        {
+          "title": "The Czechs and the Lands of the Bohemian Crown",
+          "author": "Hugh LeCaine Agnew",
+          "note": "Hoover Institution Press, 2004"
+        }
+      ],
+      "review": {
+        "status": "draft",
+        "notes": "Drafted from the listed sources; needs a human fact-check."
+      }
+    },
+    {
+      "id": "rudolf-ii",
+      "kind": "monarch",
+      "rulers": [
+        "rudolf-ii"
+      ],
+      "tagline": "Stargazers, alchemists and a melancholy emperor",
+      "start": {
+        "date": "1576-10-12"
+      },
+      "end": {
+        "date": "1611-05-23"
+      },
+      "contestedWith": [],
+      "relationToPredecessor": "Eldest surviving son of Maximilian II",
+      "ageAtAccession": "24",
+      "cameToPower": "Inherited; crowned in Prague in 1575",
+      "reignEnded": "Forced out by his brother Matthias",
+      "previously": "Maximilian dies at Regensburg, with Rudolf already crowned in Prague.",
+      "paragraphs": [
+        "Rudolf moved the imperial court to Prague in 1583, and for nearly thirty years the city was the heart of the empire. He packed the castle with a Kunstkammer, a cabinet of wonders full of paintings, clocks, gems, fossils and exotic curiosities. Giuseppe Arcimboldo, who had painted for his court, even portrayed him as Vertumnus, Roman god of the seasons, built entirely from fruit, vegetables and flowers.",
+        "Scientists and chancers came running. The Danish astronomer Tycho Brahe worked for him and died in Prague in 1601, and his assistant Johannes Kepler carried on, naming his star tables after Rudolf. The Englishmen John Dee and Edward Kelley promised alchemical secrets. Rudolf even received Prague's great rabbi, Judah Loew, in 1592. But he was deeply melancholy, hid from visitors and never married.",
+        "His brother Matthias took Hungary, Austria and Moravia from him in 1608. To keep Bohemia on side, Rudolf granted the Letter of Majesty in 1609, giving Protestants real freedom of worship. In 1611 troops raised in Passau by his cousin Leopold sacked Prague's Lesser Town, and the Czech estates turned to Matthias. Rudolf had to give up Bohemia that May. He died at Prague Castle in January 1612."
+      ],
+      "claims": [
+        {
+          "text": "Tycho Brahe died because he would not leave a banquet table to relieve himself, and his bladder burst.",
+          "status": "disputed",
+          "note": "Kepler's account says he fell ill after a dinner and refused to leave out of politeness. Tests on his remains in 2010 found no deadly mercury, so the old poisoning theory looks unlikely too."
+        },
+        {
+          "text": "Rabbi Loew built a golem of clay to protect Prague's Jews.",
+          "status": "legend",
+          "note": "The 1592 audience with Rudolf is recorded. The golem tale is tied to Loew only in writings from centuries later."
+        },
+        {
+          "text": "Rudolf's fate was linked to his favourite lion, and he died soon after it did.",
+          "status": "legend",
+          "note": "Said to be a prophecy by Tycho Brahe. It comes from later retellings, not from any record of the time."
+        }
+      ],
+      "hook": "Rudolf is pushed aside. Matthias is crowned in Prague, and Bohemia's Protestants, Letter of Majesty in hand, are watching him very closely.",
+      "images": [
+        {
+          "file": "File:Giuseppe Arcimboldo - Rudolf II of Habsburg as Vertumnus - Google Art Project.jpg",
+          "url": "https://upload.wikimedia.org/wikipedia/commons/7/74/Giuseppe_Arcimboldo_-_Rudolf_II_of_Habsburg_as_Vertumnus_-_Google_Art_Project.jpg",
+          "page": "https://commons.wikimedia.org/wiki/File:Giuseppe_Arcimboldo_-_Rudolf_II_of_Habsburg_as_Vertumnus_-_Google_Art_Project.jpg",
+          "credit": "Giuseppe Arcimboldo",
+          "license": "Public domain",
+          "made": "1591",
+          "caption": "Arcimboldo's 1591 portrait of Rudolf as the Roman god of the seasons, painted during his reign.",
+          "alt": "Portrait of Emperor Rudolf II made up of fruit, vegetables and flowers"
+        }
+      ],
+      "sources": [
+        {
+          "title": "Rudolf II and His World: A Study in Intellectual History, 1576–1612",
+          "author": "R. J. W. Evans",
+          "note": "Oxford University Press, 1973"
+        },
+        {
+          "title": "The Theatre of the World: Alchemy, Astrology and Magic in Renaissance Prague",
+          "author": "Peter Marshall",
+          "note": "Harvill Secker, 2006"
+        },
+        {
+          "title": "The Czechs and the Lands of the Bohemian Crown",
+          "author": "Hugh LeCaine Agnew",
+          "note": "Hoover Institution Press, 2004"
+        }
+      ],
+      "review": {
+        "status": "draft",
+        "notes": "Drafted from the listed sources; needs a human fact-check."
+      }
+    },
+    {
+      "id": "matthias",
+      "kind": "monarch",
+      "rulers": [
+        "matthias"
+      ],
+      "tagline": "The king who lit the fuse of the Thirty Years' War",
+      "start": {
+        "date": "1611-05-23"
+      },
+      "end": {
+        "date": "1619-03-20"
+      },
+      "contestedWith": [],
+      "relationToPredecessor": "Younger brother of Rudolf II",
+      "ageAtAccession": "54",
+      "cameToPower": "Forced Rudolf to hand over Bohemia",
+      "reignEnded": "Died in Vienna as Bohemia rebelled",
+      "previously": "Rudolf is forced to give up Bohemia to his brother Matthias.",
+      "paragraphs": [
+        "Matthias was crowned in Prague on 23 May 1611. He had won the crown partly by courting the Protestant estates, and they expected him to keep his word. He did not stay long. After Rudolf died he was elected emperor and moved the court back to Vienna. Prague was a provincial city again.",
+        "Matthias was ageing, ill and childless. His chief minister, Cardinal Khlesl, helped line up a strict Catholic heir: his cousin Ferdinand of Styria. In 1617 the Bohemian diet accepted Ferdinand as king-designate, and he was crowned. Meanwhile new Protestant churches at Broumov and Hrob, on Catholic church land, were shut, and the one at Hrob was pulled down. Protestants said the Letter of Majesty was being torn up.",
+        "On 23 May 1618 a crowd of Protestant nobles marched into Prague Castle and threw two of the king's governors, Martinic and Slavata, and their secretary Fabricius out of a high window. All three survived. The rebels set up their own government and raised an army. The Thirty Years' War had begun. Matthias died in Vienna in March 1619, with Bohemia in open revolt."
+      ],
+      "claims": [
+        {
+          "text": "The three men survived because they landed in a dung heap, or because angels caught them.",
+          "status": "legend",
+          "note": "Catholic writers credited the Virgin Mary; Protestant pamphlets joked about rubbish. The steep slope below the window and their heavy cloaks probably did most of the work."
+        },
+        {
+          "text": "Fabricius was later ennobled with the title “von Hohenfall”, roughly “of the high fall”.",
+          "status": "confirmed",
+          "note": "The emperor rewarded his loyalty with a title that made fun of the incident for good."
+        }
+      ],
+      "hook": "Matthias is dead. The rebel estates refuse to have Ferdinand. They want a Protestant king, and they look to the Rhine, to a young Calvinist prince with a British wife.",
+      "images": [
+        {
+          "file": "File:Matthias, Holy Roman Emperor.jpg",
+          "url": "https://upload.wikimedia.org/wikipedia/commons/a/a3/Matthias%2C_Holy_Roman_Emperor.jpg",
+          "page": "https://commons.wikimedia.org/wiki/File:Matthias,_Holy_Roman_Emperor.jpg",
+          "credit": "Lucas van Valckenborch",
+          "license": "Public domain",
+          "made": "1583",
+          "caption": "Painted in 1583, when he was still an archduke, 28 years before he became King of Bohemia.",
+          "alt": "Painted portrait of the young Archduke Matthias, later Emperor Matthias"
+        }
+      ],
+      "sources": [
+        {
+          "title": "Europe's Tragedy: A History of the Thirty Years War",
+          "author": "Peter H. Wilson",
+          "note": "Allen Lane, 2009"
+        },
+        {
+          "title": "The Thirty Years War",
+          "author": "C. V. Wedgwood",
+          "note": "Jonathan Cape, 1938"
+        },
+        {
+          "title": "The Czechs and the Lands of the Bohemian Crown",
+          "author": "Hugh LeCaine Agnew",
+          "note": "Hoover Institution Press, 2004"
+        }
+      ],
+      "review": {
+        "status": "draft",
+        "notes": "Drafted from the listed sources; needs a human fact-check."
+      }
+    },
+    {
+      "id": "frederick-v",
+      "kind": "monarch",
+      "rulers": [
+        "frederick-v"
+      ],
+      "tagline": "Crowned in November, gone before the next winter",
+      "start": {
+        "date": "1619-08-26"
+      },
+      "end": {
+        "date": "1620-11-08"
+      },
+      "contestedWith": [
+        "ferdinand-ii"
+      ],
+      "relationToPredecessor": "Elected in place of Ferdinand",
+      "ageAtAccession": "23",
+      "cameToPower": "Elected by the rebel estates",
+      "reignEnded": "Lost White Mountain and fled",
+      "previously": "Matthias dies in Vienna. Bohemia is already in open revolt.",
+      "paragraphs": [
+        "The rebels needed a king who was not a Habsburg, and they picked big. Frederick V, Elector Palatine, was 23, a Calvinist, leader of Germany's Protestant Union and son-in-law of James VI and I of Britain. Surely, they thought, his father-in-law would help. On 4 November 1619 he was crowned in St Vitus Cathedral as Frederick I of Bohemia, and his wife Elizabeth Stuart was crowned queen three days later.",
+        "Prague soon went off him. His Calvinist preachers stripped St Vitus of altars, statues and paintings, which shocked Catholics and plenty of Czech Protestants too. James sent no army and the German Protestant princes stayed home. On 8 November 1620 the Catholic armies smashed the Bohemian forces on White Mountain, just outside Prague, in about an hour.",
+        "Frederick and Elizabeth fled the next morning. The emperor put him under the ban, and Spanish and Bavarian troops took his Palatinate too. He lived out his life as an exile in The Hague and died in 1632. His daughter Sophia was the mother of George I, so Britain's later kings descend from the Winter King."
+      ],
+      "claims": [
+        {
+          "text": "\"Winter King\" was a Catholic jibe: he would melt away with the spring snow.",
+          "status": "confirmed",
+          "note": "The nickname spread through Catholic pamphlets and prints in 1619–20; it stuck because the joke came true."
+        },
+        {
+          "text": "He fled Prague so fast he left his Garter insignia behind.",
+          "status": "disputed",
+          "note": "Catholic satirical prints made great fun of the lost Garter. Exactly what was left behind, and where, is hard to pin down."
+        },
+        {
+          "text": "Stripping St Vitus Cathedral turned Prague against him.",
+          "status": "disputed",
+          "note": "The clear-out by his preacher Abraham Scultetus caused real outrage, but military defeat, not unpopularity, ended the reign."
+        }
+      ],
+      "hook": "The Winter King is gone. The man the rebels threw out never stopped calling himself King of Bohemia, and now Ferdinand II is coming to settle accounts.",
+      "images": [
+        {
+          "file": "File:Frederick V, King of Bohemia by Gerrit van Honthorst.jpg",
+          "url": "https://upload.wikimedia.org/wikipedia/commons/d/d4/Frederick_V%2C_King_of_Bohemia_by_Gerrit_van_Honthorst.jpg",
+          "page": "https://commons.wikimedia.org/wiki/File:Frederick_V,_King_of_Bohemia_by_Gerrit_van_Honthorst.jpg",
+          "credit": "Gerard van Honthorst",
+          "license": "Public domain",
+          "made": "1635",
+          "caption": "Painted by Gerard van Honthorst in 1635, three years after Frederick's death, showing him in the style of a Roman emperor.",
+          "alt": "Painted portrait of Frederick V, Elector Palatine, dressed as a Roman emperor"
+        }
+      ],
+      "sources": [
+        {
+          "title": "The Winter King: Frederick V of the Palatinate and the Coming of the Thirty Years' War",
+          "author": "Brennan C. Pursell",
+          "note": "Ashgate, 2003"
+        },
+        {
+          "title": "Europe's Tragedy: A History of the Thirty Years War",
+          "author": "Peter H. Wilson",
+          "note": "Allen Lane, 2009"
+        },
+        {
+          "title": "Elizabeth Stuart, Queen of Hearts",
+          "author": "Nadine Akkerman",
+          "note": "Oxford University Press, 2021"
+        }
+      ],
+      "review": {
+        "status": "draft",
+        "notes": "Drafted from the listed sources; needs a human fact-check."
+      }
+    },
+    {
+      "id": "ferdinand-ii",
+      "kind": "monarch",
+      "rulers": [
+        "ferdinand-ii"
+      ],
+      "tagline": "The emperor who made Bohemia Catholic by force",
+      "start": {
+        "date": "1619-03-20"
+      },
+      "end": {
+        "date": "1637-02-15"
+      },
+      "contestedWith": [
+        "frederick-v"
+      ],
+      "relationToPredecessor": "Matthias's cousin, crowned heir in 1617",
+      "ageAtAccession": "40",
+      "cameToPower": "Inherited as crowned king-designate",
+      "reignEnded": "Died in Vienna",
+      "previously": "Frederick flees Prague after White Mountain. The Winter King is done.",
+      "paragraphs": [
+        "Ferdinand was schooled by Jesuits and had already made his own Styria Catholic again. The Bohemian estates knew what he would do, so in August 1619 they deposed him. White Mountain handed everything back. On 21 June 1621, 27 leaders of the revolt were executed in Prague's Old Town Square. Jan Jesenius, the university's rector and a famous doctor, had his tongue cut out first. Twelve heads were hung on the Old Town Bridge Tower and stayed there for ten years.",
+        "Rebel land was seized on a huge scale and sold cheap to loyal, often foreign, families. The Renewed Land Ordinance of 1627 made the crown hereditary in the Habsburg line, allowed only Catholics and put German level with Czech. Protestant nobles had to convert or leave; thousands left, among them the great teacher Comenius in 1628.",
+        "One local winner was Albrecht of Wallenstein, a Bohemian noble who grew rich on the confiscations and raised armies for the emperor. Ferdinand came to fear him, and in 1634 officers loyal to the emperor murdered him at Cheb. Ferdinand died in 1637. His son, already crowned King of Bohemia, took over."
+      ],
+      "claims": [
+        {
+          "text": "Jesenius's tongue was cut out before he was beheaded.",
+          "status": "confirmed",
+          "note": "Contemporary accounts of the execution day record it, along with the order of the 27 deaths."
+        },
+        {
+          "text": "The heads stayed on the bridge tower for ten years.",
+          "status": "confirmed",
+          "note": "They were taken down and buried when a Saxon army occupied Prague in 1631."
+        },
+        {
+          "text": "Ferdinand ordered Wallenstein's murder.",
+          "status": "disputed",
+          "note": "He approved getting rid of Wallenstein, dead or alive. Whether he meant outright murder is still argued over."
+        }
+      ],
+      "hook": "Ferdinand dies with Bohemia beaten and Catholic. His son takes over, and the war still has eleven years to run.",
+      "images": [
+        {
+          "file": "File:Kaiser Ferdinand II. 1614.jpg",
+          "url": "https://upload.wikimedia.org/wikipedia/commons/e/ee/Kaiser_Ferdinand_II._1614.jpg",
+          "page": "https://commons.wikimedia.org/wiki/File:Kaiser_Ferdinand_II._1614.jpg",
+          "credit": "Unidentified painter",
+          "license": "Public domain",
+          "made": "1614",
+          "caption": "Painted in 1614, when he was Archduke of Styria, three years before he was crowned King of Bohemia.",
+          "alt": "Painted portrait of Ferdinand II as Archduke of Styria"
+        }
+      ],
+      "sources": [
+        {
+          "title": "Ferdinand II, Counter-Reformation Emperor, 1578–1637",
+          "author": "Robert Bireley",
+          "note": "Cambridge University Press, 2014"
+        },
+        {
+          "title": "Europe's Tragedy: A History of the Thirty Years War",
+          "author": "Peter H. Wilson",
+          "note": "Allen Lane, 2009"
+        },
+        {
+          "title": "Converting Bohemia: Force and Persuasion in the Catholic Reformation",
+          "author": "Howard Louthan",
+          "note": "Cambridge University Press, 2009"
+        }
+      ],
+      "review": {
+        "status": "draft",
+        "notes": "Drafted from the listed sources; needs a human fact-check."
+      }
+    },
+    {
+      "id": "baroque-bohemia",
+      "kind": "interregnum",
+      "rulers": [],
+      "house": "habsburg",
+      "title": "Baroque Bohemia",
+      "tagline": "Gold churches, Swedish looters and a long quiet",
+      "start": {
+        "date": "1637-02-15"
+      },
+      "end": {
+        "date": "1740-10-20"
+      },
+      "contestedWith": [],
+      "relationToPredecessor": "Ferdinand II's son, then his heirs",
+      "ageAtAccession": "Four kings in turn",
+      "cameToPower": "Hereditary Habsburg crown",
+      "reignEnded": "Charles VI dies without a son",
+      "previously": "Ferdinand II dies. Bohemia is Catholic, Habsburg and still at war.",
+      "paragraphs": [
+        "Four emperors wore the Bohemian crown in this century: Ferdinand III, Leopold I, Joseph I and Charles VI, who counts as Charles II of Bohemia. They ruled from Vienna. The war's last blow fell on Prague. In July 1648 a Swedish army slipped into the Lesser Town and the Castle. Students and townspeople held them at the Charles Bridge until peace came. The Swedes carried Rudolf II's treasures off to Stockholm, along with the giant Codex Gigas, the Devil's Bible.",
+        "Then the Church moved in, with a building boom. Jesuits ran the schools and Baroque churches like St Nicholas in the Lesser Town rose over the old Gothic city. Life in the countryside was hard: in 1680 plague hit Prague and serfs rose up against forced labour. In 1729 John of Nepomuk, the priest thrown off the bridge in 1393, was made a saint and became Bohemia's new Catholic hero.",
+        "Charles VI was crowned in Prague in 1723. He had no son, and the Bohemian diet had already accepted his Pragmatic Sanction, letting his daughter inherit. He died in October 1740."
+      ],
+      "claims": [
+        {
+          "text": "The Codex Gigas was written in a single night with the Devil's help.",
+          "status": "legend",
+          "note": "The story explains the full-page picture of the Devil inside. The book was made in a Bohemian monastery in the early 13th century."
+        },
+        {
+          "text": "The Swedes took the Codex Gigas to Stockholm in 1648.",
+          "status": "confirmed",
+          "note": "It was part of the loot from Prague Castle and is still in the National Library of Sweden."
+        },
+        {
+          "text": "This era was Bohemia's \"Darkness\".",
+          "status": "disputed",
+          "note": "The label comes from Alois Jirásek's novel Temno (1915) and Czech nationalist history. Many historians now stress the age's rich Baroque art and culture."
+        }
+      ],
+      "hook": "Charles VI is dead with no son. His 23-year-old daughter inherits, and within a year enemy troops are proclaiming a Bavarian prince King of Bohemia in Prague.",
+      "images": [
+        {
+          "file": "File:Charles VI 1716.jpg",
+          "url": "https://upload.wikimedia.org/wikipedia/commons/8/81/Charles_VI_1716.jpg",
+          "page": "https://commons.wikimedia.org/wiki/File:Charles_VI_1716.jpg",
+          "credit": "Jan Kupecký",
+          "license": "Public domain",
+          "made": "1716",
+          "caption": "Charles VI, the last of this card's four kings, painted by Jan Kupecký in 1716.",
+          "alt": "Painted portrait of Emperor Charles VI"
+        }
+      ],
+      "sources": [
+        {
+          "title": "The Czechs and the Lands of the Bohemian Crown",
+          "author": "Hugh LeCaine Agnew",
+          "note": "Hoover Institution Press, 2004"
+        },
+        {
+          "title": "Converting Bohemia: Force and Persuasion in the Catholic Reformation",
+          "author": "Howard Louthan",
+          "note": "Cambridge University Press, 2009"
+        },
+        {
+          "title": "Prague in Black and Gold: Scenes from the Life of a European City",
+          "author": "Peter Demetz",
+          "note": "Hill and Wang, 1997"
+        }
+      ],
+      "review": {
+        "status": "draft",
+        "notes": "Drafted from the listed sources; needs a human fact-check."
+      }
+    },
+    {
+      "id": "maria-theresa",
+      "kind": "monarch",
+      "rulers": [
+        "maria-theresa"
+      ],
+      "tagline": "She lost Prague, won it back and remade the state",
+      "start": {
+        "date": "1740-10-20"
+      },
+      "end": {
+        "date": "1780-11-29"
+      },
+      "contestedWith": [],
+      "relationToPredecessor": "Daughter of Charles VI",
+      "ageAtAccession": "23",
+      "cameToPower": "Under the Pragmatic Sanction",
+      "reignEnded": "Died in Vienna",
+      "previously": "Charles VI dies without a son. His daughter must fight for her crowns.",
+      "paragraphs": [
+        "The promises made to her father meant nothing. Prussia grabbed Silesia, and in November 1741 French, Bavarian and Saxon troops took Prague. Charles Albert of Bavaria was proclaimed King of Bohemia, and many Czech nobles swore loyalty to him. Maria Theresa fought back, got Prague again and was crowned in St Vitus in May 1743. She never forgot who had betrayed her, and she ordered Prague's Jews expelled, accused without evidence of helping the Prussians.",
+        "Most of Silesia was gone for good. In 1757 Frederick the Great besieged Prague, until his defeat at Kolín drove him off. Her answer to these wars was reform. Bohemia's own court chancellery was merged into a central government in Vienna. Every child was to go to school. After a terrible famine in 1770–72 and a big peasant revolt in 1775, she capped the forced labour serfs owed their lords.",
+        "In 1780 a fortress town rose in north Bohemia, named Theresienstadt, or Terezín, after her. She died in November that year."
+      ],
+      "claims": [
+        {
+          "text": "She called the crown of St Wenceslas a \"fool's cap\".",
+          "status": "disputed",
+          "note": "The jibe about the old crown is attributed to her around her 1743 coronation. It is often quoted but hard to source firmly."
+        },
+        {
+          "text": "She expelled the Jews of Prague in 1745.",
+          "status": "confirmed",
+          "note": "The order of December 1744 was carried out in 1745; under pressure from Bohemian estates and foreign courts they were allowed back in 1748."
+        },
+        {
+          "text": "Terezín was named after her.",
+          "status": "confirmed",
+          "note": "Her son Joseph founded the fortress in 1780 and named it Theresienstadt in her honour."
+        }
+      ],
+      "hook": "Maria Theresa is dead. Her son Joseph, co-ruler for fifteen years, can finally do things his way, and he won't even come to Prague to be crowned.",
+      "images": [
+        {
+          "file": "File:Meytens - Empress Maria Theresa - Hofburg, Maria-Theresien-Zimmer.png",
+          "url": "https://upload.wikimedia.org/wikipedia/commons/a/a0/Meytens_-_Empress_Maria_Theresa_-_Hofburg%2C_Maria-Theresien-Zimmer.png",
+          "page": "https://commons.wikimedia.org/wiki/File:Meytens_-_Empress_Maria_Theresa_-_Hofburg,_Maria-Theresien-Zimmer.png",
+          "credit": "Martin van Meytens",
+          "license": "Public domain",
+          "made": "18th century",
+          "caption": "By her court painter Martin van Meytens; it hangs in the Hofburg in Vienna.",
+          "alt": "Painted portrait of Empress Maria Theresa by Martin van Meytens"
+        }
+      ],
+      "sources": [
+        {
+          "title": "Maria Theresa: The Habsburg Empress in Her Time",
+          "author": "Barbara Stollberg-Rilinger",
+          "note": "Princeton University Press, 2021"
+        },
+        {
+          "title": "The Czechs and the Lands of the Bohemian Crown",
+          "author": "Hugh LeCaine Agnew",
+          "note": "Hoover Institution Press, 2004"
+        },
+        {
+          "title": "Finance and Government under Maria Theresia, 1740–1780",
+          "author": "P. G. M. Dickson",
+          "note": "Oxford University Press, 1987"
+        }
+      ],
+      "review": {
+        "status": "draft",
+        "notes": "Drafted from the listed sources; needs a human fact-check."
+      }
+    },
+    {
+      "id": "joseph-ii",
+      "kind": "monarch",
+      "rulers": [
+        "joseph-ii"
+      ],
+      "tagline": "The king who never came for his crown",
+      "start": {
+        "date": "1780-11-29"
+      },
+      "end": {
+        "date": "1790-02-20"
+      },
+      "contestedWith": [],
+      "relationToPredecessor": "Son of Maria Theresa",
+      "ageAtAccession": "39",
+      "cameToPower": "Inherited from his mother",
+      "reignEnded": "Died of tuberculosis",
+      "previously": "Maria Theresa dies in Vienna. Her restless son Joseph rules alone.",
+      "paragraphs": [
+        "Joseph thought coronations were a waste of time. He never came to Prague to be crowned and had the Bohemian crown jewels moved to Vienna. Then he got busy. His Patent of Toleration in 1781 let Lutherans and Calvinists worship openly, and tens of thousands of Czechs who had kept their faith in secret for 150 years came forward. That same year he abolished serfdom in Bohemia: peasants could now marry, move and learn a trade without their lord's say-so.",
+        "He closed monasteries he thought useless and made German the language of government, which annoyed the Czech-speaking nobles and scholars. Prague's four towns were merged into one city. And Prague fell for Mozart. After his Figaro was a hit there, the city's theatre asked for a new opera, and Don Giovanni premiered at today's Estates Theatre on 29 October 1787.",
+        "Joseph died in 1790, worn out and ill, having taken back many of his own reforms. Toleration and the end of serfdom stayed."
+      ],
+      "claims": [
+        {
+          "text": "Mozart said: \"My Praguers understand me.\"",
+          "status": "legend",
+          "note": "The line is a much-repeated anecdote with no solid source. That Prague loved him is true; he wrote home happily about Figaro mania there."
+        },
+        {
+          "text": "The Patent of Toleration brought Bohemia's secret Protestants into the open.",
+          "status": "confirmed",
+          "note": "Tens of thousands registered as Lutheran or Calvinist, though followers of other sects, the so-called deists, were still punished."
+        },
+        {
+          "text": "Joseph had the Bohemian crown jewels taken to Vienna.",
+          "status": "confirmed",
+          "note": "They were kept in the Vienna treasury until his brother Leopold returned them for his own Prague coronation."
+        }
+      ],
+      "hook": "Joseph is dead with his reforms in pieces. His brother Leopold rushes to calm things down, and Prague gets a coronation again, with a new Mozart opera.",
+      "images": [
+        {
+          "file": "File:Anton von Maron - Kaiser Joseph II. (1741-1790) mit der Statue des Mars - GG 6200 - Kunsthistorisches Museum.jpg",
+          "url": "https://upload.wikimedia.org/wikipedia/commons/9/90/Anton_von_Maron_-_Kaiser_Joseph_II._%281741-1790%29_mit_der_Statue_des_Mars_-_GG_6200_-_Kunsthistorisches_Museum.jpg",
+          "page": "https://commons.wikimedia.org/wiki/File:Anton_von_Maron_-_Kaiser_Joseph_II._(1741-1790)_mit_der_Statue_des_Mars_-_GG_6200_-_Kunsthistorisches_Museum.jpg",
+          "credit": "Anton von Maron",
+          "license": "Public domain",
+          "made": "1775",
+          "caption": "Painted in 1775, while he was still sharing power with his mother.",
+          "alt": "Painted portrait of Emperor Joseph II beside a statue of Mars, god of war"
+        }
+      ],
+      "sources": [
+        {
+          "title": "Joseph II, Volume 2: Against the World, 1780–1790",
+          "author": "Derek Beales",
+          "note": "Cambridge University Press, 2009"
+        },
+        {
+          "title": "Joseph II (Profiles in Power)",
+          "author": "T. C. W. Blanning",
+          "note": "Longman, 1994"
+        },
+        {
+          "title": "The Czechs and the Lands of the Bohemian Crown",
+          "author": "Hugh LeCaine Agnew",
+          "note": "Hoover Institution Press, 2004"
+        }
+      ],
+      "review": {
+        "status": "draft",
+        "notes": "Drafted from the listed sources; needs a human fact-check."
+      }
+    },
+    {
+      "id": "revival-and-revolution",
+      "kind": "interregnum",
+      "rulers": [],
+      "house": "habsburg-lorraine",
+      "title": "Revival and Revolution",
+      "tagline": "The Czechs find their voice, and then the barricades",
+      "start": {
+        "date": "1790-02-20"
+      },
+      "end": {
+        "date": "1848-12-02"
+      },
+      "contestedWith": [],
+      "relationToPredecessor": "Joseph II's brother, then his heirs",
+      "ageAtAccession": "Three kings in turn",
+      "cameToPower": "Hereditary Habsburg crown",
+      "reignEnded": "Ferdinand abdicates at Olomouc",
+      "previously": "Joseph II dies in Vienna, his reforms half undone.",
+      "paragraphs": [
+        "Leopold II brought the crown home and was crowned in Prague on 6 September 1791. That night Mozart's La clemenza di Tito premiered for the festivities. His son Francis was crowned the next year. In 1805 Napoleon crushed the Austrians and Russians at Austerlitz, near Brno in Moravia. Meanwhile scholars were reviving Czech, which the upper classes had dropped for German. Josef Dobrovský wrote its grammar, Josef Jungmann a huge dictionary, František Palacký the nation's history.",
+        "Ferdinand, Emperor Ferdinand I of Austria, was crowned in Prague on 7 September 1836 as Ferdinand V. He was the last King of Bohemia ever crowned. Then came 1848. Palacký refused to join the German parliament at Frankfurt and called for a reformed Austria of equal peoples. A Slavic Congress met in Prague. In June the city rose. General Windischgrätz, whose wife had been killed by a stray bullet, shelled Prague into surrender.",
+        "In December Ferdinand gave up the throne at Olomouc. He retired to Prague Castle and lived there until 1875."
+      ],
+      "claims": [
+        {
+          "text": "Palacký wrote that if Austria did not exist, it would have to be invented.",
+          "status": "confirmed",
+          "note": "It is in his letter of April 1848 turning down the invitation to Frankfurt; he wanted Austria to protect its smaller nations."
+        },
+        {
+          "text": "Medieval manuscripts found in 1817 and 1818 proved early Czech poetry was older than German.",
+          "status": "legend",
+          "note": "The Dvůr Králové and Zelená Hora manuscripts were forgeries. Scholars, Tomáš Masaryk among them, exposed them in the 1880s."
+        },
+        {
+          "text": "Ferdinand once said: \"I'm the emperor, and I want dumplings!\"",
+          "status": "legend",
+          "note": "A popular Viennese anecdote about the kindly, epileptic emperor; no reliable source records it."
+        }
+      ],
+      "hook": "Ferdinand steps down. His 18-year-old nephew Franz Joseph takes the throne, and he will reign for 68 years without ever being crowned in Prague.",
+      "images": [
+        {
+          "file": "File:Leopold Kupelwieser - Kaiser Ferdinand I.jpg",
+          "url": "https://upload.wikimedia.org/wikipedia/commons/0/09/Leopold_Kupelwieser_-_Kaiser_Ferdinand_I.jpg",
+          "page": "https://commons.wikimedia.org/wiki/File:Leopold_Kupelwieser_-_Kaiser_Ferdinand_I.jpg",
+          "credit": "Leopold Kupelwieser",
+          "license": "Public domain",
+          "made": "1847",
+          "caption": "Ferdinand V, the last crowned King of Bohemia, painted in 1847, the year before he gave up the throne.",
+          "alt": "Portrait of Emperor Ferdinand I in the ceremonial robe of the Order of the Golden Fleece"
+        }
+      ],
+      "sources": [
+        {
+          "title": "The Czechs and the Lands of the Bohemian Crown",
+          "author": "Hugh LeCaine Agnew",
+          "note": "Hoover Institution Press, 2004"
+        },
+        {
+          "title": "The Czech Revolution of 1848",
+          "author": "Stanley Z. Pech",
+          "note": "University of North Carolina Press, 1969"
+        },
+        {
+          "title": "The Coasts of Bohemia: A Czech History",
+          "author": "Derek Sayer",
+          "note": "Princeton University Press, 1998"
+        },
+        {
+          "title": "Letter to the Frankfurt Parliament",
+          "author": "František Palacký",
+          "note": "11 April 1848"
+        }
+      ],
+      "review": {
+        "status": "draft",
+        "notes": "Drafted from the listed sources; needs a human fact-check."
+      }
+    },
+    {
+      "id": "franz-joseph",
+      "kind": "monarch",
+      "rulers": [
+        "franz-joseph"
+      ],
+      "tagline": "The old emperor who never wore the Bohemian crown",
+      "start": {
+        "date": "1848-12-02"
+      },
+      "end": {
+        "date": "1916-11-21"
+      },
+      "contestedWith": [],
+      "relationToPredecessor": "Nephew of Ferdinand V",
+      "ageAtAccession": "18",
+      "cameToPower": "Uncle abdicated in his favour",
+      "reignEnded": "Died of pneumonia",
+      "previously": "Ferdinand abdicates at Olomouc. His young nephew takes over.",
+      "paragraphs": [
+        "In 1867 Franz Joseph made a deal with Hungary, splitting his empire in two. The Czechs wanted the same for Bohemia. In 1871 he promised to be crowned in Prague, and his government drew up the Fundamental Articles to give Bohemia home rule. German and Hungarian opposition killed the plan within weeks. Czech deputies, who had already walked out of the Vienna parliament, stayed away until 1879.",
+        "So the Czechs built their own nation. The National Theatre opened in 1881 and burned down two months later. Ordinary people paid to rebuild it, and it reopened in 1883 under the motto \"The nation to itself\". In 1882 Prague's university split into Czech and German halves. In 1897 the Badeni ordinances made officials in Bohemia speak both languages, and German riots brought down the government. In 1907 every man got the vote.",
+        "Then came the war in 1914. Many Czechs had no wish to die for Vienna. Tomáš Masaryk went into exile to argue for independence, and Czech prisoners and deserters formed the Czechoslovak Legion to fight for the Allies. Franz Joseph died in November 1916, aged 86."
+      ],
+      "claims": [
+        {
+          "text": "Franz Joseph promised to be crowned King of Bohemia.",
+          "status": "confirmed",
+          "note": "His rescript of September 1871 said so. The coronation never happened."
+        },
+        {
+          "text": "The National Theatre was rebuilt with ordinary people's money.",
+          "status": "confirmed",
+          "note": "A nationwide collection raised a million gulden in weeks, though the emperor and nobles gave too."
+        },
+        {
+          "text": "Prague's 28th Infantry Regiment went over to the Russians en masse in 1915.",
+          "status": "disputed",
+          "note": "The army disbanded it in disgrace, but historians think most of its men were captured in a lost battle, not traitors."
+        }
+      ],
+      "hook": "Franz Joseph dies after 68 years. His grandnephew Charles inherits a war he cannot win, and the Czechs are already planning to leave.",
+      "images": [
+        {
+          "file": "File:Portrait of Franz Joseph I by Franz Xaver Winterhalter.jpg",
+          "url": "https://upload.wikimedia.org/wikipedia/commons/a/ac/Portrait_of_Franz_Joseph_I_by_Franz_Xaver_Winterhalter.jpg",
+          "page": "https://commons.wikimedia.org/wiki/File:Portrait_of_Franz_Joseph_I_by_Franz_Xaver_Winterhalter.jpg",
+          "credit": "Franz Xaver Winterhalter",
+          "license": "Public domain",
+          "made": "1865",
+          "caption": "Painted by Winterhalter in 1865, when Franz Joseph was in his mid-thirties.",
+          "alt": "Painted portrait of Emperor Franz Joseph by Franz Xaver Winterhalter"
+        }
+      ],
+      "sources": [
+        {
+          "title": "The Habsburg Empire: A New History",
+          "author": "Pieter M. Judson",
+          "note": "Harvard University Press, 2016"
+        },
+        {
+          "title": "The Czechs and the Lands of the Bohemian Crown",
+          "author": "Hugh LeCaine Agnew",
+          "note": "Hoover Institution Press, 2004"
+        },
+        {
+          "title": "Francis Joseph (Profiles in Power)",
+          "author": "Steven Beller",
+          "note": "Longman, 1996"
+        }
+      ],
+      "review": {
+        "status": "draft",
+        "notes": "Drafted from the listed sources; needs a human fact-check."
+      }
+    },
+    {
+      "id": "charles-i",
+      "kind": "monarch",
+      "rulers": [
+        "charles-i"
+      ],
+      "tagline": "The last king, who never came to Prague for his crown",
+      "start": {
+        "date": "1916-11-21"
+      },
+      "end": {
+        "date": "1918-10-28"
+      },
+      "contestedWith": [],
+      "relationToPredecessor": "Grandnephew of Franz Joseph",
+      "ageAtAccession": "29",
+      "cameToPower": "Heir after Sarajevo",
+      "reignEnded": "Czechoslovakia proclaimed",
+      "previously": "Franz Joseph dies at Schönbrunn, aged 86, with the war still raging.",
+      "paragraphs": [
+        "Charles was crowned King of Hungary in Budapest in December 1916, but never came to Prague. As King of Bohemia he would have been Charles III. He wanted peace. In 1917 he reopened parliament, where Czech deputies demanded a state of their own, and he granted an amnesty that freed Czech political prisoners. He also put out secret peace feelers to France through his brother-in-law, Prince Sixtus of Bourbon-Parma. In 1918 the French made them public.",
+        "Abroad, Masaryk and the Legion were winning the argument. The Legion fought its way across Russia and the Allies recognised the Czechoslovak cause. On 16 October 1918 Charles offered to turn Austria into a federation of free peoples. Two days later Masaryk answered with the Washington Declaration of independence.",
+        "On 28 October 1918 crowds in Prague tore down imperial eagles and the National Committee proclaimed Czechoslovakia. Bohemia's long line of kings had ended. Charles died in exile in Madeira in 1922, and the Catholic Church beatified him in 2004."
+      ],
+      "claims": [
+        {
+          "text": "Charles secretly backed France's claim to Alsace-Lorraine.",
+          "status": "confirmed",
+          "note": "His 1917 letter to Prince Sixtus said so. When Clemenceau published it in April 1918, Charles denied it, which nobody believed."
+        },
+        {
+          "text": "Prague's crowds on 28 October thought the war was over.",
+          "status": "confirmed",
+          "note": "That morning's news that Vienna had accepted President Wilson's terms was read as surrender, and the National Committee acted at once."
+        },
+        {
+          "text": "His federal manifesto could have saved the empire.",
+          "status": "disputed",
+          "note": "It came very late and left Hungary out. Most historians think the Czechs had already chosen independence."
+        }
+      ],
+      "images": [
+        {
+          "file": "File:John Quincy Adams - Kaiser Karl I. von Österreich - 3718 - Kunsthistorisches Museum.jpg",
+          "url": "https://upload.wikimedia.org/wikipedia/commons/b/b1/John_Quincy_Adams_-_Kaiser_Karl_I._von_%C3%96sterreich_-_3718_-_Kunsthistorisches_Museum.jpg",
+          "page": "https://commons.wikimedia.org/wiki/File:John_Quincy_Adams_-_Kaiser_Karl_I._von_Österreich_-_3718_-_Kunsthistorisches_Museum.jpg",
+          "credit": "John Quincy Adams",
+          "license": "Public domain",
+          "made": "1917",
+          "caption": "Painted in 1917 by the Viennese artist John Quincy Adams, during the war.",
+          "alt": "Painted portrait of Emperor Charles I of Austria"
+        }
+      ],
+      "sources": [
+        {
+          "title": "The Habsburg Empire: A New History",
+          "author": "Pieter M. Judson",
+          "note": "Harvard University Press, 2016"
+        },
+        {
+          "title": "The Czechs and the Lands of the Bohemian Crown",
+          "author": "Hugh LeCaine Agnew",
+          "note": "Hoover Institution Press, 2004"
+        },
+        {
+          "title": "The Last Habsburg",
+          "author": "Gordon Brook-Shepherd",
+          "note": "Weidenfeld & Nicolson, 1968"
+        }
+      ],
+      "review": {
+        "status": "draft",
+        "notes": "Drafted from the listed sources; needs a human fact-check."
+      }
+    }
+  ]
+}
