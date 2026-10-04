@@ -1,0 +1,2190 @@
+{
+  "id": "abbasid",
+  "name": "Abbasid Caliphate",
+  "blurb": "Five centuries of caliphs, from the black banners to the Mongols",
+  "dateConvention": "Arabic chroniclers dated events by the Islamic (Hijri) lunar calendar; every date here is the standard Julian equivalent given in modern references (all before 1582). After 945 the caliphs kept their title while Buyid amirs and then Seljuk sultans held real power; grouped cards cover those stretches, and the caliphs remained Abbasids throughout.",
+  "epilogue": "In 1261 the Mamluks set up a surviving Abbasid as caliph in Cairo. His line reigned there as figureheads until the Ottoman conquest of 1517; the Ottomans then claimed the title until 1924.",
+  "houses": [
+    {
+      "id": "abbasid",
+      "name": "Abbasid",
+      "color": "#2f2d33"
+    }
+  ],
+  "rulers": [
+    {
+      "id": "al-saffah",
+      "name": "al-Saffah",
+      "house": "abbasid",
+      "born": {
+        "date": "0721",
+        "circa": true,
+        "note": "al-Humayma, in today's Jordan"
+      },
+      "died": {
+        "date": "0754-06-08",
+        "note": "al-Anbar, Iraq"
+      },
+      "causeOfDeath": "Smallpox"
+    },
+    {
+      "id": "al-mansur",
+      "name": "al-Mansur",
+      "house": "abbasid",
+      "born": {
+        "date": "0714",
+        "circa": true,
+        "note": "al-Humayma, in today's Jordan"
+      },
+      "died": {
+        "date": "0775-10-06",
+        "note": "Near Mecca, on pilgrimage"
+      },
+      "causeOfDeath": "Illness on pilgrimage"
+    },
+    {
+      "id": "al-mahdi",
+      "name": "al-Mahdi",
+      "house": "abbasid",
+      "born": {
+        "date": "0744",
+        "circa": true,
+        "note": "744 or 745"
+      },
+      "died": {
+        "date": "0785-08",
+        "note": "On a hunt in western Iran"
+      },
+      "causeOfDeath": "Hunting accident or poison; accounts differ"
+    },
+    {
+      "id": "al-hadi",
+      "name": "al-Hadi",
+      "house": "abbasid",
+      "born": {
+        "date": "0762",
+        "circa": true,
+        "note": "Sources give 759, 762 or 764"
+      },
+      "died": {
+        "date": "0786-09-14",
+        "note": "Near Baghdad"
+      },
+      "causeOfDeath": "Sudden death; illness or murder"
+    },
+    {
+      "id": "harun-al-rashid",
+      "name": "Harun al-Rashid",
+      "house": "abbasid",
+      "born": {
+        "date": "0766",
+        "circa": true,
+        "note": "Rayy, Iran; some sources say 17 March 763"
+      },
+      "died": {
+        "date": "0809-03-24",
+        "note": "Tus, Khurasan"
+      },
+      "causeOfDeath": "Illness on campaign"
+    },
+    {
+      "id": "al-amin",
+      "name": "al-Amin",
+      "house": "abbasid",
+      "born": {
+        "date": "0787-04",
+        "note": "Baghdad"
+      },
+      "died": {
+        "date": "0813-09-25",
+        "note": "Baghdad; killed in the night of 24/25 September"
+      },
+      "causeOfDeath": "Killed by enemy soldiers after capture"
+    },
+    {
+      "id": "al-mamun",
+      "name": "al-Ma'mun",
+      "house": "abbasid",
+      "born": {
+        "date": "0786-09-14",
+        "note": "Baghdad"
+      },
+      "died": {
+        "date": "0833-08-09",
+        "note": "Near Tarsus, on campaign"
+      },
+      "causeOfDeath": "Fever on campaign"
+    },
+    {
+      "id": "al-mutasim",
+      "name": "al-Mu'tasim",
+      "house": "abbasid",
+      "born": {
+        "date": "0796-10",
+        "note": "Baghdad"
+      },
+      "died": {
+        "date": "0842-01-05",
+        "note": "Samarra"
+      },
+      "causeOfDeath": "Illness"
+    },
+    {
+      "id": "al-wathiq",
+      "name": "al-Wathiq",
+      "house": "abbasid",
+      "born": {
+        "date": "0812",
+        "circa": true
+      },
+      "died": {
+        "date": "0847-08-10",
+        "note": "Samarra"
+      },
+      "causeOfDeath": "Illness, said to be dropsy"
+    },
+    {
+      "id": "al-mutawakkil",
+      "name": "al-Mutawakkil",
+      "house": "abbasid",
+      "born": {
+        "date": "0822",
+        "note": "Baghdad"
+      },
+      "died": {
+        "date": "0861-12-11",
+        "note": "Samarra"
+      },
+      "causeOfDeath": "Murdered by Turkish officers"
+    },
+    {
+      "id": "al-mutamid",
+      "name": "al-Mu'tamid",
+      "house": "abbasid",
+      "born": {
+        "date": "0842",
+        "circa": true,
+        "note": "Samarra"
+      },
+      "died": {
+        "date": "0892-10-14"
+      },
+      "causeOfDeath": "Died suddenly"
+    },
+    {
+      "id": "al-muwaffaq",
+      "name": "al-Muwaffaq",
+      "house": "abbasid",
+      "born": {
+        "date": "0843-11-29",
+        "note": "Samarra"
+      },
+      "died": {
+        "date": "0891-06-02",
+        "note": "Baghdad"
+      },
+      "causeOfDeath": "Illness"
+    },
+    {
+      "id": "al-mutadid",
+      "name": "al-Mu'tadid",
+      "house": "abbasid",
+      "born": {
+        "date": "0854",
+        "circa": true,
+        "note": "Some sources say 861"
+      },
+      "died": {
+        "date": "0902-04-05",
+        "note": "Baghdad"
+      },
+      "causeOfDeath": "Illness"
+    },
+    {
+      "id": "al-muktafi",
+      "name": "al-Muktafi",
+      "house": "abbasid",
+      "born": {
+        "date": "0877",
+        "circa": true
+      },
+      "died": {
+        "date": "0908-08-13",
+        "note": "Baghdad"
+      },
+      "causeOfDeath": "Illness"
+    },
+    {
+      "id": "al-muqtadir",
+      "name": "al-Muqtadir",
+      "house": "abbasid",
+      "born": {
+        "date": "0895-11-13",
+        "note": "Baghdad"
+      },
+      "died": {
+        "date": "0932-10-31",
+        "note": "Outside Baghdad"
+      },
+      "causeOfDeath": "Killed in battle"
+    },
+    {
+      "id": "al-qadir",
+      "name": "al-Qadir",
+      "house": "abbasid",
+      "born": {
+        "date": "0947-09-28",
+        "note": "Baghdad"
+      },
+      "died": {
+        "date": "1031-11-29",
+        "note": "Baghdad"
+      },
+      "causeOfDeath": "Natural causes, in old age"
+    },
+    {
+      "id": "al-qaim",
+      "name": "al-Qa'im",
+      "house": "abbasid",
+      "born": {
+        "date": "1001"
+      },
+      "died": {
+        "date": "1075-04-02",
+        "note": "Baghdad"
+      },
+      "causeOfDeath": "Natural causes"
+    },
+    {
+      "id": "al-nasir",
+      "name": "al-Nasir",
+      "house": "abbasid",
+      "born": {
+        "date": "1158-08-06",
+        "note": "Baghdad"
+      },
+      "died": {
+        "date": "1225-10-05",
+        "note": "Baghdad"
+      },
+      "causeOfDeath": "Illness, after years of poor health"
+    },
+    {
+      "id": "al-mustasim",
+      "name": "al-Musta'sim",
+      "house": "abbasid",
+      "born": {
+        "date": "1213"
+      },
+      "died": {
+        "date": "1258-02-20",
+        "note": "Near Baghdad"
+      },
+      "causeOfDeath": "Executed by the Mongols"
+    }
+  ],
+  "reigns": [
+    {
+      "id": "al-saffah",
+      "kind": "monarch",
+      "rulers": [
+        "al-saffah"
+      ],
+      "tagline": "The man who toppled a dynasty in one battle",
+      "start": {
+        "date": "0750-01-25"
+      },
+      "end": {
+        "date": "0754-06-08"
+      },
+      "contestedWith": [],
+      "relationToPredecessor": "Overthrew the Umayyad Marwan II",
+      "ageAtAccession": "About 28",
+      "cameToPower": "Hailed at Kufa, then won at the Zab",
+      "reignEnded": "Smallpox at al-Anbar",
+      "previously": "The Umayyads rule from Damascus. In Khurasan, black banners rise.",
+      "paragraphs": [
+        "For nearly ninety years the Umayyad family had ruled the caliphate from Damascus, and plenty of Muslims loathed them. From 747 a shadowy organiser called Abu Muslim raised black banners in Khurasan, in eastern Iran, for “a chosen one from the family of the Prophet”. The man chosen was Abu al-Abbas, great-great-grandson of the Prophet's uncle al-Abbas. Late in 749 he was proclaimed caliph in the mosque at Kufa.",
+        "Then his army had to win. On 25 January 750, by the Great Zab river in northern Iraq, it routed the last Umayyad caliph, Marwan II. Marwan fled to Egypt and was hunted down and killed that August. The new regime showed no mercy. Umayyad princes were lured to a peace banquet in Palestine and clubbed to death. One young prince, Abd al-Rahman, escaped, reached Spain and made himself ruler of Córdoba in 756.",
+        "Abu al-Abbas ruled from Iraq, never from Damascus. In 751 an Abbasid army beat a Chinese Tang force at Talas, deep in Central Asia. But he got only four years. In June 754 smallpox killed him at al-Anbar, aged about 33. His heir was his elder half-brother, Abu Ja'far."
+      ],
+      "claims": [
+        {
+          "text": "The killers ate their dinner on a leather mat spread over the dying Umayyad princes.",
+          "status": "disputed",
+          "note": "The massacre at Abu Futrus is widely reported, but the grisly details come from later Arab historians and vary from one telling to the next."
+        },
+        {
+          "text": "The Umayyad tombs were dug up and the corpse of the caliph Hisham flogged and burned.",
+          "status": "disputed",
+          "note": "Told by later chroniclers such as al-Mas'udi. Desecration fits the mood of 750, but the story was surely polished in the retelling."
+        },
+        {
+          "text": "“Al-Saffah” means “the shedder of blood”.",
+          "status": "disputed",
+          "note": "That is the usual reading, but the word can also mean “the generous”, and it may have been a later label rather than a title he used."
+        }
+      ],
+      "hook": "Al-Saffah is dead after four years. His half-brother Abu Ja'far takes the throne, and the first thing he faces is an uncle who wants it for himself.",
+      "images": [
+        {
+          "file": "File:Dirhem of al-Saffah, AH 132-136.jpg",
+          "url": "https://upload.wikimedia.org/wikipedia/commons/a/ae/Dirhem_of_al-Saffah%2C_AH_132-136.jpg",
+          "page": "https://commons.wikimedia.org/wiki/File:Dirhem_of_al-Saffah,_AH_132-136.jpg",
+          "credit": "Classical Numismatic Group (CNG)",
+          "license": "CC BY-SA 2.5",
+          "made": "750–751",
+          "caption": "A silver dirham minted at Kufa in the reign of al-Saffah, dated AH 133 (750–751); it carries religious inscriptions and is not a portrait.",
+          "alt": "Both sides of a worn silver coin covered in Arabic script, with no pictures"
+        }
+      ],
+      "sources": [
+        {
+          "title": "The History of al-Tabari, vol. XXVII: The ʿAbbāsid Revolution",
+          "author": "al-Tabari",
+          "note": "trans. John Alden Williams, SUNY Press"
+        },
+        {
+          "title": "The Early Abbasid Caliphate: A Political History",
+          "author": "Hugh Kennedy",
+          "note": "Croom Helm, 1981"
+        },
+        {
+          "title": "The Abbasid Caliphate: A History",
+          "author": "Tayeb El-Hibri",
+          "note": "Cambridge University Press, 2021"
+        },
+        {
+          "title": "The Meadows of Gold",
+          "author": "al-Mas'udi",
+          "note": "10th-century history; abridged trans. Paul Lunde and Caroline Stone, 1989"
+        }
+      ],
+      "review": {
+        "status": "draft",
+        "notes": "Drafted from the listed sources; needs a human fact-check."
+      }
+    },
+    {
+      "id": "al-mansur",
+      "kind": "monarch",
+      "rulers": [
+        "al-mansur"
+      ],
+      "tagline": "The penny-pinching killer who built Baghdad",
+      "start": {
+        "date": "0754-06-10"
+      },
+      "end": {
+        "date": "0775-10-06"
+      },
+      "contestedWith": [],
+      "relationToPredecessor": "Elder half-brother of al-Saffah",
+      "ageAtAccession": "About 40",
+      "cameToPower": "Named heir by his brother",
+      "reignEnded": "Died on pilgrimage near Mecca",
+      "previously": "Smallpox kills al-Saffah. His half-brother Abu Ja'far is the heir.",
+      "paragraphs": [
+        "Abu Ja'far took the name al-Mansur, “the victorious”, and had to earn it fast. His uncle Abd Allah, the victor of the Zab, claimed the throne. Al-Mansur sent Abu Muslim to crush him, then turned on Abu Muslim himself. In 755 the kingmaker of the revolution was summoned to the caliph's camp, berated, and cut down by guards in front of him.",
+        "Next came the family of Ali, who felt the revolution had been stolen from them. In 762 Muhammad, “the Pure Soul”, rose at Medina, and early in 763 his brother Ibrahim rose near Basra. Both died in battle. Meanwhile al-Mansur began his masterpiece on the Tigris: Baghdad, officially Madinat al-Salam, the City of Peace. It was a perfect circle of walls with four gates, and his palace and mosque under a green dome at the centre.",
+        "He watched every coin, and left a bulging treasury. He also elbowed his nephew Isa ibn Musa out of the succession so that his own son Muhammad would be heir. In October 775 he died on the road to Mecca, on pilgrimage, far from his new city."
+      ],
+      "claims": [
+        {
+          "text": "People nicknamed him “father of farthings” for his stinginess.",
+          "status": "disputed",
+          "note": "The nickname, Abu al-Dawaniq, is reported by later Arabic writers. How widely it was used in his lifetime is unknown."
+        },
+        {
+          "text": "After his death a locked storeroom was found full of the labelled corpses of murdered Alids.",
+          "status": "legend",
+          "note": "Told by al-Tabari over a century later. It reads like a moral tale about a ruthless ruler."
+        },
+        {
+          "text": "A hundred graves were dug near Mecca so nobody would know which was his.",
+          "status": "legend",
+          "note": "A later chroniclers' story that fits his reputation for caution; there is no way to check it."
+        }
+      ],
+      "hook": "Al-Mansur is dead on the pilgrim road, and his treasury is bursting. His son al-Mahdi has very different ideas about what money is for.",
+      "images": [
+        {
+          "file": "File:Dirham of Abbasid caliph al-Mansur, AH 150.jpg",
+          "url": "https://upload.wikimedia.org/wikipedia/commons/c/c7/Dirham_of_Abbasid_caliph_al-Mansur%2C_AH_150.jpg",
+          "page": "https://commons.wikimedia.org/wiki/File:Dirham_of_Abbasid_caliph_al-Mansur,_AH_150.jpg",
+          "credit": "Jean-Michel Moullec",
+          "license": "CC BY 2.0",
+          "made": "767",
+          "caption": "A silver dirham of al-Mansur's reign, struck in AH 150 (767) at al-Muhammadiya (Rayy); a coin with inscriptions, not a portrait.",
+          "alt": "Both sides of a silver coin with lines of Arabic script inside circular borders"
+        }
+      ],
+      "sources": [
+        {
+          "title": "The History of al-Tabari, vol. XXVIII: ʿAbbāsid Authority Affirmed",
+          "author": "al-Tabari",
+          "note": "trans. Jane Dammen McAuliffe, SUNY Press"
+        },
+        {
+          "title": "The Early Abbasid Caliphate: A Political History",
+          "author": "Hugh Kennedy",
+          "note": "Croom Helm, 1981"
+        },
+        {
+          "title": "Baghdad: City of Peace, City of Blood",
+          "author": "Justin Marozzi",
+          "note": "2014"
+        },
+        {
+          "title": "The Abbasid Caliphate: A History",
+          "author": "Tayeb El-Hibri",
+          "note": "Cambridge University Press, 2021"
+        }
+      ],
+      "review": {
+        "status": "draft",
+        "notes": "Drafted from the listed sources; needs a human fact-check."
+      }
+    },
+    {
+      "id": "al-mahdi",
+      "kind": "monarch",
+      "rulers": [
+        "al-mahdi"
+      ],
+      "tagline": "The big spender who opened his father's vaults",
+      "start": {
+        "date": "0775-10-06"
+      },
+      "end": {
+        "date": "0785-08"
+      },
+      "contestedWith": [],
+      "relationToPredecessor": "Son of al-Mansur",
+      "ageAtAccession": "About 31",
+      "cameToPower": "Named heir; hailed in Baghdad",
+      "reignEnded": "Died on a hunt",
+      "previously": "Al-Mansur dies on pilgrimage, leaving a new city and a full treasury.",
+      "paragraphs": [
+        "Al-Mansur died near Mecca, and it took days for the news to reach Baghdad, where his son Muhammad was proclaimed caliph as al-Mahdi. He was everything his father wasn't. He threw open the treasury and handed out gifts and pensions. He also had a hard edge. He hunted down “zindiqs”, heretics, mostly followers of the Manichaean faith, and gave a special inquisitor the job of rooting them out.",
+        "In Khurasan a preacher called al-Muqanna, “the Veiled One”, hid his face and drew a big following. He held out for years before dying in his fortress around 780. On the Byzantine frontier, the caliph's young son Harun led a raid in 782 all the way to the Bosporus. The empress Irene, ruling for her boy Constantine VI, agreed to pay a yearly tribute.",
+        "At court the real force was al-Mahdi's wife al-Khayzuran, a former slave who now had officials queuing at her door. In August 785 al-Mahdi died on a hunting trip in western Iran. He left two sons by her, Musa and Harun, named heirs in that order."
+      ],
+      "claims": [
+        {
+          "text": "He galloped after a deer into a ruined building and smashed his head on the doorway.",
+          "status": "disputed",
+          "note": "One of two versions al-Tabari gives. The other is poison."
+        },
+        {
+          "text": "He ate poisoned food that a jealous slave woman had meant for a rival.",
+          "status": "disputed",
+          "note": "Also in al-Tabari, who doesn't choose between the stories. Both may be later gossip."
+        }
+      ],
+      "hook": "Al-Mahdi is dead. His elder son Musa becomes al-Hadi, a hot-tempered young caliph who has no plans to share power with his brother, or with his mother.",
+      "images": [
+        {
+          "file": "File:Dirhem of al-Mahdi, AH 158-169.jpg",
+          "url": "https://upload.wikimedia.org/wikipedia/commons/c/cb/Dirhem_of_al-Mahdi%2C_AH_158-169.jpg",
+          "page": "https://commons.wikimedia.org/wiki/File:Dirhem_of_al-Mahdi,_AH_158-169.jpg",
+          "credit": "Classical Numismatic Group (CNG)",
+          "license": "CC BY-SA 2.5",
+          "made": "778–779",
+          "caption": "A silver dirham minted in Baghdad (Madinat al-Salam) in AH 162 (778–779), in al-Mahdi's reign; inscriptions only, not a portrait.",
+          "alt": "Both sides of a silver coin covered in Arabic inscriptions within rings"
+        }
+      ],
+      "sources": [
+        {
+          "title": "The History of al-Tabari, vol. XXIX: Al-Manṣūr and al-Mahdī",
+          "author": "al-Tabari",
+          "note": "trans. Hugh Kennedy, SUNY Press"
+        },
+        {
+          "title": "The Early Abbasid Caliphate: A Political History",
+          "author": "Hugh Kennedy",
+          "note": "Croom Helm, 1981"
+        },
+        {
+          "title": "The Abbasid Caliphate: A History",
+          "author": "Tayeb El-Hibri",
+          "note": "Cambridge University Press, 2021"
+        }
+      ],
+      "review": {
+        "status": "draft",
+        "notes": "Drafted from the listed sources; needs a human fact-check."
+      }
+    },
+    {
+      "id": "al-hadi",
+      "kind": "monarch",
+      "rulers": [
+        "al-hadi"
+      ],
+      "tagline": "The hothead who crossed his mother",
+      "start": {
+        "date": "0785-08"
+      },
+      "end": {
+        "date": "0786-09-14"
+      },
+      "contestedWith": [],
+      "relationToPredecessor": "Elder son of al-Mahdi",
+      "ageAtAccession": "About 21–26",
+      "cameToPower": "Succeeded his father",
+      "reignEnded": "Sudden death near Baghdad",
+      "previously": "Al-Mahdi dies on a hunt. His elder son Musa is next in line.",
+      "paragraphs": [
+        "Musa, now al-Hadi, was away fighting near the Caspian Sea when his father died. His brother Harun kept order and sent him the insignia of office. Al-Hadi hurried back and set about ruling his own way. That meant clipping his mother's wings. Al-Khayzuran was used to generals and officials seeking her favour. Her son told them to stop calling at her door.",
+        "He also wanted his own small son Ja'far as heir in place of Harun, and he leaned hard on his brother to give up his rights. Harun's tutor, Yahya the Barmakid, urged him to hold firm and ended up in jail. Then, in September 786, after barely thirteen months on the throne, al-Hadi suddenly died. That same night Harun became caliph."
+      ],
+      "claims": [
+        {
+          "text": "Al-Hadi was smothered by slave girls on his mother's orders.",
+          "status": "disputed",
+          "note": "Al-Tabari and others report it among several versions; some blame an illness. Al-Khayzuran certainly had a motive."
+        },
+        {
+          "text": "On the “night of three caliphs” one caliph died, another took the throne and a third was born.",
+          "status": "disputed",
+          "note": "The famous tradition: al-Hadi died, Harun succeeded, and Harun's son al-Ma'mun was born. The standard dates fit, but chroniclers loved the neatness."
+        }
+      ],
+      "hook": "One night, three caliphs. The new one is Harun, about twenty years old, with the Barmakid family at his side. Baghdad's golden age is about to begin.",
+      "images": [
+        {
+          "file": "File:Dirhem of Al-Hadi, AH 170.jpg",
+          "url": "https://upload.wikimedia.org/wikipedia/commons/6/6a/Dirhem_of_Al-Hadi%2C_AH_170.jpg",
+          "page": "https://commons.wikimedia.org/wiki/File:Dirhem_of_Al-Hadi,_AH_170.jpg",
+          "credit": "Classical Numismatic Group (CNG)",
+          "license": "CC BY-SA 2.5",
+          "made": "786–787",
+          "caption": "A silver dirham of al-Hadi's short reign, minted at al-Haruniya and dated AH 170 (786–787); inscriptions only, not a portrait.",
+          "alt": "Both sides of a lightly encrusted silver coin with Arabic inscriptions"
+        }
+      ],
+      "sources": [
+        {
+          "title": "The History of al-Tabari, vol. XXX: The ʿAbbāsid Caliphate in Equilibrium",
+          "author": "al-Tabari",
+          "note": "trans. C. E. Bosworth, SUNY Press"
+        },
+        {
+          "title": "The Early Abbasid Caliphate: A Political History",
+          "author": "Hugh Kennedy",
+          "note": "Croom Helm, 1981"
+        },
+        {
+          "title": "The Abbasid Caliphate: A History",
+          "author": "Tayeb El-Hibri",
+          "note": "Cambridge University Press, 2021"
+        }
+      ],
+      "review": {
+        "status": "draft",
+        "notes": "Drafted from the listed sources; needs a human fact-check."
+      }
+    },
+    {
+      "id": "harun-al-rashid",
+      "kind": "monarch",
+      "rulers": [
+        "harun-al-rashid"
+      ],
+      "tagline": "The golden-age caliph of the Arabian Nights",
+      "start": {
+        "date": "0786-09-14"
+      },
+      "end": {
+        "date": "0809-03-24"
+      },
+      "contestedWith": [],
+      "relationToPredecessor": "Younger brother of al-Hadi",
+      "ageAtAccession": "About 20–23",
+      "cameToPower": "Succeeded his brother",
+      "reignEnded": "Died on campaign at Tus",
+      "previously": "Al-Hadi dies suddenly. His brother Harun takes the throne that night.",
+      "paragraphs": [
+        "Harun took the name al-Rashid, “the rightly guided”, and his reign became the golden age everyone remembers. Baghdad boomed with trade, poets and scholars. For 17 years the real work of government sat with the Barmakids, a family from Balkh: Harun's old tutor Yahya and his sons al-Fadl and Ja'far. Ja'far was the caliph's closest friend.",
+        "Then, in January 803, it all fell apart overnight. Ja'far was beheaded, and Yahya, al-Fadl and the rest of the family were jailed. Abroad, Frankish chronicles say Harun sent Charlemagne an elephant called Abul-Abbas, which reached Aachen in 802, and later a water clock. When the Byzantine emperor Nikephoros I stopped paying tribute, Harun marched deep into Anatolia and took Heraclea in 806.",
+        "He spent much of his later reign at Raqqa on the Euphrates. In 802 he fixed the succession: al-Amin as heir, then al-Ma'mun, who would hold Khurasan. The pledge was hung in the Ka'ba at Mecca. In 809, marching east to crush a revolt, he fell ill and died at Tus."
+      ],
+      "claims": [
+        {
+          "text": "The Barmakids fell because Ja'far secretly married Harun's sister Abbasa and they had a child.",
+          "status": "legend",
+          "note": "Told by al-Tabari and others as gossip, and loved by later storytellers. Historians suspect the family had simply grown too powerful."
+        },
+        {
+          "text": "Harun answered Nikephoros with a letter addressed to “the Roman dog”.",
+          "status": "disputed",
+          "note": "The letter's text is quoted by al-Tabari. It may be genuine, or a later flourish."
+        },
+        {
+          "text": "Harun wandered Baghdad at night in disguise, as in the Thousand and One Nights.",
+          "status": "legend",
+          "note": "The Nights were written down centuries later. Their Harun is a storybook figure, not a historical record."
+        }
+      ],
+      "hook": "Harun dies far from Baghdad. His careful plan splits the empire between two sons, al-Amin in Baghdad and al-Ma'mun in Khurasan. How long can that last?",
+      "images": [
+        {
+          "file": "File:Gold dinar of Harun al-Rashid, 184AH.jpg",
+          "url": "https://upload.wikimedia.org/wikipedia/commons/4/44/Gold_dinar_of_Harun_al-Rashid%2C_184AH.jpg",
+          "page": "https://commons.wikimedia.org/wiki/File:Gold_dinar_of_Harun_al-Rashid,_184AH.jpg",
+          "credit": "Classical Numismatic Group (CNG)",
+          "license": "CC BY-SA 2.5",
+          "made": "800–801",
+          "caption": "A gold dinar struck in AH 184 (800–801), in the reign of Harun al-Rashid; it carries religious inscriptions, not a portrait.",
+          "alt": "Both sides of a small gold coin covered in Arabic script"
+        }
+      ],
+      "sources": [
+        {
+          "title": "The History of al-Tabari, vol. XXX: The ʿAbbāsid Caliphate in Equilibrium",
+          "author": "al-Tabari",
+          "note": "trans. C. E. Bosworth, SUNY Press"
+        },
+        {
+          "title": "Reinterpreting Islamic Historiography: Harun al-Rashid and the Narrative of the Abbasid Caliphate",
+          "author": "Tayeb El-Hibri",
+          "note": "Cambridge University Press, 1999"
+        },
+        {
+          "title": "When Baghdad Ruled the Muslim World (US title: The Court of the Caliphs)",
+          "author": "Hugh Kennedy",
+          "note": "2004"
+        },
+        {
+          "title": "Royal Frankish Annals",
+          "author": "Anonymous",
+          "note": "The elephant and the water clock"
+        }
+      ],
+      "review": {
+        "status": "draft",
+        "notes": "Drafted from the listed sources; needs a human fact-check."
+      }
+    },
+    {
+      "id": "al-amin",
+      "kind": "monarch",
+      "rulers": [
+        "al-amin"
+      ],
+      "tagline": "Brother against brother, and Baghdad in ruins",
+      "start": {
+        "date": "0809-03-24"
+      },
+      "end": {
+        "date": "0813-09-25"
+      },
+      "contestedWith": [],
+      "relationToPredecessor": "Son of Harun al-Rashid",
+      "ageAtAccession": "22",
+      "cameToPower": "Named heir by his father",
+      "reignEnded": "Caught fleeing and killed",
+      "previously": "Harun dies at Tus, leaving the empire split between two sons.",
+      "paragraphs": [
+        "Muhammad al-Amin was the son of Harun and the princess Zubayda, a granddaughter of al-Mansur. He had the perfect pedigree, and Baghdad was his. His half-brother al-Ma'mun held Khurasan from Merv, and Harun's settlement made al-Ma'mun next in line. Al-Amin's advisers wanted that changed. In 810 he named his own son Musa heir. Al-Ma'mun refused to accept it, and the empire slid into civil war.",
+        "In 811 al-Ma'mun's general Tahir ibn al-Husayn, with a much smaller army, smashed al-Amin's forces at Rayy. Tahir pushed into Iraq, and by 812 Baghdad was under siege. For a year the city became a battlefield. Catapults wrecked houses, bands of poor street fighters held the barricades for al-Amin, and whole districts burned.",
+        "In September 813, with the city lost, al-Amin tried to slip away by boat to surrender to another of his brother's generals. Tahir's men caught him, and he was killed in the night of 24 to 25 September."
+      ],
+      "claims": [
+        {
+          "text": "He was the only Abbasid caliph whose father and mother were both Abbasids.",
+          "status": "disputed",
+          "note": "A point made by chroniclers and repeated by modern historians. It holds for the Baghdad caliphs as usually counted."
+        },
+        {
+          "text": "Al-Amin cared more for parties and his eunuch Kawthar than for the war.",
+          "status": "disputed",
+          "note": "The sources were written for the winning side under al-Ma'mun, who had every reason to make his brother look unfit."
+        },
+        {
+          "text": "His head was sent to al-Ma'mun in Khurasan.",
+          "status": "disputed",
+          "note": "Reported by al-Tabari. Versions of his last night differ in the details."
+        }
+      ],
+      "hook": "Al-Amin is dead and Baghdad is a wreck. The winner, al-Ma'mun, is still far away in Merv, and he's about to make a choice that shocks his own family.",
+      "images": [
+        {
+          "file": "File:Abbasid Dinar - Al Amin - 195 AH (811 AD).jpg",
+          "url": "https://upload.wikimedia.org/wikipedia/commons/c/cf/Abbasid_Dinar_-_Al_Amin_-_195_AH_%28811_AD%29.jpg",
+          "page": "https://commons.wikimedia.org/wiki/File:Abbasid_Dinar_-_Al_Amin_-_195_AH_(811_AD).jpg",
+          "credit": "DrFO.Jr.Tn",
+          "license": "CC BY 3.0",
+          "made": "810–811",
+          "caption": "A gold dinar of al-Amin's reign, dated AH 195 (810–811); inscriptions only, not a portrait.",
+          "alt": "Both sides of a gold coin with Arabic inscriptions"
+        }
+      ],
+      "sources": [
+        {
+          "title": "The History of al-Tabari, vol. XXXI: The War between Brothers",
+          "author": "al-Tabari",
+          "note": "trans. Michael Fishbein, SUNY Press"
+        },
+        {
+          "title": "When Baghdad Ruled the Muslim World (US title: The Court of the Caliphs)",
+          "author": "Hugh Kennedy",
+          "note": "2004"
+        },
+        {
+          "title": "The Abbasid Caliphate: A History",
+          "author": "Tayeb El-Hibri",
+          "note": "Cambridge University Press, 2021"
+        }
+      ],
+      "review": {
+        "status": "draft",
+        "notes": "Drafted from the listed sources; needs a human fact-check."
+      }
+    },
+    {
+      "id": "al-mamun",
+      "kind": "monarch",
+      "rulers": [
+        "al-mamun"
+      ],
+      "tagline": "The scholar caliph who demanded agreement",
+      "start": {
+        "date": "0813-09-27"
+      },
+      "end": {
+        "date": "0833-08-09"
+      },
+      "contestedWith": [],
+      "relationToPredecessor": "Half-brother of al-Amin",
+      "ageAtAccession": "27",
+      "cameToPower": "Won the civil war",
+      "reignEnded": "Died on campaign near Tarsus",
+      "previously": "Al-Amin is killed as Baghdad falls. Al-Ma'mun has won the war.",
+      "paragraphs": [
+        "Abd Allah al-Ma'mun was Harun's son by a Persian slave woman, and for six years after his victory he stayed in Merv. In 817 he stunned everyone. He named as heir Ali al-Rida, a descendant of the Prophet through Ali, and swapped the Abbasid black for green. Baghdad's Abbasids were furious. They hailed his uncle Ibrahim ibn al-Mahdi, a famous singer, as caliph.",
+        "Al-Rida died suddenly at Tus in 818, and al-Ma'mun headed west. He reached Baghdad in 819, Ibrahim's caliphate melted away, and the black came back. Then came the part of his reign people remember. He backed the translation of Greek science and philosophy into Arabic and built observatories in Baghdad and Damascus. The mathematician al-Khwarizmi dedicated his book on algebra to him.",
+        "He also wanted the scholars to agree with him. In 833 he began the mihna, an inquisition requiring judges and scholars to declare that the Quran was created. Most gave in. Ahmad ibn Hanbal refused. That August al-Ma'mun died on campaign against Byzantium near Tarsus, naming his brother Abu Ishaq as heir."
+      ],
+      "claims": [
+        {
+          "text": "The House of Wisdom was a great academy of translators and scientists.",
+          "status": "disputed",
+          "note": "Later writers made it one. Many historians, such as Dimitri Gutas, see it mainly as a palace library, with the translating paid for by many patrons."
+        },
+        {
+          "text": "Ali al-Rida was poisoned to clear the way back to Baghdad.",
+          "status": "disputed",
+          "note": "Shi'a tradition holds that he was poisoned, some say on al-Ma'mun's orders. Other sources record a sudden illness."
+        },
+        {
+          "text": "Aristotle appeared to al-Ma'mun in a dream and inspired the translations.",
+          "status": "legend",
+          "note": "Told by Ibn al-Nadim in his Fihrist, written about 150 years later."
+        }
+      ],
+      "hook": "Al-Ma'mun dies far from home. His brother al-Mu'tasim takes over, bringing a private army of Turkish slave soldiers who will change the caliphate for good.",
+      "images": [
+        {
+          "file": "File:Abbasid Dinar - al-Ma'mun - 208 AH (823 AD).jpg",
+          "url": "https://upload.wikimedia.org/wikipedia/commons/1/11/Abbasid_Dinar_-_al-Ma%27mun_-_208_AH_%28823_AD%29.jpg",
+          "page": "https://commons.wikimedia.org/wiki/File:Abbasid_Dinar_-_al-Ma%27mun_-_208_AH_(823_AD).jpg",
+          "credit": "DrFO.Jr.Tn",
+          "license": "CC BY-SA 3.0",
+          "made": "823",
+          "caption": "A gold dinar struck at Fustat in Egypt in AH 208 (823) for “the caliph al-Ma'mun”, also naming the governor of Egypt; not a portrait.",
+          "alt": "Both sides of a gold coin with lines of Arabic script inside circular borders"
+        }
+      ],
+      "sources": [
+        {
+          "title": "The History of al-Tabari, vol. XXXII: The Reunification of the ʿAbbāsid Caliphate",
+          "author": "al-Tabari",
+          "note": "trans. C. E. Bosworth, SUNY Press"
+        },
+        {
+          "title": "Al-Ma'mun (Makers of the Muslim World)",
+          "author": "Michael Cooperson",
+          "note": "Oneworld, 2005"
+        },
+        {
+          "title": "Greek Thought, Arabic Culture",
+          "author": "Dimitri Gutas",
+          "note": "Routledge, 1998"
+        },
+        {
+          "title": "The Fihrist",
+          "author": "Ibn al-Nadim",
+          "note": "10th-century catalogue of books; the dream of Aristotle"
+        }
+      ],
+      "review": {
+        "status": "draft",
+        "notes": "Drafted from the listed sources; needs a human fact-check."
+      }
+    },
+    {
+      "id": "al-mutasim",
+      "kind": "monarch",
+      "rulers": [
+        "al-mutasim"
+      ],
+      "tagline": "Turkish soldiers, a new capital and a war cry",
+      "start": {
+        "date": "0833-08-09"
+      },
+      "end": {
+        "date": "0842-01-05"
+      },
+      "contestedWith": [],
+      "relationToPredecessor": "Half-brother of al-Ma'mun",
+      "ageAtAccession": "36",
+      "cameToPower": "Named heir by al-Ma'mun",
+      "reignEnded": "Died at Samarra",
+      "previously": "Al-Ma'mun dies near Tarsus, naming his brother Abu Ishaq heir.",
+      "paragraphs": [
+        "Abu Ishaq, now al-Mu'tasim, was another of Harun's sons, by a Turkic slave mother. He took the throne ahead of al-Ma'mun's son al-Abbas, thanks to his secret weapon: an army of Turkic slave soldiers, the ghilman, bought in Central Asia and loyal only to him. Baghdad's people hated these swaggering horsemen in their streets. So in 836 he built a new capital, Samarra, about 125 km up the Tigris.",
+        "His general al-Afshin finally crushed Babak, whose rebels had held the mountains of Azerbaijan for some twenty years. Babak was taken in 837 and executed at Samarra. That same year the Byzantine emperor Theophilos sacked the frontier town of Zapetra. Al-Mu'tasim hit back in 838 by marching on Amorium, home city of the emperor's family, and took it. The poet Abu Tammam hailed the victory in a famous ode.",
+        "Victory bred suspicion. A plot to put al-Abbas on the throne was crushed in 838, and al-Abbas died in prison. In 840 al-Afshin himself was put on trial and died in jail. The mihna went on. Al-Mu'tasim died at Samarra in January 842, and his son Harun succeeded him as al-Wathiq."
+      ],
+      "claims": [
+        {
+          "text": "A captured woman at Zapetra cried “Wa Mu'tasimah!” (“Help, Mu'tasim!”), and he swore to avenge her.",
+          "status": "legend",
+          "note": "A much-loved tale told in later sources. The sack of Amorium is certain; the cry is the stuff of legend."
+        },
+        {
+          "text": "Abu Tammam's ode on Amorium opens: “The sword is truer than books.”",
+          "status": "confirmed",
+          "note": "The poem survives and is one of the most famous in classical Arabic. The line mocks astrologers who had predicted failure."
+        },
+        {
+          "text": "Ahmad ibn Hanbal was flogged for refusing the mihna's creed.",
+          "status": "disputed",
+          "note": "The flogging is well attested, but sources disagree on the year and on how many lashes he took."
+        }
+      ],
+      "hook": "Al-Mu'tasim dies in his new city. His son al-Wathiq inherits Samarra, the inquisition, and a corps of Turkish officers who are learning who really holds the power.",
+      "images": [
+        {
+          "file": "File:Dirham of al-Mu'tasim, AH 221.jpg",
+          "url": "https://upload.wikimedia.org/wikipedia/commons/7/77/Dirham_of_al-Mu%27tasim%2C_AH_221.jpg",
+          "page": "https://commons.wikimedia.org/wiki/File:Dirham_of_al-Mu%27tasim,_AH_221.jpg",
+          "credit": "Classical Numismatic Group (CNG)",
+          "license": "Public domain",
+          "made": "836–837",
+          "caption": "A silver dirham of al-Mu'tasim's reign, minted at al-Muhammadiya (Rayy) and dated AH 221 (836–837); inscriptions only, not a portrait.",
+          "alt": "Both sides of a toned silver coin with Arabic inscriptions in concentric rings"
+        }
+      ],
+      "sources": [
+        {
+          "title": "The History of al-Tabari, vol. XXXIII: Storm and Stress along the Northern Frontiers of the ʿAbbāsid Caliphate",
+          "author": "al-Tabari",
+          "note": "trans. C. E. Bosworth, SUNY Press"
+        },
+        {
+          "title": "The Breaking of a Thousand Swords: A History of the Turkish Military of Samarra",
+          "author": "Matthew S. Gordon",
+          "note": "SUNY Press, 2001"
+        },
+        {
+          "title": "When Baghdad Ruled the Muslim World (US title: The Court of the Caliphs)",
+          "author": "Hugh Kennedy",
+          "note": "2004"
+        }
+      ],
+      "review": {
+        "status": "draft",
+        "notes": "Drafted from the listed sources; needs a human fact-check."
+      }
+    },
+    {
+      "id": "al-wathiq",
+      "kind": "monarch",
+      "rulers": [
+        "al-wathiq"
+      ],
+      "tagline": "The caliph who sent a man to find the end of the world",
+      "start": {
+        "date": "0842-01-05"
+      },
+      "end": {
+        "date": "0847-08-10"
+      },
+      "contestedWith": [],
+      "relationToPredecessor": "Son of al-Mu'tasim",
+      "ageAtAccession": "About 30",
+      "cameToPower": "Succeeded his father",
+      "reignEnded": "Died at Samarra, no heir named",
+      "previously": "Al-Mu'tasim dies at Samarra, the city he built for his Turkish army.",
+      "paragraphs": [
+        "Al-Wathiq, whose own name was Harun like his famous grandfather, took over a rich empire run from Samarra. The real muscle now belonged to his father's Turkish commanders. Men like Ashinas and Itakh got grand titles, big estates and the caliph's ear. Al-Wathiq also squeezed the government secretaries, arresting several and stripping them of their fortunes.",
+        "Under him the mihna, the test forcing scholars to say the Quran was created, hit its harshest point. In 846 Ahmad ibn Nasr al-Khuza'i, a respected Baghdad scholar accused of plotting a rising, refused to say it and was beheaded. That year he also ransomed Muslim captives from Byzantium at the Lamos river. And he sent an interpreter called Sallam east to find the wall Alexander built to hold back Gog and Magog.",
+        "He fell ill and died at Samarra in August 847, still in his mid-thirties, without naming an heir. A thousand years later he got a strange afterlife. The English writer William Beckford made him the anti-hero of Vathek, a gothic tale of a cruel, curious caliph who ends up in hell."
+      ],
+      "claims": [
+        {
+          "text": "Al-Wathiq's envoy Sallam travelled to Alexander's wall against Gog and Magog and came back to describe it.",
+          "status": "legend",
+          "note": "Told by the geographer Ibn Khordadbeh, who says he had it from Sallam himself. The route is vague and historians doubt he found any such wall; some think he reached part of the Chinese frontier."
+        },
+        {
+          "text": "Al-Wathiq struck the first blow at Ahmad ibn Nasr's execution with his own sword.",
+          "status": "disputed",
+          "note": "Reported by al-Tabari. Ahmad became a martyr to the traditionist scholars, whose later accounts make the scene as dramatic as possible."
+        },
+        {
+          "text": "William Beckford's novel Vathek (1786) is loosely based on al-Wathiq.",
+          "status": "confirmed",
+          "note": "Beckford wrote it in French and it first came out in English in 1786. He borrowed the caliph's name and some anecdotes, then invented the rest."
+        }
+      ],
+      "hook": "Al-Wathiq is dead and nobody has been named. In a room at Samarra the generals and officials look at his young son, then at his brother Ja'far. They pick the brother. They will live to regret it.",
+      "images": [
+        {
+          "file": "File:Dinar of al-Wathiq, AH 227-232.jpg",
+          "url": "https://upload.wikimedia.org/wikipedia/commons/2/28/Dinar_of_al-Wathiq%2C_AH_227-232.jpg",
+          "page": "https://commons.wikimedia.org/wiki/File:Dinar_of_al-Wathiq,_AH_227-232.jpg",
+          "credit": "Classical Numismatic Group (CNG)",
+          "license": "CC BY-SA 2.5",
+          "made": "843",
+          "caption": "A gold dinar minted in Baghdad in 843, in the reign of al-Wathiq.",
+          "alt": "Both sides of a gold coin covered in Arabic inscriptions: the Muslim profession of faith in the centre and Quranic verses around the edge"
+        }
+      ],
+      "sources": [
+        {
+          "title": "The History of al-Tabari, vol. 34: Incipient Decline",
+          "author": "al-Tabari",
+          "note": "Translated by Joel L. Kraemer, SUNY Press, 1989"
+        },
+        {
+          "title": "The Breaking of a Thousand Swords: A History of the Turkish Military of Samarra",
+          "author": "Matthew S. Gordon",
+          "note": "SUNY Press, 2001"
+        },
+        {
+          "title": "Kitab al-Masalik wa'l-Mamalik (Book of Roads and Kingdoms)",
+          "author": "Ibn Khordadbeh",
+          "note": "Sallam's journey"
+        },
+        {
+          "title": "Vathek",
+          "author": "William Beckford",
+          "note": "1786"
+        }
+      ],
+      "review": {
+        "status": "draft",
+        "notes": "Drafted from the listed sources; needs a human fact-check."
+      }
+    },
+    {
+      "id": "al-mutawakkil",
+      "kind": "monarch",
+      "rulers": [
+        "al-mutawakkil"
+      ],
+      "tagline": "The spiral-minaret caliph killed at his own party",
+      "start": {
+        "date": "0847-08-10"
+      },
+      "end": {
+        "date": "0861-12-11"
+      },
+      "contestedWith": [],
+      "relationToPredecessor": "Brother of al-Wathiq",
+      "ageAtAccession": "About 25",
+      "cameToPower": "Picked by generals and officials",
+      "reignEnded": "Murdered at a night party",
+      "previously": "Al-Wathiq dies at Samarra without naming an heir.",
+      "paragraphs": [
+        "Ja'far, who took the name al-Mutawakkil, had been mocked by his brother's court and nobody expected much of him. He soon showed teeth. He had the Turkish commander Itakh arrested, and he ended the mihna, siding with the traditionist scholars like Ahmad ibn Hanbal. He was hard on the Shi'a, and his men levelled the shrine of al-Husayn at Karbala. In 850 he ordered Christians and Jews to wear distinctive dress.",
+        "He also loved to build and to spend. At Samarra he raised a huge Great Mosque, finished in 852, with a minaret wound round by a spiral ramp, the Malwiya. It still stands. Then he started a whole new palace-city to the north, al-Ja'fariyya. His court was famous for poets, singers and long nights of wine.",
+        "In the end he tried to break the Turkish generals and to push his favourite son al-Mu'tazz ahead of the heir, al-Muntasir. On the night of 10 to 11 December 861 Turkish officers burst into a drinking party at al-Ja'fariyya and cut down the caliph and his friend and minister al-Fath ibn Khaqan."
+      ],
+      "claims": [
+        {
+          "text": "Al-Mutawakkil had the tomb of al-Husayn at Karbala destroyed and the site ploughed and flooded.",
+          "status": "disputed",
+          "note": "Al-Tabari records the order. Shi'a and later writers stress it most; how much was actually destroyed, and for how long, is unclear."
+        },
+        {
+          "text": "His son al-Muntasir backed the murder.",
+          "status": "disputed",
+          "note": "Widely believed at the time, and he was the one who gained. The chroniclers never prove it, and some say he was dragged along by the plotters."
+        },
+        {
+          "text": "The Great Mosque of Samarra and its spiral minaret were built for al-Mutawakkil between about 848 and 852.",
+          "status": "confirmed",
+          "note": "Dated by the chroniclers and by archaeology. It was one of the largest mosques in the world, and the minaret is about 52 metres high."
+        }
+      ],
+      "hook": "Al-Mutawakkil lies dead and al-Muntasir is caliph by morning. The soldiers have learnt something dangerous: they can kill a caliph and get away with it.",
+      "images": [
+        {
+          "file": "File:Malweah.jpg",
+          "url": "https://upload.wikimedia.org/wikipedia/commons/e/e2/Malweah.jpg",
+          "page": "https://commons.wikimedia.org/wiki/File:Malweah.jpg",
+          "credit": "Abdo photo",
+          "license": "CC BY-SA 4.0",
+          "made": "848–852 (photo 2018)",
+          "caption": "The spiral minaret, the Malwiya, of the Great Mosque of Samarra, built for al-Mutawakkil; photographed in 2018.",
+          "alt": "A tall brick minaret with a ramp spiralling round the outside, at Samarra"
+        }
+      ],
+      "sources": [
+        {
+          "title": "The History of al-Tabari, vol. 34: Incipient Decline",
+          "author": "al-Tabari",
+          "note": "Translated by Joel L. Kraemer, SUNY Press, 1989"
+        },
+        {
+          "title": "The Breaking of a Thousand Swords: A History of the Turkish Military of Samarra",
+          "author": "Matthew S. Gordon",
+          "note": "SUNY Press, 2001"
+        },
+        {
+          "title": "When Baghdad Ruled the Muslim World (US title: The Court of the Caliphs)",
+          "author": "Hugh Kennedy",
+          "note": "2004"
+        },
+        {
+          "title": "The Meadows of Gold (Muruj al-dhahab)",
+          "author": "al-Mas'udi"
+        }
+      ],
+      "review": {
+        "status": "draft",
+        "notes": "Drafted from the listed sources; needs a human fact-check."
+      }
+    },
+    {
+      "id": "anarchy-at-samarra",
+      "kind": "interregnum",
+      "rulers": [],
+      "house": "abbasid",
+      "title": "The Anarchy at Samarra",
+      "tagline": "Four caliphs in nine years, and the soldiers choose",
+      "start": {
+        "date": "0861-12-11"
+      },
+      "end": {
+        "date": "0870-06-16"
+      },
+      "contestedWith": [],
+      "relationToPredecessor": "Sons and nephews of al-Mutawakkil",
+      "ageAtAccession": "Four caliphs",
+      "cameToPower": "Al-Mutawakkil murdered",
+      "reignEnded": "Al-Muhtadi killed by the soldiers",
+      "previously": "Turkish officers murder al-Mutawakkil at a drinking party.",
+      "paragraphs": [
+        "Al-Muntasir got six months. He died in June 862, and rumour said his doctor bled him with a poisoned lancet. The Turks then picked a cousin, al-Musta'in (862–866). When the rival generals fell out he fled to Baghdad, and the Samarra troops proclaimed al-Mutawakkil's son al-Mu'tazz. Baghdad was besieged for most of a year. Al-Musta'in gave up the throne early in 866 and was killed later that year.",
+        "Al-Mu'tazz (866–869) tried to play the commanders off against each other, but the treasury was empty. When he could not pay the troops in 869 they hauled him off the throne and he was dead within days. Next came al-Wathiq's son al-Muhtadi (869–870), a serious, pious man who sent away the singers and tried to restore order. The soldiers deposed and killed him in June 870.",
+        "Meanwhile the empire started to come apart at the edges. From 868 Ahmad ibn Tulun, a Turkish officer sent to Egypt, ran it as his own. In 869 a revolt of slaves broke out in the marshes of southern Iraq. It would be called the Zanj revolt, and it would last fourteen years."
+      ],
+      "claims": [
+        {
+          "text": "Al-Muntasir was killed with a poisoned lancet when his doctor bled him.",
+          "status": "disputed",
+          "note": "One of several versions in al-Tabari and al-Mas'udi. Others say he died of a throat illness. People wanted to see it as punishment for his father's murder."
+        },
+        {
+          "text": "Al-Mu'tazz was beaten, left in the summer heat and shut in a room until he died.",
+          "status": "disputed",
+          "note": "Al-Tabari's account. The soldiers announced that he had simply died."
+        },
+        {
+          "text": "Al-Muhtadi wanted to be to the Abbasids what the pious Umar II had been to the Umayyads.",
+          "status": "legend",
+          "note": "A saying put in his mouth by later writers who admired him. His austere lifestyle is well reported."
+        }
+      ],
+      "hook": "The soldiers fetch another son of al-Mutawakkil from confinement. He will last 22 years, because his brother is about to do all the real work.",
+      "images": [
+        {
+          "file": "File:Dinar of al-Mu'tazz, AH 253.jpg",
+          "url": "https://upload.wikimedia.org/wikipedia/commons/0/0a/Dinar_of_al-Mu%27tazz%2C_AH_253.jpg",
+          "page": "https://commons.wikimedia.org/wiki/File:Dinar_of_al-Mu%27tazz,_AH_253.jpg",
+          "credit": "Classical Numismatic Group (CNG)",
+          "license": "Public domain",
+          "made": "867",
+          "caption": "A gold dinar struck at Samarqand in 867, in the name of the caliph al-Mu'tazz.",
+          "alt": "Both sides of a gold coin with Arabic inscriptions in the centre and around the rim"
+        }
+      ],
+      "sources": [
+        {
+          "title": "The History of al-Tabari, vol. 35: The Crisis of the 'Abbasid Caliphate",
+          "author": "al-Tabari",
+          "note": "Translated by George Saliba, SUNY Press, 1985"
+        },
+        {
+          "title": "The History of al-Tabari, vol. 36: The Revolt of the Zanj",
+          "author": "al-Tabari",
+          "note": "Translated by David Waines, SUNY Press, 1992"
+        },
+        {
+          "title": "The Breaking of a Thousand Swords: A History of the Turkish Military of Samarra",
+          "author": "Matthew S. Gordon",
+          "note": "SUNY Press, 2001"
+        },
+        {
+          "title": "The Prophet and the Age of the Caliphates",
+          "author": "Hugh Kennedy",
+          "note": "Longman, 1986; 3rd ed. Routledge, 2016"
+        }
+      ],
+      "review": {
+        "status": "draft",
+        "notes": "Drafted from the listed sources; needs a human fact-check."
+      }
+    },
+    {
+      "id": "al-mutamid",
+      "kind": "monarch",
+      "rulers": [
+        "al-mutamid",
+        "al-muwaffaq"
+      ],
+      "title": "al-Mu'tamid and al-Muwaffaq",
+      "tagline": "One brother wore the title, the other ran the war",
+      "start": {
+        "date": "0870-06-16"
+      },
+      "end": {
+        "date": "0892-10-14"
+      },
+      "contestedWith": [],
+      "relationToPredecessor": "Son of al-Mutawakkil",
+      "ageAtAccession": "About 28",
+      "cameToPower": "Chosen by the Samarra Turks",
+      "reignEnded": "Died after 22 years as caliph",
+      "previously": "The soldiers kill al-Muhtadi, the fourth caliph in nine years.",
+      "paragraphs": [
+        "Al-Mu'tamid, whose name was Ahmad, was caliph for 22 years. His younger brother Abu Ahmad, called al-Muwaffaq, was never caliph, but he commanded the army and in practice ran the state. He saved Baghdad in 876 when he beat the Saffarid warlord Ya'qub ibn al-Layth at Dayr al-Aqul. In 882 al-Mu'tamid tried to slip away to Ahmad ibn Tulun in Egypt, but was caught and brought back.",
+        "The big fight was the Zanj revolt. Its leader, Ali ibn Muhammad, rallied East African slaves who scraped the salty topsoil off the marshes near Basra, along with peasants and Bedouin. In 871 they sacked Basra. They built their own capital, al-Mukhtara, deep in the marshes. Al-Muwaffaq and his son Abu al-Abbas fought them channel by channel and finally stormed the city in 883. The rebel leader was killed.",
+        "Al-Muwaffaq came back worn out by years in the field and died in 891. His son Abu al-Abbas was named heir, pushing aside al-Mu'tamid's own son. When al-Mu'tamid died in October 892 the throne went to his nephew."
+      ],
+      "claims": [
+        {
+          "text": "The Zanj killed hundreds of thousands, and Basra lost most of its people.",
+          "status": "disputed",
+          "note": "The medieval chroniclers give enormous figures. Historians treat them as signs of a disaster, not counts."
+        },
+        {
+          "text": "Al-Mu'tamid tried to escape to Ahmad ibn Tulun in Egypt in 882.",
+          "status": "confirmed",
+          "note": "Al-Tabari tells it. He was stopped on the way by al-Muwaffaq's men and taken back, a caliph in all but freedom."
+        },
+        {
+          "text": "Al-Mu'tamid complained in verse that he could not touch the wealth ruled in his name.",
+          "status": "legend",
+          "note": "Lines attributed to him by later anthologists. They fit his position, but their authorship is uncertain."
+        }
+      ],
+      "hook": "Al-Mu'tamid is dead. His nephew Abu al-Abbas, the hard man who stormed the Zanj capital, takes the throne, and he is moving the court back to Baghdad for good.",
+      "images": [
+        {
+          "file": "File:Dinar of al-Mu'tamid, AH 271.jpg",
+          "url": "https://upload.wikimedia.org/wikipedia/commons/3/32/Dinar_of_al-Mu%27tamid%2C_AH_271.jpg",
+          "page": "https://commons.wikimedia.org/wiki/File:Dinar_of_al-Mu%27tamid,_AH_271.jpg",
+          "credit": "Classical Numismatic Group (CNG)",
+          "license": "Public domain",
+          "made": "884–885",
+          "caption": "A gold dinar of al-Mu'tamid struck at San'a in 884–885; it also names his brother al-Muwaffaq as heir.",
+          "alt": "Both sides of a gold coin with lines of Arabic inscription in the centre and a ring of text around the edge"
+        }
+      ],
+      "sources": [
+        {
+          "title": "The History of al-Tabari, vol. 36: The Revolt of the Zanj",
+          "author": "al-Tabari",
+          "note": "Translated by David Waines, SUNY Press, 1992"
+        },
+        {
+          "title": "The History of al-Tabari, vol. 37: The 'Abbasid Recovery",
+          "author": "al-Tabari",
+          "note": "Translated by Philip M. Fields, SUNY Press, 1987"
+        },
+        {
+          "title": "The Prophet and the Age of the Caliphates",
+          "author": "Hugh Kennedy",
+          "note": "Longman, 1986; 3rd ed. Routledge, 2016"
+        },
+        {
+          "title": "The Meadows of Gold (Muruj al-dhahab)",
+          "author": "al-Mas'udi"
+        }
+      ],
+      "review": {
+        "status": "draft",
+        "notes": "Drafted from the listed sources; needs a human fact-check."
+      }
+    },
+    {
+      "id": "al-mutadid",
+      "kind": "monarch",
+      "rulers": [
+        "al-mutadid"
+      ],
+      "tagline": "The tough, thrifty caliph who brought Baghdad back",
+      "start": {
+        "date": "0892-10-15"
+      },
+      "end": {
+        "date": "0902-04-05"
+      },
+      "contestedWith": [],
+      "relationToPredecessor": "Nephew of al-Mu'tamid",
+      "ageAtAccession": "About 38",
+      "cameToPower": "Named heir over his cousin",
+      "reignEnded": "Died in Baghdad",
+      "previously": "Al-Mu'tamid dies after 22 years, a caliph his brother outshone.",
+      "paragraphs": [
+        "Al-Mu'tadid, Ahmad to his family, had learnt to rule in his father's army camps. He made Baghdad the capital again, and Samarra was left to empty out. He was tough and careful with money, and he filled the treasury that the anarchy had emptied. People feared him. The chroniclers tell of grim punishments for rebels and thieves.",
+        "He made peace with the Tulunids of Egypt by marrying Qatr al-Nada, the daughter of their ruler Khumarawayh, whose dowry was the talk of the age. To help farmers he moved the start of the tax year, so the land tax fell due after the harvest. But new trouble was brewing. The Qarmatians, radical Isma'ili rebels, were rising in eastern Arabia and in the Syrian desert. He died in Baghdad in April 902."
+      ],
+      "claims": [
+        {
+          "text": "Qatr al-Nada's trousseau was so vast that it bankrupted Egypt.",
+          "status": "legend",
+          "note": "The chroniclers love the figures, which grew with each telling. The Tulunid treasury did run down, but for many reasons."
+        },
+        {
+          "text": "Al-Mu'tadid used horribly cruel punishments.",
+          "status": "disputed",
+          "note": "Al-Mas'udi and others describe them. Writers liked to paint him as a harsh but just ruler, which tends to exaggerate both halves."
+        },
+        {
+          "text": "He moved the start of the tax year so the land tax fell after the harvest.",
+          "status": "confirmed",
+          "note": "Recorded by several chroniclers. The new date was long remembered as al-Mu'tadid's New Year."
+        }
+      ],
+      "hook": "Al-Mu'tadid is dead and the treasury is full. His son Ali, al-Muktafi, inherits the money, and a desert war against the Qarmatians.",
+      "images": [
+        {
+          "file": "File:Dinar of al-Mu'tadid, AH 285.jpg",
+          "url": "https://upload.wikimedia.org/wikipedia/commons/1/19/Dinar_of_al-Mu%27tadid%2C_AH_285.jpg",
+          "page": "https://commons.wikimedia.org/wiki/File:Dinar_of_al-Mu%27tadid,_AH_285.jpg",
+          "credit": "Classical Numismatic Group (CNG)",
+          "license": "Public domain",
+          "made": "898",
+          "caption": "A gold presentation dinar naming al-Mu'tadid, dated 285 in the Hijri calendar (898).",
+          "alt": "Both sides of a small gold coin with Arabic inscriptions, including the caliph's name and the title Commander of the Faithful"
+        }
+      ],
+      "sources": [
+        {
+          "title": "The History of al-Tabari, vol. 38: The Return of the Caliphate to Baghdad",
+          "author": "al-Tabari",
+          "note": "Translated by Franz Rosenthal, SUNY Press, 1985"
+        },
+        {
+          "title": "The Prophet and the Age of the Caliphates",
+          "author": "Hugh Kennedy",
+          "note": "Longman, 1986; 3rd ed. Routledge, 2016"
+        },
+        {
+          "title": "When Baghdad Ruled the Muslim World (US title: The Court of the Caliphs)",
+          "author": "Hugh Kennedy",
+          "note": "2004"
+        },
+        {
+          "title": "The Meadows of Gold (Muruj al-dhahab)",
+          "author": "al-Mas'udi"
+        }
+      ],
+      "review": {
+        "status": "draft",
+        "notes": "Drafted from the listed sources; needs a human fact-check."
+      }
+    },
+    {
+      "id": "al-muktafi",
+      "kind": "monarch",
+      "rulers": [
+        "al-muktafi"
+      ],
+      "tagline": "A short, sickly reign that won back Egypt",
+      "start": {
+        "date": "0902-04-05"
+      },
+      "end": {
+        "date": "0908-08-13"
+      },
+      "contestedWith": [],
+      "relationToPredecessor": "Son of al-Mu'tadid",
+      "ageAtAccession": "About 25",
+      "cameToPower": "Succeeded his father",
+      "reignEnded": "Died young after an illness",
+      "previously": "Al-Mu'tadid dies in Baghdad, leaving a full treasury.",
+      "paragraphs": [
+        "Al-Muktafi, whose name was Ali, started with a war. Qarmatian bands were raiding Syria and had besieged Damascus. In 903 his army crushed them, and their captured leaders were paraded through Baghdad and executed. Then his general Muhammad ibn Sulayman marched on Egypt and in 905 ended the Tulunid dynasty. Egypt was back under Baghdad.",
+        "At sea things went the other way. In 904 Leo of Tripoli, a Greek convert to Islam who led an Arab fleet, sacked Thessalonica, the Byzantine empire's second city, and carried off thousands of captives. Al-Muktafi was often ill, and he died in August 908 in his early thirties. His officials chose his brother Ja'far, a boy of 12, perhaps because a boy would be easy to steer."
+      ],
+      "claims": [
+        {
+          "text": "Leo of Tripoli sacked Thessalonica in 904 and took thousands of captives.",
+          "status": "confirmed",
+          "note": "Described by John Kaminiates, a Thessalonian who was taken captive, and confirmed by Arab writers."
+        },
+        {
+          "text": "The officials chose the boy Ja'far because they thought he would be easy to control.",
+          "status": "disputed",
+          "note": "That is how the chroniclers explain it. It may be hindsight from the disasters of his reign."
+        },
+        {
+          "text": "Al-Muktafi left a treasury even fuller than his father's.",
+          "status": "disputed",
+          "note": "The chroniclers give big figures for the gold left in Baghdad. They were writing after al-Muqtadir had spent it all."
+        }
+      ],
+      "hook": "A 12-year-old is caliph. Within months a group of courtiers decides to replace him with a famous poet.",
+      "images": [
+        {
+          "file": "File:Dinar of al-Muktafi, AH 292.jpg",
+          "url": "https://upload.wikimedia.org/wikipedia/commons/b/b6/Dinar_of_al-Muktafi%2C_AH_292.jpg",
+          "page": "https://commons.wikimedia.org/wiki/File:Dinar_of_al-Muktafi,_AH_292.jpg",
+          "credit": "Classical Numismatic Group (CNG)",
+          "license": "Public domain",
+          "made": "905",
+          "caption": "A gold dinar struck in the name of al-Muktafi in 905.",
+          "alt": "Both sides of a gold coin covered in Arabic inscriptions in the centre and around the rim"
+        }
+      ],
+      "sources": [
+        {
+          "title": "The History of al-Tabari, vol. 38: The Return of the Caliphate to Baghdad",
+          "author": "al-Tabari",
+          "note": "Translated by Franz Rosenthal, SUNY Press, 1985"
+        },
+        {
+          "title": "The Prophet and the Age of the Caliphates",
+          "author": "Hugh Kennedy",
+          "note": "Longman, 1986; 3rd ed. Routledge, 2016"
+        },
+        {
+          "title": "The Capture of Thessaloniki",
+          "author": "John Kaminiates",
+          "note": "Translated by David Frendo and Athanasios Fotiou, 2000"
+        }
+      ],
+      "review": {
+        "status": "draft",
+        "notes": "Drafted from the listed sources; needs a human fact-check."
+      }
+    },
+    {
+      "id": "al-muqtadir",
+      "kind": "monarch",
+      "rulers": [
+        "al-muqtadir"
+      ],
+      "tagline": "The boy caliph of silver trees and empty coffers",
+      "start": {
+        "date": "0908-08-13"
+      },
+      "end": {
+        "date": "0932-10-31"
+      },
+      "contestedWith": [],
+      "relationToPredecessor": "Brother of al-Muktafi",
+      "ageAtAccession": "12",
+      "cameToPower": "Chosen by his brother's officials",
+      "reignEnded": "Killed in battle outside Baghdad",
+      "previously": "Al-Muktafi dies young, and the officials pick a boy as caliph.",
+      "paragraphs": [
+        "Ja'far, called al-Muqtadir, was the first boy caliph. In December 908 a court party crowned the poet Ibn al-Mu'tazz instead. He lasted a day, then was caught and put to death. After that the boy reigned for 24 years while viziers like Ibn al-Furat and the honest Ali ibn Isa rose and fell. His mother Shaghab ran the palace, and one of her women, Thamal, even sat as a judge.",
+        "Baghdad still dazzled. Byzantine envoys came in 917 and were shown a tree of silver with mechanical singing birds. In 921 Ibn Fadlan set out on a mission to the Volga Bulgars and saw a Rus chief burned in his ship. At home the mystic al-Hallaj, who had cried \"I am the Truth\", was executed in 922. In 930 the Qarmatians sacked Mecca and carried off the Black Stone.",
+        "The money ran out and the army turned on him. In 929 he was deposed for two days, then restored. In 932 his top commander Mu'nis marched on Baghdad. Al-Muqtadir rode out to fight and was killed by Mu'nis's troops outside the city."
+      ],
+      "claims": [
+        {
+          "text": "Byzantine ambassadors in 917 saw a silver tree whose mechanical birds sang.",
+          "status": "legend",
+          "note": "Described by later Baghdad writers, especially al-Khatib al-Baghdadi. The embassy is real; the details may have grown."
+        },
+        {
+          "text": "Ibn Fadlan watched a Rus ship funeral on the Volga.",
+          "status": "confirmed",
+          "note": "His own eyewitness account survives. It is one of the most vivid and most disturbing descriptions of the Rus."
+        },
+        {
+          "text": "A stewardess called Thamal sat in judgement in a court of appeal.",
+          "status": "disputed",
+          "note": "Reported by the chroniclers as a scandal, which suggests it happened, but they were keen to blame women for the reign's failures."
+        }
+      ],
+      "hook": "Al-Muqtadir's body lies outside Baghdad. The generals put his brother al-Qahir on the throne, a man with a temper and no money.",
+      "images": [
+        {
+          "file": "File:Dinar of al-Muqtadir, AH 298.jpg",
+          "url": "https://upload.wikimedia.org/wikipedia/commons/f/f2/Dinar_of_al-Muqtadir%2C_AH_298.jpg",
+          "page": "https://commons.wikimedia.org/wiki/File:Dinar_of_al-Muqtadir,_AH_298.jpg",
+          "credit": "Classical Numismatic Group (CNG)",
+          "license": "Public domain",
+          "made": "910–911",
+          "caption": "A gold dinar of al-Muqtadir struck at San'a in 910–911.",
+          "alt": "Both sides of a gold coin with the Muslim profession of faith in the centre and inscriptions around the edge"
+        }
+      ],
+      "sources": [
+        {
+          "title": "The History of al-Tabari, vol. 38: The Return of the Caliphate to Baghdad",
+          "author": "al-Tabari",
+          "note": "Translated by Franz Rosenthal, SUNY Press, 1985"
+        },
+        {
+          "title": "Mission to the Volga",
+          "author": "Ibn Fadlan",
+          "note": "Translated by James E. Montgomery, NYU Press, 2017"
+        },
+        {
+          "title": "When Baghdad Ruled the Muslim World (US title: The Court of the Caliphs)",
+          "author": "Hugh Kennedy",
+          "note": "2004"
+        },
+        {
+          "title": "The Abbasid Caliphate: A History",
+          "author": "Tayeb El-Hibri",
+          "note": "Cambridge University Press, 2021"
+        }
+      ],
+      "review": {
+        "status": "draft",
+        "notes": "Drafted from the listed sources; needs a human fact-check."
+      }
+    },
+    {
+      "id": "blinded-caliphs",
+      "kind": "interregnum",
+      "rulers": [],
+      "house": "abbasid",
+      "title": "The Blinded Caliphs",
+      "tagline": "Four caliphs, three blinded, one city up for grabs",
+      "start": {
+        "date": "0932-10-31"
+      },
+      "end": {
+        "date": "0946-01"
+      },
+      "contestedWith": [],
+      "relationToPredecessor": "Brother, sons and nephew of al-Muqtadir",
+      "ageAtAccession": "Four caliphs",
+      "cameToPower": "Al-Muqtadir killed in battle",
+      "reignEnded": "Blinded by the Buyids",
+      "previously": "Al-Muqtadir dies fighting his own general's troops outside Baghdad.",
+      "paragraphs": [
+        "Al-Qahir (932–934) was broke and brutal, and he tortured al-Muqtadir's mother to find her money. In 934 his officers deposed him and blinded him. Al-Radi (934–940) gave up trying to rule. In 936 he made the general Ibn Ra'iq amir al-umara, \"commander of commanders\", and handed him the army, the taxes and the government. The caliph kept his title and his name on the coins and in the Friday prayer.",
+        "The generals fought over Baghdad like a prize. Al-Muttaqi (940–944) ran to the Hamdanids of Mosul for help, then trusted the Turkish general Tuzun, who blinded him. Al-Mustakfi (944–946) followed. In December 945 the Buyids, Shi'a soldiers from the mountains of Daylam, marched into Baghdad. A few weeks later, in January 946, their leader Mu'izz al-Dawla had al-Mustakfi dragged off his throne and blinded."
+      ],
+      "claims": [
+        {
+          "text": "For a while three blind ex-caliphs were alive in Baghdad at once.",
+          "status": "confirmed",
+          "note": "Al-Qahir, al-Muttaqi and al-Mustakfi were all still alive in 946, according to the chroniclers' dates. Blinding made a man unfit to rule without killing him."
+        },
+        {
+          "text": "The blind al-Qahir ended up begging in a mosque.",
+          "status": "legend",
+          "note": "A story told by later historians as a moral lesson. Others say he was kept in the palace on a pension."
+        },
+        {
+          "text": "Al-Radi was the last caliph to rule in his own right.",
+          "status": "disputed",
+          "note": "Later writers listed things he was the last to do, such as preaching the Friday sermon. It is a neat story, but he had lost real power in 936."
+        }
+      ],
+      "hook": "The Buyids hold Baghdad. They are Shi'a, but they keep a Sunni caliph on the throne. A caliph who signs what he's told is worth more to them than a revolution.",
+      "images": [
+        {
+          "file": "File:Gold dinar of al-Qahir, AH 320-322.jpg",
+          "url": "https://upload.wikimedia.org/wikipedia/commons/5/59/Gold_dinar_of_al-Qahir%2C_AH_320-322.jpg",
+          "page": "https://commons.wikimedia.org/wiki/File:Gold_dinar_of_al-Qahir,_AH_320-322.jpg",
+          "credit": "Classical Numismatic Group (CNG)",
+          "license": "CC BY-SA 2.5",
+          "made": "932–933",
+          "caption": "A gold dinar of al-Qahir struck at Tustar in Khuzestan in 932–933, before he was deposed and blinded.",
+          "alt": "Both sides of a gold coin with four lines of Arabic in the centre, a small monogram above, and Quranic verses around the edge"
+        }
+      ],
+      "sources": [
+        {
+          "title": "The Eclipse of the 'Abbasid Caliphate",
+          "author": "H. F. Amedroz and D. S. Margoliouth (eds and trans.)",
+          "note": "1920–21; includes Miskawayh's Experiences of the Nations"
+        },
+        {
+          "title": "The Prophet and the Age of the Caliphates",
+          "author": "Hugh Kennedy",
+          "note": "Longman, 1986; 3rd ed. Routledge, 2016"
+        },
+        {
+          "title": "The Abbasid Caliphate: A History",
+          "author": "Tayeb El-Hibri",
+          "note": "Cambridge University Press, 2021"
+        },
+        {
+          "title": "Putting the Caliph in His Place",
+          "author": "Eric J. Hanne",
+          "note": "Fairleigh Dickinson University Press, 2007"
+        }
+      ],
+      "review": {
+        "status": "draft",
+        "notes": "Drafted from the listed sources; needs a human fact-check."
+      }
+    },
+    {
+      "id": "buyid-amirs",
+      "kind": "interregnum",
+      "title": "Under the Buyids",
+      "house": "abbasid",
+      "rulers": [],
+      "tagline": "Shi'a soldiers rule Baghdad in a Sunni caliph's name",
+      "start": {
+        "date": "0946-01"
+      },
+      "end": {
+        "date": "0991-11-22"
+      },
+      "contestedWith": [],
+      "relationToPredecessor": "Followed the fall of al-Mustakfi",
+      "ageAtAccession": "No single ruler",
+      "cameToPower": "Buyid amirs seized Baghdad",
+      "reignEnded": "Al-Ta'i dragged off his throne",
+      "previously": "The Buyids take Baghdad and blind al-Mustakfi. Who sits next?",
+      "paragraphs": [
+        "The Buyids were three brothers from Daylam, a rainy mountain land south of the Caspian, who had fought their way from soldiering to empire. They were Shi'a, yet they kept a Sunni caliph on the throne. Mu'izz al-Dawla, master of Baghdad, picked al-Muti (946–974) and gave him a modest allowance. The caliph kept his name on the coins and in the Friday prayer. He lost almost everything else.",
+        "The Buyids still needed him. Only a caliph could hand out the grand titles they wore, ending in al-Dawla, \"of the State\". In 963 Baghdad saw its first public mourning for al-Husayn on the day of Ashura. 'Adud al-Dawla, the greatest of the family, ruled Baghdad from 977 to 983, called himself shahanshah, King of Kings, and married a daughter to the caliph. Meanwhile, in 969, the rival Fatimid caliphs took Egypt and built Cairo.",
+        "Al-Muti, paralysed by a stroke, stepped down in 974 for his son al-Ta'i (974–991). In 991 the amir Baha al-Dawla wanted the caliph's wealth. His men pulled al-Ta'i from his throne and a cousin took his place."
+      ],
+      "claims": [
+        {
+          "text": "Mu'izz al-Dawla thought about making a Shi'a descendant of Ali caliph, but was warned he could not control one.",
+          "status": "legend",
+          "note": "Told by later chroniclers such as Ibn al-Athir; it reads like a tidy explanation written with hindsight."
+        },
+        {
+          "text": "'Adud al-Dawla married his daughter to al-Ta'i hoping for a grandson on the caliph's throne.",
+          "status": "disputed",
+          "note": "The marriage is in the chronicles; the motive is the historians' guess, and no such heir ever reigned."
+        },
+        {
+          "text": "Al-Ta'i was hauled off his throne by his own robe.",
+          "status": "disputed",
+          "note": "A vivid detail from Baghdad chroniclers; the deposition is certain, the exact scene may be polished."
+        }
+      ],
+      "hook": "The new caliph, al-Qadir, is a grandson of al-Muqtadir with no army at all. He is about to reign for forty years and outlast the men who chose him.",
+      "sources": [
+        {
+          "title": "Putting the Caliph in His Place: Power, Authority, and the Late Abbasid Caliphate",
+          "author": "Eric J. Hanne",
+          "note": "Fairleigh Dickinson University Press, 2007"
+        },
+        {
+          "title": "The Eclipse of the 'Abbasid Caliphate",
+          "author": "Miskawayh and others, trans. H. F. Amedroz and D. S. Margoliouth",
+          "note": "Blackwell, 1920-1921"
+        },
+        {
+          "title": "The Prophet and the Age of the Caliphates",
+          "author": "Hugh Kennedy",
+          "note": "Longman, 1986; 3rd ed. Routledge, 2016"
+        },
+        {
+          "title": "Buwayhids",
+          "author": "Encyclopaedia of Islam, 2nd edition",
+          "note": "Encyclopaedia entry"
+        }
+      ],
+      "images": [
+        {
+          "file": "File:IZZ AL-DAWLA gold medallion of five dinars.jpg",
+          "url": "https://upload.wikimedia.org/wikipedia/commons/1/12/IZZ_AL-DAWLA_gold_medallion_of_five_dinars.jpg",
+          "page": "https://commons.wikimedia.org/wiki/File:IZZ_AL-DAWLA_gold_medallion_of_five_dinars.jpg",
+          "credit": "M.samei",
+          "license": "CC BY-SA 4.0",
+          "made": "973–974",
+          "caption": "A Buyid gold piece struck in Baghdad in 973–974, naming both the caliph al-Muti and the amir Izz al-Dawla.",
+          "alt": "Gold coin with Arabic inscriptions, including the declaration of faith and the names of al-Muti and Izz al-Dawla"
+        }
+      ],
+      "review": {
+        "status": "draft",
+        "notes": "Drafted from the listed sources; needs a human fact-check."
+      }
+    },
+    {
+      "id": "al-qadir",
+      "kind": "monarch",
+      "rulers": [
+        "al-qadir"
+      ],
+      "tagline": "The patient caliph who outlasted his masters",
+      "start": {
+        "date": "0991-11-22"
+      },
+      "end": {
+        "date": "1031-11-29"
+      },
+      "contestedWith": [],
+      "relationToPredecessor": "Cousin of al-Ta'i",
+      "ageAtAccession": "44",
+      "cameToPower": "Installed by the Buyid amir",
+      "reignEnded": "Died in Baghdad, aged 84",
+      "previously": "The Buyid amir pulls al-Ta'i off his throne and wants a new caliph.",
+      "paragraphs": [
+        "Ahmad, grandson of the caliph al-Muqtadir, was 44 when the Buyids gave him the throne as al-Qadir. They wanted a puppet. They got a slow, stubborn survivor. He had no army, so he used the one weapon a caliph still held: the right to say what Sunni Islam was.",
+        "In 1011 he issued the Baghdad Manifesto. Scholars and notables signed a statement that the Fatimid caliphs of Cairo were not descended from the Prophet's daughter Fatima at all. Later he put out a statement of Sunni belief, the Qadiri creed, to be read to the faithful. Far to the east, Mahmud of Ghazni, the Turkish conqueror who raided deep into India, sent his loyalty to Baghdad, took grand titles from the caliph and sent gifts.",
+        "The Buyids, meanwhile, split and quarrelled. Al-Qadir reigned 40 years and died in 1031, an old man, with his son already named as heir."
+      ],
+      "claims": [
+        {
+          "text": "The Baghdad Manifesto of 1011 declared the Fatimids' family tree a fake.",
+          "status": "confirmed",
+          "note": "Reported by several Baghdad chroniclers, who give the names of the signatories."
+        },
+        {
+          "text": "Al-Qadir proclaimed a written creed of Sunni belief.",
+          "status": "disputed",
+          "note": "The text survives only in later sources, and historians argue over when it was issued and what it first said."
+        },
+        {
+          "text": "Mahmud of Ghazni sent the caliph rich spoils from his Indian raids.",
+          "status": "disputed",
+          "note": "Mahmud's loyalty and titles are certain; the details of the gifts come from court chroniclers keen to flatter him."
+        }
+      ],
+      "hook": "His son al-Qa'im takes the throne. Out on the steppe, a Turkish clan called the Seljuks is on the move, and they will want what only a caliph can give.",
+      "sources": [
+        {
+          "title": "Putting the Caliph in His Place: Power, Authority, and the Late Abbasid Caliphate",
+          "author": "Eric J. Hanne",
+          "note": "Fairleigh Dickinson University Press, 2007"
+        },
+        {
+          "title": "The Prophet and the Age of the Caliphates",
+          "author": "Hugh Kennedy",
+          "note": "Longman, 1986; 3rd ed. Routledge, 2016"
+        },
+        {
+          "title": "al-Kadir bi'llah",
+          "author": "Encyclopaedia of Islam, 2nd edition",
+          "note": "Encyclopaedia entry"
+        },
+        {
+          "title": "al-Kamil fi'l-ta'rikh",
+          "author": "Ibn al-Athir"
+        }
+      ],
+      "images": [
+        {
+          "file": "File:Baha' al-DawlaBuyidCoinHistoryofIran.jpg",
+          "url": "https://upload.wikimedia.org/wikipedia/commons/0/07/Baha%27_al-DawlaBuyidCoinHistoryofIran.jpg",
+          "page": "https://commons.wikimedia.org/wiki/File:Baha%27_al-DawlaBuyidCoinHistoryofIran.jpg",
+          "credit": "Classical Numismatic Group",
+          "license": "CC BY-SA 3.0",
+          "made": "1007–1008",
+          "caption": "A gold dinar of the Buyid amir Baha al-Dawla, who put al-Qadir on the throne, minted at Suq al-Ahwaz in 1007–1008.",
+          "alt": "Both sides of a gold coin with the Islamic declaration of faith written in lines across the centre and Quranic verses round the rim"
+        }
+      ],
+      "review": {
+        "status": "draft",
+        "notes": "Drafted from the listed sources; needs a human fact-check."
+      }
+    },
+    {
+      "id": "al-qaim",
+      "kind": "monarch",
+      "rulers": [
+        "al-qaim"
+      ],
+      "tagline": "He crowned a sultan, then lost Baghdad to a rebel",
+      "start": {
+        "date": "1031-11-29"
+      },
+      "end": {
+        "date": "1075-04-02"
+      },
+      "contestedWith": [],
+      "relationToPredecessor": "Son of al-Qadir",
+      "ageAtAccession": "About 30",
+      "cameToPower": "Named heir by his father",
+      "reignEnded": "Died in Baghdad after 44 years",
+      "previously": "Al-Qadir dies after 40 years, and his son is ready.",
+      "paragraphs": [
+        "Al-Qa'im inherited a capital run by soldiers. The Turkish commander al-Basasiri held the real power in Baghdad, while out east the Seljuk Turks swept across Iran. In 1055 their leader, Tughril Beg, rode into Baghdad. The caliph named him sultan, \"holder of power\". The Buyids were finished, and a Sunni strongman now did the ruling.",
+        "Then it went wrong. In 1058, while Tughril was away, al-Basasiri seized Baghdad and had the Friday prayer said for the Fatimid caliph of Cairo. Al-Qa'im was packed off into exile on the Euphrates for a year. Tughril came back in 1059, put the caliph back on his throne, and al-Basasiri was hunted down and killed.",
+        "The rescue had a price. Tughril pushed the caliph to give him a daughter as a wife. Under his nephew Alp Arslan the Seljuks crushed the Byzantines at Manzikert in 1071, and their vizier Nizam al-Mulk opened his great Nizamiyya college in Baghdad. Al-Qa'im died in 1075, after 44 years."
+      ],
+      "claims": [
+        {
+          "text": "In exile the caliph was held at Haditha on the Euphrates.",
+          "status": "disputed",
+          "note": "Most chroniclers say Haditha; some say the nearby town of Ana."
+        },
+        {
+          "text": "Al-Basasiri sent the caliph's robe and insignia to Cairo as trophies.",
+          "status": "disputed",
+          "note": "Reported in the chronicles; the details vary between versions."
+        },
+        {
+          "text": "Tughril forced the caliph to marry him his daughter, then died before the marriage could really begin.",
+          "status": "disputed",
+          "note": "The wedding (1062) and Tughril's death (1063) are certain; the chroniclers tell the bargaining in different ways."
+        }
+      ],
+      "hook": "Al-Qa'im's son died before him, so the throne goes to a grandson, al-Muqtadi. The Seljuk sultans are at the height of their power, and they mean to keep the caliph in his place.",
+      "sources": [
+        {
+          "title": "The Annals of the Saljuq Turks: Selections from al-Kamil fi'l-Ta'rikh of Ibn al-Athir",
+          "author": "Ibn al-Athir, trans. D. S. Richards",
+          "note": "RoutledgeCurzon, 2002"
+        },
+        {
+          "title": "Putting the Caliph in His Place: Power, Authority, and the Late Abbasid Caliphate",
+          "author": "Eric J. Hanne",
+          "note": "Fairleigh Dickinson University Press, 2007"
+        },
+        {
+          "title": "The Great Seljuk Empire",
+          "author": "A. C. S. Peacock",
+          "note": "Edinburgh University Press, 2015"
+        },
+        {
+          "title": "al-Ka'im bi-amr Allah",
+          "author": "Encyclopaedia of Islam, 2nd edition",
+          "note": "Encyclopaedia entry"
+        }
+      ],
+      "images": [
+        {
+          "file": "File:Dinar of Tughril (r. 1040–63) MET DP368498.jpg",
+          "url": "https://upload.wikimedia.org/wikipedia/commons/9/9e/Dinar_of_Tughril_%28r._1040%E2%80%9363%29_MET_DP368498.jpg",
+          "page": "https://commons.wikimedia.org/wiki/File:Dinar_of_Tughril_(r._1040%E2%80%9363)_MET_DP368498.jpg",
+          "credit": "Metropolitan Museum of Art",
+          "license": "CC0",
+          "made": "1052–1053",
+          "caption": "A gold dinar of the Seljuk leader Tughril, dated 1052–1053, a few years before he rode into Baghdad.",
+          "alt": "Gold coin covered in Arabic inscriptions"
+        }
+      ],
+      "review": {
+        "status": "draft",
+        "notes": "Drafted from the listed sources; needs a human fact-check."
+      }
+    },
+    {
+      "id": "seljuk-sultans",
+      "kind": "interregnum",
+      "title": "In the Seljuks' Shadow",
+      "house": "abbasid",
+      "rulers": [],
+      "tagline": "Sultans rule, caliphs sign, and crusaders take Jerusalem",
+      "start": {
+        "date": "1075-04-02"
+      },
+      "end": {
+        "date": "1136-08-17"
+      },
+      "contestedWith": [],
+      "relationToPredecessor": "Followed al-Qa'im's death",
+      "ageAtAccession": "Several caliphs",
+      "cameToPower": "Caliphs under Seljuk sultans",
+      "reignEnded": "Al-Rashid deposed by Mas'ud",
+      "previously": "Al-Qa'im dies after 44 years. His grandson takes the throne.",
+      "paragraphs": [
+        "Al-Muqtadi (1075–1094) reigned while the sultan Malik-Shah and his vizier Nizam al-Mulk ran an empire from Central Asia to Syria. The caliph's name still went in the Friday prayer, and every sultan needed his blessing. But in 1092 Malik-Shah told him to leave Baghdad. Weeks later the sultan was dead, and so was Nizam al-Mulk, stabbed by an assassin.",
+        "Under al-Mustazhir (1094–1118) the great scholar al-Ghazali wrote a book against the Isma'ilis and named it after the caliph. In 1099 the First Crusade took Jerusalem. Refugees reached Baghdad and begged for help. None came.",
+        "Al-Mustarshid (1118–1135) decided to fight. He raised his own army, but the sultan Mas'ud beat and captured him in 1135. Near Maragha, Assassins got into his tent and killed him. His son al-Rashid (1135–1136) rebelled too, and Mas'ud had him deposed."
+      ],
+      "claims": [
+        {
+          "text": "Malik-Shah ordered the caliph out of Baghdad and died before it could happen.",
+          "status": "disputed",
+          "note": "Told by Ibn al-Athir and other chroniclers, who saw the sudden death as a judgement; the order itself is hard to pin down."
+        },
+        {
+          "text": "Refugees from Jerusalem wept in Baghdad's mosque, and nobody sent an army.",
+          "status": "disputed",
+          "note": "Ibn al-Athir tells the scene, writing over a century later; the lack of any rescue is certain."
+        },
+        {
+          "text": "Al-Mustarshid was murdered by Assassins, and Sultan Mas'ud let it happen.",
+          "status": "disputed",
+          "note": "The murder is confirmed; the sultan's part rests on suspicion in the chronicles."
+        }
+      ],
+      "hook": "Mas'ud picks al-Rashid's uncle, al-Muqtafi, as caliph, expecting a quiet puppet. He has misjudged him. The Seljuk empire is cracking, and the caliph means to slip through the gap.",
+      "sources": [
+        {
+          "title": "The Annals of the Saljuq Turks: Selections from al-Kamil fi'l-Ta'rikh of Ibn al-Athir",
+          "author": "Ibn al-Athir, trans. D. S. Richards",
+          "note": "RoutledgeCurzon, 2002"
+        },
+        {
+          "title": "The Chronicle of Ibn al-Athir for the Crusading Period from al-Kamil fi'l-Ta'rikh",
+          "author": "Ibn al-Athir, trans. D. S. Richards",
+          "note": "Ashgate, 3 vols, 2006-2008"
+        },
+        {
+          "title": "The Great Seljuk Empire",
+          "author": "A. C. S. Peacock",
+          "note": "Edinburgh University Press, 2015"
+        },
+        {
+          "title": "Putting the Caliph in His Place: Power, Authority, and the Late Abbasid Caliphate",
+          "author": "Eric J. Hanne",
+          "note": "Fairleigh Dickinson University Press, 2007"
+        }
+      ],
+      "images": [
+        {
+          "file": "File:The ʿAbbasid bride of the Caliph Muqtadi, folio from a manuscript of Nigaristan, Iran, probably Shiraz, dated 1573-74.jpg",
+          "url": "https://upload.wikimedia.org/wikipedia/commons/6/62/The_%CA%BFAbbasid_bride_of_the_Caliph_Muqtadi%2C_folio_from_a_manuscript_of_Nigaristan%2C_Iran%2C_probably_Shiraz%2C_dated_1573-74.jpg",
+          "page": "https://commons.wikimedia.org/wiki/File:The_%CA%BFAbbasid_bride_of_the_Caliph_Muqtadi,_folio_from_a_manuscript_of_Nigaristan,_Iran,_probably_Shiraz,_dated_1573-74.jpg",
+          "credit": "Aga Khan Museum",
+          "license": "Public domain",
+          "made": "1573–1574",
+          "caption": "The bride of the caliph al-Muqtadi, from a Persian book of anecdotes painted in Iran about 500 years later. An imagined scene, not a portrait.",
+          "alt": "Persian manuscript page with a painted scene of the Abbasid bride of the caliph al-Muqtadi and blocks of text"
+        }
+      ],
+      "review": {
+        "status": "draft",
+        "notes": "Drafted from the listed sources; needs a human fact-check."
+      }
+    },
+    {
+      "id": "caliphs-fight-back",
+      "kind": "interregnum",
+      "title": "The Caliphs Fight Back",
+      "house": "abbasid",
+      "rulers": [],
+      "tagline": "The caliphs grab their swords back, and keep them",
+      "start": {
+        "date": "1136-09-17"
+      },
+      "end": {
+        "date": "1180-03-27"
+      },
+      "contestedWith": [],
+      "relationToPredecessor": "Followed al-Rashid's deposition",
+      "ageAtAccession": "Several caliphs",
+      "cameToPower": "Caliphs rebuild their power",
+      "reignEnded": "Al-Mustadi died",
+      "previously": "Sultan Mas'ud deposes al-Rashid and needs a quieter caliph.",
+      "paragraphs": [
+        "Al-Muqtafi (1136–1160) looked like a safe choice. He wasn't. As the Seljuk sultans fought each other, he quietly built an army and took control of Iraq for himself. In 1157 the sultan Muhammad came to besiege Baghdad. The walls held, and the sultan gave up and went home. For the first time in two centuries, a caliph ruled his own capital.",
+        "His son al-Mustanjid (1160–1170) kept the grip but made enemies at court, and died in a bathhouse, probably at their hands. Under al-Mustadi (1170–1180) came great news from Egypt. In 1171 Saladin had al-Mustadi's name read in the Friday prayer in Cairo. The rival Fatimid caliphate was gone after 260 years.",
+        "Baghdad was lively again. Crowds packed in to hear the fiery preacher Ibn al-Jawzi. When al-Mustadi died in 1180, his son took over a caliphate with real muscle."
+      ],
+      "claims": [
+        {
+          "text": "Al-Mustanjid was shut into a hot bathhouse by courtiers and left to die.",
+          "status": "disputed",
+          "note": "The chroniclers blame court plotters; it could not be proved, and some accounts say he was simply ill."
+        },
+        {
+          "text": "Ibn al-Jawzi drew crowds of tens of thousands to his sermons.",
+          "status": "disputed",
+          "note": "The numbers come from Ibn al-Jawzi himself and his admirers, who were not shy about his fame."
+        },
+        {
+          "text": "The sultan Muhammad's siege of Baghdad in 1157 failed.",
+          "status": "confirmed",
+          "note": "Reported by Ibn al-Athir and other chroniclers; the sultan withdrew without taking the city."
+        }
+      ],
+      "hook": "The new caliph, al-Nasir, is 21, clever and very ambitious. He wants more than Iraq. He wants to be the centre of the whole Islamic world again.",
+      "sources": [
+        {
+          "title": "The Chronicle of Ibn al-Athir for the Crusading Period from al-Kamil fi'l-Ta'rikh",
+          "author": "Ibn al-Athir, trans. D. S. Richards",
+          "note": "Ashgate, 3 vols, 2006-2008"
+        },
+        {
+          "title": "Putting the Caliph in His Place: Power, Authority, and the Late Abbasid Caliphate",
+          "author": "Eric J. Hanne",
+          "note": "Fairleigh Dickinson University Press, 2007"
+        },
+        {
+          "title": "The Prophet and the Age of the Caliphates",
+          "author": "Hugh Kennedy",
+          "note": "Longman, 1986; 3rd ed. Routledge, 2016"
+        },
+        {
+          "title": "Baghdad: City of Peace, City of Blood",
+          "author": "Justin Marozzi",
+          "note": "Allen Lane, 2014"
+        }
+      ],
+      "images": [
+        {
+          "file": "File:Al-wastani gate.jpg",
+          "url": "https://upload.wikimedia.org/wikipedia/commons/6/61/Al-wastani_gate.jpg",
+          "page": "https://commons.wikimedia.org/wiki/File:Al-wastani_gate.jpg",
+          "credit": "David Stanley",
+          "license": "CC BY 2.0",
+          "made": "Gate 12th century; photo 2016",
+          "caption": "The Wastani Gate, the last surviving gate of Baghdad's medieval walls, dated on Commons to 1120.",
+          "alt": "The Wastani Gate, a brick gate of Baghdad's old city walls"
+        }
+      ],
+      "review": {
+        "status": "draft",
+        "notes": "Drafted from the listed sources; needs a human fact-check."
+      }
+    },
+    {
+      "id": "al-nasir",
+      "kind": "monarch",
+      "rulers": [
+        "al-nasir"
+      ],
+      "tagline": "The caliph who played kingmaker for 46 years",
+      "start": {
+        "date": "1180-03-28"
+      },
+      "end": {
+        "date": "1225-10-05"
+      },
+      "contestedWith": [],
+      "relationToPredecessor": "Son of al-Mustadi",
+      "ageAtAccession": "21",
+      "cameToPower": "Succeeded his father",
+      "reignEnded": "Died after nearly 46 years",
+      "previously": "Al-Mustadi dies, leaving a caliphate with real power again.",
+      "paragraphs": [
+        "Al-Nasir reigned longer than any other Abbasid caliph, and he used every year. He played the great powers against each other. He backed the Khwarazmshah Tekish against the last Great Seljuk sultan, Tughril III, who was killed in battle in 1194. The Seljuks who had bossed the caliphs for nearly 140 years were gone.",
+        "He also made the caliph cool again. He joined the futuwwa, the brotherhoods of young men with their own codes of honour, and made himself their head. He ran pigeon-racing and crossbow clubs too. Then Tekish's son, Muhammad II, turned on him and marched on Baghdad in 1217. Snow in the Zagros mountains wrecked his army before it got there.",
+        "In 1221 al-Nasir built the Talisman Gate in Baghdad's walls. He died in 1225, old and ill, leaving a strong, rich caliphate. Out east, the Mongols had already arrived."
+      ],
+      "claims": [
+        {
+          "text": "Al-Nasir invited the Mongols to attack the Khwarazmshah.",
+          "status": "legend",
+          "note": "Made by later writers hostile to him; there is no solid evidence, though he certainly wanted Muhammad II beaten."
+        },
+        {
+          "text": "He went blind in one eye in his last years.",
+          "status": "disputed",
+          "note": "Reported by chroniclers writing about his final illness; details vary."
+        },
+        {
+          "text": "The Talisman Gate stood until the Ottomans blew it up in 1917.",
+          "status": "confirmed",
+          "note": "The retreating Ottoman army used it as a powder store and blew it up as the British took Baghdad."
+        }
+      ],
+      "hook": "His son al-Zahir, kept waiting for years, finally takes the throne. Baghdad is about to enjoy a gentler caliph and one last golden glow.",
+      "sources": [
+        {
+          "title": "The Chronicle of Ibn al-Athir for the Crusading Period from al-Kamil fi'l-Ta'rikh",
+          "author": "Ibn al-Athir, trans. D. S. Richards",
+          "note": "Ashgate, 3 vols, 2006-2008"
+        },
+        {
+          "title": "Putting the Caliph in His Place: Power, Authority, and the Late Abbasid Caliphate",
+          "author": "Eric J. Hanne",
+          "note": "Fairleigh Dickinson University Press, 2007"
+        },
+        {
+          "title": "Baghdad: City of Peace, City of Blood",
+          "author": "Justin Marozzi",
+          "note": "Allen Lane, 2014"
+        },
+        {
+          "title": "al-Nasir li-Din Allah",
+          "author": "Encyclopaedia of Islam, 2nd edition",
+          "note": "Encyclopaedia entry"
+        }
+      ],
+      "images": [
+        {
+          "file": "File:Abbasid Palace.jpg",
+          "url": "https://upload.wikimedia.org/wikipedia/commons/5/59/Abbasid_Palace.jpg",
+          "page": "https://commons.wikimedia.org/wiki/File:Abbasid_Palace.jpg",
+          "credit": "Mohammed Qays Kazem",
+          "license": "CC BY-SA 4.0",
+          "made": "Late 12th or early 13th century; photo 2023",
+          "caption": "The so-called Abbasid Palace in Baghdad, often dated to al-Nasir's time. Experts still debate what the building really was.",
+          "alt": "Part of the brick building known as the Abbasid Palace in Baghdad"
+        }
+      ],
+      "review": {
+        "status": "draft",
+        "notes": "Drafted from the listed sources; needs a human fact-check."
+      }
+    },
+    {
+      "id": "last-golden-years",
+      "kind": "interregnum",
+      "title": "The Last Golden Years",
+      "house": "abbasid",
+      "rulers": [],
+      "tagline": "Colleges, clocks and a city that feels safe",
+      "start": {
+        "date": "1225-10-05"
+      },
+      "end": {
+        "date": "1242-12-05"
+      },
+      "contestedWith": [],
+      "relationToPredecessor": "Followed al-Nasir's death",
+      "ageAtAccession": "Two caliphs",
+      "cameToPower": "Al-Zahir succeeded his father",
+      "reignEnded": "Al-Mustansir died",
+      "previously": "Al-Nasir dies after nearly 46 years, leaving a rich caliphate.",
+      "paragraphs": [
+        "Al-Zahir (1225–1226) reigned for just nine months, but people remembered him fondly. He freed prisoners, and gave back property his father had seized. Then he died, and his son al-Mustansir (1226–1242) took the throne.",
+        "Al-Mustansir built the Mustansiriya, a huge college on the Tigris that opened in the early 1230s. It taught all four schools of Sunni law under one roof, with a great library. The building still stands in Baghdad. In these same years the artist Yahya al-Wasiti painted the Maqamat of al-Hariri, full of camels, markets and mosques.",
+        "But Mongol raiding parties were already reaching Iraq. Al-Mustansir spent money on soldiers as well as scholars. He died in 1242."
+      ],
+      "claims": [
+        {
+          "text": "Al-Zahir was a model ruler who freed prisoners and returned what his father had seized.",
+          "status": "disputed",
+          "note": "The chroniclers praise him warmly, but nine months is too short to test a reputation."
+        },
+        {
+          "text": "The Mustansiriya had a famous water clock that told the hours.",
+          "status": "disputed",
+          "note": "Described by chroniclers; nothing of it survives."
+        },
+        {
+          "text": "The Mustansiriya's building still stands in Baghdad.",
+          "status": "confirmed",
+          "note": "Much restored, but the original 13th-century college survives on the bank of the Tigris."
+        }
+      ],
+      "hook": "Al-Mustansir's son al-Musta'sim takes the throne. He has a rich capital, a quarrelling court and a small army. In Mongolia, a new Great Khan is planning a campaign in the west.",
+      "sources": [
+        {
+          "title": "Baghdad: City of Peace, City of Blood",
+          "author": "Justin Marozzi",
+          "note": "Allen Lane, 2014"
+        },
+        {
+          "title": "The Prophet and the Age of the Caliphates",
+          "author": "Hugh Kennedy",
+          "note": "Longman, 1986; 3rd ed. Routledge, 2016"
+        },
+        {
+          "title": "al-Mustansir",
+          "author": "Encyclopaedia of Islam, 2nd edition",
+          "note": "Encyclopaedia entry"
+        },
+        {
+          "title": "The Illustrations of the Maqamat",
+          "author": "Oleg Grabar",
+          "note": "University of Chicago Press, 1984"
+        }
+      ],
+      "images": [
+        {
+          "file": "File:Mustansiriya Madrasah gate.jpg",
+          "url": "https://upload.wikimedia.org/wikipedia/commons/8/82/Mustansiriya_Madrasah_gate.jpg",
+          "page": "https://commons.wikimedia.org/wiki/File:Mustansiriya_Madrasah_gate.jpg",
+          "credit": "Mahmoudalrawi",
+          "license": "CC BY-SA 3.0",
+          "made": "1230s; photo 2014",
+          "caption": "The gate of the Mustansiriya college in Baghdad, built by al-Mustansir and still standing.",
+          "alt": "The gateway of the Mustansiriya Madrasah in Baghdad"
+        }
+      ],
+      "review": {
+        "status": "draft",
+        "notes": "Drafted from the listed sources; needs a human fact-check."
+      }
+    },
+    {
+      "id": "al-mustasim",
+      "kind": "monarch",
+      "rulers": [
+        "al-mustasim"
+      ],
+      "tagline": "The last caliph of Baghdad",
+      "start": {
+        "date": "1242-12-05"
+      },
+      "end": {
+        "date": "1258-02-20"
+      },
+      "contestedWith": [],
+      "relationToPredecessor": "Son of al-Mustansir",
+      "ageAtAccession": "About 29",
+      "cameToPower": "Succeeded his father",
+      "reignEnded": "Executed by Hulagu's Mongols",
+      "previously": "Al-Mustansir dies. Mongol raiders already prowl the borders.",
+      "paragraphs": [
+        "Al-Musta'sim was the 37th Abbasid caliph, and the last to rule from Baghdad. The chroniclers paint him as gentle, fond of pigeons and music, and not up to the job. His court was split between the Shi'a vizier Ibn al-Alqami and the commander Aybeg, the Dawatdar. Meanwhile the Great Khan Möngke sent his brother Hulagu west. In 1256 the Assassins' mountain castles fell. Baghdad was next.",
+        "Hulagu demanded submission. The caliph refused. In January 1258 his army was beaten when the Mongols broke the Tigris dykes and flooded its camp. The siege began on 29 January, and on 10 February Baghdad surrendered. For about a week the Mongols killed and looted. Medieval chroniclers give death tolls from 200,000 to 800,000 or more; nobody knows the true number.",
+        "On 20 February al-Musta'sim was executed. Five centuries of the Abbasids in Baghdad were over. A relative was later set up as caliph in Cairo, a figurehead for the Mamluk sultans."
+      ],
+      "claims": [
+        {
+          "text": "The caliph was rolled in a carpet and trampled by horses, so no royal blood touched the ground.",
+          "status": "disputed",
+          "note": "A tradition in several Persian and Arabic histories, fitting a Mongol taboo on royal blood. Marco Polo's legend has him starved among his gold in a tower."
+        },
+        {
+          "text": "So many books were thrown into the Tigris that it ran black with ink.",
+          "status": "legend",
+          "note": "A famous image from later writers; libraries were surely looted, but the detail cannot be checked."
+        },
+        {
+          "text": "The vizier Ibn al-Alqami betrayed Baghdad to the Mongols.",
+          "status": "disputed",
+          "note": "Sunni writers accused him; the evidence is thin and the charge was coloured by sectarian feeling."
+        }
+      ],
+      "sources": [
+        {
+          "title": "Jami'u't-tawarikh: Compendium of Chronicles",
+          "author": "Rashiduddin Fazlullah, trans. W. M. Thackston",
+          "note": "Harvard, 1998-1999; the Mongol siege of Baghdad"
+        },
+        {
+          "title": "Baghdad: City of Peace, City of Blood",
+          "author": "Justin Marozzi",
+          "note": "Allen Lane, 2014"
+        },
+        {
+          "title": "The Abbasid Caliphate: A History",
+          "author": "Tayeb El-Hibri",
+          "note": "Cambridge University Press, 2021"
+        },
+        {
+          "title": "al-Musta'sim bi'llah",
+          "author": "Encyclopaedia of Islam, 2nd edition",
+          "note": "Encyclopaedia entry"
+        }
+      ],
+      "images": [
+        {
+          "file": "File:Dinar Abbasside - al-Musta'sim bi-llah - 641 AH.jpg",
+          "url": "https://upload.wikimedia.org/wikipedia/commons/4/42/Dinar_Abbasside_-_al-Musta%27sim_bi-llah_-_641_AH.jpg",
+          "page": "https://commons.wikimedia.org/wiki/File:Dinar_Abbasside_-_al-Musta%27sim_bi-llah_-_641_AH.jpg",
+          "credit": "DrFO.Jr.Tn",
+          "license": "Public domain",
+          "made": "1243–1244",
+          "caption": "A gold dinar struck in Baghdad in the reign of al-Musta'sim, in 1243–1244.",
+          "alt": "Gold coin covered in Arabic inscriptions"
+        }
+      ],
+      "review": {
+        "status": "draft",
+        "notes": "Drafted from the listed sources; needs a human fact-check."
+      }
+    }
+  ]
+}
