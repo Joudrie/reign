@@ -152,7 +152,7 @@ for (const name of readdirSync(dataDir).filter((f) => f.endsWith(".json"))) {
     for (const img of g.images)
       // Free licences that only ask for credit or share-alike: Creative Commons, KOGL Type 1 (Korea),
       // Free Art License, GFDL, and the European Parliament's reuse-with-credit terms.
-      if (!/public domain|^cc[ -]|^cc0$|^kogl type 1$|^fal$|^gfdl|^european parliament$/i.test(img.license)) warn(where, `check license "${img.license}" on ${img.file}`);
+      if (!/public domain|^cc[ -]|^cc0$|^kogl type 1$|^fal$|^gfdl|^european parliament$|^attribution$/i.test(img.license)) warn(where, `check license "${img.license}" on ${img.file}`);
 
   });
 

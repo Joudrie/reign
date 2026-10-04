@@ -1,0 +1,703 @@
+{
+  "id": "liechtenstein",
+  "name": "Liechtenstein",
+  "blurb": "Three centuries of princes, from Vienna palaces to Vaduz Castle",
+  "dateConvention": "Dates are Gregorian. The family were princes from 1608, but the principality itself was created in 1719; the deck starts with the prince reigning then. Since 2004 the heir has ruled day to day as regent for his father.",
+  "houses": [
+    {
+      "id": "liechtenstein",
+      "name": "Liechtenstein",
+      "color": "#2b3f8c"
+    }
+  ],
+  "rulers": [
+    {
+      "id": "anton-florian",
+      "name": "Anton Florian",
+      "house": "liechtenstein",
+      "born": {
+        "date": "1656-05-28",
+        "note": "Wilfersdorf, Lower Austria"
+      },
+      "died": {
+        "date": "1721-10-11",
+        "note": "Vienna"
+      },
+      "causeOfDeath": "Natural causes"
+    },
+    {
+      "id": "johann-i-joseph",
+      "name": "Johann I Joseph",
+      "house": "liechtenstein",
+      "born": {
+        "date": "1760-06-26",
+        "note": "Vienna"
+      },
+      "died": {
+        "date": "1836-04-20",
+        "note": "Vienna"
+      },
+      "causeOfDeath": "Natural causes"
+    },
+    {
+      "id": "aloys-ii",
+      "name": "Aloys II",
+      "house": "liechtenstein",
+      "born": {
+        "date": "1796-05-26",
+        "note": "Vienna; some sources give 25 May"
+      },
+      "died": {
+        "date": "1858-11-12",
+        "note": "Eisgrub (Lednice), Moravia"
+      },
+      "causeOfDeath": "Natural causes"
+    },
+    {
+      "id": "johann-ii",
+      "name": "Johann II",
+      "epithet": "the Good",
+      "house": "liechtenstein",
+      "born": {
+        "date": "1840-10-05",
+        "note": "Eisgrub (Lednice), Moravia"
+      },
+      "died": {
+        "date": "1929-02-11",
+        "note": "Feldsberg (Valtice), Czechoslovakia"
+      },
+      "causeOfDeath": "Old age"
+    },
+    {
+      "id": "franz-i",
+      "name": "Franz I",
+      "house": "liechtenstein",
+      "born": {
+        "date": "1853-08-28"
+      },
+      "died": {
+        "date": "1938-07-25",
+        "note": "Feldsberg (Valtice), Czechoslovakia"
+      },
+      "causeOfDeath": "Natural causes"
+    },
+    {
+      "id": "franz-joseph-ii",
+      "name": "Franz Joseph II",
+      "house": "liechtenstein",
+      "born": {
+        "date": "1906-08-16",
+        "note": "Frauenthal Castle, Styria, Austria"
+      },
+      "died": {
+        "date": "1989-11-13",
+        "note": "Grabs, Switzerland"
+      },
+      "causeOfDeath": "Natural causes"
+    },
+    {
+      "id": "hans-adam-ii",
+      "name": "Hans-Adam II",
+      "house": "liechtenstein",
+      "born": {
+        "date": "1945-02-14",
+        "note": "Zürich, Switzerland"
+      }
+    }
+  ],
+  "reigns": [
+    {
+      "id": "anton-florian",
+      "kind": "monarch",
+      "rulers": [
+        "anton-florian"
+      ],
+      "tagline": "The royal tutor who got a country named after his family",
+      "start": {
+        "date": "1718-03-12"
+      },
+      "end": {
+        "date": "1721-10-11"
+      },
+      "contestedWith": [],
+      "relationToPredecessor": "Uncle of Joseph Wenzel I",
+      "ageAtAccession": "61",
+      "cameToPower": "His nephew handed him the title",
+      "reignEnded": "Died in Vienna",
+      "previously": "Princes since 1608, they bought two Alpine specks to earn a seat.",
+      "paragraphs": [
+        "The Liechtensteins were filthy rich, with vast estates in Austria and Moravia. In 1608 the Habsburgs made Karl I a prince. There was a catch. To sit in the Imperial Diet, a prince needed land held straight from the emperor. So Hans-Adam I went shopping and bought the Lordship of Schellenberg in 1699 and the County of Vaduz in 1712: two little patches of Alpine valley, far from anywhere the family actually lived.",
+        "Anton Florian was the ultimate insider. He had been chief tutor to the young Archduke Charles and followed him to Spain when Charles fought for the Spanish throne. Charles lost Spain but became Emperor Charles VI in 1711, and he did not forget his old teacher. Anton Florian ran the imperial household in Vienna and sat at the heart of government.",
+        "On 23 January 1719 the emperor fused Vaduz and Schellenberg into a brand-new Principality of Liechtenstein, named after the family. Anton Florian took his seat among the princes of the Empire. He never moved there, of course. He died in Vienna in October 1721, and his son inherited a country nobody in the family had much reason to visit."
+      ],
+      "claims": [
+        {
+          "text": "Charles VI created the Principality of Liechtenstein on 23 January 1719.",
+          "status": "confirmed",
+          "note": "The imperial charter survives; the date is still marked as the country's founding."
+        },
+        {
+          "text": "Anton Florian never set foot in the principality named after his family.",
+          "status": "disputed",
+          "note": "Widely repeated, and there is no record of a visit, but absence of a record is not proof. The first documented visit by a reigning prince comes in 1842."
+        },
+        {
+          "text": "The family bought Vaduz and Schellenberg purely to get a seat in the Imperial Diet.",
+          "status": "confirmed",
+          "note": "Historians agree the status was the point: the lands were small and brought in little income."
+        }
+      ],
+      "hook": "Liechtenstein now exists, on paper and on the map. Its princes live in Vienna palaces and Moravian castles hundreds of miles away. For the next 84 years, they will run it by letter.",
+      "images": [
+        {
+          "file": "File:Anton Florian v Liechtenstein.jpg",
+          "url": "https://upload.wikimedia.org/wikipedia/commons/3/30/Anton_Florian_v_Liechtenstein.jpg",
+          "page": "https://commons.wikimedia.org/wiki/File:Anton_Florian_v_Liechtenstein.jpg",
+          "credit": "Unidentified painter",
+          "license": "Public domain",
+          "made": "18th century",
+          "caption": "An 18th-century portrait from the princely collections.",
+          "alt": "Painted portrait of Anton Florian of Liechtenstein, a nobleman in a long wig"
+        }
+      ],
+      "sources": [
+        {
+          "title": "Historisches Lexikon des Fürstentums Liechtenstein",
+          "author": "Historischer Verein für das Fürstentum Liechtenstein",
+          "note": "Chronos, 2013; online edition at historisches-lexikon.li"
+        },
+        {
+          "title": "Liechtenstein: History and Institutions of the Principality",
+          "author": "Pierre Raton",
+          "note": "1970"
+        },
+        {
+          "title": "Liechtenstein: Fürstliches Haus und staatliche Ordnung",
+          "author": "Volker Press and Dietmar Willoweit (eds.)",
+          "note": "1987"
+        }
+      ],
+      "review": {
+        "status": "draft",
+        "notes": "Drafted from the listed sources; needs a human fact-check."
+      }
+    },
+    {
+      "id": "princes-in-vienna",
+      "kind": "interregnum",
+      "rulers": [],
+      "house": "liechtenstein",
+      "title": "The Princes in Vienna",
+      "tagline": "Five princes, 84 years, and hardly a visit home",
+      "start": {
+        "date": "1721-10-11"
+      },
+      "end": {
+        "date": "1805-03-24"
+      },
+      "contestedWith": [],
+      "relationToPredecessor": "Anton Florian's son, then kin",
+      "ageAtAccession": "Five princes",
+      "cameToPower": "Inherited, one after another",
+      "reignEnded": "Aloys I died childless",
+      "previously": "Anton Florian, founder of the principality, dies in Vienna.",
+      "paragraphs": [
+        "Five princes held Liechtenstein in 84 years: Joseph Johann Adam (1721–32), Johann Nepomuk Karl (1732–48), Joseph Wenzel I (1748–72), Franz Joseph I (1772–81) and Aloys I (1781–1805). They lived in Vienna and on their Moravian estates at Lednice and Valtice. The principality was run by officials, and it mattered for one thing: the title it gave the family.",
+        "The star of the bunch was Joseph Wenzel I. He had already held the title as a young man, from 1712 to 1718, before handing it to his uncle. Back in charge, he was one of Austria's great field marshals. He rebuilt the Habsburg artillery, paying for much of it himself, and his guns earned their keep in the wars against Prussia.",
+        "Meanwhile the Vaduz valley stayed poor and rural, ruled from a distance. The princes spent their money on palaces, gardens and paintings back home. Aloys I died in 1805 with no son, and the title passed to his younger brother."
+      ],
+      "claims": [
+        {
+          "text": "Joseph Wenzel I poured his own fortune into modernising the Austrian artillery.",
+          "status": "confirmed",
+          "note": "Standard accounts of Maria Theresa's army credit him as director-general of artillery and record that he paid for much of the work."
+        },
+        {
+          "text": "None of these five princes ever visited Liechtenstein.",
+          "status": "disputed",
+          "note": "Often said, and no visit is documented, but the record for the 18th century is thin."
+        }
+      ],
+      "hook": "The new prince is a cavalry general, and 1805 is a bad year to be one. Napoleon is marching on Vienna, and the tiny principality is about to be swept up in his reshuffle of Europe.",
+      "images": [
+        {
+          "file": "File:Joseph Wenzel von Liechtenstein.jpg",
+          "url": "https://upload.wikimedia.org/wikipedia/commons/1/1a/Joseph_Wenzel_von_Liechtenstein.jpg",
+          "page": "https://commons.wikimedia.org/wiki/File:Joseph_Wenzel_von_Liechtenstein.jpg",
+          "credit": "Hyacinthe Rigaud",
+          "license": "Public domain",
+          "made": "1740",
+          "caption": "Joseph Wenzel I, the soldier prince of this era, painted by Hyacinthe Rigaud in 1740.",
+          "alt": "Formal painted portrait of Joseph Wenzel of Liechtenstein, a nobleman in a powdered wig and armour"
+        }
+      ],
+      "sources": [
+        {
+          "title": "Historisches Lexikon des Fürstentums Liechtenstein",
+          "author": "Historischer Verein für das Fürstentum Liechtenstein",
+          "note": "Chronos, 2013; online edition at historisches-lexikon.li"
+        },
+        {
+          "title": "Liechtenstein: History and Institutions of the Principality",
+          "author": "Pierre Raton",
+          "note": "1970"
+        },
+        {
+          "title": "The Army of Maria Theresa: The Armed Forces of Imperial Austria, 1740–1780",
+          "author": "Christopher Duffy",
+          "note": "David & Charles, 1977; on Joseph Wenzel and the artillery"
+        }
+      ],
+      "review": {
+        "status": "draft",
+        "notes": "Drafted from the listed sources; needs a human fact-check."
+      }
+    },
+    {
+      "id": "johann-i-joseph",
+      "kind": "monarch",
+      "rulers": [
+        "johann-i-joseph"
+      ],
+      "tagline": "The general whose country Napoleon set free",
+      "start": {
+        "date": "1805-03-24"
+      },
+      "end": {
+        "date": "1836-04-20"
+      },
+      "contestedWith": [],
+      "relationToPredecessor": "Younger brother of Aloys I",
+      "ageAtAccession": "44",
+      "cameToPower": "Inherited from his brother",
+      "reignEnded": "Died in Vienna",
+      "previously": "Aloys I dies without a son. His soldier brother takes the title.",
+      "paragraphs": [
+        "Johann was a career cavalryman who rose to field marshal in the Austrian army. He became prince in March 1805, and that December he was at Austerlitz, where Napoleon smashed the Austrians and Russians. Afterwards Johann was one of the men sent to talk terms with the French emperor.",
+        "Then Napoleon did something strange. In 1806 he put Liechtenstein into his new Confederation of the Rhine. When the Holy Roman Empire collapsed weeks later, the little principality was suddenly a sovereign state. Its prince, meanwhile, was still a loyal Austrian general who fought Napoleon again in 1809.",
+        "After Napoleon fell, Liechtenstein joined the German Confederation in 1815, and Johann granted a first, limited constitution in 1818. He still governed from Vienna, where he spent heavily on the family estates. He died there in 1836."
+      ],
+      "claims": [
+        {
+          "text": "Johann negotiated face to face with Napoleon after Austerlitz.",
+          "status": "confirmed",
+          "note": "He took part in the armistice talks of December 1805; how much he shaped the outcome is debated."
+        },
+        {
+          "text": "Johann did not welcome the sovereignty Napoleon handed him.",
+          "status": "disputed",
+          "note": "His loyalty lay with Austria, and some accounts say he passed the principality on paper to his young son Karl to keep his Austrian career. Historians differ on how formal that was."
+        },
+        {
+          "text": "Napoleon spared Liechtenstein out of personal regard for Johann.",
+          "status": "legend",
+          "note": "A popular explanation with no firm evidence. Plenty of small states were added to the Confederation for reasons of map-making."
+        }
+      ],
+      "hook": "Johann's son is a courtier, a builder and a big spender. He will do something no reigning Liechtenstein prince has ever been recorded doing: go and look at the place.",
+      "images": [
+        {
+          "file": "File:Johann Josef I von Liechtenstein.jpg",
+          "url": "https://upload.wikimedia.org/wikipedia/commons/f/f2/Johann_Josef_I_von_Liechtenstein.jpg",
+          "page": "https://commons.wikimedia.org/wiki/File:Johann_Josef_I_von_Liechtenstein.jpg",
+          "credit": "Johann Baptist von Lampi the Elder",
+          "license": "Public domain",
+          "made": "1816",
+          "caption": "Painted by Johann Baptist Lampi the Elder in 1816.",
+          "alt": "Painted portrait of Prince Johann I Joseph of Liechtenstein"
+        }
+      ],
+      "sources": [
+        {
+          "title": "Historisches Lexikon des Fürstentums Liechtenstein",
+          "author": "Historischer Verein für das Fürstentum Liechtenstein",
+          "note": "Chronos, 2013; online edition at historisches-lexikon.li"
+        },
+        {
+          "title": "Liechtenstein: A Modern History",
+          "author": "David Beattie",
+          "note": "I.B. Tauris, 2004"
+        },
+        {
+          "title": "Liechtenstein: History and Institutions of the Principality",
+          "author": "Pierre Raton",
+          "note": "1970"
+        }
+      ],
+      "review": {
+        "status": "draft",
+        "notes": "Drafted from the listed sources; needs a human fact-check."
+      }
+    },
+    {
+      "id": "aloys-ii",
+      "kind": "monarch",
+      "rulers": [
+        "aloys-ii"
+      ],
+      "tagline": "The first prince who actually came to visit",
+      "start": {
+        "date": "1836-04-20"
+      },
+      "end": {
+        "date": "1858-11-12"
+      },
+      "contestedWith": [],
+      "relationToPredecessor": "Son of Johann I Joseph",
+      "ageAtAccession": "39",
+      "cameToPower": "Inherited from his father",
+      "reignEnded": "Died at Lednice",
+      "previously": "Johann I, general and reluctant sovereign, dies in Vienna.",
+      "paragraphs": [
+        "More than a century after the principality was created, a reigning prince finally turned up. In 1842 Aloys II travelled to Liechtenstein and saw his subjects in person. It was a gesture, and the people noticed, but he went back to Vienna afterwards like everyone before him.",
+        "The revolutions of 1848 reached even Vaduz. Villagers demanded a say in their own affairs, and Liechtenstein sent its own delegate, Peter Kaiser, to the German parliament in Frankfurt. Aloys made some concessions, then clawed most of them back once the storm passed. In 1852 a customs treaty with Austria tied the little economy firmly to its big neighbour.",
+        "At home Aloys spent lavishly. He had Lednice rebuilt as a romantic Gothic castle and redecorated the family palaces in Vienna in high style. He died at Lednice in November 1858, leaving the title to an 18-year-old son."
+      ],
+      "claims": [
+        {
+          "text": "Aloys II was the first reigning prince to visit Liechtenstein.",
+          "status": "disputed",
+          "note": "His 1842 visit is the first one recorded. Earlier princes may have passed through unrecorded, but no evidence of it survives."
+        },
+        {
+          "text": "The 1852 customs treaty bound Liechtenstein's economy to Austria.",
+          "status": "confirmed",
+          "note": "The treaty put the principality inside the Austrian customs area until the First World War."
+        }
+      ],
+      "hook": "The new prince is a shy teenager who loves paintings. Nobody expects much. He is about to reign for seventy years.",
+      "images": [
+        {
+          "file": "File:Amerling - Fürst Alois II. von Liechtenstein (1796–1858) im Ornat des Ordens vom Goldenen Vlies.png",
+          "url": "https://upload.wikimedia.org/wikipedia/commons/6/67/Amerling_-_F%C3%BCrst_Alois_II._von_Liechtenstein_%281796%E2%80%931858%29_im_Ornat_des_Ordens_vom_Goldenen_Vlies.png",
+          "page": "https://commons.wikimedia.org/wiki/File:Amerling_-_F%C3%BCrst_Alois_II._von_Liechtenstein_(1796%E2%80%931858)_im_Ornat_des_Ordens_vom_Goldenen_Vlies.png",
+          "credit": "Friedrich von Amerling",
+          "license": "Public domain",
+          "made": "1845",
+          "caption": "Painted by Friedrich von Amerling in 1845, showing Aloys in the robes of the Order of the Golden Fleece.",
+          "alt": "Full-length portrait of Prince Aloys II in the ceremonial robes of the Order of the Golden Fleece"
+        }
+      ],
+      "sources": [
+        {
+          "title": "Historisches Lexikon des Fürstentums Liechtenstein",
+          "author": "Historischer Verein für das Fürstentum Liechtenstein",
+          "note": "Chronos, 2013; online edition at historisches-lexikon.li"
+        },
+        {
+          "title": "Liechtenstein: A Modern History",
+          "author": "David Beattie",
+          "note": "I.B. Tauris, 2004"
+        },
+        {
+          "title": "Liechtenstein: History and Institutions of the Principality",
+          "author": "Pierre Raton",
+          "note": "1970"
+        }
+      ],
+      "review": {
+        "status": "draft",
+        "notes": "Drafted from the listed sources; needs a human fact-check."
+      }
+    },
+    {
+      "id": "johann-ii",
+      "kind": "monarch",
+      "rulers": [
+        "johann-ii"
+      ],
+      "tagline": "Seventy years on the throne, and a tiny army that grew",
+      "start": {
+        "date": "1858-11-12"
+      },
+      "end": {
+        "date": "1929-02-11"
+      },
+      "contestedWith": [],
+      "relationToPredecessor": "Son of Aloys II",
+      "ageAtAccession": "18",
+      "cameToPower": "Inherited from his father",
+      "reignEnded": "Died at Valtice, aged 88",
+      "previously": "Aloys II, the first prince to visit, dies at Lednice.",
+      "paragraphs": [
+        "Johann became prince at 18 and was still prince at 88. He never married. His great love was art: he collected on a huge scale and gave away masterpieces to museums across Central Europe. His people called him Johann the Good. In 1862 he gave Liechtenstein a proper constitution with an elected parliament.",
+        "In 1866 Liechtenstein's army, all 80 men of it, marched off to guard an Alpine pass for Austria in the war against Prussia and Italy. They saw no fighting. Two years later the army was disbanded, and it has never come back. In the First World War the principality stayed neutral.",
+        "Austria came out of that war broken and broke. Liechtenstein turned to Switzerland instead. A new constitution arrived on 5 October 1921, a customs union with the Swiss in 1923 and the Swiss franc in 1924. Johann died in 1929 at Valtice, by then in Czechoslovakia."
+      ],
+      "claims": [
+        {
+          "text": "The army of 80 men came home from the 1866 war with 81.",
+          "status": "legend",
+          "note": "A much-loved story; the extra man is said to be an Austrian liaison officer or a new friend. Nothing official confirms the head count."
+        },
+        {
+          "text": "His reign of 70 years is among the longest in European history.",
+          "status": "confirmed",
+          "note": "Long counted second only to Louis XIV of France; Elizabeth II of the UK passed it in 2022, so it now ranks third."
+        }
+      ],
+      "hook": "Johann leaves no children. The title goes to his younger brother, a 75-year-old former ambassador whose marriage Johann would never accept.",
+      "images": [
+        {
+          "file": "File:Johann II portrait.jpg",
+          "url": "https://upload.wikimedia.org/wikipedia/commons/a/a9/Johann_II_portrait.jpg",
+          "page": "https://commons.wikimedia.org/wiki/File:Johann_II_portrait.jpg",
+          "credit": "Hermann Clemens Kosel",
+          "license": "Public domain",
+          "made": "1928",
+          "caption": "A formal portrait from 1928, the year before Johann died.",
+          "alt": "Formal portrait of an elderly Prince Johann II with a white beard"
+        }
+      ],
+      "sources": [
+        {
+          "title": "Historisches Lexikon des Fürstentums Liechtenstein",
+          "author": "Historischer Verein für das Fürstentum Liechtenstein",
+          "note": "Chronos, 2013; online edition at historisches-lexikon.li"
+        },
+        {
+          "title": "Liechtenstein: A Modern History",
+          "author": "David Beattie",
+          "note": "I.B. Tauris, 2004"
+        },
+        {
+          "title": "Liechtenstein: History and Institutions of the Principality",
+          "author": "Pierre Raton",
+          "note": "1970"
+        }
+      ],
+      "review": {
+        "status": "draft",
+        "notes": "Drafted from the listed sources; needs a human fact-check."
+      }
+    },
+    {
+      "id": "franz-i",
+      "kind": "monarch",
+      "rulers": [
+        "franz-i"
+      ],
+      "tagline": "Prince at 75, then the Nazis came to the border",
+      "start": {
+        "date": "1929-02-11"
+      },
+      "end": {
+        "date": "1938-07-25"
+      },
+      "contestedWith": [],
+      "relationToPredecessor": "Younger brother of Johann II",
+      "ageAtAccession": "75",
+      "cameToPower": "Inherited from his brother",
+      "reignEnded": "Died at Valtice",
+      "previously": "Johann the Good dies after 70 years, with no children.",
+      "paragraphs": [
+        "Franz had waited a very long time. He had been Austria's ambassador to Russia, and he had fallen for Elsa von Gutmann, a rich widow from a Jewish family. His brother Johann would not accept the match. Once Franz was prince, at 75, he married her: quietly first, then publicly, in 1929.",
+        "In March 1938 Nazi Germany swallowed Austria, and suddenly Hitler's Reich stood on Liechtenstein's border. Local Nazis started looking across it for help. Franz's wife made him a target for their propaganda. On 31 March 1938 he named his grand-nephew Franz Joseph as regent and stepped back. He died that July at Valtice."
+      ],
+      "claims": [
+        {
+          "text": "Johann II refused to accept Franz's relationship with Elsa von Gutmann.",
+          "status": "confirmed",
+          "note": "The couple married only after Johann's death, which historians link to his opposition."
+        },
+        {
+          "text": "Franz handed power to a regent because of the Nazi threat to his wife.",
+          "status": "disputed",
+          "note": "Her background was a real target for local Nazis, but Franz was also 84 years old. Historians weigh the reasons differently."
+        }
+      ],
+      "hook": "The new prince is 31, and he does something none of his ancestors ever did: he moves into the castle above Vaduz and stays there.",
+      "images": [
+        {
+          "file": "File:Franz I Portrait.jpg",
+          "url": "https://upload.wikimedia.org/wikipedia/commons/6/67/Franz_I_Portrait.jpg",
+          "page": "https://commons.wikimedia.org/wiki/File:Franz_I_Portrait.jpg",
+          "credit": "Hermann Clemens Kosel",
+          "license": "Public domain",
+          "made": "By 1938",
+          "caption": "A formal portrait of Franz I, made during his short reign.",
+          "alt": "Formal portrait of Prince Franz I, an elderly man with a moustache"
+        }
+      ],
+      "sources": [
+        {
+          "title": "Historisches Lexikon des Fürstentums Liechtenstein",
+          "author": "Historischer Verein für das Fürstentum Liechtenstein",
+          "note": "Chronos, 2013; online edition at historisches-lexikon.li"
+        },
+        {
+          "title": "Liechtenstein: A Modern History",
+          "author": "David Beattie",
+          "note": "I.B. Tauris, 2004"
+        },
+        {
+          "title": "Krisenzeit: Liechtenstein in den Dreissigerjahren 1928–1939",
+          "author": "Peter Geiger",
+          "note": "Historischer Verein für das Fürstentum Liechtenstein, 1997"
+        }
+      ],
+      "review": {
+        "status": "draft",
+        "notes": "Drafted from the listed sources; needs a human fact-check."
+      }
+    },
+    {
+      "id": "franz-joseph-ii",
+      "kind": "monarch",
+      "rulers": [
+        "franz-joseph-ii"
+      ],
+      "tagline": "The prince who moved in and made it rich",
+      "start": {
+        "date": "1938-07-25"
+      },
+      "end": {
+        "date": "1989-11-13"
+      },
+      "contestedWith": [],
+      "relationToPredecessor": "Grand-nephew of Franz I",
+      "ageAtAccession": "31",
+      "cameToPower": "Named regent, then inherited",
+      "reignEnded": "Died in office after 51 years",
+      "previously": "Old Franz I hands power to his grand-nephew and dies that summer.",
+      "paragraphs": [
+        "Franz Joseph was the first reigning prince to live in Liechtenstein full time, in Vaduz Castle. He arrived just in time for a crisis. In March 1939 local Nazis tried a coup, hoping German troops would follow. It fizzled. Through the Second World War the principality kept its head down and stayed neutral.",
+        "In May 1945 about 500 Russian soldiers who had fought on the German side crossed the border. The Soviets wanted them back, which for many meant death. Tiny Liechtenstein said no and gave them asylum. The war cost the family dearly: Czechoslovakia seized its huge estates. In 1967 Franz Joseph sold Leonardo's “Ginevra de' Benci” to the National Gallery of Art in Washington.",
+        "After the war came the boom. Industry and finance turned a poor farming country into one of the richest on earth. Women finally won the vote in 1984. That August, Franz Joseph handed day-to-day rule to his son Hans-Adam. He died in office in November 1989, after 51 years."
+      ],
+      "claims": [
+        {
+          "text": "Liechtenstein refused to hand about 500 Russian soldiers to the Soviet Union in 1945.",
+          "status": "confirmed",
+          "note": "Well documented; a memorial at Hinterschellenberg marks where they crossed the border."
+        },
+        {
+          "text": "Ginevra de' Benci is the only painting by Leonardo in the Americas.",
+          "status": "confirmed",
+          "note": "The National Gallery of Art says so; it bought the painting from the princely collection in 1967."
+        },
+        {
+          "text": "The 1939 coup failed partly because Hitler did not want it.",
+          "status": "disputed",
+          "note": "German forces did not move to support the plotters, but how far Berlin ever backed them is debated."
+        }
+      ],
+      "hook": "The new prince is a banker who rebuilt the family fortune with his own hands. Now he has a plan for the constitution, and it gives the prince a lot more power.",
+      "images": [
+        {
+          "file": "File:Fürst Franz Josef II..jpg",
+          "url": "https://upload.wikimedia.org/wikipedia/commons/2/25/F%C3%BCrst_Franz_Josef_II..jpg",
+          "page": "https://commons.wikimedia.org/wiki/File:F%C3%BCrst_Franz_Josef_II..jpg",
+          "credit": "Presse- und Informationsamt, Vaduz",
+          "license": "Attribution",
+          "made": "Unknown date",
+          "caption": "An official press photograph of Franz Joseph II.",
+          "alt": "Official photograph of Prince Franz Joseph II, wearing glasses and a suit"
+        }
+      ],
+      "sources": [
+        {
+          "title": "Liechtenstein: A Modern History",
+          "author": "David Beattie",
+          "note": "I.B. Tauris, 2004"
+        },
+        {
+          "title": "Historisches Lexikon des Fürstentums Liechtenstein",
+          "author": "Historischer Verein für das Fürstentum Liechtenstein",
+          "note": "Chronos, 2013; online edition at historisches-lexikon.li"
+        },
+        {
+          "title": "Schlussbericht der Unabhängigen Historikerkommission Liechtenstein Zweiter Weltkrieg",
+          "author": "Unabhängige Historikerkommission Liechtenstein Zweiter Weltkrieg",
+          "note": "Chronos, 2005"
+        },
+        {
+          "title": "Ginevra de' Benci (collection record)",
+          "author": "National Gallery of Art, Washington",
+          "note": "Provenance: bought from the Prince of Liechtenstein, 1967"
+        }
+      ],
+      "review": {
+        "status": "draft",
+        "notes": "Drafted from the listed sources; needs a human fact-check."
+      }
+    },
+    {
+      "id": "hans-adam-ii",
+      "kind": "monarch",
+      "rulers": [
+        "hans-adam-ii"
+      ],
+      "tagline": "The banker prince who asked for more power and got it",
+      "start": {
+        "date": "1989-11-13"
+      },
+      "contestedWith": [],
+      "relationToPredecessor": "Son of Franz Joseph II",
+      "ageAtAccession": "44",
+      "cameToPower": "Inherited from his father",
+      "reignEnded": "Still reigning; son is regent",
+      "previously": "Franz Joseph II dies after 51 years on the throne.",
+      "paragraphs": [
+        "Hans-Adam studied business at St Gallen and then took charge of the family's money. He turned LGT, the family bank, from a small local lender into an international group, rebuilding a fortune the war had shattered. He took over day-to-day rule in 1984 and became prince in 1989. In 1990 Liechtenstein joined the United Nations.",
+        "Most modern monarchs give up power. Hans-Adam went looking for it. In 2003 he put a new constitution to the voters, letting the prince veto laws and dismiss the government. He said the family would leave the country if he lost. About 64% voted yes. In 2012 voters rejected a proposal to curb the prince's veto.",
+        "On 15 August 2004 he handed day-to-day rule to his son Alois as regent, while staying head of state. That is how things still stand: Hans-Adam is the reigning prince, and Alois does the daily work of ruling."
+      ],
+      "claims": [
+        {
+          "text": "Hans-Adam threatened to leave Liechtenstein if he lost the 2003 referendum.",
+          "status": "confirmed",
+          "note": "Widely reported at the time, including by the BBC; he spoke of moving to Vienna."
+        },
+        {
+          "text": "The 2003 referendum passed with about 64% in favour.",
+          "status": "confirmed",
+          "note": "Official result: 64.3% yes on 14 March 2003."
+        },
+        {
+          "text": "In 2012 about three-quarters of voters backed keeping the prince's veto.",
+          "status": "confirmed",
+          "note": "Official result of the July 2012 referendum, reported by the BBC."
+        }
+      ],
+      "images": [
+        {
+          "file": "File:Hans-Adam II 2025 (cropped).jpg",
+          "url": "https://upload.wikimedia.org/wikipedia/commons/7/78/Hans-Adam_II_2025_%28cropped%29.jpg",
+          "page": "https://commons.wikimedia.org/wiki/File:Hans-Adam_II_2025_(cropped).jpg",
+          "credit": "Roland Korner",
+          "license": "Attribution",
+          "made": "2025",
+          "caption": "Hans-Adam at a reception at Vaduz Castle for his 80th birthday, February 2025.",
+          "alt": "Photograph of Prince Hans-Adam II, an elderly man in a dark suit"
+        }
+      ],
+      "sources": [
+        {
+          "title": "Liechtenstein: A Modern History",
+          "author": "David Beattie",
+          "note": "I.B. Tauris, 2004"
+        },
+        {
+          "title": "The State in the Third Millennium",
+          "author": "Hans-Adam II, Prince of Liechtenstein",
+          "note": "van Eck, 2009; his own case for the 2003 constitution"
+        },
+        {
+          "title": "Historisches Lexikon des Fürstentums Liechtenstein",
+          "author": "Historischer Verein für das Fürstentum Liechtenstein",
+          "note": "Chronos, 2013; online edition at historisches-lexikon.li"
+        },
+        {
+          "title": "Liechtenstein referendum rejects curbs on royal powers",
+          "author": "Imogen Foulkes, BBC News",
+          "note": "1 July 2012"
+        }
+      ],
+      "review": {
+        "status": "draft",
+        "notes": "Drafted from the listed sources; needs a human fact-check."
+      }
+    }
+  ]
+}

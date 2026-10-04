@@ -1,0 +1,718 @@
+{
+  "id": "belgium",
+  "name": "Belgium",
+  "blurb": "Belgium's kings, from Leopold I in 1831 to King Philippe",
+  "dateConvention": "Dates are Gregorian. Belgian kings reign from the day they swear the constitutional oath. From 1944 to 1950 a regent ruled while Leopold III, still king, was kept from the throne; his card runs alongside the king's.",
+  "houses": [
+    {
+      "id": "saxe-coburg",
+      "name": "Saxe-Coburg and Gotha",
+      "color": "#2f5d4a"
+    },
+    {
+      "id": "belgium",
+      "name": "Belgium",
+      "color": "#a23b2a"
+    }
+  ],
+  "rulers": [
+    {
+      "id": "leopold-i",
+      "name": "Leopold I",
+      "house": "saxe-coburg",
+      "born": {
+        "date": "1790-12-16",
+        "note": "Ehrenburg Palace, Coburg"
+      },
+      "died": {
+        "date": "1865-12-10",
+        "note": "Laeken, Brussels"
+      },
+      "causeOfDeath": "Died of old age and illness"
+    },
+    {
+      "id": "leopold-ii",
+      "name": "Leopold II",
+      "house": "saxe-coburg",
+      "born": {
+        "date": "1835-04-09",
+        "note": "Brussels"
+      },
+      "died": {
+        "date": "1909-12-17",
+        "note": "Laeken, Brussels"
+      },
+      "causeOfDeath": "Illness, days after an operation"
+    },
+    {
+      "id": "albert-i",
+      "name": "Albert I",
+      "epithet": "the Knight King",
+      "house": "belgium",
+      "born": {
+        "date": "1875-04-08",
+        "note": "Brussels"
+      },
+      "died": {
+        "date": "1934-02-17",
+        "note": "Marche-les-Dames, near Namur"
+      },
+      "causeOfDeath": "Fall while rock climbing"
+    },
+    {
+      "id": "leopold-iii",
+      "name": "Leopold III",
+      "house": "belgium",
+      "born": {
+        "date": "1901-11-03",
+        "note": "Brussels"
+      },
+      "died": {
+        "date": "1983-09-25",
+        "note": "Woluwe-Saint-Lambert, Brussels"
+      },
+      "causeOfDeath": "Natural causes, aged 81"
+    },
+    {
+      "id": "prince-charles",
+      "name": "Prince Charles, Count of Flanders",
+      "house": "belgium",
+      "born": {
+        "date": "1903-10-10",
+        "note": "Brussels"
+      },
+      "died": {
+        "date": "1983-06-01",
+        "note": "Raversijde, Ostend"
+      },
+      "causeOfDeath": "Natural causes, aged 79"
+    },
+    {
+      "id": "baudouin",
+      "name": "Baudouin",
+      "house": "belgium",
+      "born": {
+        "date": "1930-09-07",
+        "note": "Stuyvenberg Castle, Brussels"
+      },
+      "died": {
+        "date": "1993-07-31",
+        "note": "Villa Astrida, Motril, Spain"
+      },
+      "causeOfDeath": "Heart failure"
+    },
+    {
+      "id": "albert-ii",
+      "name": "Albert II",
+      "house": "belgium",
+      "born": {
+        "date": "1934-06-06",
+        "note": "Stuyvenberg Castle, Brussels"
+      }
+    },
+    {
+      "id": "philippe",
+      "name": "Philippe",
+      "house": "belgium",
+      "born": {
+        "date": "1960-04-15",
+        "note": "Brussels"
+      }
+    }
+  ],
+  "reigns": [
+    {
+      "id": "leopold-i",
+      "kind": "monarch",
+      "rulers": [
+        "leopold-i"
+      ],
+      "tagline": "A spare German prince gets a brand-new country",
+      "start": {
+        "date": "1831-07-21"
+      },
+      "end": {
+        "date": "1865-12-10"
+      },
+      "contestedWith": [],
+      "relationToPredecessor": "First King of the Belgians",
+      "ageAtAccession": "30",
+      "cameToPower": "Elected by the National Congress",
+      "reignEnded": "Died at Laeken",
+      "previously": "An opera night in 1830 sparks a revolt, and Belgium needs a king.",
+      "paragraphs": [
+        "It started at the opera. On 25 August 1830 a Brussels audience poured out of \"La Muette de Portici\", a show about a popular uprising, and rioted against the Dutch King William I. Within weeks the southern provinces had broken away. The new state wanted a king of its own, and the hunt was awkward. Its first choice, a son of the French king, was blocked because Britain objected.",
+        "Enter Leopold of Saxe-Coburg, a German prince living in England. He had married Princess Charlotte, heir to the British throne, but she died in childbirth in 1817, so he never became a queen's husband. He had also turned down the crown of Greece. He swore the oath on 21 July 1831, still Belgium's National Day. In August the Dutch invaded, and French troops helped drive them out.",
+        "In 1832 he married Louise of Orléans, daughter of the French king. In 1835 Belgium opened continental Europe's first public railway, from Brussels to Mechelen. The Dutch finally recognised Belgium in the 1839 Treaty of London. Leopold was also Queen Victoria's uncle and adviser, and helped match her with his nephew Albert. He died in December 1865, and his elder son became Leopold II."
+      ],
+      "claims": [
+        {
+          "text": "An opera started the Belgian Revolution.",
+          "status": "confirmed",
+          "note": "The riot of 25 August 1830 did break out after a performance of Auber's opera in Brussels. Anger at Dutch rule had been building for years; the opera was only the spark."
+        },
+        {
+          "text": "Leopold was the matchmaker behind Victoria and Albert.",
+          "status": "confirmed",
+          "note": "Their letters show he promoted the match for years. Victoria made up her own mind when Albert visited in 1839."
+        },
+        {
+          "text": "Leopold turned down the throne of Greece in 1830.",
+          "status": "confirmed",
+          "note": "He accepted at first, then withdrew when he could not get the borders and guarantees he wanted."
+        }
+      ],
+      "hook": "His son Leopold II inherits a small, rich, neutral kingdom and thinks it is far too small. He wants a colony, and he means to own it himself.",
+      "images": [
+        {
+          "file": "File:NICAISE Leopold ANV.jpg",
+          "url": "https://upload.wikimedia.org/wikipedia/commons/9/9e/NICAISE_Leopold_ANV.jpg",
+          "page": "https://commons.wikimedia.org/wiki/File:NICAISE_Leopold_ANV.jpg",
+          "credit": "Nicaise de Keyser",
+          "license": "Public domain",
+          "made": "1856",
+          "caption": "Painted in 1856, near the end of his reign.",
+          "alt": "Full-length painted portrait of King Leopold I of Belgium"
+        }
+      ],
+      "sources": [
+        {
+          "title": "Defiant Dynasty: The Coburgs of Belgium",
+          "author": "Theo Aronson",
+          "note": "1968"
+        },
+        {
+          "title": "The Low Countries 1780-1940 (Oxford History of Modern Europe)",
+          "author": "E. H. Kossmann",
+          "note": "Clarendon Press, 1978"
+        },
+        {
+          "title": "The Letters of Queen Victoria, 1837-1861",
+          "author": "A. C. Benson and Viscount Esher (eds)",
+          "note": "John Murray, 1907"
+        }
+      ],
+      "review": {
+        "status": "draft",
+        "notes": "Drafted from the listed sources; needs a human fact-check."
+      }
+    },
+    {
+      "id": "leopold-ii",
+      "kind": "monarch",
+      "rulers": [
+        "leopold-ii"
+      ],
+      "tagline": "The king who ran the Congo as his private property",
+      "start": {
+        "date": "1865-12-17"
+      },
+      "end": {
+        "date": "1909-12-17"
+      },
+      "contestedWith": [],
+      "relationToPredecessor": "Son of Leopold I",
+      "ageAtAccession": "30",
+      "cameToPower": "Succeeded his father",
+      "reignEnded": "Died at Laeken",
+      "previously": "Leopold I dies in December 1865 after 34 years as king.",
+      "paragraphs": [
+        "Leopold II thought Belgium was too small and wanted an empire. Parliament wasn't keen, so he went after one alone. He hired the explorer Henry Morton Stanley to set up posts along the Congo River, and talked about science and ending the slave trade. Around the Berlin Conference of 1884-85, the powers accepted the Congo Free State as his own personal property, a colony belonging to him alone. He never once went there.",
+        "When the world wanted rubber for tyres, the Congo was run to squeeze it out. Congolese villages got quotas. Soldiers of the Force Publique held women and children hostage until the men brought in enough, flogged people with hippo-hide whips, burned villages and killed those who resisted. Hands were cut off, from the dead and the living. Famine and disease followed. The loss of life was enormous.",
+        "Missionaries, the shipping clerk E. D. Morel, the British consul Roger Casement, whose report came out in 1904, and Mark Twain's \"King Leopold's Soliloquy\" made the horror impossible to ignore. In 1908 Belgium took the Congo off him. Congo money helped pay for his grand projects in Brussels, like the Cinquantenaire arch and the Royal Greenhouses of Laeken. His only son had died in 1869, so the crown passed to his nephew Albert."
+      ],
+      "claims": [
+        {
+          "text": "About 10 million people died in the Congo under Leopold's rule, roughly half the population.",
+          "status": "disputed",
+          "note": "Adam Hochschild's estimate in King Leopold's Ghost (1998). There was no census, so others say the true figure can't be known; published estimates run from about 1 million to 15 million."
+        },
+        {
+          "text": "Soldiers cut off hands to prove they had not wasted bullets.",
+          "status": "confirmed",
+          "note": "Recorded by missionaries, in Casement's 1904 report and in photographs taken by the missionary Alice Seeley Harris."
+        },
+        {
+          "text": "Days before he died, Leopold married his young mistress Blanche Delacroix.",
+          "status": "confirmed",
+          "note": "It was a church ceremony only, with no civil wedding, so it had no legal force in Belgium."
+        }
+      ],
+      "hook": "Leopold II dies hated, even at home. The crown goes to his quiet nephew Albert. Within five years the German army will be at the border, demanding to march through.",
+      "images": [
+        {
+          "file": "File:Leopold II, King of the Belgians by Alexander Bassano (1889).jpg",
+          "url": "https://upload.wikimedia.org/wikipedia/commons/c/cf/Leopold_II%2C_King_of_the_Belgians_by_Alexander_Bassano_%281889%29.jpg",
+          "page": "https://commons.wikimedia.org/wiki/File:Leopold_II,_King_of_the_Belgians_by_Alexander_Bassano_(1889).jpg",
+          "credit": "Alexander Bassano",
+          "license": "Public domain",
+          "made": "1889",
+          "caption": "Photographed in London in 1889, while the Congo was his private state.",
+          "alt": "Studio portrait photograph of Leopold II with a long white beard, in uniform"
+        }
+      ],
+      "sources": [
+        {
+          "title": "King Leopold's Ghost",
+          "author": "Adam Hochschild",
+          "note": "Houghton Mifflin, 1998"
+        },
+        {
+          "title": "The King Incorporated: Leopold the Second and the Congo",
+          "author": "Neal Ascherson",
+          "note": "1963"
+        },
+        {
+          "title": "Report on the administration of the Congo Free State (the Casement Report)",
+          "author": "Roger Casement",
+          "note": "British parliamentary paper, 1904"
+        },
+        {
+          "title": "King Leopold's Soliloquy",
+          "author": "Mark Twain",
+          "note": "1905"
+        }
+      ],
+      "review": {
+        "status": "draft",
+        "notes": "Drafted from the listed sources; needs a human fact-check."
+      }
+    },
+    {
+      "id": "albert-i",
+      "kind": "monarch",
+      "rulers": [
+        "albert-i"
+      ],
+      "tagline": "The Knight King who flooded his own land to save it",
+      "start": {
+        "date": "1909-12-23"
+      },
+      "end": {
+        "date": "1934-02-17"
+      },
+      "contestedWith": [],
+      "relationToPredecessor": "Nephew of Leopold II",
+      "ageAtAccession": "34",
+      "cameToPower": "Succeeded his uncle",
+      "reignEnded": "Fell while rock climbing",
+      "previously": "Leopold II dies in December 1909, unloved, with no son to follow.",
+      "paragraphs": [
+        "On 2 August 1914 Germany demanded the right to march through neutral Belgium on its way to France. Albert said no. The Germans came anyway. In Leuven they burned the university library and its centuries-old books, and in towns across the country civilians were shot. Albert led his small army himself and fell back to a last strip of Belgian land behind the river Yser.",
+        "In October 1914 the sluices at Nieuwpoort were opened and the sea poured over the fields. The flood stopped the Germans in their tracks. Albert stayed at the front for the whole war, while Queen Elisabeth worked with the wounded. It made him the Knight King, a hero across the Allied world. In peacetime every man got the vote, and in 1920 he dropped the German name Saxe-Coburg and Gotha. The royal house became simply \"of Belgium\".",
+        "Albert loved climbing. On 17 February 1934 he went out alone on the rocks at Marche-les-Dames, near Namur, and was found dead at the foot of a cliff that night. He was 58. His son Leopold, 32, was now king."
+      ],
+      "claims": [
+        {
+          "text": "Albert was murdered and his climbing fall was staged.",
+          "status": "disputed",
+          "note": "Rumours spread at once, but the official finding was an accident. A 2016 DNA test on blood-stained leaves kept from the site matched Albert's relatives, backing the story that he died there."
+        },
+        {
+          "text": "Flooding the Yser plain stopped the German advance.",
+          "status": "confirmed",
+          "note": "After the Nieuwpoort sluices were opened in late October 1914, that part of the front barely moved for four years."
+        },
+        {
+          "text": "Leuven's library was rebuilt with American money, then burned again in 1940.",
+          "status": "confirmed",
+          "note": "The new library opened in 1928, largely paid for by American donors, and was gutted by fire during the German invasion of May 1940."
+        }
+      ],
+      "hook": "Leopold III takes the throne with his much-loved Swedish wife, Astrid, at his side. Within eighteen months she'll be dead, and he'll be the one who was driving.",
+      "images": [
+        {
+          "file": "File:Portrait of Albert I of Belgium (cropped).jpg",
+          "url": "https://upload.wikimedia.org/wikipedia/commons/e/e8/Portrait_of_Albert_I_of_Belgium_%28cropped%29.jpg",
+          "page": "https://commons.wikimedia.org/wiki/File:Portrait_of_Albert_I_of_Belgium_(cropped).jpg",
+          "credit": "Richard Speaight",
+          "license": "Public domain",
+          "made": "1917",
+          "caption": "Taken in 1917, during the First World War.",
+          "alt": "Cropped black-and-white portrait photograph of King Albert I of Belgium"
+        }
+      ],
+      "sources": [
+        {
+          "title": "Defiant Dynasty: The Coburgs of Belgium",
+          "author": "Theo Aronson",
+          "note": "1968"
+        },
+        {
+          "title": "The Rape of Belgium: The Untold Story of World War I",
+          "author": "Larry Zuckerman",
+          "note": "New York University Press, 2004"
+        },
+        {
+          "title": "De Groote Oorlog: Het koninkrijk België tijdens de Eerste Wereldoorlog",
+          "author": "Sophie De Schaepdrijver",
+          "note": "1997"
+        }
+      ],
+      "review": {
+        "status": "draft",
+        "notes": "Drafted from the listed sources; needs a human fact-check."
+      }
+    },
+    {
+      "id": "leopold-iii",
+      "kind": "monarch",
+      "rulers": [
+        "leopold-iii"
+      ],
+      "tagline": "The king his own country wouldn't take back",
+      "start": {
+        "date": "1934-02-23"
+      },
+      "end": {
+        "date": "1951-07-16"
+      },
+      "contestedWith": [
+        "regency"
+      ],
+      "relationToPredecessor": "Son of Albert I",
+      "ageAtAccession": "32",
+      "cameToPower": "Succeeded his father",
+      "reignEnded": "Abdicated for his son",
+      "previously": "Albert I is found dead below a cliff at Marche-les-Dames in 1934.",
+      "paragraphs": [
+        "Leopold was young and glamorous, and his Swedish wife Astrid was adored. On 29 August 1935, at Küssnacht in Switzerland, their car left the road with Leopold at the wheel, and Astrid was killed. He kept Belgium strictly neutral as war loomed. It did no good: on 10 May 1940 Germany invaded.",
+        "On 28 May, against his ministers' advice, he surrendered the army. The government ended up in London; Leopold stayed as a prisoner in his palace at Laeken. In November 1940 he met Hitler at Berchtesgaden, and in 1941 he secretly remarried, to Lilian Baels. Many Belgians felt betrayed. In June 1944 the Germans took him off to Germany.",
+        "The Americans freed him in Austria in 1945, but he wasn't allowed home. This was the Royal Question. A 1950 referendum gave him about 58% yes, yet Wallonia and Brussels voted no. He came back on 22 July 1950 to strikes and riots, and at Grâce-Berleur gendarmes shot protesters dead. On 11 August he handed his powers to his son Baudouin, and he abdicated on 16 July 1951."
+      ],
+      "claims": [
+        {
+          "text": "Leopold betrayed the Allies by surrendering in 1940.",
+          "status": "disputed",
+          "note": "The French premier Paul Reynaud blamed him publicly at the time. A Belgian commission cleared him of treason in 1946, and many historians say his army was beaten anyway."
+        },
+        {
+          "text": "Leopold was driving the car that killed Queen Astrid.",
+          "status": "confirmed",
+          "note": "Reported at the time: the car left the road and hit a tree. Leopold was only slightly hurt."
+        },
+        {
+          "text": "The 1950 referendum split the country along language lines.",
+          "status": "confirmed",
+          "note": "Flanders voted strongly yes, about 70%, while majorities in Wallonia and Brussels voted no."
+        }
+      ],
+      "hook": "Rewind to September 1944. Belgium is free, but its king is a prisoner in Germany. Someone has to mind the throne, and Parliament turns to his younger brother, Charles.",
+      "images": [
+        {
+          "file": "File:Leopold III (1934).jpg",
+          "url": "https://upload.wikimedia.org/wikipedia/commons/b/bc/Leopold_III_%281934%29.jpg",
+          "page": "https://commons.wikimedia.org/wiki/File:Leopold_III_(1934).jpg",
+          "credit": "Willem van de Poll",
+          "license": "CC BY-SA 3.0",
+          "made": "1934",
+          "caption": "Taken in 1934, the year he became king.",
+          "alt": "Black-and-white photograph of King Leopold III at his desk in the palace at Laeken"
+        }
+      ],
+      "sources": [
+        {
+          "title": "The Sorrows of Belgium: Liberation and Political Reconstruction, 1944-1947",
+          "author": "Martin Conway",
+          "note": "Oxford University Press, 2012"
+        },
+        {
+          "title": "Outrageous Fortune: The Tragedy of Leopold III of the Belgians",
+          "author": "Roger Keyes",
+          "note": "Secker & Warburg, 1984"
+        },
+        {
+          "title": "Defiant Dynasty: The Coburgs of Belgium",
+          "author": "Theo Aronson",
+          "note": "1968"
+        }
+      ],
+      "review": {
+        "status": "draft",
+        "notes": "Drafted from the listed sources; needs a human fact-check."
+      }
+    },
+    {
+      "id": "regency",
+      "kind": "leader",
+      "rulers": [
+        "prince-charles"
+      ],
+      "title": "The Regent",
+      "tagline": "The king's younger brother who kept the throne warm",
+      "start": {
+        "date": "1944-09-20"
+      },
+      "end": {
+        "date": "1950-07-20"
+      },
+      "contestedWith": [
+        "leopold-iii"
+      ],
+      "relationToPredecessor": "Younger brother of Leopold III",
+      "ageAtAccession": "40",
+      "cameToPower": "Named regent by Parliament",
+      "reignEnded": "Stepped aside for his brother",
+      "previously": "1944: Belgium is liberated, but King Leopold is a prisoner in Germany.",
+      "paragraphs": [
+        "Charles was Albert I's second son, a private, restless man with no taste for ceremony. Brussels was freed in early September 1944. The king was in German hands, so the constitution's rule for a king \"unable to reign\" kicked in. On 20 September Parliament named Charles regent.",
+        "He turned out to be good at it. The government came home from London, and with its ports and factories largely intact, Belgium recovered faster than most of Europe. On his watch the country helped found the United Nations, joined Benelux and signed up to NATO. All the while, the question of whether his brother should ever come back hung over everything.",
+        "When Leopold returned in July 1950, Charles stepped aside. He moved to Raversijde, near Ostend, and spent his later years painting, signing his work \"Karel van Vlaanderen\", Dutch for Charles of Flanders."
+      ],
+      "claims": [
+        {
+          "text": "The two brothers were on bad terms.",
+          "status": "disputed",
+          "note": "Biographers describe a cold, distant relationship that worsened over the regency, but much of the detail comes from family gossip."
+        },
+        {
+          "text": "Parliament, not the king, made Charles regent.",
+          "status": "confirmed",
+          "note": "The two chambers voted him regent on 20 September 1944 under the constitution's rule for a king unable to reign."
+        }
+      ],
+      "hook": "Leopold's return ends in riots and gunfire. Within a year the crown passes to his son Baudouin, 20, and the Congo is about to demand its freedom.",
+      "images": [
+        {
+          "file": "File:Karel van België Charles de Belgique Karl von Belgien.jpg",
+          "url": "https://upload.wikimedia.org/wikipedia/commons/9/93/Karel_van_Belgi%C3%AB_Charles_de_Belgique_Karl_von_Belgien.jpg",
+          "page": "https://commons.wikimedia.org/wiki/File:Karel_van_Belgi%C3%AB_Charles_de_Belgique_Karl_von_Belgien.jpg",
+          "credit": "Unknown Belgian photographer",
+          "license": "Public domain",
+          "made": "c. 1944-45",
+          "caption": "From a postcard issued by the Belgian government, probably in 1944 or 1945.",
+          "alt": "Black-and-white portrait photograph of Prince Charles in a colonel's uniform"
+        }
+      ],
+      "sources": [
+        {
+          "title": "The Sorrows of Belgium: Liberation and Political Reconstruction, 1944-1947",
+          "author": "Martin Conway",
+          "note": "Oxford University Press, 2012"
+        },
+        {
+          "title": "L'action du Roi en Belgique depuis 1831",
+          "author": "Jean Stengers",
+          "note": "Constitutional role of the king, including regencies and the 1990 'inability to reign'"
+        }
+      ],
+      "review": {
+        "status": "draft",
+        "notes": "Drafted from the listed sources; needs a human fact-check."
+      }
+    },
+    {
+      "id": "baudouin",
+      "kind": "monarch",
+      "rulers": [
+        "baudouin"
+      ],
+      "tagline": "The serious young king who stepped aside for 36 hours",
+      "start": {
+        "date": "1951-07-17"
+      },
+      "end": {
+        "date": "1993-07-31"
+      },
+      "contestedWith": [],
+      "relationToPredecessor": "Son of Leopold III",
+      "ageAtAccession": "20",
+      "cameToPower": "Father abdicated",
+      "reignEnded": "Heart failure in Spain",
+      "previously": "The Royal Question ends: Leopold III abdicates for his son in 1951.",
+      "paragraphs": [
+        "Baudouin was 20, shy, serious and deeply Catholic, and he had lost his mother at four. In 1960 he married the Spanish aristocrat Fabiola de Mora y Aragón. They were devoted to each other but had no children.",
+        "On 30 June 1960 the Congo became independent. In Léopoldville, Baudouin's speech praised the \"genius\" of Leopold II. Prime Minister Patrice Lumumba answered with a fierce speech about the beatings, insults and suffering of colonial rule. Within months the country was in chaos, and in January 1961 Lumumba was murdered in Katanga. A Belgian parliamentary inquiry found in 2001 that Belgium bore \"moral responsibility\".",
+        "At home Belgium slowly became a federal state. In April 1990 Baudouin refused, on conscience, to sign a law allowing abortion. The government declared him \"unable to reign\" for about 36 hours, passed the law, then restored him. He died of heart failure at his villa in Motril, Spain, on 31 July 1993."
+      ],
+      "claims": [
+        {
+          "text": "Belgium bore \"moral responsibility\" for Lumumba's murder.",
+          "status": "confirmed",
+          "note": "The finding of a Belgian parliamentary inquiry in 2001. The government apologised in 2002."
+        },
+        {
+          "text": "On the eve of independence, a Congolese man snatched the king's sword.",
+          "status": "confirmed",
+          "note": "Ambroise Boimbo grabbed it during a parade in Léopoldville on 29 June 1960. Robert Lebeck's photo went round the world."
+        },
+        {
+          "text": "Baudouin was off the throne for about a day and a half in 1990.",
+          "status": "confirmed",
+          "note": "The government used the constitution's rule for a king \"unable to reign\" on 4 April 1990 and restored him once the law had passed."
+        }
+      ],
+      "hook": "Baudouin dies with no children. Many expect his nephew Philippe to take over. Instead the crown goes to Baudouin's younger brother Albert, aged 59.",
+      "images": [
+        {
+          "file": "File:King Baudouin of Belgium.jpg",
+          "url": "https://upload.wikimedia.org/wikipedia/commons/6/63/King_Baudouin_of_Belgium.jpg",
+          "page": "https://commons.wikimedia.org/wiki/File:King_Baudouin_of_Belgium.jpg",
+          "credit": "Anefo",
+          "license": "CC0",
+          "made": "1960",
+          "caption": "Photographed in 1960, the year of Congo's independence and his wedding.",
+          "alt": "Black-and-white photograph of King Baudouin of Belgium wearing glasses"
+        }
+      ],
+      "sources": [
+        {
+          "title": "The Assassination of Lumumba",
+          "author": "Ludo De Witte",
+          "note": "Verso, 2001"
+        },
+        {
+          "title": "Report of the parliamentary inquiry into the murder of Patrice Lumumba",
+          "author": "Belgian Chamber of Representatives",
+          "note": "2001"
+        },
+        {
+          "title": "L'action du Roi en Belgique depuis 1831",
+          "author": "Jean Stengers",
+          "note": "Constitutional role of the king, including regencies and the 1990 'inability to reign'"
+        },
+        {
+          "title": "The Belgian Monarchy (official website)",
+          "author": "Royal Palace of Belgium",
+          "note": "monarchie.be"
+        }
+      ],
+      "review": {
+        "status": "draft",
+        "notes": "Drafted from the listed sources; needs a human fact-check."
+      }
+    },
+    {
+      "id": "albert-ii",
+      "kind": "monarch",
+      "rulers": [
+        "albert-ii"
+      ],
+      "tagline": "The king nobody expected, crowned at 59",
+      "start": {
+        "date": "1993-08-09"
+      },
+      "end": {
+        "date": "2013-07-21"
+      },
+      "contestedWith": [],
+      "relationToPredecessor": "Younger brother of Baudouin",
+      "ageAtAccession": "59",
+      "cameToPower": "Succeeded his brother",
+      "reignEnded": "Abdicated on National Day",
+      "previously": "Baudouin dies in Spain in July 1993, leaving no children.",
+      "paragraphs": [
+        "Many people thought Baudouin's nephew Philippe would be the next king. Instead Philippe's father, Albert, took the oath on 9 August 1993, aged 59. He had married the Italian aristocrat Paola Ruffo di Calabria in 1959. His reign saw Belgium settle into its new life as a federal state.",
+        "After elections in June 2010 the parties could not agree on a government. Belgium went about a year and a half without a full one, until December 2011, while the king held round after round of talks. Meanwhile the artist Delphine Boël was in court trying to prove he was her father. A DNA test settled it in 2020, and that October a court made her a princess.",
+        "On 3 July 2013 Albert announced that his age and health meant it was time to go. On National Day, 21 July 2013, he abdicated, the second Belgian king to do so after his father, and his son Philippe took the oath the same day."
+      ],
+      "claims": [
+        {
+          "text": "Albert II is Delphine Boël's father.",
+          "status": "confirmed",
+          "note": "A court-ordered DNA test confirmed it in January 2020 and Albert accepted the result. A Brussels appeal court gave her the title Princess of Belgium on 1 October 2020."
+        },
+        {
+          "text": "Belgium spent 541 days without a full government in 2010-11.",
+          "status": "confirmed",
+          "note": "Counted from the June 2010 election to the swearing-in of Elio Di Rupo's government in December 2011."
+        }
+      ],
+      "hook": "Philippe has waited twenty years longer than many expected. Now he's king, and Belgium's colonial past is about to come knocking.",
+      "images": [
+        {
+          "file": "File:King Albert II of Belgium in 2001 (cropped).jpg",
+          "url": "https://upload.wikimedia.org/wikipedia/commons/6/61/King_Albert_II_of_Belgium_in_2001_%28cropped%29.jpg",
+          "page": "https://commons.wikimedia.org/wiki/File:King_Albert_II_of_Belgium_in_2001_(cropped).jpg",
+          "credit": "Unknown author",
+          "license": "CC BY 4.0",
+          "made": "2001",
+          "caption": "Taken at a conference in 2001, midway through his reign.",
+          "alt": "Cropped colour photograph of King Albert II of Belgium at a meeting in 2001"
+        }
+      ],
+      "sources": [
+        {
+          "title": "The Belgian Monarchy (official website)",
+          "author": "Royal Palace of Belgium",
+          "note": "monarchie.be"
+        },
+        {
+          "title": "L'action du Roi en Belgique depuis 1831",
+          "author": "Jean Stengers",
+          "note": "Constitutional role of the king, including regencies and the 1990 'inability to reign'"
+        }
+      ],
+      "review": {
+        "status": "draft",
+        "notes": "Drafted from the listed sources; needs a human fact-check."
+      }
+    },
+    {
+      "id": "philippe",
+      "kind": "monarch",
+      "rulers": [
+        "philippe"
+      ],
+      "tagline": "The king who sent the Congo his \"deepest regrets\"",
+      "start": {
+        "date": "2013-07-21"
+      },
+      "contestedWith": [],
+      "relationToPredecessor": "Son of Albert II",
+      "ageAtAccession": "53",
+      "cameToPower": "Father abdicated",
+      "previously": "Albert II abdicates on National Day, 21 July 2013.",
+      "paragraphs": [
+        "Philippe was trained for the job for decades. He went through the Royal Military Academy and studied at Oxford and at Stanford in California. On 21 July 2013 he took the oath in all three of Belgium's official languages: Dutch, French and German. In 1999 he had married Mathilde d'Udekem d'Acoz, and they have four children.",
+        "On 30 June 2020, the 60th anniversary of Congolese independence, he wrote to the DR Congo's president, Félix Tshisekedi, expressing his \"deepest regrets\" for the wounds of the colonial past, including the violence of Leopold II's Free State. In June 2022 he visited the DR Congo himself and repeated those regrets in Kinshasa.",
+        "His eldest child, Princess Elisabeth, born in 2001, is heir. A 1991 change to the rules means the eldest child inherits whatever their sex, so she is set to become Belgium's first reigning queen."
+      ],
+      "claims": [
+        {
+          "text": "Philippe expressed \"deepest regrets\" for Belgium's colonial past.",
+          "status": "confirmed",
+          "note": "In a letter to President Tshisekedi dated 30 June 2020, made public by the palace. He stopped short of a formal apology."
+        },
+        {
+          "text": "He took his oath in Dutch, French and German.",
+          "status": "confirmed",
+          "note": "Sworn before Parliament on 21 July 2013 and broadcast live."
+        },
+        {
+          "text": "Princess Elisabeth is set to be Belgium's first reigning queen.",
+          "status": "confirmed",
+          "note": "Equal succession for sons and daughters was brought in in 1991, and she is the eldest child."
+        }
+      ],
+      "images": [
+        {
+          "file": "File:King Philippe of Belgium (Belgian National Day, 2018).jpg",
+          "url": "https://upload.wikimedia.org/wikipedia/commons/1/1c/King_Philippe_of_Belgium_%28Belgian_National_Day%2C_2018%29.jpg",
+          "page": "https://commons.wikimedia.org/wiki/File:King_Philippe_of_Belgium_(Belgian_National_Day,_2018).jpg",
+          "credit": "Paul Hermans",
+          "license": "CC BY 4.0",
+          "made": "2018",
+          "caption": "Taken at the National Day parade in Brussels on 21 July 2018.",
+          "alt": "Photograph of King Philippe of Belgium at the national parade on 21 July 2018"
+        }
+      ],
+      "sources": [
+        {
+          "title": "The Belgian Monarchy (official website)",
+          "author": "Royal Palace of Belgium",
+          "note": "monarchie.be"
+        },
+        {
+          "title": "Letter from King Philippe to President Félix Tshisekedi",
+          "author": "Royal Palace of Belgium",
+          "note": "30 June 2020"
+        }
+      ],
+      "review": {
+        "status": "draft",
+        "notes": "Drafted from the listed sources; needs a human fact-check."
+      }
+    }
+  ]
+}
