@@ -1,0 +1,647 @@
+{
+  "id": "saudi",
+  "name": "Saudi Arabia",
+  "blurb": "Ibn Saud and the sons who followed him to the throne",
+  "dateConvention": "Dates are Western (Gregorian); Saudi Arabia long used the Islamic (Hijri) lunar calendar, and its dates are given as their standard Western equivalents. The deck starts with Ibn Saud's capture of Riyadh in 1902; the kingdom itself was proclaimed in 1932.",
+  "houses": [
+    {
+      "id": "saud",
+      "name": "House of Saud",
+      "color": "#1f6b45"
+    }
+  ],
+  "rulers": [
+    {
+      "id": "abdulaziz",
+      "name": "Abdulaziz Ibn Saud",
+      "house": "saud",
+      "born": {
+        "date": "1876",
+        "circa": true,
+        "note": "Riyadh; often given as 15 January 1876, but sources differ (1875 or 1876)"
+      },
+      "died": {
+        "date": "1953-11-09",
+        "note": "Taif"
+      },
+      "causeOfDeath": "Heart attack in his sleep"
+    },
+    {
+      "id": "saud",
+      "name": "Saud",
+      "house": "saud",
+      "born": {
+        "date": "1902-01-15",
+        "note": "Kuwait City"
+      },
+      "died": {
+        "date": "1969-02-23",
+        "note": "Athens, Greece"
+      },
+      "causeOfDeath": "Heart attack, in exile"
+    },
+    {
+      "id": "faisal",
+      "name": "Faisal",
+      "house": "saud",
+      "born": {
+        "date": "1906-04-14",
+        "note": "Riyadh"
+      },
+      "died": {
+        "date": "1975-03-25",
+        "note": "Riyadh"
+      },
+      "causeOfDeath": "Shot by his nephew"
+    },
+    {
+      "id": "khalid",
+      "name": "Khalid",
+      "house": "saud",
+      "born": {
+        "date": "1913-02-13",
+        "note": "Riyadh"
+      },
+      "died": {
+        "date": "1982-06-13",
+        "note": "Taif"
+      },
+      "causeOfDeath": "Heart attack"
+    },
+    {
+      "id": "fahd",
+      "name": "Fahd",
+      "house": "saud",
+      "born": {
+        "date": "1921",
+        "circa": true,
+        "note": "Riyadh; sources give 1920, 1921 or 1923"
+      },
+      "died": {
+        "date": "2005-08-01",
+        "note": "Riyadh"
+      },
+      "causeOfDeath": "Illness, after years of poor health"
+    },
+    {
+      "id": "abdullah",
+      "name": "Abdullah",
+      "house": "saud",
+      "born": {
+        "date": "1924-08-01",
+        "note": "Riyadh"
+      },
+      "died": {
+        "date": "2015-01-23",
+        "note": "Riyadh"
+      },
+      "causeOfDeath": "Pneumonia"
+    },
+    {
+      "id": "salman",
+      "name": "Salman",
+      "house": "saud",
+      "born": {
+        "date": "1935-12-31",
+        "note": "Riyadh"
+      }
+    }
+  ],
+  "reigns": [
+    {
+      "id": "abdulaziz",
+      "kind": "monarch",
+      "rulers": [
+        "abdulaziz"
+      ],
+      "tagline": "Forty men, a night raid, and a kingdom built from it",
+      "start": {
+        "date": "1902-01"
+      },
+      "end": {
+        "date": "1953-11-09"
+      },
+      "contestedWith": [],
+      "relationToPredecessor": "Son of the exiled emir Abdul Rahman",
+      "ageAtAccession": "About 25–26",
+      "cameToPower": "Seized Riyadh in a night raid",
+      "reignEnded": "Died in his sleep in Taif",
+      "previously": "Two Saudi states have risen and fallen. The family waits in Kuwait.",
+      "paragraphs": [
+        "In English he is usually just Ibn Saud. Born in Riyadh around 1876, he grew up in exile in Kuwait after the Rashidis of Ha'il took the city. In January 1902, in his mid-twenties, he slipped back with a few dozen men. They rushed the Masmak fort and killed the Rashidi governor. Riyadh was his again, and he never let it go. He would rule for more than 50 years.",
+        "Then he kept going. His shock troops were the Ikhwan, Bedouin warriors settled in religious farming colonies. He took al-Hasa on the Gulf coast in 1913 and the Rashidi lands around Ha'il in 1921. In 1924 and 1925 he drove Sharif Hussein's Hashemite family out of the Hejaz, with Mecca and Medina. When the Ikhwan turned on him, furious that he had reined in their raids, he crushed them at Sabilla in 1929.",
+        "He was proclaimed king of the Hejaz on 8 January 1926. On 23 September 1932, now Saudi National Day, he merged his lands into the Kingdom of Saudi Arabia. In March 1938 American drillers struck oil at Dammam No. 7. In February 1945 he met Franklin Roosevelt aboard the USS Quincy. He married dozens of times and fathered dozens of sons. He died in Taif on 9 November 1953."
+      ],
+      "claims": [
+        {
+          "text": "He retook Riyadh with about 40 men in a single night raid.",
+          "status": "disputed",
+          "note": "A founding story told many ways: the number of men, the timing and how the governor died all vary between accounts."
+        },
+        {
+          "text": "He met President Franklin Roosevelt aboard the USS Quincy on 14 February 1945.",
+          "status": "confirmed",
+          "note": "Recorded by the US Navy, which photographed the meeting in Egypt's Great Bitter Lake."
+        },
+        {
+          "text": "He had around 45 sons.",
+          "status": "disputed",
+          "note": "Counts of his wives and children vary between sources; 45 sons is the figure most often given."
+        }
+      ],
+      "hook": "Ibn Saud is dead. His eldest surviving son Saud takes over a country suddenly awash with oil money, and he means to spend it.",
+      "images": [
+        {
+          "file": "File:Franklin D. Roosevelt with King Ibn Saud aboard USS Quincy (CA-71), 14 February 1945 (USA-C-545).jpg",
+          "url": "https://upload.wikimedia.org/wikipedia/commons/c/ca/Franklin_D._Roosevelt_with_King_Ibn_Saud_aboard_USS_Quincy_%28CA-71%29%2C_14_February_1945_%28USA-C-545%29.jpg",
+          "page": "https://commons.wikimedia.org/wiki/File:Franklin_D._Roosevelt_with_King_Ibn_Saud_aboard_USS_Quincy_(CA-71),_14_February_1945_(USA-C-545).jpg",
+          "credit": "U.S. Army Signal Corps (U.S. Navy photo USA-C-545)",
+          "license": "Public domain",
+          "made": "1945",
+          "caption": "Ibn Saud talks with Franklin Roosevelt aboard the USS Quincy on 14 February 1945.",
+          "alt": "Black-and-white photo of Ibn Saud in robes and headdress speaking to an interpreter, beside a seated Franklin Roosevelt on the deck of a warship"
+        }
+      ],
+      "sources": [
+        {
+          "title": "A History of Saudi Arabia",
+          "author": "Madawi Al-Rasheed",
+          "note": "Cambridge University Press, 2nd edition, 2010"
+        },
+        {
+          "title": "The Kingdom",
+          "author": "Robert Lacey",
+          "note": "1981"
+        },
+        {
+          "title": "The History of Saudi Arabia",
+          "author": "Alexei Vassiliev",
+          "note": "2000"
+        },
+        {
+          "title": "Ibn Saud",
+          "author": "Encyclopaedia Britannica"
+        }
+      ],
+      "review": {
+        "status": "draft",
+        "notes": "Drafted from the listed sources; needs a human fact-check."
+      }
+    },
+    {
+      "id": "saud",
+      "kind": "monarch",
+      "rulers": [
+        "saud"
+      ],
+      "tagline": "The big spender who lost his throne to his brother",
+      "start": {
+        "date": "1953-11-09"
+      },
+      "end": {
+        "date": "1964-11-02"
+      },
+      "contestedWith": [],
+      "relationToPredecessor": "Eldest surviving son of Ibn Saud",
+      "ageAtAccession": "51",
+      "cameToPower": "Heir since 1933",
+      "reignEnded": "Deposed by the royal family",
+      "previously": "Ibn Saud dies in Taif. His oil-rich kingdom passes to his son Saud.",
+      "paragraphs": [
+        "Saud was born in Kuwait City in January 1902, the same month his father took Riyadh. Crown prince since 1933, he came to the throne as oil money poured in, and he spent it freely. Palaces went up, the royal family grew huge and gifts flowed out. The state still ran into debt and the riyal lost much of its value. His half-brother Faisal, the crown prince, watched with growing alarm.",
+        "In March 1958 Syria's intelligence chief accused Saud of paying for a plot to kill Egypt's President Nasser. It was a disaster for his standing, and the senior princes made him hand his executive powers to Faisal. Saud took them back in 1960, only to lose them again in 1962. Meanwhile the 'Free Princes', led by his half-brother Talal, were calling for a constitution.",
+        "In March 1964 the senior princes and the religious scholars made Faisal regent. On 2 November 1964 they deposed Saud altogether. He spent his last years in exile, mostly in Athens and Cairo, and died in Athens in February 1969."
+      ],
+      "claims": [
+        {
+          "text": "Saud paid for a plot to assassinate Nasser.",
+          "status": "disputed",
+          "note": "The charge came from Syria's intelligence chief in 1958 and was widely believed at the time, but it rests largely on his word."
+        },
+        {
+          "text": "The state sank into debt under Saud.",
+          "status": "confirmed",
+          "note": "Historians agree on the outline: heavy spending, debts in the hundreds of millions of dollars and a falling riyal by the late 1950s."
+        },
+        {
+          "text": "The 'Free Princes', led by Talal bin Abdulaziz, called for a constitution.",
+          "status": "confirmed",
+          "note": "Their demands are well documented; Talal later spent time in exile in Egypt."
+        }
+      ],
+      "hook": "Saud is gone. Faisal, the serious brother who has spent decades as the kingdom's face abroad, finally has the throne and a list of changes he wants to make.",
+      "images": [
+        {
+          "file": "File:President John F. Kennedy Visits Saud bin Abdul-Aziz Al Saud, King of Saudi Arabia (04).jpg",
+          "url": "https://upload.wikimedia.org/wikipedia/commons/e/ed/President_John_F._Kennedy_Visits_Saud_bin_Abdul-Aziz_Al_Saud%2C_King_of_Saudi_Arabia_%2804%29.jpg",
+          "page": "https://commons.wikimedia.org/wiki/File:President_John_F._Kennedy_Visits_Saud_bin_Abdul-Aziz_Al_Saud,_King_of_Saudi_Arabia_(04).jpg",
+          "credit": "Cecil Stoughton, White House Photographs, John F. Kennedy Presidential Library and Museum",
+          "license": "Public domain",
+          "made": "1962",
+          "caption": "King Saud with President John F. Kennedy in Palm Beach, Florida, in January 1962.",
+          "alt": "Photo of King Saud seated on a couch beside President John F. Kennedy in a private residence"
+        }
+      ],
+      "sources": [
+        {
+          "title": "The Kingdom",
+          "author": "Robert Lacey",
+          "note": "1981"
+        },
+        {
+          "title": "The History of Saudi Arabia",
+          "author": "Alexei Vassiliev",
+          "note": "2000"
+        },
+        {
+          "title": "A History of Saudi Arabia",
+          "author": "Madawi Al-Rasheed",
+          "note": "Cambridge University Press, 2nd edition, 2010"
+        }
+      ],
+      "review": {
+        "status": "draft",
+        "notes": "Drafted from the listed sources; needs a human fact-check."
+      }
+    },
+    {
+      "id": "faisal",
+      "kind": "monarch",
+      "rulers": [
+        "faisal"
+      ],
+      "tagline": "The reformer king who turned oil into a weapon",
+      "start": {
+        "date": "1964-11-02"
+      },
+      "end": {
+        "date": "1975-03-25"
+      },
+      "contestedWith": [],
+      "relationToPredecessor": "Half-brother of Saud",
+      "ageAtAccession": "58",
+      "cameToPower": "Made king when Saud was deposed",
+      "reignEnded": "Shot dead by his nephew",
+      "previously": "The princes and clerics depose Saud. Faisal takes the throne.",
+      "paragraphs": [
+        "Faisal was born in Riyadh in 1906. At just 13 he was sent to Britain and France for his father, an early royal envoy to the West. He helped conquer the Hejaz and then governed it as viceroy. From 1930 he was foreign minister for decades. As crown prince and prime minister he abolished slavery in 1962.",
+        "He pushed change hard. State schools for girls opened in 1960, and television arrived in 1965 against furious conservative opposition. A nephew, Khalid bin Musaid, was killed by police during a protest against the new TV station. The Arab defeat in the 1967 war hit him hard. In the October War of 1973 he cut off oil to the US and other backers of Israel, and oil prices quadrupled. Time named him its Man of the Year for 1974.",
+        "On 25 March 1975, at his majlis in Riyadh, he was shot dead by another nephew, Faisal bin Musaid, Khalid's brother, recently back from studying in the US. The killer was publicly beheaded in Riyadh that June."
+      ],
+      "claims": [
+        {
+          "text": "The assassin killed the king to avenge his brother Khalid.",
+          "status": "disputed",
+          "note": "The motive was never settled. Revenge for his brother is the usual explanation, but it is a reconstruction."
+        },
+        {
+          "text": "Khalid bin Musaid was killed by police at a protest against the television station.",
+          "status": "disputed",
+          "note": "That he died in a clash with police is accepted; accounts of what happened differ."
+        },
+        {
+          "text": "Time named Faisal its Man of the Year for 1974.",
+          "status": "confirmed",
+          "note": "He appeared on the magazine's cover in January 1975."
+        }
+      ],
+      "hook": "Faisal is dead. His quiet half-brother Khalid, a devout man happier in the desert than in meetings, inherits a boom, and a storm is building in Mecca.",
+      "images": [
+        {
+          "file": "File:President John F. Kennedy with Crown Prince of Saudi Arabia, Faisal ibn Abdul Aziz Al Saud, at White House Luncheon.jpg",
+          "url": "https://upload.wikimedia.org/wikipedia/commons/4/42/President_John_F._Kennedy_with_Crown_Prince_of_Saudi_Arabia%2C_Faisal_ibn_Abdul_Aziz_Al_Saud%2C_at_White_House_Luncheon.jpg",
+          "page": "https://commons.wikimedia.org/wiki/File:President_John_F._Kennedy_with_Crown_Prince_of_Saudi_Arabia,_Faisal_ibn_Abdul_Aziz_Al_Saud,_at_White_House_Luncheon.jpg",
+          "credit": "Abbie Rowe, White House Photographs, John F. Kennedy Presidential Library and Museum",
+          "license": "Public domain",
+          "made": "1962",
+          "caption": "Crown Prince Faisal with President John F. Kennedy at the White House in October 1962, two years before he became king.",
+          "alt": "Photo of Crown Prince Faisal in robes and headdress standing with President John F. Kennedy in the Entrance Hall of the White House"
+        }
+      ],
+      "sources": [
+        {
+          "title": "King Faisal of Saudi Arabia: Personality, Faith and Times",
+          "author": "Alexei Vassiliev",
+          "note": "2012"
+        },
+        {
+          "title": "The Kingdom",
+          "author": "Robert Lacey",
+          "note": "1981"
+        },
+        {
+          "title": "A History of Saudi Arabia",
+          "author": "Madawi Al-Rasheed",
+          "note": "Cambridge University Press, 2nd edition, 2010"
+        }
+      ],
+      "review": {
+        "status": "draft",
+        "notes": "Drafted from the listed sources; needs a human fact-check."
+      }
+    },
+    {
+      "id": "khalid",
+      "kind": "monarch",
+      "rulers": [
+        "khalid"
+      ],
+      "tagline": "A quiet desert king and a siege in Mecca",
+      "start": {
+        "date": "1975-03-25"
+      },
+      "end": {
+        "date": "1982-06-13"
+      },
+      "contestedWith": [],
+      "relationToPredecessor": "Half-brother of Faisal",
+      "ageAtAccession": "62",
+      "cameToPower": "Crown prince since 1965",
+      "reignEnded": "Heart attack in Taif",
+      "previously": "King Faisal is shot dead by his nephew in Riyadh.",
+      "paragraphs": [
+        "Khalid was born in Riyadh in 1913. He was devout and quiet, happiest in the desert with his falcons, and he had a bad heart. Much of the daily business of government fell to his half-brother, Crown Prince Fahd. Oil money flooded in and the kingdom became one huge building site of roads, ports, hospitals and new industrial cities. Next door, in 1979, revolution swept away the Shah of Iran.",
+        "On 20 November 1979, the first day of the Islamic year 1400, hundreds of armed militants led by Juhayman al-Otaybi seized the Grand Mosque in Mecca. They proclaimed his brother-in-law Mohammed al-Qahtani the Mahdi, the redeemer expected at the end of time. Saudi forces, advised by French special forces, needed two weeks of heavy fighting to retake it. The official toll was 255 dead; diplomats believed it was higher.",
+        "In January 1980, 63 captured rebels were publicly beheaded in cities across the kingdom. In November 1979, the same month as the siege, the Shia of the Eastern Province had also risen in protest. In the aftermath the clergy got more say over social life. In 1981 the Gulf states founded the Gulf Cooperation Council. Khalid died of a heart attack in Taif on 13 June 1982."
+      ],
+      "claims": [
+        {
+          "text": "French special forces helped Saudi troops retake the Grand Mosque.",
+          "status": "disputed",
+          "note": "That French GIGN officers advised the Saudis is confirmed. Whether any French troops actually entered the mosque is disputed."
+        },
+        {
+          "text": "Crown Prince Fahd ran much of the government day to day.",
+          "status": "disputed",
+          "note": "Widely reported by diplomats and journalists at the time; how much Khalid decided himself is debated."
+        },
+        {
+          "text": "After the siege the government handed the clergy more control over social life.",
+          "status": "disputed",
+          "note": "A common view among historians, who point to stricter rules in the 1980s; the link is an interpretation."
+        }
+      ],
+      "hook": "Khalid is dead. Fahd, already the kingdom's day-to-day manager, becomes king. Before his reign is done, hundreds of thousands of foreign troops will be on Saudi soil.",
+      "images": [
+        {
+          "file": "File:King Khaled (10168117694).jpg",
+          "url": "https://upload.wikimedia.org/wikipedia/commons/8/8c/King_Khaled_%2810168117694%29.jpg",
+          "page": "https://commons.wikimedia.org/wiki/File:King_Khaled_(10168117694).jpg",
+          "credit": "White House staff photographer",
+          "license": "Public domain",
+          "made": "1978",
+          "caption": "King Khalid with President Jimmy Carter in October 1978.",
+          "alt": "Photo of King Khalid in robes and headdress with President Jimmy Carter"
+        }
+      ],
+      "sources": [
+        {
+          "title": "The Siege of Mecca",
+          "author": "Yaroslav Trofimov",
+          "note": "2007"
+        },
+        {
+          "title": "The Kingdom",
+          "author": "Robert Lacey",
+          "note": "1981"
+        },
+        {
+          "title": "A History of Saudi Arabia",
+          "author": "Madawi Al-Rasheed",
+          "note": "Cambridge University Press, 2nd edition, 2010"
+        }
+      ],
+      "review": {
+        "status": "draft",
+        "notes": "Drafted from the listed sources; needs a human fact-check."
+      }
+    },
+    {
+      "id": "fahd",
+      "kind": "monarch",
+      "rulers": [
+        "fahd"
+      ],
+      "tagline": "The king who invited the Americans in",
+      "start": {
+        "date": "1982-06-13"
+      },
+      "end": {
+        "date": "2005-08-01"
+      },
+      "contestedWith": [],
+      "relationToPredecessor": "Half-brother of Khalid",
+      "ageAtAccession": "About 59–62",
+      "cameToPower": "Crown prince since 1975",
+      "reignEnded": "Died after years of illness",
+      "previously": "Khalid dies in Taif. Crown Prince Fahd becomes king.",
+      "paragraphs": [
+        "Fahd was born in Riyadh around 1921; even the year is uncertain. He was one of the 'Sudairi Seven', the seven sons of Ibn Saud by Hassa al-Sudairi, a powerful bloc within the family. He had been education minister and then interior minister. In 1986 he took the title Custodian of the Two Holy Mosques, a nod to Mecca and Medina.",
+        "In August 1990 Iraq invaded Kuwait. Fahd invited in a US-led coalition, and hundreds of thousands of foreign troops arrived on Saudi soil. Many Saudis were outraged, among them Osama bin Laden. In 1992 Fahd issued the Basic Law, setting out how the kingdom is governed, and created an appointed Consultative Council.",
+        "A stroke in November 1995 left him unable to govern fully, and from 1996 Crown Prince Abdullah ran the country day to day. On 11 September 2001, 15 of the 19 hijackers who attacked the US were Saudi citizens. Al-Qaeda then struck inside the kingdom in 2003 and 2004. Fahd died in Riyadh on 1 August 2005, aged somewhere between 82 and 85."
+      ],
+      "claims": [
+        {
+          "text": "15 of the 19 hijackers of 11 September 2001 were Saudi citizens.",
+          "status": "confirmed",
+          "note": "Established by the US 9/11 Commission."
+        },
+        {
+          "text": "The US troop presence turned Osama bin Laden against the Saudi monarchy.",
+          "status": "confirmed",
+          "note": "Bin Laden attacked it publicly, most famously in his 1996 declaration against the US forces in Arabia."
+        },
+        {
+          "text": "Fahd was born in 1921.",
+          "status": "disputed",
+          "note": "Sources give 1920, 1921 or 1923, and none is certain."
+        }
+      ],
+      "hook": "Fahd is dead. Abdullah, who has really been running things for nearly a decade, is now king in name too, and he has a few surprises for the conservatives.",
+      "images": [
+        {
+          "file": "File:President George H. W. Bush and King Fahd bin Abdulaziz Al Saud share a laugh.jpg",
+          "url": "https://upload.wikimedia.org/wikipedia/commons/6/6e/President_George_H._W._Bush_and_King_Fahd_bin_Abdulaziz_Al_Saud_share_a_laugh.jpg",
+          "page": "https://commons.wikimedia.org/wiki/File:President_George_H._W._Bush_and_King_Fahd_bin_Abdulaziz_Al_Saud_share_a_laugh.jpg",
+          "credit": "George H.W. Bush Presidential Library and Museum",
+          "license": "Public domain",
+          "made": "1990",
+          "caption": "King Fahd with President George H. W. Bush in Jeddah, November 1990, during the Gulf crisis.",
+          "alt": "Photo of King Fahd and President George H. W. Bush laughing together at the Royal Palace in Jeddah"
+        }
+      ],
+      "sources": [
+        {
+          "title": "Inside the Kingdom",
+          "author": "Robert Lacey",
+          "note": "2009"
+        },
+        {
+          "title": "A History of Saudi Arabia",
+          "author": "Madawi Al-Rasheed",
+          "note": "Cambridge University Press, 2nd edition, 2010"
+        },
+        {
+          "title": "The 9/11 Commission Report",
+          "author": "National Commission on Terrorist Attacks Upon the United States",
+          "note": "2004"
+        }
+      ],
+      "review": {
+        "status": "draft",
+        "notes": "Drafted from the listed sources; needs a human fact-check."
+      }
+    },
+    {
+      "id": "abdullah",
+      "kind": "monarch",
+      "rulers": [
+        "abdullah"
+      ],
+      "tagline": "The cautious reformer who opened a few doors",
+      "start": {
+        "date": "2005-08-01"
+      },
+      "end": {
+        "date": "2015-01-23"
+      },
+      "contestedWith": [],
+      "relationToPredecessor": "Half-brother of Fahd",
+      "ageAtAccession": "81",
+      "cameToPower": "Crown prince since 1982",
+      "reignEnded": "Died in Riyadh, aged 90",
+      "previously": "Fahd dies after years of illness. Abdullah, long in charge, is king.",
+      "paragraphs": [
+        "Abdullah was born in Riyadh in 1924. From 1963 to 2010 he commanded the National Guard, the tribal force that protects the royal family. After Fahd's stroke he ran the kingdom for almost ten years before he took the title of king. As crown prince in 2002 he proposed the Arab Peace Initiative: Arab ties with Israel in return for its withdrawal from the lands taken in 1967 and a Palestinian state.",
+        "As king he went for careful reform. In 2009 he opened KAUST, a science university where men and women study side by side, the first in the country. Tens of thousands of young Saudis went abroad to study on state scholarships. In 2013 he put the first women on the Consultative Council. He also gave women the vote in municipal elections, announced in 2011 and first used in 2015.",
+        "When the Arab Spring swept the region in 2011, he answered with a huge spending package at home. In March that year Saudi troops went into neighbouring Bahrain to back its royal family against protests. Abdullah died in Riyadh on 23 January 2015, aged 90."
+      ],
+      "claims": [
+        {
+          "text": "KAUST was Saudi Arabia's first co-educational university.",
+          "status": "confirmed",
+          "note": "Men and women study together there, which the country's other universities did not allow when it opened in 2009."
+        },
+        {
+          "text": "Women first voted and stood for office in the 2015 municipal elections.",
+          "status": "confirmed",
+          "note": "Abdullah announced the change in 2011; the first election held under it was in December 2015."
+        },
+        {
+          "text": "He commanded the National Guard for nearly 50 years.",
+          "status": "confirmed",
+          "note": "He led it from 1963 until 2010, when his son Mutaib took over."
+        }
+      ],
+      "hook": "Abdullah is dead. His half-brother Salman, 79, becomes king, and he quickly hands enormous power to a young son.",
+      "images": [
+        {
+          "file": "File:King Abdullah bin Abdul al-Saud January 2007.jpg",
+          "url": "https://upload.wikimedia.org/wikipedia/commons/d/d5/King_Abdullah_bin_Abdul_al-Saud_January_2007.jpg",
+          "page": "https://commons.wikimedia.org/wiki/File:King_Abdullah_bin_Abdul_al-Saud_January_2007.jpg",
+          "credit": "Cherie A. Thurlby, U.S. Department of Defense",
+          "license": "Public domain",
+          "made": "2007",
+          "caption": "King Abdullah at a meeting with US Defense Secretary Robert Gates in January 2007.",
+          "alt": "Photo of King Abdullah in robes and headdress at a meeting"
+        }
+      ],
+      "sources": [
+        {
+          "title": "Inside the Kingdom",
+          "author": "Robert Lacey",
+          "note": "2009"
+        },
+        {
+          "title": "A History of Saudi Arabia",
+          "author": "Madawi Al-Rasheed",
+          "note": "Cambridge University Press, 2nd edition, 2010"
+        },
+        {
+          "title": "Abdullah, king of Saudi Arabia",
+          "author": "Encyclopaedia Britannica"
+        }
+      ],
+      "review": {
+        "status": "draft",
+        "notes": "Drafted from the listed sources; needs a human fact-check."
+      }
+    },
+    {
+      "id": "salman",
+      "kind": "monarch",
+      "rulers": [
+        "salman"
+      ],
+      "tagline": "Half a century running Riyadh, then the kingdom",
+      "start": {
+        "date": "2015-01-23"
+      },
+      "contestedWith": [],
+      "relationToPredecessor": "Half-brother of Abdullah",
+      "ageAtAccession": "79",
+      "cameToPower": "Crown prince since 2012",
+      "reignEnded": "Still reigning",
+      "previously": "Abdullah dies aged 90. His half-brother Salman, 79, becomes king.",
+      "paragraphs": [
+        "Salman was born in Riyadh on 31 December 1935, another of the Sudairi Seven. He governed Riyadh province from 1963 to 2011 and saw it grow from a town into a city of millions. He became defence minister in 2011 and crown prince in 2012. Days after becoming king, he made his son Mohammed bin Salman, then 29, defence minister. In March 2015 a Saudi-led coalition went to war in Yemen against the Houthis, a war the UN came to call one of the world's worst humanitarian crises.",
+        "Mohammed, the force behind Vision 2030, a plan to wean the economy off oil, replaced his cousin Muhammad bin Nayef as crown prince in June 2017. That November hundreds of princes, ministers and businessmen were held at Riyadh's Ritz-Carlton in an anti-corruption drive; many were freed after settlements. In 2018 women won the right to drive and cinemas reopened. On 2 October that year the journalist Jamal Khashoggi was killed in the Saudi consulate in Istanbul by Saudi agents.",
+        "Saudi Arabia first denied it, then called it a rogue operation. A 2021 US intelligence report found the crown prince approved it; Saudi Arabia rejected that. He denies ordering it but says he bears responsibility as leader. He became prime minister in 2022. In 2023 ties with Iran were restored in a China-brokered deal and Riyadh won Expo 2030; in 2024 the kingdom was confirmed as host of the 2034 World Cup. The king is now in his nineties; his son runs the country day to day."
+      ],
+      "claims": [
+        {
+          "text": "A Saudi court convicted eight people over Khashoggi's killing in 2019.",
+          "status": "confirmed",
+          "note": "Announced by Saudi prosecutors; the UN special rapporteur and rights groups criticised the trial as lacking transparency."
+        },
+        {
+          "text": "A US intelligence assessment found that Mohammed bin Salman approved the operation against Khashoggi.",
+          "status": "confirmed",
+          "note": "Published by the US Office of the Director of National Intelligence in February 2021. Saudi Arabia rejected it, and the crown prince denies ordering the killing."
+        },
+        {
+          "text": "Saudi Arabia executed 81 people on a single day, 12 March 2022.",
+          "status": "confirmed",
+          "note": "Announced by the Saudi Press Agency; the largest mass execution in the kingdom's modern history."
+        }
+      ],
+      "images": [
+        {
+          "file": "File:Salman of Saudi Arabia - 2020 (49563590728) (cropped).jpg",
+          "url": "https://upload.wikimedia.org/wikipedia/commons/0/03/Salman_of_Saudi_Arabia_-_2020_%2849563590728%29_%28cropped%29.jpg",
+          "page": "https://commons.wikimedia.org/wiki/File:Salman_of_Saudi_Arabia_-_2020_(49563590728)_(cropped).jpg",
+          "credit": "Ron Przysucha, U.S. Department of State",
+          "license": "Public domain",
+          "made": "2020",
+          "caption": "King Salman in Riyadh in February 2020.",
+          "alt": "Photo of King Salman in robes and headdress"
+        }
+      ],
+      "sources": [
+        {
+          "title": "MBS: The Rise to Power of Mohammed bin Salman",
+          "author": "Ben Hubbard",
+          "note": "2020"
+        },
+        {
+          "title": "Assessing the Saudi Government's Role in the Killing of Jamal Khashoggi",
+          "author": "US Office of the Director of National Intelligence",
+          "note": "February 2021"
+        },
+        {
+          "title": "A History of Saudi Arabia",
+          "author": "Madawi Al-Rasheed",
+          "note": "Cambridge University Press, 2nd edition, 2010"
+        },
+        {
+          "title": "Salman, king of Saudi Arabia",
+          "author": "Encyclopaedia Britannica"
+        }
+      ],
+      "review": {
+        "status": "draft",
+        "notes": "Drafted from the listed sources; needs a human fact-check."
+      }
+    }
+  ]
+}
