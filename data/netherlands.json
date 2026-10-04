@@ -1,0 +1,1648 @@
+{
+  "id": "netherlands",
+  "name": "The Netherlands",
+  "blurb": "From William the Silent to Willem-Alexander",
+  "dateConvention": "Dates are Gregorian, which Holland adopted in 1582. Stadtholders led the Dutch Republic without being monarchs; the kingdom began in 1813–15.",
+  "houses": [
+    {
+      "id": "orange-nassau",
+      "name": "Orange-Nassau",
+      "color": "#e07b00"
+    },
+    {
+      "id": "republic",
+      "name": "The Republic",
+      "color": "#2f5d8a",
+      "plain": true
+    },
+    {
+      "id": "french",
+      "name": "French era",
+      "color": "#55524a",
+      "plain": true
+    },
+    {
+      "id": "bonaparte",
+      "name": "Bonaparte",
+      "color": "#3f6b4f"
+    }
+  ],
+  "rulers": [
+    {
+      "id": "william-the-silent",
+      "name": "William I of Orange",
+      "epithet": "the Silent",
+      "house": "orange-nassau",
+      "born": {
+        "date": "1533-04-24",
+        "note": "Dillenburg, Nassau (Germany)"
+      },
+      "died": {
+        "date": "1584-07-10",
+        "note": "The Prinsenhof, Delft"
+      },
+      "causeOfDeath": "Shot by Balthasar Gérard"
+    },
+    {
+      "id": "maurice",
+      "name": "Maurice of Orange",
+      "house": "orange-nassau",
+      "born": {
+        "date": "1567-11-14",
+        "note": "Dillenburg, Nassau (Germany)"
+      },
+      "died": {
+        "date": "1625-04-23",
+        "note": "The Hague"
+      },
+      "causeOfDeath": "Illness"
+    },
+    {
+      "id": "frederick-henry",
+      "name": "Frederick Henry",
+      "house": "orange-nassau",
+      "born": {
+        "date": "1584-01-29",
+        "note": "Delft"
+      },
+      "died": {
+        "date": "1647-03-14",
+        "note": "The Hague"
+      },
+      "causeOfDeath": "Illness after years of poor health"
+    },
+    {
+      "id": "william-ii-stadtholder",
+      "name": "William II of Orange",
+      "house": "orange-nassau",
+      "born": {
+        "date": "1626-05-27",
+        "note": "The Hague"
+      },
+      "died": {
+        "date": "1650-11-06",
+        "note": "The Hague"
+      },
+      "causeOfDeath": "Smallpox"
+    },
+    {
+      "id": "william-iii-stadtholder",
+      "name": "William III of Orange",
+      "house": "orange-nassau",
+      "born": {
+        "date": "1650-11-04",
+        "note": "The Hague; 14 November by the modern calendar"
+      },
+      "died": {
+        "date": "1702-03-08",
+        "note": "Kensington Palace, London"
+      },
+      "causeOfDeath": "Pneumonia after a fall from his horse",
+      "sameAs": [
+        "england:william-iii"
+      ]
+    },
+    {
+      "id": "william-iv",
+      "name": "William IV",
+      "house": "orange-nassau",
+      "born": {
+        "date": "1711-09-01",
+        "note": "Leeuwarden, Friesland"
+      },
+      "died": {
+        "date": "1751-10-22",
+        "note": "The Hague"
+      },
+      "causeOfDeath": "Illness, aged 40"
+    },
+    {
+      "id": "william-v",
+      "name": "William V",
+      "house": "orange-nassau",
+      "born": {
+        "date": "1748-03-08",
+        "note": "The Hague"
+      },
+      "died": {
+        "date": "1806-04-09",
+        "note": "Brunswick, in exile"
+      },
+      "causeOfDeath": "Illness in exile"
+    },
+    {
+      "id": "louis-bonaparte",
+      "name": "Louis Bonaparte",
+      "house": "bonaparte",
+      "born": {
+        "date": "1778-09-02",
+        "note": "Ajaccio, Corsica"
+      },
+      "died": {
+        "date": "1846-07-25",
+        "note": "Livorno, Italy"
+      },
+      "causeOfDeath": "Illness after years of poor health"
+    },
+    {
+      "id": "william-i",
+      "name": "William I",
+      "house": "orange-nassau",
+      "born": {
+        "date": "1772-08-24",
+        "note": "The Hague"
+      },
+      "died": {
+        "date": "1843-12-12",
+        "note": "Berlin, Prussia"
+      },
+      "causeOfDeath": "Natural causes"
+    },
+    {
+      "id": "william-ii",
+      "name": "William II",
+      "house": "orange-nassau",
+      "born": {
+        "date": "1792-12-06",
+        "note": "The Hague"
+      },
+      "died": {
+        "date": "1849-03-17",
+        "note": "Tilburg"
+      },
+      "causeOfDeath": "Sudden illness"
+    },
+    {
+      "id": "william-iii",
+      "name": "William III",
+      "house": "orange-nassau",
+      "born": {
+        "date": "1817-02-19",
+        "note": "Brussels"
+      },
+      "died": {
+        "date": "1890-11-23",
+        "note": "Het Loo Palace, Apeldoorn"
+      },
+      "causeOfDeath": "Illness after a long decline"
+    },
+    {
+      "id": "wilhelmina",
+      "name": "Wilhelmina",
+      "house": "orange-nassau",
+      "born": {
+        "date": "1880-08-31",
+        "note": "Noordeinde Palace, The Hague"
+      },
+      "died": {
+        "date": "1962-11-28",
+        "note": "Het Loo Palace, Apeldoorn"
+      },
+      "causeOfDeath": "Old age"
+    },
+    {
+      "id": "juliana",
+      "name": "Juliana",
+      "house": "orange-nassau",
+      "born": {
+        "date": "1909-04-30",
+        "note": "Noordeinde Palace, The Hague"
+      },
+      "died": {
+        "date": "2004-03-20",
+        "note": "Soestdijk Palace, Baarn"
+      },
+      "causeOfDeath": "Complications of pneumonia"
+    },
+    {
+      "id": "beatrix",
+      "name": "Beatrix",
+      "house": "orange-nassau",
+      "born": {
+        "date": "1938-01-31",
+        "note": "Soestdijk Palace, Baarn"
+      }
+    },
+    {
+      "id": "willem-alexander",
+      "name": "Willem-Alexander",
+      "house": "orange-nassau",
+      "born": {
+        "date": "1967-04-27",
+        "note": "Utrecht"
+      }
+    }
+  ],
+  "reigns": [
+    {
+      "id": "william-the-silent",
+      "kind": "leader",
+      "rulers": [
+        "william-the-silent"
+      ],
+      "tagline": "The quiet prince who started a country and paid for it",
+      "start": {
+        "date": "1572-07-19"
+      },
+      "end": {
+        "date": "1584-07-10"
+      },
+      "contestedWith": [],
+      "relationToPredecessor": "Philip II's governor turned rebel",
+      "ageAtAccession": "39",
+      "cameToPower": "Chosen by the rebel States of Holland",
+      "reignEnded": "Shot on the stairs at Delft",
+      "previously": "Spain's Philip II sends Alva and the Inquisition after Dutch rebels.",
+      "paragraphs": [
+        "In the 1560s the Low Countries belonged to Philip II of Spain, a devout Catholic who wanted Protestants burned. Local nobles begged for mercy and got the Duke of Alva instead. His Council of Troubles, nicknamed the Council of Blood, sent over a thousand people to their deaths, including the counts of Egmont and Horn. One great lord got out in time: William, Prince of Orange, a German-born grandee who had grown up at the Habsburg court.",
+        "He raised armies, lost battles and kept coming back. In 1572 rebel sea raiders seized Brielle and the towns of Holland rose. That July the States of Holland made William their leader. He held the revolt together through sieges like Leiden, where the dykes were cut to let rescue ships sail over the fields. In 1581 the rebel provinces did something astonishing: they formally sacked their king in the Act of Abjuration.",
+        "Philip put a price on William's head. In 1582 a gunman shot him through the face in Antwerp and he survived. Two years later a Catholic Burgundian called Balthasar Gérard turned up at his house in Delft, posing as a supporter. On 10 July 1584 he fired a pistol into William's chest on the staircase. William became the first head of state killed with a handgun."
+      ],
+      "claims": [
+        {
+          "text": "He was called 'the Silent' because he kept quiet when the French king let slip a plan to wipe out Protestants.",
+          "status": "legend",
+          "note": "William told this story himself in his Apology of 1581, decades later. The nickname probably meant 'sly' or 'cautious' and was coined by enemies."
+        },
+        {
+          "text": "His last words were 'My God, have pity on my soul; my God, have pity on this poor people.'",
+          "status": "disputed",
+          "note": "The words appear in accounts written soon after the killing, but he was hit at close range and may not have managed a full sentence."
+        },
+        {
+          "text": "Gérard was promised a reward and Philip II paid his family after his execution.",
+          "status": "confirmed",
+          "note": "Philip's ban of 1580 offered 25,000 crowns. Gérard's parents were later given estates in Franche-Comté."
+        }
+      ],
+      "hook": "The rebels have lost their leader and Spain is winning back town after town. William's son Maurice is just 16. Can a teenager save a revolt that's falling apart?",
+      "images": [
+        {
+          "file": "File:William I, Prince of Orange by Adriaen Thomasz. Key Rijksmuseum Amsterdam SK-A-3148.jpg",
+          "url": "https://upload.wikimedia.org/wikipedia/commons/f/fa/William_I%2C_Prince_of_Orange_by_Adriaen_Thomasz._Key_Rijksmuseum_Amsterdam_SK-A-3148.jpg",
+          "page": "https://commons.wikimedia.org/wiki/File:William_I,_Prince_of_Orange_by_Adriaen_Thomasz._Key_Rijksmuseum_Amsterdam_SK-A-3148.jpg",
+          "credit": "Adriaen Thomasz. Key",
+          "license": "Public domain",
+          "made": "c. 1579",
+          "caption": "Painted by Adriaen Key around 1579, while William was leading the revolt.",
+          "alt": "Bust portrait of William of Orange facing right, with a short beard and a dark cap"
+        }
+      ],
+      "sources": [
+        {
+          "title": "William the Silent",
+          "author": "C. V. Wedgwood",
+          "note": "Jonathan Cape, 1944"
+        },
+        {
+          "title": "William of Orange and the Revolt of the Netherlands, 1572–84",
+          "author": "K. W. Swart",
+          "note": "Ashgate, 2003"
+        },
+        {
+          "title": "The Dutch Revolt",
+          "author": "Geoffrey Parker",
+          "note": "Allen Lane, 1977"
+        },
+        {
+          "title": "Apology",
+          "author": "William of Orange",
+          "note": "His 1581 defence against Philip II's ban"
+        }
+      ],
+      "review": {
+        "status": "draft",
+        "notes": "Drafted from the listed sources; needs a human fact-check."
+      }
+    },
+    {
+      "id": "maurice",
+      "kind": "leader",
+      "rulers": [
+        "maurice"
+      ],
+      "tagline": "The general who turned war into a science",
+      "start": {
+        "date": "1585-11-01"
+      },
+      "end": {
+        "date": "1625-04-23"
+      },
+      "contestedWith": [],
+      "relationToPredecessor": "Second son of William the Silent",
+      "ageAtAccession": "17",
+      "cameToPower": "Made stadtholder by Holland and Zeeland",
+      "reignEnded": "Died with the truce over",
+      "previously": "William the Silent is shot dead in Delft. The revolt is reeling.",
+      "paragraphs": [
+        "A stadtholder was not a king. The Republic was run by the States General, a council of the provinces, and the stadtholder was their top servant and army chief. Maurice was a shy, bookish teenager when he got the job. He turned out to be a brilliant soldier. With his cousin Willem Lodewijk he studied Roman tactics, drilled troops in small units, taught them to fire in rotating ranks and made them dig like navvies.",
+        "His new army took back town after town in the 1590s and beat the Spanish in open battle at Nieuwpoort in 1600. In 1609 the Republic signed a Twelve Years' Truce with Spain. Maurice hated it. He was a soldier with no war, and he fell out badly with the old statesman who had arranged it, Johan van Oldenbarnevelt, the Advocate of Holland.",
+        "A church row over predestination gave Maurice his chance. He backed the strict Calvinists, purged town councils and had Oldenbarnevelt arrested. In 1619 the 71-year-old was beheaded in The Hague. When the truce ran out in 1621 the war came back, but Maurice was ageing and ill. He never married, so his half-brother was next in line."
+      ],
+      "claims": [
+        {
+          "text": "Maurice said he didn't know whether predestination was blue or green.",
+          "status": "legend",
+          "note": "A much-repeated anecdote meant to show he took sides for politics, not faith. No reliable record of him saying it."
+        },
+        {
+          "text": "Hugo Grotius, jailed with Oldenbarnevelt, escaped from Loevestein Castle hidden in a chest of books.",
+          "status": "confirmed",
+          "note": "The 1621 escape, planned by his wife, is well documented. Two museums claim to own the actual chest."
+        },
+        {
+          "text": "Oldenbarnevelt's trial was rigged.",
+          "status": "disputed",
+          "note": "He was tried by a special court packed with his enemies and never saw the full charges. Maurice's defenders said he was a genuine danger to the state."
+        }
+      ],
+      "hook": "Maurice is dead and the war with Spain is raging again. His younger half-brother Frederick Henry, born months before their father was shot, takes over. He has a talent for sieges.",
+      "images": [
+        {
+          "file": "File:Michiel Jansz van Mierevelt - Maurits prins van Oranje.jpg",
+          "url": "https://upload.wikimedia.org/wikipedia/commons/f/f3/Michiel_Jansz_van_Mierevelt_-_Maurits_prins_van_Oranje.jpg",
+          "page": "https://commons.wikimedia.org/wiki/File:Michiel_Jansz_van_Mierevelt_-_Maurits_prins_van_Oranje.jpg",
+          "credit": "Michiel Jansz. van Mierevelt",
+          "license": "Public domain",
+          "made": "c. 1613–1620",
+          "caption": "Painted by Michiel van Mierevelt, the Republic's favourite portraitist, in the 1610s.",
+          "alt": "Painted portrait of Maurice, Prince of Orange"
+        }
+      ],
+      "sources": [
+        {
+          "title": "Maurits van Nassau, 1567–1625: de winnaar die faalde",
+          "author": "A. Th. van Deursen",
+          "note": "Bert Bakker, 2000"
+        },
+        {
+          "title": "The Life and Death of John of Barneveld",
+          "author": "John Lothrop Motley",
+          "note": "1874"
+        },
+        {
+          "title": "The Dutch Republic: Its Rise, Greatness, and Fall, 1477–1806",
+          "author": "Jonathan I. Israel",
+          "note": "Oxford University Press, 1995"
+        }
+      ],
+      "review": {
+        "status": "draft",
+        "notes": "Drafted from the listed sources; needs a human fact-check."
+      }
+    },
+    {
+      "id": "frederick-henry",
+      "kind": "leader",
+      "rulers": [
+        "frederick-henry"
+      ],
+      "tagline": "The city-taker who presided over the Golden Age",
+      "start": {
+        "date": "1625-04-23"
+      },
+      "end": {
+        "date": "1647-03-14"
+      },
+      "contestedWith": [],
+      "relationToPredecessor": "Younger half-brother of Maurice",
+      "ageAtAccession": "41",
+      "cameToPower": "Inherited his brother's offices",
+      "reignEnded": "Died a year before peace",
+      "previously": "Maurice dies. The war with Spain has started up again.",
+      "paragraphs": [
+        "Frederick Henry was William the Silent's youngest son, born to his fourth wife, Louise de Coligny, just six months before the assassination. He was charming and easier going than Maurice. Weeks before taking over, he married Amalia of Solms, a sharp and ambitious lady-in-waiting who would push the family's grandeur for decades.",
+        "He earned the nickname 'the city-taker'. He besieged 's-Hertogenbosch in 1629, Maastricht in 1632 and Breda in 1637, wrapping each in rings of trenches until it gave up. Meanwhile the Republic boomed. Amsterdam ran the trade of the world, and painters flourished. His secretary Constantijn Huygens spotted a young Rembrandt, and the prince bought a series of Passion paintings from him.",
+        "Frederick Henry lived like a king, building palaces and marrying his son William to Mary, daughter of Charles I of England. By the 1640s he was ill and failing. He died in March 1647, with peace talks with Spain well under way at Münster."
+      ],
+      "claims": [
+        {
+          "text": "Constantijn Huygens discovered Rembrandt.",
+          "status": "disputed",
+          "note": "Huygens praised Rembrandt and Lievens in his memoirs around 1630 and helped get him the prince's commission. Others in Leiden knew Rembrandt's work first."
+        },
+        {
+          "text": "Frederick Henry was the son of William the Silent's fourth wife, a daughter of the murdered French admiral Coligny.",
+          "status": "confirmed",
+          "note": "Louise de Coligny lost her father and first husband in the St Bartholomew's Day massacre, then her second husband to Gérard."
+        }
+      ],
+      "hook": "Peace with Spain is almost signed. The new stadtholder, 20-year-old William II, doesn't want it. He has an army and a royal English wife, and he wants glory.",
+      "images": [
+        {
+          "file": "File:Naar Gerrit van Honthorst - Portrait of Frederik Hendrik (1584-1647) - 430 - Mauritshuis.jpg",
+          "url": "https://upload.wikimedia.org/wikipedia/commons/6/64/Naar_Gerrit_van_Honthorst_-_Portrait_of_Frederik_Hendrik_%281584-1647%29_-_430_-_Mauritshuis.jpg",
+          "page": "https://commons.wikimedia.org/wiki/File:Naar_Gerrit_van_Honthorst_-_Portrait_of_Frederik_Hendrik_(1584-1647)_-_430_-_Mauritshuis.jpg",
+          "credit": "After Gerard van Honthorst",
+          "license": "Public domain",
+          "made": "c. 1640–1650",
+          "caption": "A copy of a portrait by Gerard van Honthorst, the court painter of the House of Orange.",
+          "alt": "Painted portrait of Frederick Henry, Prince of Orange"
+        }
+      ],
+      "sources": [
+        {
+          "title": "Frederik Hendrik, Prins van Oranje: een biografisch drieluik",
+          "author": "J. J. Poelhekke",
+          "note": "Walburg Pers, 1978"
+        },
+        {
+          "title": "The Princes of Orange: The Stadholders in the Dutch Republic",
+          "author": "Herbert H. Rowen",
+          "note": "Cambridge University Press, 1988"
+        },
+        {
+          "title": "The Dutch Republic: Its Rise, Greatness, and Fall, 1477–1806",
+          "author": "Jonathan I. Israel",
+          "note": "Oxford University Press, 1995"
+        }
+      ],
+      "review": {
+        "status": "draft",
+        "notes": "Drafted from the listed sources; needs a human fact-check."
+      }
+    },
+    {
+      "id": "william-ii-stadtholder",
+      "kind": "leader",
+      "rulers": [
+        "william-ii-stadtholder"
+      ],
+      "tagline": "The hothead who marched on Amsterdam",
+      "start": {
+        "date": "1647-03-14"
+      },
+      "end": {
+        "date": "1650-11-06"
+      },
+      "contestedWith": [],
+      "relationToPredecessor": "Only son of Frederick Henry",
+      "ageAtAccession": "20",
+      "cameToPower": "Inherited his father's offices",
+      "reignEnded": "Smallpox at 24",
+      "previously": "Frederick Henry dies with peace talks under way at Münster.",
+      "paragraphs": [
+        "William II was young, proud and impatient. In 1648 the Peace of Münster ended eighty years of war: Spain finally recognised the Dutch Republic as independent. Most Dutch people cheered. William sulked. Peace meant a smaller army, and the army was his power. He also wanted to help his wife's family, the Stuarts, after his father-in-law Charles I was beheaded in 1649.",
+        "Holland, the richest province, wanted to cut the troops and save money. In 1650 William struck. He arrested six leading Holland politicians and locked them in Loevestein Castle. Then he sent troops to take Amsterdam. They got lost on the heath in the dark and rain, a mail rider spotted them and warned the city, and Amsterdam shut its gates. A deal was patched up.",
+        "Weeks later William caught smallpox. He died on 6 November 1650, aged 24. His wife Mary was heavily pregnant. Eight days later she gave birth to a son."
+      ],
+      "claims": [
+        {
+          "text": "A passing postal courier saved Amsterdam by spotting the troops and raising the alarm.",
+          "status": "confirmed",
+          "note": "Contemporary accounts say the Hamburg mail rider saw the soldiers and warned the city. How much difference it made is debated."
+        },
+        {
+          "text": "William planned to drag the Republic into war to put the Stuarts back on the English throne.",
+          "status": "disputed",
+          "note": "He was clearly in talks with France and supported the exiled Charles II. How far his plans went died with him."
+        }
+      ],
+      "hook": "The stadtholder is dead and his only heir is a baby born a week later. Holland's regents see their chance. Why have a stadtholder at all?",
+      "images": [
+        {
+          "file": "File:Willem II (1626-50), prins van Oranje Rijksmuseum SK-A-4435.jpeg",
+          "url": "https://upload.wikimedia.org/wikipedia/commons/7/75/Willem_II_%281626-50%29%2C_prins_van_Oranje_Rijksmuseum_SK-A-4435.jpeg",
+          "page": "https://commons.wikimedia.org/wiki/File:Willem_II_(1626-50),_prins_van_Oranje_Rijksmuseum_SK-A-4435.jpeg",
+          "credit": "Unknown artist, after Gerard van Honthorst",
+          "license": "Public domain",
+          "made": "c. 1647–1650",
+          "caption": "A portrait miniature copied from Honthorst's portrait of the young prince, made during his short time in office.",
+          "alt": "Portrait miniature of William II of Orange, head and shoulders, facing left"
+        }
+      ],
+      "sources": [
+        {
+          "title": "The Princes of Orange: The Stadholders in the Dutch Republic",
+          "author": "Herbert H. Rowen",
+          "note": "Cambridge University Press, 1988"
+        },
+        {
+          "title": "The Dutch Republic: Its Rise, Greatness, and Fall, 1477–1806",
+          "author": "Jonathan I. Israel",
+          "note": "Oxford University Press, 1995"
+        },
+        {
+          "title": "The Dutch Republic and the Civilisation of the Seventeenth Century",
+          "author": "Charles Wilson",
+          "note": "Weidenfeld & Nicolson, 1968"
+        }
+      ],
+      "review": {
+        "status": "draft",
+        "notes": "Drafted from the listed sources; needs a human fact-check."
+      }
+    },
+    {
+      "id": "first-stadtholderless",
+      "kind": "interregnum",
+      "house": "republic",
+      "rulers": [],
+      "tagline": "No prince, just Johan de Witt and a lot of ships",
+      "start": {
+        "date": "1650-11-06"
+      },
+      "end": {
+        "date": "1672-07-04"
+      },
+      "contestedWith": [],
+      "relationToPredecessor": "Replaced the stadtholder",
+      "ageAtAccession": "No stadtholder",
+      "cameToPower": "Holland left the post empty",
+      "reignEnded": "The Disaster Year",
+      "previously": "William II dies of smallpox. His son is born eight days later.",
+      "paragraphs": [
+        "With no adult Orange around, Holland and most other provinces simply left the stadtholder's job empty. Power sat with the regents, the merchant families who ran the towns. Their star was Johan de Witt, who became Grand Pensionary of Holland in 1653, still in his twenties. He was a mathematician and a superb administrator, and he ran the Republic for nearly twenty years.",
+        "The big rival was England, fighting the Dutch for the world's trade. The first war went badly. In a secret deal with Cromwell, Holland promised never to make an Orange its stadtholder. The second war went much better. In June 1667 Admiral de Ruyter sailed up the Medway, burned the English fleet at anchor and towed away the flagship Royal Charles.",
+        "De Witt's mistake was the army. He kept it small and starved it of money, trusting in diplomacy and the fleet. In 1672 France and England attacked at once, with two German prince-bishops joining in. The French swept through the eastern provinces in weeks. In panic, the towns turned to young William of Orange."
+      ],
+      "claims": [
+        {
+          "text": "Samuel Pepys feared the Medway raid would bring down the English kingdom.",
+          "status": "confirmed",
+          "note": "His diary for June 1667 records panic in London and his worry that the whole kingdom was undone. He even sent his money out of town."
+        },
+        {
+          "text": "The stern of the captured Royal Charles is still on display in Amsterdam.",
+          "status": "confirmed",
+          "note": "The carved stern piece with the royal arms is in the Rijksmuseum. The rest of the ship was broken up."
+        }
+      ],
+      "hook": "1672: the French are pouring in and Dutch towns are rioting. Holland makes 21-year-old William III stadtholder. For the de Witt brothers it is already too late.",
+      "images": [
+        {
+          "file": "File:Jan de Baen - Portret van Johan de Witt - DM-895-377 - Dordrechts Museum.jpg",
+          "url": "https://upload.wikimedia.org/wikipedia/commons/4/4e/Jan_de_Baen_-_Portret_van_Johan_de_Witt_-_DM-895-377_-_Dordrechts_Museum.jpg",
+          "page": "https://commons.wikimedia.org/wiki/File:Jan_de_Baen_-_Portret_van_Johan_de_Witt_-_DM-895-377_-_Dordrechts_Museum.jpg",
+          "credit": "Jan de Baen",
+          "license": "Public domain",
+          "made": "1669",
+          "caption": "Johan de Witt, painted by Jan de Baen in 1669, three years before his murder.",
+          "alt": "Painted portrait of Johan de Witt, Grand Pensionary of Holland"
+        }
+      ],
+      "sources": [
+        {
+          "title": "John de Witt, Grand Pensionary of Holland, 1625–1672",
+          "author": "Herbert H. Rowen",
+          "note": "Princeton University Press, 1978"
+        },
+        {
+          "title": "The Diary of Samuel Pepys",
+          "author": "Samuel Pepys",
+          "note": "June 1667 entries"
+        },
+        {
+          "title": "The Dutch Republic: Its Rise, Greatness, and Fall, 1477–1806",
+          "author": "Jonathan I. Israel",
+          "note": "Oxford University Press, 1995"
+        }
+      ],
+      "review": {
+        "status": "draft",
+        "notes": "Drafted from the listed sources; needs a human fact-check."
+      },
+      "title": "The First Stadtholderless Period"
+    },
+    {
+      "id": "william-iii-stadtholder",
+      "kind": "leader",
+      "rulers": [
+        "william-iii-stadtholder"
+      ],
+      "tagline": "Saved his country, then took England too",
+      "start": {
+        "date": "1672-07-04"
+      },
+      "end": {
+        "date": "1702-03-08"
+      },
+      "contestedWith": [],
+      "relationToPredecessor": "Son of William II, born after his death",
+      "ageAtAccession": "21",
+      "cameToPower": "Made stadtholder in the Disaster Year",
+      "reignEnded": "Died after a riding fall",
+      "previously": "France invades and the Republic of Johan de Witt collapses.",
+      "paragraphs": [
+        "The Dutch still call 1672 the Rampjaar, the Disaster Year. The people were said to be senseless, the government helpless and the country beyond rescue. Mobs demanded an Orange, and Holland made William stadtholder. In August a crowd in The Hague dragged Johan de Witt and his brother Cornelis out of the prison gate and lynched them. William punished no one and rewarded some of the ringleaders.",
+        "He saved the Republic by opening the dykes. The Water Line flooded the land in front of Holland and stopped the French. He built alliances and fought Louis XIV for the rest of his life. In 1677 he married his cousin Mary, daughter of the future James II of England. In 1688 he invaded England with a huge fleet, James fled, and William and Mary became joint monarchs.",
+        "He ran England and the Republic at once, at war with France for most of it. In 1702 his horse stumbled on a molehill at Hampton Court, he broke his collarbone and died weeks later. He had no children. His heir was a young cousin from the Frisian branch of the family."
+      ],
+      "claims": [
+        {
+          "text": "The mob ate parts of the de Witt brothers' bodies.",
+          "status": "disputed",
+          "note": "Several contemporary accounts and prints say body parts were cut off and sold, and some say eaten. How much was atrocity propaganda is hard to judge."
+        },
+        {
+          "text": "William secretly encouraged the lynching.",
+          "status": "disputed",
+          "note": "No order from him survives. He did protect and reward men involved, which is why suspicion has stuck for 350 years."
+        },
+        {
+          "text": "Jacobites toasted the mole that killed him as 'the little gentleman in the black velvet waistcoat'.",
+          "status": "confirmed",
+          "note": "The toast is well recorded among his Jacobite enemies after 1702."
+        }
+      ],
+      "hook": "William III is dead without children. The Orange heir is a 14-year-old Frisian cousin. Holland's regents decide they managed fine without a stadtholder before.",
+      "images": [
+        {
+          "file": "File:Willem III als stadhouder (W Wissing).jpg",
+          "url": "https://upload.wikimedia.org/wikipedia/commons/b/b0/Willem_III_als_stadhouder_%28W_Wissing%29.jpg",
+          "page": "https://commons.wikimedia.org/wiki/File:Willem_III_als_stadhouder_(W_Wissing).jpg",
+          "credit": "Willem Wissing",
+          "license": "Public domain",
+          "made": "c. 1674",
+          "caption": "Painted by Willem Wissing around 1674, when William was a young stadtholder at war with France.",
+          "alt": "Painted portrait of William III as stadtholder of the Dutch Republic"
+        }
+      ],
+      "sources": [
+        {
+          "title": "William III",
+          "author": "Stephen B. Baxter",
+          "note": "Longmans, 1966"
+        },
+        {
+          "title": "William III, the Stadholder-King: A Political Biography",
+          "author": "Wout Troost",
+          "note": "Ashgate, 2005"
+        },
+        {
+          "title": "The Princes of Orange: The Stadholders in the Dutch Republic",
+          "author": "Herbert H. Rowen",
+          "note": "Cambridge University Press, 1988"
+        },
+        {
+          "title": "The Dutch Republic: Its Rise, Greatness, and Fall, 1477–1806",
+          "author": "Jonathan I. Israel",
+          "note": "Oxford University Press, 1995"
+        }
+      ],
+      "review": {
+        "status": "draft",
+        "notes": "Drafted from the listed sources; needs a human fact-check."
+      }
+    },
+    {
+      "id": "second-stadtholderless",
+      "kind": "interregnum",
+      "house": "republic",
+      "rulers": [],
+      "tagline": "Rich, tired and run by the same few families",
+      "start": {
+        "date": "1702-03-08"
+      },
+      "end": {
+        "date": "1747-05-04"
+      },
+      "contestedWith": [],
+      "relationToPredecessor": "Replaced the stadtholder",
+      "ageAtAccession": "No stadtholder",
+      "cameToPower": "Five provinces left the post empty",
+      "reignEnded": "French invasion brings back Orange",
+      "previously": "William III dies after a riding fall, with no children.",
+      "paragraphs": [
+        "Five provinces left the stadtholder's post empty again. Friesland and Groningen kept their own Orange stadtholder from the Frisian branch, Johan Willem Friso. He drowned in 1711 when his ferry overturned crossing the water at Moerdijk. His son William was born seven weeks later.",
+        "The Republic fought France alongside Britain in the War of the Spanish Succession. The Grand Pensionary Anthonie Heinsius kept the alliance going, and Dutch troops bled at battles like Malplaquet. The war left the Republic deep in debt, and at the peace talks in Utrecht in 1713 the big powers settled things among themselves.",
+        "After that the Republic stepped back from big-power politics. The regent families ran the towns like private clubs, sharing out the jobs by private agreement. Money was still pouring in from investments abroad, but the navy shrank and the army rotted. In 1747 the French invaded once more, and the panicked towns called for an Orange again."
+      ],
+      "claims": [
+        {
+          "text": "A French diplomat told the Dutch at Utrecht that the peace would be made 'about you, at your place, without you'.",
+          "status": "legend",
+          "note": "The line is credited to the Abbé de Polignac. It is quoted endlessly but there is no good record of him saying it."
+        },
+        {
+          "text": "Johan Willem Friso drowned crossing the Hollands Diep in 1711.",
+          "status": "confirmed",
+          "note": "His ferry capsized in a storm near Moerdijk. His posthumous son became William IV."
+        }
+      ],
+      "hook": "French troops are inside the Republic again and the towns are rioting for Orange. The Frisian stadtholder, William IV, is about to get all seven provinces.",
+      "images": [
+        {
+          "file": "File:Portret van Anthonie Heinsius, RP-P-1905-1671 (cropped).jpg",
+          "url": "https://upload.wikimedia.org/wikipedia/commons/4/48/Portret_van_Anthonie_Heinsius%2C_RP-P-1905-1671_%28cropped%29.jpg",
+          "page": "https://commons.wikimedia.org/wiki/File:Portret_van_Anthonie_Heinsius,_RP-P-1905-1671_(cropped).jpg",
+          "credit": "Jan Frederik Christiaan Reckleben, after Gerbrand van den Eeckhout",
+          "license": "CC0",
+          "made": "1877–1879",
+          "caption": "Grand Pensionary Anthonie Heinsius in a steel engraving made for a history book about 160 years after his death.",
+          "alt": "Steel engraving portrait of Anthonie Heinsius with his name and title beneath"
+        }
+      ],
+      "sources": [
+        {
+          "title": "The Dutch Republic: Its Rise, Greatness, and Fall, 1477–1806",
+          "author": "Jonathan I. Israel",
+          "note": "Oxford University Press, 1995"
+        },
+        {
+          "title": "The Princes of Orange: The Stadholders in the Dutch Republic",
+          "author": "Herbert H. Rowen",
+          "note": "Cambridge University Press, 1988"
+        },
+        {
+          "title": "The Dutch Republic in the Eighteenth Century: Decline, Enlightenment, and Revolution",
+          "author": "Margaret C. Jacob and Wijnand W. Mijnhardt (eds)",
+          "note": "Cornell University Press, 1992"
+        }
+      ],
+      "review": {
+        "status": "draft",
+        "notes": "Drafted from the listed sources; needs a human fact-check."
+      },
+      "title": "The Second Stadtholderless Period"
+    },
+    {
+      "id": "william-iv",
+      "kind": "leader",
+      "rulers": [
+        "william-iv"
+      ],
+      "tagline": "The first stadtholder of everything, for four years",
+      "start": {
+        "date": "1747-05-04"
+      },
+      "end": {
+        "date": "1751-10-22"
+      },
+      "contestedWith": [],
+      "relationToPredecessor": "Heir of the Frisian Orange branch",
+      "ageAtAccession": "35",
+      "cameToPower": "Riots and a French invasion",
+      "reignEnded": "Died at 40",
+      "previously": "The French invade again. Dutch towns riot and demand an Orange.",
+      "paragraphs": [
+        "William IV was born after his father drowned and grew up as stadtholder of Friesland. He had a curved spine and was small and hunched, and his enemies mocked him for it. He made a grand match all the same, marrying Anne, eldest daughter of George II of Britain, in 1734.",
+        "In 1747 the French invasion set off a wave of pro-Orange riots, and one province after another named him stadtholder. He was the first to hold the job in all seven provinces at once. The office was then made hereditary, even through the female line. People hoped he would sweep out the corrupt regents. In 1748 crowds rioted against the tax farmers, and he made only modest changes.",
+        "He was well-meaning but not a forceful leader. He died in October 1751, aged 40. His son was three."
+      ],
+      "claims": [
+        {
+          "text": "The stadtholdership became hereditary in 1747, even for a daughter.",
+          "status": "confirmed",
+          "note": "The provinces voted it in 1747. It turned the stadtholder into something close to a constitutional monarch."
+        },
+        {
+          "text": "The reforms the rioters wanted were blocked by William's own circle.",
+          "status": "disputed",
+          "note": "Historians argue over whether William could have done more, or whether he and his advisers chose to keep the old regents on side."
+        }
+      ],
+      "hook": "The new stadtholder is three years old. His British mother will rule for him. When he grows up, he will face a revolution he has no idea how to handle.",
+      "images": [
+        {
+          "file": "File:Willem IV (1711-1751), prins van Oranje-Nassau, SK-A-880.jpg",
+          "url": "https://upload.wikimedia.org/wikipedia/commons/1/1f/Willem_IV_%281711-1751%29%2C_prins_van_Oranje-Nassau%2C_SK-A-880.jpg",
+          "page": "https://commons.wikimedia.org/wiki/File:Willem_IV_(1711-1751),_prins_van_Oranje-Nassau,_SK-A-880.jpg",
+          "credit": "Jacques-André-Joseph Aved",
+          "license": "CC0",
+          "made": "c. 1750–1751",
+          "caption": "Painted by the French artist Aved in the last year or so of William's life.",
+          "alt": "Half-length portrait of William IV of Orange in armour"
+        }
+      ],
+      "sources": [
+        {
+          "title": "The Princes of Orange: The Stadholders in the Dutch Republic",
+          "author": "Herbert H. Rowen",
+          "note": "Cambridge University Press, 1988"
+        },
+        {
+          "title": "The Dutch Republic: Its Rise, Greatness, and Fall, 1477–1806",
+          "author": "Jonathan I. Israel",
+          "note": "Oxford University Press, 1995"
+        },
+        {
+          "title": "Patriots and Liberators: Revolution in the Netherlands, 1780–1813",
+          "author": "Simon Schama",
+          "note": "Collins, 1977"
+        }
+      ],
+      "review": {
+        "status": "draft",
+        "notes": "Drafted from the listed sources; needs a human fact-check."
+      }
+    },
+    {
+      "id": "william-v",
+      "kind": "leader",
+      "rulers": [
+        "william-v"
+      ],
+      "tagline": "The last stadtholder, who left on a fishing boat",
+      "start": {
+        "date": "1751-10-22"
+      },
+      "end": {
+        "date": "1795-01-18"
+      },
+      "contestedWith": [],
+      "relationToPredecessor": "Son of William IV",
+      "ageAtAccession": "3",
+      "cameToPower": "Inherited the office as a toddler",
+      "reignEnded": "Fled to England by fishing boat",
+      "previously": "William IV dies at 40, leaving a three-year-old son.",
+      "paragraphs": [
+        "First his mother Anne ruled for him, then the Duke of Brunswick. William V grew up dutiful, slow to decide and dependent on others. In 1767 he married Wilhelmina of Prussia, a niece of Frederick the Great, who had far more fire than he did.",
+        "The Republic lost a humiliating war with Britain in 1780 to 1784, and many blamed William. A movement called the Patriots wanted power for citizens and drilled their own militias. In 1787 Patriots stopped Wilhelmina on her way to The Hague. Her brother, the King of Prussia, treated it as an insult and sent in an army. The Patriots collapsed and thousands fled to France.",
+        "Revenge came with the French Revolution. In the bitter winter of 1794 to 1795 French armies and exiled Patriots crossed the frozen rivers. On 18 January 1795 William left from the beach at Scheveningen on a fishing boat for England. He died in exile in Brunswick in 1806."
+      ],
+      "claims": [
+        {
+          "text": "William V once said he wished his father had never been made stadtholder.",
+          "status": "disputed",
+          "note": "The remark is widely quoted in Dutch histories, but it comes second-hand and its wording varies."
+        },
+        {
+          "text": "The stopping of Wilhelmina at Goejanverwellesluis led to a Prussian invasion.",
+          "status": "confirmed",
+          "note": "Her detention on 28 June 1787 was the pretext for the Prussian army that marched in that September."
+        }
+      ],
+      "hook": "The stadtholder is gone. The French and the Patriots march into Amsterdam and declare a brand-new state: the Batavian Republic. Liberty has arrived, with French bayonets.",
+      "images": [
+        {
+          "file": "File:Johann Georg Ziesenis - Willem V prins van Oranje-Nassau - c 1770.jpg",
+          "url": "https://upload.wikimedia.org/wikipedia/commons/9/98/Johann_Georg_Ziesenis_-_Willem_V_prins_van_Oranje-Nassau_-_c_1770.jpg",
+          "page": "https://commons.wikimedia.org/wiki/File:Johann_Georg_Ziesenis_-_Willem_V_prins_van_Oranje-Nassau_-_c_1770.jpg",
+          "credit": "Johann Georg Ziesenis",
+          "license": "Public domain",
+          "made": "c. 1768–1769",
+          "caption": "Painted by Johann Georg Ziesenis around the time William married Wilhelmina of Prussia.",
+          "alt": "Painted portrait of William V, Prince of Orange"
+        }
+      ],
+      "sources": [
+        {
+          "title": "Patriots and Liberators: Revolution in the Netherlands, 1780–1813",
+          "author": "Simon Schama",
+          "note": "Collins, 1977"
+        },
+        {
+          "title": "The Princes of Orange: The Stadholders in the Dutch Republic",
+          "author": "Herbert H. Rowen",
+          "note": "Cambridge University Press, 1988"
+        },
+        {
+          "title": "The Dutch Republic: Its Rise, Greatness, and Fall, 1477–1806",
+          "author": "Jonathan I. Israel",
+          "note": "Oxford University Press, 1995"
+        }
+      ],
+      "review": {
+        "status": "draft",
+        "notes": "Drafted from the listed sources; needs a human fact-check."
+      }
+    },
+    {
+      "id": "batavian-republic",
+      "kind": "interregnum",
+      "title": "The Batavian Republic",
+      "house": "french",
+      "rulers": [],
+      "tagline": "Liberty arrives on French bayonets, and the bill follows",
+      "start": {
+        "date": "1795-01-18"
+      },
+      "end": {
+        "date": "1806-06-05"
+      },
+      "contestedWith": [],
+      "relationToPredecessor": "Replaced the stadtholderate",
+      "ageAtAccession": "No single ruler",
+      "cameToPower": "French invasion and Patriot revolt",
+      "reignEnded": "Napoleon made it a kingdom",
+      "previously": "William V flees to England in a fishing boat as the French arrive.",
+      "paragraphs": [
+        "The winter of 1794–95 was so cold the rivers froze solid, and the French army simply walked across them. The Dutch Patriots, exiled since 1787, came back cheering. They proclaimed a Batavian Republic, named after the tribe that once defied Rome. Trees of liberty went up in town squares. Then came the bill: the French demanded 100 million guilders and that the Dutch feed and house their army.",
+        "The new republic spent years arguing over whether to keep the old provinces or build one modern state. It took coups to settle it. A 1798 constitution made the country a single unitary state, and Jews had already been given full citizenship in 1796. At sea it went badly. The British smashed the Dutch fleet at Camperdown in 1797, and Britain picked off Dutch colonies one by one.",
+        "Paris kept changing the rules. In 1805 Napoleon put a single strongman in charge, Rutger Jan Schimmelpenninck, with the old title of Grand Pensionary. It didn't last a year. Napoleon wanted family on his thrones, and he had a younger brother without a job."
+      ],
+      "claims": [
+        {
+          "text": "French cavalry captured the Dutch fleet while it was frozen in the ice at Den Helder.",
+          "status": "disputed",
+          "note": "It happened in January 1795, but the ships had orders not to resist. The heroic charge across the ice owes a lot to French propaganda prints."
+        },
+        {
+          "text": "The Batavian Republic gave Dutch Jews equal citizenship in 1796.",
+          "status": "confirmed",
+          "note": "The National Assembly passed the decree in September 1796, among the first such laws in Europe."
+        },
+        {
+          "text": "The Dutch had to pay France 100 million guilders for their 'liberation'.",
+          "status": "confirmed",
+          "note": "Set out in the Treaty of The Hague, May 1795, along with supporting a French army of occupation."
+        }
+      ],
+      "hook": "Napoleon is done with Dutch politicians. He's sending his brother Louis to be king. Louis doesn't want the job, doesn't speak the language, and has been told to do exactly as he's told.",
+      "images": [
+        {
+          "file": "File:Rutger Jan Schimmelpenninck (1761-1825). Raadpensionaris van de Bataafse Republiek, SK-A-4227.jpg",
+          "url": "https://upload.wikimedia.org/wikipedia/commons/1/1e/Rutger_Jan_Schimmelpenninck_%281761-1825%29._Raadpensionaris_van_de_Bataafse_Republiek%2C_SK-A-4227.jpg",
+          "page": "https://commons.wikimedia.org/wiki/File:Rutger_Jan_Schimmelpenninck_(1761-1825)._Raadpensionaris_van_de_Bataafse_Republiek,_SK-A-4227.jpg",
+          "credit": "Unknown artist (Rijksmuseum, Amsterdam)",
+          "license": "CC0",
+          "made": "c. 1800–1810",
+          "caption": "Rutger Jan Schimmelpenninck, the republic's last leader, in a pastel from the time.",
+          "alt": "Pastel head-and-shoulders portrait of Rutger Jan Schimmelpenninck in an oval frame, turned to the left"
+        }
+      ],
+      "sources": [
+        {
+          "title": "Patriots and Liberators: Revolution in the Netherlands, 1780–1813",
+          "author": "Simon Schama",
+          "note": "Collins, 1977"
+        },
+        {
+          "title": "The Dutch Republic: Its Rise, Greatness, and Fall, 1477–1806",
+          "author": "Jonathan Israel",
+          "note": "Oxford University Press, 1995"
+        },
+        {
+          "title": "A Concise History of the Netherlands",
+          "author": "James C. Kennedy",
+          "note": "Cambridge University Press, 2017"
+        }
+      ],
+      "review": {
+        "status": "draft",
+        "notes": "Drafted from the listed sources; needs a human fact-check."
+      }
+    },
+    {
+      "id": "louis-bonaparte",
+      "kind": "monarch",
+      "rulers": [
+        "louis-bonaparte"
+      ],
+      "tagline": "Napoleon's puppet king who went native",
+      "start": {
+        "date": "1806-06-05"
+      },
+      "end": {
+        "date": "1810-07-01"
+      },
+      "contestedWith": [],
+      "relationToPredecessor": "Younger brother of Napoleon",
+      "ageAtAccession": "27",
+      "cameToPower": "Made King of Holland by Napoleon",
+      "reignEnded": "Abdicated and fled by night",
+      "previously": "The Batavian Republic is wound up. Napoleon wants a Bonaparte on top.",
+      "paragraphs": [
+        "Louis was meant to be a puppet. Napoleon told him to put France first and keep the Dutch in line. Instead Louis decided to be a proper Dutch king. He took lessons in the language, called himself King of Holland, and moved his court into Amsterdam's grand town hall on the Dam, which has been a royal palace ever since. When a gunpowder ship blew up in the middle of Leiden in 1807, he rushed there to help.",
+        "He set up a royal museum and a royal institute for science, the seeds of the Rijksmuseum and the Dutch Academy. Napoleon was furious. He wanted the Dutch to stop trading with Britain, and Louis let the smugglers carry on. His marriage to Hortense de Beauharnais was miserable too. Their third son would one day rule France as Napoleon III.",
+        "In 1810 Napoleon took the southern provinces and sent troops towards Amsterdam. On 1 July Louis gave up the crown in favour of his little son and slipped away to Austrian territory. Napoleon ignored the boy completely."
+      ],
+      "claims": [
+        {
+          "text": "Trying out his Dutch, Louis told the crowd 'I am your rabbit' (konijn) instead of 'king' (koning).",
+          "status": "legend",
+          "note": "A much-loved joke that appears in later anecdote collections. No reliable eyewitness records it."
+        },
+        {
+          "text": "Louis founded the institutions that grew into the Rijksmuseum and the Royal Netherlands Academy of Arts and Sciences.",
+          "status": "confirmed",
+          "note": "Both the Royal Museum and the Royal Institute were created by his decrees in 1808."
+        },
+        {
+          "text": "Louis really did take the Dutch side against his brother.",
+          "status": "confirmed",
+          "note": "Their angry letters survive, and Louis defended his record in his own memoirs, published in 1820."
+        }
+      ],
+      "hook": "Louis is gone. Napoleon signs a decree: the Kingdom of Holland no longer exists. The Dutch are now Frenchmen, and the emperor is about to want their sons, their ships and their surnames.",
+      "images": [
+        {
+          "file": "File:C.H. Hodges - Lodewijk Napoleon (1778-1846), koning der Nederlanden - C677 - Het Loo Palace.jpg",
+          "url": "https://upload.wikimedia.org/wikipedia/commons/6/65/C.H._Hodges_-_Lodewijk_Napoleon_%281778-1846%29%2C_koning_der_Nederlanden_-_C677_-_Het_Loo_Palace.jpg",
+          "page": "https://commons.wikimedia.org/wiki/File:C.H._Hodges_-_Lodewijk_Napoleon_(1778-1846),_koning_der_Nederlanden_-_C677_-_Het_Loo_Palace.jpg",
+          "credit": "After Charles Howard Hodges",
+          "license": "Public domain",
+          "made": "1806–1810",
+          "caption": "A portrait of Louis as King of Holland, after a painting by Charles Howard Hodges, in the collection of Het Loo Palace.",
+          "alt": "Painted portrait of Louis Bonaparte as King of Holland"
+        }
+      ],
+      "sources": [
+        {
+          "title": "Patriots and Liberators: Revolution in the Netherlands, 1780–1813",
+          "author": "Simon Schama",
+          "note": "Collins, 1977"
+        },
+        {
+          "title": "Documents historiques et réflexions sur le gouvernement de la Hollande",
+          "author": "Louis Bonaparte",
+          "note": "His own account of his reign, 1820"
+        },
+        {
+          "title": "A Concise History of the Netherlands",
+          "author": "James C. Kennedy",
+          "note": "Cambridge University Press, 2017"
+        }
+      ],
+      "review": {
+        "status": "draft",
+        "notes": "Drafted from the listed sources; needs a human fact-check."
+      }
+    },
+    {
+      "id": "french-rule",
+      "kind": "interregnum",
+      "title": "Part of Napoleon's Empire",
+      "house": "french",
+      "rulers": [],
+      "tagline": "The Dutch become French, and everyone needs a surname",
+      "start": {
+        "date": "1810-07-09"
+      },
+      "end": {
+        "date": "1813-11-30"
+      },
+      "contestedWith": [],
+      "relationToPredecessor": "Followed Louis's abdication",
+      "ageAtAccession": "No monarch",
+      "cameToPower": "Napoleon annexed the kingdom",
+      "reignEnded": "French driven out in 1813",
+      "previously": "Louis Bonaparte abdicates and flees. Napoleon ignores his little son.",
+      "paragraphs": [
+        "On 9 July 1810 Napoleon swallowed the Netherlands whole. The country became a set of French departments, run from Amsterdam by a governor-general. Amsterdam was named the third city of the empire, after Paris and Rome, which was little comfort. Trade with Britain was banned, the ports went quiet and smuggling boomed. In October 1811 the emperor himself rode into Amsterdam to be cheered.",
+        "French rule brought paperwork. From 1811 everyone had to register a fixed family name, which many Dutch people had never needed. It also brought conscription. Thousands of young Dutchmen marched to Russia in 1812, and few came back. Dutch pontoon builders worked in freezing water to bridge the Berezina so the wrecked army could escape.",
+        "Then Napoleon lost at Leipzig in October 1813. French troops began pulling out. In The Hague a small group of old Orange loyalists declared a new government in November and sent word to England: the prince should come home."
+      ],
+      "claims": [
+        {
+          "text": "Dutch people picked silly surnames like Naaktgeboren ('born naked') to mock the French, assuming the rule wouldn't last.",
+          "status": "legend",
+          "note": "A popular story. Most of these odd names can be found in records before 1811, so they weren't invented as a joke."
+        },
+        {
+          "text": "Dutch pontoon builders built the Berezina bridges that saved Napoleon's retreating army.",
+          "status": "confirmed",
+          "note": "Captain Benthien's Dutch pontoniers worked under General Eblé in the icy river. Most of them died."
+        },
+        {
+          "text": "Napoleon made Amsterdam the third city of his empire.",
+          "status": "confirmed",
+          "note": "Set down in the 1810 decree annexing Holland. It was an honour on paper only."
+        }
+      ],
+      "hook": "November 1813. A fishing beach at Scheveningen. A British warship lands the son of the stadtholder who fled 18 years ago. The crowd shouts 'Oranje boven!' He has come back as something new: a monarch.",
+      "images": [
+        {
+          "file": "File:SA 471-De intocht van Napoleon te Amsterdam, 9 oktober 1811.jpg",
+          "url": "https://upload.wikimedia.org/wikipedia/commons/c/c7/SA_471-De_intocht_van_Napoleon_te_Amsterdam%2C_9_oktober_1811.jpg",
+          "page": "https://commons.wikimedia.org/wiki/File:SA_471-De_intocht_van_Napoleon_te_Amsterdam,_9_oktober_1811.jpg",
+          "credit": "Mattheus Ignatius van Bree",
+          "license": "Public domain",
+          "made": "c. 1812–1813",
+          "caption": "Napoleon's entry into Amsterdam on 9 October 1811, painted a year or two later.",
+          "alt": "Large crowd painting of Napoleon on horseback entering Amsterdam with his entourage, greeted by city officials"
+        }
+      ],
+      "sources": [
+        {
+          "title": "Patriots and Liberators: Revolution in the Netherlands, 1780–1813",
+          "author": "Simon Schama",
+          "note": "Collins, 1977"
+        },
+        {
+          "title": "De Adelaar en het Lam: onrust, opruiing en onwilligheid in Nederland ten tijde van het Koninkrijk Holland en de Inlijving bij het Franse Keizerrijk (1806–1813)",
+          "author": "Johan Joor",
+          "note": "De Bataafsche Leeuw, 2000"
+        },
+        {
+          "title": "A Concise History of the Netherlands",
+          "author": "James C. Kennedy",
+          "note": "Cambridge University Press, 2017"
+        }
+      ],
+      "review": {
+        "status": "draft",
+        "notes": "Drafted from the listed sources; needs a human fact-check."
+      }
+    },
+    {
+      "id": "william-i",
+      "kind": "monarch",
+      "rulers": [
+        "william-i"
+      ],
+      "tagline": "The merchant king who lost Belgium and married for love",
+      "start": {
+        "date": "1813-12-02"
+      },
+      "end": {
+        "date": "1840-10-07"
+      },
+      "contestedWith": [],
+      "relationToPredecessor": "Son of the last stadtholder",
+      "ageAtAccession": "41",
+      "cameToPower": "Invited back after the French left",
+      "reignEnded": "Abdicated to marry a Catholic",
+      "previously": "The French pull out, and Orange loyalists call the prince home.",
+      "paragraphs": [
+        "William landed at Scheveningen on 30 November 1813 and was proclaimed sovereign prince days later. When Napoleon escaped from Elba in 1815, William made himself king. The great powers handed him Belgium too, to make a strong buffer state against France. His son fought at Waterloo. North and south were joined again for the first time since the 1580s.",
+        "William ran the country like a company director. He dug canals, founded a trading company and squeezed profits out of Java. People called him the merchant king. But the Catholic, French-speaking south felt bossed about by Dutch Protestants. In August 1830 a riot broke out in Brussels after a night at the opera, and within weeks Belgium was gone.",
+        "William refused to accept it. He beat the Belgians in a short campaign in 1831, then France stepped in. He held out for eight costly years before signing the treaty in 1839. Then, a widower, he fell for a Catholic Belgian countess. The Dutch were horrified, and in October 1840 he gave up the throne to marry her."
+      ],
+      "claims": [
+        {
+          "text": "The Belgian Revolution started at the opera.",
+          "status": "confirmed",
+          "note": "Rioting began on 25 August 1830 after a Brussels performance of Auber's La Muette de Portici, with its rousing patriotic duet. The deeper causes were economic and religious."
+        },
+        {
+          "text": "William abdicated purely because of his planned marriage.",
+          "status": "disputed",
+          "note": "Henriette d'Oultremont mattered, but historians also point to his anger at the 1840 constitutional changes and the mess in the state finances."
+        },
+        {
+          "text": "His nickname was the 'Merchant King'.",
+          "status": "confirmed",
+          "note": "Coined for his trading company, canals and colonial profit schemes; biographers still use it."
+        }
+      ],
+      "hook": "The old king leaves for Berlin with his countess. His son takes over: a dashing, debt-ridden war hero who was shot at Waterloo and has some secrets he'd rather nobody found out.",
+      "images": [
+        {
+          "file": "File:J. Paelinck - Willem I (1772-1843), Koning der Nederlanden - R3605 - Cultural Heritage Agency of the Netherlands Art Collection.jpg",
+          "url": "https://upload.wikimedia.org/wikipedia/commons/c/ce/J._Paelinck_-_Willem_I_%281772-1843%29%2C_Koning_der_Nederlanden_-_R3605_-_Cultural_Heritage_Agency_of_the_Netherlands_Art_Collection.jpg",
+          "page": "https://commons.wikimedia.org/wiki/File:J._Paelinck_-_Willem_I_(1772-1843),_Koning_der_Nederlanden_-_R3605_-_Cultural_Heritage_Agency_of_the_Netherlands_Art_Collection.jpg",
+          "credit": "Joseph Paelinck",
+          "license": "Public domain",
+          "made": "1814–1839",
+          "caption": "Painted by Joseph Paelinck during William's reign.",
+          "alt": "Painted portrait of King William I of the Netherlands"
+        }
+      ],
+      "sources": [
+        {
+          "title": "Koning Willem I, 1772–1843",
+          "author": "Jeroen Koch",
+          "note": "Boom, 2013"
+        },
+        {
+          "title": "The Low Countries, 1780–1940",
+          "author": "E. H. Kossmann",
+          "note": "Oxford University Press, 1978"
+        },
+        {
+          "title": "A Concise History of the Netherlands",
+          "author": "James C. Kennedy",
+          "note": "Cambridge University Press, 2017"
+        }
+      ],
+      "review": {
+        "status": "draft",
+        "notes": "Drafted from the listed sources; needs a human fact-check."
+      }
+    },
+    {
+      "id": "william-ii",
+      "kind": "monarch",
+      "rulers": [
+        "william-ii"
+      ],
+      "tagline": "The Waterloo hero who turned liberal overnight",
+      "start": {
+        "date": "1840-10-07"
+      },
+      "end": {
+        "date": "1849-03-17"
+      },
+      "contestedWith": [],
+      "relationToPredecessor": "Son of William I",
+      "ageAtAccession": "47",
+      "cameToPower": "Father abdicated",
+      "reignEnded": "Died suddenly at Tilburg",
+      "previously": "William I abdicates to marry his Catholic countess.",
+      "paragraphs": [
+        "William II grew up in exile, studied at Oxford and served on Wellington's staff in Spain. He was briefly engaged to Princess Charlotte, heir to the British throne, until she called it off. At Waterloo, aged 22, he commanded a corps of Wellington's army and took a bullet in the shoulder. The Belgians later raised a huge earth mound topped by a lion near the spot. He married a Russian tsar's sister, Anna Pavlovna.",
+        "As king he was charming, moody and short of money. Then came 1848, when revolutions swept Paris, Vienna and Berlin. William panicked, and in March he suddenly backed reform. He later said he had gone from very conservative to very liberal in a single night. The liberal Thorbecke drafted a new constitution that made ministers answer to parliament instead of the king.",
+        "It is still the basis of Dutch democracy today. William barely lived to see it work. In March 1849 he fell ill in Tilburg, the town he loved, and died there at 56."
+      ],
+      "claims": [
+        {
+          "text": "William said he changed 'from very conservative to very liberal in one night'.",
+          "status": "confirmed",
+          "note": "He said it himself to foreign diplomats in 1848, and they reported it home."
+        },
+        {
+          "text": "He backed reform because he was being blackmailed over his private life.",
+          "status": "disputed",
+          "note": "Letters show attempts to blackmail him, and his biographer Jeroen van Zanten takes this seriously. Others think fear of revolution was enough."
+        },
+        {
+          "text": "The Lion's Mound at Waterloo marks where he was wounded.",
+          "status": "confirmed",
+          "note": "It was built in the 1820s on William I's orders to mark roughly the spot where his son was hit."
+        }
+      ],
+      "hook": "The new king never wanted the new constitution. William III is 32, hot-tempered and stuck in a miserable marriage. He's threatened to refuse the crown entirely.",
+      "images": [
+        {
+          "file": "File:Portret van Willem II, koning der Nederlanden Rijksmuseum SK-C-170.jpeg",
+          "url": "https://upload.wikimedia.org/wikipedia/commons/8/81/Portret_van_Willem_II%2C_koning_der_Nederlanden_Rijksmuseum_SK-C-170.jpeg",
+          "page": "https://commons.wikimedia.org/wiki/File:Portret_van_Willem_II,_koning_der_Nederlanden_Rijksmuseum_SK-C-170.jpeg",
+          "credit": "Jan Adam Kruseman",
+          "license": "Public domain",
+          "made": "1839",
+          "caption": "Painted by Jan Adam Kruseman in 1839, the year before William became king.",
+          "alt": "Full-length painted portrait of William II standing in a landscape, leaning against rocks, with a dog at his feet"
+        }
+      ],
+      "sources": [
+        {
+          "title": "Koning Willem II, 1792–1849",
+          "author": "Jeroen van Zanten",
+          "note": "Boom, 2013"
+        },
+        {
+          "title": "The Low Countries, 1780–1940",
+          "author": "E. H. Kossmann",
+          "note": "Oxford University Press, 1978"
+        },
+        {
+          "title": "A Concise History of the Netherlands",
+          "author": "James C. Kennedy",
+          "note": "Cambridge University Press, 2017"
+        }
+      ],
+      "review": {
+        "status": "draft",
+        "notes": "Drafted from the listed sources; needs a human fact-check."
+      }
+    },
+    {
+      "id": "william-iii",
+      "kind": "monarch",
+      "rulers": [
+        "william-iii"
+      ],
+      "tagline": "The bad-tempered king who outlived all his sons",
+      "start": {
+        "date": "1849-03-17"
+      },
+      "end": {
+        "date": "1890-11-23"
+      },
+      "contestedWith": [],
+      "relationToPredecessor": "Son of William II",
+      "ageAtAccession": "32",
+      "cameToPower": "Father died suddenly",
+      "reignEnded": "Died at Het Loo",
+      "previously": "William II dies suddenly, months after a liberal constitution.",
+      "paragraphs": [
+        "William III hated the new constitution and the politicians who came with it. He was rude, impulsive and given to rages. His marriage to his clever cousin Sophie of Württemberg was a disaster, and they ended up living apart. Ministers learned to work around him. Real power drained steadily away from the throne to parliament.",
+        "His reign still saw big changes. Slavery in the Dutch colonies in the Americas ended in 1863. In 1867 he tried to sell Luxembourg, which he ruled as grand duke, to Napoleon III. Prussia was outraged, and the great powers had to step in to calm things down.",
+        "Then the deaths came. His three sons all died before him, the last in 1884. In 1879, aged 61, he married 20-year-old Emma of Waldeck-Pyrmont. Their daughter Wilhelmina was born in 1880, when he was 63. She was the only heir left."
+      ],
+      "claims": [
+        {
+          "text": "He tried to sell Luxembourg to France.",
+          "status": "confirmed",
+          "note": "The 1867 Luxembourg Crisis nearly started a war. A London conference made Luxembourg neutral instead."
+        },
+        {
+          "text": "He nearly refused the throne in 1849.",
+          "status": "confirmed",
+          "note": "He talked of abdicating over the 1848 constitution even before his father died. His biographer Dik van der Meulen covers it."
+        }
+      ],
+      "hook": "The king is dead and the heir is a 10-year-old girl. Luxembourg won't accept a woman, so it breaks away. Her mother Emma will rule until Wilhelmina is 18.",
+      "images": [
+        {
+          "file": "File:Willem III (1817-90), koning der Nederlanden, Nicolaas Pieneman, 1856 - Rijksmuseum.jpg",
+          "url": "https://upload.wikimedia.org/wikipedia/commons/8/87/Willem_III_%281817-90%29%2C_koning_der_Nederlanden%2C_Nicolaas_Pieneman%2C_1856_-_Rijksmuseum.jpg",
+          "page": "https://commons.wikimedia.org/wiki/File:Willem_III_(1817-90),_koning_der_Nederlanden,_Nicolaas_Pieneman,_1856_-_Rijksmuseum.jpg",
+          "credit": "Nicolaas Pieneman",
+          "license": "CC0",
+          "made": "1856",
+          "caption": "Painted by Nicolaas Pieneman in 1856, seven years into the reign.",
+          "alt": "Full-length portrait of William III standing in uniform and an ermine cloak, hand on his sword, with crown and sceptre on a cushion beside him"
+        }
+      ],
+      "sources": [
+        {
+          "title": "Koning Willem III, 1817–1890",
+          "author": "Dik van der Meulen",
+          "note": "Boom, 2013"
+        },
+        {
+          "title": "The Low Countries, 1780–1940",
+          "author": "E. H. Kossmann",
+          "note": "Oxford University Press, 1978"
+        },
+        {
+          "title": "A Concise History of the Netherlands",
+          "author": "James C. Kennedy",
+          "note": "Cambridge University Press, 2017"
+        }
+      ],
+      "review": {
+        "status": "draft",
+        "notes": "Drafted from the listed sources; needs a human fact-check."
+      }
+    },
+    {
+      "id": "wilhelmina",
+      "kind": "monarch",
+      "rulers": [
+        "wilhelmina"
+      ],
+      "tagline": "The girl queen who became Hitler's most stubborn enemy",
+      "start": {
+        "date": "1890-11-23"
+      },
+      "end": {
+        "date": "1948-09-04"
+      },
+      "contestedWith": [],
+      "relationToPredecessor": "Daughter of William III",
+      "ageAtAccession": "10",
+      "cameToPower": "Father died; mother ruled as regent",
+      "reignEnded": "Abdicated after 50 years",
+      "previously": "William III dies. His only heir is a little girl of ten.",
+      "paragraphs": [
+        "Wilhelmina became queen at ten. Her mother Emma ran things until 1898, when Wilhelmina turned 18 and was sworn in. She married a German duke, Henry of Mecklenburg-Schwerin, and after several miscarriages had one daughter, Juliana, in 1909. In the First World War the Netherlands stayed neutral. In 1918 the defeated Kaiser crossed the border, and the Dutch refused to hand him over.",
+        "On 10 May 1940 Germany invaded. Three days later Wilhelmina was on a British destroyer to England. Many Dutch felt abandoned at first. Then she started speaking on Radio Oranje from London, and her fierce broadcasts made her the face of resistance. Churchill admired her. She returned to liberated Dutch soil in 1945, more popular than ever.",
+        "Exhausted, she handed over to Juliana in September 1948, just after her golden jubilee. She retired to Het Loo as Princess Wilhelmina, wrote her memoirs and died in 1962."
+      ],
+      "claims": [
+        {
+          "text": "Churchill called her 'the only real man among the governments-in-exile in London'.",
+          "status": "disputed",
+          "note": "Endlessly quoted, but nobody has found a firm source for the exact words."
+        },
+        {
+          "text": "She meant to go to Zeeland to stay with her troops, and ended up in England instead.",
+          "status": "confirmed",
+          "note": "She described it in her memoirs. Landing in Zeeland proved too dangerous, so the destroyer took her to Harwich."
+        },
+        {
+          "text": "The Dutch refused to extradite the Kaiser after the First World War.",
+          "status": "confirmed",
+          "note": "Wilhelm II lived out his life at Doorn and died there in 1941."
+        }
+      ],
+      "hook": "Juliana is 39, warm and informal, and nothing like her mother. But behind palace doors her family is in trouble, and a faith healer is about to move into the royal household.",
+      "images": [
+        {
+          "file": "File:Queen Wilhelmina close-up (cropped).jpg",
+          "url": "https://upload.wikimedia.org/wikipedia/commons/2/28/Queen_Wilhelmina_close-up_%28cropped%29.jpg",
+          "page": "https://commons.wikimedia.org/wiki/File:Queen_Wilhelmina_close-up_(cropped).jpg",
+          "credit": "Studio of Jacob Merkelbach",
+          "license": "Public domain",
+          "made": "c. 1948",
+          "caption": "Photographed in her final year on the throne.",
+          "alt": "Black-and-white photograph of an elderly Queen Wilhelmina, seated"
+        }
+      ],
+      "sources": [
+        {
+          "title": "Wilhelmina: De jonge koningin",
+          "author": "Cees Fasseur",
+          "note": "Balans, 1998"
+        },
+        {
+          "title": "Wilhelmina: Krijgshaftig in een vormeloze jas",
+          "author": "Cees Fasseur",
+          "note": "Balans, 2001"
+        },
+        {
+          "title": "Eenzaam maar niet alleen",
+          "author": "Wilhelmina, Princess of the Netherlands",
+          "note": "Her memoirs, 1959"
+        },
+        {
+          "title": "A Concise History of the Netherlands",
+          "author": "James C. Kennedy",
+          "note": "Cambridge University Press, 2017"
+        }
+      ],
+      "review": {
+        "status": "draft",
+        "notes": "Drafted from the listed sources; needs a human fact-check."
+      }
+    },
+    {
+      "id": "juliana",
+      "kind": "monarch",
+      "rulers": [
+        "juliana"
+      ],
+      "tagline": "The bicycling queen with a faith healer at court",
+      "start": {
+        "date": "1948-09-04"
+      },
+      "end": {
+        "date": "1980-04-30"
+      },
+      "contestedWith": [],
+      "relationToPredecessor": "Daughter of Wilhelmina",
+      "ageAtAccession": "39",
+      "cameToPower": "Mother abdicated",
+      "reignEnded": "Abdicated on her 71st birthday",
+      "previously": "Wilhelmina, worn out, steps down after fifty years on the throne.",
+      "paragraphs": [
+        "Juliana spent the war in Ottawa with her daughters. Her third, Margriet, was born there in 1943, and the Dutch still send Canada tulips every year to say thanks. As queen she wanted to be ordinary. She was photographed on her bicycle and shook hands in rubber boots after the 1953 flood, which killed over 1,800 people. Under her, Indonesia became independent in 1949.",
+        "Her youngest daughter had been born nearly blind, and in 1948 Juliana brought in a faith healer named Greet Hofmans. Hofmans gained real influence over the queen, and her husband Prince Bernhard fought back. By 1956 the marriage and the monarchy were in crisis. A committee of wise men was called in, and Hofmans was sent away from court.",
+        "Twenty years later came another blow. In 1976 Bernhard was found to have taken money from the US plane-maker Lockheed. He lost his military posts but wasn't prosecuted. On 30 April 1980, her 71st birthday, Juliana handed the crown to her eldest daughter."
+      ],
+      "claims": [
+        {
+          "text": "Juliana threatened to abdicate if Bernhard was prosecuted over Lockheed.",
+          "status": "disputed",
+          "note": "Widely reported and believed by many historians, but never officially confirmed."
+        },
+        {
+          "text": "Canada declared Margriet's hospital room outside Canadian territory so she would be born Dutch.",
+          "status": "confirmed",
+          "note": "Canada passed a special act for it. Strictly, the room wasn't made Dutch, it just wasn't Canadian."
+        },
+        {
+          "text": "Greet Hofmans steered government policy through the queen.",
+          "status": "disputed",
+          "note": "Her influence on Juliana's views is well documented. How much it touched actual policy is still argued over."
+        }
+      ],
+      "hook": "The new queen is 42, sharp and serious. Her own wedding drew smoke bombs. On her inauguration day, Amsterdam is braced for a riot.",
+      "images": [
+        {
+          "file": "File:Koningin Juliana 1948.jpeg",
+          "url": "https://upload.wikimedia.org/wikipedia/commons/8/80/Koningin_Juliana_1948.jpeg",
+          "page": "https://commons.wikimedia.org/wiki/File:Koningin_Juliana_1948.jpeg",
+          "credit": "RVD",
+          "license": "CC0",
+          "made": "1948",
+          "caption": "Photographed in 1948, the year she became queen.",
+          "alt": "Black-and-white portrait photograph of Queen Juliana"
+        }
+      ],
+      "sources": [
+        {
+          "title": "Juliana & Bernhard: het verhaal van een huwelijk",
+          "author": "Cees Fasseur",
+          "note": "Balans, 2008"
+        },
+        {
+          "title": "Juliana: vorstin in een mannenwereld",
+          "author": "Jolande Withuis",
+          "note": "De Arbeiderspers, 2016"
+        },
+        {
+          "title": "A Concise History of the Netherlands",
+          "author": "James C. Kennedy",
+          "note": "Cambridge University Press, 2017"
+        }
+      ],
+      "review": {
+        "status": "draft",
+        "notes": "Drafted from the listed sources; needs a human fact-check."
+      }
+    },
+    {
+      "id": "beatrix",
+      "kind": "monarch",
+      "rulers": [
+        "beatrix"
+      ],
+      "tagline": "Smoke bombs, riots and a very professional queen",
+      "start": {
+        "date": "1980-04-30"
+      },
+      "end": {
+        "date": "2013-04-30"
+      },
+      "contestedWith": [],
+      "relationToPredecessor": "Daughter of Juliana",
+      "ageAtAccession": "42",
+      "cameToPower": "Mother abdicated",
+      "reignEnded": "Abdicated after 33 years",
+      "previously": "Juliana abdicates on her 71st birthday, after the Lockheed scandal.",
+      "paragraphs": [
+        "Beatrix's wedding in 1966 was a mess. She married Claus von Amsberg, a German diplomat who had been in the Hitler Youth and the German army as a teenager. Many Dutch people were furious. As the golden coach rolled through Amsterdam, protesters threw a smoke bomb at it. Over the years Claus won people round, and he became one of the most loved royals of all.",
+        "Her inauguration in April 1980 was rough too. Squatters protesting the housing shortage fought police in Amsterdam under the slogan 'no home, no coronation'. Beatrix had studied at Leiden and approached the job like a professional. She worked from The Hague, read her papers closely and was known for being well briefed.",
+        "Claus died in 2002. In January 2013 Beatrix announced she would step down, and on 30 April she signed the abdication. She became Princess Beatrix again."
+      ],
+      "claims": [
+        {
+          "text": "Protesters threw a smoke bomb at the golden coach during her wedding procession in 1966.",
+          "status": "confirmed",
+          "note": "Filmed and photographed at the time. The Provo movement was behind much of the protest."
+        },
+        {
+          "text": "Her inauguration day saw serious rioting in Amsterdam.",
+          "status": "confirmed",
+          "note": "Squatters clashed with police across the city on 30 April 1980, as news footage shows."
+        },
+        {
+          "text": "She kept Queen's Day on 30 April, her mother's birthday, instead of moving it to her own.",
+          "status": "confirmed",
+          "note": "Her birthday is 31 January, too cold for street parties. The royal house said so at the time."
+        }
+      ],
+      "hook": "For the first time since 1890, the Netherlands has a king. He's 46, once skated the 200-km Elfstedentocht, and has a secret second job flying airliners.",
+      "images": [
+        {
+          "file": "File:1980 Queen Beatrix's Inauguration (cropped)01.JPG",
+          "url": "https://upload.wikimedia.org/wikipedia/commons/0/09/1980_Queen_Beatrix%27s_Inauguration_%28cropped%2901.JPG",
+          "page": "https://commons.wikimedia.org/wiki/File:1980_Queen_Beatrix's_Inauguration_(cropped)01.JPG",
+          "credit": "Rob Croes for Anefo",
+          "license": "CC0",
+          "made": "1980",
+          "caption": "Taken at her inauguration in the Nieuwe Kerk, Amsterdam, on 30 April 1980.",
+          "alt": "Close-up press photograph of Queen Beatrix at her inauguration in the Nieuwe Kerk, just after taking the oath"
+        }
+      ],
+      "sources": [
+        {
+          "title": "A Concise History of the Netherlands",
+          "author": "James C. Kennedy",
+          "note": "Cambridge University Press, 2017"
+        },
+        {
+          "title": "Royal House of the Netherlands (official website)",
+          "author": "Koninklijk Huis",
+          "note": "koninklijkhuis.nl"
+        }
+      ],
+      "review": {
+        "status": "draft",
+        "notes": "Drafted from the listed sources; needs a human fact-check."
+      }
+    },
+    {
+      "id": "willem-alexander",
+      "kind": "monarch",
+      "rulers": [
+        "willem-alexander"
+      ],
+      "tagline": "The first king in 123 years, and a part-time pilot",
+      "start": {
+        "date": "2013-04-30"
+      },
+      "contestedWith": [],
+      "relationToPredecessor": "Son of Beatrix",
+      "ageAtAccession": "46",
+      "cameToPower": "Mother abdicated",
+      "previously": "Beatrix signs her abdication on 30 April 2013 in favour of her son.",
+      "paragraphs": [
+        "Willem-Alexander was the first Dutch king since William III died in 1890. As a young man he skated the Elfstedentocht, the famous 200-km race across Friesland, in 1986 under a fake name. He studied history at Leiden and became an expert on water management, a big deal in a country where much of the land lies below sea level. He also sat on the International Olympic Committee.",
+        "In 2002 he married Máxima Zorreguieta from Argentina. Her father had been a minister under the military junta, so he stayed away from the wedding. The couple have three daughters, and the eldest, Catharina-Amalia, is heir. Queen's Day became King's Day, held on his birthday, 27 April.",
+        "In 2017 he revealed he had spent about 21 years secretly flying passenger planes as a guest co-pilot for KLM Cityhopper. On 1 July 2023 he apologised for the Dutch role in slavery."
+      ],
+      "claims": [
+        {
+          "text": "He finished the Elfstedentocht in 1986 under the alias 'W.A. van Buren'.",
+          "status": "confirmed",
+          "note": "Reported at the time and confirmed by the royal house."
+        },
+        {
+          "text": "He co-piloted KLM Cityhopper flights for over two decades without most passengers knowing.",
+          "status": "confirmed",
+          "note": "He told De Telegraaf in 2017. KLM confirmed it."
+        },
+        {
+          "text": "He apologised for the Netherlands' role in slavery.",
+          "status": "confirmed",
+          "note": "He made the apology in a speech in Amsterdam on 1 July 2023, Keti Koti, the anniversary of abolition."
+        }
+      ],
+      "images": [
+        {
+          "file": "File:King Willem-Alexander and Queen Maxima on the inauguration 2013 (cropped).jpg",
+          "url": "https://upload.wikimedia.org/wikipedia/commons/c/ce/King_Willem-Alexander_and_Queen_Maxima_on_the_inauguration_2013_%28cropped%29.jpg",
+          "page": "https://commons.wikimedia.org/wiki/File:King_Willem-Alexander_and_Queen_Maxima_on_the_inauguration_2013_(cropped).jpg",
+          "credit": "Gerben van Es/Ministerie van Defensie",
+          "license": "CC BY-SA 4.0",
+          "made": "2013",
+          "caption": "Taken on his inauguration day, 30 April 2013.",
+          "alt": "Cropped photograph of King Willem-Alexander walking to the Nieuwe Kerk in Amsterdam on his inauguration day"
+        }
+      ],
+      "sources": [
+        {
+          "title": "Royal House of the Netherlands (official website)",
+          "author": "Koninklijk Huis",
+          "note": "koninklijkhuis.nl"
+        },
+        {
+          "title": "A Concise History of the Netherlands",
+          "author": "James C. Kennedy",
+          "note": "Cambridge University Press, 2017"
+        }
+      ],
+      "review": {
+        "status": "draft",
+        "notes": "Drafted from the listed sources; needs a human fact-check."
+      },
+      "reignEnded": "Still reigning"
+    }
+  ]
+}
