@@ -114,6 +114,223 @@
         "date": "1958-03-14",
         "note": "Prince's Palace, Monaco"
       }
+    },
+    {
+      "id": "charles-i",
+      "name": "Charles I",
+      "house": "grimaldi",
+      "died": {
+        "date": "1357"
+      }
+    },
+    {
+      "id": "louis-grimaldi",
+      "name": "Louis",
+      "house": "grimaldi",
+      "died": {
+        "date": "1402"
+      }
+    },
+    {
+      "id": "jean-i",
+      "name": "Jean I",
+      "house": "grimaldi",
+      "born": {
+        "date": "1382"
+      },
+      "died": {
+        "date": "1454-05-08"
+      }
+    },
+    {
+      "id": "catalan",
+      "name": "Catalan",
+      "house": "grimaldi",
+      "died": {
+        "date": "1457-07"
+      }
+    },
+    {
+      "id": "claudine",
+      "name": "Claudine",
+      "house": "grimaldi",
+      "born": {
+        "date": "1451",
+        "circa": true
+      },
+      "died": {
+        "date": "1515"
+      }
+    },
+    {
+      "id": "lamberto",
+      "name": "Lamberto",
+      "house": "grimaldi",
+      "born": {
+        "date": "1420",
+        "circa": true
+      },
+      "died": {
+        "date": "1494-03"
+      }
+    },
+    {
+      "id": "jean-ii",
+      "name": "Jean II",
+      "house": "grimaldi",
+      "born": {
+        "date": "1468"
+      },
+      "died": {
+        "date": "1505-10-11"
+      },
+      "causeOfDeath": "Killed by his brother Lucien"
+    },
+    {
+      "id": "lucien",
+      "name": "Lucien",
+      "house": "grimaldi",
+      "born": {
+        "date": "1487"
+      },
+      "died": {
+        "date": "1523-08-22",
+        "note": "Monaco"
+      },
+      "causeOfDeath": "Murdered by his nephew Bartolomeo Doria"
+    },
+    {
+      "id": "honore-i",
+      "name": "Honoré I",
+      "house": "grimaldi",
+      "born": {
+        "date": "1522"
+      },
+      "died": {
+        "date": "1581-10-07"
+      }
+    },
+    {
+      "id": "charles-ii",
+      "name": "Charles II",
+      "house": "grimaldi",
+      "born": {
+        "date": "1555"
+      },
+      "died": {
+        "date": "1589-05-17"
+      },
+      "causeOfDeath": "Natural causes"
+    },
+    {
+      "id": "hercule",
+      "name": "Hercule",
+      "house": "grimaldi",
+      "born": {
+        "date": "1562"
+      },
+      "died": {
+        "date": "1604-11-29",
+        "note": "Monaco"
+      },
+      "causeOfDeath": "Murdered by a band of his subjects"
+    },
+    {
+      "id": "louis-i",
+      "name": "Louis I",
+      "house": "grimaldi",
+      "born": {
+        "date": "1642-07-25"
+      },
+      "died": {
+        "date": "1701-01-03",
+        "note": "Rome"
+      },
+      "causeOfDeath": "Illness, while ambassador in Rome"
+    },
+    {
+      "id": "antoine-i",
+      "name": "Antoine I",
+      "house": "grimaldi",
+      "born": {
+        "date": "1661-01-25",
+        "note": "Paris"
+      },
+      "died": {
+        "date": "1731-02-20",
+        "note": "Monaco"
+      },
+      "causeOfDeath": "Natural causes"
+    },
+    {
+      "id": "louise-hippolyte",
+      "name": "Louise-Hippolyte",
+      "house": "grimaldi",
+      "born": {
+        "date": "1697-11-10",
+        "note": "Monaco"
+      },
+      "died": {
+        "date": "1731-12-29",
+        "note": "Monaco"
+      },
+      "causeOfDeath": "Smallpox"
+    },
+    {
+      "id": "jacques-i",
+      "name": "Jacques I",
+      "house": "grimaldi",
+      "born": {
+        "date": "1689-11-21",
+        "note": "Torigni, Normandy"
+      },
+      "died": {
+        "date": "1751-04-23",
+        "note": "Paris"
+      },
+      "causeOfDeath": "Natural causes"
+    },
+    {
+      "id": "honore-iv",
+      "name": "Honoré IV",
+      "house": "grimaldi",
+      "born": {
+        "date": "1758-05-17",
+        "note": "Paris"
+      },
+      "died": {
+        "date": "1819-02-16",
+        "note": "Paris"
+      },
+      "causeOfDeath": "Long illness"
+    },
+    {
+      "id": "honore-v",
+      "name": "Honoré V",
+      "house": "grimaldi",
+      "born": {
+        "date": "1778-05-13",
+        "note": "Paris"
+      },
+      "died": {
+        "date": "1841-10-02",
+        "note": "Paris"
+      },
+      "causeOfDeath": "Natural causes"
+    },
+    {
+      "id": "florestan",
+      "name": "Florestan",
+      "house": "grimaldi",
+      "born": {
+        "date": "1785-10-10",
+        "note": "Paris"
+      },
+      "died": {
+        "date": "1856-06-20",
+        "note": "Paris"
+      },
+      "causeOfDeath": "Natural causes"
     }
   ],
   "reigns": [
@@ -199,42 +416,456 @@
       }
     },
     {
-      "id": "lords-of-the-rock",
-      "kind": "interregnum",
-      "rulers": [],
-      "house": "grimaldi",
-      "title": "Lords of the Rock",
-      "tagline": "Lose the Rock, buy it back, repeat",
+      "id": "charles-i",
+      "kind": "monarch",
+      "rulers": [
+        "charles-i"
+      ],
+      "tagline": "The Grimaldi who came back and went shopping",
       "start": {
         "date": "1331-09-12"
       },
       "end": {
-        "date": "1505-10-11"
+        "date": "1357-08-15"
       },
       "contestedWith": [],
-      "relationToPredecessor": "Rainier I's son and his heirs",
-      "ageAtAccession": "Various",
-      "cameToPower": "Charles I retook the Rock",
-      "reignEnded": "Jean II killed by his brother",
+      "relationToPredecessor": "Son of Rainier I",
+      "ageAtAccession": "Unknown",
+      "cameToPower": "Retook the Rock from Genoa",
+      "reignEnded": "Died as Genoa took it back",
       "previously": "Genoa has the Rock back. Malizia dies in 1309 without regaining it.",
       "paragraphs": [
-        "In 1331 Rainier's son Charles got the Rock back. This time the Grimaldis set out to build something bigger than a fortress. Charles bought the nearby town of Menton in 1346 and Roquebrune in 1355. Now there was a little state to rule, strung along the coast.",
-        "Genoa kept coming. The Rock changed hands again and again, taken by force, bought and sold. Each time the Grimaldis found a way back in, with soldiers or with cash. In 1419 Jean I and his brothers recovered it, and this time it stuck. Jean held Monaco for decades and passed it to his son Catalan.",
-        "Catalan died in 1457 with no son. His daughter Claudine inherited, the only woman to rule in this era. Monaco went to her cousin Lamberto, and she married him. Lamberto held on to the lordship for over 30 years. Their son Jean II took over in 1494. He had a younger brother named Lucien."
+        "Thirty years after Malizia lost the Rock, his cousin Rainier's son Charles got it back. Genoa was busy tearing itself apart again, and on 12 September 1331 the Grimaldis were back behind the walls. This time Charles wanted more than a fortress. He wanted a little state.",
+        "So he went shopping. He bought Menton along the coast in 1346 and Roquebrune in 1355. He paid for it as a soldier for hire, fighting for the King of France in the Hundred Years' War. At Crécy in 1346 he helped lead the Genoese crossbowmen, who were shot to pieces by the English longbows. From 1352 he shared the lordship with his uncle Antoine and his sons Rainier and Gabriel.",
+        "Genoa never forgave the loss. In 1357 a Genoese force laid siege to the Rock. Charles died that year, as the walls were about to fall, and his son Rainier was left to make a deal."
       ],
       "claims": [
         {
-          "text": "Charles I bought Menton in 1346 and Roquebrune in 1355.",
+          "text": "Charles helped lead the Genoese crossbowmen at Crécy in 1346.",
+          "status": "confirmed",
+          "note": "The Florentine chronicler Giovanni Villani names a Grimaldi and a Doria as their captains; historians identify the Grimaldi as Charles."
+        },
+        {
+          "text": "Charles bought Menton in 1346 and Roquebrune in 1355.",
           "status": "confirmed",
           "note": "The purchases are documented and appear in all the standard histories of Monaco."
+        }
+      ],
+      "hook": "Genoa's soldiers are at the gates, and Charles is dead. His son Rainier holds the Rock, but for how long, and at what price?",
+      "images": [
+        {
+          "file": "File:Charles Ier.jpg",
+          "url": "https://upload.wikimedia.org/wikipedia/commons/0/08/Charles_Ier.jpg",
+          "page": "https://commons.wikimedia.org/wiki/File:Charles_Ier.jpg",
+          "credit": "Unknown artist",
+          "license": "Public domain",
+          "made": "Unknown date",
+          "caption": "An imagined portrait from Monaco's princely collection; its painter and date are unknown, and it was made long after his death.",
+          "alt": "Painted portrait of Charles I, Lord of Monaco"
+        }
+      ],
+      "sources": [
+        {
+          "title": "Monaco, ses origines et son histoire",
+          "author": "Gustave Saige",
+          "note": "1897"
         },
+        {
+          "title": "Histoire de la principauté de Monaco",
+          "author": "Léon-Honoré Labande",
+          "note": "1934"
+        },
+        {
+          "title": "Nuova Cronica",
+          "author": "Giovanni Villani",
+          "note": "Crécy and the Genoese crossbowmen"
+        }
+      ],
+      "review": {
+        "status": "draft",
+        "notes": "Drafted from the listed sources; needs a human fact-check."
+      }
+    },
+    {
+      "id": "lords-of-the-rock",
+      "kind": "interregnum",
+      "rulers": [],
+      "house": "grimaldi",
+      "title": "Genoa Takes the Rock",
+      "tagline": "The Grimaldis sell up and wait it out in Menton",
+      "start": {
+        "date": "1357-08-15"
+      },
+      "end": {
+        "date": "1395-01"
+      },
+      "contestedWith": [],
+      "relationToPredecessor": "None: Genoa holds the Rock",
+      "ageAtAccession": "No lord",
+      "cameToPower": "Genoa's siege of 1357",
+      "reignEnded": "Louis Grimaldi's raid, 1395",
+      "previously": "Charles I dies as Genoa besieges the Rock and takes it back.",
+      "paragraphs": [
+        "In 1357 the Genoese came for their fortress. Charles I was dead, and his son Rainier II had no hope of holding out. So he sold up. For 20,000 florins he handed the Rock to the besiegers and walked away. Genoa was back in charge, under Doge Simone Boccanegra.",
+        "The Grimaldis did not vanish. They kept Menton and Roquebrune down the coast, and Rainier made a living as a soldier for France and Naples. For almost 40 years the family looked out at the Rock they no longer owned.",
+        "Genoa had its own troubles. Doges came and went, Adornos and Fregosos and Guarcos, in a blur of coups. By the 1390s the city was in such a mess that it would soon hand itself over to the King of France."
+      ],
+      "claims": [
+        {
+          "text": "Rainier II gave up the Rock to Genoa for 20,000 florins.",
+          "status": "confirmed",
+          "note": "The sale is given in the standard histories of Monaco; the sum is the usual figure."
+        },
+        {
+          "text": "Simone Boccanegra, the doge who took the Rock, was poisoned in 1363.",
+          "status": "disputed",
+          "note": "He died suddenly after a banquet and Genoese chroniclers spoke of poison. Nothing was proven."
+        }
+      ],
+      "hook": "Genoa is falling apart, and Monaco's garrison is far from home. In January 1395 Charles I's son Louis sees his chance.",
+      "images": [
+        {
+          "file": "File:Rainier II.jpg",
+          "url": "https://upload.wikimedia.org/wikipedia/commons/4/44/Rainier_II.jpg",
+          "page": "https://commons.wikimedia.org/wiki/File:Rainier_II.jpg",
+          "credit": "Unknown artist",
+          "license": "Public domain",
+          "made": "Unknown date",
+          "caption": "Rainier II, who sold the Rock to Genoa, in an imagined portrait from Monaco's princely collection; painter and date unknown.",
+          "alt": "Painted portrait of Rainier II Grimaldi"
+        }
+      ],
+      "sources": [
+        {
+          "title": "Monaco, ses origines et son histoire",
+          "author": "Gustave Saige",
+          "note": "1897"
+        },
+        {
+          "title": "Annales Genuenses",
+          "author": "Giorgio Stella",
+          "note": "15th-century Genoese chronicle"
+        },
+        {
+          "title": "Histoire de la principauté de Monaco",
+          "author": "Léon-Honoré Labande",
+          "note": "1934"
+        }
+      ],
+      "review": {
+        "status": "draft",
+        "notes": "Drafted from the listed sources; needs a human fact-check."
+      },
+      "members": [
+        {
+          "name": "Republic of Genoa",
+          "start": {
+            "date": "1357-08-15"
+          },
+          "end": {
+            "date": "1395-01"
+          },
+          "note": "Held the Rock; Rainier II had yielded it to the besieging Genoese for 20,000 florins"
+        },
+        {
+          "name": "Rainier II Grimaldi",
+          "start": {
+            "date": "1357-08-15"
+          },
+          "end": {
+            "date": "1395-01"
+          },
+          "note": "Son of Charles I; co-lord 1352-57; kept Menton and Roquebrune; a soldier for France and Naples; died 1407"
+        },
+        {
+          "name": "Simone Boccanegra",
+          "start": {
+            "date": "1356"
+          },
+          "end": {
+            "date": "1363"
+          },
+          "note": "Doge of Genoa (second term) when the Rock was taken; died 1363, poisoned (claim)"
+        },
+        {
+          "name": "Gabriele Adorno",
+          "start": {
+            "date": "1363"
+          },
+          "end": {
+            "date": "1370"
+          },
+          "note": "Doge of Genoa"
+        },
+        {
+          "name": "Domenico di Campofregoso",
+          "start": {
+            "date": "1370"
+          },
+          "end": {
+            "date": "1378"
+          },
+          "note": "Doge of Genoa"
+        },
+        {
+          "name": "Nicolò Guarco",
+          "start": {
+            "date": "1378"
+          },
+          "end": {
+            "date": "1383"
+          },
+          "note": "Doge of Genoa"
+        },
+        {
+          "name": "Antoniotto Adorno",
+          "start": {
+            "date": "1384"
+          },
+          "end": {
+            "date": "1390"
+          },
+          "note": "Doge of Genoa (again 1391-92 and 1394-96); handed Genoa to France in 1396"
+        }
+      ]
+    },
+    {
+      "id": "louis-grimaldi",
+      "kind": "monarch",
+      "rulers": [
+        "louis-grimaldi"
+      ],
+      "tagline": "Grabbed the Rock twice, gave it up twice",
+      "start": {
+        "date": "1395-01"
+      },
+      "end": {
+        "date": "1402-11-05"
+      },
+      "contestedWith": [],
+      "relationToPredecessor": "Son of Charles I",
+      "ageAtAccession": "Unknown",
+      "cameToPower": "Seized the Rock in a raid",
+      "reignEnded": "Handed the Rock back to Genoa",
+      "previously": "Genoa holds the Rock. The Grimaldis keep only Menton and Roquebrune.",
+      "paragraphs": [
+        "For almost 40 years the Grimaldis had watched their Rock from Menton. In January 1395 Charles I's son Louis decided to stop watching. He took the fortress with his nephew Jean, Rainier II's boy, as his partner. Genoa was in chaos and briefly could not stop him.",
+        "It did not last. By 19 December 1395 the Genoese had the Rock back. Louis waited, and on 11 May 1397 he took it again, this time for five years. But Genoa was now under the King of France, and the pressure only grew. On 5 November 1402 Louis gave up the Rock. He died the same year."
+      ],
+      "claims": [
+        {
+          "text": "Louis seized Monaco twice, in 1395 and again in 1397.",
+          "status": "confirmed",
+          "note": "Both seizures and the 1402 surrender are in the Genoese chronicle of Giorgio Stella and the standard Monaco histories."
+        }
+      ],
+      "hook": "Genoa holds the Rock again, and this time it keeps it for 17 years. Louis's nephew Jean is still out there, and he has two brothers and money.",
+      "images": [
+        {
+          "file": "File:Coat of arms and flag of Monaco.jpg",
+          "url": "https://upload.wikimedia.org/wikipedia/commons/5/58/Coat_of_arms_and_flag_of_Monaco.jpg",
+          "page": "https://commons.wikimedia.org/wiki/File:Coat_of_arms_and_flag_of_Monaco.jpg",
+          "credit": "Aurelie et Herve from Lyon, France",
+          "license": "CC BY 2.0",
+          "made": "Photographed 2008",
+          "caption": "No portrait of Louis survives. These are the Grimaldi arms in Monaco today, photographed in 2008.",
+          "alt": "The Grimaldi coat of arms held by two armed monks, with the flag of Monaco"
+        }
+      ],
+      "sources": [
+        {
+          "title": "Monaco, ses origines et son histoire",
+          "author": "Gustave Saige",
+          "note": "1897"
+        },
+        {
+          "title": "Annales Genuenses",
+          "author": "Giorgio Stella",
+          "note": "15th-century Genoese chronicle"
+        },
+        {
+          "title": "Histoire de la principauté de Monaco",
+          "author": "Léon-Honoré Labande",
+          "note": "1934"
+        }
+      ],
+      "review": {
+        "status": "draft",
+        "notes": "Drafted from the listed sources; needs a human fact-check."
+      }
+    },
+    {
+      "id": "jean-i",
+      "kind": "monarch",
+      "rulers": [
+        "jean-i"
+      ],
+      "tagline": "The lord who bought his family home back",
+      "start": {
+        "date": "1419-06-05"
+      },
+      "end": {
+        "date": "1454-05-08"
+      },
+      "contestedWith": [],
+      "relationToPredecessor": "Nephew of Louis",
+      "ageAtAccession": "About 37",
+      "cameToPower": "Bought Monaco from Genoa",
+      "reignEnded": "Died in office",
+      "previously": "Louis gives the Rock back to Genoa. It stays Genoese for 17 years.",
+      "paragraphs": [
+        "Jean was Rainier II's son and Louis's old partner in the 1395 raid. In June 1419 he and his brothers Ambroise and Antoine got the Rock back, this time mostly with money. Genoa was hard up and Monaco was for sale.",
+        "At first the three brothers ran it together. Then they split the family lands: Jean kept Monaco, and his brothers took Menton and Roquebrune. Jean married Pomellina Fregoso, from one of Genoa's top political families, and held on for 35 years through all the wars of the region. That long grip is why the 1419 recovery counts as the one that stuck.",
+        "His will made a key choice for the future. It let the lordship pass to daughters if there was no son. Jean died on 8 May 1454 and his son Catalan took over."
+      ],
+      "claims": [
         {
           "text": "From 1419 the Grimaldis held Monaco for good.",
           "status": "confirmed",
           "note": "Monaco's own histories date the lasting recovery to 1419. Apart from the French Revolution, the family has held it ever since."
+        },
+        {
+          "text": "Jean's will allowed the lordship to pass through women.",
+          "status": "confirmed",
+          "note": "The will is cited by Saige and Labande, and it was the basis for Claudine's claim three years later."
         }
       ],
-      "hook": "Jean II is lord of Monaco. In 1505 his brother Lucien decides he would make a better one.",
+      "hook": "Jean's son Catalan takes over. He has a little girl, no sons, and not much time.",
+      "images": [
+        {
+          "file": "File:Jean Ier de Monaco et Pommeline Fregoso.jpg",
+          "url": "https://upload.wikimedia.org/wikipedia/commons/3/31/Jean_Ier_de_Monaco_et_Pommeline_Fregoso.jpg",
+          "page": "https://commons.wikimedia.org/wiki/File:Jean_Ier_de_Monaco_et_Pommeline_Fregoso.jpg",
+          "credit": "Unknown artist",
+          "license": "Public domain",
+          "made": "Unknown date",
+          "caption": "Jean I and his wife Pomellina Fregoso in an imagined portrait from Monaco's princely collection; painter and date unknown.",
+          "alt": "Painted portrait of Jean I of Monaco and his wife"
+        }
+      ],
+      "sources": [
+        {
+          "title": "Monaco, ses origines et son histoire",
+          "author": "Gustave Saige",
+          "note": "1897"
+        },
+        {
+          "title": "Histoire de la principauté de Monaco",
+          "author": "Léon-Honoré Labande",
+          "note": "1934"
+        },
+        {
+          "title": "The Grimaldis of Monaco",
+          "author": "Anne Edwards",
+          "note": "William Morrow, 1992"
+        }
+      ],
+      "review": {
+        "status": "draft",
+        "notes": "Drafted from the listed sources; needs a human fact-check."
+      }
+    },
+    {
+      "id": "catalan",
+      "kind": "monarch",
+      "rulers": [
+        "catalan"
+      ],
+      "tagline": "Three years, one daughter, one clever will",
+      "start": {
+        "date": "1454-05-08"
+      },
+      "end": {
+        "date": "1457-07"
+      },
+      "contestedWith": [],
+      "relationToPredecessor": "Son of Jean I",
+      "ageAtAccession": "Unknown",
+      "cameToPower": "Inherited from his father",
+      "reignEnded": "Died, leaving no son",
+      "previously": "Jean I dies after 35 years. His will lets daughters inherit.",
+      "paragraphs": [
+        "Catalan had only three years at the top, and his reign is mostly remembered for how it ended. He had no son. What he did have was a small daughter, Claudine, and his father's will, which allowed a girl to inherit.",
+        "So Catalan wrote his own will with a catch. Claudine would get Monaco, but she had to marry a Grimaldi cousin, so the lordship stayed in the family name. The cousin chosen was Lamberto of the Antibes branch. Catalan died in July 1457 with the plan barely in place."
+      ],
+      "claims": [
+        {
+          "text": "Catalan's will made Claudine heir on condition she marry a Grimaldi.",
+          "status": "confirmed",
+          "note": "The terms of the will are given in the standard histories of Monaco by Saige and Labande."
+        }
+      ],
+      "hook": "Monaco's new ruler is a girl of about six. Her grandmother is in charge, and a cousin from Antibes is waiting for his bride.",
+      "images": [
+        {
+          "file": "File:Blason pays Monaco.svg",
+          "url": "https://upload.wikimedia.org/wikipedia/commons/1/12/Blason_pays_Monaco.svg",
+          "page": "https://commons.wikimedia.org/wiki/File:Blason_pays_Monaco.svg",
+          "credit": "Fry1989 (Wikimedia Commons user)",
+          "license": "CC BY-SA 3.0",
+          "made": "Drawn 2007",
+          "caption": "No portrait of Catalan survives. This is a modern drawing of the Grimaldi arms of Monaco.",
+          "alt": "Drawing of the coat of arms of Monaco, red and white lozenges"
+        }
+      ],
+      "sources": [
+        {
+          "title": "Monaco, ses origines et son histoire",
+          "author": "Gustave Saige",
+          "note": "1897"
+        },
+        {
+          "title": "Histoire de la principauté de Monaco",
+          "author": "Léon-Honoré Labande",
+          "note": "1934"
+        },
+        {
+          "title": "The Grimaldis of Monaco",
+          "author": "Anne Edwards",
+          "note": "William Morrow, 1992"
+        }
+      ],
+      "review": {
+        "status": "draft",
+        "notes": "Drafted from the listed sources; needs a human fact-check."
+      }
+    },
+    {
+      "id": "claudine",
+      "kind": "monarch",
+      "rulers": [
+        "claudine"
+      ],
+      "tagline": "A six-year-old lady and a fight over her",
+      "start": {
+        "date": "1457-07"
+      },
+      "end": {
+        "date": "1458-03-16"
+      },
+      "contestedWith": [],
+      "relationToPredecessor": "Daughter of Catalan",
+      "ageAtAccession": "About 6",
+      "cameToPower": "Named in her father's will",
+      "reignEnded": "Power passed to Lamberto",
+      "previously": "Catalan dies with no son. Monaco goes to his small daughter Claudine.",
+      "paragraphs": [
+        "Claudine was about six when she became Lady of Monaco. She is the only woman to rule it in this whole era. In practice her grandmother Pomellina Fregoso ran things, and Pomellina had ideas of her own about who should be in charge.",
+        "The family deal said otherwise. Claudine's cousin Lamberto Grimaldi of Antibes was supposed to marry her and take the reins. In March 1458 he took over. The wedding waited until 1465, when Claudine was old enough. She lived to see one of her sons murder another, and died in 1515."
+      ],
+      "claims": [
+        {
+          "text": "Claudine was the only woman to rule Monaco in the Middle Ages.",
+          "status": "confirmed",
+          "note": "No other woman held the lordship before Louise-Hippolyte reigned in 1731; the standard lists show this."
+        },
+        {
+          "text": "Pomellina Fregoso tried to keep power for herself.",
+          "status": "disputed",
+          "note": "The histories describe a feud between Pomellina's party and Lamberto. How far she meant to hold on is read differently."
+        }
+      ],
+      "hook": "Lamberto has the Rock. Now he has to beat Pomellina's party and win over the people of Monaco.",
       "images": [
         {
           "file": "File:Claudina di monaco.jpg",
@@ -254,14 +885,14 @@
           "note": "1897"
         },
         {
-          "title": "The Grimaldis of Monaco",
-          "author": "Anne Edwards",
-          "note": "William Morrow, 1992"
-        },
-        {
           "title": "Histoire de la principauté de Monaco",
           "author": "Léon-Honoré Labande",
           "note": "1934"
+        },
+        {
+          "title": "The Grimaldis of Monaco",
+          "author": "Anne Edwards",
+          "note": "William Morrow, 1992"
         }
       ],
       "review": {
@@ -270,47 +901,176 @@
       }
     },
     {
-      "id": "a-century-of-murders",
-      "kind": "interregnum",
-      "rulers": [],
-      "house": "grimaldi",
-      "title": "A Century of Murders",
-      "tagline": "Brothers, nephews and knives: Monaco's bloodiest century",
+      "id": "lamberto",
+      "kind": "monarch",
+      "rulers": [
+        "lamberto"
+      ],
+      "tagline": "The cousin who married the heiress",
+      "start": {
+        "date": "1458-03-16"
+      },
+      "end": {
+        "date": "1494-03"
+      },
+      "contestedWith": [],
+      "relationToPredecessor": "Cousin of Claudine",
+      "ageAtAccession": "About 38",
+      "cameToPower": "Family deal and a feud won",
+      "reignEnded": "Died in office",
+      "previously": "Little Claudine's power passes to her cousin Lamberto.",
+      "paragraphs": [
+        "Lamberto came from the Grimaldis of Antibes, and his brothers backed him all the way. First he had to beat Pomellina Fregoso's faction, which did not want him. He won, and the people of Monaco swore him an oath of loyalty.",
+        "In 1465 he married Claudine, as her father's will required. He then ruled for over 30 years, a long run by Monaco's standards. The couple had several children, and the succession was settled on them. Lamberto died in March 1494, and their eldest son Jean took over."
+      ],
+      "claims": [
+        {
+          "text": "The people of Monaco swore an oath of loyalty to Lamberto.",
+          "status": "confirmed",
+          "note": "Recorded in the standard histories of Monaco by Saige and Labande."
+        }
+      ],
+      "hook": "Jean II is lord now. His younger brother Lucien is ambitious, and he is not a patient man.",
+      "images": [
+        {
+          "file": "File:Lambert&Claudine.jpg",
+          "url": "https://upload.wikimedia.org/wikipedia/commons/e/ee/Lambert%26Claudine.jpg",
+          "page": "https://commons.wikimedia.org/wiki/File:Lambert&Claudine.jpg",
+          "credit": "Unknown artist",
+          "license": "Public domain",
+          "made": "Unknown date",
+          "caption": "Lamberto and Claudine in an imagined double portrait from Monaco's princely collection; painter and date unknown.",
+          "alt": "Painted portraits of Lamberto and Claudine of Monaco"
+        }
+      ],
+      "sources": [
+        {
+          "title": "Monaco, ses origines et son histoire",
+          "author": "Gustave Saige",
+          "note": "1897"
+        },
+        {
+          "title": "Histoire de la principauté de Monaco",
+          "author": "Léon-Honoré Labande",
+          "note": "1934"
+        },
+        {
+          "title": "The Grimaldis of Monaco",
+          "author": "Anne Edwards",
+          "note": "William Morrow, 1992"
+        }
+      ],
+      "review": {
+        "status": "draft",
+        "notes": "Drafted from the listed sources; needs a human fact-check."
+      }
+    },
+    {
+      "id": "jean-ii",
+      "kind": "monarch",
+      "rulers": [
+        "jean-ii"
+      ],
+      "tagline": "Killed by his own little brother",
+      "start": {
+        "date": "1494-03"
+      },
+      "end": {
+        "date": "1505-10-11"
+      },
+      "contestedWith": [],
+      "relationToPredecessor": "Son of Lamberto and Claudine",
+      "ageAtAccession": "25 or 26",
+      "cameToPower": "Eldest son, inherited",
+      "reignEnded": "Killed by his brother Lucien",
+      "previously": "Lamberto dies after 36 years. His eldest son Jean takes Monaco.",
+      "paragraphs": [
+        "Jean II was the eldest son of Lamberto and Claudine. He came to power in his mid-twenties and held it for ten years. Not much of his rule stands out. What happened at the end of it does.",
+        "On 11 October 1505 his younger brother Lucien killed him. The accounts do not agree on how or why. It may have been a quarrel that got out of hand, or a plan. Either way, Lucien walked away from his brother's body as lord of Monaco."
+      ],
+      "claims": [
+        {
+          "text": "Jean II was killed by his brother Lucien in 1505.",
+          "status": "confirmed",
+          "note": "The killing is in every account of the family and was never denied."
+        },
+        {
+          "text": "The killing came out of a sudden quarrel.",
+          "status": "legend",
+          "note": "Later histories give different settings and motives; no detailed account from the time survives."
+        }
+      ],
+      "hook": "Jean II is dead, and his killer is the new lord. Lucien now has to hold Monaco against Genoa, and against his own relatives.",
+      "images": [
+        {
+          "file": "File:Jean II de Monaco et Antonie de Savoie.jpg",
+          "url": "https://upload.wikimedia.org/wikipedia/commons/5/5d/Jean_II_de_Monaco_et_Antonie_de_Savoie.jpg",
+          "page": "https://commons.wikimedia.org/wiki/File:Jean_II_de_Monaco_et_Antonie_de_Savoie.jpg",
+          "credit": "Unknown artist",
+          "license": "Public domain",
+          "made": "Unknown date",
+          "caption": "Jean II and his wife in an imagined portrait from Monaco's princely collection; painter and date unknown.",
+          "alt": "Painted portrait of Jean II of Monaco and his wife"
+        }
+      ],
+      "sources": [
+        {
+          "title": "Monaco, ses origines et son histoire",
+          "author": "Gustave Saige",
+          "note": "1897"
+        },
+        {
+          "title": "Histoire de la principauté de Monaco",
+          "author": "Léon-Honoré Labande",
+          "note": "1934"
+        },
+        {
+          "title": "The Grimaldis of Monaco",
+          "author": "Anne Edwards",
+          "note": "William Morrow, 1992"
+        }
+      ],
+      "review": {
+        "status": "draft",
+        "notes": "Drafted from the listed sources; needs a human fact-check."
+      }
+    },
+    {
+      "id": "lucien",
+      "kind": "monarch",
+      "rulers": [
+        "lucien"
+      ],
+      "tagline": "Killed a brother, beat Genoa, killed by a nephew",
       "start": {
         "date": "1505-10-11"
       },
       "end": {
-        "date": "1604-11-29"
+        "date": "1523-08-22"
       },
       "contestedWith": [],
-      "relationToPredecessor": "Lucien, Jean II's younger brother",
-      "ageAtAccession": "Various",
-      "cameToPower": "Lucien killed his brother",
-      "reignEnded": "Hercule murdered by his subjects",
-      "previously": "The Grimaldis hold the Rock at last, and Jean II is its lord.",
+      "relationToPredecessor": "Brother of Jean II",
+      "ageAtAccession": "About 18",
+      "cameToPower": "Killed his brother",
+      "reignEnded": "Murdered by his nephew",
+      "previously": "Jean II is dead, killed by his own younger brother Lucien.",
       "paragraphs": [
-        "In October 1505 Lucien Grimaldi killed his brother Jean II and made himself lord. In December 1506 a Genoese army laid siege to Monaco. Lucien held out for five months and drove it off in March 1507. Then he spent years feuding with his relatives, the Genoese Dorias. In August 1523 his nephew Bartolomeo Doria came to visit and murdered him in the palace.",
-        "Lucien's heir, Honoré I, was a baby. His uncle Agostino, Bishop of Grasse, ran things and went looking for a powerful friend. In 1524 a treaty with the Emperor Charles V put Monaco under Spanish protection. Spain's grip would last more than a century. Honoré ruled for nearly 60 years, followed by his sons Charles II and Hercule.",
-        "Hercule was not loved. On 29 November 1604 a band of local men caught him at night, killed him and threw his body into the sea. His son Honoré was six years old."
+        "Lucien got Monaco by killing his brother. He kept it by fighting. In December 1506 a Genoese army laid siege to the Rock. Lucien held out through the winter, and in March 1507 the besiegers gave up and left. It made his name.",
+        "Then came the family feud. Lucien's sister had married into the Dorias, Genoa's great sea-going clan, and the two sides fell out badly. In August 1523 his nephew Bartolomeo Doria came to Monaco on a friendly visit. On 22 August he and his men killed Lucien in the palace. Lucien's son Honoré was only a baby."
       ],
       "claims": [
         {
-          "text": "The admiral Andrea Doria, Bartolomeo's cousin, was in on the murder.",
+          "text": "Andrea Doria, the great admiral and Bartolomeo's relative, was in on the plot.",
           "status": "disputed",
-          "note": "His galleys were in Monaco's harbour that day, so people suspected he knew in advance. It was never proven."
+          "note": "His galleys were off Monaco that day, so people suspected he knew. It was never proven."
         },
         {
-          "text": "Hercule was killed by men whose wives and daughters he had abused, and his body thrown into the sea.",
-          "status": "legend",
-          "note": "The murder is certain. The revenge story and the drowned body come from later accounts and are hard to pin down."
-        },
-        {
-          "text": "The 1524 treaties put Monaco under Spanish protection.",
+          "text": "Lucien drove off the Genoese siege in March 1507.",
           "status": "confirmed",
-          "note": "The treaties of Burgos and Tordesillas are well documented. A Spanish garrison followed under a 1605 deal and stayed until 1641."
+          "note": "The siege of 1506 to 1507 is well recorded in Genoese and French sources and the Monaco histories."
         }
       ],
-      "hook": "A six-year-old lord, a Spanish garrison and an uncle in charge. The boy will grow up and decide who Monaco really belongs to.",
+      "hook": "Lucien lies dead in his palace, and his heir is a baby. Someone has to hold Monaco, and they will need a powerful friend.",
       "images": [
         {
           "file": "File:Ambrogio de Predis - Lucien I - Prince of Monaco.jpg",
@@ -328,6 +1088,222 @@
           "title": "Monaco, ses origines et son histoire",
           "author": "Gustave Saige",
           "note": "1897"
+        },
+        {
+          "title": "Histoire de la principauté de Monaco",
+          "author": "Léon-Honoré Labande",
+          "note": "1934"
+        },
+        {
+          "title": "The Grimaldis of Monaco",
+          "author": "Anne Edwards",
+          "note": "William Morrow, 1992"
+        }
+      ],
+      "review": {
+        "status": "draft",
+        "notes": "Drafted from the listed sources; needs a human fact-check."
+      }
+    },
+    {
+      "id": "honore-i",
+      "kind": "monarch",
+      "rulers": [
+        "honore-i"
+      ],
+      "tagline": "The baby lord who put Monaco under Spain",
+      "start": {
+        "date": "1523-08-22"
+      },
+      "end": {
+        "date": "1581-10-07"
+      },
+      "contestedWith": [],
+      "relationToPredecessor": "Son of Lucien",
+      "ageAtAccession": "1",
+      "cameToPower": "Father murdered",
+      "reignEnded": "Died in office",
+      "previously": "Lucien is murdered in his own palace by his nephew.",
+      "paragraphs": [
+        "Honoré was about a year old when his father was killed. His uncle Agostino Grimaldi, Bishop of Grasse, ran Monaco for him. Agostino wanted protection from the Dorias and from Genoa, and he found it. In 1524 treaties signed at Burgos and Tordesillas put Monaco under the protection of the Emperor Charles V and Spain.",
+        "Other relatives kept governing for Honoré until 1540. Then he ruled for himself for 40 more years. Spain's friendship came with strings, and Monaco slowly turned into a Spanish outpost on the French coast. Honoré married his cousin Isabella Grimaldi, and they had sons.",
+        "He died on 7 October 1581 after a reign of 58 years, one of the longest in Monaco's history. His son Charles took over."
+      ],
+      "claims": [
+        {
+          "text": "The 1524 treaties put Monaco under Spanish protection.",
+          "status": "confirmed",
+          "note": "The treaties of Burgos and Tordesillas are well documented and cited in all the standard histories."
+        },
+        {
+          "text": "Agostino Grimaldi ran Monaco for the baby Honoré.",
+          "status": "confirmed",
+          "note": "The bishop's regency, until his death in 1532, appears in Saige and Labande."
+        }
+      ],
+      "hook": "Honoré I is dead after 58 years. His son Charles inherits Monaco and its Spanish protectors.",
+      "images": [
+        {
+          "file": "File:Honoré I and his family.jpg",
+          "url": "https://upload.wikimedia.org/wikipedia/commons/0/0c/Honor%C3%A9_I_and_his_family.jpg",
+          "page": "https://commons.wikimedia.org/wiki/File:Honor%C3%A9_I_and_his_family.jpg",
+          "credit": "Unknown artist",
+          "license": "Public domain",
+          "made": "Unknown date",
+          "caption": "Honoré I in a portrait from Monaco's princely collection; its painter and date are unknown.",
+          "alt": "Painted portrait of Honoré I of Monaco from the princely collection"
+        }
+      ],
+      "sources": [
+        {
+          "title": "Monaco, ses origines et son histoire",
+          "author": "Gustave Saige",
+          "note": "1897"
+        },
+        {
+          "title": "Histoire de la principauté de Monaco",
+          "author": "Léon-Honoré Labande",
+          "note": "1934"
+        },
+        {
+          "title": "The Grimaldis of Monaco",
+          "author": "Anne Edwards",
+          "note": "William Morrow, 1992"
+        }
+      ],
+      "review": {
+        "status": "draft",
+        "notes": "Drafted from the listed sources; needs a human fact-check."
+      }
+    },
+    {
+      "id": "charles-ii",
+      "kind": "monarch",
+      "rulers": [
+        "charles-ii"
+      ],
+      "tagline": "Eight quiet years in Spain's shadow",
+      "start": {
+        "date": "1581-10-07"
+      },
+      "end": {
+        "date": "1589-05-17"
+      },
+      "contestedWith": [],
+      "relationToPredecessor": "Son of Honoré I",
+      "ageAtAccession": "About 26",
+      "cameToPower": "Inherited from his father",
+      "reignEnded": "Died unmarried",
+      "previously": "Honoré I dies after almost 60 years as lord of Monaco.",
+      "paragraphs": [
+        "Charles grew up in a Monaco that belonged, in all but name, to Spain's sphere. His father Honoré I had spent nearly six decades as lord, sheltering under the 1524 deal with Charles V. By the time Charles took over in October 1581, he was in his mid-twenties and the arrangement was simply how things were.",
+        "Spain promised to protect the Rock. In return, Monaco did what Spain wanted. Charles kept his head down, and his short reign left little mark. He never married and had no children. When he died on 17 May 1589, the lordship passed to his younger brother Hercule."
+      ],
+      "claims": [
+        {
+          "text": "Charles II died unmarried and without children.",
+          "status": "confirmed",
+          "note": "All the family genealogies agree, which is why the lordship went to his brother."
+        },
+        {
+          "text": "Under the 1524 treaties Spain was Monaco's protector, not its owner.",
+          "status": "confirmed",
+          "note": "The treaties of Burgos and Tordesillas recognised the lord's sovereignty, a point Monaco's historians stress."
+        }
+      ],
+      "hook": "Charles leaves no son. His brother Hercule takes over, and Hercule is about to make himself the most hated man on the Rock.",
+      "images": [
+        {
+          "file": "File:Charles II de Monaco.jpg",
+          "url": "https://upload.wikimedia.org/wikipedia/commons/f/f2/Charles_II_de_Monaco.jpg",
+          "page": "https://commons.wikimedia.org/wiki/File:Charles_II_de_Monaco.jpg",
+          "credit": "Bernard Mimault",
+          "license": "Public domain",
+          "made": "1584",
+          "caption": "Charles II, painted by Bernard Mimault in 1584, while he was lord of Monaco.",
+          "alt": "Painted portrait of Charles II Grimaldi, lord of Monaco"
+        }
+      ],
+      "sources": [
+        {
+          "title": "Monaco, ses origines et son histoire",
+          "author": "Gustave Saige",
+          "note": "1897"
+        },
+        {
+          "title": "Histoire de la principauté de Monaco",
+          "author": "Léon-Honoré Labande",
+          "note": "1934"
+        },
+        {
+          "title": "The Grimaldis of Monaco",
+          "author": "Anne Edwards",
+          "note": "William Morrow, 1992"
+        }
+      ],
+      "review": {
+        "status": "draft",
+        "notes": "Drafted from the listed sources; needs a human fact-check."
+      }
+    },
+    {
+      "id": "hercule",
+      "kind": "monarch",
+      "rulers": [
+        "hercule"
+      ],
+      "tagline": "The lord his own people threw into the sea",
+      "start": {
+        "date": "1589-05-17"
+      },
+      "end": {
+        "date": "1604-11-29"
+      },
+      "contestedWith": [],
+      "relationToPredecessor": "Younger brother of Charles II",
+      "ageAtAccession": "26",
+      "cameToPower": "Brother died childless",
+      "reignEnded": "Murdered by his subjects",
+      "previously": "Charles II dies unmarried. His brother Hercule is lord.",
+      "paragraphs": [
+        "Hercule, Ercole to his Italian relatives, inherited Monaco from his brother in 1589. In 1595 he married Maria Landi, from a powerful family of northern Italian lords. Their son Honoré was born in 1597. On paper the future looked settled.",
+        "On the Rock, though, Hercule was hated. People accused him of preying on local women. On the night of 29 November 1604 a band of Monégasques ambushed and killed him. The story goes that they threw his body into the sea. His son Honoré was six, and Maria's brother Federico Landi stepped in to run Monaco for the boy."
+      ],
+      "claims": [
+        {
+          "text": "Hercule was killed by men whose wives and daughters he had abused, and his body thrown into the sea.",
+          "status": "legend",
+          "note": "The murder is certain. The revenge motive and the body in the sea come from later accounts and are hard to pin down."
+        },
+        {
+          "text": "His wife's brother, Federico Landi, became regent for the young Honoré II.",
+          "status": "confirmed",
+          "note": "Landi's regency and his pro-Spanish line are well recorded."
+        }
+      ],
+      "hook": "Monaco's lord is dead in the sea and his heir is six. His uncle Federico Landi takes charge, and Spanish soldiers will soon be marching in.",
+      "images": [
+        {
+          "file": "File:HerculesMonaco.jpg",
+          "url": "https://upload.wikimedia.org/wikipedia/commons/7/7d/HerculesMonaco.jpg",
+          "page": "https://commons.wikimedia.org/wiki/File:HerculesMonaco.jpg",
+          "credit": "Unknown artist",
+          "license": "Public domain",
+          "made": "17th century",
+          "caption": "Hercule of Monaco, in a portrait made in the 17th century, probably after his death.",
+          "alt": "Painted portrait of Hercule Grimaldi, lord of Monaco"
+        }
+      ],
+      "sources": [
+        {
+          "title": "Monaco, ses origines et son histoire",
+          "author": "Gustave Saige",
+          "note": "1897"
+        },
+        {
+          "title": "Histoire de la principauté de Monaco",
+          "author": "Léon-Honoré Labande",
+          "note": "1934"
         },
         {
           "title": "The Grimaldis of Monaco",
@@ -386,7 +1362,7 @@
           "note": "The letters creating the duchy survive, and the title is still held by Monaco's rulers."
         }
       ],
-      "hook": "Monaco is France's friend now. Honoré's grandson Louis would much rather be at Louis XIV's court than on the Rock.",
+      "hook": "Monaco is France's friend now. Honoré's grandson Louis I would much rather be at Louis XIV's court than on the Rock.",
       "images": [
         {
           "file": "File:HonoriusIIMonaco-1-.jpg",
@@ -422,57 +1398,267 @@
       }
     },
     {
-      "id": "princes-at-versailles",
-      "kind": "interregnum",
-      "rulers": [],
-      "house": "grimaldi",
-      "title": "Princes at Versailles",
-      "tagline": "Courtiers, a doomed princess and an unwanted husband",
+      "id": "louis-i",
+      "kind": "monarch",
+      "rulers": [
+        "louis-i"
+      ],
+      "tagline": "The courtier prince who went broke in Rome",
       "start": {
         "date": "1662-01-10"
+      },
+      "end": {
+        "date": "1701-01-03"
+      },
+      "contestedWith": [],
+      "relationToPredecessor": "Grandson of Honoré II",
+      "ageAtAccession": "19",
+      "cameToPower": "Inherited from his grandfather",
+      "reignEnded": "Died in Rome as ambassador",
+      "previously": "Honoré II dies a French duke. His grandson Louis takes over.",
+      "paragraphs": [
+        "Louis was nine when his father died in a shooting accident, so he inherited straight from his grandfather Honoré II in 1662. He was a man of Louis XIV's court. He had married Catherine-Charlotte de Gramont, a marshal's daughter, in 1660, and he rode to war in the Sun King's campaigns.",
+        "At home he gave Monaco a proper legal code, the Code Louis, in 1678. His marriage was less tidy. Catherine-Charlotte was the talk of the court, and her name was linked with the king himself. She died in 1678.",
+        "In 1699 Louis XIV sent him to Rome as ambassador to the pope, to work on the looming fight over the Spanish throne. Louis put on a dazzling show and ran up enormous debts doing it. He died in Rome on 3 January 1701, and his son Antoine became prince."
+      ],
+      "claims": [
+        {
+          "text": "Louis I's wife was Louis XIV's lover.",
+          "status": "disputed",
+          "note": "Court gossip and memoirs of the 1660s say so. They hint strongly but prove nothing."
+        },
+        {
+          "text": "Louis I ruined himself keeping up a grand style as ambassador in Rome.",
+          "status": "legend",
+          "note": "His lavish embassy and his debts are recorded, but the tale of financial ruin grew in the retelling."
+        },
+        {
+          "text": "He issued Monaco's law code, the Code Louis, in 1678.",
+          "status": "confirmed",
+          "note": "The code is named after him and stayed in force for well over a century."
+        }
+      ],
+      "hook": "Louis dies far from home, deep in debt. His son Antoine is a giant of a man who would rather conduct an orchestra than lead an army.",
+      "images": [
+        {
+          "file": "File:Portrait Louis I, Prince of Monaco by an unknown artist.jpg",
+          "url": "https://upload.wikimedia.org/wikipedia/commons/9/91/Portrait_Louis_I%2C_Prince_of_Monaco_by_an_unknown_artist.jpg",
+          "page": "https://commons.wikimedia.org/wiki/File:Portrait_Louis_I,_Prince_of_Monaco_by_an_unknown_artist.jpg",
+          "credit": "François de Troy",
+          "license": "Public domain",
+          "made": "c. 1670",
+          "caption": "Louis I, painted around 1670, when he was in his late twenties.",
+          "alt": "Painted portrait of Louis I, Prince of Monaco"
+        }
+      ],
+      "sources": [
+        {
+          "title": "Monaco, ses origines et son histoire",
+          "author": "Gustave Saige",
+          "note": "1897"
+        },
+        {
+          "title": "Histoire de la principauté de Monaco",
+          "author": "Léon-Honoré Labande",
+          "note": "1934"
+        },
+        {
+          "title": "The Grimaldis of Monaco",
+          "author": "Anne Edwards",
+          "note": "William Morrow, 1992"
+        }
+      ],
+      "review": {
+        "status": "draft",
+        "notes": "Drafted from the listed sources; needs a human fact-check."
+      }
+    },
+    {
+      "id": "antoine-i",
+      "kind": "monarch",
+      "rulers": [
+        "antoine-i"
+      ],
+      "tagline": "The music-loving giant with no son",
+      "start": {
+        "date": "1701-01-03"
+      },
+      "end": {
+        "date": "1731-02-20"
+      },
+      "contestedWith": [],
+      "relationToPredecessor": "Son of Louis I",
+      "ageAtAccession": "39",
+      "cameToPower": "Inherited from his father",
+      "reignEnded": "Died in Monaco",
+      "previously": "Louis I dies in Rome, deep in debt. His son Antoine is prince.",
+      "paragraphs": [
+        "Antoine was born in Paris and grew up at Louis XIV's court. He was huge, and the court nicknamed him Goliath. He served in the king's wars, but his real passion was music. He played, collected scores and kept musicians around him. In 1688 he married Marie de Lorraine-Armagnac, from one of France's grandest families. It was not a happy match.",
+        "The bigger problem was that they had only daughters. To keep Monaco in the family, Antoine married his eldest, Louise-Hippolyte, to a Frenchman, Jacques de Goyon de Matignon, in 1715. The deal was that Jacques would take the Grimaldi name and arms. When Antoine died on 20 February 1731, Louise-Hippolyte became Princess of Monaco."
+      ],
+      "claims": [
+        {
+          "text": "Antoine was so big that he was nicknamed Goliath.",
+          "status": "legend",
+          "note": "The nickname turns up in many popular histories; it is hard to trace to a source from his lifetime."
+        },
+        {
+          "text": "Jacques de Matignon had to take the Grimaldi name and arms to marry Louise-Hippolyte.",
+          "status": "confirmed",
+          "note": "It was a condition of the 1715 marriage contract, meant to keep Monaco a Grimaldi state."
+        }
+      ],
+      "hook": "For the first and only time, a woman reigns as Princess of Monaco. Louise-Hippolyte hurries home to the Rock to claim it.",
+      "images": [
+        {
+          "file": "File:Monnaie - Monaco, Antoine Ier de Monaco, 1707 - btv1b113326175 (1 of 2).jpg",
+          "url": "https://upload.wikimedia.org/wikipedia/commons/d/d8/Monnaie_-_Monaco%2C_Antoine_Ier_de_Monaco%2C_1707_-_btv1b113326175_%281_of_2%29.jpg",
+          "page": "https://commons.wikimedia.org/wiki/File:Monnaie_-_Monaco,_Antoine_Ier_de_Monaco,_1707_-_btv1b113326175_(1_of_2).jpg",
+          "credit": "Coin issued by Antoine I of Monaco; photo from the Bibliothèque nationale de France",
+          "license": "Public domain",
+          "made": "1707",
+          "caption": "A coin struck at Monaco in 1707, during Antoine's reign, now in the French national library.",
+          "alt": "Photograph of one face of a 1707 Monaco coin issued in the name of Antoine I"
+        }
+      ],
+      "sources": [
+        {
+          "title": "Monaco, ses origines et son histoire",
+          "author": "Gustave Saige",
+          "note": "1897"
+        },
+        {
+          "title": "Histoire de la principauté de Monaco",
+          "author": "Léon-Honoré Labande",
+          "note": "1934"
+        },
+        {
+          "title": "The Grimaldis of Monaco",
+          "author": "Anne Edwards",
+          "note": "William Morrow, 1992"
+        }
+      ],
+      "review": {
+        "status": "draft",
+        "notes": "Drafted from the listed sources; needs a human fact-check."
+      }
+    },
+    {
+      "id": "louise-hippolyte",
+      "kind": "monarch",
+      "rulers": [
+        "louise-hippolyte"
+      ],
+      "tagline": "Monaco's only reigning princess, gone in ten months",
+      "start": {
+        "date": "1731-02-20"
+      },
+      "end": {
+        "date": "1731-12-29"
+      },
+      "contestedWith": [],
+      "relationToPredecessor": "Eldest daughter of Antoine I",
+      "ageAtAccession": "33",
+      "cameToPower": "Inherited, as her father had no son",
+      "reignEnded": "Died of smallpox",
+      "previously": "Antoine I dies with no son. His daughter inherits Monaco.",
+      "paragraphs": [
+        "Louise-Hippolyte was born in the palace at Monaco in 1697. Married off at 17 to a French nobleman, she had spent years in France raising a large family. When her father died in February 1731, she came home to take charge.",
+        "Monaco welcomed her warmly. Her husband Jacques, a Frenchman, was another matter. Then smallpox broke out. She caught it and died on 29 December 1731, just ten months into her reign. She was 34. The throne passed to the husband nobody wanted."
+      ],
+      "claims": [
+        {
+          "text": "Louise-Hippolyte is the only woman to have reigned as Princess of Monaco in her own right.",
+          "status": "confirmed",
+          "note": "Every list of Monaco's rulers agrees. Claudine, in the 1450s, was a lady, not a princess."
+        },
+        {
+          "text": "She died of smallpox in Monaco in December 1731.",
+          "status": "confirmed",
+          "note": "Her death and its cause are recorded in the palace archives used by Saige and Labande."
+        }
+      ],
+      "hook": "The princess is dead after ten months. Her French husband Jacques now claims the throne, and Monaco has made it clear it does not want him.",
+      "images": [
+        {
+          "file": "File:Louise Hippolyte Grimaldi with a view overlooking Monaco from the studio of Jean-Baptiste Santerre (1651-1717).jpg",
+          "url": "https://upload.wikimedia.org/wikipedia/commons/2/26/Louise_Hippolyte_Grimaldi_with_a_view_overlooking_Monaco_from_the_studio_of_Jean-Baptiste_Santerre_%281651-1717%29.jpg",
+          "page": "https://commons.wikimedia.org/wiki/File:Louise_Hippolyte_Grimaldi_with_a_view_overlooking_Monaco_from_the_studio_of_Jean-Baptiste_Santerre_(1651-1717).jpg",
+          "credit": "Studio of Jean-Baptiste Santerre",
+          "license": "Public domain",
+          "made": "18th century",
+          "caption": "Probably Louise-Hippolyte, from the studio of Jean-Baptiste Santerre; the sitter was once thought to be someone else.",
+          "alt": "Painted portrait of a young woman, presumed to be Louise-Hippolyte Grimaldi, with a view over Monaco"
+        }
+      ],
+      "sources": [
+        {
+          "title": "Monaco, ses origines et son histoire",
+          "author": "Gustave Saige",
+          "note": "1897"
+        },
+        {
+          "title": "Histoire de la principauté de Monaco",
+          "author": "Léon-Honoré Labande",
+          "note": "1934"
+        },
+        {
+          "title": "The Grimaldis of Monaco",
+          "author": "Anne Edwards",
+          "note": "William Morrow, 1992"
+        }
+      ],
+      "review": {
+        "status": "draft",
+        "notes": "Drafted from the listed sources; needs a human fact-check."
+      }
+    },
+    {
+      "id": "jacques-i",
+      "kind": "monarch",
+      "rulers": [
+        "jacques-i"
+      ],
+      "tagline": "The Frenchman Monaco never wanted",
+      "start": {
+        "date": "1731-12-29"
       },
       "end": {
         "date": "1733-11-07"
       },
       "contestedWith": [],
-      "relationToPredecessor": "Honoré II's grandson and heirs",
-      "ageAtAccession": "Various",
-      "cameToPower": "Grandson Louis I inherited",
-      "reignEnded": "Jacques I abdicated for his son",
-      "previously": "Honoré II dies a French duke. His grandson Louis takes over.",
+      "relationToPredecessor": "Widower of Louise-Hippolyte",
+      "ageAtAccession": "42",
+      "cameToPower": "Succeeded his wife",
+      "reignEnded": "Abdicated for his son",
+      "previously": "Louise-Hippolyte dies of smallpox, ten months into her reign.",
       "paragraphs": [
-        "Louis I was a creature of Louis XIV's court. He fought in the Sun King's wars, and in 1699 the king sent him to Rome as ambassador to the pope. He kept up a grand style there and died in Rome in 1701. His wife, Catherine-Charlotte de Gramont, was said to have caught the king's eye years before.",
-        "His son Antoine I cared more for music than for war. He had daughters but no son. When he died in February 1731, his daughter Louise-Hippolyte became Princess of Monaco in her own right, the only woman ever to do so. By the end of December she was dead of smallpox.",
-        "Her husband, the Frenchman Jacques de Goyon de Matignon, had taken the Grimaldi name and now became Jacques I. Monaco never warmed to him. His Paris house, the Hôtel Matignon, is now home to French prime ministers. He soon went back to Paris, and in 1733 he gave up the throne to their son, Honoré."
+        "Jacques was born a Goyon de Matignon in Normandy and became a Grimaldi only by marriage. When his wife died, he took the throne as Jacques I. Monaco's people saw him as a French outsider and never accepted him.",
+        "He did not try very hard. In May 1732 he left for Paris and handed day-to-day rule to Antoine, the Chevalier de Grimaldi, Antoine I's son born outside marriage. In November 1733 Jacques abdicated in favour of his son Honoré, then 12. He lived on in Paris until 1751. His mansion there, the Hôtel Matignon, is now the French prime minister's home."
       ],
       "claims": [
         {
-          "text": "Louis I's wife was the Sun King's lover.",
-          "status": "disputed",
-          "note": "Court gossip and memoirs of the 1660s say so. They hint strongly but prove nothing."
-        },
-        {
-          "text": "Louise-Hippolyte is the only woman to have reigned as Princess of Monaco.",
-          "status": "confirmed",
-          "note": "Every list of Monaco's rulers agrees. She reigned for less than a year."
-        },
-        {
-          "text": "The Hôtel Matignon takes its name from Jacques's family.",
+          "text": "The Hôtel Matignon in Paris takes its name from Jacques's family.",
           "status": "confirmed",
           "note": "He bought the house in the 1720s; it has been the French prime minister's residence since 1935."
+        },
+        {
+          "text": "Monaco refused to accept Jacques as its prince.",
+          "status": "disputed",
+          "note": "His unpopularity is widely reported, but how far it drove him out, rather than his own preference for Paris, is unclear."
         }
       ],
-      "hook": "Monaco's new prince is twelve years old, and he has no intention of living there.",
+      "hook": "Jacques goes back to Paris for good. The new prince is his 12-year-old son Honoré, who will also prefer Paris to the Rock.",
       "images": [
         {
-          "file": "File:1706 - Antoine I Grimaldi (Monaco).jpg",
-          "url": "https://upload.wikimedia.org/wikipedia/commons/1/15/1706_-_Antoine_I_Grimaldi_%28Monaco%29.jpg",
-          "page": "https://commons.wikimedia.org/wiki/File:1706_-_Antoine_I_Grimaldi_(Monaco).jpg",
-          "credit": "Hyacinthe Rigaud",
+          "file": "File:Jacques I, Prince of Monaco.jpg",
+          "url": "https://upload.wikimedia.org/wikipedia/commons/4/44/Jacques_I%2C_Prince_of_Monaco.jpg",
+          "page": "https://commons.wikimedia.org/wiki/File:Jacques_I,_Prince_of_Monaco.jpg",
+          "credit": "Nicolas de Largillière",
           "license": "Public domain",
-          "made": "1706",
-          "caption": "Antoine I, painted in 1706 by Hyacinthe Rigaud, Louis XIV's favourite portrait painter.",
-          "alt": "Formal painted portrait of Antoine I of Monaco"
+          "made": "18th century",
+          "caption": "Jacques I, painted by Nicolas de Largillière, a leading Paris portraitist of the day.",
+          "alt": "Painted portrait of Jacques I, Prince of Monaco"
         }
       ],
       "sources": [
@@ -604,7 +1790,7 @@
           "note": "She died on the day Robespierre fell, and the killing slowed soon after. Whether she would have been spared is guesswork."
         }
       ],
-      "hook": "Napoleon is on Elba and a Grimaldi is heading home. But Napoleon won't stay on Elba for long.",
+      "hook": "Napoleon is on Elba, and Honoré III's son Honoré IV is prince again. But he is sick, and Napoleon won't stay on Elba for long.",
       "images": [
         {
           "file": "File:Marie Thérèse de Choiseul, Princess Joseph of Monaco.png",
@@ -637,60 +1823,120 @@
       "review": {
         "status": "draft",
         "notes": "Drafted from the listed sources; needs a human fact-check."
-      }
+      },
+      "members": [
+        {
+          "name": "Joseph Barriera",
+          "start": {
+            "date": "1793-01-19"
+          },
+          "end": {
+            "date": "1793-02-24"
+          },
+          "note": "President of Monaco's own National Convention, which deposed the prince and asked to join France"
+        },
+        {
+          "name": "Armand Louis de Gontaut (duc de Biron)",
+          "start": {
+            "date": "1793-02-24"
+          },
+          "end": {
+            "date": "1793-03-01"
+          },
+          "note": "French military commandant at annexation; guillotined in Paris 1793-12-31"
+        },
+        {
+          "name": "Henri Grégoire (the abbé Grégoire)",
+          "start": {
+            "date": "1793-03-01"
+          },
+          "note": "French commissioner sent to organise the annexed territory"
+        },
+        {
+          "name": "Grégoire Marie Jagot",
+          "start": {
+            "date": "1793"
+          },
+          "note": "French commissioner"
+        },
+        {
+          "name": "Honoré III",
+          "start": {
+            "date": "1793-01-19"
+          },
+          "end": {
+            "date": "1795-03-21"
+          },
+          "note": "The deposed prince; imprisoned in Paris, died there soon after release"
+        },
+        {
+          "name": "Honoré IV",
+          "start": {
+            "date": "1795-03-21"
+          },
+          "end": {
+            "date": "1814-05-30"
+          },
+          "note": "Titular prince only, living in France; jailed during the Terror"
+        },
+        {
+          "name": "Napoleon I",
+          "start": {
+            "date": "1804-05-18"
+          },
+          "end": {
+            "date": "1814-04-06"
+          },
+          "note": "Emperor of the French; Monaco was simply part of his empire"
+        }
+      ]
     },
     {
-      "id": "restored-princes",
-      "kind": "interregnum",
-      "rulers": [],
-      "house": "grimaldi",
-      "title": "The Prince Who Came Back",
-      "tagline": "A prince meets Napoleon on the road home",
+      "id": "honore-iv",
+      "kind": "monarch",
+      "rulers": [
+        "honore-iv"
+      ],
+      "tagline": "The sick prince who got his country back",
       "start": {
         "date": "1814-05-30"
       },
       "end": {
-        "date": "1856-06-20"
+        "date": "1819-02-16"
       },
       "contestedWith": [],
-      "relationToPredecessor": "Honoré III's son and grandsons",
-      "ageAtAccession": "Various",
-      "cameToPower": "Restored by the 1814 peace",
-      "reignEnded": "Florestan died",
+      "relationToPredecessor": "Son of Honoré III",
+      "ageAtAccession": "56",
+      "cameToPower": "Restored by the 1814 Treaty of Paris",
+      "reignEnded": "Died in Paris",
       "previously": "Napoleon has fallen, and the peace of 1814 hands Monaco back.",
       "paragraphs": [
-        "Honoré IV got his throne back in 1814, but he was sick and left the work to others, chiefly his son, the future Honoré V. In March 1815 the young Honoré was travelling to Monaco when he ran into Napoleon, just landed from Elba, near Cannes. Both men were heading home to take back a throne. Only one of them kept his.",
-        "The Congress of Vienna put Monaco under the protection of the Kingdom of Sardinia. Honoré V took over in 1819 and ran his tiny state like a business, with monopolies and taxes that infuriated his subjects. He died unmarried in 1841, and his brother Florestan took over.",
-        "Florestan had little taste for politics, and his sharp wife Caroline did much of the ruling. In 1848, the year of revolutions, Menton and Roquebrune rose up and declared themselves free towns. Monaco was left with the Rock and a strip of shore."
+        "Honoré IV had been prince in name only since his father died in 1795. During the Terror he was thrown in prison. His wife, the rich heiress Louise d'Aumont, left him and divorced him under the new revolutionary laws. He came out of the Revolution poor and in poor health.",
+        "Then Napoleon fell, and the Treaty of Paris of 30 May 1814 gave Monaco back to the Grimaldis. Honoré was too ill to rule. His brother Joseph took charge at first, then his son, the future Honoré V, ran things from 1815. That year the peace settlement swapped French protection for that of the Kingdom of Sardinia. Honoré died in Paris in February 1819."
       ],
       "claims": [
         {
-          "text": "Napoleon asked Honoré where he was going. Told “home to Monaco”, he replied that he was going home too, to the Tuileries.",
-          "status": "legend",
-          "note": "The meeting is told in many histories. The neat exchange has surely been polished in the retelling."
-        },
-        {
-          "text": "Florestan worked as an actor in Paris before he inherited.",
-          "status": "disputed",
-          "note": "It appears in most histories of the family, but how serious a stage career it was is unclear."
-        },
-        {
-          "text": "Menton and Roquebrune declared themselves free towns in 1848.",
+          "text": "The Treaty of Paris of 30 May 1814 restored Monaco to the Grimaldis.",
           "status": "confirmed",
-          "note": "They broke away during the 1848 revolutions and never came back to Monaco."
+          "note": "The treaty names the prince of Monaco among those whose rights were restored."
+        },
+        {
+          "text": "His wife Louise d'Aumont divorced him during the Revolution.",
+          "status": "confirmed",
+          "note": "The divorce is recorded; she took back the Mazarin fortune she had brought to the marriage."
         }
       ],
-      "hook": "Monaco has lost most of its land and most of its income. Florestan's son Charles needs a new idea, fast.",
+      "hook": "Honoré IV is prince again, but too sick to rule. His son Honoré sets off for Monaco and meets Napoleon on the road.",
       "images": [
         {
-          "file": "File:Honore V Monaco.gif",
-          "url": "https://upload.wikimedia.org/wikipedia/commons/f/f6/Honore_V_Monaco.gif",
-          "page": "https://commons.wikimedia.org/wiki/File:Honore_V_Monaco.gif",
-          "credit": "Marie-Juliette Callaut",
+          "file": "File:HonoriusIV.jpg",
+          "url": "https://upload.wikimedia.org/wikipedia/commons/1/15/HonoriusIV.jpg",
+          "page": "https://commons.wikimedia.org/wiki/File:HonoriusIV.jpg",
+          "credit": "Unknown artist",
           "license": "Public domain",
-          "made": "1881",
-          "caption": "Honoré V, painted in 1881, forty years after his death.",
-          "alt": "Painted portrait of Prince Honoré V of Monaco"
+          "made": "Before 1819",
+          "caption": "Honoré IV, in a portrait made during his lifetime.",
+          "alt": "Painted portrait of Honoré IV, Prince of Monaco"
         }
       ],
       "sources": [
@@ -708,6 +1954,161 @@
           "title": "The Grimaldis of Monaco",
           "author": "Anne Edwards",
           "note": "William Morrow, 1992"
+        }
+      ],
+      "review": {
+        "status": "draft",
+        "notes": "Drafted from the listed sources; needs a human fact-check."
+      }
+    },
+    {
+      "id": "honore-v",
+      "kind": "monarch",
+      "rulers": [
+        "honore-v"
+      ],
+      "tagline": "The prince who met Napoleon on the road home",
+      "start": {
+        "date": "1819-02-16"
+      },
+      "end": {
+        "date": "1841-10-02"
+      },
+      "contestedWith": [],
+      "relationToPredecessor": "Son of Honoré IV",
+      "ageAtAccession": "40",
+      "cameToPower": "Inherited, after years as regent",
+      "reignEnded": "Died unmarried in Paris",
+      "previously": "Honoré IV dies in Paris. His son has run Monaco for years already.",
+      "paragraphs": [
+        "Honoré had served Napoleon, as a soldier and at the Empress Joséphine's court. In March 1815 he was on his way to take charge of Monaco for his ailing father when he ran into Napoleon himself, just landed from Elba, near Cannes. Both men were heading home to take back a throne. Only one of them kept his.",
+        "Honoré became prince in 1819 and treated Monaco like a business that had to pay. He set up state monopolies, on flour and bread among other things, and squeezed taxes out of his subjects. The people of Menton and Roquebrune hated it, and he spent much of his time in Paris anyway. He never married. He died in Paris in 1841, and his brother Florestan inherited."
+      ],
+      "claims": [
+        {
+          "text": "Napoleon asked Honoré where he was going. Told “home to Monaco”, he replied that he was going home too, to the Tuileries.",
+          "status": "legend",
+          "note": "The meeting is told in many histories. The neat exchange has surely been polished in the retelling."
+        },
+        {
+          "text": "Honoré V ran Monaco through state monopolies and heavy taxes.",
+          "status": "confirmed",
+          "note": "His monopoly system is described in all the standard histories and fed the 1848 revolt."
+        }
+      ],
+      "hook": "Honoré V dies with no wife and no legitimate son. Monaco goes to his brother Florestan, a man who once trod the boards of the Paris stage.",
+      "images": [
+        {
+          "file": "File:Monnaie - Monaco, Honoré V de Monaco, 1838 - btv1b11332703b (1 of 2).jpg",
+          "url": "https://upload.wikimedia.org/wikipedia/commons/1/1e/Monnaie_-_Monaco%2C_Honor%C3%A9_V_de_Monaco%2C_1838_-_btv1b11332703b_%281_of_2%29.jpg",
+          "page": "https://commons.wikimedia.org/wiki/File:Monnaie_-_Monaco,_Honor%C3%A9_V_de_Monaco,_1838_-_btv1b11332703b_(1_of_2).jpg",
+          "credit": "Coin issued by Honoré V of Monaco; photo from the Bibliothèque nationale de France",
+          "license": "Public domain",
+          "made": "1838",
+          "caption": "A coin struck in 1838 in Honoré V's name, now in the French national library.",
+          "alt": "Photograph of one face of an 1838 Monaco coin issued in the name of Honoré V"
+        }
+      ],
+      "sources": [
+        {
+          "title": "Monaco, ses origines et son histoire",
+          "author": "Gustave Saige",
+          "note": "1897"
+        },
+        {
+          "title": "Histoire de la principauté de Monaco",
+          "author": "Léon-Honoré Labande",
+          "note": "1934"
+        },
+        {
+          "title": "The Grimaldis of Monaco",
+          "author": "Anne Edwards",
+          "note": "William Morrow, 1992"
+        },
+        {
+          "title": "The History of Monaco, Past and Present",
+          "author": "H. Pemberton",
+          "note": "1867"
+        }
+      ],
+      "review": {
+        "status": "draft",
+        "notes": "Drafted from the listed sources; needs a human fact-check."
+      }
+    },
+    {
+      "id": "florestan",
+      "kind": "monarch",
+      "rulers": [
+        "florestan"
+      ],
+      "tagline": "The actor prince who lost two-thirds of Monaco",
+      "start": {
+        "date": "1841-10-02"
+      },
+      "end": {
+        "date": "1856-06-20"
+      },
+      "contestedWith": [],
+      "relationToPredecessor": "Younger brother of Honoré V",
+      "ageAtAccession": "55",
+      "cameToPower": "Brother died without an heir",
+      "reignEnded": "Died in Paris",
+      "previously": "Honoré V dies unmarried. His brother Florestan becomes prince.",
+      "paragraphs": [
+        "Nobody expected Florestan to rule. He was a younger son with no prospects, and he spent time on the Paris stage. In 1816 he married Caroline Gibert, a clever, practical woman, and when he became prince at 55 she did much of the ruling.",
+        "They inherited a country seething over Honoré V's taxes. In 1848, the year revolutions swept Europe, Menton and Roquebrune rose up and declared themselves free towns under Sardinian protection. Monaco was left with the Rock and a strip of shore. Florestan died in Paris in June 1856, and his son Charles took over what was left."
+      ],
+      "claims": [
+        {
+          "text": "Florestan worked as an actor in Paris before he inherited.",
+          "status": "disputed",
+          "note": "It appears in most histories of the family, but how serious a stage career it was is unclear."
+        },
+        {
+          "text": "Menton and Roquebrune declared themselves free towns in 1848.",
+          "status": "confirmed",
+          "note": "They broke away during the 1848 revolutions and never came back to Monaco."
+        },
+        {
+          "text": "Princess Caroline was the real ruler during Florestan's reign.",
+          "status": "disputed",
+          "note": "Her strong hand is widely reported, but family histories may overstate it."
+        }
+      ],
+      "hook": "Monaco has lost most of its land and most of its income. Florestan's son Charles needs a new idea, fast.",
+      "images": [
+        {
+          "file": "File:FlorestanI-1-.png",
+          "url": "https://upload.wikimedia.org/wikipedia/commons/d/da/FlorestanI-1-.png",
+          "page": "https://commons.wikimedia.org/wiki/File:FlorestanI-1-.png",
+          "credit": "Unknown artist",
+          "license": "Public domain",
+          "made": "19th century",
+          "caption": "Florestan, in a 19th-century portrait.",
+          "alt": "Portrait of Florestan, Prince of Monaco"
+        }
+      ],
+      "sources": [
+        {
+          "title": "Monaco, ses origines et son histoire",
+          "author": "Gustave Saige",
+          "note": "1897"
+        },
+        {
+          "title": "Histoire de la principauté de Monaco",
+          "author": "Léon-Honoré Labande",
+          "note": "1934"
+        },
+        {
+          "title": "The Grimaldis of Monaco",
+          "author": "Anne Edwards",
+          "note": "William Morrow, 1992"
+        },
+        {
+          "title": "Making Monte Carlo: A History of Speculation and Spectacle",
+          "author": "Mark Braude",
+          "note": "Simon & Schuster, 2016"
         }
       ],
       "review": {
