@@ -176,7 +176,7 @@ details a { color: inherit; }
   padding-bottom: env(safe-area-inset-bottom, 0px);
   background: var(--card);
   border-top: 1px solid var(--edge);
-  display: grid; grid-template-columns: repeat(3, 1fr);
+  display: grid; grid-template-columns: repeat(5, 1fr);
 }
 .tabs button {
   background: none; border: 0; cursor: pointer;
@@ -209,8 +209,6 @@ details a { color: inherit; }
 @media (max-width: 420px) { .view-head { padding-inline: var(--s1); } .view-body { padding-inline: var(--s1); } }
 
 /* timeline */
-.legend { display: flex; flex-wrap: wrap; gap: var(--s0) var(--s1); margin-bottom: var(--s2); font-size: var(--t-xs); color: var(--muted); }
-.legend span { display: inline-flex; align-items: center; gap: var(--s-1); }
 .axis { position: relative; margin-left: 48px; max-width: 560px; }
 .tick { position: absolute; left: -48px; width: 42px; white-space: nowrap; text-align: right; font-size: var(--t-xs); color: var(--muted); transform: translateY(-50%); font-variant-numeric: tabular-nums; }
 .gridline { position: absolute; left: 0; right: 0; border-top: 1px solid var(--rule); }
@@ -270,6 +268,113 @@ details a { color: inherit; }
 .result-count { font-size: var(--t-xs); color: var(--muted); margin: 0; }
 .empty { color: var(--muted); font-size: var(--t-sm); }
 
+/* cross-deck chips: "Also ruled" and "Meanwhile" */
+.elsewhere { display: grid; gap: var(--s0); }
+.chips { display: flex; flex-wrap: wrap; gap: var(--s0); }
+.chip {
+  display: inline-flex; align-items: center; gap: var(--s0); min-height: 36px;
+  background: var(--card); border: 1px solid var(--edge); border-radius: 999px;
+  padding: 4px var(--s1) 4px var(--s0); cursor: pointer; font-size: var(--t-sm); line-height: 1.2; text-align: left;
+}
+.chip:hover { border-color: var(--muted); }
+.chip-flag { flex: none; display: block; width: 21px; height: 14px; border-radius: 3px; overflow: hidden; box-shadow: 0 0 0 1px var(--edge); }
+.chip small { color: var(--muted); font-size: var(--t-xs); }
+/* Meanwhile: a compact two-column grid of who held the other thrones */
+.elsewhere .chips { display: grid; grid-template-columns: repeat(auto-fill, minmax(140px, 1fr)); }
+.elsewhere .chip { border-radius: var(--r-sm); min-height: 44px; padding: 6px var(--s0); }
+.elsewhere .chip > span:last-child { display: grid; min-width: 0; }
+.elsewhere .chip small { white-space: nowrap; }
+.also { justify-content: center; }
+
+/* progress in the country picker */
+.progress { height: 3px; border-radius: 2px; background: var(--rule); overflow: hidden; margin-top: 4px; }
+.progress i { display: block; height: 100%; background: var(--accent); }
+
+/* side-by-side timelines: one shared year axis, swipe between countries */
+.tl-scroll { padding: 0; overflow: auto; scroll-snap-type: x mandatory; scroll-padding-left: 48px; overscroll-behavior: contain; }
+.tl-grid { position: relative; display: flex; }
+.tl-axis { position: sticky; left: 0; z-index: 3; flex: none; width: 48px; background: var(--table); }
+.tl-axis .tick { left: 2px; width: 40px; }
+.tl-corner { position: sticky; top: 0; height: 44px; background: var(--table); }
+.tl-col { position: relative; flex: none; width: var(--col-w); scroll-snap-align: start; border-left: 1px solid var(--rule); }
+.tl-head {
+  position: sticky; top: 0; z-index: 2; height: 44px; display: flex; align-items: center; gap: var(--s0);
+  padding: 0 var(--s1); background: var(--table); border-bottom: 1px solid var(--rule); font-weight: 600; font-size: var(--t-sm);
+}
+.tl-head .chip-flag { width: 24px; height: 16px; }
+.tl-head[aria-current="true"] { color: var(--accent); }
+.tl-plot { position: absolute; left: var(--s1); right: var(--s0); top: 44px; }
+.tl-lines { position: absolute; left: 48px; top: 44px; pointer-events: none; }
+.tl-col .label strong { font-size: var(--t-sm); }
+.tl-marker { position: absolute; left: 48px; right: 0; height: 0; border-top: 2px solid var(--accent); z-index: 1; pointer-events: none; }
+.tl-marker-year { position: absolute; left: 2px; transform: translateY(-50%); background: var(--accent); color: var(--card); font-size: var(--t-xs); font-weight: 600; border-radius: 4px; padding: 0 4px; font-variant-numeric: tabular-nums; z-index: 4; white-space: nowrap; }
+.tl-hint { font-size: var(--t-xs); color: var(--muted); padding: 0 var(--s2) var(--s0); margin: 0; }
+
+/* stats */
+.stats-body { display: grid; align-content: start; gap: var(--s3); padding-top: var(--s0); max-width: 640px; margin: 0 auto; width: 100%; }
+.stats-body section { display: grid; gap: var(--s1); }
+.stats-body h3 { margin: 0; font-size: var(--t-lg); font-weight: 600; line-height: 1.25; }
+.stats-body .sub { margin: 0; font-size: var(--t-sm); color: var(--muted); }
+.legend-row { display: flex; flex-wrap: wrap; gap: var(--s0) var(--s1); font-size: var(--t-xs); color: var(--muted); }
+.legend-row span { display: inline-flex; align-items: center; gap: var(--s-1); }
+.danger { list-style: none; margin: 0; padding: 0; display: grid; gap: var(--s0); }
+.danger li { display: grid; grid-template-columns: 24px minmax(0, 6.5rem) 1fr 2.75rem; align-items: center; gap: var(--s0); font-size: var(--t-sm); }
+.danger .chip-flag { width: 24px; height: 16px; }
+.danger .name { white-space: nowrap; overflow: hidden; text-overflow: ellipsis; }
+.danger .pct { text-align: right; font-variant-numeric: tabular-nums; font-weight: 600; }
+.stack { display: flex; gap: 2px; height: 16px; }
+.stack i { display: block; height: 100%; min-width: 3px; }
+.stack i:first-child { border-radius: 4px 0 0 4px; }
+.stack i:last-child { border-radius: 0 4px 4px 0; }
+.stack i:only-child { border-radius: 4px; }
+.tip { position: fixed; z-index: 20; pointer-events: none; background: var(--ink); color: var(--card); font-size: var(--t-xs); line-height: 1.4; padding: 4px var(--s0); border-radius: 6px; max-width: 240px; opacity: 0; transition: opacity .12s; }
+.seg-btns { display: flex; flex-wrap: wrap; gap: var(--s0); }
+.seg-btns button { min-height: 36px; padding: 0 var(--s1); border-radius: 999px; border: 1px solid var(--edge); background: var(--card); cursor: pointer; font-size: var(--t-sm); }
+.seg-btns button[aria-pressed="true"] { background: var(--ink); color: var(--card); border-color: var(--ink); }
+.seg-btns button small { margin-left: 6px; opacity: .7; font-size: var(--t-xs); font-variant-numeric: tabular-nums; }
+.records { display: grid; grid-template-columns: repeat(auto-fill, minmax(240px, 1fr)); gap: var(--s0); }
+.record { background: var(--card); border: 1px solid var(--edge); border-radius: var(--r); padding: var(--s1); display: grid; gap: var(--s0); }
+.record .k { font-size: 0.6875rem; font-weight: 600; letter-spacing: .08em; text-transform: uppercase; color: var(--accent); }
+.rec-line { display: grid; grid-template-columns: 21px 1fr; gap: var(--s0); align-items: center; background: none; border: 0; padding: 0; text-align: left; cursor: pointer; font-size: var(--t-sm); line-height: 1.3; }
+.rec-line strong { font-weight: 600; }
+.rec-line span span { color: var(--muted); font-size: var(--t-xs); }
+.rec-line:hover strong { text-decoration: underline; text-decoration-color: var(--edge); text-underline-offset: 3px; }
+
+/* record or rumour game */
+.play-body { display: grid; align-content: start; gap: var(--s2); padding-top: var(--s0); max-width: 560px; width: 100%; margin: 0 auto; }
+.play-body p { margin: 0; }
+.play-intro { color: var(--muted); font-size: var(--t-sm); }
+.pick { display: flex; flex-wrap: wrap; gap: var(--s0); margin-top: calc(var(--s1) * -1); }
+.pick button { display: inline-flex; align-items: center; gap: var(--s0); min-height: 40px; padding: 0 var(--s1) 0 var(--s0); border-radius: 999px; border: 1px solid var(--edge); background: var(--card); cursor: pointer; font-size: var(--t-sm); }
+.pick button[aria-pressed="true"] { border-color: var(--ink); box-shadow: inset 0 0 0 1px var(--ink); }
+.pick button[aria-pressed="false"] { color: var(--muted); }
+.pick button small { color: var(--muted); font-size: var(--t-xs); font-variant-numeric: tabular-nums; }
+.pick .all { padding-left: var(--s1); }
+.play-actions { display: flex; gap: var(--s0); flex-wrap: wrap; }
+.btn.ghost { background: var(--card); color: var(--ink); border: 1px solid var(--edge); }
+.btn.ghost:hover { background: var(--tile); }
+.q-top { display: flex; justify-content: space-between; font-size: var(--t-xs); color: var(--muted); font-variant-numeric: tabular-nums; margin-bottom: calc(var(--s1) * -1); }
+.q-card {
+  background: var(--card); border: 1px solid var(--edge); border-radius: var(--r); box-shadow: var(--card-shadow);
+  padding: var(--s3) var(--s2); display: grid; gap: var(--s1); min-height: 220px; align-content: center;
+  touch-action: pan-y; user-select: none; cursor: grab;
+}
+.q-meta { display: flex; align-items: center; gap: var(--s0); font-size: var(--t-xs); color: var(--muted); }
+.q-text { font-size: var(--t-lg); line-height: 1.4; font-weight: 600; text-wrap: pretty; }
+.q-stamp { justify-self: start; border: 2px solid currentColor; border-radius: 6px; padding: 2px 6px; opacity: 0; }
+.answers { display: grid; grid-template-columns: repeat(3, 1fr); gap: var(--s0); }
+.answers button { min-height: 48px; border-radius: var(--r-sm); border: 1px solid var(--edge); background: var(--card); cursor: pointer; font-weight: 600; font-size: var(--t-sm); }
+.answers button.confirmed { color: var(--confirmed); }
+.answers button.disputed { color: var(--disputed); }
+.answers button.legend { color: var(--legend); }
+.answers button:hover { border-color: currentColor; }
+.verdict { display: grid; gap: var(--s0); }
+.verdict .result { font-size: var(--t-lg); font-weight: 600; }
+.verdict .result .status { font-size: var(--t-lg); letter-spacing: 0; text-transform: none; }
+.verdict .note { color: var(--muted); font-size: var(--t-sm); }
+.linkish { background: none; border: 0; padding: 0; color: var(--accent); font-weight: 600; cursor: pointer; justify-self: start; font-size: var(--t-sm); }
+.score-big { font-family: var(--name); font-size: 4rem; line-height: 1; }
+
 @media (prefers-reduced-motion: reduce) { * { transition: none !important; } }
 </style>
 
@@ -288,8 +393,20 @@ details a { color: inherit; }
     <span class="zoom-level" id="zoomLevel"></span>
     <button class="icon-btn" id="zoomIn" aria-label="Zoom in">+</button>
   </div>
-  <div class="view-body" id="timelineBody"></div>
+  <p class="tl-hint" id="tlHint"></p>
+  <div class="view-body tl-scroll" id="timelineBody"></div>
 </section>
+
+<section class="view" id="view-play" aria-label="Record or rumour game">
+  <div class="view-head"><h2>Record or rumour?</h2><span class="zoom-level" id="playScore"></span></div>
+  <div class="view-body"><div class="play-body" id="playBody"></div></div>
+</section>
+
+<section class="view" id="view-stats" aria-label="How they went">
+  <div class="view-head"><h2>How they went</h2></div>
+  <div class="view-body"><div class="stats-body" id="statsBody"></div></div>
+</section>
+<div class="tip" id="tip" role="tooltip"></div>
 
 <section class="view" id="view-search" aria-label="Countries and search">
   <div class="view-body search-body">
@@ -307,11 +424,17 @@ details a { color: inherit; }
 
 <nav class="tabs" aria-label="Main">
   <button data-tab="timeline" aria-label="Timeline"><span class="tab-flag" id="tabFlag"></span></button>
+  <button data-tab="play" aria-label="Record or rumour game">
+    <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><rect x="5" y="3" width="14" height="18" rx="2.5"/><path d="M9.6 9.4a2.4 2.4 0 1 1 3.4 2.2c-.6.3-1 .8-1 1.5v.5"/><path d="M12 16.6v.1"/></svg>
+  </button>
   <button class="read" data-tab="read" aria-label="Read">
     <svg viewBox="0 0 30 30" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linejoin="round" aria-hidden="true">
       <rect class="fill" x="2.5" y="2.5" width="25" height="25" rx="6"/>
       <path class="crown" d="M8 20.5h14l1.2-9.5-4.7 3.6L15 8.5l-3.5 6.1L6.8 11z" stroke-width="1.6"/>
     </svg>
+  </button>
+  <button data-tab="stats" aria-label="How they went">
+    <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" aria-hidden="true"><path d="M5 20v-6M10 20V6M15 20v-9M20 20v-4"/></svg>
   </button>
   <button data-tab="search" aria-label="Search">
     <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" aria-hidden="true"><circle class="fill-none" cx="11" cy="11" r="7"/><path d="M20 20l-4-4"/></svg>
@@ -364,7 +487,7 @@ const year = d => parts(d)[0];
 const astro = y => (y < 0 ? y + 1 : y);
 const fromAstro = t => (t <= 0 ? t - 1 : t);
 // Westeros counts After Conquest: "37 AC". Real places get "AD 14" for early years, plain "1066" later.
-const showYear = y => (y < 0 ? `${-y} BC` : DATA?.era ? `${y} ${DATA.era}` : y <= 500 ? `AD ${y}` : `${y}`);
+const showYear = (y, era = DATA?.era) => (y < 0 ? `${-y} BC` : era ? `${y} ${era}` : y <= 500 ? `AD ${y}` : `${y}`);
 const asYears = d => { const [y, m = 1, day = 1] = parts(d); return astro(y) + (m - 1) / 12 + (day - 1) / 365; };
 const utc = (y, m, d) => { const t = new Date(0); t.setUTCFullYear(astro(y), m - 1, d); return t.getTime(); }; // Date.UTC maps 0–99 to 1900s
 const length = (a, b) => {
@@ -377,15 +500,15 @@ const length = (a, b) => {
   const y = Math.floor(months / 12), mo = months % 12;
   return [y && `${y} yr${y > 1 ? "s" : ""}`, mo && `${mo} mo`].filter(Boolean).join(" ");
 };
-const span = g => {
+const span = (g, era = DATA?.era) => {
   const a = year(g.start), b = g.end && year(g.end);
-  if (!g.end) return `${showYear(a)}–now`;
-  if (a === b) return showYear(a);
+  if (!g.end) return `${showYear(a, era)}–now`;
+  if (a === b) return showYear(a, era);
   // "49–44 BC", "27 BC–AD 14", "AD 14–37"
   if (a < 0 && b < 0) return `${-a}–${-b} BC`;
-  if (a > 0 && DATA.era) return `${a}–${b} ${DATA.era}`;
+  if (a > 0 && era) return `${a}–${b} ${era}`;
   if (a > 0 && b <= 500) return `AD ${a}–${b}`;
-  return `${showYear(a)}–${showYear(b)}`;
+  return `${showYear(a, era)}–${showYear(b, era)}`;
 };
 const reignName = g => g.title ?? rulers[g.rulers[0]].name;
 const reignHouses = g => {
@@ -435,6 +558,7 @@ function card(g, i) {
       <h1>${esc(reignName(g))}</h1>
       ${solo?.epithet ? `<div class="epithet">${esc(solo.epithet)}</div>` : ""}
       <p class="tagline">${esc(g.tagline)}</p>
+      ${alsoChips(g)}
     </div>
     <dl class="facts">
       <div><dt>Reign</dt><dd>${!g.end && DATA.present ? "Ongoing" : length(g.start, g.end ?? NOW)}</dd></div>
@@ -443,9 +567,10 @@ function card(g, i) {
       <div><dt>${g.end ? "Lost it" : "Now"}</dt><dd>${esc(g.reignEnded)}</dd></div>
     </dl>
     <div class="story">${g.paragraphs.map(t => `<p>${esc(t)}</p>`).join("")}</div>
+    ${meanwhile(g)}
     ${g.claims.length ? `<section class="claims">
       <h2 class="section-label caps">Record or rumour?</h2>
-      <ul>${g.claims.map(c => `<li><span class="status ${c.status}">${c.status}</span><span class="claim-text">${esc(c.text)}</span><span class="claim-note">${esc(c.note)}</span></li>`).join("")}</ul>
+      <ul>${g.claims.map(c => `<li><span class="status ${c.status}">${STATUS[c.status]}</span><span class="claim-text">${esc(c.text)}</span><span class="claim-note">${esc(c.note)}</span></li>`).join("")}</ul>
     </section>` : ""}
     <div class="hook">
       <h2 class="section-label caps">${g.hook ? "Next time" : DATA.epilogue ? "The end of the line" : "To be continued"}</h2>
@@ -507,6 +632,7 @@ function setIndex(i) {
   cards.forEach((c, k) => { c.inert = k !== i; });
   loadNear(i);
   try { history.replaceState(null, "", `#${country}.${cards[i].id}`); } catch {}
+  markRead(country, cards[i].id);
 }
 function go(i, velocity = 0, instant = false) {
   i = Math.max(0, Math.min(N - 1, i));
@@ -579,7 +705,7 @@ document.addEventListener("keydown", e => {
 addEventListener("resize", () => { measure(); if (view === "timeline") drawTimeline(); });
 
 /* ---------------- views + tab bar ---------------- */
-const views = { timeline: document.getElementById("view-timeline"), search: document.getElementById("view-search") };
+const views = Object.fromEntries(["timeline", "search", "play", "stats"].map(v => [v, document.getElementById(`view-${v}`)]));
 const tabs = [...document.querySelectorAll(".tabs button")];
 let view = "read";
 const viewAnims = {};
@@ -599,93 +725,137 @@ function show(name) {
   view = name;
   tabs.forEach(t => t.setAttribute("aria-current", t.dataset.tab === name ? "page" : "false"));
   if (name === "timeline") drawTimeline();
-  if (name === "search") renderResults();
+  if (name === "search") { renderCountries(); renderResults(); }
+  if (name === "play") renderPlay();
+  if (name === "stats") renderStats();
   if (views[name]) reveal(views[name], true);
   if (views[prev]) reveal(views[prev], false);
   deck.inert = name !== "read";
-  if (name === "timeline") {
-    const cur = document.querySelector('#timelineBody .label[aria-current="true"]');
-    const body = document.getElementById("timelineBody");
-    if (cur) body.scrollTop = Math.max(0, cur.offsetTop - body.clientHeight / 3);
-  }
+  if (name === "timeline") scrollTimelineToCurrent();
 }
 tabs.forEach(t => t.addEventListener("click", () => show(t.dataset.tab)));
 function jumpTo(i) { show("read"); go(i, 0, true); }
 
-/* ---------------- timeline ---------------- */
+/* ---------------- timeline: every country side by side on one year axis ---------------- */
+// Swipe sideways between countries; scroll down through the years and every column moves together,
+// so who-ruled-beside-whom is a straight line across. Westeros keeps its own calendar and column.
 const ZOOMS = [2, 4, 8, 16, 32];          // px per year
 let zoom = 1;
-function drawTimeline() {
-  const ppy = ZOOMS[zoom];
-  const end = g => g.end ?? NOW;
-  const t0 = Math.floor(asYears(reigns[0].start) / 50) * 50;
-  // A finished story (Rome, France) stops at its last reign, not today.
-  const t1 = Math.ceil(asYears(end(reigns[N - 1])) / 10) * 10;
-  const y = t => (t - t0) * ppy;
-  const LABEL_H = 40;
+// Neighbours sit together: Rome, the British Isles, western Europe, then east to Japan.
+const TL_ORDER = ["rome", "england", "scotland", "france", "spain", "portugal", "austria", "russia", "ottoman", "japan"];
+const TL_TOP = 44;                        // height of the sticky country headers
+let tlMarker = null;                      // astronomical year the reader tapped: a line across every column
+let tlFrame = null;                       // { t0, ppy, era } of the last drawing, for taps and zoom
 
-  const present = [...new Set(reigns.flatMap(g => reignHouses(g).map(h => h.id)))].map(id => houses[id]);
-  let html = `<div class="legend">${present.map(h => `<span><i class="swatch" style="background:${h.color}"></i>${esc(h.name)}</span>`).join("")}</div>`;
-
-  // Lanes: each reign takes the leftmost lane that is free by its start, so a civil war
-  // splits into as many parallel lines as it has rivals (Rome in 69 has three at once).
-  const laneEnds = [], lanes = reigns.map(g => {
-    const s = asYears(g.start);
-    let k = laneEnds.findIndex(e => e <= s + 1 / 365);
+function tlColumns() {
+  if (DATA.fictional) return [country];
+  return [...TL_ORDER.filter(c => WORLD[c]), ...REAL.filter(c => !TL_ORDER.includes(c))];
+}
+function columnHTML(cid, t0, ppy) {
+  const W = WORLD[cid], y = t => (t - t0) * ppy, LABEL_H = 40;
+  // Lanes: each reign takes the leftmost lane free by its start, so a civil war splits into parallel lines.
+  const laneEnds = [], lanes = W.list.map(e => {
+    let k = laneEnds.findIndex(v => v <= e.s + 1 / 365);
     if (k < 0) k = laneEnds.length;
-    laneEnds[k] = asYears(end(g));
+    laneEnds[k] = e.e;
     return k;
   });
-  const maxLane = Math.max(...lanes), labelX = 40 + maxLane * 18;
-
+  const labelX = 40 + Math.max(...lanes) * 18;
   let labelBottom = -Infinity, labels = "", bars = "", leaders = "";
-  reigns.forEach((g, i) => {
-    const a = y(asYears(g.start)), b = y(asYears(end(g)));
-    const h = Math.max(b - a - 1, 2);
-    const lane = lanes[i];
-    const left = lane * 18;
-    const hs = g.rulers.map(id => houses[rulers[id].house]);
-    if (hs.length > 1) {
-      hs.forEach((hh, k) => (bars += `<button class="bar half" data-jump="${i}" aria-label="${esc(reignName(g))}" style="top:${a}px;height:${h}px;left:${left + k * 7}px;background:${hh.color}"></button>`));
-    } else {
-      const color = hs[0]?.color ?? "var(--muted)";
-      bars += `<button class="bar" data-jump="${i}" aria-label="${esc(reignName(g))}" style="top:${a}px;height:${h}px;left:${left}px;background:${color}"></button>`;
-    }
+  W.list.forEach((e, i) => {
+    const a = y(e.s), h = Math.max(y(e.e) - a - 1, 2), left = lanes[i] * 18;
+    const hs = e.g.rulers.length ? e.g.rulers.map(r => W.houses[W.rulers[r]?.house]) : [W.houses[e.g.house]];
+    const xid = `${cid}.${e.g.id}`, nm = esc(e.name);
+    if (hs.length > 1) hs.forEach((hh, k) => (bars += `<button class="bar half" data-x="${xid}" aria-label="${nm}" style="top:${a}px;height:${h}px;left:${left + k * 7}px;background:${hh?.color ?? "var(--muted)"}"></button>`));
+    else bars += `<button class="bar" data-x="${xid}" aria-label="${nm}" style="top:${a}px;height:${h}px;left:${left}px;background:${hs[0]?.color ?? "var(--muted)"}"></button>`;
     const top = Math.max(a, labelBottom);
     labelBottom = top + LABEL_H;
     if (top - a > 2) {
-      // Label pushed down by a crowded stretch (e.g. 1483): an elbow line ties it back to its bar.
+      // Label pushed down by a crowded stretch: an elbow line ties it back to its bar.
       leaders += `<span class="leader" style="top:${a + 1}px;left:${left + 14}px;width:${labelX - 20 - left}px"></span>`;
       leaders += `<span class="leader-v" style="left:${labelX - 6}px;top:${a + 1}px;height:${top - a + 8}px"></span>`;
     }
-    labels += `<button class="label" data-jump="${i}" aria-current="${i === index}" style="top:${top}px">
-      <strong>${esc(reignName(g))}</strong><span>${span(g)} · ${length(g.start, end(g))}</span></button>`;
+    const cur = cid === country && i === index;
+    labels += `<button class="label" data-x="${xid}" aria-current="${cur}" style="top:${top}px"><strong>${nm}</strong><span>${span(e.g, W.data.era)} · ${e.len}</span></button>`;
   });
-  const height = Math.max(y(t1), labelBottom) + LABEL_H;
+  return { html: `<div class="tl-plot" style="--label-x:${labelX}px">${leaders}${bars}${labels}</div>`, bottom: labelBottom };
+}
+function drawTimeline() {
+  const body = document.getElementById("timelineBody");
+  const ppy = ZOOMS[zoom], cols = tlColumns(), era = DATA.fictional ? DATA.era : undefined;
+  const t0 = Math.floor(Math.min(...cols.map(c => WORLD[c].list[0].s)) / 50) * 50;
+  const t1 = Math.ceil(Math.max(...cols.flatMap(c => WORLD[c].list.map(e => e.e))) / 10) * 10;
+  const y = t => (t - t0) * ppy;
+  tlFrame = { t0, ppy, era };
+  const vw = body.clientWidth || innerWidth;
+  // One country fills the screen; several leave a sliver of the next column showing, so it reads as swipeable.
+  const colW = cols.length === 1 ? Math.max(260, vw - 48) : Math.round(Math.min(380, Math.max(220, vw - 48 - 56)));
+  let bottom = y(t1);
+  const colsHTML = cols.map(cid => {
+    const c = columnHTML(cid, t0, ppy);
+    bottom = Math.max(bottom, c.bottom);
+    return `<div class="tl-col" data-cid="${cid}">
+      <div class="tl-head" aria-current="${cid === country}"><span class="chip-flag">${FLAGS[cid] ?? ""}</span>${esc(meta(cid)?.short ?? WORLD[cid].data.name)}</div>${c.html}</div>`;
+  }).join("");
+  const height = TL_TOP + bottom + 48;
   const every = ppy >= 16 ? 5 : ppy >= 8 ? 10 : ppy >= 4 ? 25 : 50;
   // Ticks fall on round historical years (50 BC, AD 1, AD 50): there is no year 0.
-  let ticks = "";
+  let ticks = "", grid = "";
   const first = Math.ceil(fromAstro(t0) / every) * every;
   for (let hy = first; astro(hy) <= t1; hy += every) {
     const yr = hy === 0 ? 1 : hy, top = y(astro(yr));
     if (top < 0) continue;
-    ticks += `<div class="tick" style="top:${top}px">${showYear(yr)}</div><div class="gridline" style="top:${top}px"></div>`;
+    ticks += `<div class="tick" style="top:${TL_TOP + top}px">${showYear(yr, era)}</div>`;
+    grid += `<div class="gridline" style="top:${top}px"></div>`;
   }
-  html += `<div class="axis" style="--label-x:${labelX}px;height:${height}px">${ticks}${leaders}${bars}${labels}</div>`;
-  document.getElementById("timelineBody").innerHTML = html;
+  body.innerHTML = `<div class="tl-grid" style="height:${height}px;width:${48 + cols.length * colW}px;--col-w:${colW}px">
+    <div class="tl-axis"><div class="tl-corner"></div>${ticks}<span class="tl-marker-year" id="tlMarkerYear" hidden></span></div>
+    <div class="tl-lines" style="width:${cols.length * colW}px">${grid}</div>
+    ${colsHTML}
+    <div class="tl-marker" id="tlMarker" hidden></div>
+  </div>`;
+  placeMarker();
+  document.getElementById("timelineTitle").textContent = DATA.fictional ? `${meta(country)?.short ?? DATA.name} timeline` : "Timelines";
+  document.getElementById("tlHint").textContent = DATA.fictional
+    ? "Tap any reign to read it."
+    : "Swipe sideways between countries. Tap a year to draw a line across them all.";
   document.getElementById("zoomLevel").textContent = `${ppy}px / year`;
   document.getElementById("zoomOut").disabled = zoom === 0;
   document.getElementById("zoomIn").disabled = zoom === ZOOMS.length - 1;
 }
+function placeMarker() {
+  const line = document.getElementById("tlMarker"), tag = document.getElementById("tlMarkerYear");
+  if (!line || tlMarker === null || !tlFrame) return;
+  const top = TL_TOP + (tlMarker - tlFrame.t0) * tlFrame.ppy;
+  line.hidden = tag.hidden = false;
+  line.style.top = tag.style.top = `${top}px`;
+  tag.textContent = showYear(fromAstro(Math.floor(tlMarker)), tlFrame.era);
+}
+function scrollTimelineToCurrent() {
+  const body = document.getElementById("timelineBody");
+  const col = body.querySelector(`.tl-col[data-cid="${country}"]`);
+  if (col) body.scrollLeft = col.offsetLeft - 48;
+  const cur = col?.querySelector('.label[aria-current="true"]');
+  if (cur) body.scrollTop = Math.max(0, TL_TOP + cur.offsetTop - body.clientHeight / 3);
+}
 document.getElementById("timelineBody").addEventListener("click", e => {
-  const t = e.target.closest("[data-jump]"); if (t) jumpTo(Number(t.dataset.jump));
+  const t = e.target.closest("[data-x]");
+  if (t) return openX(t.dataset.x);
+  const grid = e.target.closest(".tl-grid");
+  if (!grid || !tlFrame) return;
+  const py = e.clientY - grid.getBoundingClientRect().top - TL_TOP;
+  if (py < 0) return;
+  tlMarker = tlFrame.t0 + py / tlFrame.ppy;
+  placeMarker();
 });
 function rezoom(dz) {
   const body = document.getElementById("timelineBody");
-  const centre = (body.scrollTop + body.clientHeight / 2) / ZOOMS[zoom];
+  const centre = (body.scrollTop + body.clientHeight / 2 - TL_TOP) / ZOOMS[zoom];
+  const left = body.scrollLeft;
   zoom = Math.max(0, Math.min(ZOOMS.length - 1, zoom + dz));
   drawTimeline();
-  body.scrollTop = centre * ZOOMS[zoom] - body.clientHeight / 2;
+  body.scrollTop = TL_TOP + centre * ZOOMS[zoom] - body.clientHeight / 2;
+  body.scrollLeft = left;
 }
 document.getElementById("zoomIn").addEventListener("click", () => rezoom(1));
 document.getElementById("zoomOut").addEventListener("click", () => rezoom(-1));
@@ -723,10 +893,11 @@ const meta = id => CATALOG.find(c => c.id === id);
 function renderCountries() {
   const item = c => {
     const live = !!ALL[c.id];
-    const sub = live ? `${ALL[c.id].reigns.length} reigns` : "Coming soon";
+    const n = live ? ALL[c.id].reigns.length : 0, seen = live ? readSet(c.id).size : 0;
+    const sub = live ? `${n} reigns${seen ? ` · ${Math.min(seen, n)} read` : ""}` : "Coming soon";
     return `<li><button data-country="${c.id}" aria-pressed="${c.id === country}" ${live ? "" : "disabled"}>
       <span class="mini-flag">${FLAGS[c.id] ?? ""}</span>
-      <span class="meta"><strong>${esc(c.name)}</strong><span class="sub">${sub}</span></span>
+      <span class="meta"><strong>${esc(c.name)}</strong><span class="sub">${sub}</span>${seen ? `<span class="progress"><i style="width:${Math.min(100, (seen / n) * 100)}%"></i></span>` : ""}</span>
     </button></li>`;
   };
   document.getElementById("countries").innerHTML =
@@ -762,6 +933,8 @@ function loadCountry(id, reignId) {
   renderCountries();
   try { localStorage.setItem("reign.country", id); } catch {}
 
+  // No card asked for: carry on where this reader left off in this country.
+  if (!reignId) { try { reignId = localStorage.getItem(`reign.pos.${id}`) ?? undefined; } catch {} }
   index = Math.max(0, reigns.findIndex(g => g.id === reignId));
   setIndex(index);
   measure();
@@ -773,6 +946,341 @@ document.getElementById("countries").addEventListener("click", e => {
   show("read");
 });
 document.getElementById("countryBtn").addEventListener("click", () => show("search"));
+
+/* ---------------- the whole library, indexed once ---------------- */
+const STATUS = { confirmed: "Record", disputed: "Disputed", legend: "Rumour" };
+const REAL = CATALOG.filter(c => ALL[c.id] && !ALL[c.id].fictional).map(c => c.id);
+const WORLD = Object.fromEntries(Object.entries(ALL).map(([cid, d]) => {
+  const rulersById = Object.fromEntries(d.rulers.map(r => [r.id, r]));
+  const housesById = Object.fromEntries(d.houses.map(h => [h.id, h]));
+  const now = d.present ?? TODAY;
+  const list = d.reigns.map((g0, i) => {
+    const g = { contestedWith: [], claims: [], ...g0 };
+    return {
+      cid, i, g,
+      name: g.title ?? rulersById[g.rulers[0]]?.name ?? g.id,
+      s: asYears(g.start), e: asYears(g.end ?? now),
+      len: !g.end && d.present ? "ongoing" : length(g.start, g.end ?? now),
+    };
+  });
+  return [cid, { data: d, rulers: rulersById, houses: housesById, list }];
+}));
+const cname = cid => meta(cid)?.short ?? meta(cid)?.name ?? ALL[cid].name;
+const reignOf = (cid, rid) => WORLD[cid].list.find(e => e.g.rulers.includes(rid));
+const thumb = (cid, e) => e.g.images?.length
+  ? `<img src="img/${cid}/${e.g.id}.jpg" alt="" loading="lazy">`
+  : `<span class="mini-banner" style="background:${WORLD[cid].houses[WORLD[cid].rulers[e.g.rulers[0]]?.house ?? e.g.house]?.color ?? "var(--muted)"}">${esc(e.name[0])}</span>`;
+const chip = (cid, e, text, small) =>
+  `<button class="chip" data-x="${cid}.${e.g.id}"><span class="chip-flag">${FLAGS[cid] ?? ""}</span><span>${esc(text)}${small ? ` <small>${esc(small)}</small>` : ""}</span></button>`;
+
+/** Open any card in any country (chips, timeline, stats, game). */
+function openX(x) {
+  const [cid, rid] = x.split(".");
+  if (!ALL[cid]) return;
+  if (cid !== country) loadCountry(cid, rid);
+  else { const i = reigns.findIndex(g => g.id === rid); if (i >= 0 && i !== index) go(i, 0, true); }
+  show("read");
+}
+rail.addEventListener("click", e => { const t = e.target.closest("[data-x]"); if (t) openX(t.dataset.x); });
+
+/* The same person in two decks (Charles V of Austria is Charles I of Spain): matched on exact birth and death dates. */
+const personKey = r => (r?.born?.date?.length >= 7 && r?.died?.date?.length >= 7 ? `${r.born.date}|${r.died.date}` : null);
+const PEOPLE = {};
+for (const cid of REAL) for (const r of ALL[cid].rulers) { const k = personKey(r); if (k) (PEOPLE[k] ??= []).push({ cid, rid: r.id }); }
+function alsoChips(g) {
+  if (DATA.fictional) return "";
+  const out = [];
+  for (const rid of g.rulers) for (const o of PEOPLE[personKey(rulers[rid])] ?? []) {
+    if (o.cid === country) continue;
+    const e = reignOf(o.cid, o.rid);
+    if (e) out.push(chip(o.cid, e, `Also ${WORLD[o.cid].rulers[o.rid].name} of ${cname(o.cid)}`));
+  }
+  return out.length ? `<div class="chips also">${out.join("")}</div>` : "";
+}
+/* Who held the other thrones the moment this reign began. */
+function meanwhile(g) {
+  if (DATA.fictional) return "";
+  const t = asYears(g.start) + 1 / 365, out = [];
+  for (const cid of [...TL_ORDER, ...REAL].filter((c, k, a) => WORLD[c] && !WORLD[c].data.fictional && c !== country && a.indexOf(c) === k)) {
+    const hits = WORLD[cid].list.filter(e => e.s <= t && t < e.e);
+    const e = hits.find(h => h.g.kind !== "claimant") ?? hits[0];
+    if (e) out.push(chip(cid, e, e.name, span(e.g, WORLD[cid].data.era)));
+  }
+  return out.length ? `<section class="elsewhere"><h2 class="section-label caps">Meanwhile, in ${showYear(year(g.start))}</h2><div class="chips">${out.join("")}</div></section>` : "";
+}
+
+/* ---------------- reading progress: where you were, and what you've seen ---------------- */
+const readCache = {};
+function readSet(cid) {
+  if (!readCache[cid]) {
+    let a = [];
+    try { a = JSON.parse(localStorage.getItem(`reign.read.${cid}`) ?? "[]"); } catch {}
+    readCache[cid] = new Set(Array.isArray(a) ? a : []);
+  }
+  return readCache[cid];
+}
+function markRead(cid, id) {
+  try { localStorage.setItem(`reign.pos.${cid}`, id); } catch {}
+  const s = readSet(cid);
+  if (s.has(id)) return;
+  s.add(id);
+  try { localStorage.setItem(`reign.read.${cid}`, JSON.stringify([...s])); } catch {}
+}
+/* How a ruler died, sorted from the free-text causeOfDeath. Rumours don't count: "Illness; poison was rumoured" is illness.
+   A short list of hand-checked exceptions covers what the patterns can't read. */
+const FATE_FIX = {
+  "england:william-ii": "accident", "russia:peter-iii": "murdered", "scotland:cuilen": "murdered", "scotland:donald-ii": "uncertain",
+  "scotland:malcolm-ii": "uncertain", "scotland:indulf": "uncertain", "rome:maximian": "suicide", "rome:jovian": "accident",
+  "rome:constans": "murdered", "westeros:maegor-i": "uncertain", "westeros:rhaenyra": "executed", "westeros:aegon-v": "accident",
+  "westeros:baelor-i": "natural", "france:philip-iv": "natural", "rome:gordian-iii": "uncertain",
+  "england:edward-ii": "murdered", "england:richard-ii": "murdered", "france:henry-vi-england": "murdered",
+};
+const FATE_RULES = [
+  ["executed", /execut|behead|guillotin|hanged|put to death|burn(ed|t) alive|firing squad/i],
+  ["poisoned", /poison(ed)?\b(?!.*(rumou?r|suspect))/i],
+  ["suicide", /suicide|killed (him|her)self|took (his|her) own life|stabbed himself|cut wrists/i],
+  ["battle", /battle|in combat|killed fighting|besieg|siege|crossbow|ambush|cannon|by the dornish|against vikings/i],
+  ["murdered", /murder|assassin|stabbed|strangl|smother|throat cut|killed by|killed in the tower|starved|beaten to death|blinded|killed after|mob/i],
+  ["accident", /accident|fell from|fall from|thrown from|drown|gored|lightning|cliff|joust|struck (his|her) head|fumes|fire at/i],
+];
+function fateOf(cid, r) {
+  if (FATE_FIX[`${cid}:${r.id}`]) return FATE_FIX[`${cid}:${r.id}`];
+  if (!r.died) return "alive";
+  const c = r.causeOfDeath ?? "";
+  if (!c || /^(unknown|uncertain|not recorded)/i.test(c) || /, or |sources differ|disputed|unclear/i.test(c)) return "uncertain";
+  // Judge by what the record says first; a rumour after the semicolon doesn't change it.
+  const first = c.split(";")[0];
+  if (/^(illness|sudden illness|long illness|natural|fever|old age|stroke|plague|smallpox|died in|died a|tuberculosis|pneumonia|heart|dysentery|malaria|dropsy|lifelong)/i.test(first) && !/probably poison/i.test(first)) return "natural";
+  for (const [k, re] of FATE_RULES) if (re.test(first)) return k;
+  return "natural";
+}
+
+/* ---------------- how they went: fates, the most dangerous thrones, records ---------------- */
+const FATES = { battle: "Killed in battle", murdered: "Murdered", executed: "Executed", poisoned: "Poisoned", suicide: "Suicide", accident: "Accident", uncertain: "Uncertain" };
+const VIOLENT = ["battle", "murdered", "executed", "poisoned", "suicide"];
+// Validated categorical set (CVD-safe, 3:1 on the card surface); uncertain is a neutral, not a category hue.
+const FATE_GROUPS = [
+  ["violent", "Violent death", "#a8353f"],
+  ["accident", "Accident", "#c08417"],
+  ["natural", "Natural causes", "#3a7bb8"],
+  ["uncertain", "Uncertain", "#d6ccbb"],
+];
+const groupOf = f => (VIOLENT.includes(f) ? "violent" : f);
+let statsFate = "murdered";
+function peopleOf(cid) {
+  return ALL[cid].rulers.map(r => ({ cid, r, e: reignOf(cid, r.id), fate: fateOf(cid, r) })).filter(p => p.e);
+}
+function ageYears(s) {
+  s = (s ?? "").toLowerCase();
+  if (/newborn|at birth/.test(s)) return 0;
+  let m = s.match(/(\d+)\s*day/); if (m) return m[1] / 365;
+  m = s.match(/(\d+)\s*month/); if (m) return m[1] / 12;
+  m = s.match(/\d+/);
+  return m ? Number(m[0]) : null;
+}
+function renderStats() {
+  // One person, counted once: Henry VI sits in both the England and France decks.
+  const seen = new Set();
+  const everyone = REAL.flatMap(peopleOf).filter(p => { const k = personKey(p.r) ?? `${p.cid}:${p.r.id}`; if (seen.has(k)) return false; seen.add(k); return true; });
+  const rows = REAL.map(cid => {
+    const ps = peopleOf(cid).filter(p => p.fate !== "alive");
+    const n = Object.fromEntries(FATE_GROUPS.map(([k]) => [k, 0]));
+    ps.forEach(p => n[groupOf(p.fate)]++);
+    return { cid, n, total: ps.length, pct: ps.length ? n.violent / ps.length : 0 };
+  }).sort((a, b) => b.pct - a.pct);
+  const legend = FATE_GROUPS.map(([, label, c]) => `<span><i class="swatch" style="background:${c}"></i>${label}</span>`).join("");
+  const danger = rows.map(row => {
+    const name = cname(row.cid);
+    const segs = FATE_GROUPS.filter(([k]) => row.n[k]).map(([k, label, c]) =>
+      `<i style="flex:${row.n[k]} 1 0;background:${c}" data-tip="${esc(name)}: ${row.n[k]} of ${row.total} rulers, ${label.toLowerCase()}"></i>`).join("");
+    return `<li><span class="chip-flag">${FLAGS[row.cid] ?? ""}</span><span class="name">${esc(name)}</span><span class="stack">${segs}</span><span class="pct">${Math.round(row.pct * 100)}%</span></li>`;
+  }).join("");
+
+  const counts = Object.fromEntries(Object.keys(FATES).map(k => [k, everyone.filter(p => p.fate === k).length]));
+  const fateBtns = Object.entries(FATES).filter(([k]) => counts[k]).map(([k, label]) =>
+    `<button data-fate="${k}" aria-pressed="${k === statsFate}">${label}<small>${counts[k]}</small></button>`).join("");
+  const list = everyone.filter(p => p.fate === statsFate).map(p => `<li><button data-x="${p.cid}.${p.e.g.id}">
+      ${thumb(p.cid, p.e)}
+      <span class="meta"><strong>${esc(p.r.name)}</strong><span>${esc(cname(p.cid))} · ${esc(p.r.causeOfDeath ?? "")}</span></span>
+    </button></li>`).join("");
+
+  // Records: one person on one throne (co-reigns and interregnums would muddy the numbers).
+  const solo = REAL.flatMap(cid => WORLD[cid].list.filter(e => e.g.rulers.length === 1 && e.g.kind === "monarch"));
+  const line = (e, value) => `<button class="rec-line" data-x="${e.cid}.${e.g.id}"><span class="chip-flag">${FLAGS[e.cid] ?? ""}</span><span><strong>${esc(e.name)}</strong> <span>${esc(value)}</span></span></button>`;
+  const top3 = (arr, key, dir) => [...arr].filter(e => key(e) !== null).sort((a, b) => dir * (key(a) - key(b))).slice(0, 3);
+  const ended = solo.filter(e => e.g.end);
+  const records = [
+    ["Longest reign", top3(solo, e => e.e - e.s, -1), e => e.len],
+    ["Shortest reign", top3(ended, e => e.e - e.s, 1), e => e.len],
+    ["Youngest to rule", top3(solo, e => ageYears(e.g.ageAtAccession), 1), e => `age ${e.g.ageAtAccession.toLowerCase()}`],
+    ["Oldest to start", top3(solo, e => ageYears(e.g.ageAtAccession), -1), e => `age ${e.g.ageAtAccession.toLowerCase()}`],
+  ].map(([k, es, val]) => `<div class="record"><span class="k">${k}</span>${es.map(e => line(e, val(e))).join("")}</div>`).join("");
+
+  document.getElementById("statsBody").innerHTML = `
+    <section>
+      <h3>The most dangerous throne</h3>
+      <p class="sub">Share of each country's rulers who died violently: in battle, murdered, executed, poisoned or by their own hand.</p>
+      <div class="legend-row">${legend}</div>
+      <ul class="danger">${danger}</ul>
+    </section>
+    <section>
+      <h3>Browse by fate</h3>
+      <div class="seg-btns" id="fateBtns">${fateBtns}</div>
+      <ul class="results">${list}</ul>
+    </section>
+    <section>
+      <h3>Records</h3>
+      <div class="records">${records}</div>
+    </section>
+    <p class="sub">Real history only. Fates are sorted from each ruler's recorded cause of death; where the sources disagree, it counts as uncertain.</p>`;
+}
+const statsBody = document.getElementById("statsBody"), tip = document.getElementById("tip");
+statsBody.addEventListener("click", e => {
+  const f = e.target.closest("[data-fate]");
+  if (f) { statsFate = f.dataset.fate; renderStats(); return; }
+  const x = e.target.closest("[data-x]");
+  if (x) openX(x.dataset.x);
+});
+// Hover (and tap) tooltip for the stacked bars.
+function showTip(e) {
+  const seg = e.target.closest("[data-tip]");
+  if (!seg) { tip.style.opacity = 0; return; }
+  tip.textContent = seg.dataset.tip;
+  tip.style.opacity = 1;
+  const w = tip.offsetWidth;
+  tip.style.left = `${Math.min(innerWidth - w - 8, Math.max(8, e.clientX - w / 2))}px`;
+  tip.style.top = `${e.clientY - 40}px`;
+}
+statsBody.addEventListener("pointermove", showTip);
+statsBody.addEventListener("pointerdown", showTip);
+statsBody.addEventListener("pointerleave", () => (tip.style.opacity = 0));
+document.getElementById("view-stats").querySelector(".view-body").addEventListener("scroll", () => (tip.style.opacity = 0));
+
+/* ---------------- record or rumour: guess how solid each story is ---------------- */
+const GAME_LEN = 10;
+const VERDICT = { confirmed: "on the record", disputed: "disputed", legend: "a rumour" };
+const game = { picked: null, round: null };
+try { game.picked = JSON.parse(localStorage.getItem("reign.game.picked") ?? "null"); } catch {}
+if (!Array.isArray(game.picked) || !game.picked.some(c => WORLD[c])) game.picked = [...REAL];
+game.picked = game.picked.filter(c => WORLD[c]);
+const bestScore = () => { try { return Number(localStorage.getItem("reign.game.best") ?? 0); } catch { return 0; } };
+const poolOf = cids => cids.flatMap(cid => WORLD[cid].list.flatMap(e => e.g.claims.map(c => ({ cid, e, c }))));
+const FICTION = Object.keys(ALL).filter(c => ALL[c].fictional);
+function shuffle(a) { for (let i = a.length - 1; i > 0; i--) { const j = Math.floor(Math.random() * (i + 1)); [a[i], a[j]] = [a[j], a[i]]; } return a; }
+
+function renderPlay() {
+  const el = document.getElementById("playBody"), r = game.round;
+  document.getElementById("playScore").textContent = r && !r.done ? `Score ${r.score}` : bestScore() ? `Best ${bestScore()}/${GAME_LEN}` : "";
+  if (!r) {
+    const all = REAL.every(c => game.picked.includes(c));
+    const btn = (cid, label) => `<button data-pick="${cid}" aria-pressed="${game.picked.includes(cid)}"><span class="chip-flag">${FLAGS[cid] ?? ""}</span>${esc(label)}<small>${poolOf([cid]).length}</small></button>`;
+    el.innerHTML = `
+      <p class="play-intro">Every card sorts its stories into record, disputed and rumour. Read the story, then guess which it is.</p>
+      <h3 class="section-label caps">Pick your decks</h3>
+      <div class="pick">
+        <button class="all" data-pick="all" aria-pressed="${all}">All real history <small>${poolOf(REAL).length}</small></button>
+        ${REAL.map(c => btn(c, cname(c))).join("")}
+      </div>
+      ${FICTION.length ? `<h3 class="section-label caps">Fiction</h3><div class="pick">${FICTION.map(c => btn(c, cname(c))).join("")}</div>` : ""}
+      <div class="play-actions"><button class="btn" data-play="start">Play ${GAME_LEN} questions</button></div>
+      <p class="play-intro">${poolOf(game.picked).length} stories in your decks.</p>`;
+    return;
+  }
+  if (r.done) {
+    const best = bestScore();
+    const msg = r.score >= 9 ? "Chronicler-grade. The maesters would hire you." : r.score >= 6 ? "A sharp eye for a tall tale." : r.score >= 3 ? "History is slippery. Try another round." : "The rumour mill got you this time.";
+    el.innerHTML = `
+      <p class="score-big">${r.score}<span class="play-intro"> / ${r.qs.length}</span></p>
+      <p>${msg}</p>
+      <p class="play-intro">Best: ${best} / ${GAME_LEN}</p>
+      <div class="play-actions"><button class="btn" data-play="start">Play again</button><button class="btn ghost" data-play="setup">Change decks</button></div>`;
+    return;
+  }
+  const q = r.qs[r.i], name = q.e.name, who = `${esc(name)} · ${esc(cname(q.cid))}`;
+  const head = `<div class="q-top"><span>Question ${r.i + 1} of ${r.qs.length}</span><span>${r.streak > 1 ? `${r.streak} in a row` : ""}</span></div>
+    <div class="q-card" id="qCard"><div class="q-meta"><span class="chip-flag">${FLAGS[q.cid] ?? ""}</span>${who}</div><p class="q-text">${esc(q.c.text)}</p><span class="q-stamp" id="qStamp"></span></div>`;
+  if (!r.answer) {
+    el.innerHTML = `${head}
+      <div class="answers"><button class="legend" data-ans="legend">Rumour</button><button class="disputed" data-ans="disputed">Disputed</button><button class="confirmed" data-ans="confirmed">Record</button></div>
+      <p class="play-intro">Or swipe the card: left for rumour, right for record.</p>`;
+    return;
+  }
+  const ok = r.answer === q.c.status;
+  el.innerHTML = `${head}
+    <div class="verdict">
+      <p class="result">${ok ? "Right." : "Not quite."} It's <span class="status ${q.c.status}">${VERDICT[q.c.status]}</span></p>
+      <p class="note">${esc(q.c.note)}</p>
+      <button class="linkish" data-x="${q.cid}.${q.e.g.id}">Read ${esc(name)}'s card →</button>
+    </div>
+    <div class="play-actions"><button class="btn" data-play="next">${r.i + 1 < r.qs.length ? "Next" : "See your score"}</button></div>`;
+}
+function answer(st) {
+  const r = game.round;
+  if (!r || r.answer) return;
+  r.answer = st;
+  if (st === r.qs[r.i].c.status) { r.score++; r.streak++; } else r.streak = 0;
+  renderPlay();
+}
+document.getElementById("playBody").addEventListener("click", e => {
+  const t = e.target.closest("[data-pick], [data-play], [data-ans], [data-x]");
+  if (!t) return;
+  if (t.dataset.x) return openX(t.dataset.x);
+  if (t.dataset.ans) return answer(t.dataset.ans);
+  if (t.dataset.pick) {
+    const c = t.dataset.pick;
+    if (c === "all") game.picked = REAL.every(x => game.picked.includes(x)) ? game.picked : [...new Set([...game.picked, ...REAL])];
+    else game.picked = game.picked.includes(c) ? game.picked.filter(x => x !== c) : [...game.picked, c];
+    if (!game.picked.length) game.picked = [c === "all" ? REAL[0] : c];
+    try { localStorage.setItem("reign.game.picked", JSON.stringify(game.picked)); } catch {}
+    return renderPlay();
+  }
+  const r = game.round;
+  if (t.dataset.play === "setup") game.round = null;
+  if (t.dataset.play === "start") game.round = { qs: shuffle(poolOf(game.picked)).slice(0, GAME_LEN), i: 0, score: 0, streak: 0, answer: null, done: false };
+  if (t.dataset.play === "next" && r) {
+    if (r.i + 1 < r.qs.length) { r.i++; r.answer = null; }
+    else {
+      r.done = true;
+      if (r.qs.length === GAME_LEN && r.score > bestScore()) { try { localStorage.setItem("reign.game.best", String(r.score)); } catch {} }
+    }
+  }
+  renderPlay();
+  document.querySelector("#view-play .view-body").scrollTop = 0;
+});
+// Swipe the question card: right for record, left for rumour.
+let qDrag = null;
+document.getElementById("playBody").addEventListener("pointerdown", e => {
+  const c = e.target.closest("#qCard");
+  if (!c || game.round?.answer) return;
+  qDrag = { id: e.pointerId, x0: e.clientX, y0: e.clientY, dx: 0, el: c, axis: null };
+});
+document.getElementById("playBody").addEventListener("pointermove", e => {
+  if (!qDrag || e.pointerId !== qDrag.id) return;
+  const dx = e.clientX - qDrag.x0, dy = e.clientY - qDrag.y0;
+  if (!qDrag.axis) {
+    if (Math.hypot(dx, dy) < 8) return;
+    qDrag.axis = Math.abs(dx) > Math.abs(dy) ? "x" : "y";
+    if (qDrag.axis === "y") { qDrag = null; return; }
+    qDrag.el.setPointerCapture(e.pointerId);
+  }
+  qDrag.dx = dx;
+  qDrag.el.style.transform = `translateX(${dx}px) rotate(${dx / 24}deg)`;
+  const stamp = document.getElementById("qStamp");
+  const st = dx > 0 ? "confirmed" : "legend";
+  stamp.textContent = STATUS[st];
+  stamp.className = `q-stamp status ${st}`;
+  stamp.style.opacity = Math.min(1, Math.abs(dx) / 90);
+});
+function endQDrag(e) {
+  if (!qDrag || e.pointerId !== qDrag.id) return;
+  const d = qDrag; qDrag = null;
+  if (d.axis !== "x") return;
+  if (Math.abs(d.dx) > 90) return answer(d.dx > 0 ? "confirmed" : "legend");
+  tween(d.dx, 0, v => { d.el.style.transform = `translateX(${v}px) rotate(${v / 24}deg)`; });
+  document.getElementById("qStamp").style.opacity = 0;
+}
+document.getElementById("playBody").addEventListener("pointerup", endQDrag);
+document.getElementById("playBody").addEventListener("pointercancel", endQDrag);
 
 /* ---------------- boot ---------------- */
 // Deep links look like #spain.philip-ii; a bare #reign-id is an England link from before countries existed.
@@ -787,7 +1295,8 @@ addEventListener("hashchange", () => {
   const [c, r] = parseHash();
   if (!ALL[c]) return;
   if (c !== country) loadCountry(c, r);
-  else { const i = reigns.findIndex(g => g.id === r); if (i >= 0 && i !== index) jumpTo(i); }
+  else { const i = reigns.findIndex(g => g.id === r); if (i >= 0 && i !== index) go(i, 0, true); }
+  show("read");
 });
 let saved = null;
 try { saved = localStorage.getItem("reign.country"); } catch {}
