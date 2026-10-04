@@ -351,6 +351,66 @@
         "date": "1955-11-11",
         "note": "Brilon, Sauerland"
       }
+    },
+    {
+      "id": "ulbricht",
+      "name": "Walter Ulbricht",
+      "house": "gdr",
+      "born": {
+        "date": "1893-06-30",
+        "note": "Leipzig"
+      },
+      "died": {
+        "date": "1973-08-01",
+        "note": "Groß Dölln, north of Berlin"
+      },
+      "causeOfDeath": "Stroke, aged 80"
+    },
+    {
+      "id": "honecker",
+      "name": "Erich Honecker",
+      "house": "gdr",
+      "born": {
+        "date": "1912-08-25",
+        "note": "Neunkirchen, Saarland"
+      },
+      "died": {
+        "date": "1994-05-29",
+        "note": "Santiago, Chile, in exile"
+      },
+      "causeOfDeath": "Liver cancer, aged 81"
+    },
+    {
+      "id": "krenz",
+      "name": "Egon Krenz",
+      "house": "gdr",
+      "born": {
+        "date": "1937-03-19",
+        "note": "Kolberg, Pomerania (now Kołobrzeg, Poland)"
+      }
+    },
+    {
+      "id": "modrow",
+      "name": "Hans Modrow",
+      "house": "gdr",
+      "born": {
+        "date": "1928-01-27",
+        "note": "Jasenitz, Pomerania (now Jasienica, Poland)"
+      },
+      "died": {
+        "date": "2023-02-11",
+        "note": "Berlin"
+      },
+      "causeOfDeath": "Died aged 95"
+    },
+    {
+      "id": "de-maiziere",
+      "name": "Lothar de Maizière",
+      "house": "gdr",
+      "born": {
+        "date": "1940-03-02",
+        "note": "Nordhausen, Thuringia"
+      }
     }
   ],
   "reigns": [
@@ -1411,7 +1471,129 @@
       "review": {
         "status": "draft",
         "notes": "Drafted from the listed sources; needs a human fact-check."
-      }
+      },
+      "members": [
+        {
+          "name": "Karl Dönitz",
+          "start": {
+            "date": "1945-04-30"
+          },
+          "end": {
+            "date": "1945-05-23"
+          },
+          "note": "Hitler's named successor; his Flensburg government was powerless after 8 May and arrested on 23 May"
+        },
+        {
+          "name": "Dwight D. Eisenhower",
+          "start": {
+            "date": "1945-06-05"
+          },
+          "end": {
+            "date": "1945-11-10"
+          },
+          "note": "US military governor; on the Allied Control Council"
+        },
+        {
+          "name": "Joseph T. McNarney",
+          "start": {
+            "date": "1945-11"
+          },
+          "end": {
+            "date": "1947-01"
+          },
+          "note": "US military governor"
+        },
+        {
+          "name": "Lucius D. Clay",
+          "start": {
+            "date": "1947-03"
+          },
+          "end": {
+            "date": "1949-05"
+          },
+          "note": "US military governor; ran the Berlin Airlift"
+        },
+        {
+          "name": "Bernard Montgomery",
+          "start": {
+            "date": "1945-05"
+          },
+          "end": {
+            "date": "1946-04"
+          },
+          "note": "British military governor"
+        },
+        {
+          "name": "Sholto Douglas",
+          "start": {
+            "date": "1946-05"
+          },
+          "end": {
+            "date": "1947-10"
+          },
+          "note": "British military governor"
+        },
+        {
+          "name": "Brian Robertson",
+          "start": {
+            "date": "1947-11"
+          },
+          "end": {
+            "date": "1949-09"
+          },
+          "note": "British military governor, then High Commissioner"
+        },
+        {
+          "name": "Georgy Zhukov",
+          "start": {
+            "date": "1945-06"
+          },
+          "end": {
+            "date": "1946-04"
+          },
+          "note": "Soviet military governor"
+        },
+        {
+          "name": "Vasily Sokolovsky",
+          "start": {
+            "date": "1946-04"
+          },
+          "end": {
+            "date": "1949-03"
+          },
+          "note": "Soviet military governor; walked out of the Control Council in March 1948 and ran the blockade"
+        },
+        {
+          "name": "Vasily Chuikov",
+          "start": {
+            "date": "1949-03"
+          },
+          "end": {
+            "date": "1949-10"
+          },
+          "note": "Soviet military governor, then head of the Soviet Control Commission"
+        },
+        {
+          "name": "Jean de Lattre de Tassigny",
+          "start": {
+            "date": "1945-06"
+          },
+          "end": {
+            "date": "1945-07"
+          },
+          "note": "First French commander in the zone"
+        },
+        {
+          "name": "Marie-Pierre Koenig",
+          "start": {
+            "date": "1945-07"
+          },
+          "end": {
+            "date": "1949-09"
+          },
+          "note": "French military governor"
+        }
+      ]
     },
     {
       "id": "adenauer",
@@ -1427,7 +1609,7 @@
         "date": "1963-10-16"
       },
       "contestedWith": [
-        "east-germany"
+        "ulbricht"
       ],
       "relationToPredecessor": "First chancellor of West Germany",
       "ageAtAccession": "73",
@@ -1456,7 +1638,7 @@
           "note": "About 10,000 prisoners came home after the visit, in exchange for diplomatic relations with the Soviet Union."
         }
       ],
-      "hook": "Across the border, a second Germany has been born. It is run from East Berlin by Communists trained in Moscow, and its people are voting with their feet.",
+      "hook": "Step across the border and back to 1949. A second Germany has just been born, and its real boss is a goateed Communist from Leipzig, fresh from Moscow.",
       "images": [
         {
           "file": "File:Bundesarchiv B 145 Bild-F078072-0004, Konrad Adenauer.jpg",
@@ -1492,67 +1674,76 @@
       }
     },
     {
-      "id": "east-germany",
-      "kind": "interregnum",
-      "rulers": [],
-      "house": "gdr",
-      "title": "East Germany",
-      "tagline": "The other Germany, walled in for 28 years",
+      "id": "ulbricht",
+      "kind": "leader",
+      "rulers": [
+        "ulbricht"
+      ],
+      "title": "Walter Ulbricht",
+      "tagline": "The goateed Communist who walled his own people in",
       "start": {
         "date": "1949-10-07"
       },
       "end": {
-        "date": "1990-10-03"
+        "date": "1971-05-03"
       },
       "contestedWith": [
         "adenauer",
         "erhard",
         "kiesinger",
-        "brandt",
-        "schmidt",
-        "kohl"
+        "brandt"
       ],
-      "relationToPredecessor": "Rival state in the Soviet zone",
-      "ageAtAccession": "No single ruler",
-      "cameToPower": "Founded under Soviet control",
-      "reignEnded": "Joined West Germany",
-      "previously": "In the west, Adenauer builds a democracy tied to the Western allies.",
+      "relationToPredecessor": "Moscow's man in the Soviet zone",
+      "ageAtAccession": "56",
+      "cameToPower": "Ran the ruling party from day one",
+      "reignEnded": "Pushed out by Honecker and Moscow",
+      "previously": "Adenauer retires at 87. Rewind to 1949 and look east.",
       "paragraphs": [
-        "The German Democratic Republic was founded in the Soviet zone on 7 October 1949. Elections were a formality. Real power lay with the Socialist Unity Party, the SED, led by Walter Ulbricht. On 17 June 1953 a strike by Berlin building workers spread into an uprising across the country. Soviet tanks crushed it, and dozens were killed.",
-        "People kept leaving: around three million went west through Berlin. On 13 August 1961 soldiers and militia sealed the border with barbed wire, then a concrete wall. At least 140 people died at the Berlin Wall. Erich Honecker replaced Ulbricht in 1971. The Stasi, the secret police, watched everyone, with tens of thousands of officers and a huge web of informers.",
-        "In 1989 Hungary opened its border and East Germans streamed out. Huge crowds marched in Leipzig, chanting “We are the people”. Honecker was pushed out in October. On 9 November a party spokesman fumbled a press conference about new travel rules, and that night crowds forced the gates open. The Wall was down, and on 3 October 1990 East Germany joined the West."
+        "Walter Ulbricht was a Leipzig joiner turned Communist organiser who spent the Nazi years in exile, much of it in Moscow. He flew back on 30 April 1945, the day Hitler died, at the head of a small team picked in Moscow. When the German Democratic Republic was founded on 7 October 1949, Wilhelm Pieck was president and Otto Grotewohl premier. Ulbricht was only deputy premier, but he ran the party, the SED, and the party ran everything.",
+        "From 1950 he was its general secretary. He pushed Soviet-style planning so hard that in June 1953 East Berlin building workers downed tools over higher work quotas. The strike became an uprising across the country on 17 June, and Soviet tanks crushed it. Still the people kept leaving: about three million went west through Berlin. On 13 August 1961 his men sealed the border overnight with barbed wire, and then a wall.",
+        "Behind the Wall the GDR settled down and grew richer than its Communist neighbours. When Pieck died in 1960, Ulbricht made himself head of state as well. But he got cocky, lecturing Moscow about economics and dragging his feet on talks with Bonn. In May 1971 his own deputy, Erich Honecker, eased him out with Brezhnev's backing. Ulbricht kept a ceremonial title and died two years later."
       ],
       "claims": [
         {
           "text": "Two months before the Wall went up, Ulbricht said: “Nobody has any intention of building a wall.”",
           "status": "confirmed",
-          "note": "He said it at a press conference on 15 June 1961. It is on film."
+          "note": "He said it at a press conference on 15 June 1961, answering a West German journalist. It is on film."
         },
         {
-          "text": "The Wall opened by mistake after Günter Schabowski said the new rules applied “immediately”.",
-          "status": "confirmed",
-          "note": "He had not been told the rules were meant to start the next day. The press conference was broadcast live."
+          "text": "On returning in 1945 he told his team: “It has to look democratic, but we must have everything in our hands.”",
+          "status": "disputed",
+          "note": "It comes from the memoir of Wolfgang Leonhard, a member of the team who later fled west. There is no other record of the words."
         },
         {
-          "text": "The Stasi had about 189,000 unofficial informers in 1989.",
+          "text": "At least 140 people were killed at the Berlin Wall.",
           "status": "confirmed",
-          "note": "That is the estimate from the Stasi records agency's researchers. Earlier counts were higher; the exact figure is still debated."
+          "note": "That is the count from a research project run by the Berlin Wall Memorial and the Centre for Contemporary History in Potsdam."
         }
       ],
-      "hook": "Back in Bonn, the old man is finally gone. His successor is the man West Germans thank for their full shops: a cheerful economist who is almost never seen without a cigar.",
+      "hook": "Back in Bonn it is 1963, the Wall is two years old and the old man has finally gone. His successor is the cheerful economist West Germans thank for their full shops.",
       "images": [
         {
-          "file": "File:Bundesarchiv Bild 183-85458-0002, Berlin, Mauerbau, Kampfgruppen am Brandenburger Tor.jpg",
-          "url": "https://upload.wikimedia.org/wikipedia/commons/5/56/Bundesarchiv_Bild_183-85458-0002%2C_Berlin%2C_Mauerbau%2C_Kampfgruppen_am_Brandenburger_Tor.jpg",
-          "page": "https://commons.wikimedia.org/wiki/File:Bundesarchiv_Bild_183-85458-0002,_Berlin,_Mauerbau,_Kampfgruppen_am_Brandenburger_Tor.jpg",
-          "credit": "Peter Heinz Junge",
-          "license": "CC BY-SA 3.0 de",
-          "made": "1961",
-          "caption": "East German factory militia seal off the Brandenburg Gate on 13 August 1961, the day the Wall went up.",
-          "alt": "Black-and-white photograph of armed East German militiamen lined up in front of the Brandenburg Gate, with water-cannon trucks behind them"
+          "file": "File:Opvolger van Pieck, Walter Ulbricht, Bestanddeelnr 911-5926 (cropped).jpg",
+          "url": "https://upload.wikimedia.org/wikipedia/commons/1/13/Opvolger_van_Pieck%2C_Walter_Ulbricht%2C_Bestanddeelnr_911-5926_%28cropped%29.jpg",
+          "page": "https://commons.wikimedia.org/wiki/File:Opvolger_van_Pieck,_Walter_Ulbricht,_Bestanddeelnr_911-5926_(cropped).jpg",
+          "credit": "Anefo (photographer unknown), Nationaal Archief",
+          "license": "CC0",
+          "made": "1960",
+          "caption": "A Dutch agency photo from September 1960, when Ulbricht became head of state after Pieck's death.",
+          "alt": "Black-and-white head-and-shoulders photograph of Walter Ulbricht"
         }
       ],
       "sources": [
+        {
+          "title": "Walter Ulbricht: Eine deutsche Biografie",
+          "author": "Mario Frank",
+          "note": "Siedler, 2001"
+        },
+        {
+          "title": "Child of the Revolution",
+          "author": "Wolfgang Leonhard",
+          "note": "Memoir; German original 1955"
+        },
         {
           "title": "Anatomy of a Dictatorship: Inside the GDR, 1949–1989",
           "author": "Mary Fulbrook",
@@ -1562,16 +1753,6 @@
           "title": "The Berlin Wall: 13 August 1961 to 9 November 1989",
           "author": "Frederick Taylor",
           "note": "Bloomsbury, 2006"
-        },
-        {
-          "title": "The Collapse: The Accidental Opening of the Berlin Wall",
-          "author": "Mary Elise Sarotte",
-          "note": "Basic Books, 2014"
-        },
-        {
-          "title": "Stasiland",
-          "author": "Anna Funder",
-          "note": "Granta, 2003"
         }
       ],
       "review": {
@@ -1593,13 +1774,13 @@
         "date": "1966-12-01"
       },
       "contestedWith": [
-        "east-germany"
+        "ulbricht"
       ],
       "relationToPredecessor": "Adenauer's economics minister",
       "ageAtAccession": "66",
       "cameToPower": "Elected by the Bundestag",
       "reignEnded": "Coalition collapsed; resigned",
-      "previously": "Adenauer bows out at 87. The Wall now splits Berlin in two.",
+      "previously": "Ulbricht's Wall splits Berlin, and in Bonn Adenauer bows out at 87.",
       "paragraphs": [
         "Ludwig Erhard was a round, cheerful economist from Fürth who was rarely seen without a fat cigar. In June 1948, as the western zones got the new Deutsche Mark, he scrapped most price controls at a stroke. Shops that had been empty filled up almost overnight. As Adenauer's economics minister for 14 years, he became the face of the boom, the man who promised 'prosperity for all'.",
         "Adenauer thought he was too soft for the top job and tried hard to stop him. Erhard got it anyway, and won the 1965 election comfortably. Then the miracle stalled. A small recession hit in 1966, the budget ran short and his liberal FDP partners walked out rather than accept tax rises. Erhard was a brilliant economist and a weak party boss. With no majority left, he resigned at the end of November 1966."
@@ -1665,7 +1846,7 @@
         "date": "1969-10-21"
       },
       "contestedWith": [
-        "east-germany"
+        "ulbricht"
       ],
       "relationToPredecessor": "CDU colleague of Erhard",
       "ageAtAccession": "62",
@@ -1732,7 +1913,8 @@
         "date": "1974-05-07"
       },
       "contestedWith": [
-        "east-germany"
+        "ulbricht",
+        "honecker"
       ],
       "relationToPredecessor": "Kiesinger's vice-chancellor",
       "ageAtAccession": "55",
@@ -1760,7 +1942,7 @@
           "note": "He was arrested in April 1974, convicted of treason and later swapped back to East Germany."
         }
       ],
-      "hook": "Brandt is gone. The SPD turns to its sharp-tongued finance minister, a Hamburg man who hardly ever seems to put down his cigarette.",
+      "hook": "Brandt's aide was spying for East Berlin. Rewind to 1971 to meet the man who ran that state from then on: the party boss who had organised the Wall.",
       "images": [
         {
           "file": "File:Bundesarchiv B 145 Bild-F057884-0009, Willy Brandt.jpg",
@@ -1796,6 +1978,92 @@
       }
     },
     {
+      "id": "honecker",
+      "kind": "leader",
+      "rulers": [
+        "honecker"
+      ],
+      "title": "Erich Honecker",
+      "tagline": "The roofer who ran the Wall state for 18 years",
+      "start": {
+        "date": "1971-05-03"
+      },
+      "end": {
+        "date": "1989-10-18"
+      },
+      "contestedWith": [
+        "brandt",
+        "schmidt",
+        "kohl"
+      ],
+      "relationToPredecessor": "Ulbricht's deputy, who ousted him",
+      "ageAtAccession": "58",
+      "cameToPower": "Took over the party with Soviet backing",
+      "reignEnded": "Voted out by his own Politburo",
+      "previously": "Brandt resigns when his aide is unmasked as an East German spy.",
+      "paragraphs": [
+        "Erich Honecker came from the Saarland, the son of a Communist miner, and was apprenticed as a roofer. The Nazis locked him up for almost ten years. After the war he built up the party's youth movement, and in 1961 he was the man who planned and ran the sealing of the Berlin border. In 1971 he took the party from his old mentor, and from 1976 he was head of state too.",
+        "At first the world opened up. In 1972 the two Germanys signed a Basic Treaty, and in 1973 both joined the United Nations. Honecker promised cheap rents, new flats and more in the shops, paid for with borrowed money. Meanwhile the Stasi grew into one of the biggest secret police forces per head ever. Border guards still shot people trying to cross. In 1987 he made a state visit to Bonn, the high point of his life.",
+        "Then Gorbachev came to power in Moscow and preached reform. Honecker refused to follow. In 1989 Hungary opened its border with Austria and tens of thousands of East Germans fled through it. At home, crowds marched in Leipzig chanting “We are the people.” Sick and out of touch, Honecker was voted out by his own Politburo on 18 October 1989. He died in exile in Chile in 1994."
+      ],
+      "claims": [
+        {
+          "text": "In January 1989 Honecker said the Wall would still be standing in 50 or even 100 years.",
+          "status": "confirmed",
+          "note": "He said it in a public speech on 19 January 1989, ten months before the Wall opened."
+        },
+        {
+          "text": "Gorbachev warned him in October 1989: “Life punishes those who come too late.”",
+          "status": "disputed",
+          "note": "The famous line is a paraphrase spread by Gorbachev's spokesman. What Gorbachev actually said in Berlin was similar but worded differently."
+        },
+        {
+          "text": "After unification he was put on trial over the killings at the border, but went free.",
+          "status": "confirmed",
+          "note": "The case was dropped in 1993 because he was dying of cancer, and he flew to join his family in Chile."
+        }
+      ],
+      "hook": "Rewind to Bonn in May 1974. With Brandt gone, the SPD turns to its sharp-tongued finance minister, a Hamburg man who hardly ever puts down his cigarette.",
+      "images": [
+        {
+          "file": "File:Bundesarchiv Bild 183-R1220-401, Erich Honecker (cropped).jpg",
+          "url": "https://upload.wikimedia.org/wikipedia/commons/a/ab/Bundesarchiv_Bild_183-R1220-401%2C_Erich_Honecker_%28cropped%29.jpg",
+          "page": "https://commons.wikimedia.org/wiki/File:Bundesarchiv_Bild_183-R1220-401,_Erich_Honecker_(cropped).jpg",
+          "credit": "Unknown photographer, Bundesarchiv (Bild 183-R1220-401)",
+          "license": "CC BY-SA 3.0 de",
+          "made": "1976",
+          "caption": "Honecker in 1976, five years into his rule.",
+          "alt": "Cropped portrait photograph of Erich Honecker in a suit and tie"
+        }
+      ],
+      "sources": [
+        {
+          "title": "Erich Honecker: Eine deutsche Biographie",
+          "author": "Norbert F. Pötzl",
+          "note": "DVA, 2002"
+        },
+        {
+          "title": "Erich Honecker: Das Leben davor, 1912–1945",
+          "author": "Martin Sabrow",
+          "note": "C.H. Beck, 2016"
+        },
+        {
+          "title": "Anatomy of a Dictatorship: Inside the GDR, 1949–1989",
+          "author": "Mary Fulbrook",
+          "note": "Oxford University Press, 1995"
+        },
+        {
+          "title": "The Collapse: The Accidental Opening of the Berlin Wall",
+          "author": "Mary Elise Sarotte",
+          "note": "Basic Books, 2014"
+        }
+      ],
+      "review": {
+        "status": "draft",
+        "notes": "Drafted from the listed sources; needs a human fact-check."
+      }
+    },
+    {
       "id": "schmidt",
       "kind": "leader",
       "rulers": [
@@ -1809,13 +2077,13 @@
         "date": "1982-10-01"
       },
       "contestedWith": [
-        "east-germany"
+        "honecker"
       ],
       "relationToPredecessor": "Brandt's finance minister",
       "ageAtAccession": "55",
       "cameToPower": "Elected after Brandt quit",
       "reignEnded": "Ousted by a no-confidence vote",
-      "previously": "Brandt resigns after his own aide turns out to be an East German spy.",
+      "previously": "Honecker falls in 1989. Rewind to 1974: Brandt has just resigned.",
       "paragraphs": [
         "Helmut Schmidt was blunt, clever and impatient, nicknamed 'Schmidt the Lip'. He made his name in 1962, taking charge when a storm flood swamped Hamburg. As chancellor he steered through the oil shocks and became a big figure on the world stage. He smoked menthol cigarettes everywhere, including on live TV and, much later, in places where nobody else was allowed to.",
         "His hardest test came in the 'German Autumn' of 1977. The far-left Red Army Faction kidnapped the business leader Hanns Martin Schleyer, then Palestinian allies hijacked a Lufthansa jet. Schmidt refused to free their jailed comrades. In Mogadishu, West German special forces stormed the plane and freed the hostages. Schleyer was murdered. By 1982 his FDP partners had drifted right, and they switched sides to vote him out."
@@ -1881,7 +2149,10 @@
         "date": "1998-10-27"
       },
       "contestedWith": [
-        "east-germany"
+        "honecker",
+        "krenz",
+        "modrow",
+        "de-maiziere"
       ],
       "relationToPredecessor": "Opposition leader who ousted him",
       "ageAtAccession": "52",
@@ -1904,7 +2175,7 @@
           "note": "He used the phrase in 1990. The slow, painful reality in the East made it one of his most quoted lines."
         }
       ],
-      "hook": "After 16 years, Germany wants a change. The SPD's man is Gerhard Schröder, who once rattled the gates of the chancellery and shouted that he wanted in.",
+      "hook": "Rewind to East Berlin in October 1989. Honecker's crown prince takes over, promising a “turn”. He has three weeks before a fumbled press conference changes everything.",
       "images": [
         {
           "file": "File:Helmut Kohl (1996) cropped (2).jpg",
@@ -1940,6 +2211,226 @@
       }
     },
     {
+      "id": "krenz",
+      "kind": "leader",
+      "rulers": [
+        "krenz"
+      ],
+      "title": "Egon Krenz",
+      "tagline": "Seven weeks at the top, and the Wall fell on his watch",
+      "start": {
+        "date": "1989-10-18"
+      },
+      "end": {
+        "date": "1989-12-06"
+      },
+      "contestedWith": [
+        "kohl"
+      ],
+      "relationToPredecessor": "Honecker's chosen heir",
+      "ageAtAccession": "52",
+      "cameToPower": "Picked by the Politburo",
+      "reignEnded": "Resigned as the party collapsed",
+      "previously": "Kohl rules for 16 years. Rewind to 1989: Honecker has just fallen.",
+      "paragraphs": [
+        "Egon Krenz had spent his life in the party machine. He ran its youth movement and then oversaw security for the Politburo, and he was the official in charge of the May 1989 local elections, which were rigged, as citizen observers proved. On 18 October he became party leader and soon head of state as well. He promised a “Wende”, a turn, but few believed a man so close to Honecker could change much.",
+        "His team drew up new travel rules to ease the pressure. On 9 November the party's spokesman, Günter Schabowski, read them out at a live press conference. Asked when they took effect, he shuffled his papers and said: immediately, without delay. That night crowds massed at the Berlin checkpoints until the guards gave up and opened the gates. Krenz could not close them again. On 3 December the whole leadership resigned, and on 6 December he quit as head of state."
+      ],
+      "claims": [
+        {
+          "text": "The Wall opened by mistake after Günter Schabowski said the new rules applied “immediately”.",
+          "status": "confirmed",
+          "note": "He had not been told the rules were meant to start the next day. The press conference was broadcast live."
+        },
+        {
+          "text": "In 1997 a Berlin court convicted Krenz of manslaughter over the shootings at the border.",
+          "status": "confirmed",
+          "note": "He was sentenced to six and a half years, which higher courts upheld. He was released early, at the end of 2003."
+        }
+      ],
+      "hook": "Power slips to the premier, a Dresden party boss with a reputation as a reformer. His job is to save the GDR. Its people have other ideas.",
+      "images": [
+        {
+          "file": "File:Bundesarchiv Bild 183-1984-0704-400, Egon Krenz (cropped).jpg",
+          "url": "https://upload.wikimedia.org/wikipedia/commons/1/1f/Bundesarchiv_Bild_183-1984-0704-400%2C_Egon_Krenz_%28cropped%29.jpg",
+          "page": "https://commons.wikimedia.org/wiki/File:Bundesarchiv_Bild_183-1984-0704-400,_Egon_Krenz_(cropped).jpg",
+          "credit": "Unknown photographer, Bundesarchiv (Bild 183-1984-0704-400)",
+          "license": "CC BY-SA 3.0 de",
+          "made": "1984",
+          "caption": "An official portrait taken in 1984 and issued by the state news agency when Krenz took over in October 1989.",
+          "alt": "Cropped black-and-white portrait photograph of Egon Krenz in a suit and tie"
+        }
+      ],
+      "sources": [
+        {
+          "title": "The Collapse: The Accidental Opening of the Berlin Wall",
+          "author": "Mary Elise Sarotte",
+          "note": "Basic Books, 2014"
+        },
+        {
+          "title": "Chronik des Mauerfalls",
+          "author": "Hans-Hermann Hertle",
+          "note": "Ch. Links, 1996"
+        },
+        {
+          "title": "Herbst '89",
+          "author": "Egon Krenz",
+          "note": "Memoir, 1999"
+        }
+      ],
+      "review": {
+        "status": "draft",
+        "notes": "Drafted from the listed sources; needs a human fact-check."
+      }
+    },
+    {
+      "id": "modrow",
+      "kind": "leader",
+      "rulers": [
+        "modrow"
+      ],
+      "title": "Hans Modrow",
+      "tagline": "The reformer who kept a dying state afloat",
+      "start": {
+        "date": "1989-12-06"
+      },
+      "end": {
+        "date": "1990-04-12"
+      },
+      "contestedWith": [
+        "kohl"
+      ],
+      "relationToPredecessor": "Premier under Krenz",
+      "ageAtAccession": "61",
+      "cameToPower": "Premier, left standing when Krenz fell",
+      "reignEnded": "Gave way after the first free vote",
+      "previously": "Krenz lasts seven weeks. The Wall is open and the party is in ruins.",
+      "paragraphs": [
+        "Hans Modrow was taken prisoner by the Red Army at 17 and came home a convinced Communist. As party boss in Dresden he was known as a modest man and a quiet critic of Honecker. On 13 November 1989 parliament made him premier. Once Krenz and the old guard had gone, Modrow was the man actually running the country.",
+        "He hoped to save a reformed, independent East Germany. He sat down with the new opposition groups at a Round Table and tried to keep the Stasi going under a new name. Angry crowds stormed its Berlin headquarters on 15 January 1990, and it was wound up. People were still leaving by the thousand every day. Modrow went to Bonn to ask for billions of marks and came home empty-handed.",
+        "He gave in and brought the first free election forward to 18 March 1990. Before it, his government set up the Treuhand, the agency that would later sell off the state's factories. The vote was a landslide for parties promising fast unity, and in April Modrow handed over. He sat in the Bundestag and the European Parliament for the post-Communist PDS, and died in 2023 aged 95."
+      ],
+      "claims": [
+        {
+          "text": "Modrow asked Kohl for about 15 billion marks in February 1990 and was turned down.",
+          "status": "confirmed",
+          "note": "He made the request on his visit to Bonn on 13 February 1990. Kohl refused to prop up the GDR before the election."
+        },
+        {
+          "text": "He was later convicted over vote-rigging in the 1989 Dresden local elections.",
+          "status": "confirmed",
+          "note": "A German court found him guilty in the 1990s and gave him a suspended sentence."
+        }
+      ],
+      "hook": "The winner of the first free vote is a soft-spoken lawyer who once played viola in an orchestra. His job is to lead East Germany out of existence.",
+      "images": [
+        {
+          "file": "File:Bundesarchiv Bild 183-1989-1117-431, Hans Modrow, Dr..jpg",
+          "url": "https://upload.wikimedia.org/wikipedia/commons/7/74/Bundesarchiv_Bild_183-1989-1117-431%2C_Hans_Modrow%2C_Dr..jpg",
+          "page": "https://commons.wikimedia.org/wiki/File:Bundesarchiv_Bild_183-1989-1117-431,_Hans_Modrow,_Dr..jpg",
+          "credit": "Elke Schöps, Bundesarchiv (Bild 183-1989-1117-431)",
+          "license": "CC BY-SA 3.0 de",
+          "made": "1989",
+          "caption": "Modrow in November 1989, days after he became premier.",
+          "alt": "Black-and-white portrait photograph of Hans Modrow"
+        }
+      ],
+      "sources": [
+        {
+          "title": "Dissolution: The Crisis of Communism and the End of East Germany",
+          "author": "Charles S. Maier",
+          "note": "Princeton University Press, 1997"
+        },
+        {
+          "title": "1989: The Struggle to Create Post-Cold War Europe",
+          "author": "Mary Elise Sarotte",
+          "note": "Princeton University Press, 2009"
+        },
+        {
+          "title": "Aufbruch und Ende",
+          "author": "Hans Modrow",
+          "note": "Memoir, 1991"
+        }
+      ],
+      "review": {
+        "status": "draft",
+        "notes": "Drafted from the listed sources; needs a human fact-check."
+      }
+    },
+    {
+      "id": "de-maiziere",
+      "kind": "leader",
+      "rulers": [
+        "de-maiziere"
+      ],
+      "title": "Lothar de Maizière",
+      "tagline": "The viola player who voted his own country away",
+      "start": {
+        "date": "1990-04-12"
+      },
+      "end": {
+        "date": "1990-10-03"
+      },
+      "contestedWith": [
+        "kohl"
+      ],
+      "relationToPredecessor": "Won the election that ousted Modrow",
+      "ageAtAccession": "50",
+      "cameToPower": "Elected premier by a free parliament",
+      "reignEnded": "The GDR joined West Germany",
+      "previously": "East Germans vote freely for the first time, and they vote for unity.",
+      "paragraphs": [
+        "Lothar de Maizière came from a Huguenot family that had fled France centuries before. He was a professional viola player until nerve trouble in his arm ended that, so he retrained as a lawyer and defended people in trouble with the state. In November 1989 he took over the East German CDU. Backed by Helmut Kohl, its alliance won the March 1990 election, and on 12 April parliament made him premier.",
+        "He was the only freely elected head of government the GDR ever had, and his task was to close it down. On 1 July 1990 the Deutschmark became East Germany's money. In August the parliament voted to join the Federal Republic. In September he signed the Two Plus Four Treaty in Moscow, in which the wartime Allies gave up their rights over Germany. At midnight on 3 October 1990 the GDR ceased to exist."
+      ],
+      "claims": [
+        {
+          "text": "De Maizière signed the Two Plus Four Treaty for the GDR himself.",
+          "status": "confirmed",
+          "note": "His coalition partners had left the government, so he was also acting foreign minister when it was signed in Moscow on 12 September 1990."
+        },
+        {
+          "text": "He resigned his posts in united Germany in December 1990 after claims he had informed for the Stasi.",
+          "status": "confirmed",
+          "note": "The resignation is on record. He has always denied it."
+        }
+      ],
+      "hook": "United Germany belongs to Kohl until 1998. Then voters want a change, and the SPD's man is Gerhard Schröder, who once rattled the chancellery gates and shouted that he wanted in.",
+      "images": [
+        {
+          "file": "File:De Maizière (Portrait).jpg",
+          "url": "https://upload.wikimedia.org/wikipedia/commons/b/b4/De_Maizi%C3%A8re_%28Portrait%29.jpg",
+          "page": "https://commons.wikimedia.org/wiki/File:De_Maizi%C3%A8re_(Portrait).jpg",
+          "credit": "Klaus Oberst, Bundesarchiv",
+          "license": "CC BY-SA 3.0 de",
+          "made": "1990",
+          "caption": "De Maizière in the East German parliament on 19 April 1990, delivering his government's first statement.",
+          "alt": "Photograph of Lothar de Maizière at the East German parliament in Berlin"
+        }
+      ],
+      "sources": [
+        {
+          "title": "Ich will, dass meine Kinder nicht mehr lügen müssen",
+          "author": "Lothar de Maizière",
+          "note": "Memoir, Herder, 2010"
+        },
+        {
+          "title": "The Rush to German Unity",
+          "author": "Konrad H. Jarausch",
+          "note": "Oxford University Press, 1994"
+        },
+        {
+          "title": "Dissolution: The Crisis of Communism and the End of East Germany",
+          "author": "Charles S. Maier",
+          "note": "Princeton University Press, 1997"
+        }
+      ],
+      "review": {
+        "status": "draft",
+        "notes": "Drafted from the listed sources; needs a human fact-check."
+      }
+    },
+    {
       "id": "schroder",
       "kind": "leader",
       "rulers": [
@@ -1957,7 +2448,7 @@
       "ageAtAccession": "54",
       "cameToPower": "Won the 1998 election",
       "reignEnded": "Lost a snap election",
-      "previously": "Kohl, chancellor of unity, loses the 1998 election after 16 years.",
+      "previously": "The GDR is gone. In 1998 Kohl, the unity chancellor, loses power.",
       "paragraphs": [
         "Gerhard Schröder never knew his father, a soldier killed in the war months after Gerhard was born. He grew up poor, finished school at night classes, studied law and fought his way to the top of Lower Saxony. In 1998 he formed Germany's first coalition with the Greens. Within months German jets were flying combat missions over Kosovo, the first since 1945, and the government moved from Bonn to Berlin.",
         "In 2002 he refused to join the US-led war in Iraq and narrowly won re-election. With unemployment high, he pushed through the Agenda 2010 reforms, cutting benefits and loosening job rules. His own party revolted. He called an early election in 2005 and lost by a whisker. Out of office, he went to work for Russian-backed energy firms, chairing the Nord Stream pipeline company and, from 2017, the board of Rosneft."
