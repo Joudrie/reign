@@ -481,10 +481,14 @@ const CATALOG = [
   { id: "ethiopia", name: "Ethiopia", short: "Ethiopia" },
   { id: "korea", name: "Korea (Joseon)", short: "Korea" },
   { id: "thailand", name: "Thailand", short: "Thailand" },
+  { id: "china", name: "China", short: "China" },
+  { id: "iran", name: "Persia & Iran", short: "Persia" },
   { id: "rome", name: "Rome", short: "Rome" },
   { id: "westeros", name: "Westeros", short: "Westeros", fictional: true },
 ];
 const FLAGS = {
+  china: `<svg class="flag" viewBox="0 0 30 20" preserveAspectRatio="none"><rect width="30" height="20" fill="#de2910"/><path fill="#ffde00" d="M5 3l.9 2.7h2.8l-2.3 1.7.9 2.7L5 8.4l-2.3 1.7.9-2.7L1.3 5.7h2.8z"/><circle cx="10" cy="2.5" r=".8" fill="#ffde00"/><circle cx="12" cy="4.5" r=".8" fill="#ffde00"/><circle cx="12" cy="7.5" r=".8" fill="#ffde00"/><circle cx="10" cy="9.5" r=".8" fill="#ffde00"/></svg>`,
+  iran: `<svg class="flag" viewBox="0 0 30 20" preserveAspectRatio="none"><rect width="30" height="6.67" fill="#239f40"/><rect y="6.67" width="30" height="6.67" fill="#fff"/><rect y="13.33" width="30" height="6.67" fill="#da0000"/></svg>`,
   poland: `<svg class="flag" viewBox="0 0 30 20" preserveAspectRatio="none"><rect width="30" height="10" fill="#fff"/><rect y="10" width="30" height="10" fill="#dc143c"/></svg>`,
   hungary: `<svg class="flag" viewBox="0 0 30 20" preserveAspectRatio="none"><rect width="30" height="6.67" fill="#ce2939"/><rect y="6.67" width="30" height="6.67" fill="#fff"/><rect y="13.33" width="30" height="6.67" fill="#477050"/></svg>`,
   byzantium: `<svg class="flag" viewBox="0 0 30 20" preserveAspectRatio="none"><rect width="30" height="20" fill="#5b2a6e"/><rect x="13.5" y="3" width="3" height="14" fill="#e3b448"/><rect x="8" y="8.5" width="14" height="3" fill="#e3b448"/></svg>`,
@@ -806,7 +810,7 @@ function jumpTo(i) { show("read"); go(i, 0, true); }
 const ZOOMS = [2, 4, 8, 16, 32];          // px per year
 let zoom = 1;
 // Neighbours sit together: Rome, the British Isles, western Europe, Scandinavia, then east to Japan.
-const TL_ORDER = ["rome", "byzantium", "hre", "england", "scotland", "france", "netherlands", "spain", "portugal", "germany", "denmark", "norway", "sweden", "poland", "austria", "hungary", "russia", "ottoman", "ethiopia", "thailand", "korea", "japan"];
+const TL_ORDER = ["rome", "byzantium", "hre", "england", "scotland", "france", "netherlands", "spain", "portugal", "germany", "denmark", "norway", "sweden", "poland", "austria", "hungary", "russia", "ottoman", "iran", "ethiopia", "thailand", "china", "korea", "japan"];
 const TL_TOP = 44;                        // height of the sticky country headers
 let tlMarker = null;                      // astronomical year the reader tapped: a line across every column
 let tlFrame = null;                       // { t0, ppy, era } of the last drawing, for taps and zoom
