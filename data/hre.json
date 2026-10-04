@@ -887,6 +887,149 @@
         "austria:francis",
         "hungary:francis"
       ]
+    },
+    {
+      "id": "arnulf",
+      "name": "Arnulf",
+      "epithet": "of Carinthia",
+      "house": "carolingian",
+      "born": {
+        "date": "0850",
+        "circa": true
+      },
+      "died": {
+        "date": "0899-12-08",
+        "note": "Regensburg"
+      },
+      "causeOfDeath": "Illness after years of paralysis"
+    },
+    {
+      "id": "guy-of-spoleto",
+      "name": "Guy",
+      "epithet": "of Spoleto",
+      "house": "rivals",
+      "died": {
+        "date": "0894-12",
+        "note": "Near the river Taro, northern Italy"
+      },
+      "causeOfDeath": "Sudden illness"
+    },
+    {
+      "id": "lambert",
+      "name": "Lambert",
+      "epithet": "of Spoleto",
+      "house": "rivals",
+      "born": {
+        "date": "0880",
+        "circa": true
+      },
+      "died": {
+        "date": "0898-10-15",
+        "note": "Marengo, near Alessandria"
+      },
+      "causeOfDeath": "Fall from his horse while hunting"
+    },
+    {
+      "id": "louis-the-child",
+      "name": "Louis the Child",
+      "house": "carolingian",
+      "born": {
+        "date": "0893",
+        "note": "Altötting, Bavaria"
+      },
+      "died": {
+        "date": "0911-09",
+        "note": "Probably Frankfurt; 20 or 24 September"
+      },
+      "causeOfDeath": "Illness"
+    },
+    {
+      "id": "louis-the-blind",
+      "name": "Louis III",
+      "epithet": "the Blind",
+      "house": "rivals",
+      "born": {
+        "date": "0880",
+        "circa": true
+      },
+      "died": {
+        "date": "0928",
+        "note": "Arles, Provence"
+      },
+      "causeOfDeath": "Not recorded"
+    },
+    {
+      "id": "conrad-i",
+      "name": "Conrad I",
+      "house": "rivals",
+      "born": {
+        "date": "0881",
+        "circa": true
+      },
+      "died": {
+        "date": "0918-12-23",
+        "note": "Weilburg; buried at Fulda"
+      },
+      "causeOfDeath": "Illness, perhaps from a war wound"
+    },
+    {
+      "id": "berengar-i",
+      "name": "Berengar I",
+      "epithet": "of Friuli",
+      "house": "rivals",
+      "born": {
+        "date": "0845",
+        "circa": true
+      },
+      "died": {
+        "date": "0924-04-07",
+        "note": "Verona"
+      },
+      "causeOfDeath": "Murdered by one of his own men"
+    },
+    {
+      "id": "william-of-holland",
+      "name": "William",
+      "epithet": "of Holland",
+      "house": "rivals",
+      "born": {
+        "date": "1227-02"
+      },
+      "died": {
+        "date": "1256-01-28",
+        "note": "Hoogwoud, West Friesland"
+      },
+      "causeOfDeath": "Killed by Frisians after his horse fell through ice"
+    },
+    {
+      "id": "richard-of-cornwall",
+      "name": "Richard",
+      "epithet": "of Cornwall",
+      "house": "rivals",
+      "born": {
+        "date": "1209-01-05",
+        "note": "Winchester"
+      },
+      "died": {
+        "date": "1272-04-02",
+        "note": "Berkhamsted Castle, Hertfordshire"
+      },
+      "causeOfDeath": "Stroke"
+    },
+    {
+      "id": "alfonso-x",
+      "name": "Alfonso X",
+      "epithet": "the Wise",
+      "house": "rivals",
+      "born": {
+        "date": "1221-11-23",
+        "note": "Toledo"
+      },
+      "died": {
+        "date": "1284-04-04",
+        "note": "Seville"
+      },
+      "causeOfDeath": "Illness"
     }
   ],
   "reigns": [
@@ -1337,57 +1480,135 @@
       }
     },
     {
-      "id": "empire-falls-apart",
-      "kind": "interregnum",
-      "rulers": [],
-      "house": "rivals",
-      "title": "The Empire Falls Apart",
-      "tagline": "Rival kings, puppet emperors and a corpse on trial",
+      "id": "arnulf",
+      "kind": "monarch",
+      "rulers": [
+        "arnulf"
+      ],
+      "tagline": "The bastard king who stormed Rome, then froze",
       "start": {
         "date": "0887-11"
       },
       "end": {
-        "date": "0919-05"
+        "date": "0899-12-08"
       },
-      "contestedWith": [],
-      "relationToPredecessor": "Rivals carved up the empire",
-      "ageAtAccession": "No single ruler",
-      "cameToPower": "Charles the Fat deposed",
-      "reignEnded": "Saxon duke Henry elected king",
+      "contestedWith": [
+        "guy-of-spoleto",
+        "lambert"
+      ],
+      "relationToPredecessor": "Nephew; Carloman's illegitimate son",
+      "ageAtAccession": "About 37",
+      "cameToPower": "Revolt against Charles the Fat",
+      "reignEnded": "Died after years of paralysis",
       "previously": "Charles the Fat is deposed by his nephew. He's dead within weeks.",
       "paragraphs": [
-        "After 887 every region grabbed its own king. Arnulf of Carinthia ruled the east. In Italy, Guy of Spoleto had the pope crown him emperor in 891, then made his son Lambert co-emperor. Pope Formosus wanted rid of them and called in Arnulf, who took Rome and was crowned in 896. Weeks later Arnulf was struck down by paralysis; he died in 899.",
-        "In January 897 Pope Stephen VI had the rotting body of Formosus dug up, dressed in papal robes and put on trial. The corpse was found guilty, stripped, had its blessing fingers cut off and was thrown into the Tiber. Rome rioted, and Stephen was soon jailed and strangled. Meanwhile Berengar of Friuli fought rivals for Italy for decades and was crowned emperor in 915.",
-        "In the east Arnulf's son Louis the Child became king at six, while Magyar horsemen raided at will. He died in 911, still a teenager. The nobles chose Conrad of Franconia, who spent seven years fighting his own dukes, then died in 918."
+        "Arnulf was the son of King Carloman of Bavaria and a woman he never married, so he grew up a royal bastard ruling the frontier march of Carinthia. In November 887 he marched on his sick uncle, Charles the Fat. The eastern nobles switched sides at Tribur, and Arnulf was king of East Francia. Everywhere else, local strongmen crowned themselves: Odo in Paris, Rudolf in Burgundy, Guy and Berengar in Italy.",
+        "He was a fighter. In 891 he caught a Viking army on the river Dyle, near Leuven, and wiped it out. He spent years at war with Svatopluk of Moravia. Then Pope Formosus begged him to rescue Rome from the dukes of Spoleto. In February 896 his men stormed the city walls and Formosus crowned him emperor.",
+        "Weeks later, marching on Spoleto, Arnulf was struck down by a paralysing illness. He was carried home to Bavaria and never really ruled again. He died at Regensburg in December 899, leaving a six-year-old son."
       ],
       "claims": [
         {
-          "text": "A pope's corpse was put on trial in 897, the 'Cadaver Synod'.",
-          "status": "confirmed",
-          "note": "Reported by Liutprand of Cremona and by writers in Rome soon after, and the verdict was formally overturned by later popes."
-        },
-        {
-          "text": "A deacon stood behind the corpse and answered the charges for it.",
+          "text": "Lambert's mother Ageltrude poisoned Arnulf in 896.",
           "status": "disputed",
-          "note": "This detail is in the classic retellings, but the earliest accounts are sketchy and hostile."
+          "note": "The rumour was going round within a few years and Liutprand of Cremona repeats it. Most historians think it was a stroke."
         },
         {
-          "text": "On his deathbed Conrad told his brother to take the royal insignia to his enemy, Henry of Saxony.",
+          "text": "At the end he was eaten alive by lice.",
           "status": "legend",
-          "note": "Widukind of Corvey, a Saxon monk writing about 50 years later, tells the story. It flatters Henry's family, which paid for his work."
+          "note": "Liutprand says no doctor could stop the tiny vermin. Writers used the same grisly death to shame other villains, so it may be invented."
+        },
+        {
+          "text": "His army routed the Vikings on the Dyle in 891.",
+          "status": "confirmed",
+          "note": "The Annals of Fulda and Regino of Prüm both describe the battle and its aftermath."
         }
       ],
-      "hook": "May 919. The Franks and Saxons meet at Fritzlar to choose a new king. Their pick is the duke of Saxony, a man who has spent years fighting Conrad. Legend says he was out catching birds when they found him.",
+      "hook": "Arnulf won his crown in Rome, but he wasn't the first emperor of these years. Rewind to 891, when a duke from Spoleto talked a pope into crowning him in St Peter's.",
       "images": [
         {
-          "file": "File:Jean Paul Laurens Le Pape Formose et Etienne VI 1870.jpg",
-          "url": "https://upload.wikimedia.org/wikipedia/commons/b/bf/Jean_Paul_Laurens_Le_Pape_Formose_et_Etienne_VI_1870.jpg",
-          "page": "https://commons.wikimedia.org/wiki/File:Jean_Paul_Laurens_Le_Pape_Formose_et_Etienne_VI_1870.jpg",
-          "credit": "Jean-Paul Laurens",
+          "file": "File:Seal of Arnulph of Carinthia (896).jpg",
+          "url": "https://upload.wikimedia.org/wikipedia/commons/4/48/Seal_of_Arnulph_of_Carinthia_%28896%29.jpg",
+          "page": "https://commons.wikimedia.org/wiki/File:Seal_of_Arnulph_of_Carinthia_(896).jpg",
+          "credit": "Unknown",
           "license": "Public domain",
-          "made": "1870",
-          "caption": "Jean-Paul Laurens's painting of the Cadaver Synod, made nearly 1,000 years after the event.",
-          "alt": "Painting of a dead pope's body propped on a throne in papal robes, facing its accuser in a church hall"
+          "made": "c. 896",
+          "caption": "Arnulf's own seal, from 896, the year he was crowned emperor.",
+          "alt": "Medieval wax seal of Arnulf of Carinthia"
+        }
+      ],
+      "sources": [
+        {
+          "title": "Annals of Fulda",
+          "author": "Anonymous East Frankish annalists"
+        },
+        {
+          "title": "Chronicon",
+          "author": "Regino of Prüm"
+        },
+        {
+          "title": "Antapodosis",
+          "author": "Liutprand of Cremona"
+        },
+        {
+          "title": "Germany in the Early Middle Ages, c. 800–1056",
+          "author": "Timothy Reuter",
+          "note": "Longman, 1991"
+        }
+      ],
+      "review": {
+        "status": "draft",
+        "notes": "Drafted from the listed sources; needs a human fact-check."
+      }
+    },
+    {
+      "id": "guy-of-spoleto",
+      "kind": "monarch",
+      "rulers": [
+        "guy-of-spoleto"
+      ],
+      "tagline": "The duke who grabbed the emperor's crown",
+      "start": {
+        "date": "0891-02-21"
+      },
+      "end": {
+        "date": "0894-12"
+      },
+      "contestedWith": [
+        "arnulf"
+      ],
+      "relationToPredecessor": "Rival of Arnulf; Duke of Spoleto",
+      "ageAtAccession": "Unknown (adult)",
+      "cameToPower": "Crowned by Pope Stephen V",
+      "reignEnded": "Died suddenly by the Taro",
+      "previously": "Arnulf dies, paralysed. Now rewind to Italy, a decade earlier.",
+      "paragraphs": [
+        "Guy ran the duchy of Spoleto in central Italy, a big, warlike family with Frankish roots and Carolingian kin. When Charles the Fat fell in 887 he aimed high. He even had himself crowned king of the West Franks at Langres, then saw he had no support there and turned back to Italy.",
+        "There he fought Berengar of Friuli for the Italian crown, won at the Trebbia in 889 and was crowned king at Pavia. On 21 February 891 Pope Stephen V crowned him emperor in Rome. The next pope, Formosus, had to crown Guy's son Lambert as co-emperor in 892, while secretly writing to Arnulf for help.",
+        "Arnulf came in 894, stormed Bergamo and hanged its count at the gate. Guy kept out of his way, and the Germans went home. Late that year, as he prepared for the next round, Guy died suddenly near the river Taro."
+      ],
+      "claims": [
+        {
+          "text": "Guy was crowned king of the West Franks at Langres in 888 before giving up.",
+          "status": "confirmed",
+          "note": "Frankish annals record the coronation by the bishop of Langres. Guy left when Odo of Paris won the nobles over."
+        },
+        {
+          "text": "Pope Formosus secretly begged Arnulf to come and free Rome from Guy.",
+          "status": "confirmed",
+          "note": "The Annals of Fulda record envoys from Formosus reaching Arnulf and asking him to come to Italy."
+        }
+      ],
+      "hook": "Guy is dead, and the imperial crown rests on the head of his son Lambert, a teenager. Behind the boy stands his ferocious mother, Ageltrude. She has a score to settle with the pope.",
+      "images": [
+        {
+          "file": "File:Guido di Spoleto.png",
+          "url": "https://upload.wikimedia.org/wikipedia/commons/9/93/Guido_di_Spoleto.png",
+          "page": "https://commons.wikimedia.org/wiki/File:Guido_di_Spoleto.png",
+          "credit": "Unknown illuminator of the Chronicon Casauriense",
+          "license": "Public domain",
+          "made": "12th century",
+          "caption": "Guy as 'Wido imperator' in a chronicle from the abbey of Casauria, drawn about 250 years after his death.",
+          "alt": "Manuscript drawing of Guy of Spoleto, labelled Wido imperator, from the Chronicon Casauriense"
         }
       ],
       "sources": [
@@ -1400,6 +1621,149 @@
           "author": "Anonymous East Frankish annalists"
         },
         {
+          "title": "Early Medieval Italy: Central Power and Local Society, 400–1000",
+          "author": "Chris Wickham",
+          "note": "Macmillan, 1981"
+        }
+      ],
+      "review": {
+        "status": "draft",
+        "notes": "Drafted from the listed sources; needs a human fact-check."
+      }
+    },
+    {
+      "id": "lambert",
+      "kind": "monarch",
+      "rulers": [
+        "lambert"
+      ],
+      "tagline": "The boy emperor and the pope on trial",
+      "start": {
+        "date": "0894-12"
+      },
+      "end": {
+        "date": "0898-10-15"
+      },
+      "contestedWith": [
+        "arnulf"
+      ],
+      "relationToPredecessor": "Son of Guy; co-emperor since 892",
+      "ageAtAccession": "About 14",
+      "cameToPower": "Sole emperor on his father's death",
+      "reignEnded": "Hunting fall at Marengo",
+      "previously": "Guy dies suddenly. His teenage son is emperor on his own.",
+      "paragraphs": [
+        "Lambert had been co-emperor since he was about 12. Now he had the job alone, with his mother Ageltrude at his side. In February 896 Arnulf's army stormed Rome and the pope crowned the German instead. Then Arnulf fell ill and went home, and the Spoletans came back.",
+        "In January 897 Pope Stephen VI, now on Lambert's side, had Formosus dug up. The rotting corpse was dressed in papal robes, put on trial and found guilty. Its blessing fingers were cut off and it was thrown in the Tiber. Rome rioted and Stephen was strangled in prison.",
+        "Lambert grew up fast. He split Italy with Berengar and made peace with Pope John IX, who scrapped the corpse trial and Arnulf's coronation. Then in October 1898 he fell from his horse hunting at Marengo and died, still under 20."
+      ],
+      "claims": [
+        {
+          "text": "A pope's corpse was put on trial in 897, the 'Cadaver Synod'.",
+          "status": "confirmed",
+          "note": "Liutprand of Cremona and Roman writers soon after report it, and later popes formally overturned the verdict."
+        },
+        {
+          "text": "Lambert and Ageltrude were behind the Cadaver Synod.",
+          "status": "disputed",
+          "note": "They had the motive, since Formosus had crowned Arnulf. No source shows them giving the order."
+        },
+        {
+          "text": "Lambert was murdered, his neck broken by a nobleman whose father he had executed.",
+          "status": "disputed",
+          "note": "Liutprand tells this story. Other sources speak only of a fall while hunting."
+        }
+      ],
+      "hook": "Lambert is dead and Italy falls to Berengar. North of the Alps, Arnulf dies the next year, leaving a six-year-old boy, a squabbling nobility and a kingdom wide open to Magyar raiders.",
+      "images": [
+        {
+          "file": "File:Lambert de Spolète.jpg",
+          "url": "https://upload.wikimedia.org/wikipedia/commons/6/6a/Lambert_de_Spol%C3%A8te.jpg",
+          "page": "https://commons.wikimedia.org/wiki/File:Lambert_de_Spol%C3%A8te.jpg",
+          "credit": "Unknown illuminator of the Chronicon Casauriense",
+          "license": "Public domain",
+          "made": "12th century",
+          "caption": "Lambert in the chronicle of the abbey of Casauria, drawn some 250 years after his death.",
+          "alt": "Manuscript drawing of Lambert of Spoleto from the Chronicon Casauriense"
+        }
+      ],
+      "sources": [
+        {
+          "title": "Antapodosis",
+          "author": "Liutprand of Cremona"
+        },
+        {
+          "title": "Annals of Fulda",
+          "author": "Anonymous East Frankish annalists"
+        },
+        {
+          "title": "Early Medieval Italy: Central Power and Local Society, 400–1000",
+          "author": "Chris Wickham",
+          "note": "Macmillan, 1981"
+        }
+      ],
+      "review": {
+        "status": "draft",
+        "notes": "Drafted from the listed sources; needs a human fact-check."
+      }
+    },
+    {
+      "id": "louis-the-child",
+      "kind": "monarch",
+      "rulers": [
+        "louis-the-child"
+      ],
+      "tagline": "A six-year-old king, and the Magyars at the door",
+      "start": {
+        "date": "0900-02-04"
+      },
+      "end": {
+        "date": "0911-09"
+      },
+      "contestedWith": [
+        "louis-the-blind"
+      ],
+      "relationToPredecessor": "Arnulf's only legitimate son",
+      "ageAtAccession": "6",
+      "cameToPower": "Chosen king at Forchheim",
+      "reignEnded": "Died at about 18",
+      "previously": "Lambert dies in a hunting fall. In the east, Arnulf dies too.",
+      "paragraphs": [
+        "Louis was raised king at Forchheim in February 900, aged six. A boy can't rule, so bishops did it for him: Archbishop Hatto of Mainz and Bishop Salomo of Constance signed the charters and steered the court. The great families fought each other, and the Conradines of Franconia won a bloody feud against the Babenbergs.",
+        "The real terror was the Magyars, horsemen from the Hungarian plain who struck fast and vanished. On 4 July 907 they destroyed a Bavarian army near Pressburg, killing its margrave and the archbishop of Salzburg. In 910 Louis led an army himself and was beaten near Augsburg.",
+        "He was sickly and never had children. In September 911 he died at about 18. He was the last Carolingian to rule east of the Rhine."
+      ],
+      "claims": [
+        {
+          "text": "Archbishop Hatto tricked Adalbert of Babenberg out of his castle with a false promise, and Adalbert was beheaded.",
+          "status": "legend",
+          "note": "Widukind of Corvey tells it 60 years later. Adalbert's execution in 906 is real. Hatto's trick may be storytelling."
+        },
+        {
+          "text": "The Magyars wiped out the Bavarian army at Pressburg in 907.",
+          "status": "confirmed",
+          "note": "Several sets of annals list the dead, including Margrave Luitpold and Archbishop Theotmar of Salzburg."
+        }
+      ],
+      "hook": "Rewind to 901. Another Carolingian Louis, a young king from Provence, has crossed the Alps to grab the emperor's crown. Waiting for him in Italy is Berengar, who hates to share.",
+      "images": [
+        {
+          "file": "File:Ludwig das Kind.jpg",
+          "url": "https://upload.wikimedia.org/wikipedia/commons/0/0e/Ludwig_das_Kind.jpg",
+          "page": "https://commons.wikimedia.org/wiki/File:Ludwig_das_Kind.jpg",
+          "credit": "Unknown",
+          "license": "Public domain",
+          "made": "15th century",
+          "caption": "A 15th-century picture of Louis, made about 550 years after he died.",
+          "alt": "Late medieval painted portrait labelled as Louis the Child, king from 893 to 911"
+        }
+      ],
+      "sources": [
+        {
+          "title": "Chronicon",
+          "author": "Regino of Prüm"
+        },
+        {
           "title": "Res gestae Saxonicae (Deeds of the Saxons)",
           "author": "Widukind of Corvey"
         },
@@ -1407,6 +1771,232 @@
           "title": "Germany in the Early Middle Ages, c. 800–1056",
           "author": "Timothy Reuter",
           "note": "Longman, 1991"
+        }
+      ],
+      "review": {
+        "status": "draft",
+        "notes": "Drafted from the listed sources; needs a human fact-check."
+      }
+    },
+    {
+      "id": "louis-the-blind",
+      "kind": "monarch",
+      "rulers": [
+        "louis-the-blind"
+      ],
+      "tagline": "Emperor for four years, blind for twenty-three",
+      "start": {
+        "date": "0901-02"
+      },
+      "end": {
+        "date": "0905-07-21"
+      },
+      "contestedWith": [
+        "louis-the-child"
+      ],
+      "relationToPredecessor": "Rival; grandson of Emperor Louis II",
+      "ageAtAccession": "About 20",
+      "cameToPower": "Crowned by Pope Benedict IV",
+      "reignEnded": "Blinded by Berengar at Verona",
+      "previously": "Louis the Child dies at 18, the last Carolingian in the east.",
+      "paragraphs": [
+        "Louis was the son of Boso, a count who made himself king of Provence in 879, and of Ermengard, daughter of Emperor Louis II. That gave him Carolingian blood and a claim on Italy. In 900 Italian nobles tired of Berengar invited him in. He was crowned king at Pavia, and in February 901 Pope Benedict IV made him emperor in Rome.",
+        "Berengar fought back and drove him out in 902, and Louis swore never to return. In 905 he came back anyway and took Verona. Berengar's supporters let their man into the city by night. Louis was caught, and on 21 July 905 he was blinded.",
+        "He went home to Provence and kept calling himself emperor for another 23 years. His cousin Hugh of Arles did the real work."
+      ],
+      "claims": [
+        {
+          "text": "Louis was blinded as the price of breaking his oath never to return to Italy.",
+          "status": "confirmed",
+          "note": "Liutprand of Cremona gives the oath and the punishment. The blinding itself is recorded in several sources."
+        },
+        {
+          "text": "After the blinding, Hugh of Arles ran Provence in his name.",
+          "status": "confirmed",
+          "note": "Charters show Hugh as the leading man of the kingdom. He later became king of Italy himself."
+        }
+      ],
+      "hook": "Back north, 911. The boy king Louis is dead and there are no Carolingian men left in the east. For the first time, the Frankish nobles will have to choose a king from outside the family.",
+      "images": [
+        {
+          "file": "File:Denier of Emperor Louis III.jpg",
+          "url": "https://upload.wikimedia.org/wikipedia/commons/c/ce/Denier_of_Emperor_Louis_III.jpg",
+          "page": "https://commons.wikimedia.org/wiki/File:Denier_of_Emperor_Louis_III.jpg",
+          "credit": "Classical Numismatic Group (CNG)",
+          "license": "CC BY-SA 2.5",
+          "made": "901–905",
+          "caption": "A silver penny struck at Vienne while Louis was emperor, naming him LVDVVICVS IMP.",
+          "alt": "Both sides of a worn silver denier: a Latin legend around a monogram, and a cross with VIENNA CIVIS"
+        }
+      ],
+      "sources": [
+        {
+          "title": "Antapodosis",
+          "author": "Liutprand of Cremona"
+        },
+        {
+          "title": "Early Medieval Italy: Central Power and Local Society, 400–1000",
+          "author": "Chris Wickham",
+          "note": "Macmillan, 1981"
+        },
+        {
+          "title": "The Frankish Kingdoms under the Carolingians, 751–987",
+          "author": "Rosamond McKitterick",
+          "note": "Longman, 1983"
+        }
+      ],
+      "review": {
+        "status": "draft",
+        "notes": "Drafted from the listed sources; needs a human fact-check."
+      }
+    },
+    {
+      "id": "conrad-i",
+      "kind": "monarch",
+      "rulers": [
+        "conrad-i"
+      ],
+      "tagline": "The first non-Carolingian king, and his dukes said no",
+      "start": {
+        "date": "0911-11-10"
+      },
+      "end": {
+        "date": "0918-12-23"
+      },
+      "contestedWith": [
+        "berengar-i"
+      ],
+      "relationToPredecessor": "None; Duke of Franconia",
+      "ageAtAccession": "About 30",
+      "cameToPower": "Elected at Forchheim",
+      "reignEnded": "Died at Weilburg",
+      "previously": "Louis the Blind goes home to Provence, blind but still 'emperor'.",
+      "paragraphs": [
+        "Conrad was a Conradine, the family that had just won the feud with the Babenbergs, and Duke of Franconia. On 10 November 911 the nobles met at Forchheim and made him king. It was a big moment: for the first time the eastern Franks chose a king with no Carolingian father. Lotharingia refused him and went over to the king of the West Franks. Conrad tried to win it back and failed.",
+        "Then the dukes turned on him. Henry of Saxony, Arnulf of Bavaria and two Swabian brothers, Erchanger and Berthold, all fought him. In 917 he had the Swabians beheaded. Meanwhile the Magyars rode in at will, as far as Basel.",
+        "Worn down, Conrad died on 23 December 918 and was buried at Fulda. His own family had failed. The next king would come from his fiercest enemy."
+      ],
+      "claims": [
+        {
+          "text": "On his deathbed Conrad told his brother Eberhard to take the royal insignia to Henry of Saxony.",
+          "status": "legend",
+          "note": "Widukind of Corvey tells the story about 50 years later. It flatters Henry's family, who were Widukind's patrons."
+        },
+        {
+          "text": "Conrad died from a wound taken fighting the Bavarians.",
+          "status": "disputed",
+          "note": "Some later accounts link his death to his Bavarian campaign. The annals just record that he died."
+        }
+      ],
+      "hook": "Rewind to Rome, December 915. Berengar of Friuli, the old warhorse who has fought for Italy since 887, is about to get what he always wanted. The pope will crown him emperor.",
+      "images": [
+        {
+          "file": "File:KonradSiegel.jpg",
+          "url": "https://upload.wikimedia.org/wikipedia/commons/9/9a/KonradSiegel.jpg",
+          "page": "https://commons.wikimedia.org/wiki/File:KonradSiegel.jpg",
+          "credit": "Unknown",
+          "license": "Public domain",
+          "made": "Early 10th century",
+          "caption": "King Conrad's seal, made during his reign.",
+          "alt": "Royal seal of King Conrad I, 911 to 918"
+        }
+      ],
+      "sources": [
+        {
+          "title": "Res gestae Saxonicae (Deeds of the Saxons)",
+          "author": "Widukind of Corvey"
+        },
+        {
+          "title": "Germany in the Early Middle Ages, c. 800–1056",
+          "author": "Timothy Reuter",
+          "note": "Longman, 1991"
+        },
+        {
+          "title": "The Frankish Kingdoms under the Carolingians, 751–987",
+          "author": "Rosamond McKitterick",
+          "note": "Longman, 1983"
+        }
+      ],
+      "review": {
+        "status": "draft",
+        "notes": "Drafted from the listed sources; needs a human fact-check."
+      }
+    },
+    {
+      "id": "berengar-i",
+      "kind": "monarch",
+      "rulers": [
+        "berengar-i"
+      ],
+      "tagline": "Forty years fighting for Italy, and a knife at the end",
+      "start": {
+        "date": "0915-12"
+      },
+      "end": {
+        "date": "0924-04-07"
+      },
+      "contestedWith": [
+        "conrad-i",
+        "henry-the-fowler"
+      ],
+      "relationToPredecessor": "Rival; grandson of Louis the Pious",
+      "ageAtAccession": "About 70",
+      "cameToPower": "Crowned by Pope John X",
+      "reignEnded": "Murdered at Verona",
+      "previously": "Conrad I is dead, his kingdom in pieces. Italy has its own story.",
+      "paragraphs": [
+        "Berengar's mother was a daughter of Louis the Pious, and he had been Margrave of Friuli in north-east Italy. He was crowned king of Italy in 887 and spent the next 30 years fighting for it: against Guy, against Lambert, against Louis of Provence, whom he had blinded. In 899 the Magyars crushed his army at the Brenta.",
+        "He survived everything. In December 915 Pope John X crowned him emperor in Rome, and a court poet wrote a Latin epic about his deeds. But the Italian nobles were sick of him. They brought in Rudolf II of Burgundy, who beat him at Fiorenzuola in 923.",
+        "Berengar fell back to Verona. On 7 April 924 one of his own followers stabbed him to death. Nobody was crowned emperor again for 38 years."
+      ],
+      "claims": [
+        {
+          "text": "He was murdered by Flambert, a man whose son he had stood godfather to.",
+          "status": "legend",
+          "note": "Liutprand of Cremona tells the story with a twist of betrayal. The murder is certain; the details are his."
+        },
+        {
+          "text": "A poet wrote an epic, the Gesta Berengarii, to celebrate his coronation.",
+          "status": "confirmed",
+          "note": "The anonymous poem survives in a single manuscript, written in his lifetime."
+        },
+        {
+          "text": "He hired Magyar raiders, who burned Pavia in 924.",
+          "status": "disputed",
+          "note": "Liutprand blames Berengar's Magyar allies for the fire. How far Berengar controlled them is unclear."
+        }
+      ],
+      "hook": "Italy now has no emperor at all. North of the Alps, the Franks and Saxons have already chosen a new king: the duke of Saxony. Legend says he was out catching birds when they found him.",
+      "images": [
+        {
+          "file": "File:Berengar I of Italy.jpg",
+          "url": "https://upload.wikimedia.org/wikipedia/commons/6/6a/Berengar_I_of_Italy.jpg",
+          "page": "https://commons.wikimedia.org/wiki/File:Berengar_I_of_Italy.jpg",
+          "credit": "Johannes Berardi (Chronicon Casauriense)",
+          "license": "Public domain",
+          "made": "12th century",
+          "caption": "Berengar with the monks of Casauria, drawn about 250 years after his death.",
+          "alt": "Manuscript drawing of King Berengar I with the monks of the abbey of Casauria"
+        }
+      ],
+      "sources": [
+        {
+          "title": "Gesta Berengarii imperatoris",
+          "author": "Anonymous Italian poet"
+        },
+        {
+          "title": "Antapodosis",
+          "author": "Liutprand of Cremona"
+        },
+        {
+          "title": "I re d'Italia (888–962)",
+          "author": "Gina Fasoli",
+          "note": "Sansoni, Florence, 1949"
+        },
+        {
+          "title": "Early Medieval Italy: Central Power and Local Society, 400–1000",
+          "author": "Chris Wickham",
+          "note": "Macmillan, 1981"
         }
       ],
       "review": {
@@ -1427,12 +2017,14 @@
       "end": {
         "date": "0936-07-02"
       },
-      "contestedWith": [],
+      "contestedWith": [
+        "berengar-i"
+      ],
       "relationToPredecessor": "Duke of Saxony; Conrad I's rival",
       "ageAtAccession": "About 43",
       "cameToPower": "Elected at Fritzlar",
       "reignEnded": "Stroke at Memleben",
-      "previously": "Conrad I is dead, and he's told his men to back the Saxon duke.",
+      "previously": "Conrad I is dead. In Italy, old Emperor Berengar clings on.",
       "paragraphs": [
         "Henry was never emperor. He was king of East Francia, and he made a point of being modest about it. When the archbishop of Mainz offered to anoint him with holy oil, Henry said no thanks. Instead of fighting the great dukes of Bavaria and Swabia to the death, he made deals with them: keep your duchy, accept me as king.",
         "His big problem was the Magyars, raiders from the Hungarian plain who had been burning their way across Germany for years. In 926 Henry captured one of their leaders and swapped him for a nine-year truce, paying tribute. He used the time to build fortified strongholds and train armoured cavalry. In 933, when the Magyars came back, he beat them at Riade.",
@@ -2676,7 +3268,7 @@
           "note": "He held the title from birth but never went there to be crowned."
         }
       ],
-      "hook": "No Staufer left to rule Germany. Two foreign kings claim the crown, and neither really shows up. The terrible time without an emperor has begun.",
+      "hook": "No Staufer is left to rule Germany. The last king standing is William of Holland, the pope's young anti-king, whom most Germans have ignored for years.",
       "images": [
         {
           "file": "File:Seal of Conrad IV of Germany.jpeg",
@@ -2711,57 +3303,129 @@
       }
     },
     {
-      "id": "great-interregnum",
-      "kind": "interregnum",
-      "rulers": [],
-      "title": "The Great Interregnum",
-      "house": "rivals",
-      "tagline": "Two kings for sale, and neither of them showed up",
+      "id": "william-of-holland",
+      "kind": "monarch",
+      "rulers": [
+        "william-of-holland"
+      ],
+      "tagline": "The pope's anti-king, lost on the ice",
       "start": {
         "date": "1254-05-21"
       },
       "end": {
-        "date": "1273-10-01"
+        "date": "1256-01-28"
       },
       "contestedWith": [],
-      "relationToPredecessor": "Rivals to the dead Staufer",
-      "ageAtAccession": "No single king",
-      "cameToPower": "Electors sold the crown twice",
-      "reignEnded": "Rudolf of Habsburg elected",
+      "relationToPredecessor": "Rival; papal anti-king since 1247",
+      "ageAtAccession": "27",
+      "cameToPower": "Last king standing after Conrad",
+      "reignEnded": "Killed on the ice by Frisians",
       "previously": "Conrad IV dies in Italy at 26. The Staufer have run out of grown men.",
       "paragraphs": [
-        "With Conrad IV dead, the only king left standing was William of Holland, a papal favourite most Germans ignored. In 1256 he rode out against the Frisians, his horse broke through the ice, and the locals killed him where he fell. Now the electors had a crown to sell, and they found two buyers.",
-        "In 1257 one group chose Richard of Cornwall, brother of England's Henry III, who paid them a fortune. Another chose Alfonso X of Castile, a scholar king who never set foot in Germany. Richard was crowned at Aachen and visited four times, but neither man really ruled. Princes, bishops and cities grabbed what they could and formed leagues to protect themselves.",
-        "The last Staufer hope, Conrad's teenage son Conradin, marched into Italy to win back Sicily. He lost, was captured and was beheaded in Naples in 1268. Richard died in 1272. At last the electors agreed they needed a real king again, though preferably not one strong enough to boss them about."
+        "William became Count of Holland at seven, after his father was killed at a tournament. In 1247, aged 20, he was picked by the Rhineland archbishops as anti-king against the Staufer, with the pope's money behind him. He had to besiege Aachen for months before he could be crowned there, on 1 November 1248.",
+        "When Conrad IV died in 1254, William was the only king left. More princes accepted him, and he backed the new Rhenish League, a union of cities trying to keep the peace when nobody else would.",
+        "He spent his last years at war at home with the West Frisians. In January 1256, near Hoogwoud, his horse broke through the ice. Frisians caught him, still in armour, and killed him. He was 28."
       ],
       "claims": [
         {
-          "text": "Richard of Cornwall bought his election with enormous bribes to the electors.",
+          "text": "The Frisians hid his body under the floor of a house.",
           "status": "confirmed",
-          "note": "English chroniclers, Matthew Paris among them, were shocked by the sums. Richard was one of the richest men in Europe and spent heavily."
+          "note": "Dutch chronicles, Melis Stoke's among them, tell it. His son Floris V recovered the remains in 1282 and buried them at Middelburg."
         },
         {
-          "text": "The poet Schiller called it \"the terrible time without an emperor\".",
-          "status": "confirmed",
-          "note": "The phrase is from his 1803 ballad Der Graf von Habsburg, and it stuck to the period for good."
-        },
-        {
-          "text": "The electors picked Rudolf because they thought he was too weak to trouble them.",
-          "status": "disputed",
-          "note": "A common explanation, but Rudolf was a capable soldier with powerful backers, and the electors also wanted to keep out Ottokar of Bohemia."
+          "text": "The Frisians didn't know they had killed a king until afterwards.",
+          "status": "legend",
+          "note": "Later chronicles say they only recognised him by his arms. It may be true, but it is a tidy story."
         }
       ],
-      "hook": "October 1273, Frankfurt. The electors pass over the mighty King of Bohemia and pick a 55-year-old Swabian count. His family name comes from a little castle in Switzerland: Habsburg.",
+      "hook": "A year with no king, and the electors smell money. Two rich foreigners want the crown. The first is the King of England's brother, and he's bringing chests of silver.",
       "images": [
         {
-          "file": "File:Richard Cornwall.jpg",
-          "url": "https://upload.wikimedia.org/wikipedia/commons/3/3c/Richard_Cornwall.jpg",
-          "page": "https://commons.wikimedia.org/wiki/File:Richard_Cornwall.jpg",
-          "credit": "Gustav Adelbert Seyler",
+          "file": "File:William II of Holland, Roman King (1229-1256).jpg",
+          "url": "https://upload.wikimedia.org/wikipedia/commons/0/0d/William_II_of_Holland%2C_Roman_King_%281229-1256%29.jpg",
+          "page": "https://commons.wikimedia.org/wiki/File:William_II_of_Holland,_Roman_King_(1229-1256).jpg",
+          "credit": "Unknown",
           "license": "Public domain",
-          "made": "1894",
-          "caption": "A 19th-century drawing of Richard of Cornwall's seal as King of the Romans.",
-          "alt": "Drawing of a round royal seal inscribed RICARDUS DEI GRATIA ROMANORUM REX SEMPER AUGUSTUS"
+          "made": "16th century",
+          "caption": "An imagined portrait painted about 300 years after his death; the Latin says he was killed by the Frisians in 1256.",
+          "alt": "Painted portrait of William of Holland with a Latin inscription calling him Roman king and count of Holland, killed by the Frisians in 1256"
+        }
+      ],
+      "sources": [
+        {
+          "title": "Rijmkroniek van Holland",
+          "author": "Melis Stoke",
+          "note": "Early 14th century"
+        },
+        {
+          "title": "Chronica Majora",
+          "author": "Matthew Paris"
+        },
+        {
+          "title": "The Shaping of German Identity: Authority and Crisis, 1245–1414",
+          "author": "Len Scales",
+          "note": "Cambridge University Press, 2012"
+        },
+        {
+          "title": "Heart of Europe: A History of the Holy Roman Empire",
+          "author": "Peter H. Wilson",
+          "note": "Harvard University Press, 2016"
+        }
+      ],
+      "review": {
+        "status": "draft",
+        "notes": "Drafted from the listed sources; needs a human fact-check."
+      }
+    },
+    {
+      "id": "richard-of-cornwall",
+      "kind": "monarch",
+      "rulers": [
+        "richard-of-cornwall"
+      ],
+      "tagline": "England's richest prince bought a crown",
+      "start": {
+        "date": "1257-01-13"
+      },
+      "end": {
+        "date": "1272-04-02"
+      },
+      "contestedWith": [
+        "alfonso-x"
+      ],
+      "relationToPredecessor": "None; brother of Henry III of England",
+      "ageAtAccession": "48",
+      "cameToPower": "Elected at Frankfurt, votes paid for",
+      "reignEnded": "Died after a stroke",
+      "previously": "William of Holland dies on the ice in Frisia, aged 28.",
+      "paragraphs": [
+        "Richard was the younger son of King John and the brother of Henry III. Cornish tin made him one of the richest men in Europe. He had been on crusade, and his sister had married Frederick II. In January 1257 the archbishops of Cologne and Mainz and the Count Palatine elected him king, after he paid them enormous sums.",
+        "He was crowned at Aachen on 17 May 1257, but he made only four trips to Germany. The Rhineland accepted him; most of the empire carried on without him.",
+        "Back in England the barons rebelled. In 1264 Richard was captured at Lewes, hiding in a windmill. In 1271 his son Henry was murdered at Mass in Viterbo by the sons of Simon de Montfort. The next year Richard had a stroke and died at Berkhamsted."
+      ],
+      "claims": [
+        {
+          "text": "Richard bought his election with huge bribes to the electors.",
+          "status": "confirmed",
+          "note": "English chroniclers, Matthew Paris among them, were shocked by the sums he spent."
+        },
+        {
+          "text": "After losing at Lewes he hid in a windmill and was mocked for it.",
+          "status": "confirmed",
+          "note": "The chroniclers report it, and the rebels' satirical Song against the King of Almaigne made fun of him."
+        }
+      ],
+      "hook": "Rewind to April 1257. Richard isn't the only king elected that year. The other electors have chosen a man who will never set foot in Germany: the scholar King of Castile.",
+      "images": [
+        {
+          "file": "File:Richard of Cornwall in the Genealogical Chronicle of English kings.png",
+          "url": "https://upload.wikimedia.org/wikipedia/commons/b/b0/Richard_of_Cornwall_in_the_Genealogical_Chronicle_of_English_kings.png",
+          "page": "https://commons.wikimedia.org/wiki/File:Richard_of_Cornwall_in_the_Genealogical_Chronicle_of_English_kings.png",
+          "credit": "Unknown",
+          "license": "Public domain",
+          "made": "c. 1300–1340",
+          "caption": "Richard as drawn in an English genealogical chronicle, made a few decades after his death.",
+          "alt": "Manuscript drawing of Richard of Cornwall from a genealogical chronicle of the English kings"
         }
       ],
       "sources": [
@@ -2772,13 +3436,85 @@
         },
         {
           "title": "Chronica Majora",
-          "author": "Matthew Paris",
-          "note": "Richard's election and spending"
+          "author": "Matthew Paris"
         },
         {
-          "title": "The Shaping of German Identity: Authority and Crisis, 1245–1414",
-          "author": "Len Scales",
-          "note": "Cambridge University Press, 2012"
+          "title": "Henry III of England and the Staufen Empire, 1216–1272",
+          "author": "Björn K. U. Weiler",
+          "note": "Boydell, 2006"
+        },
+        {
+          "title": "Heart of Europe: A History of the Holy Roman Empire",
+          "author": "Peter H. Wilson",
+          "note": "Harvard University Press, 2016"
+        }
+      ],
+      "review": {
+        "status": "draft",
+        "notes": "Drafted from the listed sources; needs a human fact-check."
+      }
+    },
+    {
+      "id": "alfonso-x",
+      "kind": "claimant",
+      "rulers": [
+        "alfonso-x"
+      ],
+      "tagline": "The scholar king who chased a crown he never wore",
+      "start": {
+        "date": "1257-04-01"
+      },
+      "end": {
+        "date": "1273-10-01"
+      },
+      "contestedWith": [
+        "richard-of-cornwall"
+      ],
+      "relationToPredecessor": "Rival; grandson of Philip of Swabia",
+      "ageAtAccession": "35",
+      "cameToPower": "Elected by the rival electors",
+      "reignEnded": "Electors chose Rudolf instead",
+      "previously": "Richard dies at Berkhamsted, a king Germany hardly saw.",
+      "paragraphs": [
+        "Alfonso was King of Castile and León, and through his mother a grandson of the Staufer king Philip of Swabia. In 1256 envoys from Pisa offered him the empire. On 1 April 1257 the archbishop of Trier, the Duke of Saxony and the Margrave of Brandenburg elected him, and Bohemia backed him too.",
+        "He never went to Germany. He poured Castile's money into what the Spanish called the 'business of the empire', lobbying popes who kept putting him off. At home he was a giant: laws, astronomy tables, songs to the Virgin and a book of chess and dice.",
+        "When Richard died, Alfonso pushed his claim again. The electors chose Rudolf of Habsburg instead. He went on protesting until 1275, when he met Pope Gregory X at Beaucaire and gave it up."
+      ],
+      "claims": [
+        {
+          "text": "He renounced his claim to the empire after meeting Pope Gregory X at Beaucaire in 1275.",
+          "status": "confirmed",
+          "note": "Papal letters and Castilian chronicles record the meeting and its outcome."
+        },
+        {
+          "text": "He said that if he had been present at the Creation, he would have given God some useful advice.",
+          "status": "legend",
+          "note": "The quip is pinned on him by later writers, inspired by his astronomy. No source from his time records it."
+        }
+      ],
+      "hook": "October 1273, Frankfurt. The electors pass over the mighty King of Bohemia and pick a 55-year-old Swabian count. His family name comes from a little castle in Switzerland: Habsburg.",
+      "images": [
+        {
+          "file": "File:Alfonso X el Sabio en El libro de los juegos.jpg",
+          "url": "https://upload.wikimedia.org/wikipedia/commons/c/ca/Alfonso_X_el_Sabio_en_El_libro_de_los_juegos.jpg",
+          "page": "https://commons.wikimedia.org/wiki/File:Alfonso_X_el_Sabio_en_El_libro_de_los_juegos.jpg",
+          "credit": "Unknown",
+          "license": "Public domain",
+          "made": "1283",
+          "caption": "Alfonso in his own Book of Games, finished the year before he died.",
+          "alt": "Manuscript miniature of King Alfonso X from the Libro de los juegos"
+        }
+      ],
+      "sources": [
+        {
+          "title": "The Learned King: The Reign of Alfonso X of Castile",
+          "author": "Joseph F. O'Callaghan",
+          "note": "University of Pennsylvania Press, 1993"
+        },
+        {
+          "title": "Alfonso X, the Learned: A Biography",
+          "author": "H. Salvador Martínez",
+          "note": "Brill, 2010"
         },
         {
           "title": "Heart of Europe: A History of the Holy Roman Empire",
@@ -2809,7 +3545,7 @@
       "ageAtAccession": "55",
       "cameToPower": "Elected at Frankfurt",
       "reignEnded": "Died at Speyer",
-      "previously": "Twenty years with no real king. The electors finally want one.",
+      "previously": "Richard is dead and Alfonso far away. The electors want a real king.",
       "paragraphs": [
         "Rudolf was a tough, frugal count with lands in Swabia and Alsace. He was elected on 1 October 1273 and crowned at Aachen weeks later. His first job was getting back the crown lands and rights the princes had pocketed during the interregnum, and he went at it with lawsuits and sieges.",
         "The big problem was Ottokar II of Bohemia, the richest prince in the empire, who refused to accept him and held Austria and Styria. Rudolf took them off him in 1276. Ottokar came back for revenge, and on 26 August 1278 he was beaten and killed at the Marchfeld. Rudolf handed Austria to his sons. That one move made the Habsburgs an Austrian family for the next 640 years.",
