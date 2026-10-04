@@ -225,7 +225,7 @@
       },
       "contestedWith": [],
       "relationToPredecessor": "Provisional government after Otto",
-      "ageAtAccession": "None",
+      "ageAtAccession": "No monarch",
       "cameToPower": "Otto deposed by a revolt",
       "reignEnded": "Prince William of Denmark elected",
       "previously": "Otto and Amalia sail into exile on a British warship.",
@@ -278,7 +278,45 @@
       "review": {
         "status": "draft",
         "notes": "Drafted from the listed sources; needs a human fact-check."
-      }
+      },
+      "members": [
+        {
+          "name": "Dimitrios Voulgaris",
+          "start": {
+            "date": "1862-10-23"
+          },
+          "end": {
+            "date": "1863-02-21"
+          },
+          "note": "Head of the provisional government (a triumvirate) set up after Otto's overthrow"
+        },
+        {
+          "name": "Konstantinos Kanaris",
+          "start": {
+            "date": "1862-10-23"
+          },
+          "end": {
+            "date": "1863-02-21",
+            "circa": true
+          },
+          "note": "War of Independence fire-ship hero; member of the provisional triumvirate"
+        },
+        {
+          "name": "Benizelos Rouphos",
+          "start": {
+            "date": "1862-10-23"
+          },
+          "end": {
+            "date": "1863-02-21",
+            "circa": true
+          },
+          "note": "Member of the provisional triumvirate"
+        },
+        {
+          "name": "Prince Alfred (later Duke of Edinburgh)",
+          "note": "Not a ruler: won the late-1862 vote but was barred by the great powers' agreement"
+        }
+      ]
     },
     {
       "id": "george-i",
@@ -679,7 +717,7 @@
       },
       "contestedWith": [],
       "relationToPredecessor": "Replaced the monarchy",
-      "ageAtAccession": "None",
+      "ageAtAccession": "No monarch",
       "cameToPower": "Proclaimed by parliament",
       "reignEnded": "Overthrown by General Kondylis",
       "previously": "King George II is asked to leave, and Greece becomes a republic.",
@@ -733,7 +771,89 @@
       "review": {
         "status": "draft",
         "notes": "Drafted from the listed sources; needs a human fact-check."
-      }
+      },
+      "members": [
+        {
+          "name": "Pavlos Kountouriotis",
+          "start": {
+            "date": "1924-03-25"
+          },
+          "end": {
+            "date": "1926-04-06"
+          },
+          "note": "Admiral; provisional head of state, then first President of the Republic; stood down under Pangalos"
+        },
+        {
+          "name": "Theodoros Pangalos",
+          "start": {
+            "date": "1925-06-25"
+          },
+          "end": {
+            "date": "1926-08-22"
+          },
+          "note": "General; seized power in a coup, dictator and from April 1926 also president; overthrown by Kondylis"
+        },
+        {
+          "name": "Pavlos Kountouriotis",
+          "start": {
+            "date": "1926-08-22"
+          },
+          "end": {
+            "date": "1929-12-10"
+          },
+          "note": "Restored as president after Pangalos fell; retired through ill health"
+        },
+        {
+          "name": "Georgios Kondylis",
+          "start": {
+            "date": "1926-08-22"
+          },
+          "end": {
+            "date": "1926-12-04"
+          },
+          "note": "General; caretaker prime minister after toppling Pangalos, held elections"
+        },
+        {
+          "name": "Alexandros Zaimis",
+          "start": {
+            "date": "1929-12-10"
+          },
+          "end": {
+            "date": "1935-10-10"
+          },
+          "note": "President of the Republic until the republic was abolished"
+        },
+        {
+          "name": "Eleftherios Venizelos",
+          "start": {
+            "date": "1928-07-04"
+          },
+          "end": {
+            "date": "1932-11-04"
+          },
+          "note": "Prime minister of his last long government (with a short break in 1932); treaty with Turkey 1930"
+        },
+        {
+          "name": "Panagis Tsaldaris",
+          "start": {
+            "date": "1933-03-10"
+          },
+          "end": {
+            "date": "1935-10-10"
+          },
+          "note": "Royalist People's Party prime minister; pushed aside by Kondylis"
+        },
+        {
+          "name": "Georgios Kondylis",
+          "start": {
+            "date": "1935-10-10"
+          },
+          "end": {
+            "date": "1935-11-25"
+          },
+          "note": "Seized power, abolished the republic and became regent (the card ends on 10 October)"
+        }
+      ]
     },
     {
       "id": "george-ii-restored",

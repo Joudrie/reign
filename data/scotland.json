@@ -2920,7 +2920,67 @@
       "review": {
         "status": "draft",
         "notes": "Drafted from the listed sources; needs a human fact-check."
-      }
+      },
+      "members": [
+        {
+          "name": "William Fraser",
+          "start": {
+            "date": "1286-04"
+          },
+          "end": {
+            "date": "1292-11-17"
+          },
+          "note": "Bishop of St Andrews; Guardian since 1286; wrote to Edward I in 1290 asking him to step in"
+        },
+        {
+          "name": "Robert Wishart",
+          "start": {
+            "date": "1286-04"
+          },
+          "end": {
+            "date": "1292-11-17"
+          },
+          "note": "Bishop of Glasgow; Guardian since 1286"
+        },
+        {
+          "name": "John Comyn (the elder) of Badenoch",
+          "start": {
+            "date": "1286-04"
+          },
+          "end": {
+            "date": "1292-11-17"
+          },
+          "note": "Guardian since 1286"
+        },
+        {
+          "name": "James the Steward",
+          "start": {
+            "date": "1286-04"
+          },
+          "end": {
+            "date": "1292-11-17"
+          },
+          "note": "High Steward of Scotland; Guardian since 1286"
+        },
+        {
+          "name": "Edward I of England",
+          "start": {
+            "date": "1291-06"
+          },
+          "end": {
+            "date": "1292-11-17"
+          },
+          "note": "Accepted as overlord by the claimants at Norham; held the royal castles while he judged the Great Cause"
+        },
+        {
+          "name": "John Balliol",
+          "note": "Claimant, not a ruler in this span; won the Great Cause"
+        },
+        {
+          "name": "Robert Bruce, Lord of Annandale (\"the Competitor\")",
+          "note": "Claimant, not a ruler in this span; grandfather of Robert I"
+        }
+      ]
     },
     {
       "id": "john-balliol",
@@ -3078,7 +3138,97 @@
       "review": {
         "status": "draft",
         "notes": "Drafted from the listed sources; needs a human fact-check."
-      }
+      },
+      "members": [
+        {
+          "name": "Edward I of England",
+          "start": {
+            "date": "1296-07-10"
+          },
+          "end": {
+            "date": "1306-03-25"
+          },
+          "note": "Ruled Scotland as conquered land through his lieutenant Surrey and treasurer Cressingham"
+        },
+        {
+          "name": "John Balliol",
+          "start": {
+            "date": "1296-07-10"
+          },
+          "note": "Deposed king; in the Tower of London, then papal custody (1299), then his lands in Picardy (1301)"
+        },
+        {
+          "name": "Andrew Murray",
+          "start": {
+            "date": "1297-05"
+          },
+          "end": {
+            "date": "1297-11",
+            "circa": true
+          },
+          "note": "Led the northern rising; joint commander at Stirling Bridge; died of his wounds"
+        },
+        {
+          "name": "William Wallace",
+          "start": {
+            "date": "1297"
+          },
+          "end": {
+            "date": "1298"
+          },
+          "note": "Guardian in King John's name after Stirling Bridge; resigned after Falkirk; executed in London 1305"
+        },
+        {
+          "name": "Robert Bruce, Earl of Carrick",
+          "start": {
+            "date": "1298"
+          },
+          "end": {
+            "date": "1300"
+          },
+          "note": "Joint Guardian with John Comyn; resigned"
+        },
+        {
+          "name": "John Comyn (the younger, \"the Red\") of Badenoch",
+          "start": {
+            "date": "1298"
+          },
+          "end": {
+            "date": "1304"
+          },
+          "note": "Joint Guardian; submitted to Edward in 1304; killed by Bruce at Dumfries in February 1306"
+        },
+        {
+          "name": "William Lamberton",
+          "start": {
+            "date": "1299"
+          },
+          "end": {
+            "date": "1301"
+          },
+          "note": "Bishop of St Andrews; joint Guardian"
+        },
+        {
+          "name": "Ingram de Umfraville",
+          "start": {
+            "date": "1300"
+          },
+          "end": {
+            "date": "1301"
+          },
+          "note": "Joint Guardian"
+        },
+        {
+          "name": "John de Soules",
+          "start": {
+            "date": "1301"
+          },
+          "end": {
+            "date": "1304"
+          },
+          "note": "Sole Guardian, appointed in Balliol's name; went into exile in France"
+        }
+      ]
     },
     {
       "id": "robert-i",
