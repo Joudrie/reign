@@ -1,0 +1,2224 @@
+{
+  "id": "germany",
+  "name": "Prussia & Germany",
+  "blurb": "From Brandenburg's Great Elector to today's chancellors",
+  "dateConvention": "Dates are Gregorian. From 1918 the deck follows whoever held real power: presidents, then the dictator, then chancellors. East Germany runs alongside West Germany from 1949 to reunification in 1990.",
+  "houses": [
+    {
+      "id": "hohenzollern",
+      "name": "Hohenzollern",
+      "color": "#3a3633"
+    },
+    {
+      "id": "weimar",
+      "name": "Weimar Republic",
+      "color": "#b8860b",
+      "plain": true
+    },
+    {
+      "id": "nazi",
+      "name": "Nazi dictatorship",
+      "color": "#6f665a",
+      "plain": true
+    },
+    {
+      "id": "allied",
+      "name": "Allied occupation",
+      "color": "#8d8780",
+      "plain": true
+    },
+    {
+      "id": "cdu",
+      "name": "CDU",
+      "color": "#2b2b2b",
+      "plain": true
+    },
+    {
+      "id": "spd",
+      "name": "SPD",
+      "color": "#c0392b",
+      "plain": true
+    },
+    {
+      "id": "gdr",
+      "name": "East Germany",
+      "color": "#7a4a2e",
+      "plain": true
+    }
+  ],
+  "rulers": [
+    {
+      "id": "great-elector",
+      "name": "Frederick William",
+      "epithet": "the Great Elector",
+      "house": "hohenzollern",
+      "born": {
+        "date": "1620-02-16",
+        "note": "Cölln (Berlin)"
+      },
+      "died": {
+        "date": "1688-05-09",
+        "note": "Potsdam"
+      },
+      "causeOfDeath": "Illness, usually described as dropsy"
+    },
+    {
+      "id": "frederick-i",
+      "name": "Frederick I",
+      "house": "hohenzollern",
+      "born": {
+        "date": "1657-07-11",
+        "note": "Königsberg"
+      },
+      "died": {
+        "date": "1713-02-25",
+        "note": "Berlin"
+      },
+      "causeOfDeath": "Illness"
+    },
+    {
+      "id": "frederick-william-i",
+      "name": "Frederick William I",
+      "epithet": "the Soldier King",
+      "house": "hohenzollern",
+      "born": {
+        "date": "1688-08-14",
+        "note": "Berlin"
+      },
+      "died": {
+        "date": "1740-05-31",
+        "note": "Potsdam"
+      },
+      "causeOfDeath": "Dropsy, after years of gout"
+    },
+    {
+      "id": "frederick-ii",
+      "name": "Frederick II",
+      "epithet": "the Great",
+      "house": "hohenzollern",
+      "born": {
+        "date": "1712-01-24",
+        "note": "Berlin"
+      },
+      "died": {
+        "date": "1786-08-17",
+        "note": "Sanssouci, Potsdam"
+      },
+      "causeOfDeath": "Illness in old age, in his armchair"
+    },
+    {
+      "id": "frederick-william-ii",
+      "name": "Frederick William II",
+      "house": "hohenzollern",
+      "born": {
+        "date": "1744-09-25",
+        "note": "Berlin"
+      },
+      "died": {
+        "date": "1797-11-16",
+        "note": "Potsdam"
+      },
+      "causeOfDeath": "Long illness"
+    },
+    {
+      "id": "frederick-william-iii",
+      "name": "Frederick William III",
+      "house": "hohenzollern",
+      "born": {
+        "date": "1770-08-03",
+        "note": "Potsdam"
+      },
+      "died": {
+        "date": "1840-06-07",
+        "note": "Berlin"
+      },
+      "causeOfDeath": "Illness in old age"
+    },
+    {
+      "id": "frederick-william-iv",
+      "name": "Frederick William IV",
+      "house": "hohenzollern",
+      "born": {
+        "date": "1795-10-15",
+        "note": "Berlin"
+      },
+      "died": {
+        "date": "1861-01-02",
+        "note": "Sanssouci, Potsdam"
+      },
+      "causeOfDeath": "After a series of strokes"
+    },
+    {
+      "id": "william-i",
+      "name": "William I",
+      "house": "hohenzollern",
+      "born": {
+        "date": "1797-03-22",
+        "note": "Berlin"
+      },
+      "died": {
+        "date": "1888-03-09",
+        "note": "Berlin"
+      },
+      "causeOfDeath": "Old age, a fortnight short of 91"
+    },
+    {
+      "id": "frederick-iii",
+      "name": "Frederick III",
+      "house": "hohenzollern",
+      "born": {
+        "date": "1831-10-18",
+        "note": "Neues Palais, Potsdam"
+      },
+      "died": {
+        "date": "1888-06-15",
+        "note": "Neues Palais, Potsdam"
+      },
+      "causeOfDeath": "Cancer of the larynx"
+    },
+    {
+      "id": "william-ii",
+      "name": "William II",
+      "house": "hohenzollern",
+      "born": {
+        "date": "1859-01-27",
+        "note": "Berlin"
+      },
+      "died": {
+        "date": "1941-06-04",
+        "note": "Doorn, Netherlands"
+      },
+      "causeOfDeath": "Pulmonary embolism"
+    },
+    {
+      "id": "ebert",
+      "name": "Friedrich Ebert",
+      "house": "weimar",
+      "born": {
+        "date": "1871-02-04",
+        "note": "Heidelberg"
+      },
+      "died": {
+        "date": "1925-02-28",
+        "note": "Berlin"
+      },
+      "causeOfDeath": "Infection after a delayed appendix operation"
+    },
+    {
+      "id": "hindenburg",
+      "name": "Paul von Hindenburg",
+      "house": "weimar",
+      "born": {
+        "date": "1847-10-02",
+        "note": "Posen, Prussia (now Poznań, Poland)"
+      },
+      "died": {
+        "date": "1934-08-02",
+        "note": "Neudeck estate, East Prussia"
+      },
+      "causeOfDeath": "Lung cancer"
+    },
+    {
+      "id": "hitler",
+      "name": "Adolf Hitler",
+      "house": "nazi",
+      "born": {
+        "date": "1889-04-20",
+        "note": "Braunau am Inn, Austria-Hungary"
+      },
+      "died": {
+        "date": "1945-04-30",
+        "note": "Führerbunker, Berlin"
+      },
+      "causeOfDeath": "Suicide"
+    },
+    {
+      "id": "adenauer",
+      "name": "Konrad Adenauer",
+      "house": "cdu",
+      "born": {
+        "date": "1876-01-05",
+        "note": "Cologne"
+      },
+      "died": {
+        "date": "1967-04-19",
+        "note": "Rhöndorf, near Bonn"
+      },
+      "causeOfDeath": "Heart failure after flu, aged 91"
+    },
+    {
+      "id": "erhard",
+      "name": "Ludwig Erhard",
+      "house": "cdu",
+      "born": {
+        "date": "1897-02-04",
+        "note": "Fürth, Bavaria"
+      },
+      "died": {
+        "date": "1977-05-05",
+        "note": "Bonn"
+      },
+      "causeOfDeath": "Heart failure"
+    },
+    {
+      "id": "kiesinger",
+      "name": "Kurt Georg Kiesinger",
+      "house": "cdu",
+      "born": {
+        "date": "1904-04-06",
+        "note": "Ebingen, Württemberg"
+      },
+      "died": {
+        "date": "1988-03-09",
+        "note": "Tübingen"
+      },
+      "causeOfDeath": "Natural causes, aged 83"
+    },
+    {
+      "id": "brandt",
+      "name": "Willy Brandt",
+      "house": "spd",
+      "born": {
+        "date": "1913-12-18",
+        "note": "Lübeck; born Herbert Frahm"
+      },
+      "died": {
+        "date": "1992-10-08",
+        "note": "Unkel, near Bonn"
+      },
+      "causeOfDeath": "Cancer"
+    },
+    {
+      "id": "schmidt",
+      "name": "Helmut Schmidt",
+      "house": "spd",
+      "born": {
+        "date": "1918-12-23",
+        "note": "Hamburg"
+      },
+      "died": {
+        "date": "2015-11-10",
+        "note": "Hamburg"
+      },
+      "causeOfDeath": "Illness, aged 96"
+    },
+    {
+      "id": "kohl",
+      "name": "Helmut Kohl",
+      "house": "cdu",
+      "born": {
+        "date": "1930-04-03",
+        "note": "Ludwigshafen am Rhein"
+      },
+      "died": {
+        "date": "2017-06-16",
+        "note": "Ludwigshafen am Rhein"
+      },
+      "causeOfDeath": "Natural causes, aged 87"
+    },
+    {
+      "id": "schroder",
+      "name": "Gerhard Schröder",
+      "house": "spd",
+      "born": {
+        "date": "1944-04-07",
+        "note": "Mossenberg, Lippe"
+      }
+    },
+    {
+      "id": "merkel",
+      "name": "Angela Merkel",
+      "house": "cdu",
+      "born": {
+        "date": "1954-07-17",
+        "note": "Hamburg"
+      }
+    },
+    {
+      "id": "scholz",
+      "name": "Olaf Scholz",
+      "house": "spd",
+      "born": {
+        "date": "1958-06-14",
+        "note": "Osnabrück"
+      }
+    },
+    {
+      "id": "merz",
+      "name": "Friedrich Merz",
+      "house": "cdu",
+      "born": {
+        "date": "1955-11-11",
+        "note": "Brilon, Sauerland"
+      }
+    }
+  ],
+  "reigns": [
+    {
+      "id": "great-elector",
+      "kind": "monarch",
+      "rulers": [
+        "great-elector"
+      ],
+      "tagline": "The boy who inherited a ruin and built an army",
+      "start": {
+        "date": "1640-12-01"
+      },
+      "end": {
+        "date": "1688-05-09"
+      },
+      "contestedWith": [],
+      "relationToPredecessor": "Son of Elector George William",
+      "ageAtAccession": "20",
+      "cameToPower": "Inherited the electorate",
+      "reignEnded": "Died at Potsdam",
+      "previously": "Thirty Years' War: Brandenburg is burnt, looted and half empty.",
+      "paragraphs": [
+        "Frederick William took over Brandenburg at 20, and there wasn't much left to take. Swedish and imperial troops had trampled it for two decades. Whole villages were empty. His lands were scattered from the Rhine to the Baltic, and none of them could defend themselves.",
+        "So he built an army that stayed in uniform in peacetime, paid for by taxes his nobles grudgingly agreed to. He played Sweden and Poland off against each other and won full sovereignty over the Duchy of Prussia, outside the Empire. In 1675 he routed the Swedes at Fehrbellin, and people started calling him the Great Elector.",
+        "When Louis XIV outlawed Protestantism in France in 1685, he answered with the Edict of Potsdam: Huguenots welcome, with tax breaks thrown in. Thousands came, bringing skills and trades to Berlin. He died in 1688, leaving his son a small, tough state with big ideas."
+      ],
+      "claims": [
+        {
+          "text": "At Fehrbellin his equerry Emanuel Froben swapped horses with him and was shot dead in his place.",
+          "status": "legend",
+          "note": "Froben really died in the battle, but the horse-swap story only appears later and became a patriotic favourite."
+        },
+        {
+          "text": "The Prince of Homburg charged against orders at Fehrbellin and won the day anyway.",
+          "status": "disputed",
+          "note": "The prince did attack early, but Kleist's famous play turned it into a drama of disobedience and pardon far beyond the record."
+        },
+        {
+          "text": "By 1700 roughly one in five Berliners was a French Protestant refugee.",
+          "status": "disputed",
+          "note": "Often quoted; estimates vary depending on how the city and its suburbs are counted."
+        }
+      ],
+      "hook": "The Elector is dead. His son is pious, vain and short on fighting spirit, but he has one burning ambition: a crown of his own.",
+      "images": [
+        {
+          "file": "File:Flink, Govaert - Friedrich Wilhelm I - Schloss Charlottenburg.jpeg",
+          "url": "https://upload.wikimedia.org/wikipedia/commons/1/12/Flink%2C_Govaert_-_Friedrich_Wilhelm_I_-_Schloss_Charlottenburg.jpeg",
+          "page": "https://commons.wikimedia.org/wiki/File:Flink,_Govaert_-_Friedrich_Wilhelm_I_-_Schloss_Charlottenburg.jpeg",
+          "credit": "Govert Flinck",
+          "license": "Public domain",
+          "made": "1652",
+          "caption": "Painted by the Dutch artist Govert Flinck in 1652, when the Elector was in his early thirties.",
+          "alt": "Oil portrait of the Great Elector wearing armour and an electoral mantle"
+        }
+      ],
+      "sources": [
+        {
+          "title": "The Great Elector",
+          "author": "Derek McKay",
+          "note": "Longman (Profiles in Power), 2001"
+        },
+        {
+          "title": "Iron Kingdom: The Rise and Downfall of Prussia, 1600–1947",
+          "author": "Christopher Clark",
+          "note": "Allen Lane, 2006"
+        },
+        {
+          "title": "Friedrich Wilhelm: Der Große Kurfürst von Brandenburg",
+          "author": "Ernst Opgenoorth",
+          "note": "2 vols, Musterschmidt, 1971–78"
+        }
+      ],
+      "review": {
+        "status": "draft",
+        "notes": "Drafted from the listed sources; needs a human fact-check."
+      }
+    },
+    {
+      "id": "frederick-i",
+      "kind": "monarch",
+      "rulers": [
+        "frederick-i"
+      ],
+      "tagline": "The elector who crowned himself king",
+      "start": {
+        "date": "1688-05-09"
+      },
+      "end": {
+        "date": "1713-02-25"
+      },
+      "contestedWith": [],
+      "relationToPredecessor": "Son of the Great Elector",
+      "ageAtAccession": "30",
+      "cameToPower": "Inherited the electorate",
+      "reignEnded": "Died in Berlin",
+      "previously": "The Great Elector dies, leaving a tough little state and an army.",
+      "paragraphs": [
+        "He started as Elector Frederick III and wanted more. Kings got better seats at every table in Europe. He couldn't be king of Brandenburg, which sat inside the Holy Roman Empire, but Prussia lay outside it. So he bought the Emperor's blessing with troops for the coming war over Spain.",
+        "On 18 January 1701 in Königsberg he put the crown on his own head, then crowned his wife. The title was King in Prussia, since part of Prussia still belonged to Poland. Then the spending began: palaces, an Academy of Sciences with Leibniz at its head, and a summer palace for Queen Sophie Charlotte, renamed Charlottenburg after she died.",
+        "He also ordered a room panelled in amber, later shipped off to Russia. Plague and debt hit East Prussia hard while the court sparkled. When he died in 1713, his son walked in, looked at the bills, and started cancelling everything."
+      ],
+      "claims": [
+        {
+          "text": "His son gave the Amber Room to Peter the Great of Russia in 1716.",
+          "status": "confirmed",
+          "note": "Well documented in Prussian and Russian records; it was looted by the Nazis in 1941 and has been missing since 1945."
+        },
+        {
+          "text": "Queen Sophie Charlotte took a pinch of snuff during the coronation to show how bored she was.",
+          "status": "legend",
+          "note": "A favourite court anecdote that turns up in later memoirs, with no reliable eyewitness behind it."
+        },
+        {
+          "text": "His crooked back came from a nurse dropping him as a baby.",
+          "status": "legend",
+          "note": "He did have a mild deformity; the dropped-baby explanation is a story told long afterwards."
+        }
+      ],
+      "hook": "The spendthrift king is dead. His son hates opera, palaces and French manners. He loves soldiers, especially very, very tall ones.",
+      "images": [
+        {
+          "file": "File:FriedrichI.1712.JPG",
+          "url": "https://upload.wikimedia.org/wikipedia/commons/6/67/FriedrichI.1712.JPG",
+          "page": "https://commons.wikimedia.org/wiki/File:FriedrichI.1712.JPG",
+          "credit": "Antoine Pesne",
+          "license": "Public domain",
+          "made": "1712",
+          "caption": "Painted by his court painter Antoine Pesne in 1712, a year before the king died.",
+          "alt": "Oil portrait of King Frederick I in Prussia"
+        }
+      ],
+      "sources": [
+        {
+          "title": "Iron Kingdom: The Rise and Downfall of Prussia, 1600–1947",
+          "author": "Christopher Clark",
+          "note": "Allen Lane, 2006"
+        },
+        {
+          "title": "Friedrich I. (1657–1713): Ein König in Preußen",
+          "author": "Frank Göse",
+          "note": "Pustet, Regensburg, 2012"
+        },
+        {
+          "title": "Frederick I: The Man and His Times",
+          "author": "Linda Frey and Marsha Frey",
+          "note": "East European Monographs, 1984"
+        }
+      ],
+      "review": {
+        "status": "draft",
+        "notes": "Drafted from the listed sources; needs a human fact-check."
+      }
+    },
+    {
+      "id": "frederick-william-i",
+      "kind": "monarch",
+      "rulers": [
+        "frederick-william-i"
+      ],
+      "tagline": "The miser king and his regiment of giants",
+      "start": {
+        "date": "1713-02-25"
+      },
+      "end": {
+        "date": "1740-05-31"
+      },
+      "contestedWith": [],
+      "relationToPredecessor": "Son of Frederick I",
+      "ageAtAccession": "24",
+      "cameToPower": "Inherited the throne",
+      "reignEnded": "Died at Potsdam",
+      "previously": "Frederick I dies in 1713, leaving palaces, debts and a crown.",
+      "paragraphs": [
+        "Frederick William I sacked most of the court, sold off jewels and cut salaries. Then he poured the money into the army. By the end of his reign Prussia, a middling country, had one of the biggest armies in Europe. He ran everything himself, often in uniform, and walloped lazy officials with his cane.",
+        "His pride was the Potsdam Giants, a regiment of very tall men. His agents bought, tricked or kidnapped recruits from all over Europe. Foreign rulers sent him giants as gifts. Yet the Soldier King hardly ever went to war. He hated spending soldiers almost as much as money.",
+        "At home he was a tyrant. His son Frederick loved music, French books and fine clothes, and his father beat and humiliated him. In 1730 the prince tried to run away with his friend Hans Hermann von Katte. The king had Katte beheaded at Küstrin while Frederick watched, and for a time he talked of executing his own son."
+      ],
+      "claims": [
+        {
+          "text": "Frederick was made to watch Katte's execution from a window and fainted.",
+          "status": "disputed",
+          "note": "The forced watching is well attested. The fainting, and the farewell words each called out, come from later retellings."
+        },
+        {
+          "text": "His recruiters kidnapped tall men, including a priest seized in the middle of saying Mass.",
+          "status": "legend",
+          "note": "Kidnapping for the Giants is well documented; the priest story is a colourful anecdote with weak sourcing."
+        },
+        {
+          "text": "He held nightly 'Tobacco Parliaments' where ministers drank beer, smoked pipes and were mocked.",
+          "status": "confirmed",
+          "note": "Described by many who attended; the court historian Gundling was a favourite target."
+        }
+      ],
+      "hook": "The Soldier King dies having built a huge army and never really used it. His bookish, flute-playing son is about to show what it can do.",
+      "images": [
+        {
+          "file": "File:Antoine Pesne - König Friedrich Wilhelm I. von Preußen (ca. 1733).jpg",
+          "url": "https://upload.wikimedia.org/wikipedia/commons/e/e7/Antoine_Pesne_-_K%C3%B6nig_Friedrich_Wilhelm_I._von_Preu%C3%9Fen_%28ca._1733%29.jpg",
+          "page": "https://commons.wikimedia.org/wiki/File:Antoine_Pesne_-_K%C3%B6nig_Friedrich_Wilhelm_I._von_Preu%C3%9Fen_(ca._1733).jpg",
+          "credit": "Antoine Pesne",
+          "license": "Public domain",
+          "made": "c. 1733",
+          "caption": "Painted by Antoine Pesne around 1733, in the middle of his reign.",
+          "alt": "Oil portrait of King Frederick William I of Prussia"
+        }
+      ],
+      "sources": [
+        {
+          "title": "Iron Kingdom: The Rise and Downfall of Prussia, 1600–1947",
+          "author": "Christopher Clark",
+          "note": "Allen Lane, 2006"
+        },
+        {
+          "title": "Friedrich Wilhelm I., König in Preußen",
+          "author": "Carl Hinrichs",
+          "note": "Hanseatische Verlagsanstalt, 1941"
+        },
+        {
+          "title": "Friedrich Wilhelm I.: Preußischer Absolutismus, Merkantilismus, Militarismus",
+          "author": "Gerhard Oestreich",
+          "note": "Musterschmidt, 1977"
+        }
+      ],
+      "review": {
+        "status": "draft",
+        "notes": "Drafted from the listed sources; needs a human fact-check."
+      }
+    },
+    {
+      "id": "frederick-ii",
+      "kind": "monarch",
+      "rulers": [
+        "frederick-ii"
+      ],
+      "tagline": "Flute in one hand, Silesia in the other",
+      "start": {
+        "date": "1740-05-31"
+      },
+      "end": {
+        "date": "1786-08-17"
+      },
+      "contestedWith": [],
+      "relationToPredecessor": "Son of Frederick William I",
+      "ageAtAccession": "28",
+      "cameToPower": "Inherited the throne",
+      "reignEnded": "Died in his chair at Sanssouci",
+      "previously": "The Soldier King dies, leaving a big army and a son he bullied.",
+      "paragraphs": [
+        "Everyone expected a gentle philosopher king. Seven months in, Frederick marched into Silesia, a rich Austrian province, with no real excuse. He won it. Then he spent much of his life defending it. In the Seven Years' War, Austria, France and Russia all came for him at once.",
+        "He came within a whisker of losing everything. After the disaster at Kunersdorf in 1759 he thought of suicide. Then in January 1762 Empress Elizabeth of Russia died, and her successor, a Frederick fan, made peace. Prussians called it the Miracle of the House of Brandenburg. Prussia kept Silesia.",
+        "Between wars he played the flute, wrote poetry in French and invited Voltaire to Sanssouci, until they fell out. He pushed farmers to grow potatoes and took a slice of Poland in 1772. He died in 1786 with no children, so the throne went to his nephew."
+      ],
+      "claims": [
+        {
+          "text": "He got peasants to plant potatoes by having the royal fields guarded, so they'd steal them.",
+          "status": "legend",
+          "note": "His potato orders of the 1750s are real. The guarded-field trick is told about other rulers too and lacks evidence."
+        },
+        {
+          "text": "A miller refused to sell him land next to Sanssouci, saying 'There are still judges in Berlin.'",
+          "status": "legend",
+          "note": "The mill exists, but the story was polished long afterwards to show Frederick respected the law."
+        },
+        {
+          "text": "He asked to be buried beside his greyhounds at Sanssouci, and finally was in 1991.",
+          "status": "confirmed",
+          "note": "His nephew ignored the wish. After reunification his coffin was moved to the terrace grave he'd chosen."
+        }
+      ],
+      "hook": "Old Fritz is dead, childless. His heir is his nephew, a big, soft-hearted man with a taste for mistresses, mystics and spending.",
+      "images": [
+        {
+          "file": "File:Friedrich Zweite Alt.jpg",
+          "url": "https://upload.wikimedia.org/wikipedia/commons/9/90/Friedrich_Zweite_Alt.jpg",
+          "page": "https://commons.wikimedia.org/wiki/File:Friedrich_Zweite_Alt.jpg",
+          "credit": "Anton Graff",
+          "license": "Public domain",
+          "made": "1781",
+          "caption": "Painted by Anton Graff in 1781, when the king was 68.",
+          "alt": "Oil portrait of an elderly Frederick the Great"
+        }
+      ],
+      "sources": [
+        {
+          "title": "Frederick the Great: King of Prussia",
+          "author": "Tim Blanning",
+          "note": "Allen Lane, 2015"
+        },
+        {
+          "title": "Iron Kingdom: The Rise and Downfall of Prussia, 1600–1947",
+          "author": "Christopher Clark",
+          "note": "Allen Lane, 2006"
+        },
+        {
+          "title": "Frederick the Great",
+          "author": "Theodor Schieder",
+          "note": "Longman, 2000; German original 1983"
+        }
+      ],
+      "review": {
+        "status": "draft",
+        "notes": "Drafted from the listed sources; needs a human fact-check."
+      }
+    },
+    {
+      "id": "frederick-william-ii",
+      "kind": "monarch",
+      "rulers": [
+        "frederick-william-ii"
+      ],
+      "tagline": "Mistresses, ghosts and a gate for Berlin",
+      "start": {
+        "date": "1786-08-17"
+      },
+      "end": {
+        "date": "1797-11-16"
+      },
+      "contestedWith": [],
+      "relationToPredecessor": "Nephew of Frederick II",
+      "ageAtAccession": "41",
+      "cameToPower": "Succeeded his childless uncle",
+      "reignEnded": "Died at Potsdam",
+      "previously": "Frederick the Great dies childless. The crown passes to his nephew.",
+      "paragraphs": [
+        "Frederick William II was everything his uncle wasn't: warm, easy-going and fond of pleasure. His longtime mistress Wilhelmine Enke became a countess. He married two more women while his queen was still alive, with church approval of a sort. Berliners loved the change at first.",
+        "He also fell in with the Rosicrucians, a secretive mystical order. Two of its members, Wöllner and Bischoffwerder, became his closest advisers and cracked down on freethinkers. He did build: the Brandenburg Gate went up in Berlin between 1788 and 1791.",
+        "Abroad, he joined the war against revolutionary France in 1792, lost interest and made peace in 1795. Prussia took huge bites of Poland in the second and third partitions, swallowing Warsaw itself. His uncle's war chest was gone by the time he died in 1797."
+      ],
+      "claims": [
+        {
+          "text": "He married two women bigamously while his wife was alive.",
+          "status": "confirmed",
+          "note": "The 'left-handed' marriages to Julie von Voss and Sophie von Dönhoff were approved by Prussian churchmen and are well documented."
+        },
+        {
+          "text": "His Rosicrucian advisers staged séances where spirits gave him advice.",
+          "status": "disputed",
+          "note": "Contemporaries reported ghostly sessions at Potsdam, but the details come from hostile gossip and memoirs."
+        },
+        {
+          "text": "He left Prussia deep in debt after inheriting a full treasury.",
+          "status": "confirmed",
+          "note": "Historians agree the large reserve left by Frederick II was spent on war, Poland and the court."
+        }
+      ],
+      "hook": "The pleasure-loving king is dead. His son is shy, stiff and cautious. He'll try very hard to stay out of Napoleon's way.",
+      "images": [
+        {
+          "file": "File:Friedrich Wilhelm II., König von Preußen (Graff Kopie).jpg",
+          "url": "https://upload.wikimedia.org/wikipedia/commons/2/28/Friedrich_Wilhelm_II.%2C_K%C3%B6nig_von_Preu%C3%9Fen_%28Graff_Kopie%29.jpg",
+          "page": "https://commons.wikimedia.org/wiki/File:Friedrich_Wilhelm_II.,_K%C3%B6nig_von_Preu%C3%9Fen_(Graff_Kopie).jpg",
+          "credit": "After Anton Graff",
+          "license": "Public domain",
+          "made": "c. 1790",
+          "caption": "A copy, made around 1790, of a portrait by Anton Graff.",
+          "alt": "Oil portrait of King Frederick William II of Prussia"
+        }
+      ],
+      "sources": [
+        {
+          "title": "Iron Kingdom: The Rise and Downfall of Prussia, 1600–1947",
+          "author": "Christopher Clark",
+          "note": "Allen Lane, 2006"
+        },
+        {
+          "title": "Friedrich Wilhelm II. König von Preußen: Ein Leben zwischen Rokoko und Revolution",
+          "author": "Brigitte Meier",
+          "note": "Pustet, Regensburg, 2007"
+        }
+      ],
+      "review": {
+        "status": "draft",
+        "notes": "Drafted from the listed sources; needs a human fact-check."
+      }
+    },
+    {
+      "id": "frederick-william-iii",
+      "kind": "monarch",
+      "rulers": [
+        "frederick-william-iii"
+      ],
+      "tagline": "Crushed by Napoleon, rescued by reformers",
+      "start": {
+        "date": "1797-11-16"
+      },
+      "end": {
+        "date": "1840-06-07"
+      },
+      "contestedWith": [],
+      "relationToPredecessor": "Son of Frederick William II",
+      "ageAtAccession": "27",
+      "cameToPower": "Inherited the throne",
+      "reignEnded": "Died in Berlin",
+      "previously": "Frederick William II dies in 1797, leaving debts and a bigger Prussia.",
+      "paragraphs": [
+        "The new king was decent, dutiful and terrified of mistakes. For years he stayed neutral while Napoleon remade Europe. When he finally went to war in 1806, the Prussian army was smashed at Jena and Auerstedt in a single day. Napoleon rode into Berlin.",
+        "At Tilsit in 1807 his popular wife, Queen Louise, met Napoleon herself to plead for gentler terms. It didn't work. Prussia lost about half its land. Louise died in 1810 and became a national saint. Meanwhile reformers like Stein and Hardenberg freed the serfs and rebuilt the army.",
+        "In 1813 Prussia turned on Napoleon. Its troops fought at Leipzig, and Blücher's men arrived in time to win at Waterloo. Prussia gained the Rhineland. The king had promised a constitution, then quietly dropped it. He died in 1840 after 42 years on the throne."
+      ],
+      "claims": [
+        {
+          "text": "Napoleon was charmed by Queen Louise at Tilsit but gave her nothing.",
+          "status": "confirmed",
+          "note": "Napoleon's own letters mention her charm, and the treaty terms show he conceded nothing."
+        },
+        {
+          "text": "The Iron Cross medal of 1813 was sketched by the king himself.",
+          "status": "disputed",
+          "note": "The king set out the idea and a rough design; the architect Schinkel produced the final version."
+        },
+        {
+          "text": "He promised Prussia a constitution in 1815.",
+          "status": "confirmed",
+          "note": "A royal decree of May 1815 promised representation. It was never carried out in his lifetime."
+        }
+      ],
+      "hook": "The old king dies. His son is clever, romantic and full of grand ideas about kingship. He's taking over just as Europe is about to explode.",
+      "images": [
+        {
+          "file": "File:Franz Krüger - Friedrich Wilhelm III. von Preußen.jpg",
+          "url": "https://upload.wikimedia.org/wikipedia/commons/3/3c/Franz_Kr%C3%BCger_-_Friedrich_Wilhelm_III._von_Preu%C3%9Fen.jpg",
+          "page": "https://commons.wikimedia.org/wiki/File:Franz_Kr%C3%BCger_-_Friedrich_Wilhelm_III._von_Preu%C3%9Fen.jpg",
+          "credit": "Franz Krüger",
+          "license": "Public domain",
+          "made": "c. 1830",
+          "caption": "Painted by Franz Krüger around 1830, late in the king's reign.",
+          "alt": "Oil portrait of King Frederick William III of Prussia"
+        }
+      ],
+      "sources": [
+        {
+          "title": "Iron Kingdom: The Rise and Downfall of Prussia, 1600–1947",
+          "author": "Christopher Clark",
+          "note": "Allen Lane, 2006"
+        },
+        {
+          "title": "König in Preußens großer Zeit: Friedrich Wilhelm III., der Melancholiker auf dem Thron",
+          "author": "Thomas Stamm-Kuhlmann",
+          "note": "Siedler, 1992"
+        },
+        {
+          "title": "The Impact of Napoleon: Prussian High Politics, Foreign Policy and the Crisis of the Executive, 1797–1806",
+          "author": "Brendan Simms",
+          "note": "Cambridge University Press, 1997"
+        }
+      ],
+      "review": {
+        "status": "draft",
+        "notes": "Drafted from the listed sources; needs a human fact-check."
+      }
+    },
+    {
+      "id": "frederick-william-iv",
+      "kind": "monarch",
+      "rulers": [
+        "frederick-william-iv"
+      ],
+      "tagline": "The romantic king who turned down Germany",
+      "start": {
+        "date": "1840-06-07"
+      },
+      "end": {
+        "date": "1861-01-02"
+      },
+      "contestedWith": [],
+      "relationToPredecessor": "Son of Frederick William III",
+      "ageAtAccession": "44",
+      "cameToPower": "Inherited the throne",
+      "reignEnded": "Strokes; brother ran things from 1858",
+      "previously": "Frederick William III dies in 1840, his constitution still unwritten.",
+      "paragraphs": [
+        "Frederick William IV loved medieval castles, Gothic churches and the idea of a king chosen by God. He backed the completion of Cologne Cathedral and talked brilliantly. What he would not do was share power with a parliament.",
+        "In March 1848 revolution reached Berlin. Troops fought crowds in the streets and hundreds died. The shaken king pulled the army out, wore the black, red and gold colours of German unity and bowed to the dead. Prussia got a constitution, though he made sure it was a cautious one.",
+        "In 1849 the Frankfurt Parliament offered him the crown of a united Germany. He turned it down. A crown from a parliament was no crown at all to him. Strokes wrecked his health from 1857, and in 1858 his brother William became regent. He died childless in 1861."
+      ],
+      "claims": [
+        {
+          "text": "He called the crown offered by Frankfurt a crown 'from the gutter'.",
+          "status": "confirmed",
+          "note": "He used the phrase in a private letter to his friend Bunsen in late 1848, before the formal offer came."
+        },
+        {
+          "text": "In 1848 he took off his hat to the coffins of the dead revolutionaries.",
+          "status": "confirmed",
+          "note": "Witnesses describe him bareheaded on the palace balcony as the bodies were displayed in the courtyard."
+        },
+        {
+          "text": "He was mentally ill long before his strokes.",
+          "status": "disputed",
+          "note": "Critics called him unstable, but historians mostly see a gifted, moody man until the strokes of 1857."
+        }
+      ],
+      "hook": "The dreamer king is dead. His brother William is 63, a soldier to the bone, and about to pick a fight with his own parliament.",
+      "images": [
+        {
+          "file": "File:Friedrich Wilhelm IV von preussen 1847.jpg",
+          "url": "https://upload.wikimedia.org/wikipedia/commons/4/43/Friedrich_Wilhelm_IV_von_preussen_1847.jpg",
+          "page": "https://commons.wikimedia.org/wiki/File:Friedrich_Wilhelm_IV_von_preussen_1847.jpg",
+          "credit": "Hermann Biow",
+          "license": "Public domain",
+          "made": "1847",
+          "caption": "An early photograph by Hermann Biow, a pioneer of the daguerreotype, taken in 1847.",
+          "alt": "Early black-and-white photograph of King Frederick William IV of Prussia"
+        }
+      ],
+      "sources": [
+        {
+          "title": "Frederick William IV and the Prussian Monarchy, 1840–1861",
+          "author": "David E. Barclay",
+          "note": "Oxford University Press, 1995"
+        },
+        {
+          "title": "Iron Kingdom: The Rise and Downfall of Prussia, 1600–1947",
+          "author": "Christopher Clark",
+          "note": "Allen Lane, 2006"
+        }
+      ],
+      "review": {
+        "status": "draft",
+        "notes": "Drafted from the listed sources; needs a human fact-check."
+      }
+    },
+    {
+      "id": "william-i",
+      "kind": "monarch",
+      "rulers": [
+        "william-i"
+      ],
+      "tagline": "The soldier king who became emperor",
+      "start": {
+        "date": "1861-01-02"
+      },
+      "end": {
+        "date": "1888-03-09"
+      },
+      "contestedWith": [],
+      "relationToPredecessor": "Brother of Frederick William IV",
+      "ageAtAccession": "63",
+      "cameToPower": "Succeeded his childless brother",
+      "reignEnded": "Died in Berlin, aged 90",
+      "previously": "Strokes leave Frederick William IV helpless; his brother is regent.",
+      "paragraphs": [
+        "William had spent his life in the army, and in 1848 crowds nicknamed him the Grapeshot Prince and he fled to England. As king he wanted a bigger army. Parliament refused to pay. In 1862, ready to abdicate, he gave the job of prime minister to a blunt diplomat named Otto von Bismarck.",
+        "Bismarck ran the budget without parliament and then ran three wars. Denmark lost in 1864, Austria in 1866, France in 1870. On 18 January 1871, in the Hall of Mirrors at Versailles, William was proclaimed German Emperor. He sulked through it. He'd wanted to stay King of Prussia first.",
+        "He survived two assassination attempts in 1878 and lived to almost 91, much loved as a grand old man. His son had waited decades in the wings. When William died in March 1888, that son was already gravely ill."
+      ],
+      "claims": [
+        {
+          "text": "He said: 'It is not easy to be emperor under such a chancellor.'",
+          "status": "disputed",
+          "note": "Widely quoted, but it rests on later reports; no contemporary record pins it down."
+        },
+        {
+          "text": "At Versailles he walked straight past Bismarck without shaking his hand.",
+          "status": "confirmed",
+          "note": "Bismarck and other witnesses recorded the snub, the result of their row over the imperial title."
+        },
+        {
+          "text": "He gave the order to fire on the crowds in Berlin in March 1848.",
+          "status": "disputed",
+          "note": "He was blamed and fled abroad, but historians doubt he gave the actual orders."
+        }
+      ],
+      "hook": "The old emperor is dead. His son Frederick is a liberal with an English wife and big plans. But he can barely speak, and his time is running out.",
+      "images": [
+        {
+          "file": "File:Kaiser Wilhelm I. .JPG",
+          "url": "https://upload.wikimedia.org/wikipedia/commons/0/01/Kaiser_Wilhelm_I._.JPG",
+          "page": "https://commons.wikimedia.org/wiki/File:Kaiser_Wilhelm_I._.JPG",
+          "credit": "Wilhelm Kuntzemüller",
+          "license": "Public domain",
+          "made": "1884",
+          "caption": "Photographed by Wilhelm Kuntzemüller in 1884, when the emperor was 87.",
+          "alt": "Black-and-white photograph of Emperor William I"
+        }
+      ],
+      "sources": [
+        {
+          "title": "Bismarck: A Life",
+          "author": "Jonathan Steinberg",
+          "note": "Oxford University Press, 2011"
+        },
+        {
+          "title": "Iron Kingdom: The Rise and Downfall of Prussia, 1600–1947",
+          "author": "Christopher Clark",
+          "note": "Allen Lane, 2006"
+        },
+        {
+          "title": "Bismarck and the Development of Germany",
+          "author": "Otto Pflanze",
+          "note": "3 vols, Princeton University Press, 1990"
+        }
+      ],
+      "review": {
+        "status": "draft",
+        "notes": "Drafted from the listed sources; needs a human fact-check."
+      }
+    },
+    {
+      "id": "frederick-iii",
+      "kind": "monarch",
+      "rulers": [
+        "frederick-iii"
+      ],
+      "tagline": "The liberal emperor who had 99 days",
+      "start": {
+        "date": "1888-03-09"
+      },
+      "end": {
+        "date": "1888-06-15"
+      },
+      "contestedWith": [],
+      "relationToPredecessor": "Son of William I",
+      "ageAtAccession": "56",
+      "cameToPower": "Inherited the throne",
+      "reignEnded": "Throat cancer after 99 days",
+      "previously": "William I dies in March 1888, aged 90, after 27 years as king.",
+      "paragraphs": [
+        "Crown Prince Frederick had commanded armies against Austria and France. He was also a liberal. He'd married Victoria, Queen Victoria's eldest daughter, and they dreamed of a Germany run more like Britain. Bismarck loathed them both. Then old William simply refused to die.",
+        "In 1887 doctors found a growth in Frederick's throat. German surgeons wanted to operate. The famous British specialist Morell Mackenzie said it wasn't cancer. It was. By early 1888 Frederick had a tube in his windpipe and could only talk by scribbling notes.",
+        "He became emperor in March 1888 and lasted 99 days. He died at Potsdam on 15 June. Within hours, his son had troops seal off the palace to hunt for his parents' private papers. Liberals have wondered ever since what Germany might have been."
+      ],
+      "claims": [
+        {
+          "text": "Morell Mackenzie's misdiagnosis cost Frederick his life.",
+          "status": "disputed",
+          "note": "Mackenzie was savaged in Germany for it, but surgery for throat cancer in 1887 often killed patients anyway."
+        },
+        {
+          "text": "His son William had the palace surrounded by troops as soon as he died.",
+          "status": "confirmed",
+          "note": "Reported by courtiers and in Victoria's own letters to her mother."
+        },
+        {
+          "text": "Had he lived, Germany would have turned liberal and avoided war.",
+          "status": "disputed",
+          "note": "A popular 'what if'. Many historians doubt one man could have overturned Bismarck's system."
+        }
+      ],
+      "hook": "Frederick is dead. His 29-year-old son is restless, loud and proud, and the old chancellor Bismarck is about to find out who's really in charge.",
+      "images": [
+        {
+          "file": "File:Kaiser Friedrich III Porträt.jpg",
+          "url": "https://upload.wikimedia.org/wikipedia/commons/3/35/Kaiser_Friedrich_III_Portr%C3%A4t.jpg",
+          "page": "https://commons.wikimedia.org/wiki/File:Kaiser_Friedrich_III_Portr%C3%A4t.jpg",
+          "credit": "Minna Pfüller",
+          "license": "Public domain",
+          "made": "c. 1888",
+          "caption": "Painted by Minna Pfüller, probably around 1888.",
+          "alt": "Portrait of Emperor Frederick III in field marshal's uniform, wearing his orders and decorations"
+        }
+      ],
+      "sources": [
+        {
+          "title": "Our Fritz: Emperor Frederick III and the Political Culture of Imperial Germany",
+          "author": "Frank Lorenz Müller",
+          "note": "Harvard University Press, 2011"
+        },
+        {
+          "title": "Frederick III: Germany's Liberal Emperor",
+          "author": "Patricia Kollander",
+          "note": "Greenwood, 1995"
+        },
+        {
+          "title": "An Uncommon Woman: The Empress Frederick",
+          "author": "Hannah Pakula",
+          "note": "Simon & Schuster, 1995"
+        }
+      ],
+      "review": {
+        "status": "draft",
+        "notes": "Drafted from the listed sources; needs a human fact-check."
+      }
+    },
+    {
+      "id": "william-ii",
+      "kind": "monarch",
+      "rulers": [
+        "william-ii"
+      ],
+      "tagline": "The restless Kaiser who steered Germany into the abyss",
+      "start": {
+        "date": "1888-06-15"
+      },
+      "end": {
+        "date": "1918-11-09"
+      },
+      "contestedWith": [],
+      "relationToPredecessor": "Eldest son of Frederick III",
+      "ageAtAccession": "29",
+      "cameToPower": "Father died of throat cancer",
+      "reignEnded": "Abdicated, fled to the Netherlands",
+      "previously": "Frederick III dies of throat cancer after just 99 days as emperor.",
+      "paragraphs": [
+        "William was a grandson of Queen Victoria, born after a terrible breech delivery that left his left arm short and weak. He grew up loud, clever, touchy and desperate to be taken seriously. Two years into the job he forced out Bismarck, the man who had built the empire, because he wanted to rule himself. Ministers came and went. William made speeches, changed his mind and changed his uniform several times a day.",
+        "He wanted a fleet to match Britain's, and Admiral Tirpitz built one from 1898. Britain took fright and drifted towards France and Russia. In 1908 William gave an interview to the Daily Telegraph saying most Germans disliked the English but he was their friend. It enraged both countries at once. In 1914 he backed Austria-Hungary against Serbia with a blank cheque, and Europe went to war.",
+        "By 1916 the generals Hindenburg and Ludendorff were running Germany and the Kaiser was a bystander. In autumn 1918 the army was beaten, sailors mutinied and revolution spread. On 9 November his chancellor announced his abdication before William had agreed to it. He took a train to the Netherlands the next day and spent the rest of his life chopping wood at Doorn."
+      ],
+      "claims": [
+        {
+          "text": "William told troops leaving for China in 1900 to make the name German as feared as the Huns under Attila.",
+          "status": "confirmed",
+          "note": "The Bremerhaven speech was taken down by reporters. Officials tried to cut the passage, but it was printed anyway."
+        },
+        {
+          "text": "His difficult birth and damaged arm shaped his unstable personality.",
+          "status": "disputed",
+          "note": "His biographer John Röhl argues for it, including possible brain damage. Others say his upbringing and court mattered more."
+        },
+        {
+          "text": "William personally wanted and planned the First World War.",
+          "status": "disputed",
+          "note": "Fritz Fischer's school put the blame on Germany's leaders. Christopher Clark and others see a shared slide to war, with William often hesitating."
+        }
+      ],
+      "hook": "Germany becomes a republic in an afternoon, almost by accident. The man left holding the keys to the chancellery is a former saddler from Heidelberg who never wanted a revolution.",
+      "images": [
+        {
+          "file": "File:Kaiser Wilhelm II of Germany - 1902.jpg",
+          "url": "https://upload.wikimedia.org/wikipedia/commons/6/6e/Kaiser_Wilhelm_II_of_Germany_-_1902.jpg",
+          "page": "https://commons.wikimedia.org/wiki/File:Kaiser_Wilhelm_II_of_Germany_-_1902.jpg",
+          "credit": "Studio of Thomas Heinrich Voigt",
+          "license": "Public domain",
+          "made": "1902",
+          "caption": "A studio portrait taken in 1902, fourteen years into his reign.",
+          "alt": "Head-and-shoulders photograph of Kaiser William II in uniform, with his famous upturned moustache"
+        }
+      ],
+      "sources": [
+        {
+          "title": "Wilhelm II",
+          "author": "John C. G. Röhl",
+          "note": "3 vols, Cambridge University Press, 1998–2014"
+        },
+        {
+          "title": "Kaiser Wilhelm II: A Life in Power",
+          "author": "Christopher Clark",
+          "note": "Penguin, 2009 (first published 2000)"
+        },
+        {
+          "title": "The Sleepwalkers: How Europe Went to War in 1914",
+          "author": "Christopher Clark",
+          "note": "Allen Lane, 2012"
+        }
+      ],
+      "review": {
+        "status": "draft",
+        "notes": "Drafted from the listed sources; needs a human fact-check."
+      }
+    },
+    {
+      "id": "ebert",
+      "kind": "leader",
+      "rulers": [
+        "ebert"
+      ],
+      "tagline": "The saddler who founded a republic nobody loved",
+      "start": {
+        "date": "1918-11-09"
+      },
+      "end": {
+        "date": "1925-02-28"
+      },
+      "contestedWith": [],
+      "relationToPredecessor": "None; a Social Democrat leader",
+      "ageAtAccession": "47",
+      "cameToPower": "Handed the chancellery, 9 Nov 1918",
+      "reignEnded": "Died in office, aged 54",
+      "previously": "The Kaiser abdicates and slips away to exile in the Netherlands.",
+      "paragraphs": [
+        "From here on there are no more kings, so the cards follow whoever actually ran the country. On 9 November 1918 that was Friedrich Ebert, a former saddler who led the Social Democrats. Two of his sons had died in the war. He wanted order and an elected parliament, and he feared a Russian-style revolution. To get both, he struck a deal with the army. In January 1919 troops and Freikorps crushed a left-wing rising in Berlin.",
+        "An assembly met in quiet Weimar, made Ebert president and wrote a democratic constitution, which he signed in August 1919. The new republic also had to sign the Treaty of Versailles, and many Germans never forgave it. In March 1920 right-wing soldiers seized Berlin in the Kapp Putsch. The government fled, workers went on general strike, and the putsch fell apart within days.",
+        "Then came 1923. French and Belgian troops occupied the Ruhr, and money became worthless: by November a dollar cost over four trillion marks. Hitler tried a coup in Munich and failed. The mark was stabilised, but Ebert was worn out and smeared in the press. In February 1925 he put off an operation on his appendix to fight a libel case, and died of the infection."
+      ],
+      "claims": [
+        {
+          "text": "Ebert told the last imperial chancellor: “I hate revolution like sin.”",
+          "status": "confirmed",
+          "note": "Prince Max of Baden recorded the line in his memoirs. It is second-hand, but historians accept it as genuine."
+        },
+        {
+          "text": "Ebert and General Groener agreed their pact over a secret telephone line on 10 November 1918.",
+          "status": "confirmed",
+          "note": "Groener described the calls himself. Critics on the left later called it the original sin of the republic."
+        },
+        {
+          "text": "Ebert died because he delayed surgery to fight a libel trial.",
+          "status": "confirmed",
+          "note": "Biographers agree he put off treatment during the trial, though nobody can say he would have lived otherwise."
+        }
+      ],
+      "hook": "Ebert's death means the first direct election for president. The nationalist right needs a famous name, and finds one: a retired 77-year-old field marshal, the hero of Tannenberg.",
+      "images": [
+        {
+          "file": "File:Bundesarchiv Bild 102-00015, Friedrich Ebert.jpg",
+          "url": "https://upload.wikimedia.org/wikipedia/commons/6/6a/Bundesarchiv_Bild_102-00015%2C_Friedrich_Ebert.jpg",
+          "page": "https://commons.wikimedia.org/wiki/File:Bundesarchiv_Bild_102-00015,_Friedrich_Ebert.jpg",
+          "credit": "Georg Pahl",
+          "license": "CC BY-SA 3.0 de",
+          "made": "1925",
+          "caption": "The last photograph of Ebert, taken at his desk on 15 February 1925, less than two weeks before he died.",
+          "alt": "Black-and-white photograph of Friedrich Ebert, a bearded man in a dark suit, sitting at his desk"
+        }
+      ],
+      "sources": [
+        {
+          "title": "Friedrich Ebert 1871–1925: Reichspräsident der Weimarer Republik",
+          "author": "Walter Mühlhausen",
+          "note": "Dietz, 2006"
+        },
+        {
+          "title": "The Weimar Republic: The Crisis of Classical Modernity",
+          "author": "Detlev J. K. Peukert",
+          "note": "English trans. Allen Lane, 1991"
+        },
+        {
+          "title": "The Coming of the Third Reich",
+          "author": "Richard J. Evans",
+          "note": "Allen Lane, 2003"
+        }
+      ],
+      "review": {
+        "status": "draft",
+        "notes": "Drafted from the listed sources; needs a human fact-check."
+      }
+    },
+    {
+      "id": "hindenburg",
+      "kind": "leader",
+      "rulers": [
+        "hindenburg"
+      ],
+      "tagline": "The old field marshal who opened the door to Hitler",
+      "start": {
+        "date": "1925-05-12"
+      },
+      "end": {
+        "date": "1933-01-30"
+      },
+      "contestedWith": [],
+      "relationToPredecessor": "None; elected after Ebert's death",
+      "ageAtAccession": "77",
+      "cameToPower": "Won the 1925 presidential election",
+      "reignEnded": "Appointed Hitler chancellor",
+      "previously": "President Ebert dies in office, worn down by years of crisis.",
+      "paragraphs": [
+        "Paul von Hindenburg had been retired when the war began. In August 1914 he and Ludendorff destroyed a Russian army at Tannenberg, and he became a living monument. In 1919 he told a parliamentary inquiry that the army had been stabbed in the back at home. It was false: the generals had asked for an armistice themselves. But the myth poisoned the republic, and in 1925 the right ran him for president.",
+        "He won, aged 77, and at first he played by the rules. Then the Depression hit. By 1932 six million Germans were out of work. Hindenburg let chancellors govern by emergency decree under Article 48, bypassing parliament. Brüning, Papen and Schleicher came and went. In 1932 he was re-elected, beating Hitler with the votes of Social Democrats and Catholics who saw him as the lesser evil.",
+        "Hindenburg disliked Hitler and had refused to make him chancellor. But Papen and other conservatives promised they could keep him boxed in. On 30 January 1933 the old man gave in. He stayed president, signing the decrees that stripped Germans of their rights, until he died in August 1934. Hitler then merged the presidency into his own office."
+      ],
+      "claims": [
+        {
+          "text": "The stab-in-the-back phrase came from a British general over dinner.",
+          "status": "legend",
+          "note": "Ludendorff told the story about General Malcolm, but there is no good evidence for it. The idea was already circulating in Germany."
+        },
+        {
+          "text": "Hindenburg sneered at Hitler as “the Bohemian corporal”.",
+          "status": "disputed",
+          "note": "Widely quoted from people around him, but there is no reliable record of exactly when or how he said it."
+        },
+        {
+          "text": "Hindenburg was re-elected in 1932 with Social Democrat support, against Hitler.",
+          "status": "confirmed",
+          "note": "The official results show he won the April 1932 run-off with about 53 per cent; the SPD had told its voters to back him."
+        }
+      ],
+      "hook": "Hitler is chancellor of a coalition cabinet with only three Nazis in it. His conservative partners think they have tamed him. Within weeks he begins taking the republic apart.",
+      "images": [
+        {
+          "file": "File:Paul von Hindenburg (1914) von Nicola Perscheid.jpg",
+          "url": "https://upload.wikimedia.org/wikipedia/commons/a/a2/Paul_von_Hindenburg_%281914%29_von_Nicola_Perscheid.jpg",
+          "page": "https://commons.wikimedia.org/wiki/File:Paul_von_Hindenburg_(1914)_von_Nicola_Perscheid.jpg",
+          "credit": "Nicola Perscheid",
+          "license": "Public domain",
+          "made": "1914",
+          "caption": "Photographed in 1914, the year Tannenberg made him famous, eleven years before he became president.",
+          "alt": "Black-and-white portrait photograph of Paul von Hindenburg in military uniform, with a large moustache"
+        }
+      ],
+      "sources": [
+        {
+          "title": "Hindenburg: Herrschaft zwischen Hohenzollern und Hitler",
+          "author": "Wolfram Pyta",
+          "note": "Siedler, 2007"
+        },
+        {
+          "title": "Hindenburg: Power, Myth, and the Rise of the Nazis",
+          "author": "Anna von der Goltz",
+          "note": "Oxford University Press, 2009"
+        },
+        {
+          "title": "The Coming of the Third Reich",
+          "author": "Richard J. Evans",
+          "note": "Allen Lane, 2003"
+        }
+      ],
+      "review": {
+        "status": "draft",
+        "notes": "Drafted from the listed sources; needs a human fact-check."
+      }
+    },
+    {
+      "id": "hitler",
+      "kind": "leader",
+      "rulers": [
+        "hitler"
+      ],
+      "tagline": "Dictatorship, a war of conquest and the Holocaust",
+      "start": {
+        "date": "1933-01-30"
+      },
+      "end": {
+        "date": "1945-04-30"
+      },
+      "contestedWith": [],
+      "relationToPredecessor": "Appointed chancellor by Hindenburg",
+      "ageAtAccession": "43",
+      "cameToPower": "Appointed chancellor, 30 Jan 1933",
+      "reignEnded": "Suicide in the Berlin bunker",
+      "previously": "Hindenburg appoints Hitler, leader of the Nazi Party, chancellor.",
+      "paragraphs": [
+        "Adolf Hitler was born in Austria, served as a soldier in the German army in the First World War and led the Nazi Party from 1921. After the Reichstag fire in February 1933, an emergency decree suspended civil rights. In March the Enabling Act let him make laws without parliament. Other parties were banned, trade unions closed and opponents sent to concentration camps such as Dachau. When Hindenburg died in 1934, Hitler took the presidency too.",
+        "Jews were driven out of jobs and public life. The Nuremberg Laws of 1935 took away their citizenship, and in November 1938 synagogues were burned across Germany. In September 1939 Germany invaded Poland, starting the Second World War in Europe. In 1941 it invaded the Soviet Union, waging a war of extermination in which millions of prisoners and civilians died.",
+        "In the Holocaust, about six million Jews were murdered, in mass shootings and in death camps such as Auschwitz-Birkenau and Treblinka. Roma and Sinti, disabled people and many others were also murdered. Tens of millions died in the war in Europe. As Soviet troops fought their way into Berlin, Hitler killed himself in his bunker on 30 April 1945. A week later Germany surrendered unconditionally."
+      ],
+      "claims": [
+        {
+          "text": "The Dutch communist Marinus van der Lubbe set the Reichstag fire alone.",
+          "status": "disputed",
+          "note": "He was caught at the scene and executed. Many historians think he acted alone; others argue the Nazis were involved. The regime used the fire either way."
+        },
+        {
+          "text": "On 20 July 1944 Claus von Stauffenberg's bomb went off in Hitler's headquarters, but Hitler survived.",
+          "status": "confirmed",
+          "note": "Well documented. Stauffenberg and many others in the resistance were executed afterwards."
+        },
+        {
+          "text": "Hitler died by suicide in the bunker on 30 April 1945.",
+          "status": "confirmed",
+          "note": "Eyewitnesses in the bunker and Soviet investigations agree. Stories of his escape have no credible evidence."
+        }
+      ],
+      "hook": "Germany has surrendered. Its cities are rubble, millions are dead or homeless, and the country no longer governs itself. Four Allied powers now decide what happens to it.",
+      "images": [
+        {
+          "file": "File:Bundesarchiv Bild 102-12922, Adolf Hitler.jpg",
+          "url": "https://upload.wikimedia.org/wikipedia/commons/4/41/Bundesarchiv_Bild_102-12922%2C_Adolf_Hitler.jpg",
+          "page": "https://commons.wikimedia.org/wiki/File:Bundesarchiv_Bild_102-12922,_Adolf_Hitler.jpg",
+          "credit": "Unknown photographer (German Federal Archive)",
+          "license": "CC BY-SA 3.0 de",
+          "made": "1932",
+          "caption": "Taken in Berlin in 1932, the year before he came to power.",
+          "alt": "Black-and-white photograph of Adolf Hitler in a suit, sitting and looking at the camera"
+        }
+      ],
+      "sources": [
+        {
+          "title": "Hitler 1889–1936: Hubris and Hitler 1936–1945: Nemesis",
+          "author": "Ian Kershaw",
+          "note": "Allen Lane, 1998 and 2000"
+        },
+        {
+          "title": "The Third Reich trilogy (The Coming of the Third Reich; The Third Reich in Power; The Third Reich at War)",
+          "author": "Richard J. Evans",
+          "note": "Allen Lane, 2003–2008"
+        },
+        {
+          "title": "The Years of Extermination: Nazi Germany and the Jews, 1939–1945",
+          "author": "Saul Friedländer",
+          "note": "HarperCollins, 2007"
+        },
+        {
+          "title": "The Destruction of the European Jews",
+          "author": "Raul Hilberg",
+          "note": "First published 1961; 3rd ed. Yale University Press, 2003"
+        }
+      ],
+      "review": {
+        "status": "draft",
+        "notes": "Drafted from the listed sources; needs a human fact-check."
+      }
+    },
+    {
+      "id": "occupation",
+      "kind": "interregnum",
+      "rulers": [],
+      "house": "allied",
+      "title": "Occupied Germany",
+      "tagline": "Four armies, one ruined country and an airlift",
+      "start": {
+        "date": "1945-05-08"
+      },
+      "end": {
+        "date": "1949-09-15"
+      },
+      "contestedWith": [],
+      "relationToPredecessor": "Allied military rule",
+      "ageAtAccession": "No single ruler",
+      "cameToPower": "Germany surrendered unconditionally",
+      "reignEnded": "Two German states founded",
+      "previously": "Hitler is dead by suicide, and Germany surrenders unconditionally.",
+      "paragraphs": [
+        "There was no German government any more. The United States, Britain, the Soviet Union and France each ran a zone, and Berlin, deep inside the Soviet zone, was split four ways too. The lands east of the Oder and Neisse rivers went to Poland and the Soviet Union, and millions of Germans were expelled westwards. People lived in cellars, and women cleared the rubble by hand.",
+        "At Nuremberg the Allies put the surviving Nazi leaders on trial. In October 1946 twelve were sentenced to death. Göring poisoned himself the night before he was due to hang. Across the zones, millions of Germans filled in questionnaires about their past, and the occupiers tried, unevenly, to weed out Nazis.",
+        "The wartime allies soon fell out. When the West brought in a new currency, the Deutschmark, in June 1948, the Soviets blockaded West Berlin. The Western allies flew in food and coal for almost a year until the blockade was lifted in May 1949. That month the western zones adopted a constitution, the Basic Law. In October the Soviet zone became a state of its own."
+      ],
+      "claims": [
+        {
+          "text": "An American pilot, Gail Halvorsen, dropped sweets to Berlin children on tiny parachutes.",
+          "status": "confirmed",
+          "note": "He started on his own initiative in 1948; the air force then backed it. He became known as the Candy Bomber."
+        },
+        {
+          "text": "Göring took cyanide hours before his execution.",
+          "status": "confirmed",
+          "note": "He died in his cell on 15 October 1946. How he got the capsule has never been settled."
+        },
+        {
+          "text": "The Allies planned to turn Germany into a land of farms.",
+          "status": "disputed",
+          "note": "US Treasury Secretary Morgenthau proposed it in 1944, but it was dropped and never became Allied policy."
+        }
+      ],
+      "hook": "West Germany needs a chancellor. Its parliament turns to a 73-year-old former mayor of Cologne, a man the Nazis sacked in 1933 and the British sacked again in 1945.",
+      "images": [
+        {
+          "file": "File:C-54 landing at Tempelhof.jpg",
+          "url": "https://upload.wikimedia.org/wikipedia/commons/9/92/C-54_landing_at_Tempelhof.jpg",
+          "page": "https://commons.wikimedia.org/wiki/File:C-54_landing_at_Tempelhof.jpg",
+          "credit": "Henry Ries / USAF",
+          "license": "Public domain",
+          "made": "1948",
+          "caption": "Berlin children watch an American supply plane come in during the airlift of 1948.",
+          "alt": "Black-and-white photograph of German children standing on a hillside, watching a large four-engined plane fly low overhead"
+        }
+      ],
+      "sources": [
+        {
+          "title": "Exorcising Hitler: The Occupation and Denazification of Germany",
+          "author": "Frederick Taylor",
+          "note": "Bloomsbury, 2011"
+        },
+        {
+          "title": "Postwar: A History of Europe Since 1945",
+          "author": "Tony Judt",
+          "note": "Heinemann, 2005"
+        },
+        {
+          "title": "Trial of the Major War Criminals before the International Military Tribunal",
+          "author": "International Military Tribunal",
+          "note": "Official record, 42 vols, Nuremberg, 1947–1949"
+        }
+      ],
+      "review": {
+        "status": "draft",
+        "notes": "Drafted from the listed sources; needs a human fact-check."
+      }
+    },
+    {
+      "id": "adenauer",
+      "kind": "leader",
+      "rulers": [
+        "adenauer"
+      ],
+      "tagline": "The old man who rebuilt West Germany from the rubble",
+      "start": {
+        "date": "1949-09-15"
+      },
+      "end": {
+        "date": "1963-10-16"
+      },
+      "contestedWith": [
+        "east-germany"
+      ],
+      "relationToPredecessor": "First chancellor of West Germany",
+      "ageAtAccession": "73",
+      "cameToPower": "Elected by one vote, his own",
+      "reignEnded": "Retired under party pressure",
+      "previously": "In 1949 Germany splits into two states, one west, one east.",
+      "paragraphs": [
+        "Konrad Adenauer had been mayor of Cologne until the Nazis threw him out. He sat out the Third Reich in quiet retirement and was arrested more than once. In 1949 his Christian Democrats narrowly won the first election, and parliament made him chancellor by a single vote. Germans called him Der Alte, the Old Man. He ran the country from Bonn for fourteen years.",
+        "With Ludwig Erhard at the economics ministry, West Germany boomed. Rubble turned into factories, and the Volkswagen Beetle rolled off the lines. Adenauer tied his country firmly to the West: the coal and steel pool with France in 1951, NATO in 1955, the Common Market in 1957. In 1952 he agreed to pay reparations to Israel. In 1955 he went to Moscow and brought home the last German prisoners of war.",
+        "His proudest moment was the 1963 friendship treaty with France's President de Gaulle. But he had stayed too long. The Spiegel affair of 1962, when police raided a news magazine, damaged his government, and his own party pushed him to set a date to go. In October 1963, aged 87, he finally stepped down."
+      ],
+      "claims": [
+        {
+          "text": "Adenauer became chancellor by one vote, and that vote was his own.",
+          "status": "confirmed",
+          "note": "He got exactly the 202 votes needed in 1949 and said openly he had voted for himself."
+        },
+        {
+          "text": "Adenauer held a British patent for a soya sausage.",
+          "status": "confirmed",
+          "note": "During the First World War food shortages he invented a meat-free sausage; the British patent is on record."
+        },
+        {
+          "text": "His Moscow trip in 1955 freed the last German prisoners of war.",
+          "status": "confirmed",
+          "note": "About 10,000 prisoners came home after the visit, in exchange for diplomatic relations with the Soviet Union."
+        }
+      ],
+      "hook": "Across the border, a second Germany has been born. It is run from East Berlin by Communists trained in Moscow, and its people are voting with their feet.",
+      "images": [
+        {
+          "file": "File:Bundesarchiv B 145 Bild-F078072-0004, Konrad Adenauer.jpg",
+          "url": "https://upload.wikimedia.org/wikipedia/commons/8/86/Bundesarchiv_B_145_Bild-F078072-0004%2C_Konrad_Adenauer.jpg",
+          "page": "https://commons.wikimedia.org/wiki/File:Bundesarchiv_B_145_Bild-F078072-0004,_Konrad_Adenauer.jpg",
+          "credit": "Katherine Young",
+          "license": "CC BY-SA 3.0 de",
+          "made": "1952",
+          "caption": "A portrait of the chancellor taken in June 1952.",
+          "alt": "Black-and-white portrait photograph of Konrad Adenauer, an elderly man in a suit and tie"
+        }
+      ],
+      "sources": [
+        {
+          "title": "Konrad Adenauer",
+          "author": "Hans-Peter Schwarz",
+          "note": "2 vols, English trans. Berghahn Books, 1995–1997"
+        },
+        {
+          "title": "Adenauer: The Father of the New Germany",
+          "author": "Charles Williams",
+          "note": "Little, Brown, 2000"
+        },
+        {
+          "title": "Postwar: A History of Europe Since 1945",
+          "author": "Tony Judt",
+          "note": "Heinemann, 2005"
+        }
+      ],
+      "review": {
+        "status": "draft",
+        "notes": "Drafted from the listed sources; needs a human fact-check."
+      }
+    },
+    {
+      "id": "east-germany",
+      "kind": "interregnum",
+      "rulers": [],
+      "house": "gdr",
+      "title": "East Germany",
+      "tagline": "The other Germany, walled in for 28 years",
+      "start": {
+        "date": "1949-10-07"
+      },
+      "end": {
+        "date": "1990-10-03"
+      },
+      "contestedWith": [
+        "adenauer",
+        "erhard",
+        "kiesinger",
+        "brandt",
+        "schmidt",
+        "kohl"
+      ],
+      "relationToPredecessor": "Rival state in the Soviet zone",
+      "ageAtAccession": "No single ruler",
+      "cameToPower": "Founded under Soviet control",
+      "reignEnded": "Joined West Germany",
+      "previously": "In the west, Adenauer builds a democracy tied to the Western allies.",
+      "paragraphs": [
+        "The German Democratic Republic was founded in the Soviet zone on 7 October 1949. Elections were a formality. Real power lay with the Socialist Unity Party, the SED, led by Walter Ulbricht. On 17 June 1953 a strike by Berlin building workers spread into an uprising across the country. Soviet tanks crushed it, and dozens were killed.",
+        "People kept leaving: around three million went west through Berlin. On 13 August 1961 soldiers and militia sealed the border with barbed wire, then a concrete wall. At least 140 people died at the Berlin Wall. Erich Honecker replaced Ulbricht in 1971. The Stasi, the secret police, watched everyone, with tens of thousands of officers and a huge web of informers.",
+        "In 1989 Hungary opened its border and East Germans streamed out. Huge crowds marched in Leipzig, chanting “We are the people”. Honecker was pushed out in October. On 9 November a party spokesman fumbled a press conference about new travel rules, and that night crowds forced the gates open. The Wall was down, and on 3 October 1990 East Germany joined the West."
+      ],
+      "claims": [
+        {
+          "text": "Two months before the Wall went up, Ulbricht said: “Nobody has any intention of building a wall.”",
+          "status": "confirmed",
+          "note": "He said it at a press conference on 15 June 1961. It is on film."
+        },
+        {
+          "text": "The Wall opened by mistake after Günter Schabowski said the new rules applied “immediately”.",
+          "status": "confirmed",
+          "note": "He had not been told the rules were meant to start the next day. The press conference was broadcast live."
+        },
+        {
+          "text": "The Stasi had about 189,000 unofficial informers in 1989.",
+          "status": "confirmed",
+          "note": "That is the estimate from the Stasi records agency's researchers. Earlier counts were higher; the exact figure is still debated."
+        }
+      ],
+      "hook": "Back in Bonn, the old man is finally gone. His successor is the man West Germans thank for their full shops: a cheerful economist who is almost never seen without a cigar.",
+      "images": [
+        {
+          "file": "File:Bundesarchiv Bild 183-85458-0002, Berlin, Mauerbau, Kampfgruppen am Brandenburger Tor.jpg",
+          "url": "https://upload.wikimedia.org/wikipedia/commons/5/56/Bundesarchiv_Bild_183-85458-0002%2C_Berlin%2C_Mauerbau%2C_Kampfgruppen_am_Brandenburger_Tor.jpg",
+          "page": "https://commons.wikimedia.org/wiki/File:Bundesarchiv_Bild_183-85458-0002,_Berlin,_Mauerbau,_Kampfgruppen_am_Brandenburger_Tor.jpg",
+          "credit": "Peter Heinz Junge",
+          "license": "CC BY-SA 3.0 de",
+          "made": "1961",
+          "caption": "East German factory militia seal off the Brandenburg Gate on 13 August 1961, the day the Wall went up.",
+          "alt": "Black-and-white photograph of armed East German militiamen lined up in front of the Brandenburg Gate, with water-cannon trucks behind them"
+        }
+      ],
+      "sources": [
+        {
+          "title": "Anatomy of a Dictatorship: Inside the GDR, 1949–1989",
+          "author": "Mary Fulbrook",
+          "note": "Oxford University Press, 1995"
+        },
+        {
+          "title": "The Berlin Wall: 13 August 1961 to 9 November 1989",
+          "author": "Frederick Taylor",
+          "note": "Bloomsbury, 2006"
+        },
+        {
+          "title": "The Collapse: The Accidental Opening of the Berlin Wall",
+          "author": "Mary Elise Sarotte",
+          "note": "Basic Books, 2014"
+        },
+        {
+          "title": "Stasiland",
+          "author": "Anna Funder",
+          "note": "Granta, 2003"
+        }
+      ],
+      "review": {
+        "status": "draft",
+        "notes": "Drafted from the listed sources; needs a human fact-check."
+      }
+    },
+    {
+      "id": "erhard",
+      "kind": "leader",
+      "rulers": [
+        "erhard"
+      ],
+      "tagline": "The cigar-chomping father of the economic miracle",
+      "start": {
+        "date": "1963-10-16"
+      },
+      "end": {
+        "date": "1966-12-01"
+      },
+      "contestedWith": [
+        "east-germany"
+      ],
+      "relationToPredecessor": "Adenauer's economics minister",
+      "ageAtAccession": "66",
+      "cameToPower": "Elected by the Bundestag",
+      "reignEnded": "Coalition collapsed; resigned",
+      "previously": "Adenauer bows out at 87. The Wall now splits Berlin in two.",
+      "paragraphs": [
+        "Ludwig Erhard was a round, cheerful economist from Fürth who was rarely seen without a fat cigar. In June 1948, as the western zones got the new Deutsche Mark, he scrapped most price controls at a stroke. Shops that had been empty filled up almost overnight. As Adenauer's economics minister for 14 years, he became the face of the boom, the man who promised 'prosperity for all'.",
+        "Adenauer thought he was too soft for the top job and tried hard to stop him. Erhard got it anyway, and won the 1965 election comfortably. Then the miracle stalled. A small recession hit in 1966, the budget ran short and his liberal FDP partners walked out rather than accept tax rises. Erhard was a brilliant economist and a weak party boss. With no majority left, he resigned at the end of November 1966."
+      ],
+      "claims": [
+        {
+          "text": "When the US general Lucius Clay warned Erhard that his advisers called scrapping price controls a terrible mistake, Erhard replied that his own advisers said the same.",
+          "status": "disputed",
+          "note": "A much-loved story told by Erhard's admirers. No record from the time backs up the exact exchange."
+        },
+        {
+          "text": "Adenauer openly said Erhard was not up to being chancellor.",
+          "status": "confirmed",
+          "note": "Adenauer's low opinion of Erhard's political skills is well documented in his own remarks and in biographies of both men."
+        }
+      ],
+      "hook": "Bonn needs a new government fast. The CDU turns to a silver-tongued southern premier with an old Nazi party card, and makes a deal with its great rival, the SPD.",
+      "images": [
+        {
+          "file": "File:Einde bezoek bondskanselier dr Ludwig Erhard en gaf persconferentie in het Haag, Bestanddeelnr 916-1330.jpg",
+          "url": "https://upload.wikimedia.org/wikipedia/commons/c/c8/Einde_bezoek_bondskanselier_dr_Ludwig_Erhard_en_gaf_persconferentie_in_het_Haag%2C_Bestanddeelnr_916-1330.jpg",
+          "page": "https://commons.wikimedia.org/wiki/File:Einde_bezoek_bondskanselier_dr_Ludwig_Erhard_en_gaf_persconferentie_in_het_Haag,_Bestanddeelnr_916-1330.jpg",
+          "credit": "Eric Koch for Anefo",
+          "license": "CC0",
+          "made": "1964",
+          "caption": "Erhard at a press conference in The Hague in March 1964, while he was chancellor.",
+          "alt": "Black-and-white photo of Ludwig Erhard speaking at a press conference in The Hague"
+        }
+      ],
+      "sources": [
+        {
+          "title": "Ludwig Erhard: A Biography",
+          "author": "Alfred C. Mierzejewski",
+          "note": "University of North Carolina Press, 2004"
+        },
+        {
+          "title": "Ludwig Erhard: Ein Politikerleben",
+          "author": "Volker Hentschel",
+          "note": "1996"
+        },
+        {
+          "title": "Wohlstand für Alle",
+          "author": "Ludwig Erhard",
+          "note": "1957; his own case for the social market economy"
+        }
+      ],
+      "review": {
+        "status": "draft",
+        "notes": "Drafted from the listed sources; needs a human fact-check."
+      }
+    },
+    {
+      "id": "kiesinger",
+      "kind": "leader",
+      "rulers": [
+        "kiesinger"
+      ],
+      "tagline": "The smooth talker whose past caught up with him",
+      "start": {
+        "date": "1966-12-01"
+      },
+      "end": {
+        "date": "1969-10-21"
+      },
+      "contestedWith": [
+        "east-germany"
+      ],
+      "relationToPredecessor": "CDU colleague of Erhard",
+      "ageAtAccession": "62",
+      "cameToPower": "Grand coalition with the SPD",
+      "reignEnded": "Lost power after the 1969 vote",
+      "previously": "Erhard's coalition falls apart and he quits after three years.",
+      "paragraphs": [
+        "Kurt Georg Kiesinger was tall, silver-haired and so polished a speaker that people called him 'King Silver-Tongue'. He ran Baden-Württemberg before Bonn called. He also had a past. He joined the Nazi party in 1933 and spent the war working on foreign radio propaganda in Hitler's Foreign Ministry. For many young Germans, that said everything about the men still running the country.",
+        "He led the first grand coalition, with the SPD's Willy Brandt as foreign minister. Together they steered through the economy's wobble and passed controversial emergency laws while students marched in the streets. In November 1968 the activist Beate Klarsfeld walked up to him at a CDU congress, slapped his face and shouted 'Nazi'. In 1969 his party came first at the polls, but that was no longer enough."
+      ],
+      "claims": [
+        {
+          "text": "Beate Klarsfeld slapped Kiesinger in public in 1968 to protest against his Nazi past.",
+          "status": "confirmed",
+          "note": "It happened at the CDU party congress in Berlin on 7 November 1968, in front of cameras. She was sentenced to a year in prison the same day; the sentence was later suspended."
+        },
+        {
+          "text": "Kiesinger was a Nazi party member from 1933 until the end of the war.",
+          "status": "confirmed",
+          "note": "His membership and wartime job in the Foreign Ministry's radio department are documented; he said he joined for career reasons and was never a true believer."
+        }
+      ],
+      "hook": "Election night 1969. The CDU thinks it has won and starts celebrating. Overnight, Willy Brandt calls the small liberal FDP and builds a majority of his own.",
+      "images": [
+        {
+          "file": "File:Bundesarchiv B 145 Bild-F029561-0008, Essen, CDU-Bundestagswahlkongress (cropped).jpg",
+          "url": "https://upload.wikimedia.org/wikipedia/commons/a/a0/Bundesarchiv_B_145_Bild-F029561-0008%2C_Essen%2C_CDU-Bundestagswahlkongress_%28cropped%29.jpg",
+          "page": "https://commons.wikimedia.org/wiki/File:Bundesarchiv_B_145_Bild-F029561-0008,_Essen,_CDU-Bundestagswahlkongress_(cropped).jpg",
+          "credit": "Lothar Schaack",
+          "license": "CC BY-SA 3.0 de",
+          "made": "1969",
+          "caption": "Kiesinger speaking at a CDU election congress in Essen in July 1969.",
+          "alt": "Black-and-white photo of Kurt Georg Kiesinger speaking at a podium"
+        }
+      ],
+      "sources": [
+        {
+          "title": "Kurt Georg Kiesinger 1904–1988: Kanzler zwischen den Zeiten",
+          "author": "Philipp Gassert",
+          "note": "DVA, 2006"
+        },
+        {
+          "title": "A History of Germany 1918–2014: The Divided Nation",
+          "author": "Mary Fulbrook",
+          "note": "Wiley-Blackwell, 4th ed. 2014"
+        }
+      ],
+      "review": {
+        "status": "draft",
+        "notes": "Drafted from the listed sources; needs a human fact-check."
+      }
+    },
+    {
+      "id": "brandt",
+      "kind": "leader",
+      "rulers": [
+        "brandt"
+      ],
+      "tagline": "The chancellor who knelt in Warsaw",
+      "start": {
+        "date": "1969-10-21"
+      },
+      "end": {
+        "date": "1974-05-07"
+      },
+      "contestedWith": [
+        "east-germany"
+      ],
+      "relationToPredecessor": "Kiesinger's vice-chancellor",
+      "ageAtAccession": "55",
+      "cameToPower": "SPD–FDP coalition",
+      "reignEnded": "Resigned over a spy scandal",
+      "previously": "Kiesinger's CDU tops the 1969 poll but loses power anyway.",
+      "paragraphs": [
+        "Willy Brandt was born Herbert Frahm in Lübeck and fled the Nazis to Norway as a young socialist, taking a new name on the way. He was mayor of West Berlin when the Wall went up. As the first SPD chancellor since the 1920s, he promised to 'dare more democracy' and set out to talk to the East instead of ignoring it. This was his Ostpolitik.",
+        "He signed treaties with Moscow and Warsaw, and in 1972 a deal with East Germany that let the two states treat each other as neighbours. In Warsaw in December 1970 he dropped to his knees at the memorial to the Ghetto Uprising, an image that went round the world. He won the Nobel Peace Prize in 1971 and a big election win in 1972. Then his trusted aide Günter Guillaume was unmasked as an East German spy. Brandt resigned in May 1974."
+      ],
+      "claims": [
+        {
+          "text": "Brandt's kneeling in Warsaw was completely unplanned.",
+          "status": "disputed",
+          "note": "Brandt said it just happened in the moment. Nobody has proved otherwise, but some sceptics doubt a politician that skilled did it on pure impulse."
+        },
+        {
+          "text": "East Germany's secret police bribed a West German MP to keep Brandt in power in a 1972 no-confidence vote.",
+          "status": "disputed",
+          "note": "CDU MP Julius Steiner admitted taking money. Later research in the Stasi files points to East Berlin as the source, but the full story is still argued over."
+        },
+        {
+          "text": "Günter Guillaume was a Stasi officer working in Brandt's own office.",
+          "status": "confirmed",
+          "note": "He was arrested in April 1974, convicted of treason and later swapped back to East Germany."
+        }
+      ],
+      "hook": "Brandt is gone. The SPD turns to its sharp-tongued finance minister, a Hamburg man who hardly ever seems to put down his cigarette.",
+      "images": [
+        {
+          "file": "File:Bundesarchiv B 145 Bild-F057884-0009, Willy Brandt.jpg",
+          "url": "https://upload.wikimedia.org/wikipedia/commons/3/3d/Bundesarchiv_B_145_Bild-F057884-0009%2C_Willy_Brandt.jpg",
+          "page": "https://commons.wikimedia.org/wiki/File:Bundesarchiv_B_145_Bild-F057884-0009,_Willy_Brandt.jpg",
+          "credit": "Engelbert Reineke",
+          "license": "CC BY-SA 3.0 de",
+          "made": "1980",
+          "caption": "Brandt in 1980, six years after he left office.",
+          "alt": "Black-and-white portrait photo of Willy Brandt"
+        }
+      ],
+      "sources": [
+        {
+          "title": "Willy Brandt 1913–1992: Visionär und Realist",
+          "author": "Peter Merseburger",
+          "note": "DVA, 2002"
+        },
+        {
+          "title": "My Life in Politics",
+          "author": "Willy Brandt",
+          "note": "Memoirs, 1992"
+        },
+        {
+          "title": "The Nobel Peace Prize 1971",
+          "author": "Norwegian Nobel Committee",
+          "note": "nobelprize.org"
+        }
+      ],
+      "review": {
+        "status": "draft",
+        "notes": "Drafted from the listed sources; needs a human fact-check."
+      }
+    },
+    {
+      "id": "schmidt",
+      "kind": "leader",
+      "rulers": [
+        "schmidt"
+      ],
+      "tagline": "The chain-smoking crisis manager",
+      "start": {
+        "date": "1974-05-16"
+      },
+      "end": {
+        "date": "1982-10-01"
+      },
+      "contestedWith": [
+        "east-germany"
+      ],
+      "relationToPredecessor": "Brandt's finance minister",
+      "ageAtAccession": "55",
+      "cameToPower": "Elected after Brandt quit",
+      "reignEnded": "Ousted by a no-confidence vote",
+      "previously": "Brandt resigns after his own aide turns out to be an East German spy.",
+      "paragraphs": [
+        "Helmut Schmidt was blunt, clever and impatient, nicknamed 'Schmidt the Lip'. He made his name in 1962, taking charge when a storm flood swamped Hamburg. As chancellor he steered through the oil shocks and became a big figure on the world stage. He smoked menthol cigarettes everywhere, including on live TV and, much later, in places where nobody else was allowed to.",
+        "His hardest test came in the 'German Autumn' of 1977. The far-left Red Army Faction kidnapped the business leader Hanns Martin Schleyer, then Palestinian allies hijacked a Lufthansa jet. Schmidt refused to free their jailed comrades. In Mogadishu, West German special forces stormed the plane and freed the hostages. Schleyer was murdered. By 1982 his FDP partners had drifted right, and they switched sides to vote him out."
+      ],
+      "claims": [
+        {
+          "text": "Schmidt would have resigned if the Mogadishu rescue had failed.",
+          "status": "confirmed",
+          "note": "Schmidt said so himself in later interviews; there is only his word for it, but nobody close to him has contradicted it."
+        },
+        {
+          "text": "Schmidt stockpiled tens of thousands of menthol cigarettes when the EU planned to ban them.",
+          "status": "disputed",
+          "note": "Reported by the tabloid Bild in 2013 and repeated widely. It was never properly confirmed."
+        }
+      ],
+      "hook": "The FDP has switched sides. Waiting to take over is a big, underrated CDU man from the Palatinate. The pundits mock him. He will outlast them all.",
+      "images": [
+        {
+          "file": "File:Bundeskanzler Helmut Schmidt.jpg",
+          "url": "https://upload.wikimedia.org/wikipedia/commons/d/df/Bundeskanzler_Helmut_Schmidt.jpg",
+          "page": "https://commons.wikimedia.org/wiki/File:Bundeskanzler_Helmut_Schmidt.jpg",
+          "credit": "Hans Schafgans",
+          "license": "CC BY-SA 2.0",
+          "made": "1977",
+          "caption": "Schmidt in 1977, the year of the German Autumn.",
+          "alt": "Photo portrait of Helmut Schmidt in a suit"
+        }
+      ],
+      "sources": [
+        {
+          "title": "Helmut Schmidt",
+          "author": "Hartmut Soell",
+          "note": "Two volumes, DVA, 2003 and 2008"
+        },
+        {
+          "title": "The Global Chancellor: Helmut Schmidt and the Reshaping of the International Order",
+          "author": "Kristina Spohr",
+          "note": "Oxford University Press, 2016"
+        },
+        {
+          "title": "Der Baader-Meinhof-Komplex",
+          "author": "Stefan Aust",
+          "note": "1985; the German Autumn"
+        }
+      ],
+      "review": {
+        "status": "draft",
+        "notes": "Drafted from the listed sources; needs a human fact-check."
+      }
+    },
+    {
+      "id": "kohl",
+      "kind": "leader",
+      "rulers": [
+        "kohl"
+      ],
+      "tagline": "The giant who put Germany back together",
+      "start": {
+        "date": "1982-10-01"
+      },
+      "end": {
+        "date": "1998-10-27"
+      },
+      "contestedWith": [
+        "east-germany"
+      ],
+      "relationToPredecessor": "Opposition leader who ousted him",
+      "ageAtAccession": "52",
+      "cameToPower": "Constructive no-confidence vote",
+      "reignEnded": "Lost the 1998 election",
+      "previously": "The FDP walks out and Schmidt is voted out in the Bundestag.",
+      "paragraphs": [
+        "Helmut Kohl was huge, provincial and constantly underrated. A satirical magazine drew him as a pear, and the nickname stuck. He fed visiting leaders stuffed pig's stomach from his home region. In 1984 he stood hand in hand with France's President Mitterrand at Verdun, where their countries had slaughtered each other. For years he looked like a caretaker. Then, in November 1989, the Berlin Wall fell.",
+        "Kohl moved faster than anyone. He laid out a plan for unity within weeks, swapped East Germans' wages into Deutsche Marks one for one and talked Gorbachev into letting a united Germany stay in NATO. On 3 October 1990 East Germany joined the Federal Republic. Kohl went on to help create the euro. After 16 years voters tired of him, and later a scandal over secret party donations, whose givers he never named, tarnished his name."
+      ],
+      "claims": [
+        {
+          "text": "Kohl took up to two million marks in secret donations and refused to say who gave them.",
+          "status": "confirmed",
+          "note": "Kohl admitted it in 1999 and 2000, saying he had given the donors his word of honour. He never named them."
+        },
+        {
+          "text": "Kohl promised East Germans 'flourishing landscapes' within a few years.",
+          "status": "confirmed",
+          "note": "He used the phrase in 1990. The slow, painful reality in the East made it one of his most quoted lines."
+        }
+      ],
+      "hook": "After 16 years, Germany wants a change. The SPD's man is Gerhard Schröder, who once rattled the gates of the chancellery and shouted that he wanted in.",
+      "images": [
+        {
+          "file": "File:Helmut Kohl (1996) cropped (2).jpg",
+          "url": "https://upload.wikimedia.org/wikipedia/commons/5/5c/Helmut_Kohl_%281996%29_cropped_%282%29.jpg",
+          "page": "https://commons.wikimedia.org/wiki/File:Helmut_Kohl_(1996)_cropped_(2).jpg",
+          "credit": "Christian Lambiotte",
+          "license": "CC BY 4.0",
+          "made": "1996",
+          "caption": "Kohl in 1996, his 14th year as chancellor.",
+          "alt": "Cropped photo of Helmut Kohl in a suit and tie"
+        }
+      ],
+      "sources": [
+        {
+          "title": "Helmut Kohl: Eine politische Biographie",
+          "author": "Hans-Peter Schwarz",
+          "note": "DVA, 2012"
+        },
+        {
+          "title": "1989: The Struggle to Create Post-Cold War Europe",
+          "author": "Mary Elise Sarotte",
+          "note": "Princeton University Press, 2009"
+        },
+        {
+          "title": "A History of Germany 1918–2014: The Divided Nation",
+          "author": "Mary Fulbrook",
+          "note": "Wiley-Blackwell, 4th ed. 2014"
+        }
+      ],
+      "review": {
+        "status": "draft",
+        "notes": "Drafted from the listed sources; needs a human fact-check."
+      }
+    },
+    {
+      "id": "schroder",
+      "kind": "leader",
+      "rulers": [
+        "schroder"
+      ],
+      "tagline": "The man who rattled the gates and got in",
+      "start": {
+        "date": "1998-10-27"
+      },
+      "end": {
+        "date": "2005-11-22"
+      },
+      "contestedWith": [],
+      "relationToPredecessor": "SPD rival who beat Kohl",
+      "ageAtAccession": "54",
+      "cameToPower": "Won the 1998 election",
+      "reignEnded": "Lost a snap election",
+      "previously": "Kohl, chancellor of unity, loses the 1998 election after 16 years.",
+      "paragraphs": [
+        "Gerhard Schröder never knew his father, a soldier killed in the war months after Gerhard was born. He grew up poor, finished school at night classes, studied law and fought his way to the top of Lower Saxony. In 1998 he formed Germany's first coalition with the Greens. Within months German jets were flying combat missions over Kosovo, the first since 1945, and the government moved from Bonn to Berlin.",
+        "In 2002 he refused to join the US-led war in Iraq and narrowly won re-election. With unemployment high, he pushed through the Agenda 2010 reforms, cutting benefits and loosening job rules. His own party revolted. He called an early election in 2005 and lost by a whisker. Out of office, he went to work for Russian-backed energy firms, chairing the Nord Stream pipeline company and, from 2017, the board of Rosneft."
+      ],
+      "claims": [
+        {
+          "text": "Schröder once shook the gates of the chancellery in Bonn and shouted 'I want in here!'",
+          "status": "confirmed",
+          "note": "Schröder has told the story himself; it happened in the early 1980s, after an evening out, when he was a young MP."
+        },
+        {
+          "text": "Schröder agreed in 2004 that Vladimir Putin was a 'flawless democrat'.",
+          "status": "confirmed",
+          "note": "He said it in a TV interview in November 2004. The line has followed him ever since."
+        },
+        {
+          "text": "Schröder stepped down from Rosneft's board in 2022.",
+          "status": "confirmed",
+          "note": "He left in May 2022, after Russia's full invasion of Ukraine; the Bundestag also stripped his office of its staff that month."
+        }
+      ],
+      "hook": "Election night 2005. Schröder goes on TV and insists he's still chancellor. Sitting a few seats away is the woman who will prove him wrong.",
+      "images": [
+        {
+          "file": "File:Герхард Шредер (05-12-2019) (cropped).jpg",
+          "url": "https://upload.wikimedia.org/wikipedia/commons/4/4d/%D0%93%D0%B5%D1%80%D1%85%D0%B0%D1%80%D0%B4_%D0%A8%D1%80%D0%B5%D0%B4%D0%B5%D1%80_%2805-12-2019%29_%28cropped%29.jpg",
+          "page": "https://commons.wikimedia.org/wiki/File:%D0%93%D0%B5%D1%80%D1%85%D0%B0%D1%80%D0%B4_%D0%A8%D1%80%D0%B5%D0%B4%D0%B5%D1%80_(05-12-2019)_(cropped).jpg",
+          "credit": "Press Service of the President of Kazakhstan",
+          "license": "CC BY 4.0",
+          "made": "2019",
+          "caption": "Schröder in December 2019, fourteen years after he left office.",
+          "alt": "Photo of a smiling Gerhard Schröder in a dark suit and green tie"
+        }
+      ],
+      "sources": [
+        {
+          "title": "Gerhard Schröder: Die Biographie",
+          "author": "Gregor Schöllgen",
+          "note": "DVA, 2015"
+        },
+        {
+          "title": "Entscheidungen: Mein Leben in der Politik",
+          "author": "Gerhard Schröder",
+          "note": "Memoirs, 2006"
+        }
+      ],
+      "review": {
+        "status": "draft",
+        "notes": "Drafted from the listed sources; needs a human fact-check."
+      }
+    },
+    {
+      "id": "merkel",
+      "kind": "leader",
+      "rulers": [
+        "merkel"
+      ],
+      "tagline": "The physicist from the East who ran Europe",
+      "start": {
+        "date": "2005-11-22"
+      },
+      "end": {
+        "date": "2021-12-08"
+      },
+      "contestedWith": [],
+      "relationToPredecessor": "CDU leader who beat Schröder",
+      "ageAtAccession": "51",
+      "cameToPower": "Grand coalition after 2005 poll",
+      "reignEnded": "Retired after 16 years",
+      "previously": "Schröder gambles on an early election and loses by a whisker.",
+      "paragraphs": [
+        "Angela Merkel was born in Hamburg, but her pastor father moved the family to East Germany when she was a baby. She studied physics and earned a doctorate in quantum chemistry. When the Wall fell she went into politics, and Kohl made her a minister, calling her his 'girl'. In 1999 she broke with him in print over the donations scandal. In 2005 she became Germany's first woman chancellor.",
+        "She was calm, cautious and hard to beat. She steered Germany through the 2008 crash and the euro crisis, and after Fukushima in 2011 she decided to shut down Germany's nuclear plants. In 2015, as hundreds of thousands of refugees arrived, many fleeing Syria's war, she kept the borders open and said 'Wir schaffen das', 'We can do this'. She won four elections and chose to leave in 2021, ten days short of Kohl's record."
+      ],
+      "claims": [
+        {
+          "text": "On the night the Berlin Wall fell, Merkel went to the sauna first.",
+          "status": "confirmed",
+          "note": "Merkel has said so herself. It was her usual Thursday sauna; afterwards she crossed into West Berlin with the crowds."
+        },
+        {
+          "text": "Merkel said 'Wir schaffen das' at a press conference on 31 August 2015.",
+          "status": "confirmed",
+          "note": "It is on the record from her summer press conference in Berlin and became the motto, praised and attacked, of her refugee policy."
+        },
+        {
+          "text": "Time magazine made Merkel its Person of the Year for 2015.",
+          "status": "confirmed",
+          "note": "Time named her in December 2015, calling her 'Chancellor of the Free World'."
+        }
+      ],
+      "hook": "Merkel isn't running in 2021. Her party's candidate laughs on camera at a flood site and his campaign sinks. Her quiet finance minister, Olaf Scholz, sees his chance.",
+      "images": [
+        {
+          "file": "File:Angela Merkel 2019 cropped.jpg",
+          "url": "https://upload.wikimedia.org/wikipedia/commons/0/0f/Angela_Merkel_2019_cropped.jpg",
+          "page": "https://commons.wikimedia.org/wiki/File:Angela_Merkel_2019_cropped.jpg",
+          "credit": "Raimond Spekking",
+          "license": "CC BY-SA 4.0",
+          "made": "2019",
+          "caption": "Merkel on a visit to Cologne City Hall in June 2019.",
+          "alt": "Photo of Angela Merkel in a blue jacket"
+        }
+      ],
+      "sources": [
+        {
+          "title": "Freedom: Memoirs 1954–2021",
+          "author": "Angela Merkel with Beate Baumann",
+          "note": "2024; German original 'Freiheit'"
+        },
+        {
+          "title": "The Chancellor: The Remarkable Odyssey of Angela Merkel",
+          "author": "Kati Marton",
+          "note": "Simon & Schuster, 2021"
+        },
+        {
+          "title": "Angela Merkel: Europe's Most Influential Leader",
+          "author": "Matthew Qvortrup",
+          "note": "2016"
+        }
+      ],
+      "review": {
+        "status": "draft",
+        "notes": "Drafted from the listed sources; needs a human fact-check."
+      }
+    },
+    {
+      "id": "scholz",
+      "kind": "leader",
+      "rulers": [
+        "scholz"
+      ],
+      "tagline": "The quiet chancellor who declared a turning point",
+      "start": {
+        "date": "2021-12-08"
+      },
+      "end": {
+        "date": "2025-05-06"
+      },
+      "contestedWith": [],
+      "relationToPredecessor": "Merkel's finance minister",
+      "ageAtAccession": "63",
+      "cameToPower": "Won the 2021 election",
+      "reignEnded": "Coalition broke; lost election",
+      "previously": "Merkel leaves after 16 years, undefeated, by her own choice.",
+      "paragraphs": [
+        "Olaf Scholz was a Hamburg lawyer so famous for dull, repetitive answers that a journalist nicknamed him the 'Scholzomat'. He had been mayor of Hamburg and Merkel's finance minister. In 2021 he presented himself as the steady pair of hands, and the SPD came first. He formed a 'traffic light' coalition of the red SPD, the Greens and the yellow liberal FDP.",
+        "Less than three months in, Russia invaded Ukraine. Three days later Scholz told the Bundestag it was a 'Zeitenwende', a turning point, and promised a €100 billion fund to rebuild the army. Germany scrambled to replace Russian gas. But his three parties argued constantly over money. In November 2024 he fired his FDP finance minister, the coalition fell apart, and in February 2025 the SPD slumped to third place."
+      ],
+      "claims": [
+        {
+          "text": "Scholz gave his 'Zeitenwende' speech on 27 February 2022.",
+          "status": "confirmed",
+          "note": "It is in the Bundestag record; he spoke at a special session three days after Russia's full invasion of Ukraine."
+        },
+        {
+          "text": "Scholz deliberately lost a confidence vote in December 2024 to trigger an early election.",
+          "status": "confirmed",
+          "note": "The Bundestag voted on 16 December 2024; the president then dissolved parliament and called the election for 23 February 2025."
+        },
+        {
+          "text": "The SPD's 2025 result was its worst in a federal election in the history of the Federal Republic.",
+          "status": "confirmed",
+          "note": "Official results put it at about 16 percent, behind both the CDU/CSU and the AfD."
+        }
+      ],
+      "hook": "The election is won by a man Merkel shoved aside more than twenty years earlier. He quit politics, made money in business and came back for one more try.",
+      "images": [
+        {
+          "file": "File:Olaf Scholz September 2024.jpg",
+          "url": "https://upload.wikimedia.org/wikipedia/commons/2/27/Olaf_Scholz_September_2024.jpg",
+          "page": "https://commons.wikimedia.org/wiki/File:Olaf_Scholz_September_2024.jpg",
+          "credit": "Ricardo Stuckert / Lula Oficial",
+          "license": "CC BY-SA 2.0",
+          "made": "2024",
+          "caption": "Scholz in New York in September 2024, at a meeting with Brazil's President Lula.",
+          "alt": "Photo of Olaf Scholz in a suit at a meeting"
+        }
+      ],
+      "sources": [
+        {
+          "title": "Policy statement by Chancellor Olaf Scholz, 27 February 2022",
+          "author": "Federal Government of Germany",
+          "note": "bundesregierung.de, English translation"
+        },
+        {
+          "title": "Plenary records, 20th Bundestag",
+          "author": "Deutscher Bundestag",
+          "note": "Confidence vote of 16 December 2024"
+        },
+        {
+          "title": "Bundestag election 2025: final results",
+          "author": "Federal Returning Officer (Bundeswahlleiterin)",
+          "note": "bundeswahlleiterin.de"
+        }
+      ],
+      "review": {
+        "status": "draft",
+        "notes": "Drafted from the listed sources; needs a human fact-check."
+      }
+    },
+    {
+      "id": "merz",
+      "kind": "leader",
+      "rulers": [
+        "merz"
+      ],
+      "tagline": "The comeback kid who needed two tries",
+      "start": {
+        "date": "2025-05-06"
+      },
+      "contestedWith": [],
+      "relationToPredecessor": "Opposition leader who beat him",
+      "ageAtAccession": "69",
+      "cameToPower": "Elected on a second ballot",
+      "reignEnded": "Still in office",
+      "previously": "Scholz's coalition collapses and the SPD crashes at the polls.",
+      "paragraphs": [
+        "Friedrich Merz is a tall lawyer from the Sauerland who flies his own plane. He led the CDU in the Bundestag until Merkel pushed him aside in 2002, and in 2009 he left parliament for business, including a spell chairing the German arm of the investment giant BlackRock. He came back, lost two races for the party leadership, and finally won it at the third attempt, taking over in early 2022.",
+        "He led the CDU/CSU to first place in February 2025 and formed a coalition with the SPD. Before he even took office, the old Bundestag loosened Germany's strict debt rules to pay for defence and infrastructure. Then on 6 May 2025 came a shock: he fell short in the first vote for chancellor, the first nominee in post-war Germany to do so. Hours later a second ballot put him in office. His story is still being written."
+      ],
+      "claims": [
+        {
+          "text": "Merz was the first chancellor candidate in post-war Germany to fail the first Bundestag vote.",
+          "status": "confirmed",
+          "note": "On 6 May 2025 he got 310 votes, six short of a majority, then won 325 in a second ballot the same day."
+        },
+        {
+          "text": "Merz chaired the supervisory board of BlackRock's German arm.",
+          "status": "confirmed",
+          "note": "He held the post from 2016 to 2020, before returning to front-line politics."
+        }
+      ],
+      "images": [
+        {
+          "file": "File:2024-08-21 Friedrich Merz in Erfurt 2024 STP 3041 by Stepro (3x4 cropped).jpg",
+          "url": "https://upload.wikimedia.org/wikipedia/commons/0/0b/2024-08-21_Friedrich_Merz_in_Erfurt_2024_STP_3041_by_Stepro_%283x4_cropped%29.jpg",
+          "page": "https://commons.wikimedia.org/wiki/File:2024-08-21_Friedrich_Merz_in_Erfurt_2024_STP_3041_by_Stepro_(3x4_cropped).jpg",
+          "credit": "Steffen Prößdorf",
+          "license": "CC BY-SA 4.0",
+          "made": "2024",
+          "caption": "Merz campaigning in Erfurt in August 2024, before he became chancellor.",
+          "alt": "Photo of Friedrich Merz at a CDU campaign event in Erfurt"
+        }
+      ],
+      "sources": [
+        {
+          "title": "Plenary records, 21st Bundestag",
+          "author": "Deutscher Bundestag",
+          "note": "Election of the Federal Chancellor, 6 May 2025"
+        },
+        {
+          "title": "Bundestag election 2025: final results",
+          "author": "Federal Returning Officer (Bundeswahlleiterin)",
+          "note": "bundeswahlleiterin.de"
+        }
+      ],
+      "review": {
+        "status": "draft",
+        "notes": "Drafted from the listed sources; needs a human fact-check."
+      }
+    }
+  ]
+}
