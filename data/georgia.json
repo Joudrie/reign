@@ -1,0 +1,2583 @@
+{
+  "id": "georgia",
+  "name": "Georgia",
+  "blurb": "A thousand years of Bagrationi kings, from Tao to Queen Tamar to 1800",
+  "dateConvention": "Dates are Julian (Old Style) throughout, the calendar Georgia and Russia kept. From about 1490 Georgia was split into Kartli, Kakheti and Imereti; the deck follows the eastern kingdoms, with grouped cards for the stretches of Mongol, Timurid, Ottoman and Persian overlordship.",
+  "epilogue": "In 1801 Russia annexed Kartli-Kakheti, ending a thousand years of Bagrationi rule in the east; the royal family was taken to Russia and Imereti followed in 1810. Georgia was free again in 1918–21 and since 1991.",
+  "houses": [
+    {
+      "id": "bagrationi",
+      "name": "Bagrationi",
+      "color": "#8b1e2d"
+    },
+    {
+      "id": "overlords",
+      "name": "Foreign overlords",
+      "color": "#8d8780",
+      "plain": true
+    },
+    {
+      "id": "kartli",
+      "name": "Bagrationi of Kartli",
+      "color": "#2f5d8a"
+    },
+    {
+      "id": "kakheti",
+      "name": "Bagrationi of Kakheti",
+      "color": "#6b3a6b"
+    }
+  ],
+  "rulers": [
+    {
+      "id": "ashot-i",
+      "name": "Ashot I",
+      "epithet": "the Great",
+      "house": "bagrationi",
+      "died": {
+        "date": "0826-01-29"
+      },
+      "causeOfDeath": "Murdered"
+    },
+    {
+      "id": "adarnase-iv",
+      "name": "Adarnase IV",
+      "house": "bagrationi",
+      "died": {
+        "date": "0923"
+      }
+    },
+    {
+      "id": "bagrat-iii",
+      "name": "Bagrat III",
+      "epithet": "the Unifier",
+      "house": "bagrationi",
+      "born": {
+        "date": "0963",
+        "circa": true
+      },
+      "died": {
+        "date": "1014-05-07",
+        "note": "Tao"
+      },
+      "causeOfDeath": "Natural causes"
+    },
+    {
+      "id": "george-i",
+      "name": "George I",
+      "house": "bagrationi",
+      "born": {
+        "date": "1002",
+        "circa": true,
+        "note": "Sources give 998 or 1002"
+      },
+      "died": {
+        "date": "1027-08-16"
+      },
+      "causeOfDeath": "Natural causes"
+    },
+    {
+      "id": "bagrat-iv",
+      "name": "Bagrat IV",
+      "house": "bagrationi",
+      "born": {
+        "date": "1018"
+      },
+      "died": {
+        "date": "1072-11-24"
+      },
+      "causeOfDeath": "Natural causes"
+    },
+    {
+      "id": "george-ii",
+      "name": "George II",
+      "house": "bagrationi",
+      "died": {
+        "date": "1112"
+      },
+      "causeOfDeath": "Natural causes"
+    },
+    {
+      "id": "david-iv",
+      "name": "David IV",
+      "epithet": "the Builder",
+      "house": "bagrationi",
+      "born": {
+        "date": "1073",
+        "circa": true
+      },
+      "died": {
+        "date": "1125-01-24",
+        "note": "Buried at Gelati"
+      },
+      "causeOfDeath": "Natural causes"
+    },
+    {
+      "id": "demetrius-i",
+      "name": "Demetrius I",
+      "house": "bagrationi",
+      "born": {
+        "date": "1093",
+        "circa": true
+      },
+      "died": {
+        "date": "1156"
+      },
+      "causeOfDeath": "Natural causes"
+    },
+    {
+      "id": "george-iii",
+      "name": "George III",
+      "house": "bagrationi",
+      "died": {
+        "date": "1184-03-27"
+      },
+      "causeOfDeath": "Natural causes"
+    },
+    {
+      "id": "tamar",
+      "name": "Tamar",
+      "epithet": "the Great",
+      "house": "bagrationi",
+      "born": {
+        "date": "1160",
+        "circa": true,
+        "note": "Some sources say about 1166"
+      },
+      "died": {
+        "date": "1213-01-18"
+      },
+      "causeOfDeath": "Illness"
+    },
+    {
+      "id": "george-iv",
+      "name": "George IV",
+      "epithet": "Lasha",
+      "house": "bagrationi",
+      "born": {
+        "date": "1192"
+      },
+      "died": {
+        "date": "1223-01-18"
+      },
+      "causeOfDeath": "Probably wounds from the Mongol fighting"
+    },
+    {
+      "id": "rusudan",
+      "name": "Rusudan",
+      "house": "bagrationi",
+      "born": {
+        "date": "1194"
+      },
+      "died": {
+        "date": "1245"
+      },
+      "causeOfDeath": "Not recorded"
+    },
+    {
+      "id": "demetrius-ii",
+      "name": "Demetrius II",
+      "epithet": "the Devoted",
+      "house": "bagrationi",
+      "born": {
+        "date": "1259"
+      },
+      "died": {
+        "date": "1289-03-12",
+        "note": "Beheaded at the Mongol camp"
+      },
+      "causeOfDeath": "Beheaded on the Ilkhan's orders"
+    },
+    {
+      "id": "george-v",
+      "name": "George V",
+      "epithet": "the Brilliant",
+      "house": "bagrationi",
+      "born": {
+        "date": "1286",
+        "circa": true
+      },
+      "died": {
+        "date": "1346"
+      },
+      "causeOfDeath": "Not recorded"
+    },
+    {
+      "id": "alexander-i",
+      "name": "Alexander I",
+      "epithet": "the Great",
+      "house": "bagrationi",
+      "born": {
+        "date": "1390"
+      },
+      "died": {
+        "date": "1446",
+        "circa": true,
+        "note": "Some time between August 1445 and March 1446"
+      },
+      "causeOfDeath": "Died a monk, after abdicating"
+    },
+    {
+      "id": "luarsab-i",
+      "name": "Luarsab I",
+      "house": "kartli",
+      "died": {
+        "date": "1556",
+        "note": "Battle of Garisi; some sources date it 1558"
+      },
+      "causeOfDeath": "Mortally wounded at the Battle of Garisi"
+    },
+    {
+      "id": "simon-i",
+      "name": "Simon I",
+      "epithet": "the Great",
+      "house": "kartli",
+      "born": {
+        "date": "1537"
+      },
+      "died": {
+        "date": "1611",
+        "note": "Yedikule fortress, Istanbul"
+      },
+      "causeOfDeath": "Died a prisoner of the Ottomans"
+    },
+    {
+      "id": "teimuraz-i",
+      "name": "Teimuraz I",
+      "house": "kakheti",
+      "born": {
+        "date": "1589"
+      },
+      "died": {
+        "date": "1663",
+        "note": "Astarabad, Iran"
+      },
+      "causeOfDeath": "Died a prisoner of the Shah"
+    },
+    {
+      "id": "vakhtang-vi",
+      "name": "Vakhtang VI",
+      "house": "kartli",
+      "born": {
+        "date": "1675-09-15"
+      },
+      "died": {
+        "date": "1737-03-26",
+        "note": "Southern Russia, in exile"
+      },
+      "causeOfDeath": "Died in exile"
+    },
+    {
+      "id": "erekle-ii",
+      "name": "Erekle II",
+      "epithet": "the Little Kakhetian",
+      "house": "kakheti",
+      "born": {
+        "date": "1720-11-07",
+        "note": "Telavi"
+      },
+      "died": {
+        "date": "1798-01-11",
+        "note": "Telavi"
+      },
+      "causeOfDeath": "Died of old age"
+    },
+    {
+      "id": "george-xii",
+      "name": "George XII",
+      "house": "kakheti",
+      "born": {
+        "date": "1746-11-10"
+      },
+      "died": {
+        "date": "1800-12-28",
+        "note": "Tbilisi"
+      },
+      "causeOfDeath": "Died of illness"
+    }
+  ],
+  "reigns": [
+    {
+      "id": "ashot-i",
+      "kind": "monarch",
+      "rulers": [
+        "ashot-i"
+      ],
+      "tagline": "The borderland prince who started a thousand-year dynasty",
+      "start": {
+        "date": "0813",
+        "circa": true
+      },
+      "end": {
+        "date": "0826-01-29"
+      },
+      "contestedWith": [],
+      "relationToPredecessor": "First Bagrationi prince of Iberia",
+      "ageAtAccession": "Unknown",
+      "cameToPower": "Became presiding prince, c. 813",
+      "reignEnded": "Murdered in January 826",
+      "previously": "Colchis, Iberia, a saint named Nino, then Persians and Arab emirs.",
+      "paragraphs": [
+        "Long before the Bagrationi, Georgia was two lands. In the west lay Colchis, where Greek myth put the Golden Fleece. In the east lay Iberia, which Georgians call Kartli. In the 4th century its king, Mirian III, became a Christian through the preaching of Nino, a woman from Cappadocia. The Persians abolished the Iberian crown around 580, and from the 7th century Arab emirs sat in Tbilisi.",
+        "Ashot belonged to the Bagrationi, a family whose lands lay in Tao-Klarjeti, the rugged south-west where Byzantium and the caliphate met. Around 813 he became presiding prince of Iberia, the first of his family to hold the job. Constantinople gave him the grand court title kuropalates. He built up the fortress of Artanuji and backed the monk Grigol of Khandzta, who filled the valleys of Klarjeti with monasteries.",
+        "On 29 January 826 Ashot was murdered. Who killed him, and why, is far from clear. The Georgian Church later made him a saint. His sons divided his lands, and the Bagrationi kept growing, branch by branch."
+      ],
+      "claims": [
+        {
+          "text": "The Bagrationi were descended from King David of Israel.",
+          "status": "legend",
+          "note": "A family tradition first written down in the 11th century by the chronicler Sumbat Davitis-dze. It gave the kings a biblical pedigree; historians treat it as legend."
+        },
+        {
+          "text": "Nino converted Iberia carrying a cross of vine branches bound with her own hair.",
+          "status": "legend",
+          "note": "The conversion of King Mirian is real history. The details of Nino's life come from Church texts written down centuries later."
+        },
+        {
+          "text": "Ashot built Artanuji as his stronghold.",
+          "status": "disputed",
+          "note": "The Georgian chronicles credit him with it, but how much he founded and how much he simply rebuilt is unclear."
+        }
+      ],
+      "hook": "Ashot's sons carve up his lands. For sixty years nobody calls himself king of the Georgians. Then one of his great-grandsons decides the time has come.",
+      "images": [
+        {
+          "file": "File:Opiza bas-relief (Taqaishvili, 1905).JPG",
+          "url": "https://upload.wikimedia.org/wikipedia/commons/0/02/Opiza_bas-relief_%28Taqaishvili%2C_1905%29.JPG",
+          "page": "https://commons.wikimedia.org/wiki/File:Opiza_bas-relief_(Taqaishvili,_1905).JPG",
+          "credit": "Unknown photographer, published by Ekvtime Takaishvili",
+          "license": "Public domain",
+          "made": "Relief medieval; photo 1905",
+          "caption": "A carved relief from Opiza monastery in Klarjeti, showing two Bagrationi princes identified as Ashot and David, in a photo published in 1905.",
+          "alt": "Old black-and-white photograph of a carved stone relief showing two medieval Bagrationi royals"
+        }
+      ],
+      "sources": [
+        {
+          "title": "Edge of Empires: A History of Georgia",
+          "author": "Donald Rayfield",
+          "note": "Reaktion Books, 2012"
+        },
+        {
+          "title": "Studies in Christian Caucasian History",
+          "author": "Cyril Toumanoff",
+          "note": "Georgetown University Press, 1963"
+        },
+        {
+          "title": "The Georgian Chronicles (Kartlis Tskhovreba)",
+          "author": "Various medieval Georgian chroniclers",
+          "note": "English translation, Tbilisi: Artanuji, 2014"
+        },
+        {
+          "title": "The Life of Grigol of Khandzta",
+          "author": "Giorgi Merchule",
+          "note": "Georgian saint's life, written in 951"
+        }
+      ],
+      "review": {
+        "status": "draft",
+        "notes": "Drafted from the listed sources; needs a human fact-check."
+      }
+    },
+    {
+      "id": "adarnase-iv",
+      "kind": "monarch",
+      "rulers": [
+        "adarnase-iv"
+      ],
+      "tagline": "The crown comes back after three hundred years",
+      "start": {
+        "date": "0888"
+      },
+      "end": {
+        "date": "0923"
+      },
+      "contestedWith": [],
+      "relationToPredecessor": "Great-grandson of Ashot I",
+      "ageAtAccession": "Unknown",
+      "cameToPower": "Beat his rival Nasra in battle",
+      "reignEnded": "Died in 923",
+      "previously": "Ashot I is murdered. His sons split Tao-Klarjeti between them.",
+      "paragraphs": [
+        "After Ashot, the Bagrationi lands were shared out among his sons and grandsons, each branch with its own corner of Tao-Klarjeti. They quarrelled, but they also prospered. By 881 Adarnase, Ashot's great-grandson, was duke of Lower Tao.",
+        "His great rival was a kinsman, Nasra, who came at him with Byzantine backing. In 888 Adarnase beat him and took a title no one had held for about three hundred years: King of the Iberians. Byzantium made him kuropalates in 891. He was one power among several. Kings of Abkhazia ruled the west, an Arab emir still held Tbilisi, and the Bagratid kings of Armenia watched from the south.",
+        "His kingdom was more a title than a state, but the title mattered. When Adarnase died in 923, the Bagrationi had a crown again, and they never let go of it."
+      ],
+      "claims": [
+        {
+          "text": "Adarnase was the first king in Kartli for about three centuries.",
+          "status": "confirmed",
+          "note": "The old Iberian monarchy ended around 580. Toumanoff and later historians date the revival of the royal title to 888."
+        },
+        {
+          "text": "Nasra had the empire behind him.",
+          "status": "disputed",
+          "note": "The sources for these years are thin. How much real help Byzantium gave Nasra is unclear."
+        }
+      ],
+      "hook": "After Adarnase, the royal title passes around a quarrelsome family. The man who finally pulls the Georgian lands together is a prince of Tao named David.",
+      "images": [
+        {
+          "file": "File:Vaxushti Bagrationi Genealogy of Georgian Kingdom 2.jpg",
+          "url": "https://upload.wikimedia.org/wikipedia/commons/4/4f/Vaxushti_Bagrationi_Genealogy_of_Georgian_Kingdom_2.jpg",
+          "page": "https://commons.wikimedia.org/wiki/File:Vaxushti_Bagrationi_Genealogy_of_Georgian_Kingdom_2.jpg",
+          "credit": "Vakhushti Bagrationi",
+          "license": "Public domain",
+          "made": "1740s",
+          "caption": "No portrait of Adarnase survives. This family tree of the Georgian royal house was drawn by the scholar-prince Vakhushti Bagrationi in the 1740s, over 800 years later.",
+          "alt": "Manuscript page showing Vakhushti Bagrationi's genealogy of the Georgian royal family"
+        }
+      ],
+      "sources": [
+        {
+          "title": "Studies in Christian Caucasian History",
+          "author": "Cyril Toumanoff",
+          "note": "Georgetown University Press, 1963"
+        },
+        {
+          "title": "Edge of Empires: A History of Georgia",
+          "author": "Donald Rayfield",
+          "note": "Reaktion Books, 2012"
+        },
+        {
+          "title": "The Georgian Chronicles (Kartlis Tskhovreba)",
+          "author": "Various medieval Georgian chroniclers",
+          "note": "English translation, Tbilisi: Artanuji, 2014"
+        },
+        {
+          "title": "The Making of the Georgian Nation",
+          "author": "Ronald Grigor Suny",
+          "note": "2nd edition, Indiana University Press, 1994"
+        }
+      ],
+      "review": {
+        "status": "draft",
+        "notes": "Drafted from the listed sources; needs a human fact-check."
+      }
+    },
+    {
+      "id": "making-of-a-kingdom",
+      "kind": "interregnum",
+      "title": "The Making of a Kingdom",
+      "house": "bagrationi",
+      "rulers": [],
+      "tagline": "A childless prince adopts the boy who will unite Georgia",
+      "start": {
+        "date": "0966",
+        "circa": true
+      },
+      "end": {
+        "date": "1008"
+      },
+      "contestedWith": [],
+      "relationToPredecessor": "Later Bagrationi of Tao",
+      "ageAtAccession": "No single monarch",
+      "cameToPower": "David of Tao rises to the top",
+      "reignEnded": "Gurgen dies; Bagrat inherits",
+      "previously": "Adarnase IV dies. The crown survives, but power is scattered.",
+      "paragraphs": [
+        "By the 960s the strongest man in Georgian lands was a Bagrationi, David III of Tao, the Great Kuropalates, who ruled from about 966 to 1000 or 1001. He was rich, pious and well armed. In 979 he sent troops to help the Byzantine emperor Basil II beat the rebel general Bardas Skleros, and Basil rewarded him with land.",
+        "Then he backed the wrong horse. In 987 David supported another rebel, Bardas Phokas, and when the revolt failed he had to name Basil his heir. Childless, David had already adopted a young kinsman, Bagrat, son of Gurgen. Bagrat's mother Gurandukht was the sister of the last king of Abkhazia, so the boy was heir in the west too. He governed Kartli from 975 and became King of Abkhazia in 978.",
+        "David died in 1000 or 1001, and Basil marched in and took Tao for the empire. Gurgen ruled on in Kartli until his death in 1008. Then everything came to Bagrat at once."
+      ],
+      "claims": [
+        {
+          "text": "David was poisoned by a priest at Communion.",
+          "status": "disputed",
+          "note": "The Georgian chronicle tells it this way, saying nobles arranged it. Byzantine writers only record his death. There is no way to check."
+        },
+        {
+          "text": "The great church at Oshki was built for David between about 963 and 973.",
+          "status": "disputed",
+          "note": "Inscriptions on the church give the building period, but scholars read the exact years differently. David appears in its carved donor relief."
+        },
+        {
+          "text": "David's troops helped Basil II crush Bardas Skleros in 979.",
+          "status": "confirmed",
+          "note": "Both Byzantine and Georgian sources record the Georgian army's part in the decisive battle."
+        }
+      ],
+      "hook": "Bagrat now rules the west and holds Kartli in the east. The only thing standing between him and one Georgian kingdom is the rest of his family.",
+      "images": [
+        {
+          "file": "File:Oshki - David of Tao, 966-973.jpg",
+          "url": "https://upload.wikimedia.org/wikipedia/commons/f/f6/Oshki_-_David_of_Tao%2C_966-973.jpg",
+          "page": "https://commons.wikimedia.org/wiki/File:Oshki_-_David_of_Tao,_966-973.jpg",
+          "credit": "Unknown sculptor",
+          "license": "Public domain",
+          "made": "c. 966–973",
+          "caption": "David III of Tao in the carved donor relief on the church at Oshki, now in north-eastern Turkey, made in his own lifetime.",
+          "alt": "Stone bas-relief from the Oshki monastery depicting David of Tao"
+        }
+      ],
+      "sources": [
+        {
+          "title": "Edge of Empires: A History of Georgia",
+          "author": "Donald Rayfield",
+          "note": "Reaktion Books, 2012"
+        },
+        {
+          "title": "Studies in Christian Caucasian History",
+          "author": "Cyril Toumanoff",
+          "note": "Georgetown University Press, 1963"
+        },
+        {
+          "title": "The Georgian Chronicles (Kartlis Tskhovreba)",
+          "author": "Various medieval Georgian chroniclers",
+          "note": "English translation, Tbilisi: Artanuji, 2014"
+        },
+        {
+          "title": "Synopsis of Histories",
+          "author": "John Skylitzes",
+          "note": "Byzantine chronicle covering Basil II's wars in the Caucasus"
+        }
+      ],
+      "review": {
+        "status": "draft",
+        "notes": "Drafted from the listed sources; needs a human fact-check."
+      }
+    },
+    {
+      "id": "bagrat-iii",
+      "kind": "monarch",
+      "rulers": [
+        "bagrat-iii"
+      ],
+      "tagline": "East meets west, and Georgia becomes one kingdom",
+      "start": {
+        "date": "1008"
+      },
+      "end": {
+        "date": "1014-05-07"
+      },
+      "contestedWith": [],
+      "relationToPredecessor": "Son of Gurgen; heir of David of Tao",
+      "ageAtAccession": "About 45",
+      "cameToPower": "Inherited Kartli from his father",
+      "reignEnded": "Died in Tao",
+      "previously": "David of Tao is dead. Gurgen dies in 1008, and Bagrat gets it all.",
+      "paragraphs": [
+        "Bagrat had been King of Abkhazia, ruling the west, since 978. When his father Gurgen died in 1008, he inherited Kartli too. For the first time, east and west answered to one crown, and his title said so: King of the Abkhazians and Georgians. Georgians call him Bagrat the Unifier, and they date their kingdom from him.",
+        "He kept going. Around 1010 he took Kakheti and Hereti in the east. At Kutaisi, his western capital, he raised the great Bagrati Cathedral. He was ruthless with his own family. The Bagrationi princes of Klarjeti were invited to a meeting with him and found themselves in prison, and their line died out there.",
+        "Bagrat died in Tao on 7 May 1014. He left a young son, George, and a kingdom that had only just been stitched together."
+      ],
+      "claims": [
+        {
+          "text": "Bagrat lured his Klarjeti cousins to a meeting and let their families die in prison.",
+          "status": "disputed",
+          "note": "Only the Georgian chronicle tells it, and it presents the deed as harsh but needed for unity."
+        },
+        {
+          "text": "An inscription dates the floor of the Bagrati Cathedral to 1003.",
+          "status": "confirmed",
+          "note": "The date is set into the building itself, five years before Bagrat ruled all Georgia."
+        },
+        {
+          "text": "Bagrat was the first king of a united Georgia.",
+          "status": "confirmed",
+          "note": "Kartli and Abkhazia were joined under him in 1008. Tao and some other Georgian lands still lay outside."
+        }
+      ],
+      "hook": "George inherits a big new kingdom and an old grudge. Tao, the family homeland, is in Byzantine hands, and he wants it back.",
+      "images": [
+        {
+          "file": "File:King Bagrat III, Bedia fresco.jpg",
+          "url": "https://upload.wikimedia.org/wikipedia/commons/d/dd/King_Bagrat_III%2C_Bedia_fresco.jpg",
+          "page": "https://commons.wikimedia.org/wiki/File:King_Bagrat_III,_Bedia_fresco.jpg",
+          "credit": "Unknown artist",
+          "license": "Public domain",
+          "made": "12th century",
+          "caption": "Bagrat III in a wall painting at Bedia Cathedral, a church he founded; Commons dates the painting to the 12th century, over a hundred years after his death.",
+          "alt": "Medieval wall painting of King Bagrat III at Bedia Cathedral"
+        }
+      ],
+      "sources": [
+        {
+          "title": "Edge of Empires: A History of Georgia",
+          "author": "Donald Rayfield",
+          "note": "Reaktion Books, 2012"
+        },
+        {
+          "title": "The Georgian Chronicles (Kartlis Tskhovreba)",
+          "author": "Various medieval Georgian chroniclers",
+          "note": "English translation, Tbilisi: Artanuji, 2014"
+        },
+        {
+          "title": "The Making of the Georgian Nation",
+          "author": "Ronald Grigor Suny",
+          "note": "2nd edition, Indiana University Press, 1994"
+        },
+        {
+          "title": "Studies in Christian Caucasian History",
+          "author": "Cyril Toumanoff",
+          "note": "Georgetown University Press, 1963"
+        }
+      ],
+      "review": {
+        "status": "draft",
+        "notes": "Drafted from the listed sources; needs a human fact-check."
+      }
+    },
+    {
+      "id": "george-i",
+      "kind": "monarch",
+      "rulers": [
+        "george-i"
+      ],
+      "tagline": "He picked a fight with Basil II and paid with his son",
+      "start": {
+        "date": "1014-05-07"
+      },
+      "end": {
+        "date": "1027-08-16"
+      },
+      "contestedWith": [],
+      "relationToPredecessor": "Son of Bagrat III",
+      "ageAtAccession": "12 or 16",
+      "cameToPower": "Succeeded his father",
+      "reignEnded": "Died in August 1027",
+      "previously": "Bagrat the Unifier dies, leaving one Georgia to his young son.",
+      "paragraphs": [
+        "George, Giorgi in Georgian, was still a boy when he became king, and he wanted Tao, the old Bagrationi homeland that Byzantium took after David of Tao died. While Basil II was busy grinding down Bulgaria, George's men moved into the disputed lands.",
+        "Basil finished with Bulgaria and came east. In 1021 he beat George in a bloody battle near Shirimni, and in 1022 he returned to finish the job. The peace cost George border lands and his three-year-old son Bagrat, who went to Constantinople as a hostage.",
+        "He got the boy back, but not the lands. George died on 16 August 1027, still a young man, and the crown passed to Bagrat, aged nine."
+      ],
+      "claims": [
+        {
+          "text": "Little Bagrat was held in Constantinople for three years.",
+          "status": "disputed",
+          "note": "The Georgian chronicle gives three years. Other sources are vaguer about how long he stayed."
+        },
+        {
+          "text": "Basil II beat George near Shirimni in 1021.",
+          "status": "confirmed",
+          "note": "Recorded by Byzantine historians, including Skylitzes, and by the Georgian chronicle."
+        }
+      ],
+      "hook": "Georgia's new king is nine and has already been a hostage. The great nobles smell weakness, and one of them, Liparit, smells his chance.",
+      "images": [
+        {
+          "file": "File:Skylitzes.George I of Georgia (Basil II vs Georgians-2).jpg",
+          "url": "https://upload.wikimedia.org/wikipedia/commons/2/2a/Skylitzes.George_I_of_Georgia_%28Basil_II_vs_Georgians-2%29.jpg",
+          "page": "https://commons.wikimedia.org/wiki/File:Skylitzes.George_I_of_Georgia_(Basil_II_vs_Georgians-2).jpg",
+          "credit": "Unknown illuminator (Madrid Skylitzes)",
+          "license": "Public domain",
+          "made": "12th century",
+          "caption": "Detail of a miniature from the Madrid Skylitzes, a 12th-century illustrated Byzantine chronicle, showing George I's defeat by Basil II.",
+          "alt": "Byzantine manuscript miniature showing the Georgian king George I in the scene of his defeat by Basil II"
+        }
+      ],
+      "sources": [
+        {
+          "title": "Edge of Empires: A History of Georgia",
+          "author": "Donald Rayfield",
+          "note": "Reaktion Books, 2012"
+        },
+        {
+          "title": "The Georgian Chronicles (Kartlis Tskhovreba)",
+          "author": "Various medieval Georgian chroniclers",
+          "note": "English translation, Tbilisi: Artanuji, 2014"
+        },
+        {
+          "title": "Synopsis of Histories",
+          "author": "John Skylitzes",
+          "note": "Byzantine chronicle covering Basil II's wars in the Caucasus"
+        },
+        {
+          "title": "The Making of the Georgian Nation",
+          "author": "Ronald Grigor Suny",
+          "note": "2nd edition, Indiana University Press, 1994"
+        }
+      ],
+      "review": {
+        "status": "draft",
+        "notes": "Drafted from the listed sources; needs a human fact-check."
+      }
+    },
+    {
+      "id": "bagrat-iv",
+      "kind": "monarch",
+      "rulers": [
+        "bagrat-iv"
+      ],
+      "tagline": "Forty-five years of rebel nobles, emperors and Turks",
+      "start": {
+        "date": "1027-08-16"
+      },
+      "end": {
+        "date": "1072-11-24"
+      },
+      "contestedWith": [],
+      "relationToPredecessor": "Son of George I",
+      "ageAtAccession": "9",
+      "cameToPower": "Succeeded his father as a boy",
+      "reignEnded": "Died in November 1072",
+      "previously": "George I dies young, with his son just home from Constantinople.",
+      "paragraphs": [
+        "Bagrat became king at nine, with his mother Mariam, a princess of Vaspurakan in Armenia, as regent. His reign became a long tug of war with Liparit Orbeli, the mightiest noble in the land. Liparit had Byzantine backing, and at one point he drove Bagrat out of his own kingdom. In the 1050s Bagrat spent about three years at the Byzantine court, working to win the emperor round.",
+        "Then a new danger rode in from the east. The Seljuk Turks were sweeping across Iran, and in 1068 their sultan Alp Arslan ravaged Georgia. That same year Bagrat took Tbilisi from its emir, but he couldn't keep it.",
+        "His daughter Maria, known as Maria of Alania, married two Byzantine emperors in turn, Michael VII and Nikephoros III. Bagrat died on 24 November 1072, leaving his son George a kingdom in the path of the Turks."
+      ],
+      "claims": [
+        {
+          "text": "Bagrat spent about three years at the Byzantine court in the 1050s.",
+          "status": "disputed",
+          "note": "The Georgian chronicle tells of the stay; historians disagree on the exact years."
+        },
+        {
+          "text": "Maria of Alania was the great beauty of the Byzantine court.",
+          "status": "confirmed",
+          "note": "Anna Komnene, who knew her, praised her beauty at length in the Alexiad."
+        }
+      ],
+      "hook": "Bagrat's son inherits a kingdom with the Turks already through the door. What comes next, Georgians will remember as the Great Turkish Troubles.",
+      "images": [
+        {
+          "file": "File:Bagrat IV (Ateni fresco, 11th cent).jpg",
+          "url": "https://upload.wikimedia.org/wikipedia/commons/c/c6/Bagrat_IV_%28Ateni_fresco%2C_11th_cent%29.jpg",
+          "page": "https://commons.wikimedia.org/wiki/File:Bagrat_IV_(Ateni_fresco,_11th_cent).jpg",
+          "credit": "Unknown artist",
+          "license": "Public domain",
+          "made": "11th century",
+          "caption": "Bagrat IV, the figure on the right, in a wall painting at the Ateni Sioni church, painted in his own century.",
+          "alt": "Medieval fresco portrait in which King Bagrat IV is the figure on the right"
+        }
+      ],
+      "sources": [
+        {
+          "title": "Edge of Empires: A History of Georgia",
+          "author": "Donald Rayfield",
+          "note": "Reaktion Books, 2012"
+        },
+        {
+          "title": "The Georgian Chronicles (Kartlis Tskhovreba)",
+          "author": "Various medieval Georgian chroniclers",
+          "note": "English translation, Tbilisi: Artanuji, 2014"
+        },
+        {
+          "title": "The Making of the Georgian Nation",
+          "author": "Ronald Grigor Suny",
+          "note": "2nd edition, Indiana University Press, 1994"
+        },
+        {
+          "title": "The Alexiad",
+          "author": "Anna Komnene",
+          "note": "On Maria of Alania"
+        }
+      ],
+      "review": {
+        "status": "draft",
+        "notes": "Drafted from the listed sources; needs a human fact-check."
+      }
+    },
+    {
+      "id": "george-ii",
+      "kind": "monarch",
+      "rulers": [
+        "george-ii"
+      ],
+      "tagline": "The king pushed aside for his own teenage son",
+      "start": {
+        "date": "1072-11-24"
+      },
+      "end": {
+        "date": "1089"
+      },
+      "contestedWith": [],
+      "relationToPredecessor": "Son of Bagrat IV",
+      "ageAtAccession": "Unknown",
+      "cameToPower": "Succeeded his father",
+      "reignEnded": "Forced to crown his son",
+      "previously": "Bagrat IV dies with the Seljuk Turks pressing in.",
+      "paragraphs": [
+        "George II had the bad luck to rule just as the Seljuks hit their peak. In 1071 they smashed the Byzantine army at Manzikert, and the empire's shield over the Caucasus was gone. From about 1080 Turkish nomads poured into Georgia, burning villages and grazing their herds on Georgian fields. Georgians call it the Didi Turkoba, the Great Turkish Troubles.",
+        "George couldn't stop them. He paid tribute, and he went to the sultan Malik Shah to submit in person, coming home with his throne and a bill. The nobles lost patience.",
+        "In 1089 they made him crown his 16-year-old son David as king. George kept the name of co-king, but the power had passed to the boy. He lived on until 1112."
+      ],
+      "claims": [
+        {
+          "text": "George travelled to Isfahan to kneel before Malik Shah.",
+          "status": "disputed",
+          "note": "The Georgian chronicle tells of the journey, but the date, place and terms are uncertain."
+        },
+        {
+          "text": "Turkish nomads overran Georgia from about 1080.",
+          "status": "confirmed",
+          "note": "The Georgian chronicle describes the raids in grim detail, and Armenian writers record the same wave."
+        }
+      ],
+      "hook": "The new king is sixteen. His kingdom pays tribute, his nobles are restless and the Turks are everywhere. Georgians will one day call him the Builder.",
+      "images": [
+        {
+          "file": "File:Coin of Giorgi II king of GEORGIA.jpg",
+          "url": "https://upload.wikimedia.org/wikipedia/commons/7/79/Coin_of_Giorgi_II_king_of_GEORGIA.jpg",
+          "page": "https://commons.wikimedia.org/wiki/File:Coin_of_Giorgi_II_king_of_GEORGIA.jpg",
+          "credit": "Classical Numismatic Group (CNG)",
+          "license": "CC BY-SA 3.0",
+          "made": "1081–1089",
+          "caption": "A silver coin of George II, struck between 1081 and 1089. The Georgian legend asks God to preserve Giorgi, King of the Abkhazians and Kartli, and Caesar.",
+          "alt": "Both sides of a silver coin: a bust of the Virgin Mary with raised hands, and a Georgian inscription"
+        }
+      ],
+      "sources": [
+        {
+          "title": "Edge of Empires: A History of Georgia",
+          "author": "Donald Rayfield",
+          "note": "Reaktion Books, 2012"
+        },
+        {
+          "title": "The Georgian Chronicles (Kartlis Tskhovreba)",
+          "author": "Various medieval Georgian chroniclers",
+          "note": "English translation, Tbilisi: Artanuji, 2014"
+        },
+        {
+          "title": "The Making of the Georgian Nation",
+          "author": "Ronald Grigor Suny",
+          "note": "2nd edition, Indiana University Press, 1994"
+        },
+        {
+          "title": "A History of the Georgian People",
+          "author": "W. E. D. Allen",
+          "note": "1932"
+        }
+      ],
+      "review": {
+        "status": "draft",
+        "notes": "Drafted from the listed sources; needs a human fact-check."
+      }
+    },
+    {
+      "id": "david-iv",
+      "kind": "monarch",
+      "rulers": [
+        "david-iv"
+      ],
+      "tagline": "The teenage king who built Georgia's golden age",
+      "start": {
+        "date": "1089"
+      },
+      "end": {
+        "date": "1125-01-24"
+      },
+      "contestedWith": [],
+      "relationToPredecessor": "Son of George II",
+      "ageAtAccession": "16",
+      "cameToPower": "Crowned when nobles sidelined his father",
+      "reignEnded": "Died in January 1125",
+      "previously": "George II is pushed aside. His son David, aged 16, is king.",
+      "paragraphs": [
+        "David, Davit in Georgian, took over a kingdom that paid tribute to the Turks, and he went straight to work. In the 1090s he stopped paying, helped by the First Crusade, which kept the Turks busy further west. In 1103 a Church council at Ruisi-Urbnisi cleared out bishops he couldn't trust. He settled Kipchak warriors from the steppe in Georgia, married a Kipchak princess, and built a standing army.",
+        "On 12 August 1121, at Didgori, he met a much larger Seljuk coalition led by Ilghazi. The Georgians won so completely that they still call it the miraculous victory, and celebrate it every August. In 1122 David took Tbilisi, ending some four hundred years of Muslim rule there, and made it his capital. He left its Muslims free to worship.",
+        "In 1106 he had founded the Gelati monastery near Kutaisi, with an academy for scholars. He died on 24 January 1125 and was buried there. His son Demetrius took over the strongest kingdom in the Caucasus."
+      ],
+      "claims": [
+        {
+          "text": "David asked to be buried under Gelati's gate so that every visitor would step on him.",
+          "status": "legend",
+          "note": "A tradition told to explain his tomb slab, which lies in the south gateway. His own wishes aren't recorded in the chronicle."
+        },
+        {
+          "text": "David settled 40,000 Kipchak families in Georgia.",
+          "status": "disputed",
+          "note": "The figure comes from his Georgian biographer. Historians think it may be inflated."
+        },
+        {
+          "text": "David went to the mosque in Tbilisi and treated Muslims with respect.",
+          "status": "confirmed",
+          "note": "The story comes from Muslim writers, who had no reason to flatter a Christian conqueror."
+        }
+      ],
+      "hook": "David leaves his son a great kingdom with great enemies. Demetrius will hold it, raid beyond it and write hymns. His hardest fight will be with his own son.",
+      "images": [
+        {
+          "file": "File:King David IV the Builder. Gelati fresco.jpg",
+          "url": "https://upload.wikimedia.org/wikipedia/commons/a/ad/King_David_IV_the_Builder._Gelati_fresco.jpg",
+          "page": "https://commons.wikimedia.org/wiki/File:King_David_IV_the_Builder._Gelati_fresco.jpg",
+          "credit": "Unknown artist; photographed by the National Archives of Georgia expedition team, 2015",
+          "license": "Public domain",
+          "made": "16th century",
+          "caption": "David IV in a fresco at Gelati, the monastery he founded. It was painted in the 16th century, probably renewing an older image, about 400 years after his death.",
+          "alt": "Fresco of King David IV the Builder at the Gelati monastery"
+        }
+      ],
+      "sources": [
+        {
+          "title": "Edge of Empires: A History of Georgia",
+          "author": "Donald Rayfield",
+          "note": "Reaktion Books, 2012"
+        },
+        {
+          "title": "The Georgian Chronicles (Kartlis Tskhovreba)",
+          "author": "Various medieval Georgian chroniclers",
+          "note": "English translation, Tbilisi: Artanuji, 2014"
+        },
+        {
+          "title": "Royal Imagery in Medieval Georgia",
+          "author": "Antony Eastmond",
+          "note": "Penn State University Press, 1998"
+        },
+        {
+          "title": "The Making of the Georgian Nation",
+          "author": "Ronald Grigor Suny",
+          "note": "2nd edition, Indiana University Press, 1994"
+        }
+      ],
+      "review": {
+        "status": "draft",
+        "notes": "Drafted from the listed sources; needs a human fact-check."
+      }
+    },
+    {
+      "id": "demetrius-i",
+      "kind": "monarch",
+      "rulers": [
+        "demetrius-i"
+      ],
+      "tagline": "Warrior, poet, and a father deposed by his son",
+      "start": {
+        "date": "1125-01-24"
+      },
+      "end": {
+        "date": "1156"
+      },
+      "contestedWith": [],
+      "relationToPredecessor": "Son of David IV",
+      "ageAtAccession": "About 32",
+      "cameToPower": "Succeeded his father",
+      "reignEnded": "Died in 1156",
+      "previously": "David the Builder dies, master of Tbilisi and the Caucasus.",
+      "paragraphs": [
+        "Demetrius, Demetre in Georgian, spent his reign holding on to what his father had won. He fought off the Turkish emirs to the south, and in 1139 he raided the city of Ganja. His men carried its iron gate all the way home to Gelati as a trophy. It is still there, Arabic inscription and all.",
+        "He was a poet too. Georgians still sing a hymn, Thou Art a Vineyard, that tradition says he wrote. His family was harder to manage than his enemies. In 1154 his son David rebelled and forced him to give up the throne. David V lasted only a few months and died in 1155.",
+        "Demetrius came back and made his younger son George his heir, passing over David's son Demna. He died in 1156. The question of Demna would not go away."
+      ],
+      "claims": [
+        {
+          "text": "The iron gate of Ganja still stands at Gelati.",
+          "status": "confirmed",
+          "note": "The gate survives at the monastery with its Arabic inscription, and the Georgian chronicle records the raid."
+        },
+        {
+          "text": "Demetrius wrote the hymn Thou Art a Vineyard.",
+          "status": "disputed",
+          "note": "Georgian tradition credits him, but his authorship can't be proven."
+        },
+        {
+          "text": "David V was poisoned.",
+          "status": "disputed",
+          "note": "The chronicles hint at it without naming anyone. He may simply have fallen ill."
+        }
+      ],
+      "hook": "George III takes the throne. His nephew Demna, the son of David V, thinks it should be his, and the great nobles are listening.",
+      "images": [
+        {
+          "file": "File:Demetre I (Matskhvarishi).jpg",
+          "url": "https://upload.wikimedia.org/wikipedia/commons/f/f7/Demetre_I_%28Matskhvarishi%29.jpg",
+          "page": "https://commons.wikimedia.org/wiki/File:Demetre_I_(Matskhvarishi).jpg",
+          "credit": "Michael Maghlakeli",
+          "license": "Public domain",
+          "made": "1142",
+          "caption": "The coronation of Demetrius I, painted by Michael Maghlakeli at the Matskhvarishi church in Svaneti in 1142, during his reign.",
+          "alt": "Medieval fresco of the coronation of King Demetrius I"
+        }
+      ],
+      "sources": [
+        {
+          "title": "Edge of Empires: A History of Georgia",
+          "author": "Donald Rayfield",
+          "note": "Reaktion Books, 2012"
+        },
+        {
+          "title": "The Georgian Chronicles (Kartlis Tskhovreba)",
+          "author": "Various medieval Georgian chroniclers",
+          "note": "English translation, Tbilisi: Artanuji, 2014"
+        },
+        {
+          "title": "A History of the Georgian People",
+          "author": "W. E. D. Allen",
+          "note": "1932"
+        },
+        {
+          "title": "The Making of the Georgian Nation",
+          "author": "Ronald Grigor Suny",
+          "note": "2nd edition, Indiana University Press, 1994"
+        }
+      ],
+      "review": {
+        "status": "draft",
+        "notes": "Drafted from the listed sources; needs a human fact-check."
+      }
+    },
+    {
+      "id": "george-iii",
+      "kind": "monarch",
+      "rulers": [
+        "george-iii"
+      ],
+      "tagline": "The iron-fisted king who crowned his daughter",
+      "start": {
+        "date": "1156"
+      },
+      "end": {
+        "date": "1184-03-27"
+      },
+      "contestedWith": [],
+      "relationToPredecessor": "Son of Demetrius I",
+      "ageAtAccession": "Unknown",
+      "cameToPower": "Named heir over his nephew",
+      "reignEnded": "Died in March 1184",
+      "previously": "Demetrius I dies. His younger son is king; his grandson Demna waits.",
+      "paragraphs": [
+        "George III was a fighter. In 1161 he took the old Armenian capital of Ani from the Shaddadid emirs, and his armies raided deep into Persia. The Bagrationi kingdom was now a name to fear across the region.",
+        "In 1177 the great nobles rose for Demna, son of David V, whom many saw as the rightful king. George crushed them. Demna was blinded and castrated, and the Orbeli family, leaders of the revolt, were wiped out. Nobody tried that again while George lived.",
+        "George had no son, only a daughter, Tamar. In 1178 he crowned her as his co-ruler, so that nobody could deny her the throne. He died on 27 March 1184, and for the first time a woman ruled Georgia in her own right."
+      ],
+      "claims": [
+        {
+          "text": "George had his nephew Demna blinded and castrated.",
+          "status": "disputed",
+          "note": "Georgian and Armenian writers both report it. The details, and what became of Demna afterwards, are less certain."
+        },
+        {
+          "text": "The Orbeli family was destroyed after the revolt of 1177.",
+          "status": "confirmed",
+          "note": "The outline is told in both Georgian and Armenian sources; the Orbelis vanish from Georgian power after it."
+        },
+        {
+          "text": "George crowned Tamar co-ruler in 1178.",
+          "status": "confirmed",
+          "note": "The chronicles record it, and the two appear together in the wall paintings at Vardzia."
+        }
+      ],
+      "hook": "Tamar is in her twenties, a woman on a throne built for warriors. The nobles and the Church think she'll be easy to manage. They are wrong.",
+      "images": [
+        {
+          "file": "File:King George III and his daughter, Queen Tamar.jpg",
+          "url": "https://upload.wikimedia.org/wikipedia/commons/8/88/King_George_III_and_his_daughter%2C_Queen_Tamar.jpg",
+          "page": "https://commons.wikimedia.org/wiki/File:King_George_III_and_his_daughter,_Queen_Tamar.jpg",
+          "credit": "dave massie (photo)",
+          "license": "CC BY 2.0",
+          "made": "1180s (photo 2023)",
+          "caption": "George III and his daughter Tamar, painted side by side on the wall of the cave church at Vardzia in the 1180s.",
+          "alt": "Photo of a cave-church wall painting showing King George III and his daughter, Queen Tamar"
+        }
+      ],
+      "sources": [
+        {
+          "title": "Edge of Empires: A History of Georgia",
+          "author": "Donald Rayfield",
+          "note": "Reaktion Books, 2012"
+        },
+        {
+          "title": "The Georgian Chronicles (Kartlis Tskhovreba)",
+          "author": "Various medieval Georgian chroniclers",
+          "note": "English translation, Tbilisi: Artanuji, 2014"
+        },
+        {
+          "title": "Royal Imagery in Medieval Georgia",
+          "author": "Antony Eastmond",
+          "note": "Penn State University Press, 1998"
+        },
+        {
+          "title": "A History of the Georgian People",
+          "author": "W. E. D. Allen",
+          "note": "1932"
+        }
+      ],
+      "review": {
+        "status": "draft",
+        "notes": "Drafted from the listed sources; needs a human fact-check."
+      }
+    },
+    {
+      "id": "tamar",
+      "kind": "monarch",
+      "rulers": [
+        "tamar"
+      ],
+      "tagline": "The queen they called king",
+      "start": {
+        "date": "1184-03-27"
+      },
+      "end": {
+        "date": "1213-01-18"
+      },
+      "contestedWith": [],
+      "relationToPredecessor": "Daughter of George III",
+      "ageAtAccession": "About 24",
+      "cameToPower": "Crowned co-ruler by her father",
+      "reignEnded": "Died in January 1213",
+      "previously": "George III dies. His daughter Tamar is already crowned and waiting.",
+      "paragraphs": [
+        "Georgian sources call Tamar mepe, king, not queen. She was the first woman to rule Georgia in her own right, and at first the nobles and the Church tried to rein her in. They found her a husband, Yury, a Rus' prince and son of Andrey Bogolyubsky. After about two years she divorced him and sent him away. He came back twice with armies and was beaten both times.",
+        "Her second husband, David Soslan, was an Ossetian prince and a fine general. Georgian armies won at Shamkor in 1195 and at Basian a few years later. In 1204 Tamar helped her relatives Alexios and David Komnenos set up the Empire of Trebizond on the Black Sea coast.",
+        "This was Georgia's golden age. Monks carved the cave monastery of Vardzia, where her portrait still looks down from the wall. Shota Rustaveli dedicated his epic, The Knight in the Panther's Skin, to her. She died on 18 January 1213, and her son George took over."
+      ],
+      "claims": [
+        {
+          "text": "Rustaveli was in love with Tamar.",
+          "status": "legend",
+          "note": "The poem's prologue praises Tamar, which is certain. Almost nothing is known about Rustaveli himself, and the love story is later legend."
+        },
+        {
+          "text": "Tamar's grave was hidden on purpose so enemies could never find it.",
+          "status": "legend",
+          "note": "Nobody knows where she lies. Traditions point to Gelati or even to the Holy Land; the secrecy story grew up later."
+        },
+        {
+          "text": "The Battle of Basian was fought in 1202.",
+          "status": "disputed",
+          "note": "Sources and historians date it anywhere from 1202 to 1205."
+        }
+      ],
+      "hook": "Tamar's son George, nicknamed Lasha, inherits the golden age. He is young, charming and fond of a party. Far to the east, the Mongols are on the move.",
+      "images": [
+        {
+          "file": "File:Tamar, fresco of Vardzia.jpg",
+          "url": "https://upload.wikimedia.org/wikipedia/commons/9/96/Tamar%2C_fresco_of_Vardzia.jpg",
+          "page": "https://commons.wikimedia.org/wiki/File:Tamar,_fresco_of_Vardzia.jpg",
+          "credit": "Unknown artist",
+          "license": "Public domain",
+          "made": "1180s",
+          "caption": "Tamar in the wall painting at Vardzia, made in her own lifetime, in the 1180s.",
+          "alt": "Medieval fresco portrait of Queen Tamar from the Vardzia cave monastery"
+        }
+      ],
+      "sources": [
+        {
+          "title": "Edge of Empires: A History of Georgia",
+          "author": "Donald Rayfield",
+          "note": "Reaktion Books, 2012"
+        },
+        {
+          "title": "The Georgian Chronicles (Kartlis Tskhovreba)",
+          "author": "Various medieval Georgian chroniclers",
+          "note": "English translation, Tbilisi: Artanuji, 2014"
+        },
+        {
+          "title": "Royal Imagery in Medieval Georgia",
+          "author": "Antony Eastmond",
+          "note": "Penn State University Press, 1998"
+        },
+        {
+          "title": "The Man in the Panther's Skin",
+          "author": "Shota Rustaveli",
+          "note": "Translated by Marjory Scott Wardrop, 1912"
+        }
+      ],
+      "review": {
+        "status": "draft",
+        "notes": "Drafted from the listed sources; needs a human fact-check."
+      }
+    },
+    {
+      "id": "george-iv",
+      "kind": "monarch",
+      "rulers": [
+        "george-iv"
+      ],
+      "tagline": "Tamar's golden boy, and the first to meet the Mongols",
+      "start": {
+        "date": "1213-01-18"
+      },
+      "end": {
+        "date": "1223-01-18"
+      },
+      "contestedWith": [],
+      "relationToPredecessor": "Son of Queen Tamar",
+      "ageAtAccession": "About 20",
+      "cameToPower": "Succeeded his mother",
+      "reignEnded": "Died, probably of war wounds",
+      "previously": "Tamar the Great dies in 1213, leaving Georgia at its height.",
+      "paragraphs": [
+        "Giorgi was the son of Queen Tamar and her second husband, the Ossetian prince David Soslan. He had been crowned co-king in 1207, so nobody argued when he took over. Everyone called him Lasha, a nickname said to mean “bright”. He inherited the richest, strongest kingdom the Bagrationi family had ever held.",
+        "The chroniclers didn't think much of him. They paint a young king who liked feasting and friends more than the council chamber. He kept the borders safe and talked of joining the Fifth Crusade. Then a strange army rode in from the east: the Mongol generals Jebe and Subutai, scouting ahead for Genghis Khan. In 1221 they lured the Georgian knights into a charge and cut them to pieces.",
+        "George died on 18 January 1223, aged about 30, and most accounts link his death to wounds from that fighting. He left a young son, David, but the nobles weren't ready for another child king. The crown went to George's sister."
+      ],
+      "claims": [
+        {
+          "text": "“Lasha” means “bright” or “illuminating” in the Abkhaz language.",
+          "status": "disputed",
+          "note": "The Georgian chronicle gives this explanation. Linguists aren't sure the word really works that way."
+        },
+        {
+          "text": "George IV was a pleasure-loving king who neglected his duties.",
+          "status": "disputed",
+          "note": "The picture comes from later Georgian chroniclers who disapproved of him. It may say more about their morals than his reign."
+        },
+        {
+          "text": "He died of wounds taken fighting the Mongols.",
+          "status": "disputed",
+          "note": "Several accounts tie his death to the battles of 1221, but the sources are thin and don't agree on how he was hurt."
+        }
+      ],
+      "hook": "Lasha's son is a little boy, so the crown passes to his sister Rusudan. She'll need all her mother's nerve. A shah on the run from the Mongols is heading for Georgia.",
+      "images": [
+        {
+          "file": "File:George IV of Georgia (Bertubani fresco).jpg",
+          "url": "https://upload.wikimedia.org/wikipedia/commons/0/03/George_IV_of_Georgia_%28Bertubani_fresco%29.jpg",
+          "page": "https://commons.wikimedia.org/wiki/File:George_IV_of_Georgia_(Bertubani_fresco).jpg",
+          "credit": "Unknown artist",
+          "license": "Public domain",
+          "made": "1212–1213",
+          "caption": "Painted at the Bertubani monastery around 1212–13, right at the start of his reign.",
+          "alt": "Medieval wall painting of George IV, King of Georgia, from the Bertubani monastery"
+        }
+      ],
+      "sources": [
+        {
+          "title": "Edge of Empires: A History of Georgia",
+          "author": "Donald Rayfield",
+          "note": "Reaktion Books, 2012"
+        },
+        {
+          "title": "Kartlis Tskhovreba (The Georgian Chronicles)",
+          "author": "Anonymous (medieval Georgian chroniclers)",
+          "note": "English translation, Tbilisi: Artanuji, 2014"
+        },
+        {
+          "title": "Royal Imagery in Medieval Georgia",
+          "author": "Antony Eastmond",
+          "note": "Penn State University Press, 1998"
+        },
+        {
+          "title": "The Complete Work of History (al-Kamil fi al-Tarikh)",
+          "author": "Ibn al-Athir",
+          "note": "The Mongol raid of 1221"
+        }
+      ],
+      "review": {
+        "status": "draft",
+        "notes": "Drafted from the listed sources; needs a human fact-check."
+      }
+    },
+    {
+      "id": "rusudan",
+      "kind": "monarch",
+      "rulers": [
+        "rusudan"
+      ],
+      "tagline": "Tamar's daughter, caught between a shah and the Mongols",
+      "start": {
+        "date": "1223-01-18"
+      },
+      "end": {
+        "date": "1245"
+      },
+      "contestedWith": [],
+      "relationToPredecessor": "Sister of George IV",
+      "ageAtAccession": "About 28",
+      "cameToPower": "Succeeded her brother",
+      "reignEnded": "Died in 1245",
+      "previously": "George IV dies in 1223, his kingdom bruised by the first Mongol raid.",
+      "paragraphs": [
+        "Rusudan was Tamar's daughter and, like her mother, was styled mepe, “king”. She had barely settled in when trouble arrived. Jalal al-Din, the last Khwarazmian shah, had lost his empire to the Mongols and was carving out a new one in the Caucasus. He beat the Georgians at Garni in 1225 and took Tbilisi in 1226.",
+        "The sack was brutal: churches wrecked and many people killed. The Georgian Church remembers the 100,000 martyrs of Tbilisi, told to trample icons laid on the bridge and killed for refusing. Ten years later the Mongols came in force (1236). Rusudan fled west to Kutaisi, and in the end she submitted and agreed to pay tribute.",
+        "She wanted the crown for her own son, David. Her nephew, also David, the son of George IV, stood in the way. So she sent him to her daughter's husband, the Seljuk sultan of Rum, who kept him locked up. Rusudan died in 1245 with Georgia a Mongol vassal and the succession still unsettled."
+      ],
+      "claims": [
+        {
+          "text": "100,000 people of Tbilisi were killed for refusing to trample icons on the city's bridge.",
+          "status": "legend",
+          "note": "A Georgian Church tradition. The sack was real, but the number is symbolic and the details can't be checked."
+        },
+        {
+          "text": "Rusudan submitted to the Mongols in 1239.",
+          "status": "disputed",
+          "note": "Sources differ: some put her submission in 1239, others in 1243."
+        },
+        {
+          "text": "She had her nephew David imprisoned in Rum to clear the way for her son.",
+          "status": "disputed",
+          "note": "The Georgian chronicle tells it this way. Her motives are the chronicler's reading, not her own words."
+        }
+      ],
+      "hook": "Rusudan is dead and Georgia belongs to the Mongols. Two cousins, both called David, set off on the long road to the khan's court to find out which of them will be king.",
+      "images": [
+        {
+          "file": "File:Coin of Queen Rusudan.jpg",
+          "url": "https://upload.wikimedia.org/wikipedia/commons/b/bf/Coin_of_Queen_Rusudan.jpg",
+          "page": "https://commons.wikimedia.org/wiki/File:Coin_of_Queen_Rusudan.jpg",
+          "credit": "CNG",
+          "license": "CC BY-SA 3.0",
+          "made": "1230",
+          "caption": "A silver coin of 1230 that calls her “Queen of Queens” and “daughter of Tamar” in Arabic.",
+          "alt": "Silver coin showing a facing bust of Christ holding the Gospels, with Georgian and Arabic inscriptions"
+        }
+      ],
+      "sources": [
+        {
+          "title": "Edge of Empires: A History of Georgia",
+          "author": "Donald Rayfield",
+          "note": "Reaktion Books, 2012"
+        },
+        {
+          "title": "Kartlis Tskhovreba (The Georgian Chronicles)",
+          "author": "Anonymous (medieval Georgian chroniclers)",
+          "note": "English translation, Tbilisi: Artanuji, 2014"
+        },
+        {
+          "title": "Sirat al-Sultan Jalal al-Din Mangubirti",
+          "author": "Shihab al-Din Muhammad al-Nasawi",
+          "note": "Life of Jalal al-Din by his secretary"
+        },
+        {
+          "title": "A History of the Georgian People",
+          "author": "W. E. D. Allen",
+          "note": "1932"
+        }
+      ],
+      "review": {
+        "status": "draft",
+        "notes": "Drafted from the listed sources; needs a human fact-check."
+      }
+    },
+    {
+      "id": "two-davids",
+      "kind": "interregnum",
+      "rulers": [],
+      "title": "The Two Davids",
+      "house": "overlords",
+      "tagline": "Two cousins, one crown, and a khan to keep happy",
+      "start": {
+        "date": "1245"
+      },
+      "end": {
+        "date": "1270"
+      },
+      "contestedWith": [],
+      "relationToPredecessor": "Son and nephew of Rusudan",
+      "ageAtAccession": "Various",
+      "cameToPower": "Chosen by the Mongol court",
+      "reignEnded": "David VII dies in 1270",
+      "previously": "Rusudan dies in 1245, leaving Georgia under the Mongols.",
+      "paragraphs": [
+        "With Rusudan gone, the Mongols took their time choosing. Both claimants made the long trip to the Mongol court: her son David “Narin” (the younger), later counted as David VI, and her nephew David “Ulu” (the elder), David VII, son of George IV. In the end the Mongols made both of them kings. From about 1247 the two Bagrationi cousins ruled side by side as vassals.",
+        "Being a Mongol vassal meant heavy tax, a census, and soldiers on demand. Georgian troops rode in Mongol wars, including Hulagu's campaigns in the Middle East. In 1259 David VI had had enough. He slipped away to the west and set up his own kingdom in Imereti. It was the first split of the Georgian lands that stuck.",
+        "David VII tried a revolt of his own, failed, and made his peace. He went on ruling the east under the Ilkhans, the Mongol rulers of Iran, until he died in 1270."
+      ],
+      "claims": [
+        {
+          "text": "Both Davids were made kings at the Mongol court and ruled jointly.",
+          "status": "confirmed",
+          "note": "Georgian and Persian sources agree on the double kingship, though they differ on dates."
+        },
+        {
+          "text": "Georgian soldiers fought in Hulagu's capture of Baghdad in 1258.",
+          "status": "confirmed",
+          "note": "Both Georgian and Persian writers mention them. How big a part they played is unclear."
+        }
+      ],
+      "hook": "David VII's son Demetrius is only about 11. He will grow up into a king who must decide what one man's life is worth against the safety of his whole country.",
+      "images": [
+        {
+          "file": "File:Georgian Issue of Davit VII Ulu.jpg",
+          "url": "https://upload.wikimedia.org/wikipedia/commons/5/56/Georgian_Issue_of_Davit_VII_Ulu.jpg",
+          "page": "https://commons.wikimedia.org/wiki/File:Georgian_Issue_of_Davit_VII_Ulu.jpg",
+          "credit": "CNG",
+          "license": "CC BY-SA 3.0",
+          "made": "1253",
+          "caption": "A silver coin struck at Tbilisi in 1253 under David VII, in the name of his overlord, the Great Khan Möngke.",
+          "alt": "Silver dirham with Persian inscriptions naming the Mongol Great Khan Möngke"
+        }
+      ],
+      "sources": [
+        {
+          "title": "Edge of Empires: A History of Georgia",
+          "author": "Donald Rayfield",
+          "note": "Reaktion Books, 2012"
+        },
+        {
+          "title": "Kartlis Tskhovreba (The Georgian Chronicles)",
+          "author": "Anonymous (medieval Georgian chroniclers)",
+          "note": "English translation, Tbilisi: Artanuji, 2014"
+        },
+        {
+          "title": "Jami al-Tawarikh (Compendium of Chronicles)",
+          "author": "Rashid al-Din"
+        },
+        {
+          "title": "A History of the Georgian People",
+          "author": "W. E. D. Allen",
+          "note": "1932"
+        }
+      ],
+      "review": {
+        "status": "draft",
+        "notes": "Drafted from the listed sources; needs a human fact-check."
+      }
+    },
+    {
+      "id": "demetrius-ii",
+      "kind": "monarch",
+      "rulers": [
+        "demetrius-ii"
+      ],
+      "tagline": "The king who walked to his own execution",
+      "start": {
+        "date": "1270"
+      },
+      "end": {
+        "date": "1289-03-12"
+      },
+      "contestedWith": [],
+      "relationToPredecessor": "Son of David VII",
+      "ageAtAccession": "About 11",
+      "cameToPower": "Succeeded his father",
+      "reignEnded": "Beheaded at the Ilkhan's camp",
+      "previously": "David VII dies in 1270. His young son inherits a Mongol vassal state.",
+      "paragraphs": [
+        "Demetrius, Demetre in Georgian, grew up a Bagrationi king on a Mongol leash. He did the job well enough. He paid the tax, sent troops when the Ilkhans called, and spent long stretches at their court. He also got close to Buqa, the most powerful minister at the court of the Ilkhan Arghun.",
+        "In 1289 Buqa fell and was killed, accused of plotting against Arghun. Demetrius was named as one of his plotters. He could have fled into the mountains, but that would have brought a Mongol army down on Georgia. So he rode to Arghun's camp instead. He was beheaded there on 12 March 1289.",
+        "The Georgian Church made him a saint, and Georgians call him tavdadebuli, “the Self-Sacrificing”. His sons were young, and the Ilkhans now felt free to hand the crown to whoever suited them."
+      ],
+      "claims": [
+        {
+          "text": "Demetrius gave himself up to save Georgia from a Mongol invasion.",
+          "status": "confirmed",
+          "note": "The Georgian chronicle says so and his journey to the camp is well attested. It's his motives that rest on the chronicle."
+        },
+        {
+          "text": "He made a noble speech to his nobles before leaving for the camp.",
+          "status": "legend",
+          "note": "The chronicle gives him fine words, but they read like the writer's tribute to a saint."
+        },
+        {
+          "text": "He was canonised by the Georgian Church.",
+          "status": "confirmed",
+          "note": "He is venerated as St Demetrius the Self-Sacrificing."
+        }
+      ],
+      "hook": "With Demetrius dead, the Ilkhans start treating the Georgian crown like a coat to lend out. Kings will come and go at their say-so, one of them just a boy.",
+      "images": [
+        {
+          "file": "File:Demetre II of Georgia (Udabno fresco).jpg",
+          "url": "https://upload.wikimedia.org/wikipedia/commons/0/0c/Demetre_II_of_Georgia_%28Udabno_fresco%29.jpg",
+          "page": "https://commons.wikimedia.org/wiki/File:Demetre_II_of_Georgia_(Udabno_fresco).jpg",
+          "credit": "Unknown artist",
+          "license": "Public domain",
+          "made": "c. 1290",
+          "caption": "Painted in the chapel of the Annunciation at Udabno, around the time of his death.",
+          "alt": "Fresco portrait of Demetrius II from the chapel of the Annunciation at Udabno monastery"
+        }
+      ],
+      "sources": [
+        {
+          "title": "Edge of Empires: A History of Georgia",
+          "author": "Donald Rayfield",
+          "note": "Reaktion Books, 2012"
+        },
+        {
+          "title": "Kartlis Tskhovreba (The Georgian Chronicles)",
+          "author": "Anonymous (medieval Georgian chroniclers)",
+          "note": "English translation, Tbilisi: Artanuji, 2014"
+        },
+        {
+          "title": "Jami al-Tawarikh (Compendium of Chronicles)",
+          "author": "Rashid al-Din"
+        },
+        {
+          "title": "Studies in Christian Caucasian History",
+          "author": "Cyril Toumanoff",
+          "note": "Georgetown University Press, 1963"
+        }
+      ],
+      "review": {
+        "status": "draft",
+        "notes": "Drafted from the listed sources; needs a human fact-check."
+      }
+    },
+    {
+      "id": "mongol-puppets",
+      "kind": "interregnum",
+      "rulers": [],
+      "title": "Kings on a Mongol Leash",
+      "house": "overlords",
+      "tagline": "Kings made and unmade by the Ilkhans",
+      "start": {
+        "date": "1289-03-12"
+      },
+      "end": {
+        "date": "1318"
+      },
+      "contestedWith": [],
+      "relationToPredecessor": "Sons and kin of Demetrius II",
+      "ageAtAccession": "Various",
+      "cameToPower": "Picked by the Ilkhans",
+      "reignEnded": "George V restored",
+      "previously": "Demetrius II is beheaded in 1289 to spare Georgia a Mongol army.",
+      "paragraphs": [
+        "For the next thirty years the Ilkhans picked Georgia's kings. They were all Bagrationi, but they sat on the throne at Mongol pleasure. First came Vakhtang II, a son of David VI from the west, who lasted only a few years. Then Demetrius's son David VIII.",
+        "David VIII rebelled and held out in the mountains for years, so the Mongols kept setting up rivals from his own family. One was his brother Vakhtang III. Another, in 1299, was his youngest brother George, a boy, who was put on the throne and then removed in 1302. Remember him: he gets the next card. David's young son George VI had a short turn too.",
+        "Meanwhile western Georgia went its own way under David VI's descendants. By 1318 the boy king of 1299 was back on the throne in the east, all grown up and with a much better plan."
+      ],
+      "claims": [
+        {
+          "text": "David VIII defied the Ilkhans from his mountain strongholds for years.",
+          "status": "confirmed",
+          "note": "Georgian and Persian sources both describe his long revolt and the Mongol efforts to replace him."
+        },
+        {
+          "text": "The Ilkhans deliberately played Bagrationi brothers against each other.",
+          "status": "disputed",
+          "note": "That's the obvious reading of the chronicles, but they rarely say what the Mongols intended."
+        }
+      ],
+      "hook": "George, the boy the Mongols tossed aside, is a grown man now. And the Ilkhanate is about to crack.",
+      "images": [
+        {
+          "file": "File:Coinage of David VIII of Georgia (1273–1311) in the name of Ghazan, dated 1296-1297.jpg",
+          "url": "https://upload.wikimedia.org/wikipedia/commons/0/07/Coinage_of_David_VIII_of_Georgia_%281273%E2%80%931311%29_in_the_name_of_Ghazan%2C_dated_1296-1297.jpg",
+          "page": "https://commons.wikimedia.org/wiki/File:Coinage_of_David_VIII_of_Georgia_(1273%E2%80%931311)_in_the_name_of_Ghazan,_dated_1296-1297.jpg",
+          "credit": "Victor Langlois",
+          "license": "Public domain",
+          "made": "1852",
+          "caption": "A drawing, published in 1852, of a coin David VIII struck in 1296–97 in the name of the Ilkhan Ghazan.",
+          "alt": "Engraved drawing of a coin of David VIII of Georgia struck in the name of the Ilkhan Ghazan"
+        }
+      ],
+      "sources": [
+        {
+          "title": "Edge of Empires: A History of Georgia",
+          "author": "Donald Rayfield",
+          "note": "Reaktion Books, 2012"
+        },
+        {
+          "title": "Kartlis Tskhovreba (The Georgian Chronicles)",
+          "author": "Anonymous (medieval Georgian chroniclers)",
+          "note": "English translation, Tbilisi: Artanuji, 2014"
+        },
+        {
+          "title": "A History of the Georgian People",
+          "author": "W. E. D. Allen",
+          "note": "1932"
+        }
+      ],
+      "review": {
+        "status": "draft",
+        "notes": "Drafted from the listed sources; needs a human fact-check."
+      }
+    },
+    {
+      "id": "george-v",
+      "kind": "monarch",
+      "rulers": [
+        "george-v"
+      ],
+      "tagline": "The boy the Mongols discarded, back to throw them out",
+      "start": {
+        "date": "1318"
+      },
+      "end": {
+        "date": "1346"
+      },
+      "contestedWith": [],
+      "relationToPredecessor": "Son of Demetrius II",
+      "ageAtAccession": "About 32",
+      "cameToPower": "Restored to the throne",
+      "reignEnded": "Died in 1346",
+      "previously": "The Ilkhans spend thirty years making and breaking Georgian kings.",
+      "paragraphs": [
+        "George, Giorgi in Georgian, was the youngest son of the martyred Demetrius II. The Ilkhans had made him king as a boy in 1299 and dropped him three years later. Back in charge, he played the long game. He stayed on good terms with the Mongol court and waited.",
+        "His chance came when the Ilkhan Abu Sa'id died in 1335 and the Ilkhanate fell apart. George stopped paying tribute and pushed the Mongols out. Around 1330 he had already brought western Georgia, Imereti, back under the crown. For the first time in generations there was one Georgian kingdom again, ruled by one Bagrationi king.",
+        "He put the country in order too, with new laws, including a code for the wild mountain districts. Georgians remember him as Brtskinvale, “the Brilliant”. He died in 1346 and left a restored kingdom to his son David IX."
+      ],
+      "claims": [
+        {
+          "text": "George V wrote the Dzeglis Deba, the law code for the mountain districts.",
+          "status": "disputed",
+          "note": "The code is traditionally credited to him, but some historians think it was put together later or by others."
+        },
+        {
+          "text": "He threw off Mongol rule after Abu Sa'id's death in 1335.",
+          "status": "confirmed",
+          "note": "The collapse of the Ilkhanate after 1335 is well documented, and Georgian sources credit George with ending the tribute."
+        }
+      ],
+      "hook": "George has put Georgia back together. But out in Central Asia a lame warlord called Timur is building an empire, and he will come to Georgia again and again.",
+      "images": [
+        {
+          "file": "File:George the Brilliant royal charter.jpg",
+          "url": "https://upload.wikimedia.org/wikipedia/commons/3/35/George_the_Brilliant_royal_charter.jpg",
+          "page": "https://commons.wikimedia.org/wiki/File:George_the_Brilliant_royal_charter.jpg",
+          "credit": "National Archives of Georgia",
+          "license": "Public domain",
+          "made": "14th century",
+          "caption": "One of George V's own royal charters, now in the National Archives of Georgia; used here in place of a portrait.",
+          "alt": "Handwritten royal charter of King George V of Georgia"
+        }
+      ],
+      "sources": [
+        {
+          "title": "Edge of Empires: A History of Georgia",
+          "author": "Donald Rayfield",
+          "note": "Reaktion Books, 2012"
+        },
+        {
+          "title": "Kartlis Tskhovreba (The Georgian Chronicles)",
+          "author": "Anonymous (medieval Georgian chroniclers)",
+          "note": "English translation, Tbilisi: Artanuji, 2014"
+        },
+        {
+          "title": "The Making of the Georgian Nation",
+          "author": "Ronald Grigor Suny",
+          "note": "2nd ed., Indiana University Press, 1994"
+        },
+        {
+          "title": "A History of the Georgian People",
+          "author": "W. E. D. Allen",
+          "note": "1932"
+        }
+      ],
+      "review": {
+        "status": "draft",
+        "notes": "Drafted from the listed sources; needs a human fact-check."
+      }
+    },
+    {
+      "id": "timur-invasions",
+      "kind": "interregnum",
+      "rulers": [],
+      "title": "Timur's Invasions",
+      "house": "overlords",
+      "tagline": "A lame conqueror and twenty years of fire",
+      "start": {
+        "date": "1346"
+      },
+      "end": {
+        "date": "1412"
+      },
+      "contestedWith": [],
+      "relationToPredecessor": "Son and heirs of George V",
+      "ageAtAccession": "Various",
+      "cameToPower": "Hereditary succession",
+      "reignEnded": "Constantine I executed, 1412",
+      "previously": "George V dies in 1346, Georgia reunited and free of the Mongols.",
+      "paragraphs": [
+        "George V's son David IX (1346–1360) held on to what his father had built. His son Bagrat V “the Great” (1360–1393) was a strong Bagrationi king. Then in 1386 Timur, the Turkic conqueror Europeans call Tamerlane, invaded. He took Tbilisi and captured Bagrat. The Georgian story says Bagrat agreed to become a Muslim, borrowed Timur's troops to win back his kingdom, then turned on them.",
+        "Timur kept coming back until 1403. Each time towns and churches burned, and people were killed or carried off. Villages emptied and fields went untilled. Georgia, which had been rich under Tamar, came out of these years poor and bleeding.",
+        "Bagrat's son George VII (1393–1407) kept fighting, and died fighting the Turkmen. His brother Constantine I (1407–1412) was captured by the Qara Qoyunlu Turkmen at Chalagan in 1412 and put to death."
+      ],
+      "claims": [
+        {
+          "text": "Bagrat V pretended to convert to Islam, then turned Timur's own troops against them.",
+          "status": "disputed",
+          "note": "This is the Georgian version. Timur's historians tell it differently, and the two accounts can't both be right."
+        },
+        {
+          "text": "Timur invaded Georgia eight times.",
+          "status": "disputed",
+          "note": "Eight is the traditional count. Historians group the campaigns differently and get different numbers."
+        },
+        {
+          "text": "Timur captured Bagrat V when he took Tbilisi in 1386.",
+          "status": "confirmed",
+          "note": "Both Georgian and Timurid sources record it."
+        }
+      ],
+      "hook": "Constantine's son Alexander inherits a land of burned churches and empty villages. His whole reign will be about building it back up.",
+      "images": [
+        {
+          "file": "File:Timur besieges the Georgian castle of Gortin, 3 August 1401. Zafarnama of 1436, facing folios 381r (left), 380v (right).jpg",
+          "url": "https://upload.wikimedia.org/wikipedia/commons/3/33/Timur_besieges_the_Georgian_castle_of_Gortin%2C_3_August_1401._Zafarnama_of_1436%2C_facing_folios_381r_%28left%29%2C_380v_%28right%29.jpg",
+          "page": "https://commons.wikimedia.org/wiki/File:Timur_besieges_the_Georgian_castle_of_Gortin,_3_August_1401._Zafarnama_of_1436,_facing_folios_381r_(left),_380v_(right).jpg",
+          "credit": "Unknown Timurid artist",
+          "license": "Public domain",
+          "made": "1436",
+          "caption": "From a 1436 copy of the Zafarnama, Timur's official history, painted 35 years after the siege it shows.",
+          "alt": "Persian manuscript painting across two pages of Timur besieging the Georgian castle of Gortin in 1401"
+        }
+      ],
+      "sources": [
+        {
+          "title": "Edge of Empires: A History of Georgia",
+          "author": "Donald Rayfield",
+          "note": "Reaktion Books, 2012"
+        },
+        {
+          "title": "Kartlis Tskhovreba (The Georgian Chronicles)",
+          "author": "Anonymous (medieval Georgian chroniclers)",
+          "note": "English translation, Tbilisi: Artanuji, 2014"
+        },
+        {
+          "title": "Zafarnama",
+          "author": "Sharaf al-Din Ali Yazdi",
+          "note": "Timurid court history"
+        },
+        {
+          "title": "A History of the Georgian People",
+          "author": "W. E. D. Allen",
+          "note": "1932"
+        }
+      ],
+      "review": {
+        "status": "draft",
+        "notes": "Drafted from the listed sources; needs a human fact-check."
+      }
+    },
+    {
+      "id": "alexander-i",
+      "kind": "monarch",
+      "rulers": [
+        "alexander-i"
+      ],
+      "tagline": "The rebuilder who shared his crown with his sons",
+      "start": {
+        "date": "1412"
+      },
+      "end": {
+        "date": "1442"
+      },
+      "contestedWith": [],
+      "relationToPredecessor": "Son of Constantine I",
+      "ageAtAccession": "About 22",
+      "cameToPower": "Succeeded his executed father",
+      "reignEnded": "Abdicated to become a monk",
+      "previously": "Constantine I is captured and put to death by the Turkmen in 1412.",
+      "paragraphs": [
+        "Alexander inherited ruins. Timur's armies had burned towns, churches and harvests, and the Turkmen were still raiding. So he rebuilt. Churches were repaired, including, it's said, the great cathedral of Svetitskhoveli at Mtskheta, and people were settled back on empty land.",
+        "He fought the Turkmen too, and kept the kingdom in one piece. Later Georgians called him the Great, and the last king of a united Georgia free of foreign masters. In his later years he made his sons co-rulers. It looked sensible, but it gave each of them a power base of his own.",
+        "In 1442 Alexander gave up the throne and became a monk. He died a few years later, some time between August 1445 and March 1446."
+      ],
+      "claims": [
+        {
+          "text": "Alexander restored the cathedral of Svetitskhoveli at Mtskheta.",
+          "status": "disputed",
+          "note": "Georgian tradition and the chronicles credit him with major work there, but how much of the building is his is debated."
+        },
+        {
+          "text": "Making his sons co-rulers helped break the kingdom apart.",
+          "status": "disputed",
+          "note": "Historians debate how much this mattered next to noble power and foreign pressure."
+        },
+        {
+          "text": "He was the last king of a united Georgia free of foreign overlords.",
+          "status": "disputed",
+          "note": "This is the traditional verdict of Georgian historians. It depends on how you define both “united” and “free”."
+        }
+      ],
+      "hook": "Alexander is in his monk's cell. His sons now share a kingdom that within a generation won't be one kingdom at all.",
+      "images": [
+        {
+          "file": "File:Alexander I of Georgia (Svetitskhoveli fresco).jpg",
+          "url": "https://upload.wikimedia.org/wikipedia/commons/2/23/Alexander_I_of_Georgia_%28Svetitskhoveli_fresco%29.jpg",
+          "page": "https://commons.wikimedia.org/wiki/File:Alexander_I_of_Georgia_(Svetitskhoveli_fresco).jpg",
+          "credit": "Unknown artist",
+          "license": "Public domain",
+          "made": "Date uncertain",
+          "caption": "A wall painting of Alexander in Svetitskhoveli Cathedral at Mtskheta, the church he is credited with restoring. When it was painted isn't recorded.",
+          "alt": "Fresco of Alexander I of Georgia in Svetitskhoveli Cathedral"
+        }
+      ],
+      "sources": [
+        {
+          "title": "Edge of Empires: A History of Georgia",
+          "author": "Donald Rayfield",
+          "note": "Reaktion Books, 2012"
+        },
+        {
+          "title": "Kartlis Tskhovreba (The Georgian Chronicles)",
+          "author": "Anonymous (medieval Georgian chroniclers)",
+          "note": "English translation, Tbilisi: Artanuji, 2014"
+        },
+        {
+          "title": "Studies in Christian Caucasian History",
+          "author": "Cyril Toumanoff",
+          "note": "Georgetown University Press, 1963"
+        },
+        {
+          "title": "The Making of the Georgian Nation",
+          "author": "Ronald Grigor Suny",
+          "note": "2nd ed., Indiana University Press, 1994"
+        }
+      ],
+      "review": {
+        "status": "draft",
+        "notes": "Drafted from the listed sources; needs a human fact-check."
+      }
+    },
+    {
+      "id": "kingdom-breaks-apart",
+      "kind": "interregnum",
+      "rulers": [],
+      "title": "The Kingdom Breaks Apart",
+      "house": "bagrationi",
+      "tagline": "One crown, three kings, and a world cut off",
+      "start": {
+        "date": "1442"
+      },
+      "end": {
+        "date": "1490",
+        "circa": true
+      },
+      "contestedWith": [],
+      "relationToPredecessor": "Sons and grandsons of Alexander I",
+      "ageAtAccession": "Various",
+      "cameToPower": "Abdication of Alexander I",
+      "reignEnded": "Split into three kingdoms",
+      "previously": "Alexander I gives up the throne in 1442 and becomes a monk.",
+      "paragraphs": [
+        "Alexander's son Vakhtang IV (1442–1446) didn't last long. His brother George VIII (1446–1465) had a rough time. The atabegs of Samtskhe, great lords in the south-west, behaved like kings. In 1465 the atabeg Qvarqvare captured George. Once free, George went east and made Kakheti a kingdom of his own.",
+        "Bagrat VI, already king in the west (Imereti), took the main throne (1465–1478). Then came Constantine II (1478–1505), the last king of all Georgia, if only in name. The Turkmen ruler Uzun Hasan raided. Constantinople fell to the Ottomans in 1453 and Trebizond in 1461. Georgia was cut off from Christian Europe.",
+        "Around 1490 Constantine accepted what everyone could see. There were now three kingdoms, Kartli, Kakheti and Imereti, plus the principality of Samtskhe. Every king was still a Bagrationi, but the united kingdom of David the Builder and Tamar was gone."
+      ],
+      "claims": [
+        {
+          "text": "George VIII was captured by his own vassal, the atabeg Qvarqvare of Samtskhe, in 1465.",
+          "status": "confirmed",
+          "note": "Recorded in the Georgian chronicles and accepted by modern historians."
+        },
+        {
+          "text": "Constantine II formally agreed to the split in the early 1490s.",
+          "status": "disputed",
+          "note": "The date and the form of the agreement are uncertain; historians usually say around 1490."
+        }
+      ],
+      "hook": "Three Bagrationi kingdoms now face the world alone. And on either side two giants are rising: the Ottoman sultans to the west and a new shah in Iran.",
+      "images": [
+        {
+          "file": "File:Constantine I, Alexander I, Vakhtang IV, George VIII relief.jpg",
+          "url": "https://upload.wikimedia.org/wikipedia/commons/3/32/Constantine_I%2C_Alexander_I%2C_Vakhtang_IV%2C_George_VIII_relief.jpg",
+          "page": "https://commons.wikimedia.org/wiki/File:Constantine_I,_Alexander_I,_Vakhtang_IV,_George_VIII_relief.jpg",
+          "credit": "Jaqeli",
+          "license": "CC BY-SA 4.0",
+          "made": "Date uncertain",
+          "caption": "A carved relief of four Bagrationi kings, from Constantine I to George VIII. Photographed in 2014; when it was carved isn't recorded.",
+          "alt": "Relief carving of four Georgian kings: Constantine I, Alexander I, Vakhtang IV and George VIII"
+        }
+      ],
+      "sources": [
+        {
+          "title": "Edge of Empires: A History of Georgia",
+          "author": "Donald Rayfield",
+          "note": "Reaktion Books, 2012"
+        },
+        {
+          "title": "Kartlis Tskhovreba (The Georgian Chronicles)",
+          "author": "Anonymous (medieval Georgian chroniclers)",
+          "note": "English translation, Tbilisi: Artanuji, 2014"
+        },
+        {
+          "title": "Studies in Christian Caucasian History",
+          "author": "Cyril Toumanoff",
+          "note": "Georgetown University Press, 1963"
+        },
+        {
+          "title": "The Making of the Georgian Nation",
+          "author": "Ronald Grigor Suny",
+          "note": "2nd ed., Indiana University Press, 1994"
+        }
+      ],
+      "review": {
+        "status": "draft",
+        "notes": "Drafted from the listed sources; needs a human fact-check."
+      }
+    },
+    {
+      "id": "three-kingdoms",
+      "kind": "interregnum",
+      "title": "Three Kingdoms",
+      "house": "bagrationi",
+      "rulers": [],
+      "tagline": "One crown becomes three, with a shah and a sultan watching",
+      "start": {
+        "date": "1490",
+        "circa": true
+      },
+      "end": {
+        "date": "1527"
+      },
+      "contestedWith": [],
+      "relationToPredecessor": "Bagrationi kings of Kartli and Kakheti",
+      "ageAtAccession": "Various",
+      "cameToPower": "Georgia split into three kingdoms",
+      "reignEnded": "Luarsab I took the Kartli crown",
+      "previously": "Around 1490 Constantine II gives up: Georgia is now three kingdoms.",
+      "paragraphs": [
+        "From here the map is crowded. Imereti rules the west. Kartli holds the centre, with Tbilisi. Kakheti sits in the east, rich in vines. The princes of Mingrelia, Guria and Abkhazia answer to nobody much, and the atabegs of Samtskhe go their own way in the south. Every one of these kings is still a Bagrationi. This deck now follows the east: Kartli first, then Kakheti.",
+        "In Kartli, Constantine II reigned until 1505 and his son David X after him. In Kakheti, Alexander I (1476–1511) looked north and sent envoys all the way to Moscow, the first Georgian embassy to Russia. It was a long road with nothing at the end of it yet. Alexander was murdered in 1511 by his own son George, remembered as George the Bad.",
+        "The real danger was rising on both sides. In 1501 Ismail I made himself shah and built the Safavid state in Iran. The Ottomans were pushing east from Anatolia, and the two empires clashed at Chaldiran in 1514. Georgia sat in between. In Kartli, David X gave up the throne in the mid-1520s, and in 1527 his son Luarsab took it."
+      ],
+      "claims": [
+        {
+          "text": "Alexander I of Kakheti sent the first Georgian embassy to Russia, in the 1490s.",
+          "status": "disputed",
+          "note": "Russian records log his envoys reaching Ivan III around 1491–92. Exact dates differ between historians, and earlier contacts may have gone unrecorded."
+        },
+        {
+          "text": "Alexander I of Kakheti was murdered by his son George in 1511.",
+          "status": "confirmed",
+          "note": "The Georgian chronicles record it, and George's nickname, 'the Bad', stuck because of it."
+        }
+      ],
+      "hook": "Kartli has a new king, Luarsab, and Shah Tahmasp of Iran has his eye on Tbilisi. Four Persian invasions are coming.",
+      "images": [
+        {
+          "file": "File:Alexander I of Kakheti (Svetitskhoveli Cathedral).jpg",
+          "url": "https://upload.wikimedia.org/wikipedia/commons/1/1f/Alexander_I_of_Kakheti_%28Svetitskhoveli_Cathedral%29.jpg",
+          "page": "https://commons.wikimedia.org/wiki/File:Alexander_I_of_Kakheti_(Svetitskhoveli_Cathedral).jpg",
+          "credit": "Unknown painter",
+          "license": "Public domain",
+          "made": "Undated",
+          "caption": "A wall painting in Svetitskhoveli Cathedral at Mtskheta showing Alexander I of Kakheti; Commons gives no date for the fresco.",
+          "alt": "Fresco figure of Alexander I of Kakheti from Svetitskhoveli Cathedral, shown beside his father"
+        }
+      ],
+      "sources": [
+        {
+          "title": "Edge of Empires: A History of Georgia",
+          "author": "Donald Rayfield",
+          "note": "Reaktion Books, 2012"
+        },
+        {
+          "title": "The Making of the Georgian Nation",
+          "author": "Ronald Grigor Suny",
+          "note": "2nd ed., Indiana University Press, 1994"
+        },
+        {
+          "title": "A History of the Georgian People",
+          "author": "W. E. D. Allen",
+          "note": "1932"
+        },
+        {
+          "title": "The Georgian Chronicles (Kartlis Tskhovreba)",
+          "author": "Various medieval and early modern Georgian chroniclers",
+          "note": "English translation, Tbilisi: Artanuji, 2014"
+        }
+      ],
+      "review": {
+        "status": "draft",
+        "notes": "Drafted from the listed sources; needs a human fact-check."
+      }
+    },
+    {
+      "id": "luarsab-i",
+      "kind": "monarch",
+      "rulers": [
+        "luarsab-i"
+      ],
+      "tagline": "Four Persian invasions and a king who fought from the hills",
+      "start": {
+        "date": "1527"
+      },
+      "end": {
+        "date": "1556"
+      },
+      "contestedWith": [],
+      "relationToPredecessor": "Son of David X of Kartli",
+      "ageAtAccession": "Unknown",
+      "cameToPower": "Inherited the Kartli crown",
+      "reignEnded": "Mortally wounded at Garisi",
+      "previously": "Georgia is split three ways. In 1527 Luarsab takes the Kartli throne.",
+      "paragraphs": [
+        "Luarsab I, a Bagrationi of the Kartli line, spent almost his whole reign fighting Shah Tahmasp of Iran. The Shah came four times between 1541 and 1554. He took Tbilisi, put a garrison in it and carried off thousands of captives. Each time Luarsab slipped away into the hills and woods, waited for the Persians to go home, and came back.",
+        "In 1555 the Ottomans and Persians made peace at Amasya and simply divided Georgia between them. The west went into the Sultan's sphere, Kartli and Kakheti into the Shah's. Nobody asked the Georgians. Luarsab ignored it. In 1556 he met a Persian army at Garisi, with his son Simon leading the Georgians. Kartli's men held the field, but the king was badly wounded and died soon after."
+      ],
+      "claims": [
+        {
+          "text": "Shah Tahmasp invaded Kartli four times.",
+          "status": "confirmed",
+          "note": "Georgian and Persian chronicles both describe repeated campaigns between 1541 and 1554; four is the usual count."
+        },
+        {
+          "text": "The Battle of Garisi was fought in 1556.",
+          "status": "disputed",
+          "note": "Most references give 1556, but some sources date the battle, and Luarsab's death, to 1558."
+        },
+        {
+          "text": "The Georgians won at Garisi, though it cost the king his life.",
+          "status": "disputed",
+          "note": "That is how the Georgian chronicles tell it. Persian accounts give the battle less weight, so the outcome rests mostly on one side's story."
+        }
+      ],
+      "hook": "Luarsab is dead. His son Simon is about 19 and already a battle commander. His own brother is about to sell out to the Shah.",
+      "images": [
+        {
+          "file": "File:შეწირულობის წიგნი ყმა-მამულისა მიცემული ლუარსაბ I-ის მიერ რუისის საყდრისადმი.jpg",
+          "url": "https://upload.wikimedia.org/wikipedia/commons/0/0a/%E1%83%A8%E1%83%94%E1%83%AC%E1%83%98%E1%83%A0%E1%83%A3%E1%83%9A%E1%83%9D%E1%83%91%E1%83%98%E1%83%A1_%E1%83%AC%E1%83%98%E1%83%92%E1%83%9C%E1%83%98_%E1%83%A7%E1%83%9B%E1%83%90-%E1%83%9B%E1%83%90%E1%83%9B%E1%83%A3%E1%83%9A%E1%83%98%E1%83%A1%E1%83%90_%E1%83%9B%E1%83%98%E1%83%AA%E1%83%94%E1%83%9B%E1%83%A3%E1%83%9A%E1%83%98_%E1%83%9A%E1%83%A3%E1%83%90%E1%83%A0%E1%83%A1%E1%83%90%E1%83%91_I-%E1%83%98%E1%83%A1_%E1%83%9B%E1%83%98%E1%83%94%E1%83%A0_%E1%83%A0%E1%83%A3%E1%83%98%E1%83%A1%E1%83%98%E1%83%A1_%E1%83%A1%E1%83%90%E1%83%A7%E1%83%93%E1%83%A0%E1%83%98%E1%83%A1%E1%83%90%E1%83%93%E1%83%9B%E1%83%98.jpg",
+          "page": "https://commons.wikimedia.org/wiki/File:%E1%83%A8%E1%83%94%E1%83%AC%E1%83%98%E1%83%A0%E1%83%A3%E1%83%9A%E1%83%9D%E1%83%91%E1%83%98%E1%83%A1_%E1%83%AC%E1%83%98%E1%83%92%E1%83%9C%E1%83%98_%E1%83%A7%E1%83%9B%E1%83%90-%E1%83%9B%E1%83%90%E1%83%9B%E1%83%A3%E1%83%9A%E1%83%98%E1%83%A1%E1%83%90_%E1%83%9B%E1%83%98%E1%83%AA%E1%83%94%E1%83%9B%E1%83%A3%E1%83%9A%E1%83%98_%E1%83%9A%E1%83%A3%E1%83%90%E1%83%A0%E1%83%A1%E1%83%90%E1%83%91_I-%E1%83%98%E1%83%A1_%E1%83%9B%E1%83%98%E1%83%94%E1%83%A0_%E1%83%A0%E1%83%A3%E1%83%98%E1%83%A1%E1%83%98%E1%83%A1_%E1%83%A1%E1%83%90%E1%83%A7%E1%83%93%E1%83%A0%E1%83%98%E1%83%A1%E1%83%90%E1%83%93%E1%83%9B%E1%83%98.jpg",
+          "credit": "Royal chancery of Kartli (image: manuscript.ge)",
+          "license": "Public domain",
+          "made": "16th century",
+          "caption": "No portrait of Luarsab survives; this is one of his own royal charters, granting serfs and lands to the church of Ruisi.",
+          "alt": "A handwritten Georgian royal charter of King Luarsab I of Kartli"
+        }
+      ],
+      "sources": [
+        {
+          "title": "Edge of Empires: A History of Georgia",
+          "author": "Donald Rayfield",
+          "note": "Reaktion Books, 2012"
+        },
+        {
+          "title": "The Making of the Georgian Nation",
+          "author": "Ronald Grigor Suny",
+          "note": "2nd ed., Indiana University Press, 1994"
+        },
+        {
+          "title": "The Georgian Chronicles (Kartlis Tskhovreba)",
+          "author": "Various medieval and early modern Georgian chroniclers",
+          "note": "English translation, Tbilisi: Artanuji, 2014"
+        },
+        {
+          "title": "A History of the Georgian People",
+          "author": "W. E. D. Allen",
+          "note": "1932"
+        }
+      ],
+      "review": {
+        "status": "draft",
+        "notes": "Drafted from the listed sources; needs a human fact-check."
+      }
+    },
+    {
+      "id": "simon-i",
+      "kind": "monarch",
+      "rulers": [
+        "simon-i"
+      ],
+      "tagline": "Nine years in a Persian fortress, then twenty more at war",
+      "start": {
+        "date": "1556"
+      },
+      "end": {
+        "date": "1600"
+      },
+      "contestedWith": [],
+      "relationToPredecessor": "Son of Luarsab I",
+      "ageAtAccession": "About 19",
+      "cameToPower": "Succeeded his father after Garisi",
+      "reignEnded": "Captured by the Ottomans",
+      "previously": "Luarsab I falls at Garisi. His son Simon, who led the army, is king.",
+      "paragraphs": [
+        "Simon (Svimon) took up his father's war, and his worst enemy was family. His brother David went over to the Shah, became a Muslim and ruled Tbilisi for Persia as Daud Khan. Simon fought him and the Persians for years. In 1569, at Partskhisi, he was captured and taken to Iran, where he spent nine years as a prisoner.",
+        "In 1578 the Ottomans invaded the Caucasus, and the Shah suddenly needed a Georgian who hated Turks. Simon was sent home to fight them. He was very good at it. He ambushed columns, besieged garrisons and won back most of Kartli. The Ottomans tried bribes and threats. Simon kept fighting.",
+        "His luck ran out in 1599, when the Ottomans caught him in battle. He was taken to Istanbul and locked in the Yedikule, the Fortress of the Seven Towers. He died there in 1611. Kartli went to his son George X, and this deck now moves east to Kakheti."
+      ],
+      "claims": [
+        {
+          "text": "Simon was held in the fortress of Alamut during his captivity.",
+          "status": "disputed",
+          "note": "Some accounts name Alamut, the old castle of the Assassins, then used as a state prison. Others are vaguer about where he was kept."
+        },
+        {
+          "text": "Simon refused to convert to Islam in Persia.",
+          "status": "disputed",
+          "note": "Georgian tradition says he stood firm. Some sources say he converted outwardly to win his release, and returned to Christianity once home."
+        }
+      ],
+      "hook": "Simon is in the Sultan's prison. Over in Kakheti a teenage king raised at the Shah's court is taking the throne. The Shah thinks he owns him.",
+      "images": [
+        {
+          "file": "File:Engraving of Simon I of Kartli, 1600.jpg",
+          "url": "https://upload.wikimedia.org/wikipedia/commons/0/09/Engraving_of_Simon_I_of_Kartli%2C_1600.jpg",
+          "page": "https://commons.wikimedia.org/wiki/File:Engraving_of_Simon_I_of_Kartli,_1600.jpg",
+          "credit": "Dominicus Custos",
+          "license": "CC0",
+          "made": "1600",
+          "caption": "Engraved by Dominicus Custos and published in Augsburg in 1600, while Simon was still alive.",
+          "alt": "Engraved portrait of King Simon I of Kartli"
+        }
+      ],
+      "sources": [
+        {
+          "title": "Edge of Empires: A History of Georgia",
+          "author": "Donald Rayfield",
+          "note": "Reaktion Books, 2012"
+        },
+        {
+          "title": "The Making of the Georgian Nation",
+          "author": "Ronald Grigor Suny",
+          "note": "2nd ed., Indiana University Press, 1994"
+        },
+        {
+          "title": "A History of the Georgian People",
+          "author": "W. E. D. Allen",
+          "note": "1932"
+        },
+        {
+          "title": "The Georgian Chronicles (Kartlis Tskhovreba)",
+          "author": "Various medieval and early modern Georgian chroniclers",
+          "note": "English translation, Tbilisi: Artanuji, 2014"
+        }
+      ],
+      "review": {
+        "status": "draft",
+        "notes": "Drafted from the listed sources; needs a human fact-check."
+      }
+    },
+    {
+      "id": "teimuraz-i",
+      "kind": "monarch",
+      "rulers": [
+        "teimuraz-i"
+      ],
+      "tagline": "The poet king who lost everything to Shah Abbas",
+      "start": {
+        "date": "1606"
+      },
+      "end": {
+        "date": "1648"
+      },
+      "contestedWith": [],
+      "relationToPredecessor": "Grandson of Alexander II of Kakheti",
+      "ageAtAccession": "About 17",
+      "cameToPower": "Confirmed king by Shah Abbas",
+      "reignEnded": "Driven out by Rostom",
+      "previously": "Simon I is lost to an Ottoman jail. In 1606 Kakheti gets a new king.",
+      "paragraphs": [
+        "Teimuraz, a Bagrationi of the Kakheti line, spent part of his youth at the court of Shah Abbas I and was made king of Kakheti in 1606. Abbas expected obedience. He didn't get it. From 1614 the Shah's armies came down on Kakheti. Chroniclers count the dead in the tens of thousands and the people deported to Iran at 100,000 or more. Their descendants still live in Fereydan, in central Iran.",
+        "Teimuraz's mother Ketevan went to the Shah as a hostage. She was held for years and, at Shiraz on 13 September 1624, tortured to death for refusing to become a Muslim. The Georgian Church honours her as a saint. Two of Teimuraz's sons, also hostages, were castrated. He wrote a long poem on his mother's martyrdom.",
+        "In 1625 the Georgians struck back under Giorgi Saakadze, the Great Mouravi. They wiped out a Persian army at Martkopi, then lost at Marabda. Teimuraz ruled Kartli too from 1625 to 1633, but Persia's man Rostom pushed him out of Kartli and, in 1648, out of Kakheti as well. He ended his days a prisoner of the Shah at Astarabad in 1663."
+      ],
+      "claims": [
+        {
+          "text": "Ketevan was tortured with red-hot pincers before she died.",
+          "status": "disputed",
+          "note": "The details come from Portuguese Augustinian friars in Shiraz who witnessed her death and took relics to Goa. Her death in 1624 is certain; the specifics rest on their account."
+        },
+        {
+          "text": "Shah Abbas had Teimuraz's two hostage sons castrated.",
+          "status": "disputed",
+          "note": "Georgian sources report it and it is widely repeated, but Persian chronicles say little about it."
+        },
+        {
+          "text": "Saakadze later turned on Teimuraz and died in Ottoman service.",
+          "status": "disputed",
+          "note": "He fell out with the king, lost at Bazaleti and fled to the Ottomans, who executed him. Motives and details vary by source."
+        }
+      ],
+      "hook": "Teimuraz is gone. The Shah now rules eastern Georgia through Rostom, a Bagrationi who grew up in Isfahan, prays as a Muslim and does as he's told.",
+      "images": [
+        {
+          "file": "File:King Teimuraz I of Kakheti by Castelli.jpg",
+          "url": "https://upload.wikimedia.org/wikipedia/commons/f/f1/King_Teimuraz_I_of_Kakheti_by_Castelli.jpg",
+          "page": "https://commons.wikimedia.org/wiki/File:King_Teimuraz_I_of_Kakheti_by_Castelli.jpg",
+          "credit": "Cristoforo (Teramo) Castelli",
+          "license": "CC0",
+          "made": "17th century",
+          "caption": "Sketched from life by the Italian missionary Cristoforo Castelli, who worked in Georgia during Teimuraz's lifetime.",
+          "alt": "Pen sketch of King Teimuraz I of Kakheti on horseback, dressed for war"
+        }
+      ],
+      "sources": [
+        {
+          "title": "Edge of Empires: A History of Georgia",
+          "author": "Donald Rayfield",
+          "note": "Reaktion Books, 2012"
+        },
+        {
+          "title": "A History of the Georgian People",
+          "author": "W. E. D. Allen",
+          "note": "1932"
+        },
+        {
+          "title": "The Georgian Chronicles (Kartlis Tskhovreba)",
+          "author": "Various medieval and early modern Georgian chroniclers",
+          "note": "English translation, Tbilisi: Artanuji, 2014"
+        },
+        {
+          "title": "Tsameba Ketevan dedoplisa (The Martyrdom of Queen Ketevan)",
+          "author": "Teimuraz I"
+        }
+      ],
+      "review": {
+        "status": "draft",
+        "notes": "Drafted from the listed sources; needs a human fact-check."
+      }
+    },
+    {
+      "id": "shahs-kings",
+      "kind": "interregnum",
+      "title": "The Shah's Georgian Kings",
+      "house": "kartli",
+      "rulers": [],
+      "tagline": "Bagrationi kings in Persian robes, keeping the Shah's peace",
+      "start": {
+        "date": "1648"
+      },
+      "end": {
+        "date": "1703"
+      },
+      "contestedWith": [],
+      "relationToPredecessor": "Bagrationi vassals of the Shah",
+      "ageAtAccession": "Various",
+      "cameToPower": "Rostom took Kakheti from Teimuraz",
+      "reignEnded": "George XI sent to fight for the Shah",
+      "previously": "Teimuraz I is driven out of Kakheti in 1648 by the Shah's man Rostom.",
+      "paragraphs": [
+        "Rostom, King of Kartli from 1633 to 1658, was a Bagrationi raised in Isfahan. He was a Muslim and had served as the Shah's prefect of Isfahan. From 1648 he held Kakheti too. Under him Kartli got something rare: peace. Tbilisi filled with Persian fashions, Persian titles and Persian taxes, and the churches were left alone.",
+        "Vakhtang V, also called Shah Nawaz, followed Rostom in 1658 and placed his sons around the region. One of them, George XI, tried to defy the Shah, lost his throne, and then switched sides to become one of Persia's best generals. Georgians like him now ran Safavid armies and provinces across the empire.",
+        "In Kakheti the Persians tried settling Turkmen tribes on Georgian land, and in 1659 the locals rose and drove them out. By 1703 George XI was back in favour and was sent east to fight the Afghans at Kandahar, where he would be killed in 1709."
+      ],
+      "claims": [
+        {
+          "text": "Rostom was a Muslim who had run Isfahan for the Shah.",
+          "status": "confirmed",
+          "note": "Persian and Georgian sources agree on his Persian career and faith, and that he still protected the Georgian Church."
+        },
+        {
+          "text": "George XI died fighting the Afghans at Kandahar in 1709.",
+          "status": "confirmed",
+          "note": "Killed by the rebels under Mirwais Hotak while serving as the Shah's commander there."
+        },
+        {
+          "text": "The Kakhetians drove out the Turkmen settlers in a rising of 1659.",
+          "status": "confirmed",
+          "note": "The Bakhtrioni rising is well attested in Georgian sources and remembered as a national victory."
+        }
+      ],
+      "hook": "George XI heads off to Kandahar. Someone has to run Kartli while he's gone. He picks his nephew Vakhtang, a 27-year-old with a passion for books.",
+      "images": [
+        {
+          "file": "File:Rostom of Kartli.jpg",
+          "url": "https://upload.wikimedia.org/wikipedia/commons/1/16/Rostom_of_Kartli.jpg",
+          "page": "https://commons.wikimedia.org/wiki/File:Rostom_of_Kartli.jpg",
+          "credit": "Cristoforo (Teramo) Castelli",
+          "license": "Public domain",
+          "made": "17th century",
+          "caption": "Rostom of Kartli as sketched by the Italian missionary Cristoforo Castelli, who knew his court.",
+          "alt": "Sketch of King Rostom of Kartli by Cristoforo Castelli"
+        }
+      ],
+      "sources": [
+        {
+          "title": "Edge of Empires: A History of Georgia",
+          "author": "Donald Rayfield",
+          "note": "Reaktion Books, 2012"
+        },
+        {
+          "title": "The Last Years of the Georgian Monarchy, 1658–1832",
+          "author": "David Marshall Lang",
+          "note": "Columbia University Press, 1957"
+        },
+        {
+          "title": "The Making of the Georgian Nation",
+          "author": "Ronald Grigor Suny",
+          "note": "2nd ed., Indiana University Press, 1994"
+        },
+        {
+          "title": "The Georgian Chronicles (Kartlis Tskhovreba)",
+          "author": "Various medieval and early modern Georgian chroniclers",
+          "note": "English translation, Tbilisi: Artanuji, 2014"
+        }
+      ],
+      "review": {
+        "status": "draft",
+        "notes": "Drafted from the listed sources; needs a human fact-check."
+      }
+    },
+    {
+      "id": "vakhtang-vi",
+      "kind": "monarch",
+      "rulers": [
+        "vakhtang-vi"
+      ],
+      "tagline": "The scholar king who gave Georgia its printing press",
+      "start": {
+        "date": "1703"
+      },
+      "end": {
+        "date": "1724"
+      },
+      "contestedWith": [],
+      "relationToPredecessor": "Nephew of George XI",
+      "ageAtAccession": "27",
+      "cameToPower": "Made regent for his absent uncle",
+      "reignEnded": "Left for exile in Russia",
+      "previously": "George XI marches off to fight for the Shah. His nephew runs Kartli.",
+      "paragraphs": [
+        "Vakhtang began in 1703 as regent for his uncle George XI, who was off fighting in Afghanistan. He was a builder of a different kind. In 1709 he set up Georgia's first printing press in Tbilisi, and in 1712 it printed Rustaveli's epic, The Knight in the Panther's Skin, with his own notes. He issued a law code and set scholars to gather and edit the Georgian chronicles, the Kartlis Tskhovreba.",
+        "To be confirmed as king, he had to go to Isfahan, and in 1716 he accepted Islam to get the Shah's blessing. He was king until 1724. Meanwhile he hunted for Christian allies. His uncle and tutor, the writer Sulkhan-Saba Orbeliani, went all the way to Louis XIV and the pope in 1713–1716. He came back with nothing.",
+        "Then Peter the Great marched on Persia in 1722, and Vakhtang gathered his army to join him. Peter turned back. The Ottomans took Tbilisi in 1723. In 1724 Vakhtang left for Russia with a huge retinue of family and followers. He died in Astrakhan in 1737 and never saw Georgia again."
+      ],
+      "claims": [
+        {
+          "text": "Vakhtang's conversion to Islam was only for show.",
+          "status": "disputed",
+          "note": "He needed it to get the crown, and he kept up his Christian scholarship and church work. How sincere it was is anyone's guess."
+        },
+        {
+          "text": "Peter the Great promised help that never came.",
+          "status": "confirmed",
+          "note": "Vakhtang mustered his army for the 1722 campaign and was left exposed when Peter withdrew. Russian and Georgian sources agree."
+        }
+      ],
+      "hook": "Vakhtang is gone to Russia. Ottoman troops hold Tbilisi, Persia is in ruins, and a Persian warlord named Nader is about to change everything.",
+      "images": [
+        {
+          "file": "File:Vakhtang VI of Kartli (1712).JPG",
+          "url": "https://upload.wikimedia.org/wikipedia/commons/e/e4/Vakhtang_VI_of_Kartli_%281712%29.JPG",
+          "page": "https://commons.wikimedia.org/wiki/File:Vakhtang_VI_of_Kartli_(1712).JPG",
+          "credit": "Unknown artist",
+          "license": "Public domain",
+          "made": "1712",
+          "caption": "His portrait from the 1712 Tbilisi printing of The Knight in the Panther's Skin, made by his own press.",
+          "alt": "Printed portrait of Vakhtang VI on a page of the 1712 edition of The Knight in the Panther's Skin"
+        }
+      ],
+      "sources": [
+        {
+          "title": "Edge of Empires: A History of Georgia",
+          "author": "Donald Rayfield",
+          "note": "Reaktion Books, 2012"
+        },
+        {
+          "title": "The Last Years of the Georgian Monarchy, 1658–1832",
+          "author": "David Marshall Lang",
+          "note": "Columbia University Press, 1957"
+        },
+        {
+          "title": "The Making of the Georgian Nation",
+          "author": "Ronald Grigor Suny",
+          "note": "2nd ed., Indiana University Press, 1994"
+        },
+        {
+          "title": "The Knight in the Panther's Skin",
+          "author": "Shota Rustaveli",
+          "note": "Tbilisi edition of 1712 with Vakhtang VI's commentary; English translation by Marjory Scott Wardrop, 1912"
+        }
+      ],
+      "review": {
+        "status": "draft",
+        "notes": "Drafted from the listed sources; needs a human fact-check."
+      }
+    },
+    {
+      "id": "ottomans-and-nader",
+      "kind": "interregnum",
+      "title": "Between Sultan and Shah",
+      "house": "overlords",
+      "rulers": [],
+      "tagline": "The Turks leave, Nader Shah arrives, and nobody gets a break",
+      "start": {
+        "date": "1724"
+      },
+      "end": {
+        "date": "1744"
+      },
+      "contestedWith": [],
+      "relationToPredecessor": "Ottoman and Persian overlords",
+      "ageAtAccession": "Various",
+      "cameToPower": "Vakhtang VI fled to Russia",
+      "reignEnded": "Nader crowned Teimuraz II and Erekle",
+      "previously": "Vakhtang VI heads into exile in Russia. The Ottomans hold Tbilisi.",
+      "paragraphs": [
+        "With the Safavid state collapsing, the Ottomans moved into eastern Georgia and held Tbilisi from 1723. They counted the land for taxes and handed out estates. Some Georgian nobles cooperated. Others went to the hills.",
+        "Then came Nader, a tough soldier rebuilding Persia by force, who drove the Ottomans out in 1735 and made himself shah the next year. For Georgia he was no rescuer. He demanded taxes, troops and hostages, and Georgian nobles revolted more than once. Among the Georgians in his service was a young Bagrationi prince from Kakheti named Erekle.",
+        "In 1744 Nader settled things his way. He made Teimuraz II, of the Kakheti line, King of Kartli, and gave Kakheti to Teimuraz's son Erekle. Teimuraz was married to Vakhtang VI's daughter Tamar, so the two branches of the family were finally joined."
+      ],
+      "claims": [
+        {
+          "text": "Young Erekle went with Nader Shah on his invasion of India in 1739.",
+          "status": "legend",
+          "note": "A famous tradition repeated in many histories. Some historians doubt it, since no contemporary record clearly places him there."
+        },
+        {
+          "text": "Nader drove the Ottomans out of Tbilisi in 1735.",
+          "status": "confirmed",
+          "note": "Ottoman and Persian sources agree on the handover after his victories that year."
+        }
+      ],
+      "hook": "Erekle is king of Kakheti at 23. He is short, tough and restless, and he is going to spend the next fifty years trying to keep Georgia alive.",
+      "images": [
+        {
+          "file": "File:Vinogradov. Portrait of King Teimuraz II of Georgia. 1761.jpg",
+          "url": "https://upload.wikimedia.org/wikipedia/commons/f/fd/Vinogradov._Portrait_of_King_Teimuraz_II_of_Georgia._1761.jpg",
+          "page": "https://commons.wikimedia.org/wiki/File:Vinogradov._Portrait_of_King_Teimuraz_II_of_Georgia._1761.jpg",
+          "credit": "Efim Vinogradov and Alexey Grekov, after Aleksey Antropov",
+          "license": "Public domain",
+          "made": "1761",
+          "caption": "Teimuraz II, engraved in 1761 during his visit to Russia, after a painting by Aleksey Antropov.",
+          "alt": "Engraved portrait of King Teimuraz II of Georgia"
+        }
+      ],
+      "sources": [
+        {
+          "title": "Edge of Empires: A History of Georgia",
+          "author": "Donald Rayfield",
+          "note": "Reaktion Books, 2012"
+        },
+        {
+          "title": "The Last Years of the Georgian Monarchy, 1658–1832",
+          "author": "David Marshall Lang",
+          "note": "Columbia University Press, 1957"
+        },
+        {
+          "title": "The Making of the Georgian Nation",
+          "author": "Ronald Grigor Suny",
+          "note": "2nd ed., Indiana University Press, 1994"
+        },
+        {
+          "title": "A History of the Georgian People",
+          "author": "W. E. D. Allen",
+          "note": "1932"
+        }
+      ],
+      "review": {
+        "status": "draft",
+        "notes": "Drafted from the listed sources; needs a human fact-check."
+      }
+    },
+    {
+      "id": "erekle-ii",
+      "kind": "monarch",
+      "rulers": [
+        "erekle-ii"
+      ],
+      "tagline": "The little king who fought for fifty years and lost his city",
+      "start": {
+        "date": "1744"
+      },
+      "end": {
+        "date": "1798-01-11"
+      },
+      "contestedWith": [],
+      "relationToPredecessor": "Son of Teimuraz II",
+      "ageAtAccession": "23",
+      "cameToPower": "Made King of Kakheti by Nader Shah",
+      "reignEnded": "Died at Telavi",
+      "previously": "Nader Shah crowns Teimuraz II in Kartli and his son Erekle in Kakheti.",
+      "paragraphs": [
+        "Erekle II (often Heraclius II in English books) was small, quick and always in the saddle. Georgians called him Patara Kakhi, the Little Kakhetian. When his father died in Russia in 1762, he united Kartli and Kakheti under one Bagrationi crown. Year after year he fought off Lezgin raiders from Daghestan. In 1770 he beat the Ottomans at Aspindza, after his Russian ally, General Totleben, had marched off.",
+        "Erekle bet on Russia. By the Treaty of Georgievsk, 24 July 1783, Kartli-Kakheti became a Russian protectorate: Catherine the Great guaranteed the kingdom and the Bagrationi throne. In 1787 the Russian troops left. Agha Mohammad Khan, the new strongman of Iran, ordered Erekle to drop Russia. He refused.",
+        "In September 1795 the Persians came. At Krtsanisi, Erekle, about 75, was beaten. Tbilisi was sacked and burned. Thousands were killed, and those dragged off as slaves are usually counted at around 15,000, though figures vary. No Russian help arrived in time. Erekle died at Telavi on 11 January 1798."
+      ],
+      "claims": [
+        {
+          "text": "Three hundred men from Aragvi died to the last man covering the retreat at Krtsanisi.",
+          "status": "legend",
+          "note": "A cherished national tradition. Troops from the Aragvi valley did fight there, but the number and the last stand are not reliably recorded."
+        },
+        {
+          "text": "Erekle was dragged from the battlefield by his grandson.",
+          "status": "disputed",
+          "note": "Georgian accounts say a grandson led the old king away against his will. Which grandson and how it happened varies by telling."
+        },
+        {
+          "text": "Totleben abandoned Erekle just before Aspindza.",
+          "status": "confirmed",
+          "note": "The Russian general quarrelled with the king and withdrew his troops. Details of the quarrel differ between Russian and Georgian accounts."
+        }
+      ],
+      "hook": "Erekle is dead, and his will says the crown should pass from brother to brother. His eldest son George is sick, heavy and has other plans.",
+      "images": [
+        {
+          "file": "File:Heraclius II of Eastern Georgia.jpg",
+          "url": "https://upload.wikimedia.org/wikipedia/commons/2/26/Heraclius_II_of_Eastern_Georgia.jpg",
+          "page": "https://commons.wikimedia.org/wiki/File:Heraclius_II_of_Eastern_Georgia.jpg",
+          "credit": "Unknown artist",
+          "license": "Public domain",
+          "made": "Late 1700s",
+          "caption": "Painted in the late 18th century, in Erekle's own lifetime.",
+          "alt": "Painted portrait of King Erekle II of Georgia"
+        }
+      ],
+      "sources": [
+        {
+          "title": "The Last Years of the Georgian Monarchy, 1658–1832",
+          "author": "David Marshall Lang",
+          "note": "Columbia University Press, 1957"
+        },
+        {
+          "title": "Edge of Empires: A History of Georgia",
+          "author": "Donald Rayfield",
+          "note": "Reaktion Books, 2012"
+        },
+        {
+          "title": "The Making of the Georgian Nation",
+          "author": "Ronald Grigor Suny",
+          "note": "2nd ed., Indiana University Press, 1994"
+        },
+        {
+          "title": "A History of the Georgian People",
+          "author": "W. E. D. Allen",
+          "note": "1932"
+        }
+      ],
+      "review": {
+        "status": "draft",
+        "notes": "Drafted from the listed sources; needs a human fact-check."
+      }
+    },
+    {
+      "id": "george-xii",
+      "kind": "monarch",
+      "rulers": [
+        "george-xii"
+      ],
+      "tagline": "The last king, who asked the Tsar to take his kingdom",
+      "start": {
+        "date": "1798-01-11"
+      },
+      "end": {
+        "date": "1800-12-28"
+      },
+      "contestedWith": [],
+      "relationToPredecessor": "Son of Erekle II",
+      "ageAtAccession": "51",
+      "cameToPower": "Succeeded his father",
+      "reignEnded": "Died in Tbilisi",
+      "previously": "Erekle II dies at Telavi, his capital in ruins and Russia far away.",
+      "paragraphs": [
+        "George XII inherited a burned capital, an empty treasury and a family at war. He was in his fifties and in poor health. His stepmother, Queen Darejan, and his half-brothers pointed to Erekle's ruling that the crown should pass from brother to brother. George wanted it to go to his own son.",
+        "With Persia threatening again and his court split, George turned to Tsar Paul I. He asked him to take Kartli-Kakheti into the Russian Empire, on condition that the Bagrationi stayed on as kings. Russian troops arrived in 1799. In November 1800, alongside them, the Georgians beat an Avar and Lezgin invasion on the Iori river.",
+        "It was his last good news. George XII died in Tbilisi on 28 December 1800, the last Bagrationi king of Kartli-Kakheti. What happened to his kingdom next was decided in St Petersburg."
+      ],
+      "claims": [
+        {
+          "text": "George XII was very fat and too ill to rule in person for much of his reign.",
+          "status": "disputed",
+          "note": "Russian envoys and Georgian writers describe his size and illnesses. How far it stopped him governing is debated."
+        },
+        {
+          "text": "The victory over the Avars was won on the Iori, near Niakhura, in November 1800.",
+          "status": "disputed",
+          "note": "Russian and Georgian accounts give the battle different names and dates within that month."
+        },
+        {
+          "text": "George was not crowned until 1799.",
+          "status": "disputed",
+          "note": "Some sources date his formal coronation to 1799, over a year after his accession. Others leave it unclear."
+        }
+      ],
+      "images": [
+        {
+          "file": "File:Giorgi XII of Georgia.jpg",
+          "url": "https://upload.wikimedia.org/wikipedia/commons/3/36/Giorgi_XII_of_Georgia.jpg",
+          "page": "https://commons.wikimedia.org/wiki/File:Giorgi_XII_of_Georgia.jpg",
+          "credit": "Unknown artist",
+          "license": "Public domain",
+          "made": "c. 1800",
+          "caption": "Painted around 1800, in or near the last year of his life.",
+          "alt": "Painted portrait of King George XII of Georgia"
+        }
+      ],
+      "sources": [
+        {
+          "title": "The Last Years of the Georgian Monarchy, 1658–1832",
+          "author": "David Marshall Lang",
+          "note": "Columbia University Press, 1957"
+        },
+        {
+          "title": "Edge of Empires: A History of Georgia",
+          "author": "Donald Rayfield",
+          "note": "Reaktion Books, 2012"
+        },
+        {
+          "title": "The Making of the Georgian Nation",
+          "author": "Ronald Grigor Suny",
+          "note": "2nd ed., Indiana University Press, 1994"
+        },
+        {
+          "title": "A History of the Georgian People",
+          "author": "W. E. D. Allen",
+          "note": "1932"
+        }
+      ],
+      "review": {
+        "status": "draft",
+        "notes": "Drafted from the listed sources; needs a human fact-check."
+      }
+    }
+  ]
+}
