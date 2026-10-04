@@ -1,0 +1,378 @@
+{
+  "id": "jordan",
+  "name": "Jordan",
+  "blurb": "The Hashemite kings, from desert emirate to modern kingdom",
+  "dateConvention": "Dates are Western (Gregorian); dates from Arabic sources in the Islamic (Hijri) calendar are given as their standard Western equivalents. Abdullah I ruled as emir of Transjordan from 1921 and as king from 1946.",
+  "houses": [
+    {
+      "id": "hashemite",
+      "name": "Hashemite",
+      "color": "#7a1f2b"
+    }
+  ],
+  "rulers": [
+    {
+      "id": "abdullah-i",
+      "name": "Abdullah I",
+      "house": "hashemite",
+      "born": {
+        "date": "1882-02-02",
+        "note": "Mecca"
+      },
+      "died": {
+        "date": "1951-07-20",
+        "note": "Al-Aqsa Mosque, Jerusalem"
+      },
+      "causeOfDeath": "Shot by an assassin"
+    },
+    {
+      "id": "talal",
+      "name": "Talal",
+      "house": "hashemite",
+      "born": {
+        "date": "1909-02-26",
+        "note": "Mecca"
+      },
+      "died": {
+        "date": "1972-07-07",
+        "note": "Istanbul"
+      },
+      "causeOfDeath": "Died in a sanatorium after long illness"
+    },
+    {
+      "id": "hussein",
+      "name": "Hussein",
+      "house": "hashemite",
+      "born": {
+        "date": "1935-11-14",
+        "note": "Amman"
+      },
+      "died": {
+        "date": "1999-02-07",
+        "note": "Amman"
+      },
+      "causeOfDeath": "Cancer (non-Hodgkin lymphoma)"
+    },
+    {
+      "id": "abdullah-ii",
+      "name": "Abdullah II",
+      "house": "hashemite",
+      "born": {
+        "date": "1962-01-30",
+        "note": "Amman"
+      }
+    }
+  ],
+  "reigns": [
+    {
+      "id": "abdullah-i",
+      "kind": "monarch",
+      "rulers": [
+        "abdullah-i"
+      ],
+      "tagline": "The emir who built a kingdom out of a desert",
+      "start": {
+        "date": "1921-04-11"
+      },
+      "end": {
+        "date": "1951-07-20"
+      },
+      "contestedWith": [],
+      "relationToPredecessor": "Son of Sharif Hussein of Mecca",
+      "ageAtAccession": "39",
+      "cameToPower": "Made emir by the British",
+      "reignEnded": "Shot dead at al-Aqsa",
+      "previously": "The Arab Revolt helps beat the Ottomans, but no Arab kingdom follows.",
+      "paragraphs": [
+        "Abdullah was born in Mecca in 1882, a son of Sharif Hussein, keeper of Islam's holiest city. In June 1916 his father rose against the Ottomans with British backing, and his sons led the revolt, with T. E. Lawrence riding beside Abdullah's brother Faisal. They hoped for a great Arab kingdom. It never came. In 1920 France threw Faisal out of Damascus, and late that year Abdullah turned up in Transjordan with a small armed band, talking of a march on Syria.",
+        "Britain had other plans. In March 1921 Winston Churchill, then Colonial Secretary, met him in Jerusalem, and Abdullah came away emir of Transjordan under British mandate. It was a poor, thinly peopled desert, kept going by a British subsidy and guarded by the British-officered Arab Legion, led by Glubb Pasha from 1939. Faisal got Iraq. Their father lost Mecca and the Hejaz to Ibn Saud in 1924 and 1925. On 25 May 1946 Transjordan won its independence and Abdullah became king.",
+        "In the 1948 war his Arab Legion held the Old City of Jerusalem and the West Bank, and in 1950 he annexed them. He had also been talking in secret with the Zionist leadership. On 20 July 1951, at the entrance to al-Aqsa Mosque during Friday prayers, a young Palestinian named Mustafa Shukri Ashu shot him dead. The guards killed the gunman on the spot. Abdullah's 15-year-old grandson Hussein was standing beside him."
+      ],
+      "claims": [
+        {
+          "text": "Golda Meir met Abdullah secretly in November 1947, and again in May 1948 disguised as an Arab woman.",
+          "status": "confirmed",
+          "note": "Meir told the story in her memoir My Life, and historians such as Avi Shlaim have documented the talks."
+        },
+        {
+          "text": "A bullet aimed at young Hussein bounced off a medal his grandfather had pinned on him.",
+          "status": "disputed",
+          "note": "This is Hussein's own account, repeated widely. No independent witness backs up the detail."
+        },
+        {
+          "text": "Most countries never recognised Jordan's annexation of the West Bank.",
+          "status": "confirmed",
+          "note": "Well documented. Britain was one of very few states to accept it, and it excluded Jerusalem."
+        }
+      ],
+      "hook": "Abdullah lies dead at the door of al-Aqsa. The crown passes to his eldest son, Talal, a trained soldier with a patriotic following. But Talal is a sick man.",
+      "images": [
+        {
+          "file": "File:Abdullah I of Jordan portrait.jpg",
+          "url": "https://upload.wikimedia.org/wikipedia/commons/8/88/Abdullah_I_of_Jordan_portrait.jpg",
+          "page": "https://commons.wikimedia.org/wiki/File:Abdullah_I_of_Jordan_portrait.jpg",
+          "credit": "Cecil Beaton (Imperial War Museums, CBM 1666)",
+          "license": "Public domain",
+          "made": "1942",
+          "caption": "Photographed in Amman by Cecil Beaton in 1942, when Abdullah was still emir.",
+          "alt": "Half-length photograph of Emir Abdullah of Transjordan in Amman"
+        }
+      ],
+      "sources": [
+        {
+          "title": "King Abdullah, Britain and the Making of Jordan",
+          "author": "Mary C. Wilson",
+          "note": "Cambridge University Press, 1987"
+        },
+        {
+          "title": "Collusion Across the Jordan",
+          "author": "Avi Shlaim",
+          "note": "Columbia University Press, 1988; the secret talks"
+        },
+        {
+          "title": "My Life",
+          "author": "Golda Meir",
+          "note": "1975; her meetings with Abdullah"
+        },
+        {
+          "title": "The Modern History of Jordan",
+          "author": "Kamal Salibi",
+          "note": "I. B. Tauris, 1993"
+        }
+      ],
+      "review": {
+        "status": "draft",
+        "notes": "Drafted from the listed sources; needs a human fact-check."
+      }
+    },
+    {
+      "id": "talal",
+      "kind": "monarch",
+      "rulers": [
+        "talal"
+      ],
+      "tagline": "One year on the throne, a constitution that lasted",
+      "start": {
+        "date": "1951-07-20"
+      },
+      "end": {
+        "date": "1952-08-11"
+      },
+      "contestedWith": [],
+      "relationToPredecessor": "Eldest son of Abdullah I",
+      "ageAtAccession": "42",
+      "cameToPower": "Chosen over his half-brother Naif",
+      "reignEnded": "Deposed by parliament as unfit",
+      "previously": "Abdullah I is shot dead at al-Aqsa. His son Talal is next in line.",
+      "paragraphs": [
+        "Talal was born in Mecca in 1909 and trained as an officer at Sandhurst. Father and son never had an easy time of it. When Abdullah was killed, his younger son Naif, Talal's half-brother, was also put forward for the throne. But Talal had friends where it counted. The Arab press cheered him as a patriot who stood up to the British, and he was proclaimed king.",
+        "His reign lasted barely a year, yet it left something that still matters. The 1952 constitution made ministers answerable to parliament, and it is still the basis of Jordan's constitution today. On 9 September 1951 he named his son Hussein crown prince.",
+        "Talal was ill, though. His mental illness, reported as schizophrenia, got worse, and on 11 August 1952 parliament deposed him on medical grounds. He spent the next twenty years in a sanatorium in Istanbul and died there in July 1972."
+      ],
+      "claims": [
+        {
+          "text": "Talal's 1952 constitution is still the basis of Jordan's constitution.",
+          "status": "confirmed",
+          "note": "It has been amended many times, including in 2011, but never replaced."
+        },
+        {
+          "text": "Parliament removed Talal because of mental illness.",
+          "status": "confirmed",
+          "note": "That was the official ground, voted on in a special session; the illness is usually reported as schizophrenia."
+        },
+        {
+          "text": "Talal won the throne over his half-brother Naif.",
+          "status": "confirmed",
+          "note": "Naif also sought the crown. Egyptian and Syrian papers praised Talal as anti-British and painted Naif as Britain's man."
+        }
+      ],
+      "hook": "Talal is gone. The new king, Hussein, is a 16-year-old schoolboy just out of Harrow. A regency will rule until he comes of age and is enthroned on 2 May 1953.",
+      "images": [
+        {
+          "file": "File:King Talal in 1952.jpg",
+          "url": "https://upload.wikimedia.org/wikipedia/commons/f/fc/King_Talal_in_1952.jpg",
+          "page": "https://commons.wikimedia.org/wiki/File:King_Talal_in_1952.jpg",
+          "credit": "Unknown photographer (Royal Hashemite Documentation Center)",
+          "license": "Public domain",
+          "made": "1952",
+          "caption": "King Talal in 1952, the year parliament removed him.",
+          "alt": "Photograph of King Talal of Jordan in 1952"
+        }
+      ],
+      "sources": [
+        {
+          "title": "A History of Jordan",
+          "author": "Philip Robins",
+          "note": "Cambridge University Press, 2004"
+        },
+        {
+          "title": "The Modern History of Jordan",
+          "author": "Kamal Salibi",
+          "note": "I. B. Tauris, 1993"
+        },
+        {
+          "title": "Lion of Jordan: The Life of King Hussein in War and Peace",
+          "author": "Avi Shlaim",
+          "note": "Allen Lane, 2007"
+        }
+      ],
+      "review": {
+        "status": "draft",
+        "notes": "Drafted from the listed sources; needs a human fact-check."
+      }
+    },
+    {
+      "id": "hussein",
+      "kind": "monarch",
+      "rulers": [
+        "hussein"
+      ],
+      "tagline": "The boy king who outlasted every plot for 47 years",
+      "start": {
+        "date": "1952-08-11"
+      },
+      "end": {
+        "date": "1999-02-07"
+      },
+      "contestedWith": [],
+      "relationToPredecessor": "Eldest son of Talal",
+      "ageAtAccession": "16",
+      "cameToPower": "Father deposed as unfit to rule",
+      "reignEnded": "Died of cancer",
+      "previously": "Parliament deposes the ailing Talal. His son Hussein is just 16.",
+      "paragraphs": [
+        "Hussein was born in Amman in 1935. He went to Victoria College in Alexandria, then Harrow, where his cousin Faisal II of Iraq was also a pupil, then Sandhurst. He was enthroned on 2 May 1953. In March 1956 he sacked Glubb Pasha, the British commander of his army. In 1958 he and Faisal joined their kingdoms in an Arab Federation, but on 14 July a revolution in Baghdad killed Faisal and the Iraqi royal family, and the federation died with them.",
+        "Plots and attempts on his life dogged him for decades. He called his 1962 memoir Uneasy Lies the Head. In the Six-Day War of June 1967 Jordan lost East Jerusalem and the West Bank. In September 1970 the army fought the Palestinian guerrilla groups that had become a state within the state. Thousands were killed, with estimates varying widely, and by 1971 the PLO had been driven out to Lebanon. In July 1988 he gave up Jordan's claim to the West Bank.",
+        "For decades he met Israeli leaders in secret, and on 26 October 1994 he signed a peace treaty with Israel. In 1997 Mossad agents tried to poison the Hamas leader Khaled Mashal in Amman, and Hussein made Israel hand over the antidote and free Sheikh Ahmed Yassin. He married four times, last of all to the American-born Queen Noor in 1978. He died of cancer in Amman on 7 February 1999, after nearly 47 years on the throne."
+      ],
+      "claims": [
+        {
+          "text": "Hussein met Israeli leaders secretly for decades before the 1994 treaty.",
+          "status": "confirmed",
+          "note": "Documented by Avi Shlaim from interviews and archives, and later admitted on both sides."
+        },
+        {
+          "text": "Hussein forced Israel to hand over the antidote that saved Khaled Mashal.",
+          "status": "confirmed",
+          "note": "Widely reported at the time; the release of Sheikh Ahmed Yassin was part of the settlement."
+        },
+        {
+          "text": "Hussein spoke at Yitzhak Rabin's funeral in Jerusalem in 1995.",
+          "status": "confirmed",
+          "note": "Broadcast live around the world; he called Rabin “my brother, colleague and friend”."
+        }
+      ],
+      "hook": "Weeks before he died, Hussein rewrote the succession. His brother Hassan, crown prince since 1965, was set aside in January 1999. The new heir was Hussein's eldest son, Abdullah, an army officer.",
+      "images": [
+        {
+          "file": "File:Hussein bin Talal (1953) (Crop).jpg",
+          "url": "https://upload.wikimedia.org/wikipedia/commons/3/34/Hussein_bin_Talal_%281953%29_%28Crop%29.jpg",
+          "page": "https://commons.wikimedia.org/wiki/File:Hussein_bin_Talal_(1953)_(Crop).jpg",
+          "credit": "Willem van de Poll (Nationaal Archief)",
+          "license": "CC0",
+          "made": "1953",
+          "caption": "The teenage king in his palace in Amman, photographed in 1953, the year he was enthroned.",
+          "alt": "Photograph of the young King Hussein in the palace in Amman"
+        }
+      ],
+      "sources": [
+        {
+          "title": "Lion of Jordan: The Life of King Hussein in War and Peace",
+          "author": "Avi Shlaim",
+          "note": "Allen Lane, 2007"
+        },
+        {
+          "title": "Uneasy Lies the Head",
+          "author": "King Hussein of Jordan",
+          "note": "1962 memoir"
+        },
+        {
+          "title": "A History of Jordan",
+          "author": "Philip Robins",
+          "note": "Cambridge University Press, 2004"
+        },
+        {
+          "title": "The Arabs: A History",
+          "author": "Eugene Rogan",
+          "note": "2009"
+        }
+      ],
+      "review": {
+        "status": "draft",
+        "notes": "Drafted from the listed sources; needs a human fact-check."
+      }
+    },
+    {
+      "id": "abdullah-ii",
+      "kind": "monarch",
+      "rulers": [
+        "abdullah-ii"
+      ],
+      "tagline": "The career soldier handed the crown at the last minute",
+      "start": {
+        "date": "1999-02-07"
+      },
+      "contestedWith": [],
+      "relationToPredecessor": "Eldest son of Hussein",
+      "ageAtAccession": "37",
+      "cameToPower": "Named heir weeks before father died",
+      "reignEnded": "Still reigning",
+      "previously": "Hussein dies after 47 years. His son Abdullah, the new heir, is king.",
+      "paragraphs": [
+        "Abdullah was born in Amman in 1962, the eldest son of King Hussein and his British-born second wife, Princess Muna. He was schooled in Britain and the United States, went through Sandhurst and made the army his life, rising to command Jordan's special forces. He married Rania in 1993. Everyone had him down as a career soldier. Then his father changed the succession, and in February 1999 Abdullah became king.",
+        "On 9 November 2005 suicide bombers struck three Amman hotels, killing about 60 people; al-Qaeda in Iraq claimed the attacks. The Arab Spring brought protests in 2011, and the king answered with constitutional amendments. Syria's war sent hundreds of thousands of refugees into Jordan. In February 2015 Islamic State released a video of the captured Jordanian pilot Muath al-Kasasbeh being burned alive. Jordan executed jihadist prisoners and stepped up its air strikes.",
+        "In April 2021 his half-brother Prince Hamzah, crown prince from 1999 to 2004, was placed under restrictions over an alleged plot, which Hamzah denied. In 2022 two men, including the former royal court chief Bassem Awadallah, got 15 years for sedition. Abdullah's son Hussein, born in 1994, has been crown prince since 2009. In April 2024 Jordan helped shoot down Iranian drones crossing its airspace towards Israel. More than a century on, the Hashemites are still on the throne."
+      ],
+      "claims": [
+        {
+          "text": "The Amman hotel bombings of 9 November 2005 killed about 60 people.",
+          "status": "confirmed",
+          "note": "Widely reported; al-Qaeda in Iraq claimed responsibility. Published tolls differ slightly."
+        },
+        {
+          "text": "Bassem Awadallah was sentenced to 15 years for sedition in 2022.",
+          "status": "confirmed",
+          "note": "A State Security Court verdict, widely reported. Prince Hamzah denied wrongdoing and was not put on trial."
+        },
+        {
+          "text": "Jordan helped shoot down Iranian drones in April 2024.",
+          "status": "confirmed",
+          "note": "Stated by the Jordanian government, which said it was defending its own airspace."
+        }
+      ],
+      "images": [
+        {
+          "file": "File:King Abdullah II of Jordan-2025 (cropped).jpg",
+          "url": "https://upload.wikimedia.org/wikipedia/commons/4/4c/King_Abdullah_II_of_Jordan-2025_%28cropped%29.jpg",
+          "page": "https://commons.wikimedia.org/wiki/File:King_Abdullah_II_of_Jordan-2025_(cropped).jpg",
+          "credit": "The White House",
+          "license": "Public domain",
+          "made": "2025",
+          "caption": "King Abdullah II during a visit to the White House in February 2025.",
+          "alt": "Photograph of King Abdullah II of Jordan"
+        }
+      ],
+      "sources": [
+        {
+          "title": "Our Last Best Chance: The Pursuit of Peace in a Time of Peril",
+          "author": "King Abdullah II of Jordan",
+          "note": "Viking, 2011"
+        },
+        {
+          "title": "A History of Jordan",
+          "author": "Philip Robins",
+          "note": "Cambridge University Press, 2004"
+        },
+        {
+          "title": "Abdullah II",
+          "author": "Encyclopaedia Britannica",
+          "note": "Online entry"
+        }
+      ],
+      "review": {
+        "status": "draft",
+        "notes": "Drafted from the listed sources; needs a human fact-check."
+      }
+    }
+  ]
+}
