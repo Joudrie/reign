@@ -231,6 +231,20 @@
         "date": "1967-04-27",
         "note": "Utrecht"
       }
+    },
+    {
+      "id": "louis-ii",
+      "name": "Louis II",
+      "house": "bonaparte",
+      "born": {
+        "date": "1804-10-11",
+        "note": "Paris"
+      },
+      "died": {
+        "date": "1831-03-17",
+        "note": "Forlì, Papal States"
+      },
+      "causeOfDeath": "Measles"
     }
   ],
   "reigns": [
@@ -546,10 +560,10 @@
         "date": "1672-07-04"
       },
       "contestedWith": [],
-      "relationToPredecessor": "Replaced the stadtholder",
-      "ageAtAccession": "No stadtholder",
+      "relationToPredecessor": "Regents took over from William II",
+      "ageAtAccession": "De Witt 27 in 1653",
       "cameToPower": "Holland left the post empty",
-      "reignEnded": "The Disaster Year",
+      "reignEnded": "French invasion, the Disaster Year",
       "previously": "William II dies of smallpox. His son is born eight days later.",
       "paragraphs": [
         "With no adult Orange around, Holland and most other provinces simply left the stadtholder's job empty. Power sat with the regents, the merchant families who ran the towns. Their star was Johan de Witt, who became Grand Pensionary of Holland in 1653, still in his twenties. He was a mathematician and a superb administrator, and he ran the Republic for nearly twenty years.",
@@ -602,7 +616,67 @@
         "status": "draft",
         "notes": "Drafted from the listed sources; needs a human fact-check."
       },
-      "title": "The First Stadtholderless Period"
+      "title": "The First Stadtholderless Period",
+      "members": [
+        {
+          "name": "Jacob Cats",
+          "start": {
+            "date": "1636"
+          },
+          "end": {
+            "date": "1651"
+          },
+          "note": "Grand Pensionary of Holland at the start of the period"
+        },
+        {
+          "name": "Adriaan Pauw",
+          "start": {
+            "date": "1651"
+          },
+          "end": {
+            "date": "1653"
+          },
+          "note": "Grand Pensionary of Holland"
+        },
+        {
+          "name": "Johan de Witt",
+          "start": {
+            "date": "1653-07-30"
+          },
+          "end": {
+            "date": "1672-08-04"
+          },
+          "note": "Grand Pensionary and real head of the Republic; lynched in The Hague with his brother on 20 August 1672"
+        },
+        {
+          "name": "Cornelis de Witt",
+          "end": {
+            "date": "1672-08-20"
+          },
+          "note": "Johan's brother; burgomaster of Dordrecht and the States' deputy with the fleet on the Medway raid; lynched"
+        },
+        {
+          "name": "Michiel de Ruyter",
+          "note": "Lieutenant-admiral; won the big battles of the Second Anglo-Dutch War and led the Medway raid of June 1667"
+        },
+        {
+          "name": "William Frederick of Nassau-Dietz",
+          "start": {
+            "date": "1650"
+          },
+          "end": {
+            "date": "1664-10-31"
+          },
+          "note": "Stadtholder of Friesland from 1640, and of Groningen and Drenthe from 1650"
+        },
+        {
+          "name": "Henry Casimir II of Nassau-Dietz",
+          "start": {
+            "date": "1664-10-31"
+          },
+          "note": "Stadtholder of Friesland as a child, under his mother Albertine Agnes"
+        }
+      ]
     },
     {
       "id": "william-iii-stadtholder",
@@ -698,8 +772,8 @@
         "date": "1747-05-04"
       },
       "contestedWith": [],
-      "relationToPredecessor": "Replaced the stadtholder",
-      "ageAtAccession": "No stadtholder",
+      "relationToPredecessor": "Heinsius: William III's right hand",
+      "ageAtAccession": "Heinsius was 60",
       "cameToPower": "Five provinces left the post empty",
       "reignEnded": "French invasion brings back Orange",
       "previously": "William III dies after a riding fall, with no children.",
@@ -754,7 +828,79 @@
         "status": "draft",
         "notes": "Drafted from the listed sources; needs a human fact-check."
       },
-      "title": "The Second Stadtholderless Period"
+      "title": "The Second Stadtholderless Period",
+      "members": [
+        {
+          "name": "Anthonie Heinsius",
+          "start": {
+            "date": "1689"
+          },
+          "end": {
+            "date": "1720-08-03"
+          },
+          "note": "Grand Pensionary of Holland; kept the anti-French alliance going in the War of the Spanish Succession"
+        },
+        {
+          "name": "Isaac van Hoornbeek",
+          "start": {
+            "date": "1720"
+          },
+          "end": {
+            "date": "1727"
+          },
+          "note": "Grand Pensionary"
+        },
+        {
+          "name": "Simon van Slingelandt",
+          "start": {
+            "date": "1727"
+          },
+          "end": {
+            "date": "1736-12-01"
+          },
+          "note": "Grand Pensionary; tried and failed to reform the Republic's finances and government"
+        },
+        {
+          "name": "Anthonie van der Heim",
+          "start": {
+            "date": "1737"
+          },
+          "end": {
+            "date": "1746-07-07"
+          },
+          "note": "Grand Pensionary"
+        },
+        {
+          "name": "Jacob Gilles",
+          "start": {
+            "date": "1746"
+          },
+          "end": {
+            "date": "1749"
+          },
+          "note": "Grand Pensionary when the French invasion of 1747 brought back Orange"
+        },
+        {
+          "name": "John William Friso",
+          "start": {
+            "date": "1696"
+          },
+          "end": {
+            "date": "1711-07-14"
+          },
+          "note": "Prince of Orange (disputed with Prussia), stadtholder of Friesland and Groningen; drowned at Moerdijk"
+        },
+        {
+          "name": "William IV",
+          "start": {
+            "date": "1711"
+          },
+          "end": {
+            "date": "1747-05-04"
+          },
+          "note": "Stadtholder of Friesland from birth, later of Groningen, Gelderland and Drenthe; of all provinces from 1747"
+        }
+      ]
     },
     {
       "id": "william-iv",
@@ -912,8 +1058,8 @@
         "date": "1806-06-05"
       },
       "contestedWith": [],
-      "relationToPredecessor": "Replaced the stadtholderate",
-      "ageAtAccession": "No single ruler",
+      "relationToPredecessor": "Patriots overthrew William V",
+      "ageAtAccession": "Pichegru was 33",
       "cameToPower": "French invasion and Patriot revolt",
       "reignEnded": "Napoleon made it a kingdom",
       "previously": "William V flees to England in a fishing boat as the French arrive.",
@@ -972,7 +1118,53 @@
       "review": {
         "status": "draft",
         "notes": "Drafted from the listed sources; needs a human fact-check."
-      }
+      },
+      "members": [
+        {
+          "name": "Charles Pichegru",
+          "start": {
+            "date": "1795-01"
+          },
+          "note": "Commander of the French army that crossed the frozen rivers"
+        },
+        {
+          "name": "Pieter Paulus",
+          "start": {
+            "date": "1796-03-01"
+          },
+          "end": {
+            "date": "1796-03-17"
+          },
+          "note": "First president of the National Assembly; died a few weeks later"
+        },
+        {
+          "name": "Pieter Vreede",
+          "start": {
+            "date": "1798-01-22"
+          },
+          "end": {
+            "date": "1798-06-12"
+          },
+          "note": "Leading figure of the radical regime set up by the coup of January 1798, overthrown in June"
+        },
+        {
+          "name": "Herman Willem Daendels",
+          "start": {
+            "date": "1798"
+          },
+          "note": "General behind both 1798 coups; later governor-general of the Dutch East Indies"
+        },
+        {
+          "name": "Rutger Jan Schimmelpenninck",
+          "start": {
+            "date": "1805"
+          },
+          "end": {
+            "date": "1806"
+          },
+          "note": "Grand Pensionary, a single head of state imposed by Napoleon; stepped down as Louis Bonaparte was made king"
+        }
+      ]
     },
     {
       "id": "louis-bonaparte",
@@ -1015,7 +1207,7 @@
           "note": "Their angry letters survive, and Louis defended his record in his own memoirs, published in 1820."
         }
       ],
-      "hook": "Louis is gone. Napoleon signs a decree: the Kingdom of Holland no longer exists. The Dutch are now Frenchmen, and the emperor is about to want their sons, their ships and their surnames.",
+      "hook": "Louis slips away by night, but he leaves the crown to his five-year-old son. For a few days Holland has a boy king, Louis II. His uncle Napoleon has other ideas.",
       "images": [
         {
           "file": "File:C.H. Hodges - Lodewijk Napoleon (1778-1846), koning der Nederlanden - C677 - Het Loo Palace.jpg",
@@ -1051,6 +1243,87 @@
       }
     },
     {
+      "id": "louis-ii",
+      "kind": "monarch",
+      "rulers": [
+        "louis-ii"
+      ],
+      "tagline": "King of Holland at five, for about a week",
+      "start": {
+        "date": "1810-07-01"
+      },
+      "end": {
+        "date": "1810-07-09"
+      },
+      "contestedWith": [],
+      "relationToPredecessor": "Son of Louis Bonaparte",
+      "ageAtAccession": "5",
+      "cameToPower": "Father abdicated in his favour",
+      "reignEnded": "Napoleon annexed Holland",
+      "previously": "Louis Bonaparte abdicates and flees, leaving the crown to his son.",
+      "paragraphs": [
+        "When Louis Bonaparte gave up the Dutch crown on 1 July 1810, he didn't just walk away. He passed it to his elder surviving son, Napoléon Louis, who was five. The boy was only heir because his big brother had died of croup in 1807. Louis hoped a child king would keep the Kingdom of Holland alive and out of Napoleon's hands.",
+        "It didn't work. Napoleon had no wish to see a little nephew grow up on a Dutch throne thinking like his father. French troops were already closing in on Amsterdam. On 9 July, at Rambouillet, the emperor signed a decree making Holland part of France. The boy got no crowning, no reign and barely a mention. The Dutch remember him, if at all, as Lodewijk II.",
+        "He had another title to fall back on. In 1809 Napoleon had made him Grand Duke of Berg in Germany, which he lost when the empire fell. He grew up in exile, married his cousin Charlotte, Joseph Bonaparte's daughter, and in 1831 joined a revolt against the Pope's rule in central Italy with his younger brother. He caught measles at Forlì and died there, aged 26. That younger brother later became Emperor Napoleon III."
+      ],
+      "claims": [
+        {
+          "text": "For about a week in July 1810, a five-year-old was legally King of Holland.",
+          "status": "disputed",
+          "note": "Louis's act of abdication named him as heir. Napoleon never recognised it, and most Dutch lists of kings leave the boy out."
+        },
+        {
+          "text": "His younger brother became Emperor Napoleon III.",
+          "status": "confirmed",
+          "note": "Louis-Napoléon, the youngest son of Louis and Hortense, was elected president of France in 1848 and made himself emperor in 1852."
+        },
+        {
+          "text": "He died of measles in the middle of an Italian revolt.",
+          "status": "confirmed",
+          "note": "He died at Forlì on 17 March 1831. His mother Hortense then got the younger brother safely out of Italy."
+        }
+      ],
+      "hook": "9 July 1810: at Rambouillet, Napoleon signs Holland out of existence without a word about the little king. The Dutch are Frenchmen now, and the emperor wants their sons, their ships and their surnames.",
+      "images": [
+        {
+          "file": "File:Napoléon-Louis Bonaparte, by François-Joseph Kinson.jpg",
+          "url": "https://upload.wikimedia.org/wikipedia/commons/9/98/Napol%C3%A9on-Louis_Bonaparte%2C_by_Fran%C3%A7ois-Joseph_Kinson.jpg",
+          "page": "https://commons.wikimedia.org/wiki/File:Napol%C3%A9on-Louis_Bonaparte,_by_Fran%C3%A7ois-Joseph_Kinson.jpg",
+          "credit": "François Kinson",
+          "license": "Public domain",
+          "made": "c. 1810–1811",
+          "caption": "A study of the boy painted by François Kinson around 1810, the year of his short reign.",
+          "alt": "Preparatory painted study of the young Napoléon-Louis Bonaparte"
+        }
+      ],
+      "sources": [
+        {
+          "title": "Patriots and Liberators: Revolution in the Netherlands, 1780–1813",
+          "author": "Simon Schama",
+          "note": "Collins, 1977"
+        },
+        {
+          "title": "Documents historiques et réflexions sur le gouvernement de la Hollande",
+          "author": "Louis Bonaparte",
+          "note": "His own account, including the abdication, 1820"
+        },
+        {
+          "title": "Napoleon III and Eugénie",
+          "author": "Jasper Ridley",
+          "note": "Constable, 1979; the brothers in Italy in 1831"
+        },
+        {
+          "title": "A Concise History of the Netherlands",
+          "author": "James C. Kennedy",
+          "note": "Cambridge University Press, 2017"
+        }
+      ],
+      "review": {
+        "status": "draft",
+        "notes": "Drafted from the listed sources; needs a human fact-check."
+      }
+    },
+    {
       "id": "french-rule",
       "kind": "interregnum",
       "title": "Part of Napoleon's Empire",
@@ -1064,11 +1337,11 @@
         "date": "1813-11-30"
       },
       "contestedWith": [],
-      "relationToPredecessor": "Followed Louis's abdication",
-      "ageAtAccession": "No monarch",
-      "cameToPower": "Napoleon annexed the kingdom",
+      "relationToPredecessor": "Uncle of the boy-king Louis II",
+      "ageAtAccession": "Napoleon was 40",
+      "cameToPower": "Rambouillet decree, 9 July 1810",
       "reignEnded": "French driven out in 1813",
-      "previously": "Louis Bonaparte abdicates and flees. Napoleon ignores his little son.",
+      "previously": "Napoleon brushes aside five-year-old Louis II and annexes Holland.",
       "paragraphs": [
         "On 9 July 1810 Napoleon swallowed the Netherlands whole. The country became a set of French departments, run from Amsterdam by a governor-general. Amsterdam was named the third city of the empire, after Paris and Rome, which was little comfort. Trade with Britain was banned, the ports went quiet and smuggling boomed. In October 1811 the emperor himself rode into Amsterdam to be cheered.",
         "French rule brought paperwork. From 1811 everyone had to register a fixed family name, which many Dutch people had never needed. It also brought conscription. Thousands of young Dutchmen marched to Russia in 1812, and few came back. Dutch pontoon builders worked in freezing water to bridge the Berezina so the wrecked army could escape.",
@@ -1124,7 +1397,39 @@
       "review": {
         "status": "draft",
         "notes": "Drafted from the listed sources; needs a human fact-check."
-      }
+      },
+      "members": [
+        {
+          "name": "Napoleon I",
+          "start": {
+            "date": "1810-07-09"
+          },
+          "end": {
+            "date": "1813-11-30"
+          },
+          "note": "Emperor of the French; visited Amsterdam in October 1811"
+        },
+        {
+          "name": "Charles-François Lebrun",
+          "start": {
+            "date": "1810-07"
+          },
+          "end": {
+            "date": "1813-11"
+          },
+          "note": "Duke of Plaisance, governor-general in Amsterdam"
+        },
+        {
+          "name": "Gijsbert Karel van Hogendorp",
+          "start": {
+            "date": "1813-11-21"
+          },
+          "end": {
+            "date": "1813-12-02"
+          },
+          "note": "Led the provisional General Government in The Hague that called the Prince of Orange home"
+        }
+      ]
     },
     {
       "id": "william-i",
