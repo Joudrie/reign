@@ -189,6 +189,91 @@
         "note": "Yingchang, in exile on the steppe"
       },
       "causeOfDeath": "Illness"
+    },
+    {
+      "id": "shidebala",
+      "name": "Shidebala",
+      "epithet": "Gegeen Khan",
+      "house": "yuan",
+      "born": {
+        "date": "1302-02-22"
+      },
+      "died": {
+        "date": "1323-09-04",
+        "note": "Nanpo, near Shangdu"
+      },
+      "causeOfDeath": "Assassinated in his tent"
+    },
+    {
+      "id": "yesun-temur",
+      "name": "Yesün Temür",
+      "epithet": "the Taiding Emperor",
+      "house": "yuan",
+      "born": {
+        "date": "1293-11-28"
+      },
+      "died": {
+        "date": "1328-08-15",
+        "note": "Shangdu"
+      },
+      "causeOfDeath": "Illness"
+    },
+    {
+      "id": "ragibagh",
+      "name": "Ragibagh",
+      "epithet": "the Tianshun Emperor",
+      "house": "yuan",
+      "born": {
+        "date": "1320-04-25"
+      },
+      "died": {
+        "date": "1328",
+        "circa": true,
+        "note": "Vanished after Shangdu surrendered"
+      },
+      "causeOfDeath": "Unknown; probably killed"
+    },
+    {
+      "id": "tugh-temur",
+      "name": "Tugh Temür",
+      "epithet": "Jayaatu Khan",
+      "house": "yuan",
+      "born": {
+        "date": "1304-02-16"
+      },
+      "died": {
+        "date": "1332-09-02",
+        "note": "Shangdu"
+      },
+      "causeOfDeath": "Illness"
+    },
+    {
+      "id": "kusala",
+      "name": "Kusala",
+      "epithet": "Khutughtu Khan",
+      "house": "yuan",
+      "born": {
+        "date": "1300-12-22"
+      },
+      "died": {
+        "date": "1329-08-30",
+        "note": "Ongghuchad, near Shangdu"
+      },
+      "causeOfDeath": "Sudden death, possibly poison"
+    },
+    {
+      "id": "rinchinbal",
+      "name": "Rinchinbal",
+      "epithet": "the Ningzong Emperor",
+      "house": "yuan",
+      "born": {
+        "date": "1326-05-01"
+      },
+      "died": {
+        "date": "1332-12-14",
+        "note": "Dadu (Beijing)"
+      },
+      "causeOfDeath": "Illness"
     }
   ],
   "reigns": [
@@ -1223,57 +1308,52 @@
       }
     },
     {
-      "id": "two-capitals",
-      "kind": "interregnum",
-      "rulers": [],
-      "house": "yuan",
-      "title": "The War of the Two Capitals",
-      "tagline": "Six khans, two capitals and a lot of poison",
+      "id": "shidebala",
+      "kind": "monarch",
+      "rulers": [
+        "shidebala"
+      ],
+      "tagline": "The young reformer who was stabbed in his tent",
       "start": {
-        "date": "1320-03-01"
+        "date": "1320-04-19"
       },
       "end": {
-        "date": "1333-07-19"
+        "date": "1323-09-04"
       },
       "contestedWith": [],
-      "relationToPredecessor": "Starts with his son Shidebala",
-      "ageAtAccession": "18 (Shidebala)",
+      "relationToPredecessor": "Son of Ayurbarwada",
+      "ageAtAccession": "18",
       "cameToPower": "His father's chosen heir",
-      "reignEnded": "A boy fetched from exile",
-      "previously": "Ayurbarwada dies, and his son Shidebala takes the throne.",
+      "reignEnded": "Murdered in his tent at Nanpo",
+      "previously": "Ayurbarwada dies, having broken the deal to make his son heir.",
       "paragraphs": [
-        "Shidebala, Gegeen Khan, tried to cut back corruption once his grandmother and Temüder were dead. On 4 September 1323, camped at Nanpo near Shangdu, he was murdered in his tent by plotters led by Tegshi, Temüder's adopted son. Yesün Temür, Kammala's son and a grandson of Zhenjin from the steppe, took the throne, punished the killers and ruled quietly until he died in 1328.",
-        "Then the dam broke. The general El Temür seized Dadu for Khaishan's son Tugh Temür, while the court at Shangdu crowned Yesün Temür's young son Ragibagh. Dadu won the War of the Two Capitals, and the boy vanished. Tugh Temür offered the throne to his elder brother Kusala, who was enthroned in Mongolia in 1329, came to meet him, and died a few days later.",
-        "Tugh Temür reigned again until 1332, with El Temür holding the real power. Next came Kusala's little son Rinchinbal, who lasted about two months before he died too. That left one more of Kusala's sons, a 13-year-old named Toghon Temür, living in exile in the far south."
+        "Shidebala, Gegeen Khan, is the Yingzong Emperor in Chinese histories. He was crowned in April 1320, aged 18. Like his father he had been brought up on Chinese learning and wanted to govern by it. For now he couldn't. His grandmother, the dowager Targi, put her favourite Temüder back at the head of the government within weeks, and officials who had stood up to Temüder were put to death.",
+        "In 1322 Temüder died, and Targi followed a few months later. Shidebala moved fast. He stripped Temüder of his titles, threw his allies out of office and made his own man, Baiju, chancellor. Together they cut court spending, trimmed the princes' handouts and brought in Confucian-minded officials. In 1323 he issued a new law code, the Da Yuan tongzhi. Every one of these steps made somebody poorer.",
+        "On 4 September 1323 the court was on its way back from the summer capital Shangdu. At the camp at Nanpo, a band led by Tegshi, Temüder's adopted son and the empire's chief censor, killed Baiju and then forced their way into the emperor's tent. Shidebala was stabbed to death. He was 21."
       ],
       "claims": [
         {
-          "text": "Kusala was poisoned at his brother's welcome feast.",
+          "text": "Shidebala was murdered at Nanpo by plotters led by Tegshi.",
+          "status": "confirmed",
+          "note": "The Yuan Shi records the killing in detail, and the plotters were tried and executed within months."
+        },
+        {
+          "text": "His reforms, not just Temüder's old feud, got him killed.",
           "status": "disputed",
-          "note": "Widely suspected then and now, given whose interests his death served. The official history just says he died suddenly."
-        },
-        {
-          "text": "Shidebala was killed in his tent by Tegshi's band.",
-          "status": "confirmed",
-          "note": "The assassination at Nanpo is recorded in the Yuan Shi and was a public scandal."
-        },
-        {
-          "text": "Nobody knows what happened to the boy khan Ragibagh.",
-          "status": "confirmed",
-          "note": "After Shangdu surrendered he simply disappears from the record. Most assume he was killed."
+          "note": "The Yuan Shi stresses the Temüder faction's fear of punishment. Modern historians add the anger of princes and guards whose income he had cut; how much weight each gets is argued over."
         }
       ],
-      "hook": "The boy is brought north and crowned. El Temür is dead now, but the court has a new strongman, the minister Bayan, and he has some alarming ideas about the Chinese.",
+      "hook": "The emperor is dead in his tent and the killers need a new khan fast. They send to the steppe, to Yesün Temür, a cousin who guards the old Mongol homeland. He will take the crown. Will he keep their secret?",
       "images": [
         {
-          "file": "File:YuanEmperorAlbumTughTemurPortrait.jpg",
-          "url": "https://upload.wikimedia.org/wikipedia/commons/2/2c/YuanEmperorAlbumTughTemurPortrait.jpg",
-          "page": "https://commons.wikimedia.org/wiki/File:YuanEmperorAlbumTughTemurPortrait.jpg",
-          "credit": "Anonymous Yuan court painter",
+          "file": "File:YuanEmpressAlbumWifeOfShidebalaII.jpg",
+          "url": "https://upload.wikimedia.org/wikipedia/commons/2/23/YuanEmpressAlbumWifeOfShidebalaII.jpg",
+          "page": "https://commons.wikimedia.org/wiki/File:YuanEmpressAlbumWifeOfShidebalaII.jpg",
+          "credit": "Unknown Yuan court painter",
           "license": "Public domain",
           "made": "14th century",
-          "caption": "Tugh Temür, the winner of the War of the Two Capitals, in the Yuan court album of emperors, National Palace Museum, Taipei.",
-          "alt": "Painted bust portrait of the Yuan emperor Tugh Temür from a court album of imperial portraits"
+          "caption": "One of Shidebala's empresses, from the Yuan court album of consorts in the National Palace Museum, Taipei. No portrait of Shidebala himself survives in the emperors' album.",
+          "alt": "Painted bust portrait on silk of a Yuan empress wearing a tall boqta headdress"
         }
       ],
       "sources": [
@@ -1285,7 +1365,444 @@
         {
           "title": "The Cambridge History of China, vol. 6: Alien Regimes and Border States, 907–1368",
           "author": "Herbert Franke and Denis Twitchett (eds.)",
-          "note": "Cambridge University Press, 1994"
+          "note": "Cambridge University Press, 1994; Hsiao Ch'i-ch'ing's chapter on mid-Yuan politics"
+        },
+        {
+          "title": "Encyclopedia of Mongolia and the Mongol Empire",
+          "author": "Christopher P. Atwood",
+          "note": "Facts on File, 2004"
+        }
+      ],
+      "review": {
+        "status": "draft",
+        "notes": "Drafted from the listed sources; needs a human fact-check."
+      }
+    },
+    {
+      "id": "yesun-temur",
+      "kind": "monarch",
+      "rulers": [
+        "yesun-temur"
+      ],
+      "tagline": "The steppe khan who executed his own kingmakers",
+      "start": {
+        "date": "1323-10-04"
+      },
+      "end": {
+        "date": "1328-08-15"
+      },
+      "contestedWith": [],
+      "relationToPredecessor": "Cousin of Shidebala's father",
+      "ageAtAccession": "29",
+      "cameToPower": "Enthroned by the Kherlen river",
+      "reignEnded": "Died at Shangdu, aged 34",
+      "previously": "Shidebala is stabbed in his tent at Nanpo. The throne is empty.",
+      "paragraphs": [
+        "Yesün Temür was Kublai's great-grandson, through Kublai's son Zhenjin and Zhenjin's son Kammala. Like his father, he held the steppe heartland as Prince of Jin, guarding Genghis Khan's old camps. He was senior, he had his own army, and he was a long way from Nanpo. On 4 October 1323 he was enthroned beside the Kherlen river in Mongolia. Chinese histories call him the Taiding Emperor, after the name he gave his reign.",
+        "Then he turned on the men who had made him. Tegshi and the other leading killers were executed before the year was out, and princes who had been in on the plot were sent into exile. Yesün Temür was at home with Mongol ways and had little time for his cousin's Confucian programme. The day-to-day government was run by Dawlat Shah, a Muslim minister who became his most trusted man.",
+        "The reign was calm at court, though floods, drought and famine battered the countryside. In 1324 he named his small son Ragibagh crown prince. On 15 August 1328 Yesün Temür died at Shangdu, aged 34. His heir was eight years old."
+      ],
+      "claims": [
+        {
+          "text": "Yesün Temür knew of the plot against Shidebala before it happened.",
+          "status": "disputed",
+          "note": "The Yuan Shi says Tegshi's side sent him word in advance and that his warning to the court arrived too late. Some historians suspect the warning story was cover."
+        },
+        {
+          "text": "He executed the leaders of the plot that put him on the throne.",
+          "status": "confirmed",
+          "note": "The Yuan Shi records the executions of Tegshi and others late in 1323."
+        }
+      ],
+      "hook": "Yesün Temür is dead and his son is a child. At Shangdu, Dawlat Shah dithers over the crowning. In Dadu, a general whose family owed everything to Khaishan decides the throne should go to Khaishan's sons.",
+      "images": [
+        {
+          "file": "File:The Edict of Yisüntemür Qaghan (1328).jpg",
+          "url": "https://upload.wikimedia.org/wikipedia/commons/5/57/The_Edict_of_Yis%C3%BCntem%C3%BCr_Qaghan_%281328%29.jpg",
+          "page": "https://commons.wikimedia.org/wiki/File:The_Edict_of_Yis%C3%BCntem%C3%BCr_Qaghan_(1328).jpg",
+          "credit": "Unknown scribe, for Yesün Temür",
+          "license": "Public domain",
+          "made": "1328",
+          "caption": "An edict issued in Yesün Temür's name from Dadu in 1328, the last year of his reign. No portrait of him survives.",
+          "alt": "An imperial edict written in Mongolian in the square ʼPhags-pa script, in vertical columns"
+        }
+      ],
+      "sources": [
+        {
+          "title": "Yuan Shi (History of the Yuan)",
+          "author": "Song Lian and others",
+          "note": "Official history compiled under the Ming, 1369–1370"
+        },
+        {
+          "title": "The Cambridge History of China, vol. 6: Alien Regimes and Border States, 907–1368",
+          "author": "Herbert Franke and Denis Twitchett (eds.)",
+          "note": "Cambridge University Press, 1994; Hsiao Ch'i-ch'ing's chapter on mid-Yuan politics"
+        },
+        {
+          "title": "Encyclopedia of Mongolia and the Mongol Empire",
+          "author": "Christopher P. Atwood",
+          "note": "Facts on File, 2004"
+        }
+      ],
+      "review": {
+        "status": "draft",
+        "notes": "Drafted from the listed sources; needs a human fact-check."
+      }
+    },
+    {
+      "id": "ragibagh",
+      "kind": "claimant",
+      "rulers": [
+        "ragibagh"
+      ],
+      "tagline": "Khan at eight, gone without a trace",
+      "start": {
+        "date": "1328-10-04"
+      },
+      "end": {
+        "date": "1328-11-14"
+      },
+      "contestedWith": [
+        "tugh-temur"
+      ],
+      "relationToPredecessor": "Son of Yesün Temür",
+      "ageAtAccession": "8",
+      "cameToPower": "Crowned at Shangdu by Dawlat Shah",
+      "reignEnded": "Vanished when Shangdu surrendered",
+      "previously": "Yesün Temür dies at Shangdu, leaving an eight-year-old heir.",
+      "paragraphs": [
+        "Ragibagh had been crown prince since 1324, but after his father died the court at Shangdu let weeks slip by. That gave the other side its chance. On 8 September 1328 El Temür, a Qipchaq general whose father had fought for Khaishan, seized Dadu with his guardsmen and declared for Khaishan's sons. Only on 4 October did Dawlat Shah and the Shangdu princes crown the boy, with the reign name Tianshun, \"obeying heaven\".",
+        "So there were two courts and two capitals, Shangdu in the north and Dadu in the south, and the War of the Two Capitals began. Shangdu's armies pushed through the mountain passes towards Dadu, and El Temür dashed from one front to the next to beat them back. Meanwhile princes from the east marched on Shangdu itself. On 14 November 1328 the city surrendered. Dawlat Shah was taken and later executed. The boy khan simply drops out of the story."
+      ],
+      "claims": [
+        {
+          "text": "Nobody knows what became of Ragibagh.",
+          "status": "confirmed",
+          "note": "No source records his death. After Shangdu's surrender he vanishes, and most historians assume he was quietly killed."
+        },
+        {
+          "text": "Ragibagh was a true emperor of the Yuan.",
+          "status": "disputed",
+          "note": "The Yuan Shi, following the winning side, leaves him out of the list. Many modern lists count him, since he was properly enthroned."
+        }
+      ],
+      "hook": "Who was Dadu fighting for? Khaishan's younger son, Tugh Temür, rushed north from the Yangtze and crowned in Dadu weeks before Shangdu fell.",
+      "images": [
+        {
+          "file": "File:Yuan Shangdu.jpg",
+          "url": "https://upload.wikimedia.org/wikipedia/commons/1/11/Yuan_Shangdu.jpg",
+          "page": "https://commons.wikimedia.org/wiki/File:Yuan_Shangdu.jpg",
+          "credit": "Flaumfeder",
+          "license": "CC BY-SA 4.0",
+          "made": "2016",
+          "caption": "The ruins of Shangdu, where Ragibagh was crowned and which surrendered in November 1328. No portrait of him exists.",
+          "alt": "Grassy ruins of the old Yuan capital Shangdu under an open sky"
+        }
+      ],
+      "sources": [
+        {
+          "title": "Yuan Shi (History of the Yuan)",
+          "author": "Song Lian and others",
+          "note": "Official history compiled under the Ming, 1369–1370"
+        },
+        {
+          "title": "The Cambridge History of China, vol. 6: Alien Regimes and Border States, 907–1368",
+          "author": "Herbert Franke and Denis Twitchett (eds.)",
+          "note": "Cambridge University Press, 1994; Hsiao Ch'i-ch'ing's chapter on mid-Yuan politics"
+        },
+        {
+          "title": "Encyclopedia of Mongolia and the Mongol Empire",
+          "author": "Christopher P. Atwood",
+          "note": "Facts on File, 2004"
+        }
+      ],
+      "review": {
+        "status": "draft",
+        "notes": "Drafted from the listed sources; needs a human fact-check."
+      }
+    },
+    {
+      "id": "tugh-temur",
+      "kind": "monarch",
+      "rulers": [
+        "tugh-temur"
+      ],
+      "tagline": "The emperor who said he was only keeping the seat warm",
+      "start": {
+        "date": "1328-10-16"
+      },
+      "end": {
+        "date": "1329-02-26"
+      },
+      "contestedWith": [
+        "ragibagh"
+      ],
+      "relationToPredecessor": "Khaishan's younger son",
+      "ageAtAccession": "24",
+      "cameToPower": "El Temür's coup in Dadu",
+      "reignEnded": "Stepped aside for his elder brother",
+      "previously": "Shangdu surrenders, and the boy khan Ragibagh is never seen again.",
+      "paragraphs": [
+        "Tugh Temür, the Wenzong Emperor, had spent most of his adult life being moved out of the way. Shidebala exiled him to Hainan island in the far south. Yesün Temür let him back but kept him on postings along the Yangtze. He was at Jiangling when El Temür seized Dadu and sent for him. He hurried north, and on 16 October 1328 he was enthroned in Dadu. The Mongols called him Jayaatu Khan.",
+        "Dadu won the war within a month, but Tugh Temür had a problem. He was the younger son. His elder brother Kusala had spent 12 years in exile in Central Asia, had followers and allies there, and was the rightful heir by the old deal between Khaishan and Ayurbarwada. From the start Tugh Temür said he held the throne only until Kusala came. In February 1329 the princes in Mongolia enthroned Kusala, and Tugh Temür stepped down to be his crown prince."
+      ],
+      "claims": [
+        {
+          "text": "Tugh Temür never meant to give up power for good.",
+          "status": "disputed",
+          "note": "He did step aside in public, but El Temür kept the army and the government in Dadu. What happened six months later made many suspect the offer was for show."
+        },
+        {
+          "text": "Tugh Temür was exiled to Hainan under Shidebala.",
+          "status": "confirmed",
+          "note": "The Yuan Shi records his banishment to the island in 1321 and his recall under Yesün Temür."
+        }
+      ],
+      "hook": "Kusala is Great Khan at last, crowned on the steppe north of Karakorum. Now he has to travel south to claim the empire his brother has been holding for him.",
+      "images": [
+        {
+          "file": "File:YuanEmperorAlbumTughTemurFull.jpg",
+          "url": "https://upload.wikimedia.org/wikipedia/commons/d/df/YuanEmperorAlbumTughTemurFull.jpg",
+          "page": "https://commons.wikimedia.org/wiki/File:YuanEmperorAlbumTughTemurFull.jpg",
+          "credit": "Unknown Yuan court painter",
+          "license": "Public domain",
+          "made": "14th century",
+          "caption": "Tugh Temür on a leaf of the Yuan court album of emperors, National Palace Museum, Taipei.",
+          "alt": "Album leaf painted on silk with a bust portrait of the Yuan emperor Tugh Temür"
+        }
+      ],
+      "sources": [
+        {
+          "title": "Yuan Shi (History of the Yuan)",
+          "author": "Song Lian and others",
+          "note": "Official history compiled under the Ming, 1369–1370"
+        },
+        {
+          "title": "The Cambridge History of China, vol. 6: Alien Regimes and Border States, 907–1368",
+          "author": "Herbert Franke and Denis Twitchett (eds.)",
+          "note": "Cambridge University Press, 1994; Hsiao Ch'i-ch'ing's chapter on mid-Yuan politics"
+        },
+        {
+          "title": "Conquerors and Confucians: Aspects of Political Change in Late Yüan China",
+          "author": "John W. Dardess",
+          "note": "Columbia University Press, 1973"
+        }
+      ],
+      "review": {
+        "status": "draft",
+        "notes": "Drafted from the listed sources; needs a human fact-check."
+      }
+    },
+    {
+      "id": "kusala",
+      "kind": "monarch",
+      "rulers": [
+        "kusala"
+      ],
+      "tagline": "Back from exile to a fatal family reunion",
+      "start": {
+        "date": "1329-02-27"
+      },
+      "end": {
+        "date": "1329-08-30"
+      },
+      "contestedWith": [],
+      "relationToPredecessor": "Elder brother of Tugh Temür",
+      "ageAtAccession": "28",
+      "cameToPower": "Enthroned by princes in Mongolia",
+      "reignEnded": "Died suddenly at Ongghuchad",
+      "previously": "Tugh Temür steps aside. His elder brother is coming home.",
+      "paragraphs": [
+        "Kusala, the Mingzong Emperor, was the son Ayurbarwada had cheated. When his uncle made Shidebala heir in 1316, Kusala was sent off to the far south-west. He rebelled on the road, failed, and fled to the Chagatai khans in Central Asia. He lived there for 12 years, and there, in 1320, his eldest son Toghon Temür was born.",
+        "On 27 February 1329, north of Karakorum, the princes enthroned him as Khutughtu Khan. He named Tugh Temür his crown prince, and El Temür came out to hand him the imperial seal. Kusala began giving posts to the men who had shared his exile, which worried Dadu. He came south slowly. On 26 August he met his brother at Ongghuchad, near Shangdu, and the two feasted together. Four days later, on 30 August, Kusala was dead. He was 28."
+      ],
+      "claims": [
+        {
+          "text": "Kusala was poisoned, on El Temür's orders, perhaps with his brother's knowledge.",
+          "status": "disputed",
+          "note": "Suspected at the time and by most historians since, given who gained. The Yuan Shi says only that he died suddenly."
+        },
+        {
+          "text": "Kusala spent his exile with the Chagatai khans.",
+          "status": "confirmed",
+          "note": "The Yuan Shi and Persian sources agree that he took refuge in Central Asia after his failed revolt."
+        }
+      ],
+      "hook": "Kusala is dead after six months as khan. Within days Tugh Temür is back on the throne, and the man who arranged everything, El Temür, is stronger than ever.",
+      "images": [
+        {
+          "file": "File:YuanEmpressAlbumWifeOfQoshila.jpg",
+          "url": "https://upload.wikimedia.org/wikipedia/commons/7/7a/YuanEmpressAlbumWifeOfQoshila.jpg",
+          "page": "https://commons.wikimedia.org/wiki/File:YuanEmpressAlbumWifeOfQoshila.jpg",
+          "credit": "Unknown Yuan court painter",
+          "license": "Public domain",
+          "made": "14th century",
+          "caption": "A wife of Kusala, from the Yuan court album of consorts in the National Palace Museum, Taipei. No painted portrait of Kusala himself survives in the album.",
+          "alt": "Painted bust portrait on silk of a Yuan empress wearing a tall boqta headdress"
+        }
+      ],
+      "sources": [
+        {
+          "title": "Yuan Shi (History of the Yuan)",
+          "author": "Song Lian and others",
+          "note": "Official history compiled under the Ming, 1369–1370"
+        },
+        {
+          "title": "The Cambridge History of China, vol. 6: Alien Regimes and Border States, 907–1368",
+          "author": "Herbert Franke and Denis Twitchett (eds.)",
+          "note": "Cambridge University Press, 1994; Hsiao Ch'i-ch'ing's chapter on mid-Yuan politics"
+        },
+        {
+          "title": "Encyclopedia of Mongolia and the Mongol Empire",
+          "author": "Christopher P. Atwood",
+          "note": "Facts on File, 2004"
+        }
+      ],
+      "review": {
+        "status": "draft",
+        "notes": "Drafted from the listed sources; needs a human fact-check."
+      }
+    },
+    {
+      "id": "tugh-temur-restored",
+      "kind": "monarch",
+      "rulers": [
+        "tugh-temur"
+      ],
+      "title": "Tugh Temür Restored",
+      "tagline": "A scholar on the throne, a strongman behind it",
+      "start": {
+        "date": "1329-09-08"
+      },
+      "end": {
+        "date": "1332-09-02"
+      },
+      "contestedWith": [],
+      "relationToPredecessor": "Younger brother of Kusala",
+      "ageAtAccession": "25",
+      "cameToPower": "Restored after Kusala's death",
+      "reignEnded": "Died at Shangdu, aged 28",
+      "previously": "Kusala dies four days after feasting with his brother.",
+      "paragraphs": [
+        "Tugh Temür took the throne again at Shangdu on 8 September 1329. El Temür took nearly everything else: the top civil and military offices, a string of grand titles and command of the guards. He ran the government, and anyone who challenged him tended to end up dead or exiled.",
+        "The emperor put his energy into culture. He painted and wrote a fine hand, and in 1329 he founded the Kuizhang Pavilion, an academy where scholars and artists worked on the palace's collections. He also ordered the Jingshi dadian, a huge handbook of how the empire was run, finished in 1331. A silk mandala woven for his court shows him kneeling beside the brother whose death had given him the throne.",
+        "Kusala's family was still dangerous. His son Toghon Temür was banished, first to an island off Korea and then to Guangxi in the far south, and the court let it be known that the boy was not really Kusala's son. Then Tugh Temür fell ill. He died at Shangdu on 2 September 1332, aged 28, leaving word that Kusala's line should inherit."
+      ],
+      "claims": [
+        {
+          "text": "On his deathbed Tugh Temür wanted Kusala's line to succeed, out of guilt over his brother's death.",
+          "status": "disputed",
+          "note": "The Yuan Shi reports the wish, and his widow acted on it. The guilt is later guesswork."
+        },
+        {
+          "text": "The Jingshi dadian was compiled under Tugh Temür.",
+          "status": "confirmed",
+          "note": "Finished in 1331. Most of it is lost, but its prefaces and large parts survive in later collections."
+        },
+        {
+          "text": "Tugh Temür and Kusala appear together as donors on a silk mandala woven around 1330–32.",
+          "status": "confirmed",
+          "note": "The tapestry is in the Metropolitan Museum of Art. The donors are named in small Tibetan inscriptions woven beside them."
+        }
+      ],
+      "hook": "Tugh Temür is dead. His widow Budashiri has a son of her own, but she picks someone else: Kusala's younger boy, Rinchinbal, who is six.",
+      "images": [
+        {
+          "file": "File:Mandala of Yamantaka-Vajrabhairava.jpg",
+          "url": "https://upload.wikimedia.org/wikipedia/commons/e/e7/Mandala_of_Yamantaka-Vajrabhairava.jpg",
+          "page": "https://commons.wikimedia.org/wiki/File:Mandala_of_Yamantaka-Vajrabhairava.jpg",
+          "credit": "Unknown Yuan court weavers",
+          "license": "Public domain",
+          "made": "c. 1330–32",
+          "caption": "A silk tapestry mandala woven for the Yuan court, now in the Metropolitan Museum of Art. Tugh Temür and Kusala kneel as donors in the bottom left corner.",
+          "alt": "Large woven silk mandala with a central Buddhist deity in a square palace, with small kneeling donor figures along the bottom edge"
+        }
+      ],
+      "sources": [
+        {
+          "title": "Yuan Shi (History of the Yuan)",
+          "author": "Song Lian and others",
+          "note": "Official history compiled under the Ming, 1369–1370"
+        },
+        {
+          "title": "The Cambridge History of China, vol. 6: Alien Regimes and Border States, 907–1368",
+          "author": "Herbert Franke and Denis Twitchett (eds.)",
+          "note": "Cambridge University Press, 1994; Hsiao Ch'i-ch'ing's chapter on mid-Yuan politics"
+        },
+        {
+          "title": "Conquerors and Confucians: Aspects of Political Change in Late Yüan China",
+          "author": "John W. Dardess",
+          "note": "Columbia University Press, 1973"
+        },
+        {
+          "title": "When Silk Was Gold: Central Asian and Chinese Textiles",
+          "author": "James C. Y. Watt and Anne E. Wardwell",
+          "note": "Metropolitan Museum of Art, 1997; the Yamantaka-Vajrabhairava mandala with Tugh Temür and Kusala"
+        }
+      ],
+      "review": {
+        "status": "draft",
+        "notes": "Drafted from the listed sources; needs a human fact-check."
+      }
+    },
+    {
+      "id": "rinchinbal",
+      "kind": "monarch",
+      "rulers": [
+        "rinchinbal"
+      ],
+      "tagline": "The six-year-old who reigned for 53 days",
+      "start": {
+        "date": "1332-10-23"
+      },
+      "end": {
+        "date": "1332-12-14"
+      },
+      "contestedWith": [],
+      "relationToPredecessor": "Nephew of Tugh Temür",
+      "ageAtAccession": "6",
+      "cameToPower": "Chosen by Tugh Temür's widow",
+      "reignEnded": "Died at Dadu after 53 days",
+      "previously": "Tugh Temür dies, leaving word that Kusala's line should rule.",
+      "paragraphs": [
+        "Rinchinbal, the Ningzong Emperor, was Kusala's younger son, born in 1326. El Temür wanted the throne for Tugh Temür's son El Tegüs, who had been brought up in his own household. The widowed empress Budashiri refused. Her husband had wanted Kusala's line, so on 23 October 1332 the six-year-old Rinchinbal was enthroned.",
+        "He never had time to matter. On 14 December 1332, 53 days later, the little emperor died at Dadu. El Temür pushed for El Tegüs again, and Budashiri said no again. This time she sent south for Kusala's elder son, Toghon Temür, 12 years old and living in exile in Guangxi."
+      ],
+      "claims": [
+        {
+          "text": "Rinchinbal reigned for just 53 days.",
+          "status": "confirmed",
+          "note": "The Yuan Shi gives the dates of his enthronement and death. It is the shortest reign of any Yuan emperor bar the disputed Ragibagh."
+        },
+        {
+          "text": "El Temür held up Toghon Temür's enthronement until he himself died.",
+          "status": "confirmed",
+          "note": "The Yuan Shi says the boy reached the capital but was not crowned for months. He was enthroned only after El Temür's death in 1333."
+        }
+      ],
+      "hook": "Toghon Temür is fetched north from exile, but El Temür does not want him, and for months the throne sits empty. Then, in 1333, El Temür dies.",
+      "images": [
+        {
+          "file": "File:YuanEmperorAlbumIrinchinbalPortrait.jpg",
+          "url": "https://upload.wikimedia.org/wikipedia/commons/b/be/YuanEmperorAlbumIrinchinbalPortrait.jpg",
+          "page": "https://commons.wikimedia.org/wiki/File:YuanEmperorAlbumIrinchinbalPortrait.jpg",
+          "credit": "Unknown Yuan court painter",
+          "license": "Public domain",
+          "made": "14th century",
+          "caption": "Rinchinbal in the Yuan court album of emperors, National Palace Museum, Taipei.",
+          "alt": "Painted bust portrait on silk of the Yuan emperor Rinchinbal"
+        }
+      ],
+      "sources": [
+        {
+          "title": "Yuan Shi (History of the Yuan)",
+          "author": "Song Lian and others",
+          "note": "Official history compiled under the Ming, 1369–1370"
+        },
+        {
+          "title": "The Cambridge History of China, vol. 6: Alien Regimes and Border States, 907–1368",
+          "author": "Herbert Franke and Denis Twitchett (eds.)",
+          "note": "Cambridge University Press, 1994; Hsiao Ch'i-ch'ing's chapter on mid-Yuan politics"
         },
         {
           "title": "Conquerors and Confucians: Aspects of Political Change in Late Yüan China",
@@ -1316,7 +1833,7 @@
       "ageAtAccession": "13",
       "cameToPower": "Fetched from exile in the south",
       "reignEnded": "The Red Turbans rise",
-      "previously": "Six khans in 13 years. Now a boy is fetched from exile in the south.",
+      "previously": "The boy khan Rinchinbal dies. His brother is fetched from exile.",
       "paragraphs": [
         "Toghon Temür, Ukhaantu Khan, \"the wise\", was 13 when he was crowned. The Ming later called him Shundi. For his first years the minister Bayan ran everything, and Bayan distrusted the Chinese. In 1335 he cancelled the civil service exams. Then, the story goes, he suggested killing everyone with the five commonest Chinese surnames: Zhang, Wang, Liu, Li and Zhao.",
         "Bayan's downfall came from inside his own family. In 1340 his nephew Toghto turned on him, and the young emperor backed the plot. With Bayan out of the city, the gates of Dadu were shut against him and he was sent into exile. Toghto brought back the exams and had scholars compile the official histories of the Liao, Jin and Song dynasties, finished between 1343 and 1345.",
