@@ -1,0 +1,2625 @@
+{
+  "id": "bulgaria",
+  "name": "Bulgaria",
+  "blurb": "Khans, tsars and kings, from Asparuh in 681 to Simeon II",
+  "dateConvention": "Medieval dates are Julian, as the standard sources give them, and many early reigns are known only to the year. From 1878 dates are Gregorian, although Bulgaria kept the Julian calendar until 1916. Byzantine and Ottoman rule each appear as a single card.",
+  "epilogue": "Bulgaria became a communist people's republic until 1989. Simeon came home after half a century in exile and, as Simeon Sakskoburggotski, served as prime minister from 2001 to 2005.",
+  "houses": [
+    {
+      "id": "dulo",
+      "name": "Dulo",
+      "color": "#7a3d2e"
+    },
+    {
+      "id": "crisis",
+      "name": "Rival clans",
+      "color": "#8d8780",
+      "plain": true
+    },
+    {
+      "id": "krum",
+      "name": "Krumid",
+      "color": "#8f1d21"
+    },
+    {
+      "id": "cometopuli",
+      "name": "Cometopuli",
+      "color": "#2f5d8a"
+    },
+    {
+      "id": "byzantine",
+      "name": "Byzantine rule",
+      "color": "#6b4a8a",
+      "plain": true
+    },
+    {
+      "id": "asen",
+      "name": "Asen",
+      "color": "#3f6b4f"
+    },
+    {
+      "id": "no-dynasty",
+      "name": "No dynasty",
+      "color": "#6f665a",
+      "plain": true
+    },
+    {
+      "id": "terter",
+      "name": "Terter",
+      "color": "#a0522d"
+    },
+    {
+      "id": "shishman",
+      "name": "Shishman",
+      "color": "#a07a1c"
+    },
+    {
+      "id": "ottoman",
+      "name": "Ottoman rule",
+      "color": "#3d7a7a",
+      "plain": true
+    },
+    {
+      "id": "battenberg",
+      "name": "Battenberg",
+      "color": "#4f6fa0"
+    },
+    {
+      "id": "saxe-coburg",
+      "name": "Saxe-Coburg and Gotha-Koháry",
+      "color": "#7a1f45"
+    }
+  ],
+  "rulers": [
+    {
+      "id": "asparuh",
+      "name": "Asparuh",
+      "house": "dulo",
+      "died": {
+        "date": "0700",
+        "circa": true,
+        "note": "Place unknown"
+      },
+      "causeOfDeath": "Unknown; late sources say in battle with the Khazars"
+    },
+    {
+      "id": "tervel",
+      "name": "Tervel",
+      "house": "dulo",
+      "died": {
+        "date": "0721",
+        "circa": true,
+        "note": "Place unknown"
+      },
+      "causeOfDeath": "Unknown"
+    },
+    {
+      "id": "krum",
+      "name": "Krum",
+      "epithet": "the Fearsome",
+      "house": "krum",
+      "died": {
+        "date": "0814-04-13"
+      },
+      "causeOfDeath": "Sudden death, probably a haemorrhage"
+    },
+    {
+      "id": "omurtag",
+      "name": "Omurtag",
+      "house": "krum",
+      "died": {
+        "date": "0831"
+      },
+      "causeOfDeath": "Unknown"
+    },
+    {
+      "id": "boris-i",
+      "name": "Boris I",
+      "house": "krum",
+      "died": {
+        "date": "0907-05-02",
+        "note": "In a monastery, probably near Preslav"
+      },
+      "causeOfDeath": "Natural causes, as a monk"
+    },
+    {
+      "id": "simeon-i",
+      "name": "Simeon I",
+      "epithet": "the Great",
+      "house": "krum",
+      "born": {
+        "date": "0864",
+        "circa": true,
+        "note": "864 or 865"
+      },
+      "died": {
+        "date": "0927-05-27",
+        "note": "Preslav"
+      },
+      "causeOfDeath": "Natural causes (heart failure, by tradition)"
+    },
+    {
+      "id": "peter-i",
+      "name": "Peter I",
+      "house": "krum",
+      "died": {
+        "date": "0970-01-30",
+        "note": "As a monk; some sources give 969"
+      },
+      "causeOfDeath": "Died a monk after a stroke"
+    },
+    {
+      "id": "boris-ii",
+      "name": "Boris II",
+      "house": "krum",
+      "died": {
+        "date": "0977",
+        "note": "On the Byzantine-Bulgarian frontier"
+      },
+      "causeOfDeath": "Shot by a Bulgarian border guard"
+    },
+    {
+      "id": "samuel",
+      "name": "Samuel",
+      "house": "cometopuli",
+      "died": {
+        "date": "1014-10-06",
+        "note": "Prespa"
+      },
+      "causeOfDeath": "Collapsed after Kleidion, perhaps a heart attack"
+    },
+    {
+      "id": "peter-ii",
+      "name": "Peter II",
+      "house": "asen",
+      "died": {
+        "date": "1197"
+      },
+      "causeOfDeath": "Murdered by a boyar"
+    },
+    {
+      "id": "ivan-asen-i",
+      "name": "Ivan Asen I",
+      "house": "asen",
+      "died": {
+        "date": "1196",
+        "note": "Tarnovo"
+      },
+      "causeOfDeath": "Stabbed by the boyar Ivanko"
+    },
+    {
+      "id": "kaloyan",
+      "name": "Kaloyan",
+      "epithet": "the Romanslayer",
+      "house": "asen",
+      "died": {
+        "date": "1207-10",
+        "note": "Outside Thessalonica"
+      },
+      "causeOfDeath": "Died suddenly during a siege; possibly murdered"
+    },
+    {
+      "id": "boril",
+      "name": "Boril",
+      "house": "asen"
+    },
+    {
+      "id": "ivan-asen-ii",
+      "name": "Ivan Asen II",
+      "house": "asen",
+      "died": {
+        "date": "1241-06",
+        "circa": true,
+        "note": "Tarnovo; May or June 1241"
+      },
+      "causeOfDeath": "Natural causes"
+    },
+    {
+      "id": "ivailo",
+      "name": "Ivailo",
+      "house": "no-dynasty",
+      "died": {
+        "date": "1280",
+        "circa": true,
+        "note": "At the camp of Nogai, Golden Horde; 1280 or 1281"
+      },
+      "causeOfDeath": "Murdered on Nogai's orders"
+    },
+    {
+      "id": "theodore-svetoslav",
+      "name": "Theodore Svetoslav",
+      "house": "terter",
+      "died": {
+        "date": "1322",
+        "circa": true,
+        "note": "Probably Tarnovo; 1321 or 1322"
+      },
+      "causeOfDeath": "Not recorded; apparently natural"
+    },
+    {
+      "id": "michael-shishman",
+      "name": "Michael Shishman",
+      "house": "shishman",
+      "born": {
+        "date": "1280",
+        "circa": true,
+        "note": "Some time after 1280; exact year unknown"
+      },
+      "died": {
+        "date": "1330-07-31",
+        "note": "Near Velbazhd (Kyustendil)"
+      },
+      "causeOfDeath": "Died after defeat at Velbazhd; accounts differ"
+    },
+    {
+      "id": "ivan-alexander",
+      "name": "Ivan Alexander",
+      "house": "shishman",
+      "born": {
+        "date": "1301",
+        "circa": true,
+        "note": "Year not securely known"
+      },
+      "died": {
+        "date": "1371-02-17"
+      },
+      "causeOfDeath": "Natural causes"
+    },
+    {
+      "id": "ivan-shishman",
+      "name": "Ivan Shishman",
+      "house": "shishman",
+      "born": {
+        "date": "1350",
+        "circa": true,
+        "note": "About 1350 or 1351"
+      },
+      "died": {
+        "date": "1395-06-03",
+        "note": "Probably Nikopol; date from later tradition"
+      },
+      "causeOfDeath": "Said to have been executed by the Ottomans"
+    },
+    {
+      "id": "alexander-i",
+      "name": "Alexander I",
+      "house": "battenberg",
+      "born": {
+        "date": "1857-04-05",
+        "note": "Verona"
+      },
+      "died": {
+        "date": "1893-11-17",
+        "note": "Graz, Austria"
+      },
+      "causeOfDeath": "Illness, aged 36"
+    },
+    {
+      "id": "ferdinand",
+      "name": "Ferdinand I",
+      "house": "saxe-coburg",
+      "born": {
+        "date": "1861-02-26",
+        "note": "Vienna"
+      },
+      "died": {
+        "date": "1948-09-10",
+        "note": "Coburg, Germany"
+      },
+      "causeOfDeath": "Natural causes, aged 87"
+    },
+    {
+      "id": "boris-iii",
+      "name": "Boris III",
+      "house": "saxe-coburg",
+      "born": {
+        "date": "1894-01-30",
+        "note": "Sofia"
+      },
+      "died": {
+        "date": "1943-08-28",
+        "note": "Sofia"
+      },
+      "causeOfDeath": "Heart failure; poisoning suspected, never proven"
+    },
+    {
+      "id": "simeon-ii",
+      "name": "Simeon II",
+      "house": "saxe-coburg",
+      "born": {
+        "date": "1937-06-16",
+        "note": "Sofia"
+      }
+    }
+  ],
+  "reigns": [
+    {
+      "id": "asparuh",
+      "kind": "monarch",
+      "rulers": [
+        "asparuh"
+      ],
+      "tagline": "The horde leader who made Byzantium pay up",
+      "start": {
+        "date": "0681"
+      },
+      "end": {
+        "date": "0700",
+        "circa": true
+      },
+      "contestedWith": [],
+      "relationToPredecessor": "Son of Kubrat, by tradition",
+      "ageAtAccession": "Unknown",
+      "cameToPower": "Led his horde over the Danube",
+      "reignEnded": "Died around 700",
+      "previously": "Old Great Bulgaria breaks apart, and Kubrat's sons scatter.",
+      "paragraphs": [
+        "Start north of the Black Sea in the 600s. A khan called Kubrat had built a big Bulgar state there, which the Byzantines called Old Great Bulgaria. After he died, the Khazars pushed in from the east and it fell apart. His sons led their followers off in different directions. One of them, Asparuh, headed west and dug in among the marshes of the Danube delta.",
+        "In 680 the emperor Constantine IV came after him with an army and a fleet. The emperor fell ill and sailed off for treatment, his troops panicked, and the Bulgars cut them down as they ran, near a place called the Ongal. Asparuh crossed the Danube and took the land up to the Balkan mountains. In 681 Byzantium agreed to pay him a yearly tribute. That treaty is the usual birthday of Bulgaria.",
+        "The Bulgar horsemen were few next to the Slavs already farming the land, and the two peoples ruled it together. Asparuh's base was Pliska. An old list of rulers, the Nominalia of the Bulgarian Khans, names him as one of the Dulo clan. He died around 700, and his son Tervel took over."
+      ],
+      "claims": [
+        {
+          "text": "Asparuh founded Pliska as his capital.",
+          "status": "disputed",
+          "note": "Pliska was the early centre of the khans, but archaeologists argue over how much of it goes back to Asparuh rather than his successors."
+        },
+        {
+          "text": "Asparuh died fighting the Khazars.",
+          "status": "disputed",
+          "note": "This comes from late and uncertain sources. The Byzantine writers of the time say nothing about how he died."
+        },
+        {
+          "text": "Asparuh belonged to the Dulo clan.",
+          "status": "confirmed",
+          "note": "The Nominalia of the Bulgarian Khans, a short Bulgar king-list surviving in later Russian copies, says so."
+        }
+      ],
+      "hook": "Asparuh is dead and his son Tervel holds the new khanate. Soon a deposed emperor with no nose turns up, asking for an army.",
+      "images": [
+        {
+          "file": "File:Asparuh monument in Isperich 01.jpg",
+          "url": "https://upload.wikimedia.org/wikipedia/commons/c/cb/Asparuh_monument_in_Isperich_01.jpg",
+          "page": "https://commons.wikimedia.org/wiki/File:Asparuh_monument_in_Isperich_01.jpg",
+          "credit": "Ttaanya",
+          "license": "CC BY-SA 4.0",
+          "made": "2017 (photo)",
+          "caption": "A modern monument to Asparuh in the town of Isperih, named after him; no likeness of him survives.",
+          "alt": "Photograph of the modern monument to Khan Asparuh in Isperih, Bulgaria"
+        }
+      ],
+      "sources": [
+        {
+          "title": "The Early Medieval Balkans: A Critical Survey from the Sixth to the Late Twelfth Century",
+          "author": "John V. A. Fine Jr",
+          "note": "University of Michigan Press, 1983"
+        },
+        {
+          "title": "Southeastern Europe in the Middle Ages, 500–1250",
+          "author": "Florin Curta",
+          "note": "Cambridge University Press, 2006"
+        },
+        {
+          "title": "Chronographia",
+          "author": "Theophanes the Confessor",
+          "note": "Early 9th century; the main Byzantine narrative for this period"
+        },
+        {
+          "title": "Short History (Breviarium)",
+          "author": "Patriarch Nikephoros I of Constantinople"
+        }
+      ],
+      "review": {
+        "status": "draft",
+        "notes": "Drafted from the listed sources; needs a human fact-check."
+      }
+    },
+    {
+      "id": "tervel",
+      "kind": "monarch",
+      "rulers": [
+        "tervel"
+      ],
+      "tagline": "The khan who put a noseless emperor back on his throne",
+      "start": {
+        "date": "0700",
+        "circa": true
+      },
+      "end": {
+        "date": "0721",
+        "circa": true
+      },
+      "contestedWith": [],
+      "relationToPredecessor": "Son of Asparuh",
+      "ageAtAccession": "Unknown",
+      "cameToPower": "Succeeded his father",
+      "reignEnded": "Died around 721",
+      "previously": "Asparuh has carved out a Bulgar state south of the Danube and died.",
+      "paragraphs": [
+        "Tervel's big chance walked in looking for help. Justinian II had been thrown off the Byzantine throne in 695 and had his nose cut off. In 705 he came to Tervel and asked for an army. Tervel gave him one, and Justinian got back into Constantinople by crawling through an old water channel. Tervel's reward was the title of caesar, second only to the emperor himself, plus a pile of gifts.",
+        "Gratitude didn't last. In 708 Justinian marched on Bulgaria and Tervel beat him at Anchialus. In 716 Tervel signed a treaty with Byzantium that fixed the border and the trade rules. Then in 717 a huge Arab army and fleet besieged Constantinople. Tervel's Bulgars fell on the Arab camp and slaughtered thousands, helping break the siege the next year.",
+        "On a cliff at Madara, near Shumen, a horseman carved in the rock spears a lion. Greek inscriptions beside it mention Tervel. He died around 721, and his family's grip on power soon began to slip."
+      ],
+      "claims": [
+        {
+          "text": "Tervel was the first foreigner ever to be made caesar.",
+          "status": "disputed",
+          "note": "Theophanes and Nikephoros record the title. Calling him the first foreigner to get it is a later summing-up, and what the honour meant is debated."
+        },
+        {
+          "text": "Tervel's men killed some 22,000 Arabs during the siege of 717–718.",
+          "status": "disputed",
+          "note": "The number comes from Theophanes, writing about a century later. Medieval casualty figures are rarely reliable."
+        },
+        {
+          "text": "The Madara Rider is a portrait of Tervel.",
+          "status": "disputed",
+          "note": "The relief dates from around his time and its inscriptions name him, but nobody can prove whose figure the rider is."
+        }
+      ],
+      "hook": "Tervel is gone. Asparuh's Dulo line is about to run out, and the khan's seat is turning into a prize for rival clans.",
+      "images": [
+        {
+          "file": "File:Madara Rider.jpg",
+          "url": "https://upload.wikimedia.org/wikipedia/commons/a/a4/Madara_Rider.jpg",
+          "page": "https://commons.wikimedia.org/wiki/File:Madara_Rider.jpg",
+          "credit": "Feradz",
+          "license": "CC BY 3.0",
+          "made": "2009 (photo)",
+          "caption": "The Madara Rider, carved into a cliff near Shumen around the early 700s; its inscriptions mention Tervel.",
+          "alt": "Photograph of an early medieval rock relief of a horseman carved high on a cliff face at Madara"
+        }
+      ],
+      "sources": [
+        {
+          "title": "The Early Medieval Balkans: A Critical Survey from the Sixth to the Late Twelfth Century",
+          "author": "John V. A. Fine Jr",
+          "note": "University of Michigan Press, 1983"
+        },
+        {
+          "title": "A History of the First Bulgarian Empire",
+          "author": "Steven Runciman",
+          "note": "G. Bell & Sons, 1930"
+        },
+        {
+          "title": "Chronographia",
+          "author": "Theophanes the Confessor",
+          "note": "Early 9th century; the main Byzantine narrative for this period"
+        },
+        {
+          "title": "Short History (Breviarium)",
+          "author": "Patriarch Nikephoros I of Constantinople"
+        }
+      ],
+      "review": {
+        "status": "draft",
+        "notes": "Drafted from the listed sources; needs a human fact-check."
+      }
+    },
+    {
+      "id": "khans-crisis",
+      "kind": "interregnum",
+      "rulers": [],
+      "house": "crisis",
+      "title": "A Century of Coups",
+      "tagline": "Khans come and go, and the emperor keeps coming back",
+      "start": {
+        "date": "0721",
+        "circa": true
+      },
+      "end": {
+        "date": "0803",
+        "circa": true
+      },
+      "contestedWith": [],
+      "relationToPredecessor": "Last Dulo khans, then rival clans",
+      "ageAtAccession": "Various",
+      "cameToPower": "Inheritance, coups and plots",
+      "reignEnded": "Krum takes power",
+      "previously": "Tervel dies, and Asparuh's family begins to lose its grip.",
+      "paragraphs": [
+        "After Tervel, the khans Kormesiy and Sevar kept the throne in the Dulo family until about 753. Then it broke. Kormisosh, from the Vokil clan, took over, and the next few decades were a blur: Vinekh, Telets, Sabin, Umor, Toktu, Pagan. Several were overthrown or killed within months. In Constantinople, the emperor Constantine V smelled weakness and attacked again and again, by land and by sea.",
+        "Telets met him at Anchialus in 763, lost badly, and was killed by his own people. Sabin tried to make peace with Byzantium, was accused of selling out, and fled to the empire. Umor lasted only weeks. Then came Telerig (about 768 to 777). He wrote to Constantine saying he planned to defect, and asked which Bulgarians he could trust. The emperor named his spies. Telerig had every one of them killed.",
+        "Even so, a few years later Telerig fled to Constantinople himself, where he was baptised and married to a relative of the empress. Kardam (about 777 to 803) finally steadied the ship. In 792 he routed the young emperor Constantine VI at Marcellae. When Kardam drops out of the record, a hard man named Krum takes his place."
+      ],
+      "claims": [
+        {
+          "text": "Telerig tricked Constantine V into naming his spies, then had them killed.",
+          "status": "disputed",
+          "note": "Told only by Theophanes, from the Byzantine side. It may be a garbled version of an ordinary purge."
+        },
+        {
+          "text": "Constantine V died on campaign against the Bulgars in 775.",
+          "status": "confirmed",
+          "note": "Theophanes and Nikephoros both record that he fell ill and died while marching against them."
+        },
+        {
+          "text": "Kardam defeated Constantine VI at Marcellae in 792.",
+          "status": "confirmed",
+          "note": "Theophanes describes the battle and the emperor's flight."
+        }
+      ],
+      "hook": "Kardam fades from the record around 803. The man who takes his place is about to give Byzantium one of the worst days in its history.",
+      "images": [
+        {
+          "file": "File:48-manasses-chronicle.jpg",
+          "url": "https://upload.wikimedia.org/wikipedia/commons/b/b3/48-manasses-chronicle.jpg",
+          "page": "https://commons.wikimedia.org/wiki/File:48-manasses-chronicle.jpg",
+          "credit": "Unknown illuminator (Manasses Chronicle)",
+          "license": "Public domain",
+          "made": "c. 1345",
+          "caption": "Constantine V, Bulgaria's great enemy in these years, having a church destroyed; from the Manasses Chronicle, made about 600 years later.",
+          "alt": "Medieval manuscript miniature of the iconoclast emperor Constantine V ordering the destruction of a church"
+        }
+      ],
+      "sources": [
+        {
+          "title": "The Early Medieval Balkans: A Critical Survey from the Sixth to the Late Twelfth Century",
+          "author": "John V. A. Fine Jr",
+          "note": "University of Michigan Press, 1983"
+        },
+        {
+          "title": "A History of the First Bulgarian Empire",
+          "author": "Steven Runciman",
+          "note": "G. Bell & Sons, 1930"
+        },
+        {
+          "title": "Chronographia",
+          "author": "Theophanes the Confessor",
+          "note": "Early 9th century; the main Byzantine narrative for this period"
+        },
+        {
+          "title": "Short History (Breviarium)",
+          "author": "Patriarch Nikephoros I of Constantinople"
+        }
+      ],
+      "review": {
+        "status": "draft",
+        "notes": "Drafted from the listed sources; needs a human fact-check."
+      }
+    },
+    {
+      "id": "krum",
+      "kind": "monarch",
+      "rulers": [
+        "krum"
+      ],
+      "tagline": "The khan who drank from an emperor's skull",
+      "start": {
+        "date": "0803",
+        "circa": true
+      },
+      "end": {
+        "date": "0814-04-13"
+      },
+      "contestedWith": [],
+      "relationToPredecessor": "Origins unknown",
+      "ageAtAccession": "Unknown",
+      "cameToPower": "Took power around 803",
+      "reignEnded": "Died suddenly before an attack",
+      "previously": "Kardam vanishes from the record, and a new khan takes the throne.",
+      "paragraphs": [
+        "Nobody knows exactly where Krum came from, but he arrived ready for war. First he finished off what was left of the Avar khaganate to the north-west, pushing Bulgaria's border far up the Danube. In 809 he took Serdica, modern Sofia, and massacred its garrison. In Constantinople the emperor Nikephoros I decided to deal with the Bulgars once and for all.",
+        "In July 811 Nikephoros marched in, took Pliska and burned Krum's palace. Krum begged for peace and was refused. So he blocked the mountain passes behind the Byzantines. On 26 July 811 the Bulgars fell on the trapped army. Nikephoros was killed with much of his army, the first emperor to die in battle in over 400 years. Krum, the story goes, had the skull lined with silver and drank from it.",
+        "In 813 he crushed Michael I at Versinikia and rode up to the walls of Constantinople. The new emperor, Leo V, invited him to talks, then sprang an ambush. Krum got away wounded. In revenge he took Adrianople and marched thousands of its people north of the Danube. He was building siege engines for an assault on the capital when he died suddenly on 13 April 814."
+      ],
+      "claims": [
+        {
+          "text": "Krum turned Nikephoros's skull into a silver-lined drinking cup.",
+          "status": "disputed",
+          "note": "Theophanes, writing within a few years, reports it and later chroniclers repeat it. It fits steppe custom, but it comes only from the enemy side."
+        },
+        {
+          "text": "Leo V tried to have Krum killed at a peace parley.",
+          "status": "confirmed",
+          "note": "Byzantine chroniclers tell the story against their own emperor, which makes it hard to doubt, though details vary."
+        },
+        {
+          "text": "Krum issued harsh laws, including against thieves and false accusers, and had vineyards uprooted.",
+          "status": "disputed",
+          "note": "Known only from the Suda, a Byzantine encyclopedia written over 150 years later."
+        }
+      ],
+      "hook": "Krum dies with Constantinople in his sights. After a murky gap, his son Omurtag takes the throne and does something nobody expects: he makes peace.",
+      "images": [
+        {
+          "file": "File:51-manasses-chronicle.jpg",
+          "url": "https://upload.wikimedia.org/wikipedia/commons/c/c2/51-manasses-chronicle.jpg",
+          "page": "https://commons.wikimedia.org/wiki/File:51-manasses-chronicle.jpg",
+          "credit": "Unknown illuminator (Manasses Chronicle)",
+          "license": "Public domain",
+          "made": "c. 1345",
+          "caption": "Krum celebrating his victory over Nikephoros, from the Bulgarian Manasses Chronicle, made over 500 years later.",
+          "alt": "Medieval manuscript miniature of Krum of Bulgaria feasting after his victory over the emperor Nikephoros"
+        }
+      ],
+      "sources": [
+        {
+          "title": "The Early Medieval Balkans: A Critical Survey from the Sixth to the Late Twelfth Century",
+          "author": "John V. A. Fine Jr",
+          "note": "University of Michigan Press, 1983"
+        },
+        {
+          "title": "A History of the First Bulgarian Empire",
+          "author": "Steven Runciman",
+          "note": "G. Bell & Sons, 1930"
+        },
+        {
+          "title": "Chronographia",
+          "author": "Theophanes the Confessor",
+          "note": "Early 9th century; the main Byzantine narrative for this period"
+        },
+        {
+          "title": "Suda",
+          "author": "Anonymous",
+          "note": "10th-century Byzantine encyclopedia; the laws of Krum"
+        }
+      ],
+      "review": {
+        "status": "draft",
+        "notes": "Drafted from the listed sources; needs a human fact-check."
+      }
+    },
+    {
+      "id": "omurtag",
+      "kind": "monarch",
+      "rulers": [
+        "omurtag"
+      ],
+      "tagline": "The builder khan who carved his thoughts in stone",
+      "start": {
+        "date": "0815",
+        "circa": true
+      },
+      "end": {
+        "date": "0831"
+      },
+      "contestedWith": [],
+      "relationToPredecessor": "Son of Krum",
+      "ageAtAccession": "Unknown",
+      "cameToPower": "Took over after a murky gap",
+      "reignEnded": "Died in 831",
+      "previously": "Krum dies suddenly while preparing to storm Constantinople.",
+      "paragraphs": [
+        "After Krum's death the record goes dark for a moment, and one or two shadowy rulers, Dukum and Ditseng, may have held power. By about 815 Krum's son Omurtag was in charge, and he chose peace. Around 815 or 816 he signed a thirty-year treaty with Leo V, and it held. In 823, when the rebel Thomas the Slav besieged Constantinople, Omurtag's army came to help the emperor Michael II and smashed the rebels.",
+        "Omurtag loved to build. He put up palaces and forts, rebuilt Pliska, and covered his work with Greek inscriptions carved in stone. One, on a column now in a Tarnovo church, muses that a man dies even if he lives well, and another is born, so let those who come later remember the man who built this. Out on the Middle Danube his armies clashed with the Franks.",
+        "At home he was hard on Christians, many of them Byzantine prisoners, and some were put to death. Omurtag died in 831. The throne went to a younger son, not his eldest."
+      ],
+      "claims": [
+        {
+          "text": "Dukum and Ditseng ruled briefly between Krum and Omurtag.",
+          "status": "disputed",
+          "note": "They are named only in later Byzantine church texts about Christian martyrs, with no dates. Some historians doubt they reigned at all."
+        },
+        {
+          "text": "Omurtag's column inscription reflects on death and remembrance.",
+          "status": "confirmed",
+          "note": "The Greek inscription survives on a column in the Church of the Forty Martyrs in Veliko Tarnovo."
+        },
+        {
+          "text": "Omurtag and Leo V agreed a thirty-year peace.",
+          "status": "confirmed",
+          "note": "Byzantine writers mention it, and a Greek inscription found in north-eastern Bulgaria preserves part of the terms."
+        }
+      ],
+      "hook": "Omurtag dies in 831. His eldest son Enravota has done something dangerous: he has become a Christian. The crown goes to his brother Malamir.",
+      "images": [
+        {
+          "file": "File:Bulgarian king Omurtag sends delegation to Byzantine emperor Michael II from the Chronicle of John Skylitzes.jpg",
+          "url": "https://upload.wikimedia.org/wikipedia/commons/b/b4/Bulgarian_king_Omurtag_sends_delegation_to_Byzantine_emperor_Michael_II_from_the_Chronicle_of_John_Skylitzes.jpg",
+          "page": "https://commons.wikimedia.org/wiki/File:Bulgarian_king_Omurtag_sends_delegation_to_Byzantine_emperor_Michael_II_from_the_Chronicle_of_John_Skylitzes.jpg",
+          "credit": "Unknown illuminator (Madrid Skylitzes)",
+          "license": "Public domain",
+          "made": "12th century",
+          "caption": "Omurtag and envoys of Michael II, from the Madrid Skylitzes, made about 300 years after his reign.",
+          "alt": "Medieval manuscript miniature of the Bulgarian ruler Omurtag with envoys passing between him and the Byzantine emperor Michael II"
+        }
+      ],
+      "sources": [
+        {
+          "title": "The Early Medieval Balkans: A Critical Survey from the Sixth to the Late Twelfth Century",
+          "author": "John V. A. Fine Jr",
+          "note": "University of Michigan Press, 1983"
+        },
+        {
+          "title": "A History of the First Bulgarian Empire",
+          "author": "Steven Runciman",
+          "note": "G. Bell & Sons, 1930"
+        },
+        {
+          "title": "Southeastern Europe in the Middle Ages, 500–1250",
+          "author": "Florin Curta",
+          "note": "Cambridge University Press, 2006"
+        },
+        {
+          "title": "Die protobulgarischen Inschriften",
+          "author": "Veselin Beševliev",
+          "note": "Akademie-Verlag, Berlin, 1963"
+        }
+      ],
+      "review": {
+        "status": "draft",
+        "notes": "Drafted from the listed sources; needs a human fact-check."
+      }
+    },
+    {
+      "id": "khans-heirs",
+      "kind": "interregnum",
+      "rulers": [],
+      "house": "krum",
+      "title": "Omurtag's Heirs",
+      "tagline": "A martyred prince, a power minister and a Serbian fiasco",
+      "start": {
+        "date": "0831"
+      },
+      "end": {
+        "date": "0852"
+      },
+      "contestedWith": [],
+      "relationToPredecessor": "Omurtag's son, then a kinsman",
+      "ageAtAccession": "Unknown",
+      "cameToPower": "Inherited from Omurtag",
+      "reignEnded": "Presian dies; Boris inherits",
+      "previously": "Omurtag, the builder khan, dies in 831.",
+      "paragraphs": [
+        "Omurtag had three sons we know of, and the crown went to the youngest, Malamir (831 to 836). The eldest, Enravota, had picked up Christianity from a Byzantine prisoner and refused to give it up. Malamir had his own brother executed. Long afterwards the Church honoured Enravota as Boyan, the first Bulgarian martyr.",
+        "Much of the real power seems to have sat with a senior minister, Isbul, whose name turns up in inscriptions building an aqueduct and leading armies. Bulgaria pushed south-west into Macedonia. Then came Presian (836 to 852). How he was related to Malamir is unclear; he may have been a nephew.",
+        "Presian tried to bring the Serbs to heel and spent three years fighting them, losing much of his army. He died in 852 and his son Boris took the throne. Boris would change the country more than any khan before him."
+      ],
+      "claims": [
+        {
+          "text": "Enravota was executed by Malamir for his Christian faith.",
+          "status": "disputed",
+          "note": "Told in a saint's life by Theophylact of Ohrid, written around 1100, more than 250 years later."
+        },
+        {
+          "text": "Presian lost a three-year war with the Serbs.",
+          "status": "disputed",
+          "note": "Reported by the emperor Constantine VII in the 950s, a century later, probably from Serbian tradition."
+        },
+        {
+          "text": "Malamir and Presian were two different men.",
+          "status": "disputed",
+          "note": "Some historians argue they were one ruler with two names. The inscriptions and Byzantine writers are too thin to settle it."
+        }
+      ],
+      "hook": "Boris inherits a pagan khanate ringed by Christian powers. He'll lose wars on every side, then make a choice that turns his nobles against him.",
+      "images": [
+        {
+          "file": "File:Omurtag.jpg",
+          "url": "https://upload.wikimedia.org/wikipedia/commons/2/27/Omurtag.jpg",
+          "page": "https://commons.wikimedia.org/wiki/File:Omurtag.jpg",
+          "credit": "Unknown illuminator (Madrid Skylitzes)",
+          "license": "Public domain",
+          "made": "12th century",
+          "caption": "Omurtag watching the execution of a Christian bishop, from the Madrid Skylitzes, made about 300 years later.",
+          "alt": "Medieval manuscript miniature of Khan Omurtag watching the execution of Bishop Manuel"
+        }
+      ],
+      "sources": [
+        {
+          "title": "The Early Medieval Balkans: A Critical Survey from the Sixth to the Late Twelfth Century",
+          "author": "John V. A. Fine Jr",
+          "note": "University of Michigan Press, 1983"
+        },
+        {
+          "title": "A History of the First Bulgarian Empire",
+          "author": "Steven Runciman",
+          "note": "G. Bell & Sons, 1930"
+        },
+        {
+          "title": "De Administrando Imperio",
+          "author": "Constantine VII Porphyrogennetos",
+          "note": "Presian's Serbian war"
+        }
+      ],
+      "review": {
+        "status": "draft",
+        "notes": "Drafted from the listed sources; needs a human fact-check."
+      }
+    },
+    {
+      "id": "boris-i",
+      "kind": "monarch",
+      "rulers": [
+        "boris-i"
+      ],
+      "tagline": "The pagan khan who baptised a nation",
+      "start": {
+        "date": "0852"
+      },
+      "end": {
+        "date": "0889"
+      },
+      "contestedWith": [],
+      "relationToPredecessor": "Son of Presian",
+      "ageAtAccession": "Unknown",
+      "cameToPower": "Succeeded his father",
+      "reignEnded": "Retired to a monastery",
+      "previously": "Presian dies in 852, and his son Boris takes the throne.",
+      "paragraphs": [
+        "Boris spent his first years losing wars on several fronts. He flirted with the Franks and their Latin Christianity, which alarmed Constantinople. In 864, with a Byzantine army on the border and famine at home, he made his choice. He was baptised, taking the name Michael after his godfather, the emperor Michael III. Many of his nobles rose in revolt. Boris crushed them and, it is said, executed 52 of them with their families.",
+        "Then he went shopping for the best church deal. In 866 he sent Pope Nicholas I a list of questions, and the pope's answers survive. Among other things, Bulgarian women could keep wearing trousers. Boris played Rome off against Constantinople until 870, when his church went to Constantinople. In 886 he took in Clement and Naum, exiled disciples of Cyril and Methodius, with their Slavonic books.",
+        "In 889 Boris retired to a monastery and left the throne to his eldest son, Vladimir, who turned back to the old gods. In 893 Boris came out, deposed Vladimir, had him blinded and made his third son Simeon ruler. A council at Preslav made Slavonic the language of church and state. Boris went back to his cell and died on 2 May 907. He is honoured as a saint."
+      ],
+      "claims": [
+        {
+          "text": "Boris executed 52 rebel nobles along with their families.",
+          "status": "disputed",
+          "note": "The number comes from the Frankish Annals of St Bertin. Pope Nicholas I's replies also discuss how the rebels were punished."
+        },
+        {
+          "text": "Pope Nicholas I told the Bulgarians their women could go on wearing trousers.",
+          "status": "confirmed",
+          "note": "It is in his Responsa of 866, answers to Boris's questions, which survive in full."
+        },
+        {
+          "text": "Boris had his son Vladimir blinded.",
+          "status": "disputed",
+          "note": "Reported by the Frankish chronicler Regino of Prüm. Other sources say only that Vladimir was deposed."
+        }
+      ],
+      "hook": "Boris goes back to his monastery. On the throne sits Simeon, a monk schooled in Constantinople. He knows the empire's weak spots, and he wants its crown.",
+      "images": [
+        {
+          "file": "File:57-manasses-chronicle.jpg",
+          "url": "https://upload.wikimedia.org/wikipedia/commons/7/76/57-manasses-chronicle.jpg",
+          "page": "https://commons.wikimedia.org/wiki/File:57-manasses-chronicle.jpg",
+          "credit": "Unknown illuminator (Manasses Chronicle)",
+          "license": "Public domain",
+          "made": "c. 1345",
+          "caption": "The baptism of the Bulgarians, from the Bulgarian Manasses Chronicle, made nearly 500 years later.",
+          "alt": "Medieval manuscript miniature showing the Christianisation of the Bulgarians"
+        }
+      ],
+      "sources": [
+        {
+          "title": "The Early Medieval Balkans: A Critical Survey from the Sixth to the Late Twelfth Century",
+          "author": "John V. A. Fine Jr",
+          "note": "University of Michigan Press, 1983"
+        },
+        {
+          "title": "Responsa ad consulta Bulgarorum",
+          "author": "Pope Nicholas I",
+          "note": "866"
+        },
+        {
+          "title": "Annals of St Bertin",
+          "author": "Hincmar of Reims (for these years)"
+        },
+        {
+          "title": "Chronicon",
+          "author": "Regino of Prüm"
+        }
+      ],
+      "review": {
+        "status": "draft",
+        "notes": "Drafted from the listed sources; needs a human fact-check."
+      }
+    },
+    {
+      "id": "simeon-i",
+      "kind": "monarch",
+      "rulers": [
+        "simeon-i"
+      ],
+      "tagline": "The scholar tsar who wanted Constantinople",
+      "start": {
+        "date": "0893"
+      },
+      "end": {
+        "date": "0927-05-27"
+      },
+      "contestedWith": [],
+      "relationToPredecessor": "Third son of Boris I",
+      "ageAtAccession": "About 29",
+      "cameToPower": "Put on the throne by his father",
+      "reignEnded": "Died at Preslav",
+      "previously": "Boris leaves his monastery, blinds Vladimir and crowns Simeon.",
+      "paragraphs": [
+        "Simeon was schooled in Constantinople and became a monk before his father pulled him out to rule. A Western diplomat called him half-Greek. In 894 Byzantium moved the Bulgarian merchants' market to Thessalonica, and Simeon went to war over it. The empire paid the Magyars to hit him from the north. Simeon paid the Pechenegs to hit the Magyars' homes, and the Magyars moved west into what became Hungary. In 896 he crushed the Byzantines at Bulgarophygon.",
+        "In 913 he camped outside Constantinople. The Patriarch Nicholas Mystikos came out and crowned him in some fashion, and Simeon called himself tsar. When Byzantium backed out of the deal, he answered on 20 August 917 at the Achelous, where its army was wiped out. A Byzantine writer said the bones still lay there decades later. Simeon met the emperor Romanos I in 923 or 924, but the city stayed out of reach.",
+        "He took Serbia in 924 and lost an army to the Croats in 926. At home it was a golden age. At Preslav he built the Golden Church, and writers such as John the Exarch and Constantine of Preslav worked in Slavonic, while the monk Hrabar defended the Slavic letters. The Cyrillic alphabet took shape in Bulgaria in these years. Simeon died on 27 May 927."
+      ],
+      "claims": [
+        {
+          "text": "The Patriarch crowned Simeon emperor outside Constantinople in 913.",
+          "status": "disputed",
+          "note": "Byzantine sources say the patriarch placed his own headdress on Simeon instead of a crown. What that ceremony meant is still argued over."
+        },
+        {
+          "text": "At his meeting with Romanos I, two eagles met overhead and then flew apart, a sign the rulers would never agree.",
+          "status": "legend",
+          "note": "Told by a Byzantine chronicle written decades later, a classic omen story."
+        },
+        {
+          "text": "Cyrillic was created in Bulgaria, at the Preslav school.",
+          "status": "disputed",
+          "note": "It clearly took shape in Bulgaria around 900, but exactly where and who designed it is unknown. Clement of Ohrid is often credited without solid evidence."
+        }
+      ],
+      "hook": "Simeon dies with Constantinople still out of reach. His son Peter has a very different plan: marry into the emperor's family.",
+      "images": [
+        {
+          "file": "File:60-manasses-chronicle.jpg",
+          "url": "https://upload.wikimedia.org/wikipedia/commons/b/b0/60-manasses-chronicle.jpg",
+          "page": "https://commons.wikimedia.org/wiki/File:60-manasses-chronicle.jpg",
+          "credit": "Unknown illuminator (Manasses Chronicle)",
+          "license": "Public domain",
+          "made": "c. 1345",
+          "caption": "A feast in Constantinople for Simeon and a Bulgarian attack, from the Manasses Chronicle, made over 400 years later.",
+          "alt": "Medieval manuscript miniature of a feast in Constantinople in honour of Tsar Simeon, beside a Bulgarian attack on Byzantine troops"
+        }
+      ],
+      "sources": [
+        {
+          "title": "The Early Medieval Balkans: A Critical Survey from the Sixth to the Late Twelfth Century",
+          "author": "John V. A. Fine Jr",
+          "note": "University of Michigan Press, 1983"
+        },
+        {
+          "title": "A History of the First Bulgarian Empire",
+          "author": "Steven Runciman",
+          "note": "G. Bell & Sons, 1930"
+        },
+        {
+          "title": "Antapodosis",
+          "author": "Liutprand of Cremona",
+          "note": "The \"half-Greek\" remark"
+        },
+        {
+          "title": "History",
+          "author": "Leo the Deacon"
+        }
+      ],
+      "review": {
+        "status": "draft",
+        "notes": "Drafted from the listed sources; needs a human fact-check."
+      }
+    },
+    {
+      "id": "peter-i",
+      "kind": "monarch",
+      "rulers": [
+        "peter-i"
+      ],
+      "tagline": "The peaceful tsar with a werewolf brother",
+      "start": {
+        "date": "0927-05-27"
+      },
+      "end": {
+        "date": "0969",
+        "circa": true
+      },
+      "contestedWith": [],
+      "relationToPredecessor": "Son of Simeon I",
+      "ageAtAccession": "Unknown",
+      "cameToPower": "Succeeded his father",
+      "reignEnded": "Stroke; became a monk",
+      "previously": "Simeon the Great dies in May 927, Constantinople still untaken.",
+      "paragraphs": [
+        "Peter moved fast to end his father's wars. In 927 he made peace and married Maria Lekapene, granddaughter of the emperor Romanos I. Byzantium recognised his title of tsar and the head of the Bulgarian church as a patriarch, and money flowed north every year. Not every brother approved. Ivan and later Michael rose against him, and both failed.",
+        "Another brother, Benjamin, was said to be a magician who could turn himself into a wolf. Peace brought monasteries and new ideas. A priest called Bogomil preached that the material world was the Devil's work, and Cosmas the Priest wrote a fierce sermon against his followers. The hermit John of Rila drew people to the mountains. Magyar raiders kept crossing Bulgaria on their way to Byzantium.",
+        "In the 960s the emperor Nikephoros II stopped the payments, then paid Sviatoslav of Kiev to attack Bulgaria in 968. The Rus' tore through the north. Peter suffered a stroke, became a monk, and died on 30 January 970."
+      ],
+      "claims": [
+        {
+          "text": "Maria Lekapene took the name Irene, meaning peace, when she married Peter.",
+          "status": "disputed",
+          "note": "Byzantine chroniclers say so. Whether it was a formal renaming or a play on words is uncertain."
+        },
+        {
+          "text": "Peter's brother Benjamin could turn himself into a wolf.",
+          "status": "legend",
+          "note": "Liutprand of Cremona heard this at the Byzantine court and wrote it down."
+        },
+        {
+          "text": "Peter died on 30 January 970.",
+          "status": "disputed",
+          "note": "Most historians accept this date, but some sources put his death in 969."
+        }
+      ],
+      "hook": "Peter is gone and the Rus' are in Bulgaria. His son Boris, a hostage in Constantinople, is sent home to a throne that barely exists.",
+      "images": [
+        {
+          "file": "File:62-manasses-chronicle.jpg",
+          "url": "https://upload.wikimedia.org/wikipedia/commons/e/e1/62-manasses-chronicle.jpg",
+          "page": "https://commons.wikimedia.org/wiki/File:62-manasses-chronicle.jpg",
+          "credit": "Unknown illuminator (Manasses Chronicle)",
+          "license": "Public domain",
+          "made": "c. 1345",
+          "caption": "Peter's death and his sons' return from Constantinople, from the Manasses Chronicle, made nearly 400 years later.",
+          "alt": "Medieval manuscript miniature showing the death of Tsar Peter I and the return of his sons from Constantinople"
+        }
+      ],
+      "sources": [
+        {
+          "title": "The Early Medieval Balkans: A Critical Survey from the Sixth to the Late Twelfth Century",
+          "author": "John V. A. Fine Jr",
+          "note": "University of Michigan Press, 1983"
+        },
+        {
+          "title": "A History of the First Bulgarian Empire",
+          "author": "Steven Runciman",
+          "note": "G. Bell & Sons, 1930"
+        },
+        {
+          "title": "Antapodosis",
+          "author": "Liutprand of Cremona",
+          "note": "Benjamin the werewolf"
+        },
+        {
+          "title": "Sermon against the Heretics",
+          "author": "Cosmas the Priest"
+        }
+      ],
+      "review": {
+        "status": "draft",
+        "notes": "Drafted from the listed sources; needs a human fact-check."
+      }
+    },
+    {
+      "id": "boris-ii",
+      "kind": "monarch",
+      "rulers": [
+        "boris-ii"
+      ],
+      "tagline": "The tsar who lost his crown in a Roman parade",
+      "start": {
+        "date": "0969",
+        "circa": true
+      },
+      "end": {
+        "date": "0971"
+      },
+      "contestedWith": [],
+      "relationToPredecessor": "Son of Peter I",
+      "ageAtAccession": "Unknown",
+      "cameToPower": "Sent home from Constantinople",
+      "reignEnded": "Captured by Tzimiskes",
+      "previously": "Peter has a stroke and becomes a monk as the Rus' invade.",
+      "paragraphs": [
+        "Boris had spent years as a hostage in Constantinople. Now he came home to a country being torn apart. In 969 Sviatoslav of Kiev came back for more and took the capital, Preslav. He kept Boris on as a puppet tsar.",
+        "Then the new emperor, John I Tzimiskes, decided the Rus' had to go. In spring 971 he stormed Preslav and found Boris there. He besieged Sviatoslav at Dorostolon, modern Silistra, until the Rus' gave up and went home. Tzimiskes said he had come to free Bulgaria. He kept it instead.",
+        "Back in Constantinople he held a triumph. A captured Bulgarian icon of the Virgin rode in the chariot, and Boris was publicly stripped of his crown and regalia, then given a Byzantine court rank. Eastern Bulgaria was now Byzantine. In 977 Boris and his brother Roman escaped. As Boris crossed into Bulgaria, a border guard saw his Greek clothes, took him for a Byzantine and shot him dead."
+      ],
+      "claims": [
+        {
+          "text": "Boris was stripped of his regalia in Tzimiskes's triumph.",
+          "status": "confirmed",
+          "note": "Leo the Deacon, who lived through it, and John Skylitzes both describe the ceremony."
+        },
+        {
+          "text": "Boris was shot by a Bulgarian guard who mistook him for a Byzantine.",
+          "status": "disputed",
+          "note": "Only Skylitzes tells it. It fits the chaos of the time, but nothing confirms it."
+        }
+      ],
+      "hook": "The east is lost. But in the western mountains four brothers, sons of a count, have kept Bulgaria alive, and one of them is about to take charge.",
+      "images": [
+        {
+          "file": "File:65-manasses-chronicle.jpg",
+          "url": "https://upload.wikimedia.org/wikipedia/commons/c/ca/65-manasses-chronicle.jpg",
+          "page": "https://commons.wikimedia.org/wiki/File:65-manasses-chronicle.jpg",
+          "credit": "Unknown illuminator (Manasses Chronicle)",
+          "license": "Public domain",
+          "made": "c. 1345",
+          "caption": "Byzantine conquests in Bulgaria, including Tzimiskes taking Preslav, from the Manasses Chronicle, made nearly 400 years later.",
+          "alt": "Medieval manuscript miniature of John I Tzimiskes capturing Preslav and Basil II capturing Pliska"
+        }
+      ],
+      "sources": [
+        {
+          "title": "The Early Medieval Balkans: A Critical Survey from the Sixth to the Late Twelfth Century",
+          "author": "John V. A. Fine Jr",
+          "note": "University of Michigan Press, 1983"
+        },
+        {
+          "title": "Byzantium's Balkan Frontier: A Political Study of the Northern Balkans, 900–1204",
+          "author": "Paul Stephenson",
+          "note": "Cambridge University Press, 2000"
+        },
+        {
+          "title": "History",
+          "author": "Leo the Deacon"
+        },
+        {
+          "title": "Synopsis of Histories",
+          "author": "John Skylitzes"
+        }
+      ],
+      "review": {
+        "status": "draft",
+        "notes": "Drafted from the listed sources; needs a human fact-check."
+      }
+    },
+    {
+      "id": "samuel",
+      "kind": "monarch",
+      "rulers": [
+        "samuel"
+      ],
+      "tagline": "The last great tsar of the First Empire",
+      "start": {
+        "date": "0976",
+        "circa": true
+      },
+      "end": {
+        "date": "1014-10-06"
+      },
+      "contestedWith": [],
+      "relationToPredecessor": "Son of a count named Nicholas",
+      "ageAtAccession": "Unknown",
+      "cameToPower": "Revolt of the four brothers",
+      "reignEnded": "Collapsed after Kleidion",
+      "previously": "Boris II is dead and eastern Bulgaria is Byzantine.",
+      "paragraphs": [
+        "Around 976 four brothers rose in western Bulgaria: David, Moses, Aaron and Samuel. The Byzantines called them the Cometopuli, \"sons of the count\". David and Moses were soon killed in the fighting, and Aaron was put to death on Samuel's orders. That left Samuel. Boris II's brother Roman was the tsar in name until about 997. Then Samuel took the title himself.",
+        "On 17 August 986 he trapped the young emperor Basil II at the Gates of Trajan, a pass near Serdica, and routed his army. Samuel ruled from Prespa and later Ohrid, and raided deep into Greece. In 997 he was caught on the Spercheios river. Wounded, he escaped by lying among the dead, says Skylitzes. Basil kept coming back, year after year, taking towns one by one.",
+        "On 29 July 1014 Samuel's army was trapped at Kleidion. Basil blinded the prisoners, leaving one man in every hundred with one eye to lead the rest home. When they reached Samuel at Prespa he collapsed at the sight. He died on 6 October 1014."
+      ],
+      "claims": [
+        {
+          "text": "Basil II blinded 14,000 or 15,000 prisoners after Kleidion.",
+          "status": "disputed",
+          "note": "Skylitzes gives both figures. Historians think the real number was much smaller."
+        },
+        {
+          "text": "Samuel had his brother Aaron killed.",
+          "status": "disputed",
+          "note": "Skylitzes says Aaron was killed for leaning towards Byzantium. The date and circumstances are unclear."
+        },
+        {
+          "text": "The sight of his blinded army killed Samuel.",
+          "status": "disputed",
+          "note": "Skylitzes says he collapsed and died of it. What actually caused his death is unknown."
+        }
+      ],
+      "hook": "Samuel is dead and Basil's armies are closing in. His son Gavril Radomir takes the crown, but the real danger is inside the family.",
+      "images": [
+        {
+          "file": "File:66-manasses-chronicle.jpg",
+          "url": "https://upload.wikimedia.org/wikipedia/commons/3/3a/66-manasses-chronicle.jpg",
+          "page": "https://commons.wikimedia.org/wiki/File:66-manasses-chronicle.jpg",
+          "credit": "Unknown illuminator (Manasses Chronicle)",
+          "license": "Public domain",
+          "made": "c. 1345",
+          "caption": "Samuel's defeat by Basil II and the return of his blinded soldiers, from the Manasses Chronicle, made over 300 years later.",
+          "alt": "Medieval manuscript miniature of Basil II defeating Tsar Samuel and the blinded Bulgarian soldiers returning home"
+        }
+      ],
+      "sources": [
+        {
+          "title": "The Early Medieval Balkans: A Critical Survey from the Sixth to the Late Twelfth Century",
+          "author": "John V. A. Fine Jr",
+          "note": "University of Michigan Press, 1983"
+        },
+        {
+          "title": "Byzantium's Balkan Frontier: A Political Study of the Northern Balkans, 900–1204",
+          "author": "Paul Stephenson",
+          "note": "Cambridge University Press, 2000"
+        },
+        {
+          "title": "Synopsis of Histories",
+          "author": "John Skylitzes"
+        },
+        {
+          "title": "The Legend of Basil the Bulgar-Slayer",
+          "author": "Paul Stephenson",
+          "note": "Cambridge University Press, 2003"
+        }
+      ],
+      "review": {
+        "status": "draft",
+        "notes": "Drafted from the listed sources; needs a human fact-check."
+      }
+    },
+    {
+      "id": "first-empire-falls",
+      "kind": "interregnum",
+      "rulers": [],
+      "house": "cometopuli",
+      "title": "The Fall of the First Empire",
+      "tagline": "Four years, two tsars, one murder, and the end",
+      "start": {
+        "date": "1014-10-06"
+      },
+      "end": {
+        "date": "1018"
+      },
+      "contestedWith": [],
+      "relationToPredecessor": "Samuel's son, then his nephew",
+      "ageAtAccession": "Unknown",
+      "cameToPower": "Samuel's son takes over",
+      "reignEnded": "Widow surrenders to Basil II",
+      "previously": "Samuel dies after seeing his blinded army stumble home.",
+      "paragraphs": [
+        "Samuel's son Gavril Radomir took the throne in 1014. He was a brave fighter, and years earlier he had saved the life of his cousin Ivan Vladislav, when Samuel wiped out the family of his brother Aaron. It was a kindness he would regret. In 1015, while Gavril was out hunting, Ivan Vladislav killed him and made himself tsar.",
+        "Ivan Vladislav sent friendly letters to Basil II and kept fighting anyway. Basil kept marching, burning and blinding. In February 1018 Ivan Vladislav died in battle outside the walls of Dyrrachium on the Adriatic. His nobles gave up one after another. At Ohrid that year his widow Maria came out and surrendered to the emperor with her children.",
+        "Basil went on to Athens and gave thanks in the Parthenon, which was then a church of the Virgin Mary. Later Greek writers called him Boulgaroktonos, the Bulgar-slayer. After more than three centuries, the First Bulgarian Empire was gone."
+      ],
+      "claims": [
+        {
+          "text": "Gavril Radomir had once begged Samuel to spare the young Ivan Vladislav, the man who later murdered him.",
+          "status": "confirmed",
+          "note": "Skylitzes tells it. He is our only detailed source and wrote about 70 years later, from the Byzantine side."
+        },
+        {
+          "text": "Basil II was known as the Bulgar-slayer in his own lifetime.",
+          "status": "disputed",
+          "note": "No source from his lifetime uses the name. It turns up in the 12th century; Paul Stephenson traces how the legend grew."
+        }
+      ],
+      "hook": "Bulgaria is now a Byzantine province. Basil promises to go easy on his new subjects. The emperors who come after him will be less careful, and the Bulgarians have long memories.",
+      "images": [
+        {
+          "file": "File:IvanVladislav.jpg",
+          "url": "https://upload.wikimedia.org/wikipedia/commons/6/6d/IvanVladislav.jpg",
+          "page": "https://commons.wikimedia.org/wiki/File:IvanVladislav.jpg",
+          "credit": "Madrid Skylitzes (anonymous illuminator)",
+          "license": "Public domain",
+          "made": "12th century",
+          "caption": "Ivan Vladislav in the Madrid Skylitzes, a Byzantine chronicle illustrated in Sicily about 150 years after his death.",
+          "alt": "Medieval manuscript miniature of Ivan Vladislav, from the Madrid Skylitzes"
+        }
+      ],
+      "sources": [
+        {
+          "title": "A Synopsis of Byzantine History, 811–1057",
+          "author": "John Skylitzes",
+          "note": "Trans. John Wortley, Cambridge University Press, 2010"
+        },
+        {
+          "title": "Byzantium's Balkan Frontier: A Political Study of the Northern Balkans, 900–1204",
+          "author": "Paul Stephenson",
+          "note": "Cambridge University Press, 2000"
+        },
+        {
+          "title": "The Legend of Basil the Bulgar-Slayer",
+          "author": "Paul Stephenson",
+          "note": "Cambridge University Press, 2003"
+        },
+        {
+          "title": "The Early Medieval Balkans: A Critical Survey from the Sixth to the Late Twelfth Century",
+          "author": "John V. A. Fine Jr",
+          "note": "University of Michigan Press, 1983"
+        }
+      ],
+      "review": {
+        "status": "draft",
+        "notes": "Drafted from the listed sources; needs a human fact-check."
+      }
+    },
+    {
+      "id": "byzantine-rule",
+      "kind": "interregnum",
+      "rulers": [],
+      "house": "byzantine",
+      "title": "Byzantine Rule",
+      "tagline": "167 years as a Byzantine province, and it never sat quiet",
+      "start": {
+        "date": "1018"
+      },
+      "end": {
+        "date": "1185"
+      },
+      "contestedWith": [],
+      "relationToPredecessor": "Conquered by Basil II",
+      "ageAtAccession": "Not applicable",
+      "cameToPower": "Conquest by Byzantium",
+      "reignEnded": "A wedding tax sparks a revolt",
+      "previously": "Maria surrenders at Ohrid. The First Bulgarian Empire is over.",
+      "paragraphs": [
+        "Basil II played it smart. He kept a Bulgarian church, the Archbishopric of Ohrid, and let people pay their taxes in grain and wine, as they always had. The land was split into Byzantine provinces: Bulgaria in the west, and Paristrion along the Danube. When later officials demanded the tax in coin, people could not pay, and trouble followed.",
+        "In 1040 a man called Peter Delyan was proclaimed tsar at Belgrade, saying he was Gavril Radomir's son. The revolt spread fast. Then Alusian, a son of Ivan Vladislav, joined him and was made co-leader. The partnership did not last. Alusian had Delyan blinded and went over to the Byzantines, and the rising was crushed in 1041. Another revolt, led by Georgi Voyteh at Skopje in 1072, failed too.",
+        "Meanwhile Pecheneg and Cuman horsemen raided across the Danube, and crusader armies tramped through. The strong Komnenian emperors kept the lid on for a century. Then in 1185 the new emperor Isaac II Angelos needed money for his wedding to a Hungarian princess, and raised a special tax."
+      ],
+      "claims": [
+        {
+          "text": "Alusian blinded Peter Delyan after getting him drunk at dinner.",
+          "status": "confirmed",
+          "note": "Psellos, who lived through it, and Skylitzes both describe it, with slightly different details."
+        },
+        {
+          "text": "Peter Delyan really was Gavril Radomir's son.",
+          "status": "disputed",
+          "note": "Delyan said so and his followers believed it. Psellos treats him as a nobody, and nothing settles it."
+        }
+      ],
+      "hook": "Isaac's wedding tax lands on the herds of the Balkan mountains. Two brothers from Tarnovo go to the emperor to ask a favour. It goes very badly.",
+      "images": [
+        {
+          "file": "File:Alusian has Delyan blinded at a banquet.jpg",
+          "url": "https://upload.wikimedia.org/wikipedia/commons/e/e2/Alusian_has_Delyan_blinded_at_a_banquet.jpg",
+          "page": "https://commons.wikimedia.org/wiki/File:Alusian_has_Delyan_blinded_at_a_banquet.jpg",
+          "credit": "Madrid Skylitzes (anonymous illuminator)",
+          "license": "Public domain",
+          "made": "12th century",
+          "caption": "The blinding of Peter Delyan, from the Madrid Skylitzes, made in Sicily more than a century after the event.",
+          "alt": "Manuscript miniature of a banquet at which Alusian has Peter Delyan blinded"
+        }
+      ],
+      "sources": [
+        {
+          "title": "A Synopsis of Byzantine History, 811–1057",
+          "author": "John Skylitzes",
+          "note": "Trans. John Wortley, Cambridge University Press, 2010"
+        },
+        {
+          "title": "Chronographia",
+          "author": "Michael Psellos",
+          "note": "Eyewitness account of the Delyan revolt"
+        },
+        {
+          "title": "Byzantium's Balkan Frontier: A Political Study of the Northern Balkans, 900–1204",
+          "author": "Paul Stephenson",
+          "note": "Cambridge University Press, 2000"
+        },
+        {
+          "title": "The Early Medieval Balkans: A Critical Survey from the Sixth to the Late Twelfth Century",
+          "author": "John V. A. Fine Jr",
+          "note": "University of Michigan Press, 1983"
+        }
+      ],
+      "review": {
+        "status": "draft",
+        "notes": "Drafted from the listed sources; needs a human fact-check."
+      }
+    },
+    {
+      "id": "peter-and-asen",
+      "kind": "monarch",
+      "rulers": [
+        "peter-ii",
+        "ivan-asen-i"
+      ],
+      "title": "Peter and Asen",
+      "tagline": "Two brothers, one slap, and a new Bulgarian empire",
+      "start": {
+        "date": "1185",
+        "circa": true
+      },
+      "end": {
+        "date": "1197",
+        "circa": true
+      },
+      "contestedWith": [],
+      "relationToPredecessor": "Rebels against Byzantium",
+      "ageAtAccession": "Unknown",
+      "cameToPower": "Revolt at Tarnovo",
+      "reignEnded": "Both murdered by their own boyars",
+      "previously": "Isaac II raises a tax to pay for his wedding.",
+      "paragraphs": [
+        "In 1185 two brothers, Theodore and Asen, came to Isaac II and asked for an estate. They were turned down, and Asen was struck in the face for his cheek. Back home at Tarnovo they raised the people in revolt. They gathered prophets who went into wild trances and cried that St Demetrius had left Thessalonica to fight for the Bulgarians. Theodore took the name Peter and was proclaimed tsar. Bulgarian historians count him as Peter IV.",
+        "The brothers lost the first round and fled north of the Danube. They came back with Cuman horsemen, and the Byzantines never got rid of them again. Tarnovo became the capital. In 1189 they offered troops to Frederick Barbarossa's crusade as it marched through. In 1190 Isaac besieged Tarnovo, gave up, and was ambushed in a mountain pass on the way home. He barely escaped with his life.",
+        "Asen took the lead and kept winning. Then in 1196 the boyar Ivanko stabbed him to death in Tarnovo and fled to the Byzantines. A year later Peter was murdered too. Their youngest brother was waiting."
+      ],
+      "claims": [
+        {
+          "text": "Isaac II's men struck Asen in the face when the brothers asked for an estate.",
+          "status": "confirmed",
+          "note": "Niketas Choniates tells it. He was a Byzantine official at the time, and no friend of the rebels."
+        },
+        {
+          "text": "The brothers were Vlachs or Cumans rather than Bulgarians.",
+          "status": "disputed",
+          "note": "Choniates calls them Vlachs; Cuman names run in the family. Romanian and Bulgarian historians have argued over it for 150 years."
+        },
+        {
+          "text": "Ivanko killed Asen over an affair with the sister of Asen's wife.",
+          "status": "disputed",
+          "note": "This is Choniates's account. Others suspect a Byzantine plot, since Ivanko went straight over to Constantinople."
+        }
+      ],
+      "hook": "Both founders are dead, cut down by their own nobles. The youngest brother, Kaloyan, once a hostage in Constantinople, takes the crown. He has a score to settle.",
+      "images": [
+        {
+          "file": "File:Coin of Peter II (IV).png",
+          "url": "https://upload.wikimedia.org/wikipedia/commons/8/8b/Coin_of_Peter_II_%28IV%29.png",
+          "page": "https://commons.wikimedia.org/wiki/File:Coin_of_Peter_II_(IV).png",
+          "credit": "CNG Coins",
+          "license": "CC BY-SA 2.5",
+          "made": "c. 1185–1197",
+          "caption": "A coin of Tsar Peter, struck in his own lifetime.",
+          "alt": "Worn coin showing Peter standing facing on a dais, holding a patriarchal cross"
+        }
+      ],
+      "sources": [
+        {
+          "title": "O City of Byzantium: Annals of Niketas Choniates",
+          "author": "Niketas Choniates",
+          "note": "Trans. Harry J. Magoulias, Wayne State University Press, 1984"
+        },
+        {
+          "title": "The Asanids: The Political and Military History of the Second Bulgarian Empire (1185–1280)",
+          "author": "Alexandru Madgearu",
+          "note": "Brill, 2017"
+        },
+        {
+          "title": "The Late Medieval Balkans: A Critical Survey from the Late Twelfth Century to the Ottoman Conquest",
+          "author": "John V. A. Fine Jr",
+          "note": "University of Michigan Press, 1987"
+        },
+        {
+          "title": "Byzantium's Balkan Frontier: A Political Study of the Northern Balkans, 900–1204",
+          "author": "Paul Stephenson",
+          "note": "Cambridge University Press, 2000"
+        }
+      ],
+      "review": {
+        "status": "draft",
+        "notes": "Drafted from the listed sources; needs a human fact-check."
+      }
+    },
+    {
+      "id": "kaloyan",
+      "kind": "monarch",
+      "rulers": [
+        "kaloyan"
+      ],
+      "tagline": "The tsar who caught a crusader emperor",
+      "start": {
+        "date": "1197",
+        "circa": true
+      },
+      "end": {
+        "date": "1207-10"
+      },
+      "contestedWith": [],
+      "relationToPredecessor": "Youngest brother of Peter and Asen",
+      "ageAtAccession": "Unknown",
+      "cameToPower": "Took over after Peter's murder",
+      "reignEnded": "Died besieging Thessalonica",
+      "previously": "Asen and then Peter are murdered by their own boyars.",
+      "paragraphs": [
+        "Kaloyan had spent time as a hostage in Constantinople, and he hated the Byzantines. Basil II had been the Bulgar-slayer; Kaloyan called himself the Romanslayer. He also wanted a proper crown, so he wrote to Pope Innocent III. On 8 November 1204 a papal legate crowned him at Tarnovo. He had asked to be made emperor. Rome made him a king.",
+        "That year the Fourth Crusade had seized Constantinople. Kaloyan offered the crusaders friendship, and they told him to know his place. So he backed a Greek revolt in Thrace. On 14 April 1205, outside Adrianople, his Cuman horsemen pretended to flee, the knights charged after them, and the trap closed. The Latin emperor Baldwin I was captured and died in captivity at Tarnovo.",
+        "In 1207 Kaloyan's men killed Boniface of Montferrat, the crusader king of Thessalonica. That October Kaloyan was besieging Thessalonica itself when he suddenly died in his tent."
+      ],
+      "claims": [
+        {
+          "text": "Kaloyan's wife fell for the captive Baldwin, and when he turned her down she had him killed.",
+          "status": "legend",
+          "note": "Told by Western chroniclers decades later. It copies the Bible story of Potiphar's wife; Akropolites has a different, grisly ending."
+        },
+        {
+          "text": "St Demetrius, the patron of Thessalonica, rode out and killed Kaloyan with his lance.",
+          "status": "legend",
+          "note": "The city's Greeks credited their saint. It became a favourite subject for icons."
+        },
+        {
+          "text": "His Cuman commander Manastras murdered him.",
+          "status": "disputed",
+          "note": "Some historians read the sources this way. Others think he simply fell ill."
+        }
+      ],
+      "hook": "Kaloyan is dead outside Thessalonica. Asen's young sons have the best claim, but their cousin Boril moves first. He takes the throne, and Kaloyan's widow with it.",
+      "images": [
+        {
+          "file": "File:Leaden seal of Kaloyan.png",
+          "url": "https://upload.wikimedia.org/wikipedia/commons/2/2a/Leaden_seal_of_Kaloyan.png",
+          "page": "https://commons.wikimedia.org/wiki/File:Leaden_seal_of_Kaloyan.png",
+          "credit": "Kandi",
+          "license": "CC BY-SA 4.0",
+          "made": "c. 1197–1207",
+          "caption": "Kaloyan's lead seal, inscribed \"Kaloyan, Tsar of the Bulgarians\"; the original is in the National Archaeological Museum in Sofia.",
+          "alt": "Lead seal of Tsar Kaloyan with a Bulgarian inscription naming him tsar of the Bulgarians"
+        }
+      ],
+      "sources": [
+        {
+          "title": "The History",
+          "author": "George Akropolites",
+          "note": "Trans. Ruth Macrides, Oxford University Press, 2007"
+        },
+        {
+          "title": "The Conquest of Constantinople",
+          "author": "Geoffroi de Villehardouin",
+          "note": "Eyewitness account of Adrianople, 1205"
+        },
+        {
+          "title": "O City of Byzantium: Annals of Niketas Choniates",
+          "author": "Niketas Choniates",
+          "note": "Trans. Harry J. Magoulias, Wayne State University Press, 1984"
+        },
+        {
+          "title": "The Asanids: The Political and Military History of the Second Bulgarian Empire (1185–1280)",
+          "author": "Alexandru Madgearu",
+          "note": "Brill, 2017"
+        }
+      ],
+      "review": {
+        "status": "draft",
+        "notes": "Drafted from the listed sources; needs a human fact-check."
+      }
+    },
+    {
+      "id": "boril",
+      "kind": "monarch",
+      "rulers": [
+        "boril"
+      ],
+      "tagline": "He grabbed the throne and then lost almost everything",
+      "start": {
+        "date": "1207-10"
+      },
+      "end": {
+        "date": "1218"
+      },
+      "contestedWith": [],
+      "relationToPredecessor": "Nephew of Kaloyan",
+      "ageAtAccession": "Unknown",
+      "cameToPower": "Seized the throne",
+      "reignEnded": "Captured, blinded and deposed",
+      "previously": "Kaloyan dies mysteriously outside Thessalonica.",
+      "paragraphs": [
+        "Boril was the son of Kaloyan's sister. He seized the throne and married Kaloyan's Cuman widow, which made his hold look a little more respectable. The rightful heirs, Asen's sons Ivan Asen and Alexander, fled the country and ended up among the Rus'. In 1208 Boril took on the Latin emperor Henry near Philippopolis, today's Plovdiv, and was badly beaten.",
+        "At home he went after the Bogomils, a heretic sect who taught that the material world was the devil's work. In 1211 he held a church council in Tarnovo to condemn them. Its record, the Synodikon of Tsar Boril, still survives. But his realm was coming apart. Relatives and rebels carved out their own lands in Macedonia and the Rhodope mountains. In the end he made peace with the Latins, and Kaloyan's daughter married Emperor Henry.",
+        "Around 1217 Ivan Asen came back with Rus' troops and laid siege to Tarnovo. In 1218 the city fell. Boril was caught and blinded."
+      ],
+      "claims": [
+        {
+          "text": "Boril married Kaloyan's Cuman widow.",
+          "status": "confirmed",
+          "note": "Akropolites says so. Her own name is not recorded with any certainty."
+        },
+        {
+          "text": "The Synodikon of Tsar Boril records a council against the Bogomils held in 1211.",
+          "status": "confirmed",
+          "note": "The text survives in later manuscripts and was added to over the next two centuries."
+        },
+        {
+          "text": "Ivan Asen had Boril blinded when Tarnovo fell.",
+          "status": "confirmed",
+          "note": "Akropolites is the source. What became of Boril afterwards is unknown."
+        }
+      ],
+      "hook": "Boril sits in the dark. The new tsar is Ivan Asen II, son of the founder, and he is about to make Bulgaria bigger than it has been for three hundred years.",
+      "images": [
+        {
+          "file": "File:Seal of Boril.jpg",
+          "url": "https://upload.wikimedia.org/wikipedia/commons/1/1f/Seal_of_Boril.jpg",
+          "page": "https://commons.wikimedia.org/wiki/File:Seal_of_Boril.jpg",
+          "credit": "Unknown author",
+          "license": "Public domain",
+          "made": "c. 1207–1218",
+          "caption": "The state seal of Tsar Boril, made during his reign.",
+          "alt": "Medieval state seal of Tsar Boril"
+        }
+      ],
+      "sources": [
+        {
+          "title": "The History",
+          "author": "George Akropolites",
+          "note": "Trans. Ruth Macrides, Oxford University Press, 2007"
+        },
+        {
+          "title": "Histoire de l'empereur Henri de Constantinople",
+          "author": "Henri de Valenciennes",
+          "note": "Eyewitness account of the 1208 campaign"
+        },
+        {
+          "title": "The Asanids: The Political and Military History of the Second Bulgarian Empire (1185–1280)",
+          "author": "Alexandru Madgearu",
+          "note": "Brill, 2017"
+        },
+        {
+          "title": "The Late Medieval Balkans: A Critical Survey from the Late Twelfth Century to the Ottoman Conquest",
+          "author": "John V. A. Fine Jr",
+          "note": "University of Michigan Press, 1987"
+        }
+      ],
+      "review": {
+        "status": "draft",
+        "notes": "Drafted from the listed sources; needs a human fact-check."
+      }
+    },
+    {
+      "id": "ivan-asen-ii",
+      "kind": "monarch",
+      "rulers": [
+        "ivan-asen-ii"
+      ],
+      "tagline": "The gentle conqueror who flew a broken treaty",
+      "start": {
+        "date": "1218"
+      },
+      "end": {
+        "date": "1241-06",
+        "circa": true
+      },
+      "contestedWith": [],
+      "relationToPredecessor": "Son of Ivan Asen I; cousin of Boril",
+      "ageAtAccession": "Unknown",
+      "cameToPower": "Took Tarnovo after a siege",
+      "reignEnded": "Died in Tarnovo",
+      "previously": "Ivan Asen besieges Tarnovo, and Boril is caught and blinded.",
+      "paragraphs": [
+        "Ivan Asen II had spent his youth in exile, and he came home with a reputation for mercy. Even his Byzantine enemies admitted he was kind to the people he conquered. In 1230 Theodore Komnenos Doukas, the ruler of Epirus, broke their treaty and invaded. On 9 March, at Klokotnitsa, Ivan Asen smashed his army and took him prisoner. Theodore was later blinded for plotting.",
+        "Then he did something clever. He sent the captured soldiers home unharmed, and town after town in Macedonia and Thrace opened its gates. In the Church of the Forty Martyrs in Tarnovo he set up an inscription boasting that he held every land from Adrianople to Dyrrachium. In 1235, with the backing of the Greek empire of Nicaea, the Bulgarian church got its own patriarch again.",
+        "He and Nicaea besieged Constantinople together, then fell out. Soon after, plague killed his wife, a son and the patriarch. He took it as God's punishment and made up with Nicaea. He then married Theodore's daughter Irene. He died in 1241."
+      ],
+      "claims": [
+        {
+          "text": "At Klokotnitsa he carried the broken treaty, with Theodore's oath on it, into battle on his spear.",
+          "status": "disputed",
+          "note": "An old and much-repeated story, but its earliest source is hard to pin down. It fits his own message: the oath-breaker was punished by God."
+        },
+        {
+          "text": "Under Ivan Asen II, Bulgaria reached three seas: the Black Sea, the Aegean and the Adriatic.",
+          "status": "disputed",
+          "note": "A favourite line of Bulgarian history. His own inscription claims land to Dyrrachium, but his grip on the coasts was patchy and brief."
+        },
+        {
+          "text": "He saw the plague of 1237 as punishment for breaking his alliance with Nicaea.",
+          "status": "confirmed",
+          "note": "Akropolites, who served the Nicaean court and liked the story's moral, reports it."
+        }
+      ],
+      "hook": "Ivan Asen II dies at the height of his power. His heir Kaliman is a small boy, and the Mongols, fresh from wrecking Hungary, are riding his way.",
+      "images": [
+        {
+          "file": "File:Coin of Ivan Asen II.png",
+          "url": "https://upload.wikimedia.org/wikipedia/commons/f/f3/Coin_of_Ivan_Asen_II.png",
+          "page": "https://commons.wikimedia.org/wiki/File:Coin_of_Ivan_Asen_II.png",
+          "credit": "CNG Coins",
+          "license": "CC BY-SA 2.5",
+          "made": "c. 1230–1241",
+          "caption": "A coin of Ivan Asen II from the Thessalonica mint, struck in his lifetime, showing him beside St Demetrius.",
+          "alt": "Coin showing Ivan Asen II and St Demetrius standing facing, holding a star-tipped staff between them"
+        }
+      ],
+      "sources": [
+        {
+          "title": "The History",
+          "author": "George Akropolites",
+          "note": "Trans. Ruth Macrides, Oxford University Press, 2007"
+        },
+        {
+          "title": "The Asanids: The Political and Military History of the Second Bulgarian Empire (1185–1280)",
+          "author": "Alexandru Madgearu",
+          "note": "Brill, 2017"
+        },
+        {
+          "title": "The Late Medieval Balkans: A Critical Survey from the Late Twelfth Century to the Ottoman Conquest",
+          "author": "John V. A. Fine Jr",
+          "note": "University of Michigan Press, 1987"
+        }
+      ],
+      "review": {
+        "status": "draft",
+        "notes": "Drafted from the listed sources; needs a human fact-check."
+      }
+    },
+    {
+      "id": "asen-decline",
+      "kind": "interregnum",
+      "rulers": [],
+      "house": "asen",
+      "title": "The Asens Fade",
+      "tagline": "Boy tsars, Mongol raids and a crippled king",
+      "start": {
+        "date": "1241-06",
+        "circa": true
+      },
+      "end": {
+        "date": "1277"
+      },
+      "contestedWith": [],
+      "relationToPredecessor": "Sons and heirs of Ivan Asen II",
+      "ageAtAccession": "Mostly children",
+      "cameToPower": "Inherited, then by murder and marriage",
+      "reignEnded": "Constantine Tikh killed by Ivailo",
+      "previously": "Ivan Asen II dies with Bulgaria at its biggest.",
+      "paragraphs": [
+        "Kaliman I Asen was a boy when he took the throne in 1241. The next year the Mongols came through on their way home from Hungary and left Bulgaria paying tribute. Kaliman died in 1246. His half-brother Michael II Asen (1246–1256) was even younger, and the empire of Nicaea helped itself to Bulgarian lands in Thrace and Macedonia. In 1256 Michael was murdered by his cousin Kaliman II Asen, who was killed himself within months.",
+        "Mitso Asen, a son-in-law of Ivan Asen II, held on for a year. Then the nobles picked Constantine Tikh (1257–1277), a boyar from around Skopje. He married a granddaughter of Ivan Asen II and called himself Constantine Asen. His portrait, with his wife Irina, is painted in the Boyana Church near Sofia, dated 1259.",
+        "Later, after a bad fall from his horse, Constantine could barely move. His second wife Maria, a niece of the Byzantine emperor, ran the court. Mongol raiders roamed the north-east, and the peasants found their own champion."
+      ],
+      "claims": [
+        {
+          "text": "Kaliman I was poisoned.",
+          "status": "disputed",
+          "note": "Akropolites reports that some said so. He gives no names and no proof."
+        },
+        {
+          "text": "Constantine Tikh was paralysed after falling from his horse.",
+          "status": "confirmed",
+          "note": "Pachymeres describes him as crippled and carried about; how bad the injury was is not certain."
+        },
+        {
+          "text": "The Boyana Church shows Tsar Constantine Tikh and Tsaritsa Irina.",
+          "status": "confirmed",
+          "note": "The 1259 frescoes name them in painted inscriptions."
+        }
+      ],
+      "hook": "In 1277 Constantine Tikh is killed on the battlefield, cut down by a pig farmer's peasant army. And the pig farmer is heading for Tarnovo.",
+      "images": [
+        {
+          "file": "File:Konstantin i Irina.jpg",
+          "url": "https://upload.wikimedia.org/wikipedia/commons/a/a7/Konstantin_i_Irina.jpg",
+          "page": "https://commons.wikimedia.org/wiki/File:Konstantin_i_Irina.jpg",
+          "credit": "Unknown painter, Tarnovo Artistic School",
+          "license": "Public domain",
+          "made": "1259",
+          "caption": "Tsar Constantine Tikh and Tsaritsa Irina, painted in the Boyana Church near Sofia in 1259, in his lifetime.",
+          "alt": "Medieval fresco of Tsar Constantine Tikh and Tsaritsa Irina in ceremonial robes, from the Boyana Church"
+        }
+      ],
+      "sources": [
+        {
+          "title": "The History",
+          "author": "George Akropolites",
+          "note": "Trans. Ruth Macrides, Oxford University Press, 2007"
+        },
+        {
+          "title": "Histories (Relations historiques)",
+          "author": "George Pachymeres",
+          "note": "Ed. and French trans. Albert Failler; the main Byzantine source for 1255–1308"
+        },
+        {
+          "title": "The Asanids: The Political and Military History of the Second Bulgarian Empire (1185–1280)",
+          "author": "Alexandru Madgearu",
+          "note": "Brill, 2017"
+        },
+        {
+          "title": "The Late Medieval Balkans: A Critical Survey from the Late Twelfth Century to the Ottoman Conquest",
+          "author": "John V. A. Fine Jr",
+          "note": "University of Michigan Press, 1987"
+        }
+      ],
+      "review": {
+        "status": "draft",
+        "notes": "Drafted from the listed sources; needs a human fact-check."
+      }
+    },
+    {
+      "id": "ivailo",
+      "kind": "monarch",
+      "rulers": [
+        "ivailo"
+      ],
+      "tagline": "The swineherd who killed a tsar and married his widow",
+      "start": {
+        "date": "1277"
+      },
+      "end": {
+        "date": "1279",
+        "circa": true
+      },
+      "contestedWith": [],
+      "relationToPredecessor": "Killed Constantine Tikh",
+      "ageAtAccession": "Unknown",
+      "cameToPower": "Peasant revolt and a royal marriage",
+      "reignEnded": "Betrayed while besieged",
+      "previously": "Constantine Tikh, crippled, lets the Mongols raid at will.",
+      "paragraphs": [
+        "Ivailo herded pigs in north-eastern Bulgaria. He said God sent him visions, and when the Mongols came raiding, the peasants followed him and he beat them. The tsar did nothing, so the rebels turned on him too. In 1277 Ivailo's army met Constantine Tikh's and killed him.",
+        "The widowed tsaritsa Maria made a bold choice. To keep power for her young son, she married the swineherd, and in 1278 he rode into Tarnovo as tsar. The Byzantine emperor Michael VIII was horrified and sent his own candidate, Ivan Asen III. Then the Mongols came back and penned Ivailo inside Drastar, today's Silistra, for three months.",
+        "While he was stuck there, the boyars opened Tarnovo to Ivan Asen III in 1279. Ivailo broke out and kept fighting, even beating Byzantine armies. In the end he went to the Mongol warlord Nogai to ask for help. Nogai had him killed."
+      ],
+      "claims": [
+        {
+          "text": "Ivailo claimed to have had visions from God telling him to lead the people.",
+          "status": "confirmed",
+          "note": "Pachymeres reports that he said so. Whether he believed it or it was good politics is anyone's guess."
+        },
+        {
+          "text": "He was nicknamed Bardokva, a vegetable name, and Greek writers called him Lachanas.",
+          "status": "disputed",
+          "note": "Both nicknames are recorded, but what exactly they meant and why he got them are debated."
+        },
+        {
+          "text": "Nogai had Ivailo murdered at a feast.",
+          "status": "disputed",
+          "note": "Pachymeres tells it, from Constantinople. The date, 1280 or 1281, and the details are uncertain."
+        }
+      ],
+      "hook": "Ivailo is dead, but the Mongols are not going anywhere. Whoever sits in Tarnovo now has to keep the Golden Horde happy.",
+      "images": [
+        {
+          "file": "File:6570 Ivaylovgrad, Bulgaria - panoramio (5).jpg",
+          "url": "https://upload.wikimedia.org/wikipedia/commons/8/84/6570_Ivaylovgrad%2C_Bulgaria_-_panoramio_%285%29.jpg",
+          "page": "https://commons.wikimedia.org/wiki/File:6570_Ivaylovgrad,_Bulgaria_-_panoramio_(5).jpg",
+          "credit": "Красимир Косев (Krasimir Kosev)",
+          "license": "CC BY 3.0",
+          "made": "2016 (photo)",
+          "caption": "A modern statue of Ivailo in the town of Ivaylovgrad, named after him; no real likeness of him survives.",
+          "alt": "Photo of the modern statue of Ivailo in Ivaylovgrad, Bulgaria"
+        }
+      ],
+      "sources": [
+        {
+          "title": "Histories (Relations historiques)",
+          "author": "George Pachymeres",
+          "note": "Ed. and French trans. Albert Failler; the main Byzantine source for 1255–1308"
+        },
+        {
+          "title": "The Asanids: The Political and Military History of the Second Bulgarian Empire (1185–1280)",
+          "author": "Alexandru Madgearu",
+          "note": "Brill, 2017"
+        },
+        {
+          "title": "Cumans and Tatars: Oriental Military in the Pre-Ottoman Balkans, 1185–1365",
+          "author": "István Vásáry",
+          "note": "Cambridge University Press, 2005"
+        },
+        {
+          "title": "The Late Medieval Balkans: A Critical Survey from the Late Twelfth Century to the Ottoman Conquest",
+          "author": "John V. A. Fine Jr",
+          "note": "University of Michigan Press, 1987"
+        }
+      ],
+      "review": {
+        "status": "draft",
+        "notes": "Drafted from the listed sources; needs a human fact-check."
+      }
+    },
+    {
+      "id": "terter-mongols",
+      "kind": "interregnum",
+      "rulers": [],
+      "house": "terter",
+      "title": "In the Shadow of the Golden Horde",
+      "tagline": "Tsars on a Mongol leash",
+      "start": {
+        "date": "1279",
+        "circa": true
+      },
+      "end": {
+        "date": "1300",
+        "circa": true
+      },
+      "contestedWith": [],
+      "relationToPredecessor": "Rivals and successors of Ivailo",
+      "ageAtAccession": "Various",
+      "cameToPower": "With Byzantine or Mongol backing",
+      "reignEnded": "Chaka strangled in Tarnovo",
+      "previously": "Ivailo is betrayed and murdered at Nogai's camp.",
+      "paragraphs": [
+        "Ivan Asen III (1279–1280) did not last. With Ivailo back on the warpath, he slipped out of Tarnovo and ran to Constantinople. A boyar of Cuman descent, George I Terter (1280–1292), took over. He had to bow to Nogai, the Mongol warlord who really ran the lower Danube, and he handed over his son Theodore Svetoslav as a hostage. In 1292 he fled to Byzantium.",
+        "Nogai's next pick was the boyar Smilets (1292–1298). After he died, Bulgaria was up for grabs. Nogai lost a war with Toqta, the khan of the Golden Horde, and was killed in 1299. His son Chaka fled south and seized Tarnovo with Theodore Svetoslav, his brother-in-law, at his side.",
+        "Theodore Svetoslav then turned on him. Chaka was strangled in prison, and his head was sent to Toqta as a gift."
+      ],
+      "claims": [
+        {
+          "text": "Ivan Asen III fled with part of the royal treasury.",
+          "status": "disputed",
+          "note": "Pachymeres says he took valuables with him. How much is unclear."
+        },
+        {
+          "text": "Theodore Svetoslav had Chaka strangled and sent his head to Toqta.",
+          "status": "confirmed",
+          "note": "Pachymeres records it, and it fits what we know of the war between Nogai's family and Toqta."
+        }
+      ],
+      "hook": "Chaka's head is on its way to the khan. The man who sent it, Theodore Svetoslav, grew up among the Mongols and knows exactly how they think.",
+      "images": [
+        {
+          "file": "File:Coin of George Terter I.png",
+          "url": "https://upload.wikimedia.org/wikipedia/commons/4/4a/Coin_of_George_Terter_I.png",
+          "page": "https://commons.wikimedia.org/wiki/File:Coin_of_George_Terter_I.png",
+          "credit": "CNG Coins",
+          "license": "CC BY-SA 2.5",
+          "made": "c. 1280–1292",
+          "caption": "A silver coin of George I Terter, copied from a Venetian grosso, struck in his lifetime.",
+          "alt": "Silver coin imitating a Venetian grosso, with two standing figures holding a banner between them"
+        }
+      ],
+      "sources": [
+        {
+          "title": "Histories (Relations historiques)",
+          "author": "George Pachymeres",
+          "note": "Ed. and French trans. Albert Failler; the main Byzantine source for 1255–1308"
+        },
+        {
+          "title": "Cumans and Tatars: Oriental Military in the Pre-Ottoman Balkans, 1185–1365",
+          "author": "István Vásáry",
+          "note": "Cambridge University Press, 2005"
+        },
+        {
+          "title": "The Late Medieval Balkans: A Critical Survey from the Late Twelfth Century to the Ottoman Conquest",
+          "author": "John V. A. Fine Jr",
+          "note": "University of Michigan Press, 1987"
+        }
+      ],
+      "review": {
+        "status": "draft",
+        "notes": "Drafted from the listed sources; needs a human fact-check."
+      }
+    },
+    {
+      "id": "theodore-svetoslav",
+      "kind": "monarch",
+      "rulers": [
+        "theodore-svetoslav"
+      ],
+      "tagline": "The Mongols' hostage who threw off the Mongols",
+      "start": {
+        "date": "1300",
+        "circa": true
+      },
+      "end": {
+        "date": "1322",
+        "circa": true
+      },
+      "contestedWith": [],
+      "relationToPredecessor": "Son of George I Terter",
+      "ageAtAccession": "Unknown",
+      "cameToPower": "Overthrew Chaka",
+      "reignEnded": "Died in peace",
+      "previously": "Chaka seizes Tarnovo and is strangled in his cell.",
+      "paragraphs": [
+        "Theodore Svetoslav grew up as a hostage among the Mongols. Once in power he made his peace with the Golden Horde, and the raids stopped. He was ruthless with anyone he thought had betrayed him. The patriarch Joachim III was accused of helping Chaka and was put to death.",
+        "Next he went after the Black Sea ports the Byzantines had taken, Mesembria and Anchialus among them. In 1304 he beat a Byzantine army at the river Skafida, where the bridge gave way under the fleeing troops. In 1307 he made peace and married the Byzantine princess Theodora, a granddaughter of the emperor Andronikos II.",
+        "What followed was rare in Bulgarian history: years of quiet. Trade with Venice and Genoa brought money into the ports, and Tarnovo grew rich. He died around 1322."
+      ],
+      "claims": [
+        {
+          "text": "Patriarch Joachim III was thrown to his death from the rock of Tsarevets in Tarnovo.",
+          "status": "disputed",
+          "note": "The execution is recorded; the cliff detail comes from later tradition, and the rock is still called Execution Rock."
+        },
+        {
+          "text": "The bridge over the Skafida collapsed under the retreating Byzantines.",
+          "status": "disputed",
+          "note": "Told in the Byzantine accounts of the battle; the details are sketchy and some later tellings say the Bulgarians wrecked it on purpose."
+        }
+      ],
+      "hook": "Theodore Svetoslav dies, and his son George II Terter follows him to the grave within a year. The Terters are finished, and the boyars must find a new tsar.",
+      "images": [
+        {
+          "file": "File:Theodore Svetoslav grosh.jpg",
+          "url": "https://upload.wikimedia.org/wikipedia/commons/4/48/Theodore_Svetoslav_grosh.jpg",
+          "page": "https://commons.wikimedia.org/wiki/File:Theodore_Svetoslav_grosh.jpg",
+          "credit": "Tarnovo mint",
+          "license": "Public domain",
+          "made": "c. 1300–1322",
+          "caption": "A silver grosh of Theodore Svetoslav from the Tarnovo mint, struck during his reign.",
+          "alt": "Silver grosh coin of Tsar Theodore Svetoslav from the Tarnovo mint"
+        }
+      ],
+      "sources": [
+        {
+          "title": "Histories (Relations historiques)",
+          "author": "George Pachymeres",
+          "note": "Ed. and French trans. Albert Failler; the main Byzantine source for 1255–1308"
+        },
+        {
+          "title": "Rhomaike Historia (Byzantine History)",
+          "author": "Nikephoros Gregoras"
+        },
+        {
+          "title": "Cumans and Tatars: Oriental Military in the Pre-Ottoman Balkans, 1185–1365",
+          "author": "István Vásáry",
+          "note": "Cambridge University Press, 2005"
+        },
+        {
+          "title": "The Late Medieval Balkans: A Critical Survey from the Late Twelfth Century to the Ottoman Conquest",
+          "author": "John V. A. Fine Jr",
+          "note": "University of Michigan Press, 1987"
+        }
+      ],
+      "review": {
+        "status": "draft",
+        "notes": "Drafted from the listed sources; needs a human fact-check."
+      }
+    },
+    {
+      "id": "michael-shishman",
+      "kind": "monarch",
+      "rulers": [
+        "michael-shishman"
+      ],
+      "tagline": "The Vidin lord who swapped wives for a Byzantine alliance",
+      "start": {
+        "date": "1323",
+        "circa": true
+      },
+      "end": {
+        "date": "1330-07-31"
+      },
+      "contestedWith": [],
+      "relationToPredecessor": "Despot of Vidin; not a Terter",
+      "ageAtAccession": "Unknown",
+      "cameToPower": "Chosen by the boyars",
+      "reignEnded": "Died after defeat at Velbazhd",
+      "previously": "Theodore Svetoslav's son George II dies young. The Terters are gone.",
+      "paragraphs": [
+        "In 1323 the Terter line ran out and the boyars needed a tsar fast. They picked Michael Shishman, the despot of Vidin on the Danube. He took the old royal name Asen, so he is sometimes counted as Michael Asen III. His first years went on fighting Byzantium over the Thracian border towns. Then he switched sides and allied with the young emperor Andronikos III.",
+        "To seal the deal he did something brutal. He threw out his Serbian wife Anna Neda, sister of the Serbian king Stefan Dečanski, and married Theodora, Theodore Svetoslav's widow and Andronikos's sister. Serbia took it personally. In 1330 Michael marched west, and on 28 July the Serbs under Stefan Dečanski and his son Stefan Dušan caught his army at Velbazhd, near today's Kyustendil, and smashed it. Three days later Michael was dead."
+      ],
+      "claims": [
+        {
+          "text": "Michael died of wounds he took at Velbazhd.",
+          "status": "disputed",
+          "note": "Byzantine and Serbian accounts tell it differently: wounds in the fighting, a fall from his horse in the rout, or death after capture. All agree he did not survive."
+        },
+        {
+          "text": "He divorced his Serbian wife to marry the widowed Byzantine empress Theodora.",
+          "status": "confirmed",
+          "note": "Reported by the Byzantine historians Nikephoros Gregoras and John Kantakouzenos; the new marriage dates to about 1324."
+        }
+      ],
+      "hook": "Michael is dead, and Serbia now picks the tsar: his son Ivan Stephen, with Anna Neda back in the palace. They last less than a year before a nephew of Michael makes his move.",
+      "images": [
+        {
+          "file": "File:Silver coin - gros of Tzar Michael III Shishman Asen of Bulgaria 1323-1330.jpg",
+          "url": "https://upload.wikimedia.org/wikipedia/commons/a/a6/Silver_coin_-_gros_of_Tzar_Michael_III_Shishman_Asen_of_Bulgaria_1323-1330.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+          "page": "https://commons.wikimedia.org/wiki/File:Silver_coin_-_gros_of_Tzar_Michael_III_Shishman_Asen_of_Bulgaria_1323-1330.jpg",
+          "credit": "AKSKubrat",
+          "license": "CC BY-SA 4.0",
+          "made": "1323–1330",
+          "caption": "A silver coin struck in Michael Shishman's own reign, showing the tsar on horseback.",
+          "alt": "Both faces of a silver coin: Christ enthroned on one side, a mounted ruler with an inscription naming Tsar Michael on the other"
+        }
+      ],
+      "sources": [
+        {
+          "title": "The Late Medieval Balkans: A Critical Survey from the Late Twelfth Century to the Ottoman Conquest",
+          "author": "John V. A. Fine Jr.",
+          "note": "University of Michigan Press, 1987"
+        },
+        {
+          "title": "Roman History (Historia Rhomaike)",
+          "author": "Nikephoros Gregoras",
+          "note": "14th-century Byzantine history"
+        },
+        {
+          "title": "Histories",
+          "author": "John VI Kantakouzenos",
+          "note": "Memoir-history by the later emperor"
+        },
+        {
+          "title": "A Concise History of Bulgaria",
+          "author": "R. J. Crampton",
+          "note": "Cambridge University Press, 1997; 2nd ed. 2005"
+        }
+      ],
+      "review": {
+        "status": "draft",
+        "notes": "Drafted from the listed sources; needs a human fact-check."
+      }
+    },
+    {
+      "id": "ivan-alexander",
+      "kind": "monarch",
+      "rulers": [
+        "ivan-alexander"
+      ],
+      "tagline": "The book-loving tsar who watched the Ottomans arrive",
+      "start": {
+        "date": "1331"
+      },
+      "end": {
+        "date": "1371-02-17"
+      },
+      "contestedWith": [],
+      "relationToPredecessor": "Nephew of Michael Shishman",
+      "ageAtAccession": "About 30",
+      "cameToPower": "Boyar coup against his cousin",
+      "reignEnded": "Died after forty years in power",
+      "previously": "Michael Shishman falls at Velbazhd. Serbia puts his son on the throne.",
+      "paragraphs": [
+        "Ivan Alexander was the son of Michael Shishman's sister and the lord of Lovech. In 1331 the boyars threw out his cousin Ivan Stephen and handed him the crown. He moved fast. In 1332 he beat the emperor Andronikos III at Rusokastro and took back the Black Sea towns. Then he made peace with Serbia by marrying his sister Helena to its rising star, Stefan Dušan.",
+        "His private life raised eyebrows. He put aside his Wallachian first wife and married Sarah, a Jewish convert, who was baptised Theodora. Her son Ivan Shishman became heir in Tarnovo, while his elder half-brother Ivan Sratsimir got Vidin. Meanwhile the Ottomans crossed into Europe at Gallipoli in 1354, and Ivan Alexander's son Michael Asen fell fighting them.",
+        "He is best remembered for his books. Tarnovo became a great centre of learning, and his scribes made two masterpieces that both show his portrait: a Bulgarian translation of the Manasses Chronicle, now in the Vatican, and a lavish Gospel book of 1355–1356, now in the British Library. He died on 17 February 1371, with his realm already split in two."
+      ],
+      "claims": [
+        {
+          "text": "Ivan Alexander married Sarah, a Jewish woman who converted and took the name Theodora.",
+          "status": "confirmed",
+          "note": "Bulgarian church texts of the time mention her conversion, and she appears beside him in the family portrait in his 1355–1356 Gospels."
+        },
+        {
+          "text": "His son Michael Asen was killed fighting the Ottomans.",
+          "status": "disputed",
+          "note": "He died around 1355, and later writers link his death to the first Ottoman raids, but the sources are thin on where and how."
+        },
+        {
+          "text": "The Gospels of Tsar Ivan Alexander portray him with his family.",
+          "status": "confirmed",
+          "note": "British Library Add MS 39627, made in 1355–1356; the portrait shows him with Theodora and their children."
+        }
+      ],
+      "hook": "Ivan Alexander is dead. Ivan Shishman takes Tarnovo, his half-brother still sits in Vidin, and within months the Ottomans wipe out the Serbian lords on the Maritsa.",
+      "images": [
+        {
+          "file": "File:Ivan ALexander and his family Tetraevangelia.jpg",
+          "url": "https://upload.wikimedia.org/wikipedia/commons/8/88/Ivan_ALexander_and_his_family_Tetraevangelia.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+          "page": "https://commons.wikimedia.org/wiki/File:Ivan_ALexander_and_his_family_Tetraevangelia.jpg",
+          "credit": "Unknown Bulgarian illuminator",
+          "license": "Public domain",
+          "made": "1355–1356",
+          "caption": "From the Gospels he commissioned in 1355–1356, now in the British Library: a portrait made in his own lifetime.",
+          "alt": "Medieval manuscript miniature of Tsar Ivan Alexander standing in rich robes and crown with members of his family"
+        }
+      ],
+      "sources": [
+        {
+          "title": "The Late Medieval Balkans: A Critical Survey from the Late Twelfth Century to the Ottoman Conquest",
+          "author": "John V. A. Fine Jr.",
+          "note": "University of Michigan Press, 1987"
+        },
+        {
+          "title": "The Gospels of Tsar Ivan Alexander",
+          "author": "Ekaterina Dimitrova",
+          "note": "British Library, 1994"
+        },
+        {
+          "title": "Roman History (Historia Rhomaike)",
+          "author": "Nikephoros Gregoras"
+        },
+        {
+          "title": "A Concise History of Bulgaria",
+          "author": "R. J. Crampton",
+          "note": "Cambridge University Press, 1997; 2nd ed. 2005"
+        }
+      ],
+      "review": {
+        "status": "draft",
+        "notes": "Drafted from the listed sources; needs a human fact-check."
+      }
+    },
+    {
+      "id": "ivan-shishman",
+      "kind": "monarch",
+      "rulers": [
+        "ivan-shishman"
+      ],
+      "tagline": "The last tsar of Tarnovo",
+      "start": {
+        "date": "1371-02-17"
+      },
+      "end": {
+        "date": "1395",
+        "circa": true
+      },
+      "contestedWith": [],
+      "relationToPredecessor": "Son of Ivan Alexander and Theodora",
+      "ageAtAccession": "About 20",
+      "cameToPower": "Succeeded his father",
+      "reignEnded": "Captured by the Ottomans",
+      "previously": "Ivan Alexander dies, leaving his realm split between two sons.",
+      "paragraphs": [
+        "Ivan Shishman inherited half a country. His half-brother Ivan Sratsimir ran a rival tsardom from Vidin and took no orders from Tarnovo. Then in September 1371 the Ottomans destroyed the Serbian lords of Macedonia on the Maritsa river. Bulgaria had lost its shield. Shishman bowed to the sultan Murad I and became his vassal, and his sister Kera Tamara was sent to Murad's court.",
+        "Vassal status only bought time. Sofia fell to the Ottomans in the 1380s. In 1393 Murad's son Bayezid I came for Tarnovo itself, and after a siege the city fell on 17 July. The Patriarch Euthymius, the great scholar of the age, was sent into exile. Shishman held out around Nikopol on the Danube until he was captured. Tradition says the Ottomans executed him on 3 June 1395.",
+        "In Vidin, Ivan Sratsimir made one last bet. He joined the crusade of Sigismund of Hungary, which was destroyed at Nicopolis on 25 September 1396. Vidin fell the same year, and the medieval Bulgarian state was gone."
+      ],
+      "claims": [
+        {
+          "text": "Ivan Shishman was executed by the Ottomans on 3 June 1395.",
+          "status": "disputed",
+          "note": "The date and manner come from later tradition. Contemporary sources are vague, and some accounts have him dying in captivity."
+        },
+        {
+          "text": "His sister Kera Tamara became a wife of Murad I.",
+          "status": "disputed",
+          "note": "Bulgarian and Byzantine sources say she went to Murad, but whether as a wife or a concubine, and exactly when, is unclear."
+        },
+        {
+          "text": "Shishman fought on from the forests, and springs and hills across Bulgaria are named after him.",
+          "status": "legend",
+          "note": "Folk songs and place names made him a resistance hero; there is no evidence behind most of the stories."
+        }
+      ],
+      "hook": "Bulgaria vanishes from the map for nearly five centuries. Its language and memory live on in the monasteries, the songs and the mountains.",
+      "images": [
+        {
+          "file": "File:Medieval Coin, Silver Grosh of Ivan Sisman, Tsar of Bulgaria. Treasure case no. 2016 T924 (FindID 808584).jpg",
+          "url": "https://upload.wikimedia.org/wikipedia/commons/0/07/Medieval_Coin%2C_Silver_Grosh_of_Ivan_Sisman%2C_Tsar_of_Bulgaria._Treasure_case_no._2016_T924_%28FindID_808584%29.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+          "page": "https://commons.wikimedia.org/wiki/File:Medieval_Coin,_Silver_Grosh_of_Ivan_Sisman,_Tsar_of_Bulgaria._Treasure_case_no._2016_T924_(FindID_808584).jpg",
+          "credit": "The Portable Antiquities Scheme, Frank Basford",
+          "license": "CC BY 2.0",
+          "made": "1371–1395",
+          "caption": "A silver grosh struck in his reign, found in England and recorded by the Portable Antiquities Scheme.",
+          "alt": "Both faces of a pierced silver coin: the Virgin Mary holding the infant Christ, and the tsar standing in Byzantine-style robes holding a sceptre"
+        }
+      ],
+      "sources": [
+        {
+          "title": "The Late Medieval Balkans: A Critical Survey from the Late Twelfth Century to the Ottoman Conquest",
+          "author": "John V. A. Fine Jr.",
+          "note": "University of Michigan Press, 1987"
+        },
+        {
+          "title": "The Ottoman Empire, 1300–1481",
+          "author": "Colin Imber",
+          "note": "Isis Press, 1990"
+        },
+        {
+          "title": "A Concise History of Bulgaria",
+          "author": "R. J. Crampton",
+          "note": "Cambridge University Press, 1997; 2nd ed. 2005"
+        }
+      ],
+      "review": {
+        "status": "draft",
+        "notes": "Drafted from the listed sources; needs a human fact-check."
+      }
+    },
+    {
+      "id": "ottoman-rule",
+      "kind": "interregnum",
+      "rulers": [],
+      "house": "ottoman",
+      "title": "Under Ottoman Rule",
+      "tagline": "Five centuries of sultans, and a nation that kept its memory",
+      "start": {
+        "date": "1396"
+      },
+      "end": {
+        "date": "1878-03-03"
+      },
+      "contestedWith": [],
+      "relationToPredecessor": "Ottoman sultans rule Bulgaria",
+      "ageAtAccession": "No tsar",
+      "cameToPower": "Ottoman conquest",
+      "reignEnded": "Russo-Turkish War of 1877–78",
+      "previously": "Tarnovo and Vidin fall. The last medieval Bulgarian tsars are gone.",
+      "paragraphs": [
+        "For almost five hundred years Bulgaria was part of the Ottoman Empire. Bulgarians remember the era as \"the Turkish yoke\". Christians paid extra taxes, and in many areas boys were taken by the devshirme levy to serve the sultan. Some Bulgarians converted to Islam, among them the Pomaks of the Rhodopes. Monasteries such as Rila kept the old language and books alive, and haiduk outlaws in the hills became folk heroes.",
+        "In 1762 a monk, Paisius of Hilendar, finished a Slavonic-Bulgarian History that urged Bulgarians to be proud of their past. A National Revival followed: new schools, books and, in 1870, a Bulgarian Exarchate free of the Greek-led church. Revolutionaries went further. Vasil Levski built secret committees and was hanged in Sofia in 1873. The April Uprising of 1876 was crushed with massacres, worst of all at Batak, and the poet Hristo Botev died leading a rebel band.",
+        "Gladstone's pamphlet on the \"Bulgarian Horrors\" shook Britain. In 1877 Russia went to war, with epic fights at the Shipka Pass and Plevna. The Treaty of San Stefano on 3 March 1878 created a big Bulgaria, and that day is now Liberation Day. In July the Congress of Berlin cut it down: a small principality, an autonomous Eastern Rumelia under the sultan, and Macedonia handed back."
+      ],
+      "claims": [
+        {
+          "text": "About 5,000 people were killed at Batak in 1876.",
+          "status": "disputed",
+          "note": "The figure comes from the American diplomat Eugene Schuyler and the journalist Januarius MacGahan, who saw the town weeks later. Estimates for the whole uprising vary widely."
+        },
+        {
+          "text": "Gladstone's 1876 pamphlet Bulgarian Horrors and the Question of the East turned the massacres into a British political storm.",
+          "status": "confirmed",
+          "note": "Published in September 1876, it sold in huge numbers and demanded that the Turks leave the province \"bag and baggage\"."
+        }
+      ],
+      "hook": "Bulgaria is free but cut into pieces. The Great Powers choose its first prince: a 22-year-old German officer who has never governed anything.",
+      "images": [
+        {
+          "file": "File:Istoriya Slavyanobolgarskaya Fair Copy.jpg",
+          "url": "https://upload.wikimedia.org/wikipedia/commons/5/56/Istoriya_Slavyanobolgarskaya_Fair_Copy.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+          "page": "https://commons.wikimedia.org/wiki/File:Istoriya_Slavyanobolgarskaya_Fair_Copy.jpg",
+          "credit": "Unknown 18th-century copyist",
+          "license": "Public domain",
+          "made": "18th century",
+          "caption": "A page from an 18th-century fair copy of Paisius of Hilendar's Slavonic-Bulgarian History, now in the National Museum of History in Sofia.",
+          "alt": "Handwritten manuscript page in Church Slavonic script from an early copy of the Slavonic-Bulgarian History"
+        }
+      ],
+      "sources": [
+        {
+          "title": "A Concise History of Bulgaria",
+          "author": "R. J. Crampton",
+          "note": "Cambridge University Press, 1997; 2nd ed. 2005"
+        },
+        {
+          "title": "Bulgarian Horrors and the Question of the East",
+          "author": "W. E. Gladstone",
+          "note": "John Murray, 1876"
+        },
+        {
+          "title": "Gladstone and the Bulgarian Agitation, 1876",
+          "author": "R. T. Shannon",
+          "note": "Nelson, 1963"
+        },
+        {
+          "title": "Slavonic-Bulgarian History (Istoriya Slavyanobolgarskaya)",
+          "author": "Paisius of Hilendar",
+          "note": "1762"
+        }
+      ],
+      "review": {
+        "status": "draft",
+        "notes": "Drafted from the listed sources; needs a human fact-check."
+      }
+    },
+    {
+      "id": "alexander-i",
+      "kind": "monarch",
+      "rulers": [
+        "alexander-i"
+      ],
+      "tagline": "The German prince Russia picked, then kidnapped",
+      "start": {
+        "date": "1879-04-29"
+      },
+      "end": {
+        "date": "1886-09-07"
+      },
+      "contestedWith": [],
+      "relationToPredecessor": "None; elected prince",
+      "ageAtAccession": "22",
+      "cameToPower": "Elected by the Grand National Assembly",
+      "reignEnded": "Abdicated after a kidnapping",
+      "previously": "Liberation at last, but the Congress of Berlin cuts Bulgaria down.",
+      "paragraphs": [
+        "Alexander of Battenberg was a 22-year-old German prince with a useful aunt: the Russian empress. In April 1879 the Grand National Assembly at Tarnovo elected him prince under a brand-new and very liberal constitution. He hated it. In 1881 he suspended it and ruled with Russian generals beside him, then found the Russians even more overbearing and brought the constitution back in 1883.",
+        "In September 1885 rebels in Eastern Rumelia declared union with Bulgaria, and Alexander put himself at their head. Russia was furious and pulled every Russian officer out of the Bulgarian army. Serbia saw its chance and attacked. Bulgaria's young officers and their prince beat the Serbs at Slivnitsa in November, and Alexander was a national hero.",
+        "Russia still wanted him gone. On the night of 20–21 August 1886 pro-Russian officers burst into his palace, forced him to sign an abdication and shipped him off to Russia. Loyalists brought him back within days, but Tsar Alexander III would not back him, and on 7 September he quit for good. He later married an opera singer and died in Graz in 1893, aged 36."
+      ],
+      "claims": [
+        {
+          "text": "Slivnitsa was \"the war of the captains\", won after Russia pulled out its officers.",
+          "status": "confirmed",
+          "note": "The Russian withdrawal is well documented. The nickname is a proud later label that underplays the militia and Alexander's own role."
+        },
+        {
+          "text": "Alexander hoped to marry Princess Viktoria of Prussia, but Bismarck blocked the match.",
+          "status": "confirmed",
+          "note": "Bismarck feared it would anger Russia; the affair is documented in German court and government papers and in Corti's biography."
+        }
+      ],
+      "hook": "The prince is gone and Russia expects to pick the next one. The regent Stefan Stambolov has other ideas, and starts searching Europe for a prince brave enough to take the job.",
+      "images": [
+        {
+          "file": "File:Alexander I of Bulgaria.jpg",
+          "url": "https://upload.wikimedia.org/wikipedia/commons/8/82/Alexander_I_of_Bulgaria.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+          "page": "https://commons.wikimedia.org/wiki/File:Alexander_I_of_Bulgaria.jpg",
+          "credit": "Unknown photographer",
+          "license": "Public domain",
+          "made": "c. 1886",
+          "caption": "A photograph from around the end of his reign.",
+          "alt": "Black-and-white portrait photograph of Prince Alexander of Battenberg in uniform, wearing the Bulgarian Order of Bravery"
+        }
+      ],
+      "sources": [
+        {
+          "title": "Alexander von Battenberg",
+          "author": "Egon Caesar Conte Corti",
+          "note": "English translation, Cassell, 1954"
+        },
+        {
+          "title": "A Concise History of Bulgaria",
+          "author": "R. J. Crampton",
+          "note": "Cambridge University Press, 1997; 2nd ed. 2005"
+        },
+        {
+          "title": "Bulgaria (Oxford History of Modern Europe)",
+          "author": "R. J. Crampton",
+          "note": "Oxford University Press, 2007"
+        }
+      ],
+      "review": {
+        "status": "draft",
+        "notes": "Drafted from the listed sources; needs a human fact-check."
+      }
+    },
+    {
+      "id": "ferdinand",
+      "kind": "monarch",
+      "rulers": [
+        "ferdinand"
+      ],
+      "tagline": "The prince nobody wanted, who made himself tsar",
+      "start": {
+        "date": "1887-07-07"
+      },
+      "end": {
+        "date": "1918-10-03"
+      },
+      "contestedWith": [],
+      "relationToPredecessor": "None; elected prince",
+      "ageAtAccession": "26",
+      "cameToPower": "Elected by the Grand National Assembly",
+      "reignEnded": "Abdicated after defeat in 1918",
+      "previously": "Kidnapped and abandoned by Russia, Alexander of Battenberg abdicates.",
+      "paragraphs": [
+        "Bulgaria spent months looking for a prince. In July 1887 the assembly elected Ferdinand of Saxe-Coburg, a 26-year-old Austrian officer and grandson of the French king Louis Philippe. Russia refused to recognise him, and for years the real power was Stefan Stambolov. Ferdinand sacked him in 1894, and in 1895 Stambolov was hacked to death in a Sofia street. Russia finally accepted Ferdinand in 1896, once his son Boris joined the Orthodox Church.",
+        "Europe called him Foxy Ferdinand. He collected plants and insects and loved driving trains. On 5 October 1908 at Tarnovo he declared Bulgaria fully independent and took the old title of tsar. In 1912 he went to war on the Ottomans with his Balkan allies. His army won at Lule Burgas and took Adrianople, and he dreamed of Constantinople. Then in 1913 Bulgaria attacked its own allies and lost almost everything it had gained.",
+        "He gambled again in October 1915 and joined Germany and Austria-Hungary. In September 1918 the Allies broke the front at Dobro Pole and Bulgaria signed an armistice. On 3 October Ferdinand abdicated in favour of his son and left for Coburg, where he died in 1948."
+      ],
+      "claims": [
+        {
+          "text": "Ferdinand was behind Stambolov's murder.",
+          "status": "disputed",
+          "note": "Stambolov's supporters blamed the palace and the investigation was half-hearted, but no evidence has ever tied Ferdinand directly to the killers."
+        },
+        {
+          "text": "Ferdinand hoped to ride into Constantinople as a conqueror in 1912.",
+          "status": "disputed",
+          "note": "Reported by diplomats and memoir writers of the time. His army was stopped at the Chatalja lines outside the city in November 1912."
+        },
+        {
+          "text": "He liked to drive locomotives himself.",
+          "status": "confirmed",
+          "note": "Widely reported in his lifetime and in his biographies; railways and natural history were his great hobbies."
+        }
+      ],
+      "hook": "Ferdinand is gone. His 24-year-old son Boris inherits a beaten, bitter country, and the peace treaty is coming.",
+      "images": [
+        {
+          "file": "File:Ferdinand I of Bulgaria, 1911.jpg",
+          "url": "https://upload.wikimedia.org/wikipedia/commons/6/6c/Ferdinand_I_of_Bulgaria%2C_1911.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+          "page": "https://commons.wikimedia.org/wiki/File:Ferdinand_I_of_Bulgaria,_1911.jpg",
+          "credit": "Ikonomov, Damyanov and Co.",
+          "license": "Public domain",
+          "made": "1911",
+          "caption": "A page from the Bulgarian Almanac of 1911, three years after he took the title of tsar.",
+          "alt": "Printed almanac page with a portrait of Tsar Ferdinand I of Bulgaria"
+        }
+      ],
+      "sources": [
+        {
+          "title": "Foxy Ferdinand, 1861–1948: Tsar of Bulgaria",
+          "author": "Stephen Constant",
+          "note": "Sidgwick & Jackson, 1979"
+        },
+        {
+          "title": "The Balkan Wars, 1912–1913: Prelude to the First World War",
+          "author": "Richard C. Hall",
+          "note": "Routledge, 2000"
+        },
+        {
+          "title": "A Concise History of Bulgaria",
+          "author": "R. J. Crampton",
+          "note": "Cambridge University Press, 1997; 2nd ed. 2005"
+        },
+        {
+          "title": "Bulgaria (Oxford History of Modern Europe)",
+          "author": "R. J. Crampton",
+          "note": "Oxford University Press, 2007"
+        }
+      ],
+      "review": {
+        "status": "draft",
+        "notes": "Drafted from the listed sources; needs a human fact-check."
+      }
+    },
+    {
+      "id": "boris-iii",
+      "kind": "monarch",
+      "rulers": [
+        "boris-iii"
+      ],
+      "tagline": "Twenty-five years of coups, crises and a world war",
+      "start": {
+        "date": "1918-10-03"
+      },
+      "end": {
+        "date": "1943-08-28"
+      },
+      "contestedWith": [],
+      "relationToPredecessor": "Son of Ferdinand I",
+      "ageAtAccession": "24",
+      "cameToPower": "His father abdicated",
+      "reignEnded": "Died suddenly, aged 49",
+      "previously": "Defeat in 1918. Ferdinand abdicates and leaves Bulgaria for good.",
+      "paragraphs": [
+        "Boris began with a harsh peace. The Treaty of Neuilly in 1919 took land, imposed reparations and shrank the army. Violence followed. The Agrarian leader Aleksandar Stamboliyski was overthrown and killed in June 1923, and on 16 April 1925 a communist bomb in St Nedelya Church in Sofia killed well over 100 people. In 1930 Boris married Giovanna of Savoy. After a coup in 1934, he took personal control in 1935.",
+        "On 1 March 1941 Bulgaria joined the Axis and occupied Yugoslav Macedonia and Greek Thrace. Boris refused to declare war on the USSR or send troops to the Eastern Front. The antisemitic Law for the Protection of the Nation came into force in 1941. In March 1943 Bulgarian authorities rounded up more than 11,000 Jews from the occupied lands of Thrace, Macedonia and Pirot and handed them to the Germans. Almost all were murdered at Treblinka.",
+        "The planned deportation of the Jews of pre-war Bulgaria was stopped after protests by the deputy speaker Dimitar Peshev and other MPs, Orthodox leaders including Metropolitans Stefan of Sofia and Kiril of Plovdiv, and others. In May 1943 Sofia's Jews were expelled to the provinces, and about 48,000 Jews of the old kingdom survived. In August Boris met Hitler. Soon after his return he died, on 28 August 1943, aged 49."
+      ],
+      "claims": [
+        {
+          "text": "Boris saved Bulgaria's Jews.",
+          "status": "disputed",
+          "note": "Some historians credit his decision not to deport the Jews of the old kingdom. Others stress that he approved the antisemitic laws and the 1943 deportations from the occupied lands, and that MPs and the church forced the halt."
+        },
+        {
+          "text": "Boris was poisoned.",
+          "status": "disputed",
+          "note": "Rumours blamed the Germans and others, but the doctors' findings pointed to heart failure and no poisoning has ever been proven."
+        },
+        {
+          "text": "The St Nedelya Church bombing killed well over 100 people.",
+          "status": "confirmed",
+          "note": "Counts range from about 150 upwards, as some of the hundreds wounded died later. It remains the deadliest attack in Bulgarian history."
+        }
+      ],
+      "hook": "Bulgaria's new tsar is six years old. Three regents rule in his name, and the Red Army is moving towards the Danube.",
+      "images": [
+        {
+          "file": "File:Boris III.jpg",
+          "url": "https://upload.wikimedia.org/wikipedia/commons/9/97/Boris_III.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+          "page": "https://commons.wikimedia.org/wiki/File:Boris_III.jpg",
+          "credit": "Unknown photographer",
+          "license": "Public domain",
+          "made": "1919",
+          "caption": "A photograph from 1919, the year after he came to the throne.",
+          "alt": "Black-and-white photograph of the young Tsar Boris III of Bulgaria"
+        }
+      ],
+      "sources": [
+        {
+          "title": "Crown of Thorns: The Reign of King Boris III of Bulgaria, 1918–1943",
+          "author": "Stephane Groueff",
+          "note": "Madison Books, 1987"
+        },
+        {
+          "title": "The Bulgarian Jews and the Final Solution, 1940–1944",
+          "author": "Frederick B. Chary",
+          "note": "University of Pittsburgh Press, 1972"
+        },
+        {
+          "title": "The Fragility of Goodness: Why Bulgaria's Jews Survived the Holocaust",
+          "author": "Tzvetan Todorov",
+          "note": "Princeton University Press, 2001"
+        },
+        {
+          "title": "A Concise History of Bulgaria",
+          "author": "R. J. Crampton",
+          "note": "Cambridge University Press, 1997; 2nd ed. 2005"
+        }
+      ],
+      "review": {
+        "status": "draft",
+        "notes": "Drafted from the listed sources; needs a human fact-check."
+      }
+    },
+    {
+      "id": "simeon-ii",
+      "kind": "monarch",
+      "rulers": [
+        "simeon-ii"
+      ],
+      "tagline": "The boy tsar who lost his throne at nine",
+      "start": {
+        "date": "1943-08-28"
+      },
+      "end": {
+        "date": "1946-09-15"
+      },
+      "contestedWith": [],
+      "relationToPredecessor": "Son of Boris III",
+      "ageAtAccession": "6",
+      "cameToPower": "Succeeded his father",
+      "reignEnded": "Monarchy abolished by referendum",
+      "previously": "Boris III dies suddenly after meeting Hitler. His son is six.",
+      "paragraphs": [
+        "Simeon became tsar at six, so a regency ruled for him: his uncle Prince Kiril, the former prime minister Bogdan Filov and General Nikola Mikhov. In September 1944 the Soviet Union declared war on Bulgaria and the Red Army crossed the border. On 9 September the communist-led Fatherland Front seized power in Sofia.",
+        "A so-called People's Court tried the old ruling class. On 1 February 1945 the three regents were shot, along with many former ministers and MPs. On 8 September 1946 a referendum held under communist control voted for a republic, and the People's Republic was proclaimed on 15 September. Simeon, his mother and his sister left for exile, first in Egypt and then in Spain. He never formally abdicated. Decades later he returned and served as prime minister from 2001 to 2005."
+      ],
+      "claims": [
+        {
+          "text": "The three regents were executed on 1 February 1945.",
+          "status": "confirmed",
+          "note": "Sentenced to death by the People's Court and shot the same night, with dozens of former ministers and MPs."
+        },
+        {
+          "text": "The 1946 referendum on the monarchy was held under communist control.",
+          "status": "confirmed",
+          "note": "It was run by the communist-dominated Fatherland Front government with the Soviet army still in the country; the official result was about 95% for a republic."
+        },
+        {
+          "text": "Simeon never formally abdicated.",
+          "status": "confirmed",
+          "note": "He left the country without signing an abdication, a point he has made publicly ever since."
+        }
+      ],
+      "images": [
+        {
+          "file": "File:BASA-3K-15-302-33-Simeon-The Prince of Turnovo.jpeg",
+          "url": "https://upload.wikimedia.org/wikipedia/commons/e/e6/BASA-3K-15-302-33-Simeon-The_Prince_of_Turnovo.jpeg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+          "page": "https://commons.wikimedia.org/wiki/File:BASA-3K-15-302-33-Simeon-The_Prince_of_Turnovo.jpeg",
+          "credit": "Unknown photographer",
+          "license": "Public domain",
+          "made": "Before 1943",
+          "caption": "Photographed as Prince of Tarnovo, the heir's title, before he became tsar in 1943; from the Bulgarian State Archives.",
+          "alt": "Archive photograph of the young Simeon, Prince of Tarnovo"
+        }
+      ],
+      "sources": [
+        {
+          "title": "A Concise History of Bulgaria",
+          "author": "R. J. Crampton",
+          "note": "Cambridge University Press, 1997; 2nd ed. 2005"
+        },
+        {
+          "title": "Bulgaria (Oxford History of Modern Europe)",
+          "author": "R. J. Crampton",
+          "note": "Oxford University Press, 2007"
+        },
+        {
+          "title": "The Bulgarian Communist Party from Blagoev to Zhivkov",
+          "author": "John D. Bell",
+          "note": "Hoover Institution Press, 1986"
+        }
+      ],
+      "review": {
+        "status": "draft",
+        "notes": "Drafted from the listed sources; needs a human fact-check."
+      }
+    }
+  ]
+}
