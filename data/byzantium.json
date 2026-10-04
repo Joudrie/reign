@@ -392,8 +392,7 @@
       "died": {
         "date": "0803-08-09",
         "note": "Lesbos"
-      },
-      "causeOfDeath": "Natural causes, in exile"
+      }
     },
     {
       "id": "nikephoros-i",
@@ -519,8 +518,7 @@
       "died": {
         "date": "0948-06-15",
         "note": "Monastery on the island of Prote"
-      },
-      "causeOfDeath": "Natural causes, as a monk in exile"
+      }
     },
     {
       "id": "romanos-ii",
@@ -4131,8 +4129,8 @@
       "claims": [
         {
           "text": "Romanos was told to marry Zoe or lose his eyes.",
-          "status": "confirmed",
-          "note": "Psellos and Skylitzes both report the threat. Romanos's wife took the veil so the marriage could go ahead."
+          "status": "disputed",
+          "note": "Skylitzes reports the threat; Psellos just says Constantine picked Romanos. His wife did take the veil so the marriage could go ahead."
         },
         {
           "text": "Theodora was offered to Romanos first, and refused him.",
@@ -4786,7 +4784,7 @@
           "credit": "George E. Koronaios",
           "license": "CC BY-SA 4.0",
           "made": "1057–1059",
-          "caption": "A gold coin of Isaac I in the Byzantine and Christian Museum, Athens, showing the emperor himself.",
+          "caption": "A gold coin of Isaac I on display in the Byzantine and Christian Museum, Athens.",
           "alt": "A gold Byzantine coin of Isaac I Komnenos in a museum display, next to its label"
         }
       ],
@@ -4824,7 +4822,8 @@
       ],
       "tagline": "He saved money on soldiers while the Turks closed in",
       "start": {
-        "date": "1059-11-24"
+        "date": "1059-11-24",
+        "circa": true
       },
       "end": {
         "date": "1067-05-23"
