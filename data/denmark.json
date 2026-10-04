@@ -773,6 +773,49 @@
         "date": "1968-05-26",
         "note": "Rigshospitalet, Copenhagen"
       }
+    },
+    {
+      "id": "sweyn-iii",
+      "name": "Sweyn III",
+      "epithet": "Grathe",
+      "house": "estridsen",
+      "born": {
+        "date": "1125",
+        "circa": true,
+        "note": "Son of Eric II and his mistress Tunna"
+      },
+      "died": {
+        "date": "1157-10-23",
+        "note": "Grathe Heath, near Viborg, Jutland"
+      },
+      "causeOfDeath": "Cut down fleeing a lost battle"
+    },
+    {
+      "id": "cnut-v",
+      "name": "Cnut V",
+      "epithet": "Magnussen",
+      "house": "estridsen",
+      "born": {
+        "date": "1129",
+        "circa": true
+      },
+      "died": {
+        "date": "1157-08-09",
+        "note": "Roskilde, Zealand"
+      },
+      "causeOfDeath": "Killed at a feast by Sweyn's men"
+    },
+    {
+      "id": "valdemar-iii",
+      "name": "Valdemar III",
+      "house": "estridsen",
+      "born": {
+        "date": "1314"
+      },
+      "died": {
+        "date": "1364"
+      },
+      "causeOfDeath": "Not recorded"
     }
   ],
   "reigns": [
@@ -1938,33 +1981,36 @@
       }
     },
     {
-      "id": "three-kings",
-      "kind": "interregnum",
-      "title": "Three Kings, One Crown",
-      "house": "civil-war",
-      "rulers": [],
-      "tagline": "Three kings, one feast, and only one survivor",
+      "id": "sweyn-iii",
+      "kind": "monarch",
+      "rulers": [
+        "sweyn-iii"
+      ],
+      "tagline": "The emperor's man who threw a feast and a massacre",
       "start": {
         "date": "1146-08-27"
       },
       "end": {
         "date": "1157-10-23"
       },
-      "contestedWith": [],
-      "relationToPredecessor": "Rivals after Eric III's abdication",
-      "ageAtAccession": "No single king",
-      "cameToPower": "Rival elections in 1146",
-      "reignEnded": "Battle of Grathe Heath",
+      "contestedWith": [
+        "cnut-v"
+      ],
+      "relationToPredecessor": "Son of Eric II, cousin of Eric III",
+      "ageAtAccession": "About 21",
+      "cameToPower": "Hailed in Zealand and Scania",
+      "reignEnded": "Killed fleeing Grathe Heath",
       "previously": "Eric the Lamb gives up his crown and dies a monk in Odense.",
       "paragraphs": [
-        "For eleven years Denmark had too many kings. Sweyn III was hailed in Zealand and Scania, Cnut V in Jutland. They fought on and off, and both went begging for help in Germany. Sweyn even knelt to Emperor Frederick Barbarossa in 1152 and got his crown as the emperor's man. The third player was young Valdemar, son of Cnut Lavard, who switched sides when it suited him.",
-        "In 1157 they agreed to split Denmark three ways and sealed it with a feast in Roskilde on 9 August. During the party Sweyn's men struck. Cnut was killed. Valdemar was wounded but got away in the dark. In October the armies met at Grathe Heath near Viborg. Sweyn's side broke and he was cut down as he fled. Valdemar, the last man standing, was now sole king."
+        "Sweyn was the son of Eric the Memorable and a mistress called Tunna. When Eric the Lamb walked away from the throne in 1146, Zealand and Scania shouted Sweyn king. Jutland picked his rival Cnut instead. For six years the two of them fought up and down the country, and young Valdemar, son of the murdered Cnut Lavard, backed Sweyn and was made Duke of Schleswig for it.",
+        "In 1152 Sweyn played his trump card. At Merseburg he knelt to Frederick Barbarossa, took his crown from the emperor's hand and became his vassal. Cnut had to give up the title of king. But Sweyn ruled hard, taxed hard and drove his friends away. Valdemar switched to Cnut, and in 1154 Sweyn fled to his wife's father in Saxony.",
+        "He was back by 1157 with German help, and the nobles brokered a deal: Denmark split three ways, sealed with a feast at Roskilde on 9 August. Sweyn's men burst in. Cnut died, Valdemar got away wounded. On 23 October the armies met at Grathe Heath near Viborg. Sweyn's side broke and he was killed as he ran. The heath gave him his nickname."
       ],
       "claims": [
         {
-          "text": "Sweyn's horse got stuck in a bog and peasants killed him with axes.",
-          "status": "legend",
-          "note": "Saxo tells this humiliating end; he was writing for Valdemar's family and had no love for Sweyn."
+          "text": "Sweyn did homage to Frederick Barbarossa at Merseburg in 1152 and received his crown from him.",
+          "status": "confirmed",
+          "note": "German chroniclers, above all Otto of Freising, record the ceremony."
         },
         {
           "text": "Sweyn planned the Roskilde massacre before the feast began.",
@@ -1972,22 +2018,22 @@
           "note": "Saxo paints it as cold treachery, but he wrote for Valdemar's family and Sweyn's side of the story is lost."
         },
         {
-          "text": "Sweyn did homage to Frederick Barbarossa at Merseburg in 1152.",
-          "status": "confirmed",
-          "note": "German chroniclers, including Otto of Freising, record the ceremony."
+          "text": "Sweyn's horse got stuck in a bog and peasants finished him off with axes.",
+          "status": "legend",
+          "note": "A humiliating end told by Saxo, who had every reason to make Sweyn look bad."
         }
       ],
-      "hook": "Valdemar is 26, scarred and alone at the top. Beside him stands his foster-brother Absalon, a warrior priest about to become Bishop of Roskilde.",
+      "hook": "That's Sweyn's version. Over in Jutland, the man he fought for eleven years has his own story: Cnut, grandson of King Niels, whose father killed Valdemar's father.",
       "images": [
         {
-          "file": "File:Peter Raadsig - Valdemar den Store bliver forbundet i Absalons moders hus, hvor han har søgt tilflugt efter overfaldet i Roskilde - KMS421 - Statens Museum for Kunst.jpg",
-          "url": "https://upload.wikimedia.org/wikipedia/commons/3/30/Peter_Raadsig_-_Valdemar_den_Store_bliver_forbundet_i_Absalons_moders_hus%2C_hvor_han_har_s%C3%B8gt_tilflugt_efter_overfaldet_i_Roskilde_-_KMS421_-_Statens_Museum_for_Kunst.jpg",
-          "page": "https://commons.wikimedia.org/wiki/File:Peter_Raadsig_-_Valdemar_den_Store_bliver_forbundet_i_Absalons_moders_hus,_hvor_han_har_s%C3%B8gt_tilflugt_efter_overfaldet_i_Roskilde_-_KMS421_-_Statens_Museum_for_Kunst.jpg",
-          "credit": "Johan Peter Raadsig",
-          "license": "Public domain",
-          "made": "1840",
-          "caption": "Painted in 1840, almost 700 years after the Roskilde feast, showing Valdemar's escape as the Romantics imagined it.",
-          "alt": "Painting of the wounded young Valdemar having his wounds dressed in the house of Absalon's mother after the Roskilde attack"
+          "file": "File:Svend Grathe penning.jpg",
+          "url": "https://upload.wikimedia.org/wikipedia/commons/7/78/Svend_Grathe_penning.jpg",
+          "page": "https://commons.wikimedia.org/wiki/File:Svend_Grathe_penning.jpg",
+          "credit": "National Museum of Denmark",
+          "license": "CC BY 4.0",
+          "made": "1146–1157 (photo 2022)",
+          "caption": "A silver penny struck at Randers or Aalborg while Sweyn was king; no real likeness of him survives.",
+          "alt": "Small medieval Danish silver penny from the reign of Sweyn III"
         }
       ],
       "sources": [
@@ -1997,13 +2043,92 @@
           "note": "Trans. with commentary by Eric Christiansen, BAR International Series, 1980–81"
         },
         {
-          "title": "Knýtlinga saga",
-          "author": "Anonymous Icelandic saga, 13th century"
+          "title": "The Deeds of Frederick Barbarossa (Gesta Friderici)",
+          "author": "Otto of Freising and Rahewin",
+          "note": "Trans. C. C. Mierow, Columbia University Press, 1953; the Merseburg settlement of 1152"
+        },
+        {
+          "title": "Dansk Biografisk Leksikon, entry “Svend 3. Grathe”",
+          "author": "Various",
+          "note": "3rd ed., Gyldendal, 1979–84; online at lex.dk"
         },
         {
           "title": "Medieval Scandinavia: From Conversion to Reformation, circa 800–1500",
           "author": "Birgit and Peter Sawyer",
           "note": "University of Minnesota Press, 1993"
+        }
+      ],
+      "review": {
+        "status": "draft",
+        "notes": "Drafted from the listed sources; needs a human fact-check."
+      }
+    },
+    {
+      "id": "cnut-v",
+      "kind": "monarch",
+      "rulers": [
+        "cnut-v"
+      ],
+      "tagline": "The killer's son who made peace and died at dinner",
+      "start": {
+        "date": "1146-08-27"
+      },
+      "end": {
+        "date": "1157-08-09"
+      },
+      "contestedWith": [
+        "sweyn-iii"
+      ],
+      "relationToPredecessor": "Grandson of King Niels",
+      "ageAtAccession": "About 17",
+      "cameToPower": "Chosen king by Jutland",
+      "reignEnded": "Killed at the Roskilde feast",
+      "previously": "Eric the Lamb abdicates. Zealand hails Sweyn; Jutland wants Cnut.",
+      "paragraphs": [
+        "Cnut came with baggage. His father was Magnus the Strong, who had murdered Cnut Lavard in 1131 and died at Fotevik three years later. His mother Richeza was a Polish princess. In 1146 the men of Jutland made him king to block Sweyn, and the two spent years at war. In 1147 they even joined the crusade against the pagan Wends side by side, and quarrelled the whole way.",
+        "At Merseburg in 1152 the emperor backed Sweyn. Cnut gave up the title of king and got lands on Zealand to keep him quiet. But Sweyn soon wore out his welcome. Valdemar, son of the man Cnut's father had killed, came over to Cnut's side, and the old feud was buried with a wedding: Valdemar was betrothed to Sophia, Cnut's half-sister. When Sweyn fled in 1154, Cnut and Valdemar shared Denmark.",
+        "Sweyn came back, and in 1157 the three agreed to split the kingdom. They sealed it with a feast in Roskilde on 9 August. Sweyn's men struck during the party. Cnut was cut down at the table. Valdemar was wounded and escaped into the dark."
+      ],
+      "claims": [
+        {
+          "text": "At Merseburg in 1152 Cnut gave up the name of king in return for lands.",
+          "status": "confirmed",
+          "note": "Otto of Freising, writing for Barbarossa, records the deal; Danish sources agree Sweyn came away as sole king."
+        },
+        {
+          "text": "Valdemar married Cnut's half-sister Sophia to seal their alliance.",
+          "status": "confirmed",
+          "note": "Sophia was Richeza's daughter by her second husband, a Russian prince. She became Valdemar's queen."
+        }
+      ],
+      "hook": "Valdemar got out of Roskilde alive and bleeding. Ten weeks later he meets Sweyn at Grathe Heath, and only one of them will leave it. Denmark is about to have a single king again.",
+      "images": [
+        {
+          "file": "File:Knud 5. Magnussen coin.jpg",
+          "url": "https://upload.wikimedia.org/wikipedia/commons/5/5f/Knud_5._Magnussen_coin.jpg",
+          "page": "https://commons.wikimedia.org/wiki/File:Knud_5._Magnussen_coin.jpg",
+          "credit": "Unknown moneyer",
+          "license": "Public domain",
+          "made": "1146–1157",
+          "caption": "A one-sided silver coin struck in Cnut's name; the face on it is a stock image of a king, not a real likeness.",
+          "alt": "One-sided silver coin showing a beardless, long-haired man in a crown-like diadem, with the inscription CANUT REX"
+        }
+      ],
+      "sources": [
+        {
+          "title": "Gesta Danorum, Books X–XVI",
+          "author": "Saxo Grammaticus",
+          "note": "Trans. with commentary by Eric Christiansen, BAR International Series, 1980–81"
+        },
+        {
+          "title": "The Deeds of Frederick Barbarossa (Gesta Friderici)",
+          "author": "Otto of Freising and Rahewin",
+          "note": "Trans. C. C. Mierow, Columbia University Press, 1953; the Merseburg settlement of 1152"
+        },
+        {
+          "title": "Dansk Biografisk Leksikon, entry “Knud 5. Magnussen”",
+          "author": "Various",
+          "note": "3rd ed., Gyldendal, 1979–84; online at lex.dk"
         },
         {
           "title": "The Cambridge History of Scandinavia, Volume 1: Prehistory to 1520",
@@ -2034,7 +2159,7 @@
       "ageAtAccession": "26",
       "cameToPower": "Won at Grathe Heath",
       "reignEnded": "Died at Vordingborg",
-      "previously": "Sweyn III dies after Grathe Heath. Of three kings, one is left.",
+      "previously": "Cnut dies at Roskilde, Sweyn at Grathe Heath. Valdemar stands alone.",
       "paragraphs": [
         "Valdemar was born a week after his father's murder and raised alongside Absalon, a tough, clever noble boy who became his right hand. Absalon was made Bishop of Roskilde in 1158 and spent the next decades in armour. Together they hit back at the Wendish pirates who had been raiding Danish coasts for years.",
         "In 1168 they took Arkona on Rügen and chopped up the giant four-headed idol of the god Svantevit. Absalon built a castle at a fishing village called Havn, the start of Copenhagen. In 1170, in Ringsted, Valdemar had his father enshrined as a saint and his seven-year-old son Cnut crowned on the same day. The message was clear. The crown now belonged to his line."
@@ -2627,7 +2752,9 @@
       "end": {
         "date": "1332-08-02"
       },
-      "contestedWith": [],
+      "contestedWith": [
+        "valdemar-iii"
+      ],
       "relationToPredecessor": "Younger brother of Eric VI",
       "ageAtAccession": "43",
       "cameToPower": "Elected after signing a strict charter",
@@ -2649,7 +2776,7 @@
           "note": "Historians treat it as a turning point in noble power over the crown."
         }
       ],
-      "hook": "No one bothers to elect a new king. Count Gerhard, the Bald Count, runs Jutland like a landlord. It's going to take a dagger in the night to change that.",
+      "hook": "Rewind to 1326. With Christopher on the run, Count Gerhard needs a king he can steer. He has one at home: his 12-year-old nephew, Duke Valdemar of Schleswig.",
       "images": [
         {
           "file": "File:Christoffer II af Danmark.JPG",
@@ -2689,6 +2816,83 @@
       }
     },
     {
+      "id": "valdemar-iii",
+      "kind": "monarch",
+      "rulers": [
+        "valdemar-iii"
+      ],
+      "tagline": "A 12-year-old king, picked by his uncle",
+      "start": {
+        "date": "1326"
+      },
+      "end": {
+        "date": "1329"
+      },
+      "contestedWith": [
+        "christopher-ii"
+      ],
+      "relationToPredecessor": "Distant cousin, of King Abel's line",
+      "ageAtAccession": "About 12",
+      "cameToPower": "Elected after Christopher was driven out",
+      "reignEnded": "Gave up the crown in 1329",
+      "previously": "Christopher breaks his charter. His Holstein creditors want him out.",
+      "paragraphs": [
+        "Valdemar was Duke of Schleswig almost from the cradle. His father died in 1325 and his guardian was his mother's brother, Count Gerhard III of Holstein. In 1326 Gerhard and the Danish nobles rose against Christopher II, who fled to Germany. The magnates needed a king who would do as he was told, and they chose the boy duke, a descendant of King Abel.",
+        "The price was paid in Schleswig. Gerhard was given the duchy as a hereditary fief, and a pledge known as the Constitutio Valdemariana said Schleswig and the Danish crown must never again be held by the same man. Gerhard ran the government. Danish lords helped themselves to castles and lands. Valdemar had a royal seal and very little else.",
+        "The arrangement soured fast. In 1329 Gerhard's cousin, Count John, brought Christopher back. A deal was struck: Valdemar gave up the crown and went home to Schleswig as duke, and Gerhard took Jutland and Funen in pawn instead. Valdemar ruled Schleswig until his death in 1364, and in 1340 his sister Helvig married Christopher's son, the future Valdemar IV."
+      ],
+      "claims": [
+        {
+          "text": "In 1326 the crown promised that Schleswig and Denmark would never again share a ruler.",
+          "status": "confirmed",
+          "note": "The charter, called the Constitutio Valdemariana, survives. It fed the Schleswig question for five centuries."
+        },
+        {
+          "text": "Valdemar was only a puppet of his uncle Gerhard.",
+          "status": "confirmed",
+          "note": "He was a boy, and historians agree Gerhard held the real power; the records show the count as regent."
+        }
+      ],
+      "hook": "Back on the throne, Christopher owns almost nothing. When he dies in 1332, nobody bothers to choose a new king. Denmark belongs to its creditors, and the biggest of them is the Bald Count.",
+      "images": [
+        {
+          "file": "File:Valdemar 3 kongesegl.jpg",
+          "url": "https://upload.wikimedia.org/wikipedia/commons/f/ff/Valdemar_3_kongesegl.jpg",
+          "page": "https://commons.wikimedia.org/wiki/File:Valdemar_3_kongesegl.jpg",
+          "credit": "Emmery Rondahl (drawing of the seal)",
+          "license": "Public domain",
+          "made": "Seal 1326–1329; drawing before 1914",
+          "caption": "The royal seal Valdemar used as king, in a drawing by Emmery Rondahl made almost 600 years later.",
+          "alt": "Drawing of the medieval royal seal of King Valdemar III of Denmark"
+        }
+      ],
+      "sources": [
+        {
+          "title": "Sjællandske Krønike (Zealand Chronicle)",
+          "author": "Anonymous, 14th century"
+        },
+        {
+          "title": "Dansk Biografisk Leksikon, entry “Valdemar 3.”",
+          "author": "Various",
+          "note": "3rd ed., Gyldendal, 1979–84; online at lex.dk"
+        },
+        {
+          "title": "The Cambridge History of Scandinavia, Volume 1: Prehistory to 1520",
+          "author": "Knut Helle (ed.)",
+          "note": "Cambridge University Press, 2003"
+        },
+        {
+          "title": "Medieval Scandinavia: From Conversion to Reformation, circa 800–1500",
+          "author": "Birgit and Peter Sawyer",
+          "note": "University of Minnesota Press, 1993"
+        }
+      ],
+      "review": {
+        "status": "draft",
+        "notes": "Drafted from the listed sources; needs a human fact-check."
+      }
+    },
+    {
       "id": "kingless-time",
       "kind": "interregnum",
       "title": "The Kingless Time",
@@ -2702,9 +2906,9 @@
         "date": "1340-06-24"
       },
       "contestedWith": [],
-      "relationToPredecessor": "Followed Christopher II's death",
-      "ageAtAccession": "No monarch",
-      "cameToPower": "The kingdom was pawned to German counts",
+      "relationToPredecessor": "Christopher II's creditors took over",
+      "ageAtAccession": "No king; Gerhard ~40",
+      "cameToPower": "Held the kingdom in pawn for debts",
       "reignEnded": "Niels Ebbesen killed Count Gerhard",
       "previously": "Christopher II dies in 1332, broke, with his kingdom pawned away.",
       "paragraphs": [
@@ -2767,7 +2971,57 @@
       "review": {
         "status": "draft",
         "notes": "Drafted from the listed sources; needs a human fact-check."
-      }
+      },
+      "members": [
+        {
+          "name": "Gerhard III of Holstein-Rendsburg, the Bald Count",
+          "end": {
+            "date": "1340-04-01"
+          },
+          "note": "Held Jutland and Funen in pawn and ran Denmark in all but name; killed at Randers by Niels Ebbesen"
+        },
+        {
+          "name": "John III of Holstein-Plön, the Mild",
+          "end": {
+            "date": "1359-09-27"
+          },
+          "note": "Gerhard's cousin, Christopher II's half-brother; held Zealand, Lolland-Falster and, until 1332, Scania in pawn"
+        },
+        {
+          "name": "Magnus Eriksson, King of Sweden and Norway",
+          "start": {
+            "date": "1332"
+          },
+          "end": {
+            "date": "1360"
+          },
+          "note": "Took Scania and Blekinge when the Scanians threw off Holstein rule in 1332, paying off the pawn"
+        },
+        {
+          "name": "Otto, son of Christopher II",
+          "start": {
+            "date": "1332"
+          },
+          "end": {
+            "date": "1334-10-07"
+          },
+          "note": "Tried to win back his father's crown; beaten and captured at Taphede in Jutland, then held by Gerhard"
+        },
+        {
+          "name": "Niels Ebbesen",
+          "end": {
+            "date": "1340-11-02"
+          },
+          "note": "Jutland squire who killed Gerhard on 1 April 1340; died fighting Holstein troops at Skanderborg"
+        },
+        {
+          "name": "Valdemar, son of Christopher II (future Valdemar IV)",
+          "start": {
+            "date": "1340-06-24"
+          },
+          "note": "Waited at the emperor's court; elected king after Gerhard's death"
+        }
+      ]
     },
     {
       "id": "valdemar-iv",
