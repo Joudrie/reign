@@ -61,6 +61,36 @@
       "id": "glucksburg",
       "name": "Glücksburg",
       "color": "#8f1d21"
+    },
+    {
+      "id": "gille",
+      "name": "Gille",
+      "color": "#4f6d5a"
+    },
+    {
+      "id": "pomerania",
+      "name": "Pomerania",
+      "color": "#7b5ea7"
+    },
+    {
+      "id": "palatinate",
+      "name": "Palatinate-Neumarkt",
+      "color": "#8a2e5a"
+    },
+    {
+      "id": "bonde",
+      "name": "Bonde",
+      "color": "#4a6b8a"
+    },
+    {
+      "id": "holstein-gottorp",
+      "name": "Holstein-Gottorp",
+      "color": "#b5651d"
+    },
+    {
+      "id": "bernadotte",
+      "name": "Bernadotte",
+      "color": "#c79a2b"
     }
   ],
   "rulers": [
@@ -467,6 +497,540 @@
         "date": "1973-07-20",
         "note": "Oslo"
       }
+    },
+    {
+      "id": "magnus-the-blind",
+      "name": "Magnus IV",
+      "epithet": "the Blind",
+      "house": "hardrada",
+      "born": {
+        "date": "1115",
+        "circa": true
+      },
+      "died": {
+        "date": "1139-11-12",
+        "note": "Battle of Holmengrå, near Hvaler in the Oslofjord"
+      },
+      "causeOfDeath": "Killed in a sea battle"
+    },
+    {
+      "id": "harald-gille",
+      "name": "Harald Gille",
+      "epithet": "Harald IV",
+      "house": "gille",
+      "born": {
+        "date": "1102",
+        "circa": true,
+        "note": "Ireland or the Hebrides"
+      },
+      "died": {
+        "date": "1136-12-14",
+        "note": "Bergen"
+      },
+      "causeOfDeath": "Murdered in his bed"
+    },
+    {
+      "id": "sigurd-munn",
+      "name": "Sigurd II",
+      "epithet": "Munn",
+      "house": "gille",
+      "born": {
+        "date": "1133"
+      },
+      "died": {
+        "date": "1155-06-10",
+        "note": "Bergen"
+      },
+      "causeOfDeath": "Killed by his brother Inge's men"
+    },
+    {
+      "id": "inge-i",
+      "name": "Inge I",
+      "epithet": "the Hunchback",
+      "house": "gille",
+      "born": {
+        "date": "1135"
+      },
+      "died": {
+        "date": "1161-02-03",
+        "note": "Oslo"
+      },
+      "causeOfDeath": "Killed in battle"
+    },
+    {
+      "id": "sigurd-slembe",
+      "name": "Sigurd Slembe",
+      "house": "hardrada",
+      "died": {
+        "date": "1139-11-12",
+        "note": "After the Battle of Holmengrå, near Hvaler"
+      },
+      "causeOfDeath": "Tortured to death"
+    },
+    {
+      "id": "eystein-ii",
+      "name": "Eystein II",
+      "house": "gille",
+      "born": {
+        "date": "1125",
+        "circa": true,
+        "note": "Probably Scotland"
+      },
+      "died": {
+        "date": "1157-08-21",
+        "note": "Bohuslän"
+      },
+      "causeOfDeath": "Killed by his captors"
+    },
+    {
+      "id": "haakon-herdebrei",
+      "name": "Haakon II",
+      "epithet": "Herdebrei, the Broad-shouldered",
+      "house": "gille",
+      "born": {
+        "date": "1147"
+      },
+      "died": {
+        "date": "1162-07-07",
+        "note": "Sekken, Romsdal"
+      },
+      "causeOfDeath": "Killed in battle"
+    },
+    {
+      "id": "magnus-erlingsson",
+      "name": "Magnus V",
+      "epithet": "Erlingsson",
+      "house": "hardrada",
+      "born": {
+        "date": "1156",
+        "note": "Probably Etne, Hordaland"
+      },
+      "died": {
+        "date": "1184-06-15",
+        "note": "Fimreite, Sognefjord"
+      },
+      "causeOfDeath": "Drowned in battle"
+    },
+    {
+      "id": "haakon-iii",
+      "name": "Haakon III",
+      "house": "sverre",
+      "born": {
+        "date": "1183",
+        "circa": true,
+        "note": "Year uncertain; an illegitimate son of Sverre"
+      },
+      "died": {
+        "date": "1204-01-01",
+        "note": "Bergen"
+      },
+      "causeOfDeath": "Sudden illness; poison was suspected"
+    },
+    {
+      "id": "guttorm",
+      "name": "Guttorm",
+      "house": "sverre",
+      "born": {
+        "date": "1199"
+      },
+      "died": {
+        "date": "1204-08-11",
+        "note": "Nidaros (Trondheim)"
+      },
+      "causeOfDeath": "Sudden illness"
+    },
+    {
+      "id": "inge-ii",
+      "name": "Inge II",
+      "house": "sverre",
+      "born": {
+        "date": "1185"
+      },
+      "died": {
+        "date": "1217-04-23",
+        "note": "Nidaros (Trondheim)"
+      },
+      "causeOfDeath": "Illness"
+    },
+    {
+      "id": "eric-of-pomerania",
+      "name": "Eric III",
+      "epithet": "of Pomerania",
+      "house": "pomerania",
+      "born": {
+        "date": "1382",
+        "circa": true,
+        "note": "Rügenwalde (Darłowo), Pomerania; 1381 or 1382"
+      },
+      "died": {
+        "date": "1459-09-24",
+        "note": "Rügenwalde (Darłowo), Pomerania"
+      },
+      "causeOfDeath": "Old age",
+      "sameAs": [
+        "denmark:eric-vii"
+      ]
+    },
+    {
+      "id": "christopher",
+      "name": "Christopher",
+      "epithet": "of Bavaria",
+      "house": "palatinate",
+      "born": {
+        "date": "1416-02-26",
+        "note": "Neumarkt in der Oberpfalz, Bavaria"
+      },
+      "died": {
+        "date": "1448-01-05",
+        "note": "Helsingborg Castle, Skåne"
+      },
+      "causeOfDeath": "Sudden illness",
+      "sameAs": [
+        "denmark:christopher-iii"
+      ]
+    },
+    {
+      "id": "charles-i",
+      "name": "Charles I",
+      "epithet": "Karl Knutsson",
+      "house": "bonde",
+      "born": {
+        "date": "1408",
+        "circa": true,
+        "note": "Ekholmen Castle, Uppland; October 1408 or 1409"
+      },
+      "died": {
+        "date": "1470-05-15",
+        "note": "Stockholm"
+      },
+      "causeOfDeath": "Illness"
+    },
+    {
+      "id": "christian-i",
+      "name": "Christian I",
+      "house": "oldenburg",
+      "born": {
+        "date": "1426-02",
+        "note": "Oldenburg"
+      },
+      "died": {
+        "date": "1481-05-21",
+        "note": "Copenhagen Castle"
+      },
+      "causeOfDeath": "Illness",
+      "sameAs": [
+        "denmark:christian-i"
+      ]
+    },
+    {
+      "id": "john",
+      "name": "John",
+      "epithet": "Hans",
+      "house": "oldenburg",
+      "born": {
+        "date": "1455-02-02",
+        "note": "Aalborg"
+      },
+      "died": {
+        "date": "1513-02-20",
+        "note": "Aalborg Castle"
+      },
+      "causeOfDeath": "After a fall from his horse",
+      "sameAs": [
+        "denmark:john"
+      ]
+    },
+    {
+      "id": "christian-ii",
+      "name": "Christian II",
+      "house": "oldenburg",
+      "born": {
+        "date": "1481-07-01",
+        "note": "Nyborg Castle, Funen"
+      },
+      "died": {
+        "date": "1559-01-25",
+        "note": "Kalundborg Castle, Zealand"
+      },
+      "causeOfDeath": "Natural causes, still a prisoner",
+      "sameAs": [
+        "denmark:christian-ii"
+      ]
+    },
+    {
+      "id": "frederick-i",
+      "name": "Frederick I",
+      "house": "oldenburg",
+      "born": {
+        "date": "1471-10-07",
+        "note": "Haderslev, Schleswig"
+      },
+      "died": {
+        "date": "1533-04-10",
+        "note": "Gottorp Castle, Schleswig"
+      },
+      "causeOfDeath": "Illness",
+      "sameAs": [
+        "denmark:frederick-i"
+      ]
+    },
+    {
+      "id": "christian-iii",
+      "name": "Christian III",
+      "house": "oldenburg",
+      "born": {
+        "date": "1503-08-12",
+        "note": "Gottorp Castle, Schleswig"
+      },
+      "died": {
+        "date": "1559-01-01",
+        "note": "Koldinghus, Kolding"
+      },
+      "causeOfDeath": "Illness",
+      "sameAs": [
+        "denmark:christian-iii"
+      ]
+    },
+    {
+      "id": "frederick-ii",
+      "name": "Frederick II",
+      "house": "oldenburg",
+      "born": {
+        "date": "1534-07-01",
+        "note": "Haderslevhus, Schleswig"
+      },
+      "died": {
+        "date": "1588-04-04",
+        "note": "Antvorskov Castle, Zealand"
+      },
+      "causeOfDeath": "Illness, likely worsened by heavy drinking",
+      "sameAs": [
+        "denmark:frederick-ii"
+      ]
+    },
+    {
+      "id": "christian-iv",
+      "name": "Christian IV",
+      "house": "oldenburg",
+      "born": {
+        "date": "1577-04-12",
+        "note": "Frederiksborg Castle, Hillerød"
+      },
+      "died": {
+        "date": "1648-02-28",
+        "note": "Rosenborg Castle, Copenhagen"
+      },
+      "causeOfDeath": "Illness, aged 70",
+      "sameAs": [
+        "denmark:christian-iv"
+      ]
+    },
+    {
+      "id": "frederick-iii",
+      "name": "Frederick III",
+      "house": "oldenburg",
+      "born": {
+        "date": "1609-03-18",
+        "note": "Haderslev"
+      },
+      "died": {
+        "date": "1670-02-09",
+        "note": "Copenhagen Castle"
+      },
+      "causeOfDeath": "Illness",
+      "sameAs": [
+        "denmark:frederick-iii"
+      ]
+    },
+    {
+      "id": "christian-v",
+      "name": "Christian V",
+      "house": "oldenburg",
+      "born": {
+        "date": "1646-04-15",
+        "note": "Flensburg"
+      },
+      "died": {
+        "date": "1699-08-25",
+        "note": "Copenhagen"
+      },
+      "causeOfDeath": "Effects of a hunting accident",
+      "sameAs": [
+        "denmark:christian-v"
+      ]
+    },
+    {
+      "id": "frederick-iv",
+      "name": "Frederick IV",
+      "house": "oldenburg",
+      "born": {
+        "date": "1671-10-11",
+        "note": "Copenhagen"
+      },
+      "died": {
+        "date": "1730-10-12",
+        "note": "Odense"
+      },
+      "causeOfDeath": "Illness",
+      "sameAs": [
+        "denmark:frederick-iv"
+      ]
+    },
+    {
+      "id": "christian-vi",
+      "name": "Christian VI",
+      "house": "oldenburg",
+      "born": {
+        "date": "1699-11-30",
+        "note": "Copenhagen"
+      },
+      "died": {
+        "date": "1746-08-06",
+        "note": "Hirschholm Palace, north of Copenhagen"
+      },
+      "causeOfDeath": "Illness",
+      "sameAs": [
+        "denmark:christian-vi"
+      ]
+    },
+    {
+      "id": "frederick-v",
+      "name": "Frederick V",
+      "house": "oldenburg",
+      "born": {
+        "date": "1723-03-31",
+        "note": "Copenhagen Castle"
+      },
+      "died": {
+        "date": "1766-01-14",
+        "note": "Christiansborg Palace, Copenhagen"
+      },
+      "causeOfDeath": "Illness, worsened by heavy drinking",
+      "sameAs": [
+        "denmark:frederick-v"
+      ]
+    },
+    {
+      "id": "christian-vii",
+      "name": "Christian VII",
+      "house": "oldenburg",
+      "born": {
+        "date": "1749-01-29",
+        "note": "Christiansborg Palace, Copenhagen"
+      },
+      "died": {
+        "date": "1808-03-13",
+        "note": "Rendsburg, Holstein"
+      },
+      "causeOfDeath": "Stroke",
+      "sameAs": [
+        "denmark:christian-vii"
+      ]
+    },
+    {
+      "id": "frederick-vi",
+      "name": "Frederick VI",
+      "house": "oldenburg",
+      "born": {
+        "date": "1768-01-28",
+        "note": "Christiansborg Palace, Copenhagen"
+      },
+      "died": {
+        "date": "1839-12-03",
+        "note": "Amalienborg Palace, Copenhagen"
+      },
+      "causeOfDeath": "Illness",
+      "sameAs": [
+        "denmark:frederick-vi"
+      ]
+    },
+    {
+      "id": "charles-ii",
+      "name": "Charles II",
+      "epithet": "Charles XIII of Sweden",
+      "house": "holstein-gottorp",
+      "born": {
+        "date": "1748-10-07",
+        "note": "Stockholm"
+      },
+      "died": {
+        "date": "1818-02-05",
+        "note": "Stockholm"
+      },
+      "causeOfDeath": "Natural causes after years of poor health",
+      "sameAs": [
+        "sweden:charles-xiii"
+      ]
+    },
+    {
+      "id": "charles-iii-john",
+      "name": "Charles III John",
+      "epithet": "Bernadotte",
+      "house": "bernadotte",
+      "born": {
+        "date": "1763-01-26",
+        "note": "Pau, France"
+      },
+      "died": {
+        "date": "1844-03-08",
+        "note": "Stockholm"
+      },
+      "causeOfDeath": "Stroke",
+      "sameAs": [
+        "sweden:charles-xiv-john"
+      ]
+    },
+    {
+      "id": "oscar-i",
+      "name": "Oscar I",
+      "house": "bernadotte",
+      "born": {
+        "date": "1799-07-04",
+        "note": "Paris"
+      },
+      "died": {
+        "date": "1859-07-08",
+        "note": "Stockholm"
+      },
+      "causeOfDeath": "Long illness",
+      "sameAs": [
+        "sweden:oscar-i"
+      ]
+    },
+    {
+      "id": "charles-iv",
+      "name": "Charles IV",
+      "epithet": "Charles XV of Sweden",
+      "house": "bernadotte",
+      "born": {
+        "date": "1826-05-03",
+        "note": "Stockholm"
+      },
+      "died": {
+        "date": "1872-09-18",
+        "note": "Malmö"
+      },
+      "causeOfDeath": "Illness, on the way home from a spa",
+      "sameAs": [
+        "sweden:charles-xv"
+      ]
+    },
+    {
+      "id": "oscar-ii",
+      "name": "Oscar II",
+      "house": "bernadotte",
+      "born": {
+        "date": "1829-01-21",
+        "note": "Stockholm"
+      },
+      "died": {
+        "date": "1907-12-08",
+        "note": "Stockholm"
+      },
+      "causeOfDeath": "Natural causes, aged 78",
+      "sameAs": [
+        "sweden:oscar-ii"
+      ]
     }
   ],
   "reigns": [
@@ -1478,7 +2042,7 @@
           "note": "The sagas say he passed the ordeal. Whether he really was Magnus's son can't be checked."
         }
       ],
-      "hook": "Sigurd's son Magnus and the newcomer Harald Gille now share the throne. It won't last. One of them will end up blinded, crippled and shut away in a monastery.",
+      "hook": "Sigurd's son Magnus and the Irish newcomer Harald Gille now split Norway between them. It won't last. One of them will end up blinded, crippled and shut away in a monastery.",
       "images": [
         {
           "file": "File:Gerhard-Munthe-Sigurd-and-Baldwin-1899-Tempera-143-x-103-cm-C-Trondheim.jpg",
@@ -1519,57 +2083,454 @@
       }
     },
     {
-      "id": "civil-wars",
-      "kind": "interregnum",
-      "rulers": [],
-      "house": "civil-war",
-      "title": "The Civil War Era",
-      "tagline": "Fifty years of rival kings, blindings and boy kings",
+      "id": "magnus-the-blind-and-harald-gille",
+      "kind": "monarch",
+      "rulers": [
+        "magnus-the-blind",
+        "harald-gille"
+      ],
+      "title": "Magnus the Blind and Harald Gille",
+      "tagline": "Two kings, one kingdom, and a very nasty ending",
       "start": {
         "date": "1130-03-26"
       },
       "end": {
-        "date": "1184-06-15"
+        "date": "1135"
       },
       "contestedWith": [],
-      "relationToPredecessor": "Sigurd's son and a newcomer share",
-      "ageAtAccession": "No single monarch",
-      "cameToPower": "Two co-kings went to war",
-      "reignEnded": "Last boy king drowned at Fimreite",
-      "previously": "Sigurd the Crusader dies. His son Magnus and Harald Gille share power.",
+      "relationToPredecessor": "Sigurd's son and claimed half-brother",
+      "ageAtAccession": "About 15 and 28",
+      "cameToPower": "Split the realm at Sigurd's death",
+      "reignEnded": "Magnus blinded in Bergen, 1135",
+      "previously": "Sigurd the Crusader dies after 27 years. Who gets the crown now?",
       "paragraphs": [
-        "Norway had no rule about who should be king. Any king's son, born in wedlock or not, could claim the crown, and plenty did. Sigurd's son Magnus and Harald Gille soon came to blows. In 1135 Harald caught Magnus in Bergen, had him blinded, castrated and a foot cut off, then shut him in a monastery. In 1136 Harald was murdered in his bed by yet another claimant, Sigurd Slembe.",
-        "Harald's little sons Sigurd, Inge and Eystein were made kings by their father's men. Magnus the Blind left his monastery to join Sigurd Slembe, and both died after a sea battle at Holmengrå in 1139. The boy kings grew up and turned on each other. Sigurd was killed in 1155, Eystein in 1157 and Inge in 1161.",
-        "Into the gap stepped Erling Skakke, a tough nobleman. His son Magnus Erlingsson was a king's grandson only through his mother, but Erling had the boy made king in 1161 and won the Church to his side. In 1163 or 1164 Magnus became the first king crowned in Scandinavia. Erling ran things until 1179, when a rebel named Sverre killed him in battle. In 1184 Magnus drowned at Fimreite."
+        "Sigurd the Crusader wanted his son Magnus to rule alone. The snag was Harald Gille, a newcomer raised in Ireland who had turned up around 1127 claiming Magnus Barefoot as his father. Sigurd had accepted him as a brother on one condition: no grab for the crown. The moment Sigurd died in 1130, Harald had himself hailed king at the Haugating in Tønsberg, and young Magnus had to split Norway with him.",
+        "For four years the two kings kept an uneasy peace. Magnus, proud and short-tempered, wanted his uncle gone. On 9 August 1134 he smashed Harald's army at Fyrileiv in Bohuslän, and Harald ran to Denmark. Magnus thought the war was won. He sent his men home and went to spend the winter in Bergen.",
+        "Big mistake. Harald came back with Danish help and reached Bergen before Christmas. On 7 January 1135 he took the town. The harbour had been chained shut, so Magnus could not sail away. Harald's men put out his eyes, cut off a foot and castrated him, then shut him in the monastery on Munkholmen, off Nidaros. A maimed man, everyone assumed, could never be king again."
       ],
       "claims": [
         {
-          "text": "Magnus the Blind was blinded, castrated and lost a foot on Harald Gille's orders.",
+          "text": "Harald Gille really was Magnus Barefoot's son.",
+          "status": "disputed",
+          "note": "His only proof was passing an ordeal by fire. Magnus Barefoot had spent time in Ireland, so it's possible, but it can't be checked."
+        },
+        {
+          "text": "Magnus was blinded, castrated and lost a foot on Harald's orders.",
           "status": "confirmed",
           "note": "All the main sagas tell it, and his nickname stuck. The details come from writers about a century later."
         },
+        {
+          "text": "Bergen's harbour was closed with a chain so Magnus could not escape by sea.",
+          "status": "confirmed",
+          "note": "Snorri quotes a verse by the court poet Einar Skúlason, who lived through these years, about the harbour being shut."
+        }
+      ],
+      "hook": "Harald Gille is sole king now. But he isn't the only man in Norway claiming Magnus Barefoot as his father, and the other one is a former deacon with a grudge.",
+      "images": [
+        {
+          "file": "File:Magnussonnenes saga 9 - G. Munthe.jpg",
+          "url": "https://upload.wikimedia.org/wikipedia/commons/5/57/Magnussonnenes_saga_9_-_G._Munthe.jpg",
+          "page": "https://commons.wikimedia.org/wiki/File:Magnussonnenes_saga_9_-_G._Munthe.jpg",
+          "credit": "Gerhard Munthe",
+          "license": "Public domain",
+          "made": "c. 1896–99",
+          "caption": "Harald Gille walks over red-hot iron to prove his royal father, as Gerhard Munthe imagined it for the 1899 Heimskringla, nearly 800 years later.",
+          "alt": "Saga illustration of Harald Gille walking barefoot over glowing iron ploughshares"
+        }
+      ],
+      "sources": [
+        {
+          "title": "Heimskringla",
+          "author": "Snorri Sturluson",
+          "note": "c. 1230; English trans. Alison Finlay and Anthony Faulkes, Viking Society for Northern Research, 2011–2015"
+        },
+        {
+          "title": "Morkinskinna",
+          "author": "Anonymous (trans. Theodore M. Andersson and Kari Ellen Gade)",
+          "note": "Cornell University Press, 2000"
+        },
+        {
+          "title": "From Viking Stronghold to Christian Kingdom: State Formation in Norway, c. 900–1350",
+          "author": "Sverre Bagge",
+          "note": "Museum Tusculanum Press, 2010"
+        }
+      ],
+      "review": {
+        "status": "draft",
+        "notes": "Drafted from the listed sources; needs a human fact-check."
+      }
+    },
+    {
+      "id": "harald-gille",
+      "kind": "monarch",
+      "rulers": [
+        "harald-gille"
+      ],
+      "tagline": "The Irish-raised king who blinded his nephew",
+      "start": {
+        "date": "1135"
+      },
+      "end": {
+        "date": "1136-12-14"
+      },
+      "contestedWith": [],
+      "relationToPredecessor": "Uncle of the king he blinded",
+      "ageAtAccession": "About 33",
+      "cameToPower": "Captured and blinded his co-king",
+      "reignEnded": "Murdered in bed in Bergen",
+      "previously": "Harald Gille takes Bergen and has his nephew Magnus blinded.",
+      "paragraphs": [
+        "Harald Gille was an unusual Norwegian king. He grew up in Ireland, and the sagas paint him as easy-going and open-handed, happy to give his friends whatever they asked. He could also be ruthless. He had Reinald, Bishop of Stavanger, hanged for refusing to hand over Magnus's treasure. From 1135 he ruled the whole country alone, and he married well: his queen, Ingrid, was a granddaughter of a Swedish king.",
+        "Then Sigurd Slembe arrived. He was a former deacon who said that he, too, was a son of Magnus Barefoot, and he wanted his share. Harald refused. On the night of 14 December 1136, after a feast, Sigurd and his men broke into the house in Bergen where Harald lay asleep and killed him in his bed.",
+        "Sigurd expected the country to come over to him. It didn't. Harald's men refused to serve a king-killer, outlawed him, and hailed Harald's little sons as kings instead. Harald left four boys by different mothers, and every one of them would wear the crown."
+      ],
+      "claims": [
+        {
+          "text": "Sigurd Slembe was really Magnus Barefoot's son.",
+          "status": "disputed",
+          "note": "Like Harald, he had only his own word and an ordeal to back him. Nobody can check it now."
+        },
+        {
+          "text": "Harald's Norse was so poor at first that people laughed at him.",
+          "status": "legend",
+          "note": "Morkinskinna and Snorri tell how he was mocked for his speech. A nice touch, but written a century later."
+        },
+        {
+          "text": "'Gille' comes from the Irish Gilla Críst, 'servant of Christ'.",
+          "status": "disputed",
+          "note": "His full Norse nickname, Gillikristr, supports it, and most name scholars accept it, but it is still an interpretation."
+        }
+      ],
+      "hook": "Norway now has two toddler kings, three-year-old Sigurd and one-year-old Inge, and a killer on the loose. Sigurd Slembe still has one card to play: the blind man in the monastery.",
+      "images": [
+        {
+          "file": "File:Magnus Blindes og Harald Gilles saga-Biskop Reinald henges-E. Peterssen.jpg",
+          "url": "https://upload.wikimedia.org/wikipedia/commons/d/d2/Magnus_Blindes_og_Harald_Gilles_saga-Biskop_Reinald_henges-E._Peterssen.jpg",
+          "page": "https://commons.wikimedia.org/wiki/File:Magnus_Blindes_og_Harald_Gilles_saga-Biskop_Reinald_henges-E._Peterssen.jpg",
+          "credit": "Eilif Peterssen",
+          "license": "Public domain",
+          "made": "1890s",
+          "caption": "Bishop Reinald is hanged on Harald Gille's orders. Eilif Peterssen drew it for the 1899 Heimskringla, over 750 years later.",
+          "alt": "Saga illustration of the hanging of Bishop Reinald of Stavanger at Bergen"
+        }
+      ],
+      "sources": [
+        {
+          "title": "Heimskringla",
+          "author": "Snorri Sturluson",
+          "note": "c. 1230; English trans. Alison Finlay and Anthony Faulkes, Viking Society for Northern Research, 2011–2015"
+        },
+        {
+          "title": "Morkinskinna",
+          "author": "Anonymous (trans. Theodore M. Andersson and Kari Ellen Gade)",
+          "note": "Cornell University Press, 2000"
+        },
+        {
+          "title": "Society and Politics in Snorri Sturluson's Heimskringla",
+          "author": "Sverre Bagge",
+          "note": "University of California Press, 1991"
+        }
+      ],
+      "review": {
+        "status": "draft",
+        "notes": "Drafted from the listed sources; needs a human fact-check."
+      }
+    },
+    {
+      "id": "sigurd-munn-and-inge",
+      "kind": "monarch",
+      "rulers": [
+        "sigurd-munn",
+        "inge-i"
+      ],
+      "title": "Sigurd Munn and Inge",
+      "tagline": "Baby brothers on the throne, until they grew up",
+      "start": {
+        "date": "1136-12-14"
+      },
+      "end": {
+        "date": "1155-06-10"
+      },
+      "contestedWith": [
+        "sigurd-slembe-and-magnus",
+        "eystein-ii"
+      ],
+      "relationToPredecessor": "Sons of Harald Gille",
+      "ageAtAccession": "About 3 and 1",
+      "cameToPower": "Hailed by their father's men",
+      "reignEnded": "Sigurd killed by Inge's men",
+      "previously": "Harald Gille is murdered in his bed. His killer is refused the crown.",
+      "paragraphs": [
+        "When Harald Gille died, his sons were tiny. Sigurd, about three, was hailed king at the Øyrating in Trøndelag. Inge, barely one, was hailed at the Borgarting near Sarpsborg. A third baby, Magnus, was made king too. Real power lay with their father's barons and with Inge's mother, Queen Ingrid, who ran the country in the boys' names.",
+        "The guardians first had to deal with Sigurd Slembe and blind Magnus, and they beat them in 1139. In 1142 a fourth brother, Eystein, arrived from Scotland and got his share. Little Magnus died in the 1140s. In 1152 or 1153 Norway got its own archbishop at Nidaros. For years the boys' guardians kept the peace.",
+        "When the old guardians died and the brothers came of age, suspicion took over. In 1155 the three kings were due to meet in Bergen. Inge accused the others of plotting to depose him, one of Sigurd's men killed one of Inge's, and Inge's men stormed the house where Sigurd was staying. Sigurd, aged about 22, was cut down. Eystein turned up too late to help."
+      ],
+      "claims": [
+        {
+          "text": "Sigurd and Eystein were plotting to strip Inge of his crown.",
+          "status": "disputed",
+          "note": "That's the sagas' version, and the sagas favour Inge. Some historians think it was Inge's excuse for striking first."
+        },
+        {
+          "text": "Inge became a hunchback after being carried into battle as a toddler in 1137.",
+          "status": "legend",
+          "note": "Snorri and Morkinskinna say so. The Danish writer Saxo says a maid dropped him as a baby. Nobody really knows."
+        },
+        {
+          "text": "Sigurd's nickname Munn means 'mouth'.",
+          "status": "confirmed",
+          "note": "Snorri describes him as strong and well built but with an ugly mouth."
+        }
+      ],
+      "hook": "Inge has won the fight in Bergen, but Eystein is still out there. First, though, rewind to 1137: Harald Gille's killer is on his way to fetch the blind king from his monastery.",
+      "images": [
+        {
+          "file": "File:Dronning Ingerid og Gregorius egger kong Inge.jpg",
+          "url": "https://upload.wikimedia.org/wikipedia/commons/f/f0/Dronning_Ingerid_og_Gregorius_egger_kong_Inge.jpg",
+          "page": "https://commons.wikimedia.org/wiki/File:Dronning_Ingerid_og_Gregorius_egger_kong_Inge.jpg",
+          "credit": "Erik Werenskiold",
+          "license": "Public domain",
+          "made": "c. 1899",
+          "caption": "Queen Ingrid and Gregorius urge King Inge to strike at his brother. Drawn for the 1899 Norwegian edition of Snorri's sagas, more than 750 years later.",
+          "alt": "Saga illustration of Queen Ingrid and Gregorius Dagsson urging King Inge"
+        }
+      ],
+      "sources": [
+        {
+          "title": "Heimskringla",
+          "author": "Snorri Sturluson",
+          "note": "c. 1230; English trans. Alison Finlay and Anthony Faulkes, Viking Society for Northern Research, 2011–2015"
+        },
+        {
+          "title": "Morkinskinna",
+          "author": "Anonymous (trans. Theodore M. Andersson and Kari Ellen Gade)",
+          "note": "Cornell University Press, 2000"
+        },
+        {
+          "title": "From Viking Stronghold to Christian Kingdom: State Formation in Norway, c. 900–1350",
+          "author": "Sverre Bagge",
+          "note": "Museum Tusculanum Press, 2010"
+        }
+      ],
+      "review": {
+        "status": "draft",
+        "notes": "Drafted from the listed sources; needs a human fact-check."
+      }
+    },
+    {
+      "id": "sigurd-slembe-and-magnus",
+      "kind": "claimant",
+      "rulers": [
+        "sigurd-slembe",
+        "magnus-the-blind"
+      ],
+      "title": "Sigurd Slembe and Magnus the Blind",
+      "tagline": "A king-killer and a blind king against the boy kings",
+      "start": {
+        "date": "1136-12-14"
+      },
+      "end": {
+        "date": "1139-11-12"
+      },
+      "contestedWith": [
+        "sigurd-munn-and-inge"
+      ],
+      "relationToPredecessor": "Harald's killer and Harald's victim",
+      "ageAtAccession": "Unknown and about 21",
+      "cameToPower": "Fetched blind Magnus from a monastery",
+      "reignEnded": "Defeated at Holmengrå",
+      "previously": "Sigurd Munn is dead. Rewind to 1136 and Harald Gille's killer.",
+      "paragraphs": [
+        "Sigurd Slembe had killed a king and got nothing for it. He had trained as a deacon before he turned adventurer, and his nickname probably means something like 'the noisy one'. Outlawed by Harald's men, he needed a figurehead, and he found one on Munkholmen: Magnus the Blind, still a king's son even without his eyes. In 1137 Magnus left the monastery and joined him.",
+        "It went badly. Magnus was beaten at Minne by the boy king Inge's men and fled to Sweden and Denmark. A Danish invasion on his behalf came to nothing. Back together, the two claimants had little support at home and lived more like pirates than kings, raiding the coast with a small fleet.",
+        "On 12 November 1139 they met the boy kings' fleet at Holmengrå, near Hvaler in the Oslofjord. Magnus was killed on his ship. Sigurd jumped overboard but was caught, and Inge's men tortured him slowly to death. Harald Gille's sons were safe, and the first round of Norway's civil wars was over."
+      ],
+      "claims": [
         {
           "text": "Sigurd Slembe was tortured to death after Holmengrå.",
           "status": "confirmed",
           "note": "The sagas describe the torture in grim detail. Some of that may be dressed up, but his execution is not doubted."
         },
         {
-          "text": "Magnus Erlingsson's coronation was the first in Scandinavia.",
-          "status": "confirmed",
-          "note": "Historians accept this. The exact year, 1163 or 1164, is still argued over."
+          "text": "As Magnus fell, a loyal guard held him up and one spear went through them both.",
+          "status": "legend",
+          "note": "Snorri tells it. It is a heroic saga image with no other witness."
+        },
+        {
+          "text": "Sigurd Slembe was a son of Magnus Barefoot.",
+          "status": "disputed",
+          "note": "Nobody at the time could prove it either way, and his enemies called him a fraud."
         }
       ],
-      "hook": "Magnus Erlingsson lies at the bottom of the fjord. The winner is a man nobody had heard of ten years earlier: a priest from the Faroe Islands who swears he is a king's son.",
+      "hook": "The rebels are dead and the boy kings are safe. Then, in 1142, a stranger sails in from Scotland. He says he is another son of Harald Gille, and he wants his share.",
       "images": [
         {
-          "file": "File:Magnus Blindes og Harald Gilles saga-Magnus lemlestes-E. Peterssen.jpg",
-          "url": "https://upload.wikimedia.org/wikipedia/commons/5/5f/Magnus_Blindes_og_Harald_Gilles_saga-Magnus_lemlestes-E._Peterssen.jpg",
-          "page": "https://commons.wikimedia.org/wiki/File:Magnus_Blindes_og_Harald_Gilles_saga-Magnus_lemlestes-E._Peterssen.jpg",
-          "credit": "Eilif Peterssen",
+          "file": "File:Haraldsonnenes saga-Slaget ved Minne-W. Wetlesen.jpg",
+          "url": "https://upload.wikimedia.org/wikipedia/commons/1/1a/Haraldsonnenes_saga-Slaget_ved_Minne-W._Wetlesen.jpg",
+          "page": "https://commons.wikimedia.org/wiki/File:Haraldsonnenes_saga-Slaget_ved_Minne-W._Wetlesen.jpg",
+          "credit": "Wilhelm Wetlesen",
           "license": "Public domain",
-          "made": "1890s",
-          "caption": "Eilif Peterssen's drawing of King Magnus being maimed, made for an 1899 edition of Snorri's sagas.",
-          "alt": "Book illustration showing the maiming of King Magnus the Blind"
+          "made": "1898",
+          "caption": "The battle at Minne in 1137, where Magnus the Blind was beaten. Drawn for the 1899 Norwegian edition of Snorri's sagas, more than 750 years later.",
+          "alt": "Saga illustration of the battle of Minne"
+        }
+      ],
+      "sources": [
+        {
+          "title": "Heimskringla",
+          "author": "Snorri Sturluson",
+          "note": "c. 1230; English trans. Alison Finlay and Anthony Faulkes, Viking Society for Northern Research, 2011–2015"
+        },
+        {
+          "title": "Morkinskinna",
+          "author": "Anonymous (trans. Theodore M. Andersson and Kari Ellen Gade)",
+          "note": "Cornell University Press, 2000"
+        },
+        {
+          "title": "Society and Politics in Snorri Sturluson's Heimskringla",
+          "author": "Sverre Bagge",
+          "note": "University of California Press, 1991"
+        }
+      ],
+      "review": {
+        "status": "draft",
+        "notes": "Drafted from the listed sources; needs a human fact-check."
+      }
+    },
+    {
+      "id": "eystein-ii",
+      "kind": "monarch",
+      "rulers": [
+        "eystein-ii"
+      ],
+      "tagline": "The Scottish-born king who went raiding like a Viking",
+      "start": {
+        "date": "1142"
+      },
+      "end": {
+        "date": "1157-08-21"
+      },
+      "contestedWith": [
+        "sigurd-munn-and-inge",
+        "inge-i"
+      ],
+      "relationToPredecessor": "Eldest son of Harald Gille",
+      "ageAtAccession": "About 17",
+      "cameToPower": "Fetched from Scotland as co-king",
+      "reignEnded": "Killed by Inge's men in Bohuslän",
+      "previously": "Magnus the Blind and Sigurd Slembe die after Holmengrå.",
+      "paragraphs": [
+        "Eystein was Harald Gille's son from his years in the west, born to a woman called Bjaðǫk and left behind when Harald sailed to Norway. Harald had let it be known that he had a boy over there. So in 1142 a group of Norwegian lords went to Scotland and brought Eystein and his mother home, and he was made king alongside his little half-brothers.",
+        "He had a taste for the old Viking life. In the early 1150s he took a fleet west, seized the Earl of Orkney in Caithness and made him pay a ransom, then raided down the Scottish coast to Aberdeen and on to England. At home he was thought clever but greedy, and that cost him friends.",
+        "After Sigurd Munn was killed in 1155, he and Inge patched things up, but not for long. In 1157 their armies met near Moster on the west coast, and Eystein's men simply melted away. He fled east, was caught in Bohuslän and was killed there on 21 August. Locals soon began to treat his grave as a holy place."
+      ],
+      "claims": [
+        {
+          "text": "Eystein sacked Whitby in England.",
+          "status": "disputed",
+          "note": "The story comes from the sagas, written about 80 years later. No English chronicle confirms it."
+        },
+        {
+          "text": "Inge ordered his brother's killing.",
+          "status": "disputed",
+          "note": "People argued about it even at the time, and the sagas leave the question open."
+        },
+        {
+          "text": "A spring welled up where Eystein was killed, and people came to it for healing.",
+          "status": "legend",
+          "note": "Snorri reports the local cult. His own party tried to make a saint of him, without success."
+        }
+      ],
+      "hook": "Inge is the last brother standing. But Sigurd Munn left a little son, and Eystein's beaten men are about to make the boy their king.",
+      "images": [
+        {
+          "file": "File:Haraldsonnens saga-Simon Skalp-W. Wetlesen.jpg",
+          "url": "https://upload.wikimedia.org/wikipedia/commons/4/4a/Haraldsonnens_saga-Simon_Skalp-W._Wetlesen.jpg",
+          "page": "https://commons.wikimedia.org/wiki/File:Haraldsonnens_saga-Simon_Skalp-W._Wetlesen.jpg",
+          "credit": "Wilhelm Wetlesen",
+          "license": "Public domain",
+          "made": "1898",
+          "caption": "Simon Skalp and his men find King Eystein in hiding. Drawn for the 1899 Norwegian edition of Snorri's sagas, more than 750 years later.",
+          "alt": "Saga illustration of Simon Skalp and his men finding King Eystein"
+        }
+      ],
+      "sources": [
+        {
+          "title": "Heimskringla",
+          "author": "Snorri Sturluson",
+          "note": "c. 1230; English trans. Alison Finlay and Anthony Faulkes, Viking Society for Northern Research, 2011–2015"
+        },
+        {
+          "title": "Morkinskinna",
+          "author": "Anonymous (trans. Theodore M. Andersson and Kari Ellen Gade)",
+          "note": "Cornell University Press, 2000"
+        },
+        {
+          "title": "From Viking Stronghold to Christian Kingdom: State Formation in Norway, c. 900–1350",
+          "author": "Sverre Bagge",
+          "note": "Museum Tusculanum Press, 2010"
+        }
+      ],
+      "review": {
+        "status": "draft",
+        "notes": "Drafted from the listed sources; needs a human fact-check."
+      }
+    },
+    {
+      "id": "inge-i",
+      "kind": "monarch",
+      "rulers": [
+        "inge-i"
+      ],
+      "tagline": "The crippled king the barons loved",
+      "start": {
+        "date": "1155-06-10"
+      },
+      "end": {
+        "date": "1161-02-03"
+      },
+      "contestedWith": [
+        "eystein-ii",
+        "haakon-herdebrei"
+      ],
+      "relationToPredecessor": "Half-brother of Sigurd and Eystein",
+      "ageAtAccession": "20",
+      "cameToPower": "Outlived his brothers",
+      "reignEnded": "Killed on the ice at Oslo",
+      "previously": "Eystein flees Inge's army and is killed in Bohuslän.",
+      "paragraphs": [
+        "Inge could barely walk. He had a hump on his back and chest and one withered leg. Yet the sagas call him the best-looking of the brothers and the best liked. He let the great landowners help run the kingdom, and they backed him for it. His right-hand man was Gregorius Dagsson, a hard-bitten baron and his best commander.",
+        "With Sigurd and Eystein dead, Inge should have been safe. But their followers hailed Sigurd's ten-year-old son Haakon as king, and the war went on. Inge had the Church on his side and the bigger armies. Haakon's men had nothing left to lose.",
+        "In January 1161 Gregorius was killed in a fight on the ice with Haakon's men. A month later, on 3 February, Haakon's army came at Oslo. Part of Inge's army, led by Godred, the exiled King of the Isles, switched sides. Inge fought on the frozen fjord and was killed there, aged about 25. He was buried in St Hallvard's Church in Oslo."
+      ],
+      "claims": [
+        {
+          "text": "Godred of the Isles changed sides at the decisive moment.",
+          "status": "confirmed",
+          "note": "The sagas name him. He was a real exiled king of Man and the Isles who had joined Inge."
+        },
+        {
+          "text": "Inge was killed fighting on the frozen fjord outside Oslo.",
+          "status": "confirmed",
+          "note": "All the sagas agree on a battle on the ice in February 1161."
+        },
+        {
+          "text": "The barons loved Inge because he let them run things.",
+          "status": "disputed",
+          "note": "That's Snorri's verdict. Modern historians tend to see the barons using a weak king for their own ends."
+        }
+      ],
+      "hook": "Inge is dead and teenage Haakon holds the field. But Inge's party has found a new leader: Erling Skakke, a tough old crusader with a crooked neck and a five-year-old son with royal blood.",
+      "images": [
+        {
+          "file": "File:Kong Inge forliker Erling Skakke og Gregorius.jpg",
+          "url": "https://upload.wikimedia.org/wikipedia/commons/6/6d/Kong_Inge_forliker_Erling_Skakke_og_Gregorius.jpg",
+          "page": "https://commons.wikimedia.org/wiki/File:Kong_Inge_forliker_Erling_Skakke_og_Gregorius.jpg",
+          "credit": "Erik Werenskiold",
+          "license": "Public domain",
+          "made": "c. 1899",
+          "caption": "King Inge makes peace between his two great barons, Erling Skakke and Gregorius. Drawn for the 1899 Norwegian edition of Snorri's sagas, more than 750 years later.",
+          "alt": "Saga illustration of King Inge reconciling Erling Skakke and Gregorius Dagsson"
         }
       ],
       "sources": [
@@ -1584,9 +2545,166 @@
           "note": "Museum Tusculanum Press, 2010"
         },
         {
-          "title": "Society and Politics in Snorri Sturluson's Heimskringla",
+          "title": "The Cambridge History of Scandinavia, Vol. 1: Prehistory to 1520",
+          "author": "Knut Helle (ed.)",
+          "note": "Cambridge University Press, 2003"
+        }
+      ],
+      "review": {
+        "status": "draft",
+        "notes": "Drafted from the listed sources; needs a human fact-check."
+      }
+    },
+    {
+      "id": "haakon-herdebrei",
+      "kind": "monarch",
+      "rulers": [
+        "haakon-herdebrei"
+      ],
+      "tagline": "A boy king with a man's shoulders",
+      "start": {
+        "date": "1157"
+      },
+      "end": {
+        "date": "1162-07-07"
+      },
+      "contestedWith": [
+        "inge-i",
+        "magnus-erlingsson"
+      ],
+      "relationToPredecessor": "Son of Sigurd Munn",
+      "ageAtAccession": "10",
+      "cameToPower": "Hailed by Eystein's old followers",
+      "reignEnded": "Killed at Sekken, aged 15",
+      "previously": "Inge dies fighting on the ice at Oslo. Haakon's men win the day.",
+      "paragraphs": [
+        "Haakon was Sigurd Munn's son, born in 1147. When his uncle Eystein was killed in 1157, Eystein's and Sigurd's old followers needed a king's son to fight for, and ten-year-old Haakon was it. He was big for his age, with unusually broad shoulders, which gave him his nickname, Herdebrei.",
+        "For four years his men fought Inge up and down the country, and in February 1161 they finally killed him at Oslo. For a moment the teenager looked like the last king standing. But Inge's barons would not have him. They turned to Erling Skakke and declared Erling's little son Magnus king instead.",
+        "Erling was a far better general than anyone on Haakon's side. On 7 July 1162 he caught Haakon's fleet at Sekken, an island in the Romsdalsfjord. Haakon's men were routed and the boy king was killed, still only 15. His followers tried other sons of Sigurd Munn, but Erling hunted them down."
+      ],
+      "claims": [
+        {
+          "text": "Herdebrei means 'broad-shouldered'.",
+          "status": "confirmed",
+          "note": "The sagas explain the nickname by his size and build, even as a boy."
+        },
+        {
+          "text": "After Sekken his followers hailed another son of Sigurd Munn, who was caught and beheaded in 1163.",
+          "status": "confirmed",
+          "note": "Snorri names him Sigurd Markusfostre. Erling Skakke had him executed in Bergen."
+        },
+        {
+          "text": "Haakon was really Sigurd Munn's son.",
+          "status": "confirmed",
+          "note": "Unlike many claimants of the age, his parentage was not challenged by his enemies."
+        }
+      ],
+      "hook": "With Haakon dead, Erling Skakke's boy Magnus has Norway to himself. But Magnus's royal blood comes only through his mother, so Erling needs something new: a crown, an archbishop and a coronation.",
+      "images": [
+        {
+          "file": "File:Haakon Herdebreis saga-Tittelfrise-G. Munthe.jpg",
+          "url": "https://upload.wikimedia.org/wikipedia/commons/2/2e/Haakon_Herdebreis_saga-Tittelfrise-G._Munthe.jpg",
+          "page": "https://commons.wikimedia.org/wiki/File:Haakon_Herdebreis_saga-Tittelfrise-G._Munthe.jpg",
+          "credit": "Gerhard Munthe",
+          "license": "Public domain",
+          "made": "c. 1896",
+          "caption": "Gerhard Munthe's decorated title frieze for Haakon Herdebrei's saga in the 1899 Heimskringla. No likeness of Haakon survives.",
+          "alt": "Decorative title frieze for Haakon Herdebrei's saga"
+        }
+      ],
+      "sources": [
+        {
+          "title": "Heimskringla",
+          "author": "Snorri Sturluson",
+          "note": "c. 1230; English trans. Alison Finlay and Anthony Faulkes, Viking Society for Northern Research, 2011–2015"
+        },
+        {
+          "title": "From Viking Stronghold to Christian Kingdom: State Formation in Norway, c. 900–1350",
           "author": "Sverre Bagge",
-          "note": "University of California Press, 1991"
+          "note": "Museum Tusculanum Press, 2010"
+        },
+        {
+          "title": "The Cambridge History of Scandinavia, Vol. 1: Prehistory to 1520",
+          "author": "Knut Helle (ed.)",
+          "note": "Cambridge University Press, 2003"
+        }
+      ],
+      "review": {
+        "status": "draft",
+        "notes": "Drafted from the listed sources; needs a human fact-check."
+      }
+    },
+    {
+      "id": "magnus-erlingsson",
+      "kind": "monarch",
+      "rulers": [
+        "magnus-erlingsson"
+      ],
+      "tagline": "The first crowned king in Scandinavia",
+      "start": {
+        "date": "1161"
+      },
+      "end": {
+        "date": "1184-06-15"
+      },
+      "contestedWith": [
+        "haakon-herdebrei"
+      ],
+      "relationToPredecessor": "Sigurd I's grandson, through his mother",
+      "ageAtAccession": "5",
+      "cameToPower": "Made king by his father, Erling",
+      "reignEnded": "Drowned at Fimreite",
+      "previously": "Haakon Herdebrei is killed at Sekken. Erling's son is unrivalled.",
+      "paragraphs": [
+        "Magnus had an awkward claim. His royal blood came through his mother, Kristin, Sigurd the Crusader's daughter, and no Norwegian king had ever taken the throne that way. His father, Erling Skakke, was a tough, clever nobleman who had been to the Holy Land. He found his answer in the Church.",
+        "In 1163 or 1164 Archbishop Eystein crowned the boy in Bergen, the first coronation in Scandinavia. A new law said the crown should pass to one legitimate son, with the bishops' approval. Erling ran the country, ruthlessly, for the next fifteen years, and hunted down every rival king's son he could find.",
+        "Then came Sverre, a priest from the Faroes who claimed to be Sigurd Munn's son and took over the ragged Birkebeiner rebels. In 1179 he killed Erling in battle at Kalvskinnet, outside Nidaros. Magnus fought on for five more years. On 15 June 1184 Sverre caught his fleet at Fimreite in the Sognefjord. Magnus's ship went down and he drowned, aged about 28."
+      ],
+      "claims": [
+        {
+          "text": "Magnus Erlingsson's coronation was the first in Scandinavia.",
+          "status": "confirmed",
+          "note": "Historians accept this. The exact year, 1163 or 1164, is still argued over."
+        },
+        {
+          "text": "Magnus promised to rule Norway as a vassal of St Olaf.",
+          "status": "disputed",
+          "note": "A privilege letter in his name says so, but historians argue over its date and how far it was ever meant seriously."
+        },
+        {
+          "text": "Erling got his crooked neck, and his nickname Skakke, from a wound on crusade.",
+          "status": "legend",
+          "note": "The sagas tell of a sword cut to the neck in a sea fight in the Mediterranean. Nice story, hard to check."
+        }
+      ],
+      "hook": "Magnus Erlingsson lies at the bottom of the fjord. The winner is a man nobody had heard of ten years earlier: a priest from the Faroe Islands who swears he is a king's son.",
+      "images": [
+        {
+          "file": "File:Magnus Erlingssons saga-Kongen tek hyllest-Werenskiold.jpg",
+          "url": "https://upload.wikimedia.org/wikipedia/commons/a/a3/Magnus_Erlingssons_saga-Kongen_tek_hyllest-Werenskiold.jpg",
+          "page": "https://commons.wikimedia.org/wiki/File:Magnus_Erlingssons_saga-Kongen_tek_hyllest-Werenskiold.jpg",
+          "credit": "Erik Werenskiold",
+          "license": "Public domain",
+          "made": "1899 or earlier",
+          "caption": "The newly crowned boy king receives the homage of his barons. Drawn for the 1899 Norwegian edition of Snorri's sagas, more than 700 years later.",
+          "alt": "Saga illustration of the young King Magnus receiving homage from his barons after his coronation"
+        }
+      ],
+      "sources": [
+        {
+          "title": "Heimskringla",
+          "author": "Snorri Sturluson",
+          "note": "c. 1230; English trans. Alison Finlay and Anthony Faulkes, Viking Society for Northern Research, 2011–2015"
+        },
+        {
+          "title": "Sverris saga",
+          "author": "Karl Jónsson and others (trans. J. Sephton)",
+          "note": "English trans. 1899"
+        },
+        {
+          "title": "From Viking Stronghold to Christian Kingdom: State Formation in Norway, c. 900–1350",
+          "author": "Sverre Bagge",
+          "note": "Museum Tusculanum Press, 2010"
         }
       ],
       "review": {
@@ -1612,7 +2730,7 @@
       "ageAtAccession": "About 33",
       "cameToPower": "Rebel leader, won at Fimreite",
       "reignEnded": "Died of illness in Bergen",
-      "previously": "Magnus Erlingsson drowns at Fimreite. A rebel priest takes the crown.",
+      "previously": "Magnus Erlingsson drowns at Fimreite. Sverre stands alone.",
       "paragraphs": [
         "Sverre grew up in the Faroe Islands and trained as a priest. In about 1175, so he said, his mother told him a secret: his real father was King Sigurd Munn, one of Harald Gille's sons. Sverre sailed to Norway and joined the Birkebeiners, a ragged rebel band named after the birch bark they wrapped round their legs. He was soon their leader.",
         "He turned out to be a brilliant guerrilla general and a gifted talker. He beat Erling Skakke at Kalvskinnet, near Trondheim, in 1179, and in 1184 caught Magnus Erlingsson's fleet at Fimreite. Magnus drowned and Sverre was king of all Norway. Keeping it was harder.",
@@ -1635,7 +2753,7 @@
           "note": "Sverris saga tells it. It reads like his last piece of propaganda."
         }
       ],
-      "hook": "Sverre's son Haakon III dies suddenly in 1204, and people whisper poison. Months later a baby boy is born in secret, and the Birkebeiners swear he is Haakon's son.",
+      "hook": "Sverre's son Haakon takes over and makes peace with the bishops. Norway can breathe again. But Sverre's widow is still at court, and she and her stepson do not get on.",
       "images": [
         {
           "file": "File:Sverre Sigurdsson (Nidaros Cathedral).jpg",
@@ -1671,6 +2789,236 @@
       }
     },
     {
+      "id": "haakon-iii",
+      "kind": "monarch",
+      "rulers": [
+        "haakon-iii"
+      ],
+      "tagline": "Sverre's son made peace, then dropped dead",
+      "start": {
+        "date": "1202-03-09"
+      },
+      "end": {
+        "date": "1204-01-01"
+      },
+      "contestedWith": [],
+      "relationToPredecessor": "Son of Sverre",
+      "ageAtAccession": "About 19",
+      "cameToPower": "Hailed king by the Birkebeiners",
+      "reignEnded": "Sudden death; poison suspected",
+      "previously": "Sverre dies in Bergen, still at war with the bishops.",
+      "paragraphs": [
+        "Haakon was Sverre's son from his rebel years and had fought beside him against the Baglers. On his deathbed in March 1202 Sverre said Haakon was his only living son and left him a letter with one piece of advice: make peace with the Church. When the news reached Nidaros the Birkebeiners took Haakon as their leader, and that spring he was hailed king.",
+        "He did what his father asked. The exiled bishops came home, Haakon gave them most of what they wanted, and Norway was freed from the pope's interdict. The Bagler party fell apart, and that autumn farmers in the Uplands killed its king, Inge Magnusson. For the first time in years Norway had one king and no war.",
+        "It lasted less than two years. Haakon clashed with his stepmother, Queen Margaret, a Swedish king's daughter, and his men took her young daughter from her when she tried to leave for home. At Christmas 1203 he fell ill after being bled and died on New Year's Day 1204, aged about 20. He had no wife and, as far as anyone knew, no children."
+      ],
+      "claims": [
+        {
+          "text": "Queen Margaret poisoned him.",
+          "status": "disputed",
+          "note": "The Bagler sagas report the suspicion. A man who carried hot iron for her was badly burned, and she fled to Sweden. That is rumour and ordeal, not proof."
+        },
+        {
+          "text": "Haakon ended the papal interdict by settling with the bishops.",
+          "status": "confirmed",
+          "note": "The bishops' return and the settlement of 1202 are well recorded."
+        },
+        {
+          "text": "He fathered a son who was born after his death.",
+          "status": "confirmed",
+          "note": "Inga of Varteig carried hot iron in 1218 to prove it, and the boy became Haakon IV."
+        }
+      ],
+      "hook": "The new king is Sverre's grandson Guttorm, aged four. Real power goes to a hot-headed cousin the Baglers call 'the mad dog'. And a young woman from Varteig is carrying a secret.",
+      "images": [
+        {
+          "file": "File:Saga de Sverre AM 81 a fol.jpg",
+          "url": "https://upload.wikimedia.org/wikipedia/commons/5/5b/Saga_de_Sverre_AM_81_a_fol.jpg",
+          "page": "https://commons.wikimedia.org/wiki/File:Saga_de_Sverre_AM_81_a_fol.jpg",
+          "credit": "Unknown scribe; photo from the University of Bergen",
+          "license": "Public domain",
+          "made": "15th century",
+          "caption": "A page of Sverris saga, the story of Haakon's father, from a manuscript copied about 250 years later. No likeness of Haakon survives.",
+          "alt": "Page of a medieval Icelandic manuscript of Sverris saga"
+        }
+      ],
+      "sources": [
+        {
+          "title": "Sverris saga",
+          "author": "Karl Jónsson and others (trans. J. Sephton)",
+          "note": "English trans. 1899"
+        },
+        {
+          "title": "Soga om baglarar og birkebeinar (Noregs kongesoger 3)",
+          "author": "Finn Hødnebø and Hallvard Magerøy (eds), trans. Gunnar Pedersen",
+          "note": "Det Norske Samlaget, 1979; Norwegian translation of the Bagler sagas"
+        },
+        {
+          "title": "From Viking Stronghold to Christian Kingdom: State Formation in Norway, c. 900–1350",
+          "author": "Sverre Bagge",
+          "note": "Museum Tusculanum Press, 2010"
+        }
+      ],
+      "review": {
+        "status": "draft",
+        "notes": "Drafted from the listed sources; needs a human fact-check."
+      }
+    },
+    {
+      "id": "guttorm",
+      "kind": "monarch",
+      "rulers": [
+        "guttorm"
+      ],
+      "tagline": "Four years old, and king for seven months",
+      "start": {
+        "date": "1204-01"
+      },
+      "end": {
+        "date": "1204-08-11"
+      },
+      "contestedWith": [],
+      "relationToPredecessor": "Nephew of Haakon III",
+      "ageAtAccession": "4",
+      "cameToPower": "Named king by the Birkebeiners",
+      "reignEnded": "Sudden illness in Nidaros",
+      "previously": "Haakon III dies on New Year's Day 1204. Poison is whispered.",
+      "paragraphs": [
+        "Guttorm was the illegitimate son of Sverre's eldest son, Sigurd Lavard, who had died before his father. With Haakon III dead and no other heir in sight, the Birkebeiner leaders made the four-year-old king the very next day. Someone had to rule for him, so Sverre's nephew Haakon the Crazy was made an earl and given the army.",
+        "Haakon the Crazy was a fighter, and the Baglers took his rise as a sign there would be no peace. Their exiles in Denmark picked a new king, Erling Steinvegg, said to be a son of Magnus Erlingsson. In June 1204 King Valdemar II of Denmark sailed into the Oslofjord with a huge fleet to back him, and the Baglers soon held the whole region.",
+        "Guttorm was hailed king again at the Øyrating in Nidaros while his guardians got ready for war. Then, on 11 August 1204, the little boy fell ill and died. He was buried in Nidaros Cathedral. Haakon the Crazy wanted the crown for himself, but he had made too many enemies."
+      ],
+      "claims": [
+        {
+          "text": "Guttorm was poisoned by Christina, the Swedish noblewoman Haakon the Crazy married soon afterwards.",
+          "status": "disputed",
+          "note": "Only the longer Bagler saga hints at it. Modern historians think it was Birkebeiner gossip after Haakon III's suspicious death."
+        },
+        {
+          "text": "The child king girded Earl Haakon with a sword and sat him level with the throne.",
+          "status": "confirmed",
+          "note": "The Bagler sagas, written soon after, describe the ceremony. An earl normally sat lower than the king."
+        },
+        {
+          "text": "Denmark backed the Baglers to win back its old hold over the Oslofjord.",
+          "status": "confirmed",
+          "note": "Valdemar II's 1204 expedition and the Baglers' oath to him are recorded in the Bagler sagas."
+        }
+      ],
+      "hook": "Two kings dead in one year. The Birkebeiner warriors want Haakon the Crazy. The archbishop and the farmers of Trøndelag want his quiet younger half-brother, Inge. Somebody has to back down.",
+      "images": [
+        {
+          "file": "File:Tunsberghus festning aerial photo1.JPG",
+          "url": "https://upload.wikimedia.org/wikipedia/commons/1/13/Tunsberghus_festning_aerial_photo1.JPG",
+          "page": "https://commons.wikimedia.org/wiki/File:Tunsberghus_festning_aerial_photo1.JPG",
+          "credit": "Lars Åge Kamfjord",
+          "license": "CC BY-SA 4.0",
+          "made": "2015",
+          "caption": "The castle hill at Tønsberg, held by the Baglers in Guttorm's time. No likeness of the child king survives.",
+          "alt": "Aerial photo of the Tunsberghus fortress ruins on the hill above Tønsberg"
+        }
+      ],
+      "sources": [
+        {
+          "title": "Soga om baglarar og birkebeinar (Noregs kongesoger 3)",
+          "author": "Finn Hødnebø and Hallvard Magerøy (eds), trans. Gunnar Pedersen",
+          "note": "Det Norske Samlaget, 1979; Norwegian translation of the Bagler sagas"
+        },
+        {
+          "title": "Norge blir en stat 1130–1319",
+          "author": "Knut Helle",
+          "note": "Universitetsforlaget, 1974 (Handbok i norsk historie 3)"
+        },
+        {
+          "title": "From Viking Stronghold to Christian Kingdom: State Formation in Norway, c. 900–1350",
+          "author": "Sverre Bagge",
+          "note": "Museum Tusculanum Press, 2010"
+        }
+      ],
+      "review": {
+        "status": "draft",
+        "notes": "Drafted from the listed sources; needs a human fact-check."
+      }
+    },
+    {
+      "id": "inge-ii",
+      "kind": "monarch",
+      "rulers": [
+        "inge-ii"
+      ],
+      "tagline": "The quiet king who swam for his life",
+      "start": {
+        "date": "1204-08-11",
+        "circa": true,
+        "note": "chosen after Guttorm died"
+      },
+      "end": {
+        "date": "1217-04-23"
+      },
+      "contestedWith": [],
+      "relationToPredecessor": "Cousin of Guttorm's father",
+      "ageAtAccession": "19",
+      "cameToPower": "Chosen by the archbishop and farmers",
+      "reignEnded": "Died of illness in Nidaros",
+      "previously": "Little King Guttorm dies suddenly. The Birkebeiners need a king.",
+      "paragraphs": [
+        "Inge Bårdsson was a king by compromise. His mother Cecilia was Sverre's half-sister and his father Bård a loyal Birkebeiner lord. The warriors wanted Inge's older half-brother, Haakon the Crazy, but the archbishop and the farmers of Trøndelag insisted on Inge. So Inge got the crown, and Haakon got the army and half the royal income.",
+        "The Baglers held the east and fought hard. On 22 April 1206 they burst into Nidaros during a wedding feast for Inge's sister. Inge escaped by swimming across the icy river Nid and was never fully well again. That same year the Birkebeiners learned of Haakon III's baby son, and the boy was brought to Inge's court.",
+        "In 1208 churchmen brokered peace at Kvitsøy. The Bagler king Philip gave up his title, kept the east as an earl and married Sverre's daughter Kristin, while Inge stayed sole king. Philip quietly went on calling himself king anyway. Haakon the Crazy died in 1214 and Inge took his lands. In April 1217 Inge fell ill in Nidaros, made his half-brother Skule an earl, and died."
+      ],
+      "claims": [
+        {
+          "text": "Inge swam the freezing river Nid to escape a surprise attack in 1206.",
+          "status": "confirmed",
+          "note": "The Bagler sagas, written during and just after his reign, tell the story in detail."
+        },
+        {
+          "text": "Inge was a weak king.",
+          "status": "disputed",
+          "note": "He never ruled all Norway and shared power with the Baglers. Others argue that keeping the peace took real strength."
+        },
+        {
+          "text": "The oldest surviving Norwegian royal letter was issued by Inge's rival Philip, not by Inge.",
+          "status": "confirmed",
+          "note": "The letter dates from Inge's reign and shows Philip still acting as a king despite the 1208 deal."
+        }
+      ],
+      "hook": "Inge leaves only an illegitimate son. The Birkebeiners have another candidate: the boy they rescued as a baby, Haakon III's son, now 13. Earl Skule has plans of his own.",
+      "images": [
+        {
+          "file": "File:Inge Bårdsson seal.jpg",
+          "url": "https://upload.wikimedia.org/wikipedia/commons/f/f2/Inge_B%C3%A5rdsson_seal.jpg",
+          "page": "https://commons.wikimedia.org/wiki/File:Inge_B%C3%A5rdsson_seal.jpg",
+          "credit": "Oluf Bagge (drawing of the seal)",
+          "license": "Public domain",
+          "made": "c. 1812",
+          "caption": "Inge's royal seal, naming him 'by the grace of God King of Norway', in a drawing made about 1812.",
+          "alt": "Drawing of a medieval royal seal showing a king, with the Latin legend naming Inge, King of Norway"
+        }
+      ],
+      "sources": [
+        {
+          "title": "Soga om baglarar og birkebeinar (Noregs kongesoger 3)",
+          "author": "Finn Hødnebø and Hallvard Magerøy (eds), trans. Gunnar Pedersen",
+          "note": "Det Norske Samlaget, 1979; Norwegian translation of the Bagler sagas"
+        },
+        {
+          "title": "Norge blir en stat 1130–1319",
+          "author": "Knut Helle",
+          "note": "Universitetsforlaget, 1974 (Handbok i norsk historie 3)"
+        },
+        {
+          "title": "The Cambridge History of Scandinavia, Vol. 1: Prehistory to 1520",
+          "author": "Knut Helle (ed.)",
+          "note": "Cambridge University Press, 2003"
+        }
+      ],
+      "review": {
+        "status": "draft",
+        "notes": "Drafted from the listed sources; needs a human fact-check."
+      }
+    },
+    {
       "id": "haakon-iv",
       "kind": "monarch",
       "rulers": [
@@ -1678,7 +3026,9 @@
       ],
       "tagline": "The rescued baby who built an empire at sea",
       "start": {
-        "date": "1217"
+        "date": "1217-04-23",
+        "circa": true,
+        "note": "proclaimed after Inge II died"
       },
       "end": {
         "date": "1263-12-16"
@@ -1688,7 +3038,7 @@
       "ageAtAccession": "13",
       "cameToPower": "Chosen king by the Birkebeiners",
       "reignEnded": "Died in Orkney after Largs",
-      "previously": "Sverre and his son are dead, and a secret baby heir is born.",
+      "previously": "Inge II dies in Nidaros. The Birkebeiners pick Sverre's grandson.",
       "paragraphs": [
         "Haakon was born in 1204, months after his father, Sverre's son Haakon III, had died. The baby was in danger, so in the winter of 1206 Birkebeiner warriors carried him over the mountains to the safety of King Inge. When Inge died in 1217 the Birkebeiners made 13-year-old Haakon king. To prove who his father was, his mother Inga carried hot iron in Bergen in 1218, and her hands were judged unharmed.",
         "Real power sat with Skule Bårdsson, Inge's half-brother, a proud earl who ran things while Haakon grew up. The two became rivals. Haakon married Skule's daughter Margaret, but in 1239 Skule declared himself king. He lost, and in 1240 he was killed after fleeing to a monastery. Norway's long civil wars were over at last.",
@@ -2247,7 +3597,7 @@
           "note": "Sources say she died suddenly on board ship; plague is the usual guess, not a proven fact."
         }
       ],
-      "hook": "Margaret is gone. Eric of Pomerania now rules three kingdoms from Denmark. Norway has no king of its own, and it won't have one for four hundred years.",
+      "hook": "Margaret is dead. Her great-nephew Eric of Pomerania, crowned at Kalmar fifteen years ago, can finally rule three kingdoms himself, and he has a war in mind.",
       "images": [
         {
           "file": "File:Margrete I Scandinavia upper view Roskilde Denmark.jpg",
@@ -2282,57 +3632,567 @@
       }
     },
     {
-      "id": "danish-union",
-      "kind": "interregnum",
-      "rulers": [],
-      "house": "union",
-      "title": "Four Centuries with Denmark",
-      "tagline": "Four hundred years of being run from Copenhagen",
+      "id": "eric-of-pomerania",
+      "kind": "monarch",
+      "rulers": [
+        "eric-of-pomerania"
+      ],
+      "tagline": "Crowned for three kingdoms, he ended up a Baltic raider",
       "start": {
         "date": "1412-10-28"
       },
       "end": {
-        "date": "1814-05-17"
+        "date": "1442"
       },
       "contestedWith": [],
-      "relationToPredecessor": "Union kings ruled from Denmark",
-      "ageAtAccession": "No Norwegian king",
-      "cameToPower": "Kalmar Union kings took over",
-      "reignEnded": "Denmark handed Norway to Sweden",
+      "relationToPredecessor": "Great-nephew of Margaret",
+      "ageAtAccession": "About 30",
+      "cameToPower": "Sole king when Margaret died",
+      "reignEnded": "Dropped by Norway's council",
       "previously": "Margaret dies. Eric of Pomerania rules all three kingdoms.",
       "paragraphs": [
-        "After Margaret, Norway's kings lived in Denmark and rarely visited. Sweden walked out of the union for good in 1523, but Norway stayed. In 1536 the new Danish king, Christian III, won a civil war and went further. He scrapped Norway's council of the realm and brought in the Lutheran Reformation. The last Catholic archbishop, Olav Engelbrektsson, fled abroad in 1537.",
-        "From then on Norway was governed from Copenhagen, and Danish became the written language of church and state. There were good days too. Christian IV opened silver mines at Kongsberg and rebuilt Oslo after a fire as Christiania. Timber, fish and shipping made merchants rich.",
-        "Then came the Napoleonic Wars. Denmark backed France, the British navy cut Norway off and people went hungry. In January 1814 a beaten Denmark signed the Treaty of Kiel and handed Norway to Sweden. Norway hadn't been asked."
+        "Eric was born Bogislaw, son of a Pomeranian duke, and Margaret picked him as her heir because his grandmother was her sister. She brought him north as a small boy, gave him a Nordic name and had him hailed King of Norway at the thing in Trondheim in 1389. In 1397 he was crowned for all three kingdoms at Kalmar. While Margaret lived, though, she did the ruling. Only when she died in 1412 did Eric get to use his crown.",
+        "He spent most of his reign fighting the counts of Holstein for Schleswig, and losing. To pay for it he brought in the Sound Toll in 1429, charging ships that passed Helsingør. Norway paid its share in other ways. Its castles and districts went to Danish and German bailiffs, and in 1436 the nobleman Amund Sigurdsson Bolt led a rising in the east that besieged Oslo and Akershus.",
+        "In 1439 the Danish and Swedish councils deposed him. Eric had already sailed off to Visborg Castle on Gotland. Norway's council stayed loyal longest, but a king shut away on a Baltic island was no use to anyone, and in 1442 it gave up on him too. Eric lived on Gotland until 1449, then went home to Pomerania, where he died in 1459."
+      ],
+      "claims": [
+        {
+          "text": "From Gotland, the deposed king lived by raiding Baltic shipping.",
+          "status": "confirmed",
+          "note": "Hanseatic and Swedish complaints about ships seized by his men are well recorded. 'Pirate king' was his enemies' label, but the raids were real."
+        },
+        {
+          "text": "When the Hanseatic fleet attacked Copenhagen in 1428, Queen Philippa ran the defence while Eric stayed away.",
+          "status": "disputed",
+          "note": "Danish chronicles give her the credit. How far she commanded in person is hard to pin down."
+        },
+        {
+          "text": "Eric beat Philippa after a failed attack on Stralsund, and she fled to a convent.",
+          "status": "legend",
+          "note": "She did die at Vadstena Abbey in 1430, but the beating story only turns up in later chronicles."
+        }
+      ],
+      "hook": "Eric sits it out on Gotland. Denmark and Sweden have already crowned his nephew, a young German prince. Now Norway's lords head south to meet Christopher of Bavaria.",
+      "images": [
+        {
+          "file": "File:Erik I, 1382-1459, hertig av Pommern konung av Danmark Norge och Sverige - Nationalmuseum - 15058.tif",
+          "url": "https://upload.wikimedia.org/wikipedia/commons/c/c8/Erik_I%2C_1382-1459%2C_hertig_av_Pommern_konung_av_Danmark_Norge_och_Sverige_-_Nationalmuseum_-_15058.tif",
+          "page": "https://commons.wikimedia.org/wiki/File:Erik_I,_1382-1459,_hertig_av_Pommern_konung_av_Danmark_Norge_och_Sverige_-_Nationalmuseum_-_15058.tif",
+          "credit": "Unknown artist",
+          "license": "Public domain",
+          "made": "Date unknown",
+          "caption": "From the Swedish royal portrait collection at Gripsholm Castle; the artist and date are unknown, and it was likely painted long after his time.",
+          "alt": "Oil portrait of King Eric of Pomerania"
+        }
+      ],
+      "sources": [
+        {
+          "title": "The Cambridge History of Scandinavia, Volume 1: Prehistory to 1520",
+          "author": "Knut Helle (ed.)",
+          "note": "Cambridge University Press, 2003"
+        },
+        {
+          "title": "Norsk biografisk leksikon",
+          "note": "Online edition, via Store norske leksikon (snl.no)"
+        },
+        {
+          "title": "A History of Scandinavia",
+          "author": "T. K. Derry",
+          "note": "University of Minnesota Press, 1979"
+        }
+      ],
+      "review": {
+        "status": "draft",
+        "notes": "Drafted from the listed sources; needs a human fact-check."
+      }
+    },
+    {
+      "id": "christopher",
+      "kind": "monarch",
+      "rulers": [
+        "christopher"
+      ],
+      "tagline": "The German 'Bark King' who died at 31",
+      "start": {
+        "date": "1442"
+      },
+      "end": {
+        "date": "1448-01-05"
+      },
+      "contestedWith": [],
+      "relationToPredecessor": "Nephew of Eric of Pomerania",
+      "ageAtAccession": "26",
+      "cameToPower": "Elected at Lödöse, crowned in Oslo",
+      "reignEnded": "Died suddenly at Helsingborg",
+      "previously": "Eric hides out on Gotland. Norway finally lets him go.",
+      "paragraphs": [
+        "Christopher was a German prince, son of the Count Palatine of Neumarkt and of Eric's sister Catherine. The Danish council chose him in 1439 because he was young, foreign and, they hoped, easy to steer. Sweden took him in 1441. In June 1442 Norwegian lords met him at Lödöse, on the Göta river, and elected him king. On 2 July he was crowned in Oslo.",
+        "He never really governed Norway himself. Its council ran things at home, and the German merchants of the Hanseatic League kept their tight hold on Bergen's trade. Christopher made Copenhagen his base, married Dorothea of Brandenburg in 1445 and looked set for a long reign. Then in January 1448 he died suddenly at Helsingborg, aged 31. He had no children, and the union began to come apart."
+      ],
+      "claims": [
+        {
+          "text": "Swedes mocked him as the 'Bark King', blaming him for famine years when people mixed bark into their bread.",
+          "status": "confirmed",
+          "note": "The nickname is recorded in Swedish tradition. Blaming the king for bad harvests was a political jibe."
+        },
+        {
+          "text": "It was said that if his council had asked him for the stars in the sky, he would have ordered them fetched.",
+          "status": "legend",
+          "note": "A later saying that sums up how pliant the councils thought he was. Nobody recorded him saying anything like it."
+        }
+      ],
+      "hook": "Christopher dies with no heir. Sweden picks one of its own nobles, Karl Knutsson. Denmark picks a count from Oldenburg. Both want Norway, and Norway's council splits down the middle.",
+      "images": [
+        {
+          "file": "File:Christopher of Bavaria crop.jpg",
+          "url": "https://upload.wikimedia.org/wikipedia/commons/b/bd/Christopher_of_Bavaria_crop.jpg",
+          "page": "https://commons.wikimedia.org/wiki/File:Christopher_of_Bavaria_crop.jpg",
+          "credit": "Unknown artist",
+          "license": "Public domain",
+          "made": "Date unknown",
+          "caption": "An old painted portrait by an unknown artist; when it was made isn't recorded.",
+          "alt": "Cropped painted portrait of King Christopher of Bavaria"
+        }
+      ],
+      "sources": [
+        {
+          "title": "The Cambridge History of Scandinavia, Volume 1: Prehistory to 1520",
+          "author": "Knut Helle (ed.)",
+          "note": "Cambridge University Press, 2003"
+        },
+        {
+          "title": "Dansk Biografisk Leksikon: Christoffer 3. af Bayern",
+          "note": "3rd ed., Gyldendal 1979–84; online at lex.dk"
+        },
+        {
+          "title": "Store norske leksikon",
+          "note": "Online encyclopedia (snl.no)"
+        }
+      ],
+      "review": {
+        "status": "draft",
+        "notes": "Drafted from the listed sources; needs a human fact-check."
+      }
+    },
+    {
+      "id": "charles-i",
+      "kind": "monarch",
+      "rulers": [
+        "charles-i"
+      ],
+      "tagline": "Sweden's king wore Norway's crown for seven months",
+      "start": {
+        "date": "1449-11-20"
+      },
+      "end": {
+        "date": "1450"
+      },
+      "contestedWith": [],
+      "relationToPredecessor": "Swedish noble, no kin of Christopher",
+      "ageAtAccession": "40 or 41",
+      "cameToPower": "Crowned in Nidaros Cathedral",
+      "reignEnded": "Swedes made him give Norway up",
+      "previously": "Christopher dies childless. Two new kings both want Norway.",
+      "paragraphs": [
+        "Karl Knutsson was a rich Swedish noble who had risen in the revolt against Eric of Pomerania and later ran eastern Finland from Viborg Castle almost like a prince. When Christopher died, Karl's troops were on hand when the Swedes hailed their new king at the Stones of Mora in June 1448. He was the man they chose. He wanted the union back, with Sweden on top this time.",
+        "Norway's council split. In February 1449 one group declared for Karl, and in June another paid homage to Christian of Oldenburg, Denmark's new king. Karl moved fast. On 20 November 1449 he was crowned in Nidaros Cathedral in Trondheim. But Sweden's nobles had no wish to fight Denmark over Norway. In 1450 they made him sign his claim away. His Norwegian reign had lasted about seven months.",
+        "Karl stayed King of Sweden, on and off. He was driven out in 1457, came back, was driven out again, and was king for a third time when he died in Stockholm in 1470."
+      ],
+      "claims": [
+        {
+          "text": "Karl summed up his life in a rhyme: as lord of Fågelvik he was rich and mighty, as King of Sweden poor and unhappy.",
+          "status": "legend",
+          "note": "The verse is traditionally put in his mouth, but nobody can show he wrote it."
+        },
+        {
+          "text": "His Swedish number, Charles VIII, is made up.",
+          "status": "confirmed",
+          "note": "It counts back from Charles IX, who took his number from a fictional list of early kings. In Norway he is Charles I."
+        }
+      ],
+      "hook": "Karl gives up Norway. In summer 1450 Christian of Oldenburg sails north with a large fleet, heading for Trondheim and a crown of his own.",
+      "images": [
+        {
+          "file": "File:Karl VIII Knutsson Bonde, 1408-70, konung av Sverige och Norge - Nationalmuseum - 15059.tif",
+          "url": "https://upload.wikimedia.org/wikipedia/commons/c/c2/Karl_VIII_Knutsson_Bonde%2C_1408-70%2C_konung_av_Sverige_och_Norge_-_Nationalmuseum_-_15059.tif",
+          "page": "https://commons.wikimedia.org/wiki/File:Karl_VIII_Knutsson_Bonde,_1408-70,_konung_av_Sverige_och_Norge_-_Nationalmuseum_-_15059.tif",
+          "credit": "Unknown artist",
+          "license": "Public domain",
+          "made": "Date unknown",
+          "caption": "From the Swedish royal portrait series at Gripsholm Castle; the artist and date are unknown, and it was almost certainly painted long after his death.",
+          "alt": "Oil portrait of King Karl Knutsson Bonde"
+        }
+      ],
+      "sources": [
+        {
+          "title": "The Cambridge History of Scandinavia, Volume 1: Prehistory to 1520",
+          "author": "Knut Helle (ed.)",
+          "note": "Cambridge University Press, 2003"
+        },
+        {
+          "title": "Svenskt biografiskt lexikon: Karl Knutsson (Bonde)",
+          "note": "Riksarkivet; online at sok.riksarkivet.se/sbl"
+        },
+        {
+          "title": "Norsk biografisk leksikon",
+          "note": "Online edition, via Store norske leksikon (snl.no)"
+        }
+      ],
+      "review": {
+        "status": "draft",
+        "notes": "Drafted from the listed sources; needs a human fact-check."
+      }
+    },
+    {
+      "id": "christian-i",
+      "kind": "monarch",
+      "rulers": [
+        "christian-i"
+      ],
+      "tagline": "The broke king who pawned Orkney and Shetland",
+      "start": {
+        "date": "1450"
+      },
+      "end": {
+        "date": "1481-05-21"
+      },
+      "contestedWith": [],
+      "relationToPredecessor": "Married Christopher's widow",
+      "ageAtAccession": "24",
+      "cameToPower": "Crowned in Trondheim, 1450",
+      "reignEnded": "Died at Copenhagen Castle",
+      "previously": "Sweden makes Karl give Norway up. The way is clear for Denmark.",
+      "paragraphs": [
+        "Christian was a young count of Oldenburg in north Germany. His uncle, the Duke of Schleswig, turned down the Danish crown in 1448 and put him forward instead, and the Danes elected him on condition that he marry Christopher's widow Dorothea. Once Sweden had made Karl Knutsson back off, Christian sailed to Norway with a large fleet. On 2 August 1450 he was crowned in Trondheim.",
+        "Weeks later, in Bergen, Danish and Norwegian councillors signed a treaty saying the two kingdoms would share one king for ever. It held until 1814. Christian also won Sweden in 1457, lost it in 1464 and was beaten at Brunkeberg outside Stockholm in 1471 trying to get it back. He founded the University of Copenhagen in 1479 and died in 1481.",
+        "He was always short of money. When his daughter Margaret married James III of Scotland, he couldn't pay the dowry. So in 1468 he pledged Norway's crown lands and rights in Orkney as security, and in 1469 Shetland too. The money never came, and the islands stayed with Scotland."
+      ],
+      "claims": [
+        {
+          "text": "The pledge was meant to be temporary.",
+          "status": "confirmed",
+          "note": "The deals allowed redemption, and later Danish-Norwegian kings raised it again and again. Scotland never agreed to sell them back."
+        },
+        {
+          "text": "He was nicknamed 'the bottomless purse'.",
+          "status": "legend",
+          "note": "The jibe is repeated by later writers to sum up his debts. It is hard to trace to his own day."
+        }
+      ],
+      "hook": "Christian dies in 1481. His son John expects all three crowns, but Norway's council has had enough of Danish bailiffs. It makes him wait.",
+      "images": [
+        {
+          "file": "File:Christian I of Denmark, Norway & Sweden 1440s.jpg",
+          "url": "https://upload.wikimedia.org/wikipedia/commons/b/b3/Christian_I_of_Denmark%2C_Norway_%26_Sweden_1440s.jpg",
+          "page": "https://commons.wikimedia.org/wiki/File:Christian_I_of_Denmark,_Norway_%26_Sweden_1440s.jpg",
+          "credit": "Unknown artist",
+          "license": "Public domain",
+          "made": "15th century (date uncertain)",
+          "caption": "An oil portrait by an unknown artist in the Frederiksborg Castle collection; its exact date is uncertain.",
+          "alt": "Oil portrait of King Christian I"
+        }
+      ],
+      "sources": [
+        {
+          "title": "The Cambridge History of Scandinavia, Volume 1: Prehistory to 1520",
+          "author": "Knut Helle (ed.)",
+          "note": "Cambridge University Press, 2003"
+        },
+        {
+          "title": "The Pawning of Orkney and Shetland: A Reconsideration of the Events of 1460–9",
+          "author": "Barbara E. Crawford",
+          "note": "Scottish Historical Review, 1969"
+        },
+        {
+          "title": "Norsk biografisk leksikon",
+          "note": "Online edition, via Store norske leksikon (snl.no)"
+        },
+        {
+          "title": "A History of Scandinavia",
+          "author": "T. K. Derry",
+          "note": "University of Minnesota Press, 1979"
+        }
+      ],
+      "review": {
+        "status": "draft",
+        "notes": "Drafted from the listed sources; needs a human fact-check."
+      }
+    },
+    {
+      "id": "john",
+      "kind": "monarch",
+      "rulers": [
+        "john"
+      ],
+      "tagline": "The king Norway made wait two years",
+      "start": {
+        "date": "1483"
+      },
+      "end": {
+        "date": "1513-02-20"
+      },
+      "contestedWith": [],
+      "relationToPredecessor": "Son of Christian I",
+      "ageAtAccession": "28",
+      "cameToPower": "Accepted after the Halmstad Recess",
+      "reignEnded": "Died after a riding accident",
+      "previously": "Christian I dies. Norway's council refuses to rush.",
+      "paragraphs": [
+        "John was Christian I's eldest surviving son and had been named heir years before. Denmark took him at once, but Norway's council held back. It was fed up with how his father had run the country, and in 1482 it even agreed with Sweden that neither would elect a king without the other. In January 1483, at Halmstad, the Danish and Norwegian councils settled terms. John was crowned in Trondheim on 20 July 1483.",
+        "He built Denmark's first permanent navy, won Sweden back in 1497 and lost it again in 1501. In 1500 his army was cut to pieces by peasant farmers in the marshes of Dithmarschen. Norway gave him trouble too. In 1501 the nobleman Knut Alvsson rose against his officials. In August 1502 Knut came to talks under a promise of safe conduct and was killed by the men of the king's commander, Henrik Krummedige.",
+        "John then sent his son Christian north as viceroy to keep Norway quiet. He died at Aalborg in February 1513 after a fall from his horse."
+      ],
+      "claims": [
+        {
+          "text": "Knut Alvsson was killed under a promise of safe conduct.",
+          "status": "confirmed",
+          "note": "Accounts agree he came aboard Krummedige's ship to talk terms. Whether the killing was planned is still argued over."
+        },
+        {
+          "text": "John's flagship Gribshunden blew up and sank in 1495 while he was ashore.",
+          "status": "confirmed",
+          "note": "The wreck lies off Ronneby in Sweden and has been studied by archaeologists."
+        }
+      ],
+      "hook": "John is dead. His son Christian already knows Norway well. He has spent years there crushing rebels, and fell for a Bergen girl named Dyveke.",
+      "images": [
+        {
+          "file": "File:John II of Sweden sculpture c 1530 (photo 2009).jpg",
+          "url": "https://upload.wikimedia.org/wikipedia/commons/5/52/John_II_of_Sweden_sculpture_c_1530_%28photo_2009%29.jpg",
+          "page": "https://commons.wikimedia.org/wiki/File:John_II_of_Sweden_sculpture_c_1530_(photo_2009).jpg",
+          "credit": "Claus Berg (sculpture); photo Jacob Truedson Demitz for Ristesson",
+          "license": "Public domain",
+          "made": "Sculpture c. 1530; photo 2009",
+          "caption": "Claus Berg carved this figure of John for St Canute's Church in Odense around 1530, some 17 years after his death.",
+          "alt": "Photo of a carved figure of King John in St Canute’s Church, Odense"
+        }
+      ],
+      "sources": [
+        {
+          "title": "The Cambridge History of Scandinavia, Volume 1: Prehistory to 1520",
+          "author": "Knut Helle (ed.)",
+          "note": "Cambridge University Press, 2003"
+        },
+        {
+          "title": "Dansk Biografisk Leksikon: Hans",
+          "note": "3rd ed., Gyldendal 1979–84; online at lex.dk"
+        },
+        {
+          "title": "Norsk biografisk leksikon",
+          "note": "Online edition, via Store norske leksikon (snl.no)"
+        },
+        {
+          "title": "A History of Scandinavia",
+          "author": "T. K. Derry",
+          "note": "University of Minnesota Press, 1979"
+        }
+      ],
+      "review": {
+        "status": "draft",
+        "notes": "Drafted from the listed sources; needs a human fact-check."
+      }
+    },
+    {
+      "id": "christian-ii",
+      "kind": "monarch",
+      "rulers": [
+        "christian-ii"
+      ],
+      "tagline": "He loved a Bergen girl and lost three crowns",
+      "start": {
+        "date": "1513-02-20"
+      },
+      "end": {
+        "date": "1523-01-20"
+      },
+      "contestedWith": [],
+      "relationToPredecessor": "Son of John",
+      "ageAtAccession": "31",
+      "cameToPower": "Succeeded his father",
+      "reignEnded": "Deposed by Denmark's nobles",
+      "previously": "John dies after a riding accident. His son takes over.",
+      "paragraphs": [
+        "Christian already knew Norway. His father made him viceroy there in 1506, and he crushed a rising in the east in 1508 and leaned hard on the Norwegian nobles. In Bergen he met Dyveke, a young woman of Dutch family, and she became his mistress. Her mother, Sigbrit Willoms, became his closest adviser. In 1514 he was crowned King of Norway in Oslo.",
+        "Dyveke died suddenly in 1517. Christian decided she had been poisoned and had the nobleman Torben Oxe executed after a trial by commoners, which horrified the aristocracy. In 1520 he conquered Sweden, then had more than eighty of its leading men put to death in the Stockholm Bloodbath. Sweden rose under Gustav Vasa and left the union for good.",
+        "His new laws favouring townsmen and peasants turned Denmark's nobles and bishops against him too. In January 1523 the Jutland nobles offered his crown to his uncle Frederick, and in April Christian sailed into exile in the Netherlands."
+      ],
+      "claims": [
+        {
+          "text": "Torben Oxe poisoned Dyveke with a bowl of cherries.",
+          "status": "disputed",
+          "note": "The cherries story comes from later chronicles. Oxe was convicted on thin evidence, and she may simply have fallen ill."
+        },
+        {
+          "text": "Swedes still call him Christian the Tyrant.",
+          "status": "confirmed",
+          "note": "The name comes from the Stockholm Bloodbath of November 1520 and is standard in Swedish."
+        }
+      ],
+      "hook": "Christian is gone, but not finished. His uncle Frederick has taken Denmark, and Norway's council must decide whose side it is on.",
+      "images": [
+        {
+          "file": "File:Lucas Cranach (I) - Bildnis Christians II., König von Dänemark (MbK, Leipzig).jpg",
+          "url": "https://upload.wikimedia.org/wikipedia/commons/c/c5/Lucas_Cranach_%28I%29_-_Bildnis_Christians_II.%2C_K%C3%B6nig_von_D%C3%A4nemark_%28MbK%2C_Leipzig%29.jpg",
+          "page": "https://commons.wikimedia.org/wiki/File:Lucas_Cranach_(I)_-_Bildnis_Christians_II.,_K%C3%B6nig_von_D%C3%A4nemark_(MbK,_Leipzig).jpg",
+          "credit": "Lucas Cranach the Elder",
+          "license": "Public domain",
+          "made": "c. 1523",
+          "caption": "Painted by Lucas Cranach the Elder around 1523, the year Christian lost his throne and fled to Germany.",
+          "alt": "Half-length portrait of a bearded man in a black beret, turned to the right, with the painter's winged-serpent mark above his shoulder"
+        }
+      ],
+      "sources": [
+        {
+          "title": "Denmark, 1513–1660: The Rise and Decline of a Renaissance Monarchy",
+          "author": "Paul Douglas Lockhart",
+          "note": "Oxford University Press, 2007"
+        },
+        {
+          "title": "Dansk Biografisk Leksikon: Christian 2.",
+          "note": "3rd ed., Gyldendal 1979–84; online at lex.dk"
+        },
+        {
+          "title": "Norsk biografisk leksikon",
+          "note": "Online edition, via Store norske leksikon (snl.no)"
+        },
+        {
+          "title": "The Cambridge History of Scandinavia, Volume 2: 1520–1870",
+          "author": "E. I. Kouri and Jens E. Olesen (eds)",
+          "note": "Cambridge University Press, 2016"
+        }
+      ],
+      "review": {
+        "status": "draft",
+        "notes": "Drafted from the listed sources; needs a human fact-check."
+      }
+    },
+    {
+      "id": "frederick-i",
+      "kind": "monarch",
+      "rulers": [
+        "frederick-i"
+      ],
+      "tagline": "The king who never once set foot in Norway",
+      "start": {
+        "date": "1524"
+      },
+      "end": {
+        "date": "1533-04-10"
+      },
+      "contestedWith": [],
+      "relationToPredecessor": "Uncle of Christian II",
+      "ageAtAccession": "52",
+      "cameToPower": "Elected by Norway's council, 1524",
+      "reignEnded": "Died at Gottorp Castle",
+      "previously": "Christian II flees to the Netherlands. Denmark crowns his uncle.",
+      "paragraphs": [
+        "Frederick was Duke of Holstein and a younger son of Christian I, and Danish rebels offered him his nephew's throne in 1523. Norway's council took its time. With the new archbishop, Olav Engelbrektsson, among its leaders, it met in Bergen and drew up terms to protect Norway's laws, church and council. On 5 August 1524 it elected Frederick. He never came to Norway, and ruled it from Gottorp and Copenhagen.",
+        "Frederick let Lutheran preachers work and protected some of them. Then in November 1531 Christian II came back with a fleet and landed in Norway. The archbishop and many others hailed him king again. Christian couldn't take Akershus Castle, and in 1532 he accepted a safe conduct to talk terms. Frederick refused to honour it and locked him up for life.",
+        "Frederick died at Gottorp in April 1533. The Danish council could not agree on his Lutheran son, so for the moment Norway had no king at all."
+      ],
+      "claims": [
+        {
+          "text": "Frederick broke a safe conduct to jail Christian II.",
+          "status": "confirmed",
+          "note": "His commanders in Norway gave the promise. Frederick and the Danish council chose not to keep it."
+        },
+        {
+          "text": "Frederick may never have learned to speak Danish.",
+          "status": "disputed",
+          "note": "He grew up a German-speaking duke in Holstein. Historians say it is not certain he ever mastered the language."
+        }
+      ],
+      "hook": "Frederick is dead and Denmark can't agree on his son. Norway has no king, and Archbishop Olav Engelbrektsson sees one last chance to keep it Catholic.",
+      "images": [
+        {
+          "file": "File:Frederik1dk.jpg",
+          "url": "https://upload.wikimedia.org/wikipedia/commons/2/2c/Frederik1dk.jpg",
+          "page": "https://commons.wikimedia.org/wiki/File:Frederik1dk.jpg",
+          "credit": "Attributed to Jacob Binck",
+          "license": "Public domain",
+          "made": "1539",
+          "caption": "Painted in 1539, six years after his death; no portraits of him from his lifetime are known.",
+          "alt": "Portrait of a king in a black cloak held by a leather strap over gold chains, his left hand resting in the fold of the cloak"
+        }
+      ],
+      "sources": [
+        {
+          "title": "Denmark, 1513–1660: The Rise and Decline of a Renaissance Monarchy",
+          "author": "Paul Douglas Lockhart",
+          "note": "Oxford University Press, 2007"
+        },
+        {
+          "title": "The Scandinavian Reformation",
+          "author": "Ole Peter Grell (ed.)",
+          "note": "Cambridge University Press, 1995"
+        },
+        {
+          "title": "Norsk biografisk leksikon",
+          "note": "Online edition, via Store norske leksikon (snl.no)"
+        },
+        {
+          "title": "The Cambridge History of Scandinavia, Volume 2: 1520–1870",
+          "author": "E. I. Kouri and Jens E. Olesen (eds)",
+          "note": "Cambridge University Press, 2016"
+        }
+      ],
+      "review": {
+        "status": "draft",
+        "notes": "Drafted from the listed sources; needs a human fact-check."
+      }
+    },
+    {
+      "id": "danish-union",
+      "kind": "interregnum",
+      "rulers": [],
+      "house": "union",
+      "title": "The Archbishop's Last Stand",
+      "tagline": "Four years without a king, and a churchman in charge",
+      "start": {
+        "date": "1533-04-10"
+      },
+      "end": {
+        "date": "1537"
+      },
+      "contestedWith": [],
+      "relationToPredecessor": "After the death of Frederick I",
+      "ageAtAccession": "No king in Norway",
+      "cameToPower": "Council ruled after Frederick I died",
+      "reignEnded": "Archbishop fled; Norway annexed",
+      "previously": "Frederick I dies. Norway's council must find a king by itself.",
+      "paragraphs": [
+        "When Frederick I died in April 1533, Norway's council of the realm expected a say in choosing the next king. Instead Denmark itself fell apart. Its council could not agree on an heir, and a civil war broke out, the Count's Feud. For four years Norway had no king it recognised, and the strongest man in the country was a churchman.",
+        "Olav Engelbrektsson, Archbishop of Nidaros, led the council and the Catholic party. He had backed the deposed Christian II in 1531–32, and he feared the next king would be a Lutheran. He was right. In 1534 Danish nobles chose Frederick's son Christian III, a firm Protestant. The archbishop had a stone fortress, Steinvikholm, on the fjord outside Trondheim, and he played for time.",
+        "At the start of 1536 his men killed his old rival, Vincens Lunge, in Trondheim. It was a fatal step. Christian III won the Count's Feud that summer, and in his charter that autumn he declared that Norway would never again be a kingdom of its own. Danish troops came north in spring 1537. On 1 April the archbishop sailed for the Netherlands with the church archives. He died in exile the next year."
       ],
       "claims": [
         {
           "text": "Christian III promised in 1536 that Norway would never again be a kingdom of its own.",
           "status": "confirmed",
-          "note": "His coronation charter said so in plain words. In practice Norway kept its own laws and some separate offices."
+          "note": "His charter said so in plain words. In practice Norway kept its own laws and some separate offices."
         },
         {
-          "text": "This was a dark 'four-hundred-year night' for Norway.",
+          "text": "Vincens Lunge was killed on the archbishop's orders.",
           "status": "disputed",
-          "note": "The phrase comes from Henrik Ibsen's play Peer Gynt. Modern historians see a far more mixed picture."
+          "note": "The archbishop's supporters did the killing. How far Olav planned it, or just let it happen, is still argued over."
         },
         {
-          "text": "Silver was found at Kongsberg in 1623 and made it Norway's richest mine.",
-          "status": "confirmed",
-          "note": "The Kongsberg silver works ran from 1623 until 1957 and were a huge earner for the Danish crown."
+          "text": "The archbishop looted Nidaros Cathedral as he fled.",
+          "status": "disputed",
+          "note": "He took the archives and his own goods. He left St Olav's shrine behind, and modern historians think the charge was unfair."
         }
       ],
-      "hook": "Denmark has signed Norway away, but the Danish prince governing it refuses to play along. He calls a meeting at Eidsvoll. Norway is about to write its own constitution.",
+      "hook": "Norway's last Catholic archbishop is gone and its council abolished. Christian III is now master of Norway too, and he is bringing a new church with him.",
       "images": [
         {
-          "file": "File:Christian IV of Denmark.jpg",
-          "url": "https://upload.wikimedia.org/wikipedia/commons/3/3f/Christian_IV_of_Denmark.jpg",
-          "page": "https://commons.wikimedia.org/wiki/File:Christian_IV_of_Denmark.jpg",
-          "credit": "Unknown artist",
+          "file": "File:Steinvikholm slott.JPG",
+          "url": "https://upload.wikimedia.org/wikipedia/commons/5/55/Steinvikholm_slott.JPG",
+          "page": "https://commons.wikimedia.org/wiki/File:Steinvikholm_slott.JPG",
+          "credit": "Erik Fløan",
           "license": "Public domain",
-          "made": "Date unknown",
-          "caption": "Christian IV, the union king Norwegians remember best, founder of Kongsberg and Christiania.",
-          "alt": "Painted portrait of King Christian IV of Denmark and Norway"
+          "made": "2007",
+          "caption": "Steinvikholm, the island fortress Archbishop Olav built on the Trondheimsfjord in the 1520s.",
+          "alt": "Photo of the stone castle of Steinvikholm on a small island in the Trondheimsfjord, with a mountain behind"
         }
       ],
       "sources": [
@@ -2347,9 +4207,809 @@
           "note": "Scandinavian University Press, 1995"
         },
         {
-          "title": "A History of Norway",
-          "author": "T. K. Derry",
-          "note": "Allen & Unwin, 1957"
+          "title": "Norsk biografisk leksikon",
+          "note": "Online edition, via Store norske leksikon (snl.no)"
+        }
+      ],
+      "review": {
+        "status": "draft",
+        "notes": "Drafted from the listed sources; needs a human fact-check."
+      },
+      "members": [
+        {
+          "name": "Olav Engelbrektsson",
+          "start": {
+            "date": "1523"
+          },
+          "end": {
+            "date": "1537-04"
+          },
+          "note": "Archbishop of Nidaros, head of the council and the Catholic party; fled to the Netherlands, died there 1538"
+        },
+        {
+          "name": "Vincens Lunge",
+          "end": {
+            "date": "1536-01-03"
+          },
+          "note": "Danish-born councillor and Lutheran-leaning rival of the archbishop; killed in Trondheim"
+        },
+        {
+          "name": "Christian III",
+          "start": {
+            "date": "1534-07-04"
+          },
+          "note": "Chosen King of Denmark 1534; won the Count's Feud 1536; accepted as Norway's king 1537"
+        },
+        {
+          "name": "Christian II (claimant)",
+          "start": {
+            "date": "1531-11"
+          },
+          "end": {
+            "date": "1532-07"
+          },
+          "note": "Earlier: landed in Norway, hailed king by the archbishop's party, surrendered and was jailed for life"
+        }
+      ]
+    },
+    {
+      "id": "christian-iii",
+      "kind": "monarch",
+      "rulers": [
+        "christian-iii"
+      ],
+      "tagline": "On paper, he turned Norway into a Danish province",
+      "start": {
+        "date": "1537"
+      },
+      "end": {
+        "date": "1559-01-01"
+      },
+      "contestedWith": [],
+      "relationToPredecessor": "Son of Frederick I",
+      "ageAtAccession": "33",
+      "cameToPower": "Won the Count's Feud",
+      "reignEnded": "Died at Koldinghus",
+      "previously": "Archbishop Olav flees Norway. Its council is abolished.",
+      "paragraphs": [
+        "Christian was Frederick I's eldest son and a convinced Lutheran. Denmark's Catholic-led council balked at him, and a civil war, the Count's Feud, followed. Christian won it in 1536, arrested the Catholic bishops and made Denmark Lutheran. His charter that year said Norway would no longer be a kingdom of its own but part of Denmark, and its council of the realm was done away with.",
+        "In 1537, with the archbishop gone, Norway was his. The Lutheran Reformation came with him. Monasteries closed, church lands went to the crown, and in 1537 he named Gjeble Pederssøn as Norway's first Lutheran bishop. Danish-trained clergy took over, and Danish became the language of the church.",
+        "The promise to make Norway a mere province was never fully carried out. Norway kept its own laws and was still called a kingdom. Christian ruled in peace for another two decades and died on New Year's Day 1559."
+      ],
+      "claims": [
+        {
+          "text": "His 1536 charter turned Norway into a Danish province.",
+          "status": "disputed",
+          "note": "The charter said so in plain words, but it was never put into practice. Norway kept its laws and its title of kingdom."
+        },
+        {
+          "text": "The silver shrine of St Olav in Trondheim was carried off to Copenhagen and melted down.",
+          "status": "confirmed",
+          "note": "The shrine was taken in 1537. Church silver from across Norway went the same way to pay the king's war debts."
+        }
+      ],
+      "hook": "Christian III dies on New Year's Day 1559. His son Frederick takes over a quiet kingdom, but across the border a hot-headed new Swedish king is spoiling for war.",
+      "images": [
+        {
+          "file": "File:Christian III of Denmark.jpg",
+          "url": "https://upload.wikimedia.org/wikipedia/commons/b/b8/Christian_III_of_Denmark.jpg",
+          "page": "https://commons.wikimedia.org/wiki/File:Christian_III_of_Denmark.jpg",
+          "credit": "Jacob Binck",
+          "license": "Public domain",
+          "made": "1550",
+          "caption": "Painted by Jacob Binck in 1550, during Christian's reign.",
+          "alt": "Bust-length portrait of a red-bearded man in a black feathered beret, hands clasped"
+        }
+      ],
+      "sources": [
+        {
+          "title": "Denmark, 1513–1660: The Rise and Decline of a Renaissance Monarchy",
+          "author": "Paul Douglas Lockhart",
+          "note": "Oxford University Press, 2007"
+        },
+        {
+          "title": "The Scandinavian Reformation",
+          "author": "Ole Peter Grell (ed.)",
+          "note": "Cambridge University Press, 1995"
+        },
+        {
+          "title": "The Cambridge History of Scandinavia, Volume 2: 1520–1870",
+          "author": "E. I. Kouri and Jens E. Olesen (eds)",
+          "note": "Cambridge University Press, 2016"
+        },
+        {
+          "title": "Norsk biografisk leksikon",
+          "note": "Online edition, via Store norske leksikon (snl.no)"
+        }
+      ],
+      "review": {
+        "status": "draft",
+        "notes": "Drafted from the listed sources; needs a human fact-check."
+      }
+    },
+    {
+      "id": "frederick-ii",
+      "kind": "monarch",
+      "rulers": [
+        "frederick-ii"
+      ],
+      "tagline": "A long war with Sweden, then Tycho's island and Kronborg",
+      "start": {
+        "date": "1559-01-01"
+      },
+      "end": {
+        "date": "1588-04-04"
+      },
+      "contestedWith": [],
+      "relationToPredecessor": "Son of Christian III",
+      "ageAtAccession": "24",
+      "cameToPower": "Succeeded his father",
+      "reignEnded": "Died at Antvorskov Castle",
+      "previously": "Christian III dies. Norway is now ruled entirely from Copenhagen.",
+      "paragraphs": [
+        "Frederick loved hunting, feasting and a fight. In 1563 he went to war with Erik XIV of Sweden, and the Northern Seven Years' War dragged on until 1570. Norway was one of the battlefields. Swedish troops seized Trondheim in 1564, and in 1567 a Swedish army marched on Oslo, which went up in flames, and laid siege to Akershus Castle before being driven off.",
+        "Peace came at Stettin in 1570, with no land changing hands. Frederick spent the rest of his reign on splendour. He rebuilt Kronborg at Helsingør, the castle of Hamlet, and gave the astronomer Tycho Brahe the island of Hven to build his observatory. He died at Antvorskov in April 1588, leaving a ten-year-old heir."
+      ],
+      "claims": [
+        {
+          "text": "Frederick drank himself to death.",
+          "status": "disputed",
+          "note": "His heavy drinking was well known and worried his own court. Whether it killed him is a guess."
+        },
+        {
+          "text": "Kronborg is the 'Elsinore' of Shakespeare's Hamlet.",
+          "status": "confirmed",
+          "note": "Hamlet is set at Elsinore, the English name for Helsingør. English actors had played at the Danish court in the 1580s."
+        }
+      ],
+      "hook": "Frederick dies in 1588. The new king, Christian IV, is ten years old. He will grow up to be the union king Norway remembers best.",
+      "images": [
+        {
+          "file": "File:1581 Frederik 2..jpg",
+          "url": "https://upload.wikimedia.org/wikipedia/commons/1/1f/1581_Frederik_2..jpg",
+          "page": "https://commons.wikimedia.org/wiki/File:1581_Frederik_2..jpg",
+          "credit": "Hans Knieper",
+          "license": "Public domain",
+          "made": "1581",
+          "caption": "Painted by Hans Knieper in 1581, while Kronborg was being built.",
+          "alt": "Full-length portrait of a king standing in armour holding a sword, with a coat of arms in the upper corner"
+        }
+      ],
+      "sources": [
+        {
+          "title": "Denmark, 1513–1660: The Rise and Decline of a Renaissance Monarchy",
+          "author": "Paul Douglas Lockhart",
+          "note": "Oxford University Press, 2007"
+        },
+        {
+          "title": "The Lord of Uraniborg: A Biography of Tycho Brahe",
+          "author": "Victor E. Thoren",
+          "note": "Cambridge University Press, 1990"
+        },
+        {
+          "title": "Norway: A History from the Vikings to Our Own Times",
+          "author": "Rolf Danielsen, Ståle Dyrvik, Tore Grønlie, Knut Helle and Edgar Hovland",
+          "note": "Scandinavian University Press, 1995"
+        },
+        {
+          "title": "Dansk Biografisk Leksikon: Frederik 2.",
+          "note": "3rd ed., Gyldendal 1979–84; online at lex.dk"
+        }
+      ],
+      "review": {
+        "status": "draft",
+        "notes": "Drafted from the listed sources; needs a human fact-check."
+      }
+    },
+    {
+      "id": "christian-iv",
+      "kind": "monarch",
+      "rulers": [
+        "christian-iv"
+      ],
+      "tagline": "The union king who kept coming to Norway and building towns",
+      "start": {
+        "date": "1588-04-04"
+      },
+      "end": {
+        "date": "1648-02-28"
+      },
+      "contestedWith": [],
+      "relationToPredecessor": "Eldest son of Frederick II",
+      "ageAtAccession": "10",
+      "cameToPower": "Inherited as a boy; crowned 1596",
+      "reignEnded": "Died at Rosenborg Castle",
+      "previously": "Frederick II dies. His heir is a boy of ten.",
+      "paragraphs": [
+        "Regents ran things until Christian was crowned in 1596. After that he ran everything himself, and unlike most union kings he kept turning up in Norway in person. In 1599 he sailed right round the North Cape to Vardø to show the flag in the far north. He took a close interest in Norway's mines, forts and towns.",
+        "Silver was found at Kongsberg in 1623, and he founded the mining town there the next year. When Oslo burned down in 1624, he had it rebuilt on a new site below Akershus Castle, with straight streets and stone houses, and named it Christiania after himself. The name stuck until 1925. In 1641 he founded Kristiansand on the south coast.",
+        "His wars went worse. He was beaten in the Thirty Years' War, and in 1643 Sweden attacked again. At Brömsebro in 1645 he had to give up Gotland, Ösel and two Norwegian provinces, Jämtland and Härjedalen. He died in 1648, after almost sixty years on the throne."
+      ],
+      "claims": [
+        {
+          "text": "He lost an eye in a sea battle and carried on directing the fight.",
+          "status": "confirmed",
+          "note": "Wounded by splinters at Kolberger Heide in July 1644, he lost his right eye. The scene became a national legend in Denmark."
+        },
+        {
+          "text": "He picked the spot for Christiania himself, pointing with his stick: 'Here the town shall stand.'",
+          "status": "legend",
+          "note": "His decision to move the town is documented. The stick-pointing scene is a popular later story."
+        }
+      ],
+      "hook": "Christian IV dies in 1648. His son Frederick III inherits debts, a battered army and a Swedish neighbour hungry for more.",
+      "images": [
+        {
+          "file": "File:Christian IV Pieter Isaacsz 1612.jpg",
+          "url": "https://upload.wikimedia.org/wikipedia/commons/b/b6/Christian_IV_Pieter_Isaacsz_1612.jpg",
+          "page": "https://commons.wikimedia.org/wiki/File:Christian_IV_Pieter_Isaacsz_1612.jpg",
+          "credit": "Pieter Isaacsz",
+          "license": "Public domain",
+          "made": "c. 1612",
+          "caption": "Painted around 1612, when Christian was in his mid-thirties.",
+          "alt": "Oil portrait of Christian IV of Denmark"
+        }
+      ],
+      "sources": [
+        {
+          "title": "Denmark, 1513–1660: The Rise and Decline of a Renaissance Monarchy",
+          "author": "Paul Douglas Lockhart",
+          "note": "Oxford University Press, 2007"
+        },
+        {
+          "title": "Christian 4.: Monarken, mennesket og myten",
+          "author": "Steffen Heiberg",
+          "note": "Gyldendal, 2006"
+        },
+        {
+          "title": "Norway: A History from the Vikings to Our Own Times",
+          "author": "Rolf Danielsen, Ståle Dyrvik, Tore Grønlie, Knut Helle and Edgar Hovland",
+          "note": "Scandinavian University Press, 1995"
+        },
+        {
+          "title": "Store norske leksikon",
+          "note": "Online encyclopedia (snl.no)"
+        }
+      ],
+      "review": {
+        "status": "draft",
+        "notes": "Drafted from the listed sources; needs a human fact-check."
+      }
+    },
+    {
+      "id": "frederick-iii",
+      "kind": "monarch",
+      "rulers": [
+        "frederick-iii"
+      ],
+      "tagline": "He lost Trøndelag, won it back, then took all power",
+      "start": {
+        "date": "1648-02-28"
+      },
+      "end": {
+        "date": "1670-02-09"
+      },
+      "contestedWith": [],
+      "relationToPredecessor": "Second son of Christian IV",
+      "ageAtAccession": "38",
+      "cameToPower": "Elected after signing a strict charter",
+      "reignEnded": "Died at Copenhagen Castle",
+      "previously": "Christian IV dies after sixty years. Sweden is circling.",
+      "paragraphs": [
+        "Frederick was never meant to be king. He became heir only when his elder brother Christian died in 1647, and the Danish nobles made him sign a strict charter before they would elect him. In 1657 he declared war on Sweden to win back old losses, and it went horribly. In the winter of 1658 Charles X marched his army across the frozen straits to Zealand and dictated peace at Roskilde.",
+        "Norway paid heavily. At Roskilde it lost Trøndelag and Bohuslän, with the old border fortress of Båhus, while Denmark lost Skåne. Then Charles X attacked again. Copenhagen held out, and Norwegian troops won back Trondheim before the year was out. The peace of 1660 returned Trøndelag to Norway, but Bohuslän stayed Swedish.",
+        "Frederick turned the crisis into a power grab. In 1660 the crown became hereditary, and in 1661 he became absolute monarch, with Norway now a hereditary kingdom too. His King's Law of 1665 put almost no limits on the king. He died in Copenhagen in 1670."
+      ],
+      "claims": [
+        {
+          "text": "Charles X's army crossed the frozen sea to reach Copenhagen.",
+          "status": "confirmed",
+          "note": "The march across the ice of the Little and Great Belts in February 1658 is well documented, and a few men and horses fell through."
+        },
+        {
+          "text": "The King's Law that made him absolute was kept out of print for decades.",
+          "status": "confirmed",
+          "note": "It was signed in 1665 but not published until 1709."
+        }
+      ],
+      "hook": "Frederick III dies in 1670. His son Christian V inherits a crown with no strings attached, and a burning wish to win back what Sweden took.",
+      "images": [
+        {
+          "file": "File:Frederik III, 1663.jpg",
+          "url": "https://upload.wikimedia.org/wikipedia/commons/e/e9/Frederik_III%2C_1663.jpg",
+          "page": "https://commons.wikimedia.org/wiki/File:Frederik_III,_1663.jpg",
+          "credit": "Paul Prieur",
+          "license": "Public domain",
+          "made": "1663",
+          "caption": "A miniature painted in 1663, three years after he became absolute king.",
+          "alt": "Portrait of Frederick III of Denmark"
+        }
+      ],
+      "sources": [
+        {
+          "title": "Denmark, 1513–1660: The Rise and Decline of a Renaissance Monarchy",
+          "author": "Paul Douglas Lockhart",
+          "note": "Oxford University Press, 2007"
+        },
+        {
+          "title": "A History of Denmark",
+          "author": "Knud J. V. Jespersen",
+          "note": "Palgrave Macmillan, 2004; 2nd ed. 2011"
+        },
+        {
+          "title": "Norway: A History from the Vikings to Our Own Times",
+          "author": "Rolf Danielsen, Ståle Dyrvik, Tore Grønlie, Knut Helle and Edgar Hovland",
+          "note": "Scandinavian University Press, 1995"
+        },
+        {
+          "title": "Dansk Biografisk Leksikon: Frederik 3.",
+          "note": "3rd ed., Gyldendal 1979–84; online at lex.dk"
+        }
+      ],
+      "review": {
+        "status": "draft",
+        "notes": "Drafted from the listed sources; needs a human fact-check."
+      }
+    },
+    {
+      "id": "christian-v",
+      "kind": "monarch",
+      "rulers": [
+        "christian-v"
+      ],
+      "tagline": "The absolute king who gave Norway its law book",
+      "start": {
+        "date": "1670-02-09"
+      },
+      "end": {
+        "date": "1699-08-25"
+      },
+      "contestedWith": [],
+      "relationToPredecessor": "Eldest son of Frederick III",
+      "ageAtAccession": "23",
+      "cameToPower": "First heir under the 1665 King's Law",
+      "reignEnded": "Died after a hunting accident",
+      "previously": "Frederick III dies an absolute king. His son inherits it all.",
+      "paragraphs": [
+        "Christian V was the first king to simply inherit total power. His father had torn up the old rules, so there was no council to bargain with and no charter to sign. Instead of a coronation he was anointed at Frederiksborg in 1671. He loved hunting, riding and parades, kept an official mistress, Sophie Amalie Moth, and left much of the paperwork to clever ministers.",
+        "The cleverest, Peder Griffenfeld, fell in 1676. He was led to the scaffold, reprieved at the last moment and locked up on Munkholmen, the island fortress off Trondheim, for over twenty years. Meanwhile Christian went to war to win back the lands lost to Sweden. Norwegians called it Gyldenløve's War, after the king's half-brother, their governor, whose troops pushed into Bohuslän. France forced a peace in 1679 and every gain was handed back.",
+        "His lasting gift was a book. In 1687 came Christian V's Norwegian Law, one code for the whole country, built on the Danish Law of 1683 but adjusted to Norwegian farms, fishing and inheritance. In 1698 he was hurt by a wounded stag during a hunt, and he died the next summer, aged 53."
+      ],
+      "claims": [
+        {
+          "text": "A handful of clauses from the 1687 Norwegian Law are still valid in Norway today.",
+          "status": "confirmed",
+          "note": "Norway's statute book still lists a few of its sections as in force. Nearly all the rest was replaced long ago."
+        },
+        {
+          "text": "Griffenfeld's pardon was read out on the scaffold itself, after he had knelt for the axe.",
+          "status": "confirmed",
+          "note": "Several accounts of the day describe the last-second reprieve. The dramatic details vary between them."
+        },
+        {
+          "text": "A wounded stag's attack killed the king.",
+          "status": "disputed",
+          "note": "He was hurt in a hunt at Jægersborg in 1698, but years of heavy eating and drinking had worn him down. How far the injury caused his death is unclear."
+        }
+      ],
+      "hook": "Christian V leaves a hard-working son, Frederick IV, and a dangerous neighbour. Sweden's teenage king, Charles XII, is about to turn the whole north upside down.",
+      "images": [
+        {
+          "file": "File:Christian5.jpg",
+          "url": "https://upload.wikimedia.org/wikipedia/commons/4/4d/Christian5.jpg",
+          "page": "https://commons.wikimedia.org/wiki/File:Christian5.jpg",
+          "credit": "Jacob d'Agar",
+          "license": "Public domain",
+          "made": "Late 17th century",
+          "caption": "By Jacob d'Agar, a portrait painter at the Danish court in Christian's time.",
+          "alt": "Oval painted portrait of King Christian V of Denmark and Norway wearing ermine"
+        }
+      ],
+      "sources": [
+        {
+          "title": "Danmark-Norge 1380–1814, vol. 3: Truede tvillingriker 1648–1720",
+          "author": "Ståle Dyrvik",
+          "note": "Universitetsforlaget, 1998"
+        },
+        {
+          "title": "Kong Christian den Femtes Norske Lov",
+          "note": "The law code of 1687"
+        },
+        {
+          "title": "Dansk Biografisk Leksikon",
+          "note": "3rd edition, online via lex.dk"
+        },
+        {
+          "title": "Store norske leksikon",
+          "note": "Online encyclopedia (snl.no)"
+        }
+      ],
+      "review": {
+        "status": "draft",
+        "notes": "Drafted from the listed sources; needs a human fact-check."
+      }
+    },
+    {
+      "id": "frederick-iv",
+      "kind": "monarch",
+      "rulers": [
+        "frederick-iv"
+      ],
+      "tagline": "Charles XII invaded his Norway twice and died trying",
+      "start": {
+        "date": "1699-08-25"
+      },
+      "end": {
+        "date": "1730-10-12"
+      },
+      "contestedWith": [],
+      "relationToPredecessor": "Son of Christian V",
+      "ageAtAccession": "27",
+      "cameToPower": "Inherited from his father",
+      "reignEnded": "Died at Odense, aged 59",
+      "previously": "Christian V dies after a hunting accident. His son takes over.",
+      "paragraphs": [
+        "Frederick IV was hard-working, sharp and never short of a love affair. He joined an alliance against Sweden in 1700 and was knocked out of the war within months. When he tried again in 1709, Sweden's soldier king Charles XII decided to strike back through Norway. In 1716 he marched in and took Christiania, but the garrison of Akershus Fortress held out.",
+        "Then a young naval officer from Trondheim, Peter Wessel, caught the Swedish supply fleet at Dynekilen and wrecked it. Charles had to pull back. Wessel was ennobled as Tordenskiold, 'thunder shield'. In 1718 Charles came again and besieged Fredriksten fortress at Halden. One night in late 1718 a bullet through the head killed him in the trenches. His second army, stuck in Trøndelag, retreated over the mountains in a blizzard and thousands froze.",
+        "At home Frederick married twice more without ending his first marriage, then made his last wife, Anna Sophie Reventlow, queen in 1721. That year the Bergen priest Hans Egede sailed for Greenland with royal backing. To pay war debts, Norway's churches were auctioned off in the 1720s. Frederick died at Odense in 1730, the day after his 59th birthday."
+      ],
+      "claims": [
+        {
+          "text": "Charles XII was shot by one of his own men.",
+          "status": "disputed",
+          "note": "His body was examined several times, last in 1917, without settling it. Many historians think a shot from the Norwegian side is the likeliest answer."
+        },
+        {
+          "text": "Frederick secretly married Anna Sophie Reventlow while Queen Louise was still alive.",
+          "status": "confirmed",
+          "note": "The secret wedding was in 1712. He married her again openly and made her queen weeks after Louise died in 1721."
+        },
+        {
+          "text": "Tordenskiold was killed in a duel at 30.",
+          "status": "confirmed",
+          "note": "He died near Hanover in 1720 after a quarrel over gambling, only four years after Dynekilen."
+        }
+      ],
+      "hook": "Frederick dies worn out by wars and wives. His son Christian VI has hated the gambling and the mistresses for years. The fun at court is about to stop.",
+      "images": [
+        {
+          "file": "File:Hyacinthe Rigaud, Portræt af kong Frederik IV som prins, 1693, KMS3632, Statens Museum for Kunst.jpg",
+          "url": "https://upload.wikimedia.org/wikipedia/commons/f/f8/Hyacinthe_Rigaud%2C_Portr%C3%A6t_af_kong_Frederik_IV_som_prins%2C_1693%2C_KMS3632%2C_Statens_Museum_for_Kunst.jpg",
+          "page": "https://commons.wikimedia.org/wiki/File:Hyacinthe_Rigaud,_Portræt_af_kong_Frederik_IV_som_prins,_1693,_KMS3632,_Statens_Museum_for_Kunst.jpg",
+          "credit": "Hyacinthe Rigaud",
+          "license": "Public domain",
+          "made": "1693",
+          "caption": "Painted by Hyacinthe Rigaud in 1693, six years before he became king.",
+          "alt": "Painted portrait of Frederick IV of Denmark and Norway as crown prince"
+        }
+      ],
+      "sources": [
+        {
+          "title": "Danmark-Norge 1380–1814, vol. 3: Truede tvillingriker 1648–1720",
+          "author": "Ståle Dyrvik",
+          "note": "Universitetsforlaget, 1998"
+        },
+        {
+          "title": "The Cambridge History of Scandinavia, Volume 2: 1520–1870",
+          "author": "E. I. Kouri and Jens E. Olesen (eds)",
+          "note": "Cambridge University Press, 2016"
+        },
+        {
+          "title": "Dansk Biografisk Leksikon",
+          "note": "3rd edition, online via lex.dk"
+        },
+        {
+          "title": "Store norske leksikon",
+          "note": "Online encyclopedia (snl.no)"
+        }
+      ],
+      "review": {
+        "status": "draft",
+        "notes": "Drafted from the listed sources; needs a human fact-check."
+      }
+    },
+    {
+      "id": "christian-vi",
+      "kind": "monarch",
+      "rulers": [
+        "christian-vi"
+      ],
+      "tagline": "The pious king who sent every teenager to confirmation",
+      "start": {
+        "date": "1730-10-12"
+      },
+      "end": {
+        "date": "1746-08-06"
+      },
+      "contestedWith": [],
+      "relationToPredecessor": "Son of Frederick IV",
+      "ageAtAccession": "30",
+      "cameToPower": "Inherited from his father",
+      "reignEnded": "Died at Hirschholm, aged 46",
+      "previously": "Frederick IV dies at Odense. His strict, pious son takes over.",
+      "paragraphs": [
+        "Christian VI was everything his father wasn't: shy, sickly and devout. He was a Pietist, part of a movement that wanted faith felt in the heart and lived every day. At court the fun stopped and the Copenhagen theatre closed. His stepmother, Anna Sophie, was sent away to her manor at Clausholm.",
+        "In 1733 he and Queen Sophie Magdalene toured Norway, as far north as Trondheim. The big change he brought was in the parishes. From 1736 every young person had to be confirmed, which meant learning the catechism, and a school law of 1739 tried to put a teacher within reach of every farm. Southern Norway liked his grain monopoly much less. From 1735 it had to buy its corn from Denmark.",
+        "He kept out of every war, the first king of his line to manage that, and spent the money on palaces instead, including a grand new Christiansborg. He died at Hirschholm in August 1746, the day before his silver wedding anniversary."
+      ],
+      "claims": [
+        {
+          "text": "Christian VI was the first Oldenburg king never to go to war.",
+          "status": "confirmed",
+          "note": "Denmark-Norway stayed out of every conflict during his 16 years on the throne."
+        },
+        {
+          "text": "Compulsory confirmation taught Norway to read.",
+          "status": "disputed",
+          "note": "The law's aim was religious and reading was the means. Historians differ on how quickly literacy really spread on Norway's farms."
+        },
+        {
+          "text": "The town of Kristiansund is named after him.",
+          "status": "confirmed",
+          "note": "It got its town charter in 1742 and took the reigning king's name."
+        }
+      ],
+      "hook": "Christian VI is dead and the prayer meetings are over. His son Frederick V is young, charming and fond of a drink. The real work will be done by his ministers.",
+      "images": [
+        {
+          "file": "File:Johann Salomon Wahl, Christian VI, KMS1580, Statens Museum for Kunst.jpg",
+          "url": "https://upload.wikimedia.org/wikipedia/commons/f/f3/Johann_Salomon_Wahl%2C_Christian_VI%2C_KMS1580%2C_Statens_Museum_for_Kunst.jpg",
+          "page": "https://commons.wikimedia.org/wiki/File:Johann_Salomon_Wahl,_Christian_VI,_KMS1580,_Statens_Museum_for_Kunst.jpg",
+          "credit": "Johann Salomon Wahl",
+          "license": "Public domain",
+          "made": "18th century",
+          "caption": "By Johann Salomon Wahl, one of the leading portrait painters at the Danish court in his day.",
+          "alt": "Painted portrait of King Christian VI of Denmark and Norway"
+        }
+      ],
+      "sources": [
+        {
+          "title": "Danmark-Norge 1380–1814, vol. 4: Nærhed og adskillelse 1720–1814",
+          "author": "Ole Feldbæk",
+          "note": "Universitetsforlaget, 1998"
+        },
+        {
+          "title": "The Cambridge History of Scandinavia, Volume 2: 1520–1870",
+          "author": "E. I. Kouri and Jens E. Olesen (eds)",
+          "note": "Cambridge University Press, 2016"
+        },
+        {
+          "title": "Dansk Biografisk Leksikon",
+          "note": "3rd edition, online via lex.dk"
+        },
+        {
+          "title": "Store norske leksikon",
+          "note": "Online encyclopedia (snl.no)"
+        }
+      ],
+      "review": {
+        "status": "draft",
+        "notes": "Drafted from the listed sources; needs a human fact-check."
+      }
+    },
+    {
+      "id": "frederick-v",
+      "kind": "monarch",
+      "rulers": [
+        "frederick-v"
+      ],
+      "tagline": "The king drank, his ministers ruled, the border got fixed",
+      "start": {
+        "date": "1746-08-06"
+      },
+      "end": {
+        "date": "1766-01-14"
+      },
+      "contestedWith": [],
+      "relationToPredecessor": "Son of Christian VI",
+      "ageAtAccession": "23",
+      "cameToPower": "Inherited from his father",
+      "reignEnded": "Died aged 42",
+      "previously": "Pious Christian VI dies. His easy-going son inherits.",
+      "paragraphs": [
+        "Frederick V was handsome, friendly and far better liked than his father. He was also a heavy drinker who left government to able ministers, above all Adam Gottlob Moltke and the elder Bernstorff. They kept Denmark-Norway out of the Seven Years' War, and trade boomed. Norwegian timber, fish and shipping sold well.",
+        "For Norway the big event was a line on the map. In 1751 a treaty with Sweden fixed the long border through the mountains to the far north. An extra paper attached to it, the Lapp Codicil, let Sami herders keep crossing with their reindeer. In 1760 learned men in Trondheim founded a society for the sciences, the first of its kind in Norway.",
+        "Money ran short in the end. A head tax brought in in 1762 hit poor families hard, and in April 1765 about 2,000 farmers and fishermen poured into Bergen in protest, the so-called Stril War. Frederick died in January 1766, aged 42."
+      ],
+      "claims": [
+        {
+          "text": "The 1751 Lapp Codicil is still valid today.",
+          "status": "confirmed",
+          "note": "Norway and Sweden have never repealed it, though later reindeer-grazing agreements set the practical rules. It is often called the Sami Magna Carta."
+        },
+        {
+          "text": "Frederick drank himself to death.",
+          "status": "disputed",
+          "note": "He was a heavy drinker and in poor health by forty, but no record pins his death on drink alone."
+        },
+        {
+          "text": "Leaders of the 1765 Bergen protest were sentenced to death, then spared.",
+          "status": "confirmed",
+          "note": "Their sentences were turned into life imprisonment. The extra tax was dropped in Norway in 1772."
+        }
+      ],
+      "hook": "Frederick V dies young. His son, Christian VII, is not yet 17. Within months the court can tell something is badly wrong with the new king.",
+      "images": [
+        {
+          "file": "File:Frederik V by Pilo.jpg",
+          "url": "https://upload.wikimedia.org/wikipedia/commons/2/26/Frederik_V_by_Pilo.jpg",
+          "page": "https://commons.wikimedia.org/wiki/File:Frederik_V_by_Pilo.jpg",
+          "credit": "Carl Gustaf Pilo",
+          "license": "Public domain",
+          "made": "1750",
+          "caption": "Painted by Carl Gustaf Pilo in 1750, four years into his reign.",
+          "alt": "Ceremonial painted portrait of King Frederick V of Denmark and Norway"
+        }
+      ],
+      "sources": [
+        {
+          "title": "Danmark-Norge 1380–1814, vol. 4: Nærhed og adskillelse 1720–1814",
+          "author": "Ole Feldbæk",
+          "note": "Universitetsforlaget, 1998"
+        },
+        {
+          "title": "Dansk Biografisk Leksikon",
+          "note": "3rd edition, online via lex.dk"
+        },
+        {
+          "title": "Store norske leksikon",
+          "note": "Online encyclopedia (snl.no)"
+        }
+      ],
+      "review": {
+        "status": "draft",
+        "notes": "Drafted from the listed sources; needs a human fact-check."
+      }
+    },
+    {
+      "id": "christian-vii",
+      "kind": "monarch",
+      "rulers": [
+        "christian-vii"
+      ],
+      "tagline": "A mad king, a German doctor and a scandal in the palace",
+      "start": {
+        "date": "1766-01-14"
+      },
+      "end": {
+        "date": "1808-03-13"
+      },
+      "contestedWith": [],
+      "relationToPredecessor": "Son of Frederick V",
+      "ageAtAccession": "16",
+      "cameToPower": "Inherited from his father",
+      "reignEnded": "Died at Rendsburg, aged 59",
+      "previously": "Frederick V dies at 42. His teenage son inherits.",
+      "paragraphs": [
+        "Christian VII was 16 when he became king, and he soon showed signs of serious mental illness. He married the British princess Caroline Matilda, and in 1768 a German doctor, Johann Friedrich Struensee, joined him on a long tour of Europe. Back home Struensee won the king's trust, then the queen's heart. By 1770 he was running the kingdom himself.",
+        "He fired off reforms, scrapping press censorship among other things. In January 1772 a palace coup brought him down. Struensee was executed, the queen was divorced and sent to Celle in Germany, and new men ruled in the king's name. In 1784 the 16-year-old Crown Prince Frederick took over in another palace coup, and he ran things from then on.",
+        "Norway's farmers had grievances of their own about officials, taxes and prices. In 1786 Christian Lofthus, a farmer from near Lillesand, took their complaints to Copenhagen. Back home thousands rallied to him, and in 1787 he was arrested. He died a prisoner at Akershus in 1797. The old king lived on as a figurehead until 1808."
+      ],
+      "claims": [
+        {
+          "text": "Christian VII had schizophrenia.",
+          "status": "disputed",
+          "note": "It's a modern guess from descriptions of his behaviour. No diagnosis made centuries later can be certain."
+        },
+        {
+          "text": "Struensee abolished censorship within months of taking charge.",
+          "status": "confirmed",
+          "note": "His decree of September 1770 gave Denmark-Norway one of Europe's freest presses, though limits soon came back."
+        },
+        {
+          "text": "The king died of a stroke brought on by fright at the sight of Spanish troops.",
+          "status": "legend",
+          "note": "The story is often repeated but rests on thin evidence. He was old, ill and had long been confused."
+        }
+      ],
+      "hook": "Old Christian VII is dead at last. His son Frederick, who has ruled for 24 years already, now wears the crown, and he's at war with Britain.",
+      "images": [
+        {
+          "file": "File:Christian VII of Denmark - Forsvarets museer.png",
+          "url": "https://upload.wikimedia.org/wikipedia/commons/4/4f/Christian_VII_of_Denmark_-_Forsvarets_museer.png",
+          "page": "https://commons.wikimedia.org/wiki/File:Christian_VII_of_Denmark_-_Forsvarets_museer.png",
+          "credit": "Unidentified painter",
+          "license": "Public domain",
+          "made": "18th century",
+          "caption": "From the collections of Norway's armed forces museums. The painter is unknown.",
+          "alt": "Oil portrait of Christian VII in a red 18th-century coat, in a gilt frame"
+        }
+      ],
+      "sources": [
+        {
+          "title": "Den afmægtige: En biografi om Christian 7.",
+          "author": "Ulrik Langen",
+          "note": "Gyldendal, 2008"
+        },
+        {
+          "title": "A Royal Affair: George III and His Troublesome Siblings",
+          "author": "Stella Tillyard",
+          "note": "Chatto & Windus, 2006"
+        },
+        {
+          "title": "Danmark-Norge 1380–1814, vol. 4: Nærhed og adskillelse 1720–1814",
+          "author": "Ole Feldbæk",
+          "note": "Universitetsforlaget, 1998"
+        },
+        {
+          "title": "Store norske leksikon",
+          "note": "Online encyclopedia (snl.no)"
+        }
+      ],
+      "review": {
+        "status": "draft",
+        "notes": "Drafted from the listed sources; needs a human fact-check."
+      }
+    },
+    {
+      "id": "frederick-vi",
+      "kind": "monarch",
+      "rulers": [
+        "frederick-vi"
+      ],
+      "tagline": "He backed Napoleon, and it cost him Norway",
+      "start": {
+        "date": "1808-03-13"
+      },
+      "end": {
+        "date": "1814-01-14"
+      },
+      "contestedWith": [],
+      "relationToPredecessor": "Son of Christian VII",
+      "ageAtAccession": "40",
+      "cameToPower": "Inherited after 24 years as regent",
+      "reignEnded": "Gave Norway up at Kiel",
+      "previously": "Christian VII dies, after decades as a king in name only.",
+      "paragraphs": [
+        "Frederick had ruled for his sick father since 1784. He freed Danish peasants from being tied to their estates and ended the grain monopoly that had squeezed southern Norway. Then the wars caught up with him. In 1807 Britain, afraid Napoleon would grab the Danish fleet, bombarded Copenhagen and sailed off with it. Frederick joined France.",
+        "That was a disaster for Norway. British warships blockaded the coast, grain from Denmark couldn't get through and people went hungry. Sweden attacked in 1808 and was beaten back by a Norwegian army under a Danish prince, Christian August. Sweden was so impressed it later chose him as its own crown prince.",
+        "Frederick did let Norway have its own university in Christiania, founded in 1811 and named after him. But Napoleon lost, and Frederick lost with him. On 14 January 1814 he signed the Treaty of Kiel, giving Norway to Sweden. Denmark kept Iceland, the Faroes and Greenland, old Norwegian lands. He reigned on in Denmark until 1839."
+      ],
+      "claims": [
+        {
+          "text": "Ibsen's poem Terje Vigen, about a man rowing grain past the British blockade, tells a true story.",
+          "status": "legend",
+          "note": "Ibsen wrote it in 1862. Grain runs in small boats did happen during the blockade, but Terje himself is fiction."
+        },
+        {
+          "text": "The Danish state went bankrupt in 1813.",
+          "status": "confirmed",
+          "note": "Its finances collapsed under the war, and a new currency was brought in that January."
+        },
+        {
+          "text": "Norway's first university was founded in 1811.",
+          "status": "confirmed",
+          "note": "The royal decree is dated 2 September 1811. It is today's University of Oslo."
+        }
+      ],
+      "hook": "Norway has been signed away like a parcel. But the Danish prince governing in Christiania, Christian Frederick, has other ideas. He calls Norway's leading men together.",
+      "images": [
+        {
+          "file": "File:Juel Jens-Frederik VI as Crown Prince Regent.jpg",
+          "url": "https://upload.wikimedia.org/wikipedia/commons/0/05/Juel_Jens-Frederik_VI_as_Crown_Prince_Regent.jpg",
+          "page": "https://commons.wikimedia.org/wiki/File:Juel_Jens-Frederik_VI_as_Crown_Prince_Regent.jpg",
+          "credit": "Jens Juel",
+          "license": "Public domain",
+          "made": "1787",
+          "caption": "Painted by Jens Juel in 1787, when he was crown prince and already running the country.",
+          "alt": "Painted portrait of Frederick VI as crown prince and regent"
+        }
+      ],
+      "sources": [
+        {
+          "title": "Danmark-Norge 1380–1814, vol. 4: Nærhed og adskillelse 1720–1814",
+          "author": "Ole Feldbæk",
+          "note": "Universitetsforlaget, 1998"
+        },
+        {
+          "title": "Norway: A History from the Vikings to Our Own Times",
+          "author": "Rolf Danielsen, Ståle Dyrvik, Tore Grønlie, Knut Helle and Edgar Hovland",
+          "note": "Scandinavian University Press, 1995"
+        },
+        {
+          "title": "The Cambridge History of Scandinavia, Volume 2: 1520–1870",
+          "author": "E. I. Kouri and Jens E. Olesen (eds)",
+          "note": "Cambridge University Press, 2016"
         },
         {
           "title": "Store norske leksikon",
@@ -2379,7 +5039,7 @@
       "ageAtAccession": "27",
       "cameToPower": "Elected at Eidsvoll",
       "reignEnded": "Abdicated after war with Sweden",
-      "previously": "The Treaty of Kiel hands Norway to Sweden. Norwegians are furious.",
+      "previously": "At Kiel, Frederick VI signs Norway over to Sweden.",
       "paragraphs": [
         "Christian Frederick was the Danish heir-in-waiting and Denmark's governor in Norway. When the Treaty of Kiel gave Norway to Sweden, he refused to accept it. He called leading Norwegians together, and in spring 1814 an assembly met at Eidsvoll to write a constitution. On 17 May it was signed and he was elected king.",
         "Sweden's crown prince, the former French marshal Bernadotte, wasn't having it. His troops attacked in late July and the short war went badly for Norway. In August the Convention of Moss ended the fighting. Sweden agreed to accept the new constitution, and Christian Frederick agreed to go. He abdicated in October and sailed home. In 1839 he became King Christian VIII of Denmark."
@@ -2401,7 +5061,7 @@
           "note": "Fighting began at the end of July and stopped with the Convention of Moss on 14 August 1814."
         }
       ],
-      "hook": "Christian Frederick sails away. Norway keeps its constitution and parliament, but now the king will be Swedish. The Storting votes Sweden's Charles XIII in.",
+      "hook": "Christian Frederick sails away. Norway keeps its constitution and parliament, but the king will be Swedish. The Storting elects Sweden's old Charles XIII, who becomes Norway's Charles II.",
       "images": [
         {
           "file": "File:Christianviiidenmark.jpg",
@@ -2436,57 +5096,52 @@
       }
     },
     {
-      "id": "swedish-union",
-      "kind": "interregnum",
-      "rulers": [],
-      "house": "union",
-      "title": "Union with Sweden",
-      "tagline": "Same king as Sweden, but Norway kept its own rules",
+      "id": "charles-ii",
+      "kind": "monarch",
+      "rulers": [
+        "charles-ii"
+      ],
+      "tagline": "Norway's first Swedish king: old, ill and childless",
       "start": {
         "date": "1814-11-04"
       },
       "end": {
-        "date": "1905-06-07"
+        "date": "1818-02-05"
       },
       "contestedWith": [],
-      "relationToPredecessor": "Union under Swedish kings",
-      "ageAtAccession": "No Norwegian king",
-      "cameToPower": "Storting accepted a Swedish king",
-      "reignEnded": "Storting dissolved the union",
+      "relationToPredecessor": "None; already King of Sweden",
+      "ageAtAccession": "66",
+      "cameToPower": "Elected by the Storting",
+      "reignEnded": "Died in Stockholm, aged 69",
       "previously": "Christian Frederick abdicates. Norway keeps its constitution.",
       "paragraphs": [
-        "On 4 November 1814 the Storting chose Sweden's Charles XIII as king of Norway. The two countries now shared a king and foreign policy, but Norway kept its own parliament, laws, army and money. Bernadotte, who reigned as Charles XIV John from 1818, tried to trim the Storting's powers and frowned on 17 May parties. Norwegians celebrated anyway.",
-        "Over the century Norway grew more confident. Its ships sailed everywhere, and writers like Ibsen and composers like Grieg made it famous. In 1884 the king had to accept that his ministers needed the Storting's backing. The final fight was about consuls. Norway wanted its own to look after its huge merchant fleet. King Oscar II said no.",
-        "On 7 June 1905 the Storting declared that Oscar had stopped functioning as king, so the union was over. In an August referendum Norwegians backed the split by 368,208 votes to 184. Sweden let them go in peace."
+        "Charles had become King of Sweden in 1809, after a coup threw out his nephew, Gustav IV Adolf. He was 60, worn out and childless, and a heart attack that year left him barely able to work. So the Swedes went looking for an heir. Their first pick, Norway's own commander Christian August, died suddenly in 1810. Their second was a French marshal, Jean-Baptiste Bernadotte.",
+        "Bernadotte, now Crown Prince Charles John, was the man who forced Norway into line in 1814. After the Moss convention the Storting rewrote the constitution to fit a shared king, and on 4 November 1814 it elected Charles as King of Norway. The Act of Union of 1815 set the deal down: one king, two kingdoms, each with its own laws, army and parliament.",
+        "Charles was king in name and Bernadotte did the ruling. A keen Freemason with a taste for mystics, the old king spent his last years in poor health and died in Stockholm in February 1818."
       ],
       "claims": [
         {
-          "text": "Only 184 Norwegians voted to stay in the union in 1905.",
+          "text": "Charles founded an order of knighthood just for Freemasons.",
           "status": "confirmed",
-          "note": "The official referendum result. Women couldn't vote, but they gathered about 280,000 signatures for independence."
+          "note": "The Order of Charles XIII, set up in 1811, is still given only to senior Swedish Freemasons."
         },
         {
-          "text": "In 1829 troops broke up a 17 May crowd in Christiania's market square.",
-          "status": "confirmed",
-          "note": "The 'Battle of the Square' is well documented. It turned the day into a cause."
-        },
-        {
-          "text": "Sweden and Norway came close to war in 1905.",
+          "text": "The union with Sweden was a partnership of equals.",
           "status": "disputed",
-          "note": "Both sides moved troops to the border, but how near they came to fighting is still argued over."
+          "note": "On paper, yes. In practice Sweden ran foreign policy, and Norwegians spent 90 years complaining about it."
         }
       ],
-      "hook": "Norway is free and needs a king. The Storting fancies a young Danish prince called Carl. He has a British wife, a baby son and one condition: let the people vote.",
+      "hook": "The old king is dead. Now the man who really ran things, Napoleon's former marshal, takes the throne himself, and he'll be crowned in Trondheim.",
       "images": [
         {
-          "file": "File:Oscar II of Sweden.jpg",
-          "url": "https://upload.wikimedia.org/wikipedia/commons/9/9c/Oscar_II_of_Sweden.jpg",
-          "page": "https://commons.wikimedia.org/wiki/File:Oscar_II_of_Sweden.jpg",
-          "credit": "Anders Zorn",
+          "file": "File:Karl XIII porträtterad 1815 av Per Krafft dy.jpg",
+          "url": "https://upload.wikimedia.org/wikipedia/commons/d/d1/Karl_XIII_portr%C3%A4tterad_1815_av_Per_Krafft_dy.jpg",
+          "page": "https://commons.wikimedia.org/wiki/File:Karl_XIII_porträtterad_1815_av_Per_Krafft_dy.jpg",
+          "credit": "Per Krafft the Younger",
           "license": "Public domain",
-          "made": "1898",
-          "caption": "Oscar II, the last king of the union, painted seven years before Norway walked out.",
-          "alt": "Painted portrait of King Oscar II of Sweden and Norway"
+          "made": "1815",
+          "caption": "Painted by Per Krafft the Younger in 1815, the year after Norway's Storting elected him.",
+          "alt": "Painted portrait of King Charles XIII of Sweden"
         }
       ],
       "sources": [
@@ -2499,6 +5154,311 @@
           "title": "A History of Norway",
           "author": "T. K. Derry",
           "note": "Allen & Unwin, 1957"
+        },
+        {
+          "title": "Svenskt biografiskt lexikon",
+          "note": "Online edition (sok.riksarkivet.se/sbl)"
+        },
+        {
+          "title": "Store norske leksikon",
+          "note": "Online encyclopedia (snl.no)"
+        }
+      ],
+      "review": {
+        "status": "draft",
+        "notes": "Drafted from the listed sources; needs a human fact-check."
+      }
+    },
+    {
+      "id": "charles-iii-john",
+      "kind": "monarch",
+      "rulers": [
+        "charles-iii-john"
+      ],
+      "tagline": "From French private to king in Nidaros Cathedral",
+      "start": {
+        "date": "1818-02-05"
+      },
+      "end": {
+        "date": "1844-03-08"
+      },
+      "contestedWith": [],
+      "relationToPredecessor": "Adopted son of Charles II",
+      "ageAtAccession": "55",
+      "cameToPower": "Succeeded his adoptive father",
+      "reignEnded": "Died in Stockholm, aged 81",
+      "previously": "Old Charles II dies. Bernadotte is king at last.",
+      "paragraphs": [
+        "Jean-Baptiste Bernadotte joined the French army as a private at 17 and rose to be one of Napoleon's marshals. Sweden picked him as crown prince in 1810, and he turned on his old boss, fighting against Napoleon in 1813. His reward was Norway. As King Charles John he was crowned in Nidaros Cathedral in Trondheim on 7 September 1818.",
+        "He never properly learned Swedish or Norwegian, and he never liked Norway's constitution. He pressed the Storting for an absolute veto and more powers, and it kept saying no. In 1821 it abolished Norway's nobility over his objections. He frowned on 17 May parties too, and in 1829 troops and police broke up a crowd in Christiania's market square, the 'Battle of the Square'.",
+        "Even so, he grew popular with time. He began the Royal Palace in Christiania, and the main street leading up to it still carries his name, Karl Johans gate. He died in Stockholm in 1844, aged 81, founder of a dynasty that still sits on Sweden's throne."
+      ],
+      "claims": [
+        {
+          "text": "He had 'Death to kings' tattooed on his arm.",
+          "status": "legend",
+          "note": "The tale turns up in an 1833 French play and later gossip. There's no reliable record of anyone seeing such a tattoo."
+        },
+        {
+          "text": "The Storting abolished the nobility in 1821 against the king's veto.",
+          "status": "confirmed",
+          "note": "A bill passed unchanged by three separately elected Stortings became law without the king. This one did."
+        }
+      ],
+      "hook": "Bernadotte dies after 26 years on the throne. His only son, Oscar, Napoleon's godson, takes over, and he's in a far friendlier mood towards Norway.",
+      "images": [
+        {
+          "file": "File:Kong Karl III. Johan.jpg",
+          "url": "https://upload.wikimedia.org/wikipedia/commons/7/77/Kong_Karl_III._Johan.jpg",
+          "page": "https://commons.wikimedia.org/wiki/File:Kong_Karl_III._Johan.jpg",
+          "credit": "Catherine Engelhart",
+          "license": "Public domain",
+          "made": "1875",
+          "caption": "A posthumous portrait from the Royal Collections of Norway, painted 31 years after his death.",
+          "alt": "Painted portrait of King Charles John wearing the badge of the Order of the Sword"
+        }
+      ],
+      "sources": [
+        {
+          "title": "Bernadotte: Napoleon's Marshal, Sweden's King",
+          "author": "Alan Palmer",
+          "note": "John Murray, 1990"
+        },
+        {
+          "title": "Norway: A History from the Vikings to Our Own Times",
+          "author": "Rolf Danielsen, Ståle Dyrvik, Tore Grønlie, Knut Helle and Edgar Hovland",
+          "note": "Scandinavian University Press, 1995"
+        },
+        {
+          "title": "Svenskt biografiskt lexikon",
+          "note": "Online edition (sok.riksarkivet.se/sbl)"
+        },
+        {
+          "title": "Store norske leksikon",
+          "note": "Online encyclopedia (snl.no)"
+        }
+      ],
+      "review": {
+        "status": "draft",
+        "notes": "Drafted from the listed sources; needs a human fact-check."
+      }
+    },
+    {
+      "id": "oscar-i",
+      "kind": "monarch",
+      "rulers": [
+        "oscar-i"
+      ],
+      "tagline": "Napoleon's godson, and a much kinder king to Norway",
+      "start": {
+        "date": "1844-03-08"
+      },
+      "end": {
+        "date": "1859-07-08"
+      },
+      "contestedWith": [],
+      "relationToPredecessor": "Only son of Charles III John",
+      "ageAtAccession": "44",
+      "cameToPower": "Succeeded his father",
+      "reignEnded": "Died after a long illness",
+      "previously": "Bernadotte dies, still at odds with the Storting.",
+      "paragraphs": [
+        "Oscar was born in Paris, with Napoleon as his godfather, and came to Sweden as a boy of 11. Unlike his father he spoke the language and had a taste for reform. He had served twice as viceroy in Norway, in 1824 and 1833, and he set out to make Norwegians feel like equal partners.",
+        "In 1844 he gave Norway and Sweden flags of equal standing, each with a shared union mark in the corner. Norwegians nicknamed the mark 'the herring salad'. In 1847 he founded the Order of St Olav. When Denmark fought Prussia in 1848, he sent Swedish and Norwegian troops to Funen to stand by it.",
+        "At home in Norway, Marcus Thrane's movement of workers and cottars grew fast around 1850, and its leaders were jailed. From 1857 Oscar was too ill to rule, and his son Charles acted as regent. He died in Stockholm in July 1859, four days after his 60th birthday."
+      ],
+      "claims": [
+        {
+          "text": "Napoleon was his godfather and chose his name.",
+          "status": "confirmed",
+          "note": "Napoleon picked Oscar from the Ossian poems he loved."
+        },
+        {
+          "text": "Norwegians called the union mark 'the herring salad'.",
+          "status": "confirmed",
+          "note": "The nickname, sildesalaten, mocked its jumble of colours. The mark was taken out of Norway's merchant flag in 1899."
+        }
+      ],
+      "hook": "Oscar I dies after two years as an invalid. His son Charles, tall, loud and popular, already knows the job, and he has made Norway a promise.",
+      "images": [
+        {
+          "file": "File:Oscar I of Sweden & Norway c 1855 by Augusta Åkerlöf.jpg",
+          "url": "https://upload.wikimedia.org/wikipedia/commons/3/3b/Oscar_I_of_Sweden_%26_Norway_c_1855_by_Augusta_%C3%85kerl%C3%B6f.jpg",
+          "page": "https://commons.wikimedia.org/wiki/File:Oscar_I_of_Sweden_&_Norway_c_1855_by_Augusta_Åkerlöf.jpg",
+          "credit": "Augusta Åkerlöf",
+          "license": "Public domain",
+          "made": "c. 1855",
+          "caption": "Painted by Augusta Åkerlöf around 1855, near the end of his active reign.",
+          "alt": "Painted portrait of King Oscar I of Sweden and Norway"
+        }
+      ],
+      "sources": [
+        {
+          "title": "Norway: A History from the Vikings to Our Own Times",
+          "author": "Rolf Danielsen, Ståle Dyrvik, Tore Grønlie, Knut Helle and Edgar Hovland",
+          "note": "Scandinavian University Press, 1995"
+        },
+        {
+          "title": "A History of Norway",
+          "author": "T. K. Derry",
+          "note": "Allen & Unwin, 1957"
+        },
+        {
+          "title": "Svenskt biografiskt lexikon",
+          "note": "Online edition (sok.riksarkivet.se/sbl)"
+        },
+        {
+          "title": "Store norske leksikon",
+          "note": "Online encyclopedia (snl.no)"
+        }
+      ],
+      "review": {
+        "status": "draft",
+        "notes": "Drafted from the listed sources; needs a human fact-check."
+      }
+    },
+    {
+      "id": "charles-iv",
+      "kind": "monarch",
+      "rulers": [
+        "charles-iv"
+      ],
+      "tagline": "The jolly painter king who couldn't keep his promises",
+      "start": {
+        "date": "1859-07-08"
+      },
+      "end": {
+        "date": "1872-09-18"
+      },
+      "contestedWith": [],
+      "relationToPredecessor": "Eldest son of Oscar I",
+      "ageAtAccession": "33",
+      "cameToPower": "Succeeded his father",
+      "reignEnded": "Died in Malmö, aged 46",
+      "previously": "Oscar I dies after years of illness. His son Charles takes over.",
+      "paragraphs": [
+        "Charles was big, cheerful and easy to like. He painted landscapes, wrote verse and loved a party, and people called him 'Crown-Charlie'. He knew Norway, having been viceroy there in 1856 and 1857. Norwegians hated the post of stattholder, a governor who stood in for the king in Christiania, and Charles let them think he would scrap it.",
+        "In December 1859 the Storting voted to do just that. The Swedes were furious that Norway had acted alone, and Charles backed down and refused to sign. Norway felt snubbed, but he was still crowned in Nidaros Cathedral in 1860. The post was finally abolished in 1873.",
+        "He dreamed of a united Scandinavia and told his friend Frederick VII of Denmark he would help against the Germans. When war came in 1864, his ministers said no and no troops went. Charles died in Malmö in 1872, aged 46. His only son had died as a baby, so his brother Oscar inherited. Weeks earlier his daughter Louise had given birth to a Danish prince called Carl."
+      ],
+      "claims": [
+        {
+          "text": "Charles promised Denmark military help in 1864 and didn't deliver.",
+          "status": "disputed",
+          "note": "He made warm promises to Frederick VII in 1863, but how binding they were is argued over. His cabinets in both countries refused to back them."
+        },
+        {
+          "text": "His grandson became King Haakon VII of Norway.",
+          "status": "confirmed",
+          "note": "Prince Carl of Denmark, born in August 1872 to Charles's daughter Louise, was elected Norway's king in 1905."
+        }
+      ],
+      "hook": "Charles dies without a son. His brother Oscar, a poet and naval officer, inherits two crowns and a Storting that wants real power.",
+      "images": [
+        {
+          "file": "File:Carl Fredrik Kiörboe - Karl XV, King of Sweden and Norway 1860-1872 - Google Art Project.jpg",
+          "url": "https://upload.wikimedia.org/wikipedia/commons/4/48/Carl_Fredrik_Ki%C3%B6rboe_-_Karl_XV%2C_King_of_Sweden_and_Norway_1860-1872_-_Google_Art_Project.jpg",
+          "page": "https://commons.wikimedia.org/wiki/File:Carl_Fredrik_Kiörboe_-_Karl_XV,_King_of_Sweden_and_Norway_1860-1872_-_Google_Art_Project.jpg",
+          "credit": "Carl Fredrik Kiörboe",
+          "license": "Public domain",
+          "made": "1860",
+          "caption": "Painted by Carl Fredrik Kiörboe in 1860, the year of his coronation in Trondheim.",
+          "alt": "Equestrian portrait of King Charles XV on horseback"
+        }
+      ],
+      "sources": [
+        {
+          "title": "Norway: A History from the Vikings to Our Own Times",
+          "author": "Rolf Danielsen, Ståle Dyrvik, Tore Grønlie, Knut Helle and Edgar Hovland",
+          "note": "Scandinavian University Press, 1995"
+        },
+        {
+          "title": "A History of Norway",
+          "author": "T. K. Derry",
+          "note": "Allen & Unwin, 1957"
+        },
+        {
+          "title": "Svenskt biografiskt lexikon",
+          "note": "Online edition (sok.riksarkivet.se/sbl)"
+        },
+        {
+          "title": "Store norske leksikon",
+          "note": "Online encyclopedia (snl.no)"
+        }
+      ],
+      "review": {
+        "status": "draft",
+        "notes": "Drafted from the listed sources; needs a human fact-check."
+      }
+    },
+    {
+      "id": "oscar-ii",
+      "kind": "monarch",
+      "rulers": [
+        "oscar-ii"
+      ],
+      "tagline": "The last union king, voted out of a job by the Storting",
+      "start": {
+        "date": "1872-09-18"
+      },
+      "end": {
+        "date": "1905-06-07"
+      },
+      "contestedWith": [],
+      "relationToPredecessor": "Younger brother of Charles IV",
+      "ageAtAccession": "43",
+      "cameToPower": "Succeeded his brother",
+      "reignEnded": "Storting said he'd ceased to be king",
+      "previously": "Charles IV dies without a son. His brother Oscar inherits.",
+      "paragraphs": [
+        "Oscar II was clever, vain and well read, a naval officer who wrote poetry and history. He was crowned in Trondheim in 1873 and started well by letting the hated stattholder post go. Then he ran into Norway's new politics. The Storting wanted the king's ministers to answer to it, and Oscar used his veto again and again.",
+        "In 1884 the Storting's majority impeached the whole cabinet and won. Oscar had to make the opposition leader, Johan Sverdrup, prime minister, and from then on governments needed the Storting's backing. The next fight was over consuls. Norway had one of the world's biggest merchant fleets and wanted its own consuls abroad. Sweden said foreign affairs were a joint matter.",
+        "In May 1905 Oscar refused to sign Norway's consul law, and the government resigned. He said he could not form a new one. On 7 June the Storting declared that he had ceased to function as king and the union was over. After a referendum and talks at Karlstad, Oscar renounced Norway's crown on 26 October 1905. He died in Stockholm two years later."
+      ],
+      "claims": [
+        {
+          "text": "The Storting offered to take one of Oscar's own relatives as Norway's new king.",
+          "status": "confirmed",
+          "note": "Its address of 7 June 1905 asked for a Bernadotte prince. Oscar turned the offer down."
+        },
+        {
+          "text": "The 1884 crisis brought parliamentary government to Norway.",
+          "status": "confirmed",
+          "note": "Historians date the breakthrough to 1884, though the rule was only written into the constitution in 2007."
+        },
+        {
+          "text": "Sweden and Norway came close to war in 1905.",
+          "status": "disputed",
+          "note": "Both sides moved troops to the border, but how near they came to fighting is still argued over."
+        }
+      ],
+      "hook": "Norway is a kingdom without a king. The Storting's favourite is a young Danish prince, Carl, grandson of Charles IV. He'll only come if the people vote for him.",
+      "images": [
+        {
+          "file": "File:Oscar II of Sweden OMu.F24035af.jpg",
+          "url": "https://upload.wikimedia.org/wikipedia/commons/b/b5/Oscar_II_of_Sweden_OMu.F24035af.jpg",
+          "page": "https://commons.wikimedia.org/wiki/File:Oscar_II_of_Sweden_OMu.F24035af.jpg",
+          "credit": "Ludwik Szaciński",
+          "license": "CC BY-SA 3.0",
+          "made": "1888",
+          "caption": "Photographed by Ludwik Szaciński in 1888, midway through his reign.",
+          "alt": "Vignetted head-and-shoulders photograph of Oscar II in uniform"
+        }
+      ],
+      "sources": [
+        {
+          "title": "Norway: A History from the Vikings to Our Own Times",
+          "author": "Rolf Danielsen, Ståle Dyrvik, Tore Grønlie, Knut Helle and Edgar Hovland",
+          "note": "Scandinavian University Press, 1995"
+        },
+        {
+          "title": "A History of Norway",
+          "author": "T. K. Derry",
+          "note": "Allen & Unwin, 1957"
+        },
+        {
+          "title": "Svenskt biografiskt lexikon",
+          "note": "Online edition (sok.riksarkivet.se/sbl)"
         },
         {
           "title": "Store norske leksikon",
@@ -2528,7 +5488,7 @@
       "ageAtAccession": "33",
       "cameToPower": "Elected after a referendum",
       "reignEnded": "Died aged 85",
-      "previously": "Norway breaks with Sweden in 1905 and goes shopping for a king.",
+      "previously": "The Storting declares Oscar II no longer king. The union is over.",
       "paragraphs": [
         "Prince Carl of Denmark was a navy officer married to Maud, daughter of Britain's Edward VII. Asked to be Norway's king, he insisted the people vote first. In November 1905 a big majority said yes. The Storting elected him, he took the old royal name Haakon, and his toddler son Alexander became Olav. He set out to be a king for everyone.",
         "Then came 9 April 1940. Germany invaded, and Hitler demanded that Haakon appoint the Nazi collaborator Vidkun Quisling as prime minister. Haakon told his government he would abdicate before he did that. The government backed him. German bombers hunted the royal party across the country, and in June the king sailed for Britain.",
