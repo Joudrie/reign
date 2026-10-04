@@ -1,0 +1,2920 @@
+{
+  "id": "ethiopia",
+  "name": "Ethiopia",
+  "blurb": "Solomonic emperors, warlord princes, Adwa, the Derg and after",
+  "dateConvention": "Ethiopia keeps its own calendar, but the deck gives Julian/Gregorian equivalents as standard references do; medieval and Gondarine dates come from regnal lists and are often only approximate. From 1974 the deck follows whoever held real power: the Derg, then its leader, then prime ministers.",
+  "houses": [
+    {
+      "id": "solomonic",
+      "name": "Solomonic",
+      "color": "#8f1d21"
+    },
+    {
+      "id": "gondarine",
+      "name": "Solomonic (Gondar)",
+      "color": "#2f5d8a"
+    },
+    {
+      "id": "princes",
+      "name": "Era of the Princes",
+      "color": "#8d8780",
+      "plain": true
+    },
+    {
+      "id": "tewodros",
+      "name": "Tewodros",
+      "color": "#3f6b4f"
+    },
+    {
+      "id": "lasta",
+      "name": "Lasta (Wag)",
+      "color": "#7a6a55"
+    },
+    {
+      "id": "tigray",
+      "name": "Tigray",
+      "color": "#b8860b"
+    },
+    {
+      "id": "shewa",
+      "name": "Solomonic (Shewa)",
+      "color": "#6b4a8a"
+    },
+    {
+      "id": "italian-occupation",
+      "name": "Italian occupation",
+      "color": "#5a5f66",
+      "plain": true
+    },
+    {
+      "id": "derg",
+      "name": "The Derg",
+      "color": "#a33a2a",
+      "plain": true
+    },
+    {
+      "id": "eprdf",
+      "name": "EPRDF",
+      "color": "#2e7a5a",
+      "plain": true
+    },
+    {
+      "id": "prosperity",
+      "name": "Prosperity Party",
+      "color": "#2a6f97",
+      "plain": true
+    }
+  ],
+  "rulers": [
+    {
+      "id": "yekuno-amlak",
+      "name": "Yekuno Amlak",
+      "house": "solomonic",
+      "died": {
+        "date": "1285",
+        "circa": true
+      },
+      "causeOfDeath": "Natural causes, as far as is known"
+    },
+    {
+      "id": "amda-seyon-i",
+      "name": "Amda Seyon I",
+      "house": "solomonic",
+      "died": {
+        "date": "1344",
+        "circa": true
+      },
+      "causeOfDeath": "Natural causes, as far as is known"
+    },
+    {
+      "id": "yeshaq-i",
+      "name": "Yeshaq I",
+      "house": "solomonic",
+      "died": {
+        "date": "1429",
+        "circa": true
+      },
+      "causeOfDeath": "Unclear; sources differ"
+    },
+    {
+      "id": "zara-yaqob",
+      "name": "Zara Yaqob",
+      "house": "solomonic",
+      "born": {
+        "date": "1399",
+        "circa": true,
+        "note": "Telq, in Fatagar"
+      },
+      "died": {
+        "date": "1468",
+        "circa": true,
+        "note": "Debre Berhan"
+      },
+      "causeOfDeath": "Natural causes"
+    },
+    {
+      "id": "lebna-dengel",
+      "name": "Lebna Dengel",
+      "house": "solomonic",
+      "born": {
+        "date": "1496",
+        "circa": true
+      },
+      "died": {
+        "date": "1540-09-02",
+        "note": "Near the monastery of Debre Damo, Tigray"
+      },
+      "causeOfDeath": "Died a fugitive, worn out by war"
+    },
+    {
+      "id": "gelawdewos",
+      "name": "Gelawdewos",
+      "house": "solomonic",
+      "born": {
+        "date": "1521",
+        "circa": true
+      },
+      "died": {
+        "date": "1559-03-23",
+        "note": "In battle against the emir of Harar"
+      },
+      "causeOfDeath": "Killed in battle"
+    },
+    {
+      "id": "sarsa-dengel",
+      "name": "Sarsa Dengel",
+      "house": "solomonic",
+      "born": {
+        "date": "1550",
+        "circa": true
+      },
+      "died": {
+        "date": "1597",
+        "note": "On campaign"
+      },
+      "causeOfDeath": "Fever, said to follow a meal of fish"
+    },
+    {
+      "id": "susenyos",
+      "name": "Susenyos I",
+      "house": "solomonic",
+      "born": {
+        "date": "1572",
+        "circa": true
+      },
+      "died": {
+        "date": "1632-09-17"
+      },
+      "causeOfDeath": "Natural causes, soon after abdicating"
+    },
+    {
+      "id": "fasilides",
+      "name": "Fasilides",
+      "house": "gondarine",
+      "born": {
+        "date": "1603",
+        "circa": true
+      },
+      "died": {
+        "date": "1667-10-18",
+        "note": "Azazo, near Gondar"
+      },
+      "causeOfDeath": "Natural causes"
+    },
+    {
+      "id": "yohannes-i",
+      "name": "Yohannes I",
+      "house": "gondarine",
+      "died": {
+        "date": "1682",
+        "circa": true
+      },
+      "causeOfDeath": "Illness"
+    },
+    {
+      "id": "iyasu-i",
+      "name": "Iyasu I",
+      "epithet": "the Great",
+      "house": "gondarine",
+      "born": {
+        "date": "1654",
+        "circa": true
+      },
+      "died": {
+        "date": "1706",
+        "note": "An island in Lake Tana"
+      },
+      "causeOfDeath": "Murdered by his son's supporters"
+    },
+    {
+      "id": "iyasu-ii",
+      "name": "Iyasu II",
+      "house": "gondarine",
+      "born": {
+        "date": "1723",
+        "circa": true,
+        "note": "Gondar"
+      },
+      "died": {
+        "date": "1755-06-27",
+        "note": "Gondar"
+      },
+      "causeOfDeath": "Sudden illness; poison was rumoured"
+    },
+    {
+      "id": "mentewab",
+      "name": "Mentewab",
+      "house": "gondarine",
+      "born": {
+        "date": "1706",
+        "circa": true,
+        "note": "Qwara, west of Lake Tana"
+      },
+      "died": {
+        "date": "1773",
+        "note": "Kuskuam, Gondar"
+      },
+      "causeOfDeath": "Natural causes"
+    },
+    {
+      "id": "iyoas-i",
+      "name": "Iyoas I",
+      "house": "gondarine",
+      "died": {
+        "date": "1769",
+        "note": "Gondar"
+      },
+      "causeOfDeath": "Strangled on Ras Mikael Sehul's orders"
+    },
+    {
+      "id": "tewodros-ii",
+      "name": "Tewodros II",
+      "house": "tewodros",
+      "born": {
+        "date": "1818",
+        "circa": true,
+        "note": "Qwara, western Ethiopia"
+      },
+      "died": {
+        "date": "1868-04-13",
+        "note": "Magdala"
+      },
+      "causeOfDeath": "Shot himself as the British stormed Magdala"
+    },
+    {
+      "id": "tekle-giyorgis-ii",
+      "name": "Tekle Giyorgis II",
+      "house": "lasta",
+      "died": {
+        "date": "1873",
+        "note": "In captivity"
+      },
+      "causeOfDeath": "Died a prisoner of Yohannes IV"
+    },
+    {
+      "id": "yohannes-iv",
+      "name": "Yohannes IV",
+      "house": "tigray",
+      "born": {
+        "date": "1837",
+        "note": "Tembien, Tigray"
+      },
+      "died": {
+        "date": "1889-03-10",
+        "note": "Metemma (Gallabat), on the Sudan border"
+      },
+      "causeOfDeath": "Shot in battle against the Mahdists"
+    },
+    {
+      "id": "menelik-ii",
+      "name": "Menelik II",
+      "house": "shewa",
+      "born": {
+        "date": "1844-08-17",
+        "note": "Angolala, Shewa"
+      },
+      "died": {
+        "date": "1913-12-12",
+        "note": "Addis Ababa"
+      },
+      "causeOfDeath": "After a long series of strokes"
+    },
+    {
+      "id": "lij-iyasu",
+      "name": "Lij Iyasu",
+      "house": "shewa",
+      "born": {
+        "date": "1895-02-04",
+        "note": "Dessie, Wollo"
+      },
+      "died": {
+        "date": "1935-11-25",
+        "note": "In custody; place and circumstances uncertain"
+      },
+      "causeOfDeath": "Unknown; died a prisoner"
+    },
+    {
+      "id": "zewditu",
+      "name": "Zewditu",
+      "house": "shewa",
+      "born": {
+        "date": "1876-04-29"
+      },
+      "died": {
+        "date": "1930-04-02",
+        "note": "Addis Ababa"
+      },
+      "causeOfDeath": "Sudden illness; cause disputed"
+    },
+    {
+      "id": "haile-selassie",
+      "name": "Haile Selassie I",
+      "house": "shewa",
+      "born": {
+        "date": "1892-07-23",
+        "note": "Ejersa Goro, near Harar"
+      },
+      "died": {
+        "date": "1975-08-27",
+        "note": "Addis Ababa, in Derg custody"
+      },
+      "causeOfDeath": "Died in custody; probably murdered"
+    },
+    {
+      "id": "mengistu",
+      "name": "Mengistu Haile Mariam",
+      "house": "derg",
+      "born": {
+        "date": "1937-05-21"
+      }
+    },
+    {
+      "id": "meles",
+      "name": "Meles Zenawi",
+      "house": "eprdf",
+      "born": {
+        "date": "1955-05-09",
+        "note": "Adwa, Tigray"
+      },
+      "died": {
+        "date": "2012-08-20",
+        "note": "Brussels, Belgium"
+      },
+      "causeOfDeath": "Illness, never officially named"
+    },
+    {
+      "id": "hailemariam",
+      "name": "Hailemariam Desalegn",
+      "house": "eprdf",
+      "born": {
+        "date": "1965-07-19",
+        "note": "Boloso Sore, Wolayita"
+      }
+    },
+    {
+      "id": "abiy",
+      "name": "Abiy Ahmed",
+      "house": "prosperity",
+      "born": {
+        "date": "1976-08-15",
+        "note": "Beshasha, Oromia"
+      }
+    }
+  ],
+  "reigns": [
+    {
+      "id": "yekuno-amlak",
+      "kind": "monarch",
+      "rulers": [
+        "yekuno-amlak"
+      ],
+      "tagline": "The rebel lord who claimed King Solomon as an ancestor",
+      "start": {
+        "date": "1270"
+      },
+      "end": {
+        "date": "1285",
+        "circa": true
+      },
+      "contestedWith": [],
+      "relationToPredecessor": "Rebel who overthrew the Zagwe king",
+      "ageAtAccession": "Unknown",
+      "cameToPower": "Killed the last Zagwe king",
+      "reignEnded": "Died about 1285",
+      "previously": "Aksum is long gone. Zagwe kings rule from Lalibela's rock churches.",
+      "paragraphs": [
+        "Ethiopia's first great kingdom, Aksum, had faded centuries before. In its place the Zagwe kings ruled the northern highlands. The most famous of them, Lalibela, had churches carved straight down into the solid rock. Then, in 1270, a lord from Amhara called Yekuno Amlak rose against them. He beat and killed the last Zagwe king and took the crown for himself.",
+        "He needed more than a victory. He claimed to descend from the old kings of Aksum, and through them from King Solomon and the Queen of Sheba. Kings who had ruled in between were usurpers, he said. The story was later written down in the Kebra Nagast, the Glory of the Kings, in the early 1300s. His line, the Solomonic dynasty, would hold the throne, on and off, until 1974.",
+        "The church backed him. He had studied at the island monastery of Lake Hayq under the abbot Iyasus Moa, and he wrote to the sultan of Egypt asking for a new bishop for his church. He founded the church of Geneta Maryam near Lalibela and died around 1285, leaving the throne to his son."
+      ],
+      "claims": [
+        {
+          "text": "The church got a third of the kingdom's land as its reward for backing Yekuno Amlak.",
+          "status": "legend",
+          "note": "This comes from later monastic tradition, which had every reason to exaggerate its own role. No document from the 1270s records such a deal."
+        },
+        {
+          "text": "Yekuno Amlak really did descend from the kings of Aksum.",
+          "status": "disputed",
+          "note": "The family tree was written down by his dynasty's supporters after he took power. Most historians treat it as political legend."
+        },
+        {
+          "text": "He wrote to the Mamluk sultan Baybars asking for a bishop.",
+          "status": "confirmed",
+          "note": "Egyptian Arabic writers record his letter, sent in the 1270s by way of Yemen."
+        }
+      ],
+      "hook": "Yekuno Amlak is dead. His son Yagbe'u Seyon takes the crown, and a crowd of royal brothers and sons are watching it very closely.",
+      "images": [
+        {
+          "file": "File:Yekuno Amlak.png",
+          "url": "https://upload.wikimedia.org/wikipedia/commons/d/dc/Yekuno_Amlak.png",
+          "page": "https://commons.wikimedia.org/wiki/File:Yekuno_Amlak.png",
+          "credit": "Unknown Ethiopian painter",
+          "license": "Public domain",
+          "made": "c. 1270–1285",
+          "caption": "A wall painting in Geneta Maryam church near Lalibela, which he founded; it is thought to date from his own reign and to show the king.",
+          "alt": "Medieval Ethiopian church wall painting identified as King Yekuno Amlak"
+        }
+      ],
+      "sources": [
+        {
+          "title": "Church and State in Ethiopia, 1270–1527",
+          "author": "Taddesse Tamrat",
+          "note": "Oxford: Clarendon Press, 1972"
+        },
+        {
+          "title": "A History of Ethiopia",
+          "author": "Harold G. Marcus",
+          "note": "University of California Press, 1994"
+        },
+        {
+          "title": "The Queen of Sheba and Her Only Son Menyelek (Kebra Nagast)",
+          "author": "E. A. Wallis Budge (trans.)",
+          "note": "1922"
+        },
+        {
+          "title": "Encyclopaedia Aethiopica",
+          "author": "Siegbert Uhlig (ed.)",
+          "note": "Harrassowitz, 2003–2014"
+        }
+      ],
+      "review": {
+        "status": "draft",
+        "notes": "Drafted from the listed sources; needs a human fact-check."
+      }
+    },
+    {
+      "id": "sons-of-yekuno-amlak",
+      "kind": "interregnum",
+      "rulers": [],
+      "house": "solomonic",
+      "title": "The Sons of Yekuno Amlak",
+      "tagline": "Too many princes, one throne, and a prison on a mountain",
+      "start": {
+        "date": "1285",
+        "circa": true
+      },
+      "end": {
+        "date": "1314",
+        "circa": true
+      },
+      "contestedWith": [],
+      "relationToPredecessor": "His sons and grandsons",
+      "ageAtAccession": "Various",
+      "cameToPower": "Inherited, one after another",
+      "reignEnded": "Wedem Arad died about 1314",
+      "previously": "Yekuno Amlak, the restorer, dies around 1285.",
+      "paragraphs": [
+        "The new dynasty had a problem: lots of royal sons and no fixed rule for which one got the crown. Yekuno Amlak's son Yagbe'u Seyon ruled from about 1285 to 1294. When he died, several of his own sons took the throne in quick succession, each lasting barely a year.",
+        "Then Yagbe'u Seyon's brother Wedem Arad took over in 1299 and held on until about 1314. Around this time, tradition says, the kings found a grim fix for family plotting. Spare princes were locked up on a flat-topped mountain under armed guard. Later it was Amba Geshen, a steep fortress mountain in the highlands. A prince would leave only if he was called to be king."
+      ],
+      "claims": [
+        {
+          "text": "Yagbe'u Seyon's sons agreed to take turns on the throne, one year each.",
+          "status": "legend",
+          "note": "Later chronicles and king lists tell it this way. It may be a tidy explanation for a messy run of very short reigns."
+        },
+        {
+          "text": "The custom of locking royal princes on a mountain began around this time.",
+          "status": "disputed",
+          "note": "Ethiopian tradition places the start here. The first solid evidence for Amba Geshen as a royal prison comes later, in the 1400s."
+        }
+      ],
+      "hook": "Wedem Arad dies around 1314. His son Amda Seyon takes the crown, and he has no plans to sit still.",
+      "images": [
+        {
+          "file": "File:Amba Geshen (Medieval).jpg",
+          "url": "https://upload.wikimedia.org/wikipedia/commons/1/12/Amba_Geshen_%28Medieval%29.jpg",
+          "page": "https://commons.wikimedia.org/wiki/File:Amba_Geshen_(Medieval).jpg",
+          "credit": "Unknown European engraver",
+          "license": "CC0",
+          "made": "Early modern",
+          "caption": "A European print made centuries later, showing a baptism scene with the royal prison mountain of Amba Geshen as a fortress on a peak.",
+          "alt": "Old European print of a baptism scene with a fortified mountaintop labelled as Amba Geshen"
+        }
+      ],
+      "sources": [
+        {
+          "title": "Church and State in Ethiopia, 1270–1527",
+          "author": "Taddesse Tamrat",
+          "note": "Oxford: Clarendon Press, 1972"
+        },
+        {
+          "title": "A History of Ethiopia",
+          "author": "Harold G. Marcus",
+          "note": "University of California Press, 1994"
+        },
+        {
+          "title": "The Ethiopians: A History",
+          "author": "Richard Pankhurst",
+          "note": "Blackwell, 1998"
+        }
+      ],
+      "review": {
+        "status": "draft",
+        "notes": "Drafted from the listed sources; needs a human fact-check."
+      }
+    },
+    {
+      "id": "amda-seyon-i",
+      "kind": "monarch",
+      "rulers": [
+        "amda-seyon-i"
+      ],
+      "tagline": "The warrior king who doubled his kingdom",
+      "start": {
+        "date": "1314",
+        "circa": true
+      },
+      "end": {
+        "date": "1344",
+        "circa": true
+      },
+      "contestedWith": [],
+      "relationToPredecessor": "Son of Wedem Arad",
+      "ageAtAccession": "Unknown",
+      "cameToPower": "Succeeded his father",
+      "reignEnded": "Died about 1344",
+      "previously": "Wedem Arad dies around 1314; his son Amda Seyon takes over.",
+      "paragraphs": [
+        "Amda Seyon spent thirty years at war and nearly always won. He pushed south and west into Gojjam, Damot and Hadiya. To the east lay Ifat and other Muslim states that grew rich on the caravan trade to the Red Sea. He wanted that trade, and he wanted them paying tribute to him.",
+        "In 1332 Sabr ad-Din, the sultan of Ifat, rose against him with his allies. Amda Seyon struck east and smashed them. A court writer turned the campaign into a vivid chronicle full of speeches, ambushes and the king charging alone into the enemy. It is one of the earliest royal chronicles we have from Ethiopia.",
+        "Monks were less impressed. He took several wives and, they said, women from his father's household too. Holy men from the monasteries told him so to his face and were flogged or sent into exile. By the time he died around 1344 his kingdom was far bigger and far stronger than the one he had inherited."
+      ],
+      "claims": [
+        {
+          "text": "Monks who condemned Amda Seyon's marriages were flogged and exiled.",
+          "status": "confirmed",
+          "note": "The lives of saints such as Anorewos and Filpos of Debre Libanos tell the story. They are hostile to the king, but the clash is widely accepted."
+        },
+        {
+          "text": "Amda Seyon charged the enemy almost alone and turned the battle.",
+          "status": "disputed",
+          "note": "This comes from his own court chronicle, written to glorify him. The campaign is real; the heroics may be polished."
+        }
+      ],
+      "hook": "Amda Seyon is dead. His son takes the throne, and the real fights of the next generation will be in the monasteries.",
+      "images": [
+        {
+          "file": "File:Amda Seyon.jpg",
+          "url": "https://upload.wikimedia.org/wikipedia/commons/9/9c/Amda_Seyon.jpg",
+          "page": "https://commons.wikimedia.org/wiki/File:Amda_Seyon.jpg",
+          "credit": "Unknown Ethiopian scribe",
+          "license": "Public domain",
+          "made": "15th century",
+          "caption": "A manuscript painting of Amda Seyon made in the 1400s, about a century after his death.",
+          "alt": "Ethiopian manuscript painting of King Amda Seyon"
+        }
+      ],
+      "sources": [
+        {
+          "title": "The Glorious Victories of 'Amda Seyon, King of Ethiopia",
+          "author": "G. W. B. Huntingford (trans.)",
+          "note": "Oxford: Clarendon Press, 1965"
+        },
+        {
+          "title": "Church and State in Ethiopia, 1270–1527",
+          "author": "Taddesse Tamrat",
+          "note": "Oxford: Clarendon Press, 1972"
+        },
+        {
+          "title": "A History of Ethiopia",
+          "author": "Harold G. Marcus",
+          "note": "University of California Press, 1994"
+        }
+      ],
+      "review": {
+        "status": "draft",
+        "notes": "Drafted from the listed sources; needs a human fact-check."
+      }
+    },
+    {
+      "id": "newaya-krestos-to-dawit",
+      "kind": "interregnum",
+      "rulers": [],
+      "house": "solomonic",
+      "title": "Monks and Kings",
+      "tagline": "Monasteries rise and the Sabbath splits the church",
+      "start": {
+        "date": "1344",
+        "circa": true
+      },
+      "end": {
+        "date": "1413",
+        "circa": true
+      },
+      "contestedWith": [],
+      "relationToPredecessor": "Amda Seyon's son and grandsons",
+      "ageAtAccession": "Various",
+      "cameToPower": "Father to son",
+      "reignEnded": "Dawit I died about 1413",
+      "previously": "Amda Seyon, the warrior king, dies around 1344.",
+      "paragraphs": [
+        "Three kings filled the next seventy years: Amda Seyon's son Newaya Krestos (1344 to 1372), then his son Newaya Maryam (1372 to 1382), then his brother Dawit I (1382 to 1413). The kingdom was big and fairly safe. The real energy was in the monasteries, which spread across the highlands as monks pushed into new lands to preach and build.",
+        "Then came a row that split the church. A monk called Ewostatewos taught that Christians must keep Saturday as a holy day as well as Sunday. The bishops, who took their orders from Egypt, said no. His followers were shut out, but they kept on growing. Dawit I finally made peace with them, and his reign was remembered as a golden age of books and holy relics."
+      ],
+      "claims": [
+        {
+          "text": "Dawit I obtained a piece of the True Cross from Egypt.",
+          "status": "legend",
+          "note": "Ethiopian tradition says so, and the relic is said to rest at Gishen Maryam today. No outside record confirms how it arrived."
+        },
+        {
+          "text": "Dawit I died after being kicked by his horse.",
+          "status": "disputed",
+          "note": "Later chronicles and king lists report it. There is no account from anyone who saw it happen."
+        }
+      ],
+      "hook": "Dawit I is dead, and he has left a crowd of sons. The eldest, Tewodros, gets the crown first. He won't keep it long.",
+      "images": [
+        {
+          "file": "File:Icon Triptych- Ewostatewos and Eight of His Disciples MET DP124866.jpg",
+          "url": "https://upload.wikimedia.org/wikipedia/commons/f/fb/Icon_Triptych-_Ewostatewos_and_Eight_of_His_Disciples_MET_DP124866.jpg",
+          "page": "https://commons.wikimedia.org/wiki/File:Icon_Triptych-_Ewostatewos_and_Eight_of_His_Disciples_MET_DP124866.jpg",
+          "credit": "Unknown Ethiopian painter; Metropolitan Museum of Art",
+          "license": "CC0",
+          "made": "Late 17th century",
+          "caption": "A painted wooden icon of the monk Ewostatewos and eight of his disciples, made about 300 years after his death.",
+          "alt": "Folding wooden icon painted with the monk Ewostatewos and eight disciples"
+        }
+      ],
+      "sources": [
+        {
+          "title": "Church and State in Ethiopia, 1270–1527",
+          "author": "Taddesse Tamrat",
+          "note": "Oxford: Clarendon Press, 1972"
+        },
+        {
+          "title": "The Ethiopians: A History",
+          "author": "Richard Pankhurst",
+          "note": "Blackwell, 1998"
+        },
+        {
+          "title": "Encyclopaedia Aethiopica",
+          "author": "Siegbert Uhlig (ed.)",
+          "note": "Harrassowitz, 2003–2014"
+        }
+      ],
+      "review": {
+        "status": "draft",
+        "notes": "Drafted from the listed sources; needs a human fact-check."
+      }
+    },
+    {
+      "id": "yeshaq-i",
+      "kind": "monarch",
+      "rulers": [
+        "yeshaq-i"
+      ],
+      "tagline": "The king who wrote to Aragon for craftsmen and a bride",
+      "start": {
+        "date": "1414",
+        "circa": true
+      },
+      "end": {
+        "date": "1429",
+        "circa": true
+      },
+      "contestedWith": [],
+      "relationToPredecessor": "Son of Dawit I; brother of Tewodros I",
+      "ageAtAccession": "Unknown",
+      "cameToPower": "Followed his brother Tewodros I",
+      "reignEnded": "Died about 1429",
+      "previously": "Dawit I dies around 1413. His son Tewodros I gets the throne first.",
+      "paragraphs": [
+        "Dawit's eldest son, Tewodros I, reigned for only a few months before he died. His brother Yeshaq took over and spent fifteen years fighting. In the east the sultans of Adal, heirs to the old rulers of Ifat, kept up a war of raids and counter-raids. Yeshaq struck back hard, and court poets sang about his victories.",
+        "In the north-west the Beta Israel, Ethiopia's Jewish community, rose against him. Yeshaq crushed the revolt and took their land. He also looked far beyond his borders. He sent envoys across the Mediterranean to Alfonso V, king of Aragon, asking for skilled craftsmen and proposing a royal marriage. The king of Aragon wrote back, but the grand alliance never happened."
+      ],
+      "claims": [
+        {
+          "text": "Yeshaq ruled that only baptised Christians could inherit land, and the landless Beta Israel came to be called Falasha.",
+          "status": "disputed",
+          "note": "This comes from a victory song and later chronicles. The word Falasha probably means exile or landless, but its exact origin is argued over."
+        },
+        {
+          "text": "Yeshaq offered a marriage alliance to Alfonso V of Aragon.",
+          "status": "disputed",
+          "note": "Alfonso's surviving letters show the contact was real. The details of the marriage plan rest on a few documents and are not fully clear."
+        }
+      ],
+      "hook": "Yeshaq dies around 1429. Now the crown starts passing so fast that hardly anyone has time to write down what happened.",
+      "images": [
+        {
+          "file": "File:Illuminated Gospel late 14th–early 15th century Amhara peoples.jpeg",
+          "url": "https://upload.wikimedia.org/wikipedia/commons/d/df/Illuminated_Gospel_late_14th%E2%80%93early_15th_century_Amhara_peoples.jpeg",
+          "page": "https://commons.wikimedia.org/wiki/File:Illuminated_Gospel_late_14th%E2%80%93early_15th_century_Amhara_peoples.jpeg",
+          "credit": "Unknown Ethiopian scribes; Metropolitan Museum of Art",
+          "license": "Public domain",
+          "made": "Late 14th–early 15th century",
+          "caption": "An illuminated Gospel book from the Ethiopian highlands, made around Yeshaq's time; no portrait of him survives.",
+          "alt": "Page of an illuminated medieval Ethiopian Gospel manuscript"
+        }
+      ],
+      "sources": [
+        {
+          "title": "Church and State in Ethiopia, 1270–1527",
+          "author": "Taddesse Tamrat",
+          "note": "Oxford: Clarendon Press, 1972"
+        },
+        {
+          "title": "The Beta Israel (Falasha) in Ethiopia: From Earliest Times to the Twentieth Century",
+          "author": "Steven Kaplan",
+          "note": "New York University Press, 1992"
+        },
+        {
+          "title": "The Ethiopians: A History",
+          "author": "Richard Pankhurst",
+          "note": "Blackwell, 1998"
+        }
+      ],
+      "review": {
+        "status": "draft",
+        "notes": "Drafted from the listed sources; needs a human fact-check."
+      }
+    },
+    {
+      "id": "four-kings",
+      "kind": "interregnum",
+      "rulers": [],
+      "house": "solomonic",
+      "title": "Four Kings in Five Years",
+      "tagline": "Four kings, five years, and hardly a trace of any of them",
+      "start": {
+        "date": "1429",
+        "circa": true
+      },
+      "end": {
+        "date": "1434",
+        "circa": true
+      },
+      "contestedWith": [],
+      "relationToPredecessor": "Yeshaq's son, then his nephews",
+      "ageAtAccession": "Various",
+      "cameToPower": "Passed around the royal family",
+      "reignEnded": "The last one died about 1434",
+      "previously": "Yeshaq dies around 1429 after fifteen years of war.",
+      "paragraphs": [
+        "After Yeshaq the throne went spinning. His son Andreyas reigned for a few months. Then came Takla Maryam, another of Dawit's sons, who lasted a few years. His sons Sarwe Iyasus and Amda Iyasus followed, each for a matter of months. Four kings in about five years.",
+        "We know almost nothing about any of them: no chronicles, no great deeds, only names in king lists and a few scraps of dates. That silence tells its own story of a court in turmoil. By 1434 the royal family had run out of grown men at court. So they went to the prison mountain to fetch one more of Dawit's sons."
+      ],
+      "claims": [
+        {
+          "text": "Takla Maryam, Sarwe Iyasus and Amda Iyasus all reigned between about 1430 and 1434.",
+          "status": "confirmed",
+          "note": "The names appear in the Ethiopian king lists, though the lists give slightly different lengths of reign."
+        },
+        {
+          "text": "Some of these short reigns ended in murder.",
+          "status": "disputed",
+          "note": "Historians suspect foul play behind such a rapid turnover, but no source tells us how most of these kings died."
+        }
+      ],
+      "hook": "On the royal mountain, a man in his thirties has spent his whole adult life in captivity. Now the guards come for him with a crown.",
+      "images": [
+        {
+          "file": "File:Amba Geshen N. Ethiopia.jpg",
+          "url": "https://upload.wikimedia.org/wikipedia/commons/f/f0/Amba_Geshen_N._Ethiopia.jpg",
+          "page": "https://commons.wikimedia.org/wiki/File:Amba_Geshen_N._Ethiopia.jpg",
+          "credit": "Unknown author",
+          "license": "CC BY-SA 4.0",
+          "made": "Modern photograph",
+          "caption": "A modern photograph of Amba Geshen, the flat-topped mountain where royal princes were kept under guard.",
+          "alt": "A steep flat-topped mountain in northern Ethiopia"
+        }
+      ],
+      "sources": [
+        {
+          "title": "Church and State in Ethiopia, 1270–1527",
+          "author": "Taddesse Tamrat",
+          "note": "Oxford: Clarendon Press, 1972"
+        },
+        {
+          "title": "A History of Ethiopia",
+          "author": "Harold G. Marcus",
+          "note": "University of California Press, 1994"
+        },
+        {
+          "title": "Encyclopaedia Aethiopica",
+          "author": "Siegbert Uhlig (ed.)",
+          "note": "Harrassowitz, 2003–2014"
+        }
+      ],
+      "review": {
+        "status": "draft",
+        "notes": "Drafted from the listed sources; needs a human fact-check."
+      }
+    },
+    {
+      "id": "zara-yaqob",
+      "kind": "monarch",
+      "rulers": [
+        "zara-yaqob"
+      ],
+      "tagline": "The prisoner prince who became Ethiopia's iron reformer",
+      "start": {
+        "date": "1434",
+        "circa": true
+      },
+      "end": {
+        "date": "1468",
+        "circa": true
+      },
+      "contestedWith": [],
+      "relationToPredecessor": "Son of Dawit I; uncle of Amda Iyasus",
+      "ageAtAccession": "About 35",
+      "cameToPower": "Brought down from the royal mountain",
+      "reignEnded": "Died at Debre Berhan",
+      "previously": "Four kings in five years. The court turns to the prison mountain.",
+      "paragraphs": [
+        "Zara Yaqob spent his youth shut away on the royal mountain of Amba Geshen. He came down around 1434, already in his mid-thirties, sure of his faith and in a hurry. He wrote religious books himself and set out to purify the church. He settled the old Sabbath fight at the Council of Debre Mitmaq around 1450: Saturday and Sunday would both be kept holy.",
+        "He was ruthless with anyone who disagreed. A group of monks called the Stephanites refused to bow before images of Mary and before the king. Some were tortured and killed. Abroad, his monks turned up at the Council of Florence in Italy in 1441. At home, in 1445 his army beat the sultan of Adal, Ahmad Badlay, at Gomit.",
+        "He grew more suspicious with age and turned on his own family, accusing wives and children of plotting. He built a new capital at Debre Berhan and died there around 1468, feared and admired in equal measure."
+      ],
+      "claims": [
+        {
+          "text": "He founded Debre Berhan, the Mount of Light, after a light was seen in the sky.",
+          "status": "legend",
+          "note": "His chronicle tells it. The light followed the killing of dissenters, and the story was told as a sign of God's approval."
+        },
+        {
+          "text": "He ordered his subjects to bear religious marks or wear amulets showing their faith.",
+          "status": "disputed",
+          "note": "His chronicle reports it, but how far the order was enforced, and what the marks were, is uncertain."
+        },
+        {
+          "text": "He had members of his own family beaten after accusing them of plotting.",
+          "status": "confirmed",
+          "note": "His own court chronicle records it. The deaths that followed are told there too."
+        }
+      ],
+      "hook": "Zara Yaqob is dead. His son Baeda Maryam takes the throne, and his young widow Eleni is about to become the most important person at court.",
+      "images": [
+        {
+          "file": "File:Badlay Mural.png",
+          "url": "https://upload.wikimedia.org/wikipedia/commons/c/c8/Badlay_Mural.png",
+          "page": "https://commons.wikimedia.org/wiki/File:Badlay_Mural.png",
+          "credit": "Unknown Ethiopian painter (photo: Manuel João Ramos and Isabel Boavida)",
+          "license": "CC0",
+          "made": "c. 1700",
+          "caption": "A painting from around 1700, over 230 years after his death, showing Zara Yaqob giving away the crown and robe of the defeated sultan Badlay.",
+          "alt": "Ethiopian painting of a king presenting a crown and a garment to two men"
+        }
+      ],
+      "sources": [
+        {
+          "title": "Les chroniques de Zar'a Yâ'eqôb et de Ba'eda Mâryâm",
+          "author": "Jules Perruchon (ed. and trans.)",
+          "note": "Paris, 1893"
+        },
+        {
+          "title": "Church and State in Ethiopia, 1270–1527",
+          "author": "Taddesse Tamrat",
+          "note": "Oxford: Clarendon Press, 1972"
+        },
+        {
+          "title": "A History of Ethiopia",
+          "author": "Harold G. Marcus",
+          "note": "University of California Press, 1994"
+        },
+        {
+          "title": "Layers of Time: A History of Ethiopia",
+          "author": "Paul B. Henze",
+          "note": "Hurst, 2000"
+        }
+      ],
+      "review": {
+        "status": "draft",
+        "notes": "Drafted from the listed sources; needs a human fact-check."
+      }
+    },
+    {
+      "id": "heirs-of-zara-yaqob",
+      "kind": "interregnum",
+      "rulers": [],
+      "house": "solomonic",
+      "title": "Zara Yaqob's Heirs",
+      "tagline": "Boy kings, a shrewd queen and a Portuguese spy",
+      "start": {
+        "date": "1468",
+        "circa": true
+      },
+      "end": {
+        "date": "1508",
+        "circa": true
+      },
+      "contestedWith": [],
+      "relationToPredecessor": "Zara Yaqob's son and grandsons",
+      "ageAtAccession": "Various",
+      "cameToPower": "Father to son, mostly",
+      "reignEnded": "Na'od killed in battle, 1508",
+      "previously": "Zara Yaqob, the iron-fisted reformer, dies around 1468.",
+      "paragraphs": [
+        "Zara Yaqob's son Baeda Maryam I (1468 to 1478) eased his father's harsh rule and let many of his victims go. His son Eskender came to the throne as a small boy in 1478, so lords and churchmen ran things for him. Eskender died in 1494. His infant son Amda Seyon II died within months, and Eskender's brother Na'od took over until 1508.",
+        "Around 1494 a Portuguese traveller called Pêro da Covilhã reached the court. His king had sent him to find Prester John, the Christian ruler of European legend. He was treated well, given land and a wife, and never allowed to leave. Behind several thrones stood Queen Eleni, Zara Yaqob's widow, who was born a Muslim princess of Hadiya. She was clever, rich and very well connected."
+      ],
+      "claims": [
+        {
+          "text": "Pêro da Covilhã was still living at the Ethiopian court decades later.",
+          "status": "confirmed",
+          "note": "The Portuguese priest Francisco Álvares met him there in the 1520s and wrote about him."
+        },
+        {
+          "text": "Queen Eleni was the real power behind several kings.",
+          "status": "confirmed",
+          "note": "Royal chronicles and Portuguese visitors both show her in a central role at court from Baeda Maryam to Lebna Dengel."
+        }
+      ],
+      "hook": "Na'od falls in battle in 1508. His son Lebna Dengel is just a boy. Queen Eleni steps in to steer, and in Adal a storm is building.",
+      "images": [
+        {
+          "file": "File:Etiopia, croce processionale di re ba'eda-maruam, 1468-78 ca., in bronzo, 01.jpg",
+          "url": "https://upload.wikimedia.org/wikipedia/commons/d/de/Etiopia%2C_croce_processionale_di_re_ba%27eda-maruam%2C_1468-78_ca.%2C_in_bronzo%2C_01.jpg",
+          "page": "https://commons.wikimedia.org/wiki/File:Etiopia,_croce_processionale_di_re_ba%27eda-maruam,_1468-78_ca.,_in_bronzo,_01.jpg",
+          "credit": "Francesco Bini",
+          "license": "CC BY-SA 4.0",
+          "made": "c. 1468–78",
+          "caption": "A bronze processional cross linked to King Baeda Maryam, made during his reign and now in the Bargello museum, Florence.",
+          "alt": "Bronze Ethiopian processional cross engraved with religious figures"
+        }
+      ],
+      "sources": [
+        {
+          "title": "Church and State in Ethiopia, 1270–1527",
+          "author": "Taddesse Tamrat",
+          "note": "Oxford: Clarendon Press, 1972"
+        },
+        {
+          "title": "The Prester John of the Indies",
+          "author": "Francisco Álvares, trans. C. F. Beckingham and G. W. B. Huntingford",
+          "note": "Hakluyt Society, 1961"
+        },
+        {
+          "title": "A History of Ethiopia",
+          "author": "Harold G. Marcus",
+          "note": "University of California Press, 1994"
+        },
+        {
+          "title": "The Ethiopians: A History",
+          "author": "Richard Pankhurst",
+          "note": "Blackwell, 1998"
+        }
+      ],
+      "review": {
+        "status": "draft",
+        "notes": "Drafted from the listed sources; needs a human fact-check."
+      }
+    },
+    {
+      "id": "lebna-dengel",
+      "kind": "monarch",
+      "rulers": [
+        "lebna-dengel"
+      ],
+      "tagline": "Prester John himself, until the storm came from Adal",
+      "start": {
+        "date": "1508",
+        "circa": true
+      },
+      "end": {
+        "date": "1540-09-02"
+      },
+      "contestedWith": [],
+      "relationToPredecessor": "Son of Na'od",
+      "ageAtAccession": "About 11",
+      "cameToPower": "Boy king, Queen Eleni steering",
+      "reignEnded": "Died on the run near Debre Damo",
+      "previously": "Na'od is dead. Old Queen Eleni is still pulling the strings.",
+      "paragraphs": [
+        "Lebna Dengel took the throne as a boy, with the shrewd old Queen Eleni guiding the regency. Europe had long dreamed of Prester John, a mighty Christian king somewhere beyond the Muslim world. Ethiopia's emperor fitted the bill. In 1520 a Portuguese embassy finally arrived, and its chaplain Francisco Álvares spent six years at court and wrote it all up.",
+        "Lebna Dengel had won battles young and felt safe, so he sent the Portuguese home without the alliance Eleni had wanted. Then Ahmad ibn Ibrahim of Adal, called Gragn, \"the Left-handed\", marched in. To many Somalis and Muslims he is a hero to this day. He crushed the imperial army at Shimbra Kure in 1529, and for over a decade his forces swept the highlands, burning churches and monasteries.",
+        "The King of Kings (Negusa Nagast) became a hunted man, moving from mountain to mountain while his family was captured or killed. He sent a desperate plea to Portugal for guns. Help was coming, but too late for him. He died in September 1540 near Debre Damo, a cliff-top monastery you can only reach by climbing a rope."
+      ],
+      "claims": [
+        {
+          "text": "Lebna Dengel was the real \"Prester John\" of European legend.",
+          "status": "legend",
+          "note": "The Prester John myth began in the 12th century and drifted from Asia to Africa. The Portuguese simply pinned it on whoever ruled Ethiopia."
+        },
+        {
+          "text": "Lebna Dengel snubbed the Portuguese alliance because he thought he no longer needed it.",
+          "status": "disputed",
+          "note": "Álvares's account shows a cool, haughty reception. Historians read it as overconfidence after early victories, but his motives are guessed at."
+        },
+        {
+          "text": "Pêro da Covilhã, the Portuguese traveller held at court since about 1494, was still alive when Álvares arrived.",
+          "status": "confirmed",
+          "note": "Álvares met him and recorded his story first-hand."
+        }
+      ],
+      "hook": "The old emperor is dead in the mountains. His young son Gelawdewos inherits a burned kingdom, and four hundred Portuguese musketeers are already at sea.",
+      "images": [
+        {
+          "file": "File:Cristofano dell’Altissimo, Portrait of Lebnä-Dengel. c. 1552-1568.jpg",
+          "url": "https://upload.wikimedia.org/wikipedia/commons/4/45/Cristofano_dell%E2%80%99Altissimo%2C_Portrait_of_Lebn%C3%A4-Dengel._c._1552-1568.jpg",
+          "page": "https://commons.wikimedia.org/wiki/File:Cristofano_dell%E2%80%99Altissimo,_Portrait_of_Lebn%C3%A4-Dengel._c._1552-1568.jpg",
+          "credit": "Cristofano dell'Altissimo",
+          "license": "Public domain",
+          "made": "c. 1552–1568",
+          "caption": "Painted in Florence for the Medici between about 1552 and 1568, after his death, by an artist who never saw him.",
+          "alt": "Italian Renaissance oil portrait of a bearded man, inscribed in Latin as the great king of the Abyssinians"
+        }
+      ],
+      "sources": [
+        {
+          "title": "The Prester John of the Indies",
+          "author": "Francisco Álvares",
+          "note": "Trans. C. F. Beckingham and G. W. B. Huntingford, Hakluyt Society, 1961"
+        },
+        {
+          "title": "Futuh al-Habasha: The Conquest of Abyssinia",
+          "author": "Shihab al-Din Ahmad bin Abd al-Qader (Arab Faqih)",
+          "note": "Trans. Paul Lester Stenhouse, Tsehai, 2003"
+        },
+        {
+          "title": "A History of Ethiopia",
+          "author": "Harold G. Marcus",
+          "note": "University of California Press, 1994; updated ed. 2002"
+        },
+        {
+          "title": "The Ethiopians: A History",
+          "author": "Richard Pankhurst",
+          "note": "Blackwell, 1998"
+        }
+      ],
+      "review": {
+        "status": "draft",
+        "notes": "Drafted from the listed sources; needs a human fact-check."
+      }
+    },
+    {
+      "id": "gelawdewos",
+      "kind": "monarch",
+      "rulers": [
+        "gelawdewos"
+      ],
+      "tagline": "Portuguese guns, a dead invader, and a kingdom to rebuild",
+      "start": {
+        "date": "1540-09-02"
+      },
+      "end": {
+        "date": "1559-03-23"
+      },
+      "contestedWith": [],
+      "relationToPredecessor": "Son of Lebna Dengel",
+      "ageAtAccession": "About 18",
+      "cameToPower": "Succeeded his father in exile",
+      "reignEnded": "Killed fighting the emir of Harar",
+      "previously": "Lebna Dengel dies a fugitive. Adal holds most of the highlands.",
+      "paragraphs": [
+        "Gelawdewos (Claudius to the Europeans) inherited a crown and not much else. In 1541 about 400 Portuguese musketeers landed at Massawa under Christovão da Gama, son of the explorer Vasco da Gama. They won early fights, but in 1542 Ahmad, reinforced by Ottoman gunners, routed them. Da Gama was captured and executed.",
+        "Gelawdewos joined the survivors, and in February 1543 they met Ahmad at Wayna Daga. Ahmad was shot dead and his army broke. To Christians it was a deliverance; to many Muslims and Somalis Ahmad remains a great hero. Gelawdewos spent years rebuilding, winning back lords who had changed sides and churches that had changed hands.",
+        "The Portuguese wanted payment in souls. Jesuits arrived to bring Ethiopia under Rome, and Gelawdewos politely refused, writing a confession of his Orthodox faith. In 1559 Nur ibn Mujahid, emir of Harar, who had married Ahmad's widow, marched against him. Gelawdewos fell in battle."
+      ],
+      "claims": [
+        {
+          "text": "A Portuguese musketeer named João de Castilho fired the shot that killed Ahmad.",
+          "status": "disputed",
+          "note": "Portuguese accounts claim the kill for their own side. Who exactly shot him at Wayna Daga can't be pinned down."
+        },
+        {
+          "text": "Ahmad's widow Bati del Wambara made avenging her husband a condition of marrying Nur.",
+          "status": "legend",
+          "note": "A popular story in Harar tradition and later retellings; contemporary sources are thin."
+        },
+        {
+          "text": "Gelawdewos wrote a defence of the Ethiopian faith against the Jesuits.",
+          "status": "confirmed",
+          "note": "The \"Confession of Claudius\" (1555) survives and was printed in Europe."
+        }
+      ],
+      "hook": "Gelawdewos is dead with no son. His brother Menas takes over amid revolts, and within four years a boy called Sarsa Dengel is wearing the crown.",
+      "images": [
+        {
+          "file": "File:GelawdewosEthiopia.jpg",
+          "url": "https://upload.wikimedia.org/wikipedia/commons/c/c6/GelawdewosEthiopia.jpg",
+          "page": "https://commons.wikimedia.org/wiki/File:GelawdewosEthiopia.jpg",
+          "credit": "Unknown Ethiopian artist",
+          "license": "Public domain",
+          "made": "Date uncertain",
+          "caption": "An Ethiopian painted triptych showing Gelawdewos defeating his enemies, made long after his death.",
+          "alt": "Ethiopian painted triptych showing the emperor Gelawdewos vanquishing his enemies"
+        }
+      ],
+      "sources": [
+        {
+          "title": "The Portuguese Expedition to Abyssinia in 1541–1543, as narrated by Castanhoso",
+          "author": "Miguel de Castanhoso",
+          "note": "Ed. R. S. Whiteway, Hakluyt Society, 1902"
+        },
+        {
+          "title": "Futuh al-Habasha: The Conquest of Abyssinia",
+          "author": "Shihab al-Din Ahmad bin Abd al-Qader (Arab Faqih)",
+          "note": "Trans. Paul Lester Stenhouse, Tsehai, 2003"
+        },
+        {
+          "title": "A History of Ethiopia",
+          "author": "Harold G. Marcus",
+          "note": "University of California Press, 1994; updated ed. 2002"
+        },
+        {
+          "title": "The Ethiopians: A History",
+          "author": "Richard Pankhurst",
+          "note": "Blackwell, 1998"
+        }
+      ],
+      "review": {
+        "status": "draft",
+        "notes": "Drafted from the listed sources; needs a human fact-check."
+      }
+    },
+    {
+      "id": "sarsa-dengel",
+      "kind": "monarch",
+      "rulers": [
+        "sarsa-dengel"
+      ],
+      "tagline": "The boy king who fought on every frontier at once",
+      "start": {
+        "date": "1563",
+        "circa": true
+      },
+      "end": {
+        "date": "1597",
+        "circa": true
+      },
+      "contestedWith": [],
+      "relationToPredecessor": "Son of Menas",
+      "ageAtAccession": "About 13",
+      "cameToPower": "Succeeded his father",
+      "reignEnded": "Fever after a meal of fish",
+      "previously": "Gelawdewos falls to Harar. His brother Menas rules four stormy years.",
+      "paragraphs": [
+        "Gelawdewos's brother Menas ruled from 1559 to 1563, fighting rebels most of the time. Then his young son Sarsa Dengel took over. The boy grew into a tough campaigner, which was just as well, because trouble came from every side.",
+        "From the south the Oromo were moving north in great waves, settling lands left empty after the wars with Adal. The monk Bahrey wrote a short, sharp history of them in 1593, wondering why his own people were losing. On the Red Sea coast the Ottomans held Massawa and were pushing inland; Sarsa Dengel beat them. In the Semien mountains he fought the Beta Israel, Ethiopia's Jews, who resisted fiercely from their peaks.",
+        "He spent over thirty years in the saddle and held the kingdom together. He died in 1597, and his chronicler blamed a fever. He left a young son and plenty of grown-up relatives with ideas."
+      ],
+      "claims": [
+        {
+          "text": "Sarsa Dengel died after eating fish from a river while on campaign.",
+          "status": "disputed",
+          "note": "Later accounts link his fatal fever to the fish. It may be a chronicler's explanation after the fact."
+        },
+        {
+          "text": "Bahrey's \"History of the Galla\" was written in 1593.",
+          "status": "confirmed",
+          "note": "The text dates itself and survives in several manuscripts."
+        },
+        {
+          "text": "Beta Israel fighters threw themselves off cliffs rather than be captured.",
+          "status": "legend",
+          "note": "Stories of mass suicide in the Semien campaigns come from the royal chronicle and later tradition; details are hard to check."
+        }
+      ],
+      "hook": "The great campaigner is dead and his heir is a child. Uncles, cousins and kingmakers are already circling the throne.",
+      "images": [
+        {
+          "file": "File:The Western kings on Horseback (detail).jpg",
+          "url": "https://upload.wikimedia.org/wikipedia/commons/4/47/The_Western_kings_on_Horseback_%28detail%29.jpg",
+          "page": "https://commons.wikimedia.org/wiki/File:The_Western_kings_on_Horseback_(detail).jpg",
+          "credit": "Unknown Japanese Nanban painter",
+          "license": "Public domain",
+          "made": "Early 17th century",
+          "caption": "A Japanese screen painted from European sources around his time imagines a mounted \"King of Abyssinia\"; it is not a true likeness.",
+          "alt": "Detail of a Japanese folding screen showing a crowned 'King of Abyssinia' on horseback"
+        }
+      ],
+      "sources": [
+        {
+          "title": "Some Records of Ethiopia, 1593–1646",
+          "author": "C. F. Beckingham and G. W. B. Huntingford (eds)",
+          "note": "Hakluyt Society, 1954; includes Bahrey's History of the Galla"
+        },
+        {
+          "title": "The Oromo of Ethiopia: A History, 1570–1860",
+          "author": "Mohammed Hassen",
+          "note": "Cambridge University Press, 1990"
+        },
+        {
+          "title": "A History of Ethiopia",
+          "author": "Harold G. Marcus",
+          "note": "University of California Press, 1994; updated ed. 2002"
+        },
+        {
+          "title": "The Ethiopians: A History",
+          "author": "Richard Pankhurst",
+          "note": "Blackwell, 1998"
+        }
+      ],
+      "review": {
+        "status": "draft",
+        "notes": "Drafted from the listed sources; needs a human fact-check."
+      }
+    },
+    {
+      "id": "succession-wars",
+      "kind": "interregnum",
+      "rulers": [],
+      "house": "solomonic",
+      "title": "Cousins at War",
+      "tagline": "Three emperors, one throne, and a Jesuit in the wings",
+      "start": {
+        "date": "1597",
+        "circa": true
+      },
+      "end": {
+        "date": "1607",
+        "circa": true
+      },
+      "contestedWith": [],
+      "relationToPredecessor": "Sarsa Dengel's son and nephew",
+      "ageAtAccession": "Yaqob about 7",
+      "cameToPower": "Nobles crown a boy",
+      "reignEnded": "Battle of Gol, 1607",
+      "previously": "Sarsa Dengel dies on campaign. His son Yaqob is still a child.",
+      "paragraphs": [
+        "Sarsa Dengel's son Yaqob was crowned as a little boy, which suited the nobles fine. When he grew up and tried to rule for himself, they deposed him and packed him off to exile in the far south-west. In his place they put his cousin Za Dengel.",
+        "Za Dengel was clever and restless. He fell under the spell of Pedro Páez, a Spanish Jesuit who had arrived in 1603, and talked of joining the Roman Church. That was a fatal mistake. The church and the nobles rose against him, and he was killed in battle in 1604. Yaqob was fetched back and put on the throne again.",
+        "He did not last. Another cousin, a hard-bitten warrior called Susenyos, had his own claim and his own army. In 1607 the two met at Gol, and Yaqob was killed."
+      ],
+      "claims": [
+        {
+          "text": "Za Dengel secretly promised to become a Catholic.",
+          "status": "disputed",
+          "note": "Jesuit letters say so with obvious enthusiasm. Ethiopian sources mainly record the backlash."
+        },
+        {
+          "text": "Yaqob was not really killed at Gol and survived in hiding.",
+          "status": "legend",
+          "note": "Rumours of a surviving Yaqob sprang up and pretenders used his name; the chronicles treat him as dead."
+        }
+      ],
+      "hook": "The cousin who won at Gol grew up as a captive among the Oromo and a bandit chief. Now he is emperor, and his new Jesuit friend has big plans.",
+      "images": [
+        {
+          "file": "File:1690 Coronelli Map of Ethiopia, Abyssinia, and the Source of the Blue Nile - Geographicus - Abissinia-coronelli-1690.jpg",
+          "url": "https://upload.wikimedia.org/wikipedia/commons/0/00/1690_Coronelli_Map_of_Ethiopia%2C_Abyssinia%2C_and_the_Source_of_the_Blue_Nile_-_Geographicus_-_Abissinia-coronelli-1690.jpg",
+          "page": "https://commons.wikimedia.org/wiki/File:1690_Coronelli_Map_of_Ethiopia,_Abyssinia,_and_the_Source_of_the_Blue_Nile_-_Geographicus_-_Abissinia-coronelli-1690.jpg",
+          "credit": "Vincenzo Coronelli",
+          "license": "Public domain",
+          "made": "1690",
+          "caption": "Coronelli's map of the Ethiopian highlands around Lake Tana, drawn in 1690 largely from Jesuit reports, about 80 years after these wars.",
+          "alt": "Antique Italian map of the Ethiopian highlands centred on Lake Tana and the source of the Blue Nile"
+        }
+      ],
+      "sources": [
+        {
+          "title": "History of Ethiopia, 1622",
+          "author": "Pedro Páez",
+          "note": "Ed. Isabel Boavida, Hervé Pennec and Manuel João Ramos; trans. Christopher J. Tribe, Hakluyt Society, 2011"
+        },
+        {
+          "title": "A History of Ethiopia",
+          "author": "Harold G. Marcus",
+          "note": "University of California Press, 1994; updated ed. 2002"
+        },
+        {
+          "title": "The Ethiopians: A History",
+          "author": "Richard Pankhurst",
+          "note": "Blackwell, 1998"
+        }
+      ],
+      "review": {
+        "status": "draft",
+        "notes": "Drafted from the listed sources; needs a human fact-check."
+      }
+    },
+    {
+      "id": "susenyos",
+      "kind": "monarch",
+      "rulers": [
+        "susenyos"
+      ],
+      "tagline": "The emperor who turned Catholic and set his realm on fire",
+      "start": {
+        "date": "1607",
+        "circa": true
+      },
+      "end": {
+        "date": "1632",
+        "circa": true
+      },
+      "contestedWith": [],
+      "relationToPredecessor": "Cousin of Yaqob",
+      "ageAtAccession": "About 35",
+      "cameToPower": "Killed Yaqob at the battle of Gol",
+      "reignEnded": "Abdicated for his son, then died",
+      "previously": "Yaqob dies at the battle of Gol. His cousin Susenyos takes the crown.",
+      "paragraphs": [
+        "Susenyos had a wild youth. Carried off as a boy by Oromo raiders, he lived among them, then roamed as a freebooter with his own band. He knew how to fight and how to win people over. Once emperor, he made friends with the Jesuit Pedro Páez, a clever builder and a patient talker.",
+        "Páez won him over. Susenyos declared himself a Catholic, publicly in 1622. Páez died that year, and his successors were far less tactful. In 1626 the Portuguese patriarch Afonso Mendes arrived and ordered Roman ways: new rites, new feast days, priests re-ordained, even rules on circumcision. To most Ethiopians this was an attack on who they were.",
+        "Revolt after revolt followed. In 1632 Susenyos won a bloody battle, and the sight of thousands dead seems to have broken him. He announced that people could return to their old faith, handed power to his son Fasilides, and died a few months later."
+      ],
+      "claims": [
+        {
+          "text": "Pedro Páez built Susenyos a stone palace at Gorgora on Lake Tana.",
+          "status": "disputed",
+          "note": "Jesuit accounts credit Páez with the building. How much was his own design is debated, and the ruins are hard to date."
+        },
+        {
+          "text": "After the last battle, Fasilides showed his father the dead and said they were his own subjects.",
+          "status": "legend",
+          "note": "A famous scene in later retellings; the exact words are a storyteller's."
+        },
+        {
+          "text": "Susenyos publicly professed the Catholic faith in 1622.",
+          "status": "confirmed",
+          "note": "Recorded by the Jesuits and in his royal chronicle."
+        }
+      ],
+      "hook": "Susenyos is dead and the Catholic experiment with him. His son Fasilides has scores to settle, starting with the Jesuits.",
+      "images": [
+        {
+          "file": "File:King Susenyos I of Ethiopia receives the Latin Patriarch Afonso Mendes.jpg",
+          "url": "https://upload.wikimedia.org/wikipedia/commons/d/d7/King_Susenyos_I_of_Ethiopia_receives_the_Latin_Patriarch_Afonso_Mendes.jpg",
+          "page": "https://commons.wikimedia.org/wiki/File:King_Susenyos_I_of_Ethiopia_receives_the_Latin_Patriarch_Afonso_Mendes.jpg",
+          "credit": "Unknown artist",
+          "license": "CC BY-SA 4.0",
+          "made": "1713",
+          "caption": "A European picture of 1713 showing Susenyos receiving the Catholic patriarch Afonso Mendes, made about 80 years later.",
+          "alt": "Illustration of Emperor Susenyos receiving the Latin Patriarch Afonso Mendes"
+        }
+      ],
+      "sources": [
+        {
+          "title": "History of Ethiopia, 1622",
+          "author": "Pedro Páez",
+          "note": "Ed. Isabel Boavida, Hervé Pennec and Manuel João Ramos; trans. Christopher J. Tribe, Hakluyt Society, 2011"
+        },
+        {
+          "title": "Envoys of a Human God: The Jesuit Mission to Christian Ethiopia, 1557–1632",
+          "author": "Andreu Martínez d'Alòs-Moner",
+          "note": "Brill, 2015"
+        },
+        {
+          "title": "A History of Ethiopia",
+          "author": "Harold G. Marcus",
+          "note": "University of California Press, 1994; updated ed. 2002"
+        },
+        {
+          "title": "The Ethiopians: A History",
+          "author": "Richard Pankhurst",
+          "note": "Blackwell, 1998"
+        }
+      ],
+      "review": {
+        "status": "draft",
+        "notes": "Drafted from the listed sources; needs a human fact-check."
+      }
+    },
+    {
+      "id": "fasilides",
+      "kind": "monarch",
+      "rulers": [
+        "fasilides"
+      ],
+      "tagline": "Kicked out the Jesuits and built a city of castles",
+      "start": {
+        "date": "1632",
+        "circa": true
+      },
+      "end": {
+        "date": "1667-10-18"
+      },
+      "contestedWith": [],
+      "relationToPredecessor": "Son of Susenyos",
+      "ageAtAccession": "About 29",
+      "cameToPower": "His father abdicated in his favour",
+      "reignEnded": "Died near Gondar",
+      "previously": "Susenyos gives up on Rome, hands over to his son and dies.",
+      "paragraphs": [
+        "Fasilides moved fast. The Catholic patriarch Afonso Mendes and the Jesuits were thrown out, and those who tried to sneak back faced death. He even made deals with the Ottoman governors on the coast to stop missionaries landing. The Orthodox church was back in charge, and Europe was kept at arm's length for generations.",
+        "For centuries the emperors had lived in moving tent cities. Fasilides settled down. From about 1636 he made Gondar, north of Lake Tana, his permanent capital and built a stone castle with towers and battlements. His successors added more, and the walled royal compound, Fasil Ghebbi, is now a World Heritage Site. A pool outside town is still called Fasilides' Bath.",
+        "Gondar grew into a busy city of churches, markets and courtiers. Fasilides ruled for 35 years and died in 1667, leaving his son Yohannes a settled capital and a church sure of itself."
+      ],
+      "claims": [
+        {
+          "text": "Fasilides had his own brother put to death.",
+          "status": "disputed",
+          "note": "Reported in chronicles and later histories amid the purge of Catholic supporters; the details and the motive are unclear."
+        },
+        {
+          "text": "Fasilides built the bathing pavilion now called Fasilides' Bath.",
+          "status": "disputed",
+          "note": "Tradition gives it his name, but some scholars date the building later in the Gondar period."
+        },
+        {
+          "text": "Fasil Ghebbi was made a UNESCO World Heritage Site in 1979.",
+          "status": "confirmed",
+          "note": "UNESCO lists it as Fasil Ghebbi, Gondar Region."
+        }
+      ],
+      "hook": "The castle-builder is dead. His son Yohannes is a stern and pious man, and he has firm ideas about who should live where in Gondar.",
+      "images": [
+        {
+          "file": "File:ET Gondar asv2018-02 img18 Fasil Ghebbi.jpg",
+          "url": "https://upload.wikimedia.org/wikipedia/commons/3/33/ET_Gondar_asv2018-02_img18_Fasil_Ghebbi.jpg",
+          "page": "https://commons.wikimedia.org/wiki/File:ET_Gondar_asv2018-02_img18_Fasil_Ghebbi.jpg",
+          "credit": "A.Savin",
+          "license": "FAL",
+          "made": "2018",
+          "caption": "The Fasil Ghebbi fortress in Gondar, photographed in 2018. There is no true portrait of Fasilides.",
+          "alt": "Photograph of the stone fortress of Fasil Ghebbi in Gondar, Ethiopia"
+        }
+      ],
+      "sources": [
+        {
+          "title": "Some Records of Ethiopia, 1593–1646",
+          "author": "C. F. Beckingham and G. W. B. Huntingford (eds)",
+          "note": "Hakluyt Society, 1954"
+        },
+        {
+          "title": "A History of Ethiopia",
+          "author": "Harold G. Marcus",
+          "note": "University of California Press, 1994; updated ed. 2002"
+        },
+        {
+          "title": "The Ethiopians: A History",
+          "author": "Richard Pankhurst",
+          "note": "Blackwell, 1998"
+        },
+        {
+          "title": "Encyclopaedia Aethiopica",
+          "author": "Siegbert Uhlig and Alessandro Bausi (eds)",
+          "note": "Harrassowitz, 2003–2014"
+        }
+      ],
+      "review": {
+        "status": "draft",
+        "notes": "Drafted from the listed sources; needs a human fact-check."
+      }
+    },
+    {
+      "id": "yohannes-i",
+      "kind": "monarch",
+      "rulers": [
+        "yohannes-i"
+      ],
+      "tagline": "The strict churchman who drew lines across Gondar",
+      "start": {
+        "date": "1667-10-18"
+      },
+      "end": {
+        "date": "1682",
+        "circa": true
+      },
+      "contestedWith": [],
+      "relationToPredecessor": "Son of Fasilides",
+      "ageAtAccession": "Unknown",
+      "cameToPower": "Succeeded his father",
+      "reignEnded": "Died of illness",
+      "previously": "Fasilides dies after 35 years, leaving Gondar a real capital.",
+      "paragraphs": [
+        "Yohannes was devout to the bone. Soon after taking over he ordered Muslims and the last Catholics, mostly descendants of the Portuguese, to live apart from Christians. Gondar's Muslims got their own quarter below the city, where they did much of the trading.",
+        "He also refereed the church's fiercest argument of the day: exactly how Christ's divine and human natures were united. Rival schools of monks shouted it out at councils in front of the emperor, and Yohannes leaned on them to agree. They didn't, not for another two centuries. He died in 1682, and his son Iyasu stepped up."
+      ],
+      "claims": [
+        {
+          "text": "Yohannes ordered Muslims and remaining Catholics to live apart from Christians.",
+          "status": "confirmed",
+          "note": "Recorded in his royal chronicle; Gondar's separate Muslim quarter grew from it."
+        }
+      ],
+      "hook": "Yohannes dies, and his son Iyasu inherits a quiet capital. Iyasu will not be quiet. He will become the greatest of all the Gondar emperors.",
+      "images": [
+        {
+          "file": "File:Library and Chancellery of Yohannes I.jpg",
+          "url": "https://upload.wikimedia.org/wikipedia/commons/6/64/Library_and_Chancellery_of_Yohannes_I.jpg",
+          "page": "https://commons.wikimedia.org/wiki/File:Library_and_Chancellery_of_Yohannes_I.jpg",
+          "credit": "Bernard Gagnon",
+          "license": "CC BY-SA 3.0",
+          "made": "2012",
+          "caption": "The library and chancellery of Yohannes I inside the Fasil Ghebbi compound, photographed in 2012.",
+          "alt": "Photograph of the stone library and chancellery buildings of Yohannes I in Fasil Ghebbi, Gondar"
+        }
+      ],
+      "sources": [
+        {
+          "title": "Annales Iohannis I, Iyasu I et Bakaffa",
+          "author": "Ignazio Guidi (ed.)",
+          "note": "Corpus Scriptorum Christianorum Orientalium, 1903"
+        },
+        {
+          "title": "A History of Ethiopia",
+          "author": "Harold G. Marcus",
+          "note": "University of California Press, 1994; updated ed. 2002"
+        },
+        {
+          "title": "The Ethiopians: A History",
+          "author": "Richard Pankhurst",
+          "note": "Blackwell, 1998"
+        }
+      ],
+      "review": {
+        "status": "draft",
+        "notes": "Drafted from the listed sources; needs a human fact-check."
+      }
+    },
+    {
+      "id": "iyasu-i",
+      "kind": "monarch",
+      "rulers": [
+        "iyasu-i"
+      ],
+      "tagline": "Gondar's greatest emperor, betrayed by his own son",
+      "start": {
+        "date": "1682",
+        "circa": true
+      },
+      "end": {
+        "date": "1706"
+      },
+      "contestedWith": [],
+      "relationToPredecessor": "Son of Yohannes I",
+      "ageAtAccession": "About 28",
+      "cameToPower": "Succeeded his father",
+      "reignEnded": "Murdered on a Lake Tana island",
+      "previously": "Pious Yohannes I dies. His son Iyasu takes the throne at Gondar.",
+      "paragraphs": [
+        "Iyasu was the last truly powerful emperor at Gondar. He led armies south and west, collected tribute, and kept the great lords in line. He called church councils to settle the argument over Christ's nature and tried to make the decisions stick. People called him Iyasu the Great.",
+        "He built too. His church of Debre Berhan Selassie, \"Light of the Trinity\", still stands in Gondar, its ceiling covered in rows of painted winged angels' faces. In 1699 a French doctor, Charles Poncet, came to treat him for a skin complaint and left one of the few outside descriptions of the court, all gold, velvet and ceremony.",
+        "Late in life Iyasu grew weary. He withdrew to an island in Lake Tana, and nobles crowned his son Tekle Haymanot in his place. In 1706 the old emperor was murdered on the island, on the son's orders."
+      ],
+      "claims": [
+        {
+          "text": "In 1691 Iyasu had the Ark of the Covenant's casket opened at Aksum and spoke to it.",
+          "status": "legend",
+          "note": "The visit is told in his royal chronicle and retold by James Bruce; what was in the casket is a matter of faith."
+        },
+        {
+          "text": "The famous angel ceiling at Debre Berhan Selassie dates from Iyasu's time.",
+          "status": "disputed",
+          "note": "The church was founded under Iyasu, but it was damaged and partly rebuilt later, and the paintings may be 18th-century."
+        },
+        {
+          "text": "Iyasu retired to the island after the death of his favourite companion.",
+          "status": "disputed",
+          "note": "The chronicle links his withdrawal to grief; modern historians also see a court plot."
+        }
+      ],
+      "hook": "The great Iyasu is dead, killed for his son. That son won't last two years, and Gondar is about to enter a bloody time of murders, poisonings and usurpers.",
+      "images": [
+        {
+          "file": "File:Iyasu I of Ethiopia.jpg",
+          "url": "https://upload.wikimedia.org/wikipedia/commons/e/e7/Iyasu_I_of_Ethiopia.jpg",
+          "page": "https://commons.wikimedia.org/wiki/File:Iyasu_I_of_Ethiopia.jpg",
+          "credit": "Unknown Ethiopian artist (Bibliothèque nationale de France)",
+          "license": "Public domain",
+          "made": "19th century",
+          "caption": "Iyasu I with his court, from a 19th-century Ethiopian manuscript now in Paris, over a century after his death.",
+          "alt": "Ethiopian manuscript painting of Emperor Iyasu I seated with his court"
+        }
+      ],
+      "sources": [
+        {
+          "title": "Annales Iohannis I, Iyasu I et Bakaffa",
+          "author": "Ignazio Guidi (ed.)",
+          "note": "Corpus Scriptorum Christianorum Orientalium, 1903"
+        },
+        {
+          "title": "The Red Sea at the Close of the Seventeenth Century",
+          "author": "William Foster (ed.)",
+          "note": "Hakluyt Society, 1949; includes Charles Poncet's narrative"
+        },
+        {
+          "title": "Travels to Discover the Source of the Nile",
+          "author": "James Bruce",
+          "note": "1790"
+        },
+        {
+          "title": "A History of Ethiopia",
+          "author": "Harold G. Marcus",
+          "note": "University of California Press, 1994; updated ed. 2002"
+        }
+      ],
+      "review": {
+        "status": "draft",
+        "notes": "Drafted from the listed sources; needs a human fact-check."
+      }
+    },
+    {
+      "id": "bloody-decades",
+      "kind": "interregnum",
+      "rulers": [],
+      "house": "gondarine",
+      "title": "Gondar's Bloody Decades",
+      "tagline": "Five emperors, two murders and a king in disguise",
+      "start": {
+        "date": "1706"
+      },
+      "end": {
+        "date": "1730",
+        "circa": true
+      },
+      "contestedWith": [],
+      "relationToPredecessor": "Sons and kin of Iyasu I",
+      "ageAtAccession": "Various",
+      "cameToPower": "Patricide, then palace coups",
+      "reignEnded": "Bakaffa dies in Gondar",
+      "previously": "Iyasu the Great is murdered on his island, on his own son's orders.",
+      "paragraphs": [
+        "Tekle Haymanot I took the throne by having his father killed, and Gondar never forgave him. People called him the Accursed. In 1708 he was murdered in turn. His uncle Tewoflos took over and hunted down the men behind Iyasu's death, then died himself in 1711.",
+        "Next came Yostos, a court official's son whose royal blood came only through his mother. He was the first emperor from outside the Solomonic male line, a usurper to the old families. He fell ill and was pushed aside in 1716. Iyasu's son Dawit III followed and died in 1721, poisoned, said the court.",
+        "Then Bakaffa, another son of Iyasu. He was stern and suspicious, and he kept the nobles in line with fear. He also built a palace and banqueting hall inside Gondar's royal compound. When he died in 1730, his heir was a little boy."
+      ],
+      "claims": [
+        {
+          "text": "Bakaffa wandered his kingdom in disguise and met his wife Mentewab that way.",
+          "status": "legend",
+          "note": "A romantic court story told about the match. The chronicles show a political marriage that tied the crown to a strong family from Qwara."
+        },
+        {
+          "text": "Dawit III was poisoned.",
+          "status": "disputed",
+          "note": "His sudden death in 1721 was blamed on poison at the time. Nothing proves it, and plots were the usual explanation for any royal death in Gondar."
+        },
+        {
+          "text": "Yostos was the first emperor from outside the Solomonic male line.",
+          "status": "confirmed",
+          "note": "Regnal lists and the standard histories agree he descended from the dynasty only through his mother."
+        }
+      ],
+      "hook": "Bakaffa is dead and his son Iyasu is about seven. The real ruler will be the boy's mother, a young widow from the west named Mentewab.",
+      "images": [
+        {
+          "file": "File:Bakaffa I of Ethiopia.jpg",
+          "url": "https://upload.wikimedia.org/wikipedia/commons/5/57/Bakaffa_I_of_Ethiopia.jpg",
+          "page": "https://commons.wikimedia.org/wiki/File:Bakaffa_I_of_Ethiopia.jpg",
+          "credit": "Unknown Ethiopian artist",
+          "license": "Public domain",
+          "made": "18th century",
+          "caption": "A painting of Bakaffa from an Ethiopian manuscript, with a line of Ge'ez in which Bakaffa calls himself “your servant”.",
+          "alt": "Manuscript painting of King Bakaffa with a line of Ge'ez writing"
+        }
+      ],
+      "sources": [
+        {
+          "title": "A History of Ethiopia",
+          "author": "Harold G. Marcus",
+          "note": "University of California Press, 1994; updated ed. 2002"
+        },
+        {
+          "title": "The Ethiopians: A History",
+          "author": "Richard Pankhurst",
+          "note": "Blackwell, 1998"
+        },
+        {
+          "title": "Encyclopaedia Aethiopica",
+          "author": "Siegbert Uhlig (ed.)",
+          "note": "Harrassowitz, 2003–2014"
+        }
+      ],
+      "review": {
+        "status": "draft",
+        "notes": "Drafted from the listed sources; needs a human fact-check."
+      }
+    },
+    {
+      "id": "iyasu-ii",
+      "kind": "monarch",
+      "rulers": [
+        "iyasu-ii",
+        "mentewab"
+      ],
+      "title": "Iyasu II and Mentewab",
+      "tagline": "A boy emperor, and the mother who really ran things",
+      "start": {
+        "date": "1730",
+        "circa": true
+      },
+      "end": {
+        "date": "1755",
+        "circa": true
+      },
+      "contestedWith": [],
+      "relationToPredecessor": "Son of Bakaffa and his widow",
+      "ageAtAccession": "About 7",
+      "cameToPower": "Crowned as a child with his mother",
+      "reignEnded": "Iyasu dies suddenly",
+      "previously": "Bakaffa is dead. His heir is a little boy.",
+      "paragraphs": [
+        "Mentewab, baptised Walatta Giyorgis, came from Qwara, west of Lake Tana. When her husband died she did something new. She had herself crowned beside her son as co-ruler, and for the next quarter of a century she was the power in Gondar. Her brother and other Qwara kin filled the top jobs at court, which the older noble families hated.",
+        "She built on a grand scale. Her palace and church at Kuskuam, just outside the city, became her own little court. Iyasu grew up but never really took the reins. He loved the hunt and fine buildings, and left the business of ruling to his mother.",
+        "He did go to war once in a big way. In 1744 he marched on the kingdom of Sennar in Sudan, and his army was badly beaten. In 1755 he died suddenly, still young. His son Iyoas was a child, so Mentewab carried on."
+      ],
+      "claims": [
+        {
+          "text": "Iyasu cared more for hunting and building than for ruling.",
+          "status": "disputed",
+          "note": "This is the picture painted by the chronicles and by James Bruce, who heard it from courtiers. It may be unfair to a man whose mother held the real power."
+        },
+        {
+          "text": "Iyasu was poisoned.",
+          "status": "disputed",
+          "note": "Rumours blamed rivals at court for his sudden death in 1755. There is no solid evidence either way."
+        },
+        {
+          "text": "Mentewab was crowned as co-ruler with her son.",
+          "status": "confirmed",
+          "note": "Recorded in the royal chronicle of Iyasu II; the standard histories accept it."
+        }
+      ],
+      "hook": "Iyasu is gone and his son Iyoas takes the throne. The boy's mother is an Oromo noblewoman, and her kinsmen are on their way to Gondar.",
+      "images": [
+        {
+          "file": "File:Nerga Sellasie 2 (church) - Mentewab empress particular.jpg",
+          "url": "https://upload.wikimedia.org/wikipedia/commons/5/52/Nerga_Sellasie_2_%28church%29_-_Mentewab_empress_particular.jpg",
+          "page": "https://commons.wikimedia.org/wiki/File:Nerga_Sellasie_2_(church)_-_Mentewab_empress_particular.jpg",
+          "credit": "Unknown Gondarine painter",
+          "license": "Public domain",
+          "made": "c. 1748",
+          "caption": "A painting from her own lifetime in the church of Narga Selassie, which Mentewab founded.",
+          "alt": "Church painting of Empress Mentewab lying face down at the feet of Mary and the infant Jesus"
+        }
+      ],
+      "sources": [
+        {
+          "title": "A History of Ethiopia",
+          "author": "Harold G. Marcus",
+          "note": "University of California Press, 1994; updated ed. 2002"
+        },
+        {
+          "title": "The Ethiopians: A History",
+          "author": "Richard Pankhurst",
+          "note": "Blackwell, 1998"
+        },
+        {
+          "title": "Annales regum Iyasu II et Iyo'as",
+          "author": "Ignazio Guidi (ed.)",
+          "note": "The royal chronicle, published in the Corpus Scriptorum Christianorum Orientalium, 1910–12"
+        },
+        {
+          "title": "Travels to Discover the Source of the Nile",
+          "author": "James Bruce",
+          "note": "1790; he met Mentewab in her old age"
+        }
+      ],
+      "review": {
+        "status": "draft",
+        "notes": "Drafted from the listed sources; needs a human fact-check."
+      }
+    },
+    {
+      "id": "iyoas-i",
+      "kind": "monarch",
+      "rulers": [
+        "iyoas-i"
+      ],
+      "tagline": "The boy king torn between his grandmother and his mother",
+      "start": {
+        "date": "1755",
+        "circa": true
+      },
+      "end": {
+        "date": "1769",
+        "circa": true
+      },
+      "contestedWith": [],
+      "relationToPredecessor": "Son of Iyasu II",
+      "ageAtAccession": "A young child",
+      "cameToPower": "Succeeded his father",
+      "reignEnded": "Strangled on a warlord's orders",
+      "previously": "Iyasu II dies young. Mentewab keeps the regency for his little son.",
+      "paragraphs": [
+        "Iyoas had two families, and they couldn't stand each other. On one side stood his grandmother Mentewab and her Qwara kin. On the other stood his mother Wubit, an Oromo noblewoman from the Yejju and Wollo country, whose relatives arrived in Gondar with their own soldiers. As the boy grew up he leaned to his mother's side.",
+        "The old nobles looked for a strongman to fix things, and they found one in Ras Mikael Sehul, the hard old lord of Tigray. A Ras was a top-rank noble. Mikael was invited to Gondar to help and stayed to rule.",
+        "In 1769 Mikael had Iyoas strangled. He put an elderly prince on the throne, who was dead within months. From now on emperors would be made and unmade by warlords. The crown kept its glamour, but the power had gone."
+      ],
+      "claims": [
+        {
+          "text": "Iyoas preferred to speak Oromo at court.",
+          "status": "disputed",
+          "note": "Reported by James Bruce and repeated by later historians. It reflects how his enemies saw him and may be exaggerated."
+        },
+        {
+          "text": "Iyoas was killed on the orders of Ras Mikael Sehul.",
+          "status": "confirmed",
+          "note": "The royal chronicle and Bruce, who arrived in Ethiopia that year, agree that Mikael was behind it."
+        }
+      ],
+      "hook": "An emperor has been murdered by his own regent, and nobody can stop it. Ethiopia is sliding into an age when princes, not kings, call the shots.",
+      "images": [
+        {
+          "file": "File:Chateau-Ras-Mikael-Sehul-Facade-Nord-Est-1.jpg",
+          "url": "https://upload.wikimedia.org/wikipedia/commons/5/5e/Chateau-Ras-Mikael-Sehul-Facade-Nord-Est-1.jpg",
+          "page": "https://commons.wikimedia.org/wiki/File:Chateau-Ras-Mikael-Sehul-Facade-Nord-Est-1.jpg",
+          "credit": "Darpeggio",
+          "license": "CC BY-SA 4.0",
+          "made": "2026 photo of an 18th-century building",
+          "caption": "The ruined Gondar residence of Ras Mikael Sehul, the kingmaker who had Iyoas killed. Photographed in 2026.",
+          "alt": "Ruined stone walls of a mid-18th-century castle in Gondar"
+        }
+      ],
+      "sources": [
+        {
+          "title": "A History of Ethiopia",
+          "author": "Harold G. Marcus",
+          "note": "University of California Press, 1994; updated ed. 2002"
+        },
+        {
+          "title": "Ethiopia: The Era of the Princes",
+          "author": "Mordechai Abir",
+          "note": "Longman, 1968"
+        },
+        {
+          "title": "Annales regum Iyasu II et Iyo'as",
+          "author": "Ignazio Guidi (ed.)",
+          "note": "The royal chronicle, published in the Corpus Scriptorum Christianorum Orientalium, 1910–12"
+        },
+        {
+          "title": "Travels to Discover the Source of the Nile",
+          "author": "James Bruce",
+          "note": "1790"
+        }
+      ],
+      "review": {
+        "status": "draft",
+        "notes": "Drafted from the listed sources; needs a human fact-check."
+      }
+    },
+    {
+      "id": "zemene-mesafint",
+      "kind": "interregnum",
+      "rulers": [],
+      "house": "princes",
+      "title": "The Era of the Princes",
+      "tagline": "Puppet emperors, rival warlords and a very tall Scot",
+      "start": {
+        "date": "1769",
+        "circa": true
+      },
+      "end": {
+        "date": "1855-02-11"
+      },
+      "contestedWith": [],
+      "relationToPredecessor": "Puppets of the warlords",
+      "ageAtAccession": "Various",
+      "cameToPower": "Picked by whoever held Gondar",
+      "reignEnded": "Kassa Hailu crowned emperor",
+      "previously": "Iyoas is strangled on the orders of Ras Mikael Sehul.",
+      "paragraphs": [
+        "Ethiopians call this time the Zemene Mesafint, the Era of the Princes, after the Bible's line about days when Israel had no king. Gondar still had an emperor, usually several in a row. They were puppets, crowned and dumped by the regional lords who fought over the country.",
+        "Ras Mikael Sehul ran things first, until rivals beat him and sent him home to Tigray. Then a family of Oromo lords from Yejju took charge as regents, starting with Ras Ali I. For decades they were the real power in the middle of the country, while Tigray, Shewa, Gojjam and Semien went their own way.",
+        "The Scottish traveller James Bruce lived through the early years, in Ethiopia from 1769 to 1771. Back home his tales were mocked. By the 1840s the regent was Ras Ali II, and on the western border a tough young chief called Kassa Hailu was learning to win battles."
+      ],
+      "claims": [
+        {
+          "text": "Bruce saw people eat raw meat cut from a living cow, and London refused to believe him.",
+          "status": "disputed",
+          "note": "Bruce described it in his 1790 Travels and was ridiculed. Raw beef is a real Ethiopian dish; whether he saw the live-cow version is still argued."
+        },
+        {
+          "text": "Emperor Tekle Giyorgis I was deposed and restored about half a dozen times.",
+          "status": "disputed",
+          "note": "The regnal lists agree he came and went repeatedly between 1779 and 1800, but they count his reigns differently."
+        },
+        {
+          "text": "Bruce claimed to be the first European to reach the source of the Blue Nile.",
+          "status": "confirmed",
+          "note": "He said so in his book. The Jesuit Pedro Páez had been there over 150 years earlier."
+        }
+      ],
+      "hook": "Kassa Hailu has beaten Ras Ali, and now he has beaten the lord of Semien too. In February 1855 he has himself crowned King of Kings, under a name out of prophecy.",
+      "images": [
+        {
+          "file": "File:Pompeo Batoni - James Bruce of Kinnaird, 1730 - 1794. African explorer - PG 141 - National Galleries of Scotland.jpg",
+          "url": "https://upload.wikimedia.org/wikipedia/commons/e/e1/Pompeo_Batoni_-_James_Bruce_of_Kinnaird%2C_1730_-_1794._African_explorer_-_PG_141_-_National_Galleries_of_Scotland.jpg",
+          "page": "https://commons.wikimedia.org/wiki/File:Pompeo_Batoni_-_James_Bruce_of_Kinnaird,_1730_-_1794._African_explorer_-_PG_141_-_National_Galleries_of_Scotland.jpg",
+          "credit": "Pompeo Batoni",
+          "license": "Public domain",
+          "made": "1762",
+          "caption": "James Bruce, painted in Rome in 1762, a few years before he set out for Ethiopia.",
+          "alt": "Oil portrait of James Bruce of Kinnaird, the 18th-century Scottish explorer"
+        }
+      ],
+      "sources": [
+        {
+          "title": "Ethiopia: The Era of the Princes",
+          "author": "Mordechai Abir",
+          "note": "Longman, 1968"
+        },
+        {
+          "title": "A History of Ethiopia",
+          "author": "Harold G. Marcus",
+          "note": "University of California Press, 1994; updated ed. 2002"
+        },
+        {
+          "title": "Travels to Discover the Source of the Nile",
+          "author": "James Bruce",
+          "note": "1790"
+        },
+        {
+          "title": "Land and Society in the Christian Kingdom of Ethiopia",
+          "author": "Donald Crummey",
+          "note": "University of Illinois Press, 2000"
+        }
+      ],
+      "review": {
+        "status": "draft",
+        "notes": "Drafted from the listed sources; needs a human fact-check."
+      }
+    },
+    {
+      "id": "tewodros-ii",
+      "kind": "monarch",
+      "rulers": [
+        "tewodros-ii"
+      ],
+      "tagline": "The outsider who reunited Ethiopia and died at Magdala",
+      "start": {
+        "date": "1855-02-11"
+      },
+      "end": {
+        "date": "1868-04-13"
+      },
+      "contestedWith": [],
+      "relationToPredecessor": "No royal kin; a border chief",
+      "ageAtAccession": "About 37",
+      "cameToPower": "Beat the princes one by one",
+      "reignEnded": "Shot himself at Magdala",
+      "previously": "Kassa Hailu, a chief from the western borderlands, wins war after war.",
+      "paragraphs": [
+        "Kassa Hailu came from Qwara, a rough border land, and his enemies sneered at his humble birth. He crushed the great lords anyway, and on 11 February 1855 he was crowned. He took the name Tewodros from an old prophecy of a king who would come to restore Ethiopia.",
+        "He meant it. He wanted one strong state, a real army and an end to the princes' private wars. He set European missionaries at Gafat to casting cannon, including a huge mortar he called Sebastopol. But rebellions kept flaring, and his rule grew more violent each year.",
+        "When Queen Victoria failed to answer his letter, he jailed the British consul, Charles Cameron, and other Europeans. Britain sent an army under Robert Napier. On 13 April 1868 the British stormed his mountain fortress of Magdala. Tewodros shot himself rather than be taken."
+      ],
+      "claims": [
+        {
+          "text": "The pistol he killed himself with was a gift from Queen Victoria.",
+          "status": "disputed",
+          "note": "Told by members of the British expedition soon after. The story is famous but hard to prove."
+        },
+        {
+          "text": "He kept European captives because his letter to Queen Victoria went unanswered.",
+          "status": "confirmed",
+          "note": "The letter was shelved at the Foreign Office; Rassam's and Markham's accounts and later historians agree this sparked the crisis."
+        },
+        {
+          "text": "His young son Alemayehu was taken to England and died there in 1879.",
+          "status": "confirmed",
+          "note": "Buried at St George's Chapel, Windsor. Ethiopia has asked for his remains back."
+        }
+      ],
+      "hook": "Tewodros is dead and the British are marching home. Who will be King of Kings now? The lord of Lasta moves first.",
+      "images": [
+        {
+          "file": "File:Tewodros II of Ethiopia in the 1860s.jpg",
+          "url": "https://upload.wikimedia.org/wikipedia/commons/0/03/Tewodros_II_of_Ethiopia_in_the_1860s.jpg",
+          "page": "https://commons.wikimedia.org/wiki/File:Tewodros_II_of_Ethiopia_in_the_1860s.jpg",
+          "credit": "Étienne Neurdein",
+          "license": "Public domain",
+          "made": "1860s",
+          "caption": "A drawing of Tewodros published in Paris during his reign.",
+          "alt": "Drawn portrait of Emperor Tewodros II"
+        }
+      ],
+      "sources": [
+        {
+          "title": "King of Kings: Tewodros of Ethiopia",
+          "author": "Sven Rubenson",
+          "note": "1966"
+        },
+        {
+          "title": "The Barefoot Emperor: An Ethiopian Tragedy",
+          "author": "Philip Marsden",
+          "note": "HarperPress, 2007"
+        },
+        {
+          "title": "A History of Modern Ethiopia, 1855–1991",
+          "author": "Bahru Zewde",
+          "note": "James Currey, 2nd ed. 2001"
+        },
+        {
+          "title": "Narrative of the British Mission to Theodore, King of Abyssinia",
+          "author": "Hormuzd Rassam",
+          "note": "1869; by one of his captives"
+        }
+      ],
+      "review": {
+        "status": "draft",
+        "notes": "Drafted from the listed sources; needs a human fact-check."
+      }
+    },
+    {
+      "id": "tekle-giyorgis-ii",
+      "kind": "monarch",
+      "rulers": [
+        "tekle-giyorgis-ii"
+      ],
+      "tagline": "The lord of Lasta who grabbed the crown and lost it",
+      "start": {
+        "date": "1868-08"
+      },
+      "end": {
+        "date": "1871-07-11"
+      },
+      "contestedWith": [],
+      "relationToPredecessor": "Rival lord; no relation",
+      "ageAtAccession": "Unknown",
+      "cameToPower": "Proclaimed himself after Magdala",
+      "reignEnded": "Beaten and captured at Assam",
+      "previously": "Tewodros shoots himself as the British storm Magdala.",
+      "paragraphs": [
+        "Wagshum Gobeze was the hereditary lord of Lasta, the mountain country of Lalibela's rock churches. His father's line claimed descent from the old Zagwe kings. When Tewodros died, Gobeze moved fast and in August 1868 he was proclaimed emperor, taking the name Tekle Giyorgis.",
+        "Not everyone agreed. In Shewa, Menelik was building his own power. In Tigray, Dejazmach Kassa Mercha refused to bow. Kassa had helped the British on their march to Magdala, and they paid him with guns and ammunition as they left.",
+        "In July 1871 the two armies met at Assam, near Adwa. Kassa's better-armed men won, and the emperor was taken prisoner. He died in captivity a couple of years later."
+      ],
+      "claims": [
+        {
+          "text": "British guns given to Kassa decided the battle of Assam.",
+          "status": "disputed",
+          "note": "Napier did leave Kassa artillery and muskets. How much they mattered, compared with Kassa's skill and numbers, is debated."
+        },
+        {
+          "text": "His family descended from the Zagwe kings.",
+          "status": "legend",
+          "note": "The Wagshum lords of Lasta claimed it. It can't be traced back that far."
+        }
+      ],
+      "hook": "Kassa of Tigray holds the emperor in chains. Now he wants a crown of his own, and he means to take it in the holiest city in the land.",
+      "images": [
+        {
+          "file": "File:Tekle Giyorgis II (1850).jpg",
+          "url": "https://upload.wikimedia.org/wikipedia/commons/b/b3/Tekle_Giyorgis_II_%281850%29.jpg",
+          "page": "https://commons.wikimedia.org/wiki/File:Tekle_Giyorgis_II_(1850).jpg",
+          "credit": "Vignaud",
+          "license": "CC BY-SA 4.0",
+          "made": "1850",
+          "caption": "A drawing labelled on Commons as Tekle Giyorgis II, dated 1850, long before he became emperor.",
+          "alt": "Drawn portrait of an Ethiopian nobleman, identified on Commons as Tekle Giyorgis II"
+        }
+      ],
+      "sources": [
+        {
+          "title": "A History of Modern Ethiopia, 1855–1991",
+          "author": "Bahru Zewde",
+          "note": "James Currey, 2nd ed. 2001"
+        },
+        {
+          "title": "A History of Ethiopia",
+          "author": "Harold G. Marcus",
+          "note": "University of California Press, 1994; updated ed. 2002"
+        },
+        {
+          "title": "Yohannes IV of Ethiopia: A Political Biography",
+          "author": "Zewde Gabre-Sellassie",
+          "note": "Clarendon Press, 1975"
+        }
+      ],
+      "review": {
+        "status": "draft",
+        "notes": "Drafted from the listed sources; needs a human fact-check."
+      }
+    },
+    {
+      "id": "yohannes-iv",
+      "kind": "monarch",
+      "rulers": [
+        "yohannes-iv"
+      ],
+      "tagline": "The warrior emperor who fought everyone and fell to a sniper",
+      "start": {
+        "date": "1872-01-21"
+      },
+      "end": {
+        "date": "1889-03-10"
+      },
+      "contestedWith": [],
+      "relationToPredecessor": "His rival, from Tigray",
+      "ageAtAccession": "34",
+      "cameToPower": "Won at Assam, crowned at Aksum",
+      "reignEnded": "Shot in battle at Metemma",
+      "previously": "Kassa of Tigray beats Tekle Giyorgis at Assam and takes him prisoner.",
+      "paragraphs": [
+        "Kassa Mercha was crowned on 21 January 1872 at Aksum, the ancient holy city, as Yohannes IV. He was a fierce churchman and a hard fighter, and he needed to be. Egypt was pushing up from the coast. Yohannes smashed its armies at Gundet in 1875 and Gura in 1876.",
+        "Then came Italy, which took over the port of Massawa in 1885. Yohannes's great general Ras Alula wiped out an Italian column at Dogali in 1887. At home Yohannes let Menelik of Shewa keep his title of Negus, or king, in return for loyalty. Neither man fully trusted the other.",
+        "In the west, the Mahdist state of Sudan raided deep into Ethiopia. In March 1889 Yohannes attacked them at Metemma. His army was winning when he was hit by a bullet. He died of the wound, and his army fell apart."
+      ],
+      "claims": [
+        {
+          "text": "The Mahdists cut off his head and sent it to Omdurman.",
+          "status": "confirmed",
+          "note": "Both Sudanese and Ethiopian accounts say his body was seized and the head taken to the Khalifa as a trophy."
+        },
+        {
+          "text": "On his deathbed he named his son Mengesha as heir.",
+          "status": "disputed",
+          "note": "Mengesha's supporters said so. Menelik ignored it, and the claim came too late to matter."
+        }
+      ],
+      "hook": "The emperor is dead on the Sudan border and Tigray is reeling. In Shewa, Menelik doesn't wait. He declares himself King of Kings.",
+      "images": [
+        {
+          "file": "File:Yohannes IV.jpg",
+          "url": "https://upload.wikimedia.org/wikipedia/commons/7/72/Yohannes_IV.jpg",
+          "page": "https://commons.wikimedia.org/wiki/File:Yohannes_IV.jpg",
+          "credit": "Unknown",
+          "license": "Public domain",
+          "made": "19th century",
+          "caption": "A 19th-century portrait of Yohannes IV.",
+          "alt": "Portrait of Emperor Yohannes IV of Ethiopia"
+        }
+      ],
+      "sources": [
+        {
+          "title": "Yohannes IV of Ethiopia: A Political Biography",
+          "author": "Zewde Gabre-Sellassie",
+          "note": "Clarendon Press, 1975"
+        },
+        {
+          "title": "Ras Alula and the Scramble for Africa",
+          "author": "Haggai Erlich",
+          "note": "Red Sea Press, 1996"
+        },
+        {
+          "title": "A History of Modern Ethiopia, 1855–1991",
+          "author": "Bahru Zewde",
+          "note": "James Currey, 2nd ed. 2001"
+        }
+      ],
+      "review": {
+        "status": "draft",
+        "notes": "Drafted from the listed sources; needs a human fact-check."
+      }
+    },
+    {
+      "id": "menelik-ii",
+      "kind": "monarch",
+      "rulers": [
+        "menelik-ii"
+      ],
+      "tagline": "The emperor who beat Italy and built Addis Ababa",
+      "start": {
+        "date": "1889-03-10"
+      },
+      "end": {
+        "date": "1913-12-12"
+      },
+      "contestedWith": [],
+      "relationToPredecessor": "King of Shewa; his rival",
+      "ageAtAccession": "44",
+      "cameToPower": "Claimed the crown when Yohannes fell",
+      "reignEnded": "Died after years of strokes",
+      "previously": "Yohannes IV is killed fighting the Mahdists at Metemma.",
+      "paragraphs": [
+        "As a boy, Menelik was Tewodros's prisoner at Magdala. He escaped in 1865 and made himself King of Shewa. With his clever wife, Empress Taytu, he founded a new capital in 1886 at Addis Ababa, which means new flower. When Yohannes died, he took the imperial crown.",
+        "In 1889 he signed the Treaty of Wuchale with Italy. Article 17 said in Amharic that he could use Italy for foreign affairs. The Italian text said he must, which made Ethiopia a protectorate. Menelik refused, and Italy invaded. On 1 March 1896, at Adwa, his armies crushed the Italians. Europe had to accept that Ethiopia was free.",
+        "He also conquered vast lands to the south and roughly doubled the empire. A railway from French Djibouti crept inland. From about 1906 strokes left him helpless, and he named his young grandson Lij Iyasu as heir."
+      ],
+      "claims": [
+        {
+          "text": "He ordered electric chairs from America and used one as a throne.",
+          "status": "legend",
+          "note": "A popular story with no good evidence. There was no power supply to run one anyway."
+        },
+        {
+          "text": "When ill, he ate pages torn from the Bible as medicine.",
+          "status": "disputed",
+          "note": "Told by Europeans at court. It fits a real belief in holy books as cures, but the details can't be checked."
+        },
+        {
+          "text": "Adwa was the decisive defeat of a European colonial army by an African state.",
+          "status": "confirmed",
+          "note": "Italy signed the Treaty of Addis Ababa in October 1896, recognising Ethiopian independence."
+        }
+      ],
+      "hook": "Menelik is gone. The throne passes to a restless teenage grandson whose father was born a Muslim, and the old Shewan lords are already worried.",
+      "images": [
+        {
+          "file": "File:Portret van Menelik II, RP-F-2001-7-1453-8.jpg",
+          "url": "https://upload.wikimedia.org/wikipedia/commons/f/fc/Portret_van_Menelik_II%2C_RP-F-2001-7-1453-8.jpg",
+          "page": "https://commons.wikimedia.org/wiki/File:Portret_van_Menelik_II,_RP-F-2001-7-1453-8.jpg",
+          "credit": "Unknown (Rijksmuseum collection)",
+          "license": "CC0",
+          "made": "c. 1891–1896",
+          "caption": "A printed portrait photograph titled “Sa Majesté Ménélik II, Roi des Rois d'Éthiopie”, from the 1890s.",
+          "alt": "Printed photographic portrait of Emperor Menelik II, from a book page"
+        }
+      ],
+      "sources": [
+        {
+          "title": "The Life and Times of Menelik II: Ethiopia 1844–1913",
+          "author": "Harold G. Marcus",
+          "note": "Clarendon Press, 1975"
+        },
+        {
+          "title": "The Battle of Adwa: African Victory in the Age of Empire",
+          "author": "Raymond Jonas",
+          "note": "Harvard University Press, 2011"
+        },
+        {
+          "title": "Empress Taytu and Menilek II: Ethiopia 1883–1910",
+          "author": "Chris Prouty",
+          "note": "Ravens Educational and Development Services, 1986"
+        },
+        {
+          "title": "A History of Modern Ethiopia, 1855–1991",
+          "author": "Bahru Zewde",
+          "note": "James Currey, 2nd ed. 2001"
+        }
+      ],
+      "review": {
+        "status": "draft",
+        "notes": "Drafted from the listed sources; needs a human fact-check."
+      }
+    },
+    {
+      "contestedWith": [],
+      "id": "lij-iyasu",
+      "kind": "monarch",
+      "rulers": [
+        "lij-iyasu"
+      ],
+      "tagline": "The teenage heir who was never crowned",
+      "start": {
+        "date": "1913-12-12"
+      },
+      "end": {
+        "date": "1916-09-27"
+      },
+      "relationToPredecessor": "Grandson of Menelik II",
+      "ageAtAccession": "18",
+      "cameToPower": "Named heir by his dying grandfather",
+      "reignEnded": "Deposed by the nobles and church",
+      "previously": "Menelik II dies after years of strokes. His grandson takes charge.",
+      "paragraphs": [
+        "Lij Iyasu was Menelik's grandson through his daughter Shewaregga. \"Lij\" simply marks a young noble, and he never got a grander title because he was never crowned. His father was Ras Mikael of Wollo, a great lord born a Muslim who had turned Christian under Yohannes IV. Menelik's death was kept quiet, so Iyasu ran the empire as a teenager while the old Shewan lords watched him closely.",
+        "He was restless and spent little time in Addis Ababa, roaming the east and the lowlands. He courted Muslim chiefs and married into their families, and during the First World War he leaned towards the Ottomans and Germany, which alarmed Britain, France and Italy. In September 1916 the Shewan nobles, backed by the church, declared him deposed for abandoning the faith.",
+        "His father marched on the capital and was crushed at Segale on 27 October 1916. Iyasu stayed on the run for years until he was caught in 1921, and he spent the rest of his life a prisoner. His death was announced in November 1935, just as Italy invaded."
+      ],
+      "claims": [
+        {
+          "text": "Iyasu secretly converted to Islam.",
+          "status": "disputed",
+          "note": "His enemies said so and circulated photographs of him in Muslim dress; historians suspect at least some were faked, and his Muslim alliances were also plain politics."
+        },
+        {
+          "text": "Iyasu was murdered in captivity in 1935.",
+          "status": "disputed",
+          "note": "Some accounts blame Haile Selassie's government as Italy invaded; others say he died naturally. How he died and where he lies are still unknown."
+        },
+        {
+          "text": "Menelik's death was kept secret for nearly three years.",
+          "status": "confirmed",
+          "note": "The Council of State and the church only announced it officially in September 1916, on the same day they deposed Iyasu."
+        }
+      ],
+      "hook": "With Iyasu gone, the nobles need someone safe on the throne. They pick Menelik's daughter Zewditu, and make her ambitious cousin Ras Tafari the heir.",
+      "images": [
+        {
+          "file": "File:Lidj Iyasu.jpg",
+          "url": "https://upload.wikimedia.org/wikipedia/commons/5/54/Lidj_Iyasu.jpg",
+          "page": "https://commons.wikimedia.org/wiki/File:Lidj_Iyasu.jpg",
+          "credit": "Unknown photographer",
+          "license": "Public domain",
+          "made": "1913–16",
+          "caption": "A photograph of Lij Iyasu taken during his short time as uncrowned ruler.",
+          "alt": "Photograph portrait of Lij Iyasu as a young man"
+        }
+      ],
+      "sources": [
+        {
+          "title": "A History of Ethiopia",
+          "author": "Harold G. Marcus",
+          "note": "University of California Press, 1994; updated ed. 2002"
+        },
+        {
+          "title": "A History of Modern Ethiopia, 1855–1991",
+          "author": "Bahru Zewde",
+          "note": "James Currey, 2nd ed. 2001"
+        },
+        {
+          "title": "The Life and Times of Lij Iyasu of Ethiopia: New Insights",
+          "author": "Éloi Ficquet and Wolbert G. C. Smidt (eds)",
+          "note": "LIT Verlag, 2014"
+        }
+      ],
+      "review": {
+        "status": "draft",
+        "notes": "Drafted from the listed sources; needs a human fact-check."
+      }
+    },
+    {
+      "contestedWith": [],
+      "id": "zewditu",
+      "kind": "monarch",
+      "rulers": [
+        "zewditu"
+      ],
+      "tagline": "The empress who reigned while her heir ruled",
+      "start": {
+        "date": "1916-09-27"
+      },
+      "end": {
+        "date": "1930-04-02"
+      },
+      "relationToPredecessor": "Daughter of Menelik II; Iyasu's aunt",
+      "ageAtAccession": "40",
+      "cameToPower": "Put on the throne by the nobles",
+      "reignEnded": "Died two days after her husband",
+      "previously": "The nobles depose Lij Iyasu, accused of turning Muslim.",
+      "paragraphs": [
+        "Zewditu was Menelik's daughter, and when the nobles threw out Lij Iyasu they made her the first woman to reign over Ethiopia in her own right. She was crowned in February 1917. Devout and conservative, she spent long hours in prayer. The deal came with a catch: her cousin Ras Tafari Makonnen was named regent and heir, and in practice he ran the government. Everyone knew it.",
+        "Tafari was young, clever and in a hurry. He took Ethiopia into the League of Nations in 1923 and toured Europe in 1924, collecting ideas and allies. The old guard around the empress tried to push back and kept losing. In 1928 she crowned him negus, a king serving under her, which showed just how far her power had shrunk.",
+        "In 1930 her husband, Ras Gugsa Welle, rose against Tafari in the north. Tafari's modern army, with aircraft, beat him at Anchem, and Gugsa was killed on 31 March. Two days later, on 2 April, Zewditu died too."
+      ],
+      "claims": [
+        {
+          "text": "Zewditu died of shock and grief at the news of her husband's death.",
+          "status": "disputed",
+          "note": "A popular story; other accounts say she was never told how the battle ended before she died."
+        },
+        {
+          "text": "She died after being plunged into cold holy water to cure a fever.",
+          "status": "disputed",
+          "note": "Reported by some foreign diplomats in Addis Ababa at the time; impossible to check."
+        },
+        {
+          "text": "Tafari used aircraft against Gugsa Welle at Anchem.",
+          "status": "confirmed",
+          "note": "Standard histories describe his small air force bombing and scattering Gugsa's troops."
+        }
+      ],
+      "hook": "Zewditu is dead and Tafari is ready. He takes a new name, Haile Selassie, \"Power of the Trinity\", and plans a coronation the whole world will notice.",
+      "images": [
+        {
+          "file": "File:Zewditu Empress.PNG",
+          "url": "https://upload.wikimedia.org/wikipedia/commons/7/77/Zewditu_Empress.PNG",
+          "page": "https://commons.wikimedia.org/wiki/File:Zewditu_Empress.PNG",
+          "credit": "Unknown photographer",
+          "license": "Public domain",
+          "made": "Before 1930",
+          "caption": "A photograph of Empress Zewditu taken in her lifetime; the exact date is unknown.",
+          "alt": "Photograph portrait of Empress Zewditu"
+        }
+      ],
+      "sources": [
+        {
+          "title": "A History of Ethiopia",
+          "author": "Harold G. Marcus",
+          "note": "University of California Press, 1994; updated ed. 2002"
+        },
+        {
+          "title": "A History of Modern Ethiopia, 1855–1991",
+          "author": "Bahru Zewde",
+          "note": "James Currey, 2nd ed. 2001"
+        },
+        {
+          "title": "Haile Sellassie I: The Formative Years, 1892–1936",
+          "author": "Harold G. Marcus",
+          "note": "University of California Press, 1987"
+        }
+      ],
+      "review": {
+        "status": "draft",
+        "notes": "Drafted from the listed sources; needs a human fact-check."
+      }
+    },
+    {
+      "contestedWith": [
+        "italian-occupation"
+      ],
+      "id": "haile-selassie",
+      "kind": "monarch",
+      "rulers": [
+        "haile-selassie"
+      ],
+      "tagline": "The Lion of Judah who stood up to Mussolini",
+      "start": {
+        "date": "1930-04-02"
+      },
+      "end": {
+        "date": "1974-09-12"
+      },
+      "relationToPredecessor": "Zewditu's cousin, regent and heir",
+      "ageAtAccession": "37",
+      "cameToPower": "Succeeded on Zewditu's death",
+      "reignEnded": "Deposed by the army",
+      "previously": "Zewditu dies, two days after her rebel husband is killed.",
+      "paragraphs": [
+        "Ras Tafari became Haile Selassie and was crowned on 2 November 1930 in front of a crowd of foreign guests. In 1931 he gave Ethiopia its first written constitution, though real power stayed firmly with him. Then Mussolini came. Italy invaded in October 1935, and in 1936 the emperor went into exile. In Geneva he begged the League of Nations to defend one of its members. It did nothing.",
+        "British and Ethiopian forces brought him home in 1941. For the next three decades he was Africa's elder statesman. Eritrea was federated with Ethiopia in 1952 and annexed in 1962. In 1963 he hosted the founding of the Organisation of African Unity in Addis Ababa. Rastafarians saw him as divine, and when he visited Jamaica in 1966 huge crowds swamped the airport.",
+        "At home, change crawled. A terrible famine in Wollo was hushed up until a British TV report exposed it in 1973. In 1974 strikes, student protests and army mutinies spread. On 12 September soldiers took the old emperor from his palace, and he died in custody in August 1975."
+      ],
+      "claims": [
+        {
+          "text": "Haile Selassie was murdered by the Derg.",
+          "status": "disputed",
+          "note": "The Derg said he died after a prostate operation. Later trial evidence pointed to him being smothered, and his remains were found buried in the palace grounds in 1992."
+        },
+        {
+          "text": "He was driven off to detention in a small Volkswagen.",
+          "status": "confirmed",
+          "note": "Reported by witnesses and journalists at the time; many saw it as a calculated humiliation."
+        },
+        {
+          "text": "Rastafarians believe he is God incarnate.",
+          "status": "confirmed",
+          "note": "The faith took shape in Jamaica in the 1930s. He himself never claimed divinity."
+        }
+      ],
+      "hook": "But rewind to 1935. Mussolini wants revenge for Adwa, and Italian armies with tanks, aircraft and poison gas are crossing into Ethiopia.",
+      "images": [
+        {
+          "file": "File:Haile Selassie in full dress (3x4 cropped).jpg",
+          "url": "https://upload.wikimedia.org/wikipedia/commons/b/b9/Haile_Selassie_in_full_dress_%283x4_cropped%29.jpg",
+          "page": "https://commons.wikimedia.org/wiki/File:Haile_Selassie_in_full_dress_(3x4_cropped).jpg",
+          "credit": "Unknown; official portrait distributed by the Ethiopian government",
+          "license": "Public domain",
+          "made": "c. 1970",
+          "caption": "An official portrait from around 1970, late in his reign.",
+          "alt": "Photograph of Emperor Haile Selassie in full dress uniform"
+        }
+      ],
+      "sources": [
+        {
+          "title": "Haile Sellassie I: The Formative Years, 1892–1936",
+          "author": "Harold G. Marcus",
+          "note": "University of California Press, 1987"
+        },
+        {
+          "title": "My Life and Ethiopia's Progress",
+          "author": "Haile Selassie I",
+          "note": "Autobiography, trans. Edward Ullendorff, Oxford University Press, 1976"
+        },
+        {
+          "title": "A History of Modern Ethiopia, 1855–1991",
+          "author": "Bahru Zewde",
+          "note": "James Currey, 2nd ed. 2001"
+        },
+        {
+          "title": "The Emperor: Downfall of an Autocrat",
+          "author": "Ryszard Kapuściński",
+          "note": "1978; literary reportage, not strict history"
+        }
+      ],
+      "review": {
+        "status": "draft",
+        "notes": "Drafted from the listed sources; needs a human fact-check."
+      }
+    },
+    {
+      "contestedWith": [
+        "haile-selassie"
+      ],
+      "id": "italian-occupation",
+      "kind": "interregnum",
+      "rulers": [],
+      "house": "italian-occupation",
+      "title": "The Italian Occupation",
+      "tagline": "Five years under Mussolini's flag",
+      "start": {
+        "date": "1936-05-05"
+      },
+      "end": {
+        "date": "1941-05-05"
+      },
+      "relationToPredecessor": "Foreign conquest",
+      "ageAtAccession": "No emperor in power",
+      "cameToPower": "Invasion and conquest",
+      "reignEnded": "Driven out by Allied and patriot forces",
+      "previously": "Rewind to 1935. Italy invades and the emperor's armies give way.",
+      "paragraphs": [
+        "Mussolini wanted an empire, and revenge for Italy's defeat at Adwa in 1896. His armies invaded in October 1935 with aircraft, tanks and poison gas, which was used on soldiers and civilians. Ethiopia's armies were broken one after another. Marshal Pietro Badoglio entered Addis Ababa on 5 May 1936, and Ethiopia was joined with Eritrea and Italian Somalia as Italian East Africa.",
+        "Occupation was brutal. After a grenade attack on the viceroy, Rodolfo Graziani, in February 1937, a date Ethiopians call Yekatit 12, Italian soldiers and civilians killed thousands of people in Addis Ababa over three days. Months later hundreds of monks and others were killed at the monastery of Debre Libanos. Across the highlands the Arbegnoch, the patriots, kept up a guerrilla war.",
+        "When Italy joined the Second World War in 1940, Britain backed the exiled emperor. British, Commonwealth and Ethiopian forces drove the Italians back, and on 5 May 1941, five years to the day after Badoglio's entry, Haile Selassie returned to his capital."
+      ],
+      "claims": [
+        {
+          "text": "Italy used poison gas in Ethiopia.",
+          "status": "confirmed",
+          "note": "Witnessed and reported at the time but denied in Italy for decades; the Italian government formally admitted it in 1996."
+        },
+        {
+          "text": "Around 19,000 to 30,000 people were killed in the Yekatit 12 massacre.",
+          "status": "disputed",
+          "note": "Ethiopian figures say about 30,000; Ian Campbell's study estimates around 19,000 to 20,000. Italian figures at the time were far lower."
+        }
+      ],
+      "hook": "Fast forward to 1974. The emperor restored in 1941 is now in his eighties, a famine has been covered up, and a committee of soldiers is about to take power.",
+      "images": [
+        {
+          "file": "File:Passo Uarieu.jpg",
+          "url": "https://upload.wikimedia.org/wikipedia/commons/5/5e/Passo_Uarieu.jpg",
+          "page": "https://commons.wikimedia.org/wiki/File:Passo_Uarieu.jpg",
+          "credit": "Unknown photographer",
+          "license": "CC BY-SA 4.0",
+          "made": "1936",
+          "caption": "Italian troops during the first battle of Tembien, early 1936, in the war of invasion.",
+          "alt": "Italian soldiers with an artillery piece during the first battle of Tembien"
+        }
+      ],
+      "sources": [
+        {
+          "title": "The Addis Ababa Massacre: Italy's National Shame",
+          "author": "Ian Campbell",
+          "note": "Hurst, 2017"
+        },
+        {
+          "title": "The Ethiopian War, 1935–1941",
+          "author": "Angelo Del Boca",
+          "note": "University of Chicago Press, 1969"
+        },
+        {
+          "title": "A History of Modern Ethiopia, 1855–1991",
+          "author": "Bahru Zewde",
+          "note": "James Currey, 2nd ed. 2001"
+        }
+      ],
+      "review": {
+        "status": "draft",
+        "notes": "Drafted from the listed sources; needs a human fact-check."
+      }
+    },
+    {
+      "contestedWith": [],
+      "id": "derg",
+      "kind": "interregnum",
+      "rulers": [],
+      "house": "derg",
+      "title": "The Derg",
+      "tagline": "The committee of soldiers that ended an empire",
+      "start": {
+        "date": "1974-09-12"
+      },
+      "end": {
+        "date": "1977-02-03"
+      },
+      "relationToPredecessor": "Overthrew Haile Selassie",
+      "ageAtAccession": "No single ruler",
+      "cameToPower": "Army deposed the emperor",
+      "reignEnded": "Mengistu won a shoot-out",
+      "previously": "Back to 1974: soldiers take Haile Selassie from his palace.",
+      "paragraphs": [
+        "Derg means \"committee\" in Ge'ez, and that is what it was: around a hundred officers and soldiers from army units who deposed the emperor on 12 September 1974. With no crown left to follow, this deck now tracks whoever held real power. At first the public face was General Aman Andom, a popular war hero.",
+        "That did not last. In November 1974 Aman was killed in a shoot-out at his home, and the same night about sixty former officials and nobles were shot without trial. The monarchy was formally abolished in March 1975, and all rural land was nationalised that year. Haile Selassie died in custody in August 1975.",
+        "Inside the committee, rivalry turned deadly. On 3 February 1977 a gunfight broke out at a Derg meeting. The chairman, Teferi Bante, and several others were killed, and Lieutenant Colonel Mengistu Haile Mariam came out on top."
+      ],
+      "claims": [
+        {
+          "text": "About sixty former officials were executed in a single night in November 1974.",
+          "status": "confirmed",
+          "note": "The Derg announced the executions itself."
+        },
+        {
+          "text": "Aman Andom died resisting arrest.",
+          "status": "disputed",
+          "note": "That was the Derg's account; exactly how he died in the attack on his house is unclear."
+        },
+        {
+          "text": "Mengistu personally opened fire at the February 1977 meeting.",
+          "status": "disputed",
+          "note": "Often told, but accounts of who fired first and who did the killing contradict each other."
+        }
+      ],
+      "hook": "Mengistu is now the strongman of a Marxist state. His enemies are everywhere: in the cities, in Eritrea and Tigray, and across the Somali border.",
+      "images": [
+        {
+          "file": "File:Coordinating Committee of the Armed Forces (Derg) in 1974.jpg",
+          "url": "https://upload.wikimedia.org/wikipedia/commons/2/26/Coordinating_Committee_of_the_Armed_Forces_%28Derg%29_in_1974.jpg",
+          "page": "https://commons.wikimedia.org/wiki/File:Coordinating_Committee_of_the_Armed_Forces_(Derg)_in_1974.jpg",
+          "credit": "Unknown photographer",
+          "license": "Public domain",
+          "made": "1974",
+          "caption": "Members of the Derg, the armed forces' coordinating committee, in 1974.",
+          "alt": "Group photograph of members of the Coordinating Committee of the Armed Forces"
+        }
+      ],
+      "sources": [
+        {
+          "title": "A History of Modern Ethiopia, 1855–1991",
+          "author": "Bahru Zewde",
+          "note": "James Currey, 2nd ed. 2001"
+        },
+        {
+          "title": "The Ethiopian Revolution 1974–1987: A Transformation from an Aristocratic to a Totalitarian Autocracy",
+          "author": "Andargachew Tiruneh",
+          "note": "Cambridge University Press, 1993"
+        },
+        {
+          "title": "Ethiopia: Empire in Revolution",
+          "author": "Marina and David Ottaway",
+          "note": "Africana, 1978"
+        }
+      ],
+      "review": {
+        "status": "draft",
+        "notes": "Drafted from the listed sources; needs a human fact-check."
+      }
+    },
+    {
+      "contestedWith": [],
+      "id": "mengistu",
+      "kind": "leader",
+      "rulers": [
+        "mengistu"
+      ],
+      "tagline": "The Marxist strongman of the Red Terror",
+      "start": {
+        "date": "1977-02-03"
+      },
+      "end": {
+        "date": "1991-05-21"
+      },
+      "relationToPredecessor": "Rose from within the Derg",
+      "ageAtAccession": "39",
+      "cameToPower": "Won a shoot-out inside the Derg",
+      "reignEnded": "Fled to Zimbabwe",
+      "previously": "Mengistu comes out on top of a deadly gunfight inside the Derg.",
+      "paragraphs": [
+        "Mengistu Haile Mariam was an army officer of modest background who made himself master of the Derg. In 1977 and 1978 his regime waged the Red Terror against rival leftist groups and anyone suspected of opposing it. Young people were killed in the streets and their bodies left on show. Tens of thousands died at the very least; the true toll is unknown and disputed.",
+        "Somalia invaded the Ogaden in 1977, and with Soviet weapons and Cuban troops Ethiopia drove it out by March 1978. The wars against rebels in Eritrea and Tigray dragged on for years. The famine of 1983 to 1985 killed hundreds of thousands, and TV reports from the camps led to Band Aid and Live Aid. In 1987 Ethiopia became a People's Democratic Republic, with Mengistu as president.",
+        "As Soviet help dried up, the rebels closed in. On 21 May 1991 Mengistu flew to Zimbabwe, where he has lived ever since. An Ethiopian court convicted him of genocide in his absence in 2006, and an appeal in 2008 turned his life sentence into a death sentence."
+      ],
+      "claims": [
+        {
+          "text": "Mengistu was convicted of genocide by an Ethiopian court in his absence.",
+          "status": "confirmed",
+          "note": "Verdict delivered in December 2006 after a trial lasting more than a decade."
+        },
+        {
+          "text": "He has lived in Zimbabwe since May 1991.",
+          "status": "confirmed",
+          "note": "Given asylum under Robert Mugabe; Zimbabwe has not extradited him."
+        },
+        {
+          "text": "Cuban troops helped Ethiopia win the Ogaden War.",
+          "status": "confirmed",
+          "note": "Thousands of Cuban soldiers and Soviet advisers fought on Ethiopia's side in 1977 to 1978."
+        }
+      ],
+      "hook": "Mengistu is gone. A week later, rebel columns led by a former medical student from Tigray, Meles Zenawi, roll into Addis Ababa.",
+      "images": [
+        {
+          "file": "File:Mengistu Haile Mariam official portrait, 1977-1978.jpg",
+          "url": "https://upload.wikimedia.org/wikipedia/commons/2/20/Mengistu_Haile_Mariam_official_portrait%2C_1977-1978.jpg",
+          "page": "https://commons.wikimedia.org/wiki/File:Mengistu_Haile_Mariam_official_portrait,_1977-1978.jpg",
+          "credit": "Unknown photographer",
+          "license": "Public domain",
+          "made": "1977–78",
+          "caption": "An official portrait from early in his rule.",
+          "alt": "Official photograph portrait of Mengistu Haile Mariam"
+        }
+      ],
+      "sources": [
+        {
+          "title": "A History of Modern Ethiopia, 1855–1991",
+          "author": "Bahru Zewde",
+          "note": "James Currey, 2nd ed. 2001"
+        },
+        {
+          "title": "Transformation and Continuity in Revolutionary Ethiopia",
+          "author": "Christopher Clapham",
+          "note": "Cambridge University Press, 1988"
+        },
+        {
+          "title": "Evil Days: Thirty Years of War and Famine in Ethiopia",
+          "author": "Africa Watch (Human Rights Watch)",
+          "note": "1991"
+        }
+      ],
+      "review": {
+        "status": "draft",
+        "notes": "Drafted from the listed sources; needs a human fact-check."
+      }
+    },
+    {
+      "contestedWith": [],
+      "id": "meles",
+      "kind": "leader",
+      "rulers": [
+        "meles"
+      ],
+      "tagline": "The guerrilla who wanted Ethiopia to grow like Asia",
+      "start": {
+        "date": "1991-05-28"
+      },
+      "end": {
+        "date": "2012-08-20"
+      },
+      "relationToPredecessor": "Rebel leader who ousted Mengistu",
+      "ageAtAccession": "36",
+      "cameToPower": "His rebel army took the capital",
+      "reignEnded": "Died in office in Brussels",
+      "previously": "Mengistu flees to Zimbabwe as rebel armies close on the capital.",
+      "paragraphs": [
+        "Meles Zenawi left medical school in 1975 to fight with the Tigray People's Liberation Front. Born Legesse, he took the name Meles from a student comrade executed by the Derg. By 1991 he led the EPRDF, a rebel coalition built around the TPLF, and on 28 May its fighters entered Addis Ababa. He became president of the transitional government, then prime minister in 1995.",
+        "He rebuilt the state along ethnic lines, giving each big group its own region and, on paper, a right to secede. Eritrea voted for independence in 1993. Five years later a border quarrel became a full war with Eritrea, fought from 1998 to 2000 at a huge cost in lives. The disputed 2005 election ended in street protests and a crackdown in which nearly 200 people were killed.",
+        "Meles was a sharp thinker who wanted a state-led boom on the East Asian model, and the economy grew fast for years. Critics said the country had become a one-party state in all but name. He fell ill in 2012 and died in Brussels on 20 August, still in office."
+      ],
+      "claims": [
+        {
+          "text": "Meles took his name in honour of an executed fellow student.",
+          "status": "confirmed",
+          "note": "Meles Tekle was executed by the Derg in 1975; Legesse Zenawi adopted his name as a fighter."
+        },
+        {
+          "text": "Ethiopia's economy grew by around 10 percent a year under Meles.",
+          "status": "disputed",
+          "note": "Those were the official figures for much of the 2000s; some outside economists thought the true rate was lower."
+        },
+        {
+          "text": "The government kept his final illness secret.",
+          "status": "confirmed",
+          "note": "Officials said he was recovering until his death was announced, and the illness was never officially named."
+        }
+      ],
+      "hook": "Meles is dead and no one had planned for it. The job goes to his quiet deputy, an engineer from the south who is not from Tigray at all.",
+      "images": [
+        {
+          "file": "File:Meles Zenawi - World Economic Forum Annual Meeting 2012.jpg",
+          "url": "https://upload.wikimedia.org/wikipedia/commons/b/bd/Meles_Zenawi_-_World_Economic_Forum_Annual_Meeting_2012.jpg",
+          "page": "https://commons.wikimedia.org/wiki/File:Meles_Zenawi_-_World_Economic_Forum_Annual_Meeting_2012.jpg",
+          "credit": "World Economic Forum",
+          "license": "CC BY-SA 2.0",
+          "made": "2012",
+          "caption": "Meles speaking at the World Economic Forum in Davos in January 2012, months before his death.",
+          "alt": "Meles Zenawi speaking at a World Economic Forum session in Davos"
+        }
+      ],
+      "sources": [
+        {
+          "title": "A History of Modern Ethiopia, 1855–1991",
+          "author": "Bahru Zewde",
+          "note": "James Currey, 2nd ed. 2001"
+        },
+        {
+          "title": "Layers of Time: A History of Ethiopia",
+          "author": "Paul B. Henze",
+          "note": "Hurst, 2000"
+        },
+        {
+          "title": "The Theory and Practice of Meles Zenawi",
+          "author": "Alex de Waal",
+          "note": "African Affairs, 2013"
+        }
+      ],
+      "review": {
+        "status": "draft",
+        "notes": "Drafted from the listed sources; needs a human fact-check."
+      }
+    },
+    {
+      "contestedWith": [],
+      "id": "hailemariam",
+      "kind": "leader",
+      "rulers": [
+        "hailemariam"
+      ],
+      "tagline": "The quiet engineer who chose to walk away",
+      "start": {
+        "date": "2012-08-20"
+      },
+      "end": {
+        "date": "2018-04-02"
+      },
+      "relationToPredecessor": "Meles's deputy prime minister",
+      "ageAtAccession": "47",
+      "cameToPower": "Stepped up when Meles died",
+      "reignEnded": "Resigned amid mass protests",
+      "previously": "Meles Zenawi dies in office in Brussels, aged 57.",
+      "paragraphs": [
+        "Hailemariam Desalegn was a civil engineer from Wolayita in the south, trained in Addis Ababa and Finland, who ran a water technology institute before going into politics. He was not from Tigray and belonged to a small Pentecostal church, an outsider in a coalition long dominated by the TPLF. When Meles died in August 2012 he took over, first as acting prime minister.",
+        "He promised to carry on Meles's plans, from giant dams to industrial parks, and chaired the African Union in 2013 to 2014. From 2015 protests spread across Oromia, set off by plans to expand Addis Ababa onto Oromo farmland, and then into Amhara. Hundreds were killed in crackdowns, and a state of emergency was declared in October 2016.",
+        "On 15 February 2018 he announced his resignation, saying he wanted to clear the way for reform. It was a rare thing in Ethiopia: a leader leaving office alive and by choice. He stayed on until the ruling coalition's new leader was sworn in on 2 April."
+      ],
+      "claims": [
+        {
+          "text": "He was the first modern Ethiopian ruler to step down voluntarily.",
+          "status": "confirmed",
+          "note": "Every leader before him since the 19th century died in office, was deposed or fled."
+        },
+        {
+          "text": "Security forces killed hundreds of protesters in 2015 and 2016.",
+          "status": "confirmed",
+          "note": "Documented by Human Rights Watch and by Ethiopia's own human rights commission."
+        }
+      ],
+      "hook": "The ruling coalition needs a new face, fast. It picks a young Oromo former army officer who promises to open the prisons and make peace with Eritrea.",
+      "images": [
+        {
+          "file": "File:Hailemariam2014.jpg",
+          "url": "https://upload.wikimedia.org/wikipedia/commons/f/fe/Hailemariam2014.jpg",
+          "page": "https://commons.wikimedia.org/wiki/File:Hailemariam2014.jpg",
+          "credit": "UNIDO (via Flickr)",
+          "license": "CC BY 2.0",
+          "made": "2014",
+          "caption": "Hailemariam at a UN industrial development forum in Vienna, November 2014.",
+          "alt": "Hailemariam Desalegn at a UNIDO forum in Vienna"
+        }
+      ],
+      "sources": [
+        {
+          "title": "The Abiy Project: God, Power and War in the New Ethiopia",
+          "author": "Tom Gardner",
+          "note": "Hurst, 2024"
+        },
+        {
+          "title": "\"Such a Brutal Crackdown\": Killings and Arrests in Response to Ethiopia's Oromo Protests",
+          "author": "Human Rights Watch",
+          "note": "2016"
+        }
+      ],
+      "review": {
+        "status": "draft",
+        "notes": "Drafted from the listed sources; needs a human fact-check."
+      }
+    },
+    {
+      "contestedWith": [],
+      "id": "abiy",
+      "kind": "leader",
+      "rulers": [
+        "abiy"
+      ],
+      "tagline": "From Nobel peacemaker to wartime prime minister",
+      "start": {
+        "date": "2018-04-02"
+      },
+      "relationToPredecessor": "Elected EPRDF leader after Hailemariam",
+      "ageAtAccession": "41",
+      "cameToPower": "Chosen by the ruling coalition",
+      "reignEnded": "Still in office",
+      "previously": "Hailemariam resigns, a rare voluntary exit amid mass protests.",
+      "paragraphs": [
+        "Abiy Ahmed was born in 1976 to an Oromo Muslim father and an Amhara Christian mother. He fought against the Derg as a teenager and rose through the army and intelligence services. He became prime minister in April 2018 as leader of the ruling EPRDF. Within months he freed thousands of political prisoners, lifted bans on opposition groups and made peace with Eritrea, winning the 2019 Nobel Peace Prize.",
+        "In 2019 he merged the EPRDF into his new Prosperity Party; the TPLF refused to join. In November 2020 war broke out in Tigray, drawing in Eritrean troops. Fighting, atrocities and hunger killed a very large number of people; estimates run into the hundreds of thousands and are disputed. The Pretoria agreement of November 2022 ended the war.",
+        "Armed conflict went on in Amhara, with the Fano militias, and in Oromia. Abiy pushed through the Grand Ethiopian Renaissance Dam on the Blue Nile, opened in September 2025 despite Egypt's fierce objections. In the general election of 1 June 2026, with no voting in Tigray, the Prosperity Party won a large majority, and Abiy remains prime minister."
+      ],
+      "claims": [
+        {
+          "text": "Abiy won the 2019 Nobel Peace Prize for ending the standoff with Eritrea.",
+          "status": "confirmed",
+          "note": "The Norwegian Nobel Committee's citation named his initiative to settle the border conflict with Eritrea."
+        },
+        {
+          "text": "The Pretoria agreement ended the Tigray war in November 2022.",
+          "status": "confirmed",
+          "note": "Signed on 2 November 2022 by the federal government and the TPLF, with African Union mediation."
+        },
+        {
+          "text": "No voting took place in Tigray in the June 2026 election.",
+          "status": "confirmed",
+          "note": "The National Election Board of Ethiopia cited conditions in the region after the war."
+        }
+      ],
+      "images": [
+        {
+          "file": "File:Prime Minister of Ethiopia Abiy Ahmed Ali (cropped).jpg",
+          "url": "https://upload.wikimedia.org/wikipedia/commons/c/cd/Prime_Minister_of_Ethiopia_Abiy_Ahmed_Ali_%28cropped%29.jpg",
+          "page": "https://commons.wikimedia.org/wiki/File:Prime_Minister_of_Ethiopia_Abiy_Ahmed_Ali_(cropped).jpg",
+          "credit": "Ethiopia Prime Minister's Office",
+          "license": "Public domain",
+          "made": "2025",
+          "caption": "Official portrait of Abiy Ahmed as prime minister, 2025.",
+          "alt": "Official photograph portrait of Prime Minister Abiy Ahmed"
+        }
+      ],
+      "sources": [
+        {
+          "title": "The Abiy Project: God, Power and War in the New Ethiopia",
+          "author": "Tom Gardner",
+          "note": "Hurst, 2024"
+        },
+        {
+          "title": "The Nobel Peace Prize 2019: press release",
+          "author": "Norwegian Nobel Committee",
+          "note": "11 October 2019"
+        },
+        {
+          "title": "2026 general election results",
+          "author": "National Election Board of Ethiopia"
+        }
+      ],
+      "review": {
+        "status": "draft",
+        "notes": "Drafted from the listed sources; needs a human fact-check."
+      }
+    }
+  ]
+}

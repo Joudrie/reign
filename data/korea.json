@@ -1,0 +1,2527 @@
+{
+  "id": "korea",
+  "name": "Korea (Joseon)",
+  "blurb": "Five centuries of the Yi kings, from Taejo to annexation in 1910",
+  "dateConvention": "Joseon used the Korean lunar calendar until 1896. Dates are the Gregorian conversions given by standard English references (carried back even before 1582), so older books may differ by days or weeks.",
+  "epilogue": "On 29 August 1910 Japan annexed Korea, ending the Joseon dynasty after 518 years; Japanese rule lasted until 1945. Swipe back to the general who turned his army around at Wihwa Island.",
+  "houses": [
+    {
+      "id": "yi",
+      "name": "Yi (Jeonju Yi)",
+      "color": "#9e1b32"
+    }
+  ],
+  "rulers": [
+    {
+      "id": "taejo",
+      "name": "Taejo",
+      "house": "yi",
+      "born": {
+        "date": "1335-11-04",
+        "note": "Hwaryeong (Yeongheung), north-east Korea"
+      },
+      "died": {
+        "date": "1408-06-27",
+        "note": "Hanyang (Seoul)"
+      },
+      "causeOfDeath": "Illness in old age"
+    },
+    {
+      "id": "jeongjong",
+      "name": "Jeongjong",
+      "house": "yi",
+      "born": {
+        "date": "1357-07-26"
+      },
+      "died": {
+        "date": "1419-10-24",
+        "note": "Kaesong"
+      },
+      "causeOfDeath": "Natural causes"
+    },
+    {
+      "id": "taejong",
+      "name": "Taejong",
+      "house": "yi",
+      "born": {
+        "date": "1367-06-21"
+      },
+      "died": {
+        "date": "1422-06-08",
+        "note": "Hanyang (Seoul)"
+      },
+      "causeOfDeath": "Illness"
+    },
+    {
+      "id": "sejong",
+      "name": "Sejong",
+      "epithet": "the Great",
+      "house": "yi",
+      "born": {
+        "date": "1397-05-15",
+        "note": "Hanyang (Seoul)"
+      },
+      "died": {
+        "date": "1450-04-08",
+        "note": "Hanyang (Seoul)"
+      },
+      "causeOfDeath": "Illness after years of poor health"
+    },
+    {
+      "id": "munjong",
+      "name": "Munjong",
+      "house": "yi",
+      "born": {
+        "date": "1414-11-24"
+      },
+      "died": {
+        "date": "1452-06-10",
+        "note": "Gyeongbokgung, Hanyang (Seoul)"
+      },
+      "causeOfDeath": "Illness"
+    },
+    {
+      "id": "danjong",
+      "name": "Danjong",
+      "house": "yi",
+      "born": {
+        "date": "1441-08-18"
+      },
+      "died": {
+        "date": "1457-11-16",
+        "note": "Yeongwol, Gangwon"
+      },
+      "causeOfDeath": "Forced to die in exile"
+    },
+    {
+      "id": "sejo",
+      "name": "Sejo",
+      "house": "yi",
+      "born": {
+        "date": "1417-11-11"
+      },
+      "died": {
+        "date": "1468-10-02",
+        "note": "Hanyang (Seoul)"
+      },
+      "causeOfDeath": "Illness"
+    },
+    {
+      "id": "yejong",
+      "name": "Yejong",
+      "house": "yi",
+      "born": {
+        "date": "1450-01-23"
+      },
+      "died": {
+        "date": "1470-01-09",
+        "note": "Hanyang (Seoul)"
+      },
+      "causeOfDeath": "Illness"
+    },
+    {
+      "id": "seongjong",
+      "name": "Seongjong",
+      "house": "yi",
+      "born": {
+        "date": "1457-08-28"
+      },
+      "died": {
+        "date": "1495-01-29",
+        "note": "Changdeokgung, Hanyang (Seoul)"
+      },
+      "causeOfDeath": "Illness"
+    },
+    {
+      "id": "yeonsangun",
+      "name": "Yeonsangun",
+      "house": "yi",
+      "born": {
+        "date": "1476-12-02"
+      },
+      "died": {
+        "date": "1506-11-30",
+        "note": "Gyodong Island, in exile"
+      },
+      "causeOfDeath": "Illness in exile, weeks after being deposed"
+    },
+    {
+      "id": "jungjong",
+      "name": "Jungjong",
+      "house": "yi",
+      "born": {
+        "date": "1488-04-25"
+      },
+      "died": {
+        "date": "1544-12-09"
+      },
+      "causeOfDeath": "Illness"
+    },
+    {
+      "id": "injong",
+      "name": "Injong",
+      "house": "yi",
+      "born": {
+        "date": "1515-03-20"
+      },
+      "died": {
+        "date": "1545-08-17"
+      },
+      "causeOfDeath": "Illness (poison rumoured)"
+    },
+    {
+      "id": "myeongjong",
+      "name": "Myeongjong",
+      "house": "yi",
+      "born": {
+        "date": "1534-07-13"
+      },
+      "died": {
+        "date": "1567-08-12"
+      },
+      "causeOfDeath": "Illness"
+    },
+    {
+      "id": "seonjo",
+      "name": "Seonjo",
+      "house": "yi",
+      "born": {
+        "date": "1552-12-06"
+      },
+      "died": {
+        "date": "1608-03-16"
+      },
+      "causeOfDeath": "Illness"
+    },
+    {
+      "id": "gwanghaegun",
+      "name": "Gwanghaegun",
+      "house": "yi",
+      "born": {
+        "date": "1575-06-14"
+      },
+      "died": {
+        "date": "1641-08-07",
+        "note": "Jeju Island, in exile"
+      },
+      "causeOfDeath": "Died in exile, aged 66"
+    },
+    {
+      "id": "injo",
+      "name": "Injo",
+      "house": "yi",
+      "born": {
+        "date": "1595-12-07"
+      },
+      "died": {
+        "date": "1649-06-17"
+      },
+      "causeOfDeath": "Illness"
+    },
+    {
+      "id": "hyojong",
+      "name": "Hyojong",
+      "house": "yi",
+      "born": {
+        "date": "1619-07-03"
+      },
+      "died": {
+        "date": "1659-06-23"
+      },
+      "causeOfDeath": "Bleeding after a boil was treated"
+    },
+    {
+      "id": "hyeonjong",
+      "name": "Hyeonjong",
+      "house": "yi",
+      "born": {
+        "date": "1641-03-14",
+        "note": "Shenyang, where his father was a hostage"
+      },
+      "died": {
+        "date": "1674-09-17"
+      },
+      "causeOfDeath": "Illness"
+    },
+    {
+      "id": "sukjong",
+      "name": "Sukjong",
+      "house": "yi",
+      "born": {
+        "date": "1661-10-07"
+      },
+      "died": {
+        "date": "1720-07-12"
+      },
+      "causeOfDeath": "Illness"
+    },
+    {
+      "id": "gyeongjong",
+      "name": "Gyeongjong",
+      "house": "yi",
+      "born": {
+        "date": "1688-11-20"
+      },
+      "died": {
+        "date": "1724-10-11"
+      },
+      "causeOfDeath": "Sudden illness after a meal"
+    },
+    {
+      "id": "yeongjo",
+      "name": "Yeongjo",
+      "house": "yi",
+      "born": {
+        "date": "1694-10-31",
+        "note": "Changdeok Palace, Seoul"
+      },
+      "died": {
+        "date": "1776-04-22",
+        "note": "Gyeonghui Palace, Seoul"
+      },
+      "causeOfDeath": "Old age, at 81"
+    },
+    {
+      "id": "jeongjo",
+      "name": "Jeongjo",
+      "house": "yi",
+      "born": {
+        "date": "1752-10-28",
+        "note": "Changgyeong Palace, Seoul"
+      },
+      "died": {
+        "date": "1800-08-18",
+        "note": "Changgyeong Palace, Seoul"
+      },
+      "causeOfDeath": "Sudden illness from an abscess"
+    },
+    {
+      "id": "sunjo",
+      "name": "Sunjo",
+      "house": "yi",
+      "born": {
+        "date": "1790-07-29",
+        "note": "Changgyeong Palace, Seoul"
+      },
+      "died": {
+        "date": "1834-12-13",
+        "note": "Seoul"
+      },
+      "causeOfDeath": "Illness"
+    },
+    {
+      "id": "heonjong",
+      "name": "Heonjong",
+      "house": "yi",
+      "born": {
+        "date": "1827-09-08",
+        "note": "Changgyeong Palace, Seoul"
+      },
+      "died": {
+        "date": "1849-07-25",
+        "note": "Seoul"
+      },
+      "causeOfDeath": "Illness, aged 21"
+    },
+    {
+      "id": "cheoljong",
+      "name": "Cheoljong",
+      "house": "yi",
+      "born": {
+        "date": "1831-07-25",
+        "note": "Seoul"
+      },
+      "died": {
+        "date": "1864-01-16",
+        "note": "Seoul"
+      },
+      "causeOfDeath": "Illness, aged 32"
+    },
+    {
+      "id": "gojong",
+      "name": "Gojong",
+      "house": "yi",
+      "born": {
+        "date": "1852-09-08",
+        "note": "Seoul"
+      },
+      "died": {
+        "date": "1919-01-21",
+        "note": "Deoksu Palace, Seoul"
+      },
+      "causeOfDeath": "Sudden death; poison was rumoured"
+    },
+    {
+      "id": "sunjong",
+      "name": "Sunjong",
+      "house": "yi",
+      "born": {
+        "date": "1874-03-25",
+        "note": "Changdeok Palace, Seoul"
+      },
+      "died": {
+        "date": "1926-04-25",
+        "note": "Changdeok Palace, Seoul"
+      },
+      "causeOfDeath": "Illness"
+    }
+  ],
+  "reigns": [
+    {
+      "id": "taejo",
+      "kind": "monarch",
+      "rulers": [
+        "taejo"
+      ],
+      "tagline": "The general who turned his army round and took the crown",
+      "start": {
+        "date": "1392-08-13"
+      },
+      "end": {
+        "date": "1398-10-22"
+      },
+      "contestedWith": [],
+      "relationToPredecessor": "Founder of the Joseon dynasty",
+      "ageAtAccession": "56",
+      "cameToPower": "Deposed the last Goryeo king",
+      "reignEnded": "Abdicated after his sons' bloodbath",
+      "previously": "Goryeo is old and failing. In 1388 General Yi turns his army round.",
+      "paragraphs": [
+        "By the 1380s the old kingdom of Goryeo was worn out, battered by pirates and rebels and squeezed by China's new Ming dynasty. In 1388 the court ordered General Yi Seong-gye to march on Ming land in Liaodong. He thought it was madness. At Wihwa Island in the Yalu River he turned his army round, marched on the capital Kaesong and took control. Four years later he pushed aside the last Goryeo king and took the throne himself.",
+        "He asked the Ming emperor to approve a name for the new kingdom, and got Joseon, an ancient name for Korea. In 1394 he moved the capital to Hanyang, today's Seoul, and in 1395 Gyeongbokgung palace went up. His right-hand man, the scholar Jeong Do-jeon, designed the new state on strict Confucian lines and wanted ministers, not princes, to hold the real power.",
+        "Then Taejo named his youngest son, Bang-seok, as heir, passing over the grown sons who had fought for him. In 1398 his fifth son, Yi Bang-won, struck. His men killed Bang-seok, another half-brother and Jeong Do-jeon. This was the First Strife of Princes. Sick and disgusted, Taejo gave up the throne and later retreated to his old home country around Hamhung."
+      ],
+      "claims": [
+        {
+          "text": "When Bang-won sent envoys to Hamhung to bring his father home, Taejo had them killed, one after another.",
+          "status": "legend",
+          "note": "The phrase 'Hamhung chasa' still means a messenger who never comes back. The Annals give a much tamer picture; most of the tale comes from later anecdote collections."
+        },
+        {
+          "text": "Yi Seong-gye turned his army back at Wihwa Island in 1388 and seized control of the Goryeo government.",
+          "status": "confirmed",
+          "note": "Told in the History of Goryeo (Goryeosa) and the Annals of the Joseon Dynasty, though both were written by the winners."
+        },
+        {
+          "text": "Jeong Do-jeon wanted a kingdom run by its chief ministers, with the king as a figurehead.",
+          "status": "disputed",
+          "note": "His writings argue for a powerful chief minister. Historians debate how far he really meant to sideline the throne, and Bang-won's side had every reason to paint him as a schemer."
+        }
+      ],
+      "hook": "Taejo has gone. Bang-won could take the crown now, but he doesn't. Not yet. He puts his older brother on the throne and waits.",
+      "images": [
+        {
+          "file": "File:King Taejo Yi 02.jpg",
+          "url": "https://upload.wikimedia.org/wikipedia/commons/6/6a/King_Taejo_Yi_02.jpg",
+          "page": "https://commons.wikimedia.org/wiki/File:King_Taejo_Yi_02.jpg",
+          "credit": "Jo Jung-muk, Pak Gi-jun, Baek Eun-bae and Yu Suk",
+          "license": "Public domain",
+          "made": "1872",
+          "caption": "The Gyeonggijeon portrait in Jeonju, an 1872 copy of an older portrait that had worn out; the only one of Taejo's many portraits to survive.",
+          "alt": "Full-length royal portrait on silk of King Taejo seated on a throne, wearing a blue dragon robe and a black winged hat"
+        }
+      ],
+      "sources": [
+        {
+          "title": "Annals of the Joseon Dynasty (Joseon wangjo sillok): Taejo sillok",
+          "author": "Joseon court historians"
+        },
+        {
+          "title": "Goryeosa (History of Goryeo)",
+          "author": "Jeong In-ji and others",
+          "note": "Compiled for the Joseon court, completed 1451"
+        },
+        {
+          "title": "A New History of Korea",
+          "author": "Ki-baik Lee",
+          "note": "Trans. Edward W. Wagner with Edward J. Shultz; Harvard University Press, 1984"
+        },
+        {
+          "title": "A History of Korea: From Antiquity to the Present",
+          "author": "Michael J. Seth",
+          "note": "Rowman & Littlefield, 2010"
+        }
+      ],
+      "review": {
+        "status": "draft",
+        "notes": "Drafted from the listed sources; needs a human fact-check."
+      }
+    },
+    {
+      "id": "jeongjong",
+      "kind": "monarch",
+      "rulers": [
+        "jeongjong"
+      ],
+      "tagline": "The stand-in king who knew when to step aside",
+      "start": {
+        "date": "1398-10-22"
+      },
+      "end": {
+        "date": "1400-12-07"
+      },
+      "contestedWith": [],
+      "relationToPredecessor": "Second son of Taejo",
+      "ageAtAccession": "41",
+      "cameToPower": "Installed by his brother Bang-won",
+      "reignEnded": "Abdicated to his brother",
+      "previously": "Bang-won's men have killed the heir. Taejo abdicates in disgust.",
+      "paragraphs": [
+        "Yi Bang-gwa was Taejo's second son, a soldier who had fought beside his father. After the killings of 1398 his younger brother Bang-won could have taken the throne outright. Instead he made Bang-gwa king, which looked better and bought time. Everyone knew where the power really sat. Jeongjong moved the court back to the old capital, Kaesong, away from the new palace and its fresh memories of blood.",
+        "In 1400 it all blew up again. Another brother, Bang-gan, decided he should be heir and raised troops against Bang-won. They fought it out in the streets of Kaesong, the Second Strife of Princes, and Bang-gan lost and was sent into exile. Jeongjong took the hint. He named Bang-won his heir and handed him the crown after about two years. He then spent nearly twenty quiet years as retired king and died in 1419."
+      ],
+      "claims": [
+        {
+          "text": "For almost three centuries he had no temple name. He only became 'Jeongjong' in 1681, under King Sukjong.",
+          "status": "confirmed",
+          "note": "Recorded in the Annals. Earlier courts treated his reign as a stopgap, so his full royal honours came very late."
+        },
+        {
+          "text": "Jeongjong was glad to give up the throne.",
+          "status": "disputed",
+          "note": "Later writers praise him for stepping aside wisely and enjoying a long retirement. With Bang-won holding the soldiers, he had little real choice either way."
+        }
+      ],
+      "hook": "Bang-won finally wears the crown he killed for. Now he has to prove he can rule, and make sure nobody can ever do to him what he did to his father.",
+      "images": [
+        {
+          "file": "File:정종실록 표지.gif",
+          "url": "https://upload.wikimedia.org/wikipedia/commons/e/e3/%EC%A0%95%EC%A2%85%EC%8B%A4%EB%A1%9D_%ED%91%9C%EC%A7%80.gif",
+          "page": "https://commons.wikimedia.org/wiki/File:%EC%A0%95%EC%A2%85%EC%8B%A4%EB%A1%9D_%ED%91%9C%EC%A7%80.gif",
+          "credit": "Joseon court",
+          "license": "CC0",
+          "made": "Joseon dynasty",
+          "caption": "No portrait of Jeongjong survives; this is the cover of the Annals of his reign, the court's official record.",
+          "alt": "Plain cover of a traditional bound book, the Annals of King Jeongjong, volumes 1 to 6"
+        }
+      ],
+      "sources": [
+        {
+          "title": "Annals of the Joseon Dynasty (Joseon wangjo sillok): Jeongjong sillok",
+          "author": "Joseon court historians"
+        },
+        {
+          "title": "A New History of Korea",
+          "author": "Ki-baik Lee",
+          "note": "Trans. Edward W. Wagner with Edward J. Shultz; Harvard University Press, 1984"
+        },
+        {
+          "title": "A History of Korea: From Antiquity to the Present",
+          "author": "Michael J. Seth",
+          "note": "Rowman & Littlefield, 2010"
+        }
+      ],
+      "review": {
+        "status": "draft",
+        "notes": "Drafted from the listed sources; needs a human fact-check."
+      }
+    },
+    {
+      "id": "taejong",
+      "kind": "monarch",
+      "rulers": [
+        "taejong"
+      ],
+      "tagline": "He killed his way to the crown, then built a state",
+      "start": {
+        "date": "1400-12-07"
+      },
+      "end": {
+        "date": "1418-09-18"
+      },
+      "contestedWith": [],
+      "relationToPredecessor": "Younger brother of Jeongjong",
+      "ageAtAccession": "33",
+      "cameToPower": "Named heir after two power struggles",
+      "reignEnded": "Abdicated to his son Sejong",
+      "previously": "Bang-gan's revolt fails. Jeongjong names Bang-won heir and steps down.",
+      "paragraphs": [
+        "Yi Bang-won had already killed two half-brothers and his father's chief minister. As King Taejong he turned that ruthlessness on the system. He abolished the private armies kept by princes and nobles, so nobody could do to him what he had done. Men had to carry a hopae, an identity tag, so the state knew who owed taxes and service. A big drum, the sinmungo, was hung up so ordinary people could beat it to bring a grievance to the king.",
+        "Nobody was safe, not even family. His queen's brothers, the Min, had helped him to power, and once they grew too grand he had them ordered to die. His eldest son Yangnyeong was crown prince, but his drinking and scandals wore out Taejong's patience. In 1418 he disinherited him and chose his third son, the bookish Prince Chungnyeong. Within weeks he abdicated in his favour.",
+        "He kept hold of the army, though, and with it the big decisions, including the 1419 attack on the pirate island of Tsushima. When he died in 1422 he left his son a kingdom with no rivals left standing."
+      ],
+      "claims": [
+        {
+          "text": "The queen's brothers Min Mu-gu and Min Mu-jil were forced to kill themselves.",
+          "status": "confirmed",
+          "note": "Recorded in the Annals of Taejong's reign. Two more of her brothers died the same way a few years later."
+        },
+        {
+          "text": "Yangnyeong behaved badly on purpose, so his gifted younger brother could become king.",
+          "status": "legend",
+          "note": "A popular later story. The Annals show a genuinely scandal-prone prince, and nothing proves it was an act."
+        },
+        {
+          "text": "It rains every year on the anniversary of Taejong's death: the 'Taejong rain'.",
+          "status": "legend",
+          "note": "Folk tradition says the dying king, in a drought, promised to send rain from heaven. A lovely tale, not a record."
+        }
+      ],
+      "hook": "The new king is 21 and would rather read than ride. He is about to become the most celebrated ruler in Korean history.",
+      "images": [
+        {
+          "file": "File:Heolleung.jpg",
+          "url": "https://upload.wikimedia.org/wikipedia/commons/6/62/Heolleung.jpg",
+          "page": "https://commons.wikimedia.org/wiki/File:Heolleung.jpg",
+          "credit": "Tombus20032000",
+          "license": "CC BY-SA 4.0",
+          "made": "Photographed 2018",
+          "caption": "No portrait of Taejong survives; this is Heolleung in Seoul, the tomb he shares with his queen, photographed in 2018.",
+          "alt": "Two grassy royal burial mounds side by side on a hill, with stone figures and lanterns in front"
+        }
+      ],
+      "sources": [
+        {
+          "title": "Annals of the Joseon Dynasty (Joseon wangjo sillok): Taejong sillok",
+          "author": "Joseon court historians"
+        },
+        {
+          "title": "A New History of Korea",
+          "author": "Ki-baik Lee",
+          "note": "Trans. Edward W. Wagner with Edward J. Shultz; Harvard University Press, 1984"
+        },
+        {
+          "title": "A History of Korea: From Antiquity to the Present",
+          "author": "Michael J. Seth",
+          "note": "Rowman & Littlefield, 2010"
+        }
+      ],
+      "review": {
+        "status": "draft",
+        "notes": "Drafted from the listed sources; needs a human fact-check."
+      }
+    },
+    {
+      "id": "sejong",
+      "kind": "monarch",
+      "rulers": [
+        "sejong"
+      ],
+      "tagline": "The king who gave Korea its alphabet",
+      "start": {
+        "date": "1418-09-18"
+      },
+      "end": {
+        "date": "1450-04-08"
+      },
+      "contestedWith": [],
+      "relationToPredecessor": "Third son of Taejong",
+      "ageAtAccession": "21",
+      "cameToPower": "Father abdicated in his favour",
+      "reignEnded": "Died of illness in Hanyang",
+      "previously": "Taejong passes over his wild eldest son and hands the crown to Sejong.",
+      "paragraphs": [
+        "Yi Do read so hard as a boy that his father worried about his health. As king he set up the Hall of Worthies, the Jiphyeonjeon, where bright young scholars worked on farming, medicine, music, law and history. He spotted talent in odd places too. Jang Yeong-sil, born into the lowest class, became the court's star engineer and built a self-striking water clock, and from 1441 rain gauges measured rainfall across the provinces.",
+        "His great project was writing. Korean was written in Chinese characters, which took years to learn, so most people could not read at all. In 1443 Sejong finished a new script of simple letters, and in 1446 he published it as the Hunminjeongeum, 'the correct sounds for instructing the people'. Some senior scholars protested that dropping Chinese characters was barbaric. He went ahead anyway. Today it is Hangul, and South Korea celebrates it every 9 October.",
+        "He also pushed the northern frontier up to the Yalu and Tumen rivers, close to Korea's border today. But overwork and illness wore him down, and his eyesight failed. More and more of the daily business passed to his eldest son. Sejong died in 1450, aged 52."
+      ],
+      "claims": [
+        {
+          "text": "Sejong invented Hangul himself.",
+          "status": "disputed",
+          "note": "The Annals and the 1446 book give the credit to the king. Historians still argue how much came from him and how much from his scholars."
+        },
+        {
+          "text": "Senior scholars petitioned against the new alphabet.",
+          "status": "confirmed",
+          "note": "A 1444 memorial by Choe Man-ri and others, and Sejong's sharp reply, are preserved in the Annals."
+        },
+        {
+          "text": "Jang Yeong-sil fell from favour after a royal sedan chair he built broke.",
+          "status": "confirmed",
+          "note": "The Annals record his punishment in 1442 and then he vanishes from the record. Why the king never brought him back is a mystery TV dramas love."
+        }
+      ],
+      "hook": "Sejong's heir is clever, careful and has been running the government for years already. He has just one weakness: his health.",
+      "images": [
+        {
+          "file": "File:Hunminjeongeum Haerye 02.jpg",
+          "url": "https://upload.wikimedia.org/wikipedia/commons/1/16/Hunminjeongeum_Haerye_02.jpg",
+          "page": "https://commons.wikimedia.org/wiki/File:Hunminjeongeum_Haerye_02.jpg",
+          "credit": "Government of Joseon",
+          "license": "Public domain",
+          "made": "1446 (book)",
+          "caption": "No portrait of Sejong survives; this is a page from a reprint of the 1446 Hunminjeongeum Haerye, the book that announced Hangul.",
+          "alt": "Page of an old woodblock-printed book in Chinese characters with a few Hangul letters"
+        }
+      ],
+      "sources": [
+        {
+          "title": "Annals of the Joseon Dynasty (Joseon wangjo sillok): Sejong sillok",
+          "author": "Joseon court historians"
+        },
+        {
+          "title": "Hunminjeongeum Haerye",
+          "author": "Jeong In-ji and scholars of the Hall of Worthies",
+          "note": "1446; the explanatory edition of the alphabet"
+        },
+        {
+          "title": "The Korean Language Reform of 1446",
+          "author": "Gari K. Ledyard",
+          "note": "Singu Munhwasa, 1998"
+        },
+        {
+          "title": "A New History of Korea",
+          "author": "Ki-baik Lee",
+          "note": "Trans. Edward W. Wagner with Edward J. Shultz; Harvard University Press, 1984"
+        }
+      ],
+      "review": {
+        "status": "draft",
+        "notes": "Drafted from the listed sources; needs a human fact-check."
+      }
+    },
+    {
+      "id": "munjong",
+      "kind": "monarch",
+      "rulers": [
+        "munjong"
+      ],
+      "tagline": "The perfect prince who ran out of time",
+      "start": {
+        "date": "1450-04-08"
+      },
+      "end": {
+        "date": "1452-06-10"
+      },
+      "contestedWith": [],
+      "relationToPredecessor": "Eldest son of Sejong",
+      "ageAtAccession": "35",
+      "cameToPower": "Succeeded his father",
+      "reignEnded": "Died of illness after two years",
+      "previously": "Sejong, worn out and nearly blind, dies in 1450.",
+      "paragraphs": [
+        "Yi Hyang had been crown prince for almost thirty years, and through the 1440s he did much of the work of government while his father was ill. He was scholarly, careful and keen on science and military matters. The court expected a long, steady reign.",
+        "It lasted barely two years. Munjong was sickly, and in June 1452 illness killed him at 37. He left a son of just 10. On his deathbed he trusted the boy to his senior ministers, Kim Jong-seo and Hwangbo In. But the court was full of ambitious men, among them the grown sons of Sejong, Munjong's own brothers. The most restless of them was Grand Prince Suyang."
+      ],
+      "claims": [
+        {
+          "text": "Munjong, not Jang Yeong-sil, came up with the rain gauge.",
+          "status": "disputed",
+          "note": "The Annals show the crown prince experimenting with measuring rainfall in 1441. Popular tradition credits Jang Yeong-sil. Both may be partly right."
+        },
+        {
+          "text": "Years of standing in for his sick father wrecked Munjong's own health.",
+          "status": "disputed",
+          "note": "A common explanation in Korean histories. The Annals record his illnesses, but old diagnoses don't map neatly onto modern medicine."
+        }
+      ],
+      "hook": "A 10-year-old is king. The old ministers plan to run things until he grows up. His uncle Suyang has other ideas.",
+      "images": [
+        {
+          "file": "File:구리 동구릉 현릉(문종)능침.jpg",
+          "url": "https://upload.wikimedia.org/wikipedia/commons/9/99/%EA%B5%AC%EB%A6%AC_%EB%8F%99%EA%B5%AC%EB%A6%89_%ED%98%84%EB%A6%89%28%EB%AC%B8%EC%A2%85%29%EB%8A%A5%EC%B9%A8.jpg",
+          "page": "https://commons.wikimedia.org/wiki/File:%EA%B5%AC%EB%A6%AC_%EB%8F%99%EA%B5%AC%EB%A6%89_%ED%98%84%EB%A6%89(%EB%AC%B8%EC%A2%85)%EB%8A%A5%EC%B9%A8.jpg",
+          "credit": "Cultural Heritage Administration (Korea)",
+          "license": "KOGL Type 1",
+          "made": "Photographed 2020",
+          "caption": "No portrait of Munjong survives; this is his burial mound at Hyeolleung, in the Donggureung tomb group at Guri near Seoul.",
+          "alt": "Grassy royal burial mound ringed by a low stone wall, with stone animals and figures on the slope"
+        }
+      ],
+      "sources": [
+        {
+          "title": "Annals of the Joseon Dynasty (Joseon wangjo sillok): Munjong sillok",
+          "author": "Joseon court historians"
+        },
+        {
+          "title": "A New History of Korea",
+          "author": "Ki-baik Lee",
+          "note": "Trans. Edward W. Wagner with Edward J. Shultz; Harvard University Press, 1984"
+        },
+        {
+          "title": "A History of Korea: From Antiquity to the Present",
+          "author": "Michael J. Seth",
+          "note": "Rowman & Littlefield, 2010"
+        }
+      ],
+      "review": {
+        "status": "draft",
+        "notes": "Drafted from the listed sources; needs a human fact-check."
+      }
+    },
+    {
+      "id": "danjong",
+      "kind": "monarch",
+      "rulers": [
+        "danjong"
+      ],
+      "tagline": "The boy king whose uncle stole his crown",
+      "start": {
+        "date": "1452-06-10"
+      },
+      "end": {
+        "date": "1455-07-04"
+      },
+      "contestedWith": [],
+      "relationToPredecessor": "Only son of Munjong",
+      "ageAtAccession": "10",
+      "cameToPower": "Succeeded his father",
+      "reignEnded": "Forced to abdicate by his uncle",
+      "previously": "Munjong dies after two years, leaving a son of 10.",
+      "paragraphs": [
+        "Danjong was 10, so power sat with his father's ministers, led by Kim Jong-seo, an old frontier general nicknamed the Great Tiger, and Hwangbo In. The boy's uncles were watching. In late 1453 Grand Prince Suyang struck. His men cut Kim Jong-seo down at his own home, and the other ministers who stood in the way were killed too. From then on Suyang ran the government, and in 1455 he made his nephew hand over the throne.",
+        "In 1456 a group of officials plotted to put Danjong back. They were betrayed. Seong Sam-mun, Pak Paeng-nyeon and four others were tortured and executed, and Koreans still honour them as the Six Martyred Ministers, the Sayuksin. Danjong was demoted to Prince Nosan and sent to Cheongnyeongpo in Yeongwol, a bend of river walled in by cliffs.",
+        "In 1457 he was dead, aged 16. Only in 1698 did the court give him back his royal rank and the temple name Danjong."
+      ],
+      "claims": [
+        {
+          "text": "Danjong was executed on his uncle's orders.",
+          "status": "disputed",
+          "note": "The Annals, written under Sejo's descendants, say he took his own life. Most later writers believed he was killed, and accounts of how differ."
+        },
+        {
+          "text": "Six ministers died under torture rather than accept Sejo as king.",
+          "status": "confirmed",
+          "note": "Told in the Annals and in Nam Hyo-on's Yuksinjeon (Biographies of the Six Ministers). The court officially honoured them in the 1690s."
+        },
+        {
+          "text": "The great pine at Cheongnyeongpo 'saw and heard' the exiled boy's grief.",
+          "status": "legend",
+          "note": "Local tradition gave the tree the name Gwaneumsong. It is a protected natural monument; the story is folklore."
+        }
+      ],
+      "hook": "Grand Prince Suyang is now king. He has the throne he wanted. What he can't shake off is the shadow of the boy he took it from.",
+      "images": [
+        {
+          "file": "File:Jangreung (Danjong), Yeongwol, March 2018.jpg",
+          "url": "https://upload.wikimedia.org/wikipedia/commons/b/bf/Jangreung_%28Danjong%29%2C_Yeongwol%2C_March_2018.jpg",
+          "page": "https://commons.wikimedia.org/wiki/File:Jangreung_(Danjong),_Yeongwol,_March_2018.jpg",
+          "credit": "Jjw",
+          "license": "CC BY-SA 4.0",
+          "made": "Photographed 2018",
+          "caption": "No portrait of Danjong survives; this is Jangneung in Yeongwol, his tomb near the place of his exile.",
+          "alt": "Royal burial mound on a hillside at Jangneung, Yeongwol, with stone figures in front"
+        }
+      ],
+      "sources": [
+        {
+          "title": "Annals of the Joseon Dynasty (Joseon wangjo sillok): Danjong sillok",
+          "author": "Joseon court historians"
+        },
+        {
+          "title": "Yuksinjeon (Biographies of the Six Ministers)",
+          "author": "Nam Hyo-on",
+          "note": "Late 15th century"
+        },
+        {
+          "title": "A New History of Korea",
+          "author": "Ki-baik Lee",
+          "note": "Trans. Edward W. Wagner with Edward J. Shultz; Harvard University Press, 1984"
+        },
+        {
+          "title": "A History of Korea: From Antiquity to the Present",
+          "author": "Michael J. Seth",
+          "note": "Rowman & Littlefield, 2010"
+        }
+      ],
+      "review": {
+        "status": "draft",
+        "notes": "Drafted from the listed sources; needs a human fact-check."
+      }
+    },
+    {
+      "id": "sejo",
+      "kind": "monarch",
+      "rulers": [
+        "sejo"
+      ],
+      "tagline": "The usurping uncle who built a strong state",
+      "start": {
+        "date": "1455-07-04"
+      },
+      "end": {
+        "date": "1468-10-01"
+      },
+      "contestedWith": [],
+      "relationToPredecessor": "Uncle of Danjong",
+      "ageAtAccession": "37",
+      "cameToPower": "Forced his nephew to abdicate",
+      "reignEnded": "Abdicated a day before he died",
+      "previously": "Danjong, aged 13, is forced to hand the crown to his uncle Suyang.",
+      "paragraphs": [
+        "Sejo took the throne by murder and never fully shook off the stain. But he was an able, hard-working king. He cut the power of the senior ministers and ruled from the palace, kept a tight grip on the army and the provinces, and set officials to work on one great law code for the whole kingdom, the Gyeongguk daejeon. It would take two more reigns to finish.",
+        "He was also a devout Buddhist in a court that leaned Confucian. He paid for Buddhist texts to be printed, some of them in Hangul, and founded Wongaksa temple in Seoul, whose marble pagoda still stands in Tapgol Park. In 1467 Yi Si-ae led a revolt in the north-east, furious at officials sent up from the south. It was crushed within months.",
+        "Sejo's eldest son had died in 1457, so his heir was his second son. On 1 October 1468, ill and failing, Sejo handed him the crown. He died the next day."
+      ],
+      "claims": [
+        {
+          "text": "Sejo's skin disease came from the ghost of Danjong's mother, who spat on him in a dream.",
+          "status": "legend",
+          "note": "A popular tale from later collections of anecdotes. The Annals record his illness, not the ghost."
+        },
+        {
+          "text": "A boy who washed Sejo's back at Odaesan was really the bodhisattva Manjusri, and the king's skin was healed.",
+          "status": "legend",
+          "note": "A temple legend linked to Sangwonsa on Mount Odae. Nice story, no evidence."
+        },
+        {
+          "text": "Sejo founded Wongaksa in Seoul, and its pagoda was finished in 1467.",
+          "status": "confirmed",
+          "note": "The pagoda survives in Tapgol Park and is a National Treasure of South Korea."
+        }
+      ],
+      "hook": "The new king is 18. Within weeks his court accuses the dashing young general Nam I of treason.",
+      "images": [
+        {
+          "file": "File:Pagoda detail, Tapgol Park - Seoul, Korea.JPG",
+          "url": "https://upload.wikimedia.org/wikipedia/commons/0/08/Pagoda_detail%2C_Tapgol_Park_-_Seoul%2C_Korea.JPG",
+          "page": "https://commons.wikimedia.org/wiki/File:Pagoda_detail,_Tapgol_Park_-_Seoul,_Korea.JPG",
+          "credit": "Daderot",
+          "license": "CC BY-SA 3.0",
+          "made": "Photographed 2006",
+          "caption": "No portrait of Sejo survives; this is a detail of the Wongaksa pagoda he founded, now in Tapgol Park, Seoul.",
+          "alt": "Close view of a carved marble pagoda with tiers of sculpted figures, in Tapgol Park, Seoul"
+        }
+      ],
+      "sources": [
+        {
+          "title": "Annals of the Joseon Dynasty (Joseon wangjo sillok): Sejo sillok",
+          "author": "Joseon court historians"
+        },
+        {
+          "title": "A New History of Korea",
+          "author": "Ki-baik Lee",
+          "note": "Trans. Edward W. Wagner with Edward J. Shultz; Harvard University Press, 1984"
+        },
+        {
+          "title": "A History of Korea: From Antiquity to the Present",
+          "author": "Michael J. Seth",
+          "note": "Rowman & Littlefield, 2010"
+        }
+      ],
+      "review": {
+        "status": "draft",
+        "notes": "Drafted from the listed sources; needs a human fact-check."
+      }
+    },
+    {
+      "id": "yejong",
+      "kind": "monarch",
+      "rulers": [
+        "yejong"
+      ],
+      "tagline": "Fifteen months, one execution, and an early grave",
+      "start": {
+        "date": "1468-10-01"
+      },
+      "end": {
+        "date": "1470-01-09"
+      },
+      "contestedWith": [],
+      "relationToPredecessor": "Second son of Sejo",
+      "ageAtAccession": "18",
+      "cameToPower": "Father abdicated in his favour",
+      "reignEnded": "Died of illness at 19",
+      "previously": "Sejo hands the crown to his son and dies the next day.",
+      "paragraphs": [
+        "Yejong only became heir because his elder brother, Crown Prince Uigyeong, died young in 1457. At 18 he was old enough to rule, but his mother, Queen Jeonghui, governed alongside him, and Sejo's veteran ministers still ran much of the state. The men who had helped Sejo seize power were not ready to let go.",
+        "His reign is remembered for one bloody episode. Nam I was a royal relative and a young war hero who had helped crush Yi Si-ae's revolt and become minister of war in his twenties. Weeks into the new reign he was accused of plotting treason, tortured and executed. Then, in January 1470, Yejong himself died at 19, after about fifteen months on the throne."
+      ],
+      "claims": [
+        {
+          "text": "Nam I was framed by jealous rivals, led by Yu Ja-gwang.",
+          "status": "disputed",
+          "note": "The Annals record Yu Ja-gwang's accusation. Later generations widely saw it as a set-up, and Nam I was eventually cleared by the court."
+        },
+        {
+          "text": "Queen Jeonghui took part in government during Yejong's reign.",
+          "status": "confirmed",
+          "note": "The Annals show the queen dowager sharing in decisions for her son, even though he was legally an adult."
+        }
+      ],
+      "hook": "Yejong's own son is a toddler. Sejo's widow has to choose a king, and she passes the little boy over for a 12-year-old grandson with powerful in-laws.",
+      "images": [
+        {
+          "file": "File:고양 서오릉 창릉.jpg",
+          "url": "https://upload.wikimedia.org/wikipedia/commons/6/65/%EA%B3%A0%EC%96%91_%EC%84%9C%EC%98%A4%EB%A6%89_%EC%B0%BD%EB%A6%89.jpg",
+          "page": "https://commons.wikimedia.org/wiki/File:%EA%B3%A0%EC%96%91_%EC%84%9C%EC%98%A4%EB%A6%89_%EC%B0%BD%EB%A6%89.jpg",
+          "credit": "QWMN1409",
+          "license": "CC BY-SA 4.0",
+          "made": "Photographed 2021",
+          "caption": "No portrait of Yejong survives; this is Changneung, the tomb he shares with Queen Ansun, in the Seooreung group at Goyang.",
+          "alt": "Royal burial mounds on a grassy hill, part of the Seooreung tombs, photographed in winter"
+        }
+      ],
+      "sources": [
+        {
+          "title": "Annals of the Joseon Dynasty (Joseon wangjo sillok): Yejong sillok",
+          "author": "Joseon court historians"
+        },
+        {
+          "title": "A New History of Korea",
+          "author": "Ki-baik Lee",
+          "note": "Trans. Edward W. Wagner with Edward J. Shultz; Harvard University Press, 1984"
+        },
+        {
+          "title": "A History of Korea: From Antiquity to the Present",
+          "author": "Michael J. Seth",
+          "note": "Rowman & Littlefield, 2010"
+        }
+      ],
+      "review": {
+        "status": "draft",
+        "notes": "Drafted from the listed sources; needs a human fact-check."
+      }
+    },
+    {
+      "id": "seongjong",
+      "kind": "monarch",
+      "rulers": [
+        "seongjong"
+      ],
+      "tagline": "The model Confucian king who poisoned his queen",
+      "start": {
+        "date": "1470-01-09"
+      },
+      "end": {
+        "date": "1495-01-29"
+      },
+      "contestedWith": [],
+      "relationToPredecessor": "Nephew of Yejong",
+      "ageAtAccession": "12",
+      "cameToPower": "Chosen by Sejo's widow",
+      "reignEnded": "Died of illness in Hanyang",
+      "previously": "Yejong dies at 19 after just fifteen months on the throne.",
+      "paragraphs": [
+        "Seongjong was the son of Sejo's dead eldest son, Uigyeong. Sejo's widow, Grand Queen Dowager Jaseong, picked him over Yejong's little boy, and it helped that his father-in-law was the mighty minister Han Myeong-hoe. She governed as regent until 1476. He grew into a model Confucian king: hard-working, well read, fond of debate. In 1485 the law code begun by Sejo, the Gyeongguk daejeon, was finished and put into force.",
+        "He also brought a new kind of scholar into government: the sarim, strict Neo-Confucian literati from the provinces, many of them followers of Kim Jong-jik. They were outspoken and loathed by the old ministers who had grown rich under Sejo. That rivalry would soon turn deadly.",
+        "So would his marriage. His second queen, Lady Yun, was accused of jealousy and of keeping poison in her rooms. In 1479 he deposed her, and in 1482 he sent her poison and ordered her to drink it. Her son was the crown prince. Nobody told him how his mother died."
+      ],
+      "claims": [
+        {
+          "text": "Lady Yun scratched the king's face, and that sealed her fate.",
+          "status": "legend",
+          "note": "The scratched face comes from later stories. The Annals accuse her of jealousy, poison and curses, not of the scratch."
+        },
+        {
+          "text": "Seongjong banned all talk of Lady Yun's death for a hundred years.",
+          "status": "legend",
+          "note": "A popular tale with no solid record behind it, though the matter was clearly kept quiet."
+        },
+        {
+          "text": "The Gyeongguk daejeon was put into force in 1485.",
+          "status": "confirmed",
+          "note": "The code survives and stayed the backbone of Joseon law for centuries."
+        }
+      ],
+      "hook": "Seongjong's son takes the throne at 18, still in the dark about his mother. When he finds out, the court will pay in blood.",
+      "images": [
+        {
+          "file": "File:Gyeongguk daejeon in the National Museum of Korea 2016-11.jpg",
+          "url": "https://upload.wikimedia.org/wikipedia/commons/a/a3/Gyeongguk_daejeon_in_the_National_Museum_of_Korea_2016-11.jpg",
+          "page": "https://commons.wikimedia.org/wiki/File:Gyeongguk_daejeon_in_the_National_Museum_of_Korea_2016-11.jpg",
+          "credit": "猫猫的日记本 (Wikimedia Commons user)",
+          "license": "CC BY-SA 4.0",
+          "made": "1661 (book); photographed 2016",
+          "caption": "No portrait of Seongjong survives; this is a 1661 printing of the Gyeongguk daejeon, the law code finished in his reign, at the National Museum of Korea.",
+          "alt": "Open old printed book in Chinese characters in a museum case, a 1661 edition of the Gyeongguk daejeon"
+        }
+      ],
+      "sources": [
+        {
+          "title": "Annals of the Joseon Dynasty (Joseon wangjo sillok): Seongjong sillok",
+          "author": "Joseon court historians"
+        },
+        {
+          "title": "A New History of Korea",
+          "author": "Ki-baik Lee",
+          "note": "Trans. Edward W. Wagner with Edward J. Shultz; Harvard University Press, 1984"
+        },
+        {
+          "title": "A History of Korea: From Antiquity to the Present",
+          "author": "Michael J. Seth",
+          "note": "Rowman & Littlefield, 2010"
+        },
+        {
+          "title": "Korea Old and New: A History",
+          "author": "Carter J. Eckert, Ki-baik Lee, Young Ick Lew, Michael Robinson and Edward W. Wagner",
+          "note": "Ilchokak / Harvard Korea Institute, 1990"
+        }
+      ],
+      "review": {
+        "status": "draft",
+        "notes": "Drafted from the listed sources; needs a human fact-check."
+      }
+    },
+    {
+      "id": "yeonsangun",
+      "kind": "monarch",
+      "rulers": [
+        "yeonsangun"
+      ],
+      "tagline": "The king who found out how his mother died",
+      "start": {
+        "date": "1495-01-29"
+      },
+      "end": {
+        "date": "1506-09-28"
+      },
+      "contestedWith": [],
+      "relationToPredecessor": "Eldest son of Seongjong",
+      "ageAtAccession": "18",
+      "cameToPower": "Succeeded his father",
+      "reignEnded": "Overthrown by a palace coup",
+      "previously": "Seongjong dies. The son of the queen he had poisoned takes the throne.",
+      "paragraphs": [
+        "First, the name. Yeonsangun was thrown off the throne, so he never got a temple name like the other kings. \"-gun\" just means prince, and history calls him by his old princely title. He started out ordinary enough. Then in 1498 he found a reason to go after the scholars. The late Kim Jong-jik had once written a lament for a murdered Chinese emperor, and his enemies said it was really an attack on Sejo. Kim's followers were killed or exiled.",
+        "In 1504 Yeonsangun learned the truth about his mother, Lady Yun, forced to drink poison on his father's orders. His revenge was savage. Officials who had backed her death were killed, and the dead were dug up and mutilated. When anonymous posters in Hangul mocked him, he banned Hangul writing. He turned the national academy, Seonggyungwan, into a pleasure ground and had thousands of girls brought to court as entertainers. His favourite, Jang Nok-su, had begun life as a slave.",
+        "By 1506 the court had had enough. A group of officials staged a coup, put his half-brother on the throne and shipped Yeonsangun off to Gyodong Island. He was dead within weeks, aged 29."
+      ],
+      "claims": [
+        {
+          "text": "Yeonsangun killed two of his father's concubines with his own hands, blaming them for his mother's death.",
+          "status": "disputed",
+          "note": "It is in the official diary of his reign, but that was compiled by the government that overthrew him, which had every reason to blacken his name."
+        },
+        {
+          "text": "He struck his grandmother, Queen Dowager Insu, and she died soon after.",
+          "status": "legend",
+          "note": "The record shows she died in 1504 during the purge. The vivid detail of him ramming her comes from later unofficial histories."
+        },
+        {
+          "text": "The Korean phrase heungcheong-mangcheong, meaning to splash money about, comes from his court entertainers, the heungcheong.",
+          "status": "legend",
+          "note": "A popular folk etymology. Linguists treat it as a good story, not a proven origin."
+        }
+      ],
+      "hook": "The coup leaders need a new king. They head for the house of Yeonsangun's half-brother, a young prince who is said to have thought they had come to kill him.",
+      "images": [
+        {
+          "file": "File:Yeonsangunmyo,2018-04.jpg",
+          "url": "https://upload.wikimedia.org/wikipedia/commons/d/d4/Yeonsangunmyo%2C2018-04.jpg",
+          "page": "https://commons.wikimedia.org/wiki/File:Yeonsangunmyo,2018-04.jpg",
+          "credit": "Tombus20032000",
+          "license": "CC BY-SA 4.0",
+          "made": "2018 (photo)",
+          "caption": "No portrait of Yeonsangun survives. This is his grave in Seoul, built on the scale of a prince's tomb, photographed in 2018.",
+          "alt": "Photograph of the burial mounds of Yeonsangun's tomb in Seoul"
+        }
+      ],
+      "sources": [
+        {
+          "title": "Yeonsangun ilgi (Diary of Yeonsangun)",
+          "author": "Office for Annals Compilation",
+          "note": "The record of a deposed king, compiled after his fall"
+        },
+        {
+          "title": "The Literati Purges: Political Conflict in Early Yi Korea",
+          "author": "Edward W. Wagner",
+          "note": "Harvard University Press, 1974"
+        },
+        {
+          "title": "A New History of Korea",
+          "author": "Ki-baik Lee",
+          "note": "Harvard University Press, 1984"
+        },
+        {
+          "title": "A History of Korea: From Antiquity to the Present",
+          "author": "Michael J. Seth",
+          "note": "Rowman & Littlefield, 2010"
+        }
+      ],
+      "review": {
+        "status": "draft",
+        "notes": "Drafted from the listed sources; needs a human fact-check."
+      }
+    },
+    {
+      "id": "jungjong",
+      "kind": "monarch",
+      "rulers": [
+        "jungjong"
+      ],
+      "tagline": "Crowned by a coup, and never quite in charge",
+      "start": {
+        "date": "1506-09-28"
+      },
+      "end": {
+        "date": "1544-12-08"
+      },
+      "contestedWith": [],
+      "relationToPredecessor": "Half-brother of Yeonsangun",
+      "ageAtAccession": "18",
+      "cameToPower": "Put on the throne by coup leaders",
+      "reignEnded": "Abdicated the day before he died",
+      "previously": "Yeonsangun is overthrown and exiled. The coup needs a king.",
+      "paragraphs": [
+        "Jungjong owed his crown to the men who had toppled his brother, and they never let him forget it. Their first demand was cruel. His wife, Lady Shin, came from a family that had backed Yeonsangun, so she had to go. After just days as queen she was sent away. The story goes that she hung her red skirt on a rock on Inwangsan so the king could see it from the palace and remember her.",
+        "Later Jungjong found a hero in the young reformer Jo Gwang-jo, who wanted a pure Confucian kingdom and stripped rewards from dozens of the coup's men. They struck back in 1519. Legend says they painted honey on palace leaves so insects would eat out the words \"Jo will become king\". Jo was ordered to drink poison. On a gentler note, the Annals name a female physician, Jang-geum, whom the king trusted with his care.",
+        "Jungjong's heir was his eldest son, whose mother had died just after his birth. But his third queen, Munjeong, had a son of her own, and the court split between the two princes' uncles. Jungjong handed over the throne the day before he died in December 1544."
+      ],
+      "claims": [
+        {
+          "text": "Insects ate the words \"Ju cho wi wang\" (Jo will become king) into honey-painted leaves, dooming Jo Gwang-jo.",
+          "status": "legend",
+          "note": "The story appears in the Annals as a rumour of the time and was retold endlessly. Whether anyone really did it is unknown."
+        },
+        {
+          "text": "The deposed Queen Shin hung her red skirt on a rock so Jungjong would see it.",
+          "status": "legend",
+          "note": "The \"red skirt rock\" (Chimabawi) story is a much later folk tale attached to a real rock on Inwangsan."
+        },
+        {
+          "text": "Jang-geum, the female royal physician, really existed.",
+          "status": "confirmed",
+          "note": "The Annals mention her several times attending the king. Almost everything else in the TV drama Dae Jang Geum is invented."
+        }
+      ],
+      "hook": "The new king is a gentle, sickly scholar. His stepmother, Queen Munjeong, has a young son of her own and a brother who wants power.",
+      "images": [
+        {
+          "file": "File:Jeongneung- the tomb of King Jungjong, at the Seonjeonneung site.jpeg",
+          "url": "https://upload.wikimedia.org/wikipedia/commons/9/97/Jeongneung-_the_tomb_of_King_Jungjong%2C_at_the_Seonjeonneung_site.jpeg",
+          "page": "https://commons.wikimedia.org/wiki/File:Jeongneung-_the_tomb_of_King_Jungjong,_at_the_Seonjeonneung_site.jpeg",
+          "credit": "s_h_y_numis",
+          "license": "CC BY-SA 4.0",
+          "made": "2019 (photo)",
+          "caption": "No portrait of Jungjong survives. This is Jeongneung, his tomb in Seoul, photographed in 2019.",
+          "alt": "Photograph of Jeongneung, the tomb of King Jungjong, at the Seonjeongneung royal tomb site in Seoul"
+        }
+      ],
+      "sources": [
+        {
+          "title": "Joseon wangjo sillok (Annals of the Joseon Dynasty)",
+          "author": "Office for Annals Compilation",
+          "note": "Jungjong sillok"
+        },
+        {
+          "title": "The Literati Purges: Political Conflict in Early Yi Korea",
+          "author": "Edward W. Wagner",
+          "note": "Harvard University Press, 1974"
+        },
+        {
+          "title": "A New History of Korea",
+          "author": "Ki-baik Lee",
+          "note": "Harvard University Press, 1984"
+        },
+        {
+          "title": "A History of Korea: From Antiquity to the Present",
+          "author": "Michael J. Seth",
+          "note": "Rowman & Littlefield, 2010"
+        }
+      ],
+      "review": {
+        "status": "draft",
+        "notes": "Drafted from the listed sources; needs a human fact-check."
+      }
+    },
+    {
+      "id": "injong",
+      "kind": "monarch",
+      "rulers": [
+        "injong"
+      ],
+      "tagline": "Eight months on the throne, then gone",
+      "start": {
+        "date": "1544-12-08"
+      },
+      "end": {
+        "date": "1545-08-17"
+      },
+      "contestedWith": [],
+      "relationToPredecessor": "Eldest son of Jungjong",
+      "ageAtAccession": "29",
+      "cameToPower": "Succeeded on his father's abdication",
+      "reignEnded": "Died after eight months",
+      "previously": "Jungjong abdicates and dies a day later. His eldest son takes over.",
+      "paragraphs": [
+        "Injong had waited a long time. His mother died days after he was born, and he grew up as crown prince with a stepmother, Queen Munjeong, who had a son of her own from 1534. He was bookish, gentle and famously devoted to his parents. When his father died he mourned so hard that he barely ate.",
+        "Court politics were already a feud. His uncle Yun Im led the \"Greater Yun\". Munjeong's brother Yun Won-hyeong led the \"Lesser Yun\". Injong was ill almost from the start, and he died in August 1545 after about eight months, the shortest reign of Joseon. He had no son, so the throne passed to his half-brother, Munjeong's boy."
+      ],
+      "claims": [
+        {
+          "text": "Queen Munjeong poisoned Injong with rice cakes.",
+          "status": "legend",
+          "note": "A popular tale with no support in the Annals, which describe a long illness. It grew out of her later reputation as a ruthless regent."
+        },
+        {
+          "text": "As crown prince he stayed in his burning quarters, ready to die, to please his stepmother.",
+          "status": "legend",
+          "note": "His residence did catch fire in 1543. The story that he chose to stay comes from later unofficial writings."
+        },
+        {
+          "text": "Injong's reign was the shortest of the Joseon dynasty.",
+          "status": "confirmed",
+          "note": "He ruled from December 1544 to August 1545, as recorded in the Annals."
+        }
+      ],
+      "hook": "The new king is just 11. His mother, Queen Munjeong, takes the regency, and her brother has a list of enemies.",
+      "images": [
+        {
+          "file": "File:효릉 전경.jpg",
+          "url": "https://upload.wikimedia.org/wikipedia/commons/c/cb/%ED%9A%A8%EB%A6%89_%EC%A0%84%EA%B2%BD.jpg",
+          "page": "https://commons.wikimedia.org/wiki/File:%ED%9A%A8%EB%A6%89_%EC%A0%84%EA%B2%BD.jpg",
+          "credit": "Cultural Heritage Administration of Korea",
+          "license": "KOGL Type 1",
+          "made": "2009 (photo)",
+          "caption": "No portrait of Injong survives. This is Hyoreung, his tomb at Seosamneung in Goyang, photographed in 2009.",
+          "alt": "Photograph of a general view of Hyoreung, the royal tomb of King Injong"
+        }
+      ],
+      "sources": [
+        {
+          "title": "Joseon wangjo sillok (Annals of the Joseon Dynasty)",
+          "author": "Office for Annals Compilation",
+          "note": "Injong sillok"
+        },
+        {
+          "title": "The Literati Purges: Political Conflict in Early Yi Korea",
+          "author": "Edward W. Wagner",
+          "note": "Harvard University Press, 1974"
+        },
+        {
+          "title": "A New History of Korea",
+          "author": "Ki-baik Lee",
+          "note": "Harvard University Press, 1984"
+        }
+      ],
+      "review": {
+        "status": "draft",
+        "notes": "Drafted from the listed sources; needs a human fact-check."
+      }
+    },
+    {
+      "id": "myeongjong",
+      "kind": "monarch",
+      "rulers": [
+        "myeongjong"
+      ],
+      "tagline": "A boy king, a fearsome mother, no heir",
+      "start": {
+        "date": "1545-08-17"
+      },
+      "end": {
+        "date": "1567-08-12"
+      },
+      "contestedWith": [],
+      "relationToPredecessor": "Half-brother of Injong",
+      "ageAtAccession": "11",
+      "cameToPower": "Succeeded his half-brother",
+      "reignEnded": "Died without an heir",
+      "previously": "Injong dies after eight months. His 11-year-old half-brother is next.",
+      "paragraphs": [
+        "Myeongjong wore the crown, but his mother ruled. Queen Munjeong took the regency, and her brother Yun Won-hyeong wasted no time. In 1545 he purged the rival \"Greater Yun\" and their friends. Munjeong was also a devout Buddhist in a Confucian court. She raised up the monk Bou and brought back state exams for monks, to the horror of the scholars.",
+        "Outside the palace things were rough. The bandit Im Kkeok-jeong ran rings round the authorities in Hwanghae from 1559 until he was caught in 1562. Japanese pirates raided the southwest coast in 1555. Then came the blow that mattered most. Myeongjong's only son died in 1563, aged 12. When the king died in 1567, there was no son to follow him."
+      ],
+      "claims": [
+        {
+          "text": "Queen Munjeong scolded and even hit the grown king in front of others.",
+          "status": "legend",
+          "note": "The Annals record her harsh words. The physical blows come from later retellings."
+        },
+        {
+          "text": "Im Kkeok-jeong was a Robin Hood who robbed the rich to help the poor.",
+          "status": "legend",
+          "note": "The Annals treat him as a dangerous bandit. The heroic image comes mostly from Hong Myeong-hui's 1930s novel."
+        },
+        {
+          "text": "Munjeong's patronage revived official Buddhism for a time.",
+          "status": "confirmed",
+          "note": "The Annals record the revived monk exams. After her death in 1565 Bou was exiled and killed."
+        }
+      ],
+      "hook": "No son, no brother. The queen picks a teenage nephew whose father was born to a royal concubine. He is about to face the worst war in Korea's history.",
+      "images": [
+        {
+          "file": "File:서울 태릉과 강릉 강릉 능침.jpg",
+          "url": "https://upload.wikimedia.org/wikipedia/commons/8/8c/%EC%84%9C%EC%9A%B8_%ED%83%9C%EB%A6%89%EA%B3%BC_%EA%B0%95%EB%A6%89_%EA%B0%95%EB%A6%89_%EB%8A%A5%EC%B9%A8.jpg",
+          "page": "https://commons.wikimedia.org/wiki/File:%EC%84%9C%EC%9A%B8_%ED%83%9C%EB%A6%89%EA%B3%BC_%EA%B0%95%EB%A6%89_%EA%B0%95%EB%A6%89_%EB%8A%A5%EC%B9%A8.jpg",
+          "credit": "Cultural Heritage Administration of Korea",
+          "license": "KOGL Type 1",
+          "made": "2020 (photo)",
+          "caption": "No portrait of Myeongjong survives. This is the burial mound of Gangneung, his tomb in Seoul, photographed in 2020.",
+          "alt": "Photograph of the burial mound at Gangneung, the royal tomb of King Myeongjong in Seoul"
+        }
+      ],
+      "sources": [
+        {
+          "title": "Joseon wangjo sillok (Annals of the Joseon Dynasty)",
+          "author": "Office for Annals Compilation",
+          "note": "Myeongjong sillok"
+        },
+        {
+          "title": "The Literati Purges: Political Conflict in Early Yi Korea",
+          "author": "Edward W. Wagner",
+          "note": "Harvard University Press, 1974"
+        },
+        {
+          "title": "A New History of Korea",
+          "author": "Ki-baik Lee",
+          "note": "Harvard University Press, 1984"
+        },
+        {
+          "title": "A History of Korea: From Antiquity to the Present",
+          "author": "Michael J. Seth",
+          "note": "Rowman & Littlefield, 2010"
+        }
+      ],
+      "review": {
+        "status": "draft",
+        "notes": "Drafted from the listed sources; needs a human fact-check."
+      }
+    },
+    {
+      "id": "seonjo",
+      "kind": "monarch",
+      "rulers": [
+        "seonjo"
+      ],
+      "tagline": "The king who ran north while the admiral fought",
+      "start": {
+        "date": "1567-08-12"
+      },
+      "end": {
+        "date": "1608-03-16"
+      },
+      "contestedWith": [],
+      "relationToPredecessor": "Nephew of Myeongjong",
+      "ageAtAccession": "14",
+      "cameToPower": "Chosen as heir by the queen",
+      "reignEnded": "Died after 40 years on the throne",
+      "previously": "Myeongjong dies with no son. A concubine's grandson is chosen.",
+      "paragraphs": [
+        "Seonjo was the first king descended from a royal concubine's son, and he never quite shook off the insecurity. His early years were a golden age for scholars like Yi Hwang and Yi I. But in 1575 officials split into Easterners and Westerners, and the factions would poison politics for centuries. In 1590 two envoys went to Japan. One warned that Hideyoshi would attack. The other, from the rival faction, said no. The court chose to believe the second.",
+        "In 1592 Japan invaded. Seoul fell within weeks, the palaces burned and Seonjo fled all the way north to Uiju on the Chinese border. His son Gwanghae ran a second court and rallied resistance. At sea Admiral Yi Sun-sin and his turtle ships smashed the Japanese, as at Hansan Island in 1592, and Ming armies poured in by land.",
+        "In 1597 Japan came again. A jealous court had Yi arrested and demoted, then begged him back after the navy was wiped out. With 13 ships he won at Myeongnyang. He was killed at Noryang in 1598 as the Japanese pulled out. The war left Seonjo with a heroic heir he resented, and in 1606 his young queen gave him a legitimate son."
+      ],
+      "claims": [
+        {
+          "text": "Yi Sun-sin's last words were \"Do not announce my death\".",
+          "status": "disputed",
+          "note": "Recorded by people close to him and in the Annals, but accounts word it differently and it may have been polished."
+        },
+        {
+          "text": "The turtle ships were covered in iron plates.",
+          "status": "disputed",
+          "note": "Some later sources mention iron spikes and plates. Contemporary descriptions are thin, and historians still argue about the roof."
+        },
+        {
+          "text": "The envoy Kim Seong-il told the court Hideyoshi would not attack.",
+          "status": "confirmed",
+          "note": "The Annals record the conflicting reports of Hwang Yun-gil and Kim Seong-il in 1591."
+        }
+      ],
+      "hook": "Seonjo dies. The war hero Gwanghae takes the throne, but there is a baby half-brother with a better birth, and a queen who wants him crowned.",
+      "images": [
+        {
+          "file": "File:Busanjinsunjeoldo.jpg",
+          "url": "https://upload.wikimedia.org/wikipedia/commons/3/34/Busanjinsunjeoldo.jpg",
+          "page": "https://commons.wikimedia.org/wiki/File:Busanjinsunjeoldo.jpg",
+          "credit": "Byeon Bak",
+          "license": "Public domain",
+          "made": "1760",
+          "caption": "No portrait of Seonjo survives. This painting of the Japanese attack on Busan fortress in 1592 was made in 1760, almost 170 years later.",
+          "alt": "Korean painting of the Japanese invasion force attacking the walled fortress of Busanjin"
+        }
+      ],
+      "sources": [
+        {
+          "title": "Joseon wangjo sillok (Annals of the Joseon Dynasty)",
+          "author": "Office for Annals Compilation",
+          "note": "Seonjo sillok"
+        },
+        {
+          "title": "A New History of Korea",
+          "author": "Ki-baik Lee",
+          "note": "Harvard University Press, 1984"
+        },
+        {
+          "title": "A History of Korea: From Antiquity to the Present",
+          "author": "Michael J. Seth",
+          "note": "Rowman & Littlefield, 2010"
+        },
+        {
+          "title": "Korea Old and New: A History",
+          "author": "Carter J. Eckert et al.",
+          "note": "Ilchokak / Harvard Korea Institute, 1990"
+        }
+      ],
+      "review": {
+        "status": "draft",
+        "notes": "Drafted from the listed sources; needs a human fact-check."
+      }
+    },
+    {
+      "id": "gwanghaegun",
+      "kind": "monarch",
+      "rulers": [
+        "gwanghaegun"
+      ],
+      "tagline": "War hero, clever diplomat, deposed and disowned",
+      "start": {
+        "date": "1608-03-16"
+      },
+      "end": {
+        "date": "1623-04-13"
+      },
+      "contestedWith": [],
+      "relationToPredecessor": "Second son of Seonjo",
+      "ageAtAccession": "32",
+      "cameToPower": "Succeeded his father",
+      "reignEnded": "Overthrown in a coup",
+      "previously": "Seonjo dies. His war-hero son Gwanghae inherits a ruined country.",
+      "paragraphs": [
+        "Gwanghaegun is another king without a temple name. He was overthrown, so history knows him by his old title as a prince, -gun. That is a shame, because he was good at the job. He rebuilt after the war and began the Daedong reform in 1608, letting people in Gyeonggi pay tax in rice. Heo Jun's great medical book, the Donguibogam, came out under him in 1613.",
+        "He was smart abroad too. The Manchu leader Nurhaci was rising, and Ming China demanded help. Gwanghaegun sent troops under Gang Hong-rip, who surrendered at Sarhu in 1619, and Joseon stayed out of the fight. At home he was far less wise. His little half-brother Yeongchang, the legitimate son, died in exile on Ganghwa in 1614, aged seven. Yeongchang's mother, Queen Dowager Inmok, was shut away.",
+        "To the Westerner faction that was unforgivable. In 1623 they stormed the palace and crowned his nephew. Gwanghaegun spent nearly two decades in exile and died on Jeju in 1641."
+      ],
+      "claims": [
+        {
+          "text": "Gang Hong-rip surrendered at Sarhu on the king's secret orders.",
+          "status": "disputed",
+          "note": "Later accounts say so and it fits Gwanghaegun's policy, but no written order survives."
+        },
+        {
+          "text": "Prince Yeongchang was killed by being shut in a room that was heated until he died.",
+          "status": "legend",
+          "note": "Later accounts describe it. The official record of the reign is vague about how he died."
+        },
+        {
+          "text": "The Donguibogam was finished and printed under Gwanghaegun.",
+          "status": "confirmed",
+          "note": "Heo Jun presented it in 1610 and it was printed in 1613. It is now on UNESCO's Memory of the World register."
+        }
+      ],
+      "hook": "The new king owes everything to the Westerner faction. North of the border, the Manchus are getting stronger, and the coup has just thrown away Gwanghae's careful balance.",
+      "images": [
+        {
+          "file": "File:동의보감(319-1).jpg",
+          "url": "https://upload.wikimedia.org/wikipedia/commons/9/97/%EB%8F%99%EC%9D%98%EB%B3%B4%EA%B0%90%28319-1%29.jpg",
+          "page": "https://commons.wikimedia.org/wiki/File:%EB%8F%99%EC%9D%98%EB%B3%B4%EA%B0%90(319-1).jpg",
+          "credit": "Cultural Heritage Administration of Korea",
+          "license": "KOGL Type 1",
+          "made": "1613",
+          "caption": "No portrait of Gwanghaegun survives. This is a copy of the Donguibogam, Heo Jun's medical classic printed in his reign in 1613.",
+          "alt": "Photograph of volumes of the Dongui Bogam, a Korean National Treasure"
+        }
+      ],
+      "sources": [
+        {
+          "title": "Gwanghaegun ilgi (Diary of Gwanghaegun)",
+          "author": "Office for Annals Compilation",
+          "note": "The record of a deposed king, compiled after his fall"
+        },
+        {
+          "title": "A New History of Korea",
+          "author": "Ki-baik Lee",
+          "note": "Harvard University Press, 1984"
+        },
+        {
+          "title": "A History of Korea: From Antiquity to the Present",
+          "author": "Michael J. Seth",
+          "note": "Rowman & Littlefield, 2010"
+        },
+        {
+          "title": "Korea Old and New: A History",
+          "author": "Carter J. Eckert et al.",
+          "note": "Ilchokak / Harvard Korea Institute, 1990"
+        }
+      ],
+      "review": {
+        "status": "draft",
+        "notes": "Drafted from the listed sources; needs a human fact-check."
+      }
+    },
+    {
+      "id": "injo",
+      "kind": "monarch",
+      "rulers": [
+        "injo"
+      ],
+      "tagline": "Knelt in the snow before the Qing emperor",
+      "start": {
+        "date": "1623-04-13"
+      },
+      "end": {
+        "date": "1649-06-17"
+      },
+      "contestedWith": [],
+      "relationToPredecessor": "Nephew of Gwanghaegun",
+      "ageAtAccession": "27",
+      "cameToPower": "Seized the throne in a coup",
+      "reignEnded": "Died of illness",
+      "previously": "Gwanghaegun is overthrown. His nephew is crowned by the coup.",
+      "paragraphs": [
+        "Injo came to power in a coup, and things went wrong fast. In 1624 one of the coup's own generals, Yi Gwal, rebelled and took Seoul, and Injo fled to Gongju. Then he picked the wrong side. Injo snubbed the Manchus and backed the fading Ming. The Manchus invaded in 1627 and forced a deal. In December 1636 they came back as the Qing, led by Hong Taiji, and this time they meant it.",
+        "Injo was trapped for 47 days in the mountain fortress of Namhansanseong. In early 1637 he came down at Samjeondo, knelt three times and touched his head to the ground nine times before Hong Taiji. A stone stele records it. His sons Sohyeon and Bongnim were taken to Shenyang as hostages.",
+        "Crown Prince Sohyeon came home in 1645 with Western books from the Jesuit Adam Schall. He was dead within months. His wife, Lady Kang, was executed in 1646, and Injo passed over Sohyeon's sons to make Bongnim heir."
+      ],
+      "claims": [
+        {
+          "text": "Crown Prince Sohyeon was poisoned, possibly with his father's knowledge.",
+          "status": "disputed",
+          "note": "The Annals note that his body turned dark and bled. Injo's coldness to his son made many suspect murder, but there is no proof."
+        },
+        {
+          "text": "Injo made the full kneeling-and-bowing ritual before Hong Taiji at Samjeondo.",
+          "status": "confirmed",
+          "note": "Recorded in the Annals and on the Samjeondo stele, which Joseon was made to put up."
+        },
+        {
+          "text": "Lady Kang tried to poison Injo's food.",
+          "status": "disputed",
+          "note": "That was the charge. She was cleared posthumously in 1718, and most historians think she was framed."
+        }
+      ],
+      "hook": "The hostage prince Bongnim comes home a changed man. He has seen the Qing up close, and he wants revenge.",
+      "images": [
+        {
+          "file": "File:Samjeondo Monument.jpg",
+          "url": "https://upload.wikimedia.org/wikipedia/commons/2/25/Samjeondo_Monument.jpg",
+          "page": "https://commons.wikimedia.org/wiki/File:Samjeondo_Monument.jpg",
+          "credit": "Kang Byeong Kee",
+          "license": "CC BY 3.0",
+          "made": "1639",
+          "caption": "No portrait of Injo survives. This is the Samjeondo stele in Seoul, which Joseon was forced to set up to record his surrender, photographed in 2009.",
+          "alt": "Photograph of the Samjeondo Monument, a large inscribed stone stele, in Seoul"
+        }
+      ],
+      "sources": [
+        {
+          "title": "Joseon wangjo sillok (Annals of the Joseon Dynasty)",
+          "author": "Office for Annals Compilation",
+          "note": "Injo sillok"
+        },
+        {
+          "title": "A New History of Korea",
+          "author": "Ki-baik Lee",
+          "note": "Harvard University Press, 1984"
+        },
+        {
+          "title": "A History of Korea: From Antiquity to the Present",
+          "author": "Michael J. Seth",
+          "note": "Rowman & Littlefield, 2010"
+        },
+        {
+          "title": "Korea Old and New: A History",
+          "author": "Carter J. Eckert et al.",
+          "note": "Ilchokak / Harvard Korea Institute, 1990"
+        }
+      ],
+      "review": {
+        "status": "draft",
+        "notes": "Drafted from the listed sources; needs a human fact-check."
+      }
+    },
+    {
+      "id": "hyojong",
+      "kind": "monarch",
+      "rulers": [
+        "hyojong"
+      ],
+      "tagline": "The hostage prince who dreamed of revenge",
+      "start": {
+        "date": "1649-06-17"
+      },
+      "end": {
+        "date": "1659-06-23"
+      },
+      "contestedWith": [],
+      "relationToPredecessor": "Second son of Injo",
+      "ageAtAccession": "29",
+      "cameToPower": "Named heir over his nephews",
+      "reignEnded": "Died after a botched treatment",
+      "previously": "Injo dies. Bongnim, the hostage prince, takes the throne.",
+      "paragraphs": [
+        "Hyojong had spent eight years as a hostage in Shenyang, and he came back with a grudge. His dream was the Northern Expedition (bukbeol), a war to punish the Qing. He built up the army, trained musketeers and leaned on the scholar Song Si-yeol. The march north never happened. The Qing were simply too strong.",
+        "Ironically, his musketeers did fight, for the Qing. In 1654 and 1658 Joseon troops were sent north to help beat Russian Cossacks on the Amur, and did well. Meanwhile in 1653 a Dutch ship wrecked on Jeju, and the sailors, including Hendrick Hamel, were kept in Korea for years. In 1659 a doctor lanced a boil on the king's face, he bled badly, and he died at 39."
+      ],
+      "claims": [
+        {
+          "text": "A court physician's needle treatment of a boil caused the bleeding that killed Hyojong.",
+          "status": "disputed",
+          "note": "The Annals describe the treatment and the bleeding. Whether it was a blunder, bad luck or worse is still debated."
+        },
+        {
+          "text": "Hyojong's musketeers helped the Qing defeat Russian forces on the Amur.",
+          "status": "confirmed",
+          "note": "Joseon records and Qing accounts both mention the 1654 and 1658 expeditions."
+        },
+        {
+          "text": "Hyojong planned to invade Qing China.",
+          "status": "confirmed",
+          "note": "The Annals and Song Si-yeol's writings discuss the plan. How realistic it ever was is another matter."
+        }
+      ],
+      "hook": "Hyojong's son takes over, the only Joseon king born abroad. His court is about to tear itself apart over how long a widow should mourn.",
+      "images": [
+        {
+          "file": "File:여주 영릉과 영릉 효종 영릉(효종) 능침.jpg",
+          "url": "https://upload.wikimedia.org/wikipedia/commons/1/1b/%EC%97%AC%EC%A3%BC_%EC%98%81%EB%A6%89%EA%B3%BC_%EC%98%81%EB%A6%89_%ED%9A%A8%EC%A2%85_%EC%98%81%EB%A6%89%28%ED%9A%A8%EC%A2%85%29_%EB%8A%A5%EC%B9%A8.jpg",
+          "page": "https://commons.wikimedia.org/wiki/File:%EC%97%AC%EC%A3%BC_%EC%98%81%EB%A6%89%EA%B3%BC_%EC%98%81%EB%A6%89_%ED%9A%A8%EC%A2%85_%EC%98%81%EB%A6%89(%ED%9A%A8%EC%A2%85)_%EB%8A%A5%EC%B9%A8.jpg",
+          "credit": "Cultural Heritage Administration of Korea",
+          "license": "KOGL Type 1",
+          "made": "2020 (photo)",
+          "caption": "No portrait of Hyojong survives. This is the burial mound of his tomb, Nyeongneung, in Yeoju, photographed in 2020.",
+          "alt": "Photograph of the burial mound of King Hyojong at the Nyeongneung royal tomb in Yeoju"
+        }
+      ],
+      "sources": [
+        {
+          "title": "Joseon wangjo sillok (Annals of the Joseon Dynasty)",
+          "author": "Office for Annals Compilation",
+          "note": "Hyojong sillok"
+        },
+        {
+          "title": "A New History of Korea",
+          "author": "Ki-baik Lee",
+          "note": "Harvard University Press, 1984"
+        },
+        {
+          "title": "A History of Korea: From Antiquity to the Present",
+          "author": "Michael J. Seth",
+          "note": "Rowman & Littlefield, 2010"
+        }
+      ],
+      "review": {
+        "status": "draft",
+        "notes": "Drafted from the listed sources; needs a human fact-check."
+      }
+    },
+    {
+      "id": "hyeonjong",
+      "kind": "monarch",
+      "rulers": [
+        "hyeonjong"
+      ],
+      "tagline": "Born a hostage, ruled by a mourning row",
+      "start": {
+        "date": "1659-06-23"
+      },
+      "end": {
+        "date": "1674-09-17"
+      },
+      "contestedWith": [],
+      "relationToPredecessor": "Son of Hyojong",
+      "ageAtAccession": "18",
+      "cameToPower": "Succeeded his father",
+      "reignEnded": "Died of illness",
+      "previously": "Hyojong bleeds to death after treatment. His son takes the throne.",
+      "paragraphs": [
+        "Hyeonjong was born in 1641 in Shenyang, where his father was a hostage. He is the only Joseon king born outside Korea. His reign was swallowed by a strange argument. When Hyojong died, how long should the queen dowager mourn him, one year or three? That sounds petty, but it decided whether Hyojong counted as a true heir. Westerners and Southerners fought it out.",
+        "The Westerners won in 1659. When Hyeonjong's mother died in 1674, the row flared again and the Southerners won. In between, famine in 1670 and 1671 killed huge numbers of people. Far away, Hendrick Hamel escaped Korea in 1666. His journal gave Europe its first eyewitness account of the country. Later that same year Hyeonjong died, leaving a 12-year-old son."
+      ],
+      "claims": [
+        {
+          "text": "The 1670 to 1671 famine killed around a million people.",
+          "status": "disputed",
+          "note": "Figures like this are repeated in modern histories, but they rest on rough estimates from incomplete records."
+        },
+        {
+          "text": "Hamel's journal was Europe's first eyewitness account of Korea.",
+          "status": "confirmed",
+          "note": "Published in the Netherlands in 1668, it was the first detailed Western account by someone who had lived there."
+        },
+        {
+          "text": "The rites controversies were really a power struggle between factions.",
+          "status": "confirmed",
+          "note": "Historians agree that the mourning question was a proxy for whose faction would lead the court."
+        }
+      ],
+      "hook": "A boy of 12 takes the throne. He will learn to play the factions against each other, and to fall in love with a court lady named Jang.",
+      "images": [
+        {
+          "file": "File:구리 동구릉 숭릉 능침.jpg",
+          "url": "https://upload.wikimedia.org/wikipedia/commons/9/90/%EA%B5%AC%EB%A6%AC_%EB%8F%99%EA%B5%AC%EB%A6%89_%EC%88%AD%EB%A6%89_%EB%8A%A5%EC%B9%A8.jpg",
+          "page": "https://commons.wikimedia.org/wiki/File:%EA%B5%AC%EB%A6%AC_%EB%8F%99%EA%B5%AC%EB%A6%89_%EC%88%AD%EB%A6%89_%EB%8A%A5%EC%B9%A8.jpg",
+          "credit": "Cultural Heritage Administration of Korea",
+          "license": "KOGL Type 1",
+          "made": "2020 (photo)",
+          "caption": "No portrait of Hyeonjong survives. This is the burial mound of Sungneung, his tomb at Donggureung in Guri, photographed in 2020.",
+          "alt": "Photograph of the burial mound at Sungneung, part of the Donggureung royal tombs in Guri"
+        }
+      ],
+      "sources": [
+        {
+          "title": "Joseon wangjo sillok (Annals of the Joseon Dynasty)",
+          "author": "Office for Annals Compilation",
+          "note": "Hyeonjong sillok"
+        },
+        {
+          "title": "A New History of Korea",
+          "author": "Ki-baik Lee",
+          "note": "Harvard University Press, 1984"
+        },
+        {
+          "title": "A History of Korea: From Antiquity to the Present",
+          "author": "Michael J. Seth",
+          "note": "Rowman & Littlefield, 2010"
+        },
+        {
+          "title": "Hamel's Journal and a Description of the Kingdom of Korea, 1653-1666",
+          "author": "Hendrick Hamel, trans. Jean-Paul Buys",
+          "note": "Royal Asiatic Society Korea Branch, 1994"
+        }
+      ],
+      "review": {
+        "status": "draft",
+        "notes": "Drafted from the listed sources; needs a human fact-check."
+      }
+    },
+    {
+      "id": "sukjong",
+      "kind": "monarch",
+      "rulers": [
+        "sukjong"
+      ],
+      "tagline": "Queens, poison and a king who loved to switch sides",
+      "start": {
+        "date": "1674-09-17"
+      },
+      "end": {
+        "date": "1720-07-12"
+      },
+      "contestedWith": [],
+      "relationToPredecessor": "Only son of Hyeonjong",
+      "ageAtAccession": "12",
+      "cameToPower": "Succeeded his father",
+      "reignEnded": "Died after a long illness",
+      "previously": "Hyeonjong dies. His 12-year-old son inherits a court at war.",
+      "paragraphs": [
+        "Sukjong ruled for 46 years by keeping everyone off balance. Every so often he threw out one faction and brought in its rivals, a move called hwanguk. Under him the copper Sangpyeong tongbo coin circulated nationwide from 1678. He gave the murdered boy king Danjong his temple name in 1698, and in 1712 set up a border stele on Baekdu Mountain.",
+        "His love life was pure drama. He fell for a court lady, Jang Ok-jeong, who gave him a son. In 1689 he deposed Queen Inhyeon and made Jang queen. In 1694 he swung back, restored Inhyeon and demoted Jang to royal concubine, Hui-bin. When Inhyeon died in 1701, Jang was accused of cursing her with shamanist rites and ordered to take poison.",
+        "Another lady, Choe Suk-bin, gave him a son too, Prince Yeoning. When Sukjong died in 1720, Jang's sickly son became king, and Yeoning's backers were already waiting."
+      ],
+      "claims": [
+        {
+          "text": "Jang Hui-bin used shamanist curses to kill Queen Inhyeon.",
+          "status": "disputed",
+          "note": "That was the charge in 1701, backed by confessions taken under torture. Inhyeon had been ill for some time."
+        },
+        {
+          "text": "Before she died, Jang Hui-bin injured her son so he could never have children.",
+          "status": "legend",
+          "note": "A tale from later unofficial histories, used to explain why Gyeongjong had no heir. The Annals don't say so."
+        },
+        {
+          "text": "Choe Suk-bin, Yeongjo's mother, started as a palace water-carrier.",
+          "status": "legend",
+          "note": "Widely repeated, but her exact first job at court is unclear in the records."
+        }
+      ],
+      "hook": "Jang Hui-bin's son is king at last. He is sickly and childless, and the powerful Noron faction wants his half-brother Yeoning named heir. Now.",
+      "images": [
+        {
+          "file": "File:Seooreung Royal Tomb 76 (18909661502).jpg",
+          "url": "https://upload.wikimedia.org/wikipedia/commons/7/7a/Seooreung_Royal_Tomb_76_%2818909661502%29.jpg",
+          "page": "https://commons.wikimedia.org/wiki/File:Seooreung_Royal_Tomb_76_(18909661502).jpg",
+          "credit": "Republic of Korea (Korea.net)",
+          "license": "CC BY-SA 2.0",
+          "made": "2015 (photo)",
+          "caption": "No portrait of Sukjong survives. This is Myeongneung, his tomb at Seooreung in Goyang, photographed in 2015.",
+          "alt": "Photograph of Myeongneung royal tomb, the burial site of King Sukjong, at Seooreung"
+        }
+      ],
+      "sources": [
+        {
+          "title": "Joseon wangjo sillok (Annals of the Joseon Dynasty)",
+          "author": "Office for Annals Compilation",
+          "note": "Sukjong sillok"
+        },
+        {
+          "title": "A New History of Korea",
+          "author": "Ki-baik Lee",
+          "note": "Harvard University Press, 1984"
+        },
+        {
+          "title": "A History of Korea: From Antiquity to the Present",
+          "author": "Michael J. Seth",
+          "note": "Rowman & Littlefield, 2010"
+        }
+      ],
+      "review": {
+        "status": "draft",
+        "notes": "Drafted from the listed sources; needs a human fact-check."
+      }
+    },
+    {
+      "id": "gyeongjong",
+      "kind": "monarch",
+      "rulers": [
+        "gyeongjong"
+      ],
+      "tagline": "Four years, no son, and a fatal plate of crab",
+      "start": {
+        "date": "1720-07-12"
+      },
+      "end": {
+        "date": "1724-10-11"
+      },
+      "contestedWith": [],
+      "relationToPredecessor": "Eldest son of Sukjong",
+      "ageAtAccession": "31",
+      "cameToPower": "Succeeded his father",
+      "reignEnded": "Died after a suspicious meal",
+      "previously": "Sukjong dies. Jang Hui-bin's son takes the throne.",
+      "paragraphs": [
+        "Gyeongjong was the son of the executed Jang Hui-bin, and he was never strong. He had no children, and the Noron faction, who had helped bring his mother down, did not trust him. In 1721 they pushed him to name his half-brother Prince Yeoning as heir, then to let Yeoning act as regent. The rival Soron faction struck back.",
+        "In the purges of 1721 and 1722, the Sinim sahwa, four leading Noron ministers and many of their allies were killed. Yeoning himself was in danger. Then in 1724 Gyeongjong fell ill after eating crab and persimmons, a combination Korean medicine warned against. Days later he was dead, at 35, and Yeoning was king."
+      ],
+      "claims": [
+        {
+          "text": "Yeoning sent the crab and persimmons that made Gyeongjong ill.",
+          "status": "disputed",
+          "note": "The rumour dogged Yeoning for years and fed a rebellion in 1728. The Annals do not prove he had any part in it."
+        },
+        {
+          "text": "The Noron faction pressed a sick king to name his brother heir.",
+          "status": "confirmed",
+          "note": "The Annals record the 1721 petitions and the bitter purge that followed."
+        },
+        {
+          "text": "Gyeongjong was childless because of an injury caused by his mother.",
+          "status": "legend",
+          "note": "A later story with no support in the official records."
+        }
+      ],
+      "hook": "Yeoning becomes King Yeongjo. He will rule longer than any other Joseon king, haunted by whispers about his brother's death and his mother's low birth.",
+      "images": [
+        {
+          "file": "File:Uireung,2018.jpg",
+          "url": "https://upload.wikimedia.org/wikipedia/commons/2/21/Uireung%2C2018.jpg",
+          "page": "https://commons.wikimedia.org/wiki/File:Uireung,2018.jpg",
+          "credit": "Tombus20032000",
+          "license": "CC BY-SA 4.0",
+          "made": "2018 (photo)",
+          "caption": "No portrait of Gyeongjong survives. This is Uireung, his tomb in Seoul, photographed in 2018.",
+          "alt": "Photograph of Uireung, the royal tombs of King Gyeongjong in Seoul"
+        }
+      ],
+      "sources": [
+        {
+          "title": "Joseon wangjo sillok (Annals of the Joseon Dynasty)",
+          "author": "Office for Annals Compilation",
+          "note": "Gyeongjong sillok"
+        },
+        {
+          "title": "A New History of Korea",
+          "author": "Ki-baik Lee",
+          "note": "Harvard University Press, 1984"
+        },
+        {
+          "title": "A History of Korea: From Antiquity to the Present",
+          "author": "Michael J. Seth",
+          "note": "Rowman & Littlefield, 2010"
+        }
+      ],
+      "review": {
+        "status": "draft",
+        "notes": "Drafted from the listed sources; needs a human fact-check."
+      }
+    },
+    {
+      "id": "yeongjo",
+      "kind": "monarch",
+      "rulers": [
+        "yeongjo"
+      ],
+      "tagline": "The maid's son who ruled 51 years and killed his heir",
+      "start": {
+        "date": "1724-10-11"
+      },
+      "end": {
+        "date": "1776-04-22"
+      },
+      "contestedWith": [],
+      "relationToPredecessor": "Half-brother of Gyeongjong",
+      "ageAtAccession": "29",
+      "cameToPower": "Succeeded his half-brother",
+      "reignEnded": "Died of old age at 81",
+      "previously": "Gyeongjong dies after a meal of crab and persimmons. Yeoning is king.",
+      "paragraphs": [
+        "Yi Geum, Prince Yeoning, never forgot that his mother had been a lowly palace maid. Nor could he shake the whispers that he had poisoned his brother. In 1728 rebels led by Yi In-jwa rose in the south claiming exactly that, and were crushed. Yeongjo decided the factions were the real disease. His cure was tangpyeong: share out the top jobs between rival groups so none could run riot.",
+        "He was a hands-on, frugal king. In 1750 he halved the hated military cloth tax paid by commoners. In 1760 he set thousands of labourers to dredge the silted Cheonggyecheon stream through Seoul. He lived to 81 and reigned over 51 years, longer than any other Joseon king. But one day in 1762 overshadows all of it.",
+        "His only surviving son, Crown Prince Sado, had grown violent and unstable, killing servants in his rages. Yeongjo ordered him into a wooden rice chest in the palace courtyard and had it sealed. Sado died there after eight days. The heir now was Sado's nine-year-old son, Yi San."
+      ],
+      "claims": [
+        {
+          "text": "Crown Prince Sado was shut in a rice chest on his father's orders and died after eight days.",
+          "status": "confirmed",
+          "note": "The Annals record the confinement and death, and Sado's widow Lady Hyegyeong describes it in her memoirs."
+        },
+        {
+          "text": "Sado was mentally ill and dangerous, and his death was a tragic necessity.",
+          "status": "disputed",
+          "note": "Lady Hyegyeong's memoirs say so in detail. Some historians argue faction plotters framed him; most now accept her account."
+        },
+        {
+          "text": "Yeongjo banned alcohol across the kingdom.",
+          "status": "disputed",
+          "note": "The Annals record repeated drink bans, mostly to save grain, but how far and how long they were enforced is unclear."
+        }
+      ],
+      "hook": "The old king is dead at last. On the throne sits the boy who watched his father die in a box. Yi San has one question for the court: who was to blame?",
+      "images": [
+        {
+          "file": "File:Korea-Yeongjo-King of Joseon Dynasty-1900.jpg",
+          "url": "https://upload.wikimedia.org/wikipedia/commons/6/66/Korea-Yeongjo-King_of_Joseon_Dynasty-1900.jpg",
+          "page": "https://commons.wikimedia.org/wiki/File:Korea-Yeongjo-King_of_Joseon_Dynasty-1900.jpg",
+          "credit": "Chae Yong-sin and Jo Seok-jin",
+          "license": "Public domain",
+          "made": "1900 (copy of a 1744 original)",
+          "caption": "Yeongjo's royal portrait, a 1900 copy of one painted in 1744 when he was 51.",
+          "alt": "Painted portrait of King Yeongjo in a red royal robe and black cap"
+        }
+      ],
+      "sources": [
+        {
+          "title": "Joseon wangjo sillok (Annals of the Joseon Dynasty)",
+          "author": "Royal historians of Joseon",
+          "note": "Official reign-by-reign chronicle"
+        },
+        {
+          "title": "The Memoirs of Lady Hyegyong",
+          "author": "JaHyun Kim Haboush (trans.)",
+          "note": "University of California Press, 1996"
+        },
+        {
+          "title": "A New History of Korea",
+          "author": "Ki-baik Lee",
+          "note": "Trans. Edward W. Wagner with Edward J. Shultz; Harvard University Press, 1984"
+        },
+        {
+          "title": "A History of Korea: From Antiquity to the Present",
+          "author": "Michael J. Seth",
+          "note": "Rowman & Littlefield, 2010"
+        }
+      ],
+      "review": {
+        "status": "draft",
+        "notes": "Drafted from the listed sources; needs a human fact-check."
+      }
+    },
+    {
+      "id": "jeongjo",
+      "kind": "monarch",
+      "rulers": [
+        "jeongjo"
+      ],
+      "tagline": "Sado's son, who built a fortress for his father",
+      "start": {
+        "date": "1776-04-22"
+      },
+      "end": {
+        "date": "1800-08-18"
+      },
+      "contestedWith": [],
+      "relationToPredecessor": "Grandson of Yeongjo; Sado's son",
+      "ageAtAccession": "23",
+      "cameToPower": "Named heir by his grandfather",
+      "reignEnded": "Sudden death at 47",
+      "previously": "Yeongjo dies at 81, the longest reign of Joseon. Yi San takes over.",
+      "paragraphs": [
+        "On the day he took the throne, Yi San told his officials straight out: \"I am the son of Crown Prince Sado.\" It was a warning to the men who had wanted his father dead. The same year he founded the Gyujanggak, a royal library and think tank where he gathered bright young scholars, including men from families the big factions had shut out.",
+        "Jeongjo was a bookish king who loved to argue. He moved his father's tomb to Suwon in 1789, then built Hwaseong Fortress around a new town there between 1794 and 1796. In 1795 he led a huge procession to Hwaseong for his mother Lady Hyegyeong's 60th birthday, and every step was painted for an illustrated royal record, the Uigwe. Meanwhile a new faith, Catholicism, was arriving through books from China.",
+        "In the summer of 1800 an abscess flared up and within weeks Jeongjo was dead, aged just 47. His heir was a boy of ten."
+      ],
+      "claims": [
+        {
+          "text": "Jeongjo announced \"I am the son of Crown Prince Sado\" on taking the throne.",
+          "status": "confirmed",
+          "note": "The words are recorded in the Annals for his first day as king."
+        },
+        {
+          "text": "The scholar Jeong Yak-yong designed a lifting crane that sped up building Hwaseong.",
+          "status": "disputed",
+          "note": "Jeong is credited with the geojunggi crane in the fortress records, but how much he invented and how much it saved is argued over."
+        },
+        {
+          "text": "Jeongjo was poisoned by his enemies at court.",
+          "status": "disputed",
+          "note": "Rumours started at once and are popular today, but the Annals describe a long illness and no proof of foul play exists."
+        }
+      ],
+      "hook": "Jeongjo is gone without warning. His son is ten, and real power slips to Yeongjo's widow, a queen from the faction that hated Sado. She has a list of enemies to settle.",
+      "images": [
+        {
+          "file": "File:Color3-Haenghaeng-bongsudangjinchan.jpg",
+          "url": "https://upload.wikimedia.org/wikipedia/commons/6/6f/Color3-Haenghaeng-bongsudangjinchan.jpg",
+          "page": "https://commons.wikimedia.org/wiki/File:Color3-Haenghaeng-bongsudangjinchan.jpg",
+          "credit": "Kim Deuk-sin and other court painters",
+          "license": "Public domain",
+          "made": "c. 1795",
+          "caption": "No portrait of Jeongjo survives; this screen panel shows the 1795 banquet at Hwaseong for his mother's 60th birthday.",
+          "alt": "Colour painting of a royal banquet in a palace courtyard, seen from above"
+        }
+      ],
+      "sources": [
+        {
+          "title": "Joseon wangjo sillok (Annals of the Joseon Dynasty)",
+          "author": "Royal historians of Joseon",
+          "note": "Official reign-by-reign chronicle"
+        },
+        {
+          "title": "The Memoirs of Lady Hyegyong",
+          "author": "JaHyun Kim Haboush (trans.)",
+          "note": "University of California Press, 1996"
+        },
+        {
+          "title": "A History of Korea: From Antiquity to the Present",
+          "author": "Michael J. Seth",
+          "note": "Rowman & Littlefield, 2010"
+        },
+        {
+          "title": "A New History of Korea",
+          "author": "Ki-baik Lee",
+          "note": "Trans. Edward W. Wagner with Edward J. Shultz; Harvard University Press, 1984"
+        }
+      ],
+      "review": {
+        "status": "draft",
+        "notes": "Drafted from the listed sources; needs a human fact-check."
+      }
+    },
+    {
+      "id": "sunjo",
+      "kind": "monarch",
+      "rulers": [
+        "sunjo"
+      ],
+      "tagline": "The boy king whose in-laws ran the country",
+      "start": {
+        "date": "1800-08-18"
+      },
+      "end": {
+        "date": "1834-12-13"
+      },
+      "contestedWith": [],
+      "relationToPredecessor": "Son of Jeongjo",
+      "ageAtAccession": "10",
+      "cameToPower": "Succeeded his father",
+      "reignEnded": "Died of illness at 44",
+      "previously": "Jeongjo dies suddenly at 47. His ten-year-old son is king.",
+      "paragraphs": [
+        "Sunjo, born Yi Gong, was a child, so Queen Dowager Jeongsun, Yeongjo's widow, ruled for him. In 1801 she unleashed a bloodbath on Korea's young Catholic community. The Chinese priest Zhou Wenmo was executed, and the convert Hwang Sa-yeong was caught with a letter on silk begging the bishop in Beijing to send Western warships. That letter made Catholics look like traitors for decades.",
+        "Sunjo married the daughter of Kim Jo-sun, and the Andong Kim clan moved in. This was the start of sedo jeongchi, government by the queen's family. Offices went to relatives and bribes. In the winter of 1811 to 1812 Hong Gyeong-nae led a rising in the neglected northwest, which held out in Jeongju fortress until royal troops blew up its walls that spring.",
+        "Sunjo's hope was his clever son Crown Prince Hyomyeong, who ran the government from 1827. Then in 1830 Hyomyeong died at 21. When Sunjo died four years later, the heir was Hyomyeong's little boy."
+      ],
+      "claims": [
+        {
+          "text": "Hwang Sa-yeong's silk letter asked for Western ships and troops to force Korea to accept Christianity.",
+          "status": "confirmed",
+          "note": "The letter was seized in 1801 and survives in the Vatican archives."
+        },
+        {
+          "text": "Hong Gyeong-nae's rebels held Jeongju for about four months.",
+          "status": "confirmed",
+          "note": "The Annals record the siege from early 1812 until the walls were mined that spring."
+        }
+      ],
+      "hook": "The old king is dead and the new one is seven. His grandmother, an Andong Kim, holds the regency, and his mother's family, the Jos of Pungyang, want their turn.",
+      "images": [
+        {
+          "file": "File:Korea-Sunjo Muja Jinjak Uigwe-Cheoyongmu.jpg",
+          "url": "https://upload.wikimedia.org/wikipedia/commons/3/31/Korea-Sunjo_Muja_Jinjak_Uigwe-Cheoyongmu.jpg",
+          "page": "https://commons.wikimedia.org/wiki/File:Korea-Sunjo_Muja_Jinjak_Uigwe-Cheoyongmu.jpg",
+          "credit": "Joseon court painters",
+          "license": "Public domain",
+          "made": "1828",
+          "caption": "No portrait of Sunjo survives; this page of the 1828 court banquet record shows the masked Cheoyong dance.",
+          "alt": "Printed page from a court ceremony record illustrating the masked Cheoyong dance"
+        }
+      ],
+      "sources": [
+        {
+          "title": "Joseon wangjo sillok (Annals of the Joseon Dynasty)",
+          "author": "Royal historians of Joseon",
+          "note": "Official reign-by-reign chronicle"
+        },
+        {
+          "title": "A New History of Korea",
+          "author": "Ki-baik Lee",
+          "note": "Trans. Edward W. Wagner with Edward J. Shultz; Harvard University Press, 1984"
+        },
+        {
+          "title": "A History of Korea: From Antiquity to the Present",
+          "author": "Michael J. Seth",
+          "note": "Rowman & Littlefield, 2010"
+        },
+        {
+          "title": "Korea Old and New: A History",
+          "author": "Carter J. Eckert et al.",
+          "note": "Ilchokak / Harvard Korea Institute, 1990"
+        }
+      ],
+      "review": {
+        "status": "draft",
+        "notes": "Drafted from the listed sources; needs a human fact-check."
+      }
+    },
+    {
+      "id": "heonjong",
+      "kind": "monarch",
+      "rulers": [
+        "heonjong"
+      ],
+      "tagline": "The seven-year-old caught between two clans",
+      "start": {
+        "date": "1834-12-13"
+      },
+      "end": {
+        "date": "1849-07-25"
+      },
+      "contestedWith": [],
+      "relationToPredecessor": "Grandson of Sunjo",
+      "ageAtAccession": "7",
+      "cameToPower": "Succeeded his grandfather",
+      "reignEnded": "Died at 21 with no son",
+      "previously": "Sunjo dies, his heir Hyomyeong already gone. A grandson succeeds.",
+      "paragraphs": [
+        "Heonjong, born Yi Hwan, was king at seven. His grandmother Queen Sunwon, Kim Jo-sun's daughter, ruled as regent, while his mother's relatives, the Jo clan of Pungyang, fought the Andong Kims for the jobs that mattered. The king was mostly a spectator in his own court.",
+        "Catholics paid again. In 1839 the government hunted down converts and executed three French priests who had slipped into Korea in secret. In 1846 it beheaded Andrew Kim Taegon, the first Korean ever ordained a Catholic priest, aged just 25. French warships turned up off the coast asking questions, and left again.",
+        "Heonjong is remembered for Nakseonjae, a plain, elegant set of rooms he built in Changdeok Palace. He died in 1849 at only 21, without a son. The royal line was running dry."
+      ],
+      "claims": [
+        {
+          "text": "Andrew Kim Taegon was the first Korean Catholic priest and was executed in 1846.",
+          "status": "confirmed",
+          "note": "Recorded by the Annals and by Church sources. He was made a saint in 1984."
+        },
+        {
+          "text": "Heonjong built Nakseonjae for a favourite concubine.",
+          "status": "disputed",
+          "note": "The building dates from his reign and is linked to his consort Lady Kim (Gyeongbin), but the romance is mostly later storytelling."
+        }
+      ],
+      "hook": "No son, no brother. Queen Sunwon's people search the royal tree and find a distant cousin in exile on Ganghwa Island. He's 18, a farmer, and can barely read.",
+      "images": [
+        {
+          "file": "File:Korea-Seoul-Changdeokgung-Nakseonjae-01.jpg",
+          "url": "https://upload.wikimedia.org/wikipedia/commons/0/0a/Korea-Seoul-Changdeokgung-Nakseonjae-01.jpg",
+          "page": "https://commons.wikimedia.org/wiki/File:Korea-Seoul-Changdeokgung-Nakseonjae-01.jpg",
+          "credit": "karendotcom127",
+          "license": "CC BY 2.0",
+          "made": "2007 photo",
+          "caption": "No portrait of Heonjong survives; this is Nakseonjae, the quiet compound he built in Changdeok Palace in 1847.",
+          "alt": "Modern photo of a plain wooden Korean palace building with tiled roof and a courtyard"
+        }
+      ],
+      "sources": [
+        {
+          "title": "Joseon wangjo sillok (Annals of the Joseon Dynasty)",
+          "author": "Royal historians of Joseon",
+          "note": "Official reign-by-reign chronicle"
+        },
+        {
+          "title": "A New History of Korea",
+          "author": "Ki-baik Lee",
+          "note": "Trans. Edward W. Wagner with Edward J. Shultz; Harvard University Press, 1984"
+        },
+        {
+          "title": "A History of Korea: From Antiquity to the Present",
+          "author": "Michael J. Seth",
+          "note": "Rowman & Littlefield, 2010"
+        }
+      ],
+      "review": {
+        "status": "draft",
+        "notes": "Drafted from the listed sources; needs a human fact-check."
+      }
+    },
+    {
+      "id": "cheoljong",
+      "kind": "monarch",
+      "rulers": [
+        "cheoljong"
+      ],
+      "tagline": "The island farmer plucked out of exile to be king",
+      "start": {
+        "date": "1849-07-25"
+      },
+      "end": {
+        "date": "1864-01-16"
+      },
+      "contestedWith": [],
+      "relationToPredecessor": "Distant cousin; adopted by Sunjo's widow",
+      "ageAtAccession": "18",
+      "cameToPower": "Chosen by Queen Sunwon",
+      "reignEnded": "Died at 32 with no surviving son",
+      "previously": "Heonjong dies at 21 with no son. The court goes looking for an heir.",
+      "paragraphs": [
+        "Yi Won-beom was a great-great-grandson of Yeongjo, through Crown Prince Sado. His family had been caught up in treason plots and packed off to Ganghwa Island, where he grew up working the land. People called him the Ganghwa bachelor. In 1849 a royal escort appeared at his door. Queen Sunwon adopted him as Sunjo's son and put him on the throne.",
+        "That was the point. A king with no education and no allies could not get in anyone's way. He married an Andong Kim girl, and her family ran the government. Corruption spread through tax offices, and in 1862 peasants rose at Jinju and then across the south. Two years earlier a wandering scholar from Gyeongju named Choe Je-u had founded Donghak, \"Eastern Learning\", a new faith mixing old beliefs with ideas of equality.",
+        "Cheoljong fell ill and died in January 1864 aged 32. None of his sons had lived."
+      ],
+      "claims": [
+        {
+          "text": "Cheoljong was nearly illiterate when he was made king.",
+          "status": "disputed",
+          "note": "The story is old and widely told, but it suited his enemies and later writers to make him look simple; how little he knew may be exaggerated."
+        },
+        {
+          "text": "His portrait in military uniform is one of the very few royal portraits to survive.",
+          "status": "confirmed",
+          "note": "Painted in 1861; it was partly burned in a 1954 fire in Busan, and it is now in the National Palace Museum of Korea."
+        }
+      ],
+      "hook": "Another king dead, another empty nursery. This time the dowager queen Jo picks an 11-year-old boy. His father is an ambitious royal with big plans of his own.",
+      "images": [
+        {
+          "file": "File:Portrait of King Cheoljong.jpeg",
+          "url": "https://upload.wikimedia.org/wikipedia/commons/2/2d/Portrait_of_King_Cheoljong.jpeg",
+          "page": "https://commons.wikimedia.org/wiki/File:Portrait_of_King_Cheoljong.jpeg",
+          "credit": "Yi Han-cheol and Jo Jung-muk",
+          "license": "Public domain",
+          "made": "1861",
+          "caption": "Painted from life in 1861, three years before he died; part of it was burned in a 1954 fire.",
+          "alt": "Fire-damaged painted portrait of King Cheoljong in military uniform"
+        }
+      ],
+      "sources": [
+        {
+          "title": "Joseon wangjo sillok (Annals of the Joseon Dynasty)",
+          "author": "Royal historians of Joseon",
+          "note": "Official reign-by-reign chronicle"
+        },
+        {
+          "title": "A New History of Korea",
+          "author": "Ki-baik Lee",
+          "note": "Trans. Edward W. Wagner with Edward J. Shultz; Harvard University Press, 1984"
+        },
+        {
+          "title": "A History of Korea: From Antiquity to the Present",
+          "author": "Michael J. Seth",
+          "note": "Rowman & Littlefield, 2010"
+        },
+        {
+          "title": "Korea Old and New: A History",
+          "author": "Carter J. Eckert et al.",
+          "note": "Ilchokak / Harvard Korea Institute, 1990"
+        }
+      ],
+      "review": {
+        "status": "draft",
+        "notes": "Drafted from the listed sources; needs a human fact-check."
+      }
+    },
+    {
+      "id": "gojong",
+      "kind": "monarch",
+      "rulers": [
+        "gojong"
+      ],
+      "tagline": "The boy king whose world was crashing in",
+      "start": {
+        "date": "1864-01-16"
+      },
+      "end": {
+        "date": "1897-10-12"
+      },
+      "contestedWith": [],
+      "relationToPredecessor": "Distant cousin; adopted heir",
+      "ageAtAccession": "11",
+      "cameToPower": "Picked by Queen Dowager Jo",
+      "reignEnded": "Made himself an emperor",
+      "previously": "Cheoljong dies at 32 with no son. The throne is empty again.",
+      "paragraphs": [
+        "Gojong was 11, so his father Yi Ha-eung, the Heungseon Daewongun, ran Korea until 1873. He rebuilt burned-out Gyeongbok Palace, shut most private academies and slaughtered thousands of Catholics in 1866. That year a French fleet raided Ganghwa and the US ship General Sherman was burned at Pyongyang. American troops attacked in 1871. Both left, and the Daewongun put up stone tablets across the land warning against peace with Westerners.",
+        "Then Gojong and his wife Queen Min eased the Daewongun out. Japan forced the Treaty of Ganghwa in 1876, and Korea became a prize fought over by China, Japan and Russia. A soldiers' mutiny in 1882 ended with Chinese troops carrying the Daewongun off to China. Reformers tried a coup in 1884 that lasted three days. In 1894 the Donghak peasants rose, and China and Japan went to war over Korea. Japan won.",
+        "On 8 October 1895 Japanese agents broke into Gyeongbok Palace, killed Queen Min and burned her body. In February 1896 Gojong slipped out disguised in a woman's palanquin and fled to the Russian legation."
+      ],
+      "claims": [
+        {
+          "text": "Queen Min was murdered by Japanese agents acting under Japan's minister in Seoul, Miura Goro.",
+          "status": "confirmed",
+          "note": "Witnesses at the palace, including a Russian and an American, described the attack. Miura and others were tried in Japan and released for lack of evidence."
+        },
+        {
+          "text": "Gojong escaped to the Russian legation hidden in a woman's palanquin.",
+          "status": "disputed",
+          "note": "The palanquin story is told by diplomats and memoirists of the time, but the details vary."
+        },
+        {
+          "text": "The Daewongun's stone tablets warned that when Western barbarians invade, refusing to fight means making peace, and urging peace betrays the country.",
+          "status": "confirmed",
+          "note": "Several of the 1871 tablets survive with this inscription."
+        }
+      ],
+      "hook": "A king hiding in a foreign embassy is a joke to the world. Gojong decides to answer with a grand gesture: if China's emperor no longer rules him, he'll become an emperor himself.",
+      "images": [
+        {
+          "file": "File:His Majesty the King of Korea by Lowell.jpg",
+          "url": "https://upload.wikimedia.org/wikipedia/commons/1/11/His_Majesty_the_King_of_Korea_by_Lowell.jpg",
+          "page": "https://commons.wikimedia.org/wiki/File:His_Majesty_the_King_of_Korea_by_Lowell.jpg",
+          "credit": "Percival Lowell",
+          "license": "Public domain",
+          "made": "1884",
+          "caption": "Photographed by the American Percival Lowell in March 1884, when Gojong was 31.",
+          "alt": "Black-and-white photograph of King Gojong in Korean court dress"
+        }
+      ],
+      "sources": [
+        {
+          "title": "Joseon wangjo sillok (Annals of the Joseon Dynasty)",
+          "author": "Royal historians of Joseon",
+          "note": "Official reign-by-reign chronicle"
+        },
+        {
+          "title": "Korea Old and New: A History",
+          "author": "Carter J. Eckert et al.",
+          "note": "Ilchokak / Harvard Korea Institute, 1990"
+        },
+        {
+          "title": "A History of Korea: From Antiquity to the Present",
+          "author": "Michael J. Seth",
+          "note": "Rowman & Littlefield, 2010"
+        },
+        {
+          "title": "A New History of Korea",
+          "author": "Ki-baik Lee",
+          "note": "Trans. Edward W. Wagner with Edward J. Shultz; Harvard University Press, 1984"
+        }
+      ],
+      "review": {
+        "status": "draft",
+        "notes": "Drafted from the listed sources; needs a human fact-check."
+      }
+    },
+    {
+      "id": "gojong-emperor",
+      "kind": "monarch",
+      "rulers": [
+        "gojong"
+      ],
+      "tagline": "Korea's first emperor, outplayed by Japan",
+      "start": {
+        "date": "1897-10-12"
+      },
+      "end": {
+        "date": "1907-07-19"
+      },
+      "contestedWith": [],
+      "title": "Emperor Gojong",
+      "relationToPredecessor": "Same man, now Emperor",
+      "ageAtAccession": "45",
+      "cameToPower": "Proclaimed himself Emperor",
+      "reignEnded": "Forced to abdicate by Japan",
+      "previously": "Gojong flees to the Russian legation after his queen is murdered.",
+      "paragraphs": [
+        "On 12 October 1897, at the Hwangudan altar in Seoul, Gojong declared the Korean Empire, with the era name Gwangmu. His murdered queen was named Empress Myeongseong and given a lavish funeral. Seoul got an Independence Gate, telegraph lines, electric light and, in 1899, trams. In 1898 someone laced the emperor's coffee with drugs; he spat it out, but his son drank it.",
+        "None of it stopped Japan. After beating Russia in 1904 to 1905, Japan sent Ito Hirobumi to Seoul. In November 1905 the Eulsa Treaty made Korea a protectorate, with Japan running its foreign affairs. Gojong insisted he had never agreed to it.",
+        "In 1907 he secretly sent three envoys to the peace conference at The Hague to tell the world. They were turned away at the door. Japan used it as the excuse to force him off the throne in favour of his son. Gojong died in 1919, and rumours that he was poisoned helped spark the March 1st Movement."
+      ],
+      "claims": [
+        {
+          "text": "Gojong never signed the 1905 protectorate treaty.",
+          "status": "disputed",
+          "note": "His seal and signature are missing from the treaty, and he protested it at once. Japan said his ministers' approval was enough."
+        },
+        {
+          "text": "The 1898 coffee plot ruined Crown Prince Sunjong's health.",
+          "status": "disputed",
+          "note": "Accounts of the time say Sunjong drank the drugged coffee and was badly hurt; how lasting the harm was is hard to pin down."
+        },
+        {
+          "text": "Gojong was poisoned by the Japanese in 1919.",
+          "status": "disputed",
+          "note": "The rumour spread fast after his sudden death and fuelled the March 1st protests, but there is no firm evidence."
+        }
+      ],
+      "hook": "The old emperor is pushed aside. His son Sunjong, sickly and childless, takes a throne with almost nothing left behind it. Japan has one more step in mind.",
+      "images": [
+        {
+          "file": "File:Emperador Gojong de Corea 1897.jpg",
+          "url": "https://upload.wikimedia.org/wikipedia/commons/4/49/Emperador_Gojong_de_Corea_1897.jpg",
+          "page": "https://commons.wikimedia.org/wiki/File:Emperador_Gojong_de_Corea_1897.jpg",
+          "credit": "Unknown photographer",
+          "license": "Public domain",
+          "made": "c. 1897",
+          "caption": "Emperor Gojong in Western-style uniform, photographed around the founding of the Korean Empire.",
+          "alt": "Black-and-white photograph of Gojong in a Western-style uniform"
+        }
+      ],
+      "sources": [
+        {
+          "title": "Korea Old and New: A History",
+          "author": "Carter J. Eckert et al.",
+          "note": "Ilchokak / Harvard Korea Institute, 1990"
+        },
+        {
+          "title": "A History of Korea: From Antiquity to the Present",
+          "author": "Michael J. Seth",
+          "note": "Rowman & Littlefield, 2010"
+        },
+        {
+          "title": "A New History of Korea",
+          "author": "Ki-baik Lee",
+          "note": "Trans. Edward W. Wagner with Edward J. Shultz; Harvard University Press, 1984"
+        }
+      ],
+      "review": {
+        "status": "draft",
+        "notes": "Drafted from the listed sources; needs a human fact-check."
+      }
+    },
+    {
+      "id": "sunjong",
+      "kind": "monarch",
+      "rulers": [
+        "sunjong"
+      ],
+      "tagline": "The last emperor of Korea",
+      "start": {
+        "date": "1907-07-19"
+      },
+      "end": {
+        "date": "1910-08-29"
+      },
+      "contestedWith": [],
+      "relationToPredecessor": "Son of Gojong and Queen Min",
+      "ageAtAccession": "33",
+      "cameToPower": "Put in place by Japan",
+      "reignEnded": "Korea annexed by Japan",
+      "previously": "Japan forces Gojong to abdicate after the Hague envoys affair.",
+      "paragraphs": [
+        "Sunjong, born Yi Cheok, was the son of Gojong and the murdered Queen Min. He was emperor in name only. Days after he took over, a new treaty handed Japan's resident-general control of the government, and on 1 August 1907 the Korean army was disbanded. Soldiers fought back in Seoul, then joined the righteous armies, guerrilla bands that fought the Japanese across the countryside for years.",
+        "On 26 October 1909 the Korean patriot An Jung-geun shot Ito Hirobumi dead on the platform at Harbin station. Japan pressed on. On 22 August 1910 Prime Minister Yi Wan-yong signed the treaty of annexation, and on 29 August it was made public. After 518 years, Joseon was gone.",
+        "Sunjong was demoted to \"King Yi of Changdeok Palace\" and lived on there quietly. He died in April 1926. On the day of his funeral, 10 June, students shouted for independence in the streets of Seoul: the June 10th Movement. Korea would not be free until 1945."
+      ],
+      "claims": [
+        {
+          "text": "Sunjong never signed the annexation treaty himself.",
+          "status": "disputed",
+          "note": "The imperial edict carries his seal but not his signature, which some historians argue makes it invalid. Japan treated it as binding."
+        },
+        {
+          "text": "An Jung-geun killed Ito Hirobumi at Harbin in 1909.",
+          "status": "confirmed",
+          "note": "An was arrested on the spot, tried by a Japanese court and hanged at Lushun in 1910."
+        }
+      ],
+      "images": [
+        {
+          "file": "File:Sunjong of the Korean Empire.jpg",
+          "url": "https://upload.wikimedia.org/wikipedia/commons/5/50/Sunjong_of_the_Korean_Empire.jpg",
+          "page": "https://commons.wikimedia.org/wiki/File:Sunjong_of_the_Korean_Empire.jpg",
+          "credit": "Iwata Kanae",
+          "license": "Public domain",
+          "made": "1910 or earlier",
+          "caption": "Emperor Sunjong, photographed in 1910 or a little before, the year his empire ended.",
+          "alt": "Black-and-white portrait photograph of Emperor Sunjong"
+        }
+      ],
+      "sources": [
+        {
+          "title": "Korea Old and New: A History",
+          "author": "Carter J. Eckert et al.",
+          "note": "Ilchokak / Harvard Korea Institute, 1990"
+        },
+        {
+          "title": "A History of Korea: From Antiquity to the Present",
+          "author": "Michael J. Seth",
+          "note": "Rowman & Littlefield, 2010"
+        },
+        {
+          "title": "A New History of Korea",
+          "author": "Ki-baik Lee",
+          "note": "Trans. Edward W. Wagner with Edward J. Shultz; Harvard University Press, 1984"
+        }
+      ],
+      "review": {
+        "status": "draft",
+        "notes": "Drafted from the listed sources; needs a human fact-check."
+      }
+    }
+  ]
+}
