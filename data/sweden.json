@@ -1,0 +1,2044 @@
+{
+  "id": "sweden",
+  "name": "Sweden",
+  "blurb": "From Gustav Vasa to the House of Bernadotte",
+  "dateConvention": "Dates follow the standard sources. Sweden switched to the Gregorian calendar in 1753, after a famously botched attempt that left it with a 30 February in 1712.",
+  "houses": [
+    {
+      "id": "vasa",
+      "name": "Vasa",
+      "color": "#2f5d8a"
+    },
+    {
+      "id": "palatinate",
+      "name": "Palatinate-Zweibrücken",
+      "color": "#8a2e5a"
+    },
+    {
+      "id": "hesse",
+      "name": "Hesse",
+      "color": "#3f6b4f"
+    },
+    {
+      "id": "holstein-gottorp",
+      "name": "Holstein-Gottorp",
+      "color": "#a0522d"
+    },
+    {
+      "id": "bernadotte",
+      "name": "Bernadotte",
+      "color": "#c79a2b"
+    }
+  ],
+  "rulers": [
+    {
+      "id": "gustav-i",
+      "name": "Gustav I",
+      "epithet": "Vasa",
+      "house": "vasa",
+      "born": {
+        "date": "1496-05-12",
+        "note": "Probably Rydboholm, Uppland; the place and year are traditional"
+      },
+      "died": {
+        "date": "1560-09-29",
+        "note": "Stockholm Castle"
+      },
+      "causeOfDeath": "Illness in old age"
+    },
+    {
+      "id": "erik-xiv",
+      "name": "Erik XIV",
+      "house": "vasa",
+      "born": {
+        "date": "1533-12-13",
+        "note": "Stockholm Castle"
+      },
+      "died": {
+        "date": "1577-02-26",
+        "note": "Örbyhus Castle, Uppland, as a prisoner"
+      },
+      "causeOfDeath": "Died in prison; possibly poisoned"
+    },
+    {
+      "id": "john-iii",
+      "name": "John III",
+      "house": "vasa",
+      "born": {
+        "date": "1537-12-20",
+        "note": "Stegeborg Castle, Östergötland"
+      },
+      "died": {
+        "date": "1592-11-17",
+        "note": "Stockholm Castle"
+      },
+      "causeOfDeath": "Illness"
+    },
+    {
+      "id": "sigismund",
+      "name": "Sigismund",
+      "house": "vasa",
+      "born": {
+        "date": "1566-06-20",
+        "note": "Gripsholm Castle, where his parents were prisoners"
+      },
+      "died": {
+        "date": "1632-04-30",
+        "note": "Warsaw"
+      },
+      "causeOfDeath": "Stroke"
+    },
+    {
+      "id": "charles-ix",
+      "name": "Charles IX",
+      "house": "vasa",
+      "born": {
+        "date": "1550-10-04",
+        "note": "Stockholm"
+      },
+      "died": {
+        "date": "1611-10-30",
+        "note": "Nyköping Castle"
+      },
+      "causeOfDeath": "Stroke"
+    },
+    {
+      "id": "gustav-ii-adolf",
+      "name": "Gustav II Adolf",
+      "epithet": "the Lion of the North",
+      "house": "vasa",
+      "born": {
+        "date": "1594-12-09",
+        "note": "Stockholm Castle"
+      },
+      "died": {
+        "date": "1632-11-06",
+        "note": "Battlefield of Lützen, Saxony"
+      },
+      "causeOfDeath": "Killed in battle"
+    },
+    {
+      "id": "christina",
+      "name": "Christina",
+      "house": "vasa",
+      "born": {
+        "date": "1626-12-08",
+        "note": "Stockholm Castle"
+      },
+      "died": {
+        "date": "1689-04-19",
+        "note": "Rome"
+      },
+      "causeOfDeath": "Illness"
+    },
+    {
+      "id": "charles-x-gustav",
+      "name": "Charles X Gustav",
+      "house": "palatinate",
+      "born": {
+        "date": "1622-11-08",
+        "note": "Nyköping Castle"
+      },
+      "died": {
+        "date": "1660-02-13",
+        "note": "Gothenburg"
+      },
+      "causeOfDeath": "Fever, during a meeting of the Riksdag"
+    },
+    {
+      "id": "charles-xi",
+      "name": "Charles XI",
+      "house": "palatinate",
+      "born": {
+        "date": "1655-11-24",
+        "note": "Stockholm Castle"
+      },
+      "died": {
+        "date": "1697-04-05",
+        "note": "Stockholm Castle"
+      },
+      "causeOfDeath": "Stomach cancer"
+    },
+    {
+      "id": "charles-xii",
+      "name": "Charles XII",
+      "house": "palatinate",
+      "born": {
+        "date": "1682-06-17",
+        "note": "Stockholm Castle"
+      },
+      "died": {
+        "date": "1718-11-30",
+        "note": "Siege of Fredriksten, near Halden, Norway"
+      },
+      "causeOfDeath": "Shot in the head"
+    },
+    {
+      "id": "ulrika-eleonora",
+      "name": "Ulrika Eleonora",
+      "house": "palatinate",
+      "born": {
+        "date": "1688-01-23",
+        "note": "Stockholm"
+      },
+      "died": {
+        "date": "1741-11-24",
+        "note": "Stockholm"
+      },
+      "causeOfDeath": "Illness"
+    },
+    {
+      "id": "frederick-i",
+      "name": "Frederick I",
+      "house": "hesse",
+      "born": {
+        "date": "1676-04-28",
+        "note": "Kassel, Hesse"
+      },
+      "died": {
+        "date": "1751-03-25",
+        "note": "Stockholm"
+      },
+      "causeOfDeath": "Illness in old age"
+    },
+    {
+      "id": "adolf-frederick",
+      "name": "Adolf Frederick",
+      "house": "holstein-gottorp",
+      "born": {
+        "date": "1710-05-14",
+        "note": "Gottorf Castle, Schleswig"
+      },
+      "died": {
+        "date": "1771-02-12",
+        "note": "Stockholm"
+      },
+      "causeOfDeath": "Collapsed after a huge dinner"
+    },
+    {
+      "id": "gustav-iii",
+      "name": "Gustav III",
+      "house": "holstein-gottorp",
+      "born": {
+        "date": "1746-01-24",
+        "note": "Stockholm (13 January in the old-style calendar Sweden still used)"
+      },
+      "died": {
+        "date": "1792-03-29",
+        "note": "Stockholm Palace"
+      },
+      "causeOfDeath": "Shot at a masked ball; died of the wound"
+    },
+    {
+      "id": "gustav-iv-adolf",
+      "name": "Gustav IV Adolf",
+      "house": "holstein-gottorp",
+      "born": {
+        "date": "1778-11-01",
+        "note": "Stockholm"
+      },
+      "died": {
+        "date": "1837-02-07",
+        "note": "St. Gallen, Switzerland"
+      },
+      "causeOfDeath": "Stroke, in exile"
+    },
+    {
+      "id": "charles-xiii",
+      "name": "Charles XIII",
+      "house": "holstein-gottorp",
+      "born": {
+        "date": "1748-10-07",
+        "note": "Stockholm"
+      },
+      "died": {
+        "date": "1818-02-05",
+        "note": "Stockholm"
+      },
+      "causeOfDeath": "Natural causes after years of poor health"
+    },
+    {
+      "id": "charles-xiv-john",
+      "name": "Charles XIV John",
+      "house": "bernadotte",
+      "born": {
+        "date": "1763-01-26",
+        "note": "Pau, France"
+      },
+      "died": {
+        "date": "1844-03-08",
+        "note": "Stockholm"
+      },
+      "causeOfDeath": "Stroke"
+    },
+    {
+      "id": "oscar-i",
+      "name": "Oscar I",
+      "house": "bernadotte",
+      "born": {
+        "date": "1799-07-04",
+        "note": "Paris"
+      },
+      "died": {
+        "date": "1859-07-08",
+        "note": "Stockholm"
+      },
+      "causeOfDeath": "Long illness"
+    },
+    {
+      "id": "charles-xv",
+      "name": "Charles XV",
+      "house": "bernadotte",
+      "born": {
+        "date": "1826-05-03",
+        "note": "Stockholm"
+      },
+      "died": {
+        "date": "1872-09-18",
+        "note": "Malmö"
+      },
+      "causeOfDeath": "Illness, on the way home from a spa"
+    },
+    {
+      "id": "oscar-ii",
+      "name": "Oscar II",
+      "house": "bernadotte",
+      "born": {
+        "date": "1829-01-21",
+        "note": "Stockholm"
+      },
+      "died": {
+        "date": "1907-12-08",
+        "note": "Stockholm"
+      },
+      "causeOfDeath": "Natural causes, aged 78"
+    },
+    {
+      "id": "gustaf-v",
+      "name": "Gustaf V",
+      "house": "bernadotte",
+      "born": {
+        "date": "1858-06-16",
+        "note": "Drottningholm Palace"
+      },
+      "died": {
+        "date": "1950-10-29",
+        "note": "Drottningholm Palace"
+      },
+      "causeOfDeath": "Old age, at 92"
+    },
+    {
+      "id": "gustaf-vi-adolf",
+      "name": "Gustaf VI Adolf",
+      "house": "bernadotte",
+      "born": {
+        "date": "1882-11-11",
+        "note": "Stockholm"
+      },
+      "died": {
+        "date": "1973-09-15",
+        "note": "Helsingborg"
+      },
+      "causeOfDeath": "Illness, in hospital at 90"
+    },
+    {
+      "id": "carl-xvi-gustaf",
+      "name": "Carl XVI Gustaf",
+      "house": "bernadotte",
+      "born": {
+        "date": "1946-04-30",
+        "note": "Haga Palace, Solna"
+      }
+    }
+  ],
+  "reigns": [
+    {
+      "id": "gustav-i",
+      "kind": "monarch",
+      "rulers": [
+        "gustav-i"
+      ],
+      "tagline": "The rebel on skis who built a kingdom from scratch",
+      "start": {
+        "date": "1523-06-06"
+      },
+      "end": {
+        "date": "1560-09-29"
+      },
+      "contestedWith": [],
+      "relationToPredecessor": "Son of a lord killed in Stockholm",
+      "ageAtAccession": "27",
+      "cameToPower": "Elected by the Riksdag at Strängnäs",
+      "reignEnded": "Died in his bed, aged 64",
+      "previously": "Denmark's Christian II rules Sweden after a bloodbath in Stockholm.",
+      "paragraphs": [
+        "For over a century Sweden sat in the Kalmar Union under Danish kings. In November 1520 Christian II of Denmark was crowned in Stockholm, then had dozens of Swedish nobles and churchmen executed in the main square. One of them was the father of a young lord called Gustav Eriksson. Gustav got away, hid out in Dalarna and talked the tough miners and farmers there into a rebellion.",
+        "It worked. On 6 June 1523, now Sweden's National Day, he was elected king, and soon rode into Stockholm with help from the merchants of Lübeck. Then he had to pay them back. So he took the Church's land and silver, broke with Rome and backed the Lutheran preachers. A Swedish Bible followed in 1541. Gustav was hot-tempered and stingy, and he crushed several revolts, the biggest led by the outlaw Nils Dacke.",
+        "In 1544 he got the Riksdag to make the crown hereditary in his family. He married three times and had ten children. Each of his younger sons was handed a duchy of his own. It looked generous. It also gave his boys their own lands, men and money to fight each other with."
+      ],
+      "claims": [
+        {
+          "text": "Gustav fled to Norway on skis, and two skiers from Mora caught him at the border to beg him to come back and lead them.",
+          "status": "legend",
+          "note": "The tale comes from Peder Swart's chronicle, written for Gustav's own family. The Vasaloppet ski race still follows the route."
+        },
+        {
+          "text": "Gustav's father, Erik Johansson, was among those killed in the Stockholm Bloodbath.",
+          "status": "confirmed",
+          "note": "Lists of the executed survive, and the killing shaped Gustav's propaganda against Denmark for the rest of his life."
+        },
+        {
+          "text": "Gustav killed his first wife, Catherine of Saxe-Lauenburg, with a blow to the head.",
+          "status": "legend",
+          "note": "A later rumour with no evidence behind it. She died after an illness in 1535."
+        }
+      ],
+      "hook": "Gustav's eldest son Erik is clever, artistic and wildly ambitious. He's already writing love letters to the Queen of England.",
+      "images": [
+        {
+          "file": "File:Gustav Vasa.jpg",
+          "url": "https://upload.wikimedia.org/wikipedia/commons/5/58/Gustav_Vasa.jpg",
+          "page": "https://commons.wikimedia.org/wiki/File:Gustav_Vasa.jpg",
+          "credit": "Jacob Binck",
+          "license": "Public domain",
+          "made": "1542",
+          "caption": "Painted by Jacob Binck in 1542, while Gustav was king.",
+          "alt": "Painted portrait of King Gustav Vasa of Sweden"
+        }
+      ],
+      "sources": [
+        {
+          "title": "The Early Vasas: A History of Sweden, 1523–1611",
+          "author": "Michael Roberts",
+          "note": "Cambridge University Press, 1968"
+        },
+        {
+          "title": "Konung Gustaf I:s krönika",
+          "author": "Peder Swart",
+          "note": "Royal chronicle written in the 1560s"
+        },
+        {
+          "title": "Gustav Vasa: landsfader eller tyrann?",
+          "author": "Lars-Olof Larsson",
+          "note": "Prisma, 2002"
+        }
+      ],
+      "review": {
+        "status": "draft",
+        "notes": "Drafted from the listed sources; needs a human fact-check."
+      }
+    },
+    {
+      "id": "erik-xiv",
+      "kind": "monarch",
+      "rulers": [
+        "erik-xiv"
+      ],
+      "tagline": "Brilliant, paranoid, and locked up by his own brothers",
+      "start": {
+        "date": "1560-09-29"
+      },
+      "end": {
+        "date": "1568-09-29"
+      },
+      "contestedWith": [],
+      "relationToPredecessor": "Eldest son of Gustav I",
+      "ageAtAccession": "26",
+      "cameToPower": "Inherited from his father",
+      "reignEnded": "Deposed by his brothers",
+      "previously": "Gustav Vasa dies, leaving a hereditary crown and four restless sons.",
+      "paragraphs": [
+        "Erik was well educated, musical and sure of his star. Before his father died he was busy courting Elizabeth I of England, and later he tried Mary, Queen of Scots too. Nothing came of it. As king he cut his brothers' powers, and when Duke John married a Polish princess against his wishes, Erik had him tried and locked up. Soon Sweden was also at war with Denmark, in a long, bloody struggle.",
+        "Erik trusted few people beyond his commoner adviser Jöran Persson. He grew convinced the great Sture family were plotting against him. In May 1567, at Uppsala Castle, he stabbed Nils Sture himself, and his guards killed Nils's father and others. Erik then ran off into the woods in a state of collapse. He later married Karin Månsdotter, a soldier's daughter who had been his mistress.",
+        "By 1568 the nobles had had enough. His brothers John and Charles rose against him, took Stockholm and locked Erik up. He spent his last years moved from castle to castle as a prisoner. He died at Örbyhus in 1577."
+      ],
+      "claims": [
+        {
+          "text": "Erik was killed with arsenic hidden in a bowl of pea soup.",
+          "status": "disputed",
+          "note": "Tests on his remains in the 20th century found raised arsenic. The pea soup detail is later tradition, and arsenic was also used in medicines then."
+        },
+        {
+          "text": "Erik killed Nils Sture with his own hands.",
+          "status": "confirmed",
+          "note": "The Uppsala killings are well recorded, and Erik's personal attack on Nils is reported by sources close to the court."
+        },
+        {
+          "text": "Erik was clinically insane.",
+          "status": "disputed",
+          "note": "He clearly had breakdowns, but what was wrong with him is guesswork, and his enemies had every reason to paint him as mad."
+        }
+      ],
+      "hook": "Erik's brother John is out of prison and on the throne. He has a Polish Catholic wife, a Catholic-raised son, and some very un-Lutheran ideas about church services.",
+      "images": [
+        {
+          "file": "File:Erik XIV, 1561.jpg",
+          "url": "https://upload.wikimedia.org/wikipedia/commons/9/92/Erik_XIV%2C_1561.jpg",
+          "page": "https://commons.wikimedia.org/wiki/File:Erik_XIV,_1561.jpg",
+          "credit": "Steven van der Meulen",
+          "license": "Public domain",
+          "made": "1561",
+          "caption": "Painted by Steven van der Meulen in 1561, early in Erik's reign.",
+          "alt": "Full-length painted portrait of King Erik XIV of Sweden"
+        }
+      ],
+      "sources": [
+        {
+          "title": "The Early Vasas: A History of Sweden, 1523–1611",
+          "author": "Michael Roberts",
+          "note": "Cambridge University Press, 1968"
+        },
+        {
+          "title": "Erik XIV",
+          "author": "Ingvar Andersson",
+          "note": "Biography, 1935"
+        },
+        {
+          "title": "Svenskt biografiskt lexikon: Erik XIV",
+          "author": "Riksarkivet (various authors)",
+          "note": "Standard Swedish national biography, online"
+        }
+      ],
+      "review": {
+        "status": "draft",
+        "notes": "Drafted from the listed sources; needs a human fact-check."
+      }
+    },
+    {
+      "id": "john-iii",
+      "kind": "monarch",
+      "rulers": [
+        "john-iii"
+      ],
+      "tagline": "The Lutheran king who flirted with Rome",
+      "start": {
+        "date": "1568-09-29"
+      },
+      "end": {
+        "date": "1592-11-17"
+      },
+      "contestedWith": [],
+      "relationToPredecessor": "Younger brother of Erik XIV",
+      "ageAtAccession": "30",
+      "cameToPower": "Overthrew his brother",
+      "reignEnded": "Died in Stockholm",
+      "previously": "Erik XIV is dragged off his throne and locked up by his brothers.",
+      "paragraphs": [
+        "John had married Catherine Jagiellon, sister of the King of Poland, and spent years as Erik's prisoner with her. Now he was king. He ended the war with Denmark in 1570, though Sweden had to buy back the fortress of Älvsborg. He loved building and filled his castles with Renaissance splendour. He also read a lot of theology, and he believed the split with Rome could be healed.",
+        "In 1576 he brought in a new church service, nicknamed the Red Book for its binding, which looked a lot like the old Catholic Mass. Jesuits taught in Stockholm. Lutheran clergy were horrified, and so was John's younger brother Charles, a hard-line Protestant. The quarrel rumbled on for the rest of the reign.",
+        "John's son Sigismund was raised a Catholic by his mother. In 1587 the Poles elected Sigismund as their king. That meant one young man would one day hold two crowns, a Catholic in Poland and a Catholic in Lutheran Sweden."
+      ],
+      "claims": [
+        {
+          "text": "The Red Book liturgy was a deliberate step back towards Rome.",
+          "status": "disputed",
+          "note": "Supporters said it simply restored older Christian practice. Opponents, and many historians since, saw it as a bridge to Catholicism."
+        },
+        {
+          "text": "John and Catherine spent years together as prisoners of Erik at Gripsholm Castle.",
+          "status": "confirmed",
+          "note": "Well documented. Their son Sigismund was born there in 1566."
+        },
+        {
+          "text": "John's ideas were shaped by his wife's Catholic faith.",
+          "status": "disputed",
+          "note": "Catherine was devout and influential, but John had his own strong interest in theology."
+        }
+      ],
+      "hook": "John is dead. The new King of Sweden lives in Poland, prays as a Catholic, and has an uncle at home who wants him gone.",
+      "images": [
+        {
+          "file": "File:John III of Sweden.jpg",
+          "url": "https://upload.wikimedia.org/wikipedia/commons/1/19/John_III_of_Sweden.jpg",
+          "page": "https://commons.wikimedia.org/wiki/File:John_III_of_Sweden.jpg",
+          "credit": "After Johan Baptista van Uther",
+          "license": "Public domain",
+          "made": "1582",
+          "caption": "A copy of a portrait painted by Johan Baptista van Uther in 1582.",
+          "alt": "Painted portrait of King John III of Sweden"
+        }
+      ],
+      "sources": [
+        {
+          "title": "The Early Vasas: A History of Sweden, 1523–1611",
+          "author": "Michael Roberts",
+          "note": "Cambridge University Press, 1968"
+        },
+        {
+          "title": "The Northern Wars: War, State and Society in Northeastern Europe, 1558–1721",
+          "author": "Robert I. Frost",
+          "note": "Longman, 2000"
+        },
+        {
+          "title": "Svenskt biografiskt lexikon: Johan III",
+          "author": "Riksarkivet (various authors)",
+          "note": "Standard Swedish national biography, online"
+        }
+      ],
+      "review": {
+        "status": "draft",
+        "notes": "Drafted from the listed sources; needs a human fact-check."
+      }
+    },
+    {
+      "id": "sigismund",
+      "kind": "monarch",
+      "rulers": [
+        "sigismund"
+      ],
+      "tagline": "Two crowns, one faith, and an uncle who wanted his job",
+      "start": {
+        "date": "1592-11-17"
+      },
+      "end": {
+        "date": "1599-07-24"
+      },
+      "contestedWith": [],
+      "relationToPredecessor": "Son of John III",
+      "ageAtAccession": "26",
+      "cameToPower": "Inherited from his father",
+      "reignEnded": "Deposed by the Riksdag",
+      "previously": "John III dies. His Catholic son is already King of Poland.",
+      "paragraphs": [
+        "Sigismund had been King of Poland since 1587. To be crowned in Sweden in 1594 he had to swear to protect the Lutheran church, which the clergy had just declared the only faith at a meeting in Uppsala. Then he went back to Poland. In his absence his uncle, Duke Charles, ran Sweden more and more as he liked.",
+        "The country split. In Finland, the lord Clas Fleming backed Sigismund, and peasants who rose against his soldiers were crushed in the Club War. In 1598 Sigismund landed with an army to sort his uncle out. Duke Charles beat him at Stångebro, near Linköping, and Sigismund sailed back to Poland.",
+        "In 1599 the Riksdag deposed him. Sigismund never gave up the claim. He ruled Poland until 1632, moved the court to Warsaw, and for decades the Polish Vasas treated the Swedish ones as usurpers."
+      ],
+      "claims": [
+        {
+          "text": "Sigismund's statue on a column still stands in Warsaw's Castle Square.",
+          "status": "confirmed",
+          "note": "His son Władysław IV put it up in 1644. It was destroyed in 1944 and rebuilt after the war."
+        },
+        {
+          "text": "Sigismund promised in his coronation oath to protect the Lutheran church.",
+          "status": "confirmed",
+          "note": "He agreed to the terms of the Uppsala meeting of 1593 before he was crowned, though he complained about them."
+        },
+        {
+          "text": "Sigismund wanted to turn Sweden Catholic by force.",
+          "status": "disputed",
+          "note": "His enemies said so. He did push for Catholic rights, but how far he meant to go is argued over."
+        }
+      ],
+      "hook": "Sigismund has run home to Poland. Duke Charles holds Sweden now, and the lords who stood by the deposed king are about to find out what that means.",
+      "images": [
+        {
+          "file": "File:Soutman Sigismund III Vasa in coronation robes.jpg",
+          "url": "https://upload.wikimedia.org/wikipedia/commons/f/f4/Soutman_Sigismund_III_Vasa_in_coronation_robes.jpg",
+          "page": "https://commons.wikimedia.org/wiki/File:Soutman_Sigismund_III_Vasa_in_coronation_robes.jpg",
+          "credit": "Pieter Soutman",
+          "license": "Public domain",
+          "made": "c. 1624",
+          "caption": "Painted by Pieter Soutman around 1624, long after Sigismund lost Sweden.",
+          "alt": "Painted portrait of Sigismund III Vasa in coronation robes"
+        }
+      ],
+      "sources": [
+        {
+          "title": "The Early Vasas: A History of Sweden, 1523–1611",
+          "author": "Michael Roberts",
+          "note": "Cambridge University Press, 1968"
+        },
+        {
+          "title": "The Northern Wars: War, State and Society in Northeastern Europe, 1558–1721",
+          "author": "Robert I. Frost",
+          "note": "Longman, 2000"
+        },
+        {
+          "title": "Svenskt biografiskt lexikon: Sigismund",
+          "author": "Riksarkivet (various authors)",
+          "note": "Standard Swedish national biography, online"
+        }
+      ],
+      "review": {
+        "status": "draft",
+        "notes": "Drafted from the listed sources; needs a human fact-check."
+      }
+    },
+    {
+      "id": "charles-ix",
+      "kind": "monarch",
+      "rulers": [
+        "charles-ix"
+      ],
+      "tagline": "The duke who took his nephew's crown",
+      "start": {
+        "date": "1599-07-24"
+      },
+      "end": {
+        "date": "1611-10-30"
+      },
+      "contestedWith": [],
+      "relationToPredecessor": "Uncle of Sigismund",
+      "ageAtAccession": "48",
+      "cameToPower": "Took power after deposing Sigismund",
+      "reignEnded": "Died after a stroke",
+      "previously": "Sigismund is beaten and deposed. His uncle Charles takes charge.",
+      "paragraphs": [
+        "Charles was Gustav Vasa's youngest son, a stern Lutheran and a born fighter. He didn't call himself king at first. He ruled as regent and settled scores. In 1600 a court at Linköping condemned several leading nobles who had stood by Sigismund, and they were beheaded in the town square. Swedes call it the Linköping Bloodbath.",
+        "In 1604 the Riksdag finally made him king, and he was crowned in 1607. Sweden was at war with Poland, and soon it was meddling in Russia's Time of Troubles too, with a Swedish army reaching Moscow in 1610. In 1611 Denmark attacked. Charles was furious enough to challenge Christian IV to a duel. The Danish king replied with insults.",
+        "A stroke had already weakened him, and he died in October 1611 at Nyköping. He left three wars and a 16-year-old son."
+      ],
+      "claims": [
+        {
+          "text": "Charles IX challenged Christian IV of Denmark to single combat in 1611.",
+          "status": "confirmed",
+          "note": "The letters survive. Christian mocked him as an old man who should stay by the fire."
+        },
+        {
+          "text": "The Linköping trial was a fair hearing.",
+          "status": "disputed",
+          "note": "It was a court of Riksdag members, but Charles pushed for the death sentences and the outcome was never in doubt."
+        },
+        {
+          "text": "Charles told his son, pointing at him, 'Ille faciet', 'He will do it'.",
+          "status": "legend",
+          "note": "A much-repeated story about Gustav Adolf's destiny. Its source is late and it is probably polished."
+        }
+      ],
+      "hook": "A teenager inherits three wars at once. Gustav Adolf is about to turn Sweden into the most feared army in Europe.",
+      "images": [
+        {
+          "file": "File:Karl IX.jpg",
+          "url": "https://upload.wikimedia.org/wikipedia/commons/8/8d/Karl_IX.jpg",
+          "page": "https://commons.wikimedia.org/wiki/File:Karl_IX.jpg",
+          "credit": "Unidentified painter",
+          "license": "Public domain",
+          "made": "Date unknown",
+          "caption": "A portrait of Charles IX by an unknown painter.",
+          "alt": "Painted portrait of King Charles IX of Sweden"
+        }
+      ],
+      "sources": [
+        {
+          "title": "The Early Vasas: A History of Sweden, 1523–1611",
+          "author": "Michael Roberts",
+          "note": "Cambridge University Press, 1968"
+        },
+        {
+          "title": "The Northern Wars: War, State and Society in Northeastern Europe, 1558–1721",
+          "author": "Robert I. Frost",
+          "note": "Longman, 2000"
+        },
+        {
+          "title": "Svenskt biografiskt lexikon: Karl IX",
+          "author": "Riksarkivet (various authors)",
+          "note": "Standard Swedish national biography, online"
+        }
+      ],
+      "review": {
+        "status": "draft",
+        "notes": "Drafted from the listed sources; needs a human fact-check."
+      }
+    },
+    {
+      "id": "gustav-ii-adolf",
+      "kind": "monarch",
+      "rulers": [
+        "gustav-ii-adolf"
+      ],
+      "tagline": "The Lion of the North who died in the fog at Lützen",
+      "start": {
+        "date": "1611-10-30"
+      },
+      "end": {
+        "date": "1632-11-06"
+      },
+      "contestedWith": [],
+      "relationToPredecessor": "Son of Charles IX",
+      "ageAtAccession": "16",
+      "cameToPower": "Inherited from his father",
+      "reignEnded": "Killed at the Battle of Lützen",
+      "previously": "Charles IX dies, leaving his teenage son three wars.",
+      "paragraphs": [
+        "Gustav Adolf was tall, fair, brave to a fault and fluent in several languages. He made peace with Denmark in 1613, though it cost a huge ransom for Älvsborg. He squeezed Russia out of the Baltic in 1617. With his chancellor Axel Oxenstierna he rebuilt the state, and he rebuilt the army too: conscripted soldiers, light field guns and drill that made them fast and deadly.",
+        "Not everything went to plan. In 1628 his grand new warship Vasa sank in Stockholm harbour on her first trip, after sailing barely a mile. In 1630 he landed in Germany to join the Thirty Years' War on the Protestant side. At Breitenfeld in 1631 he smashed the Catholic emperor's army, and Protestant Europe hailed him as a saviour.",
+        "On 6 November 1632 he fought again at Lützen, in thick fog. The Swedes won the battle. But the king rode too far ahead, was shot several times and fell. His only heir was a girl of five."
+      ],
+      "claims": [
+        {
+          "text": "The warship Vasa capsized because she was top-heavy.",
+          "status": "confirmed",
+          "note": "An inquiry was held at once. Raised in 1961, the ship shows she was too tall and narrow for her ballast."
+        },
+        {
+          "text": "Gustav Adolf was murdered at Lützen by Duke Franz Albrecht of Saxe-Lauenburg, who rode with him.",
+          "status": "disputed",
+          "note": "Rumours spread at once, but there is no solid evidence. Most think he was simply shot in the confusion."
+        },
+        {
+          "text": "He was the 'Lion of the North' foretold in an old prophecy.",
+          "status": "legend",
+          "note": "His propagandists linked him to a prophecy about a lion from the north. The name stuck."
+        }
+      ],
+      "hook": "The king is dead on a German battlefield. Sweden's new ruler is a little girl who will grow up to shock all of Europe.",
+      "images": [
+        {
+          "file": "File:Attributed to Jacob Hoefnagel - Gustavus Adolphus, King of Sweden 1611-1632 - Google Art Project.jpg",
+          "url": "https://upload.wikimedia.org/wikipedia/commons/2/22/Attributed_to_Jacob_Hoefnagel_-_Gustavus_Adolphus%2C_King_of_Sweden_1611-1632_-_Google_Art_Project.jpg",
+          "page": "https://commons.wikimedia.org/wiki/File:Attributed_to_Jacob_Hoefnagel_-_Gustavus_Adolphus,_King_of_Sweden_1611-1632_-_Google_Art_Project.jpg",
+          "credit": "Presumably Jacob Hoefnagel",
+          "license": "Public domain",
+          "made": "1624",
+          "caption": "Painted in 1624, probably by Jacob Hoefnagel, when the king was about 30.",
+          "alt": "Painted portrait of King Gustav II Adolf of Sweden"
+        }
+      ],
+      "sources": [
+        {
+          "title": "Gustavus Adolphus: A History of Sweden, 1611–1632",
+          "author": "Michael Roberts",
+          "note": "2 vols, Longmans, 1953–58"
+        },
+        {
+          "title": "Gustavus Adolphus",
+          "author": "Michael Roberts",
+          "note": "Profiles in Power, Longman, 2nd ed. 1992"
+        },
+        {
+          "title": "The Northern Wars: War, State and Society in Northeastern Europe, 1558–1721",
+          "author": "Robert I. Frost",
+          "note": "Longman, 2000"
+        }
+      ],
+      "review": {
+        "status": "draft",
+        "notes": "Drafted from the listed sources; needs a human fact-check."
+      }
+    },
+    {
+      "id": "christina",
+      "kind": "monarch",
+      "rulers": [
+        "christina"
+      ],
+      "tagline": "The girl king who gave up her throne for Rome",
+      "start": {
+        "date": "1632-11-06"
+      },
+      "end": {
+        "date": "1654-06-06"
+      },
+      "contestedWith": [],
+      "relationToPredecessor": "Daughter of Gustav II Adolf",
+      "ageAtAccession": "5",
+      "cameToPower": "Inherited from her father",
+      "reignEnded": "Abdicated at Uppsala",
+      "previously": "Gustav Adolf falls at Lützen. His heir is a five-year-old girl.",
+      "paragraphs": [
+        "Her father had ordered that Christina be raised like a prince, and she was. She rode, hunted, studied for hours a day and read Latin and Greek. Axel Oxenstierna ran the country until she came of age in 1644. Under her the long German war finally ended, and the Peace of Westphalia in 1648 gave Sweden land along Germany's coast.",
+        "She wanted Stockholm to be a capital of learning. She bought books, paintings and scholars. The French philosopher René Descartes came in 1649 to teach her. He hated the cold and died in Stockholm the following winter. Meanwhile Christina refused to marry. She named her cousin Charles Gustav as heir instead.",
+        "Then she dropped her bombshell. In June 1654 she gave up the crown. Soon after she became a Catholic, the faith her father had died fighting, and settled in Rome. She lived there for over 30 years and is buried in St Peter's."
+      ],
+      "claims": [
+        {
+          "text": "Christina worked Descartes to death with lessons at five in the morning.",
+          "status": "disputed",
+          "note": "He did teach her early and died of pneumonia soon after. One scholar has even argued he was poisoned. Neither idea is proven."
+        },
+        {
+          "text": "Christina gave up the throne mainly to become a Catholic.",
+          "status": "disputed",
+          "note": "Her faith mattered, but so did her refusal to marry and her dislike of ruling. Historians weigh these differently."
+        },
+        {
+          "text": "She is one of very few women buried in St Peter's Basilica.",
+          "status": "confirmed",
+          "note": "Her tomb is in the crypt there, and a monument to her stands in the basilica."
+        }
+      ],
+      "hook": "Christina rides off to Rome. Her cousin Charles Gustav, a soldier from a German family, takes the crown and goes looking for a war.",
+      "images": [
+        {
+          "file": "File:Swedish queen Drottning Kristina portrait by Sébastien Bourdon stor.jpg",
+          "url": "https://upload.wikimedia.org/wikipedia/commons/2/2e/Swedish_queen_Drottning_Kristina_portrait_by_S%C3%A9bastien_Bourdon_stor.jpg",
+          "page": "https://commons.wikimedia.org/wiki/File:Swedish_queen_Drottning_Kristina_portrait_by_S%C3%A9bastien_Bourdon_stor.jpg",
+          "credit": "Sébastien Bourdon",
+          "license": "Public domain",
+          "made": "1653",
+          "caption": "Painted by the French artist Sébastien Bourdon in 1653, the year before she gave up the crown.",
+          "alt": "Painted portrait of Queen Christina of Sweden"
+        }
+      ],
+      "sources": [
+        {
+          "title": "Christina, Queen of Sweden: The Restless Life of a European Eccentric",
+          "author": "Veronica Buckley",
+          "note": "Fourth Estate, 2004"
+        },
+        {
+          "title": "Queen Christina of Sweden and Her Circle",
+          "author": "Susanna Åkerman",
+          "note": "Brill, 1991"
+        },
+        {
+          "title": "Queen Christina",
+          "author": "Georgina Masson",
+          "note": "Secker & Warburg, 1968"
+        }
+      ],
+      "review": {
+        "status": "draft",
+        "notes": "Drafted from the listed sources; needs a human fact-check."
+      }
+    },
+    {
+      "id": "charles-x-gustav",
+      "kind": "monarch",
+      "rulers": [
+        "charles-x-gustav"
+      ],
+      "tagline": "The king who marched an army across the frozen sea",
+      "start": {
+        "date": "1654-06-06"
+      },
+      "end": {
+        "date": "1660-02-13"
+      },
+      "contestedWith": [],
+      "relationToPredecessor": "Cousin of Christina",
+      "ageAtAccession": "31",
+      "cameToPower": "Named heir; took over on her abdication",
+      "reignEnded": "Died of fever at Gothenburg",
+      "previously": "Christina gives up her crown and heads for Rome.",
+      "paragraphs": [
+        "Charles Gustav's father was a German prince from the Palatinate. His mother was a daughter of Charles IX. He was a career soldier, and he spent nearly his whole reign at war. In 1655 he invaded Poland, which Poles remember as the Deluge. He took Warsaw and Kraków, but the country rose against him and he couldn't hold it.",
+        "Then Denmark declared war, hoping to catch him stuck in Poland. Charles marched west instead. In early 1658, during a bitterly cold winter, he led his army across the frozen sea, first the Little Belt and then island by island over the Great Belt, towards Copenhagen. The terrified Danes signed the Treaty of Roskilde, handing over Scania and the other lands east of the Sound.",
+        "That wasn't enough for him. He soon attacked again, aiming to swallow Denmark whole, but Copenhagen held out. In February 1660, at a Riksdag in Gothenburg, he caught a fever and died. His son was four."
+      ],
+      "claims": [
+        {
+          "text": "Some Swedish horsemen fell through the ice and drowned during the crossing.",
+          "status": "confirmed",
+          "note": "Swedish and Danish accounts both mention losses on the Little Belt, though the numbers vary."
+        },
+        {
+          "text": "The lands won at Roskilde have stayed Swedish ever since.",
+          "status": "confirmed",
+          "note": "Scania, Blekinge, Halland and Bohuslän remained Swedish. Bornholm and Trøndelag went back under the peace of 1660."
+        },
+        {
+          "text": "Charles Gustav planned to wipe Denmark off the map.",
+          "status": "disputed",
+          "note": "His second attack suggests big aims, and Danes believed it. His exact plans are argued over."
+        }
+      ],
+      "hook": "The warrior king is dead. Sweden's new ruler is four years old, and his regents are about to waste the money, the army and the peace.",
+      "images": [
+        {
+          "file": "File:Sébastien Bourdons-Karl X Gustav.jpg",
+          "url": "https://upload.wikimedia.org/wikipedia/commons/7/70/S%C3%A9bastien_Bourdons-Karl_X_Gustav.jpg",
+          "page": "https://commons.wikimedia.org/wiki/File:S%C3%A9bastien_Bourdons-Karl_X_Gustav.jpg",
+          "credit": "Sébastien Bourdon",
+          "license": "Public domain",
+          "made": "1652 or 1653",
+          "caption": "Painted by Sébastien Bourdon in 1652 or 1653, shortly before he became king.",
+          "alt": "Painted portrait of Charles X Gustav of Sweden"
+        }
+      ],
+      "sources": [
+        {
+          "title": "The Northern Wars: War, State and Society in Northeastern Europe, 1558–1721",
+          "author": "Robert I. Frost",
+          "note": "Longman, 2000"
+        },
+        {
+          "title": "Den oövervinnerlige",
+          "author": "Peter Englund",
+          "note": "Atlantis, 2000"
+        },
+        {
+          "title": "Svenskt biografiskt lexikon: Karl X Gustav",
+          "author": "Riksarkivet (various authors)",
+          "note": "Standard Swedish national biography, online"
+        }
+      ],
+      "review": {
+        "status": "draft",
+        "notes": "Drafted from the listed sources; needs a human fact-check."
+      }
+    },
+    {
+      "id": "charles-xi",
+      "kind": "monarch",
+      "rulers": [
+        "charles-xi"
+      ],
+      "tagline": "The boy who grew up to take everything back",
+      "start": {
+        "date": "1660-02-13"
+      },
+      "end": {
+        "date": "1697-04-05"
+      },
+      "contestedWith": [],
+      "relationToPredecessor": "Son of Charles X Gustav",
+      "ageAtAccession": "4",
+      "cameToPower": "Inherited from his father",
+      "reignEnded": "Died of cancer, aged 41",
+      "previously": "Charles X Gustav dies of fever. His heir is four years old.",
+      "paragraphs": [
+        "A regency ran Sweden for twelve years, and it ran it badly. The great nobles grew richer while the crown went broke. When war came in 1675, Sweden's army lost to Brandenburg at Fehrbellin and Denmark tried to win back Scania. The young king took the field himself. At Lund in December 1676 he won one of the bloodiest battles ever fought in Scandinavia.",
+        "Charles came out of the war determined that it would never happen again. From 1680 he and the Riksdag went after the nobles. The Great Reduction took back huge amounts of crown land they had been given or sold, and the Riksdag accepted that the king ruled alone. He sorted out the army and the finances and built a new naval base at Karlskrona.",
+        "He was careful, pious and hardworking. He died of stomach cancer in April 1697. His heir was a boy of 14."
+      ],
+      "claims": [
+        {
+          "text": "Stockholm's royal castle, Tre Kronor, burned down while Charles XI lay there in state.",
+          "status": "confirmed",
+          "note": "The fire broke out on 7 May 1697. His body was carried out, and the new palace was built on the site."
+        },
+        {
+          "text": "Charles XI saw a ghostly vision of a bloody trial in the Riksdag hall, foretelling the murder of a future king.",
+          "status": "legend",
+          "note": "A supposed record of the vision surfaced long after. Prosper Mérimée turned it into a famous short story."
+        },
+        {
+          "text": "The Great Reduction ruined much of the old nobility.",
+          "status": "disputed",
+          "note": "It hit the great families hard, but many lesser nobles did well serving the crown."
+        }
+      ],
+      "hook": "A 14-year-old with a full treasury and a superb army takes the throne. Sweden's neighbours see a child, and start planning to carve him up.",
+      "images": [
+        {
+          "file": "File:Charles XI of Sweden.jpg",
+          "url": "https://upload.wikimedia.org/wikipedia/commons/d/d1/Charles_XI_of_Sweden.jpg",
+          "page": "https://commons.wikimedia.org/wiki/File:Charles_XI_of_Sweden.jpg",
+          "credit": "Workshop of David Klöcker Ehrenstrahl",
+          "license": "Public domain",
+          "made": "Late 17th century",
+          "caption": "From the workshop of the court painter David Klöcker Ehrenstrahl.",
+          "alt": "Painted portrait of King Charles XI of Sweden"
+        }
+      ],
+      "sources": [
+        {
+          "title": "Charles XI and Swedish Absolutism, 1660–1697",
+          "author": "A. F. Upton",
+          "note": "Cambridge University Press, 1998"
+        },
+        {
+          "title": "The Swedish Imperial Experience, 1560–1718",
+          "author": "Michael Roberts",
+          "note": "Cambridge University Press, 1979"
+        },
+        {
+          "title": "The Northern Wars: War, State and Society in Northeastern Europe, 1558–1721",
+          "author": "Robert I. Frost",
+          "note": "Longman, 2000"
+        }
+      ],
+      "review": {
+        "status": "draft",
+        "notes": "Drafted from the listed sources; needs a human fact-check."
+      }
+    },
+    {
+      "id": "charles-xii",
+      "kind": "monarch",
+      "rulers": [
+        "charles-xii"
+      ],
+      "tagline": "The warrior king who never went home",
+      "start": {
+        "date": "1697-04-05"
+      },
+      "end": {
+        "date": "1718-11-30"
+      },
+      "contestedWith": [],
+      "relationToPredecessor": "Son of Charles XI",
+      "ageAtAccession": "14",
+      "cameToPower": "Inherited from his father",
+      "reignEnded": "Shot at the siege of Fredriksten",
+      "previously": "Charles XI dies. His 14-year-old son inherits a superb army.",
+      "paragraphs": [
+        "In 1700 Denmark, Saxony-Poland and Russia all attacked the 17-year-old king at once. It went badly for them. Charles knocked Denmark out within months, then crossed the Baltic and smashed a much bigger Russian army at Narva in November 1700. Europe was stunned. He spent the next years in Poland, where he drove out King Augustus and set up a king of his own.",
+        "In 1708 he marched on Moscow. Peter the Great burned the land ahead of him, and a brutal winter wrecked his army. At Poltava in the summer of 1709 the Swedes were crushed. Charles, wounded in the foot, escaped south into the Ottoman Empire. He stayed for years at Bender, pressing the sultan to fight Russia, until his hosts lost patience and stormed his camp in 1713.",
+        "In 1714 he rode back across Europe to Stralsund in about two weeks. Sweden was exhausted, but he kept fighting and invaded Norway. On 30 November 1718, peering over a trench at Fredriksten, he was shot through the head. He never married and had no children."
+      ],
+      "claims": [
+        {
+          "text": "Charles XII was shot by someone on his own side.",
+          "status": "disputed",
+          "note": "The body has been examined three times, most recently in 1917. Experts still argue whether the shot came from the fortress."
+        },
+        {
+          "text": "The fatal bullet was a button, since only silver could kill a king protected by magic.",
+          "status": "legend",
+          "note": "Folklore. A button found near the site in the 1920s added fuel but proves nothing."
+        },
+        {
+          "text": "He held off an Ottoman attack on his house at Bender with a few hundred men.",
+          "status": "confirmed",
+          "note": "The fight, called the 'kalabalik', is well reported. He was captured after the house was set alight."
+        }
+      ],
+      "hook": "The king is dead, with no children. Two heirs want the throne: his sister Ulrika Eleonora and his young nephew from Holstein. She moves first.",
+      "images": [
+        {
+          "file": "File:Copy Charles XII - Nationalmuseum - 17886.png",
+          "url": "https://upload.wikimedia.org/wikipedia/commons/3/37/Copy_Charles_XII_-_Nationalmuseum_-_17886.png",
+          "page": "https://commons.wikimedia.org/wiki/File:Copy_Charles_XII_-_Nationalmuseum_-_17886.png",
+          "credit": "Workshop of Hyacinthe Rigaud",
+          "license": "Public domain",
+          "made": "c. 1715",
+          "caption": "Made in the workshop of the French court painter Hyacinthe Rigaud around 1715.",
+          "alt": "Full-length portrait of Charles XII in shining armour and a billowing cloak, with a battle behind him"
+        }
+      ],
+      "sources": [
+        {
+          "title": "Charles XII of Sweden",
+          "author": "Ragnhild Hatton",
+          "note": "Weidenfeld & Nicolson, 1968"
+        },
+        {
+          "title": "Histoire de Charles XII",
+          "author": "Voltaire",
+          "note": "1731"
+        },
+        {
+          "title": "The Battle That Shook Europe: Poltava and the Birth of the Russian Empire",
+          "author": "Peter Englund",
+          "note": "I.B. Tauris, 2003; Swedish original 1988"
+        }
+      ],
+      "review": {
+        "status": "draft",
+        "notes": "Drafted from the listed sources; needs a human fact-check."
+      }
+    },
+    {
+      "id": "ulrika-eleonora",
+      "kind": "monarch",
+      "rulers": [
+        "ulrika-eleonora"
+      ],
+      "tagline": "The queen who traded her power for a crown",
+      "start": {
+        "date": "1718-12-05"
+      },
+      "end": {
+        "date": "1720-02-29"
+      },
+      "contestedWith": [],
+      "relationToPredecessor": "Younger sister of Charles XII",
+      "ageAtAccession": "30",
+      "cameToPower": "Elected by the Riksdag",
+      "reignEnded": "Abdicated for her husband",
+      "previously": "Charles XII is shot dead in Norway, leaving no children.",
+      "paragraphs": [
+        "Ulrika Eleonora had a rival: her nephew Charles Frederick of Holstein-Gottorp, son of her late elder sister. She moved fast and proclaimed herself queen. The Riksdag had its price. It made her give up the absolute power her father and brother had held. A new constitution in 1719 handed real control to the Riksdag and the council. Historians call what followed the Age of Liberty.",
+        "There was some payback first. Baron von Görtz, the minister blamed for squeezing Sweden dry for Charles XII's wars, was beheaded in 1719. Peace treaties then began handing away the empire's German lands.",
+        "Ulrika Eleonora wanted her husband, Frederick of Hesse, to rule alongside her. The Riksdag said no. So in 1720 she stepped down in his favour. She lived another 21 years with no children."
+      ],
+      "claims": [
+        {
+          "text": "The Riksdag forced her to accept limits on her power before she could rule.",
+          "status": "confirmed",
+          "note": "She was elected only after agreeing to give up absolute rule, as the 1719 constitution set out."
+        },
+        {
+          "text": "Görtz was executed to pin the blame for Charles XII's wars on one man.",
+          "status": "disputed",
+          "note": "He was condemned after a hasty trial. Many historians see it as revenge more than justice."
+        },
+        {
+          "text": "Ulrika Eleonora gave up the throne out of love for her husband.",
+          "status": "disputed",
+          "note": "She was devoted to him, but she also expected to keep influence through him. She was disappointed."
+        }
+      ],
+      "hook": "A German prince is now King of Sweden. He has the crown and the title. What he doesn't have, he's about to discover, is any real power.",
+      "images": [
+        {
+          "file": "File:Ulrika Eleonora, Queen of Sweden Georg Desmarées.jpg",
+          "url": "https://upload.wikimedia.org/wikipedia/commons/1/19/Ulrika_Eleonora%2C_Queen_of_Sweden_Georg_Desmar%C3%A9es.jpg",
+          "page": "https://commons.wikimedia.org/wiki/File:Ulrika_Eleonora,_Queen_of_Sweden_Georg_Desmar%C3%A9es.jpg",
+          "credit": "Attributed to Georg Desmarées",
+          "license": "Public domain",
+          "made": "18th century",
+          "caption": "Attributed to the court painter Georg Desmarées.",
+          "alt": "Painted portrait of Queen Ulrika Eleonora of Sweden"
+        }
+      ],
+      "sources": [
+        {
+          "title": "The Age of Liberty: Sweden, 1719–1772",
+          "author": "Michael Roberts",
+          "note": "Cambridge University Press, 1986"
+        },
+        {
+          "title": "Charles XII of Sweden",
+          "author": "Ragnhild Hatton",
+          "note": "Weidenfeld & Nicolson, 1968"
+        },
+        {
+          "title": "Svenskt biografiskt lexikon: Ulrika Eleonora",
+          "author": "Riksarkivet (various authors)",
+          "note": "Standard Swedish national biography, online"
+        }
+      ],
+      "review": {
+        "status": "draft",
+        "notes": "Drafted from the listed sources; needs a human fact-check."
+      }
+    },
+    {
+      "id": "frederick-i",
+      "kind": "monarch",
+      "rulers": [
+        "frederick-i"
+      ],
+      "tagline": "A king in name, while the Riksdag ran the show",
+      "start": {
+        "date": "1720-03-24"
+      },
+      "end": {
+        "date": "1751-03-25"
+      },
+      "contestedWith": [],
+      "relationToPredecessor": "Husband of Ulrika Eleonora",
+      "ageAtAccession": "43",
+      "cameToPower": "Wife abdicated in his favour",
+      "reignEnded": "Died in office, aged 74",
+      "previously": "Ulrika Eleonora steps down so her husband can be king.",
+      "paragraphs": [
+        "Frederick was a German prince and soldier from Hesse-Kassel. In 1721 he signed the Treaty of Nystad, giving Russia Sweden's Baltic provinces. The empire was over. At home the Riksdag held power. The king chaired the council but could be outvoted, and he mostly gave up trying. He hunted and chased women. His long affair with the young noblewoman Hedvig Taube produced several children and a lot of gossip.",
+        "Politics was run by parties. The Caps, cautious and keen on peace, were led by Arvid Horn for years. The Hats wanted a strong Sweden and revenge on Russia. The Hats won in 1738 and started a war in 1741. It was a disaster. Russian troops overran Finland.",
+        "Frederick had no children with his queen. At the peace of 1743 Russia handed most of Finland back, but only if Sweden chose the heir Russia liked: Adolf Frederick of Holstein-Gottorp. Frederick died in 1751."
+      ],
+      "claims": [
+        {
+          "text": "Frederick made his mistress Hedvig Taube a countess.",
+          "status": "confirmed",
+          "note": "He had her made a countess of the Holy Roman Empire. The affair was an open scandal."
+        },
+        {
+          "text": "Russia picked the next king of Sweden.",
+          "status": "confirmed",
+          "note": "Choosing Adolf Frederick was a condition for the Treaty of Åbo in 1743."
+        },
+        {
+          "text": "Frederick cared more about hunting than ruling.",
+          "status": "disputed",
+          "note": "It's the classic view. He was also boxed in by a system that left him little to do."
+        }
+      ],
+      "hook": "The Holstein prince Russia wanted is now King of Sweden. He has even less power than Frederick, a famously domineering wife, and a fatal weakness for dessert.",
+      "images": [
+        {
+          "file": "File:Fredrik av Hessen.jpg",
+          "url": "https://upload.wikimedia.org/wikipedia/commons/8/8d/Fredrik_av_Hessen.jpg",
+          "page": "https://commons.wikimedia.org/wiki/File:Fredrik_av_Hessen.jpg",
+          "credit": "Martin van Meytens",
+          "license": "Public domain",
+          "made": "c. 1730",
+          "caption": "Painted by Martin van Meytens around 1730, ten years into the reign.",
+          "alt": "Painted portrait of King Frederick I of Sweden"
+        }
+      ],
+      "sources": [
+        {
+          "title": "The Age of Liberty: Sweden, 1719–1772",
+          "author": "Michael Roberts",
+          "note": "Cambridge University Press, 1986"
+        },
+        {
+          "title": "Svenskt biografiskt lexikon: Fredrik I",
+          "author": "Riksarkivet (various authors)",
+          "note": "Standard Swedish national biography, online"
+        },
+        {
+          "title": "The History of Sweden",
+          "author": "Byron J. Nordstrom",
+          "note": "Greenwood Press, 2002"
+        }
+      ],
+      "review": {
+        "status": "draft",
+        "notes": "Drafted from the listed sources; needs a human fact-check."
+      }
+    },
+    {
+      "id": "adolf-frederick",
+      "kind": "monarch",
+      "rulers": [
+        "adolf-frederick"
+      ],
+      "tagline": "The gentle king who ate himself to death",
+      "start": {
+        "date": "1751-03-25"
+      },
+      "end": {
+        "date": "1771-02-12"
+      },
+      "contestedWith": [],
+      "relationToPredecessor": "Elected heir; no son of Frederick",
+      "ageAtAccession": "40",
+      "cameToPower": "Picked as heir to please Russia",
+      "reignEnded": "Died after a giant feast",
+      "previously": "Frederick I dies childless, a king with almost no power.",
+      "paragraphs": [
+        "Adolf Frederick was a German prince from Holstein-Gottorp. In 1743 Sweden had just lost a war with Russia, and the Empress Elizabeth offered easier peace terms if the Swedes chose her candidate as heir. They did. He married Louisa Ulrika of Prussia, sister of Frederick the Great, a clever, proud woman who hated being a figurehead even more than he did.",
+        "Parliament held the real power, split between the Hats and the Caps. In 1756 Louisa Ulrika plotted a coup to restore royal power. It leaked, and her supporters were beheaded. The king went back to his lathe, turning snuffboxes. When he refused to sign laws, the Estates simply used a stamp of his signature. Sweden drifted into the Seven Years' War against Prussia and got nothing out of it.",
+        "On 12 February 1771 he died in Stockholm, after a famous dinner of lobster, caviar, sauerkraut, kippers and champagne, rounded off with dessert. His eldest son Gustav was in Paris at the time. The new king was 25, ambitious and sick of parliament running everything."
+      ],
+      "claims": [
+        {
+          "text": "He finished his last meal with fourteen helpings of semla in hot milk.",
+          "status": "legend",
+          "note": "The big dinner is well attested. The exact count of fourteen comes from later retellings and is impossible to check."
+        },
+        {
+          "text": "Parliament used a stamp of his signature when he refused to sign.",
+          "status": "confirmed",
+          "note": "A name stamp was made after the clashes of the 1750s and used to get round his refusals. Historians of the Age of Liberty describe it."
+        },
+        {
+          "text": "Queen Louisa Ulrika pawned crown jewels to fund her 1756 coup.",
+          "status": "confirmed",
+          "note": "Questions about missing jewels helped set off the crisis. The plot was uncovered and its leaders executed that summer."
+        }
+      ],
+      "hook": "In Paris, a messenger finds Crown Prince Gustav. His father is dead. Gustav hurries home with a plan to take back the power his father never had.",
+      "images": [
+        {
+          "file": "File:Gustaf Lundberg - Portrait of Adolf Frederick, King of Sweden - WGA13779.jpg",
+          "url": "https://upload.wikimedia.org/wikipedia/commons/d/df/Gustaf_Lundberg_-_Portrait_of_Adolf_Frederick%2C_King_of_Sweden_-_WGA13779.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+          "page": "https://commons.wikimedia.org/wiki/File:Gustaf_Lundberg_-_Portrait_of_Adolf_Frederick,_King_of_Sweden_-_WGA13779.jpg",
+          "credit": "Gustaf Lundberg",
+          "license": "Public domain",
+          "made": "c. 1750",
+          "caption": "Painted by the Swedish court pastellist Gustaf Lundberg, around the time Adolf Frederick became king.",
+          "alt": "Painted portrait of King Adolf Frederick of Sweden"
+        }
+      ],
+      "sources": [
+        {
+          "title": "The Age of Liberty: Sweden 1719–1772",
+          "author": "Michael Roberts",
+          "note": "Cambridge University Press, 1986"
+        },
+        {
+          "title": "Svenskt biografiskt lexikon, entry “Adolf Fredrik”",
+          "author": "Riksarkivet (Swedish National Archives)"
+        },
+        {
+          "title": "Sweden: The Nation's History",
+          "author": "Franklin D. Scott",
+          "note": "University of Minnesota Press, 1977"
+        }
+      ],
+      "review": {
+        "status": "draft",
+        "notes": "Drafted from the listed sources; needs a human fact-check."
+      }
+    },
+    {
+      "id": "gustav-iii",
+      "kind": "monarch",
+      "rulers": [
+        "gustav-iii"
+      ],
+      "tagline": "The theatre king shot at a masked ball",
+      "start": {
+        "date": "1771-02-12"
+      },
+      "end": {
+        "date": "1792-03-29"
+      },
+      "contestedWith": [],
+      "relationToPredecessor": "Eldest son of Adolf Frederick",
+      "ageAtAccession": "25",
+      "cameToPower": "Inherited, then seized power",
+      "reignEnded": "Shot at the opera house",
+      "previously": "Adolf Frederick dies after a huge feast. His son is in Paris.",
+      "paragraphs": [
+        "Gustav was charming, theatrical and impatient. On 19 August 1772 he staged a bloodless coup with the army behind him, tied a white band on his arm and forced through a new constitution. Parliament's long Age of Liberty was over. He freed trade in grain, cut back torture, allowed religious freedom to foreigners and founded the Royal Opera and the Swedish Academy. He even wrote plays and acted in them.",
+        "The nobles never forgave him. In 1788 he started a war with Russia, and officers in Finland mutinied. He turned the commoners against the nobility and took even more power in 1789. In 1790 his navy smashed the Russians at Svensksund, the biggest naval battle in Swedish history.",
+        "On 16 March 1792 he went to a masked ball at his own opera house, despite a warning letter. A noble officer, Jacob Johan Anckarström, shot him in the back. The wound turned bad and he died on 29 March. His son was 13."
+      ],
+      "claims": [
+        {
+          "text": "He got an anonymous letter warning him of the plot and went to the ball anyway.",
+          "status": "confirmed",
+          "note": "The letter survives. It is usually credited to Carl Pontus Lilliehorn, an officer who knew of the plot."
+        },
+        {
+          "text": "His son Gustav IV Adolf was secretly fathered by a courtier, Adolf Fredrik Munck.",
+          "status": "disputed",
+          "note": "A malicious rumour at court, spread partly by his own mother. No real evidence supports it."
+        },
+        {
+          "text": "His murder inspired Verdi's opera Un ballo in maschera.",
+          "status": "confirmed",
+          "note": "Verdi based it on Scribe's libretto about Gustav's death; censors forced the setting to be moved."
+        }
+      ],
+      "hook": "Anckarström is flogged and beheaded. The new king is a boy of 13, and his uncle Duke Charles will rule for him. The boy grows up serious, stubborn and sure that God is on his side.",
+      "images": [
+        {
+          "file": "File:Gustav III by Alexander Roslin - no frame (Nationalmuseum, 15330).png",
+          "url": "https://upload.wikimedia.org/wikipedia/commons/2/2a/Gustav_III_by_Alexander_Roslin_-_no_frame_%28Nationalmuseum%2C_15330%29.png?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+          "page": "https://commons.wikimedia.org/wiki/File:Gustav_III_by_Alexander_Roslin_-_no_frame_(Nationalmuseum,_15330).png",
+          "credit": "Alexander Roslin",
+          "license": "Public domain",
+          "made": "1777",
+          "caption": "Painted by Alexander Roslin in 1777, five years after Gustav's coup.",
+          "alt": "Painted portrait of King Gustav III of Sweden by Alexander Roslin"
+        }
+      ],
+      "sources": [
+        {
+          "title": "Scandinavia in the Revolutionary Era, 1760–1815",
+          "author": "H. Arnold Barton",
+          "note": "University of Minnesota Press, 1986"
+        },
+        {
+          "title": "Den stora rollen: Kung Gustaf III spelad av honom själv",
+          "author": "Erik Lönnroth",
+          "note": "1986"
+        },
+        {
+          "title": "Svenskt biografiskt lexikon, entry “Gustav III”",
+          "author": "Riksarkivet (Swedish National Archives)"
+        }
+      ],
+      "review": {
+        "status": "draft",
+        "notes": "Drafted from the listed sources; needs a human fact-check."
+      }
+    },
+    {
+      "id": "gustav-iv-adolf",
+      "kind": "monarch",
+      "rulers": [
+        "gustav-iv-adolf"
+      ],
+      "tagline": "The stubborn king who lost Finland",
+      "start": {
+        "date": "1792-03-29"
+      },
+      "end": {
+        "date": "1809-03-29"
+      },
+      "contestedWith": [],
+      "relationToPredecessor": "Son of Gustav III",
+      "ageAtAccession": "13",
+      "cameToPower": "Father assassinated",
+      "reignEnded": "Arrested by his own officers",
+      "previously": "Gustav III is shot at a masked ball and dies two weeks later.",
+      "paragraphs": [
+        "His uncle Duke Charles ran the country until Gustav came of age in 1796. The young king was pious, strict and hopelessly rigid. He loathed the French Revolution and loathed Napoleon even more, and he joined the coalitions against him whatever the cost. In 1807 the French took Swedish Pomerania.",
+        "Then Napoleon and the Tsar made friends. In 1808 Russia invaded Finland, which had been Swedish for six centuries. The army was outnumbered and badly led, and Finland was lost. On 13 March 1809 officers burst into the palace and arrested the king. He abdicated, and parliament declared his whole family barred from the throne.",
+        "He drifted round Europe as plain “Colonel Gustafsson”, divorced his wife and died poor in Switzerland in 1837. The crown went back to his uncle."
+      ],
+      "claims": [
+        {
+          "text": "He believed Napoleon was the Beast from the Book of Revelation.",
+          "status": "confirmed",
+          "note": "He said so himself and worked the numbers of Napoleon's name to fit. Contemporaries recorded it."
+        },
+        {
+          "text": "He drew his sword when the officers came for him and tried to escape.",
+          "status": "confirmed",
+          "note": "Accounts of 13 March 1809 say he struggled and ran before being caught. Details vary between witnesses."
+        }
+      ],
+      "hook": "The throne is empty, Finland is gone and Russia is next door. Parliament turns to the deposed king's elderly, childless uncle. Someone will have to find Sweden an heir.",
+      "images": [
+        {
+          "file": "File:Gustav IV Adolf of Sweden.jpg",
+          "url": "https://upload.wikimedia.org/wikipedia/commons/4/49/Gustav_IV_Adolf_of_Sweden.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+          "page": "https://commons.wikimedia.org/wiki/File:Gustav_IV_Adolf_of_Sweden.jpg",
+          "credit": "Per Krafft the Younger",
+          "license": "Public domain",
+          "made": "1809",
+          "caption": "Painted by Per Krafft the Younger in 1809, the year Gustav lost his throne.",
+          "alt": "Painted portrait of King Gustav IV Adolf of Sweden"
+        }
+      ],
+      "sources": [
+        {
+          "title": "Scandinavia in the Revolutionary Era, 1760–1815",
+          "author": "H. Arnold Barton",
+          "note": "University of Minnesota Press, 1986"
+        },
+        {
+          "title": "Svenskt biografiskt lexikon, entry “Gustav IV Adolf”",
+          "author": "Riksarkivet (Swedish National Archives)"
+        },
+        {
+          "title": "Sweden: The Nation's History",
+          "author": "Franklin D. Scott",
+          "note": "University of Minnesota Press, 1977"
+        }
+      ],
+      "review": {
+        "status": "draft",
+        "notes": "Drafted from the listed sources; needs a human fact-check."
+      }
+    },
+    {
+      "id": "charles-xiii",
+      "kind": "monarch",
+      "rulers": [
+        "charles-xiii"
+      ],
+      "tagline": "The old king who adopted a French marshal",
+      "start": {
+        "date": "1809-06-06"
+      },
+      "end": {
+        "date": "1818-02-05"
+      },
+      "contestedWith": [],
+      "relationToPredecessor": "Uncle of Gustav IV Adolf",
+      "ageAtAccession": "60",
+      "cameToPower": "Put on the throne after a coup",
+      "reignEnded": "Died in Stockholm",
+      "previously": "Gustav IV Adolf loses Finland and is deposed by his officers.",
+      "paragraphs": [
+        "Charles had already run Sweden as regent for his nephew. Now, at 60, he got the crown himself, but only after accepting a new constitution in June 1809 that split power between king and parliament. It lasted until 1974. He was frail, fond of Freemasonry and soon going senile. He had no living children, so Sweden needed an heir fast.",
+        "The first choice, a Danish prince renamed Charles August, fell off his horse and died in 1810. At his funeral a Stockholm mob, convinced he had been poisoned, beat Count Axel von Fersen to death. Then a junior officer suggested a French marshal, Jean-Baptiste Bernadotte. Parliament elected him. He took over the government and in 1814 won Norway from Denmark, so the old king became King of Norway too."
+      ],
+      "claims": [
+        {
+          "text": "Crown Prince Charles August was poisoned.",
+          "status": "disputed",
+          "note": "Wild rumours blamed the Gustavian nobles. Doctors at the time and since point to a stroke or seizure."
+        },
+        {
+          "text": "Axel von Fersen, Marie Antoinette's close friend, was lynched by a Stockholm crowd.",
+          "status": "confirmed",
+          "note": "It happened in front of troops during the funeral procession on 20 June 1810. Many saw it."
+        },
+        {
+          "text": "Bernadotte's name was put forward by a lowly lieutenant without anyone's permission.",
+          "status": "confirmed",
+          "note": "Carl Otto Mörner went to Paris on his own and sounded Bernadotte out. He got into trouble for acting without orders when he came home."
+        }
+      ],
+      "hook": "The old king dies in February 1818. The heir is a former French revolutionary sergeant who still can't speak Swedish properly. Now he's king.",
+      "images": [
+        {
+          "file": "File:King Charles XIII of Sweden.jpg",
+          "url": "https://upload.wikimedia.org/wikipedia/commons/9/90/King_Charles_XIII_of_Sweden.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+          "page": "https://commons.wikimedia.org/wiki/File:King_Charles_XIII_of_Sweden.jpg",
+          "credit": "Carl Frederik von Breda",
+          "license": "Public domain",
+          "made": "Before 1818",
+          "caption": "Painted by Carl Frederik von Breda during Charles's lifetime.",
+          "alt": "Painted portrait of King Charles XIII of Sweden"
+        }
+      ],
+      "sources": [
+        {
+          "title": "Scandinavia in the Revolutionary Era, 1760–1815",
+          "author": "H. Arnold Barton",
+          "note": "University of Minnesota Press, 1986"
+        },
+        {
+          "title": "Svenskt biografiskt lexikon, entry “Karl XIII”",
+          "author": "Riksarkivet (Swedish National Archives)"
+        },
+        {
+          "title": "Sweden: The Nation's History",
+          "author": "Franklin D. Scott",
+          "note": "University of Minnesota Press, 1977"
+        }
+      ],
+      "review": {
+        "status": "draft",
+        "notes": "Drafted from the listed sources; needs a human fact-check."
+      }
+    },
+    {
+      "id": "charles-xiv-john",
+      "kind": "monarch",
+      "rulers": [
+        "charles-xiv-john"
+      ],
+      "tagline": "Napoleon's marshal who became a Swedish king",
+      "start": {
+        "date": "1818-02-05"
+      },
+      "end": {
+        "date": "1844-03-08"
+      },
+      "contestedWith": [],
+      "relationToPredecessor": "Adopted son of Charles XIII",
+      "ageAtAccession": "55",
+      "cameToPower": "Elected heir, adopted by the king",
+      "reignEnded": "Died after a stroke",
+      "previously": "Charles XIII dies. His adopted French heir takes the throne.",
+      "paragraphs": [
+        "Jean-Baptiste Bernadotte was a lawyer's son from Pau who joined the French army as a private. He rose to general and Marshal of the Empire. His wife, Désirée Clary, had once been engaged to Napoleon. In 1810 the Swedes chose him as crown prince, hoping he'd win Finland back with French help.",
+        "He did the opposite. He made friends with Russia, joined the war on Napoleon and led an allied army at Leipzig in 1813. His reward was Norway, taken from Denmark in 1814 after a short war with the Norwegians. It was the last war Sweden has fought.",
+        "As king he was cautious and touchy about criticism, and never really learned Swedish. Still, peace held, and Sweden slowly got richer. He died in March 1844, aged 81. His only son Oscar had been raised Swedish from childhood."
+      ],
+      "claims": [
+        {
+          "text": "He had “Death to kings” tattooed on his body from his revolutionary days.",
+          "status": "legend",
+          "note": "A famous story said to have been found at his death. No reliable record from the time backs it up."
+        },
+        {
+          "text": "His queen Désirée had been engaged to Napoleon.",
+          "status": "confirmed",
+          "note": "Napoleon and Désirée Clary were engaged in the 1790s before he married Joséphine. Their letters survive."
+        },
+        {
+          "text": "Sweden has not been at war since his 1814 campaign against Norway.",
+          "status": "confirmed",
+          "note": "The 1814 campaign is generally cited as Sweden's last war. Sweden has stayed out of war since."
+        }
+      ],
+      "hook": "The old marshal is gone. His son Oscar is 44, speaks fluent Swedish and has a godfather named Napoleon. People are hoping for reform.",
+      "images": [
+        {
+          "file": "File:Karl XIV Johan, Sveriges och Norges konung. Porträtt av Frederic Westin, cirka 1843. - kopia.png",
+          "url": "https://upload.wikimedia.org/wikipedia/commons/8/81/Karl_XIV_Johan%2C_Sveriges_och_Norges_konung._Portr%C3%A4tt_av_Frederic_Westin%2C_cirka_1843._-_kopia.png?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+          "page": "https://commons.wikimedia.org/wiki/File:Karl_XIV_Johan,_Sveriges_och_Norges_konung._Porträtt_av_Frederic_Westin,_cirka_1843._-_kopia.png",
+          "credit": "Fredric Westin",
+          "license": "CC0",
+          "made": "c. 1843",
+          "caption": "A copy of Fredric Westin's portrait of the old king, painted near the end of his reign.",
+          "alt": "Painted portrait of Charles XIV John, King of Sweden and Norway"
+        }
+      ],
+      "sources": [
+        {
+          "title": "Bernadotte: Napoleon's Marshal, Sweden's King",
+          "author": "Alan Palmer",
+          "note": "John Murray, 1990"
+        },
+        {
+          "title": "Bernadotte and the Fall of Napoleon",
+          "author": "Franklin D. Scott",
+          "note": "Harvard University Press, 1935"
+        },
+        {
+          "title": "Carl XIV Johan",
+          "author": "Torvald T. Höjer",
+          "note": "3 vols, 1939–1960"
+        },
+        {
+          "title": "Scandinavia in the Revolutionary Era, 1760–1815",
+          "author": "H. Arnold Barton",
+          "note": "University of Minnesota Press, 1986"
+        }
+      ],
+      "review": {
+        "status": "draft",
+        "notes": "Drafted from the listed sources; needs a human fact-check."
+      }
+    },
+    {
+      "id": "oscar-i",
+      "kind": "monarch",
+      "rulers": [
+        "oscar-i"
+      ],
+      "tagline": "The reforming king with Napoleon as godfather",
+      "start": {
+        "date": "1844-03-08"
+      },
+      "end": {
+        "date": "1859-07-08"
+      },
+      "contestedWith": [],
+      "relationToPredecessor": "Only son of Charles XIV John",
+      "ageAtAccession": "44",
+      "cameToPower": "Inherited from his father",
+      "reignEnded": "Died after a long illness",
+      "previously": "Charles XIV John, the French marshal turned king, dies at 81.",
+      "paragraphs": [
+        "Oscar was born in Paris and came to Sweden as a boy of 11. He was more open-minded than his father and keen on reform. In 1845 daughters got the same inheritance rights as sons. He freed up trade, eased laws on the press and gave Norway more equal standing in the union. He also composed music and wrote about prison reform.",
+        "He liked the idea of a united Scandinavia and sent troops to help Denmark against the Prussians in 1848. In the Crimean War he edged towards Britain and France against Russia but never fought. From 1857 illness left him unable to rule, and his eldest son Charles took over as regent. Oscar died in July 1859."
+      ],
+      "claims": [
+        {
+          "text": "Napoleon was his godfather and suggested the name Oscar.",
+          "status": "confirmed",
+          "note": "Napoleon chose it from the Ossian poems he loved. Biographies of the family record it."
+        },
+        {
+          "text": "His wife Josephine was a granddaughter of Empress Joséphine.",
+          "status": "confirmed",
+          "note": "Josephine of Leuchtenberg was the daughter of Eugène de Beauharnais, Joséphine's son."
+        }
+      ],
+      "hook": "The new king is tall, jovial and fond of painting, poetry and pretty women. He's also promised Denmark help if Prussia attacks. That promise will come due.",
+      "images": [
+        {
+          "file": "File:Erik (Wahlberg) Wahlbergson - Oscar I, King of Sweden and Norway 1844-1859 - Google Art Project.jpg",
+          "url": "https://upload.wikimedia.org/wikipedia/commons/7/71/Erik_%28Wahlberg%29_Wahlbergson_-_Oscar_I%2C_King_of_Sweden_and_Norway_1844-1859_-_Google_Art_Project.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+          "page": "https://commons.wikimedia.org/wiki/File:Erik_(Wahlberg)_Wahlbergson_-_Oscar_I,_King_of_Sweden_and_Norway_1844-1859_-_Google_Art_Project.jpg",
+          "credit": "Erik Wahlbergson",
+          "license": "Public domain",
+          "made": "1844",
+          "caption": "Painted by Erik Wahlbergson in 1844, the year Oscar became king.",
+          "alt": "Painted portrait of Oscar I, King of Sweden and Norway"
+        }
+      ],
+      "sources": [
+        {
+          "title": "Sweden: The Nation's History",
+          "author": "Franklin D. Scott",
+          "note": "University of Minnesota Press, 1977"
+        },
+        {
+          "title": "Svenskt biografiskt lexikon, entry “Oscar I”",
+          "author": "Riksarkivet (Swedish National Archives)"
+        },
+        {
+          "title": "A Concise History of Sweden",
+          "author": "Neil Kent",
+          "note": "Cambridge University Press, 2008"
+        }
+      ],
+      "review": {
+        "status": "draft",
+        "notes": "Drafted from the listed sources; needs a human fact-check."
+      }
+    },
+    {
+      "id": "charles-xv",
+      "kind": "monarch",
+      "rulers": [
+        "charles-xv"
+      ],
+      "tagline": "The painter king who watched Denmark fall",
+      "start": {
+        "date": "1859-07-08"
+      },
+      "end": {
+        "date": "1872-09-18"
+      },
+      "contestedWith": [],
+      "relationToPredecessor": "Eldest son of Oscar I",
+      "ageAtAccession": "33",
+      "cameToPower": "Inherited after ruling as regent",
+      "reignEnded": "Died in Malmö",
+      "previously": "Oscar I dies after two years too ill to rule.",
+      "paragraphs": [
+        "Charles XV was popular, sociable and a good amateur painter and poet. He talked big about Scandinavian brotherhood and privately assured the Danes that Sweden would stand by them. When Prussia and Austria attacked Denmark in 1864, his government said no. Denmark lost Schleswig and Holstein, and Charles was humiliated.",
+        "At home the big change came in 1866. The old parliament of four estates, nobles, clergy, burghers and peasants, voted itself out of existence and gave way to a two-chamber Riksdag. Louis De Geer steered it through. Charles's only son died as a baby, so when he died in 1872, aged 46, the crown passed to his brother Oscar."
+      ],
+      "claims": [
+        {
+          "text": "He promised the Danish king military help in 1864 without his government's backing.",
+          "status": "confirmed",
+          "note": "His personal assurances to Frederick VII in 1863 are well documented. His ministers overruled him."
+        },
+        {
+          "text": "The nobles who voted for the 1866 reform did so knowing they were abolishing their own chamber.",
+          "status": "confirmed",
+          "note": "The House of Nobility debated it for days before voting yes in December 1865. Crowds cheered outside."
+        }
+      ],
+      "hook": "Charles dies in Malmö. His brother Oscar is 43, a poet with a naval career, and inherits two crowns. Norway is starting to wonder why it needs to share a king.",
+      "images": [
+        {
+          "file": "File:Karl XV 1865 fotograferad av Mathias Hansen.jpg",
+          "url": "https://upload.wikimedia.org/wikipedia/commons/5/53/Karl_XV_1865_fotograferad_av_Mathias_Hansen.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+          "page": "https://commons.wikimedia.org/wiki/File:Karl_XV_1865_fotograferad_av_Mathias_Hansen.jpg",
+          "credit": "Mathias Hansen",
+          "license": "Public domain",
+          "made": "c. 1865",
+          "caption": "Photographed by Mathias Hansen around 1865, the year before the great parliamentary reform.",
+          "alt": "Photograph of King Charles XV of Sweden"
+        }
+      ],
+      "sources": [
+        {
+          "title": "Sweden: The Nation's History",
+          "author": "Franklin D. Scott",
+          "note": "University of Minnesota Press, 1977"
+        },
+        {
+          "title": "Svenskt biografiskt lexikon, entry “Karl XV”",
+          "author": "Riksarkivet (Swedish National Archives)"
+        },
+        {
+          "title": "A Concise History of Sweden",
+          "author": "Neil Kent",
+          "note": "Cambridge University Press, 2008"
+        }
+      ],
+      "review": {
+        "status": "draft",
+        "notes": "Drafted from the listed sources; needs a human fact-check."
+      }
+    },
+    {
+      "id": "oscar-ii",
+      "kind": "monarch",
+      "rulers": [
+        "oscar-ii"
+      ],
+      "tagline": "The poet king who lost Norway",
+      "start": {
+        "date": "1872-09-18"
+      },
+      "end": {
+        "date": "1907-12-08"
+      },
+      "contestedWith": [],
+      "relationToPredecessor": "Younger brother of Charles XV",
+      "ageAtAccession": "43",
+      "cameToPower": "Brother died without a son",
+      "reignEnded": "Died in Stockholm, aged 78",
+      "previously": "Charles XV dies at 46 with no son. His brother inherits.",
+      "paragraphs": [
+        "Oscar II was tall, grand and loved being king. He wrote poetry, gave long speeches and handed out medals. His long reign saw railways, factories and huge emigration, with hundreds of thousands of Swedes leaving for America. He also put up a prize for mathematics, which the young Henri Poincaré won in 1889.",
+        "The big problem was Norway. The Norwegians wanted their own foreign service and wouldn't take no for an answer. On 7 June 1905 their parliament declared the union over. For a few weeks war looked possible. Instead the two sides talked, and in October Oscar gave up the Norwegian crown. He died in December 1907, aged 78."
+      ],
+      "claims": [
+        {
+          "text": "Norwegians voted almost unanimously to leave the union.",
+          "status": "confirmed",
+          "note": "In the August 1905 referendum about 368,000 voted yes and 184 voted no."
+        },
+        {
+          "text": "He refused to let a Bernadotte prince take the Norwegian throne.",
+          "status": "confirmed",
+          "note": "Norway's offer of a younger Swedish prince was turned down, and Prince Carl of Denmark became Haakon VII."
+        }
+      ],
+      "hook": "Oscar's son Gustaf is 49 and a keen tennis player. He wants a strong army and doesn't think much of the Liberal government. A showdown is coming.",
+      "images": [
+        {
+          "file": "File:Porträtt av Oscar II i amiralsuniform. 1900-1907. Foto Lars Larsson (Cropped).jpg",
+          "url": "https://upload.wikimedia.org/wikipedia/commons/a/af/Portr%C3%A4tt_av_Oscar_II_i_amiralsuniform._1900-1907._Foto_Lars_Larsson_%28Cropped%29.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+          "page": "https://commons.wikimedia.org/wiki/File:Porträtt_av_Oscar_II_i_amiralsuniform._1900-1907._Foto_Lars_Larsson_(Cropped).jpg",
+          "credit": "Lars Larsson",
+          "license": "Public domain",
+          "made": "c. 1900–1907",
+          "caption": "Photographed by Lars Larsson in his last years as king.",
+          "alt": "Photograph of King Oscar II of Sweden in admiral's uniform"
+        }
+      ],
+      "sources": [
+        {
+          "title": "Sweden: The Nation's History",
+          "author": "Franklin D. Scott",
+          "note": "University of Minnesota Press, 1977"
+        },
+        {
+          "title": "Svenskt biografiskt lexikon, entry “Oscar II”",
+          "author": "Riksarkivet (Swedish National Archives)"
+        },
+        {
+          "title": "A Concise History of Sweden",
+          "author": "Neil Kent",
+          "note": "Cambridge University Press, 2008"
+        }
+      ],
+      "review": {
+        "status": "draft",
+        "notes": "Drafted from the listed sources; needs a human fact-check."
+      }
+    },
+    {
+      "id": "gustaf-v",
+      "kind": "monarch",
+      "rulers": [
+        "gustaf-v"
+      ],
+      "tagline": "Mr G, the tennis king who kept Sweden out of war",
+      "start": {
+        "date": "1907-12-08"
+      },
+      "end": {
+        "date": "1950-10-29"
+      },
+      "contestedWith": [],
+      "relationToPredecessor": "Eldest son of Oscar II",
+      "ageAtAccession": "49",
+      "cameToPower": "Inherited from his father",
+      "reignEnded": "Died at 92",
+      "previously": "Norway leaves the union in 1905. Oscar II dies two years later.",
+      "paragraphs": [
+        "Gustaf V refused a coronation, the first Swedish king to skip it. In February 1914 about 30,000 farmers marched to the palace demanding more defence spending, and the king made a speech in the courtyard backing them against his own Liberal government. The prime minister, Karl Staaff, resigned. It was the last time a Swedish king openly took on his government. Within a few years parliamentary rule won for good.",
+        "He kept Sweden neutral in both world wars. In 1941 Sweden let a German division cross its land to Finland, and the government gave way partly because the king leaned on them. Off duty he was “Mr G”, playing tennis under that name well into his eighties. He died in 1950, aged 92."
+      ],
+      "claims": [
+        {
+          "text": "He threatened to abdicate unless the German troops were allowed through in 1941.",
+          "status": "disputed",
+          "note": "Social Democrat ministers later said he hinted at it. Others doubt he said anything so blunt. The so-called Midsummer Crisis is still argued over."
+        },
+        {
+          "text": "He played competitive tennis under the name “Mr G”.",
+          "status": "confirmed",
+          "note": "He played tournaments under the name for decades and is in the International Tennis Hall of Fame."
+        }
+      ],
+      "hook": "His son Gustaf Adolf is 67 and happiest digging up Etruscan tombs. He is the oldest man yet to take the Swedish throne, and the politicians are already planning to take its last powers away.",
+      "images": [
+        {
+          "file": "File:Gustaf V av Sverige.jpg",
+          "url": "https://upload.wikimedia.org/wikipedia/commons/0/0e/Gustaf_V_av_Sverige.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+          "page": "https://commons.wikimedia.org/wiki/File:Gustaf_V_av_Sverige.jpg",
+          "credit": "Herrman Sylwander",
+          "license": "Public domain",
+          "made": "c. 1937",
+          "caption": "Photographed around 1937, when the king was nearly 80.",
+          "alt": "Photograph of King Gustaf V of Sweden"
+        }
+      ],
+      "sources": [
+        {
+          "title": "Sweden: The Nation's History",
+          "author": "Franklin D. Scott",
+          "note": "University of Minnesota Press, 1977"
+        },
+        {
+          "title": "Svenskt biografiskt lexikon, entry “Gustaf V”",
+          "author": "Riksarkivet (Swedish National Archives)"
+        },
+        {
+          "title": "A Concise History of Sweden",
+          "author": "Neil Kent",
+          "note": "Cambridge University Press, 2008"
+        }
+      ],
+      "review": {
+        "status": "draft",
+        "notes": "Drafted from the listed sources; needs a human fact-check."
+      }
+    },
+    {
+      "id": "gustaf-vi-adolf",
+      "kind": "monarch",
+      "rulers": [
+        "gustaf-vi-adolf"
+      ],
+      "tagline": "The archaeologist king who dug up Etruscan tombs",
+      "start": {
+        "date": "1950-10-29"
+      },
+      "end": {
+        "date": "1973-09-15"
+      },
+      "contestedWith": [],
+      "relationToPredecessor": "Eldest son of Gustaf V",
+      "ageAtAccession": "67",
+      "cameToPower": "Inherited from his father",
+      "reignEnded": "Died in hospital in Helsingborg",
+      "previously": "Gustaf V, the tennis-playing king, dies at 92.",
+      "paragraphs": [
+        "Gustaf VI Adolf was a serious scholar. He studied archaeology, went on digs in Greece and Italy and led Swedish work on Etruscan sites. He collected Chinese art and bred rhododendrons at his summer palace, Sofiero. His first wife, Margaret of Connaught, died in 1920. He later married Lady Louise Mountbatten.",
+        "He was a quiet, modest king, and the monarchy grew more popular under him. His eldest son died in a plane crash at Copenhagen in 1947, so the heir became his grandson Carl Gustaf. Politicians agreed a new constitution that would strip the king of real power once Gustaf VI Adolf was gone. He died in September 1973, aged 90."
+      ],
+      "claims": [
+        {
+          "text": "His son Prince Gustaf Adolf was killed in an air crash in 1947.",
+          "status": "confirmed",
+          "note": "The plane crashed on take-off at Kastrup, Copenhagen, in January 1947. Everyone on board died."
+        }
+      ],
+      "hook": "The new king is 27. A few months later the 1974 constitution takes away his last political powers. What is a king for now?",
+      "images": [
+        {
+          "file": "File:Gustaf VI Adolf of Sweden 1962.jpg",
+          "url": "https://upload.wikimedia.org/wikipedia/commons/1/1f/Gustaf_VI_Adolf_of_Sweden_1962.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+          "page": "https://commons.wikimedia.org/wiki/File:Gustaf_VI_Adolf_of_Sweden_1962.jpg",
+          "credit": "Unknown photographer for Anefo",
+          "license": "CC0",
+          "made": "1962",
+          "caption": "Taken in 1962 as the king turned 80.",
+          "alt": "Photograph of King Gustaf VI Adolf of Sweden at the time of his 80th birthday"
+        }
+      ],
+      "sources": [
+        {
+          "title": "Sweden: The Nation's History",
+          "author": "Franklin D. Scott",
+          "note": "University of Minnesota Press, 1977"
+        },
+        {
+          "title": "Svenskt biografiskt lexikon, entry “Gustaf VI Adolf”",
+          "author": "Riksarkivet (Swedish National Archives)"
+        },
+        {
+          "title": "A Concise History of Sweden",
+          "author": "Neil Kent",
+          "note": "Cambridge University Press, 2008"
+        }
+      ],
+      "review": {
+        "status": "draft",
+        "notes": "Drafted from the listed sources; needs a human fact-check."
+      }
+    },
+    {
+      "id": "carl-xvi-gustaf",
+      "kind": "monarch",
+      "rulers": [
+        "carl-xvi-gustaf"
+      ],
+      "tagline": "The king with no power, and the longest reign",
+      "start": {
+        "date": "1973-09-15"
+      },
+      "contestedWith": [],
+      "relationToPredecessor": "Grandson of Gustaf VI Adolf",
+      "ageAtAccession": "27",
+      "cameToPower": "Inherited from his grandfather",
+      "reignEnded": "Still reigning",
+      "previously": "Gustaf VI Adolf dies at 90. His young grandson takes over.",
+      "paragraphs": [
+        "Carl Gustaf lost his father when he was nine months old and became heir to his grandfather at four. The 1974 constitution, in force from 1975, made him a purely ceremonial head of state. He no longer chairs the cabinet or signs laws. In 1976 he married Silvia Sommerlath, whom he met at the 1972 Munich Olympics.",
+        "In 1979 their son Carl Philip was born and became heir. A year later a new law gave the throne to the eldest child of either sex, so his elder sister Victoria became crown princess instead. The king is a keen scout and campaigner on the environment. In 2018 he passed Magnus IV as the longest-reigning monarch in Swedish history, and he marked 50 years on the throne in 2023."
+      ],
+      "claims": [
+        {
+          "text": "Sweden changed the succession so his daughter Victoria would inherit before her younger brother.",
+          "status": "confirmed",
+          "note": "The 1980 Act of Succession introduced equal primogeniture. Sweden was the first monarchy to do it."
+        },
+        {
+          "text": "He is the longest-reigning monarch in Swedish history.",
+          "status": "confirmed",
+          "note": "He overtook Magnus IV in 2018, according to the Royal Court."
+        }
+      ],
+      "images": [
+        {
+          "file": "File:06.11.2025 – Recepção Oficial dos Chefes de Delegação da Cúpula do Clima (54906269035) (Carlos XVI Gustavo).jpg",
+          "url": "https://upload.wikimedia.org/wikipedia/commons/4/42/06.11.2025_%E2%80%93_Recep%C3%A7%C3%A3o_Oficial_dos_Chefes_de_Delega%C3%A7%C3%A3o_da_C%C3%BApula_do_Clima_%2854906269035%29_%28Carlos_XVI_Gustavo%29.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+          "page": "https://commons.wikimedia.org/wiki/File:06.11.2025_–_Recepção_Oficial_dos_Chefes_de_Delegação_da_Cúpula_do_Clima_(54906269035)_(Carlos_XVI_Gustavo).jpg",
+          "credit": "Ricardo Stuckert / PR (Lula Oficial)",
+          "license": "CC BY-SA 4.0",
+          "made": "2025",
+          "caption": "Photographed at the COP30 climate summit in Belém, Brazil, in November 2025.",
+          "alt": "Photograph of King Carl XVI Gustaf at the official reception for heads of delegation at the COP30 climate summit in Belém"
+        }
+      ],
+      "sources": [
+        {
+          "title": "Sveriges kungahus (official website of the Royal Court of Sweden)",
+          "author": "Kungliga Hovstaterna",
+          "note": "kungahuset.se"
+        },
+        {
+          "title": "A Concise History of Sweden",
+          "author": "Neil Kent",
+          "note": "Cambridge University Press, 2008"
+        }
+      ],
+      "review": {
+        "status": "draft",
+        "notes": "Drafted from the listed sources; needs a human fact-check."
+      }
+    }
+  ]
+}
