@@ -1,0 +1,1432 @@
+{
+  "id": "morocco",
+  "name": "Morocco",
+  "blurb": "The Alaouite sultans and kings, from 1666 to today",
+  "dateConvention": "Dates are Western (Gregorian); Moroccan chronicles use the Islamic (Hijri) lunar calendar, and their dates are given as their standard Western equivalents. The rulers were sultans until Mohammed V took the title of king in 1957.",
+  "houses": [
+    {
+      "id": "alaouite",
+      "name": "Alaouite",
+      "color": "#9b2335"
+    }
+  ],
+  "rulers": [
+    {
+      "id": "al-rashid",
+      "name": "al-Rashid",
+      "house": "alaouite",
+      "born": {
+        "date": "1631",
+        "circa": true,
+        "note": "Tafilalt oasis"
+      },
+      "died": {
+        "date": "1672-04-09",
+        "note": "Marrakesh"
+      },
+      "causeOfDeath": "Riding accident: hit his head on a tree"
+    },
+    {
+      "id": "ismail",
+      "name": "Ismail",
+      "epithet": "the Warrior King",
+      "house": "alaouite",
+      "born": {
+        "date": "1645",
+        "circa": true,
+        "note": "Tafilalt"
+      },
+      "died": {
+        "date": "1727-03-22",
+        "note": "Meknes"
+      },
+      "causeOfDeath": "Natural causes, aged about 81"
+    },
+    {
+      "id": "mohammed-iii",
+      "name": "Mohammed III",
+      "house": "alaouite",
+      "born": {
+        "date": "1710",
+        "circa": true
+      },
+      "died": {
+        "date": "1790-04-09"
+      },
+      "causeOfDeath": "Natural causes"
+    },
+    {
+      "id": "yazid",
+      "name": "al-Yazid",
+      "house": "alaouite",
+      "born": {
+        "date": "1750",
+        "note": "Fez"
+      },
+      "died": {
+        "date": "1792-02-23",
+        "note": "Near Marrakesh"
+      },
+      "causeOfDeath": "Wounds from battle against Hisham's men"
+    },
+    {
+      "id": "slimane",
+      "name": "Slimane",
+      "house": "alaouite",
+      "born": {
+        "date": "1766-06-28"
+      },
+      "died": {
+        "date": "1822-11-28",
+        "note": "Marrakesh"
+      },
+      "causeOfDeath": "Natural causes"
+    },
+    {
+      "id": "abd-al-rahman",
+      "name": "Abd al-Rahman",
+      "house": "alaouite",
+      "born": {
+        "date": "1778-02-19"
+      },
+      "died": {
+        "date": "1859-08-28",
+        "note": "Meknes"
+      },
+      "causeOfDeath": "Natural causes, aged 81"
+    },
+    {
+      "id": "mohammed-iv",
+      "name": "Mohammed IV",
+      "house": "alaouite",
+      "born": {
+        "date": "1803"
+      },
+      "died": {
+        "date": "1873-09-16",
+        "note": "Marrakesh"
+      },
+      "causeOfDeath": "Natural causes"
+    },
+    {
+      "id": "hassan-i",
+      "name": "Hassan I",
+      "house": "alaouite",
+      "born": {
+        "date": "1836",
+        "circa": true,
+        "note": "Sources give 1836 or 1857"
+      },
+      "died": {
+        "date": "1894-06-09",
+        "note": "On campaign in the Tadla region"
+      },
+      "causeOfDeath": "Illness on campaign"
+    },
+    {
+      "id": "abdelaziz",
+      "name": "Abdelaziz",
+      "house": "alaouite",
+      "born": {
+        "date": "1878",
+        "circa": true,
+        "note": "Marrakesh; some sources give 1881"
+      },
+      "died": {
+        "date": "1943-06-10",
+        "note": "Tangier"
+      },
+      "causeOfDeath": "Not recorded; presumed natural"
+    },
+    {
+      "id": "abdelhafid",
+      "name": "Abdelhafid",
+      "house": "alaouite",
+      "born": {
+        "date": "1875",
+        "circa": true,
+        "note": "Fez; sometime between 1875 and 1880"
+      },
+      "died": {
+        "date": "1937-04-04",
+        "note": "Enghien-les-Bains, near Paris"
+      },
+      "causeOfDeath": "Not recorded; presumed natural"
+    },
+    {
+      "id": "yusef",
+      "name": "Yusef",
+      "house": "alaouite",
+      "born": {
+        "date": "1882",
+        "circa": true,
+        "note": "Meknes"
+      },
+      "died": {
+        "date": "1927-11-17",
+        "note": "Fez"
+      },
+      "causeOfDeath": "Uraemia (kidney failure)"
+    },
+    {
+      "id": "mohammed-v",
+      "name": "Mohammed V",
+      "house": "alaouite",
+      "born": {
+        "date": "1909-08-10",
+        "note": "Fez"
+      },
+      "died": {
+        "date": "1961-02-26",
+        "note": "Rabat"
+      },
+      "causeOfDeath": "Cardiac arrest after minor surgery"
+    },
+    {
+      "id": "ben-arafa",
+      "name": "Mohammed Ben Aarafa",
+      "house": "alaouite",
+      "born": {
+        "date": "1886",
+        "circa": true,
+        "note": "Fez"
+      },
+      "died": {
+        "date": "1976-07-17",
+        "note": "Nice, France"
+      },
+      "causeOfDeath": "Not recorded; presumed natural"
+    },
+    {
+      "id": "hassan-ii",
+      "name": "Hassan II",
+      "house": "alaouite",
+      "born": {
+        "date": "1929-07-09",
+        "note": "Rabat"
+      },
+      "died": {
+        "date": "1999-07-23",
+        "note": "Rabat"
+      },
+      "causeOfDeath": "Heart attack"
+    },
+    {
+      "id": "mohammed-vi",
+      "name": "Mohammed VI",
+      "house": "alaouite",
+      "born": {
+        "date": "1963-08-21",
+        "note": "Rabat"
+      }
+    }
+  ],
+  "reigns": [
+    {
+      "id": "al-rashid",
+      "kind": "monarch",
+      "rulers": [
+        "al-rashid"
+      ],
+      "tagline": "The desert prince who stitched Morocco back together",
+      "start": {
+        "date": "1666"
+      },
+      "end": {
+        "date": "1672-04-09"
+      },
+      "contestedWith": [],
+      "relationToPredecessor": "Son of Sharif of Tafilalt",
+      "ageAtAccession": "About 35",
+      "cameToPower": "Fought his way to Fez",
+      "reignEnded": "Killed by an orange tree",
+      "previously": "The Saadians are gone. Morocco is carved up by lodges and warlords.",
+      "paragraphs": [
+        "Back in 1591 Morocco's Saadian sultan Ahmad al-Mansur crossed the Sahara, smashed the Songhay empire and came home dripping with gold. When he died in 1603 his sons tore the country apart. By the 1660s the last Saadians were gone, and Morocco was a patchwork: the powerful Sufi lodge of Dila in the Middle Atlas, local strongmen in the north, holy men in the south.",
+        "Out in the Tafilalt oasis lived a family of sharifs, who traced their line back to the Prophet. One son, al-Rashid, fell out with his brother Muhammad and went off to build his own following. In 1664 the brothers fought, and Muhammad was killed. Al-Rashid swept on: Taza, then Fez in 1666, where he was hailed as sultan. In 1668 he wiped out the Dila lodge, and Marrakesh fell soon after.",
+        "In about six years he had put the whole country back under one ruler. Then, in April 1672, in a garden in Marrakesh, his horse bolted and he smashed his head on the branch of an orange tree. He was about 41. Waiting in Fez as governor was his younger half-brother, Ismail."
+      ],
+      "claims": [
+        {
+          "text": "Al-Rashid got his start by robbing a rich Jewish merchant called Ibn Mash'al and using the loot to raise an army.",
+          "status": "legend",
+          "note": "A later tradition, kept alive by the Fez students' carnival of the 'sultan of the students'. Contemporary sources don't back it up."
+        },
+        {
+          "text": "He died when his bolting horse threw him against an orange tree.",
+          "status": "confirmed",
+          "note": "This is the standard account, reported by people writing at the time."
+        },
+        {
+          "text": "The Alaouites are descended from the Prophet Muhammad through his grandson Hasan.",
+          "status": "confirmed",
+          "note": "Confirmed as the family's own claim, and the basis of its right to rule. It can't be checked independently."
+        }
+      ],
+      "hook": "The sultan is dead after barely six years. His half-brother Ismail, governor of Fez, doesn't wait for anyone's permission. He moves fast.",
+      "images": [
+        {
+          "file": "File:Cherratine - main courtyard skywards view.jpg",
+          "url": "https://upload.wikimedia.org/wikipedia/commons/9/9e/Cherratine_-_main_courtyard_skywards_view.jpg",
+          "page": "https://commons.wikimedia.org/wiki/File:Cherratine_-_main_courtyard_skywards_view.jpg",
+          "credit": "Ariel Gera",
+          "license": "CC BY-SA 4.0",
+          "made": "Madrasa 1670; photo 2019",
+          "caption": "The courtyard of the Cherratine madrasa in Fez, the college al-Rashid founded in 1670. No portrait of him survives.",
+          "alt": "View looking up from the main courtyard of the Cherratine madrasa in Fez"
+        }
+      ],
+      "sources": [
+        {
+          "title": "A History of the Maghrib in the Islamic Period",
+          "author": "Jamil M. Abun-Nasr",
+          "note": "Cambridge University Press, 1987"
+        },
+        {
+          "title": "The History of the Maghrib: An Interpretive Essay",
+          "author": "Abdallah Laroui",
+          "note": "Princeton University Press, 1977"
+        },
+        {
+          "title": "al-Rashīd (Mawlāy)",
+          "author": "Encyclopaedia of Islam, 2nd edition"
+        }
+      ],
+      "review": {
+        "status": "draft",
+        "notes": "Drafted from the listed sources; needs a human fact-check."
+      }
+    },
+    {
+      "id": "ismail",
+      "kind": "monarch",
+      "rulers": [
+        "ismail"
+      ],
+      "tagline": "Fifty-five years, a slave army and a city of walls",
+      "start": {
+        "date": "1672-04-14"
+      },
+      "end": {
+        "date": "1727-03-22"
+      },
+      "contestedWith": [],
+      "relationToPredecessor": "Half-brother of al-Rashid",
+      "ageAtAccession": "About 26",
+      "cameToPower": "Proclaimed in Fez",
+      "reignEnded": "Died in Meknes, aged about 81",
+      "previously": "Al-Rashid dies in a riding accident after reuniting Morocco.",
+      "paragraphs": [
+        "Moulay Ismail was proclaimed in Fez days after his brother's death, then spent fifteen years fighting his nephew Ahmad ibn Muhriz for the throne. To make sure no one could do that again, he built an army that answered to him alone: the Black Guard, enslaved black soldiers raised from boyhood. Chroniclers put it at 150,000 men. He made Meknes his capital and built on a vast scale: palaces, huge granaries, stables, miles of walls and the great gate of Bab Mansour.",
+        "He went after the Europeans on his coast and took back Mehdya, Tangier (which the English gave up in 1684), Larache and Asilah. Spanish Ceuta held out against a siege that dragged on for decades. Corsairs from Salé brought in Christian captives by the thousand, and many were set to work on his building sites. One was a Cornish cabin boy, Thomas Pellow, taken in 1715, who spent 23 years in Ismail's service and later wrote it all down.",
+        "He reigned 55 years, longer than any other Moroccan sultan. When he died in 1727 he left a ruthless army and dozens of grown sons."
+      ],
+      "claims": [
+        {
+          "text": "Ismail fathered 888 children.",
+          "status": "legend",
+          "note": "The counts come from chroniclers and foreign visitors and vary. All that's safe to say is that he had more than 800 by a harem of hundreds of women."
+        },
+        {
+          "text": "He asked Louis XIV for the hand of his daughter, the Princesse de Conti.",
+          "status": "disputed",
+          "note": "French sources tell the story around the Moroccan embassy of 1699. Whether a formal proposal was ever made is unclear."
+        },
+        {
+          "text": "He killed servants on a whim.",
+          "status": "disputed",
+          "note": "Comes from European captives and envoys, who had every reason to paint him as a monster. Their tales can't be checked."
+        }
+      ],
+      "hook": "The old lion is dead. He leaves dozens of grown sons, each with a claim, and a slave army that now answers to no one.",
+      "images": [
+        {
+          "file": "File:Ismail Ibn Sharif.jpg",
+          "url": "https://upload.wikimedia.org/wikipedia/commons/b/b2/Ismail_Ibn_Sharif.jpg",
+          "page": "https://commons.wikimedia.org/wiki/File:Ismail_Ibn_Sharif.jpg",
+          "credit": "Germain Moüette",
+          "license": "Public domain",
+          "made": "1683",
+          "caption": "From the 1683 book of Germain Moüette, a Frenchman held captive in Morocco; how lifelike it is, nobody knows.",
+          "alt": "Old European engraving of Moulay Ismail"
+        }
+      ],
+      "sources": [
+        {
+          "title": "White Gold: The Extraordinary Story of Thomas Pellow and North Africa's One Million European Slaves",
+          "author": "Giles Milton",
+          "note": "Hodder & Stoughton, 2004"
+        },
+        {
+          "title": "The History of the Long Captivity and Adventures of Thomas Pellow",
+          "author": "Thomas Pellow",
+          "note": "1739; edited by Magali Morsy, 1983"
+        },
+        {
+          "title": "A History of the Maghrib in the Islamic Period",
+          "author": "Jamil M. Abun-Nasr",
+          "note": "Cambridge University Press, 1987"
+        },
+        {
+          "title": "Ismāʿīl b. al-Sharīf",
+          "author": "Encyclopaedia of Islam, 2nd edition"
+        }
+      ],
+      "review": {
+        "status": "draft",
+        "notes": "Drafted from the listed sources; needs a human fact-check."
+      }
+    },
+    {
+      "id": "after-ismail",
+      "kind": "interregnum",
+      "title": "Thirty Years of Anarchy",
+      "house": "alaouite",
+      "rulers": [],
+      "tagline": "One throne, a dozen sons, and an army selling the crown",
+      "start": {
+        "date": "1727-03-22"
+      },
+      "end": {
+        "date": "1757-11-10"
+      },
+      "contestedWith": [],
+      "relationToPredecessor": "Ismail's sons fight it out",
+      "ageAtAccession": "No single ruler",
+      "cameToPower": "The Black Guard picked sultans",
+      "reignEnded": "Abdallah died in 1757",
+      "previously": "Moulay Ismail dies after 55 years, leaving dozens of sons.",
+      "paragraphs": [
+        "Ismail had built the Black Guard to protect the sultan. Now it chose him. His son Ahmad adh-Dhahabi went first, was thrown out, brought back, and died within two years. His brother Abd al-Malik had a brief turn. Then came Abdallah, who held the throne in six separate spells between 1729 and 1757. He was deposed again and again, and always came back.",
+        "Behind him stood his mother, Khanatha bint Bakkar, one of Ismail's widows, a shrewd political operator in her own right. Meanwhile the country fell apart. Soldiers went unpaid and plundered instead. Famine and plague swept through. The grand palaces of Meknes were stripped and left to crumble.",
+        "Abdallah finally died on the throne on 10 November 1757. By then his son Mohammed had already proved himself as governor of Marrakesh."
+      ],
+      "claims": [
+        {
+          "text": "Abdallah was made and unmade sultan six times between 1729 and 1757.",
+          "status": "confirmed",
+          "note": "The standard lists of his reign show six separate spells, with brothers ruling in between."
+        },
+        {
+          "text": "His mother Khanatha bint Bakkar was the real power behind his comebacks.",
+          "status": "confirmed",
+          "note": "Confirmed in outline: she was an influential widow of Ismail. How much she steered events is a matter of interpretation."
+        },
+        {
+          "text": "The Black Guard put the throne up for whoever paid them best.",
+          "status": "disputed",
+          "note": "Chroniclers describe the soldiers making and breaking sultans. Calling it a straight auction simplifies a messier power struggle."
+        }
+      ],
+      "hook": "Thirty years of chaos end with a funeral. Abdallah's son Mohammed, tested as governor of Marrakesh, steps up with a plan to put the army back in its box.",
+      "images": [
+        {
+          "file": "File:Bab Mansour Meknes 2018 1.jpg",
+          "url": "https://upload.wikimedia.org/wikipedia/commons/0/09/Bab_Mansour_Meknes_2018_1.jpg",
+          "page": "https://commons.wikimedia.org/wiki/File:Bab_Mansour_Meknes_2018_1.jpg",
+          "credit": "Steven Lek",
+          "license": "CC BY-SA 4.0",
+          "made": "Gate 1732; photo 2018",
+          "caption": "Bab Mansour in Meknes, Ismail's great gate, finished by his son Abdallah in 1732 in the middle of the anarchy.",
+          "alt": "The Bab Mansour gate in Meknes"
+        }
+      ],
+      "sources": [
+        {
+          "title": "A History of the Maghrib in the Islamic Period",
+          "author": "Jamil M. Abun-Nasr",
+          "note": "Cambridge University Press, 1987"
+        },
+        {
+          "title": "The History of the Maghrib: An Interpretive Essay",
+          "author": "Abdallah Laroui",
+          "note": "Princeton University Press, 1977"
+        },
+        {
+          "title": "Mawlāy ʿAbd Allāh",
+          "author": "Encyclopaedia of Islam, 2nd edition"
+        }
+      ],
+      "review": {
+        "status": "draft",
+        "notes": "Drafted from the listed sources; needs a human fact-check."
+      }
+    },
+    {
+      "id": "mohammed-iii",
+      "kind": "monarch",
+      "rulers": [
+        "mohammed-iii"
+      ],
+      "tagline": "The sultan who said hello to the United States",
+      "start": {
+        "date": "1757-11-10"
+      },
+      "end": {
+        "date": "1790-04-09"
+      },
+      "contestedWith": [],
+      "relationToPredecessor": "Son of Abdallah",
+      "ageAtAccession": "About 47",
+      "cameToPower": "Succeeded his father",
+      "reignEnded": "Died after 33 years on the throne",
+      "previously": "Abdallah dies after six spells as sultan. The anarchy is over.",
+      "paragraphs": [
+        "Sidi Mohammed took over a broken country and fixed it. He brought the Black Guard to heel and got the country working again. When the great earthquake of 1755, the one that flattened Lisbon, left Moroccan towns in ruins, he rebuilt. In the 1760s he founded a whole new port, Essaouira (the Europeans called it Mogador), laid out by a French engineer, and steered foreign trade through it so he could tax it.",
+        "In 1769 he took Mazagan, today El Jadida, the last Portuguese fortress on the Atlantic coast. And on 20 December 1777 he opened his ports to American ships, at a time when the United States was still fighting for its independence. In 1786 the two countries signed a treaty of friendship that is still in force.",
+        "He was always busy with trade, treaties and reform. But his son al-Yazid was a constant headache, rebelling and hiding in shrines. When Mohammed died in April 1790, Yazid was ready."
+      ],
+      "claims": [
+        {
+          "text": "Morocco was the first country to recognise the United States.",
+          "status": "disputed",
+          "note": "Both governments tell it this way, pointing to the 1777 declaration. Historians note it was an opening of ports, not a formal act of recognition."
+        },
+        {
+          "text": "The 1786 treaty with Morocco is the oldest unbroken treaty in US history.",
+          "status": "confirmed",
+          "note": "The Treaty of Friendship and Amity, renewed in 1836, has never been broken off."
+        },
+        {
+          "text": "Abdallah Laroui called him 'the architect of modern Morocco'.",
+          "status": "confirmed",
+          "note": "The Moroccan historian's verdict on his reforms of the army, trade and government."
+        }
+      ],
+      "hook": "The careful sultan is gone. His wild son al-Yazid, years in disgrace, grabs the throne and starts settling old scores.",
+      "images": [
+        {
+          "file": "File:Mohammed 3 maroc.jpg",
+          "url": "https://upload.wikimedia.org/wikipedia/commons/6/66/Mohammed_3_maroc.jpg",
+          "page": "https://commons.wikimedia.org/wiki/File:Mohammed_3_maroc.jpg",
+          "credit": "Maurice Keatinge",
+          "license": "Public domain",
+          "made": "1785 (published 1817)",
+          "caption": "Drawn by Maurice Keatinge, who visited Morocco with a British mission in 1785, and published in his travel book of 1817.",
+          "alt": "Portrait of Sultan Mohammed III from an English travel book"
+        }
+      ],
+      "sources": [
+        {
+          "title": "The History of the Maghrib: An Interpretive Essay",
+          "author": "Abdallah Laroui",
+          "note": "Princeton University Press, 1977"
+        },
+        {
+          "title": "A History of the Maghrib in the Islamic Period",
+          "author": "Jamil M. Abun-Nasr",
+          "note": "Cambridge University Press, 1987"
+        },
+        {
+          "title": "A History of Modern Morocco",
+          "author": "Susan Gilson Miller",
+          "note": "Cambridge University Press, 2013"
+        },
+        {
+          "title": "Muḥammad b. ʿAbd Allāh",
+          "author": "Encyclopaedia of Islam, 2nd edition"
+        }
+      ],
+      "review": {
+        "status": "draft",
+        "notes": "Drafted from the listed sources; needs a human fact-check."
+      }
+    },
+    {
+      "id": "yazid",
+      "kind": "monarch",
+      "rulers": [
+        "yazid"
+      ],
+      "tagline": "Two years of revenge, ended on the battlefield",
+      "start": {
+        "date": "1790-04-09"
+      },
+      "end": {
+        "date": "1792-02-23"
+      },
+      "contestedWith": [],
+      "relationToPredecessor": "Son of Mohammed III",
+      "ageAtAccession": "About 40",
+      "cameToPower": "Seized the throne",
+      "reignEnded": "Died of battle wounds",
+      "previously": "Mohammed III dies. His disgraced son al-Yazid is ready to pounce.",
+      "paragraphs": [
+        "Moulay al-Yazid had spent years at war with his own father, rebelling, sulking in sanctuary at holy shrines and bouncing between disgrace and pardon. When Mohammed III died in 1790, Yazid grabbed the throne and set about punishing everyone who had crossed him.",
+        "The Jews of Tétouan had once refused him money. Now he let his troops loose on them: homes were looted and people were killed. European witnesses, among them the English surgeon William Lempriere, described the violence. He also went to war with Spain and sent his army against Ceuta in 1790 and 1791.",
+        "His brutality cost him support fast, and brothers were proclaimed sultan in other cities. In February 1792 he fought the backers of his brother Hisham near Marrakesh, was badly wounded, and died on 23 February."
+      ],
+      "claims": [
+        {
+          "text": "Al-Yazid took violent revenge on the Jews of Tétouan for refusing him money.",
+          "status": "confirmed",
+          "note": "Recorded in contemporary accounts, including that of William Lempriere, who was in Morocco at the time."
+        },
+        {
+          "text": "Rival brothers were proclaimed sultan in other cities while al-Yazid still reigned.",
+          "status": "confirmed",
+          "note": "The chronicles record Hisham's proclamation in Marrakesh and other claims in the south before Yazid's death."
+        }
+      ],
+      "hook": "Yazid is dead and Morocco has too many sultans. Hisham holds Marrakesh, and in Fez the scholars hail another brother, the bookish Slimane.",
+      "images": [
+        {
+          "file": "File:Marrakech Moulay al-Yazid Mosque (Kasbah Mosque) (54248442986).jpg",
+          "url": "https://upload.wikimedia.org/wikipedia/commons/6/60/Marrakech_Moulay_al-Yazid_Mosque_%28Kasbah_Mosque%29_%2854248442986%29.jpg",
+          "page": "https://commons.wikimedia.org/wiki/File:Marrakech_Moulay_al-Yazid_Mosque_(Kasbah_Mosque)_(54248442986).jpg",
+          "credit": "Jorge Franganillo",
+          "license": "CC BY 2.0",
+          "made": "Photo 2024",
+          "caption": "Marrakesh's Kasbah Mosque, popularly called the Moulay al-Yazid Mosque; the building is far older than him. No portrait of him survives.",
+          "alt": "The Kasbah Mosque in Marrakesh, also known as the Moulay al-Yazid Mosque"
+        }
+      ],
+      "sources": [
+        {
+          "title": "A Tour from Gibraltar to Tangier, Sallee, Mogodore, Santa Cruz, Tarudant; and thence over Mount Atlas, to Morocco",
+          "author": "William Lempriere",
+          "note": "London, 1791"
+        },
+        {
+          "title": "A History of the Maghrib in the Islamic Period",
+          "author": "Jamil M. Abun-Nasr",
+          "note": "Cambridge University Press, 1987"
+        },
+        {
+          "title": "The History of the Maghrib: An Interpretive Essay",
+          "author": "Abdallah Laroui",
+          "note": "Princeton University Press, 1977"
+        }
+      ],
+      "review": {
+        "status": "draft",
+        "notes": "Drafted from the listed sources; needs a human fact-check."
+      }
+    },
+    {
+      "id": "slimane",
+      "kind": "monarch",
+      "rulers": [
+        "slimane"
+      ],
+      "tagline": "The scholar sultan who shut the door on Europe",
+      "start": {
+        "date": "1792-03",
+        "circa": true
+      },
+      "end": {
+        "date": "1822-11-28"
+      },
+      "contestedWith": [],
+      "relationToPredecessor": "Brother of al-Yazid",
+      "ageAtAccession": "25",
+      "cameToPower": "Proclaimed in Fez",
+      "reignEnded": "Died in Marrakesh",
+      "previously": "Al-Yazid dies of battle wounds. His brothers are proclaimed sultan.",
+      "paragraphs": [
+        "Moulay Slimane (also spelled Sulayman) was a scholar first and a sultan second. The religious elite of Fez proclaimed him soon after Yazid died, but he had to share Morocco with his brother Hisham in Marrakesh until 1797. Then a terrible plague in 1799 and 1800 killed vast numbers of people.",
+        "He was pious and strict, and he wanted Morocco left alone. He cut back trade with Europe, and in about 1817 and 1818 he shut down the old state-backed corsair raids on foreign shipping. Napoleon's wars raged across the strait and he kept well out of them.",
+        "His last years were hard. Berber tribes of the Middle Atlas beat his army and briefly took him prisoner. When it came to the succession he passed over his own sons and named his nephew Abd al-Rahman. He died in Marrakesh in November 1822."
+      ],
+      "claims": [
+        {
+          "text": "Slimane was won over by the strict reformist ideas of the Wahhabis of Arabia.",
+          "status": "disputed",
+          "note": "He did attack some popular Sufi practices. Historians argue over how far that was Wahhabi influence or his own Moroccan scholarly tradition."
+        },
+        {
+          "text": "Berber rebels captured the sultan himself after beating his army.",
+          "status": "disputed",
+          "note": "The chronicles report it, but the details of the battle and his captivity differ between them."
+        },
+        {
+          "text": "He picked his nephew over his own sons as heir.",
+          "status": "confirmed",
+          "note": "Abd al-Rahman, son of his brother Hisham, succeeded him as Slimane had chosen."
+        }
+      ],
+      "hook": "The nephew takes the throne. Eight years later, across the border, a French army lands in Algiers, and Morocco's quiet isolation is over.",
+      "images": [
+        {
+          "file": "File:Moulay Slimane Mosque.jpg",
+          "url": "https://upload.wikimedia.org/wikipedia/commons/9/98/Moulay_Slimane_Mosque.jpg",
+          "page": "https://commons.wikimedia.org/wiki/File:Moulay_Slimane_Mosque.jpg",
+          "credit": "Rachidourkia",
+          "license": "CC BY-SA 4.0",
+          "made": "Photo 2024",
+          "caption": "The Moulay Slimane Mosque in Rabat, which carries his name. No reliable portrait of him survives.",
+          "alt": "The Moulay Slimane Mosque in the historic city of Rabat"
+        }
+      ],
+      "sources": [
+        {
+          "title": "A History of the Maghrib in the Islamic Period",
+          "author": "Jamil M. Abun-Nasr",
+          "note": "Cambridge University Press, 1987"
+        },
+        {
+          "title": "The History of the Maghrib: An Interpretive Essay",
+          "author": "Abdallah Laroui",
+          "note": "Princeton University Press, 1977"
+        },
+        {
+          "title": "Sulaymān (Mawlāy)",
+          "author": "Encyclopaedia of Islam, 2nd edition"
+        }
+      ],
+      "review": {
+        "status": "draft",
+        "notes": "Drafted from the listed sources; needs a human fact-check."
+      }
+    },
+    {
+      "id": "abd-al-rahman",
+      "kind": "monarch",
+      "rulers": [
+        "abd-al-rahman"
+      ],
+      "tagline": "He backed the wrong horse against France and paid for it",
+      "start": {
+        "date": "1822-11-28"
+      },
+      "end": {
+        "date": "1859-08-28"
+      },
+      "contestedWith": [],
+      "relationToPredecessor": "Nephew of Slimane",
+      "ageAtAccession": "44",
+      "cameToPower": "Named heir by his uncle",
+      "reignEnded": "Died in Meknes, aged 81",
+      "previously": "Slimane dies, skipping his sons to name his nephew as heir.",
+      "paragraphs": [
+        "Moulay Abd al-Rahman reigned for 37 years, and most of them were shaped by one event: in 1830 France invaded Algeria next door. When the Algerian resistance leader Emir Abd al-Qadir fought back, Morocco gave him shelter and support. In 1832 a French mission came to the sultan at Meknes. A young painter called Eugène Delacroix came along and sketched everything he saw.",
+        "France lost patience in 1844. Its navy shelled Tangier and Mogador, and on 14 August, at the river Isly near Oujda, Marshal Bugeaud's army routed a much bigger Moroccan force led by the sultan's son Muhammad. The Treaty of Tangier that followed made Morocco drop Abd al-Qadir.",
+        "It was a humiliation, but Abd al-Rahman held on to his country's independence and its land. He died in Meknes in August 1859, aged 81. The son who had lost at Isly took over."
+      ],
+      "claims": [
+        {
+          "text": "The French bombarded Tangier and Mogador as well as beating the Moroccan army at Isly.",
+          "status": "confirmed",
+          "note": "The 1844 naval attacks and the battle are well recorded on both sides."
+        },
+        {
+          "text": "Delacroix saw the sultan in person and painted him from life.",
+          "status": "confirmed",
+          "note": "Delacroix was with the Comte de Mornay's mission in 1832. He painted the big canvas in 1845 from his notes and sketches."
+        }
+      ],
+      "hook": "Mohammed, the son beaten at Isly, takes the throne. Within weeks Spain declares war, and its army marches on Tétouan.",
+      "images": [
+        {
+          "file": "File:Augustins - Le Sultan du Maroc - Eugène Delacroix.jpg",
+          "url": "https://upload.wikimedia.org/wikipedia/commons/3/34/Augustins_-_Le_Sultan_du_Maroc_-_Eug%C3%A8ne_Delacroix.jpg",
+          "page": "https://commons.wikimedia.org/wiki/File:Augustins_-_Le_Sultan_du_Maroc_-_Eug%C3%A8ne_Delacroix.jpg",
+          "credit": "Eugène Delacroix (photo: Didier Descouens)",
+          "license": "Public domain",
+          "made": "1845",
+          "caption": "Delacroix painted this in 1845 from sketches made when he saw the sultan at Meknes in 1832. It hangs in Toulouse.",
+          "alt": "Delacroix's painting of the Sultan of Morocco on horseback outside his palace in Meknes, surrounded by his guard and officials"
+        }
+      ],
+      "sources": [
+        {
+          "title": "Morocco since 1830: A History",
+          "author": "C. R. Pennell",
+          "note": "Hurst, 2000"
+        },
+        {
+          "title": "A History of Modern Morocco",
+          "author": "Susan Gilson Miller",
+          "note": "Cambridge University Press, 2013"
+        },
+        {
+          "title": "A History of the Maghrib in the Islamic Period",
+          "author": "Jamil M. Abun-Nasr",
+          "note": "Cambridge University Press, 1987"
+        }
+      ],
+      "review": {
+        "status": "draft",
+        "notes": "Drafted from the listed sources; needs a human fact-check."
+      }
+    },
+    {
+      "id": "mohammed-iv",
+      "kind": "monarch",
+      "rulers": [
+        "mohammed-iv"
+      ],
+      "tagline": "A lost war, a giant bill and the creditors at the door",
+      "start": {
+        "date": "1859-08-28"
+      },
+      "end": {
+        "date": "1873-09-16"
+      },
+      "contestedWith": [],
+      "relationToPredecessor": "Son of Abd al-Rahman",
+      "ageAtAccession": "About 56",
+      "cameToPower": "Succeeded his father",
+      "reignEnded": "Died in Marrakesh",
+      "previously": "Abd al-Rahman dies, having kept Morocco independent but humbled.",
+      "paragraphs": [
+        "Sidi Mohammed had led Morocco's army to defeat at Isly, so he knew what European guns could do. He had barely taken the throne when Spain declared war over tribal raids on its enclaves of Ceuta and Melilla. Spanish troops pushed down the coast and took Tétouan in February 1860.",
+        "The peace of Wad Ras in 1860 hit hard. Morocco had to pay a huge war indemnity, and Spain kept Tétouan until the money was paid in 1862. To find the cash the sultan borrowed abroad and let foreign agents take over his customs posts, so Europeans now had a hand in Morocco's purse.",
+        "He tried to catch up by training a new army on European lines. He died in Marrakesh in September 1873, with the job far from done."
+      ],
+      "claims": [
+        {
+          "text": "The Wad Ras indemnity was about twenty times the Moroccan government's yearly budget.",
+          "status": "disputed",
+          "note": "A widely quoted figure, including on Wikipedia. Moroccan state revenues of the time are hard to pin down, so treat it as a rough scale."
+        },
+        {
+          "text": "Customs posts were handed to foreign control to pay off the debt.",
+          "status": "confirmed",
+          "note": "Spanish agents collected part of the customs revenue at Moroccan ports to cover the indemnity and a British loan."
+        }
+      ],
+      "hook": "His son Hassan, a soldier sultan, inherits a country ringed by European creditors. He means to hold it together from the saddle.",
+      "images": [
+        {
+          "file": "File:السلطان محمد الرابع يستقبل السفير البريطاني عام 1868.jpg",
+          "url": "https://upload.wikimedia.org/wikipedia/commons/4/4c/%D8%A7%D9%84%D8%B3%D9%84%D8%B7%D8%A7%D9%86_%D9%85%D8%AD%D9%85%D8%AF_%D8%A7%D9%84%D8%B1%D8%A7%D8%A8%D8%B9_%D9%8A%D8%B3%D8%AA%D9%82%D8%A8%D9%84_%D8%A7%D9%84%D8%B3%D9%81%D9%8A%D8%B1_%D8%A7%D9%84%D8%A8%D8%B1%D9%8A%D8%B7%D8%A7%D9%86%D9%8A_%D8%B9%D8%A7%D9%85_1868.jpg",
+          "page": "https://commons.wikimedia.org/wiki/File:%D8%A7%D9%84%D8%B3%D9%84%D8%B7%D8%A7%D9%86_%D9%85%D8%AD%D9%85%D8%AF_%D8%A7%D9%84%D8%B1%D8%A7%D8%A8%D8%B9_%D9%8A%D8%B3%D8%AA%D9%82%D8%A8%D9%84_%D8%A7%D9%84%D8%B3%D9%81%D9%8A%D8%B1_%D8%A7%D9%84%D8%A8%D8%B1%D9%8A%D8%B7%D8%A7%D9%86%D9%8A_%D8%B9%D8%A7%D9%85_1868.jpg",
+          "credit": "Unknown author",
+          "license": "Public domain",
+          "made": "1868",
+          "caption": "Mohammed IV receives the British envoy Sir John Drummond-Hay at the palace in Fez in 1868.",
+          "alt": "Sultan Mohammed IV receiving the British delegation from Tangier, led by Sir John Drummond-Hay, at the royal palace in Fez"
+        }
+      ],
+      "sources": [
+        {
+          "title": "Morocco since 1830: A History",
+          "author": "C. R. Pennell",
+          "note": "Hurst, 2000"
+        },
+        {
+          "title": "A History of Modern Morocco",
+          "author": "Susan Gilson Miller",
+          "note": "Cambridge University Press, 2013"
+        },
+        {
+          "title": "Morocco: From Empire to Independence",
+          "author": "C. R. Pennell",
+          "note": "Oneworld, 2003"
+        }
+      ],
+      "review": {
+        "status": "draft",
+        "notes": "Drafted from the listed sources; needs a human fact-check."
+      }
+    },
+    {
+      "id": "hassan-i",
+      "kind": "monarch",
+      "rulers": [
+        "hassan-i"
+      ],
+      "tagline": "The sultan who ruled from the saddle",
+      "start": {
+        "date": "1873-09-16"
+      },
+      "end": {
+        "date": "1894-06-09"
+      },
+      "contestedWith": [],
+      "relationToPredecessor": "Son of Mohammed IV",
+      "ageAtAccession": "About 37 (disputed)",
+      "cameToPower": "Proclaimed on his father's death",
+      "reignEnded": "Died on campaign in Tadla",
+      "previously": "Mohammed IV dies, leaving a sultanate deep in debt to Europe.",
+      "paragraphs": [
+        "Hassan I hardly ever sat still. Most years, from spring to autumn, he took the whole court on the road: ministers, treasury, thousands of troops. Tribes that paid their taxes and swore loyalty got off lightly. Tribes that didn't got a visit from the army. He marched to the Sous, into the Rif and, in 1893, across the High Atlas to Tafilalt, the oasis his family came from.",
+        "He knew Morocco had to modernise or be swallowed. France took Tunisia in 1881 and Britain occupied Egypt in 1882. Hassan hired foreign officers to drill his soldiers, sent students to Europe, built an arms works in Fez and struck new coins. He played Britain, France and Spain off against each other. At the Madrid Conference of 1880 he tried to curb the foreign 'protection' that let Moroccans dodge his courts and taxes, and came away with little.",
+        "In June 1894 he fell ill and died on campaign in the Tadla region, deep in hostile country. His chamberlain, Ba Ahmed, kept it quiet. The sultan's litter travelled on, curtains closed, until the army reached safety. Only then did the news break, along with the name of the new sultan: Hassan's young son Abdelaziz."
+      ],
+      "claims": [
+        {
+          "text": "Hassan took the court and army on campaign almost every year of his reign.",
+          "status": "confirmed",
+          "note": "Court letters and European visitors describe the yearly expeditions; historians such as Pennell and Miller treat this as the core of his rule."
+        },
+        {
+          "text": "His throne was his saddle.",
+          "status": "legend",
+          "note": "A later saying that sums up his reign. Nobody at the time is recorded saying it."
+        },
+        {
+          "text": "Ba Ahmed hid the sultan's death, carrying the body in a closed litter as if he were alive.",
+          "status": "confirmed",
+          "note": "The secrecy is well attested. The details of the litter come from the standard retellings and vary a little."
+        }
+      ],
+      "hook": "Ba Ahmed has moved fast. Hassan's teenage son Abdelaziz is proclaimed sultan, and the chamberlain who hid the body will rule in his name.",
+      "images": [
+        {
+          "file": "File:Hassan I of Morocco.jpg",
+          "url": "https://upload.wikimedia.org/wikipedia/commons/6/65/Hassan_I_of_Morocco.jpg",
+          "page": "https://commons.wikimedia.org/wiki/File:Hassan_I_of_Morocco.jpg",
+          "credit": "Unknown author",
+          "license": "Public domain",
+          "made": "1873",
+          "caption": "A photograph dated on Commons to 1873, the year he came to the throne, scanned from a Moroccan book of court letters.",
+          "alt": "Old photograph of Sultan Hassan I"
+        }
+      ],
+      "sources": [
+        {
+          "title": "Morocco since 1830: A History",
+          "author": "C. R. Pennell",
+          "note": "Hurst, 2000"
+        },
+        {
+          "title": "A History of Modern Morocco",
+          "author": "Susan Gilson Miller",
+          "note": "Cambridge University Press, 2013"
+        },
+        {
+          "title": "Morocco: Its People and Places",
+          "author": "Edmondo De Amicis",
+          "note": "Italian original 1876; an eyewitness description of the sultan"
+        }
+      ],
+      "review": {
+        "status": "draft",
+        "notes": "Drafted from the listed sources; needs a human fact-check."
+      }
+    },
+    {
+      "id": "abdelaziz",
+      "kind": "monarch",
+      "rulers": [
+        "abdelaziz"
+      ],
+      "tagline": "The boy sultan who fell for bicycles and cameras",
+      "start": {
+        "date": "1894-06-09"
+      },
+      "end": {
+        "date": "1908-08-21"
+      },
+      "contestedWith": [],
+      "relationToPredecessor": "Son of Hassan I",
+      "ageAtAccession": "13 or 16",
+      "cameToPower": "Named heir, installed by Ba Ahmed",
+      "reignEnded": "Overthrown by his brother",
+      "previously": "Hassan I dies on campaign, and his chamberlain hides the body.",
+      "paragraphs": [
+        "Abdelaziz was a boy when he became sultan, and for six years the real ruler was Ba Ahmed, the old chamberlain. When Ba Ahmed died in 1900, the young sultan took charge and threw the palace open to Europe. Bicycles, cameras, fireworks, gadgets, a golden state coach: if it was new and foreign, he wanted it. European salesmen and advisers crowded his court, and many Moroccans were scandalised.",
+        "He tried real reform too, with a new tax on farmland and livestock that everyone would pay. It was badly run, the money dried up, and he borrowed from French banks. In 1905 Kaiser Wilhelm II landed at Tangier to challenge France, and the crisis ended at the Algeciras Conference of 1906, which put Morocco's customs, police and finances under international supervision.",
+        "In 1907 France occupied Oujda. That summer, after European workers were killed in Casablanca, French warships shelled the town and troops landed; estimates of the Moroccan dead run from about 1,500 to 7,000. In August his brother Abdelhafid was proclaimed sultan in Marrakesh. A year later Abdelaziz's army fell apart near the city and he gave up. He retired to Tangier and lived there until 1943."
+      ],
+      "claims": [
+        {
+          "text": "Abdelaziz sold Morocco for a bicycle.",
+          "status": "legend",
+          "note": "A jibe from his critics. The spending was real, but the debts and the loss of independence came from much bigger forces."
+        },
+        {
+          "text": "His palace filled with European novelties, from bicycles and cameras to a golden state coach.",
+          "status": "confirmed",
+          "note": "Described by European visitors and journalists at the time, though some of them played it up for laughs."
+        }
+      ],
+      "hook": "Abdelhafid has won the throne by promising holy war on the Europeans. Now he has to deal with them, and pay their bills.",
+      "images": [
+        {
+          "file": "File:Sultan Abd el-Aziz Le Petit Journal.jpg",
+          "url": "https://upload.wikimedia.org/wikipedia/commons/0/01/Sultan_Abd_el-Aziz_Le_Petit_Journal.jpg",
+          "page": "https://commons.wikimedia.org/wiki/File:Sultan_Abd_el-Aziz_Le_Petit_Journal.jpg",
+          "credit": "Le Petit Journal",
+          "license": "Public domain",
+          "made": "1907",
+          "caption": "From the French illustrated paper Le Petit Journal, August 1907, a year before he lost his throne.",
+          "alt": "Newspaper illustration of Sultan Abdelaziz"
+        }
+      ],
+      "sources": [
+        {
+          "title": "Prelude to Protectorate in Morocco: Pre-Colonial Protest and Resistance, 1860–1912",
+          "author": "Edmund Burke III",
+          "note": "University of Chicago Press, 1976"
+        },
+        {
+          "title": "Morocco since 1830: A History",
+          "author": "C. R. Pennell",
+          "note": "Hurst, 2000"
+        },
+        {
+          "title": "A History of Modern Morocco",
+          "author": "Susan Gilson Miller",
+          "note": "Cambridge University Press, 2013"
+        },
+        {
+          "title": "The Conquest of Morocco",
+          "author": "Douglas Porch",
+          "note": "Knopf, 1983"
+        }
+      ],
+      "review": {
+        "status": "draft",
+        "notes": "Drafted from the listed sources; needs a human fact-check."
+      }
+    },
+    {
+      "id": "abdelhafid",
+      "kind": "monarch",
+      "rulers": [
+        "abdelhafid"
+      ],
+      "tagline": "The holy warrior who signed Morocco away",
+      "start": {
+        "date": "1908-08-21"
+      },
+      "end": {
+        "date": "1912-08-13"
+      },
+      "contestedWith": [],
+      "relationToPredecessor": "Elder half-brother of Abdelaziz",
+      "ageAtAccession": "About 28 to 33",
+      "cameToPower": "Won a civil war against his brother",
+      "reignEnded": "Abdicated under French pressure",
+      "previously": "Abdelaziz's army collapses near Marrakesh, and he gives up the throne.",
+      "paragraphs": [
+        "Abdelhafid was everything his brother wasn't: a scholar, a poet and a tough governor of Marrakesh. The great lords of the south, led by the Glaoui family, backed him, and he took the throne promising to throw out the Europeans and tear up their treaties. Once in power, he found he couldn't. The powers would only recognise him if he accepted Algeciras and his brother's debts. He gave in.",
+        "His rule turned harsh. Rivals and critics were tortured or killed. In 1911 rebel tribes besieged him in Fez and he begged France for help. French troops marched in. Germany sent a gunboat to Agadir in protest, and a deal between the two powers left France free to take Morocco.",
+        "On 30 March 1912 Abdelhafid signed the Treaty of Fez. Morocco became a French protectorate, Spain got a zone in the north, and Tangier later became an international zone. Weeks later Moroccan troops in Fez mutinied and killed their French officers, and the city rioted. In August Abdelhafid abdicated and sailed for France. He died near Paris in 1937."
+      ],
+      "claims": [
+        {
+          "text": "Abdelhafid had the captured rebel Bu Hmara thrown to his lions.",
+          "status": "disputed",
+          "note": "Reported by Europeans in Fez in 1909. Versions differ on what the lions did and on how Bu Hmara finally died."
+        },
+        {
+          "text": "The Treaty of Fez made Morocco a French protectorate.",
+          "status": "confirmed",
+          "note": "Signed on 30 March 1912; a Franco-Spanish treaty that November set out Spain's zone."
+        },
+        {
+          "text": "He was paid a large pension to step down.",
+          "status": "confirmed",
+          "note": "He bargained hard with the French over the terms, which later Moroccan nationalists held against him."
+        }
+      ],
+      "hook": "The French need a sultan who won't make trouble. They pick Abdelhafid's quiet half-brother Yusef.",
+      "images": [
+        {
+          "file": "File:السلطان عبد الحفيظ.jpg",
+          "url": "https://upload.wikimedia.org/wikipedia/commons/7/71/%D8%A7%D9%84%D8%B3%D9%84%D8%B7%D8%A7%D9%86_%D8%B9%D8%A8%D8%AF_%D8%A7%D9%84%D8%AD%D9%81%D9%8A%D8%B8.jpg",
+          "page": "https://commons.wikimedia.org/wiki/File:%D8%A7%D9%84%D8%B3%D9%84%D8%B7%D8%A7%D9%86_%D8%B9%D8%A8%D8%AF_%D8%A7%D9%84%D8%AD%D9%81%D9%8A%D8%B8.jpg",
+          "credit": "J. Giry, Vichy",
+          "license": "Public domain",
+          "made": "1913",
+          "caption": "Taken by a studio in Vichy, France, in 1913, a few months after he gave up the throne.",
+          "alt": "Photograph of the former sultan Abdelhafid"
+        }
+      ],
+      "sources": [
+        {
+          "title": "Prelude to Protectorate in Morocco: Pre-Colonial Protest and Resistance, 1860–1912",
+          "author": "Edmund Burke III",
+          "note": "University of Chicago Press, 1976"
+        },
+        {
+          "title": "Morocco since 1830: A History",
+          "author": "C. R. Pennell",
+          "note": "Hurst, 2000"
+        },
+        {
+          "title": "The Conquest of Morocco",
+          "author": "Douglas Porch",
+          "note": "Knopf, 1983"
+        }
+      ],
+      "review": {
+        "status": "draft",
+        "notes": "Drafted from the listed sources; needs a human fact-check."
+      }
+    },
+    {
+      "id": "yusef",
+      "kind": "monarch",
+      "rulers": [
+        "yusef"
+      ],
+      "tagline": "The sultan who reigned while Lyautey ruled",
+      "start": {
+        "date": "1912-08-13"
+      },
+      "end": {
+        "date": "1927-11-17"
+      },
+      "contestedWith": [],
+      "relationToPredecessor": "Half-brother of Abdelhafid",
+      "ageAtAccession": "About 30",
+      "cameToPower": "Chosen by the French",
+      "reignEnded": "Died suddenly in Fez",
+      "previously": "Abdelhafid signs Morocco over to France, then abdicates.",
+      "paragraphs": [
+        "Yusef was a quiet man with no public profile, and that was the point. Real power lay with the French resident-general, Hubert Lyautey. Lyautey loved the old Morocco and kept up its ceremony: the sultan prayed, presided and signed decrees. Beside the old medinas the French built new European towns with wide boulevards, and Rabat became the capital.",
+        "In the Spanish zone, a Rif judge and journalist named Abd el-Krim led the mountain tribes in revolt. At Annual in July 1921 his men wiped out a Spanish army; the Spanish dead are put at anywhere from about 8,000 to over 10,000. He declared a Republic of the Rif. In 1925 he struck into the French zone, and France and Spain hit back together, with Marshal Pétain leading the French. Abd el-Krim surrendered in 1926.",
+        "Yusef died suddenly in Fez in November 1927. He had older sons, but the French had their own ideas about who would make a good sultan."
+      ],
+      "claims": [
+        {
+          "text": "Lyautey ran Morocco while the sultan reigned in name.",
+          "status": "confirmed",
+          "note": "Under the protectorate the resident-general held real authority; historians agree Yusef had little say in policy."
+        },
+        {
+          "text": "More than 10,000 Spanish soldiers died at Annual.",
+          "status": "disputed",
+          "note": "Estimates run from about 8,000 to over 10,000, depending on how the whole retreat is counted."
+        }
+      ],
+      "hook": "The French pass over Yusef's older sons and choose the youngest, Mohammed, aged 18. They think he will be easy to handle.",
+      "images": [
+        {
+          "file": "File:24-7-26, Sa Majesté le sultan Moulai Youssef - btv1b53166526t (cropped).jpg",
+          "url": "https://upload.wikimedia.org/wikipedia/commons/5/53/24-7-26%2C_Sa_Majest%C3%A9_le_sultan_Moulai_Youssef_-_btv1b53166526t_%28cropped%29.jpg",
+          "page": "https://commons.wikimedia.org/wiki/File:24-7-26,_Sa_Majest%C3%A9_le_sultan_Moulai_Youssef_-_btv1b53166526t_(cropped).jpg",
+          "credit": "Agence Rol",
+          "license": "Public domain",
+          "made": "1926",
+          "caption": "Press photograph taken in Paris in July 1926, the year before he died; now in the Bibliothèque nationale de France.",
+          "alt": "Press photograph of Sultan Yusef, cropped"
+        }
+      ],
+      "sources": [
+        {
+          "title": "Morocco since 1830: A History",
+          "author": "C. R. Pennell",
+          "note": "Hurst, 2000"
+        },
+        {
+          "title": "Lyautey and the French Conquest of Morocco",
+          "author": "William A. Hoisington Jr.",
+          "note": "St. Martin's Press, 1995"
+        },
+        {
+          "title": "A Country with a Government and a Flag: The Rif War in Morocco, 1921–1926",
+          "author": "C. R. Pennell",
+          "note": "Menas Press, 1986"
+        }
+      ],
+      "review": {
+        "status": "draft",
+        "notes": "Drafted from the listed sources; needs a human fact-check."
+      }
+    },
+    {
+      "id": "mohammed-v",
+      "kind": "monarch",
+      "rulers": [
+        "mohammed-v"
+      ],
+      "tagline": "The shy teenager who became the face of independence",
+      "start": {
+        "date": "1927-11-17"
+      },
+      "end": {
+        "date": "1961-02-26"
+      },
+      "contestedWith": [
+        "ben-arafa"
+      ],
+      "relationToPredecessor": "Youngest son of Yusef",
+      "ageAtAccession": "18",
+      "cameToPower": "Picked by the French",
+      "reignEnded": "Died after minor surgery",
+      "previously": "Sultan Yusef dies, and the French choose his youngest son.",
+      "paragraphs": [
+        "The French chose Mohammed because he was young and shy. In 1930 he signed the 'Berber dahir', which moved Berber areas out from under Islamic law and into customary courts. Young Moroccans saw a plot to split Arabs from Berbers, and protests filled the mosques. A nationalist movement was born, and slowly the sultan drifted towards it.",
+        "In the Second World War, Vichy France ran Morocco until the Allies landed in November 1942. In January 1943 Roosevelt dined with the sultan at the Anfa conference in Casablanca. In 1944 the Istiqlal (Independence) Party demanded freedom outright, and in a speech at Tangier in 1947 the sultan backed it. On 20 August 1953 France deposed him and sent him into exile, first to Corsica, then to Madagascar.",
+        "Morocco erupted in bombings, riots and armed revolt, and France gave way. On 16 November 1955 he came home to vast, cheering crowds. France recognised independence on 2 March 1956, and Spain gave up its northern zone that April. In 1957 he took the title of king. In February 1961, aged 51, he died after a minor operation, and his son Hassan took over."
+      ],
+      "claims": [
+        {
+          "text": "Mohammed V shielded Morocco's Jews from Vichy's anti-Jewish laws.",
+          "status": "disputed",
+          "note": "He is widely honoured for it and resisted some measures, but Vichy decrees were partly applied in Morocco under his seal. Historians argue over how much he could and did do."
+        },
+        {
+          "text": "The French picked him at 18 because they thought he would be docile.",
+          "status": "disputed",
+          "note": "The usual account, drawn from how the choice looked at the time; the French officials' own reasoning is less clearly recorded."
+        },
+        {
+          "text": "He met President Roosevelt at the Anfa conference in January 1943.",
+          "status": "confirmed",
+          "note": "Recorded by American and Moroccan witnesses, including his son Hassan, who was there."
+        }
+      ],
+      "hook": "Hassan, 31, has long been the power behind his father's throne. Now it's his.",
+      "images": [
+        {
+          "file": "File:Mohammed V (1953).jpg",
+          "url": "https://upload.wikimedia.org/wikipedia/commons/9/92/Mohammed_V_%281953%29.jpg",
+          "page": "https://commons.wikimedia.org/wiki/File:Mohammed_V_(1953).jpg",
+          "credit": "Unknown photographer, Anefo",
+          "license": "CC0",
+          "made": "1953",
+          "caption": "Dutch press agency photograph dated 18 August 1953, two days before the French sent him into exile.",
+          "alt": "Press photograph of Sultan Mohammed V"
+        }
+      ],
+      "sources": [
+        {
+          "title": "Morocco since 1830: A History",
+          "author": "C. R. Pennell",
+          "note": "Hurst, 2000"
+        },
+        {
+          "title": "A History of Modern Morocco",
+          "author": "Susan Gilson Miller",
+          "note": "Cambridge University Press, 2013"
+        },
+        {
+          "title": "Morocco: From Empire to Independence",
+          "author": "C. R. Pennell",
+          "note": "Oneworld, 2003"
+        },
+        {
+          "title": "Le Maroc face aux impérialismes, 1415–1956",
+          "author": "Charles-André Julien",
+          "note": "Éditions Jeune Afrique, 1978"
+        }
+      ],
+      "review": {
+        "status": "draft",
+        "notes": "Drafted from the listed sources; needs a human fact-check."
+      }
+    },
+    {
+      "id": "ben-arafa",
+      "kind": "claimant",
+      "rulers": [
+        "ben-arafa"
+      ],
+      "tagline": "The sultan France made and Morocco never accepted",
+      "start": {
+        "date": "1953-08-21"
+      },
+      "end": {
+        "date": "1955-10-01"
+      },
+      "contestedWith": [
+        "mohammed-v"
+      ],
+      "relationToPredecessor": "Elderly cousin of Mohammed V",
+      "ageAtAccession": "About 67",
+      "cameToPower": "Installed by the French and El Glaoui",
+      "reignEnded": "Left for Tangier and abdicated",
+      "previously": "August 1953: France deposes Mohammed V and sends him into exile.",
+      "paragraphs": [
+        "Mohammed Ben Aarafa was a quiet, elderly member of the royal family, a grandson of Sultan Mohammed IV, with no following of his own. That suited the French. On 21 August 1953, the day after they exiled Mohammed V, they put him on the throne, cheered on by Thami El Glaoui, the mighty pasha of Marrakesh. Most Moroccans refused to accept him, and the Spanish zone ignored him altogether.",
+        "On 11 September 1953, less than a month in, a nationalist named Allal ben Abdallah attacked him with a knife in Rabat and was shot dead. Bombings and riots spread, and armed bands took to the hills. By 1955 even the Glaoui had turned against him. On 1 October 1955 Ben Aarafa left for Tangier, and his abdication followed that month. He spent the rest of his life abroad and died in Nice in 1976."
+      ],
+      "claims": [
+        {
+          "text": "Allal ben Abdallah attacked Ben Aarafa with a knife and was shot dead.",
+          "status": "confirmed",
+          "note": "Reported at the time and remembered in Morocco, where Allal ben Abdallah is honoured as a martyr of independence."
+        },
+        {
+          "text": "The Moroccan state does not count Ben Aarafa as a sultan.",
+          "status": "confirmed",
+          "note": "Official lists of the dynasty leave him out, and his reign was never recognised in the Spanish zone."
+        }
+      ],
+      "hook": "Back to the main story: in November 1955 the exiled sultan Mohammed V flies home to a hero's welcome.",
+      "images": [
+        {
+          "file": "File:Mohammed Ben Aarafa.jpg",
+          "url": "https://upload.wikimedia.org/wikipedia/commons/0/0c/Mohammed_Ben_Aarafa.jpg",
+          "page": "https://commons.wikimedia.org/wiki/File:Mohammed_Ben_Aarafa.jpg",
+          "credit": "Unknown author",
+          "license": "CC BY-SA 3.0 pl",
+          "made": "1950s",
+          "caption": "Photograph from the 1950s, held in a Polish university's digital archive.",
+          "alt": "Photograph of Mohammed Ben Aarafa"
+        }
+      ],
+      "sources": [
+        {
+          "title": "Le Maroc face aux impérialismes, 1415–1956",
+          "author": "Charles-André Julien",
+          "note": "Éditions Jeune Afrique, 1978; chapter on Ben Aarafa"
+        },
+        {
+          "title": "Lords of the Atlas",
+          "author": "Gavin Maxwell",
+          "note": "Longmans, 1966; on El Glaoui"
+        },
+        {
+          "title": "Morocco since 1830: A History",
+          "author": "C. R. Pennell",
+          "note": "Hurst, 2000"
+        }
+      ],
+      "review": {
+        "status": "draft",
+        "notes": "Drafted from the listed sources; needs a human fact-check."
+      }
+    },
+    {
+      "id": "hassan-ii",
+      "kind": "monarch",
+      "rulers": [
+        "hassan-ii"
+      ],
+      "tagline": "The survivor king of the Years of Lead",
+      "start": {
+        "date": "1961-02-26"
+      },
+      "end": {
+        "date": "1999-07-23"
+      },
+      "contestedWith": [],
+      "relationToPredecessor": "Eldest son of Mohammed V",
+      "ageAtAccession": "31",
+      "cameToPower": "Succeeded his father",
+      "reignEnded": "Died in Rabat",
+      "previously": "Mohammed V dies after minor surgery; his son Hassan takes over.",
+      "paragraphs": [
+        "Hassan was clever, charming and hard. He gave Morocco its first constitution in 1962 but kept the real power. In 1965 riots in Casablanca were crushed and he declared a state of emergency that lasted until 1970. That October his fiercest critic, the opposition leader Mehdi Ben Barka, was seized on a Paris street and never seen again. Then the army turned on him, twice.",
+        "On 10 July 1971, at his birthday party at the Skhirat palace, mutinous cadets burst in shooting; estimates of the dead run from about 100 to several hundred. On 16 August 1972 air force jets fired on his airliner as he flew home from Europe. It landed safely. His defence minister, General Mohamed Oufkir, was blamed and died that night. Oufkir's wife and six children were then held in secret prisons for about 15 years.",
+        "The Years of Lead followed: arrests, torture, disappearances and secret jails such as Tazmamart, where many of the coup soldiers died. In 1975 Hassan launched the Green March, sending about 350,000 unarmed Moroccans into Spanish Sahara. War with the Polisario Front followed until a UN ceasefire in 1991. He eased his grip in the 1990s, and in 1998 an opposition leader became prime minister."
+      ],
+      "claims": [
+        {
+          "text": "Hassan saved himself in 1972 by grabbing the radio and posing as a mechanic who said the king was badly hurt.",
+          "status": "disputed",
+          "note": "Widely told, and it comes from the king's own circle. Other versions give him different words, and the pilots' side of it is unclear."
+        },
+        {
+          "text": "General Oufkir shot himself after the 1972 plot failed.",
+          "status": "disputed",
+          "note": "Suicide was the official verdict, but he was found with several bullet wounds, and his family says he was executed."
+        },
+        {
+          "text": "Hassan's state ran secret prisons where prisoners were tortured and many died.",
+          "status": "confirmed",
+          "note": "Told by survivors and human rights groups, and acknowledged by Morocco's own Equity and Reconciliation Commission in 2005."
+        }
+      ],
+      "hook": "Hassan dies in July 1999 after 38 years on the throne. His son Mohammed, 35, inherits the crown and a country hoping for change.",
+      "images": [
+        {
+          "file": "File:Hassan II (1983).jpg",
+          "url": "https://upload.wikimedia.org/wikipedia/commons/7/7a/Hassan_II_%281983%29.jpg",
+          "page": "https://commons.wikimedia.org/wiki/File:Hassan_II_(1983).jpg",
+          "credit": "Christian Lambiotte",
+          "license": "CC BY 4.0",
+          "made": "1983",
+          "caption": "Photographed on 19 October 1983, when Gaston Thorn, president of the European Commission, received him.",
+          "alt": "Photograph of King Hassan II in 1983"
+        }
+      ],
+      "sources": [
+        {
+          "title": "A History of Modern Morocco",
+          "author": "Susan Gilson Miller",
+          "note": "Cambridge University Press, 2013"
+        },
+        {
+          "title": "Morocco since 1830: A History",
+          "author": "C. R. Pennell",
+          "note": "Hurst, 2000"
+        },
+        {
+          "title": "Notre ami le roi",
+          "author": "Gilles Perrault",
+          "note": "Gallimard, 1990; a sharply critical account of the repression"
+        },
+        {
+          "title": "Stolen Lives: Twenty Years in a Desert Jail",
+          "author": "Malika Oufkir and Michèle Fitoussi",
+          "note": "2001; memoir by Oufkir's eldest daughter"
+        }
+      ],
+      "review": {
+        "status": "draft",
+        "notes": "Drafted from the listed sources; needs a human fact-check."
+      }
+    },
+    {
+      "id": "mohammed-vi",
+      "kind": "monarch",
+      "rulers": [
+        "mohammed-vi"
+      ],
+      "tagline": "The latest king of a dynasty older than the United States",
+      "start": {
+        "date": "1999-07-23"
+      },
+      "contestedWith": [],
+      "relationToPredecessor": "Eldest son of Hassan II",
+      "ageAtAccession": "35",
+      "cameToPower": "Succeeded his father",
+      "reignEnded": "Still reigning",
+      "previously": "Hassan II dies after 38 years; his son Mohammed is king.",
+      "paragraphs": [
+        "Mohammed VI came to the throne at 35 and moved quickly to mark a change. He dismissed Driss Basri, his father's long-serving interior minister. In May 2003 suicide bombers struck Casablanca, killing more than 40 people. In 2004 a new family code, the Moudawana, raised the marriage age for women to 18 and gave wives more rights. A truth commission looked into the abuses of his father's reign and reported in 2005.",
+        "In 2011, as the Arab Spring swept the region, the 20 February movement marched for reform. The king offered a new constitution, approved by referendum that July, which gave the elected head of government more power and made Amazigh (Berber) an official language. Morocco rejoined the African Union in 2017, and in December 2020 the US recognised Moroccan sovereignty over Western Sahara as Morocco restored ties with Israel.",
+        "In September 2023 the Al Haouz earthquake killed nearly 3,000 people in the High Atlas. Morocco's footballers reached the 2022 World Cup semi-final, and the country will co-host the 2030 World Cup. After the September 2026 election he named Fatima Ezzahra El Mansouri the first woman head of government. The Alaouites have ruled since the 1660s, and the heir, Crown Prince Moulay Hassan, was born in 2003."
+      ],
+      "claims": [
+        {
+          "text": "The Equity and Reconciliation Commission was the Arab world's first truth commission.",
+          "status": "confirmed",
+          "note": "Set up in 2004 to examine abuses under Hassan II; its 2005 report acknowledged deaths and disappearances but named no perpetrators."
+        },
+        {
+          "text": "In December 2020 the US recognised Moroccan sovereignty over Western Sahara.",
+          "status": "confirmed",
+          "note": "Announced alongside Morocco's renewed ties with Israel. Morocco regards the territory as its southern provinces; the Polisario Front, backed by Algeria, rejects this and seeks independence; the UN lists it as non-self-governing."
+        },
+        {
+          "text": "The 2011 constitution made Amazigh an official language alongside Arabic.",
+          "status": "confirmed",
+          "note": "Approved by referendum on 1 July 2011."
+        }
+      ],
+      "images": [
+        {
+          "file": "File:Pedro Sánchez se reúne con el rey de Marruecos, Mohamed VI (1) (cropped).jpg",
+          "url": "https://upload.wikimedia.org/wikipedia/commons/7/7c/Pedro_S%C3%A1nchez_se_re%C3%BAne_con_el_rey_de_Marruecos%2C_Mohamed_VI_%281%29_%28cropped%29.jpg",
+          "page": "https://commons.wikimedia.org/wiki/File:Pedro_S%C3%A1nchez_se_re%C3%BAne_con_el_rey_de_Marruecos,_Mohamed_VI_(1)_(cropped).jpg",
+          "credit": "Pool Moncloa/Borja Puig de la Bellacasa",
+          "license": "Attribution",
+          "made": "2022",
+          "caption": "Photographed in April 2022 at a meeting with Spain's prime minister, Pedro Sánchez.",
+          "alt": "Photograph of King Mohammed VI, cropped from a 2022 meeting with Spain's prime minister"
+        }
+      ],
+      "sources": [
+        {
+          "title": "A History of Modern Morocco",
+          "author": "Susan Gilson Miller",
+          "note": "Cambridge University Press, 2013"
+        },
+        {
+          "title": "Final report of the Equity and Reconciliation Commission (Instance Équité et Réconciliation)",
+          "author": "Equity and Reconciliation Commission",
+          "note": "Rabat, 2005"
+        },
+        {
+          "title": "Mohammed VI",
+          "author": "Encyclopaedia Britannica",
+          "note": "Online biography"
+        }
+      ],
+      "review": {
+        "status": "draft",
+        "notes": "Drafted from the listed sources; needs a human fact-check."
+      }
+    }
+  ]
+}
