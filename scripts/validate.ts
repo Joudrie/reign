@@ -102,6 +102,11 @@ for (const name of readdirSync(dataDir).filter((f) => f.endsWith(".json"))) {
     const where = g.id;
     if (g.kind !== "interregnum" && g.rulers.length === 0) err(where, `kind "${g.kind}" with no rulers`);
     if (g.rulers.length === 0 && !g.house) err(where, "a reign with no rulers needs a house (for its colour)");
+    // No hand-waving: a card with no single ruler names everyone who held power, and stats are specific.
+    const strict = process.env.STRICT_GROUPS === "1" ? err : warn;
+    if (g.rulers.length === 0 && !(g.members && g.members.length)) strict(where, "card with no ruler must list its members by name");
+    if (g.rulers.length > 2) strict(where, "more than two rulers on one card: give each their own card");
+    if (/\bvarious\b/i.test(`${g.ageAtAccession} ${g.relationToPredecessor} ${g.cameToPower} ${g.reignEnded}`)) strict(where, 'vague stat ("various")');
     if (g.house && !houses.has(g.house)) err(where, `unknown house "${g.house}"`);
     if ((g.rulers.length !== 1 || g.kind === "interregnum") && !g.title)
       err(where, "co-reigns and interregnums need a title");

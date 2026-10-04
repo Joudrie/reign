@@ -117,6 +117,17 @@ export const Reign = z.object({
   house: slug.optional(),
   /** Card title; defaults to the ruler's name. Needed for interregnums / co-reigns. */
   title: z.string().optional(),
+  /** For a card with no single ruler (an interregnum, foreign rule): every person who held power in it, by name. */
+  members: z
+    .array(
+      z.object({
+        name: z.string().min(1).max(60),
+        start: HistoricDate.optional(),
+        end: HistoricDate.optional(),
+        note: z.string().max(120).optional(),
+      }),
+    )
+    .optional(),
   /** One short line under the name. */
   tagline: z.string().min(1).max(60),
   start: HistoricDate,
