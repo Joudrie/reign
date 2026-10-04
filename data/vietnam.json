@@ -1,0 +1,3133 @@
+{
+  "id": "vietnam",
+  "name": "Vietnam",
+  "blurb": "From the stakes of Bạch Đằng to the last Nguyễn emperor",
+  "dateConvention": "Vietnam kept a Chinese-style lunar calendar; dates are the Western equivalents standard references give (Julian before 1582, Gregorian after), and early dates are often known only to the year. Some cards group several short or shadowy reigns, and some overlap where rival courts ruled at once.",
+  "epilogue": "Citizen Vĩnh Thụy returned in 1949 as French-backed head of the State of Vietnam, until Ngô Đình Diệm ousted him in a 1955 referendum and proclaimed a republic. He died in Paris in 1997.",
+  "houses": [
+    {
+      "id": "ngo",
+      "name": "Ngô",
+      "color": "#7a2e2e"
+    },
+    {
+      "id": "dinh",
+      "name": "Đinh",
+      "color": "#a0522d"
+    },
+    {
+      "id": "early-le",
+      "name": "Early Lê",
+      "color": "#6b4a8a"
+    },
+    {
+      "id": "ly",
+      "name": "Lý",
+      "color": "#2f5d8a"
+    },
+    {
+      "id": "tran",
+      "name": "Trần",
+      "color": "#3f6b4f"
+    },
+    {
+      "id": "ho",
+      "name": "Hồ",
+      "color": "#8a6d1f"
+    },
+    {
+      "id": "ming",
+      "name": "Ming occupation",
+      "color": "#8d8780",
+      "plain": true
+    },
+    {
+      "id": "later-le",
+      "name": "Later Lê",
+      "color": "#9e1b32"
+    },
+    {
+      "id": "mac",
+      "name": "Mạc",
+      "color": "#4f5d6e"
+    },
+    {
+      "id": "tay-son",
+      "name": "Tây Sơn",
+      "color": "#2e6f73"
+    },
+    {
+      "id": "nguyen",
+      "name": "Nguyễn",
+      "color": "#b8860b"
+    }
+  ],
+  "rulers": [
+    {
+      "id": "ngo-quyen",
+      "name": "Ngô Quyền",
+      "house": "ngo",
+      "born": {
+        "date": "0898",
+        "note": "Đường Lâm, west of today's Hanoi (by tradition)"
+      },
+      "died": {
+        "date": "0944"
+      },
+      "causeOfDeath": "Not recorded"
+    },
+    {
+      "id": "dinh-bo-linh",
+      "name": "Đinh Bộ Lĩnh",
+      "house": "dinh",
+      "born": {
+        "date": "0924",
+        "note": "Near Hoa Lư"
+      },
+      "died": {
+        "date": "0979",
+        "note": "Hoa Lư"
+      },
+      "causeOfDeath": "Assassinated by the official Đỗ Thích"
+    },
+    {
+      "id": "le-hoan",
+      "name": "Lê Hoàn",
+      "house": "early-le",
+      "born": {
+        "date": "0941"
+      },
+      "died": {
+        "date": "1005",
+        "note": "Hoa Lư"
+      },
+      "causeOfDeath": "Natural causes"
+    },
+    {
+      "id": "le-long-dinh",
+      "name": "Lê Long Đĩnh",
+      "house": "early-le",
+      "born": {
+        "date": "0986"
+      },
+      "died": {
+        "date": "1009-11-19",
+        "note": "Hoa Lư"
+      },
+      "causeOfDeath": "Illness"
+    },
+    {
+      "id": "ly-thai-to",
+      "name": "Lý Thái Tổ",
+      "house": "ly",
+      "born": {
+        "date": "0974",
+        "note": "Cổ Pháp, Bắc Ninh"
+      },
+      "died": {
+        "date": "1028-03-31",
+        "note": "Thăng Long"
+      },
+      "causeOfDeath": "Natural causes"
+    },
+    {
+      "id": "ly-thai-tong",
+      "name": "Lý Thái Tông",
+      "house": "ly",
+      "born": {
+        "date": "1000-07-29"
+      },
+      "died": {
+        "date": "1054-11-03",
+        "note": "Thăng Long"
+      },
+      "causeOfDeath": "Natural causes"
+    },
+    {
+      "id": "ly-thanh-tong",
+      "name": "Lý Thánh Tông",
+      "house": "ly",
+      "born": {
+        "date": "1023-03-19"
+      },
+      "died": {
+        "date": "1072-02-01",
+        "note": "Thăng Long"
+      },
+      "causeOfDeath": "Natural causes"
+    },
+    {
+      "id": "ly-nhan-tong",
+      "name": "Lý Nhân Tông",
+      "house": "ly",
+      "born": {
+        "date": "1066-02-22"
+      },
+      "died": {
+        "date": "1128-01-15",
+        "note": "Thăng Long"
+      },
+      "causeOfDeath": "Natural causes"
+    },
+    {
+      "id": "ly-chieu-hoang",
+      "name": "Lý Chiêu Hoàng",
+      "house": "ly",
+      "born": {
+        "date": "1218"
+      },
+      "died": {
+        "date": "1278"
+      },
+      "causeOfDeath": "Natural causes"
+    },
+    {
+      "id": "tran-thai-tong",
+      "name": "Trần Thái Tông",
+      "house": "tran",
+      "born": {
+        "date": "1218"
+      },
+      "died": {
+        "date": "1277"
+      },
+      "causeOfDeath": "Died in retirement"
+    },
+    {
+      "id": "tran-thanh-tong",
+      "name": "Trần Thánh Tông",
+      "house": "tran",
+      "born": {
+        "date": "1240"
+      },
+      "died": {
+        "date": "1290"
+      },
+      "causeOfDeath": "Died in retirement"
+    },
+    {
+      "id": "tran-nhan-tong",
+      "name": "Trần Nhân Tông",
+      "house": "tran",
+      "born": {
+        "date": "1258"
+      },
+      "died": {
+        "date": "1308",
+        "note": "Yên Tử mountain"
+      },
+      "causeOfDeath": "Died as a monk"
+    },
+    {
+      "id": "ho-quy-ly",
+      "name": "Hồ Quý Ly",
+      "house": "ho",
+      "born": {
+        "date": "1336",
+        "circa": true
+      },
+      "died": {
+        "date": "1407",
+        "circa": true,
+        "note": "In Ming captivity in China; date uncertain"
+      },
+      "causeOfDeath": "Unknown, in Ming captivity"
+    },
+    {
+      "id": "le-loi",
+      "name": "Lê Lợi",
+      "house": "later-le",
+      "born": {
+        "date": "1385",
+        "note": "Lam Sơn, Thanh Hóa"
+      },
+      "died": {
+        "date": "1433-10-05"
+      },
+      "causeOfDeath": "Illness"
+    },
+    {
+      "id": "le-thanh-tong",
+      "name": "Lê Thánh Tông",
+      "house": "later-le",
+      "born": {
+        "date": "1442"
+      },
+      "died": {
+        "date": "1497-03-03"
+      },
+      "causeOfDeath": "Illness"
+    },
+    {
+      "id": "mac-dang-dung",
+      "name": "Mạc Đăng Dung",
+      "house": "mac",
+      "born": {
+        "date": "1483"
+      },
+      "died": {
+        "date": "1541"
+      },
+      "causeOfDeath": "Natural causes"
+    },
+    {
+      "id": "quang-trung",
+      "name": "Quang Trung",
+      "house": "tay-son",
+      "born": {
+        "date": "1753"
+      },
+      "died": {
+        "date": "1792-09-16",
+        "note": "Phú Xuân (Huế)"
+      },
+      "causeOfDeath": "Sudden illness"
+    },
+    {
+      "id": "gia-long",
+      "name": "Gia Long",
+      "house": "nguyen",
+      "born": {
+        "date": "1762-02-08",
+        "note": "Phú Xuân (Huế)"
+      },
+      "died": {
+        "date": "1820-02-03",
+        "note": "Huế"
+      },
+      "causeOfDeath": "Illness"
+    },
+    {
+      "id": "minh-mang",
+      "name": "Minh Mạng",
+      "house": "nguyen",
+      "born": {
+        "date": "1791-05-25",
+        "note": "Gia Định (Saigon)"
+      },
+      "died": {
+        "date": "1841-01-20",
+        "note": "Huế"
+      }
+    },
+    {
+      "id": "thieu-tri",
+      "name": "Thiệu Trị",
+      "house": "nguyen",
+      "born": {
+        "date": "1807-06-16",
+        "note": "Huế"
+      },
+      "died": {
+        "date": "1847-11-04",
+        "note": "Huế"
+      },
+      "causeOfDeath": "Illness"
+    },
+    {
+      "id": "tu-duc",
+      "name": "Tự Đức",
+      "house": "nguyen",
+      "born": {
+        "date": "1829-09-22",
+        "note": "Huế"
+      },
+      "died": {
+        "date": "1883-07-19",
+        "note": "Huế"
+      },
+      "causeOfDeath": "Illness"
+    },
+    {
+      "id": "ham-nghi",
+      "name": "Hàm Nghi",
+      "house": "nguyen",
+      "born": {
+        "date": "1871-08-03",
+        "note": "Huế"
+      },
+      "died": {
+        "date": "1944-01-14",
+        "note": "Algiers, in exile"
+      },
+      "causeOfDeath": "Illness"
+    },
+    {
+      "id": "dong-khanh",
+      "name": "Đồng Khánh",
+      "house": "nguyen",
+      "born": {
+        "date": "1864-02-19",
+        "note": "Huế"
+      },
+      "died": {
+        "date": "1889-01-28",
+        "note": "Huế"
+      },
+      "causeOfDeath": "Illness"
+    },
+    {
+      "id": "thanh-thai",
+      "name": "Thành Thái",
+      "house": "nguyen",
+      "born": {
+        "date": "1879-03-14",
+        "note": "Huế"
+      },
+      "died": {
+        "date": "1954-03-20",
+        "note": "Saigon"
+      },
+      "causeOfDeath": "Natural causes, aged 74"
+    },
+    {
+      "id": "duy-tan",
+      "name": "Duy Tân",
+      "house": "nguyen",
+      "born": {
+        "date": "1900-09-19",
+        "note": "Huế"
+      },
+      "died": {
+        "date": "1945-12-26",
+        "note": "Plane crash in Ubangi-Shari, now the Central African Republic"
+      },
+      "causeOfDeath": "Plane crash"
+    },
+    {
+      "id": "khai-dinh",
+      "name": "Khải Định",
+      "house": "nguyen",
+      "born": {
+        "date": "1885-10-08",
+        "note": "Huế"
+      },
+      "died": {
+        "date": "1925-11-06",
+        "note": "Huế"
+      },
+      "causeOfDeath": "Illness"
+    },
+    {
+      "id": "bao-dai",
+      "name": "Bảo Đại",
+      "house": "nguyen",
+      "born": {
+        "date": "1913-10-22",
+        "note": "Huế"
+      },
+      "died": {
+        "date": "1997-07-31",
+        "note": "Paris"
+      },
+      "causeOfDeath": "Illness, aged 83"
+    }
+  ],
+  "reigns": [
+    {
+      "id": "ngo-quyen",
+      "kind": "monarch",
+      "rulers": [
+        "ngo-quyen"
+      ],
+      "tagline": "The man who sank a fleet with sticks in the mud",
+      "start": {
+        "date": "0939"
+      },
+      "end": {
+        "date": "0944"
+      },
+      "contestedWith": [],
+      "relationToPredecessor": "Son-in-law of Dương Đình Nghệ",
+      "ageAtAccession": "About 41",
+      "cameToPower": "Won the Battle of Bạch Đằng",
+      "reignEnded": "Died; his brother-in-law took over",
+      "previously": "A thousand years of rule from China. Now the Tang dynasty has fallen.",
+      "paragraphs": [
+        "Since 111 BC the Red River delta had been ruled from China. There were risings, most famously the Trưng sisters' in AD 40, but none of them lasted. Then the Tang dynasty fell apart and local strongmen took charge. One of them, Dương Đình Nghệ, was murdered in 937 by his own officer, Kiều Công Tiễn. Nghệ's son-in-law, a tough commander named Ngô Quyền, came looking for revenge.",
+        "Tiễn begged the Southern Han, a new kingdom in south China, to send help. Ngô Quyền killed him before it came, then waited for the Han fleet at the mouth of the Bạch Đằng River. His men drove iron-tipped stakes into the riverbed. At high tide he lured the ships upstream, then hit back as the water fell. The fleet was ripped open on the stakes, and the Han prince Liu Hongcao died with it.",
+        "In 939 Ngô Quyền declared himself king and set up his court at Cổ Loa, an ancient citadel near today's Hanoi. He had only five years. He died in 944, aged about 46, and his brother-in-law Dương Tam Kha pushed the young sons aside and seized the throne."
+      ],
+      "claims": [
+        {
+          "text": "Ngô Quyền's men planted iron-tipped stakes in the Bạch Đằng riverbed to wreck the Han fleet.",
+          "status": "confirmed",
+          "note": "Told in the Vietnamese annals. The stakes dug out of the river so far are dated to the 1288 battle, which copied the trick."
+        },
+        {
+          "text": "The Southern Han prince Liu Hongcao was killed in the battle.",
+          "status": "confirmed",
+          "note": "Chinese histories of the Southern Han record his death as well as the Vietnamese annals."
+        }
+      ],
+      "hook": "Without Ngô Quyền the new kingdom comes apart. Usurpers and restored heirs fight over it, then a dozen warlords carve it up. A buffalo boy from Hoa Lư is about to make his name.",
+      "images": [
+        {
+          "file": "File:Lăng Ngô Quyền.jpg",
+          "url": "https://upload.wikimedia.org/wikipedia/commons/2/23/L%C4%83ng_Ng%C3%B4_Quy%E1%BB%81n.jpg",
+          "page": "https://commons.wikimedia.org/wiki/File:L%C4%83ng_Ng%C3%B4_Quy%E1%BB%81n.jpg",
+          "credit": "Bùi Thụy Đào Nguyên",
+          "license": "CC BY-SA 3.0",
+          "made": "2013",
+          "caption": "No portrait of Ngô Quyền survives; this is his tomb at Đường Lâm, west of Hanoi, photographed in 2013.",
+          "alt": "The tomb of Ngô Quyền in the old village of Đường Lâm, Sơn Tây"
+        }
+      ],
+      "sources": [
+        {
+          "title": "The Birth of Vietnam",
+          "author": "Keith W. Taylor",
+          "note": "University of California Press, 1983"
+        },
+        {
+          "title": "Đại Việt sử ký toàn thư (Complete Annals of Đại Việt)",
+          "author": "Ngô Sĩ Liên and later court historians",
+          "note": "Completed 1479, expanded 1697"
+        },
+        {
+          "title": "Việt Nam: A History from Earliest Times to the Present",
+          "author": "Ben Kiernan",
+          "note": "Oxford University Press, 2017"
+        }
+      ],
+      "review": {
+        "status": "draft",
+        "notes": "Drafted from the listed sources; needs a human fact-check."
+      }
+    },
+    {
+      "id": "dinh-bo-linh",
+      "kind": "monarch",
+      "rulers": [
+        "dinh-bo-linh"
+      ],
+      "tagline": "The buffalo boy who beat twelve warlords",
+      "start": {
+        "date": "0968"
+      },
+      "end": {
+        "date": "0979"
+      },
+      "contestedWith": [],
+      "relationToPredecessor": "No relation; a rival warlord",
+      "ageAtAccession": "About 44",
+      "cameToPower": "Beat the twelve warlords",
+      "reignEnded": "Assassinated by an official",
+      "previously": "Ngô Quyền's line falls apart. Twelve warlords split the country.",
+      "paragraphs": [
+        "Legend says Đinh Bộ Lĩnh grew up herding buffalo near Hoa Lư and led the village boys in mock battles, with reeds for flags. Grown up, he did it for real. After Ngô Quyền's line lost its grip, twelve warlords had carved up the delta. Đinh Bộ Lĩnh beat them one by one, and people called him Vạn Thắng Vương, the king of ten thousand victories.",
+        "In 968 he went one better than Ngô Quyền and called himself emperor (hoàng đế). He named the country Đại Cồ Việt and made his capital at Hoa Lư, a fortress ringed by limestone crags. To keep China quiet he sent tribute to the new Song dynasty: emperor at home, king on paper abroad. He is remembered as Đinh Tiên Hoàng. Order came hard. The annals say he kept a cauldron of boiling oil and caged tigers at court for wrongdoers.",
+        "In 979 an official named Đỗ Thích murdered both the emperor and his eldest son, Đinh Liễn. The throne went to a little boy, Đinh Toàn, only five or six years old. The real power went to the commander of the army, Lê Hoàn."
+      ],
+      "claims": [
+        {
+          "text": "As a boy he led the village children in mock battles, using reeds as flags.",
+          "status": "legend",
+          "note": "A favourite story in the annals and local tradition, the kind told about founders after the fact."
+        },
+        {
+          "text": "He kept a cauldron of boiling oil and tigers in a cage to punish criminals.",
+          "status": "disputed",
+          "note": "Recorded in the Đại Việt sử ký toàn thư, written centuries later. Nobody knows if they were used or just a threat."
+        },
+        {
+          "text": "Đỗ Thích killed the emperor after dreaming that a star fell into his mouth.",
+          "status": "legend",
+          "note": "The annals give this dream as his motive. It explains a murder neatly, which is reason enough to doubt it."
+        }
+      ],
+      "hook": "A six-year-old sits on the throne and a soldier holds the power. In China, the Song think the moment has come to take the delta back.",
+      "images": [
+        {
+          "file": "File:Temple commémoratif au roi Dinh Tien Hoang (Hoa Lu).jpg",
+          "url": "https://upload.wikimedia.org/wikipedia/commons/b/be/Temple_comm%C3%A9moratif_au_roi_Dinh_Tien_Hoang_%28Hoa_Lu%29.jpg",
+          "page": "https://commons.wikimedia.org/wiki/File:Temple_comm%C3%A9moratif_au_roi_Dinh_Tien_Hoang_(Hoa_Lu).jpg",
+          "credit": "Jean-Pierre Dalbéra",
+          "license": "CC BY 2.0",
+          "made": "2010",
+          "caption": "No likeness of Đinh Bộ Lĩnh survives; this is the temple to him at his old capital, Hoa Lư, photographed in 2010.",
+          "alt": "The memorial temple to King Đinh Tiên Hoàng at Hoa Lư"
+        }
+      ],
+      "sources": [
+        {
+          "title": "The Birth of Vietnam",
+          "author": "Keith W. Taylor",
+          "note": "University of California Press, 1983"
+        },
+        {
+          "title": "Đại Việt sử ký toàn thư (Complete Annals of Đại Việt)",
+          "author": "Ngô Sĩ Liên and later court historians",
+          "note": "Completed 1479, expanded 1697"
+        },
+        {
+          "title": "Việt Nam: A History from Earliest Times to the Present",
+          "author": "Ben Kiernan",
+          "note": "Oxford University Press, 2017"
+        }
+      ],
+      "review": {
+        "status": "draft",
+        "notes": "Drafted from the listed sources; needs a human fact-check."
+      }
+    },
+    {
+      "id": "le-hoan",
+      "kind": "monarch",
+      "rulers": [
+        "le-hoan"
+      ],
+      "tagline": "The regent who took the robe and beat the Song",
+      "start": {
+        "date": "0980"
+      },
+      "end": {
+        "date": "1005"
+      },
+      "contestedWith": [],
+      "relationToPredecessor": "Regent for the boy emperor",
+      "ageAtAccession": "About 39",
+      "cameToPower": "Acclaimed by the army",
+      "reignEnded": "Died with no settled heir",
+      "previously": "Đinh Bộ Lĩnh is murdered. A small boy sits on his throne.",
+      "paragraphs": [
+        "With a child on the throne at Hoa Lư, the Song got ready to invade in 980. The generals didn't want a boy leading them to war, so the army acclaimed the regent, Lê Hoàn, as emperor. The annals stage a grand scene: the boy's mother, the dowager empress Dương Vân Nga, laid the dragon robe on Lê Hoàn's shoulders herself. She later became his empress.",
+        "Lê Hoàn, remembered as Lê Đại Hành, met the Song in 981 and smashed them. Their general Hou Renbao was killed. The next year he turned south and sacked the capital of Champa. Then he patched things up with the Song, who accepted him as a tributary king. At home, the annals say, he held the first royal ploughing ceremony, steering a plough himself to bless the year's crops.",
+        "He reigned for a quarter of a century and had a lot of sons. He handed them provinces and troops to command, and never made the succession stick. When he died in 1005, they went for each other."
+      ],
+      "claims": [
+        {
+          "text": "Dương Vân Nga handed Lê Hoàn the dragon robe in front of the army.",
+          "status": "legend",
+          "note": "A dramatic scene in the annals, written long afterwards. Her later marriage to him is better attested."
+        },
+        {
+          "text": "The Song general Hou Renbao was killed in the 981 war.",
+          "status": "confirmed",
+          "note": "Reported in both the Vietnamese annals and the official Song history."
+        },
+        {
+          "text": "Lê Hoàn held the first royal ploughing ceremony in Vietnam.",
+          "status": "disputed",
+          "note": "Only the later annals record it, and they liked giving old customs a famous founder."
+        }
+      ],
+      "hook": "Lê Hoàn's sons are drawing their swords. The chosen heir will get the throne in the end, and keep it for three days.",
+      "images": [
+        {
+          "file": "File:Temple of Emperor Le Dai Hanh, Hoa Lư, Ninh Bình, Vietnam, 20240203 1525 5704.jpg",
+          "url": "https://upload.wikimedia.org/wikipedia/commons/d/df/Temple_of_Emperor_Le_Dai_Hanh%2C_Hoa_L%C6%B0%2C_Ninh_B%C3%ACnh%2C_Vietnam%2C_20240203_1525_5704.jpg",
+          "page": "https://commons.wikimedia.org/wiki/File:Temple_of_Emperor_Le_Dai_Hanh,_Hoa_L%C6%B0,_Ninh_B%C3%ACnh,_Vietnam,_20240203_1525_5704.jpg",
+          "credit": "Jakub Hałun",
+          "license": "CC BY 4.0",
+          "made": "2024",
+          "caption": "No likeness of Lê Hoàn survives; this is the temple to him at Hoa Lư, photographed in 2024.",
+          "alt": "The temple of Emperor Lê Đại Hành at Hoa Lư, Ninh Bình"
+        }
+      ],
+      "sources": [
+        {
+          "title": "The Birth of Vietnam",
+          "author": "Keith W. Taylor",
+          "note": "University of California Press, 1983"
+        },
+        {
+          "title": "Đại Việt sử ký toàn thư (Complete Annals of Đại Việt)",
+          "author": "Ngô Sĩ Liên and later court historians",
+          "note": "Completed 1479, expanded 1697"
+        },
+        {
+          "title": "Việt Nam: A History from Earliest Times to the Present",
+          "author": "Ben Kiernan",
+          "note": "Oxford University Press, 2017"
+        }
+      ],
+      "review": {
+        "status": "draft",
+        "notes": "Drafted from the listed sources; needs a human fact-check."
+      }
+    },
+    {
+      "id": "le-long-dinh",
+      "kind": "monarch",
+      "rulers": [
+        "le-long-dinh"
+      ],
+      "tagline": "The king who held court lying down",
+      "start": {
+        "date": "1005"
+      },
+      "end": {
+        "date": "1009-11-19"
+      },
+      "contestedWith": [],
+      "relationToPredecessor": "Son of Lê Hoàn",
+      "ageAtAccession": "About 19",
+      "cameToPower": "His men killed the new king",
+      "reignEnded": "Died of illness at 23",
+      "previously": "Lê Hoàn dies. His sons fight over the throne for months.",
+      "paragraphs": [
+        "Lê Hoàn's death set off months of fighting between his sons. The heir, Lê Long Việt, finally took the throne and lasted three days. Then men sent by his younger brother Long Đĩnh broke into the palace and killed him. Long Đĩnh, about nineteen, made himself emperor.",
+        "He is remembered as Lê Ngọa Triều, the king who held court lying down, supposedly because illness kept him from sitting up. The annals paint him as a monster. Their best-known story has him shave a monk's head and peel sugar cane on it, letting the knife slip so the man bled. But those annals were written for the dynasty that replaced him, which had every reason to blacken his name.",
+        "He died in late 1009, aged 23, leaving a son far too small to rule. The court had no appetite for another child emperor. Its eyes turned to the commander of the palace guard, a man raised by Buddhist monks: Lý Công Uẩn."
+      ],
+      "claims": [
+        {
+          "text": "He held audiences lying down because he was too ill to sit.",
+          "status": "disputed",
+          "note": "The annals give illness as the reason. The nickname is real; the explanation comes from his enemies' historians."
+        },
+        {
+          "text": "He peeled sugar cane on a monk's shaven head for fun.",
+          "status": "legend",
+          "note": "Told by later court historians working for the Lý, who needed the last Early Lê king to look unfit to rule."
+        },
+        {
+          "text": "His brother Lê Long Việt reigned for only three days.",
+          "status": "confirmed",
+          "note": "All the annals agree on the short reign and the murder."
+        }
+      ],
+      "hook": "The court offers the crown to Lý Công Uẩn. Within a year he will leave the fortress of Hoa Lư behind and build a new capital on the Red River.",
+      "images": [
+        {
+          "file": "File:Typical landscape near the ancient capital of Hoa Lu (38445364896).jpg",
+          "url": "https://upload.wikimedia.org/wikipedia/commons/7/7a/Typical_landscape_near_the_ancient_capital_of_Hoa_Lu_%2838445364896%29.jpg",
+          "page": "https://commons.wikimedia.org/wiki/File:Typical_landscape_near_the_ancient_capital_of_Hoa_Lu_(38445364896).jpg",
+          "credit": "Richard Mortel",
+          "license": "CC BY 2.0",
+          "made": "2017",
+          "caption": "No likeness of Lê Long Đĩnh survives; this is the country around Hoa Lư, his capital, photographed in 2017.",
+          "alt": "Landscape near the ancient capital of Hoa Lư"
+        }
+      ],
+      "sources": [
+        {
+          "title": "A History of the Vietnamese",
+          "author": "Keith W. Taylor",
+          "note": "Cambridge University Press, 2013"
+        },
+        {
+          "title": "Đại Việt sử ký toàn thư (Complete Annals of Đại Việt)",
+          "author": "Ngô Sĩ Liên and later court historians",
+          "note": "Completed 1479, expanded 1697"
+        },
+        {
+          "title": "Việt Nam: A History from Earliest Times to the Present",
+          "author": "Ben Kiernan",
+          "note": "Oxford University Press, 2017"
+        }
+      ],
+      "review": {
+        "status": "draft",
+        "notes": "Drafted from the listed sources; needs a human fact-check."
+      }
+    },
+    {
+      "id": "ly-thai-to",
+      "kind": "monarch",
+      "rulers": [
+        "ly-thai-to"
+      ],
+      "tagline": "The temple boy who founded Hanoi",
+      "start": {
+        "date": "1009-11-20"
+      },
+      "end": {
+        "date": "1028-03-31"
+      },
+      "contestedWith": [],
+      "relationToPredecessor": "Commander of the palace guard",
+      "ageAtAccession": "About 35",
+      "cameToPower": "Chosen by the court",
+      "reignEnded": "Died; three sons revolted",
+      "previously": "Lê Long Đĩnh dies at 23. His son is a baby; the court looks elsewhere.",
+      "paragraphs": [
+        "Lý Công Uẩn grew up in a Buddhist pagoda, raised by monks. One of them, the monk Vạn Hạnh, is said to have spotted his talent and pushed his rise. He joined the palace guard and climbed to its command. When Lê Long Đĩnh died, the court made him emperor. He is remembered as Lý Thái Tổ, founder of the Lý, the first Vietnamese dynasty to last more than a couple of generations.",
+        "In 1010 he issued the Edict on Moving the Capital (Chiếu dời đô). Hoa Lư was a fortress, good for hiding, bad for ruling. He moved to Đại La, on the open plain by the Red River. As he arrived, the story goes, a golden dragon rose over the site, so he called it Thăng Long, the ascending dragon. It is the city we now call Hanoi.",
+        "He poured money into Buddhist temples and had many new monks ordained. He ruled for over eighteen years and died in the spring of 1028. Before he was even buried, three of his sons brought troops to the palace to take the throne from the heir."
+      ],
+      "claims": [
+        {
+          "text": "He named Thăng Long after seeing a golden dragon rise over the site.",
+          "status": "legend",
+          "note": "The story is in the annals. The name was clearly chosen for its good omen, whatever anyone saw."
+        },
+        {
+          "text": "The monk Vạn Hạnh backed his rise to the throne.",
+          "status": "disputed",
+          "note": "The annals give Vạn Hạnh prophecies about the Lý. How much he really steered events is unclear."
+        },
+        {
+          "text": "He issued an edict in 1010 moving the capital from Hoa Lư.",
+          "status": "confirmed",
+          "note": "The text of the Chiếu dời đô survives in the Đại Việt sử ký toàn thư."
+        }
+      ],
+      "hook": "Three princes and their men are at the palace gates. The heir, Lý Phật Mã, has one thing going for him: a general called Lê Phụng Hiểu.",
+      "images": [
+        {
+          "file": "File:Lý Thái Tổ monument Oct 2010.jpg",
+          "url": "https://upload.wikimedia.org/wikipedia/commons/9/98/L%C3%BD_Th%C3%A1i_T%E1%BB%95_monument_Oct_2010.jpg",
+          "page": "https://commons.wikimedia.org/wiki/File:L%C3%BD_Th%C3%A1i_T%E1%BB%95_monument_Oct_2010.jpg",
+          "credit": "calflier001",
+          "license": "CC BY-SA 2.0",
+          "made": "2010",
+          "caption": "No portrait of Lý Thái Tổ survives; this bronze statue by Hoàn Kiếm Lake in Hanoi is modern, put up in 2004.",
+          "alt": "The Lý Thái Tổ monument in Hanoi, photographed in October 2010"
+        }
+      ],
+      "sources": [
+        {
+          "title": "A History of the Vietnamese",
+          "author": "Keith W. Taylor",
+          "note": "Cambridge University Press, 2013"
+        },
+        {
+          "title": "Đại Việt sử ký toàn thư (Complete Annals of Đại Việt)",
+          "author": "Ngô Sĩ Liên and later court historians",
+          "note": "Completed 1479, expanded 1697"
+        },
+        {
+          "title": "Việt Nam: A History from Earliest Times to the Present",
+          "author": "Ben Kiernan",
+          "note": "Oxford University Press, 2017"
+        }
+      ],
+      "review": {
+        "status": "draft",
+        "notes": "Drafted from the listed sources; needs a human fact-check."
+      }
+    },
+    {
+      "id": "ly-thai-tong",
+      "kind": "monarch",
+      "rulers": [
+        "ly-thai-tong"
+      ],
+      "tagline": "He beat his brothers, then dreamed up a pagoda",
+      "start": {
+        "date": "1028-04-01"
+      },
+      "end": {
+        "date": "1054-11-03"
+      },
+      "contestedWith": [],
+      "relationToPredecessor": "Son of Lý Thái Tổ",
+      "ageAtAccession": "27",
+      "cameToPower": "Crushed his brothers' revolt",
+      "reignEnded": "Died in Thăng Long",
+      "previously": "Lý Thái Tổ dies. Three of his sons rise against the heir.",
+      "paragraphs": [
+        "Lý Phật Mã's first test came before his father was buried. Three of his brothers marched on the palace to seize it. His general Lê Phụng Hiểu led the guard out and cut one of the princes down, and the revolt fell apart. It went down as the rebellion of the three princes. Phật Mã, remembered as Lý Thái Tông, pardoned the two who survived.",
+        "He spent much of his reign at war. In the northern mountains he fought the Nùng chief Nùng Trí Cao, who rose more than once. In 1044 he led an army deep into Champa, and the Cham king was killed in the fighting.",
+        "In 1049 he built the One Pillar Pagoda, a small shrine set on a single pillar in a pond, like a lotus on its stem. The story is that he had dreamed of the bodhisattva Quan Âm seated on a lotus, reaching down to him. He died in 1054 after 26 years, with a grown son ready to take over."
+      ],
+      "claims": [
+        {
+          "text": "He built the One Pillar Pagoda after dreaming of Quan Âm on a lotus.",
+          "status": "legend",
+          "note": "The dream comes from the annals. The pagoda you can visit in Hanoi was rebuilt in 1955 after French troops blew it up in 1954."
+        },
+        {
+          "text": "His general Lê Phụng Hiểu crushed the revolt of three princes in 1028.",
+          "status": "confirmed",
+          "note": "Recorded in detail in the Vietnamese annals."
+        },
+        {
+          "text": "The king of Champa was killed during the 1044 campaign.",
+          "status": "confirmed",
+          "note": "The annals record his death; Cham records also show a change of king around this time."
+        }
+      ],
+      "hook": "His son inherits a confident kingdom and wants it to sound like one. First comes a new name. Then Champa, the southern neighbour, gets another visit.",
+      "images": [
+        {
+          "file": "File:One Pillar Pagoda Hanoi.jpg",
+          "url": "https://upload.wikimedia.org/wikipedia/commons/9/90/One_Pillar_Pagoda_Hanoi.jpg",
+          "page": "https://commons.wikimedia.org/wiki/File:One_Pillar_Pagoda_Hanoi.jpg",
+          "credit": "Staffan Scherz",
+          "license": "CC BY 2.0",
+          "made": "2013",
+          "caption": "No likeness of Lý Thái Tông survives; this is his One Pillar Pagoda in Hanoi, rebuilt in 1955.",
+          "alt": "The One Pillar Pagoda in Hanoi"
+        }
+      ],
+      "sources": [
+        {
+          "title": "A History of the Vietnamese",
+          "author": "Keith W. Taylor",
+          "note": "Cambridge University Press, 2013"
+        },
+        {
+          "title": "Đại Việt sử ký toàn thư (Complete Annals of Đại Việt)",
+          "author": "Ngô Sĩ Liên and later court historians",
+          "note": "Completed 1479, expanded 1697"
+        },
+        {
+          "title": "Việt Nam: A History from Earliest Times to the Present",
+          "author": "Ben Kiernan",
+          "note": "Oxford University Press, 2017"
+        }
+      ],
+      "review": {
+        "status": "draft",
+        "notes": "Drafted from the listed sources; needs a human fact-check."
+      }
+    },
+    {
+      "id": "ly-thanh-tong",
+      "kind": "monarch",
+      "rulers": [
+        "ly-thanh-tong"
+      ],
+      "tagline": "He named Đại Việt and built a temple to Confucius",
+      "start": {
+        "date": "1054-11-03"
+      },
+      "end": {
+        "date": "1072-02-01"
+      },
+      "contestedWith": [],
+      "relationToPredecessor": "Son of Lý Thái Tông",
+      "ageAtAccession": "31",
+      "cameToPower": "Succeeded his father",
+      "reignEnded": "Died in Thăng Long",
+      "previously": "Lý Thái Tông dies after 26 years. His grown son takes over.",
+      "paragraphs": [
+        "Lý Thánh Tông started by renaming the country Đại Việt, Great Viet. The name stuck, give or take a few breaks, for the next 750 years. In 1070 he built the Temple of Literature (Văn Miếu) in Thăng Long, dedicated to Confucius. It still stands in Hanoi, a walled garden of courtyards and shrines in the middle of the traffic.",
+        "In 1069 he invaded Champa and captured its king, Rudravarman III, called Chế Củ in Vietnamese. To buy his freedom, the king gave up three districts on Champa's northern edge. It was an early step in Đại Việt's long push south.",
+        "While Thánh Tông was away at war, his consort Ỷ Lan ran the government, and ran it well. Legend says he first saw her as a village girl leaning against a tree, ignoring the royal procession everyone else had rushed out to watch. She gave him the son he had waited years for. When Thánh Tông died in 1072, that boy was not yet six."
+      ],
+      "claims": [
+        {
+          "text": "He met Ỷ Lan when she was a village girl leaning against a tree.",
+          "status": "legend",
+          "note": "A romantic story built around her name, which means 'leaning on the orchid tree'. The annals confirm only that she was a royal consort."
+        },
+        {
+          "text": "The captured Cham king gave up three districts for his release.",
+          "status": "confirmed",
+          "note": "Recorded in the Vietnamese annals and accepted by modern historians of Champa."
+        },
+        {
+          "text": "Ỷ Lan governed while the king was on campaign in 1069.",
+          "status": "confirmed",
+          "note": "The annals credit her with keeping the country calm while he was away."
+        }
+      ],
+      "hook": "A five-year-old is king. His mother wants power, the old general Lý Thường Kiệt wants a fight, and Song China is getting ready to give him one.",
+      "images": [
+        {
+          "file": "File:Soleil couchant sur le Khue-van-cac (\" Kiosque de la Littérature \"), vu de la deuxième cour du Van-mieu - A6603.jpg",
+          "url": "https://upload.wikimedia.org/wikipedia/commons/8/8b/Soleil_couchant_sur_le_Khue-van-cac_%28%22_Kiosque_de_la_Litt%C3%A9rature_%22%29%2C_vu_de_la_deuxi%C3%A8me_cour_du_Van-mieu_-_A6603.jpg",
+          "page": "https://commons.wikimedia.org/wiki/File:Soleil_couchant_sur_le_Khue-van-cac_(%22_Kiosque_de_la_Litt%C3%A9rature_%22),_vu_de_la_deuxi%C3%A8me_cour_du_Van-mieu_-_A6603.jpg",
+          "credit": "Léon Busy",
+          "license": "CC0",
+          "made": "1915",
+          "caption": "No likeness of Lý Thánh Tông survives; this is the Temple of Literature he founded, photographed in 1915. The pavilion shown is a later addition.",
+          "alt": "The Khuê Văn Các pavilion at the Temple of Literature in Hanoi, seen from the second courtyard at sunset"
+        }
+      ],
+      "sources": [
+        {
+          "title": "A History of the Vietnamese",
+          "author": "Keith W. Taylor",
+          "note": "Cambridge University Press, 2013"
+        },
+        {
+          "title": "Đại Việt sử ký toàn thư (Complete Annals of Đại Việt)",
+          "author": "Ngô Sĩ Liên and later court historians",
+          "note": "Completed 1479, expanded 1697"
+        },
+        {
+          "title": "Việt Nam: A History from Earliest Times to the Present",
+          "author": "Ben Kiernan",
+          "note": "Oxford University Press, 2017"
+        }
+      ],
+      "review": {
+        "status": "draft",
+        "notes": "Drafted from the listed sources; needs a human fact-check."
+      }
+    },
+    {
+      "id": "ly-nhan-tong",
+      "kind": "monarch",
+      "rulers": [
+        "ly-nhan-tong"
+      ],
+      "tagline": "56 years, a war with China and a ghostly poem",
+      "start": {
+        "date": "1072-02-03"
+      },
+      "end": {
+        "date": "1128-01-15"
+      },
+      "contestedWith": [],
+      "relationToPredecessor": "Son of Lý Thánh Tông",
+      "ageAtAccession": "5",
+      "cameToPower": "Succeeded his father as a child",
+      "reignEnded": "Died after 56 years",
+      "previously": "Lý Thánh Tông dies. His son is not yet six years old.",
+      "paragraphs": [
+        "Lý Nhân Tông came to the throne a small boy, so others ran things: his mother Ỷ Lan and the veteran general Lý Thường Kiệt. Ỷ Lan wanted no rivals. The annals say she had the widowed senior empress, Thượng Dương, put to death along with her maids. Meanwhile the court built a state run by scholars. Đại Việt held its first civil service exam in 1075 and opened the Imperial Academy (Quốc Tử Giám) in 1076.",
+        "The Song were planning an invasion. Lý Thường Kiệt didn't wait for it. In 1075–76 he struck first, crossing into China and sacking Yongzhou. When the Song army came south in 1077, he held it at the Như Nguyệt River. One night, the story goes, a voice from a riverside temple recited a poem: the mountains and rivers of the south belong to the southern emperor, as written in the book of heaven.",
+        "That poem, 'Nam quốc sơn hà', is often called Vietnam's first declaration of independence. The Song gave up and went home. Nhân Tông went on to reign for 56 years, longer than any other Vietnamese monarch. He had no son, so the throne went to a nephew."
+      ],
+      "claims": [
+        {
+          "text": "Ỷ Lan had the senior empress Thượng Dương and her maids killed.",
+          "status": "disputed",
+          "note": "A story in the annals. It fits the politics but no other source confirms it."
+        },
+        {
+          "text": "The poem 'Nam quốc sơn hà' was recited at night from a temple to rally the troops.",
+          "status": "legend",
+          "note": "Later sources tell the tale. Who wrote the poem, and whether it was first used in this war, is debated."
+        },
+        {
+          "text": "Lý Nhân Tông reigned longer than any other Vietnamese monarch.",
+          "status": "confirmed",
+          "note": "His 56 years, from 1072 to 1128, are a record in every king list."
+        }
+      ],
+      "hook": "A nephew inherits a strong kingdom. Over the next century the Lý will slowly lose it to regents, favourites, famine and a clan of fishermen from the coast.",
+      "images": [
+        {
+          "file": "File:Stele commemorating the founding of Linh Xung pagoda by Ly Thuong Kiet, Thanh Hoa province, 7th year of the Thien Phu Due Vo reign (1126 AD), stone - National Museum of Vietnamese History - Hanoi, Vietnam - DSC05540.JPG",
+          "url": "https://upload.wikimedia.org/wikipedia/commons/d/dd/Stele_commemorating_the_founding_of_Linh_Xung_pagoda_by_Ly_Thuong_Kiet%2C_Thanh_Hoa_province%2C_7th_year_of_the_Thien_Phu_Due_Vo_reign_%281126_AD%29%2C_stone_-_National_Museum_of_Vietnamese_History_-_Hanoi%2C_Vietnam_-_DSC05540.JPG",
+          "page": "https://commons.wikimedia.org/wiki/File:Stele_commemorating_the_founding_of_Linh_Xung_pagoda_by_Ly_Thuong_Kiet,_Thanh_Hoa_province,_7th_year_of_the_Thien_Phu_Due_Vo_reign_(1126_AD),_stone_-_National_Museum_of_Vietnamese_History_-_Hanoi,_Vietnam_-_DSC05540.JPG",
+          "credit": "Daderot",
+          "license": "CC0",
+          "made": "1126",
+          "caption": "No likeness of Lý Nhân Tông survives; this stone stele from his reign, dated 1126, records Lý Thường Kiệt's founding of a pagoda.",
+          "alt": "Stone stele commemorating the founding of Linh Xung pagoda, in the National Museum of Vietnamese History, Hanoi"
+        }
+      ],
+      "sources": [
+        {
+          "title": "A History of the Vietnamese",
+          "author": "Keith W. Taylor",
+          "note": "Cambridge University Press, 2013"
+        },
+        {
+          "title": "Đại Việt sử ký toàn thư (Complete Annals of Đại Việt)",
+          "author": "Ngô Sĩ Liên and later court historians",
+          "note": "Completed 1479, expanded 1697"
+        },
+        {
+          "title": "Việt Nam: A History from Earliest Times to the Present",
+          "author": "Ben Kiernan",
+          "note": "Oxford University Press, 2017"
+        }
+      ],
+      "review": {
+        "status": "draft",
+        "notes": "Drafted from the listed sources; needs a human fact-check."
+      }
+    },
+    {
+      "id": "ly-decline",
+      "kind": "interregnum",
+      "title": "The Lý Lose Their Grip",
+      "house": "ly",
+      "rulers": [],
+      "tagline": "Child kings, famine, and a fishing clan moves in",
+      "start": {
+        "date": "1128-01-15"
+      },
+      "end": {
+        "date": "1224"
+      },
+      "contestedWith": [],
+      "relationToPredecessor": "Nephew of Lý Nhân Tông, then heirs",
+      "ageAtAccession": "Several kings",
+      "cameToPower": "Lý heirs, one after another",
+      "reignEnded": "Huệ Tông gave up the throne",
+      "previously": "Lý Nhân Tông dies after 56 years. A nephew takes his place.",
+      "paragraphs": [
+        "Four Lý kings followed: Thần Tông, Anh Tông, Cao Tông and Huệ Tông. Several came to the throne as children, and the court was run by regents and favourites. Under Anh Tông the official Đỗ Anh Vũ held the real power for years. The dynasty still looked grand, but the grip on the countryside was slipping.",
+        "Under Cao Tông it went badly wrong. Famine, banditry and revolt spread, and the court had to flee Thăng Long. Help came from the Trần, a rich family of fishermen and traders from the coast with men under arms. Their price was a royal marriage. Their daughter Trần Thị Dung married the crown prince, soon to be king Huệ Tông.",
+        "Huệ Tông was a weak king who, people said, slid into madness. Thị Dung's cousin Trần Thủ Độ took command of the palace guard, and with it the court. In 1224 Huệ Tông, who had no son, handed the throne to his little daughter and went off to become a monk."
+      ],
+      "claims": [
+        {
+          "text": "Lý Huệ Tông went mad.",
+          "status": "disputed",
+          "note": "The annals describe fits and strange behaviour. They were written under the Trần, who gained from showing the last Lý as unfit."
+        },
+        {
+          "text": "By the 1220s Trần Thủ Độ controlled the palace through the guard.",
+          "status": "confirmed",
+          "note": "All the annals agree he was the power behind the throne by the end of Huệ Tông's reign."
+        }
+      ],
+      "hook": "A six-year-old girl is now empress, the only one Vietnam will ever have. Trần Thủ Độ has plans for her, and they start with a husband.",
+      "images": [
+        {
+          "file": "File:Đền Đô - 14061132515.jpg",
+          "url": "https://upload.wikimedia.org/wikipedia/commons/2/21/%C4%90%E1%BB%81n_%C4%90%C3%B4_-_14061132515.jpg",
+          "page": "https://commons.wikimedia.org/wiki/File:%C4%90%E1%BB%81n_%C4%90%C3%B4_-_14061132515.jpg",
+          "credit": "Cuong PM",
+          "license": "CC BY 2.0",
+          "made": "2014",
+          "caption": "Đền Đô in Bắc Ninh, the temple of the eight Lý kings, photographed in 2014.",
+          "alt": "Đền Đô, the temple of the Lý kings in Bắc Ninh"
+        }
+      ],
+      "sources": [
+        {
+          "title": "A History of the Vietnamese",
+          "author": "Keith W. Taylor",
+          "note": "Cambridge University Press, 2013"
+        },
+        {
+          "title": "Đại Việt sử ký toàn thư (Complete Annals of Đại Việt)",
+          "author": "Ngô Sĩ Liên and later court historians",
+          "note": "Completed 1479, expanded 1697"
+        },
+        {
+          "title": "Việt Nam: A History from Earliest Times to the Present",
+          "author": "Ben Kiernan",
+          "note": "Oxford University Press, 2017"
+        }
+      ],
+      "review": {
+        "status": "draft",
+        "notes": "Drafted from the listed sources; needs a human fact-check."
+      }
+    },
+    {
+      "id": "ly-chieu-hoang",
+      "kind": "monarch",
+      "rulers": [
+        "ly-chieu-hoang"
+      ],
+      "tagline": "Vietnam's only empress, and she was six",
+      "start": {
+        "date": "1224"
+      },
+      "end": {
+        "date": "1226-01-11"
+      },
+      "contestedWith": [],
+      "relationToPredecessor": "Daughter of Lý Huệ Tông",
+      "ageAtAccession": "About 6",
+      "cameToPower": "Her father abdicated to her",
+      "reignEnded": "Handed the throne to her husband",
+      "previously": "Lý Huệ Tông gives up the throne and becomes a monk.",
+      "paragraphs": [
+        "Lý Chiêu Hoàng, born Lý Phật Kim, is the only woman ever to reign over Vietnam in her own right, and she was about six when she did it. She ruled nothing. Trần Thủ Độ packed the palace with his relatives and married the little empress to his nephew Trần Cảnh, a boy of seven.",
+        "In the last lunar month of 1225, which fell in January 1226, she handed the throne to her husband. After more than two centuries the Lý dynasty was over. Trần Thủ Độ made sure it stayed that way. He is said to have forced her father, the ex-emperor Huệ Tông, now a monk, to kill himself in 1226, and to have massacred Lý clansmen.",
+        "Her own life had more twists to come. In 1237, because she had no surviving son, Trần Cảnh was made to take her elder sister instead, who was already pregnant by his brother. Later she married a general, Lê Phụ Trần, and lived until 1278."
+      ],
+      "claims": [
+        {
+          "text": "Trần Thủ Độ forced the ex-emperor Huệ Tông to kill himself.",
+          "status": "disputed",
+          "note": "The annals say so outright. They were written under the Trần, but historians generally accept it."
+        },
+        {
+          "text": "Trần Thủ Độ massacred members of the Lý clan.",
+          "status": "disputed",
+          "note": "The annals tell of Lý kin buried alive in a pit during a ceremony. The scale and details may be exaggerated."
+        },
+        {
+          "text": "Trần Cảnh was made to take his pregnant sister-in-law as empress in 1237.",
+          "status": "confirmed",
+          "note": "Recorded in the annals, along with the revolt it set off from his brother Trần Liễu."
+        }
+      ],
+      "hook": "The Trần hold the throne through a boy emperor. Trần Thủ Độ is the real ruler, and far to the north the Mongols are swallowing one kingdom after another.",
+      "images": [
+        {
+          "file": "File:DenTran-NamDinh.JPG",
+          "url": "https://upload.wikimedia.org/wikipedia/commons/c/c6/DenTran-NamDinh.JPG",
+          "page": "https://commons.wikimedia.org/wiki/File:DenTran-NamDinh.JPG",
+          "credit": "Handyhuy",
+          "license": "CC BY-SA 3.0",
+          "made": "2011",
+          "caption": "No likeness of Lý Chiêu Hoàng survives; this is the main gate of the Trần temple complex in Nam Định, honouring the family that took her throne.",
+          "alt": "Main gate of the Trần temple complex in Nam Định"
+        }
+      ],
+      "sources": [
+        {
+          "title": "A History of the Vietnamese",
+          "author": "Keith W. Taylor",
+          "note": "Cambridge University Press, 2013"
+        },
+        {
+          "title": "Đại Việt sử ký toàn thư (Complete Annals of Đại Việt)",
+          "author": "Ngô Sĩ Liên and later court historians",
+          "note": "Completed 1479, expanded 1697"
+        },
+        {
+          "title": "Việt Nam: A History from Earliest Times to the Present",
+          "author": "Ben Kiernan",
+          "note": "Oxford University Press, 2017"
+        }
+      ],
+      "review": {
+        "status": "draft",
+        "notes": "Drafted from the listed sources; needs a human fact-check."
+      }
+    },
+    {
+      "id": "tran-thai-tong",
+      "kind": "monarch",
+      "rulers": [
+        "tran-thai-tong"
+      ],
+      "tagline": "A boy king, a ruthless uncle and the first Mongol storm",
+      "start": {
+        "date": "1226-01-11"
+      },
+      "end": {
+        "date": "1258-03-30"
+      },
+      "contestedWith": [],
+      "relationToPredecessor": "Husband of Lý Chiêu Hoàng",
+      "ageAtAccession": "7",
+      "cameToPower": "His child bride handed him the throne",
+      "reignEnded": "Abdicated to his son",
+      "previously": "The child empress Lý Chiêu Hoàng hands the throne to her boy husband.",
+      "paragraphs": [
+        "Trần Cảnh was seven when his child bride gave him the crown. The real ruler was his uncle Trần Thủ Độ, a hard man who stamped out what was left of the Lý and kept the court in his fist for decades. In 1237, because the empress had no son, Thủ Độ made Cảnh take a new wife: the wife of his elder brother Trần Liễu, who was already pregnant. Liễu rose in revolt. The young emperor fled to a monastery on Yên Tử mountain and had to be talked into coming home.",
+        "Then came the Mongols. In January 1258 an army under Uriyangkhadai rode down from Yunnan, routed the Vietnamese and took Thăng Long, which the court had abandoned. The emperor asked Thủ Độ whether to give in. His reply became famous: my head has not yet fallen to the ground, so Your Majesty need not worry. Within weeks the invaders, worn down by the heat and hit by a counter-attack, pulled back north. The Mongol deck tells it from their side.",
+        "Soon after, Thái Tông did something new. He handed the throne to his grown-up son and stayed on as retired emperor (thái thượng hoàng), guiding from behind. The Trần would do this again and again, so each heir learned the job while the old king was still alive to help."
+      ],
+      "claims": [
+        {
+          "text": "Trần Thủ Độ told the emperor that his head had not yet fallen, so there was nothing to worry about.",
+          "status": "legend",
+          "note": "The line comes from the Toàn thư, compiled two centuries later. It fits his character, but the exact words can't be checked."
+        },
+        {
+          "text": "In 1237 the emperor was made to marry his elder brother's pregnant wife.",
+          "status": "confirmed",
+          "note": "Recorded in the Toàn thư and accepted by modern historians such as Keith Taylor."
+        },
+        {
+          "text": "The young emperor ran away to Yên Tử and Thủ Độ fetched him back.",
+          "status": "disputed",
+          "note": "Told in the Toàn thư. The flight is likely; the polished dialogue around it looks like the chroniclers' work."
+        }
+      ],
+      "hook": "The Mongols have gone, for now. A new emperor must rebuild a burned capital while the Mongol empire, soon to be ruled by Kublai Khan, keeps its eye on the south.",
+      "images": [
+        {
+          "file": "File:Núi Yên Tử (2).jpg",
+          "url": "https://upload.wikimedia.org/wikipedia/commons/f/f9/N%C3%BAi_Y%C3%AAn_T%E1%BB%AD_%282%29.jpg",
+          "page": "https://commons.wikimedia.org/wiki/File:N%C3%BAi_Y%C3%AAn_T%E1%BB%AD_(2).jpg",
+          "credit": "Bùi Thụy Đào Nguyên",
+          "license": "Public domain",
+          "made": "21st century",
+          "caption": "No portrait of Trần Thái Tông survives; this is Yên Tử mountain, where he fled to the monks in 1237.",
+          "alt": "Panoramic view of the forested slopes of Yên Tử mountain in Quảng Ninh, Vietnam"
+        }
+      ],
+      "sources": [
+        {
+          "title": "Đại Việt sử ký toàn thư (Complete Annals of Đại Việt)",
+          "author": "Ngô Sĩ Liên and later court historians",
+          "note": "Completed 1479, expanded 1697"
+        },
+        {
+          "title": "A History of the Vietnamese",
+          "author": "Keith W. Taylor",
+          "note": "Cambridge University Press, 2013"
+        },
+        {
+          "title": "Việt Nam: A History from Earliest Times to the Present",
+          "author": "Ben Kiernan",
+          "note": "Oxford University Press, 2017"
+        }
+      ],
+      "review": {
+        "status": "draft",
+        "notes": "Drafted from the listed sources; needs a human fact-check."
+      }
+    },
+    {
+      "id": "tran-thanh-tong",
+      "kind": "monarch",
+      "rulers": [
+        "tran-thanh-tong"
+      ],
+      "tagline": "Paid Kublai his tribute, but never knelt",
+      "start": {
+        "date": "1258-03-30"
+      },
+      "end": {
+        "date": "1278-11-08"
+      },
+      "contestedWith": [],
+      "relationToPredecessor": "Son of Trần Thái Tông",
+      "ageAtAccession": "17 or 18",
+      "cameToPower": "His father stepped aside",
+      "reignEnded": "Abdicated to his son",
+      "previously": "The Mongols sack Thăng Long and leave. Thái Tông steps aside.",
+      "paragraphs": [
+        "Thánh Tông took over a burned capital and set about rebuilding it, with his father close by as retired emperor. To the north, Kublai Khan now ruled the Mongols and in 1271 named his dynasty the Yuan. He wanted proof of obedience. Thánh Tông sent tribute and polite letters. When Yuan envoys demanded that he come to court in person, he always found a reason not to.",
+        "At home the Trần kept power in the family. Princes married princesses, cousins married cousins, and the top army posts went to royal relatives. It was clannish, but it made a ruling family that fought as one. In 1272 the scholar Lê Văn Hưu finished the Đại Việt sử ký, the country's first official history. In 1278 Thánh Tông handed the throne to his son and, as retired emperor, stayed on to guide him."
+      ],
+      "claims": [
+        {
+          "text": "The Trần married inside the clan on purpose, to keep the throne in the family.",
+          "status": "confirmed",
+          "note": "Plain from the marriages in the Toàn thư; historians such as Keith Taylor treat it as deliberate policy."
+        },
+        {
+          "text": "Lê Văn Hưu finished the first official history of Đại Việt in 1272.",
+          "status": "confirmed",
+          "note": "The book itself is lost, but the Toàn thư records it and quotes his comments."
+        },
+        {
+          "text": "Thánh Tông refused Yuan demands that he come to court in person.",
+          "status": "confirmed",
+          "note": "Both the Vietnamese annals and the Yuan records describe the demands and the excuses."
+        }
+      ],
+      "hook": "Kublai Khan is running out of patience. A young new emperor, Trần Nhân Tông, is about to face the full weight of the Yuan empire.",
+      "images": [
+        {
+          "file": "File:Den Tran Nam Dinh.jpg",
+          "url": "https://upload.wikimedia.org/wikipedia/commons/6/68/Den_Tran_Nam_Dinh.jpg",
+          "page": "https://commons.wikimedia.org/wiki/File:Den_Tran_Nam_Dinh.jpg",
+          "credit": "Hoangvantoanajc",
+          "license": "CC0",
+          "made": "2011",
+          "caption": "No portrait of Trần Thánh Tông survives; this is a gate pillar at the Trần Temple in Nam Định, where the Trần kings are honoured. Photographed in 2011.",
+          "alt": "A tall decorated ceremonial pillar in the grounds of the Trần Temple, Nam Định"
+        }
+      ],
+      "sources": [
+        {
+          "title": "Đại Việt sử ký toàn thư (Complete Annals of Đại Việt)",
+          "author": "Ngô Sĩ Liên and later court historians",
+          "note": "Completed 1479, expanded 1697"
+        },
+        {
+          "title": "A History of the Vietnamese",
+          "author": "Keith W. Taylor",
+          "note": "Cambridge University Press, 2013"
+        },
+        {
+          "title": "Việt Nam: A History from Earliest Times to the Present",
+          "author": "Ben Kiernan",
+          "note": "Oxford University Press, 2017"
+        }
+      ],
+      "review": {
+        "status": "draft",
+        "notes": "Drafted from the listed sources; needs a human fact-check."
+      }
+    },
+    {
+      "id": "tran-nhan-tong",
+      "kind": "monarch",
+      "rulers": [
+        "tran-nhan-tong"
+      ],
+      "tagline": "Beat Kublai's armies twice, then went off to be a monk",
+      "start": {
+        "date": "1278-11-08"
+      },
+      "end": {
+        "date": "1293"
+      },
+      "contestedWith": [],
+      "relationToPredecessor": "Son of Trần Thánh Tông",
+      "ageAtAccession": "19 or 20",
+      "cameToPower": "His father stepped aside",
+      "reignEnded": "Abdicated, later became a monk",
+      "previously": "Trần Thánh Tông steps aside for his son as the Yuan lose patience.",
+      "paragraphs": [
+        "Kublai wanted a road through Đại Việt to attack Champa. Nhân Tông said no. In early 1285 the Yuan came anyway: a huge army under Kublai's son Toghan from the north, and Sogetu from Champa in the south. The old retired emperor called village elders to the Diên Hồng palace and asked: peace or war? Fight, they shouted. Soldiers tattooed Sát Thát, kill the Tatars, on their arms.",
+        "The court gave up Thăng Long, fell back, then struck hard. Sogetu was killed and Toghan retreated. In 1287 the Yuan returned. The commander-in-chief was the Prince of Hưng Đạo, Trần Quốc Tuấn, whose fiery Proclamation to the Officers had rallied the army. He copied Ngô Quyền. In April 1288 stakes were planted in the Bạch Đằng River, the Yuan fleet was caught as the tide fell, and its admiral Omar was taken.",
+        "Toghan got away north. Nhân Tông then sent tribute to Kublai anyway: winning was enough, and peace was cheaper. In 1293 he gave up the throne, and later went to live as a monk on Yên Tử mountain, where he founded the Trúc Lâm (Bamboo Forest) school of Zen. The Mongol deck tells these wars from Kublai's side."
+      ],
+      "claims": [
+        {
+          "text": "At the Diên Hồng conference the village elders all shouted for war.",
+          "status": "disputed",
+          "note": "Recorded in the Toàn thư, written long after. The meeting probably happened; the single roar reads like a set piece."
+        },
+        {
+          "text": "Soldiers tattooed Sát Thát, kill the Tatars, on their arms.",
+          "status": "confirmed",
+          "note": "Recorded in the Toàn thư. Tattooing was common among Trần soldiers, so historians generally accept it."
+        },
+        {
+          "text": "On one of his retreats Toghan escaped hidden inside a bronze tube.",
+          "status": "legend",
+          "note": "A Vietnamese tradition recorded in the annals; it is the kind of humiliating detail the Yuan side would never report."
+        }
+      ],
+      "hook": "The Mongols are beaten. But the Trần's best days are behind them. Over the next century weak kings, a fake prince and a Cham warrior king will shake the dynasty to pieces.",
+      "images": [
+        {
+          "file": "File:Stakes Used to Repel Mongol Invasion at Bach Dang River, 1288 (9735656156).jpg",
+          "url": "https://upload.wikimedia.org/wikipedia/commons/2/27/Stakes_Used_to_Repel_Mongol_Invasion_at_Bach_Dang_River%2C_1288_%289735656156%29.jpg",
+          "page": "https://commons.wikimedia.org/wiki/File:Stakes_Used_to_Repel_Mongol_Invasion_at_Bach_Dang_River,_1288_(9735656156).jpg",
+          "credit": "Gary Todd",
+          "license": "CC0",
+          "made": "2012",
+          "caption": "Wooden stakes from the Bạch Đằng River, where the Yuan fleet was trapped in 1288, now in a Hanoi museum. No portrait of Nhân Tông survives.",
+          "alt": "Weathered wooden stakes on display in a museum in Hanoi"
+        }
+      ],
+      "sources": [
+        {
+          "title": "Đại Việt sử ký toàn thư (Complete Annals of Đại Việt)",
+          "author": "Ngô Sĩ Liên and later court historians",
+          "note": "Completed 1479, expanded 1697"
+        },
+        {
+          "title": "A History of the Vietnamese",
+          "author": "Keith W. Taylor",
+          "note": "Cambridge University Press, 2013"
+        },
+        {
+          "title": "Việt Nam: A History from Earliest Times to the Present",
+          "author": "Ben Kiernan",
+          "note": "Oxford University Press, 2017"
+        }
+      ],
+      "review": {
+        "status": "draft",
+        "notes": "Drafted from the listed sources; needs a human fact-check."
+      }
+    },
+    {
+      "id": "tran-decline",
+      "kind": "interregnum",
+      "rulers": [],
+      "house": "tran",
+      "title": "The Trần Twilight",
+      "tagline": "A princess traded for land and a Cham king at the gates",
+      "start": {
+        "date": "1293"
+      },
+      "end": {
+        "date": "1400"
+      },
+      "contestedWith": [],
+      "relationToPredecessor": "Sons and grandsons of Nhân Tông",
+      "ageAtAccession": "Various",
+      "cameToPower": "Inherited, one after another",
+      "reignEnded": "Last boy king forced to abdicate",
+      "previously": "Trần Nhân Tông gives up the throne and heads for the mountains.",
+      "paragraphs": [
+        "Nhân Tông's son Trần Anh Tông struck a famous deal in 1306. He married his sister, Princess Huyền Trân, to the Cham king Jaya Simhavarman III (Chế Mân) in return for two provinces. The king died the next year, and the Vietnamese spirited the princess home rather than let her be burned with him. Later kings were weaker. The upright scholar Chu Văn An asked for seven corrupt courtiers to be beheaded, was ignored, and went home.",
+        "In 1369 Dương Nhật Lễ, said to be an actor's son passed off as a prince, grabbed the throne. The Trần princes threw him out the next year. Then Champa struck. Its warrior king Chế Bồng Nga sacked Thăng Long in 1371, and when Emperor Trần Duệ Tông marched south to punish him he was killed there in 1377. The raids went on until Chế Bồng Nga died in battle in 1390.",
+        "Through all this one man kept climbing: Hồ Quý Ly, related to the royal family by marriage and trusted by the retired emperor Trần Nghệ Tông. When Nghệ Tông died in 1394, Quý Ly held everything. In 1400 he made the last boy emperor, his own grandson Trần Thiếu Đế, give up the throne."
+      ],
+      "claims": [
+        {
+          "text": "Princess Huyền Trân was married to the Cham king in exchange for two provinces.",
+          "status": "confirmed",
+          "note": "Recorded in the Toàn thư. The two Cham districts became the Vietnamese prefectures of Thuận and Hóa."
+        },
+        {
+          "text": "Chu Văn An asked the king to behead seven corrupt courtiers.",
+          "status": "disputed",
+          "note": "The Toàn thư records the petition, but its text is lost and the seven were never named."
+        },
+        {
+          "text": "Dương Nhật Lễ was not a Trần at all but an actor's son.",
+          "status": "disputed",
+          "note": "So say the chronicles, which were written by the side that overthrew him and had every reason to say it."
+        }
+      ],
+      "hook": "The Trần are finished. Hồ Quý Ly takes the throne himself, with big plans to remake the country, while the Ming emperor in China watches closely.",
+      "images": [
+        {
+          "file": "File:0040423 Thap Canh Tien Cham Hindu temple, Binh Dinh Vietnam 021.jpg",
+          "url": "https://upload.wikimedia.org/wikipedia/commons/2/25/0040423_Thap_Canh_Tien_Cham_Hindu_temple%2C_Binh_Dinh_Vietnam_021.jpg",
+          "page": "https://commons.wikimedia.org/wiki/File:0040423_Thap_Canh_Tien_Cham_Hindu_temple,_Binh_Dinh_Vietnam_021.jpg",
+          "credit": "Ms Sarah Welch",
+          "license": "CC0",
+          "made": "2023",
+          "caption": "The Cánh Tiên tower in Bình Định, a Cham temple near the site of Vijaya, the capital of Chế Bồng Nga's Champa. Photographed in 2023.",
+          "alt": "A brick Cham temple tower on a small hill in Bình Định province"
+        }
+      ],
+      "sources": [
+        {
+          "title": "Đại Việt sử ký toàn thư (Complete Annals of Đại Việt)",
+          "author": "Ngô Sĩ Liên and later court historians",
+          "note": "Completed 1479, expanded 1697"
+        },
+        {
+          "title": "Vietnam, Hồ Quý Ly, and the Ming (1371–1421)",
+          "author": "John K. Whitmore",
+          "note": "Yale Southeast Asia Studies, 1985"
+        },
+        {
+          "title": "A History of the Vietnamese",
+          "author": "Keith W. Taylor",
+          "note": "Cambridge University Press, 2013"
+        }
+      ],
+      "review": {
+        "status": "draft",
+        "notes": "Drafted from the listed sources; needs a human fact-check."
+      }
+    },
+    {
+      "id": "ho-quy-ly",
+      "kind": "monarch",
+      "rulers": [
+        "ho-quy-ly"
+      ],
+      "tagline": "The reformer who grabbed the throne and lost the country",
+      "start": {
+        "date": "1400"
+      },
+      "end": {
+        "date": "1407"
+      },
+      "contestedWith": [],
+      "relationToPredecessor": "Grandfather of Trần Thiếu Đế",
+      "ageAtAccession": "About 64",
+      "cameToPower": "Forced his grandson to abdicate",
+      "reignEnded": "Captured by the Ming",
+      "previously": "Hồ Quý Ly makes his boy grandson give up the Trần throne.",
+      "paragraphs": [
+        "Hồ Quý Ly was a man in a hurry. Before he took the crown he had already printed paper money, in 1396, and in 1397 built a stone citadel, Tây Đô, in Thanh Hóa. He capped how much land and how many slaves the great families could hold, and hunted down Trần loyalists. He renamed the country Đại Ngu. In 1401 he passed the throne to his son Hồ Hán Thương but kept the power as retired emperor.",
+        "His enemies ran to China. In 1406 the Ming emperor Yongle invaded, claiming to put the rightful Trần back. The Hồ had guns and fortresses, but their reforms had made too many enemies, and the defence fell apart. In 1407 father and son were caught and taken to China. Nobody knows when or how Quý Ly died. Another son, Hồ Nguyên Trừng, ended up making guns for the Ming."
+      ],
+      "claims": [
+        {
+          "text": "Hồ Quý Ly was a cruel usurper who brought ruin on the country.",
+          "status": "disputed",
+          "note": "That is the verdict of the Later Lê chroniclers. Modern historians such as John Whitmore see a bold reformer."
+        },
+        {
+          "text": "Hồ Nguyên Trừng became a firearms expert for the Ming.",
+          "status": "disputed",
+          "note": "Ming writers credit him with gun-making skills; how much he really changed Ming weapons is debated."
+        },
+        {
+          "text": "Hồ Quý Ly built the stone citadel of Tây Đô in 1397.",
+          "status": "confirmed",
+          "note": "It still stands and was made a UNESCO World Heritage Site in 2011."
+        }
+      ],
+      "hook": "The Ming have Đại Việt. They mean to keep it as a Chinese province, and the Trần princes who rise against them will not last long.",
+      "images": [
+        {
+          "file": "File:Ho dynasty's citadel, Vietnam.jpg",
+          "url": "https://upload.wikimedia.org/wikipedia/commons/0/06/Ho_dynasty%27s_citadel%2C_Vietnam.jpg",
+          "page": "https://commons.wikimedia.org/wiki/File:Ho_dynasty%27s_citadel,_Vietnam.jpg",
+          "credit": "Loi Nguyen Duc",
+          "license": "CC BY 2.0",
+          "made": "2011",
+          "caption": "The stone Citadel of the Hồ dynasty in Thanh Hóa, built in 1397 and still standing. No portrait of Hồ Quý Ly survives.",
+          "alt": "Massive stone gate of the Citadel of the Hồ dynasty in Thanh Hóa"
+        }
+      ],
+      "sources": [
+        {
+          "title": "Đại Việt sử ký toàn thư (Complete Annals of Đại Việt)",
+          "author": "Ngô Sĩ Liên and later court historians",
+          "note": "Completed 1479, expanded 1697"
+        },
+        {
+          "title": "Vietnam, Hồ Quý Ly, and the Ming (1371–1421)",
+          "author": "John K. Whitmore",
+          "note": "Yale Southeast Asia Studies, 1985"
+        },
+        {
+          "title": "A History of the Vietnamese",
+          "author": "Keith W. Taylor",
+          "note": "Cambridge University Press, 2013"
+        }
+      ],
+      "review": {
+        "status": "draft",
+        "notes": "Drafted from the listed sources; needs a human fact-check."
+      }
+    },
+    {
+      "id": "ming-occupation",
+      "kind": "interregnum",
+      "rulers": [],
+      "house": "ming",
+      "title": "The Ming Occupation",
+      "tagline": "Twenty years as a Chinese province, then the fightback",
+      "start": {
+        "date": "1407"
+      },
+      "end": {
+        "date": "1427-12"
+      },
+      "contestedWith": [],
+      "relationToPredecessor": "Ming conquerors of the Hồ",
+      "ageAtAccession": "No king",
+      "cameToPower": "Ming conquest",
+      "reignEnded": "Ming army agrees to go home",
+      "previously": "Hồ Quý Ly and his son are captured and carried off to China.",
+      "paragraphs": [
+        "The Ming turned Đại Việt into the province of Jiaozhi (Giao Chỉ). Two Trần princes, Giản Định Đế and Trùng Quang Đế, kept fighting from the hills, but by 1414 both were beaten. Then came heavy taxes, forced labour in mines and forests, and Chinese-style schools. Vietnamese books were carted off to China or burned, later writers said.",
+        "In 1418 Lê Lợi, a rich landowner from Lam Sơn in Thanh Hóa, raised his own rebellion. The early years were grim. Once, the story goes, his officer Lê Lai put on Lê Lợi's robes and charged the enemy so his leader could escape, dying in his place. The scholar Nguyễn Trãi became Lê Lợi's strategist and wrote his letters to the Ming commanders.",
+        "By 1426 the rebels had Ming troops shut up in their forts. The Ming sent a relief army, and at Chi Lăng in 1427 it was ambushed and its commander Liu Sheng (Liễu Thăng) killed. In December 1427 the Ming commander Wang Tong agreed to leave, and early in 1428 his troops marched home. The China deck covers the Ming emperors."
+      ],
+      "claims": [
+        {
+          "text": "The Ming took or burned Vietnamese books to wipe out local learning.",
+          "status": "disputed",
+          "note": "Vietnamese sources say so. The scale is hard to check, and many early works were lost in other wars too."
+        },
+        {
+          "text": "Lê Lai died wearing Lê Lợi's robes to save him.",
+          "status": "legend",
+          "note": "Lê Lai was real and honoured by the dynasty, but the story of the swap comes to us with heroic polish."
+        },
+        {
+          "text": "The Ming commander Liu Sheng was killed at Chi Lăng in 1427.",
+          "status": "confirmed",
+          "note": "Recorded in both Vietnamese and Ming sources."
+        }
+      ],
+      "hook": "The Ming are leaving. Lê Lợi is the hero of the hour, and he is about to make himself emperor and found a dynasty.",
+      "images": [
+        {
+          "file": "File:Lam Kinh.jpg",
+          "url": "https://upload.wikimedia.org/wikipedia/commons/5/57/Lam_Kinh.jpg",
+          "page": "https://commons.wikimedia.org/wiki/File:Lam_Kinh.jpg",
+          "credit": "Bùi Lê Việt Cường",
+          "license": "CC BY-SA 4.0",
+          "made": "2021",
+          "caption": "Lam Kinh in Thanh Hóa, near Lam Sơn where Lê Lợi began his rising; the Lê later built their royal shrine here. Photographed in 2021.",
+          "alt": "The Noon Gate and old trees seen from the main courtyard at Lam Kinh"
+        }
+      ],
+      "sources": [
+        {
+          "title": "Đại Việt sử ký toàn thư (Complete Annals of Đại Việt)",
+          "author": "Ngô Sĩ Liên and later court historians",
+          "note": "Completed 1479, expanded 1697"
+        },
+        {
+          "title": "Vietnam, Hồ Quý Ly, and the Ming (1371–1421)",
+          "author": "John K. Whitmore",
+          "note": "Yale Southeast Asia Studies, 1985"
+        },
+        {
+          "title": "A History of the Vietnamese",
+          "author": "Keith W. Taylor",
+          "note": "Cambridge University Press, 2013"
+        },
+        {
+          "title": "Việt Nam: A History from Earliest Times to the Present",
+          "author": "Ben Kiernan",
+          "note": "Oxford University Press, 2017"
+        }
+      ],
+      "review": {
+        "status": "draft",
+        "notes": "Drafted from the listed sources; needs a human fact-check."
+      }
+    },
+    {
+      "id": "le-loi",
+      "kind": "monarch",
+      "rulers": [
+        "le-loi"
+      ],
+      "tagline": "The rebel king who gave his magic sword back to a turtle",
+      "start": {
+        "date": "1428-04-29"
+      },
+      "end": {
+        "date": "1433-10-05"
+      },
+      "contestedWith": [],
+      "relationToPredecessor": "Rebel leader, no royal blood",
+      "ageAtAccession": "42 or 43",
+      "cameToPower": "Drove out the Ming",
+      "reignEnded": "Died after five years",
+      "previously": "The Ming army marches home. Lê Lợi has won his ten-year war.",
+      "paragraphs": [
+        "In spring 1428 Lê Lợi took the throne as Lê Thái Tổ, founder of the Later Lê dynasty. Nguyễn Trãi wrote the victory announcement, the Bình Ngô đại cáo (Great Proclamation on the Pacification of the Wu). It declares that Đại Việt has always been its own land with its own ways, and generations of Vietnamese schoolchildren have learned it. Then Lê Lợi made peace with the Ming and sent tribute: emperor at home, king abroad.",
+        "Then there is the sword. It came to him in pieces, the story goes: a fisherman netted the blade, and Lê Lợi found the hilt in a tree. After the war, boating on a lake in Thăng Long, he met a golden turtle that asked for the sword back for its divine owner. He handed it over, and the lake became Hoàn Kiếm, the Lake of the Returned Sword.",
+        "Power soured him. His old comrade Trần Nguyên Hãn killed himself under suspicion in 1429, and the general Phạm Văn Xảo was executed. Lê Lợi died in 1433, leaving a nine-year-old son on the throne."
+      ],
+      "claims": [
+        {
+          "text": "A golden turtle took Lê Lợi's magic sword back on Hoàn Kiếm Lake.",
+          "status": "legend",
+          "note": "A much-loved folk legend, written down long after his time. The lake's name keeps it alive."
+        },
+        {
+          "text": "Nguyễn Trãi wrote the Bình Ngô đại cáo in 1428.",
+          "status": "confirmed",
+          "note": "The text survives in his collected works and the Toàn thư."
+        },
+        {
+          "text": "Trần Nguyên Hãn and Phạm Văn Xảo were really plotting against Lê Lợi.",
+          "status": "disputed",
+          "note": "The annals record their deaths; many historians suspect a suspicious king clearing out powerful old comrades."
+        }
+      ],
+      "hook": "Lê Lợi is dead and a nine-year-old is emperor. The men around him are about to start killing each other, and Nguyễn Trãi will not survive it.",
+      "images": [
+        {
+          "file": "File:Hanoi - Turtle Tower (Tháp Rùa), Hoàn Kiếm Lake.jpg",
+          "url": "https://upload.wikimedia.org/wikipedia/commons/4/4d/Hanoi_-_Turtle_Tower_%28Th%C3%A1p_R%C3%B9a%29%2C_Ho%C3%A0n_Ki%E1%BA%BFm_Lake.jpg",
+          "page": "https://commons.wikimedia.org/wiki/File:Hanoi_-_Turtle_Tower_(Th%C3%A1p_R%C3%B9a),_Ho%C3%A0n_Ki%E1%BA%BFm_Lake.jpg",
+          "credit": "P. Hughes",
+          "license": "CC BY 4.0",
+          "made": "2014",
+          "caption": "No portrait of Lê Lợi survives; this is the Turtle Tower on Hoàn Kiếm Lake, a 19th-century building on the lake of his legend.",
+          "alt": "The small Turtle Tower on its islet in Hoàn Kiếm Lake, Hanoi, with the post office behind"
+        }
+      ],
+      "sources": [
+        {
+          "title": "Đại Việt sử ký toàn thư (Complete Annals of Đại Việt)",
+          "author": "Ngô Sĩ Liên and later court historians",
+          "note": "Completed 1479, expanded 1697"
+        },
+        {
+          "title": "A History of the Vietnamese",
+          "author": "Keith W. Taylor",
+          "note": "Cambridge University Press, 2013"
+        },
+        {
+          "title": "Việt Nam: A History from Earliest Times to the Present",
+          "author": "Ben Kiernan",
+          "note": "Oxford University Press, 2017"
+        }
+      ],
+      "review": {
+        "status": "draft",
+        "notes": "Drafted from the listed sources; needs a human fact-check."
+      }
+    },
+    {
+      "id": "lychee-garden",
+      "kind": "interregnum",
+      "rulers": [],
+      "house": "later-le",
+      "title": "Murder in the Lychee Garden",
+      "tagline": "A dead emperor, a framed statesman and a midnight murder",
+      "start": {
+        "date": "1433-10-05"
+      },
+      "end": {
+        "date": "1460"
+      },
+      "contestedWith": [],
+      "relationToPredecessor": "Son and grandsons of Lê Lợi",
+      "ageAtAccession": "Boy kings",
+      "cameToPower": "Inherited; regents ruled",
+      "reignEnded": "Palace coup, then counter-coup",
+      "previously": "Lê Lợi dies after five years, leaving a nine-year-old heir.",
+      "paragraphs": [
+        "Lê Thái Tông was nine when he became emperor, so the old generals ran things. The most powerful, the regent Lê Sát, was forced to kill himself in 1437 once the boy grew old enough to resent him. Then, in 1442, Thái Tông died suddenly at the Lychee Garden (Lệ Chi Viên), an estate where he had spent the night with Nguyễn Thị Lộ, a concubine of the great statesman Nguyễn Trãi.",
+        "The court blamed Nguyễn Trãi. He, Thị Lộ and three generations of his family were put to death for killing the king. The new emperor, Lê Nhân Tông, was a baby, so his mother Nguyễn Thị Anh ruled for him.",
+        "Nhân Tông grew up, but not for long. One night in 1459 his elder half-brother Lê Nghi Dân broke into the palace with his men and killed him and his mother. Nghi Dân lasted only months. In 1460 officials overthrew and killed him, and crowned Nhân Tông's younger half-brother, the teenage Lê Tư Thành."
+      ],
+      "claims": [
+        {
+          "text": "Nguyễn Trãi was framed for the emperor's death.",
+          "status": "disputed",
+          "note": "No real evidence of a plot survives. Many historians think the emperor simply fell ill and Trãi's enemies pounced. He was cleared in 1464."
+        },
+        {
+          "text": "Nghi Dân had once been the heir, until his father passed him over for the baby Nhân Tông.",
+          "status": "confirmed",
+          "note": "Recorded in the Toàn thư; it explains his grudge."
+        },
+        {
+          "text": "Thị Lộ was a snake spirit taking revenge on Nguyễn Trãi's family.",
+          "status": "legend",
+          "note": "A folk tale told to explain the disaster. It is not history."
+        }
+      ],
+      "hook": "The palace has been washed in blood twice. Now a teenager takes the throne, and he will become the greatest emperor the Lê ever had.",
+      "images": [
+        {
+          "file": "File:Statue of a tiger, Lê Lợi mausoleum, Thanh Hóa Province (1433), Vietnam National Museum of Fine Arts, Hanoi, Vietnam - 20131030.JPG",
+          "url": "https://upload.wikimedia.org/wikipedia/commons/0/05/Statue_of_a_tiger%2C_L%C3%AA_L%E1%BB%A3i_mausoleum%2C_Thanh_H%C3%B3a_Province_%281433%29%2C_Vietnam_National_Museum_of_Fine_Arts%2C_Hanoi%2C_Vietnam_-_20131030.JPG",
+          "page": "https://commons.wikimedia.org/wiki/File:Statue_of_a_tiger,_L%C3%AA_L%E1%BB%A3i_mausoleum,_Thanh_H%C3%B3a_Province_(1433),_Vietnam_National_Museum_of_Fine_Arts,_Hanoi,_Vietnam_-_20131030.JPG",
+          "credit": "Unknown author",
+          "license": "CC BY-SA 3.0",
+          "made": "1433",
+          "caption": "A stone tiger carved in 1433 for Lê Lợi's tomb in Thanh Hóa, the year his nine-year-old son took the throne.",
+          "alt": "A carved stone tiger statue displayed in a museum in Hanoi"
+        }
+      ],
+      "sources": [
+        {
+          "title": "Đại Việt sử ký toàn thư (Complete Annals of Đại Việt)",
+          "author": "Ngô Sĩ Liên and later court historians",
+          "note": "Completed 1479, expanded 1697"
+        },
+        {
+          "title": "A History of the Vietnamese",
+          "author": "Keith W. Taylor",
+          "note": "Cambridge University Press, 2013"
+        },
+        {
+          "title": "Việt Nam: A History from Earliest Times to the Present",
+          "author": "Ben Kiernan",
+          "note": "Oxford University Press, 2017"
+        }
+      ],
+      "review": {
+        "status": "draft",
+        "notes": "Drafted from the listed sources; needs a human fact-check."
+      }
+    },
+    {
+      "id": "le-thanh-tong",
+      "kind": "monarch",
+      "rulers": [
+        "le-thanh-tong"
+      ],
+      "tagline": "The golden-age emperor who wrote the law and broke Champa",
+      "start": {
+        "date": "1460"
+      },
+      "end": {
+        "date": "1497-03-03"
+      },
+      "contestedWith": [],
+      "relationToPredecessor": "Half-brother of Lê Nhân Tông",
+      "ageAtAccession": "17 or 18",
+      "cameToPower": "Crowned by officials after a coup",
+      "reignEnded": "Died after 37 years",
+      "previously": "Officials kill the usurper Nghi Dân and crown a teenage prince.",
+      "paragraphs": [
+        "Lê Thánh Tông is the Lê dynasty at its peak. He built a Confucian state run by officials chosen in exams, held the exams regularly, and from 1484 had the names of the top graduates carved on stone steles at the Temple of Literature, where many still stand. His law code, the Hồng Đức code, gave women some rights to property and inheritance, unusual for its time. He also cleared Nguyễn Trãi's name.",
+        "He was a warrior too. In 1471 he took Vijaya, the Cham capital, captured its king and pushed the border far to the south. Champa never fully recovered. He had maps made of the whole kingdom, finished in 1490. And he wrote poetry, leading a circle of 28 court poets called the Tao Đàn. When he died in 1497, his son Lê Hiến Tông took over a strong, rich kingdom."
+      ],
+      "claims": [
+        {
+          "text": "The Hồng Đức code gave women real property and inheritance rights.",
+          "status": "disputed",
+          "note": "The articles exist, but historians debate how far they reflected everyday life and how much was new."
+        },
+        {
+          "text": "The doctors' steles at the Temple of Literature began under Thánh Tông in 1484.",
+          "status": "confirmed",
+          "note": "82 steles survive and are on UNESCO's Memory of the World register."
+        },
+        {
+          "text": "Thánh Tông captured the Cham capital Vijaya and its king in 1471.",
+          "status": "confirmed",
+          "note": "Recorded in the Toàn thư and in Ming records of Cham complaints."
+        }
+      ],
+      "hook": "The golden age won't last. Within a few years of his death the Lê throne falls to a string of cruel, greedy and short-lived kings.",
+      "images": [
+        {
+          "file": "File:Stelae of Doctors - Temple of Literature, Hanoi - DSC04680.JPG",
+          "url": "https://upload.wikimedia.org/wikipedia/commons/5/53/Stelae_of_Doctors_-_Temple_of_Literature%2C_Hanoi_-_DSC04680.JPG",
+          "page": "https://commons.wikimedia.org/wiki/File:Stelae_of_Doctors_-_Temple_of_Literature,_Hanoi_-_DSC04680.JPG",
+          "credit": "Daderot",
+          "license": "CC0",
+          "made": "2014",
+          "caption": "Stone steles of the doctors at the Temple of Literature in Hanoi, a custom Lê Thánh Tông began in 1484. Photographed in 2014.",
+          "alt": "Rows of stone steles mounted on stone turtles at the Temple of Literature, Hanoi"
+        }
+      ],
+      "sources": [
+        {
+          "title": "Đại Việt sử ký toàn thư (Complete Annals of Đại Việt)",
+          "author": "Ngô Sĩ Liên and later court historians",
+          "note": "Completed 1479, expanded 1697"
+        },
+        {
+          "title": "A History of the Vietnamese",
+          "author": "Keith W. Taylor",
+          "note": "Cambridge University Press, 2013"
+        },
+        {
+          "title": "Việt Nam: A History from Earliest Times to the Present",
+          "author": "Ben Kiernan",
+          "note": "Oxford University Press, 2017"
+        }
+      ],
+      "review": {
+        "status": "draft",
+        "notes": "Drafted from the listed sources; needs a human fact-check."
+      }
+    },
+    {
+      "id": "le-decline",
+      "kind": "interregnum",
+      "rulers": [],
+      "house": "later-le",
+      "title": "The Devil King and the Pig King",
+      "tagline": "A devil king, a pig king and a palace nine storeys high",
+      "start": {
+        "date": "1497-03-03"
+      },
+      "end": {
+        "date": "1527"
+      },
+      "contestedWith": [],
+      "relationToPredecessor": "Descendants of Lê Thánh Tông",
+      "ageAtAccession": "Various",
+      "cameToPower": "Inheritance, coups and murder",
+      "reignEnded": "General Mạc Đăng Dung takes over",
+      "previously": "Lê Thánh Tông dies after 37 years, leaving a strong kingdom.",
+      "paragraphs": [
+        "Thánh Tông's son Lê Hiến Tông ruled well enough but died in 1504. Then things went wrong fast. In 1505 Lê Uy Mục came to the throne and earned the nickname devil king (quỷ vương) for killing relatives and officials. In 1509 his cousin Lê Tương Dực overthrew and killed him.",
+        "Tương Dực was no better. A Chinese envoy said he looked like a pig, and the name pig king (trư vương) stuck. He drained the treasury on the Cửu Trùng Đài, a palace nine storeys high, while revolts broke out. In 1516 the general Trịnh Duy Sản killed him. A rebel, Trần Cảo, who claimed descent from the Trần, even seized Thăng Long for a time.",
+        "Boy emperors followed, Lê Chiêu Tông and then his brother Lê Cung Hoàng, each a puppet of rival generals. The one who came out on top was Mạc Đăng Dung, a tough commander who by the 1520s held the court and the army."
+      ],
+      "claims": [
+        {
+          "text": "Lê Uy Mục was a monster who murdered his own family.",
+          "status": "disputed",
+          "note": "The Toàn thư's portrait is one-sided; it was written partly to justify the coup that killed him."
+        },
+        {
+          "text": "A Chinese envoy called Tương Dực a pig king.",
+          "status": "legend",
+          "note": "The Toàn thư quotes the remark, but it is a handy insult for a king the chroniclers despised and can't be checked."
+        },
+        {
+          "text": "Tương Dực built a nine-storey palace, the Cửu Trùng Đài.",
+          "status": "confirmed",
+          "note": "Recorded in the Toàn thư; nothing of it survives."
+        }
+      ],
+      "hook": "Mạc Đăng Dung has the army and the boy emperor in his hands. He is a fisherman's son, and he is about to make himself king.",
+      "images": [
+        {
+          "file": "File:Legendary lion (Nghe), Le Thanh Tong king's temple, Thanh Hoa province, early 17th century AD, lacquered wood - Vietnam National Museum of Fine Arts - Hanoi, Vietnam - DSC04875.JPG",
+          "url": "https://upload.wikimedia.org/wikipedia/commons/f/f5/Legendary_lion_%28Nghe%29%2C_Le_Thanh_Tong_king%27s_temple%2C_Thanh_Hoa_province%2C_early_17th_century_AD%2C_lacquered_wood_-_Vietnam_National_Museum_of_Fine_Arts_-_Hanoi%2C_Vietnam_-_DSC04875.JPG",
+          "page": "https://commons.wikimedia.org/wiki/File:Legendary_lion_(Nghe),_Le_Thanh_Tong_king%27s_temple,_Thanh_Hoa_province,_early_17th_century_AD,_lacquered_wood_-_Vietnam_National_Museum_of_Fine_Arts_-_Hanoi,_Vietnam_-_DSC04875.JPG",
+          "credit": "Daderot",
+          "license": "CC0",
+          "made": "Early 17th century",
+          "caption": "A lacquered wooden lion from Lê Thánh Tông's temple in Thanh Hóa, carved about a century after these troubled reigns.",
+          "alt": "A lacquered wooden carving of a mythical lion in a museum display"
+        }
+      ],
+      "sources": [
+        {
+          "title": "Đại Việt sử ký toàn thư (Complete Annals of Đại Việt)",
+          "author": "Ngô Sĩ Liên and later court historians",
+          "note": "Completed 1479, expanded 1697"
+        },
+        {
+          "title": "A History of the Vietnamese",
+          "author": "Keith W. Taylor",
+          "note": "Cambridge University Press, 2013"
+        },
+        {
+          "title": "Việt Nam: A History from Earliest Times to the Present",
+          "author": "Ben Kiernan",
+          "note": "Oxford University Press, 2017"
+        }
+      ],
+      "review": {
+        "status": "draft",
+        "notes": "Drafted from the listed sources; needs a human fact-check."
+      }
+    },
+    {
+      "id": "mac-dang-dung",
+      "kind": "monarch",
+      "rulers": [
+        "mac-dang-dung"
+      ],
+      "tagline": "The fisherman's son who made himself king",
+      "start": {
+        "date": "1527"
+      },
+      "end": {
+        "date": "1541"
+      },
+      "contestedWith": [
+        "le-restoration"
+      ],
+      "relationToPredecessor": "General of the Lê, no royal blood",
+      "ageAtAccession": "About 44",
+      "cameToPower": "Seized the throne from the Lê",
+      "reignEnded": "Died as retired emperor",
+      "previously": "Boy emperors come and go while Mạc Đăng Dung takes control.",
+      "paragraphs": [
+        "Mạc Đăng Dung came from a fishing family on the coast and got his start, the story goes, by winning a wrestling contest to join the palace guard. He rose through the civil wars to command the army. In mid-1527 he took the throne and had the last Lê emperor, Cung Hoàng, and the emperor's mother killed. The Mạc dynasty had begun.",
+        "He didn't stay emperor long, at least on paper. Around 1529 or 1530 he handed the title to his son Mạc Đăng Doanh and, like the Trần before him, kept ruling as retired emperor. Meanwhile Lê loyalists crowned a prince in exile in 1533 and began fighting back from the south.",
+        "In 1540 a Ming army gathered on the border to punish the usurper. Mạc Đăng Dung went to meet it, knelt with a rope around his neck, and handed over border districts. The Ming downgraded Đại Việt from a kingdom to a mere commission under him. It worked: there was no invasion. He died in 1541, still the power behind the throne."
+      ],
+      "claims": [
+        {
+          "text": "Mạc Đăng Dung began his career by winning a wrestling contest.",
+          "status": "legend",
+          "note": "Told in later accounts. That he rose from humble roots through the army is not in doubt."
+        },
+        {
+          "text": "He submitted to the Ming kneeling with a rope around his neck.",
+          "status": "confirmed",
+          "note": "Described in Ming records and the Vietnamese annals; the Lê chroniclers made the most of his humiliation."
+        },
+        {
+          "text": "He had the last Lê emperor and his mother killed in 1527.",
+          "status": "confirmed",
+          "note": "Recorded in the Toàn thư, written by the Lê side, but not seriously doubted."
+        }
+      ],
+      "hook": "The Lê are not finished. Loyalists have crowned their own emperor in exile, and a long war between north and south is just getting started.",
+      "images": [
+        {
+          "file": "File:An Nan Lai Wei Tu Ce.JPG",
+          "url": "https://upload.wikimedia.org/wikipedia/commons/7/7c/An_Nan_Lai_Wei_Tu_Ce.JPG",
+          "page": "https://commons.wikimedia.org/wiki/File:An_Nan_Lai_Wei_Tu_Ce.JPG",
+          "credit": "Feng Shiyang, Liang Tianxi, Jiang Meizhong",
+          "license": "Public domain",
+          "made": "16th century",
+          "caption": "A Ming Chinese illustration of Mạc Đăng Dung offering submission to the Ming envoys, from the album Annan laiwei tuce. Drawn by the Chinese side, it is not a true likeness.",
+          "alt": "Chinese ink illustration of a ruler and officials offering tribute before Ming envoys"
+        }
+      ],
+      "sources": [
+        {
+          "title": "Đại Việt sử ký toàn thư (Complete Annals of Đại Việt)",
+          "author": "Ngô Sĩ Liên and later court historians",
+          "note": "Completed 1479, expanded 1697"
+        },
+        {
+          "title": "A History of the Vietnamese",
+          "author": "Keith W. Taylor",
+          "note": "Cambridge University Press, 2013"
+        },
+        {
+          "title": "Việt Nam: A History from Earliest Times to the Present",
+          "author": "Ben Kiernan",
+          "note": "Oxford University Press, 2017"
+        }
+      ],
+      "review": {
+        "status": "draft",
+        "notes": "Drafted from the listed sources; needs a human fact-check."
+      }
+    },
+    {
+      "id": "le-restoration",
+      "kind": "interregnum",
+      "rulers": [],
+      "house": "later-le",
+      "title": "North Against South",
+      "tagline": "Two courts, one country, and the in-laws who took over",
+      "start": {
+        "date": "1533"
+      },
+      "end": {
+        "date": "1592"
+      },
+      "contestedWith": [
+        "mac-dang-dung"
+      ],
+      "relationToPredecessor": "Lê emperors in exile",
+      "ageAtAccession": "Various",
+      "cameToPower": "Crowned by loyalist generals",
+      "reignEnded": "Loyalists retake Thăng Long",
+      "previously": "Mạc Đăng Dung bows to the Ming and dies; the Mạc rule on.",
+      "paragraphs": [
+        "In 1533 the loyalist general Nguyễn Kim crowned a Lê prince, Lê Trang Tông, in exile and began fighting the Mạc from Thanh Hóa. Nguyễn Kim was poisoned in 1545, and his son-in-law Trịnh Kiểm took over the loyalist cause. Trịnh Kiểm ran the war and the emperor. From now on the Lê kings were figureheads.",
+        "Nguyễn Kim's son Nguyễn Hoàng watched Trịnh Kiểm with fear. His elder brother had already died, and many blamed Kiểm. In 1558 Hoàng asked to govern the far south, Thuận Hóa, a rough frontier on the old Cham border, and left. It was a fateful move. His family would rule the south for over two centuries.",
+        "In the north, Mạc Đăng Dung's descendants held Thăng Long. The war ground on for decades until Trịnh Kiểm's son Trịnh Tùng took the capital in 1592 and executed the Mạc ruler Mạc Mậu Hợp. A Mạc remnant clung on in the mountains of Cao Bằng until 1677."
+      ],
+      "claims": [
+        {
+          "text": "Nguyễn Kim was poisoned by a Mạc defector.",
+          "status": "disputed",
+          "note": "The annals say a surrendered Mạc general poisoned him; some suspect his own camp."
+        },
+        {
+          "text": "Trịnh Kiểm had Nguyễn Hoàng's elder brother killed.",
+          "status": "disputed",
+          "note": "A long-held suspicion, strongest in sources written under the Nguyễn, who had every reason to blame the Trịnh."
+        },
+        {
+          "text": "The sage Nguyễn Bỉnh Khiêm told Nguyễn Hoàng that the mountains of the south could shelter his family for ten thousand generations.",
+          "status": "legend",
+          "note": "A famous saying found in later Nguyễn-era tradition; it looks like a blessing added after the fact."
+        }
+      ],
+      "hook": "The Mạc are crushed and the Lê are back in Thăng Long. But the Trịnh rule the north and the Nguyễn the south, and the two families are heading for war.",
+      "images": [
+        {
+          "file": "File:Thành Nhà Mạc.jpg",
+          "url": "https://upload.wikimedia.org/wikipedia/commons/a/ad/Th%C3%A0nh_Nh%C3%A0_M%E1%BA%A1c.jpg",
+          "page": "https://commons.wikimedia.org/wiki/File:Th%C3%A0nh_Nh%C3%A0_M%E1%BA%A1c.jpg",
+          "credit": "Victor311",
+          "license": "CC BY-SA 4.0",
+          "made": "2022",
+          "caption": "Sunset over the hills of Lạng Sơn, seen from the ruins of a Mạc citadel; the Mạc held out in the northern mountains long after losing Thăng Long.",
+          "alt": "Hills at sunset seen from the old Mạc citadel in Lạng Sơn"
+        }
+      ],
+      "sources": [
+        {
+          "title": "Đại Việt sử ký toàn thư (Complete Annals of Đại Việt)",
+          "author": "Ngô Sĩ Liên and later court historians",
+          "note": "Completed 1479, expanded 1697"
+        },
+        {
+          "title": "A History of the Vietnamese",
+          "author": "Keith W. Taylor",
+          "note": "Cambridge University Press, 2013"
+        },
+        {
+          "title": "Việt Nam: A History from Earliest Times to the Present",
+          "author": "Ben Kiernan",
+          "note": "Oxford University Press, 2017"
+        },
+        {
+          "title": "Nguyễn Cochinchina: Southern Vietnam in the Seventeenth and Eighteenth Centuries",
+          "author": "Li Tana",
+          "note": "Cornell Southeast Asia Program, 1998"
+        }
+      ],
+      "review": {
+        "status": "draft",
+        "notes": "Drafted from the listed sources; needs a human fact-check."
+      }
+    },
+    {
+      "id": "trinh-nguyen",
+      "kind": "interregnum",
+      "rulers": [],
+      "house": "later-le",
+      "title": "Two Lords, One Puppet Emperor",
+      "tagline": "An emperor on the throne and two warlords running the show",
+      "start": {
+        "date": "1592"
+      },
+      "end": {
+        "date": "1786"
+      },
+      "contestedWith": [
+        "tay-son-rising"
+      ],
+      "relationToPredecessor": "Lê emperors, Trịnh and Nguyễn lords",
+      "ageAtAccession": "Various",
+      "cameToPower": "Lords ruled in the emperor's name",
+      "reignEnded": "Tây Sơn take Thăng Long",
+      "previously": "Trịnh Tùng takes Thăng Long and the Mạc are crushed.",
+      "paragraphs": [
+        "For almost two centuries the Lê emperors sat on the throne and did as they were told. In the north the Trịnh lords (chúa) ruled from Thăng Long in the emperor's name. In the south the Nguyễn lords ruled from around Huế. Between 1627 and 1672 the two fought seven campaigns. The Nguyễn held out behind great walls at Đồng Hới, and the war ended in stalemate with the Gianh River as the border.",
+        "Blocked in the north, the Nguyễn pushed south into Cham and Khmer lands. In 1698 they set up a prefecture at Gia Định, today's Saigon. Hội An grew into a busy port full of Japanese, Chinese and European traders. Jesuit missionaries came too. One of them, Alexandre de Rhodes, published a Vietnamese–Portuguese–Latin dictionary in Rome in 1651, an early step towards quốc ngữ, the alphabet Vietnamese is written in today.",
+        "By the 1770s both lordships were rotting from within. Hunger and heavy taxes stirred up the peasants, and in 1771 three brothers rose at Tây Sơn in the south. In 1786 one of them, Nguyễn Huệ, marched north, took Thăng Long and finished off the Trịnh."
+      ],
+      "claims": [
+        {
+          "text": "Alexandre de Rhodes invented the modern Vietnamese alphabet.",
+          "status": "disputed",
+          "note": "He published it, but the script was worked out by several Jesuits, notably Francisco de Pina, with Vietnamese helpers."
+        },
+        {
+          "text": "The scholar Đào Duy Từ designed the Nguyễn walls that stopped the Trịnh.",
+          "status": "confirmed",
+          "note": "Nguyễn records credit him with the defences near Đồng Hới; traces of the walls survive."
+        },
+        {
+          "text": "Saigon's life as a Vietnamese city began in 1698.",
+          "status": "confirmed",
+          "note": "Nguyễn Hữu Cảnh set up Gia Định that year, though a Khmer settlement, Prey Nokor, was already there."
+        }
+      ],
+      "hook": "Go back to 1771. In a village called Tây Sơn, three brothers are about to turn the whole country upside down.",
+      "images": [
+        {
+          "file": "File:Dictionarium Annamiticum Lusitanum et Latinum.jpg",
+          "url": "https://upload.wikimedia.org/wikipedia/commons/2/26/Dictionarium_Annamiticum_Lusitanum_et_Latinum.jpg",
+          "page": "https://commons.wikimedia.org/wiki/File:Dictionarium_Annamiticum_Lusitanum_et_Latinum.jpg",
+          "credit": "Alexandre de Rhodes",
+          "license": "Public domain",
+          "made": "1651",
+          "caption": "The title page of Alexandre de Rhodes's Vietnamese–Portuguese–Latin dictionary, printed in Rome in 1651.",
+          "alt": "Printed Latin title page of the Dictionarium Annamiticum Lusitanum et Latinum"
+        }
+      ],
+      "sources": [
+        {
+          "title": "A History of the Vietnamese",
+          "author": "Keith W. Taylor",
+          "note": "Cambridge University Press, 2013"
+        },
+        {
+          "title": "Nguyễn Cochinchina: Southern Vietnam in the Seventeenth and Eighteenth Centuries",
+          "author": "Li Tana",
+          "note": "Cornell Southeast Asia Program, 1998"
+        },
+        {
+          "title": "Việt Nam: A History from Earliest Times to the Present",
+          "author": "Ben Kiernan",
+          "note": "Oxford University Press, 2017"
+        }
+      ],
+      "review": {
+        "status": "draft",
+        "notes": "Drafted from the listed sources; needs a human fact-check."
+      }
+    },
+    {
+      "id": "tay-son-rising",
+      "kind": "interregnum",
+      "rulers": [],
+      "house": "tay-son",
+      "title": "The Tây Sơn Brothers",
+      "tagline": "Three brothers from the hills who brought down two houses",
+      "start": {
+        "date": "1771"
+      },
+      "end": {
+        "date": "1788-12-22"
+      },
+      "contestedWith": [
+        "trinh-nguyen"
+      ],
+      "relationToPredecessor": "Rebels, no kin of the Nguyễn lords",
+      "ageAtAccession": "Various",
+      "cameToPower": "Peasant revolt in 1771",
+      "reignEnded": "A Qing army takes Thăng Long",
+      "previously": "Back in 1771, while the two lords feud, trouble starts in the south.",
+      "paragraphs": [
+        "Tây Sơn was a village in the hills of the far south, in today's Bình Định. In 1771 three brothers from there, Nguyễn Nhạc, Nguyễn Huệ and Nguyễn Lữ, rose in revolt. Despite the surname they were no relation of the Nguyễn lords. They promised to take from the rich and help the poor, and hungry villagers joined them in their thousands. Nhạc, the eldest, had been a tax collector who lost the money he collected.",
+        "The Trịnh saw their chance and invaded from the north. Squeezed from both sides, the Nguyễn lords fell apart, and by 1777 the Tây Sơn had killed almost the whole family. One teenage prince, Nguyễn Ánh, got away. Nhạc made himself emperor in 1778, but Huệ was the brothers' real general. When Ánh came back with a Siamese army, Huệ trapped it on the Mekong at Rạch Gầm–Xoài Mút in January 1785 and destroyed it.",
+        "In 1786 Huệ marched north, claiming to rescue the Lê, wiped out the Trịnh and married the Lê princess Ngọc Hân. Then the brothers turned on each other. The last Lê emperor, Lê Chiêu Thống, fled to the Qing and begged for help. Late in 1788 a Qing army marched into Thăng Long and put him back on his throne."
+      ],
+      "claims": [
+        {
+          "text": "Nguyễn Nhạc turned rebel after losing the tax money he had collected.",
+          "status": "disputed",
+          "note": "The story comes from later Nguyễn court histories, which were hostile to the Tây Sơn, and the versions differ."
+        },
+        {
+          "text": "The Tây Sơn were a revolt of the poor against the rich.",
+          "status": "disputed",
+          "note": "Twentieth-century Vietnamese histories told it that way. George Dutton shows the movement's backers, aims and victims were far more mixed."
+        },
+        {
+          "text": "Nguyễn Huệ destroyed a Siamese army and fleet at Rạch Gầm–Xoài Mút in 1785.",
+          "status": "confirmed",
+          "note": "Vietnamese and Siamese accounts agree it was a crushing Siamese defeat, though the numbers they give vary."
+        }
+      ],
+      "hook": "A Qing army holds Thăng Long and a puppet Lê emperor sits on the throne. In the south, Nguyễn Huệ stops pretending to serve anyone. He is about to crown himself and march.",
+      "images": [
+        {
+          "file": "File:Tượng đài Rạch Gầm-Xoài Mút.JPG",
+          "url": "https://upload.wikimedia.org/wikipedia/commons/a/a6/T%C6%B0%E1%BB%A3ng_%C4%91%C3%A0i_R%E1%BA%A1ch_G%E1%BA%A7m-Xo%C3%A0i_M%C3%BAt.JPG",
+          "page": "https://commons.wikimedia.org/wiki/File:T%C6%B0%E1%BB%A3ng_%C4%91%C3%A0i_R%E1%BA%A1ch_G%E1%BA%A7m-Xo%C3%A0i_M%C3%BAt.JPG",
+          "credit": "Nguyễn Thanh Quang",
+          "license": "Public domain",
+          "made": "2008 (photo)",
+          "caption": "No portraits of the Tây Sơn brothers survive. This is the modern memorial to the 1785 battle of Rạch Gầm–Xoài Mút, photographed in 2008.",
+          "alt": "Modern war memorial to the battle of Rạch Gầm–Xoài Mút"
+        }
+      ],
+      "sources": [
+        {
+          "title": "The Tây Sơn Uprising: Society and Rebellion in Eighteenth-Century Vietnam",
+          "author": "George Dutton",
+          "note": "University of Hawai'i Press, 2006"
+        },
+        {
+          "title": "A History of the Vietnamese",
+          "author": "K. W. Taylor",
+          "note": "Cambridge University Press, 2013"
+        },
+        {
+          "title": "Việt Nam: A History from Earliest Times to the Present",
+          "author": "Ben Kiernan",
+          "note": "Oxford University Press, 2017"
+        }
+      ],
+      "review": {
+        "status": "draft",
+        "notes": "Drafted from the listed sources; needs a human fact-check."
+      }
+    },
+    {
+      "id": "quang-trung",
+      "kind": "monarch",
+      "rulers": [
+        "quang-trung"
+      ],
+      "tagline": "The emperor who ruined the Qing army's new year",
+      "start": {
+        "date": "1788-12-22"
+      },
+      "end": {
+        "date": "1792-09-16"
+      },
+      "contestedWith": [],
+      "relationToPredecessor": "Second of the three Tây Sơn brothers",
+      "ageAtAccession": "About 35",
+      "cameToPower": "Proclaimed himself emperor",
+      "reignEnded": "Sudden death at about 39",
+      "previously": "A Qing army sits in Thăng Long, guarding the puppet Lê emperor.",
+      "paragraphs": [
+        "On 22 December 1788, at Phú Xuân (today's Huế), Nguyễn Huệ declared himself emperor with the era name Quang Trung. Then he went north at astonishing speed, picking up recruits on the way. The Qing commander in Thăng Long, Sun Shiyi, settled in to celebrate Tết, the lunar new year. He did not expect a fight until spring.",
+        "Quang Trung struck in the middle of the holiday. His men stormed the Qing forts at Ngọc Hồi and Đống Đa, and on 30 January 1789, the fifth day of Tết, he rode into Thăng Long. Sun Shiyi fled back across the Red River, and many of his men drowned or were cut down trying to follow. Lê Chiêu Thống ran with them and died in exile in Beijing.",
+        "Quang Trung then made a smart peace. The Qianlong Emperor recognised him as king, and tribute flowed north again. At home he pushed chữ Nôm, the Vietnamese script, into official use. Then in September 1792 he died suddenly, aged about 39. His heir, Nguyễn Quang Toản, was about nine."
+      ],
+      "claims": [
+        {
+          "text": "Quang Trung sent a lookalike to Qianlong's 80th birthday celebrations in 1790 instead of going himself.",
+          "status": "disputed",
+          "note": "Vietnamese tradition and some later accounts say so. Historians still argue whether the envoy was an impostor and whether the Qing knew."
+        },
+        {
+          "text": "The Qing officer Cen Yihan hanged himself as the Đống Đa camp fell.",
+          "status": "disputed",
+          "note": "This is the Vietnamese tradition. Other accounts simply have him die in the fighting."
+        }
+      ],
+      "hook": "Quang Trung is dead at about 39. His heir is a boy of nine, and in the far south the last Nguyễn prince has been waiting fifteen years for exactly this.",
+      "images": [
+        {
+          "file": "File:Battle at the River Tho-xuong.jpg",
+          "url": "https://upload.wikimedia.org/wikipedia/commons/8/86/Battle_at_the_River_Tho-xuong.jpg",
+          "page": "https://commons.wikimedia.org/wiki/File:Battle_at_the_River_Tho-xuong.jpg",
+          "credit": "Qing imperial court workshop",
+          "license": "Public domain",
+          "made": "Late 18th century",
+          "caption": "No true portrait of Quang Trung survives. This Qing court print shows a river battle from the 1788–89 Qing campaign in Vietnam, seen from the Qing side.",
+          "alt": "Qing court battle print of the campaign against Annam, showing a fight at the Thọ Xương river"
+        }
+      ],
+      "sources": [
+        {
+          "title": "The Tây Sơn Uprising: Society and Rebellion in Eighteenth-Century Vietnam",
+          "author": "George Dutton",
+          "note": "University of Hawai'i Press, 2006"
+        },
+        {
+          "title": "A History of the Vietnamese",
+          "author": "K. W. Taylor",
+          "note": "Cambridge University Press, 2013"
+        },
+        {
+          "title": "Việt Nam: A History from Earliest Times to the Present",
+          "author": "Ben Kiernan",
+          "note": "Oxford University Press, 2017"
+        }
+      ],
+      "review": {
+        "status": "draft",
+        "notes": "Drafted from the listed sources; needs a human fact-check."
+      }
+    },
+    {
+      "id": "gia-long",
+      "kind": "monarch",
+      "rulers": [
+        "gia-long"
+      ],
+      "tagline": "The hunted prince who united Vietnam and took revenge",
+      "start": {
+        "date": "1802-06-01"
+      },
+      "end": {
+        "date": "1820-02-03"
+      },
+      "contestedWith": [],
+      "relationToPredecessor": "Nephew of the last Nguyễn lord",
+      "ageAtAccession": "40",
+      "cameToPower": "Won a 25-year civil war",
+      "reignEnded": "Died at Huế",
+      "previously": "Quang Trung's boy son Cảnh Thịnh loses ground all through the 1790s.",
+      "paragraphs": [
+        "Nguyễn Phúc Ánh was 15 when the Tây Sơn wiped out his family. For years he was hunted, hiding on islands in the Gulf of Siam and living for a time in Bangkok. When his Siamese allies were crushed in 1785, he tried France. The missionary bishop Pigneau de Behaine took Ánh's small son, Prince Cảnh, to Versailles and signed a treaty for him in 1787. France never sent the promised troops.",
+        "Pigneau raised money and a few French volunteers himself. Ánh built a base at Gia Định with European-style forts and a modern navy, and he was patient. After Quang Trung's death he ground the Tây Sơn down. He took Phú Xuân in 1801, adopted the era name Gia Long on 1 June 1802 and took Thăng Long that July. For the first time one ruler held everything from China to the Gulf of Siam.",
+        "His revenge was savage. The Tây Sơn tombs were dug up and Cảnh Thịnh was executed. In 1804, with Qing approval, the country became Việt Nam. Gia Long built the great citadel at Huế and a law code copied from the Qing. Prince Cảnh had died in 1801, but Gia Long passed over Cảnh's son and chose another son of his own as heir: Prince Đảm."
+      ],
+      "claims": [
+        {
+          "text": "Cảnh Thịnh was torn apart by elephants.",
+          "status": "disputed",
+          "note": "The execution is certain. The method comes from European residents and later retellings, and the details vary."
+        },
+        {
+          "text": "Quang Trung's skull was kept locked up in a Huế prison for decades.",
+          "status": "legend",
+          "note": "A long-repeated story. Nguyễn sources confirm revenge on the Tây Sơn tombs, but the details are hard to check."
+        },
+        {
+          "text": "France never honoured the 1787 Treaty of Versailles.",
+          "status": "confirmed",
+          "note": "The treaty text survives. The French governor in India refused to carry it out, and no royal army ever came."
+        }
+      ],
+      "hook": "Gia Long dies in 1820. His heir is a stern Confucian who distrusts Europeans, and French missionaries most of all, whatever his father owed them.",
+      "images": [
+        {
+          "file": "File:Lăng vua Gia Long 2.JPG",
+          "url": "https://upload.wikimedia.org/wikipedia/commons/b/b4/L%C4%83ng_vua_Gia_Long_2.JPG",
+          "page": "https://commons.wikimedia.org/wiki/File:L%C4%83ng_vua_Gia_Long_2.JPG",
+          "credit": "Lê Tấn Lộc",
+          "license": "CC BY-SA 3.0",
+          "made": "2012 (photo)",
+          "caption": "No reliable likeness of Gia Long survives. This is his tomb outside Huế, photographed in 2012.",
+          "alt": "Part of the tomb of Emperor Gia Long near Huế"
+        }
+      ],
+      "sources": [
+        {
+          "title": "Đại Nam thực lục (Veritable Records of Đại Nam)",
+          "author": "Nguyễn dynasty Historiographical Institute (Quốc sử quán)",
+          "note": "Official court chronicle of the Nguyễn, compiled from 1821"
+        },
+        {
+          "title": "A History of Vietnam: From Hong Bang to Tu Duc",
+          "author": "Oscar Chapuis",
+          "note": "Greenwood Press, 1995"
+        },
+        {
+          "title": "A History of the Vietnamese",
+          "author": "K. W. Taylor",
+          "note": "Cambridge University Press, 2013"
+        }
+      ],
+      "review": {
+        "status": "draft",
+        "notes": "Drafted from the listed sources; needs a human fact-check."
+      }
+    },
+    {
+      "id": "minh-mang",
+      "kind": "monarch",
+      "rulers": [
+        "minh-mang"
+      ],
+      "tagline": "The iron Confucian who shut the door on the West",
+      "start": {
+        "date": "1820-02-14"
+      },
+      "end": {
+        "date": "1841-01-20"
+      },
+      "contestedWith": [],
+      "relationToPredecessor": "Son of Gia Long",
+      "ageAtAccession": "28",
+      "cameToPower": "Chosen heir over his nephew",
+      "reignEnded": "Died at Huế aged 49",
+      "previously": "Gia Long dies, leaving a united Việt Nam to his chosen son.",
+      "paragraphs": [
+        "Minh Mạng was the Nguyễn emperor who meant business. His father had leaned on French friends. He wanted a tidy Confucian state run from Huế, and he built one. He redrew the map into provinces under governors he appointed, kept European traders at arm's length, and in 1839 renamed the country Đại Nam, the Great South.",
+        "Christianity he saw as a foreign poison. He banned it, and missionaries and Vietnamese Catholics were put to death. In 1833 Lê Văn Khôi seized the Saigon citadel and rebelled, with Catholic support. The siege lasted until 1835. When the citadel fell, a French priest found inside, Joseph Marchand, was executed by slow slicing.",
+        "Abroad he pushed west and turned much of Cambodia into a Vietnamese protectorate. In Huế he cast the Nine Dynastic Urns, huge bronze vessels that still stand in the palace. He also raised a famously enormous family. When he died in January 1841, his eldest son took the throne."
+      ],
+      "claims": [
+        {
+          "text": "Minh Mạng fathered 142 children.",
+          "status": "confirmed",
+          "note": "The Nguyễn family registers list 78 sons and 64 daughters, which is where the number comes from."
+        },
+        {
+          "text": "Joseph Marchand was executed by slow slicing in 1835.",
+          "status": "confirmed",
+          "note": "Recorded by the Paris Foreign Missions Society. The Catholic Church made him a saint among the Vietnamese Martyrs in 1988."
+        }
+      ],
+      "hook": "Minh Mạng is dead. His son Thiệu Trị inherits a stretched empire, a revolt in Cambodia, and a France whose warships want their missionaries back.",
+      "images": [
+        {
+          "file": "File:Lăng Minh Mạng - Minh Lâu (2024) - img 02.jpg",
+          "url": "https://upload.wikimedia.org/wikipedia/commons/a/a2/L%C4%83ng_Minh_M%E1%BA%A1ng_-_Minh_L%C3%A2u_%282024%29_-_img_02.jpg",
+          "page": "https://commons.wikimedia.org/wiki/File:L%C4%83ng_Minh_M%E1%BA%A1ng_-_Minh_L%C3%A2u_(2024)_-_img_02.jpg",
+          "credit": "Chainwit.",
+          "license": "CC BY 4.0",
+          "made": "2024 (photo)",
+          "caption": "No reliable likeness of Minh Mạng survives. This is the Minh Lâu pavilion at his tomb near Huế, photographed in 2024.",
+          "alt": "The Minh Lâu pavilion in the tomb complex of Emperor Minh Mạng"
+        }
+      ],
+      "sources": [
+        {
+          "title": "Đại Nam thực lục (Veritable Records of Đại Nam)",
+          "author": "Nguyễn dynasty Historiographical Institute (Quốc sử quán)",
+          "note": "Official court chronicle of the Nguyễn, compiled from 1821"
+        },
+        {
+          "title": "Southern Vietnam under the Reign of Minh Mạng (1820–1841)",
+          "author": "Choi Byung Wook",
+          "note": "Cornell Southeast Asia Program, 2004"
+        },
+        {
+          "title": "Vietnam and the Chinese Model",
+          "author": "Alexander Woodside",
+          "note": "Harvard University Press, 1971"
+        },
+        {
+          "title": "A History of Vietnam: From Hong Bang to Tu Duc",
+          "author": "Oscar Chapuis",
+          "note": "Greenwood Press, 1995"
+        }
+      ],
+      "review": {
+        "status": "draft",
+        "notes": "Drafted from the listed sources; needs a human fact-check."
+      }
+    },
+    {
+      "id": "thieu-tri",
+      "kind": "monarch",
+      "rulers": [
+        "thieu-tri"
+      ],
+      "tagline": "The poet king who met the French guns first",
+      "start": {
+        "date": "1841-02-11"
+      },
+      "end": {
+        "date": "1847-11-04"
+      },
+      "contestedWith": [],
+      "relationToPredecessor": "Eldest son of Minh Mạng",
+      "ageAtAccession": "33",
+      "cameToPower": "Succeeded his father",
+      "reignEnded": "Died at Huế aged 40",
+      "previously": "Minh Mạng dies, leaving a tight, closed empire to his eldest son.",
+      "paragraphs": [
+        "Thiệu Trị, born Miên Tông, was a gentler man than his father. He preferred writing poetry to conquering. The Cambodian adventure was costing men and money, and Cambodians and Siamese were fighting back hard, so he pulled his armies out and settled things with Siam. At home he kept his father's ban on Christianity.",
+        "The French had not forgotten it. Their warships kept turning up off Đà Nẵng demanding imprisoned missionaries. In April 1847 two French ships opened fire in the harbour and sank several Vietnamese warships within hours. It was a small taste of what Western guns could do, and Thiệu Trị was furious.",
+        "He died that November, aged 40. His last big decision was about the succession. He passed over his elder son, Hồng Bảo, and named a younger son, Hồng Nhậm, as heir."
+      ],
+      "claims": [
+        {
+          "text": "French warships sank Vietnamese ships at Đà Nẵng in April 1847.",
+          "status": "confirmed",
+          "note": "Both French naval reports and the Nguyễn records describe the clash."
+        },
+        {
+          "text": "Hồng Bảo was passed over because he was lazy and loved pleasure.",
+          "status": "disputed",
+          "note": "That is the court's own explanation. It was written by the side that won."
+        }
+      ],
+      "hook": "The crown has skipped a son. Hồng Bảo will not take that quietly, and the French ships will be back.",
+      "images": [
+        {
+          "file": "File:Gold lang Thieu Tri CdM.jpg",
+          "url": "https://upload.wikimedia.org/wikipedia/commons/7/78/Gold_lang_Thieu_Tri_CdM.jpg",
+          "page": "https://commons.wikimedia.org/wiki/File:Gold_lang_Thieu_Tri_CdM.jpg",
+          "credit": "Unknown Nguyễn court mint; photo by Marie-Lan Nguyen",
+          "license": "CC BY 2.5",
+          "made": "1840s",
+          "caption": "A gold lạng, a bar-shaped piece of money, issued in Thiệu Trị's reign. Photographed in 2008.",
+          "alt": "Gold lạng money bar of Emperor Thiệu Trị"
+        }
+      ],
+      "sources": [
+        {
+          "title": "Đại Nam thực lục (Veritable Records of Đại Nam)",
+          "author": "Nguyễn dynasty Historiographical Institute (Quốc sử quán)",
+          "note": "Official court chronicle of the Nguyễn, compiled from 1821"
+        },
+        {
+          "title": "A History of Vietnam: From Hong Bang to Tu Duc",
+          "author": "Oscar Chapuis",
+          "note": "Greenwood Press, 1995"
+        },
+        {
+          "title": "A History of the Vietnamese",
+          "author": "K. W. Taylor",
+          "note": "Cambridge University Press, 2013"
+        }
+      ],
+      "review": {
+        "status": "draft",
+        "notes": "Drafted from the listed sources; needs a human fact-check."
+      }
+    },
+    {
+      "id": "tu-duc",
+      "kind": "monarch",
+      "rulers": [
+        "tu-duc"
+      ],
+      "tagline": "The scholar emperor who watched France take the south",
+      "start": {
+        "date": "1847-11-05"
+      },
+      "end": {
+        "date": "1883-07-19"
+      },
+      "contestedWith": [],
+      "relationToPredecessor": "Younger son of Thiệu Trị",
+      "ageAtAccession": "18",
+      "cameToPower": "Named heir over his brother",
+      "reignEnded": "Died childless after 36 years",
+      "previously": "Thiệu Trị dies, passing over his elder son for the younger Hồng Nhậm.",
+      "paragraphs": [
+        "Tự Đức was a scholar on the throne, a poet who loved the classics, and he reigned longer than any other Nguyễn. His elder brother Hồng Bảo plotted against him and died in prison. Smallpox in childhood left the emperor frail, and he never had children of his own.",
+        "His bad luck was to rule just as France came for Asia. On 1 September 1858 a French and Spanish fleet attacked Đà Nẵng. Saigon fell in 1859. The Treaty of Saigon in 1862 handed France three southern provinces, and in 1867 the French simply took the other three. That was French Cochinchina.",
+        "Then they turned north. Francis Garnier seized the Hanoi citadel in 1873 and was killed by the Black Flags, Chinese irregulars fighting for the court. In May 1883 Henri Rivière died the same way near Hanoi. Tự Đức died that July, leaving three adopted nephews and a court ready to fight over them."
+      ],
+      "claims": [
+        {
+          "text": "Tự Đức wrote his own long epitaph for his tomb, Khiêm Lăng.",
+          "status": "confirmed",
+          "note": "The stele text at the tomb is his own. He wrote it himself because he had no son to do it."
+        },
+        {
+          "text": "Smallpox made him unable to have children.",
+          "status": "disputed",
+          "note": "He did survive smallpox as a child. Blaming it for his childlessness is a common explanation, not a proven one."
+        },
+        {
+          "text": "The labourers building his tomb rose in revolt in 1866.",
+          "status": "confirmed",
+          "note": "The rising is recorded in Nguyễn sources. Anger at the brutal work on the tomb is the usual explanation for it."
+        }
+      ],
+      "hook": "Tự Đức leaves no son, just three nephews, two powerful regents and a French army in the north. In Huế, emperors are about to start dying fast.",
+      "images": [
+        {
+          "file": "File:Nhà bia lăng Tự Đức.png",
+          "url": "https://upload.wikimedia.org/wikipedia/commons/a/ad/Nh%C3%A0_bia_l%C4%83ng_T%E1%BB%B1_%C4%90%E1%BB%A9c.png",
+          "page": "https://commons.wikimedia.org/wiki/File:Nh%C3%A0_bia_l%C4%83ng_T%E1%BB%B1_%C4%90%E1%BB%A9c.png",
+          "credit": "Bùi Thụy Đào Nguyên",
+          "license": "CC BY-SA 4.0",
+          "made": "2019 (photo)",
+          "caption": "The stele pavilion at Tự Đức's tomb in Huế, which shelters the long epitaph he wrote about himself. Photographed in 2019.",
+          "alt": "The stele pavilion inside the tomb of Emperor Tự Đức in Huế"
+        }
+      ],
+      "sources": [
+        {
+          "title": "The Last Emperors of Vietnam: From Tu Duc to Bao Dai",
+          "author": "Oscar Chapuis",
+          "note": "Greenwood Press, 2000"
+        },
+        {
+          "title": "Đại Nam thực lục (Veritable Records of Đại Nam)",
+          "author": "Nguyễn dynasty Historiographical Institute (Quốc sử quán)",
+          "note": "Official court chronicle of the Nguyễn, compiled from 1821"
+        },
+        {
+          "title": "A History of the Vietnamese",
+          "author": "K. W. Taylor",
+          "note": "Cambridge University Press, 2013"
+        },
+        {
+          "title": "Việt Nam: A History from Earliest Times to the Present",
+          "author": "Ben Kiernan",
+          "note": "Oxford University Press, 2017"
+        }
+      ],
+      "review": {
+        "status": "draft",
+        "notes": "Drafted from the listed sources; needs a human fact-check."
+      }
+    },
+    {
+      "id": "regicide-years",
+      "kind": "interregnum",
+      "rulers": [],
+      "house": "nguyen",
+      "title": "Three Emperors in a Year",
+      "tagline": "Three emperors, two regents, and nobody safe",
+      "start": {
+        "date": "1883-07-19"
+      },
+      "end": {
+        "date": "1884-07-31"
+      },
+      "contestedWith": [],
+      "relationToPredecessor": "Tự Đức's heir, brother and nephew",
+      "ageAtAccession": "Various",
+      "cameToPower": "Picked by the regents",
+      "reignEnded": "Boy emperor dies at 15",
+      "previously": "Tự Đức dies childless, leaving three adopted nephews.",
+      "paragraphs": [
+        "Two regents now ran Huế: Nguyễn Văn Tường and the hard-line general Tôn Thất Thuyết. Tự Đức's chosen heir, his nephew Dục Đức, lasted three days in July 1883 before they threw him off the throne. They locked him up, and that October he starved to death. Next they picked Tự Đức's younger brother, Hiệp Hòa.",
+        "In August a French fleet pounded the Thuận An forts that guarded the river up to Huế. On 25 August Hiệp Hòa signed the Harmand Treaty, accepting a French protectorate. The regents decided he was far too keen on the French, and on 29 November they forced him to take poison. Their third choice was a boy of 14, Kiến Phúc.",
+        "On 6 June 1884 the Patenôtre Treaty made the protectorate permanent. To show Vietnam no longer looked to China, the seal the Qing had given its rulers was melted down in front of French witnesses. Then on 31 July Kiến Phúc died too, aged 15."
+      ],
+      "claims": [
+        {
+          "text": "Dục Đức was starved to death in prison.",
+          "status": "confirmed",
+          "note": "Nguyễn court records and later histories agree he died in confinement after being denied food."
+        },
+        {
+          "text": "Kiến Phúc was poisoned.",
+          "status": "disputed",
+          "note": "Rumour at the time blamed people around the regents. The official account says he died of illness, and nothing was proved."
+        },
+        {
+          "text": "The Qing seal was melted down at the 1884 treaty.",
+          "status": "confirmed",
+          "note": "French officials watched it done and reported it."
+        }
+      ],
+      "hook": "Three emperors gone in a year. The regents need a fourth, and Tôn Thất Thuyết picks a 12-year-old boy who will become the face of the fight against France.",
+      "images": [
+        {
+          "file": "File:Warships at Thuan An.jpg",
+          "url": "https://upload.wikimedia.org/wikipedia/commons/f/f4/Warships_at_Thuan_An.jpg",
+          "page": "https://commons.wikimedia.org/wiki/File:Warships_at_Thuan_An.jpg",
+          "credit": "Charles-Lucien Huard",
+          "license": "Public domain",
+          "made": "1887",
+          "caption": "French warships off the Thuận An forts on 18 August 1883, from a French history of the Tonkin war published in 1887.",
+          "alt": "Illustration of French warships lined up off the Thuận An forts"
+        }
+      ],
+      "sources": [
+        {
+          "title": "The Last Emperors of Vietnam: From Tu Duc to Bao Dai",
+          "author": "Oscar Chapuis",
+          "note": "Greenwood Press, 2000"
+        },
+        {
+          "title": "Đại Nam thực lục (Veritable Records of Đại Nam)",
+          "author": "Nguyễn dynasty Historiographical Institute (Quốc sử quán)",
+          "note": "Official court chronicle of the Nguyễn, compiled from 1821"
+        },
+        {
+          "title": "A History of the Vietnamese",
+          "author": "K. W. Taylor",
+          "note": "Cambridge University Press, 2013"
+        }
+      ],
+      "review": {
+        "status": "draft",
+        "notes": "Drafted from the listed sources; needs a human fact-check."
+      }
+    },
+    {
+      "id": "ham-nghi",
+      "kind": "monarch",
+      "rulers": [
+        "ham-nghi"
+      ],
+      "tagline": "The boy king who ran to the hills to fight France",
+      "start": {
+        "date": "1884-08-02"
+      },
+      "end": {
+        "date": "1885-09-19"
+      },
+      "contestedWith": [],
+      "relationToPredecessor": "Brother of Kiến Phúc",
+      "ageAtAccession": "12",
+      "cameToPower": "Picked by the regents",
+      "reignEnded": "Replaced by the French",
+      "previously": "Boy emperor Kiến Phúc dies at 15. The regents need another.",
+      "paragraphs": [
+        "Ưng Lịch was crowned Hàm Nghi the day before his 13th birthday. The real power was Tôn Thất Thuyết, who was quietly stockpiling guns and building a mountain base. On the night of 4 to 5 July 1885 his troops attacked the French garrison at Huế. By morning the attack had failed, and the French were looting the palace.",
+        "Thuyết fled into the mountains with the boy. That July a call to arms went out in Hàm Nghi's name: the Cần Vương, or Aid the King, edict. Scholars and villagers across the centre and north rose against the French. In September the French simply crowned someone else, the boy's older brother Đồng Khánh.",
+        "Hàm Nghi held out in the hills for three more years. In late 1888 one of his own followers, Trương Quang Ngọc, betrayed him. The French shipped him to Algiers. He never saw Vietnam again. He married a Frenchwoman, became a painter and sculptor, and died in Algiers in 1944."
+      ],
+      "claims": [
+        {
+          "text": "The Cần Vương edict was issued in Hàm Nghi's name in July 1885.",
+          "status": "confirmed",
+          "note": "The text survives. It was almost certainly drafted by Tôn Thất Thuyết, not the 13-year-old himself."
+        },
+        {
+          "text": "Hàm Nghi was betrayed by one of his own men, Trương Quang Ngọc.",
+          "status": "confirmed",
+          "note": "French reports of the capture and Vietnamese accounts agree."
+        }
+      ],
+      "hook": "Hàm Nghi is in the hills with a price on his head. In Huế the French crown his older brother, who has a very different idea of how to survive them.",
+      "images": [
+        {
+          "file": "File:Vua Hàm Nghi năm 1900.jpg",
+          "url": "https://upload.wikimedia.org/wikipedia/commons/2/2c/Vua_H%C3%A0m_Nghi_n%C4%83m_1900.jpg",
+          "page": "https://commons.wikimedia.org/wiki/File:Vua_H%C3%A0m_Nghi_n%C4%83m_1900.jpg",
+          "credit": "Unknown photographer",
+          "license": "Public domain",
+          "made": "c. 1890s",
+          "caption": "Hàm Nghi in exile in Algiers, photographed in the 1890s.",
+          "alt": "Photograph of the exiled Emperor Hàm Nghi in Algiers"
+        }
+      ],
+      "sources": [
+        {
+          "title": "The Last Emperors of Vietnam: From Tu Duc to Bao Dai",
+          "author": "Oscar Chapuis",
+          "note": "Greenwood Press, 2000"
+        },
+        {
+          "title": "A History of the Vietnamese",
+          "author": "K. W. Taylor",
+          "note": "Cambridge University Press, 2013"
+        },
+        {
+          "title": "Việt Nam: A History from Earliest Times to the Present",
+          "author": "Ben Kiernan",
+          "note": "Oxford University Press, 2017"
+        }
+      ],
+      "review": {
+        "status": "draft",
+        "notes": "Drafted from the listed sources; needs a human fact-check."
+      }
+    },
+    {
+      "id": "dong-khanh",
+      "kind": "monarch",
+      "rulers": [
+        "dong-khanh"
+      ],
+      "tagline": "The emperor France crowned while his brother fought",
+      "start": {
+        "date": "1885-09-19"
+      },
+      "end": {
+        "date": "1889-01-28"
+      },
+      "contestedWith": [],
+      "relationToPredecessor": "Older brother of Hàm Nghi",
+      "ageAtAccession": "21",
+      "cameToPower": "Installed by the French",
+      "reignEnded": "Died young at 24",
+      "previously": "Hàm Nghi flees to the hills and calls the country to arms.",
+      "paragraphs": [
+        "Đồng Khánh was Hàm Nghi's older brother and one of Tự Đức's adopted sons. He had been passed over before. Now the French held Huế and needed an emperor who would work with them, and he agreed. He was crowned in September 1885, while his little brother was still out in the hills calling for war.",
+        "He toured the provinces urging the Cần Vương rebels to lay down their arms, and offered pardons. Few listened, and many scholars saw him as a traitor. In 1887 France tied its lands together as French Indochina: Cochinchina a colony, Annam and Tonkin protectorates, with Cambodia too.",
+        "Đồng Khánh died in January 1889, aged only 24. His son Bửu Đảo was just three, so the French and the court looked elsewhere for the next emperor."
+      ],
+      "claims": [
+        {
+          "text": "Many Vietnamese saw Đồng Khánh as a French puppet.",
+          "status": "confirmed",
+          "note": "He owed his throne to the French, and the Cần Vương leaders denounced him as such."
+        },
+        {
+          "text": "His tomb at Huế mixes Vietnamese design with French-made decoration.",
+          "status": "confirmed",
+          "note": "Finished under his son Khải Định, it pairs lacquer and gilding with imported European glass and tiles."
+        }
+      ],
+      "hook": "Đồng Khánh is dead at 24. The French pass over his little son and reach for a nine-year-old whose father was starved to death by the regents.",
+      "images": [
+        {
+          "file": "File:Mausoleum of Emperor Dong Khanh (Hue) - Lăng Đồng Khánh (2024 July) - img 06.jpg",
+          "url": "https://upload.wikimedia.org/wikipedia/commons/c/c0/Mausoleum_of_Emperor_Dong_Khanh_%28Hue%29_-_L%C4%83ng_%C4%90%E1%BB%93ng_Kh%C3%A1nh_%282024_July%29_-_img_06.jpg",
+          "page": "https://commons.wikimedia.org/wiki/File:Mausoleum_of_Emperor_Dong_Khanh_(Hue)_-_L%C4%83ng_%C4%90%E1%BB%93ng_Kh%C3%A1nh_(2024_July)_-_img_06.jpg",
+          "credit": "Chainwit.",
+          "license": "CC BY 4.0",
+          "made": "2024 (photo)",
+          "caption": "Đồng Khánh's tomb near Huế, finished under his son Khải Định. Photographed in 2024.",
+          "alt": "Part of the tomb of Emperor Đồng Khánh near Huế"
+        }
+      ],
+      "sources": [
+        {
+          "title": "The Last Emperors of Vietnam: From Tu Duc to Bao Dai",
+          "author": "Oscar Chapuis",
+          "note": "Greenwood Press, 2000"
+        },
+        {
+          "title": "A History of the Vietnamese",
+          "author": "K. W. Taylor",
+          "note": "Cambridge University Press, 2013"
+        },
+        {
+          "title": "Việt Nam: A History from Earliest Times to the Present",
+          "author": "Ben Kiernan",
+          "note": "Oxford University Press, 2017"
+        }
+      ],
+      "review": {
+        "status": "draft",
+        "notes": "Drafted from the listed sources; needs a human fact-check."
+      }
+    },
+    {
+      "id": "thanh-thai",
+      "kind": "monarch",
+      "rulers": [
+        "thanh-thai"
+      ],
+      "tagline": "The modern young emperor France called mad",
+      "start": {
+        "date": "1889-02-02"
+      },
+      "end": {
+        "date": "1907-09-03"
+      },
+      "contestedWith": [],
+      "relationToPredecessor": "Son of Dục Đức",
+      "ageAtAccession": "9",
+      "cameToPower": "Chosen by the French and court",
+      "reignEnded": "Forced to abdicate",
+      "previously": "Đồng Khánh dies at 24. His son is only three.",
+      "paragraphs": [
+        "Bửu Lân was nine when he was crowned as Thành Thái. His father, Dục Đức, had been starved to death by the regents, and he grew up under close watch. He turned into a curious, restless young man who learned French and loved Western novelties. People said he cut his hair short and drove his own car around Huế.",
+        "He also quietly loathed the French, and they knew it. He clashed with the French Résident-Supérieur, the official who really ran Annam. The French began to say he was mad and pointed to stories of violence in his palace. In 1907 they forced him to abdicate and put his son, not yet seven, on the throne.",
+        "Thành Thái was held under guard at Vũng Tàu on the coast. In 1916 he was shipped with his son to Réunion, a French island in the Indian Ocean. He was allowed home in 1947 and died in Saigon in 1954."
+      ],
+      "claims": [
+        {
+          "text": "Thành Thái was insane.",
+          "status": "disputed",
+          "note": "The French said so. Many historians think it was mostly a pretext for removing an emperor they could not control."
+        },
+        {
+          "text": "He cut his hair short and drove his own car.",
+          "status": "disputed",
+          "note": "Told in Vietnamese and French memoirs. The details vary between versions."
+        }
+      ],
+      "hook": "Thành Thái is gone. On the throne sits his son, not yet seven. The French think a small boy will be easy to handle. They are wrong.",
+      "images": [
+        {
+          "file": "File:Emperor Thanh Thai in court costume (colored).jpg",
+          "url": "https://upload.wikimedia.org/wikipedia/commons/8/8e/Emperor_Thanh_Thai_in_court_costume_%28colored%29.jpg",
+          "page": "https://commons.wikimedia.org/wiki/File:Emperor_Thanh_Thai_in_court_costume_(colored).jpg",
+          "credit": "Unknown photographer",
+          "license": "Public domain",
+          "made": "Early 20th century",
+          "caption": "Thành Thái in court dress. An old black-and-white photograph with colour added later.",
+          "alt": "Colourised photograph of Emperor Thành Thái in court costume"
+        }
+      ],
+      "sources": [
+        {
+          "title": "The Last Emperors of Vietnam: From Tu Duc to Bao Dai",
+          "author": "Oscar Chapuis",
+          "note": "Greenwood Press, 2000"
+        },
+        {
+          "title": "Việt Nam: A History from Earliest Times to the Present",
+          "author": "Ben Kiernan",
+          "note": "Oxford University Press, 2017"
+        },
+        {
+          "title": "A History of the Vietnamese",
+          "author": "K. W. Taylor",
+          "note": "Cambridge University Press, 2013"
+        }
+      ],
+      "review": {
+        "status": "draft",
+        "notes": "Drafted from the listed sources; needs a human fact-check."
+      }
+    },
+    {
+      "id": "duy-tan",
+      "kind": "monarch",
+      "rulers": [
+        "duy-tan"
+      ],
+      "tagline": "The teenage emperor who ran away to start a revolt",
+      "start": {
+        "date": "1907-09-05"
+      },
+      "end": {
+        "date": "1916-05-06"
+      },
+      "contestedWith": [],
+      "relationToPredecessor": "Son of Thành Thái",
+      "ageAtAccession": "6",
+      "cameToPower": "Picked by the French",
+      "reignEnded": "Deposed after a failed rising",
+      "previously": "The French depose Thành Thái and crown his young son.",
+      "paragraphs": [
+        "Vĩnh San was crowned Duy Tân because the French thought a six-year-old would be easy to manage. He grew up watching them and hating what he saw. As a teenager he began talking to men who wanted the French gone.",
+        "In 1916 France was shipping Vietnamese soldiers to the war in Europe. The nationalists Thái Phiên and Trần Cao Vân planned a rising for when those troops turned their guns on their officers, with the young emperor at its head. In early May he slipped out of the palace. But the plot had been betrayed. Within days he was caught, and the two leaders were executed.",
+        "He was sent to join his father on Réunion. There he became a keen radio amateur, and in the Second World War he joined the Free French. On 26 December 1945 he was killed in a plane crash in Africa. In 1987 his body was brought home to Huế."
+      ],
+      "claims": [
+        {
+          "text": "The 1916 rising failed because it was betrayed.",
+          "status": "confirmed",
+          "note": "The French learned of the plan before it began. Vietnamese and French accounts agree."
+        },
+        {
+          "text": "De Gaulle planned to put Duy Tân back on the throne.",
+          "status": "disputed",
+          "note": "The rumour followed his death in 1945. It is possible but unproven, and nothing came of it."
+        }
+      ],
+      "hook": "Duy Tân is on a ship to exile. The French want no more surprises, so they pick a prince who has never given them any trouble: Đồng Khánh's son.",
+      "images": [
+        {
+          "file": "File:Duytan on throne.jpg",
+          "url": "https://upload.wikimedia.org/wikipedia/commons/7/7c/Duytan_on_throne.jpg",
+          "page": "https://commons.wikimedia.org/wiki/File:Duytan_on_throne.jpg",
+          "credit": "Unknown photographer",
+          "license": "CC0",
+          "made": "1907–1916",
+          "caption": "Duy Tân as boy emperor on the throne in Huế.",
+          "alt": "Photograph of the young Emperor Duy Tân on his throne"
+        }
+      ],
+      "sources": [
+        {
+          "title": "The Last Emperors of Vietnam: From Tu Duc to Bao Dai",
+          "author": "Oscar Chapuis",
+          "note": "Greenwood Press, 2000"
+        },
+        {
+          "title": "Việt Nam: A History from Earliest Times to the Present",
+          "author": "Ben Kiernan",
+          "note": "Oxford University Press, 2017"
+        },
+        {
+          "title": "A History of the Vietnamese",
+          "author": "K. W. Taylor",
+          "note": "Cambridge University Press, 2013"
+        }
+      ],
+      "review": {
+        "status": "draft",
+        "notes": "Drafted from the listed sources; needs a human fact-check."
+      }
+    },
+    {
+      "id": "khai-dinh",
+      "kind": "monarch",
+      "rulers": [
+        "khai-dinh"
+      ],
+      "tagline": "The glittering emperor who never said no to France",
+      "start": {
+        "date": "1916-05-18"
+      },
+      "end": {
+        "date": "1925-11-06"
+      },
+      "contestedWith": [],
+      "relationToPredecessor": "Son of Đồng Khánh",
+      "ageAtAccession": "30",
+      "cameToPower": "The French choice",
+      "reignEnded": "Died at Huế aged 40",
+      "previously": "Duy Tân's rising fails and he is shipped off to Réunion.",
+      "paragraphs": [
+        "Bửu Đảo had waited a long time. Passed over as a toddler in 1889, he was 30 when the French finally crowned him as Khải Định. He gave them no trouble at all. He dressed in glittering uniforms heavy with medals and jewels, and backed the colonial government in public.",
+        "In 1922 he became the first Vietnamese emperor to visit France, for the Colonial Exhibition at Marseille. The reformer Phan Châu Trinh, living in France, wrote him an open letter charging him with seven offences against his people. Back home his tomb was rising on a hillside near Huế: grey concrete outside, covered inside in mosaics of broken porcelain and glass.",
+        "He had one son, Vĩnh Thụy, and he took him to France in 1922 and left him there to be schooled. In November 1925 Khải Định died, aged 40."
+      ],
+      "claims": [
+        {
+          "text": "Khải Định raised taxes to pay for his tomb.",
+          "status": "disputed",
+          "note": "His critics said so at the time and it is widely repeated, but how much of the cost came from new taxes is unclear."
+        },
+        {
+          "text": "Phan Châu Trinh accused him of seven offences in an open letter.",
+          "status": "confirmed",
+          "note": "The 1922 letter survives and was widely circulated among Vietnamese in France and at home."
+        }
+      ],
+      "hook": "Khải Định is dead. His heir is a 12-year-old schoolboy in France. He will be crowned in Huế, then sent straight back to his books.",
+      "images": [
+        {
+          "file": "File:Khải Định, empereur d'Annam.jpg",
+          "url": "https://upload.wikimedia.org/wikipedia/commons/7/71/Kh%E1%BA%A3i_%C4%90%E1%BB%8Bnh%2C_empereur_d%27Annam.jpg",
+          "page": "https://commons.wikimedia.org/wiki/File:Kh%E1%BA%A3i_%C4%90%E1%BB%8Bnh,_empereur_d%27Annam.jpg",
+          "credit": "H. Manuel",
+          "license": "Public domain",
+          "made": "c. 1916–1925",
+          "caption": "Khải Định as emperor of Annam, photographed by the H. Manuel studio.",
+          "alt": "Photograph of Emperor Khải Định"
+        }
+      ],
+      "sources": [
+        {
+          "title": "The Last Emperors of Vietnam: From Tu Duc to Bao Dai",
+          "author": "Oscar Chapuis",
+          "note": "Greenwood Press, 2000"
+        },
+        {
+          "title": "Việt Nam: A History from Earliest Times to the Present",
+          "author": "Ben Kiernan",
+          "note": "Oxford University Press, 2017"
+        },
+        {
+          "title": "A History of the Vietnamese",
+          "author": "K. W. Taylor",
+          "note": "Cambridge University Press, 2013"
+        }
+      ],
+      "review": {
+        "status": "draft",
+        "notes": "Drafted from the listed sources; needs a human fact-check."
+      }
+    },
+    {
+      "id": "bao-dai",
+      "kind": "monarch",
+      "rulers": [
+        "bao-dai"
+      ],
+      "tagline": "The last emperor, who handed his sword to the revolution",
+      "start": {
+        "date": "1926-01-08"
+      },
+      "end": {
+        "date": "1945-08-30"
+      },
+      "contestedWith": [],
+      "relationToPredecessor": "Son of Khải Định",
+      "ageAtAccession": "12",
+      "cameToPower": "Succeeded his father",
+      "reignEnded": "Abdicated to the Việt Minh",
+      "previously": "Khải Định dies. His only son is at school in France.",
+      "paragraphs": [
+        "Vĩnh Thụy was crowned Bảo Đại in January 1926, aged 12, then went back to school in France. He came home in 1932 promising reform. He made a young official, Ngô Đình Diệm, a minister, but Diệm quit in 1933 when the French blocked every change. In 1934 Bảo Đại married Nguyễn Hữu Thị Lan, a Catholic, who became Empress Nam Phương.",
+        "After that he mostly hunted big game and drove fast cars. Then the Second World War reached Indochina. On 9 March 1945 Japan overthrew the French, and Bảo Đại proclaimed an independent Empire of Vietnam, with the scholar Trần Trọng Kim as prime minister. In the north, famine was killing perhaps a million people or more.",
+        "In August Japan surrendered, and Hồ Chí Minh's Việt Minh took power in the August Revolution. Bảo Đại announced his abdication on 25 August. On 30 August, at the Noon Gate of Huế, he handed the imperial seal and sword to Việt Minh delegates. After 143 years the Nguyễn were finished, and so was Vietnam's monarchy."
+      ],
+      "claims": [
+        {
+          "text": "Bảo Đại said he would rather be a citizen of a free country than king of an enslaved one.",
+          "status": "confirmed",
+          "note": "The line is in his abdication statement of August 1945. Translations of the exact wording vary."
+        },
+        {
+          "text": "The famine of 1944–45 killed about a million people or more.",
+          "status": "disputed",
+          "note": "Estimates range from around 400,000 to 2 million. The Việt Minh's figure of 2 million is the highest."
+        }
+      ],
+      "images": [
+        {
+          "file": "File:Emperor Bảo Đại on his throne (cropped).jpg",
+          "url": "https://upload.wikimedia.org/wikipedia/commons/0/0f/Emperor_B%E1%BA%A3o_%C4%90%E1%BA%A1i_on_his_throne_%28cropped%29.jpg",
+          "page": "https://commons.wikimedia.org/wiki/File:Emperor_B%E1%BA%A3o_%C4%90%E1%BA%A1i_on_his_throne_(cropped).jpg",
+          "credit": "Unknown photographer",
+          "license": "Public domain",
+          "made": "1920s or 1930s",
+          "caption": "Bảo Đại on the throne, photographed in the 1920s or 1930s.",
+          "alt": "Photograph of Emperor Bảo Đại seated on his throne"
+        }
+      ],
+      "sources": [
+        {
+          "title": "The End of the Vietnamese Monarchy",
+          "author": "Bruce McFarland Lockhart",
+          "note": "Yale Council on Southeast Asia Studies, 1993"
+        },
+        {
+          "title": "The Last Emperors of Vietnam: From Tu Duc to Bao Dai",
+          "author": "Oscar Chapuis",
+          "note": "Greenwood Press, 2000"
+        },
+        {
+          "title": "Việt Nam: A History from Earliest Times to the Present",
+          "author": "Ben Kiernan",
+          "note": "Oxford University Press, 2017"
+        }
+      ],
+      "review": {
+        "status": "draft",
+        "notes": "Drafted from the listed sources; needs a human fact-check."
+      }
+    }
+  ]
+}
