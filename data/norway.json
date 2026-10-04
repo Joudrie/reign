@@ -1,0 +1,2795 @@
+{
+  "id": "norway",
+  "name": "Norway",
+  "blurb": "From Harald Fairhair to Harald V",
+  "dateConvention": "Viking-age dates are traditional, worked out by later saga writers, and many are approximate. Later dates follow the standard sources.",
+  "houses": [
+    {
+      "id": "fairhair",
+      "name": "Fairhair",
+      "color": "#9b2c2c"
+    },
+    {
+      "id": "lade",
+      "name": "Jarls of Lade",
+      "color": "#7a6a55",
+      "plain": true
+    },
+    {
+      "id": "knytlinga",
+      "name": "Knýtlinga",
+      "color": "#5b6e3a"
+    },
+    {
+      "id": "hardrada",
+      "name": "Hardrada",
+      "color": "#2f5d8a"
+    },
+    {
+      "id": "civil-war",
+      "name": "Civil war",
+      "color": "#55524a",
+      "plain": true
+    },
+    {
+      "id": "sverre",
+      "name": "Sverre",
+      "color": "#6b4a8a"
+    },
+    {
+      "id": "bjelbo",
+      "name": "Bjelbo",
+      "color": "#3d7a7a"
+    },
+    {
+      "id": "estridsen",
+      "name": "Estridsen",
+      "color": "#b8860b"
+    },
+    {
+      "id": "union",
+      "name": "In union",
+      "color": "#8d8780",
+      "plain": true
+    },
+    {
+      "id": "oldenburg",
+      "name": "Oldenburg",
+      "color": "#a0522d"
+    },
+    {
+      "id": "glucksburg",
+      "name": "Glücksburg",
+      "color": "#8f1d21"
+    }
+  ],
+  "rulers": [
+    {
+      "id": "harald-fairhair",
+      "name": "Harald Fairhair",
+      "house": "fairhair",
+      "born": {
+        "date": "0850",
+        "circa": true,
+        "note": "Traditional estimate; only the sagas give a picture"
+      },
+      "died": {
+        "date": "0932",
+        "circa": true,
+        "note": "Rogaland, by saga tradition"
+      },
+      "causeOfDeath": "Illness in old age, say the sagas"
+    },
+    {
+      "id": "eric-bloodaxe",
+      "name": "Eric Bloodaxe",
+      "house": "fairhair",
+      "died": {
+        "date": "0954",
+        "note": "Probably Stainmore, in the north of England"
+      },
+      "causeOfDeath": "Killed in battle or ambush"
+    },
+    {
+      "id": "haakon-the-good",
+      "name": "Haakon the Good",
+      "house": "fairhair",
+      "born": {
+        "date": "0920",
+        "circa": true,
+        "note": "Estimate based on saga chronology"
+      },
+      "died": {
+        "date": "0961",
+        "circa": true,
+        "note": "Near Bergen, after the Battle of Fitjar on Stord"
+      },
+      "causeOfDeath": "Arrow wound from the Battle of Fitjar"
+    },
+    {
+      "id": "harald-greycloak",
+      "name": "Harald Greycloak",
+      "house": "fairhair",
+      "born": {
+        "date": "0935",
+        "circa": true,
+        "note": "Modern estimate; the sagas give no year"
+      },
+      "died": {
+        "date": "0970",
+        "circa": true,
+        "note": "Hals, on the Limfjord, Denmark"
+      },
+      "causeOfDeath": "Killed in an ambush"
+    },
+    {
+      "id": "haakon-jarl",
+      "name": "Haakon Sigurdsson",
+      "epithet": "Jarl of Lade",
+      "house": "lade",
+      "born": {
+        "date": "0937",
+        "circa": true,
+        "note": "Modern estimate based on saga chronology"
+      },
+      "died": {
+        "date": "0995",
+        "note": "Rimul, near Melhus in Trøndelag, by saga tradition"
+      },
+      "causeOfDeath": "Murdered by his slave Kark, say the sagas"
+    },
+    {
+      "id": "olaf-tryggvason",
+      "name": "Olaf Tryggvason",
+      "house": "fairhair",
+      "born": {
+        "date": "0963",
+        "circa": true,
+        "note": "Saga chronology; often given as the 960s"
+      },
+      "died": {
+        "date": "1000-09-09",
+        "note": "Battle of Svolder, western Baltic (exact site unknown)"
+      },
+      "causeOfDeath": "Drowned after leaping overboard"
+    },
+    {
+      "id": "olaf-ii",
+      "name": "Olaf II",
+      "epithet": "the Saint",
+      "house": "fairhair",
+      "born": {
+        "date": "0995",
+        "circa": true
+      },
+      "died": {
+        "date": "1030-07-29",
+        "note": "Stiklestad, Trøndelag"
+      },
+      "causeOfDeath": "Killed in battle"
+    },
+    {
+      "id": "cnut",
+      "name": "Cnut",
+      "epithet": "the Great",
+      "house": "knytlinga",
+      "born": {
+        "date": "0990",
+        "circa": true,
+        "note": "Possibly a few years later; sources differ"
+      },
+      "died": {
+        "date": "1035-11-12",
+        "note": "Shaftesbury, Dorset, England"
+      },
+      "causeOfDeath": "Illness; details unknown",
+      "sameAs": [
+        "denmark:cnut"
+      ]
+    },
+    {
+      "id": "magnus-the-good",
+      "name": "Magnus I",
+      "epithet": "the Good",
+      "house": "fairhair",
+      "born": {
+        "date": "1024"
+      },
+      "died": {
+        "date": "1047-10-25",
+        "note": "Denmark; the exact place is uncertain"
+      },
+      "causeOfDeath": "Illness or a fall from his horse",
+      "sameAs": [
+        "denmark:magnus-the-good"
+      ]
+    },
+    {
+      "id": "harald-hardrada",
+      "name": "Harald Hardrada",
+      "house": "hardrada",
+      "born": {
+        "date": "1015",
+        "circa": true,
+        "note": "Ringerike, Norway; year worked out from the sagas"
+      },
+      "died": {
+        "date": "1066-09-25",
+        "note": "Stamford Bridge, Yorkshire"
+      },
+      "causeOfDeath": "Killed in battle, arrow to the throat"
+    },
+    {
+      "id": "olaf-kyrre",
+      "name": "Olaf III",
+      "epithet": "Kyrre, the Peaceful",
+      "house": "hardrada",
+      "born": {
+        "date": "1050",
+        "circa": true
+      },
+      "died": {
+        "date": "1093-09-22",
+        "note": "Haukbø in Ranrike, now in western Sweden"
+      },
+      "causeOfDeath": "Illness"
+    },
+    {
+      "id": "magnus-barefoot",
+      "name": "Magnus III",
+      "epithet": "Barefoot",
+      "house": "hardrada",
+      "born": {
+        "date": "1073",
+        "circa": true,
+        "note": "Traditional year"
+      },
+      "died": {
+        "date": "1103-08-24",
+        "note": "Ulster, Ireland"
+      },
+      "causeOfDeath": "Killed in an ambush"
+    },
+    {
+      "id": "sigurd-the-crusader",
+      "name": "Sigurd I",
+      "epithet": "the Crusader",
+      "house": "hardrada",
+      "born": {
+        "date": "1090",
+        "circa": true
+      },
+      "died": {
+        "date": "1130-03-26",
+        "note": "Oslo"
+      },
+      "causeOfDeath": "Illness"
+    },
+    {
+      "id": "sverre",
+      "name": "Sverre Sigurdsson",
+      "house": "sverre",
+      "born": {
+        "date": "1151",
+        "circa": true,
+        "note": "Traditional year; raised in the Faroe Islands"
+      },
+      "died": {
+        "date": "1202-03-09",
+        "note": "Bergen"
+      },
+      "causeOfDeath": "Illness"
+    },
+    {
+      "id": "haakon-iv",
+      "name": "Haakon IV",
+      "epithet": "the Old",
+      "house": "sverre",
+      "born": {
+        "date": "1204",
+        "note": "Varteig, near Sarpsborg"
+      },
+      "died": {
+        "date": "1263-12-16",
+        "note": "Bishop's Palace, Kirkwall, Orkney"
+      },
+      "causeOfDeath": "Illness"
+    },
+    {
+      "id": "magnus-the-lawmender",
+      "name": "Magnus VI",
+      "epithet": "the Law-mender",
+      "house": "sverre",
+      "born": {
+        "date": "1238-05-01",
+        "note": "Tønsberg"
+      },
+      "died": {
+        "date": "1280-05-09",
+        "note": "Bergen"
+      },
+      "causeOfDeath": "Illness"
+    },
+    {
+      "id": "eric-ii",
+      "name": "Eric II",
+      "epithet": "Priest-hater",
+      "house": "sverre",
+      "born": {
+        "date": "1268"
+      },
+      "died": {
+        "date": "1299-07-15",
+        "note": "Bergen"
+      },
+      "causeOfDeath": "Illness"
+    },
+    {
+      "id": "haakon-v",
+      "name": "Haakon V",
+      "house": "sverre",
+      "born": {
+        "date": "1270-04-10"
+      },
+      "died": {
+        "date": "1319-05-08",
+        "note": "Tønsberg"
+      },
+      "causeOfDeath": "Natural causes"
+    },
+    {
+      "id": "magnus-vii",
+      "name": "Magnus VII Eriksson",
+      "house": "bjelbo",
+      "born": {
+        "date": "1316",
+        "note": "Probably Norway or Sweden; month uncertain"
+      },
+      "died": {
+        "date": "1374-12-01",
+        "note": "Bømlafjorden, western Norway"
+      },
+      "causeOfDeath": "Drowned in a shipwreck"
+    },
+    {
+      "id": "haakon-vi",
+      "name": "Haakon VI",
+      "house": "bjelbo",
+      "born": {
+        "date": "1340",
+        "note": "Probably August 1340"
+      },
+      "died": {
+        "date": "1380-09-11",
+        "note": "Oslo"
+      },
+      "causeOfDeath": "Unknown; died aged about 40"
+    },
+    {
+      "id": "olaf-iv",
+      "name": "Olaf IV",
+      "house": "bjelbo",
+      "born": {
+        "date": "1370",
+        "note": "Akershus, Oslo; probably December 1370"
+      },
+      "died": {
+        "date": "1387-08-03",
+        "note": "Falsterbo, Scania"
+      },
+      "causeOfDeath": "Sudden illness as a teenager",
+      "sameAs": [
+        "denmark:olaf-ii"
+      ]
+    },
+    {
+      "id": "margaret",
+      "name": "Margaret",
+      "epithet": "the Lady King",
+      "house": "estridsen",
+      "born": {
+        "date": "1353",
+        "note": "Søborg Castle, Denmark"
+      },
+      "died": {
+        "date": "1412-10-28",
+        "note": "On her ship in Flensburg harbour"
+      },
+      "causeOfDeath": "Sudden illness, probably plague",
+      "sameAs": [
+        "denmark:margaret-i"
+      ]
+    },
+    {
+      "id": "christian-frederick",
+      "name": "Christian Frederick",
+      "house": "oldenburg",
+      "born": {
+        "date": "1786-09-18",
+        "note": "Christiansborg Palace, Copenhagen"
+      },
+      "died": {
+        "date": "1848-01-20",
+        "note": "Amalienborg Palace, Copenhagen"
+      },
+      "causeOfDeath": "Illness, reportedly blood poisoning",
+      "sameAs": [
+        "denmark:christian-viii"
+      ]
+    },
+    {
+      "id": "haakon-vii",
+      "name": "Haakon VII",
+      "house": "glucksburg",
+      "born": {
+        "date": "1872-08-03",
+        "note": "Charlottenlund, near Copenhagen"
+      },
+      "died": {
+        "date": "1957-09-21",
+        "note": "Royal Palace, Oslo"
+      },
+      "causeOfDeath": "Natural causes, aged 85"
+    },
+    {
+      "id": "olav-v",
+      "name": "Olav V",
+      "house": "glucksburg",
+      "born": {
+        "date": "1903-07-02",
+        "note": "Appleton House, Sandringham, England"
+      },
+      "died": {
+        "date": "1991-01-17",
+        "note": "Kongsseteren, Holmenkollen, Oslo"
+      },
+      "causeOfDeath": "Heart attack"
+    },
+    {
+      "id": "harald-v",
+      "name": "Harald V",
+      "house": "glucksburg",
+      "born": {
+        "date": "1937-02-21",
+        "note": "Skaugum, Asker"
+      },
+      "died": {
+        "date": "2026-08-28",
+        "note": "Rikshospitalet, Oslo"
+      },
+      "causeOfDeath": "Died in hospital in Oslo, aged 89"
+    },
+    {
+      "id": "haakon-viii",
+      "name": "Haakon VIII",
+      "house": "glucksburg",
+      "born": {
+        "date": "1973-07-20",
+        "note": "Oslo"
+      }
+    }
+  ],
+  "reigns": [
+    {
+      "id": "harald-fairhair",
+      "kind": "monarch",
+      "rulers": [
+        "harald-fairhair"
+      ],
+      "tagline": "The king who wouldn't cut his hair until Norway was his",
+      "start": {
+        "date": "0872",
+        "circa": true
+      },
+      "end": {
+        "date": "0932",
+        "circa": true
+      },
+      "contestedWith": [],
+      "relationToPredecessor": "Son of Halfdan the Black",
+      "ageAtAccession": "10, say the sagas",
+      "cameToPower": "Inherited a small southern kingdom",
+      "reignEnded": "Handed power to his son Eric",
+      "previously": "Norway is a patchwork of petty kings, and Viking ships roam Europe.",
+      "paragraphs": [
+        "Around 870, Norway was a long coast of rival chiefs and petty kings. Young men went raiding in England, Ireland and France and came home rich. Harald was the son of one of those small kings, Halfdan the Black. According to the sagas he took over as a boy of ten and spent the next years beating, buying off or driving out every rival he could reach.",
+        "His big moment came in a sea battle at Hafrsfjord, near today's Stavanger. Tradition dates it to 872; many historians now put it in the 880s. Harald won, and the western coast was his. Some beaten chiefs went off to settle Iceland, Orkney and Shetland. He had a lot of wives and a lot of sons, maybe as many as twenty. That was a problem waiting to happen, and in his old age he named one favourite son, Eric, as top king over the rest."
+      ],
+      "claims": [
+        {
+          "text": "Harald swore not to cut or comb his hair until he ruled all Norway, after a girl named Gyda refused to marry a petty king.",
+          "status": "legend",
+          "note": "Snorri tells it around 1230, three centuries later. It neatly explains the nickname, which is exactly why historians are wary of it."
+        },
+        {
+          "text": "Hafrsfjord made Harald king of all Norway.",
+          "status": "disputed",
+          "note": "Historians think he held mainly the west coast. Inland areas and Trøndelag stayed under local jarls and chiefs."
+        },
+        {
+          "text": "Settlers fled to Iceland to escape Harald's tyranny.",
+          "status": "disputed",
+          "note": "The Icelandic sagas love this story because it made their ancestors freedom-lovers. Land hunger probably mattered just as much."
+        }
+      ],
+      "hook": "Old Harald has crowned Eric king over all his brothers. The brothers have ships and followers of their own, and none of them plans to bow quietly.",
+      "images": [
+        {
+          "file": "File:Flateyjarbok Haraldr Halfdan.jpg",
+          "url": "https://upload.wikimedia.org/wikipedia/commons/d/d4/Flateyjarbok_Haraldr_Halfdan.jpg",
+          "page": "https://commons.wikimedia.org/wiki/File:Flateyjarbok_Haraldr_Halfdan.jpg",
+          "credit": "Unknown Icelandic illuminator (Flateyjarbók)",
+          "license": "Public domain",
+          "made": "14th century",
+          "caption": "From the Icelandic manuscript Flateyjarbók, painted about 450 years after Harald's time.",
+          "alt": "Medieval manuscript painting of King Harald receiving the kingdom from his father Halfdan"
+        }
+      ],
+      "sources": [
+        {
+          "title": "Heimskringla",
+          "author": "Snorri Sturluson",
+          "note": "Written in Iceland about 1230"
+        },
+        {
+          "title": "Vikingtid og rikssamling 800–1130 (Aschehougs Norgeshistorie, vol. 2)",
+          "author": "Claus Krag",
+          "note": "Aschehoug, 1995"
+        },
+        {
+          "title": "The Cambridge History of Scandinavia, Vol. 1: Prehistory to 1520",
+          "author": "Knut Helle (ed.)",
+          "note": "Cambridge University Press, 2003"
+        },
+        {
+          "title": "Ágrip af Nóregskonungasǫgum",
+          "author": "Anonymous",
+          "note": "Norwegian synoptic history, about 1190"
+        }
+      ],
+      "review": {
+        "status": "draft",
+        "notes": "Drafted from the listed sources; needs a human fact-check."
+      }
+    },
+    {
+      "id": "eric-bloodaxe",
+      "kind": "monarch",
+      "rulers": [
+        "eric-bloodaxe"
+      ],
+      "tagline": "The brother-killer who ended up king of York",
+      "start": {
+        "date": "0932",
+        "circa": true
+      },
+      "end": {
+        "date": "0934",
+        "circa": true
+      },
+      "contestedWith": [],
+      "relationToPredecessor": "Son of Harald Fairhair",
+      "ageAtAccession": "Unknown",
+      "cameToPower": "Named top king by his father",
+      "reignEnded": "Pushed out when Haakon came home",
+      "previously": "Old Harald Fairhair hands his kingdom to his favourite son, Eric.",
+      "paragraphs": [
+        "Eric had his father's blessing and almost nobody else's. The sagas say he went after his own half-brothers one by one, and a twelfth-century Latin writer calls him a killer of brothers. His wife Gunnhild became the great villain of saga literature: clever, ruthless and said to know magic. Norwegians soon had enough of the pair of them.",
+        "When his young half-brother Haakon arrived from England, the farmers flocked to him and Eric had to leave. He didn't vanish. A king named Eric ruled the Vikings of York, on and off, until 954, and coins with his name on them survive. He was driven out of York that year and killed in an ambush, probably at Stainmore in the Pennines. Gunnhild and their sons went to Denmark and waited."
+      ],
+      "claims": [
+        {
+          "text": "Eric killed several of his half-brothers to secure the throne.",
+          "status": "disputed",
+          "note": "The sagas and twelfth-century histories all say so, but they were written 250 years later. Nothing from Eric's own time survives on it."
+        },
+        {
+          "text": "Eric Bloodaxe and Eric, king of York, were the same man.",
+          "status": "disputed",
+          "note": "Later sagas and English chroniclers say yes. Historian Clare Downham argued in 2004 that the York king may have been a different Eric."
+        },
+        {
+          "text": "Gunnhild learned witchcraft from two Sami sorcerers.",
+          "status": "legend",
+          "note": "A story in Heimskringla. It belongs to the sagas' habit of painting Gunnhild as a witch-queen."
+        }
+      ],
+      "hook": "Eric is gone and Norway has a new king, his youngest half-brother. Haakon grew up at the English court as a Christian, and he has a promise the farmers love.",
+      "images": [
+        {
+          "file": "File:Eric Bloodaxe silver penny; struck 952-954 AD (obverse).jpg",
+          "url": "https://upload.wikimedia.org/wikipedia/commons/b/b7/Eric_Bloodaxe_silver_penny%3B_struck_952-954_AD_%28obverse%29.jpg",
+          "page": "https://commons.wikimedia.org/wiki/File:Eric_Bloodaxe_silver_penny;_struck_952-954_AD_(obverse).jpg",
+          "credit": "York Museums Trust, Rebecca Griffiths",
+          "license": "CC BY 2.0",
+          "made": "952–954",
+          "caption": "A silver penny struck at York in Eric's name during his last reign there.",
+          "alt": "Silver penny showing a sword with the inscription ERIC REX above and below"
+        }
+      ],
+      "sources": [
+        {
+          "title": "Heimskringla",
+          "author": "Snorri Sturluson",
+          "note": "Written in Iceland about 1230"
+        },
+        {
+          "title": "The Anglo-Saxon Chronicle",
+          "author": "Various anonymous chroniclers"
+        },
+        {
+          "title": "Eric Bloodaxe – axed? The mystery of the last Scandinavian king of York",
+          "author": "Clare Downham",
+          "note": "Mediaeval Scandinavia 14, 2004"
+        },
+        {
+          "title": "Ágrip af Nóregskonungasǫgum",
+          "author": "Anonymous",
+          "note": "Norwegian synoptic history, about 1190"
+        }
+      ],
+      "review": {
+        "status": "draft",
+        "notes": "Drafted from the listed sources; needs a human fact-check."
+      }
+    },
+    {
+      "id": "haakon-the-good",
+      "kind": "monarch",
+      "rulers": [
+        "haakon-the-good"
+      ],
+      "tagline": "The English-raised Christian who ruled a pagan land",
+      "start": {
+        "date": "0934",
+        "circa": true
+      },
+      "end": {
+        "date": "0961",
+        "circa": true
+      },
+      "contestedWith": [],
+      "relationToPredecessor": "Half-brother of Eric Bloodaxe",
+      "ageAtAccession": "About 14",
+      "cameToPower": "Farmers backed him; Eric fled",
+      "reignEnded": "Killed at the Battle of Fitjar",
+      "previously": "Eric Bloodaxe has worn out his welcome. Norway wants a new king.",
+      "paragraphs": [
+        "Haakon was Harald Fairhair's youngest son, sent as a boy to be fostered by King Æthelstan of England. He grew up baptised, well-read and polished. When he sailed home as a teenager he made the farmers an offer: he would give back the family land rights his father had taken. That won the Trøndelag assembly in a day, and Eric was finished.",
+        "Haakon was good at the job. The sagas credit him with organising the coast into districts that had to supply warships and crews, and with lighting chains of warning beacons on the hills. He tried to bring in Christianity and got nowhere. The pagan chiefs pushed back hard, and he backed down. Eric's sons kept raiding with Danish help, and around 961 they caught him at Fitjar. Haakon won the battle but took an arrow and died."
+      ],
+      "claims": [
+        {
+          "text": "The chiefs forced Haakon to eat horsemeat at a pagan sacrificial feast.",
+          "status": "legend",
+          "note": "Snorri tells it in detail, but he wrote nearly 300 years later. It works as a tidy symbol of the king losing the religious argument."
+        },
+        {
+          "text": "A poem welcomed Haakon into Valhalla, Christian or not.",
+          "status": "confirmed",
+          "note": "Hákonarmál by the skald Eyvind the Plagiarist survives. It shows the gods receiving Haakon after Fitjar."
+        },
+        {
+          "text": "Haakon set up the coastal warship levy and the beacon chain.",
+          "status": "disputed",
+          "note": "The sagas say so. Historians suspect later systems were credited back to a famous king."
+        }
+      ],
+      "hook": "Haakon dies with no son to follow him. Eric's sons have Danish backing and their mother Gunnhild steering them, and the eldest, Harald, is ready to take the throne.",
+      "images": [
+        {
+          "file": "File:Haakon den godes saga - Haakon taler på tinget til tronderne - C. Krohg.jpg",
+          "url": "https://upload.wikimedia.org/wikipedia/commons/2/24/Haakon_den_godes_saga_-_Haakon_taler_p%C3%A5_tinget_til_tronderne_-_C._Krohg.jpg",
+          "page": "https://commons.wikimedia.org/wiki/File:Haakon_den_godes_saga_-_Haakon_taler_på_tinget_til_tronderne_-_C._Krohg.jpg",
+          "credit": "Christian Krohg",
+          "license": "Public domain",
+          "made": "1890s",
+          "caption": "Drawn by Christian Krohg for the 1899 edition of Snorri's sagas, over 900 years after Haakon.",
+          "alt": "Ink illustration of King Haakon speaking to the men of Trøndelag at their assembly"
+        }
+      ],
+      "sources": [
+        {
+          "title": "Heimskringla",
+          "author": "Snorri Sturluson",
+          "note": "Written in Iceland about 1230"
+        },
+        {
+          "title": "Hákonarmál",
+          "author": "Eyvindr skáldaspillir",
+          "note": "Skaldic memorial poem, 10th century"
+        },
+        {
+          "title": "The Cambridge History of Scandinavia, Vol. 1: Prehistory to 1520",
+          "author": "Knut Helle (ed.)",
+          "note": "Cambridge University Press, 2003"
+        },
+        {
+          "title": "Ágrip af Nóregskonungasǫgum",
+          "author": "Anonymous",
+          "note": "Norwegian synoptic history, about 1190"
+        }
+      ],
+      "review": {
+        "status": "draft",
+        "notes": "Drafted from the listed sources; needs a human fact-check."
+      }
+    },
+    {
+      "id": "harald-greycloak",
+      "kind": "monarch",
+      "rulers": [
+        "harald-greycloak"
+      ],
+      "tagline": "Gunnhild's son, lured to his death in Denmark",
+      "start": {
+        "date": "0961",
+        "circa": true
+      },
+      "end": {
+        "date": "0970",
+        "circa": true
+      },
+      "contestedWith": [],
+      "relationToPredecessor": "Nephew of Haakon the Good",
+      "ageAtAccession": "About 26",
+      "cameToPower": "Took the throne with his brothers",
+      "reignEnded": "Killed in an ambush at Hals",
+      "previously": "Haakon the Good wins at Fitjar but dies of an arrow wound.",
+      "paragraphs": [
+        "Harald was the eldest surviving son of Eric Bloodaxe and Gunnhild. He took Norway with his brothers and with the backing of the Danish king Harald Bluetooth. Gunnhild was the real power behind them, at least in the sagas. The brothers were Christians and broke up pagan shrines, and they spent years fighting the chiefs who wouldn't bow.",
+        "The biggest of those chiefs was Sigurd, Jarl of Lade, near Trondheim. Gunnhild's sons trapped him and burned him in a house. His son Haakon fled to Denmark and plotted revenge with Bluetooth. Around 970 Greycloak was invited to Denmark and sailed into the Limfjord. At Hals he was cut down by a Danish prince called Gold-Harald, and Bluetooth took Norway for himself."
+      ],
+      "claims": [
+        {
+          "text": "Harald got his nickname by buying a grey sheepskin cloak no one else wanted.",
+          "status": "legend",
+          "note": "Snorri says an Icelandic trader couldn't sell his cloaks until the king took one, and then the whole court copied him. A good story with no early witness."
+        },
+        {
+          "text": "Norway suffered terrible hunger under Gunnhild's sons.",
+          "status": "disputed",
+          "note": "The sagas say so, and a skaldic verse speaks of snow in midsummer. Saga writers liked to blame bad harvests on unpopular kings."
+        },
+        {
+          "text": "Haakon Jarl and Harald Bluetooth planned the ambush together.",
+          "status": "disputed",
+          "note": "Heimskringla tells the full plot. Earlier sources only agree that Harald died in Denmark."
+        }
+      ],
+      "hook": "Greycloak lies dead on a Danish shore. The man who set the trap, Haakon of Lade, comes home to rule Norway, and he means to bring back the old gods.",
+      "images": [
+        {
+          "file": "File:Olav Tryggvasons saga - Harald Graafell - c. Krohg.jpg",
+          "url": "https://upload.wikimedia.org/wikipedia/commons/e/ed/Olav_Tryggvasons_saga_-_Harald_Graafell_-_c._Krohg.jpg",
+          "page": "https://commons.wikimedia.org/wiki/File:Olav_Tryggvasons_saga_-_Harald_Graafell_-_c._Krohg.jpg",
+          "credit": "Christian Krohg",
+          "license": "Public domain",
+          "made": "1890s",
+          "caption": "Drawn by Christian Krohg for the 1899 edition of Snorri's sagas, over 900 years later.",
+          "alt": "Ink illustration of Harald Greycloak sailing to Denmark in the summer"
+        }
+      ],
+      "sources": [
+        {
+          "title": "Heimskringla",
+          "author": "Snorri Sturluson",
+          "note": "Written in Iceland about 1230"
+        },
+        {
+          "title": "Ágrip af Nóregskonungasǫgum",
+          "author": "Anonymous",
+          "note": "Norwegian synoptic history, about 1190"
+        },
+        {
+          "title": "The Cambridge History of Scandinavia, Vol. 1: Prehistory to 1520",
+          "author": "Knut Helle (ed.)",
+          "note": "Cambridge University Press, 2003"
+        },
+        {
+          "title": "Vikingtid og rikssamling 800–1130 (Aschehougs Norgeshistorie, vol. 2)",
+          "author": "Claus Krag",
+          "note": "Aschehoug, 1995"
+        }
+      ],
+      "review": {
+        "status": "draft",
+        "notes": "Drafted from the listed sources; needs a human fact-check."
+      }
+    },
+    {
+      "id": "haakon-jarl",
+      "kind": "leader",
+      "rulers": [
+        "haakon-jarl"
+      ],
+      "title": "Haakon Jarl",
+      "tagline": "Norway's last great pagan lord",
+      "start": {
+        "date": "0975",
+        "circa": true
+      },
+      "end": {
+        "date": "0995"
+      },
+      "contestedWith": [],
+      "relationToPredecessor": "Son of Sigurd, Jarl of Lade",
+      "ageAtAccession": "About 38",
+      "cameToPower": "Ruled as Harald Bluetooth's man",
+      "reignEnded": "Murdered by his own slave",
+      "previously": "Harald Greycloak is lured to Denmark and cut down at Hals.",
+      "paragraphs": [
+        "Haakon never called himself king. He was Jarl of Lade, ruling Norway for the Danish king Harald Bluetooth, and that suited him fine. He reopened the pagan temples and brought back the sacrifices. When the harvests got better, people took it as the gods' approval. His court poets praised him as the man who had restored the old faith.",
+        "He soon slipped Danish control and stopped paying tribute. Around 986 a fleet of Danish raiders, the Jomsvikings, attacked him at Hjørungavåg, and Haakon smashed them. In his later years the sagas say he grew greedy and took other men's wives. In 995 the Trønders rose against him just as a new rival landed. Haakon hid on a farm with a single slave, Kark, who killed him."
+      ],
+      "claims": [
+        {
+          "text": "Haakon hid in a pigsty and was killed by his slave Kark, who then took his head to Olaf Tryggvason.",
+          "status": "legend",
+          "note": "Snorri's version. Olaf is said to have rewarded Kark by beheading him too. Nobody doubts Haakon died in 995; the pigsty is saga colour."
+        },
+        {
+          "text": "At Hjørungavåg, Haakon sacrificed his own son to bring down a hailstorm on the Jomsvikings.",
+          "status": "legend",
+          "note": "Found in Jómsvíkinga saga and Snorri, written over 200 years later."
+        },
+        {
+          "text": "Haakon beat the Jomsvikings at Hjørungavåg.",
+          "status": "confirmed",
+          "note": "His court poets celebrated the victory. Historians accept the battle, though its date is uncertain."
+        }
+      ],
+      "hook": "Haakon is dead and Trøndelag hails a new king. Olaf Tryggvason is a great-grandson of Harald Fairhair, rich from raiding England and a baptised Christian in a hurry.",
+      "images": [
+        {
+          "file": "File:Olav Tryggvasons saga - Haakon jarl - C. Krohg.jpg",
+          "url": "https://upload.wikimedia.org/wikipedia/commons/0/0f/Olav_Tryggvasons_saga_-_Haakon_jarl_-_C._Krohg.jpg",
+          "page": "https://commons.wikimedia.org/wiki/File:Olav_Tryggvasons_saga_-_Haakon_jarl_-_C._Krohg.jpg",
+          "credit": "Christian Krohg",
+          "license": "Public domain",
+          "made": "1890s",
+          "caption": "Drawn by Christian Krohg for the 1899 edition of Snorri's sagas, about 900 years later.",
+          "alt": "Ink illustration of Haakon Jarl lying in bed, deep in thought"
+        }
+      ],
+      "sources": [
+        {
+          "title": "Heimskringla",
+          "author": "Snorri Sturluson",
+          "note": "Written in Iceland about 1230"
+        },
+        {
+          "title": "Jómsvíkinga saga",
+          "author": "Anonymous",
+          "note": "Icelandic saga, about 1200"
+        },
+        {
+          "title": "Vellekla",
+          "author": "Einarr skálaglamm",
+          "note": "Skaldic praise poem for Haakon Jarl"
+        },
+        {
+          "title": "The Cambridge History of Scandinavia, Vol. 1: Prehistory to 1520",
+          "author": "Knut Helle (ed.)",
+          "note": "Cambridge University Press, 2003"
+        }
+      ],
+      "review": {
+        "status": "draft",
+        "notes": "Drafted from the listed sources; needs a human fact-check."
+      }
+    },
+    {
+      "id": "olaf-tryggvason",
+      "kind": "monarch",
+      "rulers": [
+        "olaf-tryggvason"
+      ],
+      "tagline": "The Viking who converted Norway at sword-point",
+      "start": {
+        "date": "0995"
+      },
+      "end": {
+        "date": "1000-09-09"
+      },
+      "contestedWith": [],
+      "relationToPredecessor": "Great-grandson of Harald Fairhair",
+      "ageAtAccession": "About 32",
+      "cameToPower": "Hailed king as Haakon Jarl fell",
+      "reignEnded": "Leapt overboard at Svolder",
+      "previously": "Haakon Jarl dies on a farm, killed by his own slave.",
+      "paragraphs": [
+        "Olaf grew up in exile and made his name as a Viking. In 994 he and the Danish prince Svein Forkbeard attacked London. King Æthelred of England paid them off, and Olaf was confirmed as a Christian with Æthelred as his sponsor. He promised never to raid England again, and he kept his word. The next year he sailed to Norway and took the throne.",
+        "He spread Christianity the hard way. Chiefs who refused baptism were threatened, maimed or killed, and he leaned hard on Iceland too, which accepted the faith around 1000. He built a great warship, the Long Serpent. In September 1000 his enemies caught him at Svolder in the Baltic: the Danish and Swedish kings, plus Haakon Jarl's son Eric. When his ship was taken, Olaf jumped into the sea in his armour."
+      ],
+      "claims": [
+        {
+          "text": "As a boy, Olaf was sold as a slave in Estonia and later raised at the court of Kyiv.",
+          "status": "legend",
+          "note": "Told by the Icelandic monk Oddr Snorrason and by Snorri, both writing about 200 years later."
+        },
+        {
+          "text": "Olaf was confirmed at Andover, with King Æthelred as his sponsor.",
+          "status": "confirmed",
+          "note": "The Anglo-Saxon Chronicle records it under 994 and calls him Anlaf."
+        },
+        {
+          "text": "Olaf survived Svolder and lived on as a monk in the East.",
+          "status": "legend",
+          "note": "Rumours of his survival appear in the sagas almost at once. No evidence backs them."
+        }
+      ],
+      "hook": "With Olaf gone, Norway is carved up between the Danish and Swedish kings, with Haakon's sons as jarls. Far away, another Fairhair descendant, Olaf Haraldsson, is learning to fight.",
+      "images": [
+        {
+          "file": "File:Olav Tryggvasons saga - Eriks menn entrer Ormen lange - Halfdan Egedius.jpg",
+          "url": "https://upload.wikimedia.org/wikipedia/commons/3/38/Olav_Tryggvasons_saga_-_Eriks_menn_entrer_Ormen_lange_-_Halfdan_Egedius.jpg",
+          "page": "https://commons.wikimedia.org/wiki/File:Olav_Tryggvasons_saga_-_Eriks_menn_entrer_Ormen_lange_-_Halfdan_Egedius.jpg",
+          "credit": "Halfdan Egedius",
+          "license": "Public domain",
+          "made": "1897",
+          "caption": "Drawn by Halfdan Egedius in 1897 for the 1899 edition of Snorri's sagas, nearly 900 years later.",
+          "alt": "Illustration of Jarl Eric's men climbing aboard Olaf's warship, the Long Serpent, at Svolder"
+        }
+      ],
+      "sources": [
+        {
+          "title": "Heimskringla",
+          "author": "Snorri Sturluson",
+          "note": "Written in Iceland about 1230"
+        },
+        {
+          "title": "The Anglo-Saxon Chronicle",
+          "author": "Various anonymous chroniclers"
+        },
+        {
+          "title": "The Saga of Olaf Tryggvason",
+          "author": "Oddr Snorrason",
+          "note": "Written about 1190; trans. Theodore M. Andersson, Cornell University Press, 2003"
+        },
+        {
+          "title": "The Cambridge History of Scandinavia, Vol. 1: Prehistory to 1520",
+          "author": "Knut Helle (ed.)",
+          "note": "Cambridge University Press, 2003"
+        }
+      ],
+      "review": {
+        "status": "draft",
+        "notes": "Drafted from the listed sources; needs a human fact-check."
+      }
+    },
+    {
+      "id": "olaf-ii",
+      "kind": "monarch",
+      "rulers": [
+        "olaf-ii"
+      ],
+      "tagline": "The Viking who became Norway's eternal king",
+      "start": {
+        "date": "1015"
+      },
+      "end": {
+        "date": "1028"
+      },
+      "contestedWith": [],
+      "relationToPredecessor": "Distant kinsman of Olaf Tryggvason",
+      "ageAtAccession": "About 20",
+      "cameToPower": "Sailed home and beat Jarl Svein",
+      "reignEnded": "Fled as the chiefs backed Cnut",
+      "previously": "Olaf Tryggvason drowns at Svolder; jarls rule for foreign kings.",
+      "paragraphs": [
+        "Olaf Haraldsson started raiding at about twelve and fought all over the Baltic, England and France. In 1015 he came home, and the next year he beat Jarl Svein at Nesjar to become king. He finished what Olaf Tryggvason had started. With his bishop Grimkell he set down church law for the whole country, and pagan practice was hunted down district by district.",
+        "He was tough and often brutal, and many chiefs hated him. Cnut, king of England and Denmark, bought their loyalty. In 1028 Cnut sailed in and Olaf fled to Kyiv. In 1030 he came back with a small army and met the farmers' host at Stiklestad on 29 July. He was killed. Within a year his body was dug up, reported uncorrupted, and declared holy. Norway's patron saint was born."
+      ],
+      "claims": [
+        {
+          "text": "The sun went dark during the Battle of Stiklestad.",
+          "status": "disputed",
+          "note": "Snorri says so. There was an eclipse in 1030, but on 31 August, a month after the battle."
+        },
+        {
+          "text": "When Olaf's coffin was opened, his hair and nails had kept growing.",
+          "status": "legend",
+          "note": "A classic saint's miracle, told by the sagas and the twelfth-century Passio Olavi."
+        },
+        {
+          "text": "Cnut bribed Norwegian chiefs to desert Olaf.",
+          "status": "confirmed",
+          "note": "Olaf's own poet Sigvat says it in a surviving verse, and the sagas agree."
+        }
+      ],
+      "hook": "Olaf has run to Russia. Cnut now rules England, Denmark and Norway, and the chiefs who betrayed Olaf are waiting to be paid.",
+      "images": [
+        {
+          "file": "File:Arbo-Olav den helliges fall i slaget på Stiklestad.jpg",
+          "url": "https://upload.wikimedia.org/wikipedia/commons/3/31/Arbo-Olav_den_helliges_fall_i_slaget_p%C3%A5_Stiklestad.jpg",
+          "page": "https://commons.wikimedia.org/wiki/File:Arbo-Olav_den_helliges_fall_i_slaget_på_Stiklestad.jpg",
+          "credit": "Peter Nicolai Arbo",
+          "license": "Public domain",
+          "made": "c. 1859",
+          "caption": "Painted by Peter Nicolai Arbo around 1859, more than 800 years after Stiklestad.",
+          "alt": "Painting of King Olaf falling in battle at Stiklestad as warriors close in"
+        }
+      ],
+      "sources": [
+        {
+          "title": "Heimskringla",
+          "author": "Snorri Sturluson",
+          "note": "Written in Iceland about 1230"
+        },
+        {
+          "title": "Passio et miracula beati Olavi",
+          "author": "Archbishop Eystein Erlendsson (attributed)",
+          "note": "12th-century account of the saint's miracles"
+        },
+        {
+          "title": "Ágrip af Nóregskonungasǫgum",
+          "author": "Anonymous",
+          "note": "Norwegian synoptic history, about 1190"
+        },
+        {
+          "title": "The Cambridge History of Scandinavia, Vol. 1: Prehistory to 1520",
+          "author": "Knut Helle (ed.)",
+          "note": "Cambridge University Press, 2003"
+        }
+      ],
+      "review": {
+        "status": "draft",
+        "notes": "Drafted from the listed sources; needs a human fact-check."
+      }
+    },
+    {
+      "id": "cnut",
+      "kind": "monarch",
+      "rulers": [
+        "cnut"
+      ],
+      "tagline": "The Danish emperor of the North Sea",
+      "start": {
+        "date": "1028"
+      },
+      "end": {
+        "date": "1035-11-12"
+      },
+      "contestedWith": [],
+      "relationToPredecessor": "Rival who drove Olaf out",
+      "ageAtAccession": "About 33–38",
+      "cameToPower": "Sailed in; the chiefs hailed him",
+      "reignEnded": "Died in England; Norway in revolt",
+      "previously": "Olaf II flees to Russia as the chiefs side with Cnut.",
+      "paragraphs": [
+        "Cnut was the son of Svein Forkbeard. He had won England in 1016 and Denmark a couple of years later. In 1028 he sailed to Norway with a big fleet and was hailed as king, without a battle. He left Haakon, grandson of old Haakon Jarl, to run things. Haakon drowned within a year, and Olaf tried to win his crown back and died at Stiklestad.",
+        "So Cnut sent his young son Svein to rule Norway, with the boy's mother, Ælfgifu of Northampton. It went badly. They brought in new taxes and harsh Danish-style laws, and Norwegians started praying at Olaf's tomb instead. By 1035 the same chiefs who had betrayed Olaf wanted his son. Svein fled to Denmark, and on 12 November Cnut died at Shaftesbury in England."
+      ],
+      "claims": [
+        {
+          "text": "Cnut sat on the shore and ordered the tide to turn back.",
+          "status": "legend",
+          "note": "First told by Henry of Huntingdon about a century later, as a lesson in humility, not foolishness."
+        },
+        {
+          "text": "Norwegians remembered the rule of Ælfgifu and Svein as a hard time.",
+          "status": "confirmed",
+          "note": "The skald Sigvat calls it 'Ælfgifu's time', and the sagas list the new dues."
+        },
+        {
+          "text": "Cnut called himself king of all England, Denmark, Norway and part of the Swedes.",
+          "status": "confirmed",
+          "note": "He uses the title in his letter to the English of 1027."
+        }
+      ],
+      "hook": "Two chiefs who fought against St Olaf, Einar and Kalv, are heading east to Russia. They want to bring back his eleven-year-old son.",
+      "images": [
+        {
+          "file": "File:Canute and Ælfgifu cropped (Canute).jpg",
+          "url": "https://upload.wikimedia.org/wikipedia/commons/0/00/Canute_and_%C3%86lfgifu_cropped_%28Canute%29.jpg",
+          "page": "https://commons.wikimedia.org/wiki/File:Canute_and_Ælfgifu_cropped_(Canute).jpg",
+          "credit": "Unknown artist, New Minster, Winchester",
+          "license": "Public domain",
+          "made": "c. 1031",
+          "caption": "Drawn in Cnut's lifetime for the New Minster at Winchester.",
+          "alt": "Medieval manuscript drawing of King Cnut, crowned, with his hand on a large cross"
+        }
+      ],
+      "sources": [
+        {
+          "title": "Cnut the Great (Yale English Monarchs)",
+          "author": "Timothy Bolton",
+          "note": "Yale University Press, 2017"
+        },
+        {
+          "title": "Cnut: The Danes in England in the Early Eleventh Century",
+          "author": "M. K. Lawson",
+          "note": "Longman, 1993"
+        },
+        {
+          "title": "Heimskringla",
+          "author": "Snorri Sturluson",
+          "note": "Written in Iceland about 1230"
+        },
+        {
+          "title": "The Anglo-Saxon Chronicle",
+          "author": "Various anonymous chroniclers"
+        }
+      ],
+      "review": {
+        "status": "draft",
+        "notes": "Drafted from the listed sources; needs a human fact-check."
+      }
+    },
+    {
+      "id": "magnus-the-good",
+      "kind": "monarch",
+      "rulers": [
+        "magnus-the-good"
+      ],
+      "tagline": "St Olaf's boy who won Denmark too",
+      "start": {
+        "date": "1035-11-12",
+        "circa": true,
+        "note": "Proclaimed in 1035 as Cnut's regent fled; sole king from Cnut's death"
+      },
+      "end": {
+        "date": "1047-10-25"
+      },
+      "contestedWith": [],
+      "relationToPredecessor": "Son of Olaf II",
+      "ageAtAccession": "11",
+      "cameToPower": "Fetched from Russia by the chiefs",
+      "reignEnded": "Died suddenly in Denmark",
+      "previously": "Cnut dies in England, and his son Svein has fled Norway.",
+      "paragraphs": [
+        "Magnus was Olaf's son by a servant woman, born in 1024 and raised in exile at Kyiv. In 1035 the chiefs who had turned on his father brought him home, and the eleven-year-old was hailed king. At first he went after the men who had fought at Stiklestad. Then Sigvat, his father's old poet, warned him in blunt verses to stop. Magnus listened, and that's how he became 'the Good'.",
+        "He made a pact with Cnut's son Harthacnut: whoever died first, the other would take his kingdom. Harthacnut died in 1042 and Magnus became king of Denmark. In 1043 he crushed a Wendish army at Lyrskog Heath. In 1046 he agreed to share Norway with his uncle, Harald Hardrada, back from Constantinople. In October 1047 Magnus died in Denmark, aged 23, with no son."
+      ],
+      "claims": [
+        {
+          "text": "Magnus was named after Charlemagne, Carolus Magnus.",
+          "status": "disputed",
+          "note": "Snorri says Sigvat chose the name at the baby's baptism. Plausible, but only the sagas tell it."
+        },
+        {
+          "text": "Sigvat's 'Plain-speaking Verses' turned Magnus from revenge.",
+          "status": "confirmed",
+          "note": "The poem, Bersöglisvísur, survives and lectures the young king directly."
+        },
+        {
+          "text": "Magnus died after falling from his horse.",
+          "status": "disputed",
+          "note": "Some sagas blame a fall, others a sudden illness. All agree it was quick."
+        }
+      ],
+      "hook": "Magnus is dead with no heir. Denmark goes to Svein Estridsen, but Norway now belongs to his uncle Harald: veteran of Constantinople, loaded with gold, and no gentleman.",
+      "images": [
+        {
+          "file": "File:Magnus den gode mynt.png",
+          "url": "https://upload.wikimedia.org/wikipedia/commons/5/56/Magnus_den_gode_mynt.png",
+          "page": "https://commons.wikimedia.org/wiki/File:Magnus_den_gode_mynt.png",
+          "credit": "Unknown artist (Nordisk familjebok)",
+          "license": "Public domain",
+          "made": "1912",
+          "caption": "A 1912 drawing of a coin struck for Magnus at Lund, in his Danish kingdom.",
+          "alt": "Drawing of both sides of a medieval silver coin of King Magnus"
+        }
+      ],
+      "sources": [
+        {
+          "title": "Heimskringla",
+          "author": "Snorri Sturluson",
+          "note": "Written in Iceland about 1230"
+        },
+        {
+          "title": "Bersöglisvísur",
+          "author": "Sigvatr Þórðarson",
+          "note": "Skaldic poem addressed to Magnus"
+        },
+        {
+          "title": "The Cambridge History of Scandinavia, Vol. 1: Prehistory to 1520",
+          "author": "Knut Helle (ed.)",
+          "note": "Cambridge University Press, 2003"
+        },
+        {
+          "title": "Ágrip af Nóregskonungasǫgum",
+          "author": "Anonymous",
+          "note": "Norwegian synoptic history, about 1190"
+        }
+      ],
+      "review": {
+        "status": "draft",
+        "notes": "Drafted from the listed sources; needs a human fact-check."
+      }
+    },
+    {
+      "id": "harald-hardrada",
+      "kind": "monarch",
+      "rulers": [
+        "harald-hardrada"
+      ],
+      "tagline": "The Viking mercenary who wanted England too",
+      "start": {
+        "date": "1047-10-25"
+      },
+      "end": {
+        "date": "1066-09-25"
+      },
+      "contestedWith": [],
+      "relationToPredecessor": "Uncle of Magnus the Good",
+      "ageAtAccession": "About 32",
+      "cameToPower": "Co-king, then alone when Magnus died",
+      "reignEnded": "Arrow in the throat, Stamford Bridge",
+      "previously": "Magnus the Good is dead, and his uncle Harald now rules alone.",
+      "paragraphs": [
+        "Harald was St Olaf's half-brother. At 15 he fought beside Olaf at Stiklestad, got wounded, and slipped away to Russia. From there he went south to Constantinople and joined the Varangian Guard, the Byzantine emperor's Viking bodyguard. He fought in Sicily and Bulgaria, and came home years later loaded with gold and married to a Russian princess, Elisiv, daughter of Yaroslav the Wise.",
+        "Back in Norway in 1046 he got his nephew Magnus to share the throne, paying for it with a slice of his treasure. A year later Magnus was dead and Harald ruled alone. He spent the next 17 years attacking Denmark, trying to wrench it from Sweyn Estridsen. He won fights, including a big sea battle at Niså in 1062, but never the Danish crown. In 1064 the two kings finally made peace.",
+        "In 1066 Harald sailed for England with about 300 ships, joined by Tostig, the English king's angry exiled brother. He smashed an English army at Fulford, outside York, on 20 September. Five days later King Harold Godwinson caught him off guard at Stamford Bridge. Harald took an arrow in the throat, and his army was cut to pieces. The Viking Age is often said to end right there."
+      ],
+      "claims": [
+        {
+          "text": "Harold Godwinson offered him “seven feet of English ground”, or a bit more, since he was so tall.",
+          "status": "legend",
+          "note": "The line comes from Snorri, writing about 160 years later. No English source records it."
+        },
+        {
+          "text": "A Byzantine writer confirms that Harald served the emperor.",
+          "status": "confirmed",
+          "note": "Kekaumenos, an 11th-century Byzantine officer, mentions “Araltes”, a Norse king's son who fought in Sicily and Bulgaria and won imperial rank."
+        },
+        {
+          "text": "Harald was thrown into prison in Constantinople and escaped with a noblewoman's help.",
+          "status": "legend",
+          "note": "The sagas tell it with relish. No Greek source mentions an arrest or an escape."
+        }
+      ],
+      "hook": "Harald's son Olaf was guarding the ships and survived. The English king let him sail home with just 24 ships, after he swore never to come back. Norway needs a rest.",
+      "images": [
+        {
+          "file": "File:Harold-III-Coin.png",
+          "url": "https://upload.wikimedia.org/wikipedia/commons/0/0e/Harold-III-Coin.png",
+          "page": "https://commons.wikimedia.org/wiki/File:Harold-III-Coin.png",
+          "credit": "C. I. Schive (drawing), Bucher of Bergen (lithograph)",
+          "license": "Public domain",
+          "made": "1865",
+          "caption": "A coin struck in Harald's name, drawn for a Norwegian coin catalogue in 1865.",
+          "alt": "Drawing of both faces of a small medieval coin with an inscription naming King Harald"
+        }
+      ],
+      "sources": [
+        {
+          "title": "Heimskringla",
+          "author": "Snorri Sturluson",
+          "note": "c. 1230; English trans. Alison Finlay and Anthony Faulkes, Viking Society for Northern Research, 2011–2015"
+        },
+        {
+          "title": "Morkinskinna",
+          "author": "Anonymous (trans. Theodore M. Andersson and Kari Ellen Gade)",
+          "note": "Cornell University Press, 2000"
+        },
+        {
+          "title": "The Anglo-Saxon Chronicle",
+          "author": "Anonymous",
+          "note": "Fulford and Stamford Bridge, 1066"
+        },
+        {
+          "title": "Harald Hardrada: The Warrior's Way",
+          "author": "John Marsden",
+          "note": "Sutton, 2007"
+        }
+      ],
+      "review": {
+        "status": "draft",
+        "notes": "Drafted from the listed sources; needs a human fact-check."
+      }
+    },
+    {
+      "id": "olaf-kyrre",
+      "kind": "monarch",
+      "rulers": [
+        "olaf-kyrre"
+      ],
+      "tagline": "The quiet king who gave Norway 26 years of peace",
+      "start": {
+        "date": "1067"
+      },
+      "end": {
+        "date": "1093-09-22"
+      },
+      "contestedWith": [],
+      "relationToPredecessor": "Son of Harald Hardrada",
+      "ageAtAccession": "About 17",
+      "cameToPower": "Shared the crown with brother Magnus",
+      "reignEnded": "Died of illness at Haukbø",
+      "previously": "Harald Hardrada falls at Stamford Bridge. His son Olaf sails home.",
+      "paragraphs": [
+        "Olaf had sailed to England with his father but stayed with the ships, so he missed the slaughter at Stamford Bridge. Back in Norway he shared the crown with his brother Magnus II, who had been left at home. When Magnus died in 1069, Olaf ruled alone for more than 20 years, and for once nobody invaded anybody.",
+        "That calm was the whole point. Olaf made peace with Denmark and married Ingerid, daughter of the Danish king Sweyn. He gave the Church firm roots, with bishops settled in fixed seats, and built a stone Christ Church in Nidaros (Trondheim) over the grave of his uncle, St Olaf. Tradition says he founded Bergen, which grew into Norway's great trading town.",
+        "His nickname, Kyrre, means “the quiet” or “the peaceful”. He died of illness in 1093 at Haukbø in Ranrike, now part of western Sweden. His son Magnus was nothing like him: a restless fighter who couldn't sit still."
+      ],
+      "claims": [
+        {
+          "text": "King Harold of England let Olaf go home with 24 ships after he swore oaths of friendship.",
+          "status": "confirmed",
+          "note": "The Anglo-Saxon Chronicle reports the oaths and the 24 ships."
+        },
+        {
+          "text": "Olaf founded Bergen in about 1070.",
+          "status": "disputed",
+          "note": "The date comes from Snorri. Archaeologists have found traces of settlement there that may be older."
+        },
+        {
+          "text": "Peace made Norwegians showy, with costly new fashions and gold rings.",
+          "status": "legend",
+          "note": "Snorri describes it about 150 years later, and there is little else to check it against."
+        }
+      ],
+      "hook": "Olaf's son Magnus is about 20, spoiling for a fight and said to dress like a Scot. He'll spend his reign at sea, and the Irish Sea is calling.",
+      "images": [
+        {
+          "file": "File:Olav Kyrre mynt 1.jpg",
+          "url": "https://upload.wikimedia.org/wikipedia/commons/8/8d/Olav_Kyrre_mynt_1.jpg",
+          "page": "https://commons.wikimedia.org/wiki/File:Olav_Kyrre_mynt_1.jpg",
+          "credit": "L. B. Stenersen",
+          "license": "Public domain",
+          "made": "11th century (coin)",
+          "caption": "A coin from Olaf's reign, in a 19th-century drawing by the coin expert L. B. Stenersen.",
+          "alt": "Drawing of a small medieval Norwegian coin from Olaf III's reign"
+        }
+      ],
+      "sources": [
+        {
+          "title": "Heimskringla",
+          "author": "Snorri Sturluson",
+          "note": "c. 1230; English trans. Alison Finlay and Anthony Faulkes, Viking Society for Northern Research, 2011–2015"
+        },
+        {
+          "title": "The Anglo-Saxon Chronicle",
+          "author": "Anonymous",
+          "note": "Manuscript D, 1066"
+        },
+        {
+          "title": "From Viking Stronghold to Christian Kingdom: State Formation in Norway, c. 900–1350",
+          "author": "Sverre Bagge",
+          "note": "Museum Tusculanum Press, 2010"
+        }
+      ],
+      "review": {
+        "status": "draft",
+        "notes": "Drafted from the listed sources; needs a human fact-check."
+      }
+    },
+    {
+      "id": "magnus-barefoot",
+      "kind": "monarch",
+      "rulers": [
+        "magnus-barefoot"
+      ],
+      "tagline": "The bare-legged raider who wanted the Irish Sea",
+      "start": {
+        "date": "1093-09-22"
+      },
+      "end": {
+        "date": "1103-08-24"
+      },
+      "contestedWith": [],
+      "relationToPredecessor": "Son of Olaf III",
+      "ageAtAccession": "About 20",
+      "cameToPower": "Hailed king; shared with cousin Haakon",
+      "reignEnded": "Ambushed and killed in Ulster",
+      "previously": "Peaceful Olaf Kyrre dies. His son Magnus is itching for a fight.",
+      "paragraphs": [
+        "Magnus was about 20 when his father died, and at first he had to share Norway with his cousin Haakon. Haakon died in 1095, and Magnus crushed the chiefs who had backed him. Then he looked west. In 1098 he sailed to Orkney, packed its two earls off to Norway, and swept on through the Hebrides and the Isle of Man.",
+        "Off Anglesey he clashed with two Norman lords, both called Hugh, and one of them, Hugh of Montgomery, was killed by an arrow. King Edgar of Scots agreed that the western isles belonged to Norway. Back home Magnus fought Sweden over the border lands, until the kings of Norway, Sweden and Denmark met in 1101 and made peace.",
+        "In 1102 he went west again, this time to Ireland, and teamed up with the high king Muirchertach Ua Briain. His son Sigurd married the Irish king's daughter. In August 1103, while waiting for cattle and supplies in Ulster, Magnus and his men were ambushed. He was killed, aged about 30, and his three young sons inherited Norway."
+      ],
+      "claims": [
+        {
+          "text": "He got his nickname by going bare-legged in the short tunics of the western isles.",
+          "status": "disputed",
+          "note": "Snorri says so, writing over a century later. Other explanations were also told, and none can be checked."
+        },
+        {
+          "text": "To claim Kintyre as an island, he had his ship dragged across its neck of land with himself at the helm.",
+          "status": "legend",
+          "note": "The story is in Snorri and the Orkney sagas, written about a century later. Scottish sources don't mention it."
+        },
+        {
+          "text": "When warned about his reckless raids, he said kings are made for glory, not long life.",
+          "status": "legend",
+          "note": "The line is reported in the sagas long after his death. It sounds like him, which is the trouble."
+        }
+      ],
+      "hook": "Three boys now share the crown. One of them, Sigurd, will soon sail further than any Norwegian king before him: all the way to Jerusalem.",
+      "images": [
+        {
+          "file": "File:Magnus Barefoot silver penning; struck c.1093-1103 AD.jpg",
+          "url": "https://upload.wikimedia.org/wikipedia/commons/c/cc/Magnus_Barefoot_silver_penning%3B_struck_c.1093-1103_AD.jpg",
+          "page": "https://commons.wikimedia.org/wiki/File:Magnus_Barefoot_silver_penning;_struck_c.1093-1103_AD.jpg",
+          "credit": "Museum of Cultural History, University of Oslo",
+          "license": "CC BY-SA 4.0",
+          "made": "c. 1093–1103",
+          "caption": "A silver penny minted in Magnus's reign. The bust is a stylised king, not a true likeness.",
+          "alt": "Both sides of a worn silver coin: a bust facing left on one side, a double cross on the other"
+        }
+      ],
+      "sources": [
+        {
+          "title": "Heimskringla",
+          "author": "Snorri Sturluson",
+          "note": "c. 1230; English trans. Alison Finlay and Anthony Faulkes, Viking Society for Northern Research, 2011–2015"
+        },
+        {
+          "title": "The Annals of Ulster",
+          "author": "Anonymous",
+          "note": "Entry for 1103"
+        },
+        {
+          "title": "Orkneyinga saga",
+          "author": "Anonymous (trans. Hermann Pálsson and Paul Edwards)",
+          "note": "Penguin Classics, 1981"
+        },
+        {
+          "title": "The Cambridge History of Scandinavia, Vol. 1: Prehistory to 1520",
+          "author": "Knut Helle (ed.)",
+          "note": "Cambridge University Press, 2003"
+        }
+      ],
+      "review": {
+        "status": "draft",
+        "notes": "Drafted from the listed sources; needs a human fact-check."
+      }
+    },
+    {
+      "id": "sigurd-the-crusader",
+      "kind": "monarch",
+      "rulers": [
+        "sigurd-the-crusader"
+      ],
+      "tagline": "The first king from the north to reach Jerusalem",
+      "start": {
+        "date": "1103-08-24"
+      },
+      "end": {
+        "date": "1130-03-26"
+      },
+      "contestedWith": [],
+      "relationToPredecessor": "Son of Magnus III",
+      "ageAtAccession": "About 13",
+      "cameToPower": "Shared the crown with two brothers",
+      "reignEnded": "Died of illness in Oslo",
+      "previously": "Magnus Barefoot is killed in Ulster. Three boys share his crown.",
+      "paragraphs": [
+        "Sigurd shared Norway with his brothers Eystein and Olaf. In 1107 he left them to mind the kingdom and set off on crusade with about 60 ships. He spent the winter in England, fought Muslim garrisons in Portugal, and cleared out pirates on the Balearic Islands as he worked his way across the Mediterranean.",
+        "In 1110 he reached the Holy Land. King Baldwin of Jerusalem rode with him to the River Jordan, and Sigurd's fleet helped Baldwin capture the port of Sidon. His reward was a splinter said to come from the True Cross. He sailed on to Constantinople, gave his ships to the emperor, and went home overland.",
+        "Back in Norway he was a star. Olaf died in 1115 and Eystein in 1123, leaving Sigurd sole king. The sagas say his last years were darkened by fits of rage. Then an Irishman named Harald Gille turned up claiming to be Magnus Barefoot's son. Sigurd accepted him as a brother, on condition he made no claim to the throne while Sigurd lived. Sigurd died in 1130."
+      ],
+      "claims": [
+        {
+          "text": "He rode into Constantinople on a horse shod with gold, and left a lost golden shoe lying in the street.",
+          "status": "legend",
+          "note": "A saga flourish from Snorri. Byzantine writers say nothing about it."
+        },
+        {
+          "text": "Sigurd's fleet helped King Baldwin take Sidon in 1110.",
+          "status": "confirmed",
+          "note": "Fulcher of Chartres, a chronicler living in Jerusalem at the time, records the Norse fleet's part in the siege."
+        },
+        {
+          "text": "Harald Gille proved he was Magnus Barefoot's son by walking over red-hot ploughshares.",
+          "status": "disputed",
+          "note": "The sagas say he passed the ordeal. Whether he really was Magnus's son can't be checked."
+        }
+      ],
+      "hook": "Sigurd's son Magnus and the newcomer Harald Gille now share the throne. It won't last. One of them will end up blinded, crippled and shut away in a monastery.",
+      "images": [
+        {
+          "file": "File:Gerhard-Munthe-Sigurd-and-Baldwin-1899-Tempera-143-x-103-cm-C-Trondheim.jpg",
+          "url": "https://upload.wikimedia.org/wikipedia/commons/6/68/Gerhard-Munthe-Sigurd-and-Baldwin-1899-Tempera-143-x-103-cm-C-Trondheim.jpg",
+          "page": "https://commons.wikimedia.org/wiki/File:Gerhard-Munthe-Sigurd-and-Baldwin-1899-Tempera-143-x-103-cm-C-Trondheim.jpg",
+          "credit": "Gerhard Munthe",
+          "license": "CC BY-SA 4.0",
+          "made": "1899",
+          "caption": "Painted by Gerhard Munthe in 1899, nearly 800 years after Sigurd's crusade.",
+          "alt": "Painting of Sigurd the Crusader with King Baldwin I of Jerusalem during the Norwegian crusade"
+        }
+      ],
+      "sources": [
+        {
+          "title": "Heimskringla",
+          "author": "Snorri Sturluson",
+          "note": "c. 1230; English trans. Alison Finlay and Anthony Faulkes, Viking Society for Northern Research, 2011–2015"
+        },
+        {
+          "title": "Morkinskinna",
+          "author": "Anonymous (trans. Theodore M. Andersson and Kari Ellen Gade)",
+          "note": "Cornell University Press, 2000"
+        },
+        {
+          "title": "Historia Hierosolymitana",
+          "author": "Fulcher of Chartres",
+          "note": "The siege of Sidon, 1110"
+        },
+        {
+          "title": "The Cambridge History of Scandinavia, Vol. 1: Prehistory to 1520",
+          "author": "Knut Helle (ed.)",
+          "note": "Cambridge University Press, 2003"
+        }
+      ],
+      "review": {
+        "status": "draft",
+        "notes": "Drafted from the listed sources; needs a human fact-check."
+      }
+    },
+    {
+      "id": "civil-wars",
+      "kind": "interregnum",
+      "rulers": [],
+      "house": "civil-war",
+      "title": "The Civil War Era",
+      "tagline": "Fifty years of rival kings, blindings and boy kings",
+      "start": {
+        "date": "1130-03-26"
+      },
+      "end": {
+        "date": "1184-06-15"
+      },
+      "contestedWith": [],
+      "relationToPredecessor": "Sigurd's son and a newcomer share",
+      "ageAtAccession": "No single monarch",
+      "cameToPower": "Two co-kings went to war",
+      "reignEnded": "Last boy king drowned at Fimreite",
+      "previously": "Sigurd the Crusader dies. His son Magnus and Harald Gille share power.",
+      "paragraphs": [
+        "Norway had no rule about who should be king. Any king's son, born in wedlock or not, could claim the crown, and plenty did. Sigurd's son Magnus and Harald Gille soon came to blows. In 1135 Harald caught Magnus in Bergen, had him blinded, castrated and a foot cut off, then shut him in a monastery. In 1136 Harald was murdered in his bed by yet another claimant, Sigurd Slembe.",
+        "Harald's little sons Sigurd, Inge and Eystein were made kings by their father's men. Magnus the Blind left his monastery to join Sigurd Slembe, and both died after a sea battle at Holmengrå in 1139. The boy kings grew up and turned on each other. Sigurd was killed in 1155, Eystein in 1157 and Inge in 1161.",
+        "Into the gap stepped Erling Skakke, a tough nobleman. His son Magnus Erlingsson was a king's grandson only through his mother, but Erling had the boy made king in 1161 and won the Church to his side. In 1163 or 1164 Magnus became the first king crowned in Scandinavia. Erling ran things until 1179, when a rebel named Sverre killed him in battle. In 1184 Magnus drowned at Fimreite."
+      ],
+      "claims": [
+        {
+          "text": "Magnus the Blind was blinded, castrated and lost a foot on Harald Gille's orders.",
+          "status": "confirmed",
+          "note": "All the main sagas tell it, and his nickname stuck. The details come from writers about a century later."
+        },
+        {
+          "text": "Sigurd Slembe was tortured to death after Holmengrå.",
+          "status": "confirmed",
+          "note": "The sagas describe the torture in grim detail. Some of that may be dressed up, but his execution is not doubted."
+        },
+        {
+          "text": "Magnus Erlingsson's coronation was the first in Scandinavia.",
+          "status": "confirmed",
+          "note": "Historians accept this. The exact year, 1163 or 1164, is still argued over."
+        }
+      ],
+      "hook": "Magnus Erlingsson lies at the bottom of the fjord. The winner is a man nobody had heard of ten years earlier: a priest from the Faroe Islands who swears he is a king's son.",
+      "images": [
+        {
+          "file": "File:Magnus Blindes og Harald Gilles saga-Magnus lemlestes-E. Peterssen.jpg",
+          "url": "https://upload.wikimedia.org/wikipedia/commons/5/5f/Magnus_Blindes_og_Harald_Gilles_saga-Magnus_lemlestes-E._Peterssen.jpg",
+          "page": "https://commons.wikimedia.org/wiki/File:Magnus_Blindes_og_Harald_Gilles_saga-Magnus_lemlestes-E._Peterssen.jpg",
+          "credit": "Eilif Peterssen",
+          "license": "Public domain",
+          "made": "1890s",
+          "caption": "Eilif Peterssen's drawing of King Magnus being maimed, made for an 1899 edition of Snorri's sagas.",
+          "alt": "Book illustration showing the maiming of King Magnus the Blind"
+        }
+      ],
+      "sources": [
+        {
+          "title": "Heimskringla",
+          "author": "Snorri Sturluson",
+          "note": "c. 1230; English trans. Alison Finlay and Anthony Faulkes, Viking Society for Northern Research, 2011–2015"
+        },
+        {
+          "title": "From Viking Stronghold to Christian Kingdom: State Formation in Norway, c. 900–1350",
+          "author": "Sverre Bagge",
+          "note": "Museum Tusculanum Press, 2010"
+        },
+        {
+          "title": "Society and Politics in Snorri Sturluson's Heimskringla",
+          "author": "Sverre Bagge",
+          "note": "University of California Press, 1991"
+        }
+      ],
+      "review": {
+        "status": "draft",
+        "notes": "Drafted from the listed sources; needs a human fact-check."
+      }
+    },
+    {
+      "id": "sverre",
+      "kind": "monarch",
+      "rulers": [
+        "sverre"
+      ],
+      "tagline": "The priest who said he was a king's son, and won",
+      "start": {
+        "date": "1184-06-15"
+      },
+      "end": {
+        "date": "1202-03-09"
+      },
+      "contestedWith": [],
+      "relationToPredecessor": "Claimed son of Sigurd Munn",
+      "ageAtAccession": "About 33",
+      "cameToPower": "Rebel leader, won at Fimreite",
+      "reignEnded": "Died of illness in Bergen",
+      "previously": "Magnus Erlingsson drowns at Fimreite. A rebel priest takes the crown.",
+      "paragraphs": [
+        "Sverre grew up in the Faroe Islands and trained as a priest. In about 1175, so he said, his mother told him a secret: his real father was King Sigurd Munn, one of Harald Gille's sons. Sverre sailed to Norway and joined the Birkebeiners, a ragged rebel band named after the birch bark they wrapped round their legs. He was soon their leader.",
+        "He turned out to be a brilliant guerrilla general and a gifted talker. He beat Erling Skakke at Kalvskinnet, near Trondheim, in 1179, and in 1184 caught Magnus Erlingsson's fleet at Fimreite. Magnus drowned and Sverre was king of all Norway. Keeping it was harder.",
+        "The bishops loathed him and backed a rival party, the Baglers, named after the bishop's crozier. The pope excommunicated Sverre and put Norway under an interdict. Sverre hit back with a fierce speech arguing that a king's power came straight from God. He was still fighting the Baglers when he died in Bergen in 1202."
+      ],
+      "claims": [
+        {
+          "text": "Sverre really was the son of King Sigurd Munn.",
+          "status": "disputed",
+          "note": "We only have his word, passed on from his mother. His enemies called him an impostor, and historians are still split."
+        },
+        {
+          "text": "Sverre helped write his own saga.",
+          "status": "confirmed",
+          "note": "The prologue of Sverris saga says Abbot Karl Jónsson wrote the first part with the king sitting over him, deciding what went in."
+        },
+        {
+          "text": "On his deathbed he asked to lie with his face uncovered, so everyone could see whether excommunication had marked him.",
+          "status": "legend",
+          "note": "Sverris saga tells it. It reads like his last piece of propaganda."
+        }
+      ],
+      "hook": "Sverre's son Haakon III dies suddenly in 1204, and people whisper poison. Months later a baby boy is born in secret, and the Birkebeiners swear he is Haakon's son.",
+      "images": [
+        {
+          "file": "File:Sverre Sigurdsson (Nidaros Cathedral).jpg",
+          "url": "https://upload.wikimedia.org/wikipedia/commons/5/5b/Sverre_Sigurdsson_%28Nidaros_Cathedral%29.jpg",
+          "page": "https://commons.wikimedia.org/wiki/File:Sverre_Sigurdsson_(Nidaros_Cathedral).jpg",
+          "credit": "Alexander Bugge",
+          "license": "Public domain",
+          "made": "c. 1200",
+          "caption": "A carved stone head in Nidaros Cathedral, dated to around 1200 and thought to show Sverre.",
+          "alt": "Photo of a carved stone head of King Sverre in Nidaros Cathedral"
+        }
+      ],
+      "sources": [
+        {
+          "title": "Sverris saga",
+          "author": "Karl Jónsson and others (trans. J. Sephton)",
+          "note": "English trans. 1899"
+        },
+        {
+          "title": "From Viking Stronghold to Christian Kingdom: State Formation in Norway, c. 900–1350",
+          "author": "Sverre Bagge",
+          "note": "Museum Tusculanum Press, 2010"
+        },
+        {
+          "title": "The Cambridge History of Scandinavia, Vol. 1: Prehistory to 1520",
+          "author": "Knut Helle (ed.)",
+          "note": "Cambridge University Press, 2003"
+        }
+      ],
+      "review": {
+        "status": "draft",
+        "notes": "Drafted from the listed sources; needs a human fact-check."
+      }
+    },
+    {
+      "id": "haakon-iv",
+      "kind": "monarch",
+      "rulers": [
+        "haakon-iv"
+      ],
+      "tagline": "The rescued baby who built an empire at sea",
+      "start": {
+        "date": "1217"
+      },
+      "end": {
+        "date": "1263-12-16"
+      },
+      "contestedWith": [],
+      "relationToPredecessor": "Grandson of Sverre",
+      "ageAtAccession": "13",
+      "cameToPower": "Chosen king by the Birkebeiners",
+      "reignEnded": "Died in Orkney after Largs",
+      "previously": "Sverre and his son are dead, and a secret baby heir is born.",
+      "paragraphs": [
+        "Haakon was born in 1204, months after his father, Sverre's son Haakon III, had died. The baby was in danger, so in the winter of 1206 Birkebeiner warriors carried him over the mountains to the safety of King Inge. When Inge died in 1217 the Birkebeiners made 13-year-old Haakon king. To prove who his father was, his mother Inga carried hot iron in Bergen in 1218, and her hands were judged unharmed.",
+        "Real power sat with Skule Bårdsson, Inge's half-brother, a proud earl who ran things while Haakon grew up. The two became rivals. Haakon married Skule's daughter Margaret, but in 1239 Skule declared himself king. He lost, and in 1240 he was killed after fleeing to a monastery. Norway's long civil wars were over at last.",
+        "Haakon was crowned by a papal legate in 1247 and made Norway a real European power. Greenland accepted his rule in 1261, and Iceland soon after. In 1263 he sailed to defend the Hebrides against Scotland. After an indecisive fight at Largs he fell ill in Orkney and died there in December."
+      ],
+      "claims": [
+        {
+          "text": "Birkebeiner skiers carried the baby Haakon across the mountains through a blizzard.",
+          "status": "legend",
+          "note": "Haakon's saga tells of a hard winter journey. The skis and the heroic details owe a lot to later retellings and Bergslien's famous painting."
+        },
+        {
+          "text": "His mother Inga proved his royal blood by carrying red-hot iron.",
+          "status": "confirmed",
+          "note": "Haakon's saga, written soon after his death, describes the ordeal in Bergen in 1218."
+        },
+        {
+          "text": "On his deathbed he had sagas read aloud, finishing with his grandfather Sverre's.",
+          "status": "confirmed",
+          "note": "Sturla Thordarson's saga of Haakon, written for Haakon's son, records it."
+        }
+      ],
+      "hook": "Haakon's son Magnus is already crowned. He inherits an empire at sea, a war with Scotland nobody can win, and a kingdom full of old local laws.",
+      "images": [
+        {
+          "file": "File:Birkebeinerne på Ski over Fjeldet med Kongsbarnet.jpg",
+          "url": "https://upload.wikimedia.org/wikipedia/commons/8/85/Birkebeinerne_p%C3%A5_Ski_over_Fjeldet_med_Kongsbarnet.jpg",
+          "page": "https://commons.wikimedia.org/wiki/File:Birkebeinerne_p%C3%A5_Ski_over_Fjeldet_med_Kongsbarnet.jpg",
+          "credit": "Knud Bergslien",
+          "license": "Public domain",
+          "made": "1869",
+          "caption": "Knud Bergslien's 1869 painting of Birkebeiners carrying baby Haakon to safety, now a Norwegian national icon.",
+          "alt": "Painting of Birkebeiner skiers carrying the infant prince Haakon across a snowy mountain"
+        }
+      ],
+      "sources": [
+        {
+          "title": "Hákonar saga Hákonarsonar",
+          "author": "Sturla Þórðarson",
+          "note": "Written c. 1264–65"
+        },
+        {
+          "title": "From Viking Stronghold to Christian Kingdom: State Formation in Norway, c. 900–1350",
+          "author": "Sverre Bagge",
+          "note": "Museum Tusculanum Press, 2010"
+        },
+        {
+          "title": "The Cambridge History of Scandinavia, Vol. 1: Prehistory to 1520",
+          "author": "Knut Helle (ed.)",
+          "note": "Cambridge University Press, 2003"
+        }
+      ],
+      "review": {
+        "status": "draft",
+        "notes": "Drafted from the listed sources; needs a human fact-check."
+      }
+    },
+    {
+      "id": "magnus-the-lawmender",
+      "kind": "monarch",
+      "rulers": [
+        "magnus-the-lawmender"
+      ],
+      "tagline": "The king who gave Norway one law for everyone",
+      "start": {
+        "date": "1263-12-16"
+      },
+      "end": {
+        "date": "1280-05-09"
+      },
+      "contestedWith": [],
+      "relationToPredecessor": "Son of Haakon IV",
+      "ageAtAccession": "25",
+      "cameToPower": "Already crowned co-king in 1261",
+      "reignEnded": "Died of illness in Bergen",
+      "previously": "Haakon the Old dies in Orkney after the clash at Largs.",
+      "paragraphs": [
+        "Magnus was a younger son, but his brother Haakon the Young died in 1257, and Magnus was crowned alongside his father in 1261. Once Haakon was dead, Magnus decided the war in the west wasn't worth it. By the Treaty of Perth in 1266 he sold the Hebrides and the Isle of Man to Scotland for 4,000 marks, plus 100 marks a year. Orkney and Shetland stayed Norwegian.",
+        "His real passion was law. Each region of Norway had its own old law code. In 1274 Magnus replaced them with a single law for the whole country, the Landslov, then added a law for the towns. Iceland got a new law book too. The same rules now ran from Oslo to the Arctic.",
+        "He made a deal with the Church in 1277, the Concordat of Tønsberg, and gave his nobles European titles like baron and knight. He also hired the Icelander Sturla Thordarson to write his father's saga. Magnus died in Bergen in 1280, aged 42, leaving two young sons."
+      ],
+      "claims": [
+        {
+          "text": "He sold the Hebrides and Man to Scotland for 4,000 marks and 100 marks a year.",
+          "status": "confirmed",
+          "note": "The Treaty of Perth of 1266 survives and spells out the terms."
+        },
+        {
+          "text": "His national law stayed the backbone of Norwegian law until 1687.",
+          "status": "confirmed",
+          "note": "Christian IV's Norwegian Law of 1604 was largely a translation of it. Christian V's Norwegian Code finally replaced it in 1687."
+        },
+        {
+          "text": "A carved head in Stavanger Cathedral shows his real face.",
+          "status": "disputed",
+          "note": "The head is dated to his lifetime or just after and is traditionally named as Magnus, but nothing on it proves who it is."
+        }
+      ],
+      "hook": "Magnus's son Eric is only 12. The barons and the queen mother will run things, and they're about to pick a fight with the Church that will stick the boy with an ugly nickname.",
+      "images": [
+        {
+          "file": "File:Magnus Haakonsson (Stavanger cathedral).jpg",
+          "url": "https://upload.wikimedia.org/wikipedia/commons/0/03/Magnus_Haakonsson_%28Stavanger_cathedral%29.jpg",
+          "page": "https://commons.wikimedia.org/wiki/File:Magnus_Haakonsson_(Stavanger_cathedral).jpg",
+          "credit": "Alexander Bugge",
+          "license": "Public domain",
+          "made": "c. 1280s",
+          "caption": "A carved head in Stavanger Cathedral, made in Magnus's lifetime or soon after, thought to show him.",
+          "alt": "Photo of a carved stone head of King Magnus VI in Stavanger Cathedral"
+        }
+      ],
+      "sources": [
+        {
+          "title": "From Viking Stronghold to Christian Kingdom: State Formation in Norway, c. 900–1350",
+          "author": "Sverre Bagge",
+          "note": "Museum Tusculanum Press, 2010"
+        },
+        {
+          "title": "The Cambridge History of Scandinavia, Vol. 1: Prehistory to 1520",
+          "author": "Knut Helle (ed.)",
+          "note": "Cambridge University Press, 2003"
+        },
+        {
+          "title": "Magnus Lagabøters landslov",
+          "author": "Absalon Taranger (trans.)",
+          "note": "Norwegian translation, 1915"
+        }
+      ],
+      "review": {
+        "status": "draft",
+        "notes": "Drafted from the listed sources; needs a human fact-check."
+      }
+    },
+    {
+      "id": "eric-ii",
+      "kind": "monarch",
+      "rulers": [
+        "eric-ii"
+      ],
+      "tagline": "The boy king whose daughter was meant to rule Scotland",
+      "start": {
+        "date": "1280-05-09"
+      },
+      "end": {
+        "date": "1299-07-15"
+      },
+      "contestedWith": [],
+      "relationToPredecessor": "Son of Magnus VI",
+      "ageAtAccession": "12",
+      "cameToPower": "Crowned as a boy in Bergen",
+      "reignEnded": "Died young in Bergen",
+      "previously": "Magnus the Law-mender dies. His 12-year-old son takes the throne.",
+      "paragraphs": [
+        "Eric was crowned in Bergen in 1280, aged 12, and for years his mother Ingeborg and a council of barons ruled for him. They quarrelled bitterly with the archbishop over Church rights and money, and churchmen never forgave it. In time the boy king took the blame, and the nickname Priest-hater.",
+        "In 1281 Eric married Margaret, daughter of King Alexander III of Scotland. She died in 1283 after giving birth to a girl, also called Margaret. Then Alexander's sons died, and in 1286 Alexander fell from his horse and was killed. The little Maid of Norway was now heir to Scotland. In 1290 she sailed to claim it, but died in Orkney on the way, aged seven.",
+        "At home Eric's government fought a trade war with the German Hanseatic towns, which blockaded Norway and won better terms in 1285. In 1293 Eric married again, to Isabel Bruce, sister of the future Robert the Bruce. They had a daughter, Ingebjørg. Eric died in 1299 with no son, so the crown passed to his brother Haakon."
+      ],
+      "claims": [
+        {
+          "text": "Eric hated priests.",
+          "status": "disputed",
+          "note": "The nickname came from churchmen later on. The quarrel was really run by his regents while he was a boy."
+        },
+        {
+          "text": "His daughter Margaret was recognised as heir to the Scottish throne.",
+          "status": "confirmed",
+          "note": "The Scottish lords swore to her in 1284, and the Treaty of Birgham in 1290 planned her marriage to Edward I's son."
+        },
+        {
+          "text": "The Maid of Norway died of seasickness.",
+          "status": "disputed",
+          "note": "Later stories blame a rough crossing. Nobody at the time recorded exactly what killed her."
+        }
+      ],
+      "hook": "Eric's younger brother Haakon has spent years as duke of the lands around Oslo. Now he is king, and soon a woman will turn up in Bergen claiming to be Eric's dead daughter.",
+      "images": [
+        {
+          "file": "File:Eirik Magnusson (Stavanger cathedral).jpg",
+          "url": "https://upload.wikimedia.org/wikipedia/commons/3/35/Eirik_Magnusson_%28Stavanger_cathedral%29.jpg",
+          "page": "https://commons.wikimedia.org/wiki/File:Eirik_Magnusson_(Stavanger_cathedral).jpg",
+          "credit": "Alexander Bugge",
+          "license": "Public domain",
+          "made": "1280s",
+          "caption": "A carved head in Stavanger Cathedral from the 1280s, thought to show Eric as a young king.",
+          "alt": "Photo of a carved stone head of King Eric II in Stavanger Cathedral"
+        }
+      ],
+      "sources": [
+        {
+          "title": "From Viking Stronghold to Christian Kingdom: State Formation in Norway, c. 900–1350",
+          "author": "Sverre Bagge",
+          "note": "Museum Tusculanum Press, 2010"
+        },
+        {
+          "title": "The Cambridge History of Scandinavia, Vol. 1: Prehistory to 1520",
+          "author": "Knut Helle (ed.)",
+          "note": "Cambridge University Press, 2003"
+        },
+        {
+          "title": "Scotland in the Reign of Alexander III, 1249–1286",
+          "author": "Norman H. Reid (ed.)",
+          "note": "John Donald, 1990"
+        }
+      ],
+      "review": {
+        "status": "draft",
+        "notes": "Drafted from the listed sources; needs a human fact-check."
+      }
+    },
+    {
+      "id": "haakon-v",
+      "kind": "monarch",
+      "rulers": [
+        "haakon-v"
+      ],
+      "tagline": "The castle builder who made Oslo matter",
+      "start": {
+        "date": "1299-07-15"
+      },
+      "end": {
+        "date": "1319-05-08"
+      },
+      "contestedWith": [],
+      "relationToPredecessor": "Younger brother of Eric II",
+      "ageAtAccession": "29",
+      "cameToPower": "Brother died without a son",
+      "reignEnded": "Died, leaving a grandson of three",
+      "previously": "Eric II dies with no son. His brother Haakon takes the crown.",
+      "paragraphs": [
+        "As a duke, Haakon had ruled eastern Norway from Oslo, and as king he kept his eyes there. Around 1300 he began Akershus Castle on a rock above Oslo harbour, and in the far north he built Vardøhus. Oslo grew into the heart of royal government, though Bergen stayed the biggest town.",
+        "Haakon wanted a strong crown and no over-mighty lords. In 1308 he ruled that the old noble titles of earl and lendmann should die out. He also had to deal with a ghost. In 1300 a woman arrived from Germany claiming to be the Maid of Norway, his dead niece. She was burned at Bergen in 1301.",
+        "He had no son. His daughter Ingebjørg married the Swedish duke Eric, and their son Magnus was born in 1316. When Haakon died in 1319, three-year-old Magnus was chosen king of Norway, and within weeks of Sweden as well. Haakon was the last king of Sverre's male line."
+      ],
+      "claims": [
+        {
+          "text": "The “False Margaret” who claimed to be the Maid of Norway was burned at Bergen in 1301.",
+          "status": "confirmed",
+          "note": "Icelandic annals record her execution, and a local cult honouring her grew up afterwards."
+        },
+        {
+          "text": "Haakon made Oslo the capital of Norway.",
+          "status": "disputed",
+          "note": "Many books say so, but medieval Norway had no fixed capital. Oslo's rise under him is clear; the label is later."
+        },
+        {
+          "text": "Haakon's remains now lie in Akershus Castle.",
+          "status": "confirmed",
+          "note": "He was buried in St Mary's Church in Oslo. His remains were later moved to the royal mausoleum at Akershus."
+        }
+      ],
+      "hook": "Norway's new king is a toddler who is also King of Sweden. One small boy, two crowns, and a kingdom about to be run from somewhere else.",
+      "images": [
+        {
+          "file": "File:Haakon Magnusson (Stavanger cathedral).jpg",
+          "url": "https://upload.wikimedia.org/wikipedia/commons/2/2b/Haakon_Magnusson_%28Stavanger_cathedral%29.jpg",
+          "page": "https://commons.wikimedia.org/wiki/File:Haakon_Magnusson_(Stavanger_cathedral).jpg",
+          "credit": "Alexander Bugge",
+          "license": "Public domain",
+          "made": "1280s",
+          "caption": "A carved head in Stavanger Cathedral from the 1280s, thought to show Haakon as a young duke.",
+          "alt": "Photo of a carved stone head of Duke Haakon, later Haakon V, in Stavanger Cathedral"
+        }
+      ],
+      "sources": [
+        {
+          "title": "From Viking Stronghold to Christian Kingdom: State Formation in Norway, c. 900–1350",
+          "author": "Sverre Bagge",
+          "note": "Museum Tusculanum Press, 2010"
+        },
+        {
+          "title": "The Cambridge History of Scandinavia, Vol. 1: Prehistory to 1520",
+          "author": "Knut Helle (ed.)",
+          "note": "Cambridge University Press, 2003"
+        },
+        {
+          "title": "“Håkon 5 Magnusson”, Norsk biografisk leksikon",
+          "author": "Various authors",
+          "note": "Online edition, Store norske leksikon"
+        }
+      ],
+      "review": {
+        "status": "draft",
+        "notes": "Drafted from the listed sources; needs a human fact-check."
+      }
+    },
+    {
+      "id": "magnus-vii",
+      "kind": "monarch",
+      "rulers": [
+        "magnus-vii"
+      ],
+      "tagline": "A toddler with two crowns and a plague on the way",
+      "start": {
+        "date": "1319-05-08"
+      },
+      "end": {
+        "date": "1343"
+      },
+      "contestedWith": [],
+      "relationToPredecessor": "Grandson of Haakon V",
+      "ageAtAccession": "3",
+      "cameToPower": "Inherited through his mother",
+      "reignEnded": "Handed Norway to his son",
+      "previously": "Haakon V dies with no son. His crown passes to a little grandson.",
+      "paragraphs": [
+        "Haakon V left no son, so the crown went to his daughter Ingebjørg's boy, Magnus. He was three. That same summer the Swedes picked him as their king too. For the first time Norway and Sweden shared a ruler, and Norway's royal line now ran through a Swedish family, the Folkungs. With a child on the throne, nobles and regents ran things for years.",
+        "Grown up, Magnus spent most of his time in Sweden, and Norwegians grumbled about an absent king. He bought the rich province of Scania from the Danes, which cost a fortune. In 1343 he agreed that his younger son Haakon would have Norway. Then, in 1349, a ship from England docked in Bergen carrying the Black Death. It tore through the country and left Norway far poorer and weaker for generations.",
+        "His later years were a slide. He lost Scania back to Denmark in 1360, was pushed off the Swedish throne in 1364 and spent years as a prisoner. He finished his days in Norway with his son and drowned in a shipwreck off the west coast in 1374."
+      ],
+      "claims": [
+        {
+          "text": "The Black Death reached Norway on a ship from England that docked in Bergen in 1349.",
+          "status": "confirmed",
+          "note": "Icelandic annals record the ship and the outbreak; historians accept the outline, if not every detail."
+        },
+        {
+          "text": "The plague killed around half of all Norwegians.",
+          "status": "disputed",
+          "note": "There are no counts. Estimates rest on later tax and farm records and range from about a third to well over half."
+        },
+        {
+          "text": "His Swedish nickname, Smek, and his enemies' attacks mean he loved men.",
+          "status": "disputed",
+          "note": "The charges come from hostile sources, including St Bridget's revelations, written when she had turned against him. Nothing proves it."
+        }
+      ],
+      "hook": "Magnus can't hold two kingdoms together on his own. The deal is struck: Norway will go to his younger son Haakon. Haakon is barely out of nappies.",
+      "images": [
+        {
+          "file": "File:Magnus Eriksson.jpg",
+          "url": "https://upload.wikimedia.org/wikipedia/commons/a/a8/Magnus_Eriksson.jpg",
+          "page": "https://commons.wikimedia.org/wiki/File:Magnus_Eriksson.jpg",
+          "credit": "Unknown artist",
+          "license": "Public domain",
+          "made": "c. 1430",
+          "caption": "From a copy of his Swedish law code made around 1430, more than 50 years after his death.",
+          "alt": "Medieval manuscript illustration of King Magnus Eriksson from the title page of a law book"
+        }
+      ],
+      "sources": [
+        {
+          "title": "The Cambridge History of Scandinavia, Volume 1: Prehistory to 1520",
+          "author": "Knut Helle (ed.)",
+          "note": "Cambridge University Press, 2003"
+        },
+        {
+          "title": "The Black Death 1346–1353: The Complete History",
+          "author": "Ole J. Benedictow",
+          "note": "Boydell Press, 2004"
+        },
+        {
+          "title": "Norsk biografisk leksikon",
+          "note": "Online edition, via Store norske leksikon (snl.no)"
+        },
+        {
+          "title": "A History of Norway",
+          "author": "T. K. Derry",
+          "note": "Allen & Unwin, 1957"
+        }
+      ],
+      "review": {
+        "status": "draft",
+        "notes": "Drafted from the listed sources; needs a human fact-check."
+      }
+    },
+    {
+      "id": "haakon-vi",
+      "kind": "monarch",
+      "rulers": [
+        "haakon-vi"
+      ],
+      "tagline": "The king who married a ten-year-old girl and made history",
+      "start": {
+        "date": "1343"
+      },
+      "end": {
+        "date": "1380-09-11"
+      },
+      "contestedWith": [],
+      "relationToPredecessor": "Younger son of Magnus VII",
+      "ageAtAccession": "About 3",
+      "cameToPower": "Given Norway by his father",
+      "reignEnded": "Died aged about 40",
+      "previously": "Magnus can't rule two kingdoms. Little Haakon is promised Norway.",
+      "paragraphs": [
+        "Haakon was a small child when his father promised him Norway, so Magnus kept running things until the boy grew up and took charge in the 1350s. For a couple of years he was even king of Sweden as well, until the Swedish nobles threw out him and his father in 1364 and brought in a German, Albert of Mecklenburg. Haakon spent years trying to get Sweden back.",
+        "His big move was his wedding. In 1363 he married Margaret, the ten-year-old daughter of King Valdemar IV of Denmark. She was raised in Norway and learned the business of ruling from the start. Their only child, Olaf, was born in 1370. Haakon died in 1380, aged about 40, and was buried in Oslo. The boy king that followed had a mother who was going to be very hard to ignore."
+      ],
+      "claims": [
+        {
+          "text": "Margaret was only ten when she married Haakon.",
+          "status": "confirmed",
+          "note": "She was born in 1353 and the wedding took place in Copenhagen in 1363."
+        },
+        {
+          "text": "Haakon's first bride, Elisabeth of Holstein, was blown off course on her way to him and kept in Denmark.",
+          "status": "disputed",
+          "note": "Later chronicles tell the storm story. The broken engagement is certain; how it happened is less clear."
+        },
+        {
+          "text": "Young Margaret wrote to Haakon complaining her household was going hungry.",
+          "status": "confirmed",
+          "note": "Her letter survives and is often quoted as a rare glimpse of royal money troubles."
+        }
+      ],
+      "hook": "Haakon is dead. His son Olaf is ten and already king of Denmark. Now he has Norway too, and his mother Margaret is the one really holding the reins.",
+      "images": [
+        {
+          "file": "File:Hacon VI of Norway seal c 1363.jpg",
+          "url": "https://upload.wikimedia.org/wikipedia/commons/e/eb/Hacon_VI_of_Norway_seal_c_1363.jpg",
+          "page": "https://commons.wikimedia.org/wiki/File:Hacon_VI_of_Norway_seal_c_1363.jpg",
+          "credit": "Unknown 14th-century artist",
+          "license": "Public domain",
+          "made": "c. 1363",
+          "caption": "His own royal seal, made in his lifetime. No painted likeness survives.",
+          "alt": "Medieval wax seal showing King Haakon VI, king of Norway and Sweden"
+        }
+      ],
+      "sources": [
+        {
+          "title": "The Cambridge History of Scandinavia, Volume 1: Prehistory to 1520",
+          "author": "Knut Helle (ed.)",
+          "note": "Cambridge University Press, 2003"
+        },
+        {
+          "title": "Queen Margrete I (1353–1412) and the Founding of the Nordic Union",
+          "author": "Vivian Etting",
+          "note": "Brill, 2004"
+        },
+        {
+          "title": "Norsk biografisk leksikon",
+          "note": "Online edition, via Store norske leksikon (snl.no)"
+        },
+        {
+          "title": "A History of Norway",
+          "author": "T. K. Derry",
+          "note": "Allen & Unwin, 1957"
+        }
+      ],
+      "review": {
+        "status": "draft",
+        "notes": "Drafted from the listed sources; needs a human fact-check."
+      }
+    },
+    {
+      "id": "olaf-iv",
+      "kind": "monarch",
+      "rulers": [
+        "olaf-iv"
+      ],
+      "tagline": "The boy who tied Norway to Denmark for 434 years",
+      "start": {
+        "date": "1380-09-11"
+      },
+      "end": {
+        "date": "1387-08-03"
+      },
+      "contestedWith": [],
+      "relationToPredecessor": "Son of Haakon VI",
+      "ageAtAccession": "9",
+      "cameToPower": "Inherited from his father",
+      "reignEnded": "Sudden death at Falsterbo",
+      "previously": "Haakon VI dies. His young son is already king of Denmark.",
+      "paragraphs": [
+        "Olaf's mother Margaret had already got him elected king of Denmark in 1376, when he was five. When his father died in 1380, Norway came to him as well. That made him the first king of both countries at once, and it started a union that lasted until 1814. A child couldn't rule, so Margaret did it for him, and she did it well.",
+        "Olaf also had a claim to Sweden through his father's family, and Margaret pushed it hard. Then, in August 1387, Olaf fell ill and died suddenly at Falsterbo castle in Scania. He was a teenager. The male line of Norway's old royal house ended with him, and people whispered about poison. All eyes turned to his mother."
+      ],
+      "claims": [
+        {
+          "text": "Olaf was poisoned.",
+          "status": "disputed",
+          "note": "Rumours spread after his sudden death, but no contemporary source gives evidence. Illness is the likelier story."
+        },
+        {
+          "text": "Years later a man turned up claiming to be Olaf, back from the dead.",
+          "status": "confirmed",
+          "note": "A 'False Olaf' appeared in Prussia around 1402. Margaret had him exposed and he was burned."
+        },
+        {
+          "text": "His accession in 1380 began a union with Denmark that lasted until 1814.",
+          "status": "confirmed",
+          "note": "Norway shared its kings with Denmark from Olaf onwards, with only short breaks."
+        }
+      ],
+      "hook": "Norway's king is dead and the old royal line is gone. Its nobles have no obvious heir. So they turn to the woman who has been running the country all along.",
+      "images": [
+        {
+          "file": "File:Oluf 2 of Denmark (Kronborg tapestries).jpg",
+          "url": "https://upload.wikimedia.org/wikipedia/commons/7/7e/Oluf_2_of_Denmark_%28Kronborg_tapestries%29.jpg",
+          "page": "https://commons.wikimedia.org/wiki/File:Oluf_2_of_Denmark_(Kronborg_tapestries).jpg",
+          "credit": "Hans Knieper",
+          "license": "Public domain",
+          "made": "1581–1584",
+          "caption": "From the Kronborg tapestries, made about 200 years after his death.",
+          "alt": "Tapestry figure of King Olaf from a series showing the kings of Denmark"
+        }
+      ],
+      "sources": [
+        {
+          "title": "Queen Margrete I (1353–1412) and the Founding of the Nordic Union",
+          "author": "Vivian Etting",
+          "note": "Brill, 2004"
+        },
+        {
+          "title": "The Cambridge History of Scandinavia, Volume 1: Prehistory to 1520",
+          "author": "Knut Helle (ed.)",
+          "note": "Cambridge University Press, 2003"
+        },
+        {
+          "title": "Norsk biografisk leksikon",
+          "note": "Online edition, via Store norske leksikon (snl.no)"
+        }
+      ],
+      "review": {
+        "status": "draft",
+        "notes": "Drafted from the listed sources; needs a human fact-check."
+      }
+    },
+    {
+      "id": "margaret",
+      "kind": "monarch",
+      "rulers": [
+        "margaret"
+      ],
+      "tagline": "She ruled three kingdoms without ever being called queen",
+      "start": {
+        "date": "1388-02-02"
+      },
+      "end": {
+        "date": "1412-10-28"
+      },
+      "contestedWith": [],
+      "relationToPredecessor": "Mother of Olaf IV",
+      "ageAtAccession": "34",
+      "cameToPower": "Chosen ruler for life",
+      "reignEnded": "Died on her ship at Flensburg",
+      "previously": "Olaf IV dies young. The old royal male line of Norway is gone.",
+      "paragraphs": [
+        "Margaret had lost her son, but she kept her grip. Denmark named her its ruler within days, and in February 1388 the Norwegians chose her as their sovereign lady for life. Medieval law had no proper word for a woman in charge, so the Danes styled her 'lady and husband', master of the realm. In 1389 her armies beat the Swedish king Albert, and Sweden came over too.",
+        "She needed an heir, so she adopted her great-nephew Eric of Pomerania and had him crowned king of all three countries at Kalmar in 1397. That was the Kalmar Union. Eric was a figurehead while she lived. Margaret kept ruling until 1412, when she fell ill on her ship in Flensburg harbour and died. She was buried in Roskilde Cathedral."
+      ],
+      "claims": [
+        {
+          "text": "King Albert mocked her as 'King Breechless' and sent her a whetstone to sharpen her needles.",
+          "status": "legend",
+          "note": "The insults come from later Swedish chronicles. Nobody can show Albert actually said or sent them."
+        },
+        {
+          "text": "The famous Kalmar Union document was never properly sealed into law.",
+          "status": "confirmed",
+          "note": "The surviving union letter is on paper with few seals. Historians still argue over whether it was a draft."
+        },
+        {
+          "text": "She died of plague.",
+          "status": "disputed",
+          "note": "Sources say she died suddenly on board ship; plague is the usual guess, not a proven fact."
+        }
+      ],
+      "hook": "Margaret is gone. Eric of Pomerania now rules three kingdoms from Denmark. Norway has no king of its own, and it won't have one for four hundred years.",
+      "images": [
+        {
+          "file": "File:Margrete I Scandinavia upper view Roskilde Denmark.jpg",
+          "url": "https://upload.wikimedia.org/wikipedia/commons/9/98/Margrete_I_Scandinavia_upper_view_Roskilde_Denmark.jpg",
+          "page": "https://commons.wikimedia.org/wiki/File:Margrete_I_Scandinavia_upper_view_Roskilde_Denmark.jpg",
+          "credit": "Jebulon",
+          "license": "CC0",
+          "made": "Effigy c. 1423; photo 2016",
+          "caption": "Her tomb in Roskilde Cathedral, made about ten years after her death.",
+          "alt": "View from above of Margaret's sarcophagus in Roskilde Cathedral, with her carved effigy lying on top"
+        }
+      ],
+      "sources": [
+        {
+          "title": "Queen Margrete I (1353–1412) and the Founding of the Nordic Union",
+          "author": "Vivian Etting",
+          "note": "Brill, 2004"
+        },
+        {
+          "title": "The Cambridge History of Scandinavia, Volume 1: Prehistory to 1520",
+          "author": "Knut Helle (ed.)",
+          "note": "Cambridge University Press, 2003"
+        },
+        {
+          "title": "Norsk biografisk leksikon",
+          "note": "Online edition, via Store norske leksikon (snl.no)"
+        }
+      ],
+      "review": {
+        "status": "draft",
+        "notes": "Drafted from the listed sources; needs a human fact-check."
+      }
+    },
+    {
+      "id": "danish-union",
+      "kind": "interregnum",
+      "rulers": [],
+      "house": "union",
+      "title": "Four Centuries with Denmark",
+      "tagline": "Four hundred years of being run from Copenhagen",
+      "start": {
+        "date": "1412-10-28"
+      },
+      "end": {
+        "date": "1814-05-17"
+      },
+      "contestedWith": [],
+      "relationToPredecessor": "Union kings ruled from Denmark",
+      "ageAtAccession": "No Norwegian king",
+      "cameToPower": "Kalmar Union kings took over",
+      "reignEnded": "Denmark handed Norway to Sweden",
+      "previously": "Margaret dies. Eric of Pomerania rules all three kingdoms.",
+      "paragraphs": [
+        "After Margaret, Norway's kings lived in Denmark and rarely visited. Sweden walked out of the union for good in 1523, but Norway stayed. In 1536 the new Danish king, Christian III, won a civil war and went further. He scrapped Norway's council of the realm and brought in the Lutheran Reformation. The last Catholic archbishop, Olav Engelbrektsson, fled abroad in 1537.",
+        "From then on Norway was governed from Copenhagen, and Danish became the written language of church and state. There were good days too. Christian IV opened silver mines at Kongsberg and rebuilt Oslo after a fire as Christiania. Timber, fish and shipping made merchants rich.",
+        "Then came the Napoleonic Wars. Denmark backed France, the British navy cut Norway off and people went hungry. In January 1814 a beaten Denmark signed the Treaty of Kiel and handed Norway to Sweden. Norway hadn't been asked."
+      ],
+      "claims": [
+        {
+          "text": "Christian III promised in 1536 that Norway would never again be a kingdom of its own.",
+          "status": "confirmed",
+          "note": "His coronation charter said so in plain words. In practice Norway kept its own laws and some separate offices."
+        },
+        {
+          "text": "This was a dark 'four-hundred-year night' for Norway.",
+          "status": "disputed",
+          "note": "The phrase comes from Henrik Ibsen's play Peer Gynt. Modern historians see a far more mixed picture."
+        },
+        {
+          "text": "Silver was found at Kongsberg in 1623 and made it Norway's richest mine.",
+          "status": "confirmed",
+          "note": "The Kongsberg silver works ran from 1623 until 1957 and were a huge earner for the Danish crown."
+        }
+      ],
+      "hook": "Denmark has signed Norway away, but the Danish prince governing it refuses to play along. He calls a meeting at Eidsvoll. Norway is about to write its own constitution.",
+      "images": [
+        {
+          "file": "File:Christian IV of Denmark.jpg",
+          "url": "https://upload.wikimedia.org/wikipedia/commons/3/3f/Christian_IV_of_Denmark.jpg",
+          "page": "https://commons.wikimedia.org/wiki/File:Christian_IV_of_Denmark.jpg",
+          "credit": "Unknown artist",
+          "license": "Public domain",
+          "made": "Date unknown",
+          "caption": "Christian IV, the union king Norwegians remember best, founder of Kongsberg and Christiania.",
+          "alt": "Painted portrait of King Christian IV of Denmark and Norway"
+        }
+      ],
+      "sources": [
+        {
+          "title": "The Cambridge History of Scandinavia, Volume 2: 1520–1870",
+          "author": "E. I. Kouri and Jens E. Olesen (eds)",
+          "note": "Cambridge University Press, 2016"
+        },
+        {
+          "title": "Norway: A History from the Vikings to Our Own Times",
+          "author": "Rolf Danielsen, Ståle Dyrvik, Tore Grønlie, Knut Helle and Edgar Hovland",
+          "note": "Scandinavian University Press, 1995"
+        },
+        {
+          "title": "A History of Norway",
+          "author": "T. K. Derry",
+          "note": "Allen & Unwin, 1957"
+        },
+        {
+          "title": "Store norske leksikon",
+          "note": "Online encyclopedia (snl.no)"
+        }
+      ],
+      "review": {
+        "status": "draft",
+        "notes": "Drafted from the listed sources; needs a human fact-check."
+      }
+    },
+    {
+      "id": "christian-frederick",
+      "kind": "monarch",
+      "rulers": [
+        "christian-frederick"
+      ],
+      "tagline": "King for one summer, father of a constitution",
+      "start": {
+        "date": "1814-05-17"
+      },
+      "end": {
+        "date": "1814-10-10"
+      },
+      "contestedWith": [],
+      "relationToPredecessor": "Cousin of Frederick VI of Denmark",
+      "ageAtAccession": "27",
+      "cameToPower": "Elected at Eidsvoll",
+      "reignEnded": "Abdicated after war with Sweden",
+      "previously": "The Treaty of Kiel hands Norway to Sweden. Norwegians are furious.",
+      "paragraphs": [
+        "Christian Frederick was the Danish heir-in-waiting and Denmark's governor in Norway. When the Treaty of Kiel gave Norway to Sweden, he refused to accept it. He called leading Norwegians together, and in spring 1814 an assembly met at Eidsvoll to write a constitution. On 17 May it was signed and he was elected king.",
+        "Sweden's crown prince, the former French marshal Bernadotte, wasn't having it. His troops attacked in late July and the short war went badly for Norway. In August the Convention of Moss ended the fighting. Sweden agreed to accept the new constitution, and Christian Frederick agreed to go. He abdicated in October and sailed home. In 1839 he became King Christian VIII of Denmark."
+      ],
+      "claims": [
+        {
+          "text": "Norway's constitution, signed on 17 May 1814, is still in force today.",
+          "status": "confirmed",
+          "note": "It has been amended many times but is one of the oldest written constitutions still in use."
+        },
+        {
+          "text": "Christian Frederick's real aim was to win Norway back for Denmark.",
+          "status": "disputed",
+          "note": "Swedes suspected it at the time. Historians still debate how far he was playing a long game for Copenhagen."
+        },
+        {
+          "text": "The war with Sweden lasted only about two weeks.",
+          "status": "confirmed",
+          "note": "Fighting began at the end of July and stopped with the Convention of Moss on 14 August 1814."
+        }
+      ],
+      "hook": "Christian Frederick sails away. Norway keeps its constitution and parliament, but now the king will be Swedish. The Storting votes Sweden's Charles XIII in.",
+      "images": [
+        {
+          "file": "File:Christianviiidenmark.jpg",
+          "url": "https://upload.wikimedia.org/wikipedia/commons/3/3d/Christianviiidenmark.jpg",
+          "page": "https://commons.wikimedia.org/wiki/File:Christianviiidenmark.jpg",
+          "credit": "Louis Aumont",
+          "license": "Public domain",
+          "made": "1831",
+          "caption": "Painted in 1831, 17 years after his Norwegian summer and before he became King of Denmark.",
+          "alt": "Painted portrait of Prince Christian Frederick, later King Christian VIII of Denmark"
+        }
+      ],
+      "sources": [
+        {
+          "title": "The Cambridge History of Scandinavia, Volume 2: 1520–1870",
+          "author": "E. I. Kouri and Jens E. Olesen (eds)",
+          "note": "Cambridge University Press, 2016"
+        },
+        {
+          "title": "Norway: A History from the Vikings to Our Own Times",
+          "author": "Rolf Danielsen, Ståle Dyrvik, Tore Grønlie, Knut Helle and Edgar Hovland",
+          "note": "Scandinavian University Press, 1995"
+        },
+        {
+          "title": "Norsk biografisk leksikon",
+          "note": "Online edition, via Store norske leksikon (snl.no)"
+        }
+      ],
+      "review": {
+        "status": "draft",
+        "notes": "Drafted from the listed sources; needs a human fact-check."
+      }
+    },
+    {
+      "id": "swedish-union",
+      "kind": "interregnum",
+      "rulers": [],
+      "house": "union",
+      "title": "Union with Sweden",
+      "tagline": "Same king as Sweden, but Norway kept its own rules",
+      "start": {
+        "date": "1814-11-04"
+      },
+      "end": {
+        "date": "1905-06-07"
+      },
+      "contestedWith": [],
+      "relationToPredecessor": "Union under Swedish kings",
+      "ageAtAccession": "No Norwegian king",
+      "cameToPower": "Storting accepted a Swedish king",
+      "reignEnded": "Storting dissolved the union",
+      "previously": "Christian Frederick abdicates. Norway keeps its constitution.",
+      "paragraphs": [
+        "On 4 November 1814 the Storting chose Sweden's Charles XIII as king of Norway. The two countries now shared a king and foreign policy, but Norway kept its own parliament, laws, army and money. Bernadotte, who reigned as Charles XIV John from 1818, tried to trim the Storting's powers and frowned on 17 May parties. Norwegians celebrated anyway.",
+        "Over the century Norway grew more confident. Its ships sailed everywhere, and writers like Ibsen and composers like Grieg made it famous. In 1884 the king had to accept that his ministers needed the Storting's backing. The final fight was about consuls. Norway wanted its own to look after its huge merchant fleet. King Oscar II said no.",
+        "On 7 June 1905 the Storting declared that Oscar had stopped functioning as king, so the union was over. In an August referendum Norwegians backed the split by 368,208 votes to 184. Sweden let them go in peace."
+      ],
+      "claims": [
+        {
+          "text": "Only 184 Norwegians voted to stay in the union in 1905.",
+          "status": "confirmed",
+          "note": "The official referendum result. Women couldn't vote, but they gathered about 280,000 signatures for independence."
+        },
+        {
+          "text": "In 1829 troops broke up a 17 May crowd in Christiania's market square.",
+          "status": "confirmed",
+          "note": "The 'Battle of the Square' is well documented. It turned the day into a cause."
+        },
+        {
+          "text": "Sweden and Norway came close to war in 1905.",
+          "status": "disputed",
+          "note": "Both sides moved troops to the border, but how near they came to fighting is still argued over."
+        }
+      ],
+      "hook": "Norway is free and needs a king. The Storting fancies a young Danish prince called Carl. He has a British wife, a baby son and one condition: let the people vote.",
+      "images": [
+        {
+          "file": "File:Oscar II of Sweden.jpg",
+          "url": "https://upload.wikimedia.org/wikipedia/commons/9/9c/Oscar_II_of_Sweden.jpg",
+          "page": "https://commons.wikimedia.org/wiki/File:Oscar_II_of_Sweden.jpg",
+          "credit": "Anders Zorn",
+          "license": "Public domain",
+          "made": "1898",
+          "caption": "Oscar II, the last king of the union, painted seven years before Norway walked out.",
+          "alt": "Painted portrait of King Oscar II of Sweden and Norway"
+        }
+      ],
+      "sources": [
+        {
+          "title": "Norway: A History from the Vikings to Our Own Times",
+          "author": "Rolf Danielsen, Ståle Dyrvik, Tore Grønlie, Knut Helle and Edgar Hovland",
+          "note": "Scandinavian University Press, 1995"
+        },
+        {
+          "title": "A History of Norway",
+          "author": "T. K. Derry",
+          "note": "Allen & Unwin, 1957"
+        },
+        {
+          "title": "Store norske leksikon",
+          "note": "Online encyclopedia (snl.no)"
+        }
+      ],
+      "review": {
+        "status": "draft",
+        "notes": "Drafted from the listed sources; needs a human fact-check."
+      }
+    },
+    {
+      "id": "haakon-vii",
+      "kind": "monarch",
+      "rulers": [
+        "haakon-vii"
+      ],
+      "tagline": "The elected king who told Hitler no",
+      "start": {
+        "date": "1905-11-18"
+      },
+      "end": {
+        "date": "1957-09-21"
+      },
+      "contestedWith": [],
+      "relationToPredecessor": "Danish prince elected by Norway",
+      "ageAtAccession": "33",
+      "cameToPower": "Elected after a referendum",
+      "reignEnded": "Died aged 85",
+      "previously": "Norway breaks with Sweden in 1905 and goes shopping for a king.",
+      "paragraphs": [
+        "Prince Carl of Denmark was a navy officer married to Maud, daughter of Britain's Edward VII. Asked to be Norway's king, he insisted the people vote first. In November 1905 a big majority said yes. The Storting elected him, he took the old royal name Haakon, and his toddler son Alexander became Olav. He set out to be a king for everyone.",
+        "Then came 9 April 1940. Germany invaded, and Hitler demanded that Haakon appoint the Nazi collaborator Vidkun Quisling as prime minister. Haakon told his government he would abdicate before he did that. The government backed him. German bombers hunted the royal party across the country, and in June the king sailed for Britain.",
+        "From London his radio speeches kept Norway going. His monogram, H7, was painted on walls across the occupied country. He came home in triumph on 7 June 1945 and reigned until his death in 1957."
+      ],
+      "claims": [
+        {
+          "text": "Haakon said he would abdicate rather than appoint Quisling.",
+          "status": "confirmed",
+          "note": "Ministers who were at the Nybergsund meeting on 10 April 1940 recorded his words."
+        },
+        {
+          "text": "About 79 per cent of voters said yes to him as king in 1905.",
+          "status": "confirmed",
+          "note": "Official referendum results: roughly 259,500 for and 69,300 against."
+        },
+        {
+          "text": "A famous photo shows him and his son sheltering by a birch tree during a German air raid.",
+          "status": "confirmed",
+          "note": "The picture was taken near Molde in April 1940. The tree became known as the King's Birch."
+        }
+      ],
+      "hook": "The war king is dead. His son Olav, a former Olympic champion and ski jumper, takes over. He's about to become the most loved man in Norway.",
+      "images": [
+        {
+          "file": "File:Haakon VII 1906 OB.F04662a.jpg",
+          "url": "https://upload.wikimedia.org/wikipedia/commons/5/55/Haakon_VII_1906_OB.F04662a.jpg",
+          "page": "https://commons.wikimedia.org/wiki/File:Haakon_VII_1906_OB.F04662a.jpg",
+          "credit": "Gustav Borgen",
+          "license": "CC BY-SA 3.0",
+          "made": "1906",
+          "caption": "Photographed in 1906, his first full year as Norway's king.",
+          "alt": "Half-profile photograph of Haakon VII in uniform with epaulettes, orders and a sash"
+        }
+      ],
+      "sources": [
+        {
+          "title": "Haakon VII: menneske og monark",
+          "author": "Tim Greve",
+          "note": "Gyldendal, 1980"
+        },
+        {
+          "title": "Norway: A History from the Vikings to Our Own Times",
+          "author": "Rolf Danielsen, Ståle Dyrvik, Tore Grønlie, Knut Helle and Edgar Hovland",
+          "note": "Scandinavian University Press, 1995"
+        },
+        {
+          "title": "Norsk biografisk leksikon",
+          "note": "Online edition, via Store norske leksikon (snl.no)"
+        }
+      ],
+      "review": {
+        "status": "draft",
+        "notes": "Drafted from the listed sources; needs a human fact-check."
+      }
+    },
+    {
+      "id": "olav-v",
+      "kind": "monarch",
+      "rulers": [
+        "olav-v"
+      ],
+      "tagline": "The people's king who took the tram to go skiing",
+      "start": {
+        "date": "1957-09-21"
+      },
+      "end": {
+        "date": "1991-01-17"
+      },
+      "contestedWith": [],
+      "relationToPredecessor": "Son of Haakon VII",
+      "ageAtAccession": "54",
+      "cameToPower": "Succeeded his father",
+      "reignEnded": "Died at home, aged 87",
+      "previously": "Haakon VII, Norway's war hero king, dies in 1957.",
+      "paragraphs": [
+        "Olav was born in England and arrived in Norway as a toddler. He grew up sporty. He jumped at Holmenkollen and won Olympic gold in sailing in 1928. In the war he went into exile with his father and in 1944 was made chief of Norway's armed forces. His wife, Crown Princess Märtha, died in 1954, so he became king a widower.",
+        "He was easy to like: warm, funny, and not stuffy at all. During the 1973 oil crisis, Sunday driving was banned. So the king put his skis on his shoulder and took the tram up to the hills like everyone else, and the photo went round the world. When he died in January 1991, Oslo people placed thousands of candles in the snow outside the palace."
+      ],
+      "claims": [
+        {
+          "text": "Olav insisted on paying for his tram ticket during the 1973 driving ban.",
+          "status": "confirmed",
+          "note": "Press reports and photos at the time covered the trip. The ticket detail has been retold ever since."
+        },
+        {
+          "text": "Asked about bodyguards, he said he had four million of them.",
+          "status": "legend",
+          "note": "The line is always credited to him, but there is no reliable record of when or where he said it."
+        },
+        {
+          "text": "He won Olympic gold in sailing at Amsterdam in 1928.",
+          "status": "confirmed",
+          "note": "He crewed the winning Norwegian boat in the six-metre class."
+        }
+      ],
+      "hook": "Olav is dead and the candles are burning in the snow. His son Harald, who once waited nine years to marry the woman he loved, is now king.",
+      "images": [
+        {
+          "file": "File:Olav V of Norway.jpg",
+          "url": "https://upload.wikimedia.org/wikipedia/commons/3/3f/Olav_V_of_Norway.jpg",
+          "page": "https://commons.wikimedia.org/wiki/File:Olav_V_of_Norway.jpg",
+          "credit": "Unidentified photographer",
+          "license": "Public domain",
+          "made": "1957",
+          "caption": "Photographed in 1957, the year he became king.",
+          "alt": "Photograph of King Olav V of Norway"
+        }
+      ],
+      "sources": [
+        {
+          "title": "Norway: A History from the Vikings to Our Own Times",
+          "author": "Rolf Danielsen, Ståle Dyrvik, Tore Grønlie, Knut Helle and Edgar Hovland",
+          "note": "Scandinavian University Press, 1995"
+        },
+        {
+          "title": "Norsk biografisk leksikon",
+          "note": "Online edition, via Store norske leksikon (snl.no)"
+        },
+        {
+          "title": "Store norske leksikon",
+          "note": "Online encyclopedia (snl.no)"
+        }
+      ],
+      "review": {
+        "status": "draft",
+        "notes": "Drafted from the listed sources; needs a human fact-check."
+      }
+    },
+    {
+      "id": "harald-v",
+      "kind": "monarch",
+      "rulers": [
+        "harald-v"
+      ],
+      "tagline": "The king who waited nine years to marry a commoner",
+      "start": {
+        "date": "1991-01-17"
+      },
+      "contestedWith": [],
+      "relationToPredecessor": "Son of Olav V",
+      "ageAtAccession": "53",
+      "cameToPower": "Succeeded his father",
+      "reignEnded": "Died in office, aged 89",
+      "previously": "Olav V, the people's king, dies in January 1991.",
+      "paragraphs": [
+        "Harald was born in 1937, the first prince born in Norway in 567 years. He spent the war in the United States with his mother. As a young man he fell for Sonja Haraldsen, a shopkeeper's daughter. A commoner as queen was a big deal, and the couple waited nine years before King Olav agreed. They married in 1968.",
+        "Like his father he loved sailing, and he carried Norway's flag at the Olympics. As king he chose a blessing in Nidaros Cathedral in 1991 instead of a coronation. After the terror attacks of July 2011 he and Sonja led the nation's mourning. In a 2016 speech he said Norwegians are many things: young and old, from north and south, believers and not, and of every origin."
+      ],
+      "claims": [
+        {
+          "text": "Harald and Sonja waited nine years before they were allowed to marry.",
+          "status": "confirmed",
+          "note": "Documented by the royal court; the engagement was announced in March 1968."
+        },
+        {
+          "text": "He was the first prince born in Norway since the Middle Ages.",
+          "status": "confirmed",
+          "note": "The royal court notes he was the first born on Norwegian soil since Olav IV in 1370."
+        },
+        {
+          "text": "Instead of a crown, he chose a blessing at Nidaros Cathedral in 1991.",
+          "status": "confirmed",
+          "note": "Coronations were removed from the constitution in 1908. Harald and Sonja were blessed in Trondheim in June 1991."
+        }
+      ],
+      "images": [
+        {
+          "file": "File:King Harald V 2021.jpg",
+          "url": "https://upload.wikimedia.org/wikipedia/commons/f/fa/King_Harald_V_2021.jpg",
+          "page": "https://commons.wikimedia.org/wiki/File:King_Harald_V_2021.jpg",
+          "credit": "Árvu/Sametinget",
+          "license": "CC BY 2.0",
+          "made": "2021",
+          "caption": "Photographed in 2021 by the Sámi Parliament.",
+          "alt": "Photograph of King Harald V of Norway in 2021"
+        }
+      ],
+      "sources": [
+        {
+          "title": "The Royal House of Norway: official website",
+          "author": "Det norske kongehus",
+          "note": "royalcourt.no / kongehuset.no"
+        },
+        {
+          "title": "Store norske leksikon",
+          "note": "Online encyclopedia (snl.no)"
+        },
+        {
+          "title": "Norway: A History from the Vikings to Our Own Times",
+          "author": "Rolf Danielsen, Ståle Dyrvik, Tore Grønlie, Knut Helle and Edgar Hovland",
+          "note": "Scandinavian University Press, 1995"
+        }
+      ],
+      "review": {
+        "status": "draft",
+        "notes": "Drafted from the listed sources; needs a human fact-check."
+      },
+      "end": {
+        "date": "2026-08-28"
+      },
+      "hook": "On 28 August 2026 Harald dies in hospital in Oslo, aged 89, after 35 years as king. His son, who has stood in for him many times, is king the same day."
+    },
+    {
+      "id": "haakon-viii",
+      "kind": "monarch",
+      "rulers": [
+        "haakon-viii"
+      ],
+      "tagline": "The crown prince who waited, and is now king",
+      "start": {
+        "date": "2026-08-28"
+      },
+      "contestedWith": [],
+      "relationToPredecessor": "Son of Harald V",
+      "ageAtAccession": "53",
+      "cameToPower": "Succeeded his father",
+      "reignEnded": "Still reigning",
+      "previously": "Harald V dies in August 2026 after 35 years on the throne.",
+      "paragraphs": [
+        "Haakon was born in 1973 and grew up as heir to a low-key, modern monarchy. He trained at the naval academy, studied political science at the University of California, Berkeley, and took a master's at the London School of Economics. In 2001 he married Mette-Marit Tjessem Høiby, a single mother whose past had filled the newspapers. Days before the wedding she faced the press and asked people to judge her on who she was now.",
+        "Their daughter, Princess Ingrid Alexandra, was born in 2004. Under the 1990 change to the constitution, which let the eldest child inherit whatever their sex, she is next in line. Haakon stood in as regent several times when his father was ill. When Harald V died on 28 August 2026, Haakon became king that day, taking the name Haakon VIII, and swore his oath before the Storting days later."
+      ],
+      "claims": [
+        {
+          "text": "Mette-Marit spoke openly about her past at a press conference before the wedding.",
+          "status": "confirmed",
+          "note": "Her August 2001 press conference was broadcast and widely reported in Norway and abroad."
+        },
+        {
+          "text": "Princess Ingrid Alexandra is set to be the first woman to inherit the Norwegian throne under equal succession.",
+          "status": "confirmed",
+          "note": "The 1990 constitutional change applies to those born after it; she is the first heir it affects."
+        }
+      ],
+      "images": [
+        {
+          "file": "File:King Haakon VIII arrives Stortinget 03 (1x3 cropped).jpg",
+          "url": "https://upload.wikimedia.org/wikipedia/commons/1/1b/King_Haakon_VIII_arrives_Stortinget_03_%281x3_cropped%29.jpg",
+          "page": "https://commons.wikimedia.org/wiki/File:King_Haakon_VIII_arrives_Stortinget_03_(1x3_cropped).jpg",
+          "credit": "Birgit Fostervold",
+          "license": "CC BY-SA 4.0",
+          "made": "2026",
+          "caption": "Arriving at the Storting for his oath as king, September 2026.",
+          "alt": "King Haakon VIII arriving at the Storting building in Oslo"
+        }
+      ],
+      "sources": [
+        {
+          "title": "Haakon VIII",
+          "note": "Store norske leksikon"
+        },
+        {
+          "title": "Kongehuset.no",
+          "note": "The Royal House of Norway, official biography"
+        }
+      ],
+      "review": {
+        "status": "draft",
+        "notes": "Written after Harald V's death on 28 August 2026; only well-documented public facts. Needs a human fact-check."
+      }
+    }
+  ]
+}
