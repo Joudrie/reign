@@ -1,0 +1,966 @@
+{
+  "id": "greece",
+  "name": "Kingdom of Greece",
+  "blurb": "Modern Greece's kings, from Otto of Bavaria to Constantine II",
+  "dateConvention": "Greece used the Julian calendar until 1923; the deck gives all dates in the Gregorian calendar, as most English reference works do. The Second Hellenic Republic (1924–1935) appears as one card between George II's two reigns.",
+  "epilogue": "After the junta fell, Greeks voted in December 1974 to remain a republic. The Third Hellenic Republic, with a parliament and an elected president, has governed Greece ever since.",
+  "houses": [
+    {
+      "id": "wittelsbach",
+      "name": "Wittelsbach",
+      "color": "#2f5d8a"
+    },
+    {
+      "id": "provisional",
+      "name": "Provisional government",
+      "color": "#8d8780",
+      "plain": true
+    },
+    {
+      "id": "glucksburg",
+      "name": "Schleswig-Holstein-Sonderburg-Glücksburg",
+      "color": "#8f1d21"
+    },
+    {
+      "id": "republic",
+      "name": "Second Hellenic Republic",
+      "color": "#3d6f6f",
+      "plain": true
+    }
+  ],
+  "rulers": [
+    {
+      "id": "otto",
+      "name": "Otto",
+      "house": "wittelsbach",
+      "born": {
+        "date": "1815-06-01",
+        "note": "Salzburg"
+      },
+      "died": {
+        "date": "1867-07-26",
+        "note": "Bamberg, Bavaria"
+      },
+      "causeOfDeath": "Illness in exile"
+    },
+    {
+      "id": "george-i",
+      "name": "George I",
+      "house": "glucksburg",
+      "born": {
+        "date": "1845-12-24",
+        "note": "Copenhagen"
+      },
+      "died": {
+        "date": "1913-03-18",
+        "note": "Thessaloniki"
+      },
+      "causeOfDeath": "Shot by an assassin"
+    },
+    {
+      "id": "constantine-i",
+      "name": "Constantine I",
+      "house": "glucksburg",
+      "born": {
+        "date": "1868-08-02",
+        "note": "Athens"
+      },
+      "died": {
+        "date": "1923-01-11",
+        "note": "Palermo, Sicily"
+      },
+      "causeOfDeath": "Brain haemorrhage in exile"
+    },
+    {
+      "id": "alexander",
+      "name": "Alexander",
+      "house": "glucksburg",
+      "born": {
+        "date": "1893-08-01",
+        "note": "Tatoi, near Athens"
+      },
+      "died": {
+        "date": "1920-10-25",
+        "note": "Tatoi, near Athens"
+      },
+      "causeOfDeath": "Infected monkey bite"
+    },
+    {
+      "id": "george-ii",
+      "name": "George II",
+      "house": "glucksburg",
+      "born": {
+        "date": "1890-07-19",
+        "note": "Tatoi, near Athens"
+      },
+      "died": {
+        "date": "1947-04-01",
+        "note": "Athens"
+      },
+      "causeOfDeath": "Arteriosclerosis"
+    },
+    {
+      "id": "paul",
+      "name": "Paul",
+      "house": "glucksburg",
+      "born": {
+        "date": "1901-12-14",
+        "note": "Tatoi, near Athens"
+      },
+      "died": {
+        "date": "1964-03-06",
+        "note": "Tatoi, near Athens"
+      },
+      "causeOfDeath": "Cancer"
+    },
+    {
+      "id": "constantine-ii",
+      "name": "Constantine II",
+      "house": "glucksburg",
+      "born": {
+        "date": "1940-06-02",
+        "note": "Psychiko, Athens"
+      },
+      "died": {
+        "date": "2023-01-10",
+        "note": "Athens"
+      },
+      "causeOfDeath": "Complications of a stroke"
+    }
+  ],
+  "reigns": [
+    {
+      "id": "otto",
+      "kind": "monarch",
+      "rulers": [
+        "otto"
+      ],
+      "tagline": "A Bavarian teenager is handed a brand-new country",
+      "start": {
+        "date": "1832-05-07"
+      },
+      "end": {
+        "date": "1862-10-23"
+      },
+      "contestedWith": [],
+      "relationToPredecessor": "First King of Greece",
+      "ageAtAccession": "16",
+      "cameToPower": "Chosen by Britain, France and Russia",
+      "reignEnded": "Deposed by a revolt",
+      "previously": "1831: Greece's first governor, Kapodistrias, is murdered in Nafplio.",
+      "paragraphs": [
+        "Greece rose against the Ottomans in 1821 and won its freedom after years of war. Its first governor, Ioannis Kapodistrias, was gunned down at a church door in Nafplio in October 1831 by men of the Mavromichalis clan. The great powers decided the new state needed a king from outside. Britain, France and Russia picked Otto, the 16-year-old second son of King Ludwig I of Bavaria.",
+        "He landed at Nafplio in February 1833 with Bavarian regents and Bavarian troops, and moved the capital to Athens, then a small town under the Acropolis. From 1835 he ruled as an absolute monarch, and Greeks resented the Bavarians running everything. On 3 September 1843 (Old Style) soldiers and crowds surrounded the palace and forced him to grant a constitution. The square outside is still called Syntagma, Constitution Square.",
+        "He and Queen Amalia had no children, which left the succession wide open. Otto embraced the Megali Idea of a Greater Greece, but Britain blockaded Piraeus over the Don Pacifico affair in 1850, and Britain and France occupied it during the Crimean War. In 1861 a student shot at the queen. In October 1862, while the royal couple toured the Peloponnese, the army rose. They sailed away on a British warship and never came back."
+      ],
+      "claims": [
+        {
+          "text": "Syntagma Square is named after the constitution Otto was forced to grant in 1843.",
+          "status": "confirmed",
+          "note": "The square in front of the palace took its name from the 1843 rising, and the 1844 constitution that followed."
+        },
+        {
+          "text": "In exile in Bamberg, Otto still wore Greek dress and kept up Greek habits.",
+          "status": "disputed",
+          "note": "A much-repeated story from his biographers. He certainly never gave up his claim, but the details of daily life in Bamberg are anecdote."
+        },
+        {
+          "text": "Otto never formally abdicated.",
+          "status": "confirmed",
+          "note": "He left in 1862 without signing away the throne, and Greece simply declared him deposed."
+        }
+      ],
+      "hook": "Greece has thrown out its king. Now it needs a new one, and the Greeks already know who they want: a son of Queen Victoria.",
+      "images": [
+        {
+          "file": "File:King Otto of Greece in national costume.jpg",
+          "url": "https://upload.wikimedia.org/wikipedia/commons/3/38/King_Otto_of_Greece_in_national_costume.jpg",
+          "page": "https://commons.wikimedia.org/wiki/File:King_Otto_of_Greece_in_national_costume.jpg",
+          "credit": "Carl Rahl",
+          "license": "Public domain",
+          "made": "1859",
+          "caption": "Painted in 1859, three years before he lost his throne.",
+          "alt": "Painted portrait of King Otto of Greece wearing Greek national costume"
+        }
+      ],
+      "sources": [
+        {
+          "title": "Otho I, King of Greece: A Biography",
+          "author": "Leonard Bower and Gordon Bolitho",
+          "note": "Selwyn & Blount, 1939"
+        },
+        {
+          "title": "Politics and Statecraft in the Kingdom of Greece, 1833-1843",
+          "author": "John A. Petropulos",
+          "note": "Princeton University Press, 1968"
+        },
+        {
+          "title": "A Concise History of Greece",
+          "author": "Richard Clogg",
+          "note": "Cambridge University Press, 1992; later editions"
+        },
+        {
+          "title": "Modern Greece: From the War of Independence to the Present",
+          "author": "Thomas W. Gallant",
+          "note": "Bloomsbury, 2nd ed. 2016"
+        }
+      ],
+      "review": {
+        "status": "draft",
+        "notes": "Drafted from the listed sources; needs a human fact-check."
+      }
+    },
+    {
+      "id": "wanted-a-king",
+      "kind": "interregnum",
+      "rulers": [],
+      "house": "provisional",
+      "title": "Wanted: A King",
+      "tagline": "A country votes for a prince it is not allowed to have",
+      "start": {
+        "date": "1862-10-23"
+      },
+      "end": {
+        "date": "1863-03-30"
+      },
+      "contestedWith": [],
+      "relationToPredecessor": "Provisional government after Otto",
+      "ageAtAccession": "None",
+      "cameToPower": "Otto deposed by a revolt",
+      "reignEnded": "Prince William of Denmark elected",
+      "previously": "Otto and Amalia sail into exile on a British warship.",
+      "paragraphs": [
+        "With Otto gone, a provisional government ran Greece and went shopping for a king. Greeks wanted British friendship, and in a vote late in 1862 they backed Prince Alfred, Queen Victoria's second son, by a crushing margin. There was one problem. Britain, France and Russia had agreed that no member of their own royal families would take the Greek throne, so Alfred was out.",
+        "The crown was hawked around Europe, and several princes said no thanks. Britain sweetened the deal by offering to hand over the Ionian Islands, which it had ruled since 1815, to a king it approved of. In the end the candidate was a Danish naval cadet of 17. On 30 March 1863 the National Assembly in Athens elected Prince William of Denmark King of the Hellenes."
+      ],
+      "claims": [
+        {
+          "text": "Prince Alfred won about 230,000 of some 240,000 votes cast.",
+          "status": "disputed",
+          "note": "These are the published results of the 1862 vote. No one doubts Alfred won hugely, but the exact count was never checked independently."
+        },
+        {
+          "text": "The great powers had agreed that none of their own royals could rule Greece.",
+          "status": "confirmed",
+          "note": "The three protecting powers made this agreement, so Britain turned Alfred's victory down."
+        }
+      ],
+      "hook": "The new king is a cheerful teenage sailor who speaks no Greek. Within months his father will be crowned King of Denmark.",
+      "images": [
+        {
+          "file": "File:Young Prince Alfred (PP-71-5-012).jpg",
+          "url": "https://upload.wikimedia.org/wikipedia/commons/e/e8/Young_Prince_Alfred_%28PP-71-5-012%29.jpg",
+          "page": "https://commons.wikimedia.org/wiki/File:Young_Prince_Alfred_(PP-71-5-012).jpg",
+          "credit": "Unknown photographer",
+          "license": "Public domain",
+          "made": "c. 1869",
+          "caption": "Prince Alfred, the Greeks' choice for king, photographed a few years after the 1862 vote.",
+          "alt": "Photograph of the young Prince Alfred, son of Queen Victoria"
+        }
+      ],
+      "sources": [
+        {
+          "title": "King George of Greece",
+          "author": "Walter Christmas",
+          "note": "Eveleigh Nash, 1914"
+        },
+        {
+          "title": "Kings of the Hellenes: The Greek Kings, 1863-1974",
+          "author": "John Van der Kiste",
+          "note": "Sutton, 1994"
+        },
+        {
+          "title": "A Concise History of Greece",
+          "author": "Richard Clogg",
+          "note": "Cambridge University Press, 1992; later editions"
+        }
+      ],
+      "review": {
+        "status": "draft",
+        "notes": "Drafted from the listed sources; needs a human fact-check."
+      }
+    },
+    {
+      "id": "george-i",
+      "kind": "monarch",
+      "rulers": [
+        "george-i"
+      ],
+      "tagline": "The Danish sailor who ruled for fifty years",
+      "start": {
+        "date": "1863-03-30"
+      },
+      "end": {
+        "date": "1913-03-18"
+      },
+      "contestedWith": [],
+      "relationToPredecessor": "Elected; no relation to Otto",
+      "ageAtAccession": "17",
+      "cameToPower": "Elected by the National Assembly",
+      "reignEnded": "Shot dead in Thessaloniki",
+      "previously": "Greece's assembly elects a 17-year-old Danish prince as king.",
+      "paragraphs": [
+        "Prince William of Denmark became George I, King of the Hellenes. Later in 1863 his father became King Christian IX of Denmark, and George's sister Alexandra had just married the Prince of Wales, so the family was very well connected. Britain handed over the Ionian Islands in 1864. In 1867 he married Grand Duchess Olga of Russia, and by 1875 he accepted that he must appoint the leader with a majority in parliament.",
+        "Greece grew. It gained Thessaly in 1881, and Athens hosted the first modern Olympic Games in 1896. Then came the short, disastrous war of 1897 with the Ottomans over Crete, which Greece lost badly. In the Balkan Wars, Greek troops took Thessaloniki in 1912, and the king moved there to show the city was Greek.",
+        "In March 1913 he was close to his fiftieth year on the throne. On 18 March, out on his usual afternoon walk in Thessaloniki with only an aide, he was shot in the back by a man called Alexandros Schinas and died almost at once. His eldest son Constantine, the hero of the war, became king."
+      ],
+      "claims": [
+        {
+          "text": "Schinas's motive was never clearly established.",
+          "status": "disputed",
+          "note": "He was described as a drifter, possibly mentally ill, and gave muddled explanations. Theories of a foreign plot have never been proved."
+        },
+        {
+          "text": "Schinas died by falling from a police-station window weeks after the murder.",
+          "status": "disputed",
+          "note": "The fall is recorded, but whether he jumped or was pushed has been argued about ever since."
+        },
+        {
+          "text": "George planned to abdicate after his golden jubilee.",
+          "status": "disputed",
+          "note": "Family accounts say he told relatives he would step down for Constantine. It cannot be proved."
+        }
+      ],
+      "hook": "Constantine takes the throne as a war hero. His wife is the Kaiser's sister, and in little more than a year Europe will go to war.",
+      "images": [
+        {
+          "file": "File:George I of Greece.jpg",
+          "url": "https://upload.wikimedia.org/wikipedia/commons/a/a6/George_I_of_Greece.jpg",
+          "page": "https://commons.wikimedia.org/wiki/File:George_I_of_Greece.jpg",
+          "credit": "Bain News Service",
+          "license": "Public domain",
+          "made": "Before 1913",
+          "caption": "A news-agency photograph from late in his long reign.",
+          "alt": "Photograph of King George I of Greece"
+        }
+      ],
+      "sources": [
+        {
+          "title": "King George of Greece",
+          "author": "Walter Christmas",
+          "note": "Eveleigh Nash, 1914"
+        },
+        {
+          "title": "Kings of the Hellenes: The Greek Kings, 1863-1974",
+          "author": "John Van der Kiste",
+          "note": "Sutton, 1994"
+        },
+        {
+          "title": "Olympics in Athens 1896: The Invention of the Modern Olympic Games",
+          "author": "Michael Llewellyn Smith",
+          "note": "Profile Books, 2004"
+        },
+        {
+          "title": "A Concise History of Greece",
+          "author": "Richard Clogg",
+          "note": "Cambridge University Press, 1992; later editions"
+        }
+      ],
+      "review": {
+        "status": "draft",
+        "notes": "Drafted from the listed sources; needs a human fact-check."
+      }
+    },
+    {
+      "id": "constantine-i",
+      "kind": "monarch",
+      "rulers": [
+        "constantine-i"
+      ],
+      "tagline": "The war hero who split Greece in two",
+      "start": {
+        "date": "1913-03-18"
+      },
+      "end": {
+        "date": "1917-06-11"
+      },
+      "contestedWith": [],
+      "relationToPredecessor": "Eldest son of George I",
+      "ageAtAccession": "44",
+      "cameToPower": "Succeeded his murdered father",
+      "reignEnded": "Forced out by the Allies",
+      "previously": "George I is shot dead on a walk in Thessaloniki.",
+      "paragraphs": [
+        "Constantine had been blamed for the defeat of 1897, but the Balkan Wars made him a hero. As commander-in-chief he led the army into Thessaloniki in 1912 and took Ioannina in 1913. As king he beat Bulgaria in the Second Balkan War that summer. He had trained in Germany and married Sophia of Prussia, sister of Kaiser Wilhelm II, so Britain and France never trusted him.",
+        "When the First World War broke out he wanted Greece to stay neutral. His prime minister, Eleftherios Venizelos, wanted to join Britain, France and Russia. The king dismissed him twice in 1915. In 1916 Venizelos set up a rival government in Thessaloniki, and the country split into two camps, a quarrel Greeks call the National Schism.",
+        "The Allies blockaded the royalist south and landed troops. In June 1917 they demanded the king go. He left for Switzerland without abdicating. The Allies would not accept his eldest son George either, so the crown went to his second son, Alexander."
+      ],
+      "claims": [
+        {
+          "text": "Constantine was secretly working for Germany.",
+          "status": "disputed",
+          "note": "The Allies believed it, and he did keep in touch with Berlin. Royalists say he only wanted to keep a small country out of a ruinous war."
+        },
+        {
+          "text": "He left Greece in 1917 without formally abdicating.",
+          "status": "confirmed",
+          "note": "He handed the throne to Alexander but never signed it away, which is why royalists saw his return in 1920 as a restoration."
+        }
+      ],
+      "hook": "The new king is 23 and has no power at all. Venizelos is coming back to run the country, and Alexander isn't even allowed to write to his family.",
+      "images": [
+        {
+          "file": "File:King Constantine I of Greece.jpg",
+          "url": "https://upload.wikimedia.org/wikipedia/commons/b/b0/King_Constantine_I_of_Greece.jpg",
+          "page": "https://commons.wikimedia.org/wiki/File:King_Constantine_I_of_Greece.jpg",
+          "credit": "Sotiris Christidis",
+          "license": "Public domain",
+          "made": "1913",
+          "caption": "A lithograph published after the Balkan Wars, hailing him as \"Constantine XII the Victorious\".",
+          "alt": "Lithograph of King Constantine I of Greece, published after the Balkan Wars"
+        }
+      ],
+      "sources": [
+        {
+          "title": "Kings of the Hellenes: The Greek Kings, 1863-1974",
+          "author": "John Van der Kiste",
+          "note": "Sutton, 1994"
+        },
+        {
+          "title": "Ionian Vision: Greece in Asia Minor, 1919-1922",
+          "author": "Michael Llewellyn Smith",
+          "note": "Allen Lane, 1973"
+        },
+        {
+          "title": "A Concise History of Greece",
+          "author": "Richard Clogg",
+          "note": "Cambridge University Press, 1992; later editions"
+        },
+        {
+          "title": "Modern Greece: From the War of Independence to the Present",
+          "author": "Thomas W. Gallant",
+          "note": "Bloomsbury, 2nd ed. 2016"
+        }
+      ],
+      "review": {
+        "status": "draft",
+        "notes": "Drafted from the listed sources; needs a human fact-check."
+      }
+    },
+    {
+      "id": "alexander",
+      "kind": "monarch",
+      "rulers": [
+        "alexander"
+      ],
+      "tagline": "The king killed by a monkey",
+      "start": {
+        "date": "1917-06-11"
+      },
+      "end": {
+        "date": "1920-10-25"
+      },
+      "contestedWith": [],
+      "relationToPredecessor": "Second son of Constantine I",
+      "ageAtAccession": "23",
+      "cameToPower": "Chosen by the Allies",
+      "reignEnded": "Died of a monkey bite",
+      "previously": "The Allies force Constantine out. His second son takes the throne.",
+      "paragraphs": [
+        "Alexander was a king in name only. His father and brother were in exile, Venizelos ran the government, and the young king was cut off from his family. Greece joined the war on the Allied side in 1917 and ended up on the winning side. At the peace, Greece did well: Greek troops landed at Smyrna in 1919, and the Treaty of Sèvres in 1920 promised Greece Smyrna and eastern Thrace.",
+        "In 1919 he secretly married Aspasia Manos, a Greek commoner, which caused a scandal. In October 1920 he was walking in the gardens at Tatoi when a pet Barbary macaque attacked his dog. He pulled them apart and was bitten. The wounds became infected, and on 25 October 1920 he died, aged 27. His daughter Alexandra was born months later.",
+        "His death came weeks before a general election. Suddenly the vote was about bringing back his father."
+      ],
+      "claims": [
+        {
+          "text": "Churchill wrote that a quarter of a million people died of this monkey's bite.",
+          "status": "confirmed",
+          "note": "The line is in Churchill's The World Crisis. He meant that Alexander's death led to Constantine's return and the war that followed. That chain of cause is his opinion."
+        },
+        {
+          "text": "The king was bitten trying to separate the monkey from his dog.",
+          "status": "disputed",
+          "note": "This is the standard account, but versions differ on how many monkeys there were and how the fight began."
+        }
+      ],
+      "hook": "In November 1920 Venizelos loses the election and even his own seat. A vote brings Constantine back from exile, and the Allies who threw him out are furious.",
+      "images": [
+        {
+          "file": "File:King Alexander of Greece.jpg",
+          "url": "https://upload.wikimedia.org/wikipedia/commons/5/57/King_Alexander_of_Greece.jpg",
+          "page": "https://commons.wikimedia.org/wiki/File:King_Alexander_of_Greece.jpg",
+          "credit": "Charles Chusseau-Flaviens",
+          "license": "Public domain",
+          "made": "1917",
+          "caption": "Photographed in 1917, the year he became king.",
+          "alt": "Portrait photograph of King Alexander of Greece"
+        }
+      ],
+      "sources": [
+        {
+          "title": "Kings of the Hellenes: The Greek Kings, 1863-1974",
+          "author": "John Van der Kiste",
+          "note": "Sutton, 1994"
+        },
+        {
+          "title": "The World Crisis: The Aftermath",
+          "author": "Winston S. Churchill",
+          "note": "Thornton Butterworth, 1929"
+        },
+        {
+          "title": "Ionian Vision: Greece in Asia Minor, 1919-1922",
+          "author": "Michael Llewellyn Smith",
+          "note": "Allen Lane, 1973"
+        },
+        {
+          "title": "A Concise History of Greece",
+          "author": "Richard Clogg",
+          "note": "Cambridge University Press, 1992; later editions"
+        }
+      ],
+      "review": {
+        "status": "draft",
+        "notes": "Drafted from the listed sources; needs a human fact-check."
+      }
+    },
+    {
+      "id": "constantine-i-restored",
+      "kind": "monarch",
+      "rulers": [
+        "constantine-i"
+      ],
+      "tagline": "Back on the throne, just in time for disaster",
+      "start": {
+        "date": "1920-12-19"
+      },
+      "end": {
+        "date": "1922-09-27"
+      },
+      "contestedWith": [],
+      "relationToPredecessor": "Father of Alexander",
+      "ageAtAccession": "52",
+      "cameToPower": "Recalled by a plebiscite",
+      "reignEnded": "Abdicated after a military revolt",
+      "previously": "Alexander dies of a monkey bite, and Venizelos loses the election.",
+      "paragraphs": [
+        "Three years after the Allies threw him out, Constantine came home. Venizelos had lost the November 1920 election, and a plebiscite voted overwhelmingly for the old king. Crowds cheered in Athens. Abroad, the reaction was cold. France and Italy, who had never forgiven his wartime neutrality, drifted away from Greece, and soon began dealing with the Turkish nationalists.",
+        "Greek armies were already deep in Asia Minor. In 1921 they pushed towards Ankara, but Mustafa Kemal's forces stopped them on the Sakarya river. The army dug in for a year. In August 1922 Kemal struck, and the Greek front collapsed. Turkish troops entered Smyrna in September, and a great fire destroyed much of the city as crowds of Greek and Armenian refugees waited on the waterfront.",
+        "Defeated officers on the islands rose in revolt and marched on Athens. On 27 September 1922 Constantine abdicated for the second time and went into exile. He died in Palermo a few months later, in January 1923."
+      ],
+      "claims": [
+        {
+          "text": "Turkish forces deliberately started the fire at Smyrna.",
+          "status": "disputed",
+          "note": "Many Greek, Armenian and Western witnesses blamed Turkish soldiers. Turkish accounts blame Greeks and Armenians. Historians still argue."
+        },
+        {
+          "text": "France and Italy turned away from Greece after Constantine's return.",
+          "status": "confirmed",
+          "note": "Both made their own deals with Kemal's government in 1921. Britain stayed sympathetic but sent no real help."
+        }
+      ],
+      "hook": "His son George takes the throne, but the officers hold the power. They want someone punished for the disaster, and they are about to make an example.",
+      "images": [
+        {
+          "file": "File:Constantine I of Greece.jpg",
+          "url": "https://upload.wikimedia.org/wikipedia/commons/7/74/Constantine_I_of_Greece.jpg",
+          "page": "https://commons.wikimedia.org/wiki/File:Constantine_I_of_Greece.jpg",
+          "credit": "Unknown photographer",
+          "license": "Public domain",
+          "made": "c. 1921",
+          "caption": "His official portrait from around 1921, during his second reign.",
+          "alt": "Official portrait of King Constantine I of Greece"
+        }
+      ],
+      "sources": [
+        {
+          "title": "Ionian Vision: Greece in Asia Minor, 1919-1922",
+          "author": "Michael Llewellyn Smith",
+          "note": "Allen Lane, 1973"
+        },
+        {
+          "title": "Paradise Lost: Smyrna 1922",
+          "author": "Giles Milton",
+          "note": "Sceptre, 2008"
+        },
+        {
+          "title": "Kings of the Hellenes: The Greek Kings, 1863-1974",
+          "author": "John Van der Kiste",
+          "note": "Sutton, 1994"
+        },
+        {
+          "title": "A Concise History of Greece",
+          "author": "Richard Clogg",
+          "note": "Cambridge University Press, 1992; later editions"
+        }
+      ],
+      "review": {
+        "status": "draft",
+        "notes": "Drafted from the listed sources; needs a human fact-check."
+      }
+    },
+    {
+      "id": "george-ii",
+      "kind": "monarch",
+      "rulers": [
+        "george-ii"
+      ],
+      "tagline": "A king under the officers' thumb",
+      "start": {
+        "date": "1922-09-27"
+      },
+      "end": {
+        "date": "1924-03-25"
+      },
+      "contestedWith": [],
+      "relationToPredecessor": "Eldest son of Constantine I",
+      "ageAtAccession": "32",
+      "cameToPower": "Father abdicated after a revolt",
+      "reignEnded": "Sent away; republic proclaimed",
+      "previously": "Constantine abdicates after the Asia Minor disaster.",
+      "paragraphs": [
+        "George had been passed over in 1917. Now he got the throne at the worst moment. Real power lay with the revolutionary officers. They put eight men on trial for the defeat in Asia Minor, and in November 1922 five former ministers, including the ex-prime minister Dimitrios Gounaris, and the army commander Georgios Hatzianestis were shot. It became known as the Trial of the Six.",
+        "The Treaty of Lausanne in 1923 fixed the new border with Turkey, and the two countries agreed to swap their Orthodox and Muslim minorities. Over a million refugees poured into Greece. In October 1923 royalist officers tried a coup and failed, and the king was tainted by it. In December the government asked him to leave the country. He went to Romania, and on 25 March 1924 Greece became a republic."
+      ],
+      "claims": [
+        {
+          "text": "Six men were executed after the Trial of the Six in November 1922.",
+          "status": "confirmed",
+          "note": "Five politicians and General Hatzianestis were shot hours after the verdict. Greece's Supreme Court cleared them in 2010."
+        },
+        {
+          "text": "Over a million refugees arrived in Greece after the population exchange.",
+          "status": "confirmed",
+          "note": "Most had already fled in 1922. Estimates of the total run from about 1.2 to 1.5 million in a country of around five million."
+        }
+      ],
+      "hook": "Greece is now a republic. Its first decade will bring coups, a dictator obsessed with skirt lengths, and in the end a general who wants the king back.",
+      "images": [
+        {
+          "file": "File:Georgeiiofgreece.jpg",
+          "url": "https://upload.wikimedia.org/wikipedia/commons/5/58/Georgeiiofgreece.jpg",
+          "page": "https://commons.wikimedia.org/wiki/File:Georgeiiofgreece.jpg",
+          "credit": "United States Office of War Information",
+          "license": "Public domain",
+          "made": "c. 1942",
+          "caption": "Taken around 1942, during his second reign, nearly twenty years after his first.",
+          "alt": "Photograph of King George II of Greece"
+        }
+      ],
+      "sources": [
+        {
+          "title": "Kings of the Hellenes: The Greek Kings, 1863-1974",
+          "author": "John Van der Kiste",
+          "note": "Sutton, 1994"
+        },
+        {
+          "title": "Stillborn Republic: Social Coalitions and Party Strategies in Greece, 1922-1936",
+          "author": "George Th. Mavrogordatos",
+          "note": "University of California Press, 1983"
+        },
+        {
+          "title": "A Concise History of Greece",
+          "author": "Richard Clogg",
+          "note": "Cambridge University Press, 1992; later editions"
+        },
+        {
+          "title": "Modern Greece: From the War of Independence to the Present",
+          "author": "Thomas W. Gallant",
+          "note": "Bloomsbury, 2nd ed. 2016"
+        }
+      ],
+      "review": {
+        "status": "draft",
+        "notes": "Drafted from the listed sources; needs a human fact-check."
+      }
+    },
+    {
+      "id": "second-republic",
+      "kind": "interregnum",
+      "rulers": [],
+      "house": "republic",
+      "title": "The Second Hellenic Republic",
+      "tagline": "Eleven years, a dozen coups, no king",
+      "start": {
+        "date": "1924-03-25"
+      },
+      "end": {
+        "date": "1935-10-10"
+      },
+      "contestedWith": [],
+      "relationToPredecessor": "Replaced the monarchy",
+      "ageAtAccession": "None",
+      "cameToPower": "Proclaimed by parliament",
+      "reignEnded": "Overthrown by General Kondylis",
+      "previously": "King George II is asked to leave, and Greece becomes a republic.",
+      "paragraphs": [
+        "A plebiscite in April 1924 confirmed the republic, and the old admiral Pavlos Kountouriotis became its first president. Then came chaos. Governments fell, officers plotted, and in 1925 General Theodoros Pangalos seized power. His dictatorship was short and odd: he even ruled on how long women's skirts must be. Another general, Georgios Kondylis, threw him out in 1926.",
+        "Venizelos came back for one last great government from 1928 to 1932. He made friends with Atatürk's Turkey, the old enemy, and signed a treaty with it in 1930. Then the Depression hit, Greece defaulted on its debts, and the royalist side gained ground. Venizelist officers tried coups in 1933 and 1935 and failed.",
+        "On 10 October 1935 Kondylis, now a royalist, seized power, abolished the republic and made himself regent. His plebiscite on 3 November produced a near-unanimous vote for bringing back the king."
+      ],
+      "claims": [
+        {
+          "text": "The 1935 plebiscite gave about 98 per cent for the monarchy.",
+          "status": "disputed",
+          "note": "That was the official result. The vote was run by Kondylis's regime and is widely regarded as rigged."
+        },
+        {
+          "text": "Pangalos regulated the length of women's skirts.",
+          "status": "confirmed",
+          "note": "His government issued a decree setting a limit on how far a skirt could ride above the ground, one of the best-remembered acts of his rule."
+        }
+      ],
+      "hook": "King George II returns from his London exile to a 98 per cent welcome that no one quite believes. The general who brought him back is about to be shown the door.",
+      "images": [
+        {
+          "file": "File:Admiral Kountouriotis.jpg",
+          "url": "https://upload.wikimedia.org/wikipedia/commons/2/29/Admiral_Kountouriotis.jpg",
+          "page": "https://commons.wikimedia.org/wiki/File:Admiral_Kountouriotis.jpg",
+          "credit": "Royal Hellenic Navy",
+          "license": "Public domain",
+          "made": "1920",
+          "caption": "Admiral Pavlos Kountouriotis, the republic's first president, photographed in 1920.",
+          "alt": "Photograph of Admiral Pavlos Kountouriotis"
+        }
+      ],
+      "sources": [
+        {
+          "title": "Stillborn Republic: Social Coalitions and Party Strategies in Greece, 1922-1936",
+          "author": "George Th. Mavrogordatos",
+          "note": "University of California Press, 1983"
+        },
+        {
+          "title": "A Concise History of Greece",
+          "author": "Richard Clogg",
+          "note": "Cambridge University Press, 1992; later editions"
+        },
+        {
+          "title": "Modern Greece: From the War of Independence to the Present",
+          "author": "Thomas W. Gallant",
+          "note": "Bloomsbury, 2nd ed. 2016"
+        }
+      ],
+      "review": {
+        "status": "draft",
+        "notes": "Drafted from the listed sources; needs a human fact-check."
+      }
+    },
+    {
+      "id": "george-ii-restored",
+      "kind": "monarch",
+      "rulers": [
+        "george-ii"
+      ],
+      "tagline": "Dictatorship, invasion, exile and civil war",
+      "start": {
+        "date": "1935-11-25"
+      },
+      "end": {
+        "date": "1947-04-01"
+      },
+      "contestedWith": [],
+      "relationToPredecessor": "Restored after the republic",
+      "ageAtAccession": "45",
+      "cameToPower": "Recalled after Kondylis's plebiscite",
+      "reignEnded": "Died in Athens",
+      "previously": "General Kondylis ends the republic and calls the king home.",
+      "paragraphs": [
+        "George had left in 1923 as an unwanted king. He returned from London on 25 November 1935 and soon dropped Kondylis. On 4 August 1936 he backed General Ioannis Metaxas in suspending parliament. The 4th of August Regime censored the press, jailed or exiled its opponents to islands, and set up a uniformed youth movement copied from fascist models.",
+        "On 28 October 1940 Mussolini demanded entry for Italian troops. Metaxas refused, and the Greek army drove the Italians back into Albania. Metaxas died in January 1941, and in April Germany invaded. The king escaped to Crete, then to Egypt and London. Under occupation a terrible famine killed many thousands, and resistance groups grew, the largest of them the left-wing EAM and its army ELAS.",
+        "Greece was liberated in 1944, but in December fighting broke out in Athens between ELAS and the government backed by British troops. A plebiscite in September 1946 brought the king back, as civil war spread across the country. He died in Athens on 1 April 1947."
+      ],
+      "claims": [
+        {
+          "text": "Metaxas answered Mussolini's ultimatum with one word: \"Ochi\" (No).",
+          "status": "disputed",
+          "note": "He did refuse, and 28 October is a national holiday called Ochi Day. The one-word reply is a later simplification; he is usually quoted as saying in French, \"So it is war.\""
+        },
+        {
+          "text": "The 4th of August Regime held political prisoners and exiled opponents to islands.",
+          "status": "confirmed",
+          "note": "Thousands, many of them communists, were jailed or sent to island exile, and many were pressed to sign declarations renouncing their views."
+        }
+      ],
+      "hook": "The crown passes to George's younger brother Paul, a mild man with a formidable wife. Greece is fighting a civil war, and America is about to step in.",
+      "images": [
+        {
+          "file": "File:Cecil Beaton Photographs- Political and Military Personalities; George II, King of Greece; George II, King of Greece CBM1587.jpg",
+          "url": "https://upload.wikimedia.org/wikipedia/commons/5/55/Cecil_Beaton_Photographs-_Political_and_Military_Personalities%3B_George_II%2C_King_of_Greece%3B_George_II%2C_King_of_Greece_CBM1587.jpg",
+          "page": "https://commons.wikimedia.org/wiki/File:Cecil_Beaton_Photographs-_Political_and_Military_Personalities%3B_George_II,_King_of_Greece%3B_George_II,_King_of_Greece_CBM1587.jpg",
+          "credit": "Cecil Beaton",
+          "license": "Public domain",
+          "made": "1942",
+          "caption": "Photographed by Cecil Beaton in Cairo in 1942, while the king was in exile.",
+          "alt": "Three-quarter-length photograph of King George II of Greece"
+        }
+      ],
+      "sources": [
+        {
+          "title": "Inside Hitler's Greece: The Experience of Occupation, 1941-44",
+          "author": "Mark Mazower",
+          "note": "Yale University Press, 1993"
+        },
+        {
+          "title": "The Origins of the Greek Civil War",
+          "author": "David H. Close",
+          "note": "Longman, 1995"
+        },
+        {
+          "title": "Kings of the Hellenes: The Greek Kings, 1863-1974",
+          "author": "John Van der Kiste",
+          "note": "Sutton, 1994"
+        },
+        {
+          "title": "A Concise History of Greece",
+          "author": "Richard Clogg",
+          "note": "Cambridge University Press, 1992; later editions"
+        }
+      ],
+      "review": {
+        "status": "draft",
+        "notes": "Drafted from the listed sources; needs a human fact-check."
+      }
+    },
+    {
+      "id": "paul",
+      "kind": "monarch",
+      "rulers": [
+        "paul"
+      ],
+      "tagline": "Civil war, NATO and a queen who would not keep quiet",
+      "start": {
+        "date": "1947-04-01"
+      },
+      "end": {
+        "date": "1964-03-06"
+      },
+      "contestedWith": [],
+      "relationToPredecessor": "Younger brother of George II",
+      "ageAtAccession": "45",
+      "cameToPower": "Succeeded his childless brother",
+      "reignEnded": "Died of cancer",
+      "previously": "George II dies in Athens as the civil war spreads.",
+      "paragraphs": [
+        "Paul came to the throne in the middle of a civil war. With American money and advisers under the Truman Doctrine, the government army fought the communist Democratic Army through the mountains of the north. The war ended in 1949 with the communists' defeat. Tens of thousands had died, and many on the left were jailed or went into exile behind the Iron Curtain.",
+        "His wife, Queen Frederica of Hanover, was a granddaughter of Kaiser Wilhelm II and a strong personality. Critics said she meddled in politics. Greece joined NATO in 1952 and was run by conservative governments, first under Alexandros Papagos, then Konstantinos Karamanlis. Cyprus, where Greek Cypriots wanted union with Greece, soured relations with Britain and Turkey until it became independent in 1960.",
+        "In 1963 Karamanlis clashed with the palace over a royal visit to London, and resigned. Paul fell ill with cancer and died in March 1964. His son Constantine was 23."
+      ],
+      "claims": [
+        {
+          "text": "Queen Frederica played an active role in Greek politics.",
+          "status": "disputed",
+          "note": "Her critics, including Karamanlis's supporters, said so. In her memoirs she denied overstepping the mark."
+        },
+        {
+          "text": "In 1954 Paul and Frederica hosted a cruise for about a hundred European royals.",
+          "status": "confirmed",
+          "note": "The cruise on the liner Agamemnon, around the Greek islands, was widely reported as a publicity effort for Greek tourism."
+        }
+      ],
+      "hook": "The new king is young, sporty and an Olympic champion. He is about to marry a Danish princess, and pick a fight with the most popular politician in Greece.",
+      "images": [
+        {
+          "file": "File:Paul I of Greece.jpg",
+          "url": "https://upload.wikimedia.org/wikipedia/commons/3/31/Paul_I_of_Greece.jpg",
+          "page": "https://commons.wikimedia.org/wiki/File:Paul_I_of_Greece.jpg",
+          "credit": "Unknown photographer",
+          "license": "Public domain",
+          "made": "1939",
+          "caption": "Photographed in 1939, eight years before he became king.",
+          "alt": "Photograph of Prince Paul of Greece, later King Paul"
+        }
+      ],
+      "sources": [
+        {
+          "title": "The Origins of the Greek Civil War",
+          "author": "David H. Close",
+          "note": "Longman, 1995"
+        },
+        {
+          "title": "A Measure of Understanding",
+          "author": "Frederica, Queen of the Hellenes",
+          "note": "Macmillan, 1971"
+        },
+        {
+          "title": "Kings of the Hellenes: The Greek Kings, 1863-1974",
+          "author": "John Van der Kiste",
+          "note": "Sutton, 1994"
+        },
+        {
+          "title": "A Concise History of Greece",
+          "author": "Richard Clogg",
+          "note": "Cambridge University Press, 1992; later editions"
+        }
+      ],
+      "review": {
+        "status": "draft",
+        "notes": "Drafted from the listed sources; needs a human fact-check."
+      }
+    },
+    {
+      "id": "constantine-ii",
+      "kind": "monarch",
+      "rulers": [
+        "constantine-ii"
+      ],
+      "tagline": "The Olympic champion who was the last king",
+      "start": {
+        "date": "1964-03-06"
+      },
+      "end": {
+        "date": "1973-06-01"
+      },
+      "contestedWith": [],
+      "relationToPredecessor": "Only son of Paul",
+      "ageAtAccession": "23",
+      "cameToPower": "Succeeded his father",
+      "reignEnded": "Monarchy abolished by the junta",
+      "previously": "King Paul dies of cancer, and his 23-year-old son takes over.",
+      "paragraphs": [
+        "Constantine was already famous: in 1960 he won Olympic gold in sailing, in the Dragon class. He became king at 23 and married Princess Anne-Marie of Denmark in 1964. In July 1965 he fell out with the prime minister, Georgios Papandreou, over control of the army. Papandreou resigned, the king's men lured away enough of his MPs to form new governments, and Greeks called it the Apostasia, the defection.",
+        "On 21 April 1967 a group of army colonels seized power. The king swore in their government. On 13 December 1967 he tried a counter-coup from northern Greece, it failed, and he fled to Rome with his family. The junta ruled through a regent, abolished the monarchy on 1 June 1973, and held a referendum to confirm it. Its rule brought censorship, mass arrests, exile to islands and torture.",
+        "The junta fell in 1974. On 8 December 1974 Greeks voted, about 69 per cent to 31, to stay a republic. Constantine lived for decades in London, returned to live in Greece in 2013, and died in Athens on 10 January 2023."
+      ],
+      "claims": [
+        {
+          "text": "Constantine won Olympic gold in sailing at the 1960 Rome Games.",
+          "status": "confirmed",
+          "note": "He won the Dragon class with his crew; the sailing events were held in the Bay of Naples."
+        },
+        {
+          "text": "The 1974 referendum went about 69 per cent for a republic.",
+          "status": "confirmed",
+          "note": "Official results, in a free vote held after the junta's fall. Constantine was not allowed to return to campaign."
+        }
+      ],
+      "images": [
+        {
+          "file": "File:Constantine II of Greece.jpg",
+          "url": "https://upload.wikimedia.org/wikipedia/commons/9/93/Constantine_II_of_Greece.jpg",
+          "page": "https://commons.wikimedia.org/wiki/File:Constantine_II_of_Greece.jpg",
+          "credit": "Allan Warren",
+          "license": "CC BY-SA 3.0",
+          "made": "1987",
+          "caption": "Photographed in 1987, fourteen years after the monarchy was abolished.",
+          "alt": "Photograph of former King Constantine II of Greece in 1987"
+        }
+      ],
+      "sources": [
+        {
+          "title": "The Rise and Fall of the Greek Colonels",
+          "author": "C. M. Woodhouse",
+          "note": "Granada, 1985"
+        },
+        {
+          "title": "Kings of the Hellenes: The Greek Kings, 1863-1974",
+          "author": "John Van der Kiste",
+          "note": "Sutton, 1994"
+        },
+        {
+          "title": "A Concise History of Greece",
+          "author": "Richard Clogg",
+          "note": "Cambridge University Press, 1992; later editions"
+        },
+        {
+          "title": "Modern Greece: From the War of Independence to the Present",
+          "author": "Thomas W. Gallant",
+          "note": "Bloomsbury, 2nd ed. 2016"
+        }
+      ],
+      "review": {
+        "status": "draft",
+        "notes": "Drafted from the listed sources; needs a human fact-check."
+      }
+    }
+  ]
+}
