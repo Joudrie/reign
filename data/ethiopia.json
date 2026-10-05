@@ -810,6 +810,20 @@
       "died": {
         "date": "1563-02-01"
       }
+    },
+    {
+      "id": "tesfaye-gebre-kidan",
+      "name": "Tesfaye Gebre Kidan",
+      "house": "derg",
+      "born": {
+        "date": "1935",
+        "circa": true,
+        "note": "Hararghe province"
+      },
+      "died": {
+        "date": "2004-06-04",
+        "note": "Addis Ababa, after 13 years in asylum at the Italian embassy; death confirmed on this date"
+      }
     }
   ],
   "reigns": [
@@ -7342,7 +7356,7 @@
           "note": "Thousands of Cuban soldiers and Soviet advisers fought on Ethiopia's side in 1977 to 1978."
         }
       ],
-      "hook": "Mengistu is gone. A week later, rebel columns led by a former medical student from Tigray, Meles Zenawi, roll into Addis Ababa.",
+      "hook": "Mengistu is gone, and the rebels are days from the capital. Someone has to sit in his chair. It falls to his old drinking companion and vice president, General Tesfaye Gebre Kidan.",
       "images": [
         {
           "file": "File:Mengistu Haile Mariam official portrait, 1977-1978.jpg",
@@ -7378,6 +7392,82 @@
       }
     },
     {
+      "id": "tesfaye-gebre-kidan",
+      "kind": "leader",
+      "rulers": [
+        "tesfaye-gebre-kidan"
+      ],
+      "tagline": "President for one week of a state that was falling apart",
+      "start": {
+        "date": "1991-05-21"
+      },
+      "end": {
+        "date": "1991-05-28"
+      },
+      "contestedWith": [],
+      "relationToPredecessor": "Mengistu's vice president and old pal",
+      "ageAtAccession": "About 56",
+      "cameToPower": "Acting president when Mengistu fled",
+      "reignEnded": "Rebels took Addis; hid in an embassy",
+      "previously": "Mengistu flies off to Zimbabwe as rebel armies close on the capital.",
+      "paragraphs": [
+        "Tesfaye Gebre Kidan started out as a village schoolteacher, quit over the poor pay and joined the army. At the Holetta military academy he got to know Mengistu Haile Mariam, and he stayed in the inner circle for good. A Derg member, he led troops around Jijiga in the Ogaden War, served for years as defence minister, ran Eritrea as military governor from 1988 and was made vice president in April 1991.",
+        "When Mengistu flew out on 21 May, Tesfaye was left holding a government with no army worth the name. Units turned on each other and soldiers looted whatever they could carry. He told the American chargé d'affaires he had lost control, announced a ceasefire and ran for the Italian embassy. Within a week the EPRDF rebels were in the capital.",
+        "He never left the embassy compound. He spent thirteen years there with other former Derg men, suffered a stroke and ended up in a wheelchair. His death was confirmed in June 2004, and how it happened is still argued over."
+      ],
+      "claims": [
+        {
+          "text": "Tesfaye asked the US embassy for shelter first and was turned away.",
+          "status": "disputed",
+          "note": "Told by the historian Paul Henze; the Italian embassy is the one that took him in, and stories of the night vary."
+        },
+        {
+          "text": "He died after a fellow refugee, ex-foreign minister Berhanu Bayeh, hit him with a bottle.",
+          "status": "disputed",
+          "note": "A waiter's account in an Italian book; an embassy source told CNN that Berhanu was not involved."
+        },
+        {
+          "text": "He lived the rest of his life inside the Italian embassy in Addis Ababa.",
+          "status": "confirmed",
+          "note": "He sheltered there from May 1991 until his death in 2004, with other Derg officials Ethiopia wanted to try."
+        }
+      ],
+      "hook": "Tesfaye is hiding behind Italian walls and the old army has melted away. Rebel columns from the north, led by a former medical student from Tigray named Meles Zenawi, roll into Addis Ababa.",
+      "images": [
+        {
+          "file": "File:Tesfaye Gebre Kidan.jpg",
+          "url": "https://upload.wikimedia.org/wikipedia/commons/e/ea/Tesfaye_Gebre_Kidan.jpg",
+          "page": "https://commons.wikimedia.org/wiki/File:Tesfaye_Gebre_Kidan.jpg",
+          "credit": "Unknown author",
+          "license": "Public domain",
+          "made": "Before 1991",
+          "caption": "Tesfaye as a younger officer, years before his week in charge.",
+          "alt": "Portrait photograph of a young Tesfaye Gebre Kidan"
+        }
+      ],
+      "sources": [
+        {
+          "title": "The Ethiopian Revolution: War in the Horn of Africa",
+          "author": "Gebru Tareke",
+          "note": "Yale University Press, 2009"
+        },
+        {
+          "title": "Layers of Time: A History of Ethiopia",
+          "author": "Paul B. Henze",
+          "note": "Hurst, 2000"
+        },
+        {
+          "title": "A History of Modern Ethiopia, 1855–1991",
+          "author": "Bahru Zewde",
+          "note": "James Currey, 2nd ed. 2001"
+        }
+      ],
+      "review": {
+        "status": "draft",
+        "notes": "Drafted from the listed sources; needs a human fact-check. IMAGE: Commons marks File:Tesfaye Gebre Kidan.jpg public domain but its only source is a Pinterest pin; check the licence or replace before publication. Birth year c. 1935 is approximate."
+      }
+    },
+    {
       "contestedWith": [],
       "id": "meles",
       "kind": "leader",
@@ -7395,7 +7485,7 @@
       "ageAtAccession": "36",
       "cameToPower": "His rebel army took the capital",
       "reignEnded": "Died in office in Brussels",
-      "previously": "Mengistu flees to Zimbabwe as rebel armies close on the capital.",
+      "previously": "Acting president Tesfaye gives up and runs for the Italian embassy.",
       "paragraphs": [
         "Meles Zenawi left medical school in 1975 to fight with the Tigray People's Liberation Front. Born Legesse, he took the name Meles from a student comrade executed by the Derg. By 1991 he led the EPRDF, a rebel coalition built around the TPLF, and on 28 May its fighters entered Addis Ababa. He became president of the transitional government, then prime minister in 1995.",
         "He rebuilt the state along ethnic lines, giving each big group its own region and, on paper, a right to secede. Eritrea voted for independence in 1993. Five years later a border quarrel became a full war with Eritrea, fought from 1998 to 2000 at a huge cost in lives. The disputed 2005 election ended in street protests and a crackdown in which nearly 200 people were killed.",

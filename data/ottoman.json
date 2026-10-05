@@ -569,6 +569,17 @@
         "note": "After the battle of Çamurlu, near Samokov"
       },
       "causeOfDeath": "Killed after losing the battle of Çamurlu"
+    },
+    {
+      "id": "mustafa-celebi",
+      "name": "Mustafa Çelebi",
+      "epithet": "Düzmece (the Impostor)",
+      "house": "osman",
+      "died": {
+        "date": "1422",
+        "note": "Edirne"
+      },
+      "causeOfDeath": "Hanged on Murad II's orders"
     }
   ],
   "reigns": [
@@ -1312,7 +1323,9 @@
       "end": {
         "date": "1444-08"
       },
-      "contestedWith": [],
+      "contestedWith": [
+        "mustafa-celebi"
+      ],
       "relationToPredecessor": "Son of Mehmed I",
       "ageAtAccession": "About 17",
       "cameToPower": "Succeeded his father",
@@ -1334,7 +1347,7 @@
           "note": "Byzantine writers, Doukas among them, describe the decision and the quarrel it caused at court."
         }
       ],
-      "hook": "Murad is in retirement at Manisa. A 12-year-old sits on the throne in Edirne, and the Christian powers decide the truce they just swore isn't worth keeping.",
+      "hook": "Murad is in retirement at Manisa. But rewind to 1421: before he could rule at all, he had to beat an uncle the Byzantines let out of a box.",
       "images": [
         {
           "file": "File:Paolo Veronese (Nachfolger) - Sultan Murad II. - 2237 - Bavarian State Painting Collections.jpg",
@@ -1375,6 +1388,94 @@
       }
     },
     {
+      "id": "mustafa-celebi",
+      "kind": "claimant",
+      "rulers": [
+        "mustafa-celebi"
+      ],
+      "title": "Mustafa Çelebi",
+      "tagline": "The lost son of Bayezid, or a very good fake",
+      "start": {
+        "date": "1421-08",
+        "circa": true,
+        "note": "Freed from Lemnos by the Byzantines a few months after Murad's accession; the month is approximate"
+      },
+      "end": {
+        "date": "1422",
+        "circa": true,
+        "note": "Hanged at Edirne early in 1422; sources differ on the month"
+      },
+      "contestedWith": [
+        "murad-ii"
+      ],
+      "relationToPredecessor": "Son of Bayezid I; uncle of Murad II",
+      "ageAtAccession": "Unknown",
+      "cameToPower": "Freed by Byzantium; took Edirne",
+      "reignEnded": "Hanged at Edirne by Murad II",
+      "previously": "Murad II, worn out by war and grief, hands the throne to his son.",
+      "paragraphs": [
+        "Rewind to 1421. Mustafa was the son of Bayezid who vanished after the disaster at Ankara in 1402, probably as one of Timur's prisoners. When he turned up years later, Mehmed I swore he was a fake. After a failed rising he ended up in Byzantine hands, and Mehmed paid good money every year to keep him locked away on the island of Lemnos. Then Mehmed died, and the Byzantines decided a rival sultan was worth more to them than the cash.",
+        "A Byzantine fleet set him ashore at Gallipoli with his ally Cüneyd Bey. The army Murad sent against him went over to his side at Sazlıdere, and its commander, the grand vizier Bayezid Pasha, was put to death. Mustafa rode into Edirne, the capital, to cheers. Prayers were said in his name and coins struck for him. He had promised Gallipoli to the Byzantines, then kept it.",
+        "In January 1422 he crossed into Anatolia to finish the job. At Ulubat Murad held the bridge, Cüneyd deserted and the army fell apart. Mustafa fled to Gallipoli, then Edirne, and Murad followed on hired Genoese ships. He was caught trying to escape and hanged from the walls of Edirne."
+      ],
+      "claims": [
+        {
+          "text": "Mustafa was an impostor, which is why he is called Düzmece, \"the Fake\".",
+          "status": "disputed",
+          "note": "That was Ottoman court propaganda. Most modern historians think he really was Bayezid's son."
+        },
+        {
+          "text": "Murad had him hanged, a commoner's death, to show he was no true prince.",
+          "status": "disputed",
+          "note": "Royal blood was usually not spilt openly, and historians read the hanging as a message. No source records Murad's reasons."
+        },
+        {
+          "text": "Coins were struck in his name at Edirne.",
+          "status": "confirmed",
+          "note": "Silver akçes from Edirne dated 824 AH (1421) and copper coins from Serres survive."
+        }
+      ],
+      "hook": "Mustafa swings from the walls. Murad punishes Byzantium with a siege, then spends twenty years at war. In 1444, tired and grieving, he does something no sultan has done before.",
+      "images": [
+        {
+          "file": "File:Akçe - Mustafa Çelebi.png",
+          "url": "https://upload.wikimedia.org/wikipedia/commons/d/d8/Ak%C3%A7e_-_Mustafa_%C3%87elebi.png",
+          "page": "https://commons.wikimedia.org/wiki/File:Ak%C3%A7e_-_Mustafa_%C3%87elebi.png",
+          "credit": "Unknown photographer, via Numista",
+          "license": "CC BY-SA 4.0",
+          "made": "1421",
+          "caption": "No portrait of Mustafa survives. This is one of his own silver akçes, struck at Edirne in his short reign.",
+          "alt": "Both sides of a small silver coin with Arabic lettering naming Mustafa son of Bayezid Khan and the mint of Edirne"
+        }
+      ],
+      "sources": [
+        {
+          "title": "The Ottoman Empire, 1300–1481",
+          "author": "Colin Imber",
+          "note": "Isis Press, 1990"
+        },
+        {
+          "title": "Decline and Fall of Byzantium to the Ottoman Turks",
+          "author": "Doukas",
+          "note": "15th-century chronicle; trans. Harry J. Magoulias, Wayne State University Press, 1975"
+        },
+        {
+          "title": "Osman's Dream: The Story of the Ottoman Empire 1300–1923",
+          "author": "Caroline Finkel",
+          "note": "John Murray, 2005"
+        },
+        {
+          "title": "The Ottoman Empire: The Classical Age 1300–1600",
+          "author": "Halil İnalcık",
+          "note": "Weidenfeld & Nicolson, 1973"
+        }
+      ],
+      "review": {
+        "status": "draft",
+        "notes": "Drafted from the listed sources; needs a human fact-check. Start month (release from Lemnos) and the month of his execution in 1422 are approximate."
+      }
+    },
+    {
       "id": "mehmed-ii",
       "kind": "monarch",
       "rulers": [
@@ -1392,7 +1493,7 @@
       "ageAtAccession": "12",
       "cameToPower": "His father abdicated",
       "reignEnded": "Pushed aside for his father",
-      "previously": "Murad II makes peace with Hungary and abdicates for his young son.",
+      "previously": "Mustafa is hanged. Murad rules on, then abdicates for his young son.",
       "paragraphs": [
         "Mehmed was 12, clever and stubborn, and the real power lay with the grand vizier, Çandarlı Halil Pasha. Within weeks the Christian side broke the peace. A crusading army under King Władysław of Poland and Hungary and John Hunyadi marched across Bulgaria towards the Black Sea. Edirne panicked. Halil and the other ministers begged Murad to come back and lead the army.",
         "Murad did, and on 10 November 1444 he won a crushing victory at Varna. Władysław was killed and his head was carried off as a trophy. Murad went back to Manisa, and Mehmed stayed sultan in name. It didn't last. In 1446 the Janissaries rioted in Edirne over their pay. Halil decided the boy couldn't hold things together and brought Murad back to the throne."

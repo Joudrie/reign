@@ -385,6 +385,12 @@
         "circa": true,
         "note": "If he is Rhaegar's son Aegon, born in 281 AC"
       }
+    },
+    {
+      "id": "euron",
+      "name": "Euron Greyjoy",
+      "epithet": "Crow's Eye",
+      "house": "greyjoy"
     }
   ],
   "reigns": [
@@ -446,7 +452,29 @@
       "review": {
         "status": "draft",
         "notes": "Drafted from the listed sources; needs a human fact-check."
-      }
+      },
+      "members": [
+        {
+          "name": "Visenya Targaryen",
+          "start": {
+            "date": "0001"
+          },
+          "end": {
+            "date": "0037"
+          },
+          "note": "Sister-wife and warrior queen; rode Vhagar, carried Dark Sister and fought at Aegon's side through the Conquest"
+        },
+        {
+          "name": "Rhaenys Targaryen",
+          "start": {
+            "date": "0001"
+          },
+          "end": {
+            "date": "0010"
+          },
+          "note": "Sister-wife; often sat the Iron Throne while Aegon toured; killed when Meraxes fell at Hellholt in Dorne"
+        }
+      ]
     },
     {
       "id": "aenys-i",
@@ -1943,7 +1971,7 @@
           "note": "Reported throughout A Clash of Kings and confirmed by Asha's own chapters in A Feast for Crows."
         }
       ],
-      "hook": "Joffrey is dead and the crown passes to his gentle little brother. Cersei means to rule through him, whatever the Tyrells or the gods think.",
+      "hook": "Balon is dead on the rocks, and the very next day a ship with black sails and a silent crew slides into Pyke. Euron Crow's Eye, the brother Balon banished, has come home.",
       "images": [],
       "sources": [
         {
@@ -1968,6 +1996,69 @@
       }
     },
     {
+      "id": "euron",
+      "kind": "claimant",
+      "rulers": [
+        "euron"
+      ],
+      "title": "Euron Greyjoy",
+      "tagline": "The one-eyed pirate who came home the day after",
+      "start": {
+        "date": "0299"
+      },
+      "contestedWith": [],
+      "relationToPredecessor": "Younger brother of Balon",
+      "ageAtAccession": "Unknown",
+      "cameToPower": "Seized the Seastone Chair; won kingsmoot",
+      "reignEnded": "Still King of the Isles",
+      "previously": "Balon Greyjoy falls from a bridge in a storm at Pyke.",
+      "paragraphs": [
+        "Euron was the brother the other Greyjoys feared. He wore a patch over one eye and drank shade of the evening until his lips turned blue. After the first Greyjoy rising Balon banished him for bedding Victarion's salt wife, and for years he roamed the world's seas in his ship the Silence, crewed by men whose tongues he had cut out. He boasted he had walked the smoking ruins of Valyria.",
+        "He sailed back into Pyke the day after Balon died and sat himself on the Seastone Chair. A lord who objected was drowned in a cask of seawater. Aeron the Damphair called a kingsmoot on Old Wyk to stop him, but Euron outbid Victarion and his niece Asha. He blew a huge Valyrian horn that he swore could bind dragons, and promised the ironborn all of Westeros.",
+        "As King of the Isles he struck at the Reach, took the Shield Islands and handed them out as lordships to his captains. Then he sent Victarion and the Iron Fleet east with the horn, to fetch Daenerys and her dragons back as his bride."
+      ],
+      "claims": [
+        {
+          "text": "Euron had Balon killed.",
+          "status": "disputed",
+          "note": "Aeron and others note how neatly his return was timed (A Feast for Crows). Nothing in the books proves it."
+        },
+        {
+          "text": "His dragon horn can bind dragons to whoever blows it.",
+          "status": "disputed",
+          "note": "Euron claims so at the kingsmoot (A Feast for Crows). The man who blew it died of burns inside, and nobody has tested it on a dragon."
+        },
+        {
+          "text": "Euron once owned a dragon's egg and threw it into the sea.",
+          "status": "legend",
+          "note": "His own boast, repeated in A Feast for Crows. Euron lies as easily as he breathes."
+        }
+      ],
+      "hook": "While the ironborn reave the Reach, King's Landing has troubles of its own. Joffrey is dead, and the crown passes to his gentle little brother. Cersei means to rule through him.",
+      "images": [],
+      "sources": [
+        {
+          "title": "A Feast for Crows (2005)",
+          "author": "George R. R. Martin",
+          "note": "The Prophet, The Iron Captain, The Drowned Man and The Reaver chapters; the kingsmoot"
+        },
+        {
+          "title": "A Dance with Dragons (2011)",
+          "author": "George R. R. Martin",
+          "note": "The Iron Suitor and Victarion chapters; the dragon horn"
+        },
+        {
+          "title": "The World of Ice & Fire (2014)",
+          "author": "George R. R. Martin, Elio M. García Jr. and Linda Antonsson",
+          "note": "The Iron Islands"
+        }
+      ],
+      "review": {
+        "status": "draft",
+        "notes": "Drafted from the listed sources; needs a human fact-check. Start year 299 AC (Balon's death); the kingsmoot's exact year is not stated in the books, so the text gives none."
+      }
+    },
+    {
       "id": "tommen-i",
       "kind": "monarch",
       "rulers": [
@@ -1982,7 +2073,7 @@
       "ageAtAccession": "About 9",
       "cameToPower": "Inherited after Joffrey's death",
       "reignEnded": "Still on the throne",
-      "previously": "Balon Greyjoy falls from a bridge in a storm at Pyke.",
+      "previously": "Euron wins the kingsmoot and sends his longships against the Reach.",
       "paragraphs": [
         "Tommen was kind and loved his kittens. Like his brother, his real father was Jaime. Crowned in 300 AC, he married Joffrey's widow Margaery. Tyrion was convicted, escaped and killed their grandfather Tywin on the privy. So Cersei ran the realm as regent and filled the council with yes-men.",
         "To fight the Tyrells she made a deal with the new High Septon, a barefoot sparrow. She let the Faith arm itself again as the Warrior's Sons. It backfired. The Faith arrested Margaery for adultery, then Cersei too. Cersei won her release by walking naked through the city, with crowds jeering all the way to the Red Keep.",
