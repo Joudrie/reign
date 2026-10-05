@@ -103,6 +103,70 @@
         "date": "1945-02-14",
         "note": "Zürich, Switzerland"
       }
+    },
+    {
+      "id": "joseph-johann-adam",
+      "name": "Joseph Johann Adam",
+      "house": "liechtenstein",
+      "born": {
+        "date": "1690-05-25",
+        "note": "Vienna"
+      },
+      "died": {
+        "date": "1732-12-17",
+        "note": "Valtice (Feldsberg), Moravia"
+      }
+    },
+    {
+      "id": "johann-nepomuk-karl",
+      "name": "Johann Nepomuk Karl",
+      "house": "liechtenstein",
+      "born": {
+        "date": "1724-07-06"
+      },
+      "died": {
+        "date": "1748-12-22",
+        "note": "Wischau (Vyškov), Moravia"
+      }
+    },
+    {
+      "id": "joseph-wenzel-i",
+      "name": "Joseph Wenzel I",
+      "house": "liechtenstein",
+      "born": {
+        "date": "1696-08-09",
+        "note": "Prague"
+      },
+      "died": {
+        "date": "1772-02-10",
+        "note": "Vienna"
+      }
+    },
+    {
+      "id": "franz-joseph-i",
+      "name": "Franz Joseph I",
+      "house": "liechtenstein",
+      "born": {
+        "date": "1726-11-19",
+        "note": "Milan"
+      },
+      "died": {
+        "date": "1781-08-18",
+        "note": "Metz"
+      }
+    },
+    {
+      "id": "aloys-i",
+      "name": "Aloys I",
+      "house": "liechtenstein",
+      "born": {
+        "date": "1759-05-14",
+        "note": "Vienna"
+      },
+      "died": {
+        "date": "1805-03-24",
+        "note": "Vienna"
+      }
     }
   ],
   "reigns": [
@@ -147,7 +211,7 @@
           "note": "Historians agree the status was the point: the lands were small and brought in little income."
         }
       ],
-      "hook": "Liechtenstein now exists, on paper and on the map. Its princes live in Vienna palaces and Moravian castles hundreds of miles away. For the next 84 years, they will run it by letter.",
+      "hook": "Liechtenstein now exists, on paper and on the map. Anton Florian's son Joseph Johann Adam inherits it, and he lives in Vienna and Moravia, hundreds of miles away. He will run it by letter.",
       "images": [
         {
           "file": "File:Anton Florian v Liechtenstein.jpg",
@@ -183,52 +247,52 @@
       }
     },
     {
-      "id": "princes-in-vienna",
-      "kind": "interregnum",
-      "rulers": [],
-      "house": "liechtenstein",
-      "title": "The Princes in Vienna",
-      "tagline": "Five princes, 84 years, and hardly a visit home",
+      "id": "joseph-johann-adam",
+      "kind": "monarch",
+      "rulers": [
+        "joseph-johann-adam"
+      ],
+      "tagline": "Four weddings, one heir, and a principality by post",
       "start": {
         "date": "1721-10-11"
       },
       "end": {
-        "date": "1805-03-24"
+        "date": "1732-12-17"
       },
       "contestedWith": [],
-      "relationToPredecessor": "Anton Florian's son, then kin",
-      "ageAtAccession": "Five princes",
-      "cameToPower": "Inherited, one after another",
-      "reignEnded": "Aloys I died childless",
+      "relationToPredecessor": "Son of Anton Florian",
+      "ageAtAccession": "31",
+      "cameToPower": "Inherited from his father",
+      "reignEnded": "Died at Valtice",
       "previously": "Anton Florian, founder of the principality, dies in Vienna.",
       "paragraphs": [
-        "Five princes held Liechtenstein in 84 years: Joseph Johann Adam (1721–32), Johann Nepomuk Karl (1732–48), Joseph Wenzel I (1748–72), Franz Joseph I (1772–81) and Aloys I (1781–1805). They lived in Vienna and on their Moravian estates at Lednice and Valtice. The principality was run by officials, and it mattered for one thing: the title it gave the family.",
-        "The star of the bunch was Joseph Wenzel I. He had already held the title as a young man, from 1712 to 1718, before handing it to his uncle. Back in charge, he was one of Austria's great field marshals. He rebuilt the Habsburg artillery, paying for much of it himself, and his guns earned their keep in the wars against Prussia.",
-        "Meanwhile the Vaduz valley stayed poor and rural, ruled from a distance. The princes spent their money on palaces, gardens and paintings back home. Aloys I died in 1805 with no son, and the title passed to his younger brother."
+        "Joseph Johann Adam was the second Prince of Liechtenstein and the first to inherit the brand-new country. He also inherited a stack of grander titles. He was Duke of Troppau and Jägerndorf in Silesia, owned huge estates in Moravia and Austria, and lived like it. Vaduz and Schellenberg, the bit that carried the family name, sat hundreds of miles away in the Alps.",
+        "His big worry was an heir. He married four times, and his wives kept dying young. The son he needed, Johann Nepomuk Karl, finally arrived in July 1724. Meanwhile the principality was run by officials who sent their reports to Vienna and Moravia, and the prince stayed put.",
+        "He died at Valtice, the family's Moravian seat, in December 1732, aged 42. His long-awaited heir was just eight years old."
       ],
       "claims": [
         {
-          "text": "Joseph Wenzel I poured his own fortune into modernising the Austrian artillery.",
+          "text": "Joseph Johann Adam married four times.",
           "status": "confirmed",
-          "note": "Standard accounts of Maria Theresa's army credit him as director-general of artillery and record that he paid for much of the work."
+          "note": "The family genealogies list four wives; three of them died before he did."
         },
         {
-          "text": "None of these five princes ever visited Liechtenstein.",
+          "text": "He never visited Vaduz or Schellenberg as prince.",
           "status": "disputed",
-          "note": "Often said, and no visit is documented, but the record for the 18th century is thin."
+          "note": "No visit is recorded, and the first documented visit by a reigning prince is in 1842, but the 18th-century record is thin."
         }
       ],
-      "hook": "The new prince is a cavalry general, and 1805 is a bad year to be one. Napoleon is marching on Vienna, and the tiny principality is about to be swept up in his reshuffle of Europe.",
+      "hook": "An eight-year-old prince needs a grown-up. The job goes to his father's cousin Joseph Wenzel, a soldier and diplomat who once owned Vaduz himself.",
       "images": [
         {
-          "file": "File:Joseph Wenzel von Liechtenstein.jpg",
-          "url": "https://upload.wikimedia.org/wikipedia/commons/1/1a/Joseph_Wenzel_von_Liechtenstein.jpg",
-          "page": "https://commons.wikimedia.org/wiki/File:Joseph_Wenzel_von_Liechtenstein.jpg",
-          "credit": "Hyacinthe Rigaud",
+          "file": "File:Josef Johann Adam v Liechtenstein.jpg",
+          "url": "https://upload.wikimedia.org/wikipedia/commons/1/10/Josef_Johann_Adam_v_Liechtenstein.jpg",
+          "page": "https://commons.wikimedia.org/wiki/File:Josef_Johann_Adam_v_Liechtenstein.jpg",
+          "credit": "Frans van Stampart",
           "license": "Public domain",
-          "made": "1740",
-          "caption": "Joseph Wenzel I, the soldier prince of this era, painted by Hyacinthe Rigaud in 1740.",
-          "alt": "Formal painted portrait of Joseph Wenzel of Liechtenstein, a nobleman in a powdered wig and armour"
+          "made": "1710",
+          "caption": "Painted by Frans van Stampart in 1710, eleven years before he became prince.",
+          "alt": "Painted portrait of Joseph Johann Adam of Liechtenstein as a young nobleman"
         }
       ],
       "sources": [
@@ -238,14 +302,303 @@
           "note": "Chronos, 2013; online edition at historisches-lexikon.li"
         },
         {
-          "title": "Liechtenstein: History and Institutions of the Principality",
-          "author": "Pierre Raton",
-          "note": "1970"
+          "title": "Liechtenstein: Fürstliches Haus und staatliche Ordnung",
+          "author": "Volker Press and Dietmar Willoweit (eds.)",
+          "note": "1987"
+        },
+        {
+          "title": "Der ganzen Welt ein Lob und Spiegel: Das Fürstenhaus Liechtenstein in der frühen Neuzeit",
+          "author": "Evelin Oberhammer (ed.)",
+          "note": "Oldenbourg, 1990"
+        }
+      ],
+      "review": {
+        "status": "draft",
+        "notes": "Drafted from the listed sources; needs a human fact-check."
+      }
+    },
+    {
+      "id": "johann-nepomuk-karl",
+      "kind": "monarch",
+      "rulers": [
+        "johann-nepomuk-karl"
+      ],
+      "tagline": "The boy prince who ran out of time",
+      "start": {
+        "date": "1732-12-17"
+      },
+      "end": {
+        "date": "1748-12-22"
+      },
+      "contestedWith": [],
+      "relationToPredecessor": "Son of Joseph Johann Adam",
+      "ageAtAccession": "8",
+      "cameToPower": "Inherited as a child",
+      "reignEnded": "Died at 24, no surviving son",
+      "previously": "Joseph Johann Adam dies, leaving an eight-year-old heir.",
+      "paragraphs": [
+        "Johann Nepomuk Karl became prince at eight, so somebody else did the ruling. That was Joseph Wenzel, his father's cousin, who acted as his guardian and ran the family's affairs from 1732 to 1745. Joseph Wenzel was a busy man at the same time, serving as the emperor's ambassador and climbing the ranks of the Austrian army.",
+        "The young prince came of age, and in 1744 he married Countess Maria Josepha of Harrach. It looked like the line was safe. It wasn't. He died at Wischau in Moravia on 22 December 1748, aged just 24, with no son to follow him.",
+        "So the title went back up the family tree, to the very man who had been minding it during his childhood."
+      ],
+      "claims": [
+        {
+          "text": "Joseph Wenzel served as the boy's guardian from 1732 to 1745.",
+          "status": "confirmed",
+          "note": "The guardianship is recorded in the standard family histories and the Historisches Lexikon."
+        },
+        {
+          "text": "Johann Nepomuk Karl never saw his principality.",
+          "status": "disputed",
+          "note": "No visit is recorded, but that is an argument from silence."
+        }
+      ],
+      "hook": "The title goes back to Joseph Wenzel. He held Vaduz once before, swapped it away, and is now one of Austria's best generals. He's about to spend a fortune on guns.",
+      "images": [
+        {
+          "file": "File:Johann Nepomuk Karl v Liechtenstein.jpg",
+          "url": "https://upload.wikimedia.org/wikipedia/commons/b/b2/Johann_Nepomuk_Karl_v_Liechtenstein.jpg",
+          "page": "https://commons.wikimedia.org/wiki/File:Johann_Nepomuk_Karl_v_Liechtenstein.jpg",
+          "credit": "Etienne Chevalier",
+          "license": "Public domain",
+          "made": "Before 1763",
+          "caption": "Attributed on Commons to Etienne Chevalier, who died in 1763.",
+          "alt": "Painted portrait of Prince Johann Nepomuk Karl of Liechtenstein"
+        }
+      ],
+      "sources": [
+        {
+          "title": "Historisches Lexikon des Fürstentums Liechtenstein",
+          "author": "Historischer Verein für das Fürstentum Liechtenstein",
+          "note": "Chronos, 2013; online edition at historisches-lexikon.li"
+        },
+        {
+          "title": "Liechtenstein: Fürstliches Haus und staatliche Ordnung",
+          "author": "Volker Press and Dietmar Willoweit (eds.)",
+          "note": "1987"
+        },
+        {
+          "title": "Der ganzen Welt ein Lob und Spiegel: Das Fürstenhaus Liechtenstein in der frühen Neuzeit",
+          "author": "Evelin Oberhammer (ed.)",
+          "note": "Oldenbourg, 1990"
+        }
+      ],
+      "review": {
+        "status": "draft",
+        "notes": "Drafted from the listed sources; needs a human fact-check."
+      }
+    },
+    {
+      "id": "joseph-wenzel-i",
+      "kind": "monarch",
+      "rulers": [
+        "joseph-wenzel-i"
+      ],
+      "tagline": "The gunner prince who got the job twice",
+      "start": {
+        "date": "1748-12-22"
+      },
+      "end": {
+        "date": "1772-02-10"
+      },
+      "contestedWith": [],
+      "relationToPredecessor": "Cousin of his ward's father",
+      "ageAtAccession": "52",
+      "cameToPower": "Inherited when his ward died",
+      "reignEnded": "Died in Vienna, childless",
+      "previously": "Johann Nepomuk Karl dies at 24. His old guardian takes the title.",
+      "paragraphs": [
+        "Joseph Wenzel had owned Vaduz and Schellenberg once already, as a young man from 1712. In 1718 he swapped them with his uncle Anton Florian for the lordship of Rumburk in Bohemia. Then he made a career: ambassador in Berlin and in Paris, where he rolled into town in a gilded coach that still survives.",
+        "He was also a real soldier. As an Austrian field marshal he beat the French and Spanish at Piacenza on 16 June 1746. As director-general of artillery he rebuilt the Habsburg guns from the ground up, with lighter cannon and trained crews, and he put a lot of his own money in. Frederick the Great's Prussians soon learned to respect Austrian gunfire.",
+        "In 1760 he led the glittering embassy that fetched Isabella of Parma to be the bride of the future Joseph II. He had no surviving children and died in Vienna in 1772, aged 75."
+      ],
+      "claims": [
+        {
+          "text": "Joseph Wenzel paid for much of the Austrian artillery reform out of his own pocket.",
+          "status": "disputed",
+          "note": "Standard accounts say he spent heavily from his own fortune; how much, and how much was later repaid, is not clear."
+        },
+        {
+          "text": "His golden state coach, made in Paris for his embassy there, still survives.",
+          "status": "confirmed",
+          "note": "The Golden Carriage is in the Princely Collections of Liechtenstein and is dated to around 1738."
+        },
+        {
+          "text": "He won the Battle of Piacenza on 16 June 1746.",
+          "status": "confirmed",
+          "note": "He commanded the Austrian army in the battle, a heavy defeat for the Franco-Spanish force."
+        }
+      ],
+      "hook": "The old marshal leaves no son. The title passes to his nephew Franz Joseph, born in Milan, who has spent years in his famous uncle's shadow.",
+      "images": [
+        {
+          "file": "File:Anton Peter van Roy - Portrait of Prince Joseph Wenzel I von Liechtenstein.jpg",
+          "url": "https://upload.wikimedia.org/wikipedia/commons/e/e8/Anton_Peter_van_Roy_-_Portrait_of_Prince_Joseph_Wenzel_I_von_Liechtenstein.jpg",
+          "page": "https://commons.wikimedia.org/wiki/File:Anton_Peter_van_Roy_-_Portrait_of_Prince_Joseph_Wenzel_I_von_Liechtenstein.jpg",
+          "credit": "Peter van Roy",
+          "license": "Public domain",
+          "made": "18th century",
+          "caption": "An 18th-century portrait by Peter van Roy.",
+          "alt": "Painted portrait of Prince Joseph Wenzel I of Liechtenstein"
+        }
+      ],
+      "sources": [
+        {
+          "title": "Historisches Lexikon des Fürstentums Liechtenstein",
+          "author": "Historischer Verein für das Fürstentum Liechtenstein",
+          "note": "Chronos, 2013; online edition at historisches-lexikon.li"
         },
         {
           "title": "The Army of Maria Theresa: The Armed Forces of Imperial Austria, 1740–1780",
           "author": "Christopher Duffy",
           "note": "David & Charles, 1977; on Joseph Wenzel and the artillery"
+        },
+        {
+          "title": "Liechtenstein: Fürstliches Haus und staatliche Ordnung",
+          "author": "Volker Press and Dietmar Willoweit (eds.)",
+          "note": "1987"
+        },
+        {
+          "title": "Der ganzen Welt ein Lob und Spiegel: Das Fürstenhaus Liechtenstein in der frühen Neuzeit",
+          "author": "Evelin Oberhammer (ed.)",
+          "note": "Oldenbourg, 1990"
+        }
+      ],
+      "review": {
+        "status": "draft",
+        "notes": "Drafted from the listed sources; needs a human fact-check."
+      }
+    },
+    {
+      "id": "franz-joseph-i",
+      "kind": "monarch",
+      "rulers": [
+        "franz-joseph-i"
+      ],
+      "tagline": "The quiet nephew between two big personalities",
+      "start": {
+        "date": "1772-02-10"
+      },
+      "end": {
+        "date": "1781-08-18"
+      },
+      "contestedWith": [],
+      "relationToPredecessor": "Nephew of Joseph Wenzel I",
+      "ageAtAccession": "45",
+      "cameToPower": "Inherited from his uncle",
+      "reignEnded": "Died at Metz",
+      "previously": "Joseph Wenzel I, the gunner prince, dies in Vienna without a son.",
+      "paragraphs": [
+        "Franz Joseph was born in Milan in 1726, the son of Joseph Wenzel's younger brother Emanuel. He grew up as the heir to a famous uncle and spent decades waiting. He married Countess Leopoldine of Sternberg in 1750, and they had a big family.",
+        "When he finally became prince in 1772 he was 45, and his reign was short and calm. Maria Theresa still ruled in Vienna. The principality in the Alps carried on as before, run by officials and visited by nobody important.",
+        "He died at Metz on 18 August 1781, aged 54. His real legacy was his sons: two of them, Aloys and Johann, would each wear the prince's title."
+      ],
+      "claims": [
+        {
+          "text": "Two of his sons became reigning princes.",
+          "status": "confirmed",
+          "note": "Aloys I (1781–1805) and Johann I Joseph (1805–1836) were both his sons."
+        }
+      ],
+      "hook": "His eldest son Aloys is only 22, and he loves books, gardens and building. The bills are about to get bigger.",
+      "images": [
+        {
+          "file": "File:Friedrich Oelenhainz - Porträt des Fürsten Franz Josef I. von Liechtenstein (1726–1781).jpg",
+          "url": "https://upload.wikimedia.org/wikipedia/commons/a/a7/Friedrich_Oelenhainz_-_Portr%C3%A4t_des_F%C3%BCrsten_Franz_Josef_I._von_Liechtenstein_%281726%E2%80%931781%29.jpg",
+          "page": "https://commons.wikimedia.org/wiki/File:Friedrich_Oelenhainz_-_Porträt_des_Fürsten_Franz_Josef_I._von_Liechtenstein_(1726–1781).jpg",
+          "credit": "August Friedrich Oelenhainz",
+          "license": "Public domain",
+          "made": "1776",
+          "caption": "Painted by August Friedrich Oelenhainz in 1776, during his reign.",
+          "alt": "Painted portrait of Prince Franz Joseph I of Liechtenstein"
+        }
+      ],
+      "sources": [
+        {
+          "title": "Historisches Lexikon des Fürstentums Liechtenstein",
+          "author": "Historischer Verein für das Fürstentum Liechtenstein",
+          "note": "Chronos, 2013; online edition at historisches-lexikon.li"
+        },
+        {
+          "title": "Liechtenstein: Fürstliches Haus und staatliche Ordnung",
+          "author": "Volker Press and Dietmar Willoweit (eds.)",
+          "note": "1987"
+        },
+        {
+          "title": "Der ganzen Welt ein Lob und Spiegel: Das Fürstenhaus Liechtenstein in der frühen Neuzeit",
+          "author": "Evelin Oberhammer (ed.)",
+          "note": "Oldenbourg, 1990"
+        }
+      ],
+      "review": {
+        "status": "draft",
+        "notes": "Drafted from the listed sources; needs a human fact-check."
+      }
+    },
+    {
+      "id": "aloys-i",
+      "kind": "monarch",
+      "rulers": [
+        "aloys-i"
+      ],
+      "tagline": "The book-loving builder with no son",
+      "start": {
+        "date": "1781-08-18"
+      },
+      "end": {
+        "date": "1805-03-24"
+      },
+      "contestedWith": [],
+      "relationToPredecessor": "Eldest surviving son of Franz Joseph I",
+      "ageAtAccession": "22",
+      "cameToPower": "Inherited from his father",
+      "reignEnded": "Died in Vienna, childless",
+      "previously": "Franz Joseph I dies at Metz. His son Aloys, 22, inherits.",
+      "paragraphs": [
+        "Aloys became prince at 22. In 1783 he married Countess Karoline of Manderscheid-Blankenheim. He was a collector and a builder, and he poured money into the great family estates at Lednice and Valtice in Moravia and into the family library.",
+        "Outside the palace gates, Europe was on fire. The French Revolution turned into a long war, and in 1799 French and Austrian armies fought over the Alpine passes near the principality. Vaduz was far from Aloys's mind. He governed it, like everyone before him, from a desk hundreds of miles away.",
+        "He died in Vienna on 24 March 1805, aged 45, with no children. The title went to his younger brother Johann, a cavalry general."
+      ],
+      "claims": [
+        {
+          "text": "Aloys I greatly expanded the family library and the gardens at Lednice.",
+          "status": "confirmed",
+          "note": "Standard histories of the Lednice–Valtice estates credit him with major works there; details of costs vary."
+        },
+        {
+          "text": "Liechtenstein was overrun by troops during the 1799 campaign.",
+          "status": "disputed",
+          "note": "French and Austrian forces fought nearby around Feldkirch in 1799; how much the principality itself suffered is described differently by different writers."
+        }
+      ],
+      "hook": "The new prince is a cavalry general, and 1805 is a terrible year to be one. Napoleon is marching on Vienna, and Johann will soon be face to face with him.",
+      "images": [
+        {
+          "file": "File:Portrait of Alois I of Liechtenstein, Friedrich Ölenhainz (1804).jpg",
+          "url": "https://upload.wikimedia.org/wikipedia/commons/4/42/Portrait_of_Alois_I_of_Liechtenstein%2C_Friedrich_%C3%96lenhainz_%281804%29.jpg",
+          "page": "https://commons.wikimedia.org/wiki/File:Portrait_of_Alois_I_of_Liechtenstein,_Friedrich_Ölenhainz_(1804).jpg",
+          "credit": "August Friedrich Oelenhainz",
+          "license": "Public domain",
+          "made": "c. 1804",
+          "caption": "Painted by August Friedrich Oelenhainz around 1804, the year before he died.",
+          "alt": "Painted portrait of Prince Aloys I of Liechtenstein"
+        }
+      ],
+      "sources": [
+        {
+          "title": "Historisches Lexikon des Fürstentums Liechtenstein",
+          "author": "Historischer Verein für das Fürstentum Liechtenstein",
+          "note": "Chronos, 2013; online edition at historisches-lexikon.li"
+        },
+        {
+          "title": "Liechtenstein: Fürstliches Haus und staatliche Ordnung",
+          "author": "Volker Press and Dietmar Willoweit (eds.)",
+          "note": "1987"
+        },
+        {
+          "title": "Liechtenstein: A Modern History",
+          "author": "David Beattie",
+          "note": "I.B. Tauris, 2004"
         }
       ],
       "review": {
