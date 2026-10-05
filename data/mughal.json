@@ -216,6 +216,60 @@
         "note": "Rangoon, Burma, in exile"
       },
       "causeOfDeath": "Old age, in exile"
+    },
+    {
+      "id": "jahandar-shah",
+      "name": "Jahandar Shah",
+      "house": "timurid",
+      "born": {
+        "date": "1661-05-10",
+        "note": "The Deccan"
+      },
+      "died": {
+        "date": "1713-02-11",
+        "note": "Delhi"
+      },
+      "causeOfDeath": "Strangled in prison"
+    },
+    {
+      "id": "farrukhsiyar",
+      "name": "Farrukhsiyar",
+      "house": "timurid",
+      "born": {
+        "date": "1683-08-20",
+        "note": "Aurangabad"
+      },
+      "died": {
+        "date": "1719-04-09",
+        "note": "Delhi; some sources give a later day in April"
+      },
+      "causeOfDeath": "Strangled in prison"
+    },
+    {
+      "id": "rafi-ud-darajat",
+      "name": "Rafi ud-Darajat",
+      "house": "timurid",
+      "born": {
+        "date": "1699-12-01"
+      },
+      "died": {
+        "date": "1719-06-06"
+      },
+      "causeOfDeath": "Tuberculosis"
+    },
+    {
+      "id": "shah-jahan-ii",
+      "name": "Shah Jahan II",
+      "house": "timurid",
+      "born": {
+        "date": "1696-06",
+        "circa": true,
+        "note": "About eighteen months older than his brother, says Irvine"
+      },
+      "died": {
+        "date": "1719-09-17",
+        "note": "Bidyapur, near Fatehpur Sikri"
+      }
     }
   ],
   "reigns": [
@@ -889,7 +943,7 @@
           "note": "Recorded in Persian and Sikh sources alike. Sirhind's governor had put Guru Gobind Singh's young sons to death, which made it a prime target."
         }
       ],
-      "hook": "Bahadur Shah dies at Lahore. His four sons go straight to war for the throne, and his body lies waiting for burial until one of them wins.",
+      "hook": "Bahadur Shah dies at Lahore. His four sons go straight to war while his body waits for burial. The eldest, Jahandar Shah, is the least feared, but he has the cleverest noble in the empire on his side.",
       "images": [
         {
           "file": "File:Bahadur Shah I elderly.jpg",
@@ -925,57 +979,133 @@
       }
     },
     {
-      "id": "puppet-emperors",
-      "kind": "interregnum",
-      "rulers": [],
-      "house": "timurid",
-      "title": "The Puppet Emperors",
-      "tagline": "Four emperors in seven years, and two kingmakers",
+      "id": "jahandar-shah",
+      "kind": "monarch",
+      "rulers": [
+        "jahandar-shah"
+      ],
+      "tagline": "The emperor who left the ruling to his wazir",
       "start": {
         "date": "1712-03-29"
       },
       "end": {
-        "date": "1719-09-17"
+        "date": "1713-01-11"
       },
       "contestedWith": [],
-      "relationToPredecessor": "Bahadur Shah I's sons and grandsons",
-      "ageAtAccession": "Various",
-      "cameToPower": "A war among Bahadur Shah's sons",
-      "reignEnded": "Shah Jahan II dies within months",
+      "relationToPredecessor": "Eldest son of Bahadur Shah I",
+      "ageAtAccession": "50",
+      "cameToPower": "Won the war among four brothers",
+      "reignEnded": "Beaten near Agra by Farrukhsiyar",
       "previously": "Bahadur Shah dies at Lahore, and his four sons go to war.",
       "paragraphs": [
-        "Jahandar Shah won the fight among the brothers with the help of the noble Zulfiqar Khan, and the losers died. His court was soon a scandal: his favourite, the dancer Lal Kunwar, saw her relatives raised to high rank. His nephew Farrukhsiyar came for him, won near Agra in January 1713, and had him strangled in prison the next month.",
-        "Farrukhsiyar owed his crown to two brothers, the Sayyids Abdullah Khan and Husain Ali Khan, the kingmakers. In 1717 he gave the East India Company a farman letting it trade in Bengal free of customs duty for a small yearly fee. That bit of paper would matter enormously. He kept plotting against the Sayyids, and in February 1719 they dragged him from the palace and blinded him. In April he was strangled in prison.",
-        "Next the Sayyids chose Rafi ud-Darajat, a young prince already sick with tuberculosis. He lasted from February to June 1719. His brother took over as Shah Jahan II, and he was dead by September. By the end of the year Delhi had seen four emperors, and the real power sat with the two brothers."
+        "Prince Muizz-ud-din was the eldest of Bahadur Shah's four sons, but the favourite was his brother Azim-ush-Shan, who held the treasury. The powerful noble Zulfiqar Khan talked the other three brothers into teaming up. Near Lahore in March 1712 Azim-ush-Shan's army broke, and he drowned in the Ravi when his elephant bolted. Then the winners turned on each other. Jahan Shah and Rafi-ush-Shan were killed, and Muizz-ud-din was crowned as Jahandar Shah.",
+        "He left the running of the empire to Zulfiqar Khan, now his wazir. The emperor's heart belonged to Lal Kunwar, a dancer, and her brothers and cousins were handed ranks and estates that old noble families had waited a lifetime for. The nobles seethed, and the chroniclers sharpened their pens.",
+        "Out east, at Patna, Azim-ush-Shan's son Farrukhsiyar declared himself emperor and found two powerful backers, the Sayyid brothers. On 10 January 1713 they beat Jahandar Shah near Agra. He slipped back to Delhi and asked for shelter from Zulfiqar Khan's father, Asad Khan, who handed him over. On 11 February he was strangled in his prison cell."
       ],
       "claims": [
         {
-          "text": "Farrukhsiyar granted the 1717 farman because a Company surgeon, William Hamilton, had cured him.",
+          "text": "Lal Kunwar's relatives were showered with titles and posts, to the fury of the old nobility.",
           "status": "disputed",
-          "note": "Hamilton did treat the emperor and was rewarded, but historians see the farman as the result of a long, expensive Company embassy. The cure story was a neat British tale."
+          "note": "The tales come from chroniclers who blamed her for everything that went wrong in the reign, so they are probably exaggerated."
         },
         {
-          "text": "Lal Kunwar's family were showered with posts and honours, to the fury of the old nobles.",
-          "status": "disputed",
-          "note": "The stories come from hostile chroniclers who blamed her for Jahandar Shah's failings, so they are likely exaggerated."
+          "text": "Azim-ush-Shan drowned in the Ravi when his wounded elephant ran into the river.",
+          "status": "confirmed",
+          "note": "Told by the Persian chroniclers and accepted in Irvine's Later Mughals."
         },
         {
-          "text": "The Sayyid brothers blinded Farrukhsiyar and had him killed in prison.",
+          "text": "Asad Khan, Zulfiqar Khan's father, gave the fugitive emperor up to Farrukhsiyar.",
+          "status": "confirmed",
+          "note": "Reported by the chroniclers of the time; the old minister hoped it would save his family."
+        }
+      ],
+      "hook": "Jahandar Shah is dead in his cell. Zulfiqar Khan, the man who really ran his empire, comes to court to make peace with the new emperor. He will not leave the meeting alive.",
+      "images": [
+        {
+          "file": "File:Jahandar Shah, Mughal Emperor..jpg",
+          "url": "https://upload.wikimedia.org/wikipedia/commons/8/85/Jahandar_Shah%2C_Mughal_Emperor..jpg",
+          "page": "https://commons.wikimedia.org/wiki/File:Jahandar_Shah,_Mughal_Emperor..jpg",
+          "credit": "Unknown Mughal artist",
+          "license": "Public domain",
+          "made": "c. 1712",
+          "caption": "A Mughal watercolour of the emperor painted around 1712, during his short reign; Victoria and Albert Museum.",
+          "alt": "Mughal watercolour portrait of the emperor Jahandar Shah"
+        }
+      ],
+      "sources": [
+        {
+          "title": "Later Mughals",
+          "author": "William Irvine",
+          "note": "Edited by Jadunath Sarkar, 2 vols, 1921–22"
+        },
+        {
+          "title": "Parties and Politics at the Mughal Court, 1707–1740",
+          "author": "Satish Chandra",
+          "note": "First published 1959"
+        },
+        {
+          "title": "The Mughal Empire (The New Cambridge History of India I.5)",
+          "author": "John F. Richards",
+          "note": "Cambridge University Press, 1993"
+        }
+      ],
+      "review": {
+        "status": "draft",
+        "notes": "Drafted from the listed sources; needs a human fact-check."
+      }
+    },
+    {
+      "id": "farrukhsiyar",
+      "kind": "monarch",
+      "rulers": [
+        "farrukhsiyar"
+      ],
+      "tagline": "Crowned by two brothers, and blinded by them too",
+      "start": {
+        "date": "1713-01-11"
+      },
+      "end": {
+        "date": "1719-02-28"
+      },
+      "contestedWith": [],
+      "relationToPredecessor": "Nephew of Jahandar Shah",
+      "ageAtAccession": "29",
+      "cameToPower": "Beat his uncle near Agra",
+      "reignEnded": "Deposed and blinded by the Sayyids",
+      "previously": "Jahandar Shah is strangled. His wazir must now face the new emperor.",
+      "paragraphs": [
+        "Farrukhsiyar owed everything to the Sayyid brothers, Abdullah Khan and Husain Ali Khan. Without their armies he would never have won near Agra. Zulfiqar Khan came to the new emperor hoping for a pardon and was strangled as the audience ended. The Sayyids took the top jobs, Abdullah as wazir and Husain Ali as head of the army, and people started calling them the kingmakers.",
+        "In the Punjab the Sikh leader Banda Singh Bahadur was besieged and captured in 1715. He was brought to Delhi in chains and executed in June 1716, along with hundreds of his followers. Then in 1717 Farrukhsiyar signed a farman that let the East India Company trade in Bengal free of customs duty, for just 3,000 rupees a year. Company men would wave that piece of paper around for decades.",
+        "The emperor hated depending on his kingmakers and kept plotting to get rid of them. Every plot leaked. In February 1719 Husain Ali marched into Delhi with Maratha troops, and on the 28th the brothers had Farrukhsiyar dragged out of the women's quarters and blinded. In April he was strangled in prison."
+      ],
+      "claims": [
+        {
+          "text": "Farrukhsiyar granted the 1717 farman out of gratitude to the Company surgeon William Hamilton, who had cured him.",
+          "status": "disputed",
+          "note": "Hamilton did treat the emperor and was rewarded, but historians credit the farman to a long and costly Company embassy. The cure story suited British storytellers."
+        },
+        {
+          "text": "The 1717 farman let the Company trade in Bengal free of customs duty for 3,000 rupees a year.",
+          "status": "confirmed",
+          "note": "The grant survives in Company records and is discussed in every history of British Bengal."
+        },
+        {
+          "text": "The Sayyid brothers blinded Farrukhsiyar and had him strangled in prison.",
           "status": "confirmed",
           "note": "Described by contemporary Persian chroniclers and told in detail in Irvine's Later Mughals."
         }
       ],
-      "hook": "Two young emperors dead in a single year. The Sayyids reach for another prince, a teenage grandson of Bahadur Shah. They think they have found the perfect puppet. They are wrong.",
+      "hook": "The blinded emperor sits in a cell. The Sayyids need a new name on the coins, fast, so they fetch a sickly young prince out of the palace prison and put him on the throne.",
       "images": [
         {
-          "file": "File:The Emperor Farrukhsiyar on his balcony 1715-1719, Bibliothèque nationale de France, Paris.jpg",
-          "url": "https://upload.wikimedia.org/wikipedia/commons/b/b4/The_Emperor_Farrukhsiyar_on_his_balcony_1715-1719%2C_Biblioth%C3%A8que_nationale_de_France%2C_Paris.jpg",
-          "page": "https://commons.wikimedia.org/wiki/File:The_Emperor_Farrukhsiyar_on_his_balcony_1715-1719,_Bibliothèque_nationale_de_France,_Paris.jpg",
+          "file": "File:Farrukhsiyar receiving Husain Ali Khan ca. 1715 British Library.jpg",
+          "url": "https://upload.wikimedia.org/wikipedia/commons/7/7c/Farrukhsiyar_receiving_Husain_Ali_Khan_ca._1715_British_Library.jpg",
+          "page": "https://commons.wikimedia.org/wiki/File:Farrukhsiyar_receiving_Husain_Ali_Khan_ca._1715_British_Library.jpg",
           "credit": "Unknown Mughal artist",
           "license": "Public domain",
-          "made": "1715–1719",
-          "caption": "Farrukhsiyar, the best known of the puppet emperors, painted in his own reign; Bibliothèque nationale de France, Paris.",
-          "alt": "Mughal miniature of the emperor Farrukhsiyar at his palace balcony"
+          "made": "c. 1712–1719",
+          "caption": "Farrukhsiyar receiving Husain Ali Khan, one of the two kingmaker brothers, painted in his own reign; British Library.",
+          "alt": "Mughal miniature of the emperor Farrukhsiyar receiving the noble Husain Ali Khan"
         }
       ],
       "sources": [
@@ -992,7 +1122,147 @@
         {
           "title": "The Anarchy: The Relentless Rise of the East India Company",
           "author": "William Dalrymple",
-          "note": "Bloomsbury, 2019"
+          "note": "Bloomsbury, 2019; the 1717 farman"
+        }
+      ],
+      "review": {
+        "status": "draft",
+        "notes": "Drafted from the listed sources; needs a human fact-check."
+      }
+    },
+    {
+      "id": "rafi-ud-darajat",
+      "kind": "monarch",
+      "rulers": [
+        "rafi-ud-darajat"
+      ],
+      "tagline": "The dying prince the kingmakers crowned",
+      "start": {
+        "date": "1719-02-28"
+      },
+      "end": {
+        "date": "1719-06-06"
+      },
+      "contestedWith": [],
+      "relationToPredecessor": "First cousin of Farrukhsiyar",
+      "ageAtAccession": "19",
+      "cameToPower": "Taken from prison by the Sayyids",
+      "reignEnded": "Died of tuberculosis",
+      "previously": "Farrukhsiyar is blinded. The Sayyids fetch a prince from prison.",
+      "paragraphs": [
+        "Rafi ud-Darajat was a grandson of Bahadur Shah, a son of the Rafi-ush-Shan killed in the war of 1712. Like the other princes of the family, he had grown up under guard inside the palace. On 28 February 1719, the same day Farrukhsiyar was dragged away, the Sayyids brought him out and crowned him. He was 19 and already ill with tuberculosis. The real decisions stayed with the two brothers, and in April the man he had replaced was strangled in his cell.",
+        "Not everyone accepted the Sayyids' choice. In May the garrison at Agra proclaimed a rival emperor, Neku Siyar, a grandson of Aurangzeb, and Husain Ali set off to deal with them. The young emperor did not live to see it settled. He wasted away, and on 6 June 1719 he died, a little over three months after he was crowned."
+      ],
+      "claims": [
+        {
+          "text": "Rafi ud-Darajat was already sick with tuberculosis when the Sayyids crowned him.",
+          "status": "confirmed",
+          "note": "The chroniclers describe a wasting lung illness throughout his short reign; modern historians call it tuberculosis."
+        },
+        {
+          "text": "The Agra garrison proclaimed Neku Siyar emperor in May 1719.",
+          "status": "disputed",
+          "note": "The rising itself is certain. Accounts differ on the exact date and on who was behind it."
+        }
+      ],
+      "hook": "The boy emperor is dead after barely three months. The Sayyids do not look far for a replacement. They pick his elder brother, who is just as sick.",
+      "images": [
+        {
+          "file": "File:Prince Rafi al-Darjat.jpg",
+          "url": "https://upload.wikimedia.org/wikipedia/commons/b/b0/Prince_Rafi_al-Darjat.jpg",
+          "page": "https://commons.wikimedia.org/wiki/File:Prince_Rafi_al-Darjat.jpg",
+          "credit": "Unknown Mughal artist",
+          "license": "Public domain",
+          "made": "Mid-18th century",
+          "caption": "Painted some decades after his death, in the mid-1700s; Royal Collection.",
+          "alt": "Mughal miniature of a standing young prince in a long orange robe and plumed turban, holding a jewelled arm band, his left hand on his sword hilt"
+        }
+      ],
+      "sources": [
+        {
+          "title": "Later Mughals",
+          "author": "William Irvine",
+          "note": "Edited by Jadunath Sarkar, 2 vols, 1921–22"
+        },
+        {
+          "title": "Parties and Politics at the Mughal Court, 1707–1740",
+          "author": "Satish Chandra",
+          "note": "First published 1959"
+        },
+        {
+          "title": "The Mughal Empire (The New Cambridge History of India I.5)",
+          "author": "John F. Richards",
+          "note": "Cambridge University Press, 1993"
+        }
+      ],
+      "review": {
+        "status": "draft",
+        "notes": "Drafted from the listed sources; needs a human fact-check."
+      }
+    },
+    {
+      "id": "shah-jahan-ii",
+      "kind": "monarch",
+      "rulers": [
+        "shah-jahan-ii"
+      ],
+      "tagline": "A grand name for a dying man",
+      "start": {
+        "date": "1719-06-06"
+      },
+      "end": {
+        "date": "1719-09-17"
+      },
+      "contestedWith": [],
+      "relationToPredecessor": "Elder brother of Rafi ud-Darajat",
+      "ageAtAccession": "About 23",
+      "cameToPower": "Crowned by the Sayyid brothers",
+      "reignEnded": "Died near Fatehpur Sikri",
+      "previously": "Rafi ud-Darajat dies. The Sayyids crown his elder brother.",
+      "paragraphs": [
+        "He was born Rafi-ud-Daulah, and he was about a year and a half older than his brother and no healthier. He was crowned in the Diwan-i-Khas of the Red Fort and took the name Shah Jahan II, borrowing the name of the great builder of the Taj Mahal. Nobody expected him to rule. The Sayyids wanted a living emperor to sign papers while they put down the revolt at Agra.",
+        "Husain Ali besieged Agra through the summer. In August the fort surrendered and the rival emperor, Neku Siyar, became a prisoner. Shah Jahan II travelled with the court towards Agra, getting weaker all the way. On 17 September 1719 he died at Bidyapur, near Fatehpur Sikri. He was the third emperor to die that year, and the Sayyids needed yet another one."
+      ],
+      "claims": [
+        {
+          "text": "The Sayyid brothers had Shah Jahan II poisoned.",
+          "status": "disputed",
+          "note": "The chronicler Kamwar Khan says so, but Irvine doubted it: the emperor was plainly ill, and the Sayyids gained little from his death."
+        },
+        {
+          "text": "Shah Jahan II was about eighteen months older than his brother Rafi ud-Darajat.",
+          "status": "confirmed",
+          "note": "Irvine gives this from the Persian chronicles; his exact birth date is not recorded."
+        }
+      ],
+      "hook": "Two dead emperors in four months. The Sayyids reach for another prince, a teenage grandson of Bahadur Shah. They think they have found the perfect puppet. They are wrong.",
+      "images": [
+        {
+          "file": "File:Shah Jahan II of India (2).jpg",
+          "url": "https://upload.wikimedia.org/wikipedia/commons/2/27/Shah_Jahan_II_of_India_%282%29.jpg",
+          "page": "https://commons.wikimedia.org/wiki/File:Shah_Jahan_II_of_India_(2).jpg",
+          "credit": "Unknown Punjabi artist",
+          "license": "Public domain",
+          "made": "c. 1840",
+          "caption": "Painted in the Punjab around 1840, about 120 years after his death; Victoria and Albert Museum.",
+          "alt": "Indian painting in opaque watercolour and gold showing the emperor Shah Jahan II"
+        }
+      ],
+      "sources": [
+        {
+          "title": "Later Mughals",
+          "author": "William Irvine",
+          "note": "Edited by Jadunath Sarkar, 2 vols, 1921–22"
+        },
+        {
+          "title": "Parties and Politics at the Mughal Court, 1707–1740",
+          "author": "Satish Chandra",
+          "note": "First published 1959"
+        },
+        {
+          "title": "Tazkirat us-Salatin Chaghta",
+          "author": "Muhammad Hadi Kamwar Khan",
+          "note": "Contemporary Persian chronicle; the poisoning charge"
         }
       ],
       "review": {
@@ -1018,7 +1288,7 @@
       "ageAtAccession": "17",
       "cameToPower": "Picked by the Sayyid brothers",
       "reignEnded": "Died in Delhi",
-      "previously": "Four emperors in 1719. The Sayyid kingmakers pick another teenager.",
+      "previously": "Shah Jahan II dies. The Sayyid kingmakers pick another teenager.",
       "paragraphs": [
         "The Sayyids thought young Roshan Akhtar would be easy to handle. Within a year Husain Ali was assassinated and Abdullah was beaten and locked up. But the empire was coming apart anyway. Nizam-ul-Mulk set up his own state in Hyderabad, Awadh and Bengal ran themselves, and in 1737 the Maratha general Baji Rao raided right up to the edge of Delhi.",
         "Then Nader Shah of Iran invaded. At Karnal in February 1739 he crushed the Mughal army, and he marched into Delhi. When a riot broke out against his troops, he ordered a massacre on 22 March. Most estimates put the dead at 20,000 to 30,000 in a single day. Nader left with the Peacock Throne and the Koh-i-Noor diamond, and put Muhammad Shah back on an empty throne.",
