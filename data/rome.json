@@ -1126,6 +1126,80 @@
         "circa": true
       },
       "causeOfDeath": "Unknown"
+    },
+    {
+      "id": "mark-antony",
+      "name": "Mark Antony",
+      "house": "triumvirate",
+      "born": {
+        "date": "-0083-01-14",
+        "note": "Rome; some sources prefer 86 BC"
+      },
+      "died": {
+        "date": "-0030-08-01",
+        "note": "Alexandria, Egypt"
+      },
+      "causeOfDeath": "Suicide; fell on his sword"
+    },
+    {
+      "id": "gordian-i",
+      "name": "Gordian I",
+      "house": "crisis",
+      "born": {
+        "date": "0159",
+        "circa": true
+      },
+      "died": {
+        "date": "0238",
+        "circa": true,
+        "note": "Carthage; April by the traditional dating, some put it in January"
+      },
+      "causeOfDeath": "Hanged himself after his son's death"
+    },
+    {
+      "id": "gordian-ii",
+      "name": "Gordian II",
+      "house": "crisis",
+      "born": {
+        "date": "0192",
+        "circa": true
+      },
+      "died": {
+        "date": "0238",
+        "circa": true,
+        "note": "Outside Carthage; April by the traditional dating, some put it in January"
+      },
+      "causeOfDeath": "Killed in battle"
+    },
+    {
+      "id": "pupienus",
+      "name": "Pupienus",
+      "house": "crisis",
+      "born": {
+        "date": "0178",
+        "circa": true,
+        "note": "Sources vary"
+      },
+      "died": {
+        "date": "0238-07-29",
+        "note": "Rome"
+      },
+      "causeOfDeath": "Killed by the Praetorian Guard"
+    },
+    {
+      "id": "balbinus",
+      "name": "Balbinus",
+      "house": "crisis",
+      "born": {
+        "date": "0178",
+        "circa": true,
+        "note": "Sources vary"
+      },
+      "died": {
+        "date": "0238-07-29",
+        "note": "Rome"
+      },
+      "causeOfDeath": "Killed by the Praetorian Guard"
     }
   ],
   "reigns": [
@@ -1170,7 +1244,7 @@
           "note": "Suetonius names the seer Spurinna and says the warning came weeks earlier. It's a good story told after the fact."
         }
       ],
-      "hook": "Caesar lies dead at the foot of Pompey's statue. The killers expect cheering crowds. Instead Rome erupts, and Caesar's will names a teenage great-nephew, Octavian, as his son and heir.",
+      "hook": "Caesar lies dead at the foot of Pompey's statue. The killers expect cheering crowds. Instead they get Mark Antony, Caesar's fellow consul, and a funeral that will set Rome on fire.",
       "images": [
         {
           "file": "File:Retrato de Julio César (26724093101).jpg",
@@ -1209,28 +1283,112 @@
       }
     },
     {
-      "id": "triumvirate",
-      "kind": "interregnum",
-      "title": "The Second Triumvirate",
+      "id": "mark-antony",
+      "kind": "leader",
+      "rulers": [
+        "mark-antony"
+      ],
       "house": "triumvirate",
-      "rulers": [],
-      "tagline": "Three men carve up the world, and only one gets to keep it",
+      "title": "Mark Antony",
+      "tagline": "Caesar's right-hand man grabs the wheel",
       "start": {
         "date": "-0044-03-15"
       },
       "end": {
-        "date": "-0027-01-16"
+        "date": "-0043-11-27"
       },
       "contestedWith": [],
-      "relationToPredecessor": "Caesar's heir and his right-hand men",
-      "ageAtAccession": "Octavian was 18",
-      "cameToPower": "Armies, a law and a hit list",
-      "reignEnded": "Octavian becomes Augustus",
+      "relationToPredecessor": "Caesar's fellow consul and deputy",
+      "ageAtAccession": "39",
+      "cameToPower": "Consul when Caesar was killed",
+      "reignEnded": "Forced into a three-way deal",
       "previously": "Caesar is stabbed to death in the Senate on the Ides of March, 44 BC.",
       "paragraphs": [
-        "Caesar's killers had no plan for the day after. Mark Antony, Caesar's deputy, stirred up the crowd at the funeral and the assassins fled Rome. Then a sickly 18-year-old turned up claiming to be Caesar's son. Octavian had the name, the money and the loyalty of Caesar's veterans. In 43 BC he, Antony and the general Lepidus formed a legal three-man dictatorship.",
-        "Their first act was a kill list. Hundreds of senators and rich men were hunted down, the orator Cicero among them. In 42 BC Antony and Octavian crushed Brutus and Cassius at Philippi, and both killers took their own lives. The partners split the empire. Lepidus was soon pushed aside. Antony took the East, and Cleopatra.",
-        "Octavian painted Antony as a Roman gone native, under the spell of a foreign queen. War came in 31 BC. At Actium, off western Greece, Octavian's admiral Agrippa won the sea battle and Antony and Cleopatra fled to Egypt. A year later both were dead by their own hands. Octavian was master of the Roman world, aged 32."
+        "On the Ides of March Antony was consul, the one man with real authority still standing. The killers spared him, and at first he played it calm, agreeing an amnesty with the Senate. Then came Caesar's funeral. Antony read out the will and stirred up the crowd, and Rome went wild. The mob burned the body in the Forum and went hunting for the assassins. Within weeks Brutus and Cassius had slipped out of the city.",
+        "Antony took charge of Caesar's papers and money, and looked set to inherit his power. Then an 18-year-old arrived from across the Adriatic calling himself Caesar. Octavian was Caesar's great-nephew and adopted son, and he wanted the money Caesar had left the people. Antony brushed him off. Octavian raised a private army from Caesar's veterans, and Cicero, in a run of furious speeches, turned the Senate against Antony.",
+        "In April 43 BC the Senate's armies, with Octavian's men alongside, beat Antony at Mutina in northern Italy. Both consuls died in the fighting, and Antony retreated over the Alps, where Lepidus and the governors of Gaul joined him. Octavian marched on Rome and made himself consul at 19. Then he switched sides. That autumn the three men met on a river island near Bononia (Bologna) and agreed to run the Roman world together."
+      ],
+      "claims": [
+        {
+          "text": "Antony's funeral speech began \"Friends, Romans, countrymen\".",
+          "status": "legend",
+          "note": "Those words are Shakespeare's. Suetonius says Antony added only a few words of his own; Appian and Plutarch give him a big emotional scene."
+        },
+        {
+          "text": "Cicero's speeches against Antony are called the Philippics, after Demosthenes' attacks on Philip of Macedon.",
+          "status": "confirmed",
+          "note": "Fourteen of them survive. Cicero chose the name himself, half as a joke."
+        },
+        {
+          "text": "On the retreat over the Alps Antony drank foul water and ate wild roots like his men.",
+          "status": "disputed",
+          "note": "Plutarch tells it, about 150 years later. He liked to show Antony at his best when things were at their worst."
+        }
+      ],
+      "hook": "Three men, one deal. Antony, Octavian and Lepidus are about to become a legal dictatorship, and their first job is to draw up a list of names. Cicero's is on it.",
+      "images": [
+        {
+          "file": "File:Roman coin , Denarius of Mark Antony (obverse) (FindID 620934).jpg",
+          "url": "https://upload.wikimedia.org/wikipedia/commons/8/8a/Roman_coin_%2C_Denarius_of_Mark_Antony_%28obverse%29_%28FindID_620934%29.jpg",
+          "page": "https://commons.wikimedia.org/wiki/File:Roman_coin_,_Denarius_of_Mark_Antony_(obverse)_(FindID_620934).jpg",
+          "credit": "Vincent Drost (Portable Antiquities Scheme)",
+          "license": "CC BY-SA 4.0",
+          "made": "c. 32 BC",
+          "caption": "A silver denarius with Antony's head, struck about ten years after these events and found in Britain.",
+          "alt": "Worn silver Roman coin showing the head of Mark Antony in profile"
+        }
+      ],
+      "sources": [
+        {
+          "title": "Life of Antony (Parallel Lives)",
+          "author": "Plutarch"
+        },
+        {
+          "title": "Philippics",
+          "author": "Cicero",
+          "note": "His speeches against Antony, 44 to 43 BC"
+        },
+        {
+          "title": "The Civil Wars",
+          "author": "Appian"
+        },
+        {
+          "title": "The Roman Revolution",
+          "author": "Ronald Syme",
+          "note": "Oxford University Press, 1939"
+        }
+      ],
+      "review": {
+        "status": "draft",
+        "notes": "Drafted from the listed sources; needs a human fact-check."
+      }
+    },
+    {
+      "id": "antony-and-octavian",
+      "kind": "leader",
+      "rulers": [
+        "mark-antony",
+        "augustus"
+      ],
+      "house": "triumvirate",
+      "title": "Antony & Octavian",
+      "tagline": "Two heirs of Caesar, one world, and no room to share it",
+      "start": {
+        "date": "-0043-11-27"
+      },
+      "end": {
+        "date": "-0030-08-01"
+      },
+      "contestedWith": [],
+      "relationToPredecessor": "Caesar's deputy and Caesar's heir",
+      "ageAtAccession": "39 and 20",
+      "cameToPower": "Lex Titia: five years of legal power",
+      "reignEnded": "Antony's suicide at Alexandria",
+      "previously": "Antony, Octavian and Lepidus agree to share power near Bononia.",
+      "paragraphs": [
+        "The Lex Titia of 27 November 43 BC made the three men triumvirs, with power to make laws and pick officials for five years. Their first act was a kill list. Hundreds of senators and rich men were proscribed, and their property paid the troops. Antony insisted on Cicero. On 7 December soldiers caught the old orator near his villa at Formiae and cut off his head and hands, which were put on show in the Forum.",
+        "In October 42 BC Antony and Octavian crushed Brutus and Cassius in two battles at Philippi in Greece, and both killers took their own lives. The partners split the empire. Antony took the rich East and in 41 BC summoned Cleopatra to Tarsus. She sailed up the river in a gilded barge. Octavian got Italy and the thankless job of settling veterans. Lepidus got Africa, and in 36 BC lost everything after a failed grab for Sicily.",
+        "Antony's Parthian war went badly, and at the Donations of Alexandria in 34 BC he handed out eastern lands to Cleopatra and her children. Octavian made sure Rome heard about it. In 32 BC he declared war on Cleopatra alone. At Actium, on 2 September 31 BC, Agrippa won the sea battle and the lovers fled to Egypt. When Octavian took Alexandria on 1 August 30 BC, Antony fell on his sword. Cleopatra died days later."
       ],
       "claims": [
         {
@@ -1239,30 +1397,30 @@
           "note": "Plutarch tells it but admits nobody knew the truth. Poison is just as likely; no snake was found."
         },
         {
+          "text": "Antony's will, seized by Octavian, asked for him to be buried in Alexandria beside Cleopatra.",
+          "status": "disputed",
+          "note": "Plutarch and Cassius Dio say Octavian took it from the Vestal Virgins and read it out. Some historians suspect he doctored it."
+        },
+        {
           "text": "Antony's wife Fulvia stabbed the dead Cicero's tongue with her hairpin.",
           "status": "legend",
           "note": "Only Cassius Dio tells this, about 250 years later. That Cicero's head and hands were shown in the Forum is well attested."
         }
       ],
-      "hook": "Octavian has won everything. Now he has to keep it without ending up like Caesar. His answer: give the Senate back its powers, and let a grateful Senate hand them all back to him.",
+      "hook": "Antony is dead and Lepidus is a has-been. Octavian, aged 32, is alone with the treasure of Egypt and every legion in the empire. One loose end is left: Cleopatra's teenage son by Julius Caesar.",
       "images": [
         {
-          "file": "File:Marcus Antonius marble bust in the Vatican Museums.jpg",
-          "url": "https://upload.wikimedia.org/wikipedia/commons/2/21/Marcus_Antonius_marble_bust_in_the_Vatican_Museums.jpg",
-          "page": "https://commons.wikimedia.org/wiki/File:Marcus_Antonius_marble_bust_in_the_Vatican_Museums.jpg",
-          "credit": "Ancient Roman artist; photo by Sergey Sosnovskiy",
+          "file": "File:Aureus of Antony & Octavian.jpg",
+          "url": "https://upload.wikimedia.org/wikipedia/commons/8/80/Aureus_of_Antony_%26_Octavian.jpg",
+          "page": "https://commons.wikimedia.org/wiki/File:Aureus_of_Antony_%26_Octavian.jpg",
+          "credit": "Numismatica Ars Classica (NAC)",
           "license": "Public domain",
-          "made": "AD 69–96",
-          "caption": "Mark Antony, in a bust carved around a century after his death.",
-          "alt": "Marble portrait bust of Mark Antony, a man with thick curly hair and a heavy jaw, in the Vatican Museums"
+          "made": "41 BC",
+          "caption": "A gold coin of 41 BC with Antony on one side and Octavian on the other, both styled triumvirs.",
+          "alt": "Both sides of a gold Roman coin: the bare head of Mark Antony and the bare head of Octavian, each in profile"
         }
       ],
       "sources": [
-        {
-          "title": "The Roman Revolution",
-          "author": "Ronald Syme",
-          "note": "Oxford University Press, 1939"
-        },
         {
           "title": "Life of Antony (Parallel Lives)",
           "author": "Plutarch"
@@ -1274,7 +1432,94 @@
         {
           "title": "Roman History",
           "author": "Cassius Dio",
-          "note": "Books 44 to 51"
+          "note": "Books 46 to 51"
+        },
+        {
+          "title": "Antony and Cleopatra",
+          "author": "Adrian Goldsworthy",
+          "note": "Yale University Press, 2010"
+        }
+      ],
+      "review": {
+        "status": "draft",
+        "notes": "Drafted from the listed sources; needs a human fact-check."
+      }
+    },
+    {
+      "id": "octavian",
+      "kind": "leader",
+      "rulers": [
+        "augustus"
+      ],
+      "house": "triumvirate",
+      "title": "Octavian, alone",
+      "tagline": "He won everything, then offered to give it all back",
+      "start": {
+        "date": "-0030-08-01"
+      },
+      "end": {
+        "date": "-0027-01-16"
+      },
+      "contestedWith": [],
+      "relationToPredecessor": "Antony's rival and ex-brother-in-law",
+      "ageAtAccession": "32",
+      "cameToPower": "Took Alexandria; Antony killed himself",
+      "reignEnded": "Renamed Augustus by the Senate",
+      "previously": "Antony falls on his sword as Octavian takes Alexandria.",
+      "paragraphs": [
+        "Octavian had won, but he moved carefully. Cleopatra was dead, and so was Caesarion, her 17-year-old son by Julius Caesar, killed on Octavian's orders. Egypt became a Roman province run by Octavian's own man, and senators needed his permission even to visit it. Its treasure paid off his soldiers and bought them land.",
+        "In August 29 BC he rode through Rome in a triple triumph, three days of parades for Illyricum, Actium and Egypt. The doors of the temple of Janus were shut, the sign that Rome was at peace, for only the third time in its history. He was consul every year and the armies answered to him alone. Everyone knew who was in charge. The question was what to call it.",
+        "Caesar had been murdered for looking like a king, and Octavian had learned the lesson. In January 27 BC he told the Senate he was handing the state back to the Senate and People of Rome. The senators begged him to stay on. He kindly agreed to keep a huge province, with most of the legions in it. On 16 January they voted him a new name: Augustus."
+      ],
+      "claims": [
+        {
+          "text": "A courtier talked him into killing Caesarion with a pun: \"Too many Caesars is no good.\"",
+          "status": "disputed",
+          "note": "Plutarch credits the line to the philosopher Arius. Caesarion's death is certain; the clever remark is hard to check."
+        },
+        {
+          "text": "Visiting Alexander the Great's tomb, he knocked a bit off the mummy's nose.",
+          "status": "legend",
+          "note": "Only Cassius Dio tells it, over 200 years later. Suetonius has him lay a crown and flowers on the body, and says nothing of a nose."
+        },
+        {
+          "text": "He shut the doors of the temple of Janus, closed only twice before in Rome's history.",
+          "status": "confirmed",
+          "note": "Augustus says so in his own Res Gestae, and Livy agrees about the two earlier closings."
+        }
+      ],
+      "hook": "Octavian has given everything back, and got it all returned with a new name. Augustus, \"the revered one\", now has to make a one-man state look like a republic for the next 40 years.",
+      "images": [
+        {
+          "file": "File:Augustus Bevilacqua Glyptothek Munich 317.jpg",
+          "url": "https://upload.wikimedia.org/wikipedia/commons/0/0b/Augustus_Bevilacqua_Glyptothek_Munich_317.jpg",
+          "page": "https://commons.wikimedia.org/wiki/File:Augustus_Bevilacqua_Glyptothek_Munich_317.jpg",
+          "credit": "Unknown Roman sculptor; photo by Bibi Saint-Pol",
+          "license": "Public domain",
+          "made": "Reign of Augustus",
+          "caption": "The so-called Bevilacqua bust in Munich, carved in his lifetime and showing him wearing the civic crown of oak leaves.",
+          "alt": "Marble bust of the young Augustus wearing a wreath of oak leaves, in the Glyptothek, Munich"
+        }
+      ],
+      "sources": [
+        {
+          "title": "Res Gestae Divi Augusti",
+          "author": "Augustus",
+          "note": "His own account of his achievements"
+        },
+        {
+          "title": "The Deified Augustus (Lives of the Caesars)",
+          "author": "Suetonius"
+        },
+        {
+          "title": "Roman History",
+          "author": "Cassius Dio",
+          "note": "Books 51 to 53"
+        },
+        {
+          "title": "Augustus: First Emperor of Rome",
+          "author": "Adrian Goldsworthy",
+          "note": "Yale University Press, 2014"
         }
       ],
       "review": {
@@ -1300,7 +1545,7 @@
       "ageAtAccession": "35",
       "cameToPower": "Won at Actium; Senate named him",
       "reignEnded": "Died in his bed at Nola",
-      "previously": "Antony and Cleopatra are dead. Octavian stands alone.",
+      "previously": "Octavian hands power back to the Senate, and is renamed Augustus.",
       "paragraphs": [
         "In January 27 BC the Senate gave Octavian a new name: Augustus, \"the revered one\". He never called himself king or emperor. He was just the first citizen, who happened to command most of the army and control the treasury. Rome was tired of civil war, and almost nobody complained.",
         "He ruled for over 40 years. He rebuilt temples, set up a fire brigade and a standing army, and pushed the frontiers to the Danube. Things went badly wrong in AD 9, when three legions under Varus were wiped out in the German forests. Augustus never tried to conquer Germany again.",
@@ -3308,7 +3553,8 @@
         "date": "0238-05"
       },
       "contestedWith": [
-        "year-of-six-emperors"
+        "gordian-i-and-ii",
+        "pupienus-and-balbinus"
       ],
       "relationToPredecessor": "None; a career soldier from Thrace",
       "ageAtAccession": "About 62",
@@ -3378,14 +3624,106 @@
       }
     },
     {
-      "id": "year-of-six-emperors",
-      "kind": "interregnum",
-      "title": "The Year of the Six Emperors",
+      "id": "gordian-i-and-ii",
+      "kind": "monarch",
+      "rulers": [
+        "gordian-i",
+        "gordian-ii"
+      ],
       "house": "crisis",
-      "rulers": [],
-      "tagline": "Six emperors, one year, and only a boy left standing",
+      "title": "Gordian I & Gordian II",
+      "tagline": "Emperor at nearly 80, and dead three weeks later",
       "start": {
-        "date": "0238-03"
+        "date": "0238-03",
+        "circa": true
+      },
+      "end": {
+        "date": "0238-04",
+        "circa": true
+      },
+      "contestedWith": [
+        "maximinus-thrax"
+      ],
+      "relationToPredecessor": "Governor of Africa and his son",
+      "ageAtAccession": "About 79 and 46",
+      "cameToPower": "Proclaimed by tax rebels in Africa",
+      "reignEnded": "Son killed in battle; father hanged",
+      "previously": "Maximinus's tax men squeeze the provinces until Africa snaps.",
+      "paragraphs": [
+        "Early in 238 young landowners near Thysdrus, in the province of Africa, had had enough of Maximinus's tax collector. They murdered him, and then needed a leader before Maximinus came for them. They picked the provincial governor, Gordian, a rich senator of nearly 80. He made his son, also called Gordian, his co-emperor and moved into Carthage.",
+        "In Rome the Senate jumped at the chance. It recognised the Gordians, declared Maximinus a public enemy, and had his praetorian prefect in the city killed. Provinces began to come over. But next door in Numidia sat Capelianus, who commanded the only legion in the region and had an old feud with Gordian. He stayed loyal to Maximinus and marched on Carthage.",
+        "Gordian II led out a big crowd of townsmen who had never fought. Capelianus's veterans cut them to pieces outside Carthage, and the young emperor died with them. When the news reached his father, the old man hanged himself with his belt. They had lasted about three weeks. The Senate was now at war with Maximinus, with no emperor of its own."
+      ],
+      "claims": [
+        {
+          "text": "Gordian I and II ruled for only about 20 days.",
+          "status": "confirmed",
+          "note": "Herodian and later writers agree it was a matter of weeks. When those weeks fell is argued: March to April is traditional, some say January."
+        },
+        {
+          "text": "Gordian I was descended from the Gracchi brothers on one side and the emperor Trajan on the other.",
+          "status": "legend",
+          "note": "Only the Historia Augusta says so, and this grand family tree looks like one of its many inventions."
+        },
+        {
+          "text": "Gordian II kept 22 concubines and a library of 62,000 books.",
+          "status": "legend",
+          "note": "Both figures come from the Historia Augusta, which loves a big number and is notoriously unreliable."
+        }
+      ],
+      "hook": "Both Gordians are dead and Maximinus is coming. The Senate has gone too far to back down. Behind closed doors, the senators choose two emperors from their own ranks.",
+      "images": [
+        {
+          "file": "File:Gordian I Musei Capitolini MC475.jpg",
+          "url": "https://upload.wikimedia.org/wikipedia/commons/0/0f/Gordian_I_Musei_Capitolini_MC475.jpg",
+          "page": "https://commons.wikimedia.org/wiki/File:Gordian_I_Musei_Capitolini_MC475.jpg",
+          "credit": "Unknown Roman sculptor; photo by Jastrow",
+          "license": "Public domain",
+          "made": "c. 220–230",
+          "caption": "A marble head in the Capitoline Museums identified as Gordian I, carved some years before he became emperor.",
+          "alt": "Marble portrait head of an older Roman man, identified as Gordian I"
+        }
+      ],
+      "sources": [
+        {
+          "title": "History of the Empire after Marcus, books 7–8",
+          "author": "Herodian",
+          "note": "A contemporary account of 238"
+        },
+        {
+          "title": "Historia Augusta: The Three Gordians",
+          "author": "Anonymous (late 4th century)",
+          "note": "Lively but notoriously unreliable; much of it is invented"
+        },
+        {
+          "title": "The Roman Empire at Bay, AD 180–395",
+          "author": "David S. Potter",
+          "note": "Routledge, 2004; 2nd ed. 2014"
+        },
+        {
+          "title": "The Cambridge Ancient History, Vol. XII: The Crisis of Empire, A.D. 193–337",
+          "author": "Alan K. Bowman, Peter Garnsey and Averil Cameron (eds)",
+          "note": "Cambridge University Press, 2005"
+        }
+      ],
+      "review": {
+        "status": "draft",
+        "notes": "Drafted from the listed sources; needs a human fact-check."
+      }
+    },
+    {
+      "id": "pupienus-and-balbinus",
+      "kind": "monarch",
+      "rulers": [
+        "pupienus",
+        "balbinus"
+      ],
+      "house": "crisis",
+      "title": "Pupienus & Balbinus",
+      "tagline": "Two old senators, one throne and a guard with a grudge",
+      "start": {
+        "date": "0238-04",
+        "circa": true
       },
       "end": {
         "date": "0238-07-29"
@@ -3393,53 +3731,54 @@
       "contestedWith": [
         "maximinus-thrax"
       ],
-      "relationToPredecessor": "Senate-backed rivals to Maximinus",
-      "ageAtAccession": "Gordian I about 79",
-      "cameToPower": "African revolt, then Senate's choice",
-      "reignEnded": "Guards murder Pupienus and Balbinus",
-      "previously": "Maximinus the soldier-emperor is dead, killed by his own men.",
+      "relationToPredecessor": "Senators chosen by their peers",
+      "ageAtAccession": "About 60 each",
+      "cameToPower": "Elected by the Senate",
+      "reignEnded": "Murdered by the Praetorian Guard",
+      "previously": "Gordian II dies in battle and his father hangs himself at Carthage.",
       "paragraphs": [
-        "It started in Africa in March 238. Rebels there forced the province's elderly governor, Gordian, to take the throne, with his son Gordian II as partner. The Senate cheered, recognised them, and declared Maximinus an enemy of the state. Then it all went wrong fast. Capelianus, governor of neighbouring Numidia, stayed loyal to Maximinus. He marched on Carthage, Gordian II died in the battle, and his father hanged himself. They had lasted about three weeks.",
-        "The Senate was now in deep trouble, so it picked two of its own as joint emperors: Pupienus, a hard old general, and Balbinus, a rich aristocrat. The Roman crowd hated the choice and rioted. To calm things down, the senators added the dead Gordian's 13-year-old grandson as junior emperor, with the title Caesar. Pupienus went north to face Maximinus, who was then killed by his own troops at Aquileia.",
-        "Victory should have saved them. It didn't. Pupienus and Balbinus couldn't stand each other, and the Praetorian Guard couldn't stand either of them. On 29 July 238 the guards burst into the palace, dragged the two old men through the streets, tortured them and killed them. Then they hailed the only emperor left: the boy, Gordian III."
+        "The Senate picked two of its own: Pupienus, a hard old general who had been prefect of the city, and Balbinus, a rich aristocrat from an old family. The Roman crowd hated the choice and blocked their way with stones and sticks. It wanted a Gordian. So the senators fetched the dead man's grandson, a boy of 13, and made him Caesar, the junior emperor. The crowd went home.",
+        "Pupienus marched north to face Maximinus, but he never had to fight him. Maximinus was stuck outside Aquileia, which shut its gates and held out. His hungry, fed-up soldiers killed him and his son in their tent and sent the heads to Rome. Back in the city, meanwhile, the Praetorian Guard and the mob had fought in the streets, and whole districts burned.",
+        "Victory should have saved them. It didn't. Pupienus came home with a German bodyguard, and the Praetorians saw insult everywhere. The two emperors couldn't stand each other either. On 29 July 238 the guards burst into the palace while the old men were quarrelling, dragged them through the streets, tortured them and killed them. Then they hailed the only emperor left: the boy, Gordian III."
       ],
       "claims": [
-        {
-          "text": "Gordian I was descended from the Gracchi brothers on one side and the emperor Trajan on the other.",
-          "status": "legend",
-          "note": "Only the Historia Augusta says so, and this grand family tree looks like one of its many inventions."
-        },
         {
           "text": "The guards caught Pupienus and Balbinus arguing, each suspecting the other of plotting.",
           "status": "confirmed",
           "note": "Herodian, writing within living memory, describes the quarrel that left them helpless when the guards broke in."
         },
         {
-          "text": "Gordian I and II ruled for only about 20 days.",
-          "status": "confirmed",
-          "note": "Herodian and later writers agree it was a matter of weeks, though the exact count varies."
+          "text": "Maximinus was killed outside Aquileia in May 238.",
+          "status": "disputed",
+          "note": "Herodian gives no dates. Modern estimates run from April to June, tied up with the argument over when the Gordians rose."
+        },
+        {
+          "text": "Pupienus was the son of a blacksmith.",
+          "status": "legend",
+          "note": "The Historia Augusta says a blacksmith or a cartwright, which sounds like guesswork. It is notoriously unreliable."
         }
       ],
       "hook": "A 13-year-old now sits on the throne, put there by the men who just murdered his colleagues. Someone grown-up will have to run things, and plenty of people want the job.",
       "images": [
         {
-          "file": "File:Pupienus Musei Capitolini MC477.jpg",
-          "url": "https://upload.wikimedia.org/wikipedia/commons/7/79/Pupienus_Musei_Capitolini_MC477.jpg",
-          "page": "https://commons.wikimedia.org/wiki/File:Pupienus_Musei_Capitolini_MC477.jpg",
-          "credit": "Unknown Roman sculptor",
-          "license": "Public domain",
-          "made": "238",
-          "caption": "A marble bust of Pupienus, carved in 238, the year he ruled.",
-          "alt": "Marble bust of the emperor Pupienus"
+          "file": "File:Balbinus Hermitage.jpg",
+          "url": "https://upload.wikimedia.org/wikipedia/commons/1/1e/Balbinus_Hermitage.jpg",
+          "page": "https://commons.wikimedia.org/wiki/File:Balbinus_Hermitage.jpg",
+          "credit": "George Shuklin",
+          "license": "CC BY 2.5",
+          "made": "3rd century",
+          "caption": "A marble bust of Balbinus, now in the Hermitage in St Petersburg.",
+          "alt": "Marble bust of the emperor Balbinus in the Hermitage Museum"
         }
       ],
       "sources": [
         {
           "title": "History of the Empire after Marcus, books 7–8",
-          "author": "Herodian"
+          "author": "Herodian",
+          "note": "A contemporary account of 238"
         },
         {
-          "title": "Historia Augusta: The Three Gordians; Maximus and Balbinus",
+          "title": "Historia Augusta: Maximus and Balbinus",
           "author": "Anonymous (late 4th century)",
           "note": "Lively but notoriously unreliable; much of it is invented"
         },
@@ -4402,31 +4741,32 @@
       }
     },
     {
-      "id": "carus",
+      "id": "carus-and-carinus",
       "kind": "monarch",
       "rulers": [
         "carus",
-        "carinus",
-        "numerian"
+        "carinus"
       ],
-      "tagline": "Struck down in Persia, maybe by lightning",
-      "title": "Carus and his sons",
+      "house": "crisis",
+      "title": "Carus & Carinus",
+      "tagline": "A family firm, a Persian war and a bolt from the sky",
       "start": {
         "date": "0282-09"
       },
       "end": {
-        "date": "0284-11-20"
+        "date": "0283-07",
+        "circa": true
       },
       "contestedWith": [],
       "relationToPredecessor": "Probus's praetorian prefect",
-      "ageAtAccession": "About 60",
+      "ageAtAccession": "Carus about 60",
       "cameToPower": "Proclaimed by the Raetian legions",
-      "reignEnded": "Family wiped out within three years",
+      "reignEnded": "Carus died beyond the Tigris",
       "previously": "Probus is killed by soldiers sick of planting vines.",
       "paragraphs": [
-        "Carus didn't bother asking the Senate. He made his sons Carinus and Numerian Caesars and turned the empire into a family business. Carinus stayed to guard the West. Carus took Numerian east and invaded Persia, which was in the middle of its own troubles. He took Ctesiphon, the Persian capital.",
-        "Then, in summer 283, Carus died in his tent. One story says lightning struck it. Numerian started the long march home. Along the way he travelled shut in a litter, said to be suffering from sore eyes.",
-        "In November 284 soldiers noticed a terrible smell. Numerian had been dead for days, and his father-in-law Aper, the praetorian prefect, had been hiding it. The army met at Nicomedia, picked an officer named Diocles, and he killed Aper with his own sword in front of them."
+        "Carus was Probus's praetorian prefect. In 282 the legions in Raetia hailed him emperor, and within weeks Probus was dead at the hands of his own men. Carus didn't wait for the Senate's blessing; he simply told it what had happened. He made his grown sons, Carinus and Numerian, Caesars, and turned the empire into a family business.",
+        "Carinus, the elder, was left to guard the West, and early in 283 his father raised him to Augustus, a full emperor. Carus took young Numerian east. On the way they beat the Sarmatians on the Danube. Then they invaded Persia, whose king, Bahram II, was busy with a rebellion of his own. The Romans marched down the Tigris and took the Persian capital, Ctesiphon.",
+        "Carus pushed on beyond the Tigris. In July or August 283, during a violent storm, he died in his tent. Some said lightning hit it. Others said illness, and some modern historians suspect murder. Either way, his two sons were now joint emperors, one at each end of the empire."
       ],
       "claims": [
         {
@@ -4435,22 +4775,22 @@
           "note": "Several late Roman writers report it. Others say illness, and some modern historians suspect murder."
         },
         {
-          "text": "Numerian's death was hidden until his body began to stink.",
-          "status": "disputed",
-          "note": "The tale is in Aurelius Victor and the Historia Augusta. The details may be embroidered, but the cover-up is widely accepted."
+          "text": "Fate had decreed that no Roman emperor could go beyond Ctesiphon, and Carus died for trying.",
+          "status": "legend",
+          "note": "The Historia Augusta says people believed this. It reads like an explanation invented after the fact, and later emperors went further."
         }
       ],
-      "hook": "The new emperor is Diocletian, a soldier of humble birth. First he must beat Carinus in the West. Then he'll decide this empire is too big for one man.",
+      "hook": "Carus is dead in the desert. His sons now share the empire: Carinus in the West, and Numerian with an army deep in Persia that badly wants to go home.",
       "images": [
         {
-          "file": "File:Monnaie - Aureus, Carus, Siscia - btv1b11344796d (1 of 2).jpg",
-          "url": "https://upload.wikimedia.org/wikipedia/commons/2/2e/Monnaie_-_Aureus%2C_Carus%2C_Siscia_-_btv1b11344796d_%281_of_2%29.jpg",
-          "page": "https://commons.wikimedia.org/wiki/File:Monnaie_-_Aureus,_Carus,_Siscia_-_btv1b11344796d_(1_of_2).jpg",
-          "credit": "Bibliothèque nationale de France",
-          "license": "Public domain",
-          "made": "282–283",
-          "caption": "A gold coin of Carus struck at the Siscia mint, now in the French national library.",
-          "alt": "Gold Roman coin showing the head of the emperor Carus"
+          "file": "File:Carinus bust.jpg",
+          "url": "https://upload.wikimedia.org/wikipedia/commons/b/b8/Carinus_bust.jpg",
+          "page": "https://commons.wikimedia.org/wiki/File:Carinus_bust.jpg",
+          "credit": "Jamie Heath",
+          "license": "CC BY-SA 2.0",
+          "made": "3rd century",
+          "caption": "A marble head thought to show Carinus, found in Rome during excavations for the Quirinal tunnel.",
+          "alt": "Marble portrait head of a Roman man thought to be the emperor Carinus"
         }
       ],
       "sources": [
@@ -4464,7 +4804,91 @@
         },
         {
           "title": "Historia Augusta, Lives of Carus, Carinus and Numerian",
-          "note": "Late Roman; often fanciful"
+          "author": "Anonymous (late 4th century)",
+          "note": "Lively but notoriously unreliable; much of it is invented"
+        },
+        {
+          "title": "The Roman Empire at Bay, AD 180–395",
+          "author": "David S. Potter",
+          "note": "Routledge, 2004"
+        }
+      ],
+      "review": {
+        "status": "draft",
+        "notes": "Drafted from the listed sources; needs a human fact-check."
+      }
+    },
+    {
+      "id": "carinus-and-numerian",
+      "kind": "monarch",
+      "rulers": [
+        "carinus",
+        "numerian"
+      ],
+      "house": "crisis",
+      "title": "Carinus & Numerian",
+      "tagline": "Two brothers, two halves and one very bad smell",
+      "start": {
+        "date": "0283-07",
+        "circa": true
+      },
+      "end": {
+        "date": "0284-11-20"
+      },
+      "contestedWith": [],
+      "relationToPredecessor": "Sons of Carus",
+      "ageAtAccession": "Young; not recorded",
+      "cameToPower": "Inherited from their father",
+      "reignEnded": "Numerian found dead in his litter",
+      "previously": "Carus dies in his tent beyond the Tigris, maybe struck by lightning.",
+      "paragraphs": [
+        "The brothers ruled as joint emperors, Carinus in the West and Numerian with the army in the East. Numerian gave up on Persia and led the army home, back up the Tigris and across Syria and Asia Minor. The real power on the march was his father-in-law, Aper, the praetorian prefect.",
+        "On the way Numerian fell ill, with sore eyes it was said, and travelled shut inside a closed litter. Aper passed on his orders. In November 284, near Nicomedia, the soldiers noticed a terrible smell coming from the litter. They pulled back the curtains and found the emperor dead, probably for some days. Aper was the obvious suspect.",
+        "The army met outside Nicomedia and chose a commander of the household guard named Diocles. On 20 November 284 he swore before the troops that he had no part in Numerian's death, then drew his sword and killed Aper with his own hand. In the West, Carinus refused to accept him. Their armies met by the river Margus in 285, and Carinus was killed by his own officers."
+      ],
+      "claims": [
+        {
+          "text": "Numerian's death was hidden until his body began to stink.",
+          "status": "disputed",
+          "note": "The tale is in Aurelius Victor and the Historia Augusta. The details may be embroidered, but the cover-up is widely accepted."
+        },
+        {
+          "text": "A Druid priestess had told Diocletian he would be emperor once he killed a boar. Aper means \"boar\".",
+          "status": "legend",
+          "note": "Only the Historia Augusta tells it, and it is notoriously unreliable. It's a neat pun, which is a warning sign."
+        },
+        {
+          "text": "Carinus married nine wives, divorcing several while they were pregnant.",
+          "status": "legend",
+          "note": "The Historia Augusta again. Writers loyal to Diocletian had every reason to blacken Carinus's name."
+        }
+      ],
+      "hook": "Diocles takes a grander name, Diocletian. The soldier of humble birth from Dalmatia will soon have the whole empire, and he's going to decide it's too big for one man.",
+      "images": [
+        {
+          "file": "File:Carinus und Numerianus - Münzkabinett, Berlin - 5521023.jpg",
+          "url": "https://upload.wikimedia.org/wikipedia/commons/5/59/Carinus_und_Numerianus_-_M%C3%BCnzkabinett%2C_Berlin_-_5521023.jpg",
+          "page": "https://commons.wikimedia.org/wiki/File:Carinus_und_Numerianus_-_M%C3%BCnzkabinett,_Berlin_-_5521023.jpg",
+          "credit": "Reinhard Saczewski (Münzkabinett, Staatliche Museen zu Berlin)",
+          "license": "Public domain",
+          "made": "283–284",
+          "caption": "A Roman coin of the brothers Carinus and Numerian, now in the Berlin coin cabinet.",
+          "alt": "Roman coin of Carinus and Numerian from the Berlin Münzkabinett"
+        }
+      ],
+      "sources": [
+        {
+          "title": "Liber de Caesaribus",
+          "author": "Aurelius Victor"
+        },
+        {
+          "title": "Breviarium",
+          "author": "Eutropius"
+        },
+        {
+          "title": "Historia Augusta, Lives of Carus, Carinus and Numerian",
+          "author": "Anonymous (late 4th century)",
+          "note": "Lively but notoriously unreliable; much of it is invented"
         },
         {
           "title": "The Roman Empire at Bay, AD 180–395",
@@ -4867,31 +5291,32 @@
       }
     },
     {
-      "id": "sons-of-constantine",
+      "id": "constantine-ii-and-constans",
       "kind": "monarch",
       "rulers": [
         "constantine-ii",
-        "constans",
-        "constantius-ii"
+        "constans"
       ],
-      "title": "The Sons of Constantine",
-      "tagline": "Three brothers, one empire, and a family bloodbath",
+      "house": "constantinian",
+      "title": "Constantine II & Constans",
+      "tagline": "Three brothers split the map, and the eldest wants more",
       "start": {
         "date": "0337-09-09"
       },
       "end": {
-        "date": "0350-01-18"
+        "date": "0340",
+        "circa": true
       },
       "contestedWith": [],
       "relationToPredecessor": "Sons of Constantine the Great",
-      "ageAtAccession": "Between 14 and 21",
+      "ageAtAccession": "About 21 and 14",
       "cameToPower": "Shared the empire after a purge",
-      "reignEnded": "Constans killed by Magnentius",
+      "reignEnded": "Constantine II killed in an ambush",
       "previously": "Constantine the Great dies in May 337, baptised on his deathbed.",
       "paragraphs": [
-        "Constantine left a crowded family, and that summer the army thinned it out. Soldiers in Constantinople murdered his two half-brothers and most of their sons, including the Caesar Dalmatius. Only two little boys were spared: Gallus and Julian. Then on 9 September 337 the three sons took the title Augustus and carved up the map. Constantine II got Gaul, Britain and Spain. Constans got Italy, Africa and the Balkans. Constantius II got the East.",
-        "Brotherly love lasted three years. Constantine II, the eldest, felt cheated and marched into Italy in 340. He rode straight into an ambush near Aquileia and was killed. Constans scooped up his lands and now ruled two-thirds of the empire, while Constantius spent years fighting Shapur II of Persia around the fortress of Nisibis.",
-        "Constans was a capable soldier who once crossed to Britain in the middle of winter. His officers still couldn't stand him. On 18 January 350, at a birthday banquet in Autun, a general named Magnentius walked out in the imperial purple. Constans ran for Spain. Horsemen caught him at Helena, near the Pyrenees, and killed him."
+        "Constantine left a crowded family, and that summer the army thinned it out. Soldiers in Constantinople murdered his two half-brothers and most of their sons, including the Caesar Dalmatius. Only two little boys were spared: Gallus and Julian. On 9 September 337 Constantine's three surviving sons each took the title Augustus.",
+        "They carved up the map. Constantine II, the eldest, took Gaul, Britain and Spain. Constans, aged about 14, got Italy, Africa and the Balkans. The middle brother, Constantius II, took the East, where he spent these years fighting Shapur II of Persia. Constantine II saw himself as the senior partner and expected his teenage brother to do as he was told.",
+        "Constans soon stopped listening. The two quarrelled over who controlled what, and early in 340 Constantine II marched into Italy while Constans was away in the Balkans. Near Aquileia he rode into an ambush laid by Constans's generals and was cut down. Constans, still only about 17, now ruled the whole West."
       ],
       "claims": [
         {
@@ -4900,34 +5325,37 @@
           "note": "Julian, who lost his father in it, blamed Constantius. Eutropius says he allowed it rather than ordered it. The troops may have acted first."
         },
         {
+          "text": "Constantine II's body was thrown into the river Alsa near Aquileia.",
+          "status": "disputed",
+          "note": "The Epitome de Caesaribus says so, writing about 60 years later. Other accounts just say he was killed near Aquileia."
+        },
+        {
           "text": "Constantine had been poisoned by his half-brothers and left a note naming them.",
           "status": "legend",
           "note": "Only the church historian Philostorgius tells it, about a century later. It looks like a cover story for the killings."
-        },
-        {
-          "text": "Constans sailed to Britain in the depths of winter in 343.",
-          "status": "confirmed",
-          "note": "Firmicus Maternus and Libanius both mention the winter Channel crossing; nobody knows quite why he went."
         }
       ],
-      "hook": "Constans is dead and a usurper holds the West. One son of Constantine is left, and he's on the Persian frontier. Constantius II turns his army round and heads west.",
+      "hook": "Constantine II is dead and Constans, still a teenager, rules two-thirds of the empire. In the East his brother Constantius is fighting Persia, and keeping a wary eye on him.",
       "images": [
         {
-          "file": "File:Colossal Portrait or Constantius II or Constans.jpg",
-          "url": "https://upload.wikimedia.org/wikipedia/commons/1/1f/Colossal_Portrait_or_Constantius_II_or_Constans.jpg",
-          "page": "https://commons.wikimedia.org/wiki/File:Colossal_Portrait_or_Constantius_II_or_Constans.jpg",
-          "credit": "Jamie Heath",
-          "license": "CC BY-SA 2.0",
-          "made": "4th century",
-          "caption": "A colossal marble head from the late Constantinian age; experts can't agree whether it shows Constantius II or Constans.",
-          "alt": "Huge marble head of a young late-Roman emperor, displayed in the Palazzo dei Conservatori, Rome"
+          "file": "File:Constantine II as Caesar.jpg",
+          "url": "https://upload.wikimedia.org/wikipedia/commons/e/e7/Constantine_II_as_Caesar.jpg",
+          "page": "https://commons.wikimedia.org/wiki/File:Constantine_II_as_Caesar.jpg",
+          "credit": "Classical Numismatic Group (CNG)",
+          "license": "CC BY-SA 2.5",
+          "made": "AD 335–336",
+          "caption": "A gold solidus of Constantine II, struck at Antioch shortly before his father died.",
+          "alt": "Both sides of a gold coin: a laureate bust of Constantine II, and the young prince standing in military dress with standards"
         }
       ],
       "sources": [
         {
-          "title": "Res Gestae (The Later Roman Empire)",
-          "author": "Ammianus Marcellinus",
-          "note": "The surviving books begin in 353; useful for looking back"
+          "title": "New History",
+          "author": "Zosimus"
+        },
+        {
+          "title": "Epitome de Caesaribus",
+          "author": "Anonymous (late 4th century)"
         },
         {
           "title": "The Cambridge Ancient History, vol. XIII: The Late Empire, A.D. 337–425",
@@ -4935,13 +5363,92 @@
           "note": "Cambridge University Press, 1998"
         },
         {
+          "title": "Athanasius and Constantius: Theology and Politics in the Constantinian Empire",
+          "author": "Timothy D. Barnes",
+          "note": "Harvard University Press, 1993"
+        }
+      ],
+      "review": {
+        "status": "draft",
+        "notes": "Drafted from the listed sources; needs a human fact-check."
+      }
+    },
+    {
+      "id": "constans-and-constantius-ii",
+      "kind": "monarch",
+      "rulers": [
+        "constans",
+        "constantius-ii"
+      ],
+      "house": "constantinian",
+      "title": "Constans & Constantius II",
+      "tagline": "Two brothers, two halves and one fatal birthday party",
+      "start": {
+        "date": "0340",
+        "circa": true
+      },
+      "end": {
+        "date": "0350-01-18"
+      },
+      "contestedWith": [],
+      "relationToPredecessor": "Younger brothers of Constantine II",
+      "ageAtAccession": "About 17 and 22",
+      "cameToPower": "Constans took his brother's lands",
+      "reignEnded": "Constans killed by Magnentius",
+      "previously": "Constantine II invades Italy and is killed in an ambush.",
+      "paragraphs": [
+        "Now there were two. Constans ruled the West, from Britain to Africa and the Balkans. Constantius held the East, and spent the 340s fighting Shapur II of Persia, who besieged the fortress city of Nisibis again and again. At Singara, in 344 or 348, the two armies fought a bloody battle that went on into the night and that neither side clearly won.",
+        "Constans was a capable soldier. In the winter of 343 he crossed the Channel to Britain, and nobody quite knows why. The brothers fell out over religion. Constans backed Athanasius, bishop of Alexandria, and the creed of Nicaea. Constantius favoured the bishops his enemies called Arians. Constans pushed hard, even hinting at war, and in 346 Constantius let Athanasius go home.",
+        "Constans grew unpopular with his army, who found him greedy and arrogant. On 18 January 350, at a birthday banquet in Autun, a general named Magnentius walked out in the imperial purple. Constans was away hunting. He fled for Spain with a handful of followers, but horsemen caught him at Helena, near the Pyrenees, and killed him."
+      ],
+      "claims": [
+        {
+          "text": "Constans sailed to Britain in the depths of winter in 343.",
+          "status": "confirmed",
+          "note": "Firmicus Maternus and Libanius both mention the winter Channel crossing; nobody knows quite why he went."
+        },
+        {
+          "text": "Magnentius was hailed at a birthday party thrown by the treasury chief Marcellinus.",
+          "status": "confirmed",
+          "note": "Zosimus gives the details. Other sources agree Magnentius was proclaimed at Autun in January 350."
+        },
+        {
+          "text": "Constans lost the army's loyalty partly through scandal over the young men at his court.",
+          "status": "disputed",
+          "note": "Aurelius Victor and Zosimus hint at it. Both are hostile, and the same charge was thrown at many unpopular rulers."
+        }
+      ],
+      "hook": "Constans is dead and a usurper holds the West. One son of Constantine is left, and he's on the Persian frontier. Constantius II turns his army round and heads west.",
+      "images": [
+        {
+          "file": "File:Head of Emperor Constans (r. 337–50) MET DP337519.jpg",
+          "url": "https://upload.wikimedia.org/wikipedia/commons/a/ac/Head_of_Emperor_Constans_%28r._337%E2%80%9350%29_MET_DP337519.jpg",
+          "page": "https://commons.wikimedia.org/wiki/File:Head_of_Emperor_Constans_(r._337%E2%80%9350)_MET_DP337519.jpg",
+          "credit": "The Metropolitan Museum of Art",
+          "license": "CC0",
+          "made": "c. 337–340",
+          "caption": "A crowned marble head in the Metropolitan Museum of Art, probably of Constans.",
+          "alt": "Classically styled marble head of a young emperor wearing a crown, probably Constans"
+        }
+      ],
+      "sources": [
+        {
           "title": "New History",
           "author": "Zosimus"
+        },
+        {
+          "title": "Liber de Caesaribus",
+          "author": "Aurelius Victor"
         },
         {
           "title": "Athanasius and Constantius: Theology and Politics in the Constantinian Empire",
           "author": "Timothy D. Barnes",
           "note": "Harvard University Press, 1993"
+        },
+        {
+          "title": "The Cambridge Ancient History, vol. XIII: The Late Empire, A.D. 337–425",
+          "author": "Averil Cameron and Peter Garnsey (eds)",
+          "note": "Cambridge University Press, 1998"
         }
       ],
       "review": {
