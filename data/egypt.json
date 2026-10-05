@@ -1366,6 +1366,66 @@
         "circa": true
       },
       "causeOfDeath": "Burned alive, says Manetho"
+    },
+    {
+      "id": "nerikare",
+      "name": "Nerikare",
+      "house": "dyn-13"
+    },
+    {
+      "id": "amenemhat-v",
+      "name": "Amenemhat V",
+      "house": "dyn-13"
+    },
+    {
+      "id": "sehetepibre",
+      "name": "Sehetepibre",
+      "house": "dyn-13"
+    },
+    {
+      "id": "sewadjkare",
+      "name": "Sewadjkare",
+      "house": "dyn-13"
+    },
+    {
+      "id": "nedjemibre",
+      "name": "Nedjemibre",
+      "house": "dyn-13"
+    },
+    {
+      "id": "renseneb",
+      "name": "Renseneb",
+      "house": "dyn-13"
+    },
+    {
+      "id": "khabaw",
+      "name": "Khabaw",
+      "house": "dyn-13"
+    },
+    {
+      "id": "djedkheperew",
+      "name": "Djedkheperew",
+      "house": "dyn-13"
+    },
+    {
+      "id": "intef-iv",
+      "name": "Intef IV",
+      "house": "dyn-13"
+    },
+    {
+      "id": "seth-meribre",
+      "name": "Meribre Seth",
+      "house": "dyn-13"
+    },
+    {
+      "id": "sihathor",
+      "name": "Sihathor",
+      "house": "dyn-13"
+    },
+    {
+      "id": "sobekhotep-v",
+      "name": "Sobekhotep V",
+      "house": "dyn-13"
     }
   ],
   "reigns": [
@@ -5445,7 +5505,7 @@
           "note": "It rests on reading his double name as 'son of Amenemhat'. Double names were also simply a fashion of the age."
         }
       ],
-      "hook": "After Sonbef the king list blurs: a Nerikare known from one Nile record, an Amenemhat V. Then comes Ameny Qemau, who at least leaves something solid behind: a pyramid.",
+      "hook": "After Sonbef comes Nerikare, a king so obscure that his name was misread for decades. One lost stela and one Nile flood mark are almost all he left.",
       "images": [
         {
           "file": "File:AmenemhatSenebefCylinderPetrie.png",
@@ -5482,6 +5542,155 @@
       }
     },
     {
+      "id": "nerikare",
+      "kind": "monarch",
+      "rulers": [
+        "nerikare"
+      ],
+      "tagline": "The king whose name was read as a duck",
+      "start": {
+        "date": "-1767",
+        "circa": true
+      },
+      "end": {
+        "date": "-1767",
+        "circa": true
+      },
+      "contestedWith": [],
+      "relationToPredecessor": "Not known to be related",
+      "ageAtAccession": "Unknown",
+      "cameToPower": "Followed Sonbef",
+      "reignEnded": "Gone within about a year",
+      "previously": "Sonbef's few years on the throne come to an end.",
+      "paragraphs": [
+        "Nerikare is a king who almost slipped out of history. The Turin king list has a gap where he should be. What survives is a stela dated to his first year, copied by the Prussian expedition of Karl Richard Lepsius in the 1840s and since lost, and a Nile flood mark cut into the rock at Semna in Nubia.",
+        "For years the Semna mark was read as a king 'Djefakare'. Kim Ryholt pointed out that the first sign is a vulture, not a duck, which turns the name into Nerikare. If he is right, Nerikare was the third king of the dynasty, and he probably lasted about a year. Flood marks like his stop soon after this, as if the frontier forts were no longer reporting home."
+      ],
+      "claims": [
+        {
+          "text": "Nerikare reigned for only about a year.",
+          "status": "disputed",
+          "note": "Ryholt's estimate. The Turin list gives 6 years for the gap where he probably sat, but Ryholt argues that figure was a scribe's filler for lost entries."
+        },
+        {
+          "text": "The Semna flood record names Nerikare, not a king 'Djefakare'.",
+          "status": "disputed",
+          "note": "Ryholt's rereading of one hieroglyph, accepted by Darrell Baker; the first editors read the name differently."
+        }
+      ],
+      "hook": "Next comes Amenemhat V, who left something much better than a flood mark: a fine stone statue of himself at the temple of Elephantine.",
+      "images": [
+        {
+          "file": "File:Stele of Nerikare.png",
+          "url": "https://upload.wikimedia.org/wikipedia/commons/b/b2/Stele_of_Nerikare.png",
+          "page": "https://commons.wikimedia.org/wiki/File:Stele_of_Nerikare.png",
+          "credit": "Karl Richard Lepsius",
+          "license": "Public domain",
+          "made": "Stela c. 1767 BC; drawing published 1897",
+          "caption": "Drawing of the text of Nerikare's year-1 stela, made for Lepsius's expedition; the stela itself is now lost. Not a portrait.",
+          "alt": "Black-and-white line drawing of a hieroglyphic inscription from a stela"
+        }
+      ],
+      "sources": [
+        {
+          "title": "The Political Situation in Egypt during the Second Intermediate Period, c. 1800-1550 B.C.",
+          "author": "K. S. B. Ryholt",
+          "note": "Museum Tusculanum Press, 1997; order and reign lengths of the 13th Dynasty"
+        },
+        {
+          "title": "The Encyclopedia of the Egyptian Pharaohs, Volume I: Predynastic to the Twentieth Dynasty",
+          "author": "Darrell D. Baker",
+          "note": "Bannerstone Press, 2008"
+        },
+        {
+          "title": "The Oxford History of Ancient Egypt",
+          "author": "Ian Shaw (ed.)",
+          "note": "Oxford University Press, 2000; the deck's dates"
+        }
+      ],
+      "review": {
+        "status": "draft",
+        "notes": "Drafted from the listed sources; needs a human fact-check."
+      }
+    },
+    {
+      "id": "amenemhat-v",
+      "kind": "monarch",
+      "rulers": [
+        "amenemhat-v"
+      ],
+      "tagline": "A king in two pieces, Vienna and Aswan",
+      "start": {
+        "date": "-1767",
+        "circa": true
+      },
+      "end": {
+        "date": "-1767",
+        "circa": true
+      },
+      "contestedWith": [],
+      "relationToPredecessor": "Not known to be related",
+      "ageAtAccession": "Unknown",
+      "cameToPower": "Followed Nerikare",
+      "reignEnded": "End unknown, after about 3 years",
+      "previously": "Nerikare is gone after about a year, known from one lost stela.",
+      "paragraphs": [
+        "Sekhemkare Amenemhat V is one of the few kings of this run whose face we can see. He dedicated a statue of himself to Satet, goddess of Elephantine at the first cataract. In the 19th century the head and shoulders turned up in the ruins of the shrine of Heqaib on the island and went to Vienna. The body, with his names carved on it, was found in 1932 and is in the Aswan Museum.",
+        "A papyrus from Lahun dated to year 3 of a king Sekhemkare may be his, and the Turin list gives an Amenemhat 3 years. The catch is Sonbef, two cards back, who used the same throne name, Sekhemkare. Some scholars think the two are one man. In Ryholt's order, used here, they are separate kings, and Amenemhat V's family may have held on to the crown after him."
+      ],
+      "claims": [
+        {
+          "text": "Amenemhat V and Sonbef were different kings.",
+          "status": "disputed",
+          "note": "Ryholt, von Beckerath and Baker keep them apart. Detlef Franke and Stephen Quirke think 'Amenemhat Sonbef' was simply one king's double name."
+        },
+        {
+          "text": "He reigned about 3 years.",
+          "status": "disputed",
+          "note": "Based on a Turin king list entry for an Amenemhat with 3 years and a Lahun papyrus dated to year 3 of Sekhemkare; neither certainly belongs to him."
+        },
+        {
+          "text": "The statue from Elephantine shows Amenemhat V.",
+          "status": "confirmed",
+          "note": "The inscription on the body in Aswan names Sekhemkare Amenemhat, beloved of Satet, lady of Elephantine."
+        }
+      ],
+      "hook": "His successor, Ameny Qemau, carries the short form of Amenemhat inside his own name. Was he Amenemhat V's son? He at least leaves a pyramid.",
+      "images": [
+        {
+          "file": "File:Amenemhat V.jpg",
+          "url": "https://upload.wikimedia.org/wikipedia/commons/5/5a/Amenemhat_V.jpg",
+          "page": "https://commons.wikimedia.org/wiki/File:Amenemhat_V.jpg",
+          "credit": "Juan R. Lazaro",
+          "license": "CC BY 2.0",
+          "made": "c. 1767 BC",
+          "caption": "Green stone statue of Amenemhat V from Elephantine, upper part in Vienna; kings were shown in a fixed royal style, not as true likenesses.",
+          "alt": "Stone statue of an Egyptian king from Elephantine, wearing the royal headcloth"
+        }
+      ],
+      "sources": [
+        {
+          "title": "The Political Situation in Egypt during the Second Intermediate Period, c. 1800-1550 B.C.",
+          "author": "K. S. B. Ryholt",
+          "note": "Museum Tusculanum Press, 1997; order and reign lengths of the 13th Dynasty"
+        },
+        {
+          "title": "The Encyclopedia of the Egyptian Pharaohs, Volume I: Predynastic to the Twentieth Dynasty",
+          "author": "Darrell D. Baker",
+          "note": "Bannerstone Press, 2008"
+        },
+        {
+          "title": "The Oxford History of Ancient Egypt",
+          "author": "Ian Shaw (ed.)",
+          "note": "Oxford University Press, 2000; the deck's dates"
+        }
+      ],
+      "review": {
+        "status": "draft",
+        "notes": "Drafted from the listed sources; needs a human fact-check."
+      }
+    },
+    {
       "id": "ameny-qemau",
       "kind": "monarch",
       "rulers": [
@@ -5500,7 +5709,7 @@
       "ageAtAccession": "Unknown",
       "cameToPower": "Succeeded Amenemhat V",
       "reignEnded": "Unknown; reigned about 2 years",
-      "previously": "Sonbef, Nerikare and Amenemhat V come and go in quick succession.",
+      "previously": "Amenemhat V dies, leaving his statue at Elephantine.",
       "paragraphs": [
         "Ameny Qemau is one of the few 13th Dynasty kings whose tomb we can point to. In 1957 the explorer Charles Muses dug into a ruined pyramid at southern Dahshur, near the great pyramids of the 12th Dynasty. Its upper parts had long been stripped for stone, but inside were pieces of canopic jars, the containers for a mummy's organs, carved with the name of King Ameny Qemau.",
         "Beyond the pyramid we know very little. His double name may mean 'Qemau, son of Ameny', and Ameny was a short form of Amenemhat, so he may have been a son of Amenemhat V. Even a reign of two years was enough to start a pyramid, which shows the royal workshops near the capital were still running smoothly."
@@ -5734,7 +5943,7 @@
           "note": "A theory proposed by Stephen Quirke to explain the short reigns. No ancient text describes such a system; coups and early deaths are other explanations."
         }
       ],
-      "hook": "Three more kings pass in a blur, one of them for just seven months. Then a Sobekhotep takes the throne, and he at least leaves his name in stone at Abydos.",
+      "hook": "Next comes Sehetepibre, whose name turns up on a seal made for the ruler of Byblos, far away on the coast of Lebanon.",
       "images": [
         {
           "file": "File:Stele Nebnuni by Khruner.jpg",
@@ -5770,6 +5979,222 @@
       }
     },
     {
+      "id": "sehetepibre",
+      "kind": "monarch",
+      "rulers": [
+        "sehetepibre"
+      ],
+      "tagline": "His seal went all the way to Byblos",
+      "start": {
+        "date": "-1759",
+        "circa": true
+      },
+      "end": {
+        "date": "-1759",
+        "circa": true
+      },
+      "contestedWith": [],
+      "relationToPredecessor": "Not known to be related",
+      "ageAtAccession": "Unknown",
+      "cameToPower": "Followed Nebnuni",
+      "reignEnded": "End unknown, after about 2 years",
+      "previously": "Nebnuni is gone after a couple of years. The queue moves on.",
+      "paragraphs": [
+        "Sehetepibre took the Horus name Sewesekhtawy, 'he who enlarges the Two Lands', which was a bold claim for a king who lasted about two years. The Turin list names two kings called Sehetepibre in this dynasty, and scholars argue over which is which. Ryholt thinks one of them is a copying slip, which makes this king the tenth of the dynasty.",
+        "His best traces are far from home. A stela bearing his names was found at Gebel Zeit on the Red Sea coast, where Egyptians mined galena for black eye paint. A lapis lazuli cylinder seal in the Metropolitan Museum carries his name, a prayer to 'Hathor, lady of Byblos', and, in cuneiform, the name of Yakin-Ilu, a ruler of Byblos. Egypt's kings were still worth knowing on the Lebanese coast."
+      ],
+      "claims": [
+        {
+          "text": "The cylinder seal shows Sehetepibre was in contact with the rulers of Byblos.",
+          "status": "confirmed",
+          "note": "The Met seal pairs his cartouche with the name of Yakin-Ilu of Byblos in cuneiform; how the seal was used is unknown."
+        },
+        {
+          "text": "He was the tenth king of the dynasty and reigned about 2 years.",
+          "status": "disputed",
+          "note": "Ryholt's reconstruction of the Turin list. Franke and von Beckerath put him fifth."
+        }
+      ],
+      "hook": "Next comes Sewadjkare, a king so fleeting that only a few days of his reign survive in the Turin list.",
+      "images": [
+        {
+          "file": "File:Cylinder Sehetepibre by Khruner.jpg",
+          "url": "https://upload.wikimedia.org/wikipedia/commons/6/6a/Cylinder_Sehetepibre_by_Khruner.jpg",
+          "page": "https://commons.wikimedia.org/wiki/File:Cylinder_Sehetepibre_by_Khruner.jpg",
+          "credit": "Khruner",
+          "license": "CC BY-SA 4.0",
+          "made": "Seal c. 1759 BC; drawing 2015",
+          "caption": "Modern drawing of the lapis lazuli cylinder seal naming Sehetepibre and a ruler of Byblos, now in the Met; not a portrait.",
+          "alt": "Line drawing of a cylinder seal with hieroglyphs and a cuneiform inscription"
+        }
+      ],
+      "sources": [
+        {
+          "title": "The Political Situation in Egypt during the Second Intermediate Period, c. 1800-1550 B.C.",
+          "author": "K. S. B. Ryholt",
+          "note": "Museum Tusculanum Press, 1997; order and reign lengths of the 13th Dynasty"
+        },
+        {
+          "title": "The Encyclopedia of the Egyptian Pharaohs, Volume I: Predynastic to the Twentieth Dynasty",
+          "author": "Darrell D. Baker",
+          "note": "Bannerstone Press, 2008"
+        },
+        {
+          "title": "The Oxford History of Ancient Egypt",
+          "author": "Ian Shaw (ed.)",
+          "note": "Oxford University Press, 2000; the deck's dates"
+        }
+      ],
+      "review": {
+        "status": "draft",
+        "notes": "Drafted from the listed sources; needs a human fact-check."
+      }
+    },
+    {
+      "id": "sewadjkare",
+      "kind": "monarch",
+      "rulers": [
+        "sewadjkare"
+      ],
+      "tagline": "A king who exists in one line of papyrus",
+      "start": {
+        "date": "-1759",
+        "circa": true
+      },
+      "end": {
+        "date": "-1759",
+        "circa": true
+      },
+      "contestedWith": [],
+      "relationToPredecessor": "Not known to be related",
+      "ageAtAccession": "Unknown",
+      "cameToPower": "Followed Sehetepibre",
+      "reignEnded": "Gone within months",
+      "previously": "Sehetepibre dies after about two years.",
+      "paragraphs": [
+        "Sewadjkare is a name and nothing more. No statue, no seal, no stela of his has ever been found. All we have is one line in the Turin king list, a papyrus copied some 500 years later under the Ramesside kings. Even there the length of his reign has crumbled away, leaving only part of the figure for the days.",
+        "A king who left nothing behind was probably not on the throne long. In this stretch of the dynasty that was normal: the crown changed hands every year or two, and the government of viziers and scribes carried on beneath it. Two later kings used the same throne name, including Hori near the end of the dynasty, so he is sometimes called Sewadjkare I."
+      ],
+      "claims": [
+        {
+          "text": "Sewadjkare reigned only a short time, perhaps weeks or months.",
+          "status": "disputed",
+          "note": "Ryholt's estimate from the space left in the damaged Turin entry; only part of the days figure survives."
+        },
+        {
+          "text": "He is known only from the Turin king list.",
+          "status": "confirmed",
+          "note": "No contemporary object with his name has been identified."
+        }
+      ],
+      "hook": "Then comes Nedjemibre, whose name means something like 'pleasing of heart to Ra'. The Turin list gives him seven months.",
+      "images": [
+        {
+          "file": "File:Turin King List, papyrus - Museo Egizio Turin C 1874 p03.jpg",
+          "url": "https://upload.wikimedia.org/wikipedia/commons/a/a5/Turin_King_List%2C_papyrus_-_Museo_Egizio_Turin_C_1874_p03.jpg",
+          "page": "https://commons.wikimedia.org/wiki/File:Turin_King_List,_papyrus_-_Museo_Egizio_Turin_C_1874_p03.jpg",
+          "credit": "Museo Egizio",
+          "license": "CC0",
+          "made": "c. 1250 BC",
+          "caption": "The Turin king list in the Museo Egizio, written about 500 years after his reign and the only record of his name; not a portrait.",
+          "alt": "Fragments of an ancient papyrus with columns of handwritten hieratic script"
+        }
+      ],
+      "sources": [
+        {
+          "title": "The Political Situation in Egypt during the Second Intermediate Period, c. 1800-1550 B.C.",
+          "author": "K. S. B. Ryholt",
+          "note": "Museum Tusculanum Press, 1997; order and reign lengths of the 13th Dynasty"
+        },
+        {
+          "title": "The Oxford History of Ancient Egypt",
+          "author": "Ian Shaw (ed.)",
+          "note": "Oxford University Press, 2000; the deck's dates"
+        },
+        {
+          "title": "The Complete Royal Families of Ancient Egypt",
+          "author": "Aidan Dodson and Dyan Hilton",
+          "note": "Thames & Hudson, 2004"
+        }
+      ],
+      "review": {
+        "status": "draft",
+        "notes": "Drafted from the listed sources; needs a human fact-check."
+      }
+    },
+    {
+      "id": "nedjemibre",
+      "kind": "monarch",
+      "rulers": [
+        "nedjemibre"
+      ],
+      "tagline": "Seven months, then a Sobekhotep moves in",
+      "start": {
+        "date": "-1759",
+        "circa": true
+      },
+      "end": {
+        "date": "-1759",
+        "circa": true
+      },
+      "contestedWith": [],
+      "relationToPredecessor": "Not known to be related",
+      "ageAtAccession": "Unknown",
+      "cameToPower": "Followed Sewadjkare",
+      "reignEnded": "Replaced after 7 months",
+      "previously": "Sewadjkare comes and goes, leaving only a line in the king list.",
+      "paragraphs": [
+        "Nedjemibre is another king we know only from the Turin list, and there he gets seven months and some lost days. His birth name is unknown. Some have wondered if it was Amenemhat, which would make him the father of the later king Renseneb, but nothing proves it.",
+        "What happened next is the interesting part. The king who followed him, Khaankhre Sobekhotep, is well attested but never names his parents. In an age when kings' sons liked to say whose sons they were, that silence suggests a man not born royal. Kim Ryholt thinks Sobekhotep pushed Nedjemibre aside and took the throne for himself."
+      ],
+      "claims": [
+        {
+          "text": "Nedjemibre reigned 7 months.",
+          "status": "disputed",
+          "note": "The figure comes from the Turin king list, copied centuries later; there is no other record of him."
+        },
+        {
+          "text": "His successor Sobekhotep II seized the throne from him.",
+          "status": "disputed",
+          "note": "Ryholt's inference from Sobekhotep's silence about his parents; there is no record of a coup."
+        }
+      ],
+      "hook": "The next king is a Sobekhotep with no royal father to boast of. He still finds the means to build at Abydos.",
+      "images": [
+        {
+          "file": "File:TurinKingList 6-7.png",
+          "url": "https://upload.wikimedia.org/wikipedia/commons/c/cc/TurinKingList_6-7.png",
+          "page": "https://commons.wikimedia.org/wiki/File:TurinKingList_6-7.png",
+          "credit": "PLstrom; derivative work by JMCC1",
+          "license": "Public domain",
+          "made": "Papyrus c. 1250 BC; modern drawing",
+          "caption": "Modern drawing of two columns of the Turin king list, which includes the 13th Dynasty kings; not a portrait.",
+          "alt": "Line drawing of papyrus fragments with columns of hieratic signs"
+        }
+      ],
+      "sources": [
+        {
+          "title": "The Political Situation in Egypt during the Second Intermediate Period, c. 1800-1550 B.C.",
+          "author": "K. S. B. Ryholt",
+          "note": "Museum Tusculanum Press, 1997; order and reign lengths of the 13th Dynasty"
+        },
+        {
+          "title": "The Oxford History of Ancient Egypt",
+          "author": "Ian Shaw (ed.)",
+          "note": "Oxford University Press, 2000; the deck's dates"
+        },
+        {
+          "title": "The Complete Royal Families of Ancient Egypt",
+          "author": "Aidan Dodson and Dyan Hilton",
+          "note": "Thames & Hudson, 2004"
+        }
+      ],
+      "review": {
+        "status": "draft",
+        "notes": "Drafted from the listed sources; needs a human fact-check."
+      }
+    },
+    {
       "id": "sobekhotep-ii",
       "kind": "monarch",
       "rulers": [
@@ -5789,7 +6214,7 @@
       "ageAtAccession": "Unknown",
       "cameToPower": "Followed the 7-month king Nedjemibre",
       "reignEnded": "End unknown, after about 2 years",
-      "previously": "Three kings come and go in a few years, one of them in seven months.",
+      "previously": "Nedjemibre is gone after seven months. A Sobekhotep moves in.",
       "paragraphs": [
         "His throne name was Khaankhre, and his birth name honoured Sobek, the crocodile god of the Faiyum. Plenty of 13th Dynasty kings had the same idea, which makes them a headache to tell apart. Scholars number the Sobekhoteps differently. In Kim Ryholt's scheme, used here, this one is Sobekhotep II, but older books may give him a different number.",
         "He left more than his neighbours in the list did. Carved blocks with his names have turned up at Abydos, the holy city of Osiris, where every king liked to be seen building. Abydos mattered more than ever in this age: making the pilgrimage and setting up a stela by the god's processional road was what every official hoped for. How long he ruled and how his reign ended, nobody knows."
@@ -5806,7 +6231,7 @@
           "note": "Architectural pieces carved with his names come from Abydos; how big the building was is unclear."
         }
       ],
-      "hook": "The next king, Renseneb, lasts four months. After him comes Hor, a king who would barely be remembered if his tomb had not been found with a wooden double inside.",
+      "hook": "The next king, Renseneb, lasts just four months. His only trace outside the king list is a glazed bead, last seen in a Cairo antiques shop in 1929.",
       "images": [
         {
           "file": "File:Sobekhotep II.jpg",
@@ -5834,6 +6259,78 @@
           "title": "The Complete Royal Families of Ancient Egypt",
           "author": "Aidan Dodson and Dyan Hilton",
           "note": "Thames & Hudson, 2004"
+        }
+      ],
+      "review": {
+        "status": "draft",
+        "notes": "Drafted from the listed sources; needs a human fact-check."
+      }
+    },
+    {
+      "id": "renseneb",
+      "kind": "monarch",
+      "rulers": [
+        "renseneb"
+      ],
+      "tagline": "Four months on the throne and one lost bead",
+      "start": {
+        "date": "-1757",
+        "circa": true
+      },
+      "end": {
+        "date": "-1757",
+        "circa": true
+      },
+      "contestedWith": [],
+      "relationToPredecessor": "Perhaps son of a king Amenemhat",
+      "ageAtAccession": "Unknown",
+      "cameToPower": "Followed Sobekhotep II",
+      "reignEnded": "Gone after 4 months",
+      "previously": "Sobekhotep II dies after about two years.",
+      "paragraphs": [
+        "Renseneb's name means 'my name is healthy', which did him little good: the Turin list gives him a reign of four months. His throne name is unknown. Apart from the king list, one object survived, a glazed steatite bead reading 'Renseneb Amenemhat, given life'. Percy Newberry saw it in a Cairo antiques shop in 1929, and it has not been seen since.",
+        "Kim Ryholt reads the bead as 'Renseneb, son of Amenemhat', which would make him a king's son taking his turn. Others read it simply as a double name. Either way, he did not last. The king after him, Hor, never mentions a royal father either, and Ryholt suspects another takeover."
+      ],
+      "claims": [
+        {
+          "text": "Renseneb reigned four months.",
+          "status": "disputed",
+          "note": "From the Turin king list, copied centuries later; no dated document from his reign survives."
+        },
+        {
+          "text": "Renseneb was the son of a king Amenemhat.",
+          "status": "disputed",
+          "note": "Ryholt's reading of the double name on the lost bead; Stephen Quirke and others do not accept it."
+        }
+      ],
+      "hook": "Hor follows him and is king only a few months too. But Hor is about to become one of the most famous faces of the whole dynasty.",
+      "images": [
+        {
+          "file": "File:Turin King List, papyrus - Museo Egizio Turin C 1874 p04.jpg",
+          "url": "https://upload.wikimedia.org/wikipedia/commons/0/00/Turin_King_List%2C_papyrus_-_Museo_Egizio_Turin_C_1874_p04.jpg",
+          "page": "https://commons.wikimedia.org/wiki/File:Turin_King_List,_papyrus_-_Museo_Egizio_Turin_C_1874_p04.jpg",
+          "credit": "Museo Egizio",
+          "license": "CC0",
+          "made": "c. 1250 BC",
+          "caption": "The Turin king list in the Museo Egizio, which gives Renseneb his four months; not a portrait.",
+          "alt": "Fragments of an ancient papyrus with columns of handwritten hieratic script"
+        }
+      ],
+      "sources": [
+        {
+          "title": "The Political Situation in Egypt during the Second Intermediate Period, c. 1800-1550 B.C.",
+          "author": "K. S. B. Ryholt",
+          "note": "Museum Tusculanum Press, 1997; order and reign lengths of the 13th Dynasty"
+        },
+        {
+          "title": "The Encyclopedia of the Egyptian Pharaohs, Volume I: Predynastic to the Twentieth Dynasty",
+          "author": "Darrell D. Baker",
+          "note": "Bannerstone Press, 2008"
+        },
+        {
+          "title": "The Oxford History of Ancient Egypt",
+          "author": "Ian Shaw (ed.)",
+          "note": "Oxford University Press, 2000; the deck's dates"
         }
       ],
       "review": {
@@ -5883,7 +6380,7 @@
           "note": "Jacques de Morgan's excavation report on Dahshur, 1894; the statue is in the Egyptian Museum, Cairo."
         }
       ],
-      "hook": "After Hor the list goes murky: a few kings known only from seals. Then an Amenemhat takes the throne, and his name may carry his father's name inside it.",
+      "hook": "Hor's son may already be at his side. Khabaw, whose name is carved next to Hor's on a granite beam, takes the throne next.",
       "images": [
         {
           "file": "File:Statue of the ka of Awibra Hor from Dahshur, 13th Dynasty, first half of 17th century BCE; Egyptian Museum, Cairo (1).jpg",
@@ -5919,6 +6416,155 @@
       }
     },
     {
+      "id": "khabaw",
+      "kind": "monarch",
+      "rulers": [
+        "khabaw"
+      ],
+      "tagline": "Hor's son, carved in granite beside him",
+      "start": {
+        "date": "-1755",
+        "circa": true
+      },
+      "end": {
+        "date": "-1755",
+        "circa": true
+      },
+      "contestedWith": [],
+      "relationToPredecessor": "Probably son of Hor",
+      "ageAtAccession": "Unknown",
+      "cameToPower": "Succeeded his father Hor",
+      "reignEnded": "End unknown, after 1-2 years",
+      "previously": "Hor dies after a few months and is buried at Dahshur.",
+      "paragraphs": [
+        "The Turin list skips him, but Sekhemrekhutawy Khabaw left more behind than most kings around him. Two granite architraves carry his names, one found at Bubastis in 1891 and now in the British Museum, the other at Tanis, where his name stands beside Hor's. Both were probably carved for buildings at Memphis and dragged north by later kings.",
+        "His seals turn up at the Nubian fortresses of Uronarti and Mirgissa, so the frontier garrisons still took orders from him. The pairing with Hor led Ryholt and Darrell Baker to suggest he was Hor's son, perhaps crowned while Hor was still alive. That would make him one of the few kings in this dynasty to follow his own father."
+      ],
+      "claims": [
+        {
+          "text": "Khabaw was Hor's son and perhaps his co-ruler.",
+          "status": "disputed",
+          "note": "Ryholt and Baker's reading of the Tanis architrave that names both kings; no text calls Khabaw Hor's son."
+        },
+        {
+          "text": "His name dropped out of the Turin list because its source was already damaged.",
+          "status": "disputed",
+          "note": "Ryholt argues the Ramesside copyist found a gap marked 'missing' where Khabaw should be."
+        }
+      ],
+      "hook": "Next comes another of Hor's sons, Djedkheperew. His name will end up on a black stone statue of the god Osiris lying on his bier.",
+      "images": [
+        {
+          "file": "File:Khabaw.png",
+          "url": "https://upload.wikimedia.org/wikipedia/commons/d/d3/Khabaw.png",
+          "page": "https://commons.wikimedia.org/wiki/File:Khabaw.png",
+          "credit": "Wallis Budge",
+          "license": "Public domain",
+          "made": "Architrave c. 1755 BC; drawing 1914",
+          "caption": "Budge's 1914 drawing of a granite architrave from Bubastis with Khabaw's names, now in the British Museum; not a portrait.",
+          "alt": "Line drawing of a broken stone beam carved with hieroglyphs"
+        }
+      ],
+      "sources": [
+        {
+          "title": "The Political Situation in Egypt during the Second Intermediate Period, c. 1800-1550 B.C.",
+          "author": "K. S. B. Ryholt",
+          "note": "Museum Tusculanum Press, 1997; order and reign lengths of the 13th Dynasty"
+        },
+        {
+          "title": "The Encyclopedia of the Egyptian Pharaohs, Volume I: Predynastic to the Twentieth Dynasty",
+          "author": "Darrell D. Baker",
+          "note": "Bannerstone Press, 2008"
+        },
+        {
+          "title": "The Oxford History of Ancient Egypt",
+          "author": "Ian Shaw (ed.)",
+          "note": "Oxford University Press, 2000; the deck's dates"
+        }
+      ],
+      "review": {
+        "status": "draft",
+        "notes": "Drafted from the listed sources; needs a human fact-check."
+      }
+    },
+    {
+      "id": "djedkheperew",
+      "kind": "monarch",
+      "rulers": [
+        "djedkheperew"
+      ],
+      "tagline": "His name on the bed of Osiris, half scratched out",
+      "start": {
+        "date": "-1755",
+        "circa": true
+      },
+      "end": {
+        "date": "-1755",
+        "circa": true
+      },
+      "contestedWith": [],
+      "relationToPredecessor": "Probably Khabaw's brother",
+      "ageAtAccession": "Unknown",
+      "cameToPower": "Succeeded his brother Khabaw",
+      "reignEnded": "End unknown, after about 2 years",
+      "previously": "Khabaw dies after a year or two.",
+      "paragraphs": [
+        "Djedkheperew is known by his Horus name; his throne and birth names are lost. Eleven of his seal impressions were found at the Nubian forts of Uronarti and Mirgissa, lying with Khabaw's. His great monument is the 'Bed of Osiris', a black stone sculpture of the god lying on a lion-headed bier, found in the 1st Dynasty tomb of Djer at Abydos, which Egyptians by then believed was the tomb of Osiris himself.",
+        "Someone later scratched out his birth name on it, carelessly, and the traces seem to begin with the name Hor. Ryholt takes that as a sign that he called himself Hor's son, making him Khabaw's brother and successor. The sculpture was long credited to King Khendjer before closer study of the inscription. It is now in the Egyptian Museum in Cairo."
+      ],
+      "claims": [
+        {
+          "text": "The Bed of Osiris was made for Djedkheperew.",
+          "status": "disputed",
+          "note": "Anthony Leahy once attributed it to Khendjer; later study of the erased inscription points to Djedkheperew."
+        },
+        {
+          "text": "He was a son of Hor and brother of Khabaw.",
+          "status": "disputed",
+          "note": "Ryholt's inference from the erased name and from seals found together at Uronarti."
+        }
+      ],
+      "hook": "After Djedkheperew the line of Hor's sons fades out. The next king, Amenemhat VII, may carry yet another father's name inside his own.",
+      "images": [
+        {
+          "file": "File:OsirisBed.jpg",
+          "url": "https://upload.wikimedia.org/wikipedia/commons/8/86/OsirisBed.jpg",
+          "page": "https://commons.wikimedia.org/wiki/File:OsirisBed.jpg",
+          "credit": "Juan R. Lazaro",
+          "license": "CC BY-SA 3.0",
+          "made": "c. 1755 BC",
+          "caption": "The Bed of Osiris from the tomb of Djer at Abydos, now in Cairo, carved with Djedkheperew's name; not a portrait.",
+          "alt": "Black stone sculpture of the god Osiris lying on a bier shaped like a lion"
+        }
+      ],
+      "sources": [
+        {
+          "title": "The Political Situation in Egypt during the Second Intermediate Period, c. 1800-1550 B.C.",
+          "author": "K. S. B. Ryholt",
+          "note": "Museum Tusculanum Press, 1997; order and reign lengths of the 13th Dynasty"
+        },
+        {
+          "title": "The Encyclopedia of the Egyptian Pharaohs, Volume I: Predynastic to the Twentieth Dynasty",
+          "author": "Darrell D. Baker",
+          "note": "Bannerstone Press, 2008"
+        },
+        {
+          "title": "The Osiris 'Bed' Reconsidered",
+          "author": "Anthony Leahy",
+          "note": "Orientalia 46, 1977"
+        },
+        {
+          "title": "The Oxford History of Ancient Egypt",
+          "author": "Ian Shaw (ed.)",
+          "note": "Oxford University Press, 2000; the deck's dates"
+        }
+      ],
+      "review": {
+        "status": "draft",
+        "notes": "Drafted from the listed sources; needs a human fact-check."
+      }
+    },
+    {
       "id": "amenemhat-vii",
       "kind": "monarch",
       "rulers": [
@@ -5938,7 +6584,7 @@
       "ageAtAccession": "Unknown",
       "cameToPower": "Followed kings known only from seals",
       "reignEnded": "End unknown, after about 2 years",
-      "previously": "Hor dies. A few kings known only from their seals follow him.",
+      "previously": "Djedkheperew dies, his name later scratched off Osiris's bed.",
       "paragraphs": [
         "His full name was Sedjefakare Kay-Amenemhat, and that double birth name is the puzzle. Kim Ryholt argues that names like this were family labels, meaning something like 'Amenemhat, son of Kay'. If he is right, the king's father was a man called Kay, perhaps one of the shadowy kings just before him. Several 13th Dynasty kings may have used the trick to show that royal blood did run in their veins.",
         "He left a few real monuments, which is more than many of his neighbours managed. Inscribed pieces with his name come from temples in the south. They are short and formal and tell us nothing about the man. His reign lasted a couple of years at most, and then the crown moved on to a king the ancient list had filed somewhere else entirely."
@@ -6181,7 +6827,7 @@
           "note": "The added inscriptions are on the two colossi from Tanis, now in the Egyptian Museum, Cairo."
         }
       ],
-      "hook": "Two more brief kings, Intef IV and Seth, follow him. Then the crown goes to a man whose parents were commoners, and who is happy to say so.",
+      "hook": "Next comes Intef IV. The Turin list measured his reign, but the years and months are torn away. Only three days survive.",
       "images": [
         {
           "file": "File:Ägyptisches Museum Kairo 2019-11-09 Emramescha 01.jpg",
@@ -6217,6 +6863,155 @@
       }
     },
     {
+      "id": "intef-iv",
+      "kind": "monarch",
+      "rulers": [
+        "intef-iv"
+      ],
+      "tagline": "Only the last three days of his reign survive",
+      "start": {
+        "date": "-1744",
+        "circa": true
+      },
+      "end": {
+        "date": "-1744",
+        "circa": true
+      },
+      "contestedWith": [],
+      "relationToPredecessor": "Not known to be related",
+      "ageAtAccession": "Unknown",
+      "cameToPower": "Followed Imyremeshaw",
+      "reignEnded": "Probably pushed aside by Seth",
+      "previously": "Imyremeshaw dies, his statues later hauled north to Tanis.",
+      "paragraphs": [
+        "Sehetepkare Intef took a name famous from the old Theban kings who had fought their way to power three centuries before. The Turin list includes him, but the years and months of his reign are torn away; only '3 days' is left. In the Faiyum, the lower half of a seated statue of him was found in the temple of the harvest goddess Renenutet at Medinet Madi.",
+        "A palace account from this time, Papyrus Boulaq 18, describes a royal household with a queen named Aya, a prince Redienef, three daughters and ten of the king's sisters. Ryholt thinks the king was either Intef or his predecessor Imyremeshaw. Intef's reign ended under a cloud: his successor Seth never named a royal father, and both Ryholt and von Beckerath think Seth seized the throne."
+      ],
+      "claims": [
+        {
+          "text": "Intef reigned less than ten years.",
+          "status": "disputed",
+          "note": "Ryholt gives about 10 years in all to Imyremeshaw, Intef and Seth together; Intef's own figure is lost in the Turin list."
+        },
+        {
+          "text": "His successor Seth usurped the throne.",
+          "status": "disputed",
+          "note": "Inferred from Seth's lack of a royal father's name; no text describes what happened."
+        }
+      ],
+      "hook": "The man who takes Intef's place is named after Seth, the god of chaos and storms. His reign leaves almost nothing but six days in the king list.",
+      "images": [
+        {
+          "file": "File:Hotepkare cylinder Petrie.png",
+          "url": "https://upload.wikimedia.org/wikipedia/commons/b/b4/Hotepkare_cylinder_Petrie.png",
+          "page": "https://commons.wikimedia.org/wiki/File:Hotepkare_cylinder_Petrie.png",
+          "credit": "Flinders Petrie",
+          "license": "Public domain",
+          "made": "Seal c. 1744 BC; drawing published 1917",
+          "caption": "Petrie's drawing of a cylinder seal naming a King Hotepkare, probably Intef; the match is not certain. Not a portrait.",
+          "alt": "Line drawing of a cylinder seal with a royal cartouche in hieroglyphs"
+        }
+      ],
+      "sources": [
+        {
+          "title": "The Political Situation in Egypt during the Second Intermediate Period, c. 1800-1550 B.C.",
+          "author": "K. S. B. Ryholt",
+          "note": "Museum Tusculanum Press, 1997; order and reign lengths of the 13th Dynasty"
+        },
+        {
+          "title": "The Complete Royal Families of Ancient Egypt",
+          "author": "Aidan Dodson and Dyan Hilton",
+          "note": "Thames & Hudson, 2004"
+        },
+        {
+          "title": "The Oxford History of Ancient Egypt",
+          "author": "Ian Shaw (ed.)",
+          "note": "Oxford University Press, 2000; the deck's dates"
+        }
+      ],
+      "review": {
+        "status": "draft",
+        "notes": "Drafted from the listed sources; needs a human fact-check."
+      }
+    },
+    {
+      "id": "seth-meribre",
+      "kind": "monarch",
+      "rulers": [
+        "seth-meribre"
+      ],
+      "tagline": "A king named after the god of chaos",
+      "start": {
+        "date": "-1744",
+        "circa": true
+      },
+      "end": {
+        "date": "-1744",
+        "circa": true
+      },
+      "contestedWith": [],
+      "relationToPredecessor": "Not known to be related",
+      "ageAtAccession": "Unknown",
+      "cameToPower": "Probably seized the throne",
+      "reignEnded": "End unknown, within 5 years",
+      "previously": "Intef IV's reign ends, perhaps not by his own choice.",
+      "paragraphs": [
+        "Meribre Seth carried the name of Seth, god of storms, deserts and disorder, and the murderer of Osiris in myth. It was a rare choice for a king. The Turin list records him, but all that remains of his reign length is '6 days'. He never named a royal father, which is why scholars think he took the crown from Intef rather than inheriting it.",
+        "No object is certainly his. Ryholt thinks a stela at Abydos, later taken over by Neferhotep I, was first carved for Seth, and that his successor Sobekhotep III recarved some of his building blocks at Medamud near Thebes. Von Beckerath even tracked him down in a much later family tree, where the scribe swapped the Seth sign for a donkey. If so, Seth's name was still being dodged a thousand years later."
+      ],
+      "claims": [
+        {
+          "text": "Seth reigned less than five years.",
+          "status": "disputed",
+          "note": "Ryholt's estimate from the 10 years he gives Imyremeshaw, Intef and Seth together; only '6 days' survives in the Turin list."
+        },
+        {
+          "text": "Sobekhotep III recarved Seth's monuments at Medamud.",
+          "status": "disputed",
+          "note": "Rests on almost erased signs on blocks from Medamud; the evidence is weak."
+        },
+        {
+          "text": "The king 'Aaqen' in a 22nd Dynasty genealogy is Seth.",
+          "status": "disputed",
+          "note": "Von Beckerath's idea that a donkey sign replaced the hated Seth animal; it remains a guess."
+        }
+      ],
+      "hook": "Seth vanishes. The next king is the son of a commoner and a commoner's wife, and he is not ashamed to carve their names on his seals.",
+      "images": [
+        {
+          "file": "File:GD-FR-LouvreEG134.JPG",
+          "url": "https://upload.wikimedia.org/wikipedia/commons/f/f7/GD-FR-LouvreEG134.JPG",
+          "page": "https://commons.wikimedia.org/wiki/File:GD-FR-LouvreEG134.JPG",
+          "credit": "Néfermaât (Gérard Ducher)",
+          "license": "CC BY-SA 2.5",
+          "made": "c. 1744 BC",
+          "caption": "A block from Medamud in the Louvre with Sobekhotep III's cartouche, which may have been carved over Seth's name; not a portrait.",
+          "alt": "Carved stone block with a royal cartouche in hieroglyphs"
+        }
+      ],
+      "sources": [
+        {
+          "title": "The Political Situation in Egypt during the Second Intermediate Period, c. 1800-1550 B.C.",
+          "author": "K. S. B. Ryholt",
+          "note": "Museum Tusculanum Press, 1997; order and reign lengths of the 13th Dynasty"
+        },
+        {
+          "title": "The Encyclopedia of the Egyptian Pharaohs, Volume I: Predynastic to the Twentieth Dynasty",
+          "author": "Darrell D. Baker",
+          "note": "Bannerstone Press, 2008"
+        },
+        {
+          "title": "The Oxford History of Ancient Egypt",
+          "author": "Ian Shaw (ed.)",
+          "note": "Oxford University Press, 2000; the deck's dates"
+        }
+      ],
+      "review": {
+        "status": "draft",
+        "notes": "Drafted from the listed sources; needs a human fact-check."
+      }
+    },
+    {
       "id": "sobekhotep-iii",
       "kind": "monarch",
       "rulers": [
@@ -6236,7 +7031,7 @@
       "ageAtAccession": "Unknown",
       "cameToPower": "Followed King Seth; not born royal",
       "reignEnded": "End unknown, after about 4 years",
-      "previously": "Two short-lived kings, Intef IV and Seth, come and go.",
+      "previously": "Meribre Seth's short reign ends; nobody knows how.",
       "paragraphs": [
         "Most kings liked to pretend they were born to rule. Sekhemre Sewadjtawy Sobekhotep did the opposite. On his monuments he named his father Mentuhotep, a man with no royal title, and his mother Iuhetibu, and gave room to his wife and daughters as well. Rock inscriptions in the far south show the family together. He came from the ruling class, not the royal family, and he was proud of it.",
         "His reign, about four years by the Turin list, also gives a rare look inside ordinary homes. A papyrus now in the Brooklyn Museum lists the servants of one household, and dozens of them have Asiatic names: people from Canaan and Syria, some given Egyptian names alongside their own. This was the slow migration that would end, within a century, with foreign kings ruling the north."
@@ -6331,7 +7126,7 @@
           "note": "Sihathor appears with royal names, but whether he ever really reigned, even as a junior partner, is uncertain."
         }
       ],
-      "hook": "Sobekhotep IV, the third brother, takes over. He says he was born in Thebes, and he has his eye on Nubia.",
+      "hook": "Next in the Turin list comes his brother Sihathor, a king for a few months at most. Did he ever rule alone, or only at Neferhotep's side?",
       "images": [
         {
           "file": "File:King Neferhotep, Abydos, Egypt, Middle Kingdom, Dynasty 13, reign of Neferhotep, c. 1750 BC, quartzite - Oriental Institute Museum, University of Chicago - DSC07792.JPG",
@@ -6372,6 +7167,83 @@
       }
     },
     {
+      "id": "sihathor",
+      "kind": "monarch",
+      "rulers": [
+        "sihathor"
+      ],
+      "tagline": "The middle brother who was king for months",
+      "start": {
+        "date": "-1729",
+        "circa": true
+      },
+      "end": {
+        "date": "-1729",
+        "circa": true
+      },
+      "contestedWith": [],
+      "relationToPredecessor": "Younger brother of Neferhotep I",
+      "ageAtAccession": "Unknown",
+      "cameToPower": "Named king beside his brother",
+      "reignEnded": "Died young, months into his reign",
+      "previously": "Neferhotep I has ruled for about eleven years.",
+      "paragraphs": [
+        "Sihathor was one of three brothers who held the crown: Neferhotep I, Sihathor and Sobekhotep IV, sons of Haankhef and Kemi. Rock inscriptions on the islands of Philae and Sehel, carved for Neferhotep, show him in the family group. On two statues at the shrine of Heqaib on Elephantine he is only a 'king's son'. On a cylinder seal in the Petrie Museum he is king.",
+        "The Turin list places him right after Neferhotep with a reign of a few months, but the months themselves are lost. Most scholars think he was made co-king beside his brother and died first, never ruling alone. Josef Wegner's digs at Abydos found an unfinished royal tomb wedged between the great tombs of the other two brothers. It may well be his."
+      ],
+      "claims": [
+        {
+          "text": "Sihathor ruled only as Neferhotep's co-king and died before him.",
+          "status": "disputed",
+          "note": "The usual view, from his place in the Turin list and the later statue that calls him only 'king's son'; Ryholt and others weigh it differently."
+        },
+        {
+          "text": "The unfinished tomb between tombs S9 and S10 at Abydos was his.",
+          "status": "disputed",
+          "note": "Wegner's suggestion, based on its position between the tombs thought to belong to his brothers."
+        },
+        {
+          "text": "He was the son of Haankhef and Kemi.",
+          "status": "confirmed",
+          "note": "Neferhotep I's rock inscriptions at Philae and Sehel name the family."
+        }
+      ],
+      "hook": "With Sihathor and then Neferhotep dead, the crown passes to the last brother, Sobekhotep IV, who says he was born in Thebes.",
+      "images": [
+        {
+          "file": "File:Turiner2.png",
+          "url": "https://upload.wikimedia.org/wikipedia/commons/1/1a/Turiner2.png",
+          "page": "https://commons.wikimedia.org/wiki/File:Turiner2.png",
+          "credit": "Nephiliskos",
+          "license": "CC BY-SA 3.0 de",
+          "made": "Papyrus c. 1250 BC; modern drawing",
+          "caption": "Modern drawing of the end of a 13th Dynasty column of the Turin king list, where Sihathor's name appears; not a portrait.",
+          "alt": "Drawing of a papyrus fragment with lines of hieratic signs listing kings"
+        }
+      ],
+      "sources": [
+        {
+          "title": "The Political Situation in Egypt during the Second Intermediate Period, c. 1800-1550 B.C.",
+          "author": "K. S. B. Ryholt",
+          "note": "Museum Tusculanum Press, 1997; order and reign lengths of the 13th Dynasty"
+        },
+        {
+          "title": "The Complete Royal Families of Ancient Egypt",
+          "author": "Aidan Dodson and Dyan Hilton",
+          "note": "Thames & Hudson, 2004"
+        },
+        {
+          "title": "The Oxford History of Ancient Egypt",
+          "author": "Ian Shaw (ed.)",
+          "note": "Oxford University Press, 2000; the deck's dates"
+        }
+      ],
+      "review": {
+        "status": "draft",
+        "notes": "Drafted from the listed sources; needs a human fact-check."
+      }
+    },
+    {
       "id": "sobekhotep-iv",
       "kind": "monarch",
       "rulers": [
@@ -6391,7 +7263,7 @@
       "ageAtAccession": "Unknown",
       "cameToPower": "Succeeded his brother",
       "reignEnded": "End unknown, after about 10 years",
-      "previously": "Neferhotep I dies after eleven years. His brother steps up.",
+      "previously": "Neferhotep I and his brother Sihathor are dead. The third steps up.",
       "paragraphs": [
         "Khaneferre Sobekhotep was the third of the brothers, after Neferhotep I and the short-lived Sihathor, and he kept the family's run going. A stela he set up at Karnak tells of his birth in Thebes and lists his gifts to the temple of Amun. He reigned about a decade, long enough to leave statues and inscriptions across the country.",
         "Big granite statues of him were later carried to Tanis in the Delta, and some now sit in the Louvre, proof he could still command serious work from the quarries. Broken inscriptions hint at a war in Nubia, where the kingdom of Kush was growing stronger. After him the dynasty's grip began to slip, and the north drifted out of reach."
@@ -6408,7 +7280,7 @@
           "note": "Fragmentary inscriptions from Karnak seem to mention it, but the texts are too broken to be sure."
         }
       ],
-      "hook": "His son, Sobekhotep V, may have ruled briefly. Then comes yet another Sobekhotep, whose reign the Turin list measures down to the day.",
+      "hook": "His son, Merhotepre Sobekhotep V, takes the throne. His mother's name on his seals is what tells him apart from all the other Sobekhoteps.",
       "images": [
         {
           "file": "File:Khânéferrê Sobekhotep - Musée du Louvre Antiquités égyptiennes N 17 ; A 17.jpg",
@@ -6449,6 +7321,83 @@
       }
     },
     {
+      "id": "sobekhotep-v",
+      "kind": "monarch",
+      "rulers": [
+        "sobekhotep-v"
+      ],
+      "tagline": "The Sobekhotep we know by his mother's name",
+      "start": {
+        "date": "-1719",
+        "circa": true
+      },
+      "end": {
+        "date": "-1719",
+        "circa": true
+      },
+      "contestedWith": [],
+      "relationToPredecessor": "Perhaps son of Sobekhotep IV",
+      "ageAtAccession": "Unknown",
+      "cameToPower": "Followed Sobekhotep IV",
+      "reignEnded": "End unknown, after about 3 years",
+      "previously": "Sobekhotep IV dies after about ten years on the throne.",
+      "paragraphs": [
+        "Merhotepre Sobekhotep's place in the Turin list is lost in a hole in the papyrus, right below Sobekhotep IV. He gives himself away on his seals. Like the three brothers before him, he named his parents on them, and his mother was the king's mother Nubhotepti. That sets him apart from the other Sobekhoteps, and suggests he may have been Sobekhotep IV's son.",
+        "His monuments cluster around Thebes. A seated granodiorite statue in Cairo carries both his royal names, and a striding statue comes from Karnak. A legal stela from Thebes quotes a decree of a year 1 of 'Merhotepre', probably him. Older books merge him with a later king, Merhotepre Ini, who had the same throne name, and call him Sobekhotep VI."
+      ],
+      "claims": [
+        {
+          "text": "Merhotepre Sobekhotep and Merhotepre Ini were two different kings.",
+          "status": "disputed",
+          "note": "Ryholt separates them, placing Sobekhotep in the lost line after Sobekhotep IV; Franke and von Beckerath thought they were one king."
+        },
+        {
+          "text": "He reigned about 3 years.",
+          "status": "disputed",
+          "note": "Ryholt's estimate; the Turin entry is lost."
+        },
+        {
+          "text": "His mother was named Nubhotepti.",
+          "status": "confirmed",
+          "note": "Seals naming a King Sobekhotep with the king's mother Nubhotepti; Ryholt assigns them to him."
+        }
+      ],
+      "hook": "After him comes another Sobekhotep, Khahotepre, whose reign the Turin list measures down to the day.",
+      "images": [
+        {
+          "file": "File:Statue of Merhotepre Sobekhotep V.jpg",
+          "url": "https://upload.wikimedia.org/wikipedia/commons/9/9c/Statue_of_Merhotepre_Sobekhotep_V.jpg",
+          "page": "https://commons.wikimedia.org/wiki/File:Statue_of_Merhotepre_Sobekhotep_V.jpg",
+          "credit": "D. Denisenkov (ddenisen)",
+          "license": "CC BY-SA 2.0",
+          "made": "c. 1719 BC",
+          "caption": "Seated granodiorite statue of Merhotepre Sobekhotep from the Cairo Museum, shown on tour; an idealised royal image, not a true likeness.",
+          "alt": "Dark stone statue of a seated Egyptian king, with his names carved on the throne"
+        }
+      ],
+      "sources": [
+        {
+          "title": "The Political Situation in Egypt during the Second Intermediate Period, c. 1800-1550 B.C.",
+          "author": "K. S. B. Ryholt",
+          "note": "Museum Tusculanum Press, 1997; order and reign lengths of the 13th Dynasty"
+        },
+        {
+          "title": "The Encyclopedia of the Egyptian Pharaohs, Volume I: Predynastic to the Twentieth Dynasty",
+          "author": "Darrell D. Baker",
+          "note": "Bannerstone Press, 2008"
+        },
+        {
+          "title": "The Oxford History of Ancient Egypt",
+          "author": "Ian Shaw (ed.)",
+          "note": "Oxford University Press, 2000; the deck's dates"
+        }
+      ],
+      "review": {
+        "status": "draft",
+        "notes": "Drafted from the listed sources; needs a human fact-check."
+      }
+    },
+    {
       "id": "sobekhotep-vi",
       "kind": "monarch",
       "rulers": [
@@ -6468,7 +7417,7 @@
       "ageAtAccession": "Unknown",
       "cameToPower": "Followed the short-lived Sobekhotep V",
       "reignEnded": "End unknown, after nearly 5 years",
-      "previously": "Sobekhotep IV's long reign ends; a short-lived Sobekhotep V follows.",
+      "previously": "Sobekhotep V dies after about three years.",
       "paragraphs": [
         "Khahotepre Sobekhotep is one of those kings we know mostly by a number. The Turin list gives him four years, eight months and 29 days, which shows how carefully the scribes kept count even when they lost track of almost everything else. Scarabs and seals with his name, a kneeling statue now in Berlin and a few mentions on officials' monuments are about all he left behind.",
         "Kim Ryholt numbers him Sobekhotep VI; other books call him Sobekhotep V. By his time the dynasty was ruling a shrinking kingdom. In the eastern Delta, the rulers of the 14th Dynasty ran their own affairs from Avaris, and the Canaanite families settled there were growing in number and in wealth."
@@ -7115,6 +8064,18 @@
         {
           "name": "Senusret IV, Dedumose I and II",
           "note": "Known from a few stelae and inscriptions in the south; some put them in the 16th Dynasty"
+        },
+        {
+          "name": "Iufni",
+          "start": {
+            "date": "-1763",
+            "circa": true
+          },
+          "note": "Earlier king (c. 1763 BC, after Qemau Siharnedjheritef); known only from a Turin list entry with no reign length"
+        },
+        {
+          "name": "Sebkay",
+          "note": "Earlier king known from one ivory wand from Abydos; perhaps Senebkay or two kings; no reign can be dated"
         }
       ]
     },
