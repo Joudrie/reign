@@ -9,12 +9,6 @@
       "id": "osman",
       "name": "Osman",
       "color": "#9b2c2c"
-    },
-    {
-      "id": "interregnum",
-      "name": "Civil war",
-      "color": "#55524a",
-      "plain": true
     }
   ],
   "rulers": [
@@ -549,6 +543,41 @@
         "note": "Sanremo, Italy"
       },
       "causeOfDeath": "Heart attack"
+    },
+    {
+      "id": "suleyman-celebi",
+      "name": "Süleyman Çelebi",
+      "house": "osman",
+      "born": {
+        "date": "1377",
+        "circa": true
+      },
+      "died": {
+        "date": "1411-02-17",
+        "note": "Düğüncü village, near Constantinople"
+      },
+      "causeOfDeath": "Killed while fleeing his brother Musa"
+    },
+    {
+      "id": "isa-celebi",
+      "name": "İsa Çelebi",
+      "house": "osman",
+      "died": {
+        "date": "1403",
+        "circa": true,
+        "note": "Dead by September 1403"
+      },
+      "causeOfDeath": "Killed on his brother Mehmed's orders"
+    },
+    {
+      "id": "musa-celebi",
+      "name": "Musa Çelebi",
+      "house": "osman",
+      "died": {
+        "date": "1413-07-05",
+        "note": "After the battle of Çamurlu, near Samokov"
+      },
+      "causeOfDeath": "Killed after losing the battle of Çamurlu"
     }
   ],
   "reigns": [
@@ -832,7 +861,7 @@
           "note": "A Bursa tradition that explains the Great Mosque's 20 domes. No early source records the vow."
         }
       ],
-      "hook": "The sultan is a prisoner and his sons have scattered across Anatolia and the Balkans. Each of them thinks he should be next.",
+      "hook": "The sultan is a prisoner and his sons have scattered. The eldest, Süleyman, has got off the field at Ankara alive and is racing for Edirne and the European half of the empire.",
       "images": [
         {
           "file": "File:Chlebowski-Bajazyt w niewoli.jpg",
@@ -873,51 +902,303 @@
       }
     },
     {
-      "id": "interregnum",
-      "kind": "interregnum",
-      "rulers": [],
-      "house": "interregnum",
-      "title": "The Ottoman Interregnum",
-      "tagline": "Four brothers, one throne, eleven years of war",
+      "id": "suleyman-celebi",
+      "kind": "claimant",
+      "rulers": [
+        "suleyman-celebi"
+      ],
+      "title": "Süleyman Çelebi",
+      "tagline": "The eldest son, who ran half an empire from Edirne",
+      "start": {
+        "date": "1402-07-20"
+      },
+      "end": {
+        "date": "1411-02-17"
+      },
+      "contestedWith": [
+        "mehmed-celebi",
+        "isa-celebi"
+      ],
+      "relationToPredecessor": "Eldest surviving son of Bayezid I",
+      "ageAtAccession": "About 25",
+      "cameToPower": "Escaped Ankara, seized Edirne",
+      "reignEnded": "Killed fleeing his brother Musa",
+      "previously": "Timur crushes Bayezid at Ankara and takes the Thunderbolt prisoner.",
+      "paragraphs": [
+        "Süleyman got off the battlefield at Ankara alive and made straight for Europe, where Timur couldn't follow. From Edirne he held the Balkan half of the empire, the richest part left. He needed friends fast, so in 1403 he signed the Treaty of Gallipoli with Byzantium and the Christian sea powers, handing back Thessaloniki and a strip of coast. Byzantium could hardly believe its luck.",
+        "With Europe quiet he crossed into Anatolia, took Bursa and spent years pushing his brother Mehmed back east. Some Europeans simply called him Sultan Suleiman. Then Mehmed sent their brother Musa into the Balkans behind him. Süleyman beat Musa at Kosmidion outside Constantinople in June 1410, but his support was fading. When Musa marched on Edirne in February 1411 his men melted away, and he was killed as he fled towards Constantinople."
+      ],
+      "claims": [
+        {
+          "text": "Süleyman gave Thessaloniki back to Byzantium to buy peace in Europe.",
+          "status": "confirmed",
+          "note": "The Treaty of Gallipoli (1403) survives in a Venetian copy, and Byzantine writers record the handover."
+        },
+        {
+          "text": "Some Westerners counted him as Sultan Suleiman I, which is why Suleiman the Magnificent is sometimes called Suleiman II.",
+          "status": "confirmed",
+          "note": "Older European histories use the numbering. Ottoman tradition never counted him, so the Magnificent is usually Suleiman I."
+        },
+        {
+          "text": "Süleyman lost his throne by lazing about, drinking and bathing while Musa closed in.",
+          "status": "disputed",
+          "note": "It comes from chronicles written for the winning side, which had every reason to blacken him. Doukas is kinder."
+        }
+      ],
+      "hook": "Süleyman is dead, but rewind to 1402. Far off in Amasya, his teenage brother Mehmed has dug in, and he has no intention of bowing to anyone.",
+      "images": [
+        {
+          "file": "File:Ottoman Prince Suleiman Celebi.jpg",
+          "url": "https://upload.wikimedia.org/wikipedia/commons/4/4e/Ottoman_Prince_Suleiman_Celebi.jpg",
+          "page": "https://commons.wikimedia.org/wiki/File:Ottoman_Prince_Suleiman_Celebi.jpg",
+          "credit": "Johann Theodor de Bry",
+          "license": "Public domain",
+          "made": "1590s",
+          "caption": "Imagined by a German engraver nearly 200 years after Süleyman died.",
+          "alt": "Engraved bust portrait of an Ottoman prince in a turban, labelled Soleiman Chan"
+        }
+      ],
+      "sources": [
+        {
+          "title": "The Sons of Bayezid: Empire Building and Representation in the Ottoman Civil War of 1402–1413",
+          "author": "Dimitris J. Kastritsis",
+          "note": "Brill, 2007"
+        },
+        {
+          "title": "Decline and Fall of Byzantium to the Ottoman Turks",
+          "author": "Doukas",
+          "note": "15th-century chronicle; trans. Harry J. Magoulias, Wayne State University Press, 1975"
+        },
+        {
+          "title": "The Ottoman Empire, 1300–1481",
+          "author": "Colin Imber",
+          "note": "Isis Press, 1990"
+        },
+        {
+          "title": "Osman's Dream: The Story of the Ottoman Empire 1300–1923",
+          "author": "Caroline Finkel",
+          "note": "John Murray, 2005"
+        }
+      ],
+      "review": {
+        "status": "draft",
+        "notes": "Drafted from the listed sources; needs a human fact-check."
+      }
+    },
+    {
+      "id": "mehmed-celebi",
+      "kind": "claimant",
+      "rulers": [
+        "mehmed-i"
+      ],
+      "title": "Mehmed Çelebi",
+      "tagline": "The youngest brother, playing the long game from Amasya",
       "start": {
         "date": "1402-07-20"
       },
       "end": {
         "date": "1413-07-05"
       },
-      "contestedWith": [],
-      "relationToPredecessor": "Bayezid I's sons, after Ankara",
-      "ageAtAccession": "No sultan",
-      "cameToPower": "Bayezid captured at Ankara",
-      "reignEnded": "Mehmed beat Musa at Çamurlu",
-      "previously": "Timur crushes Bayezid at Ankara and takes the Thunderbolt prisoner.",
+      "contestedWith": [
+        "suleyman-celebi",
+        "isa-celebi",
+        "musa-celebi"
+      ],
+      "relationToPredecessor": "Son of Bayezid I",
+      "ageAtAccession": "About 13",
+      "cameToPower": "Held Amasya and Tokat after Ankara",
+      "reignEnded": "Won at Çamurlu, sole sultan",
+      "previously": "Süleyman is killed fleeing Musa. Now rewind to 1402 and Amasya.",
       "paragraphs": [
-        "After Ankara, Timur carved up Ottoman Anatolia and handed lands back to the old emirs. Bayezid's surviving sons grabbed what they could. Süleyman, the eldest, held the European half from Edirne and did deals with Byzantium. Mehmed dug in at Amasya. İsa seized Bursa. Musa had been captured with his father and was let go after Bayezid died.",
-        "Then they turned on each other. Mehmed beat İsa, who vanished, almost certainly killed. Mehmed then sent Musa into Europe to take on Süleyman. In 1411 Musa captured Edirne and Süleyman was killed as he fled. Musa ruled the Balkans so harshly that he scared his own supporters. Mehmed teamed up with the Byzantines, and in July 1413 Musa was beaten at Çamurlu and killed."
+        "Mehmed was barely a teenager when Ankara fell, but he already ruled Amasya and Tokat in the north-east, far from Timur's path. He kept his head down and his coins said the right things: some struck at Bursa carry Timur's name above his own. In 1403 he beat his brother İsa at Ulubad and took Bursa, the old capital.",
+        "Then Süleyman crossed from Europe and shoved him back east. So Mehmed played a cleverer card. In 1409 he sent his brother Musa through Wallachia into the Balkans, to hit Süleyman from behind. It worked, maybe too well: by 1411 Musa had Edirne and wanted the lot. Mehmed lined up the Byzantines and the Serbs, crossed into Europe, and on 5 July 1413 beat Musa at Çamurlu. The war was over."
       ],
       "claims": [
         {
-          "text": "A fifth brother, Mustafa, vanished at Ankara and turned up again years later.",
-          "status": "disputed",
-          "note": "Mehmed I and Murad II called him an impostor, 'False Mustafa'. Byzantine writers like Doukas treated him as the real son."
+          "text": "Mehmed struck coins naming Timur as his overlord.",
+          "status": "confirmed",
+          "note": "Silver akçes minted at Bursa in 806 AH (1403–04) carry Timur's name above Mehmed's."
         },
         {
-          "text": "The scholar Sheikh Bedreddin served as Musa's chief judge.",
+          "text": "Timur formally recognised Mehmed as his man in Anatolia.",
+          "status": "disputed",
+          "note": "Later Ottoman chronicles say so, but they wrote for Mehmed's family. How far Timur backed him over his brothers is unclear."
+        },
+        {
+          "text": "Mehmed won at Çamurlu with Byzantine and Serbian help.",
           "status": "confirmed",
-          "note": "Ottoman chronicles agree on it. The link explains why Bedreddin later led a revolt against Mehmed."
+          "note": "Doukas and Ottoman chronicles agree. The Serbian despot Stefan Lazarević sent troops."
         }
       ],
-      "hook": "Mehmed is the last brother standing. He has an empire in pieces, rebels in the hills and a brother everyone thought was dead.",
+      "hook": "Mehmed has won. But back in 1403, the first brother to fall was İsa, who grabbed Bursa and gambled everything on beating Mehmed.",
       "images": [
         {
-          "file": "File:Ottoman Princes Musa and Suleiman Celebi.jpg",
-          "url": "https://upload.wikimedia.org/wikipedia/commons/0/0f/Ottoman_Princes_Musa_and_Suleiman_Celebi.jpg",
-          "page": "https://commons.wikimedia.org/wiki/File:Ottoman_Princes_Musa_and_Suleiman_Celebi.jpg",
-          "credit": "Johann Theodor de Bry",
-          "license": "CC BY-SA 3.0",
-          "made": "1590s",
-          "caption": "Two of the warring brothers, Musa and Süleyman, imagined by a German engraver nearly 200 years later.",
-          "alt": "Engraved portraits of two Ottoman princes side by side, Musa Çelebi on the left and Süleyman Çelebi on the right"
+          "file": "File:Mehmet I Celebi. Painted in 1543-1549. Como, Museo Archeologico.jpg",
+          "url": "https://upload.wikimedia.org/wikipedia/commons/8/83/Mehmet_I_Celebi._Painted_in_1543-1549._Como%2C_Museo_Archeologico.jpg",
+          "page": "https://commons.wikimedia.org/wiki/File:Mehmet_I_Celebi._Painted_in_1543-1549._Como,_Museo_Archeologico.jpg",
+          "credit": "Unknown artist, possibly Florentine school",
+          "license": "Public domain",
+          "made": "1543–49",
+          "caption": "Painted in Italy about 130 years after Mehmed's war with his brothers.",
+          "alt": "Italian oil portrait of Sultan Mehmed I in a turban, now in the archaeological museum at Como"
+        }
+      ],
+      "sources": [
+        {
+          "title": "The Sons of Bayezid: Empire Building and Representation in the Ottoman Civil War of 1402–1413",
+          "author": "Dimitris J. Kastritsis",
+          "note": "Brill, 2007"
+        },
+        {
+          "title": "Decline and Fall of Byzantium to the Ottoman Turks",
+          "author": "Doukas",
+          "note": "15th-century chronicle; trans. Harry J. Magoulias, Wayne State University Press, 1975"
+        },
+        {
+          "title": "The Ottoman Empire, 1300–1481",
+          "author": "Colin Imber",
+          "note": "Isis Press, 1990"
+        },
+        {
+          "title": "Osman's Dream: The Story of the Ottoman Empire 1300–1923",
+          "author": "Caroline Finkel",
+          "note": "John Murray, 2005"
+        }
+      ],
+      "review": {
+        "status": "draft",
+        "notes": "Drafted from the listed sources; needs a human fact-check."
+      }
+    },
+    {
+      "id": "isa-celebi",
+      "kind": "claimant",
+      "rulers": [
+        "isa-celebi"
+      ],
+      "title": "İsa Çelebi",
+      "tagline": "The brother who held Bursa for a few short months",
+      "start": {
+        "date": "1403-01"
+      },
+      "end": {
+        "date": "1403-05",
+        "circa": true
+      },
+      "contestedWith": [
+        "suleyman-celebi",
+        "mehmed-celebi"
+      ],
+      "relationToPredecessor": "Son of Bayezid I",
+      "ageAtAccession": "Unknown",
+      "cameToPower": "Seized Bursa as Timur's vassal",
+      "reignEnded": "Beaten by Mehmed at Ulubad",
+      "previously": "Mehmed wins at Çamurlu. Now back to 1403 and the first to fall.",
+      "paragraphs": [
+        "İsa also got away from Ankara, and he settled south of the Sea of Marmara, taking orders from Timur like everyone else. When Timur's armies pulled out, he moved fast. In January 1403 he grabbed Bursa, the old Ottoman capital with its royal tombs, and with it the western end of Ottoman Anatolia. That made him a big target.",
+        "Mehmed offered to split Anatolia with him. İsa said no. They fought at Ulubad, near Bursa, in the spring of 1403, and İsa lost. He fled to Constantinople, then tried again with help from Süleyman and some Anatolian emirs, and lost again. By the end of the year he was dead, hunted down by Mehmed's men."
+      ],
+      "claims": [
+        {
+          "text": "İsa was found hiding in a bathhouse at Eskişehir and strangled.",
+          "status": "disputed",
+          "note": "Told by later Ottoman chronicles. The early sources agree he was killed in 1403 but disagree on how."
+        },
+        {
+          "text": "İsa was dead by September 1403.",
+          "status": "confirmed",
+          "note": "The Spanish envoy Clavijo, passing through that autumn on his way to Timur, reports him already killed."
+        }
+      ],
+      "hook": "İsa is gone. Meanwhile another brother is coming home: Musa, captured with his father at Ankara. Mehmed will make him a weapon, and then an enemy.",
+      "images": [
+        {
+          "file": "File:İsa Çelebi.jpg",
+          "url": "https://upload.wikimedia.org/wikipedia/commons/5/58/%C4%B0sa_%C3%87elebi.jpg",
+          "page": "https://commons.wikimedia.org/wiki/File:%C4%B0sa_%C3%87elebi.jpg",
+          "credit": "Thomas Artus, sieur d'Embry",
+          "license": "Public domain",
+          "made": "1632",
+          "caption": "From a French history of the Turks printed more than 200 years after İsa died.",
+          "alt": "Engraved portrait of the Ottoman prince İsa Çelebi"
+        }
+      ],
+      "sources": [
+        {
+          "title": "The Sons of Bayezid: Empire Building and Representation in the Ottoman Civil War of 1402–1413",
+          "author": "Dimitris J. Kastritsis",
+          "note": "Brill, 2007"
+        },
+        {
+          "title": "Embassy to Tamerlane, 1403–1406",
+          "author": "Ruy González de Clavijo",
+          "note": "Trans. Guy Le Strange, Routledge, 1928; reports İsa already dead"
+        },
+        {
+          "title": "The Ottoman Empire, 1300–1481",
+          "author": "Colin Imber",
+          "note": "Isis Press, 1990"
+        },
+        {
+          "title": "Osman's Dream: The Story of the Ottoman Empire 1300–1923",
+          "author": "Caroline Finkel",
+          "note": "John Murray, 2005"
+        }
+      ],
+      "review": {
+        "status": "draft",
+        "notes": "Drafted from the listed sources; needs a human fact-check."
+      }
+    },
+    {
+      "id": "musa-celebi",
+      "kind": "claimant",
+      "rulers": [
+        "musa-celebi"
+      ],
+      "title": "Musa Çelebi",
+      "tagline": "Freed from Timur, then too ruthless to keep his crown",
+      "start": {
+        "date": "1411-02-17"
+      },
+      "end": {
+        "date": "1413-07-05"
+      },
+      "contestedWith": [
+        "mehmed-celebi"
+      ],
+      "relationToPredecessor": "Brother of Süleyman Çelebi",
+      "ageAtAccession": "Unknown",
+      "cameToPower": "Took Edirne; Süleyman killed",
+      "reignEnded": "Beaten at Çamurlu and killed",
+      "previously": "İsa loses to Mehmed and is hunted down within the year.",
+      "paragraphs": [
+        "Musa was taken prisoner with his father at Ankara and let go after Bayezid died in 1403. He sided with Mehmed, and in 1409 Mehmed sent him round through Wallachia to attack Süleyman in Europe. Musa lost at Kosmidion in 1410, but he kept going, and in February 1411 he took Edirne. Süleyman fled and was killed. Musa was master of the Balkans.",
+        "He made the famous scholar Sheikh Bedreddin his chief judge, besieged Constantinople and punished anyone who had worked with Süleyman. That scared the Balkan commanders, and one by one they slipped over to Mehmed. In July 1413 Mehmed came with Byzantine and Serbian allies. At Çamurlu, near Samokov, Musa's army broke, and he was caught and killed."
+      ],
+      "claims": [
+        {
+          "text": "Sheikh Bedreddin served as Musa's chief judge.",
+          "status": "confirmed",
+          "note": "Ottoman chronicles agree. The link explains why Bedreddin later led a revolt against Mehmed."
+        },
+        {
+          "text": "Musa's own commanders deserted him because he ruled so brutally.",
+          "status": "disputed",
+          "note": "The chronicles were written for Mehmed's dynasty. Some historians see Musa's harshness as a fight with the old frontier lords over who ran the Balkans."
+        }
+      ],
+      "hook": "Musa is dead at Çamurlu. Of Bayezid's sons who fought for the throne, only Mehmed is left, and now the whole broken empire is his.",
+      "images": [
+        {
+          "file": "File:Musa Çelebi.jpg",
+          "url": "https://upload.wikimedia.org/wikipedia/commons/2/23/Musa_%C3%87elebi.jpg",
+          "page": "https://commons.wikimedia.org/wiki/File:Musa_%C3%87elebi.jpg",
+          "credit": "Thomas Artus and others, Histoire des Turcs",
+          "license": "Public domain",
+          "made": "1662",
+          "caption": "From a French history of the Turks printed about 250 years after Musa died.",
+          "alt": "Engraved portrait of the Ottoman prince Musa Çelebi"
         }
       ],
       "sources": [
@@ -965,7 +1246,7 @@
       "ageAtAccession": "About 24",
       "cameToPower": "Beat and killed his brother Musa",
       "reignEnded": "Died at Edirne",
-      "previously": "Bayezid's sons tear the empire apart for eleven years. Mehmed wins.",
+      "previously": "Mehmed beats Musa at Çamurlu. The last brother standing is sultan.",
       "paragraphs": [
         "Mehmed spent his reign putting the pieces back. He clawed back lands Timur had handed to the Anatolian emirs, kept the peace with Byzantium and held the Balkan vassals in line. Venice smashed his fleet off Gallipoli in 1416, a reminder of how shaky things still were. In Bursa he built the Green Mosque, lined with green and blue tiles, which still stands.",
         "Then two threats came at once. Sheikh Bedreddin, a famous scholar, inspired a rebellion whose preachers said property should be shared. Mehmed crushed it and had Bedreddin hanged. Next Mustafa, the brother lost at Ankara, reappeared with Byzantine and Wallachian backing. Mehmed beat him, and Byzantium kept Mustafa locked up on Lemnos in return for a yearly payment. When Mehmed died in 1421, his son Murad was about 17."
