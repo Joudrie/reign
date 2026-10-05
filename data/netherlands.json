@@ -288,7 +288,7 @@
           "note": "Philip's ban of 1580 offered 25,000 crowns. Gérard's parents were later given estates in Franche-Comté."
         }
       ],
-      "hook": "The rebels have lost their leader and Spain is winning back town after town. William's son Maurice is just 16. Can a teenager save a revolt that's falling apart?",
+      "hook": "The rebels have lost their leader and Spain is winning back town after town. William's son Maurice is just 16. With Antwerp under siege, a committee will have to run the war.",
       "images": [
         {
           "file": "File:William I, Prince of Orange by Adriaen Thomasz. Key Rijksmuseum Amsterdam SK-A-3148.jpg",
@@ -326,7 +326,156 @@
       "review": {
         "status": "draft",
         "notes": "Drafted from the listed sources; needs a human fact-check."
-      }
+      },
+      "members": [
+        {
+          "name": "Archduke Matthias",
+          "start": {
+            "date": "1578-01"
+          },
+          "end": {
+            "date": "1581"
+          },
+          "note": "Habsburg archduke made governor-general by the rebel States General; went home after the Act of Abjuration"
+        },
+        {
+          "name": "Francis, Duke of Anjou",
+          "start": {
+            "date": "1580-09-29"
+          },
+          "end": {
+            "date": "1583-06"
+          },
+          "note": "French prince made 'Protector of the Liberty of the Netherlands'; fled after his failed coup at Antwerp"
+        }
+      ]
+    },
+    {
+      "id": "council-of-state-1584",
+      "kind": "interregnum",
+      "title": "The Leaderless Revolt",
+      "house": "republic",
+      "rulers": [],
+      "tagline": "No prince, no king, and Antwerp starving under siege",
+      "start": {
+        "date": "1584-07-10"
+      },
+      "end": {
+        "date": "1585-11-01"
+      },
+      "contestedWith": [],
+      "relationToPredecessor": "Took over from the murdered William",
+      "ageAtAccession": "Maurice was 16",
+      "cameToPower": "Assassination of William the Silent",
+      "reignEnded": "Maurice made stadtholder of Holland",
+      "previously": "William the Silent is shot dead on the stairs of his house in Delft.",
+      "paragraphs": [
+        "William's murder left the revolt with nobody at the top. The rebel provinces had sacked Philip II three years earlier, and their stand-in sovereign, the Duke of Anjou, had died a month before William. So the Council of State, a small board answering to the provinces, took over the running of the war. William's son Maurice, just 16, was given a seat on it out of respect for his name. Real power stayed with the States General, who held the purse.",
+        "Meanwhile the Duke of Parma, Spain's best general, was squeezing Antwerp, the great trading port of the Low Countries. He threw a bridge of boats across the Scheldt to starve it out. In April 1585 the defenders floated fireships packed with gunpowder down the river. One blew a hole in the bridge and killed hundreds, but Parma patched the gap. Antwerp surrendered on 17 August 1585, and thousands of its Protestant merchants and craftsmen headed north.",
+        "The States General went shopping for a new sovereign. Henry III of France said no. Elizabeth I of England said no too, but in August 1585 she agreed to send money and an army under her favourite, the Earl of Leicester. Holland and Zeeland didn't wait for him. They made Maurice their stadtholder, so the English lord would find an Orange already in the chair."
+      ],
+      "claims": [
+        {
+          "text": "One of Antwerp's 'hellburner' fireships killed about 800 of Parma's men in a single blast.",
+          "status": "disputed",
+          "note": "The figure comes from accounts of the time such as Famiano Strada's history. The blast was clearly devastating, but exact tolls are guesses."
+        },
+        {
+          "text": "Elizabeth I turned down the chance to become sovereign of the Netherlands.",
+          "status": "confirmed",
+          "note": "She refused the offer in 1585 but signed the Treaty of Nonsuch, promising troops and money in return for towns held as security."
+        },
+        {
+          "text": "Maurice took the motto 'Tandem fit surculus arbor': in the end a twig becomes a tree.",
+          "status": "confirmed",
+          "note": "The motto appears on his prints and medals. Dutch historians date it to 1584, the year his father was killed."
+        }
+      ],
+      "hook": "Holland and Zeeland have picked their man: Maurice, William's quiet second son, still only 17. Leicester's English army is on its way, and Parma is pushing north.",
+      "images": [
+        {
+          "file": "File:Schipbrug van Parma over de Schelde opgeblazen, 1585 Serie 9 Nederlandse en Duitse Gebeurtenissen, 1583-1587 (serietitel), RP-P-OB-78.785-202.jpg",
+          "url": "https://upload.wikimedia.org/wikipedia/commons/8/89/Schipbrug_van_Parma_over_de_Schelde_opgeblazen%2C_1585_Serie_9_Nederlandse_en_Duitse_Gebeurtenissen%2C_1583-1587_%28serietitel%29%2C_RP-P-OB-78.785-202.jpg",
+          "page": "https://commons.wikimedia.org/wiki/File:Schipbrug_van_Parma_over_de_Schelde_opgeblazen,_1585_Serie_9_Nederlandse_en_Duitse_Gebeurtenissen,_1583-1587_(serietitel),_RP-P-OB-78.785-202.jpg",
+          "credit": "Frans Hogenberg",
+          "license": "CC0",
+          "made": "c. 1587–1591",
+          "caption": "Frans Hogenberg's etching of the fireship attack on Parma's bridge, made in Cologne within a few years of the siege.",
+          "alt": "Etching of Parma's bridge of boats across the Scheldt being blown up, with a German caption below"
+        }
+      ],
+      "sources": [
+        {
+          "title": "The Dutch Republic: Its Rise, Greatness, and Fall, 1477–1806",
+          "author": "Jonathan I. Israel",
+          "note": "Oxford University Press, 1995"
+        },
+        {
+          "title": "The Dutch Revolt",
+          "author": "Geoffrey Parker",
+          "note": "Allen Lane, 1977"
+        },
+        {
+          "title": "History of the United Netherlands",
+          "author": "John Lothrop Motley",
+          "note": "Vol. 1, 1860: the months after William's death"
+        },
+        {
+          "title": "De Bello Belgico",
+          "author": "Famiano Strada",
+          "note": "The siege of Antwerp and the fireships"
+        }
+      ],
+      "review": {
+        "status": "draft",
+        "notes": "Drafted from the listed sources; needs a human fact-check."
+      },
+      "members": [
+        {
+          "name": "Council of State",
+          "start": {
+            "date": "1584-07",
+            "circa": true
+          },
+          "end": {
+            "date": "1585-11",
+            "circa": true
+          },
+          "note": "Took over executive power after William's murder while the States General searched for a sovereign"
+        },
+        {
+          "name": "Philips of Marnix, lord of Sint-Aldegonde",
+          "start": {
+            "date": "1584-07-03"
+          },
+          "end": {
+            "date": "1585-08-17"
+          },
+          "note": "Burgomaster of Antwerp who led the city through Parma's siege, then surrendered it"
+        },
+        {
+          "name": "Paulus Buys",
+          "end": {
+            "date": "1584",
+            "circa": true
+          },
+          "note": "Land's Advocate of Holland, its top official, until 1584; pushed for an English alliance"
+        },
+        {
+          "name": "Maurice of Nassau",
+          "start": {
+            "date": "1584"
+          },
+          "end": {
+            "date": "1585-11-01"
+          },
+          "note": "Given a seat on the Council of State at 16 as a mark of respect for his father"
+        },
+        {
+          "name": "Count Philip of Hohenlohe",
+          "note": "Commander of the States army; led the failed attack on the Kouwenstein dyke to relieve Antwerp"
+        }
+      ]
     },
     {
       "id": "maurice",
@@ -346,7 +495,7 @@
       "ageAtAccession": "17",
       "cameToPower": "Made stadtholder by Holland and Zeeland",
       "reignEnded": "Died with the truce over",
-      "previously": "William the Silent is shot dead in Delft. The revolt is reeling.",
+      "previously": "Antwerp falls to Parma, and Holland turns to William's son Maurice.",
       "paragraphs": [
         "A stadtholder was not a king. The Republic was run by the States General, a council of the provinces, and the stadtholder was their top servant and army chief. Maurice was a shy, bookish teenager when he got the job. He turned out to be a brilliant soldier. With his cousin Willem Lodewijk he studied Roman tactics, drilled troops in small units, taught them to fire in rotating ranks and made them dig like navvies.",
         "His new army took back town after town in the 1590s and beat the Spanish in open battle at Nieuwpoort in 1600. In 1609 the Republic signed a Twelve Years' Truce with Spain. Maurice hated it. He was a soldier with no war, and he fell out badly with the old statesman who had arranged it, Johan van Oldenbarnevelt, the Advocate of Holland.",
@@ -402,7 +551,19 @@
       "review": {
         "status": "draft",
         "notes": "Drafted from the listed sources; needs a human fact-check."
-      }
+      },
+      "members": [
+        {
+          "name": "Robert Dudley, Earl of Leicester",
+          "start": {
+            "date": "1586-01-25"
+          },
+          "end": {
+            "date": "1587-12"
+          },
+          "note": "Governor-General named by the States General against Elizabeth's wishes; fell out with Holland and quit"
+        }
+      ]
     },
     {
       "id": "frederick-henry",
@@ -1427,6 +1588,26 @@
             "date": "1813-12-02"
           },
           "note": "Led the provisional General Government in The Hague that called the Prince of Orange home"
+        },
+        {
+          "name": "Frans Adam van der Duyn van Maasdam",
+          "start": {
+            "date": "1813-11-21"
+          },
+          "end": {
+            "date": "1813-12-02"
+          },
+          "note": "One of the 1813 triumvirs with Van Hogendorp who invited the Prince of Orange home"
+        },
+        {
+          "name": "Leopold van Limburg Stirum",
+          "start": {
+            "date": "1813-11-21"
+          },
+          "end": {
+            "date": "1813-12-02"
+          },
+          "note": "Triumvir in charge of war; greeted the prince on Scheveningen beach on 30 November 1813"
         }
       ]
     },
@@ -1732,7 +1913,19 @@
       "review": {
         "status": "draft",
         "notes": "Drafted from the listed sources; needs a human fact-check."
-      }
+      },
+      "members": [
+        {
+          "name": "Arthur Seyss-Inquart",
+          "start": {
+            "date": "1940-05-29"
+          },
+          "end": {
+            "date": "1945-05-05"
+          },
+          "note": "Nazi Reichskommissar who ran the occupied Netherlands while the queen broadcast from London; hanged 1946"
+        }
+      ]
     },
     {
       "id": "juliana",
