@@ -511,7 +511,7 @@
           "note": "This is the standard account, but versions differ on how many monkeys there were and how the fight began."
         }
       ],
-      "hook": "In November 1920 Venizelos loses the election and even his own seat. A vote brings Constantine back from exile, and the Allies who threw him out are furious.",
+      "hook": "His grandmother Olga is racing to Athens to nurse him, but she arrives too late. Greece has no king, and nobody can agree who should be next.",
       "images": [
         {
           "file": "File:King Alexander of Greece.jpg",
@@ -552,6 +552,99 @@
       }
     },
     {
+      "id": "regency-1920",
+      "kind": "interregnum",
+      "rulers": [],
+      "house": "provisional",
+      "title": "The Regency of 1920",
+      "tagline": "A dead king, an empty throne and a grandmother in charge",
+      "start": {
+        "date": "1920-10-25"
+      },
+      "end": {
+        "date": "1920-12-19"
+      },
+      "contestedWith": [],
+      "relationToPredecessor": "Regents after Alexander's death",
+      "ageAtAccession": "No monarch",
+      "cameToPower": "Parliament chose a regent",
+      "reignEnded": "Constantine I recalled by plebiscite",
+      "previously": "Bitten by a pet monkey, young King Alexander dies at 27.",
+      "paragraphs": [
+        "Alexander's death left the throne empty and Venizelos in a bind. The obvious heirs were the exiled Constantine and his eldest son George, the very men he had worked to keep out. On 28 October parliament made the old admiral Pavlos Kountouriotis regent, by 137 votes to 3. The crown was offered to Constantine's third son, Prince Paul, but he would not jump ahead of his father and brother unless a popular vote chose him.",
+        "The dowager queen Olga, Alexander's grandmother, had rushed to Athens to nurse him. Rough seas held up her ship, and she arrived about twelve hours after he died. At his funeral at Tatoi she was the only member of the royal family there. Then came the November election, which turned into a vote on Constantine. Venizelos lost, and even lost his own seat.",
+        "Kountouriotis stood down on 17 November, and the new prime minister, Dimitrios Rallis, asked Olga to take over as regent. For about a month a Russian-born grandmother of 69 was Greece's head of state. A plebiscite voted overwhelmingly for the old king, and on 19 December 1920 Constantine I was back on his throne."
+      ],
+      "claims": [
+        {
+          "text": "Parliament elected Kountouriotis regent by 137 votes to 3.",
+          "status": "confirmed",
+          "note": "The vote of 28 October 1920 is given in standard accounts of his career. The royalist opposition saw the regency as a Venizelist holding operation."
+        },
+        {
+          "text": "Prince Paul turned the crown down.",
+          "status": "confirmed",
+          "note": "He said he would reign only if a vote chose him over his father and elder brother. Venizelos's defeat made the question moot."
+        }
+      ],
+      "hook": "Constantine comes home to cheering crowds. The Allies who forced him out in 1917 are not cheering at all, and the Greek army is still deep inside Asia Minor.",
+      "images": [
+        {
+          "file": "File:Laszlo - Queen Olga of Greece.jpg",
+          "url": "https://upload.wikimedia.org/wikipedia/commons/1/11/Laszlo_-_Queen_Olga_of_Greece.jpg",
+          "page": "https://commons.wikimedia.org/wiki/File:Laszlo_-_Queen_Olga_of_Greece.jpg",
+          "credit": "Philip de László",
+          "license": "Public domain",
+          "made": "1914",
+          "caption": "Queen Olga, the regent of late 1920, painted by Philip de László six years earlier.",
+          "alt": "Painted portrait of Queen Olga of Greece, widow of King George I"
+        }
+      ],
+      "sources": [
+        {
+          "title": "Kings of the Hellenes: The Greek Kings, 1863-1974",
+          "author": "John Van der Kiste",
+          "note": "Sutton, 1994"
+        },
+        {
+          "title": "Ionian Vision: Greece in Asia Minor, 1919-1922",
+          "author": "Michael Llewellyn Smith",
+          "note": "Allen Lane, 1973"
+        },
+        {
+          "title": "A Concise History of Greece",
+          "author": "Richard Clogg",
+          "note": "Cambridge University Press, 1992; later editions"
+        }
+      ],
+      "review": {
+        "status": "draft",
+        "notes": "Drafted from the listed sources; needs a human fact-check."
+      },
+      "members": [
+        {
+          "name": "Pavlos Kountouriotis",
+          "start": {
+            "date": "1920-10-28"
+          },
+          "end": {
+            "date": "1920-11-17"
+          },
+          "note": "Admiral and Venizelist; elected regent by parliament after Alexander's death; resigned when Venizelos lost the election"
+        },
+        {
+          "name": "Queen Olga",
+          "start": {
+            "date": "1920-11-17"
+          },
+          "end": {
+            "date": "1920-12-19"
+          },
+          "note": "Dowager queen, widow of George I; regent at the new royalist government's request until her son Constantine returned"
+        }
+      ]
+    },
+    {
       "id": "constantine-i-restored",
       "kind": "monarch",
       "rulers": [
@@ -569,7 +662,7 @@
       "ageAtAccession": "52",
       "cameToPower": "Recalled by a plebiscite",
       "reignEnded": "Abdicated after a military revolt",
-      "previously": "Alexander dies of a monkey bite, and Venizelos loses the election.",
+      "previously": "Venizelos loses the vote while Queen Olga keeps the throne warm.",
       "paragraphs": [
         "Three years after the Allies threw him out, Constantine came home. Venizelos had lost the November 1920 election, and a plebiscite voted overwhelmingly for the old king. Crowds cheered in Athens. Abroad, the reaction was cold. France and Italy, who had never forgiven his wartime neutrality, drifted away from Greece, and soon began dealing with the Turkish nationalists.",
         "Greek armies were already deep in Asia Minor. In 1921 they pushed towards Ankara, but Mustafa Kemal's forces stopped them on the Sakarya river. The army dug in for a year. In August 1922 Kemal struck, and the Greek front collapsed. Turkish troops entered Smyrna in September, and a great fire destroyed much of the city as crowds of Greek and Armenian refugees waited on the waterfront.",
@@ -738,7 +831,7 @@
           "note": "His government issued a decree setting a limit on how far a skirt could ride above the ground, one of the best-remembered acts of his rule."
         }
       ],
-      "hook": "King George II returns from his London exile to a 98 per cent welcome that no one quite believes. The general who brought him back is about to be shown the door.",
+      "hook": "Kondylis has a prime minister and a president out of office before the day is over. Now he wants a vote to bring back the king, and he means to win it big.",
       "images": [
         {
           "file": "File:Admiral Kountouriotis.jpg",
@@ -842,7 +935,80 @@
             "date": "1935-10-10"
           },
           "note": "Royalist People's Party prime minister; pushed aside by Kondylis"
+        }
+      ]
+    },
+    {
+      "id": "regency-1935",
+      "kind": "interregnum",
+      "rulers": [],
+      "house": "provisional",
+      "title": "The Regency of 1935",
+      "tagline": "A general called the Thunderbolt brings back the king",
+      "start": {
+        "date": "1935-10-10"
+      },
+      "end": {
+        "date": "1935-11-25"
+      },
+      "contestedWith": [],
+      "relationToPredecessor": "Overthrew the Second Republic",
+      "ageAtAccession": "No monarch",
+      "cameToPower": "Officers forced out the government",
+      "reignEnded": "King George II returned from exile",
+      "previously": "Coups, a dictator and the Depression have worn the republic out.",
+      "paragraphs": [
+        "Georgios Kondylis had been many things: a guerrilla leader in Macedonia, a Venizelist general, the man who threw out the dictator Pangalos in 1926. His nickname was Keravnos, the Thunderbolt. By 1935 he had swung to the right, crushed the Venizelist revolt that March and decided Greece needed its king back. On 10 October he and a group of officers called on Prime Minister Panagis Tsaldaris and made him resign.",
+        "The rest took one day. Kondylis forced President Alexandros Zaimis to name him prime minister, then forced Zaimis out as well, declared himself regent and announced that the republic was over. A plebiscite was set for 3 November. The official count gave about 98 per cent for bringing back the king, a figure almost nobody took at face value.",
+        "George II sailed home from his London exile and arrived on 25 November 1935, twelve years after he had been asked to leave. Kondylis kept the prime minister's job and expected to run the country for him. He would not last long, and he did not live long either: he died of a heart attack in Athens on 1 February 1936."
+      ],
+      "claims": [
+        {
+          "text": "Kondylis forced out a prime minister and a president and ended the republic, all on 10 October 1935.",
+          "status": "confirmed",
+          "note": "Standard histories of the period agree on the single-day sequence of forced resignations and the regency proclamation."
         },
+        {
+          "text": "The man who restored the king had started out as a Venizelist.",
+          "status": "confirmed",
+          "note": "He joined Venizelos's National Defence government in 1916 and fled abroad rather than accept Constantine's return in 1920, before moving to the royalist side in the 1930s."
+        }
+      ],
+      "hook": "The king is home, and Kondylis thinks he will be the power behind the throne. George has other plans. Within days the Thunderbolt is out, and a stubborn little general called Ioannis Metaxas is waiting his turn.",
+      "images": [
+        {
+          "file": "File:GeorgiosKondylis.jpeg",
+          "url": "https://upload.wikimedia.org/wikipedia/commons/f/f3/GeorgiosKondylis.jpeg",
+          "page": "https://commons.wikimedia.org/wiki/File:GeorgiosKondylis.jpeg",
+          "credit": "Mondial Photo-Presse",
+          "license": "Public domain",
+          "made": "1932",
+          "caption": "General Georgios Kondylis, the regent of 1935, photographed by a French press agency in 1932.",
+          "alt": "Press photograph of the Greek general Georgios Kondylis"
+        }
+      ],
+      "sources": [
+        {
+          "title": "Stillborn Republic: Social Coalitions and Party Strategies in Greece, 1922-1936",
+          "author": "George Th. Mavrogordatos",
+          "note": "University of California Press, 1983"
+        },
+        {
+          "title": "A Concise History of Greece",
+          "author": "Richard Clogg",
+          "note": "Cambridge University Press, 1992; later editions"
+        },
+        {
+          "title": "Modern Greece: From the War of Independence to the Present",
+          "author": "Thomas W. Gallant",
+          "note": "Bloomsbury, 2nd ed. 2016"
+        }
+      ],
+      "review": {
+        "status": "draft",
+        "notes": "Drafted from the listed sources; needs a human fact-check."
+      },
+      "members": [
         {
           "name": "Georgios Kondylis",
           "start": {
@@ -851,7 +1017,7 @@
           "end": {
             "date": "1935-11-25"
           },
-          "note": "Seized power, abolished the republic and became regent (the card ends on 10 October)"
+          "note": "General; forced out the government, declared himself regent and staged the plebiscite; stayed PM a few days more"
         }
       ]
     },
@@ -873,7 +1039,7 @@
       "ageAtAccession": "45",
       "cameToPower": "Recalled after Kondylis's plebiscite",
       "reignEnded": "Died in Athens",
-      "previously": "General Kondylis ends the republic and calls the king home.",
+      "previously": "A plebiscite run by Kondylis calls the king home from London.",
       "paragraphs": [
         "George had left in 1923 as an unwanted king. He returned from London on 25 November 1935 and soon dropped Kondylis. On 4 August 1936 he backed General Ioannis Metaxas in suspending parliament. The 4th of August Regime censored the press, jailed or exiled its opponents to islands, and set up a uniformed youth movement copied from fascist models.",
         "On 28 October 1940 Mussolini demanded entry for Italian troops. Metaxas refused, and the Greek army drove the Italians back into Albania. Metaxas died in January 1941, and in April Germany invaded. The king escaped to Crete, then to Egypt and London. Under occupation a terrible famine killed many thousands, and resistance groups grew, the largest of them the left-wing EAM and its army ELAS.",
@@ -1080,7 +1246,29 @@
       "review": {
         "status": "draft",
         "notes": "Drafted from the listed sources; needs a human fact-check."
-      }
+      },
+      "members": [
+        {
+          "name": "Georgios Zoitakis",
+          "start": {
+            "date": "1967-12-13"
+          },
+          "end": {
+            "date": "1972-03-21"
+          },
+          "note": "General and junta member; sworn in as regent after the king's failed counter-coup and flight to Rome"
+        },
+        {
+          "name": "Georgios Papadopoulos",
+          "start": {
+            "date": "1972-03-21"
+          },
+          "end": {
+            "date": "1973-06-01"
+          },
+          "note": "Junta leader and prime minister; named himself regent, then abolished the monarchy and became president"
+        }
+      ]
     }
   ]
 }

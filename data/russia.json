@@ -545,6 +545,33 @@
         "date": "1965-09-14",
         "note": "Leningrad (now St Petersburg)"
       }
+    },
+    {
+      "id": "irina-godunova",
+      "name": "Irina Godunova",
+      "house": "godunov",
+      "born": {
+        "date": "1557",
+        "circa": true,
+        "note": "Exact date unknown"
+      },
+      "died": {
+        "date": "1603-10-26",
+        "note": "Novodevichy Convent, Moscow (O.S.); some sources give September 1603 or 1604"
+      }
+    },
+    {
+      "id": "malenkov",
+      "name": "Georgy Malenkov",
+      "house": "soviet",
+      "born": {
+        "date": "1902-01-08",
+        "note": "Orenburg; 26 December 1901 O.S."
+      },
+      "died": {
+        "date": "1988-01-14",
+        "note": "Moscow"
+      }
     }
   ],
   "reigns": [
@@ -627,7 +654,21 @@
       "review": {
         "status": "draft",
         "notes": "Drafted from the listed sources; needs a human fact-check."
-      }
+      },
+      "members": [
+        {
+          "name": "Simeon Bekbulatovich",
+          "start": {
+            "date": "1575-10",
+            "circa": true
+          },
+          "end": {
+            "date": "1576-09",
+            "circa": true
+          },
+          "note": "Baptised Tatar khan whom Ivan made Grand Prince of all Rus for a year, calling himself plain Ivan of Moscow"
+        }
+      ]
     },
     {
       "id": "feodor-i",
@@ -670,7 +711,7 @@
           "note": "A bell said to be the culprit was brought back to Uglich from Tobolsk in 1892, but the punishment story comes from much later tradition."
         }
       ],
-      "hook": "The Rurikids are gone. Feodor's widow Irina refuses the throne and enters a convent. All eyes turn to her brother Boris, who keeps insisting he doesn't want the crown.",
+      "hook": "The Rurikids are gone. No woman has ever ruled Russia alone, but for now the patriarch and the boyars swear loyalty to Feodor's widow Irina, the sister of Boris Godunov.",
       "images": [
         {
           "file": "File:Feodor I of Russia (parsuna, 1630s, Moscow History museum).jpg",
@@ -711,6 +752,77 @@
       }
     },
     {
+      "id": "irina-godunova",
+      "kind": "monarch",
+      "rulers": [
+        "irina-godunova"
+      ],
+      "tagline": "The widow who sat on the throne for nine days",
+      "start": {
+        "date": "1598-01-07"
+      },
+      "end": {
+        "date": "1598-02-21"
+      },
+      "contestedWith": [],
+      "relationToPredecessor": "Widow of Feodor I",
+      "ageAtAccession": "About 40",
+      "cameToPower": "Boyars swore loyalty to her",
+      "reignEnded": "Became the nun Alexandra",
+      "previously": "Feodor I dies childless. After seven centuries, the Rurikids are gone.",
+      "paragraphs": [
+        "When Feodor died on 7 January 1598 there was no son, no brother and no obvious heir. So his widow stepped up. Irina was Boris Godunov's sister, and she had never been a quiet consort: she put her name on decrees beside her husband's, received the Patriarch of Constantinople and wrote letters to Queen Elizabeth I of England. Patriarch Job and the Boyar Duma swore loyalty to her as sovereign. No woman had ever ruled Russia in her own right.",
+        "It went badly. She had never been crowned, and crowds in Moscow jeered at the idea of a woman on the throne. Her first act, an amnesty for prisoners, let dangerous criminals back onto the streets and made things worse. Nine days after Feodor's death she gave up. She moved into the Novodevichy Convent on the edge of Moscow and took the veil under the name Alexandra.",
+        "Even then, decrees kept going out in her name, while her brother sat with her in the convent and let the crowds beg him to rule. On 21 February an assembly of the land chose Boris. Irina stayed a nun until she died in 1603, and Boris made sure her name came first whenever the Church prayed for the royal family."
+      ],
+      "claims": [
+        {
+          "text": "Irina was the first woman to rule Russia in her own right.",
+          "status": "disputed",
+          "note": "Some lists of rulers include her; others leave her out, because she was never crowned and gave up within days."
+        },
+        {
+          "text": "On his deathbed Feodor left the throne to his wife.",
+          "status": "disputed",
+          "note": "Accounts disagree. Some say he named Irina; others say he expected her to become a nun, or named no one at all."
+        }
+      ],
+      "hook": "Irina is in a convent, and Boris is in there with her, saying he doesn't want the crown. Outside, the patriarch and the crowds are begging him. He knows exactly how long to keep them waiting.",
+      "images": [
+        {
+          "file": "File:Irina Godunova, engraving.jpg",
+          "url": "https://upload.wikimedia.org/wikipedia/commons/c/cb/Irina_Godunova%2C_engraving.jpg",
+          "page": "https://commons.wikimedia.org/wiki/File:Irina_Godunova,_engraving.jpg",
+          "credit": "Unknown author",
+          "license": "CC BY-SA 4.0",
+          "made": "c. 1600",
+          "caption": "An engraving labelled as Irina, dated on Wikimedia Commons to around 1600.",
+          "alt": "Old engraving catalogued as a portrait of Tsaritsa Irina Godunova"
+        }
+      ],
+      "sources": [
+        {
+          "title": "Boris Godunov",
+          "author": "Ruslan G. Skrynnikov",
+          "note": "Trans. Hugh F. Graham, Academic International Press, 1982"
+        },
+        {
+          "title": "Boris Godunov, Tsar of Russia",
+          "author": "S. F. Platonov",
+          "note": "Trans. L. Rex Pyles, Academic International Press, 1973"
+        },
+        {
+          "title": "Russia's First Civil War: The Time of Troubles and the Founding of the Romanov Dynasty",
+          "author": "Chester S. L. Dunning",
+          "note": "Pennsylvania State University Press, 2001"
+        }
+      ],
+      "review": {
+        "status": "draft",
+        "notes": "Drafted from the listed sources; needs a human fact-check."
+      }
+    },
+    {
       "id": "boris-godunov",
       "kind": "monarch",
       "rulers": [
@@ -728,7 +840,7 @@
       "ageAtAccession": "About 46",
       "cameToPower": "Elected by an assembly of the land",
       "reignEnded": "Collapsed and died suddenly",
-      "previously": "Feodor I dies childless. After seven centuries, the Rurikids are gone.",
+      "previously": "Tsaritsa Irina gives up after nine days and becomes a nun.",
       "paragraphs": [
         "Boris came from minor gentry and rose as one of Ivan the Terrible's favourites. He married a daughter of Malyuta Skuratov, Ivan's most feared henchman. After years running the country for Feodor, he played hard to get when the throne fell empty. He let crowds come and beg him at the convent where his sister was living, then gave in. An assembly of the land made him tsar in February 1598.",
         "He was clever and curious about the West. He hired foreign doctors, welcomed foreign merchants and sent young nobles to study abroad. Then the weather turned. From 1601 the harvests failed three years running, and hundreds of thousands starved. People said God was punishing a usurper. Boris was jumpy too. He broke the powerful Romanov family, exiling them on charges of sorcery and forcing their leader Feodor Nikitich to become a monk under the name Filaret.",
@@ -1569,7 +1681,20 @@
         "status": "draft",
         "notes": "Drafted from the listed sources; needs a human fact-check."
       },
-      "title": "Ivan V & Peter I"
+      "title": "Ivan V & Peter I",
+      "members": [
+        {
+          "name": "Sophia Alekseyevna",
+          "start": {
+            "date": "1682-05-29"
+          },
+          "end": {
+            "date": "1689-09",
+            "circa": true
+          },
+          "note": "Regent and real ruler for her brothers, with Vasily Golitsyn; shut in Novodevichy Convent when Peter took over"
+        }
+      ]
     },
     {
       "id": "peter-i",
@@ -2906,6 +3031,77 @@
       }
     },
     {
+      "id": "malenkov",
+      "kind": "leader",
+      "rulers": [
+        "malenkov"
+      ],
+      "tagline": "Stalin's heir for six months, then outplayed",
+      "start": {
+        "date": "1953-03-05"
+      },
+      "end": {
+        "date": "1953-09-14"
+      },
+      "contestedWith": [],
+      "relationToPredecessor": "Stalin's senior lieutenant",
+      "ageAtAccession": "51",
+      "cameToPower": "Named premier as Stalin died",
+      "reignEnded": "Khrushchev took the party's top job",
+      "previously": "Stalin dies after lying for hours untreated on his dacha floor.",
+      "paragraphs": [
+        "Malenkov had been at Stalin's side for twenty years. He ran the party's personnel department during the purges and aircraft production in the war. When Stalin died on 5 March 1953 he became chairman of the Council of Ministers, the premier, and his name came first on the list of party leaders. The Western press called him Stalin's heir. He shared power with Beria, who ran the police, and Molotov, back at the foreign ministry.",
+        "It didn't last. On 14 March his colleagues made him give up his seat in the party Secretariat, which left the party machine to Nikita Khrushchev. In June Malenkov joined the plot to arrest Beria. He talked about making more consumer goods, cutting taxes on peasants, and avoiding a nuclear war that he said would end civilisation. Ordinary people liked it. Many party bosses did not.",
+        "In September 1953 Khrushchev became First Secretary, and in the Soviet system the party job was the one that counted. Malenkov stayed on as premier until February 1955, when he was forced out. In 1957 he joined a failed attempt to topple Khrushchev and was sent to run a power station in Kazakhstan. He was expelled from the party in 1961 and died in Moscow in 1988."
+      ],
+      "claims": [
+        {
+          "text": "Days after Stalin's death, Pravda printed a doctored photo showing Malenkov standing beside Stalin and Mao.",
+          "status": "confirmed",
+          "note": "The picture was cut from a 1950 group photo with other leaders removed. David King reproduces both versions in The Commissar Vanishes."
+        },
+        {
+          "text": "In old age Malenkov became a devout Orthodox believer and sang in a church choir.",
+          "status": "disputed",
+          "note": "Church publications said so when he died. He left no account of it himself."
+        }
+      ],
+      "hook": "Malenkov keeps the premier's office, but the party machine now belongs to its new First Secretary: a stocky, joking peasant's son named Nikita Khrushchev.",
+      "images": [
+        {
+          "file": "File:G.M. Malenkov TASS Portrait Trim Edit.jpg",
+          "url": "https://upload.wikimedia.org/wikipedia/commons/f/fe/G.M._Malenkov_TASS_Portrait_Trim_Edit.jpg",
+          "page": "https://commons.wikimedia.org/wiki/File:G.M._Malenkov_TASS_Portrait_Trim_Edit.jpg",
+          "credit": "G. Weil for TASS",
+          "license": "Public domain",
+          "made": "1950",
+          "caption": "An official TASS portrait from 1950, three years before he succeeded Stalin.",
+          "alt": "Official black-and-white portrait photograph of Georgy Malenkov"
+        }
+      ],
+      "sources": [
+        {
+          "title": "Khrushchev: The Man and His Era",
+          "author": "William Taubman",
+          "note": "W. W. Norton, 2003"
+        },
+        {
+          "title": "Stalin's Successors",
+          "author": "Seweryn Bialer",
+          "note": "Cambridge University Press, 1980"
+        },
+        {
+          "title": "The Commissar Vanishes: The Falsification of Photographs and Art in Stalin's Russia",
+          "author": "David King",
+          "note": "Metropolitan Books, 1997"
+        }
+      ],
+      "review": {
+        "status": "draft",
+        "notes": "Drafted from the listed sources; needs a human fact-check."
+      }
+    },
+    {
       "id": "khrushchev",
       "kind": "leader",
       "rulers": [
@@ -2923,7 +3119,7 @@
       "ageAtAccession": "59",
       "cameToPower": "Named party First Secretary",
       "reignEnded": "Ousted by colleagues",
-      "previously": "Stalin dies after lying for hours untreated on his dacha floor.",
+      "previously": "Malenkov is premier, but the party machine has slipped from his hands.",
       "paragraphs": [
         "After Stalin died, his lieutenants ruled as a group. Georgy Malenkov became head of government. Lavrenty Beria, the secret police chief, made the others nervous, so in June 1953 Khrushchev organised his arrest. Beria was shot that December. Khrushchev took the party's top job in September and squeezed Malenkov out as premier in 1955. In 1957 he beat off a coup attempt by Molotov, Malenkov and Kaganovich.",
         "In February 1956 he stunned a closed party congress with his Secret Speech, listing Stalin's crimes against party members. Millions of prisoners came home from the Gulag. But that November his tanks crushed the Hungarian uprising. In 1957 Sputnik went into orbit, and in 1961 Yuri Gagarin became the first man in space. Troops fired on striking workers at Novocherkassk in 1962, killing at least 26.",
