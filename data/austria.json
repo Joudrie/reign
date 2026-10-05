@@ -533,6 +533,20 @@
         "hungary:charles-iv",
         "bohemia:charles-i"
       ]
+    },
+    {
+      "id": "albert-vi",
+      "name": "Albert VI",
+      "epithet": "the Prodigal",
+      "house": "habsburg",
+      "born": {
+        "date": "1418-12-18",
+        "note": "Vienna"
+      },
+      "died": {
+        "date": "1463-12-02",
+        "note": "Vienna"
+      }
     }
   ],
   "reigns": [
@@ -615,7 +629,19 @@
       "review": {
         "status": "draft",
         "notes": "Drafted from the listed sources; needs a human fact-check."
-      }
+      },
+      "members": [
+        {
+          "name": "Rudolf II, Duke of Austria",
+          "start": {
+            "date": "1282-12-27"
+          },
+          "end": {
+            "date": "1283-06-01"
+          },
+          "note": "Younger son, made Duke of Austria and Styria jointly with Albert; gave up his share in the Treaty of Rheinfelden"
+        }
+      ]
     },
     {
       "id": "albert-i",
@@ -696,7 +722,20 @@
       "review": {
         "status": "draft",
         "notes": "Drafted from the listed sources; needs a human fact-check."
-      }
+      },
+      "members": [
+        {
+          "name": "Rudolf III, Duke of Austria",
+          "start": {
+            "date": "1298-11-21"
+          },
+          "end": {
+            "date": "1307-07-03",
+            "circa": true
+          },
+          "note": "Eldest son, made co-duke when Albert became king; King of Bohemia from 1306, died on campaign there"
+        }
+      ]
     },
     {
       "id": "frederick-the-fair",
@@ -777,7 +816,19 @@
       "review": {
         "status": "draft",
         "notes": "Drafted from the listed sources; needs a human fact-check."
-      }
+      },
+      "members": [
+        {
+          "name": "Leopold I, Duke of Austria",
+          "start": {
+            "date": "1308-05-01"
+          },
+          "end": {
+            "date": "1326-02-28"
+          },
+          "note": "Co-duke with his brother; lost to the Swiss at Morgarten in 1315 and kept fighting Louis after Mühldorf"
+        }
+      ]
     },
     {
       "id": "albert-ii",
@@ -858,7 +909,19 @@
       "review": {
         "status": "draft",
         "notes": "Drafted from the listed sources; needs a human fact-check."
-      }
+      },
+      "members": [
+        {
+          "name": "Otto the Merry, Duke of Austria",
+          "start": {
+            "date": "1330-01-13"
+          },
+          "end": {
+            "date": "1339-02-17"
+          },
+          "note": "Co-duke with Albert; ran Carinthia after 1335 and founded Neuberg Abbey, famous for his festive court"
+        }
+      ]
     },
     {
       "id": "rudolf-iv",
@@ -1088,7 +1151,19 @@
       "review": {
         "status": "draft",
         "notes": "Drafted from the listed sources; needs a human fact-check."
-      }
+      },
+      "members": [
+        {
+          "name": "William the Courteous, Duke of Austria",
+          "start": {
+            "date": "1395-11-22"
+          },
+          "end": {
+            "date": "1406-07-15"
+          },
+          "note": "Leopoldine cousin and co-ruler under the Hollenburg deal; guardian of young Albert V from 1404 until his death"
+        }
+      ]
     },
     {
       "id": "albert-v",
@@ -1265,7 +1340,9 @@
       "end": {
         "date": "1493-08-19"
       },
-      "contestedWith": [],
+      "contestedWith": [
+        "albert-vi"
+      ],
       "relationToPredecessor": "Cousin and former guardian",
       "ageAtAccession": "42",
       "cameToPower": "Last adult Habsburg left standing",
@@ -1293,7 +1370,7 @@
           "note": "Often repeated about his tomb in St Stephen's Cathedral, Vienna; the details rest on later reports rather than a clear eyewitness account."
         }
       ],
-      "hook": "Frederick is dead, and his son finally has a free hand. Maximilian is a jouster, a hunter and a born show-off, and he has a plan to win Europe without winning battles.",
+      "hook": "Frederick wins by waiting. But rewind to 1462. His restless younger brother Albert has the emperor trapped inside his own castle in Vienna, and he wants Austria for himself.",
       "images": [
         {
           "file": "File:Hans Burgkmair d. Ä. (zugeschr.) - Bildnis Kaiser Friedrich III.jpg",
@@ -1326,6 +1403,97 @@
       "review": {
         "status": "draft",
         "notes": "Drafted from the listed sources; needs a human fact-check."
+      },
+      "members": [
+        {
+          "name": "Matthias Corvinus, King of Hungary",
+          "start": {
+            "date": "1485-06-01"
+          },
+          "end": {
+            "date": "1490-04-06"
+          },
+          "note": "Captured Vienna in 1485, called himself Duke of Austria and ruled from the city until he died there"
+        }
+      ]
+    },
+    {
+      "id": "albert-vi",
+      "kind": "claimant",
+      "rulers": [
+        "albert-vi"
+      ],
+      "tagline": "The emperor's brother who besieged him in his own castle",
+      "start": {
+        "date": "1462-12",
+        "note": "Took over Lower Austria and Vienna in December 1462, after the siege of the Hofburg"
+      },
+      "end": {
+        "date": "1463-12-02"
+      },
+      "contestedWith": [
+        "frederick-iii"
+      ],
+      "relationToPredecessor": "Younger brother of Frederick III",
+      "ageAtAccession": "About 44",
+      "cameToPower": "Besieged Frederick, took Vienna",
+      "reignEnded": "Sudden death in Vienna",
+      "previously": "Frederick dies in 1493. Now rewind to 1462 and a siege in Vienna.",
+      "paragraphs": [
+        "Albert was Frederick's younger brother and his opposite: quick, bold, open-handed and always short of money. For years he ran family lands in the south-west, where he founded the University of Freiburg in 1457. When young Ladislaus died that same year, Albert wanted Austria. Frederick, now emperor, refused to share. In 1458 they split it. Albert ruled the land above the Enns from Linz, and Frederick kept Vienna.",
+        "Then Vienna turned on the emperor. In the autumn of 1462 the townspeople, fed up with Frederick, besieged him, his wife and their three-year-old son Maximilian inside the Hofburg. Albert joined in. King George of Bohemia marched in to rescue the family, and in December a deal handed Albert Lower Austria and Vienna. For the first time he held the whole duchy.",
+        "It went badly. Albert needed cash, the Viennese grumbled, and the mayor Wolfgang Holzer, once his ally, was caught plotting to let Frederick back in and was executed. Then on 2 December 1463 Albert died suddenly in Vienna, a fortnight short of his 45th birthday. He had no children. Frederick got all of Austria back without a fight."
+      ],
+      "claims": [
+        {
+          "text": "Albert was poisoned.",
+          "status": "disputed",
+          "note": "Rumours spread at once. His doorkeeper Hanns Hierszmann wrote a detailed account of his last days, but the real cause of death has never been settled."
+        },
+        {
+          "text": "Little Maximilian went hungry during the siege of the Hofburg.",
+          "status": "disputed",
+          "note": "The family really was trapped for weeks, but the vivid details come from the books Maximilian later had written about his own life."
+        },
+        {
+          "text": "“The Prodigal” was a nickname pinned on him by the winning side.",
+          "status": "disputed",
+          "note": "His biographer Konstantin Langmaier argues Frederick's camp shaped his memory. Albert did spend freely and run up heavy debts."
+        }
+      ],
+      "hook": "Albert is dead and Austria is Frederick's again. The little boy who sat out the siege in the Hofburg is Maximilian, and in 1493 his turn finally comes.",
+      "images": [
+        {
+          "file": "File:Albrecht VI. (Miniatur in Gebetbuch).jpg",
+          "url": "https://upload.wikimedia.org/wikipedia/commons/4/4b/Albrecht_VI._%28Miniatur_in_Gebetbuch%29.jpg",
+          "page": "https://commons.wikimedia.org/wiki/File:Albrecht_VI._(Miniatur_in_Gebetbuch).jpg",
+          "credit": "Unknown illuminator",
+          "license": "Public domain",
+          "made": "1455–63",
+          "caption": "From a prayer book made for Albert himself between 1455 and 1463.",
+          "alt": "Medieval miniature of Archduke Albert VI seated on a throne, holding a rosary"
+        }
+      ],
+      "sources": [
+        {
+          "title": "Erzherzog Albrecht VI. von Österreich (1418–1463): Ein Fürst im Spannungsfeld von Dynastie, Regionen und Reich",
+          "author": "Konstantin M. Langmaier",
+          "note": "Böhlau, 2015 (Regesta Imperii Beihefte 38)"
+        },
+        {
+          "title": "Kaiser Friedrich III.",
+          "author": "Heinrich Koller",
+          "note": "Wissenschaftliche Buchgesellschaft, 2005"
+        },
+        {
+          "title": "The Habsburgs: The Rise and Fall of a World Power",
+          "author": "Martyn Rady",
+          "note": "Allen Lane, 2020"
+        }
+      ],
+      "review": {
+        "status": "draft",
+        "notes": "Drafted from the listed sources; needs a human fact-check."
       }
     },
     {
@@ -1346,7 +1514,7 @@
       "ageAtAccession": "34",
       "cameToPower": "Inherited; already King of the Romans",
       "reignEnded": "Died at Wels",
-      "previously": "Old Frederick dies at Linz, having outlasted his brother and Corvinus.",
+      "previously": "Albert is gone. Frederick outlasts Corvinus too, and dies at Linz.",
       "paragraphs": [
         "Maximilian was everything his father wasn't: dashing, restless, always broke. At 18 he married Mary of Burgundy and won the rich Low Countries along with her. She died after a fall from her horse in 1482. Six years later the people of Bruges locked him up for months. He loved tournaments, armour and hunting, and he wrote or commissioned books about himself as a heroic knight.",
         "His real triumphs came through weddings. His son Philip married Joanna, heiress of Castile and Aragon. In 1515 a double betrothal in Vienna tied his grandchildren to the royal family of Hungary and Bohemia. In 1508, unable to reach Rome for a crowning, he simply declared himself Elected Roman Emperor. Wars against France and Venice drained him and he never stopped borrowing.",
@@ -2228,7 +2396,19 @@
       "review": {
         "status": "draft",
         "notes": "Drafted from the listed sources; needs a human fact-check."
-      }
+      },
+      "members": [
+        {
+          "name": "Francis I Stephen of Lorraine",
+          "start": {
+            "date": "1740-11-21"
+          },
+          "end": {
+            "date": "1765-08-18"
+          },
+          "note": "Her husband, named co-regent of the Habsburg lands; elected emperor in 1745 and ran the family finances"
+        }
+      ]
     },
     {
       "id": "joseph-ii",
