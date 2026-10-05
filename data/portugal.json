@@ -1253,10 +1253,10 @@
         "date": "1385-04-06"
       },
       "contestedWith": [],
-      "relationToPredecessor": "Followed Ferdinand I's death",
-      "ageAtAccession": "No monarch",
-      "cameToPower": "Leonor Teles became regent",
-      "reignEnded": "Cortes acclaimed the Master of Aviz",
+      "relationToPredecessor": "Ferdinand I's widow ruled for daughter",
+      "ageAtAccession": "Beatrice was 10",
+      "cameToPower": "Leonor Teles regent for Beatrice",
+      "reignEnded": "Coimbra Cortes acclaimed John of Aviz",
       "previously": "Ferdinand I dies. His widow rules for their daughter, Castile's queen.",
       "paragraphs": [
         "Leonor Teles ruled for her daughter Beatrice, whose husband was the King of Castile. To many Portuguese that meant handing the country to Castile. On 6 December 1383 John, Master of Aviz, Ferdinand's illegitimate half-brother, walked into the palace and killed Leonor's favourite, Count Andeiro. A Lisbon crowd hailed John as Defender of the Realm, and threw the Castilian-born bishop from the cathedral tower.",
@@ -1311,7 +1311,51 @@
       "review": {
         "status": "draft",
         "notes": "Drafted from the listed sources; needs a human fact-check."
-      }
+      },
+      "members": [
+        {
+          "name": "Leonor Teles",
+          "start": {
+            "date": "1383-10-22"
+          },
+          "end": {
+            "date": "1384-01",
+            "circa": true
+          },
+          "note": "Ferdinand I's widow, regent for Beatrice; handed the regency to John I of Castile, who shut her in a convent"
+        },
+        {
+          "name": "Beatrice of Portugal",
+          "start": {
+            "date": "1383-10-22"
+          },
+          "end": {
+            "date": "1385-04-06"
+          },
+          "note": "Ferdinand's only legitimate child and Castile's queen; proclaimed but never ruled; Portuguese lists omit her"
+        },
+        {
+          "name": "John I of Castile",
+          "start": {
+            "date": "1384-01",
+            "circa": true
+          },
+          "end": {
+            "date": "1385-04-06"
+          },
+          "note": "Beatrice's husband; claimed the crown in her name; besieged Lisbon in 1384 until plague drove him off"
+        },
+        {
+          "name": "John, Master of Aviz",
+          "start": {
+            "date": "1383-12-16"
+          },
+          "end": {
+            "date": "1385-04-06"
+          },
+          "note": "Ferdinand's illegitimate half-brother; Defender of the Realm, then acclaimed King John I at Coimbra"
+        }
+      ]
     },
     {
       "id": "john-i",
