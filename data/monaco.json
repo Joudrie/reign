@@ -136,7 +136,8 @@
       "name": "Jean I",
       "house": "grimaldi",
       "born": {
-        "date": "1382"
+        "date": "1382",
+        "circa": true
       },
       "died": {
         "date": "1454-05-08"
@@ -204,7 +205,7 @@
       "name": "Honoré I",
       "house": "grimaldi",
       "born": {
-        "date": "1522"
+        "date": "1522-12-16"
       },
       "died": {
         "date": "1581-10-07"
@@ -432,21 +433,21 @@
       "paragraphs": [
         "Thirty years after Malizia lost the Rock, his cousin Rainier's son Charles got it back. Genoa was busy tearing itself apart again, and on 12 September 1331 the Grimaldis were back behind the walls. This time Charles wanted more than a fortress. He wanted a little state.",
         "So he went shopping. He bought Menton along the coast in 1346 and Roquebrune in 1355. He paid for it as a soldier for hire, fighting for the King of France in the Hundred Years' War. At Crécy in 1346 he helped lead the Genoese crossbowmen, who were shot to pieces by the English longbows. From 1352 he shared the lordship with his uncle Antoine and his sons Rainier and Gabriel.",
-        "Genoa never forgave the loss. In 1357 a Genoese force laid siege to the Rock. Charles died that year, as the walls were about to fall, and his son Rainier was left to make a deal."
+        "Genoa never forgave the loss. In 1357 a Genoese force laid siege to the Rock. Charles died that year, as the walls were about to fall, and his heirs were left to make a deal."
       ],
       "claims": [
         {
           "text": "Charles helped lead the Genoese crossbowmen at Crécy in 1346.",
-          "status": "confirmed",
-          "note": "The Florentine chronicler Giovanni Villani names a Grimaldi and a Doria as their captains; historians identify the Grimaldi as Charles."
+          "status": "disputed",
+          "note": "Later histories name a Carlo Grimaldi and an Ottone Doria as the crossbowmen's captains. That this Grimaldi was Monaco's Charles is the usual reading, not a certainty."
         },
         {
           "text": "Charles bought Menton in 1346 and Roquebrune in 1355.",
           "status": "confirmed",
-          "note": "The purchases are documented and appear in all the standard histories of Monaco."
+          "note": "Both towns came to him in those years and appear in all the standard histories; Roquebrune is sometimes said to have been taken rather than bought."
         }
       ],
-      "hook": "Genoa's soldiers are at the gates, and Charles is dead. His son Rainier holds the Rock, but for how long, and at what price?",
+      "hook": "Genoa's soldiers are at the gates, and Charles is dead. His heirs still hold the Rock, but for how long, and at what price?",
       "images": [
         {
           "file": "File:Charles Ier.jpg",
@@ -455,7 +456,7 @@
           "credit": "Unknown artist",
           "license": "Public domain",
           "made": "Unknown date",
-          "caption": "An imagined portrait from Monaco's princely collection; its painter and date are unknown, and it was made long after his death.",
+          "caption": "An imagined portrait made long after his death; its painter and date are unknown.",
           "alt": "Painted portrait of Charles I, Lord of Monaco"
         }
       ],
@@ -501,7 +502,7 @@
       "reignEnded": "Louis Grimaldi's raid, 1395",
       "previously": "Charles I dies as Genoa besieges the Rock and takes it back.",
       "paragraphs": [
-        "In 1357 the Genoese came for their fortress. Charles I was dead, and his son Rainier II had no hope of holding out. So he sold up. For 20,000 florins he handed the Rock to the besiegers and walked away. Genoa was back in charge, under Doge Simone Boccanegra.",
+        "In 1357 the Genoese came for their fortress. Charles I was dead, and his heirs had no hope of holding out. So the family sold up. For 20,000 florins, in the name of his son Rainier II, they handed the Rock to the besiegers and walked away. Genoa was back in charge, under Doge Simone Boccanegra.",
         "The Grimaldis did not vanish. They kept Menton and Roquebrune down the coast, and Rainier made a living as a soldier for France and Naples. For almost 40 years the family looked out at the Rock they no longer owned.",
         "Genoa had its own troubles. Doges came and went, Adornos and Fregosos and Guarcos, in a blur of coups. By the 1390s the city was in such a mess that it would soon hand itself over to the King of France."
       ],
@@ -509,7 +510,7 @@
         {
           "text": "Rainier II gave up the Rock to Genoa for 20,000 florins.",
           "status": "confirmed",
-          "note": "The sale is given in the standard histories of Monaco; the sum is the usual figure."
+          "note": "The deal and the sum are in the standard histories. Rainier is usually said to be born in 1350, which would make him a child who signed nothing himself."
         },
         {
           "text": "Simone Boccanegra, the doge who took the Rock, was poisoned in 1363.",
@@ -526,7 +527,7 @@
           "credit": "Unknown artist",
           "license": "Public domain",
           "made": "Unknown date",
-          "caption": "Rainier II, who sold the Rock to Genoa, in an imagined portrait from Monaco's princely collection; painter and date unknown.",
+          "caption": "Rainier II, who sold the Rock to Genoa, in an imagined portrait made long after his time; painter and date unknown.",
           "alt": "Painted portrait of Rainier II Grimaldi"
         }
       ],
@@ -570,7 +571,7 @@
           "end": {
             "date": "1395-01"
           },
-          "note": "Son of Charles I; co-lord 1352-57; kept Menton and Roquebrune; a soldier for France and Naples; died 1407"
+          "note": "Son of Charles I; named co-lord in 1352, probably as a small child; kept Menton and Roquebrune; a soldier for France and Naples; died 1407"
         },
         {
           "name": "Simone Boccanegra",
@@ -644,7 +645,7 @@
       "reignEnded": "Handed the Rock back to Genoa",
       "previously": "Genoa holds the Rock. The Grimaldis keep only Menton and Roquebrune.",
       "paragraphs": [
-        "For almost 40 years the Grimaldis had watched their Rock from Menton. In January 1395 Charles I's son Louis decided to stop watching. He took the fortress with his nephew Jean, Rainier II's boy, as his partner. Genoa was in chaos and briefly could not stop him.",
+        "For almost 40 years the Grimaldis had watched their Rock from Menton. In January 1395 Charles I's son Louis decided to stop watching. He took the fortress, and his young nephew Jean, Rainier II's boy, was named lord alongside him. Genoa was in chaos and briefly could not stop him.",
         "It did not last. By 19 December 1395 the Genoese had the Rock back. Louis waited, and on 11 May 1397 he took it again, this time for five years. But Genoa was now under the King of France, and the pressure only grew. On 5 November 1402 Louis gave up the Rock. He died the same year."
       ],
       "claims": [
@@ -705,11 +706,11 @@
       "contestedWith": [],
       "relationToPredecessor": "Nephew of Louis",
       "ageAtAccession": "About 37",
-      "cameToPower": "Bought Monaco from Genoa",
+      "cameToPower": "Bought back the Rock",
       "reignEnded": "Died in office",
       "previously": "Louis gives the Rock back to Genoa. It stays Genoese for 17 years.",
       "paragraphs": [
-        "Jean was Rainier II's son and Louis's old partner in the 1395 raid. In June 1419 he and his brothers Ambroise and Antoine got the Rock back, this time mostly with money. Genoa was hard up and Monaco was for sale.",
+        "Jean was Rainier II's son, named co-lord with his uncle Louis as a boy in 1395. In June 1419 he and his brothers Ambroise and Antoine got the Rock back, this time mostly with money. The Rock was for sale, and they paid.",
         "At first the three brothers ran it together. Then they split the family lands: Jean kept Monaco, and his brothers took Menton and Roquebrune. Jean married Pomellina Fregoso, from one of Genoa's top political families, and held on for 35 years through all the wars of the region. That long grip is why the 1419 recovery counts as the one that stuck.",
         "His will made a key choice for the future. It let the lordship pass to daughters if there was no son. Jean died on 8 May 1454 and his son Catalan took over."
       ],
@@ -722,7 +723,7 @@
         {
           "text": "Jean's will allowed the lordship to pass through women.",
           "status": "confirmed",
-          "note": "The will is cited by Saige and Labande, and it was the basis for Claudine's claim three years later."
+          "note": "The family histories say Jean allowed a woman to inherit if her husband took the Grimaldi name and arms; that rule was the basis of Claudine's claim three years later."
         }
       ],
       "hook": "Jean's son Catalan takes over. He has a little girl, no sons, and not much time.",
@@ -734,7 +735,7 @@
           "credit": "Unknown artist",
           "license": "Public domain",
           "made": "Unknown date",
-          "caption": "Jean I and his wife Pomellina Fregoso in an imagined portrait from Monaco's princely collection; painter and date unknown.",
+          "caption": "Jean I and his wife Pomellina Fregoso in an imagined portrait made long after their time; painter and date unknown.",
           "alt": "Painted portrait of Jean I of Monaco and his wife"
         }
       ],
@@ -787,7 +788,7 @@
         {
           "text": "Catalan's will made Claudine heir on condition she marry a Grimaldi.",
           "status": "confirmed",
-          "note": "The terms of the will are given in the standard histories of Monaco by Saige and Labande."
+          "note": "The will's terms, including Pomellina's regency, are given in the standard histories of Monaco."
         }
       ],
       "hook": "Monaco's new ruler is a girl of about six. Her grandmother is in charge, and a cousin from Antibes is waiting for his bride.",
@@ -796,9 +797,9 @@
           "file": "File:Blason pays Monaco.svg",
           "url": "https://upload.wikimedia.org/wikipedia/commons/1/12/Blason_pays_Monaco.svg",
           "page": "https://commons.wikimedia.org/wiki/File:Blason_pays_Monaco.svg",
-          "credit": "Fry1989 (Wikimedia Commons user)",
+          "credit": "Wikimedia Commons contributors (French heraldry workshop)",
           "license": "CC BY-SA 3.0",
-          "made": "Drawn 2007",
+          "made": "Drawn 2007, revised 2012",
           "caption": "No portrait of Catalan survives. This is a modern drawing of the Grimaldi arms of Monaco.",
           "alt": "Drawing of the coat of arms of Monaco, red and white lozenges"
         }
@@ -869,7 +870,7 @@
           "credit": "Unknown artist",
           "license": "Public domain",
           "made": "Unknown date",
-          "caption": "A portrait of Claudine, Lady of Monaco; its painter and date are unknown.",
+          "caption": "A portrait of Claudine, Lady of Monaco, probably made long after her lifetime; its painter and date are unknown.",
           "alt": "Painted portrait of Claudine, Lady of Monaco"
         }
       ],
@@ -934,7 +935,7 @@
           "credit": "Unknown artist",
           "license": "Public domain",
           "made": "Unknown date",
-          "caption": "Lamberto and Claudine in an imagined double portrait from Monaco's princely collection; painter and date unknown.",
+          "caption": "Lamberto and Claudine in an imagined double portrait made long after their time; painter and date unknown.",
           "alt": "Painted portraits of Lamberto and Claudine of Monaco"
         }
       ],
@@ -991,8 +992,8 @@
         },
         {
           "text": "The killing came out of a sudden quarrel.",
-          "status": "legend",
-          "note": "Later histories give different settings and motives; no detailed account from the time survives."
+          "status": "disputed",
+          "note": "Lucien wrote that it began as a row over Jean's plan to sell Monaco and that Jean struck first; his account is self-serving, and later versions differ."
         }
       ],
       "hook": "Jean II is dead, and his killer is the new lord. Lucien now has to hold Monaco against Genoa, and against his own relatives.",
@@ -1004,7 +1005,7 @@
           "credit": "Unknown artist",
           "license": "Public domain",
           "made": "Unknown date",
-          "caption": "Jean II and his wife in an imagined portrait from Monaco's princely collection; painter and date unknown.",
+          "caption": "Jean II and his wife in an imagined portrait made long after their time; painter and date unknown.",
           "alt": "Painted portrait of Jean II of Monaco and his wife"
         }
       ],
@@ -1115,12 +1116,12 @@
       },
       "contestedWith": [],
       "relationToPredecessor": "Son of Lucien",
-      "ageAtAccession": "1",
+      "ageAtAccession": "9 months",
       "cameToPower": "Father murdered",
       "reignEnded": "Died in office",
       "previously": "Lucien is murdered in his own palace by his nephew.",
       "paragraphs": [
-        "Honoré was about a year old when his father was killed. His uncle Agostino Grimaldi, Bishop of Grasse, ran Monaco for him. Agostino wanted protection from the Dorias and from Genoa, and he found it. In 1524 treaties signed at Burgos and Tordesillas put Monaco under the protection of the Emperor Charles V and Spain.",
+        "Honoré was nine months old when his father was killed. His uncle Agostino Grimaldi, Bishop of Grasse, ran Monaco for him. Agostino wanted protection from the Dorias and from Genoa, and he found it. In 1524 treaties signed at Burgos and Tordesillas put Monaco under the protection of the Emperor Charles V and Spain.",
         "Other relatives kept governing for Honoré until 1540. Then he ruled for himself for 40 more years. Spain's friendship came with strings, and Monaco slowly turned into a Spanish outpost on the French coast. Honoré married his cousin Isabella Grimaldi, and they had sons.",
         "He died on 7 October 1581 after a reign of 58 years, one of the longest in Monaco's history. His son Charles took over."
       ],
@@ -1145,8 +1146,8 @@
           "credit": "Unknown artist",
           "license": "Public domain",
           "made": "Unknown date",
-          "caption": "Honoré I in a portrait from Monaco's princely collection; its painter and date are unknown.",
-          "alt": "Painted portrait of Honoré I of Monaco from the princely collection"
+          "caption": "Honoré I with his family, in a painting held in Monaco; its painter and date are unknown.",
+          "alt": "Painting of Honoré I of Monaco with members of his family"
         }
       ],
       "sources": [
@@ -1439,7 +1440,7 @@
           "file": "File:Portrait Louis I, Prince of Monaco by an unknown artist.jpg",
           "url": "https://upload.wikimedia.org/wikipedia/commons/9/91/Portrait_Louis_I%2C_Prince_of_Monaco_by_an_unknown_artist.jpg",
           "page": "https://commons.wikimedia.org/wiki/File:Portrait_Louis_I,_Prince_of_Monaco_by_an_unknown_artist.jpg",
-          "credit": "François de Troy",
+          "credit": "Attributed to François de Troy",
           "license": "Public domain",
           "made": "c. 1670",
           "caption": "Louis I, painted around 1670, when he was in his late twenties.",
@@ -2037,7 +2038,7 @@
       "rulers": [
         "florestan"
       ],
-      "tagline": "The actor prince who lost two-thirds of Monaco",
+      "tagline": "The actor prince who lost most of Monaco",
       "start": {
         "date": "1841-10-02"
       },
