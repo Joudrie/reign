@@ -44,6 +44,12 @@
       "name": "East Germany",
       "color": "#7a4a2e",
       "plain": true
+    },
+    {
+      "id": "fdp",
+      "name": "FDP",
+      "color": "#c9a227",
+      "plain": true
     }
   ],
   "rulers": [
@@ -407,6 +413,59 @@
       "born": {
         "date": "1940-03-02",
         "note": "Nordhausen, Thuringia"
+      }
+    },
+    {
+      "id": "luther",
+      "name": "Hans Luther",
+      "house": "weimar",
+      "born": {
+        "date": "1879-03-10",
+        "note": "Berlin"
+      },
+      "died": {
+        "date": "1962-05-11",
+        "note": "Düsseldorf"
+      }
+    },
+    {
+      "id": "simons",
+      "name": "Walter Simons",
+      "house": "weimar",
+      "born": {
+        "date": "1861-09-24",
+        "note": "Elberfeld (now Wuppertal)"
+      },
+      "died": {
+        "date": "1937-07-14",
+        "note": "Neubabelsberg, Potsdam"
+      }
+    },
+    {
+      "id": "donitz",
+      "name": "Karl Dönitz",
+      "house": "nazi",
+      "born": {
+        "date": "1891-09-16",
+        "note": "Grünau, near Berlin"
+      },
+      "died": {
+        "date": "1980-12-24",
+        "note": "Aumühle, Schleswig-Holstein"
+      },
+      "causeOfDeath": "Heart attack"
+    },
+    {
+      "id": "scheel",
+      "name": "Walter Scheel",
+      "house": "fdp",
+      "born": {
+        "date": "1919-07-08",
+        "note": "Solingen"
+      },
+      "died": {
+        "date": "2016-08-24",
+        "note": "Bad Krozingen"
       }
     }
   ],
@@ -1202,7 +1261,7 @@
           "note": "Biographers agree he put off treatment during the trial, though nobody can say he would have lived otherwise."
         }
       ],
-      "hook": "Ebert's death means the first direct election for president. The nationalist right needs a famous name, and finds one: a retired 77-year-old field marshal, the hero of Tannenberg.",
+      "hook": "Ebert is dead and the republic has no president. Until the voters pick one, the job falls to the chancellor: a non-party finance man who has just helped rescue the mark.",
       "images": [
         {
           "file": "File:Bundesarchiv Bild 102-00015, Friedrich Ebert.jpg",
@@ -1235,6 +1294,164 @@
       "review": {
         "status": "draft",
         "notes": "Drafted from the listed sources; needs a human fact-check."
+      },
+      "members": [
+        {
+          "name": "Hugo Haase",
+          "start": {
+            "date": "1918-11-10"
+          },
+          "end": {
+            "date": "1918-12-29"
+          },
+          "note": "USPD leader; co-chaired the Council of People's Deputies with Ebert until his party walked out"
+        }
+      ]
+    },
+    {
+      "id": "luther",
+      "kind": "leader",
+      "rulers": [
+        "luther"
+      ],
+      "tagline": "The chancellor who briefly held both top jobs",
+      "start": {
+        "date": "1925-02-28"
+      },
+      "end": {
+        "date": "1925-03-12"
+      },
+      "contestedWith": [],
+      "relationToPredecessor": "Ebert's chancellor",
+      "ageAtAccession": "45",
+      "cameToPower": "Chancellor stands in for the president",
+      "reignEnded": "Handed the post to a judge",
+      "previously": "President Ebert dies in office, worn down by years of crisis.",
+      "paragraphs": [
+        "Hans Luther was a Berlin lawyer and city administrator who had been mayor of Essen through the revolution. In October 1923, with the mark worth less than the paper it was printed on, he became finance minister. He brought in the new Rentenmark, raised taxes and cut almost a quarter of the Reich's staff in four months. Prices stopped exploding. In January 1925 Ebert asked him, a man with no party, to form a government.",
+        "Seven weeks later Ebert was dead. The constitution said the chancellor stood in for the president, so for twelve days Luther was head of state and head of government at once. Parliament soon passed a law giving the caretaker job to the head of the supreme court. Luther stayed chancellor, signed the Locarno treaties that autumn, and fell in May 1926 over a decree letting embassies fly the old imperial colours.",
+        "He went on to run the Reichsbank through the banking crash of 1931. In March 1933 Hitler pushed him out and sent him to Washington as ambassador."
+      ],
+      "claims": [
+        {
+          "text": "When the currency was reset, one Rentenmark bought a trillion old paper marks.",
+          "status": "confirmed",
+          "note": "The exchange rate was fixed at one trillion to one in November 1923. Luther's finance ministry pushed the reform through by decree."
+        },
+        {
+          "text": "Luther was shot and wounded on a Berlin station platform in 1932.",
+          "status": "confirmed",
+          "note": "He was hit in the shoulder at the Potsdam station in April 1932. The attackers had written to complain about his money policy."
+        },
+        {
+          "text": "Hitler forced Luther out of the Reichsbank because he would not pay for rearmament.",
+          "status": "disputed",
+          "note": "Luther resigned on 16 March 1933 and Schacht replaced him that day. The story of Hitler's threats comes largely from Luther's own account."
+        }
+      ],
+      "hook": "Running the government and standing in as president is too much for one man. Parliament hands the presidency to a judge: the head of the Reich's supreme court in Leipzig.",
+      "images": [
+        {
+          "file": "File:Bundesarchiv Bild 102-00960, Hans Luther.jpg",
+          "url": "https://upload.wikimedia.org/wikipedia/commons/8/84/Bundesarchiv_Bild_102-00960%2C_Hans_Luther.jpg",
+          "page": "https://commons.wikimedia.org/wiki/File:Bundesarchiv_Bild_102-00960,_Hans_Luther.jpg",
+          "credit": "Unknown photographer (German Federal Archive)",
+          "license": "CC BY-SA 3.0 de",
+          "made": "1925",
+          "caption": "Taken in January 1925, when Ebert asked Luther to form a government.",
+          "alt": "Black-and-white photograph of Hans Luther, then finance minister"
+        }
+      ],
+      "sources": [
+        {
+          "title": "Politiker ohne Partei: Erinnerungen",
+          "author": "Hans Luther",
+          "note": "Memoirs, DVA, 1960"
+        },
+        {
+          "title": "Akten der Reichskanzlei: Die Kabinette Luther I und II",
+          "author": "Karl-Heinz Minuth (ed.)",
+          "note": "Boldt, 1977"
+        },
+        {
+          "title": "The Weimar Republic: The Crisis of Classical Modernity",
+          "author": "Detlev J. K. Peukert",
+          "note": "English trans. Allen Lane, 1991"
+        }
+      ],
+      "review": {
+        "status": "draft",
+        "notes": "Drafted from the listed sources; needs a human fact-check."
+      }
+    },
+    {
+      "id": "simons",
+      "kind": "leader",
+      "rulers": [
+        "simons"
+      ],
+      "tagline": "The supreme court judge who kept the seat warm",
+      "start": {
+        "date": "1925-03-12"
+      },
+      "end": {
+        "date": "1925-05-12"
+      },
+      "contestedWith": [],
+      "relationToPredecessor": "None; head of the supreme court",
+      "ageAtAccession": "63",
+      "cameToPower": "Made acting president by law",
+      "reignEnded": "Handed over to Hindenburg",
+      "previously": "Chancellor Luther hands the caretaker presidency to a judge.",
+      "paragraphs": [
+        "Walter Simons came from a Huguenot family of silk makers in Elberfeld. A lawyer in the Foreign Office, he ran the staff of the German delegation at Versailles in 1919 and quit rather than help sign the treaty. As foreign minister in 1920 and 1921 he faced the Allies over reparations at Spa and in London. In 1922 Ebert made him president of the Reichsgericht in Leipzig, Germany's highest court.",
+        "When Ebert died, parliament made Simons acting president until the voters chose a new one. For two months he did the job quietly. The first round on 29 March gave nobody a majority, and centrists floated Simons himself as a compromise. He said no. On 26 April Hindenburg won the run-off, and Simons went back to his court. He resigned in 1929 after a row with the president and the government."
+      ],
+      "claims": [
+        {
+          "text": "Simons was asked to run for president as a compromise and turned it down.",
+          "status": "confirmed",
+          "note": "Chancellor Luther tried to get both run-off camps to stand aside for him. Simons refused to be nominated."
+        },
+        {
+          "text": "His grandson Wolfgang Huber later led Germany's Protestant church.",
+          "status": "confirmed",
+          "note": "Huber, a Berlin bishop, chaired the council of the Evangelical Church in Germany from 2003 to 2009."
+        }
+      ],
+      "hook": "The first round settles nothing. For the run-off the right drafts a new candidate: a retired 77-year-old field marshal, the hero of Tannenberg.",
+      "images": [
+        {
+          "file": "File:Bundesarchiv Bild 102-12279, Walter Simons.jpg",
+          "url": "https://upload.wikimedia.org/wikipedia/commons/d/de/Bundesarchiv_Bild_102-12279%2C_Walter_Simons.jpg",
+          "page": "https://commons.wikimedia.org/wiki/File:Bundesarchiv_Bild_102-12279,_Walter_Simons.jpg",
+          "credit": "Unknown photographer (German Federal Archive)",
+          "license": "CC BY-SA 3.0 de",
+          "made": "1931",
+          "caption": "Simons at 70 in 1931, six years after his spell as acting president.",
+          "alt": "Black-and-white portrait photograph of Walter Simons, an elderly man"
+        }
+      ],
+      "sources": [
+        {
+          "title": "Walter Simons als Staatsmann, Jurist und Kirchenpolitiker",
+          "author": "Horst Gründer",
+          "note": "1975"
+        },
+        {
+          "title": "Akten der Reichskanzlei: Die Kabinette Luther I und II",
+          "author": "Karl-Heinz Minuth (ed.)",
+          "note": "Boldt, 1977"
+        },
+        {
+          "title": "Weimar Germany: Promise and Tragedy",
+          "author": "Eric D. Weitz",
+          "note": "Princeton University Press, 2007"
+        }
+      ],
+      "review": {
+        "status": "draft",
+        "notes": "Drafted from the listed sources; needs a human fact-check."
       }
     },
     {
@@ -1255,7 +1472,7 @@
       "ageAtAccession": "77",
       "cameToPower": "Won the 1925 presidential election",
       "reignEnded": "Appointed Hitler chancellor",
-      "previously": "President Ebert dies in office, worn down by years of crisis.",
+      "previously": "Simons keeps the seat warm while Germany votes for a president.",
       "paragraphs": [
         "Paul von Hindenburg had been retired when the war began. In August 1914 he and Ludendorff destroyed a Russian army at Tannenberg, and he became a living monument. In 1919 he told a parliamentary inquiry that the army had been stabbed in the back at home. It was false: the generals had asked for an armistice themselves. But the myth poisoned the republic, and in 1925 the right ran him for president.",
         "He won, aged 77, and at first he played by the rules. Then the Depression hit. By 1932 six million Germans were out of work. Hindenburg let chancellors govern by emergency decree under Article 48, bypassing parliament. Brüning, Papen and Schleicher came and went. In 1932 he was re-elected, beating Hitler with the votes of Social Democrats and Catholics who saw him as the lesser evil.",
@@ -1354,7 +1571,7 @@
           "note": "Eyewitnesses in the bunker and Soviet investigations agree. Stories of his escape have no credible evidence."
         }
       ],
-      "hook": "Germany has surrendered. Its cities are rubble, millions are dead or homeless, and the country no longer governs itself. Four Allied powers now decide what happens to it.",
+      "hook": "Hitler is dead, but the war is not yet over. His last will names a successor, and it is not one of the party chiefs. It is the admiral who ran his U-boat war.",
       "images": [
         {
           "file": "File:Bundesarchiv Bild 102-12922, Adolf Hitler.jpg",
@@ -1395,6 +1612,84 @@
       }
     },
     {
+      "id": "donitz",
+      "kind": "leader",
+      "rulers": [
+        "donitz"
+      ],
+      "tagline": "Hitler's admiral presides over the surrender",
+      "start": {
+        "date": "1945-04-30"
+      },
+      "end": {
+        "date": "1945-05-23"
+      },
+      "contestedWith": [
+        "occupation"
+      ],
+      "relationToPredecessor": "Named successor in Hitler's will",
+      "ageAtAccession": "53",
+      "cameToPower": "Named in Hitler's last testament",
+      "reignEnded": "Arrested by British troops",
+      "previously": "Hitler kills himself in the bunker as Soviet troops close in.",
+      "paragraphs": [
+        "Karl Dönitz commanded a U-boat in the First World War. In the Second he ran Germany's submarine war in the Atlantic, which sank thousands of Allied ships. About 30,000 of the 40,000 men who served in U-boats died. From 1943 he commanded the whole navy, and he was a loyal follower of Hitler. In his last testament Hitler named him Reich President and supreme commander, with Goebbels as chancellor. Goebbels killed himself the next day.",
+        "From Plön and then Flensburg, near the Danish border, Dönitz announced that Hitler had fallen fighting. He kept the war going against the Soviets while surrendering in pieces to the British and Americans, so that troops and refugees could get west. In northern Germany, military courts went on executing deserters. On 7 May General Jodl signed an unconditional surrender at Reims. It took effect late on 8 May.",
+        "Dönitz's government went on meeting in Flensburg for two more weeks, with no power over anything. On 23 May British troops arrested him and his ministers. At Nuremberg he was convicted of crimes against peace and war crimes and sentenced to ten years, which he served in Spandau prison. Released in 1956, he spent the rest of his life defending his record. He died in 1980."
+      ],
+      "claims": [
+        {
+          "text": "German radio told the nation that Hitler had died fighting at his post in Berlin.",
+          "status": "confirmed",
+          "note": "The announcement of 1 May 1945, followed by a statement from Dönitz, hid the fact that Hitler had killed himself."
+        },
+        {
+          "text": "Dönitz held off a full surrender to let soldiers and civilians escape the Red Army.",
+          "status": "disputed",
+          "note": "He made this case himself, and many did get west. Historians point out that the fighting, and the killing of deserters, went on meanwhile."
+        },
+        {
+          "text": "At Nuremberg, a statement from the American admiral Nimitz helped Dönitz's defence.",
+          "status": "confirmed",
+          "note": "Nimitz confirmed that US submarines had fought an unrestricted war in the Pacific. The court did not punish Dönitz for breaking the submarine rules."
+        }
+      ],
+      "hook": "Germany has surrendered. Its cities are rubble, millions are dead or homeless, and the country no longer governs itself. Four Allied powers now decide what happens to it.",
+      "images": [
+        {
+          "file": "File:Oberleutnant zur See Karl Dönitz as Watch Officer of U-39.jpg",
+          "url": "https://upload.wikimedia.org/wikipedia/commons/9/94/Oberleutnant_zur_See_Karl_D%C3%B6nitz_as_Watch_Officer_of_U-39.jpg",
+          "page": "https://commons.wikimedia.org/wiki/File:Oberleutnant_zur_See_Karl_D%C3%B6nitz_as_Watch_Officer_of_U-39.jpg",
+          "credit": "Unknown Imperial German Navy serviceman",
+          "license": "Public domain",
+          "made": "1917–1918",
+          "caption": "Dönitz as a young watch officer on the submarine U-39 in the First World War, almost thirty years before 1945.",
+          "alt": "Black-and-white photograph of Karl Dönitz as a young naval lieutenant of the Imperial German Navy"
+        }
+      ],
+      "sources": [
+        {
+          "title": "The End: Hitler's Germany, 1944–45",
+          "author": "Ian Kershaw",
+          "note": "Allen Lane, 2011"
+        },
+        {
+          "title": "Dönitz: The Last Führer",
+          "author": "Peter Padfield",
+          "note": "Gollancz, 1984"
+        },
+        {
+          "title": "Trial of the Major War Criminals before the International Military Tribunal",
+          "author": "International Military Tribunal",
+          "note": "Official record, 42 vols, Nuremberg, 1947–1949"
+        }
+      ],
+      "review": {
+        "status": "draft",
+        "notes": "Drafted from the listed sources; needs a human fact-check."
+      }
+    },
+    {
       "id": "occupation",
       "kind": "interregnum",
       "rulers": [],
@@ -1407,12 +1702,14 @@
       "end": {
         "date": "1949-09-15"
       },
-      "contestedWith": [],
+      "contestedWith": [
+        "donitz"
+      ],
       "relationToPredecessor": "Allied military rule",
       "ageAtAccession": "No single ruler",
       "cameToPower": "Germany surrendered unconditionally",
       "reignEnded": "Two German states founded",
-      "previously": "Hitler is dead by suicide, and Germany surrenders unconditionally.",
+      "previously": "Germany surrenders unconditionally; the Dönitz regime is arrested.",
       "paragraphs": [
         "There was no German government any more. The United States, Britain, the Soviet Union and France each ran a zone, and Berlin, deep inside the Soviet zone, was split four ways too. The lands east of the Oder and Neisse rivers went to Poland and the Soviet Union, and millions of Germans were expelled westwards. People lived in cellars, and women cleared the rubble by hand.",
         "At Nuremberg the Allies put the surviving Nazi leaders on trial. In October 1946 twelve were sentenced to death. Göring poisoned himself the night before he was due to hang. Across the zones, millions of Germans filled in questionnaires about their past, and the occupiers tried, unevenly, to weed out Nazis.",
@@ -1470,16 +1767,6 @@
         "notes": "Drafted from the listed sources; needs a human fact-check."
       },
       "members": [
-        {
-          "name": "Karl Dönitz",
-          "start": {
-            "date": "1945-04-30"
-          },
-          "end": {
-            "date": "1945-05-23"
-          },
-          "note": "Hitler's named successor; his Flensburg government was powerless after 8 May and arrested on 23 May"
-        },
         {
           "name": "Dwight D. Eisenhower",
           "start": {
@@ -1991,7 +2278,8 @@
       "contestedWith": [
         "brandt",
         "schmidt",
-        "kohl"
+        "kohl",
+        "scheel"
       ],
       "relationToPredecessor": "Ulbricht's deputy, who ousted him",
       "ageAtAccession": "58",
@@ -2020,7 +2308,7 @@
           "note": "The case was dropped in 1993 because he was dying of cancer, and he flew to join his family in Chile."
         }
       ],
-      "hook": "Rewind to Bonn in May 1974. With Brandt gone, the SPD turns to its sharp-tongued finance minister, a Hamburg man who hardly ever puts down his cigarette.",
+      "hook": "Rewind to Bonn in May 1974. Brandt has quit, and for nine days the man in charge is his deputy: a Liberal foreign minister who once had a hit record with a folk song.",
       "images": [
         {
           "file": "File:Bundesarchiv Bild 183-R1220-401, Erich Honecker (cropped).jpg",
@@ -2061,6 +2349,73 @@
       }
     },
     {
+      "id": "scheel",
+      "kind": "leader",
+      "rulers": [
+        "scheel"
+      ],
+      "tagline": "Nine days in charge, and a hit record to his name",
+      "start": {
+        "date": "1974-05-07"
+      },
+      "end": {
+        "date": "1974-05-16"
+      },
+      "contestedWith": [
+        "honecker"
+      ],
+      "relationToPredecessor": "Brandt's vice-chancellor",
+      "ageAtAccession": "54",
+      "cameToPower": "Stood in after Brandt resigned",
+      "reignEnded": "Schmidt elected chancellor",
+      "previously": "Honecker falls in 1989. Rewind to 1974: Brandt has just resigned.",
+      "paragraphs": [
+        "Walter Scheel came from Solingen, the knife-making town. Late in the war he flew as a radar operator in a Luftwaffe night fighter. He joined the liberal Free Democrats in 1946 and became their leader in 1968. A year later he took them into coalition with Brandt's Social Democrats, ending twenty years of CDU rule in Bonn. As foreign minister he was Brandt's partner in Ostpolitik, and he signed the treaty with Moscow in 1970.",
+        "He was famous for a cheerful public manner. In 1973 he recorded the old folk song 'Hoch auf dem gelben Wagen', sang it on television, and the record became a hit. When Brandt quit over the spy scandal in May 1974, Scheel ran the government for nine days as acting chancellor. Meanwhile an assembly elected him federal president, and he took up that office in July. He served until 1979."
+      ],
+      "claims": [
+        {
+          "text": "Scheel's recording of 'Hoch auf dem gelben Wagen' went into the German charts.",
+          "status": "confirmed",
+          "note": "The single came out late in 1973 and entered the West German singles chart early in 1974."
+        },
+        {
+          "text": "Scheel had been a member of the Nazi Party.",
+          "status": "confirmed",
+          "note": "Party records show he joined in 1942, while the war was on. It did not stop his rise after 1945."
+        }
+      ],
+      "hook": "The SPD needs Brandt's heir. It turns to its sharp-tongued finance minister, a Hamburg man who hardly ever puts down his cigarette.",
+      "images": [
+        {
+          "file": "File:Bundesarchiv Bild 146-1989-047-20, Walter Scheel.jpg",
+          "url": "https://upload.wikimedia.org/wikipedia/commons/4/46/Bundesarchiv_Bild_146-1989-047-20%2C_Walter_Scheel.jpg",
+          "page": "https://commons.wikimedia.org/wiki/File:Bundesarchiv_Bild_146-1989-047-20,_Walter_Scheel.jpg",
+          "credit": "Unknown photographer (German Federal Archive)",
+          "license": "CC BY-SA 3.0 de",
+          "made": "1974",
+          "caption": "Scheel's portrait from 1974, the year he stood in as chancellor and was elected president.",
+          "alt": "Black-and-white portrait photograph of Walter Scheel"
+        }
+      ],
+      "sources": [
+        {
+          "title": "Walter Scheel",
+          "author": "Office of the Federal President",
+          "note": "Biography of the former president, bundespraesident.de"
+        },
+        {
+          "title": "Willy Brandt 1913–1992: Visionär und Realist",
+          "author": "Peter Merseburger",
+          "note": "DVA, 2002"
+        }
+      ],
+      "review": {
+        "status": "draft",
+        "notes": "Drafted from the listed sources; needs a human fact-check."
+      }
+    },
+    {
       "id": "schmidt",
       "kind": "leader",
       "rulers": [
@@ -2080,7 +2435,7 @@
       "ageAtAccession": "55",
       "cameToPower": "Elected after Brandt quit",
       "reignEnded": "Ousted by a no-confidence vote",
-      "previously": "Honecker falls in 1989. Rewind to 1974: Brandt has just resigned.",
+      "previously": "Scheel minds the chancellery until the Bundestag picks Brandt's heir.",
       "paragraphs": [
         "Helmut Schmidt was blunt, clever and impatient, nicknamed 'Schmidt the Lip'. He made his name in 1962, taking charge when a storm flood swamped Hamburg. As chancellor he steered through the oil shocks and became a big figure on the world stage. He smoked menthol cigarettes everywhere, including on live TV and, much later, in places where nobody else was allowed to.",
         "His hardest test came in the 'German Autumn' of 1977. The far-left Red Army Faction kidnapped the business leader Hanns Martin Schleyer, then Palestinian allies hijacked a Lufthansa jet. Schmidt refused to free their jailed comrades. In Mogadishu, West German special forces stormed the plane and freed the hostages. Schleyer was murdered. By 1982 his FDP partners had drifted right, and they switched sides to vote him out."
