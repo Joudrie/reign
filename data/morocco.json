@@ -211,6 +211,85 @@
         "date": "1963-08-21",
         "note": "Rabat"
       }
+    },
+    {
+      "id": "ahmad-adh-dhahabi",
+      "name": "Ahmad adh-Dhahabi",
+      "house": "alaouite",
+      "born": {
+        "date": "1677",
+        "circa": true,
+        "note": "Meknes"
+      },
+      "died": {
+        "date": "1729-03-05",
+        "note": "Meknes"
+      }
+    },
+    {
+      "id": "abd-al-malik",
+      "name": "Abd al-Malik",
+      "house": "alaouite",
+      "died": {
+        "date": "1729-03-02",
+        "note": "Meknes, in prison"
+      },
+      "causeOfDeath": "Strangled in prison"
+    },
+    {
+      "id": "abdallah",
+      "name": "Abdallah",
+      "house": "alaouite",
+      "born": {
+        "date": "1694",
+        "note": "Meknes"
+      },
+      "died": {
+        "date": "1757-11-10",
+        "note": "Dar Dbibegh, Fez"
+      }
+    },
+    {
+      "id": "ali",
+      "name": "Ali",
+      "house": "alaouite",
+      "died": {
+        "date": "1737-04"
+      }
+    },
+    {
+      "id": "mohammed-ii",
+      "name": "Mohammed II",
+      "epithet": "ben Arbiya",
+      "house": "alaouite",
+      "born": {
+        "date": "1694",
+        "circa": true
+      },
+      "died": {
+        "date": "1739"
+      }
+    },
+    {
+      "id": "al-mostadi",
+      "name": "al-Mostadi",
+      "house": "alaouite",
+      "died": {
+        "date": "1759"
+      }
+    },
+    {
+      "id": "zin-al-abidin",
+      "name": "Zin al-Abidin",
+      "house": "alaouite",
+      "born": {
+        "date": "1692",
+        "circa": true
+      },
+      "died": {
+        "date": "1762",
+        "circa": true
+      }
     }
   ],
   "reigns": [
@@ -370,57 +449,912 @@
       }
     },
     {
-      "id": "after-ismail",
-      "kind": "interregnum",
-      "title": "Thirty Years of Anarchy",
-      "house": "alaouite",
-      "rulers": [],
-      "tagline": "One throne, a dozen sons, and an army selling the crown",
+      "id": "ahmad-adh-dhahabi",
+      "kind": "monarch",
+      "rulers": [
+        "ahmad-adh-dhahabi"
+      ],
+      "tagline": "Gold for the soldiers, and a throne that lasted a year",
       "start": {
         "date": "1727-03-22"
       },
       "end": {
-        "date": "1757-11-10"
+        "date": "1728-03"
       },
       "contestedWith": [],
-      "relationToPredecessor": "Ismail's sons fight it out",
-      "ageAtAccession": "No single ruler",
-      "cameToPower": "The Black Guard picked sultans",
-      "reignEnded": "Abdallah died in 1757",
+      "relationToPredecessor": "Son of Ismail",
+      "ageAtAccession": "About 50",
+      "cameToPower": "Proclaimed by the Black Guard",
+      "reignEnded": "Deposed by the Black Guard",
       "previously": "Moulay Ismail dies after 55 years, leaving dozens of sons.",
       "paragraphs": [
-        "Ismail had built the Black Guard to protect the sultan. Now it chose him. His son Ahmad adh-Dhahabi went first, was thrown out, brought back, and died within two years. His brother Abd al-Malik had a brief turn. Then came Abdallah, who held the throne in six separate spells between 1729 and 1757. He was deposed again and again, and always came back.",
-        "Behind him stood his mother, Khanatha bint Bakkar, one of Ismail's widows, a shrewd political operator in her own right. Meanwhile the country fell apart. Soldiers went unpaid and plundered instead. Famine and plague swept through. The grand palaces of Meknes were stripped and left to crumble.",
-        "Abdallah finally died on the throne on 10 November 1757. By then his son Mohammed had already proved himself as governor of Marrakesh."
+        "When Moulay Ismail died in March 1727, the Black Guard moved before anyone else could. At Meknes they hailed one of his sons, Ahmad, a man of about 50 who had once governed the Tadla region for his father. He opened the treasury and handed out coin to the soldiers by the fistful. That, so the story goes, is how he got his nickname: adh-Dhahabi, \"the Golden\".",
+        "Buying the army was easy. Keeping it was harder. The chroniclers paint him as weak and fond of drink, a sultan who let others run things while the money drained away. Within a year the soldiers who had made him were sick of him. In March 1728 the Black Guard threw him out and put his half-brother Abd al-Malik on the throne instead."
       ],
       "claims": [
         {
-          "text": "Abdallah was made and unmade sultan six times between 1729 and 1757.",
-          "status": "confirmed",
-          "note": "The standard lists of his reign show six separate spells, with brothers ruling in between."
-        },
-        {
-          "text": "His mother Khanatha bint Bakkar backed him through his comebacks.",
-          "status": "confirmed",
-          "note": "Confirmed in outline: she was an influential widow of Ismail. How much she steered events is a matter of interpretation."
-        },
-        {
-          "text": "The Black Guard put the throne up for whoever paid them best.",
+          "text": "He was called \"the Golden\" because he showered the soldiers with gold.",
           "status": "disputed",
-          "note": "Chroniclers describe the soldiers making and breaking sultans. Calling it a straight auction simplifies a messier power struggle."
+          "note": "This is the usual explanation in the Moroccan chronicles, and it fits an army that had just picked him. Nobody recorded where the name really came from."
+        },
+        {
+          "text": "Ahmad was a drunkard who could not rule.",
+          "status": "disputed",
+          "note": "The charge comes from later Moroccan chroniclers and from John Braithwaite, an Englishman in Morocco in 1727 and 1728. Both were writing about a loser, and neither was kind to him."
         }
       ],
-      "hook": "Thirty years of chaos end with a funeral. Abdallah's son Mohammed, tested as governor of Marrakesh, steps up with a plan to put the army back in its box.",
+      "hook": "Abd al-Malik has the throne. But he has a sharp tongue, the soldiers who made him are listening, and his brother Ahmad is still out there.",
       "images": [
         {
-          "file": "File:Bab Mansour Meknes 2018 1.jpg",
-          "url": "https://upload.wikimedia.org/wikipedia/commons/0/09/Bab_Mansour_Meknes_2018_1.jpg",
-          "page": "https://commons.wikimedia.org/wiki/File:Bab_Mansour_Meknes_2018_1.jpg",
+          "file": "File:A Moroccan Guard by Stefano Ussi.jpg",
+          "url": "https://upload.wikimedia.org/wikipedia/commons/0/0b/A_Moroccan_Guard_by_Stefano_Ussi.jpg",
+          "page": "https://commons.wikimedia.org/wiki/File:A_Moroccan_Guard_by_Stefano_Ussi.jpg",
+          "credit": "Stefano Ussi",
+          "license": "Public domain",
+          "made": "19th century",
+          "caption": "A Moroccan guardsman painted by the Italian artist Stefano Ussi more than a century after Ahmad's time. No portrait of Ahmad survives.",
+          "alt": "Oil painting of a Moroccan soldier carrying a long flintlock musket"
+        }
+      ],
+      "sources": [
+        {
+          "title": "The History of the Revolutions in the Empire of Morocco upon the Death of the Late Emperor Muley Ishmael",
+          "author": "John Braithwaite",
+          "note": "London, 1729; eyewitness account"
+        },
+        {
+          "title": "Kitab al-Istiqsa li-akhbar duwal al-Maghrib al-Aqsa",
+          "author": "Ahmad ibn Khalid al-Nasiri",
+          "note": "19th-century chronicle; French translation by Eugène Fumet, Archives marocaines vol. IX, 1906"
+        },
+        {
+          "title": "A History of the Maghrib in the Islamic Period",
+          "author": "Jamil M. Abun-Nasr",
+          "note": "Cambridge University Press, 1987"
+        }
+      ],
+      "review": {
+        "status": "draft",
+        "notes": "Drafted from the listed sources; needs a human fact-check."
+      }
+    },
+    {
+      "id": "abd-al-malik",
+      "kind": "monarch",
+      "rulers": [
+        "abd-al-malik"
+      ],
+      "tagline": "He picked a fight with the army that made him",
+      "start": {
+        "date": "1728-03"
+      },
+      "end": {
+        "date": "1728-07"
+      },
+      "contestedWith": [],
+      "relationToPredecessor": "Half-brother of Ahmad",
+      "ageAtAccession": "32 or 53 (unclear)",
+      "cameToPower": "Put up by the Black Guard",
+      "reignEnded": "Deposed after civil war",
+      "previously": "The Black Guard tire of Ahmad the Golden and throw him out.",
+      "paragraphs": [
+        "Abd al-Malik had once been lined up as Ismail's heir, until he fell out of favour and Ahmad was preferred. In March 1728 the soldiers gave him his chance, and he wasted it fast. He let Ahmad slip away. Then he tried to rein in the Black Guard and criticised them openly. The soldiers simply switched sides and went back to Ahmad.",
+        "Bloody fighting followed, and the brothers ended up splitting Morocco between them: Ahmad at Meknes, Abd al-Malik at Fez. It did not last. By July 1728 Abd al-Malik had lost his throne. He tried one last trick, a face-to-face meeting with Ahmad at which he meant to kill him. It failed. He was taken to Meknes under guard and locked up in a house there."
+      ],
+      "claims": [
+        {
+          "text": "Abd al-Malik lost the throne because he insulted the Black Guard.",
+          "status": "disputed",
+          "note": "The story comes from John Braithwaite, an Englishman in Morocco at the time, and from later Moroccan chronicles. With so few sources, the soldiers' real reasons are hard to pin down."
+        },
+        {
+          "text": "He was strangled in prison in Meknes on the night of 2 March 1729.",
+          "status": "confirmed",
+          "note": "Given by the chronicler al-Nasiri and by the historian Chouki El Hamel."
+        },
+        {
+          "text": "He was born in 1675.",
+          "status": "disputed",
+          "note": "His biography gives 1675, which would make him the elder brother. One list of rulers gives 1696 instead. Nobody has settled it."
+        }
+      ],
+      "hook": "Ahmad the Golden is sultan again in Meknes, and the brother who tried to kill him is his prisoner. Only one of them can come out of this alive. As it turns out, neither will.",
+      "images": [
+        {
+          "file": "File:Fes Jdid with grand mosque minaret.jpg",
+          "url": "https://upload.wikimedia.org/wikipedia/commons/2/25/Fes_Jdid_with_grand_mosque_minaret.jpg",
+          "page": "https://commons.wikimedia.org/wiki/File:Fes_Jdid_with_grand_mosque_minaret.jpg",
+          "credit": "Robert Prazeres",
+          "license": "CC BY-SA 4.0",
+          "made": "Photo 2010",
+          "caption": "Fes el-Jdid, the royal quarter of Fez, where Abd al-Malik held out in 1728 after the brothers split the country. No portrait of him survives.",
+          "alt": "Street scene in Fes el-Jdid with the minaret of the Great Mosque in the background"
+        }
+      ],
+      "sources": [
+        {
+          "title": "Black Morocco: A History of Slavery, Race, and Islam",
+          "author": "Chouki El Hamel",
+          "note": "Cambridge University Press, 2013"
+        },
+        {
+          "title": "Kitab al-Istiqsa li-akhbar duwal al-Maghrib al-Aqsa",
+          "author": "Ahmad ibn Khalid al-Nasiri",
+          "note": "19th-century chronicle; French translation by Eugène Fumet, Archives marocaines vol. IX, 1906"
+        },
+        {
+          "title": "The History of the Revolutions in the Empire of Morocco upon the Death of the Late Emperor Muley Ishmael",
+          "author": "John Braithwaite",
+          "note": "London, 1729; eyewitness account"
+        }
+      ],
+      "review": {
+        "status": "draft",
+        "notes": "Drafted from the listed sources; needs a human fact-check."
+      }
+    },
+    {
+      "id": "ahmad-adh-dhahabi-restored",
+      "kind": "monarch",
+      "rulers": [
+        "ahmad-adh-dhahabi"
+      ],
+      "tagline": "Restored, then dead three days after his brother",
+      "start": {
+        "date": "1728-07"
+      },
+      "end": {
+        "date": "1729-03-05"
+      },
+      "contestedWith": [],
+      "relationToPredecessor": "Half-brother of Abd al-Malik",
+      "ageAtAccession": "About 51",
+      "cameToPower": "The Black Guard switched back",
+      "reignEnded": "Died in Meknes",
+      "previously": "Abd al-Malik falls out with the Black Guard, who turn back to Ahmad.",
+      "paragraphs": [
+        "The soldiers who had thrown Ahmad out in the spring brought him back by the summer. In July 1728 he was sultan again in Meknes, and this time he had a score to settle. His brother Abd al-Malik had tried to have him murdered. Now Abd al-Malik sat under guard in a house in Meknes, waiting to find out what Ahmad would do with him.",
+        "In his short time on the throne Ahmad also enlarged the mausoleum where his father lay. On the night of 2 March 1729 Abd al-Malik was strangled in his prison. Three days later, on 5 March, Ahmad himself was dead. He was buried in that same mausoleum, next to Ismail. Two sultans were gone in a week, and the Black Guard went looking for the next son."
+      ],
+      "claims": [
+        {
+          "text": "Ahmad ordered his brother's murder.",
+          "status": "disputed",
+          "note": "The killing happened in Ahmad's prison while he held the throne, and it is usually laid at his door. No surviving account records him giving the order."
+        },
+        {
+          "text": "Ahmad died of an illness.",
+          "status": "disputed",
+          "note": "Illness is the usual account of his death, but the sources say very little about it."
+        },
+        {
+          "text": "He is buried beside his father in the Mausoleum of Moulay Ismail.",
+          "status": "confirmed",
+          "note": "His marble tombstone is in the tomb chamber at Meknes, next to Ismail's. Histories of the building also credit him with enlarging it."
+        }
+      ],
+      "hook": "Two sons of Ismail are dead in a week. The army and the scholars of Fez agree on a third, Abdallah, and send riders south to fetch him. His mother is a force in her own right.",
+      "images": [
+        {
+          "file": "File:Mausoleum of moulay ismail DSCF5915.jpg",
+          "url": "https://upload.wikimedia.org/wikipedia/commons/3/30/Mausoleum_of_moulay_ismail_DSCF5915.jpg",
+          "page": "https://commons.wikimedia.org/wiki/File:Mausoleum_of_moulay_ismail_DSCF5915.jpg",
+          "credit": "Robert Prazeres",
+          "license": "CC BY-SA 4.0",
+          "made": "Photo 2015",
+          "caption": "The tomb chamber of the Mausoleum of Moulay Ismail in Meknes, where Ahmad was buried beside his father.",
+          "alt": "The tomb chamber of Moulay Ismail's mausoleum in Meknes"
+        }
+      ],
+      "sources": [
+        {
+          "title": "Black Morocco: A History of Slavery, Race, and Islam",
+          "author": "Chouki El Hamel",
+          "note": "Cambridge University Press, 2013"
+        },
+        {
+          "title": "Kitab al-Istiqsa li-akhbar duwal al-Maghrib al-Aqsa",
+          "author": "Ahmad ibn Khalid al-Nasiri",
+          "note": "19th-century chronicle; French translation by Eugène Fumet, Archives marocaines vol. IX, 1906"
+        },
+        {
+          "title": "A History of the Maghrib in the Islamic Period",
+          "author": "Jamil M. Abun-Nasr",
+          "note": "Cambridge University Press, 1987"
+        }
+      ],
+      "review": {
+        "status": "draft",
+        "notes": "Drafted from the listed sources; needs a human fact-check."
+      }
+    },
+    {
+      "id": "abdallah",
+      "kind": "monarch",
+      "rulers": [
+        "abdallah"
+      ],
+      "tagline": "Round one for the sultan who always came back",
+      "start": {
+        "date": "1729-03-05"
+      },
+      "end": {
+        "date": "1734-09-28"
+      },
+      "contestedWith": [],
+      "relationToPredecessor": "Half-brother of Ahmad",
+      "ageAtAccession": "About 35",
+      "cameToPower": "Fetched from Sijilmasa by the army",
+      "reignEnded": "Deposed; fled to the far south",
+      "previously": "Abd al-Malik is strangled in prison; Ahmad dies three days later.",
+      "paragraphs": [
+        "With two brothers dead in a week, the Black Guard, the Udaya troops and the army chiefs settled on Abdallah, about 35 and living in Sijilmasa, and the scholars of Fez gave their pledge too. His mother was Khanatha bint Bakkar, a chief's daughter from the far south. She was a learned woman who had advised Ismail himself, and she would stand behind her son for the next 25 years.",
+        "Abdallah finished his father's great gate at Meknes, Bab Mansour, in 1732, and built himself a fortified palace at Fez, Dar Dbibegh. His rule was harsh, with heavy demands on Fez and the tribes, and the soldiers soon soured on him. In September 1734 the Black Guard plotted to depose and kill him. He got wind of it and fled south to his mother's people at Oued Noun, taking his sons with him."
+      ],
+      "claims": [
+        {
+          "text": "His mother Khanatha bint Bakkar steered him through his many comebacks.",
+          "status": "confirmed",
+          "note": "Confirmed in outline: she was an influential widow of Ismail and a scholar. How much she directed events is a matter of interpretation."
+        },
+        {
+          "text": "Abdallah ruled with great cruelty.",
+          "status": "disputed",
+          "note": "The chroniclers describe harsh punishments and heavy demands for money, especially on Fez. They mostly tell the story from the side of his enemies in the town."
+        },
+        {
+          "text": "Bab Mansour was finished under Abdallah in 1732.",
+          "status": "confirmed",
+          "note": "Histories of Meknes date the gate, begun under Ismail, to 1732. It is named after its designer, Mansour al-'Alj, a Christian convert to Islam."
+        }
+      ],
+      "hook": "Abdallah is hiding in the deep south. In Meknes the Black Guard need a new sultan, and they reach for another of Ismail's sons: Ali.",
+      "images": [
+        {
+          "file": "File:Mouley Abdallah.png",
+          "url": "https://upload.wikimedia.org/wikipedia/commons/5/50/Mouley_Abdallah.png",
+          "page": "https://commons.wikimedia.org/wiki/File:Mouley_Abdallah.png",
+          "credit": "Unknown artist",
+          "license": "Public domain",
+          "made": "Published 1890",
+          "caption": "Frontispiece of an 1890 edition of Thomas Pellow's tale of captivity in Morocco. How true to life it is, nobody knows.",
+          "alt": "Old book illustration of Sultan Moulay Abdallah"
+        }
+      ],
+      "sources": [
+        {
+          "title": "Kitab al-Istiqsa li-akhbar duwal al-Maghrib al-Aqsa",
+          "author": "Ahmad ibn Khalid al-Nasiri",
+          "note": "19th-century chronicle; French translation by Eugène Fumet, Archives marocaines vol. IX, 1906"
+        },
+        {
+          "title": "A History of the Maghrib in the Islamic Period",
+          "author": "Jamil M. Abun-Nasr",
+          "note": "Cambridge University Press, 1987"
+        },
+        {
+          "title": "Black Morocco: A History of Slavery, Race, and Islam",
+          "author": "Chouki El Hamel",
+          "note": "Cambridge University Press, 2013"
+        },
+        {
+          "title": "The History of the Maghrib: An Interpretive Essay",
+          "author": "Abdallah Laroui",
+          "note": "Princeton University Press, 1977"
+        }
+      ],
+      "review": {
+        "status": "draft",
+        "notes": "Drafted from the listed sources; needs a human fact-check."
+      }
+    },
+    {
+      "id": "ali",
+      "kind": "monarch",
+      "rulers": [
+        "ali"
+      ],
+      "tagline": "The soldiers' sultan, until the money ran out",
+      "start": {
+        "date": "1734-09-28"
+      },
+      "end": {
+        "date": "1736-02-14"
+      },
+      "contestedWith": [],
+      "relationToPredecessor": "Brother of Abdallah",
+      "ageAtAccession": "Unknown",
+      "cameToPower": "Picked by the Black Guard",
+      "reignEnded": "Deposed: couldn't pay the army",
+      "previously": "The Black Guard turn on Abdallah, who flees south to his mother's kin.",
+      "paragraphs": [
+        "Ali was another son of Moulay Ismail, put on the throne by the Black Guard in September 1734 after Abdallah ran for his life. Some later writers call him al-A'raj, \"the Lame\". He owed his crown entirely to the soldiers, and the soldiers wanted one thing from him: their pay.",
+        "He could not find it. Within eighteen months the Black Guard decided that Abdallah, harsh as he was, had been the better bet. On 14 February 1736 they deposed Ali and sent for his brother to come back. Ali did not have long to brood on it. He died in April 1737."
+      ],
+      "claims": [
+        {
+          "text": "Ali was nicknamed al-A'raj, \"the Lame\".",
+          "status": "disputed",
+          "note": "The name turns up in some later histories and lists. Nothing is recorded about how he came by it."
+        },
+        {
+          "text": "The Black Guard dropped him because he could not pay them.",
+          "status": "disputed",
+          "note": "The chronicles blame unpaid wages. With so few sources for these years, the full story of the switch back to Abdallah is unclear."
+        }
+      ],
+      "hook": "The soldiers send for Abdallah. He comes back from the south, but the men who recalled him have not forgotten why they threw him out.",
+      "images": [
+        {
+          "file": "File:Meknes kasbah walls DSCF5812.jpg",
+          "url": "https://upload.wikimedia.org/wikipedia/commons/a/a1/Meknes_kasbah_walls_DSCF5812.jpg",
+          "page": "https://commons.wikimedia.org/wiki/File:Meknes_kasbah_walls_DSCF5812.jpg",
+          "credit": "Robert Prazeres",
+          "license": "CC BY-SA 4.0",
+          "made": "Walls before 1727; photo 2015",
+          "caption": "The ramparts of Moulay Ismail's royal city in Meknes, home of the Black Guard who made and unmade his sons. No portrait of Ali survives.",
+          "alt": "The northern ramparts of the Kasbah of Moulay Ismail in Meknes"
+        }
+      ],
+      "sources": [
+        {
+          "title": "Kitab al-Istiqsa li-akhbar duwal al-Maghrib al-Aqsa",
+          "author": "Ahmad ibn Khalid al-Nasiri",
+          "note": "19th-century chronicle; French translation by Eugène Fumet, Archives marocaines vol. IX, 1906"
+        },
+        {
+          "title": "A History of the Maghrib in the Islamic Period",
+          "author": "Jamil M. Abun-Nasr",
+          "note": "Cambridge University Press, 1987"
+        },
+        {
+          "title": "Black Morocco: A History of Slavery, Race, and Islam",
+          "author": "Chouki El Hamel",
+          "note": "Cambridge University Press, 2013"
+        }
+      ],
+      "review": {
+        "status": "draft",
+        "notes": "Drafted from the listed sources; needs a human fact-check."
+      }
+    },
+    {
+      "id": "abdallah-1736",
+      "kind": "monarch",
+      "rulers": [
+        "abdallah"
+      ],
+      "tagline": "Back on the throne, and out again by summer",
+      "start": {
+        "date": "1736-02-14"
+      },
+      "end": {
+        "date": "1736-08-08"
+      },
+      "contestedWith": [],
+      "relationToPredecessor": "Brother of Ali",
+      "ageAtAccession": "About 42",
+      "cameToPower": "Recalled by the Black Guard",
+      "reignEnded": "Deposed by the Black Guard",
+      "previously": "Ali can't pay the soldiers, so they throw him out.",
+      "paragraphs": [
+        "In 1736 Abdallah came back from exile, called in by the same soldiers who had plotted to kill him less than two years before. He had sat out Ali's reign at Oued Noun, among his mother's kin, the M'gharfa, with his sons around him. One of them, Mohammed, would one day bring this whole mess to an end.",
+        "For now, nothing had changed. Abdallah did not trust the soldiers, the soldiers did not trust him, and there was still no money to keep them sweet. His second spell lasted less than six months. On 8 August 1736 the Black Guard deposed him again and went looking for yet another son of Ismail."
+      ],
+      "claims": [
+        {
+          "text": "Abdallah's second reign began on 14 February 1736.",
+          "status": "disputed",
+          "note": "Standard lists give 14 February. His biography also gives 23 May 1736, which may be when he was formally proclaimed."
+        },
+        {
+          "text": "He waited out his exile among his mother's people, the M'gharfa of Oued Noun.",
+          "status": "confirmed",
+          "note": "Khanatha bint Bakkar came from the M'gharfa of the far south, and the chronicles place Abdallah's refuge with his maternal uncles there."
+        }
+      ],
+      "hook": "Abdallah is out once more. The Black Guard's new man is Mohammed, a son of Ismail known by his mother's name, Arbiya. He is about to inherit a hungry country.",
+      "images": [
+        {
+          "file": "File:Bab mansour DSCF3791.jpg",
+          "url": "https://upload.wikimedia.org/wikipedia/commons/7/74/Bab_mansour_DSCF3791.jpg",
+          "page": "https://commons.wikimedia.org/wiki/File:Bab_mansour_DSCF3791.jpg",
+          "credit": "Robert Prazeres",
+          "license": "CC BY-SA 4.0",
+          "made": "Gate 1732; photo 2014",
+          "caption": "Detail of Bab Mansour in Meknes, the great gate Abdallah finished in 1732, during his first reign.",
+          "alt": "Close view of the tiled and carved decoration of the Bab Mansour gate in Meknes"
+        }
+      ],
+      "sources": [
+        {
+          "title": "Kitab al-Istiqsa li-akhbar duwal al-Maghrib al-Aqsa",
+          "author": "Ahmad ibn Khalid al-Nasiri",
+          "note": "19th-century chronicle; French translation by Eugène Fumet, Archives marocaines vol. IX, 1906"
+        },
+        {
+          "title": "A History of the Maghrib in the Islamic Period",
+          "author": "Jamil M. Abun-Nasr",
+          "note": "Cambridge University Press, 1987"
+        },
+        {
+          "title": "The History of the Maghrib: An Interpretive Essay",
+          "author": "Abdallah Laroui",
+          "note": "Princeton University Press, 1977"
+        }
+      ],
+      "review": {
+        "status": "draft",
+        "notes": "Drafted from the listed sources; needs a human fact-check."
+      }
+    },
+    {
+      "id": "mohammed-ii",
+      "kind": "monarch",
+      "rulers": [
+        "mohammed-ii"
+      ],
+      "tagline": "A hungry country, a fickle army, two years on top",
+      "start": {
+        "date": "1736-08-08"
+      },
+      "end": {
+        "date": "1738-06-18"
+      },
+      "contestedWith": [],
+      "relationToPredecessor": "Brother of Abdallah",
+      "ageAtAccession": "About 42",
+      "cameToPower": "The Black Guard's choice",
+      "reignEnded": "Deposed by the Black Guard",
+      "previously": "Abdallah lasts six months before the soldiers depose him again.",
+      "paragraphs": [
+        "Mohammed was one more son of Moulay Ismail, about 42 when the Black Guard raised him in August 1736. People called him Mohammed ben Arbiya, after his mother, to tell him apart from the other Mohammeds in a very large family. He was the soldiers' man from the start, and everyone knew it.",
+        "His timing was terrible. Drought and famine hit Morocco in the late 1730s, and people went hungry while rival armies tramped across the countryside. A sultan who could neither feed his people nor pay his men had nothing to offer. On 18 June 1738 the Black Guard deposed him. He died the following year."
+      ],
+      "claims": [
+        {
+          "text": "A severe famine struck Morocco during his reign.",
+          "status": "disputed",
+          "note": "The chronicles describe drought and hunger in the late 1730s. Exactly which years were worst is not agreed."
+        },
+        {
+          "text": "He was known as Mohammed ben Arbiya, after his mother.",
+          "status": "confirmed",
+          "note": "This is how Moroccan histories usually name him. Almost nothing is recorded about Arbiya herself."
+        }
+      ],
+      "hook": "Mohammed ben Arbiya is gone. The soldiers try yet another brother, al-Mostadi. Abdallah, meanwhile, is out there, waiting for his moment.",
+      "images": [
+        {
+          "file": "File:Heri es-Souani DSCF6025.jpg",
+          "url": "https://upload.wikimedia.org/wikipedia/commons/e/eb/Heri_es-Souani_DSCF6025.jpg",
+          "page": "https://commons.wikimedia.org/wiki/File:Heri_es-Souani_DSCF6025.jpg",
+          "credit": "Robert Prazeres",
+          "license": "CC BY-SA 4.0",
+          "made": "Built before 1727; photo 2015",
+          "caption": "A domed chamber in the Heri es-Souani, the vast grain stores and waterworks Ismail built in Meknes. No portrait of Mohammed survives.",
+          "alt": "A domed chamber with a water wheel well in the Heri es-Souani in Meknes"
+        }
+      ],
+      "sources": [
+        {
+          "title": "Kitab al-Istiqsa li-akhbar duwal al-Maghrib al-Aqsa",
+          "author": "Ahmad ibn Khalid al-Nasiri",
+          "note": "19th-century chronicle; French translation by Eugène Fumet, Archives marocaines vol. IX, 1906"
+        },
+        {
+          "title": "A History of the Maghrib in the Islamic Period",
+          "author": "Jamil M. Abun-Nasr",
+          "note": "Cambridge University Press, 1987"
+        },
+        {
+          "title": "ʿAlawīs",
+          "author": "Henri Terrasse, Encyclopaedia of Islam, 2nd edition"
+        }
+      ],
+      "review": {
+        "status": "draft",
+        "notes": "Drafted from the listed sources; needs a human fact-check."
+      }
+    },
+    {
+      "id": "al-mostadi",
+      "kind": "monarch",
+      "rulers": [
+        "al-mostadi"
+      ],
+      "tagline": "The brother who would not stay beaten",
+      "start": {
+        "date": "1738-06-18"
+      },
+      "end": {
+        "date": "1740-02"
+      },
+      "contestedWith": [],
+      "relationToPredecessor": "Brother of Mohammed ben Arbiya",
+      "ageAtAccession": "Unknown",
+      "cameToPower": "Proclaimed as Mohammed II fell",
+      "reignEnded": "Deposed by his own soldiers",
+      "previously": "Famine bites, and the Black Guard depose Mohammed ben Arbiya.",
+      "paragraphs": [
+        "Al-Mostadi, another son of Moulay Ismail, took the throne when Mohammed ben Arbiya fell in June 1738. He was the sixth of Ismail's sons to be sultan in eleven years, and he did not last much longer than the others. The soldiers who had raised him turned on him, and in February 1740 he was deposed.",
+        "Ali and Mohammed ben Arbiya both died soon after losing the throne. Al-Mostadi did not fade away. He became Abdallah's most stubborn rival, rising in revolt again and again, and the throne would come back to him twice more before he was done. He outlived Abdallah, dying in 1759."
+      ],
+      "claims": [
+        {
+          "text": "Al-Mostadi kept fighting Abdallah for the throne for most of a decade.",
+          "status": "confirmed",
+          "note": "The standard lists show him back on the throne in 1742 to 1743 and again in 1747 to 1748, between Abdallah's spells."
+        },
+        {
+          "text": "He died in 1759.",
+          "status": "disputed",
+          "note": "Most lists give 1759. At least one modern reference puts his death in 1760."
+        }
+      ],
+      "hook": "Al-Mostadi is out. Abdallah, the sultan who never stays gone, is coming back for a third time. And al-Mostadi has no intention of letting him keep it.",
+      "images": [
+        {
+          "file": "File:Royal Stables Meknes 2018 1.jpg",
+          "url": "https://upload.wikimedia.org/wikipedia/commons/6/6b/Royal_Stables_Meknes_2018_1.jpg",
+          "page": "https://commons.wikimedia.org/wiki/File:Royal_Stables_Meknes_2018_1.jpg",
           "credit": "Steven Lek",
           "license": "CC BY-SA 4.0",
-          "made": "Gate 1732; photo 2018",
-          "caption": "Bab Mansour in Meknes, Ismail's great gate, finished by his son Abdallah in 1732 in the middle of the anarchy.",
-          "alt": "The Bab Mansour gate in Meknes"
+          "made": "Built before 1727; photo 2018",
+          "caption": "The royal stables of Moulay Ismail in Meknes, part of the palace city his sons fought over. No portrait of al-Mostadi survives.",
+          "alt": "The royal stables in Meknes"
+        }
+      ],
+      "sources": [
+        {
+          "title": "Kitab al-Istiqsa li-akhbar duwal al-Maghrib al-Aqsa",
+          "author": "Ahmad ibn Khalid al-Nasiri",
+          "note": "19th-century chronicle; French translation by Eugène Fumet, Archives marocaines vol. IX, 1906"
+        },
+        {
+          "title": "A History of the Maghrib in the Islamic Period",
+          "author": "Jamil M. Abun-Nasr",
+          "note": "Cambridge University Press, 1987"
+        },
+        {
+          "title": "Black Morocco: A History of Slavery, Race, and Islam",
+          "author": "Chouki El Hamel",
+          "note": "Cambridge University Press, 2013"
+        }
+      ],
+      "review": {
+        "status": "draft",
+        "notes": "Drafted from the listed sources; needs a human fact-check."
+      }
+    },
+    {
+      "id": "abdallah-1740",
+      "kind": "monarch",
+      "rulers": [
+        "abdallah"
+      ],
+      "tagline": "Third time on the throne, and still nobody is safe",
+      "start": {
+        "date": "1740-02"
+      },
+      "end": {
+        "date": "1741-06-13"
+      },
+      "contestedWith": [],
+      "relationToPredecessor": "Brother of al-Mostadi",
+      "ageAtAccession": "About 45",
+      "cameToPower": "Back after al-Mostadi's fall",
+      "reignEnded": "Deposed, 13 June 1741",
+      "previously": "The soldiers turn on al-Mostadi and throw him out.",
+      "paragraphs": [
+        "Moulay Abdallah was sultan again, for the third time. After his first fall in 1734 he had run for his life to the far south, to his mother's family in the Oued Noun. In 1736 he got six months back on the throne before losing it again. Through all of it his mother, Khanatha bint Bakkar, Ismail's learned and canny widow, kept working for him.",
+        "He came back to a wreck of a country. The soldiers went unpaid and helped themselves instead. Famine had hit hard at the end of the 1730s. And Fez, the great old city, had never warmed to him: at his first proclamation in 1729 he had turned back at the gates and taken the oath in Fes Jdid, the palace quarter, instead.",
+        "It lasted sixteen months. On 13 June 1741 the soldiers dropped him once more."
+      ],
+      "claims": [
+        {
+          "text": "After his first fall Abdallah hid among his mother's people in the far south.",
+          "status": "confirmed",
+          "note": "Al-Nasiri's chronicle says he fled to his maternal uncles in the Oued Noun with his sons, the young Mohammed among them."
+        },
+        {
+          "text": "He snubbed Fez in 1729 because a man in his escort slandered the townspeople.",
+          "status": "disputed",
+          "note": "The story comes from al-Nasiri's 19th-century chronicle. It explains the bad blood, but nobody else tells it."
+        }
+      ],
+      "hook": "The soldiers have a new favourite: Zin al-Abidin, yet another of Ismail's many sons. Can he keep them paid where his brother could not?",
+      "images": [
+        {
+          "file": "File:Fez, Porte de Dar-Debibagh IMG27348.jpg",
+          "url": "https://upload.wikimedia.org/wikipedia/commons/3/31/Fez%2C_Porte_de_Dar-Debibagh_IMG27348.jpg",
+          "page": "https://commons.wikimedia.org/wiki/File:Fez,_Porte_de_Dar-Debibagh_IMG27348.jpg",
+          "credit": "Unknown photographer",
+          "license": "Public domain",
+          "made": "1920–21",
+          "caption": "No portrait of Abdallah from his lifetime is known. This photo of about 1920 shows the gate of Dar Dbibagh, the walled palace he built outside Fez in 1729.",
+          "alt": "Old black and white photo of a fortified gateway in a high wall outside Fez"
+        }
+      ],
+      "sources": [
+        {
+          "title": "A History of the Maghrib in the Islamic Period",
+          "author": "Jamil M. Abun-Nasr",
+          "note": "Cambridge University Press, 1987"
+        },
+        {
+          "title": "Kitab al-Istiqsa li-akhbar duwal al-Maghrib al-Aqsa",
+          "author": "Ahmad ibn Khalid al-Nasiri",
+          "note": "19th-century chronicle; French translation by Eugène Fumet, Archives marocaines vol. IX, 1906"
+        },
+        {
+          "title": "The History of the Maghrib: An Interpretive Essay",
+          "author": "Abdallah Laroui",
+          "note": "Princeton University Press, 1977"
+        }
+      ],
+      "review": {
+        "status": "draft",
+        "notes": "Drafted from the listed sources; needs a human fact-check."
+      }
+    },
+    {
+      "id": "zin-al-abidin",
+      "kind": "monarch",
+      "rulers": [
+        "zin-al-abidin"
+      ],
+      "tagline": "Five months as sultan, then a quiet twenty years",
+      "start": {
+        "date": "1741-06-13"
+      },
+      "end": {
+        "date": "1741-11-24"
+      },
+      "contestedWith": [],
+      "relationToPredecessor": "Brother of Abdallah",
+      "ageAtAccession": "About 49",
+      "cameToPower": "Raised by the Black Guard",
+      "reignEnded": "Deposed, 24 November 1741",
+      "previously": "The soldiers drop Abdallah for the third time.",
+      "paragraphs": [
+        "Zin al-Abidin was one more of Moulay Ismail's hundreds of children, and by 1741 he was about 49. The Black Guard, the slave army his father built, now picked sultans the way other armies picked camp sites. They wanted their pay, and every new sultan meant fresh handouts.",
+        "He could not keep them happy for long. After five months, on 24 November 1741, they threw him out and called Abdallah back. Unlike Abd al-Malik, who was strangled in prison in 1729, Zin al-Abidin was allowed to live. He faded from the story and died around 1762, outliving the brother who replaced him."
+      ],
+      "claims": [
+        {
+          "text": "The Black Guard put the throne up for whoever could pay them.",
+          "status": "disputed",
+          "note": "Moroccan chroniclers describe the soldiers making and breaking sultans for money. Historians see a messier contest between the army, Fez and the tribes."
+        },
+        {
+          "text": "Zin al-Abidin lived on for about twenty years after losing the throne.",
+          "status": "disputed",
+          "note": "Standard lists give his life as about 1692 to 1762, but the dates are approximate and little else is recorded about him."
+        }
+      ],
+      "hook": "Abdallah is back for a fourth go. Enjoy it while it lasts: this time he will hold the throne for just ten weeks.",
+      "images": [
+        {
+          "file": "File:Fes Sultan Guards.png",
+          "url": "https://upload.wikimedia.org/wikipedia/commons/2/2b/Fes_Sultan_Guards.png",
+          "page": "https://commons.wikimedia.org/wiki/File:Fes_Sultan_Guards.png",
+          "credit": "Commandant Laribe",
+          "license": "CC0",
+          "made": "1922",
+          "caption": "No picture of Zin al-Abidin exists. This 1922 photo, nearly two centuries later, is said by its author to show the sultan's Black Guard at the palace in Fez.",
+          "alt": "Old photo of a column of guards crossing a palace courtyard in Fez"
+        }
+      ],
+      "sources": [
+        {
+          "title": "A History of the Maghrib in the Islamic Period",
+          "author": "Jamil M. Abun-Nasr",
+          "note": "Cambridge University Press, 1987"
+        },
+        {
+          "title": "Black Morocco: A History of Slavery, Race, and Islam",
+          "author": "Chouki El Hamel",
+          "note": "Cambridge University Press, 2013"
+        },
+        {
+          "title": "Kitab al-Istiqsa li-akhbar duwal al-Maghrib al-Aqsa",
+          "author": "Ahmad ibn Khalid al-Nasiri",
+          "note": "19th-century chronicle; French translation by Eugène Fumet, Archives marocaines vol. IX, 1906"
+        }
+      ],
+      "review": {
+        "status": "draft",
+        "notes": "Drafted from the listed sources; needs a human fact-check."
+      }
+    },
+    {
+      "id": "abdallah-1741",
+      "kind": "monarch",
+      "rulers": [
+        "abdallah"
+      ],
+      "tagline": "Ten weeks on the throne, then out the door again",
+      "start": {
+        "date": "1741-11-24"
+      },
+      "end": {
+        "date": "1742-02-03"
+      },
+      "contestedWith": [],
+      "relationToPredecessor": "Brother of Zin al-Abidin",
+      "ageAtAccession": "About 47",
+      "cameToPower": "Restored after Zin al-Abidin's fall",
+      "reignEnded": "Deposed, 3 February 1742",
+      "previously": "Zin al-Abidin lasts five months before the soldiers drop him.",
+      "paragraphs": [
+        "Abdallah's fourth spell as sultan was his shortest: about ten weeks, from late November 1741 to early February 1742. There was barely time to unpack. By now the pattern was clear. The soldiers raised a sultan, waited for the money, and dumped him when it ran dry.",
+        "In among the chaos he still found time to build. In Fes Jdid, the royal quarter of Fez, he founded a mosque that still carries his name, with a burial ground for his family beside it. His mother and, in the end, he himself would be buried there. On 3 February 1742 he was out again, and an old rival was back in."
+      ],
+      "claims": [
+        {
+          "text": "Abdallah's fourth spell, about ten weeks long, was the shortest of his six.",
+          "status": "confirmed",
+          "note": "The standard lists date it from 24 November 1741 to 3 February 1742."
+        },
+        {
+          "text": "He built the Moulay Abdallah Mosque in Fes Jdid, where he is buried.",
+          "status": "confirmed",
+          "note": "French surveys of Fez's monuments credit the mosque to him. The year it was built is not known."
+        }
+      ],
+      "hook": "Al-Mostadi, thrown out in 1740, wants his throne back. And the soldiers are happy to hand it over.",
+      "images": [
+        {
+          "file": "File:Moulay abdallah mosque minaret.jpg",
+          "url": "https://upload.wikimedia.org/wikipedia/commons/f/f6/Moulay_abdallah_mosque_minaret.jpg",
+          "page": "https://commons.wikimedia.org/wiki/File:Moulay_abdallah_mosque_minaret.jpg",
+          "credit": "Robert Prazeres",
+          "license": "CC BY-SA 4.0",
+          "made": "Mosque 18th century; photo 2010",
+          "caption": "The minaret of the Moulay Abdallah Mosque in Fes Jdid, which Abdallah founded and where he lies buried.",
+          "alt": "A tall square minaret with green tiles and carved patterns, in Fez"
+        }
+      ],
+      "sources": [
+        {
+          "title": "A History of the Maghrib in the Islamic Period",
+          "author": "Jamil M. Abun-Nasr",
+          "note": "Cambridge University Press, 1987"
+        },
+        {
+          "title": "Kitab al-Istiqsa li-akhbar duwal al-Maghrib al-Aqsa",
+          "author": "Ahmad ibn Khalid al-Nasiri",
+          "note": "19th-century chronicle; French translation by Eugène Fumet, Archives marocaines vol. IX, 1906"
+        },
+        {
+          "title": "The History of the Maghrib: An Interpretive Essay",
+          "author": "Abdallah Laroui",
+          "note": "Princeton University Press, 1977"
+        }
+      ],
+      "review": {
+        "status": "draft",
+        "notes": "Drafted from the listed sources; needs a human fact-check."
+      }
+    },
+    {
+      "id": "al-mostadi-1742",
+      "kind": "monarch",
+      "rulers": [
+        "al-mostadi"
+      ],
+      "tagline": "Round two for the brother who would not go away",
+      "start": {
+        "date": "1742-02-03"
+      },
+      "end": {
+        "date": "1743-05"
+      },
+      "contestedWith": [],
+      "relationToPredecessor": "Brother of Abdallah",
+      "ageAtAccession": "Unknown",
+      "cameToPower": "Took the throne back from Abdallah",
+      "reignEnded": "Deposed, May 1743",
+      "previously": "Abdallah's fourth spell is over in ten weeks.",
+      "paragraphs": [
+        "Al-Mostadi had first been sultan in 1738, until the soldiers turned on him in 1740. He never accepted it. Again and again he rose against his brother Abdallah, and in February 1742 he was back on the throne. His birth year is not recorded; he was one of Ismail's many sons, raised in the shadow of a giant.",
+        "The country he took over was worn out. Meknes, Ismail's grand capital, was being stripped bare, its palaces falling to pieces. Rival governors and tribes ran their own corners of the kingdom. Al-Mostadi held on for about fifteen months. In May 1743 he was pushed out and Abdallah, of course, came back."
+      ],
+      "claims": [
+        {
+          "text": "Al-Mostadi kept rising against Abdallah, again and again.",
+          "status": "confirmed",
+          "note": "Moroccan chronicles and later reference works agree he revolted against his brother several times between 1738 and 1748."
+        },
+        {
+          "text": "Ismail's palaces in Meknes were looted and left to crumble during the anarchy.",
+          "status": "confirmed",
+          "note": "Described by the chroniclers and visible in the ruins. Later sultans also moved materials from Meknes to other cities."
+        }
+      ],
+      "hook": "Abdallah is back for a fifth time, and now he means to stay. He has a grown son, Mohammed, who is about to be handed Marrakesh.",
+      "images": [
+        {
+          "file": "File:Dar al-makhzen meknes DSCF5963.jpg",
+          "url": "https://upload.wikimedia.org/wikipedia/commons/7/72/Dar_al-makhzen_meknes_DSCF5963.jpg",
+          "page": "https://commons.wikimedia.org/wiki/File:Dar_al-makhzen_meknes_DSCF5963.jpg",
+          "credit": "Robert Prazeres",
+          "license": "CC BY-SA 4.0",
+          "made": "Photo 2015",
+          "caption": "No portrait of al-Mostadi exists. This is the main eastern gate of the royal palace in Meknes, the city his father built up.",
+          "alt": "A large gateway in a high wall of the royal palace in Meknes"
+        }
+      ],
+      "sources": [
+        {
+          "title": "A History of the Maghrib in the Islamic Period",
+          "author": "Jamil M. Abun-Nasr",
+          "note": "Cambridge University Press, 1987"
+        },
+        {
+          "title": "Kitab al-Istiqsa li-akhbar duwal al-Maghrib al-Aqsa",
+          "author": "Ahmad ibn Khalid al-Nasiri",
+          "note": "19th-century chronicle; French translation by Eugène Fumet, Archives marocaines vol. IX, 1906"
+        },
+        {
+          "title": "The History of the Maghrib: An Interpretive Essay",
+          "author": "Abdallah Laroui",
+          "note": "Princeton University Press, 1977"
+        }
+      ],
+      "review": {
+        "status": "draft",
+        "notes": "Drafted from the listed sources; needs a human fact-check."
+      }
+    },
+    {
+      "id": "abdallah-1743",
+      "kind": "monarch",
+      "rulers": [
+        "abdallah"
+      ],
+      "tagline": "Four steady years, by the anarchy's standards",
+      "start": {
+        "date": "1743-05"
+      },
+      "end": {
+        "date": "1747-07"
+      },
+      "contestedWith": [],
+      "relationToPredecessor": "Brother of al-Mostadi",
+      "ageAtAccession": "About 49",
+      "cameToPower": "Took the throne back from al-Mostadi",
+      "reignEnded": "Deposed, July 1747",
+      "previously": "Al-Mostadi loses the throne for the second time.",
+      "paragraphs": [
+        "Abdallah's fifth spell was his longest yet: four years. That counted as stability in those days. He was about 49, hardened by a lifetime of being thrown out and called back.",
+        "His smartest move was to send his son Sidi Mohammed to govern Marrakesh. Away from the soldiers in Meknes and the grumbling of Fez, Mohammed learned how to run a country: how to handle the tribes, raise taxes and deal with merchants. He was building the base that would one day carry him to the throne.",
+        "In July 1747 the soldiers turned on Abdallah one more time and brought back al-Mostadi."
+      ],
+      "claims": [
+        {
+          "text": "Abdallah made his son Mohammed governor of Marrakesh in the mid-1740s.",
+          "status": "disputed",
+          "note": "His years running Marrakesh for his father are well attested. References differ on the year he took up the post."
+        },
+        {
+          "text": "Mohammed's time in Marrakesh was his training for the throne.",
+          "status": "confirmed",
+          "note": "Historians such as Laroui and Abun-Nasr credit his rule there with the skills and support he used as sultan."
+        }
+      ],
+      "hook": "The soldiers have switched sides again. Al-Mostadi is back for a third go. Will it stick this time?",
+      "images": [
+        {
+          "file": "File:Der königliche Palast Dar el Makhzen, Marrakesch - panoramio.jpg",
+          "url": "https://upload.wikimedia.org/wikipedia/commons/b/b0/Der_k%C3%B6nigliche_Palast_Dar_el_Makhzen%2C_Marrakesch_-_panoramio.jpg",
+          "page": "https://commons.wikimedia.org/wiki/File:Der_königliche_Palast_Dar_el_Makhzen,_Marrakesch_-_panoramio.jpg",
+          "credit": "Martin Furtschegger",
+          "license": "CC BY 3.0",
+          "made": "Photo 2011",
+          "caption": "No portrait of Abdallah from his lifetime is known. This is the royal palace in Marrakesh, the city his son Mohammed governed; most of what stands today is later.",
+          "alt": "Walls and a gateway of the royal palace in Marrakesh"
         }
       ],
       "sources": [
@@ -435,8 +1369,150 @@
           "note": "Princeton University Press, 1977"
         },
         {
-          "title": "Mawlāy ʿAbd Allāh",
-          "author": "Encyclopaedia of Islam, 2nd edition"
+          "title": "A History of Modern Morocco",
+          "author": "Susan Gilson Miller",
+          "note": "Cambridge University Press, 2013"
+        }
+      ],
+      "review": {
+        "status": "draft",
+        "notes": "Drafted from the listed sources; needs a human fact-check."
+      }
+    },
+    {
+      "id": "al-mostadi-1747",
+      "kind": "monarch",
+      "rulers": [
+        "al-mostadi"
+      ],
+      "tagline": "Third time on the throne, and the last",
+      "start": {
+        "date": "1747-07"
+      },
+      "end": {
+        "date": "1748-10"
+      },
+      "contestedWith": [],
+      "relationToPredecessor": "Brother of Abdallah",
+      "ageAtAccession": "Unknown",
+      "cameToPower": "Recalled to the throne a third time",
+      "reignEnded": "Deposed, October 1748",
+      "previously": "The soldiers dump Abdallah for the fifth time.",
+      "paragraphs": [
+        "Al-Mostadi got his third turn on the throne in July 1747. Only Abdallah had more. But the old game was running out of road. The Black Guard was not the force it had been in Ismail's day, and the rest of the country was tired of sultans who came and went with the seasons.",
+        "After about fifteen months, in October 1748, al-Mostadi was out for good. He never ruled again. He lived on for about another decade, but the throne was settled now. The anarchy had one last act, and it belonged to Abdallah."
+      ],
+      "claims": [
+        {
+          "text": "Al-Mostadi was sultan three separate times.",
+          "status": "confirmed",
+          "note": "The standard lists show three spells: 1738 to 1740, 1742 to 1743 and 1747 to 1748."
+        },
+        {
+          "text": "Al-Mostadi died in 1759.",
+          "status": "disputed",
+          "note": "The year usually given is 1759, but some references give 1760 and others a Hijri date that does not match."
+        }
+      ],
+      "hook": "Abdallah is back for the sixth and last time. The soldiers are spent, and this time he will die a sultan.",
+      "images": [
+        {
+          "file": "File:Kasbah Cherarda.jpg",
+          "url": "https://upload.wikimedia.org/wikipedia/commons/0/03/Kasbah_Cherarda.jpg",
+          "page": "https://commons.wikimedia.org/wiki/File:Kasbah_Cherarda.jpg",
+          "credit": "Casual Builder",
+          "license": "CC BY-SA 4.0",
+          "made": "Kasbah 17th century; photo 2014",
+          "caption": "No portrait of al-Mostadi exists. This is the Kasbah Cherarda in Fez, a fortress built by the Alaouites to house their troops.",
+          "alt": "High earthen walls and towers of the Kasbah Cherarda fortress in Fez"
+        }
+      ],
+      "sources": [
+        {
+          "title": "A History of the Maghrib in the Islamic Period",
+          "author": "Jamil M. Abun-Nasr",
+          "note": "Cambridge University Press, 1987"
+        },
+        {
+          "title": "Kitab al-Istiqsa li-akhbar duwal al-Maghrib al-Aqsa",
+          "author": "Ahmad ibn Khalid al-Nasiri",
+          "note": "19th-century chronicle; French translation by Eugène Fumet, Archives marocaines vol. IX, 1906"
+        },
+        {
+          "title": "Black Morocco: A History of Slavery, Race, and Islam",
+          "author": "Chouki El Hamel",
+          "note": "Cambridge University Press, 2013"
+        }
+      ],
+      "review": {
+        "status": "draft",
+        "notes": "Drafted from the listed sources; needs a human fact-check."
+      }
+    },
+    {
+      "id": "abdallah-1748",
+      "kind": "monarch",
+      "rulers": [
+        "abdallah"
+      ],
+      "tagline": "Sixth time lucky: the sultan who outlasted the chaos",
+      "start": {
+        "date": "1748-10"
+      },
+      "end": {
+        "date": "1757-11-10"
+      },
+      "contestedWith": [],
+      "relationToPredecessor": "Brother of al-Mostadi",
+      "ageAtAccession": "About 54",
+      "cameToPower": "Restored for the sixth time",
+      "reignEnded": "Died at his palace near Fez",
+      "previously": "Al-Mostadi falls for the third and last time.",
+      "paragraphs": [
+        "The sixth time was the charm. Abdallah held the throne for nine years, and nobody threw him out. The Black Guard had lost its bite, and his son Mohammed ran much of the country from Marrakesh. In 1754 his mother Khanatha, who had backed him through every fall, died and was buried at his mosque in Fez.",
+        "On 1 November 1755 the great earthquake that flattened Lisbon also hit Morocco. Buildings came down in Meknes and Fez, and towns along the coast were battered.",
+        "Abdallah died on 10 November 1757 at Dar Dbibagh, the palace he had built outside Fez, and was buried in his mosque in Fes Jdid. He had few sons, and that made all the difference. For once there was no fight."
+      ],
+      "claims": [
+        {
+          "text": "The 1755 Lisbon earthquake did heavy damage in Morocco too.",
+          "status": "confirmed",
+          "note": "Contemporary reports describe damage in Meknes, Fez and coastal towns. How many died in Morocco is unknown."
+        },
+        {
+          "text": "Abdallah's death brought the smoothest handover since the Saadian Ahmad al-Mansur died in 1603.",
+          "status": "disputed",
+          "note": "A common verdict, since he left few rival sons. It depends on how you count earlier, briefly contested successions."
+        }
+      ],
+      "hook": "Thirty years of chaos end with a funeral. Sidi Mohammed, seasoned by years in Marrakesh, takes the throne and sets out to tame the army that broke his father.",
+      "images": [
+        {
+          "file": "File:1755 Lisbon earthquake.jpg",
+          "url": "https://upload.wikimedia.org/wikipedia/commons/c/ce/1755_Lisbon_earthquake.jpg",
+          "page": "https://commons.wikimedia.org/wiki/File:1755_Lisbon_earthquake.jpg",
+          "credit": "Unknown artist",
+          "license": "Public domain",
+          "made": "1755",
+          "caption": "A copper engraving made in 1755 of the earthquake at Lisbon. The same quake shook Meknes and Fez.",
+          "alt": "Engraving of Lisbon in ruins and in flames, with waves rushing at the shore"
+        }
+      ],
+      "sources": [
+        {
+          "title": "A History of the Maghrib in the Islamic Period",
+          "author": "Jamil M. Abun-Nasr",
+          "note": "Cambridge University Press, 1987"
+        },
+        {
+          "title": "Kitab al-Istiqsa li-akhbar duwal al-Maghrib al-Aqsa",
+          "author": "Ahmad ibn Khalid al-Nasiri",
+          "note": "19th-century chronicle; French translation by Eugène Fumet, Archives marocaines vol. IX, 1906"
+        },
+        {
+          "title": "The History of the Maghrib: An Interpretive Essay",
+          "author": "Abdallah Laroui",
+          "note": "Princeton University Press, 1977"
         }
       ],
       "review": {
