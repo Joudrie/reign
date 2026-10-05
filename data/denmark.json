@@ -850,7 +850,8 @@
       "name": "Valdemar III",
       "house": "estridsen",
       "born": {
-        "date": "1314"
+        "date": "1314",
+        "circa": true
       },
       "died": {
         "date": "1364"
@@ -1970,7 +1971,7 @@
       ],
       "claims": [
         {
-          "text": "Eric III was the only Danish king to abdicate of his own free will until Margrethe II in 2024.",
+          "text": "Eric III was the only Danish monarch to abdicate of his own free will until Margrethe II in 2024.",
           "status": "confirmed",
           "note": "Danish historians single him out this way; others who lost the crown were deposed."
         },
@@ -2801,7 +2802,7 @@
       "previously": "Eric Menved dies childless, leaving debts everywhere.",
       "paragraphs": [
         "Christopher got the crown only after signing a tough charter in 1320 that tied his hands on taxes, wars and justice. He broke it, and his creditors, the counts of Holstein, lost patience. In 1326 the nobles and Count Gerhard III threw him out and put a boy, Duke Valdemar of Schleswig, on the throne instead.",
-        "Christopher came back in 1329 with help from Gerhard's cousin, Count Johann. But the price was the whole kingdom. Danish provinces were handed to the two counts as security for loans the crown could never repay. When he died at Nykøbing Falster in 1332, Christopher owned almost nothing. Denmark had no real king."
+        "Christopher came back in 1329 with help from Gerhard's cousin, Count John. But the price was the whole kingdom. Danish provinces were handed to the two counts as security for loans the crown could never repay. When he died at Nykøbing Falster in 1332, Christopher owned almost nothing. Denmark had no real king."
       ],
       "claims": [
         {
@@ -2811,11 +2812,11 @@
         },
         {
           "text": "The 1320 charter was the harshest any Danish king had signed.",
-          "status": "confirmed",
-          "note": "Historians treat it as a turning point in noble power over the crown."
+          "status": "disputed",
+          "note": "Historians see it as a turning point in noble power over the crown, but \"harshest\" is a judgement call; Eric V's charter of 1282 came first."
         }
       ],
-      "hook": "Rewind to 1326. With Christopher on the run, Count Gerhard needs a king he can steer. He has one at home: his 12-year-old nephew, Duke Valdemar of Schleswig.",
+      "hook": "Rewind to 1326. With Christopher on the run, Count Gerhard needs a king he can steer. He has one at home: his nephew Valdemar, the boy Duke of Schleswig.",
       "images": [
         {
           "file": "File:Christoffer II af Danmark.JPG",
@@ -2860,7 +2861,7 @@
       "rulers": [
         "valdemar-iii"
       ],
-      "tagline": "A 12-year-old king, picked by his uncle",
+      "tagline": "A boy king, picked by his uncle to do as he was told",
       "start": {
         "date": "1326"
       },
@@ -2871,20 +2872,20 @@
         "christopher-ii"
       ],
       "relationToPredecessor": "Distant cousin, of King Abel's line",
-      "ageAtAccession": "About 12",
+      "ageAtAccession": "11 or 12",
       "cameToPower": "Elected after Christopher was driven out",
       "reignEnded": "Gave up the crown in 1329",
       "previously": "Christopher breaks his charter. His Holstein creditors want him out.",
       "paragraphs": [
-        "Valdemar was Duke of Schleswig almost from the cradle. His father died in 1325 and his guardian was his mother's brother, Count Gerhard III of Holstein. In 1326 Gerhard and the Danish nobles rose against Christopher II, who fled to Germany. The magnates needed a king who would do as he was told, and they chose the boy duke, a descendant of King Abel.",
+        "Valdemar became Duke of Schleswig at about 11, when his father died in 1325. His guardian was his mother's brother, Count Gerhard III of Holstein. In 1326 Gerhard and the Danish nobles rose against Christopher II, who fled to Germany. The magnates needed a king who would do as he was told, and they chose the boy duke, a descendant of King Abel.",
         "The price was paid in Schleswig. Gerhard was given the duchy as a hereditary fief, and a pledge known as the Constitutio Valdemariana said Schleswig and the Danish crown must never again be held by the same man. Gerhard ran the government. Danish lords helped themselves to castles and lands. Valdemar had a royal seal and very little else.",
         "The arrangement soured fast. In 1329 Gerhard's cousin, Count John, brought Christopher back. A deal was struck: Valdemar gave up the crown and went home to Schleswig as duke, and Gerhard took Jutland and Funen in pawn instead. Valdemar ruled Schleswig until his death in 1364, and in 1340 his sister Helvig married Christopher's son, the future Valdemar IV."
       ],
       "claims": [
         {
           "text": "In 1326 the crown promised that Schleswig and Denmark would never again share a ruler.",
-          "status": "confirmed",
-          "note": "The charter, called the Constitutio Valdemariana, survives. It fed the Schleswig question for five centuries."
+          "status": "disputed",
+          "note": "No 1326 text survives: the clause is known only because Christian I quoted it in a pledge of 1448. Most historians accept it, and it fed the Schleswig question for centuries."
         },
         {
           "text": "Valdemar was only a puppet of his uncle Gerhard.",
@@ -2901,7 +2902,7 @@
           "credit": "Emmery Rondahl (drawing of the seal)",
           "license": "Public domain",
           "made": "Seal 1326–1329; drawing before 1914",
-          "caption": "The royal seal Valdemar used as king, in a drawing by Emmery Rondahl made almost 600 years later.",
+          "caption": "The royal seal Valdemar used as king, in a drawing by Emmery Rondahl made more than 550 years later.",
           "alt": "Drawing of the medieval royal seal of King Valdemar III of Denmark"
         }
       ],
