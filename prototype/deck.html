@@ -632,7 +632,13 @@ function cutOut(key) {
   CUTS.set(key, job);
   return job;
 }
-const fillPic = im => { const k = im.dataset.pic; im.removeAttribute("data-pic"); cutOut(k).then(u => (im.src = u), () => {}); };
+// Cards newer than the sheets fall back to a Commons thumbnail of the card's own image.
+const commonsThumb = url => {
+  const m = url.match(/^(https:\/\/upload\.wikimedia\.org\/wikipedia\/(?:commons|en))\/(\w\/\w\w)\/([^/]+)$/);
+  return m ? `${m[1]}/thumb/${m[2]}/${m[3]}/480px-${m[3]}${/\.svg$/i.test(m[3]) ? ".png" : ""}` : url;
+};
+const fallbackPic = k => { const [cid, rid] = k.split("/"), u = ALL[cid]?.reigns.find(x => x.id === rid)?.images?.[0]?.url; return u && commonsThumb(u); };
+const fillPic = im => { const k = im.dataset.pic; im.removeAttribute("data-pic"); cutOut(k).then(u => (im.src = u), () => { const u = fallbackPic(k); if (u) im.src = u; }); };
 const picSeen = new IntersectionObserver(es => es.forEach(e => { if (e.isIntersecting) { picSeen.unobserve(e.target); fillPic(e.target); } }), { rootMargin: "400px" });
 new MutationObserver(ms => ms.forEach(m => m.addedNodes.forEach(n => {
   if (n.nodeType !== 1) return;
@@ -855,8 +861,8 @@ function jumpTo(i) { show("read"); go(i, 0, true); }
 /* ---------------- timeline: compare chosen countries side by side on one year axis ---------------- */
 // Pick a few countries and they split the screen; scrolling only goes up and down, and every column moves
 // together, so who-ruled-beside-whom is a straight line across. Westeros keeps its own calendar and column.
-const ZOOMS = [2, 4, 8, 16, 32];          // px per year
-let zoom = 1;
+const ZOOMS = [0.5, 1, 2, 4, 8, 16, 32];  // px per year
+let zoom = 3;
 // Neighbours sit together: Rome, the British Isles, western Europe, Scandinavia, then east to Japan.
 const TL_ORDER = ["egypt", "ptolemaic", "rome", "papacy", "byzantium", "venice", "greece", "bulgaria", "hre", "bohemia", "england", "scotland", "france", "belgium", "netherlands", "luxembourg", "spain", "portugal", "monaco", "italy", "germany", "liechtenstein", "denmark", "norway", "sweden", "poland", "austria", "hungary", "russia", "ottoman", "georgia", "umayyad", "abbasid", "iran", "morocco", "jordan", "saudi", "ethiopia", "mughal", "nepal", "burma", "thailand", "vietnam", "china", "mongol", "korea", "japan", "hawaii"];
 const TL_TOP = 44;                        // height of the sticky country headers
@@ -938,7 +944,7 @@ function drawTimeline() {
       <div class="tl-head" aria-current="${cid === country}"><span class="chip-flag">${FLAGS[cid] ?? ""}</span><span>${esc(cname(cid))}</span></div>${c.html}</div>`;
   }).join("");
   const height = TL_TOP + bottom + 48;
-  const every = ppy >= 16 ? 5 : ppy >= 8 ? 10 : ppy >= 4 ? 25 : 50;
+  const every = ppy >= 16 ? 5 : ppy >= 8 ? 10 : ppy >= 4 ? 25 : ppy >= 2 ? 50 : ppy >= 1 ? 100 : 250;
   // Ticks fall on round historical years (50 BC, AD 1, AD 50): there is no year 0.
   let ticks = "", grid = "";
   const first = Math.ceil(fromAstro(t0) / every) * every;
@@ -1067,7 +1073,7 @@ function loadCountry(id, reignId) {
   // Start the timeline zoomed in enough that labels sit near their bars (Rome's third century is crowded).
   const yearsSpan = asYears(reigns[N - 1].end ?? NOW) - asYears(reigns[0].start);
   const fit = ZOOMS.findIndex(ppy => yearsSpan * ppy >= N * 56);
-  zoom = fit < 0 ? ZOOMS.length - 1 : Math.max(1, fit);
+  zoom = fit < 0 ? ZOOMS.length - 1 : Math.max(3, fit);
   haystack = reigns.map(g => [reignName(g), ...g.rulers.map(r => `${rulers[r].name} ${rulers[r].epithet ?? ""}`), ...reignHouses(g).map(h => h.name), g.tagline].join(" ").toLowerCase());
 
   anim?.stop();
