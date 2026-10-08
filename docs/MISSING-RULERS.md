@@ -9,6 +9,13 @@ Paused on 2026-10-05 to save usage. Every card is still an unchecked draft that 
 - Egypt: the 14th-16th Dynasty additions are written but not merged. The 13th Dynasty cards that start and end in the same year still need spreading out.
 - Not done: the Iran fact-check review, image licence doubts, strict validation of grouped cards, rebuilding and republishing the preview.
 
+## Done since (2026-10-08 checkpoint)
+
+- Georgia: grouped cards unrolled. No deck has grouped cards any more.
+- Added as cards: China (12), Rome (13), Egypt (all 3rd to 26th Dynasty rows plus the 14th and 16th Dynasties), HRE (4), England (Louis 1216, Richard Cromwell), France (Napoleon II), Spain (Archduke Charles), Scotland (Amlaib), Japan (Council of Five Elders), Ptolemaic (Ptolemy XIII).
+- Named as members: all MEMBER rows for England, France, Spain, Scotland, Japan, and Ptolemaic's Cleopatra card.
+- Still to do: everything below for the other decks, plus Rome's and the rest of Ptolemaic's MEMBER rows and Egypt's local and rival kings. Newer cards are short, sourced only to Wikipedia and still need a fact-check.
+
 ## Missing rulers, by deck
 
 Each section below is that deck's audit, which was mostly checked against the auditors' own knowledge because Wikipedia was rate-limiting. Lines read: name | start | end | where | why missing | add as CARD or MEMBER. Decks marked 'None missing' are complete.
