@@ -607,6 +607,15 @@
         "note": "Theobalds House, Hertfordshire"
       },
       "causeOfDeath": "Illness after a stroke"
+    },
+    {
+      "id": "amlaib",
+      "name": "Amlaíb",
+      "house": "alpin",
+      "died": {
+        "date": "0977",
+        "circa": true
+      }
     }
   ],
   "reigns": [
@@ -997,7 +1006,21 @@
       "review": {
         "status": "draft",
         "notes": "Drafted from the listed sources; needs a human fact-check."
-      }
+      },
+      "members": [
+        {
+          "name": "Eochaid",
+          "start": {
+            "date": "0878",
+            "circa": true
+          },
+          "end": {
+            "date": "0889",
+            "circa": true
+          },
+          "note": "Son of Rhun of Strathclyde; some sources make him co-king with Giric"
+        }
+      ]
     },
     {
       "id": "donald-ii",
@@ -1468,7 +1491,9 @@
       "end": {
         "date": "0995"
       },
-      "contestedWith": [],
+      "contestedWith": [
+        "amlaib"
+      ],
       "relationToPredecessor": "Brother of Dub",
       "ageAtAccession": "Unknown",
       "cameToPower": "Took over after Cuilén's death",
@@ -1532,6 +1557,62 @@
       "review": {
         "status": "draft",
         "notes": "Drafted from the listed sources; needs a human fact-check."
+      }
+    },
+    {
+      "id": "amlaib",
+      "kind": "claimant",
+      "rulers": [
+        "amlaib"
+      ],
+      "tagline": "The forgotten king killed by Kenneth II",
+      "start": {
+        "date": "0973",
+        "circa": true
+      },
+      "contestedWith": [
+        "kenneth-ii"
+      ],
+      "relationToPredecessor": "Son of King Indulf",
+      "ageAtAccession": "Unknown",
+      "cameToPower": "Claimed his father's crown",
+      "reignEnded": "Killed by Kenneth II",
+      "previously": "Kenneth II takes the crown, but Indulf's son wants it.",
+      "paragraphs": [
+        "Amlaíb, son of the earlier king Indulf, is called King of Alba by the Irish Annals of Tigernach when they record his death in 977. Most later Scottish king lists leave him out entirely.",
+        "Historians think he held at least part of the kingdom against Kenneth II for a few years in the 970s. The annals say Kenneth killed him, which ended the rival line of Indulf."
+      ],
+      "claims": [],
+      "hook": "With Amlaíb dead, Kenneth II rules unchallenged.",
+      "images": [
+        {
+          "file": "File:BookDeerLukeFol029v.jpg",
+          "url": "https://upload.wikimedia.org/wikipedia/commons/9/9b/BookDeerLukeFol029v.jpg",
+          "page": "https://commons.wikimedia.org/wiki/File:BookDeerLukeFol029v.jpg",
+          "credit": "Unknown",
+          "license": "Public domain",
+          "made": "Date not recorded",
+          "caption": "A page of the Book of Deer, a gospel book from Alba of about the 10th century. No image of Amlaíb survives.",
+          "alt": "Illuminated manuscript page with a stylised figure of the evangelist Luke"
+        }
+      ],
+      "sources": [
+        {
+          "title": "Amlaíb mac Illuilb (Wikipedia)",
+          "url": "https://en.wikipedia.org/wiki/Aml%C3%A1%C3%ADb_mac_Illuilb"
+        },
+        {
+          "title": "List of Scottish monarchs (Wikipedia)",
+          "url": "https://en.wikipedia.org/wiki/List_of_Scottish_monarchs"
+        }
+      ],
+      "review": {
+        "status": "draft",
+        "notes": "Short card added from the completeness audit; checked only against Wikipedia."
+      },
+      "end": {
+        "date": "0977",
+        "circa": true
       }
     },
     {
@@ -1680,7 +1761,20 @@
       "review": {
         "status": "draft",
         "notes": "Drafted from the listed sources; needs a human fact-check."
-      }
+      },
+      "members": [
+        {
+          "name": "Giric",
+          "start": {
+            "date": "0997",
+            "circa": true
+          },
+          "end": {
+            "date": "1005-03-25"
+          },
+          "note": "Son of Kenneth III, named as co-king in some king lists; killed with his father"
+        }
+      ]
     },
     {
       "id": "malcolm-ii",
@@ -2149,7 +2243,20 @@
       "review": {
         "status": "draft",
         "notes": "Drafted from the listed sources; needs a human fact-check."
-      }
+      },
+      "members": [
+        {
+          "name": "Edmund",
+          "start": {
+            "date": "1094-11-12"
+          },
+          "end": {
+            "date": "1097",
+            "circa": true
+          },
+          "note": "Son of Malcolm III who shared the kingdom with his uncle Donald"
+        }
+      ]
     },
     {
       "id": "duncan-ii",
@@ -4080,7 +4187,29 @@
       "review": {
         "status": "draft",
         "notes": "Drafted from the listed sources; needs a human fact-check."
-      }
+      },
+      "members": [
+        {
+          "name": "Francis",
+          "start": {
+            "date": "1558-04-24"
+          },
+          "end": {
+            "date": "1560-12-05"
+          },
+          "note": "Mary's first husband, King of France, granted the crown matrimonial of Scotland"
+        },
+        {
+          "name": "Henry Stuart, Lord Darnley",
+          "start": {
+            "date": "1565-07-29"
+          },
+          "end": {
+            "date": "1567-02-10"
+          },
+          "note": "Mary's second husband, styled King Henry; murdered at Kirk o' Field"
+        }
+      ]
     },
     {
       "id": "james-vi",

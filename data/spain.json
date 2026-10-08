@@ -356,6 +356,18 @@
         "date": "1968-01-30",
         "note": "Madrid"
       }
+    },
+    {
+      "id": "archduke-charles",
+      "name": "Charles III",
+      "house": "habsburg",
+      "epithet": "the Archduke",
+      "born": {
+        "date": "1685-10-01"
+      },
+      "died": {
+        "date": "1740-10-20"
+      }
     }
   ],
   "reigns": [
@@ -514,7 +526,19 @@
       "review": {
         "status": "draft",
         "notes": "Drafted from the listed sources; needs a human fact-check."
-      }
+      },
+      "members": [
+        {
+          "name": "Philip I (the Handsome)",
+          "start": {
+            "date": "1504-11-26"
+          },
+          "end": {
+            "date": "1506-09-25"
+          },
+          "note": "Joanna's husband, king of Castile beside her until his sudden death at Burgos"
+        }
+      ]
     },
     {
       "id": "charles-i",
@@ -955,6 +979,63 @@
       "review": {
         "status": "draft",
         "notes": "Drafted from the listed sources; needs a human fact-check."
+      },
+      "contestedWith": [
+        "archduke-charles"
+      ]
+    },
+    {
+      "id": "archduke-charles",
+      "kind": "claimant",
+      "rulers": [
+        "archduke-charles"
+      ],
+      "tagline": "The Habsburg rival who twice took Madrid",
+      "start": {
+        "date": "1705-10-09"
+      },
+      "contestedWith": [
+        "philip-v"
+      ],
+      "relationToPredecessor": "Habsburg cousin of Charles II",
+      "ageAtAccession": "20",
+      "cameToPower": "Proclaimed king in Barcelona",
+      "reignEnded": "Gave up Spain at Utrecht",
+      "previously": "Europe goes to war over who gets Spain.",
+      "paragraphs": [
+        "Archduke Charles of Austria claimed Spain as Charles III against the French-backed Philip V. Backed by Britain, the Dutch and Austria, he was proclaimed king in Barcelona in 1705 and held most of Catalonia, Valencia and Aragon. He entered Madrid in 1706 and again in 1710, but Castile stayed loyal to Philip.",
+        "In 1711 his brother died and Charles became Holy Roman Emperor. His allies lost interest in giving one man both crowns, and the peace of Utrecht left Spain to Philip. Barcelona held out for him until it fell in September 1714."
+      ],
+      "claims": [],
+      "hook": "Barcelona falls, and Philip V is king of all Spain.",
+      "images": [
+        {
+          "file": "File:Retrat de Carles III davant el port de Barcelona, Frans van Stampart.jpg",
+          "url": "https://upload.wikimedia.org/wikipedia/commons/1/14/Retrat_de_Carles_III_davant_el_port_de_Barcelona%2C_Frans_van_Stampart.jpg",
+          "page": "https://commons.wikimedia.org/wiki/File:Retrat_de_Carles_III_davant_el_port_de_Barcelona,_Frans_van_Stampart.jpg",
+          "credit": "Frans van Stampart",
+          "license": "Public domain",
+          "made": "18th centurydate QS:P571,+1750-00-00T00:00:00Z/7",
+          "caption": "Charles as King Charles III of Spain, painted with the port of Barcelona behind him, by Frans van Stampart.",
+          "alt": "Charles as King Charles III of Spain, painted with the port of Barcelona behind him, by Frans van Stampart."
+        }
+      ],
+      "sources": [
+        {
+          "title": "Charles VI, Holy Roman Emperor (Wikipedia)",
+          "url": "https://en.wikipedia.org/wiki/Charles_VI%2C_Holy_Roman_Emperor"
+        },
+        {
+          "title": "List of Spanish monarchs (Wikipedia)",
+          "url": "https://en.wikipedia.org/wiki/List_of_Spanish_monarchs"
+        }
+      ],
+      "review": {
+        "status": "draft",
+        "notes": "Short card added from the completeness audit; checked only against Wikipedia."
+      },
+      "end": {
+        "date": "1714-09-11"
       }
     },
     {
@@ -1434,7 +1515,19 @@
       "review": {
         "status": "draft",
         "notes": "Drafted from the listed sources; needs a human fact-check."
-      }
+      },
+      "members": [
+        {
+          "name": "Joachim Murat",
+          "start": {
+            "date": "1808-05-06"
+          },
+          "end": {
+            "date": "1808-06-06"
+          },
+          "note": "Napoleon's Lieutenant General ruling Madrid before Joseph arrived"
+        }
+      ]
     },
     {
       "id": "ferdinand-vii-restored",
@@ -2011,7 +2104,29 @@
       "review": {
         "status": "draft",
         "notes": "Drafted from the listed sources; needs a human fact-check."
-      }
+      },
+      "members": [
+        {
+          "name": "Maria Christina of Austria (regent)",
+          "start": {
+            "date": "1885-11-25"
+          },
+          "end": {
+            "date": "1886-05-17"
+          },
+          "note": "Ruled with the throne empty until her son Alfonso was born king"
+        },
+        {
+          "name": "Miguel Primo de Rivera",
+          "start": {
+            "date": "1923-09-13"
+          },
+          "end": {
+            "date": "1930-01-28"
+          },
+          "note": "General who seized power in a coup and ruled as dictator under the king"
+        }
+      ]
     },
     {
       "id": "second-republic",
@@ -2144,6 +2259,96 @@
             "date": "1939-03-05"
           },
           "note": "Last Prime Minister; ousted by Casado's coup in Madrid"
+        },
+        {
+          "name": "Alejandro Lerroux",
+          "start": {
+            "date": "1933-09-12"
+          },
+          "end": {
+            "date": "1935-09-25"
+          },
+          "note": "Prime Minister three times between 1933 and 1935"
+        },
+        {
+          "name": "Diego Martínez Barrio",
+          "start": {
+            "date": "1933-10-08"
+          },
+          "end": {
+            "date": "1933-12-16"
+          },
+          "note": "Prime Minister who called the 1933 election"
+        },
+        {
+          "name": "Ricardo Samper",
+          "start": {
+            "date": "1934-04-28"
+          },
+          "end": {
+            "date": "1934-10-04"
+          },
+          "note": "Prime Minister"
+        },
+        {
+          "name": "Joaquín Chapaprieta",
+          "start": {
+            "date": "1935-09-25"
+          },
+          "end": {
+            "date": "1935-12-14"
+          },
+          "note": "Prime Minister"
+        },
+        {
+          "name": "Manuel Portela Valladares",
+          "start": {
+            "date": "1935-12-14"
+          },
+          "end": {
+            "date": "1936-02-19"
+          },
+          "note": "Prime Minister who ran the 1936 election"
+        },
+        {
+          "name": "Santiago Casares Quiroga",
+          "start": {
+            "date": "1936-05-13"
+          },
+          "end": {
+            "date": "1936-07-19"
+          },
+          "note": "Prime Minister when the generals rose"
+        },
+        {
+          "name": "José Giral",
+          "start": {
+            "date": "1936-07-19"
+          },
+          "end": {
+            "date": "1936-09-04"
+          },
+          "note": "Prime Minister who armed the workers' militias"
+        },
+        {
+          "name": "Miguel Cabanellas",
+          "start": {
+            "date": "1936-07-24"
+          },
+          "end": {
+            "date": "1936-10-01"
+          },
+          "note": "Head of the rebel junta before Franco took over"
+        },
+        {
+          "name": "Council of National Defence (Miaja, Casado)",
+          "start": {
+            "date": "1939-03-05"
+          },
+          "end": {
+            "date": "1939-03-28"
+          },
+          "note": "Overthrew the last Republican government and surrendered Madrid"
         }
       ]
     },
