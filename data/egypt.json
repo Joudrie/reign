@@ -127,6 +127,16 @@
       "id": "dyn-24",
       "name": "24th Dynasty (Saite)",
       "color": "#2e7d6b"
+    },
+    {
+      "id": "dyn-16",
+      "name": "16th Dynasty (Thebes)",
+      "color": "#5b7f3a"
+    },
+    {
+      "id": "dyn-14",
+      "name": "14th Dynasty",
+      "color": "#8a5a3c"
     }
   ],
   "rulers": [
@@ -1438,6 +1448,36 @@
       "id": "sobekhotep-v",
       "name": "Sobekhotep V",
       "house": "dyn-13"
+    },
+    {
+      "id": "djehuti",
+      "name": "Djehuti",
+      "house": "dyn-16"
+    },
+    {
+      "id": "sobekhotep-viii",
+      "name": "Sobekhotep VIII",
+      "house": "dyn-16"
+    },
+    {
+      "id": "neferhotep-iii",
+      "name": "Neferhotep III",
+      "house": "dyn-16"
+    },
+    {
+      "id": "mentuhotepi",
+      "name": "Mentuhotepi",
+      "house": "dyn-16"
+    },
+    {
+      "id": "nebiriau-i",
+      "name": "Nebiriau I",
+      "house": "dyn-16"
+    },
+    {
+      "id": "bebiankh",
+      "name": "Bebiankh",
+      "house": "dyn-16"
     }
   ],
   "reigns": [
@@ -5445,7 +5485,7 @@
           "note": "A Nile-flood record carved at the fort of Kumma in Nubia is dated to his fourth year."
         }
       ],
-      "hook": "Sobekhotep is gone after about four years. The next king, Sonbef, may have been his brother, and he too has a double name that sets scholars arguing.",
+      "hook": "Sobekhotep's Egypt is not whole. Out in the eastern Delta, rulers with Canaanite names are calling themselves kings and stamping their own seals.",
       "images": [
         {
           "file": "File:Medamud. Temple of Montu. Lintel of Amenemhat Sobekhotep. Detail- Amenemhat Sobekhotep offering milk, in low relief.jpg",
@@ -5475,11 +5515,287 @@
           "note": "Blackwell, 1992"
         }
       ],
-      "contestedWith": [],
+      "contestedWith": [
+        "fourteenth-dynasty"
+      ],
       "review": {
         "status": "draft",
         "notes": "Drafted from the listed sources; needs a human fact-check."
       }
+    },
+    {
+      "id": "fourteenth-dynasty",
+      "kind": "interregnum",
+      "rulers": [],
+      "house": "dyn-14",
+      "title": "The Fourteenth Dynasty",
+      "tagline": "Delta kings with Canaanite names",
+      "start": {
+        "date": "-1773",
+        "circa": true
+      },
+      "end": {
+        "date": "-1650",
+        "circa": true
+      },
+      "contestedWith": [
+        "sobekhotep-i",
+        "sonbef",
+        "nerikare",
+        "amenemhat-v",
+        "ameny-qemau",
+        "qemau-siharnedjheritef",
+        "amenemhat-vi",
+        "nebnuni",
+        "sehetepibre",
+        "sewadjkare",
+        "nedjemibre",
+        "sobekhotep-ii",
+        "renseneb",
+        "awibre-hor",
+        "khabaw",
+        "djedkheperew",
+        "amenemhat-vii",
+        "wegaf",
+        "khendjer",
+        "imyremeshaw",
+        "intef-iv",
+        "seth-meribre",
+        "sobekhotep-iii",
+        "neferhotep-i",
+        "sihathor",
+        "sobekhotep-iv",
+        "sobekhotep-v",
+        "sobekhotep-vi",
+        "ibiau",
+        "merneferre-ay",
+        "ini",
+        "sewadjtu",
+        "ined",
+        "hori",
+        "sobekhotep-vii",
+        "thirteenth-dynasty"
+      ],
+      "relationToPredecessor": "Rivals of the 13th Dynasty kings",
+      "ageAtAccession": "Unknown",
+      "cameToPower": "Broke away in the eastern Delta",
+      "reignEnded": "Swept aside by the Hyksos",
+      "previously": "Sobekhotep I takes the throne at Itjtawy as the 13th Dynasty begins.",
+      "paragraphs": [
+        "While the 13th Dynasty ruled from Itjtawy, the eastern Delta slipped out of its hands. Shaw's scheme dates this rival line, the 14th Dynasty, from about 1773 to 1650 BC; some scholars start it near 1720 BC, and Kim Ryholt as early as 1805 BC. Its kings sat at Avaris, or at Xois if Manetho is right, and many had West Semitic names: Yakbim, Ya'ammu, Qareh ('the bald one') and 'Ammu.",
+        "Most are known only from scarab seals, and the order of the early kings is Ryholt's, worked out from the style of those seals and much disputed. The best attested is Sheshi, whose names are on almost 400 seals found from Canaan to Nubia; two impressions even turned up at Carthage, in a layer about 1,500 years younger. Ryholt makes him husband of a Nubian princess, Tati, and father of Nehesy, 'the Nubian', who ruled briefly and left monuments at Avaris.",
+        "After Nehesy the Turin list runs through dozens of names with reigns of a year or two: Merdjefare, Sewadjkare III, Nebdjefare, Webenre and many more, some lost in gaps. Both Bietak and Ryholt think famine, and perhaps plague, struck the Delta. Around 1650 BC the Hyksos took power at Avaris, and the 14th Dynasty was gone."
+      ],
+      "claims": [
+        {
+          "text": "Yakbim founded the dynasty, and Sheshi and Nehesy were father and son.",
+          "status": "disputed",
+          "note": "Kim Ryholt's reconstruction from seal styles. The early kings are missing from the Turin list, and von Beckerath and others put several of them in the 16th Dynasty."
+        },
+        {
+          "text": "Sheshi was Salitis, the Hyksos conqueror named by Manetho.",
+          "status": "disputed",
+          "note": "Nicolas Grimal, William Hayes and Donald Redford make the match; Ryholt puts Sheshi here, and others make him a later Hyksos king or vassal."
+        },
+        {
+          "text": "The 14th Dynasty had 76 kings who ruled from Xois.",
+          "status": "legend",
+          "note": "Manetho's figure, known only through later quotations. The Turin list names only about 56 kings for this line and has no room for more than about 70."
+        }
+      ],
+      "hook": "Back at Itjtawy the 13th Dynasty rolls on. Sobekhotep I is gone after about four years, and the next king, Sonbef, may have been his brother.",
+      "images": [
+        {
+          "file": "File:Canaanite - Scarab with Cartouche of King Sheshi - Walters 4217 - Bottom (2).jpg",
+          "url": "https://upload.wikimedia.org/wikipedia/commons/1/1a/Canaanite_-_Scarab_with_Cartouche_of_King_Sheshi_-_Walters_4217_-_Bottom_%282%29.jpg",
+          "page": "https://commons.wikimedia.org/wiki/File:Canaanite_-_Scarab_with_Cartouche_of_King_Sheshi_-_Walters_4217_-_Bottom_(2).jpg",
+          "credit": "Walters Art Museum",
+          "license": "Public domain",
+          "made": "c. 1648-1539 BC",
+          "caption": "The underside of a scarab naming King Sheshi, in the Walters Art Museum, Baltimore; a seal, not a portrait.",
+          "alt": "Underside of a stone scarab seal carved with a cartouche holding the name Sheshi and a wish for his life"
+        }
+      ],
+      "sources": [
+        {
+          "title": "The Political Situation in Egypt during the Second Intermediate Period, c. 1800-1550 B.C.",
+          "author": "K. S. B. Ryholt",
+          "note": "Museum Tusculanum Press, 1997; the order of the kings"
+        },
+        {
+          "title": "The Oxford History of Ancient Egypt",
+          "author": "Ian Shaw (ed.)",
+          "note": "Oxford University Press, 2000; Janine Bourriau's chapter on the Second Intermediate Period"
+        },
+        {
+          "title": "Avaris: The Capital of the Hyksos",
+          "author": "Manfred Bietak",
+          "note": "British Museum Press, 1996"
+        },
+        {
+          "title": "The Encyclopedia of the Egyptian Pharaohs, Volume I: Predynastic to the Twentieth Dynasty",
+          "author": "Darrell D. Baker",
+          "note": "Bannerstone Press, 2008"
+        }
+      ],
+      "review": {
+        "status": "draft",
+        "notes": "Drafted from the listed sources; needs a human fact-check."
+      },
+      "members": [
+        {
+          "name": "Yakbim",
+          "note": "Ryholt's founder, c. 1805-1780 BC; known from about 120 scarabs; throne name probably Sekhaenre"
+        },
+        {
+          "name": "Ya'ammu",
+          "note": "Ryholt's second king, c. 1780-1770 BC; known only from crude scarabs; throne name probably Nubwoserre"
+        },
+        {
+          "name": "Qareh",
+          "start": {
+            "date": "-1770",
+            "circa": true
+          },
+          "end": {
+            "date": "-1760",
+            "circa": true
+          },
+          "note": "West Semitic name meaning 'the bald one'; known from about 30 seals, one found at Jericho"
+        },
+        {
+          "name": "'Ammu",
+          "start": {
+            "date": "-1760",
+            "circa": true
+          },
+          "end": {
+            "date": "-1745",
+            "circa": true
+          },
+          "note": "Known from about 60 scarabs; throne name probably Aahotepre"
+        },
+        {
+          "name": "Sheshi",
+          "start": {
+            "date": "-1745",
+            "circa": true
+          },
+          "end": {
+            "date": "-1705",
+            "circa": true
+          },
+          "note": "Throne name Maaibre; almost 400 seals; some identify him with the Hyksos founder Salitis"
+        },
+        {
+          "name": "Nehesy",
+          "start": {
+            "date": "-1705",
+            "circa": true
+          },
+          "note": "'The Nubian'; reigned under a year; left monuments at Avaris and Tjaru; Ryholt makes him Sheshi's son"
+        },
+        {
+          "name": "Khakherewre",
+          "start": {
+            "date": "-1705",
+            "circa": true
+          },
+          "note": "Next in the Turin list after Nehesy; nothing else known"
+        },
+        {
+          "name": "Nebefawre",
+          "start": {
+            "date": "-1705",
+            "circa": true
+          },
+          "end": {
+            "date": "-1704",
+            "circa": true
+          },
+          "note": "Turin list: 1 year, 5 months, 15 days"
+        },
+        {
+          "name": "Sehebre",
+          "start": {
+            "date": "-1704",
+            "circa": true
+          },
+          "end": {
+            "date": "-1700",
+            "circa": true
+          },
+          "note": "Turin list: 3 years and a few months"
+        },
+        {
+          "name": "Merdjefare",
+          "start": {
+            "date": "-1700",
+            "circa": true
+          },
+          "end": {
+            "date": "-1699",
+            "circa": true
+          },
+          "note": "Shown offering to the god Sopdu on a treasurer's stela from Saft el-Hinna in the Delta"
+        },
+        {
+          "name": "Sewadjkare III",
+          "start": {
+            "date": "-1699",
+            "circa": true
+          },
+          "end": {
+            "date": "-1698",
+            "circa": true
+          },
+          "note": "Turin list: 1 year"
+        },
+        {
+          "name": "Nebdjefare",
+          "start": {
+            "date": "-1698",
+            "circa": true
+          },
+          "end": {
+            "date": "-1694",
+            "circa": true
+          },
+          "note": "Known only from the Turin list"
+        },
+        {
+          "name": "Webenre",
+          "start": {
+            "date": "-1694",
+            "circa": true
+          },
+          "end": {
+            "date": "-1693",
+            "circa": true
+          },
+          "note": "Known only from the Turin list"
+        },
+        {
+          "name": "Nebsenre, Sekheperenre and some 40 later names",
+          "start": {
+            "date": "-1693",
+            "circa": true
+          },
+          "end": {
+            "date": "-1650",
+            "circa": true
+          },
+          "note": "Turin list kings of a year or so each, many names lost; Nebsenre and Sekheperenre are also known from a jar and scarabs"
+        },
+        {
+          "name": "Yaqub-Har",
+          "note": "Known from 27 scarabs; often put late in this dynasty or among early Hyksos rulers"
+        },
+        {
+          "name": "Wazad, Sheneh, Shenshek, Khamure, Yakareb, Nuya",
+          "note": "Known from a handful of scarabs each; Ryholt puts them in this dynasty, positions unknown"
+        }
+      ]
     },
     {
       "id": "sonbef",
@@ -5500,7 +5816,7 @@
       "ageAtAccession": "Unknown",
       "cameToPower": "Followed Sobekhotep I",
       "reignEnded": "Unknown; reigned about 3-4 years",
-      "previously": "Sobekhotep I dies after about four years on the throne.",
+      "previously": "The Delta goes its own way. At Itjtawy, Sobekhotep I dies.",
       "paragraphs": [
         "Sekhemkare Amenemhat Sonbef is a king we know mostly from a few small objects: a cylinder seal now in the Metropolitan Museum, a scarab, and two inscribed blocks from Tod, south of Thebes. Like Sobekhotep I he used a double name, and 'Amenemhat Sonbef' may mean 'Sonbef, son of Amenemhat'. If so, he and Sobekhotep could have been brothers, sons of Amenemhat IV.",
         "Nile-flood records at the Nubian forts of Askut and Semna, dated to years 3 and 4 of a king Sekhemkare, may be his. The trouble is that a later king, Amenemhat V, used the same throne name, Sekhemkare, so nobody can be sure whose they are. Some Egyptologists think there was only ever one king, and that Sonbef and Amenemhat V are the same man."
@@ -5547,7 +5863,9 @@
           "note": "Thames & Hudson, 2004"
         }
       ],
-      "contestedWith": [],
+      "contestedWith": [
+        "fourteenth-dynasty"
+      ],
       "review": {
         "status": "draft",
         "notes": "Drafted from the listed sources; needs a human fact-check."
@@ -5568,7 +5886,9 @@
         "date": "-1767",
         "circa": true
       },
-      "contestedWith": [],
+      "contestedWith": [
+        "fourteenth-dynasty"
+      ],
       "relationToPredecessor": "Not known to be related",
       "ageAtAccession": "Unknown",
       "cameToPower": "Followed Sonbef",
@@ -5640,7 +5960,9 @@
         "date": "-1767",
         "circa": true
       },
-      "contestedWith": [],
+      "contestedWith": [
+        "fourteenth-dynasty"
+      ],
       "relationToPredecessor": "Not known to be related",
       "ageAtAccession": "Unknown",
       "cameToPower": "Followed Nerikare",
@@ -5768,7 +6090,9 @@
           "note": "Thames & Hudson, 2004"
         }
       ],
-      "contestedWith": [],
+      "contestedWith": [
+        "fourteenth-dynasty"
+      ],
       "review": {
         "status": "draft",
         "notes": "Drafted from the listed sources; needs a human fact-check."
@@ -5840,7 +6164,9 @@
           "note": "Thames & Hudson, 2004"
         }
       ],
-      "contestedWith": [],
+      "contestedWith": [
+        "fourteenth-dynasty"
+      ],
       "review": {
         "status": "draft",
         "notes": "Drafted from the listed sources; needs a human fact-check."
@@ -5912,7 +6238,9 @@
           "note": "Thames & Hudson, 2004"
         }
       ],
-      "contestedWith": [],
+      "contestedWith": [
+        "fourteenth-dynasty"
+      ],
       "review": {
         "status": "draft",
         "notes": "Drafted from the listed sources; needs a human fact-check."
@@ -5933,7 +6261,9 @@
         "date": "-1759",
         "circa": true
       },
-      "contestedWith": [],
+      "contestedWith": [
+        "fourteenth-dynasty"
+      ],
       "relationToPredecessor": "Not known to be related",
       "ageAtAccession": "Unknown",
       "cameToPower": "Followed Amenemhat VI",
@@ -6005,7 +6335,9 @@
         "date": "-1759",
         "circa": true
       },
-      "contestedWith": [],
+      "contestedWith": [
+        "fourteenth-dynasty"
+      ],
       "relationToPredecessor": "Not known to be related",
       "ageAtAccession": "Unknown",
       "cameToPower": "Followed Nebnuni",
@@ -6077,7 +6409,9 @@
         "date": "-1759",
         "circa": true
       },
-      "contestedWith": [],
+      "contestedWith": [
+        "fourteenth-dynasty"
+      ],
       "relationToPredecessor": "Not known to be related",
       "ageAtAccession": "Unknown",
       "cameToPower": "Followed Sehetepibre",
@@ -6149,7 +6483,9 @@
         "date": "-1759",
         "circa": true
       },
-      "contestedWith": [],
+      "contestedWith": [
+        "fourteenth-dynasty"
+      ],
       "relationToPredecessor": "Not known to be related",
       "ageAtAccession": "Unknown",
       "cameToPower": "Followed Sewadjkare",
@@ -6221,7 +6557,9 @@
         "date": "-1757",
         "circa": true
       },
-      "contestedWith": [],
+      "contestedWith": [
+        "fourteenth-dynasty"
+      ],
       "relationToPredecessor": "Not known to be related",
       "ageAtAccession": "Unknown",
       "cameToPower": "Followed the 7-month king Nedjemibre",
@@ -6293,7 +6631,9 @@
         "date": "-1757",
         "circa": true
       },
-      "contestedWith": [],
+      "contestedWith": [
+        "fourteenth-dynasty"
+      ],
       "relationToPredecessor": "Perhaps son of a king Amenemhat",
       "ageAtAccession": "Unknown",
       "cameToPower": "Followed Sobekhotep II",
@@ -6365,7 +6705,9 @@
         "date": "-1755",
         "circa": true
       },
-      "contestedWith": [],
+      "contestedWith": [
+        "fourteenth-dynasty"
+      ],
       "relationToPredecessor": "Not known to be related",
       "ageAtAccession": "Unknown",
       "cameToPower": "Followed the 4-month king Renseneb",
@@ -6442,7 +6784,9 @@
         "date": "-1755",
         "circa": true
       },
-      "contestedWith": [],
+      "contestedWith": [
+        "fourteenth-dynasty"
+      ],
       "relationToPredecessor": "Probably son of Hor",
       "ageAtAccession": "Unknown",
       "cameToPower": "Succeeded his father Hor",
@@ -6514,7 +6858,9 @@
         "date": "-1755",
         "circa": true
       },
-      "contestedWith": [],
+      "contestedWith": [
+        "fourteenth-dynasty"
+      ],
       "relationToPredecessor": "Probably Khabaw's brother",
       "ageAtAccession": "Unknown",
       "cameToPower": "Succeeded his brother Khabaw",
@@ -6591,7 +6937,9 @@
         "date": "-1753",
         "circa": true
       },
-      "contestedWith": [],
+      "contestedWith": [
+        "fourteenth-dynasty"
+      ],
       "relationToPredecessor": "Perhaps son of an earlier king, Kay",
       "ageAtAccession": "Unknown",
       "cameToPower": "Followed kings known only from seals",
@@ -6663,7 +7011,9 @@
         "date": "-1751",
         "circa": true
       },
-      "contestedWith": [],
+      "contestedWith": [
+        "fourteenth-dynasty"
+      ],
       "relationToPredecessor": "Not known to be related",
       "ageAtAccession": "Unknown",
       "cameToPower": "Followed Amenemhat VII",
@@ -6740,7 +7090,9 @@
         "date": "-1746",
         "circa": true
       },
-      "contestedWith": [],
+      "contestedWith": [
+        "fourteenth-dynasty"
+      ],
       "relationToPredecessor": "Not known to be related",
       "ageAtAccession": "Unknown",
       "cameToPower": "Followed Wegaf",
@@ -6817,7 +7169,9 @@
         "date": "-1744",
         "circa": true
       },
-      "contestedWith": [],
+      "contestedWith": [
+        "fourteenth-dynasty"
+      ],
       "relationToPredecessor": "Not known to be related",
       "ageAtAccession": "Unknown",
       "cameToPower": "Followed Khendjer; perhaps a soldier",
@@ -6889,7 +7243,9 @@
         "date": "-1744",
         "circa": true
       },
-      "contestedWith": [],
+      "contestedWith": [
+        "fourteenth-dynasty"
+      ],
       "relationToPredecessor": "Not known to be related",
       "ageAtAccession": "Unknown",
       "cameToPower": "Followed Imyremeshaw",
@@ -6961,7 +7317,9 @@
         "date": "-1744",
         "circa": true
       },
-      "contestedWith": [],
+      "contestedWith": [
+        "fourteenth-dynasty"
+      ],
       "relationToPredecessor": "Not known to be related",
       "ageAtAccession": "Unknown",
       "cameToPower": "Probably seized the throne",
@@ -7038,7 +7396,9 @@
         "date": "-1740",
         "circa": true
       },
-      "contestedWith": [],
+      "contestedWith": [
+        "fourteenth-dynasty"
+      ],
       "relationToPredecessor": "Son of the commoner Mentuhotep",
       "ageAtAccession": "Unknown",
       "cameToPower": "Followed King Seth; not born royal",
@@ -7110,7 +7470,9 @@
         "date": "-1729",
         "circa": true
       },
-      "contestedWith": [],
+      "contestedWith": [
+        "fourteenth-dynasty"
+      ],
       "relationToPredecessor": "Son of the commoner Haankhef",
       "ageAtAccession": "Unknown",
       "cameToPower": "Followed Sobekhotep III; not royal-born",
@@ -7193,7 +7555,9 @@
         "date": "-1729",
         "circa": true
       },
-      "contestedWith": [],
+      "contestedWith": [
+        "fourteenth-dynasty"
+      ],
       "relationToPredecessor": "Younger brother of Neferhotep I",
       "ageAtAccession": "Unknown",
       "cameToPower": "Named king beside his brother",
@@ -7270,7 +7634,9 @@
         "date": "-1719",
         "circa": true
       },
-      "contestedWith": [],
+      "contestedWith": [
+        "fourteenth-dynasty"
+      ],
       "relationToPredecessor": "Younger brother of Neferhotep I",
       "ageAtAccession": "Unknown",
       "cameToPower": "Succeeded his brother",
@@ -7347,7 +7713,9 @@
         "date": "-1719",
         "circa": true
       },
-      "contestedWith": [],
+      "contestedWith": [
+        "fourteenth-dynasty"
+      ],
       "relationToPredecessor": "Perhaps son of Sobekhotep IV",
       "ageAtAccession": "Unknown",
       "cameToPower": "Followed Sobekhotep IV",
@@ -7424,7 +7792,9 @@
         "date": "-1715",
         "circa": true
       },
-      "contestedWith": [],
+      "contestedWith": [
+        "fourteenth-dynasty"
+      ],
       "relationToPredecessor": "Not known to be related",
       "ageAtAccession": "Unknown",
       "cameToPower": "Followed the short-lived Sobekhotep V",
@@ -7496,7 +7866,9 @@
         "date": "-1705",
         "circa": true
       },
-      "contestedWith": [],
+      "contestedWith": [
+        "fourteenth-dynasty"
+      ],
       "relationToPredecessor": "Not known to be related",
       "ageAtAccession": "Unknown",
       "cameToPower": "Followed Sobekhotep VI",
@@ -7568,7 +7940,9 @@
         "date": "-1682",
         "circa": true
       },
-      "contestedWith": [],
+      "contestedWith": [
+        "fourteenth-dynasty"
+      ],
       "relationToPredecessor": "No known link to Ibiau",
       "ageAtAccession": "Unknown",
       "cameToPower": "Followed Ibiau at Itjtawy",
@@ -7651,7 +8025,9 @@
         "date": "-1680",
         "circa": true
       },
-      "contestedWith": [],
+      "contestedWith": [
+        "fourteenth-dynasty"
+      ],
       "relationToPredecessor": "Possibly Merneferre Ay's son",
       "ageAtAccession": "Unknown",
       "cameToPower": "Followed Merneferre Ay",
@@ -7723,7 +8099,9 @@
         "date": "-1677",
         "circa": true
       },
-      "contestedWith": [],
+      "contestedWith": [
+        "fourteenth-dynasty"
+      ],
       "relationToPredecessor": "Unknown",
       "ageAtAccession": "Unknown",
       "cameToPower": "Followed Ini",
@@ -7795,7 +8173,9 @@
         "date": "-1674",
         "circa": true
       },
-      "contestedWith": [],
+      "contestedWith": [
+        "fourteenth-dynasty"
+      ],
       "relationToPredecessor": "Unknown",
       "ageAtAccession": "Unknown",
       "cameToPower": "Followed Sewadjtu",
@@ -7867,7 +8247,9 @@
         "date": "-1669",
         "circa": true
       },
-      "contestedWith": [],
+      "contestedWith": [
+        "fourteenth-dynasty"
+      ],
       "relationToPredecessor": "Unknown",
       "ageAtAccession": "Unknown",
       "cameToPower": "Followed Ined",
@@ -7939,7 +8321,9 @@
         "date": "-1660",
         "circa": true
       },
-      "contestedWith": [],
+      "contestedWith": [
+        "fourteenth-dynasty"
+      ],
       "relationToPredecessor": "Unknown",
       "ageAtAccession": "Unknown",
       "cameToPower": "Followed Hori",
@@ -8011,7 +8395,9 @@
         "date": "-1650",
         "circa": true
       },
-      "contestedWith": [],
+      "contestedWith": [
+        "fourteenth-dynasty"
+      ],
       "relationToPredecessor": "Obscure successors of Sobekhotep VII",
       "ageAtAccession": "Unknown",
       "cameToPower": "Unknown; names lost in the king list",
@@ -8106,7 +8492,13 @@
         "date": "-1610",
         "circa": true
       },
-      "contestedWith": [],
+      "contestedWith": [
+        "djehuti",
+        "sobekhotep-viii",
+        "neferhotep-iii",
+        "mentuhotepi",
+        "nebiriau-i"
+      ],
       "relationToPredecessor": "Foreign chiefs settled at Avaris",
       "ageAtAccession": "Unknown",
       "cameToPower": "Took over the Delta",
@@ -8115,7 +8507,7 @@
       "paragraphs": [
         "Their name comes from the Egyptian heqau khasut, 'rulers of foreign lands'. They were West Semitic people from Canaan, and by about 1650 BC their kings, the 15th Dynasty, ruled the north from Avaris in the eastern Delta. This is the Second Intermediate Period: Egypt split again, with foreigners in the north and a line of Theban kings in the south.",
         "The first Hyksos kings are shadowy. Manetho names a founder, Salitis. On the ground, a door jamb from Avaris names a ruler Sakir-Har as 'ruler of foreign lands', and scarabs give names like Semqen and Aperanat. Manetho, quoted by Josephus, describes a savage invasion that burned cities and wrecked temples. The ground tells a quieter tale.",
-        "Manfred Bietak's digs at Avaris, today's Tell el-Dab'a, show a Canaanite town growing over generations, with its own houses, temples and graves, some with donkeys buried at the tomb door. Horses and chariots spread in Egypt in this age. Down in the south the Theban kings ruled their own strip of the Nile, uneasily, and waited."
+        "Manfred Bietak's digs at Avaris, today's Tell el-Dab'a, show a Canaanite town growing over generations, with its own temples and graves, some with donkeys buried at the tomb door. Horses and chariots spread in Egypt in this age. In the south a line of Theban kings, Kim Ryholt's 16th Dynasty, held the valley from Hu to Edfu, and a few kinglets may have ruled for a while at Abydos."
       ],
       "claims": [
         {
@@ -8134,7 +8526,7 @@
           "note": "Both appear in Egypt around this time, but how much the Hyksos had to do with it is debated."
         }
       ],
-      "hook": "The Hyksos are here to stay. Their next king, Khyan, will drop the foreign label, call himself son of Ra, and spread his name from Crete to Baghdad.",
+      "hook": "The Hyksos hold the north. At Thebes a new line of kings starts up, and one of the first, Djehuti, has himself carved in the red crown of a north he will never rule.",
       "images": [
         {
           "file": "File:Khyan.jpg",
@@ -8187,10 +8579,454 @@
           "note": "Door-jamb from Tell el-Dab'a calls him \"heqa khasut\", ruler of foreign lands"
         },
         {
-          "name": "Theban kings of the 16th Dynasty",
-          "note": "Neferhotep III, Nebiriau I, Bebiankh and others held the south alongside; their order and dynasty are disputed"
+          "name": "Wepwawetemsaf",
+          "note": "Abydos Dynasty (Ryholt); one crude stela at Abydos shows him before the god Wepwawet"
+        },
+        {
+          "name": "Pantjeny",
+          "note": "Abydos Dynasty (Ryholt); name means 'he of Thinis'; one crude stela from Abydos"
+        },
+        {
+          "name": "Snaaib",
+          "note": "Abydos Dynasty (Ryholt); his stela at Abydos is among the earliest to show the khepresh crown"
+        },
+        {
+          "name": "Senebkay",
+          "note": "Abydos Dynasty; tomb found at Abydos in 2014; died aged about 35-40 of battle wounds"
+        },
+        {
+          "name": "Nebiriau II",
+          "start": {
+            "date": "-1601",
+            "circa": true
+          },
+          "note": "16th Dynasty (Ryholt); probably Nebiriau I's son; reign length lost; known only from later lists"
+        },
+        {
+          "name": "Semenre",
+          "start": {
+            "date": "-1601",
+            "circa": true
+          },
+          "end": {
+            "date": "-1600",
+            "circa": true
+          },
+          "note": "16th Dynasty (Ryholt); known only from one bronze axe head and the Turin list"
+        },
+        {
+          "name": "Yanassi",
+          "note": "Khyan's eldest son on a stela from Avaris; may be Manetho's 'Iannas' and have reigned before Apepi"
+        },
+        {
+          "name": "Sekhemre Shedwaset",
+          "start": {
+            "date": "-1588",
+            "circa": true
+          },
+          "note": "16th Dynasty (Ryholt); name means 'Ra's might who rescues Thebes'; only in the Turin list"
+        },
+        {
+          "name": "Djedankhre Montemsaf",
+          "note": "Late 16th Dynasty (Ryholt), reign lost in a Turin list gap; a block at Gebelein and an axe blade"
+        },
+        {
+          "name": "Merankhre Mentuhotep",
+          "note": "Late 16th Dynasty (Ryholt), reign lost in a Turin list gap; two statuettes, one from Karnak"
         }
       ]
+    },
+    {
+      "id": "djehuti",
+      "kind": "monarch",
+      "rulers": [
+        "djehuti"
+      ],
+      "tagline": "Crowned for a north he never ruled",
+      "start": {
+        "date": "-1648",
+        "circa": true
+      },
+      "end": {
+        "date": "-1645",
+        "circa": true
+      },
+      "contestedWith": [
+        "hyksos"
+      ],
+      "relationToPredecessor": "Not known to be related",
+      "ageAtAccession": "Unknown",
+      "cameToPower": "Followed a king whose name is lost",
+      "reignEnded": "Unknown; about 3 years on the throne",
+      "previously": "The Hyksos take Memphis, and the old court at Itjtawy falls.",
+      "paragraphs": [
+        "With the Hyksos holding Memphis and the north, the south had to fend for itself. Kim Ryholt's reading of the battered Turin king list finds a new line of kings at Thebes, which he calls the 16th Dynasty. Djehuti, throne name Sekhemre Sementawy, is the first of them whose name survives, and the list gives him three years. Shaw gives no dates for single kings in this age, so the years on these Theban cards are Ryholt's.",
+        "His name turns up along the Nile from Deir el-Ballas, north of Thebes, down to Edfu. On a painted block at Edfu he wears the red crown of Lower Egypt, a claim on a north he never ruled. His queen was called Mentuhotep. A chest inscribed as his gift to her, with cosmetic boxes inside, was dug up near Thebes in the 1820s and went to Berlin. It may first have been made for the king's own burial."
+      ],
+      "claims": [
+        {
+          "text": "Djehuti was an early king of a Theban 16th Dynasty.",
+          "status": "disputed",
+          "note": "Kim Ryholt's reconstruction, followed by Darrell Baker. Others put him at the very end of the 13th Dynasty or early in the 17th."
+        },
+        {
+          "text": "His queen's coffin carried some of the earliest known Book of the Dead spells.",
+          "status": "disputed",
+          "note": "The coffin is lost and known only from copies made by John Gardner Wilkinson around 1832. It may have belonged to a different queen of the same name."
+        },
+        {
+          "text": "The unfinished southern pyramid at South Saqqara was built for him.",
+          "status": "disputed",
+          "note": "Based on a scrap of inscription that may be part of his Horus name. The pyramid lies far north of the stretch of Nile where he is attested."
+        }
+      ],
+      "hook": "Djehuti is gone after three years. His successor, Sobekhotep VIII, will walk into a flooded temple at Karnak and play the god who ordered the waters back.",
+      "images": [
+        {
+          "file": "File:Block Djehuti by Khruner.jpg",
+          "url": "https://upload.wikimedia.org/wikipedia/commons/e/eb/Block_Djehuti_by_Khruner.jpg",
+          "page": "https://commons.wikimedia.org/wiki/File:Block_Djehuti_by_Khruner.jpg",
+          "credit": "Khruner",
+          "license": "CC BY-SA 4.0",
+          "made": "Drawing 2015; block c. 1648 BC",
+          "caption": "A modern drawing of a block from Edfu showing Djehuti in the red crown of Lower Egypt; a stock royal figure, not a portrait.",
+          "alt": "Line drawing of a carved block: a king in the tall red crown receives the ankh sign of life from a god, with hieroglyphs above"
+        }
+      ],
+      "sources": [
+        {
+          "title": "The Political Situation in Egypt during the Second Intermediate Period, c. 1800-1550 B.C.",
+          "author": "K. S. B. Ryholt",
+          "note": "Museum Tusculanum Press, 1997; source of the dates on this card"
+        },
+        {
+          "title": "The Encyclopedia of the Egyptian Pharaohs, Volume I: Predynastic to the Twentieth Dynasty",
+          "author": "Darrell D. Baker",
+          "note": "Bannerstone Press, 2008"
+        },
+        {
+          "title": "The Oxford History of Ancient Egypt",
+          "author": "Ian Shaw (ed.)",
+          "note": "Oxford University Press, 2000; Janine Bourriau's chapter on the Second Intermediate Period"
+        },
+        {
+          "title": "The Complete Royal Families of Ancient Egypt",
+          "author": "Aidan Dodson and Dyan Hilton",
+          "note": "Thames & Hudson, 2004; Queen Mentuhotep"
+        }
+      ],
+      "review": {
+        "status": "draft",
+        "notes": "Drafted from the listed sources; needs a human fact-check."
+      }
+    },
+    {
+      "id": "sobekhotep-viii",
+      "kind": "monarch",
+      "rulers": [
+        "sobekhotep-viii"
+      ],
+      "tagline": "The king who waded into the flood at Karnak",
+      "start": {
+        "date": "-1645",
+        "circa": true
+      },
+      "end": {
+        "date": "-1629",
+        "circa": true
+      },
+      "contestedWith": [
+        "hyksos"
+      ],
+      "relationToPredecessor": "Not known to be related",
+      "ageAtAccession": "Unknown",
+      "cameToPower": "Followed Djehuti at Thebes",
+      "reignEnded": "Unknown; 16 years in the Turin list",
+      "previously": "Djehuti dies after three years on the Theban throne.",
+      "paragraphs": [
+        "Sobekhotep VIII, throne name Sekhemre Seusertawy, is known from a single stone, but it is a good one. In the last days of his fourth year the Nile rose so high that it swamped the temple, probably Karnak. His stela tells how the king came to the flooded hall. John Baines reads the scene as the king playing the creator god, who drove the waters back from the first mound of dry land at the beginning of the world.",
+        "The stela survived because later builders broke it up and packed it inside the Third Pylon at Karnak during Amenhotep III's works, as fill. If Ryholt has matched him to the right entry in the Turin list, Sobekhotep reigned 16 years. That may be generous, as nothing else of his has been found. All the while the Hyksos held Memphis and pressed on the south."
+      ],
+      "claims": [
+        {
+          "text": "Sobekhotep VIII reigned for 16 years.",
+          "status": "disputed",
+          "note": "Ryholt matches him to a damaged Turin list entry 'Sekhemre...' with 16 years. His only dated object is from his year 4."
+        },
+        {
+          "text": "On the stela the king acts out the creation of the world.",
+          "status": "disputed",
+          "note": "John Baines's reading. The stela itself records the flood and the king's visit to the temple."
+        },
+        {
+          "text": "He belonged to the Theban 16th Dynasty.",
+          "status": "disputed",
+          "note": "Ryholt and Darrell Baker say so; Jürgen von Beckerath and Labib Habachi placed him in the 13th Dynasty."
+        }
+      ],
+      "hook": "After Sobekhotep, the Turin list gives Neferhotep III a single year. He will call Thebes 'my city' and boast of saving it from famine and foreigners.",
+      "images": [
+        {
+          "file": "File:Stele Sekhemre Seusertawy by Khruner.png",
+          "url": "https://upload.wikimedia.org/wikipedia/commons/6/6b/Stele_Sekhemre_Seusertawy_by_Khruner.png",
+          "page": "https://commons.wikimedia.org/wiki/File:Stele_Sekhemre_Seusertawy_by_Khruner.png",
+          "credit": "Khruner",
+          "license": "CC BY-SA 4.0",
+          "made": "Drawing 2015; stela c. 1641 BC",
+          "caption": "A modern drawing of the Inundation Stela from Karnak, the king facing Hapi, god of the Nile flood; not a portrait.",
+          "alt": "Line drawing of a stela scene: a king on the left faces Hapi, the Nile flood god, on the right, with hieroglyphs between them"
+        }
+      ],
+      "sources": [
+        {
+          "title": "The Political Situation in Egypt during the Second Intermediate Period, c. 1800-1550 B.C.",
+          "author": "K. S. B. Ryholt",
+          "note": "Museum Tusculanum Press, 1997; source of the dates on this card"
+        },
+        {
+          "title": "The Encyclopedia of the Egyptian Pharaohs, Volume I: Predynastic to the Twentieth Dynasty",
+          "author": "Darrell D. Baker",
+          "note": "Bannerstone Press, 2008"
+        },
+        {
+          "title": "The Oxford History of Ancient Egypt",
+          "author": "Ian Shaw (ed.)",
+          "note": "Oxford University Press, 2000; Janine Bourriau's chapter on the Second Intermediate Period"
+        }
+      ],
+      "review": {
+        "status": "draft",
+        "notes": "Drafted from the listed sources; needs a human fact-check."
+      }
+    },
+    {
+      "id": "neferhotep-iii",
+      "kind": "monarch",
+      "rulers": [
+        "neferhotep-iii"
+      ],
+      "tagline": "He fed Thebes and called it 'my city'",
+      "start": {
+        "date": "-1629",
+        "circa": true
+      },
+      "end": {
+        "date": "-1628",
+        "circa": true
+      },
+      "contestedWith": [
+        "hyksos"
+      ],
+      "relationToPredecessor": "Not known to be related",
+      "ageAtAccession": "Unknown",
+      "cameToPower": "Followed Sobekhotep VIII",
+      "reignEnded": "Unknown; about a year on the throne",
+      "previously": "Sobekhotep VIII dies; the Turin list gives him 16 years.",
+      "paragraphs": [
+        "Neferhotep III's throne name, Sekhemre Sankhtawy, means roughly 'the might of Ra who nourishes the Two Lands'. It was not idle talk. On his one surviving stela, found at Thebes and now in Cairo, he boasts that he fed his city and saved it from famine. Hunger stalked Upper Egypt in these years.",
+        "The same stela says he raised his city up after it had sunk in strife with foreigners, most likely the Hyksos pushing south. He calls himself the guide of victorious Thebes, and over and over he calls it 'my city'. The text also gives the earliest known mention of the khepresh, the blue crown later worn by New Kingdom kings at war. The Turin list gives him a single year."
+      ],
+      "claims": [
+        {
+          "text": "The foreigners Thebes fought in his reign were the Hyksos.",
+          "status": "disputed",
+          "note": "The stela names no enemy. Ryholt reads it as war with the Hyksos 15th Dynasty, which fits the times."
+        },
+        {
+          "text": "His stela holds the earliest known mention of the khepresh crown.",
+          "status": "disputed",
+          "note": "So scholars read the badly damaged text. A crude stela of the Abydos king Snaaib shows the crown being worn at about the same time."
+        }
+      ],
+      "hook": "Neferhotep III is gone within a year. Another short-lived king, Mentuhotepi, takes over and hails Thebes as mistress of the entire land.",
+      "images": [
+        {
+          "file": "File:Stele JE 59635 by Khruner.png",
+          "url": "https://upload.wikimedia.org/wikipedia/commons/b/b3/Stele_JE_59635_by_Khruner.png",
+          "page": "https://commons.wikimedia.org/wiki/File:Stele_JE_59635_by_Khruner.png",
+          "credit": "Khruner",
+          "license": "CC BY-SA 4.0",
+          "made": "Drawing 2015; stela c. 1629 BC",
+          "caption": "A modern drawing of Neferhotep III's damaged stela from Thebes, now in Cairo; the king is a stock figure, not a portrait.",
+          "alt": "Line drawing of a badly damaged stela: a king on the right faces a god on the left, perhaps Amun, with hieroglyphs above"
+        }
+      ],
+      "sources": [
+        {
+          "title": "The Political Situation in Egypt during the Second Intermediate Period, c. 1800-1550 B.C.",
+          "author": "K. S. B. Ryholt",
+          "note": "Museum Tusculanum Press, 1997; source of the dates on this card"
+        },
+        {
+          "title": "The Encyclopedia of the Egyptian Pharaohs, Volume I: Predynastic to the Twentieth Dynasty",
+          "author": "Darrell D. Baker",
+          "note": "Bannerstone Press, 2008"
+        },
+        {
+          "title": "The Oxford History of Ancient Egypt",
+          "author": "Ian Shaw (ed.)",
+          "note": "Oxford University Press, 2000; Janine Bourriau's chapter on the Second Intermediate Period"
+        }
+      ],
+      "review": {
+        "status": "draft",
+        "notes": "Drafted from the listed sources; needs a human fact-check."
+      }
+    },
+    {
+      "id": "mentuhotepi",
+      "kind": "monarch",
+      "rulers": [
+        "mentuhotepi"
+      ],
+      "tagline": "A one-year king who swore Thebes was his",
+      "start": {
+        "date": "-1628",
+        "circa": true
+      },
+      "end": {
+        "date": "-1627",
+        "circa": true
+      },
+      "contestedWith": [
+        "hyksos"
+      ],
+      "relationToPredecessor": "Not known to be related",
+      "ageAtAccession": "Unknown",
+      "cameToPower": "Followed Neferhotep III",
+      "reignEnded": "Unknown; about a year on the throne",
+      "previously": "Neferhotep III dies after a single year as king.",
+      "paragraphs": [
+        "Seankhenre Mentuhotepi held Thebes for about a year, if Ryholt has read the torn Turin list rightly. He says so himself on a stela from Karnak: 'I am the king within Thebes, this is my city.' He hails Thebes as mistress of the entire land and city of triumph, bold words for a realm that ran only a short way up and down the Nile.",
+        "He claims he drove back the foreign lands, probably the Hyksos, though perhaps the Nubians to the south. His stela likens him to Sekhmet, the lioness goddess who burns her enemies with her fiery breath. Two limestone sphinxes of his were found at Edfu in 1924, one carved with each of his names. Older books call him Mentuhotep VI or VII."
+      ],
+      "claims": [
+        {
+          "text": "The 'foreign lands' he drove back were the Hyksos.",
+          "status": "disputed",
+          "note": "His stela does not name them. Most read it as the Hyksos; the Nubians are the other candidate."
+        },
+        {
+          "text": "He reigned only about a year.",
+          "status": "disputed",
+          "note": "The Turin list entry is damaged, and Ryholt restores its name as Seankhenre. Older scholars put him in the 17th Dynasty."
+        }
+      ],
+      "hook": "After Mentuhotepi comes Nebiriau I, the one king of this Theban line to last for decades. In his first year a provincial governor sells his job to pay off a debt in gold.",
+      "images": [
+        {
+          "file": "File:Sphinx Seankhenre by Khruner.jpg",
+          "url": "https://upload.wikimedia.org/wikipedia/commons/9/99/Sphinx_Seankhenre_by_Khruner.jpg",
+          "page": "https://commons.wikimedia.org/wiki/File:Sphinx_Seankhenre_by_Khruner.jpg",
+          "credit": "Khruner",
+          "license": "CC BY-SA 4.0",
+          "made": "Drawing 2015; sphinx c. 1628 BC",
+          "caption": "A modern drawing of a damaged sphinx from Edfu with the name Seankhenre carved between its legs; not a portrait.",
+          "alt": "Line drawing of a damaged stone sphinx, with a royal name in a cartouche carved between its front legs"
+        }
+      ],
+      "sources": [
+        {
+          "title": "The Political Situation in Egypt during the Second Intermediate Period, c. 1800-1550 B.C.",
+          "author": "K. S. B. Ryholt",
+          "note": "Museum Tusculanum Press, 1997; source of the dates on this card"
+        },
+        {
+          "title": "The Encyclopedia of the Egyptian Pharaohs, Volume I: Predynastic to the Twentieth Dynasty",
+          "author": "Darrell D. Baker",
+          "note": "Bannerstone Press, 2008"
+        },
+        {
+          "title": "The Oxford History of Ancient Egypt",
+          "author": "Ian Shaw (ed.)",
+          "note": "Oxford University Press, 2000; Janine Bourriau's chapter on the Second Intermediate Period"
+        }
+      ],
+      "review": {
+        "status": "draft",
+        "notes": "Drafted from the listed sources; needs a human fact-check."
+      }
+    },
+    {
+      "id": "nebiriau-i",
+      "kind": "monarch",
+      "rulers": [
+        "nebiriau-i"
+      ],
+      "tagline": "Twenty-six years of calm in a broken land",
+      "start": {
+        "date": "-1627",
+        "circa": true
+      },
+      "end": {
+        "date": "-1601",
+        "circa": true
+      },
+      "contestedWith": [
+        "hyksos",
+        "khyan"
+      ],
+      "relationToPredecessor": "Not known to be related",
+      "ageAtAccession": "Unknown",
+      "cameToPower": "Followed Mentuhotepi",
+      "reignEnded": "Unknown; 26 years in the Turin list",
+      "previously": "Mentuhotepi, the 'king within Thebes', dies after a year.",
+      "paragraphs": [
+        "Nebiriau I, throne name Sewadjenre, is the one king of this Theban line who lasted. The Turin list gives him 26 years, and he seems to have had some peace. His realm reached at least from Hu in the north to Edfu in the south. A copper dagger with his name came out of a cemetery at Hu, found by Flinders Petrie in the 1890s.",
+        "His best monument is a legal record. The Juridical Stela, dated to his first year and found at Karnak in 1927, tells how Kebsi, governor of Elkab, owed 60 deben of gold, about 5.5 kg, to his relative Sobeknakht. Unable to pay, Kebsi sold him the governorship. The vizier checked that Kebsi really was the heir to the office, and the deal was sealed before witnesses.",
+        "Two of his seals turned up at Lisht, inside Hyksos territory, a hint of contact across the frontier. They are of clay and frit, not the usual steatite, as if no expeditions went out to the desert quarries. His namesake Nebiriau II, perhaps a son, followed him but left nothing except his name."
+      ],
+      "claims": [
+        {
+          "text": "Nebiriau I reigned 26 years.",
+          "status": "disputed",
+          "note": "That is the Turin list figure. His highest dated object is from year 1, and finds are thin for so long a reign."
+        },
+        {
+          "text": "Nebiriau II was his son.",
+          "status": "disputed",
+          "note": "Assumed from the rare shared name. No source says so."
+        },
+        {
+          "text": "His seals at Lisht show dealings with the Hyksos.",
+          "status": "disputed",
+          "note": "Two seals were found there, inside the Hyksos realm, but how they got there is unknown."
+        }
+      ],
+      "hook": "While Nebiriau rules Thebes, the north belongs to a far grander king. At Avaris, the Hyksos ruler Khyan calls himself son of Ra and sends his name as far as Crete and Baghdad.",
+      "images": [
+        {
+          "file": "File:Sewadjenra Scarab Petrie.png",
+          "url": "https://upload.wikimedia.org/wikipedia/commons/3/3e/Sewadjenra_Scarab_Petrie.png",
+          "page": "https://commons.wikimedia.org/wiki/File:Sewadjenra_Scarab_Petrie.png",
+          "credit": "Flinders Petrie",
+          "license": "Public domain",
+          "made": "Scarab c. 1627-1601 BC; plate 1917",
+          "caption": "A faience scarab with Nebiriau's throne name Sewadjenre, from Flinders Petrie's 1917 catalogue; now in the Petrie Museum. Not a portrait.",
+          "alt": "Black-and-white image of the underside of a small scarab seal carved with hieroglyphs"
+        }
+      ],
+      "sources": [
+        {
+          "title": "The Political Situation in Egypt during the Second Intermediate Period, c. 1800-1550 B.C.",
+          "author": "K. S. B. Ryholt",
+          "note": "Museum Tusculanum Press, 1997; source of the dates on this card"
+        },
+        {
+          "title": "The Encyclopedia of the Egyptian Pharaohs, Volume I: Predynastic to the Twentieth Dynasty",
+          "author": "Darrell D. Baker",
+          "note": "Bannerstone Press, 2008"
+        },
+        {
+          "title": "The Oxford History of Ancient Egypt",
+          "author": "Ian Shaw (ed.)",
+          "note": "Oxford University Press, 2000; Janine Bourriau's chapter on the Second Intermediate Period"
+        }
+      ],
+      "review": {
+        "status": "draft",
+        "notes": "Drafted from the listed sources; needs a human fact-check."
+      }
     },
     {
       "id": "khyan",
@@ -8207,12 +9043,15 @@
         "date": "-1595",
         "circa": true
       },
-      "contestedWith": [],
+      "contestedWith": [
+        "nebiriau-i",
+        "bebiankh"
+      ],
       "relationToPredecessor": "Unknown",
       "ageAtAccession": "Unknown",
       "cameToPower": "Became king at Avaris",
       "reignEnded": "Died; Apepi followed",
-      "previously": "The first Hyksos chiefs take Avaris and call themselves kings.",
+      "previously": "Nebiriau I holds Thebes; the Hyksos at Avaris grow stronger.",
       "paragraphs": [
         "Seuserenre Khyan is the best known of the Hyksos kings, and he travelled further than any of them, at least on paper. A granite lion with his name turned up in Baghdad. A stone lid with his name was found in the palace at Knossos on Crete. Shaw puts him about 1600 BC.",
         "At first he called himself 'heqa khasut', ruler of foreign lands, the old Egyptian label that became our word Hyksos. Later he took the full titles of a pharaoh, including 'son of Ra'. A stela from Avaris calls a man named Yanassi 'eldest king's son' of Khyan. Yanassi may have reigned after him briefly, but the crown went to Apepi.",
@@ -8230,7 +9069,7 @@
           "note": "Moeller and Marouard argued this from the find. Others think old sealings were simply kept and thrown out together."
         }
       ],
-      "hook": "Khyan dies. His son's hopes fade, and the throne at Avaris goes to Apepi, who will reign for some forty years.",
+      "hook": "At Thebes a new king, Bebiankh, sends miners to the Red Sea hills. At Avaris, Khyan dies, his son's hopes fade, and Apepi is waiting for the throne.",
       "images": [
         {
           "file": "File:Lid of Khyan.png",
@@ -8271,6 +9110,87 @@
       }
     },
     {
+      "id": "bebiankh",
+      "kind": "monarch",
+      "rulers": [
+        "bebiankh"
+      ],
+      "tagline": "A Theban king who dug for ore by the Red Sea",
+      "start": {
+        "date": "-1600",
+        "circa": true
+      },
+      "end": {
+        "date": "-1588",
+        "circa": true
+      },
+      "contestedWith": [
+        "khyan",
+        "apepi"
+      ],
+      "relationToPredecessor": "Not known to be related",
+      "ageAtAccession": "Unknown",
+      "cameToPower": "Followed the shadowy Semenre",
+      "reignEnded": "Unknown; 12 years in the Turin list",
+      "previously": "Khyan rules at Avaris; at Thebes, Nebiriau's heirs barely last.",
+      "paragraphs": [
+        "After Nebiriau I, Thebes went through two kings in quick succession: Nebiriau II, known only from his name, and Semenre, known from one bronze axe head. Then came Bebiankh, throne name Seuserenre, and the Turin list gives him 12 years. For a king of this shrunken realm he left a surprising amount behind.",
+        "He sent men to Gebel Zeit on the Red Sea coast, where miners dug galena, the lead ore Egyptians ground into black eye paint, and they left a modest stela with his names. He added to the temple of the war god Montu at Medamud, just north of Thebes. A bronze dagger from Naqada, now in the British Museum, reads 'Son of Ra, Bebiankh, given life'.",
+        "Danger came from the south too. In the tomb of Sobeknakht II at Elkab, son of the man who bought the governorship under Nebiriau, an inscription tells how 'vile Kush' came north with Nubians, Puntites and Medjay. Some date that raid to Bebiankh's reign or just after."
+      ],
+      "claims": [
+        {
+          "text": "Kush invaded Upper Egypt in Bebiankh's time.",
+          "status": "disputed",
+          "note": "Sobeknakht II's tomb text, published by Vivian Davies in 2003, names no king. Chris Bennett dates it to Bebiankh's reign or soon after."
+        },
+        {
+          "text": "The Hyksos ended the Theban 16th Dynasty by taking Thebes.",
+          "status": "disputed",
+          "note": "Ryholt's view. After Bebiankh the Turin list loses its names, and a new Theban line, the 17th Dynasty, appears around 1580 BC."
+        }
+      ],
+      "hook": "Bebiankh's line is running out of time. In Avaris a new Hyksos king, Apepi, takes the throne, and he will rule the north for some forty years.",
+      "images": [
+        {
+          "file": "File:Dagger Bebiankh by Khruner.jpg",
+          "url": "https://upload.wikimedia.org/wikipedia/commons/f/fe/Dagger_Bebiankh_by_Khruner.jpg",
+          "page": "https://commons.wikimedia.org/wiki/File:Dagger_Bebiankh_by_Khruner.jpg",
+          "credit": "Khruner",
+          "license": "CC BY-SA 4.0",
+          "made": "Drawing 2015; dagger c. 1600 BC",
+          "caption": "A modern drawing of the bronze dagger from Naqada inscribed for Bebiankh, now in the British Museum; an object, not a portrait.",
+          "alt": "Line drawing of the upper part of a bronze dagger blade and hilt, with a short hieroglyphic inscription"
+        }
+      ],
+      "sources": [
+        {
+          "title": "The Political Situation in Egypt during the Second Intermediate Period, c. 1800-1550 B.C.",
+          "author": "K. S. B. Ryholt",
+          "note": "Museum Tusculanum Press, 1997; source of the dates on this card"
+        },
+        {
+          "title": "The Encyclopedia of the Egyptian Pharaohs, Volume I: Predynastic to the Twentieth Dynasty",
+          "author": "Darrell D. Baker",
+          "note": "Bannerstone Press, 2008"
+        },
+        {
+          "title": "The Oxford History of Ancient Egypt",
+          "author": "Ian Shaw (ed.)",
+          "note": "Oxford University Press, 2000; Janine Bourriau's chapter on the Second Intermediate Period"
+        },
+        {
+          "title": "Kush in Egypt: a new historical inscription",
+          "author": "W. Vivian Davies",
+          "note": "Sudan & Nubia 7, 2003; the Sobeknakht II text"
+        }
+      ],
+      "review": {
+        "status": "draft",
+        "notes": "Drafted from the listed sources; needs a human fact-check."
+      }
+    },
+    {
       "id": "apepi",
       "kind": "monarch",
       "rulers": [
@@ -8292,13 +9212,14 @@
         "intef-v",
         "intef-vi",
         "intef-vii",
-        "senakhtenre-ahmose"
+        "senakhtenre-ahmose",
+        "bebiankh"
       ],
       "relationToPredecessor": "Unknown",
       "ageAtAccession": "Unknown",
       "cameToPower": "Followed Khyan at Avaris",
       "reignEnded": "Reigned on as Thebes rose up",
-      "previously": "Khyan dies, a Hyksos king known as far as Crete and Baghdad.",
+      "previously": "Bebiankh rules Thebes; at Avaris, Khyan dies and Apepi steps in.",
       "paragraphs": [
         "Apepi, whom the Greeks called Apophis, ruled the north from Avaris for about 40 years. He used three different throne names over that time and styled himself in full Egyptian fashion. In his 33rd year a scribe called Ahmose copied out a book of maths problems, fractions, pyramid slopes and grain sums. We call it the Rhind Mathematical Papyrus, and it is now in the British Museum.",
         "For decades he was master of Egypt. The Theban kings in the south seem to have paid him tribute, and his traders worked the whole Nile. He even took an old statue of the 13th Dynasty general-king Imyremeshaw and carved his own name on it. But Thebes was getting restless, and a later tale makes Apepi the one who picked the fight.",
