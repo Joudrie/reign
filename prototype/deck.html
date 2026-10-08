@@ -114,6 +114,8 @@ button, input { font: inherit; color: inherit; }
   scrollbar-width: thin; scrollbar-color: var(--edge) transparent;
 }
 .card:focus { outline: none; }
+.card { touch-action: pan-y; content-visibility: auto; contain-intrinsic-size: 400px 900px; }
+html, body { overscroll-behavior-x: none; }
 .card:focus-visible { outline: 2px solid var(--accent); outline-offset: -2px; }
 .deck.dragging { cursor: grabbing; user-select: none; }
 .card-inner { padding: var(--s1) var(--s2) var(--s3); display: grid; gap: var(--s2); }
@@ -307,7 +309,7 @@ details li a { display: inline-block; padding-block: 10px; }
 @media (prefers-color-scheme: dark) { :root:not([data-theme="light"]) .bar { box-shadow: 0 0 0 1px rgb(237 230 218 / .45); } }
 :root[data-theme="dark"] .bar { box-shadow: 0 0 0 1px rgb(237 230 218 / .45); }
 @media (max-width: 420px) { .danger li { grid-template-columns: 24px minmax(0, 1fr) auto; } .danger .stack { grid-column: 1 / -1; } }
-.cmp-add-list[hidden] { display: none; }
+.cmp-add-list[hidden], .cmp-row[hidden] { display: none; }
 .countries button {
   width: 100%; display: grid; grid-template-columns: 36px 1fr; gap: var(--s0) var(--s1); align-items: center;
   background: var(--card); border: 1px solid var(--edge); border-radius: var(--r); padding: var(--s1);
@@ -708,9 +710,13 @@ const fromAstro = t => (t <= 0 ? t - 1 : t);
 const showYear = (y, era = DATA?.era) => (y < 0 ? `${-y} BC` : era ? `${y} ${era}` : y <= 500 ? `AD ${y}` : `${y}`);
 const asYears = d => { const [y, m = 1, day = 1] = parts(d); return astro(y) + (m - 1) / 12 + (day - 1) / 365; };
 const utc = (y, m, d) => { const t = new Date(0); t.setUTCFullYear(astro(y), m - 1, d); return t.getTime(); }; // Date.UTC maps 0–99 to 1900s
+const precision = d => String(d?.date ?? d ?? "").replace(/^-/, "").split("-").length;   // 1 year, 2 month, 3 day
 const length = (a, b) => {
   const [y1, m1 = 1, d1 = 1] = parts(a), [y2, m2 = 1, d2 = 1] = parts(b);
   const months = (astro(y2) - astro(y1)) * 12 + (m2 - m1) - (d2 < d1 ? 1 : 0);
+  const prec = Math.min(precision(a), precision(b));
+  if (months < 1 && prec === 1) return "under a year";
+  if (months < 1 && prec === 2) return "under a month";
   if (months < 1) {
     const days = Math.round((utc(y2, m2, d2) - utc(y1, m1, d1)) / 864e5);
     return `${days} day${days === 1 ? "" : "s"}`;
@@ -875,8 +881,20 @@ function render() {
     cards[i].style.transform = `scale(${1 - d * 0.04})`;
   }
 }
+function fillCard(k) {
+  const old = cards[k];
+  if (!old?.classList.contains("shell")) return;
+  const t = document.createElement("template");
+  t.innerHTML = card(reigns[k], k);
+  const el = t.content.firstElementChild;
+  el.style.transform = old.style.transform; el.style.transformOrigin = old.style.transformOrigin;
+  el.inert = old.inert;
+  rail.replaceChild(el, old);
+  cards[k] = el;
+}
 function loadNear(i) {
   for (let k = Math.max(0, i - 2); k <= Math.min(N - 1, i + 2); k++) {
+    fillCard(k);
     const im = cards[k].querySelector("img[data-src]");
     if (im) { im.dataset.pic = im.dataset.src; im.removeAttribute("data-src"); fillPic(im); }
   }
@@ -906,7 +924,7 @@ function go(i, velocity = 0, instant = false) {
 
 /* ---------------- drag: axis lock, rubberband, flick velocity (after use-gesture) ---------------- */
 const rubber = (over, dim, c = 0.15) => (over * dim * c) / (dim + c * Math.abs(over));
-let drag = null, suppressClick = false;
+let drag = null, suppressUntil = 0;
 
 deck.addEventListener("pointerdown", e => {
   if (e.button !== 0 || e.target.closest("button, a, summary, input")) return;
@@ -938,7 +956,7 @@ function endDrag(e) {
   const d = drag; drag = null;
   deck.classList.remove("dragging");
   if (d.axis !== "x") return;
-  suppressClick = Math.abs(e.clientX - d.x0) > 4;
+  suppressUntil = Math.abs(e.clientX - d.x0) > 4 ? e.timeStamp + 400 : 0;
   const [t0, x0] = d.samples[0], [t1, x1] = d.samples.at(-1);
   const v = t1 > t0 ? (x1 - x0) / (t1 - t0) : 0;
   const moved = (x - d.start) / step;
@@ -949,7 +967,7 @@ function endDrag(e) {
 }
 deck.addEventListener("pointerup", endDrag);
 deck.addEventListener("pointercancel", endDrag);
-deck.addEventListener("click", e => { if (suppressClick) { e.stopPropagation(); e.preventDefault(); suppressClick = false; } }, true);
+deck.addEventListener("click", e => { if (e.timeStamp < suppressUntil) { e.stopPropagation(); e.preventDefault(); } suppressUntil = 0; }, true);
 
 rail.addEventListener("click", e => { const t = e.target.closest("[data-go]"); if (t) go(Number(t.dataset.go)); });
 prevBtn.addEventListener("click", () => go(index - 1));
@@ -976,8 +994,15 @@ function reveal(el, on) {
     el.style.transform = `translateY(${(1 - v) * 16}px)`;
   }, { stiffness: 420, damping: 40, onComplete: () => { if (!on) el.style.visibility = "hidden"; } });
 }
-function show(name) {
+function show(name, fromHistory = false) {
   if (name === view) { if (name === "read") go(index); return; }
+  if (!fromHistory) {
+    try {
+      if (name !== "read" && view === "read") history.pushState({ view: name }, "", location.hash);
+      else if (name !== "read") history.replaceState({ view: name }, "", location.hash);
+      else if (history.state?.view) { history.back(); }
+    } catch {}
+  }
   const prev = view;
   view = name;
   tabs.forEach(t => t.setAttribute("aria-current", t.dataset.tab === name ? "page" : "false"));
@@ -992,6 +1017,7 @@ function show(name) {
   if (name === "timeline") scrollTimelineToCurrent();
 }
 tabs.forEach(t => t.addEventListener("click", () => show(t.dataset.tab)));
+addEventListener("popstate", e => { const v = e.state?.view ?? "read"; if (v !== view) show(v, true); });
 function jumpTo(i) { show("read"); go(i, 0, true); }
 
 /* ---------------- timeline: compare chosen countries side by side on one year axis ---------------- */
@@ -1065,7 +1091,7 @@ function columnHTML(cid, t0, ppy, narrow) {
 }
 function drawCompareRow() {
   const row = document.getElementById("cmpRow");
-  if (DATA.fictional) { row.hidden = true; return; }
+  if (DATA.fictional) { row.hidden = true; cmpAdding = false; document.getElementById("cmpAddList").hidden = true; return; }
   row.hidden = false;
   row.innerHTML = compare.map(c =>
     `<button data-cmp="${c}" aria-label="Remove ${esc(cname(c))} from comparison"><span class="chip-flag" aria-hidden="true">${FLAGS[c] ?? ""}</span>${esc(cname(c))}<span class="cmp-x" aria-hidden="true">×</span></button>`).join("") +
@@ -1283,7 +1309,8 @@ function loadCountry(id, reignId) {
   haystack = reigns.map(g => [reignName(g), ...g.rulers.map(r => `${rulers[r].name} ${rulers[r].epithet ?? ""}`), ...reignHouses(g).map(h => h.name), g.tagline].join(" ").toLowerCase());
 
   anim?.stop();
-  rail.innerHTML = reigns.map(card).join("");
+  // Cards are built only near the reader (Papacy has 273); the rest stay as light shells.
+  rail.innerHTML = reigns.map((g, i) => `<article class="card shell" id="${g.id}" aria-roledescription="slide" aria-label="${esc(reignName(g))}, ${i + 1} of ${N}"></article>`).join("");
   cards = [...rail.children];
   const name = meta(id)?.short ?? DATA.name;
   document.getElementById("countryName").textContent = name;
@@ -1409,10 +1436,11 @@ const FATE_FIX = {
 const FATE_RULES = [
   ["executed", /execut|behead|guillotin|hanged|put to death|burn(ed|t) alive|firing squad/i],
   ["poisoned", /poison(ed)?\b(?!.*(rumou?r|suspect))/i],
-  ["suicide", /suicide|killed (him|her)self|took (his|her) own life|stabbed himself|cut wrists/i],
+  ["suicide", /suicide|killed (him|her)self|took (his|her) own life|stabbed himself|cut wrists|shot himself|kill(ed)? (him|her)self/i],
   ["battle", /battle|in combat|killed fighting|besieg|siege|crossbow|ambush|cannon|by the dornish|against vikings/i],
   ["murdered", /murder|assassin|stabbed|strangl|smother|throat cut|killed by|killed in the tower|starved|beaten to death|blinded|killed after|mob/i],
-  ["accident", /accident|fell from|fall from|thrown from|drown|gored|lightning|cliff|joust|struck (his|her) head|fumes|fire at/i],
+  ["accident", /accident|fell from|fall from|thrown from|drown|gored|lightning|cliff|joust|struck (his|her) head|fumes|fire at|crash/i],
+  ["murdered", /\b(shot|gunshot|gunfight|shoot-out|lynched|killed|slain)\b/i],
 ];
 function fateOf(cid, r) {
   if (FATE_FIX[`${cid}:${r.id}`]) return FATE_FIX[`${cid}:${r.id}`];
@@ -1423,7 +1451,7 @@ function fateOf(cid, r) {
   const first = c.split(";")[0];
   if (/^(illness|sudden illness|long illness|natural|fever|old age|stroke|plague|smallpox|died in|died a|tuberculosis|pneumonia|heart|dysentery|malaria|dropsy|lifelong)/i.test(first) && !/probably poison/i.test(first)) return "natural";
   for (const [k, re] of FATE_RULES) if (re.test(first)) return k;
-  return "natural";
+  return /illness|disease|died|death|old|natural|ill\b/i.test(first) ? "natural" : "uncertain";
 }
 
 /* ---------------- how they went: fates, the most dangerous thrones, records ---------------- */
@@ -1452,6 +1480,7 @@ function ageYears(s) {
 }
 const ageText = a => /^\d/.test(a) ? `aged ${a.toLowerCase()}` : a.charAt(0).toLowerCase() + a.slice(1);
 const lenText = e => /^0 days?$/.test(e.len) ? "under a day" : e.len;
+const exact = e => precision(e.g.start) === 3 && precision(e.g.end) === 3;
 function renderStats() {
   // One person, counted once: Henry VI sits in both the England and France decks.
   const seen = new Set();
@@ -1490,7 +1519,7 @@ function renderStats() {
   const ended = solo.filter(e => e.g.end);
   const records = [
     ["Longest reign", top3(solo, e => e.e - e.s, -1), e => lenText(e)],
-    ["Shortest reign", top3(ended, e => e.e - e.s, 1), e => lenText(e)],
+    ["Shortest reign", top3(ended.filter(exact), e => e.e - e.s, 1), e => lenText(e)],
     ["Youngest to rule", top3(solo, e => ageYears(e.g.ageAtAccession), 1), e => ageText(e.g.ageAtAccession)],
     ["Oldest to start", top3(solo, e => ageYears(e.g.ageAtAccession), -1), e => ageText(e.g.ageAtAccession)],
   ].map(([k, es, val]) => `<div class="record"><span class="k">${k}</span>${es.map(e => line(e, val(e))).join("")}</div>`).join("");
@@ -1546,7 +1575,7 @@ try { game.picked = JSON.parse(localStorage.getItem("reign.game.picked") ?? "nul
 if (!Array.isArray(game.picked) || !game.picked.some(c => WORLD[c])) game.picked = [...REAL];
 game.picked = game.picked.filter(c => WORLD[c]);
 const bestScore = () => { try { return Number(localStorage.getItem("reign.game.best") ?? 0); } catch { return 0; } };
-const poolOf = cids => cids.flatMap(cid => WORLD[cid].list.flatMap(e => e.g.claims.map(c => ({ cid, e, c }))));
+const poolOf = cids => cids.filter(cid => WORLD[cid]).flatMap(cid => WORLD[cid].list.flatMap(e => e.g.claims.map(c => ({ cid, e, c }))));
 const FICTION = Object.keys(ALL).filter(c => ALL[c].fictional);
 function shuffle(a) { for (let i = a.length - 1; i > 0; i--) { const j = Math.floor(Math.random() * (i + 1)); [a[i], a[j]] = [a[j], a[i]]; } return a; }
 
@@ -1615,7 +1644,7 @@ document.getElementById("playBody").addEventListener("click", e => {
       game.picked = ids.every(x => game.picked.includes(x)) ? game.picked.filter(x => !ids.includes(x)) : [...new Set([...game.picked, ...ids])];
     } else if (c === "all") game.picked = REAL.every(x => game.picked.includes(x)) ? game.picked : [...new Set([...game.picked, ...REAL])];
     else game.picked = game.picked.includes(c) ? game.picked.filter(x => x !== c) : [...game.picked, c];
-    if (!game.picked.length) game.picked = [c === "all" ? REAL[0] : c];
+    if (!game.picked.length) game.picked = [REAL.includes(country) ? country : REAL[0]];
     try { localStorage.setItem("reign.game.picked", JSON.stringify(game.picked)); } catch {}
     return renderPlay();
   }
@@ -1725,8 +1754,9 @@ if ("serviceWorker" in navigator && location.protocol === "https:" && document.q
 /* ---------------- boot ---------------- */
 // Deep links look like #spain.philip-ii; a bare #reign-id is an England link from before countries existed.
 const parseHash = () => {
-  const h = location.hash.slice(1);
-  if (h.includes(".")) return h.split(".");
+  const h = decodeURIComponent(location.hash.slice(1));
+  if (h.includes(".")) { const [c, r] = h.split("."); return Object.hasOwn(ALL, c) ? [c, r] : []; }
+  if (Object.hasOwn(ALL, h)) return [h, undefined];
   return h ? ["england", h] : [];
 };
 const [hashCountry, hashReign] = parseHash();
@@ -1740,7 +1770,7 @@ addEventListener("hashchange", () => {
 });
 let saved = null;
 try { saved = localStorage.getItem("reign.country"); } catch {}
-const startCountry = [hashCountry, saved, "england"].find(c => c && ALL[c]);
+const startCountry = [hashCountry, saved, "england"].find(c => c && Object.hasOwn(ALL, c));
 tabs.forEach(t => t.setAttribute("aria-current", t.dataset.tab === "read" ? "page" : "false"));
 loadCountry(startCountry, startCountry === hashCountry ? hashReign : undefined);
 // Boot is done: lift the splash, and greet first-time visitors (not people arriving on a shared card link).
