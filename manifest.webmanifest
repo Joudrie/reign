@@ -1,0 +1,33 @@
+{
+ "name": "Crown & Succession",
+ "short_name": "Crowns",
+ "description": "Every ruler of 48 countries and empires, from the pharaohs to today, told as one swipeable story. 2,623 illustrated cards, a side-by-side timeline and a record-or-rumour quiz.",
+ "start_url": "./",
+ "scope": "./",
+ "display": "standalone",
+ "background_color": "#f1ece2",
+ "theme_color": "#f1ece2",
+ "icons": [
+  {
+   "src": "icon-192.png",
+   "sizes": "192x192",
+   "type": "image/png"
+  },
+  {
+   "src": "icon-512.png",
+   "sizes": "512x512",
+   "type": "image/png"
+  },
+  {
+   "src": "icon-512.png",
+   "sizes": "512x512",
+   "type": "image/png",
+   "purpose": "maskable"
+  },
+  {
+   "src": "favicon.svg",
+   "sizes": "any",
+   "type": "image/svg+xml"
+  }
+ ]
+}
