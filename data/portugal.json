@@ -1964,6 +1964,105 @@
       "title": "Henry, the Cardinal-King"
     },
     {
+      "id": "governors-1580",
+      "kind": "interregnum",
+      "rulers": [],
+      "house": "crisis",
+      "title": "The Governors of the Realm",
+      "members": [
+        {
+          "name": "Jorge de Almeida, Archbishop of Lisbon",
+          "start": {
+            "date": "1580-01-31"
+          },
+          "end": {
+            "date": "1580-06-24"
+          }
+        },
+        {
+          "name": "João Telo",
+          "start": {
+            "date": "1580-01-31"
+          },
+          "end": {
+            "date": "1580-06-24"
+          }
+        },
+        {
+          "name": "João de Mascarenhas",
+          "start": {
+            "date": "1580-01-31"
+          },
+          "end": {
+            "date": "1580-06-24"
+          }
+        },
+        {
+          "name": "Francisco de Sá de Meneses",
+          "start": {
+            "date": "1580-01-31"
+          },
+          "end": {
+            "date": "1580-06-24"
+          }
+        },
+        {
+          "name": "Diogo Lopes de Sousa",
+          "start": {
+            "date": "1580-01-31"
+          },
+          "end": {
+            "date": "1580-06-24"
+          }
+        }
+      ],
+      "tagline": "Five governors and no king",
+      "start": {
+        "date": "1580-01-31"
+      },
+      "contestedWith": [],
+      "relationToPredecessor": "Named by King Henry",
+      "ageAtAccession": "Not applicable",
+      "cameToPower": "Henry died without an heir",
+      "reignEnded": "Anthony proclaimed king",
+      "previously": "Cardinal-King Henry dies without naming an heir.",
+      "paragraphs": [
+        "King Henry died in January 1580 without choosing between the claimants, chief among them Philip II of Spain. Five governors he had named ran Portugal while the claims were weighed.",
+        "Most of them leaned towards Philip. In June, Anthony, Prior of Crato, was proclaimed king at Santarém, and Spanish armies were already on the way."
+      ],
+      "claims": [],
+      "hook": "Anthony is proclaimed king, and the Duke of Alba marches on Lisbon.",
+      "images": [
+        {
+          "file": "File:El-Rei D. Sebastião e Cardeal D. Henrique, óleo sobre tela, escola portuguesa, séc. XVIII.png",
+          "url": "https://upload.wikimedia.org/wikipedia/commons/c/ce/El-Rei_D._Sebasti%C3%A3o_e_Cardeal_D._Henrique%2C_%C3%B3leo_sobre_tela%2C_escola_portuguesa%2C_s%C3%A9c._XVIII.png",
+          "page": "https://commons.wikimedia.org/wiki/File:El-Rei_D._Sebasti%C3%A3o_e_Cardeal_D._Henrique,_%C3%B3leo_sobre_tela,_escola_portuguesa,_s%C3%A9c._XVIII.png",
+          "credit": "Unknown authorUnknown author",
+          "license": "Public domain",
+          "made": "18th-century",
+          "caption": "King Sebastian and Cardinal-King Henry, whose deaths without heirs left the five governors in charge.",
+          "alt": "King Sebastian and Cardinal-King Henry"
+        }
+      ],
+      "sources": [
+        {
+          "title": "Portuguese succession crisis of 1580 (Wikipedia)",
+          "url": "https://en.wikipedia.org/wiki/Portuguese_succession_crisis_of_1580"
+        },
+        {
+          "title": "Wikipedia list of rulers",
+          "url": "https://en.wikipedia.org/wiki/Portuguese_succession_crisis_of_1580"
+        }
+      ],
+      "review": {
+        "status": "draft",
+        "notes": "Short card added from the completeness audit; checked only against Wikipedia."
+      },
+      "end": {
+        "date": "1580-06-24"
+      }
+    },
+    {
       "id": "anthony",
       "kind": "claimant",
       "rulers": [
@@ -3171,7 +3270,19 @@
       "review": {
         "status": "draft",
         "notes": "Drafted from the listed sources; needs a human fact-check."
-      }
+      },
+      "members": [
+        {
+          "name": "Ferdinand II",
+          "start": {
+            "date": "1837-09-16"
+          },
+          "end": {
+            "date": "1853-11-15"
+          },
+          "note": "Her husband, king by marriage once their son was born"
+        }
+      ]
     },
     {
       "id": "peter-v",

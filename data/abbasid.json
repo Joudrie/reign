@@ -546,6 +546,31 @@
         "date": "1242-12-05",
         "note": "Baghdad"
       }
+    },
+    {
+      "id": "ibrahim-ibn-al-mahdi",
+      "name": "Ibrahim ibn al-Mahdi",
+      "house": "abbasid",
+      "born": {
+        "date": "0779",
+        "circa": true
+      },
+      "died": {
+        "date": "0839",
+        "circa": true
+      }
+    },
+    {
+      "id": "ibn-al-mutazz",
+      "name": "Ibn al-Mu'tazz",
+      "house": "abbasid",
+      "born": {
+        "date": "0861",
+        "circa": true
+      },
+      "died": {
+        "date": "0908-12"
+      }
     }
   ],
   "reigns": [
@@ -1022,7 +1047,9 @@
       "end": {
         "date": "0833-08-09"
       },
-      "contestedWith": [],
+      "contestedWith": [
+        "ibrahim-ibn-al-mahdi"
+      ],
       "relationToPredecessor": "Half-brother of al-Amin",
       "ageAtAccession": "27",
       "cameToPower": "Won the civil war",
@@ -1088,6 +1115,62 @@
       "review": {
         "status": "draft",
         "notes": "Drafted from the listed sources; needs a human fact-check."
+      }
+    },
+    {
+      "id": "ibrahim-ibn-al-mahdi",
+      "kind": "claimant",
+      "rulers": [
+        "ibrahim-ibn-al-mahdi"
+      ],
+      "tagline": "The singer-caliph of Baghdad",
+      "start": {
+        "date": "0817-07-24",
+        "circa": true
+      },
+      "contestedWith": [
+        "al-mamun"
+      ],
+      "relationToPredecessor": "Son of al-Mahdi",
+      "ageAtAccession": "38",
+      "cameToPower": "Proclaimed by Baghdad's nobles",
+      "reignEnded": "Hid when al-Mamun returned",
+      "previously": "Al-Mamun names an Alid heir, and Baghdad revolts.",
+      "paragraphs": [
+        "When al-Mamun named a descendant of Ali as his heir, the Abbasid family in Baghdad rebelled and proclaimed his uncle Ibrahim caliph. Ibrahim was better known as a singer and poet than a ruler.",
+        "As al-Mamun marched back from Khurasan in 819, support for Ibrahim collapsed and he went into hiding. Later caught, he was pardoned and returned to court as a musician."
+      ],
+      "claims": [],
+      "hook": "Al-Mamun enters Baghdad and rules from there.",
+      "images": [
+        {
+          "file": "File:Round City in the Time of Mansur (Le Strange).png",
+          "url": "https://upload.wikimedia.org/wikipedia/commons/c/c4/Round_City_in_the_Time_of_Mansur_%28Le_Strange%29.png",
+          "page": "https://commons.wikimedia.org/wiki/File:Round_City_in_the_Time_of_Mansur_(Le_Strange).png",
+          "credit": "Guy Le Strange (24 July 1854 – 24 December 1933)",
+          "license": "Public domain",
+          "made": "1900",
+          "caption": "Plan of the Round City of Baghdad, which proclaimed Ibrahim caliph. No portrait of him survives.",
+          "alt": "Plan of the Round City of Baghdad"
+        }
+      ],
+      "sources": [
+        {
+          "title": "Ibrahim ibn al-Mahdi (Wikipedia)",
+          "url": "https://en.wikipedia.org/wiki/Ibrahim_ibn_al-Mahdi"
+        },
+        {
+          "title": "Wikipedia list of rulers",
+          "url": "https://en.wikipedia.org/wiki/Ibrahim_ibn_al-Mahdi"
+        }
+      ],
+      "review": {
+        "status": "draft",
+        "notes": "Short card added from the completeness audit; checked only against Wikipedia."
+      },
+      "end": {
+        "date": "0819-08",
+        "circa": true
       }
     },
     {
@@ -1864,7 +1947,9 @@
       "end": {
         "date": "0932-10-31"
       },
-      "contestedWith": [],
+      "contestedWith": [
+        "ibn-al-mutazz"
+      ],
       "relationToPredecessor": "Brother of al-Muktafi",
       "ageAtAccession": "12",
       "cameToPower": "Chosen by his brother's officials",
@@ -1930,6 +2015,60 @@
       "review": {
         "status": "draft",
         "notes": "Drafted from the listed sources; needs a human fact-check."
+      }
+    },
+    {
+      "id": "ibn-al-mutazz",
+      "kind": "claimant",
+      "rulers": [
+        "ibn-al-mutazz"
+      ],
+      "tagline": "The poet who was caliph for a day",
+      "start": {
+        "date": "0908-12-17"
+      },
+      "contestedWith": [
+        "al-muqtadir"
+      ],
+      "relationToPredecessor": "Son of Caliph al-Mu'tazz",
+      "ageAtAccession": "47",
+      "cameToPower": "Court coup against the boy al-Muqtadir",
+      "reignEnded": "Coup failed; strangled",
+      "previously": "A 13-year-old becomes caliph, and the court plots.",
+      "paragraphs": [
+        "Abdallah ibn al-Mu'tazz was one of the finest Arabic poets of his age. In December 908 a group of officials tried to replace the boy caliph al-Muqtadir with him.",
+        "The palace guard held out, and the coup collapsed within a day. Ibn al-Mu'tazz hid but was found and strangled."
+      ],
+      "claims": [],
+      "hook": "Al-Muqtadir's long, ruinous reign continues.",
+      "images": [
+        {
+          "file": "File:Baghdad 150 to 300 AH.png",
+          "url": "https://upload.wikimedia.org/wikipedia/commons/0/07/Baghdad_150_to_300_AH.png",
+          "page": "https://commons.wikimedia.org/wiki/File:Baghdad_150_to_300_AH.png",
+          "credit": "William Muir",
+          "license": "Public domain",
+          "made": "1883",
+          "caption": "Map of Baghdad in his lifetime, where his one-day caliphate played out. No portrait of him survives.",
+          "alt": "Map of Baghdad in his lifetime"
+        }
+      ],
+      "sources": [
+        {
+          "title": "Ibn al-Mu'tazz (Wikipedia)",
+          "url": "https://en.wikipedia.org/wiki/Ibn_al-Mu%27tazz"
+        },
+        {
+          "title": "Wikipedia list of rulers",
+          "url": "https://en.wikipedia.org/wiki/Ibn_al-Mu%27tazz"
+        }
+      ],
+      "review": {
+        "status": "draft",
+        "notes": "Short card added from the completeness audit; checked only against Wikipedia."
+      },
+      "end": {
+        "date": "0908-12-18"
       }
     },
     {

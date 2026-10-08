@@ -290,6 +290,15 @@
         "date": "1762",
         "circa": true
       }
+    },
+    {
+      "id": "hisham",
+      "name": "Hisham ibn Mohammed",
+      "house": "alaouite",
+      "died": {
+        "date": "1799",
+        "circa": true
+      }
     }
   ],
   "reigns": [
@@ -446,7 +455,20 @@
       "review": {
         "status": "draft",
         "notes": "Drafted from the listed sources; needs a human fact-check."
-      }
+      },
+      "members": [
+        {
+          "name": "Ahmad ibn Muhriz",
+          "start": {
+            "date": "1672-04"
+          },
+          "end": {
+            "date": "1686",
+            "circa": true
+          },
+          "note": "Nephew and rival who held Marrakesh and the south for years"
+        }
+      ]
     },
     {
       "id": "ahmad-adh-dhahabi",
@@ -1677,6 +1699,62 @@
       }
     },
     {
+      "id": "hisham",
+      "kind": "claimant",
+      "rulers": [
+        "hisham"
+      ],
+      "tagline": "The rival sultan of Marrakesh",
+      "start": {
+        "date": "1792-02",
+        "circa": true
+      },
+      "contestedWith": [
+        "slimane"
+      ],
+      "relationToPredecessor": "Son of Mohammed III",
+      "ageAtAccession": "Unknown",
+      "cameToPower": "Proclaimed in Marrakesh",
+      "reignEnded": "Gave up to Slimane",
+      "previously": "Sultan Yazid dies of a wound, and his brothers split the country.",
+      "paragraphs": [
+        "After Sultan Yazid died in 1792, Morocco split. Hisham was proclaimed sultan in Marrakesh and the south, while his brother Slimane held Fez and the north.",
+        "Plague and Slimane's advances wore Hisham down, and by 1797 he had given up and submitted."
+      ],
+      "claims": [],
+      "hook": "Slimane rules a reunited Morocco.",
+      "images": [
+        {
+          "file": "File:Bab Agnaou, Marrakesh, Morocco, 20250125 1255 7243.jpg",
+          "url": "https://upload.wikimedia.org/wikipedia/commons/4/46/Bab_Agnaou%2C_Marrakesh%2C_Morocco%2C_20250125_1255_7243.jpg",
+          "page": "https://commons.wikimedia.org/wiki/File:Bab_Agnaou,_Marrakesh,_Morocco,_20250125_1255_7243.jpg",
+          "credit": "Jakub Hałun",
+          "license": "CC BY 4.0",
+          "made": "2025-01-25 12:55:46",
+          "caption": "Bab Agnaou gate in Marrakesh, the city Hisham held as his capital. No portrait of him survives.",
+          "alt": "Bab Agnaou gate in Marrakesh"
+        }
+      ],
+      "sources": [
+        {
+          "title": "Hisham ibn Mohammed (Wikipedia)",
+          "url": "https://en.wikipedia.org/wiki/Hisham_ibn_Mohammed"
+        },
+        {
+          "title": "Wikipedia list of rulers",
+          "url": "https://en.wikipedia.org/wiki/Hisham_ibn_Mohammed"
+        }
+      ],
+      "review": {
+        "status": "draft",
+        "notes": "Short card added from the completeness audit; checked only against Wikipedia."
+      },
+      "end": {
+        "date": "1797",
+        "circa": true
+      }
+    },
+    {
       "id": "slimane",
       "kind": "monarch",
       "rulers": [
@@ -1690,7 +1768,9 @@
       "end": {
         "date": "1822-11-28"
       },
-      "contestedWith": [],
+      "contestedWith": [
+        "hisham"
+      ],
       "relationToPredecessor": "Brother of al-Yazid",
       "ageAtAccession": "25",
       "cameToPower": "Proclaimed in Fez",
@@ -1750,7 +1830,21 @@
       "review": {
         "status": "draft",
         "notes": "Drafted from the listed sources; needs a human fact-check."
-      }
+      },
+      "members": [
+        {
+          "name": "Maslama ibn Mohammed",
+          "start": {
+            "date": "1792",
+            "circa": true
+          },
+          "end": {
+            "date": "1792",
+            "circa": true
+          },
+          "note": "Brother proclaimed sultan in the north; soon lost support"
+        }
+      ]
     },
     {
       "id": "abd-al-rahman",
