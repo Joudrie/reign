@@ -735,7 +735,29 @@
       "review": {
         "status": "draft",
         "notes": "Drafted from the listed sources; needs a human fact-check."
-      }
+      },
+      "members": [
+        {
+          "name": "Cleopatra I",
+          "start": {
+            "date": "-0180"
+          },
+          "end": {
+            "date": "-0176"
+          },
+          "note": "His mother, regent and co-ruler"
+        },
+        {
+          "name": "Ptolemy Eupator",
+          "start": {
+            "date": "-0152"
+          },
+          "end": {
+            "date": "-0152"
+          },
+          "note": "Son, co-ruler for a few months"
+        }
+      ]
     },
     {
       "id": "ptolemy-viii-and-cleopatra-ii",
@@ -817,7 +839,19 @@
       "review": {
         "status": "draft",
         "notes": "Drafted from the listed sources; needs a human fact-check."
-      }
+      },
+      "members": [
+        {
+          "name": "Ptolemy VII",
+          "start": {
+            "date": "-0145"
+          },
+          "end": {
+            "date": "-0145"
+          },
+          "note": "Young son of Ptolemy VI, briefly king; killed by Ptolemy VIII"
+        }
+      ]
     },
     {
       "id": "ptolemy-viii-and-cleopatra-iii",
@@ -1466,7 +1500,19 @@
       "review": {
         "status": "draft",
         "notes": "Drafted from the listed sources; needs a human fact-check."
-      }
+      },
+      "members": [
+        {
+          "name": "Cleopatra VI Tryphaena",
+          "start": {
+            "date": "-0058"
+          },
+          "end": {
+            "date": "-0057"
+          },
+          "note": "Co-ruler with Berenice"
+        }
+      ]
     },
     {
       "id": "ptolemy-xii-restored",
