@@ -31,7 +31,7 @@ const tab = async (p, t) => { await p.click(`[data-tab="${t}"]`); await p.waitFo
     await p.evaluate(h => { location.hash = h; }, `${id}.${first}`);
     await p.waitForTimeout(250);
     const st = await p.evaluate(() => ({ c: country, n: document.getElementById("count").textContent, cur: reigns[index].id }));
-    check(st.c === id && st.cur === first && /^1 of \d+/.test(st.n), `deck ${id} opens (${st.n})`);
+    check(st.c === id && st.cur === first && /(^|, )1 of \d+$/.test(st.n), `deck ${id} opens (${st.n})`);
   }
   check(!p.errors.length, `no errors while opening decks ${p.errors.slice(0, 3).join(" | ")}`);
   await p.close();

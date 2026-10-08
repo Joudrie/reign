@@ -113,12 +113,12 @@ button, input { font: inherit; color: inherit; }
   scrollbar-width: thin; scrollbar-color: var(--edge) transparent;
 }
 .card:focus { outline: none; }
-.card:focus-visible { outline: none; }
+.card:focus-visible { outline: 2px solid var(--accent); outline-offset: -2px; }
 .deck.dragging { cursor: grabbing; user-select: none; }
 .card-inner { padding: var(--s1) var(--s2) var(--s3); display: grid; gap: var(--s2); }
 @media (max-width: 420px) { .card-inner { padding: var(--s1) var(--s1) var(--s3); } }
 
-.prev { font-size: var(--t-xs); color: var(--muted); white-space: nowrap; overflow: hidden; text-overflow: ellipsis; }
+.prev { font-size: var(--t-xs); color: var(--muted); display: -webkit-box; -webkit-line-clamp: 2; -webkit-box-orient: vertical; overflow: hidden; }
 .prev b { color: var(--accent); font-weight: 600; margin-right: var(--s-1); }
 
 .portrait {
@@ -190,7 +190,7 @@ details a { color: inherit; }
 .side:disabled { opacity: 0.35; cursor: default; }
 .side.prev-side { left: var(--s2); }
 .side.next-side { right: var(--s2); }
-@media (min-width: 820px) { .side { display: block; } }
+@media (min-width: 820px), (hover: hover) and (pointer: fine) { .side { display: block; } }
 
 /* ---------- tab bar ---------- */
 .tabs {
@@ -265,8 +265,8 @@ details a { color: inherit; }
 .countries.compact .progress { display: none; }
 .pick-summary { display: flex; flex-wrap: wrap; align-items: center; gap: var(--s0); margin: 0 0 var(--s1); }
 .pick-group { margin: var(--s0) 0; }
-.pick-group h4 { display: flex; align-items: center; gap: var(--s0); margin: 0 0 6px; font-size: var(--t-xs); text-transform: uppercase; letter-spacing: .08em; color: var(--muted); }
-.pick-group h4 button { font: inherit; text-transform: none; letter-spacing: 0; color: var(--accent, var(--ink)); background: none; border: 0; cursor: pointer; text-decoration: underline; padding: 0; }
+.pick-group h3 { display: flex; align-items: center; gap: var(--s0); margin: 0 0 6px; font-size: var(--t-xs); text-transform: uppercase; letter-spacing: .08em; color: var(--muted); }
+.pick-group h3 button { font: inherit; text-transform: none; letter-spacing: 0; color: var(--accent, var(--ink)); background: none; border: 0; cursor: pointer; text-decoration: underline; padding: 0; }
 .cmp-row .cmp-x { margin-left: 2px; opacity: .6; }
 .cmp-row .cmp-add { color: var(--ink); border-style: dashed; }
 .cmp-add-list { display: grid; gap: 6px; padding: 0 var(--s2) var(--s0); max-height: 46vh; overflow-y: auto; }
@@ -274,6 +274,21 @@ details a { color: inherit; }
 .cmp-add-list .opts { display: flex; flex-wrap: wrap; gap: 6px; }
 .cmp-add-list .opts button { display: inline-flex; align-items: center; gap: 6px; min-height: 34px; padding: 0 10px 0 6px; border-radius: 999px; border: 1px solid var(--edge); background: var(--card); cursor: pointer; font-size: var(--t-sm); color: var(--ink); }
 .danger-more { margin-top: var(--s0); }
+.sr-only { position: absolute; width: 1px; height: 1px; overflow: hidden; clip: rect(0 0 0 0); white-space: nowrap; }
+.bar:focus-visible { outline: 2px solid var(--ink); outline-offset: 2px; box-shadow: 0 0 0 4px var(--card); }
+.tl-scroll { scroll-padding-top: 52px; scroll-padding-left: 56px; }
+.label[aria-current="true"] strong, .tl-head[aria-current="true"] span:last-child { text-decoration: underline 2px; text-underline-offset: 3px; }
+.danger .stack i + i { box-shadow: -2px 0 0 var(--card); }
+.mini-banner { text-shadow: 0 0 2px rgb(0 0 0 / .5); }
+/* Comfortable touch targets */
+.country-btn, details > summary, .cmp-tools button, .cmp-add-list .grp button, .pick-group h3 button { min-height: 44px; display: inline-flex; align-items: center; }
+.cmp-tools button, .cmp-add-list .grp button, .pick-group h3 button { padding: 0 8px; }
+.btn, .pick button, .region-tabs button, .cmp-row button, .cmp-add-list .opts button, .seg-btns button { min-height: 44px; }
+.icon-btn { min-width: 44px; min-height: 44px; }
+details li a { display: inline-block; padding-block: 10px; }
+@media (prefers-color-scheme: dark) { :root:not([data-theme="light"]) .bar { box-shadow: 0 0 0 1px rgb(237 230 218 / .45); } }
+:root[data-theme="dark"] .bar { box-shadow: 0 0 0 1px rgb(237 230 218 / .45); }
+@media (max-width: 420px) { .danger li { grid-template-columns: 24px minmax(0, 1fr) auto; } .danger .stack { grid-column: 1 / -1; } }
 .cmp-add-list[hidden] { display: none; }
 .countries button {
   width: 100%; display: grid; grid-template-columns: 36px 1fr; gap: var(--s0) var(--s1); align-items: center;
@@ -296,7 +311,8 @@ details a { color: inherit; }
   font-size: 1rem;
 }
 .search-box input::placeholder { color: var(--muted); }
-.search-box input:focus-visible { outline: none; border-color: var(--accent); }
+.search-box input { border-color: var(--muted); }
+.search-box input:focus-visible { outline: 2px solid var(--accent); outline-offset: 1px; }
 .results { list-style: none; margin: 0; padding: 0; display: grid; gap: var(--s0); }
 .results button {
   width: 100%; display: grid; grid-template-columns: 48px 1fr; gap: var(--s1); align-items: center;
@@ -458,7 +474,7 @@ details a { color: inherit; }
 </section>
 
 <section class="view" id="view-play" aria-label="Record or rumour game">
-  <div class="view-head"><h2>Record or rumour?</h2><span class="zoom-level" id="playScore"></span></div>
+  <div class="view-head"><h2>Record or rumour?</h2><span class="zoom-level" id="playScore" aria-live="polite"></span></div>
   <div class="view-body"><div class="play-body" id="playBody"></div></div>
 </section>
 
@@ -478,7 +494,7 @@ details a { color: inherit; }
       <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" aria-hidden="true"><circle cx="11" cy="11" r="7"/><path d="M20 20l-4-4"/></svg>
       <input id="q" type="text" enterkeyhint="search" placeholder="Name, house or year" autocomplete="off" aria-label="Search rulers">
     </label>
-    <p class="result-count" id="resultCount"></p>
+    <p class="result-count" id="resultCount" role="status" aria-live="polite"></p>
     <ul class="results" id="results"></ul>
   </div>
 </section>
@@ -758,6 +774,7 @@ function card(g, i) {
       <h2 class="section-label caps">${g.hook ? "Next time" : DATA.epilogue ? "The end of the line" : "To be continued"}</h2>
       <p>${esc(g.hook ?? DATA.epilogue ?? "This story is still being written. Swipe back through the centuries of how we got here.")}</p>
       <div class="hook-actions">
+        ${i > 0 ? `<button class="btn ghost" data-go="${i - 1}" aria-label="Previous: ${esc(reignName(reigns[i - 1]))}">←</button>` : ""}
         <button class="btn" data-go="${next ? i + 1 : 0}">${next ? `${esc(reignName(next))} →` : `← Back to ${esc(reignName(reigns[0]))}`}</button>
         <button class="btn ghost share-btn" data-share="${i}" aria-label="Share ${esc(reignName(g))}"><svg viewBox="0 0 24 24" width="18" height="18" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M12 3v12"/><path d="M8 7l4-4 4 4"/><path d="M5 12v7a2 2 0 0 0 2 2h10a2 2 0 0 0 2-2v-7"/></svg>Share</button>
       </div>
@@ -765,8 +782,8 @@ function card(g, i) {
     <details>
       <summary>${p ? "Sources and image credit" : "Sources"}</summary>
       <ul>
-        ${g.sources.map(s => `<li>${s.author ? esc(s.author) + ", " : ""}${s.url ? `<a href="${esc(s.url)}" target="_blank" rel="noopener"><i>${esc(s.title)}</i></a>` : `<i>${esc(s.title)}</i>`}${s.note ? ` (${esc(s.note)})` : ""}</li>`).join("")}
-        ${p ? `<li>Portrait: ${esc(p.credit)}, ${esc(p.made)}. ${esc(p.license)}. ${esc(p.caption)} <a href="${esc(p.page)}" target="_blank" rel="noopener">Wikimedia Commons</a></li>` : `<li>From George R. R. Martin's novels; a fictional world, so no portrait.</li>`}
+        ${g.sources.map(s => `<li>${s.author ? esc(s.author) + ", " : ""}${s.url ? `<a href="${esc(s.url)}" target="_blank" rel="noopener"><i>${esc(s.title)}</i><span class="sr-only"> (opens in a new tab)</span></a>` : `<i>${esc(s.title)}</i>`}${s.note ? ` (${esc(s.note)})` : ""}</li>`).join("")}
+        ${p ? `<li>Portrait: ${esc(p.credit)}, ${esc(p.made)}. ${esc(p.license)}. ${esc(p.caption)} <a href="${esc(p.page)}" target="_blank" rel="noopener">Wikimedia Commons<span class="sr-only"> (opens in a new tab)</span></a></li>` : `<li>From George R. R. Martin's novels; a fictional world, so no portrait.</li>`}
       </ul>
     </details>
     ${g.review.status === "draft" ? `<div class="draft">Draft: not yet fact-checked</div>` : ""}
@@ -811,7 +828,7 @@ function loadNear(i) {
 }
 function setIndex(i) {
   index = i;
-  count.textContent = `${i + 1} of ${N}`;
+  count.innerHTML = `<span class="sr-only">${esc(reignName(reigns[i]))}, </span>${i + 1} of ${N}`;
   prevBtn.disabled = i === 0;
   nextBtn.disabled = i === N - 1;
   cards.forEach((c, k) => { c.inert = k !== i; });
@@ -916,6 +933,7 @@ function show(name) {
   if (views[name]) reveal(views[name], true);
   if (views[prev]) reveal(views[prev], false);
   deck.inert = name !== "read";
+  document.querySelector(".top").inert = name !== "read";
   if (name === "timeline") scrollTimelineToCurrent();
 }
 tabs.forEach(t => t.addEventListener("click", () => show(t.dataset.tab)));
@@ -955,7 +973,8 @@ function columnHTML(cid, t0, ppy, narrow) {
   const tiny = ppy < 2;
   // Story order can rewind (a rival's card follows the winner's), so lay out by start date.
   const W = WORLD[cid], L = [...W.list].sort((a, b) => a.s - b.s), y = t => (t - t0) * ppy;
-  const LABEL_H = tiny ? 16 : narrow ? 34 : 40, LANE = tiny ? 8 : narrow ? 14 : 18, BAR = tiny ? 6 : narrow ? 10 : 12;
+  const rem = parseFloat(getComputedStyle(document.documentElement).fontSize) / 16 || 1;
+  const LABEL_H = (tiny ? 16 : narrow ? 34 : 40) * rem, LANE = tiny ? 8 : narrow ? 14 : 18, BAR = tiny ? 6 : narrow ? 10 : 12;
   // Lanes: each reign takes the leftmost lane free by its start, so a civil war splits into parallel lines.
   const laneEnds = [], lanes = L.map(e => {
     let k = laneEnds.findIndex(v => v <= e.s + 1 / 365);
@@ -970,12 +989,14 @@ function columnHTML(cid, t0, ppy, narrow) {
     const hs = e.g.rulers.length ? e.g.rulers.map(r => W.houses[W.rulers[r]?.house]) : [W.houses[e.g.house]];
     const xid = `${cid}.${e.g.id}`, nm = esc(e.name);
     const tt = `${nm} (${span(e.g, W.data.era)})`;
-    if (hs.length > 1) hs.forEach((hh, k) => (bars += `<button class="bar half" data-x="${xid}" aria-label="${nm}" title="${tt}" style="top:${a}px;height:${h}px;left:${left + k * 6}px;background:${hh?.color ?? "var(--muted)"}"></button>`));
-    else bars += `<button class="bar" data-x="${xid}" aria-label="${nm}" title="${tt}" style="top:${a}px;height:${h}px;left:${left}px;width:${BAR}px;background:${hs[0]?.color ?? "var(--muted)"}"></button>`;
     const top = Math.max(a, labelBottom);
     const cur = cid === country && e.i === index;
     // A label pushed far below its own bar just adds clutter: leave the bar (tap or hover for its name).
-    if (!cur && (tiny ? top - a > LABEL_H * 0.75 : top - a > LABEL_H * 1.5 && top > y(e.e) - 4)) return;
+    const shown = cur || !(tiny ? top - a > LABEL_H * 0.75 : top - a > LABEL_H * 1.5 && top > y(e.e) - 4);
+    const ba = shown ? `tabindex="-1" aria-hidden="true"` : `aria-label="${tt}"`;
+    if (hs.length > 1) hs.forEach((hh, k) => (bars += `<button class="bar half" data-x="${xid}" ${ba} title="${tt}" style="top:${a}px;height:${h}px;left:${left + k * 6}px;background:${hh?.color ?? "var(--muted)"}"></button>`));
+    else bars += `<button class="bar" data-x="${xid}" ${ba} title="${tt}" style="top:${a}px;height:${h}px;left:${left}px;width:${BAR}px;background:${hs[0]?.color ?? "var(--muted)"}"></button>`;
+    if (!shown) return;
     labelBottom = top + LABEL_H;
     if (top - a > 2) {
       // Label pushed down by a crowded stretch: an elbow line ties it back to its bar.
@@ -992,12 +1013,12 @@ function drawCompareRow() {
   if (DATA.fictional) { row.hidden = true; return; }
   row.hidden = false;
   row.innerHTML = compare.map(c =>
-    `<button data-cmp="${c}" aria-pressed="true" aria-label="Remove ${esc(cname(c))}"><span class="chip-flag">${FLAGS[c] ?? ""}</span>${esc(cname(c))}<span class="cmp-x" aria-hidden="true">×</span></button>`).join("") +
+    `<button data-cmp="${c}" aria-label="Remove ${esc(cname(c))} from comparison"><span class="chip-flag" aria-hidden="true">${FLAGS[c] ?? ""}</span>${esc(cname(c))}<span class="cmp-x" aria-hidden="true">×</span></button>`).join("") +
     `<button class="cmp-add" data-cmp-add aria-expanded="${cmpAdding}">${cmpAdding ? "Done" : "+ Add countries"}</button>`;
   const list = document.getElementById("cmpAddList");
   list.hidden = !cmpAdding;
   if (cmpAdding) list.innerHTML = `<div class="cmp-tools"><button data-cmp-all="*">Add every country</button>${compare.length > 1 ? `<button data-cmp-clear>Keep only ${esc(cname(country))}</button>` : ""}</div>` +
-    REGIONS.map(([r, ids]) => { const opts = ids.filter(c => WORLD[c] && !compare.includes(c)); return opts.length ? `<div class="grp">${esc(r)}<button data-cmp-all="${esc(r)}">add all</button></div><div class="opts">${opts.map(c => `<button data-cmp="${c}"><span class="chip-flag">${FLAGS[c] ?? ""}</span>${esc(cname(c))}</button>`).join("")}</div>` : ""; }).join("");
+    REGIONS.map(([r, ids]) => { const opts = ids.filter(c => WORLD[c] && !compare.includes(c)); return opts.length ? `<div class="grp">${esc(r)}<button data-cmp-all="${esc(r)}">add all</button></div><div class="opts">${opts.map(c => `<button data-cmp="${c}"><span class="chip-flag" aria-hidden="true">${FLAGS[c] ?? ""}</span>${esc(cname(c))}</button>`).join("")}</div>` : ""; }).join("");
 }
 let cmpAdding = false;
 function drawTimeline() {
@@ -1014,7 +1035,7 @@ function drawTimeline() {
     const c = columnHTML(cid, t0, ppy, narrow);
     bottom = Math.max(bottom, c.bottom);
     return `<div class="tl-col" data-cid="${cid}">
-      <div class="tl-head" aria-current="${cid === country}"><span class="chip-flag">${FLAGS[cid] ?? ""}</span><span>${esc(cname(cid))}</span></div>${c.html}</div>`;
+      <div class="tl-head" aria-current="${cid === country}"><span class="chip-flag" aria-hidden="true">${FLAGS[cid] ?? ""}</span><span>${esc(cname(cid))}</span></div>${c.html}</div>`;
   }).join("");
   const height = TL_TOP + bottom + 48;
   const every = ppy >= 16 ? 5 : ppy >= 8 ? 10 : ppy >= 4 ? 25 : ppy >= 2 ? 50 : ppy >= 1 ? 100 : ppy >= 0.5 ? 250 : 500;
@@ -1140,7 +1161,7 @@ function renderResults() {
     : `All ${N} reigns, in order`;
   document.getElementById("results").innerHTML = hits.length
     ? hits.map(i => { const g = reigns[i]; return `<li><button data-jump="${i}">
-        ${g.images.length ? `<img data-pic="${img(g)}" alt="">` : `<span class="mini-banner" style="background:${reignHouses(g)[0]?.color}">${esc(initial(g))}</span>`}
+        ${g.images.length ? `<img data-pic="${img(g)}" alt="">` : `<span class="mini-banner" aria-hidden="true" style="background:${reignHouses(g)[0]?.color}">${esc(initial(g))}</span>`}
         <span class="meta"><strong>${esc(reignName(g))}</strong><span>${span(g)} · ${houseLabel(g)}</span></span>
       </button></li>`; }).join("")
     : `<li class="empty">No rulers match “${esc(q.value.trim())}”. Try a name like Henry, a house like Tudor, or a year like 1483.</li>`;
@@ -1241,9 +1262,9 @@ const cname = cid => meta(cid)?.short ?? meta(cid)?.name ?? ALL[cid].name;
 const reignOf = (cid, rid) => WORLD[cid].list.find(e => e.g.rulers.includes(rid));
 const thumb = (cid, e) => e.g.images?.length
   ? `<img data-pic="${cid}/${e.g.id}" alt="">`
-  : `<span class="mini-banner" style="background:${WORLD[cid].houses[WORLD[cid].rulers[e.g.rulers[0]]?.house ?? e.g.house]?.color ?? "var(--muted)"}">${esc(e.name[0])}</span>`;
+  : `<span class="mini-banner" aria-hidden="true" style="background:${WORLD[cid].houses[WORLD[cid].rulers[e.g.rulers[0]]?.house ?? e.g.house]?.color ?? "var(--muted)"}">${esc(e.name[0])}</span>`;
 const chip = (cid, e, text, small) =>
-  `<button class="chip" data-x="${cid}.${e.g.id}"><span class="chip-flag">${FLAGS[cid] ?? ""}</span><span>${esc(text)}${small ? ` <small>${esc(small)}</small>` : ""}</span></button>`;
+  `<button class="chip" data-x="${cid}.${e.g.id}"><span class="chip-flag" role="img" aria-label="${esc(cname(cid))}">${FLAGS[cid] ?? ""}</span><span>${esc(text)}${small ? ` <small>${esc(small)}</small>` : ""}</span></button>`;
 
 /** Open any card in any country (chips, timeline, stats, game). */
 function openX(x) {
@@ -1342,9 +1363,9 @@ const VIOLENT = ["battle", "murdered", "executed", "poisoned", "suicide"];
 // Validated categorical set (CVD-safe, 3:1 on the card surface); uncertain is a neutral, not a category hue.
 const FATE_GROUPS = [
   ["violent", "Violent death", "#a8353f"],
-  ["accident", "Accident", "#c08417"],
+  ["accident", "Accident", "#a8770f"],
   ["natural", "Natural causes", "#3a7bb8"],
-  ["uncertain", "Uncertain", "#d6ccbb"],
+  ["uncertain", "Uncertain", "#b3a691"],
 ];
 const groupOf = f => (VIOLENT.includes(f) ? "violent" : f);
 let statsFate = "murdered", dangerAll = false;
@@ -1376,7 +1397,8 @@ function renderStats() {
     const name = cname(row.cid);
     const segs = FATE_GROUPS.filter(([k]) => row.n[k]).map(([k, label, c]) =>
       `<i style="flex:${row.n[k]} 1 0;background:${c}" data-tip="${esc(name)}: ${row.n[k]} of ${row.total} rulers, ${label.toLowerCase()}"></i>`).join("");
-    return `<li><span class="chip-flag">${FLAGS[row.cid] ?? ""}</span><span class="name">${esc(name)}</span><span class="stack">${segs}</span><span class="pct">${Math.round(row.pct * 100)}%</span></li>`;
+    const sr = FATE_GROUPS.filter(([k]) => row.n[k]).map(([k, label]) => `${label.toLowerCase()} ${row.n[k]}`).join(", ");
+    return `<li><span class="chip-flag" aria-hidden="true">${FLAGS[row.cid] ?? ""}</span><span class="name">${esc(name)}</span><span class="stack" role="img" aria-label="${esc(name)}: ${sr}, of ${row.total} rulers">${segs}</span><span class="pct">${Math.round(row.pct * 100)}%</span></li>`;
   }).join("");
 
   const counts = Object.fromEntries(Object.keys(FATES).map(k => [k, everyone.filter(p => p.fate === k).length]));
@@ -1389,7 +1411,7 @@ function renderStats() {
 
   // Records: one person on one throne (co-reigns and interregnums would muddy the numbers).
   const solo = REAL.flatMap(cid => WORLD[cid].list.filter(e => e.g.rulers.length === 1 && e.g.kind === "monarch"));
-  const line = (e, value) => `<button class="rec-line" data-x="${e.cid}.${e.g.id}"><span class="chip-flag">${FLAGS[e.cid] ?? ""}</span><span><strong>${esc(e.name)}</strong> <span>${esc(value)}</span></span></button>`;
+  const line = (e, value) => `<button class="rec-line" data-x="${e.cid}.${e.g.id}"><span class="chip-flag" role="img" aria-label="${esc(cname(e.cid))}">${FLAGS[e.cid] ?? ""}</span><span><strong>${esc(e.name)}</strong> <span>${esc(value)}</span></span></button>`;
   const top3 = (arr, key, dir) => [...arr].filter(e => key(e) !== null).sort((a, b) => dir * (key(a) - key(b))).slice(0, 3);
   const ended = solo.filter(e => e.g.end);
   const records = [
@@ -1458,15 +1480,15 @@ function renderPlay() {
   document.getElementById("playScore").textContent = r && !r.done ? `Score ${r.score}` : bestScore() ? `Best ${bestScore()}/${GAME_LEN}` : "";
   if (!r) {
     const all = REAL.every(c => game.picked.includes(c));
-    const btn = (cid, label) => `<button data-pick="${cid}" aria-pressed="${game.picked.includes(cid)}"><span class="chip-flag">${FLAGS[cid] ?? ""}</span>${esc(label)}<small>${poolOf([cid]).length}</small></button>`;
+    const btn = (cid, label) => `<button data-pick="${cid}" aria-pressed="${game.picked.includes(cid)}"><span class="chip-flag" aria-hidden="true">${FLAGS[cid] ?? ""}</span>${esc(label)}<small>${poolOf([cid]).length}</small></button>`;
     el.innerHTML = `
       <p class="play-intro">Every card sorts its stories into record, disputed and rumour. Read the story, then guess which it is.</p>
       <div class="pick-summary"><span>Playing <strong>${all && !game.picked.some(c => FICTION.includes(c)) ? "all real history" : `${game.picked.length} deck${game.picked.length === 1 ? "" : "s"}`}</strong>, ${poolOf(game.picked).length} stories.</span>
         <button class="btn ghost" data-play="${game.choosing ? "chosen" : "choose"}">${game.choosing ? "Done" : "Change decks"}</button></div>
       ${game.choosing ? `
       <div class="pick"><button class="all" data-pick="all" aria-pressed="${all}">All real history <small>${poolOf(REAL).length}</small></button></div>
-      ${REGIONS.map(([r, ids]) => { const cs = ids.filter(c => REAL.includes(c)); return `<div class="pick-group"><h4>${esc(r)} <button data-pick="region:${esc(r)}">${cs.every(c => game.picked.includes(c)) ? "clear" : "all"}</button></h4><div class="pick">${cs.map(c => btn(c, cname(c))).join("")}</div></div>`; }).join("")}
-      ${FICTION.length ? `<div class="pick-group"><h4>Fiction</h4><div class="pick">${FICTION.map(c => btn(c, cname(c))).join("")}</div></div>` : ""}` : ""}
+      ${REGIONS.map(([r, ids]) => { const cs = ids.filter(c => REAL.includes(c)); return `<div class="pick-group"><h3>${esc(r)} <button data-pick="region:${esc(r)}" aria-label="${cs.every(c => game.picked.includes(c)) ? "Clear" : "Select all of"} ${esc(r)}">${cs.every(c => game.picked.includes(c)) ? "clear" : "all"}</button></h3><div class="pick">${cs.map(c => btn(c, cname(c))).join("")}</div></div>`; }).join("")}
+      ${FICTION.length ? `<div class="pick-group"><h3>Fiction</h3><div class="pick">${FICTION.map(c => btn(c, cname(c))).join("")}</div></div>` : ""}` : ""}
       <div class="play-actions"><button class="btn" data-play="start">Play ${GAME_LEN} questions</button></div>
       <p class="play-intro">${poolOf(game.picked).length} stories in your decks.</p>`;
     return;
@@ -1483,7 +1505,7 @@ function renderPlay() {
   }
   const q = r.qs[r.i], name = q.e.name, who = `${esc(name)} · ${esc(cname(q.cid))}`;
   const head = `<div class="q-top"><span>Question ${r.i + 1} of ${r.qs.length}</span><span>${r.streak > 1 ? `${r.streak} in a row` : ""}</span></div>
-    <div class="q-card" id="qCard"><div class="q-meta"><span class="chip-flag">${FLAGS[q.cid] ?? ""}</span>${who}</div><p class="q-text">${esc(q.c.text)}</p><span class="q-stamp" id="qStamp"></span></div>`;
+    <div class="q-card" id="qCard"><div class="q-meta"><span class="chip-flag" aria-hidden="true">${FLAGS[q.cid] ?? ""}</span>${who}</div><p class="q-text">${esc(q.c.text)}</p><span class="q-stamp" id="qStamp"></span></div>`;
   if (!r.answer) {
     el.innerHTML = `${head}
       <div class="answers"><button class="legend" data-ans="legend">Rumour</button><button class="disputed" data-ans="disputed">Disputed</button><button class="confirmed" data-ans="confirmed">Record</button></div>
@@ -1493,7 +1515,7 @@ function renderPlay() {
   const ok = r.answer === q.c.status;
   el.innerHTML = `${head}
     <div class="verdict">
-      <p class="result">${ok ? "Right." : "Not quite."} It's <span class="status ${q.c.status}">${VERDICT[q.c.status]}</span></p>
+      <p class="result" id="verdict" tabindex="-1">${ok ? "Right." : "Not quite."} It's <span class="status ${q.c.status}">${VERDICT[q.c.status]}</span></p>
       <p class="note">${esc(q.c.note)}</p>
       <button class="linkish" data-x="${q.cid}.${q.e.g.id}">Read ${esc(name)}'s card →</button>
     </div>
@@ -1570,6 +1592,34 @@ function endQDrag(e) {
 }
 document.getElementById("playBody").addEventListener("pointerup", endQDrag);
 document.getElementById("playBody").addEventListener("pointercancel", endQDrag);
+
+/* ---------------- focus: never drop keyboard users on <body> ---------------- */
+// Most controls re-render their own view (or move the deck), which destroys the focused button. After a
+// keyboard-driven action, put focus back on the same control if it still exists, else on the screen's lead.
+let keyboardMode = false;
+addEventListener("keydown", e => { if (["Tab", "Enter", " ", "ArrowLeft", "ArrowRight"].includes(e.key)) keyboardMode = true; }, true);
+addEventListener("pointerdown", () => { keyboardMode = false; }, true);
+const leadOf = () => view === "read" ? cards[index]?.querySelector("h1")
+  : view === "play" ? document.querySelector("#verdict, #qCard .q-text, .score-big, #view-play h2")
+  : views[view]?.querySelector("h2");
+document.addEventListener("click", e => {
+  if (!keyboardMode) return;
+  const t = e.target.closest("button, a, [tabindex]");
+  const key = t ? [...t.attributes].filter(a => a.name.startsWith("data-") && a.name !== "data-tip").map(a => `[${a.name}="${CSS.escape(a.value)}"]`).join("") : "";
+  setTimeout(() => {
+    if (document.activeElement && document.activeElement !== document.body && !document.activeElement.closest("[inert]")) return;
+    const scope = view === "read" ? cards[index] : views[view];
+    let el = key && scope?.querySelector(key);
+    if (!el || el.closest("[inert]")) el = leadOf();
+    if (!el) return;
+    if (!el.matches("button, a, input, [tabindex]")) el.tabIndex = -1;
+    el.focus({ preventScroll: view !== "read" });
+  }, 60);
+}, true);
+addEventListener("keydown", e => {
+  if (!["ArrowLeft", "ArrowRight"].includes(e.key) || view !== "read") return;
+  setTimeout(() => { if (document.activeElement === document.body || document.activeElement?.closest("[inert]")) { const h = leadOf(); if (h) { h.tabIndex = -1; h.focus({ preventScroll: true }); } } }, 60);
+});
 
 /* ---------------- sharing ---------------- */
 let toastTimer = 0;
