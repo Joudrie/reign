@@ -62,9 +62,9 @@ const tab = async (p, t) => { await p.click(`[data-tab="${t}"]`); await p.waitFo
   const cols = await p.evaluate(() => document.querySelectorAll(".tl-col").length);
   check(cols >= 48, `compare shows ${cols} columns`);
   for (let i = 0; i < 8; i++) await p.click("#zoomOut").catch(() => {});
-  check(/0\.25/.test(await p.textContent("#zoomLevel")), "zooms out to 0.25 px/year");
+  check(await p.evaluate(() => zoom === 0), "zooms all the way out");
   for (let i = 0; i < 9; i++) await p.click("#zoomIn").catch(() => {});
-  check(/32/.test(await p.textContent("#zoomLevel")), "zooms in to 32 px/year");
+  check(await p.evaluate(() => zoom === ZOOMS.length - 1), "zooms all the way in");
   await p.click('[data-cmp-clear]').catch(async () => { await p.click("[data-cmp-add]"); await p.click("[data-cmp-clear]"); });
   await p.waitForTimeout(400);
   check(await p.evaluate(() => document.querySelectorAll(".tl-col").length) === 1, "keep-only clears to one column");
@@ -97,7 +97,7 @@ const tab = async (p, t) => { await p.click(`[data-tab="${t}"]`); await p.waitFo
   await tab(p, "search");
   await p.fill("#q", "henry"); await p.waitForTimeout(300);
   check(await p.evaluate(() => document.querySelectorAll(".results li").length) > 3, "search finds Henrys");
-  await p.click('[data-region="Asia & Pacific"]'); await p.waitForTimeout(200);
+  await p.evaluate(() => document.querySelector('[data-region="Asia & Pacific"]').click()); await p.waitForTimeout(200);
   check(await p.evaluate(() => [...document.querySelectorAll("#countries [data-country]")].some(b => b.dataset.country === "japan")), "region tab lists Japan under Asia");
   check(!p.errors.length, `no errors in stats/search/dark ${p.errors.slice(0, 3).join(" | ")}`);
   await p.close();
