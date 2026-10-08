@@ -456,6 +456,8 @@ details li a { display: inline-block; padding-block: 10px; }
 .q-meta { display: flex; align-items: center; gap: var(--s0); font-size: var(--t-xs); color: var(--muted); }
 .q-text { font-size: var(--t-lg); line-height: 1.4; font-weight: 600; text-wrap: pretty; }
 .q-stamp { justify-self: start; border: 2px solid currentColor; border-radius: 6px; padding: 2px 6px; opacity: 0; }
+.q-stamp.on { opacity: 1; font-weight: 600; font-size: var(--t-sm); }
+.q-stamp.on.legend { color: var(--legend); } .q-stamp.on.disputed { color: var(--disputed); } .q-stamp.on.confirmed { color: var(--confirmed); }
 .answers { display: grid; grid-template-columns: repeat(3, 1fr); gap: var(--s0); }
 .answers button { min-height: 48px; border-radius: var(--r-sm); border: 1px solid var(--edge); background: var(--card); cursor: pointer; font-weight: 600; font-size: var(--t-sm); }
 .answers button.confirmed { color: var(--confirmed); }
@@ -470,6 +472,21 @@ details li a { display: inline-block; padding-block: 10px; }
 .score-big { font-family: var(--name); font-size: 4rem; line-height: 1; }
 
 @media (prefers-reduced-motion: reduce) { * { transition: none !important; } }
+.more-chips { margin-top: var(--s0); }
+.answers.answered span { flex: 1; text-align: center; padding: 10px 6px; border-radius: var(--r-sm); border: 1px solid var(--edge); font-size: var(--t-sm); font-weight: 600; }
+.answers.answered .is-right { background: currentColor; }
+.answers.answered .is-right { color: var(--card); }
+.answers.answered .legend.is-right { background: var(--legend); } .answers.answered .disputed.is-right { background: var(--disputed); } .answers.answered .confirmed.is-right { background: var(--confirmed); }
+.answers.answered .is-wrong { text-decoration: line-through; opacity: .8; }
+.answers.answered .is-dim { opacity: .45; }
+.q-card.right { border-color: var(--confirmed); box-shadow: 0 0 0 2px var(--confirmed); }
+.q-card.wrong { border-color: var(--accent); box-shadow: 0 0 0 2px var(--accent); }
+.more-chips summary { cursor: pointer; color: var(--muted); font-size: var(--t-sm); }
+.more-chips .chips { margin-top: var(--s0); }
+.find-search { position: sticky; top: 0; z-index: 3; background: var(--table); padding-block: 4px; }
+.find-browse { display: grid; gap: var(--s1); }
+.searching .find-browse { display: none; }
+.results .where { color: var(--muted); }
 .find-head { display: flex; align-items: baseline; justify-content: space-between; }
 .find-head h2 { margin: 0; font-size: var(--t-lg); font-weight: 600; }
 .linkish { background: none; border: 0; padding: 0 4px; min-height: 44px; color: var(--accent); text-decoration: underline; cursor: pointer; font-size: var(--t-sm); }
@@ -543,14 +560,16 @@ details li a { display: inline-block; padding-block: 10px; }
 <section class="view" id="view-search" aria-label="Find a country or ruler">
   <div class="view-body search-body">
     <div class="find-head"><h2>Find</h2><button class="linkish" id="aboutBtn">About</button></div>
-    <h2 class="section-label caps">Country</h2>
-    <div class="region-tabs" id="regionTabs" role="group" aria-label="Region"></div>
-    <ul class="countries compact" id="countries"></ul>
-    <h2 class="section-label caps" id="searchLabel"></h2>
-    <label class="search-box">
+    <label class="search-box find-search">
       <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" aria-hidden="true"><circle cx="11" cy="11" r="7"/><path d="M20 20l-4-4"/></svg>
-      <input id="q" type="text" enterkeyhint="search" placeholder="Name, house or year" autocomplete="off" aria-label="Search rulers">
+      <input id="q" type="search" enterkeyhint="search" placeholder="Any ruler, house or year, e.g. 1066" autocomplete="off" aria-label="Search every ruler">
     </label>
+    <div class="find-browse">
+      <h2 class="section-label caps">Countries</h2>
+      <div class="region-tabs" id="regionTabs" role="group" aria-label="Region"></div>
+      <ul class="countries compact" id="countries"></ul>
+      <h2 class="section-label caps" id="searchLabel"></h2>
+    </div>
     <p class="result-count" id="resultCount" role="status" aria-live="polite"></p>
     <ul class="results" id="results"></ul>
   </div>
@@ -1240,8 +1259,16 @@ document.getElementById("zoomOut").addEventListener("click", () => rezoom(-1));
 /* ---------------- search ---------------- */
 const q = document.getElementById("q");
 let haystack = [];
+// Search haystacks for every deck, built on first use. Accents are folded so "walesa" finds Wałęsa.
+const fold = t => t.normalize("NFD").replace(/[\u0300-\u036f]/g, "").replace(/ł/g, "l").replace(/Ł/g, "L").toLowerCase();
+let worldHay = null;
+function worldHaystack() {
+  return worldHay ??= Object.values(WORLD).flatMap(W => W.list.map(e => ({ e, text: fold([e.name, ...e.g.rulers.map(r => `${W.rulers[r]?.name ?? ""} ${W.rulers[r]?.epithet ?? ""}`), ...(e.g.rulers.length ? e.g.rulers.map(r => W.houses[W.rulers[r]?.house]?.name ?? "") : [W.houses[e.g.house]?.name ?? ""]), e.g.tagline, cname(e.cid)].join(" ")) })));
+}
 function renderResults() {
   const term = q.value.trim().toLowerCase();
+  document.querySelector(".search-body").classList.toggle("searching", !!term);
+  if (term) return renderWorldResults(term);
   // "1483", "476", "44 bc", "ad 14"
   const ym = /^(?:ad\s*)?(\d{1,4})(\s*(?:bc|ac))?$/.exec(term);
   const yr = ym ? (/bc/.test(ym[2] ?? "") ? -Number(ym[1]) : Number(ym[1])) : null;
@@ -1260,8 +1287,28 @@ function renderResults() {
       </button></li>`; }).join("")
     : `<li class="empty">No rulers match “${esc(q.value.trim())}”. Try a name like Henry, a house like Tudor, or a year like 1483.</li>`;
 }
+function renderWorldResults(term) {
+  const ym = /^(?:ad\s*)?(\d{1,4})(\s*(?:bc|ac))?$/.exec(term);
+  const yr = ym ? (/bc/.test(ym[2] ?? "") ? -Number(ym[1]) : Number(ym[1])) : null;
+  const words = fold(term).split(/\s+/);
+  const fiction = !!DATA.fictional;
+  let hits = worldHaystack().filter(({ e }) => !!WORLD[e.cid].data.fictional === fiction || e.cid === country)
+    .filter(({ e, text }) => yr !== null ? year(e.g.start) <= yr && yr <= (e.g.end ? year(e.g.end) : 9999) : words.every(w => text.includes(w)))
+    .map(h => h.e);
+  // Current country first, then the rest in timeline order.
+  const rank = cid => cid === country ? -1 : TL_ORDER.indexOf(cid);
+  hits.sort((a, b) => rank(a.cid) - rank(b.cid) || a.s - b.s);
+  const total = hits.length; hits = hits.slice(0, 150);
+  document.getElementById("resultCount").textContent = `${total} ${total === 1 ? "ruler" : "rulers"}${yr !== null ? ` on a throne in ${showYear(yr)}` : ""}${total > hits.length ? `, showing the first ${hits.length}` : ""}`;
+  document.getElementById("results").innerHTML = hits.length
+    ? hits.map(e => `<li><button data-x="${e.cid}.${e.g.id}">${thumb(e.cid, e)}
+        <span class="meta"><strong>${esc(e.name)}</strong><span><span class="where">${esc(cname(e.cid))}</span> · ${span(e.g, WORLD[e.cid].data.era)}</span></span>
+      </button></li>`).join("")
+    : `<li class="empty">No rulers match “${esc(q.value.trim())}”. Try a name like Henry, a house like Tudor, or a year like 1483.</li>`;
+}
 q.addEventListener("input", renderResults);
 document.getElementById("results").addEventListener("click", e => {
+  const x = e.target.closest("[data-x]"); if (x) return openX(x.dataset.x);
   const t = e.target.closest("[data-jump]"); if (t) jumpTo(Number(t.dataset.jump));
 });
 
@@ -1402,9 +1449,11 @@ function meanwhile(g) {
   for (const cid of [...TL_ORDER, ...REAL].filter((c, k, a) => WORLD[c] && !WORLD[c].data.fictional && c !== country && a.indexOf(c) === k)) {
     const hits = WORLD[cid].list.filter(e => e.s <= t && t < e.e);
     const e = hits.find(h => h.g.kind !== "claimant") ?? hits[0];
-    if (e) out.push(chip(cid, e, e.name, span(e.g, WORLD[cid].data.era)));
+    if (e) out.push(chip(cid, e, e.name, `${cname(cid)} · ${span(e.g, WORLD[cid].data.era)}`));
   }
-  return out.length ? `<section class="elsewhere"><h2 class="section-label caps">Meanwhile, in ${showYear(year(g.start))}</h2><div class="chips">${out.join("")}</div></section>` : "";
+  if (!out.length) return "";
+  const first = out.slice(0, 6).join(""), rest = out.slice(6).join("");
+  return `<section class="elsewhere"><h2 class="section-label caps">Meanwhile, in ${showYear(year(g.start))}</h2><div class="chips">${first}</div>${rest ? `<details class="more-chips"><summary>${out.length - 6} more thrones in ${showYear(year(g.start))}</summary><div class="chips">${rest}</div></details>` : ""}</section>`;
 }
 
 /* ---------------- reading progress: where you were, and what you've seen ---------------- */
@@ -1594,12 +1643,12 @@ function renderPlay() {
       ${REGIONS.map(([r, ids]) => { const cs = ids.filter(c => REAL.includes(c)); return `<div class="pick-group"><h3>${esc(r)} <button data-pick="region:${esc(r)}" aria-label="${cs.every(c => game.picked.includes(c)) ? "Clear" : "Select all of"} ${esc(r)}">${cs.every(c => game.picked.includes(c)) ? "clear" : "all"}</button></h3><div class="pick">${cs.map(c => btn(c, cname(c))).join("")}</div></div>`; }).join("")}
       ${FICTION.length ? `<div class="pick-group"><h3>Fiction</h3><div class="pick">${FICTION.map(c => btn(c, cname(c))).join("")}</div></div>` : ""}` : ""}
       <div class="play-actions"><button class="btn" data-play="start">Play ${GAME_LEN} questions</button></div>
-      <p class="play-intro">${poolOf(game.picked).length} stories in your decks.</p>`;
+`;
     return;
   }
   if (r.done) {
     const best = bestScore();
-    const msg = r.score >= 9 ? "Chronicler-grade. The maesters would hire you." : r.score >= 6 ? "A sharp eye for a tall tale." : r.score >= 3 ? "History is slippery. Try another round." : "The rumour mill got you this time.";
+    const msg = r.score >= 9 ? (r.qs.every(x => WORLD[x.cid].data.fictional) ? "Chronicler-grade. The maesters would hire you." : "Chronicler-grade. The archives would hire you.") : r.score >= 6 ? "A sharp eye for a tall tale." : r.score >= 3 ? "History is slippery. Try another round." : "The rumour mill got you this time.";
     el.innerHTML = `
       <p class="score-big">${r.score}<span class="play-intro"> / ${r.qs.length}</span></p>
       <p>${msg}</p>
@@ -1613,11 +1662,13 @@ function renderPlay() {
   if (!r.answer) {
     el.innerHTML = `${head}
       <div class="answers"><button class="legend" data-ans="legend">Rumour</button><button class="disputed" data-ans="disputed">Disputed</button><button class="confirmed" data-ans="confirmed">Record</button></div>
-      <p class="play-intro">Or swipe the card: left for rumour, right for record.</p>`;
+      <p class="play-intro">Or swipe the card: left for rumour, right for record. Tap for disputed.</p>`;
     return;
   }
   const ok = r.answer === q.c.status;
-  el.innerHTML = `${head}
+  const mark = st => st === q.c.status ? " is-right" : st === r.answer ? " is-wrong" : " is-dim";
+  el.innerHTML = `${head.replace('class="q-card"', `class="q-card ${ok ? "right" : "wrong"}"`).replace('<span class="q-stamp" id="qStamp"></span>', `<span class="q-stamp on ${q.c.status}" id="qStamp">${VERDICT[q.c.status]}</span>`)}
+    <div class="answers answered" aria-hidden="true"><span class="legend${mark("legend")}">Rumour</span><span class="disputed${mark("disputed")}">Disputed</span><span class="confirmed${mark("confirmed")}">Record</span></div>
     <div class="verdict">
       <p class="result" id="verdict" tabindex="-1">${ok ? "Right." : "Not quite."} It's <span class="status ${q.c.status}">${VERDICT[q.c.status]}</span></p>
       <p class="note">${esc(q.c.note)}</p>
