@@ -81,6 +81,13 @@ button, input { font: inherit; color: inherit; }
   color: var(--muted);
 }
 .top strong { color: var(--ink); font-weight: 600; font-size: var(--t-sm); }
+.top { position: relative; }
+.deck-progress { position: absolute; left: var(--s2); right: var(--s2); bottom: 0; height: 2px; background: var(--rule); border-radius: 2px; overflow: hidden; }
+.deck-progress i { display: block; height: 100%; background: var(--accent); width: 0; transition: width .2s; }
+.play-actions .btn { flex: 1; min-height: 48px; }
+@media (prefers-color-scheme: dark) { :root:not([data-theme="light"]) .portrait { background: #e9e2d4; } :root:not([data-theme="light"]) .chip-flag, :root:not([data-theme="light"]) .mini-flag { box-shadow: 0 0 0 1px rgb(255 255 255 / .28); } }
+:root[data-theme="dark"] .portrait { background: #e9e2d4; }
+@media (min-width: 820px) { .card { transition: opacity .25s; } .card[inert] { opacity: .55; } }
 .top span { font-size: var(--t-xs); font-variant-numeric: tabular-nums; }
 
 .country-btn {
@@ -527,7 +534,7 @@ details li a { display: inline-block; padding-block: 10px; }
   </div>
 </div>
 
-<div class="top"><button class="country-btn" id="countryBtn" aria-label="Change country"><span id="countryName"></span><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M6 9l6 6 6-6"/></svg></button><span id="count" aria-live="polite"></span></div>
+<div class="top"><button class="country-btn" id="countryBtn" aria-label="Change country"><span id="countryName"></span><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M6 9l6 6 6-6"/></svg></button><span id="count" aria-live="polite"></span><span class="deck-progress" aria-hidden="true"><i id="deckProgress"></i></span></div>
 
 <main class="deck" id="deck" aria-roledescription="carousel" aria-label="Rulers">
   <div class="rail" id="rail"></div>
@@ -925,6 +932,7 @@ function setIndex(i) {
   count.innerHTML = `<span class="sr-only">${esc(reignName(reigns[i]))}, </span>${i + 1} of ${N}`;
   prevBtn.disabled = i === 0;
   nextBtn.disabled = i === N - 1;
+  document.getElementById("deckProgress").style.width = `${((i + 1) / N) * 100}%`;
   cards.forEach((c, k) => { c.inert = k !== i; });
   loadNear(i);
   try { history.replaceState(null, "", `#${country}.${cards[i].id}`); } catch {}
