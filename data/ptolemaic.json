@@ -247,6 +247,17 @@
         "note": "Alexandria; 10 or 12 August, sources differ"
       },
       "causeOfDeath": "Suicide, traditionally by an asp"
+    },
+    {
+      "id": "ptolemy-xiii",
+      "name": "Ptolemy XIII",
+      "house": "ptolemaic",
+      "born": {
+        "date": "-0062"
+      },
+      "died": {
+        "date": "-0047"
+      }
     }
   ],
   "reigns": [
@@ -1534,6 +1545,74 @@
       }
     },
     {
+      "id": "ptolemy-xiii",
+      "kind": "monarch",
+      "rulers": [
+        "ptolemy-xiii"
+      ],
+      "members": [
+        {
+          "name": "Arsinoe IV",
+          "start": {
+            "date": "-0048"
+          },
+          "end": {
+            "date": "-0047"
+          },
+          "note": "His sister, proclaimed queen by the Alexandrian army against Cleopatra and Caesar"
+        }
+      ],
+      "tagline": "The boy king who fought his sister",
+      "start": {
+        "date": "-0051",
+        "circa": true
+      },
+      "contestedWith": [
+        "cleopatra-vii"
+      ],
+      "relationToPredecessor": "Son of Ptolemy XII",
+      "ageAtAccession": "About 10",
+      "cameToPower": "Co-ruler under his father's will",
+      "reignEnded": "Drowned in the Nile after defeat",
+      "previously": "Auletes dies; Cleopatra and Ptolemy XIII are to share the throne.",
+      "paragraphs": [
+        "Ptolemy XIII was about ten when his father's will made him joint ruler with his sister Cleopatra. His regent Pothinus and general Achillas soon pushed Cleopatra out, and for a time he ruled alone.",
+        "When Pompey fled to Egypt in 48 BC, Ptolemy's men killed him, hoping to please Caesar. Caesar sided with Cleopatra instead. In the Alexandrian War that followed, Ptolemy was beaten and drowned in the Nile in early 47 BC."
+      ],
+      "claims": [],
+      "hook": "Rewind to 51 BC: his sister Cleopatra has her own plans.",
+      "images": [
+        {
+          "file": "File:Portrait of Ptolemy XIII Theos Philopator.jpg",
+          "url": "https://upload.wikimedia.org/wikipedia/commons/5/58/Portrait_of_Ptolemy_XIII_Theos_Philopator.jpg",
+          "page": "https://commons.wikimedia.org/wiki/File:Portrait_of_Ptolemy_XIII_Theos_Philopator.jpg",
+          "credit": "Élisabeth Sophie Chéron (1648 - 1711)",
+          "license": "Public domain",
+          "made": "circa 1736date QS:P,+1736-00-00T00:00:00Z/9,P1480,Q5727902",
+          "caption": "An engraving depicting the Ptolemaic ruler Ptolemy XIII of Egypt by French artist Élisabeth Sophie Chéron (1648 - 1711) entitled \"Portrait du Jeune Ptolemée…",
+          "alt": "An engraving depicting the Ptolemaic ruler Ptolemy XIII of Egypt by French artist Élisabeth Sophie Chéron (1648 - 1711) entitled \"Portrait du Jeune Ptolemée…"
+        }
+      ],
+      "sources": [
+        {
+          "title": "Ptolemy XIII Theos Philopator (Wikipedia)",
+          "url": "https://en.wikipedia.org/wiki/Ptolemy_XIII_Theos_Philopator"
+        },
+        {
+          "title": "Ptolemaic dynasty (Wikipedia)",
+          "url": "https://en.wikipedia.org/wiki/Ptolemaic_dynasty"
+        }
+      ],
+      "review": {
+        "status": "draft",
+        "notes": "Short card added from the completeness audit; checked only against Wikipedia."
+      },
+      "end": {
+        "date": "-0047-01",
+        "circa": true
+      }
+    },
+    {
       "id": "cleopatra-vii",
       "kind": "monarch",
       "rulers": [
@@ -1548,12 +1627,14 @@
         "date": "-0030-08",
         "circa": true
       },
-      "contestedWith": [],
+      "contestedWith": [
+        "ptolemy-xiii"
+      ],
       "relationToPredecessor": "Daughter of Ptolemy XII",
       "ageAtAccession": "About 18",
       "cameToPower": "Named in her father's will",
       "reignEnded": "Suicide as Octavian took Alexandria",
-      "previously": "Auletes is dead, leaving Cleopatra and young Ptolemy XIII to share.",
+      "previously": "Ptolemy XIII drowns in the Nile; Cleopatra rules with Caesar.",
       "paragraphs": [
         "Cleopatra was clever, ruthless and, unlike the rest of her family, spoke Egyptian. Her brother-husband Ptolemy XIII was a boy run by the eunuch Pothinus and the general Achillas, and they drove her out. In 48 BC Pompey fled to Egypt after losing to Caesar, and the boy-king's men stabbed him on the beach. Caesar arrived days later. Cleopatra had herself smuggled in to him, hidden in a bedding sack.",
         "Caesar was besieged in the palace and ships burned in the harbour, but he won. Ptolemy XIII drowned in the Nile, and their sister Arsinoe IV, whom the army had made queen, was captured. Cleopatra now ruled with a younger brother, Ptolemy XIV, and had a son, Caesarion. She was living in Caesar's villa in Rome when he was murdered in 44 BC. Back home, Ptolemy XIV died, and Caesarion became her co-ruler.",
@@ -1612,7 +1693,29 @@
       "review": {
         "status": "draft",
         "notes": "Drafted from the listed sources; needs a human fact-check."
-      }
+      },
+      "members": [
+        {
+          "name": "Ptolemy XIV",
+          "start": {
+            "date": "-0047"
+          },
+          "end": {
+            "date": "-0044"
+          },
+          "note": "Younger brother and nominal co-ruler; probably poisoned"
+        },
+        {
+          "name": "Caesarion (Ptolemy XV)",
+          "start": {
+            "date": "-0044"
+          },
+          "end": {
+            "date": "-0030-08"
+          },
+          "note": "Her son by Caesar, co-ruler; killed on Octavian's orders"
+        }
+      ]
     }
   ]
 }

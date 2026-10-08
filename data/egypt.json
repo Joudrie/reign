@@ -1533,6 +1533,51 @@
       "id": "amenemhat-iv",
       "name": "Amenemhat IV",
       "house": "dyn-12"
+    },
+    {
+      "id": "thutmose-ii",
+      "name": "Thutmose II",
+      "house": "dyn-18"
+    },
+    {
+      "id": "smenkhkare",
+      "name": "Smenkhkare",
+      "house": "dyn-18"
+    },
+    {
+      "id": "ay",
+      "name": "Ay",
+      "house": "dyn-18"
+    },
+    {
+      "id": "ramesses-i",
+      "name": "Ramesses I",
+      "house": "dyn-19"
+    },
+    {
+      "id": "setnakhte",
+      "name": "Setnakhte",
+      "house": "dyn-20"
+    },
+    {
+      "id": "shoshenq-ii",
+      "name": "Shoshenq II",
+      "house": "dyn-22"
+    },
+    {
+      "id": "necho-i",
+      "name": "Necho I",
+      "house": "dyn-26"
+    },
+    {
+      "id": "tanutamani",
+      "name": "Tanutamani",
+      "house": "dyn-25"
+    },
+    {
+      "id": "psamtik-iii",
+      "name": "Psamtik III",
+      "house": "dyn-26"
     }
   ],
   "reigns": [
@@ -11331,6 +11376,60 @@
       }
     },
     {
+      "id": "thutmose-ii",
+      "kind": "monarch",
+      "rulers": [
+        "thutmose-ii"
+      ],
+      "tagline": "Husband of Hatshepsut",
+      "start": {
+        "date": "-1492",
+        "circa": true
+      },
+      "contestedWith": [],
+      "relationToPredecessor": "Son of Thutmose I",
+      "ageAtAccession": "Young",
+      "cameToPower": "Succeeded his father",
+      "reignEnded": "Died young",
+      "previously": "Thutmose I dies after pushing Egypt's borders to the Euphrates.",
+      "paragraphs": [
+        "Thutmose II was the son of Thutmose I by a lesser wife, and married his half-sister Hatshepsut to strengthen his claim. His reign was short, and historians still argue whether it lasted three years or thirteen.",
+        "His generals put down a revolt in Nubia in his name. When he died, his heir Thutmose III was a small child, and his widow Hatshepsut stepped in as regent."
+      ],
+      "claims": [],
+      "hook": "The new king is a toddler, and his stepmother Hatshepsut takes charge.",
+      "images": [
+        {
+          "file": "File:Red granite fragment bearing the cartouche of Thutmose II. Probably from a throne of a seated statue. From Thutmose III Temple at Koptos, Egypt. 18th Dynasty.jpg",
+          "url": "https://upload.wikimedia.org/wikipedia/commons/0/02/Red_granite_fragment_bearing_the_cartouche_of_Thutmose_II._Probably_from_a_throne_of_a_seated_statue._From_Thutmose_III_Temple_at_Koptos%2C_Egypt._18th_Dynasty.jpg",
+          "page": "https://commons.wikimedia.org/wiki/File:Red_granite_fragment_bearing_the_cartouche_of_Thutmose_II._Probably_from_a_throne_of_a_seated_statue._From_Thutmose_III_Temple_at_Koptos,_Egypt._18th_Dynasty.jpg",
+          "credit": "Osama Shukir Muhammed Amin FRCP(Glasg)",
+          "license": "CC BY-SA 4.0",
+          "made": "2016-03-11 17:16:10",
+          "caption": "Red granite fragment bearing the cartouche of Thutmose II. Probably from a throne of a seated statue. From Thutmose III Temple at Koptos (Qift), Egypt. 18th…",
+          "alt": "Red granite fragment bearing the cartouche of Thutmose II. Probably from a throne of a seated statue. From Thutmose III Temple at Koptos (Qift), Egypt. 18th…"
+        }
+      ],
+      "sources": [
+        {
+          "title": "Thutmose II (Wikipedia)",
+          "url": "https://en.wikipedia.org/wiki/Thutmose_II"
+        },
+        {
+          "title": "List of pharaohs (Wikipedia)",
+          "url": "https://en.wikipedia.org/wiki/List_of_pharaohs"
+        }
+      ],
+      "review": {
+        "status": "draft",
+        "notes": "Short card added from the completeness audit; checked only against Wikipedia."
+      },
+      "end": {
+        "date": "-1479",
+        "circa": true
+      }
+    },
+    {
       "id": "hatshepsut",
       "kind": "monarch",
       "rulers": [
@@ -11742,7 +11841,9 @@
         "date": "-1336",
         "circa": true
       },
-      "contestedWith": [],
+      "contestedWith": [
+        "smenkhkare"
+      ],
       "relationToPredecessor": "Son of Amenhotep III",
       "ageAtAccession": "Unknown",
       "cameToPower": "Succeeded his father",
@@ -11825,7 +11926,9 @@
         "date": "-1327",
         "circa": true
       },
-      "contestedWith": [],
+      "contestedWith": [
+        "smenkhkare"
+      ],
       "relationToPredecessor": "Probably son of Akhenaten",
       "ageAtAccession": "About 8 or 9",
       "cameToPower": "Crowned as a child",
@@ -11891,6 +11994,117 @@
       "review": {
         "status": "draft",
         "notes": "Drafted from the listed sources; needs a human fact-check."
+      }
+    },
+    {
+      "id": "smenkhkare",
+      "kind": "monarch",
+      "rulers": [
+        "smenkhkare"
+      ],
+      "tagline": "The mystery pharaoh of Amarna",
+      "start": {
+        "date": "-1336",
+        "circa": true
+      },
+      "contestedWith": [
+        "tutankhamun",
+        "akhenaten"
+      ],
+      "relationToPredecessor": "Probably a relative of Akhenaten",
+      "ageAtAccession": "Unknown",
+      "cameToPower": "Co-ruler, then successor of Akhenaten",
+      "reignEnded": "Died after a short reign",
+      "previously": "Akhenaten dies, and his new religion starts to crack.",
+      "paragraphs": [
+        "Smenkhkare ruled briefly at the end of the Amarna period, either beside Akhenaten or just after him. Almost nothing about him is certain, not even who he was: some scholars think he was a son or brother of Akhenaten, others that the name hides Queen Nefertiti.",
+        "His reign lasted a year or two at most. He left almost no monuments, and the body sometimes linked to him, found in tomb KV55, is still disputed."
+      ],
+      "claims": [],
+      "hook": "The boy Tutankhaten comes to the throne and the court heads back to the old gods.",
+      "images": [
+        {
+          "file": "File:Smenkhkare and Meritaten from Meryre II.jpg",
+          "url": "https://upload.wikimedia.org/wikipedia/commons/4/49/Smenkhkare_and_Meritaten_from_Meryre_II.jpg",
+          "page": "https://commons.wikimedia.org/wiki/File:Smenkhkare_and_Meritaten_from_Meryre_II.jpg",
+          "credit": "Norman de Garis Davies",
+          "license": "Public domain",
+          "made": "2013-01-07 02:53:59",
+          "caption": "Line drawing of two figures from the tomb of Meryre II in Amarna. The inset (from the original) shows Lepsius drawing of the now missing cartouche sets…",
+          "alt": "Line drawing of two figures from the tomb of Meryre II in Amarna. The inset (from the original) shows Lepsius drawing of the now missing cartouche sets…"
+        }
+      ],
+      "sources": [
+        {
+          "title": "Smenkhkare (Wikipedia)",
+          "url": "https://en.wikipedia.org/wiki/Smenkhkare"
+        },
+        {
+          "title": "List of pharaohs (Wikipedia)",
+          "url": "https://en.wikipedia.org/wiki/List_of_pharaohs"
+        }
+      ],
+      "review": {
+        "status": "draft",
+        "notes": "Short card added from the completeness audit; checked only against Wikipedia."
+      },
+      "end": {
+        "date": "-1334",
+        "circa": true
+      }
+    },
+    {
+      "id": "ay",
+      "kind": "monarch",
+      "rulers": [
+        "ay"
+      ],
+      "tagline": "The old courtier who buried Tutankhamun",
+      "start": {
+        "date": "-1327",
+        "circa": true
+      },
+      "contestedWith": [],
+      "relationToPredecessor": "Courtier; possibly Nefertiti's father",
+      "ageAtAccession": "About 60",
+      "cameToPower": "Took the throne after Tutankhamun",
+      "reignEnded": "Died in office",
+      "previously": "Tutankhamun dies at about 19, leaving no heir.",
+      "paragraphs": [
+        "Ay had served Akhenaten and Tutankhamun as a senior official. When the young king died without children, Ay performed his funeral rites, a role reserved for the heir, and so claimed the throne. He may have married Tutankhamun's widow Ankhesenamun.",
+        "He ruled for about four years. His successor Horemheb, the army's commander, later smashed his name from his monuments as part of wiping out the whole Amarna era."
+      ],
+      "claims": [],
+      "hook": "Ay dies, and General Horemheb takes the throne.",
+      "images": [
+        {
+          "file": "File:Ay detail in KV62 - Opening of the Mouth for Tutankhamun.jpeg",
+          "url": "https://upload.wikimedia.org/wikipedia/commons/9/9b/Ay_detail_in_KV62_-_Opening_of_the_Mouth_for_Tutankhamun.jpeg",
+          "page": "https://commons.wikimedia.org/wiki/File:Ay_detail_in_KV62_-_Opening_of_the_Mouth_for_Tutankhamun.jpeg",
+          "credit": "Diego Delso",
+          "license": "CC BY-SA 4.0",
+          "made": "2022-04-03 09:54:45",
+          "caption": "Ay, as heir, performs the Opening of the Mouth for Tutankhamun, painted in Tutankhamun's tomb.",
+          "alt": "Ay, as heir, performs the Opening of the Mouth for Tutankhamun, painted in Tutankhamun's tomb."
+        }
+      ],
+      "sources": [
+        {
+          "title": "Ay (pharaoh) (Wikipedia)",
+          "url": "https://en.wikipedia.org/wiki/Ay_%28pharaoh%29"
+        },
+        {
+          "title": "List of pharaohs (Wikipedia)",
+          "url": "https://en.wikipedia.org/wiki/List_of_pharaohs"
+        }
+      ],
+      "review": {
+        "status": "draft",
+        "notes": "Short card added from the completeness audit; checked only against Wikipedia."
+      },
+      "end": {
+        "date": "-1323",
+        "circa": true
       }
     },
     {
@@ -11969,6 +12183,60 @@
       "review": {
         "status": "draft",
         "notes": "Drafted from the listed sources; needs a human fact-check."
+      }
+    },
+    {
+      "id": "ramesses-i",
+      "kind": "monarch",
+      "rulers": [
+        "ramesses-i"
+      ],
+      "tagline": "The soldier who founded a dynasty",
+      "start": {
+        "date": "-1295",
+        "circa": true
+      },
+      "contestedWith": [],
+      "relationToPredecessor": "Horemheb's vizier and chosen heir",
+      "ageAtAccession": "About 50",
+      "cameToPower": "Named heir by Horemheb",
+      "reignEnded": "Died after about two years",
+      "previously": "Horemheb dies without a son and names his vizier to follow.",
+      "paragraphs": [
+        "Ramesses was a career soldier from a military family in the Nile Delta. Horemheb, who had no children, made him vizier and then heir, partly because he already had a grown son and grandson.",
+        "He reigned only about two years, but founded the Nineteenth Dynasty. His son Seti I and grandson Ramesses II made the family's name the most famous in Egyptian history."
+      ],
+      "claims": [],
+      "hook": "His son Seti I takes over and sets out to restore Egypt's empire.",
+      "images": [
+        {
+          "file": "File:Abydos chapel reliefs of Ramesses I by John Campana.jpg",
+          "url": "https://upload.wikimedia.org/wikipedia/commons/9/99/Abydos_chapel_reliefs_of_Ramesses_I_by_John_Campana.jpg",
+          "page": "https://commons.wikimedia.org/wiki/File:Abydos_chapel_reliefs_of_Ramesses_I_by_John_Campana.jpg",
+          "credit": "tutincommon (John Campana)",
+          "license": "CC BY 2.0",
+          "made": "2004-07-08",
+          "caption": "Reliefs from the Abydos chapel of Ramesses I which was built by Seti I, this king's son and successor to honour his father's memory. The finely cut chapel…",
+          "alt": "Reliefs from the Abydos chapel of Ramesses I which was built by Seti I, this king's son and successor to honour his father's memory. The finely cut chapel…"
+        }
+      ],
+      "sources": [
+        {
+          "title": "Ramesses I (Wikipedia)",
+          "url": "https://en.wikipedia.org/wiki/Ramesses_I"
+        },
+        {
+          "title": "List of pharaohs (Wikipedia)",
+          "url": "https://en.wikipedia.org/wiki/List_of_pharaohs"
+        }
+      ],
+      "review": {
+        "status": "draft",
+        "notes": "Short card added from the completeness audit; checked only against Wikipedia."
+      },
+      "end": {
+        "date": "-1294",
+        "circa": true
       }
     },
     {
@@ -12502,6 +12770,60 @@
       "review": {
         "status": "draft",
         "notes": "Drafted from the listed sources; needs a human fact-check."
+      }
+    },
+    {
+      "id": "setnakhte",
+      "kind": "monarch",
+      "rulers": [
+        "setnakhte"
+      ],
+      "tagline": "The founder who seized a troubled throne",
+      "start": {
+        "date": "-1186",
+        "circa": true
+      },
+      "contestedWith": [],
+      "relationToPredecessor": "Unknown; no known royal link",
+      "ageAtAccession": "Elderly",
+      "cameToPower": "Took power after Tausret",
+      "reignEnded": "Died after about two years",
+      "previously": "Queen Tausret's reign ends in turmoil.",
+      "paragraphs": [
+        "Setnakhte took the throne at the end of the Nineteenth Dynasty, a time of civil strife. His origins are unknown. On a stela at Elephantine he claimed to have driven out rebels and restored order to a land in chaos.",
+        "He ruled for only two or three years and founded the Twentieth Dynasty. His son became Ramesses III, the last great warrior pharaoh."
+      ],
+      "claims": [],
+      "hook": "His son Ramesses III takes over, and the Sea Peoples are coming.",
+      "images": [
+        {
+          "file": "File:Détail Sethnakht d1.jpg",
+          "url": "https://upload.wikimedia.org/wikipedia/commons/e/ee/D%C3%A9tail_Sethnakht_d1.jpg",
+          "page": "https://commons.wikimedia.org/wiki/File:D%C3%A9tail_Sethnakht_d1.jpg",
+          "credit": "Sebi",
+          "license": "CC0",
+          "made": "2012-11-20 13:03",
+          "caption": "Cartouches du Pharaon Sethnakht dans sa tombe de la Vallée des Rois - XXe dynastie",
+          "alt": "Cartouches du Pharaon Sethnakht dans sa tombe de la Vallée des Rois - XXe dynastie"
+        }
+      ],
+      "sources": [
+        {
+          "title": "Setnakhte (Wikipedia)",
+          "url": "https://en.wikipedia.org/wiki/Setnakhte"
+        },
+        {
+          "title": "List of pharaohs (Wikipedia)",
+          "url": "https://en.wikipedia.org/wiki/List_of_pharaohs"
+        }
+      ],
+      "review": {
+        "status": "draft",
+        "notes": "Short card added from the completeness audit; checked only against Wikipedia."
+      },
+      "end": {
+        "date": "-1184",
+        "circa": true
       }
     },
     {
@@ -13896,7 +14218,9 @@
         "date": "-0874",
         "circa": true
       },
-      "contestedWith": [],
+      "contestedWith": [
+        "shoshenq-ii"
+      ],
       "relationToPredecessor": "Son of Osorkon I",
       "ageAtAccession": "Unknown",
       "cameToPower": "Succeeded his father",
@@ -13957,6 +14281,62 @@
       "review": {
         "status": "draft",
         "notes": "Drafted from the listed sources; needs a human fact-check."
+      }
+    },
+    {
+      "id": "shoshenq-ii",
+      "kind": "monarch",
+      "rulers": [
+        "shoshenq-ii"
+      ],
+      "tagline": "The king found in a silver coffin",
+      "start": {
+        "date": "-0887",
+        "circa": true
+      },
+      "contestedWith": [
+        "takelot-i"
+      ],
+      "relationToPredecessor": "Probably son of Osorkon I",
+      "ageAtAccession": "About 50",
+      "cameToPower": "Co-ruler or brief successor",
+      "reignEnded": "Died of a head infection",
+      "previously": "Osorkon I's long reign is coming to an end.",
+      "paragraphs": [
+        "Shoshenq II is known almost entirely from his tomb, found intact at Tanis in 1939. He lay in a silver coffin with a falcon head, wearing a gold mask and fine jewellery.",
+        "He probably ruled only briefly, perhaps beside his father Osorkon I. Study of his skull found he died of an infection that spread from a head wound."
+      ],
+      "claims": [],
+      "hook": "Takelot I rules on, and the dynasty's grip on Egypt slowly weakens.",
+      "images": [
+        {
+          "file": "File:Bracelet of Shoshenq II 2018.jpg",
+          "url": "https://upload.wikimedia.org/wikipedia/commons/6/63/Bracelet_of_Shoshenq_II_2018.jpg",
+          "page": "https://commons.wikimedia.org/wiki/File:Bracelet_of_Shoshenq_II_2018.jpg",
+          "credit": "Vivafox/Francois Galluccio",
+          "license": "CC BY-SA 2.0",
+          "made": "2018-09-07",
+          "caption": "A Bracelet of king Shoshenq II featuring the Eye of Ra on display at the “L'or des Pharaons - Septembre 2018 (Monaco)” exhibit. This cloissone bracelet was…",
+          "alt": "A Bracelet of king Shoshenq II featuring the Eye of Ra on display at the “L'or des Pharaons - Septembre 2018 (Monaco)” exhibit. This cloissone bracelet was…"
+        }
+      ],
+      "sources": [
+        {
+          "title": "Shoshenq II (Wikipedia)",
+          "url": "https://en.wikipedia.org/wiki/Shoshenq_II"
+        },
+        {
+          "title": "List of pharaohs (Wikipedia)",
+          "url": "https://en.wikipedia.org/wiki/List_of_pharaohs"
+        }
+      ],
+      "review": {
+        "status": "draft",
+        "notes": "Short card added from the completeness audit; checked only against Wikipedia."
+      },
+      "end": {
+        "date": "-0885",
+        "circa": true
       }
     },
     {
@@ -15124,6 +15504,60 @@
       }
     },
     {
+      "id": "necho-i",
+      "kind": "claimant",
+      "rulers": [
+        "necho-i"
+      ],
+      "tagline": "The Delta prince caught between empires",
+      "start": {
+        "date": "-0672",
+        "circa": true
+      },
+      "contestedWith": [],
+      "relationToPredecessor": "Ruler of Sais",
+      "ageAtAccession": "Unknown",
+      "cameToPower": "Backed by the Assyrians",
+      "reignEnded": "Killed by the Kushite army",
+      "previously": "The Kushite pharaohs rule Egypt, and Assyria is coming.",
+      "paragraphs": [
+        "Necho I was king of Sais in the Nile Delta while the Kushite pharaohs ruled Egypt. When the Assyrians invaded, he sided with them, was taken to Nineveh for plotting, then sent back as their vassal.",
+        "He was killed in 664 BC, probably fighting the Kushite king Tanutamani. His son Psamtik I went on to reunite Egypt and found the Twenty-sixth Dynasty."
+      ],
+      "claims": [],
+      "hook": "Necho's son Psamtik escapes to Assyria and waits for his chance.",
+      "images": [
+        {
+          "file": "File:Necho-KnellingStatue BrooklynMuseum c.jpg",
+          "url": "https://upload.wikimedia.org/wikipedia/commons/d/d0/Necho-KnellingStatue_BrooklynMuseum_c.jpg",
+          "page": "https://commons.wikimedia.org/wiki/File:Necho-KnellingStatue_BrooklynMuseum_c.jpg",
+          "credit": "Necho-KnellingStatue_BrooklynMuseum.png: Marku1988",
+          "license": "CC BY 2.5",
+          "made": "29 June 2011, 17:31 (UTC)",
+          "caption": "Bronze kneeling statuette of the pharaoh Necho (either Necho I, circa 673-664 B.C., or Necho II, circa 610-595 B.C.)",
+          "alt": "Bronze kneeling statuette of the pharaoh Necho (either Necho I, circa 673-664 B.C., or Necho II, circa 610-595 B.C.)"
+        }
+      ],
+      "sources": [
+        {
+          "title": "Necho I (Wikipedia)",
+          "url": "https://en.wikipedia.org/wiki/Necho_I"
+        },
+        {
+          "title": "List of pharaohs (Wikipedia)",
+          "url": "https://en.wikipedia.org/wiki/List_of_pharaohs"
+        }
+      ],
+      "review": {
+        "status": "draft",
+        "notes": "Short card added from the completeness audit; checked only against Wikipedia."
+      },
+      "end": {
+        "date": "-0664",
+        "circa": true
+      }
+    },
+    {
       "id": "psamtik-i",
       "kind": "monarch",
       "rulers": [
@@ -15197,6 +15631,60 @@
       "review": {
         "status": "draft",
         "notes": "Drafted from the listed sources; needs a human fact-check."
+      }
+    },
+    {
+      "id": "tanutamani",
+      "kind": "claimant",
+      "rulers": [
+        "tanutamani"
+      ],
+      "tagline": "The last Kushite pharaoh of Egypt",
+      "start": {
+        "date": "-0664",
+        "circa": true
+      },
+      "contestedWith": [],
+      "relationToPredecessor": "Nephew of Taharqa",
+      "ageAtAccession": "Unknown",
+      "cameToPower": "Succeeded his uncle Taharqa",
+      "reignEnded": "Driven out by the Assyrians",
+      "previously": "Taharqa dies, and his nephew wants Egypt back.",
+      "paragraphs": [
+        "Tanutamani marched north from Kush and retook Memphis, killing Necho I. A dream stela tells how two serpents in a dream promised him both crowns of Egypt.",
+        "The Assyrians answered by sacking Thebes in 663 BC. Tanutamani fell back to Nubia, and by 656 BC Upper Egypt accepted Psamtik I. He ruled on in Kush, the last of his line to claim Egypt."
+      ],
+      "claims": [],
+      "hook": "Kush loses Egypt for good, and Psamtik I reunites the land.",
+      "images": [
+        {
+          "file": "File:Granite Statue of King Tantamani, Sudan National Museum, Khartoum (3).jpg",
+          "url": "https://upload.wikimedia.org/wikipedia/commons/f/ff/Granite_Statue_of_King_Tantamani%2C_Sudan_National_Museum%2C_Khartoum_%283%29.jpg",
+          "page": "https://commons.wikimedia.org/wiki/File:Granite_Statue_of_King_Tantamani,_Sudan_National_Museum,_Khartoum_(3).jpg",
+          "credit": "tobeytravels",
+          "license": "CC BY-SA 2.0",
+          "made": "2019-11-15 10:51:05",
+          "caption": "664-656 BC Inscription reads \" Tanutamani beloved of Amun of Napata the Kushite ruler to rule over Egypt\". He was Pharaoh of Egypt and the Kingdom of Kush in…",
+          "alt": "664-656 BC Inscription reads \" Tanutamani beloved of Amun of Napata the Kushite ruler to rule over Egypt\". He was Pharaoh of Egypt and the Kingdom of Kush in…"
+        }
+      ],
+      "sources": [
+        {
+          "title": "Tantamani (Wikipedia)",
+          "url": "https://en.wikipedia.org/wiki/Tantamani"
+        },
+        {
+          "title": "List of pharaohs (Wikipedia)",
+          "url": "https://en.wikipedia.org/wiki/List_of_pharaohs"
+        }
+      ],
+      "review": {
+        "status": "draft",
+        "notes": "Short card added from the completeness audit; checked only against Wikipedia."
+      },
+      "end": {
+        "date": "-0656",
+        "circa": true
       }
     },
     {
@@ -15512,6 +16000,60 @@
       "review": {
         "status": "draft",
         "notes": "Drafted from the listed sources; needs a human fact-check."
+      }
+    },
+    {
+      "id": "psamtik-iii",
+      "kind": "monarch",
+      "rulers": [
+        "psamtik-iii"
+      ],
+      "tagline": "The last pharaoh before the Persians",
+      "start": {
+        "date": "-0526",
+        "circa": true
+      },
+      "contestedWith": [],
+      "relationToPredecessor": "Son of Amasis II",
+      "ageAtAccession": "Unknown",
+      "cameToPower": "Succeeded his father",
+      "reignEnded": "Defeated by Cambyses II",
+      "previously": "Amasis II dies just as the Persians march on Egypt.",
+      "paragraphs": [
+        "Psamtik III became king only months before the Persian king Cambyses II invaded. He lost the battle of Pelusium in 525 BC, and Memphis fell after a siege.",
+        "Herodotus says Cambyses first spared him, then forced him to drink bull's blood after he was caught plotting a revolt. Egypt became a Persian province."
+      ],
+      "claims": [],
+      "hook": "Egypt is now a province of Persia, ruled by Cambyses.",
+      "images": [
+        {
+          "file": "File:Psamtik III in Karnak.jpg",
+          "url": "https://upload.wikimedia.org/wikipedia/commons/4/4e/Psamtik_III_in_Karnak.jpg",
+          "page": "https://commons.wikimedia.org/wiki/File:Psamtik_III_in_Karnak.jpg",
+          "credit": "Neithsabes",
+          "license": "CC BY 3.0",
+          "made": "2022-08-16",
+          "caption": "Psamtik III in Karnak",
+          "alt": "Psamtik III in Karnak"
+        }
+      ],
+      "sources": [
+        {
+          "title": "Psamtik III (Wikipedia)",
+          "url": "https://en.wikipedia.org/wiki/Psamtik_III"
+        },
+        {
+          "title": "List of pharaohs (Wikipedia)",
+          "url": "https://en.wikipedia.org/wiki/List_of_pharaohs"
+        }
+      ],
+      "review": {
+        "status": "draft",
+        "notes": "Short card added from the completeness audit; checked only against Wikipedia."
+      },
+      "end": {
+        "date": "-0525",
+        "circa": true
       }
     },
     {
