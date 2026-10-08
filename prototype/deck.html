@@ -394,6 +394,8 @@ details li a { display: inline-block; padding-block: 10px; }
 .tl-plot.narrow .label span { font-size: 0.6875rem; }
 .tl-plot .label strong, .tl-plot .label span { white-space: nowrap; overflow: hidden; text-overflow: ellipsis; }
 .tl-plot .label { min-width: 0; }
+.label-track { position: absolute; left: var(--label-x, 40px); right: 0; pointer-events: none; }
+.label-track .label { position: sticky; top: 48px; left: auto; right: auto; width: 100%; pointer-events: auto; }
 .tl-col .label strong { font-size: var(--t-sm); }
 .tl-lines { position: absolute; left: 48px; right: 0; top: 44px; pointer-events: none; }
 .tl-marker { position: absolute; left: 48px; right: 0; height: 0; border-top: 2px solid var(--accent); z-index: 1; pointer-events: none; }
@@ -1104,7 +1106,12 @@ function columnHTML(cid, t0, ppy, narrow) {
       leaders += `<span class="leader" style="top:${a + 1}px;left:${x0}px;width:${Math.max(0, xv - x0)}px"></span>`;
       leaders += `<span class="leader-v" style="left:${xv}px;top:${a + 1}px;height:${top - a + 8}px"></span>`;
     }
-    labels += `<button class="label" data-x="${xid}" aria-current="${cur}" style="top:${top}px"><strong>${nm}</strong><span>${span(e.g, W.data.era)}${narrow || tiny ? "" : ` · ${e.len}`}</span></button>`;
+    const lab = `<strong>${nm}</strong><span>${span(e.g, W.data.era)}${narrow || tiny ? "" : ` · ${e.len}`}</span>`;
+    // Long bars: the name rides down the bar while it is on screen (sticky inside a track the bar's height).
+    const run = y(e.e) - top;
+    labels += run > LABEL_H * 3
+      ? `<div class="label-track" style="top:${top}px;height:${run}px"><button class="label" data-x="${xid}" aria-current="${cur}">${lab}</button></div>`
+      : `<button class="label" data-x="${xid}" aria-current="${cur}" style="top:${top}px">${lab}</button>`;
   });
   return { html: `<div class="tl-plot${narrow ? " narrow" : ""}${tiny ? " tiny" : ""}" style="--label-x:${labelX}px">${leaders}${bars}${labels}</div>`, bottom: labelBottom };
 }
@@ -1184,7 +1191,7 @@ function placeMarker() {
 function scrollTimelineToCurrent() {
   const body = document.getElementById("timelineBody");
   const cur = body.querySelector(`.tl-col[data-cid="${country}"] .label[aria-current="true"]`);
-  if (cur) body.scrollTop = Math.max(0, TL_TOP + cur.offsetTop - body.clientHeight / 3);
+  if (cur) body.scrollTop = Math.max(0, TL_TOP + (cur.closest(".label-track") ?? cur).offsetTop - body.clientHeight / 3);
 }
 document.getElementById("timelineBody").addEventListener("click", e => {
   const t = e.target.closest("[data-x]");
