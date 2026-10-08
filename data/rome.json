@@ -1197,6 +1197,158 @@
         "note": "Rome"
       },
       "causeOfDeath": "Killed by the Praetorian Guard"
+    },
+    {
+      "id": "aemilian",
+      "name": "Aemilian",
+      "house": "crisis",
+      "born": {
+        "date": "0207",
+        "circa": true,
+        "note": "Girba (Djerba), Africa"
+      },
+      "died": {
+        "date": "0253-09",
+        "circa": true,
+        "note": "Near Spoletium (Spoleto), Italy"
+      },
+      "causeOfDeath": "Killed by his own soldiers"
+    },
+    {
+      "id": "quintillus",
+      "name": "Quintillus",
+      "house": "crisis",
+      "died": {
+        "date": "0270",
+        "note": "Aquileia, Italy"
+      },
+      "causeOfDeath": "Suicide or killed by his troops; sources differ"
+    },
+    {
+      "id": "florian",
+      "name": "Florian",
+      "house": "crisis",
+      "died": {
+        "date": "0276-09",
+        "circa": true,
+        "note": "Tarsus, Cilicia"
+      },
+      "causeOfDeath": "Killed by his own troops"
+    },
+    {
+      "id": "severus-ii",
+      "name": "Severus II",
+      "house": "tetrarchy",
+      "died": {
+        "date": "0307-09",
+        "circa": true,
+        "note": "Tres Tabernae, south of Rome"
+      },
+      "causeOfDeath": "Put to death after his surrender"
+    },
+    {
+      "id": "maximinus-ii",
+      "name": "Maximinus II",
+      "epithet": "Daia",
+      "house": "tetrarchy",
+      "born": {
+        "date": "0270-11-20",
+        "circa": true,
+        "note": "Near Felix Romuliana, Dacia; the day is recorded, the year is approximate"
+      },
+      "died": {
+        "date": "0313-07",
+        "circa": true,
+        "note": "Tarsus, Cilicia"
+      }
+    },
+    {
+      "id": "magnentius",
+      "name": "Magnentius",
+      "house": "no-dynasty",
+      "born": {
+        "date": "0303",
+        "circa": true,
+        "note": "Samarobriva (Amiens), Gaul"
+      },
+      "died": {
+        "date": "0353-08-10",
+        "note": "Lugdunum (Lyon), Gaul"
+      },
+      "causeOfDeath": "Suicide"
+    },
+    {
+      "id": "procopius",
+      "name": "Procopius",
+      "house": "no-dynasty",
+      "born": {
+        "date": "0325-07",
+        "note": "Corycus, Cilicia"
+      },
+      "died": {
+        "date": "0366-05-27"
+      },
+      "causeOfDeath": "Beheaded"
+    },
+    {
+      "id": "magnus-maximus",
+      "name": "Magnus Maximus",
+      "house": "no-dynasty",
+      "born": {
+        "date": "0335",
+        "circa": true,
+        "note": "Gallaecia, Hispania"
+      },
+      "died": {
+        "date": "0388-08-28",
+        "note": "Aquileia, Italy"
+      },
+      "causeOfDeath": "Beheaded after surrendering"
+    },
+    {
+      "id": "valentinian-ii",
+      "name": "Valentinian II",
+      "house": "valentinianic",
+      "born": {
+        "date": "0371",
+        "note": "Augusta Treverorum (Trier), Gaul"
+      },
+      "died": {
+        "date": "0392-05-15",
+        "note": "Vienne, Gaul"
+      },
+      "causeOfDeath": "Found hanged; suicide or murder"
+    },
+    {
+      "id": "eugenius",
+      "name": "Eugenius",
+      "house": "no-dynasty",
+      "died": {
+        "date": "0394-09-06",
+        "note": "Beside the river Frigidus, in today's Slovenia"
+      },
+      "causeOfDeath": "Beheaded after the battle"
+    },
+    {
+      "id": "constantine-iii",
+      "name": "Constantine III",
+      "house": "no-dynasty",
+      "died": {
+        "date": "0411-09",
+        "circa": true,
+        "note": "On the way to Ravenna, shortly before 18 September"
+      },
+      "causeOfDeath": "Killed after surrendering"
+    },
+    {
+      "id": "priscus-attalus",
+      "name": "Priscus Attalus",
+      "house": "no-dynasty",
+      "died": {
+        "date": "0416",
+        "circa": true,
+        "note": "In exile on Lipari, at an unknown date after 416"
+      }
     }
   ],
   "reigns": [
@@ -1440,7 +1592,20 @@
       "review": {
         "status": "draft",
         "notes": "Drafted from the listed sources; needs a human fact-check."
-      }
+      },
+      "members": [
+        {
+          "name": "Lepidus",
+          "start": {
+            "date": "-0043-11-27"
+          },
+          "end": {
+            "date": "-0036-09",
+            "circa": true
+          },
+          "note": "Third triumvir; held Africa, then was stripped of power by Octavian after a failed bid for Sicily"
+        }
+      ]
     },
     {
       "id": "octavian",
@@ -3372,7 +3537,20 @@
       "review": {
         "status": "draft",
         "notes": "Drafted from the listed sources; needs a human fact-check."
-      }
+      },
+      "members": [
+        {
+          "name": "Diadumenian",
+          "start": {
+            "date": "0218-05",
+            "circa": true
+          },
+          "end": {
+            "date": "0218-06"
+          },
+          "note": "Macrinus's son, made co-Augustus at nine; caught fleeing east after the defeat and killed"
+        }
+      ]
     },
     {
       "id": "elagabalus",
@@ -3951,7 +4129,19 @@
       "review": {
         "status": "draft",
         "notes": "Drafted from the listed sources; needs a human fact-check."
-      }
+      },
+      "members": [
+        {
+          "name": "Philip II",
+          "start": {
+            "date": "0247"
+          },
+          "end": {
+            "date": "0249-09"
+          },
+          "note": "Philip's son, co-Augustus from 247; killed in Rome by the Praetorians when his father fell"
+        }
+      ]
     },
     {
       "id": "decius",
@@ -4029,7 +4219,20 @@
       "review": {
         "status": "draft",
         "notes": "Drafted from the listed sources; needs a human fact-check."
-      }
+      },
+      "members": [
+        {
+          "name": "Herennius Etruscus",
+          "start": {
+            "date": "0251-05",
+            "circa": true
+          },
+          "end": {
+            "date": "0251-06"
+          },
+          "note": "Decius's elder son, made co-Augustus in 251; killed by the Goths, at or just before Abritus"
+        }
+      ]
     },
     {
       "id": "trebonianus-gallus",
@@ -4044,7 +4247,9 @@
       "end": {
         "date": "0253-08"
       },
-      "contestedWith": [],
+      "contestedWith": [
+        "aemilian"
+      ],
       "relationToPredecessor": "Decius's general",
       "ageAtAccession": "About 45",
       "cameToPower": "Chosen by the army after Abritus",
@@ -4072,7 +4277,7 @@
           "note": "Only Zosimus says so, long after the event. Most historians are sceptical."
         }
       ],
-      "hook": "Aemilian's men turned on him because another army was already on its way. It belongs to Valerian, an old senator with a grown-up son, who means to found a dynasty.",
+      "hook": "Gallus is dead, and Aemilian, the general from Djerba, has the empire. The Senate that branded him a public enemy last month now calls him emperor.",
       "images": [
         {
           "file": "File:Bronze statue of the emperor Trebonianus Gallus MET DP138716.jpg",
@@ -4107,6 +4312,108 @@
       "review": {
         "status": "draft",
         "notes": "Drafted from the listed sources; needs a human fact-check."
+      },
+      "members": [
+        {
+          "name": "Hostilian",
+          "start": {
+            "date": "0251-06"
+          },
+          "end": {
+            "date": "0251-07",
+            "circa": true
+          },
+          "note": "Decius's younger son, adopted by Gallus as co-Augustus; died within months, of plague or foul play"
+        },
+        {
+          "name": "Volusianus",
+          "start": {
+            "date": "0251-08",
+            "circa": true
+          },
+          "end": {
+            "date": "0253-08"
+          },
+          "note": "Gallus's son, co-Augustus after Hostilian; killed with his father by their own troops"
+        }
+      ]
+    },
+    {
+      "id": "aemilian",
+      "kind": "monarch",
+      "rulers": [
+        "aemilian"
+      ],
+      "tagline": "Three months from Danube hero to murdered emperor",
+      "start": {
+        "date": "0253-07",
+        "circa": true
+      },
+      "end": {
+        "date": "0253-09",
+        "circa": true
+      },
+      "contestedWith": [
+        "trebonianus-gallus"
+      ],
+      "relationToPredecessor": "Gallus's general on the Danube",
+      "ageAtAccession": "About 46",
+      "cameToPower": "Hailed by his troops after beating Goths",
+      "reignEnded": "Killed by his men near Spoleto",
+      "previously": "Gallus and his son are cut down by their own guards.",
+      "paragraphs": [
+        "Aemilian came from Africa, from the island of Djerba off the Tunisian coast. In 253 he commanded the army in Moesia on the Danube, where the troops were still shaken by the disaster at Abritus. When the Goths crossed the river again, Aemilian rallied his men, routed the raiders and struck back across the frontier. His delighted soldiers hailed him emperor.",
+        "He didn't wait for anyone's blessing. He marched fast for Italy and beat Gallus at Interamna, north of Rome. Gallus and his son fled, and their own guards killed them, hoping for a reward. The Senate, which had just declared Aemilian a public enemy, quickly changed its mind and recognised him.",
+        "He promised the senators he would fight the Goths and the Persians for them. He never got the chance. Valerian was coming south with the northern legions Gallus had sent him to fetch. Near Spoleto, about three months into the reign, Aemilian's soldiers decided they were outnumbered and killed him."
+      ],
+      "claims": [
+        {
+          "text": "Aemilian was a Moor, born on the island of Djerba.",
+          "status": "disputed",
+          "note": "The Epitome de Caesaribus says so. Zonaras calls him a Libyan instead, and nothing else confirms his birthplace."
+        },
+        {
+          "text": "He offered to hand the government back to the Senate and serve as its general.",
+          "status": "disputed",
+          "note": "Later Byzantine writers such as Zonaras report it. It may be his own propaganda, or a polite letter taken too literally."
+        }
+      ],
+      "hook": "Aemilian is dead and Valerian, an old senator with a grown-up son, has the empire without a fight. He means to found a dynasty.",
+      "images": [
+        {
+          "file": "File:Aemilianus RIC IV 20 (obverse).jpg",
+          "url": "https://upload.wikimedia.org/wikipedia/commons/9/9f/Aemilianus_RIC_IV_20_%28obverse%29.jpg",
+          "page": "https://commons.wikimedia.org/wiki/File:Aemilianus_RIC_IV_20_(obverse).jpg",
+          "credit": "Classical Numismatic Group (CNG)",
+          "license": "CC BY-SA 2.5",
+          "made": "253",
+          "caption": "A silver coin struck at Rome during Aemilian's short reign.",
+          "alt": "Silver Roman coin showing the bearded, crowned head of Aemilian in profile"
+        }
+      ],
+      "sources": [
+        {
+          "title": "New History",
+          "author": "Zosimus",
+          "note": "Book 1"
+        },
+        {
+          "title": "Epitome of Histories",
+          "author": "Joannes Zonaras",
+          "note": "Book 12"
+        },
+        {
+          "title": "Epitome de Caesaribus"
+        },
+        {
+          "title": "The Roman Empire at Bay, AD 180–395",
+          "author": "David S. Potter",
+          "note": "Routledge, 2004"
+        }
+      ],
+      "review": {
+        "status": "draft",
+        "notes": "Drafted from the listed sources; needs a human fact-check."
       }
     },
     {
@@ -4129,7 +4436,7 @@
       "ageAtAccession": "Valerian about 54",
       "cameToPower": "Army in the Alps hailed Valerian",
       "reignEnded": "Shapur captures Valerian",
-      "previously": "Gallus is killed by his own men, then so is his rival Aemilian.",
+      "previously": "Aemilian's own men kill him as Valerian marches on Rome.",
       "paragraphs": [
         "Valerian was a senior senator in his fifties, sent by Gallus to fetch troops from the Alpine provinces. When Gallus died, those troops proclaimed Valerian instead. He quickly made his grown son Gallienus co-emperor. The empire had too many fires for one man, so they split the work: Gallienus took the West and the Rhine, and Valerian headed East to face Persia.",
         "Things kept going badly. Goths raided by sea along the coasts of the Black Sea. The plague came back. Valerian blamed the Christians and, in 257 and 258, launched a fresh persecution aimed at bishops and clergy. Cyprian of Carthage was beheaded, and so was the bishop of Rome, Sixtus II, along with his deacons.",
@@ -4187,7 +4494,21 @@
       "review": {
         "status": "draft",
         "notes": "Drafted from the listed sources; needs a human fact-check."
-      }
+      },
+      "members": [
+        {
+          "name": "Saloninus",
+          "start": {
+            "date": "0258",
+            "circa": true
+          },
+          "end": {
+            "date": "0260",
+            "circa": true
+          },
+          "note": "Gallienus's son, left in charge at Cologne; hailed Augustus in 260, killed when Postumus took the city"
+        }
+      ]
     },
     {
       "id": "gallienus",
@@ -4348,7 +4669,56 @@
       "review": {
         "status": "draft",
         "notes": "Drafted from the listed sources; needs a human fact-check."
-      }
+      },
+      "members": [
+        {
+          "name": "Laelianus",
+          "start": {
+            "date": "0269",
+            "circa": true
+          },
+          "end": {
+            "date": "0269",
+            "circa": true
+          },
+          "note": "Rival emperor at Mainz; crushed by Postumus, whose ban on looting the city got Postumus killed"
+        },
+        {
+          "name": "Marius",
+          "start": {
+            "date": "0269",
+            "circa": true
+          },
+          "end": {
+            "date": "0269",
+            "circa": true
+          },
+          "note": "Soldier who ruled for weeks or a few months after Postumus, then was killed"
+        },
+        {
+          "name": "Victorinus",
+          "start": {
+            "date": "0269",
+            "circa": true
+          },
+          "end": {
+            "date": "0271",
+            "circa": true
+          },
+          "note": "Postumus's guards commander; won back Autun after a siege, then was murdered by an officer"
+        },
+        {
+          "name": "Tetricus II",
+          "start": {
+            "date": "0273",
+            "circa": true
+          },
+          "end": {
+            "date": "0274"
+          },
+          "note": "Son of Tetricus I, made Caesar as a boy; spared with his father when Aurelian ended the breakaway"
+        }
+      ]
     },
     {
       "id": "claudius-ii",
@@ -4391,7 +4761,7 @@
           "note": "Zosimus and others credit Claudius in 269, but some historians argue the big Gothic defeat belongs to Gallienus in 268."
         }
       ],
-      "hook": "Quintillus lasts a matter of weeks. The army wants the cavalry general Aurelian, a hard man about to take on Goths, Gauls and a desert queen.",
+      "hook": "Claudius's brother Quintillus is in Italy, and the troops there make him emperor. But the Danube legions have a favourite of their own.",
       "images": [
         {
           "file": "File:Antoninianus of Claudius Gothicus - Obverse.jpg",
@@ -4431,6 +4801,84 @@
       }
     },
     {
+      "id": "quintillus",
+      "kind": "monarch",
+      "rulers": [
+        "quintillus"
+      ],
+      "tagline": "Claudius's brother, emperor for a few weeks",
+      "start": {
+        "date": "0270-01",
+        "circa": true
+      },
+      "end": {
+        "date": "0270-04",
+        "circa": true,
+        "note": "Sources give 17 days, 77 days or a few months"
+      },
+      "contestedWith": [],
+      "relationToPredecessor": "Younger brother of Claudius II",
+      "ageAtAccession": "Unknown",
+      "cameToPower": "Hailed in Italy, backed by the Senate",
+      "reignEnded": "Died at Aquileia as Aurelian came",
+      "previously": "Claudius Gothicus dies of plague at Sirmium early in 270.",
+      "paragraphs": [
+        "Quintillus had risen with his brother. When Claudius died of plague at Sirmium early in 270, Quintillus was in northern Italy with an army, and the troops there proclaimed him. The Senate, which had adored Claudius, happily agreed. Coins with his face poured out of the mints, so for a while he was taken seriously.",
+        "The trouble was the Danube army. Claudius's own soldiers had a favourite of their own: Aurelian, the tough cavalry commander who had just been hammering the Goths. They hailed him instead. Quintillus's men at Aquileia had no wish to fight that army. Within weeks, or a few months at most, Quintillus was dead and Aurelian had the empire. He never even reached Rome as emperor."
+      ],
+      "claims": [
+        {
+          "text": "Quintillus reigned for just 17 days.",
+          "status": "disputed",
+          "note": "Jerome and Eutropius say 17 days, another list says 77, and Zosimus a few months. He struck so many coins that most historians think the 17 is a slip."
+        },
+        {
+          "text": "He opened his veins, with a doctor's help, rather than face Aurelian.",
+          "status": "disputed",
+          "note": "Zonaras and John of Antioch tell it. The Historia Augusta, a notoriously unreliable source, says his own soldiers killed him for being too strict."
+        }
+      ],
+      "hook": "Quintillus is dead at Aquileia. The army's man is Aurelian, a hard soldier about to take on Goths, Gauls and a desert queen.",
+      "images": [
+        {
+          "file": "File:Aureus Quintillus (obverse).jpg",
+          "url": "https://upload.wikimedia.org/wikipedia/commons/f/f6/Aureus_Quintillus_%28obverse%29.jpg",
+          "page": "https://commons.wikimedia.org/wiki/File:Aureus_Quintillus_(obverse).jpg",
+          "credit": "Numismatica Ars Classica NAC AG",
+          "license": "CC BY-SA 3.0 ch",
+          "made": "270",
+          "caption": "A gold coin of Quintillus from the Milan mint, struck during his few weeks in power.",
+          "alt": "Gold Roman coin showing the laureate, draped bust of Quintillus in profile"
+        }
+      ],
+      "sources": [
+        {
+          "title": "Breviarium",
+          "author": "Eutropius",
+          "note": "Book 9"
+        },
+        {
+          "title": "New History",
+          "author": "Zosimus",
+          "note": "Book 1"
+        },
+        {
+          "title": "Epitome of Histories",
+          "author": "Joannes Zonaras",
+          "note": "Book 12"
+        },
+        {
+          "title": "The Roman Empire at Bay, AD 180–395",
+          "author": "David S. Potter",
+          "note": "Routledge, 2004"
+        }
+      ],
+      "review": {
+        "status": "draft",
+        "notes": "Drafted from the listed sources; needs a human fact-check."
+      }
+    },
+    {
       "id": "aurelian",
       "kind": "monarch",
       "rulers": [
@@ -4448,7 +4896,7 @@
       "ageAtAccession": "About 55",
       "cameToPower": "Hailed by the Danube legions",
       "reignEnded": "Stabbed by his officers in Thrace",
-      "previously": "Claudius Gothicus dies of plague; his brother Quintillus soon follows.",
+      "previously": "Quintillus dies at Aquileia as his support melts away.",
       "paragraphs": [
         "Aurelian was a tough Balkan cavalryman who had risen through the ranks. In 270 the empire was in three pieces, barbarians were raiding Italy, and the money was nearly worthless. He beat the invaders, but they had come close enough to frighten Rome. So he gave the city a new wall, nearly 19 kilometres of brick. Much of it still stands.",
         "Then he went after the breakaways. In 272 he marched east, beat Queen Zenobia's armies and took Palmyra. In 274 he crossed into Gaul and the Gallic Empire folded. He held a huge triumph in Rome, pulled the legions out of Dacia, reformed the coinage and pushed worship of the Unconquered Sun. Coins hailed him as Restorer of the World.",
@@ -4583,7 +5031,21 @@
       "review": {
         "status": "draft",
         "notes": "Drafted from the listed sources; needs a human fact-check."
-      }
+      },
+      "members": [
+        {
+          "name": "Vaballathus",
+          "start": {
+            "date": "0267",
+            "circa": true
+          },
+          "end": {
+            "date": "0272",
+            "circa": true
+          },
+          "note": "Zenobia's son and Odaenathus's heir, the nominal ruler; styled himself Augustus in 272"
+        }
+      ]
     },
     {
       "id": "tacitus",
@@ -4672,7 +5134,9 @@
       "end": {
         "date": "0282-09"
       },
-      "contestedWith": [],
+      "contestedWith": [
+        "florian"
+      ],
       "relationToPredecessor": "Unrelated; a general in the East",
       "ageAtAccession": "43",
       "cameToPower": "Hailed by his troops against Florian",
@@ -4700,7 +5164,7 @@
           "note": "A detail from the Historia Augusta, which loves a vivid scene."
         }
       ],
-      "hook": "Probus is dead and the new emperor is already marching. Carus has two grown sons and his eyes on Persia.",
+      "hook": "Rewind to 276. Probus didn't inherit his throne. He took it from Tacitus's half-brother Florian, who was emperor for one hot summer.",
       "images": [
         {
           "file": "File:Probus Musei Capitolini MC493.jpg",
@@ -4738,6 +5202,84 @@
       }
     },
     {
+      "id": "florian",
+      "kind": "monarch",
+      "rulers": [
+        "florian"
+      ],
+      "tagline": "Emperor for one hot summer",
+      "start": {
+        "date": "0276-06",
+        "circa": true
+      },
+      "end": {
+        "date": "0276-09",
+        "circa": true
+      },
+      "contestedWith": [
+        "probus"
+      ],
+      "relationToPredecessor": "Half-brother of Tacitus",
+      "ageAtAccession": "Unknown",
+      "cameToPower": "Seized it; the Senate went along",
+      "reignEnded": "Killed by his own troops at Tarsus",
+      "previously": "Probus is cut down by his own soldiers near Sirmium in 282.",
+      "paragraphs": [
+        "Rewind to the summer of 276. When Tacitus died in Asia Minor, his half-brother Florian was his praetorian prefect. Florian didn't wait for the Senate to deliberate. He declared himself emperor, and the Senate and the western provinces accepted him. He kept up the war on the Gothic raiders and beat them.",
+        "Then news came from the East. Egypt, Syria and Palestine had hailed a general of their own, Probus. Probus held the Egyptian grain and played it cleverly, refusing a straight battle in the hills of Cilicia. Florian camped at Tarsus in a blazing summer, and his men fell sick and lost heart. After less than three months on the throne they killed him, and Probus had the empire."
+      ],
+      "claims": [
+        {
+          "text": "Florian grabbed the throne as if it were family property.",
+          "status": "disputed",
+          "note": "The Historia Augusta says he acted without the Senate, as if the empire were an inheritance. It is notoriously unreliable and keen to make the Senate the hero."
+        },
+        {
+          "text": "The Cilician heat did more damage to Florian's army than Probus did.",
+          "status": "disputed",
+          "note": "Zosimus describes his troops wilting in the summer heat while Probus held off. How much it mattered next to plain despair is guesswork."
+        }
+      ],
+      "hook": "Probus outlasts his rival by six years. When he falls in 282, the throne goes to his prefect Carus, who has two grown sons and his eyes on Persia.",
+      "images": [
+        {
+          "file": "File:Aureus Florianus Ticinum (obverse).jpg",
+          "url": "https://upload.wikimedia.org/wikipedia/commons/3/32/Aureus_Florianus_Ticinum_%28obverse%29.jpg",
+          "page": "https://commons.wikimedia.org/wiki/File:Aureus_Florianus_Ticinum_(obverse).jpg",
+          "credit": "Numismatica Ars Classica NAC AG",
+          "license": "CC BY-SA 3.0 ch",
+          "made": "276",
+          "caption": "A gold coin of Florian struck at Ticinum (Pavia) in 276.",
+          "alt": "Gold Roman coin showing Florian's laureate, armoured bust facing left, holding a spear"
+        }
+      ],
+      "sources": [
+        {
+          "title": "New History",
+          "author": "Zosimus",
+          "note": "Book 1"
+        },
+        {
+          "title": "Historia Augusta",
+          "note": "Lives of Tacitus and Probus; notoriously unreliable"
+        },
+        {
+          "title": "Roman Imperial Titulature and Chronology, A.D. 235–284",
+          "author": "Michael Peachin",
+          "note": "Gieben, 1990"
+        },
+        {
+          "title": "The Roman Empire at Bay, AD 180–395",
+          "author": "David S. Potter",
+          "note": "Routledge, 2004"
+        }
+      ],
+      "review": {
+        "status": "draft",
+        "notes": "Drafted from the listed sources; needs a human fact-check."
+      }
+    },
+    {
       "id": "carus-and-carinus",
       "kind": "monarch",
       "rulers": [
@@ -4759,7 +5301,7 @@
       "ageAtAccession": "Carus about 60",
       "cameToPower": "Proclaimed by the Raetian legions",
       "reignEnded": "Carus died beyond the Tigris",
-      "previously": "Probus is killed by soldiers sick of planting vines.",
+      "previously": "Florian dies at Tarsus; Probus later falls to his own troops.",
       "paragraphs": [
         "Carus was Probus's praetorian prefect. In 282 the legions in Raetia hailed him emperor, and within weeks Probus was dead at the hands of his own men. Carus didn't wait for the Senate's blessing; he simply told it what had happened. He made his grown sons, Carinus and Numerian, Caesars, and turned the empire into a family business.",
         "Carinus, the elder, was left to guard the West, and early in 283 his father raised him to Augustus, a full emperor. Carus took young Numerian east. On the way they beat the Sarmatians on the Danube. Then they invaded Persia, whose king, Bahram II, was busy with a rebellion of his own. The Romans marched down the Tigris and took the Persian capital, Ctesiphon.",
@@ -4992,18 +5534,21 @@
         "date": "0305-05-01"
       },
       "end": {
-        "date": "0306-07-25"
+        "date": "0311-05",
+        "circa": true
       },
-      "contestedWith": [],
+      "contestedWith": [
+        "constantine"
+      ],
       "relationToPredecessor": "Promoted junior emperors",
       "ageAtAccession": "About 55 and 47",
       "cameToPower": "Promoted when the elders retired",
-      "reignEnded": "Constantius died at York",
+      "reignEnded": "Galerius died of illness in 311",
       "previously": "Diocletian and Maximian retire on the same day in 305.",
       "paragraphs": [
         "On paper the handover was smooth. Constantius took the West, Galerius the East. But the new junior emperors, Severus and Maximinus Daia, were both Galerius's men. The emperors' grown sons, Constantine and Maxentius, were left out in the cold.",
         "Constantine was at Galerius's court, close to a hostage. He asked to join his sick father, got grudging permission, and left at speed. He caught up with Constantius in Gaul, and they sailed to Britain to fight the Picts.",
-        "On 25 July 306 Constantius died at York. His troops didn't wait for Galerius to send word. They hailed his son as emperor on the spot."
+        "On 25 July 306 Constantius died at York, and his troops hailed his son. Galerius swallowed it and ranked Constantine as a junior emperor. He stayed senior Augustus for five more years, and failed to take Rome from Maxentius in 307. In April 311, dying of a horrible illness, he issued an edict ending the persecution of Christians. He died a few days later."
       ],
       "claims": [
         {
@@ -5070,7 +5615,9 @@
         "date": "0337-05-22"
       },
       "contestedWith": [
-        "licinius"
+        "licinius",
+        "constantius-and-galerius",
+        "severus-ii"
       ],
       "relationToPredecessor": "Son of Constantius I",
       "ageAtAccession": "About 34",
@@ -5099,7 +5646,7 @@
           "note": "He favoured and funded it, but pagan worship stayed legal. Making it the state religion came under Theodosius."
         }
       ],
-      "hook": "Rewind to 306. Three months after York, Rome itself has a new emperor: Maxentius, son of the retired Maximian, and nobody asked Galerius about him either.",
+      "hook": "Rewind to 306. Galerius accepts Constantine only as a junior emperor. The senior rank in the West goes to his own friend Severus, who is about to find Italy in revolt.",
       "images": [
         {
           "file": "File:Constantine I The Great, Colossal bronze statue fragments, Capitoline Museums.jpg",
@@ -5138,6 +5685,82 @@
       }
     },
     {
+      "id": "severus-ii",
+      "kind": "monarch",
+      "rulers": [
+        "severus-ii"
+      ],
+      "tagline": "Galerius's man in the West, beaten without a battle",
+      "start": {
+        "date": "0306-07-25"
+      },
+      "end": {
+        "date": "0307-04",
+        "circa": true
+      },
+      "contestedWith": [
+        "constantine"
+      ],
+      "relationToPredecessor": "Junior colleague of Constantius I",
+      "ageAtAccession": "Unknown",
+      "cameToPower": "Promoted by Galerius in 306",
+      "reignEnded": "Surrendered at Ravenna",
+      "previously": "Constantine, master of the whole empire, dies baptised in 337.",
+      "paragraphs": [
+        "Rewind to the summer of 306. Severus was an army officer from the Balkans and a friend of Galerius, who had made him junior emperor of the West in 305. When Constantius died at York, Galerius promoted Severus to Augustus. Constantine had to settle for the junior rank, though he kept Gaul, Britain and Spain. Severus got Italy and Africa, ruling from Milan.",
+        "In October Rome rose for Maxentius, and Galerius ordered Severus to crush the revolt. Early in 307 he marched on Rome with an army that had long served under Maxentius's father Maximian. The old emperor came out of retirement, and Severus's soldiers deserted to him in droves. Severus fled to Ravenna.",
+        "Maximian promised to spare his life, and around April 307 Severus gave himself up. He was paraded as a captive and held at Tres Tabernae, south of Rome. When Galerius invaded Italy later that year, Severus was put to death."
+      ],
+      "claims": [
+        {
+          "text": "Diocletian called Severus a dancer and a drunk who turned night into day.",
+          "status": "disputed",
+          "note": "Lactantius puts the words in Diocletian's mouth when Galerius proposed him. Lactantius loathed Galerius and all his friends."
+        },
+        {
+          "text": "Severus was allowed to choose his death and opened his veins.",
+          "status": "disputed",
+          "note": "Lactantius says so. Other writers say he was killed at Ravenna, and the date is uncertain."
+        }
+      ],
+      "hook": "Severus is finished, and Rome belongs to the man who beat him: Maxentius, son of old Maximian. Now he has to keep it.",
+      "images": [
+        {
+          "file": "File:Severus II Aureus Joanneum.jpg",
+          "url": "https://upload.wikimedia.org/wikipedia/commons/7/7b/Severus_II_Aureus_Joanneum.jpg",
+          "page": "https://commons.wikimedia.org/wiki/File:Severus_II_Aureus_Joanneum.jpg",
+          "credit": "Münzkabinett, Universalmuseum Joanneum, Graz",
+          "license": "CC BY-SA 3.0 at",
+          "made": "306–307",
+          "caption": "A gold coin of Severus as Augustus, struck at Nicomedia; now in the Joanneum, Graz.",
+          "alt": "Gold Roman coin showing the laureate head of Severus II with the legend SEVERVS AVGVSTVS"
+        }
+      ],
+      "sources": [
+        {
+          "title": "On the Deaths of the Persecutors",
+          "author": "Lactantius"
+        },
+        {
+          "title": "Origo Constantini (Anonymus Valesianus, part 1)"
+        },
+        {
+          "title": "New History",
+          "author": "Zosimus",
+          "note": "Book 2"
+        },
+        {
+          "title": "The New Empire of Diocletian and Constantine",
+          "author": "Timothy D. Barnes",
+          "note": "Harvard University Press, 1982"
+        }
+      ],
+      "review": {
+        "status": "draft",
+        "notes": "Drafted from the listed sources; needs a human fact-check."
+      }
+    },
+    {
       "id": "maxentius",
       "kind": "claimant",
       "rulers": [
@@ -5156,7 +5779,7 @@
       "ageAtAccession": "About 28",
       "cameToPower": "Backed by the Praetorian Guard",
       "reignEnded": "Drowned at the Milvian Bridge",
-      "previously": "Constantine, master of the whole empire, dies baptised in 337.",
+      "previously": "Severus's army deserts him and he surrenders at Ravenna.",
       "paragraphs": [
         "Maxentius was the son of one emperor and son-in-law of another, Galerius, yet he was left out in 305. In October 306 Rome was angry about plans to tax the city and cut the Praetorian Guard. The guardsmen hailed Maxentius emperor, and his father Maximian came out of retirement to help.",
         "Severus marched on Rome in 307 and his troops deserted to Maximian. Galerius tried next and had to retreat. Then Maximian tried to rip the purple off his son's shoulders in front of the troops. They sided with Maxentius, and the old man fled to Constantine.",
@@ -5210,7 +5833,32 @@
       "review": {
         "status": "draft",
         "notes": "Drafted from the listed sources; needs a human fact-check."
-      }
+      },
+      "members": [
+        {
+          "name": "Maximian",
+          "start": {
+            "date": "0306-11",
+            "circa": true
+          },
+          "end": {
+            "date": "0308-11-11"
+          },
+          "note": "Came out of retirement to back his son, then turned on him; gave up the title again at Carnuntum"
+        },
+        {
+          "name": "Maximian (third bid)",
+          "start": {
+            "date": "0310",
+            "circa": true
+          },
+          "end": {
+            "date": "0310-07",
+            "circa": true
+          },
+          "note": "Seized the treasury at Arles against Constantine; caught at Marseille and made to hang himself"
+        }
+      ]
     },
     {
       "id": "licinius",
@@ -5226,7 +5874,8 @@
         "date": "0324-09-19"
       },
       "contestedWith": [
-        "constantine"
+        "constantine",
+        "maximinus-ii"
       ],
       "relationToPredecessor": "Galerius's old comrade",
       "ageAtAccession": "About 43",
@@ -5250,7 +5899,7 @@
           "note": "Eusebius says so, but he wrote as Constantine's champion. Licinius did purge Christians from his court."
         }
       ],
-      "hook": "Constantine rules alone until 337. Then he dies, and within months soldiers butcher his relatives. Three sons are left standing to share the empire.",
+      "hook": "Rewind to 310. Licinius's first war was with another emperor in the East: Galerius's nephew Maximinus Daia, who never forgave being passed over.",
       "images": [
         {
           "file": "File:Bust of Licinius, Kunsthistorisches Museum.jpg",
@@ -5285,6 +5934,107 @@
       "review": {
         "status": "draft",
         "notes": "Drafted from the listed sources; needs a human fact-check."
+      },
+      "members": [
+        {
+          "name": "Valerius Valens",
+          "start": {
+            "date": "0316",
+            "circa": true
+          },
+          "end": {
+            "date": "0317-01",
+            "circa": true
+          },
+          "note": "Frontier commander Licinius made co-Augustus in the war of 316; executed as part of the peace"
+        },
+        {
+          "name": "Martinian",
+          "start": {
+            "date": "0324-07",
+            "circa": true
+          },
+          "end": {
+            "date": "0324-09",
+            "circa": true
+          },
+          "note": "Licinius's chief minister, made co-Augustus in the war of 324; exiled, then executed"
+        }
+      ]
+    },
+    {
+      "id": "maximinus-ii",
+      "kind": "monarch",
+      "rulers": [
+        "maximinus-ii"
+      ],
+      "title": "Maximinus Daia",
+      "tagline": "The last persecutor, beaten by Licinius",
+      "start": {
+        "date": "0310",
+        "circa": true
+      },
+      "end": {
+        "date": "0313-07",
+        "circa": true
+      },
+      "contestedWith": [
+        "licinius"
+      ],
+      "relationToPredecessor": "Nephew of Galerius",
+      "ageAtAccession": "About 40",
+      "cameToPower": "Hailed by his troops; Galerius gave in",
+      "reignEnded": "Died at Tarsus after defeat",
+      "previously": "Licinius is crushed at Chrysopolis and surrenders in 324.",
+      "paragraphs": [
+        "Rewind to 310. Maximinus Daia was Galerius's nephew, a soldier from the Danube lands made junior emperor of the East when Diocletian retired in 305. He was furious when Galerius made his old friend Licinius a full Augustus in 308. In 310 Maximinus's troops hailed him Augustus anyway, and Galerius had to accept it.",
+        "When Galerius died in 311, Maximinus raced Licinius for Asia Minor and won. He ruled from the Bosporus to Egypt and went back to persecuting Christians, even organising the old pagan priesthoods into a rival church. He also made a secret pact with Maxentius, which put him on the losing side.",
+        "In 313, with Licinius away in Milan, Maximinus crossed into Europe with a big army. Licinius hurried back and beat him near Adrianople on 30 April. Maximinus threw off his purple and fled. He reached Tarsus and died there that summer, the last of the persecuting emperors."
+      ],
+      "claims": [
+        {
+          "text": "Maximinus poisoned himself as Licinius closed in.",
+          "status": "disputed",
+          "note": "Lactantius says he took poison and died in agony. Eusebius describes a horrible disease. Both were Christians writing about a persecutor."
+        },
+        {
+          "text": "He escaped the battlefield disguised as a slave.",
+          "status": "disputed",
+          "note": "Lactantius tells it. It suits his taste for humiliating persecutors, but it isn't impossible."
+        }
+      ],
+      "hook": "With Maximinus gone, the East is Licinius's until Constantine beats him in 324. In 337 Constantine dies, and soldiers butcher his relatives. Three sons are left standing.",
+      "images": [
+        {
+          "file": "File:MaximinusDaiaFinds.jpg",
+          "url": "https://upload.wikimedia.org/wikipedia/commons/4/42/MaximinusDaiaFinds.jpg",
+          "page": "https://commons.wikimedia.org/wiki/File:MaximinusDaiaFinds.jpg",
+          "credit": "Portable Antiquities Scheme",
+          "license": "CC BY 3.0",
+          "made": "c. 310–313",
+          "caption": "A coin of Maximinus Daia found in Britain and recorded by the Portable Antiquities Scheme.",
+          "alt": "Worn bronze Roman coin with the portrait of Maximinus Daia"
+        }
+      ],
+      "sources": [
+        {
+          "title": "On the Deaths of the Persecutors",
+          "author": "Lactantius"
+        },
+        {
+          "title": "Church History",
+          "author": "Eusebius of Caesarea",
+          "note": "Books 8–9"
+        },
+        {
+          "title": "The New Empire of Diocletian and Constantine",
+          "author": "Timothy D. Barnes",
+          "note": "Harvard University Press, 1982"
+        }
+      ],
+      "review": {
+        "status": "draft",
+        "notes": "Drafted from the listed sources; needs a human fact-check."
       }
     },
     {
@@ -5309,7 +6059,7 @@
       "ageAtAccession": "About 21 and 14",
       "cameToPower": "Shared the empire after a purge",
       "reignEnded": "Constantine II killed in an ambush",
-      "previously": "Constantine the Great dies in May 337, baptised on his deathbed.",
+      "previously": "Maximinus Daia dies at Tarsus after losing to Licinius in 313.",
       "paragraphs": [
         "Constantine left a crowded family, and that summer the army thinned it out. Soldiers in Constantinople murdered his two half-brothers and most of their sons, including the Caesar Dalmatius. Only two little boys were spared: Gallus and Julian. On 9 September 337 Constantine's three surviving sons each took the title Augustus.",
         "They carved up the map. Constantine II, the eldest, took Gaul, Britain and Spain. Constans, aged about 14, got Italy, Africa and the Balkans. The middle brother, Constantius II, took the East, where he spent these years fighting Shapur II of Persia. Constantine II saw himself as the senior partner and expected his teenage brother to do as he was told.",
@@ -5467,7 +6217,9 @@
       "end": {
         "date": "0361-11-03"
       },
-      "contestedWith": [],
+      "contestedWith": [
+        "magnentius"
+      ],
       "relationToPredecessor": "Brother of Constans",
       "ageAtAccession": "32",
       "cameToPower": "Last of the brothers left alive",
@@ -5495,7 +6247,7 @@
           "note": "Later writers give huge casualty figures, such as Zonaras's 54,000. Modern historians think the numbers are inflated."
         }
       ],
-      "hook": "Constantius is dead, and the throne passes without a fight to the cousin whose family was butchered in 337. Julian rides into Constantinople, and he's finished pretending to be a Christian.",
+      "hook": "Rewind to January 350. At a birthday party in Gaul, a burly army commander has just walked in wearing purple. Magnentius has stolen the West, and Constans is dead.",
       "images": [
         {
           "file": "File:Bust of Constantius II (Mary Harrsch).jpg",
@@ -5533,6 +6285,107 @@
       "review": {
         "status": "draft",
         "notes": "Drafted from the listed sources; needs a human fact-check."
+      },
+      "members": [
+        {
+          "name": "Vetranio",
+          "start": {
+            "date": "0350-03-01"
+          },
+          "end": {
+            "date": "0350-12-25"
+          },
+          "note": "Old general hailed in the Balkans; gave up the purple to Constantius at Naissus and retired on a pension"
+        }
+      ]
+    },
+    {
+      "id": "magnentius",
+      "kind": "claimant",
+      "rulers": [
+        "magnentius"
+      ],
+      "members": [
+        {
+          "name": "Nepotianus",
+          "start": {
+            "date": "0350-06-03"
+          },
+          "end": {
+            "date": "0350-06-30"
+          },
+          "note": "Constantine's nephew and Magnentius's rival; seized Rome with gladiators, killed by Magnentius's men"
+        }
+      ],
+      "tagline": "The usurper who bled Rome's armies white at Mursa",
+      "start": {
+        "date": "0350-01-18"
+      },
+      "end": {
+        "date": "0353-08-10"
+      },
+      "contestedWith": [
+        "constantius-ii"
+      ],
+      "relationToPredecessor": "Officer who overthrew Constans",
+      "ageAtAccession": "About 47",
+      "cameToPower": "Proclaimed at a party in Autun",
+      "reignEnded": "Killed himself at Lyon",
+      "previously": "Constantius II dies of fever on his way to fight Julian.",
+      "paragraphs": [
+        "Rewind to January 350. At Autun in Gaul, the treasury chief Marcellinus threw a birthday party. Midway through, Magnentius, a burly army commander, walked in wearing the imperial purple. The guests cheered. Constans, unpopular and away hunting, fled for Spain and was caught and killed at the foot of the Pyrenees.",
+        "Magnentius soon held Gaul, Britain, Spain, Africa and Italy. In June a nephew of Constantine, Nepotianus, seized Rome with a band of gladiators. Magnentius's men took it back within a month and killed him. Magnentius let pagans hold night-time sacrifices, yet his coins carried a giant Christian Chi-Rho.",
+        "On 28 September 351 he met Constantius at Mursa on the Drava. It was one of the bloodiest battles of the century, and Magnentius lost. He fell back to Italy, then to Gaul, as his support crumbled. At Lyon in August 353, with his own troops about to hand him over, he killed members of his family and then himself."
+      ],
+      "claims": [
+        {
+          "text": "Mursa cost the two sides about 54,000 dead.",
+          "status": "disputed",
+          "note": "Zonaras gives the figure, writing centuries later. Everyone agrees it was a bloodbath that left the frontier armies weaker."
+        },
+        {
+          "text": "Magnentius was half-barbarian, son of a Briton and a Frankish mother.",
+          "status": "disputed",
+          "note": "Zonaras says so. Julian, praising Constantius, sneered that he was a barbarian captive. Neither was neutral."
+        }
+      ],
+      "hook": "Magnentius is dead and Constantius rules alone. He needs someone to hold Gaul, and family is in short supply. He picks his bookish cousin Julian.",
+      "images": [
+        {
+          "file": "File:Medallion of Magnentius.png",
+          "url": "https://upload.wikimedia.org/wikipedia/commons/f/f0/Medallion_of_Magnentius.png",
+          "page": "https://commons.wikimedia.org/wiki/File:Medallion_of_Magnentius.png",
+          "credit": "Museum of Fine Arts, Boston",
+          "license": "PDM-owner",
+          "made": "c. 351",
+          "caption": "A gold medallion of Magnentius in the Museum of Fine Arts, Boston.",
+          "alt": "Gold medallion showing the bare-headed, draped bust of Magnentius in profile"
+        }
+      ],
+      "sources": [
+        {
+          "title": "New History",
+          "author": "Zosimus",
+          "note": "Book 2"
+        },
+        {
+          "title": "Orations 1 and 2 (Panegyrics of Constantius)",
+          "author": "Julian"
+        },
+        {
+          "title": "Epitome of Histories",
+          "author": "Joannes Zonaras",
+          "note": "Book 13"
+        },
+        {
+          "title": "The Cambridge Ancient History, vol. XIII: The Late Empire, A.D. 337–425",
+          "author": "Averil Cameron and Peter Garnsey (eds)",
+          "note": "Cambridge University Press, 1998"
+        }
+      ],
+      "review": {
+        "status": "draft",
+        "notes": "Drafted from the listed sources; needs a human fact-check."
       }
     },
     {
@@ -5553,7 +6406,7 @@
       "ageAtAccession": "About 30",
       "cameToPower": "Hailed by his troops at Paris",
       "reignEnded": "Spear wound in Persia",
-      "previously": "Constantius II dies of fever while marching to fight Julian.",
+      "previously": "Magnentius dies at Lyon; in 361 Constantius dies marching on Julian.",
       "paragraphs": [
         "Julian was about six when soldiers murdered his father in 337. He grew up under guard, buried in books, and studied in Athens. Somewhere along the way he quietly gave up Christianity for the old gods. Sent to Gaul as a Caesar, the shy scholar beat the Alamanni at Strasbourg in 357 and became the army's darling.",
         "As emperor he reopened temples, brought back sacrifices and banned Christians from teaching the classics. He sacked swarms of palace staff and started rebuilding the Temple in Jerusalem, though the work stopped. In Antioch the locals laughed at his scruffy philosopher's beard, so he wrote a satire against himself called the Misopogon, the Beard-Hater.",
@@ -5709,7 +6562,9 @@
       "end": {
         "date": "0375-11-17"
       },
-      "contestedWith": [],
+      "contestedWith": [
+        "procopius"
+      ],
       "relationToPredecessor": "No relation to Jovian; brothers",
       "ageAtAccession": "42 and about 35",
       "cameToPower": "Valentinian chosen by the generals",
@@ -5732,7 +6587,7 @@
           "note": "Ammianus describes the scene in detail. Modern readers see a stroke brought on by the outburst."
         }
       ],
-      "hook": "Valentinian is dead and his teenage son Gratian runs the West. In the East, Valens is about to face something new: a whole people of Goths on the Danube, begging to be let in.",
+      "hook": "Rewind to 365. Valens has a crisis in his own capital: a cousin of Julian has just bribed two legions and seized Constantinople.",
       "images": [
         {
           "file": "File:Gold Solidus of Valentinian I (364–75) MET tem043523o.jpg",
@@ -5772,6 +6627,79 @@
       }
     },
     {
+      "id": "procopius",
+      "kind": "claimant",
+      "rulers": [
+        "procopius"
+      ],
+      "tagline": "Julian's cousin, who stole Constantinople",
+      "start": {
+        "date": "0365-09-28"
+      },
+      "end": {
+        "date": "0366-05-27"
+      },
+      "contestedWith": [
+        "valentinian-and-valens"
+      ],
+      "relationToPredecessor": "Maternal cousin of Julian",
+      "ageAtAccession": "40",
+      "cameToPower": "Bribed two legions in Constantinople",
+      "reignEnded": "Betrayed and beheaded",
+      "previously": "Valentinian I dies of a fit of rage at Brigetio in 375.",
+      "paragraphs": [
+        "Rewind to 365. Procopius was a cousin of Julian on his mother's side, a polished official who had commanded troops in Julian's Persian war. Rumour said Julian had marked him as his heir. That made him dangerous, and after Julian's death he spent months on the run, hiding at one point in Crimea.",
+        "In September 365, with Valens away heading east, Procopius slipped into Constantinople and bribed two legions passing through. On 28 September he was proclaimed emperor. He paraded Constantius II's widow and little daughter to win over the old dynasty's loyalists, and soon held Thrace and Bithynia. Valens nearly gave up.",
+        "His generals talked him round. In spring 366 Valens's army beat the rebels at Thyatira, then at Nacolia, where Procopius's own commanders changed sides. Procopius fled, but two of his companions tied him up and handed him over. He was beheaded on 27 May 366, and Valens had the two traitors killed as well."
+      ],
+      "claims": [
+        {
+          "text": "Julian secretly gave Procopius a purple robe and told him to take power if he died.",
+          "status": "disputed",
+          "note": "Ammianus reports it only as a rumour. Nobody could prove it, which is exactly what made Procopius a threat."
+        },
+        {
+          "text": "Valens thought about giving up the purple when the revolt broke out.",
+          "status": "disputed",
+          "note": "Ammianus says Valens was so shaken he considered it, until his advisers stopped him. Ammianus was no fan of Valens."
+        }
+      ],
+      "hook": "Procopius is dead and Valens is safe. Forward to 375: Valentinian has died in a rage, his son Gratian, 16, runs the West, and Goths are gathering on the Danube.",
+      "images": [
+        {
+          "file": "File:INC-1866-a Солид. Прокопий. Ок. 365—366 гг. (аверс).png",
+          "url": "https://upload.wikimedia.org/wikipedia/commons/e/ea/INC-1866-a_%D0%A1%D0%BE%D0%BB%D0%B8%D0%B4._%D0%9F%D1%80%D0%BE%D0%BA%D0%BE%D0%BF%D0%B8%D0%B9._%D0%9E%D0%BA._365%E2%80%94366_%D0%B3%D0%B3._%28%D0%B0%D0%B2%D0%B5%D1%80%D1%81%29.png",
+          "page": "https://commons.wikimedia.org/wiki/File:INC-1866-a_%D0%A1%D0%BE%D0%BB%D0%B8%D0%B4._%D0%9F%D1%80%D0%BE%D0%BA%D0%BE%D0%BF%D0%B8%D0%B9._%D0%9E%D0%BA._365%E2%80%94366_%D0%B3%D0%B3._(%D0%B0%D0%B2%D0%B5%D1%80%D1%81).png",
+          "credit": "International Numismatic Club",
+          "license": "CC BY-SA 4.0",
+          "made": "365–366",
+          "caption": "A gold coin of Procopius, struck during his eight months in power.",
+          "alt": "Gold Roman coin showing Procopius wearing a pearl diadem and cloak, facing right"
+        }
+      ],
+      "sources": [
+        {
+          "title": "Res Gestae (The Later Roman Empire)",
+          "author": "Ammianus Marcellinus",
+          "note": "Book 26"
+        },
+        {
+          "title": "Failure of Empire: Valens and the Roman State in the Fourth Century A.D.",
+          "author": "Noel Lenski",
+          "note": "University of California Press, 2002"
+        },
+        {
+          "title": "New History",
+          "author": "Zosimus",
+          "note": "Book 4"
+        }
+      ],
+      "review": {
+        "status": "draft",
+        "notes": "Drafted from the listed sources; needs a human fact-check."
+      }
+    },
+    {
       "id": "gratian-and-valens",
       "kind": "monarch",
       "rulers": [
@@ -5791,7 +6719,7 @@
       "ageAtAccession": "16 and about 47",
       "cameToPower": "Already co-emperors when he died",
       "reignEnded": "Valens killed at Adrianople",
-      "previously": "Valentinian I dies of a fit of rage at Brigetio in 375.",
+      "previously": "Procopius is beheaded; nine years later Valentinian dies in a rage.",
       "paragraphs": [
         "Gratian was 16 and ruled the West, with his small half-brother Valentinian II as a junior partner. His uncle Valens ruled the East. In 376 huge numbers of Goths, fleeing the Huns, arrived on the Danube and asked to come in. Valens said yes. He wanted recruits, and he got a crisis.",
         "Roman officers in charge of the refugees robbed and starved them. Within months the Goths, led by Fritigern, were in open revolt and plundering Thrace. Gratian crushed an Alamannic army in 378 and marched east to help. Valens, by now jealous of his nephew's victories, decided not to wait.",
@@ -5814,7 +6742,7 @@
           "note": "He says so in Book 31. He also says only a third of the army escaped; the army's total size is unknown."
         }
       ],
-      "hook": "The East has no emperor and the Goths roam the Balkans. Gratian, just 19, needs a soldier he can trust. He sends for a Spanish general living quietly in exile: Theodosius.",
+      "hook": "Valens is dead and the Goths roam the Balkans. Gratian, just 19, is now senior emperor of a shaken empire, and he can't hold it alone.",
       "images": [
         {
           "file": "File:Solidus Valens & Gratien.JPG",
@@ -5852,6 +6780,115 @@
       "review": {
         "status": "draft",
         "notes": "Drafted from the listed sources; needs a human fact-check."
+      },
+      "members": [
+        {
+          "name": "Valentinian II",
+          "start": {
+            "date": "0375-11-22"
+          },
+          "end": {
+            "date": "0378-08-09"
+          },
+          "note": "Gratian's four-year-old half-brother, hailed Augustus by the generals; emperor in name only"
+        }
+      ]
+    },
+    {
+      "id": "gratian",
+      "kind": "monarch",
+      "rulers": [
+        "gratian"
+      ],
+      "title": "Gratian, senior emperor",
+      "members": [
+        {
+          "name": "Valentinian II",
+          "start": {
+            "date": "0375-11-22"
+          },
+          "end": {
+            "date": "0383-08-25"
+          },
+          "note": "Gratian's young half-brother; junior emperor in name only, under his mother Justina in Italy"
+        }
+      ],
+      "tagline": "The teenage emperor who picked Theodosius",
+      "start": {
+        "date": "0378-08-09"
+      },
+      "end": {
+        "date": "0383-08-25"
+      },
+      "contestedWith": [
+        "theodosius",
+        "magnus-maximus"
+      ],
+      "relationToPredecessor": "Nephew of the dead Valens",
+      "ageAtAccession": "19",
+      "cameToPower": "Senior Augustus after Adrianople",
+      "reignEnded": "Killed at Lyon fleeing Maximus",
+      "previously": "Valens dies at Adrianople and his body is never found.",
+      "paragraphs": [
+        "Adrianople left Gratian, at 19, the senior emperor of a shaken empire. He couldn't hold East and West alone, so in January 379 at Sirmium he made the general Theodosius emperor of the East. His half-brother Valentinian II, now seven, stayed a junior emperor in name only.",
+        "Gratian was devout and listened closely to Bishop Ambrose of Milan. In 382 he had the Altar of Victory carried out of the Senate House in Rome and stopped state money for the old pagan priesthoods. Pagan senators were horrified and sent envoys to plead with him. He wouldn't even see them.",
+        "He also loved hunting, and favoured a bodyguard of Alan archers from beyond the frontier. The army felt snubbed. In 383 the troops in Britain proclaimed Magnus Maximus. When Maximus landed in Gaul, Gratian's army near Paris melted away. Gratian fled south and was killed at Lyon on 25 August 383, aged 24."
+      ],
+      "claims": [
+        {
+          "text": "Gratian refused to wear the robe of the pagan high priest, the pontifex maximus.",
+          "status": "disputed",
+          "note": "Zosimus tells the story. Inscriptions show Gratian did drop the title, but when he did it is argued over."
+        },
+        {
+          "text": "Gratian dressed up like his Alan bodyguards, and that cost him the army's loyalty.",
+          "status": "disputed",
+          "note": "The Epitome de Caesaribus says so. Ancient writers liked to explain an emperor's fall by his bad habits."
+        },
+        {
+          "text": "Maximus's cavalry chief lured Gratian into a trap by riding in a closed carriage, pretending to be Gratian's wife.",
+          "status": "disputed",
+          "note": "Socrates of Constantinople tells it. Other writers simply say Gratian was caught and killed at Lyon."
+        }
+      ],
+      "hook": "Rewind to January 379. To save the East, Gratian has just made a Spanish general emperor, a man whose own father Rome executed three years earlier: Theodosius.",
+      "images": [
+        {
+          "file": "File:Gratian Trier enhanced.jpg",
+          "url": "https://upload.wikimedia.org/wikipedia/commons/a/a5/Gratian_Trier_enhanced.jpg",
+          "page": "https://commons.wikimedia.org/wiki/File:Gratian_Trier_enhanced.jpg",
+          "credit": "SJuergen",
+          "license": "CC BY-SA 3.0",
+          "made": "Late 4th century",
+          "caption": "A marble bust identified as Gratian, in the Rheinisches Landesmuseum, Trier.",
+          "alt": "Marble portrait bust of a young man identified as the emperor Gratian"
+        }
+      ],
+      "sources": [
+        {
+          "title": "Res Gestae (The Later Roman Empire)",
+          "author": "Ammianus Marcellinus",
+          "note": "Book 31"
+        },
+        {
+          "title": "New History",
+          "author": "Zosimus",
+          "note": "Book 4"
+        },
+        {
+          "title": "Ambrose of Milan: Church and Court in a Christian Capital",
+          "author": "Neil B. McLynn",
+          "note": "University of California Press, 1994"
+        },
+        {
+          "title": "The Cambridge Ancient History, vol. XIII: The Late Empire, A.D. 337–425",
+          "author": "Averil Cameron and Peter Garnsey (eds)",
+          "note": "Cambridge University Press, 1998"
+        }
+      ],
+      "review": {
+        "status": "draft",
+        "notes": "Drafted from the listed sources; needs a human fact-check."
       }
     },
     {
@@ -5867,12 +6904,16 @@
       "end": {
         "date": "0395-01-17"
       },
-      "contestedWith": [],
+      "contestedWith": [
+        "gratian",
+        "magnus-maximus",
+        "eugenius"
+      ],
       "relationToPredecessor": "Chosen as colleague by Gratian",
       "ageAtAccession": "32",
       "cameToPower": "Made co-emperor by Gratian at Sirmium",
       "reignEnded": "Died of illness in Milan",
-      "previously": "Valens dies at Adrianople and the Goths run loose in the Balkans.",
+      "previously": "Gratian is cut down at Lyon by Magnus Maximus's men in 383.",
       "paragraphs": [
         "Theodosius's father, a top general, had been executed in 376. The son retired to his estates in Spain until Gratian needed him. Made emperor of the East in January 379, he couldn't beat the Goths outright. In 382 he settled them inside the empire as allies under their own leaders, a deal that would shape the next century.",
         "He was a fierce Christian. In 380 he ordered everyone to follow the Nicene creed, and in the 390s he banned pagan sacrifice. In 390 a riot in Thessalonica killed one of his generals, and Theodosius let his troops massacre thousands in the circus. Bishop Ambrose of Milan refused him communion until he did public penance, and the emperor gave in.",
@@ -5895,7 +6936,7 @@
           "note": "The massacre is well attested. Theodoret's figure of 7,000 comes later and can't be checked."
         }
       ],
-      "hook": "The empire is split between two boys. Arcadius, 17, gets the East; Honorius, 10, gets the West. The real power in the West belongs to a half-Vandal general called Stilicho.",
+      "hook": "Rewind to 383. The army in Britain has hailed Magnus Maximus, an old comrade of Theodosius. Gratian is dead, and Maximus wants to be recognised.",
       "images": [
         {
           "file": "File:Gold Solidus of Theodosius I (379–95) MET tem9935103o.jpg",
@@ -5931,6 +6972,270 @@
       "review": {
         "status": "draft",
         "notes": "Drafted from the listed sources; needs a human fact-check."
+      },
+      "members": [
+        {
+          "name": "Arcadius",
+          "start": {
+            "date": "0383-01-19"
+          },
+          "end": {
+            "date": "0395-01-17"
+          },
+          "note": "Theodosius's elder son, made co-Augustus as a small boy; took the East when his father died"
+        },
+        {
+          "name": "Honorius",
+          "start": {
+            "date": "0393-01-23"
+          },
+          "end": {
+            "date": "0395-01-17"
+          },
+          "note": "Younger son, made co-Augustus at eight to deny Eugenius the West; took the West in 395"
+        }
+      ]
+    },
+    {
+      "id": "magnus-maximus",
+      "kind": "claimant",
+      "rulers": [
+        "magnus-maximus"
+      ],
+      "tagline": "Britain's emperor, and a hero of Welsh legend",
+      "start": {
+        "date": "0383",
+        "circa": true,
+        "note": "Proclaimed in Britain in spring 383"
+      },
+      "end": {
+        "date": "0388-08-28"
+      },
+      "contestedWith": [
+        "gratian",
+        "theodosius",
+        "valentinian-ii"
+      ],
+      "relationToPredecessor": "Old comrade of Theodosius",
+      "ageAtAccession": "About 48",
+      "cameToPower": "Proclaimed by the army in Britain",
+      "reignEnded": "Beheaded at Aquileia",
+      "previously": "Theodosius dies in Milan, the last ruler of the whole empire.",
+      "paragraphs": [
+        "Rewind to 383. Magnus Maximus was a Spaniard who had served in Britain under Theodosius's father, and by 383 he commanded troops there. The army was fed up with Gratian, and in the spring they proclaimed Maximus. He crossed to Gaul with at least part of the garrison. Gratian's army deserted near Paris, and Gratian was hunted down and killed at Lyon.",
+        "Theodosius, busy in the East, did a deal. By 384 Maximus was accepted as emperor at Trier, ruling Britain, Gaul and Spain, while the boy Valentinian II kept Italy, Africa and the Balkans. Maximus played the stern Catholic. In 385 he had the Spanish bishop Priscillian and several followers executed, officially for sorcery. Ambrose and Martin of Tours were appalled.",
+        "In 387 he reached for more and crossed the Alps into Italy. Valentinian and his mother fled to Theodosius at Thessalonica. In 388 Theodosius marched west, beat Maximus's armies at Siscia and Poetovio, and cornered him at Aquileia. On 28 August 388 Maximus was stripped of his purple and beheaded."
+      ],
+      "claims": [
+        {
+          "text": "Priscillian was the first Christian put to death by a Christian ruler for heresy.",
+          "status": "disputed",
+          "note": "That is how he is usually remembered. The formal charge was sorcery and immoral conduct, though everyone knew the real issue was doctrine."
+        },
+        {
+          "text": "Maximus is Macsen Wledig, the emperor of Welsh legend who dreamed of a British princess.",
+          "status": "legend",
+          "note": "The medieval Welsh tale The Dream of Macsen Wledig and several Welsh royal family trees claim him. They were written centuries later."
+        },
+        {
+          "text": "Maximus stripped Britain of its soldiers, leaving it open to raiders.",
+          "status": "disputed",
+          "note": "Gildas and later writers blamed him. How many troops he took, and whether they ever came back, is unknown."
+        }
+      ],
+      "hook": "Maximus is dead and Valentinian II is back in the West, aged 17. He has a throne, but the man giving the orders is a Frankish general called Arbogast.",
+      "images": [
+        {
+          "file": "File:Rare aureus of Magnus Maximus (obverse transparent).png",
+          "url": "https://upload.wikimedia.org/wikipedia/commons/7/70/Rare_aureus_of_Magnus_Maximus_%28obverse_transparent%29.png",
+          "page": "https://commons.wikimedia.org/wiki/File:Rare_aureus_of_Magnus_Maximus_(obverse_transparent).png",
+          "credit": "Classical Numismatic Group (CNG)",
+          "license": "CC BY-SA 2.5",
+          "made": "383–388",
+          "caption": "A rare gold coin of Magnus Maximus.",
+          "alt": "Gold Roman coin showing the diademed bust of Magnus Maximus with the legend DN MAG MAXIMVS PF AVG"
+        }
+      ],
+      "sources": [
+        {
+          "title": "New History",
+          "author": "Zosimus",
+          "note": "Book 4"
+        },
+        {
+          "title": "Seven Books of History against the Pagans",
+          "author": "Orosius",
+          "note": "Book 7"
+        },
+        {
+          "title": "Chronicle",
+          "author": "Sulpicius Severus",
+          "note": "Book 2, on Priscillian"
+        },
+        {
+          "title": "Theodosius: The Empire at Bay",
+          "author": "Stephen Williams and Gerard Friell",
+          "note": "Batsford, 1994"
+        }
+      ],
+      "review": {
+        "status": "draft",
+        "notes": "Drafted from the listed sources; needs a human fact-check."
+      }
+    },
+    {
+      "id": "valentinian-ii",
+      "kind": "monarch",
+      "rulers": [
+        "valentinian-ii"
+      ],
+      "tagline": "Emperor at four, found hanged at twenty-one",
+      "start": {
+        "date": "0383-08-25",
+        "note": "Junior Augustus since 22 November 375; ruled in his own right after Gratian's death"
+      },
+      "end": {
+        "date": "0392-05-15"
+      },
+      "contestedWith": [
+        "magnus-maximus"
+      ],
+      "relationToPredecessor": "Half-brother of Gratian",
+      "ageAtAccession": "12",
+      "cameToPower": "Inherited Italy when Gratian died",
+      "reignEnded": "Found hanged at Vienne",
+      "previously": "Maximus is beheaded at Aquileia after Theodosius marches west.",
+      "paragraphs": [
+        "Valentinian II had been an emperor since he was four, hailed by his father's generals in 375 and then kept firmly in the background. When Gratian was murdered in 383, the 12-year-old suddenly ruled Italy, Africa and the Balkans from Milan. His mother Justina ran things, and she was an Arian Christian in a city whose bishop was Ambrose.",
+        "In 384 pagan senators asked the boy to restore the Altar of Victory, and Ambrose talked him out of it. In 386 Justina demanded a church in Milan for Arian worship. Ambrose and his flock occupied the basilica, singing hymns, and the court backed down. Then in 387 Maximus crossed the Alps, and mother and son fled to Theodosius.",
+        "Theodosius restored him in 388 but sent him to Gaul under the Frankish general Arbogast, who answered to Theodosius, not to the boy. Valentinian tried to sack him. Arbogast tore up the order in front of him. On 15 May 392 the 21-year-old emperor was found hanged in his palace at Vienne."
+      ],
+      "claims": [
+        {
+          "text": "Arbogast had Valentinian murdered and made it look like suicide.",
+          "status": "disputed",
+          "note": "Ancient writers were split. Ambrose's funeral speech avoids calling it suicide, but many modern historians think he did take his own life."
+        },
+        {
+          "text": "Arbogast tore up his dismissal, saying the emperor hadn't appointed him and couldn't sack him.",
+          "status": "disputed",
+          "note": "Zosimus tells the story. It fits everything else we know about who really held power in Gaul."
+        }
+      ],
+      "hook": "The West has no emperor, and Arbogast can't take the purple himself: he's a Frank and a pagan. So he picks a mild former teacher of rhetoric called Eugenius.",
+      "images": [
+        {
+          "file": "File:Statue of emperor Valentinian II.JPG",
+          "url": "https://upload.wikimedia.org/wikipedia/commons/c/c5/Statue_of_emperor_Valentinian_II.JPG",
+          "page": "https://commons.wikimedia.org/wiki/File:Statue_of_emperor_Valentinian_II.JPG",
+          "credit": "Brastite",
+          "license": "Public domain",
+          "made": "c. 387–390",
+          "caption": "A marble statue of Valentinian II from Aphrodisias, now in the Istanbul Archaeology Museums.",
+          "alt": "Marble statue of a young emperor in a long robe"
+        }
+      ],
+      "sources": [
+        {
+          "title": "On the Death of Valentinian",
+          "author": "Ambrose of Milan"
+        },
+        {
+          "title": "Letters",
+          "author": "Ambrose of Milan"
+        },
+        {
+          "title": "New History",
+          "author": "Zosimus",
+          "note": "Book 4"
+        },
+        {
+          "title": "Ambrose of Milan: Church and Court in a Christian Capital",
+          "author": "Neil B. McLynn",
+          "note": "University of California Press, 1994"
+        }
+      ],
+      "review": {
+        "status": "draft",
+        "notes": "Drafted from the listed sources; needs a human fact-check."
+      }
+    },
+    {
+      "id": "eugenius",
+      "kind": "claimant",
+      "rulers": [
+        "eugenius"
+      ],
+      "tagline": "A teacher on the throne and the old gods' last stand",
+      "start": {
+        "date": "0392-08-22"
+      },
+      "end": {
+        "date": "0394-09-06"
+      },
+      "contestedWith": [
+        "theodosius"
+      ],
+      "relationToPredecessor": "Arbogast's chosen front man",
+      "ageAtAccession": "Unknown",
+      "cameToPower": "Raised by Arbogast at Lyon",
+      "reignEnded": "Beheaded after the Frigidus",
+      "previously": "Valentinian II is found hanged in his palace at Vienne.",
+      "paragraphs": [
+        "Eugenius was a former teacher of grammar and rhetoric who had become a senior palace secretary. Three months after Valentinian's death, Arbogast made him emperor at Lyon. He was a Christian, which made him easier to sell than a pagan Frank, and he sent polite embassies asking Theodosius to recognise him. Theodosius answered by making his own eight-year-old son Honorius emperor.",
+        "With nothing to lose, Eugenius leaned on the pagan senators of Rome. Their leader, Nicomachus Flavianus, became his chief minister in Italy. The Altar of Victory went back into the Senate House and the Temple of Venus and Rome was restored. In 393 Eugenius and Arbogast took Italy, and Ambrose left Milan rather than meet them.",
+        "In September 394 Theodosius came over the Julian Alps. The armies met by the river Frigidus, in today's Slovenia. The first day went badly for Theodosius, whose Gothic allies took terrible losses. On the second a fierce wind blew into the westerners' faces and their line broke. Eugenius was captured and beheaded. Arbogast killed himself soon after."
+      ],
+      "claims": [
+        {
+          "text": "Eugenius's side set up statues of Jupiter with golden thunderbolts in the Alps to stop Theodosius.",
+          "status": "disputed",
+          "note": "Augustine tells it, adding that Theodosius's soldiers joked they'd happily be struck by such thunderbolts. It suits a Christian victory story very neatly."
+        },
+        {
+          "text": "Eugenius was a secret pagan.",
+          "status": "disputed",
+          "note": "He was publicly Christian. His friendship with pagan senators made Christian writers suspicious, but there's no proof."
+        }
+      ],
+      "hook": "Theodosius is master of the whole empire, for four months. Then he dies, and the empire splits: Arcadius, 17, gets the East and Honorius, 10, the West. The West's real boss is a half-Vandal general, Stilicho.",
+      "images": [
+        {
+          "file": "File:Eugenius coin (transparent).png",
+          "url": "https://upload.wikimedia.org/wikipedia/commons/0/07/Eugenius_coin_%28transparent%29.png",
+          "page": "https://commons.wikimedia.org/wiki/File:Eugenius_coin_(transparent).png",
+          "credit": "Classical Numismatic Group",
+          "license": "CC BY-SA 2.5",
+          "made": "393–394",
+          "caption": "A small gold coin of Eugenius struck at Milan.",
+          "alt": "Small gold Roman coin showing the pearl-diademed, draped bust of Eugenius"
+        }
+      ],
+      "sources": [
+        {
+          "title": "New History",
+          "author": "Zosimus",
+          "note": "Book 4"
+        },
+        {
+          "title": "Church History",
+          "author": "Rufinus of Aquileia",
+          "note": "Book 11"
+        },
+        {
+          "title": "The City of God",
+          "author": "Augustine of Hippo",
+          "note": "Book 5, chapter 26"
+        },
+        {
+          "title": "Theodosius: The Empire at Bay",
+          "author": "Stephen Williams and Gerard Friell",
+          "note": "Batsford, 1994"
+        }
+      ],
+      "review": {
+        "status": "draft",
+        "notes": "Drafted from the listed sources; needs a human fact-check."
       }
     },
     {
@@ -5946,12 +7251,15 @@
       "end": {
         "date": "0423-08-15"
       },
-      "contestedWith": [],
+      "contestedWith": [
+        "constantine-iii",
+        "priscus-attalus"
+      ],
       "relationToPredecessor": "Younger son of Theodosius I",
       "ageAtAccession": "10",
       "cameToPower": "Inherited the West from his father",
       "reignEnded": "Died of illness in Ravenna",
-      "previously": "Theodosius dies in Milan; the empire splits between his sons.",
+      "previously": "Eugenius loses his head at the Frigidus; Theodosius dies soon after.",
       "paragraphs": [
         "Honorius was ten, so Stilicho ran the West. The general married the emperor to his daughter Maria and, after her death, to her sister. He fought off Alaric's Goths in Italy in 402 and 403, and the court moved to Ravenna, safe behind its marshes. Then, around the end of 406, Vandals, Alans and Sueves poured across the Rhine, and a soldier in Britain declared himself Constantine III.",
         "In 408 Honorius was persuaded Stilicho was a traitor and had him beheaded. Roman troops then slaughtered the families of barbarian soldiers, and thousands of those men went over to Alaric. Alaric marched on Rome, haggled with Honorius for two years and got nowhere. On 24 August 410 his Goths entered the city and looted it for three days, the first sack in 800 years.",
@@ -5969,7 +7277,7 @@
           "note": "Zosimus mentions the letter. Some historians think he meant Bruttium in southern Italy and got the name muddled."
         }
       ],
-      "hook": "Honorius dies with no heir. In Rome, a senior official named Joannes is proclaimed emperor. In Constantinople, Galla Placidia and her four-year-old son are watching.",
+      "hook": "Rewind to 407. While Honorius sits in Ravenna, a soldier in Britain with a famous name crosses into Gaul to claim the West: Constantine III.",
       "images": [
         {
           "file": "File:Solidus Honorius (obverse).jpg",
@@ -6005,6 +7313,185 @@
       "review": {
         "status": "draft",
         "notes": "Drafted from the listed sources; needs a human fact-check."
+      },
+      "members": [
+        {
+          "name": "Constantius III",
+          "start": {
+            "date": "0421-02-08"
+          },
+          "end": {
+            "date": "0421-09-02"
+          },
+          "note": "Honorius's top general and Galla Placidia's husband; co-Augustus for seven months until he died"
+        }
+      ]
+    },
+    {
+      "id": "constantine-iii",
+      "kind": "claimant",
+      "rulers": [
+        "constantine-iii"
+      ],
+      "tagline": "A soldier from Britain with an emperor's name",
+      "start": {
+        "date": "0407",
+        "circa": true,
+        "note": "Proclaimed in Britain early in 407"
+      },
+      "end": {
+        "date": "0411-09",
+        "circa": true
+      },
+      "contestedWith": [
+        "honorius"
+      ],
+      "relationToPredecessor": "A common soldier in Britain",
+      "ageAtAccession": "Unknown",
+      "cameToPower": "Hailed by the army in Britain",
+      "reignEnded": "Surrendered at Arles, then killed",
+      "previously": "Honorius dies in Ravenna in 423, leaving no children.",
+      "paragraphs": [
+        "Rewind to 407. The army in Britain felt abandoned. In a matter of months it raised and murdered two emperors of its own, Marcus and Gratian. Then it picked a common soldier, chosen, people said, mostly for his lucky name: Constantine. He crossed to Gaul with the island's mobile troops, just as Vandals, Alans and Sueves were pouring over the Rhine.",
+        "He did surprisingly well. With fighting and deals he steadied Gaul, set up court at Arles and took Spain, making his son Constans co-emperor. Honorius, with Alaric's Goths at his door, had little choice. In 409 he sent Constantine a purple robe and accepted him as a colleague.",
+        "Then it fell apart. His general Gerontius rebelled in Spain and set up an emperor of his own. Constans was killed at Vienne and Arles was besieged. Honorius's new general Constantius took over the siege. In 411 Constantine gave up, had himself ordained a priest and was promised his life. He was killed on the way to Ravenna."
+      ],
+      "claims": [
+        {
+          "text": "The army chose him for his name alone.",
+          "status": "disputed",
+          "note": "Orosius says his name raised hopes of another Constantine the Great. It is a neat story, and may be no more than that."
+        },
+        {
+          "text": "Constantine III was King Arthur's grandfather.",
+          "status": "legend",
+          "note": "Geoffrey of Monmouth made him a British king and Arthur's grandfather in the 1130s. No ancient source says anything like it."
+        },
+        {
+          "text": "His head was brought to Honorius on a pole.",
+          "status": "confirmed",
+          "note": "Olympiodorus, preserved by later writers, records it. Showing off a beaten rival's head was routine by then."
+        }
+      ],
+      "hook": "Constantine wasn't Honorius's only rival. In Rome, with Alaric's Goths starving the city, the Senate had proclaimed an emperor of its own: Priscus Attalus.",
+      "images": [
+        {
+          "file": "File:Solidus of Constantine III (west).png",
+          "url": "https://upload.wikimedia.org/wikipedia/commons/7/7d/Solidus_of_Constantine_III_%28west%29.png",
+          "page": "https://commons.wikimedia.org/wiki/File:Solidus_of_Constantine_III_(west).png",
+          "credit": "CNG Coins",
+          "license": "Public domain",
+          "made": "407–411",
+          "caption": "A gold coin of Constantine III struck at his capital, Arles.",
+          "alt": "Gold Roman coin showing the diademed bust of Constantine III"
+        }
+      ],
+      "sources": [
+        {
+          "title": "New History",
+          "author": "Zosimus",
+          "note": "Book 6"
+        },
+        {
+          "title": "Seven Books of History against the Pagans",
+          "author": "Orosius",
+          "note": "Book 7"
+        },
+        {
+          "title": "Ecclesiastical History",
+          "author": "Sozomen",
+          "note": "Book 9"
+        },
+        {
+          "title": "The Fall of the Roman Empire",
+          "author": "Peter Heather",
+          "note": "Macmillan, 2005"
+        }
+      ],
+      "review": {
+        "status": "draft",
+        "notes": "Drafted from the listed sources; needs a human fact-check."
+      }
+    },
+    {
+      "id": "priscus-attalus",
+      "kind": "claimant",
+      "rulers": [
+        "priscus-attalus"
+      ],
+      "tagline": "Alaric's puppet emperor, made and unmade twice",
+      "start": {
+        "date": "0409-11",
+        "circa": true
+      },
+      "end": {
+        "date": "0410-07",
+        "circa": true,
+        "note": "Deposed by Alaric; proclaimed again in Gaul in 414–415"
+      },
+      "contestedWith": [
+        "honorius"
+      ],
+      "relationToPredecessor": "Prefect of Rome under Honorius",
+      "ageAtAccession": "Unknown",
+      "cameToPower": "Named by the Senate under Gothic siege",
+      "reignEnded": "Deposed by Alaric at Rimini",
+      "previously": "Constantine III gives up at Arles and is killed on the road.",
+      "paragraphs": [
+        "Attalus was a cultured senator, the son of a former prefect of Rome and a friend of the pagan orator Symmachus. In 409 Honorius made him prefect of Rome. That autumn Alaric's Goths blockaded the city again and seized its grain stores at the harbour. Facing starvation, the Senate gave in to Alaric's terms and proclaimed Attalus emperor.",
+        "Attalus was baptised by a Gothic bishop, made Alaric a top general and marched on Ravenna, demanding that Honorius step down. Honorius nearly fled by sea. But Africa's grain stayed loyal to Honorius, Rome went hungry, and Attalus refused to send Gothic troops to Africa. In July 410 Alaric stripped him of the purple at Rimini. A month later the Goths sacked Rome.",
+        "Attalus stayed with the Goths. He wrote the wedding poem when Alaric's successor Athaulf married Honorius's sister Galla Placidia in 414, and Athaulf made him emperor again in Gaul. When the Goths left for Spain he was caught. In 416 he was paraded in Honorius's triumph in Rome, maimed and exiled to the island of Lipari."
+      ],
+      "claims": [
+        {
+          "text": "Attalus's side threatened to mutilate Honorius and exile him to an island.",
+          "status": "disputed",
+          "note": "Zosimus and Philostorgius report the threat but disagree on who made it. In the end it was Attalus who was maimed and sent to an island."
+        },
+        {
+          "text": "Honorius had the thumb and forefinger of Attalus's right hand cut off.",
+          "status": "disputed",
+          "note": "Philostorgius gives that detail. Orosius says only that his hand was cut off and his life spared."
+        }
+      ],
+      "hook": "Attalus ends his days on Lipari. Honorius lives until 423 and dies with no heir. In Rome an official named Joannes is proclaimed. In Constantinople, Galla Placidia and her small son are watching.",
+      "images": [
+        {
+          "file": "File:Rare solidus of Priscus Attalus (obverse).png",
+          "url": "https://upload.wikimedia.org/wikipedia/commons/d/d6/Rare_solidus_of_Priscus_Attalus_%28obverse%29.png",
+          "page": "https://commons.wikimedia.org/wiki/File:Rare_solidus_of_Priscus_Attalus_(obverse).png",
+          "credit": "Heritage World Coin Auctions (photo)",
+          "license": "Public domain",
+          "made": "409",
+          "caption": "A rare gold coin struck at Rome during Attalus's first reign, late in 409.",
+          "alt": "Gold Roman coin showing the diademed bust of Priscus Attalus"
+        }
+      ],
+      "sources": [
+        {
+          "title": "New History",
+          "author": "Zosimus",
+          "note": "Book 6"
+        },
+        {
+          "title": "Church History",
+          "author": "Philostorgius",
+          "note": "Book 12"
+        },
+        {
+          "title": "Seven Books of History against the Pagans",
+          "author": "Orosius",
+          "note": "Book 7"
+        },
+        {
+          "title": "Ecclesiastical History",
+          "author": "Sozomen",
+          "note": "Book 9"
+        }
+      ],
+      "review": {
+        "status": "draft",
+        "notes": "Drafted from the listed sources; needs a human fact-check."
       }
     },
     {
@@ -6026,7 +7513,7 @@
       "ageAtAccession": "Unknown",
       "cameToPower": "Proclaimed in Rome by the army",
       "reignEnded": "Captured and executed",
-      "previously": "Honorius dies in Ravenna, leaving no children.",
+      "previously": "Attalus is maimed and exiled; Honorius dies childless in 423.",
       "paragraphs": [
         "Joannes was the chief of the imperial notaries, a top civil servant, and he had the backing of the general Castinus. The eastern emperor Theodosius II refused to recognise him. He had his own candidate: his little cousin Valentinian, son of Galla Placidia. Joannes sent a young officer named Aetius to the Huns to hire an army.",
         "The East moved first. A fleet and army under Ardabur and his son Aspar sailed for Italy. Ardabur was captured and held in Ravenna, where he used his time to win over Joannes's officers. Aspar's troops found a way through the marshes, and Ravenna fell. Joannes was taken to Aquileia, had a hand cut off, was paraded on a donkey in the circus, and was beheaded.",

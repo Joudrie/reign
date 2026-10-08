@@ -105,6 +105,17 @@
       "name": "Communist Party",
       "color": "#c0272d",
       "plain": true
+    },
+    {
+      "id": "rivals",
+      "name": "Rival claimants",
+      "color": "#8d8780",
+      "plain": true
+    },
+    {
+      "id": "liao",
+      "name": "Liao (Yelü)",
+      "color": "#4a6b5d"
     }
   ],
   "rulers": [
@@ -2646,6 +2657,162 @@
         "note": "Forbidden City, Beijing"
       },
       "causeOfDeath": "Smallpox, officially"
+    },
+    {
+      "id": "liu-penzi",
+      "name": "Liu Penzi",
+      "epithet": "Jianshi Emperor",
+      "house": "han",
+      "born": {
+        "date": "0010"
+      }
+    },
+    {
+      "id": "sima-lun",
+      "name": "Sima Lun",
+      "epithet": "Prince of Zhao",
+      "house": "jin",
+      "died": {
+        "date": "0301-06-05",
+        "note": "Luoyang"
+      },
+      "causeOfDeath": "Forced to kill himself with poison"
+    },
+    {
+      "id": "huan-xuan",
+      "name": "Huan Xuan",
+      "epithet": "Emperor of Chu",
+      "house": "rivals",
+      "born": {
+        "date": "0369"
+      },
+      "died": {
+        "date": "0404-06-19",
+        "note": "On the Yangtze, fleeing west"
+      },
+      "causeOfDeath": "Beheaded on his boat by the officer Feng Qian"
+    },
+    {
+      "id": "mingyuan-nwei",
+      "name": "Emperor Mingyuan of Northern Wei",
+      "epithet": "Tuoba Si",
+      "house": "division",
+      "born": {
+        "date": "0392"
+      },
+      "died": {
+        "date": "0423-12-24",
+        "note": "Pingcheng (Datong)"
+      },
+      "causeOfDeath": "Illness, said to follow taking elixirs"
+    },
+    {
+      "id": "an-lushan",
+      "name": "An Lushan",
+      "epithet": "Emperor of Yan",
+      "house": "rivals",
+      "born": {
+        "date": "0703",
+        "circa": true
+      },
+      "died": {
+        "date": "0757-01-29",
+        "note": "Luoyang"
+      },
+      "causeOfDeath": "Stabbed by the eunuch Li Zhu'er in a plot by his son"
+    },
+    {
+      "id": "zhu-ci",
+      "name": "Zhu Ci",
+      "epithet": "Emperor of Qin",
+      "house": "rivals",
+      "born": {
+        "date": "0742"
+      },
+      "died": {
+        "date": "0784",
+        "note": "Near Pengyuan, in flight"
+      },
+      "causeOfDeath": "Shot and beheaded by his own officers"
+    },
+    {
+      "id": "huang-chao",
+      "name": "Huang Chao",
+      "epithet": "Emperor of Qi",
+      "house": "rivals",
+      "born": {
+        "date": "0835",
+        "note": "Cao Prefecture, Shandong"
+      },
+      "died": {
+        "date": "0884-07-13",
+        "note": "Langhu Valley, Shandong"
+      },
+      "causeOfDeath": "Killed by his nephew, or by his own hand"
+    },
+    {
+      "id": "li-yun-xiang",
+      "name": "Li Yun",
+      "epithet": "Prince of Xiang",
+      "house": "tang",
+      "died": {
+        "date": "0887",
+        "note": "Hezhong"
+      },
+      "causeOfDeath": "Executed by the governor Wang Chongrong"
+    },
+    {
+      "id": "li-yu-de",
+      "name": "Li Yu",
+      "epithet": "Prince of De",
+      "house": "tang",
+      "died": {
+        "date": "0905-03-17",
+        "note": "Luoyang"
+      },
+      "causeOfDeath": "Strangled at a banquet on Zhu Wen's orders"
+    },
+    {
+      "id": "yelu-deguang",
+      "name": "Yelü Deguang",
+      "epithet": "Taizong of Liao",
+      "house": "liao",
+      "born": {
+        "date": "0902-11-25"
+      },
+      "died": {
+        "date": "0947-05-18",
+        "note": "On the march north from Kaifeng"
+      },
+      "causeOfDeath": "Fell ill on the march home"
+    },
+    {
+      "id": "zhang-bangchang",
+      "name": "Zhang Bangchang",
+      "epithet": "Emperor of Da Chu",
+      "house": "rivals",
+      "born": {
+        "date": "1081"
+      },
+      "died": {
+        "date": "1127-11-01"
+      },
+      "causeOfDeath": "Ordered to kill himself by Gaozong"
+    },
+    {
+      "id": "li-zicheng",
+      "name": "Li Zicheng",
+      "epithet": "the Dashing King",
+      "house": "rivals",
+      "born": {
+        "date": "1606-09-22",
+        "note": "Mizhi, Shaanxi"
+      },
+      "died": {
+        "date": "1645",
+        "note": "Hubei; the circumstances are disputed"
+      },
+      "causeOfDeath": "Probably killed by villagers"
     }
   ],
   "reigns": [
@@ -4178,7 +4345,8 @@
       },
       "contestedWith": [
         "wang-mang",
-        "guangwu"
+        "guangwu",
+        "liu-penzi"
       ],
       "relationToPredecessor": "Han prince, Wang Mang's rebel rival",
       "ageAtAccession": "Unknown",
@@ -4207,7 +4375,7 @@
           "note": "Another Hou Hanshu story, the kind later historians used to explain a fall. She appears in later collections of cautionary tales about women."
         }
       ],
-      "hook": "Gengshi is dead and the Red Eyebrows are looting Chang'an. The man he sent north, Liu Xiu, already wears the yellow robe, and his army is the best in the empire.",
+      "hook": "Gengshi is finished. The Red Eyebrows hold Chang'an, and on their throne sits a frightened teenage cowherd who won his crown by drawing lots.",
       "images": [
         {
           "file": "File:更始韓夫人 (更始).png",
@@ -4247,6 +4415,84 @@
       }
     },
     {
+      "id": "liu-penzi",
+      "kind": "claimant",
+      "rulers": [
+        "liu-penzi"
+      ],
+      "tagline": "The teenage cowherd who drew the throne by lot",
+      "start": {
+        "date": "0025-07",
+        "circa": true,
+        "note": "Proclaimed by the Red Eyebrows in the sixth lunar month of AD 25"
+      },
+      "end": {
+        "date": "0027-03",
+        "circa": true,
+        "note": "Surrendered to Guangwu early in AD 27"
+      },
+      "contestedWith": [
+        "gengshi",
+        "guangwu"
+      ],
+      "relationToPredecessor": "Distant Han kinsman of Gengshi",
+      "ageAtAccession": "14 or 15",
+      "cameToPower": "Drew the winning lot",
+      "reignEnded": "Surrendered to Guangwu",
+      "previously": "The Red Eyebrows take Chang'an. Gengshi surrenders and is strangled.",
+      "paragraphs": [
+        "The Red Eyebrows were peasant rebels from Shandong who painted their brows red to tell friend from foe. By 25 they wanted a Han emperor of their own. Many of them came from the old princedom of Chengyang, whose founder they worshipped as a god, so they found three young men of his line and drew lots. The winner was Liu Penzi, a cowherd in their army aged about 14. He was terrified, and went back to his cattle while the generals ruled.",
+        "That autumn the Red Eyebrows took Chang'an. They were superb fighters and hopeless rulers, and the looting never stopped. At the New Year court of 26, the boy's elder brother Liu Gong asked that he be allowed to step down. Penzi threw off the imperial seal and wept that nobody obeyed him anyway. The ashamed generals pushed him back onto the throne. Within weeks the plundering began again.",
+        "When the food ran out they burned much of the city and marched west, were driven back, and stumbled east again. Early in 27 the starving army met Liu Xiu, now Emperor Guangwu, and surrendered. Guangwu spared the teenager, who had never held any real power, and found him a post with his own uncle. When Penzi later went blind, the emperor gave him land so he could live off the rent."
+      ],
+      "claims": [
+        {
+          "text": "The Red Eyebrows chose their emperor by drawing lots.",
+          "status": "confirmed",
+          "note": "The Hou Hanshu describes the lottery in detail and historians accept it, though the scene of the boy's terror may be polished."
+        },
+        {
+          "text": "Penzi tried to hand back the imperial seal at the New Year court of 26.",
+          "status": "disputed",
+          "note": "The scene and his tearful speech come from the Hou Hanshu, written four centuries later. Something like it may have happened; the words are surely improved."
+        }
+      ],
+      "hook": "The Red Eyebrows are finished, and so is the season of rival emperors in Chang'an. Liu Xiu rules from Luoyang now, and he has a whole empire to stitch back together.",
+      "images": [
+        {
+          "file": "File:Weiyang Palace site.JPG",
+          "url": "https://upload.wikimedia.org/wikipedia/commons/b/b0/Weiyang_Palace_site.JPG",
+          "page": "https://commons.wikimedia.org/wiki/Weiyang_Palace_site.JPG",
+          "credit": "Danielinblue",
+          "license": "CC BY-SA 3.0",
+          "made": "Photo 2013",
+          "caption": "No portrait of Liu Penzi exists. This is the site of the front hall of the Weiyang Palace in Chang'an, the Han palace city his army occupied.",
+          "alt": "Grassy raised earth platform marking the site of the front hall of the Han dynasty Weiyang Palace"
+        }
+      ],
+      "sources": [
+        {
+          "title": "Hou Hanshu (Book of the Later Han)",
+          "author": "Fan Ye",
+          "note": "5th century"
+        },
+        {
+          "title": "The Cambridge History of China, vol. 1: The Ch'in and Han Empires, 221 B.C.–A.D. 220",
+          "author": "Denis Twitchett and Michael Loewe (eds)",
+          "note": "Cambridge University Press, 1986"
+        },
+        {
+          "title": "The Restoration of the Han Dynasty",
+          "author": "Hans Bielenstein",
+          "note": "Bulletin of the Museum of Far Eastern Antiquities, 4 vols, 1953–1979"
+        }
+      ],
+      "review": {
+        "status": "draft",
+        "notes": "Drafted from the listed sources; needs a human fact-check."
+      }
+    },
+    {
       "id": "guangwu",
       "kind": "monarch",
       "rulers": [
@@ -4260,13 +4506,14 @@
         "date": "0057-03-29"
       },
       "contestedWith": [
-        "gengshi"
+        "gengshi",
+        "liu-penzi"
       ],
       "relationToPredecessor": "Ninth-generation descendant of Gaozu",
       "ageAtAccession": "29",
       "cameToPower": "Proclaimed himself emperor",
       "reignEnded": "Died at Luoyang",
-      "previously": "The Red Eyebrows take Chang'an. The Gengshi Emperor surrenders.",
+      "previously": "The Red Eyebrows loot Chang'an, starve, and give up their boy emperor.",
       "paragraphs": [
         "Liu Xiu was a distant Han kinsman, a gentleman farmer who had studied in Chang'an. After Kunyang he served the Gengshi Emperor, another Han prince, who ruled from 23 to 25 until the Red Eyebrows overran it and killed him. By then Liu Xiu had his own army in the north. In 25 he declared himself emperor and moved the capital east to Luoyang. That's why his line is called the Eastern, or Later, Han.",
         "It took him over ten years to put the empire back together. The last big rival, Gongsun Shu in Chengdu, fell in 36. In the far south two sisters, Trưng Trắc and Trưng Nhị, led a revolt in what is now Vietnam in 40. Guangwu's general Ma Yuan crushed it by 43. The sisters are still national heroes in Vietnam.",
@@ -5980,7 +6227,9 @@
       "end": {
         "date": "0307-01"
       },
-      "contestedWith": [],
+      "contestedWith": [
+        "sima-lun"
+      ],
       "relationToPredecessor": "Son of Emperor Wu",
       "ageAtAccession": "31",
       "cameToPower": "Succeeded his father",
@@ -6008,7 +6257,7 @@
           "note": "The Jin Shu hints at it and many later writers said so. There's no proof, and he may simply have died."
         }
       ],
-      "hook": "The new emperor, Sima Chi, is clever and willing. But the empire he inherits is broken, and the Xiongnu armies of Liu Yuan's Han are already raiding towards Luoyang.",
+      "hook": "Go back to 301. Emperor Hui's great-uncle Sima Lun has just killed the empress, and now he wants something no Jin prince has dared to take: the throne itself.",
       "images": [
         {
           "file": "File:Harvard drs 49802792 繡像三國演義續編 v.1 (晉惠帝).jpg",
@@ -6044,6 +6293,79 @@
       }
     },
     {
+      "id": "sima-lun",
+      "kind": "claimant",
+      "rulers": [
+        "sima-lun"
+      ],
+      "tagline": "The old prince who stole the throne for four months",
+      "start": {
+        "date": "0301-02-03"
+      },
+      "end": {
+        "date": "0301-05-31"
+      },
+      "contestedWith": [
+        "hui-jin"
+      ],
+      "relationToPredecessor": "Great-uncle of Emperor Hui",
+      "ageAtAccession": "Over 50",
+      "cameToPower": "Forced Emperor Hui to abdicate",
+      "reignEnded": "Overthrown by three princes",
+      "previously": "Sima Lun kills Empress Jia and makes himself regent.",
+      "paragraphs": [
+        "Sima Lun was the youngest son of Sima Yi, the man who had made the family great, so he was great-uncle to the simple-minded Emperor Hui. His record was poor. His harsh rule in the north-west helped set off a big revolt of the Di and Qiang peoples in 296, and he was called back to Luoyang. There he flattered Empress Jia, until in 300 he saw his chance to destroy her.",
+        "His strategist Sun Xiu did most of his thinking. As regent, Sima Lun purged his rivals, and on 3 February 301 he made Emperor Hui hand over the throne. The emperor was called retired and shut up in a fortress at the edge of the city. His grandson, the heir, was killed. To buy friends, Sima Lun handed out titles and promotions by the hundred.",
+        "Nobody was fooled. Three princes with armies of their own, Sima Jiong, Sima Ying and Sima Yong, rose against him, and his troops were beaten. At the end of May officials in Luoyang turned on him and made him give the throne back. A few days later he was forced to take poison, and all his sons were executed. The princes had learned that the throne could be taken by force."
+      ],
+      "claims": [
+        {
+          "text": "Sima Lun gave out so many titles that officials joked about trimming their hats with dog tails instead of sable.",
+          "status": "confirmed",
+          "note": "The jibe is recorded in the Jin Shu and gave Chinese a lasting idiom, 'a dog's tail after the sable'. It mocks cheapened honours, not real hats."
+        },
+        {
+          "text": "He is not counted as a Jin emperor.",
+          "status": "confirmed",
+          "note": "Traditional lists treat him as a usurper. The Jin Shu tells his story among the warring princes, not the emperors."
+        }
+      ],
+      "hook": "Emperor Hui is back on his throne, the prize for whichever prince holds Luoyang. The War of the Eight Princes rolls on for six more years, until a plate of cakes ends the reign.",
+      "images": [
+        {
+          "file": "File:繡像三國演義續編 趙王司馬倫.jpg",
+          "url": "https://upload.wikimedia.org/wikipedia/commons/2/28/%E7%B9%A1%E5%83%8F%E4%B8%89%E5%9C%8B%E6%BC%94%E7%BE%A9%E7%BA%8C%E7%B7%A8_%E8%B6%99%E7%8E%8B%E5%8F%B8%E9%A6%AC%E5%80%AB.jpg",
+          "page": "https://commons.wikimedia.org/wiki/%E7%B9%A1%E5%83%8F%E4%B8%89%E5%9C%8B%E6%BC%94%E7%BE%A9%E7%BA%8C%E7%B7%A8_%E8%B6%99%E7%8E%8B%E5%8F%B8%E9%A6%AC%E5%80%AB.jpg",
+          "credit": "Unknown illustrator",
+          "license": "Public domain",
+          "made": "1893",
+          "caption": "Sima Lun imagined in an 1893 edition of an illustrated sequel to the Romance of the Three Kingdoms, about 1,600 years after his death.",
+          "alt": "Printed book illustration of Sima Lun, Prince of Zhao, from an illustrated Chinese novel"
+        }
+      ],
+      "sources": [
+        {
+          "title": "Jin Shu (Book of Jin)",
+          "author": "Fang Xuanling and others",
+          "note": "Official history, completed 648"
+        },
+        {
+          "title": "Zizhi Tongjian (Comprehensive Mirror to Aid in Government)",
+          "author": "Sima Guang",
+          "note": "Completed 1084"
+        },
+        {
+          "title": "China between Empires: The Northern and Southern Dynasties",
+          "author": "Mark Edward Lewis",
+          "note": "Harvard University Press, 2009"
+        }
+      ],
+      "review": {
+        "status": "draft",
+        "notes": "Drafted from the listed sources; needs a human fact-check."
+      }
+    },
+    {
       "id": "huai-jin",
       "kind": "monarch",
       "rulers": [
@@ -6061,7 +6383,7 @@
       "ageAtAccession": "22",
       "cameToPower": "Named heir in the civil war",
       "reignEnded": "Executed in captivity",
-      "previously": "Emperor Hui dies after eating cakes. His half-brother takes over.",
+      "previously": "Hui gets his throne back from Sima Lun, then dies after eating cakes.",
       "paragraphs": [
         "Sima Chi was the 25th son of Emperor Wu, a scholarly young man who had kept out of the princes' wars. As emperor he had little power. Sima Yue, Prince of Donghai, ran the court and fought anyone who crossed him. Meanwhile Liu Yuan declared himself emperor of Han in 308, and his generals, among them a former slave named Shi Le, roamed the north.",
         "In 310 Sima Yue led the main army out of Luoyang. He died in 311, and Shi Le caught his army as it marched away with his coffin and destroyed it. Tens of thousands died. Luoyang was left almost undefended. In July 311 Liu Yao and Wang Mi stormed the capital, burned the palaces, killed thousands and took the emperor prisoner. The Chinese remember it as the Yongjia disaster.",
@@ -6833,7 +7155,9 @@
       "end": {
         "date": "0419-01"
       },
-      "contestedWith": [],
+      "contestedWith": [
+        "huan-xuan"
+      ],
       "relationToPredecessor": "Eldest son of Emperor Xiaowu",
       "ageAtAccession": "14",
       "cameToPower": "Succeeded his murdered father",
@@ -6855,7 +7179,7 @@
           "note": "From the Jin Shu and Song Shu. The murder is accepted; the prophecy motive may be later colour."
         }
       ],
-      "hook": "Liu Yu has the dead emperor's brother crowned. Everyone at court can count: one more Jin emperor, and the prophecy is fulfilled.",
+      "hook": "Back to the winter of 403. Huan Xuan has the helpless emperor sign away his throne and moves into the palace at Jiankang as Emperor of Chu. A junior officer named Liu Yu is watching.",
       "images": [
         {
           "file": "File:Harvard drs 49802792 繡像三國演義續編 v.1 (晉安帝).jpg",
@@ -6896,6 +7220,82 @@
       }
     },
     {
+      "id": "huan-xuan",
+      "kind": "claimant",
+      "rulers": [
+        "huan-xuan"
+      ],
+      "tagline": "The art-grabbing general who crowned himself in Jiankang",
+      "start": {
+        "date": "0404-01-01",
+        "note": "Emperor An was moved out of the palace on 22 December 403"
+      },
+      "end": {
+        "date": "0404-04",
+        "circa": true,
+        "note": "Fled Jiankang after his defeat at Fuzhoushan in spring 404"
+      },
+      "contestedWith": [
+        "an-jin"
+      ],
+      "relationToPredecessor": "Son of the general Huan Wen",
+      "ageAtAccession": "34 or 35",
+      "cameToPower": "Made Emperor An abdicate",
+      "reignEnded": "Fled; beheaded on his boat",
+      "previously": "Huan Xuan storms Jiankang and wipes out the regent's family.",
+      "paragraphs": [
+        "Huan Xuan was the youngest son of Huan Wen, the great Jin general long suspected of wanting the throne. Xuan inherited his father's title at four and his ambitions as he grew. From his base on the middle Yangtze he built up an army, and in 402 he took Jiankang, the capital. He had the regent's son executed, and the regent, Sima Daozi, was sent into exile and poisoned there.",
+        "In 403 he became Prince of Chu, and that winter the helpless emperor signed the throne over to him. Huan Xuan's Chu dynasty began on the first day of 404. He loved beautiful things, paintings, calligraphy and fine houses, and when he saw one he wanted he found a way to get it. Even before his big battle he had his treasures loaded onto a small boat, just in case.",
+        "He was right to worry. In spring 404 a group of officers led by Liu Yu rose at Jingkou, down the river. After a defeat at Fuzhoushan outside the capital, Huan Xuan fled west, taking the deposed emperor with him. On 19 June, cornered on the river, he was cut down on his boat by an officer named Feng Qian. He was 35. The soldier who had beaten him, Liu Yu, now held Jiankang."
+      ],
+      "claims": [
+        {
+          "text": "Huan Xuan helped himself to the painter Gu Kaizhi's finest pictures.",
+          "status": "legend",
+          "note": "The Jin Shu says Gu left him a sealed chest of paintings, which came back resealed and empty. Gu said fine paintings simply fly away like spirits. A good story, impossible to check."
+        },
+        {
+          "text": "He kept a boat loaded with treasures ready for his escape.",
+          "status": "confirmed",
+          "note": "Recorded in the Jin Shu and the Zizhi Tongjian. The histories were written by people who had every reason to stress his greed."
+        }
+      ],
+      "hook": "Emperor An is back on his throne, a puppet again, this time Liu Yu's. Fifteen years later Liu Yu has him strangled and crowns his brother. One more Jin emperor, and the dynasty is done.",
+      "images": [
+        {
+          "file": "File:Admonitions Scroll Scene 4.jpg",
+          "url": "https://upload.wikimedia.org/wikipedia/commons/a/ad/Admonitions_Scroll_Scene_4.jpg",
+          "page": "https://commons.wikimedia.org/wiki/Admonitions_Scroll_Scene_4.jpg",
+          "credit": "Attributed to Gu Kaizhi",
+          "license": "Public domain",
+          "made": "6th to 8th century copy",
+          "caption": "No portrait of Huan Xuan survives. This scene is from the Admonitions Scroll, an early copy of a work attributed to Gu Kaizhi, the painter whose pictures Huan Xuan is said to have taken.",
+          "alt": "Scene from a Chinese silk handscroll: Lady Feng steps between the emperor and a charging bear"
+        }
+      ],
+      "sources": [
+        {
+          "title": "Jin Shu (Book of Jin)",
+          "author": "Fang Xuanling and others",
+          "note": "Official history, completed 648"
+        },
+        {
+          "title": "Zizhi Tongjian (Comprehensive Mirror to Aid in Government)",
+          "author": "Sima Guang",
+          "note": "Completed 1084"
+        },
+        {
+          "title": "China between Empires: The Northern and Southern Dynasties",
+          "author": "Mark Edward Lewis",
+          "note": "Harvard University Press, 2009"
+        }
+      ],
+      "review": {
+        "status": "draft",
+        "notes": "Drafted from the listed sources; needs a human fact-check."
+      }
+    },
+    {
       "id": "gong-jin",
       "kind": "monarch",
       "rulers": [
@@ -6913,7 +7313,7 @@
       "ageAtAccession": "32 or 33",
       "cameToPower": "Installed by Liu Yu",
       "reignEnded": "Abdicated to Liu Yu",
-      "previously": "Liu Yu has the helpless Emperor An strangled.",
+      "previously": "Restored after Huan Xuan's fall, Emperor An is strangled by Liu Yu.",
       "paragraphs": [
         "Sima Dewen was a devout Buddhist who knew exactly why he had been crowned. Liu Yu was the master of the south and needed one more Jin emperor before he could take the throne himself. In the summer of 420 Sima Dewen was asked to step down. He did it calmly and wrote out the abdication edict in his own hand. Liu Yu became the first emperor of the Song, and the Jin, founded in 266, was over.",
         "Liu Yu did not let him live long. In 421 he sent a man with poisoned wine, who drank it himself rather than kill his old master. Then soldiers came. The former emperor refused the poison, saying his faith forbade suicide, and they smothered him with a quilt."
@@ -6930,7 +7330,7 @@
           "note": "From the Zizhi Tongjian. The killing on Liu Yu's orders is accepted; the details of his last words are not certain."
         }
       ],
-      "hook": "Liu Yu's Song now rules the south. In the north, a teenage prince of the Tuoba clan is about to inherit the Northern Wei, and he intends to swallow everything above the Yangtze.",
+      "hook": "Liu Yu's Song now rules the south. In the north the Tuoba emperor Tuoba Si, who took his throne by killing his father's murderer, is waiting for a chance to strike.",
       "images": [
         {
           "file": "File:Liu Yu (Song Wudi).jpg",
@@ -6966,6 +7366,78 @@
       }
     },
     {
+      "id": "mingyuan-nwei",
+      "kind": "monarch",
+      "rulers": [
+        "mingyuan-nwei"
+      ],
+      "tagline": "He avenged his father, then took the elixirs",
+      "start": {
+        "date": "0420",
+        "note": "Reigned from 409; the deck follows the north once the Jin ends in 420"
+      },
+      "end": {
+        "date": "0423-12-24"
+      },
+      "contestedWith": [],
+      "relationToPredecessor": "Eldest son of Emperor Daowu",
+      "ageAtAccession": "17 (in 409)",
+      "cameToPower": "Killed his father's murderer",
+      "reignEnded": "Died of illness at 31",
+      "previously": "Liu Yu ends the Jin and founds the Song in the south.",
+      "paragraphs": [
+        "While the Jin was dying in the south, the Tuoba clan of the Xianbei ruled the north as the Northern Wei, from their capital at Pingcheng, today's Datong. Tuoba Si's road to power was grim. When he was picked as heir in 409, his mother was made to kill herself, under a Wei rule meant to stop empresses' families taking over. Months later his father, Emperor Daowu, was murdered by another son, Tuoba Shao.",
+        "Tuoba Si rallied the guards, had his brother put to death, and took the throne in November 409, aged 17. He was a careful ruler. He set up a council of senior officials, cut palace spending in years of flood and drought, and when famine struck in 415 he thought about moving the capital to Ye, then listened when his advisers told him not to.",
+        "In 420 Liu Yu took the southern throne, and when Liu Yu died in 422 Tuoba Si attacked. His armies took Luoyang in 423 and the fortress of Hulao that summer. By then he was ill, and in 422 he had made his 14-year-old son Tuoba Tao co-ruler and handed him the government. Tuoba Si died in December 423, aged 31."
+      ],
+      "claims": [
+        {
+          "text": "Tuoba Si's mother was forced to die when he was named heir.",
+          "status": "confirmed",
+          "note": "The Wei Shu records it. The rule, meant to stop a dowager's family seizing power, was kept up for most of the dynasty."
+        },
+        {
+          "text": "Elixirs of immortality killed him.",
+          "status": "disputed",
+          "note": "The histories say he took alchemists' drugs and fell ill. Whether they caused his death is an inference, though a common one."
+        }
+      ],
+      "hook": "Tuoba Si is dead at 31. His heir Tuoba Tao is 15, already used to giving orders, and he means to swallow everything north of the Yangtze.",
+      "images": [
+        {
+          "file": "File:MET 20 39 3 O1.jpg",
+          "url": "https://upload.wikimedia.org/wikipedia/commons/3/3c/MET_20_39_3_O1.jpg",
+          "page": "https://commons.wikimedia.org/wiki/MET_20_39_3_O1.jpg",
+          "credit": "Metropolitan Museum of Art",
+          "license": "CC0",
+          "made": "5th–6th century",
+          "caption": "Not a portrait: a pottery armoured horse and rider from a northern Chinese tomb of the 5th or 6th century, the kind of heavy cavalry the Northern Wei relied on.",
+          "alt": "Small pottery tomb figure of an armoured rider on an armoured horse"
+        }
+      ],
+      "sources": [
+        {
+          "title": "Wei Shu (Book of Wei)",
+          "author": "Wei Shou",
+          "note": "Official history of the Northern Wei, completed 554"
+        },
+        {
+          "title": "Zizhi Tongjian (Comprehensive Mirror to Aid in Government)",
+          "author": "Sima Guang",
+          "note": "Completed 1084"
+        },
+        {
+          "title": "China between Empires: The Northern and Southern Dynasties",
+          "author": "Mark Edward Lewis",
+          "note": "Harvard University Press, 2009"
+        }
+      ],
+      "review": {
+        "status": "draft",
+        "notes": "Drafted from the listed sources; needs a human fact-check."
+      }
+    },
+    {
       "id": "taiwu-nwei",
       "kind": "monarch",
       "rulers": [
@@ -6983,7 +7455,7 @@
       "ageAtAccession": "15",
       "cameToPower": "Succeeded his father",
       "reignEnded": "Murdered by a eunuch",
-      "previously": "Liu Yu ends the Jin and founds the Song in the south.",
+      "previously": "Tuoba Si dies at 31, leaving a teenage heir already in charge.",
       "paragraphs": [
         "The north now belonged to the Tuoba, a Xianbei clan from the steppe who had ruled as the Northern Wei since 386, with their capital at Pingcheng (Datong). Tuoba Tao came to the throne as a teenager and spent his life in the saddle. He took the Xia capital in 427, swallowed Northern Yan in 436 and finished off Northern Liang in 439. For the first time in over a century, one ruler held the whole north.",
         "His chief adviser Cui Hao, a Chinese aristocrat, and the Daoist master Kou Qianzhi turned him against Buddhism. In 446, after weapons were found in a monastery at Chang'an, he ordered monks killed and images smashed across his lands. In 450 Cui Hao himself was executed with his whole clan. That year Tao rode south against the Song and reached the Yangtze opposite their capital before turning back.",
@@ -7571,7 +8043,19 @@
       "review": {
         "status": "draft",
         "notes": "Drafted from the listed sources; needs a human fact-check."
-      }
+      },
+      "members": [
+        {
+          "name": "Daughter of Emperor Xiaoming",
+          "start": {
+            "date": "0528-03"
+          },
+          "end": {
+            "date": "0528-03"
+          },
+          "note": "Xiaoming's baby girl, passed off as a son and enthroned by Empress Dowager Hu; the pretence was soon dropped"
+        }
+      ]
     },
     {
       "id": "xiaozhuang-nwei",
@@ -7787,7 +8271,20 @@
       "review": {
         "status": "draft",
         "notes": "Drafted from the listed sources; needs a human fact-check."
-      }
+      },
+      "members": [
+        {
+          "name": "Yuan Lang",
+          "start": {
+            "date": "0531-11",
+            "circa": true
+          },
+          "end": {
+            "date": "0532-06-06"
+          },
+          "note": "Rival emperor set up by Gao Huan in 531; set aside once Gao Huan took Luoyang, made to kill himself late in 532"
+        }
+      ]
     },
     {
       "id": "xiaowu-nwei",
@@ -9509,7 +10006,9 @@
       "end": {
         "date": "0756-08-12"
       },
-      "contestedWith": [],
+      "contestedWith": [
+        "an-lushan"
+      ],
       "relationToPredecessor": "Third son of Ruizong",
       "ageAtAccession": "27",
       "cameToPower": "Father stepped down after a comet",
@@ -9537,7 +10036,7 @@
           "note": "The story appears in later Arabic writings. Paper-making was probably already spreading through Central Asia before 751."
         }
       ],
-      "hook": "The old emperor has lost his throne and his love. His son Suzong must now win back two capitals from a rebel army, and he will need foreign help to do it.",
+      "hook": "In Luoyang a vast, half-blind general has put on the yellow robe. An Lushan is emperor of Yan now, and his armies hold both Tang capitals.",
       "images": [
         {
           "file": "File:李隆基像.jpg",
@@ -9578,6 +10077,124 @@
       }
     },
     {
+      "id": "an-lushan",
+      "kind": "claimant",
+      "rulers": [
+        "an-lushan"
+      ],
+      "tagline": "The giant general who broke the Tang",
+      "start": {
+        "date": "0756-02-05"
+      },
+      "end": {
+        "date": "0757-01-29",
+        "note": "Some reckonings give 25 January"
+      },
+      "contestedWith": [
+        "xuanzong",
+        "suzong"
+      ],
+      "relationToPredecessor": "Tang general turned rebel",
+      "ageAtAccession": "About 53",
+      "cameToPower": "Proclaimed himself at Luoyang",
+      "reignEnded": "Killed in a plot by his son",
+      "previously": "Xuanzong flees west. Yang Guifei is strangled at Mawei.",
+      "members": [
+        {
+          "name": "An Qingxu",
+          "start": {
+            "date": "0757-01-30"
+          },
+          "end": {
+            "date": "0759-04-10"
+          },
+          "note": "An Lushan's son; plotted his murder, lost Luoyang in 757, killed by Shi Siming at Yecheng"
+        },
+        {
+          "name": "Shi Siming",
+          "start": {
+            "date": "0759-05-09"
+          },
+          "end": {
+            "date": "0761-04-18"
+          },
+          "note": "An Lushan's old comrade; made himself Yan emperor, retook Luoyang, strangled on his son's orders"
+        },
+        {
+          "name": "Shi Chaoyi",
+          "start": {
+            "date": "0761-04-18"
+          },
+          "end": {
+            "date": "0763-02",
+            "circa": true
+          },
+          "note": "Shi Siming's son; lost Luoyang in 762 and hanged himself early in 763, ending the rebellion"
+        }
+      ],
+      "paragraphs": [
+        "An Lushan was born on the northern frontier to a Sogdian father and a Turkic mother, and worked as an interpreter in the border markets before he became a soldier. He was huge, funny and a born flatterer. By 751 he held three of the great frontier commands. At court he played the loyal buffoon, and Yang Guifei adopted him as her son in a mock ceremony, swaddling him like a baby.",
+        "When the chief minister Yang Guozhong set out to ruin him, he struck first. In December 755 he marched south from Fanyang, near today's Beijing, and took Luoyang within weeks. On Chinese New Year, 5 February 756, he declared himself emperor of Yan. That summer his army broke through Tong Pass, the old emperor fled, and the rebels took Chang'an.",
+        "Then he fell apart. He was going blind, covered in sores and grossly fat, and he lashed out at everyone near him. His son An Qingxu feared being passed over for a younger brother. On the night of 29 January 757 a eunuch, Li Zhu'er, whom An had often beaten, attacked him in bed with a sword. The war he started went on for six more years under his son and then the general Shi Siming."
+      ],
+      "claims": [
+        {
+          "text": "Yang Guifei adopted An Lushan and had him wrapped up like a newborn.",
+          "status": "disputed",
+          "note": "The swaddling party is told in the Zizhi Tongjian and later anecdote collections. It may be gossip that grew after the disaster."
+        },
+        {
+          "text": "He was so heavy he once crushed a horse to death.",
+          "status": "legend",
+          "note": "The tale comes from later anecdote writers, who enjoyed making him monstrous."
+        },
+        {
+          "text": "The registered population fell from about 53 million to about 17 million after the rebellion.",
+          "status": "disputed",
+          "note": "These are Tang census figures for 754 and 764. Most historians think the drop shows lost tax registers more than deaths, though the death toll was very large."
+        }
+      ],
+      "hook": "The rebels are killing each other, but they still hold both capitals. At Lingwu, Xuanzong's son has crowned himself, and he will need Uyghur horsemen to win them back.",
+      "images": [
+        {
+          "file": "File:安祿山.jpg",
+          "url": "https://upload.wikimedia.org/wikipedia/commons/c/c8/%E5%AE%89%E7%A5%BF%E5%B1%B1.jpg",
+          "page": "https://commons.wikimedia.org/wiki/%E5%AE%89%E7%A5%BF%E5%B1%B1.jpg",
+          "credit": "Unknown illustrator",
+          "license": "Public domain",
+          "made": "Qing dynasty",
+          "caption": "An Lushan as imagined in an illustrated Qing-era edition of the novel Hun Tang Hou Zhuan, about a thousand years after his death.",
+          "alt": "Woodblock book illustration of An Lushan, from a Qing dynasty novel"
+        }
+      ],
+      "sources": [
+        {
+          "title": "The Background of the Rebellion of An Lu-shan",
+          "author": "Edwin G. Pulleyblank",
+          "note": "Oxford University Press, 1955"
+        },
+        {
+          "title": "China's Cosmopolitan Empire: The Tang Dynasty",
+          "author": "Mark Edward Lewis",
+          "note": "Harvard University Press, 2009"
+        },
+        {
+          "title": "The Cambridge History of China, Vol. 3: Sui and T'ang China, 589–906, Part 1",
+          "author": "Denis Twitchett (ed.)",
+          "note": "Cambridge University Press, 1979"
+        },
+        {
+          "title": "Old Book of Tang (Jiu Tangshu)",
+          "author": "Liu Xu and others",
+          "note": "945"
+        }
+      ],
+      "review": {
+        "status": "draft",
+        "notes": "Drafted from the listed sources; needs a human fact-check."
+      }
+    },
+    {
       "id": "suzong",
       "kind": "monarch",
       "rulers": [
@@ -9590,12 +10207,14 @@
       "end": {
         "date": "0762-05-16"
       },
-      "contestedWith": [],
+      "contestedWith": [
+        "an-lushan"
+      ],
       "relationToPredecessor": "Third son of Xuanzong",
       "ageAtAccession": "44 or 45",
       "cameToPower": "Proclaimed himself at Lingwu",
       "reignEnded": "Died during a palace coup",
-      "previously": "At Mawei, Yang Guifei is strangled. The crown prince heads north.",
+      "previously": "An Lushan, emperor of Yan, is murdered in a plot by his own son.",
       "paragraphs": [
         "Li Heng had been crown prince for eighteen years, always watched by his father's ministers. After Mawei he did not follow the old emperor to Sichuan. He went north to the frontier town of Lingwu, and on 12 August 756 his officers proclaimed him emperor. His father heard about it later and accepted it.",
         "He had a throne but no capital. With Uyghur cavalry and troops from Central Asia, his generals Guo Ziyi and Li Guangbi took back Chang'an and Luoyang in late 757. The Uyghurs were paid with the right to loot Luoyang. The rebels had their own troubles. An Lushan, half blind and violent, had been killed by his own son that January. But the general Shi Siming took over and kept the war going.",
@@ -9742,7 +10361,9 @@
       "end": {
         "date": "0805-02-25"
       },
-      "contestedWith": [],
+      "contestedWith": [
+        "zhu-ci"
+      ],
       "relationToPredecessor": "Eldest son of Daizong",
       "ageAtAccession": "37",
       "cameToPower": "Succeeded his father",
@@ -9764,7 +10385,7 @@
           "note": "The poem was written soon after Dezong's reign, and Shunzong's reformers abolished the practice in 805."
         }
       ],
-      "hook": "Dezong dies early in 805. His heir has had a stroke and can barely speak, but two of his old friends have big plans for the new reign.",
+      "hook": "Dezong has fled his capital. In Chang'an the mutineers want an emperor of their own, and they find one in Zhu Ci, a general kept idle in the city because his brother is at war with the throne.",
       "images": [
         {
           "file": "File:Tang Dezong.jpg",
@@ -9805,6 +10426,85 @@
       }
     },
     {
+      "id": "zhu-ci",
+      "kind": "claimant",
+      "rulers": [
+        "zhu-ci"
+      ],
+      "tagline": "The idle general the mutineers made emperor",
+      "start": {
+        "date": "0783-11-06"
+      },
+      "end": {
+        "date": "0784-06-20",
+        "note": "Fled Chang'an; killed by his own men soon after"
+      },
+      "contestedWith": [
+        "dezong"
+      ],
+      "relationToPredecessor": "Tang general, a rebel's brother",
+      "ageAtAccession": "About 41",
+      "cameToPower": "Hailed by mutinous troops",
+      "reignEnded": "Fled; killed by his own officers",
+      "previously": "Mutinous troops loot Chang'an. Dezong flees to Fengtian.",
+      "paragraphs": [
+        "Zhu Ci had been governor of Lulong in the north-east, and made a show of loyalty by coming to court in person. When his younger brother Zhu Tao rebelled in 782, Zhu Ci was kept in Chang'an with honours and no army. Then on 2 November 783 troops from Jingyuan, passing through the capital on their way to the eastern war, mutinied over poor food and missing rewards. The emperor fled to Fengtian, and the soldiers wanted a leader.",
+        "They chose Zhu Ci, who had once commanded some of them. On 6 November he declared himself emperor of Qin and sent his army to besiege Fengtian. The siege lasted over a month, until a relief army under Li Huaiguang arrived. In January 784 Zhu renamed his state Han, hoping for better luck. Then Li Huaiguang turned rebel too, and Dezong had to flee again, south to Liangzhou.",
+        "His rescuer was the general Li Sheng. In June 784 he beat Zhu's army outside Chang'an, and on 20 June Zhu Ci fled west. As his men melted away, one of his own officers shot him with an arrow and another cut off his head and took it to the Tang. Dezong came home to a capital that had now fallen three times in under thirty years."
+      ],
+      "claims": [
+        {
+          "text": "The minister Duan Xiushi hit Zhu Ci on the head with his ivory court tablet and was killed for it.",
+          "status": "confirmed",
+          "note": "Told in both Tang histories and long held up as a model of loyalty. Wen Tianxiang praised it in his Song of Righteousness."
+        },
+        {
+          "text": "The mutiny began because the soldiers were served coarse food instead of rewards.",
+          "status": "confirmed",
+          "note": "The Tang histories and the Zizhi Tongjian agree on the cause, though the troops' anger had been building over pay."
+        }
+      ],
+      "hook": "Dezong is back in Chang'an. He reigns another 20 years and trusts eunuchs over generals. When he dies in 805, his heir has had a stroke and can barely speak.",
+      "images": [
+        {
+          "file": "File:Tang Dynasty - Jian Zhong Tong Bao.png",
+          "url": "https://upload.wikimedia.org/wikipedia/commons/7/77/Tang_Dynasty_-_Jian_Zhong_Tong_Bao.png",
+          "page": "https://commons.wikimedia.org/wiki/Tang_Dynasty_-_Jian_Zhong_Tong_Bao.png",
+          "credit": "Gohyuloong",
+          "license": "CC BY-SA 4.0",
+          "made": "780s; photo 2018",
+          "caption": "Not a portrait: a Jianzhong Tongbao coin, named for Dezong's Jianzhong era (780–783), the years that ended in Zhu Ci's coup. This one was cast at Kucha in the far west.",
+          "alt": "Both sides of a round bronze Chinese coin with a square hole and four characters"
+        }
+      ],
+      "sources": [
+        {
+          "title": "Old Book of Tang (Jiu Tangshu)",
+          "author": "Liu Xu and others",
+          "note": "945"
+        },
+        {
+          "title": "New Book of Tang (Xin Tangshu)",
+          "author": "Ouyang Xiu and Song Qi",
+          "note": "1060"
+        },
+        {
+          "title": "Zizhi Tongjian (Comprehensive Mirror to Aid in Government)",
+          "author": "Sima Guang",
+          "note": "Completed 1084"
+        },
+        {
+          "title": "The Cambridge History of China, Vol. 3: Sui and T'ang China, 589–906, Part 1",
+          "author": "Denis Twitchett (ed.)",
+          "note": "Cambridge University Press, 1979"
+        }
+      ],
+      "review": {
+        "status": "draft",
+        "notes": "Drafted from the listed sources; needs a human fact-check."
+      }
+    },
+    {
       "id": "shunzong",
       "kind": "monarch",
       "rulers": [
@@ -9822,7 +10522,7 @@
       "ageAtAccession": "44",
       "cameToPower": "Succeeded his father",
       "reignEnded": "Forced to abdicate by eunuchs",
-      "previously": "Dezong dies. His heir is crippled by a stroke.",
+      "previously": "Zhu Ci falls. Dezong returns, and dies in 805 with a crippled heir.",
       "paragraphs": [
         "Shunzong had a stroke months before his father died and could no longer speak. Government passed to two men from his old household: Wang Shuwen, who had taught him the board game go, and the calligrapher Wang Pi. They brought in bright young officials, among them the writers Liu Zongyuan and Liu Yuxi.",
         "Their reforms came fast. They ended the hated palace market purchases, cut taxes owed from the past and tried to take the palace armies away from the eunuchs. That was too far. The eunuchs made Shunzong name his son Li Chun as heir, then in August 805 forced him to abdicate. Wang Shuwen was later ordered to kill himself, and the young reformers were sent to remote posts. Shunzong died the next year."
@@ -10453,7 +11153,10 @@
       "end": {
         "date": "0888-04"
       },
-      "contestedWith": [],
+      "contestedWith": [
+        "huang-chao",
+        "li-yun-xiang"
+      ],
       "relationToPredecessor": "Fifth son of Yizong",
       "ageAtAccession": "11",
       "cameToPower": "Chosen by eunuchs as a child",
@@ -10481,7 +11184,7 @@
           "note": "The New Book of Tang says so and later writers attach poems to him. It is plausible but can't be checked."
         }
       ],
-      "hook": "Xizong leaves no grown son. The eunuch Yang Fugong brings out his younger brother Li Jie, 21 and eager. He wants a real army, and trying to get one will cost him everything.",
+      "hook": "Chang'an has fallen. In the Tang palace a salt smuggler who failed the exams is putting on the yellow robe. Huang Chao is emperor of Qi.",
       "images": [
         {
           "file": "File:唐僖宗帝（殘唐五代史演義傳）.jpg",
@@ -10522,6 +11225,168 @@
       }
     },
     {
+      "id": "huang-chao",
+      "kind": "claimant",
+      "rulers": [
+        "huang-chao"
+      ],
+      "tagline": "The salt smuggler who failed the exams and took Chang'an",
+      "start": {
+        "date": "0881-01-16"
+      },
+      "end": {
+        "date": "0883-05",
+        "circa": true,
+        "note": "Abandoned Chang'an in the spring of 883"
+      },
+      "contestedWith": [
+        "xizong"
+      ],
+      "relationToPredecessor": "Salt smuggler turned rebel",
+      "ageAtAccession": "45 or 46",
+      "cameToPower": "Took Chang'an by force",
+      "reignEnded": "Driven out; died in 884",
+      "previously": "Huang Chao's army takes Chang'an. Xizong flees to Sichuan.",
+      "paragraphs": [
+        "Huang Chao came from a family of salt dealers in Shandong and sat the imperial exams without passing. The state salt monopoly made smuggling profitable and dangerous, and in the famines of the 870s smugglers became rebels. Huang joined Wang Xianzhi's rising, took it over after Wang was killed in 878, and led his army on an astonishing march all the way to Guangzhou and back.",
+        "In January 881 he rode into Chang'an, and on 16 January he declared himself emperor of Qi in the Tang palace. His men handed out gifts to the poor at first. Then the killing started, and the old Tang aristocracy was hunted down. When Tang troops briefly got back into the city and some townspeople cheered them, Huang returned and took bloody revenge on the people.",
+        "The Tang called in the Shatuo Turks of Li Keyong, and in the spring of 883 Huang abandoned the capital and fled east. On 13 July 884, trapped in Langhu Valley in Shandong, he died with his family. Some accounts say his nephew Lin Yan killed him, others that he took his own life. One of his officers, Zhu Wen, had already gone over to the Tang. He would one day end it."
+      ],
+      "claims": [
+        {
+          "text": "Huang Chao wrote a poem about chrysanthemums promising the capital would be full of golden armour.",
+          "status": "disputed",
+          "note": "The poems are credited to him in later collections, and the line is famous. Nobody can prove he wrote them."
+        },
+        {
+          "text": "His army massacred foreign merchants at Guangzhou in 879.",
+          "status": "disputed",
+          "note": "The Arab writer Abu Zayd al-Sirafi says 120,000 Muslims, Jews, Christians and Zoroastrians died. A massacre is likely; the figure is surely inflated."
+        }
+      ],
+      "hook": "Xizong gets home in 885 and loses Chang'an again within months. This time the city falls to one of his own governors, Zhu Mei, who has a Tang prince of his own to crown.",
+      "images": [
+        {
+          "file": "File:黃巢（殘唐五代史演義傳）.jpg",
+          "url": "https://upload.wikimedia.org/wikipedia/commons/6/67/%E9%BB%83%E5%B7%A2%EF%BC%88%E6%AE%98%E5%94%90%E4%BA%94%E4%BB%A3%E5%8F%B2%E6%BC%94%E7%BE%A9%E5%82%B3%EF%BC%89.jpg",
+          "page": "https://commons.wikimedia.org/wiki/%E9%BB%83%E5%B7%A2%EF%BC%88%E6%AE%98%E5%94%90%E4%BA%94%E4%BB%A3%E5%8F%B2%E6%BC%94%E7%BE%A9%E5%82%B3%EF%BC%89.jpg",
+          "credit": "Unknown illustrator",
+          "license": "Public domain",
+          "made": "17th century",
+          "caption": "Huang Chao as drawn for a 17th-century popular novel about the end of the Tang, some 750 years after his death.",
+          "alt": "Woodblock illustration of Huang Chao from a Ming or Qing novel"
+        }
+      ],
+      "sources": [
+        {
+          "title": "New Book of Tang (Xin Tangshu)",
+          "author": "Ouyang Xiu and Song Qi",
+          "note": "1060"
+        },
+        {
+          "title": "Zizhi Tongjian (Comprehensive Mirror to Aid in Government)",
+          "author": "Sima Guang",
+          "note": "Completed 1084"
+        },
+        {
+          "title": "The Cambridge History of China, Vol. 3: Sui and T'ang China, 589–906, Part 1",
+          "author": "Denis Twitchett (ed.)",
+          "note": "Cambridge University Press, 1979"
+        },
+        {
+          "title": "Accounts of China and India",
+          "author": "Abu Zayd al-Sirafi",
+          "note": "Ed. and trans. Tim Mackintosh-Smith, NYU Press, 2014"
+        }
+      ],
+      "review": {
+        "status": "draft",
+        "notes": "Drafted from the listed sources; needs a human fact-check."
+      }
+    },
+    {
+      "id": "li-yun-xiang",
+      "kind": "claimant",
+      "rulers": [
+        "li-yun-xiang"
+      ],
+      "tagline": "The stray prince a rebel governor crowned",
+      "start": {
+        "date": "0886-11",
+        "circa": true,
+        "note": "Took the throne in the winter of 886"
+      },
+      "end": {
+        "date": "0887-01",
+        "circa": true,
+        "note": "Fled after Zhu Mei was killed on 7 January 887"
+      },
+      "contestedWith": [
+        "xizong"
+      ],
+      "relationToPredecessor": "Great-great-grandson of Suzong",
+      "ageAtAccession": "Unknown",
+      "cameToPower": "Crowned by Zhu Mei in Chang'an",
+      "reignEnded": "Fled; executed by Wang Chongrong",
+      "previously": "Huang Chao dies on the run. Xizong comes home to a ruined capital.",
+      "paragraphs": [
+        "In 885 the eunuch Tian Lingzi picked a fight with the governor Wang Chongrong over the salt lakes of Hezhong. He lost, and Xizong had to flee Chang'an once more. One of the governors in the fight, Zhu Mei, chased the fleeing court. Along the road he found a minor prince who had been too ill to keep up, Li Yun, Prince of Xiang, and carried him off.",
+        "Zhu Mei decided Xizong was a lost cause and that he would make an emperor of his own. He brought Li Yun to Chang'an, made him regent, and that winter had him take the throne, naming Xizong retired emperor. Some of the court went along. Most of the great governors did not, and Xizong's camp let it be known that whoever turned on Zhu Mei would be rewarded.",
+        "One of Zhu Mei's own officers, Wang Xingyu, took the hint. Around the New Year of 887 he came back to Chang'an and killed Zhu Mei. Li Yun fled to Hezhong, hoping Wang Chongrong would shelter him. Wang had him put to death instead and sent his head to Xizong. His reign had lasted about two months."
+      ],
+      "claims": [
+        {
+          "text": "Zhu Mei got hold of Li Yun because the prince was too sick to keep up with the emperor's flight.",
+          "status": "confirmed",
+          "note": "The Zizhi Tongjian says he fell ill and was left behind at a post station, where Zhu Mei's men found him."
+        },
+        {
+          "text": "He is not counted as a Tang emperor.",
+          "status": "confirmed",
+          "note": "The official histories treat him as a pretender, and his era name, Jianzhen, is remembered only as a rebel one."
+        }
+      ],
+      "hook": "Xizong gets back to Chang'an early in 888, ill and worn out. He has no grown son, and the eunuch Yang Fugong is already choosing his brother Li Jie.",
+      "images": [
+        {
+          "file": "File:Daming Palace Hanyuan Hall Site.jpg",
+          "url": "https://upload.wikimedia.org/wikipedia/commons/4/40/Daming_Palace_Hanyuan_Hall_Site.jpg",
+          "page": "https://commons.wikimedia.org/wiki/Daming_Palace_Hanyuan_Hall_Site.jpg",
+          "credit": "Danielinblue",
+          "license": "CC BY-SA 3.0",
+          "made": "Photo 2013",
+          "caption": "No portrait of Li Yun exists. These are the restored foundations of the Hanyuan Hall, the great throne hall of the Tang Daming Palace in Chang'an.",
+          "alt": "Restored stone platform of the Hanyuan Hall site at the Daming Palace in Xi'an"
+        }
+      ],
+      "sources": [
+        {
+          "title": "Old Book of Tang (Jiu Tangshu)",
+          "author": "Liu Xu and others",
+          "note": "945"
+        },
+        {
+          "title": "New Book of Tang (Xin Tangshu)",
+          "author": "Ouyang Xiu and Song Qi",
+          "note": "1060"
+        },
+        {
+          "title": "Zizhi Tongjian (Comprehensive Mirror to Aid in Government)",
+          "author": "Sima Guang",
+          "note": "Completed 1084"
+        },
+        {
+          "title": "The Cambridge History of China, Vol. 3: Sui and T'ang China, 589–906, Part 1",
+          "author": "Denis Twitchett (ed.)",
+          "note": "Cambridge University Press, 1979"
+        }
+      ],
+      "review": {
+        "status": "draft",
+        "notes": "Drafted from the listed sources; needs a human fact-check."
+      }
+    },
+    {
       "id": "zhaozong",
       "kind": "monarch",
       "rulers": [
@@ -10534,12 +11399,14 @@
       "end": {
         "date": "0904-09"
       },
-      "contestedWith": [],
+      "contestedWith": [
+        "li-yu-de"
+      ],
       "relationToPredecessor": "Younger brother of Xizong",
       "ageAtAccession": "21",
       "cameToPower": "Picked by the eunuch Yang Fugong",
       "reignEnded": "Murdered on Zhu Wen's orders",
-      "previously": "Xizong dies at 25, back in a ruined Chang'an.",
+      "previously": "The rival emperor Li Yun is killed. Xizong dies at 25 in Chang'an.",
       "paragraphs": [
         "Zhaozong was bright, energetic and determined to make the throne count again. He raised new armies, and in 890 sent one against Li Keyong. It was crushed. After that the great governors knew the emperor had nothing to scare them with. Li Maozhen of Fengxiang, just west of the capital, marched on Chang'an more than once. In 896 the emperor fled to Huazhou, and in 897 his host there, Han Jian, had eleven Tang princes murdered.",
         "Inside the palace it was worse. In late 900 the eunuch Liu Jishu found the emperor drunk after he had killed some servants. He locked him in a courtyard, passed his food through a hole in the wall and crowned his son. Loyal officers freed him early in 901. Then the eunuchs carried him off to Li Maozhen at Fengxiang, and Zhu Wen, the strongest warlord of all, besieged the city for months until Li handed the emperor over.",
@@ -10562,7 +11429,7 @@
           "note": "Recorded in the Tang histories and the Zizhi Tongjian, but no eyewitness account survives and loyal heroines were a favourite theme."
         }
       ],
-      "hook": "Zhu Wen still needs a Tang emperor, for now. He picks Zhaozong's 11-year-old son, Li Zhu, and means to keep him only until he can take the throne himself.",
+      "hook": "Back to the winter of 900. The emperor sits locked in a courtyard, fed through a hole in the wall, while the eunuchs crown his eldest son, Li Yu, in his place.",
       "images": [
         {
           "file": "File:Zhaozong.jpg",
@@ -10603,6 +11470,84 @@
       }
     },
     {
+      "id": "li-yu-de",
+      "kind": "claimant",
+      "rulers": [
+        "li-yu-de"
+      ],
+      "tagline": "The crown prince crowned by his father's jailers",
+      "start": {
+        "date": "0900-12-04"
+      },
+      "end": {
+        "date": "0901-01-24"
+      },
+      "contestedWith": [
+        "zhaozong"
+      ],
+      "relationToPredecessor": "Eldest son of Zhaozong",
+      "ageAtAccession": "Unknown",
+      "cameToPower": "Set up by the eunuch Liu Jishu",
+      "reignEnded": "Father freed; back to a princedom",
+      "previously": "Zhaozong kills servants in a drunken rage. The eunuchs lock him up.",
+      "paragraphs": [
+        "Li Yu was Zhaozong's eldest son and had been crown prince since 897. Late in 900, after a drinking bout, the emperor killed several eunuchs and palace women. The next morning the palace gates stayed shut. The chief eunuch, Liu Jishu, led palace troops inside, locked the emperor and empress in a courtyard, and on 4 December declared that the crown prince would reign instead.",
+        "Li Yu was renamed Li Zhen and put on the throne, and his father was called retired emperor. The eunuchs ran everything. The old emperor's meals were passed in through a hole in the wall. Liu Jishu sent messages to the great warlord Zhu Wen, hoping to win his approval for the new order.",
+        "On the Chinese New Year of 901, 24 January, officers of the palace army struck. They freed the emperor, and Liu Jishu was beaten to death. Li Yu lost his throne and became Prince of De, but his father did not blame him. It saved him only for a while. In 905 Zhu Wen's men invited nine of Zhaozong's sons to a banquet in Luoyang, strangled them all and threw them in a pond. Li Yu was one of them."
+      ],
+      "claims": [
+        {
+          "text": "Zhu Wen wanted Li Yu dead because he was grown-up and handsome.",
+          "status": "disputed",
+          "note": "The Zizhi Tongjian says Zhu Wen disliked his fine looks and age. The deeper reason was that any adult Tang prince stood in Zhu Wen's way."
+        },
+        {
+          "text": "Zhaozong asked why Zhu Wen was so set on killing his beloved son.",
+          "status": "confirmed",
+          "note": "The question is recorded in the Zizhi Tongjian. It shows how little the emperor could do to protect him."
+        }
+      ],
+      "hook": "Zhaozong is free, but Zhu Wen soon owns him. In 904 he is murdered in Luoyang, and Zhu Wen picks an 11-year-old to be the last Tang emperor.",
+      "images": [
+        {
+          "file": "File:Site of Hanyuan Hall.jpg",
+          "url": "https://upload.wikimedia.org/wikipedia/commons/b/b4/Site_of_Hanyuan_Hall.jpg",
+          "page": "https://commons.wikimedia.org/wiki/Site_of_Hanyuan_Hall.jpg",
+          "credit": "千里走单骑",
+          "license": "CC BY-SA 3.0",
+          "made": "Photo 2015",
+          "caption": "No portrait of Li Yu exists. These are the ruins of the Hanyuan Hall in the Daming Palace, the main home of the Tang court in Chang'an.",
+          "alt": "Ruins of the Hanyuan Hall platform in the Daming Palace, Xi'an"
+        }
+      ],
+      "sources": [
+        {
+          "title": "Old Book of Tang (Jiu Tangshu)",
+          "author": "Liu Xu and others",
+          "note": "945"
+        },
+        {
+          "title": "New Book of Tang (Xin Tangshu)",
+          "author": "Ouyang Xiu and Song Qi",
+          "note": "1060"
+        },
+        {
+          "title": "Zizhi Tongjian (Comprehensive Mirror to Aid in Government)",
+          "author": "Sima Guang",
+          "note": "Completed 1084"
+        },
+        {
+          "title": "The Cambridge History of China, Vol. 3: Sui and T'ang China, 589–906, Part 1",
+          "author": "Denis Twitchett (ed.)",
+          "note": "Cambridge University Press, 1979"
+        }
+      ],
+      "review": {
+        "status": "draft",
+        "notes": "Drafted from the listed sources; needs a human fact-check."
+      }
+    },
+    {
       "id": "ai-tang",
       "kind": "monarch",
       "rulers": [
@@ -10620,7 +11565,7 @@
       "ageAtAccession": "11",
       "cameToPower": "Set up by his father's murderer",
       "reignEnded": "Abdicated to Zhu Wen",
-      "previously": "Zhu Wen's officers murder Zhaozong at night in Luoyang.",
+      "previously": "Li Yu loses his throne. Zhu Wen's officers murder Zhaozong.",
       "paragraphs": [
         "Li Zhu was a frightened child in a palace run by Zhu Wen's men. Early in 905 nine of his brothers were invited to a banquet at a pond in Luoyang and strangled there. That summer came the Baima killings. About thirty senior officials, men from the old Tang families, were rounded up at the Baima post station by the Yellow River, killed, and thrown into the water.",
         "Zhu Wen's adviser Li Zhen had failed the exams again and again, and he hated the proud officials who had passed. They call themselves the pure stream, he is supposed to have said, so throw them in the Yellow River and make it muddy. Soon afterwards the boy's mother, Empress Dowager He, was murdered too. Nothing stood between Zhu Wen and the throne except the need to make it look proper.",
@@ -11336,7 +12281,7 @@
           "note": "Sima Guang says so. The Liao never kept the promise, which makes it plausible."
         }
       ],
-      "hook": "Yelü Deguang sits in Kaifeng in Chinese robes while his riders strip the countryside. Revolts break out. At Taiyuan, Shi Jingtang's old general Liu Zhiyuan sees his chance.",
+      "hook": "The Khitan emperor rides into Kaifeng and takes his seat in the Chinese palace. Yelü Deguang means to rule all of China, and he has no idea how hard that will be.",
       "images": [
         {
           "file": "File:Tianfu Yuanbao. Coin of the Tianfu era.jpg",
@@ -11377,6 +12322,87 @@
       }
     },
     {
+      "id": "yelu-deguang",
+      "kind": "claimant",
+      "rulers": [
+        "yelu-deguang"
+      ],
+      "tagline": "The Khitan emperor who found China too hard to rule",
+      "start": {
+        "date": "0947-01",
+        "note": "Liao troops entered Kaifeng in January 947"
+      },
+      "end": {
+        "date": "0947-04",
+        "circa": true,
+        "note": "Left Kaifeng for the north in spring 947"
+      },
+      "contestedWith": [
+        "liu-zhiyuan"
+      ],
+      "relationToPredecessor": "Overlord of the Later Jin",
+      "ageAtAccession": "44",
+      "cameToPower": "Conquered Kaifeng",
+      "reignEnded": "Went home; died on the road",
+      "previously": "Du Chongwei surrenders the army. Shi Chonggui gives up Kaifeng.",
+      "paragraphs": [
+        "Yelü Deguang was the second son of Abaoji, who had united the Khitan peoples of the north-eastern steppe. He had been their emperor since 927. In 936 he made Shi Jingtang emperor of the Later Jin, in return for sixteen frontier prefectures and a yearly tribute of silk. When Shi's nephew refused to call himself a subject, Deguang came south to collect.",
+        "In January 947 his army entered Kaifeng, and he followed, putting on Chinese robes and taking his seat in the palace. He named his state the Great Liao and meant to rule China as its emperor. But he paid his horsemen by letting them forage, which meant stripping the countryside, and he squeezed the city's officials for money. Revolts broke out across the north.",
+        "By spring he had had enough. Summer was coming, he said, and he could not stay. He headed north with a long train of loot and captured officials, admitting he had not known the Chinese would be so hard to govern. On 18 May 947 he fell ill and died on the march. To carry him home his men gutted the body and packed it with salt, and the Chinese called him the dried emperor."
+      ],
+      "claims": [
+        {
+          "text": "He said he had never known the Chinese were so hard to rule.",
+          "status": "confirmed",
+          "note": "The remark is recorded in the Zizhi Tongjian, which drew on Five Dynasties records."
+        },
+        {
+          "text": "His body was salted for the journey home.",
+          "status": "disputed",
+          "note": "Only Chinese writers record it, along with the mocking nickname. The practice itself was a practical way to carry a body a long distance."
+        }
+      ],
+      "hook": "At Taiyuan, Shi Jingtang's old general Liu Zhiyuan has been sending polite letters and waiting. Now he marches on a capital with nobody left to defend it.",
+      "images": [
+        {
+          "file": "File:Fragment of a tomb mural showing a Khitan man and a Khitan boy.jpg",
+          "url": "https://upload.wikimedia.org/wikipedia/commons/6/6e/Fragment_of_a_tomb_mural_showing_a_Khitan_man_and_a_Khitan_boy.jpg",
+          "page": "https://commons.wikimedia.org/wiki/Fragment_of_a_tomb_mural_showing_a_Khitan_man_and_a_Khitan_boy.jpg",
+          "credit": "BabelStone",
+          "license": "CC BY-SA 3.0",
+          "made": "Liao dynasty; photo 2016",
+          "caption": "Not a portrait: part of a Liao tomb mural from Lindong, near the old Khitan capital, showing a Khitan man and boy.",
+          "alt": "Fragment of a painted tomb mural showing a Khitan man and a Khitan boy"
+        }
+      ],
+      "sources": [
+        {
+          "title": "Liao Shi (History of Liao)",
+          "author": "Toqto'a and others",
+          "note": "Official history, 1344"
+        },
+        {
+          "title": "Old History of the Five Dynasties (Jiu Wudai Shi)",
+          "author": "Xue Juzheng and others",
+          "note": "974"
+        },
+        {
+          "title": "Zizhi Tongjian (Comprehensive Mirror to Aid in Government)",
+          "author": "Sima Guang",
+          "note": "Completed 1084"
+        },
+        {
+          "title": "The Cambridge History of China, vol. 6: Alien Regimes and Border States, 907–1368",
+          "author": "Herbert Franke and Denis Twitchett (eds)",
+          "note": "Cambridge University Press, 1994"
+        }
+      ],
+      "review": {
+        "status": "draft",
+        "notes": "Drafted from the listed sources; needs a human fact-check."
+      }
+    },
+    {
       "id": "liu-zhiyuan",
       "kind": "monarch",
       "rulers": [
@@ -11389,12 +12415,14 @@
       "end": {
         "date": "0948-03"
       },
-      "contestedWith": [],
+      "contestedWith": [
+        "yelu-deguang"
+      ],
       "relationToPredecessor": "Later Jin general at Taiyuan",
       "ageAtAccession": "About 52",
       "cameToPower": "Hailed emperor by his army",
       "reignEnded": "Died of illness within a year",
-      "previously": "The Khitans take Kaifeng and carry Shi Chonggui off to the north.",
+      "previously": "Yelü Deguang gives up on Kaifeng and dies on the road north.",
       "paragraphs": [
         "Liu Zhiyuan was a Shatuo Turk, a hard-bitten cavalry general who had helped Shi Jingtang win the throne in 936. By 947 he held Taiyuan, the old Shatuo stronghold, with a strong army and full storehouses. When the Khitans took Kaifeng he sent polite messages to their emperor, Yelü Deguang, and waited. Early that spring his officers hailed him emperor.",
         "He played it shrewdly. North China rose against the Khitan foragers, and Yelü Deguang soon headed home, grumbling that he had never known the Chinese were so hard to rule. He fell ill and died on the way. Liu marched into Kaifeng that summer and named his dynasty Han, borrowing the glory of the ancient Han emperors.",
@@ -11455,7 +12483,20 @@
       "review": {
         "status": "draft",
         "notes": "Drafted from the listed sources; needs a human fact-check."
-      }
+      },
+      "members": [
+        {
+          "name": "Li Congyi",
+          "start": {
+            "date": "0947-05",
+            "circa": true
+          },
+          "end": {
+            "date": "0947-06-23"
+          },
+          "note": "Later Tang prince, about 16, set up in Kaifeng by the Liao general Xiao Han; welcomed Liu, who had him killed"
+        }
+      ]
     },
     {
       "id": "liu-chengyou",
@@ -12376,7 +13417,7 @@
           "note": "Song and Jin records agree. His coffin was sent back to the Southern Song under the peace of 1141."
         }
       ],
-      "hook": "Every prince in Kaifeng has been taken north. Every prince but one. Huizong's ninth son, Prince Kang, was away from the city, and now he is the dynasty's last hope.",
+      "hook": "The Jin don't want to govern Kaifeng themselves. They want a Chinese emperor who will do as he's told, and they have picked a former chief minister who badly doesn't want the job.",
       "images": [
         {
           "file": "File:Huizong.jpg",
@@ -12417,6 +13458,77 @@
       }
     },
     {
+      "id": "zhang-bangchang",
+      "kind": "claimant",
+      "rulers": [
+        "zhang-bangchang"
+      ],
+      "tagline": "The puppet emperor who didn't want the job",
+      "start": {
+        "date": "1127-04-20"
+      },
+      "end": {
+        "date": "1127-05-23"
+      },
+      "contestedWith": [],
+      "relationToPredecessor": "Song minister; Jin puppet",
+      "ageAtAccession": "45 or 46",
+      "cameToPower": "Installed by the Jurchen Jin",
+      "reignEnded": "Handed power back to the Song",
+      "previously": "Kaifeng falls. The Jurchens take both Song emperors prisoner.",
+      "paragraphs": [
+        "Zhang Bangchang was a senior Song minister who had been sent to the Jin camp as a hostage during the first siege of Kaifeng. After the city fell in 1127, the Jurchens did not want to govern it themselves. They wanted a Chinese emperor who would do as he was told, and they picked Zhang. He is said to have begged to be let off and threatened to kill himself. The Jin threatened the city instead.",
+        "On 20 April 1127 he was enthroned as emperor of Da Chu, the Great Chu. He behaved oddly for an emperor. He would not use the imperial 'we', kept off the main throne, and wore imperial robes only when Jin envoys were around. Meanwhile the Jin armies marched north with their captives: two emperors, thousands of the imperial clan and the palace treasures.",
+        "Once the Jin had gone, Zhang gave up. He brought back Empress Meng, a deposed wife of an earlier emperor who had escaped capture, to act as regent, and stepped down about a month after his enthronement. The seals went to Prince Kang, the one son of Huizong still free. Zhang submitted and was rewarded at first. But hardliners said a man who had sat on the throne could not live, and in November 1127 he was ordered to kill himself."
+      ],
+      "claims": [
+        {
+          "text": "Zhang refused to call himself 'we' or to sit on the main throne.",
+          "status": "confirmed",
+          "note": "Song sources record these gestures. They also made a useful defence later, so they may have been played up."
+        },
+        {
+          "text": "The new chief minister Li Gang pushed for his death.",
+          "status": "confirmed",
+          "note": "Li Gang argued that pardoning a man who had taken the throne would invite traitors. Gaozong gave way."
+        }
+      ],
+      "hook": "Every prince in Kaifeng was taken north. Every prince but one. Huizong's ninth son, Prince Kang, was away from the city, and now he is the dynasty's last hope.",
+      "images": [
+        {
+          "file": "File:Qingming Festival Detail 3.jpg",
+          "url": "https://upload.wikimedia.org/wikipedia/commons/0/03/Qingming_Festival_Detail_3.jpg",
+          "page": "https://commons.wikimedia.org/wiki/Qingming_Festival_Detail_3.jpg",
+          "credit": "Zhang Zeduan",
+          "license": "Public domain",
+          "made": "Early 12th century",
+          "caption": "No portrait of Zhang Bangchang survives. This is a detail of Along the River During the Qingming Festival, a scroll usually taken to show Kaifeng in the years before its fall.",
+          "alt": "Detail from a long Chinese handscroll painting of a busy riverside city"
+        }
+      ],
+      "sources": [
+        {
+          "title": "Song Shi (History of Song)",
+          "author": "Toqto'a and others",
+          "note": "Official history, 1345"
+        },
+        {
+          "title": "The Cambridge History of China, vol. 5, part 1: The Sung Dynasty and Its Precursors, 907–1279",
+          "author": "Denis Twitchett and Paul Jakov Smith (eds)",
+          "note": "Cambridge University Press, 2009"
+        },
+        {
+          "title": "The Age of Confucian Rule: The Song Transformation of China",
+          "author": "Dieter Kuhn",
+          "note": "Harvard University Press, 2009"
+        }
+      ],
+      "review": {
+        "status": "draft",
+        "notes": "Drafted from the listed sources; needs a human fact-check."
+      }
+    },
+    {
       "id": "gaozong-song",
       "kind": "monarch",
       "rulers": [
@@ -12434,7 +13546,7 @@
       "ageAtAccession": "20",
       "cameToPower": "Only prince to escape the Jin",
       "reignEnded": "Abdicated to his adopted heir",
-      "previously": "Kaifeng falls. Huizong, Qinzong and the court are marched north.",
+      "previously": "Zhang Bangchang steps down after a month. The seals go to Prince Kang.",
       "paragraphs": [
         "Prince Kang had been sent out of Kaifeng on a mission and missed the disaster. In June 1127 he was crowned at Yingtian, today's Shangqiu. The Jin came after him fast. Their general Wuzhu chased him over the Yangtze, and the emperor fled to sea, riding out the winter of 1129–1130 on ships off the coast. On its way back north, the Jin fleet was trapped at Huangtiandang by the general Han Shizhong.",
         "Gaozong settled at Lin'an, today's Hangzhou. This was the Southern Song. In 1140 his best general, Yue Fei, was winning battles and pushing towards the old capital when he was ordered back. Gaozong and his chancellor Qin Hui wanted peace with the Jin. The Treaty of Shaoxing in 1141 made the Song a vassal of the Jin, with the border on the Huai River.",
@@ -12495,7 +13607,19 @@
       "review": {
         "status": "draft",
         "notes": "Drafted from the listed sources; needs a human fact-check."
-      }
+      },
+      "members": [
+        {
+          "name": "Zhao Fu",
+          "start": {
+            "date": "1129-03-26"
+          },
+          "end": {
+            "date": "1129-04-20"
+          },
+          "note": "Gaozong's infant son, made emperor for 25 days by the mutineers Miao Fu and Liu Zhengyan; died that summer"
+        }
+      ]
     },
     {
       "id": "xiaozong",
@@ -15433,7 +16557,7 @@
           "note": "Li was a courier laid off in the cuts around 1629, but how much the cuts fuelled the wider revolts is argued over."
         }
       ],
-      "hook": "Li Zicheng sits in Beijing. At Shanhai Pass the Ming general Wu Sangui must choose: the rebels who hold his family, or the Manchus beyond the wall.",
+      "hook": "The Dashing King rides into Beijing in triumph. Li Zicheng has his own dynasty, the capital and the Forbidden City. Now he has to hold them.",
       "images": [
         {
           "file": "File:Chongzhen Emperor signature and seal.jpg",
@@ -15474,6 +16598,85 @@
       }
     },
     {
+      "id": "li-zicheng",
+      "kind": "claimant",
+      "rulers": [
+        "li-zicheng"
+      ],
+      "tagline": "The rebel who held Beijing for six weeks",
+      "start": {
+        "date": "1644-04-25"
+      },
+      "end": {
+        "date": "1644-06-04",
+        "note": "Crowned on 3 June; left Beijing the next day"
+      },
+      "contestedWith": [
+        "shunzhi"
+      ],
+      "relationToPredecessor": "Rebel leader, founder of Shun",
+      "ageAtAccession": "37",
+      "cameToPower": "Captured Beijing",
+      "reignEnded": "Fled Beijing after Shanhai Pass",
+      "previously": "Beijing falls. The Chongzhen Emperor hangs himself on Coal Hill.",
+      "paragraphs": [
+        "Li Zicheng was a villager from northern Shaanxi who lost his job as a government courier when the service was cut. In the famine years he joined the rebels and rose to lead them. His promise was simple and popular: no more grain tax. In February 1644, at Xi'an, he proclaimed his own Great Shun dynasty and marched on Beijing. On 25 April the gates were opened to him, and the last Ming emperor hanged himself.",
+        "His officers needed silver to pay the army, and they got it by torturing Ming officials and rich families. Order in the city broke down. The man Li most needed was Wu Sangui, the Ming general holding Shanhai Pass, whose father was in Li's hands in Beijing. Wu chose the Manchus instead and opened the pass to Dorgon's banner armies.",
+        "On 27 May 1644 Li's army was smashed at Shanhai Pass by Wu and the Manchus. He fell back on Beijing, had Wu's father killed, was crowned emperor in the Forbidden City on 3 June, and left the next day with palace buildings burning behind him. Driven out of Xi'an early in 1645, he died that year in Hubei. Most accounts say villagers killed him, but his end is still argued over."
+      ],
+      "claims": [
+        {
+          "text": "Wu Sangui turned to the Manchus because Li's men had seized his concubine Chen Yuanyuan.",
+          "status": "legend",
+          "note": "The poet Wu Weiye made the story famous soon afterwards. Historians see Wu's choice as politics and the fate of his family."
+        },
+        {
+          "text": "Li Zicheng survived and lived on as a monk.",
+          "status": "legend",
+          "note": "A local tradition says he hid in a temple until 1674. Most historians accept that he died in 1645."
+        }
+      ],
+      "hook": "Dorgon rides into Beijing at the head of the Manchu banners. The Qing boy emperor, crowned at Mukden the year before, is on his way to the Forbidden City.",
+      "images": [
+        {
+          "file": "File:Portret van Chinese keizer te paard, mogelijk Li Zicheng, RP-P-1905-4875.jpg",
+          "url": "https://upload.wikimedia.org/wikipedia/commons/c/c8/Portret_van_Chinese_keizer_te_paard%2C_mogelijk_Li_Zicheng%2C_RP-P-1905-4875.jpg",
+          "page": "https://commons.wikimedia.org/wiki/Portret_van_Chinese_keizer_te_paard,_mogelijk_Li_Zicheng,_RP-P-1905-4875.jpg",
+          "credit": "Anonymous; published by Balthazar Moncornet, Paris",
+          "license": "CC0",
+          "made": "1645–1668",
+          "caption": "A French print made within about twenty years of his death, showing a Chinese emperor on horseback. The Rijksmuseum thinks it may be Li Zicheng.",
+          "alt": "Engraved European print of a Chinese emperor on horseback"
+        }
+      ],
+      "sources": [
+        {
+          "title": "The Great Enterprise: The Manchu Reconstruction of Imperial Order in Seventeenth-Century China",
+          "author": "Frederic Wakeman Jr.",
+          "note": "University of California Press, 1985"
+        },
+        {
+          "title": "Ming Shi (History of Ming)",
+          "author": "Zhang Tingyu et al.",
+          "note": "Official history compiled under the Qing, completed 1739"
+        },
+        {
+          "title": "The Cambridge History of China, vol. 7: The Ming Dynasty, 1368–1644, Part 1",
+          "author": "Frederick W. Mote and Denis Twitchett (eds)",
+          "note": "Cambridge University Press, 1988"
+        },
+        {
+          "title": "The Search for Modern China",
+          "author": "Jonathan D. Spence",
+          "note": "W. W. Norton, 1990"
+        }
+      ],
+      "review": {
+        "status": "draft",
+        "notes": "Drafted from the listed sources; needs a human fact-check."
+      }
+    },
+    {
       "id": "shunzhi",
       "kind": "monarch",
       "rulers": [
@@ -15486,12 +16689,14 @@
       "end": {
         "date": "1661-02-05"
       },
-      "contestedWith": [],
+      "contestedWith": [
+        "li-zicheng"
+      ],
       "relationToPredecessor": "Ninth son of Hong Taiji",
       "ageAtAccession": "5 (6 in Beijing)",
       "cameToPower": "Chosen by the princes; Dorgon regent",
       "reignEnded": "Smallpox at 22",
-      "previously": "Li Zicheng takes Beijing. The Chongzhen Emperor hangs himself.",
+      "previously": "Li Zicheng is beaten at Shanhai Pass and flees Beijing.",
       "paragraphs": [
         "Fulin was crowned at Mukden in October 1643, aged five, with his uncle Dorgon running things. Then Beijing fell to the rebel Li Zicheng. The Ming general Wu Sangui, guarding Shanhai Pass where the Great Wall meets the sea, threw in his lot with the Manchus. Together they smashed Li's army at the pass in May 1644. In June Dorgon rode into Beijing, and the new Shunzhi Emperor's Qing dynasty claimed the Mandate of Heaven.",
         "The conquest was brutal. In 1645 Chinese men were ordered to shave the front of the head and wear the Manchu queue. People put it bluntly: keep your hair and lose your head. At Yangzhou the Ming commander Shi Kefa made a last stand, and when the city fell the Qing troops killed for days. Ming princes fought on in the south, and the loyalist Koxinga, Zheng Chenggong, raided from the sea.",
@@ -15551,7 +16756,19 @@
       "review": {
         "status": "draft",
         "notes": "Drafted from the listed sources; needs a human fact-check."
-      }
+      },
+      "members": [
+        {
+          "name": "Dorgon",
+          "start": {
+            "date": "1643-10-08"
+          },
+          "end": {
+            "date": "1650-12-31"
+          },
+          "note": "Prince Regent; took Beijing in 1644, ordered the queue in 1645, ruled in all but name until he died hunting"
+        }
+      ]
     },
     {
       "id": "kangxi",
@@ -16844,7 +18061,19 @@
       "review": {
         "status": "draft",
         "notes": "Drafted from the listed sources; needs a human fact-check."
-      }
+      },
+      "members": [
+        {
+          "name": "Li Zongren",
+          "start": {
+            "date": "1949-01-21"
+          },
+          "end": {
+            "date": "1949-11-20"
+          },
+          "note": "Acting president after Chiang stepped down; tried peace talks with the Communists, then left for the US"
+        }
+      ]
     },
     {
       "id": "mao",

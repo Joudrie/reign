@@ -1478,6 +1478,61 @@
       "id": "bebiankh",
       "name": "Bebiankh",
       "house": "dyn-16"
+    },
+    {
+      "id": "nebka",
+      "name": "Nebka",
+      "house": "dyn-3"
+    },
+    {
+      "id": "sekhemkhet",
+      "name": "Sekhemkhet",
+      "house": "dyn-3"
+    },
+    {
+      "id": "khaba",
+      "name": "Khaba",
+      "house": "dyn-3"
+    },
+    {
+      "id": "huni",
+      "name": "Huni",
+      "house": "dyn-3"
+    },
+    {
+      "id": "djedefre",
+      "name": "Djedefre",
+      "house": "dyn-4"
+    },
+    {
+      "id": "shepseskaf",
+      "name": "Shepseskaf",
+      "house": "dyn-4"
+    },
+    {
+      "id": "mentuhotep-iii",
+      "name": "Mentuhotep III",
+      "house": "dyn-11"
+    },
+    {
+      "id": "mentuhotep-iv",
+      "name": "Mentuhotep IV",
+      "house": "dyn-11"
+    },
+    {
+      "id": "amenemhat-ii",
+      "name": "Amenemhat II",
+      "house": "dyn-12"
+    },
+    {
+      "id": "senusret-ii",
+      "name": "Senusret II",
+      "house": "dyn-12"
+    },
+    {
+      "id": "amenemhat-iv",
+      "name": "Amenemhat IV",
+      "house": "dyn-12"
     }
   ],
   "reigns": [
@@ -2653,7 +2708,7 @@
           "note": "Seals in Khasekhemwy's tomb call her mother of the king's children, and a seal of Djoser's time calls her king's mother. Which king is not said."
         }
       ],
-      "hook": "Khasekhemwy's mudbrick walls are the last word in royal building. Soon a king named Djoser and his clever official will build a mountain out of cut stone.",
+      "hook": "Khasekhemwy is dead, and a new dynasty begins with a king later Egyptians called Nebka. Soon one of his successors and a clever official will build a mountain out of cut stone.",
       "images": [
         {
           "file": "File:Statue de Khâsekhemoui - Musée egyptien du Caire JE 32161.jpg",
@@ -2694,6 +2749,89 @@
       }
     },
     {
+      "id": "nebka",
+      "kind": "monarch",
+      "rulers": [
+        "nebka"
+      ],
+      "tagline": "A king from the lists, and maybe the giant Sanakht",
+      "start": {
+        "date": "-2686",
+        "circa": true
+      },
+      "end": {
+        "date": "-2667",
+        "circa": true
+      },
+      "contestedWith": [],
+      "relationToPredecessor": "Unknown; followed Khasekhemwy",
+      "ageAtAccession": "Unknown",
+      "cameToPower": "First king of the 3rd Dynasty (Shaw)",
+      "reignEnded": "Died; Djoser followed",
+      "previously": "Khasekhemwy dies, the last king of the 2nd Dynasty.",
+      "paragraphs": [
+        "Nebka is the king that the dates in this deck put at the start of the 3rd Dynasty and the Old Kingdom. The catch is that his name comes from lists and stories written down centuries later. In one of them, the Westcar Papyrus, a priest in Nebka's day makes a little wax crocodile that comes to life and drags his wife's lover into a lake, and the king lets it keep its prey.",
+        "Many Egyptologists think Nebka was the later name for a king who appears on his own monuments as Sanakht. Two rock carvings from the turquoise mines of the Sinai show Sanakht striking down an enemy, and clay seals with his Horus name were found in a great mudbrick tomb at Beit Khallaf, north of Abydos. A skeleton from a tomb there belonged to a man about 1.87 metres tall.",
+        "Where he belongs is still argued over. Seals naming Djoser turned up in Khasekhemwy's tomb, which suggests Djoser buried him and came next, so many scholars now push Sanakht later in the dynasty. Shaw keeps Nebka first, with about 19 years, and this deck follows Shaw."
+      ],
+      "claims": [
+        {
+          "text": "Nebka and Sanakht were the same king.",
+          "status": "disputed",
+          "note": "Rests on a damaged seal from Beit Khallaf that may show a cartouche ending in -ka beside Sanakht's name. Many accept it; others reject it."
+        },
+        {
+          "text": "In Nebka's reign a magician's wax crocodile came alive and seized his wife's lover.",
+          "status": "legend",
+          "note": "A tale in the Westcar Papyrus, copied over a thousand years after Nebka's time. It is a story told at court, not a record."
+        },
+        {
+          "text": "The tall skeleton from Beit Khallaf is the king himself.",
+          "status": "disputed",
+          "note": "It came from a tomb with Sanakht's seals, but such tombs may belong to high officials, and nothing names the body."
+        }
+      ],
+      "hook": "Nebka is gone. His successor has a clever official named Imhotep, and together they are about to build something nobody has ever seen: a mountain made of cut stone.",
+      "images": [
+        {
+          "file": "File:X nebka.jpg",
+          "url": "https://upload.wikimedia.org/x.jpg",
+          "page": "https://commons.wikimedia.org/wiki/File:X",
+          "credit": "x",
+          "license": "CC0",
+          "made": "x",
+          "caption": "x",
+          "alt": "x"
+        }
+      ],
+      "sources": [
+        {
+          "title": "The Oxford History of Ancient Egypt",
+          "author": "Ian Shaw (ed.)",
+          "note": "Oxford University Press, 2000"
+        },
+        {
+          "title": "Early Dynastic Egypt",
+          "author": "Toby A. H. Wilkinson",
+          "note": "Routledge, 1999"
+        },
+        {
+          "title": "The Complete Royal Families of Ancient Egypt",
+          "author": "Aidan Dodson and Dyan Hilton",
+          "note": "Thames & Hudson, 2004"
+        },
+        {
+          "title": "Ancient Egyptian Literature, Vol. 1: The Old and Middle Kingdoms",
+          "author": "Miriam Lichtheim",
+          "note": "University of California Press, 1973"
+        }
+      ],
+      "review": {
+        "status": "draft",
+        "notes": "Drafted from the listed sources; needs a human fact-check."
+      }
+    },
+    {
       "id": "djoser",
       "kind": "monarch",
       "rulers": [
@@ -2713,7 +2851,7 @@
       "ageAtAccession": "Unknown",
       "cameToPower": "Inherited the throne",
       "reignEnded": "Died; buried at the Step Pyramid",
-      "previously": "Khasekhemwy reunites Egypt. A new dynasty takes the throne.",
+      "previously": "Nebka dies after about 19 years. Djoser takes the throne.",
       "paragraphs": [
         "In his own day he was called Netjerikhet. The name Djoser only turns up in records written long afterwards. The dates used here put a king called Nebka just before him, though many Egyptologists now think Djoser came first. Either way, his reign belongs to the start of the Old Kingdom, the age of the pyramids, and he kicked it off with something nobody had ever seen.",
         "At Saqqara, high above Memphis, rose the Step Pyramid: six stacked stages of stone, over 60 metres tall, at the heart of a vast walled complex of courts, shrines and dummy buildings. It is often called the first monumental building made entirely of cut stone. The designer was his official Imhotep, whose name and titles are carved on the base of a statue of the king.",
@@ -2736,7 +2874,7 @@
           "note": "Shaw puts Nebka first. Seal impressions naming Netjerikhet in Khasekhemwy's tomb lead many scholars to put Djoser right after Khasekhemwy."
         }
       ],
-      "hook": "Djoser has shown what stone can do. Two generations on, a new king will try to go bigger, and his first attempts will not all go to plan.",
+      "hook": "Djoser has shown what stone can do. His successor Sekhemkhet sets out to build an even bigger step pyramid, and it will vanish under the sand.",
       "images": [
         {
           "file": "File:Statue of Djoser from Step Pyramid Complex at Saqqara, 2630-2611 BCE; Egyptian Museum, Cairo (2).jpg",
@@ -2777,6 +2915,239 @@
       }
     },
     {
+      "id": "sekhemkhet",
+      "kind": "monarch",
+      "rulers": [
+        "sekhemkhet"
+      ],
+      "tagline": "The lost pyramid, and a sealed coffin with nothing inside",
+      "start": {
+        "date": "-2648",
+        "circa": true
+      },
+      "end": {
+        "date": "-2640",
+        "circa": true
+      },
+      "contestedWith": [],
+      "relationToPredecessor": "Perhaps Djoser's son",
+      "ageAtAccession": "Unknown",
+      "cameToPower": "Followed Djoser",
+      "reignEnded": "Died with his pyramid barely begun",
+      "previously": "Djoser dies, buried under the world's first pyramid.",
+      "paragraphs": [
+        "Sekhemkhet wanted a pyramid like Djoser's, only bigger. He chose a site at Saqqara just south-west of it and planned a step pyramid that might have reached seven steps. Then he died. He reigned only about six or seven years, his pyramid never rose much above its first step, and in time the sand drifted over it and it was forgotten.",
+        "In the early 1950s the Egyptian archaeologist Zakaria Goneim found it again: the Buried Pyramid. Deep inside lay a sealed alabaster sarcophagus, its sliding door still shut. The world's press gathered for the opening in 1954. The lid came up and the coffin was empty. There was treasure in the corridors, though, including gold bracelets and a little gold box shaped like a shell.",
+        "Jar stoppers stamped with the king's name told Goneim whose pyramid it was. Far away in the Sinai, rock carvings show Sekhemkhet at the turquoise and copper mines, wearing the crowns of Egypt. After him, the last kings of the 3rd Dynasty are little more than names."
+      ],
+      "claims": [
+        {
+          "text": "The sarcophagus was empty because the king was never buried in it.",
+          "status": "disputed",
+          "note": "It was still sealed when opened, so robbers are unlikely. He may have been buried elsewhere, or it may have been a ritual burial."
+        },
+        {
+          "text": "Djoser's architect Imhotep also worked on this pyramid.",
+          "status": "disputed",
+          "note": "Goneim found the name Imhotep in a graffito on the enclosure wall. It is probably the same man, but the name was common enough to leave doubt."
+        }
+      ],
+      "hook": "Sekhemkhet's pyramid lies half-built under the sand. The next king, Khaba, will start a pyramid too, and it is far from certain that he finished it.",
+      "images": [
+        {
+          "file": "File:X sekhemkhet.jpg",
+          "url": "https://upload.wikimedia.org/x.jpg",
+          "page": "https://commons.wikimedia.org/wiki/File:X",
+          "credit": "x",
+          "license": "CC0",
+          "made": "x",
+          "caption": "x",
+          "alt": "x"
+        }
+      ],
+      "sources": [
+        {
+          "title": "The Oxford History of Ancient Egypt",
+          "author": "Ian Shaw (ed.)",
+          "note": "Oxford University Press, 2000"
+        },
+        {
+          "title": "The Rise and Fall of Ancient Egypt",
+          "author": "Toby Wilkinson",
+          "note": "Bloomsbury, 2010"
+        },
+        {
+          "title": "The Complete Royal Families of Ancient Egypt",
+          "author": "Aidan Dodson and Dyan Hilton",
+          "note": "Thames & Hudson, 2004"
+        },
+        {
+          "title": "Chronicle of the Pharaohs",
+          "author": "Peter A. Clayton",
+          "note": "Thames & Hudson, 1994"
+        }
+      ],
+      "review": {
+        "status": "draft",
+        "notes": "Drafted from the listed sources; needs a human fact-check."
+      }
+    },
+    {
+      "id": "khaba",
+      "kind": "monarch",
+      "rulers": [
+        "khaba"
+      ],
+      "tagline": "A name on stone bowls, and a pyramid in leaning layers",
+      "start": {
+        "date": "-2640",
+        "circa": true
+      },
+      "end": {
+        "date": "-2637",
+        "circa": true
+      },
+      "contestedWith": [],
+      "relationToPredecessor": "Unknown; followed Sekhemkhet",
+      "ageAtAccession": "Unknown",
+      "cameToPower": "Followed Sekhemkhet",
+      "reignEnded": "Died; Huni followed",
+      "previously": "Sekhemkhet dies, his pyramid stuck at its first step.",
+      "paragraphs": [
+        "Khaba is a king we know almost only from his Horus name, which means 'the soul appears'. It is carved on a handful of fine stone bowls and stamped on clay seals, and that is about all. The style of the bowls looks like the very end of the 3rd Dynasty, close to the time of Sneferu, which is where this deck places him.",
+        "At Zawyet el-Aryan, between Giza and Saqqara, stands a ruined step pyramid built in leaning layers of stone, the Layer Pyramid. It carries no king's name. But bowls inscribed for Khaba were found in a big tomb beside it, so most scholars think it was his. It seems never to have been finished, which fits a king Shaw gives just three years."
+      ],
+      "claims": [
+        {
+          "text": "Khaba built the Layer Pyramid at Zawyet el-Aryan.",
+          "status": "disputed",
+          "note": "No name was found in the pyramid itself; the link rests on his bowls from the tomb next door, Mastaba Z500."
+        },
+        {
+          "text": "Khaba and Huni were the same king.",
+          "status": "disputed",
+          "note": "Khaba is known only by a Horus name and Huni only by a cartouche name, so some scholars have wondered if they are one man. Nothing proves it."
+        }
+      ],
+      "hook": "After Khaba comes Huni, who reigns for about 24 years yet leaves less behind than almost any long-lived king. His great legacy will be the man who comes next.",
+      "images": [
+        {
+          "file": "File:X khaba.jpg",
+          "url": "https://upload.wikimedia.org/x.jpg",
+          "page": "https://commons.wikimedia.org/wiki/File:X",
+          "credit": "x",
+          "license": "CC0",
+          "made": "x",
+          "caption": "x",
+          "alt": "x"
+        }
+      ],
+      "sources": [
+        {
+          "title": "The Oxford History of Ancient Egypt",
+          "author": "Ian Shaw (ed.)",
+          "note": "Oxford University Press, 2000"
+        },
+        {
+          "title": "Early Dynastic Egypt",
+          "author": "Toby A. H. Wilkinson",
+          "note": "Routledge, 1999"
+        },
+        {
+          "title": "The Complete Royal Families of Ancient Egypt",
+          "author": "Aidan Dodson and Dyan Hilton",
+          "note": "Thames & Hudson, 2004"
+        }
+      ],
+      "review": {
+        "status": "draft",
+        "notes": "Drafted from the listed sources; needs a human fact-check."
+      }
+    },
+    {
+      "id": "huni",
+      "kind": "monarch",
+      "rulers": [
+        "huni"
+      ],
+      "tagline": "A long reign, a lost tomb, and a famous successor",
+      "start": {
+        "date": "-2637",
+        "circa": true
+      },
+      "end": {
+        "date": "-2613",
+        "circa": true
+      },
+      "contestedWith": [],
+      "relationToPredecessor": "Unknown; followed Khaba",
+      "ageAtAccession": "Unknown",
+      "cameToPower": "Followed Khaba",
+      "reignEnded": "Died; Sneferu followed",
+      "previously": "Khaba's short reign ends, his pyramid unfinished.",
+      "paragraphs": [
+        "Huni closed the 3rd Dynasty, and later Egyptians remembered him. A wisdom text, the Instruction of Kagemni, ends by saying that King Huni died and King Sneferu was raised up in his place. The Turin king list gives him 24 years. Yet only two objects with his name survive from his own time: a red granite cone from the island of Elephantine and a stone bowl.",
+        "The cone probably comes from one of a set of small step pyramids dotted along the Nile, from Elephantine northwards. They had no burials inside and may have marked royal power in the provinces. Many scholars credit them to Huni. Some think he also began the pyramid at Meidum that Sneferu later finished. Where Huni himself was buried is a mystery.",
+        "A royal woman called Meresankh was remembered as Sneferu's mother, and she may have been one of Huni's wives. But no text calls Sneferu Huni's son. A granite royal head in the Brooklyn Museum has been given to Huni on its style alone."
+      ],
+      "claims": [
+        {
+          "text": "Sneferu was Huni's son.",
+          "status": "disputed",
+          "note": "Often assumed, because Sneferu followed him and Meresankh may have been Huni's wife. No ancient text says so."
+        },
+        {
+          "text": "Huni began the pyramid at Meidum.",
+          "status": "disputed",
+          "note": "An old theory; visitors' graffiti of the New Kingdom at Meidum name Sneferu, and many scholars now give the whole pyramid to him."
+        },
+        {
+          "text": "The Instruction of Kagemni names Huni as Sneferu's predecessor.",
+          "status": "confirmed",
+          "note": "The text survives in the Prisse Papyrus, copied in the Middle Kingdom, centuries after both kings."
+        }
+      ],
+      "hook": "Huni is dead. His successor Sneferu will found the 4th Dynasty and move more stone than any king before or since.",
+      "images": [
+        {
+          "file": "File:X huni.jpg",
+          "url": "https://upload.wikimedia.org/x.jpg",
+          "page": "https://commons.wikimedia.org/wiki/File:X",
+          "credit": "x",
+          "license": "CC0",
+          "made": "x",
+          "caption": "x",
+          "alt": "x"
+        }
+      ],
+      "sources": [
+        {
+          "title": "The Oxford History of Ancient Egypt",
+          "author": "Ian Shaw (ed.)",
+          "note": "Oxford University Press, 2000"
+        },
+        {
+          "title": "The Rise and Fall of Ancient Egypt",
+          "author": "Toby Wilkinson",
+          "note": "Bloomsbury, 2010"
+        },
+        {
+          "title": "Ancient Egyptian Literature, Vol. 1: The Old and Middle Kingdoms",
+          "author": "Miriam Lichtheim",
+          "note": "University of California Press, 1973"
+        },
+        {
+          "title": "The Complete Royal Families of Ancient Egypt",
+          "author": "Aidan Dodson and Dyan Hilton",
+          "note": "Thames & Hudson, 2004"
+        }
+      ],
+      "review": {
+        "status": "draft",
+        "notes": "Drafted from the listed sources; needs a human fact-check."
+      }
+    },
+    {
       "id": "sneferu",
       "kind": "monarch",
       "rulers": [
@@ -2796,7 +3167,7 @@
       "ageAtAccession": "Unknown",
       "cameToPower": "Founded the 4th Dynasty",
       "reignEnded": "Died; his son Khufu followed",
-      "previously": "Djoser's heirs can't match his pyramid. Huni ends the 3rd Dynasty.",
+      "previously": "Huni dies after 24 years, the last king of the 3rd Dynasty.",
       "paragraphs": [
         "Sneferu founded the 4th Dynasty and probably shifted more stone than any other pharaoh. First came Meidum, a step pyramid that his predecessor Huni may have begun. Then, at Dahshur, the Bent Pyramid, which starts steep and switches to a gentler slope halfway up. Maybe the builders saw cracks and lost their nerve. Maybe they were in a hurry. Nobody knows for sure.",
         "His third attempt worked. The Red Pyramid, also at Dahshur, was the first true pyramid with smooth, straight sides, and he was probably buried in it. Egypt's armies were busy too. The Palermo Stone, a slab of royal annals, records raids into Nubia and Libya that brought home captives and herds of cattle.",
@@ -2902,7 +3273,7 @@
           "note": "The papyri date to late in Khufu's reign and were published by Tallet. They are the earliest eyewitness account of pyramid building."
         }
       ],
-      "hook": "Khufu lies in the biggest tomb on Earth. His sons now face an awkward question: how do you follow that?",
+      "hook": "Khufu lies in the biggest tomb on Earth. His son Djedefre buries him, then heads for a hilltop north of Giza to build a pyramid of his own.",
       "images": [
         {
           "file": "File:Ivory statuette of Khufu from Abydos, 2551-2528 BCE; Egyptian Museum, Cairo (1).jpg",
@@ -2942,6 +3313,84 @@
       }
     },
     {
+      "id": "djedefre",
+      "kind": "monarch",
+      "rulers": [
+        "djedefre"
+      ],
+      "tagline": "The first 'son of Ra', and a pyramid on a hilltop",
+      "start": {
+        "date": "-2566",
+        "circa": true
+      },
+      "end": {
+        "date": "-2558",
+        "circa": true
+      },
+      "contestedWith": [],
+      "relationToPredecessor": "Son of Khufu",
+      "ageAtAccession": "Unknown",
+      "cameToPower": "Succeeded his father",
+      "reignEnded": "Died; his brother Khafre followed",
+      "previously": "Khufu dies, buried in the Great Pyramid.",
+      "paragraphs": [
+        "Djedefre was a son of Khufu, and one of his first jobs as king was burying his father. Some of the huge blocks that sealed the pits for Khufu's cedar boats carry Djedefre's name, painted by the work gangs. He was also the first king to call himself 'son of Ra', after the sun god. Every pharaoh after him would use the title.",
+        "He did not build at Giza. For his own pyramid he picked a hill at Abu Rawash, about eight kilometres to the north. It is now a ruin, so it was long thought he died before it was done. Digs since 1995 suggest it was finished and later stripped for its stone. Pieces of many statues were found there, among them a fine head of the king in red quartzite, now in the Louvre.",
+        "He married Hetepheres II, his own sister. His reign was short, about eight years in the dates used here. When he died, the crown went not to one of his sons but to his brother Khafre."
+      ],
+      "claims": [
+        {
+          "text": "Djedefre murdered his brother Kawab to seize the throne.",
+          "status": "legend",
+          "note": "A modern theory built on smashed statues at Abu Rawash. The damage is now put down to later stone robbers, and few scholars still hold it."
+        },
+        {
+          "text": "He reigned for at least 11 years.",
+          "status": "disputed",
+          "note": "The Turin king list gives him eight, but painted marks on the blocks over Khufu's boat pit have been read as a later year of his reign."
+        }
+      ],
+      "hook": "Djedefre lies on his hilltop. His brother Khafre heads back to Giza, to build right next to their father.",
+      "images": [
+        {
+          "file": "File:X djedefre.jpg",
+          "url": "https://upload.wikimedia.org/x.jpg",
+          "page": "https://commons.wikimedia.org/wiki/File:X",
+          "credit": "x",
+          "license": "CC0",
+          "made": "x",
+          "caption": "x",
+          "alt": "x"
+        }
+      ],
+      "sources": [
+        {
+          "title": "The Oxford History of Ancient Egypt",
+          "author": "Ian Shaw (ed.)",
+          "note": "Oxford University Press, 2000"
+        },
+        {
+          "title": "The Rise and Fall of Ancient Egypt",
+          "author": "Toby Wilkinson",
+          "note": "Bloomsbury, 2010"
+        },
+        {
+          "title": "The Complete Royal Families of Ancient Egypt",
+          "author": "Aidan Dodson and Dyan Hilton",
+          "note": "Thames & Hudson, 2004"
+        },
+        {
+          "title": "Chronicle of the Pharaohs",
+          "author": "Peter A. Clayton",
+          "note": "Thames & Hudson, 1994"
+        }
+      ],
+      "review": {
+        "status": "draft",
+        "notes": "Drafted from the listed sources; needs a human fact-check."
+      }
+    },
+    {
       "id": "khafre",
       "kind": "monarch",
       "rulers": [
@@ -2961,9 +3410,9 @@
       "ageAtAccession": "Unknown",
       "cameToPower": "Followed his brother Djedefre",
       "reignEnded": "Died; buried at Giza",
-      "previously": "Khufu's son Djedefre reigns briefly, starting a pyramid at Abu Rawash.",
+      "previously": "Djedefre dies after about eight years, buried at Abu Rawash.",
       "paragraphs": [
-        "Khufu's son Djedefre reigned only from 2566 to 2558 BC and began a pyramid at Abu Rawash, north of Giza. Then another son of Khufu took over: Khafre, whom the Greeks called Chephren. He went back to Giza and built right next to his father.",
+        "After Djedefre's short reign, another son of Khufu took over: Khafre, whom the Greeks called Chephren. He turned his back on his brother's hilltop at Abu Rawash, went back to Giza and built right next to his father.",
         "His pyramid is a little smaller than Khufu's but looks taller, because it stands on higher ground. Near the top it still wears a cap of the smooth casing stones that once covered the whole thing. Below it crouches the Great Sphinx, a lion with a king's head, carved out of the bedrock. It is usually credited to Khafre.",
         "His finest portrait is a seated statue in dark gneiss. The falcon god Horus perches behind the king's head and spreads its wings around it, as if on guard. Auguste Mariette found it in 1860 in a pit in Khafre's valley temple. It is now one of the great treasures of the Egyptian Museum in Cairo."
       ],
@@ -3042,7 +3491,7 @@
       "paragraphs": [
         "The Greeks called him Mycerinus. His pyramid is the smallest of the big three at Giza, less than half the height of Khufu's. What his reign lacked in size it made up for in style. Between 1908 and 1910 George Reisner's Harvard–Boston team dug out his valley temple and found some of the finest statues Egypt ever produced.",
         "There were triads, each showing the king with the goddess Hathor and a local god, and a pair statue of the king standing beside a queen with her arm around his waist. They are carved in greywacke, a hard dark stone, and are now in Boston and Cairo. Herodotus heard that Mycerinus was a fair-minded king who reopened the temples his father and uncle had shut.",
-        "After him came Shepseskaf, from 2503 to 2498 BC, the last king of the 4th Dynasty. He broke the pyramid habit and built himself a giant stone tomb shaped like a sarcophagus, the Mastabat Faraun, at Saqqara. The age of the great Giza pyramids was over."
+        "Menkaure seems to have died before his monuments were finished, and his successor completed his temples in mudbrick. His pyramid was later entered by robbers and treasure hunters; a coffin from it was lost at sea in 1838 on its way to England. The age of the great Giza pyramids was nearly over."
       ],
       "claims": [
         {
@@ -3061,7 +3510,7 @@
           "note": "Howard Vyse's men removed it from the pyramid in 1837 and sent it to England. The merchant ship Beatrice was lost in 1838 after leaving Malta; where it sank is uncertain and the wreck has never been found."
         }
       ],
-      "hook": "Shepseskaf's dynasty fizzles out. The next king, Userkaf, will build a smaller pyramid and pour his energy into a new obsession: the sun god Ra.",
+      "hook": "Menkaure dies before his temples are done. His successor will finish them in mudbrick, then build himself a tomb that is not a pyramid at all.",
       "images": [
         {
           "file": "File:Menkaure (Mykerinos) Triad, 4th Dynasty (9797372503).jpg",
@@ -3093,6 +3542,84 @@
           "title": "Chronicle of the Pharaohs",
           "author": "Peter A. Clayton",
           "note": "Thames & Hudson, 1994"
+        }
+      ],
+      "review": {
+        "status": "draft",
+        "notes": "Drafted from the listed sources; needs a human fact-check."
+      }
+    },
+    {
+      "id": "shepseskaf",
+      "kind": "monarch",
+      "rulers": [
+        "shepseskaf"
+      ],
+      "tagline": "He broke the pyramid habit and built a giant stone coffin",
+      "start": {
+        "date": "-2503",
+        "circa": true
+      },
+      "end": {
+        "date": "-2498",
+        "circa": true
+      },
+      "contestedWith": [],
+      "relationToPredecessor": "Probably Menkaure's son",
+      "ageAtAccession": "Unknown",
+      "cameToPower": "Followed Menkaure",
+      "reignEnded": "Died; the 4th Dynasty ended",
+      "previously": "Menkaure dies with his pyramid temples unfinished.",
+      "paragraphs": [
+        "Shepseskaf was probably Menkaure's son, and his first task was finishing his father's monuments at Giza. He did it fast and cheap, in mudbrick instead of stone. In Menkaure's temple he set up a royal decree protecting the dead king's offerings, the oldest decree of its kind to survive from the Old Kingdom.",
+        "For his own tomb he did something unexpected. At South Saqqara he built no pyramid at all, but a huge stone tomb shaped like a sarcophagus with a rounded lid, now called the Mastabat Faraun, the 'bench of Pharaoh'. Why he turned his back on pyramids nobody knows.",
+        "The Turin king list gives him only four years. Manetho names one more king, Thamphthis, after him, but no monument of such a king has been found. A powerful royal woman, Khentkaus I, appears around this time and was honoured as the mother of two kings. A new dynasty was on its way."
+      ],
+      "claims": [
+        {
+          "text": "Shepseskaf rejected the pyramid because he fell out with the priests of the sun god.",
+          "status": "disputed",
+          "note": "A popular modern idea. There is no ancient evidence; a short reign or a change in royal ideas may explain it."
+        },
+        {
+          "text": "A king named Thamphthis reigned after him.",
+          "status": "disputed",
+          "note": "Only Manetho, writing over 2,000 years later, says so. No object of his reign is known."
+        }
+      ],
+      "hook": "The Giza dynasty is over. The next king, Userkaf, will build a smaller pyramid and pour his energy into a new obsession: the sun god Ra.",
+      "images": [
+        {
+          "file": "File:X shepseskaf.jpg",
+          "url": "https://upload.wikimedia.org/x.jpg",
+          "page": "https://commons.wikimedia.org/wiki/File:X",
+          "credit": "x",
+          "license": "CC0",
+          "made": "x",
+          "caption": "x",
+          "alt": "x"
+        }
+      ],
+      "sources": [
+        {
+          "title": "The Oxford History of Ancient Egypt",
+          "author": "Ian Shaw (ed.)",
+          "note": "Oxford University Press, 2000"
+        },
+        {
+          "title": "The Rise and Fall of Ancient Egypt",
+          "author": "Toby Wilkinson",
+          "note": "Bloomsbury, 2010"
+        },
+        {
+          "title": "The Complete Royal Families of Ancient Egypt",
+          "author": "Aidan Dodson and Dyan Hilton",
+          "note": "Thames & Hudson, 2004"
+        },
+        {
+          "title": "Aegyptiaca (fragments)",
+          "author": "Manetho",
+          "note": "Loeb edition, trans. W. G. Waddell, 1940"
         }
       ],
       "review": {
@@ -4289,8 +4816,48 @@
           "note": "Herodotus's avenging queen; the Turin name may be a misread male king; may never have existed"
         },
         {
-          "name": "Netjerkare, Menkare, Neferkare II and others",
-          "note": "7th/8th Dynasty names in the Abydos list with no datable reign (Manetho's \"seventy kings in seventy days\")"
+          "name": "Netjerkare, Menkare and Neferkare II",
+          "note": "First 7th/8th Dynasty names in the Abydos list, with no datable reign (Manetho's \"seventy kings in seventy days\")"
+        },
+        {
+          "name": "Neferkare Neby",
+          "note": "Abydos king list; the name of his pyramid is recorded, but the pyramid itself has not been found"
+        },
+        {
+          "name": "Djedkare Shemai",
+          "note": "Named in the Abydos king list; nothing else certain survives"
+        },
+        {
+          "name": "Neferkare Khendu",
+          "note": "Named in the Abydos king list; nothing else certain survives"
+        },
+        {
+          "name": "Merenhor",
+          "note": "Named in the Abydos king list; nothing else certain survives"
+        },
+        {
+          "name": "Neferkamin",
+          "note": "Named in the Abydos king list; nothing else certain survives"
+        },
+        {
+          "name": "Nikare",
+          "note": "Abydos king list; perhaps also named on a cylinder seal"
+        },
+        {
+          "name": "Neferkare Tereru",
+          "note": "Named in the Abydos king list; nothing else certain survives"
+        },
+        {
+          "name": "Neferkahor",
+          "note": "Abydos king list; named on a cylinder seal"
+        },
+        {
+          "name": "Neferkare Pepiseneb",
+          "note": "Abydos king list; the Turin list seems to credit him with at least a year"
+        },
+        {
+          "name": "Neferkamin Anu",
+          "note": "Named in the Abydos king list; nothing else certain survives"
         }
       ]
     },
@@ -4618,8 +5185,28 @@
           "note": "Founder of the 9th Dynasty; a few objects; Manetho's mad Achthoes, killed by a crocodile (legend)"
         },
         {
+          "name": "Neferkare VII",
+          "note": "Third king of the 9th Dynasty in the Turin list; no object is certainly his"
+        },
+        {
           "name": "Khety (Nebkaure)",
           "note": "Named on a weight and in the Tale of the Eloquent Peasant"
+        },
+        {
+          "name": "Setut",
+          "note": "Named in the Turin list after Nebkaure Khety; nothing else is known of him"
+        },
+        {
+          "name": "Meryhathor",
+          "start": {
+            "date": "-2130",
+            "circa": true
+          },
+          "note": "Founder of the 10th Dynasty in some reckonings; known only from a damaged graffito at the Hatnub quarries"
+        },
+        {
+          "name": "Neferkare VIII",
+          "note": "10th Dynasty king after Meryhathor; he or Neferkare VII may be the 'Kaneferre' named in Ankhtifi's tomb"
         },
         {
           "name": "Khety (Wahkare)",
@@ -4994,7 +5581,7 @@
           "note": "Herbert Winlock, who found them in the 1920s, thought so. Others link them to a different campaign, and some date the burial later."
         }
       ],
-      "hook": "Mentuhotep's line is fading out. His last heir sends a vizier named Amenemhat into the desert to fetch a stone coffin, and the vizier comes back with a story about a gazelle.",
+      "hook": "After half a century, the old king is dead. His son Mentuhotep III takes over a united, peaceful Egypt, and looks east, to the Red Sea and the land of incense.",
       "images": [
         {
           "file": "File:Ägyptisches Museum Kairo 2016-03-29 Mentuhotep 02.jpg",
@@ -5035,6 +5622,162 @@
       }
     },
     {
+      "id": "mentuhotep-iii",
+      "kind": "monarch",
+      "rulers": [
+        "mentuhotep-iii"
+      ],
+      "tagline": "He sent 3,000 men across the desert to the Red Sea",
+      "start": {
+        "date": "-2004",
+        "circa": true
+      },
+      "end": {
+        "date": "-1992",
+        "circa": true
+      },
+      "contestedWith": [],
+      "relationToPredecessor": "Son of Mentuhotep II",
+      "ageAtAccession": "Unknown",
+      "cameToPower": "Succeeded his father",
+      "reignEnded": "Died after about 12 years",
+      "previously": "Mentuhotep II dies after about 51 years, Egypt reunited.",
+      "paragraphs": [
+        "Sankhkare Mentuhotep was the son of the great Mentuhotep II and his wife Tem. His father had reigned for half a century, so he was probably no youngster when his turn came. He kept the peace his father had won and built temples across the south, at Abydos, Armant, Medamud and Elephantine, and a small temple on a hilltop in western Thebes.",
+        "His big moment came in his 8th year. His steward Henenu led 3,000 men from the Nile valley through the Wadi Hammamat to the Red Sea, digging a dozen wells on the way and clearing out raiders. From the coast an expedition set out for Punt, the land of incense somewhere to the south, the first known voyage there since the Old Kingdom. Henenu came home with incense and perfumes.",
+        "Mentuhotep began a tomb-temple at Deir el-Bahri near his father's, but it was never finished. He reigned about 12 years. The king after him is so obscure that the Turin king list leaves seven years with no name at all."
+      ],
+      "claims": [
+        {
+          "text": "Henenu took 3,000 men across the desert to launch an expedition to Punt.",
+          "status": "confirmed",
+          "note": "Henenu's own rock inscription in the Wadi Hammamat. The numbers are his boast, but the expedition is not in doubt."
+        },
+        {
+          "text": "Mentuhotep III was already old when he became king.",
+          "status": "disputed",
+          "note": "A guess from his father's 51-year reign; nothing gives his age."
+        }
+      ],
+      "hook": "Next comes Mentuhotep IV, a king the later king lists leave out. His vizier, a man named Amenemhat, is about to be sent into the desert for a stone coffin.",
+      "images": [
+        {
+          "file": "File:X mentuhotep-iii.jpg",
+          "url": "https://upload.wikimedia.org/x.jpg",
+          "page": "https://commons.wikimedia.org/wiki/File:X",
+          "credit": "x",
+          "license": "CC0",
+          "made": "x",
+          "caption": "x",
+          "alt": "x"
+        }
+      ],
+      "sources": [
+        {
+          "title": "The Oxford History of Ancient Egypt",
+          "author": "Ian Shaw (ed.)",
+          "note": "Oxford University Press, 2000"
+        },
+        {
+          "title": "A History of Ancient Egypt",
+          "author": "Nicolas Grimal",
+          "note": "Blackwell, 1992"
+        },
+        {
+          "title": "The Complete Royal Families of Ancient Egypt",
+          "author": "Aidan Dodson and Dyan Hilton",
+          "note": "Thames & Hudson, 2004"
+        },
+        {
+          "title": "Chronicle of the Pharaohs",
+          "author": "Peter A. Clayton",
+          "note": "Thames & Hudson, 1994"
+        }
+      ],
+      "review": {
+        "status": "draft",
+        "notes": "Drafted from the listed sources; needs a human fact-check."
+      }
+    },
+    {
+      "id": "mentuhotep-iv",
+      "kind": "monarch",
+      "rulers": [
+        "mentuhotep-iv"
+      ],
+      "tagline": "The king the lists forgot, and the vizier who saw omens",
+      "start": {
+        "date": "-1992",
+        "circa": true
+      },
+      "end": {
+        "date": "-1985",
+        "circa": true
+      },
+      "contestedWith": [],
+      "relationToPredecessor": "Probably a son of Mentuhotep III",
+      "ageAtAccession": "Unknown",
+      "cameToPower": "Followed Mentuhotep III",
+      "reignEnded": "Vanished; his vizier became king",
+      "previously": "Mentuhotep III dies after about 12 years.",
+      "paragraphs": [
+        "Nebtawyre Mentuhotep is a king later Egyptians chose to forget. The Turin list records seven years with no king named, and the king lists carved in the New Kingdom jump straight from Mentuhotep III to Amenemhat I. His mother Imi is called 'king's mother' but never queen, which suggests she was a lesser wife of the king before him.",
+        "Yet he was real, and busy. Rock inscriptions in the Eastern Desert record his men quarrying amethyst at Wadi el-Hudi and working on the Red Sea coast. The grandest are in the Wadi Hammamat. There, in his second year, a force of 10,000 men under the vizier Amenemhat came to cut a block for the lid of the king's sarcophagus.",
+        "The vizier's inscriptions tell of wonders. A pregnant gazelle walked up to the chosen block and gave birth on it. A sudden rainstorm revealed a well of fresh water. The question was whose luck these omens showed. Within a few years Mentuhotep IV had gone, nobody knows how, and a man called Amenemhat was king."
+      ],
+      "claims": [
+        {
+          "text": "The vizier Amenemhat is the same man as King Amenemhat I.",
+          "status": "disputed",
+          "note": "Widely accepted, given the name and the timing, but no text links the two directly."
+        },
+        {
+          "text": "Amenemhat seized the throne by force.",
+          "status": "disputed",
+          "note": "There is no evidence either way. Later 12th Dynasty texts present him as a saviour, which may hint that his claim needed defending."
+        }
+      ],
+      "hook": "The vizier now wears the crown. Amenemhat I will found the 12th Dynasty, move the capital north and, after 30 years, meet a violent end.",
+      "images": [
+        {
+          "file": "File:X mentuhotep-iv.jpg",
+          "url": "https://upload.wikimedia.org/x.jpg",
+          "page": "https://commons.wikimedia.org/wiki/File:X",
+          "credit": "x",
+          "license": "CC0",
+          "made": "x",
+          "caption": "x",
+          "alt": "x"
+        }
+      ],
+      "sources": [
+        {
+          "title": "The Oxford History of Ancient Egypt",
+          "author": "Ian Shaw (ed.)",
+          "note": "Oxford University Press, 2000"
+        },
+        {
+          "title": "A History of Ancient Egypt",
+          "author": "Nicolas Grimal",
+          "note": "Blackwell, 1992"
+        },
+        {
+          "title": "The Complete Royal Families of Ancient Egypt",
+          "author": "Aidan Dodson and Dyan Hilton",
+          "note": "Thames & Hudson, 2004"
+        },
+        {
+          "title": "Ancient Egyptian Literature, Vol. 1: The Old and Middle Kingdoms",
+          "author": "Miriam Lichtheim",
+          "note": "University of California Press, 1973"
+        }
+      ],
+      "review": {
+        "status": "draft",
+        "notes": "Drafted from the listed sources; needs a human fact-check."
+      }
+    },
+    {
       "id": "amenemhat-i",
       "kind": "monarch",
       "rulers": [
@@ -5054,9 +5797,9 @@
       "ageAtAccession": "Unknown",
       "cameToPower": "Founded a new dynasty",
       "reignEnded": "Probably murdered in the palace",
-      "previously": "Mentuhotep II reunites Egypt, but his line soon fades out.",
+      "previously": "Mentuhotep IV vanishes. His vizier Amenemhat is ready.",
       "paragraphs": [
-        "Under Mentuhotep IV, a vizier named Amenemhat led a quarrying expedition into the Wadi Hammamat to fetch a block for the king's sarcophagus. The inscriptions his men carved there report a wonder: a pregnant gazelle walked up to the chosen block and gave birth on it. A good omen, clearly. The question was for whom. Within a few years Mentuhotep IV had vanished from the record, and a king called Amenemhat was founding the 12th Dynasty.",
+        "Amenemhat was most likely the vizier who had led Mentuhotep IV's men into the Wadi Hammamat and come home with tales of wonders. Within a few years that king had vanished from the record, and a King Amenemhat was founding the 12th Dynasty. How the crown changed hands is a mystery: no text tells of a war, or of a peaceful handover.",
         "A new man needed a good story, and his scribes wrote one. The Prophecy of Neferti, set back in the days of Sneferu, foretells an age of chaos ended by a saviour king called Ameny, son of a woman from the south. Everyone knew who that meant. Amenemhat moved the capital north from Thebes to a new city, Itjtawy, near Lisht, and built his pyramid there.",
         "After about 30 years it ended at night. A later text puts words in the dead king's mouth, telling his son how armed men came for him after supper while he rested, and no one came to his aid. His son Senusret was away fighting in Libya. Whether the attackers had won, and who would hold the throne, was suddenly up for grabs."
       ],
@@ -5160,7 +5903,7 @@
           "note": "A stela from Buhen records a campaign in his 18th year, but how far earlier kings had already pushed is debated."
         }
       ],
-      "hook": "Two more kings pass in peace. Then Senusret III comes to the throne, a hard soldier with his eyes fixed on Nubia.",
+      "hook": "Senusret I dies after some 45 years. His son Amenemhat II, already crowned at his side, will keep the peace for decades.",
       "images": [
         {
           "file": "File:Senwosret (Senusret) I Statuette, Painted Cedar with Gesso, Dynasty 12, Lisht, JE 44951, Egyptian Museum, Cairo.jpg",
@@ -5201,6 +5944,167 @@
       }
     },
     {
+      "id": "amenemhat-ii",
+      "kind": "monarch",
+      "rulers": [
+        "amenemhat-ii"
+      ],
+      "tagline": "Annals of gifts and raids, and princesses' gold",
+      "start": {
+        "date": "-1911",
+        "circa": true
+      },
+      "end": {
+        "date": "-1877",
+        "circa": true
+      },
+      "contestedWith": [],
+      "relationToPredecessor": "Son of Senusret I",
+      "ageAtAccession": "Unknown",
+      "cameToPower": "Co-king, then succeeded his father",
+      "reignEnded": "Died after about 35 years",
+      "previously": "Senusret I dies after some 45 years, Egypt rich and settled.",
+      "paragraphs": [
+        "Amenemhat II was the son of Senusret I and Queen Neferu, and he seems to have shared the throne with his father for a couple of years before ruling alone. He reigned about 35 years, a long, quiet stretch in which Egypt traded more than it fought. Many of his statues were later taken over by other kings, which makes him easy to overlook.",
+        "One find changed that. Blocks reused at Memphis carry part of his annals, a year-by-year record of the court. They list expeditions to Lebanon and the Sinai, gifts from foreign lands, an army sent against two towns in the Levant, and captives brought home. At Tod, near Luxor, chests with his name, buried under a temple, were packed with silver cups and lapis lazuli from far beyond Egypt.",
+        "He took the royal cemetery back to Dahshur with his White Pyramid, named for its pale limestone, most of it later carted away. Beside it in the 1890s Jacques de Morgan found tombs of royal women that robbers had missed, with gold crowns and jewellery among the finest from ancient Egypt. Near the end he shared the crown with his son, Senusret II."
+      ],
+      "claims": [
+        {
+          "text": "Amenemhat II's annals record an army sent against towns in the Levant.",
+          "status": "confirmed",
+          "note": "The inscription found at Mit Rahina (Memphis) names the campaign and the captives. The towns' locations are argued over."
+        },
+        {
+          "text": "He ruled jointly with his father for about two years.",
+          "status": "disputed",
+          "note": "A stela dated to both reigns suggests it, but scholars disagree on how 12th Dynasty co-regencies worked."
+        },
+        {
+          "text": "The silver of the Tod treasure was a gift from a foreign ruler.",
+          "status": "disputed",
+          "note": "Its Aegean-style cups and Mesopotamian seals show long-distance contacts, but whether it came as tribute, trade or gift is unknown."
+        }
+      ],
+      "hook": "His son Senusret II inherits a rich, peaceful kingdom. He turns to the Faiyum, the marshy basin west of the Nile, and builds his pyramid at its mouth.",
+      "images": [
+        {
+          "file": "File:X amenemhat-ii.jpg",
+          "url": "https://upload.wikimedia.org/x.jpg",
+          "page": "https://commons.wikimedia.org/wiki/File:X",
+          "credit": "x",
+          "license": "CC0",
+          "made": "x",
+          "caption": "x",
+          "alt": "x"
+        }
+      ],
+      "sources": [
+        {
+          "title": "The Oxford History of Ancient Egypt",
+          "author": "Ian Shaw (ed.)",
+          "note": "Oxford University Press, 2000"
+        },
+        {
+          "title": "A History of Ancient Egypt",
+          "author": "Nicolas Grimal",
+          "note": "Blackwell, 1992"
+        },
+        {
+          "title": "The Complete Royal Families of Ancient Egypt",
+          "author": "Aidan Dodson and Dyan Hilton",
+          "note": "Thames & Hudson, 2004"
+        },
+        {
+          "title": "Chronicle of the Pharaohs",
+          "author": "Peter A. Clayton",
+          "note": "Thames & Hudson, 1994"
+        }
+      ],
+      "review": {
+        "status": "draft",
+        "notes": "Drafted from the listed sources; needs a human fact-check."
+      }
+    },
+    {
+      "id": "senusret-ii",
+      "kind": "monarch",
+      "rulers": [
+        "senusret-ii"
+      ],
+      "tagline": "The peacetime king of the Faiyum and the pyramid town",
+      "start": {
+        "date": "-1877",
+        "circa": true
+      },
+      "end": {
+        "date": "-1870",
+        "circa": true
+      },
+      "contestedWith": [],
+      "relationToPredecessor": "Son of Amenemhat II",
+      "ageAtAccession": "Unknown",
+      "cameToPower": "Co-king, then succeeded his father",
+      "reignEnded": "Died; Senusret III followed",
+      "previously": "Amenemhat II dies after about 35 years.",
+      "paragraphs": [
+        "Senusret II seems to have been a king for peacetime: no war is recorded in his reign. He turned to the Faiyum, the great lake basin west of the Nile, and began works to bring water in from the Bahr Yussef, the branch of the Nile that feeds it, and to turn swamp into farmland. His grandson Amenemhat III would carry the work much further.",
+        "He built his pyramid at El-Lahun, at the mouth of the Faiyum, with a mudbrick core held in place by stone walls. Beside it stood the town for its workers and priests, which Flinders Petrie dug in 1889. It is one of the best-preserved towns from ancient Egypt, and it yielded a hoard of papyri: letters, accounts, census lists, and medical and veterinary texts.",
+        "In 1914 Guy Brunton found a hidden recess in the tomb of his daughter Sithathoriunet, full of jewellery robbers had missed, including a gold pectoral with her father's name. At Beni Hasan, a governor's tomb painted in Senusret's 6th year shows a party of 37 Asiatics, led by a chief called Abisha, arriving with eye paint to trade."
+      ],
+      "claims": [
+        {
+          "text": "His reign lasted far longer than the seven years given here.",
+          "status": "disputed",
+          "note": "Estimates run from about 8 to 19 years, depending on how the co-regency with his father is counted."
+        },
+        {
+          "text": "Abisha, in the Beni Hasan painting, is called 'ruler of foreign lands', the title later used by the Hyksos kings.",
+          "status": "confirmed",
+          "note": "The caption is painted in the tomb of the governor Khnumhotep II."
+        }
+      ],
+      "hook": "Senusret II's reign is over. His son Senusret III will be a very different king: a hard soldier with his eyes fixed on Nubia.",
+      "images": [
+        {
+          "file": "File:X senusret-ii.jpg",
+          "url": "https://upload.wikimedia.org/x.jpg",
+          "page": "https://commons.wikimedia.org/wiki/File:X",
+          "credit": "x",
+          "license": "CC0",
+          "made": "x",
+          "caption": "x",
+          "alt": "x"
+        }
+      ],
+      "sources": [
+        {
+          "title": "The Oxford History of Ancient Egypt",
+          "author": "Ian Shaw (ed.)",
+          "note": "Oxford University Press, 2000"
+        },
+        {
+          "title": "A History of Ancient Egypt",
+          "author": "Nicolas Grimal",
+          "note": "Blackwell, 1992"
+        },
+        {
+          "title": "The Complete Royal Families of Ancient Egypt",
+          "author": "Aidan Dodson and Dyan Hilton",
+          "note": "Thames & Hudson, 2004"
+        },
+        {
+          "title": "Illahun, Kahun and Gurob",
+          "author": "W. M. Flinders Petrie",
+          "note": "David Nutt, 1891"
+        }
+      ],
+      "review": {
+        "status": "draft",
+        "notes": "Drafted from the listed sources; needs a human fact-check."
+      }
+    },
+    {
       "id": "senusret-iii",
       "kind": "monarch",
       "rulers": [
@@ -5220,7 +6124,7 @@
       "ageAtAccession": "Unknown",
       "cameToPower": "Succeeded his father",
       "reignEnded": "Died; reign length disputed",
-      "previously": "Senusret I dies. Amenemhat II and Senusret II keep the peace.",
+      "previously": "Senusret II dies, leaving a rich and peaceful Egypt.",
       "paragraphs": [
         "Senusret III went to Nubia, and kept going back. His boats couldn't get easily past the rocks of the first cataract at Aswan, so he had a channel cut through them. Then he marched south, campaigning year after year, and built a chain of huge mudbrick forts around the second cataract, with thick walls, ditches and lookout posts, to control everything that moved on the river.",
         "At Semna he set up a boundary stela with a blunt message for his heirs. Any son of his who held this border was truly his son. Any who gave it up was no son of his at all. The Nubians remembered him too: centuries later Thutmose III built a temple at Semna where Senusret was worshipped as a god. At home he seems to have cut the great provincial governors down to size.",
@@ -5326,7 +6230,7 @@
           "note": "Early Egyptologists, misled by later kings' names carved on them, credited them to the Hyksos. Their faces are now recognised as Amenemhat III's."
         }
       ],
-      "hook": "Amenemhat IV dies with no son to follow him. For the first time we can be sure of, a woman is about to take the throne of Egypt as king.",
+      "hook": "The old king is dying. His heir Amenemhat IV is already crowned beside him, but the family that has ruled for two centuries is running out of sons.",
       "images": [
         {
           "file": "File:Sphinxes of Amenemhat III.jpg",
@@ -5354,6 +6258,84 @@
           "title": "The Rise and Fall of Ancient Egypt",
           "author": "Toby Wilkinson",
           "note": "Bloomsbury, 2010"
+        },
+        {
+          "title": "Chronicle of the Pharaohs",
+          "author": "Peter A. Clayton",
+          "note": "Thames & Hudson, 1994"
+        }
+      ],
+      "review": {
+        "status": "draft",
+        "notes": "Drafted from the listed sources; needs a human fact-check."
+      }
+    },
+    {
+      "id": "amenemhat-iv",
+      "kind": "monarch",
+      "rulers": [
+        "amenemhat-iv"
+      ],
+      "tagline": "The last king of a great family, with no son to follow",
+      "start": {
+        "date": "-1786",
+        "circa": true
+      },
+      "end": {
+        "date": "-1777",
+        "circa": true
+      },
+      "contestedWith": [],
+      "relationToPredecessor": "Heir of Amenemhat III; perhaps grandson",
+      "ageAtAccession": "Unknown",
+      "cameToPower": "Co-king, then sole king",
+      "reignEnded": "Died with no son; Sobekneferu followed",
+      "previously": "Amenemhat III dies after some 45 golden years.",
+      "paragraphs": [
+        "Amenemhat IV shared the throne with the old king Amenemhat III for a time before he ruled alone. His mother Hetepti was called 'king's mother' but never queen, so he may have been a grandson of Amenemhat III, or a son by a lesser wife. The Turin king list gives him 9 years, 3 months and 27 days.",
+        "He kept the old king's projects going. Expeditions went to the turquoise mines of the Sinai and to Wadi el-Hudi for amethyst, and objects with his name reached Byblos on the Lebanese coast. In the Faiyum he finished the temple at Medinet Madi, begun under Amenemhat III, for the harvest goddess Renenutet and the crocodile god Sobek. It is one of the best-preserved temples of the Middle Kingdom.",
+        "His tomb has never been identified; one of two unfinished pyramids at Mazghuna, south of Dahshur, is a guess. When he died he left no son, and the throne passed to Sobekneferu, probably a daughter of Amenemhat III."
+      ],
+      "claims": [
+        {
+          "text": "Amenemhat IV was not Amenemhat III's son.",
+          "status": "disputed",
+          "note": "Argued from his mother's lack of a queen's title. He may still have been a son by a minor wife, or a grandson."
+        },
+        {
+          "text": "Amenemhat IV and Sobekneferu were husband and wife.",
+          "status": "disputed",
+          "note": "A guess based on her taking the throne after him. No text says so."
+        }
+      ],
+      "hook": "Amenemhat IV dies with no son to follow him. For the first time we can be sure of, a woman is about to take the throne of Egypt as king.",
+      "images": [
+        {
+          "file": "File:X amenemhat-iv.jpg",
+          "url": "https://upload.wikimedia.org/x.jpg",
+          "page": "https://commons.wikimedia.org/wiki/File:X",
+          "credit": "x",
+          "license": "CC0",
+          "made": "x",
+          "caption": "x",
+          "alt": "x"
+        }
+      ],
+      "sources": [
+        {
+          "title": "The Oxford History of Ancient Egypt",
+          "author": "Ian Shaw (ed.)",
+          "note": "Oxford University Press, 2000"
+        },
+        {
+          "title": "A History of Ancient Egypt",
+          "author": "Nicolas Grimal",
+          "note": "Blackwell, 1992"
+        },
+        {
+          "title": "The Complete Royal Families of Ancient Egypt",
+          "author": "Aidan Dodson and Dyan Hilton",
+          "note": "Thames & Hudson, 2004"
         },
         {
           "title": "Chronicle of the Pharaohs",
@@ -5883,7 +6865,7 @@
         "circa": true
       },
       "end": {
-        "date": "-1767",
+        "date": "-1766",
         "circa": true
       },
       "contestedWith": [
@@ -5953,11 +6935,11 @@
       ],
       "tagline": "A king in two pieces, Vienna and Aswan",
       "start": {
-        "date": "-1767",
+        "date": "-1766",
         "circa": true
       },
       "end": {
-        "date": "-1767",
+        "date": "-1765",
         "circa": true
       },
       "contestedWith": [
@@ -5997,7 +6979,7 @@
           "page": "https://commons.wikimedia.org/wiki/File:Amenemhat_V.jpg",
           "credit": "Juan R. Lazaro",
           "license": "CC BY 2.0",
-          "made": "c. 1767 BC",
+          "made": "c. 1766 BC",
           "caption": "Green stone statue of Amenemhat V from Elephantine, upper part in Vienna; kings were shown in a fixed royal style, not as true likenesses.",
           "alt": "Stone statue of an Egyptian king from Elephantine, wearing the royal headcloth"
         }
@@ -6032,21 +7014,21 @@
       ],
       "tagline": "A pyramid in the desert with his name inside",
       "start": {
-        "date": "-1767",
+        "date": "-1765",
         "circa": true
       },
       "end": {
-        "date": "-1765",
+        "date": "-1764",
         "circa": true
       },
       "relationToPredecessor": "Perhaps son of Amenemhat V",
       "ageAtAccession": "Unknown",
       "cameToPower": "Succeeded Amenemhat V",
-      "reignEnded": "Unknown; reigned about 2 years",
+      "reignEnded": "Unknown; reigned a year or two",
       "previously": "Amenemhat V dies, leaving his statue at Elephantine.",
       "paragraphs": [
         "Ameny Qemau is one of the few 13th Dynasty kings whose tomb we can point to. In 1957 the explorer Charles Muses dug into a ruined pyramid at southern Dahshur, near the great pyramids of the 12th Dynasty. Its upper parts had long been stripped for stone, but inside were pieces of canopic jars, the containers for a mummy's organs, carved with the name of King Ameny Qemau.",
-        "Beyond the pyramid we know very little. His double name may mean 'Qemau, son of Ameny', and Ameny was a short form of Amenemhat, so he may have been a son of Amenemhat V. Even a reign of two years was enough to start a pyramid, which shows the royal workshops near the capital were still running smoothly."
+        "Beyond the pyramid we know very little. His double name may mean 'Qemau, son of Ameny', and Ameny was a short form of Amenemhat, so he may have been a son of Amenemhat V. Even a reign of a year or two was enough to start a pyramid, which shows the royal workshops near the capital were still running smoothly."
       ],
       "claims": [
         {
@@ -6106,7 +7088,7 @@
       ],
       "tagline": "His name turned up in a prince's tomb in Syria",
       "start": {
-        "date": "-1765",
+        "date": "-1764",
         "circa": true
       },
       "end": {
@@ -6184,13 +7166,13 @@
         "circa": true
       },
       "end": {
-        "date": "-1761",
+        "date": "-1762",
         "circa": true
       },
       "relationToPredecessor": "Unclear; perhaps grandson of Ameny",
       "ageAtAccession": "Unknown",
       "cameToPower": "Followed Hotepibre",
-      "reignEnded": "Unknown; reigned about 2 years",
+      "reignEnded": "Unknown; reigned a year or two",
       "previously": "Hotepibre Qemau Siharnedjheritef dies after a couple of years.",
       "paragraphs": [
         "Seankhibre Amenemhat VI went by a string of names, Ameny Antef Amenemhat. Kim Ryholt has read them as a family tree: Amenemhat, son of Antef, son of Ameny. If he is right, the king was a grandson of an earlier ruler and part of a family that kept passing the crown around.",
@@ -6254,11 +7236,11 @@
       ],
       "tagline": "A king who survives as one line in a list and one stone",
       "start": {
-        "date": "-1761",
+        "date": "-1762",
         "circa": true
       },
       "end": {
-        "date": "-1759",
+        "date": "-1761",
         "circa": true
       },
       "contestedWith": [
@@ -6328,11 +7310,11 @@
       ],
       "tagline": "His seal went all the way to Byblos",
       "start": {
-        "date": "-1759",
+        "date": "-1761",
         "circa": true
       },
       "end": {
-        "date": "-1759",
+        "date": "-1760",
         "circa": true
       },
       "contestedWith": [
@@ -6367,7 +7349,7 @@
           "page": "https://commons.wikimedia.org/wiki/File:Cylinder_Sehetepibre_by_Khruner.jpg",
           "credit": "Khruner",
           "license": "CC BY-SA 4.0",
-          "made": "Seal c. 1759 BC; drawing 2015",
+          "made": "Seal c. 1760 BC; drawing 2015",
           "caption": "Modern drawing of the lapis lazuli cylinder seal naming Sehetepibre and a ruler of Byblos, now in the Met; not a portrait.",
           "alt": "Line drawing of a cylinder seal with hieroglyphs and a cuneiform inscription"
         }
@@ -6402,7 +7384,7 @@
       ],
       "tagline": "A king who exists in one line of papyrus",
       "start": {
-        "date": "-1759",
+        "date": "-1760",
         "circa": true
       },
       "end": {
@@ -6480,7 +7462,7 @@
         "circa": true
       },
       "end": {
-        "date": "-1759",
+        "date": "-1758",
         "circa": true
       },
       "contestedWith": [
@@ -6550,7 +7532,7 @@
       ],
       "tagline": "One of many Sobekhoteps, and one who built for Osiris",
       "start": {
-        "date": "-1759",
+        "date": "-1758",
         "circa": true
       },
       "end": {
@@ -6589,7 +7571,7 @@
           "page": "https://commons.wikimedia.org/wiki/File:Sobekhotep_II.jpg",
           "credit": "Juan R. Lazaro",
           "license": "CC BY 2.0",
-          "made": "c. 1759-1757 BC",
+          "made": "c. 1758-1757 BC",
           "caption": "A carved block from his chapel at Abydos, now in the Louvre; kings were shown in a fixed royal style, not as true likenesses.",
           "alt": "Limestone relief block showing King Khaankhre Sobekhotep with hieroglyphic inscriptions"
         }
@@ -6628,7 +7610,7 @@
         "circa": true
       },
       "end": {
-        "date": "-1757",
+        "date": "-1756",
         "circa": true
       },
       "contestedWith": [
@@ -6698,7 +7680,7 @@
       ],
       "tagline": "Months on the throne, then forever in a wooden statue",
       "start": {
-        "date": "-1757",
+        "date": "-1756",
         "circa": true
       },
       "end": {
@@ -6742,7 +7724,7 @@
           "page": "https://commons.wikimedia.org/wiki/File:Statue_of_the_ka_of_Awibra_Hor_from_Dahshur,_13th_Dynasty,_first_half_of_17th_century_BCE;_Egyptian_Museum,_Cairo_(1).jpg",
           "credit": "Prof. Mortel",
           "license": "CC BY 2.0",
-          "made": "c. 1757-1755 BC",
+          "made": "c. 1756-1755 BC",
           "caption": "Hor's wooden ka statue, found in his tomb at Dahshur in 1894 and now in Cairo; a ritual figure in the royal style, not a true likeness.",
           "alt": "Wooden statue of a naked striding king with inlaid eyes and the raised-arms ka sign on his head, in the Egyptian Museum, Cairo"
         }
@@ -6781,7 +7763,7 @@
         "circa": true
       },
       "end": {
-        "date": "-1755",
+        "date": "-1753",
         "circa": true
       },
       "contestedWith": [
@@ -6851,11 +7833,11 @@
       ],
       "tagline": "His name on the bed of Osiris, half scratched out",
       "start": {
-        "date": "-1755",
+        "date": "-1753",
         "circa": true
       },
       "end": {
-        "date": "-1755",
+        "date": "-1751",
         "circa": true
       },
       "contestedWith": [
@@ -6890,7 +7872,7 @@
           "page": "https://commons.wikimedia.org/wiki/File:OsirisBed.jpg",
           "credit": "Juan R. Lazaro",
           "license": "CC BY-SA 3.0",
-          "made": "c. 1755 BC",
+          "made": "c. 1752 BC",
           "caption": "The Bed of Osiris from the tomb of Djer at Abydos, now in Cairo, carved with Djedkheperew's name; not a portrait.",
           "alt": "Black stone sculpture of the god Osiris lying on a bier shaped like a lion"
         }
@@ -6930,11 +7912,11 @@
       ],
       "tagline": "Amenemhat, son of Kay? A king with his father in his name",
       "start": {
-        "date": "-1755",
+        "date": "-1751",
         "circa": true
       },
       "end": {
-        "date": "-1753",
+        "date": "-1749",
         "circa": true
       },
       "contestedWith": [
@@ -6943,7 +7925,7 @@
       "relationToPredecessor": "Perhaps son of an earlier king, Kay",
       "ageAtAccession": "Unknown",
       "cameToPower": "Followed kings known only from seals",
-      "reignEnded": "End unknown, after about 2 years",
+      "reignEnded": "End unknown, after a year or two",
       "previously": "Djedkheperew dies, his name later scratched off Osiris's bed.",
       "paragraphs": [
         "His full name was Sedjefakare Kay-Amenemhat, and that double birth name is the puzzle. Kim Ryholt argues that names like this were family labels, meaning something like 'Amenemhat, son of Kay'. If he is right, the king's father was a man called Kay, perhaps one of the shadowy kings just before him. Several 13th Dynasty kings may have used the trick to show that royal blood did run in their veins.",
@@ -6969,7 +7951,7 @@
           "page": "https://commons.wikimedia.org/wiki/File:Scarab_With_Throne_Name_of_Amenemhat_VII_(Sedjefakare)_MET_LC-26_7_85_EGDP025827.jpg",
           "credit": "Metropolitan Museum of Art",
           "license": "CC0",
-          "made": "c. 1755-1753 BC",
+          "made": "c. 1751-1749 BC",
           "caption": "A small scarab with his throne name Sedjefakare, now in the Metropolitan Museum of Art; an object from his reign, not a portrait.",
           "alt": "Small stone scarab, its flat underside carved with hieroglyphs giving the throne name Sedjefakare"
         }
@@ -7004,11 +7986,11 @@
       ],
       "tagline": "The king the ancient list may have filed in the wrong place",
       "start": {
-        "date": "-1753",
+        "date": "-1749",
         "circa": true
       },
       "end": {
-        "date": "-1751",
+        "date": "-1747",
         "circa": true
       },
       "contestedWith": [
@@ -7083,11 +8065,11 @@
       ],
       "tagline": "A king nicknamed 'Boar' who built a real pyramid",
       "start": {
-        "date": "-1751",
+        "date": "-1747",
         "circa": true
       },
       "end": {
-        "date": "-1746",
+        "date": "-1742",
         "circa": true
       },
       "contestedWith": [
@@ -7162,11 +8144,11 @@
       ],
       "tagline": "His name meant 'general', and maybe so did his old job",
       "start": {
-        "date": "-1746",
+        "date": "-1742",
         "circa": true
       },
       "end": {
-        "date": "-1744",
+        "date": "-1740",
         "circa": true
       },
       "contestedWith": [
@@ -7201,7 +8183,7 @@
           "page": "https://commons.wikimedia.org/wiki/File:%C3%84gyptisches_Museum_Kairo_2019-11-09_Emramescha_01.jpg",
           "credit": "Djehouty",
           "license": "CC BY-SA 4.0",
-          "made": "c. 1746-1744 BC",
+          "made": "c. 1742-1740 BC",
           "caption": "One of Imyremeshaw's two colossal granite statues, later taken to Tanis and now in Cairo; an idealised royal image, not a true likeness.",
           "alt": "Colossal granite seated statue of a king wearing the royal headcloth, in the Egyptian Museum, Cairo"
         }
@@ -7236,11 +8218,11 @@
       ],
       "tagline": "Only the last three days of his reign survive",
       "start": {
-        "date": "-1744",
+        "date": "-1740",
         "circa": true
       },
       "end": {
-        "date": "-1744",
+        "date": "-1739",
         "circa": true
       },
       "contestedWith": [
@@ -7275,7 +8257,7 @@
           "page": "https://commons.wikimedia.org/wiki/File:Hotepkare_cylinder_Petrie.png",
           "credit": "Flinders Petrie",
           "license": "Public domain",
-          "made": "Seal c. 1744 BC; drawing published 1917",
+          "made": "Seal c. 1740 BC; drawing published 1917",
           "caption": "Petrie's drawing of a cylinder seal naming a King Hotepkare, probably Intef; the match is not certain. Not a portrait.",
           "alt": "Line drawing of a cylinder seal with a royal cartouche in hieroglyphs"
         }
@@ -7310,11 +8292,11 @@
       ],
       "tagline": "A king named after the god of chaos",
       "start": {
-        "date": "-1744",
+        "date": "-1739",
         "circa": true
       },
       "end": {
-        "date": "-1744",
+        "date": "-1738",
         "circa": true
       },
       "contestedWith": [
@@ -7354,7 +8336,7 @@
           "page": "https://commons.wikimedia.org/wiki/File:GD-FR-LouvreEG134.JPG",
           "credit": "Néfermaât (Gérard Ducher)",
           "license": "CC BY-SA 2.5",
-          "made": "c. 1744 BC",
+          "made": "c. 1739 BC",
           "caption": "A block from Medamud in the Louvre with Sobekhotep III's cartouche, which may have been carved over Seth's name; not a portrait.",
           "alt": "Carved stone block with a royal cartouche in hieroglyphs"
         }
@@ -7389,11 +8371,11 @@
       ],
       "tagline": "The king who put his commoner parents on show",
       "start": {
-        "date": "-1744",
+        "date": "-1738",
         "circa": true
       },
       "end": {
-        "date": "-1740",
+        "date": "-1734",
         "circa": true
       },
       "contestedWith": [
@@ -7428,7 +8410,7 @@
           "page": "https://commons.wikimedia.org/wiki/File:SobekhotepIII-DualRelief_BrooklynMuseum.png",
           "credit": "Keith Schengili-Roberts",
           "license": "CC BY-SA 2.5",
-          "made": "c. 1744-1740 BC",
+          "made": "c. 1738-1734 BC",
           "caption": "A relief of Sobekhotep III in the Brooklyn Museum, showing him twice in mirror-image scenes; the royal style, not a true likeness.",
           "alt": "Stone relief carved with two mirror-image scenes of the king, with a round hole drilled through the middle"
         }
@@ -7463,11 +8445,11 @@
       ],
       "tagline": "The king who went back to the old books for Osiris",
       "start": {
-        "date": "-1740",
+        "date": "-1734",
         "circa": true
       },
       "end": {
-        "date": "-1729",
+        "date": "-1723",
         "circa": true
       },
       "contestedWith": [
@@ -7481,7 +8463,7 @@
       "paragraphs": [
         "Khasekhemre Neferhotep was another king who openly named his non-royal parents, Haankhef and Kemi. With him the throne finally steadied. The Turin list gives him eleven years, an age by this dynasty's standards, and his name turns up from the Delta to Aswan. Even a ruler of Byblos, on the coast of today's Lebanon, had himself carved seated before Neferhotep's name, a sign that Egypt still counted abroad.",
         "His most famous text is a great stela at Abydos. In it the king tells how he had the temple's house of books opened and searched the ancient writings of the creator god Atum, so that a new statue of Osiris could be made exactly as the god had been in the beginning. Then he sailed to Abydos and took part in the god's festival in person. It is the voice of a king who wanted to do things properly.",
-        "He had two brothers. One, Sihathor, seems to have shared the crown for a short time and died first. When Neferhotep died, the throne went to the other, Sobekhotep."
+        "He had two brothers. One, Sihathor, was crowned beside him near the end of his reign, and the two died within a short time of each other. Then the throne went to the other, Sobekhotep."
       ],
       "claims": [
         {
@@ -7500,7 +8482,7 @@
           "note": "Sihathor appears with royal names, but whether he ever really reigned, even as a junior partner, is uncertain."
         }
       ],
-      "hook": "Next in the Turin list comes his brother Sihathor, a king for a few months at most. Did he ever rule alone, or only at Neferhotep's side?",
+      "hook": "In his last months Neferhotep crowns his brother Sihathor beside him. The Turin list gives Sihathor a few months of his own. Did he ever rule alone?",
       "images": [
         {
           "file": "File:King Neferhotep, Abydos, Egypt, Middle Kingdom, Dynasty 13, reign of Neferhotep, c. 1750 BC, quartzite - Oriental Institute Museum, University of Chicago - DSC07792.JPG",
@@ -7508,7 +8490,7 @@
           "page": "https://commons.wikimedia.org/wiki/File:King_Neferhotep,_Abydos,_Egypt,_Middle_Kingdom,_Dynasty_13,_reign_of_Neferhotep,_c._1750_BC,_quartzite_-_Oriental_Institute_Museum,_University_of_Chicago_-_DSC07792.JPG",
           "credit": "Daderot",
           "license": "CC0",
-          "made": "c. 1740-1729 BC",
+          "made": "c. 1734-1723 BC",
           "caption": "A quartzite statue of Neferhotep I from Abydos, now in the Oriental Institute Museum, Chicago; idealised in the royal style.",
           "alt": "Quartzite statue fragment of a king, shown in a museum display case"
         }
@@ -7548,11 +8530,11 @@
       ],
       "tagline": "The middle brother who was king for months",
       "start": {
-        "date": "-1729",
+        "date": "-1723",
         "circa": true
       },
       "end": {
-        "date": "-1729",
+        "date": "-1722",
         "circa": true
       },
       "contestedWith": [
@@ -7561,11 +8543,11 @@
       "relationToPredecessor": "Younger brother of Neferhotep I",
       "ageAtAccession": "Unknown",
       "cameToPower": "Named king beside his brother",
-      "reignEnded": "Died young, months into his reign",
-      "previously": "Neferhotep I has ruled for about eleven years.",
+      "reignEnded": "Died within months, before his brother",
+      "previously": "Neferhotep I dies after 11 years, his brother already crowned.",
       "paragraphs": [
         "Sihathor was one of three brothers who held the crown: Neferhotep I, Sihathor and Sobekhotep IV, sons of Haankhef and Kemi. Rock inscriptions on the islands of Philae and Sehel, carved for Neferhotep, show him in the family group. On two statues at the shrine of Heqaib on Elephantine he is only a 'king's son'. On a cylinder seal in the Petrie Museum he is king.",
-        "The Turin list places him right after Neferhotep with a reign of a few months, but the months themselves are lost. Most scholars think he was made co-king beside his brother and died first, never ruling alone. Josef Wegner's digs at Abydos found an unfinished royal tomb wedged between the great tombs of the other two brothers. It may well be his."
+        "The Turin list puts him right after Neferhotep with a reign of a few months, though the number itself is lost. Most scholars think those months were spent as co-king in Neferhotep's last year and that Sihathor died first, so he never ruled alone; this card simply follows the king list's order. At Abydos, Josef Wegner's team found an unfinished royal tomb wedged between the great tombs of the other two brothers. It may well be his."
       ],
       "claims": [
         {
@@ -7584,7 +8566,7 @@
           "note": "Neferhotep I's rock inscriptions at Philae and Sehel name the family."
         }
       ],
-      "hook": "With Sihathor and then Neferhotep dead, the crown passes to the last brother, Sobekhotep IV, who says he was born in Thebes.",
+      "hook": "Both brothers are dead within months of each other. The crown passes to the last of them, Sobekhotep IV, who says he was born in Thebes.",
       "images": [
         {
           "file": "File:Turiner2.png",
@@ -7627,11 +8609,11 @@
       ],
       "tagline": "The third brother, and the dynasty's last high point",
       "start": {
-        "date": "-1729",
+        "date": "-1722",
         "circa": true
       },
       "end": {
-        "date": "-1719",
+        "date": "-1712",
         "circa": true
       },
       "contestedWith": [
@@ -7666,7 +8648,7 @@
           "page": "https://commons.wikimedia.org/wiki/File:Kh%C3%A2n%C3%A9ferr%C3%AA_Sobekhotep_-_Mus%C3%A9e_du_Louvre_Antiquit%C3%A9s_%C3%A9gyptiennes_N_17_;_A_17.jpg",
           "credit": "Shonagon",
           "license": "CC0",
-          "made": "c. 1729-1719 BC",
+          "made": "c. 1722-1712 BC",
           "caption": "A seated granite statue of Sobekhotep IV, found at Tanis and now in the Louvre; an idealised royal image, not a true likeness.",
           "alt": "Seated granite statue of a king wearing the royal headcloth and kilt, in the Louvre"
         }
@@ -7706,11 +8688,11 @@
       ],
       "tagline": "The Sobekhotep we know by his mother's name",
       "start": {
-        "date": "-1719",
+        "date": "-1712",
         "circa": true
       },
       "end": {
-        "date": "-1719",
+        "date": "-1709",
         "circa": true
       },
       "contestedWith": [
@@ -7750,7 +8732,7 @@
           "page": "https://commons.wikimedia.org/wiki/File:Statue_of_Merhotepre_Sobekhotep_V.jpg",
           "credit": "D. Denisenkov (ddenisen)",
           "license": "CC BY-SA 2.0",
-          "made": "c. 1719 BC",
+          "made": "c. 1712 BC",
           "caption": "Seated granodiorite statue of Merhotepre Sobekhotep from the Cairo Museum, shown on tour; an idealised royal image, not a true likeness.",
           "alt": "Dark stone statue of a seated Egyptian king, with his names carved on the throne"
         }
@@ -7785,11 +8767,11 @@
       ],
       "tagline": "A reign the king list measured to the very day",
       "start": {
-        "date": "-1719",
+        "date": "-1709",
         "circa": true
       },
       "end": {
-        "date": "-1715",
+        "date": "-1704",
         "circa": true
       },
       "contestedWith": [
@@ -7824,7 +8806,7 @@
           "page": "https://commons.wikimedia.org/wiki/File:Kneeling_figure_of_Sobekhotep_V,_from_Egypt,_Second_Intermediate_Period,_c._1750-1700_BCE._Neues_Museum,_Berlin,_Germany.jpg",
           "credit": "Osama Shukir Muhammed Amin FRCP(Glasg)",
           "license": "CC BY-SA 4.0",
-          "made": "c. 1719-1715 BC",
+          "made": "c. 1709-1704 BC",
           "caption": "A kneeling granite statue of King Khahotepre Sobekhotep holding ointment jars, now in Berlin; some books number him Sobekhotep V.",
           "alt": "Granite statue of a kneeling king wearing the royal headcloth, holding a small round jar, the other one lost"
         }
@@ -7859,11 +8841,11 @@
       ],
       "tagline": "Ten quiet years in a dynasty of revolving doors",
       "start": {
-        "date": "-1715",
+        "date": "-1704",
         "circa": true
       },
       "end": {
-        "date": "-1705",
+        "date": "-1694",
         "circa": true
       },
       "contestedWith": [
@@ -7898,7 +8880,7 @@
           "page": "https://commons.wikimedia.org/wiki/File:Ibiau_stele_BM_Budge.png",
           "credit": "E. A. Wallis Budge (1857-1934)",
           "license": "Public domain",
-          "made": "c. 1715-1705 BC",
+          "made": "c. 1704-1694 BC",
           "caption": "A drawing of a British Museum stela of the officer Sahathor and his family, dated by Ibiau's cartouche; not a portrait of the king.",
           "alt": "Line drawing of a stela with rows of seated family members and hieroglyphic text, a royal cartouche at the top right"
         }
@@ -7933,11 +8915,11 @@
       ],
       "tagline": "The last king whose writ ran the whole Nile",
       "start": {
-        "date": "-1705",
+        "date": "-1694",
         "circa": true
       },
       "end": {
-        "date": "-1682",
+        "date": "-1671",
         "circa": true
       },
       "contestedWith": [
@@ -7949,7 +8931,7 @@
       "reignEnded": "End of the longest reign in the line",
       "previously": "Ibiau dies after about ten years, a long run for this dynasty.",
       "paragraphs": [
-        "Merneferre Ay broke the pattern. In a dynasty where most kings barely lasted a year or two, the Turin king list gives him 23 years and 8 months, the longest reign of the whole 13th Dynasty. Shaw gives no dates for single kings in this age, so the years on this card are only a rough fit, about 1705 to 1682 BC.",
+        "Merneferre Ay broke the pattern. In a dynasty where most kings barely lasted a year or two, the Turin king list gives him 23 years and 8 months, the longest reign of the whole 13th Dynasty. Shaw gives no dates for single kings in this age, so the years on this card are only a rough fit, about 1694 to 1671 BC.",
         "His scarabs turn up in big numbers, and his name is found in both the south and the far north. His black granite pyramidion, the capstone of a pyramid, shows him in a boat before the god Horus. It turned up at Faqus in the eastern Delta, not far from Avaris. So he planned a proper royal pyramid, though nobody has found it. He is the last 13th Dynasty king with clear traces in both halves of the country.",
         "After him, things slip fast. The eastern Delta was drifting out of the dynasty's reach, into the hands of local lords and Canaanite settlers around Avaris. Ay's successors would rule a shrinking kingdom from the old capital, Itjtawy, near the Faiyum."
       ],
@@ -8018,11 +9000,11 @@
       ],
       "tagline": "Two short years as the north drifted away",
       "start": {
-        "date": "-1682",
+        "date": "-1671",
         "circa": true
       },
       "end": {
-        "date": "-1680",
+        "date": "-1669",
         "circa": true
       },
       "contestedWith": [
@@ -8092,11 +9074,11 @@
       ],
       "tagline": "A king who is little more than a name",
       "start": {
-        "date": "-1680",
+        "date": "-1669",
         "circa": true
       },
       "end": {
-        "date": "-1677",
+        "date": "-1666",
         "circa": true
       },
       "contestedWith": [
@@ -8166,11 +9148,11 @@
       ],
       "tagline": "One king, or two names for the same man?",
       "start": {
-        "date": "-1677",
+        "date": "-1666",
         "circa": true
       },
       "end": {
-        "date": "-1674",
+        "date": "-1663",
         "circa": true
       },
       "contestedWith": [
@@ -8240,11 +9222,11 @@
       ],
       "tagline": "Five years: almost a long reign, for this lot",
       "start": {
-        "date": "-1674",
+        "date": "-1663",
         "circa": true
       },
       "end": {
-        "date": "-1669",
+        "date": "-1658",
         "circa": true
       },
       "contestedWith": [
@@ -8314,11 +9296,11 @@
       ],
       "tagline": "The last Sobekhotep before the list goes dark",
       "start": {
-        "date": "-1669",
+        "date": "-1658",
         "circa": true
       },
       "end": {
-        "date": "-1660",
+        "date": "-1656",
         "circa": true
       },
       "contestedWith": [
@@ -8330,7 +9312,7 @@
       "reignEnded": "Followed by lost names",
       "previously": "Hori dies after about five years, a long reign for the time.",
       "paragraphs": [
-        "Merkawre Sobekhotep was named after Sobek, the crocodile god, like so many kings of his dynasty. Scholars number him Sobekhotep VII, though the numbering of the Sobekhoteps changes from book to book. The Turin king list gives him about two years. The span on this card runs longer, because the years after him are almost a blank.",
+        "Merkawre Sobekhotep was named after Sobek, the crocodile god, like so many kings of his dynasty. Scholars number him Sobekhotep VII, though the numbering of the Sobekhoteps changes from book to book. The Turin king list gives him about two years.",
         "A statue from Karnak carries his names. He is one of the last 13th Dynasty kings with a known name and length. Right after him the Turin papyrus breaks into damaged entries: kings whose names are half lost or whose years are missing. The dynasty was not dead yet. But Egypt was splitting, and the next few kings would leave so little behind that no one can give them a card of their own."
       ],
       "claims": [
@@ -8388,7 +9370,7 @@
       "title": "The Last Kings of the Thirteenth Dynasty",
       "tagline": "Half-erased names as the old kingdom ran out",
       "start": {
-        "date": "-1660",
+        "date": "-1656",
         "circa": true
       },
       "end": {
@@ -8404,7 +9386,7 @@
       "reignEnded": "Hyksos kings take the north",
       "previously": "Sobekhotep VII dies. The king list breaks into lost names.",
       "paragraphs": [
-        "By about 1660 BC the 13th Dynasty was running on fumes. Over roughly 120 years it had gone through 50 kings or more, from Sobekhotep I and the brothers Neferhotep I and Sobekhotep IV to Merneferre Ay with his 24 years. Now the Turin king list breaks into damaged entries: names with no years, years with no names, and kings like Senusret IV and Dedumose who are known from a stela or two.",
+        "By about 1655 BC the 13th Dynasty was running on fumes. Over roughly 120 years it had gone through 50 kings or more, from Sobekhotep I and the brothers Neferhotep I and Sobekhotep IV to Merneferre Ay with his 24 years. Now the Turin king list breaks into damaged entries: names with no years, years with no names, and kings like Senusret IV and Dedumose who are known from a stela or two.",
         "Their realm had shrunk to the Nile valley south of Memphis. The eastern Delta answered to Avaris, where rulers of Canaanite descent held power. Later Egyptians remembered this as the moment disaster struck. Manetho, quoted by Josephus, says that under a king he calls Tutimaios 'God was displeased with us', and men of obscure race swept in from the east and took the land without a battle.",
         "The truth was slower. The newcomers had been living in the Delta for generations. But around 1650 BC their chiefs took the title of king and pushed south to Memphis. The court at Itjtawy was finished. In Thebes, local lords carried on, and their line would one day strike back."
       ],
@@ -8456,14 +9438,6 @@
       },
       "members": [
         {
-          "name": "Merkheperre, Merkare and other half-lost names",
-          "note": "Damaged entries in the Turin Canon after Sobekhotep VII; little or nothing else survives"
-        },
-        {
-          "name": "Senusret IV, Dedumose I and II",
-          "note": "Known from a few stelae and inscriptions in the south; some put them in the 16th Dynasty"
-        },
-        {
           "name": "Iufni",
           "start": {
             "date": "-1763",
@@ -8474,6 +9448,34 @@
         {
           "name": "Sebkay",
           "note": "Earlier king known from one ivory wand from Abydos; perhaps Senebkay or two kings; no reign can be dated"
+        },
+        {
+          "name": "Merkheperre, Merkare and other half-lost names",
+          "note": "Damaged entries in the Turin Canon after Sobekhotep VII; little or nothing else survives"
+        },
+        {
+          "name": "Ibi (...maatre)",
+          "note": "Late Turin list entry; only part of his throne name survives"
+        },
+        {
+          "name": "Hor (...webenre)",
+          "note": "Late Turin list entry; most of his throne name is lost"
+        },
+        {
+          "name": "Sewadjare Mentuhotep V",
+          "note": "Known from one relief fragment with his names, found at Deir el-Bahri; numbered Mentuhotep VI by some"
+        },
+        {
+          "name": "Mershepsesre Ini II",
+          "note": "Turin list entry, placed after Mentuhotep V; almost nothing else survives"
+        },
+        {
+          "name": "Sewahenre Senebmiu",
+          "note": "Known from a stela fragment from Gebelein and finds at Deir el-Bahri; exact place in the line unknown"
+        },
+        {
+          "name": "Senusret IV, Dedumose I and II",
+          "note": "Known from a few stelae and inscriptions in the south; some put them in the 16th Dynasty"
         }
       ]
     },

@@ -1034,6 +1034,61 @@
         "note": "Seville"
       },
       "causeOfDeath": "Illness"
+    },
+    {
+      "id": "rudolf-of-rheinfelden",
+      "name": "Rudolf of Rheinfelden",
+      "house": "rivals",
+      "born": {
+        "date": "1025",
+        "circa": true
+      },
+      "died": {
+        "date": "1080-10-15",
+        "note": "Merseburg, the day after the battle on the White Elster"
+      },
+      "causeOfDeath": "Wounds from the Battle on the Elster"
+    },
+    {
+      "id": "henry-vii-hohenstaufen",
+      "name": "Henry (VII)",
+      "house": "hohenstaufen",
+      "born": {
+        "date": "1211",
+        "note": "Sicily"
+      },
+      "died": {
+        "date": "1242-02-12",
+        "note": "Near Martirano, Calabria; some sources say 10 February"
+      },
+      "causeOfDeath": "Fall from his horse"
+    },
+    {
+      "id": "henry-raspe",
+      "name": "Henry Raspe",
+      "house": "rivals",
+      "born": {
+        "date": "1204",
+        "circa": true
+      },
+      "died": {
+        "date": "1247-02-16",
+        "note": "Wartburg Castle, Thuringia"
+      }
+    },
+    {
+      "id": "jobst",
+      "name": "Jobst of Moravia",
+      "house": "luxembourg",
+      "born": {
+        "date": "1354",
+        "circa": true,
+        "note": "Probably Brno"
+      },
+      "died": {
+        "date": "1411-01-18",
+        "note": "Brno"
+      }
     }
   ],
   "reigns": [
@@ -2547,7 +2602,9 @@
       "end": {
         "date": "1105-12-31"
       },
-      "contestedWith": [],
+      "contestedWith": [
+        "rudolf-of-rheinfelden"
+      ],
       "relationToPredecessor": "Son of Henry III",
       "ageAtAccession": "5",
       "cameToPower": "Inherited the crown as a small boy",
@@ -2575,7 +2632,7 @@
           "note": "He died excommunicated. Chroniclers report he was only buried in the cathedral in 1111, once the ban was lifted."
         }
       ],
-      "hook": "The son who betrayed his father now holds the crown. Will he give in to the popes, or pick the same fight all over again?",
+      "hook": "Rewind to March 1077. Henry has just been forgiven at Canossa, but the princes who wanted him gone have already picked a new king: his own brother-in-law, Rudolf of Swabia.",
       "images": [
         {
           "file": "File:Heinrich 4 g.jpg",
@@ -2612,6 +2669,112 @@
       "review": {
         "status": "draft",
         "notes": "Drafted from the listed sources; needs a human fact-check."
+      },
+      "members": [
+        {
+          "name": "Hermann of Salm",
+          "start": {
+            "date": "1081-08-06"
+          },
+          "end": {
+            "date": "1088-09-28"
+          },
+          "note": "Second anti-king, crowned at Goslar; backed only by the Saxons, he gave up and was killed in a feud near Cochem"
+        },
+        {
+          "name": "Conrad, son of Henry IV",
+          "start": {
+            "date": "1087-05-30"
+          },
+          "end": {
+            "date": "1098-05",
+            "circa": true
+          },
+          "note": "Crowned co-king at Aachen; rebelled in 1093 and was crowned King of Italy at Milan; deposed at Mainz in 1098"
+        }
+      ]
+    },
+    {
+      "id": "rudolf-of-rheinfelden",
+      "kind": "claimant",
+      "rulers": [
+        "rudolf-of-rheinfelden"
+      ],
+      "tagline": "The rival king who lost his sword hand",
+      "start": {
+        "date": "1077-03-15"
+      },
+      "end": {
+        "date": "1080-10-15"
+      },
+      "contestedWith": [
+        "henry-iv"
+      ],
+      "relationToPredecessor": "Brother-in-law of Henry IV",
+      "ageAtAccession": "About 52",
+      "cameToPower": "Elected by rebel princes at Forchheim",
+      "reignEnded": "Lost his hand and life on the Elster",
+      "previously": "Henry IV dies deposed. Now, back to 1077 and his first rival.",
+      "paragraphs": [
+        "Rudolf was Duke of Swabia and Henry IV's brother-in-law twice over: he married Henry's sister, and later the sister of Henry's queen. In 1075 he fought for Henry against the Saxons. Then the pope excommunicated the king, and Rudolf joined the princes who wanted him gone. On 15 March 1077, at Forchheim, they elected Rudolf instead. He was the first anti-king in the empire's history.",
+        "The timing was awkward, since Henry had just been forgiven at Canossa. Rudolf was crowned at Mainz on 25 May, but the townspeople rose against him and he fled to Saxony. The Saxons never fully trusted a southerner, and he had to buy loyalty with crown and Church lands. Henry stripped him of Swabia and gave it to Frederick of Staufen, whose family would one day rule the empire.",
+        "In March 1080 Pope Gregory VII finally backed Rudolf and excommunicated Henry again. That October the armies met on the White Elster. Rudolf's side won, but he lost his right hand and took a sword in the belly. He died the next day and was buried in Merseburg Cathedral. Without him the revolt lost its heart."
+      ],
+      "claims": [
+        {
+          "text": "Henry's side said that losing the hand he had sworn loyalty with was God's verdict on a traitor.",
+          "status": "confirmed",
+          "note": "Writers loyal to Henry made exactly this point soon after the battle. It was propaganda, but they really said it."
+        },
+        {
+          "text": "Rudolf's mummified right hand is still kept at Merseburg.",
+          "status": "disputed",
+          "note": "The cathedral has kept a mummified hand since the Middle Ages. That it is Rudolf's rests on tradition."
+        },
+        {
+          "text": "His bronze grave slab is the oldest of its kind in central Europe.",
+          "status": "confirmed",
+          "note": "It was made soon after his death and still lies in Merseburg Cathedral, once covered in gilding and stones."
+        }
+      ],
+      "hook": "Rudolf is dead, and Henry IV outlasts every rival the princes can find. In the end it takes his own son to bring him down, and that son now wears the crown.",
+      "images": [
+        {
+          "file": "File:Grabplatte Rudolf von Rheinfelden Detail.JPG",
+          "url": "https://upload.wikimedia.org/wikipedia/commons/2/26/Grabplatte_Rudolf_von_Rheinfelden_Detail.JPG",
+          "page": "https://commons.wikimedia.org/wiki/File:Grabplatte_Rudolf_von_Rheinfelden_Detail.JPG",
+          "credit": "Michail Jungierek",
+          "license": "CC BY 2.5",
+          "made": "Late 11th century",
+          "caption": "His bronze grave slab in Merseburg Cathedral, made soon after he died; photographed in 2007.",
+          "alt": "Detail of the bronze grave slab of the anti-king Rudolf in Merseburg Cathedral, showing his figure in relief"
+        }
+      ],
+      "sources": [
+        {
+          "title": "Henry IV of Germany, 1056–1106",
+          "author": "I. S. Robinson",
+          "note": "Cambridge University Press, 1999"
+        },
+        {
+          "title": "Eleventh-Century Germany: The Swabian Chronicles",
+          "author": "I. S. Robinson (trans.)",
+          "note": "Manchester University Press, 2008; Berthold and Bernold, both on Rudolf's side"
+        },
+        {
+          "title": "The Saxon War (Saxonicum bellum)",
+          "author": "Bruno of Merseburg",
+          "note": "Written in the early 1080s by a Saxon partisan"
+        },
+        {
+          "title": "Heart of Europe: A History of the Holy Roman Empire",
+          "author": "Peter H. Wilson",
+          "note": "Harvard University Press, 2016"
+        }
+      ],
+      "review": {
+        "status": "draft",
+        "notes": "Drafted from the listed sources; needs a human fact-check."
       }
     },
     {
@@ -2632,7 +2795,7 @@
       "ageAtAccession": "19",
       "cameToPower": "Overthrew his own father",
       "reignEnded": "Died childless at Utrecht",
-      "previously": "Henry IV is forced off his throne by his own son.",
+      "previously": "Henry IV outlives his rivals, only to be toppled by his own son.",
       "paragraphs": [
         "Henry had sided with the Church to topple his father. Once in power, he wanted the same rights over bishops that his father had fought for. In 1111 he went to Rome to be crowned. When talks broke down he arrested Pope Paschal II and his cardinals, and kept them prisoner until the pope agreed to crown him and give way.",
         "In 1114 he married Matilda, the twelve-year-old daughter of Henry I of England, who brought a huge dowry. The German princes kept rebelling, and he lost a battle to the Saxons at Welfesholz in 1115. At last, at Worms in 1122, emperor and pope did a deal. The Church would choose bishops, and the emperor could watch and hand over their lands.",
@@ -2838,7 +3001,19 @@
       "review": {
         "status": "draft",
         "notes": "Drafted from the listed sources; needs a human fact-check."
-      }
+      },
+      "members": [
+        {
+          "name": "Henry Berengar",
+          "start": {
+            "date": "1147-03-13"
+          },
+          "end": {
+            "date": "1150"
+          },
+          "note": "Son; elected co-king at 10 and crowned at Aachen before the crusade; won at Flochberg and died at 13"
+        }
+      ]
     },
     {
       "id": "frederick-i",
@@ -3164,7 +3339,10 @@
         "date": "1250-12-13"
       },
       "contestedWith": [
-        "otto-iv"
+        "otto-iv",
+        "henry-vii-hohenstaufen",
+        "henry-raspe",
+        "william-of-holland"
       ],
       "relationToPredecessor": "Rival; son of Henry VI",
       "ageAtAccession": "17",
@@ -3193,7 +3371,7 @@
           "note": "The treaty with Sultan al-Kamil is well documented. The pope had him banned for the whole trip."
         }
       ],
-      "hook": "Frederick is dead, but the popes aren't done. Now they're coming for his son, and for the whole Staufer family.",
+      "hook": "Rewind to 1220. Before heading back to Italy, Frederick left Germany to his small son Henry. The boy would grow up, rule for himself and then turn on his father.",
       "images": [
         {
           "file": "File:Frederick II and eagle.jpg",
@@ -3232,6 +3410,174 @@
       }
     },
     {
+      "id": "henry-vii-hohenstaufen",
+      "kind": "monarch",
+      "rulers": [
+        "henry-vii-hohenstaufen"
+      ],
+      "tagline": "The king in brackets who rebelled against his father",
+      "start": {
+        "date": "1220-04",
+        "note": "Elected at Frankfurt in late April 1220; crowned at Aachen on 8 May 1222"
+      },
+      "end": {
+        "date": "1235-07-04"
+      },
+      "contestedWith": [
+        "frederick-ii"
+      ],
+      "relationToPredecessor": "Eldest son of Frederick II",
+      "ageAtAccession": "8 or 9",
+      "cameToPower": "Elected at Frankfurt as a boy",
+      "reignEnded": "Deposed by his father at Worms",
+      "previously": "Frederick II dies in 1250. Rewind thirty years, to his eldest son.",
+      "paragraphs": [
+        "Frederick II's eldest son was born in Sicily in 1211 and crowned King of Sicily as a baby. In April 1220 his father had the German princes elect the boy King of the Romans, so that Germany would have a king while Frederick lived in Italy. Archbishop Engelbert of Cologne crowned him at Aachen on 8 May 1222 and ran the kingdom for him.",
+        "Henry grew up with poets at his court and a wife seven years older than him, Margaret of Austria. From 1228 he ruled for himself and sided with the towns against the princes. The princes complained to Frederick, who made Henry sign a charter in their favour at Worms in 1231 and swear obedience at Cividale in 1232. In 1234 the pope excommunicated him for getting in the inquisitors' way.",
+        "That autumn Henry rose in open revolt. When Frederick came north in 1235, the rebels melted away. Henry submitted at Wimpfen on 2 July and was deposed at Worms two days later, and his young brother Conrad took his place. Henry spent nearly seven years as a prisoner and died in Calabria in February 1242 after a fall from his horse."
+      ],
+      "claims": [
+        {
+          "text": "Henry had leprosy in his last years.",
+          "status": "confirmed",
+          "note": "A study of his skeleton in 1998–99 by Gino Fornaciari's team found advanced leprosy. It may explain why he was never released."
+        },
+        {
+          "text": "His fatal fall was a deliberate attempt to kill himself.",
+          "status": "disputed",
+          "note": "Some chroniclers say so. Others record it as an accident, and there is no way to check."
+        },
+        {
+          "text": "He is numbered Henry (VII), in brackets, because he never ruled alone.",
+          "status": "confirmed",
+          "note": "Historians use the brackets so he does not clash with the Luxembourg emperor Henry VII, who ruled from 1308."
+        }
+      ],
+      "hook": "Conrad, the younger brother, takes Henry's place. Ten years later the pope declares Frederick deposed, and the bishops go looking for a German prince willing to wear a rival crown.",
+      "images": [
+        {
+          "file": "File:Henry 7 of Germany.jpg",
+          "url": "https://upload.wikimedia.org/wikipedia/commons/0/04/Henry_7_of_Germany.jpg",
+          "page": "https://commons.wikimedia.org/wiki/File:Henry_7_of_Germany.jpg",
+          "credit": "Photograph by Otto Posse",
+          "license": "Public domain",
+          "made": "1216",
+          "caption": "His seal from 1216, when he was a small boy and Duke of Swabia, four years before he became king.",
+          "alt": "Medieval seal showing a mounted knight with a shield and banner bearing three lions"
+        }
+      ],
+      "sources": [
+        {
+          "title": "Frederick II: A Medieval Emperor",
+          "author": "David Abulafia",
+          "note": "Allen Lane, London, 1988"
+        },
+        {
+          "title": "The Emperor Frederick II of Hohenstaufen: Immutator Mundi",
+          "author": "Thomas C. Van Cleve",
+          "note": "Clarendon Press, Oxford, 1972"
+        },
+        {
+          "title": "Chronica regia Coloniensis",
+          "author": "Anonymous Cologne chroniclers",
+          "note": "13th-century royal chronicle"
+        },
+        {
+          "title": "Heart of Europe: A History of the Holy Roman Empire",
+          "author": "Peter H. Wilson",
+          "note": "Harvard University Press, 2016"
+        }
+      ],
+      "review": {
+        "status": "draft",
+        "notes": "Drafted from the listed sources; needs a human fact-check."
+      }
+    },
+    {
+      "id": "henry-raspe",
+      "kind": "claimant",
+      "rulers": [
+        "henry-raspe"
+      ],
+      "tagline": "The priests' king who won one battle",
+      "start": {
+        "date": "1246-05-22"
+      },
+      "end": {
+        "date": "1247-02-16"
+      },
+      "contestedWith": [
+        "frederick-ii",
+        "conrad-iv"
+      ],
+      "relationToPredecessor": "Former regent for Conrad IV",
+      "ageAtAccession": "About 42",
+      "cameToPower": "Elected anti-king with papal backing",
+      "reignEnded": "Died at the Wartburg",
+      "previously": "Henry (VII) is deposed by his father and dies a prisoner.",
+      "paragraphs": [
+        "Henry Raspe was Landgrave of Thuringia. He took over when his elder brother died on the way to a crusade, pushing his small nephew aside. For years he was loyal to the Staufer, and in 1242 Frederick II made him one of the men running Germany for the young Conrad IV.",
+        "In 1245 the pope declared Frederick deposed, and Raspe switched sides. On 22 May 1246 a group of mostly church princes elected him king. Papal money did much of the persuading, so his enemies called him the priests' king. In August he beat Conrad in battle on the Nidda, near Frankfurt.",
+        "That winter he went after the Staufer towns of Swabia and besieged Ulm and Reutlingen. Wounded in a skirmish at Reutlingen, he gave up the campaign and went home to the Wartburg, where he died on 16 February 1247. None of his three marriages had produced a child, and the old line of Thuringian landgraves ended with him."
+      ],
+      "claims": [
+        {
+          "text": "His enemies nicknamed him the priests' king (rex clericorum).",
+          "status": "confirmed",
+          "note": "The nickname appears soon after his election. Recent historians think it undersells him."
+        },
+        {
+          "text": "He threw his widowed sister-in-law, St Elisabeth of Hungary, out of the Wartburg.",
+          "status": "legend",
+          "note": "Later saints' lives tell it that way. Historians think she more likely left by choice, to live in poverty as she had vowed."
+        },
+        {
+          "text": "He won at the Nidda because Swabian lords deserted Conrad for papal money.",
+          "status": "disputed",
+          "note": "Chroniclers blame a bought defection, but the accounts differ on who was paid and how much."
+        }
+      ],
+      "hook": "Raspe is dead within a year. The pope's party will soon find another rival, but the Staufer still hold the south, and when Frederick dies in 1250 everything passes to his son Conrad.",
+      "images": [
+        {
+          "file": "File:Heinrich Raspe.jpg",
+          "url": "https://upload.wikimedia.org/wikipedia/commons/b/b1/Heinrich_Raspe.jpg",
+          "page": "https://commons.wikimedia.org/wiki/File:Heinrich_Raspe.jpg",
+          "credit": "Otto Posse",
+          "license": "Public domain",
+          "made": "1246–47",
+          "caption": "His royal seal from his few months as king, as published by Otto Posse in 1909.",
+          "alt": "Henry Raspe's royal seal, from Otto Posse's collection of German royal seals"
+        }
+      ],
+      "sources": [
+        {
+          "title": "The Emperor Frederick II of Hohenstaufen: Immutator Mundi",
+          "author": "Thomas C. Van Cleve",
+          "note": "Clarendon Press, Oxford, 1972"
+        },
+        {
+          "title": "Germany in the Later Middle Ages, 1200–1500",
+          "author": "William Stubbs",
+          "note": "Longmans, Green and Co., 1908"
+        },
+        {
+          "title": "Frederick II: A Medieval Emperor",
+          "author": "David Abulafia",
+          "note": "Allen Lane, London, 1988"
+        },
+        {
+          "title": "Heart of Europe: A History of the Holy Roman Empire",
+          "author": "Peter H. Wilson",
+          "note": "Harvard University Press, 2016"
+        }
+      ],
+      "review": {
+        "status": "draft",
+        "notes": "Drafted from the listed sources; needs a human fact-check."
+      }
+    },
+    {
       "id": "conrad-iv",
       "kind": "monarch",
       "rulers": [
@@ -3244,12 +3590,15 @@
       "end": {
         "date": "1254-05-21"
       },
-      "contestedWith": [],
+      "contestedWith": [
+        "henry-raspe",
+        "william-of-holland"
+      ],
       "relationToPredecessor": "Son of Frederick II",
       "ageAtAccession": "22",
       "cameToPower": "Succeeded his father",
       "reignEnded": "Fever in southern Italy",
-      "previously": "Frederick II dies in Apulia, still at war with the popes.",
+      "previously": "Raspe dies in 1247. In 1250 Frederick II follows him, still at war.",
       "paragraphs": [
         "Conrad's mother was Queen of Jerusalem and died soon after he was born, so he was a king from the cradle. He was elected King of the Romans in 1237. While Frederick fought in Italy, Conrad held Germany against two rival kings the pope had found, Henry Raspe and William of Holland.",
         "After his father died Conrad went south to claim Sicily. His half-brother Manfred had kept it for him, and in 1253 Conrad took Naples. Pope Innocent IV excommunicated him and went shopping across Europe for a new king of Sicily. Conrad was never crowned emperor.",
@@ -3272,7 +3621,7 @@
           "note": "He held the title from birth but never went there to be crowned."
         }
       ],
-      "hook": "No Staufer is left to rule Germany. The last king standing is William of Holland, the pope's young anti-king, whom most Germans have ignored for years.",
+      "hook": "Rewind to 1247. With Raspe dead, the pope's party needs a new king. They pick William, the 20-year-old Count of Holland, and he will outlast every Staufer in Germany.",
       "images": [
         {
           "file": "File:Seal of Conrad IV of Germany.jpeg",
@@ -3314,17 +3663,21 @@
       ],
       "tagline": "The pope's anti-king, lost on the ice",
       "start": {
-        "date": "1254-05-21"
+        "date": "1247-10-03",
+        "note": "Elected at Worringen; crowned at Aachen on 1 November 1248; sole king from May 1254"
       },
       "end": {
         "date": "1256-01-28"
       },
-      "contestedWith": [],
-      "relationToPredecessor": "Rival; papal anti-king since 1247",
-      "ageAtAccession": "27",
-      "cameToPower": "Last king standing after Conrad",
+      "contestedWith": [
+        "frederick-ii",
+        "conrad-iv"
+      ],
+      "relationToPredecessor": "Rival of Frederick II and Conrad IV",
+      "ageAtAccession": "20",
+      "cameToPower": "Elected by the pope's party",
       "reignEnded": "Killed on the ice by Frisians",
-      "previously": "Conrad IV dies in Italy at 26, leaving only a two-year-old son.",
+      "previously": "Conrad IV dies in 1254. Rewind to 1247 and the pope's next pick.",
       "paragraphs": [
         "William became Count of Holland at seven, after his father was killed at a tournament. In 1247, aged 20, he was picked by the Rhineland archbishops as anti-king against the Staufer, with the pope's money behind him. He had to besiege Aachen for months before he could be crowned there, on 1 November 1248.",
         "When Conrad IV died in 1254, William was the only king left. More princes accepted him, and he backed the new Rhenish League, a union of cities trying to keep the peace when nobody else would.",
@@ -4082,7 +4435,19 @@
       "review": {
         "status": "draft",
         "notes": "Drafted from the listed sources; needs a human fact-check."
-      }
+      },
+      "members": [
+        {
+          "name": "Günther von Schwarzburg",
+          "start": {
+            "date": "1349-01-30"
+          },
+          "end": {
+            "date": "1349-05-26"
+          },
+          "note": "Wittelsbach anti-king elected at Frankfurt; beaten at Eltville, sold his claim and died weeks later"
+        }
+      ]
     },
     {
       "id": "wenceslaus",
@@ -4254,7 +4619,9 @@
       "end": {
         "date": "1437-12-09"
       },
-      "contestedWith": [],
+      "contestedWith": [
+        "jobst"
+      ],
       "relationToPredecessor": "Son of Charles IV",
       "ageAtAccession": "42",
       "cameToPower": "Won a three-way election",
@@ -4282,7 +4649,7 @@
           "note": "A story told by Czech writers and repeated for centuries. It isn't in the main eyewitness accounts."
         }
       ],
-      "hook": "Sigismund dies without a son, and the Luxembourg line ends with him. The crowns pass to his son-in-law, Albert of Habsburg. The Habsburgs are back, and this time they'll stay.",
+      "hook": "Rewind to October 1410. Sigismund's election was only half the story. Days later a bigger group of electors chose his cousin Jobst of Moravia, a man with money and no scruples.",
       "images": [
         {
           "file": "File:Anonymous - Kaiser Sigismund (1369-1437) - GG 2630 - Kunsthistorisches Museum.jpg",
@@ -4322,6 +4689,83 @@
       }
     },
     {
+      "id": "jobst",
+      "kind": "claimant",
+      "rulers": [
+        "jobst"
+      ],
+      "tagline": "The schemer who won the vote and died within months",
+      "start": {
+        "date": "1410-10-01"
+      },
+      "end": {
+        "date": "1411-01-18"
+      },
+      "contestedWith": [
+        "sigismund"
+      ],
+      "relationToPredecessor": "Cousin of Sigismund and Wenceslaus",
+      "ageAtAccession": "About 56",
+      "cameToPower": "Elected by four of seven electors",
+      "reignEnded": "Died suddenly at Brno",
+      "previously": "Sigismund dies in 1437. Now, back to 1410 and his cousin.",
+      "paragraphs": [
+        "Jobst was a nephew of Charles IV, so Wenceslaus and Sigismund were his cousins. He ruled Moravia from 1375 and gathered more land by lending money to his relatives. In 1388 Luxembourg came to him in pawn from Wenceslaus, and Brandenburg from Sigismund, which made him an elector. He was rich, clever and always scheming.",
+        "In 1394 he joined a league of Bohemian lords against Wenceslaus and had his own cousin, the King of the Romans, arrested at Prague Castle. When Rupert died in 1410, three electors chose Sigismund in September. On 1 October four others chose Jobst instead, and one of those votes was cast for Bohemia by Wenceslaus himself.",
+        "On paper Jobst had the majority. He never got to use it. He died suddenly at Brno on 18 January 1411, aged about 56, and was buried in the Church of St Thomas there. People whispered about poison. With Jobst gone, the electors lined up behind Sigismund."
+      ],
+      "claims": [
+        {
+          "text": "Jobst was poisoned.",
+          "status": "disputed",
+          "note": "The rumour went round at the time, but there is no evidence. He was in his late fifties, old for the period."
+        },
+        {
+          "text": "He had King Wenceslaus locked up in 1394.",
+          "status": "confirmed",
+          "note": "The lords' league seized Wenceslaus at Prague Castle, with Jobst among its leaders."
+        }
+      ],
+      "hook": "Jobst's death leaves Sigismund the only king, and he rules for 26 more years. When he finally dies in 1437 he has no son, and the crown goes to his Habsburg son-in-law.",
+      "images": [
+        {
+          "file": "File:Jošt Lucemburský.jpg",
+          "url": "https://upload.wikimedia.org/wikipedia/commons/3/39/Jo%C5%A1t_Lucembursk%C3%BD.jpg",
+          "page": "https://commons.wikimedia.org/wiki/File:Jo%C5%A1t_Lucembursk%C3%BD.jpg",
+          "credit": "Unknown author",
+          "license": "Public domain",
+          "made": "c. 1430",
+          "caption": "From a Moravian law book made about 1430, some twenty years after he died.",
+          "alt": "Painted manuscript miniature that Commons labels as Wenceslaus IV, Charles IV and Jobst of Moravia"
+        }
+      ],
+      "sources": [
+        {
+          "title": "Moravský markrabě Jošt (1354–1411)",
+          "author": "Václav Štěpán",
+          "note": "Matice moravská, Brno, 2002"
+        },
+        {
+          "title": "Die Luxemburger: Eine spätmittelalterliche Dynastie gesamteuropäischer Bedeutung 1308–1437",
+          "author": "Jörg K. Hoensch",
+          "note": "Kohlhammer, Stuttgart, 2000"
+        },
+        {
+          "title": "Jobst",
+          "note": "Encyclopædia Britannica, 11th edition, 1911, vol. 15"
+        },
+        {
+          "title": "Heart of Europe: A History of the Holy Roman Empire",
+          "author": "Peter H. Wilson",
+          "note": "Harvard University Press, 2016"
+        }
+      ],
+      "review": {
+        "status": "draft",
+        "notes": "Drafted from the listed sources; needs a human fact-check."
+      }
+    },
+    {
       "id": "albert-ii",
       "kind": "monarch",
       "rulers": [
@@ -4339,7 +4783,7 @@
       "ageAtAccession": "40",
       "cameToPower": "Elected by the princes at Frankfurt",
       "reignEnded": "Dysentery on the Turkish front",
-      "previously": "Sigismund, last of the Luxembourg kings, dies leaving no son.",
+      "previously": "Jobst dies in 1411; Sigismund outlives him by 26 years, sonless.",
       "paragraphs": [
         "Sigismund left a daughter, Elisabeth, and she was married to the Duke of Austria. So in 1438 her husband Albert scooped up the lot: Hungary, Bohemia, and then the German crown when the electors chose him at Frankfurt. He was the first undisputed Habsburg king since Albert I, 130 years earlier. Nobody guessed that the family would keep the title, with one short break, until the empire itself was shut down in 1806.",
         "He never had time to enjoy it. Bohemian rebels fought him, and the Ottoman Turks were pushing up the Danube into Hungary, so that's where he spent his reign. The German princes held their Diet and talked about reform without him. In autumn 1439 dysentery swept through his army camp, and Albert died on the road home. His widow was pregnant. The son she gave birth to a few months later became known as Ladislaus Posthumous."
@@ -5074,7 +5518,19 @@
       "review": {
         "status": "draft",
         "notes": "Drafted from the listed sources; needs a human fact-check."
-      }
+      },
+      "members": [
+        {
+          "name": "Ferdinand IV",
+          "start": {
+            "date": "1653-05-31"
+          },
+          "end": {
+            "date": "1654-07-09"
+          },
+          "note": "Eldest son; elected King of the Romans and crowned at Regensburg; died of smallpox at 20 before his father"
+        }
+      ]
     },
     {
       "id": "leopold-i",
