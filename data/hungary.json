@@ -1230,6 +1230,47 @@
         "date": "1948-01-24",
         "note": "Monok"
       }
+    },
+    {
+      "id": "john-ii-sigismund",
+      "name": "John II Sigismund Zápolya",
+      "house": "zapolya",
+      "born": {
+        "date": "1540-07-07"
+      },
+      "died": {
+        "date": "1571-03-14"
+      }
+    },
+    {
+      "id": "francis-ii-rakoczi",
+      "name": "Francis II Rákóczi",
+      "house": "zapolya",
+      "born": {
+        "date": "1676-03-27"
+      },
+      "died": {
+        "date": "1735-04-08"
+      }
+    },
+    {
+      "id": "gero",
+      "name": "Ernő Gerő",
+      "house": "communist",
+      "born": {
+        "date": "1898-07-08"
+      },
+      "died": {
+        "date": "1980-03-12"
+      }
+    },
+    {
+      "id": "boross",
+      "name": "Péter Boross",
+      "house": "third-republic",
+      "born": {
+        "date": "1928-08-27"
+      }
     }
   ],
   "reigns": [
@@ -4393,7 +4434,8 @@
         "date": "1564-07-25"
       },
       "contestedWith": [
-        "john-zapolya"
+        "john-zapolya",
+        "john-ii-sigismund"
       ],
       "relationToPredecessor": "Brother-in-law of Louis II",
       "ageAtAccession": "24",
@@ -4463,6 +4505,61 @@
       }
     },
     {
+      "id": "john-ii-sigismund",
+      "kind": "claimant",
+      "rulers": [
+        "john-ii-sigismund"
+      ],
+      "tagline": "The baby king of eastern Hungary",
+      "start": {
+        "date": "1540-09-13"
+      },
+      "contestedWith": [
+        "ferdinand-i",
+        "maximilian"
+      ],
+      "relationToPredecessor": "Son of John Zápolya",
+      "ageAtAccession": "2 months",
+      "cameToPower": "Elected king as a baby",
+      "reignEnded": "Gave up the title at Speyer",
+      "previously": "John Zápolya dies, days after his son is born.",
+      "paragraphs": [
+        "John Sigismund was elected king of Hungary as a two-month-old, against the Habsburg Ferdinand I. When the Ottomans took Buda in 1541 they sent him and his mother east to Transylvania.",
+        "He ruled there under Ottoman protection for 30 years. In 1570 he gave up the title of king at Speyer and was recognised as the first Prince of Transylvania. He was also the only Unitarian king in history."
+      ],
+      "claims": [],
+      "hook": "Transylvania goes its own way, and the Habsburgs keep the title of king.",
+      "images": [
+        {
+          "file": "File:Suleiman receiving Isabella and her son Sigismund circa 1540.jpg",
+          "url": "https://upload.wikimedia.org/wikipedia/commons/1/1a/Suleiman_receiving_Isabella_and_her_son_Sigismund_circa_1540.jpg",
+          "page": "https://commons.wikimedia.org/wiki/File:Suleiman_receiving_Isabella_and_her_son_Sigismund_circa_1540.jpg",
+          "credit": "Suleymaname, circa 1558, anonymous Ottoman author",
+          "license": "Public domain",
+          "made": "circa 1558date QS:P,+1558-00-00T00:00:00Z/9,P1480,Q5727902",
+          "caption": "Suleiman I (the Great) receiving dowager queen Isabella Jagiellon and her infant son John Sigismund, King of Hungary, in 1541.",
+          "alt": "Suleiman I (the Great) receiving dowager queen Isabella Jagiellon and her infant son John Sigismund, King of Hungary, in 1541."
+        }
+      ],
+      "sources": [
+        {
+          "title": "John Sigismund Zápolya (Wikipedia)",
+          "url": "https://en.wikipedia.org/wiki/John_Sigismund_Z%C3%A1polya"
+        },
+        {
+          "title": "List of Hungarian monarchs (Wikipedia)",
+          "url": "https://en.wikipedia.org/wiki/List_of_Hungarian_monarchs"
+        }
+      ],
+      "review": {
+        "status": "draft",
+        "notes": "Short card added from the completeness audit; checked only against Wikipedia."
+      },
+      "end": {
+        "date": "1570-08-16"
+      }
+    },
+    {
       "id": "maximilian",
       "kind": "monarch",
       "rulers": [
@@ -4475,7 +4572,9 @@
       "end": {
         "date": "1576-10-12"
       },
-      "contestedWith": [],
+      "contestedWith": [
+        "john-ii-sigismund"
+      ],
       "relationToPredecessor": "Son of Ferdinand I",
       "ageAtAccession": "36",
       "cameToPower": "Already crowned; succeeded his father",
@@ -4840,7 +4939,9 @@
       "end": {
         "date": "1705-05-05"
       },
-      "contestedWith": [],
+      "contestedWith": [
+        "francis-ii-rakoczi"
+      ],
       "relationToPredecessor": "Son of Ferdinand III",
       "ageAtAccession": "16",
       "cameToPower": "Crowned in his father's lifetime",
@@ -4921,7 +5022,9 @@
       "end": {
         "date": "1711-04-17"
       },
-      "contestedWith": [],
+      "contestedWith": [
+        "francis-ii-rakoczi"
+      ],
       "relationToPredecessor": "Son of Leopold I",
       "ageAtAccession": "26",
       "cameToPower": "Crowned as a boy in 1687",
@@ -4985,6 +5088,62 @@
       }
     },
     {
+      "id": "francis-ii-rakoczi",
+      "kind": "leader",
+      "rulers": [
+        "francis-ii-rakoczi"
+      ],
+      "tagline": "The prince who led the war of independence",
+      "start": {
+        "date": "1705-09-20"
+      },
+      "contestedWith": [
+        "leopold-i",
+        "joseph-i",
+        "charles-iii"
+      ],
+      "relationToPredecessor": "Grandson of Peter Zrinyi",
+      "ageAtAccession": "29",
+      "cameToPower": "Elected ruling prince by the Estates",
+      "reignEnded": "Peace of Szatmár; went into exile",
+      "previously": "The Kuruc rebels rise against Habsburg rule.",
+      "paragraphs": [
+        "Rákóczi led the great Kuruc uprising against Habsburg rule from 1703. In 1705 the rebel Estates elected him their ruling prince, and in 1707 they declared the Habsburgs deposed.",
+        "The rebels were beaten, and in 1711 his general made peace at Szatmár without him. Rákóczi refused the terms and died in exile in Turkey."
+      ],
+      "claims": [],
+      "hook": "Charles III makes peace, and Habsburg rule is secure.",
+      "images": [
+        {
+          "file": "File:Bust of Francis II Rákóczi in Miskolc-Görömböly, 2003.jpg",
+          "url": "https://upload.wikimedia.org/wikipedia/commons/e/e0/Bust_of_Francis_II_R%C3%A1k%C3%B3czi_in_Miskolc-G%C3%B6r%C3%B6mb%C3%B6ly%2C_2003.jpg",
+          "page": "https://commons.wikimedia.org/wiki/File:Bust_of_Francis_II_R%C3%A1k%C3%B3czi_in_Miskolc-G%C3%B6r%C3%B6mb%C3%B6ly,_2003.jpg",
+          "credit": "Unknown",
+          "license": "CC BY 2.5",
+          "made": "Date not recorded",
+          "caption": "Image from the Wikipedia article on Francis II Rákóczi",
+          "alt": "Image from the Wikipedia article on Francis II Rákóczi"
+        }
+      ],
+      "sources": [
+        {
+          "title": "Francis II Rákóczi (Wikipedia)",
+          "url": "https://en.wikipedia.org/wiki/Francis_II_R%C3%A1k%C3%B3czi"
+        },
+        {
+          "title": "List of Hungarian monarchs (Wikipedia)",
+          "url": "https://en.wikipedia.org/wiki/List_of_Hungarian_monarchs"
+        }
+      ],
+      "review": {
+        "status": "draft",
+        "notes": "Short card added from the completeness audit; checked only against Wikipedia."
+      },
+      "end": {
+        "date": "1711-04-30"
+      }
+    },
+    {
       "id": "charles-iii",
       "kind": "monarch",
       "rulers": [
@@ -4997,7 +5156,9 @@
       "end": {
         "date": "1740-10-20"
       },
-      "contestedWith": [],
+      "contestedWith": [
+        "francis-ii-rakoczi"
+      ],
       "relationToPredecessor": "Brother of Joseph I",
       "ageAtAccession": "25",
       "cameToPower": "Inherited from his brother",
@@ -5507,7 +5668,19 @@
       "review": {
         "status": "draft",
         "notes": "Drafted from the listed sources; needs a human fact-check."
-      }
+      },
+      "members": [
+        {
+          "name": "Artúr Görgei",
+          "start": {
+            "date": "1849-08-11"
+          },
+          "end": {
+            "date": "1849-08-13"
+          },
+          "note": "Given full power at the end; surrendered to the Russians at Világos"
+        }
+      ]
     },
     {
       "id": "franz-joseph",
@@ -5805,7 +5978,19 @@
       "review": {
         "status": "draft",
         "notes": "Drafted from the listed sources; needs a human fact-check."
-      }
+      },
+      "members": [
+        {
+          "name": "Sándor Garbai",
+          "start": {
+            "date": "1919-03-21"
+          },
+          "end": {
+            "date": "1919-08-01"
+          },
+          "note": "Formal head of the Soviet Republic while Kun held real power"
+        }
+      ]
     },
     {
       "id": "peidl",
@@ -5953,7 +6138,19 @@
       "review": {
         "status": "draft",
         "notes": "Drafted from the listed sources; needs a human fact-check."
-      }
+      },
+      "members": [
+        {
+          "name": "Archduke Joseph August",
+          "start": {
+            "date": "1919-08-07"
+          },
+          "end": {
+            "date": "1919-08-23"
+          },
+          "note": "Habsburg archduke who acted as regent until the Allies forced him out"
+        }
+      ]
     },
     {
       "id": "huszar",
@@ -6572,6 +6769,60 @@
       }
     },
     {
+      "id": "gero",
+      "kind": "leader",
+      "rulers": [
+        "gero"
+      ],
+      "tagline": "The Stalinist who lit the 1956 fuse",
+      "start": {
+        "date": "1956-07-18"
+      },
+      "contestedWith": [
+        "nagy"
+      ],
+      "relationToPredecessor": "Rákosi's deputy",
+      "ageAtAccession": "58",
+      "cameToPower": "Moscow replaced Rákosi with him",
+      "reignEnded": "Sacked as the revolution spread",
+      "previously": "Moscow sacks Rákosi, but picks his right-hand man.",
+      "paragraphs": [
+        "Gerő took over as party leader when Moscow removed Rákosi in July 1956. He was a hardliner, and Hungarians saw him as Rákosi under another name.",
+        "On 23 October students marched in Budapest. Gerő gave a hostile radio speech that night, shooting broke out, and he called in Soviet troops. Two days later he was replaced and fled to the Soviet Union."
+      ],
+      "claims": [],
+      "hook": "Imre Nagy takes over as the revolution sweeps Hungary.",
+      "images": [
+        {
+          "file": "File:Gerő Ernő 1955 (cropped).jpg",
+          "url": "https://upload.wikimedia.org/wikipedia/commons/5/59/Ger%C5%91_Ern%C5%91_1955_%28cropped%29.jpg",
+          "page": "https://commons.wikimedia.org/wiki/File:Ger%C5%91_Ern%C5%91_1955_(cropped).jpg",
+          "credit": "Rádió és Televízió Újság (donator)",
+          "license": "CC BY-SA 3.0",
+          "made": "1955",
+          "caption": "Cropped photograph of Hungarian communist leader, Ernő Gerő.",
+          "alt": "Cropped photograph of Hungarian communist leader, Ernő Gerő."
+        }
+      ],
+      "sources": [
+        {
+          "title": "Ernő Gerő (Wikipedia)",
+          "url": "https://en.wikipedia.org/wiki/Ern%C5%91_Ger%C5%91"
+        },
+        {
+          "title": "List of Hungarian monarchs (Wikipedia)",
+          "url": "https://en.wikipedia.org/wiki/List_of_Hungarian_monarchs"
+        }
+      ],
+      "review": {
+        "status": "draft",
+        "notes": "Short card added from the completeness audit; checked only against Wikipedia."
+      },
+      "end": {
+        "date": "1956-10-25"
+      }
+    },
+    {
       "id": "nagy",
       "kind": "leader",
       "title": "Imre Nagy",
@@ -6585,7 +6836,9 @@
       "end": {
         "date": "1956-11-04"
       },
-      "contestedWith": [],
+      "contestedWith": [
+        "gero"
+      ],
       "relationToPredecessor": "Reform communist, ex-premier",
       "ageAtAccession": "60",
       "cameToPower": "Named PM as the uprising began",
@@ -6953,6 +7206,58 @@
       "review": {
         "status": "draft",
         "notes": "Drafted from the listed sources; needs a human fact-check."
+      }
+    },
+    {
+      "id": "boross",
+      "kind": "leader",
+      "rulers": [
+        "boross"
+      ],
+      "tagline": "The caretaker after Antall",
+      "start": {
+        "date": "1993-12-12"
+      },
+      "contestedWith": [],
+      "relationToPredecessor": "Antall's interior minister",
+      "ageAtAccession": "65",
+      "cameToPower": "Succeeded Antall, who died in office",
+      "reignEnded": "Lost the 1994 election",
+      "previously": "Prime Minister József Antall dies of cancer.",
+      "paragraphs": [
+        "Boross had been Antall's interior minister and took over as prime minister when Antall died of cancer in December 1993.",
+        "He led the government for seven months until the May 1994 election, which the Socialists under Gyula Horn won by a landslide."
+      ],
+      "claims": [],
+      "hook": "The former communists are back in power, voted in this time.",
+      "images": [
+        {
+          "file": "File:Boross Péter (2).jpg",
+          "url": "https://upload.wikimedia.org/wikipedia/commons/4/4d/Boross_P%C3%A9ter_%282%29.jpg",
+          "page": "https://commons.wikimedia.org/wiki/File:Boross_P%C3%A9ter_(2).jpg",
+          "credit": "Derzsi Elekes Andor at Hungarian Wikipedia",
+          "license": "Public domain",
+          "made": "2006-06-24",
+          "caption": "A Magyar Demokrata Fórum 2006 június 24 -én Somló hegyen tartotta összejövetelét. 15 évvel ezelőtt Antall József kormányfő itt jelentette be az orosz csapatok…",
+          "alt": "A Magyar Demokrata Fórum 2006 június 24 -én Somló hegyen tartotta összejövetelét. 15 évvel ezelőtt Antall József kormányfő itt jelentette be az orosz csapatok…"
+        }
+      ],
+      "sources": [
+        {
+          "title": "Péter Boross (Wikipedia)",
+          "url": "https://en.wikipedia.org/wiki/P%C3%A9ter_Boross"
+        },
+        {
+          "title": "List of Hungarian monarchs (Wikipedia)",
+          "url": "https://en.wikipedia.org/wiki/List_of_Hungarian_monarchs"
+        }
+      ],
+      "review": {
+        "status": "draft",
+        "notes": "Short card added from the completeness audit; checked only against Wikipedia."
+      },
+      "end": {
+        "date": "1994-07-15"
       }
     },
     {
