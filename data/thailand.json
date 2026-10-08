@@ -193,7 +193,7 @@
         "circa": true
       },
       "died": {
-        "date": "1655-08-08",
+        "date": "1656-08-08",
         "note": "Ayutthaya"
       }
     },
@@ -539,6 +539,56 @@
       "died": {
         "date": "1733-01",
         "note": "Ayutthaya"
+      }
+    },
+    {
+      "id": "borommarachathirat-iii",
+      "name": "Borommarachathirat III",
+      "house": "suphannaphum",
+      "died": {
+        "date": "1491",
+        "circa": true
+      }
+    },
+    {
+      "id": "borommarachathirat-iv",
+      "name": "Borommarachathirat IV",
+      "house": "suphannaphum",
+      "died": {
+        "date": "1533",
+        "circa": true
+      }
+    },
+    {
+      "id": "ratsadathirat",
+      "name": "Ratsadathirat",
+      "house": "suphannaphum",
+      "born": {
+        "date": "1529",
+        "circa": true
+      },
+      "died": {
+        "date": "1534",
+        "circa": true
+      }
+    },
+    {
+      "id": "chao-fa-chai",
+      "name": "Chao Fa Chai",
+      "house": "prasat-thong"
+    },
+    {
+      "id": "si-suthammaracha",
+      "name": "Si Suthammaracha",
+      "house": "prasat-thong"
+    },
+    {
+      "id": "uthumphon",
+      "name": "Uthumphon",
+      "house": "ban-phlu-luang",
+      "died": {
+        "date": "1796",
+        "circa": true
       }
     }
   ],
@@ -1210,6 +1260,58 @@
       }
     },
     {
+      "id": "borommarachathirat-iii",
+      "kind": "monarch",
+      "rulers": [
+        "borommarachathirat-iii"
+      ],
+      "tagline": "Trailokkanat's son, briefly king",
+      "start": {
+        "date": "1488"
+      },
+      "contestedWith": [],
+      "relationToPredecessor": "Son of Borommatrailokkanat",
+      "ageAtAccession": "Unknown",
+      "cameToPower": "Succeeded his father",
+      "reignEnded": "Died after three years",
+      "previously": "King Trailokkanat dies after forty years on the throne.",
+      "paragraphs": [
+        "Known before his accession as Prince Intharacha, he had governed Ayutthaya while his father ruled from Phitsanulok in the north during the long wars with Lan Na.",
+        "He reigned for only about three years. His death passed the throne to his younger brother, Ramathibodi II."
+      ],
+      "claims": [],
+      "hook": "His brother Ramathibodi II takes the throne, and the first Europeans arrive.",
+      "images": [
+        {
+          "file": "File:Architectural Details Sketches and Temple Plan at Ayutthaya Kaempfer 1690.png",
+          "url": "https://upload.wikimedia.org/wikipedia/commons/0/08/Architectural_Details_Sketches_and_Temple_Plan_at_Ayutthaya_Kaempfer_1690.png",
+          "page": "https://commons.wikimedia.org/wiki/File:Architectural_Details_Sketches_and_Temple_Plan_at_Ayutthaya_Kaempfer_1690.png",
+          "credit": "Engelbert Kaempfer (1651-1716)",
+          "license": "Public domain",
+          "made": "1690",
+          "caption": "Pen drawing in black ink on paper, 48 x 36 cm. There are various notes that are not transcribed (upper left, below). The drawing is of parts of a temple with. No portrait of Borommarachathirat Iii survives.",
+          "alt": "Pen drawing in black ink on paper, 48 x 36 cm. There are various notes that are not transcribed (upper left, below). The drawing is of parts of a temple with. No portrait of Borommarachathirat Iii survives."
+        }
+      ],
+      "sources": [
+        {
+          "title": "Borommarachathirat III (Wikipedia)",
+          "url": "https://en.wikipedia.org/wiki/Borommarachathirat_III"
+        },
+        {
+          "title": "List of monarchs of Thailand (Wikipedia)",
+          "url": "https://en.wikipedia.org/wiki/List_of_monarchs_of_Thailand"
+        }
+      ],
+      "review": {
+        "status": "draft",
+        "notes": "Short card added from the completeness audit; checked only against Wikipedia."
+      },
+      "end": {
+        "date": "1491"
+      }
+    },
+    {
       "id": "ramathibodi-ii",
       "kind": "monarch",
       "rulers": [
@@ -1280,6 +1382,110 @@
       "review": {
         "status": "draft",
         "notes": "Drafted from the listed sources; needs a human fact-check."
+      }
+    },
+    {
+      "id": "borommarachathirat-iv",
+      "kind": "monarch",
+      "rulers": [
+        "borommarachathirat-iv"
+      ],
+      "tagline": "The king who died of smallpox",
+      "start": {
+        "date": "1529"
+      },
+      "contestedWith": [],
+      "relationToPredecessor": "Son of Ramathibodi II",
+      "ageAtAccession": "Unknown",
+      "cameToPower": "Succeeded his father",
+      "reignEnded": "Died of smallpox",
+      "previously": "Ramathibodi II dies after nearly 40 years.",
+      "paragraphs": [
+        "Borommarachathirat IV, called No Phutthangkun before he was king, succeeded his long-reigning father. Little about his short reign is recorded beyond a campaign against Lan Na.",
+        "He died of smallpox in 1533, leaving a five-year-old son."
+      ],
+      "claims": [],
+      "hook": "A five-year-old boy is king, and his uncle is watching.",
+      "images": [
+        {
+          "file": "File:Three Chedis of Wat Phra Si Sanphet 20231230.jpg",
+          "url": "https://upload.wikimedia.org/wikipedia/commons/f/f6/Three_Chedis_of_Wat_Phra_Si_Sanphet_20231230.jpg",
+          "page": "https://commons.wikimedia.org/wiki/File:Three_Chedis_of_Wat_Phra_Si_Sanphet_20231230.jpg",
+          "credit": "This Photo was taken by Supanut Arunoprayote. Feel free to use any of my…",
+          "license": "CC BY 4.0",
+          "made": "2023-12-30 10:29:34",
+          "caption": "A multipoint panorama or linear panoramic of three chedis of Wat Phra Si Sanphet, Phra Nakhon Si Ayutthaya District, Phra Nakhon Si Ayutthaya Province,. No portrait of Borommarachathirat Iv survives.",
+          "alt": "A multipoint panorama or linear panoramic of three chedis of Wat Phra Si Sanphet, Phra Nakhon Si Ayutthaya District, Phra Nakhon Si Ayutthaya Province,. No portrait of Borommarachathirat Iv survives."
+        }
+      ],
+      "sources": [
+        {
+          "title": "Borommarachathirat IV (Wikipedia)",
+          "url": "https://en.wikipedia.org/wiki/Borommarachathirat_IV"
+        },
+        {
+          "title": "List of monarchs of Thailand (Wikipedia)",
+          "url": "https://en.wikipedia.org/wiki/List_of_monarchs_of_Thailand"
+        }
+      ],
+      "review": {
+        "status": "draft",
+        "notes": "Short card added from the completeness audit; checked only against Wikipedia."
+      },
+      "end": {
+        "date": "1533"
+      }
+    },
+    {
+      "id": "ratsadathirat",
+      "kind": "monarch",
+      "rulers": [
+        "ratsadathirat"
+      ],
+      "tagline": "The five-year-old king put to death",
+      "start": {
+        "date": "1533"
+      },
+      "contestedWith": [],
+      "relationToPredecessor": "Son of Borommarachathirat IV",
+      "ageAtAccession": "5",
+      "cameToPower": "Succeeded his father",
+      "reignEnded": "Executed by his uncle",
+      "previously": "Borommarachathirat IV dies of smallpox.",
+      "paragraphs": [
+        "Ratsadathirat was five when his father died. He reigned for only a few months.",
+        "His uncle Chairacha seized the throne in 1534 and had the boy executed."
+      ],
+      "claims": [],
+      "hook": "His uncle Chairacha takes the throne for himself.",
+      "images": [
+        {
+          "file": "File:Ayutthaya World Heritage sign.jpg",
+          "url": "https://upload.wikimedia.org/wikipedia/commons/e/e2/Ayutthaya_World_Heritage_sign.jpg",
+          "page": "https://commons.wikimedia.org/wiki/File:Ayutthaya_World_Heritage_sign.jpg",
+          "credit": "Christophe95",
+          "license": "CC BY-SA 4.0",
+          "made": "2018-05-10 11:04:44",
+          "caption": "UNESCO sign in the Ayutthaya Historical Park. No portrait of Ratsadathirat survives.",
+          "alt": "UNESCO sign in the Ayutthaya Historical Park. No portrait of Ratsadathirat survives."
+        }
+      ],
+      "sources": [
+        {
+          "title": "Ratsadathirat (Wikipedia)",
+          "url": "https://en.wikipedia.org/wiki/Ratsadathirat"
+        },
+        {
+          "title": "List of monarchs of Thailand (Wikipedia)",
+          "url": "https://en.wikipedia.org/wiki/List_of_monarchs_of_Thailand"
+        }
+      ],
+      "review": {
+        "status": "draft",
+        "notes": "Short card added from the completeness audit; checked only against Wikipedia."
+      },
+      "end": {
+        "date": "1534"
       }
     },
     {
@@ -2191,7 +2397,7 @@
         "date": "1629"
       },
       "end": {
-        "date": "1655-08-08"
+        "date": "1656-08-08"
       },
       "contestedWith": [],
       "relationToPredecessor": "Minister who seized the throne",
@@ -2254,6 +2460,114 @@
       "review": {
         "status": "draft",
         "notes": "Drafted from the listed sources; needs a human fact-check."
+      }
+    },
+    {
+      "id": "chao-fa-chai",
+      "kind": "monarch",
+      "rulers": [
+        "chao-fa-chai"
+      ],
+      "tagline": "King for days",
+      "start": {
+        "date": "1656-08-08",
+        "circa": true
+      },
+      "contestedWith": [],
+      "relationToPredecessor": "Son of Prasat Thong",
+      "ageAtAccession": "Unknown",
+      "cameToPower": "Succeeded his father",
+      "reignEnded": "Overthrown and executed",
+      "previously": "Prasat Thong dies, and his sons and brother scheme.",
+      "paragraphs": [
+        "Chao Fa Chai took the throne when his father Prasat Thong died in 1656. His uncle, Prince Si Suthammaracha, and his half-brother Prince Narai turned on him almost immediately.",
+        "He was overthrown within days or weeks and executed."
+      ],
+      "claims": [],
+      "hook": "His uncle is king now, but Narai has his own plans.",
+      "images": [
+        {
+          "file": "File:Portrait of King Prasat Thong.jpeg",
+          "url": "https://upload.wikimedia.org/wikipedia/commons/d/d4/Portrait_of_King_Prasat_Thong.jpeg",
+          "page": "https://commons.wikimedia.org/wiki/File:Portrait_of_King_Prasat_Thong.jpeg",
+          "credit": "Sun Colreone",
+          "license": "CC BY-SA 4.0",
+          "made": "1630-12-16",
+          "caption": "King Prasat Thong. No portrait of Chao Fa Chai survives.",
+          "alt": "King Prasat Thong. No portrait of Chao Fa Chai survives."
+        }
+      ],
+      "sources": [
+        {
+          "title": "Chao Fa Chai (Wikipedia)",
+          "url": "https://en.wikipedia.org/wiki/Chao_Fa_Chai"
+        },
+        {
+          "title": "List of monarchs of Thailand (Wikipedia)",
+          "url": "https://en.wikipedia.org/wiki/List_of_monarchs_of_Thailand"
+        }
+      ],
+      "review": {
+        "status": "draft",
+        "notes": "Short card added from the completeness audit; checked only against Wikipedia."
+      },
+      "end": {
+        "date": "1656-08-25",
+        "circa": true
+      }
+    },
+    {
+      "id": "si-suthammaracha",
+      "kind": "monarch",
+      "rulers": [
+        "si-suthammaracha"
+      ],
+      "tagline": "The uncle who wanted his nephew's sister",
+      "start": {
+        "date": "1656-08-25",
+        "circa": true
+      },
+      "contestedWith": [],
+      "relationToPredecessor": "Brother of Prasat Thong",
+      "ageAtAccession": "Unknown",
+      "cameToPower": "Overthrew Chao Fa Chai",
+      "reignEnded": "Overthrown by Narai",
+      "previously": "Chao Fa Chai is overthrown by his uncle and half-brother.",
+      "paragraphs": [
+        "Si Suthammaracha took the throne with the help of his nephew Narai after they deposed Chao Fa Chai.",
+        "According to the chronicles, he then tried to take Narai's sister as a consort. She escaped, and Narai turned on his uncle, seized the palace and had him executed in October 1656."
+      ],
+      "claims": [],
+      "hook": "Narai is king, and Ayutthaya is about to open to the world.",
+      "images": [
+        {
+          "file": "File:โคลงภาพพระราชพงศาวดาร ภาพที่ 42 ภาพพระนารายณ์ยกเข้าไปตีพระราชวัง.jpg",
+          "url": "https://upload.wikimedia.org/wikipedia/commons/7/73/%E0%B9%82%E0%B8%84%E0%B8%A5%E0%B8%87%E0%B8%A0%E0%B8%B2%E0%B8%9E%E0%B8%9E%E0%B8%A3%E0%B8%B0%E0%B8%A3%E0%B8%B2%E0%B8%8A%E0%B8%9E%E0%B8%87%E0%B8%A8%E0%B8%B2%E0%B8%A7%E0%B8%94%E0%B8%B2%E0%B8%A3_%E0%B8%A0%E0%B8%B2%E0%B8%9E%E0%B8%97%E0%B8%B5%E0%B9%88_42_%E0%B8%A0%E0%B8%B2%E0%B8%9E%E0%B8%9E%E0%B8%A3%E0%B8%B0%E0%B8%99%E0%B8%B2%E0%B8%A3%E0%B8%B2%E0%B8%A2%E0%B8%93%E0%B9%8C%E0%B8%A2%E0%B8%81%E0%B9%80%E0%B8%82%E0%B9%89%E0%B8%B2%E0%B9%84%E0%B8%9B%E0%B8%95%E0%B8%B5%E0%B8%9E%E0%B8%A3%E0%B8%B0%E0%B8%A3%E0%B8%B2%E0%B8%8A%E0%B8%A7%E0%B8%B1%E0%B8%87.jpg",
+          "page": "https://commons.wikimedia.org/wiki/File:%E0%B9%82%E0%B8%84%E0%B8%A5%E0%B8%87%E0%B8%A0%E0%B8%B2%E0%B8%9E%E0%B8%9E%E0%B8%A3%E0%B8%B0%E0%B8%A3%E0%B8%B2%E0%B8%8A%E0%B8%9E%E0%B8%87%E0%B8%A8%E0%B8%B2%E0%B8%A7%E0%B8%94%E0%B8%B2%E0%B8%A3_%E0%B8%A0%E0%B8%B2%E0%B8%9E%E0%B8%97%E0%B8%B5%E0%B9%88_42_%E0%B8%A0%E0%B8%B2%E0%B8%9E%E0%B8%9E%E0%B8%A3%E0%B8%B0%E0%B8%99%E0%B8%B2%E0%B8%A3%E0%B8%B2%E0%B8%A2%E0%B8%93%E0%B9%8C%E0%B8%A2%E0%B8%81%E0%B9%80%E0%B8%82%E0%B9%89%E0%B8%B2%E0%B9%84%E0%B8%9B%E0%B8%95%E0%B8%B5%E0%B8%9E%E0%B8%A3%E0%B8%B0%E0%B8%A3%E0%B8%B2%E0%B8%8A%E0%B8%A7%E0%B8%B1%E0%B8%87.jpg",
+          "credit": "นายอิ้ม",
+          "license": "Public domain",
+          "made": "1887",
+          "caption": "จิตรกรรมเรื่องโคลงภาพพระราชพงศาวดาร รูปที่ 53 แผ่นดินสมเด็จพระศรีสุธรรมราชา \"ภาพพระนารายณ์ยกเข้าไปตีพระราชวัง\" ผลงานของนายอิ้ม ศิลปินชาวไทย…",
+          "alt": "จิตรกรรมเรื่องโคลงภาพพระราชพงศาวดาร รูปที่ 53 แผ่นดินสมเด็จพระศรีสุธรรมราชา \"ภาพพระนารายณ์ยกเข้าไปตีพระราชวัง\" ผลงานของนายอิ้ม ศิลปินชาวไทย…"
+        }
+      ],
+      "sources": [
+        {
+          "title": "Si Suthammaracha (Wikipedia)",
+          "url": "https://en.wikipedia.org/wiki/Si_Suthammaracha"
+        },
+        {
+          "title": "List of monarchs of Thailand (Wikipedia)",
+          "url": "https://en.wikipedia.org/wiki/List_of_monarchs_of_Thailand"
+        }
+      ],
+      "review": {
+        "status": "draft",
+        "notes": "Short card added from the completeness audit; checked only against Wikipedia."
+      },
+      "end": {
+        "date": "1656-10-26",
+        "circa": true
       }
     },
     {
@@ -2635,6 +2949,60 @@
       "review": {
         "status": "draft",
         "notes": "Drafted from the listed sources; needs a human fact-check."
+      }
+    },
+    {
+      "id": "uthumphon",
+      "kind": "monarch",
+      "rulers": [
+        "uthumphon"
+      ],
+      "tagline": "The king who chose to be a monk",
+      "start": {
+        "date": "1758-04-26",
+        "circa": true
+      },
+      "contestedWith": [],
+      "relationToPredecessor": "Son of Borommakot",
+      "ageAtAccession": "About 50",
+      "cameToPower": "Named heir by his father",
+      "reignEnded": "Gave the throne to his brother",
+      "previously": "Borommakot dies and names his younger son heir.",
+      "paragraphs": [
+        "Borommakot passed over his elder son Ekkathat and named Uthumphon as heir. Uthumphon became king in 1758, but after about three months he gave the throne to his brother and became a monk.",
+        "When the Burmese attacked in 1759 he briefly left the monastery to lead the defence, then went back. He was captured when Ayutthaya fell in 1767 and died in Burma."
+      ],
+      "claims": [],
+      "hook": "His brother Ekkathat takes over as the Burmese threat grows.",
+      "images": [
+        {
+          "file": "File:Burmese Depiction of an Ayutthaya King.jpg",
+          "url": "https://upload.wikimedia.org/wikipedia/commons/a/a8/Burmese_Depiction_of_an_Ayutthaya_King.jpg",
+          "page": "https://commons.wikimedia.org/wiki/File:Burmese_Depiction_of_an_Ayutthaya_King.jpg",
+          "credit": "Unknown authorUnknown author",
+          "license": "Public domain",
+          "made": "Not Later than 1855",
+          "caption": "A Burmese depiction of an Ayutthaya King, which has been interpreted to portray King Ekkathat, King Uthumphon, or King Suriyat (see more at…",
+          "alt": "A Burmese depiction of an Ayutthaya King, which has been interpreted to portray King Ekkathat, King Uthumphon, or King Suriyat (see more at…"
+        }
+      ],
+      "sources": [
+        {
+          "title": "Uthumphon (Wikipedia)",
+          "url": "https://en.wikipedia.org/wiki/Uthumphon"
+        },
+        {
+          "title": "List of monarchs of Thailand (Wikipedia)",
+          "url": "https://en.wikipedia.org/wiki/List_of_monarchs_of_Thailand"
+        }
+      ],
+      "review": {
+        "status": "draft",
+        "notes": "Short card added from the completeness audit; checked only against Wikipedia."
+      },
+      "end": {
+        "date": "1758-08",
+        "circa": true
       }
     },
     {
