@@ -9,12 +9,16 @@ Paused on 2026-10-05 to save usage. Every card is still an unchecked draft that 
 - Egypt: the 14th-16th Dynasty additions are written but not merged. The 13th Dynasty cards that start and end in the same year still need spreading out.
 - Not done: the Iran fact-check review, image licence doubts, strict validation of grouped cards, rebuilding and republishing the preview.
 
-## Done since (2026-10-08 checkpoint)
+## Status (2026-10-08, second checkpoint)
 
-- Georgia: grouped cards unrolled. No deck has grouped cards any more.
-- Added as cards: China (12), Rome (13), Egypt (all 3rd to 26th Dynasty rows plus the 14th and 16th Dynasties), HRE (4), England (Louis 1216, Richard Cromwell), France (Napoleon II), Spain (Archduke Charles), Scotland (Amlaib), Japan (Council of Five Elders), Ptolemaic (Ptolemy XIII).
-- Named as members: all MEMBER rows for England, France, Spain, Scotland, Japan, and Ptolemaic's Cleopatra card.
-- Still to do: everything below for the other decks, plus Rome's and the rest of Ptolemaic's MEMBER rows and Egypt's local and rival kings. Newer cards are short, sourced only to Wikipedia and still need a fact-check.
+Every row in the audit sections below has now been added, either as its own card or as a named member of an existing card, except where noted. No deck has grouped cards. Checks pass with 0 errors, including STRICT_GROUPS.
+
+- The cards added in the two checkpoints are short (two paragraphs, sourced to Wikipedia) and still need a fact-check.
+- Where no portrait exists, the card shows a period image (a coin, a place, a battle, a manuscript) and its caption says no portrait survives. A few of these automatic picks may still be off; check them on the site.
+- Not audited at all: Iran and Georgia (both were unrolled after the audit ran).
+- Left out on purpose: China's parallel dynasties (Southern Dynasties, Ten Kingdoms, Liao, Jin and so on). That is a scope choice for the China deck, not missing data.
+
+The sections below are the original audit, kept for reference.
 
 ## Missing rulers, by deck
 
