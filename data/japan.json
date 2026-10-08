@@ -408,7 +408,19 @@
       "review": {
         "status": "draft",
         "notes": "Drafted from the listed sources; needs a human fact-check."
-      }
+      },
+      "members": [
+        {
+          "name": "Ashikaga Yoshiaki",
+          "start": {
+            "date": "1568-10-18"
+          },
+          "end": {
+            "date": "1573-08"
+          },
+          "note": "The last Ashikaga shogun, installed by Nobunaga and later driven out by him"
+        }
+      ]
     },
     {
       "id": "toyotomi-hideyoshi",
@@ -484,6 +496,122 @@
       "review": {
         "status": "draft",
         "notes": "Drafted from the listed sources; needs a human fact-check."
+      },
+      "members": [
+        {
+          "name": "Toyotomi Hidetsugu",
+          "start": {
+            "date": "1591-12"
+          },
+          "end": {
+            "date": "1595-07-15"
+          },
+          "note": "Nephew and heir who held the office of kampaku; forced to kill himself"
+        }
+      ]
+    },
+    {
+      "id": "five-elders",
+      "kind": "interregnum",
+      "rulers": [],
+      "house": "toyotomi",
+      "title": "The Council of Five Elders",
+      "members": [
+        {
+          "name": "Tokugawa Ieyasu",
+          "start": {
+            "date": "1598-09-18"
+          },
+          "end": {
+            "date": "1600-10-21"
+          },
+          "note": "The strongest elder, who broke the council and won at Sekigahara"
+        },
+        {
+          "name": "Maeda Toshiie",
+          "start": {
+            "date": "1598-09-18"
+          },
+          "end": {
+            "date": "1599-04-27"
+          },
+          "note": "Guardian of Hideyori and the main check on Ieyasu until he died"
+        },
+        {
+          "name": "Mōri Terumoto",
+          "start": {
+            "date": "1598-09-18"
+          },
+          "end": {
+            "date": "1600-10-21"
+          },
+          "note": "Nominal leader of the western army at Sekigahara"
+        },
+        {
+          "name": "Ukita Hideie",
+          "start": {
+            "date": "1598-09-18"
+          },
+          "end": {
+            "date": "1600-10-21"
+          },
+          "note": "Fought for the west at Sekigahara and was exiled"
+        },
+        {
+          "name": "Uesugi Kagekatsu",
+          "start": {
+            "date": "1598-09-18"
+          },
+          "end": {
+            "date": "1600-10-21"
+          },
+          "note": "His defiance gave Ieyasu the pretext for war"
+        }
+      ],
+      "tagline": "Five lords rule for a five-year-old",
+      "start": {
+        "date": "1598-09-18"
+      },
+      "contestedWith": [],
+      "relationToPredecessor": "Appointed by the dying Hideyoshi",
+      "ageAtAccession": "Heir Hideyori aged 5",
+      "cameToPower": "Named regents by Hideyoshi",
+      "reignEnded": "Ieyasu wins at Sekigahara",
+      "previously": "Hideyoshi dies, leaving a five-year-old heir.",
+      "paragraphs": [
+        "Before he died, Toyotomi Hideyoshi set up five great lords as a council to rule for his son Hideyori until the boy came of age. They swore oaths to keep the peace and to protect the heir.",
+        "Tokugawa Ieyasu, the strongest of them, soon began making his own alliances. When Maeda Toshiie died in 1599 nobody could hold him back, and the council split into two camps that met at Sekigahara in October 1600."
+      ],
+      "claims": [],
+      "hook": "Ieyasu wins at Sekigahara, and Japan has a new master.",
+      "images": [
+        {
+          "file": "File:Joint letter of Five Elders (of Toyotomi).jpg",
+          "url": "https://upload.wikimedia.org/wikipedia/commons/3/3e/Joint_letter_of_Five_Elders_%28of_Toyotomi%29.jpg?utm_source=en.wikipedia.org&utm_campaign=imageinfo&utm_content=original",
+          "page": "https://commons.wikimedia.org/wiki/File:Joint_letter_of_Five_Elders_(of_Toyotomi).jpg",
+          "credit": "AlexHe34",
+          "license": "CC BY-SA 3.0",
+          "made": "2012-05-05",
+          "caption": "Joint letter of Toyotomi's Council of Five Elders (go-tairō). The Kaō on the first line from the left to the right belong to Uesugi Kagekatsu and Mōri…",
+          "alt": "Joint letter of Toyotomi's Council of Five Elders (go-tairō). The Kaō on the first line from the left to the right belong to Uesugi Kagekatsu and Mōri…"
+        }
+      ],
+      "sources": [
+        {
+          "title": "Council of Five Elders (Wikipedia)",
+          "url": "https://en.wikipedia.org/wiki/Council_of_Five_Elders"
+        },
+        {
+          "title": "List of shoguns (Wikipedia)",
+          "url": "https://en.wikipedia.org/wiki/List_of_shoguns"
+        }
+      ],
+      "review": {
+        "status": "draft",
+        "notes": "Short card added from the completeness audit; checked only against Wikipedia."
+      },
+      "end": {
+        "date": "1600-10-21"
       }
     },
     {
