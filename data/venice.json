@@ -1441,6 +1441,15 @@
         "date": "1789-02-13",
         "note": "Venice"
       }
+    },
+    {
+      "id": "domenico-orseolo",
+      "name": "Domenico Orseolo",
+      "house": "medieval-republic",
+      "died": {
+        "date": "1032",
+        "circa": true
+      }
     }
   ],
   "reigns": [
@@ -2203,7 +2212,21 @@
       "review": {
         "status": "draft",
         "notes": "Drafted from the listed sources; needs a human fact-check."
-      }
+      },
+      "members": [
+        {
+          "name": "Maurizio II Galbaio",
+          "start": {
+            "date": "0796",
+            "circa": true
+          },
+          "end": {
+            "date": "0804",
+            "circa": true
+          },
+          "note": "Son and co-doge"
+        }
+      ]
     },
     {
       "id": "obelerio",
@@ -2284,7 +2307,33 @@
       "review": {
         "status": "draft",
         "notes": "Drafted from the listed sources; needs a human fact-check."
-      }
+      },
+      "members": [
+        {
+          "name": "Beato",
+          "start": {
+            "date": "0804",
+            "circa": true
+          },
+          "end": {
+            "date": "0811",
+            "circa": true
+          },
+          "note": "Brother and co-doge"
+        },
+        {
+          "name": "Valentino",
+          "start": {
+            "date": "0805",
+            "circa": true
+          },
+          "end": {
+            "date": "0811",
+            "circa": true
+          },
+          "note": "Brother and co-doge"
+        }
+      ]
     },
     {
       "id": "agnello-partecipazio",
@@ -2596,7 +2645,21 @@
       "review": {
         "status": "draft",
         "notes": "Drafted from the listed sources; needs a human fact-check."
-      }
+      },
+      "members": [
+        {
+          "name": "Giovanni Tradonico",
+          "start": {
+            "date": "0836",
+            "circa": true
+          },
+          "end": {
+            "date": "0863",
+            "circa": true
+          },
+          "note": "Son and co-doge"
+        }
+      ]
     },
     {
       "id": "orso-i-partecipazio",
@@ -3576,7 +3639,21 @@
       "review": {
         "status": "draft",
         "notes": "Drafted from the listed sources; needs a human fact-check."
-      }
+      },
+      "members": [
+        {
+          "name": "Giovanni Orseolo",
+          "start": {
+            "date": "1002",
+            "circa": true
+          },
+          "end": {
+            "date": "1007",
+            "circa": true
+          },
+          "note": "Son and co-doge; died of plague"
+        }
+      ]
     },
     {
       "id": "otto-orseolo",
@@ -3744,7 +3821,9 @@
         "date": "1043",
         "circa": true
       },
-      "contestedWith": [],
+      "contestedWith": [
+        "domenico-orseolo"
+      ],
       "relationToPredecessor": "No relation; elected",
       "ageAtAccession": "Unknown",
       "cameToPower": "Elected after the Orseoli fell",
@@ -3804,6 +3883,60 @@
       "review": {
         "status": "draft",
         "notes": "Drafted from the listed sources; needs a human fact-check."
+      }
+    },
+    {
+      "id": "domenico-orseolo",
+      "kind": "monarch",
+      "rulers": [
+        "domenico-orseolo"
+      ],
+      "tagline": "Doge for a day",
+      "start": {
+        "date": "1032"
+      },
+      "contestedWith": [
+        "domenico-flabanico"
+      ],
+      "relationToPredecessor": "Son of Pietro II Orseolo",
+      "ageAtAccession": "Unknown",
+      "cameToPower": "Seized the palace",
+      "reignEnded": "Fled the next day",
+      "previously": "Doge Barbolano is forced out, and the Orseolos see a chance.",
+      "paragraphs": [
+        "After Doge Pietro Barbolano was forced out, Domenico Orseolo, a son of the great doge Pietro II, seized the ducal palace and declared himself doge without an election.",
+        "The Venetians feared another Orseolo dynasty. Domenico was driven out the next day and fled to Ravenna, where he died."
+      ],
+      "claims": [],
+      "hook": "Venice elects Domenico Flabanico, and bans doges from naming heirs.",
+      "images": [
+        {
+          "file": "File:Domenico Orseolo.jpg",
+          "url": "https://upload.wikimedia.org/wikipedia/commons/2/2b/Domenico_Orseolo.jpg",
+          "page": "https://commons.wikimedia.org/wiki/File:Domenico_Orseolo.jpg",
+          "credit": "Maspez",
+          "license": "CC0",
+          "made": "2024-02-23",
+          "caption": "Domenico Orseolo",
+          "alt": "Domenico Orseolo"
+        }
+      ],
+      "sources": [
+        {
+          "title": "Domenico Orseolo (Wikipedia)",
+          "url": "https://en.wikipedia.org/wiki/Domenico_Orseolo"
+        },
+        {
+          "title": "Wikipedia list of rulers",
+          "url": "https://en.wikipedia.org/wiki/Domenico_Orseolo"
+        }
+      ],
+      "review": {
+        "status": "draft",
+        "notes": "Short card added from the completeness audit; checked only against Wikipedia."
+      },
+      "end": {
+        "date": "1032"
       }
     },
     {

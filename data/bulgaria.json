@@ -579,6 +579,69 @@
         "note": "Tarnovo"
       },
       "causeOfDeath": "Strangled in prison"
+    },
+    {
+      "id": "dukum",
+      "name": "Dukum",
+      "house": "krum",
+      "died": {
+        "date": "0814",
+        "circa": true
+      }
+    },
+    {
+      "id": "ditseng",
+      "name": "Ditseng",
+      "house": "krum",
+      "died": {
+        "date": "0815",
+        "circa": true
+      }
+    },
+    {
+      "id": "vladimir-rasate",
+      "name": "Vladimir Rasate",
+      "house": "krum",
+      "died": {
+        "date": "0893",
+        "circa": true
+      }
+    },
+    {
+      "id": "roman",
+      "name": "Roman",
+      "house": "krum",
+      "died": {
+        "date": "0997",
+        "circa": true
+      }
+    },
+    {
+      "id": "george-ii-terter",
+      "name": "George II Terter",
+      "house": "terter",
+      "died": {
+        "date": "1323",
+        "circa": true
+      }
+    },
+    {
+      "id": "ivan-stephen",
+      "name": "Ivan Stephen",
+      "house": "shishman",
+      "died": {
+        "date": "1373",
+        "circa": true
+      }
+    },
+    {
+      "id": "ivan-sratsimir",
+      "name": "Ivan Sratsimir",
+      "house": "shishman",
+      "died": {
+        "date": "1397",
+        "circa": true
+      }
     }
   ],
   "reigns": [
@@ -1687,6 +1750,118 @@
       }
     },
     {
+      "id": "ditseng",
+      "kind": "monarch",
+      "rulers": [
+        "ditseng"
+      ],
+      "tagline": "The khan who persecuted Christians",
+      "start": {
+        "date": "0814-12",
+        "circa": true
+      },
+      "contestedWith": [
+        "dukum"
+      ],
+      "relationToPredecessor": "Unknown; a Bulgar noble",
+      "ageAtAccession": "Unknown",
+      "cameToPower": "Succeeded Dukum",
+      "reignEnded": "Overthrown or killed",
+      "previously": "Dukum dies within months of taking power.",
+      "paragraphs": [
+        "Ditseng ruled briefly after Dukum. Byzantine church writers remember him as a cruel persecutor of the Christian captives Krum had brought back from Thrace, including the bishop of Adrianople.",
+        "He was overthrown or killed in 815, and Krum's son Omurtag became khan."
+      ],
+      "claims": [],
+      "hook": "Omurtag, Krum's son, takes over and makes peace with Byzantium.",
+      "images": [
+        {
+          "file": "File:Krum1.jpg",
+          "url": "https://upload.wikimedia.org/wikipedia/commons/d/df/Krum1.jpg",
+          "page": "https://commons.wikimedia.org/wiki/File:Krum1.jpg",
+          "credit": "AnonymousUnknown author",
+          "license": "Public domain",
+          "made": "14th centurydate QS:P,+1350-00-00T00:00:00Z/7",
+          "caption": "Крум пирува след победата над император Никифор, миниатюра от българския превод на Манасиевата летопис, XIV век. No portrait of Ditseng survives.",
+          "alt": "Крум пирува след победата над император Никифор, миниатюра от българския превод на Манасиевата летопис, XIV век. No portrait of Ditseng survives."
+        }
+      ],
+      "sources": [
+        {
+          "title": "Ditzevg (Wikipedia)",
+          "url": "https://en.wikipedia.org/wiki/Ditzevg"
+        },
+        {
+          "title": "List of Bulgarian monarchs (Wikipedia)",
+          "url": "https://en.wikipedia.org/wiki/List_of_Bulgarian_monarchs"
+        }
+      ],
+      "review": {
+        "status": "draft",
+        "notes": "Short card added from the completeness audit; checked only against Wikipedia."
+      },
+      "end": {
+        "date": "0815",
+        "circa": true
+      }
+    },
+    {
+      "id": "dukum",
+      "kind": "monarch",
+      "rulers": [
+        "dukum"
+      ],
+      "tagline": "Krum's successor, dead within months",
+      "start": {
+        "date": "0814-04",
+        "circa": true
+      },
+      "contestedWith": [
+        "ditseng"
+      ],
+      "relationToPredecessor": "Unknown; a Bulgar noble",
+      "ageAtAccession": "Unknown",
+      "cameToPower": "Took power after Krum died",
+      "reignEnded": "Died soon after",
+      "previously": "Krum dies suddenly, planning to storm Constantinople.",
+      "paragraphs": [
+        "Dukum took power after Khan Krum died suddenly in April 814. He is known only from a few Byzantine sources, which say he died soon after taking power.",
+        "Nothing certain is known of his family or how he came to rule."
+      ],
+      "claims": [],
+      "hook": "Another noble, Ditseng, takes over.",
+      "images": [
+        {
+          "file": "File:Bulgarien Pliska Khan Asparuch.jpg",
+          "url": "https://upload.wikimedia.org/wikipedia/commons/6/6e/Bulgarien_Pliska_Khan_Asparuch.jpg",
+          "page": "https://commons.wikimedia.org/wiki/File:Bulgarien_Pliska_Khan_Asparuch.jpg",
+          "credit": "Peter80",
+          "license": "CC BY-SA 3.0",
+          "made": "2004-12-05",
+          "caption": "Statue of Asparukh, Khan of Bulgaria (Reign 679–700). No portrait of Dukum survives.",
+          "alt": "Statue of Asparukh, Khan of Bulgaria (Reign 679–700). No portrait of Dukum survives."
+        }
+      ],
+      "sources": [
+        {
+          "title": "Dukum (Wikipedia)",
+          "url": "https://en.wikipedia.org/wiki/Dukum"
+        },
+        {
+          "title": "List of Bulgarian monarchs (Wikipedia)",
+          "url": "https://en.wikipedia.org/wiki/List_of_Bulgarian_monarchs"
+        }
+      ],
+      "review": {
+        "status": "draft",
+        "notes": "Short card added from the completeness audit; checked only against Wikipedia."
+      },
+      "end": {
+        "date": "0814-12",
+        "circa": true
+      }
+    },
+    {
       "id": "omurtag",
       "kind": "monarch",
       "rulers": [
@@ -2005,6 +2180,58 @@
       }
     },
     {
+      "id": "vladimir-rasate",
+      "kind": "monarch",
+      "rulers": [
+        "vladimir-rasate"
+      ],
+      "tagline": "The son who tried to bring back paganism",
+      "start": {
+        "date": "0889"
+      },
+      "contestedWith": [],
+      "relationToPredecessor": "Eldest son of Boris I",
+      "ageAtAccession": "Unknown",
+      "cameToPower": "Boris retired to a monastery",
+      "reignEnded": "Deposed and blinded by his father",
+      "previously": "Boris I retires to a monastery and leaves the throne to his son.",
+      "paragraphs": [
+        "Boris I, who had made Bulgaria Christian, retired to a monastery in 889 and left the throne to his eldest son Vladimir.",
+        "Vladimir tried to bring back the old pagan religion. In 893 Boris left the monastery, deposed and blinded his son, and put his younger son Simeon on the throne."
+      ],
+      "claims": [],
+      "hook": "Simeon, raised as a monk, becomes ruler and builds a golden age.",
+      "images": [
+        {
+          "file": "File:Saint Demetrius Church in Teshovo Enthronement of Simeon and Punishment of Vladimir Fresco 2.jpg",
+          "url": "https://upload.wikimedia.org/wikipedia/commons/3/33/Saint_Demetrius_Church_in_Teshovo_Enthronement_of_Simeon_and_Punishment_of_Vladimir_Fresco_2.jpg",
+          "page": "https://commons.wikimedia.org/wiki/File:Saint_Demetrius_Church_in_Teshovo_Enthronement_of_Simeon_and_Punishment_of_Vladimir_Fresco_2.jpg",
+          "credit": "Mino, Marko and Teofil Minovi",
+          "license": "Public domain",
+          "made": "between 1883 and 1885date…",
+          "caption": "Saint Demetrius Church in Teshovo Enthronement of Simeon and Punishment of Vladimir Fresco 2",
+          "alt": "Saint Demetrius Church in Teshovo Enthronement of Simeon and Punishment of Vladimir Fresco 2"
+        }
+      ],
+      "sources": [
+        {
+          "title": "Vladimir-Rasate (Wikipedia)",
+          "url": "https://en.wikipedia.org/wiki/Vladimir-Rasate"
+        },
+        {
+          "title": "List of Bulgarian monarchs (Wikipedia)",
+          "url": "https://en.wikipedia.org/wiki/List_of_Bulgarian_monarchs"
+        }
+      ],
+      "review": {
+        "status": "draft",
+        "notes": "Short card added from the completeness audit; checked only against Wikipedia."
+      },
+      "end": {
+        "date": "0893"
+      }
+    },
+    {
       "id": "simeon-i",
       "kind": "monarch",
       "rulers": [
@@ -2254,7 +2481,9 @@
       "end": {
         "date": "1014-10-06"
       },
-      "contestedWith": [],
+      "contestedWith": [
+        "roman"
+      ],
       "relationToPredecessor": "Son of a count named Nicholas",
       "ageAtAccession": "Unknown",
       "cameToPower": "Revolt of the four brothers",
@@ -2319,6 +2548,76 @@
       "review": {
         "status": "draft",
         "notes": "Drafted from the listed sources; needs a human fact-check."
+      },
+      "members": [
+        {
+          "name": "David, Moses and Aron",
+          "start": {
+            "date": "0971",
+            "circa": true
+          },
+          "end": {
+            "date": "0987",
+            "circa": true
+          },
+          "note": "Samuel's brothers, the Cometopuli, who shared power; Aron was killed by Samuel"
+        }
+      ]
+    },
+    {
+      "id": "roman",
+      "kind": "monarch",
+      "rulers": [
+        "roman"
+      ],
+      "tagline": "The castrated tsar",
+      "start": {
+        "date": "0977",
+        "circa": true
+      },
+      "contestedWith": [
+        "samuel"
+      ],
+      "relationToPredecessor": "Son of Peter I",
+      "ageAtAccession": "Unknown",
+      "cameToPower": "Escaped Byzantine captivity",
+      "reignEnded": "Died a prisoner",
+      "previously": "Boris II is killed, and his brother Roman escapes home.",
+      "paragraphs": [
+        "Roman, a son of Tsar Peter I, had been castrated by the Byzantines, which by custom barred him from the throne. When he escaped home he was recognised as tsar anyway, while the general Samuel did the real ruling.",
+        "He was captured by the Byzantines when Vidin fell, around 991 or 997, and died in captivity."
+      ],
+      "claims": [],
+      "hook": "Samuel rules alone as tsar.",
+      "images": [
+        {
+          "file": "File:20230423.Ansichten von Vidin.-046.1.jpg",
+          "url": "https://upload.wikimedia.org/wikipedia/commons/5/54/20230423.Ansichten_von_Vidin.-046.1.jpg",
+          "page": "https://commons.wikimedia.org/wiki/File:20230423.Ansichten_von_Vidin.-046.1.jpg",
+          "credit": "Bybbisch94, Christian Gebhardt",
+          "license": "CC BY-SA 4.0",
+          "made": "2023-04-23 15:22:11",
+          "caption": "Widin ist eine Stadt im äußersten Nordwesten Bulgariens und das administrative Zentrum der gleichnamigen Oblast Widin und der Gemeinde Widin. Weiterhin ist. No portrait of Roman survives.",
+          "alt": "Widin ist eine Stadt im äußersten Nordwesten Bulgariens und das administrative Zentrum der gleichnamigen Oblast Widin und der Gemeinde Widin. Weiterhin ist. No portrait of Roman survives."
+        }
+      ],
+      "sources": [
+        {
+          "title": "Roman of Bulgaria (Wikipedia)",
+          "url": "https://en.wikipedia.org/wiki/Roman_of_Bulgaria"
+        },
+        {
+          "title": "List of Bulgarian monarchs (Wikipedia)",
+          "url": "https://en.wikipedia.org/wiki/List_of_Bulgarian_monarchs"
+        }
+      ],
+      "review": {
+        "status": "draft",
+        "notes": "Short card added from the completeness audit; checked only against Wikipedia."
+      },
+      "end": {
+        "date": "0997",
+        "circa": true
       }
     },
     {
@@ -2708,7 +3007,21 @@
       "review": {
         "status": "draft",
         "notes": "Drafted from the listed sources; needs a human fact-check."
-      }
+      },
+      "members": [
+        {
+          "name": "Tihomir",
+          "start": {
+            "date": "1040",
+            "circa": true
+          },
+          "end": {
+            "date": "1040",
+            "circa": true
+          },
+          "note": "Rebel leader proclaimed first, then killed in favour of Delyan"
+        }
+      ]
     },
     {
       "id": "byzantine-rule-late",
@@ -3683,7 +3996,21 @@
       "review": {
         "status": "draft",
         "notes": "Drafted from the listed sources; needs a human fact-check."
-      }
+      },
+      "members": [
+        {
+          "name": "Michael Asen II",
+          "start": {
+            "date": "1272",
+            "circa": true
+          },
+          "end": {
+            "date": "1277",
+            "circa": true
+          },
+          "note": "Son, crowned co-emperor as a child"
+        }
+      ]
     },
     {
       "id": "ivailo",
@@ -4209,6 +4536,58 @@
       }
     },
     {
+      "id": "george-ii-terter",
+      "kind": "monarch",
+      "rulers": [
+        "george-ii-terter"
+      ],
+      "tagline": "The last of the Terters",
+      "start": {
+        "date": "1322"
+      },
+      "contestedWith": [],
+      "relationToPredecessor": "Son of Theodore Svetoslav",
+      "ageAtAccession": "Unknown",
+      "cameToPower": "Succeeded his father",
+      "reignEnded": "Died after a year",
+      "previously": "Theodore Svetoslav dies after a long, steady reign.",
+      "paragraphs": [
+        "George II took over from his father Theodore Svetoslav and soon went to war with Byzantium, which was itself split by civil war. He captured Philippopolis (Plovdiv).",
+        "He died in 1323 after about a year, without an heir, ending the Terter dynasty."
+      ],
+      "claims": [],
+      "hook": "The nobles choose Michael Shishman of Vidin as tsar.",
+      "images": [
+        {
+          "file": "File:Coin of George Terter II.png",
+          "url": "https://upload.wikimedia.org/wikipedia/commons/7/70/Coin_of_George_Terter_II.png",
+          "page": "https://commons.wikimedia.org/wiki/File:Coin_of_George_Terter_II.png",
+          "credit": "CNG Coins",
+          "license": "CC BY-SA 2.5",
+          "made": "Unknown",
+          "caption": "Coin of Bulgarian emperor George Terter II. Uncertain mint. George II and St. George standing facing, holding banner between them.",
+          "alt": "Coin of Bulgarian emperor George Terter II. Uncertain mint. George II and St. George standing facing, holding banner between them."
+        }
+      ],
+      "sources": [
+        {
+          "title": "George II of Bulgaria (Wikipedia)",
+          "url": "https://en.wikipedia.org/wiki/George_II_of_Bulgaria"
+        },
+        {
+          "title": "List of Bulgarian monarchs (Wikipedia)",
+          "url": "https://en.wikipedia.org/wiki/List_of_Bulgarian_monarchs"
+        }
+      ],
+      "review": {
+        "status": "draft",
+        "notes": "Short card added from the completeness audit; checked only against Wikipedia."
+      },
+      "end": {
+        "date": "1323"
+      }
+    },
+    {
       "id": "michael-shishman",
       "kind": "monarch",
       "rulers": [
@@ -4285,6 +4664,58 @@
       }
     },
     {
+      "id": "ivan-stephen",
+      "kind": "monarch",
+      "rulers": [
+        "ivan-stephen"
+      ],
+      "tagline": "Tsar for nine months after Velbazhd",
+      "start": {
+        "date": "1330-07-31"
+      },
+      "contestedWith": [],
+      "relationToPredecessor": "Son of Michael Shishman",
+      "ageAtAccession": "Unknown",
+      "cameToPower": "Put in by the Serbian victors",
+      "reignEnded": "Deposed by the nobles",
+      "previously": "Michael Shishman is killed by the Serbs at Velbazhd.",
+      "paragraphs": [
+        "After his father Michael Shishman was killed at the battle of Velbazhd, Ivan Stephen was put on the throne with Serbian backing. His mother was the sister of the Serbian king.",
+        "Bulgarian nobles resented Serbian influence and deposed him in 1331. He fled and spent the rest of his life in exile."
+      ],
+      "claims": [],
+      "hook": "The nobles pick his cousin Ivan Alexander.",
+      "images": [
+        {
+          "file": "File:King John Stephen of Bulgaria 19th Century.JPG",
+          "url": "https://upload.wikimedia.org/wikipedia/commons/7/79/King_John_Stephen_of_Bulgaria_19th_Century.JPG",
+          "page": "https://commons.wikimedia.org/wiki/File:King_John_Stephen_of_Bulgaria_19th_Century.JPG",
+          "credit": "Anonymous author",
+          "license": "Public domain",
+          "made": "19th centurydate QS:P,+1850-00-00T00:00:00Z/7",
+          "caption": "John Stephen, King of Bulgaria and Duke of Durazzo, painting by anonymous author, late 19th century, Sofia Art Gallery.",
+          "alt": "John Stephen, King of Bulgaria and Duke of Durazzo, painting by anonymous author, late 19th century, Sofia Art Gallery."
+        }
+      ],
+      "sources": [
+        {
+          "title": "Ivan Stephen of Bulgaria (Wikipedia)",
+          "url": "https://en.wikipedia.org/wiki/Ivan_Stephen_of_Bulgaria"
+        },
+        {
+          "title": "List of Bulgarian monarchs (Wikipedia)",
+          "url": "https://en.wikipedia.org/wiki/List_of_Bulgarian_monarchs"
+        }
+      ],
+      "review": {
+        "status": "draft",
+        "notes": "Short card added from the completeness audit; checked only against Wikipedia."
+      },
+      "end": {
+        "date": "1331-04"
+      }
+    },
+    {
       "id": "ivan-alexander",
       "kind": "monarch",
       "rulers": [
@@ -4292,12 +4723,15 @@
       ],
       "tagline": "The book-loving tsar who watched the Ottomans arrive",
       "start": {
-        "date": "1331"
+        "date": "1331-04",
+        "circa": true
       },
       "end": {
         "date": "1371-02-17"
       },
-      "contestedWith": [],
+      "contestedWith": [
+        "ivan-sratsimir"
+      ],
       "relationToPredecessor": "Nephew of Michael Shishman",
       "ageAtAccession": "About 30",
       "cameToPower": "Boyar coup against his cousin",
@@ -4365,6 +4799,61 @@
       }
     },
     {
+      "id": "ivan-sratsimir",
+      "kind": "monarch",
+      "rulers": [
+        "ivan-sratsimir"
+      ],
+      "tagline": "The tsar of Vidin, last to fall",
+      "start": {
+        "date": "1356"
+      },
+      "contestedWith": [
+        "ivan-alexander",
+        "ivan-shishman"
+      ],
+      "relationToPredecessor": "Son of Ivan Alexander",
+      "ageAtAccession": "About 32",
+      "cameToPower": "Ruled Vidin as a rival tsar",
+      "reignEnded": "Captured by the Ottomans",
+      "previously": "Ivan Alexander splits his realm between his sons.",
+      "paragraphs": [
+        "Ivan Sratsimir, the eldest son of Ivan Alexander, was passed over in favour of his half-brother Ivan Shishman. He broke away and ruled from Vidin as tsar.",
+        "He outlasted Tarnovo by three years. After the Christian defeat at Nicopolis in 1396, the Ottomans took Vidin and he died in captivity. His fall ended the medieval Bulgarian state."
+      ],
+      "claims": [],
+      "hook": "Bulgaria disappears into the Ottoman Empire for nearly five centuries.",
+      "images": [
+        {
+          "file": "File:Baba Vida.png",
+          "url": "https://upload.wikimedia.org/wikipedia/commons/2/21/Baba_Vida.png",
+          "page": "https://commons.wikimedia.org/wiki/File:Baba_Vida.png",
+          "credit": "Kandi",
+          "license": "Public domain",
+          "made": "2009-02-01",
+          "caption": "Baba Vida Fortress-plan. No portrait of Ivan Sratsimir survives.",
+          "alt": "Baba Vida Fortress-plan. No portrait of Ivan Sratsimir survives."
+        }
+      ],
+      "sources": [
+        {
+          "title": "Ivan Sratsimir of Bulgaria (Wikipedia)",
+          "url": "https://en.wikipedia.org/wiki/Ivan_Sratsimir_of_Bulgaria"
+        },
+        {
+          "title": "List of Bulgarian monarchs (Wikipedia)",
+          "url": "https://en.wikipedia.org/wiki/List_of_Bulgarian_monarchs"
+        }
+      ],
+      "review": {
+        "status": "draft",
+        "notes": "Short card added from the completeness audit; checked only against Wikipedia."
+      },
+      "end": {
+        "date": "1396"
+      }
+    },
+    {
       "id": "ivan-shishman",
       "kind": "monarch",
       "rulers": [
@@ -4378,7 +4867,9 @@
         "date": "1395",
         "circa": true
       },
-      "contestedWith": [],
+      "contestedWith": [
+        "ivan-sratsimir"
+      ],
       "relationToPredecessor": "Son of Ivan Alexander and Theodora",
       "ageAtAccession": "About 20",
       "cameToPower": "Succeeded his father",
@@ -4861,6 +5352,81 @@
       ]
     },
     {
+      "id": "russian-administration",
+      "kind": "interregnum",
+      "rulers": [],
+      "house": "no-dynasty",
+      "title": "Russian Provisional Administration",
+      "members": [
+        {
+          "name": "Vladimir Cherkassky",
+          "start": {
+            "date": "1877",
+            "circa": true
+          },
+          "end": {
+            "date": "1878-03"
+          },
+          "note": "Head of civil administration during the war; died at San Stefano"
+        },
+        {
+          "name": "Alexander Dondukov-Korsakov",
+          "start": {
+            "date": "1878-04"
+          },
+          "end": {
+            "date": "1879-06"
+          },
+          "note": "Russian commissioner who oversaw the Tarnovo Constitution"
+        }
+      ],
+      "tagline": "Russia runs the new Bulgaria",
+      "start": {
+        "date": "1878-03-03"
+      },
+      "contestedWith": [],
+      "relationToPredecessor": "Russian occupation",
+      "ageAtAccession": "Not applicable",
+      "cameToPower": "Russia beat the Ottomans",
+      "reignEnded": "First prince elected",
+      "previously": "Russian armies free Bulgaria from Ottoman rule.",
+      "paragraphs": [
+        "After the Russo-Turkish War, Russian officials ran the new Bulgarian principality. They set up courts, police and local government from scratch.",
+        "Under commissioner Dondukov-Korsakov, an assembly at Tarnovo wrote a liberal constitution in 1879 and elected the German prince Alexander of Battenberg."
+      ],
+      "claims": [],
+      "hook": "Alexander of Battenberg arrives, the Tsar's nephew and choice.",
+      "images": [
+        {
+          "file": "File:Plovdiv-Headquaters-Interim-Russian-Government-1878.jpg",
+          "url": "https://upload.wikimedia.org/wikipedia/commons/b/b4/Plovdiv-Headquaters-Interim-Russian-Government-1878.jpg",
+          "page": "https://commons.wikimedia.org/wiki/File:Plovdiv-Headquaters-Interim-Russian-Government-1878.jpg",
+          "credit": "Vassia Atanassova - Spiritia",
+          "license": "CC BY-SA 3.0",
+          "made": "2010-05-01",
+          "caption": "Headquarters of the Interim Russian Government of Bulgaria in 1878, Plovdiv, Bulgaria",
+          "alt": "Headquarters of the Interim Russian Government of Bulgaria in 1878, Plovdiv, Bulgaria"
+        }
+      ],
+      "sources": [
+        {
+          "title": "Provisional Russian Administration in Bulgaria (Wikipedia)",
+          "url": "https://en.wikipedia.org/wiki/Provisional_Russian_Administration_in_Bulgaria"
+        },
+        {
+          "title": "List of Bulgarian monarchs (Wikipedia)",
+          "url": "https://en.wikipedia.org/wiki/List_of_Bulgarian_monarchs"
+        }
+      ],
+      "review": {
+        "status": "draft",
+        "notes": "Short card added from the completeness audit; checked only against Wikipedia."
+      },
+      "end": {
+        "date": "1879-04-29"
+      }
+    },
+    {
       "id": "alexander-i",
       "kind": "monarch",
       "rulers": [
@@ -4929,6 +5495,100 @@
       "review": {
         "status": "draft",
         "notes": "Drafted from the listed sources; needs a human fact-check."
+      }
+    },
+    {
+      "id": "regency-1886",
+      "kind": "interregnum",
+      "rulers": [],
+      "house": "no-dynasty",
+      "title": "Regency of 1886–1887",
+      "members": [
+        {
+          "name": "Stefan Stambolov",
+          "start": {
+            "date": "1886-09-07"
+          },
+          "end": {
+            "date": "1887-07-07"
+          },
+          "note": "Leading regent who defied Russia"
+        },
+        {
+          "name": "Sava Mutkurov",
+          "start": {
+            "date": "1886-09-07"
+          },
+          "end": {
+            "date": "1887-07-07"
+          },
+          "note": "Regent and army officer"
+        },
+        {
+          "name": "Petko Karavelov",
+          "start": {
+            "date": "1886-09-07"
+          },
+          "end": {
+            "date": "1886-10"
+          },
+          "note": "Regent who resigned"
+        },
+        {
+          "name": "Georgi Zhivkov",
+          "start": {
+            "date": "1886-10"
+          },
+          "end": {
+            "date": "1887-07-07"
+          },
+          "note": "Replaced Karavelov as regent"
+        }
+      ],
+      "tagline": "Three regents and no prince",
+      "start": {
+        "date": "1886-09-07"
+      },
+      "contestedWith": [],
+      "relationToPredecessor": "Regents after Alexander abdicated",
+      "ageAtAccession": "Not applicable",
+      "cameToPower": "Prince Alexander abdicated",
+      "reignEnded": "Ferdinand elected prince",
+      "previously": "Russia forces out Prince Alexander.",
+      "paragraphs": [
+        "After pro-Russian officers kidnapped Prince Alexander and forced his abdication, a regency led by Stefan Stambolov ran Bulgaria and refused to bow to Russia.",
+        "Russia broke off relations, and the regents searched Europe for a new prince. They found Ferdinand of Saxe-Coburg, elected in July 1887."
+      ],
+      "claims": [],
+      "hook": "Ferdinand arrives, a prince no great power wants to recognise.",
+      "images": [
+        {
+          "file": "File:Statue of Stefan Stambolov in Veliko Tarnovo.jpg",
+          "url": "https://upload.wikimedia.org/wikipedia/commons/9/99/Statue_of_Stefan_Stambolov_in_Veliko_Tarnovo.jpg",
+          "page": "https://commons.wikimedia.org/wiki/File:Statue_of_Stefan_Stambolov_in_Veliko_Tarnovo.jpg",
+          "credit": "Unknown",
+          "license": "CC BY-SA 3.0",
+          "made": "Date not recorded",
+          "caption": "Statue of Stefan Stambolov, the leading regent, in Veliko Tarnovo.",
+          "alt": "Statue of Stefan Stambolov, the leading regent, in Veliko Tarnovo."
+        }
+      ],
+      "sources": [
+        {
+          "title": "Stefan Stambolov (Wikipedia)",
+          "url": "https://en.wikipedia.org/wiki/Stefan_Stambolov"
+        },
+        {
+          "title": "List of Bulgarian monarchs (Wikipedia)",
+          "url": "https://en.wikipedia.org/wiki/List_of_Bulgarian_monarchs"
+        }
+      ],
+      "review": {
+        "status": "draft",
+        "notes": "Short card added from the completeness audit; checked only against Wikipedia."
+      },
+      "end": {
+        "date": "1887-07-07"
       }
     },
     {

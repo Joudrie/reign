@@ -1009,6 +1009,30 @@
         "date": "1884-07-31",
         "note": "Huế"
       }
+    },
+    {
+      "id": "le-long-viet",
+      "name": "Lê Long Việt",
+      "house": "early-le"
+    },
+    {
+      "id": "ho-han-thuong",
+      "name": "Hồ Hán Thương",
+      "house": "ho"
+    },
+    {
+      "id": "mac-dang-doanh",
+      "name": "Mạc Đăng Doanh",
+      "house": "mac",
+      "died": {
+        "date": "1540",
+        "circa": true
+      }
+    },
+    {
+      "id": "mac-toan",
+      "name": "Mạc Toàn",
+      "house": "mac"
     }
   ],
   "reigns": [
@@ -1235,6 +1259,193 @@
       "review": {
         "status": "draft",
         "notes": "Drafted from the listed sources; needs a human fact-check."
+      }
+    },
+    {
+      "id": "twelve-warlords",
+      "kind": "interregnum",
+      "rulers": [],
+      "house": "ngo",
+      "title": "Anarchy of the Twelve Warlords",
+      "members": [
+        {
+          "name": "Ngô Xương Xí",
+          "start": {
+            "date": "0965",
+            "circa": true
+          },
+          "end": {
+            "date": "0967",
+            "circa": true
+          }
+        },
+        {
+          "name": "Đỗ Cảnh Thạc",
+          "start": {
+            "date": "0965",
+            "circa": true
+          },
+          "end": {
+            "date": "0967",
+            "circa": true
+          }
+        },
+        {
+          "name": "Trần Lãm",
+          "start": {
+            "date": "0965",
+            "circa": true
+          },
+          "end": {
+            "date": "0967",
+            "circa": true
+          },
+          "note": "Adopted Đinh Bộ Lĩnh, who inherited his army"
+        },
+        {
+          "name": "Kiều Công Hãn",
+          "start": {
+            "date": "0965",
+            "circa": true
+          },
+          "end": {
+            "date": "0967",
+            "circa": true
+          }
+        },
+        {
+          "name": "Nguyễn Khoan",
+          "start": {
+            "date": "0965",
+            "circa": true
+          },
+          "end": {
+            "date": "0967",
+            "circa": true
+          }
+        },
+        {
+          "name": "Ngô Nhật Khánh",
+          "start": {
+            "date": "0965",
+            "circa": true
+          },
+          "end": {
+            "date": "0967",
+            "circa": true
+          }
+        },
+        {
+          "name": "Lý Khuê",
+          "start": {
+            "date": "0965",
+            "circa": true
+          },
+          "end": {
+            "date": "0967",
+            "circa": true
+          }
+        },
+        {
+          "name": "Nguyễn Thủ Tiệp",
+          "start": {
+            "date": "0965",
+            "circa": true
+          },
+          "end": {
+            "date": "0967",
+            "circa": true
+          }
+        },
+        {
+          "name": "Lã Đường",
+          "start": {
+            "date": "0965",
+            "circa": true
+          },
+          "end": {
+            "date": "0967",
+            "circa": true
+          }
+        },
+        {
+          "name": "Nguyễn Siêu",
+          "start": {
+            "date": "0965",
+            "circa": true
+          },
+          "end": {
+            "date": "0967",
+            "circa": true
+          }
+        },
+        {
+          "name": "Kiều Thuận",
+          "start": {
+            "date": "0965",
+            "circa": true
+          },
+          "end": {
+            "date": "0967",
+            "circa": true
+          }
+        },
+        {
+          "name": "Phạm Bạch Hổ",
+          "start": {
+            "date": "0965",
+            "circa": true
+          },
+          "end": {
+            "date": "0967",
+            "circa": true
+          }
+        }
+      ],
+      "tagline": "Twelve lords carve up the country",
+      "start": {
+        "date": "0965"
+      },
+      "contestedWith": [],
+      "relationToPredecessor": "Regional warlords",
+      "ageAtAccession": "Not applicable",
+      "cameToPower": "Ngô dynasty collapsed",
+      "reignEnded": "Đinh Bộ Lĩnh beat them all",
+      "previously": "Ngô Xương Văn is killed, and the Ngô dynasty falls apart.",
+      "paragraphs": [
+        "When the Ngô dynasty collapsed in 965, the country split among twelve local warlords, each holding his own territory and fighting the others.",
+        "Đinh Bộ Lĩnh, adopted son of the warlord Trần Lãm, defeated or won over the rest one by one. By 968 he had reunited the land and declared himself emperor."
+      ],
+      "claims": [],
+      "hook": "Đinh Bộ Lĩnh reunites the country and names it Đại Cồ Việt.",
+      "images": [
+        {
+          "file": "File:VietNamToanCanhDuDo.jpg",
+          "url": "https://upload.wikimedia.org/wikipedia/commons/1/1c/VietNamToanCanhDuDo.jpg",
+          "page": "https://commons.wikimedia.org/wiki/File:VietNamToanCanhDuDo.jpg",
+          "credit": "Hoàng Hữu Xứng (1831-1905)",
+          "license": "Public domain",
+          "made": "1885",
+          "caption": "Việt Nam toàn cảnh dư đồ (越南全境輿圖), a 1885 map of Vietnam created by cartographer Hoàng Hữu Xứng (1831-1905).",
+          "alt": "Việt Nam toàn cảnh dư đồ (越南全境輿圖), a 1885 map of Vietnam created by cartographer Hoàng Hữu Xứng (1831-1905)."
+        }
+      ],
+      "sources": [
+        {
+          "title": "Anarchy of the 12 Warlords (Wikipedia)",
+          "url": "https://en.wikipedia.org/wiki/Anarchy_of_the_12_Warlords"
+        },
+        {
+          "title": "List of Vietnamese monarchs (Wikipedia)",
+          "url": "https://en.wikipedia.org/wiki/List_of_Vietnamese_monarchs"
+        }
+      ],
+      "review": {
+        "status": "draft",
+        "notes": "Short card added from the completeness audit; checked only against Wikipedia."
+      },
+      "end": {
+        "date": "0968"
       }
     },
     {
@@ -1478,7 +1689,9 @@
       "end": {
         "date": "1009-11-19"
       },
-      "contestedWith": [],
+      "contestedWith": [
+        "le-long-viet"
+      ],
       "relationToPredecessor": "Son of Lê Hoàn",
       "ageAtAccession": "About 19",
       "cameToPower": "His men killed the new king",
@@ -1539,6 +1752,62 @@
       "review": {
         "status": "draft",
         "notes": "Drafted from the listed sources; needs a human fact-check."
+      }
+    },
+    {
+      "id": "le-long-viet",
+      "kind": "monarch",
+      "rulers": [
+        "le-long-viet"
+      ],
+      "tagline": "Emperor for three days",
+      "start": {
+        "date": "1005-11",
+        "circa": true
+      },
+      "contestedWith": [
+        "le-long-dinh"
+      ],
+      "relationToPredecessor": "Son of Lê Hoàn",
+      "ageAtAccession": "22",
+      "cameToPower": "Named crown prince",
+      "reignEnded": "Murdered by his brother",
+      "previously": "Lê Hoàn dies, and his sons fight for the throne.",
+      "paragraphs": [
+        "Lê Long Việt was Lê Hoàn's chosen heir. After his father died in 1005, his brothers fought over the succession for eight months before he could take the throne.",
+        "Three days after he became emperor, his younger brother Lê Long Đĩnh sent men to climb the palace wall at night and kill him."
+      ],
+      "claims": [],
+      "hook": "His killer, Lê Long Đĩnh, takes the throne.",
+      "images": [
+        {
+          "file": "File:Dragon (Le dynasty, Vietnam).jpg",
+          "url": "https://upload.wikimedia.org/wikipedia/commons/4/47/Dragon_%28Le_dynasty%2C_Vietnam%29.jpg",
+          "page": "https://commons.wikimedia.org/wiki/File:Dragon_(Le_dynasty,_Vietnam).jpg",
+          "credit": "Viethavvh",
+          "license": "Public domain",
+          "made": "Date not recorded",
+          "caption": "Rồng thời Lê tại nền Điện Kính Thiên, Hoàng thành Hà Nội. No portrait of Le Long Viet survives.",
+          "alt": "Rồng thời Lê tại nền Điện Kính Thiên, Hoàng thành Hà Nội. No portrait of Le Long Viet survives."
+        }
+      ],
+      "sources": [
+        {
+          "title": "Lê Trung Tông (Wikipedia)",
+          "url": "https://en.wikipedia.org/wiki/L%C3%AA_Trung_T%C3%B4ng"
+        },
+        {
+          "title": "List of Vietnamese monarchs (Wikipedia)",
+          "url": "https://en.wikipedia.org/wiki/List_of_Vietnamese_monarchs"
+        }
+      ],
+      "review": {
+        "status": "draft",
+        "notes": "Short card added from the completeness audit; checked only against Wikipedia."
+      },
+      "end": {
+        "date": "1005-11",
+        "circa": true
       }
     },
     {
@@ -3187,7 +3456,7 @@
         "date": "1400"
       },
       "end": {
-        "date": "1407"
+        "date": "1401"
       },
       "contestedWith": [],
       "relationToPredecessor": "Grandfather of Trần Thiếu Đế",
@@ -3252,6 +3521,60 @@
       }
     },
     {
+      "id": "ho-han-thuong",
+      "kind": "monarch",
+      "rulers": [
+        "ho-han-thuong"
+      ],
+      "tagline": "Emperor while his father ruled",
+      "start": {
+        "date": "1401",
+        "circa": true
+      },
+      "contestedWith": [],
+      "relationToPredecessor": "Son of Hồ Quý Ly",
+      "ageAtAccession": "Unknown",
+      "cameToPower": "Father handed him the title",
+      "reignEnded": "Captured by the Ming",
+      "previously": "Hồ Quý Ly takes the throne, then passes the title to his son.",
+      "paragraphs": [
+        "Hồ Quý Ly held the throne for only a year before handing the title to his son Hồ Hán Thương, while keeping real power as retired emperor.",
+        "The Ming dynasty of China used the overthrow of the Trần as an excuse to invade in 1406. Father and son were captured in 1407 and taken to China."
+      ],
+      "claims": [],
+      "hook": "The Ming rule Vietnam as a Chinese province.",
+      "images": [
+        {
+          "file": "File:An47 rebelle Ho Han Thuong (15216463182).jpg",
+          "url": "https://upload.wikimedia.org/wikipedia/commons/5/5a/An47_rebelle_Ho_Han_Thuong_%2815216463182%29.jpg",
+          "page": "https://commons.wikimedia.org/wiki/File:An47_rebelle_Ho_Han_Thuong_(15216463182).jpg",
+          "credit": "Jean-Michel Moullec from Vern sur Seiche (35, Bretagne), France",
+          "license": "CC BY 2.0",
+          "made": "2014-09-12 17:30",
+          "caption": "Une monnaie en cuivre d’une sapèque de Ho Han Thuong ( ?-1407), ère Han Nguyen (1401-1407), de la dynastie des Ho (1400-1407). A/ Han Nguyen thong bao (Monnaie…",
+          "alt": "Une monnaie en cuivre d’une sapèque de Ho Han Thuong ( ?-1407), ère Han Nguyen (1401-1407), de la dynastie des Ho (1400-1407). A/ Han Nguyen thong bao (Monnaie…"
+        }
+      ],
+      "sources": [
+        {
+          "title": "Hồ Hán Thương (Wikipedia)",
+          "url": "https://en.wikipedia.org/wiki/H%E1%BB%93_H%C3%A1n_Th%C6%B0%C6%A1ng"
+        },
+        {
+          "title": "List of Vietnamese monarchs (Wikipedia)",
+          "url": "https://en.wikipedia.org/wiki/List_of_Vietnamese_monarchs"
+        }
+      ],
+      "review": {
+        "status": "draft",
+        "notes": "Short card added from the completeness audit; checked only against Wikipedia."
+      },
+      "end": {
+        "date": "1407-06",
+        "circa": true
+      }
+    },
+    {
       "id": "gian-dinh-de",
       "kind": "monarch",
       "rulers": [
@@ -3259,7 +3582,8 @@
       ],
       "tagline": "Beat the Ming, then killed his own best generals",
       "start": {
-        "date": "1407"
+        "date": "1407-06",
+        "circa": true
       },
       "end": {
         "date": "1409"
@@ -4277,7 +4601,21 @@
       "review": {
         "status": "draft",
         "notes": "Drafted from the listed sources; needs a human fact-check."
-      }
+      },
+      "members": [
+        {
+          "name": "Trần Cảo",
+          "start": {
+            "date": "1516",
+            "circa": true
+          },
+          "end": {
+            "date": "1516",
+            "circa": true
+          },
+          "note": "Rebel who proclaimed himself emperor and briefly held Thăng Long"
+        }
+      ]
     },
     {
       "id": "le-cung-hoang",
@@ -4360,7 +4698,7 @@
         "date": "1527"
       },
       "end": {
-        "date": "1541"
+        "date": "1530"
       },
       "contestedWith": [
         "le-trang-tong"
@@ -4428,6 +4766,62 @@
       }
     },
     {
+      "id": "mac-dang-doanh",
+      "kind": "monarch",
+      "rulers": [
+        "mac-dang-doanh"
+      ],
+      "tagline": "The Mạc emperor who did the ruling",
+      "start": {
+        "date": "1530",
+        "circa": true
+      },
+      "contestedWith": [
+        "le-trang-tong"
+      ],
+      "relationToPredecessor": "Son of Mạc Đăng Dung",
+      "ageAtAccession": "About 30",
+      "cameToPower": "Father abdicated to him",
+      "reignEnded": "Died of illness",
+      "previously": "Mạc Đăng Dung hands the throne to his son.",
+      "paragraphs": [
+        "Mạc Đăng Dung seized the throne from the Lê in 1527 and handed it to his son Mạc Đăng Doanh three years later, staying on as retired emperor.",
+        "Doanh is remembered as a careful ruler who kept order and good harvests. He died in 1540, and his father had to deal with the Ming threat and the Lê loyalists in the south."
+      ],
+      "claims": [],
+      "hook": "With his son dead, Mạc Đăng Dung submits to the Ming to save his dynasty.",
+      "images": [
+        {
+          "file": "File:Lichsuvietnammoi.png",
+          "url": "https://upload.wikimedia.org/wikipedia/commons/7/79/Lichsuvietnammoi.png",
+          "page": "https://commons.wikimedia.org/wiki/File:Lichsuvietnammoi.png",
+          "credit": "Lachy70",
+          "license": "Public domain",
+          "made": "2023-06-12",
+          "caption": "Higher quality version of \"History of Vietnam\" for template heading.png, which includes a seal, Chinese characters, and Vietnamese alphabet writing \"Lịch sử. No portrait of Mac Dang Doanh survives.",
+          "alt": "Higher quality version of \"History of Vietnam\" for template heading.png, which includes a seal, Chinese characters, and Vietnamese alphabet writing \"Lịch sử. No portrait of Mac Dang Doanh survives."
+        }
+      ],
+      "sources": [
+        {
+          "title": "Mạc Đăng Doanh (Wikipedia)",
+          "url": "https://en.wikipedia.org/wiki/M%E1%BA%A1c_%C4%90%C4%83ng_Doanh"
+        },
+        {
+          "title": "List of Vietnamese monarchs (Wikipedia)",
+          "url": "https://en.wikipedia.org/wiki/List_of_Vietnamese_monarchs"
+        }
+      ],
+      "review": {
+        "status": "draft",
+        "notes": "Short card added from the completeness audit; checked only against Wikipedia."
+      },
+      "end": {
+        "date": "1540",
+        "circa": true
+      }
+    },
+    {
       "id": "le-trang-tong",
       "kind": "monarch",
       "rulers": [
@@ -4443,7 +4837,8 @@
       "contestedWith": [
         "mac-dang-dung",
         "mac-phuc-hai",
-        "mac-phuc-nguyen"
+        "mac-phuc-nguyen",
+        "mac-dang-doanh"
       ],
       "relationToPredecessor": "Son of Lê Chiêu Tông",
       "ageAtAccession": "17 or 18",
@@ -4500,7 +4895,33 @@
       "review": {
         "status": "draft",
         "notes": "Drafted from the listed sources; needs a human fact-check."
-      }
+      },
+      "members": [
+        {
+          "name": "Nguyễn Kim",
+          "start": {
+            "date": "1533",
+            "circa": true
+          },
+          "end": {
+            "date": "1545",
+            "circa": true
+          },
+          "note": "Led the Lê restoration against the Mạc; poisoned in 1545"
+        },
+        {
+          "name": "Trịnh Kiểm",
+          "start": {
+            "date": "1545",
+            "circa": true
+          },
+          "end": {
+            "date": "1570",
+            "circa": true
+          },
+          "note": "First Trịnh lord, real ruler of the Lê court"
+        }
+      ]
     },
     {
       "id": "mac-phuc-hai",
@@ -4796,7 +5217,33 @@
       "review": {
         "status": "draft",
         "notes": "Drafted from the listed sources; needs a human fact-check."
-      }
+      },
+      "members": [
+        {
+          "name": "Trịnh Tùng",
+          "start": {
+            "date": "1570",
+            "circa": true
+          },
+          "end": {
+            "date": "1623",
+            "circa": true
+          },
+          "note": "Trịnh lord who retook Thăng Long from the Mạc in 1592"
+        },
+        {
+          "name": "Nguyễn Hoàng",
+          "start": {
+            "date": "1558",
+            "circa": true
+          },
+          "end": {
+            "date": "1613",
+            "circa": true
+          },
+          "note": "First Nguyễn lord, ruler of the south"
+        }
+      ]
     },
     {
       "id": "mac-mau-hop",
@@ -4890,7 +5337,8 @@
         "date": "1599"
       },
       "contestedWith": [
-        "mac-mau-hop"
+        "mac-mau-hop",
+        "mac-toan"
       ],
       "relationToPredecessor": "Younger son of Lê Anh Tông",
       "ageAtAccession": "5 or 6",
@@ -4952,6 +5400,62 @@
       "review": {
         "status": "draft",
         "notes": "Drafted from the listed sources; needs a human fact-check."
+      }
+    },
+    {
+      "id": "mac-toan",
+      "kind": "monarch",
+      "rulers": [
+        "mac-toan"
+      ],
+      "tagline": "The last Mạc emperor in Thăng Long",
+      "start": {
+        "date": "1592",
+        "circa": true
+      },
+      "contestedWith": [
+        "le-the-tong"
+      ],
+      "relationToPredecessor": "Son of Mạc Mậu Hợp",
+      "ageAtAccession": "Unknown",
+      "cameToPower": "Succeeded his captured father",
+      "reignEnded": "Captured and executed",
+      "previously": "The Trịnh retake Thăng Long and capture Mạc Mậu Hợp.",
+      "paragraphs": [
+        "When the Trịnh army retook Thăng Long in 1592 and captured Mạc Mậu Hợp, his son Mạc Toàn was declared emperor by the remaining Mạc forces.",
+        "He lasted only months before he too was captured and executed. Mạc family members held out in Cao Bằng in the far north for decades more."
+      ],
+      "claims": [],
+      "hook": "The Lê emperors return to Thăng Long, with the Trịnh lords holding the real power.",
+      "images": [
+        {
+          "file": "File:Cầu Bằng Giang.jpeg",
+          "url": "https://upload.wikimedia.org/wikipedia/commons/6/66/C%E1%BA%A7u_B%E1%BA%B1ng_Giang.jpeg",
+          "page": "https://commons.wikimedia.org/wiki/File:C%E1%BA%A7u_B%E1%BA%B1ng_Giang.jpeg",
+          "credit": "vi:User:Caobangpro",
+          "license": "CC BY 3.0",
+          "made": "2014-04-25",
+          "caption": "Cầu Bằng Giang về đêm. No portrait of Mac Toan survives.",
+          "alt": "Cầu Bằng Giang về đêm. No portrait of Mac Toan survives."
+        }
+      ],
+      "sources": [
+        {
+          "title": "Mạc Toàn (Wikipedia)",
+          "url": "https://en.wikipedia.org/wiki/M%E1%BA%A1c_To%C3%A0n"
+        },
+        {
+          "title": "List of Vietnamese monarchs (Wikipedia)",
+          "url": "https://en.wikipedia.org/wiki/List_of_Vietnamese_monarchs"
+        }
+      ],
+      "review": {
+        "status": "draft",
+        "notes": "Short card added from the completeness audit; checked only against Wikipedia."
+      },
+      "end": {
+        "date": "1593",
+        "circa": true
       }
     },
     {
@@ -5023,7 +5527,21 @@
       "review": {
         "status": "draft",
         "notes": "Drafted from the listed sources; needs a human fact-check."
-      }
+      },
+      "members": [
+        {
+          "name": "Nguyễn Phúc Nguyên",
+          "start": {
+            "date": "1613",
+            "circa": true
+          },
+          "end": {
+            "date": "1635",
+            "circa": true
+          },
+          "note": "Nguyễn lord; stopped paying taxes to the north"
+        }
+      ]
     },
     {
       "id": "le-than-tong",
@@ -5098,7 +5616,33 @@
       "review": {
         "status": "draft",
         "notes": "Drafted from the listed sources; needs a human fact-check."
-      }
+      },
+      "members": [
+        {
+          "name": "Trịnh Tráng",
+          "start": {
+            "date": "1623",
+            "circa": true
+          },
+          "end": {
+            "date": "1657",
+            "circa": true
+          },
+          "note": "Trịnh lord; began the long war with the Nguyễn lords"
+        },
+        {
+          "name": "Nguyễn Phúc Lan",
+          "start": {
+            "date": "1635",
+            "circa": true
+          },
+          "end": {
+            "date": "1648",
+            "circa": true
+          },
+          "note": "Nguyễn lord"
+        }
+      ]
     },
     {
       "id": "le-chan-tong",
@@ -5168,7 +5712,21 @@
       "review": {
         "status": "draft",
         "notes": "Drafted from the listed sources; needs a human fact-check."
-      }
+      },
+      "members": [
+        {
+          "name": "Nguyễn Phúc Tần",
+          "start": {
+            "date": "1648",
+            "circa": true
+          },
+          "end": {
+            "date": "1687",
+            "circa": true
+          },
+          "note": "Nguyễn lord who fought the Trịnh to a standstill"
+        }
+      ]
     },
     {
       "id": "le-than-tong-2",
@@ -5243,7 +5801,21 @@
       "review": {
         "status": "draft",
         "notes": "Drafted from the listed sources; needs a human fact-check."
-      }
+      },
+      "members": [
+        {
+          "name": "Trịnh Tạc",
+          "start": {
+            "date": "1657",
+            "circa": true
+          },
+          "end": {
+            "date": "1682",
+            "circa": true
+          },
+          "note": "Trịnh lord who ended the Trịnh–Nguyễn war in 1672"
+        }
+      ]
     },
     {
       "id": "le-huyen-tong",
@@ -5458,7 +6030,45 @@
       "review": {
         "status": "draft",
         "notes": "Drafted from the listed sources; needs a human fact-check."
-      }
+      },
+      "members": [
+        {
+          "name": "Trịnh Căn",
+          "start": {
+            "date": "1682",
+            "circa": true
+          },
+          "end": {
+            "date": "1709",
+            "circa": true
+          },
+          "note": "Trịnh lord"
+        },
+        {
+          "name": "Nguyễn Phúc Thái",
+          "start": {
+            "date": "1687",
+            "circa": true
+          },
+          "end": {
+            "date": "1691",
+            "circa": true
+          },
+          "note": "Nguyễn lord"
+        },
+        {
+          "name": "Nguyễn Phúc Chu",
+          "start": {
+            "date": "1691",
+            "circa": true
+          },
+          "end": {
+            "date": "1725",
+            "circa": true
+          },
+          "note": "Nguyễn lord; pushed south into the Mekong delta"
+        }
+      ]
     },
     {
       "id": "le-du-tong",
@@ -5528,7 +6138,33 @@
       "review": {
         "status": "draft",
         "notes": "Drafted from the listed sources; needs a human fact-check."
-      }
+      },
+      "members": [
+        {
+          "name": "Trịnh Cương",
+          "start": {
+            "date": "1709",
+            "circa": true
+          },
+          "end": {
+            "date": "1729",
+            "circa": true
+          },
+          "note": "Trịnh lord; reformed taxes"
+        },
+        {
+          "name": "Nguyễn Phúc Chú",
+          "start": {
+            "date": "1725",
+            "circa": true
+          },
+          "end": {
+            "date": "1738",
+            "circa": true
+          },
+          "note": "Nguyễn lord"
+        }
+      ]
     },
     {
       "id": "le-duy-phuong",
@@ -5598,7 +6234,21 @@
       "review": {
         "status": "draft",
         "notes": "Drafted from the listed sources; needs a human fact-check."
-      }
+      },
+      "members": [
+        {
+          "name": "Trịnh Giang",
+          "start": {
+            "date": "1729",
+            "circa": true
+          },
+          "end": {
+            "date": "1740",
+            "circa": true
+          },
+          "note": "Trịnh lord, deposed for misrule"
+        }
+      ]
     },
     {
       "id": "le-thuan-tong",
@@ -5733,7 +6383,21 @@
       "review": {
         "status": "draft",
         "notes": "Drafted from the listed sources; needs a human fact-check."
-      }
+      },
+      "members": [
+        {
+          "name": "Nguyễn Phúc Khoát",
+          "start": {
+            "date": "1738",
+            "circa": true
+          },
+          "end": {
+            "date": "1765",
+            "circa": true
+          },
+          "note": "Nguyễn lord who styled himself a king"
+        }
+      ]
     },
     {
       "id": "le-hien-tong-1740",
@@ -5811,7 +6475,57 @@
       "review": {
         "status": "draft",
         "notes": "Drafted from the listed sources; needs a human fact-check."
-      }
+      },
+      "members": [
+        {
+          "name": "Trịnh Doanh",
+          "start": {
+            "date": "1740",
+            "circa": true
+          },
+          "end": {
+            "date": "1767",
+            "circa": true
+          },
+          "note": "Trịnh lord who crushed peasant revolts"
+        },
+        {
+          "name": "Trịnh Sâm",
+          "start": {
+            "date": "1767",
+            "circa": true
+          },
+          "end": {
+            "date": "1782",
+            "circa": true
+          },
+          "note": "Trịnh lord who took the south's capital Phú Xuân in 1775"
+        },
+        {
+          "name": "Trịnh Khải",
+          "start": {
+            "date": "1782",
+            "circa": true
+          },
+          "end": {
+            "date": "1786",
+            "circa": true
+          },
+          "note": "Trịnh lord overthrown by the Tây Sơn; killed himself"
+        },
+        {
+          "name": "Nguyễn Phúc Thuần",
+          "start": {
+            "date": "1765",
+            "circa": true
+          },
+          "end": {
+            "date": "1777",
+            "circa": true
+          },
+          "note": "Nguyễn lord killed by the Tây Sơn"
+        }
+      ]
     },
     {
       "id": "nguyen-nhac",
@@ -5895,7 +6609,20 @@
       "review": {
         "status": "draft",
         "notes": "Drafted from the listed sources; needs a human fact-check."
-      }
+      },
+      "members": [
+        {
+          "name": "Nguyễn Phúc Ánh (lord in Gia Định)",
+          "start": {
+            "date": "1780",
+            "circa": true
+          },
+          "end": {
+            "date": "1802-06-01"
+          },
+          "note": "Last Nguyễn heir, fought the Tây Sơn from the south; later Emperor Gia Long"
+        }
+      ]
     },
     {
       "id": "le-chieu-thong",
@@ -5974,7 +6701,21 @@
       "review": {
         "status": "draft",
         "notes": "Drafted from the listed sources; needs a human fact-check."
-      }
+      },
+      "members": [
+        {
+          "name": "Trịnh Bồng",
+          "start": {
+            "date": "1786",
+            "circa": true
+          },
+          "end": {
+            "date": "1787",
+            "circa": true
+          },
+          "note": "Last Trịnh lord"
+        }
+      ]
     },
     {
       "id": "quang-trung",

@@ -51,6 +51,11 @@
       "id": "habsburg-lorraine",
       "name": "Habsburg-Lorraine",
       "color": "#8a2e5a"
+    },
+    {
+      "id": "hunyadi",
+      "name": "Hunyadi",
+      "color": "#3f6b4f"
     }
   ],
   "rulers": [
@@ -951,6 +956,37 @@
         "austria:ferdinand-the-good",
         "hungary:ferdinand-v"
       ]
+    },
+    {
+      "id": "spytihnev-ii",
+      "name": "Spytihněv II",
+      "house": "premyslid",
+      "born": {
+        "date": "1031",
+        "circa": true
+      },
+      "died": {
+        "date": "1061-01-28"
+      }
+    },
+    {
+      "id": "matthias-corvinus-bohemia",
+      "name": "Matthias Corvinus",
+      "house": "hunyadi",
+      "died": {
+        "date": "1490-04-06"
+      }
+    },
+    {
+      "id": "charles-albert",
+      "name": "Charles Albert",
+      "house": "wittelsbach",
+      "born": {
+        "date": "1697-08-06"
+      },
+      "died": {
+        "date": "1745-01-20"
+      }
     }
   ],
   "reigns": [
@@ -1116,7 +1152,21 @@
       ],
       "review": {
         "status": "draft"
-      }
+      },
+      "members": [
+        {
+          "name": "Svatopluk I of Great Moravia",
+          "start": {
+            "date": "0890",
+            "circa": true
+          },
+          "end": {
+            "date": "0894",
+            "circa": true
+          },
+          "note": "Overlord of Bohemia until his death"
+        }
+      ]
     },
     {
       "id": "vratislaus-i",
@@ -2069,6 +2119,58 @@
       "review": {
         "status": "draft",
         "notes": "Drafted from the listed sources; needs a human fact-check."
+      }
+    },
+    {
+      "id": "spytihnev-ii",
+      "kind": "monarch",
+      "rulers": [
+        "spytihnev-ii"
+      ],
+      "tagline": "The duke who expelled the Germans",
+      "start": {
+        "date": "1055-01-10"
+      },
+      "contestedWith": [],
+      "relationToPredecessor": "Son of Bretislaus I",
+      "ageAtAccession": "About 24",
+      "cameToPower": "Succeeded his father",
+      "reignEnded": "Died",
+      "previously": "Bretislaus I dies, and his eldest son takes over.",
+      "paragraphs": [
+        "Spytihněv II began his reign by expelling Germans from Bohemia, including his own mother, according to the chronicler Cosmas. He kept his younger brothers on a tight leash.",
+        "He supported the reform popes, who allowed him to wear a bishop's mitre. He died young in 1061, and his brother Vratislaus took the throne."
+      ],
+      "claims": [],
+      "hook": "His brother Vratislaus takes over and will become Bohemia's first king.",
+      "images": [
+        {
+          "file": "File:Spytihnev2vesvatovitskeapo.jpg",
+          "url": "https://upload.wikimedia.org/wikipedia/commons/f/fd/Spytihnev2vesvatovitskeapo.jpg",
+          "page": "https://commons.wikimedia.org/wiki/File:Spytihnev2vesvatovitskeapo.jpg",
+          "credit": "AnonymousUnknown author",
+          "license": "Public domain",
+          "made": "11th centurydate QS:P,+1050-00-00T00:00:00Z/7",
+          "caption": "Spytihnev II, Duke of Bohemia",
+          "alt": "Spytihnev II, Duke of Bohemia"
+        }
+      ],
+      "sources": [
+        {
+          "title": "Spytihněv II, Duke of Bohemia (Wikipedia)",
+          "url": "https://en.wikipedia.org/wiki/Spytihn%C4%9Bv_II%2C_Duke_of_Bohemia"
+        },
+        {
+          "title": "Wikipedia list of rulers",
+          "url": "https://en.wikipedia.org/wiki/Spytihn%C4%9Bv_II%2C_Duke_of_Bohemia"
+        }
+      ],
+      "review": {
+        "status": "draft",
+        "notes": "Short card added from the completeness audit; checked only against Wikipedia."
+      },
+      "end": {
+        "date": "1061-01-28"
       }
     },
     {
@@ -4603,7 +4705,9 @@
       "end": {
         "date": "1471-03-22"
       },
-      "contestedWith": [],
+      "contestedWith": [
+        "matthias-corvinus-bohemia"
+      ],
       "relationToPredecessor": "Regent for Ladislaus; no relation",
       "ageAtAccession": "37",
       "cameToPower": "Elected by the diet in Prague",
@@ -4662,6 +4766,61 @@
       }
     },
     {
+      "id": "matthias-corvinus-bohemia",
+      "kind": "claimant",
+      "rulers": [
+        "matthias-corvinus-bohemia"
+      ],
+      "tagline": "The Hungarian king who took half of Bohemia",
+      "start": {
+        "date": "1469-05-03"
+      },
+      "contestedWith": [
+        "george",
+        "vladislaus-ii"
+      ],
+      "relationToPredecessor": "King of Hungary",
+      "ageAtAccession": "26",
+      "cameToPower": "Elected by the Catholic nobles",
+      "reignEnded": "Died in Vienna",
+      "previously": "The pope calls a crusade against the Hussite king George.",
+      "paragraphs": [
+        "The Catholic lords of Bohemia, backed by the pope, elected the Hungarian king Matthias Corvinus as their king against George of Poděbrady in 1469. He conquered Moravia, Silesia and Lusatia.",
+        "After George died, the Bohemians chose Vladislaus Jagiellon instead. The peace of Olomouc in 1479 let both men call themselves King of Bohemia, with Matthias keeping the outer lands until he died."
+      ],
+      "claims": [],
+      "hook": "With Matthias dead, Vladislaus reunites the Bohemian crown lands.",
+      "images": [
+        {
+          "file": "File:111 Matthias Corvinus florint 755820.jpg",
+          "url": "https://upload.wikimedia.org/wikipedia/commons/1/1d/111_Matthias_Corvinus_florint_755820.jpg",
+          "page": "https://commons.wikimedia.org/wiki/File:111_Matthias_Corvinus_florint_755820.jpg",
+          "credit": "Classical Numismatics Group",
+          "license": "CC BY-SA 3.0",
+          "made": "1 June 2006 (original upload date)",
+          "caption": "Hungary. Matthias Corvinus. 1458-1490. :::AV Forint or Gold Gulden (3.47 gm, 7h). Kremnica mint. :+mATHIAS•D•G•R•VNGARIE, royal coat of arms,; raven (corvus)…",
+          "alt": "Hungary. Matthias Corvinus. 1458-1490. :::AV Forint or Gold Gulden (3.47 gm, 7h). Kremnica mint. :+mATHIAS•D•G•R•VNGARIE, royal coat of arms,; raven (corvus)…"
+        }
+      ],
+      "sources": [
+        {
+          "title": "Matthias Corvinus (Wikipedia)",
+          "url": "https://en.wikipedia.org/wiki/Matthias_Corvinus"
+        },
+        {
+          "title": "Wikipedia list of rulers",
+          "url": "https://en.wikipedia.org/wiki/Matthias_Corvinus"
+        }
+      ],
+      "review": {
+        "status": "draft",
+        "notes": "Short card added from the completeness audit; checked only against Wikipedia."
+      },
+      "end": {
+        "date": "1490-04-06"
+      }
+    },
+    {
       "id": "vladislaus-ii",
       "kind": "monarch",
       "rulers": [
@@ -4674,7 +4833,9 @@
       "end": {
         "date": "1516-03-13"
       },
-      "contestedWith": [],
+      "contestedWith": [
+        "matthias-corvinus-bohemia"
+      ],
       "relationToPredecessor": "Polish prince named heir by George",
       "ageAtAccession": "15",
       "cameToPower": "Elected at Kutná Hora",
@@ -5658,7 +5819,9 @@
       "end": {
         "date": "1780-11-29"
       },
-      "contestedWith": [],
+      "contestedWith": [
+        "charles-albert"
+      ],
       "relationToPredecessor": "Daughter of Charles VI",
       "ageAtAccession": "23",
       "cameToPower": "Under the Pragmatic Sanction",
@@ -5719,6 +5882,60 @@
       "review": {
         "status": "draft",
         "notes": "Drafted from the listed sources; needs a human fact-check."
+      }
+    },
+    {
+      "id": "charles-albert",
+      "kind": "claimant",
+      "rulers": [
+        "charles-albert"
+      ],
+      "tagline": "The Bavarian who took Prague",
+      "start": {
+        "date": "1741-12-07"
+      },
+      "contestedWith": [
+        "maria-theresa"
+      ],
+      "relationToPredecessor": "Husband of a Habsburg archduchess",
+      "ageAtAccession": "44",
+      "cameToPower": "Took Prague in a night attack",
+      "reignEnded": "Driven out by Maria Theresa's army",
+      "previously": "Maria Theresa's enemies carve up her inheritance.",
+      "paragraphs": [
+        "When Maria Theresa inherited the Habsburg lands, Charles Albert of Bavaria claimed them through his wife. French and Bavarian troops took Prague in a night assault in November 1741, and the Bohemian estates paid him homage as king.",
+        "Austrian forces retook Prague by the end of 1742. Charles Albert was elected Holy Roman Emperor as Charles VII, but lost his own Bavaria and died in 1745."
+      ],
+      "claims": [],
+      "hook": "Maria Theresa is crowned in Prague and never forgives the Bohemians who backed him.",
+      "images": [
+        {
+          "file": "File:Vivien Charles Albert of Bavaria.jpg",
+          "url": "https://upload.wikimedia.org/wikipedia/commons/3/33/Vivien_Charles_Albert_of_Bavaria.jpg",
+          "page": "https://commons.wikimedia.org/wiki/File:Vivien_Charles_Albert_of_Bavaria.jpg",
+          "credit": "Joseph Vivien",
+          "license": "Public domain",
+          "made": "from 1717 until 1719date…",
+          "caption": "So-called portrait of Maximilian II Emanuel, Elector of Bavaria (1662-1726), but probably portrait of the Elector Charles Albert (1697-1745)",
+          "alt": "So-called portrait of Maximilian II Emanuel, Elector of Bavaria (1662-1726), but probably portrait of the Elector Charles Albert (1697-1745)"
+        }
+      ],
+      "sources": [
+        {
+          "title": "Charles VII, Holy Roman Emperor (Wikipedia)",
+          "url": "https://en.wikipedia.org/wiki/Charles_VII%2C_Holy_Roman_Emperor"
+        },
+        {
+          "title": "Wikipedia list of rulers",
+          "url": "https://en.wikipedia.org/wiki/Charles_VII%2C_Holy_Roman_Emperor"
+        }
+      ],
+      "review": {
+        "status": "draft",
+        "notes": "Short card added from the completeness audit; checked only against Wikipedia."
+      },
+      "end": {
+        "date": "1742-12-26"
       }
     },
     {
