@@ -1709,7 +1709,7 @@
           "note": "Known only from the Suda, a Byzantine encyclopedia written over 150 years later."
         }
       ],
-      "hook": "Krum dies with Constantinople in his sights. After a murky gap, his son Omurtag takes the throne and does something nobody expects: he makes peace.",
+      "hook": "Krum dies with Constantinople in his sights. What follows is murky: two short-lived rulers, known from a few Byzantine writers, before his son Omurtag takes over.",
       "images": [
         {
           "file": "File:51-manasses-chronicle.jpg",
@@ -1750,6 +1750,62 @@
       }
     },
     {
+      "id": "dukum",
+      "kind": "monarch",
+      "rulers": [
+        "dukum"
+      ],
+      "tagline": "Krum's successor, dead within months",
+      "start": {
+        "date": "0814-04-13",
+        "circa": true
+      },
+      "contestedWith": [
+        "ditseng"
+      ],
+      "relationToPredecessor": "Unknown; a Bulgar noble",
+      "ageAtAccession": "Unknown",
+      "cameToPower": "Took power after Krum died",
+      "reignEnded": "Died soon after",
+      "previously": "Krum dies suddenly, planning to storm Constantinople.",
+      "paragraphs": [
+        "Dukum took power after Khan Krum died suddenly in April 814. He is known only from a few Byzantine sources, which say he died soon after taking power.",
+        "Nothing certain is known of his family or how he came to rule."
+      ],
+      "claims": [],
+      "hook": "Another noble, Ditseng, takes over.",
+      "images": [
+        {
+          "file": "File:Bulgarien Pliska Khan Asparuch.jpg",
+          "url": "https://upload.wikimedia.org/wikipedia/commons/6/6e/Bulgarien_Pliska_Khan_Asparuch.jpg",
+          "page": "https://commons.wikimedia.org/wiki/File:Bulgarien_Pliska_Khan_Asparuch.jpg",
+          "credit": "Peter80",
+          "license": "CC BY-SA 3.0",
+          "made": "2004-12-05",
+          "caption": "A modern statue of Khan Asparuh at Pliska. No portrait of Dukum survives.",
+          "alt": "Modern statue of Khan Asparuh"
+        }
+      ],
+      "sources": [
+        {
+          "title": "Dukum (Wikipedia)",
+          "url": "https://en.wikipedia.org/wiki/Dukum"
+        },
+        {
+          "title": "List of Bulgarian monarchs (Wikipedia)",
+          "url": "https://en.wikipedia.org/wiki/List_of_Bulgarian_monarchs"
+        }
+      ],
+      "review": {
+        "status": "draft",
+        "notes": "Short card added from the completeness audit; checked only against Wikipedia."
+      },
+      "end": {
+        "date": "0814-12",
+        "circa": true
+      }
+    },
+    {
       "id": "ditseng",
       "kind": "monarch",
       "rulers": [
@@ -1779,11 +1835,11 @@
           "file": "File:Krum1.jpg",
           "url": "https://upload.wikimedia.org/wikipedia/commons/d/df/Krum1.jpg",
           "page": "https://commons.wikimedia.org/wiki/File:Krum1.jpg",
-          "credit": "AnonymousUnknown author",
+          "credit": "Unknown",
           "license": "Public domain",
-          "made": "14th centurydate QS:P,+1350-00-00T00:00:00Z/7",
-          "caption": "Крум пирува след победата над император Никифор, миниатюра от българския превод на Манасиевата летопис, XIV век. No portrait of Ditseng survives.",
-          "alt": "Крум пирува след победата над император Никифор, миниатюра от българския превод на Манасиевата летопис, XIV век. No portrait of Ditseng survives."
+          "made": "14th century",
+          "caption": "Krum feasting after his victory over Emperor Nikephoros, from a 14th-century Bulgarian chronicle. No portrait of Ditseng survives.",
+          "alt": "Medieval manuscript miniature of a khan at a feast"
         }
       ],
       "sources": [
@@ -1806,62 +1862,6 @@
       }
     },
     {
-      "id": "dukum",
-      "kind": "monarch",
-      "rulers": [
-        "dukum"
-      ],
-      "tagline": "Krum's successor, dead within months",
-      "start": {
-        "date": "0814-04",
-        "circa": true
-      },
-      "contestedWith": [
-        "ditseng"
-      ],
-      "relationToPredecessor": "Unknown; a Bulgar noble",
-      "ageAtAccession": "Unknown",
-      "cameToPower": "Took power after Krum died",
-      "reignEnded": "Died soon after",
-      "previously": "Krum dies suddenly, planning to storm Constantinople.",
-      "paragraphs": [
-        "Dukum took power after Khan Krum died suddenly in April 814. He is known only from a few Byzantine sources, which say he died soon after taking power.",
-        "Nothing certain is known of his family or how he came to rule."
-      ],
-      "claims": [],
-      "hook": "Another noble, Ditseng, takes over.",
-      "images": [
-        {
-          "file": "File:Bulgarien Pliska Khan Asparuch.jpg",
-          "url": "https://upload.wikimedia.org/wikipedia/commons/6/6e/Bulgarien_Pliska_Khan_Asparuch.jpg",
-          "page": "https://commons.wikimedia.org/wiki/File:Bulgarien_Pliska_Khan_Asparuch.jpg",
-          "credit": "Peter80",
-          "license": "CC BY-SA 3.0",
-          "made": "2004-12-05",
-          "caption": "Statue of Asparukh, Khan of Bulgaria (Reign 679–700). No portrait of Dukum survives.",
-          "alt": "Statue of Asparukh, Khan of Bulgaria (Reign 679–700). No portrait of Dukum survives."
-        }
-      ],
-      "sources": [
-        {
-          "title": "Dukum (Wikipedia)",
-          "url": "https://en.wikipedia.org/wiki/Dukum"
-        },
-        {
-          "title": "List of Bulgarian monarchs (Wikipedia)",
-          "url": "https://en.wikipedia.org/wiki/List_of_Bulgarian_monarchs"
-        }
-      ],
-      "review": {
-        "status": "draft",
-        "notes": "Short card added from the completeness audit; checked only against Wikipedia."
-      },
-      "end": {
-        "date": "0814-12",
-        "circa": true
-      }
-    },
-    {
       "id": "omurtag",
       "kind": "monarch",
       "rulers": [
@@ -1880,7 +1880,7 @@
       "ageAtAccession": "Unknown",
       "cameToPower": "Took over after a murky gap",
       "reignEnded": "Died in 831",
-      "previously": "Krum dies suddenly while preparing to storm Constantinople.",
+      "previously": "Ditseng's brief, cruel reign ends, and Krum's son takes over.",
       "paragraphs": [
         "After Krum's death the record goes dark for a moment, and one or two shadowy rulers, Dukum and Ditseng, may have held power. By about 815 Krum's son Omurtag was in charge, and he chose peace. Around 815 or 816 he signed a thirty-year treaty with Leo V, and it held. In 823, when the rebel Thomas the Slav besieged Constantinople, Omurtag's army came to help the emperor Michael II and smashed the rebels.",
         "Omurtag loved to build. He put up palaces and forts, rebuilt Pliska, and covered his work with Greek inscriptions carved in stone. One, on a column now in a Tarnovo church, muses that a man dies even if he lives well, and another is born, so let those who come later remember the man who built this. Out on the Middle Danube his armies clashed with the Franks.",
@@ -2141,7 +2141,7 @@
           "note": "Reported by the Frankish chronicler Regino of Prüm. Other sources say only that Vladimir was deposed."
         }
       ],
-      "hook": "Boris goes back to his monastery. On the throne sits Simeon, a monk schooled in Constantinople. He knows the empire's weak spots, and he wants its crown.",
+      "hook": "Boris retires to a monastery and hands the throne to his eldest son, Vladimir. Within four years Vladimir is reviving the old gods, and his father is not amused.",
       "images": [
         {
           "file": "File:57-manasses-chronicle.jpg",
@@ -2200,7 +2200,7 @@
         "Vladimir tried to bring back the old pagan religion. In 893 Boris left the monastery, deposed and blinded his son, and put his younger son Simeon on the throne."
       ],
       "claims": [],
-      "hook": "Simeon, raised as a monk, becomes ruler and builds a golden age.",
+      "hook": "Boris storms out of his monastery, has Vladimir blinded and crowns his third son Simeon, a monk schooled in Constantinople who wants the empire's crown.",
       "images": [
         {
           "file": "File:Saint Demetrius Church in Teshovo Enthronement of Simeon and Punishment of Vladimir Fresco 2.jpg",
@@ -2208,9 +2208,9 @@
           "page": "https://commons.wikimedia.org/wiki/File:Saint_Demetrius_Church_in_Teshovo_Enthronement_of_Simeon_and_Punishment_of_Vladimir_Fresco_2.jpg",
           "credit": "Mino, Marko and Teofil Minovi",
           "license": "Public domain",
-          "made": "between 1883 and 1885date…",
-          "caption": "Saint Demetrius Church in Teshovo Enthronement of Simeon and Punishment of Vladimir Fresco 2",
-          "alt": "Saint Demetrius Church in Teshovo Enthronement of Simeon and Punishment of Vladimir Fresco 2"
+          "made": "1883 to 1885",
+          "caption": "Simeon is enthroned and Vladimir punished, in a church fresco at Teshovo painted in the 1880s, about a thousand years later.",
+          "alt": "Church fresco of a king being crowned while another man is punished"
         }
       ],
       "sources": [
@@ -2511,7 +2511,7 @@
           "note": "Skylitzes says he collapsed and died of it. What actually caused his death is unknown."
         }
       ],
-      "hook": "Samuel is dead and Basil's armies are closing in. His son Gavril Radomir takes the crown, but the real danger is inside the family.",
+      "hook": "Rewind to 977. Samuel isn't the only one with a royal claim. Tsar Peter's son Roman has escaped from Constantinople, and by right the crown is his.",
       "images": [
         {
           "file": "File:66-manasses-chronicle.jpg",
@@ -2588,7 +2588,7 @@
         "He was captured by the Byzantines when Vidin fell, around 991 or 997, and died in captivity."
       ],
       "claims": [],
-      "hook": "Samuel rules alone as tsar.",
+      "hook": "Back to 1014: Samuel is dead and Basil's armies are closing in. His son Gavril Radomir takes the crown, but the real danger is inside the family.",
       "images": [
         {
           "file": "File:20230423.Ansichten von Vidin.-046.1.jpg",
@@ -2597,8 +2597,8 @@
           "credit": "Bybbisch94, Christian Gebhardt",
           "license": "CC BY-SA 4.0",
           "made": "2023-04-23 15:22:11",
-          "caption": "Widin ist eine Stadt im äußersten Nordwesten Bulgariens und das administrative Zentrum der gleichnamigen Oblast Widin und der Gemeinde Widin. Weiterhin ist. No portrait of Roman survives.",
-          "alt": "Widin ist eine Stadt im äußersten Nordwesten Bulgariens und das administrative Zentrum der gleichnamigen Oblast Widin und der Gemeinde Widin. Weiterhin ist. No portrait of Roman survives."
+          "caption": "A modern view of Vidin on the Danube. No portrait of Roman survives.",
+          "alt": "Modern street view of the town of Vidin"
         }
       ],
       "sources": [
@@ -4565,8 +4565,8 @@
           "credit": "CNG Coins",
           "license": "CC BY-SA 2.5",
           "made": "Unknown",
-          "caption": "Coin of Bulgarian emperor George Terter II. Uncertain mint. George II and St. George standing facing, holding banner between them.",
-          "alt": "Coin of Bulgarian emperor George Terter II. Uncertain mint. George II and St. George standing facing, holding banner between them."
+          "caption": "A coin of George II Terter: the tsar and St George hold a banner between them.",
+          "alt": "Worn medieval coin with two standing figures holding a banner"
         }
       ],
       "sources": [
@@ -4606,7 +4606,7 @@
       "ageAtAccession": "Unknown",
       "cameToPower": "Chosen by the boyars",
       "reignEnded": "Died after defeat at Velbazhd",
-      "previously": "Theodore Svetoslav's son George II dies young. The Terters are gone.",
+      "previously": "George II Terter dies after a year. The Terter line is finished.",
       "paragraphs": [
         "In 1323 the Terter line ran out and the boyars needed a tsar fast. They picked Michael Shishman, the despot of Vidin on the Danube. He took the old royal name Asen, so he is sometimes counted as Michael Asen III. His first years went on fighting Byzantium over the Thracian border towns. Then he switched sides and allied with the young emperor Andronikos III.",
         "To seal the deal he did something brutal. He threw out his Serbian wife Anna Neda, sister of the Serbian king Stefan Dečanski, and married Theodora, Theodore Svetoslav's widow and Andronikos's sister. Serbia took it personally. In 1330 Michael marched west, and on 28 July the Serbs under Stefan Dečanski and his son Stefan Dušan caught his army at Velbazhd, near today's Kyustendil, and smashed it. Three days later Michael was dead."
@@ -4692,9 +4692,9 @@
           "page": "https://commons.wikimedia.org/wiki/File:King_John_Stephen_of_Bulgaria_19th_Century.JPG",
           "credit": "Anonymous author",
           "license": "Public domain",
-          "made": "19th centurydate QS:P,+1850-00-00T00:00:00Z/7",
-          "caption": "John Stephen, King of Bulgaria and Duke of Durazzo, painting by anonymous author, late 19th century, Sofia Art Gallery.",
-          "alt": "John Stephen, King of Bulgaria and Duke of Durazzo, painting by anonymous author, late 19th century, Sofia Art Gallery."
+          "made": "19th century",
+          "caption": "An imagined portrait painted in the late 19th century, some 550 years after his reign; Sofia Art Gallery.",
+          "alt": "Painted portrait of a medieval ruler"
         }
       ],
       "sources": [
@@ -4736,7 +4736,7 @@
       "ageAtAccession": "About 30",
       "cameToPower": "Boyar coup against his cousin",
       "reignEnded": "Died after forty years in power",
-      "previously": "Michael Shishman falls at Velbazhd. Serbia puts his son on the throne.",
+      "previously": "Ivan Stephen is thrown out, and the nobles pick his cousin.",
       "paragraphs": [
         "Ivan Alexander was the son of Michael Shishman's sister and the lord of Lovech. In 1331 the boyars threw out his cousin Ivan Stephen and handed him the crown. He moved fast. In 1332 he beat the emperor Andronikos III at Rusokastro and took back the Black Sea towns. Then he made peace with Serbia by marrying his sister Helena to its rising star, Stefan Dušan.",
         "His private life raised eyebrows. He put aside his Wallachian first wife and married Sarah, a Jewish convert, who was baptised Theodora. Her son Ivan Shishman became heir in Tarnovo, while his elder half-brother Ivan Sratsimir got Vidin. Meanwhile the Ottomans crossed into Europe at Gallipoli in 1354, and Ivan Alexander's son Michael Asen fell fighting them.",
@@ -4822,7 +4822,7 @@
         "He outlasted Tarnovo by three years. After the Christian defeat at Nicopolis in 1396, the Ottomans took Vidin and he died in captivity. His fall ended the medieval Bulgarian state."
       ],
       "claims": [],
-      "hook": "Bulgaria disappears into the Ottoman Empire for nearly five centuries.",
+      "hook": "Back in Tarnovo, his half-brother Ivan Shishman holds the old capital. The Ottomans have just crushed the Serbs on the Maritsa, and they are coming for both brothers.",
       "images": [
         {
           "file": "File:Baba Vida.png",
@@ -4831,8 +4831,8 @@
           "credit": "Kandi",
           "license": "Public domain",
           "made": "2009-02-01",
-          "caption": "Baba Vida Fortress-plan. No portrait of Ivan Sratsimir survives.",
-          "alt": "Baba Vida Fortress-plan. No portrait of Ivan Sratsimir survives."
+          "caption": "A plan of Baba Vida, the fortress of his capital, Vidin. No portrait of Ivan Sratsimir survives.",
+          "alt": "Plan of a medieval fortress"
         }
       ],
       "sources": [
@@ -4968,7 +4968,7 @@
           "note": "Published in September 1876, it sold in huge numbers and demanded that the Turks leave the province \"bag and baggage\"."
         }
       ],
-      "hook": "Bulgaria is free but cut into pieces. The Great Powers choose its first prince: a 22-year-old German officer who has never governed anything.",
+      "hook": "Russian armies have freed Bulgaria, but for now Russian officers are in charge, building a state from scratch. The Great Powers are already shopping for a prince.",
       "images": [
         {
           "file": "File:Istoriya Slavyanobolgarskaya Fair Copy.jpg",
@@ -5404,8 +5404,8 @@
           "credit": "Vassia Atanassova - Spiritia",
           "license": "CC BY-SA 3.0",
           "made": "2010-05-01",
-          "caption": "Headquarters of the Interim Russian Government of Bulgaria in 1878, Plovdiv, Bulgaria",
-          "alt": "Headquarters of the Interim Russian Government of Bulgaria in 1878, Plovdiv, Bulgaria"
+          "caption": "The house in Plovdiv that served as headquarters of the Russian provisional government in 1878; a modern photograph.",
+          "alt": "Historic building on a street in Plovdiv"
         }
       ],
       "sources": [
@@ -5444,7 +5444,7 @@
       "ageAtAccession": "22",
       "cameToPower": "Elected by the Grand National Assembly",
       "reignEnded": "Abdicated after a kidnapping",
-      "previously": "Liberation at last, but the Congress of Berlin cuts Bulgaria down.",
+      "previously": "Russian officers build the new state, then hand it to a German prince.",
       "paragraphs": [
         "Alexander of Battenberg was a 22-year-old German prince with a useful aunt: the Russian empress. In April 1879 the Grand National Assembly at Tarnovo elected him prince under a brand-new and very liberal constitution. He hated it. In 1881 he suspended it and ruled with Russian generals beside him, then found the Russians even more overbearing and brought the constitution back in 1883.",
         "In September 1885 rebels in Eastern Rumelia declared union with Bulgaria, and Alexander put himself at their head. Russia was furious and pulled every Russian officer out of the Bulgarian army. Serbia saw its chance and attacked. Bulgaria's young officers and their prince beat the Serbs at Slivnitsa in November, and Alexander was a national hero.",
@@ -5570,7 +5570,7 @@
           "license": "CC BY-SA 3.0",
           "made": "Date not recorded",
           "caption": "Statue of Stefan Stambolov, the leading regent, in Veliko Tarnovo.",
-          "alt": "Statue of Stefan Stambolov, the leading regent, in Veliko Tarnovo."
+          "alt": "Statue of Stefan Stambolov in a park in Veliko Tarnovo"
         }
       ],
       "sources": [
@@ -5609,7 +5609,7 @@
       "ageAtAccession": "26",
       "cameToPower": "Elected by the Grand National Assembly",
       "reignEnded": "Abdicated after defeat in 1918",
-      "previously": "Kidnapped and abandoned by Russia, Alexander of Battenberg abdicates.",
+      "previously": "Stambolov's regency finds a new prince, against Russia's wishes.",
       "paragraphs": [
         "Bulgaria spent months looking for a prince. In July 1887 the assembly elected Ferdinand of Saxe-Coburg, a 26-year-old Austrian officer and grandson of the French king Louis Philippe. Russia refused to recognise him, and for years the real power was Stefan Stambolov. Ferdinand sacked him in 1894, and in 1895 Stambolov was hacked to death in a Sofia street. Russia finally accepted Ferdinand in 1896, once his son Boris joined the Orthodox Church.",
         "Europe called him Foxy Ferdinand. He collected plants and insects and loved driving trains. On 5 October 1908 at Tarnovo he declared Bulgaria fully independent and took the old title of tsar. In 1912 he went to war on the Ottomans with his Balkan allies. His army won at Lule Burgas and took Adrianople, and he dreamed of Constantinople. Then in 1913 Bulgaria attacked its own allies and lost almost everything it had gained.",

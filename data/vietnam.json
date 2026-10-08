@@ -1426,8 +1426,8 @@
           "credit": "Hoàng Hữu Xứng (1831-1905)",
           "license": "Public domain",
           "made": "1885",
-          "caption": "Việt Nam toàn cảnh dư đồ (越南全境輿圖), a 1885 map of Vietnam created by cartographer Hoàng Hữu Xứng (1831-1905).",
-          "alt": "Việt Nam toàn cảnh dư đồ (越南全境輿圖), a 1885 map of Vietnam created by cartographer Hoàng Hữu Xứng (1831-1905)."
+          "caption": "An 1885 map of Vietnam by Hoàng Hữu Xứng, made some 900 years after the warlords.",
+          "alt": "Old hand-drawn map of Vietnam"
         }
       ],
       "sources": [
@@ -1677,6 +1677,62 @@
       }
     },
     {
+      "id": "le-long-viet",
+      "kind": "monarch",
+      "rulers": [
+        "le-long-viet"
+      ],
+      "tagline": "Emperor for three days",
+      "start": {
+        "date": "1005-11",
+        "circa": true
+      },
+      "contestedWith": [
+        "le-long-dinh"
+      ],
+      "relationToPredecessor": "Son of Lê Hoàn",
+      "ageAtAccession": "22",
+      "cameToPower": "Named crown prince",
+      "reignEnded": "Murdered by his brother",
+      "previously": "Lê Hoàn dies, and his sons fight for the throne.",
+      "paragraphs": [
+        "Lê Long Việt was Lê Hoàn's chosen heir. After his father died in 1005, his brothers fought over the succession for eight months before he could take the throne.",
+        "Three days after he became emperor, his younger brother Lê Long Đĩnh sent men to climb the palace wall at night and kill him."
+      ],
+      "claims": [],
+      "hook": "His killer, Lê Long Đĩnh, takes the throne.",
+      "images": [
+        {
+          "file": "File:Dragon (Le dynasty, Vietnam).jpg",
+          "url": "https://upload.wikimedia.org/wikipedia/commons/4/47/Dragon_%28Le_dynasty%2C_Vietnam%29.jpg",
+          "page": "https://commons.wikimedia.org/wiki/File:Dragon_(Le_dynasty,_Vietnam).jpg",
+          "credit": "Viethavvh",
+          "license": "Public domain",
+          "made": "Date not recorded",
+          "caption": "A stone dragon from the later Lê dynasty, centuries after this reign, at the Kính Thiên palace site in Hanoi.",
+          "alt": "Carved stone dragon on a staircase"
+        }
+      ],
+      "sources": [
+        {
+          "title": "Lê Trung Tông (Wikipedia)",
+          "url": "https://en.wikipedia.org/wiki/L%C3%AA_Trung_T%C3%B4ng"
+        },
+        {
+          "title": "List of Vietnamese monarchs (Wikipedia)",
+          "url": "https://en.wikipedia.org/wiki/List_of_Vietnamese_monarchs"
+        }
+      ],
+      "review": {
+        "status": "draft",
+        "notes": "Short card added from the completeness audit; checked only against Wikipedia."
+      },
+      "end": {
+        "date": "1005-11",
+        "circa": true
+      }
+    },
+    {
       "id": "le-long-dinh",
       "kind": "monarch",
       "rulers": [
@@ -1752,62 +1808,6 @@
       "review": {
         "status": "draft",
         "notes": "Drafted from the listed sources; needs a human fact-check."
-      }
-    },
-    {
-      "id": "le-long-viet",
-      "kind": "monarch",
-      "rulers": [
-        "le-long-viet"
-      ],
-      "tagline": "Emperor for three days",
-      "start": {
-        "date": "1005-11",
-        "circa": true
-      },
-      "contestedWith": [
-        "le-long-dinh"
-      ],
-      "relationToPredecessor": "Son of Lê Hoàn",
-      "ageAtAccession": "22",
-      "cameToPower": "Named crown prince",
-      "reignEnded": "Murdered by his brother",
-      "previously": "Lê Hoàn dies, and his sons fight for the throne.",
-      "paragraphs": [
-        "Lê Long Việt was Lê Hoàn's chosen heir. After his father died in 1005, his brothers fought over the succession for eight months before he could take the throne.",
-        "Three days after he became emperor, his younger brother Lê Long Đĩnh sent men to climb the palace wall at night and kill him."
-      ],
-      "claims": [],
-      "hook": "His killer, Lê Long Đĩnh, takes the throne.",
-      "images": [
-        {
-          "file": "File:Dragon (Le dynasty, Vietnam).jpg",
-          "url": "https://upload.wikimedia.org/wikipedia/commons/4/47/Dragon_%28Le_dynasty%2C_Vietnam%29.jpg",
-          "page": "https://commons.wikimedia.org/wiki/File:Dragon_(Le_dynasty,_Vietnam).jpg",
-          "credit": "Viethavvh",
-          "license": "Public domain",
-          "made": "Date not recorded",
-          "caption": "Rồng thời Lê tại nền Điện Kính Thiên, Hoàng thành Hà Nội. No portrait of Le Long Viet survives.",
-          "alt": "Rồng thời Lê tại nền Điện Kính Thiên, Hoàng thành Hà Nội. No portrait of Le Long Viet survives."
-        }
-      ],
-      "sources": [
-        {
-          "title": "Lê Trung Tông (Wikipedia)",
-          "url": "https://en.wikipedia.org/wiki/L%C3%AA_Trung_T%C3%B4ng"
-        },
-        {
-          "title": "List of Vietnamese monarchs (Wikipedia)",
-          "url": "https://en.wikipedia.org/wiki/List_of_Vietnamese_monarchs"
-        }
-      ],
-      "review": {
-        "status": "draft",
-        "notes": "Short card added from the completeness audit; checked only against Wikipedia."
-      },
-      "end": {
-        "date": "1005-11",
-        "circa": true
       }
     },
     {
@@ -3485,7 +3485,7 @@
           "note": "It still stands and was made a UNESCO World Heritage Site in 2011."
         }
       ],
-      "hook": "The Ming have Đại Việt and mean to keep it. But a surviving son of Trần Nghệ Tông is about to crown himself Giản Định Đế and fight back.",
+      "hook": "After a year, Hồ Quý Ly hands the title to his son Hồ Hán Thương and keeps the power. Up north, the Ming are looking for an excuse.",
       "images": [
         {
           "file": "File:Ho dynasty's citadel, Vietnam.jpg",
@@ -3542,7 +3542,7 @@
         "The Ming dynasty of China used the overthrow of the Trần as an excuse to invade in 1406. Father and son were captured in 1407 and taken to China."
       ],
       "claims": [],
-      "hook": "The Ming rule Vietnam as a Chinese province.",
+      "hook": "The Ming have Đại Việt and mean to keep it. But a surviving son of Trần Nghệ Tông is about to crown himself Giản Định Đế and fight back.",
       "images": [
         {
           "file": "File:An47 rebelle Ho Han Thuong (15216463182).jpg",
@@ -3551,8 +3551,8 @@
           "credit": "Jean-Michel Moullec from Vern sur Seiche (35, Bretagne), France",
           "license": "CC BY 2.0",
           "made": "2014-09-12 17:30",
-          "caption": "Une monnaie en cuivre d’une sapèque de Ho Han Thuong ( ?-1407), ère Han Nguyen (1401-1407), de la dynastie des Ho (1400-1407). A/ Han Nguyen thong bao (Monnaie…",
-          "alt": "Une monnaie en cuivre d’une sapèque de Ho Han Thuong ( ?-1407), ère Han Nguyen (1401-1407), de la dynastie des Ho (1400-1407). A/ Han Nguyen thong bao (Monnaie…"
+          "caption": "A copper coin of Hồ Hán Thương's Hán Nguyên era, 1401 to 1407.",
+          "alt": "Round copper coin with a square hole and Chinese characters"
         }
       ],
       "sources": [
@@ -4730,7 +4730,7 @@
           "note": "Recorded in the Toàn thư, written by the Lê side, but not seriously doubted."
         }
       ],
-      "hook": "The Lê are not finished. In 1533 the loyal general Nguyễn Kim finds a Lê prince hiding in Laos and crowns him in exile as Lê Trang Tông.",
+      "hook": "Three years in, Đăng Dung hands the throne to his son Đăng Doanh and keeps the real power as retired emperor. But the Lê are not finished.",
       "images": [
         {
           "file": "File:An Nan Lai Wei Tu Ce.JPG",
@@ -4789,7 +4789,7 @@
         "Doanh is remembered as a careful ruler who kept order and good harvests. He died in 1540, and his father had to deal with the Ming threat and the Lê loyalists in the south."
       ],
       "claims": [],
-      "hook": "With his son dead, Mạc Đăng Dung submits to the Ming to save his dynasty.",
+      "hook": "Rewind to 1533. The loyal general Nguyễn Kim finds a Lê prince hiding in Laos and crowns him in exile as Lê Trang Tông.",
       "images": [
         {
           "file": "File:Lichsuvietnammoi.png",
@@ -4798,8 +4798,8 @@
           "credit": "Lachy70",
           "license": "Public domain",
           "made": "2023-06-12",
-          "caption": "Higher quality version of \"History of Vietnam\" for template heading.png, which includes a seal, Chinese characters, and Vietnamese alphabet writing \"Lịch sử. No portrait of Mac Dang Doanh survives.",
-          "alt": "Higher quality version of \"History of Vietnam\" for template heading.png, which includes a seal, Chinese characters, and Vietnamese alphabet writing \"Lịch sử. No portrait of Mac Dang Doanh survives."
+          "caption": "A modern banner reading History of Vietnam. No portrait of Mạc Đăng Doanh survives.",
+          "alt": "Banner graphic with a seal and the words History of Vietnam"
         }
       ],
       "sources": [
@@ -5362,7 +5362,7 @@
           "note": "Both Lê and Nguyễn records describe his stay before he slipped back south in 1600."
         }
       ],
-      "hook": "Thế Tông's young son takes the throne. Nguyễn Hoàng is still in the north, and he is looking for a way out.",
+      "hook": "Rewind to 1592. Mạc Mậu Hợp is a prisoner, but the Mạc are not quite finished: their last loyalists crown his son Mạc Toàn.",
       "images": [
         {
           "file": "File:Map of Southern and Northern Dynasties of Vietnam.png",
@@ -5426,17 +5426,17 @@
         "He lasted only months before he too was captured and executed. Mạc family members held out in Cao Bằng in the far north for decades more."
       ],
       "claims": [],
-      "hook": "The Lê emperors return to Thăng Long, with the Trịnh lords holding the real power.",
+      "hook": "Back to 1599: Thế Tông dies. His young son takes the throne, and Nguyễn Hoàng, still stuck in the north, is looking for a way out.",
       "images": [
         {
           "file": "File:Cầu Bằng Giang.jpeg",
           "url": "https://upload.wikimedia.org/wikipedia/commons/6/66/C%E1%BA%A7u_B%E1%BA%B1ng_Giang.jpeg",
           "page": "https://commons.wikimedia.org/wiki/File:C%E1%BA%A7u_B%E1%BA%B1ng_Giang.jpeg",
-          "credit": "vi:User:Caobangpro",
+          "credit": "Caobangpro",
           "license": "CC BY 3.0",
           "made": "2014-04-25",
-          "caption": "Cầu Bằng Giang về đêm. No portrait of Mac Toan survives.",
-          "alt": "Cầu Bằng Giang về đêm. No portrait of Mac Toan survives."
+          "caption": "The Bằng Giang bridge in Cao Bằng, where the Mạc held out for decades after 1592; a modern photograph.",
+          "alt": "Modern bridge lit up at night"
         }
       ],
       "sources": [
