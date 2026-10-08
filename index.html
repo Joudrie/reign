@@ -230,7 +230,28 @@ details a { color: inherit; }
 /* countries + search */
 .search-body { padding-top: calc(var(--s2) + env(safe-area-inset-top, 0px)); display: grid; align-content: start; gap: var(--s1); }
 .search-body .section-label { margin-top: var(--s0); }
-.countries { list-style: none; margin: 0; padding: 0; display: grid; grid-template-columns: repeat(auto-fill, minmax(150px, 1fr)); gap: var(--s0); }
+.countries { list-style: none; margin: 0; padding: 0; display: grid; grid-template-columns: repeat(auto-fill, minmax(240px, 1fr)); gap: 6px; }
+.region-tabs, .pick-regions { display: flex; flex-wrap: wrap; gap: 6px; margin: 0 0 var(--s0); }
+.region-tabs button, .cmp-add-list .rtab { min-height: 32px; padding: 0 12px; border-radius: 999px; border: 1px solid var(--edge); background: var(--card); color: var(--muted); font-size: var(--t-xs); cursor: pointer; }
+.region-tabs button[aria-pressed="true"] { color: var(--ink); border-color: var(--ink); box-shadow: inset 0 0 0 1px var(--ink); }
+.countries.compact button { min-height: 44px; padding: 6px 10px; }
+.countries.compact .mini-flag { width: 28px; height: 19px; flex: none; }
+.countries.compact .meta { display: flex; align-items: baseline; gap: 8px; min-width: 0; }
+.countries.compact strong { white-space: nowrap; overflow: hidden; text-overflow: ellipsis; }
+.countries.compact span.sub { white-space: nowrap; }
+.countries.compact .progress { display: none; }
+.pick-summary { display: flex; flex-wrap: wrap; align-items: center; gap: var(--s0); margin: 0 0 var(--s1); }
+.pick-group { margin: var(--s0) 0; }
+.pick-group h4 { display: flex; align-items: center; gap: var(--s0); margin: 0 0 6px; font-size: var(--t-xs); text-transform: uppercase; letter-spacing: .08em; color: var(--muted); }
+.pick-group h4 button { font: inherit; text-transform: none; letter-spacing: 0; color: var(--accent, var(--ink)); background: none; border: 0; cursor: pointer; text-decoration: underline; padding: 0; }
+.cmp-row .cmp-x { margin-left: 2px; opacity: .6; }
+.cmp-row .cmp-add { color: var(--ink); border-style: dashed; }
+.cmp-add-list { display: grid; gap: 6px; padding: 0 var(--s2) var(--s0); max-height: 46vh; overflow-y: auto; }
+.cmp-add-list .grp { font-size: var(--t-xs); color: var(--muted); text-transform: uppercase; letter-spacing: .08em; margin-top: 6px; }
+.cmp-add-list .opts { display: flex; flex-wrap: wrap; gap: 6px; }
+.cmp-add-list .opts button { display: inline-flex; align-items: center; gap: 6px; min-height: 34px; padding: 0 10px 0 6px; border-radius: 999px; border: 1px solid var(--edge); background: var(--card); cursor: pointer; font-size: var(--t-sm); color: var(--ink); }
+.danger-more { margin-top: var(--s0); }
+.cmp-add-list[hidden] { display: none; }
 .countries button {
   width: 100%; display: grid; grid-template-columns: 36px 1fr; gap: var(--s0) var(--s1); align-items: center;
   background: var(--card); border: 1px solid var(--edge); border-radius: var(--r); padding: var(--s1);
@@ -404,6 +425,7 @@ details a { color: inherit; }
     <button class="icon-btn" id="zoomIn" aria-label="Zoom in">+</button>
   </div>
   <div class="cmp-row" id="cmpRow" aria-label="Countries to compare"></div>
+  <div class="cmp-add-list" id="cmpAddList" hidden></div>
   <p class="tl-hint" id="tlHint"></p>
   <div class="view-body tl-scroll" id="timelineBody"></div>
 </section>
@@ -422,7 +444,8 @@ details a { color: inherit; }
 <section class="view" id="view-search" aria-label="Countries and search">
   <div class="view-body search-body">
     <h2 class="section-label caps">Country</h2>
-    <ul class="countries" id="countries"></ul>
+    <div class="region-tabs" id="regionTabs" role="group" aria-label="Region"></div>
+    <ul class="countries compact" id="countries"></ul>
     <h2 class="section-label caps" id="searchLabel"></h2>
     <label class="search-box">
       <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" aria-hidden="true"><circle cx="11" cy="11" r="7"/><path d="M20 20l-4-4"/></svg>
@@ -459,6 +482,15 @@ const reduced = matchMedia("(prefers-reduced-motion: reduce)").matches;
 
 
 /* Countries: the ones with a data file are live; the rest show as "coming soon". Flags are drawn, not emoji. */
+/* Regions group the country lists so nobody scrolls through 49 cards. */
+const REGIONS = [
+  ["Western Europe", ["england", "scotland", "france", "spain", "portugal", "italy", "netherlands", "belgium", "luxembourg", "monaco", "papacy", "venice", "rome"]],
+  ["Central & Northern Europe", ["hre", "germany", "austria", "liechtenstein", "bohemia", "poland", "hungary", "denmark", "norway", "sweden"]],
+  ["Eastern Europe & Balkans", ["russia", "byzantium", "bulgaria", "greece", "georgia", "ottoman"]],
+  ["Middle East & Africa", ["egypt", "ptolemaic", "iran", "abbasid", "umayyad", "jordan", "saudi", "morocco", "ethiopia"]],
+  ["Asia & Pacific", ["china", "mongol", "japan", "korea", "vietnam", "thailand", "burma", "nepal", "mughal", "hawaii"]],
+];
+const regionOf = id => REGIONS.find(([, ids]) => ids.includes(id))?.[0] ?? "Other";
 const CATALOG = [
   { id: "england", name: "England & the UK", short: "England" },
   { id: "spain", name: "Spain", short: "Spain" },
@@ -924,9 +956,17 @@ function drawCompareRow() {
   const row = document.getElementById("cmpRow");
   if (DATA.fictional) { row.hidden = true; return; }
   row.hidden = false;
-  row.innerHTML = TL_ORDER.filter(c => WORLD[c] && !WORLD[c].data.fictional).map(c =>
-    `<button data-cmp="${c}" aria-pressed="${compare.includes(c)}"><span class="chip-flag">${FLAGS[c] ?? ""}</span>${esc(cname(c))}</button>`).join("");
+  const full = compare.length >= maxCompare();
+  row.innerHTML = compare.map(c =>
+    `<button data-cmp="${c}" aria-pressed="true" aria-label="Remove ${esc(cname(c))}"><span class="chip-flag">${FLAGS[c] ?? ""}</span>${esc(cname(c))}<span class="cmp-x" aria-hidden="true">×</span></button>`).join("") +
+    `<button class="cmp-add" data-cmp-add aria-expanded="${cmpAdding}">${full ? `Full (${maxCompare()})` : "+ Add country"}</button>`;
+  const list = document.getElementById("cmpAddList");
+  list.hidden = !cmpAdding;
+  if (cmpAdding) list.innerHTML = full
+    ? `<p class="tl-hint">You can compare up to ${maxCompare()} countries here. Tap one above to remove it first.</p>`
+    : REGIONS.map(([r, ids]) => { const opts = ids.filter(c => WORLD[c] && !compare.includes(c)); return opts.length ? `<div class="grp">${esc(r)}</div><div class="opts">${opts.map(c => `<button data-cmp="${c}"><span class="chip-flag">${FLAGS[c] ?? ""}</span>${esc(cname(c))}</button>`).join("")}</div>` : ""; }).join("");
 }
+let cmpAdding = false;
 function drawTimeline() {
   const body = document.getElementById("timelineBody");
   const ppy = ZOOMS[zoom], cols = tlColumns(), era = DATA.fictional ? DATA.era : undefined;
@@ -965,7 +1005,7 @@ function drawTimeline() {
   document.getElementById("timelineTitle").textContent = DATA.fictional ? `${cname(country)} timeline` : "Compare";
   document.getElementById("tlHint").textContent = DATA.fictional
     ? "Tap any reign to read it."
-    : `Pick up to ${maxCompare()} countries. Tap a year to draw a line across them.`;
+    : `Compare up to ${maxCompare()} countries. Tap a year to draw a line across them.`;
   document.getElementById("zoomLevel").textContent = `${ppy}px / year`;
   document.getElementById("zoomOut").disabled = zoom === 0;
   document.getElementById("zoomIn").disabled = zoom === ZOOMS.length - 1;
@@ -993,19 +1033,23 @@ document.getElementById("timelineBody").addEventListener("click", e => {
   tlMarker = tlFrame.t0 + py / tlFrame.ppy;
   placeMarker();
 });
-document.getElementById("cmpRow").addEventListener("click", e => {
+const onCmp = e => {
+  if (e.target.closest("[data-cmp-add]")) { cmpAdding = !cmpAdding; return drawCompareRow(); }
   const b = e.target.closest("[data-cmp]");
   if (!b) return;
+  if (!compare.includes(b.dataset.cmp) && compare.length >= maxCompare()) return;
+  cmpAdding = false;
   const c = b.dataset.cmp, body = document.getElementById("timelineBody"), keep = body.scrollTop;
   if (compare.includes(c)) { if (compare.length > 1) compare = compare.filter(x => x !== c); }
   else {
     // Full: drop the oldest pick, keeping the country being read if possible.
-    if (compare.length >= maxCompare()) { const drop = compare.find(x => x !== country) ?? compare[0]; compare = compare.filter(x => x !== drop); }
     compare = [...compare, c];
   }
   drawTimeline();
   body.scrollTop = keep;
-});
+};
+document.getElementById("cmpRow").addEventListener("click", onCmp);
+document.getElementById("cmpAddList").addEventListener("click", onCmp);
 function rezoom(dz) {
   const body = document.getElementById("timelineBody");
   const centre = (body.scrollTop + body.clientHeight / 2 - TL_TOP) / ZOOMS[zoom];
@@ -1056,11 +1100,21 @@ function renderCountries() {
       <span class="meta"><strong>${esc(c.name)}</strong><span class="sub">${sub}</span>${seen ? `<span class="progress"><i style="width:${Math.min(100, (seen / n) * 100)}%"></i></span>` : ""}</span>
     </button></li>`;
   };
+  regionTab ??= ALL[country]?.fictional ? "Fiction" : regionOf(country);
+  const tabs = [...REGIONS.map(([r]) => r), "Fiction", "All"];
+  document.getElementById("regionTabs").innerHTML = tabs.map(t => `<button data-region="${t}" aria-pressed="${t === regionTab}">${esc(t)}</button>`).join("");
+  const inRegion = r => CATALOG.filter(c => !c.fictional && regionOf(c.id) === r);
   document.getElementById("countries").innerHTML =
-    CATALOG.filter(c => !c.fictional).map(item).join("") +
-    `<li class="group" role="presentation">Fiction</li>` +
-    CATALOG.filter(c => c.fictional).map(item).join("");
+    regionTab === "All" ? REGIONS.map(([r]) => `<li class="group" role="presentation">${esc(r)}</li>` + inRegion(r).map(item).join("")).join("") +
+      `<li class="group" role="presentation">Fiction</li>` + CATALOG.filter(c => c.fictional).map(item).join("")
+    : regionTab === "Fiction" ? CATALOG.filter(c => c.fictional).map(item).join("")
+    : inRegion(regionTab).map(item).join("");
 }
+let regionTab = null;
+document.getElementById("regionTabs").addEventListener("click", e => {
+  const b = e.target.closest("[data-region]");
+  if (b) { regionTab = b.dataset.region; renderCountries(); }
+});
 function loadCountry(id, reignId) {
   country = id;
   DATA = ALL[id];
@@ -1231,7 +1285,7 @@ const FATE_GROUPS = [
   ["uncertain", "Uncertain", "#d6ccbb"],
 ];
 const groupOf = f => (VIOLENT.includes(f) ? "violent" : f);
-let statsFate = "murdered";
+let statsFate = "murdered", dangerAll = false;
 function peopleOf(cid) {
   return ALL[cid].rulers.map(r => ({ cid, r, e: reignOf(cid, r.id), fate: fateOf(cid, r) })).filter(p => p.e);
 }
@@ -1254,7 +1308,9 @@ function renderStats() {
     return { cid, n, total: ps.length, pct: ps.length ? n.violent / ps.length : 0 };
   }).sort((a, b) => b.pct - a.pct);
   const legend = FATE_GROUPS.map(([, label, c]) => `<span><i class="swatch" style="background:${c}"></i>${label}</span>`).join("");
-  const danger = rows.map(row => {
+  const shown = dangerAll ? rows : rows.slice(0, 10);
+  if (!dangerAll && !shown.some(r => r.cid === country) && rows.some(r => r.cid === country)) shown.push(rows.find(r => r.cid === country));
+  const danger = shown.map(row => {
     const name = cname(row.cid);
     const segs = FATE_GROUPS.filter(([k]) => row.n[k]).map(([k, label, c]) =>
       `<i style="flex:${row.n[k]} 1 0;background:${c}" data-tip="${esc(name)}: ${row.n[k]} of ${row.total} rulers, ${label.toLowerCase()}"></i>`).join("");
@@ -1287,6 +1343,7 @@ function renderStats() {
       <p class="sub">Share of each country's rulers who died violently: in battle, murdered, executed, poisoned or by their own hand.</p>
       <div class="legend-row">${legend}</div>
       <ul class="danger">${danger}</ul>
+      ${rows.length > 10 ? `<button class="btn ghost danger-more" data-danger-more>${dangerAll ? "Show top 10" : `Show all ${rows.length}`}</button>` : ""}
     </section>
     <section>
       <h3>Browse by fate</h3>
@@ -1301,6 +1358,7 @@ function renderStats() {
 }
 const statsBody = document.getElementById("statsBody"), tip = document.getElementById("tip");
 statsBody.addEventListener("click", e => {
+  if (e.target.closest("[data-danger-more]")) { dangerAll = !dangerAll; renderStats(); return; }
   const f = e.target.closest("[data-fate]");
   if (f) { statsFate = f.dataset.fate; renderStats(); return; }
   const x = e.target.closest("[data-x]");
@@ -1341,12 +1399,12 @@ function renderPlay() {
     const btn = (cid, label) => `<button data-pick="${cid}" aria-pressed="${game.picked.includes(cid)}"><span class="chip-flag">${FLAGS[cid] ?? ""}</span>${esc(label)}<small>${poolOf([cid]).length}</small></button>`;
     el.innerHTML = `
       <p class="play-intro">Every card sorts its stories into record, disputed and rumour. Read the story, then guess which it is.</p>
-      <h3 class="section-label caps">Pick your decks</h3>
-      <div class="pick">
-        <button class="all" data-pick="all" aria-pressed="${all}">All real history <small>${poolOf(REAL).length}</small></button>
-        ${REAL.map(c => btn(c, cname(c))).join("")}
-      </div>
-      ${FICTION.length ? `<h3 class="section-label caps">Fiction</h3><div class="pick">${FICTION.map(c => btn(c, cname(c))).join("")}</div>` : ""}
+      <div class="pick-summary"><span>Playing <strong>${all && !game.picked.some(c => FICTION.includes(c)) ? "all real history" : `${game.picked.length} deck${game.picked.length === 1 ? "" : "s"}`}</strong>, ${poolOf(game.picked).length} stories.</span>
+        <button class="btn ghost" data-play="${game.choosing ? "chosen" : "choose"}">${game.choosing ? "Done" : "Change decks"}</button></div>
+      ${game.choosing ? `
+      <div class="pick"><button class="all" data-pick="all" aria-pressed="${all}">All real history <small>${poolOf(REAL).length}</small></button></div>
+      ${REGIONS.map(([r, ids]) => { const cs = ids.filter(c => REAL.includes(c)); return `<div class="pick-group"><h4>${esc(r)} <button data-pick="region:${esc(r)}">${cs.every(c => game.picked.includes(c)) ? "clear" : "all"}</button></h4><div class="pick">${cs.map(c => btn(c, cname(c))).join("")}</div></div>`; }).join("")}
+      ${FICTION.length ? `<div class="pick-group"><h4>Fiction</h4><div class="pick">${FICTION.map(c => btn(c, cname(c))).join("")}</div></div>` : ""}` : ""}
       <div class="play-actions"><button class="btn" data-play="start">Play ${GAME_LEN} questions</button></div>
       <p class="play-intro">${poolOf(game.picked).length} stories in your decks.</p>`;
     return;
@@ -1393,13 +1451,17 @@ document.getElementById("playBody").addEventListener("click", e => {
   if (t.dataset.ans) return answer(t.dataset.ans);
   if (t.dataset.pick) {
     const c = t.dataset.pick;
-    if (c === "all") game.picked = REAL.every(x => game.picked.includes(x)) ? game.picked : [...new Set([...game.picked, ...REAL])];
+    if (c.startsWith("region:")) {
+      const ids = (REGIONS.find(([r]) => r === c.slice(7))?.[1] ?? []).filter(x => REAL.includes(x));
+      game.picked = ids.every(x => game.picked.includes(x)) ? game.picked.filter(x => !ids.includes(x)) : [...new Set([...game.picked, ...ids])];
+    } else if (c === "all") game.picked = REAL.every(x => game.picked.includes(x)) ? game.picked : [...new Set([...game.picked, ...REAL])];
     else game.picked = game.picked.includes(c) ? game.picked.filter(x => x !== c) : [...game.picked, c];
     if (!game.picked.length) game.picked = [c === "all" ? REAL[0] : c];
     try { localStorage.setItem("reign.game.picked", JSON.stringify(game.picked)); } catch {}
     return renderPlay();
   }
   const r = game.round;
+  if (t.dataset.play === "choose" || t.dataset.play === "chosen") { game.choosing = t.dataset.play === "choose"; return renderPlay(); }
   if (t.dataset.play === "setup") game.round = null;
   if (t.dataset.play === "start") game.round = { qs: shuffle(poolOf(game.picked)).slice(0, GAME_LEN), i: 0, score: 0, streak: 0, answer: null, done: false };
   if (t.dataset.play === "next" && r) {
