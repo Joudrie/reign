@@ -16,3 +16,15 @@ Co-monarchs share one reign. A civil war is two overlapping reigns linked by
 Rules: write in our own voice, never paraphrased Wikipedia. Use Wikimedia
 Commons images only, with credit and license. Nothing is `review.status:
 "checked"` until a human has verified every name and date against its sources.
+
+## Build and publish
+
+```
+python3 scripts/build-site.py --sheets <folder with sheets/*.jpg and manifest.json> --out dist
+```
+
+This inlines every deck into `prototype/deck.html`, wraps it in a full page (title, description,
+link-preview tags, icons, web manifest) and copies `site-assets/` (icons, `og.png` preview image,
+`sw.js` offline cache). The portrait sheets are on the `gh-pages` branch under `sheets/`; check that
+branch out to get them. Publish by copying `dist/` to the `gh-pages` branch.
+Live: https://joudrie.github.io/reign/
