@@ -616,6 +616,18 @@
         "note": "Camden Place, Chislehurst, Kent, England"
       },
       "causeOfDeath": "Complications after bladder-stone surgery"
+    },
+    {
+      "id": "napoleon-ii",
+      "name": "Napoleon II",
+      "house": "bonaparte",
+      "epithet": "the Eaglet",
+      "born": {
+        "date": "1811-03-20"
+      },
+      "died": {
+        "date": "1832-07-22"
+      }
     }
   ],
   "reigns": [
@@ -776,7 +788,19 @@
       "review": {
         "status": "draft",
         "notes": "Drafted from the listed sources; needs a human fact-check."
-      }
+      },
+      "members": [
+        {
+          "name": "Hugh Magnus",
+          "start": {
+            "date": "1017-06-09"
+          },
+          "end": {
+            "date": "1025-09-17"
+          },
+          "note": "Eldest son, crowned co-king; died before his father, aged about 18"
+        }
+      ]
     },
     {
       "id": "henry-i",
@@ -1007,7 +1031,19 @@
       "review": {
         "status": "draft",
         "notes": "Drafted from the listed sources; needs a human fact-check."
-      }
+      },
+      "members": [
+        {
+          "name": "Philip",
+          "start": {
+            "date": "1129-04-14"
+          },
+          "end": {
+            "date": "1131-10-13"
+          },
+          "note": "Crowned co-king; killed when a pig tripped his horse in Paris"
+        }
+      ]
     },
     {
       "id": "louis-vii",
@@ -3581,6 +3617,70 @@
       }
     },
     {
+      "id": "napoleon-ii",
+      "kind": "claimant",
+      "rulers": [
+        "napoleon-ii"
+      ],
+      "members": [
+        {
+          "name": "Commission of Government (Joseph Fouché)",
+          "start": {
+            "date": "1815-06-22"
+          },
+          "end": {
+            "date": "1815-07-07"
+          },
+          "note": "Five-man body that actually governed, and let Louis XVIII back in"
+        }
+      ],
+      "tagline": "The four-year-old emperor in Vienna",
+      "start": {
+        "date": "1815-06-22"
+      },
+      "contestedWith": [],
+      "relationToPredecessor": "Son of Napoleon I",
+      "ageAtAccession": "4",
+      "cameToPower": "Father abdicated in his favour",
+      "reignEnded": "Allies took Paris",
+      "previously": "Waterloo is lost, and Napoleon abdicates for his son.",
+      "paragraphs": [
+        "After Waterloo, Napoleon abdicated in favour of his four-year-old son, and the Chambers in Paris proclaimed him emperor. The boy was in Vienna with his Austrian mother and never set foot in France as ruler.",
+        "A Commission of Government under Joseph Fouché ran the country for two weeks and quietly negotiated the return of Louis XVIII. The child grew up in Austria as the Duke of Reichstadt and died of tuberculosis at 21."
+      ],
+      "claims": [],
+      "hook": "Fouché opens the door, and Louis XVIII rides back into Paris.",
+      "images": [
+        {
+          "file": "File:François Pascal Simon Gérard 004b.jpg",
+          "url": "https://upload.wikimedia.org/wikipedia/commons/1/1d/Fran%C3%A7ois_Pascal_Simon_G%C3%A9rard_004b.jpg?utm_source=en.wikipedia.org&utm_campaign=imageinfo&utm_content=original",
+          "page": "https://commons.wikimedia.org/wiki/File:Fran%C3%A7ois_Pascal_Simon_G%C3%A9rard_004b.jpg",
+          "credit": "François Gérard",
+          "license": "Public domain",
+          "made": "1813",
+          "caption": "Image from the Wikipedia article on napoleon-ii",
+          "alt": "Image from the Wikipedia article on napoleon-ii"
+        }
+      ],
+      "sources": [
+        {
+          "title": "Napoleon II (Wikipedia)",
+          "url": "https://en.wikipedia.org/wiki/Napoleon_II"
+        },
+        {
+          "title": "List of French monarchs (Wikipedia)",
+          "url": "https://en.wikipedia.org/wiki/List_of_French_monarchs"
+        }
+      ],
+      "review": {
+        "status": "draft",
+        "notes": "Short card added from the completeness audit; checked only against Wikipedia."
+      },
+      "end": {
+        "date": "1815-07-07"
+      }
+    },
+    {
       "id": "louis-xviii-restored",
       "kind": "monarch",
       "rulers": [
@@ -3731,7 +3831,29 @@
       "review": {
         "status": "draft",
         "notes": "Drafted from the listed sources; needs a human fact-check."
-      }
+      },
+      "members": [
+        {
+          "name": "Louis XIX (Duke of Angoulême)",
+          "start": {
+            "date": "1830-08-02"
+          },
+          "end": {
+            "date": "1830-08-02"
+          },
+          "note": "King for about 20 minutes between his father's abdication and his own"
+        },
+        {
+          "name": "Henri V (Count of Chambord)",
+          "start": {
+            "date": "1830-08-02"
+          },
+          "end": {
+            "date": "1830-08-09"
+          },
+          "note": "Named king aged 9 by Charles X's abdication; Paris chose Louis-Philippe"
+        }
+      ]
     },
     {
       "id": "louis-philippe",

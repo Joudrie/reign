@@ -68,6 +68,11 @@
       "id": "windsor",
       "name": "Windsor",
       "color": "#2b3f73"
+    },
+    {
+      "id": "capet",
+      "name": "Capet",
+      "color": "#3a5a8c"
     }
   ],
   "rulers": [
@@ -722,6 +727,30 @@
         "date": "1948-11-14",
         "note": "Buckingham Palace, London"
       }
+    },
+    {
+      "id": "louis-of-france",
+      "name": "Louis",
+      "house": "capet",
+      "epithet": "the Lion",
+      "born": {
+        "date": "1187-09-05"
+      },
+      "died": {
+        "date": "1226-11-08"
+      }
+    },
+    {
+      "id": "richard-cromwell",
+      "name": "Richard Cromwell",
+      "house": "commonwealth",
+      "epithet": "Tumbledown Dick",
+      "born": {
+        "date": "1626-10-04"
+      },
+      "died": {
+        "date": "1712-07-12"
+      }
     }
   ],
   "reigns": [
@@ -1197,7 +1226,19 @@
       "review": {
         "status": "draft",
         "notes": "Drafted from the listed sources; needs a human fact-check."
-      }
+      },
+      "members": [
+        {
+          "name": "Henry the Young King",
+          "start": {
+            "date": "1170-06-14"
+          },
+          "end": {
+            "date": "1183-06-11"
+          },
+          "note": "Crowned co-king in his father's lifetime; rebelled in 1173 and died before him"
+        }
+      ]
     },
     {
       "id": "richard-i",
@@ -1286,7 +1327,9 @@
       "end": {
         "date": "1216-10-19"
       },
-      "contestedWith": [],
+      "contestedWith": [
+        "louis-of-france"
+      ],
       "relationToPredecessor": "Youngest brother of Richard I",
       "ageAtAccession": "32",
       "cameToPower": "Beat nephew Arthur to the throne",
@@ -1349,6 +1392,61 @@
       }
     },
     {
+      "id": "louis-of-france",
+      "kind": "claimant",
+      "rulers": [
+        "louis-of-france"
+      ],
+      "tagline": "The French prince who held London",
+      "start": {
+        "date": "1216-06-02"
+      },
+      "contestedWith": [
+        "john",
+        "henry-iii"
+      ],
+      "relationToPredecessor": "Invited in by John's rebel barons",
+      "ageAtAccession": "28",
+      "cameToPower": "Proclaimed king at St Paul's",
+      "reignEnded": "Treaty of Lambeth",
+      "previously": "The barons give up on John and invite in a French prince.",
+      "paragraphs": [
+        "The rebel barons offered England's crown to Louis, son of King Philip II of France. He landed in Kent in May 1216, was proclaimed king in London, and soon held about half the kingdom, including the capital.",
+        "When John died that October, the barons drifted back to his young son Henry III. Louis lost at Lincoln, his reinforcements were sunk off Sandwich, and in 1217 he took a payment to give up his claim and go home. He later ruled France as Louis VIII."
+      ],
+      "claims": [],
+      "hook": "Louis sails home, and the boy king Henry III's regents get on with ruling.",
+      "images": [
+        {
+          "file": "File:Louis8.jpg",
+          "url": "https://upload.wikimedia.org/wikipedia/commons/1/18/Louis8.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+          "page": "https://commons.wikimedia.org/wiki/File:Louis8.jpg",
+          "credit": "Natalis de Wailly",
+          "license": "Public domain",
+          "made": "19th centurydate QS:P,+1850-00-00T00:00:00Z/7",
+          "caption": "Seal of Louis VII of France.",
+          "alt": "Seal of Louis VII of France."
+        }
+      ],
+      "sources": [
+        {
+          "title": "Louis VIII of France (Wikipedia)",
+          "url": "https://en.wikipedia.org/wiki/Louis_VIII_of_France"
+        },
+        {
+          "title": "List of English monarchs (Wikipedia)",
+          "url": "https://en.wikipedia.org/wiki/List_of_English_monarchs"
+        }
+      ],
+      "review": {
+        "status": "draft",
+        "notes": "Short card added from the completeness audit; checked only against Wikipedia."
+      },
+      "end": {
+        "date": "1217-09-22"
+      }
+    },
+    {
       "id": "henry-iii",
       "kind": "monarch",
       "rulers": [
@@ -1361,7 +1459,9 @@
       "end": {
         "date": "1272-11-16"
       },
-      "contestedWith": [],
+      "contestedWith": [
+        "louis-of-france"
+      ],
       "relationToPredecessor": "Eldest son of John",
       "ageAtAccession": "9",
       "cameToPower": "Crowned at nine, mid-civil war",
@@ -2711,7 +2811,19 @@
       "review": {
         "status": "draft",
         "notes": "Drafted from the listed sources; needs a human fact-check."
-      }
+      },
+      "members": [
+        {
+          "name": "Philip of Spain",
+          "start": {
+            "date": "1554-07-25"
+          },
+          "end": {
+            "date": "1558-11-17"
+          },
+          "note": "King of England by marriage to Mary; his name stood beside hers on laws and coins"
+        }
+      ]
     },
     {
       "id": "elizabeth-i",
@@ -2955,7 +3067,9 @@
       "end": {
         "date": "1660-05-29"
       },
-      "contestedWith": [],
+      "contestedWith": [
+        "richard-cromwell"
+      ],
       "relationToPredecessor": "General who beat and tried Charles I",
       "ageAtAccession": "49 (54 as Protector)",
       "cameToPower": "Won the civil war; king executed",
@@ -3016,6 +3130,102 @@
       "review": {
         "status": "draft",
         "notes": "Drafted from the listed sources; needs a human fact-check."
+      },
+      "members": [
+        {
+          "name": "Council of State (John Bradshaw)",
+          "start": {
+            "date": "1649-02-14"
+          },
+          "end": {
+            "date": "1653-04-20"
+          },
+          "note": "Ran the republic until Cromwell dissolved the Rump"
+        },
+        {
+          "name": "Restored Rump Parliament",
+          "start": {
+            "date": "1659-05-07"
+          },
+          "end": {
+            "date": "1660-03-16"
+          },
+          "note": "Recalled by the army after Richard Cromwell fell"
+        },
+        {
+          "name": "Committee of Safety (Fleetwood, Lambert)",
+          "start": {
+            "date": "1659-10-26"
+          },
+          "end": {
+            "date": "1659-12-26"
+          },
+          "note": "Army junta that briefly replaced the Rump"
+        },
+        {
+          "name": "George Monck",
+          "start": {
+            "date": "1660-02-03"
+          },
+          "end": {
+            "date": "1660-05-29"
+          },
+          "note": "General who marched on London and arranged the Restoration"
+        }
+      ]
+    },
+    {
+      "id": "richard-cromwell",
+      "kind": "leader",
+      "rulers": [
+        "richard-cromwell"
+      ],
+      "tagline": "The Lord Protector nobody feared",
+      "start": {
+        "date": "1658-09-03"
+      },
+      "contestedWith": [
+        "commonwealth"
+      ],
+      "relationToPredecessor": "Son of Oliver Cromwell",
+      "ageAtAccession": "31",
+      "cameToPower": "Named heir by his dying father",
+      "reignEnded": "Forced out by the army",
+      "previously": "Oliver Cromwell dies, naming his son Richard as successor.",
+      "paragraphs": [
+        "Richard took over as Lord Protector when his father Oliver died in September 1658. He had no army record, and the generals never trusted him. Parliament and the army quarrelled, and he could not pay the soldiers.",
+        "In May 1659 the army officers forced him out and brought back the Rump Parliament. Mocked as Tumbledown Dick, he fled abroad to escape his debts, came home quietly years later, and lived to 85."
+      ],
+      "claims": [],
+      "hook": "With no Cromwell in charge, the army and Parliament fight over a regime falling to pieces.",
+      "images": [
+        {
+          "file": "File:By His Highnes Council in Scotland, for the government thereof Edinburgh 1658.jpg",
+          "url": "https://upload.wikimedia.org/wikipedia/commons/4/4a/By_His_Highnes_Council_in_Scotland%2C_for_the_government_thereof_Edinburgh_1658.jpg?utm_source=en.wikipedia.org&utm_campaign=imageinfo&utm_content=original",
+          "page": "https://commons.wikimedia.org/wiki/File:By_His_Highnes_Council_in_Scotland,_for_the_government_thereof_Edinburgh_1658.jpg",
+          "credit": "George Monck et al.",
+          "license": "Public domain",
+          "made": "2011-04-16",
+          "caption": "\"By His Highnes Council in Scotland, for the government thereof : whereas it hath pleased ... God ... to take out of this world ... Oliver late lord protector…",
+          "alt": "\"By His Highnes Council in Scotland, for the government thereof : whereas it hath pleased ... God ... to take out of this world ... Oliver late lord protector…"
+        }
+      ],
+      "sources": [
+        {
+          "title": "Richard Cromwell (Wikipedia)",
+          "url": "https://en.wikipedia.org/wiki/Richard_Cromwell"
+        },
+        {
+          "title": "List of English monarchs (Wikipedia)",
+          "url": "https://en.wikipedia.org/wiki/List_of_English_monarchs"
+        }
+      ],
+      "review": {
+        "status": "draft",
+        "notes": "Short card added from the completeness audit; checked only against Wikipedia."
+      },
+      "end": {
+        "date": "1659-05-25"
       }
     },
     {
@@ -3249,7 +3459,19 @@
       "review": {
         "status": "draft",
         "notes": "Drafted from the listed sources; needs a human fact-check."
-      }
+      },
+      "members": [
+        {
+          "name": "William of Orange (provisional rule)",
+          "start": {
+            "date": "1688-12-28"
+          },
+          "end": {
+            "date": "1689-02-13"
+          },
+          "note": "Ran the government at the Lords' request before the throne was offered"
+        }
+      ]
     },
     {
       "id": "william-iii",
