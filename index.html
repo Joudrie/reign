@@ -316,9 +316,9 @@ details a { color: inherit; }
 .cmp-row::-webkit-scrollbar { display: none; }
 .cmp-row button { flex: none; display: inline-flex; align-items: center; gap: 6px; min-height: 36px; padding: 0 12px 0 8px; border-radius: 999px; border: 1px solid var(--edge); background: var(--card); cursor: pointer; font-size: var(--t-sm); color: var(--muted); }
 .cmp-row button[aria-pressed="true"] { color: var(--ink); border-color: var(--ink); box-shadow: inset 0 0 0 1px var(--ink); }
-.tl-scroll { padding: 0; overflow-x: hidden; overflow-y: auto; overscroll-behavior: contain; -webkit-overflow-scrolling: touch; }
-.tl-grid { position: relative; display: grid; grid-template-columns: 48px repeat(var(--cols), minmax(0, 1fr)); }
-.tl-axis { position: relative; }
+.tl-scroll { padding: 0; overflow: auto; overscroll-behavior: contain; -webkit-overflow-scrolling: touch; touch-action: pan-x pan-y; }
+.tl-grid { position: relative; display: grid; grid-template-columns: 48px repeat(var(--cols), var(--track, minmax(0, 1fr))); }
+.tl-axis { position: sticky; left: 0; z-index: 3; background: var(--table); box-shadow: 1px 0 0 var(--rule); }
 .tl-axis .tick { left: 2px; width: 40px; }
 .tl-corner { position: sticky; top: 0; height: 44px; background: var(--table); z-index: 2; }
 .tl-col { position: relative; min-width: 0; border-left: 1px solid var(--rule); }
@@ -339,6 +339,10 @@ details a { color: inherit; }
 .tl-lines { position: absolute; left: 48px; right: 0; top: 44px; pointer-events: none; }
 .tl-marker { position: absolute; left: 48px; right: 0; height: 0; border-top: 2px solid var(--accent); z-index: 1; pointer-events: none; }
 .tl-marker-year { position: absolute; left: 2px; transform: translateY(-50%); background: var(--accent); color: var(--card); font-size: var(--t-xs); font-weight: 600; border-radius: 4px; padding: 0 4px; font-variant-numeric: tabular-nums; z-index: 4; white-space: nowrap; }
+.tl-plot.tiny .label strong { font-size: 0.6875rem; }
+.tl-plot.tiny .label span { display: none; }
+.cmp-tools { display: flex; gap: var(--s0); flex-wrap: wrap; margin-bottom: 4px; }
+.cmp-tools button, .cmp-add-list .grp button { font: inherit; font-size: var(--t-xs); color: var(--ink); background: none; border: 0; padding: 0; cursor: pointer; text-decoration: underline; text-transform: none; letter-spacing: 0; margin-left: 6px; }
 .tl-hint { font-size: var(--t-xs); color: var(--muted); padding: 0 var(--s2) var(--s0); margin: 0; }
 
 /* stats */
@@ -891,16 +895,16 @@ tabs.forEach(t => t.addEventListener("click", () => show(t.dataset.tab)));
 function jumpTo(i) { show("read"); go(i, 0, true); }
 
 /* ---------------- timeline: compare chosen countries side by side on one year axis ---------------- */
-// Pick a few countries and they split the screen; scrolling only goes up and down, and every column moves
-// together, so who-ruled-beside-whom is a straight line across. Westeros keeps its own calendar and column.
-const ZOOMS = [0.5, 1, 2, 4, 8, 16, 32];  // px per year
-let zoom = 3;
+// Pick any number of countries: each gets a column, the grid scrolls both ways with the year axis pinned
+// on the left, so who-ruled-beside-whom is a straight line across. Westeros keeps its own calendar and column.
+const ZOOMS = [0.25, 0.5, 1, 2, 4, 8, 16, 32];  // px per year
+let zoom = 4;
 // Neighbours sit together: Rome, the British Isles, western Europe, Scandinavia, then east to Japan.
 const TL_ORDER = ["egypt", "ptolemaic", "rome", "papacy", "byzantium", "venice", "greece", "bulgaria", "hre", "bohemia", "england", "scotland", "france", "belgium", "netherlands", "luxembourg", "spain", "portugal", "monaco", "italy", "germany", "liechtenstein", "denmark", "norway", "sweden", "poland", "austria", "hungary", "russia", "ottoman", "georgia", "umayyad", "abbasid", "iran", "morocco", "jordan", "saudi", "ethiopia", "mughal", "nepal", "burma", "thailand", "vietnam", "china", "mongol", "korea", "japan", "hawaii"];
 const TL_TOP = 44;                        // height of the sticky country headers
 let tlMarker = null;                      // astronomical year the reader tapped: a line across every column
 let tlFrame = null;                       // { t0, ppy, era } of the last drawing, for taps and zoom
-const maxCompare = () => (innerWidth < 600 ? 3 : 5);
+const maxCompare = () => Infinity;   // columns scroll sideways, so pick as many as you like
 let compare = null;
 try { compare = JSON.parse(localStorage.getItem("reign.compare") ?? "null"); } catch {}
 
@@ -921,9 +925,10 @@ function includeCurrent() {
   compare = [country, ...compare].slice(0, maxCompare());
 }
 function columnHTML(cid, t0, ppy, narrow) {
+  const tiny = ppy < 2;
   // Story order can rewind (a rival's card follows the winner's), so lay out by start date.
   const W = WORLD[cid], L = [...W.list].sort((a, b) => a.s - b.s), y = t => (t - t0) * ppy;
-  const LABEL_H = narrow ? 34 : 40, LANE = narrow ? 14 : 18, BAR = narrow ? 10 : 12;
+  const LABEL_H = tiny ? 16 : narrow ? 34 : 40, LANE = tiny ? 8 : narrow ? 14 : 18, BAR = tiny ? 6 : narrow ? 10 : 12;
   // Lanes: each reign takes the leftmost lane free by its start, so a civil war splits into parallel lines.
   const laneEnds = [], lanes = L.map(e => {
     let k = laneEnds.findIndex(v => v <= e.s + 1 / 365);
@@ -931,15 +936,19 @@ function columnHTML(cid, t0, ppy, narrow) {
     laneEnds[k] = e.e;
     return k;
   });
-  const labelX = BAR + (narrow ? 8 : 28) + Math.max(...lanes) * LANE;
+  const labelX = BAR + (tiny ? 4 : narrow ? 8 : 28) + Math.max(...lanes) * LANE;
   let labelBottom = -Infinity, labels = "", bars = "", leaders = "";
   L.forEach((e, i) => {
     const a = y(e.s), h = Math.max(y(e.e) - a - 1, 2), left = lanes[i] * LANE;
     const hs = e.g.rulers.length ? e.g.rulers.map(r => W.houses[W.rulers[r]?.house]) : [W.houses[e.g.house]];
     const xid = `${cid}.${e.g.id}`, nm = esc(e.name);
-    if (hs.length > 1) hs.forEach((hh, k) => (bars += `<button class="bar half" data-x="${xid}" aria-label="${nm}" style="top:${a}px;height:${h}px;left:${left + k * 6}px;background:${hh?.color ?? "var(--muted)"}"></button>`));
-    else bars += `<button class="bar" data-x="${xid}" aria-label="${nm}" style="top:${a}px;height:${h}px;left:${left}px;width:${BAR}px;background:${hs[0]?.color ?? "var(--muted)"}"></button>`;
+    const tt = `${nm} (${span(e.g, W.data.era)})`;
+    if (hs.length > 1) hs.forEach((hh, k) => (bars += `<button class="bar half" data-x="${xid}" aria-label="${nm}" title="${tt}" style="top:${a}px;height:${h}px;left:${left + k * 6}px;background:${hh?.color ?? "var(--muted)"}"></button>`));
+    else bars += `<button class="bar" data-x="${xid}" aria-label="${nm}" title="${tt}" style="top:${a}px;height:${h}px;left:${left}px;width:${BAR}px;background:${hs[0]?.color ?? "var(--muted)"}"></button>`;
     const top = Math.max(a, labelBottom);
+    const cur = cid === country && e.i === index;
+    // A label pushed far below its own bar just adds clutter: leave the bar (tap or hover for its name).
+    if (!cur && (tiny ? top - a > LABEL_H * 0.75 : top - a > LABEL_H * 1.5 && top > y(e.e) - 4)) return;
     labelBottom = top + LABEL_H;
     if (top - a > 2) {
       // Label pushed down by a crowded stretch: an elbow line ties it back to its bar.
@@ -947,24 +956,21 @@ function columnHTML(cid, t0, ppy, narrow) {
       leaders += `<span class="leader" style="top:${a + 1}px;left:${x0}px;width:${Math.max(0, xv - x0)}px"></span>`;
       leaders += `<span class="leader-v" style="left:${xv}px;top:${a + 1}px;height:${top - a + 8}px"></span>`;
     }
-    const cur = cid === country && e.i === index;
-    labels += `<button class="label" data-x="${xid}" aria-current="${cur}" style="top:${top}px"><strong>${nm}</strong><span>${span(e.g, W.data.era)}${narrow ? "" : ` · ${e.len}`}</span></button>`;
+    labels += `<button class="label" data-x="${xid}" aria-current="${cur}" style="top:${top}px"><strong>${nm}</strong><span>${span(e.g, W.data.era)}${narrow || tiny ? "" : ` · ${e.len}`}</span></button>`;
   });
-  return { html: `<div class="tl-plot${narrow ? " narrow" : ""}" style="--label-x:${labelX}px">${leaders}${bars}${labels}</div>`, bottom: labelBottom };
+  return { html: `<div class="tl-plot${narrow ? " narrow" : ""}${tiny ? " tiny" : ""}" style="--label-x:${labelX}px">${leaders}${bars}${labels}</div>`, bottom: labelBottom };
 }
 function drawCompareRow() {
   const row = document.getElementById("cmpRow");
   if (DATA.fictional) { row.hidden = true; return; }
   row.hidden = false;
-  const full = compare.length >= maxCompare();
   row.innerHTML = compare.map(c =>
     `<button data-cmp="${c}" aria-pressed="true" aria-label="Remove ${esc(cname(c))}"><span class="chip-flag">${FLAGS[c] ?? ""}</span>${esc(cname(c))}<span class="cmp-x" aria-hidden="true">×</span></button>`).join("") +
-    `<button class="cmp-add" data-cmp-add aria-expanded="${cmpAdding}">${full ? `Full (${maxCompare()})` : "+ Add country"}</button>`;
+    `<button class="cmp-add" data-cmp-add aria-expanded="${cmpAdding}">${cmpAdding ? "Done" : "+ Add countries"}</button>`;
   const list = document.getElementById("cmpAddList");
   list.hidden = !cmpAdding;
-  if (cmpAdding) list.innerHTML = full
-    ? `<p class="tl-hint">You can compare up to ${maxCompare()} countries here. Tap one above to remove it first.</p>`
-    : REGIONS.map(([r, ids]) => { const opts = ids.filter(c => WORLD[c] && !compare.includes(c)); return opts.length ? `<div class="grp">${esc(r)}</div><div class="opts">${opts.map(c => `<button data-cmp="${c}"><span class="chip-flag">${FLAGS[c] ?? ""}</span>${esc(cname(c))}</button>`).join("")}</div>` : ""; }).join("");
+  if (cmpAdding) list.innerHTML = `<div class="cmp-tools"><button data-cmp-all="*">Add every country</button>${compare.length > 1 ? `<button data-cmp-clear>Keep only ${esc(cname(country))}</button>` : ""}</div>` +
+    REGIONS.map(([r, ids]) => { const opts = ids.filter(c => WORLD[c] && !compare.includes(c)); return opts.length ? `<div class="grp">${esc(r)}<button data-cmp-all="${esc(r)}">add all</button></div><div class="opts">${opts.map(c => `<button data-cmp="${c}"><span class="chip-flag">${FLAGS[c] ?? ""}</span>${esc(cname(c))}</button>`).join("")}</div>` : ""; }).join("");
 }
 let cmpAdding = false;
 function drawTimeline() {
@@ -984,7 +990,7 @@ function drawTimeline() {
       <div class="tl-head" aria-current="${cid === country}"><span class="chip-flag">${FLAGS[cid] ?? ""}</span><span>${esc(cname(cid))}</span></div>${c.html}</div>`;
   }).join("");
   const height = TL_TOP + bottom + 48;
-  const every = ppy >= 16 ? 5 : ppy >= 8 ? 10 : ppy >= 4 ? 25 : ppy >= 2 ? 50 : ppy >= 1 ? 100 : 250;
+  const every = ppy >= 16 ? 5 : ppy >= 8 ? 10 : ppy >= 4 ? 25 : ppy >= 2 ? 50 : ppy >= 1 ? 100 : ppy >= 0.5 ? 250 : 500;
   // Ticks fall on round historical years (50 BC, AD 1, AD 50): there is no year 0.
   let ticks = "", grid = "";
   const first = Math.ceil(fromAstro(t0) / every) * every;
@@ -994,7 +1000,10 @@ function drawTimeline() {
     ticks += `<div class="tick" style="top:${TL_TOP + top}px">${showYear(yr, era)}</div>`;
     grid += `<div class="gridline" style="top:${top}px"></div>`;
   }
-  body.innerHTML = `<div class="tl-grid" style="height:${height}px;--cols:${cols.length}">
+  // Few countries share the width; many get fixed columns and the grid scrolls sideways under a pinned axis.
+  const colw = ppy < 2 ? 112 : 150, fixed = cols.length > 1 && cols.length * colw > body.clientWidth - 48;
+  const gridStyle = fixed ? `width:${48 + cols.length * colw}px;--track:${colw}px` : "width:100%";
+  body.innerHTML = `<div class="tl-grid" style="height:${height}px;--cols:${cols.length};${gridStyle}">
     <div class="tl-axis"><div class="tl-corner"></div>${ticks}<span class="tl-marker-year" id="tlMarkerYear" hidden></span></div>
     <div class="tl-lines">${grid}</div>
     ${colsHTML}
@@ -1005,7 +1014,7 @@ function drawTimeline() {
   document.getElementById("timelineTitle").textContent = DATA.fictional ? `${cname(country)} timeline` : "Compare";
   document.getElementById("tlHint").textContent = DATA.fictional
     ? "Tap any reign to read it."
-    : `Compare up to ${maxCompare()} countries. Tap a year to draw a line across them.`;
+    : `Scroll sideways across your countries. Pinch or use − / + to zoom. Tap a year to draw a line across them.`;
   document.getElementById("zoomLevel").textContent = `${ppy}px / year`;
   document.getElementById("zoomOut").disabled = zoom === 0;
   document.getElementById("zoomIn").disabled = zoom === ZOOMS.length - 1;
@@ -1035,11 +1044,17 @@ document.getElementById("timelineBody").addEventListener("click", e => {
 });
 const onCmp = e => {
   if (e.target.closest("[data-cmp-add]")) { cmpAdding = !cmpAdding; return drawCompareRow(); }
+  const body = document.getElementById("timelineBody"), keep = body.scrollTop;
+  const all = e.target.closest("[data-cmp-all]"), clear = e.target.closest("[data-cmp-clear]");
+  if (all || clear) {
+    const live = c => WORLD[c] && !WORLD[c].data.fictional;
+    if (clear) compare = [country];
+    else compare = [...new Set([...compare, ...(all.dataset.cmpAll === "*" ? TL_ORDER : REGIONS.find(([r]) => r === all.dataset.cmpAll)?.[1] ?? []).filter(live)])];
+    drawTimeline(); body.scrollTop = keep; return;
+  }
   const b = e.target.closest("[data-cmp]");
   if (!b) return;
-  if (!compare.includes(b.dataset.cmp) && compare.length >= maxCompare()) return;
-  cmpAdding = false;
-  const c = b.dataset.cmp, body = document.getElementById("timelineBody"), keep = body.scrollTop;
+  const c = b.dataset.cmp;
   if (compare.includes(c)) { if (compare.length > 1) compare = compare.filter(x => x !== c); }
   else {
     // Full: drop the oldest pick, keeping the country being read if possible.
@@ -1058,6 +1073,26 @@ function rezoom(dz) {
   body.scrollTop = TL_TOP + centre * ZOOMS[zoom] - body.clientHeight / 2;
 }
 document.getElementById("zoomIn").addEventListener("click", () => rezoom(1));
+{ // Pinch (touch) and ctrl/trackpad-pinch (wheel) zoom the timeline one step at a time.
+  const tb = document.getElementById("timelineBody");
+  let pinch0 = null;
+  const dist = t => Math.hypot(t[0].clientX - t[1].clientX, t[0].clientY - t[1].clientY);
+  tb.addEventListener("touchstart", e => { if (e.touches.length === 2) pinch0 = dist(e.touches); }, { passive: true });
+  tb.addEventListener("touchmove", e => {
+    if (e.touches.length !== 2 || !pinch0) return;
+    e.preventDefault();
+    const r = dist(e.touches) / pinch0;
+    if (r > 1.35) { rezoom(1); pinch0 = dist(e.touches); } else if (r < 0.74) { rezoom(-1); pinch0 = dist(e.touches); }
+  }, { passive: false });
+  tb.addEventListener("touchend", () => (pinch0 = null));
+  let wheelAt = 0;
+  tb.addEventListener("wheel", e => {
+    if (!e.ctrlKey) return;
+    e.preventDefault();
+    if (Date.now() - wheelAt < 180) return;
+    wheelAt = Date.now(); rezoom(e.deltaY < 0 ? 1 : -1);
+  }, { passive: false });
+}
 document.getElementById("zoomOut").addEventListener("click", () => rezoom(-1));
 
 /* ---------------- search ---------------- */
@@ -1127,7 +1162,7 @@ function loadCountry(id, reignId) {
   // Start the timeline zoomed in enough that labels sit near their bars (Rome's third century is crowded).
   const yearsSpan = asYears(reigns[N - 1].end ?? NOW) - asYears(reigns[0].start);
   const fit = ZOOMS.findIndex(ppy => yearsSpan * ppy >= N * 56);
-  zoom = fit < 0 ? ZOOMS.length - 1 : Math.max(3, fit);
+  zoom = fit < 0 ? ZOOMS.length - 1 : Math.max(4, fit);
   haystack = reigns.map(g => [reignName(g), ...g.rulers.map(r => `${rulers[r].name} ${rulers[r].epithet ?? ""}`), ...reignHouses(g).map(h => h.name), g.tagline].join(" ").toLowerCase());
 
   anim?.stop();
