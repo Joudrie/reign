@@ -77,6 +77,11 @@
       "name": "Islamic Republic",
       "color": "#2e5e3e",
       "plain": true
+    },
+    {
+      "id": "hotak",
+      "name": "Hotak",
+      "color": "#6b7d3a"
     }
   ],
   "rulers": [
@@ -1728,6 +1733,126 @@
         "date": "1930-02-21",
         "note": "Neuilly-sur-Seine, near Paris"
       }
+    },
+    {
+      "id": "bardiya",
+      "name": "Bardiya",
+      "house": "achaemenid"
+    },
+    {
+      "id": "phraates-ii",
+      "name": "Phraates II",
+      "house": "arsacid"
+    },
+    {
+      "id": "artabanus-i",
+      "name": "Artabanus I",
+      "house": "arsacid"
+    },
+    {
+      "id": "gotarzes-i",
+      "name": "Gotarzes I",
+      "house": "arsacid"
+    },
+    {
+      "id": "mithridates-iii",
+      "name": "Mithridates III",
+      "house": "arsacid"
+    },
+    {
+      "id": "orodes-i",
+      "name": "Orodes I",
+      "house": "arsacid"
+    },
+    {
+      "id": "sinatruces",
+      "name": "Sinatruces",
+      "house": "arsacid"
+    },
+    {
+      "id": "phraates-iii",
+      "name": "Phraates III",
+      "house": "arsacid"
+    },
+    {
+      "id": "mithridates-iv",
+      "name": "Mithridates IV",
+      "house": "arsacid"
+    },
+    {
+      "id": "balash",
+      "name": "Balash",
+      "house": "sasanian"
+    },
+    {
+      "id": "jamasp",
+      "name": "Jamasp",
+      "house": "sasanian"
+    },
+    {
+      "id": "hormizd-iv",
+      "name": "Hormizd IV",
+      "house": "sasanian"
+    },
+    {
+      "id": "bahram-chobin",
+      "name": "Bahram Chobin",
+      "house": "sasanian"
+    },
+    {
+      "id": "ismail-ii",
+      "name": "Ismail II",
+      "house": "safavid"
+    },
+    {
+      "id": "mohammad-khodabanda",
+      "name": "Mohammad Khodabanda",
+      "house": "safavid"
+    },
+    {
+      "id": "mahmud-hotak",
+      "name": "Mahmud Hotak",
+      "house": "hotak"
+    },
+    {
+      "id": "ashraf-hotak",
+      "name": "Ashraf Hotak",
+      "house": "hotak"
+    },
+    {
+      "id": "tahmasp-ii",
+      "name": "Tahmasp II",
+      "house": "safavid"
+    },
+    {
+      "id": "abbas-iii",
+      "name": "Abbas III",
+      "house": "safavid"
+    },
+    {
+      "id": "adil-shah",
+      "name": "Adil Shah",
+      "house": "afsharid"
+    },
+    {
+      "id": "ebrahim-afshar",
+      "name": "Ebrahim Afshar",
+      "house": "afsharid"
+    },
+    {
+      "id": "shahrokh",
+      "name": "Shahrokh Shah",
+      "house": "afsharid"
+    },
+    {
+      "id": "lotf-ali-khan",
+      "name": "Lotf Ali Khan",
+      "house": "zand"
+    },
+    {
+      "id": "mohammad-shah-qajar",
+      "name": "Mohammad Shah Qajar",
+      "house": "qajar"
     }
   ],
   "reigns": [
@@ -1829,7 +1954,9 @@
         "date": "-0522",
         "circa": true
       },
-      "contestedWith": [],
+      "contestedWith": [
+        "bardiya"
+      ],
       "relationToPredecessor": "Eldest son of Cyrus II",
       "ageAtAccession": "Unknown",
       "cameToPower": "Succeeded his father",
@@ -1894,6 +2021,62 @@
       "review": {
         "status": "draft",
         "notes": "Drafted from the listed sources; needs a human fact-check."
+      }
+    },
+    {
+      "id": "bardiya",
+      "kind": "monarch",
+      "rulers": [
+        "bardiya"
+      ],
+      "tagline": "The brother, or the impostor",
+      "start": {
+        "date": "-0522-03",
+        "circa": true
+      },
+      "contestedWith": [
+        "cambyses-ii"
+      ],
+      "relationToPredecessor": "Son of Cyrus II",
+      "ageAtAccession": "Unknown",
+      "cameToPower": "Seized the throne from Cambyses",
+      "reignEnded": "Killed by Darius and six nobles",
+      "previously": "Cambyses is far away in Egypt when a rival claims his throne.",
+      "paragraphs": [
+        "In 522 BC a man claiming to be Bardiya, younger son of Cyrus the Great, took the Persian throne while Cambyses II was in Egypt. Cambyses died on the way home, and the new king won support by cancelling taxes for three years.",
+        "Darius, writing his own version on the Behistun rock, said the real Bardiya had been secretly murdered and this was an impostor, the magus Gaumata. Darius and six nobles killed him in September 522. Many historians suspect Darius invented the impostor story."
+      ],
+      "claims": [],
+      "hook": "Darius takes the throne and spends a year crushing revolts.",
+      "images": [
+        {
+          "file": "File:Behistun relief Darius and Gaumata.jpg",
+          "url": "https://upload.wikimedia.org/wikipedia/commons/7/75/Behistun_relief_Darius_and_Gaumata.jpg",
+          "page": "https://commons.wikimedia.org/wiki/File:Behistun_relief_Darius_and_Gaumata.jpg",
+          "credit": "Patrick C, known as dynamomosquito on Flickr, and Pentocelo on this project",
+          "license": "CC BY-SA 2.0",
+          "made": "2019-01-20 07:54:43",
+          "caption": "Behistun relief Darius and Gaumata",
+          "alt": "Behistun relief Darius and Gaumata"
+        }
+      ],
+      "sources": [
+        {
+          "title": "Bardiya (Wikipedia)",
+          "url": "https://en.wikipedia.org/wiki/Bardiya"
+        },
+        {
+          "title": "List of monarchs of Persia (Wikipedia)",
+          "url": "https://en.wikipedia.org/wiki/List_of_monarchs_of_Persia"
+        }
+      ],
+      "review": {
+        "status": "draft",
+        "notes": "Short card added from the completeness audit; checked only against Wikipedia."
+      },
+      "end": {
+        "date": "-0522-09-29",
+        "circa": true
       }
     },
     {
@@ -4240,6 +4423,114 @@
       }
     },
     {
+      "id": "phraates-ii",
+      "kind": "monarch",
+      "rulers": [
+        "phraates-ii"
+      ],
+      "tagline": "Killed by his own mercenaries",
+      "start": {
+        "date": "-0132",
+        "circa": true
+      },
+      "contestedWith": [],
+      "relationToPredecessor": "Son of Mithridates I",
+      "ageAtAccession": "Young",
+      "cameToPower": "Succeeded his father",
+      "reignEnded": "Killed in battle with the Saka",
+      "previously": "Mithridates I dies, master of Iran and Mesopotamia.",
+      "paragraphs": [
+        "Phraates II took over the empire his father had built. In 129 BC he defeated and killed the Seleucid king Antiochus VII, who had marched east to win back Mesopotamia.",
+        "He then turned to fight the nomadic Saka on the eastern frontier. The Greek prisoners he had forced into his army deserted in battle, and Phraates was killed."
+      ],
+      "claims": [],
+      "hook": "His uncle Artabanus takes over the war with the nomads.",
+      "images": [
+        {
+          "file": "File:Coin of Phraates II, Seleucia mint.jpg",
+          "url": "https://upload.wikimedia.org/wikipedia/commons/1/11/Coin_of_Phraates_II%2C_Seleucia_mint.jpg",
+          "page": "https://commons.wikimedia.org/wiki/File:Coin_of_Phraates_II,_Seleucia_mint.jpg",
+          "credit": "Classical Numismatic Group; [1]",
+          "license": "CC BY-SA 3.0",
+          "made": "Date not recorded",
+          "caption": "Coin of Phraates II, Seleucia mint.",
+          "alt": "Coin of Phraates II, Seleucia mint."
+        }
+      ],
+      "sources": [
+        {
+          "title": "Phraates II (Wikipedia)",
+          "url": "https://en.wikipedia.org/wiki/Phraates_II"
+        },
+        {
+          "title": "List of monarchs of Persia (Wikipedia)",
+          "url": "https://en.wikipedia.org/wiki/List_of_monarchs_of_Persia"
+        }
+      ],
+      "review": {
+        "status": "draft",
+        "notes": "Short card added from the completeness audit; checked only against Wikipedia."
+      },
+      "end": {
+        "date": "-0127",
+        "circa": true
+      }
+    },
+    {
+      "id": "artabanus-i",
+      "kind": "monarch",
+      "rulers": [
+        "artabanus-i"
+      ],
+      "tagline": "Killed fighting the nomads",
+      "start": {
+        "date": "-0127",
+        "circa": true
+      },
+      "contestedWith": [],
+      "relationToPredecessor": "Uncle of Phraates II",
+      "ageAtAccession": "Unknown",
+      "cameToPower": "Succeeded his nephew",
+      "reignEnded": "Died of a wound in battle",
+      "previously": "Phraates II is killed by the Saka.",
+      "paragraphs": [
+        "Artabanus took the throne after his nephew's death, with nomad invaders still pressing on Parthia's eastern borders.",
+        "He fought the Tocharians and was mortally wounded, reportedly by a poisoned arrow in the arm, around 124 BC."
+      ],
+      "claims": [],
+      "hook": "His son Mithridates II will turn the empire around.",
+      "images": [
+        {
+          "file": "File:Coin of Artabanus I, minted in 126 BC at Seleucia.jpg",
+          "url": "https://upload.wikimedia.org/wikipedia/commons/9/93/Coin_of_Artabanus_I%2C_minted_in_126_BC_at_Seleucia.jpg",
+          "page": "https://commons.wikimedia.org/wiki/File:Coin_of_Artabanus_I,_minted_in_126_BC_at_Seleucia.jpg",
+          "credit": "Classical Numismatic Group; [1]",
+          "license": "CC BY-SA 3.0",
+          "made": "Date not recorded",
+          "caption": "KINGS of PARTHIA. Artabanos I. 127-126 BC. AR Tetradrachm (32mm, 16.21 g, 1h). Seleukeia on the Tigris mint. Dated SE 187 (126 BC). Diademed head right /…",
+          "alt": "KINGS of PARTHIA. Artabanos I. 127-126 BC. AR Tetradrachm (32mm, 16.21 g, 1h). Seleukeia on the Tigris mint. Dated SE 187 (126 BC). Diademed head right /…"
+        }
+      ],
+      "sources": [
+        {
+          "title": "Artabanus I of Parthia (Wikipedia)",
+          "url": "https://en.wikipedia.org/wiki/Artabanus_I_of_Parthia"
+        },
+        {
+          "title": "List of monarchs of Persia (Wikipedia)",
+          "url": "https://en.wikipedia.org/wiki/List_of_monarchs_of_Persia"
+        }
+      ],
+      "review": {
+        "status": "draft",
+        "notes": "Short card added from the completeness audit; checked only against Wikipedia."
+      },
+      "end": {
+        "date": "-0124",
+        "circa": true
+      }
+    },
+    {
       "id": "mithridates-ii",
       "kind": "monarch",
       "rulers": [
@@ -4316,6 +4607,276 @@
       }
     },
     {
+      "id": "gotarzes-i",
+      "kind": "monarch",
+      "rulers": [
+        "gotarzes-i"
+      ],
+      "tagline": "First king of the Parthian Dark Age",
+      "start": {
+        "date": "-0091",
+        "circa": true
+      },
+      "contestedWith": [],
+      "relationToPredecessor": "Possibly son of Mithridates II",
+      "ageAtAccession": "Unknown",
+      "cameToPower": "Succeeded or rivalled Mithridates II",
+      "reignEnded": "Unclear; possibly overthrown",
+      "previously": "Mithridates II dies after a long and glorious reign.",
+      "paragraphs": [
+        "After Mithridates II, Parthian history goes murky for over thirty years, a period historians call the Parthian Dark Age. Gotarzes I is known mostly from Babylonian records and coins.",
+        "He may have ruled only Babylonia while rivals held other parts of the empire."
+      ],
+      "claims": [],
+      "hook": "Rivals now compete for the Parthian throne.",
+      "images": [
+        {
+          "file": "File:Coin of Gotarzes I (2, cropped), Ectbatana mint.jpg",
+          "url": "https://upload.wikimedia.org/wikipedia/commons/5/57/Coin_of_Gotarzes_I_%282%2C_cropped%29%2C_Ectbatana_mint.jpg",
+          "page": "https://commons.wikimedia.org/wiki/File:Coin_of_Gotarzes_I_(2,_cropped),_Ectbatana_mint.jpg",
+          "credit": "Classical Numismatic Group; [1]",
+          "license": "CC BY-SA 3.0",
+          "made": "Date not recorded",
+          "caption": "Coin of Gotarzes I (cropped), Ecbatana mint.",
+          "alt": "Coin of Gotarzes I (cropped), Ecbatana mint."
+        }
+      ],
+      "sources": [
+        {
+          "title": "Gotarzes I (Wikipedia)",
+          "url": "https://en.wikipedia.org/wiki/Gotarzes_I"
+        },
+        {
+          "title": "List of monarchs of Persia (Wikipedia)",
+          "url": "https://en.wikipedia.org/wiki/List_of_monarchs_of_Persia"
+        }
+      ],
+      "review": {
+        "status": "draft",
+        "notes": "Short card added from the completeness audit; checked only against Wikipedia."
+      },
+      "end": {
+        "date": "-0087",
+        "circa": true
+      }
+    },
+    {
+      "id": "mithridates-iii",
+      "kind": "monarch",
+      "rulers": [
+        "mithridates-iii"
+      ],
+      "tagline": "An obscure king of a divided empire",
+      "start": {
+        "date": "-0087",
+        "circa": true
+      },
+      "contestedWith": [],
+      "relationToPredecessor": "Arsacid prince",
+      "ageAtAccession": "Unknown",
+      "cameToPower": "Seized the throne",
+      "reignEnded": "Displaced by Orodes I",
+      "previously": "Gotarzes I loses his grip.",
+      "paragraphs": [
+        "Mithridates III is known mainly from coins and short mentions in Babylonian texts. The empire was weakened, and the Armenian king Tigranes the Great took Parthian lands in the west.",
+        "He was pushed out by Orodes I around 80 BC."
+      ],
+      "claims": [],
+      "hook": "Orodes I rules from Babylonia.",
+      "images": [
+        {
+          "file": "File:Coin of Mithridates III of Parthia, Ray mint.jpg",
+          "url": "https://upload.wikimedia.org/wikipedia/commons/4/43/Coin_of_Mithridates_III_of_Parthia%2C_Ray_mint.jpg",
+          "page": "https://commons.wikimedia.org/wiki/File:Coin_of_Mithridates_III_of_Parthia,_Ray_mint.jpg",
+          "credit": "Classical Numismatic Group; [1]",
+          "license": "CC BY-SA 3.0",
+          "made": "Date not recorded",
+          "caption": "Coin of Mithridates III of Parthia, Ray mint.",
+          "alt": "Coin of Mithridates III of Parthia, Ray mint."
+        }
+      ],
+      "sources": [
+        {
+          "title": "Mithridates III of Parthia (Wikipedia)",
+          "url": "https://en.wikipedia.org/wiki/Mithridates_III_of_Parthia"
+        },
+        {
+          "title": "List of monarchs of Persia (Wikipedia)",
+          "url": "https://en.wikipedia.org/wiki/List_of_monarchs_of_Persia"
+        }
+      ],
+      "review": {
+        "status": "draft",
+        "notes": "Short card added from the completeness audit; checked only against Wikipedia."
+      },
+      "end": {
+        "date": "-0080",
+        "circa": true
+      }
+    },
+    {
+      "id": "orodes-i",
+      "kind": "monarch",
+      "rulers": [
+        "orodes-i"
+      ],
+      "tagline": "King in a shrinking Parthia",
+      "start": {
+        "date": "-0080",
+        "circa": true
+      },
+      "contestedWith": [],
+      "relationToPredecessor": "Arsacid prince",
+      "ageAtAccession": "Unknown",
+      "cameToPower": "Took the throne from Mithridates III",
+      "reignEnded": "Replaced by Sinatruces",
+      "previously": "Mithridates III is pushed out.",
+      "paragraphs": [
+        "Orodes I ruled during the Parthian Dark Age, when the empire was split and Armenia was taking its western lands. Babylonian astronomical diaries mention him and his queen Ispubarza.",
+        "He was succeeded around 75 BC by the elderly Sinatruces."
+      ],
+      "claims": [],
+      "hook": "An old man, Sinatruces, comes back from exile among the nomads.",
+      "images": [
+        {
+          "file": "File:Tetradrachm of the Parthian monarch Orodes I, Seleucia mint.jpg",
+          "url": "https://upload.wikimedia.org/wikipedia/commons/b/b7/Tetradrachm_of_the_Parthian_monarch_Orodes_I%2C_Seleucia_mint.jpg",
+          "page": "https://commons.wikimedia.org/wiki/File:Tetradrachm_of_the_Parthian_monarch_Orodes_I,_Seleucia_mint.jpg",
+          "credit": "American Numismatic Society",
+          "license": "CC0",
+          "made": "2020-03-15",
+          "caption": "Tetradrachm of the Parthian monarch Orodes I, Seleucia mint. Obverse.",
+          "alt": "Tetradrachm of the Parthian monarch Orodes I, Seleucia mint. Obverse."
+        }
+      ],
+      "sources": [
+        {
+          "title": "Orodes I of Parthia (Wikipedia)",
+          "url": "https://en.wikipedia.org/wiki/Orodes_I_of_Parthia"
+        },
+        {
+          "title": "List of monarchs of Persia (Wikipedia)",
+          "url": "https://en.wikipedia.org/wiki/List_of_monarchs_of_Persia"
+        }
+      ],
+      "review": {
+        "status": "draft",
+        "notes": "Short card added from the completeness audit; checked only against Wikipedia."
+      },
+      "end": {
+        "date": "-0075",
+        "circa": true
+      }
+    },
+    {
+      "id": "sinatruces",
+      "kind": "monarch",
+      "rulers": [
+        "sinatruces"
+      ],
+      "tagline": "Put on the throne by nomads at 80",
+      "start": {
+        "date": "-0075",
+        "circa": true
+      },
+      "contestedWith": [],
+      "relationToPredecessor": "Brother or son of Mithridates I",
+      "ageAtAccession": "About 80",
+      "cameToPower": "Returned with Saka backing",
+      "reignEnded": "Died",
+      "previously": "Orodes I's reign ends.",
+      "paragraphs": [
+        "Sinatruces had lived in exile among the Sakaraucae nomads, who helped him take the Parthian throne when he was already about 80 years old.",
+        "He reigned around seven years and died in about 69 BC, passing the crown to his son Phraates III."
+      ],
+      "claims": [],
+      "hook": "His son Phraates III inherits a throne with Rome closing in.",
+      "images": [
+        {
+          "file": "File:Coin of Sinatruces, Ray mint (2).jpg",
+          "url": "https://upload.wikimedia.org/wikipedia/commons/7/74/Coin_of_Sinatruces%2C_Ray_mint_%282%29.jpg",
+          "page": "https://commons.wikimedia.org/wiki/File:Coin_of_Sinatruces,_Ray_mint_(2).jpg",
+          "credit": "Classical Numismatic Group; [1]",
+          "license": "CC BY-SA 3.0",
+          "made": "Date not recorded",
+          "caption": "Coin of the Arsacid king Sinatruces, Ray mint.",
+          "alt": "Coin of the Arsacid king Sinatruces, Ray mint."
+        }
+      ],
+      "sources": [
+        {
+          "title": "Sinatruces of Parthia (Wikipedia)",
+          "url": "https://en.wikipedia.org/wiki/Sinatruces_of_Parthia"
+        },
+        {
+          "title": "List of monarchs of Persia (Wikipedia)",
+          "url": "https://en.wikipedia.org/wiki/List_of_monarchs_of_Persia"
+        }
+      ],
+      "review": {
+        "status": "draft",
+        "notes": "Short card added from the completeness audit; checked only against Wikipedia."
+      },
+      "end": {
+        "date": "-0069",
+        "circa": true
+      }
+    },
+    {
+      "id": "phraates-iii",
+      "kind": "monarch",
+      "rulers": [
+        "phraates-iii"
+      ],
+      "tagline": "Murdered by his own sons",
+      "start": {
+        "date": "-0069",
+        "circa": true
+      },
+      "contestedWith": [],
+      "relationToPredecessor": "Son of Sinatruces",
+      "ageAtAccession": "Unknown",
+      "cameToPower": "Succeeded his father",
+      "reignEnded": "Murdered by his sons",
+      "previously": "Sinatruces dies, and Rome is at war in Armenia.",
+      "paragraphs": [
+        "Phraates III ruled while Rome fought Mithridates of Pontus and Tigranes of Armenia. He made a treaty with Pompey and kept Parthia out of the war, winning back some western lands.",
+        "In about 57 BC his sons Mithridates and Orodes murdered him, then fought each other for the throne."
+      ],
+      "claims": [],
+      "hook": "His sons Mithridates IV and Orodes II go to war over the crown.",
+      "images": [
+        {
+          "file": "File:Coin of Phraates III with bust facing left, minted at Ray.jpg",
+          "url": "https://upload.wikimedia.org/wikipedia/commons/9/96/Coin_of_Phraates_III_with_bust_facing_left%2C_minted_at_Ray.jpg",
+          "page": "https://commons.wikimedia.org/wiki/File:Coin_of_Phraates_III_with_bust_facing_left,_minted_at_Ray.jpg",
+          "credit": "Classical Numismatic Group; [1]",
+          "license": "CC BY-SA 3.0",
+          "made": "Date not recorded",
+          "caption": "Coin of Phraates III with bust facing left, minted at Ray.",
+          "alt": "Coin of Phraates III with bust facing left, minted at Ray."
+        }
+      ],
+      "sources": [
+        {
+          "title": "Phraates III (Wikipedia)",
+          "url": "https://en.wikipedia.org/wiki/Phraates_III"
+        },
+        {
+          "title": "List of monarchs of Persia (Wikipedia)",
+          "url": "https://en.wikipedia.org/wiki/List_of_monarchs_of_Persia"
+        }
+      ],
+      "review": {
+        "status": "draft",
+        "notes": "Short card added from the completeness audit; checked only against Wikipedia."
+      },
+      "end": {
+        "date": "-0057",
+        "circa": true
+      }
+    },
+    {
       "id": "orodes-ii",
       "kind": "monarch",
       "rulers": [
@@ -4330,7 +4891,9 @@
         "date": "-0037",
         "circa": true
       },
-      "contestedWith": [],
+      "contestedWith": [
+        "mithridates-iv"
+      ],
       "relationToPredecessor": "Son of Phraates III",
       "ageAtAccession": "Unknown",
       "cameToPower": "Killed his father, then his brother",
@@ -4395,6 +4958,62 @@
       "review": {
         "status": "draft",
         "notes": "Drafted from the listed sources; needs a human fact-check."
+      }
+    },
+    {
+      "id": "mithridates-iv",
+      "kind": "monarch",
+      "rulers": [
+        "mithridates-iv"
+      ],
+      "tagline": "The son who lost to his brother",
+      "start": {
+        "date": "-0057",
+        "circa": true
+      },
+      "contestedWith": [
+        "orodes-ii"
+      ],
+      "relationToPredecessor": "Son of Phraates III",
+      "ageAtAccession": "Unknown",
+      "cameToPower": "Seized it after his father was killed",
+      "reignEnded": "Executed by his brother Orodes II",
+      "previously": "Phraates III is murdered by his sons.",
+      "paragraphs": [
+        "Mithridates IV took the throne after he and his brother killed their father, but Orodes soon turned on him. Mithridates fled to the Romans in Syria and returned with their help.",
+        "Besieged in Seleucia, he surrendered in about 54 BC and was executed on his brother's orders."
+      ],
+      "claims": [],
+      "hook": "Orodes II rules alone, and Crassus is marching on Parthia.",
+      "images": [
+        {
+          "file": "File:Coin of Mithridates IV (cropped).jpg",
+          "url": "https://upload.wikimedia.org/wikipedia/commons/3/36/Coin_of_Mithridates_IV_%28cropped%29.jpg",
+          "page": "https://commons.wikimedia.org/wiki/File:Coin_of_Mithridates_IV_(cropped).jpg",
+          "credit": "Classical Numismatic Group; [1]",
+          "license": "CC BY-SA 3.0",
+          "made": "Date not recorded",
+          "caption": "Coin of Mithridates IV (cropped).",
+          "alt": "Coin of Mithridates IV (cropped)."
+        }
+      ],
+      "sources": [
+        {
+          "title": "Mithridates IV of Parthia (Wikipedia)",
+          "url": "https://en.wikipedia.org/wiki/Mithridates_IV_of_Parthia"
+        },
+        {
+          "title": "List of monarchs of Persia (Wikipedia)",
+          "url": "https://en.wikipedia.org/wiki/List_of_monarchs_of_Persia"
+        }
+      ],
+      "review": {
+        "status": "draft",
+        "notes": "Short card added from the completeness audit; checked only against Wikipedia."
+      },
+      "end": {
+        "date": "-0054",
+        "circa": true
       }
     },
     {
@@ -7317,6 +7936,60 @@
       }
     },
     {
+      "id": "balash",
+      "kind": "monarch",
+      "rulers": [
+        "balash"
+      ],
+      "tagline": "The mild king who was blinded",
+      "start": {
+        "date": "0484",
+        "circa": true
+      },
+      "contestedWith": [],
+      "relationToPredecessor": "Brother of Peroz I",
+      "ageAtAccession": "Unknown",
+      "cameToPower": "Chosen after Peroz died in battle",
+      "reignEnded": "Deposed and blinded",
+      "previously": "Peroz I is killed by the Hephthalites.",
+      "paragraphs": [
+        "Balash came to the throne after his brother Peroz was killed fighting the Hephthalites, leaving Iran paying them tribute. He made peace in Armenia by allowing Christians to practise freely.",
+        "With the treasury empty, he could not pay the army, and the Zoroastrian priests turned against him. In 488 the nobles deposed and blinded him and made his nephew Kavad king."
+      ],
+      "claims": [],
+      "hook": "Kavad I, Peroz's son, takes the throne.",
+      "images": [
+        {
+          "file": "File:Coin of the Sasanian king Balash from Susa.jpg",
+          "url": "https://upload.wikimedia.org/wikipedia/commons/1/1d/Coin_of_the_Sasanian_king_Balash_from_Susa.jpg",
+          "page": "https://commons.wikimedia.org/wiki/File:Coin_of_the_Sasanian_king_Balash_from_Susa.jpg",
+          "credit": "Classical Numismatic Group; [1]",
+          "license": "CC BY-SA 3.0",
+          "made": "Date not recorded",
+          "caption": "Coin of the Sasanian king Balash, Susa mint.",
+          "alt": "Coin of the Sasanian king Balash, Susa mint."
+        }
+      ],
+      "sources": [
+        {
+          "title": "Balash (Wikipedia)",
+          "url": "https://en.wikipedia.org/wiki/Balash"
+        },
+        {
+          "title": "List of monarchs of Persia (Wikipedia)",
+          "url": "https://en.wikipedia.org/wiki/List_of_monarchs_of_Persia"
+        }
+      ],
+      "review": {
+        "status": "draft",
+        "notes": "Short card added from the completeness audit; checked only against Wikipedia."
+      },
+      "end": {
+        "date": "0488",
+        "circa": true
+      }
+    },
+    {
       "id": "kavad-i",
       "kind": "monarch",
       "rulers": [
@@ -7329,7 +8002,9 @@
       "end": {
         "date": "0531-09-13"
       },
-      "contestedWith": [],
+      "contestedWith": [
+        "jamasp"
+      ],
       "relationToPredecessor": "Son of Peroz",
       "ageAtAccession": "About 15",
       "cameToPower": "Replaced his deposed uncle",
@@ -7393,6 +8068,62 @@
       "review": {
         "status": "draft",
         "notes": "Drafted from the listed sources; needs a human fact-check."
+      }
+    },
+    {
+      "id": "jamasp",
+      "kind": "monarch",
+      "rulers": [
+        "jamasp"
+      ],
+      "tagline": "Put in when Kavad was jailed",
+      "start": {
+        "date": "0496",
+        "circa": true
+      },
+      "contestedWith": [
+        "kavad-i"
+      ],
+      "relationToPredecessor": "Brother of Kavad I",
+      "ageAtAccession": "Unknown",
+      "cameToPower": "Nobles deposed Kavad",
+      "reignEnded": "Gave the throne back to Kavad",
+      "previously": "Kavad I backs the Mazdakite reformers, and the nobles strike back.",
+      "paragraphs": [
+        "When Kavad I supported Mazdak's movement, which preached sharing out wealth, the nobles and priests deposed and imprisoned him and crowned his brother Jamasp.",
+        "Kavad escaped to the Hephthalites and came back with an army in 498. Jamasp stepped down without a fight and was spared."
+      ],
+      "claims": [],
+      "hook": "Kavad I is back on the throne.",
+      "images": [
+        {
+          "file": "File:Coin of the Sasanian king Jamasp from Susa.jpg",
+          "url": "https://upload.wikimedia.org/wikipedia/commons/c/cc/Coin_of_the_Sasanian_king_Jamasp_from_Susa.jpg",
+          "page": "https://commons.wikimedia.org/wiki/File:Coin_of_the_Sasanian_king_Jamasp_from_Susa.jpg",
+          "credit": "Classical Numismatic Group; [1]",
+          "license": "CC BY-SA 3.0",
+          "made": "Date not recorded",
+          "caption": "Coin of the Sasanian king Jamasp, uncertain mint.",
+          "alt": "Coin of the Sasanian king Jamasp, uncertain mint."
+        }
+      ],
+      "sources": [
+        {
+          "title": "Jamasp (Wikipedia)",
+          "url": "https://en.wikipedia.org/wiki/Jamasp"
+        },
+        {
+          "title": "List of monarchs of Persia (Wikipedia)",
+          "url": "https://en.wikipedia.org/wiki/List_of_monarchs_of_Persia"
+        }
+      ],
+      "review": {
+        "status": "draft",
+        "notes": "Short card added from the completeness audit; checked only against Wikipedia."
+      },
+      "end": {
+        "date": "0498",
+        "circa": true
       }
     },
     {
@@ -7476,6 +8207,60 @@
       }
     },
     {
+      "id": "hormizd-iv",
+      "kind": "monarch",
+      "rulers": [
+        "hormizd-iv"
+      ],
+      "tagline": "The king who humbled the nobles",
+      "start": {
+        "date": "0579",
+        "circa": true
+      },
+      "contestedWith": [],
+      "relationToPredecessor": "Son of Khosrow I",
+      "ageAtAccession": "Unknown",
+      "cameToPower": "Succeeded his father",
+      "reignEnded": "Deposed, blinded and killed",
+      "previously": "Khosrow I dies, the greatest of the Sasanians.",
+      "paragraphs": [
+        "Hormizd IV protected the common people against the nobles and priests, and had many great nobles executed. His long war with Byzantium went badly.",
+        "When he insulted his best general, Bahram Chobin, Bahram rebelled. Palace nobles deposed and blinded Hormizd in 590 and soon killed him, crowning his son Khosrow II."
+      ],
+      "claims": [],
+      "hook": "Khosrow II is crowned, but Bahram Chobin is marching on the capital.",
+      "images": [
+        {
+          "file": "File:\"Khusrau Parviz before his Father Hurmuzd (?)\", Folio from a Shahnama (Book of Kings) MET DP215844.jpg",
+          "url": "https://upload.wikimedia.org/wikipedia/commons/a/a7/%22Khusrau_Parviz_before_his_Father_Hurmuzd_%28%3F%29%22%2C_Folio_from_a_Shahnama_%28Book_of_Kings%29_MET_DP215844.jpg",
+          "page": "https://commons.wikimedia.org/wiki/File:%22Khusrau_Parviz_before_his_Father_Hurmuzd_(%3F)%22,_Folio_from_a_Shahnama_(Book_of_Kings)_MET_DP215844.jpg",
+          "credit": "Ferdowsi",
+          "license": "CC0",
+          "made": "circa 1430date…",
+          "caption": "Folio from an illustrated manuscript; Codices",
+          "alt": "Folio from an illustrated manuscript; Codices"
+        }
+      ],
+      "sources": [
+        {
+          "title": "Hormizd IV (Wikipedia)",
+          "url": "https://en.wikipedia.org/wiki/Hormizd_IV"
+        },
+        {
+          "title": "List of monarchs of Persia (Wikipedia)",
+          "url": "https://en.wikipedia.org/wiki/List_of_monarchs_of_Persia"
+        }
+      ],
+      "review": {
+        "status": "draft",
+        "notes": "Short card added from the completeness audit; checked only against Wikipedia."
+      },
+      "end": {
+        "date": "0590",
+        "circa": true
+      }
+    },
+    {
       "id": "khosrow-ii",
       "kind": "monarch",
       "rulers": [
@@ -7489,7 +8274,9 @@
         "date": "0628-02-25",
         "circa": true
       },
-      "contestedWith": [],
+      "contestedWith": [
+        "bahram-chobin"
+      ],
       "relationToPredecessor": "Son of Hormizd IV",
       "ageAtAccession": "About 20",
       "cameToPower": "Palace coup against his father",
@@ -7553,6 +8340,62 @@
       "review": {
         "status": "draft",
         "notes": "Drafted from the listed sources; needs a human fact-check."
+      }
+    },
+    {
+      "id": "bahram-chobin",
+      "kind": "claimant",
+      "rulers": [
+        "bahram-chobin"
+      ],
+      "tagline": "The general who took the crown",
+      "start": {
+        "date": "0590",
+        "circa": true
+      },
+      "contestedWith": [
+        "khosrow-ii"
+      ],
+      "relationToPredecessor": "General of Hormizd IV",
+      "ageAtAccession": "Unknown",
+      "cameToPower": "Seized Ctesiphon",
+      "reignEnded": "Beaten by Khosrow II and Byzantium",
+      "previously": "Hormizd IV is dead, and his general wants the throne.",
+      "paragraphs": [
+        "Bahram Chobin, a famous general from a great noble family, rebelled against Hormizd IV, took Ctesiphon and crowned himself as Bahram VI. The young Khosrow II fled to the Byzantines.",
+        "In 591 Khosrow returned with a Byzantine army and beat him. Bahram fled to the Turks and was murdered there; he became the hero of Persian legends."
+      ],
+      "claims": [],
+      "hook": "Khosrow II is back, owing a debt to Byzantium.",
+      "images": [
+        {
+          "file": "File:BahramChobinCoinHistoryofIran.jpg",
+          "url": "https://upload.wikimedia.org/wikipedia/commons/b/be/BahramChobinCoinHistoryofIran.jpg",
+          "page": "https://commons.wikimedia.org/wiki/File:BahramChobinCoinHistoryofIran.jpg",
+          "credit": "Classical Numismatic Group; [1]",
+          "license": "CC BY-SA 3.0",
+          "made": "Date not recorded",
+          "caption": "Coin of Bahram Chobin, also known as Bahram VI.",
+          "alt": "Coin of Bahram Chobin, also known as Bahram VI."
+        }
+      ],
+      "sources": [
+        {
+          "title": "Bahram Chobin (Wikipedia)",
+          "url": "https://en.wikipedia.org/wiki/Bahram_Chobin"
+        },
+        {
+          "title": "List of monarchs of Persia (Wikipedia)",
+          "url": "https://en.wikipedia.org/wiki/List_of_monarchs_of_Persia"
+        }
+      ],
+      "review": {
+        "status": "draft",
+        "notes": "Short card added from the completeness audit; checked only against Wikipedia."
+      },
+      "end": {
+        "date": "0591",
+        "circa": true
       }
     },
     {
@@ -12560,6 +13403,114 @@
       }
     },
     {
+      "id": "ismail-ii",
+      "kind": "monarch",
+      "rulers": [
+        "ismail-ii"
+      ],
+      "tagline": "The prince who left prison to kill his family",
+      "start": {
+        "date": "1576-05-14",
+        "circa": true
+      },
+      "contestedWith": [],
+      "relationToPredecessor": "Son of Tahmasp I",
+      "ageAtAccession": "40",
+      "cameToPower": "Released from prison to take the throne",
+      "reignEnded": "Died, probably poisoned",
+      "previously": "Tahmasp I dies after 52 years.",
+      "paragraphs": [
+        "Ismail had spent almost twenty years locked in a fortress by his father. After Tahmasp died he was brought out and crowned, and he immediately had most of the male royal family killed or blinded.",
+        "He leaned towards Sunni Islam, which alarmed his Shia court. He died suddenly in 1577, probably poisoned with drugs by his sister and court women."
+      ],
+      "claims": [],
+      "hook": "His half-blind brother Mohammad becomes shah.",
+      "images": [
+        {
+          "file": "File:Ancestors of Shah Ismail II.png",
+          "url": "https://upload.wikimedia.org/wikipedia/commons/7/78/Ancestors_of_Shah_Ismail_II.png",
+          "page": "https://commons.wikimedia.org/wiki/File:Ancestors_of_Shah_Ismail_II.png",
+          "credit": "पाटलिपुत्र",
+          "license": "CC BY-SA 4.0",
+          "made": "2026-03-06",
+          "caption": "Ancestors of Shah Ismail II",
+          "alt": "Ancestors of Shah Ismail II"
+        }
+      ],
+      "sources": [
+        {
+          "title": "Ismail II (Wikipedia)",
+          "url": "https://en.wikipedia.org/wiki/Ismail_II"
+        },
+        {
+          "title": "List of monarchs of Persia (Wikipedia)",
+          "url": "https://en.wikipedia.org/wiki/List_of_monarchs_of_Persia"
+        }
+      ],
+      "review": {
+        "status": "draft",
+        "notes": "Short card added from the completeness audit; checked only against Wikipedia."
+      },
+      "end": {
+        "date": "1577-11-24",
+        "circa": true
+      }
+    },
+    {
+      "id": "mohammad-khodabanda",
+      "kind": "monarch",
+      "rulers": [
+        "mohammad-khodabanda"
+      ],
+      "tagline": "The nearly blind shah",
+      "start": {
+        "date": "1578-02-11",
+        "circa": true
+      },
+      "contestedWith": [],
+      "relationToPredecessor": "Son of Tahmasp I",
+      "ageAtAccession": "46",
+      "cameToPower": "Only surviving adult brother",
+      "reignEnded": "Deposed by his son Abbas",
+      "previously": "Ismail II dies suddenly.",
+      "paragraphs": [
+        "Mohammad was almost blind, so had been passed over before. As shah he left power to others: first his wife Khayr al-Nisa Begum, who was murdered by the Qizilbash chiefs, then to rival factions.",
+        "The Ottomans and Uzbeks took large parts of Iran. In 1588 his teenage son Abbas, backed by the Qizilbash, marched on Qazvin and took the throne."
+      ],
+      "claims": [],
+      "hook": "Abbas I takes over and rebuilds the empire.",
+      "images": [
+        {
+          "file": "File:Illustration of the Safavid shah Mohammad Khodabandeh.jpg",
+          "url": "https://upload.wikimedia.org/wikipedia/commons/0/07/Illustration_of_the_Safavid_shah_Mohammad_Khodabandeh.jpg",
+          "page": "https://commons.wikimedia.org/wiki/File:Illustration_of_the_Safavid_shah_Mohammad_Khodabandeh.jpg",
+          "credit": "Ahmad Monshi Qomi",
+          "license": "Public domain",
+          "made": "Date not recorded",
+          "caption": "Illustration of the Safavid shah of Iran, Mohammad Khodabandeh. Page from Ahmad Monshi Ghomi's Holasat at-tavarih.",
+          "alt": "Illustration of the Safavid shah of Iran, Mohammad Khodabandeh. Page from Ahmad Monshi Ghomi's Holasat at-tavarih."
+        }
+      ],
+      "sources": [
+        {
+          "title": "Mohammad Khodabanda (Wikipedia)",
+          "url": "https://en.wikipedia.org/wiki/Mohammad_Khodabanda"
+        },
+        {
+          "title": "List of monarchs of Persia (Wikipedia)",
+          "url": "https://en.wikipedia.org/wiki/List_of_monarchs_of_Persia"
+        }
+      ],
+      "review": {
+        "status": "draft",
+        "notes": "Short card added from the completeness audit; checked only against Wikipedia."
+      },
+      "end": {
+        "date": "1588-10-01",
+        "circa": true
+      }
+    },
+    {
       "id": "abbas-i",
       "kind": "monarch",
       "rulers": [
@@ -12872,7 +13823,9 @@
         "date": "1722-10-23",
         "circa": true
       },
-      "contestedWith": [],
+      "contestedWith": [
+        "mahmud-hotak"
+      ],
       "relationToPredecessor": "Son of Suleiman",
       "ageAtAccession": "About 26",
       "cameToPower": "Succeeded his father",
@@ -12933,6 +13886,230 @@
       "review": {
         "status": "draft",
         "notes": "Drafted from the listed sources; needs a human fact-check."
+      }
+    },
+    {
+      "id": "mahmud-hotak",
+      "kind": "monarch",
+      "rulers": [
+        "mahmud-hotak"
+      ],
+      "tagline": "The Afghan who took Isfahan",
+      "start": {
+        "date": "1722-10-23",
+        "circa": true
+      },
+      "contestedWith": [
+        "soltan-hoseyn",
+        "tahmasp-ii"
+      ],
+      "relationToPredecessor": "Ghilzai Afghan chief",
+      "ageAtAccession": "24",
+      "cameToPower": "Besieged and took Isfahan",
+      "reignEnded": "Overthrown by his cousin",
+      "previously": "Soltan Hoseyn surrenders Isfahan to Afghan rebels.",
+      "paragraphs": [
+        "Mahmud, chief of the Afghan Ghilzai tribe, marched on Isfahan in 1722 and starved it into surrender after a six-month siege. Soltan Hoseyn handed him the crown.",
+        "He controlled little beyond the capital. Growing paranoid, he had many Safavid princes killed in 1725, and was soon overthrown and killed by his cousin Ashraf."
+      ],
+      "claims": [],
+      "hook": "Ashraf Hotak takes over, and Tahmasp II still holds out in the north.",
+      "images": [
+        {
+          "file": "File:Mahmud Hotak Coin.jpg",
+          "url": "https://upload.wikimedia.org/wikipedia/commons/2/28/Mahmud_Hotak_Coin.jpg",
+          "page": "https://commons.wikimedia.org/wiki/File:Mahmud_Hotak_Coin.jpg",
+          "credit": "M.samei",
+          "license": "CC BY-SA 4.0",
+          "made": "2019-12-31",
+          "caption": "سکه ده شاهی محمود هوتکی",
+          "alt": "سکه ده شاهی محمود هوتکی"
+        }
+      ],
+      "sources": [
+        {
+          "title": "Mahmud Hotak (Wikipedia)",
+          "url": "https://en.wikipedia.org/wiki/Mahmud_Hotak"
+        },
+        {
+          "title": "List of monarchs of Persia (Wikipedia)",
+          "url": "https://en.wikipedia.org/wiki/List_of_monarchs_of_Persia"
+        }
+      ],
+      "review": {
+        "status": "draft",
+        "notes": "Short card added from the completeness audit; checked only against Wikipedia."
+      },
+      "end": {
+        "date": "1725-04-22",
+        "circa": true
+      }
+    },
+    {
+      "id": "tahmasp-ii",
+      "kind": "claimant",
+      "rulers": [
+        "tahmasp-ii"
+      ],
+      "tagline": "The shah propped up by Nader",
+      "start": {
+        "date": "1722-11",
+        "circa": true
+      },
+      "contestedWith": [
+        "mahmud-hotak",
+        "ashraf-hotak"
+      ],
+      "relationToPredecessor": "Son of Soltan Hoseyn",
+      "ageAtAccession": "About 18",
+      "cameToPower": "Proclaimed himself after Isfahan fell",
+      "reignEnded": "Deposed by Nader",
+      "previously": "Isfahan falls, and a Safavid prince escapes.",
+      "paragraphs": [
+        "Tahmasp escaped Isfahan before it fell and proclaimed himself shah in the north. He had no real power until the general Nader Khan joined him and drove out the Afghans.",
+        "He lost a war with the Ottomans in 1731 and signed away the land Nader had won. Nader deposed him in 1732 and put his baby son on the throne."
+      ],
+      "claims": [],
+      "hook": "Nader rules in the name of an infant.",
+      "images": [
+        {
+          "file": "File:Nadir at the court of Shah Tahmasp II.jpg",
+          "url": "https://upload.wikimedia.org/wikipedia/commons/b/b8/Nadir_at_the_court_of_Shah_Tahmasp_II.jpg",
+          "page": "https://commons.wikimedia.org/wiki/File:Nadir_at_the_court_of_Shah_Tahmasp_II.jpg",
+          "credit": "Mirza Mahdi Khan Astarabadi",
+          "license": "Public domain",
+          "made": "1757-1758",
+          "caption": "Nadir at the court of Shah Tahmasp II Safavid. Mirza Mahdi Khan Astarabadi, the Jahan-gusha-ye Nadiri, North India, dated 1171 AH/1757-58 AD This is a rare and…",
+          "alt": "Nadir at the court of Shah Tahmasp II Safavid. Mirza Mahdi Khan Astarabadi, the Jahan-gusha-ye Nadiri, North India, dated 1171 AH/1757-58 AD This is a rare and…"
+        }
+      ],
+      "sources": [
+        {
+          "title": "Tahmasp II (Wikipedia)",
+          "url": "https://en.wikipedia.org/wiki/Tahmasp_II"
+        },
+        {
+          "title": "List of monarchs of Persia (Wikipedia)",
+          "url": "https://en.wikipedia.org/wiki/List_of_monarchs_of_Persia"
+        }
+      ],
+      "review": {
+        "status": "draft",
+        "notes": "Short card added from the completeness audit; checked only against Wikipedia."
+      },
+      "end": {
+        "date": "1732-08",
+        "circa": true
+      }
+    },
+    {
+      "id": "ashraf-hotak",
+      "kind": "monarch",
+      "rulers": [
+        "ashraf-hotak"
+      ],
+      "tagline": "The last Afghan shah",
+      "start": {
+        "date": "1725-04-22",
+        "circa": true
+      },
+      "contestedWith": [
+        "tahmasp-ii"
+      ],
+      "relationToPredecessor": "Cousin of Mahmud",
+      "ageAtAccession": "Unknown",
+      "cameToPower": "Overthrew Mahmud",
+      "reignEnded": "Beaten by Nader; killed fleeing",
+      "previously": "Mahmud Hotak is overthrown.",
+      "paragraphs": [
+        "Ashraf beat back an Ottoman army and won recognition from the Ottoman sultan as shah. He had the captive Soltan Hoseyn executed.",
+        "In 1729 Nader Khan, general of Tahmasp II, crushed the Afghans in three battles. Ashraf fled towards Kandahar and was killed on the way."
+      ],
+      "claims": [],
+      "hook": "Tahmasp II is back in Isfahan, with Nader behind him.",
+      "images": [
+        {
+          "file": "File:A coin of Ashraf Hotak (Ashrafi).jpg",
+          "url": "https://upload.wikimedia.org/wikipedia/commons/0/0e/A_coin_of_Ashraf_Hotak_%28Ashrafi%29.jpg",
+          "page": "https://commons.wikimedia.org/wiki/File:A_coin_of_Ashraf_Hotak_(Ashrafi).jpg",
+          "credit": "Ashrafi coin of Ashraf Hotak",
+          "license": "CC BY-SA 4.0",
+          "made": "2021-11-03",
+          "caption": "سکه ضرب شده توسط اشرف شاه هوتکی که بعدها به اشرفی معروف شد",
+          "alt": "سکه ضرب شده توسط اشرف شاه هوتکی که بعدها به اشرفی معروف شد"
+        }
+      ],
+      "sources": [
+        {
+          "title": "Ashraf Hotak (Wikipedia)",
+          "url": "https://en.wikipedia.org/wiki/Ashraf_Hotak"
+        },
+        {
+          "title": "List of monarchs of Persia (Wikipedia)",
+          "url": "https://en.wikipedia.org/wiki/List_of_monarchs_of_Persia"
+        }
+      ],
+      "review": {
+        "status": "draft",
+        "notes": "Short card added from the completeness audit; checked only against Wikipedia."
+      },
+      "end": {
+        "date": "1729-11",
+        "circa": true
+      }
+    },
+    {
+      "id": "abbas-iii",
+      "kind": "monarch",
+      "rulers": [
+        "abbas-iii"
+      ],
+      "tagline": "The baby shah",
+      "start": {
+        "date": "1732-08",
+        "circa": true
+      },
+      "contestedWith": [],
+      "relationToPredecessor": "Son of Tahmasp II",
+      "ageAtAccession": "Infant",
+      "cameToPower": "Put on the throne by Nader",
+      "reignEnded": "Deposed when Nader crowned himself",
+      "previously": "Nader deposes Tahmasp II.",
+      "paragraphs": [
+        "Abbas III was a few months old when Nader made him shah. Nader ruled as regent and kept fighting the Ottomans and Afghans.",
+        "In 1736 Nader called a great assembly on the Mughan plain and had himself proclaimed shah. The child was sent away and later killed."
+      ],
+      "claims": [],
+      "hook": "Nader Shah rules Iran in his own name.",
+      "images": [
+        {
+          "file": "File:Abbas III.jpg",
+          "url": "https://upload.wikimedia.org/wikipedia/commons/b/b3/Abbas_III.jpg",
+          "page": "https://commons.wikimedia.org/wiki/File:Abbas_III.jpg",
+          "credit": "Gulustan",
+          "license": "CC BY-SA 3.0",
+          "made": "2010-07-22",
+          "caption": "Сефевиды Шах Аббас III серебряная монета 1734/5 год.",
+          "alt": "Сефевиды Шах Аббас III серебряная монета 1734/5 год."
+        }
+      ],
+      "sources": [
+        {
+          "title": "Abbas III (Wikipedia)",
+          "url": "https://en.wikipedia.org/wiki/Abbas_III"
+        },
+        {
+          "title": "List of monarchs of Persia (Wikipedia)",
+          "url": "https://en.wikipedia.org/wiki/List_of_monarchs_of_Persia"
+        }
+      ],
+      "review": {
+        "status": "draft",
+        "notes": "Short card added from the completeness audit; checked only against Wikipedia."
+      },
+      "end": {
+        "date": "1736-03-08",
+        "circa": true
       }
     },
     {
@@ -13012,6 +14189,171 @@
       }
     },
     {
+      "id": "adil-shah",
+      "kind": "monarch",
+      "rulers": [
+        "adil-shah"
+      ],
+      "tagline": "Nader's nephew and probable killer",
+      "start": {
+        "date": "1747-07",
+        "circa": true
+      },
+      "contestedWith": [],
+      "relationToPredecessor": "Nephew of Nader Shah",
+      "ageAtAccession": "About 28",
+      "cameToPower": "Took the throne after Nader's murder",
+      "reignEnded": "Overthrown and blinded by his brother",
+      "previously": "Nader Shah is murdered in his tent.",
+      "paragraphs": [
+        "Ali Qoli, Nader's nephew, was probably behind his uncle's murder. He became shah as Adil Shah and had most of Nader's family killed, sparing only the teenage grandson Shahrokh.",
+        "His brother Ebrahim rebelled, beat him, and had him blinded and later killed."
+      ],
+      "claims": [],
+      "hook": "Ebrahim Shah takes over, but not for long.",
+      "images": [
+        {
+          "file": "File:Coin of the Afsharid shah Adel Shah, struck at the Mashhad mint.jpg",
+          "url": "https://upload.wikimedia.org/wikipedia/commons/5/5e/Coin_of_the_Afsharid_shah_Adel_Shah%2C_struck_at_the_Mashhad_mint.jpg",
+          "page": "https://commons.wikimedia.org/wiki/File:Coin_of_the_Afsharid_shah_Adel_Shah,_struck_at_the_Mashhad_mint.jpg",
+          "credit": "Classical Numismatic Group; [1]",
+          "license": "CC BY-SA 3.0",
+          "made": "Date not recorded",
+          "caption": "Coin of the Afsharid shah Adil Shah.",
+          "alt": "Coin of the Afsharid shah Adil Shah."
+        }
+      ],
+      "sources": [
+        {
+          "title": "Adil Shah (Wikipedia)",
+          "url": "https://en.wikipedia.org/wiki/Adil_Shah"
+        },
+        {
+          "title": "List of monarchs of Persia (Wikipedia)",
+          "url": "https://en.wikipedia.org/wiki/List_of_monarchs_of_Persia"
+        }
+      ],
+      "review": {
+        "status": "draft",
+        "notes": "Short card added from the completeness audit; checked only against Wikipedia."
+      },
+      "end": {
+        "date": "1748-10-01",
+        "circa": true
+      }
+    },
+    {
+      "id": "ebrahim-afshar",
+      "kind": "monarch",
+      "rulers": [
+        "ebrahim-afshar"
+      ],
+      "tagline": "Shah for a few months",
+      "start": {
+        "date": "1748-10",
+        "circa": true
+      },
+      "contestedWith": [],
+      "relationToPredecessor": "Brother of Adil Shah",
+      "ageAtAccession": "Unknown",
+      "cameToPower": "Overthrew his brother",
+      "reignEnded": "Killed by his own men",
+      "previously": "Adil Shah is beaten by his brother.",
+      "paragraphs": [
+        "Ebrahim beat and blinded his brother Adil Shah and declared himself shah in 1748.",
+        "Meanwhile Nader's grandson Shahrokh was proclaimed in Mashhad. Ebrahim's troops deserted him, and he was captured and killed."
+      ],
+      "claims": [],
+      "hook": "Shahrokh holds Khorasan, and the rest of Iran falls apart.",
+      "images": [
+        {
+          "file": "File:Coin of Ebrahim Shah, struck at the Qazvin mint.jpg",
+          "url": "https://upload.wikimedia.org/wikipedia/commons/8/8e/Coin_of_Ebrahim_Shah%2C_struck_at_the_Qazvin_mint.jpg",
+          "page": "https://commons.wikimedia.org/wiki/File:Coin_of_Ebrahim_Shah,_struck_at_the_Qazvin_mint.jpg",
+          "credit": "Classical Numismatic Group; [1]",
+          "license": "CC BY-SA 3.0",
+          "made": "Date not recorded",
+          "caption": "Coin of the Afsharid shah of Iran, Ebrahim Shah.",
+          "alt": "Coin of the Afsharid shah of Iran, Ebrahim Shah."
+        }
+      ],
+      "sources": [
+        {
+          "title": "Ebrahim Afshar (Wikipedia)",
+          "url": "https://en.wikipedia.org/wiki/Ebrahim_Afshar"
+        },
+        {
+          "title": "List of monarchs of Persia (Wikipedia)",
+          "url": "https://en.wikipedia.org/wiki/List_of_monarchs_of_Persia"
+        }
+      ],
+      "review": {
+        "status": "draft",
+        "notes": "Short card added from the completeness audit; checked only against Wikipedia."
+      },
+      "end": {
+        "date": "1748-12",
+        "circa": true
+      }
+    },
+    {
+      "id": "shahrokh",
+      "kind": "claimant",
+      "rulers": [
+        "shahrokh"
+      ],
+      "tagline": "The blind shah of Khorasan",
+      "start": {
+        "date": "1748-10",
+        "circa": true
+      },
+      "contestedWith": [
+        "karim-khan",
+        "agha-mohammad-khan"
+      ],
+      "relationToPredecessor": "Grandson of Nader Shah",
+      "ageAtAccession": "14",
+      "cameToPower": "Proclaimed in Mashhad",
+      "reignEnded": "Tortured to death by Agha Mohammad Khan",
+      "previously": "Nader's empire breaks up.",
+      "paragraphs": [
+        "Shahrokh, grandson of Nader Shah and through his mother of the Safavids, was proclaimed shah in Mashhad. He was blinded by a rival in 1750 but kept ruling Khorasan for nearly fifty years while others held the rest of Iran.",
+        "In 1796 Agha Mohammad Khan Qajar took Mashhad and tortured the old man to reveal Nader's hidden jewels. Shahrokh died of his wounds."
+      ],
+      "claims": [],
+      "hook": "The Qajars now hold all of Iran.",
+      "images": [
+        {
+          "file": "File:Contemporary portrait of Nader Shah. Artist unknown, created in ca. 1740 in Iran (cropped).jpg",
+          "url": "https://upload.wikimedia.org/wikipedia/commons/4/4f/Contemporary_portrait_of_Nader_Shah._Artist_unknown%2C_created_in_ca._1740_in_Iran_%28cropped%29.jpg",
+          "page": "https://commons.wikimedia.org/wiki/File:Contemporary_portrait_of_Nader_Shah._Artist_unknown,_created_in_ca._1740_in_Iran_(cropped).jpg",
+          "credit": "Unknown authorUnknown author",
+          "license": "Public domain",
+          "made": "circa 1740date QS:P,+1740-00-00T00:00:00Z/9,P1480,Q5727902",
+          "caption": "Shahrokh's grandfather Nader Shah, painted around 1740. No portrait of Shahrokh survives.",
+          "alt": "Shahrokh's grandfather Nader Shah, painted around 1740. No portrait of Shahrokh survives."
+        }
+      ],
+      "sources": [
+        {
+          "title": "Shahrokh Shah (Wikipedia)",
+          "url": "https://en.wikipedia.org/wiki/Shahrokh_Shah"
+        },
+        {
+          "title": "List of monarchs of Persia (Wikipedia)",
+          "url": "https://en.wikipedia.org/wiki/List_of_monarchs_of_Persia"
+        }
+      ],
+      "review": {
+        "status": "draft",
+        "notes": "Short card added from the completeness audit; checked only against Wikipedia."
+      },
+      "end": {
+        "date": "1796",
+        "circa": true
+      }
+    },
+    {
       "id": "karim-khan",
       "kind": "monarch",
       "rulers": [
@@ -13025,7 +14367,9 @@
       "end": {
         "date": "1779-03-01"
       },
-      "contestedWith": [],
+      "contestedWith": [
+        "shahrokh"
+      ],
       "relationToPredecessor": "No relation; a Zand tribal chief",
       "ageAtAccession": "About 46",
       "cameToPower": "Won the wars after Nader's death",
@@ -13094,6 +14438,113 @@
       }
     },
     {
+      "id": "zand-successors",
+      "kind": "interregnum",
+      "rulers": [],
+      "house": "zand",
+      "title": "The Zand Succession",
+      "members": [
+        {
+          "name": "Abol-Fath Khan Zand",
+          "start": {
+            "date": "1779-03"
+          },
+          "end": {
+            "date": "1779-08"
+          },
+          "note": "Son of Karim Khan, nominal ruler; deposed and blinded"
+        },
+        {
+          "name": "Mohammad Ali Khan Zand",
+          "start": {
+            "date": "1779-03"
+          },
+          "end": {
+            "date": "1779-06"
+          },
+          "note": "Son of Karim Khan, co-ruler; died"
+        },
+        {
+          "name": "Sadeq Khan Zand",
+          "start": {
+            "date": "1779-08"
+          },
+          "end": {
+            "date": "1781-03"
+          },
+          "note": "Karim Khan's brother; killed by Ali-Morad"
+        },
+        {
+          "name": "Ali-Morad Khan Zand",
+          "start": {
+            "date": "1781-03"
+          },
+          "end": {
+            "date": "1785-02-11"
+          },
+          "note": "Ruled from Isfahan; fought the Qajars"
+        },
+        {
+          "name": "Jafar Khan Zand",
+          "start": {
+            "date": "1785",
+            "circa": true
+          },
+          "end": {
+            "date": "1789-01-23"
+          },
+          "note": "Son of Sadeq; poisoned"
+        }
+      ],
+      "tagline": "Five Zand rulers in ten years",
+      "start": {
+        "date": "1779-03-01",
+        "circa": true
+      },
+      "contestedWith": [],
+      "relationToPredecessor": "Relatives of Karim Khan",
+      "ageAtAccession": "Not applicable",
+      "cameToPower": "Karim Khan died",
+      "reignEnded": "Lotf Ali Khan's fall",
+      "previously": "Karim Khan dies, and his family fights over his throne.",
+      "paragraphs": [
+        "Karim Khan Zand never called himself shah, and when he died his family fell to fighting. His sons Abol-Fath and Mohammad Ali were put up as nominal rulers, then pushed aside by his brother Sadeq.",
+        "Ali-Morad Khan killed Sadeq and ruled from Isfahan until 1785; Jafar Khan followed and was poisoned in 1789. Meanwhile the Qajar chief Agha Mohammad Khan was taking northern Iran."
+      ],
+      "claims": [],
+      "hook": "Jafar's son Lotf Ali Khan takes Shiraz and faces the Qajars.",
+      "images": [
+        {
+          "file": "File:Ali Murad Khan Zand.png",
+          "url": "https://upload.wikimedia.org/wikipedia/commons/f/fe/Ali_Murad_Khan_Zand.png",
+          "page": "https://commons.wikimedia.org/wiki/File:Ali_Murad_Khan_Zand.png",
+          "credit": "Zandiyeh",
+          "license": "CC BY-SA 4.0",
+          "made": "2015-11-07",
+          "caption": "King Ali Murad Khan Zand, of the Zand dynasty",
+          "alt": "King Ali Murad Khan Zand, of the Zand dynasty"
+        }
+      ],
+      "sources": [
+        {
+          "title": "Zand dynasty (Wikipedia)",
+          "url": "https://en.wikipedia.org/wiki/Zand_dynasty"
+        },
+        {
+          "title": "List of monarchs of Persia (Wikipedia)",
+          "url": "https://en.wikipedia.org/wiki/List_of_monarchs_of_Persia"
+        }
+      ],
+      "review": {
+        "status": "draft",
+        "notes": "Short card added from the completeness audit; checked only against Wikipedia."
+      },
+      "end": {
+        "date": "1789-01",
+        "circa": true
+      }
+    },
+    {
       "id": "agha-mohammad-khan",
       "kind": "monarch",
       "rulers": [
@@ -13107,7 +14558,10 @@
       "end": {
         "date": "1797-06-17"
       },
-      "contestedWith": [],
+      "contestedWith": [
+        "shahrokh",
+        "lotf-ali-khan"
+      ],
       "relationToPredecessor": "Rival; Karim Khan's old hostage",
       "ageAtAccession": "About 47",
       "cameToPower": "Fought the Zands for the throne",
@@ -13168,6 +14622,62 @@
       "review": {
         "status": "draft",
         "notes": "Drafted from the listed sources; needs a human fact-check."
+      }
+    },
+    {
+      "id": "lotf-ali-khan",
+      "kind": "claimant",
+      "rulers": [
+        "lotf-ali-khan"
+      ],
+      "tagline": "The last Zand, betrayed at Kerman",
+      "start": {
+        "date": "1789",
+        "circa": true
+      },
+      "contestedWith": [
+        "agha-mohammad-khan"
+      ],
+      "relationToPredecessor": "Son of Jafar Khan",
+      "ageAtAccession": "About 20",
+      "cameToPower": "Took Shiraz after his father's murder",
+      "reignEnded": "Captured, blinded and killed",
+      "previously": "Jafar Khan Zand is poisoned.",
+      "paragraphs": [
+        "Lotf Ali Khan, a brave young commander, took Shiraz after his father was murdered and fought Agha Mohammad Khan Qajar for five years.",
+        "Betrayed by his own minister, he lost Shiraz and held out in Kerman. When Kerman fell in 1794 the Qajar had thousands of its men blinded. Lotf Ali was captured, blinded and killed."
+      ],
+      "claims": [],
+      "hook": "Agha Mohammad Khan rules all Iran.",
+      "images": [
+        {
+          "file": "File:Defeat of Lutf ‘Ali Khan Zand by (Agha) Muhammad Shah; the city of Shiraz in the background. Folio from the Shahinshahnama of Fath 'Ali Khan Saba, dated 1810.jpg",
+          "url": "https://upload.wikimedia.org/wikipedia/commons/4/4b/Defeat_of_Lutf_%E2%80%98Ali_Khan_Zand_by_%28Agha%29_Muhammad_Shah%3B_the_city_of_Shiraz_in_the_background._Folio_from_the_Shahinshahnama_of_Fath_%27Ali_Khan_Saba%2C_dated_1810.jpg",
+          "page": "https://commons.wikimedia.org/wiki/File:Defeat_of_Lutf_%E2%80%98Ali_Khan_Zand_by_(Agha)_Muhammad_Shah;_the_city_of_Shiraz_in_the_background._Folio_from_the_Shahinshahnama_of_Fath_%27Ali_Khan_Saba,_dated_1810.jpg",
+          "credit": "British Library",
+          "license": "Public domain",
+          "made": "1810",
+          "caption": "Defeat of Lutf‘Ali Khan Zand by (Agha) Muhammad Shah; the city of Shiraz in the background.,opaque watercolour. Persian style; Qajar style. 21.5 by 17 cm…",
+          "alt": "Defeat of Lutf‘Ali Khan Zand by (Agha) Muhammad Shah; the city of Shiraz in the background.,opaque watercolour. Persian style; Qajar style. 21.5 by 17 cm…"
+        }
+      ],
+      "sources": [
+        {
+          "title": "Lotf Ali Khan (Wikipedia)",
+          "url": "https://en.wikipedia.org/wiki/Lotf_Ali_Khan"
+        },
+        {
+          "title": "List of monarchs of Persia (Wikipedia)",
+          "url": "https://en.wikipedia.org/wiki/List_of_monarchs_of_Persia"
+        }
+      ],
+      "review": {
+        "status": "draft",
+        "notes": "Short card added from the completeness audit; checked only against Wikipedia."
+      },
+      "end": {
+        "date": "1794",
+        "circa": true
       }
     },
     {
@@ -13252,6 +14762,60 @@
       }
     },
     {
+      "id": "mohammad-shah-qajar",
+      "kind": "monarch",
+      "rulers": [
+        "mohammad-shah-qajar"
+      ],
+      "tagline": "The shah who lost Herat",
+      "start": {
+        "date": "1834-10-23",
+        "circa": true
+      },
+      "contestedWith": [],
+      "relationToPredecessor": "Grandson of Fath-Ali Shah",
+      "ageAtAccession": "26",
+      "cameToPower": "Named heir after his father's death",
+      "reignEnded": "Died of gout",
+      "previously": "Fath-Ali Shah dies, with dozens of sons wanting his throne.",
+      "paragraphs": [
+        "Mohammad was the son of the crown prince Abbas Mirza, who died before his father. With Russian and British backing he beat his uncles for the throne in 1834.",
+        "He tried to take Herat in 1837, but a British threat forced him to retreat. He left government to his mystic tutor Haji Mirza Aqasi. He died of gout in 1848."
+      ],
+      "claims": [],
+      "hook": "His 16-year-old son Naser al-Din becomes shah.",
+      "images": [
+        {
+          "file": "File:A magnificent Qajar royal portrait of Fath 'Ali Shah attended by a prince (almost certainly Mohammad Mirza, later ruling as Mohammad Shah), attributed to Mihr 'Ali, Persia, circa 1820.jpg",
+          "url": "https://upload.wikimedia.org/wikipedia/commons/d/d2/A_magnificent_Qajar_royal_portrait_of_Fath_%27Ali_Shah_attended_by_a_prince_%28almost_certainly_Mohammad_Mirza%2C_later_ruling_as_Mohammad_Shah%29%2C_attributed_to_Mihr_%27Ali%2C_Persia%2C_circa_1820.jpg",
+          "page": "https://commons.wikimedia.org/wiki/File:A_magnificent_Qajar_royal_portrait_of_Fath_%27Ali_Shah_attended_by_a_prince_(almost_certainly_Mohammad_Mirza,_later_ruling_as_Mohammad_Shah),_attributed_to_Mihr_%27Ali,_Persia,_circa_1820.jpg",
+          "credit": "Attributed to Mihr Ali",
+          "license": "Public domain",
+          "made": "circa 1820date QS:P,+1820-00-00T00:00:00Z/9,P1480,Q5727902",
+          "caption": "A magnificent Qajar royal portrait of Fath 'Ali Shah attended by a prince, attributed to Mihr 'Ali, Persia, circa 1820 Oil on canvas 222.5 by 162.5cm. This…",
+          "alt": "A magnificent Qajar royal portrait of Fath 'Ali Shah attended by a prince, attributed to Mihr 'Ali, Persia, circa 1820 Oil on canvas 222.5 by 162.5cm. This…"
+        }
+      ],
+      "sources": [
+        {
+          "title": "Mohammad Shah Qajar (Wikipedia)",
+          "url": "https://en.wikipedia.org/wiki/Mohammad_Shah_Qajar"
+        },
+        {
+          "title": "List of monarchs of Persia (Wikipedia)",
+          "url": "https://en.wikipedia.org/wiki/List_of_monarchs_of_Persia"
+        }
+      ],
+      "review": {
+        "status": "draft",
+        "notes": "Short card added from the completeness audit; checked only against Wikipedia."
+      },
+      "end": {
+        "date": "1848-09-05",
+        "circa": true
+      }
+    },
+    {
       "id": "naser-al-din-shah",
       "kind": "monarch",
       "rulers": [
@@ -13259,7 +14823,7 @@
       ],
       "tagline": "The photographer shah who ruled for half a century",
       "start": {
-        "date": "1848-09",
+        "date": "1848-09-05",
         "circa": true
       },
       "end": {
