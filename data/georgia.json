@@ -550,6 +550,26 @@
         "date": "1762-01-08",
         "note": "St Petersburg"
       }
+    },
+    {
+      "id": "bagrat-i-kuropalates",
+      "name": "Bagrat I",
+      "house": "bagrationi"
+    },
+    {
+      "id": "david-i-kuropalates",
+      "name": "David I",
+      "house": "bagrationi"
+    },
+    {
+      "id": "gurgen-i",
+      "name": "Gurgen I",
+      "house": "bagrationi"
+    },
+    {
+      "id": "george-x",
+      "name": "George X",
+      "house": "kartli"
     }
   ],
   "reigns": [
@@ -636,6 +656,170 @@
       }
     },
     {
+      "id": "bagrat-i-kuropalates",
+      "kind": "monarch",
+      "rulers": [
+        "bagrat-i-kuropalates"
+      ],
+      "tagline": "The Kuropalates of Tao-Klarjeti",
+      "start": {
+        "date": "0826-01-29",
+        "circa": true
+      },
+      "contestedWith": [],
+      "relationToPredecessor": "Son of Ashot I",
+      "ageAtAccession": "Unknown",
+      "cameToPower": "Succeeded his murdered father",
+      "reignEnded": "Died",
+      "previously": "Ashot I is murdered in Klarjeti.",
+      "paragraphs": [
+        "Bagrat inherited his father's lands and the Byzantine title of kuropalates. He held the Iberian principality against the Arab emir of Tbilisi, with help sometimes from Byzantium and sometimes from the Caliphate.",
+        "He ruled for about fifty years and divided his family's lands among his sons."
+      ],
+      "claims": [],
+      "hook": "His son David takes the title.",
+      "images": [
+        {
+          "file": "File:81ArabAbbasidPeriod750-885.gif",
+          "url": "https://upload.wikimedia.org/wikipedia/commons/6/67/81ArabAbbasidPeriod750-885.gif",
+          "page": "https://commons.wikimedia.org/wiki/File:81ArabAbbasidPeriod750-885.gif",
+          "credit": "www.armenica.org",
+          "license": "GFDL",
+          "made": "Uploaded to Armenica.org before 7 December 2006 (archived…",
+          "caption": "Armenia during Arab Abbasid period, 750-885. No portrait of Bagrat I Kuropalates survives.",
+          "alt": "Armenia during Arab Abbasid period, 750-885. No portrait of Bagrat I Kuropalates survives."
+        }
+      ],
+      "sources": [
+        {
+          "title": "Bagrat I of Iberia (Wikipedia)",
+          "url": "https://en.wikipedia.org/wiki/Bagrat_I_of_Iberia"
+        },
+        {
+          "title": "List of monarchs of Georgia (Wikipedia)",
+          "url": "https://en.wikipedia.org/wiki/List_of_monarchs_of_Georgia"
+        }
+      ],
+      "review": {
+        "status": "draft",
+        "notes": "Short card added from the completeness audit; checked only against Wikipedia."
+      },
+      "end": {
+        "date": "0876",
+        "circa": true
+      }
+    },
+    {
+      "id": "david-i-kuropalates",
+      "kind": "monarch",
+      "rulers": [
+        "david-i-kuropalates"
+      ],
+      "tagline": "Murdered by a cousin",
+      "start": {
+        "date": "0876",
+        "circa": true
+      },
+      "contestedWith": [],
+      "relationToPredecessor": "Son of Bagrat I",
+      "ageAtAccession": "Unknown",
+      "cameToPower": "Succeeded his father",
+      "reignEnded": "Murdered",
+      "previously": "Bagrat I dies.",
+      "paragraphs": [
+        "David I held the title of kuropalates and the senior position among the Georgian Bagratids after his father.",
+        "He was murdered by his cousin Nasra in 881, starting years of feuding inside the family."
+      ],
+      "claims": [],
+      "hook": "His kinsman Gurgen takes the lead.",
+      "images": [
+        {
+          "file": "File:Borjgali and Star of David in Oshki.jpg",
+          "url": "https://upload.wikimedia.org/wikipedia/commons/6/62/Borjgali_and_Star_of_David_in_Oshki.jpg",
+          "page": "https://commons.wikimedia.org/wiki/File:Borjgali_and_Star_of_David_in_Oshki.jpg",
+          "credit": "This photo was taken by George Mel. Please credit this with : Photo : George…",
+          "license": "CC BY-SA 3.0",
+          "made": "2010-07-17",
+          "caption": "Georgian cathedral Oshki in historical Georgian region Tao-Klarjeti, current Turkey. The six-pointed star (Star of David) and Borjgali. No portrait of David I Kuropalates survives.",
+          "alt": "Georgian cathedral Oshki in historical Georgian region Tao-Klarjeti, current Turkey. The six-pointed star (Star of David) and Borjgali. No portrait of David I Kuropalates survives."
+        }
+      ],
+      "sources": [
+        {
+          "title": "David I Kuropalates (Wikipedia)",
+          "url": "https://en.wikipedia.org/wiki/David_I_Kuropalates"
+        },
+        {
+          "title": "List of monarchs of Georgia (Wikipedia)",
+          "url": "https://en.wikipedia.org/wiki/List_of_monarchs_of_Georgia"
+        }
+      ],
+      "review": {
+        "status": "draft",
+        "notes": "Short card added from the completeness audit; checked only against Wikipedia."
+      },
+      "end": {
+        "date": "0881",
+        "circa": true
+      }
+    },
+    {
+      "id": "gurgen-i",
+      "kind": "monarch",
+      "rulers": [
+        "gurgen-i"
+      ],
+      "tagline": "Killed fighting his own family",
+      "start": {
+        "date": "0881",
+        "circa": true
+      },
+      "contestedWith": [
+        "adarnase-iv"
+      ],
+      "relationToPredecessor": "Cousin of David I",
+      "ageAtAccession": "Unknown",
+      "cameToPower": "Recognised as kuropalates",
+      "reignEnded": "Killed in battle",
+      "previously": "David I is murdered by his cousin.",
+      "paragraphs": [
+        "Gurgen, a nephew of Bagrat I, took the title of kuropalates after David's murder and fought Nasra and his allies.",
+        "He was killed in 891 fighting his kinsman Adarnase, who would take the title of King of the Iberians."
+      ],
+      "claims": [],
+      "hook": "Adarnase IV will soon call himself king.",
+      "images": [
+        {
+          "file": "File:L'Ibérie aux IX-Xe siècles.png",
+          "url": "https://upload.wikimedia.org/wikipedia/commons/d/d8/L%27Ib%C3%A9rie_aux_IX-Xe_si%C3%A8cles.png",
+          "page": "https://commons.wikimedia.org/wiki/File:L%27Ib%C3%A9rie_aux_IX-Xe_si%C3%A8cles.png",
+          "credit": "AlexandreIV",
+          "license": "CC BY-SA 3.0",
+          "made": "Date not recorded",
+          "caption": "Pincipalities and other domains of Iberia during the 9th and 10th centuries.",
+          "alt": "Pincipalities and other domains of Iberia during the 9th and 10th centuries."
+        }
+      ],
+      "sources": [
+        {
+          "title": "Gurgen I of Iberia (Wikipedia)",
+          "url": "https://en.wikipedia.org/wiki/Gurgen_I_of_Iberia"
+        },
+        {
+          "title": "List of monarchs of Georgia (Wikipedia)",
+          "url": "https://en.wikipedia.org/wiki/List_of_monarchs_of_Georgia"
+        }
+      ],
+      "review": {
+        "status": "draft",
+        "notes": "Short card added from the completeness audit; checked only against Wikipedia."
+      },
+      "end": {
+        "date": "0891",
+        "circa": true
+      }
+    },
+    {
       "id": "adarnase-iv",
       "kind": "monarch",
       "rulers": [
@@ -648,7 +832,9 @@
       "end": {
         "date": "0923"
       },
-      "contestedWith": [],
+      "contestedWith": [
+        "gurgen-i"
+      ],
       "relationToPredecessor": "Great-grandson of Ashot I",
       "ageAtAccession": "Unknown",
       "cameToPower": "Beat his rival Nasra in battle",
@@ -3342,6 +3528,60 @@
       "review": {
         "status": "draft",
         "notes": "Drafted from the listed sources; needs a human fact-check."
+      }
+    },
+    {
+      "id": "george-x",
+      "kind": "monarch",
+      "rulers": [
+        "george-x"
+      ],
+      "tagline": "The king of Kartli between Simon and Luarsab",
+      "start": {
+        "date": "1600",
+        "circa": true
+      },
+      "contestedWith": [],
+      "relationToPredecessor": "Son of Simon I",
+      "ageAtAccession": "Unknown",
+      "cameToPower": "Succeeded his captured father",
+      "reignEnded": "Died, possibly poisoned",
+      "previously": "Simon I is captured by the Ottomans.",
+      "paragraphs": [
+        "George X took over Kartli after his father Simon I was captured by the Ottomans in 1600. He kept on good terms with Shah Abbas I of Persia, joining his campaign against the Ottomans.",
+        "He died suddenly in 1606, possibly poisoned on Persian orders, leaving his young son Luarsab II."
+      ],
+      "claims": [],
+      "hook": "Kartli passes to a boy, and Shah Abbas is watching.",
+      "images": [
+        {
+          "file": "File:Georgian Kingdom of Kartli, 1490 AD.png",
+          "url": "https://upload.wikimedia.org/wikipedia/commons/e/e1/Georgian_Kingdom_of_Kartli%2C_1490_AD.png",
+          "page": "https://commons.wikimedia.org/wiki/File:Georgian_Kingdom_of_Kartli,_1490_AD.png",
+          "credit": "Goran tek-en",
+          "license": "CC BY-SA 4.0",
+          "made": "2025-12-06",
+          "caption": "Georgian Kingdom of Kakheti, 1490 AD. No portrait of George X survives.",
+          "alt": "Georgian Kingdom of Kakheti, 1490 AD. No portrait of George X survives."
+        }
+      ],
+      "sources": [
+        {
+          "title": "George X of Kartli (Wikipedia)",
+          "url": "https://en.wikipedia.org/wiki/George_X_of_Kartli"
+        },
+        {
+          "title": "List of monarchs of Georgia (Wikipedia)",
+          "url": "https://en.wikipedia.org/wiki/List_of_monarchs_of_Georgia"
+        }
+      ],
+      "review": {
+        "status": "draft",
+        "notes": "Short card added from the completeness audit; checked only against Wikipedia."
+      },
+      "end": {
+        "date": "1606",
+        "circa": true
       }
     },
     {

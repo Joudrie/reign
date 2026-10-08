@@ -15,7 +15,7 @@ Every row in the audit sections below has now been added, either as its own card
 
 - The cards added in the two checkpoints are short (two paragraphs, sourced to Wikipedia) and still need a fact-check.
 - Where no portrait exists, the card shows a period image (a coin, a place, a battle, a manuscript) and its caption says no portrait survives. A few of these automatic picks may still be off; check them on the site.
-- Not audited at all: Iran and Georgia (both were unrolled after the audit ran).
+- Iran and Georgia were checked afterwards against the standard king lists; 25 and 4 missing rulers were added.
 - Left out on purpose: China's parallel dynasties (Southern Dynasties, Ten Kingdoms, Liao, Jin and so on). That is a scope choice for the China deck, not missing data.
 
 The sections below are the original audit, kept for reference.
