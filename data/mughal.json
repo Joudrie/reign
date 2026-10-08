@@ -268,6 +268,52 @@
         "date": "1719-09-17",
         "note": "Bidyapur, near Fatehpur Sikri"
       }
+    },
+    {
+      "id": "islam-shah-suri",
+      "name": "Islam Shah Suri",
+      "house": "sur",
+      "died": {
+        "date": "1554-11-22"
+      }
+    },
+    {
+      "id": "hemu",
+      "name": "Hemu",
+      "house": "sur",
+      "died": {
+        "date": "1556-11-05"
+      }
+    },
+    {
+      "id": "dawar-bakhsh",
+      "name": "Dawar Bakhsh",
+      "house": "timurid"
+    },
+    {
+      "id": "azam-shah",
+      "name": "Azam Shah",
+      "house": "timurid",
+      "born": {
+        "date": "1653-06-28"
+      },
+      "died": {
+        "date": "1707-06-20"
+      }
+    },
+    {
+      "id": "shah-jahan-iii",
+      "name": "Shah Jahan III",
+      "house": "timurid",
+      "died": {
+        "date": "1772",
+        "circa": true
+      }
+    },
+    {
+      "id": "bidar-bakht",
+      "name": "Bidar Bakht",
+      "house": "timurid"
     }
   ],
   "reigns": [
@@ -509,6 +555,156 @@
       }
     },
     {
+      "id": "islam-shah-suri",
+      "kind": "monarch",
+      "rulers": [
+        "islam-shah-suri"
+      ],
+      "tagline": "Sher Shah's son, who kept Humayun out",
+      "start": {
+        "date": "1545-05-26"
+      },
+      "contestedWith": [],
+      "relationToPredecessor": "Son of Sher Shah",
+      "ageAtAccession": "About 38",
+      "cameToPower": "Chosen over his elder brother",
+      "reignEnded": "Died of illness",
+      "previously": "Sher Shah dies in a gunpowder blast at Kalinjar.",
+      "paragraphs": [
+        "Islam Shah took the throne after his father Sher Shah was killed by an exploding store of gunpowder. The nobles preferred him to his elder brother Adil Khan, who rebelled and lost.",
+        "He kept his father's tight, centralised rule and put down revolts by the great nobles. While he lived, the exiled Humayun stayed in Kabul. His death in 1554 left a 12-year-old heir and a family ready to fight over the throne."
+      ],
+      "claims": [],
+      "hook": "Islam Shah's young son is murdered within days, and the Sur family tears itself apart.",
+      "images": [
+        {
+          "file": "File:Copper 'Paisa' coins from the reign of Islam Shah Suri of Delhi Sultanate, from a personal collection, photographed on June 8, 2023.jpg",
+          "url": "https://upload.wikimedia.org/wikipedia/commons/6/63/Copper_%27Paisa%27_coins_from_the_reign_of_Islam_Shah_Suri_of_Delhi_Sultanate%2C_from_a_personal_collection%2C_photographed_on_June_8%2C_2023.jpg",
+          "page": "https://commons.wikimedia.org/wiki/File:Copper_%27Paisa%27_coins_from_the_reign_of_Islam_Shah_Suri_of_Delhi_Sultanate,_from_a_personal_collection,_photographed_on_June_8,_2023.jpg",
+          "credit": "Billjones94",
+          "license": "CC0",
+          "made": "2023-06-08 11:15:02",
+          "caption": "Copper 'Paisa' coins from the reign of Islam Shah Suri of Delhi Sultanate, from a personal collection, photographed on June 8, 2023.",
+          "alt": "Copper 'Paisa' coins from the reign of Islam Shah Suri of Delhi Sultanate, from a personal collection, photographed on June 8, 2023."
+        }
+      ],
+      "sources": [
+        {
+          "title": "Islam Shah Suri (Wikipedia)",
+          "url": "https://en.wikipedia.org/wiki/Islam_Shah_Suri"
+        },
+        {
+          "title": "List of emperors of the Mughal Empire (Wikipedia)",
+          "url": "https://en.wikipedia.org/wiki/List_of_emperors_of_the_Mughal_Empire"
+        }
+      ],
+      "review": {
+        "status": "draft",
+        "notes": "Short card added from the completeness audit; checked only against Wikipedia."
+      },
+      "end": {
+        "date": "1554-11-22"
+      }
+    },
+    {
+      "id": "sur-collapse",
+      "kind": "interregnum",
+      "rulers": [],
+      "house": "sur",
+      "title": "The Sur Collapse",
+      "members": [
+        {
+          "name": "Firuz Shah Suri",
+          "start": {
+            "date": "1554-11"
+          },
+          "end": {
+            "date": "1554-11"
+          },
+          "note": "Islam Shah's 12-year-old son, murdered within days by his uncle"
+        },
+        {
+          "name": "Muhammad Adil Shah",
+          "start": {
+            "date": "1554-11"
+          },
+          "end": {
+            "date": "1555",
+            "circa": true
+          },
+          "note": "Firuz's uncle and killer; left the rule to his Hindu general Hemu"
+        },
+        {
+          "name": "Ibrahim Shah Suri",
+          "start": {
+            "date": "1555",
+            "circa": true
+          },
+          "end": {
+            "date": "1555",
+            "circa": true
+          },
+          "note": "Cousin who seized Delhi and Agra"
+        },
+        {
+          "name": "Sikandar Shah Suri",
+          "start": {
+            "date": "1555",
+            "circa": true
+          },
+          "end": {
+            "date": "1555-06-22"
+          },
+          "note": "Took Delhi, then lost it to Humayun at Sirhind"
+        }
+      ],
+      "tagline": "Four Sur kings in seven months",
+      "start": {
+        "date": "1554-11-22"
+      },
+      "contestedWith": [],
+      "relationToPredecessor": "Rival members of the Sur family",
+      "ageAtAccession": "Firuz was 12",
+      "cameToPower": "Murder and civil war",
+      "reignEnded": "Humayun retakes Delhi",
+      "previously": "Islam Shah dies, leaving a boy king.",
+      "paragraphs": [
+        "After Islam Shah died, his 12-year-old son Firuz was killed within days by his uncle, who took the throne as Muhammad Adil Shah. Two cousins then rose against Adil, and Ibrahim Shah and Sikandar Shah each grabbed Delhi in turn.",
+        "While the Surs fought each other, the exiled Mughal Humayun came back from Kabul. He beat Sikandar at Sirhind in June 1555 and walked back into Delhi."
+      ],
+      "claims": [],
+      "hook": "Humayun is back in Delhi, fifteen years after he fled it.",
+      "images": [
+        {
+          "file": "File:Afghan troops surrendering at the Siege of Mankot (1557).jpg",
+          "url": "https://upload.wikimedia.org/wikipedia/commons/f/f9/Afghan_troops_surrendering_at_the_Siege_of_Mankot_%281557%29.jpg",
+          "page": "https://commons.wikimedia.org/wiki/File:Afghan_troops_surrendering_at_the_Siege_of_Mankot_(1557).jpg",
+          "credit": "1590 artist",
+          "license": "Public domain",
+          "made": "1590",
+          "caption": "Afghan troops surrendering at the Siege of Mankot (1557)",
+          "alt": "Afghan troops surrendering at the Siege of Mankot (1557)"
+        }
+      ],
+      "sources": [
+        {
+          "title": "Sur Empire (Wikipedia)",
+          "url": "https://en.wikipedia.org/wiki/Sur_Empire"
+        },
+        {
+          "title": "List of emperors of the Mughal Empire (Wikipedia)",
+          "url": "https://en.wikipedia.org/wiki/List_of_emperors_of_the_Mughal_Empire"
+        }
+      ],
+      "review": {
+        "status": "draft",
+        "notes": "Short card added from the completeness audit; checked only against Wikipedia."
+      },
+      "end": {
+        "date": "1555-06-22"
+      }
+    },
+    {
       "id": "humayun-restored",
       "kind": "monarch",
       "rulers": [
@@ -601,7 +797,9 @@
       "end": {
         "date": "1605-10-27"
       },
-      "contestedWith": [],
+      "contestedWith": [
+        "hemu"
+      ],
       "relationToPredecessor": "Son of Humayun",
       "ageAtAccession": "13",
       "cameToPower": "Crowned on a brick platform",
@@ -666,6 +864,60 @@
       "review": {
         "status": "draft",
         "notes": "Drafted from the listed sources; needs a human fact-check."
+      }
+    },
+    {
+      "id": "hemu",
+      "kind": "claimant",
+      "rulers": [
+        "hemu"
+      ],
+      "tagline": "The general who crowned himself in Delhi",
+      "start": {
+        "date": "1556-10-07"
+      },
+      "contestedWith": [
+        "akbar"
+      ],
+      "relationToPredecessor": "General of Adil Shah Suri",
+      "ageAtAccession": "About 55",
+      "cameToPower": "Took Delhi and was crowned",
+      "reignEnded": "Lost at Panipat, beheaded",
+      "previously": "Humayun dies falling down his library stairs.",
+      "paragraphs": [
+        "Hemu was a Hindu merchant who rose to command Adil Shah Suri's armies and won a long string of battles. After Humayun's death he took Agra and then Delhi, and was crowned there as Raja Vikramaditya.",
+        "A month later he met the teenage Akbar's army at the second battle of Panipat. He was winning until an arrow hit him in the eye. He was captured and beheaded."
+      ],
+      "claims": [],
+      "hook": "The boy Akbar's regent has saved the empire. Now Akbar has to grow up.",
+      "images": [
+        {
+          "file": "File:Hemu captured by Akbar's forces in 1556.jpg",
+          "url": "https://upload.wikimedia.org/wikipedia/commons/6/66/Hemu_captured_by_Akbar%27s_forces_in_1556.jpg",
+          "page": "https://commons.wikimedia.org/wiki/File:Hemu_captured_by_Akbar%27s_forces_in_1556.jpg",
+          "credit": "1602-03 artist",
+          "license": "Public domain",
+          "made": "1590",
+          "caption": "Hemu captured by Akbar's forces in 1556",
+          "alt": "Hemu captured by Akbar's forces in 1556"
+        }
+      ],
+      "sources": [
+        {
+          "title": "Hemu (Wikipedia)",
+          "url": "https://en.wikipedia.org/wiki/Hemu"
+        },
+        {
+          "title": "List of emperors of the Mughal Empire (Wikipedia)",
+          "url": "https://en.wikipedia.org/wiki/List_of_emperors_of_the_Mughal_Empire"
+        }
+      ],
+      "review": {
+        "status": "draft",
+        "notes": "Short card added from the completeness audit; checked only against Wikipedia."
+      },
+      "end": {
+        "date": "1556-11-05"
       }
     },
     {
@@ -750,6 +1002,62 @@
       }
     },
     {
+      "id": "dawar-bakhsh",
+      "kind": "monarch",
+      "rulers": [
+        "dawar-bakhsh"
+      ],
+      "tagline": "The stopgap emperor",
+      "start": {
+        "date": "1627-10-29",
+        "circa": true
+      },
+      "contestedWith": [
+        "shah-jahan"
+      ],
+      "relationToPredecessor": "Grandson of Jahangir",
+      "ageAtAccession": "About 14",
+      "cameToPower": "Set up by Asaf Khan",
+      "reignEnded": "Deposed when Shah Jahan arrived",
+      "previously": "Jahangir dies on the road from Kashmir.",
+      "paragraphs": [
+        "When Jahangir died, his son Khurram (the future Shah Jahan) was far away in the Deccan. His father-in-law Asaf Khan set up Dawar Bakhsh, a grandson of Jahangir, as a temporary emperor to hold the throne.",
+        "Meanwhile Empress Nur Jahan's candidate, Prince Shahryar, proclaimed himself at Lahore and was beaten. Once Shah Jahan arrived, Dawar Bakhsh was dropped. He was either killed or allowed to slip away to Persia."
+      ],
+      "claims": [],
+      "hook": "Shah Jahan is crowned, and his rivals are put to death.",
+      "images": [
+        {
+          "file": "File:Portrait of Dawar Bakhsh (cropped).jpg",
+          "url": "https://upload.wikimedia.org/wikipedia/commons/8/8a/Portrait_of_Dawar_Bakhsh_%28cropped%29.jpg",
+          "page": "https://commons.wikimedia.org/wiki/File:Portrait_of_Dawar_Bakhsh_(cropped).jpg",
+          "credit": "Indian School",
+          "license": "Public domain",
+          "made": "between 1625 and 1630date…",
+          "caption": "Portrait of Prince Davar Bakhsh (1603-28), grandson of Emperor Jahangir. He faces left against a dark green background and wears a six-pointed chakdar jama; a…",
+          "alt": "Portrait of Prince Davar Bakhsh (1603-28), grandson of Emperor Jahangir. He faces left against a dark green background and wears a six-pointed chakdar jama; a…"
+        }
+      ],
+      "sources": [
+        {
+          "title": "Dawar Bakhsh (Wikipedia)",
+          "url": "https://en.wikipedia.org/wiki/Dawar_Bakhsh"
+        },
+        {
+          "title": "List of emperors of the Mughal Empire (Wikipedia)",
+          "url": "https://en.wikipedia.org/wiki/List_of_emperors_of_the_Mughal_Empire"
+        }
+      ],
+      "review": {
+        "status": "draft",
+        "notes": "Short card added from the completeness audit; checked only against Wikipedia."
+      },
+      "end": {
+        "date": "1628-01-23",
+        "circa": true
+      }
+    },
+    {
       "id": "shah-jahan",
       "kind": "monarch",
       "rulers": [
@@ -762,7 +1070,9 @@
       "end": {
         "date": "1658-07-31"
       },
-      "contestedWith": [],
+      "contestedWith": [
+        "dawar-bakhsh"
+      ],
       "relationToPredecessor": "Son of Jahangir",
       "ageAtAccession": "36",
       "cameToPower": "Rivals cleared by his father-in-law",
@@ -902,6 +1212,60 @@
       }
     },
     {
+      "id": "azam-shah",
+      "kind": "monarch",
+      "rulers": [
+        "azam-shah"
+      ],
+      "tagline": "Aurangzeb's son who crowned himself",
+      "start": {
+        "date": "1707-03-14"
+      },
+      "contestedWith": [
+        "bahadur-shah-i"
+      ],
+      "relationToPredecessor": "Son of Aurangzeb",
+      "ageAtAccession": "53",
+      "cameToPower": "Crowned himself in the Deccan",
+      "reignEnded": "Killed at Jajau",
+      "previously": "Aurangzeb dies, and his sons race for the throne.",
+      "paragraphs": [
+        "Azam Shah was with his father's camp when Aurangzeb died, and immediately crowned himself emperor. His elder brother Muazzam marched from the north to fight him.",
+        "They met at Jajau near Agra in June 1707. Azam Shah and his sons were killed, and Muazzam became emperor as Bahadur Shah I."
+      ],
+      "claims": [],
+      "hook": "Bahadur Shah I takes over, and another brother, Kam Bakhsh, holds the Deccan.",
+      "images": [
+        {
+          "file": "File:Azam-Shah3.png",
+          "url": "https://upload.wikimedia.org/wikipedia/commons/4/4f/Azam-Shah3.png",
+          "page": "https://commons.wikimedia.org/wiki/File:Azam-Shah3.png",
+          "credit": "Gurkan1526",
+          "license": "CC0",
+          "made": "1675-01-17",
+          "caption": "Azam Shah",
+          "alt": "Azam Shah"
+        }
+      ],
+      "sources": [
+        {
+          "title": "Azam Shah (Wikipedia)",
+          "url": "https://en.wikipedia.org/wiki/Azam_Shah"
+        },
+        {
+          "title": "List of emperors of the Mughal Empire (Wikipedia)",
+          "url": "https://en.wikipedia.org/wiki/List_of_emperors_of_the_Mughal_Empire"
+        }
+      ],
+      "review": {
+        "status": "draft",
+        "notes": "Short card added from the completeness audit; checked only against Wikipedia."
+      },
+      "end": {
+        "date": "1707-06-20"
+      }
+    },
+    {
       "id": "bahadur-shah-i",
       "kind": "monarch",
       "rulers": [
@@ -914,7 +1278,9 @@
       "end": {
         "date": "1712-02-27"
       },
-      "contestedWith": [],
+      "contestedWith": [
+        "azam-shah"
+      ],
       "relationToPredecessor": "Son of Aurangzeb",
       "ageAtAccession": "63",
       "cameToPower": "Beat his brother Azam at Jajau",
@@ -974,7 +1340,19 @@
       "review": {
         "status": "draft",
         "notes": "Drafted from the listed sources; needs a human fact-check."
-      }
+      },
+      "members": [
+        {
+          "name": "Kam Bakhsh",
+          "start": {
+            "date": "1707-03"
+          },
+          "end": {
+            "date": "1709-01-14"
+          },
+          "note": "Brother who ruled as emperor in the Deccan and struck coins; killed in battle"
+        }
+      ]
     },
     {
       "id": "jahandar-shah",
@@ -1050,7 +1428,19 @@
       "review": {
         "status": "draft",
         "notes": "Drafted from the listed sources; needs a human fact-check."
-      }
+      },
+      "members": [
+        {
+          "name": "Azim-ush-Shan",
+          "start": {
+            "date": "1712-02-27"
+          },
+          "end": {
+            "date": "1712-03-17"
+          },
+          "note": "Brother and rival in the succession war; drowned fleeing defeat"
+        }
+      ]
     },
     {
       "id": "farrukhsiyar",
@@ -1266,7 +1656,19 @@
       "review": {
         "status": "draft",
         "notes": "Drafted from the listed sources; needs a human fact-check."
-      }
+      },
+      "members": [
+        {
+          "name": "Nikusiyar",
+          "start": {
+            "date": "1719-05-18"
+          },
+          "end": {
+            "date": "1719-08-13"
+          },
+          "note": "Rival proclaimed at Agra fort; captured"
+        }
+      ]
     },
     {
       "id": "muhammad-shah",
@@ -1347,7 +1749,19 @@
       "review": {
         "status": "draft",
         "notes": "Drafted from the listed sources; needs a human fact-check."
-      }
+      },
+      "members": [
+        {
+          "name": "Muhammad Ibrahim",
+          "start": {
+            "date": "1720-10"
+          },
+          "end": {
+            "date": "1720-11-13"
+          },
+          "note": "Set up in Delhi by the Sayyid brothers; beaten at Hasanpur"
+        }
+      ]
     },
     {
       "id": "ahmad-shah-bahadur",
@@ -1480,6 +1894,58 @@
       }
     },
     {
+      "id": "shah-jahan-iii",
+      "kind": "monarch",
+      "rulers": [
+        "shah-jahan-iii"
+      ],
+      "tagline": "A puppet set up by a kingmaker",
+      "start": {
+        "date": "1759-12-10"
+      },
+      "contestedWith": [],
+      "relationToPredecessor": "Great-grandson of Aurangzeb",
+      "ageAtAccession": "About 48",
+      "cameToPower": "Set up by Imad-ul-Mulk",
+      "reignEnded": "Deposed by the Marathas",
+      "previously": "Alamgir II is murdered by his own vizier.",
+      "paragraphs": [
+        "After the vizier Imad-ul-Mulk had Alamgir II murdered, he put Shah Jahan III on the throne as his puppet. The murdered emperor's son, Ali Gauhar, proclaimed himself Shah Alam II in exile.",
+        "Shah Jahan III never had real power. The Marathas, who took Delhi in 1760, deposed him in favour of Shah Alam II."
+      ],
+      "claims": [],
+      "hook": "Shah Alam II is emperor, but he can't even get into his own capital.",
+      "images": [
+        {
+          "file": "File:Muhi-ul-millat.png",
+          "url": "https://upload.wikimedia.org/wikipedia/commons/0/0e/Muhi-ul-millat.png",
+          "page": "https://commons.wikimedia.org/wiki/File:Muhi-ul-millat.png",
+          "credit": "Gurkan1526",
+          "license": "Public domain",
+          "made": "2023-11-14",
+          "caption": "Shah Jahan 3",
+          "alt": "Shah Jahan 3"
+        }
+      ],
+      "sources": [
+        {
+          "title": "Shah Jahan III (Wikipedia)",
+          "url": "https://en.wikipedia.org/wiki/Shah_Jahan_III"
+        },
+        {
+          "title": "List of emperors of the Mughal Empire (Wikipedia)",
+          "url": "https://en.wikipedia.org/wiki/List_of_emperors_of_the_Mughal_Empire"
+        }
+      ],
+      "review": {
+        "status": "draft",
+        "notes": "Short card added from the completeness audit; checked only against Wikipedia."
+      },
+      "end": {
+        "date": "1760-10-10"
+      }
+    },
+    {
       "id": "shah-alam-ii",
       "kind": "monarch",
       "rulers": [
@@ -1492,7 +1958,9 @@
       "end": {
         "date": "1806-11-19"
       },
-      "contestedWith": [],
+      "contestedWith": [
+        "bidar-bakht"
+      ],
       "relationToPredecessor": "Son of Alamgir II",
       "ageAtAccession": "32",
       "cameToPower": "Proclaimed himself in exile",
@@ -1553,6 +2021,62 @@
       "review": {
         "status": "draft",
         "notes": "Drafted from the listed sources; needs a human fact-check."
+      }
+    },
+    {
+      "id": "bidar-bakht",
+      "kind": "claimant",
+      "rulers": [
+        "bidar-bakht"
+      ],
+      "tagline": "Placed on the throne by Ghulam Qadir",
+      "start": {
+        "date": "1788-07-31",
+        "circa": true
+      },
+      "contestedWith": [
+        "shah-alam-ii"
+      ],
+      "relationToPredecessor": "Son of Ahmad Shah Bahadur",
+      "ageAtAccession": "About 39",
+      "cameToPower": "Put in by the Rohilla Ghulam Qadir",
+      "reignEnded": "Deposed when the Marathas came",
+      "previously": "Ghulam Qadir seizes Delhi and blinds Shah Alam II.",
+      "paragraphs": [
+        "In 1788 the Rohilla chief Ghulam Qadir took Delhi, blinded Shah Alam II and looted the palace. He put Bidar Bakht, a son of an earlier emperor, on the throne as Jahan Shah IV.",
+        "Two months later a Maratha army arrived. Ghulam Qadir fled and was caught and killed, and the blind Shah Alam II was restored."
+      ],
+      "claims": [],
+      "hook": "The blind Shah Alam II is back on his throne, under Maratha protection.",
+      "images": [
+        {
+          "file": "File:Prince Bedar Bakht Grandson of Aurangzeb and the Governor of Western Deccan enjoying music.jpg",
+          "url": "https://upload.wikimedia.org/wikipedia/commons/2/2b/Prince_Bedar_Bakht_Grandson_of_Aurangzeb_and_the_Governor_of_Western_Deccan_enjoying_music.jpg",
+          "page": "https://commons.wikimedia.org/wiki/File:Prince_Bedar_Bakht_Grandson_of_Aurangzeb_and_the_Governor_of_Western_Deccan_enjoying_music.jpg",
+          "credit": "anonymous",
+          "license": "Public domain",
+          "made": "between circa 1690 and circa 1710date…",
+          "caption": "Prince Bedar Bakht Grandson of Aurangzeb and the Governor of Western Deccan enjoying music. Paper, natural colour. Deccan, 1690-1710. National Museum, New…",
+          "alt": "Prince Bedar Bakht Grandson of Aurangzeb and the Governor of Western Deccan enjoying music. Paper, natural colour. Deccan, 1690-1710. National Museum, New…"
+        }
+      ],
+      "sources": [
+        {
+          "title": "Bidar Bakht (Wikipedia)",
+          "url": "https://en.wikipedia.org/wiki/Bidar_Bakht"
+        },
+        {
+          "title": "List of emperors of the Mughal Empire (Wikipedia)",
+          "url": "https://en.wikipedia.org/wiki/List_of_emperors_of_the_Mughal_Empire"
+        }
+      ],
+      "review": {
+        "status": "draft",
+        "notes": "Short card added from the completeness audit; checked only against Wikipedia."
+      },
+      "end": {
+        "date": "1788-10-11",
+        "circa": true
       }
     },
     {
