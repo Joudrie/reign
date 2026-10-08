@@ -14,6 +14,12 @@
       "name": "Revolutionary France",
       "color": "#55524a",
       "plain": true
+    },
+    {
+      "id": "genoa",
+      "name": "Republic of Genoa",
+      "color": "#6b5a7e",
+      "plain": true
     }
   ],
   "rulers": [
@@ -409,6 +415,82 @@
       "review": {
         "status": "draft",
         "notes": "Drafted from the listed sources; needs a human fact-check."
+      },
+      "members": [
+        {
+          "name": "Rainier I, Lord of Cagnes",
+          "start": {
+            "date": "1297-01-08"
+          },
+          "end": {
+            "date": "1301-04-10"
+          },
+          "note": "François's cousin, who shared the conquest"
+        }
+      ]
+    },
+    {
+      "id": "genoa-1301",
+      "kind": "interregnum",
+      "rulers": [],
+      "house": "genoa",
+      "title": "Genoese Monaco",
+      "members": [
+        {
+          "name": "Genoese garrison (Ghibelline faction)",
+          "start": {
+            "date": "1301-04-10"
+          },
+          "end": {
+            "date": "1331-09-12"
+          },
+          "note": "Held the Rock for Genoa; individual commanders are not recorded"
+        }
+      ],
+      "tagline": "The Rock back in Genoese hands",
+      "start": {
+        "date": "1301-04-10"
+      },
+      "contestedWith": [],
+      "relationToPredecessor": "Genoese rule",
+      "ageAtAccession": "Not applicable",
+      "cameToPower": "Grimaldis driven out",
+      "reignEnded": "Grimaldis returned",
+      "previously": "The Grimaldis lose Monaco four years after taking it.",
+      "paragraphs": [
+        "After François Grimaldi's famous capture of the Rock in 1297, the Grimaldis were driven out in 1301. Monaco went back to Genoa, which was itself torn between rival Guelph and Ghibelline factions.",
+        "Records of who actually held the fortress in these thirty years are thin. The Grimaldis, Guelph exiles from Genoa, kept fighting to return, and in 1331 Charles Grimaldi finally did."
+      ],
+      "claims": [],
+      "hook": "Charles Grimaldi retakes Monaco and builds it into a real lordship.",
+      "images": [
+        {
+          "file": "File:Monacoc1890.jpg",
+          "url": "https://upload.wikimedia.org/wikipedia/commons/a/a7/Monacoc1890.jpg",
+          "page": "https://commons.wikimedia.org/wiki/File:Monacoc1890.jpg",
+          "credit": "Unknown",
+          "license": "Public domain",
+          "made": "Date not recorded",
+          "caption": "The Rock of Monaco, photographed around 1890. No image survives of who held it for Genoa in 1301–1331.",
+          "alt": "The Rock of Monaco, photographed around 1890. No image survives of who held it for Genoa in 1301–1331."
+        }
+      ],
+      "sources": [
+        {
+          "title": "History of Monaco (Wikipedia)",
+          "url": "https://en.wikipedia.org/wiki/History_of_Monaco"
+        },
+        {
+          "title": "Wikipedia list of rulers",
+          "url": "https://en.wikipedia.org/wiki/History_of_Monaco"
+        }
+      ],
+      "review": {
+        "status": "draft",
+        "notes": "Short card added from the completeness audit; checked only against Wikipedia."
+      },
+      "end": {
+        "date": "1331-09-12"
       }
     },
     {
@@ -480,7 +562,29 @@
       "review": {
         "status": "draft",
         "notes": "Drafted from the listed sources; needs a human fact-check."
-      }
+      },
+      "members": [
+        {
+          "name": "Anthony I",
+          "start": {
+            "date": "1352-06-29"
+          },
+          "end": {
+            "date": "1357-08-15"
+          },
+          "note": "Charles's son and co-lord"
+        },
+        {
+          "name": "Gabriel",
+          "start": {
+            "date": "1352-06-29"
+          },
+          "end": {
+            "date": "1357-08-15"
+          },
+          "note": "Charles's son and co-lord"
+        }
+      ]
     },
     {
       "id": "lords-of-the-rock",
@@ -691,6 +795,84 @@
       }
     },
     {
+      "id": "genoa-1402",
+      "kind": "interregnum",
+      "rulers": [],
+      "house": "genoa",
+      "title": "Genoese Monaco",
+      "members": [
+        {
+          "name": "Boucicault",
+          "start": {
+            "date": "1401",
+            "circa": true
+          },
+          "end": {
+            "date": "1409",
+            "circa": true
+          },
+          "note": "French governor of Genoa"
+        },
+        {
+          "name": "Theodore II of Montferrat",
+          "start": {
+            "date": "1409",
+            "circa": true
+          },
+          "end": {
+            "date": "1413",
+            "circa": true
+          },
+          "note": "Captain of Genoa"
+        }
+      ],
+      "tagline": "Seventeen years without the Grimaldis",
+      "start": {
+        "date": "1402-11-05"
+      },
+      "contestedWith": [],
+      "relationToPredecessor": "Genoese rule",
+      "ageAtAccession": "Not applicable",
+      "cameToPower": "Louis Grimaldi lost Monaco",
+      "reignEnded": "The three Grimaldi brothers retook it",
+      "previously": "Louis Grimaldi loses Monaco to Genoa again.",
+      "paragraphs": [
+        "In 1402 Louis Grimaldi had to give Monaco back to Genoa, which was then ruled by the French and later by Montferrat. The fortress was held for Genoa through years of upheaval there.",
+        "In 1419 Louis's nephews, the brothers Jean, Ambroise and Antoine Grimaldi, retook the Rock. This time the family kept it."
+      ],
+      "claims": [],
+      "hook": "Jean Grimaldi and his brothers hold Monaco for good.",
+      "images": [
+        {
+          "file": "File:Genova-Palazzo Ducale da Piazza Matteotti.jpg",
+          "url": "https://upload.wikimedia.org/wikipedia/commons/d/df/Genova-Palazzo_Ducale_da_Piazza_Matteotti.jpg",
+          "page": "https://commons.wikimedia.org/wiki/File:Genova-Palazzo_Ducale_da_Piazza_Matteotti.jpg",
+          "credit": "Twice25",
+          "license": "CC BY 2.5",
+          "made": "4 January 2006, 10:59 (according to Exif data)",
+          "caption": "Genova - Palazzo Ducale - ingresso principale da Piazza Matteotti. Genoa, which held Monaco from 1402 to 1419.",
+          "alt": "Genova - Palazzo Ducale - ingresso principale da Piazza Matteotti. Genoa, which held Monaco from 1402 to 1419."
+        }
+      ],
+      "sources": [
+        {
+          "title": "History of Monaco (Wikipedia)",
+          "url": "https://en.wikipedia.org/wiki/History_of_Monaco"
+        },
+        {
+          "title": "Wikipedia list of rulers",
+          "url": "https://en.wikipedia.org/wiki/History_of_Monaco"
+        }
+      ],
+      "review": {
+        "status": "draft",
+        "notes": "Short card added from the completeness audit; checked only against Wikipedia."
+      },
+      "end": {
+        "date": "1419-06-05"
+      }
+    },
+    {
       "id": "jean-i",
       "kind": "monarch",
       "rulers": [
@@ -759,7 +941,31 @@
       "review": {
         "status": "draft",
         "notes": "Drafted from the listed sources; needs a human fact-check."
-      }
+      },
+      "members": [
+        {
+          "name": "Ambroise",
+          "start": {
+            "date": "1419-06-05"
+          },
+          "end": {
+            "date": "1427",
+            "circa": true
+          },
+          "note": "Brother and co-lord"
+        },
+        {
+          "name": "Antoine",
+          "start": {
+            "date": "1419-06-05"
+          },
+          "end": {
+            "date": "1427",
+            "circa": true
+          },
+          "note": "Brother and co-lord"
+        }
+      ]
     },
     {
       "id": "catalan",
