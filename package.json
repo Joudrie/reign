@@ -5,7 +5,9 @@
   "type": "module",
   "scripts": {
     "validate": "tsx scripts/validate.ts",
-    "typecheck": "tsc --noEmit"
+    "typecheck": "tsc --noEmit",
+    "build": "python3 scripts/build-site.py --sheets ../reign-sheets --out dist",
+    "test:e2e": "node tests/smoke.mjs"
   },
   "devDependencies": {
     "@types/node": "^26.6.4",
