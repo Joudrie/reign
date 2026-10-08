@@ -1090,6 +1090,139 @@
         "note": "Constantinople, late 1204"
       },
       "causeOfDeath": "Thrown from the Column of Theodosius"
+    },
+    {
+      "id": "leo-ii",
+      "name": "Leo II",
+      "house": "leonid",
+      "born": {
+        "date": "0467",
+        "circa": true
+      },
+      "died": {
+        "date": "0474-11"
+      }
+    },
+    {
+      "id": "basiliscus",
+      "name": "Basiliscus",
+      "house": "leonid",
+      "died": {
+        "date": "0477",
+        "circa": true
+      }
+    },
+    {
+      "id": "constantine-iii",
+      "name": "Constantine III",
+      "house": "heraclian",
+      "born": {
+        "date": "0612-05-03"
+      },
+      "died": {
+        "date": "0641-05-25"
+      }
+    },
+    {
+      "id": "heraklonas",
+      "name": "Heraklonas",
+      "house": "heraclian",
+      "born": {
+        "date": "0626",
+        "circa": true
+      }
+    },
+    {
+      "id": "artabasdos",
+      "name": "Artabasdos",
+      "house": "no-dynasty"
+    },
+    {
+      "id": "staurakios",
+      "name": "Staurakios",
+      "house": "nikephorian",
+      "died": {
+        "date": "0812-01-11"
+      }
+    },
+    {
+      "id": "michael-i",
+      "name": "Michael I Rangabe",
+      "house": "nikephorian",
+      "died": {
+        "date": "0844-01-11"
+      }
+    },
+    {
+      "id": "alexander",
+      "name": "Alexander",
+      "house": "macedonian",
+      "born": {
+        "date": "0870",
+        "circa": true
+      },
+      "died": {
+        "date": "0913-06-06"
+      }
+    },
+    {
+      "id": "eudokia-makrembolitissa",
+      "name": "Eudokia Makrembolitissa",
+      "house": "doukas",
+      "born": {
+        "date": "1021",
+        "circa": true
+      },
+      "died": {
+        "date": "1096",
+        "circa": true
+      }
+    },
+    {
+      "id": "alexios-ii",
+      "name": "Alexios II Komnenos",
+      "house": "komnenos",
+      "born": {
+        "date": "1169-09-14"
+      },
+      "died": {
+        "date": "1183-09"
+      }
+    },
+    {
+      "id": "john-iv",
+      "name": "John IV Laskaris",
+      "house": "laskaris",
+      "born": {
+        "date": "1250-12-25"
+      },
+      "died": {
+        "date": "1305",
+        "circa": true
+      }
+    },
+    {
+      "id": "andronikos-iv",
+      "name": "Andronikos IV",
+      "house": "palaiologos",
+      "born": {
+        "date": "1348-04-11"
+      },
+      "died": {
+        "date": "1385-06-28"
+      }
+    },
+    {
+      "id": "john-vii",
+      "name": "John VII",
+      "house": "palaiologos",
+      "born": {
+        "date": "1370",
+        "circa": true
+      },
+      "died": {
+        "date": "1408-09-22"
+      }
     }
   ],
   "reigns": [
@@ -1405,6 +1538,60 @@
       }
     },
     {
+      "id": "leo-ii",
+      "kind": "monarch",
+      "rulers": [
+        "leo-ii"
+      ],
+      "tagline": "The child emperor who crowned his father",
+      "start": {
+        "date": "0474-01-18"
+      },
+      "contestedWith": [
+        "zeno"
+      ],
+      "relationToPredecessor": "Grandson of Leo I",
+      "ageAtAccession": "About 7",
+      "cameToPower": "Named heir by his grandfather",
+      "reignEnded": "Died of illness, aged 7",
+      "previously": "Leo I dies, leaving a small grandson as heir.",
+      "paragraphs": [
+        "Leo II was the grandson of Leo I through his daughter Ariadne and the Isaurian general Zeno. He became sole emperor as a small boy when his grandfather died in January 1474.",
+        "Within weeks the Senate had him crown his own father Zeno as co-emperor. Leo died of illness that November, aged about seven, leaving Zeno to rule alone."
+      ],
+      "claims": [],
+      "hook": "The boy is dead, and his father Zeno now rules alone, an Isaurian the capital never trusted.",
+      "images": [
+        {
+          "file": "File:Solidus Leo II Zeno (cropped).jpg",
+          "url": "https://upload.wikimedia.org/wikipedia/commons/2/20/Solidus_Leo_II_Zeno_%28cropped%29.jpg",
+          "page": "https://commons.wikimedia.org/wiki/File:Solidus_Leo_II_Zeno_(cropped).jpg",
+          "credit": "unknown; image: Classical Numismatic Group, Inc.. CNG allows the use of any of…",
+          "license": "Public domain",
+          "made": "0474",
+          "caption": "Leo II, with Zeno. AD 474. AV Solidus (20mm, 4.47 g, 6h). Constantinople mint. D N LEO ET Z-ENO PP AVG, pearl-diademed, helmeted, and cuirassed bust facing…",
+          "alt": "Leo II, with Zeno. AD 474. AV Solidus (20mm, 4.47 g, 6h). Constantinople mint. D N LEO ET Z-ENO PP AVG, pearl-diademed, helmeted, and cuirassed bust facing…"
+        }
+      ],
+      "sources": [
+        {
+          "title": "Leo II (emperor) (Wikipedia)",
+          "url": "https://en.wikipedia.org/wiki/Leo_II_%28emperor%29"
+        },
+        {
+          "title": "List of Byzantine emperors (Wikipedia)",
+          "url": "https://en.wikipedia.org/wiki/List_of_Byzantine_emperors"
+        }
+      ],
+      "review": {
+        "status": "draft",
+        "notes": "Short card added from the completeness audit; checked only against Wikipedia."
+      },
+      "end": {
+        "date": "0474-11"
+      }
+    },
+    {
       "id": "zeno",
       "kind": "monarch",
       "rulers": [
@@ -1417,7 +1604,10 @@
       "end": {
         "date": "0491-04-09"
       },
-      "contestedWith": [],
+      "contestedWith": [
+        "leo-ii",
+        "basiliscus"
+      ],
       "relationToPredecessor": "Son-in-law of Leo I",
       "ageAtAccession": "About 49",
       "cameToPower": "Crowned by his own little son",
@@ -1476,6 +1666,60 @@
       "review": {
         "status": "draft",
         "notes": "Drafted from the listed sources; needs a human fact-check."
+      }
+    },
+    {
+      "id": "basiliscus",
+      "kind": "monarch",
+      "rulers": [
+        "basiliscus"
+      ],
+      "tagline": "The usurper who drove out Zeno",
+      "start": {
+        "date": "0475-01-09"
+      },
+      "contestedWith": [
+        "zeno"
+      ],
+      "relationToPredecessor": "Brother-in-law of Leo I",
+      "ageAtAccession": "Unknown",
+      "cameToPower": "Coup that drove Zeno out",
+      "reignEnded": "Zeno returned; starved to death",
+      "previously": "Zeno's own family plots against him.",
+      "paragraphs": [
+        "Basiliscus was the brother of Empress Verina, Leo I's widow. In 475 he and Verina organised a coup that sent Zeno fleeing back to his Isaurian homeland, and Basiliscus was crowned emperor.",
+        "He made enemies fast: he backed the Miaphysites against the Church, taxed heavily, and a great fire burned the city's library. In 476 his generals went over to Zeno. Basiliscus was exiled to Cappadocia and left to starve."
+      ],
+      "claims": [],
+      "hook": "Zeno marches back into Constantinople and takes up where he left off.",
+      "images": [
+        {
+          "file": "File:Solidus of Basiliscus and Marcus.png",
+          "url": "https://upload.wikimedia.org/wikipedia/commons/7/78/Solidus_of_Basiliscus_and_Marcus.png",
+          "page": "https://commons.wikimedia.org/wiki/File:Solidus_of_Basiliscus_and_Marcus.png",
+          "credit": "Lutz-Jürgen Lübke (photo)",
+          "license": "PDM-owner",
+          "made": "0475",
+          "caption": "Berlin, Münzkabinett der Staatlichen Museen Nomisma Coin Gallery Bode-Museum Room 242, BM39/37 The 5th Century Obverse: D N bASILISC-I ET MARCI C. 'Reverse:…",
+          "alt": "Berlin, Münzkabinett der Staatlichen Museen Nomisma Coin Gallery Bode-Museum Room 242, BM39/37 The 5th Century Obverse: D N bASILISC-I ET MARCI C. 'Reverse:…"
+        }
+      ],
+      "sources": [
+        {
+          "title": "Basiliscus (Wikipedia)",
+          "url": "https://en.wikipedia.org/wiki/Basiliscus"
+        },
+        {
+          "title": "List of Byzantine emperors (Wikipedia)",
+          "url": "https://en.wikipedia.org/wiki/List_of_Byzantine_emperors"
+        }
+      ],
+      "review": {
+        "status": "draft",
+        "notes": "Short card added from the completeness audit; checked only against Wikipedia."
+      },
+      "end": {
+        "date": "0476-08"
       }
     },
     {
@@ -2032,6 +2276,110 @@
       "review": {
         "status": "draft",
         "notes": "Drafted from the listed sources; needs a human fact-check."
+      }
+    },
+    {
+      "id": "constantine-iii",
+      "kind": "monarch",
+      "rulers": [
+        "constantine-iii"
+      ],
+      "tagline": "Heraclius's son, dead in three months",
+      "start": {
+        "date": "0641-02-11"
+      },
+      "contestedWith": [],
+      "relationToPredecessor": "Eldest son of Heraclius",
+      "ageAtAccession": "28",
+      "cameToPower": "Co-heir under his father's will",
+      "reignEnded": "Died of tuberculosis",
+      "previously": "Heraclius dies, leaving his throne to two sons by two wives.",
+      "paragraphs": [
+        "Heraclius left the empire jointly to Constantine, his son by his first wife, and Heraklonas, his son by his second wife and niece Martina. The court split between the two camps.",
+        "Constantine was already ill with tuberculosis. He died after about three months, and rumours spread that Martina had poisoned him."
+      ],
+      "claims": [],
+      "hook": "With Constantine dead, Martina and her son Heraklonas hold the palace, but the army is not convinced.",
+      "images": [
+        {
+          "file": "File:Heraclius 613-616.jpg",
+          "url": "https://upload.wikimedia.org/wikipedia/commons/6/6e/Heraclius_613-616.jpg",
+          "page": "https://commons.wikimedia.org/wiki/File:Heraclius_613-616.jpg",
+          "credit": "CNG Coins",
+          "license": "CC BY-SA 3.0",
+          "made": "2018-07-22",
+          "caption": "Gold solidus of Heraclius with his son Heraclius Constantine, the future Constantine III, struck 613–616.",
+          "alt": "Gold solidus of Heraclius with his son Heraclius Constantine, the future Constantine III, struck 613–616."
+        }
+      ],
+      "sources": [
+        {
+          "title": "Constantine III (emperor) (Wikipedia)",
+          "url": "https://en.wikipedia.org/wiki/Constantine_III_%28emperor%29"
+        },
+        {
+          "title": "List of Byzantine emperors (Wikipedia)",
+          "url": "https://en.wikipedia.org/wiki/List_of_Byzantine_emperors"
+        }
+      ],
+      "review": {
+        "status": "draft",
+        "notes": "Short card added from the completeness audit; checked only against Wikipedia."
+      },
+      "end": {
+        "date": "0641-05-25"
+      }
+    },
+    {
+      "id": "heraklonas",
+      "kind": "monarch",
+      "rulers": [
+        "heraklonas"
+      ],
+      "tagline": "Martina's son, mutilated and exiled",
+      "start": {
+        "date": "0641-05-25"
+      },
+      "contestedWith": [],
+      "relationToPredecessor": "Son of Heraclius and Martina",
+      "ageAtAccession": "15",
+      "cameToPower": "Sole emperor after his brother died",
+      "reignEnded": "Deposed; nose cut off",
+      "previously": "Constantine III dies, and Martina's son rules alone.",
+      "paragraphs": [
+        "Heraklonas was 15 and ruled through his mother Martina, whom the people of Constantinople loathed because she had married her own uncle. The army and crowd suspected them of killing Constantine III.",
+        "A general named Valentinus marched on the city and forced them to crown Constantine's son Constans as co-emperor. By autumn they were deposed: Heraklonas's nose was cut off and Martina's tongue cut out, and both were exiled to Rhodes."
+      ],
+      "claims": [],
+      "hook": "Constans II, just 11, is emperor, and the Arabs are taking Egypt.",
+      "images": [
+        {
+          "file": "File:Solidus Heraclius sb 767 (obverse).png",
+          "url": "https://upload.wikimedia.org/wikipedia/commons/6/6c/Solidus_Heraclius_sb_767_%28obverse%29.png",
+          "page": "https://commons.wikimedia.org/wiki/File:Solidus_Heraclius_sb_767_(obverse).png",
+          "credit": "CNG",
+          "license": "CC BY-SA 2.5",
+          "made": "0638",
+          "caption": "Heraclius, with Heraclius Constantine and Heraclonas. 610-641. AV Solidus (20mm, 4.35 g, 6h). Constantinople mint, 1st officina. Dated IY [indiction] 9…",
+          "alt": "Heraclius, with Heraclius Constantine and Heraclonas. 610-641. AV Solidus (20mm, 4.35 g, 6h). Constantinople mint, 1st officina. Dated IY [indiction] 9…"
+        }
+      ],
+      "sources": [
+        {
+          "title": "Heraklonas (Wikipedia)",
+          "url": "https://en.wikipedia.org/wiki/Heraklonas"
+        },
+        {
+          "title": "List of Byzantine emperors (Wikipedia)",
+          "url": "https://en.wikipedia.org/wiki/List_of_Byzantine_emperors"
+        }
+      ],
+      "review": {
+        "status": "draft",
+        "notes": "Short card added from the completeness audit; checked only against Wikipedia."
+      },
+      "end": {
+        "date": "0641-09"
       }
     },
     {
@@ -2849,6 +3197,60 @@
       }
     },
     {
+      "id": "artabasdos",
+      "kind": "claimant",
+      "rulers": [
+        "artabasdos"
+      ],
+      "tagline": "The usurper who restored the icons",
+      "start": {
+        "date": "0741-06",
+        "circa": true
+      },
+      "contestedWith": [],
+      "relationToPredecessor": "Brother-in-law of Constantine V",
+      "ageAtAccession": "Unknown",
+      "cameToPower": "Seized Constantinople",
+      "reignEnded": "Defeated, blinded and imprisoned",
+      "previously": "Leo III dies, and his son-in-law sees his chance.",
+      "paragraphs": [
+        "Artabasdos was married to Constantine V's sister and commanded a strong army in Anatolia. In 741 he attacked Constantine on the march, took Constantinople, and was crowned emperor.",
+        "He brought back the veneration of icons that Leo III had banned, which won him support in the city. Constantine fought back, besieged the capital, and retook it in November 743. Artabasdos and his sons were publicly blinded."
+      ],
+      "claims": [],
+      "hook": "Constantine V is back in his capital, and the icon-smashers are back in charge.",
+      "images": [
+        {
+          "file": "File:Solidus of Artabasdos.png",
+          "url": "https://upload.wikimedia.org/wikipedia/commons/f/f6/Solidus_of_Artabasdos.png",
+          "page": "https://commons.wikimedia.org/wiki/File:Solidus_of_Artabasdos.png",
+          "credit": "CNG Coins",
+          "license": "CC BY-SA 2.5",
+          "made": "8th centurydate QS:P,+750-00-00T00:00:00Z/7",
+          "caption": "Rare Solidus of Artabasdos, from his accession year. Constantinople mint. Struck 741/2. 6 APτAЧA-SDOS MЧLτ, crowned facing bust, holding patriarchal cross.",
+          "alt": "Rare Solidus of Artabasdos, from his accession year. Constantinople mint. Struck 741/2. 6 APτAЧA-SDOS MЧLτ, crowned facing bust, holding patriarchal cross."
+        }
+      ],
+      "sources": [
+        {
+          "title": "Artabasdos (Wikipedia)",
+          "url": "https://en.wikipedia.org/wiki/Artabasdos"
+        },
+        {
+          "title": "List of Byzantine emperors (Wikipedia)",
+          "url": "https://en.wikipedia.org/wiki/List_of_Byzantine_emperors"
+        }
+      ],
+      "review": {
+        "status": "draft",
+        "notes": "Short card added from the completeness audit; checked only against Wikipedia."
+      },
+      "end": {
+        "date": "0743-11-02",
+        "circa": true
+      }
+    },
+    {
       "id": "constantine-v",
       "kind": "monarch",
       "rulers": [
@@ -3231,6 +3633,110 @@
       "review": {
         "status": "draft",
         "notes": "Drafted from the listed sources; needs a human fact-check."
+      }
+    },
+    {
+      "id": "staurakios",
+      "kind": "monarch",
+      "rulers": [
+        "staurakios"
+      ],
+      "tagline": "The emperor carried off a battlefield",
+      "start": {
+        "date": "0811-07-26"
+      },
+      "contestedWith": [],
+      "relationToPredecessor": "Son of Nikephoros I",
+      "ageAtAccession": "About 20",
+      "cameToPower": "Proclaimed after his father died",
+      "reignEnded": "Abdicated, mortally wounded",
+      "previously": "Nikephoros I is killed by the Bulgars at Pliska.",
+      "paragraphs": [
+        "Staurakios survived the battle of Pliska, where the Bulgar khan Krum destroyed his father's army, but a sword wound had cut his spinal cord. He was proclaimed emperor while paralysed.",
+        "With no son, he hesitated to name an heir. The court backed his brother-in-law Michael Rangabe, and Staurakios abdicated after barely two months and became a monk. He died in January 812."
+      ],
+      "claims": [],
+      "hook": "His brother-in-law Michael takes the throne, and Krum is still out there.",
+      "images": [
+        {
+          "file": "File:Solidus of Nikephoros I & Staurakios.jpg",
+          "url": "https://upload.wikimedia.org/wikipedia/commons/f/f1/Solidus_of_Nikephoros_I_%26_Staurakios.jpg",
+          "page": "https://commons.wikimedia.org/wiki/File:Solidus_of_Nikephoros_I_%26_Staurakios.jpg",
+          "credit": "CNG",
+          "license": "CC BY-SA 2.5",
+          "made": "AD 803-811",
+          "caption": "Nicephorus I, with Stauracius. 802-811. AV Solidus (18mm, 4.46 g, 6h). Constantinople mint. Struck late 803-811. Crowned and draped bust of Nicephorus facing,…",
+          "alt": "Nicephorus I, with Stauracius. 802-811. AV Solidus (18mm, 4.46 g, 6h). Constantinople mint. Struck late 803-811. Crowned and draped bust of Nicephorus facing,…"
+        }
+      ],
+      "sources": [
+        {
+          "title": "Staurakios (Wikipedia)",
+          "url": "https://en.wikipedia.org/wiki/Staurakios"
+        },
+        {
+          "title": "List of Byzantine emperors (Wikipedia)",
+          "url": "https://en.wikipedia.org/wiki/List_of_Byzantine_emperors"
+        }
+      ],
+      "review": {
+        "status": "draft",
+        "notes": "Short card added from the completeness audit; checked only against Wikipedia."
+      },
+      "end": {
+        "date": "0811-10-02"
+      }
+    },
+    {
+      "id": "michael-i",
+      "kind": "monarch",
+      "rulers": [
+        "michael-i"
+      ],
+      "tagline": "The generous emperor who lost to Krum",
+      "start": {
+        "date": "0811-10-02"
+      },
+      "contestedWith": [],
+      "relationToPredecessor": "Brother-in-law of Staurakios",
+      "ageAtAccession": "About 40",
+      "cameToPower": "Backed by the court and army",
+      "reignEnded": "Abdicated after defeat",
+      "previously": "Staurakios is dying, and the court picks his brother-in-law.",
+      "paragraphs": [
+        "Michael was popular at first: he gave away money to the army, the church and the poor. He recognised Charlemagne as emperor in the West, ending a long quarrel.",
+        "Against the Bulgars he failed badly. In June 813 his army broke at Versinikia, and his general Leo the Armenian marched on the capital. Michael gave up the throne without a fight and lived another 30 years as a monk."
+      ],
+      "claims": [],
+      "hook": "Leo the Armenian takes the throne, with Krum at the city walls.",
+      "images": [
+        {
+          "file": "File:106 - Michael I Rangabe (Mutinensis - color).png",
+          "url": "https://upload.wikimedia.org/wikipedia/commons/9/90/106_-_Michael_I_Rangabe_%28Mutinensis_-_color%29.png",
+          "page": "https://commons.wikimedia.org/wiki/File:106_-_Michael_I_Rangabe_(Mutinensis_-_color).png",
+          "credit": "Unknown Byzantine scribes",
+          "license": "Public domain",
+          "made": "15th centurydate QS:P,+1450-00-00T00:00:00Z/7",
+          "caption": "The 106th imperial portrait in Mutinensis gr. 122, depicting Michael I Rangabe",
+          "alt": "The 106th imperial portrait in Mutinensis gr. 122, depicting Michael I Rangabe"
+        }
+      ],
+      "sources": [
+        {
+          "title": "Michael I Rangabe (Wikipedia)",
+          "url": "https://en.wikipedia.org/wiki/Michael_I_Rangabe"
+        },
+        {
+          "title": "List of Byzantine emperors (Wikipedia)",
+          "url": "https://en.wikipedia.org/wiki/List_of_Byzantine_emperors"
+        }
+      ],
+      "review": {
+        "status": "draft",
+        "notes": "Short card added from the completeness audit; checked only against Wikipedia."
+      },
+      "end": {
+        "date": "0813-07-11"
       }
     },
     {
@@ -3709,6 +4215,58 @@
       }
     },
     {
+      "id": "alexander",
+      "kind": "monarch",
+      "rulers": [
+        "alexander"
+      ],
+      "tagline": "The playboy uncle who provoked Bulgaria",
+      "start": {
+        "date": "0912-05-11"
+      },
+      "contestedWith": [],
+      "relationToPredecessor": "Brother of Leo VI",
+      "ageAtAccession": "41",
+      "cameToPower": "Succeeded his brother",
+      "reignEnded": "Died after a game of polo",
+      "previously": "Leo VI dies, and his brother takes over for his young son.",
+      "paragraphs": [
+        "Alexander had been co-emperor in name for decades and finally ruled alone after his brother Leo VI died. He sacked Leo's ministers and sent Leo's widow Zoe away from the palace.",
+        "He refused to keep paying tribute to Tsar Simeon of Bulgaria, starting a long and costly war. He died after about a year, reportedly of exhaustion after a game of polo, leaving his seven-year-old nephew."
+      ],
+      "claims": [],
+      "hook": "Constantine VII is seven, and Simeon of Bulgaria is marching on Constantinople.",
+      "images": [
+        {
+          "file": "File:Emperor Alexander deposes Patriarch Euthymios.jpg",
+          "url": "https://upload.wikimedia.org/wikipedia/commons/4/49/Emperor_Alexander_deposes_Patriarch_Euthymios.jpg",
+          "page": "https://commons.wikimedia.org/wiki/File:Emperor_Alexander_deposes_Patriarch_Euthymios.jpg",
+          "credit": "Unknown, 13th-century author",
+          "license": "Public domain",
+          "made": "2012-08-27",
+          "caption": "Emperor Alexander deposes Patriarch Euthymios",
+          "alt": "Emperor Alexander deposes Patriarch Euthymios"
+        }
+      ],
+      "sources": [
+        {
+          "title": "Alexander (Byzantine emperor) (Wikipedia)",
+          "url": "https://en.wikipedia.org/wiki/Alexander_%28Byzantine_emperor%29"
+        },
+        {
+          "title": "List of Byzantine emperors (Wikipedia)",
+          "url": "https://en.wikipedia.org/wiki/List_of_Byzantine_emperors"
+        }
+      ],
+      "review": {
+        "status": "draft",
+        "notes": "Short card added from the completeness audit; checked only against Wikipedia."
+      },
+      "end": {
+        "date": "0913-06-06"
+      }
+    },
+    {
       "id": "constantine-vii",
       "kind": "monarch",
       "rulers": [
@@ -3788,7 +4346,19 @@
       "review": {
         "status": "draft",
         "notes": "Drafted from the listed sources; needs a human fact-check."
-      }
+      },
+      "members": [
+        {
+          "name": "Stephen and Constantine Lekapenos",
+          "start": {
+            "date": "0944-12-16"
+          },
+          "end": {
+            "date": "0945-01-27"
+          },
+          "note": "Sons of Romanos I who deposed their father, then were themselves deposed"
+        }
+      ]
     },
     {
       "id": "romanos-ii",
@@ -4890,6 +5460,58 @@
       }
     },
     {
+      "id": "eudokia-makrembolitissa",
+      "kind": "monarch",
+      "rulers": [
+        "eudokia-makrembolitissa"
+      ],
+      "tagline": "The widow who broke her oath",
+      "start": {
+        "date": "1067-05-23"
+      },
+      "contestedWith": [],
+      "relationToPredecessor": "Widow of Constantine X",
+      "ageAtAccession": "About 46",
+      "cameToPower": "Regent for her sons",
+      "reignEnded": "Married Romanos Diogenes",
+      "previously": "Constantine X dies, leaving his widow in charge.",
+      "paragraphs": [
+        "Eudokia ruled as empress for her sons after her husband Constantine X died. He had made her swear never to remarry, to keep the throne safe for his family.",
+        "With the Seljuk Turks raiding Anatolia, she broke the oath and married the general Romanos Diogenes on New Year's Day 1068, making him emperor. After his defeat at Manzikert in 1071 she briefly ruled again before being sent to a convent."
+      ],
+      "claims": [],
+      "hook": "Romanos IV leads the army east to face the Seljuks.",
+      "images": [
+        {
+          "file": "File:135 - Eudokia Makrembolitissa (Mutinensis - color).png",
+          "url": "https://upload.wikimedia.org/wikipedia/commons/a/a2/135_-_Eudokia_Makrembolitissa_%28Mutinensis_-_color%29.png",
+          "page": "https://commons.wikimedia.org/wiki/File:135_-_Eudokia_Makrembolitissa_(Mutinensis_-_color).png",
+          "credit": "Unknown Byzantine scribes",
+          "license": "Public domain",
+          "made": "15th centurydate QS:P,+1450-00-00T00:00:00Z/7",
+          "caption": "The 135th imperial portrait in Mutinensis gr. 122, depicting Eudokia Makrembolitissa",
+          "alt": "The 135th imperial portrait in Mutinensis gr. 122, depicting Eudokia Makrembolitissa"
+        }
+      ],
+      "sources": [
+        {
+          "title": "Eudokia Makrembolitissa (Wikipedia)",
+          "url": "https://en.wikipedia.org/wiki/Eudokia_Makrembolitissa"
+        },
+        {
+          "title": "List of Byzantine emperors (Wikipedia)",
+          "url": "https://en.wikipedia.org/wiki/List_of_Byzantine_emperors"
+        }
+      ],
+      "review": {
+        "status": "draft",
+        "notes": "Short card added from the completeness audit; checked only against Wikipedia."
+      },
+      "end": {
+        "date": "1067-12-31"
+      }
+    },
+    {
       "id": "romanos-iv",
       "kind": "monarch",
       "rulers": [
@@ -5376,6 +5998,58 @@
       }
     },
     {
+      "id": "alexios-ii",
+      "kind": "monarch",
+      "rulers": [
+        "alexios-ii"
+      ],
+      "tagline": "The boy emperor strangled by his regent",
+      "start": {
+        "date": "1180-09-24"
+      },
+      "contestedWith": [],
+      "relationToPredecessor": "Son of Manuel I",
+      "ageAtAccession": "11",
+      "cameToPower": "Succeeded his father",
+      "reignEnded": "Strangled on Andronikos's orders",
+      "previously": "Manuel I dies, leaving an 11-year-old heir.",
+      "paragraphs": [
+        "Alexios II was 11 when his father Manuel I died. His mother Maria of Antioch ruled for him, but as a Latin she was hated in the capital, and her favourites were worse.",
+        "In 1182 Manuel's cousin Andronikos marched on the city amid a massacre of its Latin residents. He made himself co-emperor and in 1183 had the boy strangled, then married his 12-year-old widow."
+      ],
+      "claims": [],
+      "hook": "Andronikos I rules alone, and the terror begins.",
+      "images": [
+        {
+          "file": "File:Manuel I, Maria and Alexios II (Vat.gr.1851 folio 7r).jpg",
+          "url": "https://upload.wikimedia.org/wikipedia/commons/7/77/Manuel_I%2C_Maria_and_Alexios_II_%28Vat.gr.1851_folio_7r%29.jpg",
+          "page": "https://commons.wikimedia.org/wiki/File:Manuel_I,_Maria_and_Alexios_II_(Vat.gr.1851_folio_7r).jpg",
+          "credit": "Unknown Byzantine artist",
+          "license": "Public domain",
+          "made": "12th–14th centuries",
+          "caption": "An anonymous Byzantine Emperor alongside his wife and their young son (left). Sometimes identified as Manuel I Komnenos and his family. See: Spatharakis,…",
+          "alt": "An anonymous Byzantine Emperor alongside his wife and their young son (left). Sometimes identified as Manuel I Komnenos and his family. See: Spatharakis,…"
+        }
+      ],
+      "sources": [
+        {
+          "title": "Alexios II Komnenos (Wikipedia)",
+          "url": "https://en.wikipedia.org/wiki/Alexios_II_Komnenos"
+        },
+        {
+          "title": "List of Byzantine emperors (Wikipedia)",
+          "url": "https://en.wikipedia.org/wiki/List_of_Byzantine_emperors"
+        }
+      ],
+      "review": {
+        "status": "draft",
+        "notes": "Short card added from the completeness audit; checked only against Wikipedia."
+      },
+      "end": {
+        "date": "1183-09"
+      }
+    },
+    {
       "id": "andronikos-i",
       "kind": "monarch",
       "rulers": [
@@ -5782,7 +6456,19 @@
       "review": {
         "status": "draft",
         "notes": "Drafted from the listed sources; needs a human fact-check."
-      }
+      },
+      "members": [
+        {
+          "name": "Nicholas Kanabos",
+          "start": {
+            "date": "1204-01-27"
+          },
+          "end": {
+            "date": "1204-02-05"
+          },
+          "note": "Young noble proclaimed emperor by the crowd; refused, then killed"
+        }
+      ]
     },
     {
       "id": "theodore-i",
@@ -6005,6 +6691,60 @@
       }
     },
     {
+      "id": "john-iv",
+      "kind": "monarch",
+      "rulers": [
+        "john-iv"
+      ],
+      "tagline": "The boy blinded on his birthday",
+      "start": {
+        "date": "1258-08-16"
+      },
+      "contestedWith": [
+        "michael-viii"
+      ],
+      "relationToPredecessor": "Son of Theodore II",
+      "ageAtAccession": "7",
+      "cameToPower": "Succeeded his father",
+      "reignEnded": "Blinded by Michael VIII",
+      "previously": "Theodore II dies, leaving a seven-year-old son.",
+      "paragraphs": [
+        "John IV was seven when he became emperor at Nicaea. His regent was murdered within days, and the nobleman Michael Palaiologos took over as regent and then co-emperor.",
+        "After Michael's men retook Constantinople in 1261, he was crowned there alone. On Christmas Day 1261, John's eleventh birthday, Michael had him blinded and locked in a fortress, where he lived for over 40 more years."
+      ],
+      "claims": [],
+      "hook": "Michael VIII rules from Constantinople, and the Church excommunicates him.",
+      "images": [
+        {
+          "file": "File:151 - John IV Laskaris (Mutinensis - color).png",
+          "url": "https://upload.wikimedia.org/wikipedia/commons/2/26/151_-_John_IV_Laskaris_%28Mutinensis_-_color%29.png",
+          "page": "https://commons.wikimedia.org/wiki/File:151_-_John_IV_Laskaris_(Mutinensis_-_color).png",
+          "credit": "Unknown Byzantine scribes",
+          "license": "Public domain",
+          "made": "15th centurydate QS:P,+1450-00-00T00:00:00Z/7",
+          "caption": "The 151st imperial portrait in Mutinensis gr. 122, depicting John IV Laskaris",
+          "alt": "The 151st imperial portrait in Mutinensis gr. 122, depicting John IV Laskaris"
+        }
+      ],
+      "sources": [
+        {
+          "title": "John IV Laskaris (Wikipedia)",
+          "url": "https://en.wikipedia.org/wiki/John_IV_Laskaris"
+        },
+        {
+          "title": "List of Byzantine emperors (Wikipedia)",
+          "url": "https://en.wikipedia.org/wiki/List_of_Byzantine_emperors"
+        }
+      ],
+      "review": {
+        "status": "draft",
+        "notes": "Short card added from the completeness audit; checked only against Wikipedia."
+      },
+      "end": {
+        "date": "1261-12-25"
+      }
+    },
+    {
       "id": "michael-viii",
       "kind": "monarch",
       "rulers": [
@@ -6017,7 +6757,9 @@
       "end": {
         "date": "1282-12-11"
       },
-      "contestedWith": [],
+      "contestedWith": [
+        "john-iv"
+      ],
       "relationToPredecessor": "Regent for John IV",
       "ageAtAccession": "About 35",
       "cameToPower": "Made co-emperor, then blinded John IV",
@@ -6396,6 +7138,110 @@
       "review": {
         "status": "draft",
         "notes": "Drafted from the listed sources; needs a human fact-check."
+      }
+    },
+    {
+      "id": "andronikos-iv",
+      "kind": "monarch",
+      "rulers": [
+        "andronikos-iv"
+      ],
+      "tagline": "The son who jailed his father",
+      "start": {
+        "date": "1376-08-12"
+      },
+      "contestedWith": [],
+      "relationToPredecessor": "Son of John V",
+      "ageAtAccession": "28",
+      "cameToPower": "Took Constantinople with Ottoman help",
+      "reignEnded": "His father escaped and returned",
+      "previously": "John V is a vassal of the Ottomans, and his son rebels.",
+      "paragraphs": [
+        "Andronikos had already tried to overthrow his father once and been partly blinded for it. In 1376, with Genoese and Ottoman support, he took Constantinople and imprisoned John V.",
+        "He paid the Ottomans by handing them Gallipoli. In 1379 John V escaped and returned with Ottoman and Venetian help, and Andronikos fled, though he kept lands on the Sea of Marmara."
+      ],
+      "claims": [],
+      "hook": "John V is back on his throne, still paying tribute to the Ottomans.",
+      "images": [
+        {
+          "file": "File:Basilikon of Andronikos IV (obverse).png",
+          "url": "https://upload.wikimedia.org/wikipedia/commons/c/ce/Basilikon_of_Andronikos_IV_%28obverse%29.png",
+          "page": "https://commons.wikimedia.org/wiki/File:Basilikon_of_Andronikos_IV_(obverse).png",
+          "credit": "CNG",
+          "license": "CC BY-SA 2.5",
+          "made": "between 1376 and 1379date…",
+          "caption": "Andronikos IV Palaiologos (r. 1376-1379), emperor against John V (r. 1341-1391)",
+          "alt": "Andronikos IV Palaiologos (r. 1376-1379), emperor against John V (r. 1341-1391)"
+        }
+      ],
+      "sources": [
+        {
+          "title": "Andronikos IV Palaiologos (Wikipedia)",
+          "url": "https://en.wikipedia.org/wiki/Andronikos_IV_Palaiologos"
+        },
+        {
+          "title": "List of Byzantine emperors (Wikipedia)",
+          "url": "https://en.wikipedia.org/wiki/List_of_Byzantine_emperors"
+        }
+      ],
+      "review": {
+        "status": "draft",
+        "notes": "Short card added from the completeness audit; checked only against Wikipedia."
+      },
+      "end": {
+        "date": "1379-07-01"
+      }
+    },
+    {
+      "id": "john-vii",
+      "kind": "monarch",
+      "rulers": [
+        "john-vii"
+      ],
+      "tagline": "The grandson who seized the city",
+      "start": {
+        "date": "1390-04-14"
+      },
+      "contestedWith": [],
+      "relationToPredecessor": "Grandson of John V",
+      "ageAtAccession": "About 20",
+      "cameToPower": "Took Constantinople by coup",
+      "reignEnded": "Driven out by Manuel II",
+      "previously": "Andronikos IV's son wants his father's throne.",
+      "paragraphs": [
+        "John VII, the son of Andronikos IV, seized Constantinople from his grandfather John V in April 1390 with backing from the Ottoman sultan Bayezid.",
+        "His uncle Manuel drove him out after five months. The two were later reconciled, and John VII governed Constantinople as regent while Manuel toured Europe begging for help against the Ottomans."
+      ],
+      "claims": [],
+      "hook": "John V is restored, but only for a few months more.",
+      "images": [
+        {
+          "file": "File:Half Stavraton John VII.jpg",
+          "url": "https://upload.wikimedia.org/wikipedia/commons/e/e0/Half_Stavraton_John_VII.jpg",
+          "page": "https://commons.wikimedia.org/wiki/File:Half_Stavraton_John_VII.jpg",
+          "credit": "Unknown authorUnknown author",
+          "license": "Public domain",
+          "made": "2013-07-31 22:38:37",
+          "caption": "John VII Palaeologus (1399-1403). AR half Stavraton (quarter hyperpyron). Constantinople. IC-XC, Bust of Christ Pantocrator, with cross nimbus, wearing…",
+          "alt": "John VII Palaeologus (1399-1403). AR half Stavraton (quarter hyperpyron). Constantinople. IC-XC, Bust of Christ Pantocrator, with cross nimbus, wearing…"
+        }
+      ],
+      "sources": [
+        {
+          "title": "John VII Palaiologos (Wikipedia)",
+          "url": "https://en.wikipedia.org/wiki/John_VII_Palaiologos"
+        },
+        {
+          "title": "List of Byzantine emperors (Wikipedia)",
+          "url": "https://en.wikipedia.org/wiki/List_of_Byzantine_emperors"
+        }
+      ],
+      "review": {
+        "status": "draft",
+        "notes": "Short card added from the completeness audit; checked only against Wikipedia."
+      },
+      "end": {
+        "date": "1390-09-17"
       }
     },
     {
