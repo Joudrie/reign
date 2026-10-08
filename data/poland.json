@@ -969,6 +969,46 @@
         "date": "2020-03-03",
         "note": "Warsaw"
       }
+    },
+    {
+      "id": "bezprym",
+      "name": "Bezprym",
+      "house": "piast",
+      "died": {
+        "date": "1032",
+        "circa": true
+      }
+    },
+    {
+      "id": "boleslaw-ii-masovia",
+      "name": "Bolesław II of Masovia",
+      "house": "piast",
+      "died": {
+        "date": "1313",
+        "circa": true
+      }
+    },
+    {
+      "id": "narutowicz",
+      "name": "Gabriel Narutowicz",
+      "house": "second-republic",
+      "born": {
+        "date": "1865-03-29"
+      },
+      "died": {
+        "date": "1922-12-16"
+      }
+    },
+    {
+      "id": "wojciechowski",
+      "name": "Stanisław Wojciechowski",
+      "house": "second-republic",
+      "born": {
+        "date": "1869-03-15"
+      },
+      "died": {
+        "date": "1953-04-09"
+      }
     }
   ],
   "reigns": [
@@ -1148,7 +1188,9 @@
       "end": {
         "date": "1034-05"
       },
-      "contestedWith": [],
+      "contestedWith": [
+        "bezprym"
+      ],
       "relationToPredecessor": "Son of Bolesław I",
       "ageAtAccession": "About 35",
       "cameToPower": "Succeeded his father and was crowned",
@@ -1209,6 +1251,74 @@
       "review": {
         "status": "draft",
         "notes": "Drafted from the listed sources; needs a human fact-check."
+      },
+      "members": [
+        {
+          "name": "Otto Bolesławowic",
+          "start": {
+            "date": "1032",
+            "circa": true
+          },
+          "end": {
+            "date": "1033",
+            "circa": true
+          },
+          "note": "Younger brother who held part of Poland after Bezprym's death"
+        }
+      ]
+    },
+    {
+      "id": "bezprym",
+      "kind": "monarch",
+      "rulers": [
+        "bezprym"
+      ],
+      "tagline": "The brother who sent the crown to Germany",
+      "start": {
+        "date": "1031"
+      },
+      "contestedWith": [
+        "mieszko-ii"
+      ],
+      "relationToPredecessor": "Elder half-brother of Mieszko II",
+      "ageAtAccession": "About 45",
+      "cameToPower": "Drove out Mieszko with foreign help",
+      "reignEnded": "Murdered",
+      "previously": "Mieszko II is attacked from east and west at once.",
+      "paragraphs": [
+        "Bezprym, Bolesław I's eldest son, had been pushed aside in favour of his half-brother Mieszko II. In 1031, with Kievan and German support, he drove Mieszko out of Poland.",
+        "He sent the royal crown and regalia to the German emperor and ruled as a duke. His rule was harsh, and in 1032 he was murdered, probably with his brothers' help."
+      ],
+      "claims": [],
+      "hook": "Mieszko II comes back, but Poland is falling apart.",
+      "images": [
+        {
+          "file": "File:Polska1032.jpg",
+          "url": "https://upload.wikimedia.org/wikipedia/commons/a/aa/Polska1032.jpg",
+          "page": "https://commons.wikimedia.org/wiki/File:Polska1032.jpg",
+          "credit": "Himislav12",
+          "license": "CC BY-SA 4.0",
+          "made": "2022-12-09",
+          "caption": "Map of Poland around 1032, when Bezprym ruled. No portrait of him survives.",
+          "alt": "Map of Poland around 1032, when Bezprym ruled"
+        }
+      ],
+      "sources": [
+        {
+          "title": "Bezprym (Wikipedia)",
+          "url": "https://en.wikipedia.org/wiki/Bezprym"
+        },
+        {
+          "title": "List of Polish monarchs (Wikipedia)",
+          "url": "https://en.wikipedia.org/wiki/List_of_Polish_monarchs"
+        }
+      ],
+      "review": {
+        "status": "draft",
+        "notes": "Short card added from the completeness audit; checked only against Wikipedia."
+      },
+      "end": {
+        "date": "1032"
       }
     },
     {
@@ -1523,7 +1633,20 @@
       "review": {
         "status": "draft",
         "notes": "Drafted from the listed sources; needs a human fact-check."
-      }
+      },
+      "members": [
+        {
+          "name": "Zbigniew",
+          "start": {
+            "date": "1102-06-04"
+          },
+          "end": {
+            "date": "1107",
+            "circa": true
+          },
+          "note": "Half-brother who shared the duchy until Bolesław drove him out and blinded him"
+        }
+      ]
     },
     {
       "id": "wladyslaw-the-exile",
@@ -2861,7 +2984,9 @@
       "end": {
         "date": "1290-06-23"
       },
-      "contestedWith": [],
+      "contestedWith": [
+        "boleslaw-ii-masovia"
+      ],
       "relationToPredecessor": "Grandson of Henry the Pious",
       "ageAtAccession": "About 31",
       "cameToPower": "Fought his way into Kraków",
@@ -2926,6 +3051,62 @@
       "review": {
         "status": "draft",
         "notes": "Drafted from the listed sources; needs a human fact-check."
+      }
+    },
+    {
+      "id": "boleslaw-ii-masovia",
+      "kind": "monarch",
+      "rulers": [
+        "boleslaw-ii-masovia"
+      ],
+      "tagline": "Duke of Kraków for two months",
+      "start": {
+        "date": "1288-10",
+        "circa": true
+      },
+      "contestedWith": [
+        "henry-probus"
+      ],
+      "relationToPredecessor": "Grandson of Konrad of Masovia",
+      "ageAtAccession": "About 37",
+      "cameToPower": "Invited by Kraków's nobles",
+      "reignEnded": "Driven out by Henry Probus",
+      "previously": "Leszek the Black dies childless.",
+      "paragraphs": [
+        "When Leszek II died in 1288, part of the Kraków nobility invited Bolesław of Masovia to take the senior throne.",
+        "He held Kraków for only a few weeks before Henry IV Probus of Silesia, backed by the city's German townsmen, drove him out. Bolesław went back to rule Masovia for another 25 years."
+      ],
+      "claims": [],
+      "hook": "Henry Probus takes Kraków and dreams of a crown.",
+      "images": [
+        {
+          "file": "File:Bolesław II.jpg",
+          "url": "https://upload.wikimedia.org/wikipedia/commons/3/33/Boles%C5%82aw_II.jpg",
+          "page": "https://commons.wikimedia.org/wiki/File:Boles%C5%82aw_II.jpg",
+          "credit": "Unknown authorUnknown author",
+          "license": "Public domain",
+          "made": "XV century (1877 reproduction)",
+          "caption": "Bolesław II",
+          "alt": "Bolesław II"
+        }
+      ],
+      "sources": [
+        {
+          "title": "Bolesław II of Masovia (Wikipedia)",
+          "url": "https://en.wikipedia.org/wiki/Boles%C5%82aw_II_of_Masovia"
+        },
+        {
+          "title": "List of Polish monarchs (Wikipedia)",
+          "url": "https://en.wikipedia.org/wiki/List_of_Polish_monarchs"
+        }
+      ],
+      "review": {
+        "status": "draft",
+        "notes": "Short card added from the completeness audit; checked only against Wikipedia."
+      },
+      "end": {
+        "date": "1288-12",
+        "circa": true
       }
     },
     {
@@ -4188,7 +4369,19 @@
       "review": {
         "status": "draft",
         "notes": "Drafted from the listed sources; needs a human fact-check."
-      }
+      },
+      "members": [
+        {
+          "name": "Anna Jagiellon",
+          "start": {
+            "date": "1576-05-01"
+          },
+          "end": {
+            "date": "1586-12-12"
+          },
+          "note": "Crowned co-monarch with her husband Stephen Báthory"
+        }
+      ]
     },
     {
       "id": "sigismund-iii",
@@ -4716,6 +4909,60 @@
       }
     },
     {
+      "id": "leszczynski-second",
+      "kind": "claimant",
+      "rulers": [
+        "stanislaw-i"
+      ],
+      "tagline": "Elected again, chased out again",
+      "start": {
+        "date": "1733-09-12"
+      },
+      "contestedWith": [
+        "augustus-iii"
+      ],
+      "relationToPredecessor": "Father-in-law of Louis XV",
+      "ageAtAccession": "56",
+      "cameToPower": "Elected by the Sejm",
+      "reignEnded": "Abdicated after losing the war",
+      "previously": "Augustus II dies, and the nobles want a Polish king.",
+      "paragraphs": [
+        "After Augustus II died, most of the nobles elected Stanisław Leszczyński again, backed by his son-in-law Louis XV of France. Russia and Austria sent an army and had a minority elect Augustus III instead.",
+        "Stanisław was besieged in Gdańsk and escaped disguised as a peasant. He abdicated in 1736 and was given the Duchy of Lorraine, where he spent the rest of his life."
+      ],
+      "claims": [],
+      "hook": "Augustus III rules Poland, mostly from Dresden.",
+      "images": [
+        {
+          "file": "File:2012-05-14 - Statue of Stanislas Leszczyński on Place Stanislas in Nancy.jpg",
+          "url": "https://upload.wikimedia.org/wikipedia/commons/c/ca/2012-05-14_-_Statue_of_Stanislas_Leszczy%C5%84ski_on_Place_Stanislas_in_Nancy.jpg",
+          "page": "https://commons.wikimedia.org/wiki/File:2012-05-14_-_Statue_of_Stanislas_Leszczy%C5%84ski_on_Place_Stanislas_in_Nancy.jpg",
+          "credit": "PierreSelim",
+          "license": "CC BY 3.0",
+          "made": "2012-05-14",
+          "caption": "Statue of Stanislas Leszczyński on Place Stanislas in Nancy",
+          "alt": "Statue of Stanislas Leszczyński on Place Stanislas in Nancy"
+        }
+      ],
+      "sources": [
+        {
+          "title": "Stanisław Leszczyński (Wikipedia)",
+          "url": "https://en.wikipedia.org/wiki/Stanis%C5%82aw_Leszczy%C5%84ski"
+        },
+        {
+          "title": "List of Polish monarchs (Wikipedia)",
+          "url": "https://en.wikipedia.org/wiki/List_of_Polish_monarchs"
+        }
+      ],
+      "review": {
+        "status": "draft",
+        "notes": "Short card added from the completeness audit; checked only against Wikipedia."
+      },
+      "end": {
+        "date": "1736-01-26"
+      }
+    },
+    {
       "id": "augustus-iii",
       "kind": "monarch",
       "rulers": [
@@ -4728,7 +4975,9 @@
       "end": {
         "date": "1763-10-05"
       },
-      "contestedWith": [],
+      "contestedWith": [
+        "leszczynski-second"
+      ],
       "relationToPredecessor": "Son of Augustus II",
       "ageAtAccession": "36",
       "cameToPower": "Elected with Russian troops",
@@ -5144,7 +5393,10 @@
       "end": {
         "date": "1935-05-12"
       },
-      "contestedWith": [],
+      "contestedWith": [
+        "narutowicz",
+        "wojciechowski"
+      ],
       "relationToPredecessor": "First leader of reborn Poland",
       "ageAtAccession": "50",
       "cameToPower": "Handed power by the Regency Council",
@@ -5205,6 +5457,114 @@
       "review": {
         "status": "draft",
         "notes": "Drafted from the listed sources; needs a human fact-check."
+      }
+    },
+    {
+      "id": "narutowicz",
+      "kind": "leader",
+      "rulers": [
+        "narutowicz"
+      ],
+      "tagline": "President for five days",
+      "start": {
+        "date": "1922-12-11"
+      },
+      "contestedWith": [
+        "pilsudski"
+      ],
+      "relationToPredecessor": "Elected by the National Assembly",
+      "ageAtAccession": "57",
+      "cameToPower": "Elected first President",
+      "reignEnded": "Assassinated at an art gallery",
+      "previously": "Poland elects its first President.",
+      "paragraphs": [
+        "Narutowicz, an engineer, was elected Poland's first President in December 1922 with votes from the left and from minority parties. The nationalist right called him the President of the Jews and rioted.",
+        "Five days after taking office he was shot dead at the Zachęta art gallery in Warsaw by a nationalist painter."
+      ],
+      "claims": [],
+      "hook": "Shocked, the Assembly elects Stanisław Wojciechowski.",
+      "images": [
+        {
+          "file": "File:Gabriel Narutowicz.jpg",
+          "url": "https://upload.wikimedia.org/wikipedia/commons/8/8e/Gabriel_Narutowicz.jpg",
+          "page": "https://commons.wikimedia.org/wiki/File:Gabriel_Narutowicz.jpg",
+          "credit": "UnknownUnknown , official photo",
+          "license": "Public domain",
+          "made": "1922",
+          "caption": "Gabriel Narutowicz (1865-1922), Polish president",
+          "alt": "Gabriel Narutowicz (1865-1922), Polish president"
+        }
+      ],
+      "sources": [
+        {
+          "title": "Gabriel Narutowicz (Wikipedia)",
+          "url": "https://en.wikipedia.org/wiki/Gabriel_Narutowicz"
+        },
+        {
+          "title": "List of Polish monarchs (Wikipedia)",
+          "url": "https://en.wikipedia.org/wiki/List_of_Polish_monarchs"
+        }
+      ],
+      "review": {
+        "status": "draft",
+        "notes": "Short card added from the completeness audit; checked only against Wikipedia."
+      },
+      "end": {
+        "date": "1922-12-16"
+      }
+    },
+    {
+      "id": "wojciechowski",
+      "kind": "leader",
+      "rulers": [
+        "wojciechowski"
+      ],
+      "tagline": "The President Piłsudski overthrew",
+      "start": {
+        "date": "1922-12-20"
+      },
+      "contestedWith": [
+        "pilsudski"
+      ],
+      "relationToPredecessor": "Former ally of Piłsudski",
+      "ageAtAccession": "53",
+      "cameToPower": "Elected after Narutowicz's murder",
+      "reignEnded": "Resigned after Piłsudski's coup",
+      "previously": "Narutowicz is murdered, and a new President is elected.",
+      "paragraphs": [
+        "Wojciechowski, an old socialist comrade of Piłsudski, was elected President after Narutowicz's murder. Governments came and went quickly under him.",
+        "In May 1926 Piłsudski marched on Warsaw. Wojciechowski met him on the Poniatowski Bridge and refused to let him pass; after three days of fighting he resigned."
+      ],
+      "claims": [],
+      "hook": "Piłsudski is in charge again, this time for good.",
+      "images": [
+        {
+          "file": "File:President Stanislaw Wojciechowski in Pruszkow Transit Camp.jpg",
+          "url": "https://upload.wikimedia.org/wikipedia/commons/c/c7/President_Stanislaw_Wojciechowski_in_Pruszkow_Transit_Camp.jpg",
+          "page": "https://commons.wikimedia.org/wiki/File:President_Stanislaw_Wojciechowski_in_Pruszkow_Transit_Camp.jpg",
+          "credit": "Foto-Theuergarten Krakau",
+          "license": "Public domain",
+          "made": "1944-10",
+          "caption": "Warsaw Uprising - German Transit Camp in Pruszków (Dulag 121). According to many sources in this photo were depicted: Stanisław Wojciechowski - former…",
+          "alt": "Warsaw Uprising - German Transit Camp in Pruszków (Dulag 121). According to many sources in this photo were depicted: Stanisław Wojciechowski - former…"
+        }
+      ],
+      "sources": [
+        {
+          "title": "Stanisław Wojciechowski (Wikipedia)",
+          "url": "https://en.wikipedia.org/wiki/Stanis%C5%82aw_Wojciechowski"
+        },
+        {
+          "title": "List of Polish monarchs (Wikipedia)",
+          "url": "https://en.wikipedia.org/wiki/List_of_Polish_monarchs"
+        }
+      ],
+      "review": {
+        "status": "draft",
+        "notes": "Short card added from the completeness audit; checked only against Wikipedia."
+      },
+      "end": {
+        "date": "1926-05-14"
       }
     },
     {

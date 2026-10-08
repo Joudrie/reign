@@ -1026,6 +1026,85 @@
       "sameAs": [
         "sweden:oscar-ii"
       ]
+    },
+    {
+      "id": "sweyn-knutsson",
+      "name": "Sweyn Knutsson",
+      "house": "knytlinga",
+      "born": {
+        "date": "1016",
+        "circa": true
+      },
+      "died": {
+        "date": "1035",
+        "circa": true
+      }
+    },
+    {
+      "id": "magnus-ii",
+      "name": "Magnus II Haraldsson",
+      "house": "hardrada",
+      "born": {
+        "date": "1048",
+        "circa": true
+      },
+      "died": {
+        "date": "1069-04-28"
+      }
+    },
+    {
+      "id": "haakon-toresfostre",
+      "name": "Haakon Toresfostre",
+      "house": "hardrada",
+      "born": {
+        "date": "1068",
+        "circa": true
+      },
+      "died": {
+        "date": "1095-02"
+      }
+    },
+    {
+      "id": "eystein-i",
+      "name": "Eystein I",
+      "house": "hardrada",
+      "born": {
+        "date": "1088",
+        "circa": true
+      },
+      "died": {
+        "date": "1123-08-29"
+      }
+    },
+    {
+      "id": "inge-magnusson",
+      "name": "Inge Magnusson",
+      "house": "civil-war",
+      "died": {
+        "date": "1202",
+        "circa": true
+      }
+    },
+    {
+      "id": "philip-simonsson",
+      "name": "Philip Simonsson",
+      "house": "civil-war",
+      "died": {
+        "date": "1217",
+        "circa": true
+      }
+    },
+    {
+      "id": "skule",
+      "name": "Skule Bårdsson",
+      "house": "civil-war",
+      "born": {
+        "date": "1189",
+        "circa": true
+      },
+      "died": {
+        "date": "1240-05-24"
+      }
     }
   ],
   "reigns": [
@@ -1436,7 +1515,21 @@
       "review": {
         "status": "draft",
         "notes": "Drafted from the listed sources; needs a human fact-check."
-      }
+      },
+      "members": [
+        {
+          "name": "Harald Bluetooth",
+          "start": {
+            "date": "0970",
+            "circa": true
+          },
+          "end": {
+            "date": "0986",
+            "circa": true
+          },
+          "note": "King of Denmark and overlord of Norway; Haakon ruled as his jarl"
+        }
+      ]
     },
     {
       "id": "olaf-tryggvason",
@@ -1515,6 +1608,102 @@
       "review": {
         "status": "draft",
         "notes": "Drafted from the listed sources; needs a human fact-check."
+      }
+    },
+    {
+      "id": "lade-jarls",
+      "kind": "interregnum",
+      "rulers": [],
+      "house": "lade",
+      "title": "The Jarls of Lade",
+      "members": [
+        {
+          "name": "Eric Haakonsson",
+          "start": {
+            "date": "1000-09-09"
+          },
+          "end": {
+            "date": "1015",
+            "circa": true
+          },
+          "note": "Jarl of Lade; ruled most of Norway, then left to fight for Cnut in England"
+        },
+        {
+          "name": "Sweyn Haakonsson",
+          "start": {
+            "date": "1000-09-09"
+          },
+          "end": {
+            "date": "1016-03-25"
+          },
+          "note": "Eric's brother; beaten by Olaf II at Nesjar"
+        },
+        {
+          "name": "Sweyn Forkbeard",
+          "start": {
+            "date": "1000-09-09"
+          },
+          "end": {
+            "date": "1014-02-03"
+          },
+          "note": "King of Denmark, overlord of the Viken region"
+        },
+        {
+          "name": "Olof Skötkonung",
+          "start": {
+            "date": "1000-09-09"
+          },
+          "end": {
+            "date": "1015",
+            "circa": true
+          },
+          "note": "King of Sweden, held part of eastern Norway"
+        }
+      ],
+      "tagline": "Norway carved up after Svolder",
+      "start": {
+        "date": "1000-09-09"
+      },
+      "contestedWith": [],
+      "relationToPredecessor": "Sons of Haakon Jarl",
+      "ageAtAccession": "Not applicable",
+      "cameToPower": "Won the battle of Svolder",
+      "reignEnded": "Olaf Haraldsson returned",
+      "previously": "Olaf Tryggvason leaps into the sea at Svolder.",
+      "paragraphs": [
+        "After Olaf Tryggvason died at the sea battle of Svolder in 1000, the winners divided Norway. The Danish king Sweyn Forkbeard and the Swedish king Olof took parts of the south and east, and the brothers Eric and Sweyn, jarls of Lade, ruled the rest for them.",
+        "Eric left in 1015 to help Cnut conquer England. That same year Olaf Haraldsson landed in Norway, and in 1016 he beat Jarl Sweyn at Nesjar."
+      ],
+      "claims": [],
+      "hook": "Olaf Haraldsson, the future saint, makes himself king of all Norway.",
+      "images": [
+        {
+          "file": "File:Battles of eirikr in baltic.png",
+          "url": "https://upload.wikimedia.org/wikipedia/commons/9/92/Battles_of_eirikr_in_baltic.png",
+          "page": "https://commons.wikimedia.org/wiki/File:Battles_of_eirikr_in_baltic.png",
+          "credit": "Original uploader was Haukurth at en.wikipedia",
+          "license": "CC BY-SA 3.0",
+          "made": "14 May 2006 (original upload date)",
+          "caption": "Locations of the battles and raids of Eiríkr Hákonarson in Scandinavia and the Baltic. I principally followed the Fagrskinna summary of Bandadrápa but also…",
+          "alt": "Locations of the battles and raids of Eiríkr Hákonarson in Scandinavia and the Baltic. I principally followed the Fagrskinna summary of Bandadrápa but also…"
+        }
+      ],
+      "sources": [
+        {
+          "title": "Eiríkr Hákonarson (Wikipedia)",
+          "url": "https://en.wikipedia.org/wiki/Eir%C3%ADkr_H%C3%A1konarson"
+        },
+        {
+          "title": "List of Norwegian monarchs (Wikipedia)",
+          "url": "https://en.wikipedia.org/wiki/List_of_Norwegian_monarchs"
+        }
+      ],
+      "review": {
+        "status": "draft",
+        "notes": "Short card added from the completeness audit; checked only against Wikipedia."
+      },
+      "end": {
+        "date": "1015"
       }
     },
     {
@@ -1610,7 +1799,9 @@
       "end": {
         "date": "1035-11-12"
       },
-      "contestedWith": [],
+      "contestedWith": [
+        "sweyn-knutsson"
+      ],
       "relationToPredecessor": "Rival who drove Olaf out",
       "ageAtAccession": "About 33–38",
       "cameToPower": "Sailed in; the chiefs hailed him",
@@ -1674,6 +1865,74 @@
       "review": {
         "status": "draft",
         "notes": "Drafted from the listed sources; needs a human fact-check."
+      },
+      "members": [
+        {
+          "name": "Haakon Ericsson",
+          "start": {
+            "date": "1028",
+            "circa": true
+          },
+          "end": {
+            "date": "1029",
+            "circa": true
+          },
+          "note": "Cnut's jarl in Norway; drowned at sea"
+        }
+      ]
+    },
+    {
+      "id": "sweyn-knutsson",
+      "kind": "monarch",
+      "rulers": [
+        "sweyn-knutsson"
+      ],
+      "tagline": "Cnut's teenage son and his hated mother",
+      "start": {
+        "date": "1030"
+      },
+      "contestedWith": [
+        "cnut"
+      ],
+      "relationToPredecessor": "Son of Cnut",
+      "ageAtAccession": "About 14",
+      "cameToPower": "Sent by his father to rule Norway",
+      "reignEnded": "Driven out by revolt",
+      "previously": "Cnut wins Norway and sends his son to rule it.",
+      "paragraphs": [
+        "Cnut sent his young son Sweyn to rule Norway with his English mother Ælfgifu of Northampton. Their rule brought new taxes and harsh laws, remembered as Ælfgifu's time.",
+        "Norwegians soon looked back on the dead Olaf II as a saint. In 1035 the chieftains brought Olaf's son Magnus home from Russia, and Sweyn fled to Denmark, where he died the same year."
+      ],
+      "claims": [],
+      "hook": "Olaf's son Magnus comes home from Russia to take the throne.",
+      "images": [
+        {
+          "file": "File:Arbo-Olav den helliges fall i slaget på Stiklestad (cropped).jpg",
+          "url": "https://upload.wikimedia.org/wikipedia/commons/2/26/Arbo-Olav_den_helliges_fall_i_slaget_p%C3%A5_Stiklestad_%28cropped%29.jpg",
+          "page": "https://commons.wikimedia.org/wiki/File:Arbo-Olav_den_helliges_fall_i_slaget_p%C3%A5_Stiklestad_(cropped).jpg",
+          "credit": "Peter Nicolai Arbo",
+          "license": "Public domain",
+          "made": "Probably 1859",
+          "caption": "The battle of Stiklestad (1030), where Olaf II fell and Sweyn's rule began. No portrait of Sweyn survives.",
+          "alt": "The battle of Stiklestad (1030), where Olaf II fell and Sweyn's rule began"
+        }
+      ],
+      "sources": [
+        {
+          "title": "Sweyn Knutsson (Wikipedia)",
+          "url": "https://en.wikipedia.org/wiki/Sweyn_Knutsson"
+        },
+        {
+          "title": "List of Norwegian monarchs (Wikipedia)",
+          "url": "https://en.wikipedia.org/wiki/List_of_Norwegian_monarchs"
+        }
+      ],
+      "review": {
+        "status": "draft",
+        "notes": "Short card added from the completeness audit; checked only against Wikipedia."
+      },
+      "end": {
+        "date": "1035"
       }
     },
     {
@@ -1840,6 +2099,60 @@
       }
     },
     {
+      "id": "magnus-ii",
+      "kind": "monarch",
+      "rulers": [
+        "magnus-ii"
+      ],
+      "tagline": "Hardrada's son who stayed home",
+      "start": {
+        "date": "1066-09-25"
+      },
+      "contestedWith": [
+        "olaf-kyrre"
+      ],
+      "relationToPredecessor": "Son of Harald Hardrada",
+      "ageAtAccession": "About 18",
+      "cameToPower": "Left to rule when Harald invaded England",
+      "reignEnded": "Died of illness",
+      "previously": "Harald Hardrada dies at Stamford Bridge.",
+      "paragraphs": [
+        "When Harald Hardrada sailed to invade England in 1066, he left his son Magnus behind as king. After Harald was killed at Stamford Bridge, Magnus shared Norway with his brother Olaf, who came home with the survivors.",
+        "Magnus ruled the north and west. He died of ringworm or a similar illness in 1069, aged about 21, and Olaf ruled alone."
+      ],
+      "claims": [],
+      "hook": "Olaf Kyrre rules alone, and Norway gets 25 years of peace.",
+      "images": [
+        {
+          "file": "File:Harald Hardraades saga-Dei saag danskeskipa-W. Wetlesen.jpg",
+          "url": "https://upload.wikimedia.org/wikipedia/commons/c/cf/Harald_Hardraades_saga-Dei_saag_danskeskipa-W._Wetlesen.jpg",
+          "page": "https://commons.wikimedia.org/wiki/File:Harald_Hardraades_saga-Dei_saag_danskeskipa-W._Wetlesen.jpg",
+          "credit": "Wilhelm Wetlesen (Norway 1871-1925)",
+          "license": "Public domain",
+          "made": "1898",
+          "caption": "Wilhelm Wetlesen: Illustration for Harald Hardrådes saga, Heimskringla 1899-edition. nn: «Om morgonene då sola rann, såg dei daneskipa.»",
+          "alt": "Wilhelm Wetlesen: Illustration for Harald Hardrådes saga, Heimskringla 1899-edition. nn: «Om morgonene då sola rann, såg dei daneskipa.»"
+        }
+      ],
+      "sources": [
+        {
+          "title": "Magnus II of Norway (Wikipedia)",
+          "url": "https://en.wikipedia.org/wiki/Magnus_II_of_Norway"
+        },
+        {
+          "title": "List of Norwegian monarchs (Wikipedia)",
+          "url": "https://en.wikipedia.org/wiki/List_of_Norwegian_monarchs"
+        }
+      ],
+      "review": {
+        "status": "draft",
+        "notes": "Short card added from the completeness audit; checked only against Wikipedia."
+      },
+      "end": {
+        "date": "1069-04-28"
+      }
+    },
+    {
       "id": "olaf-kyrre",
       "kind": "monarch",
       "rulers": [
@@ -1852,7 +2165,9 @@
       "end": {
         "date": "1093-09-22"
       },
-      "contestedWith": [],
+      "contestedWith": [
+        "magnus-ii"
+      ],
       "relationToPredecessor": "Son of Harald Hardrada",
       "ageAtAccession": "About 17",
       "cameToPower": "Shared the crown with brother Magnus",
@@ -1928,7 +2243,9 @@
       "end": {
         "date": "1103-08-24"
       },
-      "contestedWith": [],
+      "contestedWith": [
+        "haakon-toresfostre"
+      ],
       "relationToPredecessor": "Son of Olaf III",
       "ageAtAccession": "About 20",
       "cameToPower": "Hailed king; shared with cousin Haakon",
@@ -1997,6 +2314,62 @@
       }
     },
     {
+      "id": "haakon-toresfostre",
+      "kind": "monarch",
+      "rulers": [
+        "haakon-toresfostre"
+      ],
+      "tagline": "The co-king who died crossing a mountain",
+      "start": {
+        "date": "1093-09-22",
+        "circa": true
+      },
+      "contestedWith": [
+        "magnus-barefoot"
+      ],
+      "relationToPredecessor": "Cousin of Magnus Barefoot",
+      "ageAtAccession": "About 25",
+      "cameToPower": "Proclaimed king in Trøndelag",
+      "reignEnded": "Died of a chill",
+      "previously": "Olaf Kyrre dies, and two cousins both claim the crown.",
+      "paragraphs": [
+        "Haakon, a grandson of Harald Hardrada, was proclaimed king in Trøndelag at the same time as his cousin Magnus Barefoot. He won support by cutting taxes and dues.",
+        "The two cousins were heading for war when Haakon fell ill crossing the Dovrefjell mountains in 1095 and died. Magnus became sole king."
+      ],
+      "claims": [],
+      "hook": "Magnus Barefoot rules alone and sails west to the islands.",
+      "images": [
+        {
+          "file": "File:Dovrefjell.jpg",
+          "url": "https://upload.wikimedia.org/wikipedia/commons/6/64/Dovrefjell.jpg",
+          "page": "https://commons.wikimedia.org/wiki/File:Dovrefjell.jpg",
+          "credit": "Jensens",
+          "license": "Public domain",
+          "made": "2008-07-27",
+          "caption": "Dovrefjell plateau, Norway. Foreground: E6 and Fokstua railway station. Background: Snøhetta mountain. No portrait of Haakon Toresfostre survives.",
+          "alt": "Dovrefjell plateau, Norway. Foreground: E6 and Fokstua railway station. Background: Snøhetta mountain. No portrait of Haakon Toresfostre survives."
+        }
+      ],
+      "sources": [
+        {
+          "title": "Haakon Toresfostre (Wikipedia)",
+          "url": "https://en.wikipedia.org/wiki/Haakon_Toresfostre"
+        },
+        {
+          "title": "List of Norwegian monarchs (Wikipedia)",
+          "url": "https://en.wikipedia.org/wiki/List_of_Norwegian_monarchs"
+        }
+      ],
+      "review": {
+        "status": "draft",
+        "notes": "Short card added from the completeness audit; checked only against Wikipedia."
+      },
+      "end": {
+        "date": "1095-02",
+        "circa": true
+      }
+    },
+    {
       "id": "sigurd-the-crusader",
       "kind": "monarch",
       "rulers": [
@@ -2009,7 +2382,9 @@
       "end": {
         "date": "1130-03-26"
       },
-      "contestedWith": [],
+      "contestedWith": [
+        "eystein-i"
+      ],
       "relationToPredecessor": "Son of Magnus III",
       "ageAtAccession": "About 13",
       "cameToPower": "Shared the crown with two brothers",
@@ -2075,6 +2450,72 @@
       "review": {
         "status": "draft",
         "notes": "Drafted from the listed sources; needs a human fact-check."
+      },
+      "members": [
+        {
+          "name": "Olaf Magnusson",
+          "start": {
+            "date": "1103-08-24"
+          },
+          "end": {
+            "date": "1115-12-22"
+          },
+          "note": "Third son of Magnus Barefoot, co-king as a child; died at 17"
+        }
+      ]
+    },
+    {
+      "id": "eystein-i",
+      "kind": "monarch",
+      "rulers": [
+        "eystein-i"
+      ],
+      "tagline": "The builder king who stayed at home",
+      "start": {
+        "date": "1103-08-24"
+      },
+      "contestedWith": [
+        "sigurd-the-crusader"
+      ],
+      "relationToPredecessor": "Son of Magnus Barefoot",
+      "ageAtAccession": "About 15",
+      "cameToPower": "Shared the crown with his brothers",
+      "reignEnded": "Died of illness",
+      "previously": "Magnus Barefoot dies in Ireland, leaving three sons.",
+      "paragraphs": [
+        "Eystein shared Norway with his brothers Sigurd and Olaf after their father Magnus Barefoot was killed in Ireland. While Sigurd went on crusade, Eystein stayed home and ruled.",
+        "He built churches, harbours and the royal hall at Bergen, and was remembered as a fair, peaceful king. He died in 1123, leaving Sigurd to rule alone."
+      ],
+      "claims": [],
+      "hook": "Sigurd the Crusader now rules alone.",
+      "images": [
+        {
+          "file": "File:Oeystein.jpg",
+          "url": "https://upload.wikimedia.org/wikipedia/commons/8/8e/Oeystein.jpg",
+          "page": "https://commons.wikimedia.org/wiki/File:Oeystein.jpg",
+          "credit": "Unknown",
+          "license": "CC BY 2.5",
+          "made": "Date not recorded",
+          "caption": "Image used on Wikipedia for Eystein I",
+          "alt": "Image used on Wikipedia for Eystein I"
+        }
+      ],
+      "sources": [
+        {
+          "title": "Eystein I of Norway (Wikipedia)",
+          "url": "https://en.wikipedia.org/wiki/Eystein_I_of_Norway"
+        },
+        {
+          "title": "List of Norwegian monarchs (Wikipedia)",
+          "url": "https://en.wikipedia.org/wiki/List_of_Norwegian_monarchs"
+        }
+      ],
+      "review": {
+        "status": "draft",
+        "notes": "Short card added from the completeness audit; checked only against Wikipedia."
+      },
+      "end": {
+        "date": "1123-08-29"
       }
     },
     {
@@ -2720,7 +3161,9 @@
       "end": {
         "date": "1202-03-09"
       },
-      "contestedWith": [],
+      "contestedWith": [
+        "inge-magnusson"
+      ],
       "relationToPredecessor": "Claimed son of Sigurd Munn",
       "ageAtAccession": "About 33",
       "cameToPower": "Rebel leader, won at Fimreite",
@@ -2784,6 +3227,63 @@
       }
     },
     {
+      "id": "inge-magnusson",
+      "kind": "claimant",
+      "rulers": [
+        "inge-magnusson"
+      ],
+      "tagline": "The Bagler king",
+      "start": {
+        "date": "1196",
+        "circa": true
+      },
+      "contestedWith": [
+        "sverre",
+        "haakon-iii"
+      ],
+      "relationToPredecessor": "Claimed son of Magnus Erlingsson",
+      "ageAtAccession": "Unknown",
+      "cameToPower": "Chosen by the Bagler party",
+      "reignEnded": "Killed by his own men",
+      "previously": "The bishops' party, the Baglers, rise against Sverre.",
+      "paragraphs": [
+        "The Baglers, backed by the exiled bishops, chose Inge as their king against Sverre in 1196, claiming he was a son of the earlier king Magnus Erlingsson. They held eastern Norway around Oslo.",
+        "He fought Sverre for years without winning. In 1202 he was killed by his own followers."
+      ],
+      "claims": [],
+      "hook": "The Birkebeiners and Baglers keep fighting under new kings.",
+      "images": [
+        {
+          "file": "File:Birkebeinerne ski01.jpg",
+          "url": "https://upload.wikimedia.org/wikipedia/commons/c/c4/Birkebeinerne_ski01.jpg",
+          "page": "https://commons.wikimedia.org/wiki/File:Birkebeinerne_ski01.jpg",
+          "credit": "Knud Bergslien",
+          "license": "Public domain",
+          "made": "1869date QS:P571,+1869-00-00T00:00:00Z/9",
+          "caption": "Birkebeiner skiers carrying the infant Haakon in 1206, painted by Knud Bergslien in 1869: the civil wars Inge fought in. No portrait of Inge survives.",
+          "alt": "Birkebeiner skiers carrying the infant Haakon in 1206, painted by Knud Bergslien in 1869: the civil wars Inge fought in"
+        }
+      ],
+      "sources": [
+        {
+          "title": "Inge Magnusson (Wikipedia)",
+          "url": "https://en.wikipedia.org/wiki/Inge_Magnusson"
+        },
+        {
+          "title": "List of Norwegian monarchs (Wikipedia)",
+          "url": "https://en.wikipedia.org/wiki/List_of_Norwegian_monarchs"
+        }
+      ],
+      "review": {
+        "status": "draft",
+        "notes": "Short card added from the completeness audit; checked only against Wikipedia."
+      },
+      "end": {
+        "date": "1202",
+        "circa": true
+      }
+    },
+    {
       "id": "haakon-iii",
       "kind": "monarch",
       "rulers": [
@@ -2796,7 +3296,9 @@
       "end": {
         "date": "1204-01-01"
       },
-      "contestedWith": [],
+      "contestedWith": [
+        "inge-magnusson"
+      ],
       "relationToPredecessor": "Son of Sverre",
       "ageAtAccession": "About 19",
       "cameToPower": "Hailed king by the Birkebeiners",
@@ -2950,7 +3452,9 @@
       "end": {
         "date": "1217-04-23"
       },
-      "contestedWith": [],
+      "contestedWith": [
+        "philip-simonsson"
+      ],
       "relationToPredecessor": "Cousin of Guttorm's father",
       "ageAtAccession": "19",
       "cameToPower": "Chosen by the archbishop and farmers",
@@ -3011,6 +3515,74 @@
       "review": {
         "status": "draft",
         "notes": "Drafted from the listed sources; needs a human fact-check."
+      },
+      "members": [
+        {
+          "name": "Erling Steinvegg",
+          "start": {
+            "date": "1204",
+            "circa": true
+          },
+          "end": {
+            "date": "1207",
+            "circa": true
+          },
+          "note": "Bagler king in the east"
+        }
+      ]
+    },
+    {
+      "id": "philip-simonsson",
+      "kind": "claimant",
+      "rulers": [
+        "philip-simonsson"
+      ],
+      "tagline": "The Bagler king who made peace",
+      "start": {
+        "date": "1207"
+      },
+      "contestedWith": [
+        "inge-ii"
+      ],
+      "relationToPredecessor": "Nephew of Magnus Erlingsson",
+      "ageAtAccession": "Unknown",
+      "cameToPower": "Chosen by the Baglers",
+      "reignEnded": "Died of illness",
+      "previously": "The Baglers choose a new king to fight Inge II.",
+      "paragraphs": [
+        "Philip was chosen king by the Bagler party in 1207, ruling eastern Norway. In 1208 he made peace with Inge II at Kvitsøy: he gave up the royal title and married Inge's niece, but in practice ruled his part as before.",
+        "He kept calling himself king anyway. He died in 1217, the same year as Inge, which let the two parties finally unite under Haakon IV."
+      ],
+      "claims": [],
+      "hook": "Both kings are dead, and the young Haakon IV inherits a united Norway.",
+      "images": [
+        {
+          "file": "File:Brev fra baglerkongen Filippus.jpg",
+          "url": "https://upload.wikimedia.org/wikipedia/commons/e/e9/Brev_fra_baglerkongen_Filippus.jpg",
+          "page": "https://commons.wikimedia.org/wiki/File:Brev_fra_baglerkongen_Filippus.jpg",
+          "credit": "Edvard Bull, Sr. (1881–1932)",
+          "license": "Public domain",
+          "made": "2012-10-22 23:16:50",
+          "caption": "Letter from Philip Simonsson, the Bagler pretender to the Norwegian throne. It is the earliest preserved Norwegian royal letter. (p.257). No portrait of Philip Simonsson survives.",
+          "alt": "Letter from Philip Simonsson, the Bagler pretender to the Norwegian throne. It is the earliest preserved Norwegian royal letter. (p.257). No portrait of Philip Simonsson survives."
+        }
+      ],
+      "sources": [
+        {
+          "title": "Philip Simonsson (Wikipedia)",
+          "url": "https://en.wikipedia.org/wiki/Philip_Simonsson"
+        },
+        {
+          "title": "List of Norwegian monarchs (Wikipedia)",
+          "url": "https://en.wikipedia.org/wiki/List_of_Norwegian_monarchs"
+        }
+      ],
+      "review": {
+        "status": "draft",
+        "notes": "Short card added from the completeness audit; checked only against Wikipedia."
+      },
+      "end": {
+        "date": "1217"
       }
     },
     {
@@ -3028,7 +3600,9 @@
       "end": {
         "date": "1263-12-16"
       },
-      "contestedWith": [],
+      "contestedWith": [
+        "skule"
+      ],
       "relationToPredecessor": "Grandson of Sverre",
       "ageAtAccession": "13",
       "cameToPower": "Chosen king by the Birkebeiners",
@@ -3089,6 +3663,73 @@
       "review": {
         "status": "draft",
         "notes": "Drafted from the listed sources; needs a human fact-check."
+      },
+      "members": [
+        {
+          "name": "Haakon the Young",
+          "start": {
+            "date": "1240",
+            "circa": true
+          },
+          "end": {
+            "date": "1257-05-05"
+          },
+          "note": "Son, crowned co-king; died before his father"
+        }
+      ]
+    },
+    {
+      "id": "skule",
+      "kind": "claimant",
+      "rulers": [
+        "skule"
+      ],
+      "tagline": "The duke who made himself king",
+      "start": {
+        "date": "1239-11-06"
+      },
+      "contestedWith": [
+        "haakon-iv"
+      ],
+      "relationToPredecessor": "Half-brother of Inge II",
+      "ageAtAccession": "About 50",
+      "cameToPower": "Proclaimed himself king",
+      "reignEnded": "Burned out of a monastery",
+      "previously": "Duke Skule tires of ruling for Haakon IV.",
+      "paragraphs": [
+        "Skule had been regent for the young Haakon IV and was the most powerful man in Norway. In 1239 he had himself proclaimed king and attacked.",
+        "Haakon's forces beat him at Oslo. Skule took refuge in a monastery at Nidaros, which Haakon's men set on fire; he was killed as he came out in May 1240. It was the last battle of the Norwegian civil wars."
+      ],
+      "claims": [],
+      "hook": "The civil wars are over, and Haakon IV rules a Norway at its height.",
+      "images": [
+        {
+          "file": "File:Hertugskule.jpg",
+          "url": "https://upload.wikimedia.org/wikipedia/commons/a/a6/Hertugskule.jpg",
+          "page": "https://commons.wikimedia.org/wiki/File:Hertugskule.jpg",
+          "credit": "FinnWikiNo",
+          "license": "CC BY-SA 3.0",
+          "made": "Date not recorded",
+          "caption": "En tegning (selvlaget) av hertug Skule Bårdsson etter historisk relief - A drawing (my own) of duke Skule Bårdsson of Norway",
+          "alt": "En tegning (selvlaget) av hertug Skule Bårdsson etter historisk relief - A drawing (my own) of duke Skule Bårdsson of Norway"
+        }
+      ],
+      "sources": [
+        {
+          "title": "Skule Bårdsson (Wikipedia)",
+          "url": "https://en.wikipedia.org/wiki/Skule_B%C3%A5rdsson"
+        },
+        {
+          "title": "List of Norwegian monarchs (Wikipedia)",
+          "url": "https://en.wikipedia.org/wiki/List_of_Norwegian_monarchs"
+        }
+      ],
+      "review": {
+        "status": "draft",
+        "notes": "Short card added from the completeness audit; checked only against Wikipedia."
+      },
+      "end": {
+        "date": "1240-05-24"
       }
     },
     {
@@ -5538,7 +6179,19 @@
       "review": {
         "status": "draft",
         "notes": "Drafted from the listed sources; needs a human fact-check."
-      }
+      },
+      "members": [
+        {
+          "name": "Christian Michelsen's government",
+          "start": {
+            "date": "1905-06-07"
+          },
+          "end": {
+            "date": "1905-11-18"
+          },
+          "note": "Ran Norway after it dissolved the union with Sweden, before Haakon arrived"
+        }
+      ]
     },
     {
       "id": "olav-v",
