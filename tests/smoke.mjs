@@ -10,8 +10,10 @@ let failed = 0;
 const check = (ok, msg) => { console.log(`${ok ? "ok  " : "FAIL"} ${msg}`); if (!ok) failed++; };
 
 async function page(opts = {}) {
-  const ctx = await browser.newContext({ viewport: { width: 390, height: 844 }, isMobile: true, hasTouch: true, ...opts });
+  const { firstVisit, ...ctxOpts } = opts;
+  const ctx = await browser.newContext({ viewport: { width: 390, height: 844 }, isMobile: true, hasTouch: true, ...ctxOpts });
   await ctx.grantPermissions(["clipboard-read", "clipboard-write"]).catch(() => {});
+  if (!firstVisit) await ctx.addInitScript(() => { try { localStorage.setItem("reign.seen", "1"); } catch {} });
   const p = await ctx.newPage();
   p.errors = [];
   p.on("pageerror", e => p.errors.push(e.message));
@@ -87,7 +89,17 @@ const tab = async (p, t) => { await p.click(`[data-tab="${t}"]`); await p.waitFo
   await p.close();
 }
 
-// 5. Stats, search, picker, dark mode.
+// 5. First visit: intro shows, closes, and the splash is gone.
+{
+  const p = await page({ firstVisit: true });
+  await p.goto(URL0); await p.waitForTimeout(1500);
+  check(await p.isVisible("#intro"), "first visit shows the intro");
+  await p.click("#introGo"); await p.waitForTimeout(300);
+  check(!(await p.isVisible("#intro")) && !(await p.$("#splash")), "intro closes and splash is removed");
+  await p.close();
+}
+
+// 6. Stats, search, picker, dark mode.
 {
   const p = await page({ colorScheme: "dark" });
   await p.goto(URL0); await p.waitForTimeout(1500);

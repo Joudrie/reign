@@ -34,7 +34,7 @@
   --s-1: 4px; --s0: 8px; --s1: 16px; --s2: 24px; --s3: 32px; --s4: 48px;
   --r: 12px; --r-sm: 8px;
   --card-shadow: 0 1px 2px rgb(60 45 20 / 0.06), 0 8px 24px rgb(60 45 20 / 0.08);
-  --tabs-h: 60px;
+  --tabs-h: 64px;
   color-scheme: light;
 }
 /* Night reading: the same vellum palette by lamplight. Follows the device setting unless data-theme forces one. */
@@ -92,6 +92,7 @@ button, input { font: inherit; color: inherit; }
 
 /* flags: simple drawn shapes, never emoji */
 .flag { display: block; width: 100%; height: 100%; }
+.tab-flag[hidden] { display: none; }
 .tab-flag { display: block; width: 30px; height: 20px; border-radius: 4px; overflow: hidden; box-shadow: 0 0 0 1px var(--edge); }
 .tabs button[aria-current="page"] .tab-flag { box-shadow: 0 0 0 2px var(--card), 0 0 0 4px var(--ink); }
 
@@ -200,15 +201,17 @@ details a { color: inherit; }
   background: var(--card);
   border-top: 1px solid var(--edge);
   display: grid; grid-template-columns: repeat(5, 1fr);
+  padding-inline: max(0px, calc(50% - 320px));
 }
 .tabs button {
   background: none; border: 0; cursor: pointer;
-  display: flex; align-items: center; justify-content: center;
+  display: flex; flex-direction: column; align-items: center; justify-content: center; gap: 2px;
   color: var(--muted);
 }
+.tabs button > span:not(.tab-flag) { font-size: 11px; font-weight: 600; letter-spacing: .02em; line-height: 1; }
 .tabs button[aria-current="page"] { color: var(--ink); }
-.tabs svg { width: 26px; height: 26px; }
-.tabs .read svg { width: 30px; height: 30px; }
+.tabs svg { width: 24px; height: 24px; }
+.tabs .read svg { width: 26px; height: 26px; }
 .tabs .tab-flag svg { width: 100%; height: 100%; }
 .tabs button[aria-current="page"] .fill { fill: currentColor; }
 .tabs button[aria-current="page"] .crown { stroke: var(--card); fill: var(--card); }
@@ -256,6 +259,7 @@ details a { color: inherit; }
 .countries { list-style: none; margin: 0; padding: 0; display: grid; grid-template-columns: repeat(auto-fill, minmax(240px, 1fr)); gap: 6px; }
 .region-tabs, .pick-regions { display: flex; flex-wrap: nowrap; overflow-x: auto; scrollbar-width: none; gap: 6px; margin: 0 calc(var(--s2) * -1) var(--s0); padding: 0 var(--s2); }
 .region-tabs::-webkit-scrollbar { display: none; }
+.region-tabs { min-height: 48px; align-items: center; }
 .region-tabs button { flex: none; }
 .region-tabs button, .cmp-add-list .rtab { min-height: 32px; padding: 0 12px; border-radius: 999px; border: 1px solid var(--edge); background: var(--card); color: var(--muted); font-size: var(--t-xs); cursor: pointer; }
 .region-tabs button[aria-pressed="true"] { color: var(--ink); border-color: var(--ink); box-shadow: inset 0 0 0 1px var(--ink); }
@@ -464,7 +468,43 @@ details li a { display: inline-block; padding-block: 10px; }
 .score-big { font-family: var(--name); font-size: 4rem; line-height: 1; }
 
 @media (prefers-reduced-motion: reduce) { * { transition: none !important; } }
+.find-head { display: flex; align-items: baseline; justify-content: space-between; }
+.find-head h2 { margin: 0; font-size: var(--t-lg); font-weight: 600; }
+.linkish { background: none; border: 0; padding: 0 4px; min-height: 44px; color: var(--accent); text-decoration: underline; cursor: pointer; font-size: var(--t-sm); }
+.splash { position: fixed; inset: 0; z-index: 100; background: var(--table); display: grid; place-content: center; justify-items: center; gap: 12px; text-align: center; transition: opacity .3s; }
+.splash svg { width: 64px; height: 64px; }
+.splash strong { font-family: var(--name); font-size: 2rem; font-weight: 400; }
+.splash span { color: var(--muted); font-size: var(--t-sm); }
+.splash.gone { opacity: 0; pointer-events: none; }
+.intro { position: fixed; inset: 0; z-index: 60; background: rgb(20 16 12 / .45); display: grid; place-items: end center; padding: 16px; }
+.intro[hidden] { display: none; }
+.intro-card { background: var(--card); color: var(--ink); border-radius: 20px; box-shadow: var(--card-shadow); max-width: 440px; width: 100%; padding: 28px 24px 20px; display: grid; gap: 14px;
+  margin-bottom: calc(var(--tabs-h) + env(safe-area-inset-bottom, 0px)); max-height: calc(100dvh - var(--tabs-h) - 48px); overflow-y: auto; }
+@media (min-width: 600px) { .intro { place-items: center; } .intro-card { margin-bottom: 0; } }
+.intro-card .mark { display: flex; align-items: center; gap: 12px; }
+.intro-card .mark svg { width: 44px; height: 44px; flex: none; }
+.intro-card h2 { margin: 0; font-family: var(--name); font-weight: 400; font-size: 1.75rem; line-height: 1.1; }
+.intro-card p { margin: 0; color: var(--muted); }
+.intro-card ul { margin: 0; padding: 0; list-style: none; display: grid; gap: 10px; }
+.intro-card li { display: grid; grid-template-columns: 28px 1fr; gap: 10px; align-items: start; font-size: var(--t-sm); }
+.intro-card li b { display: grid; place-items: center; width: 28px; height: 28px; border-radius: 50%; background: var(--tile); font-size: var(--t-sm); }
+.intro-card .note { font-size: var(--t-xs); color: var(--muted); border-top: 1px solid var(--rule); padding-top: 10px; }
+.intro-card .btn { justify-self: stretch; text-align: center; }
 </style>
+<div class="splash" id="splash" aria-hidden="true"><svg viewBox="0 0 64 64" aria-hidden="true"><rect width="64" height="64" rx="14" fill="#8a2432"/><path d="M14 44 L12 22 L23 31 L32 16 L41 31 L52 22 L50 44 Z" fill="#f1d58a" stroke="#f1d58a" stroke-width="2" stroke-linejoin="round"/><rect x="14" y="46" width="36" height="5" rx="2" fill="#f1d58a"/><circle cx="12" cy="21" r="3" fill="#f1d58a"/><circle cx="32" cy="15" r="3" fill="#f1d58a"/><circle cx="52" cy="21" r="3" fill="#f1d58a"/></svg><strong>Crown &amp; Succession</strong><span>Unrolling 2,600 rulers…</span></div>
+<div class="intro" id="intro" role="dialog" aria-modal="true" aria-labelledby="introTitle" hidden>
+  <div class="intro-card">
+    <div class="mark"><svg viewBox="0 0 64 64" aria-hidden="true"><rect width="64" height="64" rx="14" fill="#8a2432"/><path d="M14 44 L12 22 L23 31 L32 16 L41 31 L52 22 L50 44 Z" fill="#f1d58a" stroke="#f1d58a" stroke-width="2" stroke-linejoin="round"/><rect x="14" y="46" width="36" height="5" rx="2" fill="#f1d58a"/><circle cx="12" cy="21" r="3" fill="#f1d58a"/><circle cx="32" cy="15" r="3" fill="#f1d58a"/><circle cx="52" cy="21" r="3" fill="#f1d58a"/></svg><h2 id="introTitle">Crown &amp; Succession</h2></div>
+    <p>Every ruler of 48 countries and empires, from the first pharaohs to today, one card at a time. Each card picks up where the last one left off.</p>
+    <ul>
+      <li><b>→</b><span><strong>Swipe</strong> (or use the arrow keys) to meet the next ruler. Tap the country name at the top to switch thrones.</span></li>
+      <li><b>⫴</b><span><strong>Compare</strong> lines up any countries side by side, so you can see who ruled at the same time.</span></li>
+      <li><b>?</b><span><strong>Quiz</strong>: every card sorts its stories into record, disputed and rumour. Can you tell which is which?</span></li>
+    </ul>
+    <p class="note">Written from the sources listed on each card, with portraits from Wikimedia Commons. The cards are new and not yet independently checked: if you spot a mistake, share the card with us.</p>
+    <button class="btn" id="introGo">Start reading</button>
+  </div>
+</div>
 
 <div class="top"><button class="country-btn" id="countryBtn" aria-label="Change country"><span id="countryName"></span><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M6 9l6 6 6-6"/></svg></button><span id="count" aria-live="polite"></span></div>
 
@@ -498,8 +538,9 @@ details li a { display: inline-block; padding-block: 10px; }
 </section>
 <div class="tip" id="tip" role="tooltip"></div>
 
-<section class="view" id="view-search" aria-label="Countries and search">
+<section class="view" id="view-search" aria-label="Find a country or ruler">
   <div class="view-body search-body">
+    <div class="find-head"><h2>Find</h2><button class="linkish" id="aboutBtn">About</button></div>
     <h2 class="section-label caps">Country</h2>
     <div class="region-tabs" id="regionTabs" role="group" aria-label="Region"></div>
     <ul class="countries compact" id="countries"></ul>
@@ -515,22 +556,22 @@ details li a { display: inline-block; padding-block: 10px; }
 
 <div class="toast" id="toast" role="status" aria-live="polite"></div>
 <nav class="tabs" aria-label="Main">
-  <button data-tab="timeline" aria-label="Timeline"><span class="tab-flag" id="tabFlag"></span></button>
-  <button data-tab="play" aria-label="Record or rumour game">
+  <button data-tab="timeline"><span class="tab-flag" id="tabFlag" hidden></span><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" aria-hidden="true"><path d="M3 4v16M8 4v9M8 16v4M13 4v4M13 11v9M18 4v12M18 19v1"/></svg><span>Compare</span></button>
+  <button data-tab="play">
     <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><rect x="5" y="3" width="14" height="18" rx="2.5"/><path d="M9.6 9.4a2.4 2.4 0 1 1 3.4 2.2c-.6.3-1 .8-1 1.5v.5"/><path d="M12 16.6v.1"/></svg>
-  </button>
-  <button class="read" data-tab="read" aria-label="Read">
+  <span>Quiz</span></button>
+  <button class="read" data-tab="read">
     <svg viewBox="0 0 30 30" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linejoin="round" aria-hidden="true">
       <rect class="fill" x="2.5" y="2.5" width="25" height="25" rx="6"/>
       <path class="crown" d="M8 20.5h14l1.2-9.5-4.7 3.6L15 8.5l-3.5 6.1L6.8 11z" stroke-width="1.6"/>
     </svg>
-  </button>
-  <button data-tab="stats" aria-label="How they went">
+  <span>Read</span></button>
+  <button data-tab="stats">
     <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" aria-hidden="true"><path d="M5 20v-6M10 20V6M15 20v-9M20 20v-4"/></svg>
-  </button>
-  <button data-tab="search" aria-label="Search">
+  <span>Fates</span></button>
+  <button data-tab="search">
     <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" aria-hidden="true"><circle class="fill-none" cx="11" cy="11" r="7"/><path d="M20 20l-4-4"/></svg>
-  </button>
+  <span>Find</span></button>
 </nav>
 
 <script>
@@ -1213,7 +1254,7 @@ function renderCountries() {
   regionTab ??= ALL[country]?.fictional ? "Fiction" : regionOf(country);
   const tabs = [...REGIONS.map(([r]) => r), "Fiction", "All"];
   document.getElementById("regionTabs").innerHTML = tabs.map(t => `<button data-region="${t}" aria-pressed="${t === regionTab}">${esc(t)}</button>`).join("");
-  requestAnimationFrame(() => { const rt = document.getElementById("regionTabs"), on = rt.querySelector('[aria-pressed="true"]'); if (on && (on.offsetLeft < rt.scrollLeft || on.offsetLeft + on.offsetWidth > rt.scrollLeft + rt.clientWidth)) rt.scrollLeft = on.offsetLeft - 24; });
+  requestAnimationFrame(() => { const rt = document.getElementById("regionTabs"), on = rt.querySelector('[aria-pressed="true"]'); if (!on) return; const l = on.getBoundingClientRect().left - rt.getBoundingClientRect().left + rt.scrollLeft; if (l < rt.scrollLeft || l + on.offsetWidth > rt.scrollLeft + rt.clientWidth) rt.scrollLeft = Math.max(0, l - 24); });
   const inRegion = r => CATALOG.filter(c => !c.fictional && regionOf(c.id) === r);
   document.getElementById("countries").innerHTML =
     regionTab === "All" ? REGIONS.map(([r]) => `<li class="group" role="presentation">${esc(r)}</li>` + inRegion(r).map(item).join("")).join("") +
@@ -1702,4 +1743,23 @@ try { saved = localStorage.getItem("reign.country"); } catch {}
 const startCountry = [hashCountry, saved, "england"].find(c => c && ALL[c]);
 tabs.forEach(t => t.setAttribute("aria-current", t.dataset.tab === "read" ? "page" : "false"));
 loadCountry(startCountry, startCountry === hashCountry ? hashReign : undefined);
+// Boot is done: lift the splash, and greet first-time visitors (not people arriving on a shared card link).
+{
+  const sp = document.getElementById("splash"); sp.classList.add("gone"); setTimeout(() => sp.remove(), 400);
+  const intro = document.getElementById("intro");
+  const openIntro = () => { intro.hidden = false; document.getElementById("introGo").focus(); };
+  const closeIntro = () => {
+    intro.hidden = true;
+    try { localStorage.setItem("reign.seen", "1"); } catch {}
+    // A small nudge shows that the deck moves sideways.
+    if (!reduced && view === "read" && index < N - 1) setTimeout(() => tween(x, x - 48, v => { x = v; render(); }, { onComplete: () => go(index) }), 250);
+  };
+  document.getElementById("introGo").addEventListener("click", closeIntro);
+  intro.addEventListener("click", e => { if (e.target === intro) closeIntro(); });
+  intro.addEventListener("keydown", e => { if (e.key === "Escape") closeIntro(); });
+  document.getElementById("aboutBtn").addEventListener("click", openIntro);
+  let seen = null;
+  try { seen = localStorage.getItem("reign.seen"); } catch { seen = "1"; }
+  if (!seen && !hashCountry) openIntro();
+}
 </script>
