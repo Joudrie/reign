@@ -60,6 +60,7 @@ html, body { height: 100%; }
 /* iOS Safari enlarges text it judges too small after re-renders; keep our type scale exactly as set. */
 html { -webkit-text-size-adjust: 100%; text-size-adjust: 100%; }
 body {
+  margin: 0;
   background: var(--table);
   color: var(--ink);
   font-family: var(--text);
@@ -187,7 +188,10 @@ h1 { margin: 0; font-family: var(--name); font-weight: 400; font-size: var(--t-x
 .btn:hover { background: var(--accent); }
 
 details { font-size: var(--t-sm); color: var(--muted); }
-summary { cursor: pointer; }
+summary { cursor: pointer; list-style: none; }
+summary::-webkit-details-marker { display: none; }
+details > summary::after { content: ""; width: 7px; height: 7px; margin-left: 10px; border: solid currentColor; border-width: 0 1.5px 1.5px 0; transform: translateY(-2px) rotate(45deg); transition: transform .2s; flex: none; }
+details[open] > summary::after { transform: translateY(2px) rotate(-135deg); }
 details ul { margin: var(--s0) 0 0; padding-left: var(--s1); display: grid; gap: var(--s-1); }
 details a { color: inherit; }
 .draft { font-size: var(--t-xs); color: var(--disputed); }
@@ -296,6 +300,12 @@ details a { color: inherit; }
 .too-few { font-size: var(--t-xs); color: var(--muted); margin: var(--s0) 0 0; }
 .trust { font-size: var(--t-xs); color: var(--muted); list-style: none; margin-left: -1em; }
 @media (max-height: 700px) { .portrait { height: clamp(160px, 30vh, 260px); } }
+@media (max-height: 500px) and (orientation: landscape) {
+  :root { --tabs-h: 50px; }
+  .portrait { height: 32vh; }
+  .tl-hint { display: none; }
+  .view-head { padding-block: 6px; }
+}
 @media (max-width: 420px) { .hook { padding: var(--s1); } }
 @media (min-width: 900px) { .view-head { max-width: 760px; margin-inline: auto; width: 100%; } }
 /* Touch screens keep a hover look after a tap; only show hover where a pointer can hover. */
@@ -309,6 +319,7 @@ details a { color: inherit; }
 .label[aria-current="true"] strong, .tl-head[aria-current="true"] span:last-child { text-decoration: underline 2px; text-underline-offset: 3px; }
 .danger .stack i + i { box-shadow: -2px 0 0 var(--card); }
 .mini-banner { text-shadow: 0 0 2px rgb(0 0 0 / .5); }
+.mini-banner.pic-gone { display: grid; place-items: center; flex: none; background: var(--muted); color: #fbf9f4; font-family: var(--name); border-radius: var(--r-sm); min-width: 24px; min-height: 24px; }
 /* Comfortable touch targets */
 .country-btn, details > summary, .cmp-tools button, .cmp-add-list .grp button, .pick-group h3 button { min-height: 44px; display: inline-flex; align-items: center; }
 .cmp-tools button, .cmp-add-list .grp button, .pick-group h3 button { padding: 0 8px; }
@@ -376,7 +387,7 @@ details li a { display: inline-block; padding-block: 10px; }
 .elsewhere .chips { display: grid; grid-template-columns: repeat(auto-fill, minmax(140px, 1fr)); }
 .elsewhere .chip { border-radius: var(--r-sm); min-height: 44px; padding: 6px var(--s0); }
 .elsewhere .chip > span:last-child { display: grid; min-width: 0; }
-.elsewhere .chip small { white-space: nowrap; }
+.elsewhere .chip small { white-space: normal; overflow-wrap: anywhere; }
 .also { justify-content: center; }
 
 /* progress in the country picker */
@@ -429,7 +440,8 @@ details li a { display: inline-block; padding-block: 10px; }
 .danger { list-style: none; margin: 0; padding: 0; display: grid; gap: var(--s0); }
 .danger li { display: grid; grid-template-columns: 24px minmax(0, 6.5rem) 1fr 2.75rem; align-items: center; gap: var(--s0); font-size: var(--t-sm); }
 .danger .chip-flag { width: 24px; height: 16px; }
-.danger .name { white-space: nowrap; overflow: hidden; text-overflow: ellipsis; }
+.danger .name { line-height: 1.2; overflow-wrap: anywhere; }
+#statsBody .results .meta > span { white-space: normal; }
 .danger .pct { text-align: right; font-variant-numeric: tabular-nums; font-weight: 600; }
 .stack { display: flex; gap: 2px; height: 16px; }
 .stack i { display: block; height: 100%; min-width: 3px; }
@@ -460,6 +472,10 @@ details li a { display: inline-block; padding-block: 10px; }
 .pick button small { color: var(--muted); font-size: var(--t-xs); font-variant-numeric: tabular-nums; }
 .pick .all { padding-left: var(--s1); }
 .play-actions { display: flex; gap: var(--s0); flex-wrap: wrap; }
+.play-body .play-actions { position: sticky; bottom: 0; z-index: 2; background: var(--table); padding: var(--s0) 0; box-shadow: 0 -10px 12px -8px var(--table); }
+.q-card { position: relative; }
+.q-stamp { position: absolute; top: 12px; right: 12px; }
+@media (max-height: 720px) { .q-card { min-height: 0; padding: var(--s2); } .play-body { gap: var(--s1); } }
 .btn.ghost { background: var(--card); color: var(--ink); border: 1px solid var(--edge); }
 .btn.ghost:hover { background: var(--tile); }
 .q-top { display: flex; justify-content: space-between; font-size: var(--t-xs); color: var(--muted); font-variant-numeric: tabular-nums; margin-bottom: calc(var(--s1) * -1); }
@@ -485,6 +501,7 @@ details li a { display: inline-block; padding-block: 10px; }
 .verdict .note { color: var(--muted); font-size: var(--t-sm); }
 .linkish { background: none; border: 0; padding: 0; color: var(--accent); font-weight: 600; cursor: pointer; justify-self: start; font-size: var(--t-sm); }
 .score-big { font-family: var(--name); font-size: 4rem; line-height: 1; }
+.score-big .play-intro { font-family: var(--text); font-size: var(--t-lg); }
 
 @media (prefers-reduced-motion: reduce) { * { transition: none !important; } }
 .more-chips { margin-top: var(--s0); }
@@ -520,7 +537,9 @@ button.q-meta .q-who { text-decoration: underline; text-decoration-color: var(--
 .intro[hidden] { display: none; }
 .intro-card { background: var(--card); color: var(--ink); border-radius: 20px; box-shadow: var(--card-shadow); max-width: 440px; width: 100%; padding: 28px 24px 20px; display: grid; gap: 14px;
   margin-bottom: calc(var(--tabs-h) + env(safe-area-inset-bottom, 0px)); max-height: calc(100dvh - var(--tabs-h) - 48px); overflow-y: auto; }
-@media (min-width: 600px) { .intro { place-items: center; } .intro-card { margin-bottom: 0; } }
+@media (min-width: 600px) and (min-height: 600px) { .intro { place-items: center; } .intro-card { margin-bottom: 0; } }
+@media (max-height: 720px) { .intro-card { gap: 10px; padding: 20px 20px 16px; } .intro-card h2 { font-size: 1.5rem; } .intro-card li { gap: 8px; } .intro-card ul { gap: 8px; } }
+.intro-card .btn { position: sticky; bottom: 0; box-shadow: 0 16px 0 0 var(--card), 0 -10px 14px -6px var(--card); }
 .intro-card .mark { display: flex; align-items: center; gap: 12px; }
 .intro-card .mark svg { width: 44px; height: 44px; flex: none; }
 .intro-card h2 { margin: 0; font-family: var(--name); font-weight: 400; font-size: 1.75rem; line-height: 1.1; }
@@ -530,6 +549,7 @@ button.q-meta .q-who { text-decoration: underline; text-decoration-color: var(--
 .intro-card li b { display: grid; place-items: center; width: 28px; height: 28px; border-radius: 50%; background: var(--tile); font-size: var(--t-sm); }
 .intro-card .note { font-size: var(--t-xs); color: var(--muted); border-top: 1px solid var(--rule); padding-top: 10px; }
 .intro-card .btn { justify-self: stretch; text-align: center; }
+@media (max-width: 420px) { .region-tabs, .pick-regions { margin-inline: calc(var(--s1) * -1); padding-inline: var(--s1); } }
 </style>
 <div class="splash" id="splash" aria-hidden="true"><svg viewBox="0 0 64 64" aria-hidden="true"><rect width="64" height="64" rx="14" fill="#8a2432"/><path d="M14 44 L12 22 L23 31 L32 16 L41 31 L52 22 L50 44 Z" fill="#f1d58a" stroke="#f1d58a" stroke-width="2" stroke-linejoin="round"/><rect x="14" y="46" width="36" height="5" rx="2" fill="#f1d58a"/><circle cx="12" cy="21" r="3" fill="#f1d58a"/><circle cx="32" cy="15" r="3" fill="#f1d58a"/><circle cx="52" cy="21" r="3" fill="#f1d58a"/></svg><strong>Crown &amp; Succession</strong><span>Unrolling 2,600 rulers…</span></div>
 <div class="intro" id="intro" role="dialog" aria-modal="true" aria-labelledby="introTitle" hidden>
@@ -783,7 +803,8 @@ const reignHouses = g => {
 const houseLabel = g => {
   const hs = reignHouses(g);
   const names = hs.map(h => esc(h.name)).join(" & ");
-  return g.kind === "interregnum" || hs.every(h => h.plain) ? names : `House of ${names}`;
+  const plain = g.kind === "interregnum" || hs.every(h => h.plain || /^(house|the)\b|dynasty|republic|empire|kingdom|caliphate|regency|council|junta|period|rule\b/i.test(h.name));
+  return plain ? names : `House of ${names}`;
 };
 const img = g => `${country}/${g.id}`;
 /* Portraits ship packed in a few tall sheets per country (the host caps the file count).
@@ -823,7 +844,11 @@ const fallbackPics = k => {
 };
 function picFailed(im) {
   const fig = im.closest(".portrait"); if (fig) { fig.classList.add("no-pic"); return; }
-  im.style.visibility = "hidden";
+  const sp = document.createElement("span"), r = im.getBoundingClientRect();
+  sp.className = "mini-banner pic-gone"; sp.setAttribute("aria-hidden", "true");
+  sp.textContent = (im.closest("button, a")?.querySelector("strong")?.textContent ?? "").trim()[0] ?? "";
+  if (r.width) { sp.style.width = `${r.width}px`; sp.style.height = `${r.height}px`; }
+  im.replaceWith(sp);
 }
 function tryPics(im, urls) {
   if (!urls.length) return picFailed(im);
@@ -1155,18 +1180,20 @@ function drawCompareRow() {
   const row = document.getElementById("cmpRow");
   if (DATA.fictional) { row.hidden = true; cmpAdding = false; document.getElementById("cmpAddList").hidden = true; return; }
   row.hidden = false;
-  row.innerHTML = `<button class="cmp-add" data-cmp-add aria-expanded="${cmpAdding}">${cmpAdding ? "Done" : "+ Add"}</button>` +
+  const sl = row.scrollLeft;
+  row.innerHTML = `<button class="cmp-add" data-cmp-add aria-expanded="${cmpAdding}">${cmpAdding ? "Close" : "+ Add"}</button>` +
     (compare.length > 1 ? `<button class="cmp-add" data-cmp-clear>Clear all</button>` : "") +
     compare.map(c =>
     `<button data-cmp="${c}" aria-label="Remove ${esc(cname(c))} from comparison"><span class="chip-flag" aria-hidden="true">${FLAGS[c] ?? ""}</span>${esc(cname(c))}<span class="cmp-x" aria-hidden="true">×</span></button>`).join("");
+  row.scrollLeft = sl;
   const list = document.getElementById("cmpAddList");
   list.hidden = !cmpAdding;
   list.style.top = `${row.offsetTop + row.offsetHeight}px`;
-  if (cmpAdding) list.innerHTML = `<div class="cmp-tools"><button data-cmp-all="*">Add every country</button><button class="cmp-done" data-cmp-add>Done</button></div>` +
+  const left = TL_ORDER.filter(c => WORLD[c] && !WORLD[c].data.fictional && !compare.includes(c)).length;
+  if (cmpAdding) list.innerHTML = `<div class="cmp-tools">${left ? `<button data-cmp-all="*">Add all ${left} countries</button>` : `<span>Every country is on the timeline.</span>`}<button class="cmp-done" data-cmp-add>Done</button></div>` +
     REGIONS.map(([r, ids]) => { const opts = ids.filter(c => WORLD[c] && !compare.includes(c)); return opts.length ? `<div class="grp">${esc(r)}<button data-cmp-all="${esc(r)}">add all</button></div><div class="opts">${opts.map(c => `<button data-cmp="${c}"><span class="chip-flag" aria-hidden="true">${FLAGS[c] ?? ""}</span>${esc(cname(c))}</button>`).join("")}</div>` : ""; }).join("");
 }
-let cmpAdding = false;
-new MutationObserver(() => { document.getElementById("cmpRow").scrollLeft = 0; }).observe(document.getElementById("cmpRow"), { childList: true });
+let cmpAdding = false, tlHinted = null;
 function drawTimeline() {
   const body = document.getElementById("timelineBody");
   const ppy = ZOOMS[zoom], cols = tlColumns(), era = DATA.fictional ? DATA.era : undefined;
@@ -1207,8 +1234,8 @@ function drawTimeline() {
   placeMarker();
   drawCompareRow();
   document.getElementById("timelineTitle").textContent = DATA.fictional ? `${cname(country)} timeline` : "Compare";
-  let hinted = false;
-  try { hinted = !!localStorage.getItem("reign.tlhint"); localStorage.setItem("reign.tlhint", "1"); } catch {}
+  try { tlHinted ??= !!localStorage.getItem("reign.tlhint"); localStorage.setItem("reign.tlhint", "1"); } catch { tlHinted = false; }
+  const hinted = tlHinted;
   const hint = document.getElementById("tlHint");
   hint.hidden = hinted && !DATA.fictional;
   hint.textContent = DATA.fictional ? "Tap any reign to read it." : "Pinch or use − / + to zoom. Tap a year to draw a line across every country.";
@@ -1257,7 +1284,8 @@ const onCmp = e => {
   if (all || clear) {
     const live = c => WORLD[c] && !WORLD[c].data.fictional;
     if (clear) { compare = [country]; cmpAdding = false; }
-    else compare = [...new Set([...compare, ...(all.dataset.cmpAll === "*" ? TL_ORDER : REGIONS.find(([r]) => r === all.dataset.cmpAll)?.[1] ?? []).filter(live)])];
+    else if (all.dataset.cmpAll === "*") cmpAdding = false;
+    if (all) compare = [...new Set([...compare, ...(all.dataset.cmpAll === "*" ? TL_ORDER : REGIONS.find(([r]) => r === all.dataset.cmpAll)?.[1] ?? []).filter(live)])];
     redraw(); return;
   }
   const b = e.target.closest("[data-cmp]");
@@ -1560,7 +1588,7 @@ const FATE_GROUPS = [
   ["uncertain", "Uncertain", "#b3a691"],
 ];
 const groupOf = f => (VIOLENT.includes(f) ? "violent" : f);
-let statsFate = "murdered", dangerAll = false;
+let statsFate = "murdered", dangerAll = false, fateAll = false;
 function peopleOf(cid) {
   return ALL[cid].rulers.map(r => ({ cid, r, e: reignOf(cid, r.id), fate: fateOf(cid, r) })).filter(p => p.e);
 }
@@ -1602,7 +1630,8 @@ function renderStats() {
   const counts = Object.fromEntries(Object.keys(FATES).map(k => [k, everyone.filter(p => p.fate === k).length]));
   const fateBtns = Object.entries(FATES).filter(([k]) => counts[k]).map(([k, label]) =>
     `<button data-fate="${k}" aria-pressed="${k === statsFate}">${label}<small>${counts[k]}</small></button>`).join("");
-  const list = everyone.filter(p => p.fate === statsFate).map(p => `<li><button data-x="${p.cid}.${p.e.g.id}">
+  const fated = everyone.filter(p => p.fate === statsFate);
+  const list = fated.slice(0, fateAll ? Infinity : 20).map(p => `<li><button data-x="${p.cid}.${p.e.g.id}">
       ${thumb(p.cid, p.e)}
       <span class="meta"><strong>${esc(p.r.name)}</strong><span>${esc(cname(p.cid))} · ${esc(p.r.causeOfDeath ?? "")}</span></span>
     </button></li>`).join("");
@@ -1631,6 +1660,7 @@ function renderStats() {
       <h3>Browse by fate</h3>
       <div class="seg-btns" id="fateBtns">${fateBtns}</div>
       <ul class="results">${list}</ul>
+      ${fated.length > 20 ? `<button class="btn ghost danger-more" data-fate-more>${fateAll ? "Show fewer" : `Show all ${fated.length}`}</button>` : ""}
     </section>
     <section>
       <h3>Records</h3>
@@ -1642,7 +1672,8 @@ const statsBody = document.getElementById("statsBody"), tip = document.getElemen
 statsBody.addEventListener("click", e => {
   if (e.target.closest("[data-danger-more]")) { dangerAll = !dangerAll; renderStats(); return; }
   const f = e.target.closest("[data-fate]");
-  if (f) { statsFate = f.dataset.fate; renderStats(); return; }
+  if (e.target.closest("[data-fate-more]")) { fateAll = !fateAll; renderStats(); return; }
+  if (f) { statsFate = f.dataset.fate; fateAll = false; renderStats(); return; }
   const x = e.target.closest("[data-x]");
   if (x) openX(x.dataset.x);
 });
@@ -1654,11 +1685,11 @@ function showTip(e) {
   tip.style.opacity = 1;
   const w = tip.offsetWidth;
   tip.style.left = `${Math.min(innerWidth - w - 8, Math.max(8, e.clientX - w / 2))}px`;
-  tip.style.top = `${e.clientY - 40}px`;
+  tip.style.top = `${Math.max(8, e.clientY - (e.pointerType === "mouse" ? 40 : 64))}px`;
 }
 statsBody.addEventListener("pointermove", showTip);
 statsBody.addEventListener("pointerdown", showTip);
-statsBody.addEventListener("pointerleave", () => (tip.style.opacity = 0));
+statsBody.addEventListener("pointerleave", e => { if (e.pointerType === "mouse") tip.style.opacity = 0; });
 document.getElementById("view-stats").querySelector(".view-body").addEventListener("scroll", () => (tip.style.opacity = 0));
 
 /* ---------------- record or rumour: guess how solid each story is ---------------- */
@@ -1874,7 +1905,7 @@ booted = true;
 {
   const sp = document.getElementById("splash"); sp.classList.add("gone"); setTimeout(() => sp.remove(), 400);
   const intro = document.getElementById("intro");
-  const openIntro = () => { intro.hidden = false; document.getElementById("introGo").focus(); };
+  const openIntro = () => { intro.hidden = false; document.getElementById("introGo").focus({ preventScroll: true }); intro.querySelector(".intro-card").scrollTop = 0; };
   const closeIntro = () => {
     intro.hidden = true;
     try { localStorage.setItem("reign.seen", "1"); } catch {}

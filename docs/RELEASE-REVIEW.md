@@ -49,6 +49,21 @@ flags named where they carry meaning; chart has a text breakdown and 3:1 colours
 by half; 44px touch targets; side arrows on any mouse device; Previous button on cards; text-size safe
 timeline labels.
 
+**Second pass (phone testing after the first release)**
+- Cards built lazily while swiping had no width and stretched to ~2,800px ("desktop view"). Fixed.
+- Missing portraits: Commons' resizer, then the original; if both fail the frame is hidden
+  (cards) or an initial is shown (lists). No empty boxes.
+- Fresh visits open on England's first card.
+- Fates back to one row per country; tooltips work on tap; causes of death wrap; long fate
+  lists show 20 first.
+- Compare: Add/Close and Clear all lead the chip row; the add list sits under the chips and closes
+  on Done, after "Add all", or on a tap on the timeline; the chip row keeps its scroll position.
+- Quiz: two answers (on the record / rumour or disputed); the ruler's name opens the card; Next stays
+  on screen.
+- Intro fits short phones; "Meanwhile" chips wrap; disclosure chevrons; body margin reset; region
+  tabs no longer spill; short landscape layout; "House of" no longer doubled ("House of House of Saud").
+- Holy Roman Empire flag from the Commons banner of the Holy Roman Emperor.
+
 `tests/smoke.mjs` covers every deck by deep link, reading and sharing, Compare with all 48 countries at
 every zoom, a full quiz round, the intro, stats, search and dark mode.
 
