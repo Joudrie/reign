@@ -87,6 +87,7 @@ html, body { height: 100%; }
 /* iOS Safari enlarges text it judges too small after re-renders; keep our type scale exactly as set. */
 html { -webkit-text-size-adjust: 100%; text-size-adjust: 100%; }
 body {
+  margin: 0;
   background: var(--table);
   color: var(--ink);
   font-family: var(--text);
@@ -148,7 +149,9 @@ button, input { font: inherit; color: inherit; }
   scrollbar-width: thin; scrollbar-color: var(--edge) transparent;
 }
 .card:focus { outline: none; }
-.card { touch-action: pan-y; content-visibility: auto; contain-intrinsic-size: 400px 900px; }
+.portrait.no-pic { display: none; }
+.card { touch-action: pan-y; width: var(--card-w, calc(100vw - 32px)); max-width: var(--card-w, calc(100vw - 32px)); min-width: 0; }
+.card * { max-width: 100%; }
 html, body { overscroll-behavior-x: none; }
 .card:focus-visible { outline: 2px solid var(--accent); outline-offset: -2px; }
 .deck.dragging { cursor: grabbing; user-select: none; }
@@ -212,7 +215,10 @@ h1 { margin: 0; font-family: var(--name); font-weight: 400; font-size: var(--t-x
 .btn:hover { background: var(--accent); }
 
 details { font-size: var(--t-sm); color: var(--muted); }
-summary { cursor: pointer; }
+summary { cursor: pointer; list-style: none; }
+summary::-webkit-details-marker { display: none; }
+details > summary::after { content: ""; width: 7px; height: 7px; margin-left: 10px; border: solid currentColor; border-width: 0 1.5px 1.5px 0; transform: translateY(-2px) rotate(45deg); transition: transform .2s; flex: none; }
+details[open] > summary::after { transform: translateY(2px) rotate(-135deg); }
 details ul { margin: var(--s0) 0 0; padding-left: var(--s1); display: grid; gap: var(--s-1); }
 details a { color: inherit; }
 .draft { font-size: var(--t-xs); color: var(--disputed); }
@@ -321,6 +327,12 @@ details a { color: inherit; }
 .too-few { font-size: var(--t-xs); color: var(--muted); margin: var(--s0) 0 0; }
 .trust { font-size: var(--t-xs); color: var(--muted); list-style: none; margin-left: -1em; }
 @media (max-height: 700px) { .portrait { height: clamp(160px, 30vh, 260px); } }
+@media (max-height: 500px) and (orientation: landscape) {
+  :root { --tabs-h: 50px; }
+  .portrait { height: 32vh; }
+  .tl-hint { display: none; }
+  .view-head { padding-block: 6px; }
+}
 @media (max-width: 420px) { .hook { padding: var(--s1); } }
 @media (min-width: 900px) { .view-head { max-width: 760px; margin-inline: auto; width: 100%; } }
 /* Touch screens keep a hover look after a tap; only show hover where a pointer can hover. */
@@ -334,6 +346,7 @@ details a { color: inherit; }
 .label[aria-current="true"] strong, .tl-head[aria-current="true"] span:last-child { text-decoration: underline 2px; text-underline-offset: 3px; }
 .danger .stack i + i { box-shadow: -2px 0 0 var(--card); }
 .mini-banner { text-shadow: 0 0 2px rgb(0 0 0 / .5); }
+.mini-banner.pic-gone { display: grid; place-items: center; flex: none; background: var(--muted); color: #fbf9f4; font-family: var(--name); border-radius: var(--r-sm); min-width: 24px; min-height: 24px; }
 /* Comfortable touch targets */
 .country-btn, details > summary, .cmp-tools button, .cmp-add-list .grp button, .pick-group h3 button { min-height: 44px; display: inline-flex; align-items: center; }
 .cmp-tools button, .cmp-add-list .grp button, .pick-group h3 button { padding: 0 8px; }
@@ -342,8 +355,12 @@ details a { color: inherit; }
 details li a { display: inline-block; padding-block: 10px; }
 @media (prefers-color-scheme: dark) { :root:not([data-theme="light"]) .bar { box-shadow: 0 0 0 1px rgb(237 230 218 / .45); } }
 :root[data-theme="dark"] .bar { box-shadow: 0 0 0 1px rgb(237 230 218 / .45); }
-@media (max-width: 420px) { .danger li { grid-template-columns: 24px minmax(0, 1fr) auto; } .danger .stack { grid-column: 1 / -1; } }
+
 .cmp-add-list[hidden], .cmp-row[hidden] { display: none; }
+.cmp-add-list { position: absolute; left: 0; right: 0; z-index: 6; background: var(--table); box-shadow: 0 12px 24px rgb(40 30 20 / .18); border-bottom: 1px solid var(--edge); max-height: 55vh; padding-top: 8px; overscroll-behavior: contain; touch-action: pan-y; }
+.cmp-tools { position: sticky; top: -8px; background: var(--table); display: flex; justify-content: space-between; align-items: center; padding: 4px 0; z-index: 1; }
+.cmp-tools .cmp-done { font-weight: 600; text-decoration: none; border: 1px solid var(--ink); border-radius: 999px; padding: 0 16px; }
+.cmp-row .cmp-add { font-weight: 600; }
 .countries button {
   width: 100%; display: grid; grid-template-columns: 36px 1fr; gap: var(--s0) var(--s1); align-items: center;
   background: var(--card); border: 1px solid var(--edge); border-radius: var(--r); padding: var(--s1);
@@ -397,7 +414,7 @@ details li a { display: inline-block; padding-block: 10px; }
 .elsewhere .chips { display: grid; grid-template-columns: repeat(auto-fill, minmax(140px, 1fr)); }
 .elsewhere .chip { border-radius: var(--r-sm); min-height: 44px; padding: 6px var(--s0); }
 .elsewhere .chip > span:last-child { display: grid; min-width: 0; }
-.elsewhere .chip small { white-space: nowrap; }
+.elsewhere .chip small { white-space: normal; overflow-wrap: anywhere; }
 .also { justify-content: center; }
 
 /* progress in the country picker */
@@ -450,7 +467,8 @@ details li a { display: inline-block; padding-block: 10px; }
 .danger { list-style: none; margin: 0; padding: 0; display: grid; gap: var(--s0); }
 .danger li { display: grid; grid-template-columns: 24px minmax(0, 6.5rem) 1fr 2.75rem; align-items: center; gap: var(--s0); font-size: var(--t-sm); }
 .danger .chip-flag { width: 24px; height: 16px; }
-.danger .name { white-space: nowrap; overflow: hidden; text-overflow: ellipsis; }
+.danger .name { line-height: 1.2; overflow-wrap: anywhere; }
+#statsBody .results .meta > span { white-space: normal; }
 .danger .pct { text-align: right; font-variant-numeric: tabular-nums; font-weight: 600; }
 .stack { display: flex; gap: 2px; height: 16px; }
 .stack i { display: block; height: 100%; min-width: 3px; }
@@ -481,6 +499,10 @@ details li a { display: inline-block; padding-block: 10px; }
 .pick button small { color: var(--muted); font-size: var(--t-xs); font-variant-numeric: tabular-nums; }
 .pick .all { padding-left: var(--s1); }
 .play-actions { display: flex; gap: var(--s0); flex-wrap: wrap; }
+.play-body .play-actions { position: sticky; bottom: 0; z-index: 2; background: var(--table); padding: var(--s0) 0; box-shadow: 0 -10px 12px -8px var(--table); }
+.q-card { position: relative; }
+.q-stamp { position: absolute; top: 12px; right: 12px; }
+@media (max-height: 720px) { .q-card { min-height: 0; padding: var(--s2); } .play-body { gap: var(--s1); } }
 .btn.ghost { background: var(--card); color: var(--ink); border: 1px solid var(--edge); }
 .btn.ghost:hover { background: var(--tile); }
 .q-top { display: flex; justify-content: space-between; font-size: var(--t-xs); color: var(--muted); font-variant-numeric: tabular-nums; margin-bottom: calc(var(--s1) * -1); }
@@ -506,9 +528,13 @@ details li a { display: inline-block; padding-block: 10px; }
 .verdict .note { color: var(--muted); font-size: var(--t-sm); }
 .linkish { background: none; border: 0; padding: 0; color: var(--accent); font-weight: 600; cursor: pointer; justify-self: start; font-size: var(--t-sm); }
 .score-big { font-family: var(--name); font-size: 4rem; line-height: 1; }
+.score-big .play-intro { font-family: var(--text); font-size: var(--t-lg); }
 
 @media (prefers-reduced-motion: reduce) { * { transition: none !important; } }
 .more-chips { margin-top: var(--s0); }
+.answers.two { display: grid; grid-template-columns: 1fr 1fr; gap: var(--s0); }
+button.q-meta { background: none; border: 0; padding: 0; font: inherit; color: inherit; cursor: pointer; display: flex; align-items: center; gap: 6px; text-align: left; min-height: 32px; }
+button.q-meta .q-who { text-decoration: underline; text-decoration-color: var(--edge); text-underline-offset: 3px; }
 .answers.answered span { flex: 1; text-align: center; padding: 10px 6px; border-radius: var(--r-sm); border: 1px solid var(--edge); font-size: var(--t-sm); font-weight: 600; }
 .answers.answered .is-right { background: currentColor; }
 .answers.answered .is-right { color: var(--card); }
@@ -519,6 +545,9 @@ details li a { display: inline-block; padding-block: 10px; }
 .q-card.wrong { border-color: var(--accent); box-shadow: 0 0 0 2px var(--accent); }
 .more-chips summary { cursor: pointer; color: var(--muted); font-size: var(--t-sm); }
 .more-chips .chips { margin-top: var(--s0); }
+.view-body:not(.tl-scroll) { overflow-x: hidden; }
+.search-body, .stats-body, .play-body { touch-action: pan-y; }
+.region-tabs { touch-action: pan-x; }
 .find-search { position: sticky; top: 0; z-index: 3; background: var(--table); padding-block: 4px; }
 .find-browse { display: grid; gap: var(--s1); }
 .searching .find-browse { display: none; }
@@ -535,7 +564,9 @@ details li a { display: inline-block; padding-block: 10px; }
 .intro[hidden] { display: none; }
 .intro-card { background: var(--card); color: var(--ink); border-radius: 20px; box-shadow: var(--card-shadow); max-width: 440px; width: 100%; padding: 28px 24px 20px; display: grid; gap: 14px;
   margin-bottom: calc(var(--tabs-h) + env(safe-area-inset-bottom, 0px)); max-height: calc(100dvh - var(--tabs-h) - 48px); overflow-y: auto; }
-@media (min-width: 600px) { .intro { place-items: center; } .intro-card { margin-bottom: 0; } }
+@media (min-width: 600px) and (min-height: 600px) { .intro { place-items: center; } .intro-card { margin-bottom: 0; } }
+@media (max-height: 720px) { .intro-card { gap: 10px; padding: 20px 20px 16px; } .intro-card h2 { font-size: 1.5rem; } .intro-card li { gap: 8px; } .intro-card ul { gap: 8px; } }
+.intro-card .btn { position: sticky; bottom: 0; box-shadow: 0 16px 0 0 var(--card), 0 -10px 14px -6px var(--card); }
 .intro-card .mark { display: flex; align-items: center; gap: 12px; }
 .intro-card .mark svg { width: 44px; height: 44px; flex: none; }
 .intro-card h2 { margin: 0; font-family: var(--name); font-weight: 400; font-size: 1.75rem; line-height: 1.1; }
@@ -545,6 +576,7 @@ details li a { display: inline-block; padding-block: 10px; }
 .intro-card li b { display: grid; place-items: center; width: 28px; height: 28px; border-radius: 50%; background: var(--tile); font-size: var(--t-sm); }
 .intro-card .note { font-size: var(--t-xs); color: var(--muted); border-top: 1px solid var(--rule); padding-top: 10px; }
 .intro-card .btn { justify-self: stretch; text-align: center; }
+@media (max-width: 420px) { .region-tabs, .pick-regions { margin-inline: calc(var(--s1) * -1); padding-inline: var(--s1); } }
 </style>
 </head>
 <body>
@@ -556,7 +588,7 @@ details li a { display: inline-block; padding-block: 10px; }
     <ul>
       <li><b>→</b><span><strong>Swipe</strong> (or use the arrow keys) to meet the next ruler. Tap the country name at the top to switch thrones.</span></li>
       <li><b>⫴</b><span><strong>Compare</strong> lines up any countries side by side, so you can see who ruled at the same time.</span></li>
-      <li><b>?</b><span><strong>Quiz</strong>: every card sorts its stories into record, disputed and rumour. Can you tell which is which?</span></li>
+      <li><b>?</b><span><strong>Quiz</strong>: is a story on the record, or only rumour and dispute? Guess, then read the card.</span></li>
     </ul>
     <p class="note">Written from the sources listed on each card, with portraits from Wikimedia Commons. The cards are new and not yet independently checked: if you spot a mistake, share the card with us.</p>
     <button class="btn" id="introGo">Start reading</button>
@@ -748,7 +780,7 @@ const FLAGS = {
   norway: `<svg class="flag" viewBox="0 0 22 16" preserveAspectRatio="none"><rect width="22" height="16" fill="#ba0c2f"/><rect x="6" width="4" height="16" fill="#fff"/><rect y="6" width="22" height="4" fill="#fff"/><rect x="7" width="2" height="16" fill="#00205b"/><rect y="7" width="22" height="2" fill="#00205b"/></svg>`,
   netherlands: `<svg class="flag" viewBox="0 0 9 6" preserveAspectRatio="none"><rect width="9" height="6" fill="#fff"/><rect width="9" height="2" fill="#ae1c28"/><rect y="4" width="9" height="2" fill="#21468b"/></svg>`,
   germany: `<svg class="flag" viewBox="0 0 5 3" preserveAspectRatio="none"><rect width="5" height="3" fill="#ffce00"/><rect width="5" height="2" fill="#dd0000"/><rect width="5" height="1" fill="#000"/></svg>`,
-  hre: `<svg class="flag" viewBox="0 0 30 20" preserveAspectRatio="none"><rect width="30" height="20" fill="#f1bf00"/><g fill="#1a1a1a"><circle cx="15" cy="7" r="2.2"/><path d="M15 9.2c-1.6 0-2.4 1.2-2.4 2.8v3.5h4.8V12c0-1.6-.8-2.8-2.4-2.8z"/><path d="M12.6 10.5L5 7.5l1.2 2.2L3.5 10l3.4 1.6-1.6 1.6 7.3-1.1zM17.4 10.5L25 7.5l-1.2 2.2 2.7.3-3.4 1.6 1.6 1.6-7.3-1.1z"/><path d="M13.6 15.5l-1.4 2.5h1.6l1.2-2.5zM16.4 15.5l1.4 2.5h-1.6l-1.2-2.5z"/></g></svg>`,
+  hre: `<svg class="flag" viewBox="0 0 30 20"><image width="30" height="20" preserveAspectRatio="xMidYMid slice" href="data:image/jpeg;base64,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"/></svg>`,
   japan: `<svg class="flag" viewBox="0 0 30 20" preserveAspectRatio="none"><rect width="30" height="20" fill="#fff"/><circle cx="15" cy="10" r="6" fill="#bc002d"/></svg>`,
 };
 
@@ -800,7 +832,8 @@ const reignHouses = g => {
 const houseLabel = g => {
   const hs = reignHouses(g);
   const names = hs.map(h => esc(h.name)).join(" & ");
-  return g.kind === "interregnum" || hs.every(h => h.plain) ? names : `House of ${names}`;
+  const plain = g.kind === "interregnum" || hs.every(h => h.plain || /^(house|the)\b|dynasty|republic|empire|kingdom|caliphate|regency|council|junta|period|rule\b/i.test(h.name));
+  return plain ? names : `House of ${names}`;
 };
 const img = g => `${country}/${g.id}`;
 /* Portraits ship packed in a few tall sheets per country (the host caps the file count).
@@ -831,8 +864,27 @@ const commonsThumb = url => {
   const m = url.match(/^(https:\/\/upload\.wikimedia\.org\/wikipedia\/(?:commons|en))\/(\w\/\w\w)\/([^/]+)$/);
   return m ? `${m[1]}/thumb/${m[2]}/${m[3]}/480px-${m[3]}${/\.svg$/i.test(m[3]) ? ".png" : ""}` : url;
 };
-const fallbackPic = k => { const [cid, rid] = k.split("/"), u = ALL[cid]?.reigns.find(x => x.id === rid)?.images?.[0]?.url; return u && commonsThumb(u); };
-const fillPic = im => { const k = im.dataset.pic; im.removeAttribute("data-pic"); cutOut(k).then(u => (im.src = u), () => { const u = fallbackPic(k); if (u) im.src = u; }); };
+// Not in the packed sheets: Commons' resizer (copes with originals smaller than the request), then the original.
+const fallbackPics = k => {
+  const [cid, rid] = k.split("/"), p = ALL[cid]?.reigns.find(x => x.id === rid)?.images?.[0];
+  if (!p) return [];
+  const name = p.file.replace(/^File:/, "").replace(/ /g, "_");
+  return [`https://commons.wikimedia.org/wiki/Special:FilePath/${encodeURIComponent(name)}?width=640`, p.url];
+};
+function picFailed(im) {
+  const fig = im.closest(".portrait"); if (fig) { fig.classList.add("no-pic"); return; }
+  const sp = document.createElement("span"), r = im.getBoundingClientRect();
+  sp.className = "mini-banner pic-gone"; sp.setAttribute("aria-hidden", "true");
+  sp.textContent = (im.closest("button, a")?.querySelector("strong")?.textContent ?? "").trim()[0] ?? "";
+  if (r.width) { sp.style.width = `${r.width}px`; sp.style.height = `${r.height}px`; }
+  im.replaceWith(sp);
+}
+function tryPics(im, urls) {
+  if (!urls.length) return picFailed(im);
+  im.onerror = () => tryPics(im, urls.slice(1));
+  im.src = urls[0];
+}
+const fillPic = im => { const k = im.dataset.pic; im.removeAttribute("data-pic"); cutOut(k).then(u => (im.onerror = null, im.src = u), () => tryPics(im, fallbackPics(k))); };
 const picSeen = new IntersectionObserver(es => es.forEach(e => { if (e.isIntersecting) { picSeen.unobserve(e.target); fillPic(e.target); } }), { rootMargin: "400px" });
 new MutationObserver(ms => ms.forEach(m => m.addedNodes.forEach(n => {
   if (n.nodeType !== 1) return;
@@ -924,6 +976,7 @@ function measure() {
   cardW = Math.min(w - 2 * 16, 600);
   step = cardW + GAP;
   offset = (w - cardW) / 2;
+  rail.style.setProperty("--card-w", cardW + "px");
   cards.forEach(c => (c.style.width = cardW + "px"));
   x = -index * step;
   render();
@@ -944,7 +997,7 @@ function fillCard(k) {
   const t = document.createElement("template");
   t.innerHTML = card(reigns[k], k);
   const el = t.content.firstElementChild;
-  el.style.transform = old.style.transform; el.style.transformOrigin = old.style.transformOrigin;
+  el.style.cssText = old.style.cssText;
   el.inert = old.inert;
   rail.replaceChild(el, old);
   cards[k] = el;
@@ -1156,16 +1209,20 @@ function drawCompareRow() {
   const row = document.getElementById("cmpRow");
   if (DATA.fictional) { row.hidden = true; cmpAdding = false; document.getElementById("cmpAddList").hidden = true; return; }
   row.hidden = false;
-  row.innerHTML = compare.map(c =>
-    `<button data-cmp="${c}" aria-label="Remove ${esc(cname(c))} from comparison"><span class="chip-flag" aria-hidden="true">${FLAGS[c] ?? ""}</span>${esc(cname(c))}<span class="cmp-x" aria-hidden="true">×</span></button>`).join("") +
-    `<button class="cmp-add" data-cmp-add aria-expanded="${cmpAdding}">${cmpAdding ? "Done" : "+ Add countries"}</button>`;
+  const sl = row.scrollLeft;
+  row.innerHTML = `<button class="cmp-add" data-cmp-add aria-expanded="${cmpAdding}">${cmpAdding ? "Close" : "+ Add"}</button>` +
+    (compare.length > 1 ? `<button class="cmp-add" data-cmp-clear>Clear all</button>` : "") +
+    compare.map(c =>
+    `<button data-cmp="${c}" aria-label="Remove ${esc(cname(c))} from comparison"><span class="chip-flag" aria-hidden="true">${FLAGS[c] ?? ""}</span>${esc(cname(c))}<span class="cmp-x" aria-hidden="true">×</span></button>`).join("");
+  row.scrollLeft = sl;
   const list = document.getElementById("cmpAddList");
   list.hidden = !cmpAdding;
-  if (cmpAdding) list.innerHTML = `<div class="cmp-tools"><button data-cmp-all="*">Add every country</button>${compare.length > 1 ? `<button data-cmp-clear>Keep only ${esc(cname(country))}</button>` : ""}</div>` +
+  list.style.top = `${row.offsetTop + row.offsetHeight}px`;
+  const left = TL_ORDER.filter(c => WORLD[c] && !WORLD[c].data.fictional && !compare.includes(c)).length;
+  if (cmpAdding) list.innerHTML = `<div class="cmp-tools">${left ? `<button data-cmp-all="*">Add all ${left} countries</button>` : `<span>Every country is on the timeline.</span>`}<button class="cmp-done" data-cmp-add>Done</button></div>` +
     REGIONS.map(([r, ids]) => { const opts = ids.filter(c => WORLD[c] && !compare.includes(c)); return opts.length ? `<div class="grp">${esc(r)}<button data-cmp-all="${esc(r)}">add all</button></div><div class="opts">${opts.map(c => `<button data-cmp="${c}"><span class="chip-flag" aria-hidden="true">${FLAGS[c] ?? ""}</span>${esc(cname(c))}</button>`).join("")}</div>` : ""; }).join("");
 }
-let cmpAdding = false;
-new MutationObserver(() => { document.getElementById("cmpRow").scrollLeft = 0; }).observe(document.getElementById("cmpRow"), { childList: true });
+let cmpAdding = false, tlHinted = null;
 function drawTimeline() {
   const body = document.getElementById("timelineBody");
   const ppy = ZOOMS[zoom], cols = tlColumns(), era = DATA.fictional ? DATA.era : undefined;
@@ -1206,8 +1263,8 @@ function drawTimeline() {
   placeMarker();
   drawCompareRow();
   document.getElementById("timelineTitle").textContent = DATA.fictional ? `${cname(country)} timeline` : "Compare";
-  let hinted = false;
-  try { hinted = !!localStorage.getItem("reign.tlhint"); localStorage.setItem("reign.tlhint", "1"); } catch {}
+  try { tlHinted ??= !!localStorage.getItem("reign.tlhint"); localStorage.setItem("reign.tlhint", "1"); } catch { tlHinted = false; }
+  const hinted = tlHinted;
   const hint = document.getElementById("tlHint");
   hint.hidden = hinted && !DATA.fictional;
   hint.textContent = DATA.fictional ? "Tap any reign to read it." : "Pinch or use − / + to zoom. Tap a year to draw a line across every country.";
@@ -1230,6 +1287,7 @@ function scrollTimelineToCurrent() {
   const cur = body.querySelector(`.tl-col[data-cid="${country}"] .label[aria-current="true"]`);
   if (cur) body.scrollTop = Math.max(0, TL_TOP + (cur.closest(".label-track") ?? cur).offsetTop - body.clientHeight / 3);
 }
+document.getElementById("timelineBody").addEventListener("pointerdown", () => { if (cmpAdding) { cmpAdding = false; drawCompareRow(); } });
 document.getElementById("timelineBody").addEventListener("click", e => {
   const t = e.target.closest("[data-x]");
   if (t) return openX(t.dataset.x);
@@ -1254,8 +1312,9 @@ const onCmp = e => {
   const all = e.target.closest("[data-cmp-all]"), clear = e.target.closest("[data-cmp-clear]");
   if (all || clear) {
     const live = c => WORLD[c] && !WORLD[c].data.fictional;
-    if (clear) compare = [country];
-    else compare = [...new Set([...compare, ...(all.dataset.cmpAll === "*" ? TL_ORDER : REGIONS.find(([r]) => r === all.dataset.cmpAll)?.[1] ?? []).filter(live)])];
+    if (clear) { compare = [country]; cmpAdding = false; }
+    else if (all.dataset.cmpAll === "*") cmpAdding = false;
+    if (all) compare = [...new Set([...compare, ...(all.dataset.cmpAll === "*" ? TL_ORDER : REGIONS.find(([r]) => r === all.dataset.cmpAll)?.[1] ?? []).filter(live)])];
     redraw(); return;
   }
   const b = e.target.closest("[data-cmp]");
@@ -1413,8 +1472,8 @@ function loadCountry(id, reignId) {
   renderCountries();
   try { localStorage.setItem("reign.country", id); } catch {}
 
-  // No card asked for: carry on where this reader left off in this country.
-  if (!reignId) { try { reignId = localStorage.getItem(`reign.pos.${id}`) ?? undefined; } catch {} }
+  // No card asked for: carry on where this reader left off in this country (but a fresh visit starts at the top).
+  if (!reignId && booted) { try { reignId = localStorage.getItem(`reign.pos.${id}`) ?? undefined; } catch {} }
   index = Math.max(0, reigns.findIndex(g => g.id === reignId));
   setIndex(index);
   measure();
@@ -1558,7 +1617,7 @@ const FATE_GROUPS = [
   ["uncertain", "Uncertain", "#b3a691"],
 ];
 const groupOf = f => (VIOLENT.includes(f) ? "violent" : f);
-let statsFate = "murdered", dangerAll = false;
+let statsFate = "murdered", dangerAll = false, fateAll = false;
 function peopleOf(cid) {
   return ALL[cid].rulers.map(r => ({ cid, r, e: reignOf(cid, r.id), fate: fateOf(cid, r) })).filter(p => p.e);
 }
@@ -1594,13 +1653,14 @@ function renderStats() {
     const segs = FATE_GROUPS.filter(([k]) => row.n[k]).map(([k, label, c]) =>
       `<i style="flex:${row.n[k]} 1 0;background:${c}" data-tip="${esc(name)}: ${row.n[k]} of ${row.total} rulers, ${label.toLowerCase()}"></i>`).join("");
     const sr = FATE_GROUPS.filter(([k]) => row.n[k]).map(([k, label]) => `${label.toLowerCase()} ${row.n[k]}`).join(", ");
-    return `<li><span class="chip-flag" aria-hidden="true">${FLAGS[row.cid] ?? ""}</span><span class="name">${esc(name)}<small>${row.total}</small></span><span class="stack" role="img" aria-label="${esc(name)}: ${sr}, of ${row.total} rulers">${segs}</span><span class="pct">${Math.round(row.pct * 100)}%</span></li>`;
+    return `<li><span class="chip-flag" aria-hidden="true">${FLAGS[row.cid] ?? ""}</span><span class="name">${esc(name)}</span><span class="stack" role="img" aria-label="${esc(name)}: ${sr}, of ${row.total} rulers">${segs}</span><span class="pct">${Math.round(row.pct * 100)}%</span></li>`;
   }).join("");
 
   const counts = Object.fromEntries(Object.keys(FATES).map(k => [k, everyone.filter(p => p.fate === k).length]));
   const fateBtns = Object.entries(FATES).filter(([k]) => counts[k]).map(([k, label]) =>
     `<button data-fate="${k}" aria-pressed="${k === statsFate}">${label}<small>${counts[k]}</small></button>`).join("");
-  const list = everyone.filter(p => p.fate === statsFate).map(p => `<li><button data-x="${p.cid}.${p.e.g.id}">
+  const fated = everyone.filter(p => p.fate === statsFate);
+  const list = fated.slice(0, fateAll ? Infinity : 20).map(p => `<li><button data-x="${p.cid}.${p.e.g.id}">
       ${thumb(p.cid, p.e)}
       <span class="meta"><strong>${esc(p.r.name)}</strong><span>${esc(cname(p.cid))} · ${esc(p.r.causeOfDeath ?? "")}</span></span>
     </button></li>`).join("");
@@ -1619,17 +1679,17 @@ function renderStats() {
 
   document.getElementById("statsBody").innerHTML = `
     <section>
-      <h3>The most dangerous throne</h3>
-      <p class="sub">Share of each country's rulers who died violently: in battle, murdered, executed, poisoned or by their own hand.</p>
       <div class="legend-row">${legend}</div>
       <ul class="danger">${danger}</ul>
-      ${tooFew.length ? `<p class="too-few">Too few recorded deaths to rank: ${tooFew.map(r => esc(cname(r.cid))).join(", ")}. Small numbers after each name are rulers counted.</p>` : ""}
+      <p class="sub">The percentage is the share of rulers who died violently: in battle, murdered, executed, poisoned or by their own hand.</p>
+      ${tooFew.length ? `<p class="too-few">Too few recorded deaths to rank: ${tooFew.map(r => esc(cname(r.cid))).join(", ")}.</p>` : ""}
       ${rows.length > 10 ? `<button class="btn ghost danger-more" data-danger-more>${dangerAll ? "Show top 10" : `Show all ${rows.length}`}</button>` : ""}
     </section>
     <section>
       <h3>Browse by fate</h3>
       <div class="seg-btns" id="fateBtns">${fateBtns}</div>
       <ul class="results">${list}</ul>
+      ${fated.length > 20 ? `<button class="btn ghost danger-more" data-fate-more>${fateAll ? "Show fewer" : `Show all ${fated.length}`}</button>` : ""}
     </section>
     <section>
       <h3>Records</h3>
@@ -1641,7 +1701,8 @@ const statsBody = document.getElementById("statsBody"), tip = document.getElemen
 statsBody.addEventListener("click", e => {
   if (e.target.closest("[data-danger-more]")) { dangerAll = !dangerAll; renderStats(); return; }
   const f = e.target.closest("[data-fate]");
-  if (f) { statsFate = f.dataset.fate; renderStats(); return; }
+  if (e.target.closest("[data-fate-more]")) { fateAll = !fateAll; renderStats(); return; }
+  if (f) { statsFate = f.dataset.fate; fateAll = false; renderStats(); return; }
   const x = e.target.closest("[data-x]");
   if (x) openX(x.dataset.x);
 });
@@ -1653,11 +1714,11 @@ function showTip(e) {
   tip.style.opacity = 1;
   const w = tip.offsetWidth;
   tip.style.left = `${Math.min(innerWidth - w - 8, Math.max(8, e.clientX - w / 2))}px`;
-  tip.style.top = `${e.clientY - 40}px`;
+  tip.style.top = `${Math.max(8, e.clientY - (e.pointerType === "mouse" ? 40 : 64))}px`;
 }
 statsBody.addEventListener("pointermove", showTip);
 statsBody.addEventListener("pointerdown", showTip);
-statsBody.addEventListener("pointerleave", () => (tip.style.opacity = 0));
+statsBody.addEventListener("pointerleave", e => { if (e.pointerType === "mouse") tip.style.opacity = 0; });
 document.getElementById("view-stats").querySelector(".view-body").addEventListener("scroll", () => (tip.style.opacity = 0));
 
 /* ---------------- record or rumour: guess how solid each story is ---------------- */
@@ -1679,7 +1740,7 @@ function renderPlay() {
     const all = REAL.every(c => game.picked.includes(c));
     const btn = (cid, label) => `<button data-pick="${cid}" aria-pressed="${game.picked.includes(cid)}"><span class="chip-flag" aria-hidden="true">${FLAGS[cid] ?? ""}</span>${esc(label)}<small>${poolOf([cid]).length}</small></button>`;
     el.innerHTML = `
-      <p class="play-intro">Every card sorts its stories into record, disputed and rumour. Read the story, then guess which it is.</p>
+      <p class="play-intro">Each question is a story from a real card. Is it on the record, or rumour and disputed? Tap the name to read the full card.</p>
       <div class="pick-summary"><span>Playing <strong>${all && !game.picked.some(c => FICTION.includes(c)) ? "all real history" : `${game.picked.length} deck${game.picked.length === 1 ? "" : "s"}`}</strong>, ${poolOf(game.picked).length} stories.</span>
         <button class="btn ghost" data-play="${game.choosing ? "chosen" : "choose"}">${game.choosing ? "Done" : "Change decks"}</button></div>
       ${game.choosing ? `
@@ -1702,17 +1763,17 @@ function renderPlay() {
   }
   const q = r.qs[r.i], name = q.e.name, who = `${esc(name)} · ${esc(cname(q.cid))}`;
   const head = `<div class="q-top"><span>Question ${r.i + 1} of ${r.qs.length}</span><span>${r.streak > 1 ? `${r.streak} in a row` : ""}</span></div>
-    <div class="q-card" id="qCard"><div class="q-meta"><span class="chip-flag" aria-hidden="true">${FLAGS[q.cid] ?? ""}</span>${who}</div><p class="q-text">${esc(q.c.text)}</p><span class="q-stamp" id="qStamp"></span></div>`;
+    <div class="q-card" id="qCard"><button class="q-meta" data-x="${q.cid}.${q.e.g.id}" aria-label="Open ${esc(name)}'s card"><span class="chip-flag" aria-hidden="true">${FLAGS[q.cid] ?? ""}</span><span class="q-who">${who}</span><span aria-hidden="true">›</span></button><p class="q-text">${esc(q.c.text)}</p><span class="q-stamp" id="qStamp"></span></div>`;
   if (!r.answer) {
     el.innerHTML = `${head}
-      <div class="answers"><button class="legend" data-ans="legend">Rumour</button><button class="disputed" data-ans="disputed">Disputed</button><button class="confirmed" data-ans="confirmed">Record</button></div>
-      <p class="play-intro">Or swipe the card: left for rumour, right for record. Tap for disputed.</p>`;
+      <div class="answers two"><button class="legend" data-ans="doubt">Rumour or disputed</button><button class="confirmed" data-ans="confirmed">On the record</button></div>
+      <p class="play-intro">Or swipe the card: left for rumour or disputed, right for on the record.</p>`;
     return;
   }
-  const ok = r.answer === q.c.status;
-  const mark = st => st === q.c.status ? " is-right" : st === r.answer ? " is-wrong" : " is-dim";
+  const truth = q.c.status === "confirmed" ? "confirmed" : "doubt", ok = r.answer === truth;
+  const mark = st => st === truth ? " is-right" : st === r.answer ? " is-wrong" : " is-dim";
   el.innerHTML = `${head.replace('class="q-card"', `class="q-card ${ok ? "right" : "wrong"}"`).replace('<span class="q-stamp" id="qStamp"></span>', `<span class="q-stamp on ${q.c.status}" id="qStamp">${VERDICT[q.c.status]}</span>`)}
-    <div class="answers answered" aria-hidden="true"><span class="legend${mark("legend")}">Rumour</span><span class="disputed${mark("disputed")}">Disputed</span><span class="confirmed${mark("confirmed")}">Record</span></div>
+    <div class="answers answered two" aria-hidden="true"><span class="legend${mark("doubt")}">Rumour or disputed</span><span class="confirmed${mark("confirmed")}">On the record</span></div>
     <div class="verdict">
       <p class="result" id="verdict" tabindex="-1">${ok ? "Right." : "Not quite."} It's <span class="status ${q.c.status}">${VERDICT[q.c.status]}</span></p>
       <p class="note">${esc(q.c.note)}</p>
@@ -1724,7 +1785,7 @@ function answer(st) {
   const r = game.round;
   if (!r || r.answer) return;
   r.answer = st;
-  if (st === r.qs[r.i].c.status) { r.score++; r.streak++; } else r.streak = 0;
+  if (st === (r.qs[r.i].c.status === "confirmed" ? "confirmed" : "doubt")) { r.score++; r.streak++; } else r.streak = 0;
   renderPlay();
 }
 document.getElementById("playBody").addEventListener("click", e => {
@@ -1777,7 +1838,7 @@ document.getElementById("playBody").addEventListener("pointermove", e => {
   qDrag.el.style.transform = `translateX(${dx}px) rotate(${dx / 24}deg)`;
   const stamp = document.getElementById("qStamp");
   const st = dx > 0 ? "confirmed" : "legend";
-  stamp.textContent = STATUS[st];
+  stamp.textContent = dx > 0 ? "On the record" : "Rumour or disputed";
   stamp.className = `q-stamp status ${st}`;
   stamp.style.opacity = Math.min(1, Math.abs(dx) / 90);
 });
@@ -1785,7 +1846,7 @@ function endQDrag(e) {
   if (!qDrag || e.pointerId !== qDrag.id) return;
   const d = qDrag; qDrag = null;
   if (d.axis !== "x") return;
-  if (Math.abs(d.dx) > 90) return answer(d.dx > 0 ? "confirmed" : "legend");
+  if (Math.abs(d.dx) > 90) return answer(d.dx > 0 ? "confirmed" : "doubt");
   tween(d.dx, 0, v => { d.el.style.transform = `translateX(${v}px) rotate(${v / 24}deg)`; });
   document.getElementById("qStamp").style.opacity = 0;
 }
@@ -1863,16 +1924,17 @@ addEventListener("hashchange", () => {
   else { const i = reigns.findIndex(g => g.id === r); if (i >= 0 && i !== index) go(i, 0, true); }
   show("read");
 });
-let saved = null;
+let saved = null, booted = false;
 try { saved = localStorage.getItem("reign.country"); } catch {}
-const startCountry = [hashCountry, saved, "england"].find(c => c && Object.hasOwn(ALL, c));
+const startCountry = hashCountry && Object.hasOwn(ALL, hashCountry) ? hashCountry : "england";
 tabs.forEach(t => t.setAttribute("aria-current", t.dataset.tab === "read" ? "page" : "false"));
 loadCountry(startCountry, startCountry === hashCountry ? hashReign : undefined);
+booted = true;
 // Boot is done: lift the splash, and greet first-time visitors (not people arriving on a shared card link).
 {
   const sp = document.getElementById("splash"); sp.classList.add("gone"); setTimeout(() => sp.remove(), 400);
   const intro = document.getElementById("intro");
-  const openIntro = () => { intro.hidden = false; document.getElementById("introGo").focus(); };
+  const openIntro = () => { intro.hidden = false; document.getElementById("introGo").focus({ preventScroll: true }); intro.querySelector(".intro-card").scrollTop = 0; };
   const closeIntro = () => {
     intro.hidden = true;
     try { localStorage.setItem("reign.seen", "1"); } catch {}
