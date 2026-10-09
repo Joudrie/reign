@@ -63,6 +63,10 @@ timeline labels.
 - Intro fits short phones; "Meanwhile" chips wrap; disclosure chevrons; body margin reset; region
   tabs no longer spill; short landscape layout; "House of" no longer doubled ("House of House of Saud").
 - Holy Roman Empire flag from the Commons banner of the Holy Roman Emperor.
+- Back button: every screen opened from a card is one history step; a card opened from Find, Compare,
+  Fates or Quiz goes back to that screen; Back closes the Compare add list.
+- Landscape phones: portrait in a left column beside the text, slimmer header and tab bar, compact quiz.
+- A portrait that hangs for 8 s is treated as missing.
 
 `tests/smoke.mjs` covers every deck by deep link, reading and sharing, Compare with all 48 countries at
 every zoom, a full quiz round, the intro, stats, search and dark mode.

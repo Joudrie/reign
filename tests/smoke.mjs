@@ -115,6 +115,34 @@ const tab = async (p, t) => { await p.click(`[data-tab="${t}"]`); await p.waitFo
   await p.close();
 }
 
+// 7. Back button: returns from any screen to the card, and from an opened card to the screen it came from.
+{
+  const p = await page();
+  await p.goto(URL0 + "#england.william-i"); await p.waitForTimeout(1500);
+  const where = () => p.evaluate(() => `${view} ${country}`);
+  await p.click("#countryBtn"); await p.waitForTimeout(300);
+  await p.click('[data-country="spain"]'); await p.waitForTimeout(400);
+  await p.goBack(); await p.waitForTimeout(400);
+  check(await where() === "search spain", "Back from a country picked in Find returns to Find");
+  await p.goBack(); await p.waitForTimeout(400);
+  check(await where() === "read england", "Back again returns to the first card");
+  await tab(p, "timeline"); await p.click("[data-cmp-add]"); await p.goBack(); await p.waitForTimeout(300);
+  check(await p.evaluate(() => view === "timeline" && !cmpAdding), "Back closes the Compare add list");
+  await p.goBack(); await p.waitForTimeout(300);
+  check(await where() === "read england", "Back from Compare returns to the card");
+  check(!p.errors.length, `no errors with Back ${p.errors.slice(0, 3).join(" | ")}`);
+  await p.close();
+}
+
+// 8. Landscape phone: portrait beside the text, nothing wider than the screen.
+{
+  const p = await page({ viewport: { width: 844, height: 390 } });
+  await p.goto(URL0 + "#england.henry-viii"); await p.waitForTimeout(1500);
+  const l = await p.evaluate(() => { const c = cards[index], f = c.querySelector(".portrait").getBoundingClientRect(), t = c.querySelector(".title").getBoundingClientRect(); return { side: f.right <= t.left, sw: document.documentElement.scrollWidth }; });
+  check(l.side && l.sw <= 844, `landscape card puts the portrait beside the title (${JSON.stringify(l)})`);
+  await p.close();
+}
+
 await browser.close();
 console.log(failed ? `\n${failed} check(s) failed` : "\nall checks passed");
 process.exit(failed ? 1 : 0);
