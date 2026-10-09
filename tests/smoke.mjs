@@ -143,6 +143,28 @@ const tab = async (p, t) => { await p.click(`[data-tab="${t}"]`); await p.waitFo
   await p.close();
 }
 
+// 9. iPhone engine (WebKit, if installed): swiping through 15 cards keeps every card the width of the screen.
+//    Chromium never showed the "every third card goes super wide" bug; WebKit did.
+{
+  let wk = null;
+  try { wk = await pw.webkit.launch(); } catch { console.log("skip WebKit not installed (npx playwright install webkit)"); }
+  if (wk) {
+    const ctx = await wk.newContext({ ...pw.devices["iPhone 13"] });
+    await ctx.addInitScript(() => { try { localStorage.setItem("reign.seen", "1"); } catch {} });
+    const p = await ctx.newPage();
+    await p.goto(URL0 + "#bulgaria.asparuh"); await p.waitForTimeout(2000);
+    let worst = 0;
+    for (let k = 0; k < 15; k++) {
+      await p.mouse.move(330, 400); await p.mouse.down(); await p.mouse.move(60, 410, { steps: 12 }); await p.mouse.up();
+      await p.waitForTimeout(1200);
+      worst = Math.max(worst, await p.evaluate(() => Math.max(...cards.filter(c => !c.classList.contains("shell")).map(c => c.offsetWidth))));
+    }
+    const vw = await p.evaluate(() => innerWidth);
+    check(worst <= vw - 16, `WebKit: cards stay ${worst}px wide on a ${vw}px iPhone after 15 swipes`);
+    await wk.close();
+  }
+}
+
 await browser.close();
 console.log(failed ? `\n${failed} check(s) failed` : "\nall checks passed");
 process.exit(failed ? 1 : 0);

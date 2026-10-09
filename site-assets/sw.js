@@ -1,6 +1,7 @@
-// Crown & Succession service worker: the page and fonts are refreshed in the background (stale-while-revalidate);
-// portrait sheets never change for a given name, so they are served from cache once seen.
-const CACHE = "cs-v1";
+// Crown & Succession service worker. The page itself is network-first, so a new release shows on the next open
+// (the cache is only the offline fallback). Fonts are refreshed in the background; portrait sheets never change
+// for a given name, so they are served from cache once seen.
+const CACHE = "cs-v2";
 self.addEventListener("install", e => { self.skipWaiting(); e.waitUntil(caches.open(CACHE).then(c => c.addAll(["./", "./manifest.webmanifest", "./favicon.svg"]))); });
 self.addEventListener("activate", e => e.waitUntil(caches.keys().then(ks => Promise.all(ks.filter(k => k !== CACHE).map(k => caches.delete(k)))).then(() => self.clients.claim())));
 self.addEventListener("fetch", e => {
@@ -11,6 +12,11 @@ self.addEventListener("fetch", e => {
   const own = url.origin === location.origin;
   const font = /fonts\.(googleapis|gstatic)\.com|cdn\.jsdelivr\.net/.test(url.host);
   if (!own && !font) return;   // Wikimedia thumbnails etc. go straight to the network
+  if (req.mode === "navigate" || (own && !sheet && /\/(index\.html)?$/.test(url.pathname))) {
+    e.respondWith(fetch(req, { cache: "no-cache" }).then(r => { if (r.ok) { const copy = r.clone(); e.waitUntil(caches.open(CACHE).then(c => c.put("./", copy))); } return r; })
+      .catch(() => caches.match("./")));
+    return;
+  }
   e.respondWith(caches.open(CACHE).then(async c => {
     const hit = await c.match(req, { ignoreSearch: !sheet });
     const fresh = fetch(req).then(r => { if (r.ok || r.type === "opaque") c.put(req, r.clone()); return r; }).catch(() => hit);

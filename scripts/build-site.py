@@ -21,6 +21,8 @@ for f in sorted(glob.glob(f'{root}/data/*.json')):
 real = [d for d in decks.values() if not d.get('fictional')]
 n_cards = sum(len(d['reigns']) for d in real)
 body = tpl.replace('/*DATA*/null', json.dumps(decks, ensure_ascii=False, separators=(',', ':')).replace('</', '<\\/'))
+import datetime
+body = body.replace('Version dev', 'Version ' + datetime.datetime.now(datetime.timezone.utc).strftime('%Y-%m-%d %H:%M UTC'))
 body = body.replace('/*PICS*/null', open(f'{a.sheets}/manifest.json').read())
 title = 'Crown & Succession'
 desc = f'Every ruler of {len(real)} countries and empires, from the pharaohs to today, told as one swipeable story. {n_cards:,} illustrated cards, a side-by-side timeline and a record-or-rumour quiz.'

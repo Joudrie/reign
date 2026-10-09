@@ -67,6 +67,11 @@ timeline labels.
   Fates or Quiz goes back to that screen; Back closes the Compare add list.
 - Landscape phones: portrait in a left column beside the text, slimmer header and tab bar, compact quiz.
 - A portrait that hangs for 8 s is treated as missing.
+- The offline cache served the previous release first (stale-while-revalidate), so phones kept the
+  wide-card bug after the fix shipped. The page is now network-first; a new release takes over and
+  reloads once. Find > About shows the build time.
+- `tests/smoke.mjs` runs an iPhone (WebKit) swipe test when WebKit is installed: WebKit reproduced the
+  2,300px card on the old build; Chromium never did.
 
 `tests/smoke.mjs` covers every deck by deep link, reading and sharing, Compare with all 48 countries at
 every zoom, a full quiz round, the intro, stats, search and dark mode.
