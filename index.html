@@ -327,11 +327,25 @@ details a { color: inherit; }
 .too-few { font-size: var(--t-xs); color: var(--muted); margin: var(--s0) 0 0; }
 .trust { font-size: var(--t-xs); color: var(--muted); list-style: none; margin-left: -1em; }
 @media (max-height: 700px) { .portrait { height: clamp(160px, 30vh, 260px); } }
+/* Phones on their side: portrait in a left column beside the text, slimmer chrome everywhere. */
 @media (max-height: 500px) and (orientation: landscape) {
-  :root { --tabs-h: 50px; }
-  .portrait { height: 32vh; }
+  :root { --tabs-h: 48px; }
+  .card-inner { grid-template-columns: minmax(150px, 30%) minmax(0, 1fr); column-gap: var(--s2); align-items: start; padding-top: var(--s1); }
+  .card-inner > * { grid-column: 2; }
+  .card-inner > .portrait { grid-column: 1; grid-row: 1 / span 5; position: sticky; top: 0; height: min(260px, calc(100dvh - 150px)); }
+  .card-inner:has(> .portrait.no-pic) { grid-template-columns: minmax(0, 1fr); }
+  .card-inner:has(> .portrait.no-pic) > * { grid-column: 1; }
+  .top { padding-block: 6px 4px; }
   .tl-hint { display: none; }
-  .view-head { padding-block: 6px; }
+  .view-head { padding-block: 4px; }
+  .view-head h2 { font-size: var(--t-md); }
+  .tabs button { gap: 2px; }
+  .tabs svg, .tabs .crown { width: 20px; height: 20px; }
+  .intro-card { max-height: calc(100dvh - var(--tabs-h) - 24px); }
+  .answers.answered.two { display: none; }
+  .q-card { padding-block: var(--s1); gap: var(--s0); }
+  .q-text { font-size: var(--t-md); }
+  .search-body { padding-top: var(--s0); gap: var(--s0); }
 }
 @media (max-width: 420px) { .hook { padding: var(--s1); } }
 @media (min-width: 900px) { .view-head { max-width: 760px; margin-inline: auto; width: 100%; } }
@@ -881,7 +895,11 @@ function picFailed(im) {
 }
 function tryPics(im, urls) {
   if (!urls.length) return picFailed(im);
-  im.onerror = () => tryPics(im, urls.slice(1));
+  let done = false;
+  const next = () => { if (done) return; done = true; clearTimeout(t); tryPics(im, urls.slice(1)); };
+  const t = setTimeout(() => { if (!im.naturalWidth) { im.removeAttribute("src"); next(); } }, 8000);
+  im.onload = () => { done = true; clearTimeout(t); };
+  im.onerror = next;
   im.src = urls[0];
 }
 const fillPic = im => { const k = im.dataset.pic; im.removeAttribute("data-pic"); cutOut(k).then(u => (im.onerror = null, im.src = u), () => tryPics(im, fallbackPics(k))); };
@@ -1017,7 +1035,7 @@ function setIndex(i) {
   document.getElementById("deckProgress").style.width = `${((i + 1) / N) * 100}%`;
   cards.forEach((c, k) => { c.inert = k !== i; });
   loadNear(i);
-  try { history.replaceState(null, "", `#${country}.${cards[i].id}`); } catch {}
+  try { history.replaceState(history.state, "", `#${country}.${cards[i].id}`); } catch {}
   markRead(country, cards[i].id);
 }
 function go(i, velocity = 0, instant = false) {
@@ -1109,13 +1127,19 @@ function show(name, fromHistory = false) {
   if (name === view) { if (name === "read") go(index); return; }
   if (!fromHistory) {
     try {
-      if (name !== "read" && view === "read") history.pushState({ view: name }, "", location.hash);
-      else if (name !== "read") history.replaceState({ view: name }, "", location.hash);
-      else if (history.state?.view) { history.back(); }
+      // Each screen opened from a card is one history entry, so Back returns to the card.
+      // Opening a different card from a screen adds an entry, so Back returns to that screen.
+      if (name !== "read" && view === "read") history.pushState({ view: name, from: location.hash }, "", location.hash);
+      else if (name !== "read") history.replaceState({ view: name, from: history.state?.from ?? location.hash }, "", location.hash);
+      else if (history.state?.view && history.state.view !== "read") {
+        if (history.state.from === location.hash) history.back();
+        else history.pushState({ view: "read" }, "", location.hash);
+      }
     } catch {}
   }
   const prev = view;
   view = name;
+  if (name !== "timeline") cmpAdding = false;
   tabs.forEach(t => t.setAttribute("aria-current", t.dataset.tab === name ? "page" : "false"));
   if (name === "timeline") { includeCurrent(); drawTimeline(); }
   if (name === "search") { renderCountries(); renderResults(); }
@@ -1128,7 +1152,15 @@ function show(name, fromHistory = false) {
   if (name === "timeline") scrollTimelineToCurrent();
 }
 tabs.forEach(t => t.addEventListener("click", () => show(t.dataset.tab)));
-addEventListener("popstate", e => { const v = e.state?.view ?? "read"; if (v !== view) show(v, true); });
+addEventListener("popstate", e => {
+  // The add list is a sheet over Compare: the phone's Back closes it and stays on Compare.
+  if (cmpAdding && view === "timeline") {
+    cmpAdding = false; drawCompareRow();
+    try { history.pushState({ view: "timeline", from: location.hash }, "", location.hash); } catch {}
+    return;
+  }
+  const v = e.state?.view ?? "read"; if (v !== view) show(v, true);
+});
 function jumpTo(i) { show("read"); go(i, 0, true); }
 
 /* ---------------- timeline: compare chosen countries side by side on one year axis ---------------- */
@@ -1223,6 +1255,7 @@ function drawCompareRow() {
     REGIONS.map(([r, ids]) => { const opts = ids.filter(c => WORLD[c] && !compare.includes(c)); return opts.length ? `<div class="grp">${esc(r)}<button data-cmp-all="${esc(r)}">add all</button></div><div class="opts">${opts.map(c => `<button data-cmp="${c}"><span class="chip-flag" aria-hidden="true">${FLAGS[c] ?? ""}</span>${esc(cname(c))}</button>`).join("")}</div>` : ""; }).join("");
 }
 let cmpAdding = false, tlHinted = null;
+const setAdding = on => { cmpAdding = on; };
 function drawTimeline() {
   const body = document.getElementById("timelineBody");
   const ppy = ZOOMS[zoom], cols = tlColumns(), era = DATA.fictional ? DATA.era : undefined;
@@ -1287,7 +1320,7 @@ function scrollTimelineToCurrent() {
   const cur = body.querySelector(`.tl-col[data-cid="${country}"] .label[aria-current="true"]`);
   if (cur) body.scrollTop = Math.max(0, TL_TOP + (cur.closest(".label-track") ?? cur).offsetTop - body.clientHeight / 3);
 }
-document.getElementById("timelineBody").addEventListener("pointerdown", () => { if (cmpAdding) { cmpAdding = false; drawCompareRow(); } });
+document.getElementById("timelineBody").addEventListener("pointerdown", () => { if (cmpAdding) { setAdding(false); drawCompareRow(); } });
 document.getElementById("timelineBody").addEventListener("click", e => {
   const t = e.target.closest("[data-x]");
   if (t) return openX(t.dataset.x);
@@ -1299,7 +1332,7 @@ document.getElementById("timelineBody").addEventListener("click", e => {
   placeMarker();
 });
 const onCmp = e => {
-  if (e.target.closest("[data-cmp-add]")) { cmpAdding = !cmpAdding; return drawCompareRow(); }
+  if (e.target.closest("[data-cmp-add]")) { setAdding(!cmpAdding); return drawCompareRow(); }
   const body = document.getElementById("timelineBody");
   // Keep the reader's place by year, not by pixels: adding Egypt moves the axis start back 3000 years.
   const yr = tlFrame ? tlFrame.t0 + (body.scrollTop + body.clientHeight / 3 - TL_TOP) / tlFrame.ppy : null;
@@ -1312,8 +1345,8 @@ const onCmp = e => {
   const all = e.target.closest("[data-cmp-all]"), clear = e.target.closest("[data-cmp-clear]");
   if (all || clear) {
     const live = c => WORLD[c] && !WORLD[c].data.fictional;
-    if (clear) { compare = [country]; cmpAdding = false; }
-    else if (all.dataset.cmpAll === "*") cmpAdding = false;
+    if (clear || all.dataset.cmpAll === "*") setAdding(false);
+    if (clear) compare = [country];
     if (all) compare = [...new Set([...compare, ...(all.dataset.cmpAll === "*" ? TL_ORDER : REGIONS.find(([r]) => r === all.dataset.cmpAll)?.[1] ?? []).filter(live)])];
     redraw(); return;
   }
