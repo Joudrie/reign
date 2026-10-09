@@ -375,6 +375,29 @@ details li a { display: inline-block; padding-block: 10px; }
 .cmp-tools { position: sticky; top: -8px; background: var(--table); display: flex; justify-content: space-between; align-items: center; padding: 4px 0; z-index: 1; }
 .cmp-tools .cmp-done { font-weight: 600; text-decoration: none; border: 1px solid var(--ink); border-radius: 999px; padding: 0 16px; }
 .cmp-row .cmp-add { font-weight: 600; }
+/* heraldry: a house page with its arms through time */
+.house-link { background: none; border: 0; padding: 4px 0; margin: 0; font: inherit; color: inherit; letter-spacing: inherit; text-transform: inherit; cursor: pointer; display: inline-flex; align-items: center; gap: 6px; min-height: 32px; text-align: left; }
+.house-link .arms-mini { width: 18px; height: 20px; object-fit: contain; flex: none; }
+.house-link .go { color: var(--accent); font-weight: 600; }
+.house-back { width: 44px; height: 44px; margin-left: -10px; border: 0; background: none; color: var(--ink); display: grid; place-items: center; cursor: pointer; flex: none; }
+#view-house .view-head h2 { margin-right: auto; }
+.house-body { display: grid; gap: var(--s2); max-width: 560px; width: 100%; margin: 0 auto; padding-top: var(--s0); touch-action: pan-y; }
+.house-where { color: var(--muted); font-size: var(--t-sm); margin: -8px 0 0; }
+.arms-hero { background: var(--card); border: 1px solid var(--edge); border-radius: var(--r); box-shadow: var(--card-shadow); padding: var(--s2); display: grid; gap: var(--s1); justify-items: center; text-align: center; }
+.arms-hero img { width: min(200px, 55vw); height: min(220px, 60vw); object-fit: contain; }
+.arms-hero .yrs { font-size: var(--t-xs); color: var(--muted); letter-spacing: .08em; text-transform: uppercase; font-weight: 600; }
+.arms-hero h3 { margin: 0; font-family: var(--name); font-weight: 400; font-size: 1.6rem; line-height: 1.15; }
+.arms-hero p { margin: 0; color: var(--ink); max-width: 44ch; }
+.arms-hero .credit { font-size: var(--t-xs); color: var(--muted); }
+.arms-none { width: 120px; height: 140px; border: 2px dashed var(--edge); border-radius: 8px 8px 60px 60px; display: grid; place-items: center; color: var(--muted); font-size: var(--t-xs); }
+.arms-strip { display: flex; gap: var(--s0); overflow-x: auto; scrollbar-width: none; padding: 4px 2px 8px; touch-action: pan-x; overscroll-behavior-x: contain; }
+.arms-strip button { flex: none; width: 104px; display: grid; gap: 4px; justify-items: center; padding: 8px 6px; border-radius: var(--r-sm); border: 1px solid var(--edge); background: var(--card); color: var(--ink); cursor: pointer; font: inherit; }
+.arms-strip button[aria-pressed="true"] { border-color: var(--ink); box-shadow: 0 0 0 1px var(--ink); }
+.arms-strip img { width: 56px; height: 64px; object-fit: contain; }
+.arms-strip span { font-size: var(--t-xs); line-height: 1.25; }
+.arms-strip small { color: var(--muted); font-size: 11px; }
+.house-also { display: flex; flex-wrap: wrap; gap: 6px; align-items: center; font-size: var(--t-sm); color: var(--muted); }
+.house-also button { min-height: 36px; }
 .countries button {
   width: 100%; display: grid; grid-template-columns: 36px 1fr; gap: var(--s0) var(--s1); align-items: center;
   background: var(--card); border: 1px solid var(--edge); border-radius: var(--r); padding: var(--s1);
@@ -604,7 +627,7 @@ button.q-meta .q-who { text-decoration: underline; text-decoration-color: var(--
       <li><b>⫴</b><span><strong>Compare</strong> lines up any countries side by side, so you can see who ruled at the same time.</span></li>
       <li><b>?</b><span><strong>Quiz</strong>: is a story on the record, or only rumour and dispute? Guess, then read the card.</span></li>
     </ul>
-    <p class="note">Written from the sources listed on each card, with portraits from Wikimedia Commons. The cards are new and not yet independently checked: if you spot a mistake, share the card with us. <span class="build">Version 2026-10-09 00:13 UTC</span></p>
+    <p class="note">Written from the sources listed on each card, with portraits from Wikimedia Commons. The cards are new and not yet independently checked: if you spot a mistake, share the card with us. <span class="build">Version 2026-10-09 05:54 UTC</span></p>
     <button class="btn" id="introGo">Start reading</button>
   </div>
 </div>
@@ -640,6 +663,11 @@ button.q-meta .q-who { text-decoration: underline; text-decoration-color: var(--
   <div class="view-body"><div class="stats-body" id="statsBody"></div></div>
 </section>
 <div class="tip" id="tip" role="tooltip"></div>
+
+<section class="view" id="view-house" aria-labelledby="houseTitle">
+  <div class="view-head"><button class="icon-btn house-back" id="houseBack" aria-label="Back"><svg viewBox="0 0 24 24" width="22" height="22" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M15 6l-6 6 6 6"/></svg></button><h2 id="houseTitle"></h2></div>
+  <div class="view-body"><div class="house-body" id="houseBody"></div></div>
+</section>
 
 <section class="view" id="view-search" aria-label="Find a country or ruler">
   <div class="view-body search-body">
@@ -843,8 +871,12 @@ const reignHouses = g => {
   return [...new Set(ids)].map(id => houses[id]).filter(Boolean);
 };
 // Republics and regimes aren't houses: label them by name only.
+// "Ottonian", "Abbasid" are adjectives: "the Ottonian dynasty", not "House of Ottonian".
+const houseName = h => h.plain || /^(house|the)\b|dynasty|republic|empire|kingdom|caliphate|regency|council|junta|period|rule\b/i.test(h.name) ? h.name
+  : /(ian|id|ic)$/i.test(h.name) ? `${h.name} dynasty` : `House of ${h.name}`;
 const houseLabel = g => {
   const hs = reignHouses(g);
+  if (hs.length === 1 && g.kind !== "interregnum") return esc(houseName(hs[0]));
   const names = hs.map(h => esc(h.name)).join(" & ");
   const plain = g.kind === "interregnum" || hs.every(h => h.plain || /^(house|the)\b|dynasty|republic|empire|kingdom|caliphate|regency|council|junta|period|rule\b/i.test(h.name));
   return plain ? names : `House of ${names}`;
@@ -854,6 +886,784 @@ const img = g => `${country}/${g.id}`;
    PICS[cid][reignId] = [sheet, y, w, h]; an <img data-pic="cid/reignId"> is filled with its
    cut-out once it nears the screen, and each sheet and cut-out is fetched only once. */
 const PICS = {"abbasid":{"al-saffah":[0,0,330,163],"al-mansur":[0,163,330,167],"al-mahdi":[0,330,330,160],"al-hadi":[0,490,330,162],"harun-al-rashid":[0,652,250,125],"al-amin":[0,777,330,176],"al-mamun":[1,0,330,163],"al-mutasim":[1,163,330,155],"al-wathiq":[1,318,330,161],"al-mutawakkil":[1,479,330,220],"anarchy-at-samarra":[1,699,330,156],"al-mutamid":[1,855,330,160],"al-mutadid":[2,0,330,158],"al-muktafi":[2,158,330,160],"al-muqtadir":[2,318,330,158],"blinded-caliphs":[2,476,330,162],"buyid-amirs":[2,638,330,165],"al-qadir":[2,803,330,160],"al-qaim":[3,0,330,451],"seljuk-sultans":[3,451,330,480],"caliphs-fight-back":[3,931,330,247],"al-nasir":[3,1178,330,247],"last-golden-years":[3,1425,330,442],"al-mustasim":[3,1867,330,248]},"austria":{"rudolf-i":[0,0,330,220],"albert-i":[0,220,330,577],"frederick-the-fair":[0,797,330,593],"albert-ii":[0,1390,330,569],"rudolf-iv":[0,1959,330,512],"albert-iii-and-leopold-iii":[0,2471,330,543],"albert-iv":[1,0,330,425],"albert-v":[1,425,330,529],"ladislaus":[1,954,330,544],"frederick-iii":[1,1498,330,517],"maximilian-i":[1,2015,330,404],"charles-v":[1,2419,330,559],"ferdinand-i":[2,0,330,639],"maximilian-ii":[2,639,330,404],"rudolf-ii":[2,1043,330,418],"matthias":[2,1461,330,466],"ferdinand-ii":[2,1927,330,450],"ferdinand-iii":[2,2377,330,415],"leopold-i":[3,0,330,419],"joseph-i":[3,419,330,426],"charles-vi":[3,845,330,467],"maria-theresa":[3,1312,330,434],"joseph-ii":[3,1746,330,467],"leopold-ii":[3,2213,330,424],"francis":[4,0,330,414],"ferdinand-the-good":[4,414,330,423],"franz-joseph":[4,837,330,533],"charles-i":[4,1370,330,529]},"belgium":{"leopold-i":[0,0,330,580],"leopold-ii":[0,580,330,437],"albert-i":[0,1017,330,409],"leopold-iii":[0,1426,330,429],"regency":[0,1855,330,511],"baudouin":[0,2366,330,472],"albert-ii":[1,0,330,440],"philippe":[1,440,330,474]},"bohemia":{"borivoj-i":[0,0,250,264],"sons-of-borivoj":[0,264,100,150],"saint-wenceslaus":[0,414,330,491],"boleslaus-i":[0,905,138,207],"boleslaus-ii":[0,1112,100,150],"brothers-at-war":[0,1262,330,495],"bretislaus-i":[1,0,330,440],"vratislaus-ii":[1,440,140,190],"seniority-wars":[1,630,100,150],"vladislaus-ii-premyslid":[1,780,330,479],"dukes-again":[1,1259,330,330],"ottokar-i":[1,1589,330,514],"wenceslaus-i":[2,0,330,313],"ottokar-ii":[2,313,330,415],"wenceslaus-ii":[2,728,330,466],"wenceslaus-iii":[2,1194,330,440],"scramble-for-the-crown":[2,1634,250,634],"john":[2,2268,330,431],"charles-iv":[3,0,330,491],"wenceslaus-iv":[3,491,330,482],"hussite-revolution":[3,973,330,473],"sigismund":[3,1446,330,462],"albert-ii":[3,1908,330,728],"ladislaus":[3,2636,330,544],"george":[4,0,330,380],"vladislaus-ii":[4,380,250,484],"louis-ii":[4,864,330,402],"ferdinand-i":[4,1266,330,639],"maximilian-ii":[4,1905,330,404],"rudolf-ii":[4,2309,330,406],"matthias":[5,0,330,466],"frederick-v":[5,466,330,433],"ferdinand-ii":[5,899,330,450],"baroque-bohemia":[5,1349,330,516],"maria-theresa":[5,1865,330,434],"joseph-ii":[5,2299,330,467],"revival-and-revolution":[6,0,330,423],"franz-joseph":[6,423,330,533],"charles-i":[6,956,330,529]},"bulgaria":{"asparuh":[0,0,330,247],"tervel":[0,247,330,220],"khans-crisis":[0,467,330,218],"krum":[0,685,330,444],"omurtag":[0,1129,330,161],"khans-heirs":[0,1290,330,189],"boris-i":[1,0,330,228],"simeon-i":[1,228,330,222],"peter-i":[1,450,330,203],"boris-ii":[1,653,330,458],"samuel":[1,1111,330,457],"first-empire-falls":[1,1568,250,321],"byzantine-rule":[2,0,330,128],"peter-and-asen":[2,128,330,348],"kaloyan":[2,476,330,321],"boril":[2,797,330,285],"ivan-asen-ii":[2,1082,330,280],"asen-decline":[2,1362,330,439],"ivailo":[3,0,330,440],"terter-mongols":[3,440,330,318],"theodore-svetoslav":[3,758,330,330],"michael-shishman":[3,1088,330,317],"ivan-alexander":[3,1405,330,471],"ivan-shishman":[3,1876,330,188],"ottoman-rule":[4,0,330,499],"alexander-i":[4,499,330,453],"ferdinand":[4,952,330,429],"boris-iii":[4,1381,330,297],"simeon-ii":[4,1678,330,493]},"burma":{"alaungpaya":[0,0,330,440],"naungdawgyi":[0,440,330,522],"hsinbyushin":[0,962,330,275],"singu":[0,1237,330,440],"phaungka":[0,1677,330,467],"bodawpaya":[0,2144,330,247],"bagyidaw":[1,0,330,225],"tharrawaddy":[1,225,330,440],"pagan":[1,665,330,373],"mindon":[1,1038,330,431],"thibaw":[1,1469,330,439]},"byzantium":{"arcadius":[0,0,330,328],"theodosius-ii":[0,328,330,329],"marcian":[0,657,330,321],"leo-i":[0,978,330,321],"zeno":[0,1299,330,317],"anastasius-i":[0,1616,330,321],"justin-i":[1,0,330,307],"justinian-i":[1,307,330,439],"justin-ii":[1,746,330,153],"maurice":[1,899,330,302],"phocas":[1,1201,330,321],"heraclius":[1,1522,330,155],"constans-ii":[2,0,330,157],"constantine-iv":[2,157,247,243],"justinian-ii":[2,400,250,254],"twenty-years-anarchy":[2,654,330,320],"justinian-ii-restored":[2,974,330,155],"anarchy-711":[2,1129,239,223],"leo-iii":[3,0,237,226],"constantine-v":[3,226,330,160],"leo-iv":[3,386,330,152],"constantine-vi":[3,538,330,330],"irene":[3,868,330,313],"nikephoros-i":[3,1181,330,316],"leo-v":[4,0,330,162],"michael-ii":[4,162,330,147],"theophilos":[4,309,330,238],"michael-iii":[4,547,330,158],"basil-i":[4,705,330,330],"leo-vi":[4,1035,330,154],"constantine-vii":[5,0,330,439],"romanos-ii":[5,439,330,154],"nikephoros-ii":[5,593,330,163],"john-i":[5,756,330,220],"basil-ii":[5,976,330,426],"zoes-emperors":[5,1402,330,173],"zoe-and-theodora":[6,0,330,323],"constantine-ix":[6,323,330,275],"theodora":[6,598,330,158],"generals-and-bureaucrats":[6,756,330,152],"romanos-iv":[6,908,330,316],"after-manzikert":[6,1224,330,331],"alexios-i":[7,0,250,376],"john-ii":[7,376,330,466],"manuel-i":[7,842,330,506],"andronikos-i":[7,1348,330,153],"isaac-ii":[7,1501,330,310],"alexios-iii":[7,1811,250,122],"fourth-crusade":[8,0,250,331],"theodore-i":[8,331,330,148],"john-iii":[8,479,330,152],"theodore-ii":[8,631,330,153],"michael-viii":[8,784,330,511],"andronikos-ii":[8,1295,330,539],"andronikos-iii":[9,0,330,497],"john-v":[9,497,206,280],"john-vi":[9,777,330,514],"manuel-ii":[9,1291,330,494],"john-viii":[9,1785,330,330],"constantine-xi":[9,2115,330,438]},"china":{"qin-shi-huang":[0,0,330,220],"fall-of-qin":[0,220,330,179],"gaozu-han":[0,399,330,468],"empress-lu":[0,867,330,247],"wen-and-jing":[0,1114,330,481],"wu-han":[0,1595,330,444],"western-han-regents":[1,0,330,440],"wang-mang":[1,440,250,572],"guangwu":[1,1012,330,426],"later-han":[1,1438,330,247],"cao-cao":[1,1685,330,504],"three-kingdoms":[1,2189,330,476],"wu-jin":[2,0,330,433],"jin-falls-apart":[2,433,330,110],"northern-southern":[2,543,330,205],"wen-sui":[2,748,330,487],"yang-sui":[2,1235,330,517],"gaozu-tang":[2,1752,330,679],"taizong":[3,0,330,684],"gaozong-tang":[3,684,330,247],"wu-zetian":[3,931,330,374],"after-wu":[3,1305,330,363],"xuanzong":[3,1668,330,367],"an-lushan-rebellion":[3,2035,330,228],"fall-of-tang":[4,0,330,231],"five-dynasties":[4,231,330,54],"taizu-song":[4,285,330,370],"song-and-khitans":[4,655,330,492],"shenzong":[4,1147,330,507],"huizong":[4,1654,330,440],"gaozong-song":[5,0,330,575],"southern-song":[5,575,330,583],"kublai":[5,1158,330,412],"last-yuan":[5,1570,330,417],"hongwu":[5,1987,330,537],"yongle":[5,2524,330,479],"captive-emperor":[6,0,330,441],"zhengde-jiajing":[6,441,330,445],"wanli":[6,886,330,476],"manchu-rise":[6,1362,330,580],"red-pill-and-carpenter":[6,1942,330,426],"chongzhen":[6,2368,330,324],"shunzhi":[7,0,330,542],"kangxi":[7,542,330,522],"yongzheng":[7,1064,330,552],"qianlong":[7,1616,330,436],"jiaqing":[7,2052,330,546],"daoguang":[7,2598,330,532],"xianfeng":[8,0,330,534],"cixi":[8,534,330,444],"guangxu":[8,978,330,416],"cixi-restored":[8,1394,330,246],"puyi":[8,1640,330,426],"sun-yuan":[8,2066,330,451],"warlords":[9,0,330,199],"chiang":[9,199,330,437],"mao":[9,636,330,228],"cultural-revolution":[9,864,330,236],"hua-guofeng":[9,1100,330,406],"deng":[9,1506,330,415],"jiang":[10,0,224,269],"hu-jintao":[10,269,330,440],"xi":[10,709,330,486]},"denmark":{"gorm":[0,0,330,440],"harald-bluetooth":[0,440,330,414],"sweyn-forkbeard":[0,854,330,401],"harald-ii":[0,1255,330,440],"cnut":[0,1695,250,350],"harthacnut":[0,2045,330,337],"magnus-the-good":[1,0,330,262],"sweyn-ii":[1,262,330,425],"harald-iii":[1,687,250,372],"cnut-iv":[1,1059,330,452],"olaf-i":[1,1511,330,486],"eric-i":[1,1997,330,464],"niels":[2,0,330,181],"eric-ii":[2,181,330,440],"eric-iii":[2,621,330,324],"three-kings":[2,945,330,365],"valdemar-i":[2,1310,221,361],"cnut-vi":[2,1671,330,179],"valdemar-ii":[3,0,330,239],"eric-iv":[3,239,330,420],"abel":[3,659,330,440],"christopher-i":[3,1099,330,440],"eric-v":[3,1539,330,510],"eric-vi":[3,2049,330,456],"christopher-ii":[4,0,330,440],"kingless-time":[4,440,330,346],"valdemar-iv":[4,786,330,504],"olaf-ii":[4,1290,250,257],"margaret-i":[4,1547,330,457],"eric-vii":[4,2004,330,399],"christopher-iii":[5,0,330,336],"christian-i":[5,336,330,423],"john":[5,759,330,514],"christian-ii":[5,1273,330,431],"frederick-i":[5,1704,330,413],"christian-iii":[5,2117,330,473],"frederick-ii":[6,0,330,658],"christian-iv":[6,658,330,405],"frederick-iii":[6,1063,330,417],"christian-v":[6,1480,330,419],"frederick-iv":[6,1899,330,439],"christian-vi":[6,2338,330,440],"frederick-v":[7,0,330,562],"christian-vii":[7,562,330,451],"frederick-vi":[7,1013,330,422],"christian-viii":[7,1435,330,450],"frederick-vii":[7,1885,330,437],"christian-ix":[7,2322,330,402],"frederick-viii":[8,0,330,439],"christian-x":[8,439,330,456],"frederick-ix":[8,895,330,440],"margrethe-ii":[8,1335,330,496],"frederik-x":[8,1831,330,434]},"egypt":{"narmer":[0,0,330,233],"first-dynasty":[0,233,330,330],"second-dynasty":[0,563,330,444],"djoser":[0,1007,330,716],"sneferu":[0,1723,330,440],"khufu":[0,2163,330,413],"khafre":[1,0,330,520],"menkaure":[1,520,330,459],"fifth-dynasty":[1,979,330,330],"teti-and-pepi-i":[1,1309,330,534],"pepi-ii":[1,1843,330,495],"first-intermediate":[1,2338,330,281],"mentuhotep-ii":[2,0,330,614],"amenemhat-i":[2,614,330,240],"senusret-i":[2,854,330,557],"senusret-iii":[2,1411,330,390],"amenemhat-iii":[2,1801,330,219],"sobekneferu":[2,2020,330,440],"thirteenth-dynasty":[3,0,330,490],"hyksos":[3,490,330,268],"seqenenre-tao":[3,758,250,283],"kamose":[3,1041,330,516],"ahmose-i":[3,1557,330,440],"amenhotep-i":[3,1997,330,495],"thutmose-i":[4,0,330,429],"hatshepsut":[4,429,330,420],"thutmose-iii":[4,849,330,440],"amenhotep-ii-and-thutmose-iv":[4,1289,330,440],"amenhotep-iii":[4,1729,330,699],"akhenaten":[4,2428,330,247],"tutankhamun":[5,0,330,412],"horemheb":[5,412,330,506],"seti-i":[5,918,330,587],"ramesses-ii":[5,1505,330,551],"merneptah":[5,2056,330,516],"late-nineteenth":[5,2572,330,488],"ramesses-iii":[6,0,330,541],"last-ramessides":[6,541,330,495],"tanis-kings":[6,1036,330,440],"shoshenq-i":[6,1476,330,220],"libyan-pharaohs":[6,1696,330,247],"piye":[6,1943,330,220],"shabaqo-and-shebitqo":[7,0,330,215],"taharqa":[7,215,330,491],"psamtik-i":[7,706,330,399],"necho-ii":[7,1105,330,805],"psamtik-ii-and-apries":[7,1910,330,412],"ahmose-ii":[7,2322,330,285],"cambyses-ii":[8,0,330,495],"darius-i":[8,495,330,440],"persian-rule":[8,935,330,272],"independence":[8,1207,330,311],"nectanebo-i":[8,1518,330,440],"teos":[8,1958,330,248],"nectanebo-ii":[9,0,330,738],"second-persian":[9,738,330,247]},"england":{"william-i":[0,0,250,321],"william-ii":[0,321,304,506],"henry-i":[0,827,330,331],"stephen":[0,1158,330,431],"matilda":[0,1589,330,524],"henry-ii":[0,2113,330,565],"richard-i":[1,0,330,564],"john":[1,564,330,446],"henry-iii":[1,1010,330,330],"edward-i":[1,1340,330,440],"edward-ii":[1,1780,330,326],"edward-iii":[1,2106,330,448],"richard-ii":[2,0,330,660],"henry-iv":[2,660,330,428],"henry-v":[2,1088,330,461],"henry-vi":[2,1549,330,422],"edward-iv":[2,1971,330,425],"henry-vi-restored":[2,2396,330,422],"edward-iv-restored":[3,0,330,425],"edward-v":[3,425,330,548],"richard-iii":[3,973,330,473],"henry-vii":[3,1446,330,431],"henry-viii":[3,1877,330,463],"edward-vi":[3,2340,330,441],"jane":[4,0,330,427],"mary-i":[4,427,330,438],"elizabeth-i":[4,865,330,264],"james-i":[4,1129,330,477],"charles-i":[4,1606,330,276],"commonwealth":[4,1882,330,410],"charles-ii":[5,0,330,421],"james-ii":[5,421,330,545],"william-and-mary":[5,966,330,247],"william-iii":[5,1213,330,410],"anne":[5,1623,330,545],"george-i":[5,2168,330,468],"george-ii":[6,0,330,544],"george-iii":[6,544,330,516],"george-iv":[6,1060,330,481],"william-iv":[6,1541,330,443],"victoria":[6,1984,330,466],"edward-vii":[6,2450,330,465],"george-v":[7,0,330,507],"edward-viii":[7,507,330,412],"george-vi":[7,919,330,468],"elizabeth-ii":[7,1387,330,440],"charles-iii":[7,1827,330,465]},"ethiopia":{"yekuno-amlak":[0,0,330,277],"sons-of-yekuno-amlak":[0,277,330,212],"amda-seyon-i":[0,489,250,345],"newaya-krestos-to-dawit":[0,834,330,432],"yeshaq-i":[0,1266,330,465],"four-kings":[0,1731,330,186],"zara-yaqob":[1,0,330,197],"heirs-of-zara-yaqob":[1,197,330,446],"lebna-dengel":[1,643,330,426],"gelawdewos":[1,1069,330,349],"sarsa-dengel":[1,1418,330,459],"succession-wars":[1,1877,330,237],"susenyos":[2,0,250,342],"fasilides":[2,342,330,186],"yohannes-i":[2,528,330,243],"iyasu-i":[2,771,330,367],"bloody-decades":[2,1138,330,215],"iyasu-ii":[2,1353,330,212],"iyoas-i":[3,0,330,247],"zemene-mesafint":[3,247,330,400],"tewodros-ii":[3,647,330,441],"tekle-giyorgis-ii":[3,1088,330,411],"yohannes-iv":[3,1499,330,438],"menelik-ii":[3,1937,330,253],"lij-iyasu":[4,0,220,350],"zewditu":[4,350,330,409],"haile-selassie":[4,759,330,440],"italian-occupation":[4,1199,330,188],"derg":[4,1387,330,247],"mengistu":[4,1634,330,462],"meles":[5,0,330,412],"hailemariam":[5,412,330,421],"abiy":[5,833,330,422]},"france":{"hugh-capet":[0,0,330,415],"robert-ii":[0,415,330,410],"henry-i":[0,825,330,412],"philip-i":[0,1237,330,409],"louis-vi":[0,1646,330,411],"louis-vii":[0,2057,330,413],"philip-ii":[1,0,330,417],"louis-viii":[1,417,330,408],"louis-ix":[1,825,330,412],"philip-iii":[1,1237,330,546],"philip-iv":[1,1783,330,605],"louis-x":[1,2388,330,518],"john-i":[2,0,330,404],"philip-v":[2,404,330,272],"charles-iv":[2,676,330,505],"philip-vi":[2,1181,330,500],"john-ii":[2,1681,330,546],"charles-v":[2,2227,330,473],"charles-vi":[3,0,330,408],"charles-vii":[3,408,330,388],"henry-vi-england":[3,796,330,422],"louis-xi":[3,1218,330,541],"charles-viii":[3,1759,330,437],"louis-xii":[3,2196,330,431],"francis-i":[4,0,330,421],"henry-ii":[4,421,330,543],"francis-ii":[4,964,330,408],"charles-ix":[4,1372,330,493],"henry-iii":[4,1865,330,430],"henry-iv":[4,2295,330,536],"louis-xiii":[5,0,330,418],"louis-xiv":[5,418,330,469],"louis-xv":[5,887,330,420],"louis-xvi":[5,1307,330,465],"first-republic":[5,1772,330,425],"napoleon-i":[5,2197,330,550],"louis-xviii":[6,0,330,476],"napoleon-i-restored":[6,476,330,550],"louis-xviii-restored":[6,1026,330,476],"charles-x":[6,1502,330,445],"louis-philippe":[6,1947,330,510],"second-republic":[6,2457,330,149],"napoleon-iii":[7,0,330,478]},"georgia":{"ashot-i":[0,0,330,197],"adarnase-iv":[0,197,330,426],"making-of-a-kingdom":[0,623,250,489],"bagrat-iii":[0,1112,330,309],"george-i":[0,1421,330,439],"bagrat-iv":[0,1860,250,347],"george-ii":[1,0,330,158],"david-iv":[1,158,330,512],"demetrius-i":[1,670,330,365],"george-iii":[1,1035,330,495],"tamar":[1,1530,330,440],"george-iv":[1,1970,330,541],"rusudan":[2,0,330,152],"two-davids":[2,152,330,160],"demetrius-ii":[2,312,250,535],"mongol-puppets":[2,847,330,166],"george-v":[2,1013,330,563],"timur-invasions":[2,1576,330,244],"alexander-i":[3,0,330,428],"kingdom-breaks-apart":[3,428,330,485],"three-kingdoms":[3,913,109,290],"luarsab-i":[3,1203,330,504],"simon-i":[3,1707,330,428],"teimuraz-i":[3,2135,330,421],"shahs-kings":[4,0,250,391],"vakhtang-vi":[4,391,330,492],"ottomans-and-nader":[4,883,330,453],"erekle-ii":[4,1336,330,451],"george-xii":[4,1787,330,424]},"germany":{"great-elector":[0,0,330,435],"frederick-i":[0,435,330,448],"frederick-william-i":[0,883,330,451],"frederick-ii":[0,1334,330,416],"frederick-william-ii":[0,1750,330,424],"frederick-william-iii":[0,2174,330,403],"frederick-william-iv":[1,0,330,425],"william-i":[1,425,330,455],"frederick-iii":[1,880,330,411],"william-ii":[1,1291,330,475],"ebert":[1,1766,330,486],"hindenburg":[1,2252,330,443],"hitler":[2,0,330,452],"occupation":[2,452,330,314],"adenauer":[2,766,330,494],"east-germany":[2,1260,330,342],"erhard":[2,1602,330,502],"kiesinger":[2,2104,241,343],"brandt":[3,0,330,464],"schmidt":[3,464,330,445],"kohl":[3,909,330,449],"schroder":[3,1358,330,452],"merkel":[3,1810,330,461],"scholz":[3,2271,330,460],"merz":[4,0,330,461]},"greece":{"otto":[0,0,330,523],"wanted-a-king":[0,523,330,540],"george-i":[0,1063,250,367],"constantine-i":[0,1430,330,482],"alexander":[0,1912,330,460],"constantine-i-restored":[0,2372,330,410],"george-ii":[1,0,330,455],"second-republic":[1,455,330,382],"george-ii-restored":[1,837,330,347],"paul":[1,1184,250,342],"constantine-ii":[1,1526,330,429]},"hawaii":{"kamehameha-i":[0,0,330,470],"kamehameha-ii":[0,470,330,426],"kamehameha-iii":[0,896,330,339],"kamehameha-iv":[0,1235,330,468],"kamehameha-v":[0,1703,330,415],"lunalilo":[0,2118,330,513],"kalakaua":[1,0,330,509],"liliuokalani":[1,509,330,433]},"hre":{"charlemagne":[0,0,330,630],"louis-the-pious":[0,630,330,448],"lothair-i":[0,1078,330,510],"louis-ii":[0,1588,330,164],"charles-the-bald":[0,1752,330,439],"charles-the-fat":[0,2191,250,241],"empire-falls-apart":[1,0,330,219],"henry-the-fowler":[1,219,250,257],"otto-i":[1,476,330,412],"otto-ii":[1,888,330,449],"otto-iii":[1,1337,330,373],"henry-ii":[1,1710,330,422],"conrad-ii":[2,0,330,480],"henry-iii":[2,480,330,532],"henry-iv":[2,1012,247,428],"henry-v":[2,1440,220,276],"lothair-iii":[2,1716,330,338],"conrad-iii":[2,2054,330,730],"frederick-i":[3,0,330,447],"henry-vi":[3,447,330,469],"philip-of-swabia":[3,916,330,617],"otto-iv":[3,1533,330,331],"frederick-ii":[3,1864,330,455],"conrad-iv":[3,2319,250,252],"great-interregnum":[4,0,330,336],"rudolf-i":[4,336,330,220],"adolf":[4,556,330,324],"albert-i":[4,880,330,577],"henry-vii":[4,1457,330,237],"louis-iv":[4,1694,330,458],"frederick-the-fair":[5,0,330,593],"charles-iv":[5,593,330,440],"wenceslaus":[5,1033,330,482],"rupert":[5,1515,330,247],"sigismund":[5,1762,330,462],"albert-ii":[5,2224,330,728],"frederick-iii":[6,0,330,517],"maximilian-i":[6,517,330,412],"charles-v":[6,929,330,394],"ferdinand-i":[6,1323,330,639],"maximilian-ii":[6,1962,330,404],"rudolf-ii":[6,2366,330,418],"matthias":[7,0,330,466],"ferdinand-ii":[7,466,330,450],"ferdinand-iii":[7,916,330,415],"leopold-i":[7,1331,330,531],"joseph-i":[7,1862,330,613],"charles-vi":[7,2475,330,516],"charles-vii":[8,0,330,475],"francis-i":[8,475,330,424],"joseph-ii":[8,899,330,471],"leopold-ii":[8,1370,330,427],"francis-ii":[8,1797,330,431]},"hungary":{"stephen-i":[0,0,330,340],"kings-at-war":[0,340,330,262],"ladislaus-i":[0,602,330,339],"coloman":[0,941,330,379],"blind-kings":[0,1320,330,360],"bela-iii":[0,1680,330,387],"brothers-at-war":[1,0,330,372],"andrew-ii":[1,372,330,341],"bela-iv":[1,713,330,348],"last-arpads":[1,1061,330,364],"crown-on-the-road":[1,1425,330,351],"charles-i":[1,1776,330,325],"louis-i":[2,0,330,501],"mary":[2,501,330,398],"charles-ii":[2,899,330,420],"sigismund":[2,1319,330,462],"albert":[2,1781,330,529],"vladislaus-i":[2,2310,330,454],"hunyadi":[3,0,330,451],"ladislaus-v":[3,451,330,544],"matthias-corvinus":[3,995,330,529],"vladislaus-ii":[3,1524,250,484],"louis-ii":[3,2008,330,402],"john-zapolya":[3,2410,330,441],"ferdinand-i":[4,0,330,639],"maximilian":[4,639,330,404],"rudolf":[4,1043,330,418],"matthias-ii":[4,1461,330,466],"ferdinand-ii":[4,1927,330,450],"ferdinand-iii":[4,2377,330,415],"leopold-i":[5,0,330,419],"joseph-i":[5,419,330,613],"charles-iii":[5,1032,330,467],"maria-theresa":[5,1499,330,433],"joseph-ii":[5,1932,330,467],"leopold-ii":[5,2399,330,424],"francis":[6,0,330,414],"ferdinand-v":[6,414,330,423],"kossuth":[6,837,330,507],"franz-joseph":[6,1344,330,533],"charles-iv":[6,1877,330,205],"revolutions-1918-19":[6,2082,330,460],"horthy":[7,0,330,437],"szalasi":[7,437,330,239],"coalition-years":[7,676,330,396],"rakosi":[7,1072,330,200],"nagy":[7,1272,330,227],"kadar":[7,1499,330,333],"transition":[8,0,330,218],"antall":[8,218,330,440],"horn":[8,658,330,221],"orban-1998":[8,879,330,354],"medgyessy":[8,1233,250,329],"gyurcsany":[8,1562,250,343],"bajnai":[9,0,330,440],"orban-2010":[9,440,330,465],"magyar":[9,905,330,440]},"iran":{"cyrus-ii":[0,0,330,220],"cambyses-ii":[0,220,330,241],"darius-i":[0,461,330,575],"xerxes-i":[0,1036,330,440],"artaxerxes-i-and-darius-ii":[0,1476,330,458],"ten-thousand":[0,1934,330,619],"darius-iii":[1,0,330,353],"alexander":[1,353,330,599],"seleucids":[1,952,330,446],"early-arsacids":[1,1398,330,169],"mithridates-i":[1,1567,330,159],"mithridates-ii":[1,1726,330,325],"orodes-ii":[2,0,330,155],"phraates-iv-and-heirs":[2,155,330,331],"last-arsacids":[2,486,330,306],"ardashir-i":[2,792,330,247],"shapur-i":[2,1039,330,219],"sons-of-shapur":[2,1258,330,247],"shapur-ii":[3,0,330,247],"hunters-and-huns":[3,247,330,162],"kavad-i":[3,409,330,158],"khosrow-i":[3,567,330,159],"khosrow-ii":[3,726,330,315],"sasanian-collapse":[3,1041,330,159],"yazdegerd-iii":[4,0,330,158],"umayyad-persia":[4,158,330,159],"abbasid-persia":[4,317,250,125],"persian-revival":[4,442,330,330],"seljuks":[4,772,330,162],"mongols":[4,934,330,252],"timur-and-turkmen":[5,0,330,489],"ismail-i":[5,489,330,445],"tahmasp-i":[5,934,330,468],"abbas-i":[5,1402,330,407],"later-safavids":[5,1809,330,476],"soltan-hoseyn":[5,2285,330,481],"nader-shah":[6,0,330,454],"karim-khan":[6,454,330,496],"agha-mohammad-khan":[6,950,330,480],"fath-ali-shah":[6,1430,330,518],"naser-al-din-shah":[6,1948,330,433],"mozaffar-ad-din-shah":[6,2381,330,428],"later-qajars":[7,0,330,471],"reza-shah":[7,471,330,397],"mohammad-reza-shah":[7,868,330,417],"mosaddegh":[7,1285,330,485],"revolution-1979":[7,1770,330,220],"khomeini":[7,1990,330,458],"ali-khamenei":[8,0,330,368],"mojtaba-khamenei":[8,368,330,219]},"italy":{"victor-emmanuel-ii":[0,0,330,457],"umberto-i":[0,457,330,556],"victor-emmanuel-iii":[0,1013,330,435],"mussolini":[0,1448,330,511],"umberto-ii":[0,1959,330,390]},"japan":{"oda-nobunaga":[0,0,330,361],"toyotomi-hideyoshi":[0,361,330,302],"tokugawa-ieyasu":[0,663,330,376],"tokugawa-hidetada":[0,1039,330,327],"tokugawa-iemitsu":[0,1366,330,330],"tokugawa-ietsuna":[0,1696,330,314],"tokugawa-tsunayoshi":[1,0,330,299],"tokugawa-ienobu":[1,299,330,246],"tokugawa-ietsugu":[1,545,330,330],"tokugawa-yoshimune":[1,875,330,322],"tokugawa-ieshige":[1,1197,330,318],"tokugawa-ieharu":[1,1515,330,317],"tokugawa-ienari":[2,0,330,323],"tokugawa-ieyoshi":[2,323,330,350],"tokugawa-iesada":[2,673,330,332],"tokugawa-iemochi":[2,1005,330,330],"tokugawa-yoshinobu":[2,1335,330,451],"meiji":[2,1786,330,452],"taisho":[3,0,330,463],"showa":[3,463,330,429],"akihito":[3,892,188,249],"naruhito":[3,1141,330,462]},"jordan":{"abdullah-i":[0,0,330,346],"talal":[0,346,330,464],"hussein":[0,810,330,503],"abdullah-ii":[0,1313,250,339]},"korea":{"taejo":[0,0,330,471],"jeongjong":[0,471,330,448],"taejong":[0,919,330,247],"sejong":[0,1166,330,220],"munjong":[0,1386,330,179],"danjong":[0,1565,330,220],"sejo":[1,0,330,440],"yejong":[1,440,330,247],"seongjong":[1,687,330,219],"yeonsangun":[1,906,330,247],"jungjong":[1,1153,330,330],"injong":[1,1483,330,233],"myeongjong":[2,0,330,179],"seonjo":[2,179,330,487],"gwanghaegun":[2,666,330,220],"injo":[2,886,330,492],"hyojong":[2,1378,330,176],"hyeonjong":[2,1554,330,173],"sukjong":[3,0,330,180],"gyeongjong":[3,180,330,247],"yeongjo":[3,427,330,592],"jeongjo":[3,1019,330,764],"sunjo":[3,1783,330,442],"heonjong":[3,2225,330,247],"cheoljong":[4,0,330,632],"gojong":[4,632,330,195],"gojong-emperor":[4,827,330,440],"sunjong":[4,1267,330,421]},"liechtenstein":{"anton-florian":[0,0,330,421],"princes-in-vienna":[0,421,330,422],"johann-i-joseph":[0,843,330,416],"aloys-ii":[0,1259,330,553],"johann-ii":[0,1812,330,416],"franz-i":[0,2228,330,444],"franz-joseph-ii":[1,0,330,427],"hans-adam-ii":[1,427,330,461]},"luxembourg":{"adolphe":[0,0,330,623],"guillaume-iv":[0,623,330,466],"marie-adelaide":[0,1089,330,495],"charlotte":[0,1584,330,457],"jean":[0,2041,330,495],"henri":[0,2536,330,496],"guillaume-v":[1,0,330,439]},"monaco":{"francois-grimaldi":[0,0,330,440],"lords-of-the-rock":[0,440,330,551],"a-century-of-murders":[0,991,250,321],"honore-ii":[0,1312,330,411],"princes-at-versailles":[0,1723,330,437],"honore-iii":[0,2160,330,436],"french-monaco":[1,0,330,430],"restored-princes":[1,430,330,414],"charles-iii":[1,844,330,546],"albert-i":[1,1390,330,432],"louis-ii":[1,1822,330,470],"rainier-iii":[1,2292,330,429],"albert-ii":[2,0,330,440]},"mongol":{"genghis":[0,0,330,419],"tolui-regency":[0,419,330,255],"ogedei":[0,674,330,420],"toregene-regency":[0,1094,330,167],"guyuk":[0,1261,172,900],"oghul-qaimish-regency":[0,2161,330,330],"mongke":[1,0,330,398],"kublai":[1,398,330,580],"ariq-boke":[1,978,330,478],"kublai-yuan":[1,1456,330,412],"temur":[1,1868,330,413],"khaishan":[1,2281,330,414],"ayurbarwada":[2,0,330,417],"two-capitals":[2,417,330,416],"toghon-temur":[2,833,330,326],"red-turbans":[2,1159,330,332]},"morocco":{"al-rashid":[0,0,330,247],"ismail":[0,247,330,531],"after-ismail":[0,778,330,219],"mohammed-iii":[0,997,330,446],"yazid":[0,1443,330,220],"slimane":[0,1663,330,440],"abd-al-rahman":[1,0,330,366],"mohammed-iv":[1,366,330,240],"hassan-i":[1,606,330,491],"abdelaziz":[1,1097,330,484],"abdelhafid":[1,1581,330,330],"yusef":[1,1911,330,369],"mohammed-v":[2,0,330,440],"ben-arafa":[2,440,187,229],"hassan-ii":[2,669,330,463],"mohammed-vi":[2,1132,330,414]},"mughal":{"babur":[0,0,330,477],"humayun":[0,477,330,331],"sher-shah":[0,808,330,275],"humayun-restored":[0,1083,330,491],"akbar":[0,1574,330,616],"jahangir":[0,2190,330,470],"shah-jahan":[1,0,330,494],"aurangzeb":[1,494,330,495],"bahadur-shah-i":[1,989,330,440],"puppet-emperors":[1,1429,330,489],"muhammad-shah":[1,1918,330,457],"ahmad-shah-bahadur":[1,2375,330,431],"alamgir-ii":[2,0,330,440],"shah-alam-ii":[2,440,330,511],"akbar-ii":[2,951,330,436],"bahadur-shah-ii":[2,1387,330,255]},"nepal":{"prithvi-narayan":[0,0,330,416],"pratap-singh":[0,416,330,194],"rana-bahadur":[0,610,330,493],"girvan-yuddha":[0,1103,330,410],"rajendra":[0,1513,330,471],"surendra":[0,1984,330,298],"prithvi":[1,0,330,427],"tribhuvan":[1,427,330,418],"mahendra":[1,845,330,566],"birendra":[1,1411,330,411],"dipendra":[1,1822,330,510],"gyanendra":[1,2332,330,360]},"netherlands":{"william-the-silent":[0,0,330,455],"maurice":[0,455,330,511],"frederick-henry":[0,966,330,413],"william-ii-stadtholder":[0,1379,330,428],"first-stadtholderless":[0,1807,330,407],"william-iii-stadtholder":[0,2214,330,545],"second-stadtholderless":[1,0,330,417],"william-iv":[1,417,330,393],"william-v":[1,810,330,471],"batavian-republic":[1,1281,330,421],"louis-bonaparte":[1,1702,330,455],"french-rule":[1,2157,330,238],"william-i":[2,0,250,321],"william-ii":[2,321,330,426],"william-iii":[2,747,330,487],"wilhelmina":[2,1234,330,519],"juliana":[2,1753,233,319],"beatrix":[2,2072,330,440],"willem-alexander":[3,0,330,457]},"norway":{"harald-fairhair":[0,0,330,246],"eric-bloodaxe":[0,246,330,332],"haakon-the-good":[0,578,330,188],"harald-greycloak":[0,766,330,268],"haakon-jarl":[0,1034,330,367],"olaf-tryggvason":[0,1401,330,211],"olaf-ii":[1,0,330,219],"cnut":[1,219,250,350],"magnus-the-good":[1,569,250,104],"harald-hardrada":[1,673,330,320],"olaf-kyrre":[1,993,330,146],"magnus-barefoot":[1,1139,330,165],"sigurd-the-crusader":[2,0,330,462],"civil-wars":[2,462,330,252],"sverre":[2,714,222,255],"haakon-iv":[2,969,330,262],"magnus-the-lawmender":[2,1231,197,277],"eric-ii":[2,1508,163,230],"haakon-v":[3,0,203,218],"magnus-vii":[3,218,330,356],"haakon-vi":[3,574,330,327],"olaf-iv":[3,901,189,550],"margaret":[3,1451,330,174],"danish-union":[3,1625,330,378],"christian-frederick":[4,0,330,560],"swedish-union":[4,560,330,430],"haakon-vii":[4,990,330,537],"olav-v":[4,1527,330,403],"harald-v":[4,1930,330,404],"haakon-viii":[4,2334,330,413]},"ottoman":{"osman-i":[0,0,330,571],"orhan":[0,571,330,599],"murad-i":[0,1170,330,412],"bayezid-i":[0,1582,330,202],"interregnum":[0,1784,330,196],"mehmed-i":[0,1980,330,409],"murad-ii":[1,0,330,429],"mehmed-ii":[1,429,330,407],"murad-ii-restored":[1,836,330,476],"mehmed-ii-restored":[1,1312,330,446],"bayezid-ii":[1,1758,330,448],"cem":[1,2206,330,570],"selim-i":[2,0,330,462],"suleiman-i":[2,462,330,386],"selim-ii":[2,848,330,570],"murad-iii":[2,1418,330,455],"mehmed-iii":[2,1873,330,373],"ahmed-i":[2,2246,330,535],"mustafa-i":[3,0,330,531],"osman-ii":[3,531,330,558],"mustafa-i-restored":[3,1089,330,511],"murad-iv":[3,1600,330,499],"ibrahim":[3,2099,330,451],"mehmed-iv":[3,2550,330,511],"suleiman-ii":[4,0,330,491],"ahmed-ii":[4,491,330,496],"mustafa-ii":[4,987,330,511],"ahmed-iii":[4,1498,330,594],"mahmud-i":[4,2092,330,502],"osman-iii":[4,2594,330,502],"mustafa-iii":[5,0,330,495],"abdul-hamid-i":[5,495,330,463],"selim-iii":[5,958,330,413],"mustafa-iv":[5,1371,330,401],"mahmud-ii":[5,1772,330,439],"abdulmejid-i":[5,2211,330,403],"abdulaziz":[6,0,330,498],"murad-v":[6,498,330,482],"abdul-hamid-ii":[6,980,330,508],"mehmed-v":[6,1488,330,400],"mehmed-vi":[6,1888,330,511]},"papacy":{"peter":[0,0,330,434],"catacomb-popes":[0,434,330,234],"emperors-church":[0,668,330,212],"leo-i":[0,880,330,248],"goths-and-greeks":[0,1128,330,247],"gregory-i":[0,1375,330,449],"byzantine-papacy":[1,0,330,463],"stephen-ii":[1,463,330,388],"rome-turns-west":[1,851,330,163],"leo-iii":[1,1014,330,606],"raiders-at-the-gates":[1,1620,330,229],"formosus":[1,1849,330,164],"cadaver-synod":[2,0,330,219],"pornocracy":[2,219,330,450],"john-xii":[2,669,330,399],"emperors-and-counts":[2,1068,330,495],"reformers":[2,1563,330,438],"gregory-vii":[2,2001,330,687],"urban-ii":[3,0,330,495],"concordats-and-rivals":[3,495,330,501],"alexander-iii":[3,996,330,250],"innocent-iii":[3,1246,330,415],"staufer-wars":[3,1661,330,497],"boniface-viii":[3,2158,330,711],"avignon":[4,0,330,247],"western-schism":[4,247,330,453],"return-to-rome":[4,700,330,423],"sixtus-iv":[4,1123,330,392],"alexander-vi":[4,1515,330,461],"julius-ii":[4,1976,330,448],"leo-x":[5,0,330,437],"clement-vii":[5,437,330,398],"paul-iii":[5,835,330,419],"counter-reformation":[5,1254,330,177],"gregory-xiii":[5,1431,330,396],"sixtus-v":[5,1827,330,486],"baroque-rome":[6,0,330,199],"urban-viii":[6,199,330,414],"innocent-x":[6,613,330,421],"bernini-rome":[6,1034,330,408],"age-of-reason":[6,1442,330,435],"pius-vi":[6,1877,330,459],"pius-vii":[7,0,330,379],"old-order":[7,379,330,408],"pius-ix":[7,787,330,416],"leo-xiii":[7,1203,330,389],"saint-and-peacemaker":[7,1592,330,414],"pius-xi":[7,2006,330,441],"pius-xii":[8,0,330,486],"john-xxiii":[8,486,330,419],"paul-vi":[8,905,330,430],"john-paul-i":[8,1335,330,495],"john-paul-ii":[8,1830,330,401],"benedict-xvi":[8,2231,330,443],"francis":[9,0,330,437],"leo-xiv":[9,437,330,440]},"poland":{"mieszko-i":[0,0,250,300],"boleslaw-i":[0,300,330,330],"mieszko-ii":[0,630,330,387],"casimir-i":[0,1017,330,434],"boleslaw-ii":[0,1451,330,336],"wladyslaw-herman":[0,1787,330,435],"boleslaw-iii":[1,0,330,165],"kingdom-in-pieces":[1,165,330,217],"dukes-at-war":[1,382,330,476],"wenceslaus-ii":[1,858,330,466],"wenceslaus-iii":[1,1324,330,254],"wladyslaw-i":[1,1578,234,300],"casimir-iii":[2,0,330,445],"louis-i":[2,445,330,477],"jadwiga":[2,922,330,415],"wladyslaw-ii-jagiello":[2,1337,330,439],"wladyslaw-iii":[2,1776,330,403],"casimir-iv":[2,2179,330,466],"john-i-albert":[3,0,330,457],"alexander":[3,457,330,444],"sigismund-i":[3,901,330,452],"sigismund-ii-augustus":[3,1353,330,392],"henry-of-valois":[3,1745,330,439],"stephen-bathory":[3,2184,330,382],"sigismund-iii":[4,0,330,561],"wladyslaw-iv":[4,561,330,412],"john-ii-casimir":[4,973,330,415],"michael":[4,1388,330,413],"john-iii-sobieski":[4,1801,330,434],"augustus-ii":[4,2235,330,411],"stanislaw-i":[5,0,330,390],"augustus-iii":[5,390,330,416],"stanislaw-august":[5,806,330,619],"partitions":[5,1425,330,223],"pilsudski":[5,1648,330,453],"sanation":[5,2101,330,468],"war-occupation":[6,0,330,244],"bierut":[6,244,330,420],"gomulka":[6,664,330,445],"gierek":[6,1109,330,438],"jaruzelski":[6,1547,330,438],"walesa":[6,1985,330,418],"kwasniewski":[7,0,330,480],"lech-kaczynski":[7,480,330,399],"komorowski":[7,879,330,454],"duda":[7,1333,330,438],"nawrocki":[7,1771,330,434]},"portugal":{"afonso-i":[0,0,330,528],"sancho-i":[0,528,330,405],"afonso-ii":[0,933,330,408],"sancho-ii":[0,1341,330,331],"afonso-iii":[0,1672,330,595],"denis":[0,2267,330,597],"afonso-iv":[1,0,330,462],"peter-i":[1,462,330,442],"ferdinand-i":[1,904,330,438],"crisis-1383":[1,1342,330,374],"john-i":[1,1716,330,485],"edward":[1,2201,330,451],"afonso-v":[2,0,330,481],"john-ii":[2,481,330,494],"manuel-i":[2,975,330,486],"john-iii":[2,1461,330,490],"sebastian":[2,1951,330,389],"henry":[2,2340,330,502],"anthony":[3,0,330,451],"philip-i":[3,451,330,497],"philip-ii":[3,948,330,521],"philip-iii":[3,1469,330,431],"john-iv":[3,1900,330,553],"afonso-vi":[3,2453,330,517],"peter-ii":[4,0,330,470],"john-v":[4,470,330,421],"joseph-i":[4,891,330,619],"maria-i-and-peter-iii":[4,1510,330,389],"maria-i":[4,1899,330,427],"john-vi":[4,2326,330,481],"peter-iv":[5,0,330,421],"maria-ii":[5,421,330,428],"miguel":[5,849,330,471],"maria-ii-restored":[5,1320,330,428],"peter-v":[5,1748,330,460],"luis-i":[5,2208,330,485],"carlos-i":[6,0,330,439],"manuel-ii":[6,439,330,520]},"ptolemaic":{"ptolemy-i":[0,0,330,330],"ptolemy-ii":[0,330,330,329],"ptolemy-iii":[0,659,330,329],"ptolemy-iv":[0,988,330,153],"ptolemy-v":[0,1141,330,386],"ptolemy-vi":[0,1527,330,440],"ptolemy-viii":[1,0,330,440],"cleopatra-ii":[1,440,330,330],"ptolemy-ix":[1,770,330,525],"ptolemy-x":[1,1295,330,500],"ptolemy-ix-restored":[1,1795,330,439],"berenice-iii-and-ptolemy-xi":[1,2234,330,312],"ptolemy-xii":[2,0,330,500],"berenice-iv":[2,500,330,225],"ptolemy-xii-restored":[2,725,330,498],"cleopatra-vii":[2,1223,330,437]},"rome":{"julius-caesar":[0,0,330,582],"triumvirate":[0,582,330,410],"augustus":[0,992,330,495],"tiberius":[0,1487,330,440],"caligula":[0,1927,330,451],"claudius":[0,2378,330,436],"nero":[1,0,330,440],"galba":[1,440,330,495],"otho":[1,935,330,320],"vitellius":[1,1255,330,340],"vespasian":[1,1595,330,484],"titus":[1,2079,330,454],"domitian":[2,0,330,481],"nerva":[2,481,330,500],"trajan":[2,981,330,453],"hadrian":[2,1434,330,412],"antoninus-pius":[2,1846,330,498],"marcus-aurelius-and-lucius-verus":[2,2344,330,572],"marcus-aurelius":[3,0,330,516],"commodus":[3,516,330,495],"pertinax":[3,1011,330,317],"didius-julianus":[3,1328,330,160],"septimius-severus":[3,1488,330,437],"caracalla-and-geta":[3,1925,330,277],"caracalla":[4,0,330,379],"macrinus":[4,379,330,495],"elagabalus":[4,874,330,517],"severus-alexander":[4,1391,330,370],"maximinus-thrax":[4,1761,330,440],"year-of-six-emperors":[4,2201,330,500],"gordian-iii":[5,0,330,447],"philip-the-arab":[5,447,330,459],"decius":[5,906,330,440],"trebonianus-gallus":[5,1346,330,440],"valerian-and-gallienus":[5,1786,330,278],"gallienus":[5,2064,330,495],"gallic-empire":[6,0,330,330],"claudius-ii":[6,330,330,330],"aurelian":[6,660,330,298],"zenobia":[6,958,330,337],"tacitus":[6,1295,330,390],"probus":[6,1685,330,503],"carus":[7,0,330,330],"diocletian-and-maximian":[7,330,330,440],"constantius-and-galerius":[7,770,330,495],"constantine":[7,1265,330,495],"maxentius":[7,1760,330,485],"licinius":[7,2245,330,497],"sons-of-constantine":[8,0,330,440],"constantius-ii":[8,440,330,468],"julian":[8,908,330,333],"jovian":[8,1241,330,332],"valentinian-and-valens":[8,1573,250,228],"gratian-and-valens":[8,1801,260,262],"theodosius":[9,0,250,230],"honorius":[9,230,330,322],"johannes":[9,552,164,164],"valentinian-iii":[9,716,233,232],"petronius-maximus":[9,948,330,325],"avitus":[9,1273,330,315],"majorian":[10,0,330,331],"libius-severus":[10,331,330,334],"anthemius":[10,665,330,308],"olybrius":[10,973,330,340],"glycerius":[10,1313,330,330],"julius-nepos":[10,1643,330,159],"romulus-augustulus":[11,0,330,154]},"russia":{"ivan-iv":[0,0,330,408],"feodor-i":[0,408,330,436],"boris-godunov":[0,844,330,408],"feodor-ii":[0,1252,330,409],"false-dmitry-i":[0,1661,330,331],"vasily-iv":[0,1992,330,399],"false-dmitry-ii":[1,0,330,539],"time-of-troubles":[1,539,330,388],"michael":[1,927,330,454],"alexis":[1,1381,330,445],"feodor-iii":[1,1826,330,389],"ivan-v-and-peter-i":[1,2215,330,205],"peter-i":[2,0,330,424],"catherine-i":[2,424,330,429],"peter-ii":[2,853,330,452],"anna":[2,1305,330,424],"ivan-vi":[2,1729,330,468],"elizabeth":[2,2197,330,415],"peter-iii":[3,0,330,431],"catherine-ii":[3,431,330,394],"paul-i":[3,825,330,522],"alexander-i":[3,1347,330,549],"nicholas-i":[3,1896,330,438],"alexander-ii":[3,2334,330,495],"alexander-iii":[4,0,330,420],"nicholas-ii":[4,420,330,468],"provisional-government":[4,888,330,341],"lenin":[4,1229,330,448],"stalin":[4,1677,330,457],"khrushchev":[4,2134,330,443],"brezhnev":[5,0,330,451],"andropov":[5,451,330,441],"chernenko":[5,892,330,389],"gorbachev":[5,1281,330,490],"yeltsin":[5,1771,330,347],"putin":[5,2118,330,449],"medvedev":[6,0,330,378],"putin-again":[6,378,330,449]},"saudi":{"abdulaziz":[0,0,330,219],"saud":[0,219,330,331],"faisal":[0,550,330,261],"khalid":[0,811,330,325],"fahd":[0,1136,330,242],"abdullah":[0,1378,330,432],"salman":[1,0,330,494]},"scotland":{"kenneth-i":[0,0,330,513],"donald-i":[0,513,330,347],"constantine-i":[0,860,330,347],"aed":[0,1207,330,343],"giric":[0,1550,330,342],"donald-ii":[0,1892,330,346],"constantine-ii":[1,0,330,338],"malcolm-i":[1,338,330,347],"indulf":[1,685,330,416],"dub":[1,1101,330,404],"cuilen":[1,1505,330,346],"kenneth-ii":[1,1851,330,343],"constantine-iii":[2,0,250,448],"kenneth-iii":[2,448,330,342],"malcolm-ii":[2,790,330,351],"duncan-i":[2,1141,330,347],"macbeth":[2,1488,330,341],"lulach":[2,1829,330,809],"malcolm-iii":[3,0,330,319],"donald-iii":[3,319,167,230],"duncan-ii":[3,549,330,406],"edgar":[3,955,330,389],"alexander-i":[3,1344,330,345],"david-i":[3,1689,330,501],"malcolm-iv":[4,0,330,262],"william-i":[4,262,330,346],"alexander-ii":[4,608,330,329],"alexander-iii":[4,937,330,290],"margaret":[4,1227,330,384],"first-interregnum":[4,1611,330,331],"john-balliol":[5,0,330,447],"second-interregnum":[5,447,330,495],"robert-i":[5,942,330,247],"david-ii":[5,1189,250,395],"edward-balliol":[5,1584,330,553],"robert-ii":[5,2137,330,499],"robert-iii":[6,0,330,505],"james-i":[6,505,330,391],"james-ii":[6,896,330,431],"james-iii":[6,1327,330,417],"james-iv":[6,1744,330,422],"james-v":[6,2166,330,400],"mary":[7,0,330,510],"james-vi":[7,510,330,438]},"spain":{"ferdinand-and-isabella":[0,0,330,220],"joanna":[0,220,330,521],"charles-i":[0,741,330,394],"philip-ii":[0,1135,330,397],"philip-iii":[0,1532,330,473],"philip-iv":[0,2005,330,392],"charles-ii":[1,0,330,575],"philip-v":[1,575,330,526],"louis-i":[1,1101,330,427],"philip-v-restored":[1,1528,330,526],"ferdinand-vi":[1,2054,330,393],"charles-iii":[1,2447,330,487],"charles-iv":[2,0,330,461],"ferdinand-vii":[2,461,330,484],"joseph-i":[2,945,330,430],"ferdinand-vii-restored":[2,1375,330,484],"isabella-ii":[2,1859,330,498],"revolution":[2,2357,330,222],"amadeo-i":[3,0,330,484],"first-republic":[3,484,330,447],"alfonso-xii":[3,931,330,495],"alfonso-xiii":[3,1426,330,432],"second-republic":[3,1858,330,212],"franco":[3,2070,330,461],"juan-carlos-i":[4,0,330,446],"felipe-vi":[4,446,330,449]},"sweden":{"gustav-i":[0,0,250,327],"erik-xiv":[0,327,330,592],"john-iii":[0,919,330,386],"sigismund":[0,1305,330,561],"charles-ix":[0,1866,330,444],"gustav-ii-adolf":[0,2310,330,450],"christina":[1,0,330,430],"charles-x-gustav":[1,430,330,412],"charles-xi":[1,842,330,378],"charles-xii":[1,1220,330,414],"ulrika-eleonora":[1,1634,330,430],"frederick-i":[1,2064,330,406],"adolf-frederick":[2,0,330,425],"gustav-iii":[2,425,330,552],"gustav-iv-adolf":[2,977,330,410],"charles-xiii":[2,1387,330,378],"charles-xiv-john":[2,1765,330,480],"oscar-i":[2,2245,330,382],"charles-xv":[3,0,330,428],"oscar-ii":[3,428,330,420],"gustaf-v":[3,848,330,460],"gustaf-vi-adolf":[3,1308,330,448],"carl-xvi-gustaf":[3,1756,330,443]},"thailand":{"uthong":[0,0,330,484],"rival-lines":[0,484,330,220],"intharacha":[0,704,330,207],"borommarachathirat-ii":[0,911,330,440],"borommatrailokkanat":[0,1351,330,440],"ramathibodi-ii":[0,1791,330,247],"chairacha":[1,0,330,247],"si-sudachan":[1,247,330,440],"maha-chakkraphat":[1,687,330,197],"mahinthrathirat":[1,884,330,220],"maha-thammaracha":[1,1104,330,210],"naresuan":[1,1314,330,220],"ekathotsarot":[2,0,330,586],"japanese-guard":[2,586,330,340],"prasat-thong":[2,926,330,220],"narai":[2,1146,330,541],"phetracha":[2,1687,330,471],"tiger-king":[2,2158,330,440],"borommakot":[3,0,330,440],"ekkathat":[3,440,330,606],"taksin":[3,1046,330,247],"rama-i":[3,1293,330,495],"rama-ii":[3,1788,330,503],"rama-iii":[3,2291,330,544],"mongkut":[4,0,330,424],"chulalongkorn":[4,424,330,414],"vajiravudh":[4,838,330,413],"prajadhipok":[4,1251,330,732],"ananda-mahidol":[4,1983,330,410],"bhumibol":[4,2393,330,453],"vajiralongkorn":[5,0,330,440]},"umayyad":{"muawiya-i":[0,0,330,159],"yazid-i":[0,159,330,164],"muawiya-ii":[0,323,330,158],"ibn-al-zubayr":[0,481,330,334],"marwan-i":[0,815,330,210],"abd-al-malik":[0,1025,330,327],"al-walid-i":[1,0,330,173],"sulayman":[1,173,330,159],"umar-ii":[1,332,330,169],"yazid-ii":[1,501,330,163],"hisham":[1,664,330,313],"third-fitna":[1,977,330,158],"abd-al-rahman-i":[2,0,330,220],"hisham-i":[2,220,330,165],"al-hakam-i":[2,385,330,165],"abd-al-rahman-ii":[2,550,330,317],"muhammad-i":[2,867,330,165],"rebel-of-bobastro":[2,1032,330,220],"abd-al-rahman-iii":[3,0,330,162],"al-hakam-ii":[3,162,330,500],"hisham-ii":[3,662,330,171],"amirid-sons":[3,833,330,219],"fitna-of-al-andalus":[3,1052,330,214]},"venice":{"anafesto":[0,0,330,599],"blinded-doges":[0,599,330,441],"st-mark":[0,1040,330,410],"candiano-doges":[0,1450,330,320],"pietro-i-orseolo":[0,1770,330,324],"pietro-ii-orseolo":[0,2094,330,356],"golden-bull-years":[1,0,330,348],"vitale-ii-michiel":[1,348,330,314],"sebastiano-ziani":[1,662,330,228],"enrico-dandolo":[1,890,330,437],"ducat-and-ballot":[1,1327,330,335],"pietro-gradenigo":[1,1662,330,371],"council-of-ten":[2,0,330,372],"andrea-dandolo":[2,372,330,376],"marino-faliero":[2,748,330,354],"andrea-contarini":[2,1102,330,378],"mainland":[2,1480,330,351],"tommaso-mocenigo":[2,1831,330,373],"francesco-foscari":[3,0,330,425],"ottoman-shadow":[3,425,330,162],"leonardo-loredan":[3,587,330,463],"andrea-gritti":[3,1050,330,427],"alvise-i-mocenigo":[3,1477,330,397],"sebastiano-venier":[3,1874,330,414],"rialto-years":[4,0,330,194],"leonardo-dona":[4,194,330,402],"plague-and-salute":[4,596,330,412],"siege-of-candia":[4,1008,330,213],"francesco-morosini":[4,1221,330,397],"losing-the-morea":[4,1618,330,246],"carnival-republic":[5,0,330,219],"ludovico-manin":[5,219,330,433]},"vietnam":{"ngo-quyen":[0,0,330,247],"dinh-bo-linh":[0,247,330,220],"le-hoan":[0,467,330,220],"le-long-dinh":[0,687,330,220],"ly-thai-to":[0,907,330,247],"ly-thai-tong":[0,1154,330,277],"ly-thanh-tong":[1,0,330,245],"ly-nhan-tong":[1,245,330,495],"ly-decline":[1,740,330,220],"ly-chieu-hoang":[1,960,330,247],"tran-thai-tong":[1,1207,330,221],"tran-thanh-tong":[1,1428,330,219],"tran-nhan-tong":[2,0,330,495],"tran-decline":[2,495,330,440],"ho-quy-ly":[2,935,330,220],"ming-occupation":[2,1155,330,149],"le-loi":[2,1304,330,222],"lychee-garden":[2,1526,330,493],"le-thanh-tong":[3,0,330,495],"le-decline":[3,495,330,494],"mac-dang-dung":[3,989,330,440],"le-restoration":[3,1429,330,247],"trinh-nguyen":[3,1676,330,477],"tay-son-rising":[3,2153,330,247],"quang-trung":[4,0,330,203],"gia-long":[4,203,330,240],"minh-mang":[4,443,330,247],"thieu-tri":[4,690,330,330],"tu-duc":[4,1020,330,220],"regicide-years":[4,1240,330,185],"ham-nghi":[5,0,330,466],"dong-khanh":[5,466,330,247],"thanh-thai":[5,713,250,386],"duy-tan":[5,1099,330,520],"khai-dinh":[5,1619,330,466],"bao-dai":[5,2085,330,458]}};
+// Heraldry: ARMS.houses["england/tudor"] = { versions: [{ img, from, to, title, note }], none? }, ARMS.files[img] = credit.
+const ARMS = {
+ "houses": {
+  "england/normandy": {
+   "versions": [
+    {
+     "img": "arms-of-william-the-conqueror-1066-1087",
+     "from": "1066",
+     "to": "1135",
+     "title": "Two gold lions on red",
+     "note": "Attributed later: Coats of arms only appear in Europe in the 1130s and 1140s. Heralds gave William these lions afterwards."
+    }
+   ]
+  },
+  "england/blois": {
+   "versions": [
+    {
+     "img": "attributed-arms-of-stephen-of-blois-upton",
+     "from": "1135",
+     "to": "1154",
+     "title": "Attributed arms",
+     "note": "Given to Stephen by later heralds. No arms he actually used survive."
+    }
+   ]
+  },
+  "england/plantagenet": {
+   "versions": [
+    {
+     "img": "royal-arms-of-england",
+     "from": "1198",
+     "to": "1340",
+     "title": "Three lions",
+     "note": "Three gold lions on red, first seen on Richard I's great seal of 1198. Still the arms of England today."
+    },
+    {
+     "img": "royal-arms-of-england-1340-1367",
+     "from": "1340",
+     "to": "1399",
+     "title": "England and France",
+     "note": "Edward III claimed the French throne in 1340 and put France's lilies in the place of honour."
+    }
+   ]
+  },
+  "england/lancaster": {
+   "versions": [
+    {
+     "img": "royal-arms-of-england-1340-1367",
+     "from": "1399",
+     "to": "1406",
+     "title": "England and France",
+     "note": "Henry IV kept Edward III's arms at first."
+    },
+    {
+     "img": "royal-arms-of-england-1399-1603",
+     "from": "1406",
+     "to": "1461",
+     "title": "France modern",
+     "note": "Around 1406 the lilies were cut to three, copying the French kings' own change."
+    },
+    {
+     "img": "red-rose-badge-of-lancaster",
+     "from": "",
+     "to": "",
+     "title": "Red rose badge",
+     "note": "A Lancastrian badge, made famous mostly after the fact by the Tudors."
+    }
+   ]
+  },
+  "england/york": {
+   "versions": [
+    {
+     "img": "royal-arms-of-england-1399-1603",
+     "from": "1461",
+     "to": "1485",
+     "title": "Royal arms",
+     "note": "The same royal arms as Lancaster: the war was over who bore them."
+    },
+    {
+     "img": "white-rose-badge-of-york",
+     "from": "",
+     "to": "",
+     "title": "White rose badge",
+     "note": "The white rose of the House of York."
+    }
+   ]
+  },
+  "england/tudor": {
+   "versions": [
+    {
+     "img": "royal-arms-of-england-1399-1603",
+     "from": "1485",
+     "to": "1603",
+     "title": "Royal arms",
+     "note": "Unchanged from Lancaster and York; the Tudors changed the supporters (dragon, greyhound, lion) beside the shield."
+    },
+    {
+     "img": "tudor-rose",
+     "from": "",
+     "to": "",
+     "title": "Tudor rose",
+     "note": "Henry VII joined the red rose and the white after marrying Elizabeth of York."
+    }
+   ]
+  },
+  "england/grey": {
+   "versions": [
+    {
+     "img": "arms-of-lady-jane-grey",
+     "from": "1553",
+     "to": "1553",
+     "title": "Jane Grey's own arms",
+     "note": "Her family arms, joining her father's Grey line and her mother's Brandon line."
+    }
+   ]
+  },
+  "england/stuart": {
+   "versions": [
+    {
+     "img": "coat-of-arms-of-england-1660-1689",
+     "from": "1603",
+     "to": "1707",
+     "title": "England, Scotland and Ireland",
+     "note": "James I added Scotland's lion and Ireland's harp: the first arms of all three kingdoms. Paused 1649 to 1660."
+    },
+    {
+     "img": "royal-arms-of-great-britain-1707-1714",
+     "from": "1707",
+     "to": "1714",
+     "title": "Great Britain",
+     "note": "After the Union of 1707 England and Scotland share one quarter."
+    }
+   ]
+  },
+  "england/commonwealth": {
+   "versions": [
+    {
+     "img": "coat-of-arms-of-the-commonwealth-of-england",
+     "from": "1649",
+     "to": "1653",
+     "title": "Commonwealth",
+     "note": "No crown and no lions: St George's cross for England and the harp for Ireland."
+    },
+    {
+     "img": "coat-of-arms-of-the-protectorate-1653-1659",
+     "from": "1653",
+     "to": "1659",
+     "title": "Protectorate",
+     "note": "Cromwell's own black lion sits at the centre of the three kingdoms."
+    }
+   ]
+  },
+  "england/orange": {
+   "versions": [
+    {
+     "img": "royal-arms-of-england-1689-1694",
+     "from": "1689",
+     "to": "1702",
+     "title": "Stuart arms with Nassau",
+     "note": "William of Orange put the lion of Nassau in a small shield at the centre."
+    }
+   ]
+  },
+  "england/hanover": {
+   "versions": [
+    {
+     "img": "royal-arms-of-great-britain-1714-1801",
+     "from": "1714",
+     "to": "1801",
+     "title": "Hanover quarter",
+     "note": "George I added his German lands in the fourth quarter. France's lilies stayed until 1801."
+    },
+    {
+     "img": "royal-arms-of-united-kingdom-1816-1837",
+     "from": "1801",
+     "to": "1837",
+     "title": "United Kingdom and Hanover",
+     "note": "France was finally dropped in 1801; Hanover sits in the centre, crowned as a kingdom from 1816."
+    },
+    {
+     "img": "coat-of-arms-of-the-united-kingdom-1837",
+     "from": "1837",
+     "to": "1901",
+     "title": "Victoria",
+     "note": "As a woman Victoria could not inherit Hanover, so it left the arms: the version still used today."
+    }
+   ]
+  },
+  "england/saxe-coburg": {
+   "versions": [
+    {
+     "img": "royal-arms-of-the-united-kingdom-1901-1952-crown-garter",
+     "from": "1901",
+     "to": "1910",
+     "title": "Royal arms",
+     "note": "Edward VII kept Victoria's royal arms unchanged."
+    }
+   ]
+  },
+  "england/windsor": {
+   "versions": [
+    {
+     "img": "royal-arms-of-the-united-kingdom-1901-1952-crown-garter",
+     "from": "1910",
+     "to": "1952",
+     "title": "Royal arms",
+     "note": "The family renamed itself Windsor in 1917; the arms did not change."
+    },
+    {
+     "img": "royal-coat-of-arms-of-the-united-kingdom-st-edward-s-crown",
+     "from": "1952",
+     "to": "2022",
+     "title": "Elizabeth II",
+     "note": "The same arms under St Edward's Crown. Charles III restored the Tudor crown shape."
+    }
+   ]
+  },
+  "england/capet": {
+   "versions": [
+    {
+     "img": "arms-of-the-kings-of-france-france-ancien",
+     "from": "1216",
+     "to": "1217",
+     "title": "Arms of France",
+     "note": "Prince Louis bore the French royal arms: gold lilies scattered on blue."
+    }
+   ]
+  },
+  "scotland/alpin": {
+   "none": "No arms: Coats of arms only appear in Europe in the 1130s and 1140s. Scotland's lion appears only in the 1220s."
+  },
+  "scotland/moray": {
+   "none": "No arms: Coats of arms only appear in Europe in the 1130s and 1140s."
+  },
+  "scotland/dunkeld": {
+   "versions": [
+    {
+     "img": "royal-arms-of-the-kingdom-of-scotland",
+     "from": "1222",
+     "to": "1290",
+     "title": "Lion rampant",
+     "note": "The red lion first appears on Alexander II's seal around 1222; the double border of lilies came later in the century. Earlier kings of this house had no arms."
+    }
+   ]
+  },
+  "scotland/balliol": {
+   "versions": [
+    {
+     "img": "balliol-arms",
+     "from": "",
+     "to": "",
+     "title": "Balliol family arms",
+     "note": "The Balliols' own arms: a white border-shape (an orle) on red."
+    },
+    {
+     "img": "royal-arms-of-the-kingdom-of-scotland",
+     "from": "1292",
+     "to": "1296",
+     "title": "Royal arms",
+     "note": "As king, John bore the lion of Scotland."
+    }
+   ]
+  },
+  "scotland/bruce": {
+   "versions": [
+    {
+     "img": "arms-of-robert-the-bruce-before-1306",
+     "from": "",
+     "to": "1306",
+     "title": "Bruce family arms",
+     "note": "A red saltire on gold, the arms of the Bruces of Annandale."
+    },
+    {
+     "img": "royal-arms-of-the-kingdom-of-scotland",
+     "from": "1306",
+     "to": "1371",
+     "title": "Royal arms",
+     "note": "Crowned in 1306, Robert took the lion of Scotland."
+    }
+   ]
+  },
+  "scotland/stewart": {
+   "versions": [
+    {
+     "img": "royal-arms-of-the-kingdom-of-scotland",
+     "from": "1371",
+     "to": "1603",
+     "title": "Royal arms",
+     "note": "The Stewarts kept the lion and its border of lilies."
+    },
+    {
+     "img": "royal-arms-of-the-kingdom-of-scotland-1603-1707",
+     "from": "1603",
+     "to": "1707",
+     "title": "Three kingdoms, Scottish version",
+     "note": "After 1603 Scotland's lion takes the first quarter in the version used in Scotland."
+    }
+   ]
+  },
+  "france/capet": {
+   "versions": [
+    {
+     "img": "arms-of-the-kings-of-france-france-ancien",
+     "from": "1211",
+     "to": "1328",
+     "title": "France ancient",
+     "note": "Gold lilies scattered on blue, first in full on Prince Louis's seal of 1211. The first Capetians had no arms: Coats of arms only appear in Europe in the 1130s and 1140s."
+    }
+   ]
+  },
+  "france/valois": {
+   "versions": [
+    {
+     "img": "arms-of-the-kings-of-france-france-ancien",
+     "from": "1328",
+     "to": "1376",
+     "title": "France ancient",
+     "note": "The Valois kept the scattered lilies at first."
+    },
+    {
+     "img": "arms-of-the-kingdom-of-france-moderne",
+     "from": "1376",
+     "to": "1589",
+     "title": "France modern",
+     "note": "Around 1376 Charles V cut the lilies to three, said to honour the Trinity."
+    }
+   ]
+  },
+  "france/lancaster": {
+   "versions": [
+    {
+     "img": "royal-arms-of-england-1399-1603",
+     "from": "1422",
+     "to": "1453",
+     "title": "England and France",
+     "note": "Henry VI, crowned in Paris in 1431, bore the joint arms of both crowns."
+    }
+   ]
+  },
+  "france/bourbon": {
+   "versions": [
+    {
+     "img": "arms-of-france-and-navarre-1589-1790",
+     "from": "1589",
+     "to": "1792",
+     "title": "France and Navarre",
+     "note": "Henry IV was already King of Navarre, so its gold chains on red sit beside the lilies."
+    },
+    {
+     "img": "arms-of-the-kingdom-of-france-moderne",
+     "from": "1814",
+     "to": "1830",
+     "title": "Restoration",
+     "note": "The restored Bourbons brought back the three lilies."
+    }
+   ]
+  },
+  "france/republic": {
+   "none": "No arms: the Revolution abolished coats of arms in 1790. The Republic used emblems such as Marianne and the fasces instead."
+  },
+  "france/bonaparte": {
+   "versions": [
+    {
+     "img": "imperial-coat-of-arms-of-france-1804-1815",
+     "from": "1804",
+     "to": "1815",
+     "title": "First Empire",
+     "note": "Napoleon swapped the lilies for a Roman-style gold eagle on blue, with golden bees on the mantle."
+    },
+    {
+     "img": "coat-of-arms-second-french-empire-1852-1870",
+     "from": "1852",
+     "to": "1870",
+     "title": "Second Empire",
+     "note": "Napoleon III revived his uncle's eagle."
+    }
+   ]
+  },
+  "france/orleans": {
+   "versions": [
+    {
+     "img": "coat-of-arms-of-the-july-monarchy-1831-48",
+     "from": "1831",
+     "to": "1848",
+     "title": "July Monarchy",
+     "note": "Louis-Philippe dropped the lilies for the 1830 Charter, a constitution, in the centre."
+    }
+   ]
+  },
+  "hre/carolingian": {
+   "versions": [
+    {
+     "img": "attributed-arms-of-charlemagne",
+     "from": "800",
+     "to": "888",
+     "title": "Attributed arms",
+     "note": "Invented centuries later: half the imperial eagle, half France's lilies. Coats of arms only appear in Europe in the 1130s and 1140s."
+    }
+   ]
+  },
+  "hre/ottonian": {
+   "none": "No arms: emperors of this era used seals, crosses and the Holy Lance. The eagle became a fixed emblem only under the Hohenstaufen."
+  },
+  "hre/salian": {
+   "none": "No arms: Coats of arms only appear in Europe in the 1130s and 1140s. The Salians sealed with their portraits instead."
+  },
+  "hre/supplinburg": {
+   "none": "No arms: Coats of arms only appear in Europe in the 1130s and 1140s."
+  },
+  "hre/hohenstaufen": {
+   "versions": [
+    {
+     "img": "shield-and-coat-of-arms-of-the-holy-roman-emperor-c-1200-c-1",
+     "from": "1200",
+     "to": "1300",
+     "title": "Imperial eagle",
+     "note": "A black single-headed eagle on gold: the emblem of the Empire itself, fixed in this period."
+    },
+    {
+     "img": "arms-of-swabia-sicily",
+     "from": "1194",
+     "to": "1266",
+     "title": "Hohenstaufen Sicily",
+     "note": "The black eagle on white the family used as kings of Sicily."
+    }
+   ]
+  },
+  "hre/welf": {
+   "versions": [
+    {
+     "img": "coat-of-arms-of-otto-iv-of-brunswick-as-holy-roman-emperor-c",
+     "from": "1198",
+     "to": "1218",
+     "title": "Otto IV",
+     "note": "Half the imperial eagle, half the English lions of his uncle Richard I, as drawn by Matthew Paris."
+    }
+   ]
+  },
+  "hre/habsburg": {
+   "versions": [
+    {
+     "img": "counts-of-habsburg-arms",
+     "from": "",
+     "to": "",
+     "title": "Habsburg family arms",
+     "note": "A red lion on gold: the counts of Habsburg in Switzerland."
+    },
+    {
+     "img": "emperor-rudolf-i-arms",
+     "from": "1273",
+     "to": "1291",
+     "title": "Rudolf I",
+     "note": "The first Habsburg king put his lion on the imperial eagle."
+    },
+    {
+     "img": "coat-of-arms-of-the-holy-roman-emperor-c-1433-c-1450",
+     "from": "1438",
+     "to": "1806",
+     "title": "Double-headed eagle",
+     "note": "From 1433 emperors bore a two-headed eagle. The Habsburgs held it, with one break, until 1806."
+    }
+   ]
+  },
+  "hre/nassau": {
+   "versions": [
+    {
+     "img": "arms-of-nassau",
+     "from": "1292",
+     "to": "1298",
+     "title": "Nassau",
+     "note": "A gold lion among gold billets on blue: Adolf's family, later the house of Orange-Nassau."
+    }
+   ]
+  },
+  "hre/luxembourg": {
+   "versions": [
+    {
+     "img": "armoiries-empereur-charles-iv",
+     "from": "1346",
+     "to": "1378",
+     "title": "Charles IV",
+     "note": "The imperial eagle with Bohemia's white lion, his first crown."
+    },
+    {
+     "img": "coat-of-arms-of-the-holy-roman-emperor-c-1433-c-1450",
+     "from": "1433",
+     "to": "1437",
+     "title": "Double-headed eagle",
+     "note": "Sigismund introduced the two-headed eagle when crowned emperor in 1433."
+    }
+   ]
+  },
+  "hre/wittelsbach": {
+   "versions": [
+    {
+     "img": "coat-of-arms-of-the-house-of-wittelsbach-bavaria",
+     "from": "1314",
+     "to": "1347",
+     "title": "Bavarian lozenges",
+     "note": "The blue and white lozenges of Bavaria, still the state's colours. Charles VII bore them again in 1742 to 1745."
+    }
+   ]
+  },
+  "hre/lorraine": {
+   "versions": [
+    {
+     "img": "arms-of-lorraine",
+     "from": "1745",
+     "to": "1765",
+     "title": "Lorraine",
+     "note": "A red bend with three white eaglets (alerions) on gold."
+    }
+   ]
+  },
+  "hre/habsburg-lorraine": {
+   "versions": [
+    {
+     "img": "habsburg-lorraine-tripartite-arms",
+     "from": "1765",
+     "to": "1806",
+     "title": "Habsburg-Lorraine",
+     "note": "Habsburg's lion, Austria's red-white-red and Lorraine's bend: the new joint house of Maria Theresa and Francis."
+    }
+   ]
+  }
+ },
+ "files": {
+  "arms-of-william-the-conqueror-1066-1087": {
+   "file": "Arms of William the Conqueror (1066-1087).svg",
+   "page": "https://commons.wikimedia.org/wiki/File:Arms_of_William_the_Conqueror_(1066-1087).svg",
+   "credit": "Wikimedia Commons contributors (see file page)",
+   "license": "CC BY-SA 3.0"
+  },
+  "attributed-arms-of-stephen-of-blois-upton": {
+   "file": "Attributed arms of Stephen of Blois (Upton).svg",
+   "page": "https://commons.wikimedia.org/wiki/File:Attributed_arms_of_Stephen_of_Blois_(Upton).svg",
+   "credit": "Wikimedia Commons contributors (see file page)",
+   "license": "CC BY-SA 4.0"
+  },
+  "royal-arms-of-england": {
+   "file": "Royal arms of England.svg",
+   "page": "https://commons.wikimedia.org/wiki/File:Royal_arms_of_England.svg",
+   "credit": "Wikimedia Commons contributors (see file page)",
+   "license": "CC BY-SA 4.0"
+  },
+  "royal-arms-of-england-1340-1367": {
+   "file": "Royal Arms of England (1340-1367).svg",
+   "page": "https://commons.wikimedia.org/wiki/File:Royal_Arms_of_England_(1340-1367).svg",
+   "credit": "Wikimedia Commons contributors (see file page)",
+   "license": "CC BY-SA 3.0"
+  },
+  "royal-arms-of-england-1399-1603": {
+   "file": "Royal Arms of England (1399-1603).svg",
+   "page": "https://commons.wikimedia.org/wiki/File:Royal_Arms_of_England_(1399-1603).svg",
+   "credit": "Wikimedia Commons contributors (see file page)",
+   "license": "CC BY-SA 3.0"
+  },
+  "red-rose-badge-of-lancaster": {
+   "file": "Red Rose Badge of Lancaster.svg",
+   "page": "https://commons.wikimedia.org/wiki/File:Red_Rose_Badge_of_Lancaster.svg",
+   "credit": "Sodacan",
+   "license": "CC BY-SA 3.0"
+  },
+  "white-rose-badge-of-york": {
+   "file": "White Rose Badge of York.svg",
+   "page": "https://commons.wikimedia.org/wiki/File:White_Rose_Badge_of_York.svg",
+   "credit": "Sodacan",
+   "license": "CC BY-SA 3.0"
+  },
+  "tudor-rose": {
+   "file": "Tudor Rose.svg",
+   "page": "https://commons.wikimedia.org/wiki/File:Tudor_Rose.svg",
+   "credit": "Sodacan",
+   "license": "CC BY-SA 3.0"
+  },
+  "arms-of-lady-jane-grey": {
+   "file": "Arms of Lady Jane Grey.SVG",
+   "page": "https://commons.wikimedia.org/wiki/File:Arms_of_Lady_Jane_Grey.SVG",
+   "credit": "Glitterlicorn",
+   "license": "CC BY-SA 4.0"
+  },
+  "coat-of-arms-of-england-1660-1689": {
+   "file": "Coat of Arms of England (1660-1689).svg",
+   "page": "https://commons.wikimedia.org/wiki/File:Coat_of_Arms_of_England_(1660-1689).svg",
+   "credit": "Wikimedia Commons contributors (see file page)",
+   "license": "CC BY-SA 3.0"
+  },
+  "royal-arms-of-great-britain-1707-1714": {
+   "file": "Royal Arms of Great Britain (1707-1714).svg",
+   "page": "https://commons.wikimedia.org/wiki/File:Royal_Arms_of_Great_Britain_(1707-1714).svg",
+   "credit": "Sodacan",
+   "license": "CC BY-SA 3.0"
+  },
+  "coat-of-arms-of-the-commonwealth-of-england": {
+   "file": "Coat of Arms of the Commonwealth of England.svg",
+   "page": "https://commons.wikimedia.org/wiki/File:Coat_of_Arms_of_the_Commonwealth_of_England.svg",
+   "credit": "Sodacan",
+   "license": "CC BY-SA 3.0"
+  },
+  "coat-of-arms-of-the-protectorate-1653-1659": {
+   "file": "Coat of Arms of the Protectorate (1653–1659).svg",
+   "page": "https://commons.wikimedia.org/wiki/File:Coat_of_Arms_of_the_Protectorate_(1653%E2%80%931659).svg",
+   "credit": "Sodacan",
+   "license": "CC BY-SA 3.0"
+  },
+  "royal-arms-of-england-1689-1694": {
+   "file": "Royal Arms of England (1689-1694).svg",
+   "page": "https://commons.wikimedia.org/wiki/File:Royal_Arms_of_England_(1689-1694).svg",
+   "credit": "Sodacan",
+   "license": "CC BY-SA 3.0"
+  },
+  "royal-arms-of-great-britain-1714-1801": {
+   "file": "Royal Arms of Great Britain (1714-1801).svg",
+   "page": "https://commons.wikimedia.org/wiki/File:Royal_Arms_of_Great_Britain_(1714-1801).svg",
+   "credit": "Wikimedia Commons contributors (see file page)",
+   "license": "CC BY-SA 3.0"
+  },
+  "royal-arms-of-united-kingdom-1816-1837": {
+   "file": "Royal Arms of United Kingdom (1816-1837).svg",
+   "page": "https://commons.wikimedia.org/wiki/File:Royal_Arms_of_United_Kingdom_(1816-1837).svg",
+   "credit": "Sodacan",
+   "license": "CC BY-SA 3.0"
+  },
+  "coat-of-arms-of-the-united-kingdom-1837": {
+   "file": "Coat of arms of the United Kingdom (1837).svg",
+   "page": "https://commons.wikimedia.org/wiki/File:Coat_of_arms_of_the_United_Kingdom_(1837).svg",
+   "credit": "Sodacan (ed. Safes007)",
+   "license": "CC BY-SA 4.0"
+  },
+  "royal-arms-of-the-united-kingdom-1901-1952-crown-garter": {
+   "file": "Royal arms of the United Kingdom (1901-1952, Crown & Garter).svg",
+   "page": "https://commons.wikimedia.org/wiki/File:Royal_arms_of_the_United_Kingdom_(1901-1952,_Crown_%26_Garter).svg",
+   "credit": "Sodacan",
+   "license": "CC BY-SA 4.0"
+  },
+  "royal-coat-of-arms-of-the-united-kingdom-st-edward-s-crown": {
+   "file": "Royal coat of arms of the United Kingdom (St. Edward's Crown).svg",
+   "page": "https://commons.wikimedia.org/wiki/File:Royal_coat_of_arms_of_the_United_Kingdom_(St._Edward%27s_Crown).svg",
+   "credit": "Wikimedia Commons contributors (see file page)",
+   "license": "CC BY-SA 3.0"
+  },
+  "arms-of-the-kings-of-france-france-ancien": {
+   "file": "Arms of the Kings of France (France Ancien).svg",
+   "page": "https://commons.wikimedia.org/wiki/File:Arms_of_the_Kings_of_France_(France_Ancien).svg",
+   "credit": "Saltspan, elements by Sodacan",
+   "license": "CC BY-SA 4.0"
+  },
+  "royal-arms-of-the-kingdom-of-scotland": {
+   "file": "Royal Arms of the Kingdom of Scotland.svg",
+   "page": "https://commons.wikimedia.org/wiki/File:Royal_Arms_of_the_Kingdom_of_Scotland.svg",
+   "credit": "Wikimedia Commons contributors (see file page)",
+   "license": "CC BY-SA 3.0"
+  },
+  "balliol-arms": {
+   "file": "Balliol arms.svg",
+   "page": "https://commons.wikimedia.org/wiki/File:Balliol_arms.svg",
+   "credit": "Wikimandia",
+   "license": "CC BY-SA 4.0"
+  },
+  "arms-of-robert-the-bruce-before-1306": {
+   "file": "Arms of Robert the Bruce (before 1306).svg",
+   "page": "https://commons.wikimedia.org/wiki/File:Arms_of_Robert_the_Bruce_(before_1306).svg",
+   "credit": "MyChevalier",
+   "license": "CC BY-SA 4.0"
+  },
+  "royal-arms-of-the-kingdom-of-scotland-1603-1707": {
+   "file": "Royal Arms of the Kingdom of Scotland (1603-1707).svg",
+   "page": "https://commons.wikimedia.org/wiki/File:Royal_Arms_of_the_Kingdom_of_Scotland_(1603-1707).svg",
+   "credit": "Wikimedia Commons contributors (see file page)",
+   "license": "CC BY-SA 3.0"
+  },
+  "arms-of-the-kingdom-of-france-moderne": {
+   "file": "Arms of the Kingdom of France (Moderne).svg",
+   "page": "https://commons.wikimedia.org/wiki/File:Arms_of_the_Kingdom_of_France_(Moderne).svg",
+   "credit": "Sodacan",
+   "license": "CC BY-SA 3.0"
+  },
+  "arms-of-france-and-navarre-1589-1790": {
+   "file": "Arms of France and Navarre (1589-1790).svg",
+   "page": "https://commons.wikimedia.org/wiki/File:Arms_of_France_and_Navarre_(1589-1790).svg",
+   "credit": "Heralder",
+   "license": "CC BY-SA 3.0"
+  },
+  "imperial-coat-of-arms-of-france-1804-1815": {
+   "file": "Imperial Coat of Arms of France (1804-1815).svg",
+   "page": "https://commons.wikimedia.org/wiki/File:Imperial_Coat_of_Arms_of_France_(1804-1815).svg",
+   "credit": "Sodacan",
+   "license": "CC BY-SA 3.0"
+  },
+  "coat-of-arms-second-french-empire-1852-1870": {
+   "file": "Coat of Arms Second French Empire (1852–1870).svg",
+   "page": "https://commons.wikimedia.org/wiki/File:Coat_of_Arms_Second_French_Empire_(1852%E2%80%931870).svg",
+   "credit": "Sodacan",
+   "license": "CC BY-SA 3.0"
+  },
+  "coat-of-arms-of-the-july-monarchy-1831-48": {
+   "file": "Coat of Arms of the July Monarchy (1831-48).svg",
+   "page": "https://commons.wikimedia.org/wiki/File:Coat_of_Arms_of_the_July_Monarchy_(1831-48).svg",
+   "credit": "Sodacan",
+   "license": "CC BY-SA 3.0"
+  },
+  "attributed-arms-of-charlemagne": {
+   "file": "Attributed Arms of Charlemagne.svg",
+   "page": "https://commons.wikimedia.org/wiki/File:Attributed_Arms_of_Charlemagne.svg",
+   "credit": "SemperAdiuvans",
+   "license": "CC BY-SA 4.0"
+  },
+  "shield-and-coat-of-arms-of-the-holy-roman-emperor-c-1200-c-1": {
+   "file": "Shield and Coat of Arms of the Holy Roman Emperor (c.1200-c.1300).svg",
+   "page": "https://commons.wikimedia.org/wiki/File:Shield_and_Coat_of_Arms_of_the_Holy_Roman_Emperor_(c.1200-c.1300).svg",
+   "credit": "Heralder & Tom Lemmens",
+   "license": "CC BY-SA 3.0"
+  },
+  "arms-of-swabia-sicily": {
+   "file": "Arms of Swabia-Sicily.svg",
+   "page": "https://commons.wikimedia.org/wiki/File:Arms_of_Swabia-Sicily.svg",
+   "credit": "Shield and Coat of Arms of the Holy Roman Emperor (c.1200-c.1300).svg: Heralder & Tom-L Derivate work: The White Lio",
+   "license": "CC BY-SA 3.0"
+  },
+  "coat-of-arms-of-otto-iv-of-brunswick-as-holy-roman-emperor-c": {
+   "file": "Coat of arms of Otto IV of Brunswick as Holy Roman Emperor (Chronica Maiora).svg",
+   "page": "https://commons.wikimedia.org/wiki/File:Coat_of_arms_of_Otto_IV_of_Brunswick_as_Holy_Roman_Emperor_(Chronica_Maiora).svg",
+   "credit": "FDRMRZUSA",
+   "license": "CC BY-SA 4.0"
+  },
+  "counts-of-habsburg-arms": {
+   "file": "Counts of Habsburg Arms.svg",
+   "page": "https://commons.wikimedia.org/wiki/File:Counts_of_Habsburg_Arms.svg",
+   "credit": "Wikimedia Commons contributors (see file page)",
+   "license": "CC BY-SA 3.0"
+  },
+  "emperor-rudolf-i-arms": {
+   "file": "Emperor Rudolf I Arms.svg",
+   "page": "https://commons.wikimedia.org/wiki/File:Emperor_Rudolf_I_Arms.svg",
+   "credit": "Ipankonin",
+   "license": "CC BY-SA 3.0"
+  },
+  "coat-of-arms-of-the-holy-roman-emperor-c-1433-c-1450": {
+   "file": "Coat of Arms of the Holy Roman Emperor (c.1433-c.1450).svg",
+   "page": "https://commons.wikimedia.org/wiki/File:Coat_of_Arms_of_the_Holy_Roman_Emperor_(c.1433-c.1450).svg",
+   "credit": "Tom Lemmens & Heralder",
+   "license": "CC BY-SA 3.0"
+  },
+  "arms-of-nassau": {
+   "file": "Arms of Nassau.svg",
+   "page": "https://commons.wikimedia.org/wiki/File:Arms_of_Nassau.svg",
+   "credit": "Sodacan",
+   "license": "CC BY-SA 3.0"
+  },
+  "armoiries-empereur-charles-iv": {
+   "file": "Armoiries empereur Charles IV.svg",
+   "page": "https://commons.wikimedia.org/wiki/File:Armoiries_empereur_Charles_IV.svg",
+   "credit": "Wikimedia Commons contributors (see file page)",
+   "license": "CC BY-SA 3.0"
+  },
+  "coat-of-arms-of-the-house-of-wittelsbach-bavaria": {
+   "file": "Coat of arms of the House of Wittelsbach (Bavaria).svg",
+   "page": "https://commons.wikimedia.org/wiki/File:Coat_of_arms_of_the_House_of_Wittelsbach_(Bavaria).svg",
+   "credit": "Wikimedia Commons contributors (see file page)",
+   "license": "CC BY-SA 4.0"
+  },
+  "arms-of-lorraine": {
+   "file": "Arms of Lorraine.svg",
+   "page": "https://commons.wikimedia.org/wiki/File:Arms_of_Lorraine.svg",
+   "credit": "MostEpic",
+   "license": "CC BY-SA 4.0"
+  },
+  "habsburg-lorraine-tripartite-arms": {
+   "file": "Habsburg-Lorraine Tripartite Arms.svg",
+   "page": "https://commons.wikimedia.org/wiki/File:Habsburg-Lorraine_Tripartite_Arms.svg",
+   "credit": "JMvanDijk",
+   "license": "CC BY-SA 4.0"
+  }
+ }
+};
+const armsFor = (k, yr) => {
+  const vs = (ARMS?.houses[k]?.versions ?? []).filter(v => v.from);
+  return vs.find(v => +v.from <= yr && yr <= +(v.to || 9999)) ?? vs[0] ?? ARMS?.houses[k]?.versions?.[0];
+};
 const SHEETS = new Map(), CUTS = new Map();
 const loadSheet = url => {
   if (!SHEETS.has(url)) SHEETS.set(url, new Promise((ok, no) => { const i = new Image(); i.onload = () => ok(i); i.onerror = no; i.src = url; }));
@@ -940,7 +1750,13 @@ function card(g, i) {
     <div class="prev"><b>Previously</b>${esc(g.previously)}</div>
     <figure class="portrait">${art}</figure>
     <div class="title">
-      <div class="house caps">${hs.map(h => `<span class="swatch" style="background:${h.color}"></span>`).join("")}${houseLabel(g)} · ${span(g)}</div>
+      ${(() => {
+        const line = `${hs.map(h => `<span class="swatch" style="background:${h.color}"></span>`).join("")}${houseLabel(g)} · ${span(g)}`;
+        const k = hs.map(h => `${country}/${h.id}`).find(k => ARMS?.houses[k]);
+        if (!k) return `<div class="house caps">${line}</div>`;
+        const v = armsFor(k, year(g.start));
+        return `<div class="house caps"><button class="house-link" data-house="${k}" aria-label="${houseLabel(g)}: coat of arms and rulers">${v ? `<img class="arms-mini" src="arms/${v.img}.webp" alt="">` : ""}<span>${line}</span><span class="go" aria-hidden="true">›</span></button></div>`;
+      })()}
       <h1>${esc(reignName(g))}</h1>
       ${solo?.epithet ? `<div class="epithet">${esc(solo.epithet)}</div>` : ""}
       <p class="tagline">${esc(g.tagline)}</p>
@@ -1110,7 +1926,7 @@ document.addEventListener("keydown", e => {
 addEventListener("resize", () => { measure(); if (view === "timeline") drawTimeline(); });
 
 /* ---------------- views + tab bar ---------------- */
-const views = Object.fromEntries(["timeline", "search", "play", "stats"].map(v => [v, document.getElementById(`view-${v}`)]));
+const views = Object.fromEntries(["timeline", "search", "play", "stats", "house"].map(v => [v, document.getElementById(`view-${v}`)]));
 const tabs = [...document.querySelectorAll(".tabs button")];
 let view = "read";
 const viewAnims = {};
@@ -1146,6 +1962,7 @@ function show(name, fromHistory = false) {
   if (name === "search") { renderCountries(); renderResults(); }
   if (name === "play") renderPlay();
   if (name === "stats") renderStats();
+  if (name === "house") renderHouse();
   if (views[name]) reveal(views[name], true);
   if (views[prev]) reveal(views[prev], false);
   deck.inert = name !== "read";
@@ -1545,6 +2362,49 @@ const thumb = (cid, e) => e.g.images?.length
   : `<span class="mini-banner" aria-hidden="true" style="background:${WORLD[cid].houses[WORLD[cid].rulers[e.g.rulers[0]]?.house ?? e.g.house]?.color ?? "var(--muted)"}">${esc(e.name[0])}</span>`;
 const chip = (cid, e, text, small) =>
   `<button class="chip" data-x="${cid}.${e.g.id}"><span class="chip-flag" role="img" aria-label="${esc(cname(cid))}">${FLAGS[cid] ?? ""}</span><span>${esc(text)}${small ? ` <small>${esc(small)}</small>` : ""}</span></button>`;
+
+/* ---------------- heraldry: one page per house ---------------- */
+let houseKey = null, houseSel = 0;
+function openHouse(k, yr) {
+  houseKey = k;
+  const vs = ARMS?.houses[k]?.versions ?? [];
+  const v = armsFor(k, yr ?? -9999);
+  houseSel = Math.max(0, vs.indexOf(v));
+  if (view === "house") renderHouse(); else show("house");
+  document.querySelector("#view-house .view-body").scrollTop = 0;
+}
+const yrs = v => !v.from && !v.to ? (/rose|badge/i.test(v.title) ? "Badge" : "Family arms") : v.from === v.to ? v.from : `${v.from || ""}–${v.to || ""}`;
+function renderHouse() {
+  const [cid, hid] = houseKey.split("/"), W = WORLD[cid], h = W.houses[hid], A = ARMS.houses[houseKey] ?? {};
+  const name = houseName(h);
+  document.getElementById("houseTitle").textContent = name;
+  const vs = A.versions ?? [], v = vs[houseSel];
+  const f = v && ARMS.files[v.img];
+  const hero = v
+    ? `<div class="arms-hero"><img src="arms/${v.img}.webp" alt="${esc(v.title)}"><span class="yrs">${esc(yrs(v))}</span><h3>${esc(v.title)}</h3><p>${esc(v.note)}</p>
+        <span class="credit">Drawing: ${esc(f.credit)}, ${esc(f.license)}. <a href="${esc(f.page)}" target="_blank" rel="noopener">Wikimedia Commons<span class="sr-only"> (opens in a new tab)</span></a></span></div>`
+    : `<div class="arms-hero"><div class="arms-none" aria-hidden="true">no arms</div><p>${esc(A.none ?? "No coat of arms recorded for this house yet.")}</p></div>`;
+  const strip = vs.length > 1 ? `<h2 class="section-label caps">How the arms changed</h2><div class="arms-strip" role="group" aria-label="Versions of the arms">${vs.map((x, i) =>
+    `<button data-arms="${i}" aria-pressed="${i === houseSel}"><img src="arms/${x.img}.webp" alt=""><span>${esc(x.title)}</span><small>${esc(yrs(x))}</small></button>`).join("")}</div>` : "";
+  const noneNote = vs.length && A.none ? `<p class="house-where">${esc(A.none)}</p>` : "";
+  const members = W.list.filter(e => (e.g.rulers.length ? e.g.rulers.map(r => W.rulers[r]?.house) : [e.g.house]).includes(hid));
+  // The same house on other thrones (Capet in France and England, Lancaster in England and France).
+  const also = Object.keys(ARMS.houses).filter(k => k !== houseKey && k.split("/")[1] === hid);
+  document.getElementById("houseBody").innerHTML = `
+    <p class="house-where">${members.length} ${members.length === 1 ? "ruler" : "rulers"} of ${esc(cname(cid))}${members.length ? `, ${showYear(year(members[0].g.start), W.data.era)} to ${members.at(-1).g.end ? showYear(year(members.at(-1).g.end), W.data.era) : "today"}` : ""}</p>
+    ${hero}${noneNote}${strip}
+    ${also.length ? `<div class="house-also">Also on the throne of ${also.map(k => `<button class="chip" data-house="${k}"><span class="chip-flag" aria-hidden="true">${FLAGS[k.split("/")[0]] ?? ""}</span><span>${esc(cname(k.split("/")[0]))}</span></button>`).join("")}</div>` : ""}
+    <h2 class="section-label caps">Rulers</h2>
+    <ul class="results">${members.map(e => `<li><button data-x="${cid}.${e.g.id}">${thumb(cid, e)}<span class="meta"><strong>${esc(e.name)}</strong><span>${span(e.g, W.data.era)}</span></span></button></li>`).join("")}</ul>`;
+}
+document.getElementById("houseBody").addEventListener("click", e => {
+  const a = e.target.closest("[data-arms]");
+  if (a) { houseSel = +a.dataset.arms; const sl = a.parentElement.scrollLeft; renderHouse(); document.querySelector(".arms-strip").scrollLeft = sl; document.querySelector(".arms-hero").scrollIntoView({ block: "nearest", behavior: "smooth" }); return; }
+  const hk = e.target.closest("[data-house]"); if (hk) return openHouse(hk.dataset.house);
+  const x = e.target.closest("[data-x]"); if (x) openX(x.dataset.x);
+});
+document.getElementById("houseBack").addEventListener("click", () => history.state?.view === "house" ? history.back() : show("read"));
+deck.addEventListener("click", e => { const b = e.target.closest("[data-house]"); if (b) openHouse(b.dataset.house, year(reigns[index].start)); });
 
 /** Open any card in any country (chips, timeline, stats, game). */
 function openX(x) {
