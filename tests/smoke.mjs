@@ -143,6 +143,21 @@ const tab = async (p, t) => { await p.click(`[data-tab="${t}"]`); await p.waitFo
   await p.close();
 }
 
+// 10. Heraldry: a card's house line opens the house page; a ruler there opens the card; Back returns.
+{
+  const p = await page();
+  await p.goto(URL0 + "#england.henry-viii"); await p.waitForTimeout(1500);
+  await p.click(".card:not([inert]) .house-link"); await p.waitForTimeout(500);
+  check(await p.evaluate(() => view === "house" && document.getElementById("houseTitle").textContent === "House of Tudor" && document.querySelectorAll("#houseBody .results li").length === 5), "Tudor house page lists its five rulers");
+  check(await p.evaluate(() => Object.keys(ARMS.houses).every(k => WORLD[k.split("/")[0]]?.houses[k.split("/")[1]])), "every heraldry entry matches a house in the data");
+  await p.click('#houseBody [data-x="england.elizabeth-i"]'); await p.waitForTimeout(500);
+  check(await p.evaluate(() => view === "read" && reigns[index].id === "elizabeth-i"), "a ruler on the house page opens their card");
+  await p.goBack(); await p.waitForTimeout(400);
+  check(await p.evaluate(() => view === "house"), "Back returns to the house page");
+  check(!p.errors.length, `no errors in heraldry ${p.errors.slice(0, 3).join(" | ")}`);
+  await p.close();
+}
+
 // 9. iPhone engine (WebKit, if installed): swiping through 15 cards keeps every card the width of the screen.
 //    Chromium never showed the "every third card goes super wide" bug; WebKit did.
 {

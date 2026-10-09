@@ -348,6 +348,29 @@ details li a { display: inline-block; padding-block: 10px; }
 .cmp-tools { position: sticky; top: -8px; background: var(--table); display: flex; justify-content: space-between; align-items: center; padding: 4px 0; z-index: 1; }
 .cmp-tools .cmp-done { font-weight: 600; text-decoration: none; border: 1px solid var(--ink); border-radius: 999px; padding: 0 16px; }
 .cmp-row .cmp-add { font-weight: 600; }
+/* heraldry: a house page with its arms through time */
+.house-link { background: none; border: 0; padding: 4px 0; margin: 0; font: inherit; color: inherit; letter-spacing: inherit; text-transform: inherit; cursor: pointer; display: inline-flex; align-items: center; gap: 6px; min-height: 32px; text-align: left; }
+.house-link .arms-mini { width: 18px; height: 20px; object-fit: contain; flex: none; }
+.house-link .go { color: var(--accent); font-weight: 600; }
+.house-back { width: 44px; height: 44px; margin-left: -10px; border: 0; background: none; color: var(--ink); display: grid; place-items: center; cursor: pointer; flex: none; }
+#view-house .view-head h2 { margin-right: auto; }
+.house-body { display: grid; gap: var(--s2); max-width: 560px; width: 100%; margin: 0 auto; padding-top: var(--s0); touch-action: pan-y; }
+.house-where { color: var(--muted); font-size: var(--t-sm); margin: -8px 0 0; }
+.arms-hero { background: var(--card); border: 1px solid var(--edge); border-radius: var(--r); box-shadow: var(--card-shadow); padding: var(--s2); display: grid; gap: var(--s1); justify-items: center; text-align: center; }
+.arms-hero img { width: min(200px, 55vw); height: min(220px, 60vw); object-fit: contain; }
+.arms-hero .yrs { font-size: var(--t-xs); color: var(--muted); letter-spacing: .08em; text-transform: uppercase; font-weight: 600; }
+.arms-hero h3 { margin: 0; font-family: var(--name); font-weight: 400; font-size: 1.6rem; line-height: 1.15; }
+.arms-hero p { margin: 0; color: var(--ink); max-width: 44ch; }
+.arms-hero .credit { font-size: var(--t-xs); color: var(--muted); }
+.arms-none { width: 120px; height: 140px; border: 2px dashed var(--edge); border-radius: 8px 8px 60px 60px; display: grid; place-items: center; color: var(--muted); font-size: var(--t-xs); }
+.arms-strip { display: flex; gap: var(--s0); overflow-x: auto; scrollbar-width: none; padding: 4px 2px 8px; touch-action: pan-x; overscroll-behavior-x: contain; }
+.arms-strip button { flex: none; width: 104px; display: grid; gap: 4px; justify-items: center; padding: 8px 6px; border-radius: var(--r-sm); border: 1px solid var(--edge); background: var(--card); color: var(--ink); cursor: pointer; font: inherit; }
+.arms-strip button[aria-pressed="true"] { border-color: var(--ink); box-shadow: 0 0 0 1px var(--ink); }
+.arms-strip img { width: 56px; height: 64px; object-fit: contain; }
+.arms-strip span { font-size: var(--t-xs); line-height: 1.25; }
+.arms-strip small { color: var(--muted); font-size: 11px; }
+.house-also { display: flex; flex-wrap: wrap; gap: 6px; align-items: center; font-size: var(--t-sm); color: var(--muted); }
+.house-also button { min-height: 36px; }
 .countries button {
   width: 100%; display: grid; grid-template-columns: 36px 1fr; gap: var(--s0) var(--s1); align-items: center;
   background: var(--card); border: 1px solid var(--edge); border-radius: var(--r); padding: var(--s1);
@@ -612,6 +635,11 @@ button.q-meta .q-who { text-decoration: underline; text-decoration-color: var(--
 </section>
 <div class="tip" id="tip" role="tooltip"></div>
 
+<section class="view" id="view-house" aria-labelledby="houseTitle">
+  <div class="view-head"><button class="icon-btn house-back" id="houseBack" aria-label="Back"><svg viewBox="0 0 24 24" width="22" height="22" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M15 6l-6 6 6 6"/></svg></button><h2 id="houseTitle"></h2></div>
+  <div class="view-body"><div class="house-body" id="houseBody"></div></div>
+</section>
+
 <section class="view" id="view-search" aria-label="Find a country or ruler">
   <div class="view-body search-body">
     <div class="find-head"><h2>Find</h2><button class="linkish" id="aboutBtn">About</button></div>
@@ -814,8 +842,12 @@ const reignHouses = g => {
   return [...new Set(ids)].map(id => houses[id]).filter(Boolean);
 };
 // Republics and regimes aren't houses: label them by name only.
+// "Ottonian", "Abbasid" are adjectives: "the Ottonian dynasty", not "House of Ottonian".
+const houseName = h => h.plain || /^(house|the)\b|dynasty|republic|empire|kingdom|caliphate|regency|council|junta|period|rule\b/i.test(h.name) ? h.name
+  : /(ian|id|ic)$/i.test(h.name) ? `${h.name} dynasty` : `House of ${h.name}`;
 const houseLabel = g => {
   const hs = reignHouses(g);
+  if (hs.length === 1 && g.kind !== "interregnum") return esc(houseName(hs[0]));
   const names = hs.map(h => esc(h.name)).join(" & ");
   const plain = g.kind === "interregnum" || hs.every(h => h.plain || /^(house|the)\b|dynasty|republic|empire|kingdom|caliphate|regency|council|junta|period|rule\b/i.test(h.name));
   return plain ? names : `House of ${names}`;
@@ -825,6 +857,12 @@ const img = g => `${country}/${g.id}`;
    PICS[cid][reignId] = [sheet, y, w, h]; an <img data-pic="cid/reignId"> is filled with its
    cut-out once it nears the screen, and each sheet and cut-out is fetched only once. */
 const PICS = /*PICS*/null;
+// Heraldry: ARMS.houses["england/tudor"] = { versions: [{ img, from, to, title, note }], none? }, ARMS.files[img] = credit.
+const ARMS = /*ARMS*/null;
+const armsFor = (k, yr) => {
+  const vs = (ARMS?.houses[k]?.versions ?? []).filter(v => v.from);
+  return vs.find(v => +v.from <= yr && yr <= +(v.to || 9999)) ?? vs[0] ?? ARMS?.houses[k]?.versions?.[0];
+};
 const SHEETS = new Map(), CUTS = new Map();
 const loadSheet = url => {
   if (!SHEETS.has(url)) SHEETS.set(url, new Promise((ok, no) => { const i = new Image(); i.onload = () => ok(i); i.onerror = no; i.src = url; }));
@@ -911,7 +949,13 @@ function card(g, i) {
     <div class="prev"><b>Previously</b>${esc(g.previously)}</div>
     <figure class="portrait">${art}</figure>
     <div class="title">
-      <div class="house caps">${hs.map(h => `<span class="swatch" style="background:${h.color}"></span>`).join("")}${houseLabel(g)} · ${span(g)}</div>
+      ${(() => {
+        const line = `${hs.map(h => `<span class="swatch" style="background:${h.color}"></span>`).join("")}${houseLabel(g)} · ${span(g)}`;
+        const k = hs.map(h => `${country}/${h.id}`).find(k => ARMS?.houses[k]);
+        if (!k) return `<div class="house caps">${line}</div>`;
+        const v = armsFor(k, year(g.start));
+        return `<div class="house caps"><button class="house-link" data-house="${k}" aria-label="${houseLabel(g)}: coat of arms and rulers">${v ? `<img class="arms-mini" src="arms/${v.img}.webp" alt="">` : ""}<span>${line}</span><span class="go" aria-hidden="true">›</span></button></div>`;
+      })()}
       <h1>${esc(reignName(g))}</h1>
       ${solo?.epithet ? `<div class="epithet">${esc(solo.epithet)}</div>` : ""}
       <p class="tagline">${esc(g.tagline)}</p>
@@ -1081,7 +1125,7 @@ document.addEventListener("keydown", e => {
 addEventListener("resize", () => { measure(); if (view === "timeline") drawTimeline(); });
 
 /* ---------------- views + tab bar ---------------- */
-const views = Object.fromEntries(["timeline", "search", "play", "stats"].map(v => [v, document.getElementById(`view-${v}`)]));
+const views = Object.fromEntries(["timeline", "search", "play", "stats", "house"].map(v => [v, document.getElementById(`view-${v}`)]));
 const tabs = [...document.querySelectorAll(".tabs button")];
 let view = "read";
 const viewAnims = {};
@@ -1117,6 +1161,7 @@ function show(name, fromHistory = false) {
   if (name === "search") { renderCountries(); renderResults(); }
   if (name === "play") renderPlay();
   if (name === "stats") renderStats();
+  if (name === "house") renderHouse();
   if (views[name]) reveal(views[name], true);
   if (views[prev]) reveal(views[prev], false);
   deck.inert = name !== "read";
@@ -1516,6 +1561,49 @@ const thumb = (cid, e) => e.g.images?.length
   : `<span class="mini-banner" aria-hidden="true" style="background:${WORLD[cid].houses[WORLD[cid].rulers[e.g.rulers[0]]?.house ?? e.g.house]?.color ?? "var(--muted)"}">${esc(e.name[0])}</span>`;
 const chip = (cid, e, text, small) =>
   `<button class="chip" data-x="${cid}.${e.g.id}"><span class="chip-flag" role="img" aria-label="${esc(cname(cid))}">${FLAGS[cid] ?? ""}</span><span>${esc(text)}${small ? ` <small>${esc(small)}</small>` : ""}</span></button>`;
+
+/* ---------------- heraldry: one page per house ---------------- */
+let houseKey = null, houseSel = 0;
+function openHouse(k, yr) {
+  houseKey = k;
+  const vs = ARMS?.houses[k]?.versions ?? [];
+  const v = armsFor(k, yr ?? -9999);
+  houseSel = Math.max(0, vs.indexOf(v));
+  if (view === "house") renderHouse(); else show("house");
+  document.querySelector("#view-house .view-body").scrollTop = 0;
+}
+const yrs = v => !v.from && !v.to ? (/rose|badge/i.test(v.title) ? "Badge" : "Family arms") : v.from === v.to ? v.from : `${v.from || ""}–${v.to || ""}`;
+function renderHouse() {
+  const [cid, hid] = houseKey.split("/"), W = WORLD[cid], h = W.houses[hid], A = ARMS.houses[houseKey] ?? {};
+  const name = houseName(h);
+  document.getElementById("houseTitle").textContent = name;
+  const vs = A.versions ?? [], v = vs[houseSel];
+  const f = v && ARMS.files[v.img];
+  const hero = v
+    ? `<div class="arms-hero"><img src="arms/${v.img}.webp" alt="${esc(v.title)}"><span class="yrs">${esc(yrs(v))}</span><h3>${esc(v.title)}</h3><p>${esc(v.note)}</p>
+        <span class="credit">Drawing: ${esc(f.credit)}, ${esc(f.license)}. <a href="${esc(f.page)}" target="_blank" rel="noopener">Wikimedia Commons<span class="sr-only"> (opens in a new tab)</span></a></span></div>`
+    : `<div class="arms-hero"><div class="arms-none" aria-hidden="true">no arms</div><p>${esc(A.none ?? "No coat of arms recorded for this house yet.")}</p></div>`;
+  const strip = vs.length > 1 ? `<h2 class="section-label caps">How the arms changed</h2><div class="arms-strip" role="group" aria-label="Versions of the arms">${vs.map((x, i) =>
+    `<button data-arms="${i}" aria-pressed="${i === houseSel}"><img src="arms/${x.img}.webp" alt=""><span>${esc(x.title)}</span><small>${esc(yrs(x))}</small></button>`).join("")}</div>` : "";
+  const noneNote = vs.length && A.none ? `<p class="house-where">${esc(A.none)}</p>` : "";
+  const members = W.list.filter(e => (e.g.rulers.length ? e.g.rulers.map(r => W.rulers[r]?.house) : [e.g.house]).includes(hid));
+  // The same house on other thrones (Capet in France and England, Lancaster in England and France).
+  const also = Object.keys(ARMS.houses).filter(k => k !== houseKey && k.split("/")[1] === hid);
+  document.getElementById("houseBody").innerHTML = `
+    <p class="house-where">${members.length} ${members.length === 1 ? "ruler" : "rulers"} of ${esc(cname(cid))}${members.length ? `, ${showYear(year(members[0].g.start), W.data.era)} to ${members.at(-1).g.end ? showYear(year(members.at(-1).g.end), W.data.era) : "today"}` : ""}</p>
+    ${hero}${noneNote}${strip}
+    ${also.length ? `<div class="house-also">Also on the throne of ${also.map(k => `<button class="chip" data-house="${k}"><span class="chip-flag" aria-hidden="true">${FLAGS[k.split("/")[0]] ?? ""}</span><span>${esc(cname(k.split("/")[0]))}</span></button>`).join("")}</div>` : ""}
+    <h2 class="section-label caps">Rulers</h2>
+    <ul class="results">${members.map(e => `<li><button data-x="${cid}.${e.g.id}">${thumb(cid, e)}<span class="meta"><strong>${esc(e.name)}</strong><span>${span(e.g, W.data.era)}</span></span></button></li>`).join("")}</ul>`;
+}
+document.getElementById("houseBody").addEventListener("click", e => {
+  const a = e.target.closest("[data-arms]");
+  if (a) { houseSel = +a.dataset.arms; const sl = a.parentElement.scrollLeft; renderHouse(); document.querySelector(".arms-strip").scrollLeft = sl; document.querySelector(".arms-hero").scrollIntoView({ block: "nearest", behavior: "smooth" }); return; }
+  const hk = e.target.closest("[data-house]"); if (hk) return openHouse(hk.dataset.house);
+  const x = e.target.closest("[data-x]"); if (x) openX(x.dataset.x);
+});
+document.getElementById("houseBack").addEventListener("click", () => history.state?.view === "house" ? history.back() : show("read"));
+deck.addEventListener("click", e => { const b = e.target.closest("[data-house]"); if (b) openHouse(b.dataset.house, year(reigns[index].start)); });
 
 /** Open any card in any country (chips, timeline, stats, game). */
 function openX(x) {

@@ -24,6 +24,7 @@ body = tpl.replace('/*DATA*/null', json.dumps(decks, ensure_ascii=False, separat
 import datetime
 body = body.replace('Version dev', 'Version ' + datetime.datetime.now(datetime.timezone.utc).strftime('%Y-%m-%d %H:%M UTC'))
 body = body.replace('/*PICS*/null', open(f'{a.sheets}/manifest.json').read())
+body = body.replace('/*ARMS*/null', open(f'{root}/heraldry/arms.json').read())
 title = 'Crown & Succession'
 desc = f'Every ruler of {len(real)} countries and empires, from the pharaohs to today, told as one swipeable story. {n_cards:,} illustrated cards, a side-by-side timeline and a record-or-rumour quiz.'
 head = f'''<!doctype html>
@@ -66,7 +67,8 @@ manifest = {"name": title, "short_name": "Crowns", "description": desc, "start_u
                       {"src": "favicon.svg", "sizes": "any", "type": "image/svg+xml"}]}
 json.dump(manifest, open(f'{a.out}/manifest.webmanifest', 'w'), indent=1)
 for f in glob.glob(f'{root}/site-assets/*'):
-    shutil.copy(f, a.out)
+    if os.path.isdir(f): shutil.copytree(f, f'{a.out}/{os.path.basename(f)}', dirs_exist_ok=True)
+    else: shutil.copy(f, a.out)
 if os.path.abspath(f'{a.sheets}') != os.path.abspath(f'{a.out}/sheets'):
     shutil.copytree(a.sheets, f'{a.out}/sheets', dirs_exist_ok=True)
 open(f'{a.out}/.nojekyll', 'w').close()
