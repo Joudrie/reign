@@ -604,7 +604,7 @@ button.q-meta .q-who { text-decoration: underline; text-decoration-color: var(--
       <li><b>⫴</b><span><strong>Compare</strong> lines up any countries side by side, so you can see who ruled at the same time.</span></li>
       <li><b>?</b><span><strong>Quiz</strong>: is a story on the record, or only rumour and dispute? Guess, then read the card.</span></li>
     </ul>
-    <p class="note">Written from the sources listed on each card, with portraits from Wikimedia Commons. The cards are new and not yet independently checked: if you spot a mistake, share the card with us.</p>
+    <p class="note">Written from the sources listed on each card, with portraits from Wikimedia Commons. The cards are new and not yet independently checked: if you spot a mistake, share the card with us. <span class="build">Version 2026-10-09 00:13 UTC</span></p>
     <button class="btn" id="introGo">Start reading</button>
   </div>
 </div>
@@ -1016,6 +1016,7 @@ function fillCard(k) {
   t.innerHTML = card(reigns[k], k);
   const el = t.content.firstElementChild;
   el.style.cssText = old.style.cssText;
+  if (cardW) el.style.width = cardW + "px";
   el.inert = old.inert;
   rail.replaceChild(el, old);
   cards[k] = el;
@@ -1938,6 +1939,11 @@ document.addEventListener("click", e => {
 /* ---------------- offline: cache the app and its portraits once installed ---------------- */
 if ("serviceWorker" in navigator && location.protocol === "https:" && document.querySelector('link[rel="manifest"]')) {
   addEventListener("load", () => navigator.serviceWorker.register("sw.js").catch(() => {}));
+// A new release took over from an older offline copy: reload once so the reader sees it now, not next time.
+if ("serviceWorker" in navigator && navigator.serviceWorker.controller) {
+  let reloaded = false;
+  navigator.serviceWorker.addEventListener("controllerchange", () => { if (!reloaded) { reloaded = true; location.reload(); } });
+}
 }
 
 /* ---------------- boot ---------------- */
