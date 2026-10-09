@@ -50,7 +50,7 @@ const tab = async (p, t) => { await p.click(`[data-tab="${t}"]`); await p.waitFo
   await p.evaluate(() => go(0, 0, true)); await p.waitForTimeout(300);
   await p.evaluate(() => document.querySelector('.card [data-share="0"]').click()); await p.waitForTimeout(400);
   const clip = await p.evaluate(() => navigator.clipboard.readText().catch(() => ""));
-  check(clip.endsWith("#england.william-i") || (await p.evaluate(() => document.getElementById("toast").textContent)) !== "", `share produces a deep link (${clip || "toast"})`);
+  check(clip.endsWith(`#england.${await p.evaluate(() => reigns[0].id)}`) || (await p.evaluate(() => document.getElementById("toast").textContent)) !== "", `share produces a deep link (${clip || "toast"})`);
   check(!p.errors.length, `no errors while reading ${p.errors.slice(0, 3).join(" | ")}`);
   await p.close();
 }

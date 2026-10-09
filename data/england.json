@@ -1,9 +1,24 @@
 {
   "id": "england",
   "name": "England & the UK",
-  "blurb": "From the Norman Conquest to Charles III",
-  "dateConvention": "Reigns before 1272 are counted from coronation, later ones from accession. Dates are given as the sources record them: Julian calendar until 1752, Gregorian after.",
+  "blurb": "From Alfred the Great to Charles III",
+  "dateConvention": "Anglo-Saxon reigns are counted from accession, Norman and Plantagenet reigns to 1272 from coronation, later ones from accession. Dates are given as the sources record them: Julian calendar until 1752, Gregorian after.",
   "houses": [
+    {
+      "id": "wessex",
+      "name": "Wessex",
+      "color": "#7a3e65"
+    },
+    {
+      "id": "knytlinga",
+      "name": "Knýtlinga",
+      "color": "#5b6e3a"
+    },
+    {
+      "id": "godwin",
+      "name": "Godwin",
+      "color": "#a0522d"
+    },
     {
       "id": "normandy",
       "name": "Normandy",
@@ -76,6 +91,269 @@
     }
   ],
   "rulers": [
+    {
+      "id": "alfred",
+      "name": "Alfred",
+      "epithet": "the Great",
+      "house": "wessex",
+      "born": {
+        "date": "0849",
+        "circa": true,
+        "note": "Wantage, Berkshire"
+      },
+      "died": {
+        "date": "0899-10-26",
+        "note": "Winchester"
+      },
+      "causeOfDeath": "Illness"
+    },
+    {
+      "id": "edward-the-elder",
+      "name": "Edward",
+      "epithet": "the Elder",
+      "house": "wessex",
+      "born": {
+        "date": "0874",
+        "circa": true
+      },
+      "died": {
+        "date": "0924-07-17",
+        "note": "Farndon-on-Dee, Cheshire"
+      },
+      "causeOfDeath": "Illness while on campaign"
+    },
+    {
+      "id": "aethelstan",
+      "name": "Æthelstan",
+      "house": "wessex",
+      "born": {
+        "date": "0894",
+        "circa": true
+      },
+      "died": {
+        "date": "0939-10-27",
+        "note": "Gloucester"
+      },
+      "causeOfDeath": "Illness"
+    },
+    {
+      "id": "edmund-i",
+      "name": "Edmund I",
+      "epithet": "the Magnificent",
+      "house": "wessex",
+      "born": {
+        "date": "0921",
+        "circa": true
+      },
+      "died": {
+        "date": "0946-05-26",
+        "note": "Pucklechurch, Gloucestershire"
+      },
+      "causeOfDeath": "Stabbed by an outlaw at a feast"
+    },
+    {
+      "id": "eadred",
+      "name": "Eadred",
+      "house": "wessex",
+      "born": {
+        "date": "0923",
+        "circa": true
+      },
+      "died": {
+        "date": "0955-11-23",
+        "note": "Frome, Somerset"
+      },
+      "causeOfDeath": "Long illness"
+    },
+    {
+      "id": "eadwig",
+      "name": "Eadwig",
+      "epithet": "the All-Fair",
+      "house": "wessex",
+      "born": {
+        "date": "0940",
+        "circa": true
+      },
+      "died": {
+        "date": "0959-10-01",
+        "note": "Gloucester"
+      },
+      "causeOfDeath": "Unknown; died at about 19"
+    },
+    {
+      "id": "edgar",
+      "name": "Edgar",
+      "epithet": "the Peaceful",
+      "house": "wessex",
+      "born": {
+        "date": "0943",
+        "circa": true
+      },
+      "died": {
+        "date": "0975-07-08",
+        "note": "Winchester"
+      },
+      "causeOfDeath": "Illness"
+    },
+    {
+      "id": "edward-the-martyr",
+      "name": "Edward",
+      "epithet": "the Martyr",
+      "house": "wessex",
+      "born": {
+        "date": "0962",
+        "circa": true
+      },
+      "died": {
+        "date": "0978-03-18",
+        "note": "Corfe, Dorset"
+      },
+      "causeOfDeath": "Murdered by his half-brother's household"
+    },
+    {
+      "id": "aethelred-ii",
+      "name": "Æthelred II",
+      "epithet": "the Unready",
+      "house": "wessex",
+      "born": {
+        "date": "0966",
+        "circa": true
+      },
+      "died": {
+        "date": "1016-04-23",
+        "note": "London"
+      },
+      "causeOfDeath": "Illness"
+    },
+    {
+      "id": "sweyn-forkbeard",
+      "name": "Sweyn Forkbeard",
+      "house": "knytlinga",
+      "born": {
+        "date": "0960",
+        "circa": true
+      },
+      "died": {
+        "date": "1014-02-03",
+        "note": "Gainsborough, Lincolnshire"
+      },
+      "causeOfDeath": "Sudden death, cause unknown",
+      "sameAs": [
+        "denmark:sweyn-forkbeard"
+      ]
+    },
+    {
+      "id": "edmund-ironside",
+      "name": "Edmund II",
+      "epithet": "Ironside",
+      "house": "wessex",
+      "born": {
+        "date": "0990",
+        "circa": true
+      },
+      "died": {
+        "date": "1016-11-30",
+        "note": "Probably Oxford or London"
+      },
+      "causeOfDeath": "Unknown, perhaps wounds; later writers say murder"
+    },
+    {
+      "id": "cnut",
+      "name": "Cnut",
+      "epithet": "the Great",
+      "house": "knytlinga",
+      "born": {
+        "date": "0990",
+        "circa": true
+      },
+      "died": {
+        "date": "1035-11-12",
+        "note": "Shaftesbury, Dorset"
+      },
+      "causeOfDeath": "Illness",
+      "sameAs": [
+        "denmark:cnut"
+      ]
+    },
+    {
+      "id": "harold-harefoot",
+      "name": "Harold I",
+      "epithet": "Harefoot",
+      "house": "knytlinga",
+      "born": {
+        "date": "1016",
+        "circa": true
+      },
+      "died": {
+        "date": "1040-03-17",
+        "note": "Oxford"
+      },
+      "causeOfDeath": "Illness"
+    },
+    {
+      "id": "harthacnut",
+      "name": "Harthacnut",
+      "house": "knytlinga",
+      "born": {
+        "date": "1018",
+        "circa": true
+      },
+      "died": {
+        "date": "1042-06-08",
+        "note": "Lambeth, near London"
+      },
+      "causeOfDeath": "Collapsed while drinking at a wedding",
+      "sameAs": [
+        "denmark:harthacnut"
+      ]
+    },
+    {
+      "id": "edward-the-confessor",
+      "name": "Edward",
+      "epithet": "the Confessor",
+      "house": "wessex",
+      "born": {
+        "date": "1003",
+        "circa": true,
+        "note": "Islip, Oxfordshire"
+      },
+      "died": {
+        "date": "1066-01-05",
+        "note": "Westminster"
+      },
+      "causeOfDeath": "Illness, perhaps a series of strokes"
+    },
+    {
+      "id": "harold-ii",
+      "name": "Harold II",
+      "epithet": "Godwinson",
+      "house": "godwin",
+      "born": {
+        "date": "1022",
+        "circa": true
+      },
+      "died": {
+        "date": "1066-10-14",
+        "note": "Battle of Hastings"
+      },
+      "causeOfDeath": "Killed in battle at Hastings"
+    },
+    {
+      "id": "edgar-aetheling",
+      "name": "Edgar Ætheling",
+      "house": "wessex",
+      "born": {
+        "date": "1051",
+        "circa": true,
+        "note": "Hungary"
+      },
+      "died": {
+        "date": "1126",
+        "circa": true,
+        "note": "Probably Scotland or England"
+      },
+      "causeOfDeath": "Old age"
+    },
     {
       "id": "william-i",
       "name": "William I",
@@ -755,6 +1033,1198 @@
   ],
   "reigns": [
     {
+      "id": "alfred",
+      "kind": "monarch",
+      "rulers": [
+        "alfred"
+      ],
+      "tagline": "The king who hid in a swamp and saved Wessex",
+      "start": {
+        "date": "0871-04-23"
+      },
+      "end": {
+        "date": "0899-10-26"
+      },
+      "relationToPredecessor": "Younger brother",
+      "ageAtAccession": "About 22",
+      "cameToPower": "Succeeded his brother Æthelred I",
+      "reignEnded": "Died of illness",
+      "previously": "871: Vikings hold half of England, and Wessex's king has just died.",
+      "paragraphs": [
+        "Alfred was the youngest of five brothers, and nobody expected him to be king. By the time his brother died in 871, a great Viking army had already taken Northumbria and East Anglia. In January 878 the Vikings surprised him at Chippenham over Christmas, and Alfred fled into the Somerset marshes at Athelney with a handful of men.",
+        "That May he came out with an army and beat the Viking leader Guthrum at Edington. Guthrum was baptised with Alfred as his godfather. Alfred then ringed Wessex with fortified towns, called burhs, so that nobody lived more than a day's march from one. He had Latin books translated into English and called himself King of the Anglo-Saxons. He is the only English king called the Great."
+      ],
+      "claims": [
+        {
+          "text": "Hiding in a peasant's hut, Alfred let the woman's cakes burn.",
+          "status": "legend",
+          "note": "First told in a Life of St Neot written about a century after his death."
+        },
+        {
+          "text": "Alfred founded the English navy.",
+          "status": "disputed",
+          "note": "He did build bigger ships in 896, but the 'father of the navy' label comes from the 1800s."
+        },
+        {
+          "text": "Alfred suffered a painful illness most of his life.",
+          "status": "confirmed",
+          "note": "Asser, a Welsh monk who knew him, describes it. Modern guesses include Crohn's disease."
+        }
+      ],
+      "hook": "Alfred's son takes the crown, but a cousin thinks it should be his. Within weeks the cousin has seized a royal estate, carried off a nun and gone looking for the Vikings.",
+      "images": [
+        {
+          "file": "File:Alfred the Great, silver penny; struck 875–880 (obverse).png",
+          "url": "https://upload.wikimedia.org/wikipedia/commons/c/cc/Alfred_the_Great%2C_silver_penny%3B_struck_875%E2%80%93880_%28obverse%29.png?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+          "page": "https://commons.wikimedia.org/wiki/File:Alfred_the_Great,_silver_penny;_struck_875%E2%80%93880_(obverse).png",
+          "credit": "Classical Numismatic Group",
+          "license": "CC BY-SA 2.5",
+          "made": "875–880",
+          "caption": "A silver penny struck in Alfred's lifetime. It's a coin type, not a likeness.",
+          "alt": "Silver coin with the profile of a king in a diadem and the letters ÆLFRED REX"
+        }
+      ],
+      "sources": [
+        {
+          "title": "The Anglo-Saxon Chronicle"
+        },
+        {
+          "title": "Life of King Alfred",
+          "author": "Asser"
+        },
+        {
+          "title": "Alfred the Great",
+          "author": "Simon Keynes and Michael Lapidge (trans.)",
+          "note": "Penguin, 1983"
+        }
+      ],
+      "review": {
+        "status": "draft",
+        "notes": "Drafted from the listed sources; needs a human fact-check."
+      }
+    },
+    {
+      "id": "edward-the-elder",
+      "kind": "monarch",
+      "rulers": [
+        "edward-the-elder"
+      ],
+      "tagline": "Alfred's son, who won back the Danish Midlands",
+      "start": {
+        "date": "0899-10-26"
+      },
+      "end": {
+        "date": "0924-07-17"
+      },
+      "relationToPredecessor": "Son",
+      "ageAtAccession": "About 25",
+      "cameToPower": "Succeeded his father",
+      "reignEnded": "Died on campaign",
+      "previously": "Alfred dies in 899 with the Vikings beaten back but not gone.",
+      "paragraphs": [
+        "Edward's first fight was with his own cousin Æthelwold, who seized the royal estate at Wimborne, fled to the Vikings in Northumbria and led them south. Æthelwold was killed at the battle of the Holme in 902.",
+        "Edward and his sister Æthelflæd, who ruled Mercia as Lady of the Mercians, then pushed into the Danish-held Midlands, building forts as they went. By 918 every Danish army south of the Humber had submitted. When Æthelflæd died that year, Edward took Mercia too. In 920 the kings of the north chose him, says the Chronicle, as father and lord. He died at Farndon in 924 after putting down a revolt in Chester."
+      ],
+      "claims": [
+        {
+          "text": "Edward removed his niece Ælfwynn from power in Mercia and took her to Wessex.",
+          "status": "confirmed",
+          "note": "The Chronicle says she was 'deprived of all authority' in 919. Nothing is heard of her after."
+        },
+        {
+          "text": "Edward fathered at least fourteen children by three wives.",
+          "status": "confirmed",
+          "note": "Many of his daughters married into the royal houses of Europe."
+        }
+      ],
+      "hook": "Edward dies, and sixteen days later so does the son meant to succeed him. That leaves the eldest boy, raised in Mercia, whom Wessex doesn't trust.",
+      "images": [
+        {
+          "file": "File:Edward the Elder - MS Royal 14 B VI.jpg",
+          "url": "https://upload.wikimedia.org/wikipedia/commons/4/4e/Edward_the_Elder_-_MS_Royal_14_B_VI.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+          "page": "https://commons.wikimedia.org/wiki/File:Edward_the_Elder_-_MS_Royal_14_B_VI.jpg",
+          "credit": "Unknown artist",
+          "license": "Public domain",
+          "made": "c. 1300–1340",
+          "caption": "From a genealogical roll of English kings drawn about 300 years after his death.",
+          "alt": "Medieval drawing of a crowned king seated in a circular frame"
+        }
+      ],
+      "sources": [
+        {
+          "title": "The Anglo-Saxon Chronicle"
+        },
+        {
+          "title": "Edward the Elder, 899–924",
+          "author": "N. J. Higham and D. H. Hill (eds)",
+          "note": "Routledge, 2001"
+        }
+      ],
+      "review": {
+        "status": "draft",
+        "notes": "Drafted from the listed sources; needs a human fact-check."
+      }
+    },
+    {
+      "id": "aethelstan",
+      "kind": "monarch",
+      "rulers": [
+        "aethelstan"
+      ],
+      "tagline": "The first king of all England",
+      "start": {
+        "date": "0924-08",
+        "circa": true
+      },
+      "end": {
+        "date": "0939-10-27"
+      },
+      "relationToPredecessor": "Son",
+      "ageAtAccession": "About 30",
+      "cameToPower": "Succeeded his father",
+      "reignEnded": "Died at Gloucester",
+      "previously": "Edward and his heir both die in the summer of 924.",
+      "paragraphs": [
+        "Æthelstan grew up at his aunt Æthelflæd's court in Mercia, and Mercia accepted him at once. Wessex took longer: he was not crowned until September 925. In 927 he took Viking York, and at Eamont the kings of the north submitted to him. For the first time one king ruled all the English.",
+        "In 937 the kings of Scotland and Strathclyde and the Viking king of Dublin invaded together. Æthelstan beat them at Brunanburh, a battle so bloody the Chronicle breaks into a poem about it. He made laws, collected holy relics and called himself king of all Britain on his coins. He never married, and died at Gloucester in 939."
+      ],
+      "claims": [
+        {
+          "text": "His half-brother Ælfweard reigned over Wessex for sixteen days.",
+          "status": "disputed",
+          "note": "Only some king lists count him. He died in August 924, just after their father."
+        },
+        {
+          "text": "Æthelstan had his half-brother Edwin set adrift and drowned.",
+          "status": "legend",
+          "note": "The Chronicle only says Edwin drowned in 933. The plot appears two centuries later."
+        },
+        {
+          "text": "Nobody knows where Brunanburh was.",
+          "status": "confirmed",
+          "note": "Over thirty sites have been proposed. The Wirral is the current favourite."
+        }
+      ],
+      "hook": "Æthelstan dies childless. His 18-year-old half-brother Edmund inherits a kingdom whose northern half the Vikings of Dublin already want back.",
+      "images": [
+        {
+          "file": "File:Athelstan (cropped).jpg",
+          "url": "https://upload.wikimedia.org/wikipedia/commons/6/68/Athelstan_%28cropped%29.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+          "page": "https://commons.wikimedia.org/wiki/File:Athelstan_(cropped).jpg",
+          "credit": "Unknown artist",
+          "license": "Public domain",
+          "made": "c. 930",
+          "caption": "Æthelstan presenting a book to St Cuthbert, painted in his own lifetime: the oldest surviving portrait of an English king.",
+          "alt": "Early medieval painting of a crowned king holding out a book to a haloed saint"
+        }
+      ],
+      "sources": [
+        {
+          "title": "The Anglo-Saxon Chronicle"
+        },
+        {
+          "title": "Æthelstan: The First King of England",
+          "author": "Sarah Foot",
+          "note": "Yale University Press, 2011"
+        },
+        {
+          "title": "Gesta Regum Anglorum",
+          "author": "William of Malmesbury"
+        }
+      ],
+      "review": {
+        "status": "draft",
+        "notes": "Drafted from the listed sources; needs a human fact-check."
+      }
+    },
+    {
+      "id": "edmund-i",
+      "kind": "monarch",
+      "rulers": [
+        "edmund-i"
+      ],
+      "tagline": "The young king stabbed at his own feast",
+      "start": {
+        "date": "0939-10-27"
+      },
+      "end": {
+        "date": "0946-05-26"
+      },
+      "relationToPredecessor": "Half-brother",
+      "ageAtAccession": "18",
+      "cameToPower": "Succeeded his half-brother",
+      "reignEnded": "Stabbed at Pucklechurch",
+      "previously": "Æthelstan dies in 939 with no son.",
+      "paragraphs": [
+        "Within weeks of Edmund's accession the Dublin Viking Olaf Guthfrithson took York and the Midlands. Edmund spent his reign winning them back: the five Danish boroughs in 942, York in 944. In 945 he ravaged Strathclyde and handed it to the king of Scots in return for his alliance.",
+        "On St Augustine's Day 946 Edmund was feasting at Pucklechurch when he spotted Leofa, an outlaw he had banished, among the guests. When the king tried to throw him out, Leofa stabbed him. Edmund was about 25. His sons were small boys."
+      ],
+      "claims": [
+        {
+          "text": "Edmund was killed by the exiled thief Leofa.",
+          "status": "confirmed",
+          "note": "The Chronicle records the stabbing. The details of the brawl come from later writers."
+        },
+        {
+          "text": "Out hunting, Edmund nearly rode off Cheddar Gorge, prayed, and was saved.",
+          "status": "legend",
+          "note": "Told in the first Life of St Dunstan, written about 1000. Edmund had just quarrelled with Dunstan, and made him abbot of Glastonbury after."
+        }
+      ],
+      "hook": "With Edmund's sons too young, the crown goes to his younger brother: brave, devout and so ill he can barely eat.",
+      "images": [
+        {
+          "file": "File:Edmund I - MS Royal 14 B VI.jpg",
+          "url": "https://upload.wikimedia.org/wikipedia/commons/a/a3/Edmund_I_-_MS_Royal_14_B_VI.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+          "page": "https://commons.wikimedia.org/wiki/File:Edmund_I_-_MS_Royal_14_B_VI.jpg",
+          "credit": "Unknown artist",
+          "license": "Public domain",
+          "made": "c. 1300–1340",
+          "caption": "From a genealogical roll of English kings drawn about 300 years after his death.",
+          "alt": "Medieval drawing of a crowned king holding a sword, seated in a circular frame"
+        }
+      ],
+      "sources": [
+        {
+          "title": "The Anglo-Saxon Chronicle"
+        },
+        {
+          "title": "The Anglo-Saxon Age",
+          "author": "Martin Wall"
+        },
+        {
+          "title": "Gesta Regum Anglorum",
+          "author": "William of Malmesbury"
+        }
+      ],
+      "review": {
+        "status": "draft",
+        "notes": "Drafted from the listed sources; needs a human fact-check."
+      }
+    },
+    {
+      "id": "eadred",
+      "kind": "monarch",
+      "rulers": [
+        "eadred"
+      ],
+      "tagline": "The sick king who took York for good",
+      "start": {
+        "date": "0946-05-26"
+      },
+      "end": {
+        "date": "0955-11-23"
+      },
+      "relationToPredecessor": "Brother",
+      "ageAtAccession": "About 23",
+      "cameToPower": "Succeeded his brother",
+      "reignEnded": "Died of illness",
+      "previously": "Edmund is stabbed at a feast in 946; his boys are too young to rule.",
+      "paragraphs": [
+        "York would not stay conquered. The Northumbrians took Erik Bloodaxe, a Norwegian prince, as their king. Eadred answered by burning Ripon minster in 948 and threatening to wreck Northumbria if they kept him. Erik was driven out, came back, and was finally expelled and killed in 954. After that the north stayed English.",
+        "Eadred relied heavily on churchmen, above all Dunstan, the abbot of Glastonbury, who kept part of the royal treasure. He never married. He was ill for much of his reign and died at Frome in 955."
+      ],
+      "claims": [
+        {
+          "text": "Eadred was so ill he could only suck the juice from his food and spit out the rest.",
+          "status": "disputed",
+          "note": "Told in the first Life of St Dunstan, about 45 years later. It may exaggerate, but his illness is well attested."
+        },
+        {
+          "text": "Erik Bloodaxe killed his brothers to rule Norway.",
+          "status": "legend",
+          "note": "Norse sagas written two centuries later. His nickname may come from that."
+        }
+      ],
+      "hook": "Eadred dies unmarried. His nephew Eadwig, about fifteen, is crowned, then vanishes from his own coronation feast.",
+      "images": [
+        {
+          "file": "File:Eadred - MS Royal 14 B VI.jpg",
+          "url": "https://upload.wikimedia.org/wikipedia/commons/7/77/Eadred_-_MS_Royal_14_B_VI.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+          "page": "https://commons.wikimedia.org/wiki/File:Eadred_-_MS_Royal_14_B_VI.jpg",
+          "credit": "Unknown artist",
+          "license": "Public domain",
+          "made": "c. 1300–1340",
+          "caption": "From a genealogical roll of English kings drawn about 300 years after his death.",
+          "alt": "Medieval drawing of a crowned king seated in a circular frame"
+        }
+      ],
+      "sources": [
+        {
+          "title": "The Anglo-Saxon Chronicle"
+        },
+        {
+          "title": "Vita S. Dunstani",
+          "author": "'B.'"
+        },
+        {
+          "title": "Gesta Regum Anglorum",
+          "author": "William of Malmesbury"
+        }
+      ],
+      "review": {
+        "status": "draft",
+        "notes": "Drafted from the listed sources; needs a human fact-check."
+      }
+    },
+    {
+      "id": "eadwig",
+      "kind": "monarch",
+      "rulers": [
+        "eadwig"
+      ],
+      "tagline": "The teenager who walked out of his coronation",
+      "start": {
+        "date": "0955-11-23"
+      },
+      "end": {
+        "date": "0959-10-01"
+      },
+      "relationToPredecessor": "Nephew",
+      "ageAtAccession": "About 15",
+      "cameToPower": "Succeeded his uncle",
+      "reignEnded": "Died at about 19",
+      "previously": "Eadred dies in 955 with no wife and no son.",
+      "paragraphs": [
+        "At his coronation feast in 956 Eadwig slipped away. Dunstan found him with a noblewoman, Ælfgifu, and her mother, the crown tossed on the floor, and dragged him back. Eadwig exiled Dunstan soon after. He gave away royal land on a huge scale: about sixty charters survive from 956 alone.",
+        "In 957 the Mercians and Northumbrians chose his younger brother Edgar as their king, and Eadwig kept only Wessex. His marriage to Ælfgifu was annulled in 958 because they were too closely related. He died in 959, aged about nineteen; nobody recorded how."
+      ],
+      "claims": [
+        {
+          "text": "Eadwig left his coronation feast for a mother and daughter.",
+          "status": "disputed",
+          "note": "Told by Dunstan's biographer, who was on Dunstan's side. Ælfgifu was probably his wife or bride-to-be."
+        },
+        {
+          "text": "Eadwig gave away more land in a year than any other king.",
+          "status": "confirmed",
+          "note": "About sixty charters from 956 survive, far more than for any other single year."
+        }
+      ],
+      "hook": "Eadwig dies, and his brother Edgar, already king north of the Thames, gets the whole country. The first thing he does is call Dunstan home.",
+      "images": [
+        {
+          "file": "File:Eadwig - MS Royal 14 B VI.jpg",
+          "url": "https://upload.wikimedia.org/wikipedia/commons/0/0a/Eadwig_-_MS_Royal_14_B_VI.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+          "page": "https://commons.wikimedia.org/wiki/File:Eadwig_-_MS_Royal_14_B_VI.jpg",
+          "credit": "Unknown artist",
+          "license": "Public domain",
+          "made": "c. 1300–1340",
+          "caption": "From a genealogical roll of English kings drawn about 300 years after his death.",
+          "alt": "Medieval drawing of a crowned king seated in a circular frame"
+        }
+      ],
+      "sources": [
+        {
+          "title": "The Anglo-Saxon Chronicle"
+        },
+        {
+          "title": "Vita S. Dunstani",
+          "author": "'B.'"
+        },
+        {
+          "title": "Charters of Abingdon Abbey",
+          "author": "S. E. Kelly (ed.)"
+        }
+      ],
+      "review": {
+        "status": "draft",
+        "notes": "Drafted from the listed sources; needs a human fact-check."
+      }
+    },
+    {
+      "id": "edgar",
+      "kind": "monarch",
+      "rulers": [
+        "edgar"
+      ],
+      "tagline": "Sixteen years with no war, and a coronation still copied",
+      "start": {
+        "date": "0959-10-01"
+      },
+      "end": {
+        "date": "0975-07-08"
+      },
+      "relationToPredecessor": "Brother",
+      "ageAtAccession": "About 16",
+      "cameToPower": "Succeeded his brother",
+      "reignEnded": "Died at Winchester",
+      "previously": "Eadwig dies at about nineteen in 959.",
+      "paragraphs": [
+        "Edgar's reign was so quiet that he became Edgar the Peaceful. He made Dunstan Archbishop of Canterbury and backed a sweeping reform of the monasteries, replacing married clergy with monks. Around 973 he reformed the coinage so that every few years all old pennies were called in and reminted.",
+        "In 973, aged about thirty, he held a grand coronation at Bath. Its order of service is the basis of every English coronation since, including Charles III's. Afterwards at Chester the kings of Britain came to submit to him."
+      ],
+      "claims": [
+        {
+          "text": "Eight kings rowed Edgar along the River Dee at Chester.",
+          "status": "disputed",
+          "note": "The earliest account says six kings pledged to be his allies. The rowing appears in later chronicles."
+        },
+        {
+          "text": "Edgar was very short.",
+          "status": "legend",
+          "note": "William of Malmesbury tells how the king of Scots mocked his height and Edgar challenged him to a duel."
+        }
+      ],
+      "hook": "Edgar leaves two sons by two wives. The elder, Edward, is a teenager with a famous temper. The younger's mother, Queen Ælfthryth, is very much alive.",
+      "images": [
+        {
+          "file": "File:New Minster Charter 966 detail Edgar.jpg",
+          "url": "https://upload.wikimedia.org/wikipedia/commons/e/e3/New_Minster_Charter_966_detail_Edgar.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+          "page": "https://commons.wikimedia.org/wiki/File:New_Minster_Charter_966_detail_Edgar.jpg",
+          "credit": "Unknown artist",
+          "license": "Public domain",
+          "made": "966",
+          "caption": "Edgar offering the New Minster charter to Christ, painted in his lifetime.",
+          "alt": "Early medieval painting of a crowned king raising a charter towards heaven"
+        }
+      ],
+      "sources": [
+        {
+          "title": "The Anglo-Saxon Chronicle"
+        },
+        {
+          "title": "Edgar, King of the English, 959–975",
+          "author": "Donald Scragg (ed.)",
+          "note": "Boydell, 2008"
+        }
+      ],
+      "review": {
+        "status": "draft",
+        "notes": "Drafted from the listed sources; needs a human fact-check."
+      }
+    },
+    {
+      "id": "edward-the-martyr",
+      "kind": "monarch",
+      "rulers": [
+        "edward-the-martyr"
+      ],
+      "tagline": "The boy king murdered at the gate of Corfe",
+      "start": {
+        "date": "0975-07-08"
+      },
+      "end": {
+        "date": "0978-03-18"
+      },
+      "relationToPredecessor": "Son",
+      "ageAtAccession": "About 13",
+      "cameToPower": "Chosen over his half-brother",
+      "reignEnded": "Murdered at Corfe",
+      "previously": "Edgar dies in 975, and the nobles split over which son should rule.",
+      "paragraphs": [
+        "Edward was the elder son, but his mother may never have been crowned, and a strong party backed his half-brother Æthelred instead. Dunstan crowned Edward. His short reign saw famine, a comet and attacks on the monasteries Edgar had protected.",
+        "On 18 March 978 Edward rode to Corfe to visit his half-brother and stepmother. Their household men surrounded him and stabbed him while he was still in the saddle. He was buried without honours at Wareham. A year later the body was moved to Shaftesbury, and he was soon venerated as a saint."
+      ],
+      "claims": [
+        {
+          "text": "His stepmother Ælfthryth planned the murder.",
+          "status": "legend",
+          "note": "No early source blames her. The accusation appears over a century later."
+        },
+        {
+          "text": "'No worse deed was done among the English since they first came to Britain.'",
+          "status": "confirmed",
+          "note": "The Chronicle's own words for the killing."
+        }
+      ],
+      "hook": "His ten-year-old half-brother is crowned over his grave. He will reign for 38 years and be remembered by one bad pun.",
+      "images": [
+        {
+          "file": "File:Edward the Martyr - MS Royal 14 B VI.jpg",
+          "url": "https://upload.wikimedia.org/wikipedia/commons/e/e3/Edward_the_Martyr_-_MS_Royal_14_B_VI.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+          "page": "https://commons.wikimedia.org/wiki/File:Edward_the_Martyr_-_MS_Royal_14_B_VI.jpg",
+          "credit": "Unknown artist",
+          "license": "Public domain",
+          "made": "c. 1300–1340",
+          "caption": "From a genealogical roll of English kings drawn about 300 years after his death.",
+          "alt": "Medieval drawing of a crowned king holding a sword, seated in a circular frame"
+        }
+      ],
+      "sources": [
+        {
+          "title": "The Anglo-Saxon Chronicle"
+        },
+        {
+          "title": "Passio S. Eadwardi"
+        },
+        {
+          "title": "Æthelred the Unready",
+          "author": "Levi Roach",
+          "note": "Yale University Press, 2016"
+        }
+      ],
+      "review": {
+        "status": "draft",
+        "notes": "Drafted from the listed sources; needs a human fact-check."
+      }
+    },
+    {
+      "id": "aethelred-ii",
+      "kind": "monarch",
+      "rulers": [
+        "aethelred-ii"
+      ],
+      "tagline": "Badly advised, and the Vikings knew it",
+      "start": {
+        "date": "0978-03-18"
+      },
+      "end": {
+        "date": "1013-12",
+        "circa": true
+      },
+      "relationToPredecessor": "Half-brother",
+      "ageAtAccession": "About 12",
+      "cameToPower": "Half-brother murdered",
+      "reignEnded": "Fled to Normandy",
+      "previously": "Edward is murdered at Corfe in 978.",
+      "paragraphs": [
+        "Æthelred came to the throne as a child under a cloud. In the 980s the Vikings returned, and after the English defeat at Maldon in 991 the king began paying them to go away. The Danegeld rose from 10,000 pounds of silver to 48,000 in 1012, and each time the raiders came back.",
+        "On St Brice's Day, 13 November 1002, Æthelred ordered all the Danes in England killed. In 1013 King Sweyn of Denmark invaded in force and the country gave in. Æthelred sent his wife Emma and their sons to her family in Normandy, and followed them at Christmas."
+      ],
+      "claims": [
+        {
+          "text": "'The Unready' means he was unprepared.",
+          "status": "disputed",
+          "note": "It is an Old English pun: Unræd, 'bad counsel', on his name Æthelred, 'noble counsel'."
+        },
+        {
+          "text": "Æthelred ordered a massacre of Danes in 1002.",
+          "status": "confirmed",
+          "note": "His own charter of 1004 describes it. Skeletons found in Oxford in 2008 may be victims."
+        },
+        {
+          "text": "As a child Æthelred was beaten by his mother with candles.",
+          "status": "legend",
+          "note": "Told by William of Malmesbury over a century later."
+        }
+      ],
+      "hook": "Sweyn, King of Denmark, is now king of England too. He has about five weeks to enjoy it.",
+      "images": [
+        {
+          "file": "File:Ethelred the Unready.jpg",
+          "url": "https://upload.wikimedia.org/wikipedia/commons/b/b3/Ethelred_the_Unready.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+          "page": "https://commons.wikimedia.org/wiki/File:Ethelred_the_Unready.jpg",
+          "credit": "Unknown artist",
+          "license": "Public domain",
+          "made": "c. 1220s",
+          "caption": "From a 13th-century chronicle: an imagining made long after his death.",
+          "alt": "Medieval painting of a crowned king seated on a cushion, holding a long sword"
+        }
+      ],
+      "sources": [
+        {
+          "title": "The Anglo-Saxon Chronicle"
+        },
+        {
+          "title": "Æthelred the Unready",
+          "author": "Levi Roach",
+          "note": "Yale University Press, 2016"
+        },
+        {
+          "title": "The Diplomas of King Æthelred 'the Unready'",
+          "author": "Simon Keynes",
+          "note": "Cambridge, 1980"
+        }
+      ],
+      "review": {
+        "status": "draft",
+        "notes": "Drafted from the listed sources; needs a human fact-check."
+      }
+    },
+    {
+      "id": "sweyn-forkbeard",
+      "kind": "monarch",
+      "rulers": [
+        "sweyn-forkbeard"
+      ],
+      "tagline": "King of England for five weeks",
+      "start": {
+        "date": "1013-12",
+        "circa": true
+      },
+      "end": {
+        "date": "1014-02-03"
+      },
+      "relationToPredecessor": "None. He drove out Æthelred",
+      "ageAtAccession": "About 53",
+      "cameToPower": "Conquest",
+      "reignEnded": "Died suddenly",
+      "previously": "Sweyn's army takes England in 1013; Æthelred flees to Normandy.",
+      "paragraphs": [
+        "Sweyn had raided England on and off for twenty years. In the summer of 1013 he sailed up the Trent to Gainsborough, and the north submitted at once. Oxford, Winchester and finally London followed. By Christmas, says the Chronicle, the whole nation regarded him as full king.",
+        "He died at Gainsborough on 3 February 1014, cause unknown. His fleet chose his son Cnut as king, but the English nobles sent to Normandy for Æthelred instead."
+      ],
+      "claims": [
+        {
+          "text": "St Edmund appeared and killed Sweyn with a spear.",
+          "status": "legend",
+          "note": "A story from the abbey of Bury St Edmunds, which Sweyn had threatened to tax."
+        },
+        {
+          "text": "Sweyn invaded to avenge his sister, killed on St Brice's Day.",
+          "status": "legend",
+          "note": "Told by William of Malmesbury over a century later. No earlier source mentions a sister."
+        }
+      ],
+      "hook": "The English send word to Normandy: Æthelred can come home if he promises to rule better than before.",
+      "images": [
+        {
+          "file": "File:Sweyn Forkbeard in the Cambridge University Library.jpg",
+          "url": "https://upload.wikimedia.org/wikipedia/commons/6/63/Sweyn_Forkbeard_in_the_Cambridge_University_Library.jpg",
+          "page": "https://commons.wikimedia.org/wiki/File:Sweyn_Forkbeard_in_the_Cambridge_University_Library.jpg",
+          "credit": "Matthew Paris",
+          "license": "Public domain",
+          "made": "c. 1240s",
+          "caption": "Drawn by Matthew Paris about 230 years after Sweyn's death.",
+          "alt": "Medieval manuscript drawing of King Sweyn Forkbeard"
+        }
+      ],
+      "sources": [
+        {
+          "title": "The Anglo-Saxon Chronicle"
+        },
+        {
+          "title": "Encomium Emmae Reginae"
+        },
+        {
+          "title": "Cnut",
+          "author": "M. K. Lawson",
+          "note": "Longman, 1993"
+        }
+      ],
+      "review": {
+        "status": "draft",
+        "notes": "Drafted from the listed sources; needs a human fact-check."
+      }
+    },
+    {
+      "id": "aethelred-ii-restored",
+      "kind": "monarch",
+      "rulers": [
+        "aethelred-ii"
+      ],
+      "tagline": "Back from exile, on conditions",
+      "start": {
+        "date": "1014-04",
+        "circa": true
+      },
+      "end": {
+        "date": "1016-04-23"
+      },
+      "relationToPredecessor": "Himself, restored",
+      "ageAtAccession": "About 48",
+      "cameToPower": "Recalled by the English nobles",
+      "reignEnded": "Died in London",
+      "previously": "Sweyn dies in February 1014, five weeks after taking England.",
+      "paragraphs": [
+        "The nobles took Æthelred back on terms: he promised to be a gracious lord and to reform what they hated. It is the first recorded bargain between an English king and his people. That spring he drove Cnut out. On his way Cnut put ashore the English hostages his father had taken, with their hands, ears and noses cut off.",
+        "In 1015 Cnut returned with a huge fleet. Æthelred's son Edmund defied his father and raised his own army in the north, while Æthelred's chief adviser, Eadric Streona, went over to Cnut. The old king lay ill in London and died there on 23 April 1016."
+      ],
+      "claims": [
+        {
+          "text": "Cnut mutilated the English hostages at Sandwich.",
+          "status": "confirmed",
+          "note": "The Chronicle records it."
+        },
+        {
+          "text": "Eadric Streona murdered two northern thegns at a feast in 1015.",
+          "status": "confirmed",
+          "note": "The Chronicle says Eadric 'betrayed' Sigeferth and Morcar at Oxford. Edmund then married Sigeferth's widow."
+        }
+      ],
+      "hook": "London chooses Edmund as king. A council at Southampton chooses Cnut. Seven months of war will decide it.",
+      "images": [
+        {
+          "file": "File:Ethelred the Unready.jpg",
+          "url": "https://upload.wikimedia.org/wikipedia/commons/b/b3/Ethelred_the_Unready.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+          "page": "https://commons.wikimedia.org/wiki/File:Ethelred_the_Unready.jpg",
+          "credit": "Unknown artist",
+          "license": "Public domain",
+          "made": "c. 1220s",
+          "caption": "From a 13th-century chronicle: an imagining made long after his death.",
+          "alt": "Medieval painting of a crowned king seated on a cushion, holding a long sword"
+        }
+      ],
+      "sources": [
+        {
+          "title": "The Anglo-Saxon Chronicle"
+        },
+        {
+          "title": "Æthelred the Unready",
+          "author": "Levi Roach",
+          "note": "Yale University Press, 2016"
+        }
+      ],
+      "review": {
+        "status": "draft",
+        "notes": "Drafted from the listed sources; needs a human fact-check."
+      }
+    },
+    {
+      "id": "edmund-ironside",
+      "kind": "monarch",
+      "rulers": [
+        "edmund-ironside"
+      ],
+      "tagline": "Seven months, five battles, one bad ally",
+      "start": {
+        "date": "1016-04-23"
+      },
+      "end": {
+        "date": "1016-11-30"
+      },
+      "relationToPredecessor": "Son",
+      "ageAtAccession": "About 26",
+      "cameToPower": "Chosen by London",
+      "reignEnded": "Died, cause unknown",
+      "previously": "Æthelred dies in London in April 1016, with Cnut's army in England.",
+      "paragraphs": [
+        "Edmund earned his name in a single summer. He fought Cnut five times, relieving London and winning in Wessex. At Assandun in Essex on 18 October 1016 he was beaten when Eadric Streona, back on his side, fled with his men.",
+        "The two kings met on an island in the Severn and split England: Edmund kept Wessex, Cnut took everything north of the Thames. Six weeks later, on 30 November, Edmund died. Nobody at the time recorded how."
+      ],
+      "claims": [
+        {
+          "text": "Edmund was murdered on the privy.",
+          "status": "legend",
+          "note": "First told about a century later by Henry of Huntingdon, with a crossbow. Other versions name Eadric."
+        },
+        {
+          "text": "Eadric Streona's flight lost the battle of Assandun.",
+          "status": "confirmed",
+          "note": "The Chronicle says Eadric 'began the flight' and betrayed his king."
+        }
+      ],
+      "hook": "With Edmund dead, a young Dane rules all England. To make it stick he marries the old king's widow, Emma of Normandy.",
+      "images": [
+        {
+          "file": "File:Edmund Ironside - MS Royal 14 B VI.jpg",
+          "url": "https://upload.wikimedia.org/wikipedia/commons/6/69/Edmund_Ironside_-_MS_Royal_14_B_VI.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+          "page": "https://commons.wikimedia.org/wiki/File:Edmund_Ironside_-_MS_Royal_14_B_VI.jpg",
+          "credit": "Unknown artist",
+          "license": "Public domain",
+          "made": "c. 1300–1340",
+          "caption": "From a genealogical roll of English kings drawn about 300 years after his death.",
+          "alt": "Medieval drawing of a crowned king seated in a circular frame"
+        }
+      ],
+      "sources": [
+        {
+          "title": "The Anglo-Saxon Chronicle"
+        },
+        {
+          "title": "Historia Anglorum",
+          "author": "Henry of Huntingdon"
+        },
+        {
+          "title": "Cnut",
+          "author": "M. K. Lawson",
+          "note": "Longman, 1993"
+        }
+      ],
+      "review": {
+        "status": "draft",
+        "notes": "Drafted from the listed sources; needs a human fact-check."
+      }
+    },
+    {
+      "id": "cnut",
+      "kind": "monarch",
+      "rulers": [
+        "cnut"
+      ],
+      "tagline": "King of a North Sea empire",
+      "start": {
+        "date": "1016-11-30"
+      },
+      "end": {
+        "date": "1035-11-12"
+      },
+      "relationToPredecessor": "None. His rival, Edmund II",
+      "ageAtAccession": "About 26",
+      "cameToPower": "Conquest and a treaty",
+      "reignEnded": "Died at Shaftesbury",
+      "previously": "Edmund Ironside dies in late 1016; Cnut takes the rest of England.",
+      "paragraphs": [
+        "Cnut began brutally. In 1017 he had Eadric Streona and other English nobles killed, married Æthelred's widow Emma, and in 1018 took 82,500 pounds in tax to pay off his fleet. Then he governed carefully, kept English law and set up great earls, among them a thegn named Godwin.",
+        "He became king of Denmark in 1018 and of Norway in 1028, ruling an empire across the North Sea. In 1027 he walked to Rome to see the Emperor crowned, and wrote home that he had won better treatment for English pilgrims. He died at Shaftesbury in 1035 and was buried at Winchester."
+      ],
+      "claims": [
+        {
+          "text": "Cnut ordered the tide to stop.",
+          "status": "legend",
+          "note": "First told by Henry of Huntingdon about a century later. The point of the story was that he knew he couldn't."
+        },
+        {
+          "text": "Cnut had two wives at once.",
+          "status": "confirmed",
+          "note": "Ælfgifu of Northampton, married in the Danish way, and Queen Emma. Each had a son who would be king."
+        }
+      ],
+      "hook": "Cnut leaves two sons by two wives, and both mothers want the throne. The son in Denmark is stuck at war. The one in England is not.",
+      "images": [
+        {
+          "file": "File:Canute and Ælfgifu cropped (Canute).jpg",
+          "url": "https://upload.wikimedia.org/wikipedia/commons/0/00/Canute_and_%C3%86lfgifu_cropped_%28Canute%29.jpg",
+          "page": "https://commons.wikimedia.org/wiki/File:Canute_and_%C3%86lfgifu_cropped_(Canute).jpg",
+          "credit": "Unknown artist, New Minster, Winchester",
+          "license": "Public domain",
+          "made": "1031",
+          "caption": "From the New Minster Liber Vitae, drawn in 1031 while Cnut was alive.",
+          "alt": "Manuscript drawing of King Cnut, cropped from a picture of him and his queen"
+        }
+      ],
+      "sources": [
+        {
+          "title": "The Anglo-Saxon Chronicle"
+        },
+        {
+          "title": "Encomium Emmae Reginae"
+        },
+        {
+          "title": "Cnut",
+          "author": "M. K. Lawson",
+          "note": "Longman, 1993"
+        },
+        {
+          "title": "Historia Anglorum",
+          "author": "Henry of Huntingdon"
+        }
+      ],
+      "review": {
+        "status": "draft",
+        "notes": "Drafted from the listed sources; needs a human fact-check."
+      }
+    },
+    {
+      "id": "harold-harefoot",
+      "kind": "monarch",
+      "rulers": [
+        "harold-harefoot"
+      ],
+      "tagline": "The stand-in king who kept the throne",
+      "start": {
+        "date": "1035-11-12"
+      },
+      "end": {
+        "date": "1040-03-17"
+      },
+      "relationToPredecessor": "Son",
+      "ageAtAccession": "About 19",
+      "cameToPower": "Regent, then king in 1037",
+      "reignEnded": "Died at Oxford",
+      "previously": "Cnut dies in 1035; his heir Harthacnut is fighting in Denmark.",
+      "paragraphs": [
+        "With Harthacnut away, the English council made Harold, Cnut's son by Ælfgifu of Northampton, regent. In 1037 he was accepted as king, and Queen Emma was driven into exile in Flanders.",
+        "In 1036 Emma's son by Æthelred, Alfred, crossed from Normandy. Earl Godwin intercepted him, his companions were killed, and Alfred was blinded so cruelly that he died at Ely. Harold died at Oxford in March 1040, just as Harthacnut was gathering a fleet to invade."
+      ],
+      "claims": [
+        {
+          "text": "Earl Godwin betrayed Alfred to Harold's men.",
+          "status": "disputed",
+          "note": "The Chronicle versions differ. Godwin always swore he was innocent, and later gave Harthacnut a lavish warship to prove it."
+        },
+        {
+          "text": "He was called Harefoot because he ran so fast.",
+          "status": "legend",
+          "note": "The name is first recorded long after his death."
+        }
+      ],
+      "hook": "Harthacnut lands with 62 warships, too late to fight his brother. So he punishes the corpse.",
+      "images": [
+        {
+          "file": "File:Harold Harefoot in the Cambridge University Library.jpg",
+          "url": "https://upload.wikimedia.org/wikipedia/commons/0/0b/Harold_Harefoot_in_the_Cambridge_University_Library.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+          "page": "https://commons.wikimedia.org/wiki/File:Harold_Harefoot_in_the_Cambridge_University_Library.jpg",
+          "credit": "Matthew Paris",
+          "license": "Public domain",
+          "made": "c. 1230s",
+          "caption": "Drawn by the monk Matthew Paris two centuries after his death.",
+          "alt": "Medieval pen drawing of a crowned king holding a sword"
+        }
+      ],
+      "sources": [
+        {
+          "title": "The Anglo-Saxon Chronicle"
+        },
+        {
+          "title": "Encomium Emmae Reginae"
+        },
+        {
+          "title": "Harold I and Harthacnut",
+          "author": "Oxford Dictionary of National Biography"
+        }
+      ],
+      "review": {
+        "status": "draft",
+        "notes": "Drafted from the listed sources; needs a human fact-check."
+      }
+    },
+    {
+      "id": "harthacnut",
+      "kind": "monarch",
+      "rulers": [
+        "harthacnut"
+      ],
+      "tagline": "Two years, a dug-up brother and a fatal toast",
+      "start": {
+        "date": "1040-03-17"
+      },
+      "end": {
+        "date": "1042-06-08"
+      },
+      "relationToPredecessor": "Half-brother",
+      "ageAtAccession": "About 22",
+      "cameToPower": "Invited after Harold's death",
+      "reignEnded": "Collapsed at a wedding feast",
+      "previously": "Harold Harefoot dies in 1040, as his half-brother sails to depose him.",
+      "paragraphs": [
+        "Harthacnut's first act was to have Harold's body dug up, beheaded and thrown into a fen. He then raised a crushing tax to pay his 62 ships. When two of his tax collectors were killed in Worcester in 1041, he had the town burnt.",
+        "He invited his half-brother Edward, Emma's son by Æthelred, home from Normandy to share the kingdom. On 8 June 1042, at a wedding feast at Lambeth, Harthacnut 'died as he stood at his drink', says the Chronicle, in terrible convulsions. He was about 24."
+      ],
+      "claims": [
+        {
+          "text": "Harthacnut was poisoned.",
+          "status": "legend",
+          "note": "No early source says so. A stroke or seizure fits the Chronicle's account."
+        },
+        {
+          "text": "Harold's body was thrown into a fen and later reburied in London.",
+          "status": "disputed",
+          "note": "The Chronicle records the fen. The reburial at St Clement Danes is a later story."
+        }
+      ],
+      "hook": "Twenty-six years after his family fled to Normandy, Æthelred's son Edward is king. He owes his crown to a man he blames for his brother's death.",
+      "images": [
+        {
+          "file": "File:Coin danish and english king Harthacnut, Hardeknut (1018-1042).jpg",
+          "url": "https://upload.wikimedia.org/wikipedia/commons/2/23/Coin_danish_and_english_king_Harthacnut%2C_Hardeknut_%281018-1042%29.jpg",
+          "page": "https://commons.wikimedia.org/wiki/File:Coin_danish_and_english_king_Harthacnut,_Hardeknut_(1018-1042).jpg",
+          "credit": "Hedning",
+          "license": "CC BY-SA 3.0",
+          "made": "1030s–1040s",
+          "caption": "A coin struck in his own lifetime, now at the Lund University Historical Museum.",
+          "alt": "Coin of King Harthacnut, photographed at Lund University Historical Museum"
+        }
+      ],
+      "sources": [
+        {
+          "title": "The Anglo-Saxon Chronicle"
+        },
+        {
+          "title": "Encomium Emmae Reginae"
+        },
+        {
+          "title": "Cnut",
+          "author": "M. K. Lawson",
+          "note": "Longman, 1993"
+        }
+      ],
+      "review": {
+        "status": "draft",
+        "notes": "Drafted from the listed sources; needs a human fact-check."
+      }
+    },
+    {
+      "id": "edward-the-confessor",
+      "kind": "monarch",
+      "rulers": [
+        "edward-the-confessor"
+      ],
+      "tagline": "The saint who left no heir and three claimants",
+      "start": {
+        "date": "1042-06-08"
+      },
+      "end": {
+        "date": "1066-01-05"
+      },
+      "relationToPredecessor": "Half-brother",
+      "ageAtAccession": "About 39",
+      "cameToPower": "Succeeded his half-brother",
+      "reignEnded": "Died at Westminster",
+      "previously": "Harthacnut collapses at a wedding feast in 1042.",
+      "paragraphs": [
+        "Edward had spent 25 years in exile in Normandy and came home surrounded by Normans. The most powerful man in England was Earl Godwin, and in 1045 Edward married Godwin's daughter Edith. In 1051 he drove the whole Godwin family out, but the next year they sailed back with an army and he had to restore them.",
+        "Edward spent his last years building a great abbey at Westminster. It was consecrated on 28 December 1065, but he was too ill to attend. He died on 5 January 1066 and was buried there. Pope Alexander III made him a saint in 1161."
+      ],
+      "claims": [
+        {
+          "text": "Edward was childless because he lived as a celibate.",
+          "status": "legend",
+          "note": "Said by his later biographers to make him a saint. Contemporaries are silent."
+        },
+        {
+          "text": "Edward could cure scrofula by touch.",
+          "status": "legend",
+          "note": "First claimed for him decades after his death. Kings 'touched for the King's Evil' until 1714."
+        }
+      ],
+      "hook": "On his deathbed Edward points at Harold Godwinson. Harold is crowned the same day as the funeral. In Normandy and in Norway, two men disagree.",
+      "images": [
+        {
+          "file": "File:Bayeux Tapestry scene1 EDWARD REX.jpg",
+          "url": "https://upload.wikimedia.org/wikipedia/commons/3/35/Bayeux_Tapestry_scene1_EDWARD_REX.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+          "page": "https://commons.wikimedia.org/wiki/File:Bayeux_Tapestry_scene1_EDWARD_REX.jpg",
+          "credit": "Unknown embroiderers",
+          "license": "Public domain",
+          "made": "1070s",
+          "caption": "The opening scene of the Bayeux Tapestry, made within a decade of his death.",
+          "alt": "Embroidered figure of a bearded king on a throne talking to two men"
+        }
+      ],
+      "sources": [
+        {
+          "title": "The Anglo-Saxon Chronicle"
+        },
+        {
+          "title": "Vita Ædwardi Regis"
+        },
+        {
+          "title": "Edward the Confessor",
+          "author": "Frank Barlow",
+          "note": "Yale University Press, 1970"
+        }
+      ],
+      "review": {
+        "status": "draft",
+        "notes": "Drafted from the listed sources; needs a human fact-check."
+      }
+    },
+    {
+      "id": "harold-ii",
+      "kind": "monarch",
+      "rulers": [
+        "harold-ii"
+      ],
+      "tagline": "Two invasions, two battles, nineteen days apart",
+      "start": {
+        "date": "1066-01-06"
+      },
+      "end": {
+        "date": "1066-10-14"
+      },
+      "relationToPredecessor": "Brother-in-law",
+      "ageAtAccession": "About 44",
+      "cameToPower": "Named by Edward, chosen by council",
+      "reignEnded": "Killed at Hastings",
+      "previously": "Edward the Confessor dies in January 1066 with no son.",
+      "paragraphs": [
+        "Harold was Earl Godwin's son and the richest man in England after the king. In 1064 he was shipwrecked in France and handed over to Duke William, who later claimed Harold swore to support his own bid for the crown.",
+        "In September 1066 the Norwegian king Harald Hardrada landed in Yorkshire with Harold's exiled brother Tostig. Harold marched north and destroyed them at Stamford Bridge on 25 September. Three days later William landed at Pevensey. Harold raced south and met him near Hastings on 14 October. By evening Harold and two of his brothers were dead."
+      ],
+      "claims": [
+        {
+          "text": "Harold swore on holy relics to help William become king.",
+          "status": "disputed",
+          "note": "Only Norman sources say so, and they had every reason to."
+        },
+        {
+          "text": "Harold survived Hastings and lived on as a hermit at Chester.",
+          "status": "legend",
+          "note": "A story from the 1100s. His body was buried, probably at Waltham Abbey."
+        }
+      ],
+      "hook": "A council in London proclaims a fourteen-year-old the next king. William, meanwhile, is burning his way towards the city.",
+      "images": [
+        {
+          "file": "File:Harold2.jpg",
+          "url": "https://upload.wikimedia.org/wikipedia/commons/f/fd/Harold2.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+          "page": "https://commons.wikimedia.org/wiki/File:Harold2.jpg",
+          "credit": "Unknown embroiderers",
+          "license": "Public domain",
+          "made": "1070s",
+          "caption": "Harold riding to the coast with a hawk, from the Bayeux Tapestry.",
+          "alt": "Embroidered horseman holding a hawk on his wrist"
+        }
+      ],
+      "sources": [
+        {
+          "title": "The Anglo-Saxon Chronicle"
+        },
+        {
+          "title": "Gesta Guillelmi",
+          "author": "William of Poitiers"
+        },
+        {
+          "title": "Harold: The Last Anglo-Saxon King",
+          "author": "Ian W. Walker",
+          "note": "Sutton, 1997"
+        }
+      ],
+      "review": {
+        "status": "draft",
+        "notes": "Drafted from the listed sources; needs a human fact-check."
+      }
+    },
+    {
+      "id": "edgar-aetheling",
+      "kind": "claimant",
+      "rulers": [
+        "edgar-aetheling"
+      ],
+      "tagline": "The boy king who was never crowned",
+      "start": {
+        "date": "1066-10-15",
+        "circa": true
+      },
+      "end": {
+        "date": "1066-12",
+        "circa": true
+      },
+      "relationToPredecessor": "None. Great-nephew of Edward",
+      "ageAtAccession": "About 15",
+      "cameToPower": "Proclaimed after Hastings",
+      "reignEnded": "Submitted to William",
+      "previously": "Harold dies at Hastings on 14 October 1066.",
+      "paragraphs": [
+        "Edgar was the last male of the old royal line: the grandson of Edmund Ironside, born in Hungary where his father had grown up in exile. After Hastings the Archbishop of York and the northern earls proclaimed him king in London. Nobody crowned him.",
+        "William circled London, burning as he went, and the lords around Edgar lost their nerve. In early December they rode out to Berkhamsted and submitted. Edgar later rebelled, fled to Scotland, where his sister Margaret married King Malcolm, and even went on the First Crusade. He outlived William's sons and died in about 1126."
+      ],
+      "claims": [
+        {
+          "text": "Edgar went on the First Crusade.",
+          "status": "confirmed",
+          "note": "William of Malmesbury and Orderic Vitalis say he was at the siege of Antioch."
+        },
+        {
+          "text": "The English lords could have kept fighting after Hastings.",
+          "status": "disputed",
+          "note": "Historians still argue whether Edgar's cause was lost or simply abandoned."
+        }
+      ],
+      "hook": "Edgar and the English lords kneel to William at Berkhamsted. On Christmas Day he is crowned at Westminster.",
+      "images": [
+        {
+          "file": "File:Edgar the Ætheling.jpg",
+          "url": "https://upload.wikimedia.org/wikipedia/commons/8/87/Edgar_the_%C3%86theling.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+          "page": "https://commons.wikimedia.org/wiki/File:Edgar_the_%C3%86theling.jpg",
+          "credit": "Unknown artist",
+          "license": "Public domain",
+          "made": "Late 13th century",
+          "caption": "From a royal genealogy drawn about two centuries after his time.",
+          "alt": "Medieval drawing of a young man in a roundel with his name written above"
+        }
+      ],
+      "sources": [
+        {
+          "title": "The Anglo-Saxon Chronicle"
+        },
+        {
+          "title": "The Norman Conquest",
+          "author": "Marc Morris",
+          "note": "Hutchinson, 2012"
+        },
+        {
+          "title": "Gesta Regum Anglorum",
+          "author": "William of Malmesbury"
+        }
+      ],
+      "review": {
+        "status": "draft",
+        "notes": "Drafted from the listed sources; needs a human fact-check."
+      }
+    },
+    {
       "id": "william-i",
       "kind": "monarch",
       "rulers": [
@@ -771,7 +2241,7 @@
       "ageAtAccession": "About 38",
       "cameToPower": "Conquest at Hastings",
       "reignEnded": "Died on campaign in France",
-      "previously": "1066: the old king dies childless, and three men want his crown.",
+      "previously": "Harold falls at Hastings, and London's boy king kneels to William.",
       "paragraphs": [
         "William was the illegitimate son of the Duke of Normandy, and his enemies called him William the Bastard. He became duke at about eight and survived a childhood in which several of his guardians were murdered. He claimed his cousin Edward the Confessor had promised him England. When Harold Godwinson took the crown instead, William built a fleet and crossed the Channel.",
         "On 14 October 1066 the two armies met near Hastings, and by nightfall Harold was dead. William was crowned on Christmas Day, then crushed every revolt that followed, burning much of the north in 1069–70. He covered the country in castles, handed English land to Normans, and ordered the Domesday survey of who owned what. He died in France in 1087."

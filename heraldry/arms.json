@@ -225,10 +225,10 @@
    ]
   },
   "scotland/alpin": {
-   "none": "No arms: Coats of arms only appear in Europe in the 1130s and 1140s. Scotland's lion appears only in the 1220s."
+   "none": "No arms yet. Coats of arms only appear in Europe in the 1130s and 1140s. Scotland's lion appears only in the 1220s."
   },
   "scotland/moray": {
-   "none": "No arms: Coats of arms only appear in Europe in the 1130s and 1140s."
+   "none": "No arms yet. Coats of arms only appear in Europe in the 1130s and 1140s."
   },
   "scotland/dunkeld": {
    "versions": [
@@ -354,7 +354,7 @@
    ]
   },
   "france/republic": {
-   "none": "No arms: the Revolution abolished coats of arms in 1790. The Republic used emblems such as Marianne and the fasces instead."
+   "none": "No arms. The Revolution abolished coats of arms in 1790. The Republic used emblems such as Marianne and the fasces instead."
   },
   "france/bonaparte": {
    "versions": [
@@ -397,13 +397,13 @@
    ]
   },
   "hre/ottonian": {
-   "none": "No arms: emperors of this era used seals, crosses and the Holy Lance. The eagle became a fixed emblem only under the Hohenstaufen."
+   "none": "No arms yet. Emperors of this era used seals, crosses and the Holy Lance. The eagle became a fixed emblem only under the Hohenstaufen."
   },
   "hre/salian": {
-   "none": "No arms: Coats of arms only appear in Europe in the 1130s and 1140s. The Salians sealed with their portraits instead."
+   "none": "No arms yet. Coats of arms only appear in Europe in the 1130s and 1140s. The Salians sealed with their portraits instead."
   },
   "hre/supplinburg": {
-   "none": "No arms: Coats of arms only appear in Europe in the 1130s and 1140s."
+   "none": "No arms yet. Coats of arms only appear in Europe in the 1130s and 1140s."
   },
   "hre/hohenstaufen": {
    "versions": [
@@ -520,6 +520,24 @@
      "note": "Habsburg's lion, Austria's red-white-red and Lorraine's bend: the new joint house of Maria Theresa and Francis."
     }
    ]
+  },
+  "england/wessex": {
+   "none": "No arms yet. Coats of arms only appear in Europe in the 1130s and 1140s. Anglo-Saxon kings used crosses, dragons and their own portraits on coins.",
+   "versions": [
+    {
+     "img": "royal-arms-of-edward-the-confessor",
+     "from": "1042",
+     "to": "1066",
+     "title": "Attributed to Edward the Confessor",
+     "note": "A gold cross and five birds on blue, taken from a design on Edward's coins. Heralds invented these arms about two centuries later; Richard II then put them beside his own."
+    }
+   ]
+  },
+  "england/knytlinga": {
+   "none": "No arms yet. Coats of arms only appear in Europe in the 1130s and 1140s. Cnut's coins show him in a helmet or crown, and his ships carried raven banners."
+  },
+  "england/godwin": {
+   "none": "No arms yet. Coats of arms only appear in Europe in the 1130s and 1140s. The Bayeux Tapestry shows Harold's dragon standard falling at Hastings."
   }
  },
  "files": {
@@ -768,6 +786,12 @@
    "page": "https://commons.wikimedia.org/wiki/File:Habsburg-Lorraine_Tripartite_Arms.svg",
    "credit": "JMvanDijk",
    "license": "CC BY-SA 4.0"
+  },
+  "royal-arms-of-edward-the-confessor": {
+   "file": "Royal Arms of Edward the Confessor.svg",
+   "page": "https://commons.wikimedia.org/wiki/File:Royal_Arms_of_Edward_the_Confessor.svg",
+   "credit": "Sodacan",
+   "license": "CC BY-SA 3.0"
   }
  }
 }

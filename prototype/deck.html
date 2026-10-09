@@ -859,6 +859,8 @@ const img = g => `${country}/${g.id}`;
 const PICS = /*PICS*/null;
 // Heraldry: ARMS.houses["england/tudor"] = { versions: [{ img, from, to, title, note }], none? }, ARMS.files[img] = credit.
 const ARMS = /*ARMS*/null;
+// The version in use in a given year, if any (no fallback: Alfred must not wear the Confessor's arms).
+const armsAt = (k, yr) => (ARMS?.houses[k]?.versions ?? []).find(v => v.from && +v.from <= yr && yr <= +(v.to || 9999));
 const armsFor = (k, yr) => {
   const vs = (ARMS?.houses[k]?.versions ?? []).filter(v => v.from);
   return vs.find(v => +v.from <= yr && yr <= +(v.to || 9999)) ?? vs[0] ?? ARMS?.houses[k]?.versions?.[0];
@@ -953,7 +955,7 @@ function card(g, i) {
         const line = `${hs.map(h => `<span class="swatch" style="background:${h.color}"></span>`).join("")}${houseLabel(g)} · ${span(g)}`;
         const k = hs.map(h => `${country}/${h.id}`).find(k => ARMS?.houses[k]);
         if (!k) return `<div class="house caps">${line}</div>`;
-        const v = armsFor(k, year(g.start));
+        const v = armsAt(k, year(g.start));
         return `<div class="house caps"><button class="house-link" data-house="${k}" aria-label="${houseLabel(g)}: coat of arms and rulers">${v ? `<img class="arms-mini" src="arms/${v.img}.webp" alt="">` : ""}<span>${line}</span><span class="go" aria-hidden="true">›</span></button></div>`;
       })()}
       <h1>${esc(reignName(g))}</h1>
@@ -1567,8 +1569,9 @@ let houseKey = null, houseSel = 0;
 function openHouse(k, yr) {
   houseKey = k;
   const vs = ARMS?.houses[k]?.versions ?? [];
-  const v = armsFor(k, yr ?? -9999);
-  houseSel = Math.max(0, vs.indexOf(v));
+  // Opened from a card: show the arms of that card's years, or "no arms yet" if the house had none then.
+  const v = yr === undefined ? armsFor(k, -9999) : armsAt(k, yr);
+  houseSel = v ? vs.indexOf(v) : ARMS.houses[k]?.none ? -1 : 0;
   if (view === "house") renderHouse(); else show("house");
   document.querySelector("#view-house .view-body").scrollTop = 0;
 }
@@ -1585,7 +1588,7 @@ function renderHouse() {
     : `<div class="arms-hero"><div class="arms-none" aria-hidden="true">no arms</div><p>${esc(A.none ?? "No coat of arms recorded for this house yet.")}</p></div>`;
   const strip = vs.length > 1 ? `<h2 class="section-label caps">How the arms changed</h2><div class="arms-strip" role="group" aria-label="Versions of the arms">${vs.map((x, i) =>
     `<button data-arms="${i}" aria-pressed="${i === houseSel}"><img src="arms/${x.img}.webp" alt=""><span>${esc(x.title)}</span><small>${esc(yrs(x))}</small></button>`).join("")}</div>` : "";
-  const noneNote = vs.length && A.none ? `<p class="house-where">${esc(A.none)}</p>` : "";
+  const noneNote = v && A.none ? `<p class="house-where">${esc(A.none)}</p>` : "";
   const members = W.list.filter(e => (e.g.rulers.length ? e.g.rulers.map(r => W.rulers[r]?.house) : [e.g.house]).includes(hid));
   // The same house on other thrones (Capet in France and England, Lancaster in England and France).
   const also = Object.keys(ARMS.houses).filter(k => k !== houseKey && k.split("/")[1] === hid);
