@@ -1489,7 +1489,9 @@ function renderCountries() {
     regionTab === "All" ? REGIONS.map(([r]) => `<li class="group" role="presentation">${esc(r)}</li>` + inRegion(r).map(item).join("")).join("") +
       `<li class="group" role="presentation">Fiction</li>` + CATALOG.filter(c => c.fictional).map(item).join("")
     : regionTab === "Fiction" ? CATALOG.filter(c => c.fictional).map(item).join("")
-    : inRegion(regionTab).map(item).join("");
+    : inRegion(regionTab).map(item).join("") +
+      // Westeros is never more than a scroll away, whatever region is open.
+      `<li class="group" role="presentation">Fiction</li>` + CATALOG.filter(c => c.fictional).map(item).join("");
 }
 let regionTab = null;
 document.getElementById("regionTabs").addEventListener("click", e => {
